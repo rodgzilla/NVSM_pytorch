@@ -1,0 +1,42 @@
+[[File:Penrose_unilluminable_room.svg|thumb|250px|Roger Penrose's solution of the illumination problem using elliptical arcs (blue) and straight line segments (green), with 3 positions of the single light source (red spot). The purple crosses are the foci of the larger arcs. Lit and unlit regions are shown in yellow and grey, respectively.]]
+The '''illumination problem''' is a resolved mathematical problem first posed by [[Ernst Straus]] in the 1950s.<ref name="Weisstein">{{Cite web
+  | last = Weisstein
+  | first = Eric W.
+  | authorlink = Eric W. Weisstein
+  | title = Illumination Problem
+  | publisher = Wolfram Research
+  | url = http://mathworld.wolfram.com/IlluminationProblem.html
+  | accessdate = 19 December 2010}}</ref> Straus asked if a room with mirrored walls can always be illuminated by a single [[point light source]], allowing for repeated reflection of light off the mirrored walls. Alternatively, the question can be stated as asking that if a [[billiard table]] can be constructed in any required shape, is there a shape possible such that there is a point where it is impossible to {{Cuegloss|Pot|pot}} the [[cue ball|billiard ball]] in a {{Cuegloss|Pocket|pocket}} at another point, assuming the ball is point-like and continues infinitely rather than stopping due to [[friction]].
+
+The problem was first solved in 1958 by [[Roger Penrose]] using ellipses to form the ''Penrose unilluminable room''.<ref name="Weisstein"/> He showed there exists a room with curved walls that must always have dark regions if lit only by a single point source. This problem was also solved for [[polygonal]] rooms by George Tokarsky in 1995 for 2 dimensions, which showed there exists an unilluminable polygonal 26-sided room with a "dark spot" which is not illuminated from another point in the room, even allowing for repeated reflections.<ref>{{Cite journal
+  | last = Tokarsky
+  | first = George
+  | title = Polygonal Rooms Not Illuminable from Every Point
+  | journal = American Mathematical Monthly
+  | volume = 102
+  | issue = 10
+  | pages = 867–879
+  | publisher = Mathematical Association of America
+  | location = University of Alberta, Edmonton, Alberta, Canada
+  | date = December 1995
+  | jstor = 2975263
+  | doi=10.2307/2975263}}</ref> This was a borderline case, however, since a finite number of dark ''points'' (rather than regions) are unilluminable from any given position of the point source. An improved solution was put forward by D. Castro in 1997, with a 24-sided room with the same properties.<ref>{{Cite journal
+  | last = Castro
+  | first = David
+  | title = Corrections
+  | journal = [[Quantum Magazine]]
+  | volume = 7
+  | issue = 3
+  | pages = 42
+  | publisher = Springer-Verlag
+  | location = Washington DC
+  | date = January–February 1997}}</ref>
+
+[[Image:Tokarsky_Castro_illumination_problem.svg|thumb|center| Solutions to the illumination problem by George W Tokarsky (26 sides) and D Castro (24 sides).]]
+
+In 2016, Lelièvre, Monteil and Weiss showed that a light source in a polygonal room whose angles (in degrees) are all rational numbers will illuminate the entire polygon, with the possible exception of a finite number of points.<ref>{{cite journal |last1=Lelièvre |first1=Samuel |last2=Monteil |first2=Thierry |last3=Weiss |first3=Barak |title=Everything is illuminated |journal=Geometry & Topology |date=4 July 2016 |volume=20 |issue=3 |pages=1737–1762 |doi=10.2140/gt.2016.20.1737 }}</ref>
+
+==References==
+{{reflist}}
+
+[[Category:Mathematical problems]]

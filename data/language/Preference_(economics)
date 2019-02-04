@@ -1,0 +1,175 @@
+[[Image:Preference example.jpg|thumb|alt=Example of a preference relation|A simple example of a preference order over three goods]] In [[economics]] and other [[social science]]s, '''preference''' is the ordering of alternatives based on their relative [[utility]], a process which results in an optimal "[[choice]]" (whether real or theoretical). The character of the individual preferences is determined purely by taste factors, independent of considerations of prices, income, or availability of goods.
+
+With the help of the [[scientific method]] many practical decisions of life can be modelled, resulting in testable predictions about human behavior. Although economists are usually not interested in the underlying causes of the preferences in themselves, they are interested in the theory of choice because it serves as a background for empirical [[demand]] analysis.<ref name="Arrow, Kenneth 1958">{{cite journal |last=Arrow |first=Kenneth |year=1958 |title=Utilities, attitudes, choices: a review note |journal=[[Econometrica]] |volume=26 |issue=1 |pages=1–23 |jstor=1907381 }}</ref>
+
+== History ==
+In 1926 [[Ragnar Frisch]] developed for the first time a mathematical model of preferences in the context of economic demand and utility functions.<ref name="Barten 1982 p. 384">[[Anton Barten|Barten, Anton]] and Volker Böhm. (1982). "Consumer theory", in: Kenneth Arrow and Michael Intrilligator (eds.) ''Handbook of mathematical economics. Vol. II'', p. 384</ref> Up to then, economists had developed an elaborated theory of demand that omitted ''primitive characteristics'' of people. This omission ceased when, at the end of the 19th and the beginning of the 20th century, [[logical positivism]] predicated the need of theoretical concepts to be related with observables.<ref name="econ.hit-u.ac.jp">Gilboa, Itzhak. (2009). [http://www.econ.hit-u.ac.jp/~kmkj/uncertainty/Gilboa_Lecture_Notes.pdf ''Theory of Decision under uncertainty'']. Cambridge: Cambridge university press</ref> Whereas economists in the 18th and 19th centuries felt comfortable theorizing about utility, with the advent of logical positivism in the 20th century, they felt that it needed more of an empirical structure. Because [[binary relation|binary choices]] are directly observable, it instantly appealed to economists. The search for observables in microeconomics is taken even further by [[revealed preference|revealed preference theory]].
+
+Since the pioneer efforts of Frisch in the 1920s, one of the major issues which has pervaded the theory of preferences is the representability of a preference structure with a real-valued function. This has been achieved by mapping it to the mathematical index called ''utility''. [[John von Neumann|Von Neumann]] and Morgenstern 1944 book "Games and Economic Behaviour" treated preferences as a formal relation whose properties can be stated axiomatically.  These type of axiomatic handling of preferences soon began to influence other economists: Marschak adopted it by 1950, Houthakker employed it in a 1950 paper, and Kenneth Arrow perfected it in his 1951 book "Social Choice and Individual Values".<ref>{{cite web |url=http://128.118.178.162/eps/mhet/papers/0506/0506003.pdf |author=Moscati, Ivan |year=2004 |title=Early Experiments in Consumer Demand Theory |archive-url=https://web.archive.org/web/20140302122147/http://128.118.178.162/eps/mhet/papers/0506/0506003.pdf |archive-date=2014-03-02 |website=128.118.178.162 |others=[[Wayback Machine]]}}</ref>
+
+[[Gérard Debreu]], influenced by the ideas of the [[Nicolas Bourbaki|Bourbaki group]], championed the axiomatization of consumer theory in the 1950s, and the tools he borrowed from the mathematical field of binary relations have become mainstream since then. Even though the economics of choice can be examined either at the level of utility functions or at the level of preferences, to move from one to the other can be useful. For example, shifting the conceptual basis from an abstract preference relation to an abstract utility scale results in a new mathematical framework, allowing new kinds of conditions on the structure of preference to be formulated and investigated.
+
+Another historical turnpoint can be traced back to 1895, when [[Georg Cantor]] proved in a theorem that if a binary relation is ''linearly ordered'', then it is also isomorphically embeddable in the ordered real numbers. This notion would become very influential for the theory of preferences in economics: by the 1940s prominent authors such as [[Paul Samuelson]], would theorize about people actually having weakly ordered preferences.<ref>Fishburn, Peter (1994). "Utility and subjective probability", in: Robert Aumann and Sergiu Hart (eds). ''Handbook of game theory. Vol. 2''. Amsterdam: Elsevier Science. pp. 1397–1435.</ref>
+
+== Notation ==
+Suppose the set of all states of the world is <math>X</math> and an agent has a preference relation on <math>X</math>. It is common to mark the weak preference relation by <math>\preceq</math>, so that <math>x \preceq y</math> means "the agent wants y at least as much as x" or "the agent weakly prefers y to x".
+
+The symbol <math>\sim</math> is used as a shorthand to the indifference relation: <math>x\sim y \iff (x\preceq y \land y\preceq x)</math>, which reads "the agent is indifferent between y and x".
+
+The symbol <math>\prec</math> is used as a shorthand to the strong preference relation: <math>x\prec y \iff (x\preceq y \land  y\not\preceq x)</math>, which reads "the agent strictly prefers y to x".
+
+== Meaning in decision sciences ==
+In everyday speech, the statement "''x'' is preferred to ''y''" is generally understood to mean that someone chooses ''x'' over ''y''. However, decision theory rests on more precise definitions of preferences given that there are many experimental conditions influencing people's choices in many directions.
+
+Suppose a person is confronted with a mental experiment that she must solve with the aid of introspection.  She is offered apples (''x'') and oranges (''y''), and is asked to verbally choose one of the two.  A decision scientist observing this single event would be inclined to say that whichever is chosen is the preferred alternative.
+
+Under several repetitions of this experiment (and assuming laboratory conditions controlling outside factors), if the scientist observes that apples are chosen 51% of the time it would mean that <math>x\succ y</math>.  If half of the time oranges are chosen, then <math>x\sim y</math>. Finally, if 51% of the time she chooses oranges it means that <math>y\succ x</math>.  Preference is here being identified with a greater frequency of choice.
+
+This experiment implicitly assumes that the trichotomy property holds for the order relation. Otherwise, out of 100 repetitions, some of them will give as a result that neither apples, oranges or ties are chosen.  These few cases of uncertainty will ruin any preference information resulting from the frequency attributes of the other valid cases.
+
+However, this example was used for only illustrative purposes, and it should not be interpreted as an indication that the economic theory of preferences starts with experiments and moves on to theorems.  On the contrary, the method used in the theory preferences is essentially an armchair method. Economists make assumptions, and from these assumptions they deduce theorems which presumably can be tested, even though the test is not indispensable.
+
+Consumers are by definition demanders of goods and services.  Standard economic theory states that their demand behaviour  can be thought of maximizing a utility index, or its parallel: the ranking of the set of possible consumption bundles by means of either the binary relation "at least as good as" or the relation "strictly preferred as".
+
+Of all the available bundles of goods and services, only one is ultimately chosen. The theory of preferences examines the problem of getting to this optimal choice using a ''system of preferences'' within a budgetary limitation.
+
+In reality, people do not necessarily rank or order their preferences in a consistent way. In preference theory, some idealized conditions are regularly imposed on the preferences of economic actors. One of the most important of these idealized conditions is the ''axiom of [[transitive relation|transitivity]]'':<ref name="Arrow, Kenneth 1958"/>
+
+'''Axiom of transitivity''': If alternative <math>A\!</math> is weakly preferred to alternative <math>B\!</math>, and <math>B\!</math> to <math>C\!</math>, then <math>A\!</math> is weakly preferred to <math>C\!</math>.
+
+Symbolically, this can be stated as
+
+:If <math>A \succeq B</math> and <math>B \succeq C,</math> then <math>A \succeq C.</math>
+
+Sometimes a weaker axiom (that is, it is implied by transitivity, but not vice versa), called "[[quasitransitive relation|quasi-transitivity]]" is used, which only requires the above for strict preferences:
+
+:If <math>A \succ B</math> and <math>B \succ C,</math> then <math>A \succ C.</math>
+
+The language of binary relations allow one to write down exactly what is meant by "ranked set of preferences", and thus gives an unambiguous definition of ''order''. A preference relation should not be confused with the order relation <math> \geqslant \!</math> used to indicate which of two real numbers is greater.<ref>Binmore, Ken. (1992). ''Fun and games. A text on game theory''. Lexington: Houghton Mifflin</ref> Order relations over the real number line satisfy an extra condition:
+
+:<math>A \geqslant B \!</math> and <math>B \geqslant A \!</math> implies <math>A = B .</math>
+
+But in preference relations, two things can be equally liked without being in some sense numerically equal.  Hence, an ''indifference relation'' is used instead of an equality relation (the symbol <math> \sim \!</math> denotes this kind of relation). Thus we have
+
+:<math>A \succeq B</math> and <math>B \succeq A</math> implies <math>A \sim B.</math>
+
+A system of preferences or ''preference structure'' refers to the set of qualitative relations between different alternatives of consumption. For example, if the alternatives are:
+
+*Apple
+*Orange
+*Banana
+
+In this example, a preference structure would be:
+
+"The apple is at least as preferred as the orange", and "The orange is as least as preferred as the Banana". One can use <math>\succsim\!</math> to symbolize that some alternative is "at least as preferred as" another one, which is just a binary relation on the set of alternatives. Therefore:
+
+* Apple <math>\succsim\!</math> Orange
+* Orange <math>\succsim\!</math> Banana
+
+The former qualitative relation can be preserved when mapped into a numerical structure, if we impose certain desirable properties over the binary relation: these are the ''axioms of preference order''. For instance: Let us take the apple and assign it the arbitrary number 5. Then take the orange and let us assign it a value lower than 5, since the orange is less preferred than the apple. If this procedure is extended to the banana, one may prove by induction that if <math>u\!</math> is defined on {apple, orange} and it represents a well-defined binary relation called "at least as preferred as" on this set, then it can be extended to a function <math>u\!</math> defined on {apple, orange, banana} and it will represent "at least as preferred as" on this larger set.
+
+Example:
+
+*Apple = 5
+*Orange = 3
+*Banana = 2
+
+5 > 3 > 2 = u(apple) > u(orange) > u(banana)
+
+and this is consistent with Apple <math>\succsim\!</math> Orange, and with Orange <math>\succsim\!</math> Banana.
+
+'''Axiom of order ([[total relation|Completeness]])''': For all <math>A\!</math> and <math>B\!</math> we have <math>A\! \succsim\!  B\!</math> or <math>B\! \succsim\!  A\!</math> or both.
+
+In order for preference theory to be useful mathematically, we need to assume the '''axiom of continuity'''. Continuity simply means that there are no ‘jumps’ in people’s preferences. In mathematical terms, if we prefer point A along a preference curve to point B, points very close to A will also be preferred to B. This allows preference curves to be differentiated. The continuity assumption is "stronger than needed" in the sense that it indeed guarantees the existence of a ''continuous utility function'' representation. Continuity is, therefore, a sufficient condition, but not a necessary one, for a system of preferences.<ref>{{cite web |url= http://www.policonomics.com/preferences/ |title= Policonomics.  Economics made simple|last1= Gallego|first1= Lope|last2= |first2= |year= 2012|work= Preferences |publisher= Open Dictionary|accessdate=16 March 2013}}</ref>
+
+Although commodity bundles come in discrete packages, economists treat their units as a continuum, because very little is gained from recognizing their discrete nature. According to Silberberg,{{citation needed|date=May 2015}} the two approaches are reconcilable by this rhetorical device: When a consumer makes repeated purchases of a product, the commodity spaces can get converted from the discrete items to the time rates of consumption.  Instead of, say, noting that a consumer purchased one loaf of bread on Monday, another on Friday and another the following Tuesday, we can speak of an average rate of consumption of bread equal to 7/4 loaves per week. There is no reason why the average consumption per week cannot be any real number, thus allowing differentiability of the consumer's utility function. We can speak of continuous ''services of goods'', even if the goods themselves are purchased in discrete units.
+
+Although some authors include [[reflexive relation|reflexivity]] as one of the axioms required to obtain representability (this axiom states that <math>A\! \succsim\!  A\!</math>), it is redundant inasmuch as the completeness axiom implies it already.<ref>[[Andreu Mas-Colell|Mas-Colell, Andreu]], Michael Whinston and Jerry Green (1995). ''Microeconomic theory''. Oxford: Oxford University Press {{ISBN|0-19-507340-1}}</ref>
+
+=== Most commonly used axioms ===
+
+* Order-theoretic: acyclicity, transitivity, the semiorder property, completeness
+* Topological: continuity, openness or closedness of the preference sets
+* Linear-space: [[convex preferences|convexity]], homogeneity, translation-invariance
+{{clarify|date=May 2015}}
+
+=== Normative interpretations of the axioms ===
+Everyday experience suggests that people at least talk about their preferences as if they had personal "standards of judgment" capable of being applied to the particular domain of alternatives that present themselves from time to time.<ref name="Shapley 1974">Shapley, Lloyd and Martin Shubik. (1974). "Game theory in economics". RAND Report R-904/4</ref> Thus, the axioms are an attempt to model the decision maker's preferences, not over the actual choice, but over the type of desirable procedure (a procedure that any human being would like to follow). [[Behavioral economics]] investigates inconsistent behavior (i.e. behavior that violates the axioms) of people. Believing in axioms in a normative way does not imply that everyone is asserted to behave according to them. Instead, they are a basis for suggesting a mode of behavior, one that people would like to see themselves or others following.<ref name="econ.hit-u.ac.jp"/>
+
+Here is an illustrative example of the normative implications of the theory of preferences:<ref name="econ.hit-u.ac.jp"/> Consider a decision maker who needs to make a choice. Assume that this is a choice of where to live or whom to marry and that the decision maker has asked an economist for advice. The economist, who wants to engage in normative science, attempts to tell the decision maker how she should make decisions.
+
+Economist: I suggest that you attach a utility index to each alternative, and choose the alternative with the highest utility.
+
+Decision Maker: You've been brainwashed. You think only in terms of functions. But this is an important decision, there are people involved, emotions, these are not functions!
+
+Economist: Would you feel comfortable with cycling among three possible options? Preferring ''x'' to ''y'', and then ''y'' to ''z'', but then again ''z'' to ''x''?
+
+Decision Maker: No, this is very silly and counterproductive. I told you that there are people involved, and I do not want to play with their feelings.
+
+Economist: Good. So now let me tell you a secret: if you follow these two conditions making decision, and avoid cycling, then you can be described as if you are maximizing a utility function.
+
+Consumers whose preference structures violate transitivity would get exposed to being exploited by some unscrupulous person. For instance, Maria prefers apples to oranges, oranges to bananas, and bananas to apples. Let her be endowed with an apple, which she can trade in a market. Because she prefers bananas to apples, she is willing to pay, say, one cent to trade her apple for a banana.  Afterwards, Maria is willing to pay another cent to trade her banana for an orange, and again the orange for an apple, and so on. There are [[Intransitivity#Occurrences in preferences|other examples]] of this kind of irrational behaviour.
+
+Completeness implies that some choice will be made, an assertion that is more philosophically questionable.  In most applications, the set of consumption alternatives is infinite and the consumer is not conscious of all preferences. For example, one does not have to choose over going on holiday by plane or by train: if one does not have enough money to go on holiday anyway then it is not necessary to attach a preference order to those alternatives (although it can be nice to dream about what one would do if one would win the lottery). However, preference can be interpreted as a hypothetical choice that could be made rather than a conscious state of mind.  In this case, completeness amounts to an assumption that the consumers can always make up their mind whether they are indifferent or prefer one option when presented with any pair of options.
+
+Under some extreme circumstances there is no "rational" choice available. For instance, if asked to choose which one of one's children will be killed, as in [[Sophie's Choice (novel)|Sophie's Choice]], there is no rational way out of it. In that case preferences would be incomplete, since "not being able to choose" is not the same as "being indifferent".
+
+The ''indifference relation'' ~ is an [[equivalence relation]].  Thus we have a [[quotient set]] S/~ of [[equivalence class]]es of S, which forms a [[partition of a set|partition]] of S.  Each equivalence class is a set of packages that is equally preferred.
+If there are only two commodities, the equivalence classes can be graphically represented as [[indifference curve]]s.
+Based on the preference relation on S we have a preference relation on S/~.  As opposed to the former, the latter is [[antisymmetric relation|antisymmetric]] and a [[total order]].
+
+== Applications to theories of utility ==
+In economics, a utility function is often used to represent a preference structure such that <math>u\left(A\right)\geqslant u(B)</math> [[if and only if]] <math>A \succsim\! B</math>. The idea is to associate each class of indifference with a real number such that, if one class is preferred to the other, then the number of the first one is greater than that of the second one. When a preference order is both transitive and complete, then it is standard practice to call it a ''rational preference relation'', and the people who comply with it are ''[[rational agent]]s''. A transitive and complete relation is called a [[Strict weak ordering#Total preorders|''weak order'' (or ''total preorder'')]]. The literature on preferences is far from being standardized regarding  terms such as ''complete'', ''partial'', ''strong'', and ''weak''. Together with the terms "total", "linear", "strong complete", "quasi-orders", "pre-orders" and "sub-orders", which also have a different meaning depending on the author's taste, there has been an abuse of semantics in the literature.<ref name="Shapley 1974"/>
+
+According to Simon Board, a [[Continuous function|continuous]] utility function always exists if <math> \succsim\! </math> is a continuous rational preference relation on <math>R^n</math>.<ref name=Boa2005>{{cite web|last=Board|first=Simon|title=Preferences and Utility|url=http://www.econ.ucla.edu/sboard/teaching/econ11_09/econ11_09_lecture2.pdf|publisher=UCLA|accessdate=15 February 2013}}</ref> For any such preference relation, there are many continuous utility functions that represent it.  Conversely, every utility function can be used to construct a unique preference relation.
+
+All the above is independent of the prices of the goods and services and of the budget constraints faced by consumers. These determine the ''feasible'' bundles (which they can afford). According to the standard theory, consumers chooses a bundle within their budget such that no other feasible bundle is preferred over it; therefore their utility is maximized.
+
+=== Primitive equivalents of some known properties of utility functions ===
+* An increasing utility function is associated with a [[monotonic]] preference relation.
+* [[Quasi-convex function|Quasi-concave]] utility functions are associated with a [[convex preferences|convex preference]] order. When non-convex preferences arise, the [[Shapley–Folkman lemma]] is applicable.
+* Weakly separable utility functions are associated with the weak separability of preferences.{{clarify|date=May 2015}}
+
+=== Lexicographic preferences ===
+[[Lexicographic preferences]] are a special case of preferences that assign an infinite value to a good, when compared with the other goods of a bundle.
+
+== Strict versus weak ==
+The possibility of defining a strict preference relation <math>\succ\! </math> as distinguished from the weaker one <math>\succsim\!</math>, and vice versa, suggests in principle an alternative approach of starting with the strict relation <math>\succ\! </math> as the primitive concept and deriving the weaker one and the indifference relation. However, an indifference relation derived this way will generally not be transitive.<ref name="Barten 1982 p. 384"/> According to Kreps "beginning with strict preference makes it easier to discuss noncomparability possibilities".<ref name="Kreps 1990 p. 24">Kreps, David. (1990). ''A Course in Microeconomic Theory''.  New Jersey: Princeton University Press</ref>
+
+== Aggregation ==
+Under certain assumptions, individual preferences can be aggregated onto the preferences of a group of people. However, [[Arrow's impossibility theorem]] states that voting systems sometimes cannot convert individual preferences into desirable community-wide acts of choice.
+
+== Expected utility theory ==
+Preference relations were initially applied only to alternatives that involve no risk and uncertainties because this is an assumption of the [[homo economicus]] model of behaviour.  Nonetheless, a very similar theory of preferences has also been applied to the space of simple lotteries, as in [[expected utility hypothesis|expected utility theory]].  In this case a preference structure over lotteries can also be represented by a utility function.
+
+== Criticism ==
+Some critics say that rational theories of choice and preference theories rely too heavily on the assumption of invariance, which states that the relation of preference should not depend on the description of the options or on the method of elicitation.  But without this assumption, one's preferences cannot be represented as maximization of utility.<ref>Slovic, P. (1995). "The Construction of Preference". American Psychologist, Vol. 50, No. 5, pp. 364–371.</ref>
+
+Milton Friedman said that segregating taste factors from objective factors (i.e. prices, income, availability of goods) is conflicting because both are "inextricably interwoven".
+
+== See also ==
+{{columns-list|colwidth=15em|
+*[[Behavioral economics]]
+*[[Convex preferences]]
+*[[Economic subjectivism]]
+*[[Gibbard–Satterthwaite theorem]]
+*[[Lexicographic preferences]]
+*[[Pairwise comparison]]
+*[[Revealed preference]]
+*[[Semiorder]]
+*[[Strict weak ordering]]
+*[[Time preference]]
+*[[Indifference curve]]
+*[[Rational choice theory]]
+*[[Ordinal utility]] vs. [[Cardinal utility]]
+*[[TOTREP]]
+}}
+
+== References ==
+{{Reflist}}
+
+{{microeconomics-footer}}
+
+{{DEFAULTSORT:Preference (Economics)}}
+[[Category:Microeconomics]]
+[[Category:Utility]]

@@ -1,0 +1,120 @@
+[[File:Surveyor diagram(English captions).jpg|upright=1.5|thumb|Photograph of the Surveyor 3 spacecraft resting on the surface of the Moon, taken by [[Apollo 12]] astronauts (descriptions added). Not seen are the main retrorocket and radar unit, which are jettisoned before landing. (NASA)]]
+
+The '''Surveyor program''' was a [[NASA]] program that, from June 1966 through January 1968, sent seven [[robotic spacecraft]] to the surface of the [[Moon]]. Its primary goal was to demonstrate the feasibility of [[Soft landing (rocketry)|soft landings]] on the Moon. The Surveyor craft were the first American spacecraft to achieve soft landing on an [[Astronomical object|extraterrestrial body]]. The missions called for the craft to travel directly to the Moon on an impact trajectory, a journey that lasted 63 to 65 hours, and ended with a deceleration of just over three minutes to a soft landing. The program was implemented by NASA's [[Jet Propulsion Laboratory]] (JPL) to prepare for the [[Apollo program]]. JPL selected Hughes Aircraft to develop the spacecraft system.<ref name="NASA Unmanned Space Project Management Surveyor and Lunar Orbiter SP-4901, Chapter 2">{{cite web|title=NASA SP-4901|url=http://www.hq.nasa.gov/office/pao/History/SP-4901/chp2.htm&Display=ReadMore|accessdate=31 July 2014}}</ref>  The total cost of the Surveyor program was officially $469 million.
+
+Five of the Surveyor craft successfully soft-landed on the Moon, including the first one. The other two failed: Surveyor 2 crashed at high velocity after a failed mid-course correction, and Surveyor 4 was lost to contact (possibly exploding) 2.5 minutes before its scheduled touch-down.
+
+All seven spacecraft are still on the Moon; none of the missions included returning them to Earth.  Some parts of [[Surveyor 3]] were returned to Earth by the crew of [[Apollo 12]], which landed near it in 1969.  The camera from this craft is on display at the [[National Air and Space Museum]] in Washington, DC.
+
+== Goals ==
+[[Image:Apollo12ConradSurveyor.jpg|thumb|Astronaut [[Pete Conrad]] near Surveyor 3 during Apollo 12, 1969. Lunar module in the background.]]
+
+The program performed several other services beyond its primary goal of demonstrating soft landings.  The ability of spacecraft to make midcourse corrections was demonstrated, and the landers carried instruments to help evaluate the suitability of their landing sites for manned Apollo landings. Several Surveyor spacecraft had robotic shovels designed to test lunar soil mechanics. Before the Soviet [[Luna 9]] mission (landing four months before Surveyor 1) and the Surveyor project, it was unknown how deep the dust on the Moon was. If the dust was too deep, then no astronaut could land. The Surveyor program proved that landings were possible. Some of the Surveyors also had [[Alpha particle scattering|alpha scattering]] instruments and magnets, which helped determine the chemical composition of the soil.
+
+The simple and reliable mission architecture was a pragmatic approach to solving the most critical space engineering challenges of the time, namely the closed-loop terminal descent guidance and control system, throttleable engines, and the radar systems required for determining the lander's altitude and velocity. The Surveyor missions were the first time that [[NASA]] tested such systems in the challenging thermal and radiation environment near the Moon.
+
+== Launch and lunar landing ==
+[[Image:Surveyor 1 launch.jpg|left|thumb|Launch of the [[Atlas-Centaur]] AC-10 rocket carrying the Surveyor 1 spacecraft, May 30, 1966]]
+
+Each Surveyor mission consisted of a single unmanned spacecraft designed and built by [[Hughes Aircraft Company]]. The launch vehicle was the [[Atlas-Centaur]], which injected the craft directly into trans-lunar flightpath. The craft did not orbit the Moon on reaching it, but directly decelerated from impact trajectory, from 2.6&nbsp;km/s relative to the Moon before firing retrorockets to a soft landing about 3 minutes 10 seconds later.
+
+Each craft was planned to slow to about 110&nbsp;m/s (4% of speed before retrofire) by a main solid fuel retrorocket, which fired for 40 seconds starting at an altitude of 75.3&nbsp;km above the Moon, and then was jettisoned along with radar unit at 11&nbsp;km from the surface. The remainder of the trip to the surface, lasting about 2.5 minutes, was handled by smaller doppler radar units and three [[Vernier thruster|vernier engines]] running on liquid fuels fed to them using pressurized helium. (The successful flight profile of Surveyor 5 was given a somewhat shortened vernier flight sequence as a result of a helium leak). The last 3.4 meters to the surface was accomplished in free fall from zero velocity at that height, after the vernier engines were turned off. This resulted in a landing speed of about 3&nbsp;m/s. The free-fall to the surface was in an attempt to avoid surface contamination by rocket blast.
+
+Surveyor 1 required a total of about 63 hours (2.6 days) to reach the Moon, and Surveyor 5 required 65 hours (2.7 days). The launch weights (at lunar injection) of the seven Surveyors ranged from {{convert|995.2|kg}} to {{convert|1040|kg}}, and their landing weights (minus fuel, jettisoned retrorocket, and radar unit) ranged from {{convert|294.3|kg}} to {{convert|306|kg}}.
+
+== Missions ==
+{{Annotated image
+ |caption=Landing sites of American Surveyor and Apollo programs, together with Soviet Luna program.
+ |image-width=270
+ |width=270
+ |height=260
+ |imagemap=
+<imagemap>
+Image:Moon landing map surveyor.svg|270px
+default [[Image:Moon landing map surveyor.svg]]
+desc none
+</imagemap>
+}}
+
+Of the seven Surveyor missions, five were successful (71.4%).
+
+{| class="wikitable"
+|-
+! Surveyor #
+! Launched from Earth
+! Arrived at Moon
+! Disposition
+|-
+| [[Surveyor 1|1]]
+| May 30, 1966
+| June 2, 1966
+| landed on [[Oceanus Procellarum]]
+|-
+| [[Surveyor 2|2]]
+| September 20, 1966
+| September 23, 1966
+| crashed near [[Copernicus (lunar crater)|Copernicus crater]]
+|-
+| [[Surveyor 3|3]]
+| April 17, 1967
+| April 20, 1967
+| landed on [[Oceanus Procellarum]]
+|-
+| [[Surveyor 4|4]]
+| July 14, 1967
+| July 17, 1967
+| crashed on [[Sinus Medii]]
+|-
+| [[Surveyor 5|5]]
+| September 8, 1967
+| September 11, 1967
+| landed on [[Mare Tranquillitatis]]
+|-
+| [[Surveyor 6|6]]
+| November 7, 1967
+| November 10, 1967
+| landed on [[Sinus Medii]]
+|-
+| [[Surveyor 7|7]]
+| January 7, 1968
+| January 10, 1968
+| landed near [[Tycho (lunar crater)|Tycho crater]]
+|}
+
+Surveyor 6 was the first spacecraft planned to liftoff from the Moon's surface. Surveyor 3 was the first spacecraft to unintentionally liftoff from the Moon's surface, which it did twice, due to an anomaly with Surveyor's Landing Radar, which did not shut off the vernier engines but kept them firing throughout the first touchdown and after it. Apollo 12's Lunar Module ''Intrepid'' landed 600 feet from Surveyor 3, as planned. Surveyor 3's TV and telemetry systems were found to have been damaged by its unplanned landings and liftoffs.
+
+== Space Race competition ==
+[[Image:Surveyor lander.png|thumb|right|Surveyor lander on display at the National Air And Space Museum]]
+
+During the time of the Surveyor missions, the [[United States]] was actively involved in the [[Space Race]] with the [[Soviet Union]]. Thus, the Surveyor 1 landing in June 1966, only four months after the Soviet [[Luna 9]] probe landed in February, was an indication the programs were at similar stages.
+
+==See also==
+*[[Atlas (rocket family)]]
+*[[Luna programme]]
+*[[Lunar Orbiter program]]
+*[[Ranger program]]
+*[[Exploration of the Moon]]
+
+== References ==
+{{reflist|2}}
+
+==External links==
+*[http://nssdc.gsfc.nasa.gov/planetary/lunar/surveyor.html Surveyor (1966–1968)]
+*[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19690027073_1969027073.pdf Surveyor Program Results (PDF) 1969]
+*[https://archive.org/details/surveyorprogramr00unit Surveyor Program Results (Good Quality Color PDF) 1969]
+*[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19720019081_1972019081.pdf Analysis of Surveyor 3 material and photographs returned by Apollo 12 (PDF) 1972]
+*[http://www.lpi.usra.edu/expmoon/surveyor/surveyor.html Exploring the Moon: The Surveyor Program]
+*[http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1966-045A Details of Surveyor 1 launch, and also the entire program]
+
+{{Commons|Surveyor program}}
+{{Surveyor program|before=[[Ranger program|Ranger]]|after=''None, see contemporaneous program [[Lunar Orbiter program|Lunar Orbiters]]''}}
+{{Moon spacecraft}}
+{{NASA planetary exploration programs}}
+{{Jet Propulsion Laboratory}}
+{{NASA navbox}}
+
+{{Use American English|date=January 2014}}
+
+[[Category:Surveyor program (NASA)|*]]
+[[Category:Missions to the Moon]]
+[[Category:Derelict landers (spacecraft)]]

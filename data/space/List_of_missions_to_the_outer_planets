@@ -1,0 +1,214 @@
+{{Use British English|date=January 2014}}
+{{Use dmy dates|date=January 2014}}
+{{Missions to the outer Solar System}}
+A total of nine spacecraft have been launched on missions that involve visits to the outer planets; all nine missions involve encounters with [[Jupiter]], with four spacecraft also visiting [[Saturn]]. One spacecraft, ''[[Voyager 2]]'', also visited [[Uranus]] and [[Neptune]]. The nine missions include two; ''[[Ulysses (spacecraft)|Ulysses]]'' and ''[[New Horizons]]'', whose primary objectives are not related to the outer planets, but which flew past Jupiter to gain [[gravity assist]]s  en route to a polar orbit around the Sun, and [[Pluto]]—at the time of its launch considered an outer planet—respectively. ''[[Cassini–Huygens]]'' also flew past Jupiter for a gravity assist on its mission to explore Saturn.
+
+Only three of the missions to the outer planets have been orbiters: ''[[Galileo (spacecraft)|Galileo]]'' orbited Jupiter for eight years, while ''Cassini'' orbited Saturn for thirteen years. ''[[Juno (spacecraft)|Juno]]'' has been orbiting Jupiter since 2016.
+
+==Jupiter==
+{{main|Exploration of Jupiter}}
+Six spacecraft have been launched to explore [[Jupiter]], with an additional three spacecraft making gravity-assist flybys without the exploration of Jupiter being one of their primary objectives.
+{| class="wikitable sortable" style="width:100%"
+|+ Timeline 
+|-
+! Spacecraft
+! Launch Date
+! Operator
+! Mission
+! Outcome
+! Remarks
+! Carrier rocket
+|-
+| ''[[Pioneer 10]]'' 
+| {{dts|3 March 1972}}<ref name="LL">{{cite web|url=http://planet4589.org/space/log/launchlog.txt|title=Launch Log|accessdate=6 January 2013|first=Jonathan|last=McDowell|work=Jonathan's Space Page}}</ref>
+| [[NASA]]<br/><small>[[United States]]</small>
+| Flyby
+| {{yes|{{hs|4}}Successful}}<ref>{{cite web|url=http://solarsystem.nasa.gov/missions/profile.cfm?Sort=Target&Target=Jupiter&MCode=Pioneer_10|title=Solar System Exploration - Pioneer 10|publisher=NASA|accessdate=6 January 2013}}</ref>
+| Closest approach at 02:25 UTC on 4 December 1973<ref>{{cite web|url=http://solarsystem.nasa.gov/missions/profile.cfm?MCode=Pioneer_10&Display=ReadMore|title=Solar System Exploration - Pioneer 10 |publisher=NASA|accessdate=6 January 2013}}</ref>
+| [[Atlas-Centaur|Atlas SLV-3C Centaur-D]]<ref name="GSP-P10">{{cite web|url=http://space.skyrocket.de/doc_sdat/pioneer-1011.htm|title=Pioneer 10, 11, H|first=Gunter|last=Krebs|work=Gunter's Space Page|accessdate=6 January 2013}}</ref>
+|-
+| ''[[Pioneer 11]]''
+| {{dts|6 April 1973}}<ref name="LL"/>
+| [[NASA]]<br/><small>[[United States]]</small>
+| Flyby
+| {{yes|{{hs|4}}Successful}}<ref>{{cite web|url=http://solarsystem.nasa.gov/missions/profile.cfm?Sort=Target&Target=Jupiter&MCode=Pioneer_11|title=Solar System Exploration - Pioneer 11|publisher=NASA|accessdate=6 January 2013}}</ref>
+| Closest approach at 05:22 UTC on 3 December 1974, later flew past Saturn<ref name="NASA-P11">{{cite web|url=http://solarsystem.nasa.gov/missions/profile.cfm?Sort=Target&Target=Jupiter&MCode=Pioneer_11&Display=ReadMore|title=Solar System Exploration - Pioneer 11 |publisher=NASA|accessdate=6 January 2013}}</ref>
+| {{nowrap|[[Atlas-Centaur|Atlas SLV-3D Centaur-D1A]]<ref name="GSP-P10"/>}}
+|-
+| ''[[Voyager 2]]'' 
+| {{dts|20 August 1977}}<ref name="LL"/>
+| [[NASA]]<br/><small>[[United States]]</small>
+| Flyby
+| {{yes|{{hs|4}}Successful}}
+| Closest approach at 22:29 on 9 July 1979, later flew past Saturn, Uranus and Neptune<ref name="NASA-V2">{{cite web|url=http://solarsystem.nasa.gov/missions/profile.cfm?Sort=Target&Target=Jupiter&MCode=Voyager_2&Display=ReadMore|title=Solar System Exploration - Voyager 2 |publisher=NASA|accessdate=6 January 2013}}</ref>
+| [[Titan IIIE|Titan IIIE Centaur-D1T]]<ref name="GSP-Voy">{{cite web|url=http://space.skyrocket.de/doc_sdat/voyager.htm|title=Voyager 1, 2|first=Gunter|last=Krebs|work=Gunter's Space Page|accessdate=6 January 2013}}</ref>
+|-
+| ''[[Voyager 1]]'' 
+| {{dts|5 September 1977}}<ref name="LL"/>
+| [[NASA]]<br/><small>[[United States]]</small>
+| Flyby
+| {{yes|{{hs|4}}Successful}}
+| Closest approach at 12:05 UTC on 5 March 1979, later flew past Saturn<ref name="NASA-V1">{{cite web|url=http://solarsystem.nasa.gov/missions/profile.cfm?Sort=Target&Target=Jupiter&MCode=Voyager_1&Display=ReadMore|title=Solar System Exploration - Voyager 1 |publisher=NASA|accessdate=6 January 2013}}</ref>
+| [[Titan IIIE|Titan IIIE Centaur-D1T]]<ref name="GSP-Voy"/>
+|-
+| ''[[Galileo (spacecraft)|Galileo]]'' 
+| {{dts|18 October 1989}}<ref name="LL"/>
+| [[NASA]]<br/><small>[[United States]]</small>
+| Orbiter/Atmospheric
+| {{yes|{{hs|4}}Successful}}<ref name="NASA-GR">{{cite web|url=http://solarsystem.nasa.gov/missions/profile.cfm?Sort=Target&Target=Jupiter&MCode=Galileo|title=Solar System Exploration - Galileo|publisher=NASA|accessdate=6 January 2013}}</ref>
+| Atmospheric probe entered atmosphere at 22:04 UTC on 7 December 1995 and operated for 57 minutes; main spacecraft entered orbit at 00:27 UTC on 8 December.<ref name="NASA-G">{{cite web|url=http://solarsystem.nasa.gov/missions/profile.cfm?Sort=Target&Target=Jupiter&MCode=Galileo&Display=ReadMore|title=Solar System Exploration - Galileo |publisher=NASA|accessdate=6 January 2013}}</ref> Spacecraft was deorbited on 21 September 2003, impacting Jupiter's atmosphere at 18:57:18 UTC.<ref name="NASA-GT">{{cite web|url=http://solarsystem.nasa.gov/missions/profile.cfm?Sort=Target&Target=Jupiter&MCode=Galileo&Display=Dates|title=Solar System Exploration - Galileo - Dates|publisher=NASA|accessdate=6 January 2013}}</ref>
+| {{OV|104}}<br/>[[STS-34]] / [[Inertial Upper Stage|IUS]]<ref>{{cite web|url=http://space.skyrocket.de/doc_sdat/galileo.htm|title=Galileo|first=Gunter|last=Krebs|work=Gunter's Space Page|accessdate=6 January 2013}}</ref>
+|- style="background-color:#cccccc;"
+| ''[[Ulysses (spacecraft)|Ulysses]]'' 
+| {{dts|6 October 1990}}<ref name="LL"/>
+| [[NASA]]<br/><small>[[United States]]</small> / [[European Space Agency|ESA]]
+| Gravity assist
+| {{n/a}}
+| Flyby on 8 February 1992 to reach a high-inclination [[heliocentric orbit]].<ref>{{cite web|url=http://solarsystem.nasa.gov/missions/profile.cfm?Sort=Target&Target=Jupiter&MCode=Ulysses&Display=ReadMore|title=Solar System Exploration - Ulysses |publisher=NASA|accessdate=6 January 2013}}</ref> Also made a distant incidental flyby on 4 February 2004<ref>{{cite web|url=http://ulysses.jpl.nasa.gov/science/Encounter.html|title=Ulysses - Encounter Trajectory|publisher=NASA Jet Propulsion Laboratory|accessdate=6 January 2013|deadurl=yes|archiveurl=https://web.archive.org/web/20130216040047/http://ulysses.jpl.nasa.gov/science/Encounter.html|archivedate=16 February 2013|df=dmy-all}}</ref>
+| {{OV|103}}<br/>[[STS-41]] / [[Inertial Upper Stage|IUS]]<ref>{{cite web|url=http://space.skyrocket.de/doc_sdat/ulysses.htm|title=Ulyssees|first=Gunter|last=Krebs|work=Gunter's Space Page|accessdate=6 January 2013}}</ref>
+|- style="background-color:#cccccc;"
+| {{nowrap|''[[Cassini–Huygens]]''}}
+| {{dts|15 October 1997}}<ref name="LL"/>
+| [[NASA]]<br/><small>[[United States]]</small> / [[European Space Agency|ESA]]
+| Gravity assist
+| {{n/a}}
+| Flyby on 30 December 2000 en route to [[Saturn]]<ref name="NASA-CASST">{{cite web|url=http://solarsystem.nasa.gov/missions/profile.cfm?Sort=Target&Target=Jupiter&MCode=Cassini&Display=Dates|title=Solar System Exploration - Cassini - Dates|publisher=NASA|accessdate=6 January 2013}}</ref>
+| [[Titan IV|Titan IV(401)B Centaur-T]]<ref name="GSP-Cass">{{cite web|url=http://space.skyrocket.de/doc_sdat/cassini.htm|title=Cassini|first=Gunter|last=Krebs|work=Gunter's Space Page|accessdate=6 January 2013}}</ref>
+|- style="background-color:#cccccc;"
+| ''[[New Horizons]]'' 
+| {{dts|19 January 2006}}<ref name="LL"/>
+| [[NASA]]<br/><small>[[United States]]</small>
+| Gravity assist<ref name="GSP-NH"/>
+| {{n/a}}
+| Flyby on 28 February 2007 (closest approach at 05:43:40<ref>{{cite web|url=http://www.dmuller.net/spaceflight/mission.php?mission=newhorizons&appear=black&mtype=scet&showimg=yes&dispwide=no|title=New Horizons Full Mission Timeline|first=Daniel|last=Muller|accessdate=6 January 2013}}</ref>) en route to [[Pluto]]<ref>{{cite web|url=http://news.bbc.co.uk/1/hi/technology/6279423.stm|title=New Horizons targets Jupiter kick|publisher=BBC News|date=19 January 2007|accessdate=6 January 2013}}</ref>
+| [[Atlas V|Atlas V 551]]<ref name="GSP-NH">{{cite web|url=http://space.skyrocket.de/doc_sdat/new-horizons.htm|title=New Horizons|first=Gunter|last=Krebs|work=Gunter's Space Page|accessdate=6 January 2013}}</ref>
+|-
+| ''[[Juno (spacecraft)|Juno]]'' 
+| {{dts|5 August 2011}}<ref name="LL"/>
+| [[NASA]]<br/><small>[[United States]]</small>
+| Orbiter
+| {{usually|{{hs|5}}Operational}}
+| Entered orbit 4 July 2016<ref>{{cite web|url=https://www.bbc.com/news/science-environment-36710768|title=Juno probe enters into orbit around Jupiter|first=Jonathan|last=Amos|publisher=BBC News|date=4 July 2016|accessdate=5 July 2016}}</ref>
+| [[Atlas V|Atlas V 551]]<ref>{{cite web|url=http://space.skyrocket.de/doc_sdat/juno.htm|title=Juno (New Frontiers 2)|first=Gunter|last=Krebs|work=Gunter's Space Page|accessdate=6 January 2013}}</ref>
+|}
+:''Missions whose primary objectives were not related to the exploration of Jupiter are indicated in grey''
+
+==Saturn==
+{{main|Exploration of Saturn}}
+Four spacecraft have visited Saturn; ''Pioneer 11'', ''Voyager 1'' and ''Voyager 2'' made flybys, while ''Cassini–Huygens'' entered orbit, and deployed a probe into the atmosphere of Titan.
+{| class="wikitable sortable" style="width:100%"
+|+ Timeline 
+|-
+! Spacecraft
+! Launch Date
+! Operator
+! Mission
+! Outcome
+! Remarks
+! Carrier rocket
+|-
+| ''[[Pioneer 11]]''
+| {{dts|6 April 1973}}<ref name="LL"/>
+| [[NASA]]<br/><small>[[United States]]</small>
+| Flyby
+| {{yes|{{hs|4}}Successful}}
+| Closest approach on 1 September 1979 at 16:31 UTC<ref name="NASA-P11"/>
+| {{nowrap|[[Atlas-Centaur|Atlas SLV-3D Centaur-D1A]]<ref name="GSP-P10"/>}}
+|-
+| ''[[Voyager 2]]'' 
+| {{dts|20 August 1977}}<ref name="LL"/>
+| [[NASA]]<br/><small>[[United States]]</small>
+| Flyby
+| {{yes|{{hs|4}}Successful}}
+| Closest approach at 01:21 UTC on 26 August 1981, later flew past Uranus and Neptune<ref name="NASA-V2"/>
+| [[Titan IIIE|Titan IIIE Centaur-D1T]]<ref name="GSP-Voy"/>
+|-
+| ''[[Voyager 1]]'' 
+| {{dts|5 September 1977}}<ref name="LL"/>
+| [[NASA]]<br/><small>[[United States]]</small>
+| Flyby
+| {{yes|{{hs|4}}Successful}}
+| Closest approach on 12 November 1980 at 23:45 UTC<ref name="NASA-V1"/>
+| [[Titan IIIE|Titan IIIE Centaur-D1T]]<ref name="GSP-Voy"/>
+|-
+| {{nowrap|''[[Cassini–Huygens|Cassini]]''}}
+| {{dts|15 October 1997}}<ref name="LL"/>
+| [[NASA]]<br/><small>[[United States]]</small>
+| Orbiter
+| {{yes|{{hs|4}}Successful}}
+| Entered orbit 1 July 2004; mission concluded on September 15, 2017<ref name="NASA-CASS">{{cite web|url=http://solarsystem.nasa.gov/missions/profile.cfm?Sort=Target&Target=Jupiter&MCode=Cassini|title=Solar System Exploration - Cassini|publisher=NASA|accessdate=6 January 2013}}</ref>
+| [[Titan IV|Titan IV(401)B Centaur-T]]<ref name="GSP-Cass"/>
+|-
+| {{nowrap|''[[Huygens (spacecraft)|Huygens]]''}}
+| {{dts|15 October 1997}}<ref name="LL"/>
+| [[European Space Agency|ESA]] / [[Italian Space Agency|ASI]]<br/><small>[[Italy]]</small>
+| Titan lander
+| {{yes|{{hs|5}}Successful}}
+| Deployed from ''Cassini''; landed on [[Titan (moon)|Titan]] at 10:13 UTC on 14 January 2005
+| [[Titan IV|Titan IV(401)B Centaur-T]]<ref name="GSP-Cass"/>
+|-
+|}
+
+==Uranus==
+{{main|Exploration of Uranus}}
+''Voyager 2'' is the only spacecraft to have visited Uranus, making a single flyby as part of its grand tour of the outer planets.
+{| class="wikitable sortable" style="width:100%"
+|+ Timeline 
+|-
+! Spacecraftss
+! Launch Date
+! Operator
+! Mission
+! Outcome
+! Remarks
+! Carrier rocket
+|-
+| ''[[Voyager 2]]'' 
+| {{dts|20 August 1977}}<ref name="LL"/>
+| [[NASA]]<br/><small>[[United States]]</small>
+| Flyby
+| {{yes|{{hs|4}}Successful}}
+| Closest approach at 17:59 UTC on 24 January 1986, later flew past Neptune<ref name="NASA-V2"/>
+| [[Titan IIIE|Titan IIIE Centaur-D1T]]<ref name="GSP-Voy"/>
+|-
+|}
+
+==Neptune==
+{{main|Exploration of Neptune}}
+''Voyager 2'' is also the only spacecraft to have visited Neptune, making a single flyby as part of its grand tour of the outer planets.
+{| class="wikitable sortable" style="width:100%"
+|+ Timeline 
+|-
+! Spacecraft
+! Launch Date
+! Operator
+! Mission
+! Outcome
+! Remarks
+! Carrier rocket
+|-
+| ''[[Voyager 2]]'' 
+| {{dts|20 August 1977}}<ref name="LL"/>
+| [[NASA]]<br/><small>[[United States]]</small>
+| Flyby
+| {{yes|{{hs|4}}Successful}}
+| Closest approach at 03:26 UTC on 25 August 1989<ref name="NASA-V2"/>
+| [[Titan IIIE|Titan IIIE Centaur-D1T]]<ref name="GSP-Voy"/>
+|-
+|}
+
+==References==
+{{Reflist|30em}}
+
+{{Spacecraft by destination}}
+{{Jupiter spacecraft}} 
+{{Saturn spacecraft}} 
+{{navboxes|list1=
+{{Jupiter}}
+{{Saturn}}
+{{Uranus}}
+{{Neptune}} }}
+
+[[Category:Outer planets]]
+[[Category:Missions to the planets]]
+[[Category:Lists of space missions]]

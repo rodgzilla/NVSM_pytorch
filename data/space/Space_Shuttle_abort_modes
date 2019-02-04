@@ -1,0 +1,330 @@
+[[Image:Space Shuttle single engine out abort timeline.png|thumb|right|550px|Abort modes available depending on engine failure time.]]
+'''Space Shuttle abort modes''' were procedures by which the nominal launch of the [[NASA]] [[Space Shuttle]] could be terminated. A pad abort occurred after ignition of the shuttle's [[Space Shuttle Main Engine|main engine]]s but prior to liftoff. An abort during ascent that would result in the orbiter returning to a runway or to a lower than planned orbit was called an "intact abort", while an abort in which the orbiter would be unable to reach a runway, or any abort involving the failure of more than one main engine, was called a "contingency abort". Crew bailout was still possible in some situations where the orbiter could not land on a runway.
+
+== Redundant set launch sequencer (RSLS) abort ==
+The three Space Shuttle main engines were ignited roughly 6.6 seconds before liftoff, and computers monitored their performance as they increased thrust. If an anomaly was detected, the engines would be shut down automatically and the countdown terminated before ignition of the [[Space Shuttle Solid Rocket Booster|solid rocket boosters]] (SRBs) at T − 0 seconds. This was called a "redundant set launch sequencer (RSLS) abort", and happened five times: [[STS-41-D]], [[STS-51-F]], [[STS-51]], [[STS-55]], and [[STS-68]].<ref>[http://science.ksc.nasa.gov/shuttle/technology/sts-newsref/mission_profile.html#rtls_abort NASA - Mission Profile]</ref>
+
+== Ascent abort modes ==
+Once the shuttle's SRBs were ignited, the vehicle was committed to liftoff. If an event requiring an abort happened after [[Space Shuttle Solid Rocket Booster|SRB]] ignition, it was not possible to begin the abort until after SRB burnout and separation about two minutes after launch. There were five abort modes available during ascent, divided into the categories of intact aborts and contingency aborts.<ref name="presskit">{{cite web
+  | url = http://www.shuttlepresskit.com/STS-93/REF86.htm
+  | title = Shuttle Abort Modes
+  | work =  Shuttle Reference and Data
+  | publisher = [[NASA]]
+  | accessdate = 2006-12-09
+}}</ref>
+The choice of abort mode depended on how urgent the situation was, and what emergency landing site could be reached.
+
+The abort modes covered a wide range of potential problems, but the most commonly expected problem was a [[Space Shuttle main engine]] (SSME) failure, causing the vehicle to have insufficient thrust to achieve its planned orbit.  Other possible non-engine failures necessitating an abort included a multiple [[auxiliary power unit]] (APU) failure, a progressive hydraulic failure, a cabin leak, and an external tank leak.
+
+===Intact abort modes===<!-- This section is linked from [[STS-51-F]] -->
+[[Image:Space Shuttle abort panel.jpg|thumb|right|250px|Abort panel on [[Space Shuttle Challenger|Space Shuttle ''Challenger'']]. Taken during [[STS-51-F]] with the switch on ATO mode]]
+There were four intact abort modes for the Space Shuttle. Intact aborts were designed to provide a safe return of the orbiter to a planned landing site or to a lower orbit than planned for the mission.
+
+====Return to launch site (RTLS)====
+Return to launch site (RTLS) was the first abort mode available and could be selected just after SRB jettison. The Shuttle would continue [[downrange]] to burn excess propellant, as well as [[Flight dynamics|pitch up]] to maintain vertical speed in aborts with an SSME failure. After burning sufficient propellant, the vehicle would be pitched all the way around and begin thrusting back towards the launch site. This maneuver was called the "powered pitcharound" (PPA) and was timed to ensure less than 2% propellant remained in the external tank by the time the Shuttle's trajectory brought it back to the [[Kennedy Space Center]]. Additionally, the Shuttle's [[Orbital Maneuvering System|OMS]] and reaction control system (RCS) motors would continuously thrust to burn off excess OMS propellant to reduce landing weight and adjust the orbiter's center of gravity.
+
+Just before main engine cutoff, the orbiter would be commanded to pitch nose-down to ensure proper orientation for [[Space Shuttle external tank|external tank]] jettison, since aerodynamic forces would otherwise cause the tank to collide with the orbiter. The SSMEs would cut off, and the tank would be jettisoned, as the orbiter used its RCS to increase separation. Once the orbiter cleared the tank, it would make a normal gliding landing about 25 minutes after lift-off.<ref>{{cite web|title=Return to Launch Site|url=http://spaceflight.nasa.gov/shuttle/reference/shutref/sts/aborts/rtls.html|website=NASA.gov|accessdate=February 1, 2015}}</ref>
+
+If a second SSME failed at any point during PPA, the Shuttle would not be able to make it back to the runway at KSC, and the crew would have to bail out. A failure of a third engine during PPA would lead to loss of control and subsequent loss of crew and vehicle (LOCV). Failure of all three engines as horizontal velocity approached zero or just before external tank jettison would also result in LOCV.<ref name = NASACA/>
+
+The [[capsule communicator]] would call out the point in the ascent at which an RTLS was no longer possible as "negative return", approximately 4 minutes after lift-off, at which the vehicle would be unable to safely bleed off the velocity it had gained in the distance between its position downrange and the launch site. This abort mode was never needed in the history of the shuttle program. It was considered the most difficult and dangerous abort, and also among the most unlikely abort to have ever been attempted since there were only a very narrow range of probable failures that were survivable but nevertheless so time-critical as to rule out more time-consuming abort modes. Astronaut [[Mike Mullane]] referred to the RTLS abort as an "unnatural act of physics", and many pilot astronauts hoped that they would not have to perform such an abort due to its difficulty.<ref>{{cite book|last=Mullane|first=Mike|title=Riding Rockets: The Outrageous Tales of a Space Shuttle Astronaut|year=2006|publisher=Scribner|location=New York|pages=588}}</ref>
+
+==== Transoceanic abort landing {{anchor|Transoceanic Abort Landing}} ====
+A transoceanic abort landing (TAL) involved landing at a predetermined location in Africa, western Europe or the Atlantic Ocean (at [[Lajes Field]] in the [[Azores]]) about 25 to 30 minutes after lift-off.<ref name="FS-2006-01-004-KSC">{{cite web|url=http://www.nasa.gov/centers/kennedy/pdf/167472main_TALsites-06.pdf|title=Space Shuttle Transoceanic Abort Landing (TAL) Sites|date=December 2006|publisher=National Aeronautics and Space Administration|accessdate=2009-07-01}}</ref> It was to be used when velocity, altitude, and distance downrange did not allow return to the launch point by [[Return To Launch Site#Return To Launch Site (RTLS)|RTLS]]. It was also to be used when a less time-critical failure did not require the faster but more dangerous RTLS abort.
+
+A TAL abort would have been declared between roughly T+2:30 (2 minutes 30 seconds after liftoff) and main engine cutoff (MECO), about T+8:30. The shuttle would then have landed at a predesignated airstrip across the Atlantic. The last four TAL sites were [[Istres Air Base]] in France, [[Zaragoza Air Base|Zaragoza]] and [[Morón Air Base|Morón]] air bases in Spain, and [[RAF Fairford]] in England. Prior to a shuttle launch, two sites would be selected based on the flight plan and were staffed with standby personnel in case they were used. The list of TAL sites changed over time and depended on orbital inclination.<ref name="FS-2006-01-004-KSC" />
+
+Preparations of TAL sites took four to five days and began one week before launch, with the majority of personnel from NASA, the Department of Defense and contractors arriving 48 hours before launch. Additionally, two [[C-130]] aircraft from the manned space flight support office from the adjacent [[Patrick Air Force Base]], delivering 8 crew members, 9 [[pararescue]]rs, 2 [[flight surgeon]]s, a nurse and medical technician, and {{convert|2500|lb}} of medical equipment to either Zaragoza, Istres, or both. One or more [[Learjet C-21|C-21]]s or [[C-12 Huron|C-12]]s aircraft would also be deployed to provide weather reconnaissance in the event of an abort with a [[TALCOM]], or astronaut flight controller aboard for communications with the shuttle pilot and commander.<ref name="FS-2006-01-004-KSC" />
+
+This abort mode was never needed during the entire history of the Space Shuttle program.
+
+====Abort once around====
+An abort once around (AOA) was available if the shuttle was unable to reach a stable orbit but had sufficient velocity to circle the Earth once and land, about 90 minutes after lift-off. The time window for using the AOA abort was very short: just a few seconds between the TAL and ATO abort opportunities. Therefore, taking this option due to a technical malfunction was very unlikely. A medical emergency on board was another possible scenario that could have necessitated an AOA abort.
+
+This abort mode was never needed during the entire history of the space shuttle program.
+
+====Abort to orbit====
+An abort to orbit (ATO) was available when the intended orbit could not be reached but a lower stable orbit was possible.  This occurred on mission [[STS-51-F]], which continued despite the abort to a lower orbit.  The Mission Control Center in [[Houston, Texas]] (located at [[Lyndon B. Johnson Space Center]]), observed an SSME failure and called "''Challenger''-Houston, abort ATO".
+
+The moment at which an ATO became possible was referred to as the "press to ATO" moment.  In an ATO situation, the spacecraft commander rotated the cockpit abort mode switch to the ATO position and depressed the abort push button.  This initiated the flight control software routines which handled the abort.  In the event of a loss of communications, the spacecraft commander could have made the abort decision and taken action independently.
+
+A hydrogen fuel leak in one of the [[Space Shuttle Main Engine|SSMEs]] on [[STS-93]] resulted in a slight underspeed at main engine cut-off (MECO), but was not an ATO, and the shuttle achieved its planned orbit; if the leak had been more severe, it might have necessitated an ATO, RTLS, or TAL abort.
+
+=== Preferences ===
+There was an order of preference for abort modes:
+#ATO was the preferred abort option whenever possible. 
+#TAL was the preferred abort option if the vehicle had not yet reached a speed permitting the ATO option.
+#AOA would have been only used in the brief window between TAL and ATO options, or if a time-critical emergency (such as a medical emergency on board) developed after the end of the TAL window.
+#RTLS resulted in the quickest landing of all abort options, but was considered the riskiest abort.  Therefore, it would have been selected only in cases where the developing emergency was so time-critical that the other aborts were not feasible, or in cases where the vehicle had insufficient energy to perform the other aborts.
+
+Unlike all previous United States crew vehicles, the shuttle was never flown without astronauts aboard.  To provide an incremental non-orbital test, NASA considered making the first mission an RTLS abort.  However, [[STS-1]] commander [[John Young (astronaut)|John Young]] declined, saying, "let's not practice [[Russian roulette]]"<ref name="popmech">{{cite web
+  | url = http://www.popularmechanics.com/science/air_space/1282596.html?page=4
+  | title = Astronauts in Danger
+  | work = Popular Mechanics
+  |date=December 2000
+  | accessdate = 2006-12-09
+}}</ref> and "RTLS requires continuous miracles interspersed with acts of God to be successful".<ref name="dunn20140226">{{Cite web |url=http://www.tested.com/science/space/460233-space-shuttles-controversial-launch-abort-plan/ |title=The Space Shuttle’s Controversial Launch Abort Plan |last=Dunn |first=Terry |date=2014-02-26 |website=Tested |language=en}}</ref>
+
+===Contingency aborts===
+Contingency aborts involved failure of more than one SSME and would generally have left the orbiter unable to reach a runway.<ref>{{cite web|title=Space Shuttle Abort Evolution|url=https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20110015564.pdf|website=ntrs.nasa.gov|accessdate=February 1, 2015}}</ref> These aborts were intended to ensure the survival of the orbiter long enough for the crew to bail out. Loss of two engines would have generally been survivable by using the remaining engine to optimize the orbiter's trajectory so as to not exceed structural limits during reentry. Loss of three engines could have been survivable outside of certain "black zones" where the orbiter would have failed before bailout was possible.<ref name = NASACA/> These contingency aborts were added after the destruction of Challenger.
+
+==Post-''Challenger'' abort enhancements==
+[[Image:ShuttleAbortPre51L.png|thumb|right|350px|Abort options up to STS-51-L.  Black zones indicate unsurvivable failures.]]
+[[Image:ShuttleAbortPost51L.png|thumb|right|350px|Abort options after STS-51-L.  Grey zones indicate failures in which the orbiter could remain intact until crew bailout.]]
+Before the [[Space Shuttle Challenger disaster|''Challenger'' disaster]] during [[STS-51-L]], ascent abort options involving failure of more than one SSME were very limited.  While failure of a single SSME was survivable throughout ascent, failure of a second SSME prior to about 350 seconds (the point at which the orbiter would have sufficient downrange velocity to reach a TAL site on just one engine) would mean an LOCV, since no bailout option existed.  Studies showed that an ocean ditching was not survivable.  Furthermore, the loss of a second SSME during an RTLS abort would have caused an LOCV except for the period of time just prior to MECO (during which the orbiter would be able to reach KSC by prolonging the burn time of the remaining engine), as would a triple SSME failure at ''any'' point during an RTLS abort.
+
+After the loss of ''Challenger'' in STS-51-L, numerous abort enhancements were added.  With those enhancements, the loss of two SSMEs was now survivable for the crew throughout the entire ascent, and the vehicle could survive and land for large portions of the ascent.  The struts attaching the orbiter to the external tank were strengthened to better endure a multiple SSME failure during SRB flight.  Loss of three SSMEs was survivable for the crew for most of the ascent, although survival in the event of three failed SSMEs before T+90 seconds was unlikely due to design loads being exceeded on the forward orbiter/ET and SRB/ET attach points, and still problematic at any time during SRB flight due to controllability during staging.<ref name = NASACA>{{cite web|title=Contingency Aborts|url=http://www.nasa.gov/centers/johnson/pdf/383441main_contingency_aborts_21007_31007.pdf|website=NASA.gov|accessdate=February 1, 2015}}</ref>
+
+A particularly  significant enhancement was bailout capability.  Unlike the ejection seat in a fighter plane, the shuttle had an inflight crew escape system<ref>[http://spaceflight.nasa.gov/shuttle/reference/shutref/escape/inflight.html spaceflight.nasa.gov]</ref> (ICES).  The vehicle was put in a stable glide on autopilot, the hatch was blown, and the crew slid out a pole to clear the orbiter's left wing.  They would then parachute to earth or the sea.  While this at first appeared only usable under rare conditions, there were many failure modes where reaching an emergency landing site was not possible yet the vehicle was still intact and under control.  Before the ''Challenger'' disaster, this almost happened on [[STS-51-F]], when a single SSME failed at about T+345 seconds.  The orbiter in that case was also ''Challenger''.  A second SSME almost failed due to a spurious temperature reading; however the engine shutdown was inhibited by a quick-thinking flight controller.  If the second SSME had failed within about 69 seconds of the first, there would have been insufficient energy to cross the Atlantic.  Without bailout capability, the entire crew would have been killed.  After the loss of ''Challenger'', those types of failures were made survivable.  To facilitate high-altitude bailouts, the crew began wearing the [[Launch Entry Suit]] and later the [[Advanced Crew Escape Suit]] during ascent and descent.  Before the ''Challenger'' disaster, crews for operational missions wore only fabric flight suits.
+
+Another post-''Challenger'' enhancement was the addition of East Coast/Bermuda abort landings (ECAL/BDA).  High-inclination launches (including all [[ISS]] missions) would have been able to reach an emergency runway on the East Coast of North America under certain conditions. Lower-inclination launches would have landed in Bermuda.
+
+An ECAL/BDA abort was similar to RTLS, but instead of landing at the Kennedy Space Center, the orbiter would attempt to land at another site along the east coast of North America (in the case of ECAL) or Bermuda (in the case of BDA).  Various potential ECAL landing sites extended from South Carolina into Newfoundland, Canada. The designated landing site in Bermuda was [[Naval Air Station Bermuda]] (a [[United States Navy]] facility). ECAL/BDA was a contingency abort that was less desirable than an intact abort, primarily because there was so little time to choose the landing site and prepare for the orbiter's arrival. All of the pre-designated sites were either military airfields or joint civil/military facilities. ECAL emergency sites were not as well equipped to accommodate an orbiter landing as those prepared for RTLS and TAL aborts.<ref>[http://www.aerospaceweb.org/question/spacecraft/q0278.shtml aerospaceweb.org]</ref> The sites were not staffed with NASA employees or contractors and the staff working there were given no special training to handle a Shuttle landing. If they were ever needed, the Shuttle pilots would have had to rely on regular [[air traffic control]] personnel using procedures similar to those used to land a gliding aircraft that has suffered complete engine failure.
+
+Numerous other abort refinements were added, mainly involving improved software for managing vehicle energy in various abort scenarios.  These enabled a greater chance of reaching an emergency runway for various SSME failure scenarios.
+
+==Ejection escape systems==
+An ejection escape system, sometimes called a "[[launch escape system]]", had been discussed many times for the shuttle. After the ''Challenger'' and ''Columbia'' losses, great interest was expressed in this. All previous US manned space vehicles had launch escape systems, although none were ever used.
+
+===Ejection seat===
+The first two shuttles, ''[[Space Shuttle Enterprise|Enterprise]]'' and ''[[Space Shuttle Columbia|Columbia]]'', were built with [[ejection seat]]s.  It was only these two that were planned to be flown with a crew of two.  Subsequent shuttles were built only for missions with a crew of more than two, including seats in the lower deck, and ejection seat options were deemed to be infeasible, so ''Challenger'', ''[[Space Shuttle Discovery|Discovery]]'', ''[[Space Shuttle Atlantis|Atlantis]]'', and ''[[Space Shuttle Endeavour|Endeavour]]'' were built with no ejection seats.  The type used on the first two shuttles were modified versions of the seats used in the [[Lockheed SR-71]].  The [[approach and landing tests]] flown by ''Enterprise'' had these as an escape option, and the first four flights of ''Columbia'' had this option as well.  But [[STS-5]] was the first mission to have a crew of more than two, and the commander made the decision that the ethical thing to do was to fly with the ejection seats disabled.  ''Columbia'''s next flight ([[STS-9]]) was likewise flown with the seats disabled.  By the time ''Columbia'' flew again ([[STS-61-C]], launched on January 12, 1986), it had been through a full maintenance overhaul at [[Palmdale, California|Palmdale]] and the ejection seats (along with the explosive hatches) had been fully removed.  Ejection seats were not further developed for the shuttle for several reasons:
+
+* Very difficult to eject seven crew members when three or four were on the middeck (roughly the center of the forward [[fuselage]]), surrounded by substantial vehicle structure.
+* Limited ejection envelope.  Ejection seats only work up to about {{convert|3400|mph|kn kph}} and 130,000 feet (39,624 m).  That constituted a very limited portion of the shuttle's operating envelope, about the first 100 seconds of the 510 seconds powered ascent.
+* No help during a ''Columbia''-type [[Atmospheric reentry|reentry]] accident.  Ejecting during an atmospheric reentry accident would have been fatal due to the high temperatures and wind blast at high Mach speeds.
+* Astronauts were skeptical of the ejection seats' usefulness.  [[STS-1]] pilot [[Robert Crippen]] stated:
+
+{{quote|[I]n truth, if you had to use them while the solids were there, I don’t believe you’d—if you popped out and then went down through the fire trail that’s behind the solids, that you would have ever survived, or if you did, you wouldn't have a parachute, because it would have been burned up in the process. But by the time the solids had burned out, you were up to too high an altitude to use it. ... So I personally didn't feel that the ejection seats were really going to help us out if we really ran into a contingency.<ref name="numbering-crippenoh">"[http://www.jsc.nasa.gov/history/oral_histories/CrippenRL/CrippenRL_5-26-06.pdf Robert L. Crippen]", NASA Johnson Space Center Oral History Project, 26 May 2006.</ref>}}
+
+The Soviet shuttle ''[[Buran (spacecraft)|Buran]]'' was planned to be fitted with the crew emergency escape system, which would have included [[K-36RB]] (K-36M-11F35) seats and the [[Strizh]] full-pressure suit, qualified for altitudes up to 30,000 m and speeds up to Mach three.<ref>{{cite web|url=http://www.zvezda-npp.ru/english/05.htm|title=Emergency escape systems of RD&PE Zvezda|deadurl=yes|archiveurl=https://web.archive.org/web/20130115034951/http://www.zvezda-npp.ru/english/05.htm|archivedate=2013-01-15|df=}}</ref> Buran flew only once in fully automated mode without a crew, thus the seats were never installed and were never tested in real human space flight.
+
+===Ejection capsule===
+{{Refimprove section|date=April 2015}}
+An alternative to ejection seats was an [[escape crew capsule]] or cabin escape system where the crew ejected in protective capsules, or the entire cabin is ejected.  Such systems have been used on several military aircraft.  The [[B-58 Hustler]] and [[XB-70 Valkyrie]] used capsule ejection, while the [[General Dynamics F-111]] and early prototypes of the Rockwell [[B-1 Lancer]] used cabin ejection.
+
+Like ejection seats, capsule ejection for the shuttle would have been difficult because no easy way existed to exit the vehicle. Several crewmembers sat in the middeck, surrounded by substantial vehicle structure.
+
+Cabin ejection would work for a much larger portion of the flight envelope than ejection seats, as the crew would be protected from temperature, wind blast, and lack of oxygen or vacuum. In theory an ejection cabin could have been designed to withstand reentry, although that would entail additional cost, weight and complexity. Cabin ejection was not pursued for several reasons:
+
+* Major modifications required to shuttle, likely taking several years. During much of the period the vehicle would be unavailable.
+* Cabin ejection systems are heavy, thus incurring a significant payload penalty.
+* Cabin ejection systems are much more complex than ejection seats. They require devices to cut cables and conduits connecting the cabin and fuselage. The cabin must have aerodynamic stabilization devices to avoid tumbling after ejection. The large cabin weight mandates a very large parachute, with a more complex extraction sequence. Air bags must deploy beneath the cabin to cushion impact or provide flotation. To make on-the-pad ejections feasible, the separation rockets would have to be quite large. In short, many complex things must happen in a specific timed sequence for cabin ejection to be successful, and in a situation where the vehicle might be disintegrating. If the airframe twisted or warped, thus preventing cabin separation, or debris damaged the landing airbags, stabilization, or any other cabin system, the occupants would likely not survive.
+* Added risk due to many large [[Explosive material|pyrotechnic]] devices. Even if not needed, the many explosive devices needed to separate the cabin entail some risk of premature or uncommanded detonation.
+* Cabin ejection is much more difficult, expensive and risky to retrofit on a vehicle not initially designed for it. If the shuttle was initially designed with a cabin escape system, that might have been more feasible.
+* Cabin/capsule ejection systems have a patchy success record,{{citation needed|date=April 2015}} likely because of the complexity.{{speculation inline|date=April 2015}}
+
+== Space Shuttle abort history ==
+Source:<ref>[http://www.nasa.gov/pdf/566071main_STS-135_Press_Kit.pdf nasa.gov]</ref>
+{| class="wikitable sortable"
+|-
+! style="text-align:left;" width="10%" | Date
+! style="text-align:left;" width="5%"  | Orbiter
+! style="text-align:left;" width="10%" | Mission
+! style="text-align:left;" width="5%"  | Abort type
+! style="text-align:left;" width="10%" | Abort time
+! style="text-align:left;" width="40%" | Description
+|-
+| 1984-06-26
+| [[Space Shuttle Discovery|''Discovery'']]
+| [[STS-41-D]]
+| RSLS
+| T−4 seconds
+| Sluggish valve detected in Space Shuttle main engine (SSME) No. 3.  ''Discovery'' [[List of space shuttle rollbacks|rolled back]] to VAB for engine replacement.
+|-
+| 1985-07-12
+| [[Space Shuttle Challenger|''Challenger'']]
+| [[STS-51-F]]
+| RSLS
+| T−3 seconds
+| Coolant valve problem with SSME No. 2.  Valve was replaced on launch pad.
+|-
+| 1985-07-29
+| ''Challenger''
+| STS-51-F
+| ATO
+| T+5 minutes, 45 seconds
+| Sensor problem shutdown SSME No. 1.  Mission continued in lower than planned orbit.
+|-
+| 1993-03-22
+| [[Space Shuttle Columbia|''Columbia'']]
+| [[STS-55]]
+| RSLS
+| T−3 seconds
+| Problem with purge pressure readings in the oxidizer preburner on SSME No. 2.  All engines replaced on pad.
+|-
+| 1993-08-12
+| ''Discovery''
+| [[STS-51]]
+| RSLS
+| T−3 seconds
+| Sensor that monitors flow of hydrogen fuel in SSME No. 2 failed.  All engines replaced on launch pad.
+|-
+| 1994-08-18
+| [[Space Shuttle Endeavour|''Endeavour'']]
+| [[STS-68]]
+| RSLS
+| T−1 second
+| Sensor detected higher than acceptable readings of the discharge temperature of the high pressure oxidizer turbopump in SSME No. 3. ''Endeavour'' rolled back to VAB to replace all three engines.  A test firing at [[John C. Stennis Space Center|Stennis Space Center]] confirmed a drift in the fuel flow meter which resulted in a slower start in the engine which caused the higher temperatures.
+|}
+
+== Emergency landing sites ==
+Pre-determined emergency landing sites for the orbiter were chosen on a mission-by-mission basis according to the mission profile, weather and regional political situations. Emergency landing sites during the shuttle program included:<ref>{{cite book|title=Space shuttle: the history of the National Space Transportation System : the first 100 missions|author=Dennis R. Jenkins|year=2001}}</ref><ref>[http://space.balettie.com/LandingSiteInfo/index.html Worldwide Shuttle Landing Site information<!-- Bot generated title -->]</ref><br><small>Sites in which an orbiter has landed are listed in bold, but none is an emergency landing.</small>
+
+'''Algeria'''
+*[[Aguenar – Hadj Bey Akhamok Airport]], Tamanrasset
+
+'''Australia'''
+*[[Sydney Airport|Kingsford-Smith International Airport]], Sydney, New South Wales (until 1986)<ref>{{cite book|title=Space Australia: the story of Australia's involvement in space|author=Kerrie Dougherty and Matthew L. James|publisher=Powerhouse|year=1993}}</ref>
+*[[RAAF Base Amberley]], Ipswich, Queensland
+*[[RAAF Base Darwin]], Darwin, Northern Territory
+*[[RAAF Base Pearce]], Perth, Western Australia
+
+'''Bahamas'''
+*[[Lynden Pindling International Airport]], Nassau
+
+'''Barbados'''
+*[[Grantley Adams International Airport|Sir Grantley Adams International Airport]], Bridgetown<ref>[http://www.loopnewsbarbados.com/content/fire-causes-military-plane-make-emergency-landing-gaia Fire Causes Military Plane To Make Emergency Landing], LoopBarbados.com - 2017-Aug-03</ref><ref>[http://www.nationnews.com/nationnews/news/99275/update-ministry-shares-details-emergency-landing Ministry Shares Details of Emergency Landing], Barbados - Daily Nation Newspaper 2017-Aug-03</ref><ref>[https://www.pressreader.com/barbados/daily-nation-barbados/20170803/281547995975852 NASA aircraft in emergency landing], PressReader Online</ref>
+
+'''Canada'''<ref>{{cite web|url=http://www.tc.gc.ca/publications/EN/TP12952/PDF%5CHR/TP12952E.PDF|title=NASA SPACE SHUTTLE EMERGENCY LANDING SITE CONTINGENCY PLAN|publisher=Transport Canada|deadurl=yes|archiveurl=https://web.archive.org/web/20130517012846/http://www.tc.gc.ca/Publications/EN/TP12952/PDF/HR/TP12952E.PDF|archivedate=2013-05-17|df=}}</ref>
+*[[CFB Goose Bay]], Goose Bay, Labrador
+*[[CFB Namao]], Edmonton, Alberta (until 1994)<ref name="heritage2">[http://www.abheritage.ca/aviation/history/military_namao.html CFB Namao] Alberta Online Encyclopedia - Alberta's Aviation Heritage. Retrieved: 2011-03-01</ref>
+*[[Gander International Airport]], Gander, Newfoundland
+*[[Stephenville International Airport]], Stephenville, Newfoundland
+*[[St. John's International Airport]], St. John's, Newfoundland
+*[[Halifax Stanfield International Airport]], Halifax, Nova Scotia
+
+'''Cape Verde'''
+*[[Amílcar Cabral International Airport]], Sal Island
+
+'''Chile'''
+*[[Mataveri International Airport]], Easter Island
+
+'''France'''
+*[[Istres-Le Tubé Air Base]] near Istres, France<ref>{{cite news|url=http://www.spaceref.com/news/viewpr.html?pid=17044|title=France to assist NASA with the future launches of the Space Shuttle|accessdate=2009-08-27}}</ref>
+*[[Hao Airport]], Hao, French Polynesia
+
+'''The Gambia'''
+*[[Yundum International Airport]], Banjul
+
+'''Germany'''
+*[[Köln Bonn Airport]], Cologne
+
+'''Greece'''
+* Souda Air Base, Souda Bay, Crete
+
+'''Iceland'''
+*[[Keflavík International Airport]], Keflavík
+
+'''Ireland'''
+*[[Shannon Airport]], Shannon, County Clare
+
+'''Liberia'''
+*[[Roberts International Airport]], Monrovia (until 1989)
+
+'''Morocco'''
+*[[Ben Guerir Air Base]], Morocco (1988-2002)
+*[[Mohammed V International Airport]], Morocco (until 1986)
+
+'''Portugal'''
+*[[Lajes Field]], Lajes
+*[[Beja Airbase]], Beja
+
+'''Saudi Arabia'''
+*[[King Khalid International Airport]], Riyadh
+
+'''Spain'''
+*[[Zaragoza Air Base]]
+*[[Morón Air Base]]
+*[[Gran Canaria Airport]], Gran Canaria
+
+'''Somalia'''
+*[[Berbera Airport]], Berbera<ref>{{cite news|url=http://news.bbc.co.uk/2/hi/programmes/this_world/4491257.stm|title=Somaliland's missing identity|publisher=BBC|date=5 May 2005}}</ref> (inactive since 1991)
+
+'''South Africa'''
+*[[Air Force Base Hoedspruit]]
+
+'''Sweden'''
+*[[Arlanda Airport]], Stockholm
+
+'''Turkey'''
+*[[Esenboğa International Airport]], Ankara
+
+'''United Kingdom'''
+*[[RAF Greenham Common]], Berkshire, England (from 1981)
+*[[RAF Brize Norton]], Oxfordshire, England
+*[[RAF Fairford]], Gloucestershire, England
+*[[RAF Finningley]], South Yorkshire, England (until 1996)
+*[[RAF Machrihanish]], Campbeltown, Scotland
+*[[RAF Mildenhall]], Suffolk, England
+*[[RAF Upper Heyford]], Oxfordshire, England (until 1993)
+
+'''British Overseas Territories'''
+*[[Naval Air Station Bermuda|NAS Bermuda]], St David's Island, Bermuda
+*[[Naval Support Facility Diego Garcia]], Diego Garcia, British Indian Ocean Territory
+
+'''United States'''
+*[[Andersen Air Force Base]], Guam
+*[[Atlantic City International Airport]], Pomona, New Jersey
+*[[Bangor International Airport]], Bangor, Maine
+*[[Bradley International Airport]], Windsor Locks, Connecticut
+*[[Marine Corps Air Station Cherry Point|MCAS Cherry Point]], Havelock, North Carolina
+*[[Columbus Air Force Base]], Columbus, Mississippi
+*[[Dover Air Force Base]], Dover, Delaware
+*[[Dyess Air Force Base]], Abilene, Texas
+*[[East Texas Regional Airport]], Longview, Texas
+*'''[[Edwards Air Force Base]]''', California
+*[[Ellsworth Air Force Base]], Rapid City, South Dakota
+*[[Elmendorf Air Force Base]], Anchorage, Alaska
+*[[Fort Huachuca, Arizona]], Sierra Vista, Arizona
+*[[Francis S. Gabreski Airport]], Long Island, New York
+*[[Grant County International Airport]], Moses Lake, Washington
+*[[Grand Forks Air Force Base]], Grand Forks, North Dakota
+*[[Griffiss International Airport]], Rome, New York
+*[[Grissom Air Force Base]], Kokomo, Indiana
+*[[Hickam Air Force Base]], Honolulu, Hawaii
+*[[John F. Kennedy International Airport]], New York, New York
+*'''[[Kennedy Space Center]]''', Merritt Island, Florida
+*[[Lehigh Valley International Airport]], Allentown, Pennsylvania
+*[[Lincoln Airport (Nebraska)|Lincoln Airport]], Lincoln, Nebraska
+*[[Mountain Home Air Force Base]], Mountain Home, Idaho
+*[[Myrtle Beach International Airport]], Myrtle Beach, South Carolina 
+*[[Orlando International Airport]], Orlando, Florida
+*[[Otis Air National Guard Base]], Falmouth, Massachusetts
+*[[Pease Air Force Base]], Portsmouth, New Hampshire
+*[[Plattsburgh Air Force Base]], Plattsburgh, New York
+*[[Portsmouth International Airport]], Portsmouth, New Hampshire
+*[[Stewart Air National Guard Base]], Newburgh, New York
+*[[Westover Air Force Base]], Chicopee, Massachusetts
+*'''[[White Sands Space Harbor]]''', White Sands, New Mexico
+*[[Wilmington International Airport]], Wilmington, North Carolina<ref>{{cite news|url=http://www.space.com/news/wilmington_land_010118_wg.html|title=NASA Names North Carolina Airport Emergency Landing Site for Shuttle|accessdate=2009-01-17}}</ref>
+*[[Wright-Patterson Air Force Base]], Dayton, Ohio
+
+'''Democratic Republic of the Congo'''
+*[[N'djili Airport]], Kinshasa (until 1997)
+
+'''Other locations'''
+
+In the event of an emergency deorbit that would bring the orbiter down in an area not within range of a designated emergency landing site, the orbiter was theoretically capable of landing on any paved runway that was at least {{convert|3|km|ft|abbr=on}} long, which included the majority of large commercial airports. In practice, a US or allied military airfield would have been preferred for reasons of security arrangements and minimizing the disruption of commercial air traffic.
+
+== In popular culture ==
+A detailed RTLS maneuver is depicted in [[Mike Mullane]]'s technothriller novel ''Red Sky: A Novel of Love, Space, & War''
+
+== See also ==
+* [[Apollo abort modes]]
+* [[Launch escape system]]
+* [[NASA Space Shuttle decision]]
+* [[Orion abort modes]]
+* [[Space Shuttle Challenger disaster|Space Shuttle ''Challenger'' disaster]]
+* [[Space Shuttle Columbia disaster|Space Shuttle ''Columbia'' disaster]]
+* [[Space Shuttle program]]
+*[[Soyuz abort modes]]
+
+== References ==
+{{reflist|33em}}
+
+==External links==
+* [https://history.nasa.gov/rogersrep/v1ch9.htm Volume 1, chapter 9 of the Rogers commission report]
+
+{{Space Shuttle}}
+
+[[Category:Space Shuttle program|Abort modes]]

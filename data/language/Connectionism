@@ -1,0 +1,129 @@
+{{more footnotes|date=April 2014}}
+'''Connectionism''' is an approach in the fields of [[cognitive science]], that hopes to explain [[mind|mental]] phenomena using [[artificial neural networks]] (ANN).<ref>{{cite book|url=https://plato.stanford.edu/archives/fall2018/entries/connectionism/|title=The Stanford Encyclopedia of Philosophy|first=James|last=Garson|editor-first=Edward N.|editor-last=Zalta|date=27 November 2018|publisher=Metaphysics Research Lab, Stanford University|via=Stanford Encyclopedia of Philosophy}}</ref>
+[[File:Artificial_neural_network.svg|thumb|Connectionist (ANN) model with a hidden layer]]
+
+==Basic principles==
+The central connectionist principle is that mental phenomena can be described by interconnected networks of simple and often uniform units. The form of the connections and the units can vary from model to model. For example, units in the network could represent [[neurons]] and the connections could represent [[synapses]], as in the [[human brain]].
+
+===Spreading activation===
+{{Main|Spreading activation}}
+In most connectionist models, networks change over time.  A closely related and very common aspect of connectionist models is ''activation''. At any time, a unit in the network has an activation, which is a numerical value intended to represent some aspect of the unit.  For example, if the units in the model are neurons, the activation could represent the [[probability]] that the neuron would generate an [[action potential]] spike. Activation typically spreads to all the other units connected to it.  Spreading activation is always a feature of neural network models, and it is very common in connectionist models used by [[cognitive psychology|cognitive psychologists]].
+
+===Neural networks===
+{{Main|Artificial neural networks}}
+Neural networks are by far the most commonly used connectionist model today. Though there are a large variety of neural network models, they almost always follow two basic principles regarding the mind:
+
+# Any mental state can be described as an (N)-dimensional [[Vector (mathematics)|vector]] of numeric activation values over neural units in a network.
+# Memory is created by modifying the strength of the connections between neural units. The connection strengths, or "weights", are generally represented as an N×N [[Matrix (mathematics)|matrix]].
+
+Most of the variety among neural network models comes from:
+* ''Interpretation of units'': Units can be interpreted as neurons or groups of neurons.
+* ''Definition of activation'': Activation can be defined in a variety of ways. For example, in a [[Boltzmann machine]], the activation is interpreted as the [[probability]] of generating an action potential spike, and is determined via a [[logistic function]] on the sum of the inputs to a unit.
+* ''Learning algorithm'': Different networks modify their connections differently. In general, any mathematically defined change in connection weights over time is referred to as the "learning algorithm".
+
+Connectionists are in agreement that [[recurrent neural networks]] (directed networks wherein connections of the network can form a directed cycle) are a better model of the brain than [[feedforward neural networks]] (directed networks with no cycles, called [[Directed acyclic graph|DAG]]). Many recurrent connectionist models also incorporate [[dynamical systems theory]]. Many researchers, such as the connectionist [[Paul Smolensky]], have argued that connectionist models will evolve toward fully [[Continuous function|continuous]], high-dimensional, [[non-linear]], [[dynamic systems]] approaches.
+
+===Biological realism===
+Connectionist work in general does not need to be biologically realistic and therefore suffers from a lack of neuroscientific plausibility.<ref>{{Cite web|url=http://www.encephalos.gr/48-1-01e.htm|title=Encephalos Journal|website=www.encephalos.gr|access-date=2018-02-20}}</ref><ref>{{Cite book|url=https://books.google.com/books?id=s-OCCwAAQBAJ&pg=PT18&lpg=PT18&dq=%22accurate%22&f=false#v=onepage&q=%22accurate%22&f=false|title=Neural Geographies: Feminism and the Microstructure of Cognition|last=Wilson|first=Elizabeth A.|date=2016-02-04|publisher=Routledge|isbn=9781317958765|language=en}}</ref><ref>{{Cite web|url=https://pdfs.semanticscholar.org/e953/59bc80e624a963a3d8c943e3b2898a397ef7.pdf|title=Organismically-inspired robotics: homeostatic adaptation and teleology beyond the closed sensorimotor loop|last=|first=|date=|website=|access-date=}}</ref><ref>{{Cite journal|last=Zorzi|first=Marco|last2=Testolin|first2=Alberto|last3=Stoianov|first3=Ivilin P.|date=2013-08-20|title=Modeling language and cognition with deep unsupervised learning: a tutorial overview|journal=Frontiers in Psychology|volume=4|doi=10.3389/fpsyg.2013.00515|issn=1664-1078|pmc=3747356|pmid=23970869}}</ref><ref>{{Cite web|url=http://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=1015&context=comparativephilosophy|title=ANALYTIC AND CONTINENTAL PHILOSOPHY|last=|first=|date=|website=|access-date=}}</ref><ref>{{Cite book|url=https://books.google.com/books?id=uV9TZzOITMwC&pg=PA17&lpg=PA17&dq=%22biological%20plausibility%22&f=false#v=onepage&q=%22biological%20plausibility%22&f=false|title=Neural Network Perspectives on Cognition and Adaptive Robotics|last=Browne|first=A.|date=1997-01-01|publisher=CRC Press|isbn=9780750304559|language=en}}</ref><ref>{{Cite book|url=https://books.google.com/books?id=7pPv0STSos8C&pg=PA63&lpg=PA63&dq=%22biological+realism%22#v=onepage&q=%22biological%20realism%22&f=false|title=Connectionism in Perspective|last=Pfeifer|first=R.|last2=Schreter|first2=Z.|last3=Fogelman-Soulié|first3=F.|last4=Steels|first4=L.|date=1989-08-23|publisher=Elsevier|year=|isbn=9780444598769|location=|pages=|language=en}}</ref>
+
+===Learning===
+The weights in a neural network are adjusted according to some [[learning rule]] or algorithm, such as [[Hebbian theory|Hebbian learning]]. Thus, connectionists have created many sophisticated learning procedures for neural networks. Learning always involves modifying the connection weights. In general, these involve mathematical formulas to determine the change in weights when given sets of data consisting of activation vectors for some subset of the neural units. Several studies have been focused on designing teaching-learning methods based on connectionism.<ref>{{Cite journal|last=Novo|first=María-Luisa|last2=Alsina|first2=Ángel|last3=Marbán|first3=José-María|last4=Berciano|first4=Ainhoa|date=2017|title=Connective Intelligence for Childhood Mathematics Education|url=https://doi.org/10.3916/C52-2017-03|journal=Comunicar|language=es|volume=25|issue=52|pages=29–39|doi=10.3916/c52-2017-03|issn=1134-3478}}</ref>
+
+By formalizing learning in such a way, connectionists have many tools. A very common strategy in connectionist learning methods is to incorporate [[gradient descent]] over an error surface in a space defined by the weight matrix. All gradient descent learning in connectionist models involves changing each weight by the [[partial derivative]] of the error surface with respect to the weight. [[Backpropagation]] (BP), first made popular in the 1980s, is probably the most commonly known connectionist gradient descent algorithm today.
+
+==History==
+
+Connectionism can be traced to ideas more than a century old, which were little more than speculation until the mid-to-late 20th century.
+
+===Parallel distributed processing===
+
+The prevailing connectionist approach today was originally known as '''parallel distributed processing''' (PDP). It was an [[artificial neural network]] approach that stressed the parallel nature of neural processing, and the distributed nature of neural representations.  It provided a general mathematical framework for researchers to operate in. The framework involved eight major aspects:
+
+* A set of ''processing units'', represented by a [[set (computer science)|set]] of integers.
+* An ''activation'' for each unit, represented by a vector of time-dependent [[Function (mathematics)|functions]].
+* An ''output function'' for each unit, represented by a vector of functions on the activations.
+* A ''pattern of connectivity'' among units, represented by a matrix of real numbers indicating connection strength.
+* A ''propagation rule'' spreading the activations via the connections, represented by a function on the output of the units.
+* An ''activation rule'' for combining inputs to a unit to determine its new activation, represented by a function on the current activation and propagation.
+* A ''[[learning rule]]'' for modifying connections based on experience, represented by a change in the weights based on any number of variables.
+* An ''environment'' that provides the system with experience, represented by sets of activation vectors for some [[subset]] of the units.
+
+A lot of the research that led to the development of PDP was done in the 1970s, but PDP became popular in the 1980s with the release of the books ''Parallel Distributed Processing: Explorations in the Microstructure of Cognition - Volume 1 (foundations)'' and ''Volume 2 (Psychological and Biological Models)'', by [[James L. McClelland]], [[David E. Rumelhart]] and the PDP Research Group. The books are now considered seminal connectionist works, and it is now common to fully equate PDP and connectionism, although the term "connectionism" is not used in the books.
+
+===Earlier work===
+PDP's direct roots were the [[perceptron]] theories of researchers such as [[Frank Rosenblatt]] from the 1950s and 1960s. But perceptron models were made very unpopular by the book ''Perceptrons'' by [[Marvin Minsky]] and [[Seymour Papert]], published in 1969. It demonstrated the limits on the sorts of functions that single-layered (no hidden layer) perceptrons can calculate, showing that even simple functions like the [[exclusive disjunction]] (XOR) could not be handled properly. The PDP books overcame this limitation by showing that multi-level, non-linear neural networks were far more robust and could be used for a vast array of functions.<ref>{{Cite journal | doi = 10.1016/0893-6080(89)90020-8| title = Multilayer feedforward networks are universal approximators| journal = Neural Networks| volume = 2| issue = 5| pages = 359| year = 1989| last1 = Hornik | first1 = K. | last2 = Stinchcombe | first2 = M. | last3 = White | first3 = H. }}</ref>
+
+Many earlier researchers advocated connectionist style models, for example in the 1940s and 1950s, [[Warren McCulloch]] and [[Walter Pitts]] ([[Artificial neuron|MP neuron]]), [[Donald Olding Hebb]], and [[Karl Lashley]]. McCulloch and Pitts showed how neural systems could implement [[first-order logic]]: Their classic paper "A Logical Calculus of Ideas Immanent in Nervous Activity" (1943) is important in this development here. They were influenced by the important work of [[Nicolas Rashevsky]] in the 1930s.  Hebb contributed greatly to speculations about neural functioning, and proposed a learning principle, [[Hebbian learning]], that is still used today. Lashley argued for distributed representations as a result of his failure to find anything like a localized [[Engram (neuropsychology)|engram]] in years of [[lesion]] experiments.
+
+===Connectionism apart from PDP===
+Though PDP is the dominant form of connectionism, other theoretical work should also be classified as connectionist.
+
+Many connectionist principles can be traced to early work in [[psychology]], such as that of [[William James]].<ref>{{cite book |last1=Anderson  |first1= James A.|last2=Rosenfeld |first2= Edward |date= 1989|title= Neurocomputing: Foundations of Research|url= |location= |publisher= A Bradford Book |page= 1|chapter = Chapter 1: (1890) William James ''Psychology (Brief Course)'' |isbn=978-0262510486 |accessdate= }}</ref> Psychological theories based on knowledge about the human brain were fashionable in the late 19th century.  As early as 1869, the neurologist [[John Hughlings Jackson]] argued for multi-level, distributed systems. Following from this lead, [[Herbert Spencer]]'s ''Principles of Psychology'', 3rd edition (1872), and [[Sigmund Freud]]'s ''Project for a Scientific Psychology'' (composed 1895) propounded connectionist or proto-connectionist theories. These tended to be speculative theories. But by the early 20th century, [[Edward Thorndike]] was experimenting on learning that posited a connectionist type network.
+
+In the 1950s, [[Friedrich Hayek]] proposed that spontaneous order in the brain arose out of decentralized networks of simple units{{Citation needed|date=March 2015}}. Hayek's work was rarely cited in the PDP literature until recently{{Citation needed|date=March 2015}}.
+
+Another form of connectionist model was the [[Stratificational linguistics|relational network]] framework developed by the [[linguist]] [[Sydney Lamb]] in the 1960s. Relational networks have been only used by linguists, and were never unified with the PDP approach. As a result, they are now used by very few researchers.
+
+There are also hybrid connectionist models, mostly mixing symbolic representations with neural network models.
+The hybrid approach has been advocated by some researchers (such as [[Ron Sun]]).
+
+==Connectionism vs. computationalism debate==
+As connectionism became increasingly popular in the late 1980s, some researchers (including [[Jerry Fodor]], [[Steven Pinker]] and others) reacted against it.  They argued that connectionism, as then developing, threatened to obliterate what they saw as the progress being made in the fields of cognitive science and psychology by the classical approach of [[computationalism]]. Computationalism is a specific form of cognitivism that argues that mental activity is [[Computing|computational]], that is, that the mind operates by performing purely formal operations on symbols, like a [[Turing machine]].  Some researchers argued that the trend in connectionism represented a reversion toward [[associationism]] and the abandonment of the idea of a [[language of thought]], something they saw as mistaken. In contrast, those very tendencies made connectionism attractive for other researchers.
+
+Connectionism and computationalism need not be at odds, but the debate in the late 1980s and early 1990s led to opposition between the two approaches.  Throughout the debate, some researchers have argued that connectionism and computationalism are fully compatible, though full consensus on this issue has not been reached.  Differences between the two approaches include the following:
+
+* Computationalists posit symbolic models that are structurally similar to underlying brain structure, whereas connectionists engage in "low-level" modeling, trying to ensure that their models resemble neurological structures.
+* Computationalists in general focus on the structure of explicit symbols ([[mental models]]) and [[syntactical]] rules for their internal manipulation, whereas connectionists focus on learning from environmental stimuli and storing this information in a form of connections between neurons.
+* Computationalists believe that internal mental activity consists of manipulation of explicit symbols, whereas connectionists believe that the manipulation of explicit symbols provides a poor model of mental activity.
+* Computationalists often posit [[domain specificity|domain specific]] symbolic sub-systems designed to support learning in specific areas of cognition (e.g., language, intentionality, number), whereas connectionists posit one or a small set of very general learning-mechanisms.
+
+Despite these differences, some theorists have proposed that the connectionist architecture is simply the manner in which organic brains happen to implement the symbol-manipulation system. This is logically possible, as it is well known that connectionist models can implement symbol-manipulation systems of the kind used in computationalist models,{{Citation needed|date=February 2011}} as indeed they must be able if they are to explain the human ability to perform symbol-manipulation tasks. But the debate rests on whether this symbol manipulation forms the foundation of cognition in general, so this is not a potential vindication of computationalism. Nonetheless, computational descriptions may be helpful high-level descriptions of cognition of logic, for example.
+
+The debate largely centred on logical arguments about whether connectionist networks could produce the syntactic structure observed in this sort of reasoning. This was later achieved,{{Citation needed|date=February 2011}} although using processes unlikely to be possible in the brain,{{Citation needed|date=February 2011}} thus the debate persisted. {{As of | 2016}}, progress in neurophysiology and general advances in the understanding of neural networks have led to the successful modelling of a great many of these early problems, and the debate about fundamental cognition has, thus, largely been decided among neuroscientists in favour of connectionism.{{citation needed|date=March 2012}} However, these fairly recent developments have yet to reach consensus acceptance among those working in other fields, such as psychology or philosophy of mind.
+
+Part of the appeal of computational descriptions is that they are relatively easy to interpret, and thus may be seen as contributing to our understanding of particular mental processes, whereas connectionist models are in general more opaque, to the extent that they may be describable only in very general terms (such as specifying the learning algorithm, the number of units, etc.), or in unhelpfully low-level terms. In this sense connectionist models may instantiate, and thereby provide evidence for, a broad theory of cognition (i.e., connectionism), without representing a helpful theory of the particular process that is being modelled. In this sense the debate might be considered as to some extent reflecting a mere difference in the level of analysis in which particular theories are framed.
+
+The recent{{when|date=February 2016}} popularity of [[Cognitive Model#Dynamical systems|dynamical systems]] in [[philosophy of mind]] have added a new perspective on the debate; some authors{{which|date=February 2016}} now argue that any split between connectionism and computationalism is more conclusively characterized as a split between computationalism and [[Cognitive Model#Dynamical systems|dynamical systems]].
+
+In 2014, [[Alex Graves (computer scientist)|Alex Graves]] and others from [[DeepMind]] published a series of papers describing a novel Deep Neural Network structure called the [[Neural Turing Machine]]<ref>{{cite arxiv|last1=Graves|first1=Alex|title=Neural Turing Machines|arxiv=1410.5401}}</ref> able to read symbols on a tape and store symbols in memory. Relational Networks, another Deep Network module published by DeepMind are able to create object-like representations and manipulate them to answer complex questions. Relational Networks and Neural Turing Machines are further evidence that connectionism and computationalism need not be at odds.
+
+==See also==
+{{div col|colwidth=20em}}
+* [[Associationism]]
+* [[Artificial intelligence]]
+* [[Behaviorism]]
+* [[Catastrophic interference]]
+* [[Cybernetics]]
+* [[Eliminative materialism]]
+* [[Feature integration theory]]
+* [[Machine learning]]
+* [[Pandemonium architecture]]
+* [[Self-organizing map]]
+{{div col end}}
+
+==Notes==
+{{reflist}}
+
+==References==
+* Rumelhart, D.E., J.L. McClelland and the PDP Research Group (1986). ''Parallel Distributed Processing: Explorations in the Microstructure of Cognition. Volume 1: Foundations'', Cambridge, Massachusetts: [[MIT Press]], {{ISBN|978-0262680530}}
+* McClelland, J.L., D.E. Rumelhart and the PDP Research Group (1986). ''Parallel Distributed Processing: Explorations in the Microstructure of Cognition. Volume 2: Psychological and Biological Models'', Cambridge, Massachusetts: MIT Press, {{ISBN|978-0262631105}}
+* Pinker, Steven and Mehler, Jacques (1988). ''Connections and Symbols'', Cambridge MA: MIT Press, {{ISBN|978-0262660648}}
+* Jeffrey L. Elman, Elizabeth A. Bates, Mark H. Johnson, Annette Karmiloff-Smith, Domenico Parisi, Kim Plunkett (1996). ''Rethinking Innateness: A connectionist perspective on development'', Cambridge MA: MIT Press, {{ISBN|978-0262550307}}
+* Marcus, Gary F. (2001). ''The Algebraic Mind: Integrating Connectionism and Cognitive Science (Learning, Development, and Conceptual Change)'', Cambridge, Massachusetts: MIT Press, {{ISBN|978-0262632683}}
+*{{cite journal|title=A Brief History of Connectionism|author=David A. Medler|url=http://www.blutner.de/NeuralNets/Texts/Medler.pdf|year= 1998|volume=1|pages=61–101|journal=Neural Computing Surveys}}
+
+==External links==
+{{Spoken Wikipedia|En-Connectionism.ogg|2011-11-26}}
+* [http://philosophy.uwaterloo.ca/MindDict/connectionism.html Dictionary of Philosophy of Mind entry on connectionism]
+* {{cite SEP |url-id=connectionism |title=Connectionism |last=Garson |first=James |author-link=James Garson}}
+* [http://srsc.ulb.ac.be/pdp/iac/IAC.html A demonstration of Interactive Activation and Competition Networks]
+* {{cite IEP |url-id=connect |title=Connectionism}}
+
+{{Cybernetics}}
+
+[[Category:Cognitive science]]
+[[Category:Computational neuroscience]]
+[[Category:Theory of mind]]
+[[Category:Learning]]
+[[Category:Philosophy of artificial intelligence]]
+[[Category:Emergence]]

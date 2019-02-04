@@ -1,0 +1,77 @@
+{{Use dmy dates|date=February 2015}}
+{{Refimprove|date=February 2016}}
+A '''pulse detonation engine''' ('''PDE''') is a type of [[Air propulsion|propulsion]] system that uses [[detonation wave]]s to [[Combustion|combust]] the fuel and [[oxidizer]] mixture.<ref>Kailasanath, K., "Review of Propulsion Applications of Detonation Waves," ''AIAA Journal'', Vol. 39, No. 9, pp. 1698-1708, 2000.</ref><ref>Roy, G.D., Frolov, S.M., Borisov, A.A., and Netzer, D.W., "Pulse Detonation Propulsion: Challenges, Current Status, and Future Perspective," ''Progress in Energy and Combustion Science'', Vol. 30, No. 6, pp. 545-672, 2004.</ref> The engine is pulsed because the mixture must be renewed in the [[combustion chamber]] between each detonation wave and the next.  Theoretically, a PDE can operate from [[subsonic flight|subsonic]] up to a [[hypersonic]] flight speed of roughly [[Mach number|Mach]] 5. An ideal PDE design can have a thermodynamic [[Fuel efficiency|efficiency]] higher than other designs like [[turbojet]]s and [[turbofan]]s because a detonation wave rapidly compresses the mixture and adds heat at constant volume. Consequently, [[moving parts]] like [[Axial compressor|compressor spools]] are not necessarily required in the engine, which could significantly reduce overall weight and cost.  PDEs have been considered for propulsion since 1940.<ref>Hoffmann, N., ''Reaction Propulsion by Intermittent Detonative Combustion,'' German Ministry of Supply, Volkenrode Translation, 1940.</ref>  Key issues for further development include fast and efficient mixing of the fuel and oxidizer, the prevention of [[Autoignition temperature|autoignition]], and integration with an inlet and nozzle.
+
+To date, no practical PDE has been put into production, but several testbed engines have been built and one was successfully integrated into a low-speed demonstration aircraft that flew in sustained PDE powered flight in 2008.  In June 2008, the [[Defense Advanced Research Projects Agency]] (DARPA) unveiled [[Blackswift]], which was intended to use this technology to reach speeds of up to Mach 6.<ref name="wired">{{Cite news
+ |title = Explosive Engine Key to Hypersonic Plane|first = Noah|last = Shachtman|authorlink = Noah Shachtman|url = https://www.wired.com/dangerroom/2008/06/the-military-wa/|work = [[Wired (magazine)|Wired]]|publisher = [[Condé Nast Publications]]|location = [[San Francisco, California]]|date = 24 June 2008|accessdate = 2009-06-27}}
+<!-- [http://blog.wired.com/defense/2008/06/the-military-wa.html ''Wired'' article] --></ref> However the project was reported cancelled soon afterward, in October 2008.
+
+==Concept==
+
+===Pulse jets===
+{{main|Pulsejet}}
+The basic operation of the PDE is similar to that of the [[Pulsejet|pulse jet engine]]. In the pulse jet, air is mixed with fuel to create a flammable mixture that is then ignited in an open chamber. The resulting combustion greatly increases the pressure of the mixture to approximately 100 atmospheres (10 MPa),<ref>[http://www.publicaddress.net/default,4114.sm "Pulse Detonation Engines"], An interview with Dr John Hoke, head researcher from Innovative Scientific Solutions Incorporated PDE program under contract to the United States Air Force Research Laboratory,  broadcast on New Zealand radio, 14 April 2007</ref> which then expands through a nozzle for thrust.
+
+To ensure that the mixture exits to the rear, thereby pushing the aircraft forward, a series of shutters are used to close off the front of the engine. Careful tuning of the inlet ensures the shutters close at the right time to force the air to travel in one direction only through the engine. Some pulse jet designs used a tuned resonant cavity to provide the valving action through the airflow in the system. These designs normally look like a U-shaped tube, open at both ends.
+
+In either system, the pulse jet has problems during the combustion process. As the fuel burns and expands to create thrust, it is also pushing any remaining unburnt charge rearward, out of the nozzle. In many cases some of the charge is ejected before burning, which causes the famous trail of flame seen on the [[V-1 flying bomb]] and other pulse jets. Even while inside the engine, the mixture's volume is constantly changing which inefficiently converts fuel into usable energy.
+
+===PDEs===
+All regular jet engines and most rocket engines operate on the ''[[deflagration]]'' of fuel, that is, the rapid but [[Speed of sound|subsonic]] [[combustion]] of [[fuel]]. The pulse detonation engine is a concept currently in active development to create a jet engine that operates on the supersonic ''[[detonation]]'' of fuel. Because the combustion takes place so rapidly, the charge (fuel/air mix) does not have time to expand during this process, so it takes place under almost [[Isochoric process|constant volume]]. Constant volume combustion is more efficient than open-cycle designs like [[gas turbine]]s, which leads to greater [[fuel efficiency]].
+
+As the combustion process is so rapid, mechanical shutters are difficult to arrange with the required performance. Instead, PDEs generally use a series of valves to time the process carefully. In some PDE designs from [[General Electric]], the shutters are eliminated through careful timing, using the pressure differences between the different areas of the engine to ensure the "shot" is ejected rearward.{{citation needed|date=March 2017}}
+
+Another side effect, not yet demonstrated in practical use, is the cycle time. A traditional pulsejet tops out at about 250 pulses per second due to the cycle time of the mechanical shutters, but the aim of the PDE is thousands of pulses per second,{{citation needed|date=March 2017}} so fast that it is basically continuous from an engineering perspective. This should help smooth out the otherwise highly vibrational pulsejet engine — many small pulses will create less volume than a smaller number of larger pulses for the same net thrust. Unfortunately, detonations are many times louder than deflagrations.
+
+The major difficulty with a pulse-detonation engine is starting the detonation.  While it is possible to start a detonation directly with a large spark, the amount of energy input is very large and is not practical for an engine. The typical solution is to use a deflagration-to-detonation transition (DDT)—that is, start a high-energy deflagration, and have it accelerate down a tube to the point where it becomes fast enough to become a detonation.{{citation needed|date=March 2017}} Alternatively the detonation can be sent around a circle and valves ensure that only the highest peak power can leak into exhaust.  Also the [[pulse compression detonation system]] can be applied to solve  the initiation problem.
+
+This process is far more complicated than it sounds, due to the resistance the advancing wavefront encounters (similar to [[wave drag]]).  DDTs occur far more readily if there are obstacles in the tube. The most widely used is the "[[Shchelkin spiral]]", which is designed to create the most useful eddies with the least resistance to the moving fuel/air/exhaust mixture. The eddies lead to the flame separating into multiple fronts, some of which go backwards and collide with other fronts, and then accelerate into fronts ahead of them.
+
+The behavior is difficult to model and to predict, and research is ongoing. As with conventional pulsejets, there are two main types of designs: valved and valveless. Designs with valves encounter the same difficult-to-resolve wear issues encountered with their pulsejet equivalents. Valveless designs typically rely on abnormalities in the air flow to ensure a one-way flow, and are very hard to achieve in a regular DDT.
+
+[[National Aeronautics and Space Administration|NASA]] maintains a research program on the PDE, which is aimed at high-speed, about [[Mach number|Mach 5]], civilian transport systems.{{citation needed|date=March 2017}} However most PDE research is military in nature, as the engine could be used to develop a new generation of high-speed, long-range [[reconnaissance aircraft]] that would fly high enough to be out of range of any current anti-aircraft defenses, while offering range considerably greater than the [[SR-71]], which required a massive tanker support fleet to use in operation.
+
+While most research is on the high speed regime, newer designs with much higher pulse rates in the hundreds of thousands appear to work well even at subsonic speeds. Whereas traditional engine designs always include tradeoffs that limit them to a "best speed" range, the PDE appears to outperform them at all speeds. Both [[Pratt & Whitney]] and [[General Electric]] now have active PDE research programs in an attempt to commercialize the designs.{{citation needed|date=March 2017}}
+
+Key difficulties in pulse detonation engines are achieving DDT without requiring a tube long enough to make it impractical and drag-imposing on the aircraft (adding a U-bend into the tube extinguishes the detonation wave); reducing the noise (often described as sounding like a jackhammer); and damping the severe vibration caused by the operation of the engine.
+
+==First PDE powered flight==
+[[File:PDE LongEZ AFRL.jpg|thumb|300px|In-flight picture of the pulsed detonation powered, and heavily modified, [[Rutan Long-EZ]] on January 31, 2008.]]
+The first known flight of an aircraft powered by a pulse detonation engine took place at the [[Mojave Airport & Spaceport|Mojave Air & Space Port]] on 31 January 2008.<ref>Norris, G., "Pulse Power: Pulse Detonation Engine-powered Flight Demonstration Marks Milestone in Mojave," ''Aviation Week & Space Technology'', Vol. 168, No. 7, 2008, pp. 60.</ref>  The project was developed by the [[Air Force Research Laboratory]] and [http://www.innssi.com Innovative Scientific Solutions, Inc.].  The aircraft selected for the flight was a heavily modified [[Scaled Composites]] [[Rutan Long-EZ|Long-EZ]], named ''Borealis''.<ref>''Borealis'' display poster text at Museum of USAF</ref>  The engine consisted of four tubes producing pulse detonations at a frequency of 80&nbsp;Hz, creating up to 200 pounds of thrust (890 newtons).  Many fuels were considered and tested by the engine developers in recent years, but a refined [[octane]] was used for this flight.  A small rocket system was used to facilitate the liftoff of the Long-EZ, but the PDE operated under its own power for 10 seconds at an altitude of approximately 100 feet (30 m).  Obviously, this flight took place at a low speed whereas the appeal of the PDE engine concept lies more at high speeds, but the demonstration showed that a PDE can be integrated into an aircraft frame without experiencing structural problems from the 195-200&nbsp;dB detonation waves.  No more flights are planned for the modified Long-EZ, but the success is likely to fuel more funding for PDE research. The aircraft itself has been moved to the [[National Museum of the United States Air Force]] for display.<ref>[http://www.af.mil/News/Article-Display/Article/123534/pulsed-detonation-engine-flies-into-history/ "Pulse Detonation Engine Flies Into History"], ''Air Force Print News Today'', 16 May 2008, accessed 16 August 2008</ref>
+
+==Popular culture==
+{{unreferenced section|date=August 2015}}
+* In the sci-fi novel ''[[Aelita (novel)|Aelita]]'' (1923), two Russians travel to Mars in a pulse detonation rocket utilizing "a fine powder of unusual explosive force" (p.&nbsp;19).
+*The 1939 Soviet novel ''The Mystery of the Two Oceans'' by [[Grigory Adamov]] is centered around a submarine using a detonation engine (among other cutting edge technologies). The fuel is a hydrogen/oxygen mixture, produced through water electrolysis. At one point, the submarine is sabotaged by disabling the pressure indicators, causing a buildup of the explosive mixture.
+* [[X-COM: UFO Defense]] video game features fictional fighter aircraft, "Interceptor", which is powered by dual pulse detonation engines, according to ingame description.
+* In the drama television series ''[[JAG (TV series)|JAG]]'', the [[List of JAG episodes|Season Nine]] episode "The One That Got Away" (original air date 17 October 2003) features the [[Aurora aircraft|Aurora]] — which in the show is a super-secret [[hypersonic]] [[aircraft]] under development by the [[CIA]] that uses a pulse-detonation engine.
+*In the movie ''[[Stealth (film)|Stealth]]'' (2005), the advanced fighters use pulse-detonation engines with [[scramjet]] boosters.
+* The PDE has been used as a story point in a number of modern novels such as [[Dan Brown]]'s thriller ''[[Deception Point]]'' (the second page of the book states that all technologies in the story are non-fictional and exist, albeit without referencing any sources), and [[Victor Koman]]'s science fiction polemic ''[[Kings of the High Frontier]]''.
+
+==See also==
+*[[Nuclear pulse propulsion]]
+*[[Rotating detonation engine]]
+*[[Scramjet]]
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.innssi.com Innovative Scientific Solutions Inc.]
+*[http://www.aardvark.co.nz/pjet/pde.shtml Pulse Detonation Engines]
+*[https://web.archive.org/web/20060313223530/http://www.popsci.com/popsci/aviationspace/e46d5b4a1db84010vgnvcm1000004eecbccdrcrd.html Popular Science]
+*[http://www.google.com/patents?vid=USPAT2942412&id=k4tFAAAAEBAJ&dq=bollay 1952 Pulse Detonation Jet Propulsion Patent by William Bollay]
+*[http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=11&f=G&l=50&d=PTXT&S1=5542247&OS=5542247&RS=5542247 Apparatus powered using laser-supplied energy, US patent Issued on 6 August 1996 Boyd B. Bushman]
+*[https://www.youtube.com/watch?v=GqLOI3h0DC8 (Video) The high detonation temperature inside the tube of an experimental PDE causes the seals to heat up and catch fire.]
+*[https://www.youtube.com/watch?v=IBjLx2AvxrM (Video) An experimental PDE operating with a detonation frequency of 1 Hz where the pulses are clearly defined.]
+*[https://www.youtube.com/watch?v=rYxsilgRxi4 (Video) An experimental PDE operating with a detonation frequency of 25 Hz.]
+*[https://www.youtube.com/watch?v=mSiER26ZHBg 2-D pulse-detonation engine simulation]
+*[http://www.foxnews.com/video/index.html?playerId=videolandingpage&streamingFormat=FLASH&referralObject=1791927&referralPlaylistId=e059f7416cd3e6a978256d927c7bb152d9988581 Fox News report on the Blackswift]
+*[http://www.defenselink.mil/comptroller/defbudget/fy2010/budget_justification/pdfs/03_RDT_and_E/Vol_1_DARPA/DARPA_PB10_RDTE-05-04-09.pdf DARPA May 2009 notes on PDE]
+
+{{Emerging technologies}}
+
+{{DEFAULTSORT:Pulse Detonation Engine}}
+[[Category:Jet engines]]
+[[Category:Aircraft engines]]
+[[Category:Emerging technologies]]

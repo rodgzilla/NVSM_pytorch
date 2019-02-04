@@ -1,0 +1,288 @@
+{{more footnotes|date=March 2015}}
+{{Translation sidebar}}
+'''National Translation Mission''' ([[Hindi]]: राष्ट्रीय अनुवाद मिशन; [[IAST]]: ''Rāṣṭrīya Anuvāda Miśana'') is a [[Government of India]] initiative to make knowledge texts accessible, in all [[Languages of India|Indian languages]] listed in the [[Languages with official status in India|VIII schedule of the Constitution]], through [[translation]]. NTM was set up on the recommendation of the [[National Knowledge Commission| National Knowledge Commission]]. The [[Ministry of Human Resource Development (India)|Ministry of Human Resource Development]] has designated Central Institute of Indian Languages as the nodal organization for the operationalization of NTM.<ref>http://www.ntm.org.in</ref>
+
+==Origins==
+[[English language|English]], the primary medium of higher education in India, remains inaccessible to even the literate majority of the country. Therefore, there is an urgent need to translate material in all fields like literary, technical, scientific and business etc. so that such material is accessible to a wide range of different language speaking population across the country. Translation, thus, is seen not just as an instrument of democratizing and secularizing knowledge, but also of empowering languages and speech communities.
+
+NTM intends to establish translation as an industry in the country. Its main objectives include generation of translation tools such as [[dictionaries]] and [[thesaurus|thesauri]]; development of software for translation, memory, etc.; promotion of [[machine translation]] and machine aided translation; translator education through orientation programs & courses; fellowships & grants for research projects, etc. Bringing visibility to translators and translation activities by organizing book launches for translations; instituting prizes and fellowships; organizing Regional Festivals of Translation; book exhibitions, etc. also are part of the activities of NTM.
+
+Project Advisory Committee (NTM-PAC) of NTM is the highest decision making body of NTM. It is a committee of 25 members representing various sections of the academic community, ministerial bodies and publishing houses related to translation. NTM-PAC is supported by four sub-committees in matters related to [[copyrights]] and legal matters; selecting knowledge texts; fixing rates for translators, copy editors etc.; and Grant in Aid schemes of NTM.
+
+==NTM Website in 23 languages==
+
+NTM is in the process of establishing itself as the clearing house of all translation related activities in the country. Interaction with the public is a requisite and NTM has developed its website (www.ntm.org.in) in 23 languages for the purpose. NTM website introduces the Mission, its objectives, beneficiaries, and structure etc. Updates on list of books selected for translation, experts consulted, announcement of translation assignments etc. are available for the public here. The Discussion Forum facilitates the users to discuss various topics like the books selected for translation in a subject, an existing translation, and terminology issues in Indian languages etc.''''
+
+==Translation & Publication of Pedagogic Material==
+
+105 titles have been approved for translations in 21 disciplines (Botany, Chemistry, Computer Science, Economics, History, Law, Mathematics, Mechanical Engineering, Medical Science, Philosophy, Physics, Political Science, Psychology, Sociology and Zoology) so far.
+
+To know more about the books taken up for translation, visit - www.ntm.org.in
+
+==NTM Databases==
+
+NTM also maintains National Register of Translators(NRT) through its website. NRT is a databank wherein [[translators]] register themselves online. NRT is a searchable directory of translators, evaluators and discipline experts with classified information on profession, experience, languages known and expertise in translation, etc.
+
+Lists of the most prescribed texts in Indian universities in various disciplines are generated out of the Knowledge Text Module, another major facet of NTM-databases. Two searchable database components have been created under it: Indian Universities Database and Knowledge Text Database. Indian Universities Database furnishes information on courses, syllabi and textbooks etc. of over 350 Union Grants Commission (UGC) accredited universities and institutions. Knowledge Text [[Database]] provides complete details of the prescribed books. When made public, this would become one of the first [[Sovereign state|state]] initiatives to provide information about all the universities/institutions and courses which can be accessed through a single window. It would help scholars and academicians from various regions to access the latest information on courses and syllabi of any university/institution of the country. [[University]] Boards can review the course details and syllabi structure of other universities before revising their curriculum. This may help in creating parity among universities of rural and urban regions.
+
+NTM-databases, created in [[Microsoft SQL Server|Microsoft SQL 2005]], can contain a maximum of 2^31 objects and span multiple Operating System-level files with a maximum file size of 220 [[Terabyte]]. Control mechanisms have been incorporated to the database for concurrent access to shared data, for ensuring data integrity. NTM aims to increase the usability of the databases by making them both as web and standalone applications.
+
+==Translation Tools==
+
+===Basic Bilingual Dictionaries===
+
+The [[bilingual]] dictionaries are modelled after the hugely popular Longman Corpus Network - based Basic English-English dictionary. Six bilingual dictionaries developed by the NTM in collaboration Pearson Education, India were launched on 10 March 2012.<ref>http://overseasindian.in/2012/mar/news/20121203-133959.shtml</ref>
+
+The dictionaries are the first publications from the NTM stable. In fact, the project had begun before the coming of NTM. Dorling Kindersley India Pvt Ltd (publishing as Pearson Education) and the [[Central Institute of Indian Languages]] (CIIL) had agreed to develop bilingual dictionaries in 11 languages. The work started in 2006. Later when NTM was launched in the year 2008, the lexical build activities were merged with NTM. The dictionaries are modeled on the British National Corpus based hugely popular Longman Basic English Dictionary. Following are the dictionaries that were launched:(listed alphabetically)
+
+* Longman-NTM-CIIL English English Bangla Dictionary
+* Longman-NTM-CIIL English English Hindi Dictionary
+* Longman-NTM-CIIL English English Kannada Dictionary
+* Longman-NTM-CIIL English English Malayalam Dictionary
+* Longman-NTM-CIIL English English Oriya Dictionary
+* Longman-NTM-CIIL English English Tamil Dictionary
+
+The dictionaries can be bought from popular online retailers like www.flipkart.com, www.homeshop18.com, www.pearson.vrvbookshop.com etc. or book sellers across the country.
+
+Work is under progress in other Indian languages - [[Assamese language|Assamese]], Bodo, Dogri, Gujarati, [[Konkani language|Konkani]], [[Maithili language|Maithili]], [[Meitei language|Meitei]], Marathi, [[Nepali language|Nepali]], Punjabi, [[Sanskrit]], [[Santali language|Santali]], Telugu, and [[Urdu]].
+
+===Bilingual e-dictionaries===
+
+e-dictionaries of NTM are based on ‘Longman Advanced Bilingual Framework’(LABF). LABF Dataset will be used through the Dictionary Production System(DPS), originally developed by Longman and marketed by Ingenierie Diffusion Multimedia(IDM), France. The NTM-Longman e-dictionary deals with 338,000 words, phrases and meanings; 78,000 head entries, 5,400 encyclopaedic entries, 54,000 phrases, over 515,000 examples and 26,000 synonyms, antonyms and related words.
+
+===Machine Translation===
+
+An English-Kannada Machine Translation(MT) package which bids to break new ground on the MT scene in India is being developed under NTM. The main aim of this project is to automate the translation of a given English sentence into Kannada. This Package is divided into 3 main modules– Parallel Aligned Corpora, Digitization of Source Language(SL) resources and Architecture. The Architecture is divided into 8 modules and implemented using Java with Netbeans Integrated Development Environment(IDE). The front end is designed using Swings and back-end SQL. The dictionary is put into action using random access file. Since Hash tables are particularly efficient when the maximum number of entries can be predicted in advance, this technique is used to accomplish searching. Collection classes are used as data storage structures.
+NTM has been interacting with several teams (like C-DAC, Pune, Noida, Mumbai; LTRC, ILMT, EILMT, Anusaaraka, Shakti—all at IIIT, Hyderabad) engaged in developing Machine Translation software to explore the extent to which the MT research and NTM can interface for mutual benefit.
+
+===Dictionary of Translation Studies===
+
+Dictionary of Translation Studies being prepared by NTM intends to serve as a companion to students and scholars interested in and associated with the discipline of Translation Studies. It is a compilation of the technically charged terms used in the discipline. It endeavours to be a comprehensive dictionary, exhausting the technical terms used in Indian as well as western discourse of translation and also the terms used in the sub-domains of Translation Studies like Interpreting, Machine Translation, etc.
+
+==Training and Certification of Translators==
+
+With an aim to train and orient translators, NTM has been organising 3 weeks Intensive Training Programme – ‘Introduction to Translation’. Translation theoreticians & academicians, eminent translators, linguists and language scholars from across the country have been delivering talks on various theoretical and practical aspects of translation. All the details are available in [http://www.ntm.org.in NTM website]
+
+NTM has also started piloting the methods and means of its nationwide Certification of Translators Programme. The certification module is being developed in collaboration with the National Accreditation Board for Certification Bodies (NABCB) of the Quality Council of India (QCI) along the lines of the international standards set for Personnel Certification. Training of evaluators will be a major component of the Certification of Translators Programme as a new system of grading translators will be introduced.
+
+==NTM Surveys==
+
+<big>Knowledge Text Scenario Survey</big>
+
+NTM conducted a survey with the following objectives:
+* To find out the availability of original and translated knowledge texts
+* To find whether the books suggested by discipline experts are already available in the regional languages or not, so as to avoid duplicity.
+* To find out whether original books written in regional languages are prescribed in the syllabi or not
+* To analyze the general publication scenario in regional languages, in order to formulate strategies for productive interventions by NTM
+* To assess the need and demand of translation of knowledge texts in regional languages
+
+17 languages are covered in the survey and they are Assamese, Bengali, Hindi, Kannada, Konkani, Malayalam, Maithili, Meitei, Marathi, Nepali, Odia, Punjabi, Sanskrit, Santali, Tamil, Telugu and Urdu. All the finding of the survey are compiled in a report titled ''Regional Language Knowledge Text Scenario – An Assessment''.
+
+<big>Royalty: Industry Practice across India</big>
+
+NTM conducted a nationwide survey so as to find out the prevalent practice among some of the major as well as regional publishers towards the payment of royalty to authors/copyright holders, translators etc.  In all, NTM has gathered information from over 100 publishers, which is essential in framing NTM-policies, especially in case of turnkey projects. A detailed report titled ''Royalty: Industry Practice Across India'' has been prepared.
+
+<big>Royalty: Lexicography in India</big>
+
+NTM conducted a survey to study the past and present scenario of lexicographic activities in 16 Indian Languages. The languages are - Assamese, Bengali, Hindi, Kannada, Konkani, Maithili, Malayalam, Meitei, Marathi, Nepali, Odia, Sanskrit, Santhali, Tamil, Telugu and Urdu. A detailed report titled Lexicography in Indian Languages: a brief report has been prepared explaining the finding.
+
+<big>Medium of Instruction & Medium of Examination (MoI & MoE) in Higher Education in India</big>
+
+NTM has collected data from 239 Universities/Colleges etc., then categorized, analyzed and a detailed report has been prepared and compared with survey report prepared by UPSC. Data provided by UGC on MoI/MoE are also categorized, analyzed and prepared a report.
+
+==Workshops and Seminars==
+
+NTM has organised workshops in regional languages in different parts of the country involving discipline experts and translators to chalk out strategies for NTM translation assignments. A few seminal knowledge texts formed the focus of discussions in these workshops. NTM has been conducting workshops to assess the existing knowledge text translations in regional languages. These assessment workshops also aim to bring about collaboration between NTM and eminent scholars, writers, translators and publishers in different fields which will help in forming expert panels for its translations. NTM has also been organizing seminars on various aspects of translation with special reference to regional languages in different parts of the country. Apart from these, Translator Orientation Programmes; Publishers, Media and Translators Meet; Book Festivals; Workshops on Literary and Linguistic Terms; programmes on Classical Text and Literary Text Translation have been organized across the country by NTM. These workshops help NTM to popularize its initiatives among beneficiaries.
+
+==Publications==
+
+===Dictionaries===
+* '''[http://www.pearsoned.co.in/web/books/9788131731260_LongmanCIIL-EnglishEnglishBangla-Dictionary_-Longman.aspx Longman-NTM-CIIL English English Bangla Dictionary]'''
+{{ISBN|978-81-317-3126-0}} (Hardback), {{ISBN|978-81-317-3125-3}} (Paperback)
+* '''[http://www.pearsoned.co.in/web/books/9788131731321_LongmanCIIL-EnglishEnglishHindi-Dictionary_-Longman.aspx Longman-NTM-CIIL English English Hindi Dictionary]'''
+{{ISBN|978-81-317-3132-1}} (Hardback), {{ISBN|978-81-317-3131-4}} (Paperback)
+* '''[http://www.pearsoned.co.in/web/books/9788131731345_LongmanCIIL-EnglishEnglishKannada-Dictionary_-Longman.aspx Longman-NTM-CIIL English English Kannada Dictionary]'''
+{{ISBN|978-81-317-3134-5}} (Hardback), {{ISBN|978-81-317-3133-8}} (Paperback)
+* '''[http://www.pearsoned.co.in/web/books/9788131731277_LongmanNTMCIIL-EnglishEnglishMalayalam-Dictionary_-National-Translation-Mission-NTM.aspx Longman-NTM-CIIL English English Malayalam Dictionary]'''
+{{ISBN|978-81-317-3128-4}} (Hardback), {{ISBN|978-81-317-3127-7}} (Paperback)
+* '''[http://www.pearsoned.co.in/web/books/9788131731369_LongmanNTMCIIL-EnglishEnglishOriya-Dictionary_-National-Translation-Mission-NTM.aspx Longman-NTM-CIIL English English Oriya Dictionary]'''
+{{ISBN|978-81-317-3136-9}} (Hardback), {{ISBN|978-81-317-3135-2}} (Paperback)
+* '''[http://www.pearsoned.co.in/web/books/9788131731291_LongmanNTMCIIL-EnglishEnglishTamil-Dictionary_-National-Translation-Mission-NTM.aspx Longman-NTM-CIIL English English Tamil Dictionary]'''
+{{ISBN|978-81-317-3130-7}} (Hardback), {{ISBN|978-81-317-3129-1}} (Paperback)
+
+The Longman-NTM-CIIL English English [Indian Languages] Dictionary Series has been published by [http://www.pearsoned.co.in/Web/Home.aspx Pearson Education India]
+
+===Knowledge Text Translations===
+===Bengali===
+* '''Samajtatter Mulsutra'''; {{ISBN|978-93-8409-926-8}}
+Translation of "Fundamentals of Sociology" by Gisbert P., Translator: Himangshu Ghosh, Publisher: Suhrid Publications, Kolkata, West Bengal
+
+===Bodo===
+* '''Gibi bharatni jarimin: Sigangnifrai AD 1300 sim'''; {{ISBN|978-93-8287-749-3}}
+Translation of "The Penguin History of Early India From the Origins to AD 1300" by Thapar R., Translator: Kameswar Brahma, Publisher: Bodo Sahitya Sabha, Kokrajhar, Assam
+
+===Dogri===
+* '''Bharti Itihaas Da Adhyan: Ik Parichey'''; {{ISBN|978-81-9281-089-8}}
+Translation of “An Introduction to the Study of Indian History” by Kosambi D. D., Translator: PChandu Bhau, Yashpal Nirmal, Publisher: Nidhi Publications, Jammu, Jammu & Kashmir.
+
+===Hindi===
+* '''Bhartiya Samvidhan: Rashtra Ki Aadashila'''; {{ISBN|978-93-5000-852-2}}
+Translation of “The Indian Constitution: Cornerstone of a Nation” by Granville Austin. Translator: Naresh Goswami, Publisher: Vani Prakashan.
+
+* '''Asaamaanya Manovigyan'''; {{ISBN|978-81-3179-369-5}}
+Translation of “Abnormal Psychology” by Carson, Robert C.; Butcher, James Neal; Mineka, Susan. Translator: Pallavi Bhatnagar, Jaya Chauhan, Prateeksha Shrivastava, Publisher: Pearson India Education Services Pvt. Ltd.
+
+* '''Carbonic Rasayan Vigyan - Khand 1'''; {{ISBN|978-81-3179-139-4}}
+Translation of “Organic Chemistry - Vol.1” by I. L. Finar. Translator: Kaushal Kishore Shrivastava and Shubha Shrivastava, Publisher: Pearson India Education Services Pvt. Ltd.
+
+===Kannada===
+* '''ಅಣು ರೋಹಿತ ದರ್ಶನದ ಮೂಲಾಂಶಗಳು (Anu Rohitha Darshanada Mulamshagalu)'''; {{ISBN|978-93-82877-04-2}}
+Translation of “Fundamentals of Molecular Spectroscopy” by Colin N Banwell and Elaine M MaCash. Translator: ಹೆಚ್. ಎಸ್. ಉಮೇಶ್ (H S Umesh), ಎಂ. ಕೆ. ರಾಮಸ್ವಾಮಿ (M K Ramaswamy), Publisher: Vismaya Prakashana, Mysore, Karnataka.
+
+* '''Shakha Vargaavane'''; {{ISBN|978-81-9243-314-1}}
+Translation of "Heat Transfer" by J P Holman, Translator: K P Srikantha, Publisher: KSM Trust, Bengaluru, Karnataka
+
+* '''Penguin avara Pracheena Bharatada Ithihasa'''; {{ISBN|978-93-8287-749-3}}
+Translation of "The Penguin History of Early India From the Origins to AD 1300" by R. Thapar, Translator: H. S. Umesha, ShashiKumar J, Deepa, Publisher: Vismaya Prakashana, Mysuru, Karnataka
+
+===Maithili===
+* '''Adhunik Bharatme Jati o anya Nibandh'''; {{ISBN|978-81-7343-191-3}}
+Translation of “Cast in Modern India and other Essays” by M N Srinivas. Translator: Shambhu Kumar Singh, Publisher:[http://www.ntm.org.in/ National Translation Mission], [http://www.ciil.org/ Central Institute of Indian Languages], [[Mysuru]], [[Karnataka]]
+
+===Malayalam===
+* '''Indian Bharanakhatana Rashtrathinte Aadharasila'''; {{ISBN|978-81-2004-235-3}}
+Translation of “The Indian Constitution: Cornerstone of a Nation” by Granville Austin. Translator: Govindan S Thampi, Publisher:[http://www.keralabhashainstitute.org/ State Institute of Language], Kerala
+
+* ഭാരതതീയ ദർശന സംഗ്രഹം '''Bhaaratheeyadarsana Samgraham''', {{ISBN|978-81-7638-675-3}}
+Translation of “Outlines of Indian Philosophy”; M Hiriyanna, Translator: R. Parvathikutty, Publisher: [http://www.keralabhashainstitute.org/ State Institute of Language], Kerala
+
+===Marathi===
+* '''भारतीय राज्यघटनाः राष्ट्राची कोनशीला (Bhaaratiiya Raajyaghatanaa: Raashtraachi Khonshiilaa)''', {{ISBN|978-81-8483-512-0}}
+Translation of "The Indian Constitution: Cornerstone of a Nation" by Granville Austin, Translator: भारती केळकर (Bharati Kelkar), Publisher: [http://www.diamondbookspune.com/ Diamond Publications], Pune, Maharashtra
+
+* '''Ushmantaran''', {{ISBN|978-81-8483-568-7}}
+Translation of "Heat Transfer" by J P Holman, Translator: Subash Phadke, Publisher: [http://www.diamondbookspune.com/ Diamond Publications], Pune, Maharashtra
+
+===Nepali===
+* '''Bharatiya sambidhan-rashtrako aadharsilaa'''; {{ISBN|978-81-7343-186-9}}
+Translation of “The Indian Constitution: Cornerstone of a Nation” by Granville Austin. Translator: Rajendra Dhakal, Publisher: Central Institute of Indian Languages, Mysuru
+* '''Bharatiya darsanko ruprekha'''; {{ISBN|978-81-7343-175-3}} 
+Translation of "Outlines of Indian Philosophy" by M Hiriyanna, Translator: Ghanashyam Nepal, Publisher: Central Institute of Indian Languages, Mysuru, Karnataka
+
+===Odia===
+* '''ଆଦ୍ୟକାଳୀନ ଭାରତ ଇତିହାସ:ପ୍ରାରମ୍ଭରୁ ୧୩୦୦ ମସିହା ପର୍ଯ୍ୟନ୍ତ (Adyakaalina Bharat Itihaasa:Praarambharu 1300 Masiha Paryanta)''', {{ISBN|978-93-82550-43-3}}
+Translation of "The Penguin History of Early India: From Origins to AD 1300" by [[Romila Thapar]], Translator: ପ୍ରୀତିଶ ଆଚାର୍ଯ୍ୟ (Pritish Acharya), Publisher: A K Mishra Publishers Pvt Ltd, Bhubaneshwar, Odisha
+
+* '''Bharatiya Darshanara Ruparekha'''; {{ISBN|978-93-8255-004-4}}
+Translation of "Outlines of Indian Philosophy" by M Hiriyanna, Translator: Banbihari Choudhury, Publisher: A K Mishra Publishers Pvt Ltd, Bhubaneshwar, Odisha
+
+* '''ଭାରତୀୟ ସମ୍ବିଧାନ ଏକ ଦେଶର ଭିତ୍ତିପ୍ରସ୍ତର (Bharatiya Sambidhana Eka Deshara Bhittiprastara)''', {{ISBN|978-93-82550-44-0}}
+Translation of "The Indian Constitution: Cornerstone of a Nation" by [[Granville Austin]], Translator: Arun Kumar Behera, Publisher: A K Mishra Publishers Pvt Ltd, Bhubaneshwar, Odisha
+
+===Punjabi===
+* '''ਪ੍ਰਾਚੀਨ ਭਾਰਤ: ਮੁੱਢ ਤੋਂ 1300 ਈਸਵੀ ਤੱਕ (Praachiin Bhaarat: Mudd Ton 1300 Isvi Tak)''', {{ISBN|978-93-5113-029-1}}
+Translation of "The Penguin History of Early India: From Origins to AD 1300" by Romila Thapar, Translator: ਕਰਮਿੰਦਰ ਸਿੰਘ (Karminder Singh), Publisher: [http://www.unistarbooks.com/ Lokgeet Parkashan (Unistar Books Pvt. Ltd.)], Chandigarh
+
+* '''ਭਾਰਤੀ ਦਰਸ਼ਨ ਦੀ ਰੂਪ-ਰੇਖਾ (Bharti Darshan Di Roop-Rekha)''', {{ISBN|978-93-5113-240-0}}
+Translation of "Outlines of Indian Philosophy" by M Hiriyanna, Translator: ਪ੍ਰਭਕੀਰਤਨ ਸਿੰਘ (Prabhkirtan Singh), Publisher: [http://www.unistarbooks.com/ Lokgeet Parkashan (Unistar Books Pvt. Ltd.)], Chandigarh
+
+* '''ਭਾਰਤੀ ਸੰਵਿਧਾਨ: ਰਾਸ਼ਟਰ ਦੀ ਬੁਨਿਆਦ (Bharti Sanvidhan: Rashatar Di Buniad)''', {{ISBN|978-93-5113-239-4}}
+Translation of "The Indian Constitution: Cornerstone of a Nation" by Granville Austin, Translator: ਕਰਮਿੰਦਰ ਸਿੰਘ (Karminder Singh), Publisher: [http://www.unistarbooks.com/ Lokgeet Parkashan (Unistar Books Pvt. Ltd.)], Chandigarh
+
+===Tamil===
+* '''சமூகவியலின் அடிப்படைகள் (samuuhaviyalin aDippaDaihal)'''; {{ISBN|978-81-7343-169-2}}
+Translation of "Fundamentals of Sociology" by Gisbert P, Translator: Poornachandran G., Publisher: Central Institute of Indian Languages, Mysuru, Karnataka
+
+===Telugu===
+* '''[http://hyderabadbooktrust.blogspot.in/2013/05/blog-post.html భారత రాజ్యాంగం - దేశానికి మూల స్తంభం (Bhaarata Raajyaangm: Deshaaniki Muulastambham)]''', {{ISBN|978-81-907377-3-9}}
+Translation of "The Indian Constitution: Cornerstone of a Nation" by Granville Austin, Translator: ప్రభాకర్ మందార (Prabhakar Mandhara), Publisher: [http://hyderabadbooktrust.blogspot.in/ Hyderabad Book Trust], Hyderabad, Andhra Pradesh
+
+* '''[http://hyderabadbooktrust.blogspot.in/2015/01/blog-post_71.html భారత చరిత్ర అధ్యయనానికి ఒక పరిచయం (Bhaarata Caritra Adhyayanaaniki Oka ParicayaM)]''', {{ISBN|978-81-907377-5-3}}
+Translation of "An Introduction to the Study of Indian History" by D D Kosambi, Translator: ఎన్ వేణుగోపాల్ (N. Venugopal), Publisher: [http://hyderabadbooktrust.blogspot.in/ Hyderabad Book Trust], Hyderabad, Andhra Pradesh
+
+===Thematic Volumes===
+===English===
+* '''History of Translation in India'''; {{ISBN|978-81-7343-189-0}}
+
+Editor: Tariq Khan, Publisher:[http://www.ntm.org.in/ National Translation Mission], [http://www.ciil.org/ Central Institute of Indian Languages], [[Mysuru]], [[Karnataka]]
+
+==Upcoming Publications==
+
+===Dictionaries===
+* '''Longman-NTM-CIIL English English Punjabi Dictionary'''
+* '''Longman-NTM-CIIL English English Gujarati Dictionary'''
+* '''Longman-NTM-CIIL English English Marathi Dictionary'''
+* '''Longman-NTM-CIIL English English Telugu Dictionary'''
+
+===Assamese===
+* Translation of '''Mechanical Engineering Design'''; Joseph E Shigley
+* Translation of '''Structure and Function in Primitive Society'''; A R Radcliffe-Brown
+
+===Kannada===
+* Translation of '''Invertebrate Zoology'''; Jordan & Verma
+* Translation of '''Mechanical Engineering Design'''; Joseph Shigley
+* Translation of '''Pharmacology and Pharmacotherapeutics'''; Satoskar, Bhandarkar, Nirmala Rege
+
+===Malayalam===
+* Translation of '''Heat Transfer'''; J P Holman
+* Translation of '''Fundamentals of Molecular Spectroscopy'''; J P Holman
+
+===Nepali===
+* Translation of '''An Introduction to the Study of Indian History'''; D D Kosambi
+* Translation of '''The Indian Constitution: Cornerstone of a Nation'''; Granville Austin
+
+===Tamil===
+* Translation of '''Heat Transfer'''; J P Holman
+* Translation of '''A Grammar of Politics'''; H J Laski
+
+==References==
+{{reflist}}
+# {{Cite news |url= http://indianexpress.com/article/india/india-others/from-the-gallery-8/ | publisher= Indian Express | date= 13 Dec 2014 | title=From the gallery: 5 questions: Poonam Mahajan, BJP}}
+# {{Cite news |url= http://post.jagran.com/government-working-for-protection-of-dialects-1418202853|publisher= Jagaran.com | date= 10 Dec 2014 | title=Government working for protection of dialects}}
+# {{Cite news |url= http://news.rediff.com/commentary/2014/dec/10/why-mps-cheered-three-mumbai-women-in-parliament-today/4437a00bb6820106d88e063c64b80616|publisher= http://news.rediff.com | date= 10 Dec 2014 | title=Why MPs cheered three Mumbai women in Parliament today}}
+# {{Cite news |url= http://www.medianama.com/2014/10/223-governments-e-bhasha-platform-likely-to-be-ready-in-two-months/ | publisher= Medianama | date= 27 Oct 2014 | title=Government’s e-Bhasha platform likely to be ready in two months}}
+# {{Cite news |url= http://efytimes.com/e1/fullnews.asp?edid=121207|publisher= IFY Times.com | date= 14 Nov 2013 | title=National Translation Mission To Bring English Information In Regional Languages}}
+# {{Cite news |url= http://newindianexpress.com/states/karnataka/Translation-system-getting-ready-in-22-languages/2013/11/11/article1884065.ece?service=print |publisher= The New Indian Express | date= 11 Nov 2013 | title=Translation system getting ready in 22 languages}}
+# {{Cite news |url= http://manipurupdate.com/?p=86031 | date= 13 Oct 2013 | publisher= Manipuri Update | title=Workshop on Manipuri Terminology Building}}
+# {{Cite news |url=http://www.tribuneindia.com/2013/20130609/kashmir.htm#10 |publisher= Tribune India |date= 8 June 2013 |title=Translators’ orientation programme concludes at KU }}
+# {{Cite news |url=http://www.greaterkashmir.com/news/2013/Jun/8/centre-for-translation-to-come-up-at-ku-11.asp |publisher= Greater Kashmir |date= 7 June 2013 |title=Centre for translation to come up at KU }}
+# {{Cite news |url=http://www.dailykashmirimages.com/news-orientation-program-on-translation-begins-at-ku-43818.aspx |publisher=Kashmir Images |date=4 June 2013 |title=Orientation program on translation begins at KU |deadurl=yes |archiveurl=https://web.archive.org/web/20131203064851/http://www.dailykashmirimages.com/news-orientation-program-on-translation-begins-at-ku-43818.aspx |archivedate=3 December 2013 |df= }}
+# {{Cite news |url=http://youngbites.in/newsdet.aspx?q=49536 |publisher= Youngbites |date= June 2013 |title=Orientation program on translation begins at KU }}
+# {{Cite news |url=http://week.manoramaonline.com/cgi-bin/MMOnline.dll/portal/ep/theWeekContent.do?programId=1073754900&contentId=14003346&tabId=13 |publisher=The Week |date=6 May 2013 |title=Gains in translation }}
+# {{Cite news |url=http://www.scoopnews.in/det.aspx?q=27173 |publisher=Scoop News |date=23 February 2013 |title=JKAACL plays vital role in promoting State’s culture }}
+# {{Cite news |url=http://www.sentinelassam.com/state2/story.php?sec=2&subsec=14&id=145416&dtP=2013-01-09&ppr=1 |publisher=The Sentinel |date=8 January 2013 |title=National Translation Mission conducts orientation programme }}
+# {{Cite news |url=http://kanglaonline.com/2013/01/orientation-program-on-translation/ |publisher=Kanla Online |date=4 January 2013 |title=Orientation program on translation }}
+# {{Cite news |url=http://www.sentinelassam.com/state2/story.php?sec=2&subsec=14&id=144836&dtP=2013-01-04&ppr=1#144836 |publisher=The Sentinel |date=3 January 2013 |title=NTM programme in Nowgong College }}
+# {{Cite news |url=http://www.siasat.com/english/news/translation-not-only-profession-also-art-tutun-mukherjee |publisher=The Siasat Daily |date=7 December 2012 |title=Translation not only a profession but also an art }}
+# {{Cite news |url=http://www.dailyexcelsior.com/knowledge-text-translation-in-dogri-translators-orientation-prog-inaugurated/ |publisher=Daily Excelsior  |date=12 September 2012 |title=Knowledge Text Translation in Dogri Translators Orientation Prog inaugurated }}
+# {{Cite news |url=http://www.thehindu.com/todays-paper/tp-features/tp-metroplus/word-to-word/article3502910.ece |publisher=The Hindu |date=8 June 2012 |title=Word to word }}
+# {{Cite news |url=http://www.educationworldonline.net/index.php/page-article-choice-more-id-3103 |publisher=Education World |date=9 April 2012 |title=NTM’s first fruits }}
+# {{Cite news |url=http://postnoon.com/2012/03/13/protecting-our-mother-tongues/37100 |publisher=Postnoon |date=13 March 2012 |title=Protecting our mother tongues }}
+# {{Cite news |url=http://gulfnews.com/news/world/india/bilingual-dictionaries-to-promote-india-s-mother-tongues-1.993478 |publisher=Gulf News |date=13 March 2012 |title=Bilingual dictionaries to promote India's mother tongues }}
+# {{Cite news |url=http://www.indiaeducationreview.com/industry-updates/pearson-education-national-translation-mission-regional-institute-english-work-caus |publisher=India Education Review |date=13 March 2012 |title=Pearson Education, National Translation Mission, Regional Institute of English to work for the cause of translation }}
+# {{Cite news |url=http://www.ummid.com/news/2012/March/12.03.2012/bilingual_dictionaries.htm |publisher=Ummid |date=12 March 2012 |title=Bilingual dictionaries to promote India's mother tongues }}
+# {{Cite news |url=http://overseasindian.in/2012/mar/news/20121203-133959.shtml |publisher=Overseas Indian |date=12 March 2012 |title=Bilingual dictionaries to promote India's mother tongues }}
+# {{Cite news|url=http://twocircles.net/2012mar12/bilingual_dictionaries_promote_indias_mother_tongues.html |publisher=Two Circles |date=12 March 2012 |title=Bilingual dictionaries to promote India's mother tongues }}
+# {{Cite news |url=http://www.telegraphindia.com/1110723/jsp/jharkhand/story_14275101.jsp |publisher=The Telegraph |date=23 July 2011 |title=Journey of words from English to Urdu - National translation project to link languages on, statewide lens on schools in pipeline }}
+# {{Cite news |url=http://kalvimalar.dinamalar.com/news-details.asp?id=6468&cat=1 |publisher=Kalvi Malar |date=30 June 2011 |title=National Translation Mission may become certifying agency }}
+# {{Cite news |url=http://pib.nic.in/newsite/erelease.aspx?relid=72919 |publisher=Press Information Bureau GoI |date=29 June 2011 |title=National Translation Mission Reviewed }}
+# {{Cite news |url=http://www.daijiworld.com/news/news_disp.asp?n_id=91220 |publisher=Daiji World |date=7 December 2010 |title=National Translation Mission Commences at St Aloysius College }}
+# {{Cite news |url=http://indiaeducationdiary.in/Shownews.asp?newsid=4505 |publisher=India Education Diary |date=31 October 2010 |title=Workshop on 'Translating Sciences and Social Sciences from English into Urdu' at AMU }}
+# {{Cite news |url=http://nvonews.com/2010/10/30/workshop-on-%E2%80%98translating-sciences-social-sciences-from-english-into-urdu%E2%80%99-organized/ |publisher=NVO News |date=30 October 2010 |title=Workshop on ‘Translating Sciences & Social Sciences from English into Urdu’ organized |deadurl=yes |archiveurl=https://archive.is/20130624234106/http://nvonews.com/2010/10/30/workshop-on-%E2%80%98translating-sciences-social-sciences-from-english-into-urdu%E2%80%99-organized/ |archivedate=24 June 2013 |df= }}
+# {{Cite news |url=http://www.hinduonnet.com/2010/01/09/stories/2010010951010200.htm |publisher=The Hindu |date=9 July 2010 |title=An opportunity for translators }}
+# {{Cite news |url=http://www.karnataka-colleges.com/education-news/20093/20090804b.asp |publisher=Colleges Karnataka |date=4 August 2009 |title=National translation conference begins today }}
+# {{Cite news |url=http://www.hindu.com/edu/2008/12/08/stories/2008120850790100.htm |publisher=The Hindu |date=28 December 2008 |title=For the sake of knowledge }}
+# {{Cite news |url=http://www.hinduonnet.com/thehindu/thscrip/print.pl?file=2008110753150600.htm&date=2008/11/07/&prd=th& |publisher=The Hindu |date=7 November 2008 |title=National database of translators on the anvil }}
+# {{Cite news |url=http://www.hindu.com/2008/07/19/stories/2008071953690500.htm |publisher=The Hindu |date=19 July 2008 |title=National Translation Mission generates response from all walks of life  }}
+# {{Cite news |url=http://www.merinews.com/article/national-translation-mission-includes-kashmiri-dogri/132676.shtml |publisher= Meri News |date=18 April 2008 |title=National Translation Mission includes Kashmiri, Dogri }}
+# {{Cite news |url=http://www.hindu.com/2007/11/16/stories/2007111660120600.htm |publisher=The Hindu |date=16 November 2007 |title=Translation mission taking shape }}
+# {{Cite news |url=http://www.knowledgecommission.gov.in/focus/translation.asp |publisher=National Knowledge Commission |title=Translation |deadurl=yes |archiveurl=https://web.archive.org/web/20101203042836/http://www.knowledgecommission.gov.in/focus/translation.asp |archivedate=2010-12-03 |df= }}
+
+==External links==
+*[http://www.ntm.org.in www.ntm.org.in homepage]
+
+{{Government Schemes in India}}
+
+[[Category:Languages of India]]
+[[Category:Translation organizations]]
+[[Category:Education policy in India]]

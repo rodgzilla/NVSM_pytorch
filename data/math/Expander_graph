@@ -1,0 +1,201 @@
+In [[combinatorics]], an '''expander graph''' is a [[sparse graph]] that has strong [[connectivity (graph theory)|connectivity]] properties, quantified using [[vertex (graph theory)|vertex]], [[edge (graph theory)|edge]] or spectral expansion as described below. Expander constructions have spawned research in pure and applied mathematics, with several applications to [[Computational complexity theory|complexity theory]], design of robust [[computer network]]s, and the theory of [[error-correcting code]]s.<ref>{{harvtxt|Hoory|Linial|Widgerson|2006}}</ref>
+
+==Definitions==
+Intuitively, an expander is a finite, undirected [[multigraph]] in which every subset of the vertices that  is not "too large" has a "large" boundary. Different formalisations of these notions give rise to different notions of expanders: ''edge expanders'', ''vertex expanders'', and ''spectral expanders'', as defined below.
+
+A disconnected graph is not an expander, since the boundary of a connected component is empty. Every connected graph is an expander; however, different connected graphs have different expansion parameters. The [[complete graph]] has the best expansion property, but it has largest possible degree. Informally, a graph is a good expander if it has low degree and high expansion parameters.
+
+===Edge expansion===
+The ''edge expansion'' (also ''isoperimetric number'' or [[Cheeger constant (graph theory)|Cheeger constant]]) ''h''(''G'') of a graph ''G'' on ''n'' vertices is defined as
+: <math>h(G) = \min_{0 < |S| \le \frac{n}{2} } \frac{|\partial S|}{|S|},</math>
+where <math>\partial S := \{ (u, v) \in E(G) \ : \ u \in S, v \in V(G) \setminus S \}.</math>
+
+In the equation, the minimum is over all nonempty sets ''S'' of at most ''n''/2 vertices and ∂''S'' is the ''edge boundary'' of ''S'', i.e., the set of edges with exactly one endpoint in ''S''.<ref>Definition 2.1 in {{harvtxt|Hoory|Linial|Widgerson|2006}}</ref>
+
+===Vertex expansion===
+The ''vertex isoperimetric number'' <math>h_{\text{out}}(G)</math> (also ''vertex expansion'' or ''magnification'') of a graph ''G'' is defined as
+: <math>h_{\text{out}}(G) = \min_{0 < |S|\le \frac{n}{2}} \frac{|\partial_{\text{out}}(S)|}{|S|},</math>
+where <math>\partial_{\text{out}}(S)</math> is the ''outer boundary'' of ''S'', i.e., the set of vertices in <math>V(G)\setminus S</math> with at least one neighbor in ''S''.<ref name="BobkovHoudre">{{harvtxt|Bobkov|Houdré|Tetali|2000}}</ref> In a variant of this definition (called ''unique neighbor expansion'') <math>\partial_{\text{out}}(S)</math> is replaced by the set of vertices in ''V'' with ''exactly'' one neighbor in ''S''.<ref name="AlonCapalbo">{{harvtxt|Alon|Capalbo|2002}}</ref>
+
+The ''vertex isoperimetric number'' <math>h_{\text{in}}(G)</math> of a graph ''G'' is defined as
+: <math>h_{\text{in}}(G) = \min_{0 < |S|\le \frac{n}{2}} \frac{|\partial_{\text{in}}(S)|}{|S|},</math>
+where <math>\partial_{\text{in}}(S)</math> is the ''inner boundary'' of ''S'', i.e., the set of vertices in ''S'' with at least one neighbor in <math>V(G)\setminus S</math>.<ref name="BobkovHoudre" />
+
+===Spectral expansion===
+When ''G'' is [[regular graph|''d''-regular]], a [[linear algebra]]ic definition of expansion is possible based on the [[Eigenvalue#Eigenvalues of matrices|eigenvalues]] of the [[adjacency matrix]] ''A'' = ''A''(''G'') of ''G'', where <math>A_{ij}</math> is the number of edges between vertices ''i'' and ''j''.<ref>cf. Section 2.3 in {{harvtxt|Hoory|Linial|Widgerson|2006}}</ref> Because ''A'' is [[symmetric matrix|symmetric]], the [[spectral theorem]] implies that ''A'' has ''n'' real-valued eigenvalues <math>\lambda_1 \ge \lambda_2 \ge \cdots \ge \lambda_{n}</math>. It is known that all these eigenvalues are in [−''d'', ''d''].
+
+Because ''G'' is regular, the uniform distribution <math>u\in\R^n</math> with <math>u_i=1/n</math> for all ''i'' = 1, ..., ''n'' is the [[stationary distribution]] of ''G''. That is, we have ''Au'' = ''du'', and ''u'' is an eigenvector of ''A'' with eigenvalue λ<sub>1</sub> = ''d'', where ''d'' is the [[degree (graph theory)|degree]] of the vertices of ''G''. The ''[[spectral gap]]'' of ''G'' is defined to be ''d''&nbsp;−&nbsp;λ<sub>2</sub>, and it measures the spectral expansion of the graph ''G''.<ref>This definition of the spectral gap is from Section 2.3 in {{harvtxt|Hoory|Linial|Widgerson|2006}}</ref>
+
+It is known that λ<sub>''n''</sub> = −''d'' if and only if ''G'' is bipartite. In many contexts, for example in the [[expander mixing lemma]], a bound on λ<sub>2</sub> is not enough, but indeed it is necessary to bound the absolute value of ''all'' the eigenvalues away from ''d'':
+:<math>\lambda=\max\{|\lambda_2|, |\lambda_n|\}.</math>
+Since this is the largest eigenvalue corresponding to an eigenvector orthogonal to ''u'', it can be equivalently defined using the [[Rayleigh quotient]]:
+:<math>\lambda=\max_{v \perp u , v \neq 0} \frac{\|Av\|_2}{\|v\|_2},</math>
+where 
+:<math>\|v\|_2=\left(\sum_{i=1}^n v_i^2\right)^{1/2}</math> 
+is the [[2-norm]] of the vector <math>v\in\R^n</math>.
+
+The normalized versions of these definitions are also widely used and more convenient in stating some results. Here one considers the matrix <math>\tfrac{1}{d} A</math>, which is the [[Markov transition matrix]] of the graph ''G''. Its eigenvalues are between −1 and 1. For not necessarily regular graphs, the spectrum of a graph can be defined similarly using the eigenvalues of the [[Laplacian matrix]]. For directed graphs, one considers the [[singular values]] of the adjacency matrix ''A'', which are equal to the roots of the eigenvalues of the symmetric matrix ''A<sup>T</sup>A''.
+
+==Relationships between different expansion properties==
+The expansion parameters defined above are related to each other. In particular, for any ''d''-regular graph ''G'',
+
+:<math>h_{\text{out}}(G) \le h(G) \le d \cdot h_{\text{out}}(G).</math>
+
+Consequently, for constant degree graphs, vertex and edge expansion are qualitatively the same.
+
+===Cheeger inequalities===
+When ''G'' is ''d''-regular, there is a relationship between the isoperimetric constant ''h''(''G'') and the gap ''d'' − λ<sub>2</sub> in the spectrum of the adjacency operator of ''G''. By standard spectral graph theory, the trivial eigenvalue of the adjacency operator of a ''d''-regular graph is λ<sub>1</sub>=''d'' and the first non-trivial eigenvalue is λ<sub>2</sub>. If ''G'' is connected, then λ<sub>2</sub> < ''d''. An inequality due to Dodziuk{{Sfn|Dodziuk|1984}} and independently [[Noga Alon|Alon]] and [[Vitali Milman|Milman]]{{Sfn|Alon|Spencer|2011}} states that<ref>Theorem 2.4 in {{harvtxt|Hoory|Linial|Widgerson|2006}}</ref>
+
+: <math>\tfrac{1}{2}(d - \lambda_2) \le h(G) \le \sqrt{2d(d - \lambda_2)}.</math>
+
+This inequality is closely related to the [[Cheeger bound]] for [[Markov chains]] and can be seen as a discrete version of [[Cheeger constant#Cheeger.27s inequality|Cheeger's inequality]] in [[Riemannian geometry]].
+
+Similar connections between vertex isoperimetric numbers and the spectral gap have also been studied:<ref>See Theorem 1 and p.156, l.1 in {{harvtxt|Bobkov|Houdré|Tetali|2000}}. Note that λ<sub>2</sub> there corresponds to 2(''d''&nbsp;−&nbsp;λ<sub>2</sub>) of the current article (see p.153, l.5)</ref>
+: <math>h_{\text{out}}(G)\le \left(\sqrt{4 (d-\lambda_2)} + 1\right)^2 -1</math>
+: <math>h_{\text{in}}(G) \le \sqrt{8(d-\lambda_2)}.</math>
+Asymptotically speaking, the quantities <math>\frac{h^2}{d}</math>, <math>h_{\text{out}}</math>, and <math>h_{\text{in}}^2</math> are all bounded above by the spectral gap <math>O(d-\lambda_2)</math>.
+
+==Constructions==
+There are three general strategies for constructing families of expander graphs.<ref>see, e.g., {{harvtxt|Yehudayoff|2012}}</ref> The first strategy is algebraic and group-theoretic, the second strategy is analytic and uses [[additive combinatorics]], and the third strategy is combinatorial and uses the [[zig-zag product|zig-zag]] and related graph products. [[Noga Alon]] showed that certain graphs constructed from [[finite geometry|finite geometries]] are the sparsest examples of highly expanding graphs.<ref>{{cite journal | doi=10.1007/BF02579382 | volume=6 |issue = 3| title=Eigenvalues, geometric expanders, sorting in rounds, and ramsey theory | journal=Combinatorica | pages=207–219 | year=1986 | last1 = Alon | first1 = Noga| citeseerx=10.1.1.300.5945 }}</ref>
+
+===Margulis–Gabber–Galil===
+[[Abstract algebra|Algebraic]] constructions based on [[Cayley graph]]s are known for various variants of expander graphs. The following construction is due to Margulis and has been analysed by Gabber and Galil.<ref>see, e.g., p.9 of {{harvtxt|Goldreich|2011}}</ref> For every natural number ''n'', one considers the graph ''G<sub>n</sub>'' with the vertex set <math>\mathbb Z_n \times \mathbb Z_n</math>, where <math>\mathbb Z_n=\mathbb Z/n\mathbb Z</math>: For every vertex <math>(x,y)\in\mathbb Z_n \times \mathbb Z_n</math>, its eight adjacent vertices are
+
+:<math>(x \pm 2y,y), (x \pm (2y+1),y), (x,y \pm 2x), (x,y \pm (2x+1)).</math>
+
+Then the following holds:
+
+<blockquote>'''Theorem.''' For all ''n'', the graph ''G<sub>n</sub>'' has second-largest eigenvalue <math>\lambda(G)\leq 5 \sqrt{2}</math>.</blockquote>
+
+===Ramanujan graphs===
+{{main article|Ramanujan graph}}
+By a theorem of Alon and Boppana, all large enough ''d''-regular graphs satisfy <math>\lambda \ge 2\sqrt{d-1} - o(1)</math>, where λ is the second largest eigenvalue in absolute value.<ref>Theorem 2.7 of {{harvtxt|Hoory|Linial|Widgerson|2006}}</ref> [[Ramanujan graph]]s are ''d''-regular graphs for which this bound is tight. That is, they satisfy <math>\lambda \le 2\sqrt{d-1}</math>.<ref>Definition 5.11 of {{harvtxt|Hoory|Linial|Widgerson|2006}}</ref> Hence Ramanujan graphs have an asymptotically smallest possible λ. They are also excellent spectral expanders.
+
+[[Alexander Lubotzky|Lubotzky]], Phillips, and [[Peter Sarnak|Sarnak]] (1988), Margulis (1988), and Morgenstern (1994) show how Ramanujan graphs can be constructed explicitly.<ref>Theorem 5.12 of {{harvtxt|Hoory|Linial|Widgerson|2006}}</ref> By a theorem of Friedman (2003), [[Random regular graph|random ''d''-regular graphs]] on ''n'' vertices are almost Ramanujan, that is, they satisfy
+
+:<math>\lambda \le 2\sqrt{d-1}+\varepsilon</math>
+
+for every <math>\varepsilon > 0</math> with probability <math>1-o(1)</math> as ''n'' tends to infinity.<ref>Theorem 7.10 of {{harvtxt|Hoory|Linial|Widgerson|2006}}</ref>
+
+==Applications and useful properties==
+The original motivation for expanders is to build economical robust networks (phone or computer): an expander with bounded valence is precisely an asymptotic robust graph with the number of edges growing linearly with size (number of vertices), for all subsets.
+
+Expander graphs have found extensive applications in [[computer science]], in designing [[algorithm]]s, [[Expander code|error correcting codes]], [[Extractor (mathematics)|extractors]], [[pseudorandom generator]]s, [[sorting network]]s ({{harvtxt|Ajtai|Komlós|Szemerédi|1983}}) and robust [[computer network]]s. They have also been used in proofs of many important results in [[computational complexity theory]], such as [[SL (complexity)|SL]]&nbsp;=&nbsp;[[L (complexity)|L]] ({{harvtxt|Reingold|2008}}) and the [[PCP theorem]] ({{harvtxt|Dinur|2007}}). In [[cryptography]], expander graphs are used to construct [[hash function]]s.
+
+The following are some properties of expander graphs that have proven useful in many areas.
+
+===Expander mixing lemma===
+{{Main article|Expander mixing lemma}}
+The expander mixing lemma states that, for any two subsets of the vertices ''S'', ''T'' ⊆ ''V'', the number of edges between ''S'' and ''T'' is approximately what you would expect in a random ''d''-regular graph. The approximation is better the smaller <math>\lambda=\max\{|\lambda_2|,|\lambda_n|\}</math> is. In a random ''d''-regular graph, as well as in an [[Erdős–Rényi model|Erdős–Rényi random graph]] with edge probability ''d''/''n'', we expect <math>\tfrac{d}{n} \cdot |S| \cdot |T|</math> edges between ''S'' and ''T''.
+
+More formally, let ''E''(''S'', ''T'') denote the number of edges between ''S'' and ''T''. If the two sets are not disjoint, edges in their intersection are counted twice, that is,
+
+: <math>E(S,T)=2|E(G[S\cap T])| + E(S\setminus T,T) + E(S,T\setminus S). </math>
+
+Then the expander mixing lemma says that the following inequality holds:
+
+:<math>\left|E(S, T) - \frac{d \cdot |S| \cdot |T|}{n}\right| \leq d\lambda  \sqrt{|S| \cdot |T|},</math>
+
+where ''λ'' is the absolute value of the '''normalized''' second largest eigenvalue.
+
+===Expander walk sampling===
+{{Main article|Expander walk sampling}}
+The [[Chernoff bound]] states that, when sampling many independent samples from a random variables in the range [−1, 1], with high probability the average of our samples is close to the expectation of the random variable.  The expander walk sampling lemma, due to {{harvtxt|Ajtai|Komlós|Szemerédi|1987}} and {{harvtxt|Gillman|1998}}, states that this also holds true when sampling from a walk on an expander graph. This is particularly useful in the theory of [[derandomization]], since sampling according to an expander walk uses many fewer random bits than sampling independently.
+
+===Expander property of the braingraphs===
+Using the [[magnetic resonance imaging]] (MRI) data of the [[NIH]]-funded large [[Human Connectome Project]], it was shown by Szalkai et al.<ref name=":47">{{Cite journal|title = Graph Theoretical Analysis Reveals: Women's Brains Are Better Connected than Men's|last1 = Szalkai |first1 = Balazs | last2 = Varga | first2 = Balint | last3 = Grolmusz | first3 = Vince | date = 2015|journal = PLoS ONE|doi = 10.1371/journal.pone.0130045|volume=10|number=7|pages=e0130045|pmid=26132764 | pmc=4488527}}</ref><ref name="Szalkai2017">{{cite journal|last1=Szalkai|first1=Balázs|last2=Varga|first2=Bálint|last3=Grolmusz|first3=Vince|title=Brain size bias compensated graph-theoretical parameters are also better in women's structural connectomes|journal=Brain Imaging and Behavior|volume=12|issue=3|pages=663–673|year=2017|issn=1931-7565|doi=10.1007/s11682-017-9720-0|pmid=28447246}}</ref> that the graph, describing the anatomical brain connections between up to 1015 cerebral areas, is a significantly better expander in women than in men.
+
+==See also==
+*[[Algebraic connectivity]]
+*[[Zig-zag product]]
+*[[Superstrong approximation]]
+*[[Spectral graph theory]]
+
+==Notes==
+{{Reflist|25em}}
+
+==References==
+{{Refbegin|colwidth=40em}}
+===Textbooks and surveys===
+* {{cite book|title=The Probabilistic Method|first1=N.|last1=Alon|author1-link=Noga Alon|first2=Joel H.|last2=Spencer|author2-link=Joel Spencer|publisher=John Wiley & Sons|year=2011|edition=3rd|chapter=9.2. Eigenvalues and Expanders|ref=harv}}
+* {{Citation | last=Chung |first=Fan R. K. | title=Spectral Graph Theory | series=CBMS Regional Conference Series in Mathematics | volume=92 | publisher=[[American Mathematical Society]] | year=1997 | isbn=978-0-8218-0315-8}}
+* {{Citation | first1=Guiliana |last1=Davidoff | first2=Peter | last2=Sarnak | first3=Alain | last3=Valette | title=Elementary number theory, group theory and Ramanujan graphs | publisher=[[Cambridge University Press]] | series=LMS student texts | volume=55 | year=2003 | isbn=978-0-521-53143-6}}
+* {{Citation | first1=Shlomo | last1=Hoory | first2=Nathan | last2=Linial | author2-link = Nati Linial | first3=Avi | last3=Widgerson | author3-link = Avi Wigderson | title=Expander graphs and their applications | journal= Bulletin (New Series) of the American Mathematical Society | volume=43 | issue=4 | pages=439–561 | url=http://www.cs.huji.ac.il/~nati/PAPERS/expander_survey.pdf | year=2006 | doi = 10.1090/S0273-0979-06-01126-8}}
+* {{Citation | first1=Mike |last1=Krebs | first2=Anthony | last2=Shaheen | title=Expander families and Cayley graphs: A beginner's guide | publisher=Oxford University Press | year=2011 | isbn=978-0-19-976711-3}}
+===Research articles===
+* {{Citation|last1=Ajtai|first1=M.|author1-link=Miklós Ajtai|last2=Komlós|first2=J.|author2-link=János Komlós (mathematician)|last3=Szemerédi|first3=E.|author3-link=Endre Szemerédi|chapter=An O(n log n) sorting network|title=Proceedings of the 15th Annual ACM Symposium on Theory of Computing|pages=1–9|year=1983|doi=10.1145/800061.808726|isbn=978-0-89791-099-6}}
+* {{Citation
+ | first1=M. | last1=Ajtai
+ | first2=J. | last2=Komlós
+ | first3=E. | last3=Szemerédi
+ | chapter=Deterministic simulation in LOGSPACE
+ | title=Proceedings of the 19th Annual ACM Symposium on Theory of Computing
+ | pages=132–140
+ | year=1987
+ | publisher=ACM
+ | doi=10.1145/28395.28410
+ | isbn=978-0-89791-221-1
+}}
+* {{Citation | last1 = Alon | first1 = N. | last2 = Capalbo | first2 = M. | doi = 10.1109/SFCS.2002.1181884 | chapter = Explicit unique-neighbor expanders | title = The 43rd Annual IEEE Symposium on Foundations of Computer Science, 2002. Proceedings | pages = 73 | year = 2002 | isbn = 978-0-7695-1822-0 | pmid =  | pmc = | citeseerx = 10.1.1.103.967 }}
+* {{Citation
+    |last1=Bobkov|first1=S.
+    |last2=Houdré|first2=C.
+    |last3=Tetali|first3=P. | author3-link= Prasad V. Tetali
+    |title=λ<sub>∞</sub>, vertex isoperimetry and concentration|journal=Combinatorica|volume=20|issue=2|year=2000|doi=10.1007/s004930070018|pages = 153–172}}.
+* {{Citation|last=Dinur|first=Irit|title=The PCP theorem by gap amplification|journal=Journal of the ACM|volume=54|issue=3|year=2007|doi=10.1145/1236457.1236459|pages=12–es|url=http://www.cs.huji.ac.il/~dinuri/mypapers/combpcp.pdf|citeseerx=10.1.1.103.2644}}.
+* {{Citation|last=Dodziuk|author-link=Jozef Dodziuk|first=Jozef|title=Difference equations, isoperimetric inequality and transience of certain random walks|journal=Trans. Amer. Math. Soc.|volume=284|issue=2|year=1984|doi=10.2307/1999107|pages=787–794|jstor=1999107}}.
+* {{Citation
+ | first=D. | last=Gillman
+ | title=A Chernoff Bound for Random Walks on Expander Graphs
+ | journal=SIAM Journal on Computing
+ | volume=27
+ | issue=4
+ | pages=1203–1220
+ | year=1998
+ | doi=10.1137/S0097539794268765
+}}
+* {{Citation
+ | first=Oded
+ | last=Goldreich
+ | title=Basic Facts about Expander Graphs
+ | journal = Studies in Complexity and Cryptography
+ | volume=6650
+ | year      = 2011
+ | pages     = 451–464
+ | doi        = 10.1007/978-3-642-22670-0_30
+ | ref=harv
+| url=http://www.wisdom.weizmann.ac.il/%7Eoded/COL/expander.pdf
+ | series=Lecture Notes in Computer Science
+ | isbn=978-3-642-22669-4
+ | citeseerx=10.1.1.231.1388
+ }}
+* {{Citation|first=Omer|last=Reingold|authorlink=Omer Reingold|title=Undirected connectivity in log-space|journal=[[Journal of the ACM]]|year=2008|
+volume=55|issue=4|pages=1–24|doi=10.1145/1391289.1391291
+}}
+* {{Citation
+|first=Amir
+|last=Yehudayoff
+|title=Proving expansion in three steps
+|journal=[[ACM SIGACT News]]
+|year=2012
+|volume=43
+|issue=3
+|pages=67–84
+|doi=10.1145/2421096.2421115
+|ref=harv
+}}
+===Recent Applications===
+* {{Citation
+|first=Kevin|last=Hartnett|title=Universal Method to Sort Complex Information Found|journal=Quanta Magazine.|year=2018
+|publicationdate=13 August 2018|url=https://www.quantamagazine.org/universal-method-to-sort-complex-information-found-20180813/}}
+{{Refend}}
+
+== External links ==
+* [http://www.ams.org/notices/200407/what-is.pdf Brief introduction in Notices of the American Mathematical Society]
+* [http://michaelnielsen.org/blog/archive/notes/expander_graphs.pdf Introductory paper by Michael Nielsen]
+* [http://www.math.ias.edu/~boaz/ExpanderCourse/ Lecture notes from a course on expanders (by Nati Linial and Avi Wigderson)]
+* [http://ttic.uchicago.edu/~prahladh/teaching/spring05/index.html Lecture notes from a course on expanders (by Prahladh Harsha)]
+*[http://www.yann-ollivier.org/specgraph/specgraph.html Definition and application of spectral gap]
+
+{{DEFAULTSORT:Expander Graph}}
+[[Category:Graph families]]

@@ -1,0 +1,838 @@
+{{Use dmy dates|date=December 2012}}
+[[File:Mir on 12 June 1998edit1.jpg|thumb|250px|A view of ''Mir'' on 12 June 1998 as seen from the departing {{OV|103}} during [[STS-91]]|alt=A view of Mir backdropped by the limb of the Earth. In view are four cylindrical modules covered in white insulation arranged in a cross shape about a small, central sphere. Another module projects backward from this sphere, and a small module is attached to the far end of that. Each module is sprouting various solar arrays, cranes and other spindly equipment, with Soyuz and Progress spacecraft docked to the forward and aft ports of the complex.]]
+''Mir'' ({{lang-ru|Мир}}, {{IPA-ru|ˈmʲir|IPA}}; lit.&nbsp;''Peace'' or ''World'') was a [[Soviet Union|Soviet]] and later [[Russia]]n [[space station]], operational in [[low Earth orbit]] from 1986 to 2001.
+With a mass greater than that of any previous space station, ''[[Mir]]'' was constructed from 1986&nbsp;to&nbsp;1996 with a modular design, the first to be assembled in this way. The station was the largest artificial [[satellite]] orbiting the Earth until its [[Deorbit of Mir|deorbit]] on 21 March 2001, a record now surpassed by the [[International Space Station]] (ISS). ''Mir'' served as a [[microgravity]] [[research]] [[laboratory]] in which crews conducted [[experiment]]s in [[biology]], [[human biology]], [[physics]], [[astronomy]], [[meteorology]] and spacecraft systems in order to develop technologies required for the permanent occupation of [[Outer space|space]].<ref name="EA"/><ref name="SSSM"/>
+
+Following the success of the [[Salyut program]]me, ''Mir'' represented the next stage in the Soviet Union's space station programme. The first module of the station, known as the [[Mir Core Module|core module]] or base block, was launched in 1986, and was followed by six further modules ([[Kvant-1|''Kvant''-1]] (1987), [[Kvant-2|''Kvant''-2]] (1989), ''[[Kristall]]'' (1990), ''[[Spektr]]'' (1995), the [[Mir Docking Module|docking module]] (1995) and  ''[[Priroda]]'' (1996)), all launched by [[Proton (rocket)|Proton]] rockets (with the exception of the docking module). When complete, the station consisted of seven pressurised modules and several unpressurised components. Power was provided by several [[solar array]]s mounted directly on the modules. The station was [[Orbital station-keeping|maintained at an orbit]] between {{convert|296|km|mi|0|abbr=on}} and {{convert|421|km|mi|0|abbr=on}} altitude and travelled at an average speed of 27,700&nbsp;km/h (17,200&nbsp;mph), completing 15.7 Earth orbits per day.<ref name="SSSM"/><ref name="BISOrbit">{{cite book|title=The History of Mir 1986–2000|year=2000|publisher=[[British Interplanetary Society]]|location=London|isbn=0-9506597-4-6|pages=40–52|author=Clark, Philip S|editor=Hall, Rex|chapter=Orbital manoeuvres of the Mir complex}}</ref><ref name="OrbitCalc">{{cite web|title=Orbital period of a planet|url=http://www.calctool.org/CALC/phys/astronomy/planet_orbit|publisher=CalcTool|accessdate=12 September 2010}}</ref>
+
+Spacewalks  ([[Extra-vehicular activity|Extra-vehicular activities]], or EVAs) in support of the operation of the station were major events in the assembly and maintenance of the orbital laboratory. EVAs were performed to install new components onto the station, to repair and replace various experiments, systems and equipment, and to install, monitor and retrieve scientific experiments. The first EVA carried out at ''Mir'' was held on 11 April 1987, when [[Mir EO-2|EO-2]] crewmembers [[Yury Romanenko]] and [[Aleksandr Laveykin]] assisted in the docking of the [[Kvant-1|''Kvant''-1]] module. The longest EVA was performed on 17 July 1990, when [[Mir EO-6|EO-6]] crewmembers [[Anatoly Solovyev]] and [[Aleksandr Nikolayevich Balandin|Aleksandr Balandin]] left the station to repair their spacecraft, [[Soyuz TM-9]], then encountered difficulties shutting the airlock hatch upon their return. The total time for that spacewalk was seven hours and sixteen minutes, close to the absolute limit of their [[Orlan space suit|Orlan-DMA]] [[spacesuit]]s.<ref name="EVALog"/><ref name="EVALog2"/>
+
+In total, eighty EVAs were conducted around ''Mir'' from 1987 to 2000. Sixty-three EVAs were conducted from ''Kvant''-2's [[airlock]], fifteen from the core module's docking node (of which three were so-called 'intravehicular activities', or IVAs, within ''Spektr'') and two from the airlock of the {{OV|104}}.<ref name="SSSM"/>
+{| id="toc" class="toc" summary="Class"
+! {{MediaWiki:Toc}}
+|-
+| style="text-align:center;"|[[#1987|1987]]{{·}}[[#1988|1988]]{{·}}[[#1989|1989]]{{·}}[[#1990|1990]]{{·}}[[#1991|1991]]{{·}}[[#1992|1992]]{{·}}[[#1993|1993]]{{·}}[[#1994|1994]]{{·}}[[#1995|1995]]{{·}}[[#1996|1996]]{{·}}[[#1997|1997]]{{·}}[[#1998|1998]]{{·}}[[#1999|1999]]{{·}}[[#2000|2000]]
+|}
+{{dagger}} <small>denotes EVAs performed from the [[Mir Core Module|core module]]'s docking node.</small><br/>
+{{double-dagger}} <small>denotes EVAs performed from the airlock of the {{OV|104}}.</small><br/>
+<small>All other EVAs were performed from the airlock in [[Kvant-2|''Kvant''-2]].</small><br/>
+<small>EVAs conducted during different [[List of Mir Expeditions|principal expeditions]] (EO, {{lang-ru|экспедиция основная}}, lit.&nbsp;mission primary) are separated by a wide blue line. Space Shuttle missions ([[List of space shuttle missions#Flight numbering|STS]]) are not separated from the expedition during which they took place.</small>
+
+{| class="wikitable"
+|-
+! scope="col" |#
+! scope="col" |Mission
+! scope="col" |Spacewalkers
+! scope="col" |Start ([[Coordinated Universal Time|UTC]])
+! scope="col" |End (UTC)
+! scope="col" |Duration
+|-
+! scope="row" rowspan=2 |1
+|rowspan=2 |[[Mir EO-2|EO-2]]<br/><small>EVA 1</small><br/>{{dagger|alt=EVA conducted from node.}}
+| {{anchor|1987}}[[Yury Romanenko]]<br/>[[Aleksandr Laveykin]]
+| 11 April 1987<br/>19:41
+| 11 April 1987<br/>23:21
+| 3 hours, 40 minutes
+|-
+| colspan=4 |Inspected the rear port of the [[Mir Core Module|core module]] following the failure of [[Kvant-1|''Kvant''-1]] to achieve a successful hard docking on 9 April and discovered a piece of debris left behind following the departure of [[Progress 28]] on 27 March. This was removed, and the subsequent hard docking of the new module was observed.<ref name="EA">{{cite web|url=http://www.astronautix.com/craft/mir.htm|title=Mir|publisher=[[Encyclopedia Astronautica]]|author=Wade, Mark|date=5 March 2011|accessdate=13 May 2011|deadurl=yes|archiveurl=https://web.archive.org/web/20081223180808/http://www.astronautix.com/craft/mir.htm|archivedate=23 December 2008|df=dmy-all}}</ref><ref name="SSSM">{{cite book|author=Harland, David|title=The Story of Space Station Mir|publisher=Springer-Verlag New York Inc|date=30 November 2004|location=New York|isbn=978-0-387-23011-5}}</ref><ref name="EVALog">{{cite book|title=The History of Mir 1986–2000|year=2000|publisher=[[British Interplanetary Society]]|location=London|isbn=0-9506597-4-6|pages=101–105|author=Shayler, David J|editor=Hall, Rex|chapter=Mir EVA Logs 1987–2000}}</ref>
+|-
+! scope="row" rowspan=2 |2
+|rowspan=2 |[[Mir EO-2|EO-2]]<br/><small>EVA 2</small><br/>{{dagger|alt=EVA conducted from node.}}
+| [[Yury Romanenko]]<br/>[[Aleksandr Laveykin]]
+| 12 June 1987<br/>16:55
+| 12 June 1987<br/>18:48
+| 1-hour, 53 minutes
+|-
+| colspan=4 |Installed the first part of a new [[Solar panels on spacecraft|solar array]], delivered by [[Kvant-1|''Kvant''-1]], into a motor mount on the [[Dorsum (anatomy)|dorsal]] surface of the [[Mir Core Module|core module]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |3
+|rowspan=2 |[[Mir EO-2|EO-2]]<br/><small>EVA 3</small><br/>{{dagger|alt=EVA conducted from node.}}
+| [[Yury Romanenko]]<br/>[[Aleksandr Laveykin]]
+| 16 June 1987<br/>15:30
+| 16 June 1987<br/>18:45
+| 3 hours, 15 minutes
+|-
+| colspan=4 |Installed the second part of the new [[Solar panels on spacecraft|solar array]] on the [[Mir Core Module|core module]], installed the array's power cables and affixed sample exposure cassettes to the exterior of the station.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |4
+|rowspan=2 |[[Mir EO-3|EO-3]]<br/><small>EVA 1</small><br/>{{dagger|alt=EVA conducted from node.}}
+| {{anchor|1988}}[[Vladimir Titov]]<br/>[[Musa Manarov]]
+| 26 February 1988<br/>09:00
+| 26 February 1988<br/>13:25
+| 4 hours, 25 minutes
+|-
+| colspan=4 |Replaced a segment of the [[Mir Core Module|core module]]'s dorsal [[Solar panels on spacecraft|solar array]] with a new one which produced [[telemetry]] to allow the gradual degradation in the efficiency of the array to be monitored and inspected the exterior of the station.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |5
+|rowspan=2 |[[Mir EO-3|EO-3]]<br/><small>EVA 2</small><br/>{{dagger|alt=EVA conducted from node.}}
+| [[Vladimir Titov]]<br/>[[Musa Manarov]]
+| 30 June 1988<br/>05:33
+| 30 June 1988<br/>10:43
+| 5 hours, 10 minutes
+|-
+| colspan=4 |Began repair of an [[X-ray telescope]] on [[Kvant-1|''Kvant''-1]] by opening the thermal insulation covering it and exposing the part requiring replacement. Repair was halted after the tool designed to remove the failed part from the telescope broke.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |6
+|rowspan=2 |[[Mir EO-3|EO-3]]<br/><small>EVA 3</small><br/>{{dagger|alt=EVA conducted from node.}}
+| [[Vladimir Titov]]<br/>[[Musa Manarov]]
+| 20 October 1988<br/>05:59
+| 20 October 1988<br/>10:11
+| 4 hours, 12 minutes
+|-
+| colspan=4 |Completed the repair of the [[X-ray telescope]] begun on the previous EVA and affixed a mount near the [[Mir Core Module|core module]]'s docking node for the French ''Era'' experiment. First use of new [[Orlan space suit#Models|Orlan-DMA]] [[spacesuit]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |7
+|rowspan=2 |[[Mir EO-4|EO-4]]<br/><small>EVA 1</small><br/>{{dagger|alt=EVA conducted from node.}}
+| [[Alexander Alexandrovich Volkov (cosmonaut)|Alexander Volkov]]<br/>[[Jean-Loup Chrétien]]
+| 9 December 1988<br/>09:57
+| 9 December 1988<br/>15:57
+| 6 hours, 0 minutes
+|-
+| colspan=4 |Installed French ''Echantillon'' exposure cassette and deployed, tested & jettisoned French ''Era'' [[truss]] experiment.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |8
+|rowspan=2 |[[Mir EO-5|EO-5]]<br/><small>EVA 1</small><br/>{{dagger|alt=EVA conducted from node.}}
+| {{anchor|1990}}[[Alexander Viktorenko]]<br/>[[Aleksandr Serebrov]]
+| 8 January 1990<br/>20:23
+| 8 January 1990<br/>23:19
+| 2 hours, 56 minutes
+|-
+| colspan=4 |Installed two [[star tracker]]s on the exterior of [[Kvant-1|''Kvant''-1]] to assist the station's [[Flight dynamics (aircraft)|attitude control]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |9
+|rowspan=2 |[[Mir EO-5|EO-5]]<br/><small>EVA 2</small><br/>{{dagger|alt=EVA conducted from node.}}
+| [[Alexander Viktorenko]]<br/>[[Aleksandr Serebrov]]
+| 11 January 1990<br/>18:01
+| 11 January 1990<br/>20:55
+| 2 hours, 54 minutes
+|-
+| colspan=4 |Retrieved the ''Echantillon'' cassette, dismantled the ''Era'' mount, installed exposure cassettes on the exterior of the station and reconfigured the docking apparatus in the [[Mir Core Module|core module]]'s docking node in preparation for the arrival of ''[[Kristall]]''.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |10
+|rowspan=2 |[[Mir EO-5|EO-5]]<br/><small>EVA 3</small>
+| [[Alexander Viktorenko]]<br/>[[Aleksandr Serebrov]]
+| 26 January 1990<br/>12:09
+| 26 January 1990<br/>15:11
+| 3 hours, 2 minutes
+|-
+| colspan=4 |First EVA from [[Kvant-2|''Kvant''-2]]'s airlock. Affixed a mount just outside the airlock for the ''Ikar'' [[Astronaut Propulsion Unit#Soviet SPK|cosmonaut manoeuvring unit]], dismantled the module's now redundant [[Kurs (docking system)|''Kurs'']] antenna, installed exposure cassettes and erected ''Kvant''-2's scan platform.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |11
+|rowspan=2 |[[Mir EO-5|EO-5]]<br/><small>EVA 4</small>
+| [[Alexander Viktorenko]]<br/>[[Aleksandr Serebrov]]
+| 1 February 1990<br/>08:15
+| 1 February 1990<br/>13:14
+| 4 hours, 59 minutes
+|-
+| colspan=4 |First test of the ''Ikar'' [[Astronaut Propulsion Unit#Soviet SPK|cosmonaut manoeuvring unit]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |12
+|rowspan=2 |[[Mir EO-5|EO-5]]<br/><small>EVA 5</small>
+| [[Alexander Viktorenko]]<br/>[[Aleksandr Serebrov]]
+| 5 February 1990<br/>06:08
+| 5 February 1990<br/>09:53
+| 3 hours, 45 minutes
+|-
+| colspan=4 |Second test of the ''Ikar'' [[Astronaut Propulsion Unit#Soviet SPK|cosmonaut manoeuvring unit]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |13
+|rowspan=2 |[[Mir EO-6|EO-6]]<br/><small>EVA 1</small>
+| [[Anatoly Solovyev]]<br/>[[Aleksandr Nikolayevich Balandin|Aleksandr Balandin]]
+| 17 July 1990<br/>13:06
+| 17 July 1990<br/>20:22
+| 7 hours, 16 minutes
+|-
+| colspan=4 |Conducted repairs to the insulation of the damaged [[Soyuz TM-9]]. Found that the airlock hatch was damaged and would not shut when the EVA was concluded, so the back-up secondary airlock in [[Kvant-2|''Kvant''-2]] was used.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |14
+|rowspan=2 |[[Mir EO-6|EO-6]]<br/><small>EVA 2</small>
+| [[Anatoly Solovyev]]<br/>[[Aleksandr Nikolayevich Balandin|Aleksandr Balandin]]
+| 26 July 1990<br/>11:15
+| 26 July 1990<br/>14:46
+| 3 hours, 31 minutes
+|-
+| colspan=4 |Inspected airlock hatch, stowed equipment used during the repair of [[Soyuz TM-9]] on the previous EVA, and managed, with a great deal of manual effort, to close the damaged airlock hatch.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |15
+|rowspan=2 |[[Mir EO-7|EO-7]]<br/><small>EVA 1</small>
+| [[Gennadi Manakov]]<br/>[[Gennadi Strekalov]]
+| 30 October 1990<br/>21:45
+| 31 October 1990<br/>01:33
+| 3 hours, 48 minutes
+|-
+| colspan=4 |Attempted to repair the damaged [[Kvant-2|''Kvant''-2]] airlock hatch, discovered that the hinge required replacement.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |16
+|rowspan=2 |[[Mir EO-8|EO-8]]<br/><small>EVA 1</small>
+| {{anchor|1991}}[[Viktor Mikhailovich Afanasyev|Viktor Afanasyev]]<br/>[[Musa Manarov]]
+| 7 January 1991<br/>17:03
+| 7 January 1991<br/>22:21
+| 5 hours, 18 minutes
+|-
+| colspan=4 |Conducted successful repair of [[Kvant-2|''Kvant''-2's]] airlock hatch, affixed a mount onto the [[Mir Core Module|core module]], retrieved exposure cassettes and removed a camera from ''Kvant''-2's scan platform.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |17
+|rowspan=2 |[[Mir EO-8|EO-8]]<br/><small>EVA 2</small>
+| [[Viktor Mikhailovich Afanasyev|Viktor Afanasyev]]<br/>[[Musa Manarov]]
+| 23 January 1991<br/>10:59
+| 23 January 1991<br/>16:32
+| 5 hours, 33 minutes
+|-
+| colspan=4 |Installed a [[Strela (crane)|''Strela'']] crane on the mount affixed on the previous EVA and retrieved exposure cassettes.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |18
+|rowspan=2 |[[Mir EO-8|EO-8]]<br/><small>EVA 3</small>
+| [[Viktor Mikhailovich Afanasyev|Viktor Afanasyev]]<br/>[[Musa Manarov]]
+| 26 January 1991<br/>09:00
+| 26 January 1991<br/>15:20
+| 6 hours, 20 minutes
+|-
+| colspan=4 |Affixed two mounts to [[Kvant-1|''Kvant''-1]] in preparation for the relocation of ''[[Kristall]]''<nowiki>'</nowiki>s [[Solar panels on spacecraft|solar arrays]], set up a [[laser rangefinder]] on ''Kristall'' for use by [[Buran (spacecraft)|''Buran'']] shuttles and installed the ''Sprut''-5 [[spectrometer]] on the exterior of [[Kvant-2|''Kvant''-2]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |19
+|rowspan=2 |[[Mir EO-8|EO-8]]<br/><small>EVA 4</small>
+| [[Viktor Mikhailovich Afanasyev|Viktor Afanasyev]]<br/>[[Musa Manarov]]
+| 25 April 1991<br/>20:29
+| 26 April 1991<br/>00:03
+| 3 hours, 34 minutes
+|-
+| colspan=4 |Inspected a faulty [[Kurs (docking system)|''Kurs'']] antenna on [[Kvant-1|''Kvant''-1]], retrieved exposure cassettes, replaced the camera removed on their first EVA from [[Kvant-2|''Kvant''-2]]'s scan platform and tested a prototype thermomechanical joint near the airlock.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |20
+|rowspan=2 |[[Mir EO-9|EO-9]]<br/><small>EVA 1</small>
+| [[Anatoly Artsebarsky]]<br/>[[Sergei Krikalev]]
+| 24 June 1991<br/>21:11
+| 25 June 1991<br/>02:09
+| 4 hours, 58 minutes
+|-
+| colspan=4 |Repaired the broken [[Kurs (docking system)|''Kurs'']] antenna on [[Kvant-1|''Kvant''-1]] and installed a prototype thermomechanical joint.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |21
+|rowspan=2 |[[Mir EO-9|EO-9]]<br/><small>EVA 2</small>
+| [[Anatoly Artsebarsky]]<br/>[[Sergei Krikalev]]
+| 28 June 1991<br/>19:02
+| 28 June 1991<br/>22:26
+| 3 hours, 24 minutes
+|-
+| colspan=4 |Installed the [[University of California]]'s TREK [[cosmic ray]] detector on [[Kvant-2|''Kvant''-2]] and retrieved the prototype thermomechanical joint installed on the previous EVA.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |22
+|rowspan=2 |[[Mir EO-9|EO-9]]<br/><small>EVA 3</small>
+| [[Anatoly Artsebarsky]]<br/>[[Sergei Krikalev]]
+| 15 July 1991<br/>11:45
+| 15 July 1991<br/>17:41
+| 5 hours, 56 minutes
+|-
+| colspan=4 |Installed a work platform on [[Kvant-1|''Kvant''-1]] in preparation for the installation of the ''Sofora'' truss.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |23
+|rowspan=2 |[[Mir EO-9|EO-9]]<br/><small>EVA 4</small>
+| [[Anatoly Artsebarsky]]<br/>[[Sergei Krikalev]]
+| 19 July 1991<br/>11:10
+| 19 July 1991<br/>16:38
+| 5 hours, 28 minutes
+|-
+| colspan=4 |Installed the base plate and first three segments of the ''Sofora'' truss on [[Kvant-1|''Kvant''-1]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |24
+|rowspan=2 |[[Mir EO-9|EO-9]]<br/><small>EVA 5</small>
+| [[Anatoly Artsebarsky]]<br/>[[Sergei Krikalev]]
+| 23 July 1991<br/>09:15
+| 23 July 1991<br/>14:57
+| 5 hours, 42 minutes
+|-
+| colspan=4 |Continued the assembly of the ''Sofora'' truss on [[Kvant-1|''Kvant''-1]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |25
+|rowspan=2 |[[Mir EO-9|EO-9]]<br/><small>EVA 6</small>
+| [[Anatoly Artsebarsky]]<br/>[[Sergei Krikalev]]
+| 27 July 1991<br/>08:44
+| 27 July 1991<br/>15:33
+| 6 hours, 49 minutes
+|-
+| colspan=4 |Completed the assembly of the ''Sofora'' truss on [[Kvant-1|''Kvant''-1]] and raised the [[Flag of the Soviet Union|Soviet flag]] on the far end.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |26
+|rowspan=2 |[[Mir EO-10|EO-10]]<br/><small>EVA 1</small>
+| {{anchor|1992}}[[Alexander Alexandrovich Volkov (cosmonaut)|Alexander Volkov]]<br/>[[Sergei Krikalev]]
+| 20 February 1992<br/>20:09
+| 21 February 1992<br/>00:21
+| 4 hours, 12 minutes
+|-
+| colspan=4 |First EVA conducted following the collapse of the [[Soviet Union|USSR]]. Retrieved the work platform installed on [[Kvant-1|''Kvant''-1]] prior to the construction of the ''Sofora'' truss, cleaned a TV camera lens on ''Kvant''-1, retrieved the [[telemetry|telemetered]] panel from the [[Mir Core Module|core module's]] [[Dorsum (anatomy)|dorsal]] [[Solar panels on spacecraft|solar array]] and retrieved exposure cassettes from around [[Kvant-2|''Kvant''-2]]'s airlock. During the initial stages of the EVA, the [[heat exchanger]] in Volkov's spacesuit failed and he relied on an [[Umbilical cable|umbilical]] from ''Kvant''-2 for [[Life support system|life support]] for the rest of the EVA.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |27
+|rowspan=2 |[[Mir EO-11|EO-11]]<br/><small>EVA 1</small>
+| [[Aleksandr Viktorenko]]<br/>[[Aleksandr Kaleri]]
+| 8 July 1992<br/>12:38
+| 8 July 1992<br/>14:41
+| 2 hours, 3 minutes
+|-
+| colspan=4 |Installed two new [[Control moment gyroscope|gyrodynes]] on [[Kvant-2|''Kvant''-2]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |28
+|rowspan=2 |[[Mir EO-12|EO-12]]<br/><small>EVA 1</small>
+| [[Anatoly Solovyev]]<br/>[[Sergei Avdeyev]]
+| 3 September 1992<br/>13:32
+| 3 September 1992<br/>17:28
+| 3 hours, 56 minutes
+|-
+| colspan=4 |Prepared the ''Sofora'' truss and [[Progress M-14]] for the installation of the VDU thruster block.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |29
+|rowspan=2 |[[Mir EO-12|EO-12]]<br/><small>EVA 2</small>
+| [[Anatoly Solovyev]]<br/>[[Sergei Avdeyev]]
+| 7 September 1992<br/>11:47
+| 7 September 1992<br/>16:55
+| 5 hours, 8 minutes
+|-
+| colspan=4 |Configured the VDU thruster for installation, installed the thruster's umbilical on the ''Sofora'' truss and removed the [[Flag of the Soviet Union|Soviet flag]] from the truss.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |30
+|rowspan=2 |[[Mir EO-12|EO-12]]<br/><small>EVA 3</small>
+| [[Anatoly Solovyev]]<br/>[[Sergei Avdeyev]]
+| 11 September 1992<br/>10:06
+| 11 September 1992<br/>15:50
+| 5 hours, 44 minutes
+|-
+| colspan=4 |Completed the installation of the VDU thruster block on the ''Sofora'' truss.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |31
+|rowspan=2 |[[Mir EO-12|EO-12]]<br/><small>EVA 4</small>
+| [[Anatoly Solovyev]]<br/>[[Sergei Avdeyev]]
+| 15 September 1992<br/>07:49
+| 15 September 1992<br/>11:22
+| 3 hours, 33 minutes
+|-
+| colspan=4 |Installed a [[Kurs (docking system)|''Kurs'']] antenna on ''[[Kristall]]''<nowiki>'</nowiki>s [[Androgynous Peripheral Attach System|APAS]] port and retrieved exposure cassettes.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |32
+|rowspan=2 |[[Mir EO-13|EO-13]]<br/><small>EVA 1</small>
+| {{anchor|1993}}[[Gennadi Manakov]]<br/>[[Aleksandr Poleshchuk]]
+| 19 April 1993<br/>17:15
+| 19 April 1993<br/>22:40
+| 5 hours, 25 minutes
+|-
+| colspan=4 |Installed a [[Solar panels on spacecraft|solar array]] motor onto one of the mounts on [[Kvant-1|''Kvant''-1]] and discovered that one of the handles of the [[Strela (crane)|''Strela'']] crane was missing.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |33
+|rowspan=2 |[[Mir EO-13|EO-13]]<br/><small>EVA 2</small>
+| [[Gennadi Manakov]]<br/>[[Aleksandr Poleshchuk]]
+| 18 June 1993<br/>17:25
+| 18 June 1993<br/>21:58
+| 4 hours, 33 minutes
+|-
+| colspan=4 |Installed a [[Solar panels on spacecraft|solar array]] motor onto the other mount fixed to [[Kvant-1|''Kvant''-1]] and replaced the missing handle on the [[Strela (crane)|''Strela'']] crane.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |34
+|rowspan=2 |[[Mir EO-14|EO-14]]<br/><small>EVA 1</small>
+| [[Vasily Tsibliyev]]<br/>[[Aleksandr Serebrov]]
+| 16 September 1993<br/>05:57
+| 16 September 1993<br/>10:16
+| 4 hours, 18 minutes
+|-
+| colspan=4 |Affixed a second truss mount on [[Kvant-1|''Kvant''-1]] and attached a box containing the ''Rapana'' truss to it.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |35
+|rowspan=2 |[[Mir EO-14|EO-14]]<br/><small>EVA 2</small>
+| [[Vasily Tsibliyev]]<br/>[[Aleksandr Serebrov]]
+| 20 September 1993<br/>03:51
+| 20 September 1993<br/>07:05
+| 3 hours, 14 minutes
+|-
+| colspan=4 |Assembled the ''Rapana'' truss on the mount attached to [[Kvant-1|''Kvant''-1]] on the previous EVA and installed new exposure cassettes.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |36
+|rowspan=2 |[[Mir EO-14|EO-14]]<br/><small>EVA 3</small>
+| [[Vasily Tsibliyev]]<br/>[[Aleksandr Serebrov]]
+| 28 September 1993<br/>00:57
+| 28 September 1993<br/>02:48
+| 1-hour, 52 minutes
+|-
+| colspan=4 |Installed and retrieved exposure cassettes and began a video recording of the condition of the station's exterior.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |37
+|rowspan=2 |[[Mir EO-14|EO-14]]<br/><small>EVA 4</small>
+| [[Vasily Tsibliyev]]<br/>[[Aleksandr Serebrov]]
+| 22 October 1993<br/>15:47
+| 22 October 1993<br/>16:25
+| 0 hours, 38 minutes
+|-
+| colspan=4 |Continued the video recording of the condition of the station's exterior and installed a [[meteoroid]] monitoring package.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |38
+|rowspan=2 |[[Mir EO-14|EO-14]]<br/><small>EVA 5</small>
+| [[Vasily Tsibliyev]]<br/>[[Aleksandr Serebrov]]
+| 29 October 1993<br/>13:38
+| 29 October 1993<br/>17:50
+| 4 hours, 12 minutes
+|-
+| colspan=4 |Completed the video recording of the condition of the station's exterior, inspected the base of the ''Sofora'' truss and retrieved exposure cassettes.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |39
+|rowspan=2 |[[Mir EO-16|EO-16]]<br/><small>EVA 1</small>
+| {{anchor|1994}}[[Yuri Malenchenko]]<br/>[[Talgat Musabayev]]
+| 9 September 1994<br/>07:00
+| 9 September 1994<br/>12:06
+| 5 hours, 4 minutes
+|-
+| colspan=4 |Inspected the front port of the [[Mir Core Module|core module]] following a collision with [[Progress M-24]] and the exterior of ''Kristall'' following a collision with [[Soyuz TM-17]]. Affixed a mount to the core module to install a second [[Strela (crane)|''Strela'']] crane, and installed exposure cassettes.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |40
+|rowspan=2 |[[Mir EO-16|EO-16]]<br/><small>EVA 2</small>
+| [[Yuri Malenchenko]]<br/>[[Talgat Musabayev]]
+| 13 September 1994<br/>06:30
+| 13 September 1994<br/>12:32
+| 6 hours, 1-minute
+|-
+| colspan=4 |Inspection of ''[[Kristall]]''<nowiki>'</nowiki>s [[Solar panels on spacecraft|solar arrays]], the array mounts on [[Kvant-1|''Kvant''-1]] and the ''Sofora'' [[truss]]. Retrieved experiments from the ''Rapana'' truss.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |41
+|rowspan=2 |[[Mir EO-18|EO-18]]<br/><small>EVA 1</small>
+| {{anchor|1995}}[[Vladimir Dezhurov]]<br/>[[Gennadi Strekalov]]
+| 12 May 1995<br/>04:20
+| 12 May 1995<br/>10:35
+| 6 hours, 14 minutes
+|-
+| colspan=4 |Retracted the left-side [[Solar panels on spacecraft|solar array]] of ''[[Kristall]]''.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="MMC">{{cite book|author=McDonald, Sue|title=Mir Mission Chronicle|publisher=NASA|url=http://ston.jsc.nasa.gov/collections/TRS/_techrep/TP-1998-208920.pdf|date=December 1998|accessdate=13 May 2011|deadurl=yes|archiveurl=https://web.archive.org/web/20100531210016/http://ston.jsc.nasa.gov/collections/TRS/_techrep/TP-1998-208920.pdf|archivedate=31 May 2010|df=dmy-all}}</ref>
+|-
+! scope="row" rowspan=2 |42
+|rowspan=2 |[[Mir EO-18|EO-18]]<br/><small>EVA 2</small>
+| [[Vladimir Dezhurov]]<br/>[[Gennadi Strekalov]]
+| 17 May 1995<br/>02:38
+| 17 May 1995<br/>09:20
+| 6 hours, 52 minutes
+|-
+| colspan=4 |Released the previously retracted [[Solar panels on spacecraft|solar array]] on ''[[Kristall]]'', transferred it to [[Kvant-1|''Kvant''-1]] and attached it to the previously installed motor and mount on the left side of the module.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="MMC"/>
+|-
+! scope="row" rowspan=2 |43
+|rowspan=2 |[[Mir EO-18|EO-18]]<br/><small>EVA 3</small>
+| [[Vladimir Dezhurov]]<br/>[[Gennadi Strekalov]]
+| 22 May 1995<br/>00:10
+| 22 May 1995<br/>05:25
+| 5 hours, 14 minutes
+|-
+| colspan=4 |Completed the installation of the [[Solar panels on spacecraft|solar array]] moved on the previous EVA, and partially retracted the remaining array on ''[[Kristall]]'' (the array could not be fully retracted as it jammed during the procedure).<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="MMC"/>
+|-
+! scope="row" rowspan=2 |44
+|rowspan=2 |[[Mir EO-18|EO-18]]<br/><small>EVA 4</small><br/>{{dagger|alt=EVA conducted from node.}}
+| [[Vladimir Dezhurov]]<br/>[[Gennadi Strekalov]]
+| 28 May 1995<br/>22:22
+| 28 May 1995<br/>22:43
+| 0 hours, 21 minutes
+|-
+| colspan=4 |Reconfigured the [[Mir Core Module|core module's]] docking node for the relocation of ''[[Kristall]]''.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="MMC"/>
+|-
+! scope="row" rowspan=2 |45
+|rowspan=2 |[[Mir EO-18|EO-18]]<br/><small>EVA 5</small><br/>{{dagger|alt=EVA conducted from node.}}
+| [[Vladimir Dezhurov]]<br/>[[Gennadi Strekalov]]
+| 1 June 1995<br/>22:05
+| 1 June 1995<br/>22:28
+| 0 hours, 23 minutes
+|-
+| colspan=4 |Reconfigured the [[Mir Core Module|core module's]] docking node for the arrival of ''[[Spektr]]''.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="MMC"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |46
+|rowspan=2 |[[Mir EO-19|EO-19]]<br/><small>EVA 1</small>
+| [[Anatoly Solovyev]]<br/>[[Nikolai Budarin]]
+| 14 July 1995<br/>03:56
+| 14 July 1995<br/>09:30
+| 5 hours, 34 minutes
+|-
+| colspan=4 |Inspected a faulty [[Solar panels on spacecraft|solar array]] on [[Kvant-2|''Kvant''-2]], discovering that it had been fouled by EVA equipment. Released a jammed solar array on ''[[Spektr]]'' and inspected the right-side docking port on the [[Mir Core Module|core module's]] docking node.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="MMC"/>
+|-
+! scope="row" rowspan=2 |47
+|rowspan=2 |[[Mir EO-19|EO-19]]<br/><small>EVA 2</small>
+| [[Anatoly Solovyev]]<br/>[[Nikolai Budarin]]
+| 19 July 1995,<br /> 00:39
+| 19 July 1995,<br /> 03:47
+| 3 hours, 8 minutes
+|-
+| colspan=4 |Prepared for the deployment of the ''Mir'' Infrared [[Spectrometer]] (MIRAS), retrieved exposure cassettes and the TREK cosmic-ray detector and installed new exposure cassettes. The cooling system in Solovyov's [[spacesuit]] failed almost immediately, and so he spent most of the EVA reliant on an [[Umbilical cable|umbilical]] from [[Kvant-2|''Kvant''-2]] for [[Life support system|life support]]. Upon their return, difficulties were encountered again with the airlock hatch.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="MMC"/>
+|-
+! scope="row" rowspan=2 |48
+|rowspan=2 |[[Mir EO-19|EO-19]]<br/><small>EVA 3</small>
+| [[Anatoly Solovyev]]<br/>[[Nikolai Budarin]]
+| 21 July 1995<br/>00:28
+| 21 July 1995<br/>06:18
+| 5 hours, 35 minutes
+|-
+| colspan=4 |Installed the Belgian-French ''Mir'' Infrared [[Spectrometer]] (MIRAS) and inspected ''[[Kristall]]''<nowiki>'</nowiki>s partially retracted [[Solar panels on spacecraft|solar array]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="MMC"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |49
+|rowspan=2 |[[Mir EO-20|EO-20]]<br/><small>EVA 1</small>
+| [[Sergei Avdeyev]]<br/>[[Thomas Reiter]]
+| 20 October 1995<br/>11:50
+| 20 October 1995<br/>17:06
+| 5 hours, 16 minutes
+|-
+| colspan=4 |First EVA conducted by an [[European Space Agency|ESA]] astronaut. Installed the [[European Space Exposure Facility]] (ESEF) on ''[[Spektr]]'' and exchanged the exposure cassette in the ''Komza'' experiment.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="MMC"/>
+|-
+! scope="row" rowspan=2 |50
+|rowspan=2 |[[Mir EO-20|EO-20]]<br/><small>EVA 2</small><br/>{{dagger|alt=EVA conducted from node.}}
+| [[Yuri Gidzenko]]<br/>[[Sergei Avdeyev]]
+| 8 December 1995<br/>19:23
+| 8 December 1995<br/>19:52
+| 0 hours, 37 minutes
+|-
+| colspan=4 |Reconfigured the [[Mir Core Module|core module's]] docking node in preparation for the arrival of ''[[Priroda]]''.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="MMC"/>
+|-
+! scope="row" rowspan=2 |51
+|rowspan=2 |[[Mir EO-20|EO-20]]<br/><small>EVA 3</small>
+| {{anchor|1996}}[[Yuri Gidzenko]]<br/>[[Thomas Reiter]]
+| 8 February 1996<br/>14:03
+| 8 February 1996<br/>17:08
+| 3 hours, 6 minutes
+|-
+| colspan=4 |Remounted the ''Ikar'' [[Astronaut Propulsion Unit#Soviet SPK|cosmonaut manoeuvring unit]] outside the [[Kvant-2|''Kvant''-2]] airlock, exchanged cassettes on the [[European Space Exposure Facility]] (ESEF) and attempted to retrieve the redundant [[Kurs (docking system)|''Kurs'']] antenna on ''[[Kristall]]''.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="MMC"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |52
+|rowspan=2 |[[Mir EO-21|EO-21]]<br/><small>EVA 1</small>
+| [[Yury Onufriyenko]]<br/>[[Yury Usachov]]
+| 15 March 1996<br/>01:04
+| 15 March 1996<br/>06:55
+| 5 hours, 51 minutes
+|-
+| colspan=4 |Installed a second [[Strela (crane)|''Strela'']] crane on the right-hand side of the [[Mir Core Module|core module]], and made preparations for the installation of the [[Mir Docking Module#Solar arrays & MEEP|''Mir'' Cooperative Solar Array]] (MCSA).<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="MMC"/>
+|-
+! scope="row" rowspan=2 |53
+|rowspan=2 |[[STS-76]]<br/><small>EVA 1</small><br/>{{double-dagger|alt=EVA conducted from Atlantis.}}
+| [[Michael R. Clifford|Michael Clifford]]<br/>[[Linda M. Godwin|Linda Godwin]]
+| 27 March 1996<br/>06:34
+| 27 March 1996<br/>12:36
+| 6 hours, 2 minutes, 28 seconds
+|-
+| colspan=4 |Mounted the [[Mir Environmental Effects Payload]] (MEEP) to and retrieved a camera from the [[Mir Docking Module|docking module]].<ref name="SSSM"/><ref name="MMC"/><ref>{{cite web|url=http://science.ksc.nasa.gov/shuttle/missions/sts-76/sts-76-day-06-highlights.html|publisher=NASA|title=STS-76 Day 6 Highlights|accessdate=12 February 2011|date=29 June 2001|author=Dumoulin, Jim}}</ref>
+|-
+! scope="row" rowspan=2 |54
+|rowspan=2 |[[Mir EO-21|EO-21]]<br/><small>EVA 2</small>
+| [[Yury Onufriyenko]]<br/>[[Yury Usachov]]
+| 20 May 1996<br/>22:50
+| 21 May 1996<br/>04:10
+| 5 hours, 20 minutes
+|-
+| colspan=4 |Transferred the [[Mir Docking Module#Solar arrays & MEEP|''Mir'' Cooperative Solar Array]] (MCSA) from the [[Mir Docking Module|docking module]], mounted it to the motor attached to the right-hand side of [[Kvant-1|''Kvant''-1]] and inflated a model [[Pepsi]] can for a commercial.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="MMC"/>
+|-
+! scope="row" rowspan=2 |55
+|rowspan=2 |[[Mir EO-21|EO-21]]<br/><small>EVA 3</small>
+| [[Yury Onufriyenko]]<br/>[[Yury Usachov]]
+| 24 May 1996<br/>20:47
+| 25 May 1996<br/>02:30
+| 5 hours, 34 minutes
+|-
+| colspan=4 |Extended the [[Mir Docking Module#Solar arrays & MEEP|''Mir'' Cooperative Solar Array]] (MCSA) installed onto [[Kvant-1|''Kvant''-1]] on the previous EVA.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="MMC"/>
+|-
+! scope="row" rowspan=2 |56
+|rowspan=2 |[[Mir EO-21|EO-21]]<br/><small>EVA 4</small>
+| [[Yury Onufriyenko]]<br/>[[Yury Usachov]]
+| 30 May 1996<br/>18:20
+| 30 May 1996<br/>22:40
+| 4 hours, 20 minutes
+|-
+| colspan=4 |Installed the German Modular Optoelectronic Multispectral/Stereo Scanner (MOMS-2P) on ''[[Priroda]]'' and handrails on [[Kvant-2|''Kvant''-2]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="MMC"/>
+|-
+! scope="row" rowspan=2 |57
+|rowspan=2 |[[Mir EO-21|EO-21]]<br/><small>EVA 5</small>
+| [[Yury Onufriyenko]]<br/>[[Yury Usachov]]
+| 6 June 1996<br/>16:56
+| 6 June 1996<br/>20:30
+| 3 hours, 34 minutes
+|-
+| colspan=4 |Swapped the exposure cassettes in the ''Komza'' experiment and installed new [[micrometeoroid]] detectors on the exterior of the station.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="MMC"/>
+|-
+! scope="row" rowspan=2 |58
+|rowspan=2 |[[Mir EO-21|EO-21]]<br/><small>EVA 6</small>
+| [[Yury Onufriyenko]]<br/>[[Yury Usachov]]
+| 13 June 1996<br/>12:45
+| 13 June 1996<br/>18:27
+| 5 hours, 42 minutes
+|-
+| colspan=4 |Dismantled the ''Rapana'' [[truss]] on [[Kvant-1|''Kvant''-1]] and erected the ''Strombus'' truss in its place, then completed the deployment of the TRAVERS [[radar]] antenna on ''[[Priroda]]'' following the failure of its automatic deployment mechanism.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="MMC"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |59
+|rowspan=2 |[[Mir EO-22|EO-22]]<br/><small>EVA 1</small>
+| [[Valery Korzun]]<br/>[[Aleksandr Kaleri]]
+| 2 December 1996<br/>15:54
+| 2 December 1996<br/>21:52
+| 5 hours, 57 minutes
+|-
+| colspan=4 |Began installation of cables to connect the [[Mir Docking Module#Solar arrays & MEEP|''Mir'' Cooperative Solar Array]] (MCSA) into the station's electrical system and redeployed the ''Rapana'' [[truss]] dismantled on the previous EVA on the far end of the ''Strombus'' truss.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |60
+|rowspan=2 |[[Mir EO-22|EO-22]]<br/><small>EVA 2</small>
+| [[Valery Korzun]]<br/>[[Aleksandr Kaleri]]
+| 9 December 1996<br/>13:50
+| 9 December 1996<br/>20:28
+| 6 hours, 36 minutes
+|-
+| colspan=4 |Completed installation of cables to connect the [[Mir Docking Module#Solar arrays & MEEP|''Mir'' Cooperative Solar Array]] (MCSA) into the station's electrical system and transferred the [[Kurs (docking system)|''Kurs'']] antenna from ''[[Kristall]]'' to the [[Mir Docking Module|docking module]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |61
+|rowspan=2 |[[Mir EO-23|EO-23]]<br/><small>EVA 1</small>
+| {{anchor|1997}}[[Vasily Tsibliyev]]<br/>[[Jerry M. Linenger|Jerry Linenger]]
+| 29 April 1997<br/>05:10
+| 29 April 1997<br/>10:09
+| 4 hours, 59 minutes
+|-
+| colspan=4 |Retrieved the Particle Impact Experiment (PIE) and ''Mir'' Sample Return Experiment (MSRE) packages, deployed the Advanced Materials Exposure Experiment (AMEE) and tested the [[Orlan space suits|Orlan-M]] [[spacesuit]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref>{{cite book|author=Linenger, Jerry|date=1 January 2001|title=Off the Planet: Surviving Five Perilous Months Aboard the Space Station Mir|place=New York, USA|publisher=McGraw-Hill|isbn=978-0-07-137230-5}}</ref><ref name="Dragonfly">{{cite book|author=Burrough, Bryan|date=7 January 1998|title=Dragonfly: NASA and the Crisis Aboard Mir|place=London, UK|publisher=Fourth Estate Ltd|isbn=978-1-84115-087-1}}</ref>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |62
+|rowspan=2 |[[Mir EO-24|EO-24]]<br/><small>EVA 1</small><br/>{{dagger|alt=EVA conducted from node.}}
+| [[Anatoly Solovyev]]<br/>[[Pavel Vinogradov]]
+| 22 August 1997<br/>11:14
+| 22 August 1997<br/>14:30
+| 3 hours, 16 minutes
+|-
+| colspan=4 |First 'IVA' into ''[[Spektr]]'' following the module's [[Uncontrolled decompression|depressurisation]] after the [[Progress M-34]] collision. Installed a modified ''Konus'' drogue in the [[Mir Core Module|core module's]] docking node and wired it up to connect the module's [[Solar panels on spacecraft|solar arrays]] to the station's electrical system. Inspected the interior of ''Spektr'' and retrieved equipment from the module.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |63
+|rowspan=2 |[[Mir EO-24|EO-24]]<br/><small>EVA 2</small>
+| [[Anatoly Solovyev]]<br/>[[Michael Foale]]
+| 6 September 1997<br/>01:07
+| 6 September 1997<br/>07:07
+| 6 hours, 0 minutes
+|-
+| colspan=4 |Inspected the exterior of ''[[Spektr]]'' for signs of damage and manually reoriented the module's [[Solar panels on spacecraft|solar arrays]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/><ref name="Dragonfly"/>
+|-
+! scope="row" rowspan=2 |64
+|rowspan=2 |[[STS-86]]<br/><small>EVA 1</small><br/>{{double-dagger|alt=EVA conducted from Atlantis.}}
+| [[Scott E. Parazynski|Scott Parazynski]]<br/>[[Vladimir Titov]]
+| 1 October 1997<br/>17:29
+| 1 October 1997<br/>22:30
+| 5 hours, 1-minute
+|-
+| colspan=4 |Retrieved the [[Mir Environmental Effects Payload]] (MEEP) from the [[Mir Docking Module|docking module]] and affixed a [[Solar panels on spacecraft|solar arrays]] cap to aid ''[[Spektr]]'' repairs.<ref>{{cite web|url=http://science.ksc.nasa.gov/shuttle/missions/sts-86/sts-86-day-07-highlights.html|publisher=NASA|title=STS-86 Day 7 Highlights|accessdate=12 February 2011|date=29 June 2001|author=Dumoulin, Jim}}</ref>
+|-
+! scope="row" rowspan=2 |65
+|rowspan=2 |[[Mir EO-24|EO-24]]<br/><small>EVA 3</small><br/>{{dagger|alt=EVA conducted from node.}}
+| [[Anatoly Solovyev]]<br/>[[Pavel Vinogradov]]
+| 20 October 1997<br/>09:40
+| 20 October 1997<br/>16:18
+| 6 hours, 38 minutes
+|-
+| colspan=4 |Second ''[[Spektr]]'' IVA to reconfigure the module's electrical system.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |66
+|rowspan=2 |[[Mir EO-24|EO-24]]<br/><small>EVA 4</small>
+| [[Anatoly Solovyev]]<br/>[[Pavel Vinogradov]]
+| 3 November 1997<br/>03:32
+| 3 November 1997<br/>09:36
+| 6 hours, 4 minutes
+|-
+| colspan=4 |Retracted and removed the ''[[Kristall]]'' [[Solar panels on spacecraft|solar arrays]] that had been mounted to the left side of [[Kvant-1|''Kvant''-1]] and deployed the [[Sputnik program#Sputnik 40 and Sputnik 41|Sputnik 40]] subsatellite.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |67
+|rowspan=2 |[[Mir EO-24|EO-24]]<br/><small>EVA 5</small>
+| [[Anatoly Solovyev]]<br/>[[Pavel Vinogradov]]
+| 6 November 1997<br/>00:12
+| 6 November 1997<br/>06:24
+| 6 hours, 12 minutes
+|-
+| colspan=4 |Installed the MSB [[Solar panels on spacecraft|solar array]] launched with the [[Mir Docking Module|docking module]] on to the newly vacated mount on the left side of [[Kvant-1|''Kvant''-1]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |68
+|rowspan=2 |[[Mir EO-24|EO-24]]<br/><small>EVA 6</small>
+| {{anchor|1998}}[[Anatoly Solovyev]]<br/>[[Pavel Vinogradov]]
+| 8 January 1998<br/>23:08
+| 9 January 1998<br/>02:14
+| 3 hours, 6 minutes
+|-
+| colspan=4 |Retrieved the Advanced Materials Exposure Experiment (AMEE) package and conducted repairs to the [[Kvant-2|''Kvant''-2]] airlock hatch.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |69
+|rowspan=2 |[[Mir EO-24|EO-24]]<br/><small>EVA 7</small>
+| [[Anatoly Solovyev]]<br/>[[David Wolf (astronaut)|David Wolf]]
+| 14 January 1998<br/>21:12
+| 14 January 1998<br/>01:04
+| 3 hours, 52 minutes
+|-
+| colspan=4 |Used a [[Spectrophotometry|spectroreflectometer]] to inspect the condition of the radiators on [[Kvant-2|''Kvant''-2]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |-
+|rowspan=2 |[[Mir EO-25|EO-25]]
+| [[Talgat Musabayev]]<br/>[[Nikolai Budarin]]
+| 3 March 1998
+|
+| 0 hours, 30 minutes
+|-
+| colspan=4 |Attempted to conduct an EVA to prepare for the repair of the damaged [[Solar panels on spacecraft|solar array]] on ''[[Spektr]]'', but were unable to open the hatch and were forced to postpone the EVA.<ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |70
+|rowspan=2 |[[Mir EO-25|EO-25]]<br/><small>EVA 1</small>
+| [[Talgat Musabayev]]<br/>[[Nikolai Budarin]]
+| 1 April 1998<br/>13:35
+| 1 April 1998<br/>20:15
+| 6 hours, 40 minutes
+|-
+| colspan=4 |Installed EVA anchors to provide access to ''[[Spektr]]''<nowiki>'</nowiki>s damaged [[Solar panels on spacecraft|solar array]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |71
+|rowspan=2 |[[Mir EO-25|EO-25]]<br/><small>EVA 2</small>
+| [[Talgat Musabayev]]<br/>[[Nikolai Budarin]]
+| 6 April 1998<br/>13:35
+| 6 April 1998<br/>17:50
+| 4 hours, 15 minutes
+|-
+| colspan=4 |Installed a brace on ''[[Spektr]]''<nowiki>'</nowiki>s damaged [[Solar panels on spacecraft|solar array]] to reinforce it.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |72
+|rowspan=2 |[[Mir EO-25|EO-25]]<br/><small>EVA 3</small>
+| [[Talgat Musabayev]]<br/>[[Nikolai Budarin]]
+| 11 April 1998<br/>09:55
+| 11 April 1998<br/>16:20
+| 6 hours, 25 minutes
+|-
+| colspan=4 |Removed the depleted VDU thruster block from the ''Sofora'' [[truss]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |73
+|rowspan=2 |[[Mir EO-25|EO-25]]<br/><small>EVA 4</small>
+| [[Talgat Musabayev]]<br/>[[Nikolai Budarin]]
+| 17 April 1998<br/>07:40
+| 17 April 1998<br/>14:13
+| 6 hours, 33 minutes
+|-
+| colspan=4 |Prepared for the installation of a new VDU thruster block on the ''Sofora'' [[truss]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |74
+|rowspan=2 |[[Mir EO-25|EO-25]]<br/><small>EVA 5</small>
+| [[Talgat Musabayev]]<br/>[[Nikolai Budarin]]
+| 22 April 1998<br/>05:34
+| 22 April 1998<br/>11:55
+| 6 hours, 21 minutes
+|-
+| colspan=4 |Installed a new VDU thruster block on the ''Sofora'' [[truss]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |75
+|rowspan=2 |[[Mir EO-26|EO-26]]<br/><small>EVA 1</small><br/>{{dagger|alt=EVA conducted from node.}}
+| [[Gennady Padalka]]<br/>[[Sergei Avdeyev]]
+| 15 September 1998<br/>20:00
+| 15 September 1998<br/>20:30
+| 0 hours, 30 minutes
+|-
+| colspan=4 |Reseated electrical connections inside ''[[Spektr]]'' controlling the module's [[Solar panels on spacecraft|solar arrays]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |76
+|rowspan=2 |[[Mir EO-26|EO-26]]<br/><small>EVA 2</small>
+| [[Gennady Padalka]]<br/>[[Sergei Avdeyev]]
+| 10 November 1998<br/>19:23
+| 11 November 1998<br/>01:18
+| 5 hours, 54 minutes
+|-
+| colspan=4 |Installed the ''Comets'' [[micrometeoroid]] detector in preparation for the upcoming [[Leonids]] [[meteor shower]] and deployed the [[Sputnik#Sputnik 40 and Sputnik 41|Sputnik 41]] subsatellite.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |77
+|rowspan=2 |[[Mir EO-27|EO-27]]<br/><small>EVA 1</small>
+| {{anchor|1999}}[[Viktor Mikhailovich Afanasyev|Viktor Afanasyev]]<br/>[[Jean-Pierre Haigneré]]
+| 16 April 1999<br/>04:37
+| 16 April 1999<br/>10:56
+| 6 hours, 19 minutes
+|-
+| colspan=4 |Retrieved the ''Comets'' [[micrometeoroid]] detector, installed new experiments and deployed the [[Sputnik 99]] subsatellite.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog"/>
+|-
+! scope="row" rowspan=2 |78
+|rowspan=2 |[[Mir EO-27|EO-27]]<br/><small>EVA 2</small>
+| [[Viktor Mikhailovich Afanasyev|Viktor Afanasyev]]<br/>[[Sergei Avdeyev]]
+| 23 July 1999<br/>11:06
+| 23 July 1999<br/>17:13
+| 6 hours, 7 minutes
+|-
+| colspan=4 |Installed and attempted to deploy a prototype communications antenna on the far end of the ''Sofora'' [[truss]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog2">{{cite book|title=Mir: The Final Year|year=2001|publisher=[[British Interplanetary Society]]|location=London|isbn=0-9506597-5-4|pages=9–10 & 19–21|author=Shayler, David J|editor=Hall, Rex|chapter=Mir EVA Logs 1987–2001}}</ref>
+|-
+! scope="row" rowspan=2 |79
+|rowspan=2 |[[Mir EO-27|EO-27]]<br/><small>EVA 3</small>
+| [[Viktor Mikhailovich Afanasyev|Viktor Afanasyev]]<br/>[[Sergei Avdeyev]]
+| 28 July 1999<br/>09:37
+| 28 July 1999<br/>14:59
+| 5 hours, 22 minutes
+|-
+| colspan=4 |Completed the deployment of a prototype communications antenna on the far end of the ''Sofora'' [[truss]].<ref name="EA"/><ref name="SSSM"/><ref name="EVALog2"/>
+|-
+| colspan=7 bgcolor=#ccccff height="5px" |
+|-
+! scope="row" rowspan=2 |80
+|rowspan=2 |[[Mir EO-28|EO-28]]<br/><small>EVA 1</small>
+| {{anchor|2000}}[[Sergei Zalyotin]]<br/>[[Aleksandr Kaleri]]
+| 12 May 2000<br/>10:44
+| 12 May 2000<br/>15:47
+| 5 hours, 3 minutes
+|-
+| colspan=4 |Final EVA to be conducted at ''Mir''. Tested a sealant dispenser by sealing cracks on the exterior of the station, inspected the [[Mir Docking Module#Solar arrays & MEEP|''Mir'' Cooperative Solar Array]] (MCSA), dismantled a solar battery, photographed the station's exterior and retrieved experiments.<ref name="EA"/><ref name="SSSM"/><ref name="EVALog2"/>
+|}
+
+<center>
+{| class=wikitable
+|-
+|<center>[[File:OnufriyenkoEVA.jpg|299x125px|alt=A man dressed in a spacesuit clings to a truss structure, manipulating a second truss with his left hand. Cabling can be seen running along both trusses, and the Earth's horizon can be seen in the background against the blackness of space.]]</center>
+|<center>[[File:UsachevEVA.jpg|299x125px|alt=A man dressed in a spacesuit seen crawling along a white, cylindrical space station module. A large solar array can be seen projecting from the top of the module, and various other pieces of apparatus are visible. The Earth's horizon and space are visible behind the solar array.]]</center>
+|<center>[[File:TsiblievEVA-EO23.jpg|299x125px|alt=A man dressed in a white spacesuit with a red stripe seen clinging to the end of a boom-like crane, moving over a white space station module. Various trusses, solar arrays and other structures project from the module, and the Earth is visible in the background.]]</center>
+|<center>[[File:SolovyevEVA.jpg|299x125px|alt=A man dressed in a white spacesuit with a red stripe manoeuvres along a boom-like crane towards a white cone-shaped space station module. Four arrays, one of which is damaged, project from the module, and the blackness of space forms the background. The rim of the porthole through which the photograph was taken is visible to the right of the image.]]</center>
+|-
+|<small>[[Yury Onufriyenko]] scales the ''Sofora'' truss during [[Mir EO-21|EO-21]].</small>
+|<small>[[Yury Usachov]] seen working on [[Kvant-1|''Kvant''-1]] during [[Mir EO-21|EO-21]].</small>
+|<small>[[Vasily Tsibliyev]] traverses ''[[Mir]]'' using a [[Strela (crane)|''Strela'']] crane during [[Mir EO-23|EO-23]].</small>
+|<small>[[Anatoly Solovyev]] inspects the exterior of ''[[Spektr]]'' during the second EVA of [[Mir EO-24|EO-24]].</small>
+|}
+</center>
+
+==References==
+{{Reflist}}
+
+==See also==
+*[[List of spacewalks and moonwalks]]
+*[[List of ISS spacewalks]]
+*[[List of cumulative spacewalk records]]
+*[[List of human spaceflights to Mir]]
+*[[List of Mir Expeditions]]
+{{Mir modules}}
+{{Space exploration lists and timelines}}
+
+{{Use British English|date=January 2014}}
+
+[[Category:Mir|*Spacewalks]]
+[[Category:Spaceflight timelines|Mir spacewalks]]

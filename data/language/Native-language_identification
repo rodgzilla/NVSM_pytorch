@@ -1,0 +1,50 @@
+'''Native-language identification''' ('''NLI''') is the task of determining an author's [[first language|native language]] (L1) based only on their writings in a [[second language]] (L2).<ref>Wong, Sze-Meng Jojo, and Mark Dras. [http://anthology.aclweb.org/D/D11/D11-1148.pdf "Exploiting parse structures for native language identification"]. Proceedings of the Conference on Empirical Methods in Natural Language Processing. Association for Computational Linguistics, 2011.</ref>
+NLI works through identifying language-usage patterns that are common to specific L1 groups and then applying this knowledge to predict the native language of previously unseen texts.
+This is motivated in part by applications in [[second-language acquisition]], language teaching and [[forensic linguistics]], amongst others.
+
+== Overview ==
+NLI works under the assumption that an author's L1 will dispose them towards particular language production patterns in their L2, as influenced by their native language. This relates to cross-linguistic influence (CLI), a key topic in the field of second-language acquisition (SLA) that analyzes transfer effects from the L1 on later learned languages.
+
+Using large-scale English data, NLI methods achieve over 80% accuracy in predicting the native language of texts written by authors from 11 different L1 backgrounds. This can be compared to a baseline of 9% for choosing randomly.
+
+==Applications==
+
+===Pedagogy and language transfer===
+This identification of L1-specific features has been used to study [[language transfer]] effects in second-language acquisition.<ref>Malmasi, Shervin, and Mark Dras. [http://www.aclweb.org/anthology/D/D14/D14-1144.pdf "Language Transfer Hypotheses with Linear SVM Weights."] Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP). 2014.</ref> This is useful for developing pedagogical material, teaching methods, L1-specific instructions and generating learner feedback that is tailored to their native language.
+
+===Forensic linguistics===
+NLI methods can also be applied in [[forensic linguistics]] as a method of performing authorship profiling in order to infer the attributes of an author, including their linguistic background.
+This is particularly useful in situations where a text, e.g. an anonymous letter, is the key piece of evidence in an investigation and clues about the native language of a writer can help investigators in identifying the source.
+This has already attracted interest and funding from intelligence agencies.<ref>Ria Perkins. 2014. "Linguistic identifiers of L1 Persian speakers writing in English: NLID for authorship analysis". Ph.D. thesis, Aston University.</ref>
+
+== Methodology ==
+
+[[Natural language processing]] methods are used to extract and identify language usage patterns common to speakers of an L1-group. This is done using language learner data, usually from a [[learner corpus]]. Next, [[machine learning]] is applied to train classifiers, like [[support vector machine]]s, for predicting the L1 of unseen texts.<ref>Tetreault et al, [http://anthology.aclweb.org/C/C12/C12-1158.pdf "Native Tongues, Lost and Found: Resources and Empirical Evaluations in Native Language Identification"], In Proc. International Conf. on Computational Linguistics (COLING), 2012</ref>
+A range of ensemble based systems have also been applied to the task and shown to improve performance over single classifier systems.<ref>Malmasi, Shervin, Sze-Meng Jojo Wong, and Mark Dras. [http://anthology.aclweb.org/W/W13/W13-1716.pdf "NLI Shared Task 2013: MQ submission"]. Proceedings of the Eighth Workshop on Innovative Use of NLP for Building Educational Applications. 2013.</ref>
+
+Various linguistic feature types have been applied for this task. These include syntactic features such as constituent parses, grammatical dependencies and part-of-speech tags.
+Surface level lexical features such as character, word and lemma [[n-gram|n-grams]] have also been found to be quite useful for this task. However, it seems that character n-grams<ref>Radu Tudor Ionescu, Marius Popescu and Aoife Cahill. [http://www.mitpressjournals.org/doi/abs/10.1162/COLI_a_00256 "String Kernels for Native Language Identification: Insights from Behind the Curtains"], Computational Linguistics, 2016</ref><ref>Radu Tudor Ionescu and Marius Popescu. [https://arxiv.org/abs/1707.08349 "Can string kernels pass the test of time in Native Language Identification?"], In Proceedings of BEA12, 2017.</ref> are the single best feature for the task.
+
+== 2013 shared task ==
+The Building Educational Applications (BEA) workshop at [[NAACL]] 2013 hosted the inaugural NLI shared task.<ref>Tetreault et al, [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.365.5931&rep=rep1&type=pdf "A report on the first native language identification shared task"], 2013</ref> The competition resulted in 29 entries from teams across the globe, 24 of which also published a paper describing their systems and approaches.
+
+==See also==
+{{div col|colwidth=22em}}
+*[[Crosslinguistic influence]]
+*[[Foreign language writing aid]]
+*[[Computer-assisted language learning]]
+*[[Language education]]
+*[[Natural language processing]]
+*[[Language transfer]]
+{{div col end}}
+
+==References==
+{{reflist}}
+
+{{DEFAULTSORT:Natural Language Processing}}
+[[Category:Computational linguistics]]
+[[Category:Second-language acquisition]]
+[[Category:Natural language processing]]
+[[Category:Machine learning]]
+[[Category:Applied linguistics]]
+[[Category:Bilingualism]]

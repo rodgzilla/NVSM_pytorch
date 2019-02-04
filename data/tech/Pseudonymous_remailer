@@ -1,0 +1,61 @@
+A '''pseudonymous remailer''' or '''nym server''', as opposed to an [[anonymous remailer]], is an [[Internet]] software program designed to allow people to write [[pseudonym]]ous messages on [[Usenet]] newsgroups and send pseudonymous [[email]].  Unlike purely anonymous remailers, it assigns its users a user name, and it keeps a database of instructions on how to return messages to the real user.   These instructions usually involve the anonymous remailer network itself, thus protecting the true identity of the user.
+
+Primordial pseudonymous remailers once recorded enough information to trace the identity of the real user, making it possible for someone to obtain the identity of the real user through legal or illegal means. This form of pseudonymous remailer is no longer common.
+
+[[David Chaum]] wrote an article in 1981 that described many of the features present in  modern pseudonymous remailers.<ref>{{cite journal | first = David | last = Chaum | title = Untraceable Electronic Mail, Return Addresses, and Digital Pseudonyms | journal =  Communications of the ACM | issue = 2 | date = February 1981 | url = http://freehaven.net/anonbib/cache/chaum-mix.pdf  | volume = 24 | doi = 10.1145/358549.358563 }}</ref>
+
+The [[Penet remailer]], which lasted from 1993 to 1996, was a popular pseudonymous remailer.
+
+==Contemporary nym servers==
+A '''nym server''' (short for "[[pseudonymity|pseudonym]] server") is a [[Server (computing)|server]] that provides an untraceable e-mail address, such that neither the nym server operator nor the operators of the remailers involved can discover which nym corresponds to which real identity.
+
+To set up a nym, you create a [[Pretty Good Privacy|PGP]] keypair and submit it to the nym server, along with instructions (called a ''reply block'') to [[anonymous remailer]]s (such as [[Cypherpunk anonymous remailer|Cypherpunk]] or [[Mixmaster anonymous remailer|Mixmaster]]) on how to send a message to your real address. The nym server returns a confirmation through this reply block. You then send a message to the address in the confirmation.
+
+To send a message through the nym server so that the From address is the nym, you add a few headers, sign the message with your nym key, encrypt it with the nym server key, and send the message to the nym server, probably routed through some anonymous remailers. When the nym server gets the message, it decrypts the message and sends it on to the intended recipient, with the From: address being your nym.
+
+When the nym server gets a message addressed ''to'' the nym, it appends it to the nym's reply block and sends it to the first remailer in the chain, which sends it to the next and so on until it reaches your real address. It is considered good practice to include instructions to encrypt it on the way, so that someone (or some organization) doing in/out [[traffic analysis]] on the nym server cannot easily match the message received by you to the one sent by the nym server.
+
+Existing "multi-use reply block" nym servers were shown to be susceptible to passive traffic analysis with one month's worth of incoming [[Spam (electronic)|spam]] (based on 2005 figures) in a paper by [[Bram Cohen]], [[Len Sassaman]], and [[Nick Mathewson]]{{Ref|PG}}.
+
+==See also==
+
+{{Portal|Cryptography}}
+* [[Anonymity]]
+** [[Anonymous P2P]]
+** [[Anonymous remailer]]
+*** [[Cypherpunk anonymous remailer]] (Type I)
+*** [[Mixmaster anonymous remailer]] (Type II)
+*** [[Mixminion]] (Type III)
+***  [[I2P#I2P-Bote|I2P-Bote]]
+** [[Onion routing]]
+*** [[Tor (anonymity network)]]
+* [[Data privacy]]
+* [[Penet remailer]]
+* [[Traffic analysis]]
+
+==References==
+{{Reflist}}
+# {{note|PG}} See [http://www.cosic.esat.kuleuven.be/publications/article-620.pdf The Pynchon Gate: A Secure Method of Pseudonymous Mail Retrieval] {{cite journal|
+  title=The Pynchon Gate: A Secure Method of Pseudonymous Mail Retrieval |
+  author=Len Sassaman and Bram Cohen and Nick Mathewson  |
+  journal=Proceedings of the Workshop on Privacy in the Electronic Society (WPES 2005)|date=November 2005 |
+  editor = Sabrina De Capitani di Vimercati and Roger Dingledine |
+  publisher = ACM Press| url=http://www.cosic.esat.kuleuven.be/publications/article-620.pdf |
+  volume= |
+  issue= |
+  pages= |
+  accessdate = 2008-06-06
+ |doi=10.1145/1102199.1102201
+}}
+
+===Further reading===
+* {{Cite book |title=Email Security |author=[[Bruce Schneier]] |isbn=0-471-05318-X}}
+* {{Cite book |title=Computer Privacy Handbook |first=Andre |last=Bacard |isbn=1-56609-171-3}}
+
+==External links==
+* [http://www.andrebacard.com/remail.html Anonymous Remailer FAQ]
+* [http://mixmaster.sourceforge.net/faq.shtml Mixmaster FAQ]
+* [http://tjgidoycrw6s3guetge3kvrvynppqjmvqsosmtbmgqasa6vmsf6a.b32.i2p/ Official I2P-Bote eepsite]{{dead link|date=April 2018 |bot=InternetArchiveBot |fix-attempted=yes }} (I2P-internal)
+
+[[Category:Anonymity networks]]
+[[Category:Internet Protocol based network software]]

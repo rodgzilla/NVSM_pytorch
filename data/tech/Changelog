@@ -1,0 +1,52 @@
+{{selfref|For information on Wikipedia changelogs, see [[Help:Page history]].}}
+A '''changelog''' is a log or record of all notable changes made to a project.  The project is often a [[website]] or software project, and the changelog usually includes records of changes such as bug fixes, new features, etc.  Some [[Open-source software|open source]] projects include a changelog as one of the top level files in their distribution.
+
+A changelog has historically included all changes made to a project.  The "Keep a CHANGELOG" site instead advocates that a changelog ''not'' include ''all'' changes, but that it should instead contain "a curated, chronologically ordered list of notable changes for each version of a project" and should not be a "dump" of a git log "because this helps nobody".<ref name="keepachangelog">{{cite web|url=http://keepachangelog.com |title=Keep a CHANGELOG |date= |accessdate=2016-01-09}}</ref>
+
+Although the canonical naming convention for the file is ''ChangeLog'',<ref>[https://www.gnu.org/software/automake/manual/html_node/Gnits.html#Gnits The GNU automake manual]</ref> it is sometimes alternatively named as ''CHANGES'' or ''HISTORY'' (''NEWS'' is usually a different file reflecting changes between releases, not between the commits).  Another convention is to call it a CHANGELOG.<ref name="keepachangelog"/> Some [[project maintainer]]s will append a ''.txt'' suffix to the file name if the changelog is [[plain text]], or a ''.md'' suffix if it is in [[Markdown]].
+
+Some [[revision control]] systems are able to generate the relevant information that is suited as a changelog if the goal is to include all changes.
+
+==Format==
+Changelog files are organized by paragraphs, which define a unique change within a function or file.
+The GNU Coding standards recommend the following format:<ref>{{cite web|url=https://www.gnu.org/prep/standards/html_node/Style-of-Change-Logs.html |title=GNU Coding Standards: Style of Change Logs |publisher=Gnu.org |date= |accessdate=2013-04-22}}</ref>
+<pre>
+YYYY-MM-DD  John Doe  <johndoe@example.com>
+
+    * myfile.ext (myfunction): my changes made
+    additional changes
+
+    * myfile.ext (unrelated_change): my changes made
+    to myfile.ext but completely unrelated to the above
+
+    * anotherfile.ext (somefunction): more changes
+</pre>
+
+Note that between the date and the name, and again between the name and the email address, there are two spaces each. It is common to enclose the email address in &lt; and &gt;. The [[Emacs | Emacs Editor]] creates such entries when creating additional changelog entries.
+
+==Changelogs in Wikis==
+Most [[Wiki]] software includes ''changelogs'' as a fundamental feature (often called ''history'' in this context). For example, the "View History" link at the top <ref>[[Help:Page_history]]</ref> of a [[Wikipedia]] entry links to that page's changelog. This feature is vital for complying with the attribution requirements of some copyright licenses.{{Citation needed|reason=This sentence needs a reliable source, how is the page history vital to this?|date=September 2017}}
+
+==Product Changelogs==
+
+A product changelog allows keeping customers in the loop about what's new. It helps to announce new features, latest releases, and relevant news directly in-app.
+
+==See also==
+*[[Change control]]
+*[[Release notes]]
+*[[Web feed]]
+*[[Diff]]
+
+==Notes==
+{{reflist}}
+
+
+
+==External links==
+* [https://www.gnu.org/prep/standards/standards.html#Change-Logs GNU Coding Standards: Change Logs]
+* [http://keepachangelog.com/ Keep a CHANGELOG]
+* [http://noticeable.io Noticeable.io]
+
+[[Category:Computer files]]
+[[Category:Free software culture and documents]]
+[[Category:Technical communication]]

@@ -1,0 +1,110 @@
+{{More footnotes|date=October 2018}}
+The '''Penet remailer''' (<tt>'''anon.penet.fi'''</tt>) was a [[pseudonymous remailer]] operated by [[Johan Helsingius|Johan "Julf" Helsingius]] of Finland from 1993 to 1996. Its initial creation stemmed from an argument in a Finnish [[Usenet newsgroup|newsgroup]] over whether people should be required to tie their real name to their online communications. Julf believed that people should not&mdash;indeed, could not&mdash;be required to do so. In his own words:
+:"Some people from a university network really argued about if everybody should put their proper name on the messages and everybody should be accountable, so you could actually verify that it is the person who is sending the messages. And I kept arguing that the Internet just doesn't work that way, and if somebody actually tries to enforce that, the Internet will always find a solution around it. And just to prove my point, I spent two days or something cooking up the first version of the server, just to prove a point."<ref>{{cite journal
+ |last        = Grassmuck
+ |first       = Volker
+ |date        = December 1994
+ |title       = "Don't Try to Control the Network Because it's Impossible Anyway" Interview with Johan Helsingius on Anonymous Remailers
+ |journal     = IC Magazine
+ |url         = http://waste.informatik.hu-berlin.de/Grassmuck/Texts/remailer.html
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20060827210638/http://waste.informatik.hu-berlin.de/Grassmuck/Texts/remailer.html
+ |archivedate = 2006-08-27
+ |df          = 
+}}</ref>
+
+==Implementation==
+Julf's remailer worked by receiving an e-mail from a person, stripping away all the technical information that could be used to identify the original source of the e-mail, and then remailing the message to its final destination. The result provided Internet users with the ability to send e-mail messages and post to Usenet newsgroups without revealing their identities.
+
+In addition, the Penet remailer used a type of “post office box” system in which users could claim their own anonymous e-mail addresses of the form ''an''xxxxx''@anon.penet.fi'', allowing them to assign pseudonymous identities to their anonymous messages, and to receive messages sent to their (anonymous) e-mail addresses.
+
+While the basic concept was effective, the Penet remailer had several vulnerabilities which threatened the anonymity of its users. Chief among them was the need to store a list of real e-mail addresses mapped to the corresponding anonymous e-mail addresses on the server. A potential attacker needed only to access that list to compromise the identities of all of Penet’s users. The Penet remailer was on two occasions required by the legal system in [[Finland]] (the country where the Penet server hardware resided) to turn over the real e-mail address that was mapped to an anonymous e-mail address. Another potential vulnerability was that messages sent to and from the remailer were all sent in [[cleartext]], making it vulnerable to electronic eavesdropping.
+
+Later anonymous remailer designs, such as the [[Cypherpunk anonymous remailer|Cypherpunk]] and [[Mixmaster anonymous remailer|Mixmaster]] designs, adopted more sophisticated techniques to try and overcome these vulnerabilities, including the use of encryption to prevent eavesdropping, and also the technique known as [[onion routing]] to allow the existence of pseudonymous remailers in which no record of a user's real e-mail address is stored by the remailer.
+
+Despite its relatively weak security, the Penet remailer was a hugely popular remailer owing to its ease of anonymous account set-up and use compared to more secure but less user-friendly remailers, and had over 700,000 registered users at the time of its shutdown in September 1996.
+
+==First compromise==
+
+In the summer of 1994, word spread online of the Penet remailer being compromised, with the announcement being made at the hacker convention [[DEF CON]] II.  ''[[Wired (magazine)|Wired]]'' magazine reported at the time:
+
+:An official announcement was made at this year's [[DEF CON|DC]] that anon.penet.fi has been seriously compromised. We strongly suggest that you not trust this anonymous remailer. (Word has it that some folks are working on a [[Pretty Good Privacy|PGP]]-based service.) We'll keep  you posted.<ref>{{cite web|url=https://www.wired.com/wired/archive/2.11/net_surf.html|title=Net Surf|date=1 November 1994|work=WIRED}}</ref>
+
+This was followed a year later by a mention in the announcement for DEF CON III:
+
+<blockquote>
+SPEAKERS
+[[Sarah Gordon]], AKA [[Theora Jones|Theora]], a veteran of DC II will be presenting another speech this year. Last year she organized a round table discussion with [[Phil Zimmermann]] and Presence, and revealed that the Anonymous remailer anon.penet.fi was compromised.  TOPIC: Not Announced Yet.<ref>{{cite web |url=http://venus.soci.niu.edu/~cudigest/CUDS7/cud710 |title=Archived copy |accessdate=2007-04-26 |deadurl=yes |archiveurl=https://web.archive.org/web/20060901123001/http://venus.soci.niu.edu/~cudigest/CUDS7/cud710 |archivedate=2006-09-01 |df= }}</ref>
+</blockquote>
+
+There are no known reports detailing the specifics and extent of this compromise.
+
+==Second compromise==
+The second reported compromise of the Penet remailer occurred in February 1995 at the behest of the [[Church of Scientology]]. Claiming that a file had been stolen from one of the Church's internal computer servers and posted to the newsgroup [[alt.religion.scientology]] by a Penet user, representatives of the Church contacted [[Interpol]], who in turn contacted the Finnish police, who issued a search warrant demanding that Julf hand over data on the users of the Penet remailer. Initially Julf was asked to turn over the identities of all users of his remailer (which numbered over 300,000 at the time), but he managed a compromise and revealed only the single user being sought by the Church of Scientology.
+
+The anonymous user in question used the handle "-AB-" when posting anonymously, and their real e-mail address indicated that they were an alumnus or alumna of the [[California Institute of Technology]]. The document he posted was an internal report by a Scientology private investigator, Gene Ingram, about an incident that had occurred involving a man named [[Tom Klemesrud]], a BBS operator involved in the [[Scientology versus the Internet]] controversy. The confusing story became known on the Internet as the "Miss Blood Incident".
+
+Eventually the Church learned the real identity of "-AB-" to be Tom Rummelhart, a Scientologist and computer operator responsible for some of the maintenance of the Church of Scientology's INCOMM computer system. The fate of "-AB-" after the Church of Scientology learned his true identity is unknown. Years later in 2003, a two-part story entitled "What Really Happened in INCOMM - Part 1"<ref>{{cite web|url=http://groups.google.com/group/alt.religion.scientology/msg/3d23b12d4264e8fc?|title=Google Groups|website=Groups.google.com|accessdate=18 October 2018}}</ref> and "What Really Happened in INCOMM – Part 2"<ref>{{cite web|url=http://groups.google.com/group/alt.religion.scientology/msg/b0949c0e7484657f?|title=Google Groups|website=Groups.google.com|accessdate=18 October 2018}}</ref> was posted to [[alt.religion.scientology]] by a former Scientologist named Dan Garvin, which described events within the Church leading up to and stemming from the Penet posting by "-AB-".
+
+==Other attacks==
+{{Unreferenced section|date=February 2009}}
+Julf was also contacted by the government of [[Singapore]] as part of an effort to discover who was posting messages critical of the nation's government in the newsgroup [[soc.culture.singapore]], but as Finnish law did not recognise any crime being committed, Julf was not required to reveal the user's identity.
+
+In August 1996, a major British newspaper, ''[[The Observer]]'', published an article describing the Penet remailer as a major hub of [[child pornography]], quoting a United States [[Federal Bureau of Investigation|FBI]] investigator named Toby Tyler as saying that Penet was responsible for between 75% and 90% of the child pornography being distributed on the Internet. Investigations by online journalist [[Declan McCullagh]] demonstrated many errors and omissions in the ''Observer'' article. In an article penned by McCullagh, the alleged FBI investigator described himself as a sergeant in [[California]]'s [[San Bernardino, California|San Bernardino]] sheriff's office who only consulted with the FBI from time to time, a relationship which the Observer article had in his opinion purposefully misrepresented as some kind of employment relationship. Tyler also claimed that the ''Observer'' purposely misquoted him, and he had actually said "that most child pornography posted to newsgroups does '''not''' go through remailers."
+
+In addition, Julf claimed that he explained to the ''Observer'' the steps he took to prevent child pornography from being posted by forbidding posting to the alt.binaries [[newsgroups]] and limiting the size of messages to 16 kilobytes, too small to allow [[uuencode]]d binaries such as pictures to be posted. He also informed the ''Observer'' of an investigation already performed by the Finnish police which had found no evidence that child pornography was being remailed through Penet. Julf claims that all this information was ignored, stating that the ''Observer'' "wanted to make a story so they made things up."
+
+Despite voluminous reader mail pointing to the numerous errors in the news story, the ''Observer'' never issued a full retraction of its claims, only going so far as to clarify that Johan Helsingius had "consistently denied" the claims of child pornography distribution.
+
+In September 1996, the [[Church of Scientology]] again sought information from Julf as part of its court case against a critic of the Church named [[Grady Ward]]. The Church wanted to know if Ward had posted any information through the Penet remailer. Ward gave Julf explicit permission to reveal the extent of his alleged use of the Penet remailer, and Julf told the Church that he could find no evidence that Ward had ever used the Penet remailer at all.
+
+==Third compromise and shutdown==
+In September 1996, an anonymous user posted the [[Scientology beliefs and practices#Secret levels and writings|confidential writings]] of the [[Church of Scientology]] through the Penet remailer. The Church once again demanded that Julf turn over the identity of one of its users, claiming that the poster had infringed the [[Scientology and the legal system|Church's copyright]] on the confidential material. The Church was successful in finding the originating e-mail address of the posting before Penet remailed it, but it turned out to be another anonymous remailer: the alpha.c2.org [[Nym server|nymserver]], a more advanced and more secure remailer which didn't keep a mapping of e-mail addresses that could be [[subpoena]]ed.
+
+Facing much criticism and many attacks, and unable to guarantee the anonymity of Penet users, Julf shut down the remailer in September 1996.<ref>{{cite press release | url = https://w2.eff.org/Privacy/Anonymity/960830_penet_closure.announce | title = Johan Helsingius closes his Internet remailer | date = 1996-08-30 | accessdate = 2014-10-09 }}</ref>
+
+==See also==
+{{Portal|Internet|Scientology}}
+* [[Anonymous remailer]]
+* [[Crypto-anarchism]]
+* [[Cypherpunk]]
+* [[Pseudonymous remailer]]
+* [[Sintercom]]
+* [[The Law of Cyber-Space]]
+
+==References==
+=== Notes ===
+{{Reflist}}
+
+=== Additional sources ===
+{{Refbegin}}
+* {{cite journal|last=McCullagh |first=Declan |date=September 1996 |title=Finnish Line |url=https://www.eff.org/Misc/Publications/Declan_McCullagh/hw.finnish.line.090696.article |journal=Hotwired,The Netizen |deadurl=yes |archiveurl=https://web.archive.org/web/20060621113254/http://www.eff.org/Misc/Publications/Declan_McCullagh/hw.finnish.line.090696.article |archivedate=June 21, 2006 }}
+* {{cite journal
+ | last=Helmers|first= Sabine
+ | date=September 1997
+ | url=http://www.december.com/cmc/mag/1997/sep/helmers.html
+ | title=A Brief History of anon.penet.fi - The Legendary Anonymous Remailer
+ | journal=CMC Magazine
+ }}
+* {{cite journal
+ | last=Post|first= David G.
+ | date=April 1996
+ | title=The First Internet War
+ | journal=Reason Magazine
+ }} ([https://web.archive.org/web/20080420061007/http://www.cli.org/DPost/X0003_ARTICLE4.html Transcription] hosted by [[Cyberspace Law Institute]]).
+* {{cite press release|url=https://www.eff.org/Privacy/Anonymity/960923_penet_injunction.announce |title=Johan Helsingius gets injunction in Scientology case — privacy protection of anonymous messages still unclear |date=1996-09-23 |publisher=EFF |deadurl=yes |archiveurl=https://web.archive.org/web/20050921022510/http://www.eff.org/Privacy/Anonymity/960923_penet_injunction.announce |archivedate=September 21, 2005 }}
+* [http://www.spaink.net/cos/rnewman/anon/penet.html The Church of Scientology vs anon.penet.fi]
+* [https://archive.is/20130124163543/http://groups.google.com/groups?q=author:an144108@anon.penet.fi&start=0&scoring=d Google archive of an144108's Usenet postings]
+* [https://www.wired.com/wired/archive/2.11/net_surf.html Wired 2.11: Net Surf]
+* [ Computer underground Digest 7.10]
+{{Refend}}
+
+{{Scientology and the Internet}}
+
+{{DEFAULTSORT:Penet Remailer}}
+[[Category:Cryptography law]]
+[[Category:Anonymity networks]]
+[[Category:Internet properties established in 1993]]
+[[Category:Internet properties disestablished in 1996]]
+[[Category:Scientology and the Internet]]
+[[Category:Internet services shut down by a legal challenge]]

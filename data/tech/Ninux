@@ -1,0 +1,39 @@
+<!--{{notability|date=March 2014}}-->
+{{Infobox organization
+|name = ninux.org
+|image = Ninux.org_logo.png
+| caption = ninux.org logo
+|website = {{URL|http://wiki.ninux.org/FrontPage}}
+'''Map of coverage:''' {{cite web|url=http://map.ninux.org|title=Mappa della rete - Ninux.org|publisher=map.ninux.org|accessdate=2014-03-15}}
+}}
+{{Infobox NSP
+| asn = [https://apps.db.ripe.net/search/query.html?searchtext=AS197835&source=RIPE#resultsAnchor 197835]
+}}
+'''Ninux.org''' is a Wireless Network Community in Italy, a free, open and experimental computer network.<ref name="ninux">{{cite web|url=http://wiki.ninux.org/NinuxOrgFAQInEnglish|title=NinuxOrgFAQInEnglish - ninux.org Wiki|publisher=wiki.ninux.org|accessdate=2014-03-15}}</ref> The main idea is that users build their own computer network without central control or property, as opposed to traditional Internet service providers (ISP), where a single entity owns and manages the network. The initiative is based on the Ninux manifesto,<ref name="ninux2">{{cite web|url=http://wiki.ninux.org/NinuxOrgManifesto|title=NinuxOrgManifesto - ninux.org Wiki|publisher=wiki.ninux.org|accessdate=2014-03-15}}</ref> the Wireless Commons Manifesto<ref name="ninux3">{{cite web|url=http://wiki.ninux.org/WirelessCommonsManifesto|title=WirelessCommonsManifesto - ninux.org Wiki|publisher=wiki.ninux.org|accessdate=2014-03-15}}</ref> and the Picopeering Agreement.<ref name="picopeer">{{cite web|url=http://www.picopeer.net/PPA-en.html|title=Picopeering Agreement v1.0|publisher=picopeer.net|accessdate=2014-03-15}}</ref> In these agreements participants agree upon a network that is free from discrimination, in the sense of [[net neutrality]].
+
+With 352 active nodes and 2216 planned nodes,<ref>[http://map.ninux.org/ Map of the ninux.org network]</ref> it is one of the top ten [[List of wireless community networks by region|Wireless Community Networks]] in the world in number of active nodes. Ninux is part of the international movement for open wireless radio networks. For more information on such projects around the world, see [[wireless community network]].
+
+Since 2013, Ninux is an experimental member of the NaMeX [[Internet Exchange Point]] <ref>[http://blog.ninux.org/2014/01/09/ninux-org-si-connette-al-namex Ninux.org connects to Namex blog post (italian)]</ref><ref>[http://www.namex.it/en/who/members NaMeX Member List] {{webarchive|url=https://web.archive.org/web/20111009225743/http://www.namex.it/en/who/members |date=2011-10-09 }}</ref> in Rome.
+
+== History ==
+It was born in Rome around 2002 and now spanning all over Italy. Its name currently stands for "Neighborhood Internet, Network Under eXperiment". In fact, Ninux.org has been testing devices, auto-built antennas and routing protocols while exchanging knowledge with the other Community Networks in Europe.
+
+Ninux has participated since its early editions in the organization of the Battlemesh.<ref>[http://battlemesh.org/BattleMeshV3 Battlemesh V3 edition hosted by Ninux]</ref><ref>[http://battlemesh.org/BattleMeshV7/Endorsements Ninux as part of the Battlemesh event]</ref> Member since 2014 of the Community-Lab.net<ref>[http://Community-lab.net Community-Lab.net]</ref> testbed.
+
+== References ==
+{{reflist|1}}
+
+== External links ==
+*[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6673332  An analysis of the Ninux wireless community network], L. Maccari, IEEE 9th International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob), 2013.
+*[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.259.275&rep=rep1&type=pdf Detecting Incidents in Wireless Mesh Networks using Flow and Routing Information], Lothar Braun, Alexander Klein, Leon Aaron Kaplan, Georg Carle, [http://www.informatik2011.de/ COMPUTER SCIENCE 2011 Conference], TU-Berlin, 2011.
+*[http://upcommons.upc.edu/pfc/handle/2099.1/18721 Analysis of commons based organisations and a collaborative environment for the "Bottom-up Broadband" initiative in Europe], Adriana Marti Hoppmann, Llorenç Cerdà Alabern, Llorenç (Catalan).
+*[http://vimeo.com/1052320 An interview with Freifunk and Ninux in the International Summit of Wireless Community Networks in Berlin, 2013]
+*[http://codigosur.org/article/ipv6-en-redes-libres-la-experiencia-de-ninux/ A reference in free open networks and one of the first organisations in Italy to implement IPv6]
+*Wireless Networking in the developing world. A practical guide to planning and building low-cost telecommunications infrastructure, 3rd edition, Feb. 2013 [http://wndw.net/pdf/wndw3-en/wndw3-ebook.pdf]
+*[http://confine-project.eu/project-partners/ Ninux is part of the CONFINE FP7 FIRE Integrated Project for research in community networks]
+*[http://tools.ietf.org/html/draft-funkfeuer-manet-olsrv2-etx-00 draft-funkfeuer-manet-olsrv2-etx-00] Packet Sequence Number based ETX Metric for Mobile Ad Hoc Networks, 2010.
+*[https://www.youtube.com/watch?v=xztMyUXfS9M Ninux Day 2009 Video]
+
+[[Category:Internet service providers]]
+[[Category:Community networks]]
+[[Category:Wireless network organizations]]

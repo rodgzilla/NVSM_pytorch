@@ -1,0 +1,471 @@
+[[File:Space Station Freedom with Shuttle.jpg|thumb|upright=1.75|A 1990 artist rendering of [[Space Station Freedom]], a project that eventually evolved into the [[International Space Station]]]]
+'''Space architecture''', in its simplest definition, is the theory and practice of designing and building [[space habitat|inhabited environments]] in [[outer space]].<ref>{{Cite conference
+ |first      = Brent
+ |last       = Sherwood
+ |title      = Organizing Ourselves: Schema to Build the International Space Architecture Community
+ |booktitle  = Concluding Address
+ |publisher  = AIAA
+ |date       = 2006-09-21
+ |location   = San Jose, CA
+ |url        = http://pdf.aiaa.org/preview/CDReadyMSPACE06_1393/PV2006_7471.pdf
+ |accessdate = 2009-10-24
+}}{{dead link|date=November 2017 |bot=InternetArchiveBot |fix-attempted=yes }}</ref>
+
+The architectural approach to [[spacecraft design]] addresses the total built environment. It is mainly based on the field of [[engineering]] (especially [[aerospace engineering]]), but also involves diverse disciplines such as [[physiology]], [[psychology]], and [[sociology]].  Like architecture on Earth, the attempt is to go beyond the component elements and systems and gain a broad understanding of the issues that affect design success.<ref>{{Cite web |url=http://sicsa.egr.uh.edu/ |title=Sasakawa International Center for Space Architecture |date=2009-08-18 |publisher=University of Houston |accessdate=2009-10-28}}</ref> Much space architecture work has been in designing concepts for [[#Orbital|orbital]] space stations and [[#Lunar|lunar]] and [[#Martian|Martian]] exploration ships and surface bases for the world's space agencies, chiefly [[NASA]].
+
+The practice of involving architects in the space program grew out of the [[Space Race]], although its origins can be seen much earlier.  The need for their involvement stemmed from the push to extend space mission durations and address the needs of astronauts including but beyond minimum survival needs.  Space architecture is currently represented in several institutions.  The [[Sasakawa International Center for Space Architecture]] (SICSA) is an academic organization with the [[University of Houston]] that offers a Master of Science in Space Architecture.  SICSA also works design contracts with corporations and space agencies.  In Europe, [[International Space University]] is deeply involved in space architecture research.  The [[International Conference on Environmental Systems]] meets annually to present sessions on [[human spaceflight]] and space [[human factors]].  Within the [[American Institute of Aeronautics and Astronautics]], the Space Architecture Technical Committee has been formed.  Despite the historical pattern of large government-led space projects and university-level conceptual design, the advent of [[space tourism]] threatens to shift the outlook for space architecture work.
+
+==Etymology==
+The word ''space'' in space architecture is referring to the ''outer space'' definition, which is from English ''outer'' and ''space''.  ''Outer'' can be defined as "situated on or toward the outside; external; exterior" and originated around 1350–1400 in [[Middle English]].<ref>{{cite web
+  | title = outer
+  | work = Dictionary.com Unabridged (v 1.1)
+  | publisher = Random House, Inc.
+  | url = http://dictionary.reference.com/browse/outer
+  | accessdate = 2009-09-23}}</ref>  ''Space'' is "an area, extent, expanse, lapse of time," the [[aphesis|aphetic]] of [[Old French]] ''espace'' dating to 1300.  ''Espace'' is from [[Latin language|Latin]] ''spatium'', "room, area, distance, stretch of time," and is of uncertain origin.<ref>{{cite web
+  | title = space (n.)
+|last = Harper
+|first = Douglas
+  | work = Online Etymology Dictionary
+  | url = http://www.etymonline.com/index.php?term=space
+  | accessdate = 2009-09-23}}</ref>  In space architecture, speaking of ''outer space'' usually means the region of the universe outside Earth's atmosphere, as opposed to outside the atmospheres of all terrestrial bodies.  This allows the term to include such domains as the lunar and Martian surfaces.
+
+''Architecture'', the concatenation of ''architect'' and ''-ure'', dates to 1563, coming from [[Middle French]] ''architecte''.  This term is of Latin origin, formerly ''architectus'', which came from [[Greek language|Greek]] ''arkhitekton''.  ''Arkitekton'' means "master builder" and is from the combination of ''arkhi-'' "chief" and ''tekton'' "builder".<ref>{{cite web
+  | title = architect
+|last = Harper
+|first = Douglas
+  | work = Online Etymology Dictionary
+  | url = http://www.etymonline.com/index.php?term=architect
+  | accessdate = 2009-09-23}}</ref>  The human experience is central to architecture – the primary difference between space architecture and [[astronautics|spacecraft engineering]].
+
+There is some debate over the terminology of space architecture.  Some consider the field to be a specialty within architecture that applies architectural principles to space applications.  Others such as [[Tedd Hall (professor)|Ted Hall]] of the University of Michigan see space architects as generalists, with what is traditionally considered architecture (Earth-bound or terrestrial architecture) being a subset of a broader space architecture.<ref>{{cite news 
+  | last = Adams
+  | first = Constance
+  | title = (Aero)Space Architecture takes flight
+  | location = Houston, TX
+  | publisher = Spacearchitect.org
+  | date = 2002-10-12
+  | url = http://spacearchitect.org/
+  | accessdate = 2009-10-14}}</ref>  Any structures that fly in space will likely remain for some time highly dependent on Earth-based infrastructure and personnel for financing, development, construction, launch, and operation.  Therefore, it is a matter of discussion how much of these earthly assets are to be considered part of space architecture.  The technicalities of the term space architecture are open to some level of interpretation.
+
+==Origins==
+
+Ideas of people traveling to space were first published in [[science fiction]] stories, like Jules Verne's 1865 ''[[From the Earth to the Moon]]''.  In this story several details of the mission (crew of three, spacecraft dimensions, Florida launch site) bear striking similarity to the [[Apollo program|Apollo moon landings]] that took place more than 100 years later.  Verne's aluminum capsule had shelves stocked with equipment needed for the journey such as a collapsing telescope, pickaxes and shovels, firearms, oxygen generators, and even trees to plant.  A curved sofa was built into the floor and walls and windows near the tip of the spacecraft were accessible by ladder.<ref>{{cite web
+  | last = Wolcott
+  | first = Norman
+  | title = A Jules Verne Centennial: 1905–2005
+  | publisher = Smithsonian Institution Libraries
+  | date = December 2005
+  | url = http://www.sil.si.edu/ondisplay/julesverne100/Verne_ImagesSelected.cfm?book_id=SIL28-090
+  | accessdate = 2009-10-13}}</ref>  The projectile was shaped like a bullet because it was [[Space gun|gun-launched]] from the ground, a method infeasible for transporting man to space due to the high acceleration forces produced.  It would take [[rocket]]ry to get humans to the cosmos.
+
+[[File:Von braun station 2.jpg|right|thumb|An illustration of [[Wernher von Braun|von Braun's]] rotating space station concept]]
+The first serious theoretical work published on space travel by means of rocket power was by [[Konstantin Tsiolkovsky]] in 1903.  Besides being the father of astronautics he conceived such ideas as the [[space elevator]] (inspired by the Eiffel Tower), a rotating space station that created [[artificial gravity]] along the outer circumference, [[airlock]]s, space suits for [[extra-vehicular activity]] (EVA), closed ecosystems to provide food and oxygen, and solar power in space.<ref>{{cite web
+  | title = Konstantin E. Tsiolkovsky
+  | work = New Mexico Museum of Space History
+  | publisher = New Mexico Department of Cultural Affairs
+  | date = 2005–2009
+  | url = http://www.nmspacemuseum.org/halloffame/detail.php?id=27
+  | accessdate = 2009-10-14}}</ref>  Tsiolkovsky believed human occupation of space was the inevitable path for our species.  In 1952 Wernher von Braun published his own inhabited space station concept in a series of magazine articles.  His design was an upgrade of earlier concepts, but he took the unique step in going directly to the public with it.  The [[Rotating wheel space station|spinning space station]] would have three decks and was to function as a navigational aid, meteorological station, Earth observatory, military platform, and way point for further exploration missions to outer space.<ref>{{cite web
+ |last        = Barry
+ |first       = Patrick
+ |title       = Wheels in the Sky
+ |publisher   = NASA
+ |date        = 2000-05-26
+ |url         = https://science.nasa.gov/headlines/y2000/ast26may_1m.htm
+ |accessdate  = 2009-10-15
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20091004155542/http://science.nasa.gov/headlines/y2000/ast26may_1m.htm
+ |archivedate = 2009-10-04
+ |df          = 
+}}</ref>  It is said that [[List of spacecraft from the Space Odyssey series#Space Station V|the space station]] depicted in ''[[2001: A Space Odyssey (film)|2001: A Space Odyssey]]'' traces its design heritage to Von Braun's work.  Wernher von Braun went on to devise mission schemes to the Moon and Mars, each time publishing his grand plans in [[Collier's Weekly]].
+
+The flight of [[Yuri Gagarin]] on April 12, 1961 was humanity's maiden [[Human spaceflight|spaceflight]].  While the mission was a necessary first step, Gagarin was more or less confined to a chair with a small view port from which to observe the cosmos – a far cry from the possibilities of life in space.  Following space missions gradually improved living conditions and quality of life in [[low Earth orbit]].  Expanding room for movement, physical exercise regimens, sanitation facilities, improved food quality, and recreational activities all accompanied longer mission durations.  Architectural involvement in space was realized in 1968 when a group of architects and industrial designers led by Raymond Loewy, over objections from engineers, prevailed in convincing NASA to include an observation window in the [[Skylab]] orbital laboratory.<ref>{{cite web|url=http://www.spacearchitect.org/|title =Spacearchitect.org|publisher = AIAA|accessdate=2009-09-14}}</ref>  This milestone represents the introduction of the human psychological dimension to spacecraft design.  Space architecture was born.
+
+==Theory==
+The subject of [[architectural theory]] has much application in space architecture.  Some considerations, though, will be unique to the space context.
+
+===Ideology of building===
+{{See also|Architectural design values}}
+[[File:LouisSullivan.jpg|thumb|upright|[[Louis Sullivan]] famously coined the phrase 'form ever follows function']]
+In the first century BC, the Roman architect [[Vitruvius]] said all buildings should have three things:  strength, utility, and beauty.<ref>{{cite web |url=http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Vitruvius/1*.html|title=Marcus Vitruvius Pollio:  de Architectura, Book I|publisher=University of Chicago|first=Bill |last=Thayer |date=2008-06-17|accessdate=2009-09-06}}</ref>  Vitruvius's work ''[[De Architectura]]'', the only surviving work on the subject from classical antiquity, would have profound influence on architectural theory for thousands of years to come.  Even in space architecture these are some of the first things we consider.  However, the tremendous challenge of living in space has led to habitat design based largely on functional necessity with little or no applied [[Ornament (architecture)|ornament]].  In this sense space architecture as we know it shares the [[form follows function]] principle with [[modern architecture]].
+
+Some theorists link different elements of the Vitruvian triad.  [[Walter Gropius]] writes:
+
+{{Cquote|'Beauty' is based on the perfect mastery of all the scientific, technological and formal prerequisites of the task ... The approach of [[Functionalism (architecture)|Functionalism]] means to design the objects [[organic architecture|organically]] on the basis of their own contemporary postulates, without any romantic embellishment or jesting.<ref>{{cite web |url=http://www.uiah.fi/projects/metodi/13k.htm|title=Thematic Theories of Architecture|publisher=University of Arts and Design Helsinki|first=Pentti  |last=Routio |date=2004-03-31|accessdate=2009-09-14}}</ref>}}
+
+As space architecture continues to mature as a discipline, dialogue on architectural design values will open up just as it has for Earth.
+
+===Analogs===
+[[File:Mars Desert Research Station.jpg|thumb|left|The [[Mars Desert Research Station]] is located in the Utah desert because of its relative similarity to the Martian surface]]
+
+A starting point for space architecture theory is the search for [[extreme environment]]s in terrestrial settings where humans have lived, and the formation of analogs between these environments and space.<ref>{{Cite conference
+  | first = Olga
+  | last = Bannova
+  | title = Terrestrial Analogs for Planetary Surface Facility Planning and Operations
+  | publisher = ASCE
+  | date = 2008-03-03
+  | location = Long Beach, CA
+  | url = http://www.sicsa.uh.edu/index.php?option=com_docman&task=doc_download&gid=56
+  | accessdate = 2009-10-25}}</ref>  For example, humans have lived in submarines deep in the ocean, in bunkers beneath the Earth's surface, and on [[Antarctica]], and have safely entered burning buildings, radioactively contaminated zones, and the [[stratosphere]] with the help of technology.  [[Aerial refueling]] enables [[Air Force One]] to stay airborne virtually indefinitely.<ref>{{cite news 
+  | last = Havely
+  | first = Joe
+  | title = Air Force One: 'The Flying White House'
+  | newspaper = CNN
+  | location = Hong Kong
+  | date = 2002-02-15
+  | url = http://archives.cnn.com/2002/US/02/15/airforce.one/
+  | accessdate = 2009-09-16}}</ref>  Nuclear powered submarines generate oxygen using [[electrolysis]] and can stay submerged for months at a time.<ref>{{cite web
+ |title       = Submarine Frequently Asked Questions
+ |publisher   = Chief of Naval Operations
+ |url         = http://www.navy.mil/navydata/cno/n87/faq.html
+ |accessdate  = 2009-09-16
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20130802164102/http://www.navy.mil/navydata/cno/n87/faq.html
+ |archivedate = 2013-08-02
+ |df          = 
+}}</ref>  Many of these analogs can be very useful design references for space systems.  In fact space station [[life support system]]s and astronaut survival gear for emergency landings bear striking similarity to submarine life support systems and military pilot survival kits, respectively.
+
+Space missions, especially human ones, require extensive preparation.  In addition to terrestrial analogs providing design insight, the analogous environments can serve as testbeds to further develop technologies for space applications and train astronaut crews.  The [[Flashline Mars Arctic Research Station]] is a simulated Mars base, maintained by the [[Mars Society]], on Canada's remote [[Devon Island]].  The project aims to create conditions as similar as possible to a real Mars mission and attempts to establish ideal crew size, test equipment "in the field", and determine the best extra-vehicular activity suits and procedures.<ref>{{cite news 
+  | last = Zubrin
+  | first = Robert
+|authorlink = Robert Zubrin
+  | title = Exploring Mars on Earth
+  | newspaper = BBC
+  | date = 2003-12-30
+  | url = http://news.bbc.co.uk/2/hi/science/nature/3342083.stm
+  | accessdate = 2009-09-18}}</ref>  To train for EVAs in [[microgravity]], space agencies make broad use of underwater and [[simulation|simulator]] training.  The [[Neutral Buoyancy Laboratory]], NASA's underwater training facility, contains full-scale mockups of the Space Shuttle cargo bay and International Space Station modules.  Technology development and astronaut training in space-analogous environments are essential to making living in space possible.
+
+===In space===
+Fundamental to space architecture is designing for physical and psychological wellness in space.  What often is taken for granted on Earth – air, water, food, trash disposal – must be designed for in fastidious detail.  Rigorous exercise regimens are required to alleviate muscular atrophy and other [[Space medicine#What are the effects of space on the body?|effects of space on the body]].  That space missions are (optimally) fixed in duration can lead to [[Stress (biology)|stress]] from isolation.  This problem is not unlike that faced in remote research stations or military tours of duty, although non-standard gravity conditions can exacerbate feelings of unfamiliarity and homesickness.  Furthermore, confinement in limited and unchanging physical spaces appears to magnify interpersonal tensions in small crews and contribute to other negative psychological effects.<ref name ="living aloft" />  These stresses can be mitigated by establishing regular contact with family and friends on Earth, maintaining health, incorporating recreational activities, and bringing along familiar items such as photographs and green plants.<ref>{{cite web|title= Plants in Space|work = Human Exploration and Development of Space Enterprise|publisher = NASAexplores|date = 2001-08-02|url=http://www.knowledgenetwork.ca/space/articles/plants.pdf|accessdate=2009-10-24}} {{Dead link|date=October 2010|bot=H3llBot}}</ref>  The importance of these psychological measures can be appreciated in the 1968 Soviet 'DLB Lunar Base' design:  {{Cquote|...it was planned that the units on the Moon would have a false window, showing scenes of the Earth countryside that would change to correspond with the season back in Moscow. The exercise bicycle was equipped with a synchronized film projector, that allowed the cosmonaut to take a 'ride' out of Moscow with return.<ref>{{Cite web
+  | last = Wade
+  | first = Mark
+  | title = DLB Lunar Base
+  | work = Encyclopedia Astronautica
+  | date = 1997–2008
+  | url = http://www.astronautix.com/craft/dlbrbase.htm
+  | accessdate = 2009-10-22}}</ref>}}
+
+[[File:Mir on 12 June 1998edit1.jpg|thumb|left|[[Mir]] was a 'modular' space station.  This approach allows a habitat to function before assembly is complete and its design can be changed by swapping modules.]]
+The challenge of getting anything at all to space, due to launch constraints, has had a profound effect on the physical shapes of space architecture.  All space habitats to date have used modular architecture design.  Payload fairing dimensions (typically the width but also the height) of modern [[launch vehicle]]s limit the size of rigid components launched into space.  This approach to building large scale structures in space involves launching multiple modules separately and then manually assembling them afterward.  Modular architecture results in a layout similar to a tunnel system where passage through several modules is often required to reach any particular destination.  It also tends to standardize the internal diameter or width of pressurized rooms, with machinery and furniture placed along the circumference.  These types of space stations and surface bases can generally only grow by adding additional modules in one or more direction.  Finding adequate working and living space is often a major challenge with modular architecture.  As a solution, flexible furniture (collapsible tables, curtains on rails, deployable beds) can be used to transform interiors for different functions and change the partitioning between private and group space.  For more discussion of the factors that influence shape in space architecture, see the [[#Varieties|Varieties section]].
+
+[[Eugène Viollet-le-Duc]] advocated different architectural forms for different materials.<ref>{{cite web| last = Ochshorn | first = Jonathan | title = Designing Building Failures | publisher = Cornell University | date = 2006-08-10 | url = http://www.ochshorndesign.com/cornell/writings/failures.html | accessdate = 2009-09-12}}</ref> This is especially important in space architecture. The mass constraints with launching push engineers to find ever lighter materials with adequate material properties. Moreover, challenges unique to the orbital [[space environment]], such as rapid thermal expansion due to abrupt changes in solar exposure, and [[corrosion in space|corrosion]] caused by particle and atomic oxygen bombardment, require unique materials solutions. Just as the industrial age produced new materials and opened up new architectural possibilities, advances in materials technology will change the prospects of space architecture.<ref>{{cite book |title=Arts & Ideas |last=Fleming |first=William |authorlink= |year= 1995|publisher= Harcourt Brace & Company|location= Orlando, FL |isbn= 0-15-501104-9|page= 556|pages= |url=}}</ref> [[Carbon-fiber]] is already being incorporated into space hardware because of its high strength-to-weight ratio. Investigations are underway to see whether carbon-fiber or other [[composite materials]] will be adopted for major structural components in space.  The architectural principle that champions using the most appropriate materials and leaving their nature unadorned is called [[truth to materials]].
+
+A notable difference between the orbital context of space architecture and Earth-based architecture is that structures in orbit do not need to support their own weight. This is possible because of the microgravity condition of objects in free fall. In fact much space hardware, such as the space shuttle's [[canadarm|robotic arm]], is designed only to function in orbit and wouldn't be able to lift its own weight on the Earth's surface.<ref>{{Cite web
+  | last = Dean
+  | first = Brandi
+  | title = Space Shuttle Canadarm Robotic Arm Marks 25 Years in Space
+  | work = Space Shuttle
+  | publisher = NASA
+  | date = 2006-11-09
+  | url = http://www.nasa.gov/mission_pages/shuttle/behindscenes/rms_anniversary.html
+  | accessdate = 2009-10-24}}</ref>  Microgravity also allows an astronaut to move an object of practically any mass, albeit slowly, provided he or she is adequately constrained to another object.  Therefore, structural considerations for the orbital environment are dramatically different from those of terrestrial buildings, and the biggest challenge to holding a space station together is usually launching and assembling the components intact. Construction on extraterrestrial surfaces still needs to be designed to support its own weight, but its weight will depend on the strength of the local [[gravitational field]].
+
+==Ground infrastructure==
+{{Expand section|date=January 2010}}
+
+Human spaceflight currently requires a great deal of supporting infrastructure on Earth.  All human orbital missions to date have been government-orchestrated.  The organizational body that manages space missions is typically a national [[space agency]], NASA in the case of the United States and [[Roscosmos]] for Russia.  These agencies are funded at the federal level.  At NASA, [[flight controller]]s are responsible for real-time mission operations and work onsite at NASA Centers.  Most engineering development work involved with space vehicles is [[General contractor|contracted-out]] to private companies, who in turn may employ [[subcontractors]] of their own, while fundamental research and conceptual design is often done in [[academia]] through [[research funding]].
+
+==Varieties==
+
+=== Suborbital ===
+Structures that cross the [[Outer space#Boundary|boundary of space]] but do not reach orbital speeds are considered [[suborbital]] architecture.  For [[spaceplane]]s, the architecture has much in common with [[airliner#Cabin configurations and features|airliner]] architecture, especially those of small [[business jet]]s.
+
+====Virgin Galactic====
+{{main|SpaceShipOne|SpaceShipTwo|Virgin Galactic}}
+{{Disputed section|date=December 2017}}<!-- This section contains statements phrased as future facts ("SS2 will...") that need rephrasing ("As of [date], SS2 is designed to..." "has been tested to have..." See also [[Template:As of]].) and verification of accuracy. Please consider further condensing this section, especially concerning SS2. If relevant, some Virgin Galactic-centric material directly about space architecture can be added, or the header could be changed. Thank you, Geekdiva 12/2017-->
+[[File:Spaceshiptwo.jpg|thumb|left|A mockup of the [[SpaceShipTwo]] interior]]
+
+On June 21, 2004, [[Mike Melvill]] reached space funded entirely by private means.  The vehicle, [[SpaceShipOne]], was developed by [[Scaled Composites]] as an experimental precursor to a privately operated fleet of [[spaceplane]]s for [[suborbital]] [[space tourism]].  The operational [[spaceplane]] model, SpaceShipTwo (SS2), will be carried to an altitude of about 15 kilometers by a [[B-29 Superfortress]]-sized carrier aircraft, [[WhiteKnightTwo]].  From there SS2 will detach and fire its rocket motor to bring the craft to its [[apogee]] of approximately 110 kilometers.  Because SS2 is not designed to go into orbit around the Earth, it is an example of suborbital or [[aerospace architecture]].<ref>{{cite news
+ |title       = Captain Kirk signs on for Virgin Galactic Space Ride
+ |newspaper   = SoulTek.com
+ |date        = 2004-10-22
+ |url         = http://www.soultek.com/space_privatization/Virgin_Galactic_Captain_Kirk_and_spaceshipone.htm
+ |accessdate  = 2009-10-02
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20070929175813/http://www.soultek.com/space_privatization/Virgin_Galactic_Captain_Kirk_and_spaceshipone.htm
+ |archivedate = 2007-09-29
+ |df          = 
+}}</ref>
+
+The architecture of the SpaceShipTwo vehicle is somewhat different from what is common in previous space vehicles.  Unlike the cluttered interiors with protruding machinery and many obscure switches of previous vehicles,  this cabin looks more like something out of science fiction than a modern spacecraft.  Both SS2 and the carrier aircraft are being built from lightweight composite materials instead of metal.<ref>{{cite web
+ |publisher   = Virgin Galactic
+ |title       = What is the difference between a Virgin Galactic spaceship and a NASA shuttle?
+ |year        = 2009
+ |url         = http://www.virgingalactic.com/htmlsite/faq.php?subtitle=Flight%20and%20Ship&src=139
+ |accessdate  = 2009-10-24
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20091005092637/http://www.virgingalactic.com/htmlsite/faq.php?subtitle=Flight%20and%20Ship&src=139
+ |archivedate = 2009-10-05
+ |df          = 
+}}</ref>  When the time for weightlessness has arrived on a SS2 flight, the [[rocket motor]] will be turned off, ending the noise and vibration.  Passengers will be able to see the curvature of the Earth.<ref>{{cite web
+ |publisher   = Virgin Galactic
+ |title       = What will the experience be like?
+ |year        = 2009
+ |url         = http://www.virgingalactic.com/htmlsite/overview.php
+ |accessdate  = 2009-10-03
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20080616051758/http://www.virgingalactic.com/htmlsite/overview.php
+ |archivedate = 2008-06-16
+ |df          = 
+}}</ref>  Numerous double-paned windows that encircle the cabin will offer views in nearly all directions.  Cushioned seats will recline flat into the floor to maximize room for floating.<ref>{{Cite news 
+  | last = LaFee
+  | first = Scott 
+  | title = Up, up and unweigh
+  | newspaper = SignOnSanDiego
+  | publisher = Union-Tribune
+  | date = 2008-09-11
+  | url = http://www.signonsandiego.com/news/science/20080911-9999-1c11space.html
+  | accessdate = 2009-10-23}}</ref>  An always-pressurized interior will be designed to eliminate the need for space suits.
+
+=== Orbital ===
+Orbital architecture is the architecture of structures designed to [[orbit]] around the Earth or another [[astronomical object]].  Examples of currently-operational orbital architecture are the  [[International Space Station]] and the re-entry vehicles [[Space Shuttle]], [[Soyuz (spacecraft)|Soyuz spacecraft]], and [[Shenzhou (spacecraft)|Shenzhou spacecraft]].  Historical craft include the [[Mir space station]], [[Skylab]], and the [[Apollo spacecraft]].  Orbital architecture usually addresses the condition of weightlessness, a lack of atmospheric and magnetospheric protection from [[solar radiation|solar]] and [[cosmic ray|cosmic]] radiation, rapid day/night cycles, and possibly risk of [[orbital debris]] collision.  In addition, re-entry vehicles must also be adapted both to weightlessness and to the high temperatures and accelerations experienced during [[atmospheric reentry]].
+
+====International Space Station====
+[[File:S3-S4 Truss Installed.jpg|thumb|Astronaut (upper center) works on the [[Integrated Truss Structure]] of the ISS]]The International Space Station (ISS) is the only permanently inhabited structure currently in space.  It is the size of an American football field and has a crew of six.  With a living volume of 358 m³, it has more interior room than the cargo beds of two American  18-wheeler trucks.<ref>{{Cite web |url=http://spaceflight.nasa.gov/station/isstodate.html|title=The ISS to Date|accessdate=2009-08-25|publisher=NASA|date=2009-06-10|author=NASA}}</ref>  However, because of the microgravity environment of the space station, there are not always well-defined walls, floors, and ceilings and all pressurized areas can be utilized as living and working space.  The International Space Station is still under construction.  Modules were primarily launched using the Space Shuttle until its deactivation and were assembled by its crew with the help of the working crew on board the space station.  ISS modules were often designed and built to barely fit inside the shuttle's payload bay, which is cylindrical with a 4.6 meter diameter.<ref>{{cite web
+ |title       = Technical Overview of the Space Shuttle Orbiter
+ |publisher   = ColumbiasSacrifice.com
+ |date        = 2004-06-15
+ |url         = http://www.columbiassacrifice.com/&0_shttlovrvw.htm
+ |accessdate  = 2009-10-06
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20090416114526/http://www.columbiassacrifice.com/%260_shttlovrvw.htm
+ |archivedate = 2009-04-16
+ |df          = 
+}}</ref>  
+[[File:Interior Columbus module.jpg|left|thumb|An interior view of the [[Columbus module]]]]
+
+Life aboard the space station is distinct from terrestrial life in some very interesting ways.  Astronauts commonly "float" objects to one another; for example they will give a clipboard an initial nudge and it will coast to its receiver across the room.  In fact, an astronaut can become so accustomed to this habit that they forget that it doesn't work anymore when they return to Earth.{{Citation needed|date=November 2009}}  The diet of ISS spacefarers is a combination of participating nations' [[space food]].  Each astronaut selects a personalized menu before flight.  Many food choices reflect the cultural differences of the astronauts, such as bacon and eggs vs. fish products for breakfast (for the US and Russia, respectively).<ref>{{cite web
+ |last        = Kloeris
+ |first       = Vickie
+ |title       = Eating on the ISS
+ |work        = NASA Quest
+ |publisher   = NASA
+ |date        = 2001-05-01
+ |url         = http://quest.arc.nasa.gov/people/journals/space/kloeris/05-01-01.html
+ |accessdate  = 2009-10-02
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20060930025908/http://quest.arc.nasa.gov/people/journals/space/kloeris/05-01-01.html
+ |archivedate = 2006-09-30
+ |df          = 
+}}</ref>  More recently such delicacies as Japanense beef curry, kimchi,<ref>{{cite news  | last = Sang-Hun  | first = Choe  | title = Kimchi goes to space, along with first Korean astronaut  | newspaper = New York Times  | location = Seoul  | date = 2008-02-22
+  | url = https://www.nytimes.com/2008/02/22/world/asia/22iht-kimchi.1.10302283.html
+  | accessdate = 2009-10-06}}</ref> and swordfish (Riviera style) have been featured on the orbiting outpost.<ref>{{cite web  | title = International Foods  | work = International Partnership in Space  | publisher = NASA  | date = 2009-05-28  | url = http://cio.gsfc.nasa.gov/externalflash/international/  | accessdate = 2009-10-06  | deadurl = yes  | archiveurl = https://web.archive.org/web/20090725144742/http://cio.gsfc.nasa.gov/externalflash/international/  | archivedate = 2009-07-25  | df =   }}</ref>  As much of ISS food is dehydrated or sealed in pouches [[MRE]]-style, astronauts are quite excited to get relatively fresh food from shuttle and [[Progress spacecraft|Progress]] resupply missions.  Food is stored in packages that facilitate eating in microgravity by 
+keeping the food constrained to the table.  Spent packaging and trash must be collected to load into an available spacecraft for disposal.  [[Waste management]] is not nearly as straight forward as it is on Earth.  The ISS has many windows for observing Earth and space, one of the astronauts' favorite leisure activities.  Since the Sun rises every 90 minutes, the windows are covered at "night" to help maintain the 24-hour sleep cycle.
+
+When a shuttle is operating in low Earth orbit, the ISS serves as a safety refuge in case of [[emergency]].  The inability to fall back on the safety of the ISS during the latest [[Hubble Space Telescope]] Servicing Mission (because of different orbital [[inclinations]]) was the reason a backup shuttle was summoned to the launch pad.  So, ISS astronauts operate with the mindset that they may be called upon to give sanctuary to a shuttle crew should something happen to compromise a mission.  The International Space Station is a colossal cooperative project between many nations.  The prevailing atmosphere on board is one of diversity and tolerance.  This does not mean that it is perfectly harmonious.  Astronauts experience the same frustrations and interpersonal quarrels as their Earth-based counterparts.
+
+A typical day on the station might start with wakeup at 6:00am inside a private soundproof booth in the crew quarters.<ref>{{Cite web
+  | last = Mansfield
+  | first = Cheryl L.
+  | title = Station Prepares for Expanding Crew
+  | work = International Space Station
+  | publisher = NASA
+  | date = 2008-11-07
+  | url = http://www.nasa.gov/mission_pages/station/behindscenes/126_payload.html
+  | accessdate = 2009-10-25}}</ref>  Astronauts would probably find their sleeping bags in an upright position tied to the wall, because orientation does not matter in space.  The astronaut's thighs would be lifted about 50 degrees off the vertical.<ref>{{Cite web
+  | title = Anthropometry and Biomechanics
+  | work = Man-Systems Integration Standards
+  | publisher = NASA
+  | date = 2008-05-07
+  | url = http://msis.jsc.nasa.gov/sections/section03.htm
+  | accessdate = 2009-10-25}}</ref>  This is the [[neutral body posture]] in weightlessness – it would be excessively tiring to "sit" or "stand" as is common on Earth.  Crawling out of his booth, an astronaut may chat with other astronauts about the day's science experiments, mission control conferences, interviews with Earthlings, and perhaps even a space walk or space shuttle arrival.
+
+==== Bigelow Aerospace ====
+{{See also|TransHab|BA 330}}
+[[Bigelow Aerospace]] took the unique step in securing two patents NASA held from development of the Transhab concept in regard to inflatable space structures.  The company now has sole rights to commercial development of the inflatable module technology.<ref>{{cite news |url=http://www.space.com/news/businessmonday_040524.html |title=Bigelow Aerospace to Tackle Inflatable Space Habitats |publisher=Space.com |first=Leonard |last=David |date=2004-05-24|accessdate=2009-09-01}}</ref>  On July 12, 2006 the ''[[Genesis I]]'' experimental space habitat was launched into low Earth orbit.  ''Genesis I'' demonstrated the basic viability of inflatable space structures, even carrying a payload of life science experiments.  The second module, ''[[Genesis II]]'', was launched into orbit on June 28, 2007 and tested out several improvements over its predecessor.  Among these are [[reaction wheel]] assemblies, a precision measurement system for guidance, nine additional cameras, improved gas control for module inflation, and an improved on-board sensor suite.<ref>{{cite web  | title = Genesis II  | publisher = Bigelow Aerospace, LLC  | url = http://www.bigelowaerospace.com/genesis_II/  | accessdate = 2009-09-29  | deadurl = yes  | archiveurl = https://web.archive.org/web/20091005082516/http://www.bigelowaerospace.com/genesis_II/  | archivedate = 2009-10-05  | df =   }}</ref>
+
+While Bigelow architecture is still modular, the inflatable configuration allows for much more interior volume than rigid modules.  The BA 330, Bigelow's full-scale production model, has more than twice the volume of the largest module on the ISS.  Inflatable modules can be docked to rigid modules and are especially well suited for crew living and working quarters.  In 2009 NASA began considering attaching a Bigelow module to the ISS, after abandoning the Transhab concept more than a decade before.<ref>{{cite news   | last = Coppinger  | first = Rob  | title = NASA considers ISS Bigelow module
+  | newspaper = Flightglobal  | date = 2009-09-09  | url = http://www.flightglobal.com/articles/2009/09/09/332086/nasa-considers-iss-bigelow-module.html  | accessdate = 2009-09-29}}</ref>  The modules will likely have a solid inner core for structural support.  Surrounding usable space could be partitioned into different rooms and floors. The [[Bigelow Expandable Activity Module]] (BEAM) was transported to ISS arriving on April 10, 2016, inside the unpressurized cargo trunk of a [[SpaceX]] [[SpaceX Dragon|Dragon]] during the [[SpaceX CRS-8]] cargo mission.<ref name=NASAannouncement>{{cite web |url=http://www.nasa.gov/mission_pages/station/news/beam_feature.html |title=NASA to Test Bigelow Expandable Module on Space Station |date=January 16, 2013 |publisher=NASA |accessdate=January 30, 2017}}</ref>
+
+Bigelow Aerospace may choose to launch many of their modules independently, leasing their use to a wide variety of companies, organizations, and countries that can't afford their own space programs.  Possible uses of this space include microgravity research and [[space manufacturing]].  Or we may see a private space hotel composed of numerous Bigelow modules for rooms, observatories, or even a recreational padded gymnasium.  There is the option of using such modules for habitation quarters on long-term space missions in the Solar System.  One amazing aspect of spaceflight is that once a craft leaves an atmosphere, aerodynamic shape is a non-issue.  For instance it's possible to apply a [[Trans Lunar Injection]] to an entire space station and send it to fly by the Moon.  Bigelow has expressed the possibility of their modules being modified for lunar and Martian surface systems as well.
+
+=== Lunar ===
+{{See also|Colonization of the Moon|International Space Station}}
+[[Moon|Lunar]] architecture exists both in theory and in practice.  Today the [[Space archeology|archeological artifacts]] of temporary human outposts lay untouched on the surface of the Moon.  Five [[Apollo Lunar Module]] descent stages stand upright in various locations across the equatorial region of the [[Near side of the Moon|Near Side]], hinting at the extraterrestrial endeavors of mankind.  The leading hypothesis on the [[Giant impact hypothesis|origin of the Moon]] did not gain its current status until after lunar rock samples were analyzed.<ref>{{Cite web
+  | title = The Origin of the Moon
+  | publisher = Planetary Science Institute
+  | url = http://www.psi.edu/projects/moon/moon.html
+  | accessdate = 2009-11-03}}</ref>  The Moon is the furthest any humans have ever ventured from their home, and space architecture is what kept them alive and allowed them to function as humans.
+
+====Apollo====
+[[File:Ap17-ascent.ogv|thumb|Lunar Module ascent stage blasts off the Moon in 1972, leaving the descent stage behind. View from TV camera on [[Lunar rover]].]]
+On the cruise to the Moon, Apollo astronauts had two "rooms" to choose from – the [[Apollo Command Module#Command Module (CM)|Command Module]] (CM) or the Lunar Module (LM).  This can be seen in the film ''[[Apollo 13 (film)|Apollo 13]]'' where the three astronauts were forced to use the LM as an emergency life boat.  Passage between the two modules was possible through a pressurized docking tunnel, a major advantage over the [[LK (spacecraft)|Soviet design]], which required donning a spacesuit to switch modules.  The Command Module featured five windows made of three thick panes of glass.  The two inner panes, made of [[aluminosilicate]], ensured no cabin air leaked into space.  The outer pane served as a debris shield and part of the heat shield needed for [[atmospheric reentry]].  The CM was a sophisticated spacecraft with all the systems required for successful flight but with an interior volume of 6.17 m<sup>3</sup> could be considered cramped for three astronauts.<ref>{{Cite web  | last = Woods  | first = David  | last2 = O' Brian  | first2 = Frank  | title = Apollo 8  | work = Apollo Flight Journal  | publisher = NASA  | year = 2004  | url = https://history.nasa.gov/ap08fj/14day4_orbits456.htm  | accessdate = 2009-10-29  | deadurl = yes  | archiveurl = https://web.archive.org/web/20071002204030/https://history.nasa.gov/ap08fj/14day4_orbits456.htm  | archivedate = 2007-10-02  | df =   }}</ref>  It had its design weaknesses such as no [[Space toilet|toilet]] (astronauts used much-hated 'relief tubes' and fecal bags).  The coming of the [[space station]] would bring effective life support systems with waste management and water reclamation technologies.
+
+The Lunar Module had two stages.  A pressurized upper stage, termed the Ascent stage, was the first true spaceship as it could only operate in the vacuum of space.  The Descent stage carried the engine used for descent, landing gear and radar, fuel and consumables, 
+the famous ladder, and the Lunar Rover during later Apollo missions.  The idea behind staging is to reduce mass later in a flight, and is the same strategy used in an Earth-launched [[multistage rocket]].  The LM pilot stood up during the descent to the Moon.  Landing was achieved via automated control with a manual backup mode.  There was no [[airlock]] on the LM so the entire cabin had to be evacuated (air vented to space) in order to send an astronaut out to walk on the surface.  To stay alive, both astronauts in the LM would have to get in their [[Apollo/Skylab A7L|space suits]] at this point.  The Lunar Module worked well for what it was designed to do.  However, a big unknown remained throughout the design process – the effects of [[Lunar soil|lunar dust]].  Every astronaut who walked on the Moon tracked in lunar dust, contaminating the LM and later the CM during [[Lunar Orbit Rendezvous]].  These dust particles can't be brushed away in a vacuum, and have been described by [[John Young (astronaut)|John Young]] of [[Apollo 16]] as being like tiny razor blades.  It was soon realized that for humans to live on the Moon, dust mitigation was one of many issues that had to be taken seriously.
+
+==== Project Constellation ====
+[[File:Lunar outpost.jpg|right|thumb|NASA lunar outpost concepts under development]]
+The [[Exploration Systems Architecture Study]] that followed the [[Vision for Space Exploration]] of 2004 recommended the development of a new class of vehicles that have similar capabilities to their Apollo predecessors with several key differences.  In part to retain some of the Space Shuttle program workforce and ground infrastructure, the launch vehicles were to use [[Shuttle-Derived Launch Vehicle|Shuttle-derived]] technologies.  Secondly, rather than launching the crew and cargo on the same rocket, the smaller [[Ares I]] was to launch the crew with the larger [[Ares V]] to handle the heavier cargo.  The two payloads were to [[Earth orbit rendezvous|rendezvous in low Earth orbit]] and then head to the Moon from there.   The Apollo Lunar Module could not carry enough fuel to reach the polar regions of the Moon but the [[Altair (spacecraft)|Altair lunar lander]] was intended to access any part of the Moon.  While the Altair and surface systems would have been equally necessary for [[Project Constellation]] to reach fruition, the focus was on developing the [[Orion spacecraft]] to shorten the gap in US access to orbit following the retirement of the Space Shuttle in 2010.
+
+Even NASA has described Constellation architecture as 'Apollo on steroids'.<ref>{{Cite web |last = Cohen|first = Don|title = Interview With Michael Coats|work = Insight|publisher = ASK NASA|date = February 2006|url = http://appel.nasa.gov/2006/04/01/interview-with-michael-coats/|accessdate = 2009-11-02}}</ref> Nonetheless, a return to the proven [[space capsule|capsule design]] is a move welcomed by many.<ref>{{Cite news 
+  | last = Liston
+  | first = Broward
+  | title = A Return to Apollo?
+  | newspaper = TIME
+  | date = 2003-09-02
+
+  | url = http://www.time.com/time/nation/article/0,8599,480984,00.html
+  | accessdate = 2009-10-30}}</ref> The Orion Crew Module will have 2.5 times the interior volume of the Apollo CM and will be able to carry up to six crew member to the ISS and four to the Moon.<ref>{{cite press release |title=NASA Names New Crew Exploration Vehicle Orion |publisher=NASA |date=2006-08-22 |url=http://www.nasa.gov/mission_pages/exploration/mmb/orion_announcement.html |accessdate=2009-10-30}}</ref>  For Constellation, all astronauts were to have gone to the surface of the Moon. As is standard practice for spacecraft, Orion will be equipped with 'almost state of the art' technology. This strategy to reduce risk by using proven technologies has been successfully demonstrated in numerous [[Robotic spacecraft|robotic missions]].  Accordingly, the CM will feature a [[glass cockpit]], automated docking, and a private unisex toilet. It will be constructed of a lightweight [[Al-Li|aluminum lithium]] alloy and covered in a [[Nomex]] felt-like layer for thermal protection.  Like its Apollo predecessor Orion will have a [[launch escape system]], an [[Ablation|ablative]] [[heat shield]] for reentry, and [[parachute]] recovery for water landing.<ref>{{cite web | title = Orion landings to be splashdowns – KSC buildings to be demolished | publisher = NASASpaceFlight.com | date = 2007-08-05 | url = http://www.nasaspaceflight.com/2007/08/orion-landings-to-be-splashdowns-ksc-buildings-to-be-demolished/ | accessdate = 2009-10-30}}</ref><!-- All of this Orion-related material belongs in the Orion article, not here. -->
+<!-- Planned stays on the surface were on the order of months rather than days.  Surface systems were to be more advanced than Apollo equipment and would have explored the possibility of [[in-situ resource utilization]] (ISRU).  Lunar rocks contain oxygen, silicon, and a variety of metals whose successful extraction and use in local manufacturing could revolutionize the prospects for living on the moon.  If oxygen and thus [[rocket propellant]] oxidizer could be produced on the moon, it would create an economic incentive to develop a base, a sort of interplanetary gas station that could supply Mars-bound ships with fuel and air.  The potential of using lunar regolith as a construction material similar to the way concrete is used has been suggested.  Surface transport for Constellation will be more advanced than Apollo.  The [[Lunar Electric Rover]] with possible [[suitport]]s, legged walkers such as the [[ATHLETE (robot)|ATHLETE]], and even habitat modules themselves could have a significant surface range.  Establishing a presence on the moon is one goal of Constellation, but much of this effort is aimed at preparing for the exploration of Mars. [None of this belongs in this section or even this article.]-->
+
+===Martian===
+{{also|Mars habitat|Colonization of Mars}}
+Martian architecture is architecture designed to sustain human life on the surface of [[Mars]], and all the supporting systems necessary to make this possible.  The direct sampling of water ice on the surface,<ref>{{cite web
+ |date=2008-07-31
+ |title=NASA Spacecraft Confirms Martian Water, Mission Extended
+ |publisher=Science@NASA
+ |author=NASA
+ |url=http://www.nasa.gov/mission_pages/phoenix/news/phoenix-20080731.html
+ |accessdate=2009-10-29}}</ref> and evidence for geyser-like water flows within the last decade<ref>{{cite web | publisher=NASA/JPL | date=2006-12-06 | url = http://www.nasa.gov/mission_pages/mars/news/mgs-20061206.html | title=NASA Images Suggest Water Still Flows in Brief Spurts on Mars | accessdate = 2009-10-29}}</ref> have made Mars the most likely extraterrestrial environment for finding liquid water, and therefore [[alien life]], in the Solar System.  Moreover, some geologic evidence suggests that Mars could have been warm and wet on a global scale in its distant past.  Intense geologic activity has reshaped the surface of the Earth, erasing evidence of our earliest history.  Martian rocks can be even older than Earth rocks, though, so exploring Mars may help us decipher the story of our own geologic evolution including the [[Abiogenesis|origin of life on Earth]].<ref>{{Cite book
+  | last = Squyres
+  | first = Steve
+  | authorlink = Steve Squyres
+  | title = Roving Mars
+  | publisher = Hyperion
+  | year = 2005
+  | location = New York, NY
+  | page = 4
+  | isbn = 1-4013-0149-5}}</ref>  Mars has an atmosphere, though its surface pressure is less than 1% of Earth's.  Its surface gravity is about 38% of Earth's.  Although a human expedition to Mars has not yet taken place, there has been significant work on Martian habitat design.  Martian architecture usually falls into one of two categories:  architecture imported from Earth fully assembled and architecture making use of local resources.
+
+==== Von Braun and other early proposals ====
+
+[[Wernher von Braun]] was the first to come up with a technically comprehensive proposal for a manned Mars expedition.  Rather than a minimal mission profile like Apollo, von Braun envisioned a crew of 70 astronauts aboard a fleet of ten massive spacecraft.  Each vessel would be constructed in low Earth orbit, requiring nearly 100 separate launches before one was fully assembled.  Seven of the spacecraft would be for crew while three were designated as cargo ships.  There were even designs for small "boats" to shuttle crew and supplies between ships during the cruise to the Red Planet, which was to follow a minimum-energy [[Hohmann transfer]] trajectory.  This mission plan would involve one-way transit times on the order of eight months and a long stay at Mars, creating the need for long-term living accommodations in space.  Upon arrival at the Red Planet, the fleet would brake into Mars orbit and would remain there until the seven human vessels were ready to return to Earth.  Only landing [[glider aircraft|gliders]], which were stored in the cargo ships, and their associated ascent stages would travel to the surface.  Inflatable habitats would be constructed on the surface along with a landing strip to facilitate further glider landings.  All necessary propellant and consumables were to be brought from Earth in von Braun's proposal.  Some crew remained in the passenger ships during the mission for orbit-based observation of Mars and to maintain the ships.<ref name="mars-1952">{{cite web  | last = Wade  | first = Mark  | title = Von Braun Mars Expedition – 1952  | work = Encyclopedia Astronautica  | date = 1997–2008  | url = http://www.astronautix.com/craft/vonn1952.htm  | accessdate = 2009-09-18  | deadurl = yes  | archiveurl = https://web.archive.org/web/20100116233913/http://astronautix.com/craft/vonn1952.htm  | archivedate = 2010-01-16  | df =   }}</ref>  The passenger ships had habitation spheres 20 meters in diameter.  Because the average crew member would spend much time in these ships (around 16 months of transit plus rotating shifts in Mars orbit), habitat design for the ships was an integral part of this mission.  
+
+Von Braun was aware of the threat posed by extended exposure to weightlessness.  He suggested either tethering passenger ships together to spin about a common center of mass or including self-rotating, dumbbell-shaped "gravity cells" to drift alongside the flotilla to provide each crew member with a few hours of artificial gravity each day.<ref>{{cite book  | last = Von Braun  | first = Wernher  | authorlink = Wernher von Braun  | title = [[The Mars Project]]  | publisher = University of Illinois Press  | date = 1962-10-01  | pages = 6, 7  | isbn = 978-0-252-06227-8}}</ref>  At the time of von Braun's proposal, little was known of the dangers of [[solar radiation]] beyond Earth and it was [[cosmic radiation]] that was thought to present the more formidable challenge.<ref name ="mars-1952" />  The discovery of the [[Van Allen belts]] in 1958 demonstrated that the Earth was shielded from high energy solar particles.  For the surface portion of the mission, inflatable habitats suggest the desire to maximize living space.  It is clear von Braun considered the members of the expedition part of a community with much traffic and interaction between vessels.
+
+The Soviet Union conducted studies of human exploration of Mars and came up with slightly less epic mission designs (though not short on exotic technologies) in 1960 and 1969.<ref>{{cite web
+  | publisher = Energia
+  | title = The 1969 Project
+  | work = Martian Mission
+  | url = http://www.energia.ru/english/energia/mars/chron-1969.html
+  | accessdate = 2009-09-18}}</ref>  The first of which used [[Electrically powered spacecraft propulsion|electric propulsion]] for interplanetary transit and [[nuclear reactor]]s as the power plants.  On spacecraft that combine human crew and nuclear reactors, the reactor is usually placed at a maximum distance from the crew quarters, often at the end of a long pole, for radiation safety.  An interesting component of the 1960 mission was the surface architecture.  A "train" with wheels for rough terrain was to be assembled of landed research modules, one of which was a crew cabin.  The train was to traverse the surface of Mars from south pole to north pole, an extremely ambitious goal even by today's standards.<ref>{{cite web
+  | publisher = Energia
+  | title = The 1960 Project
+  | work = Martian Mission
+  | url = http://www.energia.ru/english/energia/mars/chron-1960.html
+  | accessdate = 2009-09-18}}</ref>  Other Soviet plans such as the [[TMK]] eschewed the large costs associated with landing on the Martian surface and advocated piloted (manned) flybys of Mars.  Flyby missions, like the lunar [[Apollo 8]], extend the human presence to other worlds with less risk than landings.  Most early Soviet proposals called for launches using the ill-fated [[N1 rocket]].  They also usually involved fewer crew than their American counterparts.<ref>{{cite web|last = Wade|first = Mark|title = Mars Expeditions|work = Encyclopedia Astronautica|date = 1997–2008|url = http://www.astronautix.com/fam/martions.htm|accessdate = 2009-10-06|deadurl = yes|archiveurl = https://web.archive.org/web/20100903144152/http://www.astronautix.com/fam/martions.htm|archivedate = 2010-09-03|df = }} </ref>  Early Martian architecture concepts generally featured assembly in low Earth orbit, bringing all needed consumables from Earth, and designated work vs. living areas.  The modern outlook on Mars exploration is not the same.
+
+====Recent initiatives====
+In every serious study of what it would take to land humans on Mars, keep them alive, and then return them to Earth, the total mass required for the mission is simply stunning.  The problem lies in that to launch the amount of consumables (oxygen, food and water) even a small crew would go through during a multi-year Mars mission, it would take a very large rocket with the vast majority of its own mass being propellant.  This is where multiple launches and assembly in Earth orbit come from.  However even if such a ship stocked full of goods could be put together in orbit, it would need an additional (large) supply of propellant to send it to Mars.  The [[delta-v]], or change in velocity, required to insert a spacecraft from Earth orbit to a Mars [[Hohmann transfer orbit|transfer orbit]] is many kilometers per second.  When we think of getting astronauts to the surface of Mars and back home we quickly realize that an enormous amount of propellant is needed if everything is taken from the Earth.  This was the conclusion reached in the 1989 '90-Day Study' initiated by NASA in response to the [[Space Exploration Initiative]].
+
+[[File:Mars design reference mission 3.jpg|thumb|left|The [[NASA Design Reference Mission 3.0]] incorporated many concepts from the [[Mars Direct]] proposal]]
+
+Several techniques have changed the outlook on Mars exploration.  The most powerful of which is in-situ resource utilization.  Using hydrogen imported from Earth and carbon dioxide from the Martian atmosphere, the [[Sabatier reaction]] can be used to manufacture [[methane]] (for rocket propellant) and water (for drinking and for oxygen production through [[electrolysis]]).  Another technique to reduce Earth-brought propellant requirements is [[aerobraking]].  Aerobraking involves skimming the upper layers of an atmosphere, over many passes, to slow a spacecraft down.  It's a time-intensive process that shows most promise in slowing down cargo shipments of food and supplies.  NASA's [[Constellation program]] does call for landing humans on Mars after a permanent base on the Moon is demonstrated, but details of the base architecture are far from established.  It is likely that the first permanent settlement will consist of consecutive crews landing prefabricated habitat modules in the same location and linking them together to form a base.<ref name ="case_for_mars">{{cite book |title=The Case for Mars: The Plan to Settle the Red Planet and Why We Must |last=Zubrin |first=Robert |authorlink= Robert Zubrin|author2=Wagner, Richard  |year= 1996|publisher= Touchstone|location= New York, NY |isbn= 0-684-83550-9}}</ref>
+
+In some of these modern, economy models of the Mars mission, we see the crew size reduced to a minimal 4 or 6.  Such a loss in variety of social relationships can lead to challenges in forming balanced social responses and forming a complete sense of identity.<ref name ="living aloft">{{Cite web
+  | title = Space Environments
+  | work = Living Aloft: Human Requirements for Extended Spaceflight
+  | publisher = NASA
+  | url = http://www.hq.nasa.gov/office/pao/History/SP-483/ch1-3.htm
+  | accessdate = 2009-10-22}}</ref>  It follows that if long-duration missions are to be carried out with very small crews, then intelligent selection of crew is of primary importance.  Role assignments is another open issue in Mars mission planning.  The primary role of 'pilot' is obsolete when landing takes only a few minutes of a mission lasting hundreds of days, and when that landing will be automated anyway.  Assignment of roles will depend heavily on the work to be done on the surface and will require astronauts to assume multiple responsibilities.  As for surface architecture inflatable habitats, perhaps even provided by [[Space architecture#Bigelow Aerospace|Bigelow Aerospace]], remain a possible option for maximizing living space.  In later missions, bricks could be made from a [[Martian soil|Martian regolith]] mixture for shielding or even primary, airtight structural components.<ref name ="case_for_mars" />  The environment on Mars offers different opportunities for [[space suit]] design, even something like the skin-tight [[Space activity suit#Bio-Suit|Bio-Suit]].
+
+A number of specific habitat design proposals have been put forward, to varying degrees of architectural and engineering analysis.  One recent proposal—and the winner of NASA's 2015 Mars Habitat Competition—is ''Mars Ice House''.  The design concept is for a Mars surface habitat, [[3d printing|3d-printed]] in layers out of water ice on the interior of an Earth-manufactured inflatable pressure-retention membrane.  The completed structure would be semi-transparent, absorbing [[Radiation environment on Mars|harmful radiation]] in several wavelengths, while admitting approximately 50 percent of light in the [[visible spectrum]].  The habitat is proposed to be entirely set up and built from an [[autonomous robot]]ic spacecraft and bots, although human habitation with approximately 2–4 inhabitants is envisioned once the habitat is fully built and tested.<ref name=hp20151005>{{cite news |title=3D-Printed Ice Houses Win NASA's Mars Habitat Competition |url=http://www.huffingtonpost.com/entry/nasa-mars-habitat-competition_560ed558e4b076812701f204 |work=Huffington Post |date=2015-10-05 |access-date=2015-10-13 }}</ref><ref>http://www.marsicehouse.com/</ref>
+
+==Robotic==
+It is widely accepted that robotic reconnaissance and trail-blazer missions will precede human exploration of other worlds.  Making an informed decision on which specific destinations warrant sending human explorers requires more data than what the best Earth-based telescopes can provide.  For example, landing site selection for the Apollo landings drew on data from three different robotic programs:  the [[Ranger program]], the [[Lunar Orbiter program]], and the [[Surveyor program]].  Before a human was sent, robotic spacecraft mapped the lunar surface, proved the feasibility of soft landings, filmed the terrain up close with television cameras, and scooped and analysed the soil.<ref>{{Cite web|url=http://nssdc.gsfc.nasa.gov/planetary/lunar/surveyor.html|title=Surveyor (1966–1968)|accessdate=2009-08-31|publisher=NASA|date=2006-10-05|author=Williams, David}}</ref>
+
+A robotic exploration mission is generally designed to carry a wide variety of scientific instruments, ranging from cameras sensitive to particular wavelengths, telescopes, [[spectrometers]], [[radar]] devices, [[accelerometers]], [[radiometers]], and particle detectors to name a few.  The function of these instruments is usually to return scientific data but it can also be to give an intuitive "feel" of the state of the spacecraft, allowing a subconscious familiarization with the territory being explored, through [[telepresence]].  A good example of this is the inclusion of [[HDTV]] cameras on the Japanese lunar orbiter [[SELENE]].  While purely scientific instruments could have been brought in their stead, these cameras allow the use of an innate sense to perceive the exploration of the Moon.
+
+The modern, balanced approach to exploring an extraterrestrial destination involves several phases of exploration, each of which needs to produce rationale for progressing to the next phase.  The phase immediately preceding human exploration can be described as anthropocentric sensing, that is, sensing designed to give humans as realistic a feeling as possible of actually exploring in person.  More, the line between a human system and a robotic system in space is not always going to be clear.  As a general rule, the more formidable the environment, the more essential robotic technology is.  Robotic systems can be broadly considered part of space architecture when their purpose is to facilitate the habitation of space or extend the range of the physiological [[senses]] into space.
+
+==Future==
+
+The future of space architecture hinges on the [[colonization of space]].  Under the historical model of government-orchestrated exploration missions initiated by single [[Executive (government)|political administrations]], space structures are likely to be limited to small-scale habitats and orbital modules with design life cycles of only several years or decades.  The designs, and thus architecture, will generally be fixed and without real time feedback from the spacefarers themselves.  The technology to repair and upgrade existing habitats, a practice widespread on Earth, is not likely to be developed under short term exploration goals.  If exploration takes on a multi-administration or international character, the prospects for space architecture development by the inhabitants themselves will be broader.  Private [[space tourism]] is a way the development of space and a space transportation infrastructure can be accelerated.  Virgin Galactic has indicated plans for an orbital craft, [[SpaceShipThree]].  The demand for space tourism is one without bound.  It is not difficult to imagine lunar parks or cruises by [[Venus]].  Another impetus to become a spacefaring species is [[planetary defense]].
+
+The classic space mission is the Earth-colliding [[asteroid]] interception mission.  Using [[Nuclear weapon|nuclear detonations]] to split or deflect the asteroid is risky at best.  Such a tactic could actually make the problem worse by increasing the amount of asteroid fragments that do end up hitting the Earth.  [[Robert Zubrin]] writes:
+{{Cquote|If bombs are to be used as asteroid deflectors, they cannot just be launched willy-nilly.  No, before any bombs are detonated, the asteroid will have to be thoroughly explored, its geology assessed, and subsurface bomb placements carefully determined and precisely located on the basis of such knowledge.  A human crew, consisting of surveyors, geologists, miners, drillers, and demolition experts, will be needed on the scene to do the job right.<ref>{{cite book
+  | last = Zubrin
+  | first = Robert
+  | title = Entering space:  creating a spacefaring civilization
+  | publisher = Tarcher/Putnam
+|authorlink = Robert Zubrin
+  | year = 1999
+  | location = New York, NY
+  | page = 137
+  | isbn = 1-58542-036-0}}</ref>}}  
+[[File:Earthlike moon extrasolar gas giant.jpg|thumb|Robotic probes have explored much of the [[solar system]] but humans have not yet left the Earth's influence]]
+If such a crew is to be summoned to a distant asteroid, there may be less risky ways to divert the asteroid.  Another promising [[asteroid mitigation strategies|asteroid mitigation strategy]] is to land a crew on the asteroid well ahead of its impact date and to begin diverting some its mass into space to slowly alter its trajectory.  This is a form of rocket propulsion by virtue of [[Newton's laws of motion#Newton's third law|Newton's third law]] with the asteroid's mass as the propellant.  Whether exploding nuclear weapons or diversion of mass is used, a sizable human crew may need to be sent into space for many months if not years to accomplish this mission.<ref>{{Cite book
+  | last = Sagan
+  | first = Carl
+  | authorlink = Carl Sagan
+  | title = Pale Blue Dot
+  | publisher = Ballantine Books
+  | date = September 1997
+  | location = New York, NY
+  | pages = 255, 264
+  | isbn = 0-345-37659-5}}</ref>  Questions such as what the astronauts will live in and what the ship will be like are questions for the space architect.
+
+When motivations to go into space are realized, work on mitigating the most serious threats can begin.  One of the biggest threats to astronaut safety in space is sudden radiation events from [[solar flares]].  The violent solar storm of August 1972, which occurred between the Apollo 16 and Apollo 17 missions, could have produced fatal consequences had astronauts been caught exposed on the lunar surface.<ref>{{cite news
+ |title       = Space Radiation Threats To Astronauts Addressed In Federal Research Study
+ |location    = Boulder, CO
+ |publisher   = University of Colorado
+ |date        = 2006-10-25
+ |url         = http://www.colorado.edu/news/releases/2006/359.html
+ |accessdate  = 2009-10-07
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20100221031018/http://www.colorado.edu/news/releases/2006/359.html
+ |archivedate = 2010-02-21
+ |df          = 
+}}</ref>  The best known protection against radiation in space is shielding; an especially effective shield is water contained in large tanks surrounding the astronauts.<ref>{{Cite web
+  | last = Globus
+  | first = Al
+  | title = Problem Two: Radiation Shielding
+  | publisher = Georgia Institute of Technology
+  | date = June 1995
+  | url = http://www.adl.gatech.edu/research/tff/radiation_shield.html
+  | accessdate = 2009-11-04}}</ref>  Unfortunately water has a mass of 1000 kilograms per cubic meter.  A more practical approach would be to construct solar "storm shelters" that spacefarers can retreat to during peak events.<ref>{{cite book
+  | last = Harrison
+  | first = Robert A.
+  | title = Spacefaring: the human dimension
+  | publisher = University of California Press
+  | year = 2001
+  | location = London, England
+  | page = 50
+  | isbn = 0-520-22453-1}}</ref>  For this to work, however, there would need to be a [[space weather]] broadcasting system in place to warn astronauts of upcoming storms, much like a [[tsunami warning system]] warns coastal inhabitants of impending danger.  Perhaps one day a fleet of  robotic spacecraft will orbit close to the Sun, monitoring solar activity and sending precious minutes of warning before waves of dangerous particles arrive at inhabited regions of space.
+
+Nobody knows what the long-term human future in space will be.  Perhaps after gaining experience with routine spaceflight by exploring different worlds in the Solar System and deflecting a few asteroids, the possibility of constructing non-modular space habitats and infrastructure will be within capability.  Such possibilities include [[mass drivers]] on the Moon, which launch payloads into space using only electricity, and spinning space colonies with [[closed ecological system]]s.  A Mars in the early stages of [[Terraforming|terraformation]], where inhabitants only need simple oxygen masks to walk out on the surface, may be seen.  In any case, such futures require space architecture.
+
+== Gallery ==
+<gallery>
+Image:ISS ULF3 STS-129.jpg|The [[International Space Station]] in its current configuration
+Image:USS Alabama (SSBN-731).jpg|Many life support technologies have been adapted from the [[submarine]]
+Image:Apollo Lunar Module Inside View.jpg|Interior view of [[Lunar Module]].  Note the downward-aimed windows.
+Image:Konstantin Tsiolkovsky 1934.jpg|[[Konstantin Tsiolkovsky]], considered by some to be the father of human space flight
+Image:Soyuz acoplada MIR.jpg|A [[Soyuz (spacecraft)|Soyuz spacecraft]] docked to the [[Mir Core Module]]
+Image:Saturn V aerial.jpg|[[Saturn V rocket]], a testament to human potential
+Image:Mars orbit rendez vous S95 01407.jpg|A hypothetical spacecraft performing [[Mars orbit rendezvous]]
+Image:Mars mission.jpg|1989 painting of Mars surface operations
+Image:External view of a Bernal sphere.jpg|The [[Bernal sphere]] is an example of non-modular space architecture
+Image:Spacecolony3edit.jpeg|[[Artificial gravity]] can be created by spinning a space colony
+Image:SphereC60.jpg|[[Dyson Sphere]] is the structure for creating space settlements in space and Dyson spheres around different space objects
+</gallery>
+
+==See also==
+{{Portal|Spaceflight}}
+{{commons category|Space architecture}}
+*[[Aerospace architecture]]
+*[[Planetary surface construction]]
+*[[Shackleton Energy Company]]
+*[[Space colonization]]
+*[[Space tourism]]
+
+==References==
+{{reflist|2}}
+
+==External links==
+* [http://www.spacearchitect.org/ Spacearchitect.org]
+* [http://sicsa.egr.uh.edu// Sasakawa International Center for Space Architecture (SICSA)]
+* [https://www.egr.uh.edu// Cullen College of Engineering] In 2015, this Master of Science in Space Architecture was changed to the Department of Mechanical Engineering as an interdisciplinary graduate program at the Cullen College of Engineering.
+* [http://www.isunet.edu/ International Space University (ISU)]
+* [http://www.sae.org/events/ice/ International Conference on Environmental Systems (ICES)]
+* [https://web.archive.org/web/20090711163533/http://www.fmars2009.org/ Flashline Mars Arctic Research Station (FMARS)]
+* [http://www.architectureforastronauts.com/ Evaluation of Space Habitats ''(Apollo, Salyut, Skylab, Mir Space Station, Shuttle, International Space Station)'' according to Human Activities ''(Sleep, Hygiene, Food, Work, Leisure)'']
+
+{{spaceflight}}
+{{Inspace}}
+
+{{DEFAULTSORT:Space Architecture}}
+[[Category:Architecture]]
+[[Category:Spaceflight]]
+[[Category:Articles containing video clips]]

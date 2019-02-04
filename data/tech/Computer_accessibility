@@ -1,0 +1,172 @@
+{{multiple issues|
+{{cleanup|reason=confusingly laid out |date=September 2012}}
+{{refimprove|date=May 2010}}
+}}
+
+In [[human–computer interaction]], '''computer accessibility''' (also known as '''accessible computing''') refers to the [[accessibility]] of a [[computer system]] to all people, regardless of [[disability]] type or severity of impairment. The term ''accessibility'' is most often used in reference to specialized hardware or [[software]], or a combination of both, designed to enable use of a computer by a person with a disability or impairment. Specific technologies may be referred to as [[assistive technology]].
+
+There are many disabilities or impairments that can be a barrier to effective computer use. These impairments, which can be acquired from [[disease]], [[Major trauma|trauma]], or may be [[Congenital disorder|congenital]], include but are not limited to:
+*[[Cognitive disabilities|Cognitive impairments]] (head injury, autism, developmental disabilities) and [[learning disabilities]] (such as [[dyslexia]], [[dyscalculia]] or [[ADHD]]).
+*[[Visual impairment]] such as low-vision, complete or partial [[blindness]], and [[color blindness]].
+*Hearing-related disabilities including [[deafness]], being [[hard of hearing]], or [[hyperacusis]].
+*Motor or dexterity impairment such as [[paralysis]], [[cerebral palsy]], [[Developmental coordination disorder|dyspraxia]], [[carpal tunnel syndrome]] and [[repetitive strain injury]].
+
+Accessibility is often abbreviated as the [[numeronym]] '''''a11y''''', where the number 11 refers to the number of letters omitted. This parallels the abbreviations of [[internationalization and localization|''internationalization'' and ''localization'']] as ''i18n'' and ''l10n'' respectively.
+
+== Special-needs assessment ==
+People wishing to overcome an impairment in order to use a computer comfortably and productively may require a "special needs assessment" by an [[assistive technology]] consultant (such as an [[occupational therapist]], a [[rehabilitation engineering technologist]], or an [[Educational Technologist|educational technologist]]) to help them identify and configure appropriate assistive technologies to meet individual needs.  Even those who are unable to leave their own home or who live far from assessment providers may be assessed (and assisted) remotely using [[remote desktop software]] and a [[web cam]]. For example, the assessor logs on to the client's computer via a [[broadband]] [[Internet]] connection, observes the users computer skills, and then remotely makes accessibility adjustments to the client's computer where necessary.
+
+== Considerations for specific impairments ==
+[[File:BBC News web accessibility demo.jpg|thumb|[[BBC News]] shown in 'desktop mode,' with accessibility links at the top. The screenshot is taken from Windows Mobile.]]
+[[File:Single switch onscreen keyboard.jpg|thumb|A single-switch [[assistive device]] that enables the user to access an [[on-screen keyboard]]]]
+
+=== Cognitive impairments and illiteracy ===
+The biggest challenge in computer accessibility is to make resources accessible to people with cognitive disabilities - particularly those with poor communication and reading skills. As an example, people with learning disabilities may rely on proprietary symbols and thus identify particular products via the product's symbols or icons.  Unfortunately copyright laws can limit icon or symbol release to web-based programs and websites by owners who are unwilling to release them to the public.
+
+In these situations, an alternative approach for users who want to access public computer based terminals in [[libraries]], [[Automated teller machine|ATMs]], and information kiosks is for the user to present a token to the computer terminal, such as a [[smart card]], that has configuration information to adjust the computer speed, text size, etcetera to their particular needs.  The concept is encompassed by the [[Comité Européen de Normalisation|CEN]] standard "Identification card systems – Human-machine interface".<ref>CEN: [http://www.cen.eu/cen/Sectors/TechnicalCommitteesWorkshops/CENTechnicalCommittees/Pages/TCStruc.aspx?param=6205&title=Personal%20identification,%20electronic%20signature%20and%20cards%20and%20their%20related%20systems%20and%20operations Personal identification, electronic signature and cards and their related systems and operations - Structure].</ref><ref>{{cite web|url=http://www.tiresias.org/research/reports/en1332_4_revision.htm |title=Draft EN 1332-4 Identification Card Systems - Man-Machine Interface - Part 4 : Coding of user requirements for people with special needs |publisher=Tiresias.org |date=2009-11-20 |accessdate=2013-07-28}}</ref> This development of this standard has been supported in Europe by [[SNAPI]] and has been successfully incorporated into the Local Authority Smartcards Standards e-Organisation (LASSeO) specifications.<ref>LASSeO: [http://www.lasseo.org.uk/papers/130640%20final%20report.pdf Feasibility Studies - Final Report]. August 2011.</ref>
+
+=== Visual impairment ===
+Since computer interfaces often solicit visual input and provide visual feedback, another significant challenge in computer accessibility involves making software usable by people with visual impairments. For individuals with mild to medium vision impairment, it is helpful to use large [[Typeface|font]]s, high DPI displays, high-contrast themes and [[icon (computing)|icon]]s supplemented with auditory feedback and screen magnifying software.  In the case of severe vision impairment such as blindness, [[screen reader]] software that provides feedback via [[text to speech]] or a [[refreshable braille display]] is a necessary accommodation for interaction with a computer.
+
+About 8% of people suffer from some form of [[Color blindness|color-blindness]]. The main color combinations that might be confused by people with visual deficiency include red/green and blue/green. However, in a well-designed user interface, color will not be the primary way to distinguish between different pieces of information.
+
+=== Motor and dexterity impairments ===
+Some people may not be able to use a conventional [[input device]], such as the [[computer mouse|mouse]] or the [[computer keyboard|keyboard]], therefore, it is important for software functions to be accessible using both devices.  Ideally, software will use a generic input [[API]] that permits the use even of highly specialized devices unheard of at the time of software's initial development. [[Keyboard shortcuts]] and [[mouse gesture]]s are ways to achieve this access, as are more specialized solutions, including on-screen software keyboards and alternate input devices ([[Switch Access|switches]], [[joystick]]s and [[trackball]]s). Users may enable a [[Bounce keys|bounce key]] feature, allowing the keyboard to ignore repeated presses of the same key. [[Speech recognition]] technology is also a compelling and suitable alternative to conventional keyboard and mouse input as it simply requires a commonly available audio headset.
+
+The [[astrophysics|astrophysicist]] [[Stephen Hawking]]'s use of assistive technology is an example of a person with severe motor and physical limitations who uses technology to support [[activities of daily living]]. He used a switch, combined with special software, that allows him to control his [[wheelchair]]-mounted computer using his limited and small movement ability. This personalized system allowed him to remain mobile, do research, produce his written work.  Mr. Hawking also used [[augmentative and alternative communication]] technology to speak and an [[environmental control device]] to access equipment independently.
+
+A small amount of modern research indicates that utilizing a standard computer mouse device improves fine-motor skills.<ref>{{cite web | url=http://news.sciencemag.org/brain-behavior/2013/12/click-here-improve-your-motor-skills | title=Click here to improve your motor skills | work=Science | date=December 19, 2013 | accessdate=23 December 2013 | author=Bohannon, John}}</ref>
+
+=== Hearing impairment ===
+While [[sound user interface]]s have a secondary role in common desktop computing, these interfaces are usually limited to using [[system sound]]s such as feedback.  Some software producers take into account people who can't hear due to hearing impairments, [[silence]] requirements or lack of sound producing software.  System sounds like beeps can be substituted or supplemented with visual notifications and captioned text (akin to [[closed captioning]]). Closed captions are a very popular means of relaying information for the Deaf and hearing impaired communities.
+
+== Software accessibility ==
+
+=== Accessibility application programming interfaces ===
+Software [[API]]s (application programming interfaces) exist to allow assistive technology products such as [[screen reader]]s and [[screen magnifier]]s to work with mainstream software. The current or past APIs include:
+* Java Accessibility and the [[Java Access Bridge]] for [[Java (programming language)|Java]] software<ref>Oracle: [http://docs.oracle.com/javase/6/docs/technotes/guides/access/index.html Java Accessibility]</ref><ref>Oracle: [http://www.oracle.com/technetwork/java/index-jsp-136191.html Java SE Desktop Accessibility] (page containing a link to the Java Access Bridge).</ref> (being standardized as ISO/IEC TR 13066-6<ref>ISO: [http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?ics1=35&ics2=180&ics3=&csnumber=54004 ISO/IEC PRF TR 13066-6: Information technology -- Interoperability with Assistive Technology (AT) -- Part 6: Java accessibility application programming interface (API)].</ref>);
+* [[Assistive Technology Service Provider Interface]] (AT-SPI) on [[UNIX]] and [[Linux]] (being standardized as ISO/IEC PDTR 13066-4 <ref>ISO: [http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?ics1=35&ics2=180&ics3=&csnumber=54001 ISO/IEC PDTR 13066-4: Information Technology - Interoperability with Assistive Technology (AT) -- Part 4: Linux/UNIX graphical environments accessibility API].</ref>);
+* [[Microsoft Active Accessibility]] (MSAA) on [[Microsoft Windows]];
+* [[IAccessible2]] on [[Microsoft Windows]], a competitor of Microsoft UI Automation also replacing MSAA by [[Free Standards Group]] (standardized as ISO/IEC 13066-3:2012<ref>ISO: [http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=53998 ISO/IEC TR 13066-3:2012: Information technology -- Interoperability with assistive technology (AT) -- Part 3: IAccessible2 accessibility application programming interface (API)].</ref>);
+* [[Mac OS X]] Accessibility;
+* [[Microsoft UI Automation]] on [[Microsoft Windows]], replacing MSAA.
+
+Some of these APIs are being standardized in the [[ISO/IEC 13066]] series of standards.<ref>Richard Hodgkinson: [http://www.snapi.org.uk/info/standards/report_7.htm 7th Report on International ICT Accessibility Standards Proposed, Being Developed and Recently Published]. 3 October 2008.</ref><ref>Richard Hodgkinson: [http://www.tiresias.org/research/standards/report_10.htm 10th Report on International ICT Accessibility Standards Proposed, Being Developed and Recently Published]. 26 June 2009.</ref>
+
+=== Accessibility features in mainstream software ===
+Accessibility software can also make input devices easier to access at the user level:
+* [[Keyboard shortcuts]] and [[MouseKeys]] allow the user to substitute keyboarding for mouse actions. [[Macro recorder]]s can greatly extend the range and sophistication of keyboard shortcuts.
+* [[Sticky keys]] allows characters or commands to be typed without having to hold down a [[modifier key]] (Shift, Ctrl, or Alt) while pressing a second key. Similarly, ClickLock<ref>Microsoft: [http://windows.microsoft.com/en-US/windows-xp/help/using-clicklock Using ClickLock]</ref> is a [[Microsoft Windows]] feature that remembers a mouse button is down so that items can be highlighted or dragged without holding the mouse button down while scrolling.
+* Customization of mouse or mouse alternatives' responsiveness to movement, double-clicking, and so forth.
+* [[ToggleKeys]]<ref>Microsoft: [https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/access_togglekeys_turnon.mspx To turn on ToggleKeys]. Windows XP Professional Product Documentation.</ref> is a feature of [[Microsoft Windows]] 95 onwards. A high sound is heard when the [[caps lock]], [[scroll lock]], or [[number lock]] key is switched on. A low sound is heard when any of those keys is switched off.
+* Customization of [[pointer (user interface)|pointer]] appearance, such as size, color and shape.
+* [[Predictive text]]
+* [[Spell checker]]s and [[grammar checker]]s
+
+=== Support for learning disabilities ===
+Other approaches that may be particularly relevant to users with a learning disability include: 
+* Cause and effect software<ref>{{cite web
+| last=Bates
+| first=Roger
+|author2=Jones, Melanie
+| title=Using Computer Software To Develop Switch Skills
+| work=2003 [Technology and Persons with Disabilities] Conference Proceedings
+| url=http://www.csun.edu/cod/conf/2003/proceedings/6.htm
+| year=2003
+| accessdate=2007-02-08}}</ref>
+* Switch-accessible software (navigable with a switch)
+* [[Hand–eye coordination]] skills software
+* Diagnostic assessment software
+* [[Mind map]]ping software
+* [[Study skills]] software
+* Symbol-based software<ref>{{cite web
+| last=Hawes
+| first=Paul
+|author2=Blenkhorn, Paul
+| title=Bridging the Gap between Aspiration and Capability for Aphasic and Brain Injured People
+| work=2002 [Technology and Persons with Disabilities] Conference Proceedings
+| url=http://www.csun.edu/cod/conf/2002/proceedings/220.htm
+| year=2002
+| accessdate=2007-02-08}}</ref>
+* [[Text-to-speech]]
+* [[Touch typing]] software
+
+=== Web accessibility ===
+{{main|Web accessibility}}
+
+Enabling access to Web content for all users is the concern of the [[Web accessibility]] movement, which strives to create accessible websites via conformance to certain design principles.  For example, [[screen reader]]s are of limited use when reading text from websites designed without consideration to accessibility.  Sometimes these limitations are due to the differences between spoken and written language and the complexity of text, but it is often caused by poor page design practices. The tendency to indicate semantic meaning using methods that are purely presentational (e.g. larger or smaller font sizes, using different font colors, embedded images, or [[multimedia]] to provide information) restricts meaningful access to some users. Therefore, designing sites in accordance with Web accessibility principles helps enable meaningful access for all users.  {{see also|alt attribute}}
+
+== Open Accessibility Framework ==
+
+The Open Accessibility Framework (OAF)<ref>AEGIS Consortium: [http://www.aegis-project.eu/images/docs/AEGIS_D1.2.1_final-revised_2nd_Annual_Review.pdf AEGIS OAF and high-level architecture]. Accessed 2013-01-17.</ref> provides an outline of the steps that must be in place in order for any [[computing platform]] to be considered accessible. These steps are analogous to those necessary to make a physical or built environment accessible. The OAF divides the required steps into two categories: creation and use.
+
+The “creation” steps describe the precursors and building blocks required for technology developers to create accessible applications and products. They are as follows:
+# Define what “accessible” means for the identified use of the platform.  It must be clear what is meant by “accessible” as this will differ according to the modality and capabilities of each platform. Accessibility features may include [[tabbing navigation]], [[Theme (computing)|theming]], and an [[Screen reader#Accessibility APIs|accessibility API]].
+# Provide accessible stock [[Elements of graphical user interfaces|user interface elements]]. Pre-built “stock” user interface elements, used by application developers and authoring tools, must be implemented to make use of the accessibility features of a platform. 
+# Provide authoring tools that support accessibility. Application developers and content authors should be encouraged to implement tools that will improve the accessibility features of a platform. Using these tools can support accessible stock user interface elements, prompt for information required to properly implement an accessibility API, and identify accessibility evaluation and repair tools.
+
+The “use” steps describe what is necessary in the computing environment in which these accessible applications will run. They are as follows:
+# Provide platform supports. Computing platforms must properly implement the accessibility features that are specified in their accessibility definition. For example, the accessibility API definitions must be implemented correctly in the program code.
+# Provide accessible [[Computer applications|application software]]. Accessible applications must be available for the platform and they must support the accessibility features of the platform. This may be achieved by simply engaging the accessible stock elements and authoring tools that support accessibility.
+# Provide [[assistive technologies]]. Assistive technologies (e.g. screen readers, screen magnifiers, voice input, adapted keyboards) must actually be available for the platform so that the users can effectively interface with the technology.
+
+The following examples show that the OAF can be applied to different types of platforms: desktop operating systems, web applications<ref>AEGIS Consortium: [http://www.aegis-project.eu/images/docs/ApprovedDeliverablesForWebsite/AEGIS_D3.1.2_final.pdf AEGIS Architecture Definition]. Accessed 2013-01-17.</ref> and the mobile platform. A more complete list can be found in the [[Open Source Accessibility Repository]] by the [[Open Accessibility Everywhere Group]] (OAEG).<ref>Open Accessibility Everywhere Group (OAEG): [http://www.oaeg.eu/index.php?option=com_content&view=article&id=501&Itemid=31 Open Source Accessibility Repository]. Accessed 2013-01-17.</ref>
+
+# Accessibility APIs include the [[Assistive Technology Service Provider Interface]] and [[UI Automation]] on the desktop, [[WAI-ARIA]] in web applications, and the [[BlackBerry|Blackberry]] Accessibility API<ref>Research in Motion (RIM): [http://www.blackberry.com/developers/docs/6.0.0api/net/rim/device/api/ui/accessibility/package-summary.html Package net.rim.device.api.ui.accessibility]. BlackBerry JDE 6.0.0 API Reference. Accessed 2013-01-17.</ref> on the Blackberry operating system. 
+# Other APIs are keyboard access and theming in widget libraries like [[Java Swing]] for desktop applications, the [[jQuery UI]] and Fluid Infusion<ref>[http://fluidproject.org/products/infusion Fluid Infusion]. Accessed 2013-01-17.</ref> for Web applications, and the [[Lightweight User Interface Toolkit]] (LWUIT) for mobile applications.
+# Support for accessible development can be effective by using [[Glade Interface Designer|Glade]] (for the GTK+ toolkit),<ref>[http://glade.gnome.org/ Glade - A User Interface Designer]. Accessed 2013-01-17.</ref> the DIAS plugin for NetBeans IDE,<ref>[http://sourceforge.net/projects/diasnb/ DIAS Netbeans IDE plugin & Standalone]. Accessed 2013-01-17.</ref> [[Xcode]] IDE for [[iOS]] applications.<ref>Apple Inc.: [https://developer.apple.com/xcode/ Xcode 4]. Accessed 2013-01-17.</ref> Accessibility inspection tools like Accerciser (for [[Assistive Technology Service Provider Interface|AT-SPI]])<ref>[https://live.gnome.org/Accerciser Accerciser].</ref> and support for accessible authoring with the AccessODF plugin for [[LibreOffice]] and [[Apache OpenOffice]]<ref>[http://accessodf.sourceforge.net/index.html#oaf AccessODF]. Accessed 2013-01-17.</ref> also fit into this step.
+# Support for UI Automation on Microsoft Windows,<ref>Microsoft Developer Network: [http://msdn.microsoft.com/en-us/library/ms753388.aspx Accessibility (.NET Framework 4.5)]. Accessed 2013-01-17.</ref><ref>Microsoft Windows Dev Center: [http://msdn.microsoft.com/en-us/library/windows/desktop/ee684009.aspx UI Automation (Windows)]. Accessed 2013-01-17.</ref> support for ATK and AT-SPI in Linux GNOME,<ref>GNOME Dev Center: [http://developer.gnome.org/accessibility-devel-guide/3.0/dev-start-5.html.en Introducing ATK, AT-SPI, GAIL and GTK+]. Accessed 2013-01-17.</ref> WAI-ARIA support in Firefox,<ref>[https://www.mozilla.org/access/ Access Mozilla]. Accessed 2013-01-17.</ref><ref>Access Firefox: [http://www.accessfirefox.org/Firefox_Accessibility_Features Firefox Accessibility Features]. Accessed 2013-01-17.</ref> and the MIDP LWUIT mobile runtime<ref>AEGIS Consortium: [http://www.aegis-project.eu/index.php?option=com_content&task=view&id=155&Itemid=24 LWUIT - Mobile Accessibility]. Accessed 2013-01-21.</ref> (or the MIDP LCDUI mobile runtime) that is available on mobile phones with Java are examples of APIs.
+# The [[DAISY Digital Talking Book|DAISY]] player AMIS on the Microsoft Windows desktop<ref>DAISY Consortium: [http://www.daisy.org/amis/amis-daisy-2.02-daisy-3-playback-software AMIS: DAISY 2.02 & DAISY 3 Playback Software]. Accessed 2013-01-17.</ref> and the AEGIS Contact Manager for phones with Java ME<ref>[http://store.ovi.com/content/212755?clickSource=search&pos=1 AEGIS Contact Manager]. Accessed 2013-01-17.</ref> are designed for accessibility.
+# The [[GNOME Shell]] Magnifier and [[Orca (assistive technology)|Orca]] on the GNOME desktop, GNOME's [[Accessibility Toolkit|ATK]] (Accessibility Toolkit), the web-based screen reader [[WebAnywhere]],<ref>WebInSight: [http://webanywhere.cs.washington.edu/ WebAnywhere: A Screen reader on the go] {{webarchive|url=http://arquivo.pt/wayback/20160523013006/http://webanywhere.cs.washington.edu/ |date=2016-05-23 }}. Accessed 2013-01-17.</ref> and the alternative text-entry system [[Dasher (software)|Dasher]] for [[Linux]], iOS and Android<ref>Inference Group (University of Cambridge): [http://www.inference.phy.cam.ac.uk/dasher/MobileDasher.html Mobile Dasher]. Accessed 2013-01-17.</ref><ref>[https://itunes.apple.com/us/app/dasher/id315473092?mt=8 Dasher for iOS] on iTunes. Accessed 2013-01-17.</ref> are examples of assistive technologies.
+
+The goal of the listed tools is to embed accessibility into various mainstream technologies.<ref>Iosif Klironomos, Julio Abascal, Ilse Bierhoff: [http://www.cardiac-eu.org/deliverables/d3-1.htm D3.1 Report with background material needed to support the SDDP-2 Meeting: An Introduction to the Key Issues Relating to Accessible User Interfaces]. Accessed 2013-01-17.</ref>
+
+== Standards and Regulations ==
+
+=== International Standards ===
+
+; ISO 9241-171
+[https://www.iso.org/standard/39080.html ISO 9241-171]: [[Ergonomics]] of human-system interaction - Guidance on software accessibility
+
+Compiled from independent standards experts, this document is the most comprehensive and technical standard for designing accessible features for software,  covering all disabilities and all aspects of software. It provides examples of two priority levels ('Required' and 'Recommended') and offers a handy checklist designed to help with recording software testing results.
+
+The only trouble is that because of its complexity and technical nature, and with upwards of 150 individual statements, ISO 9241-172 is difficult to interpret and apply. Luckily, not every statement is relevant to every situation, therefore it may be advisable to identify a subset of statements that are tailored to the particular software environment, making the use of this document much more achievable. {{Citation needed|date=May 2014}}
+
+== See also ==
+*
+* [[AccessApps]] - a collection of accessibility software which fits on a USB drive
+* [[Assistive technology|Assistive Technology]]
+* [[Augmentative and alternative communication]]
+* [[Digital rights]]
+* [[Fire Vox]]
+* [[Game accessibility]]
+* [[Knowbility]]
+* [[Modding]]
+* [[Section 508 Amendment to the Rehabilitation Act of 1973]]
+* [[User1st]] - an automated tool to remediate accessibility on websites
+* [[Web accessibility]]
+
+== References ==
+{{reflist|colwidth=30em}}
+
+== External links ==
+{{Spoken Wikipedia|en-computer-accessibility.ogg|2006-09-17}}
+{{commons category}}
+* [http://www.interaction-design.org/references/conferences/series/ercim_workshop_on_user_interfaces_for_all.html The annual ERCIM Workshop on 'User Interfaces for All'] emphasising accessibility
+* [http://www.betterlivingthroughtechnology.com Better Living Through Technology] - contains guides on accessibility options and information about specialist assistive hardware and software
+* [http://www.hp.com/accessibility/ HP Accessibility]
+* [http://www.abilitynet.org.uk AbilityNet] - provides information on Accessibility, Assistive Technology and Remote Assessment
+* [http://www.c4ea.org C4EA] Consortium For E-learning Accessibility
+* [http://www.w3.org/WAI/ W3C Web Accessibility Initiative (WAI)]
+* [https://web.archive.org/web/20040214081242/http://www.opera.com/features/access/ Accessibility in the Opera web browser]
+* [https://www.mozilla.org/projects/ui/accessibility/ Mozilla Accessibility Project]
+* [http://ui.openoffice.org/accessibility/ Open Office Accessibility Project]
+* [http://www.guide-project.eu EU Project GUIDE: Multimodal user interfaces for elderly people with mild impairments]
+
+{{Computer science}}
+
+{{DEFAULTSORT:Computer Accessibility}}
+[[Category:Computer accessibility| ]]
+
+[[es:Accesibilidad]]
+[[it:Accessibilità (informatica)]]

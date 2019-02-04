@@ -1,0 +1,104 @@
+[[File:6n-graf2.svg|thumb|An example of two connected graphs]]
+In [[multivariate statistics]] and the [[cluster analysis|clustering]] of data, '''spectral clustering''' techniques make use of the [[Spectrum of a matrix|spectrum]] ([[eigenvalues]]) of the [[similarity matrix]] of the data to perform [[dimensionality reduction]] before clustering in fewer dimensions. The similarity matrix is provided as an input and consists of a quantitative assessment of the relative similarity of each pair of points in the dataset.
+
+In application to image segmentation, spectral clustering is known as [[segmentation-based object categorization]].
+
+== Definitions ==
+
+Given an enumerated set of data points, the [[similarity matrix]] may be defined as a symmetric matrix <math>A</math>, where <math>A_{ij}\geq 0</math> represents a measure of the similarity between data points with indices <math>i</math> and <math>j</math>. The general approach to spectral clustering is to use a standard [[Cluster analysis|clustering]] method (there are many such methods, ''k''-means is discussed [[Spectral clustering#Relationship with k-means|below]]) on relevant [[eigenvector]]s of a [[Laplacian matrix]] of <math>A</math>. There are many different ways to define a Laplacian which have different mathematical interpretations, and so the clustering will also have different interpretations. The eigenvectors that are relevant are the ones that correspond to smallest several eigenvalues of the Laplacian except for the smallest eigenvalue which will have a value of 0. For computational efficiency, these eigenvectors are often computed as the eigenvectors corresponding to the largest several eigenvalues of a function of the Laplacian.
+
+Spectral clustering is well known to relate to partitioning of a mass-spring system, where each mass is associated with a data point and each spring stiffness corresponds to a weight of an edge describing a similarity of the two related data points. Specifically, the classical reference <ref>J. Demmel, [https://people.eecs.berkeley.edu/~demmel/cs267/lecture20/lecture20.html], CS267: Notes for Lecture 23, April 9, 1999, Graph Partitioning, Part 2</ref> explains that the eigenvalue problem describing transversal vibration modes of a mass-spring system is exactly the same as the eigenvalue problem for the graph [[Laplacian matrix]] defined as 
+: <math>L:=D-A</math>, 
+where <math>D</math> is the diagonal matrix
+:<math>D_{ii} = \sum_j A_{ij}.</math>
+The masses that are tightly connected by the springs in the mass-spring system evidently move together from the equilibrium position in low-frequency vibration modes, so that the components of the eigenvectors corresponding to the smallest eigenvalues of the graph Laplacian can be used for meaningful clustering of the masses. 
+
+A popular related spectral clustering technique is the '''[[Segmentation based object categorization#Normalized cuts|normalized cuts algorithm]]''' or ''Shi–Malik algorithm'' introduced by Jianbo Shi and Jitendra Malik,<ref name=":0">Jianbo Shi and Jitendra Malik, [http://www.cs.berkeley.edu/~malik/papers/SM-ncut.pdf "Normalized Cuts and Image Segmentation"], IEEE Transactions on PAMI, Vol. 22, No. 8, Aug 2000.</ref> commonly used for [[segmentation (image processing)|image segmentation]]. It partitions points into two sets <math>(B_1,B_2)</math> based on the [[eigenvector]] <math>v</math> corresponding to the second-smallest [[eigenvalue]] of the [[Laplacian matrix#Symmetric normalized Laplacian|symmetric normalized Laplacian]] defined as
+
+: <math>L^\text{norm}:=I-D^{-1/2}AD^{-1/2}.</math>
+
+A mathematically equivalent algorithm <ref>Marina Meilă & Jianbo Shi, "[http://www.citeulike.org/user/mpotamias/article/498897 Learning Segmentation by Random Walks]", Neural Information Processing Systems 13 (NIPS 2000), 2001, pp. 873–879.</ref> takes the [[eigenvector]] corresponding to the largest [[eigenvalue]] of the [[adjacency matrix|random walk normalized adjacency]] matrix <math>P = D^{-1}A</math>. 
+
+Knowing the eigenvectors, partitioning may be done in various ways, such as by computing the median <math>m</math> of the components of the second smallest eigenvector <math>v</math>, and placing all points whose component in <math>v</math> is greater than <math>m</math> in <math>B_1</math>, and the rest in <math>B_2</math>. The algorithm can be used for [[hierarchical clustering]] by repeatedly partitioning the subsets in this fashion.
+
+== Algorithms ==
+
+If the similarity matrix <math>A</math> has not already been explicitly constructed, the efficiency of spectral clustering may be improved if the solution to the corresponding eigenvalue problem is performed in a [[Matrix-free methods|matrix-free fashion]] (without explicitly manipulating or even computing the similarity matrix), as in the [[Lanczos algorithm]].
+
+For large-sized graphs, the second eigenvalue  of the (normalized) graph [[Laplacian matrix]] is often [[ill-conditioned]], leading to slow convergence of iterative eigenvalue solvers. [[Preconditioner#Preconditioning for eigenvalue problems|Preconditioning]] is a key technology accelerating the convergence, e.g., in the matrix-free [[LOBPCG]] method. Spectral clustering has been successfully applied on large graphs by first identifying their [[community structure]], and then clustering communities.<ref>{{cite journal|last=Zare|first=Habil |author2=P. Shooshtari |author3=A. Gupta |author4=R. Brinkman|title=Data reduction for spectral clustering to analyze high throughput flow cytometry data|journal=BMC Bioinformatics|date=2010|url=http://www.biomedcentral.com/1471-2105/11/403|doi=10.1186/1471-2105-11-403|volume=11|pages=403 |pmid=20667133 |pmc=2923634}}</ref>
+
+Spectral clustering is closely related to [[nonlinear dimensionality reduction]], and dimension reduction techniques such as locally-linear embedding can be used to reduce errors from noise or outliers.<ref>{{Citation
+ | author = Arias-Castro, E. and Chen, G. and Lerman, G.
+ | title = Spectral clustering based on local linear approximations.
+ | journal = Electronic Journal of Statistics | volume = 5 | pages = 1537–1587
+ | year = 2011
+ | doi=10.1214/11-ejs651}}</ref>
+
+Free software to implement spectral clustering is available in large open source projects like [[Scikit-learn]] <ref>http://scikit-learn.org/stable/modules/clustering.html#spectral-clustering</ref> using [[LOBPCG]] with [[multigrid]] [[preconditioning]],<ref name="spectralmultigrid2006">
+{{cite conference
+ |title=Multiscale Spectral Graph Partitioning and Image Segmentation
+ |last1=Knyazev |first1=Andrew V.
+ |conference=Workshop on Algorithms for Modern Massive Data Sets Stanford University and Yahoo! Research
+ |year=2006
+}}</ref> or [[ARPACK]], [[Apache Spark#MLlib Machine Learning Library\MLlib|MLlib]] for pseudo-eigenvector clustering using the [[power iteration]] method,<ref>http://spark.apache.org/docs/latest/mllib-clustering.html#power-iteration-clustering-pic</ref> and [[R (programming language)|R]].<ref>https://cran.r-project.org/web/packages/kernlab</ref>
+
+== Relationship with ''k''-means ==
+The kernel ''k''-means problem is an extension of the ''k''-means problem where the input data points are mapped non-linearly into a higher-dimensional feature space via a kernel function <math>k(x_i,x_j) = \varphi^T(x_i)\varphi(x_j)</math>. The weighted kernel ''k''-means problem further extends this problem by defining a weight <math>w_r</math> for each cluster as the reciprocal of the number of elements in the cluster,
+:<math>
+\max_{\{C_s\}} \sum_{r=1}^k w_r \sum_{x_i,x_j \in C_r} k(x_i,x_j).
+</math>
+Suppose <math>F</math> is a matrix of the normalizing coefficients for each point for each cluster <math>F_{ij} = w_r</math> if <math>i,j \in C_r</math> and zero otherwise. Suppose <math>K</math> is the kernel matrix for all points. The weighted kernel ''k''-means problem with n points and k clusters is given as,
+:<math>
+\max_F \operatorname{trace} (KF)
+</math>
+such that
+:<math>
+F = G_{n\times k}G_{k\times n}^T
+</math>
+:<math>
+G^TG = I
+</math>
+such that <math>\operatorname{rank}(G) = k</math>. In addition, there are identity constrains on <math>F</math> given by,
+:<math>
+F\cdot \mathbb{I} = \mathbb{I}
+</math>
+where <math>\mathbb{I}</math> represents a vector of ones.
+:<math>
+F^T\mathbb{I} = \mathbb{I}
+</math>
+This problem can be recast as,
+:<math>
+\max_G \operatorname{trace}(G^TG).
+</math>
+This problem is equivalent to the spectral clustering problem when the identity constraints on <math>F</math> are relaxed. In particular, the weighted kernel ''k''-means problem can be reformulated as a spectral clustering (graph partitioning) problem and vice versa. The output of the algorithms are eigenvectors which do not satisfy the identity requirements for indicator variables defined by <math>F</math>. Hence, post-processing of the eigenvectors is required for the equivalence between the problems.<ref name="dhillon2004kernel">{{cite conference
+ | author = Dhillon, I.S. and Guan, Y. and Kulis, B.
+ | year = 2004
+ | title = Kernel ''k''-means: spectral clustering and normalized cuts
+ | booktitle = Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining
+ | pages = 551–556
+}}</ref>
+Transforming the spectral clustering problem into a weighted kernel ''k''-means problem greatly reduces the computational burden.<ref>{{cite journal|last=Dhillon|first=Inderjit|author2=Yuqiang Guan |author3=Brian Kulis |title=Weighted Graph Cuts without Eigenvectors:  A Multilevel Approach|journal=IEEE Transactions on Pattern Analysis and Machine Intelligence|date=November 2007|volume=29|issue=11|pages=1–14|doi=10.1109/tpami.2007.1115}}</ref>
+
+== Relationship to DBSCAN ==
+Spectral clustering is also related to [[DBSCAN]] clustering, that finds density-connected components. [[Connected component (graph theory)|Connected components]] correspond to optimal spectral clusters (no edges cut); and DBSCAN uses an asymmetric neighbor graph with edges removed when source points are not dense.<ref>{{Cite conference|last=Schubert|first=Erich|last2=Hess|first2=Sibylle|last3=Morik|first3=Katharina|date=2018|title=The Relationship of DBSCAN to Matrix Factorization and Spectral Clustering|url=http://ceur-ws.org/Vol-2191/paper38.pdf|conference=LWDA|volume=|pages=330-334|via=}}</ref> Thus, DBSCAN is a special case of spectral clustering, but one which allows more efficient algorithms (worst case <math>O(n^2)</math>, in many practical cases much faster with indexes).
+
+== Measures to compare clusterings ==
+Ravi Kannan, Santosh Vempala and Adrian Vetta<ref>{{cite journal|last1=Kannan|first1=Ravi|last2=Vempala|first2=Santosh|last3=Vetta|first3=Adrian|title=On Clusterings : Good, Bad and Spectral|journal=Journal of the ACM|volume= 51|doi=10.1145/990308.990313|pages=497–515}}</ref> proposed a bicriteria measure to define the quality of a given clustering. They said that a clustering was an (α, ε)-clustering if the [[Conductance (graph)|conductance]] of each cluster (in the clustering) was at least α and the weight of the inter-cluster edges was at most ε fraction of the total weight of all the edges in the graph. They also look at two approximation algorithms in the same paper.
+
+== Approximate Solutions ==
+Spectral clustering is computationally expensive unless the graph is sparse and the similarity matrix can be efficiently constructed. If the similarity matrix is an RBF kernel matrix, spectral clustering is expensive. There are approximate algorithms for making spectral clustering more efficient: power method<ref>{{Cite journal|last=Boutsidis|first=Christos|date=2015|title=Spectral Clustering via the Power Method Provably|url=http://proceedings.mlr.press/v37/boutsidis15.pdf|journal=International Conference on Machine Learning|volume=|pages=|via=}}</ref>, Nystrom method<ref>{{Cite journal|last=Fowlkes|first=C|date=2004|title=Spectral grouping using the Nystrom method.|url=|journal=IEEE Transactions on Pattern Analysis and Machine Intelligence|volume=|pages=|via=}}</ref>, etc. However, recent research<ref>{{Cite journal|last=S. Wang, A. Gittens, and M. W. Mahoney|first=|date=2018|title=Scalable Kernel K-Means Clustering with Nystrom Approximation: Relative-Error Bounds|url=https://arxiv.org/abs/1706.02803|journal=Journal of Machine Learning Research|volume=|pages=|via=}}</ref> pointed out the problems with spectral clustering with Nystrom method; in particular, the similarity matrix with Nystrom approximation is not elementwisely positive, which can be problematic.
+
+== History ==
+Spectral clustering has a long history.<ref>{{Cite journal|last=Cheeger|first=Jeff|date=1969|title=A lower bound for the smallest eigenvalue of the Laplacian|url=|journal=Proceedings of the Princeton conference in honor of Professor S. Bochner|volume=|pages=|via=}}</ref><ref>{{Cite journal|last=William Donath and Alan Hoffman|first=|date=1972|title=Algorithms for partitioning of graphs and computer logic based on eigenvectors of connections matrices|url=|journal=IBM Technical Disclosure Bulletin|volume=|pages=|via=}}</ref><ref>{{Cite journal|last=Fiedler|first=Miroslav|date=1973|title=Algebraic connectivity of graphs|url=|journal=Czechoslovak mathematical journal|volume=|pages=|via=}}</ref><ref>{{Cite journal|last=Stephen Guattery and Gary L. Miller|first=|date=1995|title=On the performance of spectral graph partitioning methods|url=|journal=Annual ACM-SIAM Symposium on Discrete Algorithms|volume=|pages=|via=}}</ref><ref>{{Cite journal|last=Daniel A. Spielman and Shang-Hua Teng|first=|date=1996|title=Spectral Partitioning Works: Planar graphs and finite element meshes|url=|journal=Annual IEEE Symposium on Foundations of Computer Science|volume=|pages=|via=}}</ref><ref name=":0" /><ref name=":1">{{Cite journal|last=Ng, Andrew Y and Jordan, Michael I and Weiss, Yair|first=|date=2002|title=On spectral clustering: analysis and an algorithm|url=|journal=Advances in Neural Information Processing Systems|volume=|pages=|via=}}</ref> Spectral clustering as a machine learning method was popularized by Shi & Malik<ref name=":0" /> and Ng, Jordan, & Weiss.<ref name=":1" />
+
+== See also ==
+* [[Affinity propagation]]
+* [[Kernel principal component analysis]]
+* [[Cluster analysis]]
+* [[Spectral graph theory]]
+
+== References ==
+<references />
+
+[[Category:Cluster analysis algorithms]]
+[[Category:Algebraic graph theory]]

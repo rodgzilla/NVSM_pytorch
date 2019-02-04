@@ -1,0 +1,63 @@
+{{Infobox software
+| name                   = XtreemFS
+| logo                   = XtreemFS Logo.jpg
+| latest release version = 1.5.1
+| latest release date    = {{release date|2015|03|12}}
+| operating system       = [[Linux]], [[Microsoft Windows|Windows]], [[Mac OS X]]
+| genre                  = [[Distributed file system]]
+| programming language   = [[Java (programming language)|Java]]
+| license                = [[BSD License|New BSD]]
+| website                = [http://www.xtreemfs.org www.xtreemfs.org]
+}}
+
+'''XtreemFS''' is an [[object-based file system|object-based]], [[distributed file system]] for wide area networks.<ref name="arch">F. Hupfeld, T. Cortes, B. Kolbeck, E. Focht, M. Hess, J. Malo, J. Marti, J. Stender, E. Cesario. [http://www.xtreemfs.org/publications/vldb_dmg_07_camera_ready.pdf "XtreemFS - a case for object-based storage in Grid data management"]. VLDB Workshop on Data Management in Grids. In: Proceedings of 33rd International Conference on Very Large Data Bases (VLDB) Workshops, 2007.</ref> XtreemFS' outstanding feature is full (all components) and real (all failure scenarios, including [[CAP theorem|network partitions]]) [[Fault-tolerant system|fault tolerance]], while maintaining [[POSIX]] file system semantics. Fault-tolerance is achieved by using [[Paxos (computer science)|Paxos]]-based [[lease (computer science)|lease]] negotiation algorithms and is used to replicate files and metadata. [[Transport Layer Security|SSL]] and [[X.509#Certificates|X.509 certificates]] support make XtreemFS usable over public networks.
+
+XtreemFS has been under development since early 2007. A first public release was made in August 2008. XtreemFS 1.0 was released in August 2009. The 1.0 release includes support for read-only replication with failover, data center replica maps, parallel reads and writes, and a native Windows client. The 1.1 added automatic on-close replication and POSIX advisory locks. In mid-2011, release 1.3 added read/write replication for files. Version 1.4 underwent extensive testing and is considered production-quality. An improved [[Hadoop]] integration and support for SSDs was added in version 1.5.
+
+XtreemFS is funded by the European Commission's [[Information Society Technologies|IST programme]].
+
+The original XtreemFS team founded [http://www.quobyte.com Quobyte] Inc. in 2013. Quobyte offers a professional storage system as a commercial product.
+
+==Features==
+* Secure connections to [[Contrail (software)]]<ref>{{cite web|url=http://www.isgtw.org/announcement/contrail-project-proud-present-its-first-complete-set-interoperable-cloud-federation-to |title=The Contrail project is proud to present its first complete set of interoperable Cloud federation tools |last=Versweyveld |first=Leslie |date=30 October 2012 |website=www.isgtw.org |accessdate=17 October 2013 |deadurl=yes |archiveurl=https://sciencenode.org/announcement/contrail-project-proud-present-its-first-complete-set-interoperable-cloud-federation-to.php |archivedate=June 23, 2016 }}</ref>
+* Clients for Linux, Windows and OS X
+* Open source (New BSD License since release 1.3)
+* Cross-site file replication with auto-failover
+* Partial replicas, objects fetched on demand
+* [[POSIX]] compatibility
+* Plugins for authentication policies, replica selection
+* [[Raid0#RAID 0|RAID0]] ([[Data striping|striping]]) with parallel I/O over stripes<ref name="stripe">J. Stender, B. Kolbeck, F. Hupfeld, E. Cesario, E. Focht, M. Hess, J. Malo, J. Marti. [http://www.xtreemfs.org/publications/striping-lasco-camera.pdf "Striping without Sacrifices: Maintaining POSIX Semantics in a Parallel File System"]. 1st USENIX Workshop on Large-Scale Computing (LASCO '08), Boston, 2008</ref>
+* Read-only replication
+* Security ([[Transport Layer Security|SSL]], [[X.509#Certificates|X.509 certificates]])
+* Servers for Linux and Solaris Natively and Non-Native Windows Java & ANT based server.
+* experimental file system driver for [[Hadoop]] (added in version 1.2)
+
+==Use cases==
+* as a filer replacement (home directories and group shares),
+* in HPC cluster,
+* in [[Hadoop]] clusters,
+* for VM block storage
+* cross-branch data sharing
+* and many more use cases, all in a single system.
+
+==See also==
+{{Portal|Free and open-source software}}
+* [[List of file systems#Distributed parallel fault-tolerant file systems|List of file systems, the distributed parallel fault-tolerant file system section]]
+* [[Grid computing]]
+* [[XtreemOS]]
+* [[BeeGFS]]
+
+==References==
+{{Reflist}}
+
+==External links==
+* [http://www.xtreemfs.org XtreemFS website]
+* [https://github.com/xtreemfs/xtreemfs XtreemFS project on GitHub.com]
+* [https://www.youtube.com/watch?v=6WP0V5ABMUA video demonstrating the replication and failover (on youtube.com)]
+* [http://www.linkedin.com/groups/XtreemFS-6524389 linkedin Group]
+
+{{DEFAULTSORT:Xtreemfs}}
+[[Category:Distributed file systems]]
+[[Category:Distributed file systems supported by the Linux kernel]]
+[[Category:Network file systems]]
+[[Category:Userspace file systems]]

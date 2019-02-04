@@ -1,0 +1,43 @@
+{{See also|Centralisation}}
+{{Refimprove |date=May 2014}}
+'''Centralized computing''' is computing done at a central location, using [[Computer terminal|terminals]] that are attached to a central computer. The computer itself may control all the [[peripheral]]s directly (if they are physically connected to the central computer), or they may be attached via a [[terminal server]]. Alternatively, if the terminals have the capability, they may be able to connect to the central computer over the network. The terminals may be [[text terminal]]s or [[thin client]]s, for example.
+
+It offers greater [[security]] over [[Decentralized computing|decentralized systems]] because all of the [[Process (computing)|processing]] is controlled in a central location. In addition, if one terminal breaks down, the user can simply go to another terminal and [[log in]] again, and all of their [[computer file|file]]s will still be accessible. Depending on the system, they may even be able to resume their [[session (computer science)|session]] from the point they were at before, as if nothing had happened.
+
+This type of arrangement does have some disadvantages. The central computer performs the computing functions and controls the remote terminals. This type of system relies totally on the central computer. Should the central computer [[crash (computing)|crash]], the entire system will "go down" (i.e. will be unavailable).
+
+Another disadvantage is that central computing relies heavily on the quality of administration and resources provided to its users.  Should the central computer be inadequately supported by any means (e.g. size of home directories, problems regarding administration), then your usage will suffer greatly.  The reverse situation, however, (i.e., a system supported better than your needs) is one of the key advantages to centralized computing.
+
+== History ==
+
+The very first computers did not have separate terminals as such; their primitive input/output devices were built in. However, soon it was found to be extremely useful for multiple people to be able to use a computer at the same time, for reasons of cost – early computers were very expensive, both to produce and maintain, and occupied large amounts of floor space. The idea of centralized computing was born. Early [[text terminal]]s used electro-mechanical [[teletypewriter]]s, but these were replaced by [[cathode ray tube]] displays (as found in 20th century televisions and computers). The text terminal model dominated computing from the 1960s until the rise to dominance of [[home computer]]s and [[personal computer]]s in the 1980s.
+
+== Contemporary status ==
+
+As of 2007, centralized computing is now coming back into fashion – to a certain extent. [[Thin client]]s have been used for many years by businesses to reduce [[total cost of ownership]], while [[web application]]s are becoming more popular because they can potentially be used on many types of computing device without any need for software installation. Already, however, there are signs that the pendulum is swinging back again, away from pure centralization, as [[thin client]] devices become more like [[diskless workstation]]s due to increased computing power, and web applications start to do more processing on the client side, with technologies such as [[AJAX]] and [[rich client]]s.
+
+In addition, [[Mainframe computer|mainframe]]s are still being used for some mission-critical applications, such as payroll, or for processing day-to-day account transactions in banks. These mainframes will typically be accessed either using [[terminal emulator]]s (real terminal devices are not used much any more) or via modern front-ends such as [[web application]]s – or (in the case of automated access) [[Communications protocol|protocols]] such as [[web service]]s protocols.
+
+== Hybrid client model ==
+
+Some organisations use a [[hybrid client]] model partway between centralized computing and conventional desktop computing, in which some applications (such as [[web browser]]s) are run locally, while other applications (such as critical business systems) are run on the [[terminal server]]. One way to implement this is simply by running [[remote desktop software]] on a standard [[desktop computer]].
+
+== Hosted computing model ==
+
+A relatively new method of centralized computing, '''hosted computing''', solves many of the problems associated with traditional distributed computing systems. By centralizing processing and storage on powerful server hardware located in a data center, rather than in a local office, it relieves organizations of the many responsibilities in owning and maintaining an information technology system. These services are typically delivered on a subscription basis by an [[application service provider]] (ASP).<ref name="coredesktop">[http://www.coredesktop.com/purpose.htm Core Desktop Solutions, Inc. &ndash;] {{webarchive |url=https://web.archive.org/web/20070928123326/http://www.coredesktop.com/purpose.htm |date=September 28, 2007 }}. Retrieved on 5 September 2007.</ref>
+
+== See also ==
+* [[Computer terminal]]
+* [[Decentralized computing]]
+* [[Linux Terminal Server Project]]
+* [[Multiseat configuration|Multiseat]]
+* [[Terminal Services]]
+* [[Thin client]]
+* [[Time sharing]]
+* [[Zero client]]
+
+== References ==
+{{reflist|2}}
+
+[[Category:Centralized computing| ]]
+[[Category:Cloud computing]]

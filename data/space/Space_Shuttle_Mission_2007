@@ -1,0 +1,77 @@
+{{Multiple issues|
+{{more footnotes|date=November 2012}}
+{{Advert|date=November 2016}}
+}}
+
+{{Infobox video game
+|title  = Space Shuttle Mission 2007
+|image =
+|caption =
+|developer = Exciting Simulations
+|publisher = Simsquared Ltd.
+|designer = 
+|engine = 
+|released = January 2008/June 2011
+|genre = [[Simulation]]
+|modes = [[Single-player video game|Single-player]]
+|platforms = [[Microsoft Windows]]
+}}
+
+'''''Space Shuttle Mission 2007''''',<ref>{{Cite web|url=http://www.space-shuttle-mission.com/|title=:: Space Shuttle Mission Simulator(tm) ::|website=www.space-shuttle-mission.com|access-date=2017-01-31}}</ref> is a highly realistic [[Space Shuttle]] stand-alone mission simulator for [[Microsoft Windows]]. The simulator was released on January 1, 2008 after having been under development for more than six years.
+
+==Gameplay==
+The main purpose of ''Space Shuttle Mission 2007'' is to allow the gamer to experience real historical [[NASA]] [[Space Shuttle]] missions from liftoff (T-00:01:50:00) to landing. Initially, ''Space Shuttle Mission 2007'' was released with a set of 11 missions but as time passed, the development team has been releasing new missions as free add-ons. The missions include [[satellite]] deployment and servicing (including the [[Hubble Telescope]]), building and servicing the [[International Space Station]], numerous [[Extra-Vehicular Activity|extra-vehicular activities]] and landing at [[Kennedy Space Center]] and [[Edwards Air Force Base]].
+
+A typical mission starts on the [[launch pad]] at KSC right after the astronauts have entered the cockpit. After that, the user goes through the preflight, liftoff, ascent, on-orbit, de-orbit, approach and landing phases. Most of the time is spent on orbit where the user is expected to perform the mission as described in the briefing screen and as instructed by the on-screen checklists and audio communications from the MCC. Landing is performed manually following Houston instructions and realistic guidance and navigation information presented on the 9 forward panels [[Multi-function display|MFD]] and the fully collimated [[Head-up display|HUD]]. The action during all mission phases can be viewed from several "cameras": external view, first person, floating camera and Mission Control Center information screens. After completing the mission successfully from start to end, the virtual Astronaut receives a mission badge which is displayed in the Astronaut Achievements section.
+
+The Space Shuttle Mission 2007 simulates numerous [[Space Shuttle]] systems, including the general-purpose [[computer]], [[remote manipulator system]], [[auxiliary power unit]], [[hydraulic]], [[CCTV]], electrical, [[Spacecraft propulsion|propulsion]], [[navigation]], [[Androgynous Peripheral Attach System|APDS (docking system)]], [[communications]], and payload bay. These are intended to allow for a realistic interaction between the user and these systems throughout the mission. As the mission evolves, the simulator presents the user with an on-screen context-related checklist, indicating which systems to operate and how. In the easiest difficulty mode, the simulator indicates individual switches with flashing arrows, in addition to the checklists. In more advanced difficulty modes, the user is expected to use printed checklists to complete the mission.
+
+The user spends most of the time in a realistic and complete [[Virtual Reality|3D virtual cockpit]], manning several "stations": '''commander''', '''pilot''', '''mission specialist 1''', '''mission specialist 2''', and a '''mission specialist middeck position'''. The 3D virtual cockpit is especially effective due to the support of '''[[TrackIR|TrackIR:PRO]]''' head-tracking device, '''Matrox''' '''[[TripleHead2Go|TripleHead2Go(tm)]]''' multiple monitor support and the '''[[Vuzix|Vuzix(tm)]]''' [[virtual reality]] [[stereoscopic]] goggles. The in-cockpit and other environmental sounds are simulated including the engines, RCS, alarms, and cockpit cooling "humming".
+
+The user can zoom into various panels in a 2D view or directly select the various systems from the main menu, in real time and press buttons, turn knobs, flip switches as the mission requires. There is also constant and context-relevant mission-related audio communications between the [[Mission Control Center]] and the Space Shuttle guiding the user through the mission.
+
+[[Extra-vehicular activity|Extra-vehicular activities]] are conducted in [[first-person view (radio control)|first-person view]] allowing the user to experience the same feeling as [[astronaut]]s do while "space walking". In certain missions, the virtual astronauts will also drive the [[Manned Maneuvering Unit]] to capture satellites for maintenance. The latest mission add-on is the STS-47 Spacelab mission. In this mission, the user can visit the Spacelab-J and float inside the lab in Zero-G just like real astronauts.
+
+==See also==
+* [[Shuttle (video game)|Virgin Space Shuttle Simulator]]
+* [[Space Shuttle program]]
+* [[Space flight simulator game]]
+
+==References==
+{{reflist}}
+* [http://www.avsim.com/pages/0408/SSM/Shuttle.htm Review at Avsim.com ]
+* [http://www.flightsim.com/main/review/ssm2007/ssm2007.htm Review at Flightsim.com]
+* [http://www.avionic-online.com/index.php?Mnu=SSM2007 Review at Avionic-Online.com ]
+* [http://www.skyatnightmagazine.com May 2008 Issue of '''BBC Sky at Night''' Magazine]
+* [http://www.skyatnightmagazine.com December 2008 Issue of '''BBC Sky at Night''' Magazine]
+* [http://www.pcpilot.net July 2008 Issue of '''PC Pilot''' Magazine]
+* [http://www.computerpilot.com July 2008 Issue of '''Computer Pilot''' Magazine]
+* [http://pc.ign.com/objects/964/964235.html Review at IGN.com]
+* [http://pc.gamespy.com/pc/space-shuttle-mission-2007/ Review at GameSpy.com]
+* [http://wiki.ssm-fans.info/ SSM2007 Fans Wiki]
+* The Space Shuttle Mission Commander's Reference Manual (freely downloadable at the official website)
+
+==External links==
+<!--======================== {{No more links}} ============================
+    | PLEASE BE CAUTIOUS IN ADDING MORE LINKS TO THIS ARTICLE. Wikipedia  |
+    | is not a collection of links nor should it be used for advertising. |
+    |                                                                     |
+    |           Excessive or inappropriate links WILL BE DELETED.         |
+    | See [[Wikipedia:External links]] & [[Wikipedia:Spam]] for details.  |
+    |                                                                     |
+    | If there are already plentiful links, please propose additions or   |
+    | replacements on this article's discussion page, or submit your link |
+    | to the relevant category at the Open Directory Project (dmoz.org)   |
+    | and link back to that category using the {{dmoz}} template.         |
+    ======================= {{No more links}} =============================-->
+* [http://www.space-shuttle-mission.com Space Shuttle Mission 2007 official website]
+* [http://www.space-shuttle-mission.com/forum Official Space Shuttle Mission 2007 Forum]
+
+{{Space Shuttle}}
+
+[[Category:Virtual reality games]]
+[[Category:Windows games]]
+[[Category:Windows-only games]]
+[[Category:2008 video games]]
+[[Category:Space flight simulator games]]
+[[Category:Realistic space simulators]]

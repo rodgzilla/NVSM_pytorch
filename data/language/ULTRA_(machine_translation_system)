@@ -1,0 +1,37 @@
+{{other uses|Ultra (disambiguation)}}
+
+'''ULTRA''' is a [[machine translation]] system created for five languages (Japanese, Chinese, Spanish, English, and German) in the Computing Research Laboratory in 1991.
+
+ULTRA (Universal Language Translator), is a machine translationu system developed at the Computing Research Laboratory,<ref>Farwell & Wilks, 1989</ref> which can translate between five languages (Japanese, Chinese, Spanish, English and German). It uses [[Artificial intelligence]] as well as linguistic and [[logic programming]] methods. The main goal of the system is to be robust, to cover general language and to be simple to use.  It uses bidirectional [[Parsing|parsers]]/generators.
+
+The system has a language-independent system of intermediate representation, which means that it takes into account needs for expression (expression is one of the main elements of language) and it uses relaxation techniques to provide the best translation. It used an [[X Window System|Xwindows]] user interface.<ref>{{cite book|last1=Austermuhl|first1=Frank|title=Electronic tools for translations|date=2001|publisher=St. Jerome Publishing|location=Manchester|isbn=1900650347}}</ref>
+
+==  ULTRA's databases ==
+
+* ULTRA has vocabularies based on about 10,000 word senses in each of its five languages.
+* It represents expressions.
+* It has an access to many dictionary databases.
+
+==  Operation ==
+
+Users paste a sentence into the "source" window. They chose a target language and press Translate.<ref>{{cite book|last1=Wilks|first1=Yorick|title=Machine Translation. Its Scope and Limits.|date=2009|publisher=Springer Science+Business Media LLC|isbn=9780387727738}}</ref> The tool translates the source text, taking into consideration what is said, how it is said and why it is said.
+
+[[Lexical analysis|Lexical]] entries in the system have two parts:
+* Specific language entry corresponding to the graphic form, which is representing some kind of information/sense and
+* Intermediate representation giving proper forms that represent the sense of the expression.
+ULTRA works with [[Intermediate representation]] of the language between the systems, so no transfer takes place. Each language has its own systems, which are independent. Having the independent systems gives an extra benefit. Adding another language does not disrupt existing language translations.
+
+=== Intermediate representation ===
+Developers David Farwell and Yorick Wilks created IR (interlingual representation). It was a base for analyzing and generating expressions.<ref>{{cite journal|date=1991|title=ULTRA: A multilingual machine translator|last1=Farwell David|first1=Wilks Yorick}}</ref>
+
+They analyzed many different types of communications (business letters, documents, emails) to compare the communication style. ULTRA looks for the best words for some kinds of information and good forms and equivalents for some expression in target language.
+
+==References==
+{{reflist}}
+
+== External ==<!-- After listing your sources please cite them using inline citations and place them after the information they cite. Please see http://en.wikipedia.org/wiki/Wikipedia:REFB for instructions on how to add citations. -->
+*Austermuhl Frank, ″Electronic tools for translations″, Manchester 2001
+*Wilks Yorick, ″Machine Translation. Its Scope and Limits.″, Springer Science+Business Media LLC 2009
+*Farwell David, Wilks Yorick, "ULTRA: A multilingual machine translator", Washington 1991
+
+[[Category:Computational linguistics]]

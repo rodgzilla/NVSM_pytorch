@@ -1,0 +1,122 @@
+{{about|the mental process|the journal|Cognition (journal)}}
+{{See also|Animal cognition}}
+{{redirect|Cognitive}}
+'''Cognition''' is "the mental action or process of acquiring knowledge and understanding through thought, experience, and the senses".<ref>{{Cite web|title = cognition - definition of cognition in English from the Oxford dictionary|url = http://www.oxforddictionaries.com/definition/english/cognition|website = www.oxforddictionaries.com|access-date = 2016-02-04}}</ref> It encompasses many aspects of [[intellectual function]]s and  processes such as [[attention]], the formation of [[knowledge]], [[memory]] and [[working memory]], [[Value judgment|judgment]] and [[evaluation]], [[reason]]ing and "[[computation]]", [[problem solving]] and [[decision making]], [[comprehension (logic)|comprehension]] and production of [[language]]. Cognitive processes use existing knowledge and generate new knowledge.
+
+The processes are analyzed from different perspectives within different contexts, notably in the fields of [[linguistics]], [[anesthesia]], [[neuroscience]], [[psychiatry]], [[psychology]], [[education]], [[philosophy]], [[anthropology]], [[biology]], [[systemics]], [[logic]], and [[computer science]].<ref>{{cite book|last=Von Eckardt|first=Barbara|title=What is cognitive science?|year=1996|publisher=MIT Press|location=Massachusetts|pages=45-72|url=https://books.google.com/?id=E8l48-DZln0C&pg=PA13&dq=what+is+cognition#v=onepage&q=what%20is%20cognition&f=false|isbn=9780262720236}}</ref> These and other different approaches to the analysis of cognition are synthesised in the developing field of [[cognitive science]], a progressively autonomous [[academic discipline]].
+
+== Etymology ==
+The word ''cognition'' comes from the [[Latin]] verb ''cognosco'' (''con'', 'with', and ''gnōscō'', 'know'; itself a cognate of the [[Ancient Greek|Greek]] verb γι(γ)νώσκω, ''gi(g)nόsko'', meaning 'I know, perceive'), meaning 'to conceptualize' or 'to recognize'.<ref>{{cite book|title=The Search for a Theory of Cognition: Early Mechanisms and New Ideas|author=Stefano Franchi, Francesco Bianchini|publisher=Rodopi, 2011|chapter=On The Historical Dynamics Of Cognitive Science: A View From The Periphery|page=XIV}}</ref>
+
+== The beginnings of the studies on cognition ==
+The word ''cognition'' dates back to the 15th century, when it meant "thinking and awareness".<ref>Cognition: Theory and Practice by Russell Revlin</ref> Attention to cognitive processes came about more than eighteen centuries earlier, however, beginning with [[Aristotle]] (384–322 BC) and his interest in the inner workings of the mind and how they affect the human experience. Aristotle focused on cognitive areas pertaining to memory, perception, and mental imagery. He placed great importance on ensuring that his studies were based on empirical evidence, that is, scientific information that is gathered through observation and conscientious experimentation.<ref>{{cite book|last=Matlin|first=Margaret|title=Cognition|year=2009|publisher=John Wiley & Sons, Inc.|location=Hoboken, NJ|page=4}}</ref> Two millennia later, as [[psychology]] emerged as a burgeoning field of study in Europe and then gained a following in America, other scientists like Wilhelm Wundt, Herman Ebbinghaus, Mary Whiton Calkins, and William James would offer their contributions to the study of human cognition.
+
+[[Wilhelm Wundt]] (1832–1920) emphasized the notion of what he called introspection: examining the inner feelings of an individual. With introspection, the subject had to be careful to describe his or her feelings in the most objective manner possible in order for Wundt to find the information scientific.<ref name="Fuchs">{{cite journal|last=Fuchs|first=A. H.|author2=Milar, K.J.|title=Psychology as a science|journal=Handbook of psychology|year=2003|volume=1|issue=The history of psychology|pages=1–26|doi=10.1002/0471264385.wei0101}}</ref><ref>{{cite book|last=Zangwill|first=O. L.|title=The Oxford companion to the mind|year=2004|publisher=Oxford University Press|location=New York|pages=951–952}}</ref> Though Wundt's contributions are by no means minimal, modern psychologists find his methods to be quite subjective and choose to rely on more objective procedures of experimentation to make conclusions about the human cognitive process.
+
+[[Hermann Ebbinghaus]] (1850–1909) conducted cognitive studies that mainly examined the function and capacity of human memory. Ebbinghaus developed his own experiment in which he constructed over 2,000 syllables made out of nonexistent words, for instance EAS. He then examined his own personal ability to learn these non-words. He purposely chose non-words as opposed to real words to control for the influence of pre-existing experience on what the words might symbolize, thus enabling easier recollection of them.<ref name=Fuchs /><ref name= "Zangwill">{{cite book|last=Zangwill|first=O.L.|title=The Oxford companion to the mind|year=2004|publisher=Oxford University Press|location=New York|page=276}}</ref> Ebbinghaus observed and hypothesized a number of variables that may have affected his ability to learn and recall the non-words he created. One of the reasons, he concluded, was the amount of time between the presentation of the list of stimuli and the recitation or recall of same.  Ebbinghaus was the first to record and plot a "learning curve," and a "forgetting curve."<ref>T.L. Brink (2008) Psychology: A Student Friendly Approach. "Unit 7: Memory." p. 126</ref> His work heavily influenced the study of serial position and its effect on memory, discussed in subsequent sections.
+
+[[Mary Whiton Calkins]] (1863–1930) was an influential American pioneer in the realm of psychology. Her work also focused on the human memory capacity. A common theory, called the [[recency effect]], can be attributed to the studies that she conducted.<ref>{{cite journal|last=Madigan|first=S.|author2=O'Hara, R.|title=Short-term memory at the turn of the century: Mary Whiton Calkin's memory research|journal=American Psychologist|year=1992|volume=47|pages=170–174|doi=10.1037/0003-066X.47.2.170|issue=2}}</ref> The recency effect, also discussed in the subsequent experiment section, is the tendency for individuals to be able to accurately recollect the final items presented in a sequence of stimuli. Calkin's theory is closely related to the aforementioned study and conclusion of the memory experiments conducted by Hermann Ebbinghaus.<ref name="Matlin">{{cite book|last=Matlin|first=Margaret|title=Cognition|year=2009|publisher=John Wiley & Sons, Inc.|location=Hoboken, NJ|page=5}}</ref>
+
+[[William James]] (1842–1910) is another pivotal figure in the history of cognitive science. James was quite discontent with Wundt's emphasis on introspection and Ebbinghaus' use of nonsense stimuli. He instead chose to focus on the human learning experience in everyday life and its importance to the study of cognition. James' most significant contribution to the study and theory of cognition was his textbook ''Principles of Psychology'' that preliminarily examines aspects of cognition such as perception, memory, reasoning, and attention.<ref name=Matlin />
+
+== In psychology ==
+[[File:Generalization process using trees PNG version.png|thumb|alt=Diagram|When the mind makes a generalization such as the [[concept]] of ''tree'', it extracts similarities from numerous examples; the simplification enables higher-level thinking (abstract thinking).]]
+In psychology, the term "cognition" is usually used within an [[information processing]] view of an individual's psychological [[functionalism (philosophy of mind)|functions]] (see [[cognitivism (psychology)|cognitivism]]),<ref name="Sternberg2009">Sternberg, R. J., & Sternberg, K. (2009). Cognitive psychology (6th Ed.). Belmont, CA: Wadsworth, Cengage Learning.</ref> and it is the same in [[cognitive engineering]];<ref name="Blomberg">{{cite journal|author = Blomberg, O.|year = 2011|title = Concepts of cognition for cognitive engineering|journal = [[International Journal of Aviation Psychology]]|volume = 21|issue = 1|pages = 85–104|doi = 10.1080/10508414.2011.537561}}</ref> in a branch of [[social psychology]] called [[social cognition]], the term is used to explain [[Attitude (psychology)|attitudes]], [[Attribution (psychology)|attribution]], and group dynamics.<ref name="Sternberg2009"/>
+
+Human cognition is conscious and [[unconscious mind|unconscious]], concrete or abstract, as well as intuitive (like knowledge of a language) and conceptual (like a model of a language). It encompasses processes such as [[memory]], [[Association of Ideas|association]], [[concept formation]], [[pattern recognition]], [[language]], [[attention]], [[perception]], [[action (philosophy)|action]], [[problem solving]] and [[mental images|mental imagery]].<ref>''Sensation & Perception'', 5th ed. 1999, Coren, Ward & Enns, p. 9</ref><ref>''Cognitive Psychology'', 5th ed. 1999, Best, John B., pp. 15–17</ref> Traditionally, [[emotion]] was not thought of as a cognitive process, but now much research is being undertaken to examine the [[cognitive psychology]] of emotion; research is also focused on one's awareness of one's own strategies and methods of cognition, which is called [[metacognition]].
+
+While few people would deny that cognitive processes are a function of the [[brain]], a cognitive theory will not necessarily make reference to the brain or to biological processes (compare [[neurocognitive]]). It may purely describe behavior in terms of information flow or function. Relatively recent fields of study such as [[neuropsychology]] aim to bridge this gap, using cognitive paradigms to understand how the brain implements the information-processing functions (see also [[cognitive neuroscience]]), or to understand how pure information-processing systems (e.g., computers) can simulate human cognition (see also [[artificial intelligence]]). The branch of psychology that studies brain injury to infer normal cognitive function is called [[cognitive neuropsychology]]. The links of cognition to [[evolution]]ary demands are studied through the investigation of [[animal cognition]].
+
+=== Piaget's theory of cognitive development ===
+For years, sociologists and psychologists have conducted studies on [[cognitive development]] or the construction of human thought or mental processes.
+
+[[Jean Piaget]] was one of the most important and influential people in the field of Developmental Psychology. He believed that humans are unique in comparison to animals because we have the capacity to do "abstract symbolic reasoning." His work can be compared to [[Lev Vygotsky]], [[Sigmund Freud]], and [[Erik Erikson]] who were also great contributors in the field of Developmental Psychology. Today, Piaget is known for studying the cognitive development in children. He studied his own three children and their intellectual development and came up with a theory that describes the stages children pass through during development.<ref>{{cite web|last=Cherry|first=Kendra|title=Jean Piaget Biography|url=http://psychology.about.com/od/profilesofmajorthinkers/p/piaget.htm|publisher=The New York Times Company|accessdate=18 September 2012}}</ref>
+
+{| class="wikitable"
+|-
+! Stage !! Age or Period !! Description
+|-
+| Sensorimotor stage || Infancy (0–2 years) || Intelligence is present; motor activity but no symbols; knowledge is developing yet limited; knowledge is based on experiences/ interactions; mobility allows child to learn new things; some language skills are developed at the end of this stage. The goal is to develop object permanence; achieves basic understanding of causality, time, and space.
+|-
+| Pre-operational stage || Toddler and Early Childhood (2–7 years) || Symbols or language skills are present; memory and imagination are developed; nonreversible and nonlogical thinking; shows intuitive problem solving; begins to see relationships; grasps concept of conservation of numbers; egocentric thinking predominates.
+|-
+| Concrete operational stage || Elementary and Early Adolescence (7–12 years) || Logical and systematic form of intelligence; manipulation of symbols related to concrete objects; thinking is now characterized by reversibility and the ability to take the role of another; grasps concepts of the conservation of mass, length, weight, and volume; operational thinking predominates nonreversible and egocentric thinking
+|-
+| Formal operational stage || Adolescence and Adulthood (12 years and on) || Logical use of symbols related to abstract concepts; Acquires flexibility in thinking as well as the capacities for abstract thinking and mental hypothesis testing; can consider possible alternatives in complex reasoning and problem solving.<ref>Parke, R. D., & Gauvain, M. (2009). Child psychology: A contemporary viewpoint (7th Ed.). Boston, MA: McGraw-Hill.</ref>
+|}
+
+=== Common experiments on human cognition ===
+'''Serial position'''
+
+The serial position experiment is meant to test a theory of memory that states that when information is given in a serial manner, we tend to remember information in the beginning of the sequence, called the primacy effect, and information in the end of the sequence, called the recency effect.  Consequently, information given in the middle of the sequence is typically forgotten, or not recalled as easily. This study predicts that the recency effect is stronger than the primacy effect, because the information that is most recently learned is still in working memory when asked to be recalled. Information that is learned first still has to go through a retrieval process. This experiment focuses on human memory processes.<ref>{{cite journal|last=Surprenant|first=A|title=Distinctiveness and serial position effects in total sequences|journal=Perception and Psychophysics|year=2001|volume=63|pages=737–745|doi=10.3758/BF03194434|pmid=11436742|issue=4}}</ref>
+
+'''Word superiority'''
+
+The word superiority experiment presents a subject with a word, or a letter by itself, for a brief period of time, i.e. 40ms, and they are then asked to recall the letter that was in a particular location in the word. By theory, the subject should be better able to correctly recall the letter when it was presented in a word than when it was presented in isolation. This experiment focuses on human speech and language.<ref>{{cite journal|last=Krueger|first=L.|title=The word-superiority effect and phonological recoding|journal=Memory & Cognition|year=1992|volume=20|pages=685–694|doi=10.3758/BF03202718|issue=6}}</ref>
+
+'''Brown-Peterson'''
+
+In the Brown-Peterson experiment, participants are briefly presented with a trigram and in one particular version of the experiment, they are then given a distractor task, asking them to identify whether a sequence of words are in fact words, or non-words (due to being misspelled, etc.). After the distractor task, they are asked to recall the trigram from before the distractor task. In theory, the longer the distractor task, the harder it will be for participants to correctly recall the trigram. This experiment focuses on human short-term memory.<ref>{{cite journal|last=Nairne|first=J.|author2=Whiteman, H. |author3=Kelley, M. |title=Short-term forgetting of order under conditions of reduced interference|journal=Quarterly Journal of Experimental Psychology A: Human Experimental Psychology|year=1999|volume=52|pages=241–251|doi=10.1080/713755806|url=http://www1.psych.purdue.edu/~nairne/pdfs/32.pdf}}</ref>
+
+'''Memory span'''
+
+During the memory span experiment, each subject is presented with a sequence of stimuli of the same kind; words depicting objects, numbers, letters that sound similar, and letters that sound dissimilar. After being presented with the stimuli, the subject is asked to recall the sequence of stimuli that they were given in the exact order in which it was given. In one particular version of the experiment, if the subject recalled a list correctly, the list length was increased by one for that type of material, and vice versa if it was recalled incorrectly. The theory is that people have a memory span of about seven items for numbers, the same for letters that sound dissimilar and short words. The memory span is projected to be shorter with letters that sound similar and with longer words.<ref>{{cite journal|last=May|first=C.|author2=Hasher, L. |author3=Kane, M. |title=The role of interference in memory span|journal=Memory & Cognition|year=1999|volume=27|pages=759–767|doi=10.3758/BF03198529|issue=5|pmid=10540805}}</ref>
+
+'''Visual search'''
+
+In one version of the visual search experiment, a participant is presented with a window that displays circles and squares scattered across it. The participant is to identify whether there is a green circle on the window. In the "featured" search, the subject is presented with several trial windows that have blue squares or circles and one green circle or no green circle in it at all. In the "conjunctive" search, the subject is presented with trial windows that have blue circles or green squares and a present or absent green circle whose presence the participant is asked to identify. What is expected is that in the feature searches, reaction time, that is the time it takes for a participant to identify whether a green circle is present or not, should not change as the number of distractors increases. Conjunctive searches where the target is absent should have a longer reaction time than the conjunctive searches where the target is present. The theory is that in feature searches, it is easy to spot the target, or if it is absent, because of the difference in color between the target and the distractors. In conjunctive searches where the target is absent, reaction time increases because the subject has to look at each shape to determine whether it is the target or not because some of the distractors if not all of them, are the same color as the target stimuli. Conjunctive searches where the target is present take less time because if the target is found, the search between each shape stops.<ref>{{cite journal|last=Wolfe|first=J. |author2=Cave, K. |author3=Franzel, S.|title=Guided search: An alternative to the feature integration model for visual search|journal=Journal of Experimental Psychology: Human Perception and Performance|year=1989|volume=15|pages=419–433|doi=10.1037/0096-1523.15.3.419|issue=3}}</ref>
+
+'''Knowledge representation'''
+
+The [[semantic network]] of [[knowledge representation]] systems has been studied in various paradigms. One of the oldest paradigms is the [[leveling]] and [[sharpening]] of stories as they are repeated from memory studied by [[Frederic Bartlett|Bartlett]]. The [[semantic differential]] used [[factor analysis]] to determine the main meanings of words, finding that [[value (ethics)|value]] or "goodness" of words is the first factor. More controlled experiments examine the categorical relationships of words in [[free recall]]. The hierarchical structure of words has been explicitly mapped in [[George Armitage Miller|George Miller]]'s [[Wordnet]]. More dynamic models of semantic networks have been created and tested with [[neural network]] experiments based on computational systems such as [[latent semantic analysis]] (LSA), [[Thomas Bayes|Bayesian]] analysis, and multidimensional [[factor analysis]]. The semantics (meaning) of words is studied by all the disciplines of [[cognitive science]].{{citation needed|date=May 2013}}
+
+=== Recent developments ===
+An emergent field of research, referred to as "Team Cognition", is arising in military sciences. "Team cognition" indicates “an emergent property of teams that results from the interplay of individual cognition and team process behaviors [...] [Team cognition] underlies team performance” (Arizona State University East, 2005, Cooke NJ, 2005).<ref>Russo, M.; Fiedler, E.; Thomas, M.; McGhee (2005),  United States Army Aeromedical Research Laboratory. Cognitive Performance in Operational Environments, North Atlantic Treaty Organization (NATO) RTO-MP-HFM-124, 14 - 3 - Open access material, PUBLIC RELEASE - {{ISBN|92-837-0044-9}} - “Strategies to Maintain Combat Readiness during Extended Deployments – A Human Systems Approach”.</ref>
+
+== Metacognition ==
+{{Transcluded section|Metacognition}}
+{{trim|{{#Section-h:Metacognition}}}}
+
+== See also ==
+{{Portal|thinking|Philosophy}}
+* [[Cognitive biology]]
+* [[Cognitive computing]]
+* [[Cognitive psychology]]
+* [[Cognitive science]]
+* [[Comparative cognition]]
+* [[Information processing technology and aging]]
+* [[Nootropic]]
+* [[Outline of human intelligence]] – topic tree presenting the traits, capacities, models, and research fields of human intelligence, and more.
+* [[Outline of thought]] – topic tree that identifies many types of thoughts, types of thinking, aspects of thought, related fields, and more.
+* [[Cognitive Abilities Screening Instrument]]
+
+== References ==
+{{reflist|2}}
+
+== Further reading ==
+
+* {{cite book |last=[[Alfredo Ardila|Ardila]] |first=Alfredo|title=Historical Development of Human Cognition. A Cultural-Historical Neuropsychological Perspective |publisher=Springer |year=2018 |isbn= 978-9811068867}}
+* {{cite book |last=Coren |first=Stanley |author2=Lawrence M. Ward |author3=James T. Enns  |title=Sensation and Perception |publisher=Harcourt Brace |year=1999 |page=9 |isbn= 0-470-00226-3}}
+* Lycan, W.G., (ed.). (1999). ''Mind and Cognition: An Anthology'', 2nd Edition. Malden, Mass: Blackwell Publishers, Inc.
+* {{Cite book |title=What Intelligence Tests Miss: The Psychology of Rational Thought |last=Stanovich |first=Keith |authorlink= |year=2009 |publisher=Yale University Press |location=New Haven (CT) |isbn=978-0-300-12385-2 |laysummary=http://web.mac.com/kstanovich/iWeb/Site/YUP_Reviews_files/TICS_review.pdf |laydate=21 November 2010 }}
+
+== External links ==
+{{wikiversity}}
+{{wikibooks|Cognitive psychology}}
+{{wiktionary}}
+* [http://www.elsevier.com/wps/find/journaldescription.cws_home/505626/description#description ''Cognition''] An international journal publishing theoretical and experimental papers on the study of the mind.
+* [http://arquivo.pt/wayback/20160522150143/http%3A//cf.hum.uva.nl/mmm/ Information on music cognition, University of Amsterdam]
+* [http://www.cognitie.nl/ Cognitie.NL] Information on cognition research, Netherlands Organisation for Scientific Research (NWO) and [[University of Amsterdam]] (UvA)
+* Emotional and Decision Making Lab, Carnegie Mellon, [https://web.archive.org/web/20050405203028/http://computing.hss.cmu.edu/lernerlab/home.php EDM Lab]
+* [http://news.softpedia.com/news/The-Limits-of-Human-Cognition-37388.shtml The Limits of Human Cognition] – an article describing the evolution of mammals' cognitive abilities
+* [http://www.physorg.com/news194023346.html Half-heard phone conversations reduce cognitive performance]
+* [http://www.scientificamerican.com/article.cfm?id=the-limits-of-intelligence The limits of intelligence]  Douglas Fox, ''[[Scientific American]]'', 14 June 14, 2011.
+
+{{Mental processes}}
+{{Human intelligence topics}}
+
+{{Authority control}}
+
+[[Category:Cognition| ]]
+[[Category:Cognitive science]]
+[[Category:Psychology]]

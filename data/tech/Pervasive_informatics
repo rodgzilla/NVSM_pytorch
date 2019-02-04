@@ -1,0 +1,59 @@
+{{Use British English|date=October 2015}}
+
+'''Pervasive informatics''' is the study of how information affects interactions with the built environments they occupy. The term and concept were initially introduced by Professor [[Kecheng Liu]] during a keynote speech at the SOLI 2008 international conference.<ref name="Keynote">[[Kecheng Liu|Liu, K.]] [http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4686343&tag=1"], ''Pervasive informatics in intelligent spaces for living and working'', Keynote, IEEE international Conference on Service Operations and Logistics, and Informatics 2009, xviii –xix”</ref>{{not in citation given|reason=This does not show the term was first established there|date=October 2015}}
+
+The built environment is rich with information which can be utilised by its occupants to enhance the quality of their work and life. By introducing ICT systems, this information can be created, managed, distributed and consumed more effectively, leading to more advanced interactions between users and the environment. The social interactions in these spaces are of additional value, and Informatics can effectively capture the complexities of such information rich activities.<ref name="Liu" /> Information literally pervades, or spreads throughout, these socio-technical systems, and pervasive informatics aims to study, and assist in the design of, pervasive information environments, or pervasive spaces, for the benefit of their stakeholders and users.
+
+== Pervasive computing ==
+Pervasive informatics may be initially viewed as simply another branch of [[Pervasive Computing|pervasive]], or [[ubiquitous computing]]. However, pervasive informatics places a greater emphasis on the ICT-enhanced socio-technical pervasive spaces, as opposed to the technology driven direction of pervasive computing. This distinction between fields is analogous to that of  [[Informatics (academic field)|informatics]] and  [[computing]], where Informatics focuses on the study of information, while the primary concern of computing is the processing of information. Pervasive informatics aims to analyse the pervasive nature of information, examining its various representations and transformations in pervasive spaces, which are enabled by pervasive computing technologies e.g. [[smart device]]s and intelligent control systems.
+
+== Pervasive spaces ==
+A pervasive space is characterised by the physical and informational interaction between the occupants and the built environment e.g. the act of controlling the building is a physical interaction, while the space responding to this action/user instruction is an informational interaction. 
+
+Intelligent pervasive spaces are those that display intelligent behaviour in the form of adaptation to user requirements or the environment itself. Such intelligent behaviour can be implemented using artificial intelligence algorithms and agent-based technologies. These intelligent spaces aim to provide communication and computing services to their occupants in such a way that the experience is almost transparent e.g. automated control of heating and ventilation based on occupant preference profiles.<ref name="Liu" />
+
+The term first appeared in an IBM Research Report <ref>Mcfaddin, S., D. Coffman et al.[http://domino.research.ibm.com/library/cyberdig.nsf/papers/A164F52F0FE2A3DD85257379005811FE/$File/rc24381.pdf"], ''Celadon: Delivering Business Services to Mobile Users in Public Spaces'', IBM Research Report, RC24381.</ref> but was not properly defined or discussed until later. An intelligent pervasive space is a “social and physical space with enhanced capability through ICT for human to interact with the built environments” <ref name="Keynote" /> An alternative definition is “an adaptable and dynamic area that optimises user services and management processes using information systems and networked ubiquitous technologies”.<ref>Moran, S. and Nakata, K. [http://centaur.reading.ac.uk/12316/"], ''Ubiquitous Monitoring and Behavioural Change: A Semiotic Perspective''. 11th International Conference on Informatics and Semiotics in Organisations (ICISO). Beijing University of Technology, Beijing, China: 449-456”</ref> A common point between these definitions is that pervasive computing technologies are the means by which intelligence and interactions are achieved in pervasive spaces, with the purpose of enhancing a users experience.
+
+== Theories and techniques ==
+Historically, there have been few attempts to consolidate approaches to studying the complex interplay between occupants and the built environment, and to assist in the design of pervasive information environments.  Many theoretical interdisciplinary approaches are relevant to the design of effective pervasive spaces. A core concept in pervasive informatics is the range of interactions that may occur in pervasive spaces: people to people, people to the physical and the physical space to technological artefacts such as sensors. In order to study these interactions it is necessary to have an understanding of what information is being created and exchanged.  In light of this, a series of theories which enable us to consider both social and technological interactions together form the foundations of pervasive informatics <ref name="Liu">[[Kecheng Liu |Liu, K.]], Nakata, K. and Harty, C. [http://www.ingentaconnect.com/content/earthscan/inbi/2010/00000002/00000001/art00002"], ''Pervasive informatics: theory, practice and future directions.'' Intelligent Buildings International, Volume 2, Number 1, 2010 , pp. 5-19(15)</ref>
+
+=== STS ===
+[[Socio-technical systems]] provide an approach which assists in understanding and supporting the use of pervasive technologies. The space could be considered as a network of artefacts, information, technology and occupants. By adopting STS approaches, a means for dynamically investigating and mapping such networks becomes possible.
+
+=== Distributed cognition ===
+[[Distributed cognition]] can be used to explain how information is passed and processed, with a focus on both interactions between people, in addition to their interactions with the environment.<ref name="hollan">Hollan, J., HUtchins, E. and Krish, D. [http://cleo.ics.uci.edu/teaching/Winter10/231/readings/2A-HollanHutchinsKirsh-DCOG-TOCHI.pdf"], Distributed Cognition: Toward a New
+Foundation for Human-Computer
+Interaction Research. ACM Transactions on Computer-Human Interaction, Vol. 7, No. 2, June 2000, Pages 174–196.</ref> These interactions are analysed in terms of the trajectories of information.
+
+=== CSCW ===
+Human interactions with a space, and its effect on coordination mechanisms have been examined in the field of [[computer supported cooperative work]] (CSCW). The concepts of [[media space]]s<ref name="gaver">Gaver, W., [http://www.gold.ac.uk/media/07gaver.videoAffs.cscw92.pdf"] {{webarchive|url=https://web.archive.org/web/20120325031918/http://www.gold.ac.uk/media/07gaver.videoAffs.cscw92.pdf |date=2012-03-25 }}, ''The Affordances of Media Spaces for Collaboration''. In Proceedings of CSCW'92 (Toronto)</ref> and awareness have also emerged from CSCW which are of relevance to pervasive informatics.
+
+=== Semiotics ===
+[[Semiotics]], the study of signs, can be used to assess the effectiveness of a built environment from six different levels: physical, empirical, syntactical, semantic, pragmatic and social. Semiotics enables us to understand the nature and characteristics of sign-based interactions in pervasive spaces.
+
+== Trend and future research ==
+The current technology-centred view of pervasive computing is no longer sufficient for studying the information in the built environment. Socio-technical approaches are required to direct attention to the interaction between the built environment and its occupants. 
+The concept of pervasive informatics then captures this shift, and enables current research efforts in different fields to converge their focus and consolidate their methods under one label, leading to a better direction and understanding of this complex domain. Research issues identified for further study in pervasive informatics: 
+
+*Understanding the impacts of intelligent pervasive spaces and enabling technologies on occupants <ref>Moran, S. and Nakata, K. [http://www.ingentaconnect.com/content/earthscan/inbi/2010/00000002/00000001/art00005"], ''Analysing the factors affecting users in intelligent pervasive spaces'', Intelligent Buildings International, Volume 2, Number 1, 2010 , pp. 57-71”</ref>
+*Designing organisations as pervasive information systems—the role of information and artefacts in communication and interaction.
+*Context-dependent information and knowledge management, towards effective decision support in pervasive spaces.
+*Service-oriented design of intelligent buildings as adaptive and learning information spaces with regards to norms and emerging practices in intelligent pervasive spaces.
+*Through-life intelligent support in building management, with a better understanding of the lifecycle of pervasive spaces from the conception, design, implementation, utilisation till recycling to achieve the building performance and sustainability.
+
+The list, of course, is not exhaustive, but they all address the issues that lie on the boundaries between the physical, informational and social-capturing the essence of pervasive spaces.<ref name="Liu" />
+
+==See also==
+* [[Smart city]]
+
+== References ==
+<!--- See http://en.wikipedia.org/wiki/Wikipedia:Footnotes on how to create references using <ref></ref> tags which will then appear here automatically -->
+{{Reflist}}
+
+== External links ==
+
+* [http://www.henley.reading.ac.uk/IRC/Research/irc-research.aspx Informatics Research Centre, University of Reading]
+
+[[Category:Schools of informatics]]
+[[Category:Computing and society]]
+[[Category:Interdisciplinary subfields of sociology]]

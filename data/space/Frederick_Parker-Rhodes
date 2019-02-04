@@ -1,0 +1,98 @@
+{{EngvarB|date=September 2014}}
+{{Use dmy dates|date=September 2014}}
+{{Infobox scientist
+| name = Frederick Parker-Rhodes
+| birth_date = {{Birth date|df=yes|1914|11|21}}
+| birth_place = Newington, [[Yorkshire]]
+| death_date = {{Death date and age|df=yes|1987|3|2|1914|11|21}}
+| residence = UK
+| nationality = British
+| field = [[Mycology]], [[Plant Pathology]], Mathematics, [[Linguistics]], [[Computer Science]]
+| known_for = Contributions to [[computational linguistics]], [[combinatorial physics]], [[bit-string physics]], [[plant pathology]], and [[mycology]]
+| author_abbreviation_bot = Park.-Rhodes
+}}
+
+'''Arthur Frederick Parker-Rhodes''' (21 November 1914 – 2 March 1987) was an English [[linguist]], [[plant pathology|plant pathologist]], [[computer scientist]], mathematician, [[mysticism|mystic]], and [[mycologist]], who also introduced original theories in [[theoretical physics|physics]].
+
+==Background & education==
+Arthur Frederick Parker-Rhodes was born in Newington, [[Yorkshire]] on 21 November 1914. He was educated at [[Marlborough College]] and [[Magdalene College, Cambridge]], from where he graduated in 1934 and subsequently received his PhD. Being of independent means, he was able to pursue a variety of interests.<ref name="Timesobit"/><ref name="Ainsworth1996"/> He married author and political activist [[Damaris Parker-Rhodes]] and the couple earned a reputation as "[[bohemianism|bohemians]]" and eccentrics.<ref name="DGale"/> They were both members of the [[Communist Party of Great Britain|Communist Party]] ([[Klaus Fuchs]] stayed with them in Cambridge, Alan Nunn May was a local friend),<ref name="DGale"/> they became disillusioned with communism and in 1948 joined the [[Society of Friends]].<ref name="Wholesight"/>
+
+==Plant pathology and mycology==
+During the Second World War, Parker-Rhodes worked as a [[plant pathology|plant pathologist]] at [[Long Ashton Research Station]] from where he published a series of research papers on the mechanism of [[fungicides|fungicidal]] actions. His personal interest, however, was in the larger fungi, particularly [[agarics]] (mushrooms and toadstools), and he was a familiar figure at forays of the [[British Mycological Society]] in the 1940s and 1950s. He even published a statistical survey of these forays.  For nearly 30 years Parker-Rhodes tutored a course on fungi at the [[Flatford Mill]] [[Field Studies Council|Field Studies Centre]] in Suffolk and, in 1950, published a popular book, '''''Fungi, friends and foes'''''.<ref>''Fungi, friends and foes'' Paul Elek (1950)</ref> Subsequently, he produced papers studying the [[kinetics (physics)|kinetics]] of [[fairy rings]] and a series surveying the larger fungi of [[Skokholm]], an island off the western coast of [[Wales]].<ref name="Ainsworth1996"/> He described several taxa new to science, including the species now known as ''Trechispora clanculare'' (Park.-Rhodes) K.H. Larss. which he found in a [[puffin]] burrow.
+
+==Mathematical linguistics and computer science==
+Parker-Rhodes was an accomplished [[linguist]] and was able to read at least 23 languages, claiming that they became "easier after the first half-dozen".<ref name="Wilks1995"/> He was introduced to Chinese and formal linguistic [[syntax]] by [[Michael Halliday]] at Cambridge.<ref name="Wilks1995"/> Parker-Rhodes was also a mathematician, with a particular interest in [[statistics]] and applications of [[Lattice (order)|lattice theory]]. Both these areas of expertise were of use to him when he joined the [[Cambridge Language Research Unit]], an independent research centre established in 1955 by [[Margaret Masterman]]. The unit was said to house "an extraordinary collection of eccentrics" engaged in research on language and computing, including [[information retrieval]].<ref name="Wilks1995"/> Parker-Rhodes' colleagues at CLRU included [[Roger Needham]], [[Karen Spärck Jones]], [[Ted Bastin]], [[Stuart Linney]], and [[Yorick Wilks]].
+   
+Parker-Rhodes was "an original thinker in [[information retrieval]], [[quantum mechanics]] and [[computational linguistics]]."<ref name="Wilks1995"/> He wrote A Sequential Logic for Information Structuring in "Mathematics of a Hierarchy of Brouwerian Operations" with Yorick Wilks (Fort Belvoir Defense Technical Information Center 01 MAY 1965).
+
+Parker-Rhodes also co-authored papers with Needham on the "theory of clumps" in relation to [[information retrieval]] and [[computational linguistics]].<ref name="Clumps"/>
+
+He wrote a book on language structure and the logic of descriptions, '''''Inferential Semantics''''', published in 1978.<ref>''Inferential Semantics'', Humanities Press (1978) {{ISBN|0-391-00764-5}}</ref>  The work analyzes sentences and longer passages into mathematical lattices (the kind in [[Lattice (order)|Lattice Theory]], not [[crystal lattices]]) which are [[semantic networks]].  These are inferred not only from sentence [[syntax]] but also from [[grammatical focus]] and sometimes [[Prosody (linguistics)|prosody]].   Each node the network is a concept in one or more structured conceptual dimensions (called ''base domains'', which are also lattice structures); this places a description into a resulting abstract lattice of possible descriptions, ordered from general to specific.  This structure can be used for automated inference in [[artificial intelligence]] and [[machine translation]].  He factors some of the dimensions (base domains, like a [[Quantifier (logic)|'''quantifier''']] '''lattice''', a [[Thematic relation|'''(deep) case''']] '''lattice''', et al.) into [[sublattice]]-factors.  Division of the lattice of possible descriptions into factors acts to [[wikt:divide and conquer|divide-and-conquer]] the abstract lattice of all possible descriptions into simpler, independent semantic "factors" or "dimensions".
+
+==Physics==
+
+In physics, he is remembered partly for his founding contribution to [[combinatorial physics]], based on his elucidation of "[[combinatorial hierarchy]]", a [[mathematics|mathematical structure]] of [[Bit-string physics|bit-strings]] generated by an [[algorithm]] based on discrimination ([[exclusive-or]] between bits).<ref name="Timesobit"/>
+
+He published some of his ideas in fundamental physics (based on a logical "level below physics") in the book '''''The Theory of Indistinguishables''''' (1981).<ref>''The Theory of Indistinguishables: A Search for Explanatory Principles below the level of Physics'', Springer (1981) {{ISBN|90-277-1214-X}}</ref>  It identifies a logic based on adding to [[Equality (mathematics)|equality]] and [[Inequation|inequality]] a third fundamental relationship which is neither one: '''indistinguishability-in-principle'''.  For example, even with infinite knowledge, the three dimensions of a completely empty space are totally indistinguishable from one another, but they are still three, not one (contradicting [[Leibniz]]'s [[identity of indiscernibles|Identity of Indiscernibles]]).  It applies to cases of total [[symmetry]].  This logic is used to develop [[particle physics]] (see [[Identical particles|indistinguishability]]) and explain [[quantum]] phenomena.
+
+At the time of his death, Parker-Rhodes was completing his last book, '''''The Inevitable Universe''''', which combines elements of [[metaphysics]] with mathematics, resulting in actual physics.<ref name="Noyes"/>  It claims that one can infer various facts of modern physics solely by using logic and mathematics with very few assumptions.  Most simply, '''Statement 1.''' ''"Something exists."'', and '''Statement 2.''' ''"Statement 1. conveys no information."'' lead to the rest.  The universe and much of its fundamental physics are inevitable (they are derivable ''[[A priori and a posteriori|a priori]]'' ), not contingent, empirical or a happenstance.  He says that this theory is inconsistent with, among other things, the [[anthropic principle]].  The manuscript has been exchanged for years among interested physicists and others, and cited, but as of 2017 it remained unedited and unpublished.
+
+He was a member of the [[Alternative Natural Philosophy Association]], a group of physicists and mathematicians who met up in Cambridge in the 1960s and created a semi-formal association in 1979. Other key members included [[H. Pierre Noyes]], [[Ted Bastin]], [[Clive W. Kilmister]], and John Amson.<ref name="Manthey"/> The association sponsored an annual series of Parker-Rhodes memorial lectures, the first being given by John Amson in 1987.<ref name="Wilks1995"/><ref name="Noyes"/>
+
+His ''Times'' obituarist, Ted Bastin, says of Parker-Rhodes' personality and scientific contribution: "One must say, in sum, that Parker-Rhodes leaves us with an enigma – a situation to which he brought his characteristic gentle and slightly amused acquiescence.".<ref name="Timesobit"/>
+
+==Spiritual and other writings==
+Parker-Rhodes had published a pamphlet, ''Wholesight: The Spirit Quest'' (1978), that explored mythical tales and parables in an attempt to bring science and religion together.<ref name="Wholesight"/> He also produced a long poem, ''The Myth of the Rock'', of a spiritual nature.<ref name="Myth"/> His daughter, Oriole Parker-Rhodes, has electronically published some of the stories he told to his children, entitled ''Tales from the Sink''.<ref name="Kidsstories"/>  That and the Myth of the Rock are available free online at Archive.org.  The library of the Society of Friends in London holds a typescript of: The Wheel of Creation : An essay in Wholesight, towards a coherent model of the place of mankind in the cosmos" <ref>[http://quaker.adlibsoft.com/%28lbyrf0ursv2koq55qji4uvil%29/detail.aspx?parentpriref=# "The wheel of Creation" – found in Catalogue of the Library of the Society of Friends]. The catalogue also lists a number of contributions by Frederick Parker-Rhodes to ''The Friends Quarterly''.</ref>  He wrote a Key to the British Bacidiomytes which is held by the library at Kew Gardens.
+
+==Selected scientific publications==
+*Parker-Rhodes, A.F. (1949). [https://www.jstor.org/stable/2429029 "The Basidiomycetes of Skokholm Island. II. Genetical implications of spores measurement in two agarics".] ''New Phytologist'' '''48''' (2): 382–389. {{subscription}}
+*________________. (1950). ''Fungi-friends and Foes''. 140 pp. UK, London.
+*________________. (1950). "The Basidiomycetes of Skokholm Island. III. Genetic isolation in ''Panaeolus papilionaceous''". ''New Phytologist'' '''49''': 328–334.
+*________________. (1950). [https://www.jstor.org/stable/2430562 "The Basidiomycetes of Skokholm Island. IV. A case of hybridization in ''Psilocybe'' (''Deconica'')".] ''New Phytologist'' '''49''' (3): 335–343. {{subscription}}
+*________________. (1951). [https://www.jstor.org/stable/2429147 "The Basidiomycetes of Skokholm Island. V. An elementary theory of anemophilous dissemination".] ''New Phytologist'' '''50''' (1): 84–97. {{subscription}}
+*________________. (1951). [https://www.jstor.org/stable/2429175 "The Basidiomycetes of Skokholm Island. VII. Some floristic and ecological calculations".] ''New Phytologist'' '''50''' (2): 227–243. {{subscription}}
+*________________. (1951). [http://www.cybertruffle.org.uk/cyberliber/59351/0034/003/0360.htm "The Basidiomycetes of Skokholm Island. VI. Observations on certain uncommon species and varieties".] ''Transactions of the British Mycological Society'' '''34''' (3): 360–367.
+*________________. (1952). [http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.1952.tb06128.x/pdf "The Basidiomycetes of Skokholm Island. VIII. Taxonomic distributions".] (PDF) ''New Phytologist'' '''51''' (2): 216–228.
+*________________. (1953). [https://www.jstor.org/stable/2429240 "The Basidiomycetes of Skokholm Island. IX. Response to meteorological conditions".] ''New Phytologist'' '''52''' (1): 14–21. {{subscription}}
+*________________. (1953). [https://www.jstor.org/stable/2429245 "The Basidiomycetes of Thetford Chase. I. Correlation with age of plantation".] ''New Phytologist'' '''52''' (1): 65–70. {{subscription}}
+*________________. (1953). [http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.1953.tb07516.x/pdf "The Basidiomycetes of Skokholm Island. X. Population densities".] (PDF) ''New Phytologist'' '''52''' (3): 273–291.
+*________________. (1954). [http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.1954.tb05231.x/pdf "The Basidiomycetes of Skokholm Island. XI. Intramycelial variation in ''Hygrocybe turunda'' var. ''lepida''".] (PDF) ''New Phytologist'' '''53''' (1): 92–98.
+*________________. (1954). [http://www.cybertruffle.org.uk/cyberliber/59351/0037/003/0314.htm "Deme structure in higher fungi: ''Mycena galopus''".] ''Transactions of the British Mycological Society'' '''37''' (3): 314–320.
+*________________. (1954). [http://www.cybertruffle.org.uk/cyberliber/59351/0037/004/0324.htm "The Basidiomycetes of Skokholm Island. I. Annotated species list".] ''Transactions of the British Mycological Society'' '''37''' (4): 324–342.
+*________________. (1955). "The Basidiomycetes of Skokholm Island. XII. Correlation with the chief plant associations". ''New Phytologist'' '''54''' (2): 259–276.
+*________________. (1955). [http://www.cybertruffle.org.uk/cyberliber/59351/0038/002/0173.htm "Some typical communities of Basidiomycetes".] ''Transactions of the British Mycological Society'' '''38''' (2): 173.
+*________________. (1955). [http://www.cybertruffle.org.uk/cyberliber/59351/0038/003/0283.htm "Statistical aspects of fungus forays".] ''Transactions of the British Mycological Society'' '''38''' (3): 283–290.
+*________________. (1955). [http://www.cybertruffle.org.uk/cyberliber/59351/0038/004/0366.htm "The Basidiomycetes of Skokholm Island". XIII. ''Echinotrema clanculare'' gen. et sp. nov."] ''Transactions of the British Mycological Society'' '''38''' (4): 366–368.
+*________________. (1956). [http://aob.oxfordjournals.org/content/20/2/251.full.pdf "Distribution of fungi in a small wood".] (PDF) ''Annals of Botany London, N.S.'' '''20''' (78): 251–264.
+*________________. (1979). ''Handbook with Keys for the Identification of the Tachycarpic Hymenomycetidae, Namely All the Toadstools Hitherto Found in the British Isles''. 234 pp. UK; A.F. Parker-Rhodes.
+
+==References==
+{{reflist|24em|refs=
+<ref name="Timesobit">{{cite journal |author=Bastin, E. |year=1987 |title=Obituary of Dr Frederick Parker-Rhodes |journal=The Times |issue=11 March 1987 }}</ref>
+<ref name="Ainsworth1996">{{cite book |author=Ainsworth, GC. |title=Brief Biographies of British mycologists |publisher=British Mycological Society |page=132 |location=Stourbridge, UK |year=1996}}</ref>
+<ref name="Wholesight">{{cite book |author=Parker-Rhodes, F. |title=Wholesight: The Spirit Quest |publisher=Pendle Hill Publications |location=Wallingford, Pennsylvania |year=1978 |url=http://www.pendlehill.org/images/pamphlets/php217.pdf |accessdate=21 January 2011}}</ref>
+<ref name="DGale">D. Gale, Eruptives III http://www.strengthweekly.com/essays/eruptives-iii/  (accessed 20 January 2011)</ref>
+<ref name="Wilks1995">Y. Wilks, Arthur Frederick Parker-Rhodes: a memoir Downloadable from http://staffwww.dcs.shef.ac.uk/people/Y.Wilks/papers.html)</ref>
+<ref name="Clumps">{{cite journal |author=Needham R, Parker-Rhodes AF. |year=1960 |title=The theory of clumps |journal=Cambridge Language Research Unit, Report |issue=126 }}</ref>
+<ref name="Manthey">{{cite journal |author=Manthey M. |year=1993 |title=ANPA – The Alternative Natural Philosophy Association |journal=Cybernetics and Human Knowing |volume=2 |issue=2 }} http://www.imprint.co.uk/C&HK/vol2/v2-2mm.htm</ref>
+<ref name="Noyes">H. Pierre Noyes, The Inevitable Universe – Parker-Rhodes’ peculiar mixture of ontology and physics http://www.slac.stanford.edu/cgi-wrap/getdoc/slac-pub-5161.pdf (accessed 21 January 2011)</ref>
+<ref name="Myth">A.F. Parker-Rhodes, The Myth of the Rock https://archive.org/details/TheMythOfTheRock_70 (accessed 21 January 2011)</ref>
+<ref name="Kidsstories">A.F. Parker-Rhodes, Children's Stories http://frederickp-r.blogspot.com/ (accessed 21 January 2011)</ref>
+}}
+
+{{authority control}}
+
+{{DEFAULTSORT:Parker-Rhodes, Frederick}}
+[[Category:British computer scientists]]
+[[Category:British mycologists]]
+[[Category:British phytopathologists]]
+[[Category:1914 births]]
+[[Category:1987 deaths]]
+[[Category:Linguists from the United Kingdom]]
+[[Category:English Quakers]]
+[[Category:People educated at Marlborough College]]
+[[Category:Alumni of Magdalene College, Cambridge]]
+[[Category:20th-century British botanists]]
+[[Category:20th-century British mathematicians]]
+[[Category:20th-century British medical doctors]]
+[[Category:20th-century British scientists]]

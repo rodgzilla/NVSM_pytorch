@@ -1,0 +1,164 @@
+{{distinguish|Metalinguistics|Meta' language}}
+{{For|the programming language|ML (programming language)}}
+{{multiple issues|
+{{More footnotes|date=September 2010}}
+{{generalize|date=January 2013}}
+}}
+
+Broadly, any '''metalanguage''' is language or symbols used when language itself is being discussed or examined.<ref>2010. ''Cambridge Advanced Learner‘s Dictionary''. Cambridge: [[Cambridge University Press]]. Dictionary online. Available from http://dictionary.cambridge.org/dictionary/british/metalanguage Internet. Retrieved 20 November 2010</ref> In [[logic]] and [[linguistics]], a metalanguage is a language used to make statements about statements in another language (the [[object language]]). Expressions in a metalanguage are often distinguished from those in an object language by the use of italics, quotation marks, or writing on a separate line.{{citation needed|date=January 2018}} The structure of sentences and phrases in a metalanguage can be described by a [[metasyntax]].<ref>van Wijngaarden, A., et al. "[https://link.springer.com/chapter/10.1007/978-3-642-95279-1_2 Language and metalanguage]." Revised Report on the Algorithmic Language Algol 68. Springer, Berlin, Heidelberg, 1976. 17-35.</ref>
+
+== Types ==
+
+There are a variety of recognized metalanguages, including ''embedded'', ''ordered'', and ''nested'' (or, ''hierarchical'').
+
+=== Embedded ===
+
+An '''embedded metalanguage''' is a language formally, naturally and firmly fixed in an object language. This idea is found in [[Douglas Hofstadter]]'s book, ''[[Gödel, Escher, Bach]]'', in a discussion of the relationship between formal languages and [[number theory]]: "... it is in the nature of any formalization of number theory that its metalanguage is embedded within it".<ref>[[Douglas Hofstadter|Hofstadter, Douglas]]. 1980. [[Gödel, Escher, Bach|''Gödel, Escher, Bach: An Eternal Golden Braid'']]. New York: Vintage Books {{isbn|0-14-017997-6}}</ref> It occurs in natural, or informal, languages, as well—such as in English, where words such as ''noun,'' ''verb,'' or even ''word'' describe features and concepts pertaining to the English language itself.
+
+=== Ordered ===
+
+An '''ordered metalanguage''' is analogous to [[ordered logic]]. An example of an ordered metalanguage is the construction of one metalanguage to discuss an object language, followed by the creation of another metalanguage to discuss the first, etc.
+
+=== Nested ===
+
+A '''nested''' (or, ''hierarchical'') '''metalanguage''' is similar to an ordered metalanguage in that each level represents a greater degree of abstraction. However, a nested metalanguage differs from an ordered one in that each level includes the one below. The [[paradigmatic]] example of a nested metalanguage comes from the [[Scientific classification|Linnean taxonomic system]] in biology. Each level in the system incorporates the one below it. The language used to discuss genus is also used to discuss species; the one used to discuss orders is also used to discuss genera, etc., up to kingdoms.
+
+== In natural language ==
+
+Natural language combines nested and ordered metalanguages. In a natural language there is an infinite regress of metalanguages, each with more specialized vocabulary and simpler syntax. Designating the language now as L<sub>0</sub>, the grammar of the language is a discourse in the metalanguage L<sub>1</sub>, which is a sublanguage<ref>{{cite book
+ | last =Harris
+ | first =Zellig S.
+ | authorlink =Zellig Harris
+ | title =A theory of language and information: A mathematical approach
+ | publisher =Clarendon Press
+ | series =
+ | volume =
+ | edition =
+ | date =1991
+ | location =Oxford
+ | pages =272–318
+ | language =
+ | url =
+ | doi =
+ | id =
+ | isbn =978-0-19-824224-6
+ | mr =
+ | zbl =
+ | jfm = }}</ref> nested within L<sub>0</sub>. The grammar of L<sub>1</sub>, which has the form of a factual description, is a discourse in the metametalanguage L<sub>2</sub>, which is also a sublanguage of L<sub>0</sub>. The grammar of L<sub>2</sub>, which has the form of a theory describing the syntactic structure of such factual descriptions, is stated in the metametametalanguage L<sub>3</sub>, which likewise is a sublanguage of L<sub>0</sub>. The grammar of L<sub>3</sub> has the form of a metatheory describing the syntactic structure of theories stated in L<sub>2</sub>. L<sub>4</sub> and succeeding metalanguages have the same grammar as L<sub>3</sub>, differing only in reference. Since all of these metalanguages are sublanguages of L<sub>0</sub>, L<sub>1</sub> is a nested metalanguage, but L<sub>2</sub> and sequel are ordered metalanguages.<ref>''Ibid''. p. 277.</ref> Since all these metalanguages are sublanguages of L<sub>0</sub> they are all embedded languages with respect to the language as a whole.
+
+Metalanguages of formal systems all resolve ultimately to natural language, the 'common parlance' in which mathematicians and logicians converse to define their terms and operations and 'read out' their formulae.<ref>{{cite book
+ | last =Borel
+ | first =Félix Édouard Justin Émile
+ | authorlink =Émile Borel
+ | title =Leçons sur la theorie des fonctions
+ | publisher =Gauthier-Villars & Cie.
+ | series =
+ | volume =
+ | edition =3
+ | date =1928
+ | location =Paris
+ | pages =160
+ | language =French
+ | url =
+ | doi =
+ | id =
+ | isbn =
+ | mr =
+ | zbl =
+ | jfm = }}</ref>
+
+== Types of expressions ==
+There are several entities commonly expressed in a metalanguage. In logic usually the object language that the metalanguage is discussing is a [[formal language]], and very often the metalanguage as well.
+
+=== Deductive systems ===
+
+{{Main|Deductive system}}
+
+A '''deductive system''' (or, ''deductive apparatus'' of a [[formal system]]) consists of the [[axiom]]s (or [[axiom schema]]ta) and [[rules of inference]] that can be used to [[formal proof|derive]] the [[theorem]]s of the system.<ref>[[Geoffrey Hunter (logician)|Hunter, Geoffrey]]. 1971. ''Metalogic: An Introduction to the Metatheory of Standard First-Order Logic''. Berkeley:University of California Press {{isbn|978-0-520-01822-8}}</ref>
+
+=== Metavariables ===
+
+{{Main|Metavariable (logic)}}
+
+A '''metavariable''' (or ''metalinguistic'' or ''metasyntactic'' variable) is a [[symbol (formal)|symbol]] or set of symbols in a metalanguage which stands for a symbol or set of symbols in some object language. For instance, in the sentence:
+
+:Let ''A'' and ''B'' be arbitrary [[well-formed formula|formula]]s of a [[formal language]] <math>\mathcal{L}</math>.
+
+The symbols ''A'' and ''B'' are not symbols of the object language <math>\mathcal{L}</math>, they are metavariables in the metalanguage (in this case, English) that is discussing the object language <math>\mathcal{L}</math>.
+
+=== Metatheories and metatheorems ===
+{{Main|Metatheory|Metatheorem}}
+A ''metatheory'' is a [[theory]] whose subject matter is some other theory (a theory about a theory). [[Statement (logic)|Statements]] made in the metatheory about the theory are called [[metatheorem]]s. A '''metatheorem''' is a [[truth|true]] statement about a [[formal system]] expressed in a metalanguage. Unlike theorems proved within a given formal system, a metatheorem is proved within a [[metatheory]], and may reference concepts that are present in the [[metatheory]] but not the [[object theory]].<ref>[[George Ritzer|Ritzer, George]]. 1991. ''Metatheorizing in Sociology''. New York: Simon Schuster {{isbn|0-669-25008-2}}</ref>
+
+=== Interpretations ===
+
+{{Main|Interpretation (logic)}}
+
+An '''interpretation''' is an [[Valuation (logic)|assignment]] of meanings to the [[symbol (formal)|symbols]] and [[word]]s of a language.
+
+== Role in metaphor ==
+
+Michael J. Reddy (1979) argues that much of the language we use to talk about language is conceptualized and structured by what he refers to as the [[conduit metaphor]].<ref>Reddy, Michael J. 1979. The conduit metaphor: A case of frame conflict in our language about language. In  Andrew Ortony (ed.), ''Metaphor and Thought''. Cambridge: [[Cambridge University Press]]</ref> This paradigm operates through two distinct, related frameworks.
+
+The ''major framework'' views language as a sealed pipeline between people:<br />
+'''1.''' Language transfers people's thoughts and feelings ([[mental content]]) to others
+   ''ex:'' Try to get your thoughts across better.
+'''2.''' Speakers and writers insert their mental content into words
+   ''ex:'' You have to put each concept into words more carefully.
+'''3.''' Words are containers
+   ''ex:'' That sentence was filled with emotion.
+'''4.''' Listeners and writers extract mental content from words
+   ''ex:'' Let me know if you find any new sensations in the poem.
+
+The ''minor framework'' views language as an open pipe spilling mental content into the void:<br />
+'''1.''' Speakers and writers eject mental content into an external space
+   ''ex:'' Get those ideas out where they can do some good.
+'''2.''' Mental content is reified (viewed as concrete) in this space
+   ''ex:'' That concept has been floating around for decades.
+'''3.''' Listeners and writers extract mental content from this space
+   ''ex:'' Let me know if you find any good concepts in the essay.
+
+== Metaprogramming ==
+
+Computers follow programs, sets of instructions in a formal language.  The development of a [[programming language]] involves the use of a metalanguage. The act of working with metalanguages in programming is known as ''[[metaprogramming]]''. [[Backus–Naur form]], developed in the 1960s by John Backus and Peter Naur, is one of the earliest metalanguages used in computing. Examples of modern-day programming languages which commonly find use in metaprogramming include [[ML (programming language)|ML]], [[Lisp (programming language)|Lisp]], [[m4 (computer language)|m4]], and [[Yacc]].
+
+== See also ==
+{{div col}}
+*[[Category theory]]
+*[[Jakobson's functions of language]]
+*[[Language-oriented programming]]
+*[[Meta-communication]]
+*[[Metaethics]]
+*[[Metafiction]]
+*[[Metagraphy]]
+*[[Metalinguistic abstraction]]
+*[[Metalocutionary act]]
+*[[Metaphilosophy]]
+*[[Natural semantic metalanguage]]
+*[[Paralanguage]]
+*[[Self-reference]]
+*[[Use–mention distinction]]
+{{div col end}}
+
+== Dictionaries ==
+
+*Audi, R. 1996. ''The Cambridge Dictionary of Philosophy''. Cambridge: [[Cambridge University Press]].
+*Baldick, C. 1996. ''Oxford Concise Dictionary of Literary Terms''. Oxford: [[Oxford University Press]].
+*[[J. A. Cuddon|Cuddon, J. A.]] 1999. ''The Penguin Dictionary of Literary Terms and Literary Theory''. London: [[Penguin Books]].
+*Honderich, T. 1995. ''[[The Oxford Companion to Philosophy]]''. Oxford: [[Oxford University Press]].
+*Matthews, P. H. 1997. ''The Concise Oxford Dictionary of Linguistics''. Oxford: [[Oxford University Press]]. {{isbn|978-0-19-280008-4}}.
+*McArthur, T. 1996. ''The Concise Oxford Companion to the English Language''. Oxford: [[Oxford University Press]].
+
+== References ==
+
+{{Reflist}}
+
+== External links ==
+* [http://pespmc1.vub.ac.be/METALARE.html Metalanguage], ''[[Principia Cybernetica]]''.
+* [http://lists.village.virginia.edu/lists_archive/Humanist/v20/0091.html Willard McCarty (submitted 2006) Problematic Metaphors], ''Humanist Discussion Group'', Vol. 20, No. 92.
+
+[[Category:Metalogic]]
+[[Category:Linguistics]]
+[[Category:Linguistics terminology]]
+[[Category:Proof theory]]
+[[Category:Metalanguages]]

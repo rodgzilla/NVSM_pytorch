@@ -1,0 +1,64 @@
+{{Infobox software
+| name                   = Mixmaster
+| logo                   =
+| screenshot             =
+| caption                =
+| collapsible            =
+| author                 = [[Lance Cottrell]]
+| developer              = [[Len Sassaman]] and [[Peter Palfrader]]
+| released               =
+| latest release version = 3.0
+| latest release date    = March 3, 2008
+| latest preview version =
+| latest preview date    =
+| frequently updated     =
+| programming language   =
+| operating system       =
+| platform               =
+| size                   =
+| language               =
+| status                 =
+| genre                  = [[Anonymous remailer]]
+| license                =
+| website                = http://mixmaster.sourceforge.net/
+}}
+'''Mixmaster''' is a Type II [[anonymous remailer]] which sends messages in fixed-size packets and reorders them, preventing anyone watching the messages go in and out of remailers from tracing them.  It is an implementation of a Chaumian [[Mix network]]<ref>{{cite web |url=http://mixmaster.sourceforge.net/manpage.html |title=Mixmaster man page |author=<!--Staff writer(s); no by-line.--> |date=January 14, 2008  |publisher=[[SourceForge]] |accessdate=October 9, 2014}}</ref>
+
+== History ==
+Mixmaster was originally written by [[Lance Cottrell]], and was maintained by [[Len Sassaman]]. [[Peter Palfrader]] is the current maintainer. Current Mixmaster software can be compiled to handle [[Cypherpunk anonymous remailer|Cypherpunk]] messages as well; they are needed as reply blocks for [[nym server]]s.
+
+== See also ==
+{{Portal|Free and open-source software|Cryptography}}
+* [[Anonymity]]
+** [[Anonymous P2P]]
+** [[Anonymous remailer]]
+*** [[Cypherpunk anonymous remailer]] (Type I)
+*** [[Mixminion]] (Type III)
+** [[Onion routing]]
+*** [[Tor (anonymity network)]]
+** [[Pseudonymous remailer]] (a.k.a. nym servers)
+*** [[Penet remailer]]
+* [[Data privacy]]
+* [[Traffic analysis]]
+
+==References==
+<references/>
+
+==Further reading==
+* ''Email Security'', [[Bruce Schneier]] ({{ISBN|0-471-05318-X}})
+* ''Computer Privacy Handbook'', Andre Bacard ({{ISBN|1-56609-171-3}})
+
+==External links==
+* [http://mixmaster.sourceforge.net/ Mixmaster homepage]
+* [http://mixmaster.sourceforge.net/faq.shtml Official Mixmaster Remailer FAQ]
+* [http://www.andrebacard.com/remail.html Remailer FAQ]
+* [http://archives.neohapsis.com/archives/crypto/1999-q4/0187.html Remailer Vulnerabilities]
+* [http://www.autistici.org/en/stuff/man_anon/remailer.html A/I: PARANOIA REMAILER HOWTO]
+* [http://feraga.com/node/74 Feraga.com: Howto use a Type II Anonymous Remailer] (link not active 12 May 2010)
+
+{{DEFAULTSORT:Mixmaster Anonymous Remailer}}
+[[Category:Anonymity networks]]
+[[Category:Internet Protocol based network software]]
+
+
+{{network-software-stub}}

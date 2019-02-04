@@ -1,0 +1,212 @@
+{{fsb}}
+An '''anonymous P2P''' communication system is a [[peer-to-peer]] [[distributed application]] in which the [[Node (networking)|nodes]], which are used to share resources, or participants are [[Anonymity|anonymous]] or [[Pseudonymity|pseudonymous]].<ref>{{Cite journal|last=Kobusińska|first=Anna|last2=Brzeziński|first2=Jerzy|last3=Boroń|first3=Michał|last4=Inatlewski|first4=Łukasz|last5=Jabczyński|first5=Michał|last6=Maciejewski|first6=Mateusz|date=2016-06-01|title=A branch hash function as a method of message synchronization in anonymous P2P conversations|url=https://content.sciendo.com/view/journals/amcs/26/2/article-p479.xml|journal=International Journal of Applied Mathematics and Computer Science|language=en|volume=26|issue=2|pages=479–493|doi=10.1515/amcs-2016-0034|issn=2083-8492}}</ref> Anonymity of participants is usually achieved by special routing [[overlay network]]s that hide the physical location of each node from other participants.
+
+Interest in anonymous P2P systems has increased in recent years for many reasons, ranging from the desire to share files without revealing one's network identity and risking [[litigation]]<ref name="eff">Electronic Frontier Foundation (2005). [https://www.eff.org/wp/riaa-v-people-five-years-later RIAA v. The People: Five Years Later]. Retrieved March 5, 2008.</ref> to distrust in governments, concerns over [[mass surveillance]] and [[data retention]], and [[lawsuit]]s against [[blog]]gers.<ref name="rsf">Julien Pain, editor (2005). [http://www.rsf.org/rubrique.php3?id_rubrique=542 Reporters Without Borders handbook for bloggers and cyber-dissidents] {{webarchive|url=https://web.archive.org/web/20070215022127/http://www.rsf.org/rubrique.php3?id_rubrique=542 |date=2007-02-15 }}. Retrieved January 23, 2008.</ref>
+
+==Motivation for anonymity==
+There are many reasons to use anonymous P2P technology; most of them are generic to all forms of online anonymity.
+
+P2P users who desire anonymity usually do so as they do not wish to be identified as a publisher (sender), or reader (receiver), of information. Common reasons include:
+* [[Censorship]] at the local, organizational, or national level
+* Personal privacy preferences such as preventing [[Website visitor tracking|tracking]] or [[data mining]] activities
+* The material or its distribution is considered illegal or incriminating by possible [[eavesdropper]]s
+* Material is legal but socially deplored, embarrassing or problematic in the individual's [[social world]]
+* Fear of retribution (against [[whistleblower]]s, unofficial leaks, and [[activist]]s who do not believe in restrictions on information nor [[knowledge]])
+
+A particularly open view on legal and illegal content is given in [https://web.archive.org/web/20090627205546/http://freenetproject.org/philosophy.html The Philosophy Behind Freenet].
+
+Governments are also interested in anonymous P2P technology. The [[United States]] [[Navy]] funded the original [[onion routing]] research that led to the development of the [[Tor (anonymity network)|Tor]] network, which was later funded by the [[Electronic Frontier Foundation]] and is now developed by the non-profit organization The Tor Project, Inc.
+
+==Arguments for and against anonymous P2P communication==
+
+===General===
+While anonymous P2P systems may support the protection of unpopular speech, they may also protect illegal activities, such as [[fraud]], [[slander and libel|libel]], the exchange of illegal [[pornography]], the unauthorized copying of [[copyright]]ed works, or the planning of criminal activities. Critics{{Who|date=October 2009}} of anonymous P2P systems hold that these disadvantages outweigh the advantages offered by such systems, and that other communication channels are already sufficient for unpopular speech.
+
+Some{{Who|date=October 2009}} proponents of anonymous P2P systems believe that all restrictions on free speech serve authoritarian interests. Others{{Who|date=October 2009}} argue that information itself is ethically neutral, and that it is the people acting upon the information that can be good or evil. Perceptions of good and evil can also change (see [[moral panic]]); for example, if anonymous peer-to-peer networks had existed in the 1950s or 1960s, they might have been targeted for carrying information about [[civil rights]] or [[anarchism]].
+
+Easily accessible anonymous P2P networks are seen by some as a democratization of [[encryption]] technology, giving the general populace access to secure communications channels already used by governments. Supporters of this view, such as [[Phil Zimmermann]], argue that anti-surveillance technologies help to equalize power between governments and their people,<ref name="Zimmermann_interview">Russell D. Hoffmann (1996). [http://www.animatedsoftware.com/hightech/philspgp.htm Interview with author of PGP (Pretty Good Privacy)]. Transcript of a radio interview, retrieved 2008-01-21.</ref> which is the actual reason for banning them. [[John Pilger]] opines that  monitoring of the populace helps to contain threats to the "consensual view of established authority"<ref name="pilger">John Pilger (2002). [http://www.zmag.org/znet/viewArticle/11340 Impartiality of British Journalism]{{dead link|date=October 2016 |bot=InternetArchiveBot |fix-attempted=yes }}. ZNet article, retrieved 2008-02-11.</ref> or threats to the continuity of power structures and privilege.
+
+===Freedom of speech===
+Some claim that true [[freedom of speech]], especially on controversial subjects, is difficult or impossible unless individuals can speak anonymously. If anonymity is not possible, one could be subjected to threats or reprisals for voicing an unpopular view. This is one reason why voting is done by secret [[ballot]] in many democracies. Controversial information which a party wants to keep hidden, such as details about corruption issues, is often published or leaked anonymously.
+
+====Anonymous blogging====
+{{main|Anonymous blogging}}
+[[Anonymous blogging]] is one widespread use of anonymous networks. While anonymous blogging is possible on the non-anonymous internet to some degree too, a provider hosting the blog in question might be forced to disclose the blogger's [[IP address]] (as when Google revealed an anonymous blogger's identity<ref>Declan McCullagh (2007). [http://www.news.com/8301-13578_3-9824638-38.html Google: We had no choice in Israel ID request]. CNET News.com article, retrieved 2008-02-11.</ref>). Anonymous networks provide a better degree of anonymity. Flogs (anonymous blogs) in Freenet, [[Syndie]] and other blogging tools in [[I2P]] and [[Osiris (Serverless Portal System)|Osiris sps]] are some examples of anonymous blogging technologies.
+
+One argument for anonymous blogging is a delicate nature of work situation. Sometimes a blogger writing under their real name faces a choice between either staying silent or causing a harm to themselves, their colleagues or the company they work for.<ref>Bill Vallicella (2004). [http://maverickphilosopher.blogspot.com/2004/07/reasons-for-anonyblogging.html Reasons for 'Anonyblogging']. Maverick Philosopher blog, retrieved 2008-02-11.</ref>
+
+Another reason is risk of lawsuits. Some bloggers have faced multimillion-dollar lawsuits<ref>Media Bloggers Association (2006). [https://web.archive.org/web/20070630182947/http://www.mediabloggers.org/mba-news/mba-member-hit-with-multi-million-dollar-federal-lawsuit MBA Member Hit With Multi-Million Dollar Federal Lawsuit]. Retrieved 2008-02-11.</ref> (although they were later dropped completely<ref>Associated Press (2006). [http://www.boston.com/news/local/maine/articles/2006/05/06/ad_agency_drops_lawsuit_against_maine_blogger/ Ad agency drops lawsuit against Maine blogger]. Retrieved 2008-02-11.</ref>); anonymous blogging provides protection against such risks.
+
+====Censorship via Internet domain names====
+On the non-anonymous Internet, a [[domain name]] like "[[example.com]]" is a key to accessing information. The censorship of the Wikileaks website<ref>[https://wikileaks.org/wiki/WIKILEAKS.INFO_censored_by_eNom_and_Demand_Media WIKILEAKS.INFO censored by eNom and Demand Media]. Retrieved 2008-03-09.</ref> shows that domain names are extremely vulnerable to censorship. Some domain registrars have suspended customers' domain names even in the absence of a court order.
+
+For the affected customer, blocking of a domain name is a far bigger problem than a registrar refusing to provide a service; typically, the registrar keeps full control of the domain names in question. In the case of a European travel agency, more than 80 .com websites were shut down without any court process and held by the registrar since then. The travel agency had to rebuild the sites under the .net [[top-level domain]] instead.<ref>Adam Liptak (2008). [https://www.nytimes.com/2008/03/04/us/04bar.html A Wave of the Watch List, and Speech Disappears]. ''The New York Times'', 2008-03-04. Retrieved 2008-03-09.</ref>
+
+On the other hand, anonymous networks do not rely on [[domain name registrar]]s. For example, Freenet, [[I2P]] and Tor hidden services implement censorship-resistant URLs based on [[public-key cryptography]]: only a person having the correct private key can update the URL or take it down.
+
+===Control over online tracking===
+Anonymous P2P also has value in normal daily communication. When communication is anonymous, the decision to reveal the identities of the communicating parties is left up to the parties involved and is not available to a third party. Often there is no need or desire by the communicating parties to reveal their identities. As a matter of personal freedom, many people do not want processes in place by default which supply unnecessary data. In some cases, such data could be compiled into histories of their activities.
+
+For example, most current phone systems transmit caller ID information by default to the called party (although this can be disabled either for a single call or for all calls). If a person calls to make an inquiry about a product or the time of a movie, the party called has a record of the calling phone number, and may be able to obtain the name, address and other information about the caller. This information is not available about someone who walks into a store and makes a similar inquiry.
+
+===Effects of surveillance on lawful activity===
+Online surveillance, such as recording and retaining details of web and e-mail traffic, may have effects on lawful activities.<ref name="chilling">Dawinder S. Sidhu (2007). [http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1002145 The chilling effect of government surveillance programs on the use of the internet by Muslim-Americans]. University of Maryland Law Journal of Race, Religion, Gender and Class.</ref> People may be deterred from accessing or communicating legal information because they know of possible surveillance and believe that such communication may be seen as suspicious. According to law professor [[Daniel J. Solove]], such effects "harm society because, among other things, they reduce the range of viewpoints being expressed and the degree of freedom with which to engage in political activity."<ref name="solove1">Daniel J. Solove (2006). [http://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565 "I've got nothing to hide" and other misunderstandings of privacy]. San Diego Law Review, Vol. 44.</ref>
+
+===Access to censored and copyrighted material===
+Most countries ban or censor the publication of certain [[List of books banned by governments|books]] and [[Banned films|movies]], and certain types of content. Other material is legal to possess but not to distribute; for example, copyright and [[software patent]] laws may forbid its distribution. These laws are difficult or impossible to enforce in anonymous P2P networks.
+
+===Anonymous online money===
+With [[anonymous money]], it becomes possible to arrange anonymous markets where one can buy and sell just about anything anonymously. Anonymous money could be used to avoid [[tax]] collection. However, any transfer of physical goods between two parties could compromise anonymity.<ref name="cymru">Rob Thomas, Jerry Martin (2006). [http://www.usenix.org/publications/login/2006-12/openpdfs/cymru.pdf The underground economy: priceless]. Retrieved 2008-01-20.</ref>
+
+Some{{Who|date=April 2010}} argue that conventional [[cash]] provides a similar kind of anonymity, and that existing laws are adequate to combat crimes like [[tax evasion]] that might result from the use of anonymous cash, whether online or offline{{Citation needed|date=April 2010}}.
+
+==Functioning of anonymous P2P==
+
+===Anonymity and pseudonymity===
+Some of the networks commonly referred to as "anonymous P2P" are truly anonymous, in the sense that network nodes carry no identifiers. Others are actually pseudonymous: instead of being identified by their IP addresses, nodes are identified by pseudonyms such as cryptographic keys. For example, each node in the [[MUTE]] network has an overlay address that is derived from its public key. This overlay address functions as a pseudonym for the node, allowing messages to be addressed to it. In Freenet, on the other hand, messages are routed using keys that identify specific pieces of data rather than specific nodes; the nodes themselves are anonymous.
+
+The term ''anonymous'' is used to describe both kinds of network because it is difficult—if not impossible—to determine whether a node that sends a message originated the message or is simply forwarding it on behalf of another node. Every node in an anonymous P2P network acts as a universal sender and universal receiver to maintain anonymity. If a node was only a receiver and did not send, then neighbouring nodes would know that the information it was requesting was for itself only, removing any [[plausible deniability]] that it was the recipient (and consumer) of the information. Thus, in order to remain anonymous, nodes must ferry information for others on the network.
+
+===Spam and DoS attacks in anonymous networks===
+Originally, anonymous networks were operated by small and friendly communities of developers. As interest in anonymous P2P increased and the user base grew, malicious users inevitably appeared and tried different attacks. This is similar to the Internet, where widespread use has been followed by waves of [[Spam (electronic)|spam]] and distributed DoS ([[denial-of-service attack|Denial of Service]]) attacks. Such attacks may require different solutions in anonymous networks. For example, blacklisting of originator network addresses does not work because anonymous networks conceal this information. These networks are more vulnerable to DoS attacks as well due to the smaller bandwidth, as has been shown in examples on the Tor network.
+
+A conspiracy to attack an anonymous network could be considered criminal computer hacking, though the nature of the network makes this impossible to prosecute without compromising the anonymity of data in the network.
+
+==Opennet and darknet network types==
+{{Main|Friend-to-friend}}
+Like conventional P2P networks, anonymous P2P networks can implement either opennet or [[darknet]] (often named friend-to-friend) network type. This describes how a node on the network selects peer nodes:
+
+* In opennet network, peer nodes are discovered automatically. There is no configuration required but little control available over which nodes become peers.
+* In a darknet network, users manually establish connections with nodes run by people they know. Darknet typically needs more effort to set up but a node only has trusted nodes as peers.
+
+Some networks like Freenet support both network types simultaneously (a node can have some manually added darknet peer nodes and some automatically selected opennet peers) .
+
+In a friend-to-friend (or F2F) network, users only make direct connections with people they know. Many F2F networks support indirect anonymous or pseudonymous communication between users who do not know or trust one another. For example, a node in a friend-to-friend overlay can automatically forward a file (or a request for a file) anonymously between two "friends", without telling either of them the other's name or IP address. These "friends" can in turn forward the same file (or request) to their own "friends", and so on. Users in a friend-to-friend network cannot find out who else is participating beyond their own circle of friends, so F2F networks can grow in size without compromising their users' anonymity.
+
+Some friend-to-friend networks allow the user to control what kind of files can be exchanged with "friends" within the node, in order to stop them from exchanging files that user disapproves of.
+
+Advantages and disadvantages of opennet compared to darknet are disputed, see friend-to-friend article for summary.
+
+==List of anonymous P2P networks and clients==
+{{See also|Comparison of file sharing applications}}
+<!--    -->
+<!-- Please keep this list in alphabetical order -->
+<!-- Please do not add any applications which do not allow file transfer without anybody knowing your IP. Having a proxy which takes the blame is NOT anonymous, private nets are NOT anonymous -->
+
+===Public P2P clients===
+* [[Bitmessage]] - an anonymous [[Decentralized computing|decentralized]] messaging system serving as a secure replacement for email
+* [[CryptoNote#DigitalNote .28XDN.29|DigitalNote XDN]] - an open-source anonymous [[Decentralized computing|decentralized]] encrypted messaging system based on blockchain technology
+* [[Freenet]] - a censorship-resistant [[distributed file system]] for anonymous publishing (open source, written in Java)
+* [[GNUnet]] - a P2P [[Software framework|framework]], includes anonymous file sharing as its primary application ([[GNU Project]], written in C, alpha status)
+* NeoLoader - a filesharing software compatible with several networks. Anonymous when used with the "NeoShare" feature (that use the proprietary "NeoKad" network)<ref>http://neoloader.com/anonymity.html</ref>
+* [[Netsukuku]] - a peer-to-peer routing system aiming to build a free and independent Internet
+* [[Osiris (software)|Osiris]] (Serverless Portal System) - an anonymous and distributed [[web portal]]s creator.
+* [[Perfect Dark (P2P)|Perfect Dark]] - a P2P client which relies on a [[Mix network|mixnet]] and [[distributed file system|distributed datastore]] to provide anonymity (freeware, written for [[Microsoft Windows|Windows]])
+* [[Syndie]] - a content (mainly forums) syndication program that operates over numerous anonymous and non-anonymous networks (open source, written in Java)
+* [[Tribler]] - an [[Open-source software|open source]] anonymous peer-to-peer [[decentralized]] [[BitTorrent]] [[Client (computing)|client]]
+* [[ZeroNet]] - a decentralized [[Internet]]-like [[computer network|network]] of peer-to-peer users. Allows tunneling of HTTP-traffic through Tor.
+* Classified-ads - an [[Open-source software|open source]] DHT-based decentralized messaging and voice app. Allows users to not expose any personal details but does not hide network addresses of nodes.
+
+====I2P clients====
+* [[I2P]] - a fully [[Decentralized computing|decentralized]] overlay network for strong anonymity and end-to-end encryption, with many applications (P2P, browsing, distributed anonymous e-mail, instant messaging, IRC, ...) running on top of it (free/open source, platform-independent)
+* [[I2P#E-mail|I2P-Bote]] an anonymous, secure (end-to-end encrypted), serverless mail application with remailer functionality for the I2P network
+* [[I2P#Instant messaging|I2P-Messenger]] an anonymous, secure (end-to-end encrypted), serverless instant messenger for the I2P network
+* [[I2P#File sharing|I2PSnark]] - an anonymous [[BitTorrent (protocol)|BitTorrent]] client for the I2P network
+* [[I2Phex]] - a [[Gnutella]] client which communicates anonymously through I2P
+* [[iMule]] - an [[aMule]] port running under I2P network
+* [[Robert (P2P Software)]] - another anonymous [[BitTorrent (protocol)|BitTorrent]] client for the I2P network
+* [[Tahoe-LAFS|I2P-Tahoe-LAFS]] - a censorship-resistant [[distributed file system]] for anonymous publishing and file sharing (open source, written in Python, pre-alpha status)
+* [[Vuze]] (formerly Azureus) -  a [[BitTorrent client]] with the option of using [[I2P]] or [[Tor (anonymity network)|Tor]] (open source, written in Java)
+
+====Defunct or dormant====
+* [[Bitblinder]] (2009-2010) - file sharing
+* Cashmere (2005) - resilient anonymous routing<ref>http://current.cs.ucsb.edu/projects/cashmere/{{dead link|date=December 2017 |bot=InternetArchiveBot |fix-attempted=yes }}</ref>{{third-party inline|date=March 2016}}
+* [[Entropy (anonymous data store)|Entropy]] (2003-2005) - Freenet compatible
+* [[EarthStation 5]] (2003-2005) - anonymity controverted
+* Herbivore (2003-2005) - file sharing and messaging. Used the [[Dining cryptographers problem]].<ref>http://www.cs.cornell.edu/People/egs/herbivore/</ref>{{third-party inline|date=March 2016}}
+* [[Filetopia]] (1999-2002) - not anonymous but encrypted. File sharing, chat, internal mail service
+* [[Marabunta (software)|Marabunta]] (2005-2006) - distributed chat
+* [[MUTE]] (2003-2009) - file sharing
+* [[Nodezilla]] (2004-2010) - an anonymizing, closed source network layer upon which applications can be built
+* [[Owner free filing system|OFF System]] (2006-2010) - a P2P [[distributed file system]] through which all shared files are represented by randomized data blocks
+* [[RShare]] (2006-2007) - file sharing
+* [[StealthNet]] (2007-2011) - the successor to RShare
+* [[Winny]] (2002-2003) - a filesharing software that was very popular in Japan
+
+===Private P2P clients===
+[[Private P2P]] networks are P2P networks that only allow some mutually trusted computers to share files. This can be achieved by using a central server or [[Direct Connect (file sharing)#Hubs|hub]] to authenticate clients, in which case the functionality is similar to a private [[File Transfer Protocol|FTP]] server, but with files transferred directly between the clients. Alternatively, users can exchange passwords or keys with their friends to form a decentralized network.
+
+===Private F2F (friend-to-friend) clients===
+[[Friend-to-friend]] networks are P2P networks that allows users only to make direct connections with people they know. Passwords or digital signatures can be used for authentication.
+
+Examples include :
+* [[Retroshare]] - filesharing, serverless email, instant messaging, VoIP, chatrooms, and decentralized forums.
+* [[OneSwarm]] - a backwards compatible BitTorrent client with privacy-preserving sharing options, aims to create a large F2F network.
+
+===Hypothetical or defunct networks===
+
+====Hypothetical====
+The following networks only exist as design or are in development
+* [[anoNet]] - extensible IP anonymizer with steganography support (in development)
+* [[Crowds]] - Reiter and Rubin's system for "blending into a crowd" has a known attack
+* [[P2PRIV]] - Peer-to-Peer diRect and anonymous dIstribution oVerlay - anonymity via virtual links parallelization - currently in development and has significant, unsolved problems in a real world environment
+* Phantom Anonymity Protocol - a fully decentralized high-throughput anonymization network (no longer in development)<ref>https://code.google.com/p/phantom/</ref>{{third-party inline|date=March 2016}}
+
+====Defunct or dormant====
+* [[Bitblinder]] - a decentralised P2P anonymity software program which included Tor but with increased speed.{{Citation needed|date=January 2010}} Website is down and clients are no longer functional.
+* Invisible IRC Project - anonymous [[Internet Relay Chat|IRC]], inspired by [[Freenet]], which later became [[I2P]] (Invisible Internet Project).
+* [[Mnet (Computer program)|Mnet]] (formerly MojoNation) - a [[distributed file system]]
+
+===Anonymous P2P in a wireless mesh network===
+It is possible to implement anonymous P2P on a [[wireless mesh network]]; unlike fixed Internet connections, users don't need to sign up with an ISP to participate in such a network, and are only identifiable through their hardware.
+
+Protocols for [[wireless mesh network]]s are [[Optimized Link State Routing Protocol]] (OLSR) and the follow-up protocol [[B.A.T.M.A.N.]], which is designed for decentralized auto-IP assignment. See also Netsukuku.
+
+Even if a government were to outlaw the use of wireless P2P software, it would be difficult to enforce such a ban without a considerable infringement of personal freedoms. Alternatively, the government could outlaw the purchase of the wireless hardware itself.{{Citation needed|date=April 2013}}
+
+==See also==
+{{Portal|Cryptography}}
+* [[Anonymity application]]
+* [[Anonymous remailer]]
+* [[Anonymous web browsing]]
+* [[List of anonymously published works]]
+* [[Comparison of file sharing applications]]
+* [[Data privacy]]
+* [[Internet privacy]]
+* [[Personally identifiable information]]
+* [[Privacy software]] and [[Privacy-enhancing technologies]]
+** [[FLAIM]]
+** [[I2P]]
+** [[I2P#I2P-Bote|I2P-Bote]]
+** [[Java Anon Proxy]]
+*** [[Tor-ramdisk]]
+*** [[Free Haven Project]]
+* [[Secure communication]]
+
+===Related items===
+{{div col|colwidth=30em}}
+*[[Crypto-anarchism]]
+*[[Cypherpunk]]
+*[[Digital divide]]
+*[[Mesh Network]]
+*[[Wireless community network]]
+{{div col end}}
+
+==References==
+{{Reflist|2}}
+
+==External links==
+* [http://anomos.info/ Anomos] - Anonymous BitTorrent
+* [http://www.anonymous-p2p.org/ Anonymous-p2p.org]
+* [https://web.archive.org/web/20050403221117/http://board.planetpeer.de/ Planet Peer Board] - discussion on anonymous P2P
+* [http://www.planetpeer.de/wiki/ Planet Peer Wiki] - a [[wiki]] about various anonymous P2P applications
+* [http://www.lix.polytechnique.fr/~tomc/P2P/index.html A Survey of Anonymous Peer-to-Peer File-Sharing] (2005)
+* [http://dienst.isti.cnr.it/Dienst/UI/2.0/Describe/ercim.cnr.iit/2003-B4-03?tiposearch=cnr&langver= Models for Anonymous-p2p Dr. Fabio Dianda - CNR - Italy]{{dead link|date=October 2016 |bot=InternetArchiveBot |fix-attempted=yes }} (dead link on September 2013)
+* [https://torrentfreak.com/anonymous-decentralized-and-uncensored-file-sharing-is-booming-120302/ Anonymous, Decentralized and Uncensored File-Sharing is Booming] by [[TorrentFreak]] (2011)
+* [http://katiska.org/classified-ads/ Classified-ads] - Partially anonymous DHT-based messaging and VoIP application
+
+[[Category:Anonymous file sharing networks]]
+[[Category:Anonymity networks]]
+[[Category:Internet privacy software]]
+[[Category:Crypto-anarchism]]
+[[Category:Peer-to-peer]]

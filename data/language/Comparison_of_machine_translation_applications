@@ -1,0 +1,2548 @@
+{{Translation sidebar}}
+
+A [[machine translation]] application is a program that attempts to [[translation|translate]] text or speech from one [[natural language]] to another. Machine translation applications have become relevant to the modern [[language industry]]. Please see the individual products' articles for further information.
+
+==General information==
+Basic general information for popular Machine translation applications.
+
+{| class="sortable wikitable" style="font-size: 100%; text-align: center; width: auto; table-layout: fixed;"
+|-
+! Name
+! Platform
+! License
+! Price
+! Latest stable release
+! Source availability
+! Notes
+|-
+|Iconic Translation Machines
+|Cross-platform (Web application), Linux, Windows
+|[[Proprietary software]]
+|Commercial, based on usage / license
+|2.0|2.0
+|{{No}}
+|Custom Neural Machine Translation, industry-specific versions.
+|-
+|Omniscien Technologies Language Studio
+|Windows, [[Linux]], Web Application
+|[[Proprietary software]]
+|Depends on configuration and capacity.
+
+Different prices for cloud vs on-premise and scale/volumes.
+|4.1
+|{{No}}
+|[[Hybrid neural network|Hybrid neural]] machine translation, hybrid deep neural machine translation, [[Syntax-directed translation|syntax-based]], [[Rule-based machine translation|rules-based]] and [[statistical machine translation]]. Provides a server platform and a set of desktop tools to aid in translation.
+Omnscien also offers Machine learning, data cleaning and language processing tools.
+|-
+|[[Apertium]]
+|[[Cross-platform]]
+(Web application), [[Unix]] compatible<br />Precompiled packages available for [[Debian]]
+|[[GNU General Public License|GPL]]
+|No Fee Required
+|3.4.2
+|{{Yes}}
+|[[Rule-based machine translation|Rule-based]], shallow transfer; all programs and language data are free and open source
+|-
+|[[Anusaaraka]]
+|[[Unix]] compatible
+|[[GNU General Public License|GPL]]
+|No Fee Required
+|0.50
+|{{Yes}}
+|Rule-based, deep parser based, paninian framework based; all programs and language data are free and open-source
+|-
+|[[IBM]]
+|[[Cross-platform]]<br/>
+|[[SaaS]]
+|Free, Commercial (varies by plan)
+|3.0
+|{{No}}
+|Both [[Rule-based machine translation|rule-based]] and [[Statistical machine translation|statistical models]] developed by [[IBM Research]]. 
+[[Neural machine translation|Neural Machine Translation]] models available through the Watson Language Translator API for developers.<ref>{{Cite web|url=https://www.ibm.com/watson/services/language-translator/|title=Watson Language Translator|last=|first=|date=2016-11-28|website=www.ibm.com|language=en|archive-url=https://archive.is/I5VpU|archive-date=2017-11-08|dead-url=|access-date=2017-11-08}}</ref><ref>{{Citation|title=language-translator-nodejs: Sample Node.js Application for the IBM Language Translation Service|date=2017-11-08|url=https://github.com/watson-developer-cloud/language-translator-nodejs|publisher=Watson Developer Cloud|accessdate=2017-11-08}}</ref>
+|-
+|[[OpenLogos]]
+| Windows, [[Linux]]
+|[[GNU General Public License|GPL]] or Paid
+initiative taker
+|No Fee Required
+|1.0.3
+|{{Yes}}
+|[[Rule-based machine translation|Rule-based]], [[Transfer-based machine translation|deep transfer]]
+|-
+|[[Moses (machine translation)|Moses]]
+|[[Cross-platform]]
+|[[GNU Lesser General Public License|LGPL]]
+|No Fee Required
+|3.0<ref>http://www.statmt.org/moses/?n=Moses.Releases</ref>
+|{{Yes}}
+|Drop-in replacement for [https://www.isi.edu/licensed-sw/pharaoh/ Pharaoh], features factored translation models and decoding of confusion networks.
+|-
+|[[Moses for Mere Mortals]]
+|[[Ubuntu Linux]]
+|[[GPL]]
+|No Fee Required
+|2014-11-16
+|{{Yes}}
+|Free open source; based on [http://www.statmt.org/moses/ Moses]; [[Translation memory|translation memories]] integration.
+|-
+|[[NiuTrans]]
+|[[Cross-platform]]
+|[[GNU General Public License|GPL]]
+|No fee required
+|1.1.0
+|{{Yes}}
+|Competitive performance for Chinese translation tasks; [[statistical machine translation]].  Supports [[Example-based machine translation|phrase-based]], hierarchical phrase-based, and syntax-based (string-to-tree, tree-to-string, and tree-to-tree) models for research purposes.
+|-
+|[[Google Translate]]
+|[[Cross-platform]]<br/>(Web application)
+|[[SaaS]]
+|No fee required
+|{{Beta}}
+|{{No}}
+|[[Statistical machine translation|Statistical]] and [[neural machine translation]]
+|-
+|[[Bing Translator]]
+|[[Cross-platform]]<br/>(Web application)
+|[[SaaS]]
+|No fee required
+|Final
+|{{No}}
+|Microsoft's linguistically informed [[Statistical machine translation|statistical MT]] system
+|-
+|[[Yandex.Translate]]
+|[[Cross-platform]]<br/>(Web application)
+|[[SaaS]]
+|No fee required
+| 
+|{{No}}
+|Statistical and [[neural machine translation]]
+|-
+|[[Science Applications International Corporation|SAIC]] [[Omnifluent]]
+|Windows, Linux, Web, i0S
+|[[Commerce|Commercial]]        License, Server, SaaS
+|Depends on configuration
+|3.0
+|{{No}}
+|[[Hybrid machine translation]] combines [[rule-based machine translation]] and [[statistical machine translation]], integrated with [[automatic speech recognition]] on a single platform that translates text and audio files.<ref>{{Cite web|url=http://omnifluent.com/products/omnifluent-translate/|title=AppTek|last=Sarkhel|first=Kunal|website=omnifluent.com|language=en|access-date=2017-11-08}}</ref><ref>{{Cite web|url=http://www.omnifluent.com/services/index.html#machine-translation|title=Capabilities & Services AppTek|last=Sarkhel|first=Kunal|website=www.omnifluent.com|language=en|access-date=2017-11-08}}</ref>
+|-
+|[[SYSTRAN]]
+|[[Cross-platform]]<br/>(Web application)
+|[[Proprietary software]]
+|$200 (desktop) – $15,000 and up (enterprise server)
+|Version 7
+|{{No}}
+|[[Hybrid machine translation|Hybrid]] [[Rule-based machine translation|rules-based]] and [[Statistical machine translation|SMT]]
+|-
+|[https://www.slate.rocks/ Slate Rocks]
+|[[Cross-platform]]
+|[[GNU Lesser General Public License|LGPL]] and
+[[Proprietary software]]
+|Free, $269 or $549 
+depending on edition
+|1.5|1.5
+|{{Yes}}
+|[[Application software|Applications]] with complete [[Statistical machine translation|SMT]] stack run on [[Microsoft Windows|Windows]], [[Linux]] and [[MacOS]] to build [[Moses (machine translation)|Moses]] SMT models and integrate with [[Computer-assisted translation|CAT tools]].
+|-
+|[[GramTrans]]
+|[[Cross-platform]]<br/>(Web application)
+|[[Freeware]]
+|No Fee Required
+|{{dunno}}
+|{{No}}
+|[[Rule-based machine translation|Rule-based]], using [[constraint grammar]]
+|-
+|[[PROMT|Promt]]
+|[[Cross-platform]]<br/>(Web application)
+|[[Proprietary software]]
+|Commercial
+|12.5
+|{{No}}
+|[[Hybrid machine translation|Hybrid]] [[Rule-based machine translation|rules-based]] and [[Statistical machine translation|SMT]]
+|-
+|[[Language Weaver|SDL]] Machine Translation
+|[[Cross-platform]]<br/>(Web application)
+|Commercial
+|Commercial
+|{{dunno}}
+|{{No}}
+|Neural and Statistical based Machine Translation
+|-
+|[[Babylon (program)|Babylon]]
+|[[Microsoft Windows|Windows]], [[Apple Inc.|Mac]]
+|[[Proprietary software]]
+|Depends on license ($9.90–$89 for one license)
+|10.3
+|{{No}}
+|Prompts to install the '''Babylon Toolbar''', a [[browser hijacker]] which is difficult to remove.<ref>[http://techtalk.pcpitstop.com/2012/10/11/kill-zombie-babylon-and-fbi-virus-dead/#comment-27533 Remove FBI & Babylon Zombie Virus] PCPitstop.com, author Steve Hogan, October 11, 2012</ref><ref>[http://www.ghacks.net/2011/08/17/how-to-uninstall-the-babylon-toolbar-completely/ How To Uninstall The Babylon Toolbar Completely] Martin Brinkmann, ghacks.net, August 17, 2011</ref>
+|-
+|[[IdiomaX]]
+|[[Microsoft Windows|Windows]], [[Symbian S60]], [[Windows Mobile]]
+|[[Proprietary software]]
+|Depends on configuration
+|6.0
+|{{No}}
+|[[Rule-based machine translation|Rule-based]]
+|-
+|[[Transsoftware]]
+|[[Microsoft Windows|Windows]]
+|[[Proprietary software]]
+|Commercial
+|1.0
+|{{No}}
+|
+|}
+
+==Languages features comparison==
+The following table compares the number of languages which the following machine translation programs can translate between.
+(Moses allows you to train translation models for any language pair, though collections of translated texts (parallel corpus) need to be provided.)
+
+This is not an all-encompassing list. For example, Google and Omniscien Technologies (formerly Asia Online) have many more language pairs than those listed below. This is a general comparison of key languages only. A full and accurate list of language pairs supported by each product should be found on each of the products websites.
+
+{| class="wikitable" style="font-size: small; text-align: center; width: auto; table-layout: fixed;"
+|-
+! colspan=2| Language
+| Pairaphrase
+| [[Xerox Easy Translator]]
+| Omniscien Technologies Language Studio
+|[[Watson (computer)|IBM Watson]]
+| [[Apertium]]
+| [[OpenLogos]]
+| [[Google Translate]]
+|[https://www.slate.rocks/ Slate Rocks]
+| [[Moses for Mere Mortals]]
+| [[Babel Fish (website)|Babel Fish]]
+| [[Bing Translator]]
+| [[GramTrans]]
+| [[SYSTRAN]]
+| [[IdiomaX]]
+| [[Science Applications International Corporation|SAIC]] [[Omnifluent]]
+| lingenio translate
+|-
+|  rowspan=45 | '''To English'''
+| [[Arabic]] to English
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Catalan language|Catalan]] to English
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Chinese (Simplified)]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Chinese (Traditional)]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Czech language|Czech]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Danish language|Danish]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Dutch language|Dutch]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Esperanto]] to English
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Estonian language|Estonian]] to English
+| {{Yes}}
+|{{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Finnish language|Finnish]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[French language|French]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+|-
+| [[Galician language|Galician]] to English
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[German language|German]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+|-
+| [[Greek language|Greek]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Haitian Creole]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Hebrew]] to English
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Hindi]] to English
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Hungarian language|Hungarian]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Indonesian language|Indonesian]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Irish language|Irish]] to English
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Italian language|Italian]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Japanese language|Japanese]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Korean language|Korean]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Latvian language|Latvian]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Lithuanian language|Lithuanian]] to English
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Macedonian language|Macedonian]] to English
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Malay language|Malay]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Maltese language|Maltese]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Norwegian language|Norwegian]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Persian language|Persian]] to English
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Polish language|Polish]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Portuguese language|Portuguese]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Brazilian Portuguese|Portuguese (Brazilian)]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Romanian language|Romanian]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Russian language|Russian]] to English
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Serbo-Croatian]] to English
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Slovak Language|Slovak]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Slovene Language|Slovene]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Spanish language|Spanish]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Swedish language|Swedish]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Tagalog language|Tagalog]] to English
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Thai language|Thai]] to English
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Turkish language|Turkish]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Ukrainian language|Ukrainian]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| [[Welsh language|Welsh]] to English
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+! colspan=2| Language
+| Pairaphrase
+| [[Xerox Easy Translator]]
+| Omniscien Technologies Language Studio
+|[[Watson (computer)|IBM Watson]]
+| [[Apertium]]
+| [[OpenLogos]]
+| [[Google Translate]]
+|[https://www.slate.rocks/ Slate Rocks]
+| [[Moses for Mere Mortals]]
+| [[Babel Fish (website)|Babel Fish]]
+| [[Bing Translator]]
+| [[GramTrans]]
+| [[SYSTRAN]]
+| [[IdiomaX]]
+| [[Science Applications International Corporation|SAIC]] [[Omnifluent]]
+| lingenio translate
+|-
+|  rowspan=2 | '''Chinese (Simplified)'''
+| English to [[Chinese (Simplified)]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| German to [[Chinese (Simplified)]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+|  rowspan=2 | '''To Chinese (Traditional)'''
+|  English to [[Chinese (Traditional)]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+|  German to [[Chinese (Traditional)]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+|  rowspan=2 | '''To Dutch'''
+| English to [[Dutch language|Dutch]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+|  French to [[Dutch language|Dutch]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| rowspan=8 | '''To French'''
+| English to [[French language|French]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+|-
+| German to [[French language|French]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+|-
+| Spanish to [[French language|French]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+| Catalan to [[French language|French]]
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| Russian to [[French language|French]]
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+| Dutch to [[French language|French]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| Italian to [[French language|French]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{dunno}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{dunno}}
+| {{Yes}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+| Breton to [[French language|French]]
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+|-
+|  rowspan=3 | '''To Galician'''
+|  English to [[Galician language|Galician]]
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{dunno}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+|  Portuguese to [[Galician language|Galician]]
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+|  Spanish to [[Galician language|Galician]]
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+|  rowspan=7 | '''To German'''
+|  Chinese (Simplified) to [[German language|German]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+|  Chinese (Traditional) to [[German language|German]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+|  English to [[German language|German]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+|-
+|  French to [[German language|German]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+|-
+| Spanish to [[German language|German]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| Russian to [[German language|German]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| Italian to [[German language|German]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{dunno}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{dunno}}
+| {{Yes}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+| rowspan=4 | '''To Italian'''
+| English to [[Italian language|Italian]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+| Spanish to [[Italian language|Italian]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{dunno}}
+| {{Yes}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+| French to [[Italian language|Italian]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{dunno}}
+| {{Yes}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+| German to [[Italian language|Italian]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{dunno}}
+| {{Yes}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+| rowspan=2 | '''To Japanese'''
+| English to [[Japanese language|Japanese]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| German to [[Japanese language|Japanese]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| '''To Korean'''
+| English to [[Korean language|Korean]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| '''To Portuguese'''
+| English to [[Portuguese language|Portuguese]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+|  rowspan=5 | '''To Russian'''
+|  English to [[Russian language|Russian]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| French to [[Russian language|Russian]]
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| Spanish to [[Russian language|Russian]]
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| German to [[Russian language|Russian]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| Italian to [[Russian language|Russian]]
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+|  rowspan=5 | '''To Spanish'''
+|  English to [[Spanish language|Spanish]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+|  Russian to [[Spanish language|Spanish]]
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| French to [[Spanish language|Spanish]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+| German to [[Spanish language|Spanish]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| Italian to [[Spanish language|Spanish]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{dunno}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{dunno}}
+| {{Yes}}
+| {{dunno}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+|-
+| '''To Welsh'''
+| English to [[Welsh language|Welsh]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+! colspan=2| Language
+| Pairaphrase
+| [[Xerox Easy Translator]]
+| Omniscien Technologies Language Studio
+|[[Watson (computer)|IBM Watson]]
+| [[Apertium]]
+| [[OpenLogos]]
+| [[Google Translate]]
+|[https://www.slate.rocks/ Slate Rocks]
+| [[Moses for Mere Mortals]]
+| [[Babel Fish (website)|Babel Fish]]
+| [[Bing Translator]]
+| [[GramTrans]]
+| [[SYSTRAN]]
+| [[IdiomaX]]
+| [[Science Applications International Corporation|SAIC]] [[Omnifluent]]
+| lingenio translate
+|-
+| '''To Arabic'''
+| English to [[Arabic]]
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+|  rowspan=5 | '''To Catalan'''
+| English to [[Catalan language|Catalan]]
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| French to [[Catalan language|Catalan]]
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| Italian to [[Catalan language|Catalan]]
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| Occitan to [[Catalan language|Catalan]]
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| Spanish to [[Catalan language|Catalan]]
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+|  rowspan=2 | '''To Czech'''
+| English to [[Czech language|Czech]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| German to [[Czech language|Czech]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| '''To Danish'''
+| English to [[Danish language|Danish]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+|  rowspan=5 | '''To Esperanto'''
+| Catalan to [[Esperanto]]
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| Danish to [[Esperanto]]
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| English to [[Esperanto]]
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| French to [[Esperanto]]
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| Spanish to [[Esperanto]]
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| '''To Finnish'''
+| English to [[Finnish language|Finnish]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| '''To Greek'''
+| English to [[Greek language|Greek]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| '''To Haitian Creole'''
+| English to [[Haitian Creole]]
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| '''To Hebrew'''
+| English to [[Hebrew]]
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| '''To Hindi'''
+| English to [[Hindi]]
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| '''To Hungarian'''
+| English to [[Hungarian language|Hungarian]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| rowspan=2 | '''To Norwegian Bokmål'''
+| English to [[Norwegian Bokmål]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{dunno}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| [[Norwegian Nynorsk]] to [[Norwegian Bokmål]]
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| '''To Norwegian Nynorsk'''
+| [[Norwegian Bokmål]] to [[Norwegian Nynorsk]]
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+|  rowspan=2 | '''To Occitan'''
+| Catalan to [[Occitan language|Occitan]]
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| Spanish to [[Occitan language|Occitan]]
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| '''To Persian'''
+| English to [[Persian language|Persian]]
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+|  rowspan=2 | '''To Polish'''
+| English to [[Polish language|Polish]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| German to [[Polish language|Polish]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| '''To Romanian'''
+| English to [[Romanian language|Romanian]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| '''To Serbo-Croatian'''
+| English to [[Serbo-Croatian]]
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+|  rowspan=2 | '''To Slovenian'''
+| English to [[Slovenian language|Slovenian]]
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| German to [[Slovenian language|Slovenian]]
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| '''To Swedish'''
+| English to [[Swedish language|Swedish]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+|-
+| '''To Turkish'''
+| English to [[Turkish language|Turkish]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| '''To Ukrainian'''
+| English to [[Ukrainian language|Ukrainian]]
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{No}}
+| {{dunno}}
+| {{Yes}}
+| {{Yes}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+| {{Yes}}
+| {{No}}
+|-
+| colspan=2| '''Total (confirmed)'''
+| '''55'''
+| '''85'''
+| '''85'''
+|'''51'''
+| '''27'''
+| '''7'''
+| '''110'''
+|'''33'''| '''94'''
+| '''31'''
+| '''89'''
+| '''10'''
+| '''64'''
+| '''15'''
+| '''59'''
+| '''6'''
+|}
+
+==See also==
+*[[List of natural language processing toolkits]]
+*[[Machine translation]]
+*[[Machine translation software usability]]
+*[[Hindi to Punjabi Machine Translation System]]
+
+==References==
+* [http://wiki.apertium.org/wiki/Main_Page Apertium wiki] (list of language pairs and licence information)
+* [https://xeroxtranslates.com/prices Xerox Easy Translator Service] (list of language pairs)
+* [http://www.microsofttranslator.com/help/#Languages Bing Translator Language List]
+* [http://blogs.msdn.com/translation/archive/2010/01/24/announcement-haitian-creole-support-in-bing-translator-and-other-microsoft-translator-powered-services.aspx Haitian Creole support in Bing/Microsoft Translator]
+* [http://www.aclweb.org/anthology-new/P/P05/P05-1034.pdf Microsoft Research: Syntactically Informed Phrasal SMT]
+* [https://omniscien.com/language-pairs/ List of supported languages by Omniscien Technologies]
+* [https://translate.google.com/about/intl/en_ALL/ List of supported languages in Google Translate]
+* [http://www.saic.com/linguistics/languages.html/ List of supported languages for SAIC Omnifluent Translate]
+*[https://www.slate.rocks/languages/ List of supported languages for Slate Rocks] 
+* [http://www.pairaphrase.com/about-pairaphrase/solving-worlds-translation-challenges/ List of supported languages for Pairaphrase]
+
+{{reflist}}
+
+{{DEFAULTSORT:Comparison Of Machine Translation Applications}}
+[[Category:Evaluation of machine translation]]
+[[Category:Machine translation software|*]]
+[[Category:Natural language processing software]]
+[[Category:Software comparisons|Machine translation applications]]

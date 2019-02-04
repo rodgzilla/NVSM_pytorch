@@ -1,0 +1,1205 @@
+{{good article}}
+{{IPA notice}}
+A '''diaphoneme''' is an abstract [[phonology|phonological]] unit that identifies a correspondence between related sounds of two or more [[variety (linguistics)|varieties]] of a language or [[language cluster]].<ref>{{Harvcoltxt|Crystal|2011}}</ref> For example,<ref>Example adapted from {{Harvcoltxt|Wells|1982|pp=69–71}}.</ref> some English varieties<ref>Northern English varieties that have not undergone the [[pane–pain merger]].</ref> contrast the vowel of ''late'' ({{IPA|/eː/}}) with that of ''wait'' or ''eight'' ({{IPA|/ɛɪ/}}). Other English varieties<ref>Northern English varieties that have not undergone the [[wait–weight merger]].</ref> contrast the vowel of ''late'' or ''wait'' ({{IPA|/eː/}}) with that of ''eight'' ({{IPA|/ɛɪ/}}). This non-overlapping pair of phonemes from two different varieties can be reconciled by positing three different diaphonemes: A first diaphoneme for words like ''late'' ({{IPA|//e//}}), a second diaphoneme for words like ''wait'' ({{IPA|//ei//}}), and a third diaphoneme for words like ''eight'' ({{IPA|//ex//}}).
+{| class="wikitable"
+|-
+!rowspan="2"| Words
+!colspan="2"| Phonemes
+!rowspan="2"| Diaphonemes
+|-
+! Variety A
+! Variety B
+|-
+| late
+|rowspan="2"| {{IPA|/eː/}}
+| {{IPA|/eː/}}
+| {{IPA|//e//}}
+|-
+| wait
+|rowspan="2"| {{IPA|/ɛɪ/}}
+| {{IPA|//ei//}}
+|-
+| eight
+| {{IPA|/ɛɪ/}}
+| {{IPA|//ex//}}
+|}
+
+'''Diaphonology''' studies the realization of diaphones across dialects, and is important if an [[orthography]] is to be adequate for more than one dialect of a language. In historical linguistics, it is concerned with the reflexes of an ancestral phoneme as a language splits into dialects, such as the modern realizations of [[Old English]] {{IPA|/oː/}}.
+
+The concept goes back to the 1930s. The word '''diaphone''' was originally used with the same meaning, but was later repurposed to refer to any of the particular variants, making the relationship between diaphoneme and diaphone analogous to that between [[phoneme]] and [[allophone]].
+
+==Usage==
+The term ''diaphone'' first appeared in usage by phoneticians like [[Daniel Jones (phonetician)|Daniel Jones]]<ref>{{Harvcoltxt|Collins|Mees|1999|p=326}}, citing {{Harvcoltxt|Jones|1932}}</ref> and [[Harold E. Palmer]].<ref>{{Harvcoltxt|Chao|1934|p=364}}, citing {{Harvcoltxt|Palmer|1931}}</ref><ref>{{Harvcoltxt|Chao|1946|p=12}} states that Jones credited Palmer with using the term in print first, though {{Harvcoltxt|Wells|1982|p=69}} citing {{Harvcoltxt|Jones|1962}}, credits Jones with pushing the concept.</ref> Jones, who was more interested in transcription and coping with dialectal variation<ref>{{Harvcoltxt|Wells|1982|p=69}}</ref>  than with how [[#Cognitive reality|cognitively real]] the phenomenon is,<ref>{{Harvcoltxt|Twaddell|1935|p=29}}</ref> originally used ''diaphone'' to refer to the family of  sounds that are realized differently depending on dialect but that speakers consider to be the same;<ref>{{Harvcoltxt|Chao|1946|p=12}}</ref> an individual dialect or speaker's realization of this diaphone was called a ''diaphonic variant''.  Because of confusion related to usage, Jones later coined the term ''diaphoneme'' to refer to his earlier sense of ''diaphone'' (the  class of sounds) and used ''diaphone'' to refer to the variants.<ref>This is how the terms are used in {{Harvcoltxt|Kurath|McDavid|1961}} (cited in {{Harvcoltxt|Wells|1982|p=70}}), {{Harvcoltxt|Moulton|1961|p=502}}, and {{Harvcoltxt|Jones|1950}}</ref><ref>{{Harvcoltxt|Shores|1984}} uses ''diaphone'' in this sense but uses ''phoneme'' in place of ''diaphoneme.''</ref><ref>{{Harvcoltxt|Trask|1996|p=111}}</ref>
+
+A diaphonemic inventory is a specific [[diasystem]] (a term popularized by [[Uriel Weinreich]]) that superimposes dialectal contrasts to access all contrasts in all dialects that are included.<ref>{{Harvcoltxt|Stockwell|1959|p=262}}</ref>  This consists of a shared core inventory<ref>{{Harvcoltxt|Stockwell|1959|p=262}}, citing {{Harvcoltxt|Hockett|1955|pp=18–22}}</ref> and, when accounting for contrasts not made by all dialects (whether they are historical contrasts that have [[phonological change#Merger|been lost]] or [[phonological change#Split|innovative ones]] not made in all varieties <ref>{{Harvcoltxt|Geraghty|1983|p=20}}</ref>), only as many contrasts as are needed.<ref>{{Harvcoltxt|Stockwell|1959|p=262}}</ref><ref>{{Harvcoltxt|Wells|1982|p=70}} refers to this distinction as "differences in phonetic realization" and "differences between accents", respectively.</ref> The diaphonemic approach gets away from the assumption that linguistic communities are homogeneous, allows multiple varieties to be described in the same terms (something important for situations where people have abilities in more than one variety),<ref>{{Harvcoltxt|Nagara|1972|pp=24, 47}}, citing {{Harvcoltxt|Weinreich|1953|pp=14, 29}}</ref> and helps in ascertaining where speakers make diaphonic identifications as a result of similarities and differences between the varieties involved.<ref>{{Harvcoltxt|Nagara|1972|p=47}}</ref>
+
+The '''linguistic variable''', a similar<ref>{{Harvcoltxt|Pederson|1977|p=274}}</ref> concept presented by [[William Labov]], refers to features with variations that are referentially identical but carry social and stylistic meaning.<ref>{{Harvcoltxt|Lavandera|1978|pp=173, 177}}, pointing to {{Harvcoltxt|Labov|1966}}</ref>  This could include phonological, as well as morphological and syntactic phenomena.<ref>{{Harvcoltxt|Wolfram|1991|p=24}}</ref> Labov also developed [[variable rules analysis]], with variable rules being those that all members of a speech community (presumably) possess but vary in the frequency of use.<ref>{{Harvcoltxt|Romaine|1981|p=96}}, pointing to {{Harvcoltxt|Labov|1969}}</ref> The latter concept met resistance from scholars for a number of reasons<ref>{{Harvcoltxt|Fasold|1991|pp=8–15}}</ref> including the argument from critics that knowledge of rule probabilities was too far from speakers' competence.<ref>See {{Harvcoltxt|Romaine|1981|pp=100–106}} for a more in-depth discussion about communicative competence in relation to variable rules.</ref>  Because of these problems, use of variable rules analysis died down by the end of the 1980s.<ref>{{Harvcoltxt|Fasold|1991|p=17}}</ref> Nevertheless, the linguistic variable is still used in [[sociolinguistics]]. For Labov, grouping variants together was justified by their tendency to fluctuate between each other within the same set of words.<ref>{{Harvcoltxt|Wolfram|1991|pp=24–25}}, citing {{Harvcoltxt|Labov|1966|p=53}}</ref>  For example, Labov presented the variants (among [[New York City|New York]] speakers) of the vowel of ''bad'' or ''dance'':
+{| class="wikitable" align="center"
+! Phonetic <br>value !! Score
+|-
+| {{IPA|[ɪə]}} || 1
+|-
+| {{IPA|[ɛə]}} || 2
+|-
+| {{IPA|[æ̝]}} || 3
+|-
+| {{IPA|[æː]}} || 4
+|-
+| {{IPA|[aː]}} || 5
+|-
+| {{IPA|[ɑː]}} || 6
+|}
+
+The different phonetic values were assigned numerical values that were then used in an overall score index.
+
+'''Overdifferentiation''' is when phonemic distinctions from one's primary language are imposed on the sounds of the second system where they are not required; '''underdifferentiation''' of phonemes occurs when two sounds of the second system are not maintained because they are not present in the primary system.<ref>{{Harvcoltxt|Nagara|1972|p=277}}, citing {{Harvcoltxt|Weinreich|1953|p=18}}</ref>
+
+==Dialectology==
+Inspired by {{Harvcoltxt|Trubetzkoy|1931}}, [[Uriel Weinreich]] first advocated the use of diasystems in structural [[dialectology]], and suggested that such a system would represent a higher level of abstraction that can unite related dialects into a single description and transcription.<ref>{{Harvcoltxt|Weinreich|1954|pp=389–390}}</ref> While phonemic systems describe the speech of a single variety, diaphonemic systems can reflect the contrasts that aren't made by all varieties being represented.  The way these differ can be shown in the name ''New York''. This word may be transcribed phonemically as {{IPA|/nuː ˈjɔrk/}} in American English, as many varieties thereof do not allow the cluster {{IPA|/nj/}} as a [[syllable onset]]; in [[Received Pronunciation]], syllable-final {{IPA|/r/}} doesn't occur so this name would be transcribed {{IPA|/njuː ˈjɔːk/}} to reflect that pronunciation. A diaphonemic transcription such as {{IPA|/n'''j'''uː ˈjɔ'''r'''k/}} (with both the {{IPA|/j/}} and the {{IPA|/r/}}) would thus cover both dialects. Neither is described exactly, but both are derivable from the diaphonemic transcription.
+
+The desire of building a diasystem to accommodate all English dialects, combined with a blossoming [[generative phonology]], prompted American dialectologists to attempt the construction of an "overall system" of English phonology by analyzing dialectal distinctions as differences in the ordering of phonological rules<ref>{{Harvcoltxt|Davis|1973|p=1}}</ref><ref>{{Harvcoltxt|Allen|1977|pp=169, 226}}</ref> as well as in the presence or absence of such rules.<ref>{{Harvcoltxt|Saporta|1965|pp=218–219}}</ref> {{Harvcoltxt|Bickerton|1973|p=641}} even went so far as to claim that principled description of interdialectal code-switching would be impossible without such rules.
+
+An example of this concept is presented in {{Harvcoltxt|Saporta|1965|p=223}} with a phonological difference between [[Castilian Spanish|Castilian]] and Uruguayan Spanish:
+
+{| class="wikitable"
+|-
+! Castilian !! Uruguayan !! Gloss
+|-
+| {{IPA|[ˈklase]}} || {{IPA|[ˈklase]}} || 'class'
+|-
+|{{IPA|[ˈklasɛs]}} || {{IPA|[ˈklasɛ]}} || 'classes'
+|}
+
+Without the use of ordered rules, Uruguayan Spanish could be interpreted as having two additional phonemes and morphophonemic vowel alternation with its plural marker.  Attempting to construct a diasystem that encodes such a variety would thus represent all Spanish varieties as having seven vowel phonemes (with contrasts only in final position).  Due to both varieties having closed allophones of [[mid vowel]]s in open syllables and open allophones in closed syllables, using ordered rules minimizes the differences so that the underlying form for both varieties is the same and Uruguayan Spanish simply has a subsequent rule that deletes {{IPA|/s/}} at the end of a syllable; constructing a diaphonemic system thus becomes a relatively straightforward process.  {{Harvcoltxt|Saporta|1965|p=220}} suggests that the rules needed to account for dialectal differences, even if not [[#Cognitive reality|psychologically real]], may be ''historically'' accurate.
+
+The nature of an overall system for English was controversial: the analysis in {{Harvcoltxt|Trager|Smith|1951}}<ref>{{Harvcoltxt|Allen|1977|p=224}} and {{Harvcoltxt|Stockwell|1959|p=258}} point to earlier works by these authors as approaching the same goal but in less detail</ref> was popular amongst American linguists for a time (in the face of criticism, particularly from [[Hans Kurath]]<ref>e.g. {{Harvcoltxt|Kurath|1957}}</ref>); James Sledd<ref>particularly in {{Harvcoltxt|Sledd|1966}}</ref> put forth his own diaphonemic system that accommodated [[Southern American English]]; both {{Harvcoltxt|Troike|1971}} and {{Harvcoltxt|Reed|1972}} modified the scheme of ''[[The Sound Pattern of English]]'' by focusing on the diaphoneme, believing that it could address neutralizations better than [[structural linguistics|structuralist]] approaches;<ref>{{Harvcoltxt|Allen|1977|p=227}}</ref> and ''The Pronunciation of English in the Atlantic States '' (''PEAS'') by [[Hans Kurath|Kurath]] and McDavid combined several dialects into one system transcribed in the IPA.<ref>{{Harvcoltxt|Allen|1977|p=224}}, citing {{Harvcoltxt|Kurath|McDavid|1961}}</ref>  More recently, ''[[The Cambridge Grammar of the English Language]]'' makes use of a diaphonemic transcription of Standard English so that examples can be expressed concisely without favoring any particular accent.<ref>See explanation [http://catdir.loc.gov/catdir/samples/cam033/2001025630.pdf here]</ref>
+
+{{Harvcoltxt|Weinreich|1954}} argued that {{Harvcoltxt|Trager|Smith|1951}} fell short in accurately representing dialects because their methodology involved attempting to create a diasystem before establishing the relevant component phonemic systems.<ref>{{Harvcoltxt|Weinreich|1954|p=395}}</ref> {{Harvcoltxt|Voegelin|1956|p=122}} argues a similar problem occurs in the study of [[Hopi language|Hopi]] where [[transfer of training]] leads phoneticians to fit features of a dialect under study into the system of dialects already studied.
+
+Beginning with {{Harvcoltxt|Trubetzkoy|1931}} linguists attempting to account for dialectal differences have generally distinguished between three types:
+*'''Phonological''': the phonemic inventories and [[phonotactic]] restrictions
+*'''Phonetic''': how a given phoneme is realized phonetically (RP and Australian English, for example, have almost the same exact phoneme system but with notably different realizations of the vowels<ref>See {{Harvcoltxt|Turner|1966}}, cited in {{Harvcoltxt|Wells|1970|p=245}}</ref>).  This distinction covers differences in the range of allophonic variation.
+*'''Incidence''': one phoneme rather than another occurs in a given word or group of words (such as ''grass'', which has the same vowel of ''farce'' in RP but not in GA.<ref>{{Harvcoltxt|Fudge|1969|p=272}}</ref>)
+
+Wells<ref>{{Harvcoltxt|Wells|1970|pp=232, 240, 243, 245}}, {{Harvcoltxt|Wells|1982|p=73}}</ref> expanded on this by splitting up the phonological category into "systemic" differences (those of inventory) and "structural" differences (those of phonotactics).
+
+In addition, both Wells and Weinreich mention ''realizational overlap'', wherein the same phone (or a nearly identical one) corresponds to different phonemes, depending on accent.<ref>{{Harvcoltxt|Wells|1982|p=83}}</ref><ref>{{Harvcoltxt|Weinreich|1954|p=394}}</ref>  Some examples:
+*''Autistic'' in [[Canadian English]] overlaps with the way speakers of [[Received Pronunciation]] say ''artistic'': {{IPA|[ɑːˈtʰɪstɪk]}}
+*''Impossible'' in [[General American]] overlaps with RP ''impassable'': {{IPA|[ɪmˈpɑːsəbl̩]}}
+{{Harvcoltxt|Hankey|1965|p=229}} notes a similar phenomenon in [[Western Pennsylvania]], where {{IPA|[æɪ]}} occurs either as the vowel of ''ashes'' or as the vowel of ''tiger'' but no speaker merges the two vowels (i.e. a speaker who says {{IPA|[ˈæɪʃɪz]}} will not say {{IPA|[ˈtæɪɡɚ]}}).
+
+Realizational overlap occurs between the three dialects of [[Huastec language|Huastec]], which have the same phonological system even though cognate words often do not have the same reflexes of this system. For example, while the Central and Potosino dialects both have ''ch'' and ''ts''-type sounds, the words they are found in are reversed:<ref>{{Harvcoltxt|Kaufman|2006|p=65}}</ref>
+
+{| class="wikitable"
+|+Huastec diaphonemes
+! Diaphoneme !! colspan=2| word !! Otontepec !! Central !! [[San Luis Potosi|Potosino]]
+|-align=center
+|{{IPA|#tʃ}} || {{IPA|#tʃan}} || 'snake' ||{{IPA|tʃan}} ||{{IPA|tʃan}} ||{{IPA|tsan}}
+|-align=center
+|{{IPA|#tʃʼ}} || {{IPA|#tʃʼak}} || 'flea' ||{{IPA|tʃʼak}} ||{{IPA|tʃʼak}} ||{{IPA|tsʼak}}
+|-align=center
+| {{IPA|#tʲ}} || {{IPA|#tʲiθ}} || 'pigweed' || {{IPA|tʲiθ}} || {{IPA|tsiθ}} || {{IPA|tʃiθ}}
+|-align=center
+| {{IPA|#tʲʼ}} || {{IPA|#tʲʼitʲab}} || 'comb' ||{{IPA|tʲʼitʲab}} ||{{IPA|tsʼitsab}} ||{{IPA|tʃʼitʃab}}
+|}
+
+[[Yuen Ren Chao]] created a diaphonemic transcription of major [[varieties of Chinese|Chinese varieties]], in both Latin and [[Chinese character]] versions, called "[[General Chinese]]". It originally (1927) covered the various [[Wu Chinese|Wu]] dialects, but by 1983 had expanded to cover the major dialects of Mandarin, Yue, Hakka, and Min as well. Apart from a few irregularities, GC can be read equally well in any of those dialects, and several others besides.
+
+[[Classical Arabic#Phonology|Qur'anic Arabic]] uses a diaphonemic writing system that indicates both the pronunciation in Mecca, the western dialect the Qur'an was written in, and that of eastern Arabia, the [[prestige language|prestige dialect]] of [[pre-Islamic poetry]]. For example, final {{IPA|*aj}} was pronounced something like {{IPA|[eː]}} in Mecca, and written ي {{IPA|/j/}}, while it had merged with {{IPA|[aː]}} in eastern Arabia and was written as ا {{IPA|/ʔ/}}. In order to accommodate both pronunciations, the basic letter of Meccan Arabic was used, but the diacritic was dropped: ى. Similarly, the glottal stop had been lost in Meccan Arabic in all positions but initially, so the Meccan letters were retained with the eastern glottal stop indicated with a diacritic [[hamza]].<ref>Catherine Bateson, 1967, ''Arabic Language Handbook'', p 75 ff.</ref><ref>Versteegh, 1997, ''The Arabic Language'', p 40 ff, 56 ff</ref>
+
+==Bilingualism==
+[[Einar Haugen]] expanded the diaphonic approach to the study of [[bilingualism]],<ref>{{Harvcoltxt|Nagara|1972|p=48}}, citing {{Harvcoltxt|Haugen|1954|p=11}}</ref> believing diaphones represented the process of interlingual identification<ref>{{Harvcoltxt|Nagara|1972|p=52}}</ref> wherein sounds from different languages are perceptually linked into a single category.<ref>{{Harvcoltxt|Riney|Takagi|1999|p=295}}</ref>  Because interlingual identifications may happen between unrelated varieties, it is possible to construct a diasystem for many different language contact situations, with the appropriateness of such a construction depending on its purpose<ref>{{Harvcoltxt|Nagara|1972|p=49}}</ref> and its simplicity depending on how [[isomorphism (sociology)|isomorphic]] the phonology of the systems are.  For example, the [[New Mexican Spanish|Spanish]] of Los Ojos (a small village in [[Rio Arriba County, New Mexico]]) and the local variety of [[North American English regional phonology#Western Dialect|Southwestern English]] are fairly isomorphic with each other<ref>{{Harvcoltxt|Oliver|1972|p=362}}</ref> so a diaphonic approach for such a [[language contact]] situation would be relatively straightforward. {{Harvcoltxt|Nagara|1972}} makes use of a diaphonic approach  in discussing the phonology of the [[Hawaiian Pidgin|pidgin English]] used by [[Japanese diaspora#Americas|Japanese immigrants]] on [[sugar plantations in Hawaii|Hawaiian plantations]].<ref>{{Harvcoltxt|Nagara|1972|p=9}}</ref>
+
+Both Haugen and Weinreich considered the use of phonemes beyond a single language to be inappropriate when phonemic systems between languages were incommensurable with each other.<ref>{{Harvcoltxt|Pulgram|1964|p=66}} reiterates this point when he says,
+<blockquote>"Since each state is a system consisting of members solely defined by their mutual relations, any two non-identical systems must necessarily be incommensurable, for no element in one can be identified with any element in the other. ...structurally we cannot identify or even compare any Spanish vowel-phoneme with any Italian vowel-phoneme, because a member of a 5-vowel system is intrinsically different from a member of a 7-term system."</blockquote></ref>  Similarly, {{Harvcoltxt|Shen|1952}}, argues that phonemic representations may lead to confusion when dealing with phonological [[language transfer|interference]] and {{Harvcoltxt|Nagara|1972|p=56}} remarks that narrow [[phonetic transcription]] can be cumbersome, especially when discussing other grammatical features like [[syntax]] and [[morphology (linguistics)|morphology]]. [[Allophone]]s, which phonemic systems don't account for, may be important in the process of interference and interlingual identifications.<ref>{{Harvcoltxt|Nagara|1972|p=54}}, citing {{Harvcoltxt|Shen|1959|p=7}} and {{Harvcoltxt|Haugen|1954|pp=10–11}}</ref>
+
+===Borrowing===
+Similarly, the term ''diaphone'' can be used in discussions of cognates that occur in different languages due to borrowing.  Specifically, {{Harvcoltxt|Haugen|1956|pp=46, 67}} used the term to refer to phonemes that are equated by speakers cross-linguistically because of similarities in shape and/or distribution.  For example, loanwords in [[Huave language|Huave]] having "diaphonic identification" with [[Spanish language|Spanish]] include ''àsét'' ('oil', from Spanish ''[[wikt:aceite#Spanish|aceite]]'') and ''kàwíy'' ('horse', from Spanish ''[[wikt:caballo#Spanish|caballo]]'').<ref>{{Harvcoltxt|Diebold|1961|p=107}}</ref> This perception of sameness with native phonology means that speakers of the borrower language (in this case, Huave) will hear new features from the loaner language (in this case, Spanish) as equivalent to features of their own<ref>{{Harvcoltxt|Silverman|1992|p=289}}</ref> and substitute in their own when reproducing them.<ref>{{Harvcoltxt|Haugen|1950|p=212}}</ref>  In these interlanguage transfers, when phonemes or phonotactic constraints are too different, more extreme compromises may occur; for example, the English phrase ''[[Merry Christmas]]'', when borrowed into [[Hawaiian Language|Hawaiian]], becomes ''mele kalikimaka.''<ref>{{Harvcoltxt|Golston|Yang|2001|p=40}}</ref>
+
+==Pidgins and creoles==
+The process of diaphonic identification occurs when [[pidgins]] are fashioned; although lexical and morphosyntactic patterns are shared, speakers often use the phonological systems of their native language, meaning they must learn to recognize such diaphonic correspondences in the speech of others to facilitate the [[mutual intelligibility]] of a working pidgin.<ref>{{Harvcoltxt|Goodman|1967|p=44}}. The author notes (p.48) a parallel process with culturally defined gestures and offers the term ''gestural diamorph'' for this phenomenon.</ref> {{Harvcoltxt|Bailey|1971}} proposes that rule differences can be used to determine the distance a particular utterance has between a [[post-creole continuum]]'s acrolectal and basolectal forms. {{Harvcoltxt|Bickerton|1973|pp=641–642}} points out that mesolectal varieties often have features not derivable from such rules.
+
+==Cognitive reality==
+The status of panlectal and polylectal grammars<ref>For the purpose of this article, ''panlectal'' grammars are those that encode for all varieties of a language, while ''polylectal'' ones encode fewer than that.</ref> has been subject to debate amongst generative phonologists since the 1970s;<ref>{{Harvcoltxt|McMahon|1996|p=441}}, citing {{Harvcoltxt|Brown|1972}} and {{Harvcoltxt|Newton|1972}} as potentially beginning such debate.</ref><ref>{{Harvcoltxt|Trudgill|1983|p=29}}</ref> one of the foremost areas of contention in regards to diaphonemes and diasystems is whether they reflect the actual [[communicative competence|linguistic competence]] of speakers. William Labov, although warm to the construction of a panlectal grammar, argued that it should be based in speakers' linguistic competence.<ref>{{Harvcoltxt|Ornstein|Murphy|1974|p=156}}</ref>  [[Peter Trudgill]] argues against the formation of diasystems that are not cognitively real<ref>{{Harvcoltxt|Trudgill|1974|p=135}}</ref> and implies<ref>{{Harvcoltxt|Trudgill|1983}}, chapter 1</ref> that polylectal grammars that are not part of native speakers' competence are illegitimate.  Similarly, {{Harvcoltxt|Wolfram|1982|p=16}} cautions that polylectal grammars are only appropriate when they "result in claims about speaker-hearer's capabilities..."
+
+Although no linguists claim that ''pan''lectal grammars have psychological validity,<ref>{{Harvcoltxt|Yaeger-Dror|1986|p=916}}</ref> and polylectal diasystems are much more likely to be cognitively real for bilingual and bidialectal speakers,<ref>{{Harvcoltxt|Wells|1982|p=72}}</ref> speakers of only one dialect or language may still be aware of the differences between their own speech and that of other varieties.<ref>{{Harvcoltxt|Weinreich|1954|p=390}}</ref>
+Take, for example, the word ''house'', which is pronounced:
+*{{IPA|[haʊ̯s]}} in [[Buffalo, New York|Buffalo]]
+* {{IPA|[həʊ̯s]}} in [[Toronto]] and [[Washington, D.C.]]
+* {{IPA|[hæʊ̯s]}} in [[Philadelphia]]
+* {{IPA|[hɛʊ̯s]}} in [[Charlottesville, Virginia|Charlottesville]].
+Native speakers are able to calibrate the differences and interpret them as being the same.<ref>{{Harvcoltxt|Smith|1967|p=311}}</ref>  A similar issue occurs in [[Chinese language|Chinese]].  When a "general word,"<!--is there a Chinese term for this?--> is shared across multiple [[mutual intelligibility|mutually unintelligible]] dialects, it is regarded as the same word even though it is pronounced differently depending on a speaker's region.  Thus a speaker from [[Beijing]] and [[Nanking]] may pronounce 遍 ('throughout') differently, ({{IPA|[pjɛn˥˩]}} and {{IPA|[pjɛ̃˥˩]}}, respectively), though they still regard the differences as minor and due to unimportant accentual differences.<ref>{{Harvcoltxt|Chao|1946|p=12}}</ref> Because speakers aren't normally able to hear distinctions not made in their own dialect<ref>{{Harvcoltxt|Troike|1970|p=65}}, cited in {{Harvcoltxt|Campbell|1971|p=194}}</ref>  (for example, a speaker from the [[Southern United States]] who [[Phonological history of English high front vowels#Pin–pen merger|does not distinguish between ''pin'' and ''pen'']] won't hear the distinction when it's produced by speakers of other dialects), speakers who ''can'' hear such a contrast but don't produce it may still possess the contrast as part of their linguistic repertoire.
+
+In discussing contextual cues to vowel identifications in English, {{Harvcoltxt|Rosner|Pickering|1994}} note that controlling for dialect is largely unimportant for eliciting identifications when vowels are placed between consonants, possibly because the /CVC/ structure often forms lexical items that can aid in identification; identifying vowels in isolation, which don't often carry such lexical information, must be matched to the listener's set of vowel prototypes with less deviation than in consonantal contexts.<ref>{{Harvcoltxt|Rosner|Pickering|1994|p=325}}, pointing to data from {{Harvcoltxt|Verbrugge|Strange|Shankweiler|Edman|1976}}</ref> In the first chapter of {{Harvcoltxt|Trudgill|1983}}, [[Peter Trudgill]] makes the case that these semantic contexts form the basis of intelligibility across varieties and that the process is irregular and ''ad hoc'' rather than the result of any sort of rule-governed passive polylectal competence.<ref>{{Harvcoltxt|Trudgill|1983|p=10}}</ref>
+
+{{Harvcoltxt|De Camp|1971}} argues that a child's language acquisition process includes developing the ability to accommodate for the different varieties they are exposed to (including ones they would not actually employ) and the social significance of their use.<ref>{{Harvcoltxt|Ornstein|Murphy|1974|p=152}}; the authors point to other creolists like Charles-James Bailey and [[Derek Bickerton]] as expanding on this concept in  accounting for speaker variation.</ref><ref>A similar claim occurs in {{Harvcoltxt|Francis|1983|p=18}}</ref>  {{Harvcoltxt|Wilson|Henry|1998|pp=17–18}} point out that there may be [[critical period]]s for this similar to [[critical period hypothesis|those for language learning]].  This competence in multiple varieties is arguably the primary vehicle of linguistic change.<ref>{{Harvcoltxt|Bickerton|1973|p=643}}</ref>
+
+[[John C. Wells|John Wells]] argues that going past the common core creates difficulties that add greater complexity and falsely assume a shared underlying form in all accents:<ref>{{Harvcoltxt|Wells|1982|p=70}}</ref>
+<blockquote>"Only by making the diaphonemic representation a rather remote, underlying form, linked to actual surface representations in given accents by a long chain of rules–only in this way could we resolve the obvious difficulties of the taxonomic diaphoneme."</blockquote>
+
+Wells gives the example of ''straight'', ''late'' and ''wait'', which rhyme in most English varieties but, because some dialects make [[phonemic contrast]]s with the vowels of these words (specifically, in parts of the north of [[England]]<ref>These dialects pronounce the vowels as {{IPA|[ɛɪ(x)]}}, {{IPA|[eː]}}, and {{IPA|[ɛɪ]}}, respectively; the assumption being that words like ''straight'' have an underlying but unpronounced velar fricative</ref>), a panlectal transcription would have to encode this contrast despite it being absent for most speakers, making such a system "a linguist's construct"<ref>{{Harvcoltxt|Wells|1982|pp=69, 71}}</ref> and not part of the grammar present in any native speaker's mind (which is what adherents of such a system attempt to achieve).<ref>In a similar vein, {{Harvcoltxt|Wolfram|1991|p=25}} argues that the linguistic variable is essentially a ''socio''linguistic construct.</ref>
+{{Harvcoltxt|Hall|1965|p=337}} argues that such constructs are appropriate but only when they are removed before the final formulation of grammatical analysis.  Wells puts even more weight on the [[phonotactics|phonotactic]] difference between [[rhotic accent|rhotic]] and non-rhotic accents—the former have an underlying {{IPA|/r/}} in words like ''derby'' and ''star'' while the latter, arguably, do not<ref>{{Harvcoltxt|Wells|1982|pp=71, 76}}</ref>—and to the [[Phonological history of English high front vowels#Happy tensing|unstressed vowel of ''happy'']], which aligns phonetically with the vowel of {{sc2|KIT}} in some varieties and that of {{sc2|FLEECE}} in others.<ref>{{Harvcoltxt|Wells|1982|p=76}}</ref>
+
+Hans Kurath, particularly prominent in comparative analysis of British and American regional features,<ref>{{Harvcoltxt|Allen|1977|p=221}}</ref> makes the case that the systematic features of British and American English largely agree but for a handful of divergences, for example:<ref>{{Harvcoltxt|Kurath|1964}}, cited in {{Harvcoltxt|Allen|1977|p=221}}</ref>
+*postvocalic {{IPA|/r/}}<ref>In {{Harvcoltxt|Kurath|1957|p=117}}, Kurath notes that the incidence of vowels before {{IPA|/r/}} varies considerably between dialects, which requires special attention but no serious difficulties.</ref>
+*ingliding and upgliding varieties of {{IPA|/e/}}
+*New England short {{IPA|/ɵ/}}
+*coalescence of {{IPA|/ɑ/}} and {{IPA|/ɔ/}}
+*variation of {{IPA|/ʊ/}} and {{IPA|/u/}} in a few lexical items
+*the vowel of ''poor'', ''door'', and ''sure''
+*variations in {{IPA|/aɪ/}} and {{IPA|/aʊ/}}
+
+Despite downplaying the divergences, Kurath argued that there is no "total pattern" (a term from {{Harvcoltxt|Trager|Smith|1951}}) that can be imposed on all English dialects, nor of even American ones:<ref>{{Harvcoltxt|Kurath|1957|p=120}}</ref>
+<blockquote>"The linguist must analyze the system of each dialect separately before he can know what systematic features are shared by all dialects, or by groups of dialects. He must distinguish between the systematic features and sporadic unsystematized features of each dialect, since every dialect has elements that are not built into the system. To regard unsystematized features as part of a 'system' and to impose an 'over-all pattern' are spurious notions that must be rejected.</blockquote>
+
+The description of a cognitively real polylectal grammar came with {{Harvcoltxt|Trudgill|1974}}'s set of rules for the speech of [[Norwich]] that, presumably, could generate any possible output for a specific population of speakers and was psychologically real for such speakers<ref>{{Harvcoltxt|Bickerton|1975|p=302}}, pointing particularly to chapter 8 of {{Harvcoltxt|Trudgill|1974}}</ref> such that native residents who normally exhibited sound mergers (e.g. between the vowels of ''days'' and ''daze'') could accurately and consistently make the distinction if called upon to imitate older Norwich speakers.<ref>{{Harvcoltxt|Trudgill|1974|p=141}}</ref><ref>In {{Harvcoltxt|Trudgill|1983|pp=11–12, 45–46}}, the author points out that there are Norwich speakers who do not accurately imitate the speech of others, and present "hyperdialectisms" (similar to [[hypercorrection]]); such speakers may then be said to have a different, less polylectal, grammar than the one described in {{Harvcoltxt|Trudgill|1974}}</ref>
+
+{{Harvcoltxt|Berdan|1977}} argues that comprehension across varieties, when it is found, isn't sufficient enough evidence for the claim that polylectal grammars are part of speakers' linguistic competence.<ref>cited in {{Harvcoltxt|Trudgill|1983|p=29}}</ref>  {{Harvcoltxt|Ballard|1971}} argues that an extrapolated panlectal (or even broadly polylectal) grammar from "idiosyncratic" grammars, such as those found in {{Harvcoltxt|Trudgill|1974}}, would still not be part of speakers' linguistic competence;<ref>{{Harvcoltxt|Ballard|1971|p=267}}</ref> {{Harvcoltxt|Moulton|1985|p=566}} argues that attempting a polylectal grammar that encodes for a large number of dialects becomes too bizarre and that the traditional reconstructed proto-language is more appropriate for the stated benefits of polylectal grammars. {{Harvcoltxt|Bailey|1973|pp=27, 65}}, notable for advocating the construction of polylectal grammars, says that the generative rules of such grammars should be panlectal in the sense that they are ''potentially'' learned in the acquisition process, though no speaker should be expected to learn all of them.
+
+Although question remains to their psychological reality, the usefulness of diaphonemes is shown in {{Harvcoltxt|Newton|1972|pp=19–23}} with the loss of the [[close front rounded vowel|front rounded vowel]] phoneme {{IPA|/y/}} in [[Greek language|Greek]] words like ξ'''ύ'''λο and κ'''οι'''λιά; this vowel merged with {{IPA|/i/}} in most words and {{IPA|/u/}} in the rest, though the distribution varies with dialect.  A diasystem would thus have to present an additional underlying diaphoneme {{IPA|/y/}} with generative rules that account for the dialectal distribution.<ref>{{Harvcoltxt|Kazazis|1976|p=515}}</ref> Similarly, the diaphonemic system in {{Harvcoltxt|Geraghty|1983}} goes beyond the common core, marking contrasts that only appear in some varieties;<ref>{{Harvcoltxt|Geraghty|1983|pp=19, 20}}</ref>  Geraghty argues that, because of [[Fijian traditions and ceremonies#Marriages|Fijian marriage customs]] that prompt exposure to other dialects, speakers may possess a diasystem that represents multiple dialects as part of their communicative competence.<ref>{{Harvcoltxt|Geraghty|1983|p=64}}</ref>
+
+==Representation==
+There are a number of ways diaphones are represented in literature.  One way is through the IPA, this can be done with slashes, as if they are phonemes, or with other types of brackets:
+* double slashes: {{IPA|//bɪt//}}<ref>e.g. {{Harvcoltxt|Trudgill|1974}}</ref>
+* exclamation points: {{IPA|!bɪt!}}<ref>e.g. {{Harvcoltxt|Sledd|1966}}</ref>
+* vertical bars: {{IPA|{{!}}bɪt{{!}}}}<ref>{{Harvcoltxt|Trask|1996|p=111}}</ref>
+* curved brackets: {{IPA|{b.ɪ.t}}}<ref>e.g. {{Harvcoltxt|Smith|1967|p=312}}; this bracketing comes from Smith's interpretation that the diaphoneme represents [[morphophonemic]] correspondences rather than phonemic ones.</ref>
+
+The concept does not necessitate the formation of a transcription system.  Diaphones can instead be represented with double slashes.<ref>{{Harvcoltxt|Cadora|1970|pp=14, 18}}; similarly, double wavy lines (≈) indicate oppositions within a diasystem in the same way that wavy lines (~) indicate phonemic oppositions within an individual variety.</ref> This is the case, for example in {{Harvcoltxt|Orten|1991}} and {{Harvcoltxt|Weinreich|1954}} where diaphonemes are represented with bracketing:<ref>{{Harvcoltxt|Orten|1991|p=50}}</ref>
+
+:<math>\bigg/ \bigg/ \frac{RP, GA \qquad \mathrm{k}}{SSE, KA \qquad \mathrm{k}~vs. \mathrm{x}} \bigg/ \bigg/</math>
+
+In this scheme, [[Scottish Standard English]] and the accent of [[Kirkwall]] are shown to make a phonemic contrast between {{IPA|/k/}} and {{IPA|/x/}} while [[Received Pronunciation|RP]] and [[General American|GA]] are shown to possess only the former so that ''lock'' and ''[[loch]]'' are pronounced differently in the former group and identically in the latter.
+
+Diaphonemic systems don't necessarily even have to utilize the [[International Phonetic Alphabet|IPA]].  Diaphones are useful in constructing a writing system that accommodates multiple dialects with different phonologies.<ref>{{Harvcoltxt|Jones|1950}}, cited in {{Harvcoltxt|Householder|1952|p=101}}</ref>  Even in dialectology, diaphonemic transcriptions may instead be based on the language's orthography, as is the case with Lee Pederson's Automated Book Code designed for information from the ''Linguistic Atlas of the Gulf States''.<ref>{{Harvcoltxt|Pederson|1987|pp=48, 51}}</ref><ref>{{Harvcoltxt|Pederson|1989|p=54}}</ref> and the diaphonemic transcription system used by Paul Geraghty for related Fijian languages uses a modified Roman script.<ref>{{Harvcoltxt|Geraghty|1983|pp=19–22}}</ref>
+
+==See also==
+*[[Comparative method]]
+*[[Diasystem]]
+*[[Ernst Pulgram]]
+*[[International Phonetic Alphabet chart for English dialects]]
+*[[Lexical set]]
+*[[Morphophonology]]
+*[[Phonological history of English vowels]]
+*[[Robert A. Hall, Jr.]]
+
+==Notes==
+{{reflist|colwidth=30em}}
+
+==References==
+{{refbegin}}
+*{{citation
+|last=Allen
+|first=Harold B.
+|year=1977
+|title=Regional dialects, 1945–1974
+|journal=American Speech
+|volume=52
+|issue=3/4
+|pages=163–261
+|doi=10.2307/455241
+}}
+*{{citation
+|last=Bailey
+|first=Beryl L.
+|editor-last=Hymes
+|editor-first=Dell
+|year=1971
+|chapter=Jamaican Creole: Can dialect boundaries be defined?
+|title=Pidginization and Creolization of Languages
+|place=Cambridge
+|publisher=Cambridge University Press
+|pages=341–348
+}}
+*{{citation
+|last=Bailey
+|first= Charles-James N.
+|year=1973
+|title=Variation and Linguistic Theory
+|place=Arlington, VA
+|publisher=Center for Applied Linguistics
+}}
+*{{citation
+|last=Ballard
+|first=W.L.
+|year=1971
+|title=Review: Linguistic change and the Saussurian paradox
+|journal=American Speech
+|volume=46
+|issue=3/4
+|pages=254–270
+|doi=10.2307/3087780
+}}
+*{{citation
+|last=Berdan
+|first=R.
+|editor-last=Fasold
+|editor-first=R.W.
+|editor2-last=Shuy
+|editor2-first=R.W.
+|year=1977
+|chapter=Polylectal comprehension and the polylectal grammar
+|title=Studies in Language Variation
+|place=Washington, D.C.
+|publisher=Georgetown University Press
+}}
+*{{citation
+|last=Bickerton
+|first=Derek
+|authorlink=Derek Bickerton
+|year=1973
+|title=The nature of a creole continuum
+|journal=Language
+|volume=49
+|issue=3
+|pages=640–669
+|doi=10.2307/412355
+}}
+*{{citation
+|last=Bickerton
+|first=Derek
+|year=1975
+|title=[Untitled review]
+|journal=Journal of Linguistics
+|volume=11
+|issue=2
+|pages=299–308
+|doi=10.1017/s0022226700004631
+}}
+*{{citation
+|last=Brown
+|first=Gillian
+|year=1972
+|title=Phonological rules and dialect variation
+|place=Cambridge
+|publisher=Cambridge University Press
+}}
+*{{citation
+|last=Cadora
+|first=Frederic J.
+|year=1970
+|title=Some linguistic concomitants of contactual factors of urbanization
+|journal=Anthropological Linguistics
+|volume=12
+|issue=1
+|pages=10–19
+}}
+*{{citation
+|last=Campbell
+|first=Lyle
+|year=1971
+|title=[untitled review]
+|journal=Language
+|volume=47
+|issue=1
+|pages=191–209
+|doi=10.2307/412198
+}}
+*{{citation
+|last=Chao
+|first=Yuen-Ren
+|year=1934
+|title=The non-uniqueness of phonemic solutions of phonetic systems
+|journal=Bulletin of the Institute of History and Philology, Academica Sinica
+|volume=4
+|issue=4
+|pages=363–397
+}}
+*{{citation
+|last=Chao
+|first=Yuen-Ren
+|year=1946
+|title=The logical structure of Chinese words
+|journal=Language
+|volume=22
+|issue=1
+|pages=4–13
+|doi=10.2307/410329
+}}
+*{{citation
+|last=Collins
+|first=Beverly
+|last2=Mees
+|first2=Inger
+|year=1999
+|title=The Real Professor Higgins: the Life and Career of Daniel Jones
+|place=Berlin & New York
+|publisher=Mouton de Gruyter
+}}
+*{{citation
+|last=Crystal
+|first=David
+|year=2011
+|title=A Dictionary of Linguistics and Phonetics
+|edition=sixth
+|publisher=Blackwell Publishing
+}}
+*{{citation
+|last=Davis
+|first=Lawrence
+|year=1973
+|title=The diafeature: An approach to structural dialectology
+|journal=Journal of English Linguistics
+|volume=7
+|issue=1
+|pages=1–20
+|doi=10.1177/007542427300700101
+}}
+*{{citation
+|last=De Camp
+|first=David
+|year=1971
+|title=Implicational scales and sociolinguistic linearity
+|journal=Linguistics
+|volume=73
+|pages=30–43
+}}
+*{{citation
+|last=Diebold
+|first=A. Richard
+|year=1961
+|title=Incipient bilingualism
+|journal=Language
+|volume=37
+|issue=1
+|pages=97–112
+|doi=10.2307/411253
+}}
+*{{citation
+|last=Fasold
+|first=Ralph
+|year=1991
+|title=The quiet demise of variable rules
+|journal=American Speech
+|volume=66
+|issue=1
+|pages=3–21
+|doi=10.2307/455431
+}}
+*{{citation
+|last=Francis
+|first=W.N.
+|year=1983
+|title=Dialectology: An Introduction
+|volume=1
+|place=London and New York
+|publisher=Longman
+}}
+*{{citation
+|last=Fudge
+|first=E.C.
+|year=1969
+|title=Syllables
+|journal=Journal of Linguistics
+|volume=5
+|pages=253–286
+|doi=10.1017/s0022226700002267
+}}
+*{{citation
+|last=Geraghty
+|first=Paul A.
+|year=1983
+|title=The history of the Fijian languages
+|journal=Oceanic Linguistics Special Publications
+|volume=19
+|pages=i, iii–iv, vii–xxv, 1–483
+}}
+*{{citation
+|last=Golston
+|first=Chris
+|last2=Yang
+|first2=Phong
+|editor-last=Féry
+|editor-first=A.D. Green
+|editor2-last=van de Vijver
+|editor2-first=R.
+|year=2001
+|chapter=White Hmong loanword phonology
+|title=Proceedings of HILP
+|volume=5
+|place=University of Potsdam
+|publisher=Potsdam
+|pages=40–57
+}}
+*{{citation
+|last=Goodman
+|first=John Stuart
+|year=1967
+|title=The development of a dialect of English-Japanese Pidgin
+|journal=Anthropological Linguistics
+|volume=9
+|issue=6
+|pages=43–55
+}}
+*{{citation
+|last=Hall
+|first=Robert A., Jr.
+|authorlink=Robert A. Hall, Jr.
+|year=1965
+|title=Fact and fiction in grammatical analysis
+|journal=Foundations of Language
+|volume=1
+|issue=4
+|pages=337–345
+}}
+*{{citation
+|last=Hankey
+|first=Clyde T.
+|year=1965
+|title="Tiger," "tagger," and {{IPA|[aɪ]}} in Western Pennsylvania
+|journal=American Speech
+|volume=40
+|issue=3
+|pages=225–229
+|doi=10.2307/454074
+}}
+*{{citation
+|last=Haugen
+|first=Einar
+|authorlink=Einar Haugen
+|year=1950
+|title=The analysis of linguistic borrowing
+|journal=Language
+|volume=26
+|issue=2
+|pages=210–231
+|doi=10.2307/410058
+}}
+*{{citation
+|last=Haugen
+|first=Einar
+|year=1954
+|chapter=Problems of bilingual description
+|title=Report of the Fifth Annual Round Table Meeting on Linguistics and Language Teaching
+|series=Georgetown University Monograph Series on Languages and Linguistics
+|volume=7
+|pages=9–19
+|place=Washington, D.C.
+|publisher=Georgetown University Press
+}}
+*{{citation
+|last=Haugen
+|first=Einar
+|year=1956
+|title=Bilingualism in the Americas: A Bibliography and Research Guide
+|journal=American Speech
+|volume=31
+|issue=26
+}}
+*{{citation
+|last=Hockett
+|first=Charles
+|year=1955
+|title=Manual of Phonology
+|series=Indiana University Publications in Anthropology and Linguistics
+|volume=11
+|place=Baltimore
+|publisher=Waverly Press, Inc
+|url=https://www.questia.com/PM.qst?a=o&d=100085562
+}}
+*{{citation
+|last=Householder
+|first=Fred, Jr.
+|year=1952
+|title=[untitled review]
+|journal=International Journal of American Linguistics
+|volume=18
+|issue=2
+|pages=99–105
+|jstor=1263295
+}}
+*{{citation
+|last=Jones
+|first=Daniel
+|authorlink=Daniel Jones (phonetician)
+|year=1932
+|chapter=The theory of phonemes, and its importance in practical linguistics
+|title=Proceedings of the First International Congress of Phonetic Sciences
+|place=Amsterdam
+}}
+*{{citation
+|last=Jones
+|first=Daniel
+|year=1950
+|title=The Phoneme: Its Nature and Use
+|edition=1st
+|place=Cambridge
+|publisher=W. Heffer
+}}
+*{{citation
+|last=Jones
+|first=Daniel
+|year=1962
+|title=The Phoneme: Its Nature and Use
+|edition=Second
+|place=Cambridge
+|publisher=Cambridge University Press
+}}
+*{{citation
+|last=Kaufman
+|first=Terrence
+|editor-last=Hinton
+|editor-first=Leanne
+|editor2-last=Nichols
+|editor2-first=Johanna
+|editor3-last=Ohala
+|editor3-first=John
+|year=2006
+|chapter=Symbolism and change in the sound system of Huastec
+|pages=63–75
+|title=Sound Symbolism
+|place=Cambridge
+|publisher=Cambridge University Press
+}}
+*{{citation
+|last=Kazazis
+|first=Kostas
+|year=1976
+|title=[untitled review]
+|journal=Language
+|volume=52
+|issue=2
+|pages=514–516
+|doi=10.2307/412579
+}}
+*{{citation
+|last=Kurath
+|first=Hans
+|year=1957
+|title=The binary interpretation of English vowels: A critique
+|journal=Language
+|volume=33
+|issue=2
+|pages=111–122
+|doi=10.2307/410723
+}}
+*{{citation
+|last=Kurath
+|first=Hans
+|editor-last=Abercrombie
+|editor-first=D.
+|editor2-last=Fry
+|editor2-first=D.B.
+|editor3-last=MacCarthy
+|editor3-first=P.A.D.
+|editor4-last=Scott
+|editor-first4=N.C.
+|editor-last5=Trimm
+|editor-first5=L.M.
+|year=1964
+|chapter= British sources of selected features of American pronunciation: Problems and methods
+|title=In Honour of Daniel Jones
+|place=London
+|publisher=Longmans, Green
+|pages=146–155
+}}
+*{{citation
+|last=Kurath
+|first=Hans
+|last2=McDavid
+|first2=Raven, Jr.
+|year=1961
+|title=The Pronunciation of English in the Atlantic States
+|place=Ann Arbor
+|publisher=The University of Michigan Press
+}}
+*{{citation
+|last=Labov
+|first=William
+|authorlink=William Labov
+|year=1966
+|title=The Social Stratification of English in New York City
+|place=Washington, D.C.
+|publisher=Center for Applied Linguistics
+}}
+*{{citation
+|last=Labov
+|first=William
+|year=1969
+|title=Contraction, deletion, and inherent variability in the English copula
+|journal=Language
+|volume=45
+|pages=715–762
+|doi=10.2307/412333
+}}
+*{{citation
+|last=Lavandera
+|first=Beatriz R.
+|year=1978
+|title=Where does the sociolinguistic variable stop?
+|journal=Language in Society
+|volume=7
+|issue=2
+|doi=10.1017/s0047404500005510
+}}
+*{{citation
+|last=McMahon
+|first=April S.
+|year=1996
+|title=[untitled review]
+|journal=Phonology
+|volume=13
+|issue=3
+|pages=439–445
+|doi=10.1017/s0952675700002724 
+}}
+*{{citation
+|last=Moulton
+|first=William G.
+|year=1961
+|title=The dialect geography of hast, hat in Swiss German
+|journal=Language
+|volume=37
+|issue=4
+|pages=497–508
+|doi=10.2307/411352
+}}
+*{{citation
+|last=Moulton
+|first=William G.
+|year=1985
+|title=[untitled review]
+|journal=Language in Society
+|volume=14
+|issue=4
+|pages=563–567
+|doi=10.1017/s0047404500011581 
+}}
+*{{citation
+|last=Nagara
+|first=Susumu
+|year=1972
+|title=Japanese Pidgin English in Hawaii: A Bilingual description
+|journal=Oceanic Linguistics Special Publications
+|volume=9
+|pages=i, iii–v, vii–xvi, 1, 3–322
+|publisher=University of Hawaii Press
+}}
+*{{citation
+|last=Newton
+|first=Brian
+|year=1972
+|title=The Generative Interpretation of Dialect: A Study of Modern Greek Phonology
+|place=Cambridge
+|publisher=Cambridge University Press
+}}
+*{{citation
+|last=Oliver
+|first=Joseph
+|year=1972
+|title=Diatype identification in a bilingual community
+|journal=Anthropological Linguistics
+|volume=14
+|issue=9
+|pages=361–367
+}}
+*{{citation
+|last=Ornstein
+|first=Jacob
+|last2=Murphy
+|first2=Paul
+|year=1974
+|title=Models and approaches in sociolinguistic research on language diversity
+|journal=Anthropological Linguistics
+|volume=16
+|issue=4
+|pages=141–167
+}}
+*{{citation
+|last=Orten
+|first=Elise
+|year=1991
+|title=The Kirkwall accent
+|publisher=University of Bergen
+}}
+*{{citation
+|last=Palmer
+|first=H.E.
+|year=1931
+|title=The principles of Romanization with special reference to the Romanization of Japanese
+|place=Tokyo
+}}
+*{{citation
+|last=Pederson
+|first=Lee
+|year=1977
+|title=Studies of American Pronunciation since 1945
+|journal=American Speech
+|volume=52
+|issue=3/4
+|pages=262–327
+|doi=10.2307/455242
+}}
+*{{citation
+|last=Pederson
+|first=Lee
+|year=1987
+|title=An automated book code (ABC)
+|journal=Journal of English Linguistics
+|volume=20
+|pages=48–71
+|doi=10.1177/007542428702000104
+}}
+*{{citation
+|last=Pederson
+|first=Lee
+|year=1989
+|title=AAM phonology
+|journal=Journal of English Linguistics
+|volume=22
+|pages=54–56
+|doi=10.1177/007542428902200109
+}}
+*{{citation
+|last=Pulgram
+|first=Ernst
+|year=1964
+|title=Structural comparison, diasystems, and dialectology
+|journal=Linguistics
+|volume=2
+|issue=4
+|pages=66–82
+|doi=10.1515/ling.1964.2.4.66
+}}
+*{{citation
+|last=Reed
+|first=David
+|editor-last=Alatis
+|editor-first=James E.
+|year=1972
+|chapter=Toward a diasystem of English phonology
+|title=Studies in Honor of Albert H. Marckwardt
+|pages=135–141
+|place=Washington, D.C.
+|publisher=Teachers of English to Speakers of Other languages
+}}
+*{{citation
+|last=Riney
+|first=T.
+|last2=Takagi
+|first2=N
+|year=1999
+|title=Global foreign accent and voice onset time among Japanese EFL speakers
+|journal=Language Learning
+|volume=49
+|issue=2
+|pages=275–302
+|doi=10.1111/0023-8333.00089
+}}
+*{{citation
+|last=Romaine
+|first=Suzanne
+|year=1981
+|title=The status of variable rules in sociolinguistic theory
+|journal=Journal of Linguistics
+|volume=17
+|issue=1
+|pages=93–119
+|doi=10.1017/s0022226700006794
+}}
+*{{citation
+|last=Rosner
+|first=B.S.
+|last2=Pickering
+|first2=J.B.
+|year=1994
+|title=Vowel Perception and Production
+|place=Oxford
+|publisher=Oxford University Press
+}}
+*{{citation
+|last=Saporta
+|first=Sol
+|year=1965
+|title=Ordered rules, dialect differences, and historical processes
+|journal=Language
+|volume=41
+|issue=2
+|pages=218–224
+|doi=10.2307/411875
+}}
+*{{citation
+|last=Shen
+|first=Yao
+|year=1952
+|title=Departures from strict phonemic representations
+|journal=Language Learning
+|volume=4
+|issue=3–4
+|pages=83–91
+|doi=10.1111/j.1467-1770.1952.tb01189.x
+|url=https://deepblue.lib.umich.edu/bitstream/2027.42/98384/1/j.1467-1770.1952.tb01189.x.pdf
+}}
+*{{citation
+|last=Shen
+|first=Yao
+|year=1959
+|title=Some allophones can be important
+|journal=Language learning
+|volume=9
+|issue=1
+|pages=7–18
+|doi=10.1111/j.1467-1770.1959.tb01124.x
+}}
+*{{citation
+|last=Shores
+|first=David
+|year=1984
+|title=The stressed vowels of the speech of Tangier Island, Virginia
+|journal=Journal of English Linguistics
+|volume=17
+|pages=37–56
+|doi=10.1177/007542428401700104
+}}
+*{{citation
+|last=Silverman
+|first=Daniel
+|year=1992
+|title=Multiple scansions in loanword phonology: Evidence from Cantonese
+|journal=Phonology
+|volume=9
+|issue=2
+|pages=289–328
+|doi=10.1017/s0952675700001627
+}}
+*{{citation
+|last=Sledd
+|first=James H.
+|year=1966
+|title=Breaking, umlaut, and the southern drawl
+|journal=Language
+|volume=42
+|issue=1
+|pages=18–41
+|doi=10.2307/411598
+}}
+*{{citation
+|last=Smith
+|first=Henry Lee, Jr.
+|year=1967
+|title=The concept of the morphophone
+|journal=Language
+|volume=43
+|issue=1
+|pages=306–341
+|doi=10.2307/411400
+}}
+*{{citation
+|last=Stockwell
+|first=Robert
+|year=1959
+|title=Structural dialectology: A proposal
+|journal=American Speech
+|volume=34
+|issue=4
+|pages=258–268
+|doi=10.2307/453704
+}}
+*{{citation
+|last=Trager
+|first=George L.
+|authorlink=George L. Trager
+|last2=Smith
+|first2=Henry L, Jr.
+|year=1951
+|title=An outline of English structure
+|series=Studies in Linguistics occasional papers
+|volume=3
+|place=Norman, OK
+|publisher=Battenberg Press
+}}
+*{{citation
+|last=Trask
+|first=Robert L.
+|authorlink=Larry Trask
+|year=1996
+|title=A Dictionary of Phonetics and Phonology
+|place=London
+|publisher=Routledge
+}}
+*{{citation
+|last=Troike
+|first=Rudolph
+|editor-last=James
+|editor-first=E.
+|year=1970
+|title=Receptive competence, productive competence, and performance.
+|series=Georgetown University Monograph Series on Languages and Linguistics
+|volume=22
+|pages=63–74
+}}
+*{{citation
+|last=Troike
+|first=Rudolph
+|editor-last=Allen
+|editor-first=Harold B.
+|editor2-last=Underwood
+|editor2-first=Gary N.
+|year=1971
+|chapter=Overall pattern and generative phonology
+|title=Readings in American Dialectology
+|place=New York
+|publisher=Appleton-Century-Crofts
+|pages=324–342
+}}
+*{{citation
+|last=Trubetzkoy
+|first=Nikolai
+|authorlink=Nikolai Trubetzkoy
+|year=1931
+|title=Phonologie et géographie linguistique
+|journal=Travaux du Cercle Linguistique de Prague
+|volume=4
+|pages=228–234
+}}
+*{{citation
+|last=Trudgill
+|first=Peter
+|authorlink=Peter Trudgill
+|year=1974
+|title=The Social Differentiation of English in Norwich
+|place=Cambridge
+|publisher=Cambridge University Press
+}}
+*{{citation
+|last=Trudgill
+|first=Peter
+|year=1983
+|title=On Dialect: Social and Geographical Perspectives
+|place=New York
+|publisher=New York University Press
+}}
+*{{citation
+|last=Turner
+|first=G.W.
+|year=1966
+|title=The English Language in Australia and New Zealand
+|place=London
+|publisher=Longmans
+}}
+*{{citation
+|last=Twaddell
+|first=W. Freeman
+|year=1935
+|title=On defining the phoneme
+|journal=Language
+|volume=11
+|issue=1
+|pages=5–62
+|doi=10.2307/522070
+}}
+*{{citation
+|last=Verbrugge
+|first=Robert R.
+|last2=Strange
+|first2=Winifred
+|last3=Shankweiler
+|first3=Donald P.
+|last4=Edman
+|first4=Thomas R.
+|year=1976
+|title=Consonant environment specifies vowel identity
+|journal=Journal of the Acoustical Society of America
+|volume=60
+|issue=1
+|pages=213–224
+|doi=10.1121/1.381066
+}}
+*{{citation
+|last=Voegelin
+|first=C.F.
+|year=1956
+|title=Phonemicizing for dialect study: With reference to Hopi
+|journal=Language
+|volume=32
+|issue=1
+|pages=116–135
+|doi=10.2307/410660
+}}
+*{{citation
+|last=Weinreich
+|first=Uriel
+|authorlink=Uriel Weinreich
+|year=1953
+|chapter=Languages in contact, findings and problems
+|title=Publications of the Linguistic Circle of New York
+|volume=1
+|place=New York
+|publisher=Linguistic Circle of New York
+}}
+*{{citation
+|last=Weinreich
+|first=Uriel
+|year=1954
+|title=Is a structural dialectology possible?
+|journal=Word
+|volume=10
+|pages=388–400
+}}
+*{{citation
+|last=Wells
+|first=John Christopher
+|authorlink=John C. Wells
+|year=1970
+|title=Local accents in England and Wales
+|journal=Journal of Linguistics
+|volume=6
+|issue=2
+|pages=231–252
+|doi=10.1017/S0022226700002632
+}}
+*{{citation
+|last=Wells
+|first=John Christopher
+|year=1982
+|title=Accents of English: An Introduction
+|place=Cambridge
+|publisher=Cambridge University Press
+}}
+*{{citation
+|last=Wilson
+|first=John
+|last2=Henry
+|first2=Alison
+|year=1998
+|title=Parameter setting within a socially realistic linguistics
+|journal=Language in Society
+|volume=27
+|issue=1
+|pages=1–21
+|doi=10.1017/s0047404500019709
+}}
+*{{citation
+|last=Wolfram
+|first=Walt
+|authorlink=Walt Wolfram
+|year=1982
+|title=Language knowledge and other dialects
+|journal=American Speech
+|volume=57
+|issue=1
+|pages=3–18
+|doi=10.2307/455176
+}}
+*{{citation
+|last=Wolfram
+|first=Walt
+|year=1991
+|title=The linguistic variable: Fact and fantasy
+|journal=American Speech
+|volume=66
+|issue=1
+|pages=22–32
+|doi=10.2307/455432
+}}
+*{{citation
+|last=Yaeger-Dror
+|first=Malcah
+|year=1986
+|title=[untitled review]
+|journal=Language
+|volume=62
+|issue=4
+|pages=917–923
+|doi=10.2307/415180
+}}
+{{refend}}
+
+==Further reading==
+*{{citation
+|last=Bailey
+|first=Charles-James
+|year=1970
+|title=A new intonation theory to account for pan-English and idiom-particular patterns
+|journal=Research on Language & Social Interaction
+|volume=2
+|issue=3
+|pages=522–604
+|ref=none
+|doi=10.1080/08351817009370242
+}}
+*{{citation
+|last=Bailey
+|first=Charles-James N.
+|editor-last=Stockwell
+|editor-first=Robert P.
+|editor2-last=Macaulay
+|editor2-first=Ronald K.S.
+|year=1972
+|chapter=The integration of linguistic theory: Internal reconstruction and the comparative method in descriptive analysis
+|title=Linguistic Change and Generative Theory
+|place=Bloomington
+|publisher=Indiana University Press
+|pages=22–31
+|ref=none
+}}
+*{{citation
+|last=Francescato
+|first=Giuseppe
+|year=1959
+|title=A case of coexistence of phonemic systems
+|journal=Lingua
+|volume=8
+|pages=78–86
+|ref=none
+|doi=10.1016/0024-3841(59)90005-1
+}}
+*{{citation
+|last=Halle
+|first=Morris
+|authorlink=Morris Halle
+|year=1962
+|title=Phonology in generative grammar
+|journal=Word
+|volume=18
+|pages=54–72
+|ref=none
+}}
+*{{citation
+|last=Hausmann
+|first=Robert B.
+|year=1975
+|title=Underlying representation in dialectology
+|journal=Lingua
+|volume=35
+|issue=1
+|pages=61–71
+|ref=none
+|doi=10.1016/0024-3841(75)90073-x
+}}
+*{{citation
+|last=Hockett
+|first=Charles
+|authorlink=Charles F. Hockett
+|year=1967
+|title=The State of the Art
+|place=The Hague
+|publisher=Mouton
+|ref=none
+}}
+*{{citation
+|last=Keyser
+|first=Samuel Jay
+|year=1963
+|title=[untitled review of ''The Pronunciation of English in the Atlantic States'']
+|journal=Language
+|volume=39
+|issue=2
+|pages=303–316
+|ref=none
+|doi=10.2307/411215
+}}
+*{{citation
+|last=Siertsema
+|first=B.
+|year=1968
+|title=Pros and cons of macro-phonemes in new orthographies: (Masaba spelling problems)
+|journal=Lingua
+|volume=21
+|pages=429–442
+|ref=none
+|doi=10.1016/0024-3841(68)90066-1
+}}
+
+[[Category:Dialectology]]
+[[Category:Phonology]]

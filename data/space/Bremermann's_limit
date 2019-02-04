@@ -1,0 +1,62 @@
+'''Bremermann's limit''', named after  [[Hans-Joachim Bremermann]], is the maximum [[computation]]al speed of a self-contained system in the material universe.  It is derived from [[Albert Einstein|Einstein]]'s [[E = mc2|mass-energy equivalency]] and the [[Heisenberg uncertainty principle]], and is ''[[speed of light|c]]''<sup>2</sup>/''[[Planck's constant|h]]'' ≈ 1.36&nbsp;×&nbsp;10<sup>50</sup> [[bits per second]] per kilogram.<ref>Bremermann, H.J. (1962) [http://holtz.org/Library/Natural%20Science/Physics/Optimization%20Through%20Evolution%20and%20Recombination%20-%20Bremermann%201962.htm ''Optimization through evolution and recombination''] In: Self-Organizing systems 1962, edited M.C. Yovits et al., Spartan Books, Washington, D.C. pp. 93–106.</ref><ref>Bremermann, H.J. (1965) [http://projecteuclid.org/euclid.bsmsp/1200513783 Quantum noise and information]. 5th Berkeley Symposium on Mathematical Statistics and Probability; Univ. of California Press, Berkeley, California.</ref> This value is important when designing [[cryptography|cryptographic]] algorithms, as it can be used to determine the minimum size of [[encryption key]]s or hash values required to create an algorithm that could never be cracked by a [[brute-force search]].
+
+For example, a computer with the mass of the entire [[Earth]] operating at the Bremermann's limit could perform approximately 10<sup>75</sup> mathematical computations per second. If one assumes that a cryptographic key can be tested with only one operation, then a typical 128-bit key could be cracked in under 10<sup>−36</sup> seconds. However, a 256-bit key (which is already in use in some systems) would take about two minutes to crack. Using a 512-bit key would increase the cracking time to approaching 10<sup>72</sup> years, without increasing the time for encryption by more than a constant factor (depending on the encryption algorithms used).
+
+The limit has been further analysed in later literature as the maximum rate at which a system with energy spread <math>\Delta E</math> can evolve into an orthogonal and hence distinguishable state to another, <math>\Delta t = \pi \hbar / 2 \Delta E</math>.<ref name="Aharonov1961">{{Cite journal
+| last1 = Aharonov | first1 = Y.
+| last2 = Bohm | first2 = D.
+| doi = 10.1103/PhysRev.122.1649
+| title = Time in the Quantum Theory and the Uncertainty Relation for Time and Energy
+| journal = Physical Review
+| volume = 122
+| issue = 5
+| pages = 1649–1658
+| year = 1961
+| url = http://dieumsnh.qfb.umich.mx/archivoshistoricosmq/ModernaHist/Aharonov%20a.pdf
+|bibcode = 1961PhRv..122.1649A }}</ref><ref name="Lloyd2000">{{Cite journal
+| last1 = Lloyd | first1 = Seth
+| title = Ultimate physical limits to computation
+| journal = Nature
+| volume = 406
+| issue = 6799
+| pages = 1047–1054
+| year = 2000
+| doi = 10.1038/35023282
+| pmid = 10984064
+| arxiv = quant-ph/9908043
+|bibcode = 2000Natur.406.1047L }}</ref> In particular, [[Norman Margolus|Margolus]] and Levitin has shown that a quantum system with average energy E takes at least time <math>\Delta t = \pi \hbar / 2 E</math> to evolve into an orthogonal state.<ref name="Margolus1998">{{Cite journal
+| last1 = Margolus | first1 = N.
+| last2 = Levitin | first2 = L. B.
+| doi = 10.1016/S0167-2789(98)00054-2
+| title = The maximum speed of dynamical evolution
+| journal = Physica D: Nonlinear Phenomena
+| volume = 120
+| pages = 188–195
+|date=September 1998
+| arxiv = quant-ph/9710043
+|bibcode = 1998PhyD..120..188M }}</ref>
+However, it has been shown that access to [[quantum memory]] enables computational algorithms that require arbitrarily small amount of energy/time per one elementary computation step.<ref>{{cite journal|last=Jordan|first=Stephen P.|title=Fast quantum computation at arbitrarily low energy|journal = Phys. Rev. A | volume = 95 | pages=032305 | year=2017 |arxiv = 1701.01175|url=https://arxiv.org/pdf/1701.01175.pdf|bibcode = 2017PhRvA..95c2305J |doi = 10.1103/PhysRevA.95.032305 }}</ref><ref>{{cite journal|last=Sinitsyn|first=Nikolai A.|title=Is there a quantum limit on speed of computation?|year=2017|arxiv = 1701.05550|url=https://arxiv.org/pdf/1701.05550.pdf|bibcode = 2018PhLA..382..477S |doi=10.1016/j.physleta.2017.12.042}}</ref>
+
+==See also==
+* [[Margolus–Levitin theorem]]
+* [[Landauer's principle]]
+* [[Bekenstein bound]]
+* [[Kolmogorov complexity]]
+* [[Transcomputational problem]]
+* [[Limits to computation]]
+* [[Ultrafinitism]]
+
+==References==
+{{reflist}}
+
+== External links ==
+* [[Gennady Gorelik|Gorelik, G.]] (2003). [https://arxiv.org/vc/arxiv/papers/0910/0910.3424v2.pdf Bremermann's Limit and cGh-physics]
+* Lokshin, A (2017). [https://dx.doi.org/10.17654/MS102010215 Arbitrary choice, ‘understanding’ and Gorelik-Bremermann limit. ''Far East Journal of Mathematical Sciences'', V. 102, Issue 1, P. 215–222]
+
+[[Category:Cybernetics]]
+[[Category:Theory of computation]]
+[[Category:Limits of computation]]
+
+
+{{comp-sci-stub}}
+{{physics-stub}}

@@ -1,0 +1,430 @@
+{{Cleanup|date=May 2010}}
+The following lists identify, characterize, and link to more thorough information on [[computer]] [[file system]]s.
+
+Many older [[operating system]]s support only their one "native" file system, which does not bear any name apart from the name of the operating system itself.
+
+== Disk file systems ==
+{{cleanup section|reason=Section contains possible spam.|date=September 2016}}
+Disk file systems are usually block-oriented. Files in a block-oriented file system are sequences of blocks, often featuring fully random-access read, write, and modify operations.
+
+* [[Advanced Disc Filing System|ADFS]] – [[Acorn Computers Ltd|Acorn]]'s Advanced Disc filing system, successor to [[Disc Filing System|DFS]].
+* [[AdvFS]] – Advanced File System, designed by [[Digital Equipment Corporation]] for their Digital UNIX (now [[Tru64 UNIX]]) operating system.
+* [[Apple File System|APFS]] – Apple File System is a next-generation file system for Apple products.
+* [[AtheOS File System|AthFS]] – [[AtheOS]] File System, a 64-bit [[Journaling file system|journaled]] filesystem now used by [[Syllable Desktop (operating system)|Syllable]]. Also called AFS.
+* [[Boot File System|BFS]] – the Boot File System used on System V release 4.0 and UnixWare.
+* [[Be File System|BFS]] – the Be File System used on [[BeOS]], occasionally misnamed as BeFS. Open source implementation called OpenBFS is used by the [[Haiku (operating system)|Haiku]] operating system.
+* [[Btrfs]] – is a [[copy-on-write]] file system for [[Linux]] announced by [[Oracle Corporation|Oracle]] in 2007 and published under the [[GNU General Public License]] (GPL).
+* [[CFS (file format)|CFS]] – The Cluster File System from Veritas, a Symantec company.  It is the parallel access version of VxFS.
+* [[CP/M]] file system — Native filesystem used in the CP/M (Control Program for Microcomputers) operating system which was first released in 1974.
+* [[Apple DOS|DOS 3.x]] – Original floppy operating system and file system developed for the [[Apple II]]
+* [[Extent File System]] (EFS) – an older block filing system under [[IRIX]].
+* [[Extended file system|ext]] – Extended file system, designed for [[Linux]] systems
+* [[ext2]] – Second extended file system, designed for [[Linux]] systems.
+* [[ext3]] – A [[Journaling file system|journaled]] form of ext2.
+* [[ext4]] – A follow up for [[ext3]] and also a [[Journaling file system|journaled]] filesystem with support for [[extent (file systems)|extents]].
+* [[ext3cow]] – A [[versioning file system]] form of ext3.
+* [[File Allocation Table|FAT]] – File Allocation Table, initially used on [[DOS]] and [[Microsoft Windows]] and now widely used for portable USB storage and some other devices; [[FAT12]], [[FAT16]] and [[FAT32]] for 12-, 16- and 32-bit table depths.
+** [[VFAT]] – Optional layer on [[Microsoft Windows]] FAT system to allow long (up to 255 character) filenames instead of only the [[8.3 filename]]s allowed in the plain FAT filesystem.
+** [[FATX]] – A modified version of [[Microsoft Windows]] FAT system that is used on the original [[Xbox (console)|Xbox]] console.
+* [[Amiga Fast File System|FFS (Amiga)]] – Fast File System, used on [[Amiga]] systems. This FS has evolved over time. Now counts FFS1, FFS Intl, FFS DCache, FFS2.
+* [[Berkeley Fast File System|FFS]] – Fast File System, used on* [[BSD]] systems
+* [[Fossil (file system)|Fossil]] – [[Plan 9 from Bell Labs]] snapshot archival file system.
+* [[Files-11]] – [[OpenVMS]] file system; also used on some [[PDP-11]] systems; supports record-oriented files
+* [[Flex machine]] file system
+* HFS – Hierarchical File System in [[z/OS]]; not to be confused with Apple's HFS. HFS is still supported but IBM's stated direction is [[zFS (z/OS file system)|zFS]].
+* [[Hierarchical File System|HFS]] – Hierarchical File System, in use until HFS+ was introduced on Mac OS 8.1. Also known as Mac OS Standard format.  Successor to Macintosh File System (MFS) & predecessor to HFS+; not to be confused with IBM's HFS provided with [[z/OS]]
+* [[HFS Plus|HFS+]] – Updated version of Apple’s HFS, Hierarchical File System, supported on Mac OS 8.1 & above, including macOS.  Supports file system journaling, enabling recovery of data after a system crash.  Also referred to as 'Mac OS Extended format or HFS Plus
+* [[High Performance File System|HPFS]] – High Performance File System, used on [[OS/2]]
+* [[High Throughput File System|HTFS]] – High Throughput Filesystem, used on [[SCO OpenServer]]
+* [[ISO 9660]] – Used on [[CD-ROM]] and [[DVD|DVD-ROM]] discs ([[Rock Ridge]] and [[Joliet (file system)|Joliet]] are extensions to this)
+* [[IBM Journaled File System 2 (JFS2)|JFS]] – [[IBM]] [[Journaling file system]], provided in [[Linux]], [[OS/2]], and [[AIX operating system|AIX]].  Supports [[extent (file systems)|extents]].
+* [[Log-structured File System (BSD)|LFS]] – 4.4BSD implementation of a [[log-structured file system]]
+* [[Macintosh File System|MFS]] – Macintosh File System, used on early [[Classic Mac OS]] systems. Succeeded by Hierarchical File System (HFS).
+* [[Next3]] – A form of [[ext3]] with snapshots support.<ref name="next3">{{cite web|last=Corbet|first=Jonathan|title=The Next3 filesystem|url=https://lwn.net/Articles/387231/|publisher=LWN}}</ref>
+* [[TiVo Media File System|MFS]] – TiVo's Media File System, a proprietary fault tolerant format used on [[TiVo]] hard drives for real time recording from live TV.
+* [[Minix file system]] – Used on [[Minix]] systems
+* [[NILFS]] – Linux implementation of a [[log-structured file system]]
+* [[NTFS]] – (New Technology File System) Used on [[Microsoft]]'s [[Windows NT]]-based operating systems
+* [[NetWare File System]] – The original [[Novell NetWare|NetWare]] 2.x–5.x file system, used optionally by later versions.
+* [[Novell Storage Services|NSS]] – Novell Storage Services.  This is a new 64-bit [[journaling file system]] using a balanced tree algorithm.  Used in [[Novell NetWare|NetWare]] versions 5.0-up and recently ported to [[Linux]].
+* [[One File System|OneFS]] – One File System. This is a fully journaled, distributed file system used by [[Isilon Systems|Isilon]]. OneFS uses FlexProtect and [[Reed-Solomon]] encodings to support up to four simultaneous disk failures.
+* [[Amiga Old File System|OFS]] – Old File System, on Amiga. Good for floppies, but fairly useless on hard drives.
+* [[OS-9]] file system
+* [[Professional File System|PFS]] – and PFS2, PFS3, etc. Technically interesting file system available for the [[Amiga]], performs very well under a lot of circumstances. Very simple and elegant.
+* [[PRODOS|ProDOS]] – Operating system and file system successor to [[Apple Inc.|DOS 3.x]], for use on Apple’s computers prior to the Macintosh & Lisa computers, the Apple series, including the [[Apple IIGS|IIgs]]
+* [[Qnx4fs]] – File system that is used in [[QNX]] version 4 and 6.
+* [[ReFS|ReFS (Resilient File System)]] – New file system by [[Microsoft]] that is built on the foundations of [[NTFS]] (but cannot boot, has a default cluster size of 64&nbsp;KB and does not support compression) and is intended to be used with the [[Windows Server 2012]] operating system.
+* [[ReiserFS]] – File system that uses [[journaling file system|journaling]]
+* [[Reiser4]] – File system that uses [[journaling file system|journaling]], newest version of ReiserFS
+* [[Reliance (file system)|Reliance]] – Datalight's transactional file system for high reliability applications
+* [[Reliance Nitro]] – Tree-based transactional file system developed for high-performance embedded systems, from Datalight
+* [[Remote File System|RFS]] – Native filesystem for [[RTEMS]]<ref name="rfs">{{cite web|title=RTEMS File System|url=http://www.rtems.org/wiki/index.php/RTEMS_File_System|accessdate=20 April 2013}}</ref>
+* [[SkyFS]] – Developed for [[SkyOS]] to replace BFS as the operating system's main file system. It is based on BFS, but contains many new features.
+* [[Smart File System|SFS]] – Smart File System, [[journaling file system]] available for the Amiga platforms.
+* [[Soup (Apple)]] – the "file system" for [[Newton (platform)|Apple Newton Platform]], structured as a shallow database
+* [[Tux3]] – An experimental versioning file system intended as a replacement for ext3
+* [[Universal Disk Format|UDF]] – Packet-based file system for WORM/RW media such as CD-RW and DVD, now supports hard drives and flash memory as well.
+* [[Unix File System|UFS]] – Unix File System, used on [[Solaris (operating system)|Solaris]] and older [[BSD]] systems
+* [[Unix File System|UFS2]] – Unix File System, used on newer [[BSD]] systems
+* [[Veritas File System|VxFS]]   [[Veritas Software|Veritas]] file system, first commercial [[journaling file system]]{{Citation needed|date=September 2007}}; [[HP-UX]], [[Solaris (operating system)|Solaris]], [[Linux]], [[AIX operating system|AIX]], [[UnixWare]]
+* [[XFS]] – Used on [[Silicon Graphics|SGI]] [[IRIX]] and [[Linux]] systems
+* [[zFS (z/OS file system)|zFS]] – [[z/OS]] Distributed File Service zSeries File System; not to be confused with other file systems named zFS or ZFS.
+* [[ZFS]]{{snd}} a combined file system and logical volume manager designed by [[Sun Microsystems]]
+
+=== File systems with built-in fault-tolerance ===
+These file systems have built-in checksumming and either mirroring or parity for extra redundancy on one or several block devices:
+* [[Bcachefs]] - It's not yet upstream, full data and metadata checksumming, <ref>{{cite web|title=Bcachefs main site|last1=Overstreet|first1=Kent|url=https://bcachefs.org/}}</ref> <ref>{{cite web|title=LWN - An update on bcachefs|last1=Edge|first1=Jake|url=https://lwn.net/Articles/755276/}}</ref> [[bcache]] is the bottom half of the filesystem. <ref>{{cite web|title=Bcachefs on Patreon|last1=Overstreet|first1=Kent|url=https://www.patreon.com/bcachefs/}}</ref>
+* [[Btrfs]] – A file system based on [[B-Tree]]s, created by [[Oracle Corporation]].
+* [[HAMMER]] – [[DragonflyBSD]]'s primary filesystem, created by [[Matt Dillon (computer scientist)|Matt Dillon]].
+* [[ReFS|ReFS (Resilient File System)]] – A file system by [[Microsoft]] with built-in resiliency features.
+* [[Reliance (file system)|Reliance]] – A transactional file system with [[cyclic redundancy check|CRCs]], created by Datalight.
+* [[Reliance Nitro]] – A tree-based transactional file system with CRCs, developed for high performance and reliability in embedded systems, from Datalight.
+* [[NOVA_(filesystem)|NOVA]] – The "non-volatile memory accelerated" file system for persistent main memory.
+* [[ZFS]] – Created by [[Sun Microsystems]] for use on [[Solaris (operating system)|Solaris]] 10 and [[OpenSolaris]], ported to [[FreeBSD]] 7.0, [[NetBSD]] (as of 08/2009), [[Linux]] and to [[Filesystem in Userspace|FUSE]] (not to be confused with the two zFSes from [[IBM]])
+
+=== File systems optimized for flash memory, solid state media ===
+{{Main article|Flash file system}}
+
+Solid state media, such as [[flash memory]], are similar to disks in their interfaces, but have different problems. At low level, they require special handling such as [[wear leveling]] and different [[error detection and correction]] algorithms. Typically a device such as a [[solid-state drive]] handles such operations internally and therefore a regular file system can be used. However, for certain specialized installations (embedded systems, industrial applications) a file system optimized for plain flash memory is advantageous.
+
+* [[exFAT]] – [[Microsoft]] proprietary system intended for flash cards (see also [[XCFiles]], an exFAT implementation for [[Wind River Systems|Wind River]] [[VxWorks]] and other embedded operating systems).
+* [[ExtremeFFS]] – internal filesystem for SSDs.
+* [[F2FS]] – Flash-Friendly File System. An open source Linux file system introduced by [[Samsung]] in 2012.<ref>{{cite web |url=https://www.phoronix.com/scan.php?page=news_item&px=MTE5OTY |title=Samsung Introduces New Linux File-System: F2FS |publisher=phoronix.com |author=Michael Larabel |date=2011-10-05 |accessdate=2012-12-07}}</ref>
+* [[Flash memory#Flash file systems|FFS2]] (presumably preceded by FFS1), one of the earliest flash file systems.  Developed and patented by [[Microsoft]] in the early 1990s.<ref>{{cite web|url=http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=5392427.PN.&OS=PN/5392427&RS=PN/5392427 |title=United States Patent: 5392427 |publisher=Patft.uspto.gov |date= |accessdate=2012-06-15}}</ref>
+* [[JFFS]] – original log structured Linux file system for NOR flash media.
+* [[JFFS2]] – successor of JFFS, for [[NAND flash#NAND flash|NAND]] and [[NOR flash]].
+* [[LSFS]] – a [[Log-structured file system]] with writable snapshots and inline data deduplication created by [[StarWind Software]]. Uses DRAM and flash to cache spinning disks. 
+* [[LogFS]] – intended to replace JFFS2, better scalability. No longer under active development.<ref>{{cite web |url=https://lkml.org/lkml/2016/9/11/58|title=Linux Kernel Mailing List: logfs: remove from tree|accessdate=2017-03-31}}</ref>
+* [[NILFS]] – a log-structured file system for Linux with continuous snapshots.
+* [[Non-Volatile File System]] – the "non-volatile file system" for [[flash memory]] introduced by [[Palm, Inc.]]
+* [[NOVA_(filesystem)|NOVA]] – the "non-volatile memory accelerated" file system for persistent main memory.
+* [[One File System|OneFS]] – a filesystem utilized by [[Isilon Systems|Isilon]]. It supports selective placement of meta-data directly onto flash SSD.
+* [[Segger Microcontroller Systems]] emFile – filesystem for deeply embedded applications which supports both NAND and NOR flash.  Wear leveling, fast read and write, and very low RAM usage.
+* [[SPIFFS]] – SPI Flash File System, a wear-leveling filesystem intended for small NOR flash devices.
+* [[Transaction-Safe FAT File System|TFAT]] – a transactional version of the FAT filesystem.
+* [[TrueFFS]] – internal file system for SSDs, implementing error correction, bad block re-mapping and wear-leveling.
+* [[UBIFS]] – successor of JFFS2, optimized to utilize non-volatile DRAM.
+* [[Write Anywhere File Layout]] (WAFL) – an internal file system utilized by [[NetApp]] within their DataONTAP OS, originally optimized to use non-volatile DRAM. WAFL uses [[Non-standard RAID levels#RAID-DP|RAID-DP]] to protect against multiple disk failures and NVRAM for transaction log replays.
+* [[YAFFS]] – a log-structured file system designed for NAND flash, but also used with NOR flash.
+* [[ZFS]] – allows placing write-ahead log (ZIL) on flash, and using flash as a second-level read cache (L2ARC).
+
+=== Record-oriented file systems ===
+
+In [[Record-oriented filesystem|record-oriented file systems]] files are stored as a collection of [[record (computer science)|records]]. They are typically associated with [[Mainframe computer|mainframe]] and [[minicomputer]] operating systems. Programs read and write whole records, rather than bytes or arbitrary byte ranges, and can seek to a record boundary but not within records. The more sophisticated record-oriented file systems have more in common with simple [[database]]s than with other file systems.
+
+* [[CMS file system]] – The native file system of the [[Conversational Monitor System]] component of [[VM/370]]
+* [[Files-11]] – early versions were record-oriented; support for "streams" was added later
+* [[Michigan Terminal System]] (MTS) – provides "line files" where record lengths and line numbers are associated as metadata with each record in the file, lines can be added, replaced, updated with the same or different length records, and deleted anywhere in the file without the need to read and rewrite the entire file.<ref>{{cite journal|url=http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=1451786|title=A file system for a general-purpose time-sharing environment|first=G. C.|last=Pirkola|journal=Proceedings of the IEEE|date=June 1975|volume=63|issue=6|pages=918–924|issn=0018-9219|doi=10.1109/PROC.1975.9856}}</ref>
+* [[OS4000]] for GEC's OS4000 operating system, on the [[GEC 4000 series]] minicomputers
+* A [[FAT12]] and [[FAT16]] (and [[FAT32]]) extension to support database-like file types ''random file'', ''direct file'', ''keyed file'' and ''sequential file'' in Digital Research [[FlexOS]], IBM [[4680 OS]] and Toshiba [[4690 OS]].<ref name="IBM_4690_Programming_Guide">IBM. ''4690 OS Programming Guide Version 5.2'', IBM document SC30-4137-01, 2007-12-06 ([ftp://ftp.software.ibm.com/software/retail/pubs/sw/opsys/4690/ver5r2/bsi1_PG_mst.pdf]).</ref> The record size is stored on a file-by-file basis in [[Design of the FAT file system#DIR OFS 10h|special entries]] in the directory table.<ref name="Caldera_1997_DOSSRC">Caldera (1997). ''Caldera OpenDOS Machine Readable Source Kit 7.01''. The FDOS.EQU file in the machine readable source kit has equates for the corresponding directory entries.</ref>
+* Sequential access methods for IBM's [[z/OS]] and [[z/VSE]] mainframe operating systems: [[Basic Sequential Access Method]] (BSAM), [[Basic Partitioned Access Method]] (BPAM) and [[Queued Sequential Access Method]] (QSAM); see [[Access methods]] and [[Data set (IBM mainframe)]] for more examples
+* [[Pick Operating System]] – A record-oriented filesystem and database that uses hash-coding to store data.
+* [[Virtual Storage Access Method]] (VSAM){{snd}}for IBM's [[z/OS]] and [[z/VSE]] mainframe operating systems
+
+=== {{Anchor|SHARED}}Shared-disk file systems ===
+Shared-disk file systems (also called ''shared-storage file systems'', [[SAN file system]], [[Clustered file system]] or even ''cluster file systems'') are primarily used in a [[storage area network]] where all nodes directly access the [[Block (data storage)|block storage]] where the file system is located. This makes it possible for nodes to fail without affecting access to the file system from the other nodes. Shared-disk file systems are normally used in a [[high-availability cluster]] together with storage on hardware [[RAID]]. Shared-disk file systems normally do not scale over 64 or 128 nodes.
+
+Shared-disk file systems may be [[symmetric]] where [[metadata]] is distributed among the nodes or [[asymmetry|asymmetric]] with centralized [[metadata]] servers.
+
+* [[CXFS]] (Clustered XFS) from [[Silicon Graphics]] (SGI). Available for Linux, Mac, Windows, Solaris, AIX and IRIX,. Asymmetric.
+* [[Dell Fluid File System]] (formerly ExaFS) [[proprietary software]] sold by [[Dell]].  Shared-disk system sold as an appliance providing distributed file systems to clients. Running on Intel based hardware serving NFS v2/v3, SMB/CIFS and AFP to [[Microsoft Windows|Windows]], [[macOS]], [[Linux]] and other [[UNIX]] clients.
+* [[Blue Whale Clustered file system]] (BWFS) from [[Tianjin Zhongke Blue Whale Information Technologies Co., Ltd.|Zhongke Blue Whale]]. Asymmetric. Available for [[Microsoft Windows]], [[Linux]], and [[macOS]].
+* [[DataPlow SAN File System|SAN File System]] (SFS) from DataPlow. Available for Windows, Linux, Solaris, and macOS. Symmetric and Asymmetric.
+* [[EMC Celerra HighRoad]] from [[EMC Corporation|EMC]]. Available for Linux, AIX, HP-UX, IRIX, Solaris and Windows. Asymmetric.{{Citation needed|date=May 2010}}
+* [[Files-11]] on [[VMScluster]]s, released by [[Digital Equipment Corporation|DEC]] in 1983, now from [[Hewlett-Packard|HP]]. Symmetric.
+* [[GFS2]] (''Global File System'') from [[Red Hat]]. Available for Linux under [[GNU General Public License|GPL]]. Symmetric ([[GDLM]]) or Asymmetric ([[GULM]]).
+* [[IBM General Parallel File System]] (GPFS) Windows, Linux, AIX . Parallel
+* [[Nasan]] Clustered File System from [[DataPlow]]. Available for Linux and Solaris. Asymmetric.
+* [[Oracle ACFS]] from [[Oracle Corporation]]. Available for Linux ([[RHEL|Red Hat Enterprise Linux]] 5 and [[Oracle Enterprise Linux]] 5 only). Symmetric.
+* [[OCFS2]] (''Oracle Cluster File System'') from [[Oracle Corporation]]. Available for Linux under [[GNU General Public License|GPL]]. Symmetric.
+* [[QFS]] from [[Sun Microsystems]]. Available for Linux (client only) and Solaris (metadata server and client). Asymmetric.
+* [[StorNext File System]] from [[Quantum Corporation|Quantum]]. Asymmetric. Available for [[AIX operating system|AIX]], [[HP-UX]], [[IRIX]], [[Linux]], [[macOS]], [[Solaris (operating system)|Solaris]] and [[Microsoft Windows|Windows]]. Interoperable with [[Xsan]]. Formerly known as CVFS.
+* [[Veritas Storage Foundation]] from [[Symantec]]. Available for AIX, HP-UX, Linux and Solaris. Asymmetric.
+* [[Xsan]] from [[Apple Inc.]] Available for macOS. Asymmetric. Interoperable with [[StorNext File System]].
+* [[VMware VMFS|VMFS]] from [[VMware]]/[[EMC Corporation]]. Available for [[VMware ESX Server]]. Symmetric.
+
+== Distributed file systems ==
+{{See also|Comparison of distributed file systems}}
+
+[[Distributed file system]]s are also called network file systems. Many implementations have been made, they are location dependent and they have [[access control lists]] (ACLs), unless otherwise stated below.
+
+* [[9P (protocol)|9P]], the [[Plan 9 from Bell Labs]] and [[Inferno (operating system)|Inferno]] distributed file system protocol. One implementation is [[v9fs]]. No ACLs.
+* [[Amazon S3]]
+* [[Andrew File System]] (AFS) is scalable and location independent, has a heavy client [[cache (computing)|cache]] and uses [[Kerberos (protocol)|Kerberos]] for authentication. Implementations include the original from [[IBM]] (earlier [[Transarc]]), [[Arla (file system)|Arla]] and [[OpenAFS]].
+* [[Avere Systems]] has AvereOS that creates a [[Network-attached storage|NAS]] protocol file system in [[object storage]].
+* [[DCE Distributed File System]] ([[distributed computing environment|DCE]]/DFS) from [[IBM]] (earlier [[Transarc]]) is similar to AFS and focus on full [[POSIX]] file system semantics and [[high availability]]. Available for [[AIX operating system|AIX]] and [[Solaris (operating system)|Solaris]] under a [[proprietary software]] license.
+* [[File Access Listener]] (FAL) is an implementation of the [[Data Access Protocol]] (DAP) which is part of the [[DECnet]] suite of [[network protocols]] created by [[Digital Equipment Corporation]].
+* [[Lustre (file system)|Lustre]] is a high-performance distributed parallel file system for Linux
+* [[MapR FS]] is a distributed high-performance file system that exhibits file, table and messaging APIs.
+* [[Microsoft Office Groove]] shared workspace, used for DoHyki
+* [[NetWare Core Protocol]] (NCP) from [[Novell]] is used in networks based on [[Novell NetWare|NetWare]].
+* [[Network File System (protocol)|Network File System]] (NFS) originally from [[Sun Microsystems]] is the standard in UNIX-based networks. NFS may use [[Kerberos (protocol)|Kerberos]] authentication and a client [[cache (computing)|cache]].
+* [[OS4000]] Linked-OS provides distributed filesystem across OS4000 systems.
+* [[Self-certifying File System]] (SFS), a global network file system designed to securely allow access to file systems across separate administrative domains.
+* [[Server Message Block]] (SMB) originally from [[IBM]] (but the most common version is modified heavily by [[Microsoft]]) is the standard in Windows-based networks. SMB is also known as ''Common Internet File System (CIFS)''. SMB may use [[Kerberos (protocol)|Kerberos]] authentication.
+
+=== {{Anchor|DISTRIBUTED-FAULT-TOLERANT}}Distributed fault-tolerant file systems ===
+
+Distributed [[fault-tolerant]] replication of data between nodes (between servers or servers/clients) for [[high availability]] and [[offline]] (disconnected) operation.
+
+* [[Coda (file system)|Coda]] from [[Carnegie Mellon University]] focuses on bandwidth-adaptive operation (including disconnected operation) using a client-side cache for mobile computing. It is a descendant of AFS-2. It is available for [[Linux]] under the [[GNU General Public License|GPL]].
+* [[Distributed File System (Microsoft)|Distributed File System]] (Dfs) from [[Microsoft]] focuses on location transparency and [[high availability]]. Available for [[Microsoft Windows|Windows]] under a [[proprietary software]] license.
+* [[InterMezzo (file system)|InterMezzo]] from [[Cluster File Systems]] uses synchronization over [[HTTP]]. Available for [[Linux]] under [[GNU General Public License|GPL]] but no longer in development since the developers are working on [[Lustre (file system)|Lustre]].
+* [https://lizardfs.org Lizardfs] a networking, distributed file system based on MooseFS
+* [[Moose File System]] (MooseFS) is a networking, distributed file system. It spreads data over several physical locations (servers), which are visible to a user as one resource.  Works on Linux, FreeBSD, NetBSD, OpenSolaris and macOS. Master server and chunkservers can also run on Solaris and Windows with Cygwin.
+* [[Scality]] is a distributed fault-tolerant filesystem.
+* [[Tahoe-LAFS]] is an open source secure, decentralized, fault-tolerant filesystem utilizing encryption as the basis for a least-authority replicated design.
+* A [[FAT12]] and [[FAT16]] (and [[FAT32]]) extension to support automatic file distribution across nodes with extra attributes like ''local'', ''mirror on update'', ''mirror on close'', ''compound on update'', ''compound on close'' in IBM [[4680 OS]] and Toshiba [[4690 OS]]. The distribution attributes are stored on a file-by-file basis in [[Design of the FAT file system#DIR|special entries]] in the directory table.<ref name="IBM_4690_OS_Distribution_Attributes_1">IBM (2003). ''Information about 4690&nbsp;OS unique file distribution attributes'', IBM document R1001487, 2003-07-30. ({{cite web |url=http://www-01.ibm.com/support/docview.wss?uid=pos1R1001487 |title=Archived copy |accessdate=2014-05-20 |deadurl=yes |archiveurl=https://web.archive.org/web/20140521070339/http://www-01.ibm.com/support/docview.wss?uid=pos1R1001487 |archivedate=2014-05-21 |df= }}): "[...] file types are stored in the "Reserved bits" portion of the PC-DOS file directory structure [...] only 4690 respects and preserves these attributes. Various non-4690 operating systems take different actions if these bits are turned on [...] when copying from a diskette created on a 4690 system. [...] PC-DOS and Windows 2000 Professional will copy the file without error and zero the bits. OS/2 [...] 1.2 [...] will refuse to copy the file unless [...] first run CHKDSK /F on the file. After [...] CHKDSK, it will copy the file and zero the bits. [...] when [...] copy [...] back to the 4690 system, [...] file will copy as a local file."</ref><ref name="IBM_4690_OS_Distribution_Attributes_2">IBM. ''4690 save and restore file distribution attributes''. IBM document R1000622, 2010-08-31 ({{cite web |url=http://www-01.ibm.com/support/docview.wss?uid=pos1R1000622 |title=Archived copy |accessdate=2014-05-20 |deadurl=yes |archiveurl=https://web.archive.org/web/20140521070536/http://www-01.ibm.com/support/docview.wss?uid=pos1R1000622 |archivedate=2014-05-21 |df= }}).</ref>
+
+=== Distributed parallel file systems ===
+
+Distributed [[Parallel computing|parallel]] file systems stripe data over multiple servers for high performance. They are normally used in [[high-performance computing|high-performance computing (HPC)]].
+
+Some of the distributed parallel file systems use [[object storage device]] (OSD) (In Lustre called OST) for chunks of data together with centralized [[metadata]] servers.
+
+* [[Parallel Virtual File System]] (PVFS, PVFS2, [[OrangeFS]]).  Developed to store virtual system images, with a focus on non shared writing optimizations. Available for [[Linux]] under [[GNU General Public License|GPL]].
+
+=== {{Anchor|DISTRIBUTED-PARALLEL-FAULT-TOLERANT}}Distributed parallel fault-tolerant file systems ===
+
+Distributed file systems, which also are [[Parallel computing|parallel]] and [[fault tolerant]], stripe and replicate data over multiple servers for high performance and to maintain [[data integrity]]. Even if a server fails no data is lost. The file systems are used in both [[high-performance computing|high-performance computing (HPC)]] and [[high-availability cluster]]s.
+
+All file systems listed here focus on [[high availability]], [[scalability]] and high performance unless otherwise stated below.
+{| class="wikitable sortable"
+|-
+! Name
+! By
+! License
+! OS
+! Description
+|-
+| [[BeeGFS]] (formerly FhGFS)
+| [[Fraunhofer Society]]
+| Open-source ([[GPLv2]] & BeeGFS EULA)
+| [[Linux]]
+| A free to use file system with optional professional support, designed for easy usage and high performance, used on some of the fastest [[computer cluster]]s in the world. BeeGFS allows replication of storage volumes with automatic failover and self-healing.
+|-
+| [[Ceph (software)|Ceph]]
+| [[Inktank Storage]], a company acquired by [[Red Hat]]
+| [[LGPL]]
+| [[Linux kernel]]
+| A massively scalable object store. CephFS was merged into the Linux kernel in 2010. Ceph's foundation is the [[reliable autonomic distributed object store]] (RADOS), which provides object storage via programmatic interface and S3 or Swift REST APIs, block storage to QEMU/KVM/Linux hosts, and POSIX filesystem storage which can be mounted by Linux kernel and FUSE clients.
+|-
+| [[Chiron FS]]
+| 
+| 
+| 
+| is a [[Filesystem in Userspace|fuse]]-based, transparent replication file system, layering on an existing file system and implementing at the file system level what [[RAID]] 1 does at the device level. A notably convenient consequence is the possibility of picking single target directories, without the need of replicating entire partitions. (The project has no visible activity after 2008, a status request in Oct. 2009 in the chironfs-forum is unanswered)
+|-
+| [[CloudStore]]
+| [[Kosmix]]
+| [[Apache License|Apache License 2.0]]
+|
+| [[Google File System]] workalike.  Replaced by [[Quantcast File System (QFS)]]
+|-
+| [[dCache]]
+| [[DESY]] and others
+|
+|
+| A write once filesystem, accessible via various protocols
+|-
+| [[General Parallel File System]] (GPFS)
+| [[IBM]]
+| proprietary
+| AIX, Linux and Windows
+| Support [[replication (computer science)|replication]] between attached block storage. Symmetric or asymmetric (configurable)
+|-
+| [[Gfarm file system]]
+| <!--By--> Asia Pacific Grid
+| [[X11 License]]
+| [[Linux]], [[macOS]], [[FreeBSD]], [[NetBSD]] and [[Solaris (operating system)|Solaris]]
+| Uses [[OpenLDAP]] or [[PostgreSQL]] for metadata and [[FUSE (Linux)|FUSE]] or [[LUFS]] for mounting
+|-
+| [[GlusterFS]]
+| Gluster, a company acquired by Red Hat
+| [[GPLv3|GNU General Public License v3]]
+| <!--OS--> [[Linux]], [[NetBSD]], [[FreeBSD]], [[OpenSolaris]]
+| A general purpose distributed file system for scalable storage. It aggregates various storage bricks over Infiniband [[remote direct memory access|RDMA]] or TCP/IP interconnect into one large parallel network file system. [[GlusterFS]] is the main component in Red Hat Storage Server.
+|-
+| [[Google File System]] (GFS)
+| [[Google]]
+| internal software
+| 
+| Focus on [[fault tolerance]], high [[throughput]] and [[scalability]]
+|-
+| [[Hadoop Distributed File System]]
+| [[Apache Software Foundation]]
+| [[Apache License 2.0]]
+| Cross-platform
+| Open source GoogleFS clone
+|-
+| [[IBRIX Fusion]]
+| [[IBRIX]]
+| [[proprietary software]]
+| 
+| 
+|-
+| [[Infinit (file system)|Infinit]]
+| [[Infinit International, Inc]]
+| [[proprietary software|proprietary]]
+| [[cross-platform]]
+| A [[POSIX]]-compliant file system for both local area network and wide area networks. Infinit [[replication (computing)|replicates blocks]] of data between the various storage resources composing the infrastructure (being local or through cloud API) in order to guarantee [[data reliability]] (durability and availability) through [[Byzantine fault tolerance]] and data rebalancing (i.e. self healing).
+|-
+| [[LizardFS]]
+| Skytechnology
+| [[GPL]]
+| [[cross-platform]]
+| An open source, highly available POSIX-compliant file system that supports Windows clients. 
+|-
+| [[Lustre (file system)|Lustre]]
+| originally developed by [[Cluster File Systems]] and currently supported by OpenSFS
+| [[GNU General Public License|GPL]]
+| [[Linux]]
+| A [[POSIX]]-compliant, high-performance filesystem used on a majority of systems in the [[Top-500]] list of [[High Performance Computing|HPC]] systems. Lustre has [[high availability]] via storage [[failover]].
+|-
+| [[MapR FS]]
+| [[MapR]]
+| [[Proprietary software|Proprietary]]
+| Linux
+| Highly scalable, POSIX compliant, fault tolerant, read/write filesystem with a distributed, fault tolerant metadata service. It provides an HDFS and NFS interface to clients as well as a noSQL table interface and [[Apache Kafka]] compatible messaging system
+|-
+| [[MooseFS]]
+| [[Core Technology]]
+| [[GPLv2]]/[[proprietary software|proprietary]]<ref>http://moosefs.com/license.html</ref>
+| [[Linux]]/[[NetBSD]]/[[FreeBSD]]/[[macOS]]/[[OpenSolaris]]
+| MooseFS is a fault tolerant, highly available and high performance scale-out network distributed file system. It spreads data over several physical commodity x86 servers, which are visible to the user as one namespace. For standard file operations MooseFS acts like any other Unix-like file systems
+|-
+| [[ObjectiveFS]]
+| Objective Security Corporation
+| [[proprietary software|proprietary]]
+| [[Linux]], [[macOS]]
+| POSIX-compliant shared distributed filesystem. Uses object store as a backend. Runs on AWS S3, GCS and object store devices.
+|-
+| [[OneFS distributed file system]]
+| [[Isilon]]
+|
+| [[FreeBSD]]
+| BSD based OS on dedicated Intel based hardware, serving NFS v3 and SMB/CIFS to [[Microsoft Windows|Windows]], [[macOS]], [[Linux]] and other [[UNIX]] clients under a [[proprietary software]]
+|-
+|[[OpenIO#Products|OIO-FS]]
+|[[OpenIO]]
+|[[Proprietary software|Proprietary]]
+|[[Linux]]
+|OIO-FS provides file-oriented access to [[OpenIO|OpenIO SDS]] [[object storage]] backend. It is based on [[FUSE (filesystem)|FUSE]] technology and presents a [[POSIX]] file system to users. This access can be used locally, or over a network using [[Network File System|NFS]] or [[Server Message Block|SMB]].<ref>{{Cite web|url=https://docs.openio.io/18.10/source/arch-design/fs_overview.html|title=Features of OIO-FS  — OpenIO SDS 18.10 Object Storage documentation|last=|first=|date=|website=docs.openio.io|archive-url=|archive-date=|dead-url=|access-date=2018-12-20}}</ref>
+|-
+|[https://www.panasas.com/panfs-architecture/panfs/ PanFS]
+|[[Panasas]]
+|[[Proprietary software|Proprietary]]
+|[[Linux]], [[macOS]], [[FreeBSD]]
+|A [[POSIX]]-compliant, high-performance, [[Parallel File System|parallel filesystem]] used by [[High Performance Computing|HPC]] clusters. It uses [[Erasure code|erasure coding]] and snapshots for data protection, is based upon a [[Scale out|scale-out]] [[Object storage|object store]], and is focused on transparent failure recovery and ease of use
+|-
+| [[RozoFS]]
+| Rozo Systems
+| [[GPLv2|GNU GPLv2]]
+| [[Linux]]
+| A [[POSIX]] [[distributed file system|DFS]] focused on [[fault-tolerance]] and high-performance, based on the [[Mojette Transform|Mojette]] [[erasure code]] to reduce significantly the amount of redundancy (compared to plain [[Replication (computing)|replication]]).
+|-
+|[[Scality]]
+|Scality ring
+|[[Proprietary software]]
+|[[Linux]]
+|A POSIX file system{{Citation needed|date=November 2017}} focused on high availability and performance. Also provides S3/rest/nfs interfaces.
+|-
+| [[Tahoe-LAFS]]
+| Tahoe-LAFS Software Foundation
+| [[GNU GPL]] 2+ and other<ref>{{cite web|url=https://tahoe-lafs.org/trac/tahoe-lafs/browser/git/docs/about.rst |title=about.rst in trunk/docs – tahoe-lafs |publisher=Tahoe-lafs.org |date= |accessdate=2014-02-09}}</ref>
+| [[Microsoft Windows|Windows]], [[Linux]], [[macOS]]
+| secure, decentralized, fault-tolerant, [[peer-to-peer]] [[distributed data store]] and [[distributed file system]]
+|-
+| [[XtreemFS]]
+| Contrail E.U. project, the German MoSGrid project and the German project "First We Take Berlin"
+| open-source (BSD)
+| [[Linux]], [[Solaris (operating system)|Solaris]], [[macOS]], Windows
+| [[cross-platform]] file system for wide area networks. It replicates the data for fault tolerance and caches metadata and data to improve performance over high-latency links. [[Transport Layer Security|SSL]] and [[X.509]] certificates support makes XtreemFS usable over public networks. It also supports [[Striping]] for usage in a [[Cluster (computing)|cluster]].
+|}
+In development:
+
+* [[WebDFS]] An Open Source scalable, decentralized file store similar to MogileFS in function and purpose. Uses HTTP as the transport. Data is automatically and optimally re-arranged to accommodate the addition of new resources.  The lack of central meta data management greatly simplifies deployment and use.
+* [[zFS (IBM file system project)|zFS]] from [[IBM]] (not to be confused with [[ZFS]] from [[Sun Microsystems]] or the zFS file system provided with IBM's [[z/OS]] operating system) focus on [[cooperative cache]] and [[distributed transactions]] and uses [[object storage device]]s. Under development and not freely available.
+* [[HAMMER]]/ANVIL by [[Matt Dillon (computer scientist)|Matt Dillon]]
+* [[PNFS]] (Parallel NFS) – Clients available for [[Linux]] and [[OpenSolaris]] and back-ends from [[NetApp]], [[Panasas]], [[EMC Corporation|EMC]] [[Highroad]] and [[IBM]] [[GPFS]]
+* [[CRFS|Coherent Remote File System]] (CRFS) – requires [[Btrfs]]
+* [[Elliptics|Parallel Optimized Host Message Exchange Layered File System]] (POHMELFS) and Distributed STorage (DST). POSIX compliant, added to Linux kernel 2.6.30
+
+=== Peer-to-peer file systems ===
+
+Some of these may be called [[cooperative storage cloud]].
+
+* [[Cleversafe]] uses Cauchy [[Reed-Solomon]] [[information dispersal algorithms]] to separate data into unrecognizable slices and distribute them, via secure Internet connections, to multiple storage locations.
+* [[Infinit (file system)|Infinit]] is a peer-to-peer file system that can be deployed on-premise or over a set of storage resources of different nature: local disk, NAS and even cloud-based resources.
+* [[Scality]] is a distributed filesystem using the [[Chord (peer-to-peer)|Chord]] peer-to-peer protocol.
+* [[IPFS]] InterPlanetary File System is p2p, worldwide distributed content-addressable, file-system.
+
+== Special-purpose file systems ==
+
+* [[aufs]] an enhanced version of [[UnionFS]] stackable unification file system
+* [[AXFS]] (small footprint compressed read-only, with [[XIP]])
+* [[Barracuda Networks|Barracuda]] WebDAV plug-in. Secure Network File Server for embedded devices.
+* [[Boot File System]] is used on UnixWare to store files necessary for its boot process.
+* [[CDfs|cdfs]] (reading and writing of CDs)
+* [[Compact Disc File System]] (reading and writing of CDs; experimental)
+* [[CFS (Compact File Set file format)|cfs]] (caching)
+* [[Cramfs]] (small footprint compressed read-only)
+* [[Davfs2]] ([[WebDAV]])
+* [[Freenet]] – Decentralized, censorship-resistant
+* [[FTPFS]] (ftp access)
+* [[GmailFS]] (Google Mail File System)
+*GridFS - GridFS is a specification for storing and retrieving files that exceed the BSON-document size limit of 16 MB for [[MongoDB]].
+* [[lnfs]] (long names)
+* [[LTFS]] (Linear Tape File System for LTO and Enterprise tape)
+* [[MultiVersion File System|MVFS]] – MultiVersion File System, proprietary, used by [[Rational ClearCase]].
+* [[romfs]]
+* [[SquashFS]] (compressed read-only)
+*[[UMSDOS]], [[UVFAT]] – FAT file systems extended to store permissions and metadata (and in the case of UVFAT, [[VFAT]] long file names), used for Linux
+* [[UnionFS]] – stackable unification file system, which can appear to merge the contents of several directories (branches), while keeping their physical content separate
+* [[Venti]] – Plan 9 de-duplicated storage used by [[Fossil (file system)|Fossil]].
+* [[WBFS]] – Wii Backup FileSystem
+
+=== Pseudo- and virtual file systems ===
+* [[devfs]] – Virtual file system in Unix-like operating systems for managing devices on-the-fly
+* [[debugfs]] &ndash;Virtual file system in Linux for accessing and controlling kernel debugging.
+* [[procfs]] – Pseudo-file system, used to access kernel information about processes
+* [[tmpfs]] – in-memory temporary file system (on Linux platforms).
+* [[specfs]] – Special File System for device files
+* [[sysfs]] – Virtual file system in Unix-like operating systems holding information about buses, devices, firmware, filesystems, etc.
+* [[wikifs]] – a server application for [[Plan 9 from Bell Labs|Plan 9]]'s virtual, [[wiki]], file system
+* [[WinFS]] – Windows Future Storage, was planned as the successor to NTFS for Windows Vista.
+
+=== Encrypted file systems ===
+* [[eCryptfs]] – a stacked cryptographic file system in the Linux kernel since 2.6.19
+* [[SSHFS|Secure Shell File System]] (SSHFS) – locally mount a remote directory on a server using only a [[secure shell]] login.
+* [[EncFS]], GPL [[Disk encryption software|Encrypted file system]] in user-space
+* [[MaruTukku|Rubberhose filesystem]]
+* [[Encrypting File System|EFS]] – Encrypted file system for [[Microsoft Windows]] systems and [[AIX operating system|AIX]]. An extension of [[NTFS]]
+* [[ZFS]] Encryption Support
+* [[CryFS]]
+
+=== File system interfaces ===
+
+These are not really file systems; they allow access to file systems from an operating system standpoint.
+
+* [[FUSE (linux)|FUSE]] (file system in userspace, like [[LUFS]] but better maintained)
+* [[Linux Userland Filesystem|LUFS]] (Linux userland file system – seems to be abandoned in favour of [[FUSE (linux)|FUSE]])
+* [[Virtual file system|VFS]] Virtual Filesystem
+
+== See also ==
+* [[Shared file access]]
+* [[Comparison of file systems]]
+* [[Filing OSID]]
+* [[Computer storage]]
+
+== References ==
+{{Reflist|30em}}
+
+== External links ==
+* [http://www.osdata.com/holistic/connect/filesys.htm File Systems]
+
+{{File systems}}
+
+{{DEFAULTSORT:List Of File Systems}}
+[[Category:Computer file systems| ]]
+[[Category:Computing-related lists|File systems]]

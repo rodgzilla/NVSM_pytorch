@@ -1,0 +1,618 @@
+{{about|artificial satellites|natural satellites, also known as moons|Natural satellite|other uses|Satellite (disambiguation)}}
+{{redirects here|Artificial moon|the electric light used to simulate moonlight|moonlight tower}}
+{{Spaceflight sidebar}}
+{{Use dmy dates|date=June 2017}}
+
+[[File:NASA Earth-observing Fleet June 2012.ogv|thumb|upright=1.35|[[NASA]]'s Earth-observing fleet as of June 2012.]]
+[[File:ERS 2.jpg|thumb|right|upright=1.1|A full-size model of the [[Earth observation satellite]] [[ERS 2]]]]
+
+In the context of [[spaceflight]], a '''satellite''' is an artificial object which has been intentionally placed into [[orbit]]. Such objects are sometimes called '''artificial satellites''' to distinguish them from [[natural satellite]]s such as Earth's [[Moon]].
+
+On 4 October 1957 the [[Soviet Union]] launched the world's first artificial satellite, [[Sputnik 1]]. Since then, about 8,100 satellites from more than 40 countries have been launched. According to a 2018 estimate, some 4,900 remain in orbit, of those about 1,900 were operational; while the rest have lived out their useful lives and become [[space debris]].<ref name="Pixalytics">{{cite web |url=https://www.pixalytics.com/sats-orbiting-the-earth-2018/ |website=Pixalytics | title =How many satellites are orbiting earth in 2018 |accessdate=27 Sep 2018 |date=22 Aug 2018}}</ref> Approximately 500 operational satellites are in [[low-Earth orbit]], 50 are in [[medium-Earth orbit]] (at 20,000&nbsp;km), and the rest are in [[geostationary orbit]] (at 36,000&nbsp;km).<ref name="FCain">{{cite web |last=Cain |first=Fraser | title=How Many Satellites are in Space?
+ | url=http://www.universetoday.com/34807778346/how-many-satellites-in-space/ | website= | publisher=Universe Today | date=24 October 2013}}</ref> A few large satellites have been launched in parts and assembled in orbit. Over a dozen [[space probe]]s have been placed into orbit around other bodies and become artificial satellites to the [[Moon]], [[Mercury (planet)|Mercury]], [[Venus]], [[Mars]], [[Jupiter]], [[Saturn]], a few [[asteroid]]s,<ref>{{cite web|url=http://www.nasa.gov/press/2015/march/nasa-spacecraft-becomes-first-to-orbit-a-dwarf-planet/#.VPtPWbYrvcs|title=NASA Spacecraft Becomes First to Orbit a Dwarf Planet|work=NASA|date=2015-03-06}}</ref> a [[Rosetta (spacecraft)|comet]] and the [[Sun]].
+
+Satellites are used for many purposes. Among several other applications, they can be used to make star maps and maps of [[planetary surface]]s, and also take pictures of planets they are launched into. Common types include military and civilian [[Earth observation satellite]]s, [[communications satellite]]s, [[navigation satellite]]s, [[weather satellite]]s, and [[space telescope]]s. [[Space station]]s and human [[spacecraft]] in orbit are also satellites. Satellite orbits vary greatly, depending on the purpose of the satellite, and are classified in a number of ways. Well-known (overlapping) classes include low Earth orbit, [[polar orbit]], and [[geostationary orbit]].
+
+A [[launch vehicle]] is a [[rocket]] that places a satellite into orbit. Usually, it lifts off from a [[launch pad]] on land. Some are launched at sea from a [[Submarine-based launch vehicle|submarine]] or a [[Sea Launch|mobile maritime platform]], or aboard a plane (see [[air launch to orbit]]).
+
+Satellites are usually semi-independent computer-controlled systems. Satellite subsystems attend many tasks, such as power generation, [[Spacecraft thermal control|thermal control]], telemetry, [[attitude control]] and orbit control.
+
+== History ==
+
+=== Early conceptions ===
+[[File:1986 CPA 5712.jpg|thumb|Konstantin Tsiolkovsky]]
+[[File:Popular_Science_May_1949.jpg|thumb|A 1949 issue of [[Popular Science]] depicts the idea of an "artificial moon"]]
+[[File:ConstellationGPS.gif|thumb|right|upright=1.1|Animation depicting the orbits of GPS satellites in [[medium Earth orbit]].]]
+"[[Newton's cannonball]]", presented as a "thought experiment" in ''[[A Treatise of the System of the World]]'', by [[Isaac Newton]] was the first published mathematical study of the possibility of an artificial satellite.
+
+The first fictional depiction of a satellite being launched into orbit was a [[short story]] by [[Edward Everett Hale]], ''[[The Brick Moon]]''.<ref>{{cite web
+ |title=Rockets in Science Fiction (Late 19th Century)
+ |url=http://history.msfc.nasa.gov/rocketry/tl4.html
+ |publisher=[[Marshall Space Flight Center]]
+ |date=
+ |deadurl=yes
+ |archiveurl=https://web.archive.org/web/20000901224414/http://history.msfc.nasa.gov/rocketry/tl4.html
+ |archivedate=2000-09-01
+ |accessdate=2008-11-21
+ |df=
+}}</ref><ref>{{cite book | title=Science-fiction, the Early Years
+ | first=Everett Franklin | last=Bleiler | first2=Richard | last2=Bleiler | page=325
+ | isbn=978-0-87338-416-2 | publisher=[[Kent State University Press]] | year=1991}}</ref> The idea surfaced again in [[Jules Verne]]'s ''[[The Begum's Fortune]]'' (1879).
+
+In 1903, [[Konstantin Tsiolkovsky]] (1857–1935) published ''Exploring Space Using Jet Propulsion Devices'' (in [[Russian language|Russian]]: ''Исследование мировых пространств реактивными приборами''), which is the first academic treatise on the use of rocketry to launch spacecraft. He calculated the [[orbital speed]] required for a minimal orbit, and that a [[multi-stage rocket]] fuelled by liquid [[propellant]]s could achieve this.
+
+In 1928, [[Herman Potočnik]] (1892–1929) published his sole book, ''The Problem of Space Travel – The Rocket Motor'' ([[German language|German]]: ''Das Problem der Befahrung des Weltraums – der Raketen-Motor''). He described the use of orbiting spacecraft for observation of the ground and described how the special conditions of space could be useful for scientific experiments.
+
+In a 1945 ''[[Wireless World]]'' article, the English science fiction writer [[Arthur C. Clarke]] (1917–2008) described in detail the possible use of [[communications satellite]]s for mass communications.<ref>{{cite book | title=Visions of Technology
+ | first=Richard | last=Rhodes | page=160 | publisher=[[Simon & Schuster]] | year=2000
+ | isbn=978-0-684-86311-5}}</ref> He suggested that three geostationary satellites would provide coverage over the entire planet.
+
+The US military studied the idea of what was referred to as the "earth satellite vehicle" when Secretary of Defense [[James Forrestal]] made a public announcement on 29 December 1948, that his office was coordinating that project between the various services.<ref>{{cite journal | url=https://books.google.com/books?id=ZiQDAAAAMBAJ&pg=PA107| title=Is US Building A New Moon | journal=Popular Science | date=May 1949 | author1=Corporation | first1=Bonnier}}</ref>
+
+=== Artificial satellites ===
+[[File:Sputnik asm.jpg|thumb|upright=1.1|[[Sputnik 1]]: The first artificial satellite to orbit Earth.]]
+The first artificial satellite was [[Sputnik 1]], launched by the Soviet Union on 4 October 1957, and initiating the [[Soviet Union|Soviet]] [[Sputnik program]], with [[Sergei Korolev]] as chief designer. This in turn triggered the [[Space Race]] between the Soviet Union and the United States.
+
+Sputnik 1 helped to identify the density of high [[Earth's atmosphere#Temperature and layers|atmospheric layers]] through measurement of its orbital change and provided data on radio-signal distribution in the [[ionosphere]]. The unanticipated announcement of Sputnik 1's success precipitated the [[Sputnik crisis]] in the United States and ignited the so-called Space Race within the [[Cold War]].
+
+[[Sputnik 2]] was launched on 3 November 1957 and carried the first living passenger into orbit, a dog named [[Laika]].<ref name="nasa_animals">{{cite web | title=A Brief History of Animals in Space |url=https://history.nasa.gov/animals.html | first=Tara | last=Gray | first2=Steve | last2=Garber | website= | publisher=[[NASA]] | date=2 August 2004}}</ref>
+
+In May, 1946, [[Project RAND]] had released the [[Preliminary Design of an Experimental World-Circling Spaceship]], which stated, "A satellite vehicle with appropriate instrumentation can be expected to be one of the most potent scientific tools of the Twentieth Century."<ref>
+{{cite web | url=https://www.rand.org/pubs/special_memoranda/SM11827/ | title=Preliminary Design of an Experimental World-Circling Spaceship | work=[[RAND]] | publisher= | date= | accessdate=6 March 2008}}</ref>
+The United States had been considering launching orbital satellites since 1945 under the [[Bureau of Aeronautics]] of the [[United States Navy]]. The [[United States Air Force]]'s Project RAND eventually released the report, but considered the satellite to be a tool for science, politics, and propaganda, rather than a potential military weapon. In 1954, the [[Charles Erwin Wilson|Secretary of Defense]] stated, "I know of no American satellite program."<ref>{{cite book | title=Venture Into Space: Early Years of Goddard Space Flight Center
+ | first=Alfred | last=Rosenthal | publisher=NASA | year=1968 | page=15}}</ref> In February 1954 Project RAND released "Scientific Uses for a Satellite Vehicle," written by R.R. Carhart.<ref>R.R. Carhart, Scientific Uses for a Satellite Vehicle, Project RAND Research Memorandum. (Rand Corporation, Santa Monica) 12 February 1954.</ref> This expanded on potential scientific uses for satellite vehicles and was followed in June 1955 with "The Scientific Use of an Artificial Satellite," by H.K. Kallmann and W.W. Kellogg.<ref>2. H.K Kallmann and W.W. Kellogg, Scientific Use of an Artificial Satellite, Project RAND Research Memorandum. (Rand Corporation, Santa Monica) 8 June 1955.</ref>
+
+In the context of activities planned for the [[International Geophysical Year]] (1957–58), the [[White House]] announced on 29 July 1955 that the U.S. intended to launch satellites by the spring of 1958. This became known as [[Project Vanguard]]. On 31 July, the Soviets announced that they intended to launch a satellite by the fall of 1957.
+
+Following pressure by the [[American Rocket Society]], the [[National Science Foundation]], and the International Geophysical Year, military interest picked up and in early 1955 the Army and Navy were working on [[Project Orbiter]], two competing programs: the army's which involved using a [[Jupiter-C IRBM|Jupiter C rocket]], and the civilian/Navy Vanguard Rocket, to launch a satellite. At first, they failed: initial preference was given to the Vanguard program, whose first attempt at orbiting a satellite resulted in the explosion of the launch vehicle on national television. But finally, three months after Sputnik 2, the project succeeded; [[Explorer 1]] became the United States' first artificial satellite on 31 January 1958.<ref>{{cite news|title=50th anniversary of first U.S. satellite launch celebrated |url=http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2008/01/30/state/n151715S68.DTL |agency=[[Associated Press]] |first=Alicia |last=Chang |work= |publisher=SFGate |date=30 January 2008 |deadurl=yes |archivedate=1 February 2008 |archiveurl=https://web.archive.org/web/20080201193510/http://www.sfgate.com/cgi-bin/article.cgi?f=%2Fn%2Fa%2F2008%2F01%2F30%2Fstate%2Fn151715S68.DTL}}</ref>
+
+In June 1961, three-and-a-half years after the launch of Sputnik 1, the Air Force used resources of the [[United States Space Surveillance Network]] to catalog 115 Earth-orbiting satellites.<ref>{{cite web|first=David S. F. |last=Portree |first2=Joseph P. |last2=Loftus, Jr |url=http://ston.jsc.nasa.gov/collections/TRS/_techrep/TP-1999-208856.pdf |format=PDF |title=Orbital Debris: A Chronology |page=18 |work=[[Lyndon B. Johnson Space Center]] |year=1999 |deadurl=yes |archiveurl=https://web.archive.org/web/20000901071135/http://ston.jsc.nasa.gov/collections/TRS/_techrep/TP-1999-208856.pdf |archivedate=2000-09-01 |accessdate=2008-11-21}}</ref>
+
+Early satellites were constructed as "[[wikt:one-off|one-off]]" designs. With growth in [[Geosynchronous orbit|geosynchronous]] (GEO) [[communication satellite|satellite communication]], multiple satellites began to be built on [[Comparison of satellite buses|single model platforms]] called [[satellite bus]]es. The first standardized satellite bus design was the [[HS-333]] GEO commsat, launched in 1972.
+
+Currently the largest artificial satellite ever is the [[International Space Station]].
+[[File:ESTCube-1 illustration.jpg|thumb|1U [[CubeSat]] [[ESTCube-1]], developed mainly by the students from the [[University of Tartu]], carries out a tether deployment experiment in [[low Earth orbit]].]]
+
+==Space Surveillance Network==
+{{Main|United States Space Surveillance Network}}
+
+The [[United States Space Surveillance Network]] (SSN), a division of the [[United States Strategic Command]], has been tracking objects in Earth's orbit since 1957 when the [[Soviet Union]] opened the [[Space Age]] with the launch of [[Sputnik I]]. Since then, the SSN has tracked more than 26,000 objects. The SSN currently tracks more than 8,000 man-made orbiting objects. The rest have re-entered Earth's atmosphere and disintegrated, or survived re-entry and impacted the Earth. The SSN tracks objects that are 10 centimeters in diameter or larger; those now orbiting Earth range from satellites weighing several tons to pieces of spent rocket bodies weighing only 10 pounds. About seven percent are operational satellites (i.e. ~560 satellites), the rest are [[space debris]].<ref>{{cite web|title=Orbital Debris Education Package |url=http://www.orbitaldebris.jsc.nasa.gov/library/EducationPackage.pdf |format=PDF |publisher=[[Lyndon B. Johnson Space Center]] |date= |deadurl=yes |archiveurl=https://web.archive.org/web/20080408183946/http://www.orbitaldebris.jsc.nasa.gov/library/EducationPackage.pdf |archivedate=8 April 2008 |accessdate=6 March 2008}}</ref> The United States Strategic Command is primarily interested in the active satellites, but also tracks space debris which upon reentry might otherwise be mistaken for incoming missiles.
+
+== Non-military satellite services ==
+There are three basic categories of non-military satellite services:<ref name=Grant&Meadows>{{cite book | last1=Grant | first1=A. | last2=Meadows | first2=J. | year=2004 | title=Communication Technology Update | edition=ninth | page=284 | publisher=[[Focal Press]] | isbn=978-0-240-80640-2}}</ref>
+
+===Fixed satellite services===
+[[Fixed Service Satellite|Fixed satellite services]] handle hundreds of billions of voice, data, and video transmission tasks across all countries and continents between certain points on the Earth's surface.
+
+===Mobile satellite systems===
+{{main|Mobile-satellite service}}
+Mobile satellite systems help connect remote regions, vehicles, ships, people and aircraft to other parts of the world and/or other mobile or stationary communications units, in addition to serving as navigation systems.
+
+=== {{anchor|Research satellites}} Scientific research satellites (commercial and noncommercial) ===
+Scientific research satellites provide meteorological information, land survey data (e.g. remote sensing), Amateur (HAM) Radio, and other different scientific research applications such as earth science, marine science, and atmospheric research.
+
+==Types==
+* '''[[Astronomical satellite]]s''' are satellites used for observation of distant planets, galaxies, and other outer space objects.
+* '''[[Biosatellite]]s''' are satellites designed to carry living organisms, generally for scientific experimentation.
+* '''[[Communication satellite]]s''' are satellites stationed in space for the purpose of [[telecommunications]]. Modern communications satellites typically use [[geosynchronous orbit]]s, [[Molniya orbit]]s or [[Low Earth orbit]]s.
+* '''[[Earth observation satellite]]s''' are satellites intended for non-military uses such as [[environment (biophysical)|environmental]] monitoring, [[meteorology]], [[map making]] etc. (See especially [[Earth Observing System]].)
+* '''[[Global Navigation Satellite System|Navigational satellites]]''' are satellites which use radio time signals transmitted to enable mobile receivers on the ground to determine their exact location. The relatively clear line of sight between the satellites and receivers on the ground, combined with ever-improving electronics, allows satellite navigation systems to measure location to accuracies on the order of a few meters in real time.
+* '''[[Killer Satellites]]''' are satellites that are designed to destroy enemy warheads, satellites, and other space assets.
+* '''Crewed [[spacecraft]] (spaceships)''' are large satellites able to put [[human]]s into (and beyond) an orbit, and return them to Earth. Spacecraft including [[spaceplane]]s of [[reusable launch system|reusable systems]] have major [[Spacecraft propulsion|propulsion]] or [[landing]] facilities. They can be used as transport to and from the orbital stations.
+* '''[[Miniaturized satellites]]''' are satellites of unusually low masses and small sizes.<ref>{{cite web | page=6 | title=Workshop on the Use of Microsatellite Technologies | url=http://www.unoosa.org/pdf/reports/ac105/AC105_903E.pdf | format=PDF | publisher=[[United Nations]] | year=2008 | accessdate=6 March 2008}}</ref> New classifications are used to categorize these satellites: minisatellite (500–100&nbsp;kg), [[Microsatellite (spaceflight)|microsatellite]] (below 100&nbsp;kg), [[nanosatellite]] (below 10&nbsp;kg).{{citation needed|date=December 2012}}
+* '''[[Reconnaissance satellite]]s''' are [[Earth observation satellite]] or [[communications satellite]] deployed for [[military]] or [[espionage|intelligence]] applications. Very little is known about the full power of these satellites, as governments who operate them usually keep information pertaining to their reconnaissance satellites classified.
+* '''[[Recovery satellite]]s''' are satellites that provide a recovery of reconnaissance, biological, space-production and other payloads from orbit to Earth.
+[[File:International Space Station after undocking of STS-132.jpg|thumb|International Space Station]]
+* '''[[Space-based solar power]] satellites''' are proposed satellites that would collect energy from sunlight and transmit it for use on Earth or other places.
+* '''[[Space station]]s''' are artificial orbital structures that are designed for [[human|human beings]] to live on in [[outer space]]. A space station is distinguished from other crewed spacecraft by its lack of major propulsion or landing facilities. Space stations are designed for medium-term living in orbit, for periods of weeks, months, or even years.
+* '''[[Tether satellite]]s''' are satellites which are connected to another satellite by a thin cable called a [[tether]].
+* '''[[Weather satellite]]s''' are primarily used to monitor Earth's weather and [[climate]].<ref>{{cite web|title=Earth Observations from Space |url=http://dels.nas.edu/dels/rpt_briefs/earth_observations_final.pdf |format=PDF |publisher=[[National Academy of Science]] |year=2007 |deadurl=yes |archiveurl=https://web.archive.org/web/20071112000950/http://dels.nas.edu/dels/rpt_briefs/earth_observations_final.pdf |archivedate=2007-11-12}}</ref>
+
+==Orbit types==
+{{Main|List of orbits}}
+
+[[File:Orbits around earth scale diagram.svg|thumb|upright=1.6|Various earth orbits to scale; cyan represents low earth orbit, yellow represents medium earth orbit, the black dashed line represents geosynchronous orbit, the green dash-dot line the orbit of [[Global Positioning System]] (GPS) satellites, and the red dotted line the orbit of the [[International Space Station]] (ISS).]]
+
+The first satellite, [[Sputnik 1]], was put into orbit around Earth and was therefore in [[geocentric orbit]]. By far this is the most common type of orbit with approximately 1,886<ref name="UCS-SatDB">{{cite web|title=UCS Satellite Database|url=http://www.ucsusa.org/nuclear-weapons/space-weapons/satellite-database|publisher=Union of Concerned Scientists|accessdate=27 September 2018|date=10 August 2018}}</ref> artificial satellites orbiting the Earth. Geocentric orbits may be further classified by their altitude, [[inclination]] and [[Orbital eccentricity|eccentricity]].
+
+The commonly used altitude classifications of geocentric orbit are [[Low Earth orbit]] (LEO), [[Medium Earth orbit]] (MEO) and [[High Earth orbit]] (HEO). Low Earth orbit is any orbit below 2,000 [[km]]. Medium Earth orbit is any orbit between 2,000 and 35,786&nbsp;km. High Earth orbit is any orbit higher than 35,786&nbsp;km.
+
+===Centric classifications===
+* '''[[Geocentric orbit]]''': An orbit around the planet Earth, such as the Moon or [[artificial satellite]]s. Currently there are approximately 1,886<ref name="UCS-SatDB" /> artificial satellites orbiting the Earth.
+* '''[[Heliocentric orbit]]''': An orbit around the Sun. In our [[Solar System]], all planets, [[comet]]s, and [[asteroid]]s are in such orbits, as are many artificial satellites and pieces of [[space debris]]. [[Natural satellite#Natural satellites of the Solar System|Moons]] by contrast are not in a heliocentric orbit but rather orbit their parent planet.
+* '''[[Areocentric orbit]]''': An orbit around the planet [[Mars]], such as by [[Moons of Mars|moons]] or [[artificial satellite]]s.
+The general structure of a satellite is that it is connected to the earth stations that are present on the ground and connected through terrestrial links.
+
+===Altitude classifications===
+* '''[[Low Earth orbit]] (LEO)''': Geocentric orbits ranging in altitude from 180&nbsp;km – {{convert|2000|km|mi|abbr=on}}
+* '''[[Medium Earth orbit]] (MEO)''': Geocentric orbits ranging in altitude from {{convert|2000|km|mi|abbr=on}} – {{convert|35786|km|mi|abbr=on}}. Also known as an [[intermediate circular orbit]].
+* '''[[Geosynchronous orbit]] (GEO)''': Geocentric circular orbit with an altitude of {{convert|35,786|km|mi}}. The period of the orbit equals one [[sidereal day]], coinciding with the rotation period of the Earth. The speed is approximately {{convert|3,000|m/s|ft/s}}.
+* '''[[High Earth orbit]] (HEO)''': Geocentric orbits above the altitude of [[geosynchronous orbit]] {{convert|35786|km|mi|abbr=on}}.
+[[File:Orbitalaltitudes.jpg|thumb|upright=1.45|Orbital Altitudes of several significant satellites of earth.]]
+
+===Inclination classifications===
+* '''[[Inclined orbit]]''': An orbit whose inclination in reference to the [[equatorial plane]] is not zero degrees.
+** '''[[Polar orbit]]''': An orbit that passes above or nearly above both poles of the planet on each revolution. Therefore, it has an inclination of (or very close to) 90 [[degree (angle)|degrees]].
+** '''Polar [[sun synchronous orbit]]''': A nearly polar orbit that passes the [[equator]] at the same local time on every pass. Useful for [[image]] taking satellites because [[shadow]]s will be nearly the same on every pass.
+
+===Eccentricity classifications===
+* '''[[Circular orbit]]''': An orbit that has an [[Orbital eccentricity|eccentricity]] of 0 and whose path traces a [[circle]].
+** '''[[Hohmann transfer orbit]]''': An orbit that moves a spacecraft from one approximately circular orbit, usually the orbit of a planet, to another, using two engine [[Impulse (physics)|impulses]]. The [[perihelion]] of the transfer orbit is at the same distance from the Sun as the radius of one planet's orbit, and the [[aphelion]] is at the other. The two rocket burns change the spacecraft's path from one circular orbit to the transfer orbit, and later to the other circular orbit. This maneuver was named after [[Walter Hohmann]].
+* '''[[Elliptic orbit]]''': An orbit with an eccentricity greater than 0 and less than 1 whose orbit traces the path of an [[ellipse]].
+** '''[[Geosynchronous transfer orbit]]''': An elliptic orbit where the [[perigee]] is at the altitude of a [[Low Earth orbit]] (LEO) and the [[apogee]] at the altitude of a geosynchronous orbit.
+** '''[[Geostationary transfer orbit]]''': An elliptic orbit where the perigee is at the altitude of a Low Earth orbit (LEO) and the apogee at the altitude of a geostationary orbit.
+** '''[[Molniya orbit]]''': A highly elliptic orbit with inclination of 63.4° and [[orbital period]] of half of a [[sidereal day]] (roughly 12 hours). Such a satellite spends most of its time over two designated areas of the [[planet]] (specifically Russia and the United States).
+** '''[[Tundra orbit]]''': A highly elliptic orbit with inclination of 63.4° and orbital period of one sidereal day (roughly 24 hours). Such a satellite spends most of its time over a single designated area of the planet.
+
+===Synchronous classifications===
+* '''[[Synchronous orbit]]''': An orbit where the satellite has an orbital period equal to the average [[rotational period]] (earth's is: 23 hours, 56 minutes, 4.091 seconds) of the body being orbited and in the same direction of rotation as that body. To a ground observer such a satellite would trace an [[analemma]] (figure 8) in the sky.
+* '''[[Semi-synchronous orbit]] (SSO)''': An orbit with an altitude of approximately {{convert|20200|km|mi|abbr=on}} and an orbital period equal to one-half of the average rotational period (Earth's is approximately 12 hours) of the body being orbited
+* '''[[Geosynchronous orbit]] (GSO)''': Orbits with an altitude of approximately {{convert|35786|km|mi|abbr=on}}. Such a satellite would trace an [[analemma]] (figure 8) in the sky.
+** '''[[Geostationary orbit]] (GEO)''': A geosynchronous orbit with an inclination of zero. To an observer on the ground this satellite would appear as a fixed point in the sky.<ref>{{cite web | title=Pearl Harbor In Space | first=James | last=Oberg | url=http://www.jamesoberg.com/pearl.html | work=[[Omni (magazine)|Omni]] | date=July 1984 | pages=42–44 | authorlink=James Oberg}}</ref>
+*** '''[[Clarke orbit]]''': Another name for a geostationary orbit. Named after scientist and writer [[Arthur C. Clarke]].
+** '''[[Supersynchronous orbit]]''': A disposal / storage orbit above GSO/GEO. Satellites will drift west. Also a synonym for Disposal orbit.
+** '''[[Subsynchronous orbit]]''': A drift orbit close to but below GSO/GEO. Satellites will drift east.
+** '''[[Graveyard orbit]]''': An orbit a few hundred kilometers above [[geosynchronous]] that satellites are moved into at the end of their operation.
+*** '''[[Disposal orbit]]''': A synonym for graveyard orbit.
+*** '''[[Junk orbit]]''': A synonym for disposal orbit.
+* '''[[Areosynchronous orbit]]''': A synchronous orbit around the planet [[Mars]] with an orbital period equal in length to Mars' sidereal day, 24.6229 hours.
+* '''[[Areostationary orbit]] (ASO)''': A circular [[areosynchronous orbit]] on the [[equatorial plane]] and about 17000&nbsp;km (10557 miles) above the surface. To an observer on the ground this satellite would appear as a fixed point in the sky.
+* '''[[Heliosynchronous orbit]]''': A heliocentric orbit about the Sun where the satellite's orbital period matches the Sun's period of rotation. These orbits occur at a radius of 24,360 [[gigametre|Gm]] (0.1628 [[Astronomical unit|AU]]) around the Sun, a little less than half of the [[orbital radius]] of [[Mercury (planet)|Mercury]].
+
+===Special classifications===
+* '''[[Sun-synchronous orbit]]''': An orbit which combines altitude and inclination in such a way that the satellite passes over any given point of the planets' surface at the same local [[solar time]]. Such an orbit can place a satellite in constant sunlight and is useful for [[Satellite imagery|imaging]], [[spy satellite|spy]], and [[weather satellite]]s.
+* '''[[Moon orbit]]''': The [[Orbital parameters|orbital characteristics]] of Earth's Moon. Average altitude of {{convert|384403|km|mi|sp=us}}, [[elliptical orbit|elliptical]]–inclined orbit.
+
+=== Pseudo-orbit classifications ===
+* '''[[Horseshoe orbit]]''': An orbit that appears to a ground observer to be orbiting a certain planet but is actually in [[Co-orbital satellite|co-orbit]] with the planet. See asteroids [[3753 Cruithne|3753]] (Cruithne) and [[2002 AA29|2002 AA<sub>29</sub>]].
+* '''[[Exo-orbit]]''': A maneuver where a spacecraft approaches the height of orbit but lacks the velocity to sustain it.
+** '''[[Suborbital spaceflight]]''': A synonym for exo-orbit.
+* '''[[Lunar transfer orbit]] (LTO)'''
+* '''[[Prograde orbit]]''': An orbit with an inclination of less than 90°. Or rather, an orbit that is in the same direction as the rotation of the primary.
+* '''[[Retrograde orbit]]''': An orbit with an inclination of more than 90°. Or rather, an orbit counter to the direction of rotation of the planet. Apart from those in [[sun-synchronous orbit]], few satellites are launched into retrograde orbit because the quantity of fuel required to launch them is much greater than for a prograde orbit. This is because when the rocket starts out on the ground, it already has an eastward component of velocity equal to the rotational velocity of the planet at its launch [[latitude]].
+* '''[[Halo orbit]]''' and '''[[Lissajous orbit]]''': Orbits "around" [[Lagrangian point]]s.
+
+==Satellite subsystems==
+The satellite's functional versatility is imbedded within its technical components and its operations characteristics. Looking at the "anatomy" of a typical satellite, one discovers two modules.<ref name=Grant&Meadows /> Note that some novel architectural concepts such as [[Fractionated spacecraft]] somewhat upset this taxonomy.
+
+===Spacecraft bus or service module===
+The [[Spacecraft bus|bus module]] consists of the following subsystems:
+
+====Structural subsystem====
+The structural subsystem provides the mechanical base structure with adequate stiffness to withstand stress and vibrations experienced during launch, maintain [[structural integrity]] and stability while on station in orbit, and shields the satellite from extreme temperature changes and [[micro-meteorite]] damage.
+
+====Telemetry subsystem====
+The [[telemetry]] subsystem (aka Command and Data Handling, C&DH) monitors the on-board equipment operations, transmits equipment operation data to the earth control station, and receives the earth control station's commands to perform equipment operation adjustments.
+
+====Power subsystem====
+The power subsystem consists of solar panels to convert solar energy into electrical power, regulation and distribution functions, and batteries that store power and supply the satellite when it passes into the Earth's shadow. Nuclear power sources ([[Radioisotope thermoelectric generator]]) have also been used in several successful satellite programs including the [[Nimbus program]] (1964–1978).<ref>{{cite journal | title=Radioisotope-based Nuclear Power Strategy for Exploration Systems Development | volume=813 | pages=334 | url=http://www.lpi.usra.edu/opag/schmidtstaif06.pdf | format=PDF | first=George | last=Schmidt | first2=Mike | last2=Houts | journal=STAIF Nuclear Symposium | date=16 February 2006| bibcode=2006AIPC..813..334S | doi=10.1063/1.2169210 }}</ref>
+
+====Thermal control subsystem====
+{{Main|Spacecraft thermal control}}
+The thermal control subsystem helps protect electronic equipment from extreme temperatures due to intense sunlight or the lack of sun exposure on different sides of the satellite's body (e.g. [[optical solar reflector]])
+
+====Attitude and orbit control subsystem====
+{{Main|Attitude control|Spacecraft propulsion}}
+The attitude and orbit control subsystem consists of sensors to measure vehicle orientation, control laws embedded in the flight software, and actuators (reaction wheels, [[Spacecraft propulsion|thrusters]]). These apply the [[torque]]s and forces needed to re-orient the vehicle to a desired attitude, keep the satellite in the correct orbital position, and keep antennas pointed in the right directions.
+
+===Communication payload===
+The second major module is the communication payload, which is made up of transponders. A transponder is capable of :
+* Receiving [[uplink]]ed radio signals from earth satellite transmission stations (antennas).
+* Amplifying received radio signals
+* Sorting the input signals and directing the output signals through input/output signal [[multiplexer]]s to the proper [[downlink]] antennas for retransmission to earth satellite receiving stations (antennas).
+
+==End of life==
+When satellites reach the end of their mission (this normally occurs within 3 or 4 years after launch), satellite operators have the option of de-orbiting the satellite, leaving the satellite in its current orbit or moving the satellite to a [[graveyard orbit]]. Historically, due to budgetary constraints at the beginning of satellite missions, satellites were rarely designed to be de-orbited. One example of this practice is the satellite [[Vanguard 1]]. Launched in 1958, [[Vanguard 1]], the 4th manmade satellite put in Geocentric orbit, was still in orbit {{as of|lc=y|2015|03}}, as well as the upper stage of its launch rocket.<ref name=ha20130921a>{{cite web |title=Vanguard 1 – Satellite Information |url=http://www.heavens-above.com/SatInfo.aspx?satid=5&lat=0&lng=0&loc=Unspecified&alt=0&tz=UCT |work=Satellite database |publisher=Heavens-Above |accessdate=2015-03-07 }}</ref><ref name=ha20130921b>{{cite web |title=Vanguard 1 Rocket – Satellite Information |url=http://www.heavens-above.com/SatInfo.aspx?satid=16&lat=0&lng=0&loc=Unspecified&alt=0&tz=UCT |work=Satellite database |publisher=Heavens-Above |accessdate=2015-03-07 }}</ref>
+
+Instead of being de-orbited, most satellites are either left in their current orbit or moved to a [[graveyard orbit]].<ref>
+{{cite web
+| url=http://www.tethers.com/OrbitalDebris.html
+| title=Conventional Disposal Method: Rockets and Graveyard Orbits | website=
+| publisher=Tethers | date=}}</ref> As of 2002, the FCC requires all geostationary satellites to commit to moving to a graveyard orbit at the end of their operational life prior to launch.<ref>{{cite web|url=http://www.space.com/spacenews/businessmonday_040628.html |title=FCC Enters Orbital Debris Debate |website= |publisher=Space.com |date= |deadurl=yes |archiveurl=https://web.archive.org/web/20090724183455/http://www.space.com/spacenews/businessmonday_040628.html |archivedate=2009-07-24}}</ref> In cases of uncontrolled de-orbiting, the major variable is the [[solar flux]], and the minor variables the components and form factors of the satellite itself, and the gravitational perturbations generated by the Sun and the Moon (as well as those exercised by large mountain ranges, whether above or below sea level). The nominal breakup altitude due to aerodynamic forces and temperatures is 78&nbsp;km, with a range between 72 and 84&nbsp;km. Solar panels, however, are destroyed before any other component at altitudes between 90 and 95&nbsp;km.<ref>{{cite web | url=http://www.satview.org/spacejunk.php?sat_id=34602U | title=Object SL-8 R/B – 29659U – 06060B | work=Forecast for Space Junk Reentry | publisher=Satview | date=11 March 2014}}</ref>
+
+==Launch-capable countries==
+{{Main|Timeline of first orbital launches by nationality}}
+
+This list includes countries with an independent capability to place satellites in orbit, including production of the necessary launch vehicle. Note: many more countries have the capability to design and build satellites but are unable to launch them, instead relying on foreign launch services. This list does not consider those numerous countries, but only lists those capable of launching satellites indigenously, and the date this capability was first demonstrated. The list does not include the [[European Space Agency]], a multi-national state organization, nor private consortiums.
+
+<br />
+{| class="sortable wikitable"
+|+ First launch by country
+|- style="background:#efefef;"
+!Order
+! Country || Date of first launch || Rocket || Satellite(s)
+|-
+| scope="row" | 1
+|align="left"| {{flag|Soviet Union}} || 4 October 1957 || [[Sputnik (rocket)|Sputnik-PS]] || [[Sputnik 1]]
+|-
+| scope="row" | 2
+|align="left"| {{flag|United States}} || 1 February 1958<!--UTC--> || [[Juno I]] || [[Explorer 1]]
+|-
+| scope="row" | 3
+|align="left"| {{flag|France}} || 26 November 1965 || [[Diamant|Diamant-A]] || [[Astérix (satellite)|Astérix]]
+|-
+| scope="row" | 4
+|align="left"| {{flag|Japan}} || 11 February 1970 || [[Lambda (rocket)|Lambda-4S]] || [[Ohsumi (satellite)|Ohsumi]]
+|-
+| scope="row" | 5
+|align="left"| {{flag|China}} || 24 April 1970 || [[Long March 1]] || [[Dong Fang Hong I]]
+|-
+| scope="row" | 6
+| align="left" | {{flag|United Kingdom}}|| 28 October 1971 ||[[Black Arrow]]||[[Prospero (satellite)|Prospero]]
+|-
+| scope="row" | 7
+| align="left" | {{flag|India}}|| 18 July 1980 ||[[Satellite Launch Vehicle|SLV]]||[[Rohini (satellite)|Rohini D1]]
+|-
+| scope="row" | 8
+| align="left" | {{flag|Israel}}|| 19 September 1988 ||[[Shavit]]||[[Ofeq|Ofeq 1]]
+|-
+| scope="row" | - {{Ref label|RUS-UKR|1|}}
+| align="left" | {{flag|Russia}}|| 21 January 1992 ||[[Soyuz-U]]||[[Kosmos 2175]]
+|-
+| scope="row" | - {{Ref label|RUS-UKR|1|}}
+| align="left" | {{flag|Ukraine}}|| 13 July 1992 ||[[Tsyklon-3]]||[[Strela (satellite)|Strela]]
+|-
+| scope="row" | 9
+| align="left" | {{flag|Iran}}|| 2 February 2009 ||[[Safir (rocket)|Safir-1]]||[[Omid (satellite)|Omid]]
+|-
+| scope="row" | 10
+| align="left" | {{flag|North Korea}}|| 12 December 2012 ||[[Unha-3]]||[[Kwangmyŏngsŏng-3 Unit 2]]
+|-
+| scope="row" | 11
+| align="left" | {{flag|South Korea}}|| 30 January 2013 ||[[Naro-1]]||[[STSAT-2C]]
+|-
+| scope="row" | 12
+| align="left" | {{flag|New Zealand}}|| 12 November 2018 ||[[Electron (rocket)|Electron]]||[[CubeSat]]
+|-
+|}
+<!-- Please do not add Italy, Australia and Bangladesh (they used US launchers) South Korea (used modified Russian rocket), Kazakhstan (provides spaceport for Russian and Ukrainian launcher) and do not delete France, UK, Ukraine. Also, do not make changes to the orders OR do not add numbers under "Order" for Ukraine or Russia - see below, and on talk page, and article Timeline of first orbital launches by country for details. -->
+
+===Attempted first launches===
+{{Expand section|date=May 2012}}
+* The [[United States]] tried in 1957 to launch the first satellite using its own launcher before successfully completing a launch in 1958.
+* [[Japan]] tried four times in 1966–1969 to launch a satellite with its own launcher before successfully completing a launch in 1970.
+* [[China]] tried in 1969 to launch the first satellite using its own launcher before successfully completing a launch in 1970.
+* [[India]], after launching its first national satellite using a foreign launcher in 1975, tried in 1979 to launch the first satellite using its own launcher before succeeding in 1980.
+* [[Iraq]] have claimed an orbital launch of a warhead in 1989, but this claim was later disproved.{{#tag:ref|The video tape of a partial launch attempt which was retrieved by [[United Nations Special Commission|UN weapons inspectors]] later surfaced showing that the rocket prematurely exploded 45 seconds after its launch.<ref>{{cite web | url=http://www.thespacereview.com/archive/1498.pdf | format=PDF | title=UNMOVIC report | publisher=United Nations Monitoring, Verification and Inspection Commission | date= | page=434 ff}}</ref><ref>{{cite web | url=https://fas.org/nuke/guide/iraq/deception.htm| title=Deception Activities – Iraq Special Weapons | website= | publisher=FAS | date= | deadurl=yes | archiveurl=https://web.archive.org/web/19990422131634/https://fas.org/nuke/guide/iraq/deception.htm| archivedate=22 April 1999}}</ref><ref>{{cite web | url=http://www.b14643.de/Spacerockets_1/Rest_World/Al_Abid/Description/Frame.htm | title=Al-Abid LV | website= | publisher= | date=}}</ref>}}
+* [[Brazil]], after launching its first national satellite using a foreign launcher in 1985, tried to launch a satellite using its own [[VLS 1]] launcher three times in 1997, 1999, and 2003, but all attempts were unsuccessful.
+* [[North Korea]] claimed a launch of [[Kwangmyŏngsŏng-1]] and [[Kwangmyŏngsŏng-2]] satellites in 1998 and 2009, but U.S., Russian and other officials and weapons experts later reported that the rockets failed to send a satellite into orbit, if that was the goal. The United States, Japan and South Korea believe this was actually a [[ballistic missile]] test, which was a claim also made after North Korea's 1998 satellite launch, and later rejected.{{by whom|date=April 2013}} The first (April 2012) launch of [[Kwangmyŏngsŏng-3]] was unsuccessful, a fact publicly recognized by the DPRK. However, the December 2012 launch of the "second version" of [[Kwangmyŏngsŏng-3]] was successful, putting the DPRK's first confirmed satellite into orbit.
+* [[South Korea]] ([[Korea Aerospace Research Institute]]), after launching their first national satellite by foreign launcher in 1992, unsuccessfully tried to launch its own launcher, the [[Korea Space Launch Vehicle|KSLV (Naro)-1]], (created with the assistance of Russia) in 2009 and 2010 until success was achieved in 2013 by Naro-3.
+* The First European multi-national state organization [[European Launcher Development Organisation|ELDO]] tried to make the orbital launches at [[Europa (rocket)|Europa I and Europa II]] rockets in 1968–1970 and 1971 but stopped operation after failures.
+
+===Other notes===
+* {{note|RUS-UKR}} [[Russia]] and the [[Ukraine]] were parts of the Soviet Union and thus inherited their launch capability without the need to develop it indigenously. Through the Soviet Union they are also on the number one position in this list of accomplishments.
+* [[France]], the [[United Kingdom]], and Ukraine launched their first satellites by own launchers from foreign [[spaceport]]s.
+* Some countries such as [[South Africa]], [[Spain]], [[Italy]], [[Germany]], [[Canada]], [[Australia]], [[Argentina]], [[Egypt]] and private companies such as [[OTRAG]], have developed their own launchers, but have not had a successful launch.
+* Only twelve, countries from the list below (USSR, USA, France, Japan, China, UK, India, Russia, Ukraine, Israel, Iran and North Korea) and one regional organization (the [[European Space Agency]], ESA) have independently launched satellites on their own indigenously developed launch vehicles.
+* Several other countries, including [[Brazil]], [[Argentina]], [[Pakistan]], [[Romania]], [[Taiwan]], [[Indonesia]], [[Australia]], [[Malaysia]], [[Turkey]] and [[Switzerland]]<!--SOAR unmanned mini-shuttle launcher from airliner--> are at various stages of development of their own small-scale launcher capabilities.
+
+===Launch capable private entities===
+* Private firm [[Orbital Sciences Corporation]], with launches since 1982, continues very successful launches of its Minotaur, Pegasus, Taurus and Antares rocket programs.
+* On 28 September 2008, late comer and private aerospace firm [[SpaceX]] successfully launched its Falcon 1 rocket into orbit. This marked the first time that a privately built liquid-fueled booster was able to reach orbit.<ref name="malik">{{cite web | title=SpaceX Successfully Launches Falcon 1 Rocket Into Orbit | url=http://www.space.com/missionlaunches/080928-spacex-falcon1-fourthtest.html | first=Tariq | last=Malik | website= | publisher=[[Space.com]] | date=28 September 2008}}</ref> The rocket carried a prism shaped 1.5&nbsp;m (5&nbsp;ft) long payload mass simulator that was set into orbit. The dummy satellite, known as Ratsat, will remain in orbit for between five and ten years before burning up in the atmosphere.<ref name="malik"/>
+A few other [[List of private spaceflight companies|private companies]] are capable of [[sub-orbital]] launches.
+
+==First satellites of countries==
+{{main|Timeline of first satellites by country}}
+{| class="sortable wikitable"
+|+ First satellites of countries including those launched indigenously or with the help of others<ref>{{cite web | title=First time in History | url=http://www.tbs-satellite.com/tse/online/thema_first.html | work=The Satellite Encyclopedia | date= | accessdate=6 March 2008}}</ref>
+|- style="background:#efefef;"
+! Country || Year of first launch || First satellite || Operational payloads in orbit as of July 2018
+|-
+|align="left"| {{flag|Soviet Union}} <br /> ({{flag|Russia}}) || 1957 <br /> (1992)|| [[Sputnik 1]] <br /> ([[Kosmos 2175]]) || 1507
+|-
+|align="left"| {{flag|United States}} || 1958 || [[Explorer 1]] || 1619
+|-
+|align="left"| {{flag|United Kingdom}} || 1962 || [[Ariel 1]] || <span style="display:none">00</span>43
+|-
+|align="left"| {{flag|Canada|1962}} || 1962 || [[Alouette 1]] || <span style="display:none">00</span>48
+|-
+|align="left"| {{flag|Italy}} || 1964 || [[San Marco 1]] || <span style="display:none">00</span>27
+|-
+|align="left"| {{flag|France}} || 1965 || [[Astérix (satellite)|Astérix]] || <span style="display:none">00</span>68
+|-
+|align="left"| {{flag|Australia}} || 1967 || [[WRESAT]] || <span style="display:none">00</span>21
+|-
+|align="left"| {{flag|Germany}} || 1969 || [[Azur (satellite)|Azur]] || <span style="display:none">00</span>54
+|-
+|align="left"| {{flag|Japan}} || 1970 || [[Ohsumi (satellite)|Ohsumi]] || <span style="display:none">0</span>173
+|-
+|align="left"| {{flag|China}} || 1970 || [[Dong Fang Hong I]] || <span style="display:none">0</span>312
+|-
+|align="left"| {{flag|Netherlands}} || 1974 || [[Astronomical Netherlands Satellite|ANS]] || <span style="display:none">000</span>6
+|-
+|align="left"| {{flag|Spain}} || 1974 || [[Intasat]] || <span style="display:none">000</span>24
+|-
+|align="left"| {{flag|India}} || 1975 || [[Aryabhata (satellite)|Aryabhata]] || <span style="display:none">00</span>88
+|-
+|align="left"| {{flag|Indonesia}} || 1976 || [[Palapa#Series A|Palapa A1]] || 16
+|-
+|align="left"| {{flag|Czechoslovakia}}|| 1978 || [[Magion (satellites)|Magion]] [[Magion 1|1]] || 2
+|-
+|align="left"| {{flag|Bulgaria}} || 1981 || [[Bulgaria 1300|Intercosmos Bulgaria 1300]] || <span style="display:none">000</span>1
+|-
+|align="left"| {{flag|Saudi Arabia}} || 1985 || [[Arabsat-1A]] || <span style="display:none">00</span>13
+|-
+|align="left"| {{flag|Brazil}} || 1985 || [[Brasilsat-A1]] || <span style="display:none">00</span>17
+|-
+|align="left"| {{flag|Mexico}} || 1985 || [[Morelos 1]] || 12
+|-
+|align="left"| {{flag|Sweden}} || 1986 || [[Viking (satellite)|Viking]] || <span style="display:none">00</span>12
+|-
+|align="left"| {{flag|Israel}} || 1988 || [[Ofeq|Ofeq 1]] || <span style="display:none">000</span>17
+|-
+|align="left"| {{flag|Luxembourg}} || 1988 || [[Astra 1A]] || 4
+|-
+|align="left"| {{flag|Argentina}} || 1990 || [[Lusat]]<ref>The first satellite built by Argentina, [[Arsat 1]], was launched later in 2014</ref> || 19
+|-
+|align="left"| {{flag|Hong Kong|1959}} || 1990 || [[AsiaSat 1]] || <span style="display:none">000</span>9
+|-
+|align="left"| {{flag|Pakistan}} || 1990 || [[Badr-1]] || 6
+|-
+|align="left"| {{flag|South Korea}} || 1992 || [[Kitsat A]] || 24
+|-
+|align="left"| {{flag|Portugal}} || 1993 || [[PoSAT-1]] || 2
+|-
+|align="left"| {{flag|Thailand}} || 1993 || [[Thaicom|Thaicom 1]] || 9
+|-
+|align="left"| {{flag|Turkey}} || 1994 || [[Turksat 1B]] || 15
+|-
+|align="left"| {{flag|Czech Republic}}|| 1995 || [[Magion (satellites)|Magion]] [[Magion 4|4]] || 3
+|-
+|align="left"| {{flag|Ukraine}} || 1995 || [[Sich-1]] || <span style="display:none">000</span>6
+|-
+|align="left"| {{flag|Malaysia}} || 1996 || [[MEASAT]] || 7
+|-
+|align="left"| {{flag|Norway}} || 1997 || [[Thor (satellite)|Thor 2]] || 9
+|-
+|align="left"| {{flag|Philippines}} || 1997 || [[Agila 2|Mabuhay 1]] || <span style="display:none">000</span>2
+|-
+|align="left"| {{flag|Egypt}} || 1998 || [[Nilesat 101]] || 5
+|-
+|align="left"| {{flag|Chile}} || 1998 || [[FASat-Alfa|FASat-Bravo]] || 3
+|-
+|align="left"| {{flag|Singapore}} || 1998 || [[ST-1]]<ref>The first satellite built by Singapore, [[X-Sat]], was launched aboard a [[PSLV]] rocket later on 20 April 2011</ref><ref>{{cite news | last=T.S. | first=Subramanian | title=PSLV-C16 puts 3 satellites in orbit | url=http://www.thehindu.com/news/national/article1711767.ece | newspaper=The Hindu | date=20 April 2011 | location=Chennai, India}}</ref> || 10
+|-
+|align="left"| {{flag|Taiwan}} || 1999 || [[ROCSAT-1]] || 10
+|-
+|align="left"| {{flag|Denmark}} || 1999 || [[Ørsted (satellite)|Ørsted]] || 9
+|-
+|align="left"| {{flag|South Africa}} || 1999|| [[SUNSAT]] || 6
+|-
+|align="left"| {{nobr|{{flag|United Arab Emirates}}}} || 2000||[[Thuraya|Thuraya 1]] || 9
+|-
+|align="left"| {{flag|Morocco}} || 2001 || [[Maroc-Tubsat]] || <span style="display:none">000</span>1
+|-
+|align="left"| {{flag|Belgium}} || 2001 || [[PROBA]]-1 ||0
+|-
+|align="left"| ''{{flag|Tonga}}''<ref>[[Esiafi 1|Esiafi 1 (former private American Comstar D4)]] satellite was transferred to Tonga being at orbit after launch in 1981</ref> || 2002 || [[Esiafi 1|Esiafi 1 (former Comstar D4)]] || 0
+|-
+|align="left"| {{flag|Algeria}} || 2002 || [[Alsat 1]] || 6
+|-
+|align="left"| {{flag|Greece}} || 2003 || [[Hellas Sat 2]] || 4
+|-
+|align="left"| {{flag|Cyprus}} || 2003 || [[Hellas Sat 2]] || 0
+|-
+|align="left"| {{flag|Nigeria}} || 2003 || [[Nigeriasat 1]] || 6
+|-
+|align="left"| {{flag|Iran}} || 2005 || [[Sina-1]] || <span style="display:none">000</span>1
+|-
+|align="left"| {{flag|Kazakhstan}} || 2006 || [[KazSat|KazSat 1]] || 6
+|-
+|align="left"| {{flag|Colombia}} || 2007 || [[Libertad 1]] || 0
+|-
+|align="left"| {{flag|Mauritius}} || 2007 || [[Rascom-QAF 1]] || 0
+|-
+|align="left"| {{flag|Vietnam}} || 2008 || [[Vinasat-1]] || <span style="display:none">000</span>3
+|-
+|align="left"| {{flag|Venezuela}} || 2008 || [[Venesat-1]] || 3
+|-
+|align="left"| {{flag|Switzerland}} || 2009 || [[SwissCube-1]]<ref>{{cite web | url=http://www.swissinfo.ch/eng/front/India_launches_Switzerland_s_first_satellite.html?siteSect=105&sid=11253287&rss=true&ty=st&ref=ti_spa | title=India launches Switzerland's first satellite | last= | first= | website= | publisher=Swiss Info | date=23 September 2009 }}</ref> || 0
+|-
+|align="left"| {{flag|Isle of Man}} || 2011 || [[ViaSat-1]] || <span style="display:none">000</span>1
+|-
+|align="left"| {{flag|Poland}}<ref>In a difference of first full [[Bulgaria]]n [[Bulgaria 1300|Intercosmos Bulgaria 1300]] satellite, [[Poland]]'s near first satellite, [[Intercosmos Copernicus 500]] in 1973, were constructed and owned in cooperation with [[Soviet Union]] under the same [[Interkosmos]] program.
+</ref>|| 2012 || [[PW-Sat]] || <span style="display:none">0000</span>4
+|-
+|an="left"| {{flag|Hungary}} || 2012 || [[MaSat-1]] || <span style="display:none">000</span>0
+|-
+|align="left"| {{flag|Sri Lanka}} || 2012 || [[SupremeSAT]]-1 || 1
+|-
+|align="left"| {{flag|Romania}} || 2012 || [[Goliat]]<ref>{{cite web | url=http://english.hotnews.ro/stiri-top_news-11498074-video-romania-39-first-satellite-goliat-successfully-launch-from-kourou-base-french-guyana.htm | title=First Romanian satellite Goliat successfully launched | website= | publisher= | date= 2012-02-13}}</ref> || 0
+|-
+|align="left"| {{flag|Belarus}} || 2012 || [[BelKA-2|BKA (BelKA-2)]]<ref>{{cite web|url=http://space.skyrocket.de/doc_sdat/belka-2.htm|title=BKA (BelKa 2)|work=skyrocket.de}}</ref> || 2
+|- <!--
+SupremeSAT-I is a payload hosted on a Chinese satellite, not a satellite in its own right. It should not be included in the list
+ -->
+|align="left"| {{flag|North Korea}} || 2012 || [[Kwangmyŏngsŏng-3 Unit 2]] || 2
+|-
+|align="left"| {{flag|Azerbaijan}} || 2013 || [[Azerspace]]<ref>{{cite web | url=http://en.apa.az/news_azerbaijan_s_first_telecommunications_sa_187459.html | title=Azerbaijan's first telecommunications satellite launched to orbit | website= | publisher=APA | date= }}</ref> || 1
+|-
+|align="left"| {{flag|Austria}} || 2013 || [[TUGSAT-1]]/[[UniBRITE]]<ref>[[Austria]]'s first two satellites, [[TUGSAT-1]] and [[UniBRITE]], were launched together aboard the same carrier rocket in 2013. Both were based on the Canadian [[Generic Nanosatellite Bus]] design, however TUGSAT was assembled by Austrian engineers at [[Graz University of Technology]] while UniBRITE was built by the [[University of Toronto Institute for Aerospace Studies]] for the [[University of Vienna]].</ref><ref>{{cite web|url=https://www.utias-sfl.net/SpecialProjects/LaunchIndex.html |title=Nanosatellite Launch Service |website= |publisher=University of Toronto Institute for Aerospace Studies |date= |deadurl=yes |archiveurl=https://web.archive.org/web/20130310015033/http://www.utias-sfl.net/SpecialProjects/LaunchIndex.html |archivedate=10 March 2013 |accessdate=2 March 2013}}</ref> || 0
+|-
+|align="left"| ''{{flag|Bermuda}}''<ref>[[EchoStar VI|Bermudasat 1 (former private American EchoStar VI)]] satellite was transferred to Bermuda being at orbit after launch in 2000</ref> || 2013 || [[EchoStar VI|Bermudasat 1 (former EchoStar VI)]] || 0
+|-
+|align="left"| {{flag|Ecuador}} || 2013 || [[NEE-01 Pegaso]] || 2
+|-
+|align="left"| {{flag|Estonia}} || 2013 || [[ESTCube-1]] || 1
+|-
+|align="left"| {{flag|Jersey}} || 2013 || [[O3b (satellite)|O3b-1, -2, -3, -4]] || 0
+|-
+|align="left"| {{flag|Qatar}} || 2013 || [[Es'hailSat1]] || 0
+|-
+|align="left"| {{flag|Peru}} || 2013 || [[PUCPSAT-1]]<ref>{{cite web | title=PUCP-SAT-1 Deploys POCKET-PUCP Femtosatellite | url=http://amsat-uk.org/2013/12/14/pucp-sat-1-deploys-pocket-pucp-femtosatellite/| website= | publisher=AMSAT-UK | date= 2013-12-14| accessdate=2013-12-20 }}</ref> || 2
+|-
+|align="left"| {{flag|Bolivia}} || 2013 || [[TKSat-1]] || 1
+|-
+|align="left"| {{flag|Lithuania}} || 2014 || [[LituanicaSAT-1]] and [[LitSat-1]] || 1
+|-
+|align="left"| {{flag|Uruguay}} || 2014 || [[Antelsat]] || 1
+|-
+|align="left"| {{flag|Iraq}} || 2014 || [[Tigrisat]]<ref>Italian built (by [[Sapienza University of Rome|La Sapienza]]) first Iraqi small experimental Earth observation cubesat-satellite [[Tigrisat]] [http://mawtani.al-shorfa.com/en_GB/articles/iii/features/2012/09/12/feature-01 Iraq to launch its first satellite before the end of 2013] launched in 2014 [http://www.gaussteam.com/unisat-6-cubesat-release-accomplished] [http://www.iraqinews.com/features/iraq-launches-first-satellite-tigrisat/ Iraq launches its first satellite – TigriSat] prior to ordered abroad also for $50 million the first national large communication satellite near 2015.[http://www.dinarrecaps.com/5/post/2012/05/iraq-launching-the-first-satellite-into-space-at-a-cost-of-50-million.html Iraq launching the first satellite into space at a cost of $ 50 million] [http://www.bondladyscorner.com/t43209-iraqi-first-satellite-into-space-in-2015-10052012#69052 Iraqi first satellite into space in 2015] {{webarchive|url=https://web.archive.org/web/20120915083859/http://mawtani.al-shorfa.com/en_GB/articles/iii/features/2012/09/12/feature-01|date=15 September 2012}}</ref> || 0
+|-
+|align="left"| {{flag|Turkmenistan}} || 2015 || [[TurkmenAlem52E/MonacoSAT]] || 1
+|-
+|align="left"| {{flag|Laos}} || 2015 || [[Laosat-1]] || 1
+|-
+|align="left"| {{flag|Finland}} || 2017 || [[Aalto-2]] || 1
+|-
+|align="left"| {{flag|Bangladesh}} || 2017 ||[[BRAC Onnesha]] and [[Bangabandhu-1]] || 2
+|-
+|align="left"| {{flag|Ghana}} || 2017 || [[GhanaSat-1]]<ref name="Ghana">{{cite news |title=Ghana launches its first satellite into space |url=https://www.bbc.com/news/world-africa-40538471 |website=BBC News |publisher=BBC |archivedate=8 July 2017 |archiveurl=https://web.archive.org/web/20170708075730/http://www.bbc.com/news/world-africa-40538471 |language=English |deadurl=no |accessdate=8 July 2017|date=2017-07-07 }}</ref> || 1
+|-
+|align="left"| {{flag|Mongolia}} || 2017 || [[Mazaalai (satellite)|Mazaalai]] || 1
+|-
+|align="left"| {{flag|Latvia}} || 2017 || [[Venta-1]] || 1
+|-
+|align="left"| {{flag|Slovakia}} || 2017 || [[skCUBE]] || 1
+|-
+|align="left"| [[Asgardia (nation)|Asgardia]] || 2017 || [[Asgardia-1]] || 1
+|-
+|align="left"| {{flag|Angola}} || 2017 || [[AngoSat 1]] || 1
+|-
+|align="left"| {{flag|New Zealand}} || 2018 || [[Humanity Star]] || 1
+|-
+|align="left"| {{flag|Costa Rica}} || 2018 || [[Proyecto Irazú]] || 1
+|-
+|align="left"| {{flag|Kenya}} || 2018 || [[1KUNS-PF]] || 1
+|-
+|align="left"| {{flag|Bhutan}} || 2018 || CubeSat Bhutan-1<ref>{{Cite web | url=http://www.bbs.bt/news/?p=98870 | title=Bhutan's maiden satellite on its way to space| date=2018-06-30}}</ref> || 1
+|-
+|align="left"| {{flag|Jordan}} || 2018 || [[JY1-SAT]] || 1
+|}
+
+[[File:Space capabilities - launch and satellite.png|thumb|upright=1.35|
+{{legend|#007F00|[[Timeline of first orbital launches by country|orbital launch]] and satellite operation}}
+{{legend|#00FF00|satellite operation, launched by foreign supplier}}
+{{legend|#FF8040|satellite in development}}
+{{legend|#FF0000|[[Comparison of small lift launch systems|orbital launch]] project at advanced stage or indigenous [[ballistic missile]]s deployed}}]]
+
+While Canada was the third country to build a satellite which was launched into space,<ref>{{cite book |title=Space Programs Outside the United States |first=Daphne |last=Burleson | publisher=[[McFarland & Company]] |page=43 |year=2005 |isbn=978-0-7864-1852-7}}</ref> it was launched aboard an [[United States|American]] rocket from an American spaceport. The same goes for Australia, who launched first satellite involved a donated U.S. [[PGM-11 Redstone|Redstone]] rocket and American support staff as well as a joint launch facility with the [[United Kingdom of Great Britain and Northern Ireland|United Kingdom]].<ref>{{cite book | title=Blazing the Trail | author=[[Mike Gruntman]] | page=426 | isbn=978-1-56347-705-8 | year=2004 | publisher=[[American Institute of Aeronautics and Astronautics]] }}</ref> The first Italian satellite [[San Marco 1]] launched on 15 December 1964 on a U.S. [[Scout rocket]] from [[Wallops Island]] (Virginia, United States) with an Italian launch team trained by [[NASA]].<ref>{{cite book | title=Europe's Space Programme |page=114 | first=Brian |last=Harvey |year=2003 |publisher=[[Springer Science+Business Media]] | isbn=978-1-85233-722-3 }}</ref> By similar occasions, almost all further first national satellites was launched by foreign rockets.
+
+===Attempted first satellites===
+* {{flag|United States}} tried unsuccessfully to launch its first satellite in 1957; they were successful in 1958.
+* {{flag|China}} tried unsuccessfully to launch its first satellite in 1969; they were successful in 1970.
+* {{flag|Iraq|}} under [[Saddam Hussein]] fulfilled in 1989 an unconfirmed launch of warhead on orbit by developed Iraqi vehicle that intended to put later the 75&nbsp;kg first national satellite Al-Ta’ir, also developed.<ref>{{cite web | url=http://www.thespacereview.com/article/1839/1 | title=Iraqi bird: Beyond Saddam's space program | first=Dwayne A. | last=Day | work=The Space Review | publisher= | date=9 May 2011 }}</ref><ref>{{cite web | url=http://www.unhcr.org/refworld/country,,IRBC,,IRQ,,3f7d4db126,0.html | archive-url=https://archive.is/20130416030817/http://www.unhcr.org/refworld/country,,IRBC,,IRQ,,3f7d4db126,0.html | dead-url=yes | archive-date=16 April 2013 | title=Iraq: Whether it is legal to purchase and own satellite dishes in Iraq, and the sanction for owning satellite dishes if it is illegal | last= | first= | website= | publisher=United Nations High Commissioner for Refugees | date= }}</ref>
+* {{flag|Chile}} tried unsuccessfully in 1995 to launch its first satellite [[FASat-Alfa]] by foreign rocket; in 1998 they were successful.†
+* {{flag|North Korea}} has tried in 1998, 2009, 2012 to launch satellites, first successful launch on 12 December 2012.<ref>{{cite news | url=http://www.msnbc.msn.com/id/50167891/ns/technology_and_science-space/ | title=North Korea says it successfully launched controversial satellite into orbit | publisher=[[MSNBC]] | date=12 December 2012 }}</ref>
+* {{flag|Libya|1977}} since 1996 developed its own national [[Libsat]] satellite project with the goal of providing telecommunication and remote sensing services<ref>{{cite web|url=http://www.libsat.ly/index.php|title=Libsat – Libyan Satellite Project|author=Wissam Said Idrissi|work=libsat.ly}}</ref> that was postponed after the fall of [[Gaddafi]].
+* {{flag|Belarus}} tried unsuccessfully in 2006 to launch its first satellite [[BelKA]] by foreign rocket.†
+†-note: Both Chile and Belarus used Russian companies as principal contractors to build their satellites, they used Russian-Ukrainian manufactured rockets and launched either from Russia or Kazakhstan.
+{{Expand section|date=January 2015}}
+
+===Planned first satellites===
+* {{flagcountry|AFG}} announced in April 2012 that it is planning to launch its first communications satellite to the orbital slot it has been awarded. The satellite [[Afghansat]] 1 was expected to be obtained by a [[Eutelsat]] commercial company in 2014.<ref>{{cite news | url=https://www.theguardian.com/world/2012/apr/09/afghanistan-satellite | title=Afghanistan announces satellite tender | last= Graham-Harrison| first= Emma| work=The Guardian | date=9 April 2012 | location=London}}</ref><ref>{{cite web|url=http://www.khaama.com/afghanistan-deploys-its-first-satellite-into-orbit-by-february-2732|title=Afghanistan deploys its first satellite into orbit by February|work=khaama.com|date=2014-01-29}}</ref>
+* {{flagcountry|Armenia}} in 2012 founded [[Armcosmos]] company<ref>{{cite web|url=http://telecom.arka.am/en/news/technique/satellite_department_to_be_set_up_in_armenia_s_national_telecommunication_center/|title=Satellite department to be set up in Armenia's national telecommunication center|work=arka.am}}</ref> and announced an intention to have the first telecommunication satellite [[ArmSat]]. The investments estimates as $250&nbsp;million and country selecting the contractor for building within 4 years the satellite amongst Russia, China and Canada<ref>{{cite web|url=http://asbarez.com/112629/canadas-mda-ready-to-help-armenia-launch-first-comsat/|title=Canada's MDA Ready to Help Armenia Launch First Comsat|work=Asbarez News|date=2013-08-09}}</ref><ref>{{cite web|url=http://sputniknews.com/science/20130622/181813052/Armenia-to-Launch-Its-First-Satellite.html|title=Armenia to Launch Its First Satellite|date=22 June 2013|work=sputniknews.com}}</ref><ref>{{cite web|url=http://arka.am/en/news/technology/china_keen_on_armenian_satellite_launch_project/|title=China keen on Armenian satellite launch project|work=arka.am}}</ref>
+* {{flagcountry|Cambodia}}'s Royal Group plans to purchase for $250–350&nbsp;million and launch in the beginning of 2013 the telecommunication satellite.<ref>{{cite web | url=http://4infos.blogspot.com/2011/04/royal-group-receives-right-to-launch.html | title=Royal Group receives right to launch first Cambodia satellite | last= | first= | website= | publisher= | date=19 April 2011 }}</ref>
+* {{flagcountry|Cayman Islands}}'s [[Global IP Cayman]] private company plans to launch [[GiSAT-1]] geostationary communications satellite in 2018.
+* {{flagcountry|Congo, Democratic Republic of}} ordered at November 2012 in China ([[China Academy of Space Technology|Academy of Space Technology (CAST)]] and [[Great Wall Industry Corporation|Great Wall Industry Corporation (CGWIC)]]) the first telecommunication satellite [[CongoSat]]-1 which will be built on [[DFH-4]] [[satellite bus]] platform and will be launched in China till the end of 2015.<ref>{{cite web|url=http://usa.chinadaily.com.cn/china/2012-11/18/content_15938787.htm|title=China to launch second African satellite-Science-Tech-chinadaily.com.cn|work=chinadaily.com.cn}}</ref>
+* {{flagcountry|Croatia}} has a goal to construct a satellite by 2013–2014. Launch into Earth orbit would be done by a foreign provider.<ref name="CroatianSpace">{{cite web | url=http://www.astronautika.com/vremenik | title=Vremenik | last= | first= | website= | publisher=Astronautica | date= }}</ref>
+* {{flagcountry|Ethiopia}}n Space Science Society<ref>{{cite web|url=http://www.ethiosss.org.et/index.php/en/ |title=ESSS |work=ethiosss.org.et |deadurl=yes |archiveurl=https://web.archive.org/web/20150103052723/http://www.ethiosss.org.et/index.php/en/ |archivedate=3 January 2015}}</ref> planning the QB50-family research CubeSat [[ET-SAT]] by help of Belgian [[Von Karman Institute]] till 2015<ref>{{cite web|url=http://www.ethioabay.com/2013/02/ethiopia-to-design-and-construct-first.html|title=Ethiopia to design and construct first Satellite|work=ethioabay.com}}</ref> and the small (20–25&nbsp;kg) Earth observation and remote sensing satellite [[Ethosat 1]] by help of Finnish Space Technology and Science Group till 2019.<ref>{{cite web|url=http://www.spacetsg.com/index.php/news/134-space-technology-and-science-group-finland-stsg-oy-to-design-develop-and-launch-first-ethiopian-research-satellite-ethosat1 |title=Space Technology and Science Group Oy – Finland (STSG Oy) to design, develop and launch first Ethiopian research satellite – ETHOSAT1 |author=Kasia Augustyniak |work=spacetsg.com |deadurl=yes |archiveurl=https://web.archive.org/web/20150403115213/http://www.spacetsg.com/index.php/news/134-space-technology-and-science-group-finland-stsg-oy-to-design-develop-and-launch-first-ethiopian-research-satellite-ethosat1 |archivedate=3 April 2015}}</ref>
+* {{flagcountry|Ireland}}'s team of [[Dublin Institute of Technology]] intends to launch the first Irish satellite within European University program CubeSat QB50.<ref>{{cite news | url=http://www.independent.ie/irish-news/students-hope-to-launch-first-ever-irish-satellite-26838594.html | title=Students hope to launch first ever Irish satellite | first=Allison | last=Bray | work=The Independent | location=Ireland | publisher= | date=1 December 2012}}</ref>
+* {{flagcountry|Jordan}}'s first satellite to be the private amateur [[pocketqube]] SunewnewSat.<ref>{{cite web|url=https://www.behance.net/gallery/21688567/Sunewnew%7ctitle=Behance%7cwork=behance.net|title=Behance|publisher=|accessdate=25 June 2015}}</ref><ref>{{cite web|url=http://www.pocketqubeshop.com/meet-the-pocketqube-team-sunewnewsat/|title=Meet the PocketQube team: Sunewnewsat|work=PocketQube Shop}}</ref><ref>[http://www.pocketqubeshop.com/blogs/news/13589310-meet-the-pocketqube-team-sunewnewsat Team Interview] {{webarchive |url=https://web.archive.org/web/20140819083716/http://www.pocketqubeshop.com/blogs/news/13589310-meet-the-pocketqube-team-sunewnewsat |date=19 August 2014}}</ref>
+<!-- need to Venta-1 page
+* {{flagcountry|Latvia}}'s the 5 kg nano-satellite [[:lv:Venta-1|Venta-1]] is built in Latvia in cooperation with the German engineers. The data received from satellite will be received and processed in Irbene radioastronomical centre (Latvia); satellite will have software defined radio capabilities. "Venta-1" will serve mainly as a means for education in Ventspils University College with additional functions, including an automatic system of identification of the ships of a sailing charter developed by OHB-System AG. The launch of the satellite was planned for the end of 2009 using the Indian carrier rocket. Due to the financial crisis the launch has been postponed until late 2011.<ref>{{cite web | url=http://www.vatp.lv/latvijas-pirmais-satelits-venta-1 | title=SLatvijas pirmais satelīts "Venta-1" | last= | first= | work= | publisher=VATP | date= | accessdate=30 April 2011}}</ref> Started preparations to produce the next satellite "Venta-2". "Venta-1" started 23.06.2017. with Indian launche vehicle [[PSLV-XL]]<ref>[http://space.skyrocket.de/doc_sdat/venta-1.htm]</ref>
+-->
+* {{flagcountry|Moldova}}'s first [[remote sensing]] satellite plans to start in 2013 by Space centre at national Technical University.<ref>{{cite web | url=http://www.comelpro.com/publications.html | title=Наши публикации | trans-title= | last= | first= | website= | publisher=ComelPro | date= }}</ref>
+* {{flagcountry|Myanmar}} plans to purchase for $200&nbsp;million their own telecommunication satellite.<ref>{{cite web | url=http://www.mizzima.com/news/breaking-and-news-brief/5414-burma-to-launch-first-state-owned-satellite-expand-communications.html | title=Burma to launch first state-owned satellite, expand communications | last= | first= | work=News | publisher=Mizzima | date=14 June 2011 | deadurl=yes | archiveurl=https://web.archive.org/web/20110617071634/http://www.mizzima.com/news/breaking-and-news-brief/5414-burma-to-launch-first-state-owned-satellite-expand-communications.html | archivedate=17 June 2011}}</ref>
+* {{flagcountry|Nepal}} stated that planning to launch of own telecommunication satellite before 2015 by help of India or China.<ref>{{cite web|url=https://nabinchaudhary1.wordpress.com/2013/06/03/a-step-for-nepal-own-satellite/|title=A step for Nepal own Satellite|work=Nabin Chaudhary|date=2013-06-03}}</ref><ref>{{cite web|url=http://www.china.org.cn/world/2013-06/08/content_29071844.htm|title=Nepal: No satellite launching plan so far|author=张军棉|work=china.org.cn}}</ref><ref>{{cite news|url=http://www.thehindu.com/news/international/south-asia/nepal-may-turn-to-china-for-satellite-plan/article4686835.ece|title=Nepal may turn to China for satellite plan|author=Ananth Krishnan|newspaper=The Hindu|accessdate=25 June 2015|date=2013-05-05}}</ref>
+* {{flagcountry|Nicaragua}} ordered for $254&nbsp;million at November 2013 in China the first telecommunication satellite [[Nicasat]]-1 (to be built at DFH-4 satellite bus platform by CAST and CGWIC), that planning to launch in China at 2016.<ref>{{cite web|url=http://www.telecompaper.com/news/nicaragua-says-nicasat-1-satellite-still-set-for-2016-launch--978722|title=Nicaragua says Nicasat-1 satellite still set for 2016 launch|work=telecompaper.com}}</ref>
+* {{flagcountry|Paraguay}} under new [[Agencia Espacial del Paraguay –- AEP]] airspace agency plans first Eart observation satellite.<ref>{{cite web|url=http://www.bnamericas.com/news/telecommunications/paraguay-to-vote-on-aerospace-agency-bill-in-2014|title=Paraguay to vote on aerospace agency bill in 2014|author=Zachary Volkert|work=BNamericas|accessdate=2015-06-25|date=2013-12-26}}</ref><ref>{{cite web|url=http://www.globalpost.com/dispatch/news/regions/americas/140627/paraguay-space-program-agency|title=Why a little country like Paraguay is launching a space program|work=GlobalPost}}</ref>
+* {{flagcountry|Serbia}}'s first satellite [[Tesla-1]] was designed, developed and assembled by nongovermental organisations in 2009 but still remains unlaunched.
+<!-- need to SkCube pagehttps://en.wikipedia.org/w/index.php?title=Satellite&action=submit
+* {{flagcountry|Slovakia}}n [[Slovak Organisation for Space Activities|Organisation for Space Activities (SOSA)]]<ref>{{cite web|url=http://sosa.sk/|title=SOSA|publisher=|accessdate=2015-06-25}}</ref> together with [[University of Žilina]] and [[Slovak University of Technology]] developing the first national satellite [[SkCube]]<ref name="skcube">{{cite web|url=http://skcube.sk/en/|archive-url=https://web.archive.org/web/20150626131100/http://skcube.sk/en/|dead-url=yes|archive-date=2015-06-26|title=skCUBE –- prvá slovenská družica » English |accessdate=2016-11-12}}</ref> under uropean University program CubeSat QB50 since 2012 aiming to launch them in 2016.<ref>{{cite web |url= http://www.gospace.sk/gospace-portfolio/sattelite-skcube/ |title= SATTELITE skCUBE |publisher= |accessdate= 2015-06-25 |deadurl=yes |archiveurl= https://web.archive.org/web/20150626142315/http://www.gospace.sk/gospace-portfolio/sattelite-skcube/ |archivedate= 2015-06-26 |df= }}</ref>"[[skCUBE]]" started 23.06.2017. with Indian launche vehicle PSLV-XL<ref>[http://space.skyrocket.de/doc_sdat/skcube.htm]</ref>
+-->
+* {{flagcountry|Slovenia}}'s Earth observation microsatellite for the Slovenian Centre of Excellence for Space Sciences and Technologies (Space-SI) now under development for $2&nbsp;million since 2010 by [[University of Toronto]] Institute for Aerospace Studies – Space Flight Laboratory (UTIAS – SFL) and planned to launch in 2015–2016.<ref>{{cite web |url= http://utias-sfl.net/?page_id=1233 |title=NEMO-HD – UTIAS Space Flight Laboratory |work=utias-sfl.net}}</ref><ref>{{cite web |url= http://www.rtvslo.si/news-in-english/slovenia-revealed/slovenia-will-soon-get-its-first-satellite/345328 |title= Slovenia will soon get its first satellite |work= rtvslo.si}}</ref>
+* {{flagcountry|Sri Lanka}} has a goal to construct two satellites beside of rent the national [[SupremeSAT]] payload in Chinese satellites. Sri Lankan Telecommunications Regulatory Commission has signed an agreement with Surrey Satellite Technology Ltd to get relevant help and resources. Launch into Earth orbit would be done by a foreign provider.<ref name="SLASA1">{{cite web | url=http://www.satellitetoday.com/st/topnews/SSTL-Contracted-to-Establish-Sri-Lanka-Space-Agency_32873.html | title=SSTL Contracted to Establish Sri Lanka Space Agency | last= | first= | work=Satellite Today | publisher= | date= | accessdate=2009-11-28}}</ref><ref name="SLASA2">{{cite web | url=http://www.adaderana.lk/news.php?nid=6132 | title=SSTL contracted to establish Sri Lanka Space Agency | last= | first= | website= | publisher=Adaderana | date= | accessdate=2009-11-28 }}</ref>
+* {{flagcountry|Syria}}n Space Research Center developing CubeSat-like small first national satellite since 2008.<ref>{{cite web|url=http://www.souria.com/ar/em/hl/article.asp?at=19371 |title=Syria On The Internet |work=souria.com |deadurl=yes |archiveurl=https://web.archive.org/web/20150403144451/https://www.souria.com/ar/em/hl/article.asp?at=19371 |archivedate=3 April 2015}}</ref>
+* {{flagcountry|Tunisia}} is developing its first satellite, [[ERPSat01]]. Consisting of a CubeSat of 1&nbsp;kg mass, it will be developed by the [[University of Sfax|Sfax]] School of Engineering. ERPSat satellite is planned to be launched into orbit in 2013.<ref name="IEEE">{{cite book | work=Explore | publisher=IEEE | doi=10.1109/RAST.2009.5158292 | title=2009 4th International Conference on Recent Advances in Space Technologies | pages= 750–755| year=2009 | last1=Hamrouni | first1=C. | last2= Neji| first2= B.| last3= Alimi| first3= A. M.| last4= Schilling| first4= K.| isbn= 978-1-4244-3626-2}}</ref>
+* {{flagcountry|Uzbekistan}}'s State Space Research Agency ([[UzbekCosmos]]) announced in 2001 about intention of launch in 2002 first remote sensing satellite.<ref>{{cite web | url=http://www.satnews.com/stories/3may2001-4.html | title= Uzbekistan Planning First Satellite | last= | first= | website= | publisher=Sat News | date=18 May 2001 | deadurl=yes | archiveurl=https://web.archive.org/web/20010713173220/http://www.satnews.com/stories/3may2001-4.html | archivedate=2001-07-13}}</ref> Later in 2004 was stated that two satellites (remote sensing and telecommunication) will be built by Russia for $60–70&nbsp;million each<ref>{{cite web | url=http://www.redorbit.com/news/space/62825/uzbekistan_planning_to_launch_two_satellites_with_russian_help/ | title=Uzbekistan Planning to Launch Two Satellites With Russian Help | last= | first= | website= | publisher=Red Orbit | date=8 June 2004 | deadurl=yes | archiveurl=https://web.archive.org/web/20120112110319/http://www.redorbit.com/news/space/62825/uzbekistan_planning_to_launch_two_satellites_with_russian_help/ | archivedate=12 January 2012}}</ref>
+{{Expand section|date=January 2015}}
+
+==Attacks on satellites==
+{{Details|Anti-satellite weapon}}
+
+In recent times{{Clarify timeframe|date=June 2002}}, satellites have been hacked by militant organizations to broadcast propaganda and to pilfer classified information from military communication networks.<ref>{{cite web|title=Hack a Satellite while it is in orbit |url=http://blogs.ittoolbox.com/security/dmorrill/archives/hack-a-satellite-while-it-is-in-orbit-15690 |first=Dan |last=Morrill |publisher=[[ITtoolbox]] |date= |deadurl=yes |archiveurl=https://web.archive.org/web/20080320084037/http://blogs.ittoolbox.com/security/dmorrill/archives/hack-a-satellite-while-it-is-in-orbit-15690 |archivedate=20 March 2008 |accessdate=25 March 2008}}</ref><ref>{{cite news | title=AsiaSat accuses Falungong of hacking satellite signals | url=http://www.accessmylibrary.com/coms2/summary_0286-5205866_ITM | publisher=[[Press Trust of India]] | date=22 November 2004 }}</ref>
+
+For testing purposes, satellites in low earth orbit have been destroyed by ballistic missiles launched from earth. Russia, the United States and China have demonstrated the ability to eliminate satellites.<ref name="asat">{{cite news | first=William J. | last=Broad | first2=David E. | last2=Sanger | title=China Tests Anti-Satellite Weapon, Unnerving U.S. | url=https://www.nytimes.com/2007/01/18/world/asia/18cnd-china.html | work=[[The New York Times]] | date=18 January 2007 }}</ref> In 2007 the [[China|Chinese]] military shot down an aging weather satellite,<ref name="asat"/> followed by the [[US Navy]] shooting down a [[NRO L-21|defunct spy satellite]] in February 2008.<ref>{{cite web | title=Navy Missile Successful as Spy Satellite Is Shot Down | url=http://www.popularmechanics.com/blogs/science_news/4251430.html | last= | first= | work=[[Popular Mechanics]] | year=2008 | accessdate=25 March 2008}}</ref>
+
+===Jamming===
+{{See also|Radio jamming}}
+Due to the low received signal strength of satellite transmissions, they are prone to [[Radio jamming|jamming]] by land-based transmitters. Such jamming is limited to the geographical area within the transmitter's range. GPS satellites are potential targets for jamming,<ref>{{cite web|first=Jeremy |last=Singer |title=U.S.-Led Forces Destroy GPS Jamming Systems in Iraq |url=http://www.space.com/news/gps_iraq_030325.html |publisher=[[Space.com]] |year=2003 |deadurl=yes |archiveurl=https://web.archive.org/web/20080526204956/http://www.space.com/news/gps_iraq_030325.html |archivedate=26 May 2008 |accessdate=25 March 2008}}</ref><ref>{{cite web|first=Bob |last=Brewin |title=Homemade GPS jammers raise concerns |url=http://www.computerworld.com/securitytopics/security/story/0,10801,77702,00.html |work=[[Computerworld]] |year=2003 |deadurl=yes |archiveurl=https://web.archive.org/web/20080422164053/http://computerworld.com/securitytopics/security/story/0%2C10801%2C77702%2C00.html |archivedate=22 April 2008 |accessdate=25 March 2008}}</ref> but satellite phone and television signals have also been subjected to jamming.<ref>{{cite web | title=Iran government jamming exile satellite TV | url=http://www.iranfocus.com/modules/news/article.php?storyid=2852 | work=[[Iran Focus]] | year=2008 | accessdate=25 March 2008}}</ref><ref>{{cite web|title=Libya Pinpointed as Source of Months-Long Satellite Jamming in 2006 |url=http://www.space.com/spacenews/businessmonday_070409.html |first=Peter de |last=Selding |year=2007 |publisher=[[Space.com]] |archiveurl=https://web.archive.org/web/20080429193429/http://www.space.com/spacenews/businessmonday_070409.html |archivedate=29 April 2008 |deadurl=no}}</ref>
+
+Also, it is very easy to transmit a carrier radio signal to a geostationary satellite and thus interfere with the legitimate uses of the satellite's transponder. It is common for Earth stations to transmit at the wrong time or on the wrong frequency in commercial satellite space, and dual-illuminate the transponder, rendering the frequency unusable. Satellite operators now have sophisticated monitoring that enables them to pinpoint the source of any carrier and manage the transponder space effectively. {{Citation needed|date=September 2011}}
+
+=== Earth observation using satellites ===
+During the last five decades, space agencies have sent thousands of space crafts, space capsules, or satellites to the universe. In fact, weathermen make forecasts on the weather and natural calamities based on observations from these satellites.<ref>{{Cite web|url=http://nas-sites.org/earthobservations/report/|title=Earth Observations from Space » Earth Observations from Space|website=nas-sites.org|language=en-US|access-date=2018-11-28}}</ref>
+
+The National Aeronautics and Space Administration (NASA)<ref>{{Cite web|url=http://www.nationalacademies.org/|title=Home {{!}} The National Academies of Sciences, Engineering, and Medicine {{!}} National-Academies.org {{!}} Where the Nation Turns for Independent, Expert Advice|website=www.nationalacademies.org|access-date=2018-11-28}}</ref> requested the National Academies to publish a report entitled, Earth Observations from Space; The First 50 Years of Scientific Achievements in 2008. It described how the capability to view the whole globe simultaneously from satellite observations revolutionized studies about the planet Earth. This development brought about a new age of combined Earth sciences. The National Academies report concluded that continuing Earth observations from the galaxy are necessary to resolve scientific and social challenges in the future.<ref>{{Cite book|last=Council|first=National Research|date=2008-12-17|title=Earth Observations from Space|url=https://www.nap.edu/catalog/11991/earth-observations-from-space-the-first-50-years-of-scientific|language=en|doi=10.17226/11991|isbn=978-0-309-11095-2}}</ref>
+
+NASA
+
+The NASA introduced an Earth Observing System (EOS)<ref>{{Cite web|url=https://earthdata.nasa.gov/about|title=About EOSDIS {{!}} Earthdata|website=earthdata.nasa.gov|language=en|access-date=2018-11-28}}</ref> composed of several satellites, science component, and data system described as the Earth Observing System Data and Information System (EOSDIS). It disseminates numerous science data products as well as services designed for interdisciplinary education. EOSDIS data can be accessed online and accessed through File Transfer Protocol (FTP) and Hyper Text Transfer Protocol Secure (HTTPS).<ref>{{Cite web|url=https://earthdata.nasa.gov/earth-observation-data|title=Earth Observation Data {{!}} Earthdata|website=earthdata.nasa.gov|language=en|access-date=2018-11-28}}</ref> Scientists and researchers perform EOSDIS science operations within a distributed platform of multiple interconnected nodes or Science Investigator-led Processing Systems (SIPS) and discipline-specific Distributed Active Archive Centers (DACCs).<ref>{{Cite web|url=https://earthdata.nasa.gov/about/daacs|title=EOSDIS Distributed Active Archive Centers (DAACs) {{!}} Earthdata|website=earthdata.nasa.gov|language=en|access-date=2018-11-28}}</ref>
+
+ESA
+
+The European Space Agency<ref>{{Cite web|url=https://www.esa.int/ESA|title=ESA|last=esa|website=European Space Agency|language=en-GB|access-date=2018-11-28}}</ref> has plans to launch a satellite for Earth observation. This will be equipped with an artificial intelligence (AI) processor that will allow the spacecraft to make decisions on images to capture and data to transmit to the Earth.<ref name="SpaceNews.com">{{Cite news|url=https://spacenews.com/esa-preps-earth-observation-satellite-with-onboard-ai-processor/|title=ESA preps Earth observation satellite with onboard AI processor - SpaceNews.com|date=2018-11-13|work=SpaceNews.com|access-date=2018-11-28|language=en-US}}</ref>  BrainSat will use the Intel Myriad X vision processing unit (VPU). The launching will be scheduled in 2019. ESA director for Earth Observation Programs Josef Aschbaher made the announcement during the PhiWeek in November 2018.<ref>{{Cite news|url=https://newsroom.intel.com/press-kits/movidius-myriad-x-vpu/|title=Movidius Myriad X VPU {{!}} Intel Newsroom|work=Intel Newsroom|access-date=2018-11-28|language=en-US}}</ref> This is the five-day meet that focused on the future of Earth observation. The conference was held at the ESA Center for Earth Observation in Frascati, Italy.<ref name="SpaceNews.com"/> ESA also launched the PhiLab, referring to the future-focused team that works to harness the potentials of AI and other disruptive innovations.<ref>{{Cite web|url=http://phiweek.esa.int/|title=The ESA Earth Observation Φ-week  EO Open Science and FutureEO|website=phiweek.esa.int|language=en|access-date=2018-11-28}}</ref> Meanwhile, the ESA also announced that it expects to commence the qualification flight of the Space Rider space plane in 2021. This will come after several demonstration missions.<ref>{{Cite news|url=https://spacenews.com/esa-targets-2021-for-space-rider-demo-flight/|title=ESA targets 2021 for Space Rider demo flight - SpaceNews.com|date=2018-11-13|work=SpaceNews.com|access-date=2018-11-28|language=en-US}}</ref> Space Rider is the sequel of the Agency's Intermediate Experimental vehicle (IXV) which was launched in 2015. It has the capacity payload of 800 kilograms for orbital missions that will last a maximum of two months.<ref>{{Cite web|url=https://www.esa.int/Our_Activities/Space_Transportation/IXV|title=IXV|last=esa|website=European Space Agency|language=en-GB|access-date=2018-11-28}}</ref>
+
+SpaceX
+
+SpaceX was scheduled to launch a multiple satellite mission on November 28, 2018 from the United States Vandenberg Air Force Base after an initial November 19 schedule. The launch is expected to be visible once the rocket heads toward the south into an Earth observation trajectory traveling over the opposites.<ref>{{Cite news|url=https://www.dailybreeze.com/2018/11/26/spacex-launch-set-for-wednesday-nov-28-from-vandenberg-after-delay/|title=SpaceX launch set for Wednesday, Nov. 28, from Vandenberg after delay|date=2018-11-26|work=Daily Breeze|access-date=2018-11-28|language=en-US}}</ref> However, the second supposed launched was delayed again because of poor weather conditions and set for another date which is not yet definite.<ref name="Space.com">{{Cite news|url=https://www.space.com/42479-spacex-rocket-third-flight-sso-a-launch-delay.html|title=SpaceX Delays Historic Third Launch of Used Rocket (and Its Flock of Satellites)|work=Space.com|access-date=2018-11-28}}</ref> The mission is known as the SSO-A Smallsat Express is another landmark for Elon Musk, founder of SpaceX which had 19 rocket launches in 2018 alone. The estimated cost of this Falcon 9 rocket is approximately $62 million. The rocket has 64 satellites with each one going separate ways.<ref name="Space.com"/>
+
+Amazon and Lockheed
+
+Amazon Web Services (AWS)<ref>{{Cite news|url=https://www.cnbc.com/2018/11/27/amazon-launches-aws-ground-station-satellite-data-collection-service.html|title=Amazon cloud business reaches into space with satellite connection service|last=Sheetz|first=Michael|date=2018-11-27|work=CNBC|access-date=2018-11-28}}</ref> and Lockheed Martin<ref>{{Cite web|url=https://www.lockheedmartin.com/en-us/products/verge.html|title=Verge|website=Lockheed Martin|access-date=2018-11-28}}</ref> entered into a strategic partnership for the purpose  of integrating the AWS ground station service with Lockheed's verge antenna network. These two corporations aim to merge these highly-capable systems that will provide clients with robust satellite uplinks and downlinks. Through these systems, users can incorporate satellite data with various AWS services which include computing, storage, analytics, and machine-learning.<ref>{{Cite news|url=https://apnews.com/04d147a9661e45d89a85bc04fc53bbc4|title=Amazon Web Services and Lockheed Martin Team to Make Downlinking Satellite Data Easier and Less Expensive|date=2018-11-27|work=AP NEWS|access-date=2018-11-28}}</ref>
+
+==Satellite services==
+{{Div col|colwidth=30em}}
+* [[Satellite crop monitoring]]
+* [[Satellite Internet access]]
+* [[Satellite navigation]]
+* [[Satellite phone]]
+* [[Satellite radio]]
+* [[Satellite television]]
+{{Div col end}}
+
+==See also==
+{{Portal| Spaceflight}}
+{{Div col|colwidth=22em}}
+* [[2009 satellite collision]]
+* [[Artificial satellites in retrograde orbit]]
+* [[Atmospheric satellite]]
+* [[Fractionated spacecraft]]
+* [[Imagery intelligence]]
+* [[International Designator]]
+* [[List of communications satellite firsts]]
+* [[List of Earth observation satellites]]
+* [[List of passive satellites]]
+* [[Satellite Catalog Number]]
+* [[Satellite formation flying]]
+* [[Satellite geolocation]]
+* [[Satellite watching]]
+* [[Space exploration]]
+* [[Space probe]]
+* [[Spaceport]] (including list of spaceports)
+* [[U.S. space exploration history on U.S. stamps|Satellites on stamps]]
+* [[USA-193]] (2008 American anti-satellite missile test)
+{{Div col end}}
+
+==References==
+{{Reflist|30em}}
+
+==External links==
+{{wikiquote}}
+{{commons category|Satellites}}
+* {{dmoz|Business/Telecommunications/Services/Wireless/Satellite/|Satellite}}
+* [http://en.satellite.tracks.free.fr/ Satellite Ground Tracks] Real time satellite tracks (Full catalog of satellite orbit). {{en icon}} {{de icon}} {{es icon}} {{fr icon}} {{it icon}} {{pt icon}} {{zh icon}}
+* [http://www.n2yo.com/ Real Time Satellite Tracking] provides real-time tracks for about 17000 satellites, as well as 5-day predictions of visibility
+* [http://www.heavens-above.com/ Heavens Above] provides 10-day predictions of satellite visibility
+* [http://www.satflare.com/ Satflare] tracks in real time all the satellites orbiting the Earth
+* [http://www.vega.org.uk/video/programme/12 ''Eyes in the Sky'' Free video by the Vega Science Trust and the BBC/OU] Satellites and their implications over the last 50 years.
+
+{{Spaceflight}}
+
+{{Authority control}}
+
+[[Category:Satellites| ]]
+[[Category:Articles containing video clips]]
+[[Category:Spacecraft]]
+[[Category:Russian inventions]]

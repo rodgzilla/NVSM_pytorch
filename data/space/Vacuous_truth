@@ -1,0 +1,52 @@
+In mathematics and [[logic]], a '''vacuous truth''' is a [[Statement (logic)|statement]] that asserts that [[Universal quantification|all]] members of the [[empty set]] have a certain [[Property (philosophy)|property]]. For example, the statement "all cell phones in the room are turned off" will be [[Truth|true]] whenever there are no [[cell phone]]s in the room. In this case, the statement "all cell phones in the room are turned ''on''" would also be vacuously true, as would the [[Logical conjunction|conjunction]] of the two: "all cell phones in the room are turned on ''and'' turned off".
+
+More formally, a relatively [[Well-definition|well-defined]] usage refers to a [[Counterfactual conditional|conditional]] statement with a false [[Antecedent (logic)|antecedent]]. One example of such a statement is "if [[Uluru]] is in [[France]], then the [[Eiffel Tower]] is in [[Bolivia]]". Such statements are considered vacuous because the fact that the antecedent is false prevents using the statement to infer anything about the truth value of the [[consequent]]. They are true because a [[material conditional]] is defined to be true when the antecedent is false (regardless of whether the conclusion is true).
+
+In [[pure mathematics]], vacuously true statements are not generally of interest by themselves, but they frequently arise as the base case of proofs by [[mathematical induction]].<ref>{{citation|title=Algorithms and Data Structures: The Science of Computing|first1=Douglas L.|last1=Baldwin|first2=Greg W.|last2=Scragg|publisher=Cengage Learning|year=2011|isbn= 9781285225128|page=261|url=https://books.google.com/books?id=ETA9AAAAQBAJ&pg=PA261}}.</ref> This notion has relevance in [[pure mathematics]], as well as in any other field that uses [[classical logic]].
+
+Outside of mathematics, statements which can be characterized informally as vacuously true can be misleading. Such statements make reasonable assertions about [[Qualifier|qualified]] objects which [[Nonexistence|do not actually exist]]. For example, a child might tell their parent "I ate every vegetable on my plate", when there were no vegetables on the child's plate to begin with.
+
+== Scope of the concept ==
+
+A statement <math>S</math> is "vacuously true" if it [[Logical form|resembles]] the statement <math>P \Rightarrow Q</math>, where <math>P</math> is known to be false.
+
+Statements that can be reduced ([[Mutatis mutandis|with suitable transformations]]) to this basic form include the following [[Universal quantifier|universally quantified]] statements:
+* <math>\forall x: P(x) \Rightarrow Q(x)</math>, where it is the case that <math>\forall x: \neg P(x)</math>.
+* <math>\forall x \in A: Q(x)</math>, where the [[Set (mathematics)|set]] <math>A</math> is [[empty set|empty]].
+* <math>\forall \xi: Q(\xi)</math>, where the symbol <math>\xi</math> is restricted to a [[type (type theory)|type]] that has no representatives.
+
+Vacuous truth most commonly appears in [[classical logic]], which in particular is [[Binary decision|two-valued]]. However, vacuous truth also appears in, for example, [[intuitionistic logic]] in the same situations given above. Indeed, if <math>P</math> is false, <math>P \Rightarrow Q</math> will yield vacuous truth in any logic that uses the [[material conditional]]; if <math>P</math> is a [[Contradiction|necessary falsehood]], then it will also yield vacuous truth under the [[strict conditional]].
+
+Other non-classical logics (for example, [[relevance logic]]) may attempt to avoid vacuous truths by using alternative conditionals (for example, the [[counterfactual conditional]]).
+
+== Examples ==
+
+These examples, one from [[mathematics]] and one from [[natural language]], illustrate the concept:
+
+"For any integer x, if x > 5 then x > 3."<ref>{{cite web|title=What precisely is a vacuous truth?|url=http://math.stackexchange.com/q/1257728}}</ref> – This statement is [[Truth|true]] non-vacuously (since some [[integer]]s are greater than 5), but some of its implications are only vacuously true: for example, when x is the integer 2, the statement implies the vacuous truth that "if 2 > 5 then 2 > 3".
+
+"All my children are cats" is a vacuous truth when spoken by someone without children.
+
+== See also ==
+* [[De Morgan's Laws#Extensions|De Morgan's Laws]] – specifically the law that a universal statement is true just in case no counterexample exists: <math>\forall x \, P(x) \equiv \neg \exists x \, \neg P(x)</math>
+* [[Empty sum]] and [[Empty product]]
+* [[Paradoxes of material implication]], especially the [[Principle of explosion]]
+*[[Presupposition]]; [[Double question]]
+* [[Tautology (logic)]] – another type of true statement that also fails to convey any substantive information
+* [[Triviality (mathematics)]] and [[Degeneracy (mathematics)]]
+
+== References ==
+{{reflist}}
+
+== Bibliography ==
+*Blackburn, Simon (1994). "vacuous," ''[[The Oxford Dictionary of Philosophy]]''. Oxford: Oxford University Press, p.&nbsp;388.
+* [[David H. Sanford]] (1999). "implication." ''[[The Cambridge Dictionary of Philosophy]]'', 2nd. ed., p.&nbsp;420.
+* {{cite conference |last1=Beer |first1=Ilan |last2=Ben-David |first2=Shoham |last3=Eisner |first3=Cindy |last4=Rodeh |first4=Yoav |contribution=Efficient Detection of Vacuity in ACTL Formulas |year=1997|title=Computer Aided Verification: 9th International Conference, CAV'97 Haifa, Israel, June 22–25, 1997, Proceedings |series=[[Lecture Notes in Computer Science]] |volume=1254 |pages=279–290 |url=http://citeseer.ist.psu.edu/beer97efficient.html |doi=10.1007/3-540-63166-6_28}}
+
+== External links ==
+*[https://web.archive.org/web/20080415192548/http://abstractmath.org/MM/MMConditional.htm#_Toc133208747 Conditional Assertions: Vacuous truth]
+
+[[Category:Logic]]
+[[Category:Mathematical logic]]
+[[Category:Truth]]
+[[Category:Informal fallacies]]

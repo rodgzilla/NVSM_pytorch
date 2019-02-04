@@ -1,0 +1,15 @@
+{{For|the protocol formerly called Rendezvous|Bonjour (software)}}
+
+A '''rendezvous protocol''' is a [[protocol (computing)|computer network protocol]] that enables resources or [[Peer-to-peer|P2P]] network peers to find each other. A rendezvous protocol uses a [[handshaking]] model, unlike an [[eager protocol]] which directly copies the data. In a rendezvous protocol the data is sent when the destination says it is ready, but in an eager protocol the data is sent assuming the destination can store the data.<ref>{{cite web|title=Message protocols|url=http://www.mcs.anl.gov/research/projects/mpi/tutorial/perf/message-protocols/sld001.htm|publisher=[[Argonne National Laboratory]]}}</ref>
+
+Examples of rendezvous protocols include [[JXTA]], [[Session Initiation Protocol|SIP]], [[Freenet Project]], [[I2P]], and such protocols generally involve [[hole punching (networking)|hole punching]].
+
+Because of [[Firewall (computing)|firewall]] [[network address translation]] (NAT) issues, rendezvous protocols generally require that there be at least one unblocked and un-NATed server that lets the peers locate each other and initiate concurrent [[packet (information technology)|packet]]s at each other.
+
+==References==
+{{Reflist}}
+
+[[Category:File sharing networks]]
+
+{{internet-stub}}
+{{network-software-stub}}

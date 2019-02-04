@@ -1,0 +1,68 @@
+In [[data analysis]], the '''self-similarity matrix''' is a graphical representation of [[similarity measure|similar]] sequences in a data series.
+
+Similarity can be explained by different measures, like spatial distance ([[distance matrix]]), [[correlation]], or comparison of local [[histogram]]s or [[spectral properties]] (e.g. IXEGRAM<ref>{{cite journal|author1= M. A. Casey |author2=A. Westner|title=Separation of mixed audio sources by independent subspace analysis|journal=Proc. Int. Comput. Music Conf|date=July -00 2000|url=http://www.merl.com/papers/docs/TR2001-31.pdf|accessdate=2013-11-19}}</ref>). This technique is also applied for the search of a given pattern in a long data series as in [[gene matching]].{{Citation needed|date=November 2013}} A similarity plot can be the starting point for [[Dot plot (bioinformatics)|dot plots]] or [[recurrence plots]].
+
+==Definition==
+
+To construct a self-similarity matrix, one first transforms a data series into an ordered sequence of [[feature vector]]s <math> V = (v_1, v_2, \ldots, v_n) </math>, where each vector <math> v_i </math> describes the relevant features of a data series in a given local interval.  Then the self-similarity matrix is formed by computing the similarity of pairs of feature vectors
+
+:<math> S(j,k) = s(v_j, v_k) \quad j,k \in (1,\ldots,n)</math>
+
+where <math>s(v_j, v_k)</math> is a function measuring the similarity of the two vectors, for instance, the [[inner product]] <math>s(v_j, v_k) = v_j \cdot v_k</math>. Then similar segments of feature vectors will show up as path of high similarity along diagonals of the matrix.<ref name=Muller2007>{{cite journal|last=Müller|first=Meinard|author2=Michael Clausen |title=Transposition-invariant self-similarity matrices|journal=Proceedings of the 8th International Conference on Music Information Retrieval (ISMIR 2007)|year=2007|pages=47–50|url=http://ismir2007.ismir.net/proceedings/ISMIR2007_p047_mullermuller.pdf|accessdate=2013-11-19}}</ref>
+Similarity plots are used for action recognition that is invariant to point of view <ref>{{cite journal
+    |author1=I.N. Junejo |author2=E. Dexter |author3=I. Laptev |author4=Patrick Pérez | title=Cross-View Action Recognition from Temporal Self-Similarities
+    | journal=In Proc. European Conference on Computer Vision (ECCV), Marseille, France.
+    | year=2008
+    | doi=10.1007/978-3-540-88688-4_22
+}}</ref>
+and for audio segmentation using [[spectral clustering]] of the self-similarity matrix.<ref>{{cite journal|last=Dubnov|first=Shlomo|author2=Ted Apel |title=Audio segmentation by singular value clustering|journal=Proceedings of Computer Music Conference (ICMC 2004)|year=2004|url=http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.324.4298|accessdate=2016-06-20}}</ref>
+
+==Example==
+[[Image:Junejoetal ssm eccv08.jpg|thumb|center|800px|Similarity plot, a variant of recurrence plot, obtained for different views of human actions are shown to produce similar patterns.<ref>Cross-View Action Recognition from Temporal Self-Similarities (2008), I. Junejo, E. Dexter, I. Laptev, and Patrick Pérez)</ref>]]
+
+== See also==
+* [[Recurrence plot]]
+* [[Distance matrix]]
+* [[Similarity matrix]]
+* [[Substitution matrix]]
+* [[Dot plot (bioinformatics)]]
+
+==References==
+{{reflist}}
+
+==Further reading==
+
+* {{cite journal
+    |author1=N. Marwan |author2=M. C. Romano |author3=M. Thiel |author4=J. Kurths | title=Recurrence Plots for the Analysis of Complex Systems
+    | journal=Physics Reports
+    | volume=438
+    | issue=5-6
+    | year=2007
+    | doi=10.1016/j.physrep.2006.11.001
+    | pages=237
+    | bibcode=2007PhR...438..237M
+}}
+
+* {{cite journal
+    | author=J. Foote
+    | title=Visualizing Music and Audio using Self-Similarity
+    | journal=In: Proceedings of ACM Multimedia '99, Orlando, Florida.
+    | year=1999
+    | doi=10.1145/319463.319472
+}}
+
+* {{cite journal
+    | author=M. A. Casey
+    | title=Sound Classification and Similarity Tools
+    | publisher=J. Wiley
+    | year=2002
+    | pages=309–323
+    | editors=B.S. Manjunath, P. Salembier and T. Sikora
+    | work=Introduction to MPEG-7: Multimedia Content Description Language
+    | isbn=978-0471486787
+}}
+
+* http://www.recurrence-plot.tk/related_methods.php
+
+[[Category:Statistical charts and diagrams]]
+[[Category:Visualization (graphic)]]

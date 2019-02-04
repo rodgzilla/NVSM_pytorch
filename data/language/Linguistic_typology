@@ -1,0 +1,145 @@
+{{more footnotes|date=March 2010}}
+{{Linguistic_typology topics}}
+
+'''Linguistic typology''' is a field of [[linguistics]] that studies and classifies languages according to their structural and functional features. Its aim is to describe and explain the common properties and the structural diversity of the world's languages.<ref name=":0" /> Its subdisciplines include, but are not limited to: qualitative typology, which deals with the issue of comparing languages and within-language variance; quantitative typology, which deals with the distribution of structural patterns in the world’s languages; theoretical typology, which explains these distributions; syntactic typology, which deals with word order, word form, and word choice; and lexical typology, which deals with language vocabulary.
+
+==Qualitative typology==
+Qualitative typology develops cross-linguistically viable notions or types that provide a framework for the description and comparison of individual languages. A few examples appear below.
+
+===Typological systems===
+====Subject–verb–object positioning====
+{{main|Word order}}
+One set of types reflects the basic order of [[subject (grammar)|subject]], [[verb]], and [[direct object]] in sentences:
+
+* [[Object–subject–verb]]
+* [[Object–verb–subject]]
+* [[Subject–verb–object]]
+* [[Subject–object–verb]]
+* [[Verb–subject–object]]
+* [[Verb–object–subject]]
+
+These labels usually appear abbreviated as "SVO" and so forth, and may be called "typologies" of the languages to which they apply.  The most commonly attested word orders are SOV and SVO while the least common orders are those that are object initial with OVS being the least common with only four attested instances.<ref>{{Cite journal |last=Gell-Mann |first=Murray |last2=Ruhlen |first2=Merritt |date=2011-10-18 |title=The origin and evolution of word order |journal=Proceedings of the National Academy of Sciences of the United States of America |volume=108 |issue=42 |pages=17290–17295 |doi=10.1073/pnas.1113716108 |issn=0027-8424 |pmc=3198322 |pmid=21987807}}</ref>
+
+In the 1980s, linguists began to question the relevance of geographical distribution of different values for various features of linguistic structure. They may have wanted to discover whether a particular grammatical structure found in one language is likewise found in another language in the same geographic location.<ref>Comrie, Bernard, et al. “Chapter Introduction.” WALS Online - Chapter Introduction, The World Atlas of Language Structures Online, 2013.</ref>
+Some languages split verbs into an auxiliary and an infinitive or participle, and put the subject and/or object between them. For instance, German ({{lang|de|Ich '''habe''' einen Fuchs im Wald '''gesehen'''}} - *"I have a fox in-the woods seen"), Dutch ({{lang|nl|Hans '''vermoedde''' dat Jan Marie '''zag leren zwemmen'''}} - *"Hans suspected that Jan Marie saw teach swim") and Welsh ({{lang|cy|'''Mae'''<nowiki>'</nowiki>r gwirio sillafu wedi'i '''gwblhau'''}} - *"Is the checking spelling after its to complete"). In this case, linguists base the typology on the non-analytic tenses (i.e. those sentences in which the verb is not split) or on the position of the auxiliary. German is thus SVO in main clauses and Welsh is VSO (and preposition phrases would go after the infinitive).
+
+Many typologists{{Who|date=March 2017}} classify both German and Dutch as [[V2 word order|V2]] languages, as the verb invariantly occurs as the second element of a full clause.
+
+Some languages allow varying degrees of freedom in their constituent order, posing a problem for their classification within the subject–verb–object schema. Languages with bound case markings for nouns, for example, tend to have more flexible word orders than languages where case is defined by position within a sentence or presence of a preposition.{{Example needed |date=May 2018}} To define a basic constituent order type in this case, one generally looks at frequency of different types in declarative affirmative main clauses in pragmatically neutral contexts, preferably with only old referents. Thus, for instance, Russian is widely considered an SVO language, as this is the most frequent constituent order under such conditions—all sorts of variations are possible, though, and occur in texts. In many inflected languages, such as Russian, Latin, and Greek, departures from the default word-orders are permissible but usually imply a shift in focus, an emphasis on the final element, or some special context. In the poetry of these languages, the word order may also shift freely to meet metrical demands. Additionally, freedom of word order may vary within the same language—for example, formal, literary, or archaizing varieties may have different, stricter, or more lenient constituent-order structures than an informal spoken variety of the same language.
+
+On the other hand, when there is no clear preference under the described conditions, the language is considered to have "flexible constituent order" (a type unto itself).
+
+An additional problem is that in languages without living speech communities, such as [[Latin]], [[Ancient Greek]], and [[Old Church Slavonic]], linguists have only written evidence, perhaps written in a poetic, formalizing, or archaic style that mischaracterizes the actual daily use of the language. The daily spoken language of [[Sophocles]] or [[Cicero]] might have exhibited a different or much more regular syntax than their written legacy indicates.{{citation needed|date=May 2017}}
+
+====Morphosyntactic alignment====
+{{main|Morphosyntactic alignment}}
+Another common classification distinguishes [[nominative–accusative language|nominative–accusative]] alignment patterns and [[Ergative–absolutive language|ergative–absolutive]] ones. In a language with [[noun case|cases]], the classification depends on whether the subject (S) of an intransitive verb has the same case as the agent (A) or the patient (P) of a transitive verb. If a language has no cases, but the word order is AVP or PVA, then a classification may reflect whether the subject of an intransitive verb appears on the same side as the agent or the patient of the transitive verb. Bickel (2011) has argued that alignment should be seen as a construction-specific property rather than a language-specific property.<ref name=":0">{{Cite web|url=http://www.uni-leipzig.de/~bickel/research/papers/manifesto.pdf|title=What is typology? - a short note|last=Bickel|first=B.|date=|website=www.uni-leipzig.de|language=de|access-date=2017-03-06}}</ref>
+
+Many languages show mixed accusative and ergative behaviour (for example: ergative morphology marking the verb arguments, on top of an accusative syntax). Other languages (called "[[active language]]s") have two types of intransitive verbs&mdash;some of them ("active verbs") join the subject in the same case as the agent of a transitive verb, and the rest ("stative verbs") join the subject in the same case as the patient{{Example needed|date=May 2018}}. Yet other languages behave ergatively only in some contexts (this "[[split ergativity]]" is often based on the grammatical person of the arguments or on the tense/aspect of the verb). For example, only some verbs in [[Georgian language|Georgian]] behave this way, and, as a rule, only while using the [[perfective]] (aorist).
+
+====Phonological systems====
+{{main|Phonology}}
+Linguistic typology also seeks to identify patterns in the structure and distribution of sound systems among the world's languages. This is accomplished by surveying and analyzing the relative frequencies of different phonological properties. These relative frequencies might, for example, be used to determine why contrastive voicing commonly occurs with plosives, as in English ''neat'' and ''need'', but occurs much more rarely among fricatives, such as the English ''niece'' and ''knees''. According to a worldwide sample of 637 languages,<ref name="Song, 2011">Song, J.J. (ed.) (2011). The Oxford Handbook of Linguistic Typology. Oxford: Oxford University Press. {{ISBN|978-0-19-928125-1}}.</ref> 62% have the voicing contrast in stops but only 35% have this in fricatives. In the vast majority of those cases, the absence of voicing contrast occurs because there is a lack of voiced fricatives and because all languages have some form of plosive, but there are languages with no fricatives. Below is a chart showing the breakdown of voicing properties among languages in the aforementioned sample.
+{| class="wikitable"
+|-
+! Plosive Voicing
+! colspan="3" | Fricative Voicing
+|-
+|
+| style="text-align: center;" | Yes
+| style="text-align: center;" | No
+| style="text-align: center;" | Total
+|-
+| Yes
+| style="text-align: center;" | 117
+| style="text-align: center;" | 218
+| 395 (62%)
+|-
+| No
+| style="text-align: center;" | 44
+| style="text-align: center;" | 198
+| 242 (38%)
+|-
+| Total
+| 221 (35%)
+| 416 (65%)
+| style="text-align: center;" | 637
+|}<ref name="Song, 2011"/>
+
+Languages worldwide also vary in the number of sounds they use. These languages can go from very small phonemic inventories ([[Rotokas language|Rotokas]] with six consonants and five vowels) to very large inventories ([[Taa language|!Xóõ]] with 128 consonants and 28 vowels). An interesting phonological observation found with this data is that the larger a consonant inventory a language has, the more likely it is to contain a sound from a defined set of complex consonants (clicks, glottalized consonants, doubly articulated labial-velar stops, lateral fricatives and affricates, uvular and pharyngeal consonants, and dental or alveolar non-sibilant fricatives). Of this list, only about 26% of languages in a survey<ref name="Song, 2011"/> of over 600 with small inventories (less than 19 consonants) contain a member of this set, while 51% of average languages (19-25) contain at least one member and 69% of large consonant inventories (greater than 25 consonants) contain a member of this set. It is then seen that complex consonants are in proportion to the size of the inventory.
+
+Vowels contain a more modest number of phonemes, with the average being 5-6, which 51% of the languages in the survey have. About a third of the languages have larger than average vowel inventories. Most interesting though is the lack of relationship between consonant inventory size and vowel inventory size. Below is a chart showing this lack of predictability between consonant and vowel inventory sizes in relation to each other.
+{| class="wikitable"
+|-
+!Consonant Inventory
+! colspan="4" | Vowel Quality Inventory
+|-
+|	
+|style="text-align: center;" | Small
+|style="text-align: center;" | Average
+|style="text-align: center;" | Large
+|style="text-align: center;" | Total
+|-
+|Small
+|style="text-align: center;" | 47
+|style="text-align: center;" | 153
+|style="text-align: center;" | 65
+|265 (39%)
+|-
+|Average
+|style="text-align: center;" | 34
+|style="text-align: center;" | 105
+|style="text-align: center;" | 98
+|237 (35%)
+|-
+|Large
+|style="text-align: center;" | 34
+|style="text-align: center;" | 87
+|style="text-align: center;" | 57
+|178 (26%)
+|-
+|Total
+|115 (17%)
+|345 (51%)
+|220 (32%)
+|style="text-align: center;" | 680
+|}<ref name="Song, 2011"/>
+
+==Quantitative typology==
+Quantitative typology deals with the distribution and co-occurrence of structural patterns in the languages of the world. Major types of non-chance distribution include:
+
+* preferences (for instance, absolute and implicational [[linguistic universal|universals]], semantic maps, and [[implicational hierarchy|hierarchies]])
+* correlations (for instance, areal patterns, such as with a [[Sprachbund]])
+
+Linguistic universals are patterns that can be seen cross linguistically. Universals can either be absolute, meaning that every documented language exhibits this characteristic, or statistical, meaning that this characteristic is seen in most languages or is probable in most languages. Universals, both absolute and statistical can be unrestricted, meaning that they apply to most or all languages without any additional conditions. Conversely, both absolute and statistical universals can be restricted or implicational, meaning that a characteristic will be true on the condition of something else (if Y characteristic is true, then X characteristic is true).<ref>{{cite book|last1=Moravcsik|first1=Edith|title=Introducing Language Typology|date=2013|publisher=Cambridge University Press|location=Cambridge, London|page=9}}</ref>
+
+==Sources==
+===References===
+{{Reflist}}
+
+===Bibliography===
+* Bisang, W. (2001). Aspects of typology and universals. Berlin: Akademie Verlag. {{ISBN|3-050-03559-5}}.
+* Comrie, B. (1989). Language universals and linguistic typology: Syntax and morphology. Oxford: Blackwell, 2nd edn. {{ISBN|0-226-11433-3}}.
+* Croft, W. (2002). Typology and universals. Cambridge: Cambridge UP. 2nd ed. {{ISBN|0-521-00499-3}}.
+* Cysouw, M. (2005). [http://www.cysouw.de/home/articles_files/cysouwQUANTMETHOD.pdf Quantitative methods in typology]. Quantitative linguistics: an international handbook, ed. by Gabriel Altmann, Reinhard Köhler and R. Piotrowski. Berlin: Mouton de Gruyter. {{ISBN|3-11-015578-8}}.
+* Grijzenhout, J. (2009). Phonological domains : universals and deviations. Berlin ;New York: Mouton de Gruyter. {{ISBN|3-110-20540-8}}.
+* Nichols, J. (1992). [[Linguistic diversity in space and time]]. Chicago: University of Chicago Press. {{ISBN|0-226-58057-1}}.
+* Nichols, J. (2007). [http://www.reference-global.com/doi/abs/10.1515/LINGTY.2007.017 What, if anything, is typology?]{{dead link|date=December 2017 |bot=InternetArchiveBot |fix-attempted=yes }} Linguistic Typology. Volume 11, Issue 1, Pages 231–238, ISSN (Online) 1613-415X, ISSN (Print) 1430-0532, {{doi|10.1515/LINGTY.2007.017}}, July 2007
+* Song, J.J. (2001). Linguistic typology: Morphology and syntax. Harlow and London: Pearson Education (Longman). {{ISBN|0-582-31220-5}}.
+* Song, J.J. (ed.) (2011). The Oxford Handbook of Linguistic Typology. Oxford: Oxford University Press. {{ISBN|978-0-19-928125-1}}.
+* Whaley, L.J. (1997). Introduction to typology: The unity and diversity of language. Newbury Park: Sage. {{ISBN|0-8039-5963-X}}.
+
+==External links==
+* [http://www.linguistic-typology.org/ Association for Linguistic Typology]
+* Ivan G. Iliev. On the Nature of Grammatical Case, Language Typology, and on the Origin of Cognate Objects and Subjects. [http://ivanilievlogosmaster.blogspot.com/2011/11/casetypologyvocativeness.html]
+* Plank, F. Themes in Typology: Basic Reading List. [https://web.archive.org/web/20051218182252/http://ling.uni-konstanz.de/pages/home/a20_11/plank/TypoThemesBib%3D2000.pdf]
+* Bickel, B. (2001). What is typology? - a short note. </small>[http://www.uni-leipzig.de/~bickel/research/papers/manifesto.pdf]
+* Bickel, B. (2005). Typology in the 21st century: major developments. </small>[http://www.uni-leipzig.de/~bickel/research/papers/21century_typology_bickel_submitted.pdf]
+* {{cite web|url= http://www.uio.no/studier/emner/hf/ikos/EXFAC03-AAS/h05/larestoff/linguistics/Chapter%204.(H05).pdf |title=Linguistic typology }}&nbsp;{{small|(275&nbsp;[[Kibibyte|KiB]])}}, chapter 4 of [http://www.uio.no/studier/emner/hf/ikos/EXFAC03-AAS/h05/larestoff/linguistics/ Halvor Eifring & Rolf Theil: ''Linguistics for Students of Asian and African Languages'']
+* [http://wals.info World Atlas of Language Structures]
+* [http://www.degruyter.com/view/j/lity Linguistic Typology]
+
+{{Authority control}}
+
+[[Category:Linguistic typology| ]]
+[[Category:Language comparison]]

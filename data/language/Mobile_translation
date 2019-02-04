@@ -1,0 +1,146 @@
+{{Refimprove|date=January 2016}}
+{{Translation sidebar}}
+'''Mobile translation''' refers to any electronic device or [[software application]] that provides audio [[translation]]. It includes any handheld electronic device that is specifically designed for audio translation. It also includes any [[machine translation]] service or [[software application]] for hand-held devices, including [[mobile telephones]], [[Pocket PC]]s, and [[Personal digital assistant|PDA]]s. Mobile translation provides hand-held device users with the advantage of instantaneous and non-mediated translation from one human language to another, usually against a service fee that is, nevertheless, significantly smaller than a human translator charges.
+
+Mobile translation is part of the new range of services offered to 
+mobile communication users, including location positioning ([[GPS]] 
+service), [[e-wallet]] (mobile banking), business card/bar-code/text 
+scanning etc.
+
+It relies on computer programming in the sphere of computational linguistics and the device's 
+communication means (Internet connection or [[SMS]]) to work. 
+== History ==
+A translation system allowing the [[Japanese people|Japanese]] to 
+exchange conversations with foreign nationals through [[mobile phone]]s 
+was first developed in 1999 by the Advanced 
+Telecommunications Research Institute International-Interpreting 
+Telecommunications Research Laboratories, based in Kansai Science City, 
+[[Japan]]. Words spoken into the mobile device are translated into the 
+target language and then sent as voice to the other user's mobile 
+phone.<ref>[http://www.kansai.gr.jp/kansaiwindowhtml/news/1999-e/19991117_NEWS.HTML ] {{webarchive |url=https://web.archive.org/web/20081106134919/http://www.kansai.gr.jp/kansaiwindowhtml/news/1999-e/19991117_NEWS.HTML |date=November 6, 2008 }}</ref>
+
+Machine translation software for handheld devices featuring translation capabilities for user-input text, SMS and email, was commercially released in 2004 by Transclick and a patent was issued to Transclick for SMS, email and IM translation in 
+2006.<ref>{{cite web|url=http://www.google.com/patents/about?id=9hh4AAAAEBAJ&dq=Transclick/ |title=Patent US6996520 - Language translation system and method using specialized dictionaries - Google Patents |website=Google.com |date=2002-11-22 |accessdate=2016-01-25}}</ref>
+
+In November 2005, another Japanese company, [[NEC Corporation]], 
+announced the development of a translation system that could be loaded 
+in mobile phones. This mobile translation system could recognize 50,000 
+Japanese words and 30,000 English words, and could be used for simple 
+translations when travelling.<ref>{{cite web|url=http://english.peopledaily.com.cn/200511/30/eng20051130_224674.html |title=People's Daily Online - Mobile phone and translation machine: two-in-one |website=English.peopledaily.com.cn |date=2005-11-30 |accessdate=2016-01-25}}</ref> However, it was not until January 2009 that NEC Corporation officially demonstrated their product.<ref>{{cite web|url=http://www.nec.co.jp/press/en/0901/0503.html |title=develops Speech Interpretation Software for Mobile Phones(January 5, 2009): News Room |website=Nec.co.jp |date=2009-01-05 |accessdate=2016-01-25}}</ref>
+
+Technological advances within the miniaturization of computing and communication devices have made possible the usage of mobile telephones in language learning. Among the early projects were the Spanish study programs which included vocabulary practice, quizzes, and word and phrase translations. Soon after, projects were developed using mobile phones to teach English at a Japanese university. By 2005, they shifted their focus to providing vocabulary instruction by SMS. A similar program was 
+created for learning Italian in Australia. Vocabulary phrases, quizzes, and short sentences were sent via SMS.<ref>{{cite web|url=http://llt.msu.edu/vol10num1/emerging/default.html |title=LLT Vol 10 Num 1: EMERGING TECHNOLOGIES Going to the MALL: Mobile Assisted Language Learning |website=Llt.msu.edu |date= |accessdate=2016-01-25}}</ref>
+===Current technology===
+Google Translate is one of the most highly-utilized translation services. {{Citation needed|date=June 2015}}. See also [[Infoscope]], which is a handheld device composed of a digital camera and wireless internet access, developed at [[IBM]]'s [[Almaden Research Center]].
+
+The Ili is a handheld device that can provide instantaneous audio translation from one language to another; it only provides translation from English into Japanese or Chinese.<ref> [https://www.forbes.com/sites/geoffreymorrison/2017/05/31/ili-semi-universal-translator-preview-almost-real-time-translation/#5b69d9b340aa Ili (Semi-) Universal Translator Preview: Almost Real-Time Translation], Geoffrey Morrison Forbes, May 31, 2017. </ref><ref> [http://metro.co.uk/2017/02/09/automatic-translator-will-make-travelling-the-world-so-much-easier-6438356/ Automatic translator will make travelling the world so much easier], Ashitha Nagesh for Metro.co.uk, Thursday 9 Feb 2017. </ref><ref> [https://newatlas.com/ili-translator/49812/ Standalone translator comes closer to the marketplace], Ben Coxworth, May 31st, 2017. </ref>
+
+One2One is a prototype that does not rely on Internet connectivity in order to function. It can provide audio translation in eight languages.<ref> [https://newatlas.com/lingmo-translation-earpiece-one2one/50008/ Lingmo language translator earpiece powered by IBM Watson WEARABLES], Rich Haridy June 13th, 2017. </ref>
+
+Pixel Buds is a device produced by Google which can provide real-time audio translation in over 40 languages.<ref> [https://www.cnet.com/news/google-pixel-buds-translates-voice-but-its-not-the-first/ Pixel Buds translates voice, but it's not the first. The headphones announced along with Google's Pixel 2 phone promise nearly-seamless futuristic voice translation. We've been promised this before] BY IAN SHERR, OCTOBER 4, 2017 </ref>
+
+==Technical functions==
+In order to support the machine translation service, a mobile device needs to be able to communicate with external computers (servers) that receive the user-input text/speech, translate it and send it back to the user. This is usually done via an Internet connection ([[Wireless Application Protocol|WAP]], [[GPRS]], [[EDGE]], [[UMTS]], [[Wi-Fi]]) but some earlier applications used SMS to communicate with the translation server.
+
+Mobile translation is not to be confused for the user-editable (talking) dictionaries and phrase books that are already widespread and available for many hand-held devices and do not normally require internet connectivity on the mobile device.
+
+===Features===
+Mobile translation may include a number of useful features, auxiliary to text translation which forms the basis of the service. While the user can input text using the device keyboard, they can also use pre-existing text in the form of email or SMS messages received on the user's device (email/SMS translation). It is also possible to send a translated message, optionally containing the source text as well as the translation.
+
+Some mobile translation applications also offer additional services that further facilitate the translated communication process, such as:
+* speech generation ([[speech synthesis]]), where the (translated) text 
+may be transformed into human speech (by a computer that renders the 
+voice of a native speaker of the target language);
+* [[speech recognition]], where the user may talk to the device which 
+will record the speech and send it to the translation server to convert 
+into text before translating it;
+* [[image translation]], where the user can take a picture (using the 
+device camera) of some printed text (a road sign, a restaurant menu, a 
+page of a book etc.), have the application send it to the translation 
+server which will apply [[Optical Character Recognition]] (OCR) 
+technology, extract the text, return it to the user for editing (if 
+necessary) and then translate it into the chosen language.
+* voice interpreting, where the user can select the required language 
+combination and then get connected automatically to a live interpreter.
+
+===Supported languages===
+Recently, there has been a notable increase of the number of language 
+pairs offered for automatic translation on mobile devices. While 
+Japanese service providers traditionally offer cross-translation for 
+Japanese, Chinese, English and Korean, others may offer translation from and into over 20 languages, or over 200 language pairs, including most Latin languages.
+
+Speech generation is, however, limited to a smaller portion of the above, including English, Spanish, Italian, French, Chinese etc. Image translation depends on the OCR languages available.
+
+==Technological benefits and constraints==
+===Advantages===
+Having portable real-time automated translation at one's disposal has a 
+number of practical uses and advantages.
+
+* Mobilizing Human Translation: human translators can use mobile translation tools to translate wherever and whenever. Human translators no longer have to work with desktop translation software. 
+* Travelling: Real time mobile translation can help people travelling to a foreign country to make themselves understood or understand others.
+* [[Business networking]]: Conducting discussions with (potential) foreign customers using mobile translation saves time and finances, and is instantaneous. Real time mobile translation is a much lower cost alternative to multilingual call centres using human translators. Networking within multinational teams may also be greatly facilitated using the service.
+* Globalization of [[Social Networking]]: Mobile translation allows chatting and text messaging with friends at an international level. New friends and associates could be made by overcoming the language barrier.
+* Learning a foreign language: Learning a foreign language can be made easier and less expensive using a mobile device equipped with real time machine translation. Statistics reveal that most college students own mobile phones and find that learning a foreign language via mobile phone proves to be cheaper than on a [[Personal computer|PC]]. Furthermore, the portability of mobile phones makes it convenient for the foreign language learners to study outside the classroom in any place and in their own time.
+
+===Challenges and disadvantages===
+Advances of mobile technology and of the machine translation services have helped reduce or even eliminate some of the disadvantages of mobile translation such as the reduced screen size of the mobile device and the one-finger keyboarding. Many new hand-held devices come equipped with a QWERTY keyboard and/or a touch-sensitive screen, as well as handwriting recognition which significantly increases typing speed. After 2006, most new [[Mobile phone|mobile]] [[phone]]s and [[gadget|devices]] began featuring large screens with greater resolutions of 640 x 480 px, 854 x 480 px, or even 1024 x 480 
+px,<ref>{{cite web|url=http://mb.softbank.jp/mb/en/product/3g/931sh/ |title=SoftBank homepage |website=Mb.softbank.jp |accessdate=2016-01-25}}</ref> which gives the user enough visible space to read/write large texts. In 2011, the so-called ''hybrid translation technology'',<ref>{{cite web |url= http://www.gottabemobile.com/2011/09/16/vocre-translation-app/ |title= Vocre Translation App For iPhone Makes Cross-Language Conversations Easy |author=Bradford, K. |date=September 16, 2011 |work=|publisher=GottaBeMobile |accessdate=15 September 2012}}</ref> was introduced by [[myLanguage]] through its [[mobile app]] [[Vocre]], which relies in large part on crowd-sourced language data.<ref name=TC1>{{cite web |url=http://www.crunchbase.com/company/vocre |title=myLanguage |author= |date= |work= |publisher=CrunchBase 
+|accessdate=15 September 2012}}</ref>
+
+However, the most important challenge facing the mobile translation industry is the linguistic and communicative quality of the translations. Although some providers claim to have achieved an accuracy as high as 95%, boasting proprietary technology that is capable of “understanding” idioms and slang language, machine translation is still distinctly of lower quality than human translation and should be used with care if the matters translated require correctness.
+
+A disadvantage that needs mentioning is the requirement for a stable Internet connection on the user's mobile device. Since the SMS method of communicating with the translation server has proved less efficient that sending packets of data – because of the message length limit (160 characters) and the higher cost of SMS as compared with Internet traffic charges – Internet connectivity on mobile devices is a must, while coverage in some non-urban areas is still unstable.
+
+==See also==
+{{div col}}
+===General concepts===
+*[[Machine translation]]
+*[[Comparison of machine translation applications]]
+*[[Statistical machine translation]]
+*[[Artificial intelligence]]
+*[[History of machine translation]]
+*[[Human language technology]]
+*[[List of emerging technologies]]
+*[[Universal translator]]
+
+===Specific translating concepts===
+*[[Controlled natural language]]
+*[[Fuzzy matching]]
+*[[Postediting]]
+*[[Humour in translation]] ("howlers")
+*[[Language barrier]]
+*[[Pseudo-translation]]
+*[[Round-trip translation]]
+*[[Translation#Machine translation|Translation]]
+*[[Translation memory]]
+
+===Specific computing concepts===
+*[[Cache language model]]
+*[[Computational linguistics]]
+*[[Universal Networking Language]]
+*[[Computer-assisted translation]] and [[Translation memory]]
+*[[Foreign language writing aid]]
+*[[List of research laboratories for machine translation]]
+*[[Neural machine translation]]
+
+{{div col end}}
+
+===Specific devices and software===
+* [[Phraselator]]
+*[[ULTRA (machine translation system)]]
+
+==References==
+{{Reflist}}
+==Further reading==
+;Overview of current technology
+* [https://www.cnet.com/news/google-pixel-buds-translates-voice-but-its-not-the-first/ Pixel Buds translates voice, but it's not the first:The headphones announced along with Google's Pixel 2 phone promise nearly-seamless futuristic voice translation. We've been promised this before]. By Ian Sherr, October 4, 2017
+{{Natural Language Processing}}
+{{Approaches to machine translation}}
+{{Emerging technologies}}
+{{DEFAULTSORT:Mobile Translation}}
+
+[[Category:Artificial intelligence applications]]
+[[Category:Computational linguistics]]
+[[Category:Machine translation]]
+[[Category:Tasks of natural language processing]]
+[[Category:Mobile telecommunications]]

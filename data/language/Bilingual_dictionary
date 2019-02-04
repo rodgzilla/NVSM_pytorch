@@ -1,0 +1,89 @@
+[[Image:BilingualDictionaries.jpg|thumb|250px|Printed bilingual dictionaries come in all sizes and shapes.]]
+A '''bilingual dictionary''' or '''translation dictionary''' is a specialized [[dictionary]] used to [[Translation|translate]] [[Word (linguistics)|words]] or [[phrase]]s from one [[language]] to another. Bilingual dictionaries can be ''unidirectional'', meaning that they list the meanings of words of one language in another, or can be ''[[wikt:bidirectional|bidirectional]]'', allowing translation to and from both languages. Bidirectional bilingual dictionaries usually consist of two sections, each listing words and phrases of one language alphabetically along with their translation.  In addition to the translation, a bilingual dictionary usually indicates the [[lexical category|part of speech]], [[grammatical gender|gender]], [[grammatical conjugation|verb type]], [[declension|declension model]] and other grammatical clues to help a [[foreign language|non-native speaker]] use the word.  Other features sometimes present in bilingual dictionaries are lists of phrases, usage and style guides, verb tables, maps and grammar references. In contrast to the bilingual dictionary, a [[monolingual dictionary]] defines words and phrases instead of translating them.
+
+== History ==
+{{Expand section|date=July 2011}}
+
+The Roman Emperor [[Claudius]] (10 BCE – 54 CE) is known to have compiled an [[Etruscan language|Etruscan]]-Latin dictionary, now lost.
+
+One substantial bilingual dictionary was the [[Mahāvyutpatti]]. The Mahāvyutpatti (Wylie: ''Bye-brtag-tu rtogs-par byed-pa chen-po''), ''The Great Volume of Precise Understanding'' or ''Essential Etymology'', was compiled in [[Tibet]] during the late eighth to early ninth centuries CE, providing a dictionary composed of thousands of [[Sanskrit]] and [[Old Tibetan|Tibetan]] terms designed as means to provide standardised [[Buddhist texts]] in Tibetan, and is included as part of the Tibetan [[Tangyur]] (Toh. 4346).
+
+Dictionaries from [[Hebrew language|Hebrew]] and [[Aramaic language|Aramaic]] into medieval [[French language|French]] were composed in the [[Europe]]an [[Judaism|Jewish]] communities in the 10th century CE. These were used for understanding and teaching the [[Talmud]] and other Jewish texts.
+
+== Challenges ==
+[[File:Collins dictionaries, W.H. Smith, Enfield.jpg|thumb|A selection of translation dictionaries published by Collins]]
+The most important challenge for practical and theoretical [[lexicography|lexicographers]] is to define the functions of a bilingual dictionary. A bilingual dictionary works to help users translate texts from one language into another or to help users understand foreign-language texts.<ref>{{cite book
+ | first = Sandro
+ | last = Nielsen
+ | title = The Bilingual LSP Dictionary
+ | publisher = Narr Verlag
+ | year = 1994
+ | isbn = 3-8233-4533-8}}</ref> In such situations users will require the dictionary to contain different types of data that have been specifically selected for the function in question. If the function is understanding foreign-language texts the dictionary will contain foreign-language entry words and native-language definitions, which have been written so that they can be understood by the intended user groups. If the dictionary is intended to help translate texts, it will need to include not only equivalents but also collocations and phrases translated into the relevant target language. It has also been shown that specialized translation dictionaries for learners should include data that help users translate difficult syntactical structures as well as language-specific genre conventions.<ref>Nielsen, Sandro (2010): Specialised Translation Dictionaries for Learners. In: P. A. Fuertes-Olivera (ed.): ''Specialised Dictionaries for Learners''. Berlin/New York: de Gruyter, 69-82.</ref>
+
+In standard lexicographic terminology, a bilingual dictionary definition provides a "translation equivalent" – "An expression from a language which has the same meaning as, or can be used in a similar context to, one from another language, and can therefore be used to translate it."<ref>Tom McArthur (1998), [http://www.encyclopedia.com/doc/1O29-TRANSLATIONEQUIVALENT.html TRANSLATION EQUIVALENT], ''Concise Oxford Companion to the English Language''.</ref> The British lexicographer Robert Ilson gives example definitions from the ''[[Collins-Robert French Dictionary|Collins-Robert]] French-English English-French Dictionary''.<ref>Atkins, Beryl T. (1981), ''Collins-Robert French-English English-French Dictionary'', Collins.</ref> Since French ''chien'' = English ''dog'' and ''dog'' = ''chien'', ''chien'' and ''dog'' are translation equivalents; but since ''[[garde champêtre]]'' = ''rural policeman'' and ''rural policeman'' is not included in the English-French dictionary, they are not culturally equivalent.
+<blockquote>Both phrases can be understood reasonably well from their constituents and have fairly obvious contrasts with ''garde urbain'' in French or with ''urban policeman'' in English. But ''garde champêtre'' has a specific unpredictable contrast within the lexical system of French: it contrasts with ''gendarme''. Both are policemen. But a gendarme is a member of a national police force that is technically part of the French Army whereas a ''garde champêtre'' is employed by a local commune. ''Rural policeman'' has no such contrast.<ref>Robert Ilson (2013), "[http://ijl.oxfordjournals.org/content/26/3/386.abstract The Explanatory Technique of Translation]", ''[[International Journal of Lexicography]]'', Vol. 26 No. 3, p. 390.</ref> </blockquote>
+
+Perhaps the most difficult aspect of creating a bilingual dictionary is the fact that [[lexeme]]s or words cover more than one area of [[Meaning (linguistic)|meaning]], but these multiple meanings don't correspond to a single word in the [[Translation|target language]]. For example, in [[English language|English]], a '''ticket''' can provide entrance to a movie theater, authorize a bus or train ride, or can be given to you by a police officer for exceeding the posted speed limit.  In [[Spanish language|Spanish]] these three meanings are not covered by one word as in English, but rather there are several options: '''boleto''' or '''entrada''' and '''infracción/multa''',  and in  [[French language|French]] with  '''billet''' or '''ticket''' and '''procès-verbal''', or in  [[German language|German]] by '''Eintrittskarte''' or '''Fahrkarte''' and '''Mahnung/Bußgeldbescheid'''.
+
+Recently, an automatic method for the [[Word sense disambiguation|disambiguation]] of the entries of bilingual dictionaries has been proposed<ref>Navigli, Roberto. 2009. [http://www.aclweb.org/anthology/E09-1068 Using Cycles and Quasi-Cycles to Disambiguate Dictionary Glosses]. Proc. of 12th Conference of the European Association for Computational Linguistics (EACL 2009), Athens, Greece, pp. 594-602.</ref> that makes use of specific kinds of [[graph (computer science)|graphs]]. As a result, translations in each entry of the dictionary are assigned the specific [[sense]] (i.e., meaning) they refer to.
+
+== Usage ==
+To mitigate the problem of one word having multiple meanings and its translation having multiple, but not necessarily corresponding meanings, the user should perform a reverse lookup. In the above-mentioned example in English and Spanish of the word '''ticket''', after finding that ticket is translated into ''boleto'' and ''infracción'' in the English–Spanish dictionary, both of those Spanish words can be looked up in the Spanish-English section to help to identify which one has the meaning being sought. Reverse lookups can usually be performed faster with Dictionary programs and online dictionaries.
+
+== Formats ==
+[[File:Miniature DNF Dictionary 055 ubt.JPG|thumb|A miniature Danish–French dictionary]]
+Bilingual dictionaries are available in a number of formats, and often include a grammar reference and usage examples.(For instance [[Yadgar Sindhi to English Dictionary]])<ref>[http://www.thesindhtimes.com/?s=yadgar+sindhi+to+english Yadgar Sindhi to English Dictionary -  The Sindh Times feb. 02, 2004]</ref>
+* '''Printed dictionaries''' – Printed dictionaries range from small pocket-sized editions to large, comprehensive multi-volume works.
+* '''Handheld electronic dictionaries''' (also: '''Pocket electronic dictionaries''' or '''PEDs''') – Electronic dictionaries are small devices that receive input via a miniature [[Alphanumeric keyboard|keyboard]], [[speech recognition]] or a [[optical character recognition|scanning device]] that reads printed text, and outputs the translation on a small [[LCD]] screen or speaks the translation audibly.
+* '''Dictionary programs''' –  [[software]] that allows words or phrases to be input and translated on computers and smart  phones.
+* '''Online dictionaries''' – [[List of online dictionaries|Online dictionaries]] similar to dictionary programs, these are often easy to search, but not always free to use, and in some cases lack the accuracy (particularly  in open collaborative dictionaries),  or scope of printed and electronic dictionaries.
+* '''Visual dictionaries''' – A [[visual dictionary]] is a printed dictionary that relies primarily on [[illustration]]s to provide the user with a reliable way of identifying the correct translation. Visual dictionaries are often [[multilingualism|multi-lingual]] rather than bilingual—instead of containing translations between two languages they often cover four or more languages.
+
+== Distribution ==
+Bilingual dictionaries are available for nearly every combination of popular languages. They also often exist between language pairs where one language is popular and the other isn't.  Bilingual dictionaries between two uncommon languages are much less likely to exist.
+
+== Multilingual dictionaries ==
+Multilingual dictionaries are closely related to bilingual dictionaries. In a multilingual dictionary, a person looks up a word or phrase in one language and is presented with the translation in several languages. Multilingual dictionaries can be arranged alphabetically or words can be grouped by topic. When grouped by topic, it is common for a multilingual dictionary to be illustrated.
+
+== Publishers ==
+There are many publishers and manufacturers of both printed and electronic bilingual dictionaries. For example:
+*[[Ectaco]]
+*[[Velazquez Press]]
+*[[Franklin Electronic Publishers]]
+*[[HarperCollins]]
+*[[Langenscheidt]]
+*[[Pierre Larousse|Larousse]]
+*[[Merriam-Webster]]
+*[[SYSTRAN]]
+
+== See also ==
+*[[Bescherelle]], a type of grammar reference book for conjugating verbs
+*[[Babel Fish (website)]]
+*[[Computer-Assisted Translation]]
+*[[Foreign language writing aid]]
+*[[Lexical markup framework]]
+*[[Machine Translation]]
+*[[Mariano Velazquez de la Cadena]] (Spanish-English bilingual dictionary author)
+*[[Parallel text]]
+*[[Phrase book]]
+*[[List of online dictionaries]]
+
+== References ==
+{{Reflist}}
+
+== External links ==
+
+<!--
+      ****************************************
+      ** PLEASE DO NOT ADD MORE EXTERNAL    **
+      ** LINKS WITHOUT DISCUSSING IT ON     **
+      ** THE TALK PAGE FIRST.               **
+      ** WIKIPEDIA IS NOT A WEB DIRECTORY   **
+      ****************************************
+-->
+
+{{Lexicography}}
+{{Language education}}
+
+[[Category:Lexicography]]
+[[Category:Translation dictionaries| ]]

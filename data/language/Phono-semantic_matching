@@ -1,0 +1,157 @@
+'''Phono-semantic matching''' ('''PSM''') is the incorporation of a [[word]] into one language from another, often creating a [[neologism]], where the word's non-native quality is hidden by replacing it with [[Phonetics|phonetically]] and [[semantic]]ally similar words or roots from the adopting language. Thus, the approximate [[sound]] and [[Meaning (linguistic)|meaning]] of the original expression in the source [[language]] are preserved, though the new expression (the PSM) in the target language may sound native.
+
+Phono-semantic matching is distinct from [[calquing]], which includes (semantic) [[translation]] but does not include phonetic matching (i.e. retaining the approximate sound of the [[loanword|borrowed word]] through matching it with a similar-sounding pre-existent word or [[morpheme]] in the target language). At the same time, phono-semantic matching is also distinct from [[homophonic translation]], which retains the sound of a word but not the meaning.
+
+==History==
+The term "phono-semantic matching" was introduced by linguist and revivalist [[Ghil'ad Zuckermann]].{{sfn|Zuckermann|2003a}} It challenged [[Einar Haugen]]'s classic [[Morphological typology|typology]] of lexical borrowing (loanwords).{{sfn|Haugen|1950}} While Haugen categorized borrowing into either substitution or importation, camouflaged borrowing in the form of PSM is a case of "simultaneous substitution and importation." Zuckermann proposed a new classification of multisourced neologisms, words deriving from two or more sources at the same time. Examples of such mechanisms are phonetic matching, semanticized phonetic matching and phono-semantic matching.
+
+Zuckermann concludes that [[language planning|language planners]], for example members of the [[Academy of the Hebrew Language]], employ the very same techniques used in [[folk etymology]] by [[laymen]], as well as by religious leaders.{{sfn|Zuckermann|2006}} He urges [[lexicographer]]s and [[etymologist]]s to recognize the widespread phenomena of camouflaged borrowing and multisourced neologization and not to force one source on multi-parental [[lexical item]]s.
+
+==Examples==
+===Modern Hebrew===
+Often in phono-semantic matching, the source-language determines both the root word and the noun-pattern. This makes it difficult to determine the source language's influence on the target-language [[morphology (linguistics)|morphology]]. For example, "the phono-semantic matcher of [[English language|English]] ''dock'' with [[Modern Hebrew|Israeli Hebrew]] מבדוק ''mivdók'' could have used{{snd}} after deliberately choosing the phonetically and semantically suitable [[triliteral root|root]] ''{{transl|he|b-d-q}}'' {{lang|he|בדק}} meaning 'check' (Rabbinic) or 'repair' (Biblical){{snd}} the noun-patterns ''mi⌂⌂a⌂á'', ''ma⌂⌂e⌂á'', ''mi⌂⌂é⌂et'', ''mi⌂⌂a⌂áim'' etc. (each ⌂ represents a slot where a radical is inserted). Instead, ''mi⌂⌂ó⌂'', which was not highly productive, was chosen because its [o] makes the final syllable of מבדוק ''mivdók'' sound like English ''dock''."{{sfn|Zuckermann|2009|page=59}}
+
+===Mandarin Chinese===
+PSM is frequently used in [[Mandarin Chinese|Mandarin]] borrowings.{{sfn|Zuckermann|2003b}}{{sfn|Zuckermann|2004}}
+
+An example is the [[Taiwanese Mandarin]] word {{lang|zh|威而剛}} ''wēi'érgāng'' (wei'ergang), which literally means "powerful and hard" and refers to [[Viagra]], the drug for treating [[impotence]] in men, manufactured by [[Pfizer]].{{sfn|Zuckermann|2003a|page= 59}}
+
+Another example is the Mandarin form of [[World Wide Web]], which is ''wàn wéi wǎng'' ({{lang|zh|[[wikt:万维网|万维网]]}}), which satisfies "www" and literally means “myriad dimensional net”.<ref>See [[CEDICT]] or the [http://www.mdbg.net/chindict/chindict.php?page=translate&trst=0&trqs=World+Wide+Web&trlang=&wddmtm=0 MDBG Chinese-English Dictionary].</ref> The English word ''[[hacker (term)|hacker]]'' has been borrowed into Mandarin as {{lang|zh|{{linktext|黑客}}}} (''hēikè'', "wicked visitor").{{sfn|Gao|2008}}
+
+"[[Modern Standard Chinese]] {{lang|zh-hans|声纳}} ''shēngnà'' "[[sonar]]", which uses the characters {{lang|zh|声}} ''shēng'' "sound" and {{lang|zh|纳}} ''nà'' "receive, accept". {{lang|zh|声}} ''shēng'' is a phonetically imperfect rendering of the English initial syllable (although ''peng'', for instance, would have been much worse{{Clarification needed|date=January 2019}}). Chinese has a large number of homo/heterotonal homophonous morphemes, which would have been much better phonetically (but not nearly as good semantically){{snd}} consider the syllable ''{{lang|zh-latn-pinyin|song}}'' (cf. {{lang|zh|送}} ''sòng'' ‘deliver, carry, give (as a present)’, {{lang|zh|松}} ''sōng'' ‘pine; loose, slack’, {{lang|zh|耸}} ''sǒng'' ‘tower; alarm, attract’ etc.), ''{{lang|zh-latn-pinyin|sou}}'' (cf. {{lang|zh|搜}} ''sōu'' ‘search’, {{lang|zh|叟}} ''sŏu'' ‘old man’, {{lang|zh|馊}} ''sōu'' ‘sour, spoiled’ and many others) or ''{{lang|zh-latn-pinyin|shou}}'' (cf. {{lang|zh|收}} ''shōu'' ‘receive, accept’, {{lang|zh|受}} ''shòu'' ‘receive, accept’, {{lang|zh|手}} ''shǒu'' ‘hand’, {{lang|zh|首}} ''shǒu'' ‘head’, {{lang|zh|兽}} ''shòu'' ‘beast’, {{lang|zh|瘦}} ''shòu'' ‘thin’ and so forth).".{{sfn|Zuckermann|2003a|page=57}}
+
+According to Zuckermann, PSM in Mandarin is common in:
+
+* brand names
+* computer [[jargon]]; the aforementioned word for "World Wide Web"
+* technological terms; the aforementioned word for "Sonar".
+* [[toponyms]]; e.g. The name {{lang|zh-hans|白俄罗斯}} ''Bái'èluósī'', "[[Belarus]]" combines the word {{lang|zh-hans|白}} ''Bái'', "White" with the name {{lang|zh-hans|俄罗斯}} ''Èluósī'', "[[Russia]]", therefore meaning "White Russia" just like the endonym "Белару́сь".
+
+From a monolingual Chinese view, Mandarin PSM is the ‘lesser evil’ compared with Latin script (in [[digraphic]] writing) or [[code switching]] (in speech). Zuckermann’s exploration of PSM in Standard Chinese and [[Meiji-period]] [[Japanese language|Japanese]] concludes that the [[Written Chinese|Chinese writing system]] is multifunctional: '''pleremic''' ("full" of meaning, e.g. [[logographic]]), '''cenemic''' ("empty" of [[Meaning (linguistics)|meaning]], e.g. phonographic - like a [[syllabary]]) and simultaneously cenemic and pleremic ('''phono-logographic'''). Zuckermann argues that [[Leonard Bloomfield]]’s assertion that "a language is the same no matter what system of writing may be used"{{sfn|Bloomfield|1933}} is inaccurate. “If Chinese had been written [[romanization of Chinese|using roman letters]], thousands of Chinese words would not have been coined, or would have been coined with completely different forms”.{{sfn|Zuckermann|2003a|page=255}}
+
+===Japanese===
+{{Main|Ateji}}
+
+In modern Japanese, loan words are generally represented phonetically via [[katakana]]. However, previously loan words were often represented by Chinese characters, a process called ''[[ateji]]'' (when used for sound, or ''[[jukujikun]],'' when used for meaning), and some of these continue to be used. The characters chosen may correspond to the sound, the meaning, or both.
+
+In many cases the characters used were used only for sound or only for meaning. For example, in the word {{lang|ja-Hani|寿司}} ([[sushi]]), the two characters are respectively read as ''su'' and ''shi'', but the character {{lang|ja-Hani|寿}} means "one's natural life span" and {{lang|ja-Hani|司}} means "to administer", neither of which has anything to do with the food{{snd}} this is ''ateji''. Conversely, in the word {{lang|ja-Hani|煙草}} (''tabako'') for "[[tobacco]]", the individual kanji respectively mean "smoke" and "herb", which corresponds to the meaning, but they have no phonetic relationship to the word ''tabako''{{snd}} this is ''[[jukujikun]]''.
+
+In some cases, however, the kanji are sometimes chosen for both their semantic and phonetic values, a form of phono-semantic matching. A stock example is {{lang|ja-Hani|倶楽部}} (''kurabu'') for "[[Club (organization)|club]]", where the characters can be interpreted loosely in sequence as "together", "fun" and "place". Another example is {{lang|ja-Hani|合羽}} (''kappa'') for the [[Portuguese language|Portuguese]] ''capa'', a kind of [[raincoat]]. The characters can mean "wings coming together", as the pointed ''capa'' resembles a bird with wings folded together.
+
+===Icelandic===
+{{harvtxt|Sapir|Zuckermann|2008}} demonstrate how Icelandic camouflages many English words by means of phono-semantic matching. For example, the Icelandic-looking word ''eyðni'', meaning "AIDS", is a PSM of the English acronym ''AIDS'', using the pre-existent Icelandic verb ''eyða'', meaning "to destroy", and the Icelandic nominal suffix ''-ni''.<ref>{{harvtxt|Sapir|Zuckermann|2008|page=36}}: see also {{lang|zh-hans|爱滋病}} ''{{lang|zh-latn-pinyin|aìzībìng}}'' (lit. "a disease caused by (making) love"), another PSM of ''AIDS'', in this case in [[Modern Standard Chinese]].</ref> Similarly, the Icelandic word ''tækni'', meaning "technology, technique", derives from ''tæki'', meaning "tool", combined with the nominal suffix ''-ni'', but is, in fact, a PSM of the Danish (or international) ''teknik'', meaning "technology, technique". ''Tækni'' was coined in 1912 by Dr Björn Bjarnarson from Viðfjörður in the East of Iceland. It had been in little use until the 1940s, but has ever since become highly common, as a lexeme and as an element in new formations, such as ''raftækni'', lit. "electrical technics", i.e. "electronics", ''tæknilegur'' "technical" and ''tæknir'' "technician".<ref>{{harvtxt|Sapir|Zuckermann|2008|pages=37–38}}, cf. {{lang|ar|تقنيّ}} taqni/tiqani (lit. "of perfection, related to mastering and improving"), another PSM of  ''technical'', in this case in Modern Arabic.</ref> Other PSMs discussed in the article are ''beygla'', ''bifra''{{snd}} ''bifrari'', ''brokkál'', ''dapur''{{snd}} ''dapurleiki'' - ''depurð'', ''fjárfesta'' - ''fjárfesting'', ''heila'', ''guðspjall'', ''ímynd'', ''júgurð'', ''korréttur'', ''Létt og laggott'', ''musl'', ''pallborð''{{snd}} ''pallborðsumræður'', ''páfagaukur'', ''ratsjá'', ''setur'', ''staða'', ''staðall''{{snd}} ''staðla''{{snd}} ''stöðlun'', ''toga''{{snd}} ''togari'', ''uppi'' and ''veira''.{{sfn|Sapir|Zuckermann|2008}}
+
+===English===
+In the vegetable name [[Jerusalem artichoke]] the first word part was altered to match ''Jerusalem'' exactly, although it actually derives from Italian ''girasole'' 'sunflower'.
+
+A few PSMs exist in English, based on French loanwords; the mispronunciation of ''{{lang|fr|[[chaise longue]]}}'' as "chase-''lounge''" is a familiar example.  The French word ''{{lang|fr|choupique}}'', itself an adaptation of the Choctaw name for the [[bowfin]], has likewise been Anglicized as "shoepike",<ref>{{cite web |url=http://www.bowfinanglers.com/ |title=Bowfin Anglers |accessdate=2007-07-15 |deadurl=yes |archiveurl=https://web.archive.org/web/20070712154743/http://www.bowfinanglers.com/ |archivedate=2007-07-12 |df= }}</ref> although it is unrelated to the [[Esox|pikes]].  The French name for the [[Maclura pomifera|Osage orange]], ''{{lang|fr|bois d'arc}}'' ({{abbr|lit.|literally}} "[[Bow (weapon)|bow]]-wood"), is sometimes rendered as "bowdark".{{sfn|Wynia|2011}} 
+
+The second part of the word ''[[muskrat]]'' was altered to match ''[[rat]]'', replacing the original form ''{{linktext|musquash}}'', which derives from an [[Algonquian languages|Algonquian]] (possibly [[Powhatan language|Powhatan]]<ref>{{cite web|work=Online Etymology Dictionary|title=Muskrat|url=http://www.etymonline.com/index.php?term=muskrat}}</ref>) word, ''muscascus'' (literally "it is red"), or from the [[Abenaki language|Abenaki]] native word ''mòskwas''.
+
+===Dutch===
+A number of PSMs exist in [[Dutch language|Dutch]] as well. One notable example is ''hangmat'' ("hammock"), which is a modification of Spanish ''hamaca'', also the source of the English word. Natively, the word is transparently analysed as a "hang-mat", which aptly describes the object. Similarly:
+* In ''ansjovis'' ("anchovy"), the second part was modified to resemble ''vis'' ("fish"), although the word originates in Spanish ''anchova'';
+* In ''jeruzalemartisjok'' (“Jerusalem artichoke"), the first word part was modified from Italian ''girasole'' in the same way as in English;
+* In ''scheurbuik'' ("scurvy"), the word parts were modified to resemble ''scheur-'' (stem of ''scheuren'', tear open) and ''buik'' ("belly, stomach"), although the word originates in Middle Low German ''schorbuck'';
+* In ''sprokkelmaand'' (an alternative name for ''februari'', "February"), the first part was modified to resemble ''sprokkelen'' ("gather wood"), although the word originates in Latin ''spurcalia'';
+* In ''witbier'' the first word part was modified from the German word ''Weizen'' ("wheat") to resemble ''wit'' ("white");
+* In ''zijdenhemdje'' (a variety of apple with a very soft, thin, yellow skin), the word parts were modified to resemble ''zijden'' ("silken") and ''hemdje'' ("shirt; small shirt; vest"), although the word actually denotes the place [[Sydenham]] where the apple originates.{{sfn|van Dale|2015}}
+* Dutch dictionary ''Van Dale'' describes ''balkenbrij'' as a particularly notable example.
+* Other examples are angstvallig, dukdalf, geeuwhonger, hagedis, hondsdraf, penthouse, rederijker, rendier and zondvloed.
+
+===German===
+{{harvtxt|Mailhammer|2008}} "applies the concepts of multisourced neologisation and, more generally, camouflaged borrowing, as established by {{harvtxt|Zuckermann|2003a}} to Modern German, pursuing a twofold aim, namely to underline the significance of multisourced neologisation for language contact theory and secondly to demonstrate that together with other forms of camouflaged borrowing it remains an important borrowing mechanism in contemporary German."{{sfn|Mailhammer|2008|page=191}}
+
+===Arabic===
+{{harvtxt|Zuckermann|2009|page=60}} analyses the evolution of the word ''[[artichoke]]''. Beginning in Arabic {{lang|ar|الخرشوف}} (''{{transl|ar|'al-xarshūf}}'') "the artichoke", it was adapted into Spanish Arabic ''alxarshofa'', then [[Old Spanish]] ''alcarchofa'', then [[Italian language|Italian]] ''alcarcioffo'', North Italian ''arcicioffo'' > ''arciciocco'' > ''articiocco'', then as the [[internationalism (linguistics)|internationalism]] phonetically realized in English as ''artichoke''. The word was eventually ''phono-semantically matched'' back into colloquial [[Levantine Arabic]] (for example in [[Syria]], [[Lebanon]] and Israel) as {{lang|ar|أرضي شوكي}} ''arḍī shōkī'', consisting of {{lang|ar|أرضي}} ''arḍī'' "earthly" and {{lang|ar|شوكي}} ''shawkī'' "thorny".
+
+Arabic has made use of phono-semantic matching to replace blatantly imported new terminology with a word derived from an existing [[triliteral root]]. Examples are:
+{| class="wikitable"
+|-
+! English word !! Unarabicised import !! Arabicised word !! Pre-existing root (meaning)
+|-
+| Technology || {{transl|ar|tiknulugiyah}} || {{lang|ar|تقانة}} {{transl|ar|taqānah}} || t-q-n (skill)
+|-
+| Mitochondria || {{lang|ar|الميتوكُندريات}} {{transl|ar|mītūkundriyah}} || {{lang|ar|متقدرة}} {{transl|ar|mutaqaddirah}} || q-d-r (power)
+|-
+| Machine || || {{lang|ar|مكنة}} {{transl|ar|makinah}} || m-k-n (capacity)
+|}
+
+===Marketing names===
+''Viagra'', a brand name which was suggested by Interbrand Wood (the consultancy firm hired by Pfizer), is itself a multisourced neologism, based on [[Sanskrit]] {{lang|sa|व्याघ्र}} ''{{IAST|vyāghráh}}'' ("tiger") but enhanced by the words ''vigour'' (i.e. strength) and ''Niagara'' (i.e. free/forceful flow).{{sfn|Zuckermann|2003a|page= 59}}
+
+==Motivations==
+According to {{harvtxt|Zuckermann|2003a}}, PSM has various advantages from the point of view of the puristic language planner:
+
+* recycling obsolete lexical items
+* camouflaging foreign influence (for the native speaker in the future)
+* facilitating initial learning ([[mnemonic]]s) (for the contemporary learner/speaker)
+
+Other motivations for PSM include the following:
+
+* playfulness (cf. midrashic tradition of homiletic commentary, cf. the Jewish ''[[pilpul]]'')
+* [[Apollonian]]ism (the wish to create order/meaningfulness, cf. folk etymology, etymythology, [[paronymic attraction]])
+* [[iconicity]] (the belief that there is something intrinsic about the sound of names.)
+* [[political correctness]] / rejective lexical engineering
+* attracting customers (in the case of [[brand names]])
+
+==Expressive loan==
+An expressive loan is a loanword incorporated into the expressive system of the borrowing language, making it resemble native words or [[onomatopoeia]].  Expressive loanwords are hard to identify, and by definition, they follow the common phonetic sound change patterns poorly. {{sfn|Laakso|2010}} Likewise, there is a continuum between "pure" loanwords and "expressive" loanwords. The difference to a folk etymology is that a folk etymology or [[eggcorn]] is based on misunderstanding, whereas an expressive loan is changed on purpose, the speaker taking the loanword knowing full well that the descriptive quality is different from the original sound and meaning.
+
+South-eastern [[Finnish language|Finnish]], for example, has many expressive loans. The main source language, [[Russian language|Russian]], does not use the  front rounded vowels 'y', 'ä' or 'ö' [y æ ø]. Thus, it is common to add these to redescriptivized loans to remove the degree of foreignness that the loanword would otherwise have. For example, ''tytinä'' "[[brawn]]" means "wobblyness", and superficially it looks like a native construction, originating from the verb ''tutista'' "to wobble" added with a front vowel sound in the [[vowel harmony]]. However, it is expressivized from ''tyyteni'' (which is a confusing word as ''-ni'' is a [[possessive suffix]]), which in turn is a loanword from Russian ''stúden' ''.{{sfn|Jarva|2001}} A somewhat more obvious example is ''tökötti'' "sticky, tarry goo", which could be mistaken as a derivation from the onomatopoetic word ''tök'' (cf. the verb ''tökkiä'' "to poke"). However, it is an expressive loan of Russian ''d'ogot' '' "[[tar]]".{{sfn|Jarva|2003}}
+
+==See also==
+{{div col}}
+* [[Calque]]
+* [[Eggcorn]]
+* [[Hybrid word]]
+* [[Internationalism (linguistics)|Internationalism]]
+* [[Language contact]]
+* [[Lexicology]]
+* [[Neologism]]
+* [[Phonestheme]]
+* [[Portmanteau]]
+* [[Word formation]]
+{{div col end}}
+
+==References==
+{{reflist|30em}}
+{{Refbegin}}
+*{{cite book |last=Bloomfield |first=Leonard |date=1933 |title=Language |location=New York |publisher=Henry Holt |page=21 |ref=harv}}
+*{{Cite book  |last=van Dale |first=Johan Hendrik |title=Groot woordenboek van de Nederlandse taal |edition=15th |publisher=Van Dale Uitgevers |year=2015 |isbn=9789460772221 |location=Utrecht |language=nl |ref=harv}}
+* {{cite speech |last=Gao |first=Liwei |year=2008 |title=Language change in progress: evidence from computer-mediated communication|event=20th North American Conference on Chinese Linguistics |location=Ohio State University |ref=harv}}
+*{{cite journal |last=Haugen |first=Einar |year=1950 |title=The Analysis of Linguistic Borrowing |journal=[[Language (journal)|Language]] |volume=26 |issue=2 |pages=210–231 |jstor=410058 |ref=harv}}
+*{{cite book |last=Heyd |first=Uriel |title=Language reform in modern Turkey |date=1954 |publisher=Israel Oriental Society |location=Jerusalem |oclc= 3816059 |ref=harv}}
+*{{cite journal |last=Mailhammer |first=Robert |date=2008 |title=The Wolf in sheep's clothing: Camouflaged borrowing in Modern German |journal=Folia Linguistica |volume=42 |issue=1 |pages=177–193 |ISSN=0165-4004 |ref=harv}}
+*{{cite encyclopedia |last=Laakso |first=Johanna |title=Contact and the Finno-Ugric languages |encyclopedia=The Handbook of Language Contact |editor-first=Raymond |editor-last=Hickey |publisher=Wiley |date=2010 |url=https://books.google.fi/books?id=xGZedef70zAC&pg=PA608&lpg=PA608&dq=expressive+loan&source=bl&ots=A9XbmIfE_q&sig=v3__H2ccWmT1_yBqXzAos4R1iK8&hl=en&sa=X&ved=0ahUKEwik6s2KwOXaAhXMiCwKHVLxBT84ChDoAQhCMAQ#v=onepage&q=expressive%20loan&f=false |ref=harv}}
+*{{cite book |last=Lewis |first=Geoffrey L |url=https://archive.org/details/TurkishATeachYourselfBook180PagesByProfessorG.L.LewisOfOxford/ |title=Turkish |series=Teach Yourself Books |publisher=Hodder, Stoughton |location=London |date=1977 |orig-year=1953 |isbn=0340058285 |ref=harv}}
+*{{Cite web |first=Vesa |last=Jarva |url=http://info.adm.jyu.fi/main/portti/tiedotteet/2003/08/1166/show_announcement |title=Väitös: Tökötti tököttää, tytinä tytisee (Jarva) |date=23 August 2003 |deadurl=yes |archiveurl=https://web.archive.org/web/20061010011414/http://info.adm.jyu.fi/main/portti/tiedotteet/2003/08/1166/show_announcement |archivedate=2006-10-10 |language=fi |ref=harv}}
+*{{cite encyclopedia |last=Jarva |first=Vesa |title=Some expressive and borrowed elements in the lexicon of Finnish dialects |encyclopedia=Ideophones |editor-first1=Erhard Friedrich Karl |editor-last1=Voeltz |editor-first2=Christa |editor-last2=Kilian-Hatz |publisher=John Benjamins |date=2001 |url=https://books.google.fi/books?id=ivuSe0tzJZkC&pg=PA118&lpg=PA118&dq=expressive+loan&source=bl&ots=ZXq6F09lb-&sig=szCwIPlDotktCaUTOVuiCej4seM&hl=en&sa=X&ved=0ahUKEwjplsv7v-XaAhUIXSwKHbq7C5gQ6AEIcDAJ#v=onepage&q=expressive%20loan&f=false |ref=harv}}
+*{{cite encyclopedia |last1=Sapir |first1=Yair |last2=Zuckermann |first2=Ghil'ad |url=http://www.zuckermann.org/pdf/icelandicPSM.pdf |date=2008 |title=Icelandic: Phonosemantic Matching |editor-first1=Judith |editor-last1=Rosenhouse |editor-first2=Rotem |editor-last2=Kowner |encyclopedia=Globally Speaking: Motives for Adopting English Vocabulary in Other Languages |location=Clevedon-Buffalo-Toronto |publisher=Multilingual Matters |pages=19–43 (Chapter 2)|ref=harv}}
+*{{cite web |last=Wynia |first=Richard |url=http://plants.usda.gov/factsheet/pdf/fs_mapo.pdf |date=March 2011 |title=Plant fact sheet for Osage orange (''Maclura pomifera'') |publisher=USDA Natural Resources Conservation Service, Manhattan Plant Materials Center |location=Manhattan, KS |accessdate=December 16, 2015 |ref=harv}}
+*{{cite book |last=Zuckermann |first=Ghil'ad |authorlink=Ghil'ad Zuckermann |year=2003 |title=Language Contact and Lexical Enrichment in Israeli Hebrew |publisher=[[Palgrave Macmillan]] |isbn=978-1403917232 |ref={{harvid|Zuckermann|2003a}}}}
+*{{cite journal |last=Zuckermann |first=Ghil'ad |year=2003 |title=Language Contact and Globalisation: The Camouflaged Influence of English on the World’s Languages –  with special attention to Israeli (sic) and Mandarin |journal=Cambridge Review of International Affairs |volume=16 |issue=2 |pages=287–307 |doi=10.1080/09557570302045 |ref={{harvid|Zuckermann|2003b}}}}
+*{{cite journal |last=Zuckermann |first=Ghil'ad |year=2004 |title=Cultural Hybridity: Multisourced Neologization in 'Reinvented' Languages and in Languages with 'Phono-Logographic' Script |journal=Languages in Contrast |volume=4 |issue=2 |pages=281–318 |doi= 10.1075/lic.4.2.06zuc}}
+* {{cite encyclopedia |last=Zuckermann |first=Ghil'ad |year=2006 |title='Etymythological Othering' and the Power of 'Lexical Engineering' in Judaism, Islam and Christianity. A Socio-Philo(sopho)logical Perspective |encyclopedia=Explorations in the Sociology of Language and Religion |editor-first1=Tope |editor-last1=Omoniyi |editor-first2=Joshua A. |editor-last2=Fishman |location=Amsterdam |publisher=John Benjamins |pages=237–258}}
+*{{cite journal |last=Zuckermann |first=Ghil'ad |date=2009 |url=http://www.zuckermann.org/pdf/Hybridity_versus_Revivability.pdf |title=Hybridity versus Revivability: Multiple Causation, Forms and Patterns |journal=Journal of Language Contact |volume=Varia 2 |pages=40–67 |ref=harv}}
+{{Refend}}
+
+==External links==
+*[https://qz.com/816544/phono-semantic-matching-corporate-branding/ Jane C. Hu, 23 October 2016: LOST IN TRANSLATION: The genius and stupidity of corporate America are on display when companies rebrand for new countries]
+
+{{Use dmy dates|date=September 2018}}
+
+{{DEFAULTSORT:Phono-Semantic Matching}}
+[[Category:Word coinage]]
+[[Category:Linguistic morphology]]
+[[Category:Linguistic typology]]
+[[Category:Grammar]]
+[[Category:Sociolinguistics]]
+[[Category:Language contact]]
+[[Category:Linguistic purism]]
+[[Category:Pidgins and creoles]]
+[[Category:Chinese language]]
+[[Category:Semantics]]
+[[Category:Hebrew language]]
+
+[[he:גלעד צוקרמן#"תשמו"ץ"]]

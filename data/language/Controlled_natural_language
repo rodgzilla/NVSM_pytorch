@@ -1,0 +1,47 @@
+'''Controlled natural languages''' ('''CNLs''') are subsets of [[natural language]]s that are obtained by restricting the grammar and vocabulary in order to reduce or eliminate [[ambiguity]] and complexity. Traditionally, controlled languages fall into two major types: those that improve readability for human readers (e.g. non-native speakers),
+and those that enable reliable automatic [[Semantic analysis (linguistics)|semantic analysis]] of the language.
+
+The first type of languages (often called "simplified" or "technical" languages), for example ASD Simplified Technical English, Caterpillar Technical English, IBM's Easy English, are used in the industry to increase the quality of technical documentation, and possibly simplify the (semi-)automatic translation of the documentation.
+These languages restrict the writer by general rules such as "Keep sentences short", "Avoid the use of pronouns", "Only use dictionary-approved words", and "Use only the active voice".<ref>{{cite conference |url=http://www.mt-archive.info/CLT-2003-Obrien.pdf |title=Controlling Controlled English - An Analysis of Several Controlled Language Rule Sets | first = Sharon | last = O'Brien |year=2003 |booktitle=Proceedings of EAMT-CLAW }}</ref>
+
+The second type of languages have a formal logical basis, i.e. they have a formal syntax and semantics, and can be mapped to an existing [[formal language]], such as [[first-order logic]]. Thus, those languages can be used as [[knowledge representation language]]s,<ref>Schwitter, Rolf. "[http://staff.um.edu.mt/mros1/cnl2010/TALKS/schwitter_tutorial.pdf Controlled natural languages for knowledge representation]." Proceedings of the 23rd International Conference on Computational Linguistics: Posters. Association for Computational Linguistics, 2010.</ref> and writing of those languages is supported by fully automatic consistency and redundancy checks, [[query answering]], etc.
+
+==Languages==
+Existing controlled natural languages include:<ref>Kuhn, Tobias. "[http://www.mitpressjournals.org/doi/full/10.1162/COLI_a_00168 A survey and classification of controlled natural languages]." Computational Linguistics 40.1 (2014): 121-170.</ref><ref name="Pool2006">{{cite journal | first = Jonathan | last = Pool | url = http://utilika.org/pubs/etc/ambigcl/clweb.html | title = Can Controlled Languages Scale to the Web? | year = 2006 | deadurl = yes | archiveurl = https://web.archive.org/web/20090815035716/http://utilika.org/pubs/etc/ambigcl/clweb.html | archivedate = 2009-08-15 | df =  }}</ref>
+
+{{div col}}
+* [[ASD Simplified Technical English]]
+* [[Attempto Controlled English]]<ref>{{cite conference |author1=Norbert E. Fuchs |author2=Kaarel Kaljurand |author3=Gerold Schneider | title = Attempto Controlled English Meets the Challenges of Knowledge Representation, Reasoning, Interoperability and User Interfaces | booktitle = FLAIRS 2006 | date = 2006 | url = http://attempto.ifi.uzh.ch/site/publications/papers/FLAIRS0601FuchsN.pdf | format = [[PDF]]}}</ref>
+* [[Basic English]]<ref>{{cite book|last1=Ogden|first1=Charles Kay|title=Basic English: A General Introduction with Rules and Grammar|date=1930|publisher=Paul Treber & Co., Ltd.|location=London}}</ref>
+* [[ClearTalk]]
+* [[Common Logic]] Controlled English<ref>{{cite web|url=http://www.jfsowa.com/clce/specs.htm|title=Common Logic Controlled English|website=www.jfsowa.com|accessdate=27 August 2017}}</ref>
+* [[E-Prime]]
+* [[Gellish|Gellish Formal English]]
+* ModeLang<ref>{{cite journal|last1=Wasik|first1=Szymon|last2=Prejzendanc|first2=Tomasz|last3=Blazewicz|first3=Jacek|title=ModeLang: A New Approach for Experts-Friendly Viral Infections Modeling|journal=Computational and Mathematical Methods in Medicine|date=2013|volume=2013|pages=1–8|doi=10.1155/2013/320715}}</ref>
+* [[Newspeak]]
+* Processable English (PENG)<ref>{{cite journal|last1=Schwitter|first1=Rolf|last2=Tilbrook|first2=M|title=PENG: Processable ENGlish|journal=Technical Report, Macquarie University, Australia|date=2004}}</ref>
+* [[Semantics of Business Vocabulary and Business Rules]]
+* [[Special English]]
+{{div col end}}
+
+==See also==
+{{div col}}
+* [[Constructed language]]
+* [[Knowledge representation and reasoning]]
+* [[Natural language processing]]
+* [[Controlled vocabulary]]
+* [[Controlled language in machine translation]]
+* [[Structured English]]
+* [[Word-sense disambiguation]]
+* [[Simple English Wikipedia]]
+{{div col end}}
+
+==References==
+{{reflist}}
+
+==External links==
+*[https://sites.google.com/site/controllednaturallanguage/ Controlled Natural Languages]
+
+{{DEFAULTSORT:Controlled Natural Language}}
+[[Category:Controlled natural languages| ]]
+[[Category:Natural language processing]]

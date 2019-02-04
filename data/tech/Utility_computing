@@ -1,0 +1,51 @@
+{{distinguish|Utility software}}
+{{Refimprove|date=September 2007}}
+
+'''Utility computing''', or '''The Computer Utility''',  is a service provisioning model in which a service provider makes computing resources and infrastructure management available to the customer as needed, and charges them for specific usage rather than a flat rate. Like other types of on-demand computing (such as grid computing), the utility model seeks to maximize the efficient use of resources and/or minimize associated costs. Utility is the packaging of [[system resource]]s, such as computation, storage and services, as a metered service.  This model has the advantage of a low or no initial cost to acquire computer resources; instead, resources are essentially rented.
+
+This repackaging of computing services became the foundation of the shift to "[[Code on demand|on demand]]" computing, [[software as a service]] and [[cloud computing]] models that further propagated the idea of computing, application and network as a service.
+
+There was some initial skepticism about such a significant shift.<ref>{{citation | publisher=ZD Net | url=http://www.zdnet.com/news/on-demand-computing-what-are-the-odds/296135 | title=On-demand computing: What are the odds?  | first= | last= | date=Nov 2002 | accessdate=2017-11-03}}</ref> However, the new model of computing caught on and eventually became mainstream.
+
+IBM, HP and Microsoft were early leaders in the new field of utility computing, with their business units and researchers working on the architecture, payment and development challenges of the new computing model. Google, Amazon and others started to take the lead in 2008, as they established their own utility services for computing, storage and applications.
+
+Utility computing can support grid computing which has the characteristic of very large computations or sudden peaks in demand which are supported via a large number of computers.
+
+"Utility computing" has usually envisioned some form of [[Platform virtualization|virtualization]] so that the amount of storage or computing power available is considerably larger than that of a single [[time-sharing]] computer.  Multiple servers are used on the "back end" to make this possible.  These might be a dedicated [[computer cluster]] specifically built for the purpose of being rented out, or even an under-utilized [[supercomputer]].  The technique of running a single calculation on multiple computers is known as [[distributed computing]].
+
+The term "[[grid computing]]" is often used to describe a particular form of distributed computing, where the supporting nodes are geographically distributed or cross [[administrative domain]]s.  To provide utility computing services, a company can "bundle" the resources of members of the public for sale, who might be paid with a portion of the revenue from clients.
+
+One model, common among [[volunteer computing]] applications, is for a central server to dispense tasks to participating nodes, on the behest of approved end-users (in the commercial case, the paying customers).  Another model, sometimes called the [[Virtual Organization (Grid computing)|Virtual Organization]] (VO),{{Citation needed|date=June 2007}} is more decentralized, with organizations buying and selling [[Computational resource|computing resources]] as needed or as they go idle.
+
+The definition of "utility computing" is sometimes extended to specialized tasks, such as [[web service]]s.
+
+== History ==
+Utility computing merely means "Pay and Use", with regards to computing power.
+Utility computing is not a new concept, but rather has quite a long history. Among the earliest references is:
+{{cquote|If computers of the kind I have advocated become the computers of the future, then computing may someday be organized as a public utility just as the telephone system is a public utility... The computer utility could become the basis of a new and important industry.|author=[[John McCarthy (computer scientist)|John McCarthy]]|source=speaking at the MIT Centennial in 1961<ref>{{cite book|title=Architects of the Information Society, Thirty-Five Years of the Laboratory for Computer Science at MIT|editor1-first=Hal|editor1-last=Abelson|first1=Simson|last1=Garfinkel|isbn=978-0-262-07196-3|publisher=MIT Press|year=1999|page=1|url=https://books.google.com/books?id=Fc7dkLGLKrcC&pg=PA1|location=Cambridge}}</ref>}}
+
+IBM and other mainframe providers conducted this kind of business in the following two decades, often referred to as time-sharing, offering computing power and database storage to banks and other large organizations from their worldwide data centers. To facilitate this business model, mainframe operating systems evolved to include process control facilities, security, and user metering. The advent of mini computers changed this business model, by making computers affordable to almost all companies. As Intel and AMD increased the power of PC architecture servers with each new generation of processor, data centers became filled with thousands of servers.
+
+In the late 90's utility computing re-surfaced. InsynQ, Inc. launched [on-demand] applications and desktop hosting services in 1997 using HP equipment. In 1998, HP set up the Utility Computing Division in Mountain View, CA, assigning former Bell Labs computer scientists to begin work on a computing power plant, incorporating multiple utilities to form a software stack. Services such as "IP billing-on-tap" were marketed. HP introduced the [[HP Utility Data Center|Utility Data Center]] in 2001. Sun announced the [[Sun Cloud]] service to consumers in 2000. In December 2005, [[Alexa Internet|Alexa]] launched Alexa Web Search Platform, a Web search building tool for which the underlying power is utility computing. Alexa charges users for storage, utilization, etc. There is space in the market for specific industries and applications as well as other niche applications powered by utility computing. For example, PolyServe Inc. offers a [[clustered file system]] based on commodity server and storage hardware that creates highly available utility computing environments for mission-critical applications including Oracle and Microsoft SQL Server databases, as well as workload optimized solutions specifically tuned for bulk storage, high-performance computing, vertical industries such as financial services, seismic processing, and content serving. The Database Utility and File Serving Utility enable IT organizations to independently add servers or storage as needed, retask workloads to different hardware, and maintain the environment without disruption.
+
+In spring 2006 [[3tera]] announced its AppLogic service and later that summer Amazon launched [[Amazon EC2]] (Elastic Compute Cloud). These services allow the operation of general purpose computing applications. Both are based on [[Xen]] virtualization software and the most commonly used operating system on the virtual computers is Linux, though Windows and Solaris are supported. Common uses include web application, SaaS, image rendering and processing but also general-purpose business applications.
+
+== See also ==
+* [[Cloud computing]]
+* [[Computer service bureau]]
+* [[Edge computing]]
+* [[Grid computing]]
+
+==References==
+{{reflist}}
+Decision support and business intelligence 8th edition page 680 {{ISBN|0-13-198660-0}}
+
+==External links==
+*[http://communication.howstuffworks.com/utility-computing.htm How Utility Computing Works]
+*[http://www.techopedia.com/definition/14622/utility-computing Utility computing definition]
+
+{{DEFAULTSORT:Utility Computing}}
+[[Category:Business models]]
+[[Category:Computer systems]]
+[[Category:Distributed computing architecture]]
+[[Category:Time-sharing]]

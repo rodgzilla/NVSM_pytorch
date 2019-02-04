@@ -1,0 +1,45 @@
+{{refimprove|date=June 2006}}
+[[Image:Time-coded vinyl record.jpg|thumb|300px|A close-up of a time-coded vinyl record]]
+
+'''Vinyl emulation software''' allows the user to physically manipulate the playback of digital audio files on a computer using the turntables as an interface, thus preserving the hands-on control and feel of DJing with [[Gramophone record|vinyl]]. This has the added advantage of using turntables to play back audio recordings not available in [[phonograph]] form. This method allows [[DJ]]s to [[Scratching|scratch]], [[Beatmatching|beatmatch]], and perform other [[turntablism]] that would be impossible with a conventional keyboard-and-mouse computer interface or less tactile control devices. The technology is also mainly referred to as ''DVS'' for ''Digital Vinyl System''.
+
+== Overview ==
+
+Vinyl [[emulator|emulation]] normally uses special [[vinyl record]]s which are played on conventional [[Phonograph|turntable]]s. The vinyl is a recording of analog audio signals often referred to as [[timecode]]. The turntables' audio output - the timecode recording - is routed into an [[analog-to-digital converter]], or ADC. This ADC may be a [[Surround sound|multi-channel]] [[Sound card|soundcard]] or a dedicated external [[USB]] or [[firewire]] audio interface box, [[DJ digital controller|DJ controller device]] or compatible mixer (usually distributed with the software).  The ADC sends digital time code information to the software, which then translates the signal into corresponding changes in the playback speed, direction and position of a digital audio file.  The audio file will react as if were pressed directly onto the record. The manipulated audio output of the program is then sent back through the [[Digital-to-analog converter|DAC]] or the computer's sound card, and can be routed into an audio mixer where it can be mixed like any other analog audio signal.
+
+The result is digital audio playback that sounds like music manipulated by an analog vinyl recording.  However, there is always a short delay between the needle's reading of the time code and the software's playback of the audio.  The delay time is treated as a [[figure of merit]] for vinyl emulation products.  A shorter delay allows the DJ to have better response and control of the music and is usually not noticeable by the user or listener.
+
+In some countries, for example [[Finland]], a [[digital DJ license]] is required to legally play copyrighted music with vinyl emulation software.
+
+== Software packages ==
+
+[[Final Scratch]] was the first vinyl emulation software sold publicly. Since its release in 2001, many similar software and hardware packages have been developed and marketed.
+
+Notable applications licensed under the terms of the [[GNU General Public License]]:
+
+*[[Mixxx]]
+*[[xwax]]
+
+Notable [[proprietary software]] applications include:
+
+*[[Deckadance]]
+*[[Final Scratch]]
+*[[Cross/CrossDJ#DVS|MixVibes DVS]]
+*[[Serato Scratch Live]]
+*[[Torq]]
+*[[Traktor Scratch Pro]]
+
+== See also ==
+
+*[[Comparison of vinyl emulation software]]
+
+== External links ==
+*[http://iwebdj.com/dvs The Digital Vinyl System project (DVS) - 2003], origin of the DVS technology name explained.
+*[http://mspinky.com/Some_Technical_Info_on_VInyl.pdf Technical Information and Tips on Torq's Vinyl Control System by Chad Carrier], a technical abstract on Torq Control Vinyl time-code.
+* [https://web.archive.org/web/20160316073537/http://who-invented-digital-vinyl.co.uk/ Who Invented Digital Vinyl?] Steven Carroll's history of digital vinyl and patent claims.
+* [https://web.archive.org/web/20160305034349/http://www.bauerindustries.com/the-spacedeck-project/ The Spacedeck project] developed by Chris Bauer in 1998.
+
+
+[[Category:Acoustics software]]
+[[Category:DJ equipment]]
+[[Category:DJing]]

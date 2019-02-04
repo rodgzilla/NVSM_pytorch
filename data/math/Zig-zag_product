@@ -1,0 +1,81 @@
+In [[graph theory]], the '''zig-zag product''' of [[regular graph]]s <math>G,H</math>, denoted by <math>G \circ H</math>, takes a large graph (<math>G</math>) and a small graph (<math>H</math>), and produces a graph that approximately inherits the size of the large one but the degree of the small one. An important property of the zig-zag product is that if <math>H</math> is a good [[Expander graph|expander]], then the expansion of the resulting graph is only slightly worse than the expansion of <math>G</math>.
+
+Roughly speaking, the zig-zag product <math>G \circ H</math> replaces each vertex of <math>G</math> with a copy (cloud) of <math>H</math>, and connects the vertices by moving a small step (zig) inside a cloud, followed by a big step (zag) between two clouds, and finally performs another small step inside the destination cloud.
+
+The zigzag product was introduced by {{harvtxt|Reingold|Vadhan|Wigderson|2000}}. When the zig-zag product was first introduced, it was used for the explicit construction of constant degree expanders and extractors. Later on the zig-zag product was used in [[computational complexity theory]] to prove that [[SL (complexity)|symmetric logspace]] and [[L (complexity)|logspace]] are equal {{harv|Reingold|2008}}.
+
+==Definition==
+Let <math>G</math> be a <math>D</math>-regular graph on <math>[N]</math> with [[rotation map]] <math>\mathrm{Rot}_G</math> and let <math>H</math> be a <math>d</math>-regular graph on <math>[D]</math> with rotation map <math>\mathrm{Rot}_H</math>.
+The zig-zag product <math>G \circ H</math> is defined to be the <math>d^{2}</math>-regular graph on <math>[N] \times [D]</math> whose rotation map <math>\mathrm{Rot}_{G \circ H}</math> is as follows:<br />
+<math>\mathrm{Rot}_{G \circ H}((v,a),(i,j))</math>:
+# Let <math>(a',i') = \mathrm{Rot}_{H} (a,i)</math>.
+# Let <math>(w,b')=\mathrm{Rot}_{G}(v,a')</math>.
+# Let <math>(b,j')=\mathrm{Rot}_{H}(b',j)</math>.
+# Output <math>((w,b),(j',i'))</math>.
+
+==Properties==
+===Reduction of the degree===
+It is immediate from the definition of the zigzag product that it transforms a graph <math>G</math> to a new graph which is <math>d^{2}</math>-regular. Thus if <math>G</math> is a significantly larger than <math>H</math>, the zigzag product will reduce the degree of <math>G</math>. Roughly speaking, by amplifying each vertex of <math>G</math> into a cloud of the size of <math>H</math> the product in fact splits the edges of each original vertex between the vertices of the cloud that replace it.
+
+===Spectral gap preservation===
+The expansion of a graph can be measured by its spectral gap. An important property of the zigzag product is the preservation of the [[spectral gap]]. That is, if <math>H</math> is a “good enough” expander (has a large spectral gap) then the expansion of the zigzag product is close to the original expansion of <math>G</math>. 
+
+Formally: Define a <math>(N,D,\lambda)</math>-graph as any <math>D</math>-regular graph on <math>N</math> vertices, whose second largest eigenvalue (of the associated random walk) has absolute value at most <math>\lambda</math>.
+
+Let <math>G_{1}</math> be a <math>(N_{1},D_{1},\lambda_{1})</math>-graph and <math>G_{2}</math> be a <math>(D_{1},D_{2},\lambda_{2})</math>-graph, then <math>G \circ H</math> is a <math>(N_{1}\cdot D_{1},D_{2}^{2},f(\lambda_{1},\lambda_{2}))</math>-graph, where <math>f(\lambda_{1},\lambda_{2})<\lambda_{1}+\lambda_{2}+\lambda_{2}^{2}</math>.
+
+===Connectivity preservation===
+
+The zigzag product <math>G \circ H</math> operates separately on each connected component of <math>G</math>.
+
+Formally speaking, given two graphs: <math>G</math>, a <math>D</math>-regular graph on <math>[N]</math> and <math>H</math>, a <math>d</math>-regular graph on <math>[D]</math> - if <math>S\subseteq[N]</math> is a connected component of <math>G</math> then <math>G|_{S} \circ H=G\circ H|_{S\times D}</math>, where <math>G|_{S}</math> is the subgraph of <math>G</math> induced by <math>S</math> (i.e., the graph on <math>S</math> which contains all of the edges in <math>G</math> between vertices in <math>S</math>).
+
+==Applications==
+===Construction of constant degree expanders===
+In 2002 Omer Reingold, Salil Vadhan, and Avi Wigderson gave a simple, explicit combinatorial construction of constant-degree expander graphs. The construction is iterative, and needs as a basic building block a single, expander of constant size. In each iteration the zigzag product is used in order to generate another graph whose size is increased but its degree and expansion remains unchanged. This process continues, yielding arbitrarily large expanders.
+
+From the properties of the zigzag product mentioned above, we see that the product of a large graph with a small graph, inherits a size similar to the large graph, and degree similar to the small graph, while preserving its expansion properties from both, thus enabling to increase the size of the expander without deleterious effects.
+
+===Solving the undirected s-t connectivity problem in logarithmic space===
+
+In 2005 Omer Reingold introduced an algorithm that solves the undirected [[st-connectivity]] problem, the problem of testing whether there is a path between two given vertices in an undirected graph, using only logarithmic space. The algorithm relies heavily on the zigzag product.
+
+Roughly speaking, in order to solve the undirected s-t connectivity problem in logarithmic space, the input graph is transformed, using a combination of powering and the zigzag product, into a constant-degree regular graph with a logarithmic diameter. The power product increases the expansion (hence reduces the diameter) at the price of increasing the degree, and the zigzag product is used to reduce the degree while preserving the expansion.
+
+==See also==
+*[[Graph operations]]
+
+==References==
+* {{Citation
+| first1=O. | last1=Reingold | author1-link = Omer Reingold
+| first2=S. | last2=Vadhan | author2-link = Salil Vadhan
+| first3=A. | last3=Wigderson | author3-link = Avi Wigderson
+| contribution=Entropy waves, the zig-zag graph product, and new constant-degree expanders and extractors
+| title=[[Symposium on Foundations of Computer Science|Proc. 41st IEEE Symposium on Foundations of Computer Science (FOCS)]]
+| year=2000
+| doi=10.1109/SFCS.2000.892006
+| pages=3–13| arxiv=math/0406038}}.
+* {{Citation
+| first=O
+| last=Reingold | authorlink = Omer Reingold
+| title=Undirected connectivity in log-space
+| journal=[[Journal of the ACM]]
+| year=2008
+| volume=55
+| issue=4
+| pages=Article 17, 24 pages
+| doi=10.1145/1391289.1391291}}.
+* {{Citation
+| first1=O. | last1=Reingold | author1-link = Omer Reingold
+| first2=L. | last2=Trevisan | author2-link = Luca Trevisan
+| first3=S. | last3=Vadhan | author3-link = Salil Vadhan
+| contribution=Pseudorandom walks on regular digraphs and the RL vs. L problem
+| title=[[Symposium on Theory of Computing|Proc. 38th ACM Symposium on Theory of Computing (STOC)]]
+| year=2006
+| doi=10.1145/1132516.1132583
+| pages=457–466}}.
+
+{{Refend}}
+
+
+[[Category:Graph products]]

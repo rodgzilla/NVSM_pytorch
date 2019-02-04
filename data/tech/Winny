@@ -1,0 +1,142 @@
+{{About|the Japanese file-sharing software|the name|Winny (name)|other uses|Winnie (disambiguation)}}
+{{Infobox software
+| name                   = Winny
+| screenshot             = 
+| caption                = 
+| collapsible            = 
+| developer              = [[Isamu Kaneko]] (金子勇)1971-2013
+| released               = {{Start date and age|2002}}
+| latest release version = v2.0β7.1
+| latest release date    = {{Start date and age|2003|11|11}}
+| operating system       = [[Microsoft Windows]]
+| genre                  = [[Anonymous P2P]]
+| license                = [[Closed source]] / Proprietary
+| status                 = Discontinued
+| programming language   = [[Java (programming language)|Java]] and [[C++]]
+| website                = {{URL|http://www.geocities.co.jp/SiliconValley/2949/}}
+}}
+'''Winny''' (also known as '''WinNY''') is a Japanese [[peer-to-peer]] (P2P) [[file-sharing]] program which claims to be loosely inspired by the design principles behind the [[Freenet]] network, which makes user identities untraceable. While Freenet was implemented in [[Java (programming language)|Java]], Winny was implemented as a Windows [[C++]] application.<ref>Hongo, Jun, "[http://search.japantimes.co.jp/cgi-bin/nn20091027i1.html File-sharing: Handle Winny at your own risk]", ''[[Japan Times]]'', October 27, 2009, p. 3.</ref>
+
+The software takes its name from [[WinMX]], where the M and the X are each advanced one letter in the Latin alphabet, to N and Y. According to a 2006 report by the [[Recording Industry Association of Japan]], more than three million people had tried Winny.{{Citation needed|date = September 2015}}
+
+Like Freenet, each client functions as a node.  Initially, a search returns few results, but one can set up "clusters" based on certain keywords, and over time, one's client will learn the best route to obtain the information sought.
+
+The software was developed by [[Isamu Kaneko]], who was a research assistant in graduate course of computer engineering at the [[University of Tokyo]] in Japan. He was also once a researcher at the [http://www.jaeri.go.jp/ Japan Atomic Energy Research Institute]. Kaneko originally anonymously announced his intent of developing the software on the Download Software board of the popular [[2channel]] (''[[2ch]]'' for short) Japanese bulletin board site. Since [[2ch]] users often refer to anonymous users by their post numbers, Kaneko came to be known as "Mr. 47" ("47-Shi", or 47氏 in Japanese), or just "47". Kaneko died on the 6 July 2013 after suffering a heart attack.<ref>{{cite web|url=http://thebridge.jp/en/2013/07/rip-isamu-kaneko |title=Inventor of Japanese P2P file-sharing software passes away at age 42 |publisher=Thebridge.jp |date= |accessdate=2015-09-06}}</ref><ref>[http://www.japantimes.co.jp/news/2013/07/08/national/winny-developer-kaneko-dies-at-42/] {{webarchive |url=https://web.archive.org/web/20130714025946/http://www.japantimes.co.jp/news/2013/07/08/national/winny-developer-kaneko-dies-at-42/ |date=July 14, 2013 }}</ref>
+
+After Winny's development stopped, a new peer-to-peer application, [[Share (P2P)|Share]], was developed by an anonymous Japanese engineer to replace Winny.{{Citation needed|date = September 2015}}
+
+==Anonymity==
+{{Unreferenced section|date = September 2015}}
+At the time of the two users' arrests, the Kyoto Police claimed to have "analyzed Winny's anonymity features" to track the users down, but did not disclose the exact method used. It later turns out, as the details of the method used were disclosed at Kaneko's first day of trial, that this statement was not entirely accurate &mdash; It was areas where Winny did ''not'' provide anonymity that the Police used to track users down.
+
+After failing to crack Winny's encrypted communications used in its file sharing feature, the Kyoto Police switched to a different method, namely tracking users via Winny's integrated forum feature. Unlike its file sharing feature, the forum feature of Winny provided anonymity for users who accessed message threads, but not for creators of threads. Users accessing threads were able to determine the [[IP address]] of the originator of the thread.
+
+The Kyoto Police first looked for a thread where its originator was posting the file names of copyrighted material he was sharing, and recorded his IP address. They then configured their [[firewall (networking)|firewall]] to only allow connections to them from the thread owner's IP address. Finally, they confirmed that they could indeed download the copyrighted file from the user who stated (on his thread) that he was sharing it.<ref>{{cite web
+  | url=http://internet.watch.impress.co.jp/static/column/jiken/2004/07/07/
+  | title=捜査書類「サルベージ」に執念を燃やす京都府警
+  | publisher=Internet Watch
+  | deadurl=no
+  | date = 2004-07-07
+  | language=Japanese
+}}</ref>
+
+==Purpose==
+{{Refimprove section|date = September 2015}}
+Critics of Kaneko{{Who|date=September 2015}} have stated that the main purpose of Winny is to violate copyright law, unlike Freenet, another peer-to-peer system that Winny is often compared to, which claims to protect freedom of speech. These critics also claim that 2ch's Download Software board, where the software was first announced, is a haven for copyright violators, and that Kaneko himself had said that the aim of development of Winny is to push the tide towards a world filled with copyright infringement, quoting several posts from 2ch.
+
+In one of the posts in 2ch Download Software board, "47" had pointed out that '... beta 8.1 <nowiki>[</nowiki>of Winny<nowiki>]</nowiki> has a security hole and is not anonymous. Don't exchange illegal files.'.<ref>{{cite web
+  | last = 
+  | first =
+  | authorlink =
+  | coauthors =
+  | title = 47-shi hatsugen shū (te nuki ban) (#389)
+  | work =
+  | publisher = Winny.info
+  | date = 2002-05-12
+  | url = http://winny.info/2ch/47.html#389
+  | doi =
+  | language = Japanese
+  | accessdate = 2006-12-14 }}</ref> Critics claim that this is one evidence of Kaneko's malicious intent, as that "47" was advising users not to share copyrighted material on beta 8.1 ''because'' it was not anonymous and infringing users could be traced.
+
+Others{{Who|date=September 2015}} have said that Kaneko's action shouldn't constitute a crime, since he didn't infringe copyright himself, but that he just created software that could be used for that purpose. They also state that the claims of Kaneko's intent by his critics are unprovable (or outright false), as Kaneko's noted statements are too vague to be interpreted as having the intent claimed by critics.  According to the Free Kaneko website, he warned users not to share illegal material using the software.
+
+==Antinny==
+{{Unreferenced section|date = September 2015}}
+Since August 2003, several [[computer worm|worms]] called "[[:ja:Antinny|Antinny]]" have spread on the Winny network.
+
+Some versions of Antinny work as follows:
+* Upload files from the host computer onto the Winny network.
+* Upload screenshots onto an image board.
+* [[Denial-of-service attack]] to a copyright protecting agency web site.
+
+Some people have uploaded their information unwittingly from their computers because of Antinny. That information includes governmental documents, information about customers, and people's private files. Once the information is uploaded, it is difficult to delete.
+
+Recently, highly publicised cases of sensitive file uploading have come to light in Japan's media. In particular, a defense agency was forced to admit that classified information from the [[Maritime Self Defense Force]] was uploaded by a computer with Winny software installed on it.
+
+Following this, [[All Nippon Airways]] suffered an embarrassing leak of   passwords for security-access areas in 29 airports across Japan. A similar incident occurred with [[JAL Airlines]] on 17 December 2005, after a virus originating from Winny affected the computer of a co-pilot.
+
+Arguably the biggest{{According to whom|date = September 2015}} Winny-related leak was that of the [[Okayama]] Prefectural Police Force, whose computer leaked data about around 1,500 investigations. This information included sensitive data such as the names of sex crime victims, and is the largest amount of information held by Japanese police to have ever leaked online.
+
+==Criminal procedure==
+{{main|Winny copyright infringement case}}
+On November 28, 2003, two Japanese users of Winny, Yoshihiro Inoue, a 41-year-old self-employed businessman from [[Takasaki, Gunma|Takasaki]], [[Gunma Prefecture]] and an unemployed 19-year-old from [[Matsuyama, Ehime|Matsuyama]], were arrested by the Kyoto Prefectural Police. They were accused of sharing copyrighted material via Winny and admitted to their crimes. Shortly following the two users' arrests, Kaneko also had his home searched and had the source code of Winny confiscated by the Kyoto Police. On May 10, 2004, Kaneko was arrested for suspected conspiracy to commit copyright violation by the High-tech Crime Taskforce of the Kyoto Prefectural Police. Kaneko was released on [[bail]] on June 1, 2004. The court hearings started in September 2004 at Kyoto district court. On December 13, 2006, Kaneko was convicted of assisting copyright violations and sentenced to pay a fine of [[Japanese yen|¥]]1.5 million (about [[US$]]13,200).<ref>{{cite web
+  | last = Ōta
+  | first = Hiroyuki
+  | authorlink =
+  | coauthors =
+  | title = Winny software developer found guilty, fined 1.5 million yen
+  | work =
+  | publisher = [[Mainichi Daily News]]
+  | date = 2006-12-14
+  | url = http://mdn.mainichi-msn.co.jp/national/news/20061213p2a00m0na011000c.html
+  | doi =
+  | accessdate = 2006-12-14 }}
+</ref>  He appealed the ruling.  On October 8, 2009, the guilty verdict was overturned by the Osaka High Court.<ref>{{cite web
+  | author = Tim Lord
+  | title = Japanese Ruling Against Winny Dev Overturned On Appeal
+  | publisher = [[Slashdot]]
+  | date = 2009-10-08
+  | url = http://yro.slashdot.org/story/09/10/09/0033200/Japanese-Ruling-Against-Winny-Dev-Overturned-On-Appeal
+  | accessdate = 2009-10-08}}
+</ref> On December 20, 2011, Kaneko was cleared of all charges after a panel of judges agreed that the prosecution could not prove that he had any intention to promote the software for illegal use.<ref>{{cite web
+  | url=http://www3.nhk.or.jp/news/html/20111220/k10014782281000.html
+  | title=Supreme court finds Winny creator not guilty
+  | publisher=NHK (Online)
+  | deadurl=yes
+  | date = 2011-12-20
+  | language=Japanese
+}}</ref><ref>{{cite web
+  | author = 
+  | url=http://torrentfreak.com/file-sharing-app-creator-not-guilty-of-copyright-infringement-111223/
+  | title=File-Sharing App Creator Not Guilty of Copyright Infringement
+  | publisher=Torrentfreak.com
+  | date = 2011-12-23
+}}</ref>
+
+==See also==
+*[[Winny copyright infringement case]]
+*[[Anonymous P2P]]
+*[[Perfect Dark (P2P)|Perfect Dark]]
+*[[Share (P2P)|Share]]
+
+==References==
+{{Reflist}}
+
+==Further reading==
+* {{Cite book|author=Kaneko Isamu|year=2005|title=The Technology of Winny(Winnyの技術 in Japanese)|page=201|publisher=ASCII|isbn=4-7561-4548-5}} (Japanese)
+
+==External links==
+*{{ja icon}} [http://winny.cool.ne.jp/ Winny Cool] 
+*{{en icon}} [http://winnyenglish.blogspot.com/ Winny in English]
+*{{ja icon}} [http://internet.watch.impress.co.jp/static/column/jiken/2004/01/07/ Kyoto Pref. Police to Winny: 'We figured it all out'] from Internet Watch
+*[http://www.smh.com.au/articles/2004/05/10/1084041324598.html Prof held 'for developing P2P software'] from the Sydney Morning Herald
+*{{de icon}} [http://www.heise.de/newsticker/meldung/47239 Japanese police arrests developers of file sharing software] from Heise.de
+*{{ja icon}} [http://winny.info/2ch/main/1019230372.html#848 A post on 2ch] that critics claim that Kaneko states the aim of development that Kaneko spoke is his will of pushing the tide toward the world filled with copyright law violation
+*{{ja icon}} [http://kobe.cool.ne.jp/r_030/lib/2ch_mailmag_04.html Hiroyuki Nishimura's e-mail newsletter statement on the nonexistence of 2ch's access logs at the time]
+*[http://www.theregister.com/2006/05/17/japan_power_plant_virus_leak/ Japanese power plant secrets leaked by virus], The Register, 17 May 2006
+*[http://www.yomiuri.co.jp/dy/national/20080315TDY01305.htm Japanese ISPs set to terminate Winny users net connections], Daily Yomiuri, 16 March 2008
+
+[[Category:Anonymous file sharing networks]]
+[[Category:File sharing networks]]
+[[Category:Windows file sharing software]]
+[[Category:Windows-only software]]

@@ -1,0 +1,28 @@
+'''Superstrong approximation''' is a generalisation of [[strong approximation in algebraic groups]] ''G'', to provide "spectral gap" results. The spectrum in question is that of the [[Laplacian matrix]] associated to a family of quotients of a discrete group Γ; and the gap is that between the first and second eigenvalues (normalisation so that the first eigenvalue corresponds to constant functions as eigenvectors). Here Γ is a subgroup of the rational points of ''G'', but need not be a [[lattice (discrete subgroup)|lattice]]: it may be a so-called [[thin group (algebraic group theory)|thin group]]. The "gap" in question is a lower bound (absolute constant) for the difference of those eigenvalues.
+
+A consequence and equivalent of this property, potentially holding for [[Zariski dense]] subgroups Γ of the [[special linear group]] over the integers, and in more general classes of algebraic groups ''G'', is that the sequence of [[Cayley graph]]s for reductions Γ<sub>''p''</sub> modulo prime numbers ''p'', with respect to any fixed set ''S'' in Γ that is a [[symmetric set]] and [[generating set]], is an [[expander family]].<ref>{{harv|Breuillard|Oh|2014|loc=pages x, 343}}</ref>
+
+In this context "strong approximation" is the statement that ''S'' when reduced generates the full group of points of ''G'' over the prime fields with ''p'' elements, when ''p'' is large enough. It is equivalent to the Cayley graphs being connected (when ''p'' is large enough), or that the locally constant functions on these graphs are constant, so that the eigenspace for the first eigenvalue is one-dimensional. Superstrong approximation therefore is a concrete quantitative improvement on these statements.
+
+==Background==
+'''Property (τ)''' is an analogue in discrete group theory of [[Kazhdan's property (T)]], and was introduced by [[Alexander Lubotzky]].<ref>http://www.ams.org/notices/200506/what-is.pdf</ref> For a given family of normal subgroups ''N'' of finite index in Γ, one equivalent formulation is that the Cayley graphs of the groups Γ/''N'', all with respect to a fixed symmetric set of generators ''S'', form an expander family.<ref name="Lubotzky1994">{{cite book|author=[[Alexander Lubotzky]]|title=Discrete Groups, Expanding Graphs and Invariant Measures|url=https://books.google.com/books?id=aNURlzNuotEC&pg=PA49|date=1 January 1994|publisher=Springer|isbn=978-3-7643-5075-8|page=49}}</ref> Therefore superstrong approximation is a formulation of property (τ), where the subgroups ''N'' are the kernels of reduction modulo large enough primes ''p''.
+
+The '''Lubotzky–Weiss conjecture''' states (for special linear groups and reduction modulo primes) that an expansion result of this kind holds independent of the choice of ''S''. For applications, it is also relevant to have results where the modulus is not restricted to being a prime.<ref>{{harv|Breuillard|Oh|2014|loc=pages 3-4}}</ref>
+
+==Proofs of superstrong approximation==
+Results on superstrong approximation have been found using techniques on [[approximate subgroup]]s, and [[growth rate (group theory)|growth rate]] in finite simple groups.<ref>{{harv|Breuillard|Oh|2014|loc=page xi}}</ref>
+
+==Notes==
+{{reflist}}
+
+==References==
+
+*{{citation|editor2-first=Hee|editor2-last= Oh|editor1-first=Emmanuel |editor1-last=Breuillard|title=Thin Groups and Superstrong Approximation|year= 2014|publisher=Cambridge University Press|isbn=978-1-107-03685-7|url=http://library.msri.org/books/Book61/index.html}}
+*{{citation|MR=0735226 
+|last1=Matthews|first1= C. R.|last2= Vaserstein|first2= L. N.|last3= Weisfeiler|first3= B.
+|title=Congruence properties of Zariski-dense subgroups. I. 
+|journal=Proc. London Math. Soc. |series=Series 3|volume= 48 |year=1984|issue= 3|pages= 514–532|doi=10.1112/plms/s3-48.3.514}}
+
+[[Category:Algebraic groups]]
+[[Category:Cayley graphs]]
+[[Category:Spectral theory]]

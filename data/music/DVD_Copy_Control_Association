@@ -1,0 +1,31 @@
+The '''DVD Copy Control Association''' ('''DVD CCA''') is an organization primarily responsible for the [[copy protection]] of [[DVD]]s. The [[Content Scramble System]] (CSS) was devised for this purpose to make [[copyright infringement]] difficult, but also presents obstacles to some [[Fair use|legitimate uses]] of the media. The association is also responsible for the controversial [[Regional Playback Control]] (RPC), the region encoding scheme which gives movie studios geographic control over DVD distribution.
+
+As of 2001, members included film distributors such as Metro-Goldwyn-Mayer, Twentieth Century Fox and Warner Bros.<ref>{{cite web | title=Federal Register: August 3, 2001 (Volume 66, Number 150) | url=http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=2001_register&docid=01-19392-filed | accessdate=December 19, 2007 }}</ref><ref>{{cite web | title=2001 copyright reform: CMPDA reply | url=http://www.flora.ca/copyright-2001-cmpda-reply.shtml | accessdate=December 19, 2007 }}</ref>
+
+They filed the much publicized case versus [[Jon Johansen]] who they alleged wrote [[DeCSS]]. The case was dropped in January 2004. CSS decrypting software (such as [[DVD Decrypter]], [[AnyDVD]], and [[DVD Shrink]]) allows a region-specific DVD to be copied as an all-region DVD. It also removes [[TiVo_Corporation#RipGuard|Macrovision]], CSS, [[DVD region code|region codes]], and [[user operation prohibition]]s. They also filed the suit ''[[DVD CCA v. Bunner]]'' against people who distributed DeCSS, seeking injunctions to stop further distribution based on trade secret claims. The injunction was eventually denied because CSS was no longer a secret by the time litigation occurred.
+
+==Features restricted by manufacturers==
+All{{Citation needed|date=November 2018}} hardware manufacturers (especially DVD player/burner manufacturers) implement DVD CCA-mandated enforcement features on their products as RPC (which is one of three restrictions in the Content Scramble System); some even go beyond that and implement additional features to restrict [[ripping]], for example:
+* [[Riplock|RIPLOCK]]: many manufacturers put an artificial limit, or lock, on ripping speeds. Some of these drives have alternative 3rd-party firmware that have this removed to enable faster ripping. See the RPC-1 Firmware Site for example.{{Citation needed|date=November 2018}}
+* Bitsetting/Booktyping: this is a feature which makes DVD+Rs readable by older DVD players that can play DVD-ROMS only. Some manufacturers disable this feature on their drives. Again, some alternative 3rd-party firmware can enable this so that burned DVDs appear as DVD-ROMs and are playable by older DVD players.{{Citation needed|reason=There is unfortunately no source given. Is there really some connection to the CCA?|date=November 2018}}
+
+==See also==
+* [[Blu-ray Disc#Region codes|Blu-ray region code]]
+* [[Blu-ray Disc]], the successor of DVD
+* [[DVD Copy Control Association, Inc. v. Bunner]]
+* [[Universal v. Reimerdes]]
+* [[DVD Copy Control Association, Inc. v. Kaleidescape, Inc.]]
+* [[RealNetworks#RealDVD|RealNetworks, Inc. v. DVD Copy Control Association, Inc.]]
+
+== References ==
+<references />
+
+==External links==
+* [http://www.dvdcca.org/ DVD CCA]
+
+{{DEFAULTSORT:Dvd Copy Control Association}}
+[[Category:Arts and media trade groups]]
+[[Category:Technology trade associations]]
+[[Category:Hardware restrictions]]
+[[Category:Compact Disc and DVD copy protection]]
+[[Category:DVD Copy Control Association|*]]

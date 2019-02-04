@@ -1,0 +1,114 @@
+{{Use American English|date=January 2019}}{{BLP sources|date=February 2013}}
+{{Infobox scientist
+|name              = Seth Lloyd
+|image             = Seth Lloyd.jpg
+|image_size        = 210px
+|caption           = Seth Lloyd in 2013
+|birth_date        = {{Birth date and age|1960|08|02}}
+|birth_place       = 
+|death_date        = 
+|death_place       = 
+|residence         = [[United States]]
+|citizenship       = 
+|nationality       = American
+|ethnicity         = 
+|fields            = [[Physicist]]
+|workplaces        = [[Massachusetts Institute of Technology]]<br>[[California Institute of Technology]]<br>[[Los Alamos National Laboratory]]<br>[[Santa Fe Institute]]
+|alma_mater        = [[Phillips Academy]] (1978)<br>[[Harvard College]] (A.B., 1982)<br>[[Cambridge University]] (M.Phil, 1984)<br>[[Rockefeller University]] (Ph.D. physics, 1988)
+|doctoral_advisor  = [[Heinz Pagels]]
+|academic_advisors = 
+|doctoral_students = 
+|notable_students  = 
+|known_for         = Studying limits of [[computation]]<br>''[[Programming the Universe]]''
+|author_abbrev_bot = 
+|author_abbrev_zoo = 
+|influences        = 
+|influenced        = 
+|awards            = 
+|religion          =
+|signature         = <!--(filename only)-->
+|footnotes         = 
+}}
+'''Seth Lloyd''' (born August 2, 1960) is a [[professor]] of [[mechanical engineering]] and [[physics]] at the [[Massachusetts Institute of Technology]].  He refers to himself as a "quantum mechanic".
+
+His research area is the interplay of [[information]] with [[complex systems]], especially [[quantum mechanics|quantum]] systems. He has performed seminal work in the fields of [[quantum computation]], [[quantum communication]] and [[quantum biology]], including proposing the first technologically feasible design for a [[quantum computer]], demonstrating the viability of quantum analog computation, proving quantum analogs of [[Shannon's noisy channel theorem]], and designing novel methods for [[quantum error correction]] and noise reduction.
+
+==Biography==
+Lloyd was born on August 2, 1960.  He graduated from [[Phillips Academy]] in 1978 and received a bachelor of arts degree from [[Harvard College]] in 1982. He earned a certificate of advanced study in mathematics and a master of philosophy degree from [[Cambridge University]] in 1983 and 1984, while on a [[Marshall Scholarship]]. Lloyd was awarded a doctorate by [[Rockefeller University]] in 1988 (advisor [[Heinz Pagels]]) after submitting a thesis on ''Black Holes, Demons, and the Loss of Coherence: How Complex Systems Get Information, and What They Do With It.''
+
+From 1988 to 1991, Lloyd was a postdoctoral fellow in the High Energy Physics Department at the [[California Institute of Technology]], where he worked with [[Murray Gell-Mann]] on applications of information to quantum-mechanical systems. From 1991 to 1994, he was a postdoctoral fellow at [[Los Alamos National Laboratory]], where he worked at the Center for Nonlinear Systems on quantum computation. In 1994, he joined the faculty of the Department of Mechanical Engineering at [[MIT]]. Since 1988, Lloyd has also been an external faculty member at the [[Santa Fe Institute]].
+
+In his 2006 book, ''[[Programming the Universe]]'', Lloyd contends that the universe itself is one big [[quantum computer]] producing what we see around us, and ourselves, as it runs a cosmic [[computer program|program]]. According to Lloyd, once we understand the laws of [[physics]] completely, we will be able to use small-scale quantum computing to understand the universe completely as well.
+
+Lloyd states that we could have the whole universe simulated in a computer in 600 years provided that computational power increases according to [[Moore's Law]]. However, Lloyd shows that there are limits to rapid [[exponential growth]] in a finite universe, and that it is very unlikely that Moore's Law will be maintained indefinitely.
+
+Lloyd is principal investigator at the MIT Research Laboratory of Electronics, and directs the [http://www.rle.mit.edu/xqit Center for Extreme Quantum Information Theory] (xQIT) at MIT. His most recent work has focused on the role of quantum phenomena such as [[quantum coherence|coherence]] in biological phenomena, especially photosynthesis.[http://iopscience.iop.org/article/10.1088/1742-6596/302/1/012037/pdf]. He has also collaborated in work to exploit these phenomena technologically<ref>[http://www.extremetech.com/extreme/216358-mit-develops-enhanced-energy-transport-using-quantum-physics-and-genetic-engineering Hewitt, J MIT team genetically engineers a quantum virus for efficient energy transport ''Extreme Tech'' 16 October 2015]</ref>
+
+
+==Honors==
+* 2007 Fellow of the [[American Physical Society]]<ref name="aps">{{cite news|title=2007 Fellows of the American Physical Society|url=http://www.aps.org/units/gqi/fellowship/index.cfm?year=2007}}</ref>
+* 2012 [[International Quantum Communication Award]]<ref name="qcmc">{{cite news|title=2012 QCMC |url=http://www.qcmc2012.org}}</ref>
+
+==Works==
+*{{cite thesis
+ |degree      = Ph.D.
+ |first       = Seth
+ |last        = Lloyd
+ |title       = Black Holes, Demons and the Loss of Coherence: How complex systems get information, and what they do with it.
+ |url         = http://meche.mit.edu/documents/slloyd_thesis.pdf
+ |publisher   = [[The Rockefeller University]]
+ |date        = 1988
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20120607195224/http://meche.mit.edu/documents/slloyd_thesis.pdf
+ |archivedate = 2012-06-07
+ |df          = 
+}}
+
+*{{cite journal
+ |  author = Lloyd, S.
+ |    date = 2000-08-31
+ |   title = Ultimate physical limits to computation
+ | journal = [[Nature (journal)|Nature]]
+ |  volume = 406
+ |   pages = 1047&ndash;1054
+ |   doi = 10.1038/35023282
+ |  pmid = 10984064
+ |  issue = 6799
+ |     arxiv = quant-ph/9908043v3
+ }}
+*Lloyd, S., ''[[Programming the Universe|Programming the Universe: A Quantum Computer Scientist Takes On the Cosmos]]'', [[Alfred A. Knopf|Knopf]], March 14, 2006, 240 p., {{ISBN|1-4000-4092-2}}
+* Interview: ''[https://www.edge.org/conversation/seth_lloyd-quantum-hanky-panky Quantum Hanky Panky:  A Conversation with Seth Lloyd]'' (video), [[Edge Foundation, Inc.|Edge Foundation]], 2016
+* Interview: ''[http://www.edge.org/3rd_culture/lloyd2/lloyd2_index.html The Computational Universe: Seth Lloyd]'' (video), [[Edge Foundation, Inc.|Edge Foundation]], 2002
+* Lecture: [https://www.youtube.com/watch?v=d0kJEAEx-5Q#! The Black Hole of Finance] (video), [[Santa Fe Institute]]
+
+==See also==
+* [[Digital physics]]
+* [[Quantum Aspects of Life]]
+* [[Simulated reality]]
+
+==Notes==
+{{reflist}}
+
+==External links==
+{{commonscat|Seth Lloyd}}
+{{wikiquote}}
+*[http://meche.mit.edu/people/?id=55 Personal web page]
+*[http://www.pulse-berlin.com/index.php?id=144 "Crazy Molecules: Pulse Berlin Interview"]
+*[http://www.randomhouse.com/kvpa/lloyd/ ''Programming the Universe'']
+*[http://www.twis.org/2006/09/26/83/ Radio Interview] from [[This Week in Science]] September 26, 2006 Broadcast
+* {{MathGenealogy|id=123909}}
+
+{{Authority control}}
+
+{{DEFAULTSORT:Lloyd, Seth}}
+[[Category:American mechanical engineers]]
+[[Category:Complex systems scientists]]
+[[Category:Harvard College alumni]]
+[[Category:Rockefeller University alumni]]
+[[Category:Massachusetts Institute of Technology faculty]]
+[[Category:Living people]]
+[[Category:1960 births]]
+[[Category:American people of Welsh descent]]
+[[Category:Santa Fe Institute people]]
+[[Category:New England Complex Systems Institute]]
+[[Category:Quantum information scientists]]

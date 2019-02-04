@@ -1,0 +1,17 @@
+In linguistics, '''variable rules analysis''' is a set of [[statistical analysis]] methods commonly used in [[sociolinguistics]] and [[historical linguistics]] to describe patterns of [[Variation (linguistics)|variation]] between alternative forms in language use. It is also sometimes known as '''Varbrul analysis''', after the name of a software package dedicated to carrying out the relevant statistical computations (''Varbrul'', from "'''var'''ia'''b'''le '''rul'''e"). The method goes back to a theoretical approach developed by the sociolinguist [[William Labov]] in the late 1960s and early 1970s, and its mathematical implementation was developed by Henrietta Cedergren and [[David Sankoff]] in 1974.<ref>Cedergren, H.; and Sankoff, D. (1974). Variable rules: Performance as a statistical reflection of competence. ''Language'', ''50'', 333-355.</ref>
+
+A variable rules analysis is designed to provide a quantitative model of a situation where speakers alternate between different forms that have the same meaning and stand in [[free variation]], but in such a way that the probability of choice of either the one or the other form is conditioned by a variety of context factors or social characteristics. Such a situation, where variation is not entirely random but rule-governed, is also known as "structured variation". A variable rules analysis computes a [[multivariate analysis|multivariate]] statistical model, on the basis of observed token counts, such that each determining factor is assigned a numerical factor weight that describes how it influences the probabilities of choice of either form. This is done by means of [[stepwise regression|stepwise]] [[logistic regression]], using a [[maximum likelihood]] algorithm.
+
+Although the necessary computations required for a variable rules analysis can be carried out with the help of mainstream general-purpose statistics software packages such as [[SPSS]], it is more often done by means of a specialised software dedicated to the needs of linguists, called ''Varbrul''. It was originally written by David Sankoff and currently exists in [[freeware]] implementations for [[Mac OS]] and [[Microsoft Windows]], under the title of ''Goldvarb X''.<ref>{{cite web|url=http://individual.utoronto.ca/tagliamonte/goldvarb.html|title=Sali A. Tagliamonte: Goldvarb|website=individual.utoronto.ca}}</ref> There are also versions implemented in the statistical language [[R (programming language)|R]] and therefore available on most platforms.  These include ''R-Varb'' and ''Rbrul''.<ref>{{cite web|url=http://www.danielezrajohnson.com/rbrul.html|title=Rbrul|website=www.danielezrajohnson.com}}</ref>
+
+Variable rules approaches are commonly employed for the analysis of data in sociolinguistic research, especially in studies that aim to investigate how reflexes of linguistic change through time appear in the shape of structured variation patterns within a speech community.<ref>Tagliamonte, S. (2006). ''Analysing Sociolinguistic Variation.'' Cambridge: Cambridge University Press.</ref>
+
+==See also==
+*[[Diaphoneme]]
+
+==References==
+<references/>
+
+[[Category:Linguistic research software]]
+[[Category:Logistic regression]]
+[[Category:Sociolinguistics]]

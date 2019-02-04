@@ -1,0 +1,676 @@
+==Missions==
+<!--"chrono" is not a reliable source for Soviet missions as it is based on the CIA/NASA's contemporary assessment of missions and not on the details which have since been released. Names such as "Marsnik" and "Sputnik" (for any number above 3) were made up by the Western sources to identify spacecraft whose names the Soviet government did not confirm for many years.-->
+{| class="wikitable sortable"
+|+
+! Spacecraft
+! Launch Date
+! Operator
+! Mission<ref name="chrono">[http://nssdc.gsfc.nasa.gov/planetary/chronology_mars.html Chronology of Mars Exploration]. NASA. Retrieved on 2011-12-01.</ref>
+! Outcome<ref name="name">{{cite web|url=http://mars.jpl.nasa.gov/MPF/rover/name.html|title=Pathfinder Rover Gets Its Name|publisher=}}</ref>
+! Remarks
+! Carrier rocket<ref name=rusweb>[http://www.russianspaceweb.com/spacecraft_planetary_mars.html Russian Space Web - Mars Missions]</ref>
+|-
+| [[Mars 1M No.1|1M No.1]]<!--see note at top of section-->
+| {{dts|10 October 1960}}
+| [[OKB-1]]<br/><small>[[Soviet Union]]</small>
+| Flyby
+| {{no|{{hs|0}}Launch failure}}
+| Failed to orbit
+| [[Molniya (rocket)|Molniya]]
+|-
+| [[Mars 1M No.2|1M No.2]]<!--see note at top of section-->
+| {{dts|14 October 1960}}
+| [[OKB-1]]<br/><small>[[Soviet Union]]</small>
+| Flyby
+| {{no|{{hs|0}}Launch failure}}
+| Failed to orbit
+| [[Molniya (rocket)|Molniya]]
+|-
+| [[Mars 2MV-4 No.1|2MV-4 No.1]]<!--see note at top of section-->
+| {{dts|24 October 1962}}
+| <small>[[Soviet Union]]</small>
+| Flyby
+| {{no|{{hs|0}}Launch failure}}
+| Booster stage ("Block L") disintegrated in [[Low Earth orbit|LEO]]
+| [[Molniya (rocket)|Molniya]]
+|-
+| [[Mars 1]]<br/><small>(2MV-4 No.2)</small>
+| {{dts|1 November 1962}}
+| <small>[[Soviet Union]]</small>
+| Flyby
+| {{no2|{{hs|1}}Spacecraft failure}}
+| Communications lost before flyby
+| [[Molniya (rocket)|Molniya]]
+|-
+| [[Mars 2MV-3 No.1|2MV-3 No.1]]  
+| {{dts|4 November 1962}}
+| <small>[[Soviet Union]]</small>
+| Lander
+| {{no|{{hs|0}}Launch failure}}
+| Never left LEO
+| [[Molniya (rocket)|Molniya]]
+|-
+| [[Mariner 3]]
+| {{dts|5 November 1964}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Flyby
+| {{no|{{hs|0}}Launch failure}}
+| Payload fairing failed to separate
+| [[Atlas-Agena|Atlas LV-3 Agena-D]]
+|-
+| [[Mariner 4]]
+| {{dts|28 November 1964}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Flyby
+| {{yes|{{hs|4}}Successful}}
+| Closest approach at 01:00:57 UTC on 15 July 1965
+| [[Atlas-Agena|Atlas LV-3 Agena-D]]
+|-
+| [[Zond 2]]<br/><small>(3MV-4A No.2)</small>
+| {{dts|30 November 1964}}
+| <small>[[Soviet Union]]</small>
+| Flyby
+| {{no2|{{hs|1}}Spacecraft failure}}
+| Communications lost before flyby
+| [[Molniya (rocket)|Molniya]]
+|-
+| [[Mariner 6]]
+| {{dts|25 February 1969}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Flyby
+| {{yes|{{hs|4}}Successful}}
+| 
+| {{nowrap|[[Atlas-Centaur|Atlas SLV-3C Centaur-D]]}}
+|-
+| [[Mars 2M No.521|2M No.521]]
+(1969A)<ref name=":0">{{Cite web|url=https://www.researchgate.net/publication/328715311_Chronology_of_Mars_Missions|title=(PDF) Chronology of Mars Missions|website=ResearchGate|language=en|access-date=2018-12-09}}</ref>
+| {{dts|27 March 1969}}
+| <small>[[Soviet Union]]</small>
+| Orbiter
+| {{no|{{hs|0}}Launch failure}}
+| Failed to orbit
+| [[Proton-K]]/[[Blok D|D]]
+|-
+| [[Mariner 7]]
+| {{dts|27 March 1969}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Flyby
+| {{yes|{{hs|4}}Successful}}
+| 
+| [[Atlas-Centaur|Atlas SLV-3C Centaur-D]]
+|-
+| [[Mars 2M No.522|2M No.522]]
+(1969B)<ref name=":0" />
+| {{dts|2 April 1969}}
+| <small>[[Soviet Union]]</small>
+| Orbiter
+| {{no|{{hs|0}}Launch failure}}
+| Failed to orbit
+| [[Proton-K]]/[[Blok D|D]]
+|-
+| [[Mariner 8]]
+| {{dts|9 May 1971}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Orbiter
+| {{no|{{hs|0}}Launch failure}}
+| Failed to orbit
+| [[Atlas-Centaur|Atlas SLV-3C Centaur-D]]
+|-
+| [[Kosmos 419]]<br/><small>(3MS No.170)</small>
+| {{dts|10 May 1971}}
+| <small>[[Soviet Union]]</small>
+| Orbiter
+| {{no|{{hs|0}}Launch failure}}
+| Never left LEO; booster stage burn timer set incorrectly
+| [[Proton-K]]/[[Blok D|D]]
+|-
+| [[Mars 2]]<br/><small>(4M No.171)</small>
+| {{dts|19 May 1971}}
+| <small>[[Soviet Union]]</small>
+| Orbiter
+| {{yes2|{{nowrap|{{hs|3}}Mostly successful}}}}
+| Entered orbit on 27 November 1971, operated for 362 orbits. Mapping operations unsuccessful due to dust storms on the surface<ref name="coord">{{cite web|url=http://www.planetary.org/explore/space-topics/space-missions/missions-to-mars.html#mars2 |title=Missions to Mars |publisher=The Planetary Society}}</ref> 
+| [[Proton-K]]/[[Blok D|D]]
+|-
+| [[Mars 2]] lander<br/><small>(SA 4M No.171)</small>
+| {{dts|19 May 1971}}
+| <small>[[Soviet Union]]</small>
+| Lander
+| {{no2|{{nowrap|{{hs|1}}Spacecraft failure}}}}
+| Deployed from Mars 2, failed to land during attempt on 27 November 1971
+| [[Proton-K]]/[[Blok D|D]]
+|-
+| [[Mars 3]]<br/><small>(4M No.172)</small>
+| {{dts|28 May 1971}}
+| <small>[[Soviet Union]]</small>
+| Orbiter
+| {{yes2|{{nowrap|{{hs|3}}Mostly successful}}}}
+| Entered orbit on 2 December 1971, operated for 20 orbits.<ref name=Perminov1>{{cite book|last=Perminov|first=V.G.|title=The Difficult Road to Mars - A Brief History of Mars Exploration in the Soviet Union|date=July 1999|publisher=NASA Headquarters History Division|isbn=0-16-058859-6|pages=34–60|url=https://history.nasa.gov/monograph15.pdf}}</ref> Mapping operations unsuccessful due to dust storms on the surface<ref name="NASA-20130411">{{cite web |last=Webster |first=Guy |title=NASA Mars Orbiter Images May Show 1971 Soviet Lander |url=http://www.nasa.gov/mission_pages/MRO/news/mro2013411.html|date=April 11, 2013 |work=[[NASA]] |accessdate=April 12, 2013 }}</ref> 
+| [[Proton-K]]/[[Blok D|D]]
+|-
+| [[Mars 3]] lander<br/><small>(SA 4M No.172)</small>
+| {{dts|28 May 1971}}
+| <small>[[Soviet Union]]</small>
+| Lander
+| {{partial|{{hs|2}}Partial failure}}
+| Deployed from Mars 3; landed at 13:52 UTC on 2 December 1971; contact lost 14.5 seconds after transmission start
+| [[Proton-K]]/[[Blok D|D]]
+|-
+| [[Mars 3#Prop-M Rover|Prop-M Rover]] rover<br/><small>(SA 4M No.172)</small>
+| {{dts|28 May 1971}}
+| <small>[[Soviet Union]]</small>
+| Rover
+| {{no2|{{hs|1}}Spacecraft failure}}
+| Failed to deploy
+| [[Proton-K]]/[[Blok D|D]]
+|-
+| [[Mariner 9]]
+| {{dts|30 May 1971}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Orbiter
+| {{yes|{{hs|4}}Successful}}<ref name=Pyle2012-M9>
+{{cite book |last=Pyle|first=Rod |title=Destination Mars |year=2012 |publisher=Prometheus Books |isbn=978-1-61614-589-7 |pages=73–78 |quote=''It was the first spacecraft to enter orbit around another world.''}}</ref>
+| Entered orbit on 14 November 1971, deactivated 516 days after entering orbit
+| [[Atlas-Centaur|Atlas SLV-3C Centaur-D]]
+|-
+| [[Mars 4]]<br/><small>(3MS No.52S)</small>
+| {{dts|21 July 1973}}
+| <small>[[Soviet Union]]</small>
+| Orbiter
+| {{no2|{{hs|1}}Spacecraft failure}}
+| Failed to perform orbital insertion burn
+| [[Proton-K]]/[[Blok D|D]]
+|-
+| [[Mars 5]]<br/><small>(3MS No.53S)</small>
+| {{dts|25 July 1973}}
+| <small>[[Soviet Union]]</small>
+| Orbiter
+| {{partial|{{hs|2}}Partial failure}}
+| Failed after 9 days in Mars orbit; returned 180 frames
+| [[Proton-K]]/[[Blok D|D]]
+|-
+| [[Mars 6]]<br/><small>(3MP No.50P)</small>
+| {{dts|5 August 1973}}
+| <small>[[Soviet Union]]</small>
+| Lander<br/>Flyby
+| {{no2|{{hs|1}}Spacecraft failure}}
+| Contact lost upon landing, atmospheric data mostly unreadable. Flyby bus collected data.<ref>[http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1973-052A NSSDC - Mars 6]</ref>
+| [[Proton-K]]/[[Blok D|D]]
+|-
+| [[Mars 7]]<br/><small>(3MP No.51P)</small>
+| {{dts|9 August 1973}}
+| <small>[[Soviet Union]]</small>
+| Lander<br/>Flyby
+| {{no2|{{hs|1}}Spacecraft failure}}
+| Separated from coast stage prematurely, failed to enter Martian atmosphere
+| [[Proton-K]]/[[Blok D|D]]
+|-
+| ''[[Viking 1]]'' orbiter
+| {{dts|20 August 1975}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Orbiter
+| {{yes|{{hs|4}}Successful}}
+| Operated for 1385 orbits
+| [[Titan IIIE|Titan IIIE Centaur-D1T]]
+|-
+| ''[[Viking 1]]'' lander
+| {{dts|20 August 1975}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Lander
+| {{yes2|{{nowrap|{{hs|3}}Mostly successful}}}}
+| Deployed from ''Viking 1'' orbiter, operated for 2245 sols (11 Nov 1982). The seismometer failed to deploy properly
+| [[Titan IIIE|Titan IIIE Centaur-D1T]]
+|-
+| ''[[Viking 2]]'' orbiter
+| {{dts|9 September 1975}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Orbiter
+| {{yes|{{hs|4}}Successful}}
+| Operated for 700 orbits
+| [[Titan IIIE|Titan IIIE Centaur-D1T]]
+|-
+| ''[[Viking 2]]'' lander
+| {{dts|9 September 1975}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Lander
+| {{yes|{{hs|4}}Successful}}
+| Deployed from ''Viking 2'' orbiter, operated for 1281 sols (11 Apr 1980)
+| [[Titan IIIE|Titan IIIE Centaur-D1T]]
+|-
+| [[Phobos 1]]<br/><small>(1F No.101)</small>
+| {{dts|7 July 1988}}
+| <small>[[Soviet Union]]</small>
+| Orbiter<br/>{{nowrap|Phobos lander}}
+| {{no2|{{hs|1}}Spacecraft failure}}
+| Communications lost before reaching Mars; failed to enter orbit
+| [[Proton-K]]/[[Blok D-2|D-2]]
+|-
+| [[Phobos 2]]<br/><small>(1F No.102)</small>
+| {{dts|12 July 1988}}
+| <small>[[Soviet Union]]</small>
+| Orbiter<br/>Phobos lander
+| {{partial|{{hs|2}}Partial failure}}
+| Orbital observations successful, communications lost before landing
+| [[Proton-K]]/[[Blok D-2|D-2]]
+|-
+| ''[[Mars Observer]]''
+| {{dts|25 September 1992}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Orbiter
+| {{no2|{{hs|1}}Spacecraft failure}}
+| Lost communications before orbital insertion
+| [[Commercial Titan III]]
+|-
+| ''{{nowrap|[[Mars Global Surveyor]]}}''
+| {{dts|7 November 1996}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Orbiter
+| {{yes|{{hs|4}}Successful}}
+| Operated for seven years
+| [[Delta II|Delta II 7925]]
+|-
+| [[Mars 96]]<br/><small>(M1 No.520)(Mars-8)</small><ref name=":0" />
+| {{dts|16 November 1996}}
+| [[Russian Federal Space Agency|Rosaviakosmos]]<br/><small>[[Russia]]</small>
+| Orbiter<br/>Penetrators
+| {{no|{{hs|0}}Launch failure}}
+| Never left LEO
+| [[Proton-K]]/[[Blok D-2|D-2]]
+|-
+| ''[[Mars Pathfinder]]''
+| {{dts|4 December 1996}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Lander
+| {{yes|{{hs|4}}Successful}}
+| Landed at 19.13°N 33.22°W on 4 July 1997<ref>{{cite web| url=http://mpfwww.jpl.nasa.gov/MPF/science/geology.html |title=Mars Pathfinder Science Results |work=NASA}}</ref> 
+| [[Delta II|Delta II 7925]]
+|-
+| ''[[Sojourner (rover)|Sojourner]]''
+| {{dts|4 December 1996}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Rover
+| {{yes|{{hs|4}}Successful}}
+| Operated for 84 days<ref name=sol86>[http://mars.jpl.nasa.gov/MPF/ops/sol86.html Mars Pathfinder - Welcome to Mars - Sol 86]</ref>
+| [[Delta II|Delta II 7925]]
+|-
+| ''[[Nozomi (spacecraft)|Nozomi]]''<br/><small>(PLANET-B)</small>
+| {{dts|3 July 1998}}
+| [[Institute of Space and Astronautical Science|ISAS]]<br/><small>[[Japan]]</small>
+| Orbiter
+| {{no2|{{hs|1}}Spacecraft failure}}
+| Ran out of fuel before reaching Mars
+| [[M-V]]
+|-
+| [[Mars Climate Orbiter]]
+| {{dts|11 December 1998}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Orbiter
+| {{no2|{{hs|1}}Spacecraft failure}}
+| Approached Mars too closely during orbit insertion attempt due to unit conversion error and burned up in the atmosphere
+| [[Delta II|Delta II 7425]]
+|-
+| [[Mars Polar Lander]]
+| {{dts|3 January 1999}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Lander
+| {{no2|{{hs|1}}Spacecraft failure}}
+| Failed to land
+| [[Delta II|Delta II 7425]]
+|-
+| [[Deep Space 2]]
+| {{dts|3 January 1999}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Penetrator
+| {{no2|{{hs|1}}Spacecraft failure}}
+| Deployed from MPL, no data returned
+| [[Delta II|Delta II 7425]]
+|-
+| [[Mars Odyssey]]
+| {{dts|7 April 2001}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Orbiter
+| {{usually|{{hs|5}}Operational}}
+| Expected to remain operational until 2025.
+| [[Delta II|Delta II 7925]]
+|-
+| [[Mars Express]]
+| {{dts|2 June 2003}}
+| [[European Space Agency|ESA]]<br/><small>[[European Space Agency|Europe]]</small>
+| Orbiter
+| {{usually|{{hs|5}}Operational}}
+| Enough fuel to remain operational until 2026.
+| [[Soyuz-FG]]/[[Fregat]]
+|-
+| [[Beagle 2]]
+| {{dts|2 June 2003}}
+| [[European Space Agency|ESA]]<br/><small>[[European Space Agency|Europe]]</small>
+| Lander
+| {{no2|{{hs|1}}Lander failure}}
+| No communications received after release from Mars Express. Orbital images of landing site suggest a successful landing, but two solar panels failed to deploy, obstructing its communications.
+| [[Soyuz-FG]]/[[Fregat]]
+|-
+| ''[[Spirit rover|Spirit]]''<br/><small>(MER-A)</small>
+| {{dts|10 June 2003}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Rover
+| {{yes|{{hs|4}}Successful}}
+|  Landed on January 4, 2004.<br/>Operated for 2208 sols
+| [[Delta II|Delta II 7925]]
+|-
+| ''[[Opportunity rover|Opportunity]]''<br/><small>(MER-B)</small>
+| {{dts|8 July 2003}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Rover
+| {{yes|{{hs|4}}Successful}}
+| Landed on January 25, 2004.<br/>Silent since June 10, 2018 
+| [[Delta II|Delta II 7925H]]
+|- style="background-color:#cccccc"
+| ''[[Rosetta (spacecraft)|Rosetta]]''
+| {{dts|2 March 2004}}
+| [[European Space Agency|ESA]]<br/><small>[[European Space Agency|Europe]]</small>
+| Gravity assist
+| {{yes|{{hs|4}}Successful}}
+| Flyby in February 2007 en route to [[67P/Churyumov–Gerasimenko]]<ref name=mars>{{cite web|url=http://www.esa.int/SPECIALS/Rosetta/SEMUDT70LYE_0.html |title=ESA - Beautiful new images from Rosetta's approach to Mars: OSIRIS UPDATE |publisher=Esa.int |date=2007-02-24 |accessdate=2012-01-16}}</ref>
+| [[Ariane 5|Ariane 5G+]]
+|-
+| [[Mars Reconnaissance Orbiter]]
+| {{dts|12 August 2005}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Orbiter
+| {{usually|{{hs|5}}Operational}}
+| Entered orbit on March 10, 2006
+| [[Atlas V|Atlas V 401]]
+|-
+| ''[[Phoenix (spacecraft)|Phoenix]]''
+| {{dts|4 August 2007}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Lander
+| {{yes|{{hs|4}}Successful}}
+| Landed on May 25, 2008.<br/>End of mission November 2, 2008
+| [[Delta II|Delta II 7925]]
+|- style="background-color:#cccccc"
+| ''[[Dawn (spacecraft)|Dawn]]''
+| {{dts|27 September 2007}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Gravity assist
+| {{yes|{{hs|4}}Successful}}
+| Flyby in February 2009 en route to [[4 Vesta]] and [[Ceres (dwarf planet)|Ceres]]
+| [[Delta II|Delta II 7925H]]
+|- 
+| [[Fobos-Grunt]]
+| {{dts|8 November 2011}}
+| [[Russian Federal Space Agency|Roskosmos]]<br/><small>[[Russia]]</small>
+| Orbiter<br/>{{nowrap|Phobos sample}}
+| {{no2|{{hs|1}}Spacecraft failure}}
+| Never left LEO (intended to depart under own power)
+| [[Zenit-2M]]
+|- 
+| [[Yinghuo-1]]
+| {{dts|8 November 2011}}
+| [[China National Space Administration|CNSA]]<br/><small>[[China|PR China]]</small>
+| Orbiter
+| {{no2|{{hs|1}}Failure<br/><small>Lost with Fobos-Grunt</small>}}
+| To have been deployed by Fobos-Grunt
+| [[Zenit-2M]]
+|- 
+| ''[[Curiosity rover|Curiosity]]''<br/><small>(Mars Science Laboratory)</small>
+| {{dts|26 November 2011}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Rover
+| {{usually|{{hs|5}}Operational}}
+| Landed on August 6, 2012
+| [[Atlas V|Atlas V 541]]
+|-
+| [[Mars Orbiter Mission]]<br/><small>(''Mangalyaan'')</small>
+| {{dts|5 November 2013}}
+| [[Indian Space Research Organisation|ISRO]]<br/><small>[[India]]</small>
+|  Orbiter
+| {{usually|{{hs|5}}Operational}}
+| Entered orbit on 24 September 2014. Mission extended till 2020.<ref>http://www.deccanherald.com/content/595344/isro-mars-orbiter-mission-life.html</ref>
+| [[PSLV|PSLV-XL]]
+|-
+| [[MAVEN]]
+| {{dts|18 November 2013}}
+| [[NASA]]<br/><small>[[United States]]</small>
+| Orbiter
+| {{usually|{{hs|5}}Operational}}
+| Orbit insertion on September 22, 2014<ref name="NASA-20140921">{{cite web |last=Brown |first=Dwayne |last2=Neal-Jones |first2=Nancy |last3=Zubritsky |first3=Elizabeth |title=NASA's Newest Mars Mission Spacecraft Enters Orbit around Red Planet |url=http://www.jpl.nasa.gov/news/news.php?release=2014-318 |date=September 21, 2014 |work=[[NASA]] |accessdate=September 22, 2014 }}</ref>
+| [[Atlas V|Atlas V 401]]
+|-
+| [[ExoMars Trace Gas Orbiter]]
+| {{dts|14 March 2016}}
+| [[European Space Agency|ESA]]/[[Roscosmos]]<br/><small>[[European Space Agency|Europe]]/[[Russia]]</small>
+| Orbiter
+| {{usually|{{hs|5}}Operational}}
+| Entered orbit on October 19, 2016 
+| [[Proton-M]]/[[Briz-M]]
+|-
+| [[Schiaparelli EDM lander]]
+| {{dts|14 March 2016}}
+| [[European Space Agency|ESA]]<br/><small>[[European Space Agency|Europe]]</small>
+| Lander
+| {{no2|{{hs|1}}Spacecraft failure}}
+| Carried by the [[ExoMars Trace Gas Orbiter]]. Although the lander crashed,<ref name="exomars-failure-review">{{cite news |last=Clark |first= Stephen |title=Probe into crash of ESA lander recommends more checks on ExoMars descent craft |url=https://spaceflightnow.com/2017/05/24/probe-into-crash-of-esa-mars-lander-recommends-more-checks-on-exomars-descent-craft/ |date=24 May 2017 |work=Spaceflight Now |accessdate=21 November 2018}}</ref><ref name="spaceflight101-exomars">{{cite news |title=Weak Simulations, Inadequate Software & Mismanagement caused Schiaparelli Crash Landing|url=http://spaceflight101.com/exomars/esa-completes-schiaparelli-failure-investigation/|date=24 May 2017 |work=Spaceflight101 |accessdate=21 November 2018}}</ref> engineering data on the first five minutes of entry was successfully retrieved.<ref name="NYT-20161020">{{cite news |last=Chan |first=Sewell |title=No Signal From Mars Lander, but European Officials Declare Mission a Success |url=https://www.nytimes.com/2016/10/21/science/space/no-signal-from-mars-lander-but-european-officials-declare-mission-a-success.html |date=20 October 2016 |work=[[New York Times]] |accessdate=20 October 2016}}</ref><ref name="space.com34471">{{cite news |last=Wall |first=Mike |url=http://www.space.com/34471-exomars-mission-96-percent-successful-esa.html |title=ExoMars '96 Percent' Successful Despite Lander Crash: ESA |work=Space.com |date=21 October 2016 |accessdate=2016-10-21 }}</ref>
+| [[Proton-M]]/[[Briz-M]]
+|-
+| [[InSight]] & [[Mars Cube One|MarCO]]
+| {{dts|5 May 2018}}<ref name="Reprieve">{{cite news |last=Clark |first=Stephen |title=InSight Mars lander escapes cancellation, aims for 2018 launch |url=https://spaceflightnow.com/2016/03/09/insight-mars-lander-escapes-cancellation-aims-for-2018-launch/ |work=Spaceflight Now |date=9 March 2016 |accessdate=2016-03-09 }}</ref><ref name="NYT_20160309-kc">{{cite news |last=Chang |first=Kenneth |title=NASA Reschedules Mars InSight Mission for May 2018 |url=https://www.nytimes.com/2016/03/10/science/nasa-reschedules-mars-insight-mission-for-may-2018.html |date=9 March 2016 |work=[[New York Times]] |accessdate=9 March 2016 }}</ref> 
+| [[NASA]]<br/><small>[[United States]]</small>
+| Lander & two [[CubeSat]]s flyby
+|  {{usually|{{hs|5}}Operational}}
+| Landed on November 26, 2018.
+| [[Atlas V]] 401
+|}
+
+==Locations of selected Mars landers and rovers==
+{{Clear}}
+{{Mars map indicating landers}}
+{{Clear}}
+There are a number of derelict orbiters around Mars whose location is not known precisely; there is a proposal to search for small moons, dust rings, and old orbiters with the Optical Navigation Camera on the ''[[Mars Reconnaissance Orbiter]]''.
+<ref>[http://www.lpi.usra.edu/meetings/marsconcepts2012/pdf/4337.pdf M. Adler, et al. – Use of MRO Optical Navigation Camera .. (2012)]</ref> There should be 8 derelict Mars orbiters barring unforeseen events if they have not decayed as of 2016.<ref>[https://history.nasa.gov/marschro.htm]</ref> One example is [[Mariner 9]], which entered Mars orbit in 1971 and is expected to remain in orbit until approximately 2022, when the spacecraft is projected to enter the Martian atmosphere and either burn up or crash into the planet's surface.<ref>[http://www.nasa.gov/offices/oce/appel/ask-academy/issues/volume4/ata_4-9_mariner_9_prt.htm NASA - This Month in NASA History: Mariner 9], November 29, 2011 – Vol. 4, Issue 9 {{webarchive |url=https://web.archive.org/web/20130514043808/http://www.nasa.gov/offices/oce/appel/ask-academy/issues/volume4/ata_4-9_mariner_9_prt.htm |date=May 14, 2013 }}</ref> The Viking 1 orbiter is predicted not to decay until at least 2019.<ref>[http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1975-075A]</ref> One orbiter that is confirmed to have undergone Mars atmospheric entry is [[Mars Climate Orbiter]].
+
+(see also [[List of Mars orbiters]])
+
+==Future missions==
+
+===In development===
+{| class="wikitable sortable"
+|+  
+|-
+! Mission
+! Organization
+! Launch
+! Type
+
+|-
+| [[Hope Mars Mission]]
+| [[Mohammed Bin Rashid Space Centre|MBRSC]], UAE
+| July 2020 <ref name=UAE>{{cite web|url=http://spaceflightnow.com/2015/05/08/uae-details-ambitious-plan-for-martian-weather-satellite/|title=UAE details ambitious plan for Martian weather satellite|last=Clark|first=Stephen|date=8 May 2015|publisher=Spaceflight Now|accessdate=10 May 2015}}</ref><ref name=icresrise201601>{{cite news |title=Emirates Mars Mission |url=http://mycrescent.global/scitech/emirates-mars-mission/ |work=iCresRise Magazine |date=January 2016 |accessdate=12 January 2016 |deadurl=yes |archiveurl=https://web.archive.org/web/20160304084132/http://mycrescent.global/scitech/emirates-mars-mission/ |archivedate=4 March 2016 |df= }}</ref><ref>{{cite AV media |url=https://www.youtube.com/watch?v=ZHen3W3g0K0 |title=Emirates Mars Mission |date=5 May 2015 |work=Mohammed Bin Rashid Space Centre (MBRSC) |accessdate=12 January 2016 }}</ref> 
+| Orbiter
+
+|-
+| [[Mars 2020]]
+| [[National Aeronautics and Space Administration|NASA]], USA
+| July 2020
+| Rover, [[Mars Helicopter Scout|helicopter]]
+
+|-
+| [[ExoMars Rover|ExoMars 2020]]
+| [[European Space Agency|ESA]], EU<br>[[Russian Academy of Sciences|SRI RAS]], Russia
+| July 2020<ref name="LaunchMoved2020">{{cite press release| url=http://www.esa.int/For_Media/Press_Releases/Second_ExoMars_mission_moves_to_next_launch_opportunity_in_2020| title=Second ExoMars mission moves to next launch opportunity in 2020| publisher=[[ESA]]| date=2 May 2016| accessdate=2 May 2016}}</ref>
+| Lander, rover
+
+|-
+| [[2020 Chinese Mars Mission]]
+| [[China National Space Administration|CNSA]], China
+| July/August 2020<ref name="CHN-MarsMission">{{cite news| url=https://www.reuters.com/article/us-china-space-mars-idUSKCN10Z07B| title=China shows first images of Mars rover, aims for 2020 mission| publisher=[[Reuter]]| date=24 Aug 2016| accessdate=10 Dec 2016}}</ref>
+| Orbiter, rover
+
+|-
+| [[Mars Terahertz Microsatellite]]<ref name="small terahertz explorer">{{cite web |url=http://www.soumu.go.jp/main_content/000462914.pdf |title=惑星資源探査 ⼩型テラヘルツ探査機 |publisher=[[National Institute of Information and Communications Technology]] |format=PDF |date=25 January 2017|language=Japanese |access-date=2017-05-13}}</ref>
+| [[National Institute of Information and Communications Technology|NICT]], [[Intelligent Space Systems Laboratory|ISSL]], Japan
+| July 2020<ref>{{cite news |last=Yamazaki |first=Keisuke|url=http://www.asahi.com/ajw/articles/AJ201703270007.html |title=Japan planning 2020 mission to put satellite in Martian orbit|newspaper=The [[Asahi Shimbun]]|date=March 27, 2017|accessdate=2017-05-13}}</ref>
+| Orbiter, lander
+
+|-
+| [[Mars Orbiter Mission 2]] (''Mangalyaan 2'') 
+| [[Indian Space Research Organisation|ISRO]], India
+| 2022<ref name="scimag-isro-20170217">{{cite web |url=http://www.sciencemag.org/news/2017/02/india-eyes-return-mars-and-first-run-venus|title=India eyes a return to Mars and a first run at Venus |work=Science|date=17 February 2017 |accessdate=1 May 2017}}</ref><ref name="ibn20141030">{{cite news |url=http://ibnlive.in.com/news/india-plans-second-mars-mission-in-2018/509390-11.html |title=India plans second Mars mission in 2018 |work=CNN IBN |date=30 October 2014 |accessdate=2014-10-30 }}</ref>
+| Orbiter
+
+|-
+| [[Martian Moons Exploration]] (MMX)
+| [[JAXA]], Japan
+| 2024<ref name='S Clark'>[https://spaceflightnow.com/2017/11/20/nasa-confirms-contribution-to-japanese-led-mars-mission/ NASA confirms contribution to Japanese-led Mars mission]. Stephen Clark, ''Space Flight Now''. 20 November 2017.</ref><ref>[http://www.jhuapl.edu/newscenter/pressreleases/2017/171117.asp Back to the Red Planet]. Johns Hopkins APL. 17 November 2017.</ref>
+| Orbiter, Phobos lander
+|}
+
+===Proposals===
+{| class="wikitable sortable"
+|+  
+|-
+! Mission
+! Organisation
+! Proposed<br/>launch
+! Type
+
+|-
+| Demo mission
+| [[SpaceX]], USA
+| 2022 
+| Lander, cargo<ref>[https://www.theguardian.com/science/video/2017/sep/29/elon-musk-manned-mars-mission-spacex-video Elon Musk: we can launch a manned mission to Mars by 2024 – video]. ''The Guardian''. 29 September 2017.</ref>
+
+|-
+| Crewed mission
+| SpaceX, USA
+| 2024 
+| Lander, cargo, crew<ref>http://www.popsci.com/elon-musk-wants-to-put-humans-on-mars-by-2025</ref>
+
+|-
+| [[Next Mars Orbiter]] (NeMO)
+| [[NASA]], USA
+| Late 2020s<ref>{{cite news |url=https://spaceflightnow.com/2018/04/09/nasa-is-counting-on-long-lived-mars-orbiter-lasting-another-decade/ |title=NASA is counting on long-lived Mars orbiter lasting another decade |work=Spaceflight Now |first=Stephen |last=Clark |date=April 9, 2018 |accessdate=April 22, 2018}}</ref>
+| Telecomm orbiter<ref>{{cite news |last=Stephen |first=Clark |url=http://spaceflightnow.com/2015/03/03/nasa-eyes-ion-engines-for-mars-orbiter-launching-in-2022/ |title=NASA eyes ion engines for Mars orbiter launching in 2022 |work=Space Flight Now |date=March 3, 2015 |accessdate=2015-03-05 }}</ref> (originally proposed for 2022)
+
+|}
+
+==Missions to the moons of Mars==
+[[File:Stickney mro.jpg|thumb|Phobos' [[Stickney (crater)|Stickney Crater]]]]
+[[File:Gaspra Phobos Deimos.jpg|thumb|200px|Deimos (lower left) and Phobos (lower right) compared with the asteroid [[951 Gaspra]]]]
+[[File:Phobosmgs.gif|thumb|210px|Phobos by Mars Global Surveyor in 1998<ref>[http://www.jpl.nasa.gov/releases/98/mgsphobos.html]</ref>]]
+Missions dedicated to explore the two [[moons of Mars]], [[Phobos (moon)|Phobos]] and [[Deimos (moon)|Deimos]]. Many missions to Mars have also included dedicated observations of the Moons, while this section is about missions focused solely on them. There have been three unsuccessful dedicated missions and many proposals. Because of the proximity of the Mars moons to Mars, any mission to them may also be considered a mission to Mars from some perspectives.
+
+There have been at least three proposals in the United States [[Discovery Program]], including PADME, PANDORA, and MERLIN.<ref name=tps/> The ESA has also considered a sample return mission, one of the latest known as Martian Moon Sample Return or MMSR, and it may use heritage from an asteroid sample return mission.<ref name="adsabs.harvard.edu">[http://adsabs.harvard.edu/abs/2011epsc.conf..849M MMSR - a study for a Martian Moon Sample Return mission]</ref>
+
+{| class="wikitable sortable" style="margin-left: 1em; margin-right: 0;"
+! Proposal !! Target || Reference 
+|-
+| Aladdin || Phobos and Deimos ||<ref>[http://www.lpi.usra.edu/meetings/lpsc97/pdf/1113.PDF C. Pieters, et al. - Aladdin: Phobos-Deimos Sample Return]</ref>
+|-
+| [[Deimos and Phobos Interior Explorer|DePhine]] || Phobos and Deimos || <ref name='Proposal 2016'>  [https://reader.elsevier.com/reader/sd/pii/S027311771730916X?token=96D2A63B8BA88FA521AB2571F4B5E1BCB03637AAA6079592C3C0475018F424223E3D005763ADF32673283239255A09CB DePhine: The Deimos and Phobos Interior Explorer]. (PDF)  Jurgen Oberst, Kai Wickhusen, Konrad Willner, Klaus Gwinner, Sofya Spiridonova, Ralph Kahle, Andrew Coates, Alain Herique, Dirk Plettemeier, Marina Dıaz-Michelena, Alexander Zakharo, Yoshifumi Futaana, Martin Patzold, Pascal Rosenblatt, David J. Lawrence, Valery Lainey, Alison Gibbings, Ingo Gerth.  ''Advances in Space Research''. Volume 62, Issue 8. pp: 2220-2238. 15 October 2018. {{doi|10.1016/j.asr.2017.12.028}}</ref> 
+|-
+| DSR || Deimos ||<ref>[http://sci.esa.int/science-e/www/object/index.cfm?fobjectid=37067 Small Body Sample Return to Deimos]</ref>
+|-
+| Gulliver || Deimos ||<ref>[http://meetings.copernicus.org/epsc2010/abstracts/EPSC2010-463.pdf Dr. Britt - The Gulliver Mission: Sample Return from Deimos]</ref>
+|-
+| Hall || Phobos and Deimos ||<ref>[http://www.marsinstitute.info/rd/docs/plee/1633.pdf P. Lee, et al. - Hall: A Phobos and Deimos Sample Return Mission] {{webarchive|url=https://web.archive.org/web/20120729042044/http://www.marsinstitute.info/rd/docs/plee/1633.pdf |date=2012-07-29 }}</ref> 
+|-
+| M-PADS ||| Phobos and Deimos ||<ref>[http://oro.open.ac.uk/10715/1/Mars_Phobos_and_Deimos_Survey_revised2.pdf Mars Phobos and Deimos Survey (M-PADS)–A Martian Moons Orbiter and Phobos Lander] (Ball, Andrew J.; Price, Michael E.; Walker, Roger J.; Dando, Glyn C.; Wells, Nigel S. and Zarnecki,
+John C. (2009). Mars Phobos and Deimos Survey (M-PADS)–A Martian Moons Orbiter and Phobos Lander. Advances in Space Research, 43(1), pp. 120–127.)</ref>
+|-
+| Merlin || Phobos and Deimos ||<ref>{{cite journal|url = http://www.sciencedirect.com/science/article/pii/S009457651200392X | doi=10.1016/j.actaastro.2012.10.014 | volume=93 | title=MERLIN: Mars-Moon Exploration, Reconnaissance and Landed Investigation | year=2014 | journal=Acta Astronautica | pages=475–482 | last1 = Murchie | first1 = S. | last2 = Eng | first2 = D. | last3 = Chabot | first3 = N. | last4 = Guo | first4 = Y. | last5 = Arvidson | first5 = R. | last6 = Yen | first6 = A. | last7 = Trebi-Ollennu | first7 = A. | last8 = Seelos | first8 = F. | last9 = Adams | first9 = E. | last10 = Fountain | first10 = G.| bibcode = 2014AcAau..93..475M }}</ref>
+|-
+| MMSR (2011 ver.) || Phobos or Deimos || <ref name="adsabs.harvard.edu"/>
+|-
+| OSRIS-REx 2|| Phobos or Deimos ||<ref>[http://adsabs.harvard.edu/abs/2012LPICo1679.4017E Elifritz, T. L. - OSIRIS-REx II to Mars]</ref>
+|-
+| Pandora || Phobos and Deimos || <ref name=tps>[http://www.planetary.org/blogs/guest-blogs/van-kane/20150810-merlin-proposal-to-explore-the-martian-moons.html MERLIN: The Creative Choices Behind a Proposal to Explore the Martian Moons] (Merlin and PADME info also)</ref>
+|-
+| PCROSS || Phobos ||<ref>[http://adsabs.harvard.edu/abs/2012LPICo1679.4180C Colaprete, A, et al. - PCROSS — Phobos Close Rendevous(sic) Observation Sensing Satellite]</ref>
+|-
+| [[Phobos Surveyor]] || Phobos ||<ref>[http://www.spacesafetymagazine.com/tag/phobos-surveyor/ Phobos Surveyor - Space Safety Magazine]</ref>
+|-
+| PRIME || Phobos ||<ref>[http://www.marsinstitute.info/docs/PRIME.Poster.061018.pdf PRIME] {{webarchive|url=https://web.archive.org/web/20080510140554/http://www.marsinstitute.info/docs/PRIME.Poster.061018.pdf |date=2008-05-10 }}</ref>
+|-
+| [[Fobos-Grunt#Repeat mission|Fobos-Grunt 2]] || Phobos ||<ref>[http://www.spacesafetymagazine.com/2012/10/22/phobos-grunt-2-bound-launch-2020-russians-confirmed-celebrating-sputnik/ SSM - Phobos-Grunt 2 Bound for Launch in 2020, Russians Confirmed While Celebrating Sputnik]</ref>
+|-
+| [[Phootprint]] || Phobos || <ref name="Airbus 2014">{{cite conference |last=Barraclough |first=Simon |last2=Ratcliffe |first2=Andrew |last3=Buchwald |first3=Robert |last4=Scheer |first4=Heloise |last5=Chapuy |first5=Marc | last6=Garland |first6=Martin |title=Phootprint: A European Phobos Sample Return Mission |url=http://solarsystem.nasa.gov/docs/03_Phootprint_A%20European%20Phobos%20Sample%20Return%20Mission_Ratcliffe.pdf |format=PDF |conference=11th International Planetary Probe Workshop |publisher=Airbus Defense and Space |date=June 16, 2014}}</ref><ref name="COSPAR 2014">{{cite web |title=Phootprint - A Phobos sample return mission study |last=Koschny |first=Detlef |last2=Svedhem |first2=Håkan |first3=Denis |last3=Rebuffat |work=ESA |date= August 2, 2014 |accessdate=2015-12-22 |bibcode=2014cosp...40E1592K}}</ref> 
+|-
+| [[Phobos And Deimos & Mars Environment|PADME]] || Phobos and Deimos ||<ref name="lpsc 2014">{{cite conference |last=Lee |first=Pascal |last2=Bicay |first2=Michael |last3=Colapre |first3=Anthony |last4=Elphic |first4=Richard |title=Phobos And Deimos & Mars Environment (PADME): A LADEE-Derived Mission to Explore Mars's Moons and the Martian Orbital Environment. |url=http://www.hou.usra.edu/meetings/lpsc2014/pdf/2288.pdf |format=PDF |conference=45th Lunar and Planetary Science Conference (2014) |conferenceurl=http://www.hou.usra.edu/meetings/lpsc2014/ |date=March 17–21, 2014 }}</ref><ref name="Reyes 2014">{{cite news |last=Reyes |first=Tim |url=http://www.universetoday.com/114871/making-the-case-for-a-mission-to-the-martian-moon-phobos/ |title=Making the Case for a Mission to the Martian Moon Phobos |work=Universe Today |date=1 October 2014 |accessdate=2014-10-05 }}</ref>
+|}
+
+In Japan, the [[Institute of Space and Astronautical Science]] (ISAS) is developing a sample return mission to Phobos,<ref>{{cite web |url=http://www.elsi.jp/ja/research/docs/Introduction-PDSR-IntlRv-151102.pdf#page=22 |title=Introduction to JAXA's Exploration of the Two Moons of Mars, with Sample Return from Phobos |publisher=Phobos/Deimos Sample Return Mission Study Team |format=PDF |date=26 October 2015 |access-date=2015-12-22}}</ref><ref name="yomiuri">{{cite news |date=January 4, 2016 |title=JAXA、火星衛星「フォボス」探査…２２年に |url =http://www.yomiuri.co.jp/science/20160104-OYT1T50063.html |archive-url =https://archive.is/20160104080052/http://www.yomiuri.co.jp/science/20160104-OYT1T50063.html |dead-url =yes |archive-date =January 4, 2016  |language=Japanese |newspaper=[[The Yomiuri Shimbun]] |accessdate=2016-02-04 }}</ref> due to launch in 2024. This mission is called [[Martian Moons Exploration]] (MMX)<ref name="MMX">{{cite web |url=http://www.isas.jaxa.jp/j/isasnews/backnumber/2016/ISASnews418.pdf#page=3 |title=ISASニュース 2016.1 No.418 |publisher=[[Institute of Space and Astronautical Science]] |format=PDF |date=22 January 2016 |access-date=2016-02-04 |language=Japanese}}</ref> and is proposed as a flagship Strategic Large Mission.<ref>{{cite web |url=http://www8.cao.go.jp/space/comittee/27-kagaku/kagaku-dai3/siryou4-3.pdf#page=2 |title=宇宙科学・探査分野 工程表取り組み状況について その3 |publisher=[[Japanese Aerospace Exploration Agency]] |format=PDF |date=13 October 2015|language=Japanese |access-date=2015-12-21}}</ref>  MMX will build on the expertise the [[Japanese Space Agency]] (JAXA) would gain through the [[Hayabusa2]] and [[Smart Lander for Investigating Moon|SLIM]] missions.<ref>{{cite news |last=Torishima |first=Shinya |date=June 19, 2015 |title=JAXAの「火星の衛星からのサンプル・リターン」計画とは |url=http://news.mynavi.jp/series/jaxa_mars/001/ |language=Japanese |newspaper=Mynavi News |accessdate=2015-10-06 }}</ref> As of January 2018, MMX is set for launch in September 2024.<ref name='Homepage'>[http://mmx.isas.jaxa.jp/en/index.html MMX Homepage]. JAXA, 2017</ref>
+{| class="wikitable sortable" style="margin-left: 1em; margin-right: 0;"
+! Planned mission !! Target || Reference 
+|-
+| [[Martian Moons Exploration]] (MMX) ||Phobos and Deimos || <ref name="MMX"/> 
+|}
+
+Three missions to land on [[Phobos (moon)|Phobos]] have been launched; the [[Phobos program]] in the late 1980s saw the launch of [[Fobos 1]] and [[Fobos 2]], while the [[Fobos-Grunt]] sample return mission was launched in 2011. None of these missions were successful: Fobos 1 failed en route to Mars, Fobos 2 failed shortly before landing, and Fobos-Grunt never left [[low Earth orbit]].
+{| class="wikitable sortable" style="margin-left: 1em; margin-right: 0;"
+! Launched mission !! Target || Reference 
+|-
+| [[Phobos 1]] || Phobos ||
+|-
+| [[Phobos 2]] || Phobos ||
+|-
+| [[Fobos-Grunt]] || Phobos ||
+|}
+
+Missions sent to the Martian system have returned data on Phobos and Deimos and missions specifically dedicated to the moons are a subset of missions Mars that often include dedicated goals to acquire data about these moons. An example of this is the imaging campaigns by [[Mars Express]] of the Mars moons.
+
+Osiris-Rex 2 was a proposal to make OR a double mission, with the other one collecting samples from the two Mars moons.<ref>[http://www.lpi.usra.edu/meetings/marsconcepts2012/pdf/4017.pdf OSIRIS-REx II to Mars - Mars Sample Return from Phobos and Deimos]</ref> In 2012, it was stated that this mission would be the both quickest and least expensive way to get samples from the Moons.<ref>[http://adsabs.harvard.edu/abs/2012LPICo1679.4017E  Elifritz, T. L. - OSIRIS-REx II to Mars — Mars Sample Return from Phobos and Deimos (2012)]</ref>
+
+The 'Red Rocks Project', a part of Lockheed Martin's "Stepping stones to Mars" program,  proposed to explore Mars robotically from Deimos.<ref name="footstepstomars">Larry Page [http://www.nasa.gov/pdf/604658main_5%20-%20Orion_MPCV_-_Human_Space_Exploration_Workshop_-_San_Diego1%201.pdf Deep Space Exploration - Stepping Stones] builds up to "Red Rocks : Explore Mars from Deimos"</ref><ref>[http://www.space.com/11437-mars-moons-exploration-astronauts-red-rocks.html One Possible Small Step Toward Mars Landing: A Martian Moon]</ref>
+
+==Undeveloped concepts==
+=== 1970s ===
+* ''[[Mars 4NM]]'' and ''[[Mars 5NM]]'' – projects intended by the Soviet Union for heavy [[Marsokhod]] (in 1973 according to initial plan of 1970) and [[Mars sample return mission|Mars sample return]] (planned for 1975). The missions were to be launched on the failed [[N1 (rocket)|N1]] rocket.<ref>[http://www.novosti-kosmonavtiki.ru/content/numbers/213/50.shtml Советский грунт с Марса] {{ru icon}}. www.novosti-kosmonavtiki.ru {{webarchive |url=https://web.archive.org/web/20051126224924/http://www.novosti-kosmonavtiki.ru/content/numbers/213/50.shtml |date=November 26, 2005 }}</ref>
+* ''[[Mars 5M|Mars 5M (Mars-79)]]'' – double-launching Soviet sample return mission planned to 1979 but cancelled due to complexity and technical problems
+* ''[[Voyager program (Mars)|Voyager-Mars]]'' – USA, 1970s – Two orbiters and two landers, launched by a single [[Saturn V]] rocket.
+
+=== 1990s ===
+* ''[[Vesta (spacecraft)|Vesta]]'' – the multiaimed Soviet mission, developed in cooperation with European countries for realisation in 1991–1994 but canceled due to the Soviet Union disbanding, included the flyby of Mars with delivering the aerostat and small landers or penetrators followed by flybys of [[1 Ceres]] or [[4 Vesta]] and some other [[asteroid]]s with impact of penetrator on the one of them.
+* ''[[Mars Aerostat]]'' – Russian/French balloon part for cancelled Vesta mission and then for failed [[Mars 96]] mission,<ref>C. Tarrieu, "Status of the Mars 96 Aerostat Development", Paper IAF-93-Q.3.399, 44th Congress of the International Astronautical Federation, 1993.</ref> originally planned for the 1992 launch window, postponed to 1994 and then to 1996 before being cancelled.<ref>P.B. de Selding, "Planned French Balloon May Be Dropped", Space News, 17–23 April 1995, pp. 1, 20</ref>
+* Mars Together, combined U.S. and Russian mission study in the 1990s. To be launched by a Molinya with possible U.S. orbiter or lander.<ref>{{cite web|url=http://mars.nasa.gov/MPF//martianchronicle/martianchron5/marstog5.html|title=Mars Together Update|website=nasa.gov|accessdate=9 February 2017}}</ref><ref>{{cite web|url=http://mars.nasa.gov/MPF//martianchronicle/martianchron3/marschro34.html|title=Mars Together: An Update|website=nasa.gov|accessdate=9 February 2017}}</ref>
+* ''[[Mars Environmental Survey]]'' – set of 16 landers planned for 1999–2009
+* ''[[Mars-98]]'' – Russian mission including an orbiter, lander, and rover, planned for 1998 launch opportunity as repeat of failured [[Mars 96]] mission and cancelled due to lack of funding
+
+=== 2000s ===
+* ''[[Mars Surveyor 2001 Lander]]'' – October 2001 – Mars lander (refurbished, became Phoenix lander)
+* ''Kitty Hawk'' – Mars airplane micromission, proposed for December 17, 2003, the centennial of the Wright brothers' first flight.<ref>Oliver Morton in ''To Mars, En Masse'', pp. 1103–04, Science (Magazine) vol. 283, 19 February 1999, ISSN 0036-8075</ref>  Its funding was eventually given to the 2003 [[Mars Network]] project.<ref>[https://web.archive.org/web/20110410092809/http://www.marsnews.com/missions/airplane/ MIT Mars Airplane Project]. Marsnews.com. Retrieved on 2012-08-14.</ref>
+* ''[[NetLander]] – 2007 or 2009 – Mars netlanders
+* ''[[Beagle 3]]'' – 2009 British lander mission meant to search for life, past or present.
+* ''[[Mars Telecommunications Orbiter]]'' – September 2009 – Mars orbiter for telecommunications
+
+=== 2010s ===
+* ''[[Sky-Sailor]]'' – 2014 – Plane developed by Switzerland to take detailed pictures of Mars surface
+* ''[[Mars Astrobiology Explorer-Cacher]]'' – 2018 rover concept, cancelled due to budget cuts in 2011. Sample cache goal later moved to Mars 2020 rover.<ref>https://astrobites.org/2014/09/09/mars-2020/</ref>
+* ''[[SpaceX Red Dragon|Red Dragon]]'' – Derivative of a [[Dragon 2]] capsule by SpaceX, designed to land by aerobraking and retropropulsion. Planned for 2018, then 2020. Cancelled in favor of the [[BFR (rocket)|BFR ''Starship'']] system.
+* Tumbleweed rover.<ref>[http://www.jpl.nasa.gov/news/features.cfm?feature=486 Exploring Mars: Blowing in the Wind?] Jpl.nasa.gov (2001-08-10). Retrieved on 2012-08-14.</ref>
+* [[Mars One]], orbiters, lander, rover.
+
+==See also==
+{{div col|colwidth=20em}}
+* [[List of artificial objects on Mars|Artificial objects on Mars]]
+* [[Exploration of Mars]]
+* [[Manned mission to Mars]]
+* [[Mars Exploration Rover]]
+* [[Mars flyby]]
+* [[Mars landing]]
+* [[Mars rover]]
+{{div col end}}
+
+==References==
+{{Reflist|30em}}
+
+{{Spacecraft by destination}}
+{{NASA planetary exploration programs}}
+{{Mars spacecraft}} 
+{{Mars}}
+{{Portal bar|Mars|Space|Spaceflight}}
+
+[[Category:Mars]]
+[[Category:Missions to Mars| ]]
+[[Category:Missions to the planets|Mars]]
+[[Category:Lists of space missions]]

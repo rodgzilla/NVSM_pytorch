@@ -1,0 +1,32 @@
+'''Decentralized network 42''' (also known as '''dn42''') is a decentralized [[peer-to-peer]] network built using [[Virtual private network|VPN]]s and software/hardware [[Border Gateway Protocol|BGP]] [[router (computing)|router]]s.
+
+While other [[darknet]]s try to establish [[anonymity]] for their participants, that is not what dn42 aims for. It is a network to explore routing technologies used in the [[Internet]] and tries to establish direct non-[[Network address translation|NAT]]-ed connections between the members.
+
+The network is not [[Mesh networking|fully meshed]]. dn42 uses mostly [[Tunneling_protocol|tunnels]] instead of physical links between the individual networks. Each participant is connected to one or more other participants.<ref name=nnmap>{{cite web|url=http://map.nixnodes.net|title=Real-time dn42 network map|publisher=|accessdate=22 April 2018}}</ref> Over the VPN or the physical links, [[Border Gateway Protocol|BGP]] is used for inter [[Autonomous system (Internet)|AS]] [[routing]]. While [[Open_Shortest_Path_First|OSPF]] is the most commonly used protocol for intra AS routing, each participant is free to choose any other [[Interior_gateway_protocol|IGP]] for their AS.
+
+== Technical setup ==
+
+=== Address space ===
+
+Network [[address space]] for IPv4 consists of [[Private network|private]] [[subnetwork|subnets]]: 172.20.0.0/14 is the main subnet.<ref name=addrspace>{{cite web|url=https://dn42.eu/services/Whois#Address-space|title=dn42 address space|author=|accessdate=22 April 2018}}</ref> Note that other private address ranges may also be announced in dn42, as the network is interconnected with other similar projects. Most notably, [[ChaosVPN]] uses 172.31.0.0/16 and parts of 10.0.0.0/8 <ref>{{cite web|url=http://wiki.hamburg.ccc.de/ChaosVPN:IPRanges|title=ChaosVPN IP ranges|accessdate=22 April 2018}}</ref> and [[ICVPN]] uses 10.0.0.0/8. <ref>{{cite web|url=https://github.com/freifunk/icvpn-meta|title=ICVPN IP ranges|accessdate=22 April 2018}}</ref>
+
+For IPv6, [[Unique Local Address]] (ULA, the IPv6 equivalent of private address range) are used.<ref name=addrspace /> While some participants also announce [[IPv6 address#IPv6 address space|Globally routable addresses]], these announcements are only accepted by a small subset of dn42.
+
+=== AS numbers ===
+
+In order to use [[BGP]], even in a private environment, [[Autonomous System Numbers]] are needed. dn42 uses several private or reserved AS numbers ranges, including 64512 to 64855 and 76100 to 76199.<ref>{{cite web|url=https://dn42.eu/FAQ#frequently-asked-questions_why-are-you-using-asn-in-the-76100-76199-range|title=Frequently Asked Questions|accessdate=22 April 2018}}</ref> Since June 2014, dn42 is now using a new private range, 4242420000 to 4242429999,<ref>{{cite web|url=https://dn42.eu/Services/Whois#AS-numbers|title=AS numbers|accessdate=22 April 2018}}</ref> part of larger private range defined by RFC 6996.
+
+=== BGP routers ===
+
+While some participants use hardware routers, most participants use general purpose [[Server_(computing)|servers]] or [[Virtual_machine|virtual machines]] to lower their cost. The most commonly used BGP implementation used in dn42 are [[Bird Internet routing daemon|BIRD]] and [[Quagga (software)|Quagga]], but some participants use [[OpenBGPD]], [[XORP]] or the implementation of [[JunOS]] or [[Cisco IOS]].<ref>{{cite web|url=https://dn42.eu/FAQ#frequently-asked-questions_what-bgp-daemon-should-i-use|title=What BGP daemon should I use?|accessdate=22 April 2018}}</ref>
+
+==References==
+{{reflist}}
+
+==External links==
+* [https://dn42.eu Official website]
+
+[[Category:Internet exchange points]]
+[[Category:Virtual private networks]]
+[[Category:Peer-to-peer computing]]
+[[Category:Computer networking]]

@@ -1,0 +1,193 @@
+[[File:Translation arrow.svg|thumb|From A to A]]
+[[Machine translation]] can use a method based on [[dictionary]] entries, which means that the words will be translated as a dictionary does – word by word, usually without much correlation of meaning between them. Dictionary lookups may be done with or without [[Morphology (linguistics)|morphological analysis]] or [[lemmatisation]]. While this approach to machine translation is probably the least sophisticated, '''dictionary-based machine translation''' is ideally suitable for the translation of long lists of phrases on the subsentential (i.e., not a full sentence) level, e.g. [[inventory|inventories]] or simple catalogs of products and services.<ref>Uwe Muegge (2006), "An Excellent Application for Crummy Machine Translation: Automatic Translation of a Large Database", in Elisabeth Gräfe (2006; ed.), ''Proceedings of the Annual Conference of the German Society of Technical Communicators'', Stuttgart: tekom, 18–21.</ref>
+
+It can also be used to expedite manual translation, if the person carrying it out is fluent in both languages and therefore capable of correcting syntax and grammar.
+
+== LMT ==
+LMT<ref name=":0">{{Cite journal|title = ACQUIRING LEXICAL DATA FROM MACHINE-READABLE DICTIONARY RESOURCES FOR MACHINE TRANSLATION|pages = 85–90|publisher = IBM T. J. Watson Research Center, P. O. Box 704, Yorktown Heights, New York 10598|last = Mary S. Neff Michael C. McCord|citeseerx = 10.1.1.132.8355|year = 1990}}</ref> is a Prolog-based machine-translation system that works
+on specially made bilingual dictionaries, such as the Collins English-German
+(CEG), which have been rewritten in an indexed form which is easily readable by
+computers. This method uses a structured lexical data base (LDB) in order to
+correctly identify word categories from the source language, thus constructing
+a coherent sentence in the target language, based on rudimentary morphological
+analysis. This system uses "frames"<ref name=":0" /> to identify the position a certain word
+should have, from a syntactical point of view, in a sentence. This "frames"<ref name=":0" /> are
+mapped via language conventions, such as UDICT in the case of English.
+
+In its early (prototype) form LMT<ref name=":0" /> uses three lexicons,
+accessed simultaneously: source, transfer and target, although it is possible
+to encapsulate this whole information in a single lexicon. The program uses a
+lexical configuration consisting of two main elements. The first element is a
+hand-coded lexicon addendum which contains possible incorrect translations. The
+second element consist of various bilingual and monolingual dictionaries
+regarding the two languages which are the source and target languages.
+
+== Example-Based & Dictionary-Based Machine Translation ==
+This method of Dictionary-Based Machine translation explores
+a different paradigm from systems such as LMT. An [[example-based machine translation]] system is supplied with only a "sentence-aligned bilingual corpus".<ref name=":1">{{Cite web|url = http://www.mt-archive.info/TMI-1997-Brown.pdf|title = Automated Dictionary Extraction for "Knowledge-Free" Example-Based Translation|date = |accessdate = 2 November 2015|website = |publisher = Language Technologies Institute (Center for Machine Translation) Carnegie Mellon University Pittsburgh, PA 15213-3890 USA|last = Ralf D. Brown}}</ref>
+Using this data the translating program generates a "word-for-word bilingual
+dictionary"<ref name=":1" /> which is used for further translation.
+
+Whilst this system would generally be regarded as a whole
+different way of machine translation than Dictionary-Based Machine Translation,
+it is important to understand the complementing nature of this paradigms. With
+the combined power inherent in both systems, coupled with the fact that a
+Dictionary-Based Machine Translation works best with a "word-for-word bilingual
+dictionary"<ref name=":1" /> lists of words it demonstrates the fact that a coupling of this two
+translation engines would generate a very powerful translation tool that is,
+besides being semantically accurate, capable of enhancing its own
+functionalities via perpetual feedback loops.
+
+A system which combines both paradigms in a way similar to
+what was described in the previous paragraph is the Pangloss Example-Based
+Machine Translation engine (PanEBMT)<ref name=":1" /> machine translation engine. PanEBMT uses a
+correspondence table between languages to create its corpus. Furthermore,
+PanEBMT supports multiple incremental operations on its corpus, which facilitates
+a biased translation used for filtering purposes.
+
+== Parallel Text Processing ==
+Douglas Hofstadter through his "Le Ton beau de Marot: In
+Praise of the Music of Language" proves what a complex task translation is. The
+author produced and analysed dozens upon dozens of possible translations for an
+eighteen line French poem, thus revealing complex inner workings of syntax,
+morphology and meaning.<ref name=":2">{{Cite book|title = Parallel Text Processing: Alignment and Use of Translation Corpora|journal = Computational Linguistics|volume = 27|issue = 4|pages = 592–595|publisher = Dordrecht: Kluwer Academic Publishers (Text, speech and language technology series, edited by Nancy Ide and Jean V´eronis, volume 13), 2000, xxiii+402 pp; hardbound |isbn=978-0-7923-6546-4|last = Jean V´eronis|doi = 10.1162/coli.2000.27.4.592|year = 2001}}</ref> Unlike most translation engines who choose a single
+translation based on back to back comparison of the texts in both the source
+and target languages, Douglas Hofstadter's work prove the inherent level of
+error which is present in any form of translation, when the meaning of the
+source text is too detailed or complex. Thus the problem of text alignment and
+"statistics of language"<ref name=":2" /> is brought to attention.
+
+This discrepancies led to Martin Kay's views on translation
+and translation engines as a whole. As Kay puts it "More substantial successes
+in these enterprises will require a sharper image of the world than any that
+can be made out simply from the statistics of language use" [(page xvii)
+Parallel Text Processing: Alignment and Use of Translation Corpora].<ref name=":2" /> Thus Kay
+has brought back to light the question of meaning inside language and the
+distortion of meaning through processes of translation.
+
+== Lexical Conceptual Structure ==
+One of the possible uses of Dictionary-Based Machine Translation is facilitating "Foreign Language Tutoring" (FLT). This can be achieved by using Machine-Translation technology as well as linguistics, semantics and morphology to produce "Large-Scale Dictionaries"<ref name=":3" /> in virtually any given language. Development in lexical semantics and computational linguistics during the time period between 1990 and 1996 made it possible for "natural language processing" (NLP) to flourish, gaining new capabilities, nevertheless benefiting machine translation in general.<ref name=":3">{{Cite journal|title = Large-Scale Dictionary Construction for Foreign Language Tutoring and Interlingual Machine Translation|journal = Machine Translation|volume = 12|issue = 4|pages = 271–322|last = BONNIE J. DORR|doi = 10.1023/A:1007965530302|year = 1997}}</ref>
+
+"Lexical Conceptual Structure" (LCS) is a representation
+that is language independent. It is mostly used in foreign language tutoring,
+especially in the natural language processing element of FLT. LCS has also
+proved to be an indispensable tool for machine translation of any kind, such as
+Dictionary-Based Machine Translation. Overall one of the primary goals of LCS
+is "to demonstrate that synonymous verb senses share distributional patterns".<ref name=":3" />
+
+== "DKvec" ==
+"DKvec is a method for extracting bilingual lexicons, from
+noisy parallel corpora based on arrival distances of words in noisy parallel
+corpora". This method has emerged in response to two problems plaguing the
+statistical extraction of bilingual lexicons: "(1) How can noisy parallel
+corpora be used? (2) How can non-parallel yet comparable corpora be used?"<ref name=":4">{{Cite book|title = Machine Translation and the Information Soup|volume = 1529|website = |publisher = CR Subject Classification (1998): I.2.7, H.3, F.4.3, H.5, J.5 Springer-Verlag Berlin Heidelberg New York|isbn=978-3-540-65259-5|last = David Farwell Laurie Gerber Eduard Hovy|doi = 10.1007/3-540-49478-2|series = Lecture Notes in Computer Science|year = 1998}}</ref>
+
+The "DKvec" method has proven invaluable for machine
+translation in general, due to the amazing success it has had in trials
+conducted on both English – Japanese and English – Chinese noisy parallel
+corpora. The figures for accuracy "show a 55.35% precision from a small corpus
+and 89.93% precision from a larger corpus".<ref name=":4" /> With such impressive numbers it is
+safe to assume the immense impact that methods such as "DKvec" has had in the
+evolution of machine translation in general, especially Dictionary-Based
+Machine Translation.
+
+Algorithms used for extracting [[parallel corpora]] in a
+bilingual format exploit the following rules in order to achieve a satisfactory
+accuracy and overall quality:<ref name=":4" />
+# Words have one sense per corpus
+# Words have single translation per corpus
+# No missing translations in the target document
+# Frequencies of bilingual word occurrences are comparable
+# Positions of bilingual word occurrences are comparable
+
+This methods can be used to generate, or to look for, occurrence patterns which in turn are used to produce binary occurrence vectors which are used by the "DKvec" method.
+
+== History of Machine Translation ==
+The history of machine translation (MT) starts around the
+mid 1940s. Machine translations was probably the first time computers were
+used for non-numerical purposes. Machine translation enjoyed a fierce research interest
+during the 1950s and 1960s, which was followed by a stagnation until the 1980s.<ref name=":5">{{Cite book|url = http://www.sciencedirect.com/science/article/pii/B0080448542009378|title = Machine Translation: History|date = January 2006|accessdate = 2 November 2015|last = J. Hutchins|doi=10.1016/B0-08-044854-2/00937-8|journal=Encyclopedia of Language & Linguistics|pages=375–383|isbn = 9780080448541}}</ref>
+After the 1980s, machine translation became mainstream again, enjoying an even
+bigger popularity than in the 1950s and 1960s as well as rapid expansion,
+largely based on the text corpora approach.
+
+The basic concept of machine translation can be traced back
+to the 17th century in the speculations surrounding "universal
+languages and mechanical dictionaries".<ref name=":5" /> The first true practical machine
+translation suggestions were made in 1933 by Georges Artsrouni in France and Petr
+Trojanskij in Russia. Both had patented machines that they believed could be
+used for translating meaning from a language to another. "In June 1952, the
+first MT conference was convened at MIT by Yehoshua Bar-Hillel".<ref name=":5" /> On 7 January 1954 a Machine Translation convention in New York, sponsored by IBM,
+served at popularizing the field. The conventions popularity came from the
+translation of short English sentences into Russian. This engineering feat
+mesmerised the public and the governments of both the US and USSR who
+therefore stimulated large-scale funding in machine translation research.<ref name=":5" />
+Although the enthusiasm for machine translation was extremely high, technical
+and knowledge limitations led to disillusions regarding what machine
+translation was actually capable of doing, at least at that time. Thus machine
+translation lost in popularity until the 1980s, when advances in linguistics
+and technology helped revitalise the interest in this field.
+
+== Translingual information retrieval ==
+"Translingual information retrieval (TLIR) consists of
+providing a query in one language and searching document collections in one or
+more different languages". Most methods of TLIR can be quantified into two
+categories, namely statistical-IR approaches and query translation. Machine
+translation based TLIR works in one of two ways. Either the query is translated
+in the target language, or the original query is used to search while the
+collection of possible results is translated in the query language and used for
+cross-reference. Both methods have pros and cons, namely:<ref name=":6">{{Cite journal|url = http://www.sciencedirect.com/science/article/pii/S0004370298000630|title = Translingual information retrieval: learning from bilingual corpora|date = August 1998|accessdate = 2 November 2015|publisher = Language Technologies Institute, School of Computer Science, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, PA 15213, USA|author1=Yiming Yang |author2=Jaime G. Carbonell |author3=Ralf D. Brown |author4=Robert E. Frederking |doi=10.1016/S0004-3702(98)00063-0 |volume=103 |issue = 1–2|journal=Artificial Intelligence |pages=323–345}}</ref>
+* Translation Accuracy – the correctness of any machine translation, is dependent on the size of the translated text, thus short texts or words may suffer from a bigger degree of semantic errors, as well as lexical ambiguities, whereas a larger text may provide context, which helps at disambiguation.
+* Retrieval Accuracy – based on the same logic invoked at the previous point, it is preferably to have whole documents translated, rather than queries, because large texts are likely to suffer from less loss of meaning in translation then short queries.
+* Practicality – unlike the previous points, translating short queries is the best way to go. This is because it is easy to translate short texts, whilst translating whole libraries is highly resource intensive, plus the volume of such a translating task implies the indexing of the new translated documents
+
+All this points prove the fact that Dictionary-Based machine translation is the most efficient and reliable form of translation when working with TLIR. This is because the process "looks up each query term in a general-purpose bilingual dictionary, and uses all its possible translations."<ref name=":6" />
+
+== Machine Translation of Very Close Languages ==
+The examples of RUSLAN, a dictionary-based machine
+translation system between Czech and Russian and CESILKO, a Czech – Slovak
+dictionary-based machine translation system, shows that in the case of very
+close languages simpler translation methods are more efficient, fast and
+reliable.<ref name=":7">{{Cite book|chapter-url = http://dl.acm.org/citation.cfm?id=974149|accessdate = 2 November 2015|website = |publisher = |author1=Jan HAJIC |title = Proceedings of the sixth conference on Applied natural language processing -|pages = 7–12|author2=Jan HRIC |author3=Vladislav KUBON |doi = 10.3115/974147.974149|year = 2000|chapter = Machine translation of very close languages}}</ref>
+
+The RUSLAN system was made in order to prove the hypotheses
+that related languages are easier to translate. The system development started
+in 1985 and was terminated five years later due to lack of further funding. The
+lessons taught by the RUSLAN experiment are that a transfer-based approach of
+translation retains its quality regardless of how close the languages are. The
+main two bottlenecks of "full-fledged transfer-based systems"<ref name=":7" /> are complexity
+and unreliability of syntactic analysis.<ref>{{Cite book|chapter-url = http://dl.acm.org/citation.cfm?id=290957|title = The Effects of Query Structure and Dictionary Setups in DictionaryBased Cross-language Information Retrieval|pages = 55–63|accessdate = 2 November 2015|website = |publisher = Department of Information studies University of Tampere|last = Ari Pirkola|doi = 10.1145/290941.290957|chapter = The effects of query structure and dictionary setups in dictionary-based cross-language information retrieval|year = 1998|isbn = 978-1581130157|citeseerx = 10.1.1.20.3202}}</ref>
+
+== Multilingual Information Retrieval MLIR ==
+"Information Retrieval systems rank documents according to
+statistical similarity measures based on the co-occurrence of terms in queries
+and documents". The MLIR system was created and optimised in such a way that
+facilitates dictionary based translation of queries. This is because of the
+fact that queries tend to be short, a couple of words, which, despite not
+providing a lot of context it is a more feasible than translating whole
+documents, due to practical reasons. Despite all this, the MLIR system is
+highly dependent on a lot of resources such as automated language detection
+software.<ref name=":8">{{Cite book|chapter-url = http://dl.acm.org/citation.cfm?id=243212|title = Querying Across Languages: A Dictionary-Based Approach to Multilingual Information Retrieval|pages = 49–57|accessdate = 2 November 2015|website = |publisher = Rank Xerox Research Centre 6 chemin de Maupertuis, 38240 Meylan France|author1=David A. Hull |author2=Gregory Grefenstette |doi = 10.1145/243199.243212|chapter = Querying across languages|year = 1996|isbn = 978-0897917926}}</ref>
+
+== Key words ==
+Linguistics ('''lin·guis·tics |''' lĭng-gwĭs′tĭks)  = ''n.'' ''(used with a sing. verb)'' The study of the nature, structure, and variation of language, including phonetics, phonology, morphology, syntax, semantics, socio-linguistics, and pragmatics.<ref>{{Cite journal|title = linguistics|url = http://www.thefreedictionary.com/linguistics}}</ref>
+
+computational linguistics = The branch of linguistics in which the techniques of computer science are applied to the analysis and synthesis of language and speech.<ref>{{Cite web|title = computational linguistics - definition of computational linguistics in English from the Oxford dictionary|url = http://www.oxforddictionaries.com/definition/english/computational-linguistics|website = www.oxforddictionaries.com|accessdate = 2015-11-04}}</ref>
+
+Syntax ('''sin'''-taks) noun = a. the study of the rules for the formation of grammatical sentences in a language; b. the study of the patterns of formation of sentences and phrases from words; c. the rules or patterns so studied; ''Computers.'' the grammatical rules and structural patterns governing the ordered use of appropriate words and symbols for issuing commands, writing code, etc., in a particular software application or programming language.<ref>{{Cite web|title = The definition of syntax|url = http://dictionary.reference.com/browse/syntax|website = Dictionary.com|accessdate = 2015-11-04}}</ref>
+
+==See also==
+* [[Example-based machine translation]]
+* [[Language industry]]
+* [[Machine translation]]
+* [[Neural machine translation]]
+* [[Rule-based machine translation]]
+* [[Statistical machine translation]]
+* [[Translation]]
+
+== Bibliography ==
+{{reflist}}
+
+{{Approaches to machine translation}}
+
+[[Category:Machine translation]]

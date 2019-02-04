@@ -1,0 +1,57 @@
+{{Infobox Magazine
+|title=Linux Journal
+|image_file=Linux Journal logo.svg
+|caption= Linux Journal logo
+|frequency = Monthly
+|company = Linux Journal, LLC.
+|country = United States
+|firstdate = {{start date and age|1994}}
+|category = [[Computer]]
+|language= English
+|website = {{URL|https://www.linuxjournal.com/}}
+|issn = 1075-3583
+}}
+
+'''''Linux Journal''''' is a monthly technology [[magazine]] published by Linux Journal, LLC. ([[Denver]], [[Colorado|CO]]). It focuses specifically on [[Linux]], allowing the content to be a highly specialized source of information for [[Open-source model|open source]] enthusiasts.
+
+==History==
+''Linux Journal'' was the first magazine to be published about the [[Linux kernel]] and [[Linux|operating systems based on it]]. It was established in 1994.<ref>{{cite book|author=Bernadette Hlubik Schell|title=The Internet and Society: A Reference Handbook|url=https://books.google.com/books?id=xPFrOIsUKTkC&pg=PA256|accessdate=26 October 2016|year=2007|publisher=ABC-CLIO|isbn=978-1-59884-031-5|page=257}}</ref> The first issue was published in March 1994 by Phil Hughes and [[Bob Young (businessman)|Bob Young]], co-founder of [[Red Hat]], and featured an interview with Linux creator [[Linus Torvalds]].<ref name=first />
+
+The publication's last print edition was August 2011, issue 208.<ref name=last_print/> Beginning with the September 2011 issue, issue 209, the magazine transitioned to publishing monthly in digital-only formats including various desktop, mobile, and e-pub platforms.<ref name=digital />
+
+In early July 2014 it was revealed that the NSA's [[XKeyscore]] program targeted readers of ''Linux Journal''<ref name=NSA-1/> as part of targeting people interested in the Linux distribution [[Tails (operating system)|Tails]].<ref>[https://arstechnica.com/security/2014/07/the-nsa-thinks-linux-journal-is-an-extremist-forum/ Arstechnica]</ref>
+
+On December 1, 2017 ''Linux Journal'' announced that it would cease publication due to running out of funds, having fallen into debt and being unable to pay employees for months.<ref>{{Cite web|url=http://www.linuxjournal.com/content/linux-journal-ceases-publication|title=Linux Journal Ceases Publication {{!}} Linux Journal|website=www.linuxjournal.com|language=en|access-date=2017-12-03}}</ref> However, on January 1, 2018, it announced that it was rescued by [[Private Internet Access]]—which shares similar values—and that the magazine plans to grow:<ref>{{cite web|last1=Fairchild|first1=Carlie|title=Happy New Year- Welcome to Linux Journal 2.0!|url=http://www.linuxjournal.com/content/happy-new-year-linux-journal-alive|website=Linux Journal|accessdate=2 January 2018}}</ref> According to editor-in-chief [[Doc Searls]]: "Linux Journal should be to Linux what National Geographic is to geography and The New Yorker is to New York—meaning about much more than the title alone suggests."<ref>{{cite web|last1=Searls|first1=Doc|title=Worth Saving|url=http://www.linuxjournal.com/content/worth-saving|website=Linux Journal|accessdate=13 February 2018}}</ref>
+
+== Content ==
+''Linux Journal'' publishes articles on all levels of developing and using Linux and the software that runs on it, including everything from how to write [[device driver]]s to how to edit photos with [[GIMP]]. In addition to how-tos and tutorials, each issue features reviews of Linux products, tips, and market analysis.
+
+== See also ==
+* ''[[Linux Magazine]]''
+* ''[[Linux Format]]''
+* ''[[Linux Voice]]''
+
+==References==
+{{Reflist|refs=
+<ref name=first>{{cite journal|last=Young|first=Robert|title=Interview with Linus, the Author of Linux|journal=Linux Journal|date=1 March 1994|url=https://www.linuxjournal.com/article/2736|accessdate=6 September 2010}}</ref>
+
+<ref name=last_print>{{cite web|last=Searls|first=Doc|title=Linux Journal Goes 100% Digital|date=19 August 2011|url=https://www.linuxjournal.com/content/linux-journal-goes-100-digital|publisher=Linux Journal|accessdate=19 August 2011}}</ref>
+
+<ref name=digital>{{cite web|last=Kinsman|first=Matt|title=How Readers Respond When a Magazine Goes Digital-Only|publisher=Folio|date=23 August 2011|url=http://www.foliomag.com/2011/how-readers-respond-when-magazine-goes-digital-only|accessdate=7 September 2011}}</ref>
+
+<ref name=NSA-1>{{cite web |url=https://www.linuxjournal.com/content/nsa-linux-journal-extremist-forum-and-its-readers-get-flagged-extra-surveillance |title=NSA: Linux Journal is an "extremist forum" and its readers get flagged for extra surveillance |last=Rankin |first=Kyle |date=3 July 2014 |website=Linux Journal |accessdate=7 July 2014}}</ref>
+
+}}
+
+== External links ==
+* {{Official website|https://www.linuxjournal.com/}}
+
+{{Linux|state=collapsed}}
+
+[[Category:Linux magazines]]
+[[Category:American monthly magazines]]
+[[Category:Linux websites]]
+[[Category:Magazines established in 1994]]
+[[Category:Magazines disestablished in 2011]]
+[[Category:Magazines published in Texas]]
+[[Category:Defunct American computer magazines]]

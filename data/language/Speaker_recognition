@@ -1,0 +1,120 @@
+{{Use mdy dates|date=January 2016}}
+'''Speaker recognition''' is the identification of a person from characteristics of voices.<ref>{{cite journal
+  |last=Poddar|first=Arnab |author2=Sahidullah, Md |author3=Saha, Goutam
+  |title=Speaker Verification with Short Utterances: A Review of Challenges, Trends and Opportunities
+  |journal=IET Biometrics |date=March 2018 |volume=7 |issue=2 |pages=91–101 
+  |doi= 10.1049/iet-bmt.2017.0065 |url=http://ieeexplore.ieee.org/document/8302747/}}</ref> It is used to answer the question "Who is speaking?" The term '''voice recognition'''<ref name="Experimental phonetics">{{cite book 
+   |title=Experimental phonetics |publisher=MSS Information Corporation 
+   |author=Pollack, Pickett, Sumby |year=1974 |pages=251–258 |isbn=978-0-8422-5149-5}}</ref><ref name="Familiar voice recognition: Patterns and parameters. Part I: Recognition of backward voices">{{cite web 
+   |url=http://www.surgery.medsch.ucla.edu/glottalaffairs/papers/van%20lancker%20-%20kreiman%20-%20emmorey%201985.pdf 
+   |title=Familiar voice recognition: Patterns and parameters. Part I: Recognition of backward voices 
+   |publisher=Journal of Phonetics |date=July 3, 1984 |accessdate=February 21, 2012 
+   |author=Van Lancker and Kreiman |pages=19–38}}</ref><ref name="Macmillan Brit. def of voice recognition">{{cite web 
+   |url=http://www.macmillandictionary.com/dictionary/british/voice-recognition 
+   |title=British English definition of voice recognition |publisher=Macmillan Publishers Limited. 
+   |accessdate=February 21, 2012}}</ref><ref name="Voice recognition, definition">{{cite web 
+   |url=http://www.businessdictionary.com/definition/voice-recognition.html 
+   |title=voice recognition, definition of |publisher=WebFinance, Inc 
+   |accessdate=February 21, 2012}}</ref><ref name="mail bag, gazette">{{cite web 
+ |url=http://linuxgazette.net/114/lg_mail.html#mailbag.3 |title=Linux Gazette 114 
+   |publisher=Linux Gazette |accessdate=February 21, 2012}}</ref> can refer to ''speaker recognition'' or '''[[speech recognition]]'''. '''[[Speaker verification]]''' (also called '''speaker authentication''') contrasts with identification, and ''[[speaker recognition]]'' differs from ''[[speaker diarisation]]'' (recognizing when the same speaker is speaking). 
+
+Recognizing the speaker can simplify the task of translating speech in systems that have been trained on specific voices or it can be used to authenticate or verify the identity of a speaker as part of a security process. Speaker recognition has a history dating back some four decades and uses the acoustic features of speech that have been found to differ between individuals. These acoustic patterns reflect both [[Human anatomy|anatomy]] and learned behavioral patterns.
+
+==Verification versus identification==
+There are two major applications of speaker recognition technologies and methodologies. If the speaker claims to be of a certain identity and the voice is used to verify this claim, this is called ''verification'' or ''authentication''. On the other hand, identification is the task of determining an unknown speaker's identity. In a sense, speaker verification is a 1:1 match where one speaker's voice is matched to a particular template whereas speaker identification is a 1:N match where the voice is compared against a certain amount of templates.
+
+From a security perspective, identification is different from verification. Speaker verification is usually employed as a "gatekeeper" in order to provide access to a secure system. These systems operate with the users' knowledge and typically require their cooperation. Speaker identification systems can also be implemented covertly without the user's knowledge to identify talkers in a discussion, alert automated systems of speaker changes, check if a user is already enrolled in a system, etc.
+
+In forensic applications, it is common to first perform a speaker identification process to create a list of "best matches" and then perform a series of verification processes to determine a conclusive match.
+{{Citation needed|date=December 2008}}
+
+==Training==
+One of the earliest training technologies to commercialize was implemented in the Siri doll. At that point, speaker independence was an intended breakthrough, and systems required a training period.  A 1987 ad for the doll carried the tagline "Finally, the doll that understands you." - despite the fact that it was described as "which children could train to respond to their voice."<ref name=PCW.Siri>{{cite magazine  |magazine=PC World  |url=https://www.pcworld.com/article/243060/speech_recognition_through_the_decades_how_we_ended_up_with_siri.html
+|title=Speech Recognition Through the Decades: How We Ended Up With Siri
+|author=Melanie Pinola |date=November 2, 2011}}</ref> The term voice recognition, even a decade later, referred to speaker independence.<ref>{{cite web  |website=BusinessTravelNews.com
+|url=http://www.businesstravelnews.com/More-News/Voice-Recognition-To-Ease-Travel-Bookings
+|title=Voice Recognition To Ease Travel Bookings: Business Travel News
+|date=March 3, 1997
+|quote=The earliest applications of speech recognition software were dictation ... Four months ago, IBM introduced a "continual dictation product" designed to ... debuted at the National Business Travel Association trade show in 1994.}}</ref>
+
+==Variants of speaker recognition==
+Each speaker recognition system has two phases: Enrollment and verification. During enrollment, the speaker's voice is recorded and typically a number of features are extracted to form a voice print, template, or model. In the verification phase, a speech sample or "utterance" is compared against a previously created voice print. For identification systems, the utterance is compared against multiple voice prints in order to determine the best match(es) while verification systems compare an utterance against a single voice print. Because of the process involved, verification is faster than identification.
+
+Speaker recognition systems fall into two categories: text-dependent and text-independent.<ref>{{cite web |website=microsoft.com  |date=August 20, 2006
+|url=https://www.microsoft.com/en-us/research/project/speaker-verification-text-dependent-vs-text-independent
+|title=Speaker Verification: Text-Dependent vs. Text-Independent 
+|quote=text-dependent and text-independent speaker .. both equal error rate and detection ..}}</ref>
+ 
+'''Text-Dependent:'''
+If the text must be the same for enrollment and verification this is called text-dependent recognition.<ref>{{cite book  |author=M. Hebert |title=Springer Handbook of Speech Processing |pages=743–762 |date=2008 |quote=task .. verification or identification|doi=10.1007/978-3-540-49127-9_37 |isbn=978-3-540-49125-5 |chapter=Text-Dependent Speaker Recognition }}</ref> In a text-dependent system, prompts can either be common across all speakers (e.g. a common pass phrase) or unique. In addition, the use of shared-secrets (e.g.: passwords and PINs) or knowledge-based information can be employed in order to create a [[multi-factor authentication]] scenario.
+
+'''Text-Independent:'''
+
+Text-independent systems are most often used for speaker identification as they require very little if any cooperation by the speaker. In this case the text during enrollment and test is different. In fact, the enrollment may happen without the user's knowledge, as in the case for many forensic applications. As text-independent technologies do not compare what was said at enrollment and verification, verification applications tend to also employ [[speech recognition]] to determine what the user is saying at the point of authentication.
+
+In text independent systems both [[acoustics]] and [[speech analysis]] techniques are used.<ref>{{cite web|url=http://www.sans.org/reading_room/whitepapers/authentication/exploration-voice-biometrics_1436|title=An Exploration of Voice Biometrics|author=Lisa Myers|date=April 19, 2004}}</ref>
+
+==Technology==
+
+Speaker recognition is a [[pattern recognition]] problem. The various technologies used to process and store voice prints include [[frequency estimation]], [[hidden Markov model]]s, [[Gaussian mixture model]]s, [[pattern matching]] algorithms, [[neural networks]], [[matrix representation]], vector quantization and [[Decision tree learning|decision trees]]. For comparing utterances against voice prints, more basic methods like [[cosine similarity]] are traditionally used for their simplicity and performance. Some systems also use "anti-speaker" techniques such as [[cohort model]]s and world models. Spectral features are predominantly used in representing speaker characteristics.<ref>{{cite journal|last=Sahidullah|first=Md.|author2=Kinnunen, Tomi|title=Local spectral variability features for speaker verification|journal=Digital Signal Processing|date=March 2016|volume=50|pages=1–11|doi=10.1016/j.dsp.2015.10.011|url=http://www.sciencedirect.com/science/article/pii/S1051200415003140}}</ref>
+
+[[Ambient noise level]]s can impede both collections of the initial and subsequent voice samples. Noise reduction algorithms can be employed to improve accuracy, but incorrect application can have the opposite effect. Performance degradation can result from changes in behavioural attributes of the voice and from enrollment using one telephone and verification on another telephone. Integration with [[two-factor authentication]] products is expected to increase. Voice changes due to ageing may impact system performance over time. Some systems adapt the speaker models after each successful verification to capture such long-term changes in the voice, though there is debate regarding the overall security impact imposed by automated adaptation.
+
+Capture of the biometric is seen as non-invasive. The technology traditionally uses existing microphones and voice transmission technology allowing recognition over long distances via ordinary telephones (wired or wireless).
+
+Digitally recorded audio voice identification and analogue recorded voice identification uses electronic measurements as well as critical listening skills that must be applied by a forensic expert in order for the identification to be accurate.
+
+==Applications==
+
+The first international patent was filed in 1983, coming from the telecommunication research in [[CSELT]]<ref>US4752958 A, Michele Cavazza, Alberto Ciaramella, "Device for speaker's verification" http://www.google.com/patents/US4752958?hl=it&cl=en</ref> (Italy) by Michele Cavazza and [[Alberto Ciaramella]] as a basis for both future telco services to final customers and to improve the noise-reduction techniques across the network.
+
+Between 1996 and 1998, speaker recognition technology was used at the [[Scobey–Coronach Border Crossing]] to enable enrolled local residents with nothing to declare to cross the [[Canada–United States border]] when the inspection stations were closed for the night.<ref>{{cite news|last1=Meyer|first1=Barb|title=Automated Border Crossing|work=Television news report|publisher=Meyer Television News|date=June 12, 1996}}</ref>  The system was developed for the U.S. [[Immigration and Naturalization Service]] by Voice Strategies of Warren, Michigan.{{cn|date=September 2018}}
+
+In May 2013 it was announced that [[Barclays Wealth]] was to use passive speaker recognition to verify the identity of telephone customers within 30 seconds of normal conversation.<ref>{{cite web|author=International Banking |url=https://wealth.barclays.com/en_gb/internationalwealth/manage-your-money/banking-on-the-power-of-speech.html |title=Voice Biometric Technology in Banking &#124; Barclays |publisher=Wealth.barclays.com |date=December 27, 2013 |accessdate=February 21, 2016}}</ref> The system used had been developed by voice recognition company [[Nuance Communications|Nuance]] (that in 2011 acquired the company [[Loquendo]], the spin-off from CSELT itself for speech technology), the company behind [[Apple Inc.|Apple's]] [[Siri (software)|Siri]] technology. A verified voiceprint was to be used to identify callers to the system and the system would in the future be rolled out across the company.
+
+The private banking division of Barclays was the first financial services firm to deploy voice biometrics as the primary means to authenticate customers to their [[call center]]s. 93% of customer users had rated the system at "9 out of 10" for speed, ease of use and security.<ref>{{cite web |url=https://www.telegraph.co.uk/technology/news/10044493/Say-goodbye-to-the-pin-voice-recognition-takes-over-at-Barclays-Wealth.html |title=Say goodbye to the pin: voice recognition takes over at Barclays Wealth |author=Matt Warman |date=May 8, 2013 |
+accessdate=June 5, 2013}}</ref>
+
+Since then, Nuance Voice Biometrics solutions have been deployed across several financial institutions, including Banco Santander, Royal Bank of Canada, Tangerine Bank, and Manulife.<ref>{{cite web|url=http://www.nuance.com/for-business/customer-service-solutions/voice-biometrics/index.htm |title=Voice Biometrics for fast, secure authentication in your IVR and mobile apps. |publisher=Nuance |date= |accessdate=February 21, 2016}}</ref>
+
+In August 2014 GoVivace Inc. deployed a speaker identification system that allowed its telecom industry client to positively search for an individual among millions of speakers by using just a single example recording of their voice.<ref>{{cite web |title=Speaker Identification |url=https://www.govivace.com/products/speaker-identification/ |publisher=GoVivace Inc. |accessdate=3 September 2014}}</ref>
+
+Speaker recognition may also be used in criminal investigations, such as those of the 2014 executions of, amongst others, [[James Foley (journalist)|James Foley]] and [[Steven Sotloff]].<ref>{{cite web|author=Ewen MacAskill |url=https://www.theguardian.com/media/2014/sep/02/steven-sotloff-video-jihadi-john |title=Did 'Jihadi John' kill Steven Sotloff? &#124; Media |publisher=''[[The Guardian]]'' |date= |accessdate=February 21, 2016}}</ref>
+
+In February 2016 UK high-street bank [[HSBC]] and its internet-based retail bank [[First Direct]] announced that it would offer 15 million customers its biometric banking software to access online and phone accounts using their fingerprint or voice.<ref>{{cite web|author=Julia Kollewe |url=https://www.theguardian.com/business/2016/feb/19/hsbc-rolls-out-voice-touch-id-security-bank-customers |title=HSBC rolls out voice and touch ID security for bank customers &#124; Business |publisher=''[[The Guardian]]'' |date=February 19, 2016 |accessdate=February 21, 2016}}</ref>
+
+==See also==
+* [[AI effect]]
+* [[Applications of artificial intelligence]]
+* [[Speaker diarisation]]
+* [[Speech recognition]]
+* [[Voice changer]]
+
+; Lists
+* [[List of emerging technologies]]
+* [[Outline of artificial intelligence]]
+
+==Notes==
+{{reflist}}
+
+==References==
+*Homayoon Beigi (2011), "[http://www.fundamentalsofspeakerrecognition.org Fundamentals of Speaker Recognition]", Springer-Verlag, Berlin, 2011, {{ISBN|978-0-387-77591-3}}.
+*[https://web.archive.org/web/20060415154245/http://www.itl.nist.gov/div893/biometrics/Biometricsfromthemovies.pdf "Biometrics from the movies"] –National Institute of Standards and Technology
+*Elisabeth Zetterholm (2003), ''Voice Imitation. A Phonetic Study of Perceptual Illusions and Acoustic Success'', Phd thesis, [[Lund University]].
+*Md Sahidullah (2015), ''[http://www.idr.iitkgp.ac.in/xmlui/handle/123456789/5097 Enhancement of Speaker Recognition Performance Using Block Level, Relative and Temporal Information of Subband Energies]'', PhD thesis, [[Indian Institute of Technology Kharagpur]].
+
+==External links==
+* [http://www.phonelosers.org/pla-radio-episode-17-voice-authentication/ Circumventing Voice Authentication] The PLA Radio podcast recently featured a simple way to fool rudimentary voice authentication systems.
+*[http://www.scholarpedia.org/article/Speaker_recognition Speaker recognition – Scholarpedia]
+*[http://www.sourcesecurity.com/news/articles/co-3108-ga.4100.html Voice recognition benefits and challenges in access control]
+
+===Software===
+*[https://pypi.python.org/pypi/bob.bio.spear bob.bio.spear]
+*[http://mistral.univ-avignon.fr/mediawiki/index.php/Main_Page ALIZE]
+
+[[Category:Speaker recognition| ]]
+[[Category:Speech processing]]
+[[Category:Voice technology]]
+[[Category:Automatic identification and data capture]]
+[[Category:Biometrics]]

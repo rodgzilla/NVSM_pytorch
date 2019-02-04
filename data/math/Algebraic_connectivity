@@ -1,0 +1,32 @@
+[[Image:6n-graf.svg|thumb|250px|An example graph, with 6 vertices, [[Distance (graph theory)|diameter]] 3, [[connectivity (graph theory)|connectivity]] 1, and algebraic connectivity 0.722]]
+The '''algebraic connectivity''' (also known as ''Fiedler value'' or ''Fiedler eigenvalue'') of a [[Graph (discrete mathematics)|graph]] ''G'' is the second-smallest [[eigenvalue]] of the [[Laplacian matrix]] of ''G''.<ref>Weisstein, Eric W. "[http://mathworld.wolfram.com/AlgebraicConnectivity.html Algebraic Connectivity]." From MathWorld--A Wolfram Web Resource.</ref> This eigenvalue is greater than 0 if and only if ''G'' is a [[connected graph]]. This is a corollary to the fact that the number of times 0 appears as an eigenvalue in the Laplacian is the number of connected components in the graph. The magnitude of this value reflects how well connected the overall graph is.  It has been used in analysing the robustness and [[synchronizability]] of networks.
+
+== Properties ==
+[[Image:C60a.png|thumb|The [[truncated icosahedron]] or [[Buckminsterfullerene]] graph has a traditional [[connectivity (graph theory)|connectivity]] of 3, and an algebraic connectivity of 0.243.]]
+The algebraic connectivity of a [[Graph (discrete mathematics)|graph]] ''G'' is greater than 0 if and only if ''G'' is a [[connected graph]].  Furthermore, the value of the algebraic connectivity is bounded above by the traditional (vertex) [[connectivity (graph theory)|connectivity]] of the graph.<ref>J.L. Gross and J. Yellen. ''Handbook of Graph Theory'', CRC Press, 2004, page 314.</ref>  If the number of vertices of a connected graph is ''n'' and the [[Distance (graph theory)|diameter]] is ''D'', the algebraic connectivity is known to be bounded below by <math>\frac{1}{nD}</math>,<ref>J.L. Gross and J. Yellen. ''Handbook of Graph Theory'', CRC Press, 2004, page 571.</ref> and in fact (in a result due to [[Brendan McKay]]) by <math>\frac{4}{nD}</math>.<ref name="Mohar">[[Bojan Mohar]], [http://www.fmf.uni-lj.si/~mohar/Papers/Spec.pdf The Laplacian Spectrum of Graphs], in ''Graph Theory, Combinatorics, and Applications'', Vol. 2, Ed. Y. Alavi, G. Chartrand, [[Ortrud Oellermann|O. R. Oellermann]], A. J. Schwenk, Wiley, 1991, pp. 871–898.</ref> For the example shown above, 4/18&nbsp;=&nbsp;0.222&nbsp;≤&nbsp;0.722&nbsp;≤&nbsp;1.
+
+Unlike the traditional connectivity, the algebraic connectivity is dependent on the number of vertices, as well as the way in which vertices are connected.  In [[random graph]]s, the algebraic connectivity decreases with the number of vertices, and increases with the average [[degree (graph theory)|degree]].<ref>[http://www.cs.virginia.edu/~mjh7v/papers/ICCSpresentation.ppt Synchronization and Connectivity of Discrete Complex Systems], Michael Holroyd, International Conference on Complex Systems, 2006.</ref>
+
+The exact definition of the algebraic connectivity depends on the type of Laplacian used.  [[Fan Chung]] has developed an extensive theory using a rescaled version of the Laplacian, eliminating the dependence on the number of vertices, so that the bounds are somewhat different.<ref>F. Chung. ''Spectral Graph Theory'', Providence, RI: Amer. Math. Soc., 1997.[http://www.math.ucsd.edu/~fan/research/revised.html]</ref>
+
+In models of [[synchronization]] on networks, such as the [[Kuramoto model]], the Laplacian matrix arises naturally, so the algebraic connectivity gives an indication of how easily the network will synchronize.<ref>Tiago Pereira, ''[https://arxiv.org/abs/1112.2297 Stability of Synchronized Motion in Complex Networks]'',  arXiv:1112.2297v1, 2011.</ref>  Other measures, such as the average [[distance (graph theory)|distance]] (characteristic path length) can also be used,<ref>D. Watts, ''Six Degrees: The Science of a Connected Age'', Vintage, 2003.</ref> and in fact the algebraic connectivity is closely related to the (reciprocal of the) average distance.<ref name="Mohar"/>
+
+The algebraic connectivity also relates to other connectivity attributes, such as the [[isoperimetric number]], which is bounded below by half the algebraic connectivity.<ref>Norman Biggs. ''Algebraic Graph Theory'', 2nd ed, Cambridge University Press, 1993, pp. 28 & 58.</ref>
+
+== Fiedler vector ==
+The original theory related to algebraic connectivity was produced by [[Miroslav Fiedler]].<ref>M. Fiedler. "Algebraic connectivity of Graphs", ''Czechoslovak Mathematical Journal'' 23(98) (1973), 298–305.</ref><ref>M. Fiedler. "Laplacian of graphs and algebraic connectivity", Combinatorics and Graph Theory (Warsaw, 1987), ''Banach Center Publications'' 25(1) (1989), 57–70.</ref> In his honor the [[eigenvector]] associated with the algebraic connectivity has been named the '''Fiedler vector'''.  The Fiedler vector can be used to [[graph partition|partition]] a graph. 
+
+=== Partitioning a graph using the Fiedler vector === 
+
+For the example graph in the introductory section, the Fiedler vector is <0.415,&nbsp;0.309,&nbsp;0.069,&nbsp;−0.221,&nbsp;0.221,&nbsp;−0.794>. The negative values are associated with the poorly connected vertex 6, and the neighbouring [[articulation point]], vertex 4; while the positive values are associated with the other vertices.  The '''''signs''' of the values in the Fiedler vector'' can therefore be used to partition this graph into two components: {1,&nbsp;2,&nbsp;3,&nbsp;5} and {4,&nbsp;6}.  Alternatively, the value of 0.069 (which is close to zero) can be placed in a class of its own, partitioning the graph into three components: {1,&nbsp;2,&nbsp;5}, {3}, and {4,&nbsp;6}.
+
+==See also==
+* [[Connectivity (graph theory)]]
+* [[Graph property]]
+
+== References ==
+{{reflist}}
+
+[[Category:Algebraic graph theory]]
+[[Category:Graph connectivity]]
+[[Category:Graph invariants]]

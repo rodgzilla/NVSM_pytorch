@@ -1,0 +1,301 @@
+{{Refimprove|date=March 2016}}
+{{Artificial intelligence}}
+[[Artificial intelligence]], defined as intelligence exhibited by machines, has many applications in today's society.  More specifically,  it is [[Weak AI]], the form of AI where programs are developed to perform specific tasks, that is being utilized for a wide range of activities including [[medical diagnosis]], [[electronic trading]], [[robot control]], and [[remote sensing]].  AI has been used to develop and advance numerous fields and industries, including finance, healthcare, education, transportation, and more.
+
+== AI for Good ==
+[[AI for Good]] is a movement in which institutions are employing AI to tackle some of the world's greatest economic and social challenges.  For example, the University of Southern California launched the Center for Artificial Intelligence in Society, with the goal of using AI to address socially relevant problems such as homelessness.  At Stanford, researchers are using AI to analyze satellite images to identify which areas have the highest poverty levels.<ref name=":03">United States, National Science and Technology Council – Committee on Technology. Executive Office of the President. (2016). Preparing for the future of artificial intelligence.</ref>
+
+== Aviation ==
+{{Refimprove section|date=November 2016}}
+The [[Air and Space Operations Center|Air Operations Division]] (AOD) uses AI for the rule based [[expert systems]]. The AOD has use for [[artificial intelligence]] for surrogate operators for combat and training simulators, mission management aids, support systems for tactical decision making, and post processing of the simulator data into symbolic summaries.<ref>{{Cite news|url=https://arstechnica.com/information-technology/2016/06/ai-bests-air-force-combat-tactics-experts-in-simulated-dogfights/|title=AI bests Air Force combat tactics experts in simulated dogfights|access-date=2016-11-18|newspaper=Ars Technica}}</ref>
+
+The use of artificial intelligence in simulators is proving to be very useful for the AOD. Airplane simulators are using artificial intelligence in order to process the data taken from simulated flights. Other than simulated flying, there is also simulated aircraft warfare. The computers are able to come up with the best success scenarios in these situations. The computers can also create strategies based on the placement, size, speed and strength of the forces and counter forces. Pilots may be given assistance in the air during combat by computers. The artificial intelligent programs can sort the information and provide the pilot with the best possible maneuvers, not to mention getting rid of certain maneuvers that would be impossible for a human being to perform. Multiple aircraft are needed to get good approximations for some calculations so computer simulated pilots are used to gather data.<ref>{{Cite journal|last=Jones|first=Randolph M.|last2=Laird|first2=John E.|last3=Nielsen|first3=Paul E.|last4=Coulter|first4=Karen J.|last5=Kenny|first5=Patrick|last6=Koss|first6=Frank V.|date=1999-03-15|title=Automated Intelligent Pilots for Combat Flight Simulation|url=http://www.aaai.org/ojs/index.php/aimagazine/article/view/1438|journal=AI Magazine|volume=20|issue=1|pages=27|issn=0738-4602}}</ref> These computer simulated pilots are also used to train future [[air traffic controllers]].
+
+The system used by the AOD in order to measure performance was the Interactive Fault Diagnosis and Isolation System, or IFDIS. It is a rule based expert system put together by collecting information from [[TF-30]] documents and the expert advice from mechanics that work on the TF-30. This system was designed to be used for the development of the TF-30 for the RAAF F-111C. The performance system was also used to replace specialized workers. The system allowed the regular workers to communicate with the system and avoid mistakes, miscalculations, or having to speak to one of the specialized workers.
+
+The AOD also uses artificial intelligence in [[speech recognition]] software. The air traffic controllers are giving directions to the artificial pilots and the AOD wants to the pilots to respond to the ATC's with simple responses. The programs that incorporate the speech software must be trained, which means they use [[neural networks]]. The program used, the Verbex 7000, is still a very early program that has plenty of room for improvement. The improvements are imperative because ATCs use very specific dialog and the software needs to be able to communicate correctly and promptly every time.
+
+The Artificial Intelligence supported Design of Aircraft,<ref>[http://www.kbs.twi.tudelft.nl/Research/Projects/AIDA/ AIDA Homepage]. Kbs.twi.tudelft.nl (April 17, 1997). Retrieved on 2013-07-21.</ref>  or AIDA, is used to help designers in the process of creating conceptual designs of aircraft. This program allows the designers to focus more on the design itself and less on the design process. The software also allows the user to focus less on the software tools. The AIDA uses rule based systems to compute its data. This is a diagram of the arrangement of the AIDA modules. Although simple, the program is proving effective.
+
+In 2003, [[NASA]]'s [[Dryden Flight Research Center]], and many other companies, created software that could enable a damaged aircraft to continue flight until a safe landing zone can be reached.<ref>[http://crgis.ndc.nasa.gov/crgis/images/c/c9/88798main_srfcs.pdf The Story of Self-Repairing Flight Control Systems.] NASA Dryden. (April 2003). Retrieved on 2016-08-25.</ref> The software compensates for all the damaged components by relying on the undamaged components. The neural network used in the software proved to be effective and marked a triumph for artificial intelligence.
+
+The Integrated Vehicle Health Management system, also used by NASA, on board an aircraft must process and interpret data taken from the various sensors on the aircraft. The system needs to be able to determine the structural integrity of the aircraft. The system also needs to implement protocols in case of any damage taken the vehicle.<ref>{{Cite web|url=https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20010055588.pdf|title=Flight Demonstration Of X-33 Vehicle Health Management System Components On The F/A-18 Systems Research Aircraft|last=|first=|date=|website=|access-date=}}</ref>
+
+Haitham Baomar and Peter Bentley are leading a team from the University College of London to develop an artificial intelligence based Intelligent Autopilot System (IAS) designed to teach an autopilot system to behave like a highly experienced pilot who is faced with an emergency situation such as severe weather, turbulence, or system failure.<ref name=":0">{{Cite journal|url=https://www.wired.com/2017/03/ai-wields-power-make-flying-safer-maybe-even-pleasant/|title=AI Wields the Power to Make Flying Safer—and Maybe Even Pleasant|last=Adams|first=Eric|date=March 28, 2017|journal=Wired|access-date=October 7, 2017}}</ref> Educating the autopilot relies on the concept of supervised [[machine learning]] “which treats the young autopilot as a human apprentice going to a flying school”.<ref name=":0" /> The autopilot records the actions of the human pilot generating learning models using [[artificial neural network]]s.<ref name=":0" /> The autopilot is then given full control and observed by the pilot as it executes the training exercise.<ref name=":0" />
+
+The Intelligent Autopilot System combines the principles of [[Apprenticeship learning |Apprenticeship Learning]] and Behavioural Cloning whereby the autopilot observes the low-level actions required to maneuver the airplane and high-level strategy used to apply those actions.<ref name=":2">{{Cite book |doi=10.1109/SSCI.2016.7849881 |chapter=An Intelligent Autopilot System that learns flight emergency procedures by imitating human pilots |title=2016 IEEE Symposium Series on Computational Intelligence (SSCI) |pages=1–9 |year=2016 |last1=Baomar |first1=Haitham |last2=Bentley |first2=Peter J. |isbn=978-1-5090-4240-1 }}</ref> IAS implementation employs three phases; pilot data collection, training, and autonomous control.<ref name=":2" /> Baomar and Bentley’s goal is to create a more autonomous autopilot to assist pilots in responding to emergency situations.<ref name=":2" />
+
+== Computer science ==
+AI researchers have created many tools to solve the most difficult problems in computer science. Many of their inventions have been adopted by mainstream computer science and are no longer considered a part of AI. (See [[AI effect]].) According to {{Harvtxt|Russell|Norvig|2003|p=15}}, all of the following were originally developed in AI laboratories:
+[[time sharing]],
+[[Interpreted language|interactive interpreters]],
+[[graphical user interface]]s and the [[computer mouse]],
+[[Rapid application development|rapid development]] environments,
+the [[linked list]] data structure,
+[[automatic storage management]],
+[[Third-generation programming language|symbolic programming]],
+[[functional programming]],
+[[dynamic programming]] and
+[[object-oriented programming]].
+
+AI can be used to potentially determine the developer of anonymous binaries.{{cn|date=April 2018}}
+
+AI can be used to create other AI. For example, around November 2017, Google's AutoML project to evolve new neural net topologies created [[NASNet]], a system optimized for [[ImageNet]] and COCO. According to Google, NASNet's performance exceeded all previously published ImageNet performance.<ref>{{cite news|title=Google AI creates its own ‘child’ bot|url=https://www.independent.co.uk/life-style/gadgets-and-tech/news/google-child-ai-bot-nasnet-automl-machine-learning-artificial-intelligence-a8093201.html|accessdate=5 February 2018|work=The Independent|date=5 December 2017}}</ref>
+
+== Education ==
+<big>'''The Future of AI in the classroom'''</big>
+
+The future of AI in the classroom is looking bright.{{Opinion|date=January 2019}} One of the most exciting innovations is the idea of a personal AI tutor or assistant for each individual student.{{Opinion|date=January 2019}} Because a single teacher can’t work with every student at once, AI tutors would allow for students to get extra, one-on-one help in areas of needed growth. AI tutors also eliminate the intimidating idea of tutor labs or human tutors which can cause anxiety and stress for some students.<ref>{{cite web|url=https://elearningindustry.com/artificial-intelligence-in-the-classroom-role|title=The Role Of Artificial Intelligence In The Classroom|date=14 April 2018|website=eLearning Industry|accessdate=14 January 2019}}</ref> In future classrooms, ambient informatics can play a beneficial role. Ambient informatics is the idea that information is everywhere in the environment and that technologies automatically adjust to your personal preferences. <ref name="auto">Smith, Lawrence. “Everyware.” Prezi.com, 10 Jan. 2019, prezi.com/ai2kkqkeolus/everyware-technopoly/</ref>  When students sit at their desk, their devices will be able to create lessons, problems, and games to tailor to the specific student’s needs, particularly where a student may be struggling, and give immediate feedback. This eliminates the idea of a “one-size-fits-all classroom” as we will no longer have to force students to learn the exact same material at the exact same pace. While there are many benefits to the use of AI in the classroom, there are also several dangers that need to be taken into account before implementing them.
+
+As far as the future of AI in education, there are many new possibilities due to what has been coined by The New York Times as “The Great AI Awakening.” One of these possibilities mentioned by Forbes included the providing of adaptive learning programs, which assess and react to a student’s emotions and learning preferences. Another advancement includes the presentation of performance data and enrichment methods on an individual basis. Within curriculum, AI could help determine if there are underlying biases in texts and instructions. For teachers, AI could soon have the power to relay data regarding efficacy of varying learning interventions from a, potentially, global database. As a whole AI has the power to influence education by taking district, state, national, and global data into consideration as it seeks to better individualize learning for all. Although AI can provide many assets to a classroom, many experts still agree that they will not be able to replace teachers altogether.  
+
+Many teachers fear the idea of AI replacing them in the classroom, especially with the idea of personal AI assistants for each student. The reality is, AI can create a more dystopian environment with revenge effects. This means that technology is inhibiting society from moving forward and causing negative, unintended effects on society.<ref>Quan-Haase, Anabel. Technology and Society: Social Networks, Power, and Inequality. 2nd ed., Oxford University Press, 2016. Pg. 43-44.</ref> An example of a revenge effect is that the extended use of technology may hinder students’ ability to focus and stay on task instead of helping them learn and grow.<ref>https://www.nytimes.com/2010/11/21/technology/21brain.html?pagewanted=1&_r=3. Richtel, Matt. “Growing Up Digital, Wired for Distraction.” The New York Times, The New York Times, 21 Nov. 2010]</ref> Also, AI has been known to lead to the loss of both human agency and simultaneity.<ref name="auto"/> If students are relying solely on AI tutors composed of algorithms and wires, it reduces their ability to control their own education and learning. Also, the need for AI technologies to work simultaneously may lead to system failures which could ruin an entire school day if we are relying on AI assistants to create lessons for students every day. It is inevitable that AI technologies will be taking over the classroom in the years to come, thus it is essential that the kinks of these new innovations are worked out before teachers decide whether or not to implement them into their daily schedules.
+
+== Finance ==
+
+=== Algorithmic trading ===
+[[Algorithmic trading]] involves the use of complex AI systems to make trading decisions at speeds several orders of magnitudes greater than any human is capable of, often making millions of trades in a day without any human intervention. Such trading is called [[High-frequency Trading]], and it represents one of the fastest growing sectors in financial trading. Many banks, funds, and proprietary trading firms now have entire portfolios which are managed purely by AI systems. [[Automated trading system]]s are typically used by large institutional investors, but recent years have also seen an influx of smaller, proprietary firms trading with their own AI systems.<ref>{{Cite web|url=http://www.investopedia.com/terms/a/algorithmictrading.asp|title=Algorithmic Trading|last=|first=|date=2005-05-18|website=Investopedia|access-date=}}</ref>
+
+=== Market analysis and data mining ===
+Several large financial institutions have invested in AI engines to assist with their investment practices.  BlackRock’s AI engine, Aladdin, is used both within the company and to clients to help with investment decisions.  Its wide range of functionalities includes the use of natural language processing to read text such as news, broker reports, and social media feeds.  It then gauges the sentiment on the companies mentioned and assigns a score.  Banks such as UBS and Deutsche Bank use an AI engine called Sqreem (Sequential Quantum Reduction and Extraction Model) which can mine data to develop consumer profiles and match them with the wealth management products they’d most likely want.<ref>{{Cite web|url=https://www.americanbanker.com/news/beyond-robo-advisers-how-ai-could-rewire-wealth-management|title=Beyond Robo-Advisers: How AI Could Rewire Wealth Management|last=|first=|date=|website=|access-date=}}</ref> Goldman Sachs uses [https://www.kensho.com/#/ Kensho], a market analytics platform that combines statistical computing with big data and natural language processing.  Its machine learning systems mine through hoards of data on the web and assess correlations between world events and their impact on asset prices.<ref>{{Cite web|url=https://www.forbes.com/sites/antoinegara/2017/02/28/kensho-sp-500-million-valuation-jpmorgan-morgan-stanley/#bf24f325cbf1|title=Kensho's AI For Investors Just Got Valued At Over $500 Million In Funding Round From Wall Street|last=|first=|date=|website=|access-date=}}</ref>
+[[Information Extraction]], part of artificial intelligence, is used to extract information from live news feed and to assist with investment decisions.<ref>Marco Costantino, Paolo Coletti, Information Extraction in Finance, Wit Press, 2008. {{ISBN|978-1-84564-146-7}}</ref>
+
+=== Personal finance ===
+Several products are emerging that utilize AI to assist people with their personal finances.  For example, Digit is an app powered by artificial intelligence that automatically helps consumers optimize their spending and savings based on their own personal habits and goals.  The app can analyze factors such as monthly income, current balance, and spending habits, then make its own decisions and transfer money to the savings account.<ref>{{Cite web|url=https://yalantis.com/blog/five-best-ai-powered-chatbot-apps/|title=Five Best AI-Powered Chatbot Apps|last=|first=|date=|website=|access-date=}}</ref>  Wallet.AI, an upcoming startup in San Francisco, builds agents that analyze data that a consumer would leave behind, from Smartphone check-ins to tweets, to inform the consumer about their spending behavior.<ref>{{Cite journal|url=https://www.wired.com/insights/2014/02/artificial-intelligence-way-forward-personal-finance/|title=Is Artificial Intelligence the Way Forward for Personal Finance?|journal=Wired|last=|first=|date=2014-02-03|access-date=}}</ref>
+
+=== Portfolio management ===
+[[Robo-advisor]]s are becoming more widely used in the investment management industry.  Robo-advisors provide financial advice and portfolio management with minimal human intervention.  This class of financial advisers work based on algorithms built to automatically develop a financial portfolio according to the investment goals and risk tolerance of the clients.  It can adjust to real-time changes in the market and accordingly calibrate the portfolio.<ref>{{Cite web|url=https://www.techemergence.com/machine-learning-in-finance-applications/|title=Machine learning in finance applications|last=|first=|date=2016-08-15|website=|access-date=}}</ref>
+
+=== Underwriting ===
+An online lender, Upstart, analyze vast amounts of consumer data and utilizes machine learning algorithms to develop credit risk models that predict a consumer’s likelihood of default. Their technology will be licensed to banks for them to leverage for their underwriting processes as well.<ref>{{Cite web|url=http://bankinnovation.net/2017/04/machine-learning-is-the-future-of-underwriting-but-startups-wont-be-driving-it/|title=Machine Learning Is the Future of Underwriting, But Startups Won't be Driving It|last=|first=|date=|website=|access-date=}}</ref>
+
+ZestFinance developed their Zest Automated Machine Learning (ZAML) Platform specifically for credit underwriting as well.  This platform utilizes machine learning to analyze tens of thousands traditional and nontraditional variables (from purchase transactions to how a customer fills out a form) used in the credit industry to score borrowers.  The platform is particularly useful to assign credit scores to those with limited credit histories, such as millennials.<ref>{{Cite web|url=http://www.businesswire.com/news/home/20170214005357/en/ZestFinance-Introduces-Machine-Learning-Platform-Underwrite-Millennials|title=ZestFinance Introduces Machine Learning Platform to Underwrite Millennials and Other Consumers with Limited Credit History|last=|first=|date=2017-02-14|website=|access-date=}}</ref>
+
+=== History ===
+The 1980s is really when AI started to become prominent in the finance world. This is when Expert Systems became more of a commercial product in the financial field. “For example, Dupont had built 100 expert systems which helped them save close to $10 million a year.”<ref>{{cite journal|url=https://www.sciencedirect.com/science/article/pii/B9780124438804500454|title=History and applications|date=1 January 2002|publisher=|journal=Expert Systems|pages=1–22|access-date=14 January 2019|via=www.sciencedirect.com|doi=10.1016/B978-012443880-4/50045-4}}</ref> One of the first systems was the Protrader expert system designed by K.C. Chen and Ting-peng Lian that was able to predict the 87-point drop in DOW Jones Industrial Average in 1986. “The major junctions of the system were to monitor premiums in the market, determine the optimum investment strategy, execute transactions when appropriate and modify the knowledge base through a learning mechanism.”<ref>http://www.ecrc.nsysu.edu.tw/liang/paper/3/PROTRADER%20An%20Expert%20System%20for%20Program%20Trading.pdf</ref> One of the first expert systems that helped with financial plans was created by Applied Expert Systems (APEX) called the PlanPower. It was first commercially shipped in 1986. Its function was to help give financial plans for people with incomes over $75,000 a year. That then led to the Client Profiling System that was used for incomes between $25,000 and $200,000 a year.<ref>https://eds.b.ebscohost.com/abstract?site=eds&scope=site&jrnl=10403981&AN=5560302&h=RWiKgQS2d%2fxcTfEjKLsBbkQ%2busFvJr90vu%2fRD0b05cxxv94ZMN1ylDkaz3hVwq42P8MOkiBJ10%2bH1T1w%2b6T2NQ%3d%3d&crl=f&resultLocal=ErrCrlNoResults&resultNs=Ehost&crlhashurl=login.aspx%3fdirect%3dtrue%26profile%3dehost%26scope%3dsite%26authtype%3dcrawler%26jrnl%3d10403981%26AN%3d5560302</ref> The 1990s was a lot more about fraud detection. One of the systems that was started in 1993 was the FinCEN Artificial Intelligence system (FAIS). It was able to review over 200,000 transactions per week and over two years it helped identify 400 potential cases of money laundering which would have been equal to $1 billion.<ref>https://www.aaai.org/Papers/IAAI/1995/IAAI95-015.pdf</ref> Although Expert Systems didn’t last in the finance world, it did help jump-start the use of AI and help make it what it is today.
+
+== Government ==
+{{Main|Artificial intelligence in government}}
+
+== Heavy industry ==
+[[Robot]]s have become common in many industries and are often given jobs that are considered dangerous to humans. Robots have proven effective in jobs that are very repetitive which may lead to mistakes or accidents due to a lapse in concentration and other jobs which humans may find degrading.
+
+In 2014, [[China]], [[Japan]], the [[United States]], the [[Republic of Korea]] and [[Germany]] together amounted to 70% of the total sales volume of robots. In the [[automotive industry]], a sector with particularly high degree of automation, Japan had the highest density of industrial robots in the world: {{formatnum:1414}} per {{formatnum:10000}} employees.<ref>{{cite web|title=World Robotics 2015 Industrial Robots |url=http://www.ifr.org/industrial-robots/statistics/ |website=International Federation of Robotics |access-date=27 March 2016 |dead-url=yes |archiveurl=https://web.archive.org/web/20160327031517/http://www.ifr.org/industrial-robots/statistics/ |archivedate=March 27, 2016 }}</ref>
+
+== Hospitals and medicine ==
+[[File:X-ray of a hand with automatic bone age calculation.jpg|thumb|[[Projectional radiography|X-ray]] of a hand, with automatic calculation of [[bone age]] by a computer software]]
+{{Main|Artificial intelligence in healthcare}}
+
+[[Artificial neural networks]] are used as [[clinical decision support system]]s for [[medical diagnosis]], such as in [[Concept Processing]] technology in [[electronic medical record|EMR]] software.
+
+Other tasks in medicine that can potentially be performed by artificial intelligence and are beginning to be developed include:
+
+*[[Computer-aided radiologic interpretation|Computer-aided interpretation of medical images]]. Such systems help scan digital images, ''e.g.'' from [[computed tomography]], for typical appearances and to highlight conspicuous sections, such as possible diseases. A typical application is the detection of a tumor.
+*[[Heart sound]] analysis<ref>{{cite journal |doi=10.1016/j.simpat.2003.11.005 |title=Heart sound analysis for symptom detection and computer-aided diagnosis |journal=Simulation Modelling Practice and Theory |volume=12 |issue=2 |pages=129–146 |year=2004 |last1=Reed |first1=Todd R. |last2=Reed |first2=Nancy E. |last3=Fritzson |first3=Peter }}</ref>
+* Companion robots for the [[elderly care|care of the elderly]]<ref>{{cite journal |doi=10.1109/TAMD.2011.2105868 |title=Cognitive Development in Partner Robots for Information Support to Elderly People |journal=IEEE Transactions on Autonomous Mental Development |volume=3 |pages=64–73 |year=2011 |last1=Yorita |first1=Akihiro |last2=Kubota |first2=Naoyuki |citeseerx=10.1.1.607.342 }}</ref>
+* Mining medical records to provide more useful information.
+* Design treatment plans.
+* Assist in repetitive jobs including medication management.
+* Provide consultations.
+* Drug creation<ref>{{Cite news|url=http://medicalfuturist.com/artificial-intelligence-will-redesign-healthcare/|title=Artificial Intelligence Will Redesign Healthcare – The Medical Futurist|date=2016-08-04|access-date=2016-11-18|language=en-US|newspaper=The Medical Futurist}}</ref>
+* Using avatars in place of patients for clinical training<ref>{{cite journal |doi=10.1037/a0034559 |title=Artificial intelligence in psychological practice: Current and future applications and implications |journal=Professional Psychology: Research and Practice |volume=45 |issue=5 |pages=332–339 |year=2014 |last1=Luxton |first1=David D. }}</ref>
+* Predict the likelihood of death from surgical procedures
+* Predict HIV progression
+
+There are over 90 AI startups in the health industry working in these fields.<ref>{{Cite news|url=https://www.cbinsights.com/blog/artificial-intelligence-startups-healthcare/|title=From Virtual Nurses To Drug Discovery: 90+ Artificial Intelligence Startups In Healthcare|date=2016-08-31|access-date=2016-11-18|newspaper=CB Insights – Blog}}</ref>
+
+IDx's first solution, IDx-DR, is the first autonomous AI-based diagnostic system authorized for commercialization by the FDA.<ref>{{cite web |title=Press Release: FDA permits marketing of IDx-DR for automated detection of diabetic retinopathy in primary care |url=https://www.eyediagnosis.net/single-post/2018/04/12/FDA-permits-marketing-of-IDx-DR-for-automated-detection-of-diabetic-retinopathy-in-primary-care |website=Eye Diagnosis |accessdate=11 September 2018 |date=April 12, 2018}}</ref>
+
+== Human resources and recruiting ==
+Another application of AI is in the human resources and recruiting space. There are three ways AI is being used by human resources and recruiting professionals: to screen resumes and rank candidates according to their level of qualification, to predict candidate success in given roles through job matching platforms, and now rolling out recruiting chat bots that can automate repetitive communication tasks.
+
+Typically, resume screening involves a recruiter or other HR professional scanning through a database of resumes. Now startups like Pomato are creating machine learning algorithms to automate resume screening processes. Pomato’s resume screening AI focuses on automating validating technical applicants for technical staffing firms. Pomato’s AI performs over 200,000 computations on each resume in seconds then designs a custom technical interview based on the mined skills. KE Solutions, founded in 2014, has developed recommendation systems to rank jobs for candidates, and rank resumes for employers. jobster.io, developed by KE Solutions, uses concept-based search that has increased accuracy by 80% compared to traditional ATS. It helps recruiters to overcome technical barriers.
+
+From 2016 to 2017, consumer goods company Unilever used artificial intelligence to screen all entry-level employees. Unilever’s AI used neuroscience-based games, recorded interviews, and facial and speech analysis to predict hiring success. Unilever partnered with Pymetrics and HireVue to enable its AI-based screening and increased their applicants from 15,000 to 30,000 in a single year. Recruiting with AI produced Unililever’s “most diverse class to date’. Unilever also decreased time to hire from 4 months to four weeks and saved over 50,000 hours of recruiter time.
+
+From resume screening to neuroscience, speech recognition, and facial analysis, AI is having a massive impact on the human resources field. Yet another development in AI is in recruiting chatbots. [[TextRecruit]], a Bay Area startup, released Ari (automated recruiting interface.) Ari is a recruiting chatbot that is designed to hold two-way text message conversations with candidates. Ari automates posting jobs, advertising openings, screening candidates, scheduling interviews, and nurturing candidate relationships with updates as they progress along the hiring funnel. Ari is currently offered as part of TextRecruit’s candidate engagement platform.
+
+== Job search ==
+The job market has seen a notable change due to artificial intelligence implementation. It has simplified the process for both recruiters and job seekers (i.e., Google for Jobs and applying online). According to [[Raj Mukherjee]] from Indeed.com, 65% of people launch a job search again within 91 days of being hired. AI-powered engine streamlines the complexity of job hunting by operating information on job skills, salaries, and user tendencies, matching people to the most relevant positions. Machine intelligence calculates what wages would be appropriate for a particular job, pulls and highlights resume information for recruiters using natural language processing, which extracts relevant words and phrases from text using specialized software. Another application is an AI resume builder which requires 5 minutes to compile a CV as opposed to spending hours doing the same job.
+In the AI age [[chatbots]] assist website visitors and solve daily workflows. Revolutionary AI tools complement people’s skills and allow HR managers to focus on tasks of higher priority. However, Artificial Intelligence impact on jobs research suggests that by 2030 intelligent agents and robots can eliminate 30% of the world’s human labor. Moreover, the research proves automation will displace between 400 and 800 million employees. [[Glassdoor`s]] research report states that recruiting and HR are expected to see much broader adoption of AI in job market 2018 and beyond.<ref>{{Cite web|url=https://www.forbes.com/sites/karstenstrauss/2018/02/02/the-role-of-artificial-intelligence-in-the-future-of-job-search|title=Raj Mukherjee|last=|first=|date=|website=Forbes|access-date=}}</ref><ref>{{Cite web|url=https://www.glassdoor.com/research/app/uploads/sites/2/2017/12/Final_GD_ResearchReport_5Disruptions2018.pdf|title=Glassdoor's|last=|first=|date=|website=Glassdoor|access-date=}}</ref>
+
+== Marketing ==
+{{Main|Marketing and artificial intelligence}}
+
+== Media and e-commerce ==
+Some AI applications are geared towards the analysis of audiovisual media content such as movies, TV programs, advertisement videos or [[user-generated content]]. The solutions often involve [[computer vision]], which is a major application area of AI.
+
+Typical use case scenarios include the analysis of images using object recognition or [[face recognition]] techniques, or the [[video content analysis|analysis of video]] for recognizing relevant scenes, objects or faces. The motivation for using AI-based media analysis can be — among other things — the facilitation of media search, the creation of a set of descriptive keywords for a media item, media content policy monitoring (such as verifying the suitability of content for a particular TV viewing time), [[speech recognition|speech to text]] for archival or other purposes, and the detection of logos, products or celebrity faces for the placement of relevant advertisements.
+
+Media analysis AI companies often provide their services over a [[REST API]] that enables machine-based automatic access to the technology and allows machine-reading of the results. For example, [[IBM]], [[Microsoft]], [[Amazon (company)|Amazon]] and the video AI company Valossa<ref>{{Cite web|url=https://valossa.com/|title=Video Recognition API of Valossa|last=|first=|date=|website=|access-date=2018-02-08}}</ref> allow access to their media recognition technology by using RESTful APIs.
+
+AI is also widely used in [[E-commerce]] Industry for applications like [https://www.visenze.com/visual-search Visual search], [https://tech.wayfair.com/2017/12/recommending-visually-similar-products-using-content-based-features/ Visually similar recommendation], [https://econsultancy.com/why-asos-enki-has-set-the-bar-for-retail-chatbots/ Chatbots], [https://www.visenze.com/automated-product-tagging Automated product tagging] etc. Another generic application is to increase [http://blog.linnworks.com/artificial-intelligence-in-ecommerce search discoverability] and making [http://www.olapic.com/resources/shoppable-content-the-new-content-marketing-trend_blog-p1aw-g1li-f1tr-v1re-v1ec-emea/ social media content shoppable].
+
+== Music ==
+{{main|Music and artificial intelligence}}
+While the evolution of music has always been affected by technology, artificial intelligence has enabled, through scientific advances, to emulate, at some extent, human-like composition.
+
+Among notable early efforts, [[David Cope]] created an AI called [[Emily Howell]] that managed to become well known in the field of Algorithmic Computer Music.<ref name="ARS">{{cite news|url=https://arstechnica.com/science/2009/09/virtual-composer-makes-beautiful-musicand-stirs-controversy/|title=Virtual composer makes beautiful music—and stirs controversy|last=Cheng|first=Jacqui|publisher=Ars Technica|publication-date=30 September 2009}}</ref> The algorithm behind Emily Howell is registered as a US patent.<ref>US Patent #7696426 https://www.google.com/patents/US7696426</ref>
+
+The AI [[Iamus (computer)|Iamus]] created 2012 the first complete classical album fully composed by a computer.
+
+Other endeavours, like [[AIVA]] (Artificial Intelligence Virtual Artist), focus on composing symphonic music, mainly [[classical music]] for [[film scores]].<ref name="LWO">{{cite news|url=http://www.wort.lu/de/kultur/aiva-une-jeune-start-up-qui-ne-manque-pas-d-ambitions-la-musique-classique-recomposee-57fbba6b5061e01abe83a1c2|title=La musique classique recomposée|last=Hick|first=Thierry|publisher=Luxemburger Wort|publication-date=11 October 2016}}</ref> It achieved a world first by becoming the first virtual composer to be recognized by a musical [[Société des auteurs, compositeurs et éditeurs de musique|professional association]].<ref>SACEM Database, https://repertoire.sacem.fr/resultats?filters=parties&query=aiva&nbWorks=20)</ref>
+
+Artificial intelligences can even produce music usable in a medical setting, with [[Melomics]]’s effort to use computer-generated music for stress and pain relief.<ref name="alergy">{{cite journal |doi=10.1111/pai.12263 |pmid=25115240 |title=Melomics music medicine (M3) to lessen pain perception during pediatric prick test procedure |journal=Pediatric Allergy and Immunology |volume=25 |issue=7 |pages=721–724 |year=2014 |last1=Requena |first1=Gloria |last2=Sánchez |first2=Carlos |last3=Corzo-Higueras |first3=José Luis |last4=Reyes-Alvarado |first4=Sirenia |last5=Rivas-Ruiz |first5=Francisco |last6=Vico |first6=Francisco |last7=Raglio |first7=Alfredo }}</ref>
+
+Moreover, initiatives such as [[Google Magenta]], conducted by the [[Google Brain]] team, want to find out if an artificial intelligence can be capable of creating compelling art.<ref name="ENG">{{cite news|url=https://www.engadget.com/2016/05/23/google-magenta-machine-learning-music-art/|title=Google's 'Magenta' project will see if AIs can truly make art|last=Souppouris|first=Aaron|publisher=Engadget|publication-date=23 May 2016}}</ref>
+
+At Sony CSL Research Laboratory, their Flow Machines software has created pop songs by learning music styles from a huge database of songs. By analyzing unique combinations of styles and optimizing techniques, it can compose in any style.
+
+Another artificial intelligence musical composition project, [[The Watson Beat]], written by [[IBM Research]], doesn't need a huge database of music like the Google Magenta and Flow Machines projects, since it uses [[Reinforcement Learning]] and [[Deep Belief Networks]] to compose music on a simple seed input melody and a select style.  Since the software has been open sourced<ref name="twb">{{cite web |url=https://github.com/cognitive-catalyst/watson-beat |title= Watson Beat on GitHub|date= 2018-10-10}}</ref> musicians, such as [[Taryn Southern]]<ref name=taryn>{{cite news|url=https://www.wired.com/story/music-written-by-artificial-intelligence/|title=Songs in the Key of AI|publisher=Wired|publication-date=17 May 2018}}</ref> have been collaborating with the project to create music.
+
+== News, publishing and writing ==
+The company [[Narrative Science]] makes [[computer generated journalism|computer-generated news]] and reports commercially available, including summarizing team sporting events based on statistical data from the game in English. It also creates financial reports and real estate analyses.<ref>[http://www.narrativescience.com/solutions.html business intelligence solutions] {{webarchive|url=https://web.archive.org/web/20111103192105/http://www.narrativescience.com/solutions.html|date=November 3, 2011}}. Narrative Science. Retrieved on 2013-07-21.</ref> Similarly, the company [[Automated Insights]] generates personalized recaps and previews for [[Yahoo Sports]] [[Fantasy football (American)|Fantasy Football]].<ref>{{cite web|url=http://online.barrons.com/news/articles/SB50001424052748704719204579028752466630862?mod=rss_barrons_technology_trader|title=Big Data and Yahoo's Quest for Mass Personalization|website=Barron's|last1=Eule|first1=Alexander}}</ref> The company is projected to generate one billion stories in 2014, up from 350 million in 2013.<ref>{{cite web|url=http://www.poynter.org/latest-news/media-lab/244113/robot-to-write-1-million-stories-in-2014-but-will-you-know-it-when-you-see-it/|title='Robot' to write 1 billion stories in 2014 — but will you know it when you see it?|website=Poynter|last1=Kirkland|first1=Sam}}</ref>
+
+Echobox is a software company that helps publishers increase traffic by 'intelligently' posting articles on social media platforms such as [[Facebook]] and [[Twitter]].<ref name="Williams">{{cite news|url=http://startups.co.uk/ai-publishing-service-echobox-closes-3-4m-in-funding/|title=AI online publishing service Echobox closes $3.4m in funding|date=July 4, 2016|work=Startups.co.uk|author=Williams, Henry|accessdate=July 21, 2016}}</ref> By analysing large amounts of data, it learns how specific audiences respond to different articles at different times of the day. It then chooses the best stories to post and the best times to post them. It uses both historical and real-time data to understand to what has worked well in the past as well as what is currently trending on the web.<ref name="Smith">{{cite news|url=https://www.bbc.co.uk/news/business-36837824|title=So you think you chose to read this article?|date=July 22, 2016|work=BBC|author=Smith, Mark|access-date=July 27, 2016}}</ref>
+
+Another company, called Yseop, uses artificial intelligence to turn structured data into intelligent comments and recommendations in natural language. [[Yseop]] is able to write financial reports, executive summaries, personalized sales or marketing documents and more at a speed of thousands of pages per second and in multiple languages including English, Spanish, French & German.<ref>{{Cite web |url=http://yseop.com/EN/solutions.html |title=Artificial Intelligence Software that Writes like a Human Being |access-date=2013-03-11 |archive-url=https://archive.is/20130412055015/http://yseop.com/EN/solutions.html |archive-date=2013-04-12 |dead-url=yes |df= }}</ref>
+
+Boomtrain’s is another example of AI that is designed to learn how to best engage each individual reader with the exact articles — sent through the right channel at the right time — that will be most relevant to the reader. It’s like hiring a personal editor for each individual reader to curate the perfect reading experience.
+
+IRIS.TV is helping media companies with its AI-powered video personalization and programming platform. It allows publishers and content owners to surface contextually relevant content to audiences based on consumer viewing patterns.<ref>{{Cite news|url=https://www.forbes.com/sites/alanwolk/2018/09/12/user-data-is-so-2018-here-comes-content-data/#639af2722116/|title=User Data Is So 2018. Here Comes Content Data|date=2018-09-12|access-date=2018-09-12|language=en-US|magazine=Forbes}}</ref>
+
+Beyond automation of writing tasks given data input, AI has shown significant potential for computers to engage in higher-level creative work. AI Storytelling has been an active field of research since James Meehan's development of TALESPIN, which made up stories similar to the fables of Aesop. The program would start with a set of characters who wanted to achieve certain goals, with the story as a narration of the characters’ attempts at executing plans to satisfy these goals.<ref>James R. Meehan. Tale-spin, an interactive program that writes stories. In ''Proceedings  of  the  5th  International  Joint  Conference  on  Artificial  Intelligence  -  Volume  1, IJCAI’77'', pages 91–98, San Francisco, CA, USA, 1977.Morgan Kaufmann Publishers Inc.</ref> Since Meehan, other researchers have worked on AI Storytelling using similar or different approaches. Mark Riedl and Vadim Bulitko argued that the essence of storytelling was an experience management problem, or "how to balance the need for a coherent story progression with user agency, which are often at odds."<ref>“Interactive Narrative: An Intelligent Systems Approach” by Mark Owen Riedl, Vadim Bulitko in ''AI Magazine, Vol. 34'', No. 1, 2013 <nowiki>https://www.aaai.org/ojs/index.php/aimagazine/article/view/2449</nowiki></ref> 
+
+While most research on AI storytelling has focused on story generation (e.g. character and plot), there has also been significant investigation in story communication. In 2002, researchers at North Carolina State University developed an architectural framework for narrative prose generation. Their particular implementation was able faithfully reproduced text variety and complexity of a number of stories, such as red riding hood, with human-like adroitness.<ref>Callaway, Charles B., & James C. Lester (2002). “Narrative prose generation.” ''Artificial Intelligence 139.2'': 213–52. <nowiki>http://www.intellimedia.ncsu.edu/wp-content/uploads/npg-ijcai01.pdf</nowiki></ref> This particular field continues to gain interest. In 2016, a Japanese AI co-wrote a short story and almost won a literary prize.<ref>{{Cite news|url=http://www.digitaltrends.com/cool-tech/japanese-ai-writes-novel-passes-first-round-nationanl-literary-prize/|title=A Japanese AI program just wrote a short novel, and it almost won a literary prize|date=2016-03-23|access-date=2016-11-18|language=en-US|newspaper=Digital Trends}}</ref>
+
+== Online and telephone customer service ==
+[[File:Automated online assistant.png|thumb|170px|An [[automated online assistant]] providing [[customer service]] on a web page.]]
+Artificial intelligence is implemented in [[automated online assistant]]s that can be seen as [[Avatar (computing)#Artificial intelligence|avatars]] on web pages.<ref name="Kongthon">{{Cite book |doi=10.1145/1643823.1643908 |chapter=Implementing an online help desk system based on conversational agent |title=Proceedings of the International Conference on Management of Emergent Digital Eco ''Systems'' - MEDES '09 |pages=450 |year=2009 |last1=Kongthon |first1=Alisa |last2=Sangkeettrakarn |first2=Chatchawal |last3=Kongyoung |first3=Sarawoot |last4=Haruechaiyasak |first4=Choochart |isbn=9781605588292 }}</ref> It can avail for enterprises to reduce their operation and training cost.<ref name="Kongthon" /> A major underlying technology to such systems is [[natural language processing]].<ref name="Kongthon" /> [[Pypestream]] uses automated customer service for its mobile application designed to streamline communication with customers.<ref>{{cite web|url=http://money.cnn.com/2016/01/12/technology/startup-pypestream/|title=Is this app the call center of the future?|date=January 12, 2016|publisher=CNN|access-date=September 26, 2016|author=Sara Ashley O'Brien}}</ref>
+
+Major companies are investing in AI to handle difficult customer in the future. Google's most recent development analyzes language and converts speech into text. The platform can identify angry customers through their language and respond appropriately.<ref>{{Cite news|url=https://www.bloomberg.com/news/articles/2016-07-20/new-google-ai-services-bring-automation-to-customer-service-iqv2rshg|title=New Google AI Brings Automation to Customer Service|last=jackclarkSF|first=Jack Clark|date=2016-07-20|access-date=2016-11-18|newspaper=Bloomberg.com}}</ref>
+
+== Power electronics ==
+[[Power electronics]] converters are an enabling technology for [[renewable energy]], [[energy storage]], [[electric vehicle]]s and [[high-voltage direct current]] transmission systems within the [[electrical grid]]. These converters are prone to failures and such failures can cause downtimes that may require costly maintenance or even have catastrophic consequences in mission critical applications.{{cn|date=January 2019}} Researchers are using AI to do the automated design process for reliable power electronics converters, by calculating exact design parameters that ensure desired lifetime of the converter under specified mission profile.<ref>{{cite journal |last1=Dragicevic |first1=Tomislav |title=Artificial Intelligence Aided Automated Design for Reliability of Power Electronic Systems |journal=IEEE Transactions on Power Electronics |url=https://ieeexplore.ieee.org/document/8584133}}</ref>
+
+== Sensors ==
+Artificial Intelligence has been combined with many [[sensor]] technologies, such as Digital Spectrometry<sup>TM</sup> by IdeaCuria Inc.<ref>{{Cite website|url=https://www.ideacuria.com/ic/technology.html|title=Digital Spectrometry|date=2018-10-08}}</ref><ref>{{Cite patent|url=https://patents.google.com/patent/US9967696B2/en?assignee=ideacuria&oq=ideacuria|title=Digital Spectrometry Patent US9967696B2|date=2018-10-08}}</ref> which enables many applications such as at home water quality monitoring.
+
+== Telecommunications maintenance ==
+Many telecommunications companies make use of
+[[Search algorithm|heuristic search]] in the management of their workforces, for example [[BT Group]] has deployed heuristic search<ref name="TheorSoc">[http://www.theorsociety.com/Science_of_Better/htdocs/prospect/can_do/success_stories/dwsbt.htm Success Stories] {{webarchive|url=https://web.archive.org/web/20111004194517/http://www.theorsociety.com/Science_of_Better/htdocs/prospect/can_do/success_stories/dwsbt.htm|date=October 4, 2011}}.</ref> in a scheduling application that provides the work schedules of 20,000 engineers.
+
+== Toys and games ==
+The 1990s saw some of the first attempts to mass-produce domestically aimed types of basic Artificial Intelligence for education, or leisure. This prospered greatly with the [[Digital Revolution]], and helped introduce people, especially children, to a life of dealing with various types of Artificial Intelligence, specifically in the form of [[Tamagotchi]]s and [[Giga Pet]]s, [[iPod Touch]], the [[Internet]], and the first widely released robot, [[Furby]]. A mere year later an improved type of [[domestic robot]] was released in the form of [[Aibo]], a robotic dog with intelligent features and [[autonomy]].
+
+Companies like Mattel have been creating an assortment of AI-enabled toys for kids as young as age three. Using proprietary AI engines and speech recognition tools, they are able to understand conversations, give intelligent responses and learn quickly.<ref>{{Cite web|url=https://www.washingtonpost.com/news/innovations/wp/2015/10/15/how-artificial-intelligence-is-moving-from-the-lab-to-your-kids-playroom/|title=How artificial intelligence is moving from the lab to your kid's playroom|website=Washington Post|access-date=2016-11-18}}</ref>
+
+AI has also been [[Game artificial intelligence|applied to video games]], for example [[video game bot]]s, which are designed to stand in as opponents where humans aren't available or desired.
+
+== Transportation ==
+[[Fuzzy logic]] controllers have been developed for automatic gearboxes in automobiles. For example, the 2006 [[Audi TT]], [[Volkswagen Touareg|VW Touareg]] {{Citation needed|date=February 2011}} and [[Volkswagen Transporter (T5)|VW Caravell]] feature the DSP transmission which utilizes Fuzzy Logic. A number of Škoda variants ([[Škoda Fabia]]) also currently include a Fuzzy Logic-based controller.
+
+Today's cars now have AI-based driver assist features such as self-parking and advanced cruise controls.  AI has been used to optimize traffic management applications, which in turn reduces wait times, energy use, and emissions by as much as 25 percent.<ref name=":03" />  In the future, fully [[autonomous cars]] will be developed.  AI in transportation is expected to provide safe, efficient, and reliable transportation while minimizing the impact on the environment and communities. The major challenge to developing this AI is the fact that transportation systems are inherently complex systems involving a very large number of components and different parties, each having different and often conflicting objectives.<ref>{{Cite journal|last=Meyer|first=Michael D.|year=January 2007|title=Artificial Intelligence in Transportation Information for Application|url=http://onlinepubs.trb.org/onlinepubs/circulars/ec113.pdf|journal=Transportation Research Circular|volume=|pages=|via=}}</ref>. Due to this high degree of complexity of the transportation, and in particular the automotive, application, it is in most cases not possible to train an AI algorithm in a real-world driving environment. To overcome the challenge of training neural networks for automated driving, methodologies based on virtual development resp. testing toolchains<ref>{{cite journal|last1=Hallerbach|first1=Sven|last2=Xia|first2=Yiqun|last3=Eberle|first3=Ulrich|last4=Koester|first4=Frank|url=https://www.researchgate.net/publication/324194968_Simulation-based_Identification_of_Critical_Scenarios_for_Cooperative_and_Automated_Vehicles|title=Simulation-based Identification of Critical Scenarios for Cooperative and Automated Vehicles|date=3 April 2018|work=SAE Technical Paper 2018-01-1066|access-date=23 December 2018}}</ref> have been proposed.
+
+== Wikipedia ==
+Studies related to [[Wikipedia]] has been using artificial intelligence to support various operations. One of the most important areas - automatic detection of vandalism <ref>Sarabadani, A., Halfaker, A., & Taraborelli, D. (2017). [https://arxiv.org/pdf/1703.03861.pdf Building automated vandalism detection tools for Wikidata]. In Proceedings of the 26th International Conference on World Wide Web Companion (pp. 1647-1654). International World Wide Web Conferences Steering Committee.</ref><ref>Potthast, M., Stein, B., & Gerling, R. (2008). [https://pdfs.semanticscholar.org/8805/b4d923bee9c9534373425de81a1ba296d461.pdf Automatic vandalism detection in Wikipedia]. In European conference on information retrieval (pp. 663-668). Springer, Berlin, Heidelberg.</ref> and [[data quality]] assessment in Wikipedia<ref>Asthana, S., & Halfaker, A. (2018). [https://dl.acm.org/ft_gateway.cfm?id=3274290&type=pdf With Few Eyes, All Hoaxes are Deep]. Proceedings of the ACM on Human-Computer Interaction, 2(CSCW), 21.</ref><ref>{{cite journal |last1=Lewoniewski |first1=Włodzimierz |date=2019-01-03 |title=Measures for Quality Assessment of Articles and Infoboxes in Multilingual Wikipedia |url=https://www.researchgate.net/publication/330087836 |journal=Lecture Notes in Business Information Processing |volume=339 |issue= |pages=619--633 |doi=10.1007/978-3-030-04849-5_53}}</ref>.
+
+The team at the [[Wikimedia Foundation]] released a model that is designed to detect vandalism, spam, and personal attack.<ref>[https://commons.wikimedia.org/wiki/File:ORES_-_Facilitating_re-mediation_of_Wikipedia%27s_socio-technical_problems.pdf ORES - Facilitating re-mediation of Wikipedia's socio-technical problems] - Wikimedia Commons</ref> This model can also help students write better Wikipedia articles.<ref>Sage Ross. (2016). [https://wikiedu.org/blog/2016/09/16/visualizing-article-history-with-structural-completeness/ Visualizing article history with structural completeness]. Wiki Education</ref>
+
+== List of applications ==
+;Typical problems to which AI methods are applied
+{{colbegin}}
+* [[Optical character recognition]]
+* [[Handwriting recognition]]
+* [[Speech recognition]]
+* [[Facial recognition system|face recognition]]
+* [[Artificial creativity]]
+* [[Computer vision]], [[virtual reality]], and [[image processing]]
+* [[photo manipulation|Photo]] and [[video manipulation]]
+* [[Diagnosis (artificial intelligence)]]
+* [[Game theory]] and [[strategic planning]]
+* [[Game artificial intelligence]] and [[computer game bot]]
+* [[Natural language processing]], [[translation]] and [[chatterbot]]s
+* [[Nonlinear control]] and [[robot]]ics
+{{colend}}
+
+;Other fields in which AI methods are implemented
+{{colbegin}}
+* [[Artificial life]]
+* [[Automated reasoning]]
+* [[Automation]]
+* [[Bio-inspired computing]]
+* [[Concept mining]]
+* [[Data mining]]
+* [[Knowledge representation]]
+* [[Semantic Web]]
+* [[Email spam]] filtering
+* [[Robot]]ics
+** [[Behavior-based robotics]]
+** [[Cognitive]]
+** [[Cybernetics]]
+** [[Developmental robotics]] (Epigenetic)
+** [[Evolutionary robotics]]
+* [[Hybrid intelligent system]]
+* [[Intelligent agent]]
+* [[Intelligent control]]
+* [[Litigation]]
+{{colend}}
+
+== See also ==
+* [[Applications of artificial intelligence to legal informatics]]
+* [[Applications of deep learning]]
+* [[Applications of machine learning]]
+* [[Applications of natural language processing]]
+* [[List of artificial intelligence projects]]
+* [[Progress in artificial intelligence]]
+
+== Notes ==
+{{Reflist}}
+
+== References ==
+<!-- This is not a list of your pet website or article, or favorite AI software and books. Please add those to the appropriate links in the see also section. Keep this list short and use only famous and clear examples -->
+* {{Cite book
+| first = Stuart J.
+| last = Russell
+| first2 = Peter
+| last2 = Norvig
+| title = Artificial Intelligence: A Modern Approach
+| url = http://aima.cs.berkeley.edu/
+| year = 2003
+| edition = 2nd
+| publisher = Prentice Hall
+| location = Upper Saddle River, New Jersey
+| isbn = 978-0-13-790395-5
+| author-link=Stuart J. Russell
+| author2-link=Peter Norvig
+| pages=
+| ref=harv
+}}
+*{{cite journal |doi=10.1016/j.bushor.2018.08.004 |title=Siri, Siri in my Hand, who's the Fairest in the Land? On the Interpretations, Illustrations and Implications of Artificial Intelligence |journal=Business Horizons |volume=62 |issue=1 |year=2018 |last1=Kaplan |first1=A.M. |last2=Haenlein |first2=M.}}
+* {{Cite book
+| first= Ray
+| last=Kurzweil
+| title=The Singularity is Near: When Humans Transcend Biology
+| location=New York
+| publisher=Viking
+| year=2005
+| isbn=978-0-670-03384-3
+| ref=harv
+}}
+* {{Cite book | ref={{harvid|NRC|1999}}
+| author = National Research Council | author-link=United States National Research Council
+| chapter=Developments in Artificial Intelligence
+| title=Funding a Revolution: Government Support for Computing Research
+| publisher=National Academy Press
+| year=1999
+| isbn=978-0-309-06278-7
+| oclc = 246584055
+}}
+*{{cite journal |doi=10.1007/s10845-013-0788-0 |title=Sequence planning for stamping operations in progressive dies |journal=Journal of Intelligent Manufacturing |volume=26 |issue=2 |pages=347–357 |year=2015 |last1=Moghaddam |first1=M. J. |last2=Soleymani |first2=M. R. |last3=Farsi |first3=M. A. }}
+*{{cite web |first1=Ed |last1=Felten |date=May 3, 2016 |title=Preparing for the Future of Artificial Intelligence |url=https://obamawhitehouse.archives.gov/blog/2016/05/03/preparing-future-artificial-intelligence }}
+
+== External links ==
+* [http://aitopics.org/topic/applications AI applications at aitopics.org]
+* [http://www.buzzle.com/articles/applications-of-artificial-intelligence.html How AI can be applied in many fields]
+
+{{Emerging technologies}}
+
+
+[[Category:Artificial intelligence]]
+[[Category:Artificial intelligence applications| ]]

@@ -1,0 +1,195 @@
+{{Use dmy dates|date=May 2013}}
+{{Refimprove|date=January 2013}}
+
+'''Identity management''', also known as '''identity and access management''' ('''IAM''') is, in [[computer security]], the [[security]] and [[commerce|business]] discipline that "enables the right individuals to access the right resources at the right times and for the right reasons". It addresses the need to ensure appropriate access to resources across increasingly heterogeneous technology environments and to meet increasingly rigorous compliance requirements.<ref name=":0">Compare: {{cite web|url= http://blogs.gartner.com/it-glossary/identity-and-access-management-iam/ |publisher= Gartner|title= Gartner IT Glossary > Identity and Access Management (IAM) | accessdate = 2016-09-02 | quote = Identity and access management (IAM) is the security discipline that enables the right individuals to access the right resources at the right times for the right reasons. [...] IAM addresses the mission-critical need to ensure appropriate access to resources across increasingly heterogeneous technology environments, and to meet increasingly rigorous compliance requirements.}}</ref>
+
+The terms "identity management" ('''IdM''') and "identity and access management" are used interchangeably in the area of Identity access management.<ref>{{cite news|url=http://searchsecurity.techtarget.com/definition/identity-management-ID-management |title= identity management (ID management) |publisher=SearchSecurity |date=2013-10-01 |accessdate=2017-03-02}}</ref>  "Identity management" comes under the umbrella of [[IT security]].<ref>{{cite web|title= Identity and access management products|url= http://www.computerweekly.com/resources/Identity-and-access-management-products |work= ComputerWeekly.com|publisher= TechTarget|accessdate= 23 May 2012|author= Staff|year= 2012}}</ref>{{qn|date=September 2016}}
+
+[[Identity management systems|Identity-management systems]], products, applications and platforms manage identifying and ancillary data about entities that include individuals, computer-related hardware, and [[software application]]s.
+
+IdM covers issues such as how users gain an [[digital identity|identity]], the protection of that identity and the technologies supporting that protection (e.g., [[Protocol (computing)|network protocols]], [[public key certificate|digital certificates]], [[password]]s, etc.).
+
+== Definitions ==
+Identity management (IdM) is the task of controlling information about users on computers. Such information includes information that [[Authentication|authenticates]] the identity of a user, and information that describes information and actions they are [[Authorization|authorized]] to access and/or perform. It also includes the management of descriptive information about the user and how and by whom that information can be accessed and modified. Managed entities typically include users, hardware and network resources and even applications.
+
+[[Digital identity]] is an entity's online presence, encompassing personal identifying information (PII) and ancillary information. See [[OECD]]<ref>
+[http://www.oecd.org/dataoecd/36/30/38573952.pdf Functional requirements for privacy enhancing systems] Fred Carter, OECD Workshop on Digital Identity Management, Trondheim, Norway, 9 May 2007 (PPT presentation)</ref> and [[NIST]]<ref>
+[http://csrc.nist.gov/publications/drafts/800-122/Draft-SP800-122.pdf Guide to Protecting the Confidentiality of Personally Identifiable Information (PII)], Recommendations of the National Institute of Standards and Technology, January 2009</ref> guidelines on protecting PII.<ref>[http://www.cdt.org/privacy/issues/pii/ PII (Personally Identifiable Information)] {{webarchive|url=https://web.archive.org/web/20090428062932/http://www.cdt.org/privacy/issues/pii/ |date=28 April 2009 }}, The Center For Democracy & Technology, September 14, 2007</ref> It can be interpreted as the codification of identity names and attributes of a physical instance in a way that facilitates processing.
+
+== Function ==
+In the real-world context of engineering online systems, identity management can involve four basic functions:
+
+# The pure identity function: Creation, management and deletion of identities without regard to access or entitlements;
+# The user access (log-on) function: For example: a [[smart card]] and its associated data used by a customer to log on to a service or services (a traditional view);
+# The service function: A system that delivers personalized, role-based, online, on-demand, multimedia (content), [[presence-based services]] to users and their devices.
+# Identity Federation: A system that relies on [[federated identity]] to authenticate a user without knowing his or her password.
+
+=== Pure identity ===
+A general model of [[Identity (philosophy)|identity]] can be constructed from a small set of axioms, for example that all identities in a given [[namespace]] are unique, or that such identities bear a specific relationship to corresponding entities in the real world. Such an axiomatic model expresses "pure identity" in the sense that the model is not constrained by a specific application context.
+
+In general, an entity (real or virtual) can have multiple identities and each identity can encompass multiple attributes, some of which are unique within a given name space. The diagram below illustrates the conceptual relationship between identities and entities, as well as between identities and their attributes.
+
+[[File:Identity-concept.svg|450 px|Identity conceptual view]]
+
+In most theoretical and all practical models of [[digital identity]], a given identity object consists of a finite set of [[Property (philosophy)|properties]] (attribute values). These properties record information about the object, either for purposes external to the model or to operate the model, for example in classification and retrieval. A "pure identity" model is strictly not concerned with the external [[semantics]] of these properties.
+
+The most common departure from "pure identity" in practice occurs with properties intended to assure some aspect of identity, for example a [[digital signature]]<ref name=":0" /> or [[software token]] which the model may use internally to verify some aspect of the identity in satisfaction of an external purpose. To the extent that the model expresses such semantics internally, it is not a pure model.
+
+Contrast this situation with properties that might be externally used for purposes of [[information security]] such as managing access or entitlement, but which are simply stored, maintained and retrieved, without special treatment by the model. The absence of external semantics within the model qualifies it as a "pure identity" model.
+
+Identity management, then, can be defined as a set of operations on a given identity model, or more generally as a set of capabilities with reference to it.
+
+In practice, identity management often expands to express how model contents is to be [[Provisioning|provisioned]] and [[Reconciliation (Accounting)|reconciled]] among multiple identity models.
+
+=== User access ===
+User access enables users to assume a specific digital identity across applications, which enables access controls to be assigned and evaluated against this identity. The use of a single identity for a given user across multiple systems eases tasks for administrators and users. It simplifies access monitoring and verification and allows the organizations to minimize excessive privileges granted to one user. User access can be tracked from initiation to termination of user access.<ref>{{Cite web|url=https://console.bluemix.net/docs/iam/users_roles.html#userroles|title=IBM Cloud Docs|website=console.bluemix.net|language=en|access-date=2018-12-03}}</ref>
+
+When organizations deploy an identity management process or system, their motivation is normally not primarily to manage a set of identities, but rather to grant appropriate access rights to those entities via their identities. In other words, access management is normally the motivation for identity management and the two sets of processes are consequently closely related.<ref>{{Cite news|url=https://searchsecurity.techtarget.com/definition/identity-management-ID-management|title=What is identity management (ID management) ? - Definition from WhatIs.com|work=SearchSecurity|access-date=2018-12-03|language=en-US}}</ref>
+
+=== Services ===
+Organizations continue to add services for both internal users and by customers. Many such services require identity management to properly provide these services. Increasingly, identity management has been partitioned from application functions so that a single identity can serve many or even all of an organization's activities.
+
+For internal use identity management is evolving to control access to all digital assets, including devices, network equipment, servers, portals, content, applications and/or products.
+
+Services often require access to extensive information about a user, including address books, preferences, entitlements and contact information. Since much of this information is subject to privacy and/or confidentiality requirements, controlling access to it is vital.<ref>{{Cite book|url=https://www.ncbi.nlm.nih.gov/books/NBK236546/|title=Confidentiality and Privacy of Personal Data|last=Networks|first=Institute of Medicine (US) Committee on Regional Health Data|last2=Donaldson|first2=Molla S.|last3=Lohr|first3=Kathleen N.|date=1994|publisher=National Academies Press (US)|language=en}}</ref>
+
+=== Identity federation ===
+{{Main|Federated identity}}
+As the name implies, identity federation comprises one or more systems that federate user access and allow users to log in based on authenticating against one of the systems participating in the federation. This trust between several systems is often known as "Circle of Trust". In this setup, one system acts as the Identity Provider (IdP) and other system(s) acts as Service Provider (SP). When a user needs to access some service controlled by SP, he/she first authenticates against the IdP. Upon successful authentication, the IdP sends a secure "assertion" to the Service Provider. "SAML assertions, specified using a mark up language intended for describing security assertions, can be used by a verifier to make a statement to a relying party about the identity of a claimant. SAML assertions may optionally be digitally signed."<ref>{{Cite journal|url = http://csrc.nist.gov/publications/nistpubs/800-63/SP800-63V1_0_2.pdf|title = Information Security|accessdate = 2015-10-10|website = |publisher = |last = Burr, Donaldson, Polk|doi = 10.6028/NIST.SP.800-63v1.0.2|year = 2006|citeseerx = 10.1.1.153.2795}}</ref>
+
+== System capabilities ==
+In addition to creation, deletion, modification of user identity data either assisted or self-service,
+Identity Management controls ancillary entity data for use by applications, such as contact information or location.
+* [[Authentication]] : Verification that an entity is who/what it claims to be using a password, biometrics such as a fingerprint, or distinctive behavior such as a gesture pattern on a touchscreen.
+* [[Authorization]] : Managing authorization information that defines what operations an entity can perform in the context of a specific application. For example, one user might be authorized to enter a sales order, while a different user is authorized to approve the credit request for that order.
+* [[Role-based access control|Roles]] : Roles are groups of operations and/or other roles. Users are granted roles often related to a particular job or job function. For example, a user administrator role might be authorized to reset a user's password, while a system administrator role might have the ability to assign a user to a specific server.
+* [[Delegation (computer security)|Delegation]] : Delegation allows local administrators or supervisors to perform system modifications without a global administrator or for one user to allow another to perform actions on their behalf. For example, a user could delegate the right to manage office-related information.
+* Interchange : The [[Security Assertion Markup Language|SAML]] [[communication protocol|protocol]] is a prominent means used to exchange identity information between two identity domains.<ref>{{cite web|url=http://www.idcommons.org/working-groups/ |title=Working Groups &#124; Identity Commons |publisher=Idcommons.org |date= |accessdate=2013-01-12}}</ref> [[OpenID Connect]] is another such protocol.
+
+== Privacy ==
+Putting personal information onto computer networks necessarily raises [[privacy]] concerns. Absent proper protections, the data may be used to implement a [[Mass surveillance|surveillance society]].{{Harv|Taylor|Lips|Organ|2009}}
+
+[[Social web]] and [[online social networking]] services make heavy use of identity management. Helping users decide how to manage access to their personal information has become an issue of broad concern.{{Harv|Gross|Acquisti|Heinz|2008}}{{Harv|Taylor|2008}}
+
+== Identity theft ==
+[[Identity theft]] happens when thieves gain access to identity information - such as the personal details needed to get access to a bank account.
+
+== Research ==
+Research related to the management of identity covers disciplines such as technology, social sciences, humanities and the law.<ref>{{Harv|Halperin|Backhouse|2009}}</ref>
+
+=== European research ===
+Within the [[Seventh Framework Programme|Seventh Research Framework Programme]] of the European Union from 2007 to 2013, several new projects related to Identity Management started.
+
+The PICOS Project investigates and develops a state-of-the-art platform for providing trust, privacy and identity management in mobile communities.<ref>PICOS</ref>
+
+PrimeLife develops concepts and technologies to help individuals to protect autonomy and retain control over personal information, irrespective of activities.<ref>{{cite web|url=http://www.primelife.eu/|title=PrimeLife - Privacy and Identity Management in Europe for Life|publisher=}}</ref>
+
+SWIFT focuses on extending identity functions and federation to the network while addressing usability and privacy concerns and leverages identity technology as a key to integrate service and transport infrastructures for the benefit of users and the providers.<ref>{{cite web|url=http://www.ist-swift.org/|title=www.ist-swift.org|publisher=}}</ref>
+
+==== Ongoing projects ====
+Ongoing projects include Future of Identity in the Information Society (FIDIS]),<ref>{{cite web|url=http://www.fidis.net/home/|title=Home: Future of IDentity in the Information Society|author=FIDISCoord (DR)|publisher=}}</ref> GUIDE<ref>http://istrg.som.surrey.ac.uk/projects/guide/</ref> and PRIME.<ref>https://www.prime-project.eu/</ref>
+
+=== Publications ===
+[[Academic journals]] that publish articles related to identity management include:
+* ''[https://link.springer.com/journal/10676 Ethics and Information Technology]''
+* ''[https://link.springer.com/journal/12394 Identity in the Information Society]''
+* ''[http://ojs.library.queensu.ca/index.php/surveillance-and-society/about Surveillance & Society]''{{cn|date=May 2016}}
+
+Less specialized journals publish on the topic and for instance have special issues on Identity such as:
+* ''Online Information Review''.<ref>http://www.emeraldgrouppublishing.com/products/journals/journals.htm?id=oir See for instance the Special Issue on: Digital ID management (Volume 33, Issue 3, 2009).</ref>
+
+=== Standardization ===
+[[International Organization for Standardization|ISO]] (and more specifically [[ISO/IEC JTC1]], SC27 IT Security techniques WG5 Identity Access Management and Privacy techniques) is conducting some standardization work for identity management {{Harv|ISO|2009}}, such as the elaboration of a framework for identity management, including the definition of identity-related terms. The published standards and current work items includes the following:
+* ISO/IEC 24760-1 A framework for identity management—Part 1: Terminology and concepts
+* ISO/IEC 24760-2 A Framework for Identity Management—Part 2: Reference architecture and requirements
+* ISO/IEC DIS 24760-3 A Framework for Identity Management—Part 3: Practice
+* ISO/IEC 29115 Entity Authentication Assurance
+* ISO/IEC 29146 A framework for access management
+* ISO/IEC CD 29003 Identity Proofing and Verification
+* ISO/IEC 29100 Privacy framework
+* ISO/IEC 29101 Privacy Architecture
+* ISO/IEC 29134 Privacy Impact Assessment Methodology
+
+== Organization implications ==
+In each organization there is normally a role or department that is responsible for managing the schema of digital identities of their staff and their own objects, which are represented by object identities or [[object identifier]]s (OID).<ref>[http://doc.sumy.ua/db/pgsql_book/node72.html Object Id's (OID'S)], PostgreSQL: Introduction and Concepts, in Bruce Momjian, November 21, 1999</ref>
+
+== See also ==
+{{Columns-list|colwidth=22em|
+* [[Access control]]
+* [[Authentication]]
+* [[Authorization]]
+* [[Claims-based identity]]
+* [[Computer security]]
+* [[Digital card]]
+* [[Digital identity]]
+* [[Directory service]]
+* [[Dongle]]
+* [[Federated identity#Federated identity management|Federated identity management]]
+* [[Hardware security module]]
+* [[Identity assurance]]
+* [[Identity driven networking]]
+* [[Identity management systems]]
+* [[Identity provider]]
+* [[Identity-based security]]
+* [[Information privacy]]
+* [[Initiative For Open Authentication]]
+* [[List of single sign-on implementations]]
+* [[Loyalty card]]
+* [[Mobile identity management]]
+* [[Mobile signature]]
+* [[Multi-factor authentication]]
+* [[Mutual authentication]]
+* [[OAuth]]
+* [[Online identity management]]
+* [[OpenID]]
+* [[Password management]]
+* [[Personally Identifiable Information]]
+* [[Privileged identity management]]
+* [[RBAC]]
+* [[SAML 2.0]]
+* [[SAML-based products and services]]
+* [[Security token]]
+* [[Service provider]]
+* [[Single sign-on]]
+* [[Software token]]
+* [[Two-factor authentication]]
+* [[User modeling]]
+* [[Web service]]
+** [[WS-Security]]
+** [[WS-Trust]]
+* [[Workflow application]]
+}}
+
+== References ==
+{{Reflist|3}}
+* {{Cite book | last=Gross | first=Ralph | last2=Acquisti | first2=Alessandro | last3=Heinz | first3=J. H. |publication-date=2005 | chapter=Information revelation and privacy in online social networks | title=Workshop On Privacy In The Electronic Society; Proceedings of the 2005 ACM workshop on Privacy in the electronic society | pages=71–80 |doi=10.1145/1102199.1102214 | year=2005 | ref=harv | postscript=<!-- Bot inserted parameter. Either remove it; or change its value to "." for the cite to end in a ".", as necessary. -->{{inconsistent citations}}| isbn=978-1595932280 }}
+* {{Cite journal | last=Halperin | first=Ruth | last2=Backhouse | first2=James | publication-date=2009 | title=A roadmap for research on identity in the information society | journal=Identity in the Information Society | volume=1 | issue=1 | doi=10.1007/s12394-008-0004-0 | year=2008
+
+ | page=71 | ref=harv}}
+* {{Cite journal| last=Lusoli | first=Wainer | last2=Miltgen| first2=Caroline | year=2009 | publication-date=March 2009 |title=Young People and Emerging Digital Services. An Exploratory Survey on Motivations, Perceptions and Acceptance of Risks| journal=JRC Scientific and Technical Reports
+
+ | issue=EUR 23765 EN | doi=10.2791/68925 |url=http://ipts.jrc.ec.europa.eu/publications/pub.cfm?id=2119| ref=harv}}
+* {{Cite journal | last=ISO | first=IEC | author-link=International Organization for Standardization | year=2009 | publication-date=2009 | title=Information Technology—Security Techniques—A Framework for Identity Management | publisher=ISO/IEC WD 24760 (Working draft) |url=http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=57914 | ref=harv | postscript=<!-- Bot inserted parameter. Either remove it; or change its value to "." for the cite to end in a ".", as necessary. -->{{inconsistent citations}}}}
+* {{Cite book | last=Pohlman | first=M.B. | publication-date=2008 | title=Oracle Identity Management: Governance, Risk and Compliance Architecture
+
+ | publisher=Auerbach Publications | year=2008 |isbn=978-1-4200-7247-1}}
+* {{Cite journal | last=Pounder | first=C. N. M. | publication-date=2009 | title=Nine principles for assessing whether privacy is protected in a surveillance society | journal=Identity in the Information Society |doi=10.1007/s12394-008-0002-2 | year=2008 | volume=1 | page=1 | ref=harv}}
+* {{Cite journal| last=Taylor | first=John A. | last2=Lips | first2=Miriam | last3=Organ | first3=Joe |publication-date=2009 | title=Identification practices in government: citizen surveillance and the quest for public service improvement | journal=Identity in the Information Society | doi=10.1007/s12394-009-0007-5 | year=2009| volume=1 | page=135| ref=harv}}
+* {{Cite journal | last=Taylor | first=John A. | publication-date=2008 | title=Zero Privacy | journal=IEEE Spectrum |volume=45 | issue=7 | pages=20 | doi=10.1109/MSPEC.2008.4547499 | year=2008 | ref=harv }}
+* {{Cite book |title=Identity Management: A Primer |first1=Graham |last1=Williamson |first2=David |last2=Yip |first3=Ilan|last3=Sharni |first4=Kent |last4=Spaulding |publisher=MC Press |date=September 1, 2009 |isbn=978-1-58347-093-0 }}
+* {{Cite journal |title=Holistic Privacy-Preserving Identity Management System for the Internet of Things |first1=Jorge |last1=Bernal Bernabe | first2=Jose L. |last2=Hernandez-Ramos |first3=Antonio | last3= Skarmeta | journal=Mobile Information Systems |volume=2017 |year=2017 | issue=6384186 |pages=1–20 | doi=10.1155/2017/6384186}}
+
+
+== External links ==
+* [http://www.visual-guard.com/EN/net-powerbuilder-application-security-authentication-permission-access-control-rbac-articles/dotnet-security-article-ressources/iam-best-practices.php Fine-grained permission management in IAM solutions]
+* [http://www.prime-project.eu/tutorials/gpto/ General Public Tutorial about Privacy and Identity Management]
+* [http://www.computerweekly.com/Articles/2007/07/23/225715/identity-management-the-expert-view.htm Identity Management Overview] (''Computer Weekly'')
+* [http://www.ist-swift.org/ Secure Widespread Identities for Federated Telecommunications (SWIFT)]
+* [http://www.iso.org/iso/search.htm?qt=18876&searchSubmit=Search&sort=rel&type=simple&published=on Identity management and information sharing in ISO 18876 Industrial automation systems and integration]
+* [http://www.slideshare.net/ganeshcprasad/50-data-principles-for-loosely-coupled-identity-management-v1-0 50 Data Principles for Loosely-Coupled Identity Management: SlideShare]
+* [http://www.businessinsider.com/stop-remembering-passwords-and-switch-to-identity-management-2012-10 Stop Remembering Password and Switch to Identity Management: Business Insider]
+
+
+{{DEFAULTSORT:Identity Management}}
+[[Category:Identity management|*]]
+[[Category:Computer security procedures]]

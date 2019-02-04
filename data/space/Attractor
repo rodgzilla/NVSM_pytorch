@@ -1,0 +1,217 @@
+{{other uses}}
+{{redirect|Strange attractor|other uses|Strange Attractor (disambiguation)}}
+{{Use dmy dates|date=May 2013}}
+{{more footnotes|date=March 2013}}
+[[File:Attractor Poisson Saturne.jpg|right|333px|thumb|Visual representation of a strange attractor]]
+In the [[mathematics|mathematical]] field of [[dynamical system]]s, an '''attractor''' is a set of numerical values toward which a system tends to evolve, for a wide variety of starting conditions of the system.<ref name="Boeing2016Systems">{{cite journal|url=http://geoffboeing.com/publications/nonlinear-chaos-fractals-prediction/|author=Boeing, G.|title=Visual Analysis of Nonlinear Dynamical Systems: Chaos, Fractals, Self-Similarity and the Limits of Prediction|journal=Systems|date=2016|volume=4|issue=4|pages=37|accessdate=2016-12-02|doi=10.3390/systems4040037}}</ref> System values that get close enough to the attractor values remain close even if slightly disturbed.
+
+In finite-dimensional systems, the evolving variable may be represented [[algebra]]ically as an ''n''-dimensional [[Coordinate vector|vector]]. The attractor is a region in [[space (mathematics)|''n''-dimensional space]]. In [[Physics|physical systems]], the ''n'' dimensions may be, for example, two or three positional coordinates for each of one or more physical entities; in [[Economics|economic systems]], they may be separate variables such as the [[inflation rate]] and the [[unemployment rate]].
+
+If the evolving variable is two- or three-dimensional, the attractor of the dynamic process can be represented [[Geometry|geometrically]] in two or three dimensions, (as for example in the three-dimensional case depicted to the right). An attractor can be a [[point (geometry)|point]], a finite set of points, a [[curve]], a [[manifold]], or even a complicated set with a [[fractal]] structure known as a ''strange attractor'' (see [[Attractor#Strange attractor|strange attractor]] below). If the variable is a [[scalar (mathematics)|scalar]], the attractor is a subset of the real number line. Describing the attractors of chaotic dynamical systems has been one of the achievements of [[chaos theory]].
+
+A [[trajectory]] of the dynamical system in the attractor does not have to satisfy any special constraints except for remaining on the attractor, forward in time.  The trajectory may be [[Periodic function|periodic]] or [[Chaos theory|chaotic]]. If a set of points is periodic or chaotic, but the flow in the neighborhood is away from the set, the set is not an attractor, but instead is called a '''repeller''' (or ''repellor'').
+
+== Motivation of attractors ==
+A [[dynamical system]] is generally described by one or more [[differential equations|differential]] or [[difference equations]]. The equations of a given dynamical system specify its behavior over any given short period of time.  To determine the system's behavior for a longer period, it is often necessary to [[Integral|integrate]] the equations, either through analytical means or through [[iteration]], often with the aid of computers.
+
+Dynamical systems in the physical world tend to arise from [[dissipative system|dissipative]] systems: if it were not for some driving force, the motion would cease.  (Dissipation may come from [[friction|internal friction]], [[thermodynamics|thermodynamic losses]], or loss of material, among many causes.)  The dissipation and the driving force tend to balance,  killing off initial transients and settle the system into its typical behavior. The subset of the [[phase space]] of the dynamical system corresponding to the typical behavior is the '''attractor''', also known as the attracting section or attractee.
+
+Invariant sets and [[limit set]]s are similar to the attractor concept. An ''invariant set'' is a set that evolves to itself under the dynamics. Attractors may contain invariant sets. A ''limit set'' is a set of points such that there exists some initial state that ends up arbitrarily close to the limit set (i.e. to each point of the set) as time goes to infinity.  Attractors are limit sets, but not all limit sets are attractors: It is possible to have some points of a system converge to a limit set, but different points when perturbed slightly off the limit set may get knocked off and never return to the vicinity of the limit set.
+
+For example, the [[damping ratio|damped]] [[pendulum]] has two invariant points: the point {{math|x<sub>0</sub>}} of minimum height and the point {{math|x<sub>1</sub>}} of maximum height.  The point {{math|x<sub>0</sub>}} is also a limit set, as trajectories converge to it; the point {{math|x<sub>1</sub>}} is not a limit set.  Because of the dissipation due to air resistance, the point {{math|x<sub>0</sub>}} is also an attractor.  If there was no dissipation, {{math|x<sub>0</sub>}} would not be an attractor. Aristotle believed that objects moved only as long as they were pushed, which is an early formulation of a dissipative attractor.
+
+Exponential [[chaos theory|divergence of trajectories]] complicates detailed predictions, but the world is knowable due to the existence of robust attractors.
+
+== Mathematical definition ==
+Let ''t'' represent time and let ''f''(''t'', •) be a function which specifies the dynamics of the system.  That is, if ''a'' is a point in an ''n''-dimensional phase space, representing the initial state of the system, then ''f''(0, ''a'') = ''a'' and, for a positive value of ''t'', ''f''(''t'', ''a'') is the result of the evolution of this state after ''t'' units of time.  For example, if the system describes the evolution of a free particle in one dimension then the phase space is the plane '''R'''<sup>2</sup> with coordinates (''x'',''v''), where ''x'' is the position of the particle, ''v'' is its velocity, ''a''&nbsp;=&nbsp;(''x'',''v''), and the evolution is given by
+
+[[File:Julia immediate basin 1 3.png|right|thumb|Attracting period-3 cycle and its immediate basin of attraction for a certain parametrization of ''f''(''z'')&nbsp;=&nbsp;''z''<sup>2</sup>&nbsp;+&nbsp;''c''. The three darkest points are the points of the 3-cycle, which lead to each other in sequence, and iteration from any point in the basin of attraction leads to (usually asymptotic) convergence to this sequence of three points.]]
+
+: <math> f(t,(x,v))=(x+tv,v).\ </math>
+
+An '''attractor''' is a [[subset]] ''A'' of the [[phase space]] characterized by the following three conditions:
+* ''A'' is ''forward invariant'' under ''f'': if ''a'' is an element of ''A'' then so is ''f''(''t'',''a''), for all&nbsp;''t''&nbsp;>&nbsp;0.
+* There exists a [[Neighbourhood (mathematics)|neighborhood]] of ''A'', called the '''basin of attraction''' for ''A'' and denoted ''B''(''A''), which consists of all points ''b'' that "enter ''A'' in the limit ''t''&nbsp;→&nbsp;∞". More formally, ''B''(''A'') is the set of all points ''b'' in the phase space with the following property:
+:: For any open neighborhood ''N'' of ''A'', there is a positive constant ''T'' such that ''f''(''t'',''b'') ∈ ''N'' for all real ''t'' > ''T''.
+* There is no proper (non-empty) subset of ''A'' having the first two properties.
+
+Since the basin of attraction contains an [[open set]] containing ''A'', every point that is sufficiently close to ''A'' is attracted to ''A''.  The definition of an attractor uses a [[metric space|metric]] on the phase space, but the resulting notion usually depends only on the topology of the phase space. In the case of '''R'''<sup>''n''</sup>, the Euclidean norm is typically used.
+
+Many other definitions of attractor occur in the literature.  For example, some authors require that an attractor have positive [[measure (mathematics)|measure]] (preventing a point from being an attractor), others relax the requirement that ''B''(''A'') be a neighborhood. <ref>Milnor, J. (1985). "On the Concept of Attractor." Comm. Math. Phys 99: 177–195.
+</ref>
+
+== Types of attractors ==
+Attractors are portions or [[subset]]s of the [[Configuration space (physics)|phase space]] of a [[dynamical system]].  Until the 1960s, attractors were thought of as being [[Geometric primitive|simple geometric subsets]] of the phase space, like [[Point (geometry)|points]], [[Line (mathematics)|lines]], [[Surface (topology)|surface]]s, and simple regions of [[three-dimensional space]].  More complex attractors that cannot be categorized as simple geometric subsets, such as [[topology|topologically]] wild sets, were known of at the time but were thought to be fragile anomalies.  [[Stephen Smale]] was able to show that his [[horseshoe map]] was [[structural stability|robust]] and that its attractor had the structure of a [[Cantor set]].
+
+Two simple attractors are a [[Fixed point (mathematics)|fixed point]] and the [[limit cycle]].  Attractors can take on many other geometric shapes (phase space subsets).  But when these sets (or the motions within them) cannot be easily described as simple combinations (e.g. [[intersection (set theory)|intersection]] and [[union (set theory)|union]]) of [[Geometric primitive|fundamental geometric objects]] (e.g. [[Line (mathematics)|lines]], [[Surface (topology)|surface]]s, [[sphere]]s, [[toroid]]s, [[manifold]]s), then the attractor is called a ''[[attractor#Strange attractor|strange attractor]]''.
+
+=== Fixed point ===
+[[File:Critical orbit 3d.png|right|thumb|Weakly attracting fixed point for a complex number evolving according to a [[complex quadratic polynomial]]. The phase space is the horizontal complex plane; the vertical axis measures the frequency with which points in the complex plane are visited. The point in the complex plane directly below the peak frequency is the fixed point attractor.]]
+A [[Fixed point (mathematics)|fixed point]] of a function or transformation is a point that is mapped to itself by the function or transformation.<ref name="Boeing2016Systems" /> If we regard the evolution of a dynamical system as a series of transformations, then there may or may not be a point which remains fixed under each transformation.  The final state that a dynamical system evolves towards corresponds to an attracting fixed point of the evolution function for that system, such as the center bottom position of a [[pendulum#damped pendulum|damped pendulum]], the level and flat water line of sloshing water in a glass, or the bottom center of a bowl contain a rolling marble. But the fixed point(s) of a dynamic system is not necessarily an attractor of the system. For example, if the bowl containing a rolling marble was inverted and the marble was balanced on top of the bowl, the center bottom (now top) of the bowl is a fixed state, but not an attractor.  This is equivalent to the difference between [[Stability theory#Stability of fixed points|stable and unstable equilibria]]. In the case of a marble on top of an inverted bowl (a hill), that point at the top of the bowl (hill) is a fixed point (equilibrium), but not an attractor (stable equilibrium).
+
+In addition, physical dynamic systems with at least one fixed point invariably have multiple fixed points and attractors due to the reality of dynamics in the physical world, including the [[nonlinear dynamics]] of [[stiction]], [[friction]], [[surface roughness]], [[Deformation (engineering)|deformation]] (both [[Elastic deformation|elastic]] and [[plastic]]ity), and even [[quantum mechanics]].<ref name="Contact of Nominally Flat Surfaces">{{cite journal|last=Greenwood|first=J. A.|author2=J. B. P. Williamson|title=Contact of Nominally Flat Surfaces|journal=Proceedings of the Royal Society|date=6 December 1966|volume=295|issue=1442|pages=300–319|doi=10.1098/rspa.1966.0242|url=http://rspa.royalsocietypublishing.org/content/295/1442/300.abstract|accessdate=31 March 2013}}</ref> In the case of a marble on top of an inverted bowl, even if the bowl seems perfectly [[Sphere#Hemisphere|hemispherical]], and the marble's [[sphere|spherical]] shape, are both much more complex surfaces when examined under a microscope, and their [[Contact mechanics#History|shapes change]] or [[deformation (mechanics)|deform]] during contact. Any physical surface can be seen to have a rough terrain of multiple peaks, valleys, saddle points, ridges, ravines, and plains.<ref name="NISTIR 89-4088">{{cite book|last=Vorberger|first=T. V.|title=Surface Finish Metrology Tutorial|year=1990|publisher=U.S. Department of Commerce, National Institute of Standards (NIST)|page=5|url=https://www.nist.gov/calibrations/upload/89-4088.pdf}}</ref> There are many points in this surface terrain (and the dynamic system of a similarly rough marble rolling around on this microscopic terrain) that are considered [[Critical point (mathematics)|stationary]] or fixed points, some of which are categorized as attractors.
+
+===Finite number of points===
+
+In a [[Discrete time and continuous time|discrete-time]] system, an attractor can take the form of a finite number of points that are visited in sequence. Each of these points is called a [[periodic point]]. This is illustrated by the [[logistic map]], which depending on its specific parameter value can have an attractor consisting of 2<sup>''n''</sup> points, 3×2<sup>''n''</sup> points, etc., for any value of ''n''.
+
+=== Limit cycle ===
+{{main|Limit cycle}}
+A [[limit cycle]] is a periodic orbit of a continuous dynamical system that is [[isolated point|isolated]].  Examples include the swings of a [[pendulum clock]], and the heartbeat while resting. (The limit cycle of an ideal pendulum is not an example of a limit cycle attractor because its orbits are not isolated: in the phase space of the ideal pendulum, near any point of a periodic orbit there is another point that belongs to a different periodic orbit, so the former orbit is not attracting).
+
+[[File:VanDerPolPhaseSpace.png|center|250px|thumb|<center>[[Van der Pol oscillator|Van der Pol]] [[phase portrait]]: an attracting limit cycle</center>]]
+
+=== Limit torus ===
+There may be more than one frequency in the periodic trajectory of the system through the state of a limit cycle. For example, in physics, one frequency may dictate the rate at which a planet orbits a star while a second frequency describes the oscillations in the distance between the two bodies. If two of these frequencies form an [[irrational number|irrational fraction]] (i.e. they are [[commensurability (mathematics)|incommensurate]]), the trajectory is no longer closed, and the limit cycle becomes a limit [[torus]]. This kind of attractor is called an {{math|''N''<sub>''t''</sub>}}-torus if there are {{math|N<sub>t</sub>}} incommensurate frequencies. For example, here is a 2-torus:
+
+[[File:torus.png|300px]]
+
+A time series corresponding to this attractor is a [[quasiperiodic]] series: A discretely sampled sum of {{math|N<sub>t</sub>}} periodic functions (not necessarily [[sine]] waves) with incommensurate frequencies. Such a time series does not have a strict periodicity, but its [[power spectrum]] still consists only of sharp lines.
+
+=== Strange attractor ===<!-- This section is linked from [[Lorenz attractor]] -->
+[[File:Lorenz attractor yb.svg|thumb|200px|right|A plot of Lorenz's strange attractor for values&nbsp;''ρ''&nbsp;=&nbsp;28,&nbsp;''σ''&nbsp;=&nbsp;10,&nbsp;''β''&nbsp;=&nbsp;8/3]]
+An attractor is called '''strange''' if it has a [[fractal]] structure.<ref name="Boeing2016Systems" /> This is often the case when the dynamics on it are [[chaos theory|chaotic]], but [[strange nonchaotic attractor]]s also exist.  If a strange attractor is chaotic, exhibiting [[sensitive dependence on initial conditions]], then any two arbitrarily close alternative initial points on the attractor, after any of various numbers of iterations, will lead to points that are arbitrarily far apart (subject to the confines of the attractor), and after any of various other numbers of iterations will lead to points that are arbitrarily close together. Thus a dynamic system with a chaotic attractor is locally unstable yet globally stable: once some sequences have entered the attractor, nearby points diverge from one another but never depart from the attractor.<ref>Grebogi, Celso, Edward Ott, and James A. Yorke. "Chaos, Strange Attractors, and Fractal Basin Boundaries in Nonlinear Dynamics." Science 238, no. 4827 (1987): 632–638.</ref>
+
+The term '''strange attractor''' was coined by [[David Ruelle]] and [[Floris Takens]] to describe the attractor resulting from a series of [[bifurcation theory|bifurcations]] of a system describing fluid flow.<ref>{{cite journal |last=Ruelle |first=David |last2=Takens |first2=Floris |date=1971 |title=On the nature of turbulence |url=http://projecteuclid.org/euclid.cmp/1103857186 |journal=Communications in Mathematical Physics |volume=20 |issue=3 |pages=167–192 |doi=10.1007/bf01646553}}</ref> Strange attractors are often [[Differentiable function|differentiable]] in a few directions, but some are [[homeomorphic|like]] a [[Cantor dust]], and therefore not differentiable. Strange attractors may also be found in the presence of noise, where they may be shown to support invariant random probability measures of Sinai–Ruelle–Bowen type.<ref name="Stochastic climate dynamics: Random attractors and time-dependent invariant measures">{{cite journal|author1=Chekroun M. D. |author2=Simonnet E. |author3=Ghil M.  |last-author-amp=yes |
+year = 2011 |
+title = Stochastic climate dynamics: Random attractors and time-dependent invariant measures |
+journal = Physica D |
+volume = 240 |
+issue = 21 |
+pages = 1685–1700 |
+doi = 10.1016/j.physd.2011.06.005}}</ref>
+
+Examples of strange attractors include the [[Double scroll attractor|double-scroll attractor]], [[Hénon map|Hénon attractor]], [[Rössler attractor]], Tamari attractor, and the [[Lorenz attractor]].
+
+==Effect of parameters on the attractor==
+
+[[File:Logistic Map Bifurcation Diagram, Matplotlib.svg|300px|thumb|right|Bifurcation diagram of the [[logistic map]]. The attractor for any value of the parameter ''r'' is shown on the vertical line at that ''r''.]]
+
+A particular functional form of a dynamic equation can have various types of attractor depending on the particular parameter values used in the function. An example is the well-studied [[logistic map]],  <math>x_{t+1}=rx_t(1-x_t),</math> whose basins of attraction for various values of the parameter ''r'' are shown in the diagram. At some values of the parameter the attractor is a single point, at others it is two points that are visited in turn, at others it is 2<sup>''n''</sup> points or ''k''&nbsp;×&nbsp;2<sup>''n''</sup> points that are visited in turn, for any value of ''n'' depending on the value of the parameter ''r'', and at other values of ''r'' an infinitude of points are visited.<ref name="Boeing2016Systems" />
+
+==Basins of attraction==
+
+An attractor's '''basin of attraction''' is the region of the [[phase space]], over which iterations are defined, such that any point (any [[initial condition]]) in that region will eventually be iterated into the attractor.<ref name="Boeing2016Systems" /> For a [[stability (mathematics)|stable]] [[linear system]], every point in the phase space is in the basin of attraction. However, in [[nonlinear system]]s, some points may map directly or [[asymptotic behavior|asymptotically]] to infinity, while other points may lie in a different basin of attraction and map asymptotically into a different attractor; other initial conditions may be in or map directly into a non-attracting point or cycle.<ref>{{cite journal|last1=Strelioff|first1=C.|last2=HUbler|first2=A.|title=Medium-Term Prediction of Chaos|journal=Phys. Rev. Lett.|date=2006|volume=96|doi=10.1103/PhysRevLett.96.044101}}</ref>
+
+===Linear equation or system===
+
+A single-variable (univariate) linear [[difference equation]] of the [[homogeneous equation|homogeneous form]] <math>x_t=ax_{t-1}</math> diverges to infinity if |''a''| > 1 from all initial points except 0; there is no attractor and therefore no basin of attraction. But if |''a''| < 1 all points on the number line map asymptotically (or directly in the case of 0) to 0; 0 is the attractor, and the entire number line is the basin of attraction.
+
+Likewise, a linear [[matrix difference equation]] in a dynamic [[coordinate vector|vector]] ''X'', of the homogeneous form <math>X_t=AX_{t-1}</math> in terms of [[square matrix]] ''A'' will have all elements of the dynamic vector diverge to infinity if the largest [[eigenvalue]] of ''A'' is greater than 1 in absolute value; there is no attractor and no basin of attraction. But if the largest eigenvalue is less than 1 in magnitude, all initial vectors will asymptotically converge to the zero vector, which is the attractor; the entire ''n''-dimensional space of potential initial vectors is the basin of attraction.
+
+Similar features apply to linear [[differential equation]]s. The scalar equation <math> dx/dt =ax</math> causes all initial values of ''x'' except zero to diverge to infinity if ''a'' > 0 but to converge to an attractor at the value 0 if ''a'' < 0, making the entire number line the basin of attraction for 0. And the matrix system <math>dX/dt=AX</math> gives divergence from all initial points except the vector of zeroes if any eigenvalue of the matrix ''A'' is positive; but if all the eigenvalues are negative the vector of zeroes is an attractor whose basin of attraction is the entire phase space.
+
+===Nonlinear equation or system===
+
+Equations or systems that are [[nonlinear system|nonlinear]] can give rise to a richer variety of behavior than can linear systems. One example is [[Newton's method]] of iterating to a root of a nonlinear expression. If the expression has more than one [[real number|real]] root, some starting points for the iterative algorithm will lead to one of the roots asymptotically, and other starting points will lead to another. The basins of attraction for the expression's roots are generally not simple&mdash;it is not simply that the points nearest one root all map there, giving a basin of attraction consisting of nearby points. The basins of attraction can be infinite in number and arbitrarily small. For example,<ref>Dence, Thomas, "Cubics, chaos and Newton's method", ''[[Mathematical Gazette]]'' 81, November 1997, 403–408.</ref> for the function <math>f(x)=x^3-2x^2-11x+12</math>, the following initial conditions are in successive basins of attraction:
+
+[[File:newtroot 1 0 0 0 0 m1.png|thumb|Basins of attraction in the complex plane for using Newton's method to solve ''x''<sup>5</sup>&nbsp;−&nbsp;1&nbsp;=&nbsp;0. Points in like-colored regions map to the same root; darker means more iterations are needed to converge.]]
+
+:2.35287527  converges to 4;
+:2.35284172  converges to −3;
+:2.35283735  converges to 4;
+:2.352836327  converges to −3;
+:2.352836323  converges to 1.
+
+Newton's method can also be applied to [[complex analysis|complex functions]] to find their roots. Each root has a basin of attraction in the [[complex plane]]; these basins can be mapped as in the image shown. As can be seen, the combined basin of attraction for a particular root can have many disconnected regions. For many complex functions, the boundaries of the basins of attraction are [[fractal]]s.
+
+== Partial differential equations ==
+[[Parabolic partial differential equation]]s may have finite-dimensional attractors.  The diffusive part of the equation damps higher frequencies and in some cases leads to a global attractor. The ''Ginzburg–Landau'', the ''Kuramoto–Sivashinsky'', and the two-dimensional, forced [[Navier–Stokes equation]]s are all known to have global attractors of finite dimension.
+
+For the three-dimensional, incompressible Navier–Stokes equation with periodic [[boundary condition]]s, if it has a global attractor, then this attractor will be of finite dimensions.
+
+== Numerical localization (visualization) of attractors: self-excited and hidden attractors ==
+[[File:Chua-chaotic-hidden-attractor.jpg|thumb|
+Chaotic [[hidden attractor]] (green domain) in [[Chua's circuit|Chua's system]].
+Trajectories with initial data in a neighborhood of two saddle points (blue) tend (red arrow) to infinity or tend (black arrow) to stable zero equilibrium point (orange).
+]]
+
+From a computational point of view, attractors can be naturally regarded as ''self-excited attractors'' or
+''[[hidden attractor]]s''.<ref name="2011-PLA-Hidden-Chua-attractor">{{cite journal |author1=Leonov G.A. |author2=Vagaitsev V.I. |author3=Kuznetsov N.V. |
+year = 2011 |
+title = Localization of hidden Chua's attractors |
+journal = Physics Letters A |
+volume = 375 |
+issue = 23 |
+pages = 2230–2233 |
+url = http://www.math.spbu.ru/user/nk/PDF/2011-PhysLetA-Hidden-Attractor-Chua.pdf |
+doi = 10.1016/j.physleta.2011.04.037}}
+</ref><ref>{{cite journal
+ |author1=Bragin V.O. |author2=Vagaitsev V.I. |author3=Kuznetsov N.V. |author4=Leonov G.A. | year = 2011
+ | title = Algorithms for Finding Hidden Oscillations in Nonlinear Systems. The Aizerman and Kalman Conjectures and Chua's Circuits
+ | journal = Journal of Computer and Systems Sciences International
+ | volume = 50
+ | number = 5
+ | pages = 511–543
+ | url = http://www.math.spbu.ru/user/nk/PDF/2011-TiSU-Hidden-oscillations-attractors-Aizerman-Kalman-conjectures.pdf
+ | doi = 10.1134/S106423071104006X}}
+</ref><ref name="2012-Physica-D-Hidden-attractor-Chua-circuit-smooth">{{cite journal |author1=Leonov G.A. |author2=Vagaitsev V.I. |author3=Kuznetsov N.V. |
+year = 2012 |
+title = Hidden attractor in smooth Chua systems |
+journal = Physica D |
+volume = 241 |
+issue = 18 |
+pages = 1482–1486 |
+url = http://www.math.spbu.ru/user/nk/PDF/2012-Physica-D-Hidden-attractor-Chua-circuit-smooth.pdf |
+doi = 10.1016/j.physd.2012.05.016}}
+</ref><ref name="2013-IJBC-Hidden-attractors">{{cite journal |author1=Leonov G.A. |author2=Kuznetsov N.V. |
+year = 2013 |
+title = Hidden attractors in dynamical systems. From hidden oscillations in Hilbert–Kolmogorov, Aizerman, and Kalman problems to hidden chaotic attractor in Chua circuits |
+journal = International Journal of Bifurcation and Chaos |
+volume = 23 |
+issue = 1 |
+pages = art. no. 1330002|
+url = http://www.worldscientific.com/doi/pdf/10.1142/S0218127413300024|
+doi = 10.1142/S0218127413300024}}
+</ref> Self-excited attractors can be localized numerically by standard computational procedures, in which after a transient sequence, a trajectory starting from a point on an unstable manifold in a small neighborhood of an unstable equilibrium reaches an attractor, such as the classical attractors in the [[Van der Pol oscillator|Van der Pol]], [[Belousov–Zhabotinsky reaction|Belousov–Zhabotinsky]], [[Lorenz attractor|Lorenz]], and many other dynamical systems.  In contrast, the basin of attraction of a [[hidden attractor]] does not contain neighborhoods of equilibria, so the [[hidden attractor]] cannot be localized by standard computational procedures.
+
+== See also ==
+{{commons|Attractor}}
+* [[Cycle detection]]
+* [[Hyperbolic set]]
+* [[Stable manifold]]
+* [[Steady state]]
+* [[Wada basin]]
+* [[Hidden oscillation]]
+* [[Rossler attractor]]
+* [[Stable distribution]]
+
+== References ==
+{{Reflist}}
+
+== Further reading ==
+* {{Scholarpedia|title=Attractor|curator=[[John Milnor]]|urlname=Attractor}}
+* {{cite journal | author=David Ruelle | author-link=David Ruelle |author2=Floris Takens |author2-link=Floris Takens | title= On the nature of turbulence | journal=Communications in Mathematical Physics | year=1971 | volume=20 | pages=167–192 | doi= 10.1007/BF01646553 | issue=3}}
+* {{cite journal | author=D. Ruelle| title= Small random perturbations of dynamical systems and the definition of attractors | journal=Communications in Mathematical Physics | year=1981 | volume=82 | pages=137–151| doi= 10.1007/BF01206949}}
+* {{cite journal | author=John Milnor | author-link=John Milnor | title= On the concept of attractor | journal=Communications in Mathematical Physics | year=1985 | volume=99 | pages=177–195| doi= 10.1007/BF01212280 | issue=2}}
+* {{cite book | author=David Ruelle | title=Elements of Differentiable Dynamics and Bifurcation Theory | publisher=Academic Press | year=1989 | isbn=0-12-601710-7}}
+* {{cite journal
+  | last = Ruelle
+  | first = David
+  | authorlink = David Ruelle
+  | title = What is...a Strange Attractor?
+  | journal = [[Notices of the American Mathematical Society]]
+  |date=August 2006
+  | volume = 53
+  | issue = 7
+  | pages = 764–765
+  | url = http://www.ams.org/notices/200607/what-is-ruelle.pdf
+  | format = [[PDF]]
+  | accessdate = 16 January 2008 }}
+* {{cite journal | doi=10.1016/0167-2789(84)90282-3 | author1=[[Celso Grebogi]] | author2=[[Edward Ott]] | author3=Pelikan | author4=Yorke | title = Strange attractors that are not chaotic | journal = Physica D | year =  1984 | volume = 13 | pages = 261–268}}
+* {{cite journal | doi=10.1016/j.physd.2011.06.005 | author=Chekroun, M. D. |author2=E. Simonnet |author3=M. Ghil | title=Stochastic climate dynamics: Random attractors and time-dependent invariant measures | journal = Physica D | year =  2011 | volume = 240 | issue = 21 | pages = 1685–1700 }}
+* [[Edward Lorenz|Edward N. Lorenz]] (1996) ''The Essence of Chaos'' {{ISBN|0-295-97514-8}}
+* [[James Gleick]] (1988) ''Chaos: Making a New Science'' {{ISBN|0-14-009250-1}}
+
+== External links ==
+* [http://www.scholarpedia.org/article/Basin_of_attraction Basin of attraction on Scholarpedia]
+* [http://slide.nethium.pl/album_en.net?gNwADMfFmY A gallery of trigonometric strange attractors]
+* [http://www.chuacircuits.com/sim.php Double scroll attractor] Chua's circuit simulation
+* [https://ccrma.stanford.edu/~stilti/images/chaotic_attractors/poly.html A gallery of polynomial strange attractors]
+* [http://www.chaoscope.org Chaoscope, a 3D Strange Attractor rendering freeware]
+* [http://ronrecord.com/PhD/intro.html Research abstract] and [ftp://ftp2.sco.com/pub/skunkware/src/x11/misc/mathrec-1.1c.tar.gz software laboratory] <!--[needs shorter summary] for exploring new algorithms to determining the attractor basin boundaries of iterated endomorphisms.-->
+* [http://wokos.nethium.pl/attractors_en.net Online strange attractors generator]
+* [https://web.archive.org/web/20131112192849/http://1618.pl/home/math_viz/attractor/attractor.html Interactive trigonometric attractors generator]
+* [http://www.bentamari.com/attractors Economic attractor]
+
+[[Category:Limit sets]]

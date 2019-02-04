@@ -1,0 +1,594 @@
+{{Redirect|Cluster File Systems|the generic term |Clustered file system|the programming language|Lustre (programming language)}}
+{{Infobox software
+| name                   = Lustre
+| title                  =
+| logo                   = Lustre file system logo.gif
+| logo caption           =
+| logo_size              = 200px
+| logo_alt               =
+| screenshot             = <!-- Image name is enough -->
+| caption                =
+| screenshot_size        =
+| screenshot_alt         =
+| collapsible            =
+| author                 =
+| released               = {{Start date and age|2003|12|16}}<ref name=1.0rls>{{cite web|url = https://lwn.net/Articles/63536/|title = Lustre 1.0 released|date = December 17, 2003|accessdate = March 15, 2015|website = Linux Weekly News|publisher = LWN.net|last = Corbet|first = Jonathon}}</ref>
+| discontinued           =
+| latest release version = 
+2.11.0 (latest major release), <ref name=2.11rls/>
+2.10.6 (last maintenance release), <ref name=2.10.6rls>{{cite web|url = http://lustre.org/lustre-2-10-6-released/ | title = Lustre 2.10.6 released | date = December 12, 2018 | accessdate = December 12, 2018 | website = Lustre.org}}</ref>
+| latest release date    = {{Start date and age|2018|12|12}}
+| latest preview version = 2.11.50
+| latest preview date    = {{Start date and age|2018|04|03}}
+| repo                   = {{URL|1=https://git.whamcloud.com/?p=fs/lustre-release.git}}
+| status                 =
+| programming language   = [[C (programming language)|C]]
+| operating system       = [[Linux kernel]]
+| platform               =
+| size                   =
+| language               =
+| language count         = <!-- DO NOT include this parameter unless you know what it does -->
+| language footnote      =
+| genre                  = [[Distributed file system]]
+| license                = [[GNU General Public License|GPL v2]]
+| website                = {{URL|lustre.org}}
+}}
+{{Infobox company
+ | name = Cluster File Systems, Inc.
+ | logo = File:Cluster File Systems Inc. logo.gif
+ | type = [[Privately held company|Private]]
+ | foundation = 2001
+ | founder = [[Peter J. Braam]]
+ | location_city = [[Boulder, Colorado]]
+ | location_country = 
+ | key_people = [[Phil Schwan]], [[Eric Barton (HPC)]], [[Andreas Dilger]]
+ | products = Lustre file system
+}}
+{{ infobox file system
+| name                    = Lustre
+| developer               =
+| full_name               =
+| introduction_date       = December, 2003
+| introduction_os         = Linux
+| partition_id            =
+| directory_struct        = Hash, Interleaved Hash with DNE in 2.7+ 
+| file_struct             =
+| file_types              =
+| bad_blocks_struct       =
+| bootable                = No
+| min_volume_size         = 32 MB
+| max_volume_size         = 100 PB (production), over 16 EB (theoretical)
+| max_file_size           = 3.2 PB (ext4), 16 EB (ZFS)
+| file_size_granularity   = 4 KB
+| max_files_no            = Per Metadata Target (MDT): 4 billion files (ldiskfs backend), 256 trillion files (ZFS backend),<ref>{{cite web
+|url=https://build.whamcloud.com/job/lustre-manual/lastSuccessfulBuild/artifact/lustre_manual.pdf
+|title=Lustre* Software Release 2.x Operations Manual
+|date= August 4, 2002 |author= Oracle Corporation / Intel Corporation |work= Instruction Manual
+|publisher=[[Intel]] |accessdate= May 19, 2015
+}}</ref> up to 128 MDTs per filesystem
+| max_filename_size       = 255 bytes
+| max_dirname_size        = 255 bytes
+| max_directory_depth     = 4096 bytes
+| filename_character_set  = All bytes except NUL ('\0') and '/' and the special file names "." and ".."
+| dates_recorded          = modification (mtime), attribute modification (ctime), access (atime), delete (dtime), create (crtime)
+| date_range              = 2^34 bits (ext4), 2^64 bits (ZFS)
+| date_resolution         = 1 s
+| forks_streams           = No
+| attributes              = 32bitapi, acl, checksum, flock, lazystatfs, localflock, lruresize, noacl, nochecksum, noflock, nolazystatfs, nolruresize, nouser_fid2path, nouser_xattr, user_fid2path, user_xattr
+| file_system_permissions = [[POSIX]], [[Access Control List|POSIX.1e ACL]], [[Security Enhanced Linux|SELinux]]
+| compression             = Yes (ZFS only)
+| encryption              = Yes (network only)
+| data_deduplication      = Yes (ZFS only)
+| copy_on_write           = Yes (ZFS only)
+| OS                      = [[Linux kernel]]
+}}
+
+'''Lustre''' is a type of parallel [[distributed file system]], generally used for large-scale [[cluster computing]]. The name Lustre is a [[portmanteau word]] derived from [[Linux]] and [[computer cluster|cluster]].<ref>{{cite web
+| url=http://www.lustre.org/
+| title=Lustre Home
+|archiveurl = https://web.archive.org/web/20010331103824/http://www.lustre.org/
+|archivedate = March 31, 2001 |accessdate= September 23, 2013
+}}</ref> Lustre file system software is available under the [[GNU General Public License]] (version 2 only) and provides high performance file systems for computer clusters ranging in size from small workgroup clusters to large-scale, multi-site clusters.
+
+Because Lustre file systems have high performance capabilities and open licensing, it is often used in [[supercomputer]]s. Since June 2005, it has consistently been used by at least half of the top ten, and more than 60 of the top 100 fastest supercomputers in the world,<ref>{{cite web
+|url=http://opensfs.org/press-releases/lustre-file-system-version-2-4-released/
+| title=Lustre File System, Version 2.4 Released
+| publisher=Open Scalable File Systems
+| accessdate = 2014-10-18}}</ref><ref>{{cite web
+|url=http://www.cnet.com/news/open-source-lustre-gets-supercomputing-nod/
+| title=Open-source Lustre gets supercomputing nod
+| accessdate = 2014-10-18}}</ref><ref>{{cite web
+|url=http://www.hpcwire.com/2013/02/21/xyratex_captures_oracle_s_lustre/
+| title=Xyratex Captures Oracle’s Lustre
+| publisher=HPCWire
+| accessdate = 2014-10-18}}</ref>
+including the world's No. 2 and No. 3 ranked [[TOP500]] supercomputers in 2014, [[Titan (supercomputer)|Titan]] and [[IBM Sequoia|Sequoia]].<ref>{{cite web
+|url=https://www.olcf.ornl.gov/kb_articles/titan-system-overview/
+| title=Titan System Overview
+| publisher=Oak Ridge National Laboratory
+| accessdate = 2013-09-19}}</ref><ref name="LUG11_ZFS_on_Linux_for_Lustre">{{cite web
+ |url         = http://zfsonlinux.org/docs/LUG11_ZFS_on_Linux_for_Lustre.pdf
+ |title       = ZFS on Linux for Lustre
+ |author      = Brian Behlendorf
+ |publisher   = Lawrence Livermore National Laboratory
+ |accessdate  = 2014-10-18
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20141031152502/http://zfsonlinux.org/docs/LUG11_ZFS_on_Linux_for_Lustre.pdf
+ |archivedate = 2014-10-31
+ |df          = 
+}}</ref>
+
+Lustre file systems are scalable and can be part of multiple computer clusters with tens of thousands of [[client (computing)|client]] nodes, tens of petabytes (PB) of storage on hundreds of servers, and more than a terabyte per second (TB/s) of aggregate I/O [[throughput]].<ref>{{cite web
+  | url = https://www.olcf.ornl.gov/kb_articles/spider-the-center-wide-lustre-file-system/
+  | title = Spider Center-Wide File System
+  | accessdate = 2012-02-02
+  | publisher = Oak Ridge Leadership Computing Facility
+}}</ref><ref>{{cite web
+  | url = http://www.opensfs.org/wp-content/uploads/2011/11/Rock-Hard1.pdf
+  | title = Rock-Hard Lustre: Trends in Scalability and Quality
+  | accessdate = 2012-02-02
+  | publisher = Nathan Rutman, Xyratex
+}}</ref> This makes Lustre file systems a popular choice for businesses with large data centers, including those in industries such as [[meteorology]], [[simulation]], oil and gas, [[life science]], [[rich media]], and finance.<ref>{{YouTube |id=2p11g82SY1E |title= Lustre File System presentation, November 2007 }} By Peter Braam, November 10, 2007</ref>
+
+== History ==
+The Lustre file system architecture was started as a research project in 1999 by Peter J. Braam, who was on the staff of [[Carnegie Mellon University]] (CMU) at the time. Braam went on to found his own company Cluster File Systems in 2001,<ref>{{Cite web
+ |title=Company 
+ |work=old web site 
+ |publisher=Cluster File Systems, Inc. 
+ |url=http://www.clusterfs.com/company.html 
+ |archivedate=August 12, 2007 
+ |archiveurl=https://web.archive.org/web/20070812020737/http://www.clusterfs.com/company.html 
+ |deadurl=bot: unknown 
+ |df= 
+}}</ref> starting from work on the [[InterMezzo (file system)|InterMezzo file system]] in the [[Coda (file system)|Coda project]] at CMU.<ref>{{cite web
+|url=https://asc.llnl.gov/computing_resources/bluegenel/talks/braam.pdf
+|title=Lustre, The Inter-Galactic File System
+|date= August 4, 2002 |author= Peter J. Braam |work= Presentation slides
+|publisher=[[Lawrence Livermore National Laboratory]] |accessdate= September 23, 2013
+}}</ref>
+Lustre was developed under the [[Accelerated Strategic Computing Initiative]] Path Forward project funded by the [[United States Department of Energy]], which included [[Hewlett-Packard]] and [[Intel]].<ref>{{cite web |title= The Ultra-Scalable HPTC Lustre Filesystem |author= R. Kent Koeninger |date= June 2003 |work= Slides for presentation at Cluster World 2003 |url= http://www.linuxclustersinstitute.org/conferences/archive/2003/PDF/C04-Koeninger_K.pdf |accessdate= September 23, 2013 }}</ref>
+In September 2007, [[Sun Microsystems]] acquired the assets of Cluster File Systems Inc. including its intellectual property.<ref>{{cite web
+| url= http://www.linux-magazine.com/online/news/sun_assimilates_lustre_filesystem?category=13402
+| title= Sun Assimilates Lustre Filesystem
+| date= September 13, 2007 |author= Britta Wülfing
+| publisher=Linux Magazine |accessdate= September 23, 2013
+}}</ref><ref>{{cite news |title= Sun Microsystems Expands High Performance Computing Portfolio with Definitive Agreement to Acquire Assets of Cluster File Systems, Including the Lustre File System |work= Press release |publisher= Sun Microsystems |date= September 12, 2007 |url= http://www.sun.com/aboutsun/pr/2007-09/sunflash.20070912.2.xml |deadurl=yes |archiveurl= https://web.archive.org/web/20071002091821/http://www.sun.com/aboutsun/pr/2007-09/sunflash.20070912.2.xml |archivedate= October 2, 2007 |accessdate= September 23, 2013 }}</ref>
+Sun included Lustre with its [[high-performance computing]] hardware offerings, with the intent to bring Lustre technologies to Sun's [[ZFS]] [[file system]] and the [[Solaris (operating system)|Solaris]] [[operating system]]. In November 2008, Braam left Sun Microsystems, and Eric Barton and Andreas Dilger took control of the project.
+In 2010 [[Oracle Corporation]], by way of its acquisition of Sun, began to manage and release Lustre.
+
+In December 2010, Oracle announced they would cease Lustre 2.x development and place Lustre 1.8 into maintenance-only support creating uncertainty around the future development of the file system.<ref>{{cite web
+| url=http://insidehpc.com/2011/01/10/inside-track-oracle-has-kicked-lustre-to-the-curb/
+| title=Oracle has Kicked Lustre to the Curb
+| date=2011-01-10
+| publisher=Inside HPC
+}}</ref>
+Following this announcement, several new organizations sprang up to provide support and development in an open community development model, including Whamcloud,<ref>{{cite news |url= http://insidehpc.com/2010/08/20/whamcloud-aims-to-make-sure-lustre-has-a-future-in-hpc/
+| title=Whamcloud aims to make sure Lustre has a future in HPC
+| date= August 20, 2010  |author= J. Leidel
+|work= Inside HPC |accessdate= September 23, 2013 }}</ref>
+[[OpenSFS|Open Scalable File Systems, Inc. (OpenSFS)]],  EUROPEAN Open File Systems (EOFS) and others. By the end of 2010, most Lustre developers had left Oracle.  Braam and several associates joined the hardware-oriented [[Xyratex]] when it acquired the assets of ClusterStor,<ref name="Xyr">{{cite news |title= Xyratex Advances Lustre® Initiative, Assumes Ownership of Related Assets |work= Press release |date= February 19, 2013 |publisher= Xyratex |url= http://www.xyratex.com/news/press-releases/xyratex-advances-lustre%C2%AE-initiative-assumes-ownership-related-assets |accessdate= September 18, 2013 }}</ref><ref>{{cite news |title= Bojanic & Braam Getting Lustre Band Back Together at Xyratex |date= November 9, 2010 |author= Rich Brueckner |work= Inside HPC |url= http://insidehpc.com/2010/11/09/bojanic-braam-getting-lustre-band-back-together-at-xyratex/ |accessdate= September 23, 2013 }}</ref>
+while Barton, Dilger, and others formed software startup Whamcloud, where they continued to work on Lustre.<ref>{{cite web
+| url = http://insidehpc.com/2011/01/04/whamcloud-staffs-up-for-brighter-lustre/
+| title = Whamcloud Staffs up for Brighter Lustre
+|work= Inside HPC |author= Rich Brueckner  |date= January 4, 2011 |accessdate= September 18, 2013
+}}</ref>
+
+In August 2011, [[OpenSFS]] awarded a contract for Lustre feature development to Whamcloud.<ref>{{cite news
+| url = http://www.hpcwire.com/hpcwire/2011-08-16/whamcloud_signs_multi-year_lustre_development_contract_with_opensfs.html
+| title = Whamcloud Signs Multi-Year Lustre Development Contract With OpenSFS
+| date = August 16, 2011 |work= Press release
+| publisher = HPC Wire |accessdate= September 23, 2013
+}}</ref> This contract covered the completion of features, including improved Single Server Metadata Performance scaling, which allows Lustre to better take advantage of many-core metadata server; online Lustre distributed filesystem checking (LFSCK), which allows verification of the distributed filesystem state between data and metadata servers while the filesystem is mounted and in use; and Distributed Namespace (DNE), formerly Clustered Metadata (CMD), which allows the Lustre metadata to be distributed across multiple servers. Development also continued on ZFS-based back-end object storage at [[Lawrence Livermore National Laboratory]].<ref name="LUG11_ZFS_on_Linux_for_Lustre" /> These features were in the Lustre 2.2 through 2.4 community release roadmap.<ref>{{cite web
+| url = http://www.opensfs.org/wp-content/uploads/2011/11/SC11-OpenSFS-Update.pdf
+| title = OpenSFS Update |author= Galen Shipman
+| date = November 18, 2011 |work= Slides for Supercomputing 2011 presentation
+| publisher = Open Scalable File Systems |accessdate= September 23, 2013
+}}</ref>
+In November 2011, a separate contract was awarded to Whamcloud for the maintenance of the Lustre 2.x source code to ensure that the Lustre code would receive sufficient testing and bug fixing while new features were being developed.<ref>{{cite web
+| url = https://www.reuters.com/article/2011/11/15/idUS215861+15-Nov-2011+MW20111115
+| title = OpenSFS and Whamcloud Sign Lustre Community Tree Development Agreement
+| date = November 15, 2011 |author= Whamcloud
+|work= Press release  |accessdate= September 23, 2013
+}}</ref>
+
+In July 2012 Whamcloud was acquired by [[Intel]],<ref>{{cite web
+| url = http://www.pcworld.com/article/259328/intel_purchases_lustre_purveyor_whamcloud.html
+| title = Intel Purchases Lustre Purveyor Whamcloud
+| date = 2012-07-16
+| publisher = PC World
+| author = Joab Jackson
+}}</ref><ref>{{cite web
+| url = https://www.theregister.co.uk/2012/07/16/intel_buys_whamcloud/
+| title = Intel gobbles Lustre file system expert Whamcloud
+| date = 2012-07-16
+| publisher = The Register
+| author = Timothy Prickett Morgan
+}}</ref> after Whamcloud won the FastForward DOE contract to extend Lustre for [[exascale computing]] systems in the 2018 timeframe.<ref>{{cite web
+| url = https://www.theregister.co.uk/2012/07/11/doe_fastforward_amd_whamcloud/
+| title = DOE doles out cash to AMD, Whamcloud for exascale research
+| date = 2012-07-11
+| publisher = The Register
+| author = Timothy Prickett Morgan
+}}</ref> [[OpenSFS]] then transitioned contracts for Lustre development to Intel.
+
+In February 2013, Xyratex Ltd., announced it acquired the original Lustre trademark, logo, website and associated intellectual property from Oracle.<ref name="Xyr" /> In June 2013, Intel began expanding Lustre usage beyond traditional HPC, such as within [[Hadoop]].<ref>{{cite news |title= Intel Carves Mainstream Highway for Lustre |author= Nicole Hemsoth |date= June 12, 2013 |work= HPC Wire |url= http://www.hpcwire.com/2013/06/12/intel_builds_mainstream_highways_for_lustre/ |accessdate= September 23, 2013 }}</ref> For 2013 as a whole, [[OpenSFS]] announced request for proposals (RFP) to cover Lustre feature development, parallel file system tools, addressing Lustre technical debt, and parallel file system incubators.<ref>{{cite web|last=Brueckner|first=Rich|title=With New RFP, OpenSFS to Invest in Critical Open Source Technologies for HPC|url=http://insidehpc.com/2013/02/21/with-new-rfp-opensfs-to-invest-in-critical-open-source-technologies-for-hpc/|publisher=insideHPC|accessdate=1 October 2013}}</ref> [[OpenSFS]] also established the Lustre Community Portal, a technical site that provides a collection of information and documentation in one area for reference and guidance to support the Lustre open source community. On April 8, 2014, Ken Claffey announced that Xyratex/Seagate was donating the [https://lustre.org] domain back to the user community,<ref>{{cite web|title=Seagate Donates Lustre.org Back to the User Community|url=http://insidehpc.com/2014/04/seagate-donates-lustre-org-user-community/|accessdate=9 September 2014}}</ref> and this was completed in March, 2015.
+
+In June 2018, the Lustre team and assets were acquired from Intel by [[DataDirect Networks|DDN]]. DDN organized the new acquisition as an independent division, reviving the Whamcloud name for the new division.<ref>{{cite web
+|url=https://www.nextplatform.com/2018/06/27/ddn-breathes-new-life-into-lustre-file-system/
+|title=DDN Breathes New Life Into Lustre File System
+|date=June 27, 2018
+|author=Daniel Robinson
+}}</ref>
+
+== Release history ==
+A Lustre file system was first installed for production use in March 2003 on the MCR Linux Cluster at [[Lawrence Livermore National Laboratory]],<ref>{{cite web
+ |url         = http://www.taborcommunications.com/dsstar/03/1125/107031.html
+ |title       = Lustre Helps Power Third Fastest Supercomputer
+ |publisher   = DSStar
+ |deadurl     = yes
+ |archiveurl  = https://archive.is/20130203232617/http://www.taborcommunications.com/dsstar/03/1125/107031.html
+ |archivedate = 2013-02-03
+ |df          = 
+}}</ref> one of the largest supercomputers at the time.<ref>{{cite web
+| url=http://www.top500.org/system/6085
+| title=MCR Linux Cluster Xeon 2.4 GHz – Quadrics
+| publisher=Top500.Org
+}}</ref>
+
+Lustre 1.0.0 was released in December 2003,<ref name=1.0rls /> and provided basic Lustre filesystem functionality, including server failover and recovery.
+
+Lustre 1.2.0, released in March 2004, worked on [[Linux kernel]] 2.6, and had a "size glimpse" feature to avoid lock revocation on files undergoing write, and client side data write-back cache accounting (grant).
+
+Lustre 1.4.0, released in November 2004, provided protocol compatibility between versions, could use [[InfiniBand]] networks, and could exploit extents/mballoc in the [[ext4|ldiskfs]] on-disk filesystem.
+
+Lustre 1.6.0, released in April 2007, allowed mount configuration (“mountconf”) allowing servers to be configured with "mkfs" and "mount", allowed dynamic addition of ''object storage targets'' (OSTs), enabled Lustre distributed lock manager (LDLM) scalability on [[symmetric multiprocessing]] (SMP) servers, and provided free space management for object allocations.
+
+Lustre 1.8.0, released in May 2009, provided OSS Read Cache, improved recovery in the face of multiple failures, added basic heterogeneous storage management via OST Pools, adaptive network timeouts, and version-based recovery. It was a transition release, being interoperable with both Lustre 1.6 and Lustre 2.0.<ref>{{cite web
+| url=http://www.hpcuserforum.com/presentations/Tucson/SUN%20%20Lustre_Update-080615.pdf
+| title = Lustre Roadmap and Future Plans |date= June 15, 2008 |work= Presentation to Sun HPC Consortium
+| accessdate = September 23, 2013 |author= Peter Bojanic
+| publisher = Sun Microsystems
+}}</ref>
+
+Lustre 2.0, released in August 2010, was based on significant internally restructured code to prepare for major architectural advancements.  Lustre 2.x ''clients'' cannot interoperate with 1.8 or earlier ''servers''. However, Lustre 1.8.6 and later clients can interoperate with Lustre 2.0 and later servers. The Metadata Target (MDT) and OST on-disk format from 1.8 can be upgraded to 2.0 and later without the need to reformat the filesystem.
+
+Lustre 2.1, released in September 2011, was a community-wide initiative in response to Oracle suspending development on Lustre 2.x releases.<ref>{{cite web
+| url = http://www.whamcloud.com/news-and-events/opensfs-announces-collaborative-effort-to-support-lustre-2-1-community-distribution/ |deadurl= yes
+ |archiveurl= https://web.archive.org/web/20110523050307/http://www.whamcloud.com/news-and-events/opensfs-announces-collaborative-effort-to-support-lustre-2-1-community-distribution/
+ |archivedate= May 23, 2011 |date= February 8, 2011
+| title = OpenSFS Announces Collaborative Effort to Support Lustre 2.1 Community Distribution
+| accessdate = December 13, 2016
+| publisher = Open Scalable File Systems }}</ref> It added the ability to run servers on Red Hat Linux 6 and increased the maximum ext4-based OST size from 24&nbsp;TB to 128&nbsp;TB,<ref>{{cite web
+| url = http://www.marketwire.com/press-release/lustre-21-released-1567596.htm
+| title = Lustre 2.1 Released
+| accessdate = 2012-02-02
+}}</ref> as well as a number of performance and stability improvements. Lustre 2.1 servers remained inter-operable with 1.8.6 and later clients.
+
+Lustre 2.2, released in March 2012, focused on providing metadata performance improvements and new features.<ref>{{cite web
+| url = https://finance.yahoo.com/news/lustre-2-2-released-165800113.html
+| title = Lustre 2.2 Released
+| accessdate = 2012-05-08
+| publisher = Yahoo! Finance}}</ref>  It added parallel directory operations allowing multiple clients to traverse and modify a single large directory concurrently, faster recovery from server failures, increased stripe counts for a single file (across up to 2000 OSTs), and improved single-client directory traversal performance.
+
+Lustre 2.3, released in October 2012, continued to improve the metadata server code to remove internal locking bottlenecks on nodes with many CPU cores (over 16).  The object store added a preliminary ability to use [[ZFS]] as the backing file system.  The Lustre File System ChecK (LFSCK) feature can verify and repair the MDS Object Index (OI) while the file system is in use, after a file-level backup/restore or in case of MDS corruption.  The server-side IO statistics were enhanced to allow integration with batch job schedulers such as [[SLURM]] to track per-job statistics.  Client-side software was updated to work with Linux kernels up to version 3.0.
+
+Lustre 2.4, released in May 2013, added a considerable number of major features, many funded directly through [[OpenSFS]].  Distributed Namespace (DNE) allows horizontal metadata capacity and performance scaling for 2.4 clients, by allowing subdirectory trees of a single namespace to be located on separate MDTs.  [[ZFS]] can now be used as the backing filesystem for both MDT and OST storage.  The LFSCK feature added the ability to scan and verify the internal consistency of the MDT FID and LinkEA attributes.  The Network Request Scheduler<ref name=nrs1>{{cite web
+|url = http://wiki.lustre.org/images/2/22/A_Novel_Network_Request_Scheduler_for_a_Large_Scale_Storage_System.pdf
+|title = A Novel Network Request Scheduler for a Large Scale Storage System
+|date = June 2009
+|website = Lustre Wiki
+|publisher = [[OpenSFS]]}}</ref>
+<ref name=nrs2>{{cite web
+|url = https://www.researchgate.net/publication/220232795_A_Novel_network_request_scheduler_for_a_large_scale_storage_system
+|title = A Novel Network Request Scheduler for a Large Scale Storage System
+|date = June 2009
+|website = Lustre Wiki
+|publisher = [[OpenSFS]]}}</ref>
+(NRS) adds policies to optimize client request processing for disk ordering or fairness.  Clients can optionally send bulk RPCs up to 4&nbsp;MB in size.  Client-side software was updated to work with Linux kernels up to version 3.6, and is still interoperable with 1.8 clients.
+
+Lustre 2.5, released in October 2013, added the highly anticipated feature, [[Hierarchical Storage Management]] (HSM). A core requirement in enterprise environments, HSM allows customers to easily implement tiered storage solutions in their operational environment. This release is the current OpenSFS-designated Maintenance Release branch of Lustre.<ref>{{cite web
+|last=Prickett Morgan
+
+|first=Timothy
+|title=OpenSFS Announces Availability of Lustre 2.5
+|url=http://www.enterprisetech.com/2013/11/05/opensfs-announces-availability-lustre-2-5/
+|publisher=EnterpriseTech}}</ref><ref>{{cite web
+|last=Brueckner
+|first=Rich
+|title=Video: New Lustre 2.5 Release Offers HSM Capabilities
+|url=http://inside-bigdata.com/2013/11/05/video-new-lustre-2-5-release-offers-hsm-capabilities/
+|publisher=Inside Big Data
+|accessdate=11 December 2013}}</ref><ref>{{cite web
+|last=Hemsoth
+|first=Nicole
+|title=Lustre Gets Business Class Upgrade with HSM
+|url=http://archive.hpcwire.com/hpcwire/2013-11-06/lustre_scores_business_class_upgrade_with_hsm.html
+|publisher=HPCwire
+|accessdate=11 December 2013}}</ref><ref>{{cite web
+|title=Lustre 2.5
+|url=http://www.scientific-computing.com/products/product_details.php?product_id=1727
+|publisher=Scientific Computing World
+|accessdate=11 December 2013}}</ref> The most recent maintenance version is 2.5.3 and was released in September 2014.<ref name=2.5.3rls>{{cite web|url = https://lists.01.org/pipermail/hpdd-discuss/2014-September/001211.html|title = Lustre 2.5.3 released|date = September 9, 2014|accessdate = October 21, 2014|website = HPDD-discuss mailing list archive|publisher = |last = Jones |first = Peter}}
+{{cite web|url = http://wiki.lustre.org/Retired_Release_Terminology | title = Retired Release Terminology | date = Dec 7, 2015 | accessdate = January 18, 2016 | website = Lustre Wiki|publisher = |last = Morrone|first = Chris}}</ref>
+
+Lustre 2.6, released in July 2014,<ref name=2.6rls>{{cite web|url = https://lists.01.org/pipermail/hpdd-discuss/2014-July/001153.html|title = Lustre 2.6.0 released|date = July 30, 2014|accessdate = October 21, 2014|website = HPDD-discuss mailing list archive|publisher = |last = |first = }}</ref> was a more modest release feature wise, adding LFSCK functionality to do local consistency checks on the OST as well as consistency checks between MDT and OST objects.  The NRS Token Bucket Filter<ref>{{cite web
+|url=http://cdn.opensfs.org/wp-content/uploads/2014/10/7-DDN_LiXi_lustre_QoS.pdf
+|title=Lustre QoS Based on NRS Policy of Token Bucket Filter
+|first=Shuichi
+|last=Ihara
+|date=2014-10-14
+}}</ref>
+(TBF) policy was added. Single-client IO performance was improved over the previous releases.<ref>{{cite web
+|url=http://opensfs.org/wp-content/uploads/2014/04/D1_S6_LustreClientIOPerformanceImprovements.pdf
+|title=Demonstrating the Improvement in the Performance of a Single Lustre Client from Version 1.8 to Version 2.6
+|first=Andrew
+|last=Uselton
+|accessdate=2014-10-18}}</ref> This release also added a preview of DNE striped directories, allowing single large directories to be stored on multiple MDTs to improve performance and scalability.
+
+Lustre 2.7, released in March 2015,<ref name=2.7rls>{{cite web|url = https://lists.01.org/pipermail/hpdd-discuss/2015-March/001829.html|title = Lustre 2.7.0 released|date = March 13, 2015|accessdate = March 15, 2015|website = HPDD-discuss mailing list archive|publisher = |last = Jones|first = Peter}}</ref> added LFSCK functionality to verify DNE consistency of remote and striped directories between multiple MDTs.  Dynamic LNet Config adds the ability to configure and modify LNet network interfaces, routes, and routers at runtime.  A new evaluation feature was added for UID/GID mapping for clients with different administrative domains, along with improvements to the DNE striped directory functionality.
+
+Lustre 2.8, released in March 2016,<ref name=2.8rls>{{cite web
+|url = http://lists.lustre.org/pipermail/lustre-announce-lustre.org/2016/000137.html
+|title = Lustre 2.8.0 released
+|date = March 16, 2016
+|accessdate = March 28, 2016
+|website = Lustre-announce mailing list archive
+|publisher = [[OpenSFS]]
+|last = Jones
+|first = Peter}}</ref> finished the DNE striped directory feature, including support for migrating directories between MDTs, and cross-MDT [[hard link]] and rename.  As well, it included improved support for [[Security-Enhanced Linux]] ([[SELinux]]) on the client, [[Kerberos (protocol)|Kerberos]] authentication and RPC encryption over the network, and performance improvements for LFSCK.
+
+Lustre 2.9 was released in December 2016<ref name=2.9rls>{{cite web
+|url = http://wiki.lustre.org/Lustre_2.9.0_Changelog
+|title = Lustre 2.9.0 Changelog
+|date = December 7, 2016
+|accessdate = December 8, 2016
+|website = Lustre Wiki
+|publisher = [[OpenSFS]]}}</ref>
+and included a number of features related to security and performance.  The Shared Secret Key security flavour uses the same [[GSSAPI]] mechanism as Kerberos to provide client and server node authentication, and RPC message integrity and security (encryption). The Nodemap feature allows categorizing client nodes into groups and then mapping the UID/GID for those clients, allowing remotely-administered clients to transparently use a shared filesystem without having a single set of UID/GIDs for all client nodes.  The subdirectory mount feature allows clients to mount a subset of the filesystem namespace from the MDS.  This release also added support for up to 16MiB RPCs for more efficient I/O submission to disk, and added the <code>ladvise</code> interface to allow clients to provide I/O hints to the servers to prefetch file data into server cache or flush file data from server cache.  There was improved support for specifying filesystem-wide default OST pools, and improved inheritance of OST pools in conjunction with other file layout parameters.
+
+Lustre 2.10 was released in July 2017<ref name=2.10rls>{{cite web
+|url = http://wiki.lustre.org/Lustre_2.10.0_Changelog
+|title = Lustre 2.10.0 Changelog
+|date = July 13, 2017
+|accessdate = October 3, 2017
+|website = Lustre Wiki
+|publisher = [[OpenSFS]]}}</ref>
+and has a number of significant improvements.  The [http://wiki.lustre.org/Multi-Rail_LNet LNet Multi-Rail] (LMR) feature allows bonding multiple network interfaces ([[InfiniBand]], [[Omni-Path]], and/or [[Ethernet]]) on a client and server to increase aggregate I/O bandwidth.  File layouts can now be constructed of multiple components, based on the file offset, which allow different parameters such as stripe count, OST pool, etc. to be determined based on the file size.  The NRS Token Bucket Filter (TBF) server-side scheduler has implemented new rule types, including RPC-type scheduling and the ability to specify multiple parameters such as JobID and NID for rule matching.  Tools for managing ZFS snapshots of Lustre filesystems have been added, to simplify the creation, mounting, and management of MDT and OST ZFS snapshots as separate Lustre mountpoints.
+
+Lustre 2.11 was released in April 2018<ref name=2.11rls>{{cite web
+|url = http://wiki.lustre.org/Release_2.11.0
+|title = Release 2.11.0
+|date = April 3, 2018
+|accessdate = April 4, 2018
+|website = Lustre Wiki
+|publisher = [[OpenSFS]]}}</ref>
+and contains two significant new features, and several smaller features.  The [http://wiki.lustre.org/File_Level_Redundancy_Solution_Architecture File Level Redundancy] (FLR) feature expands on the 2.10 PFL implementation, adding the ability to specify [[Disk_mirroring|mirrored]] file layouts for improved availability in case of storage or server failure and/or improved performance with highly concurrent reads. The [http://wiki.lustre.org/Data_on_MDT_Solution_Architecture Data-on-MDT] feature allows small (few MiB) files to be stored on the MDT to leverage typical flash-based RAID-10 storage for lower latency and reduced IO contention, instead of the typical HDD RAID-6 storage used on OSTs.  As well, the LNet Dynamic Discovery feature allows auto-configuration of LNet Multi-Rail between peers that share an LNet network.  The LDLM Lock Ahead feature allows appropriately-modified applications and libraries to pre-fetch DLM extent locks from the OSTs for files, if the application knows (or predicts) that this file extent will be modified in the near future, which can reduce lock contention for multiple clients writing to the same file.
+
+== Architecture ==
+A Lustre file system has three major functional units:
+* One or more ''metadata servers (MDS)'' nodes that has one or more ''[[metadata]] target (MDT)'' devices per Lustre filesystem that stores namespace metadata, such as filenames, directories, access permissions, and file layout. The MDT data is stored in a local disk filesystem. However, unlike block-based distributed filesystems, such as [[GPFS]] and [[Panasas#PanFS|PanFS]], where the metadata server controls all of the block allocation, the Lustre metadata server is only involved in pathname and permission checks, and is not involved in any file I/O operations, avoiding I/O scalability bottlenecks on the metadata server.  The ability to have multiple MDTs in a single filesystem is a new feature in Lustre 2.4, and allows directory subtrees to reside on the secondary MDTs, while 2.7 and later allow large single directories to be distributed across multiple MDTs as well.
+* One or more ''object storage server (OSS)'' nodes that store file data on one or more ''object storage target (OST)'' devices. Depending on the server's hardware, an OSS typically serves between two and eight OSTs, with each OST managing a single local disk filesystem. The capacity of a Lustre file system is the sum of the capacities provided by the OSTs. 
+* ''Client(s)'' that access and use the data. Lustre presents all clients with a unified namespace for all of the files and data in the filesystem, using standard [[POSIX]] semantics, and allows concurrent and coherent read and write access to the files in the filesystem.
+
+The MDT, OST, and client may be on the same node (usually for testing purposes), but in typical production installations these 
+devices are on separate nodes communicating over a network. Each MDT and OST may be part of only a single filesystem, though it is possible to have multiple MDTs or OSTs on a single node that are part of different filesystems. The ''Lustre Network (LNet)'' layer can use several types of network interconnects, including native [[InfiniBand]]  verbs, [[Omni-Path]], [[RDMA_over_Converged_Ethernet|RoCE]], and [[iWARP]] via [[OpenFabrics_Alliance#OpenFabrics_Enterprise_Distribution|OFED]], [[TCP/IP]] on [[Ethernet]],  and other proprietary network technologies such as the [[Cray]] Gemini interconnect.  In Lustre 2.3 and earlier, [[Myrinet]], [[Quadrics]], Cray SeaStar and RapidArray networks were also supported, but these network drivers were deprecated when these networks were no longer commercially available, and support was removed completely in Lustre 2.8.  Lustre will take advantage of remote direct memory access ([[Remote direct memory access|RDMA]]) transfers, when available, to improve throughput and reduce CPU usage.
+
+The storage used for the MDT and OST backing filesystems is normally provided by hardware [[RAID]] devices, though will work with any block devices.  Since Lustre 2.4, the MDT and OST can also use [[ZFS]] for the backing filesystem in addition to [[ext4]], allowing them to effectively use [[JBOD]] storage instead of hardware RAID devices.  The Lustre OSS and MDS servers read, write, and modify data in the format imposed by the backing filesystem and return this data to the clients.  This allows Lustre to take advantage of improvements and features in the underlying filesystem, such as compression and data checksums in ZFS. Clients do not have any direct access to the underlying storage, which ensures that a malfunctioning or malicious client cannot corrupt the filesystem structure.
+
+An OST is a dedicated filesystem that exports an interface to byte ranges of file objects for read/write operations. An MDT is a dedicated filesystem that stores inodes, directories, [[POSIX]] and [[extended file attributes]], controls file access permissions/[[Access_control_list|ACLs]], and tells clients the layout of the object(s) that make up each regular file. MDTs and OSTs currently use either an enhanced version of [[ext4]] called ''ldiskfs'', or [[ZFS]]/DMU for back-end data storage to store files/objects<ref>{{cite web
+|url=http://gcn.com/Articles/2008/03/26/Lustre-to-run-on-ZFS.aspx?p=1
+|title=Lustre to run on ZFS
+|date=2008-10-26
+|publisher=Government Computer News
+}}</ref> using the open source ZFS-on-Linux port.<ref>{{cite web
+|url=http://zfsonlinux.org/lustre.html
+|title=ZFS on Lustre
+|date=2011-05-10
+}}</ref>
+
+When a client accesses a file, it performs a filename lookup on the MDS.  When the MDS filename lookup is complete and the user and client have permission to access and/or create the file, either the layout of an existing file is returned to the client or a new file is created on behalf of the client, if requested. For read or write operations, the client then interprets the file layout in the ''logical object volume (LOV)'' layer, which maps the file logical offset and size to one or more objects, each residing on a separate OST. The client then locks the file range being operated on and executes one or more parallel read or write operations directly to the OSS nodes. With this approach, bottlenecks for client-to-OSS communications are eliminated, so the total bandwidth available for the clients to read and write data scales almost linearly with the number of OSTs in the filesystem.
+
+After the initial lookup of the file layout, the MDS is not normally involved in file IO operations since all block allocation and data IO is managed internally by the OST. Clients do not directly modify the objects or data on the OST filesystems, but instead delegate this task to OSS nodes. This approach ensures scalability for large-scale clusters and supercomputers, as well as improved security and reliability. In contrast, shared block-based filesystems such as [[GPFS]] and [[OCFS]] allow direct access to the underlying storage by all of the clients in the filesystem, which requires a large back-end [[Storage area network|SAN]] attached to clients, and increases the risk of filesystem corruption from misbehaving/defective clients.
+
+== Implementation ==
+In a typical Lustre installation on a Linux client, a Lustre filesystem driver module is loaded into the kernel and the filesystem is mounted like any other local or network filesystem. Client applications see a single, unified filesystem even though it may be composed of tens to thousands of individual servers and MDT/OST filesystems.
+
+On some [[massively parallel processing|massively parallel processor]] (MPP) installations, computational processors can access a Lustre file system by redirecting their I/O requests to a dedicated I/O node configured as a Lustre client. This approach is used in the [[Blue Gene]] installation<ref>{{cite web
+| url=http://www.tgc.com/hpcwire/hpcwireWWW/04/1015/108577.html
+| title = DataDirect Selected As Storage Tech Powering BlueGene/L
+|work= HPC Wire |date= October 15, 2004
+}}</ref> at [[Lawrence Livermore National Laboratory]].
+
+Another approach used in the early years of Lustre is the ''liblustre'' library on the [[Cray XT3]] using the [[Catamount (operating system)|Catamount operating system]] on systems such as [[Red Storm (computing)|Sandia Red Storm]],<ref>{{cite web
+| url=http://www.sandia.gov/~smkelly/SAND2006-2561C-CUG2006-CatamountDualCore.pdf
+| title=Catamount Software Architecture with Dual Core Extensions
+| author=Suzanne M. Kelly
+| date=2006
+| accessdate=2016-02-16
+}}</ref> which provided userspace applications with direct filesystem access. Liblustre was a user-level library that allows computational processors to mount and use the Lustre file system as a client. Using liblustre, the computational processors could access a Lustre file system even if the service node on which the job was launched is not a Linux client. Liblustre allowed data movement directly between application space and the Lustre OSSs without requiring an intervening data copy through the kernel, thus providing access from computational processors to the Lustre file system directly in a constrained operating environment.  The liblustre functionality was deleted from Lustre 2.7.0 after having been disabled since Lustre 2.6.0, and was untested since Lustre 2.3.0.
+
+In Linux Kernel version 4.18, the incomplete port of the Lustre client was removed from the kernel staging area in order to speed up development and porting to newer kernels.<ref>{{cite web
+| url=http://lkml.iu.edu/hypermail/linux/kernel/1806.2/00125.html
+| title=Linux Kernel 4.18rc1 release notes
+}}</ref>  The out-of-tree Lustre client and server is still available for RHEL, SLES, and Ubuntu distro kernels, as well as vanilla kernels.
+
+== Data objects and file striping ==
+In a traditional Unix disk file system, an [[inode]] data structure contains basic information about each file, such as where the data contained in the file is stored. The Lustre file system also uses inodes, but inodes on MDTs point to one or more OST objects associated with the file rather than to data blocks. These objects are implemented as files on the OSTs. When a client opens a file, the file open operation transfers a set of object identifiers and their layout from the MDS to the client, so that the client can directly interact with the OSS node where the object is stored.  This allows the client to perform I/O in parallel across all of the OST objects in the file without further communication with the MDS.
+
+If only one OST object is associated with an MDT inode, that object contains all the data in the Lustre file. When more than one object is associated with a file, data in the file is "striped" in chunks in a [[round-robin scheduling|round-robin]] manner across the OST objects similar to [[RAID 0]]. Striping a file over multiple OST objects provides significant performance benefits if there is a need for high bandwidth access to a single large file. When striping is used, the maximum file size is not limited by the size of a single target. Capacity and aggregate I/O bandwidth scale with the number of OSTs a file is striped over. Also, since the locking of each object is managed independently for each OST, adding more stripes (one per OST) scales the file I/O locking capacity of the file proportionately. Each file created in the filesystem may specify different layout parameters, such as the stripe count (number of OST objects making up that file), stripe size (unit of data stored on each OST before moving to the next), and OST selection, so that performance and capacity can be tuned optimally for each file. When many application threads are reading or writing to separate files in parallel, it is optimal to have a single stripe per file, since the application is providing its own parallelism. When there are many threads reading or writing a single large file concurrently, then it is optimal to have one stripe on each OST to maximize the performance and capacity of that file.
+
+In the Lustre 2.10 release, the ability to specify ''composite layouts'' was added to allow files to have different layout parameters for different regions of the file.  The '''Progressive File Layout''' (PFL) feature uses composite layouts to improve file IO performance over a wider range of workloads, as well as simplify usage and administration.  For example, a small PFL file can have a single stripe for low access overhead, while larger files can have many stripes for high aggregate bandwidth and better OST load balancing.  The composite layouts are further enhanced in the 2.11 release with the '''File Level Redundancy''' (FLR) feature, which allows a file to have multiple overlapping layouts for a file, providing RAID 0+1 redundancy for these files as well as improved read performance.
+
+== Metadata objects and DNE remote or striped directories ==
+When client initially mounts a filesystem, it is send the 128-bit Lustre File Identifier (FID, composed of the Sequence number and Object ID) of the root directory.  When doing a filename lookup, the client determines which MDT to do the filename lookup by mapping the parent directory FID Sequence number to a specific MDT via the FID Location Database (FLDB).  Once the MDT of the parent directory is determined, further directory operations (for non-striped directories) take place exclusively on that MDT, avoiding contention between MDTs.  For striped directories, the per-directory layout stored on the parent directory provides a hash function and list of MDT objects across which the directory is distributed.  The client hashes the filename to be resolved and maps to a specific MDT [[Shard (database architecture)|shard]], which will handle further operations on that file in an identical manner to a non-striped directory.  For '''readdir()''' operations, the entries from each directory shard are returned to the client sorted in the local MDT directory hash order, and the client performs a merge sort to interleave the filenames in hash order so that a single 64-bit cookie can be used to determine the current offset within the directory.
+
+== Locking ==
+The Lustre [[distributed lock manager]] (LDLM), implemented in the [[OpenVMS]] style, protects the integrity of each file's data and metadata. Access and modification of a Lustre file is completely [[cache coherence|cache coherent]] among all of the clients. Metadata locks are managed by the MDT that stores the [[inode]] for the file, using FID as the resource name. The metadata locks are split into separate bits that protect the lookup of the file (file owner and group, permission and mode, and [[access control list]] (ACL)), the state of the inode (directory size, directory contents, link count, timestamps), layout (file striping, since Lustre 2.4), and [[extended file attributes|extended attributes]] (xattrs, since Lustre 2.5). A client can fetch multiple metadata lock bits for a single inode with a single RPC request, but currently they are only ever granted a read lock for the inode. The MDS manages all modifications to the inode in order to avoid lock [[resource contention]] and is currently the only node that gets write locks on inodes.
+
+File data locks are managed by the OST on which each object of the file is striped, using byte-range [[extent (file systems)|extent]] locks. Clients can be granted overlapping read extent locks for part or all of the file, allowing multiple concurrent readers of the same file, and/or non-overlapping write extent locks for independent regions of the file. This allows many Lustre clients to access a single file concurrently for both read and write, avoiding bottlenecks during file I/O. In practice, because Linux clients manage their data cache in units of [[page (computer memory)|pages]], the clients will request locks that are always an integer multiple of the page size (4096 bytes on most clients). When a client is requesting an extent lock the OST may grant a lock for a larger extent than originally requested, in order to reduce the number of lock requests that the client makes. The actual size of the granted lock depends on several factors, including the number of currently-granted locks on that object, whether there are conflicting write locks for the requested lock extent, and the number of pending lock requests on that object. The granted lock is never smaller than the originally-requested extent. OST extent locks use the Lustre FID of the object as the resource name for the lock. Since the number of extent lock servers scales with the number of OSTs in the filesystem, this also scales the aggregate locking performance of the filesystem, and of a single file if it is striped over multiple OSTs.
+
+== Networking ==
+In a cluster with a Lustre file system, the system network connecting the servers and the clients is implemented using Lustre Networking (LNet), which provides the communication infrastructure required by the Lustre file system. Disk storage is connected to the Lustre MDS and OSS server nodes using direct attached storage ([[Serial attached SCSI|SAS]], [[Fibre Channel|FC]], [[iSCSI]]) or traditional [[storage area network]] (SAN) technologies.
+
+LNet can use many commonly-used network types, such as [[InfiniBand]] and TCP (commonly [[Ethernet]]) networks, and allows simultaneous availability across multiple network types with routing between them. [[Remote Direct Memory Access]] (RDMA) is permitted when available on the underlying networks such as InfiniBand, [[RDMA over Converged Ethernet|RoCE]], [[iWARP]], and [[Omni-Path]]. High availability and recovery features enable transparent recovery in conjunction with failover servers.
+
+LNet provides end-to-end throughput over [[Gigabit Ethernet]] networks in excess of 100&nbsp;MB/s,<ref>{{cite web
+ |author      = Lafoucrière, Jacques-Charles
+ |url         = http://hepix.caspur.it/afs/hepix.org/project/strack/hep_pdf/2007/Spring/Lustre-CEA-hepix2007.pdf
+ |title       = Lustre Experience at CEA/DIF
+ |publisher   = HEPiX Forum, April 2007
+ |deadurl     = yes
+ |archiveurl  = https://www.webcitation.org/65tGGL6n1?url=http://hepix.caspur.it/afs/hepix.org/project/strack/hep_pdf/2007/Spring/Lustre-CEA-hepix2007.pdf
+ |archivedate = 2012-03-03
+ |df          = 
+}}</ref> throughput up to 3&nbsp;GB/s using InfiniBand quad data rate (QDR) links, and throughput over 1&nbsp;GB/s across [[10 Gigabit Ethernet]] interfaces.{{Citation needed|date=September 2013}}
+
+== High availability ==
+Lustre file system high availability features include a robust failover and recovery mechanism, making server failures and reboots transparent. Version interoperability between successive minor versions of the Lustre software enables a server to be upgraded by taking it offline (or failing it over to a standby server), performing the upgrade, and restarting it, while all active jobs continue to run, experiencing a delay while the backup server takes over the storage.
+
+Lustre MDSes are configured as an active/passive pair, or one or more active/active MDS pairs with DNE, while OSSes are typically deployed in an active/active configuration that provides redundancy without extra overhead. Often the standby MDS for one filesystem is the MGS and/or monitoring node, or the active MDS for another file system, so no nodes are idle in the cluster.
+
+== HSM (Hierarchical Storage Management) ==
+Lustre provides the capability to have multiple storage tiers within a single filesystem namespace.  It allows traditional HSM functionality to copy (archive) files off the primary filesystem to a secondary archive storage tier.  The archive tier is typically a tape-based system, that is often fronted by a disk cache.  Once a file is archived, it can be released from the main filesystem, leaving only a stub that references the archive copy.  If a released file is opened, the Coordinator blocks the open, sends a restore request to a copytool, and then completes the open once the copytool has completed restoring the file.
+
+In addition to external storage tiering, it is possible to have multiple storage tiers within a single filesystem namespace.  OSTs of different types (e.g. HDD and SSD) can be declared in named storage pools.  The OST pools can be selected when specifying file layouts, and different pools can be used within a single PFL file layout.  Files can be migrated between storage tiers either manually or under control of the Policy Engine.  Since Lustre 2.11, it is also possible to mirror a file to different OST pools with a FLR file layout, for example to pre-stage files into flash for a computing job. 
+
+HSM includes some additional Lustre components to manage the interface between the primary filesystem and the archive:
+* Coordinator: receives archive and restore requests and dispatches them to agent nodes.
+* Agent: runs a copytool to copy data from primary storage to the archive and vice versa.
+* Copytool: handles data motion and metadata updates.  There are different copytools to interface with different archive systems.  A generic POSIX copytool is available for archives that provide a POSIX-like front-end interface.  Copytools are also available for the [[High Performance Storage System]]<ref>{{cite web
+|url=https://www.eofs.eu/_media/events/lad13/10_aurelien_degremont_lustre_hsm_lad13.pdf
+|title=LUSTRE/HSM BINDING IS THERE!
+|date=September 17, 2013
+|author=Aurélien Degrémont}}</ref> (HPSS), [[IBM_Tivoli_Storage_Manager|Tivoli Storage Manager]]<ref>{{cite web
+|url=https://www.eofs.eu/_media/events/lad16/08_tsm_copytool_for_lustre_stibor.pdf
+|title=TSM Copytool for Lustre HSM
+|author=Thomas Stibor
+|date=September 20, 2016}}</ref> (TSM), [[Amazon S3]]<ref>{{cite web
+|url=http://wiki.lustre.org/images/e/ea/Lustre-HSM-in-the-Cloud_Read.pdf
+|title=Lustre HSM in the Cloud
+|author=Robert Read
+|date=March 24, 2015}}</ref>, and [[Google Drive]]<ref>{{cite web
+|url=https://github.com/stanford-rc/ct_gdrive/blob/master/README.md
+|title=Lustre/HSM Google Drive copytool
+|author=Stéphane Thiell}}</ref>.
+* Policy Engine: watches filesystem Changelogs for new files to archive, applies policies to release files based on age or space usage, and communicates with MDT and Coordinator. The Policy Engine can also trigger actions like migration between, purge, and removal.  The most commonly-used policy engine is [https://github.com/cea-hpc/robinhood/wiki RobinHood], but other policy engines can also be used. 
+
+HSM also defines new states for files including: <ref name="hsm-seminar">{{cite web|url=http://wiki.lustre.org/images/4/4d/Lustre_hsm_seminar_lug10.pdf|title=Lustre HSM Project—Lustre User Advanced Seminars|author1=Aurélien Degrémont|author2=Thomas Leibovici|date=April 16, 2009|archiveurl=https://web.archive.org/web/20100525053326/http://wiki.lustre.org/images/4/4d/Lustre_hsm_seminar_lug10.pdf|archivedate=May 25, 2010|deadurl=no|accessdate=May 5, 2018}}</ref>
+* Exist: Some copy, possibly incomplete exists in a HSM.
+* Archive: A full copy exists on the archive side of the HSM.
+* Dirty: The primary copy of the file has been modified and differs from the archived copy.
+* Released: A stub inode exists on an MDT, but the data objects have been removed and the only copy exists in the archive.
+* Lost: the archive copy of the file has been lost and cannot be restored
+* No Release: the file should not be released from the filesystem
+* No Archive: the file should not be archived
+
+== Deployments ==
+Lustre is used by many of the [[TOP500]] supercomputers and large multi-cluster sites. Six of the top 10 and more than 60 of the top 100 supercomputers use Lustre file systems.  These include: [[K computer]] at the [[RIKEN]] Advanced Institute for Computational Science,<ref name="LUG11_ZFS_on_Linux_for_Lustre" /> the [[Tianhe-1A]] at the [[National Supercomputing Center]] in [[Tianjin, China]], the [[Jaguar (computer)|Jaguar]] and [[Titan (supercomputer)|Titan]] at [[Oak Ridge National Laboratory]] (ORNL), [[Blue Waters]] at the [[University of Illinois at Urbana-Champaign|University of Illinois]], and [[IBM Sequoia|Sequoia]] and [[Blue Gene]]/L at [[Lawrence Livermore National Laboratory]] (LLNL).
+
+There are also large Lustre filesystems at the [[National Energy Research Scientific Computing Center]], [[Pacific Northwest National Laboratory]], [[Texas Advanced Computing Center]], [[Brazilian National Laboratory of Scientific Computing]],<ref>{{cite web|url=http://www.lncc.br/frame.html |title=LNCC – Laboratório Nacional de Computação Científica |publisher=Lncc.br |date= |accessdate=2015-05-27}}</ref> and [[NASA]]<ref>{{cite web
+| url=http://www.nas.nasa.gov/Resources/Systems/pleiades.html
+| title=Pleiades Supercomputer
+| date=2008-08-18
+| publisher=www.nas.nasa.gov
+}}</ref> in North America, in Asia at [[Tokyo Institute of Technology]],<ref>{{cite web
+| url=http://www.top500.org/system/8216
+| title=TOP500 List – November 2006
+| publisher=TOP500.Org
+}}</ref> in Europe at [[Commissariat à l'énergie atomique|CEA]],<ref>{{cite web
+| url=http://www.top500.org/system/8237
+| title=TOP500 List – June 2006
+| publisher=TOP500.Org
+}}</ref><ref>{{cite web
+| url=http://www.hpcwire.com/hpcwire/2012-01-25/french_atomic_energy_group_expands_hpc_file_system_to_11_petabytes.html
+| title=French Atomic Energy Group Expands HPC File System to 11 Petabytes
+| date=2012-06-15
+| publisher=HPCwire.com
+}}</ref> and many others.
+
+== Commercial technical support ==
+Commercial technical support for Lustre is often bundled along with the computing system or storage hardware sold by the vendor. Some vendors include
+[[Cray]],<ref>{{cite web
+| url=http://www.cray.com/products/storage/sonexion
+| title=Sonexion Scale-out Lustre Storage System
+| date=2015-04-14
+}}</ref> [[Dell]],<ref>{{cite web
+| url=http://www.dellhpcsolutions.com/
+| title=Dell HPC Solutions
+| date=2015-04-14
+}}</ref> [[Hewlett-Packard]] (as the HP StorageWorks Scalable File Share, circa 2004 through 2008),<ref>{{Cite web |title= HP StorageWorks Scalable File Share |publisher= Hewlett-Packard |url= http://h20311.www2.hp.com/HPC/cache/276636-0-0-0-121.html |archivedate= June 12, 2008 |archiveurl= https://web.archive.org/web/20080612182519/http://h20311.www2.hp.com/HPC/cache/276636-0-0-0-121.html |accessdate= December 13, 2016 }}</ref>
+[[Groupe Bull]],
+[[Silicon Graphics International]],<ref>{{cite web
+| url=https://www.sgi.com/products/storage/lustre/
+| title=SGI – Products: Storage: Lustre Solutions
+| date=2015-04-14
+}}</ref><ref>{{cite web
+| url=http://www.sgi.com/services/professional/file_management.html
+| title= File management consulting
+| work= SGI Professional Services web site
+}}</ref> [[Fujitsu]].<ref>{{cite web
+| url=http://www.fujitsu.com/global/about/resources/news/press-releases/2011/1017-01.html
+| title=Fujitsu Releases World's Highest-Performance File System – FEFS scalable file system software for advanced x86 HPC cluster systems
+| date=2015-06-13
+}}</ref> Vendors selling storage hardware with bundled Lustre support include [[Hitachi Data Systems]],<ref>{{cite web
+| url=http://www.hds.com/solutions/industries/oil-and-gas/exploration-and-production/high-throughput-storage-solutions.html
+| title=High Throughput Storage Solutions with Lustre
+| date=2015-04-14
+}}</ref> [[DataDirect Networks]] (DDN),<ref>{{cite web
+| url=http://www.ddn.com/products/lustre-file-system-exascaler/
+| title=Exascaler: Massively Scalable, High Performance, Lustre File System Appliance
+| date=2015-04-14
+}}</ref> [[NetApp]], [[Seagate Technology]],<ref>{{cite web
+| url=http://www.seagate.com/products/enterprise-servers-storage/enterprise-storage-systems/clustered-file-systems/
+| title=ClusterStor Parallel Storage System
+| date=2015-04-14
+}}</ref> and others.  It is also possible to get software-only support for Lustre file systems from some vendors, including [[Whamcloud]].<ref>{{cite web
+| url= http://whamcloud.com/support/
+| title=Lustre Support
+| date=2018-11-27
+}}</ref>
+
+== See also ==
+{{Portal|Free and open-source software}}
+* [[Distributed file system]]
+* [[List of file systems#Distributed parallel fault-tolerant file systems|List of file systems, the distributed parallel fault-tolerant file system section]]
+
+== References ==
+{{Reflist|30em}}
+
+== External links ==
+
+=== Information wikis ===
+* [http://lustre.org/ Lustre Community Portal]
+* [http://wiki.whamcloud.com/ Lustre (DDN) wiki]
+* [http://wiki.opensfs.org/ Lustre (OpenSFS) wiki]
+
+=== Community foundations ===
+* [http://www.opensfs.org/ OpenSFS]
+* [http://www.eofs.eu/ EOFS – European Open File System]
+
+=== Hardware/software vendors ===
+* [https://www.hpe.com/us/en/product-catalog/detail/pip.1008849030.html Hewlett Packard Enterprise]
+* [http://www.ddn.com/products/lustre-file-system-exascaler/ DataDirect Networks (DDN)]
+* [http://www.cray.com/products/storage/sonexion Cray] (including former [https://web.archive.org/web/20160621213259/http://www.xyratex.com/products/lustre Xyratex] employees<ref name=cray_clusterstor>
+{{cite web
+|last1=Black
+|first1=Doug
+|title=Cray Moves to Acquire the Seagate ClusterStor Line
+|url=https://www.hpcwire.com/2017/07/28/cray-moves-acquire-seagate-clusterstor-line/
+|website=HPCWire
+|publisher=HPCWire
+|accessdate=2017-12-01}}</ref>)
+* [https://www.netapp.com/us/solutions/big-data/lustre.aspx NetApp]
+* [https://www.aeoncomputing.com/lustre Aeon Computing]
+
+{{Filesystem}}
+{{Sun Microsystems}}
+
+[[Category:2002 software]]
+[[Category:Computer file systems]]
+[[Category:Distributed file systems supported by the Linux kernel]]
+[[Category:Network file systems]]
+[[Category:Sun Microsystems software]]
+[[Category:Free special-purpose file systems]]
+[[Category:Distributed file systems]]

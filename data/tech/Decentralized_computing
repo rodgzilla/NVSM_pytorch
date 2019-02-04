@@ -1,0 +1,39 @@
+{{no footnotes|date=May 2017}}
+{{refimprove|date=May 2017}}
+'''Decentralized computing''' is the allocation of resources, both [[Computer hardware|hardware]] and [[Computer software|software]], to each individual [[workstation]], or office location. In contrast, centralized computing exists when the majority of functions are carried out, or obtained from a remote centralized location. Decentralized computing is a trend in modern-day business environments. This is the opposite of [[centralized computing]], which was prevalent during the early days of computers. 
+A decentralized computer system has many benefits over a conventional centralized [[Computer network|network]]. [[Desktop computer]]s have advanced so rapidly, that their potential performance far exceeds the requirements of most [[business application]]s. This results in most desktop computers remaining [[Idle (CPU)|idle]] (in relation to their full potential). A decentralized system can use the potential of these systems to maximize efficiency. However, it is debatable whether these networks increase overall effectiveness.
+
+All computers have to be updated individually with new software, unlike a centralised computer system. Decentralised systems still enable [[file sharing]] and all computers can share [[peripherals]] such as [[Computer printer|printers]] and [[Image scanner|scanners]] as well as [[modems]], allowing all the computers in the network to connect to the [[internet]].
+
+A collection of decentralized computers systems are components of a larger computer network, held together by local stations of equal importance and capability. These systems are capable of running independently of each other.
+
+== Origins of decentralized computing ==
+The origins of decentralized computing originate from the work of [[David Chaum]]. 
+
+During 1979 he conceived the first concept of a decentralized computer system known as [[Mix network|Mix Network]]. It enabled for an anonymous email communications network which decentralized the authentication of the messages in a protocol which would become the precursor to [[Onion routing|Onion Routing]], the protocol of the infamous [[Tor (anonymity network)|TOR browser]]. Through this initial development of an anonymous communications network, David Chaum applied his Mix Network philosophy to design the world's first decentralized payment system and patented it in 1980 ([https://patents.google.com/patent/US4529870 Patent US4529870]). Later in 1982, for his PhD dissertation, he wrote about the need for decentralized computing services in the paper [https://chaum.com/publications/research_chaum_2.pdf Computer Systems Established, Maintained and Trusted by Mutually Suspicious Groups]. He would go on to launch the world's first decentralized payment system in 1990 called [[Ecash|eCash]]. ([[DigiCash|Digicash]])
+
+== Peer-to-peer ==
+
+Based on a "grid model" a [[peer-to-peer]] system, or P2P system, is a collection of applications run on several local computers, which connect remotely to each other to complete a function or a task. There is no main [[operating system]] to which satellite systems are subordinate. This approach to [[software development]] (and distribution) affords developers great savings, as they don't have to create a central control point. An example application is [[LAN messenger|LAN messaging]] which allows users to communicate without a central server.
+
+== File sharing applications ==
+
+One of the most interesting debates over decentralized computing involved [[Napster#Origin|Napster]], a music [[file sharing]] application, which granted users access to an enormous database of files. [[Record industry|Record companies]] brought legal action against Napster, blaming the system for lost record sales. Napster was found in violation of [[copyright]] laws by distributing [[Copyright infringement of software|unlicensed software]], and was shut down.
+
+After the fall of Napster, there was a demand for a file sharing system that would be less vulnerable to [[Lawsuit|litigation]]. [[Gnutella]], a decentralized system, was developed. This system allowed files to be queried and shared between users, without a central [[Directory (file systems)|directory]], and therefore shielded the network from legal issues of individual users.
+
+==See also==
+* [[Centralized computing]]
+* [[Decentralized information technology]]
+* [[Decentralized network 42]]
+* [[Decentralized Autonomous Organization]]
+* [[Federated social network]]
+* [[Blockchain]]
+
+==References==
+
+*{{cite journal|author1=Crowcroft, Jon. Moreton |author2=Tim. Pratt, Ian. Twigg |year=2003|title=Peer-to-Peer Systems and the Grid|accessdate=2013-11-06|url=http://www.cl.cam.ac.uk/teaching/2003/AdvSysTop/grid-p2p-paper.pdf}}
+*{{cite web|author=Reid, Alex|year=1995|title=IT Strategy Review, Distributed Computing – Rough Draft|accessdate=2013-11-06|url=http://www.ict.ox.ac.uk/oxford/strategy/1996/papers/itstratx.dis}}
+
+[[Category:Centralized computing|*]]
+[[Category:Decentralization]]

@@ -1,0 +1,171 @@
+{{About|the computer storage platform|other uses|Ceph (disambiguation)}}
+{{primary sources|date=March 2018}}
+
+{{Infobox software
+| name = Ceph
+| logo = [[File:Ceph logo.png]]
+| author = [[Inktank Storage]] ([[Sage Weil]], Yehuda Sadeh Weinraub, Gregory Farnum, Josh Durgin, Samuel Just, Wido den Hollander)
+| developer = [[Canonical (company)|Canonical]], [[CERN]], [[Cisco]], [[Fujitsu]], [[Intel]], [[Red Hat]], [[SanDisk]], and [[SUSE]]<ref>{{cite web |url=http://www.storagereview.com/ceph_community_forms_advisory_board|date=2015-10-28 |accessdate=2016-01-20|title=Ceph Community Forms Advisory Board }}</ref>
+| latest release version = 13.2.4 "Mimic"<ref>{{cite web|url=https://ceph.com/releases/13-2-4-mimic-released/|title=13.2.4 Mimic released}}</ref>
+| latest release date = {{Start date and age|2019|01|07|df=yes}}
+| latest preview version = 13.1.0 "Mimic"<ref>{{cite web|url=https://ceph.com/releases/v13-1-0-mimic-rc1-released/|title=v13.1.0 Mimic RC1 released|publisher=}}</ref>
+| latest preview date = {{Start date and age|2018|05|11}}
+| programming language = [[C++]], [[Python (programming language)|Python]]<ref>{{cite web |url=https://github.com/ceph/ceph/search?l=C%2B%2B||title=GitHub Repository }}</ref>
+| operating system = [[Linux]], [[FreeBSD]]<ref>{{cite web|url=https://www.freebsd.org/news/status/report-2016-10-2016-12.html#Ceph-on-FreeBSD||title=FreeBSD Quarterly Status Report}}</ref>
+| genre = Distributed object store
+| license = [[GNU Lesser General Public License|LGPL 2.1]]<ref>{{cite web |url=https://github.com/ceph/ceph/blob/master/COPYING-LGPL2.1 |title=LGPL2.1 license file in the Ceph sources|date=2014-10-24 |accessdate=2014-10-24}}</ref>
+| website = {{URL|ceph.com}}
+}}
+
+In [[computing]], '''Ceph''' (pronounced {{IPAc-en|ˈ|s|ɛ|f}} or {{IPAc-en|ˈ|k|ɛ|f}}) is a [[free-software]] [[Computer data storage|storage]] [[computing platform|platform]], implements [[object storage]] on a single distributed [[computer cluster]], and provides interfaces for object-, [[block storage|block-]] and [[Computer file|file]]-level storage. Ceph aims primarily for completely distributed operation without a [[single point of failure]], scalable to the [[exabyte]] level, and freely available.
+
+Ceph [[replication (computer science)|replicates]] data and makes it [[fault tolerance|fault-tolerant]],<ref name=kerneltrap>{{cite web |date= 2007-11-15 |author= Jeremy Andrews |title= Ceph Distributed Network File System |url= http://kerneltrap.org/Linux/Ceph_Distributed_Network_File_System |publisher= [[KernelTrap]] |access-date= 2007-11-15 |archive-url= https://web.archive.org/web/20071117102035/http://kerneltrap.org/Linux/Ceph_Distributed_Network_File_System# |archive-date= 2007-11-17 |dead-url= yes |df=  }}</ref> using [[commodity hardware]] and requiring no specific hardware support. As a result of its design, the system is both self-healing and [[self-management (computer science)|self-managing]], aiming to minimize administration time and other costs.
+
+On April 21, 2016, the Ceph development team released "Jewel", the first Ceph release in which CephFS is considered stable. The CephFS repair and disaster recovery tools are feature-complete ([[Snapshot (computer storage)|snapshots]], multiple active [[metadata]] servers and some other functionality is disabled by default).<ref name=Jewel>{{cite web|date=2016-04-21 |author = Sage Weil |title=v10.2.0 Infernalis Released|url=http://ceph.com/releases/v10-2-0-jewel-released/ |publisher=Ceph Blog}}</ref>
+
+The August, 2017 release (codename "Luminous") introduced the production-ready BlueStore storage format which avoids many shortcomings of the old filesystem-based filestore, providing better latency and additional storage features.<ref name="luminous"/>
+
+== Design ==
+[[File:Ceph components.svg|thumb|right|upright=1.9|A high-level overview of the Ceph's internal organization<ref name="ibm-developerworks" />{{rp|4}}]]
+
+Ceph employs five distinct kinds of [[daemon (computer software)|daemons]]:<ref name="ibm-developerworks">{{cite web
+ | url = http://www.ibm.com/developerworks/library/l-ceph/l-ceph-pdf.pdf
+ | title = Ceph: A Linux petabyte-scale distributed file system
+ | date = 2010-06-04 | accessdate = 2014-12-03
+ | author = M. Tim Jones | publisher = [[IBM]]
+ | format = PDF
+}}</ref>
+* Cluster monitors ({{Mono|ceph-mon}}) that keep track of active and failed cluster nodes
+* [[Metadata]] servers ({{Mono|ceph-mds}}) that store the metadata of [[inode]]s and [[directory (file systems)|directories]]
+* [[Object storage device]]s ({{Mono|ceph-osd}}) that uses a direct, journaled disk storage (named BlueStore,<ref name="bluestore">{{cite web | url=http://docs.ceph.com/docs/master/rados/configuration/storage-devices/#bluestore | title=BlueStore | accessdate=2017-09-29 | publisher=Ceph}}</ref> since the v12.x release) or store the content of files in a filesystem (preferably XFS, the storage is named Filestore)<ref name=ceph-xfs>{{cite web |accessdate=2017-03-17 |title=Hard Disk and File System Recommendations|url=http://docs.ceph.com/docs/master/rados/configuration/filesystem-recommendations/#filesystems}}</ref>
+* [[Representational state transfer]] (RESTful) gateways ({{Mono|ceph-rgw}}) that expose the object storage layer as an interface compatible with [[Amazon S3]] or [[Openstack#Object storage (Swift)|OpenStack Swift]] APIs
+*Monitoring (ceph-mgr) that provides additional monitoring beside monitor and interfaces to external monitoring system and manajement (e.g. balancer, dashboard, [[Prometheus (software)|Prometheus]], Zabbix plugin) <ref>{{Cite web|url=http://docs.ceph.com/docs/mimic/mgr/|title=Ceph Manager Daemon — Ceph Documentation|website=docs.ceph.com|access-date=2019-01-31}}</ref>
+
+All of these are fully distributed, and may run on the same set of servers. Clients directly interact with all of them.<ref name=lwn>{{cite web |date=2007-11-14 |author=Jake Edge |title=The Ceph filesystem |url=https://lwn.net/Articles/258516/ |publisher=[[LWN.net]] }}</ref>
+
+Ceph does [[striping]] of individual files across multiple nodes to achieve higher throughput, similar to how [[RAID0]] stripes partitions across multiple [[hard drive]]s. Adaptive [[load balancing (computing)|load balancing]] is supported whereby frequently accessed objects are replicated over more nodes.{{citation needed|date=July 2014}} 
+{{As of|2017|9}}, BlueStore is the default and recommended storage type for production environments,<ref name=luminous/> which is Ceph's own storage implementation providing better latency and configurability than the filestore backend, and avoiding the shortcomings of the filesystem based storage involving additional processing and caching layers. The Filestore backend is still considered useful and very stable; [[XFS]] is the recommended underlying filesystem type for production environments, while [[Btrfs]] is recommended for non-production environments. [[ext4]] filesystems are not recommended because of resulting limitations on the maximum RADOS objects length.<ref>{{cite web|title=Hard Disk and File System Recommendations|url=http://docs.ceph.com/docs/master/rados/configuration/filesystem-recommendations/|publisher=ceph.com|accessdate=2017-06-26}}</ref>
+
+=== {{Anchor|RADOS}}Object storage ===
+[[File:Ceph stack.png|thumb|right|upright=1.9|An architecture diagram showing the relations between components of the Ceph storage platform]]
+
+Ceph implements distributed [[object storage]]. Ceph’s software libraries provide client applications with direct access to the ''reliable autonomic distributed object store'' (RADOS) object-based storage system, and also provide a foundation for some of Ceph’s features, including ''RADOS Block Device'' (RBD), ''RADOS Gateway'', and the ''Ceph File System''.
+
+The  "librados" [[software libraries]] provide access in [[C (programming language)|C]], [[C++]], [[Java (programming language)|Java]], [[PHP]], and [[Python (programming language)|Python]]. The RADOS Gateway also exposes the object store as a [[REST]]ful interface which can present as both native [[Amazon S3]] and [[Openstack#Object storage (Swift)|OpenStack Swift]] APIs.
+
+=== {{Anchor|RBD}}Block storage ===
+Ceph’s object storage system allows users to mount Ceph as a [[Thin provisioning|thin-provisioned]] [[block device]]. When an application writes data to Ceph using a block device, Ceph automatically stripes and replicates the data across the cluster. Ceph's ''RADOS Block Device'' (RBD) also integrates with [[Kernel-based Virtual Machine]]s (KVMs).
+
+Ceph RBD interfaces with the same Ceph object storage system that provides the librados interface and the CephFS file system, and it stores block device images as objects. Since RBD is built on librados, RBD inherits librados's abilities, including read-only snapshots and revert to snapshot. By striping images across the cluster, Ceph improves read access performance for large block device images.
+
+The block device can be virtualized, providing block storage to virtual machines, in virtualization platforms such as [[Apache CloudStack]], [[OpenStack]], [[OpenNebula]], [[Ganeti]], and [[Proxmox Virtual Environment]].
+
+=== {{Anchor|CephFS}}File system ===
+Ceph's file system (CephFS) runs on top of the same object storage system that provides object storage and block device interfaces. The Ceph metadata server cluster provides a service that maps the directories and file names of the file system to objects stored within RADOS clusters. The metadata server cluster can expand or contract, and it can rebalance the file system dynamically to distribute data evenly among cluster hosts. This ensures high performance and prevents heavy loads on specific hosts within the cluster.
+
+Clients mount the [[POSIX]]-compatible file system using a [[Linux kernel]] client. On March 19, 2010, [[Linus Torvalds]] merged the Ceph client into Linux kernel version 2.6.34<ref>{{cite web |date=2010-02-19 |author=Sage Weil |title=Client merged for 2.6.34 |url=http://ceph.newdream.net/2010/03/client-merged-for-2-6-34/ |publisher=ceph.newdream.net }}</ref> which was released on May 16, 2010. An older [[Filesystem in Userspace|FUSE]]-based client is also available. The servers run as regular Unix [[daemon (computer software)|daemons]].
+
+== History ==
+Ceph made its debut at the 2006 USENIX Conference on Operating System Design (OSDI 2006) in a paper by Weil, Brandt, Miller, Long and Maltzahn;<ref>1.   "Ceph: A scalable, high-performance distributed file system,SA Weil, SA Brandt, EL Miller, DDE Long, C Maltzahn, Proc. OSDI 2006</ref> a more detailed description was published the following year in [[Sage Weil]]'s [[doctoral dissertation]].<ref name=thesis>{{cite web |date=2007-12-01 |author = Sage Weil |title=Ceph: Reliable, Scalable, and High-Performance Distributed Storage |url=https://ceph.com/wp-content/uploads/2016/08/weil-thesis.pdf |publisher=[[University of California, Santa Cruz]] }}</ref>
+
+After his graduation in fall 2007, Weil continued to work on Ceph full-time, and the core development team expanded to include Yehuda Sadeh Weinraub and Gregory Farnum. In 2012, Weil created [[Inktank Storage]] for professional services and support for Ceph.<ref name=inktanklaunch>{{cite web |date=2012-05-03 |author=Bryan Bogensberger |title=And It All Comes Together |url=http://www.inktank.com/uncategorized/and-it-all-comes-together-2/ |publisher=Inktank Blog |access-date=2012-07-10 |archive-url=https://web.archive.org/web/20120719100928/http://www.inktank.com/uncategorized/and-it-all-comes-together-2/# |archive-date=2012-07-19 |dead-url=yes |df= }}</ref><ref>{{cite news |title= The 10 Coolest Storage Startups Of 2012 (So Far) |author= Joseph F. Kovar |work= CRN |date= July 10, 2012 |url= http://www.crn.com/slide-shows/storage/240003163/the-10-coolest-storage-startups-of-2012-so-far.htm?pgno=5 |accessdate= July 19, 2013 }}</ref>
+
+In April 2014, [[Red Hat]] purchased Inktank, bringing the majority of Ceph development in-house.<ref name=redhatacquisition>{{cite web |date=2014-04-30 |accessdate=2014-08-19 |author = Red Hat Inc |title=Red Hat to Acquire Inktank, Provider of Ceph |url=http://www.redhat.com/en/about/press-releases/red-hat-acquire-inktank-provider-ceph |publisher=Red Hat }}</ref>
+
+In October 2015, the Ceph Community Advisory Board was formed to assist the community in driving the direction of open source software-defined storage technology. The charter advisory board includes Ceph community members from global IT organizations that are committed to the Ceph project, including individuals from [[Canonical (company)|Canonical]], [[CERN]], [[Cisco]], [[Fujitsu]], [[Intel]], [[Red Hat]], [[SanDisk]], and [[SUSE]].<ref name=advisoryboardformed>{{cite web |url=http://www.storagereview.com/ceph_community_forms_advisory_board|date=2015-10-28 |accessdate=2016-01-20|title=Ceph Community Forms Advisory Board}}</ref>
+
+* ''Argonaut''{{snd}} on July 3, 2012, the Ceph development team released Argonaut, the first major "stable" release of Ceph. This release will receive stability fixes and performance updates only, and new features will be scheduled for future releases.<ref name=argonaut>{{cite web |date=2012-07-03 |author = Sage Weil |title=v0.48 "Argonaut" Released |url=http://ceph.com/releases/v0-48-argonaut-released/ |publisher=Ceph Blog }}</ref>
+* ''Bobtail'' (v0.56){{snd}} on January 1, 2013, the Ceph development team released Bobtail, the second major stable release of Ceph. This release focused primarily on stability, performance, and upgradability from the previous Argonaut stable series (v0.48.x).<ref name=bobtail>{{cite web|date=2013-01-01 |author = Sage Weil |title=v0.56 Released|url=http://ceph.com/releases/v0-56-released/ |publisher=Ceph Blog }}</ref>
+* ''Cuttlefish'' (v0.61){{snd}} on May 7, 2013, the Ceph development team released Cuttlefish, the third major stable release of Ceph. This release included a number of feature and performance enhancements as well as being the first stable release to feature the 'ceph-deploy' deployment tool in favor of the previous 'mkcephfs' method of deployment.<ref name=cuttlefish>{{cite web|date=2013-05-17 |author = Sage Weil |title=v0.61 "Cuttlefish" Released|url=http://ceph.com/releases/v0-61-cuttlefish-released/ |publisher=Ceph Blog}}</ref>
+* ''Dumpling'' (v0.67){{snd}} on August 14, 2013, the Ceph development team released Dumpling, the fourth major stable release of Ceph. This release included a first pass at global namespace and region support, a REST API for monitoring and management functions, improved support for [[Red Hat Enterprise Linux derivatives]] (RHEL)-based platforms.<ref name=dumpling>{{cite web|date=2013-08-14 |author = Sage Weil |title=v0.67 Dumpling Released|url=http://ceph.com/releases/v0-67-dumpling-released/ |publisher=Ceph Blog}}</ref>
+* ''Emperor'' (v0.72){{snd}} on November 9, 2013, the Ceph development team released Emperor, the fifth major stable release of Ceph. This release brings several new features, including multi-datacenter replication for the radosgw, improved usability, and lands a lot of incremental performance and internal refactoring work to support upcoming features in Firefly.<ref name=emperor>{{cite web|date=2013-11-09 |author = Sage Weil |title=v0.72 Emperor Released|url=http://ceph.com/releases/v0-72-emperor-released/ |publisher=Ceph Blog}}</ref>
+* ''Firefly'' (v0.80){{snd}} on May 7, 2014, the Ceph development team released Firefly, the sixth major stable release of Ceph. This release brings several new features, including erasure coding, cache tiering, primary affinity, key/value OSD backend (experimental), standalone radosgw (experimental).<ref name=firefly>{{cite web|date=2014-05-07 |author = Sage Weil |title=v0.80 Firefly Released|url=http://ceph.com/releases/v0-80-firefly-released/ |publisher=Ceph Blog}}</ref>
+* ''Giant'' (v0.87){{snd}} on October 29, 2014, the Ceph development team released Giant, the seventh major stable release of Ceph.<ref name=giant>{{cite web|date=2014-10-29 |author = Sage Weil |title=v0.87 Giant Released|url=http://ceph.com/uncategorized/v0-87-giant-released/ |publisher=Ceph Blog}}</ref>
+* ''Hammer'' (v0.94){{snd}} on April 7, 2015, the Ceph development team released Hammer, the eighth major stable release of Ceph. It is expected to form the basis of the next long-term stable series. It is intended to supersede v0.80.x Firefly.<ref name=hammer>{{cite web|date=2015-04-07 |author = Sage Weil |title=v0.94 Hammer Released|url=http://ceph.com/releases/v0-94-hammer-released/ |publisher=Ceph Blog}}</ref>
+* ''Infernalis'' (v9.2.0){{snd}} on November 6, 2015, the Ceph development team released Infernalis, the ninth major stable release of Ceph. it will be the foundation for the next stable series. There have been some major changes since v0.94.x Hammer, and the upgrade process is non-trivial.<ref name=infernalis>{{cite web|date=2015-11-06 |author = Sage Weil |title=v9.2.0 Infernalis Released|url=http://ceph.com/releases/v9-2-0-infernalis-released/ |publisher=Ceph Blog}}</ref>
+* ''Jewel'' (v10.2.0){{snd}} on April 21, 2016, the Ceph development team released Jewel, the first Ceph release in which CephFS is considered stable. The CephFS repair and disaster recovery tools are feature-complete (bidirectional failover, [[N+1 redundancy|active/active]] configurations), some functionalities are disabled by default. This release includes new experimental RADOS backend named BlueStore which is planned to be the default storage backend in the upcoming releases.<ref name="Jewel"/>
+* ''Kraken'' (v11.2.0){{snd}} on January 20, 2017, the Ceph development team released Kraken. The new BlueStore storage format, introduced in Jewel, has now a stable on-disk format and is part of the test suite. Despite still marked as experimental, BlueStore is near-production ready, and should be marked as such in the next release, Luminous.<ref name=kraken>{{cite web|date=2017-01-20 |author = Abhishek L |title=v11.2.0 Kraken Released|url=http://ceph.com/releases/v11-2-0-kraken-released/ |publisher=Ceph Blog}}</ref>
+* ''Luminous'' (v12.2.0){{snd}} on August 29, 2017, the Ceph development team released Luminous.<ref name=luminous>{{cite web|date=2017-08-29 |author = Sage Weil |title=v12.2.0 Luminous Released|url=http://ceph.com/releases/v12-2-0-luminous-released/ |publisher=Ceph Blog}}</ref> Among other features the BlueStore storage format (using the raw disk instead of a filesystem) is now considered stable and recommended for use.
+* ''Mimic'' (v13.2.0){{snd}} on June 1, 2018, the Ceph development team released Mimic.<ref name=mimic>{{cite web|date=2018-06-01 |author = Abhishek L |title=v13.2.0 Mimic Released|url=https://ceph.com/releases/v13-2-0-mimic-released/ |publisher=Ceph Blog}}</ref> With the release of Mimic, snapshots are now stable when combined with multiple MDS daemons, and the RESTful gateways frontend Beast is now declared stable and ready for production use.
+
+== Etymology ==
+The name "Ceph" is an abbreviation of "[[cephalopod]]", a class of [[Mollusca|molluscs]] that includes the octopus. The name (emphasized by the logo) suggests the highly parallel behavior of an octopus and was chosen to connect the file system with UCSC's mascot, a [[banana slug]] called "Sammy".<ref name="ibm-developerworks"/> Both cephalopods and banana slugs are molluscs.
+
+== See also ==
+{{Portal|Free and open-source software|Linux}}
+
+{{Div col|colwidth=20em}}
+* [[BeeGFS]]
+* [[Distributed file system]]
+* [[Distributed parallel fault-tolerant file systems]]
+* [[Gfarm file system]]
+* [[GlusterFS]]
+* [[IBM General Parallel File System]] (GPFS)
+* [[LizardFS]]
+* [[Lustre (file system)|Lustre]]
+* [[MapR FS]]
+* [[Moose File System]]
+* [[OrangeFS]]
+* [[Parallel Virtual File System]]
+* [[Quantcast File System]]
+* [[RozoFS]]
+* [[XtreemFS]]
+* [[ZFS]]
+{{div col end}}
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+* [http://ceph.com/docs/master/ Official Ceph documentation]
+* {{cite journal
+ | author     = M. Tim Jones
+ | date       = 2010-05-04
+ | title      = Ceph: A Linux petabyte-scale distributed file system
+ | journal    = developerWorks > Linux > Technical library
+ | accessdate = 2010-05-06
+ | url        = http://www.ibm.com/developerworks/linux/library/l-ceph/index.html
+}}
+* {{cite journal
+ | author     = Jeffrey B. Layton
+ | date       = 2010-04-20
+ | title      = Ceph: The Distributed File System Creature from the Object Lagoon
+ | journal    = [[Linux Magazine]]
+ | accessdate = 2010-04-24
+ | url        = http://www.linux-mag.com/cache/7744/1.html
+}}
+* {{cite journal
+ |author1=Carlos Maltzahn |author2=Esteban Molina-Estolano |author3=Amandeep Khurana |author4=Alex J. Nelson |author5=Scott A. Brandt |author6=Sage Weil | date = August 2010 |volume=35 |issue=4
+ | title = Ceph as a scalable alternative to the Hadoop Distributed File System
+ | journal = [[;login:]]
+ | accessdate = 2012-03-09
+ | url = https://www.usenix.org/publications/login/august-2010-volume-35-number-4/ceph-scalable-alternative-hadoop-distributed-file
+}}
+* {{cite journal
+ | author = Martin Loschwitz
+ | date = April 24, 2012
+ | title = The RADOS Object Store and Ceph Filesystem
+ | journal = [[HPC ADMIN Magazine]]
+ | accessdate = 2012-04-25
+ | url = http://www.admin-magazine.com/HPC/Articles/The-RADOS-Object-Store-and-Ceph-Filesystem
+}}
+
+== External links ==
+{{Wiktionary|κεφαλή}}
+{{Commons category|Ceph}}
+* {{Official website|ceph.com}}
+* {{Official website|https://www.redhat.com/en/technologies/storage/ceph|Red Hat Ceph}}
+* [https://www.suse.com/products/suse-enterprise-storage SUSE Enterprise Storage (Ceph)]
+* [http://systems.soe.ucsc.edu/ UCSC Systems Research Lab]
+* [http://www.ssrc.ucsc.edu/ Storage Systems Research Center]
+* [http://www.slideshare.net/Inktank_Ceph/ceph-performance Ceph Performance and Optimization], Ceph Day Frankfurt (2014) at [[Slideshare]]
+
+{{File systems}}
+{{Red Hat}}
+
+[[Category:Distributed file systems supported by the Linux kernel]]
+[[Category:Free software]]
+[[Category:Network file systems]]
+[[Category:Red Hat software]]
+[[Category:Userspace file systems]]
+[[Category:Virtualization-related software for Linux]]

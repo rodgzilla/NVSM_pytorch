@@ -1,0 +1,604 @@
+{{Other uses}}
+{{Use mdy dates|date=May 2016}}
+{{Use American English|date=January 2014}}
+{{Infobox space station
+ |station                = Skylab
+ |station_image          = Skylab (SL-4).jpg
+ |station_image_size     =
+ |station_image_caption  = Skylab as photographed by its departing final crew ([[Skylab 4]])
+ |insignia               = Skylab Program Patch.png
+ |insignia_size          =
+ |insignia_caption       = Skylab program insignia
+ |sign                   = Skylab
+ |crew                   = 3 per mission (9 total)
+ |launch                 = May 14, 1973<br/>17:30:00 [[Coordinated Universal Time|UTC]]
+ |carrier_rocket         = [[Saturn V]]
+ |launch_pad             = [[Kennedy Space Center]] [[Kennedy Space Center Launch Complex 39|LC-39A]]
+ |reentry                = July 11, 1979<br/>16:37:00 UTC<br/>near [[Perth]], Australia
+ |status                 = Complete
+ |mass                   = {{convert|170000|lb|kg|sigfig=2|abbr=on}}<ref>{{cite web |url=https://history.nasa.gov/EP-107/ch4.htm |title=EP-107 Skylab: A Guidebook |work=NASA |accessdate=February 28, 2017}}</ref> <br/>w/o Apollo CSM
+ |length                 = {{convert|82.4|ft|m}} <br/>w/o Apollo CSM
+ |diameter               = {{convert|21.67|ft|m|1}}
+ |width                  = {{convert|55.8|ft|m}} <br/>w/ one solar panel
+ |height                 = {{convert|36.3|ft|m}} <br/>w/ telescope mount
+ |volume                 = {{convert|12417|cuft|m3|abbr=on}}
+ |pressure               =
+ |perigee                = {{convert|269.7|mi|km|1|abbr=on}}
+ |apogee                 = {{convert|274.6|mi|km|1|abbr=on}}
+ |inclination            = 50°
+ |altitude               =
+ |speed                  =
+ |period                 = 93.4 min
+ |orbits_day             = 15.4
+ |in_orbit               = 2,249 days
+ |occupied               = 171 days
+ |orbits                 = 34,981
+ |distance               = ~890,000,000 mi (1,400,000,000 km)
+ |NSSDC_ID               = 1973-027A
+ |as_of                  = Re-entry July 11, 1979
+ |stats_ref              =
+ |configuration_image    = Skylab illustration.jpg
+ |configuration_size     =
+ |configuration_caption  = Skylab configuration as planned
+}}
+{{United States space program sidebar}}
+
+'''Skylab''' was a [[United States]] [[space station]] launched and operated by [[NASA]], and occupied for about 24 weeks between May 1973 and February 1974&nbsp;– the only space station the U.S. has operated exclusively.  In 1979 it fell back to Earth amid huge worldwide media attention.  Skylab included a workshop, a solar observatory, and other systems necessary for crew survival and scientific experiments. It was launched unmanned by a modified [[Saturn V]] rocket, with a weight of {{convert|170000|lb|kg|sigfig=2}}. Lifting Skylab into [[low earth orbit]] was the final mission and launch of a Saturn V rocket (famous for carrying the [[Moon landing#Manned Moon landings|manned Moon landing missions]]).<ref name="1973 Evaluation">{{cite web |url=https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19730025115.pdf |format=PDF |title=SATURN V LAUNCH VEHICLE FLIGHT EVALUATION REPORT SA-513 SKYLAB 1 |work=NASA |date=1973 |accessdate=2016-05-29 }}</ref>  Three missions delivered three-[[astronaut]] crews in the [[Apollo command and service module]] (Apollo CSM), launched by the smaller [[Saturn IB]] rocket. For the final two manned missions to Skylab, a backup Apollo CSM/Saturn IB was assembled and made ready in case an in-orbit rescue mission was needed, but this backup vehicle was never flown.
+
+The station was damaged during launch when the [[micrometeoroid]] shield tore away from the workshop, taking one of the main [[solar panel]] arrays with it and jamming the other main array. This deprived Skylab of most of its electrical power, and also removed protection from intense [[solar heating]], threatening to make it unusable. The first crew was able to save Skylab by deploying a replacement heat shade and freeing the jammed solar panels. This was the first time a repair of this magnitude had been performed in space.
+
+Skylab included the [[Apollo Telescope Mount]] (a multi-spectral [[solar observatory]]), Multiple Docking Adapter (with two docking ports), [[Airlock]] Module with [[extravehicular activity]] (EVA) hatches, and the Orbital Workshop (the main habitable space inside Skylab). Electrical power came from solar arrays, as well as [[fuel cells]] in the docked Apollo CSM. The rear of the station included a large waste tank, propellant tanks for maneuvering jets, and a heat radiator. Numerous experiments were conducted aboard Skylab during its operational life. Solar science was significantly advanced by the telescope, and observation of the [[Sun]] was unprecedented. Thousands of photographs of Earth were taken, and the Earth Resources Experiment Package (EREP) viewed Earth with sensors that recorded data in the visible, infrared, and microwave spectral regions. The record for human time spent in orbit was extended beyond the 23 days set by the [[Soyuz 11]] crew aboard [[Salyut 1]], to 84 days by the [[Skylab 4]] crew.
+
+Later plans to reuse Skylab were stymied by delays in development of the [[Space Shuttle]], and Skylab's [[decaying orbit]] could not be stopped.  Skylab's [[atmospheric entry|atmospheric reentry]] began on July 11, 1979.<ref name=benson371/>  Before re-entry, NASA [[flight controller|ground controllers]] tried to adjust Skylab's orbit to minimize the risk of debris landing in populated areas,<ref name="time19790716"/> with their target—the south Indian Ocean—partially successful. Debris showered [[Western Australia]]; recovered pieces indicated that the station had disintegrated lower than expected.<ref name= lewis1984/>  As the Skylab program drew to a close, NASA's focus had shifted to the development of the Space Shuttle.  After Skylab, NASA space station/laboratory projects included [[Spacelab]], [[Shuttle-Mir|Shuttle-''Mir'']], and [[Space Station Freedom|Space Station ''Freedom'']] (which was later merged into the [[International Space Station]]).
+
+==Background==
+Rocket [[engineer]] [[Wernher von Braun]], [[science fiction]] writer [[Arthur C. Clarke]], and other early advocates of manned space travel, expected until the 1960s that a space station would be an important early step in space exploration. Von Braun participated in the publishing of a series of influential articles in ''[[Collier's]]'' magazine from 1952 to 1954, titled "[[Man Will Conquer Space Soon!]]". He envisioned a large, circular station 250 feet (75m) in diameter that would rotate to generate [[artificial gravity]] and require a fleet of 7,000-ton (6,500-metric ton) [[Space Shuttle design process|space shuttles]] for construction in orbit. The 80 men aboard the station would include astronomers operating a telescope, meteorologists to forecast the weather, and soldiers to conduct surveillance. Von Braun expected that future expeditions to the Moon and Mars would leave from the station.<ref>{{harvp|Heppenheimer|1999|pp=2–5|ps=.}}</ref>
+
+The development of the [[transistor]], the [[solar cell]], and [[telemetry]], led in the 1950s and early 1960s to unmanned satellites that could take photographs of weather patterns or enemy nuclear weapons and send them to Earth. A large station was no longer necessary for such purposes, and the United States [[Apollo program]] to send men to the Moon chose a mission mode that would not need in-orbit assembly. A smaller station that a single rocket could launch, retained value however for scientific purposes.<ref>{{harvp|Heppenheimer|1999|pp=55–60|ps=.}}</ref>
+
+===Early studies===
+In 1959, von Braun, head of the Development Operations Division at the [[Army Ballistic Missile Agency]], submitted his final [[Project Horizon]] plans to the [[U.S. Army]]. The overall goal of Horizon was to place men on the [[Moon]], a mission that would soon be taken over by the rapidly forming NASA. Although concentrating on the Moon missions, von Braun also detailed an orbiting laboratory built out of a Horizon upper stage,<ref>{{harvp|Benson|Compton|1983|p=23|ps=.}}</ref> an idea used for Skylab.<ref>{{harvp|Benson|Compton|1983|p=9|ps=.}}</ref> A number of NASA centers studied various space station designs in the early 1960s. Studies generally looked at platforms launched by the Saturn V, followed up by crews launched on Saturn IB using an [[Apollo command and service module]],<ref>{{harvp|Benson|Compton|1983|p=10|ps=.}}</ref> or a [[Project Gemini|Gemini capsule]]<ref>{{harvp|Benson|Compton|1983|p=14|ps=.}}</ref> on a [[Titan II GLV|Titan II-C]], the latter being much less expensive in the case where cargo was not needed. Proposals ranged from an Apollo-based station with two to three men, or a small "canister" for four men with Gemini capsules resupplying it, to a large, rotating station with 24 men and an operating lifetime of about five years.<ref>{{harvp|Benson|Compton|1983|pp=13–14|ps=.}}</ref> A proposal to study the use of a Saturn [[S-IVB]] as a manned space laboratory was documented in 1962 by the [[Douglas Aircraft]] Company.<ref>{{cite book |title= MSFC Skylab Orbital Workshop |volume= vol. 1 |date= May 1974 |page= 21-1}}</ref>
+
+===Air Force plans===
+[[File:MOL USAF.png|thumb|left|Illustration for MOL]]
+
+The [[United States Department of Defense|Department of Defense]] (DoD) and NASA cooperated closely in many areas of space.<ref>{{harvp|Heppenheimer|1999|pp=198–202|ps=.}}</ref> In September 1963, NASA and the DoD agreed to cooperate in building a space station.<ref name="ReferenceA">{{harvp|Benson|Compton|1983|p=17|ps=.}}</ref> The DoD wanted its own manned facility, however,<ref name=Heppenheimer203>{{harvp|Heppenheimer|1999|p=203|ps=.}}</ref> and in December it announced [[Manned Orbital Laboratory]] (MOL), a small space station primarily intended for photo reconnaissance using large telescopes directed by a two-man crew. The station was the same diameter as a [[Titan II GLV|Titan II]] upper stage, and would be launched with the crew riding atop in a modified Gemini capsule with a hatch cut into the [[heat shield]] on the bottom of the capsule.<ref>{{harvp|Benson|Compton|1983|pp=17–19|ps=.}}</ref><ref>{{cite web|url=http://www.astronautix.com/craft/mol.htm|title=MOL (Manned Orbiting Laboratory)|publisher=|deadurl=yes|archiveurl=https://web.archive.org/web/20090721035424/http://www.astronautix.com/craft/mol.htm|archivedate=July 21, 2009|df=mdy-all}}</ref><ref>{{cite web|url=http://www.globalsecurity.org/space/systems/kh-10.htm|title=KH-10, Dorian |first=John |last= Pike|publisher=}}</ref> MOL competed for funding with a NASA station for the next five years<ref>{{harvp|Benson|Compton|1983|p=15|ps=.}}</ref> and politicians and other officials often suggested that NASA participate in MOL or use the DoD design.<ref name=Heppenheimer203/> The military project led to changes to the NASA plans so that they would resemble MOL less.<ref name="ReferenceA"/>
+
+==Development==
+{{Listen
+| image       = [[File:Video Camera Icon.png|50px]]
+| help        = no
+| filename    = NASA Skylab Pre-Flight Orbital Workshop Overview-1972.ogv
+| title       = NASA's Skylab pre-flight orbital workshop overview, circa 1972
+| pos         = right
+}}
+[[File:Assembling the Skylab Orbital Workshop 7014162.jpg|thumb|The floor grating of Skylab under construction]]
+
+===Apollo Applications Program===
+{{Main|Apollo Applications Program}}
+
+NASA management was concerned about losing the 400,000 workers involved in Apollo after landing on the Moon in 1969.<ref>{{harvp|Benson|Compton|1983|pp=20, 22|ps=.}}</ref> A reason von Braun, head of NASA's [[Marshall Space Flight Center]] during the 1960s, advocated for a smaller station after his large one was not built was that he wished to provide his employees with work beyond developing the Saturn rockets, which would be completed relatively early during Project Apollo.<ref>{{harvp|Heppenheimer|1999|p=61|ps=.}}</ref> NASA set up the ''Apollo Logistic Support System Office'', originally intended to study various ways to modify the Apollo hardware for scientific missions. The office initially proposed a number of projects for direct scientific study, including an extended-stay lunar mission which required two Saturn V launchers, a "lunar truck" based on the [[Lunar Module]] (LEM), a large manned solar telescope using a LEM as its crew quarters, and small space stations using a variety of LEM or CSM-based hardware. Although it did not look at the space station specifically, over the next two years the office would become increasingly dedicated to this role. In August 1965, the office was renamed, becoming the ''Apollo Applications Program'' (AAP).<ref>{{harvp|Benson|Compton|1983|p=20|ps=.}}</ref>
+
+As part of their general work, in August 1964 the [[Lyndon B. Johnson Space Center|Manned Spacecraft Center]] (MSC) presented studies on an expendable lab known as ''Apollo "X"'', short for ''Apollo Extension System''. "Apollo X" would have replaced the LEM carried on the top of the [[S-IVB]] stage with a small space station slightly larger than the CSM's service area, containing supplies and experiments for missions between 15 and 45 days' duration. Using this study as a baseline, a number of different mission profiles were looked at over the next six months.
+
+===Wet workshop===
+{{Main|Wet workshop}}
+[[File:Dr. von Braun's Sketch of the Space Station 8883912 original.jpg|thumb|right|upright|Von Braun's sketch of a Space Station based on conversion of a Saturn V stage, 1964.]]
+
+In November 1964, von Braun proposed a more ambitious plan to build a much larger station built from the [[S-II]] second stage of a Saturn V. His design replaced the S-IVB third stage with an aeroshell, primarily as an adapter for the CSM on top. Inside the shell was a {{convert|10|ft|m|adj=on}} cylindrical equipment section. On reaching orbit, the [[S-II]] second stage would be vented to remove any remaining hydrogen fuel, then the equipment section would be slid into it via a large inspection hatch. This became known as a "wet workshop" concept, because of the conversion of an active fuel tank. The station filled the entire interior of the S-II stage's hydrogen tank, with the equipment section forming a "spine" and living quarters located between it and the walls of the booster. This would have resulted in a very large {{convert|33|by|45|ft|m|1|adj=on}} living area. Power was to be provided by [[solar cell]]s lining the outside of the S-II stage.<ref>{{harvp|Benson|Compton|1983|p=22|ps=.}}</ref>
+
+One problem with this proposal was that it required a dedicated Saturn V launch to fly the station. At the time the design was being proposed, it was not known how many of the then-contracted Saturn Vs would be required to achieve a successful Moon landing. However, several planned Earth-orbit test missions for the LEM and CSM had been canceled, leaving a number of Saturn IBs free for use. Further work led to the idea of building a smaller "wet workshop" based on the S-IVB, launched as the second stage of a Saturn IB.
+
+A number of S-IVB-based stations were studied at MSC from mid-1965, which had much in common with the Skylab design that eventually flew. An [[airlock]] would be attached to the hydrogen tank, in the area designed to hold the [[Apollo Lunar Module|LEM]], and a minimum amount of equipment would be installed in the tank itself in order to avoid taking up too much fuel volume. Floors of the station would be made from an open metal framework that allowed the fuel to flow through it. After launch, a follow-up mission launched by a Saturn IB would launch additional equipment, including solar panels, an equipment section and docking adapter, and various experiments. [[Douglas Aircraft]], builder of the S-IVB stage, was asked to prepare proposals along these lines. The company had for several years been proposing stations based on the S-IV stage, before it was replaced by the S-IVB.<ref>{{harvp|Benson|Compton|1983|p=25|ps=.}}</ref>
+
+[[File:Wet Workshop.svg|left|thumb|An early "[[wet workshop]]" version of Skylab]]
+On April 1, 1966, MSC sent out contracts to [[Douglas Aircraft Company|Douglas]], [[Grumman]], and [[McDonnell Aircraft|McDonnell]] for the conversion of a S-IVB spent stage, under the name ''Saturn S-IVB spent-stage experiment support module'' (SSESM).<ref>{{harvp|Benson|Compton|1983|p=30|ps=.}}</ref> In May, astronauts voiced concerns over the purging of the stage's hydrogen tank in space. Nevertheless, in late July it was announced that the Orbital Workshop would be launched as a part of Apollo mission AS-209, originally one of the Earth-orbit CSM test launches, followed by two Saturn I/CSM crew launches, AAP-1 and AAP-2.
+
+MOL remained AAP's chief competitor for funds, although the two programs cooperated on technology. NASA considered flying experiments on MOL, or using its [[Titan IIIC]] booster instead of the much more expensive Saturn IB. The agency decided that the Air Force station was not large enough, and that converting Apollo hardware for use with Titan would be too slow and too expensive.<ref>{{harvp|Benson|Compton|1983|pp=45–48|ps=.}}</ref>  The DoD later canceled MOL in June 1969.<ref>{{harvp|Benson|Compton|1983|p=109|ps=.}}</ref>
+
+===Dry workshop===
+Design work continued over the next two years, in an era of shrinking budgets.<ref name="mc670127">{{cite news |agency=[[United Press International]] |work=The Mid-Cities Daily News |title=Space Hut Workshop Planned |page=8 |url=https://news.google.com/newspapers?id=OEhgAAAAIBAJ&sjid=H3ENAAAAIBAJ&pg=3540,1271581&dq=space+hut+is+an&hl=en |date=January 27, 1967 |via= [[Google News]] }}</ref> (NASA sought $450 million for Apollo Applications in fiscal year 1967, for example, but received $42 million.)<ref>{{harvp|Heppenheimer|1999|pp=64–65|ps=.}}</ref> In August 1967, the agency announced that the lunar mapping and base construction missions examined by the AAP were being canceled. Only the Earth-orbiting missions remained, namely the Orbital Workshop and [[Apollo Telescope Mount]] solar observatory.
+
+The success of [[Apollo 8]] in December 1968, launched on the third flight of a Saturn V, made it likely that one would be available to launch a dry workshop.<ref>{{harvp|Heppenheimer|1999|p=66|ps=.}}</ref> Later, several Moon missions were canceled as well, originally to be [[Canceled Apollo missions|Apollo missions 18 through 20]]. The cancellation of these missions freed up three Saturn V boosters for the AAP program. Although this would have allowed them to develop von Braun's original S-II based mission, by this time so much work had been done on the S-IV based design that work continued on this baseline. With the extra power available, the wet workshop was no longer needed;<ref>{{harvp|Benson|Compton|1983|pp=109–110|ps=.}}</ref> the S-IC and S-II lower stages could launch a "dry workshop", with its interior already prepared, directly into orbit.
+
+===Habitability===
+[[File:SkyLab Isometric 2.tiff|thumb|upright|Labeled cut-away view of the main workshop]]
+
+A dry workshop simplified plans for the interior of the station.<ref>{{harvp|Benson|Compton|1983|p=130|ps=.}}</ref> Industrial design firm [[Raymond Loewy]]/William Snaith recommended emphasizing habitability and comfort for the astronauts by providing a wardroom for meals and relaxation<ref>{{harvp|Benson|Compton|1983|pp=133–134|ps=.}}</ref> and a window to view Earth and space, although astronauts were dubious about the designers' focus on details such as color schemes.<ref name="ReferenceB">{{harvp|Benson|Compton|1983|p=137|ps=.}}</ref> Habitability had not previously been an area of concern when building spacecraft due to their small size and brief mission durations, but the Skylab missions would last for months.<ref>{{harvp|Benson|Compton|1983|p=133|ps=.}}</ref> NASA sent a scientist on [[Jacques Piccard]]'s ''Ben Franklin'' submarine in the Gulf Stream in July and August 1969 to learn how six people would live in an enclosed space for four weeks.<ref>{{harvp|Benson|Compton|1983|pp=139–140|ps=.}}</ref>
+
+Astronauts were uninterested in watching movies on a proposed entertainment center or in playing games, but they did want books and individual music choices.<ref name="ReferenceB"/> Food was also important; early Apollo crews complained about its quality, and a NASA volunteer found it intolerable to live on the Apollo food for four days on Earth. Its taste and composition were unpleasant, in the form of cubes and squeeze tubes. [[space food#Skylab (1973-1974)|Skylab food]] significantly improved on its predecessors by prioritizing edibility over scientific needs.<ref>{{harvp|Benson|Compton|1983|pp=141–142|ps=.}}</ref>
+
+Each astronaut had a private sleeping area the size of a small walk-in closet, with a curtain, sleeping bag, and locker.<ref>{{harvp|Belew|1977|p=82|ps=.}}</ref> Designers also added a shower<ref>{{harvp|Benson|Compton|1983|p=139|ps=.}}</ref><ref name="harvp|Belew|1977|p=80|ps">{{harvp|Belew|1977|p=80|ps=.}}</ref> and a [[space toilet|toilet]]<ref>{{harvp|Benson|Compton|1983|pp=152–158|ps=.}}</ref><ref>{{harvp|Belew|1977|p=30|ps=.}}</ref> for comfort and to obtain precise urine and feces samples for examination on Earth.<ref>{{harvp|Benson|Compton|1983|p=165|ps=.}}</ref>
+
+Skylab did not have recycling systems such as conversion of urine to drinking water; it also did not dispose of waste by dumping it into space. The S-IVB's {{convert|73280|L|cuft|adj=on|order=flip}} [[liquid oxygen]] tank below the OWS was used to store trash and waste water, passed through an airlock.
+
+===Rescue===
+{{Main|Skylab Rescue}}
+
+[[Skylab Rescue|Rescuing astronauts from Skylab]] was possible in the most likely emergency circumstances. The crew could use the CSM to quickly return to Earth if the station suffered serious damage. If the CSM failed, the spacecraft and Saturn IB for the next Skylab mission would have been launched with two astronauts to retrieve the crew; given Skylab's ample supplies, its residents would have been able to wait up to several weeks for the rescue mission.<ref name="ep-107">{{cite book |title=Skylab: A Guidebook |last1= Belew |first1= Leland F. |last2= Stuhlinger |first2= Ernst |last-author-amp= yes |year= 1973 |url= https://history.nasa.gov/EP-107/contents.htm |location= Washington, DC |publisher= National Aeronautics and Space Administration |pages= 24–28 |id= EP-107 |oclc= 702094}}</ref>
+
+==Components==
+[[File:Cover3skylabcompontents.jpg|thumb|Major components of Skylab]]
+{| class="wikitable"
+|-
+! Component !! Mass<ref name="1973 Evaluation"/><ref name="Gatland">{{cite book |last1= Bono |first1= Phillip |last2= Gatland |first2= Kenneth |title= Frontiers of Space |date= 1976 |publisher= MacMillan |location= New York |page= 121 |edition= 1st American Revised <!--|access-date=February 8, 2016-->}}</ref><ref>{{cite web |url=https://history.nasa.gov/EP-107/ch4.htm |title=EP-107 Skylab: A Guidebook. Chapter IV: Skylab Design and Operation |work=NASA |publisher=NASA History |accessdate=2016-05-29 }}</ref>!! Habitable Volume !! Length !! Diameter
+|-
+| Payload shroud || {{convert|25600|lb|kg}} || — || {{convert|56.0|ft|m}} || {{convert|21.6|ft|m}}
+|-
+| Apollo Telescope Mount || {{convert|24500|lb|kg}} || — || {{convert|14.7|ft|m}} || {{convert|11.3|ft|m}}
+|-
+| Multiple Docking Adapter || {{convert|12000|lb|kg}} || {{convert|1140|ft3|m3}} || {{convert|17.3|ft|m}} || {{convert|10.5|ft|m}}
+|-
+| Airlock module || {{convert|49000|lb|kg}} || {{convert|613|ft3|m3}} || {{convert|17.6|ft|m}} || {{convert|10.5|ft|m}}
+|-
+| Instrument Unit || {{convert|4600|lb|kg}} || — || {{convert|3.0|ft|m}} || {{convert|21.6|ft|m}}
+|-
+| Orbital Workshop || {{convert|78000|lb|kg}} || {{convert|10664|ft3|m3}} || {{convert|48.1|ft|m}} || {{convert|21.6|ft|m}}
+|-
+| Total in orbit|| {{convert|195,300|lb|kg}} || {{convert|12417|ft3|m3}} || {{convert|82.4|ft|m}} || {{convert|21.6|ft|m}}
+|-
+| Apollo CSM || {{convert|31000|lb|kg}} || {{convert|210|ft3|m3}} || {{convert|36.1|ft|m}} || {{convert|12.8|ft|m}}
+|-
+| Total with CSM || {{convert|199750|lb|kg}} || {{convert|12627|ft3|m3}} || {{convert|118.5|ft|m}} || {{convert|21.6|ft|m}}
+|}
+
+==Operational history==
+
+===Completion and launch===
+[[File:SKYLAB I - view from a distance.jpg|thumb|left|Launch of the modified [[Saturn V]] rocket carrying the Skylab space station]]
+
+On August 8, 1969, the [[McDonnell Douglas]] Corporation received a contract for the conversion of two existing S-IVB stages to the Orbital Workshop configuration. One of the S-IV test stages was shipped to McDonnell Douglas for the construction of a mock-up in January 1970. The Orbital Workshop was renamed "Skylab" in February 1970 as a result of a NASA contest.<ref>{{harvp|Benson|Compton|1983|p=115|ps=.}}</ref> The actual stage that flew was the upper stage of the AS-212 rocket (the S-IVB stage, S-IVB 212). The mission computer used aboard Skylab was the [[IBM]] [[System 4 Pi|System/4Pi]] TC-1, a relative of the [[AP-101]] Space Shuttle computers.  A Saturn V originally produced for the Apollo program—before the cancellation of Apollo 18, 19, and 20—was repurposed and redesigned to launch Skylab.<ref>{{cite web|last=Tate|first=Kara|title=Skylab: How NASA's First Space Station Worked |type= Infographic |url=http://www.space.com/21055-skylab-space-station-nasa-infographic.html|access-date=April 24, 2014}}</ref> The Saturn V's upper stage was removed, but with the controlling [[Saturn V Instrument Unit|Instrument Unit]] remaining in its standard position.
+
+Skylab was launched on May 14, 1973 by the modified Saturn V.  The launch is sometimes referred to as Skylab 1, or SL-1. Severe damage was sustained during launch and deployment, including the loss of the station's [[meteor|micrometeoroid]] shield/sun shade and one of its main [[solar panel]]s. Debris from the lost micrometeoroid shield further complicated matters by pinning the remaining solar panel to the side of the station, preventing its deployment and thus leaving the station with a huge power deficit.<ref>{{harvp|Benson|Compton|1983|pp=253–255|ps=.}}</ref>
+
+Immediately following Skylab's launch, Pad A at [[Kennedy Space Center Launch Complex 39]] was deactivated, and construction proceeded to modify it for the [[Space Shuttle]] program, originally targeting [[Cancelled Space Shuttle missions#STS-1A|a maiden launch in March 1979]]. The manned missions to Skylab would occur using a [[Saturn IB]] rocket from Launch Pad 39B.
+
+SL-1 was the last unmanned launch from LC-39A until February 19, 2017, when [[SpaceX CRS-10]] was launched from there.
+
+===Manned missions===
+[[File:S73-32568skylab3saturnibnight.jpg|thumb|left|upright|Skylab 3's Saturn IB at night, July 1973]]
+[[File:Skylab 3 flyaround.jpg|thumb|right|Skylab in orbit in 1973 as flown, docking ports in view]]
+[[File:False Color Isophote of a Solar Eruption.jpg|thumb|right|Solar prominence recorded by Skylab on August 21, 1973<ref>{{cite web|url=http://mix.msfc.nasa.gov/abstracts.php?p=1375|title=A Solar Prominence Taken by the Skylab Telescope|publisher=}}</ref>]]
+
+Three manned missions, [[#Mission designations|designated]] [[Skylab 2|SL-2]], [[Skylab 3|SL-3]] and [[Skylab 4|SL-4]], were made to Skylab.  The first manned mission, SL-2, launched on May 25, 1973 atop a Saturn IB and involved extensive repairs to the station. The crew deployed a parasol-like sunshade through a small instrument port from the inside of the station, bringing station temperatures down to acceptable levels and preventing overheating that would have melted the plastic insulation inside the station and released poisonous gases. This solution was designed by NASA's "Mr. Fix It" [[Jack Kinzler]], who won the [[NASA Distinguished Service Medal]] for his efforts. The crew conducted further repairs via two [[spacewalk]]s (extra-vehicular activity, or EVA).  The crew stayed in orbit with Skylab for 28 days. Two additional missions followed, with the launch dates of July 28, 1973 (SL-3) and November 16, 1973 (SL-4), and mission durations of 59 and 84 days, respectively. The last Skylab crew returned to Earth on February 8, 1974.
+
+In addition to the three manned missions, there was a rescue mission on standby that had a crew of two, but could take five back down.
+
+*''Skylab 2'': launched May 25, 1973
+*''Skylab 3'': launched July 28, 1973
+*''Skylab 4'': launched November 16, 1973
+*''Skylab 5'': cancelled
+*''Skylab Rescue'' on standby
+
+Also of note was the three-man crew of [[Skylab Medical Experiment Altitude Test]], who spent 56 days at low-pressure in 1972 on Earth.<ref name="history.nasa.gov">{{cite web|url=https://history.nasa.gov/SP-4011/part3b.htm|title=part3b|publisher=}}</ref> This was a spaceflight analog test in full gravity, but various Skylab hardware and medical knowledge was gained
+
+===Orbital operations===
+{{Bar graph
+| title       = Days in Space
+| float       = right
+| bar_width   = 10
+| width_units = em
+| data_max    = 100
+| label_type  = Mission
+| data_type   = #
+| label1      = [[Skylab 2]]
+| data1       = 28
+| label2      = [[Skylab 3]]
+| data2       = 60
+| label3      = [[Skylab 4]]
+| data3       = 84
+
+<!-- Bar charts were limited to 25 rows when this note was added -->
+}}
+[[File:Astronaut Owen Garriott Performs EVA During Skylab 3 - GPN-2002-000065.jpg|thumb|left|[[Owen Garriott]] performing an EVA in 1973]]
+
+Skylab orbited Earth 2,476 times during the 171 days and 13 hours of its occupation during the three manned Skylab expeditions.  Each of these extended the human record of 23 days for amount of time spent in space set by the Soviet [[Soyuz 11]] crew aboard the space station [[Salyut 1]] on June 30, 1971. [[Skylab 2]] lasted 28 days, [[Skylab 3]] 56 days, and [[Skylab 4]] 84 days. Astronauts performed ten spacewalks, totaling 42 hours and 16 minutes. Skylab logged about 2,000 hours of scientific and medical experiments, 127,000 frames of film of the Sun and 46,000 of Earth.<ref>{{harvp|Benson|Compton|1983|p=340|ps=.}}</ref> Solar experiments included photographs of eight [[solar flare]]s, and produced valuable results<ref>{{harvp|Belew|1977|p=155|ps=.}}</ref> that scientists stated would have been impossible to obtain with unmanned spacecraft.<ref>{{harvp|Benson|Compton|1983|pp=342–344|ps=.}}</ref> The existence of the Sun's [[coronal holes]] were confirmed because of these efforts.<ref>{{harvp|Benson|Compton|1983|p=357|ps=.}}</ref> Many of the experiments conducted investigated the astronauts' adaptation to extended periods of [[microgravity]].
+
+A typical day began at 6 a.m. [[Central Time Zone]].<ref>{{harvp|Benson|Compton|1983|pp=307–308|ps=.}}</ref> Although the toilet was small and noisy, both veteran astronauts—who had endured earlier missions' rudimentary waste-collection systems—and rookies complimented it.<ref>{{harvp|Benson|Compton|1983|pp=165, 307|ps=.}}</ref><ref name="harvp|Belew|1977|p=80|ps"/><ref name="time19730625"/> The first crew enjoyed taking a shower once a week, but found drying themselves in weightlessness<ref name="time19730625">{{cite news |url= http://www.time.com/time/printout/0,8816,907462,00.html |title= Living It Up in Space |work= Time |date= June 25, 1973 |page=61}}</ref> and vacuuming excess water difficult; later crews usually cleaned themselves daily with wet washcloths instead of using the shower. Astronauts also found that bending over in weightlessness to put on socks or tie shoelaces strained their stomach muscles.<ref>{{harvp|Benson|Compton|1983|pp=306–308|ps=.}}</ref>
+
+Breakfast began at 7 a.m. Astronauts usually stood to eat, as sitting in microgravity also strained their stomach muscles. They reported that their food—although greatly improved from Apollo—was bland and repetitive, and weightlessness caused utensils, food containers, and bits of food to float away; also, gas in their drinking water contributed to [[flatulence]]. After breakfast and preparation for lunch, experiments, tests and repairs of spacecraft systems and, if possible, 90 minutes of physical exercise followed; the station had a bicycle and other equipment, and astronauts could jog around the water tank. After dinner, which was scheduled for 6 p.m., crews performed household chores and prepared for the next day's experiments. Following lengthy daily instructions (some of which were up to 15 meters long) sent via [[teleprinter]], the crews were often busy enough to postpone sleep.<ref>{{harvp|Benson|Compton|1983|pp=309, 334|ps=.}}</ref><ref>{{harvp|Marietta|Bendix|1978|p=2-7|ps=.}}</ref>
+
+The station offered what a later study called "a highly satisfactory living and working environment for crews", with enough room for personal privacy.<ref>{{harvp|Martin Marietta|Bendix|1978|p=2-4|ps=.}}</ref> Although it had a [[darts|dart set]],<ref name="darts">{{cite web |url= http://www.nasm.si.edu/collections/artifact.cfm?id=A19731653000 |title= Darts Game, Skylab |publisher= Smithsonian National Air and Space Museum}}</ref> [[playing cards]], and other recreational equipment in addition to books and music players, the window with its view of Earth became the most popular way to relax in orbit.<ref>{{harvp|Belew|1977|pp=79–80, 134–135|ps=.}}</ref>
+
+==Experiments==
+[[File:Spider Anita.jpg|thumb|Spider Anita ﬂown aboard Skylab]]
+[[File:Sl3-122-2587ellenfromskylab.jpg|thumb|right|Hurricane Ellen of 1973, as seen from Skylab]]
+
+Prior to departure about 80 experiments were named, although they are also described as "almost 300 separate investigations".<ref name="ep-107"/>   Experiments were divided into six broad categories:
+* Life science—human physiology, biomedical research; circadian rhythms (mice, gnats)
+* Solar physics and astronomy—sun observations (eight telescopes and separate instrumentation); Comet Kohoutek (Skylab 4); stellar observations; space physics
+* Earth resources—mineral resources; geology; hurricanes; land and vegetation patterns
+* Material science—welding, brazing, metal melting; crystal growth; water / fluid dynamics
+* Student research—19 different student proposals.  Several experiments were commended by the crew, including a dexterity experiment and a test of web spinning by spiders in low gravity.
+* Other—human adaptability, ability to work, dexterity; habitat design / operations
+
+Because the solar scientific airlock—one of two research airlocks—was unexpectedly occupied by the "Parasol" that replaced the missing meteorite shield, a few experiments were instead installed outside with the telescopes during space walks, or shifted to the Earth-facing scientific airlock.
+
+Skylab 2 spent less time than planned on most experiments due to station repairs. On the other hand, Skylab 3 and Skylab 4 far exceeded the initial experiment plans, once the crews adjusted to the environment and established comfortable working relationships with ground control.
+
+The figure (below) lists an overview of most major experiments.<ref>{{cite web |url=http://mix.msfc.nasa.gov/abstracts.php?p=1319 |title=Skylab Experiments |publisher= Marshall Space Flight Center, National Aeronautics and Space Administration |date= 1973}}</ref> Skylab 4 carried out several more experiments, such as to observe [[Comet Kohoutek]].<ref>{{cite web|url=https://airandspace.si.edu/collection-objects/command-module-skylab-4|title=Skylab 4 Command Module|publisher=Smithsonian National Air and Space Museum|access-date=May 18, 2018}}</ref>
+
+===Summary===
+[[File:Skylabexpsheet.jpg|thumb|left|upright=3.5|Overview of most major experiments]]
+{{clear}}
+
+===Example===
+[[File:Skylabed24.jpg|thumb|left|upright=2.7|Chart for the ED 24 experiment<ref>[https://mix.msfc.nasa.gov/abstracts.php?p=1412]</ref>]]
+{{clear}}
+
+==Film vaults and window radiation shield==
+[[File:P188skylabfilmvault.jpg|thumb|A labeled illustration of a Skylab film vault, from '' Skylab: A Guidebook'' (EP-107) by NASA]]
+
+Skylab had certain features to protect vulnerable technology from radiation.<ref name="ntrs.nasa.gov">[https://ntrs.nasa.gov/search.jsp?R=19720010052]</ref> The window was vulnerable to darkening, and this darkening could affect experiment S190.<ref name="ntrs.nasa.gov"/> As a result, a light shield that could be open or shut was designed and installed on Skylab.<ref name="ntrs.nasa.gov"/> To protect a wide variety of films, used for a variety of experiments and for astronaut photography, there were 5 film vaults.<ref name="nasa.gov1">[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19720010052.pdf]</ref> There were four smaller film vaults in the Multiple Docking Adapter, which had to have four not one, because each spar could not carry enough weight for single larger film vault.<ref name="nasa.gov1"/> The orbital workshop could handle a single larger safe, which is also more efficient for shielding.<ref name="nasa.gov1"/> The large vault in the orbital workshop had an empty mass of 2398&nbsp;lb (1088&nbsp;kg, 171.3 stones).<ref name="nasa.gov1"/><ref name="ntrs.nasa.gov"/> The four smaller vaults had combined mass of 1545&nbsp;lb.<ref name="nasa.gov1"/> The primary construction material of all five safes was aluminum.<ref name="nasa.gov1"/> When Skylab re-entered there was one 180&nbsp;lb chunk of aluminum found that was thought to be a door to one of the film vaults.<ref>{{Cite book|url=https://books.google.com/books?id=X4WaYqQDVKwC&pg=PA313|title=Skylab: America's Space Station|last=Shayler|first=David|date=2001-05-28|publisher=Springer Science & Business Media|isbn=9781852334079|language=en}}</ref> The big film vault was one of the heaviest single pieces of Skylab to re-enter Earth's atmosphere.<ref>{{Cite news|url=https://www.washingtonpost.com/archive/politics/1979/07/11/latest-forecast-puts-skylab-over-southern-canada/840063eb-9870-42ef-8e24-093837b3e780/|title=Latest Forecast Puts Skylab Over Southern Canada|last=O'Toole|first=Thomas|date=1979-07-11|newspaper=The Washington Post|language=en-US|issn=0190-8286|access-date=2017-01-08}}</ref>
+
+A later example of a radiation vault is the [[Juno Radiation Vault]] for the [[Juno (spacecraft)|Juno]] orbiter for Jupiter; in that case it was designed to protect much of the unmanned spacecraft's electronics and it used 1&nbsp;cm thick walls of [[titanium]].<ref name="nasa.gov">{{Cite web|url=https://www.nasa.gov/mission_pages/juno/news/juno20100712.html|title=NASA - Juno Armored Up to Go to Jupiter|website=www.nasa.gov|language=en|access-date=2017-01-06}}</ref>
+
+The film vault was used for storing film from various sources including the [[Apollo Telescope Mount]] solar instruments.<ref name="auto">{{Cite web|url=https://history.nasa.gov/SP-402/ch4.htm|title=ch4|website=history.nasa.gov|access-date=2017-01-09}}</ref> Six ATM experiments used film to record data, and over the course of the missions over 150,000 successful exposures were recorded.<ref name="auto"/> The film canister had to be manually retrieved on manned spacewalks to the instruments during the missions.<ref name="auto"/> The film canisters were returned to Earth aboard the Apollo capsules when each mission ended, and were among the heaviest items that had to be returned at the end of each mission.<ref name="nasa.gov2">{{cite web|url=https://history.nasa.gov/SP-402/ch4.htm|title=ch4|publisher=}}</ref> The heaviest canisters weighed 40&nbsp;kg and could hold up to 16,000 frames of film.<ref name="nasa.gov2"/>
+
+==Gyroscopes==
+[[File:P46bskylabgyros.jpg|thumb|Skylab could change its attitude without using propellant by changing the spin of large gyroscopes]]
+
+There were two types of gyroscopes on Skylab. Control-moment gyroscopes could physically move the station, and rate gyroscopes measured the rate of rotation to find its orientation. (see [[Control moment gyroscope]] (CMG))<ref>{{Cite news|url=https://www.nytimes.com/1974/01/23/archives/skylabs-gyroscope-has-worst-seizure-breakdown-feared-working-pair.html|title=Skylab's Gyroscope Has Worst Seizure; Breakdown Feared|last=Times|first=Special To The New York|date=1974-01-23|newspaper=The New York Times|issn=0362-4331|access-date=2017-01-11}}</ref> The CMG helped provide the fine pointing needed by the Apollo Telescope Mount, and to resist various forces that can change the station's orientation.<ref name="nasa.gov3">[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19710007043.pdf]</ref>
+
+Some of the forces acting on Skylab that the pointing system needed to resist:<ref name="nasa.gov3"/>
+*[[Gravity-gradient stabilization|gravity gradient]]
+*aerodynamic disturbance
+*internal movements of crew
+
+{{quote|The Skylab-A attitude and pointing control system has been developed to meet the high accuracy requirements established by the desired experiment conditions. Conditions must be maintained by the control system under the influence of external and internal disturbance torques, such as gravity gradient and aerodynamic disturbances and onboard astronaut motion.|''SKYLAB ATTITUDE AND POINTING CONTROL SYSTEM''<ref name="nasa.gov3"/>}}
+
+Skylab was the first large spacecraft to use big [[gyroscope]]s, that could control its attitude.<ref name="nasa.gov4">{{cite web |url=https://history.nasa.gov/SP-400/p46.htm |title=p46 |publisher=}}</ref> The control could also be used to help point the instruments.<ref name="nasa.gov4"/> The gyroscopes took about ten hours to get spun up if they were turned off.<ref name="nasa.gov5">{{cite web |url=https://history.nasa.gov/SP-400/ch3.htm#46 |title=ch3 |publisher=}}</ref> There was also a thruster system to control Skylab's attitude.<ref name="nasa.gov5"/> There were 9 rate-gyroscope sensors, 3 for each axis.<ref name="nasa.gov5"/> These were sensors that fed their output to the Skylab digital computer.<ref name="nasa.gov5"/>  Two of three were active and their input was averaged, while the third was a backup.<ref name="nasa.gov5"/>  From NASA SP-400 ''Skylab, Our First Space Station'', "each Skylab control-moment gyroscope consisted of a motor-driven rotor, electronics assembly, and power inverter assembly. The 21-inch diameter rotor weighed 155 pounds and rotated at approximately 8950 revolutions per minute".<ref name="nasa.gov6">{{cite web |url=https://history.nasa.gov/SP-400/ch3.htm |title= Chapter 3, We Can Fix Anything. |publisher=NASA.gov}}</ref>
+
+There were three control movement gyroscopes on Skylab, but only two were required to maintain pointing.<ref name="nasa.gov6"/> The control and sensor gyroscopes were part of a system that help detect and control the orientation of the station in space.<ref name="nasa.gov6"/> Other sensors that helped with this were a Sun tracker and a star tracker.<ref name="nasa.gov6"/> The sensors fed data to the main computer, which could then use the control gyroscopes and or the thruster system to keep Skylab pointed as desired.<ref name="nasa.gov6"/>
+
+==Shower==
+[[File:Showering on Skylab - GPN-2000-001710.jpg|thumb|Astronaut in the shower with curtain partially down, July 1973]]
+[[File:Skylab 2 Conrad in shower.jpg|thumb|right|Conrad in the Skylab shower in 1973]]
+[[File:P268skylabshowertest.jpg|thumb|Earth testing showing partially and fully enclosed positions of the shower curtain]]
+
+Skylab had a zero-gravity shower system in the work and experiment section of the Orbital Workshop<ref name="auto1">{{Cite web|url=https://history.nasa.gov/SP-400/ch5.htm|title=ch5|website=history.nasa.gov|access-date=2017-01-18}}</ref> designed and built at the Manned Spaceflight Center.<ref name="part3b"/> It had a cylindrical curtain that went from floor to ceiling and a vacuum system to suck away water.<ref name="space.com">{{Cite news|url=http://www.space.com/24927-showering-on-skylab.html|title=Space History Photo: Showering on Skylab|newspaper=Space.com|access-date=2017-01-18}}</ref> The floor of the shower had foot restraints.
+
+To bathe, the user coupled a pressurized bottle of warmed water to the shower’s plumbing, then stepped inside and secured the curtain.  A push-button shower nozzle was connected by a stiff hose to the top of the shower.<ref name="part3b"/><ref name=spacearch/> The system was designed for about 6 pints (2.8 liters) of water per shower,<ref name="Clarity">{{Cite news|url=https://www.nytimes.com/1984/11/26/us/briefing-bathing-in-space.html|title=BRIEFING; Bathing in Space|last=Clarity|first=James F.|date=1984-11-26|last2=Jr|first2=Warren Weaver|newspaper=The New York Times|issn=0362-4331|access-date=2017-01-18}}</ref> the water drawn from the personal hygiene water tank.<ref name="part3b">{{Cite web|url=https://history.nasa.gov/SP-4011/part3b.htm|title=part3b|website=history.nasa.gov|access-date=2017-01-19}}</ref> The use of both the liquid soap and water was carefully planned out, with enough soap and warm water for one shower per week per person.<ref name="auto1"/>
+
+The first astronaut to use the space shower was [[Paul J. Weitz]] on [[Skylab 2]], the first manned mission.<ref name="auto1"/> {{quote|It took a fair amount longer to use than you might expect, but you come out smelling good.|Astronaut Weitz as quoted in SP-400 Skylab, Our First Space Station<ref name="nasa.gov7">{{cite web|url=https://history.nasa.gov/SP-400/ch5.htm|title=ch5|publisher=}}</ref>}} A Skylab shower took about two and a half hours, including the time to set up the shower and dissipate used water.<ref name="Guastello">{{Cite book |url=https://books.google.com/books?id=nyItAgAAQBAJ&pg=PA413|title=Human Factors Engineering and Ergonomics: A Systems Approach, Second Edition |last=Guastello |first=Stephen J. |date=2013-12-19 |publisher=CRC Press |isbn=9781466560093 |page=413 |language=en}}</ref> The procedure for operating the shower was as follows:<ref name=spacearch>{{Cite book|url=https://books.google.com/books?id=8RWKOxH1c8sC&pg=PA150|title=Architecture for Astronauts: An Activity-based Approach|last=Häuplik-Meusburger|first=Sandra|date=2011-10-18|publisher=Springer Science & Business Media|isbn=9783709106679|language=en}}</ref>
+#Fill up the pressurized water bottle with hot water and attach it to the ceiling
+#Connect the hose and pull up the shower curtain
+#Spray down with water
+#Apply [[liquid soap]] and spray more water
+#Vacuum up all the fluids and stow items
+
+One of the big concerns with bathing in space was control of droplets of water so that they did not cause an electrical short by floating into the wrong area.<ref name="pbs.org">{{Cite web|url=https://www.pbs.org/spacestation/station/living_sanitation.htm|title=Space Station {{!}} The Station {{!}} Living in Space|website=www.pbs.org|access-date=2017-01-18}}</ref> The vacuum water system was thus integral to the shower. The vacuum fed to a centrifugal separator, filter, and collection bag to allow the system to vacuum up the fluids.<ref name=spacearch/> Waste water was injected into a disposal bag which was in turn put in the waste tank.<ref name="history.nasa.gov"/> The material for the shower enclosure was fire-proof [[beta cloth]] wrapped around hoops of {{convert|43|in|cm}} diameter; the top hoop was connected to the ceiling.<ref name="part3b"/>  The shower could be collapsed to the floor when not in use.<ref name=spacearch/> Skylab also supplied astronauts with rayon terrycloth towels which had a color-coded stitching for each crew-member.<ref name="nasa.gov7">{{cite web|url=https://history.nasa.gov/SP-400/ch5.htm|title=ch5|publisher=}}</ref> There were 420 towels on board Skylab initially.<ref name="auto1"/>
+
+A simulated Skylab shower was also used during the 56 day Earth-bound Skylab analog mission SMEAT; the crew used the shower after exercise and found it a positive experience. .<ref name="Shayler">{{Cite book|url=https://books.google.com/books?id=X4WaYqQDVKwC&pg=PA157|title=Skylab: America's Space Station|last=Shayler|first=David|date=2001-05-28|publisher=Springer Science & Business Media|isbn=9781852334079|language=en}}</ref>
+
+==Cameras and film==
+[[File:Skylab 3 Close-Up - GPN-2000-001711.jpg|thumb|upright|A view of the Skylab space station taken with a hand-held 70 mm Hasselblad camera using a 100 mm lens and SO-368 medium speed Ektachrome film]]
+[[File:Sl2-05-364crete1973.jpg|thumb|The island of [[Crete]] as photographed on June 22, 1973 from Skylab]]
+[[File:40 Years Ago, Skylab Paved Way for International Space Station.jpg|thumb|Skylab as SL2 mission departs]]
+
+There was a variety of hand-held and fixed experiments that used various types of film. In addition to the instruments in the ATM solar observatory, 35 and 70&nbsp;mm film cameras were carried on board. A TV camera was carried that recorded video electronically. These electronic signals could be recorded to magnetic tape or be transmitted to Earth by radio signal. The TV camera was not a digital camera of the type that became common in the later decades, although Skylab did have a digital computer using microchips onboard.
+
+It was determined that film would fog up to due to radiation over the course of the mission.<ref name="ntrs.nasa.gov"/> To prevent this film was stored in vaults.<ref name="ntrs.nasa.gov"/>
+
+Personal (hand-held) camera equipment:<ref name="ch5b">{{Cite web|url=https://history.nasa.gov/EP-107/ch5b.htm#n4b|title=ch5b|publisher=history.nasa.gov|access-date=2017-01-14}}</ref>
+* Television camera
+** Westinghouse color
+** 25–150&nbsp;mm zoom
+* [[16 mm film]] video camera (Maurer), called the 16&nbsp;mm Data Acquisition Camera<ref name="ch5b"/> The DAC was capable of very low frame rates, such as for engineering data films, and it had independent shutter speeds.<ref name="scribd.com">[https://www.scribd.com/document/51552970/Handbook-of-Pilot-Operational-Equipment-for-Manned-Spaceflight] (2.1-1)</ref> It could be powered from a battery or from Skylab itself.<ref name="scribd.com"/> It used interchangeable lenses, and various lens and also film types were used during the missions.<ref name="scribd.com"/>
+** There were different options for [[frame rate]]s: 2, 4, 6, 12 and 24 frames per second<ref>{{Cite web|url=https://history.nasa.gov/EP-107/ch5b.htm#n4b|title=ch5b|website=history.nasa.gov|access-date=2017-01-18}}</ref>
+** Lenses available: 5, 10, 18, 25, 75, and 100&nbsp;mm
+** Films used:
+*** Ektachrome film
+*** SO-368 film
+*** SO-168 film
+
+Film for the DAC was contained in DAC Film Magazines, which contained up to 140 feet (42.7 m) of film.<ref>{{cite web|url=https://www.scribd.com/document/51552970/Handbook-of-Pilot-Operational-Equipment-for-Manned-Spaceflight|title=Handbook of Pilot Operational Equipment for Manned Spaceflight - Camera Lens|publisher=}}</ref> At 24 frames per second this was enough for 4 minutes of filming, with progressively longer film times with lower frame rates such as 16 minutes at 6 frames per second.<ref name="scribd.com"/> The film had to be loaded or unloaded from the DAC in a photographic [[dark room]].<ref name="scribd.com"/>
+
+*35&nbsp;mm film cameras (Nikon)<ref name="nasa.gov8">{{cite web|url=https://history.nasa.gov/EP-107/ch5b.htm#n4b|title=ch5b|publisher=}}</ref>
+**There were 5 Nikon 35&nbsp;mm film cameras on board, with 55&nbsp;mm and 300&nbsp;mm lenses.<ref>{{cite web|url=https://eol.jsc.nasa.gov/SearchPhotos/Metadata/Apollo-Saturn_4-6_tables.htm|title=OBSERVATION OF THE EARTH ORBITAL AND SUORBITAL SPACEFLIGHT MISSIONS|publisher=}}</ref>
+**They were specially modified [[Nikon F]] cameras<ref name="imaging.nikon.com">{{cite web|url=http://imaging.nikon.com/history/chronicle/rhnc12ti-e/|title=Nikon - Imaging Products - Legendary Nikons / Vol. 12. Special titanium Nikon cameras and NASA cameras|publisher=}}</ref>
+**The cameras were capable of interchangeable lenses.<ref name="imaging.nikon.com"/>
+**35mm films included:<ref>{{Cite web|url=https://eol.jsc.nasa.gov/SearchPhotos/Metadata/Apollo-Saturn_4-6_tables.htm|title=OBSERVATION OF THE EARTH ORBITAL AND SUORBITAL SPACEFLIGHT MISSIONS|website=eol.jsc.nasa.gov|access-date=2017-01-14}}</ref>
+***[[Ektachrome]]
+***SO-368,
+***SO-168
+***2485 type film
+***2443 type film
+*70&nbsp;mm film camera (Hasselblad)<ref name="ch5b"/>
+**This had an electric data camera system with [[Reseau plate]]
+**Films included
+***70&nbsp;mm Ektachrome
+***SO-368 film
+**Lenses: 70&nbsp;mm lens, 100&nbsp;mm lens<ref name="ch5b"/>
+
+Experiment S190B was the Actron Earth Terrain Camera<ref name="nasa.gov8"/>
+
+The S190A was the ''Multispectral Photographic Camera ''<ref name="ch5b"/>
+*This consisted of six 70&nbsp;mm cameras
+*Each was an Itek 70&nbsp;mm boresighted camera
+*Lenses were f/2.8 with a 21.2 degree [[field of view]].
+
+There was also a pair of [[Esselte Leitz GmbH & Co KG|Leitz]] Trinovid 10 x 40 binoculars modified for use in space to aid in Earth observations.<ref name="nasa.gov8"/>
+
+==Computers==
+[[File:Nasasoftwareforskylabcycle.jpg|left|thumb|Computational cycle of the Skylab computer program]]
+
+Skylab was controlled in part by a digital computer system, and one of its main jobs was to control the pointing of the station; pointing was especially important for its solar power collection and observatory functions.<ref name = "computer">{{cite web|last1=Jenkins|first1=Dennis|title=Advanced Vehicle Automation and Computers Aboard the Shuttle |url=https://history.nasa.gov/sts1/pages/computer.html|website=history.nasa.gov|publisher=NASA Printing and Design|accessdate=31 December 2017}}</ref> The computer consisted of two actual computers, a primary and a secondary. The system ran several thousand words of code, which was also backed up on the Memory Load Unit (MLU).<ref name = "computer"/> The two computers were linked to each other and various input and output items by the workshop computer interface.<ref>{{cite web|title=IBM Archives: IBM and Skylab|url=https://www-03.ibm.com/ibm/history/exhibits/space/space_skylab.html|website=www-03.ibm.com|publisher=IBM|accessdate=31 December 2017|date=23 January 2003}}</ref> Operations could be switched from the primary to the backup, which were the same design, either automatically if errors were detected, by the Skylab crew, or from the ground.<ref name = "computer"/>
+
+The Skylab computer was a space-hardened and customized version of the TC-1 computer, a version of the [[IBM System/4 Pi]], itself based on the [[IBM System/360|System 360]] computer.<ref name = "computer"/>  The TC-1 had a 16,000 word memory based on ferrite memory cores, while the MLU was a read-only [[tape drive]] that contained a backup of the main computer programs.<ref name = "computer"/>  The tape drive would take 11 seconds to upload the backup of the software program to a main computer.<ref name="Hardware">{{cite web|title=Computers in Spaceflight: The NASA Experience|url=https://history.nasa.gov/computers/Ch3-2.html|website=history.nasa.gov|accessdate=31 December 2017}}</ref> The TC-1 used 16-bit words and the [[Central processing unit|central processor]] came from the 4Pi computer.<ref name="Hardware"/> There was a 16k and an 8k version of the software program.<ref name="Software"/>
+
+The computer weighed 100 pounds (45.4&nbsp;kg, 7.14 stones) and consumed about ten percent of the station's [[Electric power|electrical power]].<ref>{{Cite web|url=https://www-03.ibm.com/ibm/history/exhibits/space/space_skylab.html|title=IBM Archives: IBM and Skylab|date=2003-01-23|website=www-03.ibm.com|language=en-US|access-date=2017-11-17}}</ref><ref name="computer"/>
+*Apollo Telescope Mount Digital Computer<ref name="Hardware"/>
+*Attitude and Pointing Control System (APCS)<ref name = "computer"/>
+*Memory Load Unit (MLU).<ref name="computer"/>
+
+After launch the computer is what the controllers on the ground communicated with to control the station's orientation.<ref name="Ch3-1">{{Cite web|url=https://history.nasa.gov/computers/Ch3-1.html|title=Ch3-1|website=history.nasa.gov|access-date=2017-11-17}}</ref> When the sun-shield was torn off the ground staff had to balance solar heating with electrical production.<ref name="Ch3-1"/> On March 6, 1978 the computer system was re-activated by NASA to control the re-entry.<ref name="Reactivation">{{cite web|title=Computers in Spaceflight: The NASA Experience|url=https://history.nasa.gov/computers/Ch3-5.html|website=history.nasa.gov|accessdate=31 December 2017}}</ref>
+
+The system had a user interface which consisted of a display, ten buttons, and a three position switch.<ref name="User Interfaces">{{cite web|title=Computers in Spaceflight: The NASA Experience. Ch3-4|url=https://history.nasa.gov/computers/Ch3-4.html|website=history.nasa.gov|accessdate=31 December 2017}}</ref> Because the numbers were in [[octal]] (base-8), it only had numbers zero to seven (8 keys), and the other two keys were enter and clear.<ref name="User Interfaces"/> The display could show minutes and seconds which would count-down to orbital benchmarks, or it could display keystrokes when using the interface.<ref name="User Interfaces"/> The interface could be used to change the software program.<ref name="User Interfaces"/> The user interface was called the Digital Address System (DAS) and could send commands to the computer's command system. The command system could also get commands from the ground.<ref name="Software">{{cite web|title=Computers in Spaceflight: The NASA Experience|url=https://history.nasa.gov/computers/Ch3-3.html|website=history.nasa.gov|accessdate=31 December 2017}}</ref>
+
+For personal computing needs Skylab crews were equipped with models of the then new hand-held electronic scientific calculator, which was used in place of slide-rules used on prior space missions as the primary personal computer. The model used was the [[HP-35|Hewlett Packard HP 35]].<ref>{{Cite news|url=https://airandspace.si.edu/collection-objects/calculator-pocket-electronic-hp-35|title=Calculator, Pocket, Electronic, HP-35|date=2016-03-14|work=National Air and Space Museum|access-date=2017-11-17|language=en}}</ref> Some slide rules continued in use aboard Skylab, and a [[Slide rule|circular slide rule]] was at the workstation.<ref>{{cite web|title=Aerospace Related Slide Rules|url=http://www.sliderulemuseum.com/Aerospace.htm|website=www.sliderulemuseum.com|publisher=International Slide Rule Museum|accessdate=31 December 2017}}</ref>
+
+==Plans for re-use after the last mission==
+[[File:SkylabRescue.jpg|thumb|upright|Skylab Rescue vehicle Apollo CSM being removed from its [[Saturn IB]] rocket after the last Skylab misson]]
+
+The three crewed Skylab missions used only about 16.8 of the 24 man-months of oxygen, food, water, and other supplies stored aboard Skylab.<ref>{{cite web|url=https://www.wired.com/2012/07/skylab-rescue-plan-1972/|title=Skylab Rescue Plan (1972)|first=David S. F.|last=Portree|publisher=}}</ref> A fourth manned mission was under consideration, which would have used the launch vehicle kept on standby for the Skylab Rescue mission.<ref name="astronautix.com">{{cite web|url=http://www.astronautix.com/s/skylab5.html|title=Skylab 5|publisher=}}</ref> This would have been a 20-day mission to boost Skylab to a higher altitude and do more scientific experiments.<ref name="astronautix.com"/>  Another plan was to use a [[Teleoperator Retrieval System]] (TRS) launched aboard the Space Shuttle (then under development), to robotically re-boost the orbit.<ref name="astronautix.com1">{{cite web|url=http://www.astronautix.com/s/skylabsuntimelyfate.html|title=Skylab's Untimely Fate|publisher=}}</ref> When Skylab 5 was cancelled, it was expected Skylab would stay in orbit until the 1980s, which was enough time to overlap with the beginning of Shuttle launches.<ref name="astronautix.com1"/> Other options for launching TRS included the [[Titan III]] and [[Atlas Agena]].<ref name="astronautix.com1"/> None of these options received the level of effort and funding needed for execution before Skylab's sooner-than-expected re-entry.<ref name="astronautix.com1"/> Skylab's internal systems were evaluated and tested from the ground, and effort was put into plans for re-using it, as late as 1978.<ref>[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19800012907.pdf]</ref>
+
+Though no one returned after the end of the SL-4 mission in February 1974, the crew left a bag filled with supplies to welcome visitors, and left the hatch unlocked.<ref name= oberg199202/> NASA discouraged any discussion of additional visits due to the station's age,<ref>{{harvp|Benson|Compton|1983|pp=335, 361|ps=.}}</ref> but in 1977 and 1978, when the agency still believed the [[Space Shuttle]] would be ready by 1979, it completed two studies on reusing the station.<ref name="oberg199202"/><ref>{{harvp|Martin Marietta|Bendix|1978|p=3-1|ps=.}}</ref> By September 1978, the agency believed Skylab was safe for crews, with all major systems intact and operational.<ref>{{harvp|Martin Marietta|Bendix|1978|p=3-2|ps=.}}</ref> It still had 180 [[man-days]] of water and 420 man-days of oxygen, and astronauts could refill both;<ref name="oberg199202"/> the station could hold up to about 600 to 700 man-days of drinkable water and 420 man-days of food.<ref>{{harvp|Martin Marietta|Bendix|1978|p=2-7|ps=.}}</ref> Before SL-4 left they did one more boost, running the Skylab thrusters for 3 minutes which added 11&nbsp;km in height to its orbit.<ref name="nasa.gov9">{{cite web|url=https://history.nasa.gov/SP-4208/ch19.htm|title=ch19|publisher=}}</ref> Skylab was left in a 433 by 455&nbsp;km orbit on departure.<ref name="nasa.gov9"/> At this time, the NASA-accepted estimate for its re-entry was nine years.<ref name="nasa.gov9"/>
+
+{{quote|..Calculations made during the mission, based on current values for solar activity and expected atmospheric density, gave the workshop just over nine years in orbit. Slowly at first-dropping 30 kilometers by 1980-and then faster-another 100 kilometers by the end of 1982-Skylab would come down, and some time around March 1983 it would burn up in the dense atmosphere.|''SP-4208 Living and Working In Space: A History of Skylab'', Chapter 19<ref name="nasa.gov9"/>}}
+
+The studies cited several benefits from reusing Skylab, which one called a resource worth "hundreds of millions of dollars"<ref name=MMB1-13>{{harvp|Martin Marietta|Bendix|1978|p=1-13|ps=.}}</ref> with "unique habitability provisions for long duration space flight".<ref name="ReferenceC">{{harvp|Martin Marietta|Bendix|1978|p=3-11|ps=.}}</ref> Because no more operational Saturn V rockets were available after the [[Apollo program]], four to five shuttle flights and extensive [[space architecture]] would have been needed to build another station as large as Skylab's {{convert|12,400|cuft|m3}} volume.<ref>{{harvp|Martin Marietta|Bendix|1978|pp=1-12 to 1-13|ps=.}}</ref> Its ample size—much greater than that of the shuttle alone, or even the shuttle plus [[Spacelab]]<ref>{{harvp|Martin Marietta|Bendix|1978|p=2-8|ps=.}}</ref>—was enough, with some modifications, for up to seven astronauts<ref>{{harvp|Martin Marietta|Bendix|1978|p=2-31|ps=.}}</ref> of both sexes,<ref>{{harvp|Martin Marietta|Bendix|1978|p=3-14|ps=.}}</ref> and experiments needing a long duration in space;<ref name=MMB1-13/> even a movie projector for recreation was possible.<ref name="ReferenceC"/>
+
+Proponents of Skylab's reuse also said repairing and upgrading Skylab would provide information on the results of long-duration exposure to space for future stations.<ref name="oberg199202"/> The most serious issue for reactivation was [[stationkeeping]], as one of the station's [[gyroscope]]s had failed<ref name=benson361>{{harvp|Benson|Compton|1983|p=361|ps=.}}</ref> and the [[attitude control system]] needed refueling; these issues would need EVA to fix or replace. The station had not been designed for extensive resupply. However, although it was originally planned that Skylab crews would only perform limited maintenance<ref>{{harvp|Belew|1977|p=34|ps=.}}</ref> they successfully made major repairs during EVA, such as the SL-2 crew's deployment of the solar panel<ref>{{harvp|Belew|1977|pp=73–75|ps=.}}</ref> and the SL-4 crew's repair of the primary coolant loop.<ref>{{harvp|Benson|Compton|1983|p=317|ps=.}}</ref><ref>{{harvp|Belew|1977|p=130|ps=.}}</ref><ref>{{harvp|Martin Marietta|Bendix|1978|p=3-21|ps=.}}</ref> The SL-2 crew fixed one item during EVA by, reportedly, "hit[ting] it with [a] hammer".<ref>{{harvp|Belew|1977|p=89|ps=.}}</ref>
+
+Some studies also said, beyond the opportunity for space construction and maintenance experience, reactivating the station would free up shuttle flights for other uses,<ref name=MMB1-13/> and reduce the need to [[Extended Duration Orbiter|modify the shuttle for long-duration missions]].<ref>{{harvp|Martin Marietta|Bendix|1978|pp=2-9 to 2-10|ps=.}}</ref> Even if the station were not manned again, went one argument, it might serve as an experimental platform.<ref>{{harvp|Martin Marietta|Bendix|1978|p=2-61|ps=.}}</ref>
+
+===Shuttle mission plans===
+[[File:Teleoperator Retrieval System with Shuttle.jpg|right|thumb|Concept for proposed Skylab re-boost]]
+
+The reactivation would likely have occurred in four phases:<ref name="oberg199202"/>
+# [[Canceled Space Shuttle missions#STS-2A (Columbia)|An early Space Shuttle flight]] would have boosted Skylab to a higher orbit, adding five years of operational life. The shuttle might have pushed or towed the station, but attaching a booster—the [[Teleoperator Retrieval System]] (TRS)—to the station would have been more likely, based on astronauts' training for the task. [[Martin Marietta]] won the contract for $26 million to design the apparatus.<ref name="time19790101"/> TRS would contain about three tons of propellant.<ref>[http://www.astronautix.com/craft/skyodule.htm Skylab Reboost Module<!-- Bot generated title -->] {{webarchive|url=https://web.archive.org/web/20091231140817/http://www.astronautix.com/craft/skyodule.htm |date=December 31, 2009 }}</ref> The remote-controlled booster had TV cameras and was designed for duties such as space construction and servicing and retrieving satellites the shuttle could not reach. After rescuing Skylab, the TRS would have remained in orbit for future use. Alternatively, it could have been used to de-orbit Skylab for a safe, controlled re-entry and destruction.<ref name="dempewolff197808">{{cite news |url=https://books.google.com/books?id=mM8DAAAAMBAJ&lpg=PA120 |title=Our Growing Junkyard in Space |work=Popular Mechanics |date=August 1978 |access-date=February 17, 2012 |last= Dempewolff |first= Richard F. |page=57 |via= Google Books }}</ref>
+# In two shuttle flights, Skylab would have been refurbished. In January 1982, the first mission would have attached a docking adapter and conducted repairs. In August 1983, a second crew would have replaced several system components.
+# In March 1984, shuttle crews would have attached a solar-powered Power Expansion Package, refurbished scientific equipment, and conducted 30- to 90-day missions using the Apollo Telescope Mount and the earth resources experiments.
+# Over five years, Skylab would have been expanded to accommodate six to eight astronauts, with a new large docking/interface module, additional logistics modules, Spacelab modules and pallets, and an orbital vehicle space dock using the shuttle's [[external tank]].
+
+The first three phases would have required about $60 million in 1980s dollars, not including launch costs.
+
+Other options for launching TRS were [[Titan III]] or [[Atlas Agena]].<ref name="astronautix.com1"/>
+
+==After departure==
+<!-- [[File:USNS Vanguard.jpg|thumb|left|[[USNS Mission San Fernando|''Vanguard'' (T-AGM-19)]] seen here as a NASA Skylab tracking ship. Note the tracking radar and telemetry antennas.]] -->
+[[File:Skylab 4 undocking.jpg|thumb|right|Skylab in February 1974, as SL-4 departs]]
+
+After a boost of {{convert|6.8 |mi}} by SL-4's Apollo CSM before its departure in 1974, Skylab was left in a [[parking orbit]] of {{convert|269|mi}} by {{convert|283|mi}}<ref name=benson361/> that was expected to last until at least the early 1980s, based on estimates of the 11-year [[sunspot cycle]] that began in 1976.<ref name="harvp|Edelson|1979|p=65">{{harvp|Edelson|1979|p=65}}</ref>{{r|ap19790704}} NASA first considered as early as 1962 the potential risks of a space station reentry, but decided not to incorporate a [[retrorocket]] system in Skylab due to cost and acceptable risk.<ref>{{harvp|Benson|Compton|1983|pp=127–129|ps=.}}</ref>
+
+The spent 49-ton [[Saturn V]] [[S-II]] stage which had launched Skylab in 1973 remained in orbit for almost two years, and made an uncontrolled reentry on January 11, 1975.<ref>{{cite news |url= http://archives.chicagotribune.com/1975/01/11/page/6/article/skylab-rocket-debris-falls-in-indian-ocean |title= Skylab Rocket Debris Falls in Indian Ocean |date= January 11, 1975 |work= Chicago Tribune |access-date= October 22, 2014 |page=6}}</ref>  Some debris, most prominently the five heavy [[J-2 (rocket engine)|J-2]] engines, likely survived to impact in the North Atlantic Ocean.  Although this event did not receive heavy media or public attention, it was followed closely by NASA and the Air Force, and helped emphasize the need for improved planning and public awareness for Skylab's eventual reentry.{{Citation needed|date=October 2011}}
+
+===Solar activity===
+[[File:Skylab Solar flare.jpg|left|thumb|Skylab captured this view of the Sun]]
+
+British mathematician [[Desmond King-Hele]] of the [[Royal Aircraft Establishment]] predicted in 1973 that Skylab would de-orbit and crash to earth in 1979, sooner than NASA's forecast, because of increased [[solar variation|solar activity]].<ref name="ap19790704">{{cite news | url=https://news.google.com/newspapers?nid=1876&dat=19790704&id=Bj8sAAAAIBAJ&sjid=xs0EAAAAIBAJ&pg=5468,1065536 | title=Foreign Astrologers, Soothsayers Make Skylab Predictions | work=Spartanburg Herald | date=1979-07-04 | agency=Associated Press | accessdate=1 September 2016 | pages=B8}}</ref> Greater-than-expected solar activity<ref>{{harvp|Benson|Compton|1983|p=362|ps=.}}</ref> heated the outer layers of Earth's atmosphere and increased drag on Skylab. By late 1977, [[NORAD]] also forecast a reentry in mid-1979;<ref name="harvp|Edelson|1979|p=65"/> a [[National Oceanic and Atmospheric Administration]] (NOAA) scientist criticized NASA for using an inaccurate model for the second most-intense sunspot cycle in a century, and for ignoring NOAA predictions published in 1976.<ref>{{harvp|Benson|Compton|1983|pp=362–363|ps=.}}</ref>
+
+The reentry of the USSR's nuclear powered [[Cosmos 954]] in January 1978, and the resulting radioactive debris fall in northern Canada, drew more attention to Skylab's orbit. Although Skylab did not contain radioactive materials, the [[United States Department of State|State Department]] warned NASA about the potential diplomatic repercussions of station debris.<ref>{{harvp|Benson|Compton|1983|p=363|ps=.}}</ref> [[Battelle Memorial Institute]] forecast that up to 25 tons of metal debris could land in 500 pieces over an area 4,000 miles long and 1,000 miles wide. The lead-lined film vault, for example, might land intact at 400 feet per second.<ref name="lewis1984">{{cite book |title= The Voyages of Columbia: The First True Spaceship |location= New York |publisher= Columbia University Press |last= Lewis |first= Richard S. |year= 1984 |url= https://books.google.com/books?id=v0cG1SdLkP0C|isbn= 0-231-05924-8 |pages= 80–82 |via= Google Books}}</ref>
+
+Ground controllers re-established contact with Skylab in March 1978<ref>{{harvp|Edelson|1979|pp=65-66}}</ref> and recharged its batteries.<ref name="time19790716"/> Although NASA worked on plans to reboost Skylab with the [[Space Shuttle]] through 1978 and the TRS was almost complete, the agency gave up in December when it became clear that the shuttle would not be ready in time;<ref name="time19790101">{{cite news |url= http://www.time.com/time/magazine/article/0,9171,916583,00.html |title= Science: Skylab Will Come Tumbling Down |work= Time |date= January 1, 1979 |page=72}}</ref><ref>{{harvp|Benson|Compton|1983|pp=363–367|ps=.}}</ref> its first flight, [[STS-1]], did not occur until April 1981. Also rejected were proposals to launch the TRS using one or two unmanned rockets<ref name="oberg199202">{{cite news |author-link= James Oberg |last= Oberg |first= James |url= http://www.astronautix.com/articles/skyyfate.htm |title= Skylab's Untimely Fate |work= Air & Space |date= February–March 1992 |deadurl= yes |archiveurl= https://web.archive.org/web/20120426074003/http://www.astronautix.com/articles/skyyfate.htm |archivedate= April 26, 2012 |df= mdy-all }}{{page needed|date=May 2016}}</ref> or to attempt to destroy the station with missiles.<ref name=lewis1984/>
+
+===Re-entry and debris===
+[[File:Skylab reentry map.svg|thumb|[[Equirectangular projection]] relief map of the Skylab re-entry site and final orbits, as predicted by NASA]]
+[[File:Skylabfragment.JPG|thumb|right|Fragment of Skylab recovered after its re-entry through Earth's atmosphere, on display at the [[U.S. Space & Rocket Center]]]]
+
+Skylab's demise in 1979 was an international media event, with T-shirts and hats with bullseyes<ref name=lewis1984/> and "Skylab Repellent" with a money-back guarantee,{{r|carrier19790708}} wagering on the time and place of re-entry, and nightly news reports. The ''[[San Francisco Examiner]]'' offered a $10,000 prize for the first piece of Skylab delivered to its offices; the competing ''[[San Francisco Chronicle]]'' offered $200,000 if a subscriber suffered personal or property damage.<ref name="time19790716"/> A Nebraska neighborhood painted a target so that the station would have "something to aim for", a resident said.<ref name="carrier19790708">{{cite news | url=https://www.newspapers.com/clip/6466603// | title=Some find Skylab good for 'Skylaughs' | work=The Kokomo Tribune | date=1979-07-08 | agency=Associated Press | accessdate=1 September 2016 | author=Carrier, Jim | pages=37}}</ref>
+
+NASA calculated that the odds were 1 to 152 of debris hitting any human.<ref>{{cite news |first= James |last= Coates |url= https://news.google.com/newspapers?nid=1291&dat=19790701&id=h9gPAAAAIBAJ&sjid=q4wDAAAAIBAJ&pg=6094,67904&hl=en |title= Skylab Danger Isn't as Small as NASA Hints |work= Boca Raton News |page= 7 |date= July 1, 1979 |via= Google News}}</ref> The odds were 1 to 7 of debris hitting a city of 100,000 people or more, and special teams were readied to head to any country hit by debris.<ref name="time19790716">{{cite news |url= http://www.time.com/time/printout/0,8816,920502,00.html |title= Skylab's Fiery Fall |work= Time |date= July 16, 1979 |page=20}}</ref> The event caused so much panic in the Philippines that President [[Ferdinand Marcos]] appeared on national television to reassure the public.{{r|ap19790704}}
+
+A week before re-entry, NASA forecast that it would occur between July 10 and 14, with the 12th the most likely date, and the Royal Aircraft Establishment predicted the 14th.{{r|ap19790704}} In the hours before the event, ground controllers adjusted Skylab's orientation to minimize the risk of re-entry on a populated area.<ref name="time19790716"/> They aimed the station at a spot {{convert|810|mi}} south-southeast of [[Cape Town]], South Africa, and re-entry began at approximately 16:37 UTC, July 11, 1979.<ref name=benson371>{{harvp|Benson|Compton|1983|p=371|ps=.}}</ref> The Air Force provided data from a secret tracking system.<ref name=lindoh/> The station did not burn up as fast as NASA expected. Debris landed about {{convert|300|mi|km}} east of [[Perth]], Western Australia due to a 4% calculation error,<ref name=benson371/> and was found between [[Esperance, Western Australia]] and [[Rawlinna]], from 31° to 34°S and 122° to 126°E, about 130–150&nbsp;km (81–93 miles) radius around [[Balladonia, Western Australia]]. Residents and an airline pilot saw dozens of colorful flares as large pieces broke up in the atmosphere;<ref name= lewis1984/> although the debris landed in the most unpopulated land on earth, the sightings caused NASA to fear human injury or property damage.{{r|lindoh}} The [[Shire of Esperance]] fined NASA A$400 for littering;<ref>{{cite web |last= O'Neill |first= Ian |url= http://news.discovery.com/space/celebrating-july-13-skylab-esperance-day.html |title= Celebrating July 13, 'Skylab-Esperance Day' |publisher= [[Discovery News]] |date= July 19, 2009}}</ref> the fine was paid in April 2009, when radio show host Scott Barley of Highway Radio raised the funds from his morning show listeners on behalf of NASA.<ref>{{cite news |first= Hannah |last= Siemer |url= http://esperance.yourguide.com.au/news/local/news/general/littering-fine-paid/1488319.aspx?storypage=1 |title= Littering Fine Paid |work= The Esperance Express |date= April 17, 2009 |deadurl= yes |archiveurl= https://archive.is/20120711163508/http://esperance.yourguide.com.au/news/local/news/general/littering-fine-paid/1488319.aspx?storypage=1 |archivedate= July 11, 2012 |df= mdy-all }}</ref><ref>{{cite news |first= Paul |last= Sutherland |url= http://www.skymania.com/wp/2009/07/nasas-litter-bill-paid-30-years-on.html/691/ |title= NASA’s Litter Bill Paid 30 Years On |work= Skymania News |date= July 5, 2009}}</ref>
+
+Stan Thornton found 24 pieces of Skylab at his home in Esperance, and a Philadelphia businessman flew him, his parents, and his girlfriend to San Francisco where he collected the ''Examiner'' prize.<ref name=benson371/><ref name= lewis1984/> In a coincidence for the organizers, the annual [[Miss Universe 1979|Miss Universe]] pageant was scheduled a few days later on July 20, 1979 in Perth, and a large piece of Skylab debris was displayed on the stage.<ref>{{cite web |url= http://criticalbeauty.com/MU_Telecast_1979.html |title= Venezuela Wins for the First Time: The Pageant Does Down Under |work= Critical Beauty |archive-date=December 21, 2004 |archive-url= https://web.archive.org/web/20041221044954/http://criticalbeauty.com/MU_Telecast_1979.html}}</ref> Analysis of the debris showed that the station had disintegrated {{convert|10|mi|km}} above the Earth, much lower than expected.<ref name= lewis1984/>
+
+After the demise of Skylab, NASA focused on the reusable [[Spacelab]] module, an orbital workshop that could be deployed with the Space Shuttle and returned to Earth. The next American major space station project was [[Space Station Freedom]], which was merged into the [[International Space Station]] in 1993 and launched starting in 1998. [[Shuttle-Mir]] was another project and led to the US funding [[Spektr]], [[Priroda]], and the [[Mir Docking Module]] in the 1990s.
+{{further|List of reentering space debris}}
+
+==Rockets, rescue, and cancelled missions==
+[[File:Skylab rescue cm.jpg|thumb|5-person Apollo Command module for the Apollo Rescue mission]]
+[[File:Kennedy Space Center - Rocket Garden.jpg|thumb|SA-209 served on standby for Skylab 4 and ASTP, and has been preserved at the [[Kennedy Space Center]] rocket garden.]]
+
+There was a [[Skylab Rescue]] mission assembled for the second manned mission to Skylab, but it was not needed. Another rescue mission was assembled for the last Skylab and was also on standby for ASTP. That launch stack might have been used for Skylab 5, what would be the fourth manned Skylab mission but this was cancelled and the SA-209 Saturn IB rocket was put on display at NASA [[Kennedy Space Center]].<ref name="historicspacecraft.com">{{cite web|url=http://historicspacecraft.com/skylab.html|title=Historic Spacecraft - Skylab|first=Richard|last=Kruse|publisher=}}</ref>
+
+Launch vehicles:<ref name="historicspacecraft.com"/>
+*SA-206 (Skylab 2)
+*SA-207 (Skylab 3)
+*SA-208 (Skylab 4)
+*SA-209 (Skylab Rescue, not-launched)
+
+===Skylab 5===
+Skylab 5 would have been a short 20-day mission to conduct more scientific experiments and use the Apollo's Service Propulsion System engine to boost Skylab into a higher orbit. [[Vance Brand]] (commander), [[William B. Lenoir]] (science pilot), and [[Don Lind]] (pilot) would have been the crew for this mission, with Brand and Lind being the prime crew for the Skylab Rescue flights.<ref name=astronautixskylab5>{{cite web |last= Wade |first= Mark |title= Skylab 5 |url= http://www.astronautix.com/flights/skylab5.htm |work= Astronautix |access-date= February 4, 2011 |deadurl= yes |archiveurl= https://web.archive.org/web/20110513235733/http://www.astronautix.com/flights/skylab5.htm |archivedate= May 13, 2011 |df= mdy-all }}</ref> Brand and Lind also trained for a mission that would have aimed Skylab for a controlled [[deorbit]].<ref name="lindoh">{{cite web |url= http://www.jsc.nasa.gov/history/oral_histories/LindDL/linddl.pdf |title= Don L. Lind Oral History Transcript |publisher= NASA Johnson |work= Space Center Oral History Project |date= May 27, 2005}}</ref>
+
+The mission would have launched in April 1974 and supported later use by the Space Shuttle, at the time in development, by boosting the station to higher orbit.<ref>{{Cite web|url=http://www.spacefacts.de/cancelled/english/skylab-5.htm|title=Cancelled spaceflight mission: Skylab 5|last=Becker|first=Joachim|website=www.spacefacts.de|access-date=2018-12-03}}</ref>
+
+===Skylab B===
+{{Main|Skylab B}}
+
+In addition to the flown Skylab space station, a second flight-quality backup Skylab space station had been built during the program. NASA considered using it for a second station in May 1973 or later, to be called Skylab B (S-IVB 515), but decided against it. Launching another Skylab with another Saturn V rocket would have been very costly, and it was decided to spend this money on the development of the Space Shuttle instead. The backup is on display at the [[National Air and Space Museum]] in [[Washington, D.C.]]
+
+==Engineering mock-ups==
+A full-size training mock-up once used for astronaut training is located at the [[Lyndon B. Johnson Space Center]] visitor's center in [[Houston, Texas]].  Another full-size training mock-up is at the [[U.S. Space & Rocket Center]] in [[Huntsville, Alabama]].  Originally displayed indoors, it was subsequently stored outdoors for several years to make room for other exhibits.  To mark the 40th anniversary of the Skylab program, the Orbital Workshop portion of the trainer was restored and moved into the Davidson Center in 2013.<ref>{{cite web |url= http://www.spacecamp.com/mu/exhibits |title= Museum Galleries |archive-url= https://web.archive.org/web/20131029200245/http://www.spacecamp.com/mu/exhibits |archive-date= October 29, 2013}}</ref><ref>{{cite web|url=http://blog.al.com/breaking/2013/01/post_1045.html|title= Skylab Engineering Mockup Moves into Saturn V Hall at Space and Rocket Center After 10 Years Outdoors |work= AL.com}}</ref>  NASA transferred [[Skylab B|the backup Skylab]] to the National Air and Space Museum in 1975. On display in the Museum's Space Hall since 1976, the orbital workshop has been slightly modified to permit viewers to walk through the living quarters.<ref>{{cite web |url= http://airandspace.si.edu/collections/artifact.cfm?id=A19761033000 |title= Orbital Workshop, Skylab, Backup Flight Unit |publisher= Smithsonian Institution National Air and Space Museum }}</ref>
+
+==Mission designations==
+The numerical identification of the manned Skylab missions was the cause of some confusion. Originally, the unmanned launch of Skylab and the three manned missions to the station were numbered ''SL-1'' through ''SL-4''. During the preparations for the manned missions, some documentation was created with a different scheme—''SLM-1'' through ''SLM-3''—for those missions only. [[William Pogue]] credits [[Pete Conrad]] with asking the Skylab program director which scheme should be used for the [[mission patch]]es, and the astronauts were told to use 1-2-3, not 2-3-4. By the time NASA administrators tried to reverse this decision, it was too late, as all the in-flight clothing had already been manufactured and shipped with the 1-2-3 mission patches.<ref>{{cite web |url= http://williampogue.com/skylab-numbering-mixup.html |title= Skylab Numbering Fiasco |work= WilliamPogue.com}}</ref>
+
+{| class="wikitable plainrowheaders"
+|-
+! scope="col" style="width: 100px;" | Mission
+! scope="col" | Emblem
+! scope="col" style="width: 120px;" | Commander
+! scope="col" style="width: 120px;" | Science Pilot
+! scope="col" style="width: 120px;" | Pilot
+! scope="col" style="width: 175px;" | Launch date
+! scope="col" style="width: 175px;" | Landing date
+! scope="col" style="width:  50px;" | Duration (days)
+|-
+! scope="row" | Skylab 1 ''SL-1''
+| [[File:Skylab Program Patch.png|center|50px]]
+| colspan="3" style="text-align: center;" | ''unmanned launch of space station''
+| 1973-05-14 <br>17:30:00 UTC
+| 1979-07-11 <br>16:37:00 UTC
+| style="text-align: right;" | 2248.96
+|-
+! scope="row" | [[Skylab 2|Skylab 2 ''SL-2'' (''SLM-1'')]]
+| [[File:Skylab1-Patch.png|center|50px]]
+| [[Pete Conrad]]
+| [[Joseph Kerwin]]
+| [[Paul J. Weitz|Paul Weitz]]
+| 1973-05-25 <br>13:00:00 UTC
+| 1973-06-22 <br>13:49:48 UTC
+| style="text-align: right;" | 28.03
+|-
+! scope="row" | [[Skylab 3|Skylab 3 ''SL-3'' (''SLM-2'')]]
+| [[File:Skylab2-Patch.png|center|50px]]
+| [[Alan Bean]]
+| [[Owen Garriott]]
+| [[Jack Lousma]]
+| 1973-07-28 <br>11:10:50 UTC
+| 1973-09-25 <br>22:19:51 UTC
+| style="text-align: right;" | 59.46
+|-
+! scope="row" | [[Skylab 4|Skylab 4 ''SL-4'' (''SLM-3'')]]
+| [[File:Skylab3-Patch.png|center|50px]]
+| [[Gerald P. Carr|Gerald Carr]]
+| [[Edward Gibson]]
+| [[William R. Pogue|William Pogue]]
+| 1973-11-16 <br>14:01:23 UTC
+| 1974-02-08 <br>15:16:53 UTC
+| style="text-align: right;" | 84.04
+|-
+! scope="row" | [[Skylab 5]]
+|
+| [[Vance Brand]]
+| [[William B. Lenoir]]
+| [[Don Lind]]
+| (April 1974, Cancelled)
+|
+|20 (notional)
+|-
+! scope="row" | [[Skylab Rescue]]
+| [[File:Skylab rescue crew.jpg|center|50px]]
+| [[Vance Brand]]
+| [[Don Lind]]
+| (Survivors)
+| (On Standby)
+|
+| style="text-align: right;" |
+|}
+
+;SMEAT
+The ''Skylab Medical Experiment Altitude Test'' or SMEAT was a 56-day (8 week) Earth analog Skylab test.<ref>{{cite web|url=https://history.nasa.gov/SP-4208/ch8.htm|title=ch8|publisher=}}</ref> The test had a low-pressure high oxygen-percentage atmosphere but it operated under full gravity, as SMEAT was not in orbit. The test had a three-man crew with Commander (Crippen), Science Pilot (Bobko), and Pilot (Thornton);<ref>{{cite web|url=https://www.nasa.gov/centers/johnson/about/history/jsc50/S72-43280.html|title=Astronaut Crippen With Skylab Training Hardware|first=NASA|last=Administrator|date=March 12, 2015|publisher=}}</ref> there was a focus on medical studies and Thornton was an M.D.<ref>{{cite web|url=https://utmb-ir.tdl.org/utmb-ir/handle/2152.3/587|title=Skylab Medical Experiments Altitude Test (SMEAT)|publisher=|deadurl=yes|archiveurl=https://web.archive.org/web/20170131200539/https://utmb-ir.tdl.org/utmb-ir/handle/2152.3/587|archivedate=January 31, 2017|df=mdy-all}}</ref> The crew lived and worked in the pressure chamber, converted to be like Skylab, from July 26 to September 20, 1972.<ref name="history.nasa.gov"/>
+
+{| class="wikitable plainrowheaders"
+|-
+! scope="col" style="width: 100px;" | Mission
+! scope="col" | Emblem
+! scope="col" style="width: 120px;" | Commander
+! scope="col" style="width: 120px;" | Science Pilot
+! scope="col" style="width: 120px;" | Pilot
+! scope="col" style="width: 175px;" | Start date
+! scope="col" style="width: 175px;" | End date
+! scope="col" style="width:  50px;" | Duration (days)
+|-
+! scope="row" | [[Skylab Medical Experiment Altitude Test|SMEAT]]
+|[[File:SMEAT patch.jpg|center|50px]]
+|[[Bob Crippen]]
+|[[Karol Bobko]]
+| [[William E. Thornton|William Thornton]]
+| July 26, 1972
+| September 20, 1972.<ref name="history.nasa.gov"/>
+| 56-days
+|}
+
+==Program cost==
+From 1966 to 1974, the Skylab program cost a total of $2.2&nbsp;billion, equivalent to $10&nbsp;billion in 2010 dollars. As its three three-man crews spent 510 total man-days in space, each man-day cost approximately $20&nbsp;million, compared to $7.5&nbsp;million for the International Space Station.<ref name="lafleur20100308">{{cite news |url= http://www.thespacereview.com/article/1579/1 |title= Costs of US Piloted Programs |work= The Space Review |date= March 8, 2010 |access-date= February 18, 2012 |last= Lafleur |first= Claude}} See author's correction in comments section.</ref>
+
+==Gallery==
+<gallery>
+File:Skylab Latrine.jpg|The waste management facilities in the backup Skylab at the [[National Air and Space Museum]].
+File:Skylab mockup Smithsonian NASM.jpg|An astronaut mannequin dines aboard the backup Skylab at the [[Smithsonian]] [[National Air and Space Museum|NASM]].
+File:Skylab2 1974 Issue-10c.jpg|SkyLab [[U.S. Space Exploration History on U.S. Stamps|commemorative stamp]], Issue of 1974. The commemorative stamp reflects initial repairs to the station, including the parasol sunshade.
+File:Skylab labeled.jpg|Illustration of Skylab configuration with docked [[command and service module]]
+File:USNS Vanguard.jpg|[[USNS Mission San Fernando|''Vanguard'' (T-AGM-19)]] seen as a NASA Skylab tracking ship. Note the tracking radar and telemetry antennas.
+File:RobbinsMedallionSkylabByPhilKonstantin.jpg|[[NASA space-flown Gemini and Apollo medallions#Robbins medallions|Robbins medallions]] issued for Skylab Missions.
+File:Space Center Houston Skylab wardroom.jpg|[[Space Center Houston]] Skylab 1-G Trainer depicting astronaut mannequins in the wardroom and taking a shower
+File:Space Center Houston Skylab spacewalk.jpg|An astronaut mannequin performs a spacewalk alongside the Skylab 1-G Trainer telescope at Space Center Houston
+File:Space Center Houston Skylab work area.jpg|An astronaut mannequin exercises in the Skylab 1-G Trainer at Space Center Houston
+</gallery>
+
+==See also==
+{{Portal|Spaceflight}}
+* [[Timeline of longest spaceflights]]
+* [[Skylab Medical Experiment Altitude Test]] (SMEAT)
+* [[Skylab II]] (proposed space station)
+* "[[The Man-Machine#Track listing|Spacelab]]", a 1978 song by [[Kraftwerk]]
+*[[Solar panels on spacecraft]]
+
+==References==
+* {{Include-NASA}}
+
+===Footnotes===
+{{reflist}}
+
+===Works cited===
+{{refbegin}}
+*{{cite book |editor-last= Belew |editor-first= Leland. F. |year= 1977 |url= https://history.nasa.gov/SP-400/contents.htm |title= Skylab, Our First Space Station |location= Washington, DC |publisher= National Aeronautics and Space Administration Scientific and Technical Information Office |id= SP-400 |oclc= 2644423 |ref= harv}}
+*{{cite book |last1= Benson |first1= Charles Dunlap |first2= William David |last2= Compton |last-author-amp= yes |year= 1983 |url= https://history.nasa.gov/SP-4208/contents.htm |title= Living and Working in Space: A History of Skylab |location= Washington, DC |publisher= National Aeronautics and Space Administration Scientific and Technical Information Office |id= SP-4208 |oclc= 8114293 |ref= harv}}
+*{{cite book |title= The Space Shuttle Decision: NASA's Search for a Reusable Space Vehicle |location= Washington, DC |publisher= National Aeronautics and Space Administration History Office |id= SP-4221 |last= Heppenheimer |first= T. A. |year= 1999 |url=https://history.nasa.gov/SP-4221/contents.htm |oclc= 40305626 |ref= harv}}
+*{{cite book |title= Skylab Reuse Study |author1= Martin Marietta |author2= Bendix |last-author-amp= yes |location= Washington, DC |publisher= National Aeronautics and Space Administration |date= September 1978 |ref= harv}}
+*{{cite journal |last= Edelson |first= Edward |url= https://books.google.com/books?id=kQEAAAAAMBAJ&lpg=PA64 |title= Saving Skylab: The Untold Story |work= Popular Science |date= January 1979 |via= Google Books |ref = harv}}
+{{refend}}
+
+==Further reading==
+* {{cite book |url= https://history.nasa.gov/SP-4011/cover.htm |title= Skylab: A Chronology |first1= Roland W. |last1= Newkirk |first2= Ivan D. |last2= Ertel |first3= Courtney G. |last3= Brooks |publisher= National Aeronautics and Space Administration |id= SP-4011 |year= 1977}}
+* [https://history.nasa.gov/SP-402/contents.htm SP-402 A New Sun: The Solar Results from Skylab]
+* [https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19740024203_1974024203.pdf Skylab Mission Evaluation – NASA report (PDF format)]
+* [https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19800012907_1980012907.pdf Skylab Reactivation Mission Report 1980 – NASA report (PDF format)]
+
+==External links==
+{{Commons|Skylab}}
+* [https://web.archive.org/web/20130224083415/http://www.voicesofoklahoma.com/william_pogue.html Voices of Oklahoma interview with William Pogue.] First person interview conducted with William Pogue on August 8, 2012. Original audio and transcript archived with [https://web.archive.org/web/20100729022003/http://voicesofoklahoma.com/index.html Voices of Oklahoma oral history project.]
+
+===NASA===
+* [https://history.nasa.gov/series95.html NASA History Series Publications] (many of which are on-line)
+** ''[https://history.nasa.gov/SP-4011/cover.htm SP-4011 Skylab, a Chronology]'' (1977) [https://history.nasa.gov/SP-4011/illustr.htm 1]
+** ''[https://history.nasa.gov/SP-401/sp401.htm SP-401 Skylab, Classroom in Space]'' (1977)
+** ''[https://history.nasa.gov/SP-399/sp399.htm SP-399 Skylab EREP Investigations Summary]'' (1978)
+** ''[https://history.nasa.gov/SP-402/sp402.htm SP-402 A New Sun: Solar Results from Skylab]'' (1979)
+** ''[https://web.archive.org/web/20170131003146/https://history.nasa.gov/SP-404/sp404.htm SP-404 Skylab's Skylab's Astronomy and Space Sciences]'' (1979)
+* {{YouTube|id=laI73xn-pvw|title=Skylab: Four Rooms Earth View}} NASA Educational Film
+* [http://mix.msfc.nasa.gov/abstracts.php?p=1237 Airlock Module under construction (1971)] ([https://web.archive.org/web/20110725023712/http://mix.msfc.nasa.gov/IMAGES/MEDIUM/7017242.jpg Medium])
+* [http://mix.msfc.nasa.gov/abstracts.php?p=1305 Airlock and Docking Module together (1972)] ([https://web.archive.org/web/20110725023732/http://mix.msfc.nasa.gov/IMAGES/MEDIUM/7028844.jpg Medium])
+* [http://lsda.jsc.nasa.gov/lsda_data/dil_data/S7405151.jpg Skylab Crew Quarters Illustration]
+* [http://lsda.jsc.nasa.gov/lsda_data/dil_data/S7405154.jpg Apollo (in foreground) and Skylab space food] ([https://web.archive.org/web/20110927094217/http://lsda.jsc.nasa.gov/scripts/experiment/exper.cfm?exp_index=861 M487])
+
+===Third party===
+* [https://web.archive.org/web/20110721154600/http://www.eoportal.org/directory/pres_SkylabSpaceStation.html eoPortal: Skylab]
+* [http://historicspacecraft.com/skylab.html Historic Spacecraft: Skylab]
+* [https://web.archive.org/web/20091231140817/http://www.astronautix.com/craft/skyodule.htm Skylab reboost module]
+* [http://www.spaceref.com/iss/skylab.deorbit.html Skylab Reentry] (Chapter 9 of SP-4208)
+* [http://media-2.web.britannica.com/eb-media/94/70094-050-6C93F1E6.jpg Skylab cutaway drawing from Encyclopædia Britannica]
+* [http://www.flightglobal.com/airspace/photos/missilespacesystemscutaways/lockheed-skylab-cutaway-10301.aspx Cutaway line drawing of Skylab]
+* [https://www.flickr.com/photos/nasacommons/5277460409/ Skylab "Christmas tree"]
+
+{{Skylab |before=[[Apollo 17]]| after=[[Skylab 2]]}}
+{{US manned space programs |before=[[Apollo program]] |after=[[Apollo-Soyuz Test Project]]}}
+{{Space stations}}
+{{NASA navbox}}
+{{Apollo program}}
+{{McDonnell Douglas military aircraft}}
+{{Orbital launches in 1973}}
+
+[[Category:Artificial satellites formerly orbiting Earth]]
+[[Category:Extravehicular activity]]
+[[Category:Crewed spacecraft]]
+[[Category:NASA space stations]]
+[[Category:Skylab program| ]]
+[[Category:Space stations]]
+[[Category:Spacecraft launched in 1973]]
+[[Category:Spacecraft which reentered in 1979]]
+[[Category:Spacecraft launched by Saturn rockets]]

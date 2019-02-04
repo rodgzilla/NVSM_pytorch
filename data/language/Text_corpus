@@ -1,0 +1,69 @@
+{{more footnotes|date=December 2009}}
+
+In [[linguistics]], a '''corpus''' (plural ''corpora'') or '''text corpus''' is a large and structured set of texts (nowadays usually electronically stored and processed). In [[corpus linguistics]], they are used to do statistical analysis and [[statistical hypothesis testing|hypothesis testing]], checking occurrences or validating linguistic rules within a specific language territory.
+
+==Overview==
+A corpus may contain texts in a single language (''monolingual corpus'') or text data in multiple languages (''multilingual corpus'').
+
+Multilingual corpora that have been specially formatted for side-by-side comparison are called ''aligned parallel corpora''. There are two main types of [[parallel corpora]] which contain texts in two languages. In a ''translation corpus'', the texts in one language are translations of texts in the other language. In a ''comparable corpus'', the texts are of the same kind and cover the same content, but they are not translations of each other.<ref>{{cite journal | last1 = Wołk | first1 = K. | last2 = Marasek | first2 = K. | title = A Sentence Meaning Based Alignment Method for Parallel Text Corpora Preparation | url = | journal = Advances in Intelligent Systems and Computing | publisher = Springer | volume = 275 | pages = 107–114 | issn = 2194-5357 | isbn = 978-3-319-05950-1}}</ref> To exploit a parallel text, some kind of text alignment identifying equivalent text segments (phrases or sentences) is a prerequisite for analysis. [[Machine translation]] algorithms for translating between two languages are often trained using parallel fragments comprising a first language corpus and a second language corpus which is an element-for-element translation of the first language corpus.<ref>{{cite journal | last1 = Wołk | first1 = K. | last2 = Marasek | first2 = K. | title = Tuned and GPU-accelerated Parallel Data Mining from Comparable Corpora | url = | journal = Lecture Notes in Artificial Intelligence | publisher = Springer | pages = 32–40 | year = 2015 | isbn = 978-3-319-24032-9}}</ref>
+
+In order to make the corpora more useful for doing linguistic research, they are often subjected to a process known as [[annotation]]. An example of annotating a corpus is [[part-of-speech tagging]], or ''POS-tagging'', in which information about each word's part of speech (verb, noun, adjective, etc.) is added to the corpus in the form of ''tags''. Another example is indicating the [[Lemma (morphology)|lemma]] (base) form of each word. When the language of the corpus is not a working language of the researchers who use it, [[interlinear gloss]]ing is used to make the annotation bilingual.
+
+Some corpora have further ''structured'' levels of analysis applied. In particular, a number of smaller corpora may be fully [[Parsing|parsed]]. Such corpora are usually called [[Treebank]]s or [[Treebank|Parsed Corpora]]. The difficulty of ensuring that the entire corpus is completely and consistently annotated means that these corpora are usually smaller, containing around one to three million words. Other levels of linguistic structured analysis are possible, including annotations for [[Morphology (linguistics)|morphology]], [[semantics]] and [[pragmatics]].
+
+Corpora are the main knowledge base in [[corpus linguistics]]. The analysis and processing of various types of corpora are also the subject of much work in [[computational linguistics]], [[speech recognition]] and [[machine translation]], where they are often used to create [[hidden Markov model]]s for part of speech tagging and other purposes. Corpora and [[frequency list]]s derived from them are useful for [[language teaching]]. Corpora can be considered as a type of [[foreign language writing aid]] as the contextualised grammatical knowledge acquired by non-native language users through exposure to authentic texts in corpora allows learners to grasp the manner of sentence formation in the target language, enabling effective writing.<ref name=Yoon>Yoon, H., & Hirvela, A. (2004). [http://englishteachersplace.com/wp-content/uploads/2011/09/YoonHirvela_2004.pdf ESL Student Attitudes toward Corpus Use in L2 Writing]. ''Journal of Second Language Writing, 13''(4), 257–283. Retrieved 21 March 2012.</ref>
+
+==Archaeological corpora==
+
+Text corpora are also used in the study of [[historical document]]s, for example in attempts to [[decipherment|decipher]] ancient scripts, or in [[Biblical scholarship]]. Some archaeological corpora can be of such short duration that they provide a snapshot in time. One of the shortest corpora in time, may be the 15–30 year [[Amarna letters]] texts ([[1350 BC]]). The ''corpus'' of an ancient city, (for example the "[[Kültepe]] Texts" of Turkey), may go through a series of corpora, determined by their find site dates.
+
+== Some notable text corpora ==
+{{Main article|List of text corpora}}
+
+==See also==
+* [[Concordance (publishing)|Concordance]]
+* [[Corpus linguistics]]
+* [[Linguistic Data Consortium]]
+* [[Natural language processing]]
+* [[Natural Language Toolkit]]
+* [[Parallel text alignment]]
+* [[Search engines]]: they access the "web corpus".
+* [[Speech corpus]]
+* [[Translation memory]]
+* [[Treebank]]
+* [[Zipf's Law]]
+
+==References==
+{{reflist}}
+
+== External links ==
+* [http://www.clres.com/corp.html ACL SIGLEX Resource Links: Text Corpora]
+* [https://archive.is/20121222193153/http://www.ahds.ac.uk/linguistic-corpora Developing Linguistic Corpora: a Guide to Good Practice]
+* [http://corpus.byu.edu/ Free samples (not free), web-based corpora (45-425 million words each): American (COCA, COHA, TIME), British (BNC), Spanish, Portuguese]
+* [http://ucnk.korpus.cz/intercorp/?lang=en Intercorp] Building synchronous parallel corpora of the languages taught at the Faculty of Arts of Charles University.
+* [https://the.sketchengine.co.uk/open/ Sketch Engine: Open corpora with free access]
+* [http://www.tscorpus.com/ TS Corpus - A Turkish Corpus freely available for academic research.]
+* [http://www.tnc.org.tr/ Turkish National Corpus - A general-purpose corpus for contemporary Turkish]
+*[https://digital.lib.hkbu.edu.hk/corpus/index.php Corpus of Political Speeches], publicly accessible with speeches from United States, Hong Kong, Taiwan, and China, provided by [https://digital.lib.hkbu.edu.hk/digital/project.php Hong Kong Baptist University Library]
+<!--===========================({{NoMoreLinks}})===============================
+    | PLEASE BE CAUTIOUS IN ADDING MORE LINKS TO THIS ARTICLE. WIKIPEDIA IS   |
+    | NOT A COLLECTION OF LINKS.                                              |
+    |                                                                         | 
+    |               Excessive or inappropriate links WILL BE DELETED.         |
+    |  See [[Wikipedia:External links]] and [[Wikipedia:Spam]] for details.   |
+    |                                                                         | 
+    | If there are already plentiful links, please propose additions or       |
+    | replacements on this article's discussion page.  Or submit your link    |
+    | to the appropriate category at Curlie (www.curlie.org)                  |
+    | and link back to that category using the {{dmoz}} template.             |
+    ===========================({{NoMoreLinks}})===============================-->
+
+{{Natural Language Processing}}
+
+[[Category:Discourse analysis]]
+[[Category:Corpus linguistics]]
+[[Category:Computational linguistics]]
+[[Category:Test items]] <!-- broad sense -->
+
+[[ko:말뭉치]]
+[[lt:Tekstynas]]

@@ -1,0 +1,643 @@
+{{other uses|Subtitle (disambiguation)|Closed captioning}}
+{{refimprove|date=March 2013}}
+{{Translation sidebar}}
+[[File:Example of subtitles (Charade, 1963).jpg|thumb|Film with subtitles in English ([[Quotation mark#Quotation dash|quotation dash]] is used for differentiating speakers).]]
+
+[[File:Dubbing films in Europe.png|{{largethumb}}|A map of Europe showing which translation methods are used in each country.
+{{legend|#0000FF|Countries in [[Europe]] where dubbing is only used for children's programs; otherwise, subtitles are solely used.}}
+{{legend|#FF9900|Mixed areas: Countries in Europe occasionally using multi-voice voice-over translations; otherwise, subtitles are solely used.}}
+{{legend|#FFFF00|Voice-over: Countries in Europe usually using [[Gavrilov translation]]s, which feature one or two voices, while lowering the volume of the original soundtrack; examples are [[Poland]] and [[Russia]]. This method is used in TV broadcasting, but dubbing is also used in these countries.}}
+{{legend|#FF0000|General dubbing: Countries in Europe where dubbing is used for most foreign-language films and TV series, although in Polish, Czech and Slovak cinemas, only children's films are usually dubbed.}}
+<!-- {{legend}} just wants a colour --><div class="legend" style="-webkit-column-break-inside:avoid; page-break-inside:avoid; break-inside:avoid-column"><span class="legend-color" style="display:inline-block; width:1.5em; height:1.5em; margin:1px 0; border:1px solid black; background:repeating-linear-gradient(to right, blue, blue 4px, red 4px, red 7px); color:black; font-size:100%; text-align:center;">&nbsp;</span>&nbsp;Countries which produce their own dubbings, but often use dubbed versions from another country whose language is sufficiently similar so that the local audience understands it easily (French and Dutch for [[Belgium]], [[Czech Republic|Czech]] for [[Slovakia]], and [[Russian language|Russian]] for [[Belarus]].)</div>]]
+
+'''Subtitles''' are [[Writing|text]] derived from either a transcript or [[screenplay]] of the dialog or commentary in films, television programs, video games, and the like, usually displayed at the bottom of the screen, but can also be at the top of the screen if there is already text at the bottom of the screen. They can either be a form of written [[translation]] of a dialog in a foreign language, or a written rendering of the dialog in the same language, with or without added information to help viewers who are [[deaf]] or [[hard of hearing]] to follow the dialog, or people who cannot understand the spoken dialogue or who have accent recognition problems.
+
+The encoded method can either be pre-rendered with the video or separate as either a graphic or text to be rendered and overlaid by the receiver.  The separate subtitles are used for [[DVD]], [[Blu-ray]] and television [[teletext]]/[[Digital Video Broadcasting]] (DVB) subtitling or [[EIA-608]] captioning, which are hidden unless requested by the viewer from a menu or remote controller key or by selecting the relevant page or service (e.g., p.&nbsp;888 or CC1), always carry additional sound representations for deaf and hard of hearing viewers. Teletext subtitle language follows the original audio, except in multi-lingual countries where the broadcaster may provide subtitles in additional languages on other teletext pages.  EIA-608 captions are similar, except that North American Spanish stations may provide captioning in Spanish on CC3. DVD and Blu-ray only differ in using [[run-length]] encoded graphics instead of text, as well as some HD DVB broadcasts.
+
+Sometimes, mainly at [[film festival]]s, subtitles may be shown on a separate display below the screen, thus saving the film-maker from creating a subtitled copy for perhaps just one showing. Television subtitling for the deaf and hard of hearing is also referred to as [[closed captioning]] in some countries.
+
+More exceptional uses also include operas, such as Verdi's Aida, where sung lyrics in Italian are subtitled in English or in another local language outside the stage area on luminous screens for the audience to follow the storyline, or on a screen attached to the back of the chairs in front of the audience.
+
+The word ''subtitle'' is the prefix ''sub-'' ("below") followed by ''title''. In some cases, such as live [[opera]], the dialog is displayed above the stage in what are referred to as ''[[surtitles]]'' (''sur-'' meaning "above").
+
+== Creation, delivery and display of subtitles ==
+
+Today, professional subtitlers usually work with specialized computer software and hardware where the video is digitally stored on a hard disk, making each individual frame instantly accessible. Besides creating the subtitles, the subtitler usually also tells the computer software the exact positions where each subtitle should appear and disappear. For cinema film, this task is traditionally done by separate technicians. The end result is a subtitle file containing the actual subtitles as well as position markers indicating where each subtitle should appear and disappear. These markers are usually based on [[SMPTE time code|timecode]] if it is a work for electronic media (e.g., TV, video, DVD), or on film length (measured in feet and frames) if the subtitles are to be used for traditional cinema film.
+
+The finished subtitle file is used to add the subtitles to the picture, either:
+* directly into the picture (open subtitles);
+* embedded in the [[vertical interval]] and later superimposed on the picture by the end user with the help of an external decoder or a decoder built into the TV (closed subtitles on TV or video);
+* or converted (rendered) to [[Tagged Image File Format|tiff]] or [[BMP file format|bmp]] graphics that are later superimposed on the picture by the end user's equipment (closed subtitles on DVD or as part of a DVB broadcast).
+
+Subtitles can also be created by individuals using freely available subtitle-creation software like [[Subtitle Workshop]] for Windows, [[MovieCaptioner]] for Mac/Windows, and [[Subtitle Composer]] for Linux, and then hardcode them onto a video file with programs such as [[VirtualDub]] in combination with [[VSFilter]] which could also be used to show subtitles as softsubs in many [[Video player (software)|software video players]].
+
+For multimedia-style [[Webcasting]], check:
+* SMIL [[Synchronized Multimedia Integration Language]];
+* [[Timed Text]] [[DFXP]].
+
+==Automatic captioning==
+Some programs and online software allow automatic captions, mainly using [[speech-to-text]] features.
+
+For example, in [[YouTube]],  automatic captions are available in English, Dutch, French, German, Italian, Japanese, Korean, Portuguese, Russian, and Spanish.If automatic captions are available for the language, they'll automatically be published on the video, using the YT [[Video Manager]] in the [[Creator Studio]].<ref>[https://support.google.com/youtube/answer/6373554?hl=en Use automatic captioning], [[YouTube]].</ref>
+
+== Same-language captions ==
+Same-language captions, i.e., without translation, were primarily intended as an aid for people who are deaf or hard of hearing. Internationally, there are several major studies which demonstrate that same-language captioning can have a major impact on literacy and reading growth across a broad range of reading abilities.<ref name=AshokaBrij>''[http://www.ashoka.org/fellow/3557 Brij Kothari] {{webarchive|url=https://web.archive.org/web/20080828182628/http://www.ashoka.org/fellow/3557 |date=2008-08-28 }}'' from  [http://www.ashoka.org/ Ashoka.org]. Accessed on February 10, 2009</ref><ref name=AFF1>Biswas, Ranjita (2005). ''[http://www.asianfilm.org/modules.php?name=News&file=article&sid=98 Hindi film songs can boost literacy rates in India] {{Webarchive|url=https://web.archive.org/web/20090820005707/http://www.asianfilm.org/modules.php?name=News&file=article&sid=98 |date=2009-08-20 }}''</ref> This method of subtitling is used by national television broadcasters in [[China]] and in  [[India]] such as [[Doordarshan]]. This idea was struck upon by [[Brij Kothari]], who believed that SLS makes reading practice an incidental, automatic, and subconscious part of popular TV entertainment, at a low per-person cost to shore up [[Literacy in India|literacy rates in India]].
+
+=== Same-language subtitling ===
+[[Same language subtitling]] (SLS) is the use of synchronized captioning of musical lyrics (or any text with an audio/video source) as a repeated reading activity. The basic reading activity involves students viewing a short subtitled presentation projected onscreen, while completing a response worksheet. To be really effective, the subtitling should have high quality synchronization of audio and text, and better yet, subtitling should change color in syllabic synchronization to audio model, and the text should be at a level to challenge students' language abilities.<ref>{{cite web|url=http://go.editlib.org/p/27350|archive-url=https://archive.is/20120709105516/http://go.editlib.org/p/27350|dead-url=yes|archive-date=2012-07-09|title=McCall, W. (2008). Same-Language-Subtitling and Karaoke: The Use of Subtitled Music as a Reading Activity in a High School Special Education Classroom. In K. McFerrin et al. (Eds.), Proceedings of Society for Information Technology and Teacher Education International Conference 2008 (pp. 1190–1195). Chesapeake, VA: AACE|publisher=}}</ref><ref>Gannon, Jack. 1981. ''Deaf Heritage–A Narrative History of Deaf America'', Silver Spring, MD: National Association of the Deaf, p. 266-270</ref>
+
+=== Closed captions ===
+{{Main|Closed captioning}}
+[[File:Closed captioning symbol.svg|right|thumb|The "CC in a TV" symbol [[Jack Foley (sound effects)|Jack Foley]] created, while senior graphic designer at [[Boston, Massachusetts|Boston]] [[Public broadcasting|public broadcaster]] [[WGBH-TV|WGBH]] that invented captioning for television, is [[public domain]] so that anyone who captions TV programs can use it.]]
+
+Closed captioning is the American term for closed subtitles specifically intended for people who are deaf or hard of hearing. These are a transcription rather than a translation, and usually contain descriptions of important non-dialog audio as well such as "(sighs)", "(wind blowing)", "("SONG TITLE" playing)", "(kisses)" or "(door creaks)" and lyrics. From the expression "closed captions" the word "caption" has in recent years come to mean a subtitle intended for the deaf or hard of hearing, be it "open" or "closed". In British English "subtitles" usually refers to subtitles for the  deaf or hard of hearing (SDH); however, the term "SDH" is sometimes used when there is a need to make a distinction between the two.
+
+==== Real time ====
+Programs such as news bulletins, current affairs programs, sport, some talk shows and political and special events utilize real time or online captioning.<ref name="dcita">{{cite web
+ |url          = http://www.dcita.gov.au/media_broadcasting/consultation_and_submissions/captioning_standards_review/submissions_to_the_captioning_standards_review
+ |title        = Submissions to the captioning standards review &#124; Department of Communications, Information Technology and the Arts
+ |accessdate   = 2007-04-04
+ |author1      = Department of Communications, Information Technology and the Arts
+ |authorlink1  = Department of Communications, Information Technology and the Arts (Australia)
+ |author2      = [http://www.auscap.com.au/ Australian Caption Centre]
+ |date         = 1999-02-26
+ |format       = [[Microsoft Word]]
+ |quote        = [http://www.dcita.gov.au/__data/assets/word_doc/10835/Australian_Caption_Centre.doc Australian Caption Centre]
+ |archive-url  = https://web.archive.org/web/20070908193257/http://www.dcita.gov.au/media_broadcasting/consultation_and_submissions/captioning_standards_review/submissions_to_the_captioning_standards_review#
+ |archive-date = 2007-09-08
+ |dead-url     = yes
+ |df           = 
+}}</ref> Live captioning is increasingly common, especially in the [[United Kingdom]] and the [[United States]], as a result of regulations that stipulate that virtually all TV eventually must be accessible for people who are deaf and hard–of–hearing.<ref>{{cite web |url=http://www.ncicap.org/caphist.asp |title=Archived copy |accessdate=2011-04-28 |deadurl=yes |archiveurl=https://web.archive.org/web/20110719060406/http://www.ncicap.org/caphist.asp |archivedate=2011-07-19 |df= }}</ref> In practice, however, these "real time" subtitles will typically lag the audio by several seconds due to the inherent delay in transcribing, encoding, and transmitting the subtitles. Real time subtitles are also challenged by typographic errors or mis-hearing of the spoken words, with no time available to correct before transmission.
+
+===== Pre-prepared =====
+Some programs may be prepared in their entirety several hours before broadcast, but with insufficient time to prepare a timecoded caption file for automatic play-out. Pre-prepared captions look similar to offline captions, although the accuracy of cueing may be compromised slightly as the captions are not locked to program timecode.<ref name="dcita" />
+
+Newsroom captioning involves the automatic transfer of text from the newsroom computer system to a device which outputs it as captions. It does work, but its suitability as an exclusive system would only apply to programs which had been scripted in their entirety on the newsroom computer system, such as short interstitial updates.<ref name="dcita" />
+
+In the United States and Canada, some broadcasters have used it exclusively and simply left uncaptioned sections of the bulletin for which a script was unavailable.<ref name="dcita" /> Newsroom captioning limits captions to pre-scripted materials and, therefore, does not cover 100% of the news, weather and sports segments of a typical local news broadcast which are typically not pre-scripted, last-second breaking news or changes to the scripts, ad lib conversations of the broadcasters, emergency or other live remote broadcasts by reporters in-the-field. By failing to cover items such as these, newsroom style captioning (or use of the [[Teleprompter]] for captioning) typically results in coverage of less than 30% of a local news broadcast.<ref>{{cite web
+| url = http://www.captioncolorado.com/about/index.html
+| title = Caption Colorado
+| accessdate = 2007-10-24
+| author = [http://www.captioncolorado.com/about/index.html Caption Colorado]
+| year = 2002
+| quote="Real-time" vs. Newsroom Captioning<br /> Caption Colorado offers "real-time" closed captioning that utilizes unique technologies coupled with the talents of highly skilled captioners who use stenographic court reporting machines to transcribe the audio on the fly, as the words are spoken by the broadcasters. real-time captioning is not limited to pre-scripted materials and, therefore, covers 100% of the news, weather and sports segments of a typical local news broadcast. It will cover such things as the weather and sports segments which are typically not pre-scripted, last second breaking news or changes to the scripts, ad lib conversations of the broadcasters, emergency or other live remote broadcasts by reporters in the field. By failing to cover items such as these, newsroom style captioning (or use of the TelePrompTer for captioning) typically results in coverage of less than 30% of a local news broadcast. … 2002
+|archiveurl = https://web.archive.org/web/20070823115204/http://www.captioncolorado.com/about/index.html <!-- Bot retrieved archive --> |archivedate = 2007-08-23}}</ref>
+
+===== Live =====
+Communication Access Real-Time Translation (CART) [[stenographer]]s, who use a computer with using either [[stenotype]] or [[Velotype]] keyboards to transcribe stenographic input for presentation as captions within 2–3 seconds of the representing audio, must caption anything which is purely live and unscripted{{where|date=December 2014}};<ref name="dcita" /> however, the most recent developments include operators using [[speech recognition]] software and revoicing the dialog. Speech recognition technology has advanced so quickly in the United States that about 50% of all live captioning is through speech recognition as of 2005.{{Citation needed|date=November 2007}} Real-time captions look different from offline captions, as they are presented as a continuous flow of text as people speak.<ref name="dcita" />{{clarify|date=November 2011}}
+
+Real-time stenographers are the most highly skilled in their profession. Stenography is a system of rendering words phonetically, and English, with its multitude of homophones (e.g., there, their, they’re), is particularly unsuited to easy transcriptions. Stenographers working in courts and inquiries usually have 24 hours in which to deliver their transcripts. Consequently, they may enter the same phonetic stenographic codes for a variety of homophones, and fix up the spelling later. Real-time stenographers must deliver their transcriptions accurately and immediately. They must therefore develop techniques for keying homophones differently, and be unswayed by the pressures of delivering accurate product on immediate demand.<ref name="dcita" />
+
+Submissions to recent captioning-related inquiries have revealed concerns from broadcasters about captioning sports. Captioning sports may also affect many different people because of the weather outside of it. In much sport captioning's absence, the Australian Caption Centre submitted to the National Working Party on Captioning (NWPC), in November 1998, three examples of sport captioning, each performed on tennis, rugby league and swimming programs:
+#Heavily reduced: Captioners ignore commentary and provide only scores and essential information such as “try” or “out”.
+#Significantly reduced: Captioners use [[QWERTY]] input to type summary captions yielding the essence of what the commentators are saying, delayed due to the limitations of QWERTY input.
+#Comprehensive realtime: Captioners use stenography to caption the commentary in its entirety.<ref name="dcita" />
+
+The NWPC concluded that the standard they accept is the comprehensive real-time method, which gives them access to the commentary in its entirety. Also, not all sports are live.  Many events are pre-recorded hours before they are broadcast, allowing a captioner to caption them using offline methods.<ref name="dcita" />
+
+===== Hybrid =====
+Because different programs are produced under different conditions, a case-by-case basis must consequently determine captioning methodology. Some bulletins may have a high incidence of truly live material, or insufficient access to video feeds and scripts may be provided to the captioning facility, making stenography unavoidable. Other bulletins may be pre-recorded just before going to air, making pre-prepared text preferable.<ref name="dcita" />
+
+In Australia and the United Kingdom, hybrid methodologies have proven to be the best way to provide comprehensive, accurate and cost-effective captions on news and current affairs programs. News captioning applications currently available are designed to accept text from a variety of inputs: stenography, Velotype, [[QWERTY]], [[ASCII]] import, and the newsroom computer. This allows one facility to handle a variety of online captioning requirements and to ensure that captioners properly caption all programs.<ref name="dcita" />
+
+Current affairs programs usually require stenographic assistance. Even though the segments which comprise a current affairs program may be produced in advance, they are usually done so just before on-air time and their duration makes QWERTY input of text unfeasible.<ref name="dcita" />
+
+News bulletins, on the other hand, can often be captioned without stenographic input (unless there are live crosses or ad-libbing by the presenters).  This is because:
+#Most items are scripted on the newsroom computer system and this text can be electronically imported into the captioning system.
+#Individual news stories are of short duration, so even if they are made available only just prior to broadcast, there is still time to QWERTY in text.<ref name="dcita" />
+
+==== Offline ====
+For non-live, or pre-recorded programs, television program providers can choose offline captioning. Captioners gear offline captioning toward the high-end television industry, providing highly customized captioning features, such as pop-on style captions, specialized screen placement, speaker identifications, italics, special characters, and sound effects.<ref name="Offline">{{cite web
+| url = http://www.captioncolorado.com/products/offline.html
+| title = Caption Colorado
+| accessdate = 2007-10-24
+| author = [http://www.captioncolorado.com/about/index.html Caption Colorado]
+| year = 2002
+| quote = Offline Captioning<br /> For non-live, or pre-recorded programs, you can choose from two presentation styles models for offline captioning or transcription needs in English or Spanish.<br /> <br /> Premiere Offline Captioning<br /> Premiere Offline Captioning is geared toward the high-end television industry, providing highly customized captioning features, such as pop-on style captions, specialized screen placement, speaker identifications, italics, special characters, and sound effects.<br /> <br /> Premiere Offline involves a five-step design and editing process, and does much more than simply display the text of a program. Premiere Offline helps the viewer follow a story line, become aware of mood and feeling, and allows them to fully enjoy the entire viewing experience. Premiere Offline is the preferred presentation style for entertainment-type programming. … 2002
+|archiveurl = https://web.archive.org/web/20070729005348/http://www.captioncolorado.com/products/offline.html <!-- Bot retrieved archive --> |archivedate = 2007-07-29}}</ref>
+
+Offline captioning involves a five-step design and editing process, and does much more than simply display the text of a program. Offline captioning helps the viewer follow a story line, become aware of mood and feeling, and allows them to fully enjoy the entire viewing experience. Offline captioning is the preferred presentation style for entertainment-type programming.<ref name="Offline" />
+
+=== Subtitles for the deaf or hard-of-hearing (SDH) ===
+Subtitles for the deaf or hard-of-hearing (SDH) is an American term introduced by the DVD industry. It refers to regular subtitles in the original language where important non-dialog information has been added, as well as speaker identification, which may be useful when the viewer cannot otherwise visually tell who is saying what.
+
+The only significant difference for the user between SDH subtitles and closed captions is their appearance: SDH subtitles usually are displayed with the same proportional font used for the translation subtitles on the DVD; however, closed captions are displayed as white text on a black band, which blocks a large portion of the view. Closed captioning is falling out of favor as many users have no difficulty reading SDH subtitles, which are text with contrast outline. In addition, DVD subtitles can specify many colors, on the same character: primary, outline, shadow, and background. This allows subtitlers to display subtitles on a usually translucent band for easier reading; however, this is rare, since most subtitles use an outline and shadow instead, in order to block a smaller portion of the picture. Closed captions may still supersede DVD subtitles, since many SDH subtitles present all of the text centered, while closed captions usually specify position on the screen: centered, left align, right align, top, etc. This is helpful for speaker identification and overlapping conversation. Some SDH  subtitles (such as the subtitles of newer [[Universal Studios]] DVDs/Blu-ray Discs) do have positioning, but it is not as common.
+
+DVDs for the U.S. market now sometimes have three forms of English subtitles: SDH subtitles; English subtitles, helpful for viewers who may not be hearing impaired but whose first language may not be English (although they are usually an exact transcript and not simplified); and closed caption data that is decoded by the end-user's closed caption decoder. Most anime releases in the U.S. only include as subtitles translations of the original material; therefore, SDH subtitles of English dubs ("dubtitles") are uncommon.
+<ref>{{cite video
+| people     = [[U.S. Federal Communications Commission]] (FCC)
+| title      = Closed Captioning and the DTV Transition
+| url        = http://www.dtv.gov/video/DTV_ASL-Part3.html
+| date       = 2008-05-01
+| format     = [[SWF|swf]]
+| location   = [[Washington, D.C.]]
+| time       = 1m58s
+| quote      = In addition to passing through closed caption signals, many converter boxes also include the ability to take over the captioning role that the tuner plays in your analog TV set. To determine whether your converter box is equipped to generate captions in this way, you should refer to the user manual that came with the converter box. If your converter box. If your converter box is equipped to generate captions in this way, then follow the instructions that came with the converter box to turn the captioning feature on/off via your converter box or converter box remote control. When you access the closed captions in the way, you also will be able to change the way your digital captions look. The converter box will come with instructions on how to change the caption size, font, caption color, background color, and opacity. This ability to adjust your captions is something you cannot do now with an analog television and analog captions.
+}}</ref><ref>{{cite web
+|url=http://www.dtv.gov/video/DTV_ASL-Part3.html
+|title=What you need to know about the DTV Transition in American Sign Language: Part 3 – Closed Captioning – Flash Video
+|accessdate=2008-05-01
+|author=[http://www.dtv.gov/video_audio.html The Digital TV Transition – Audio and Video]
+|date=2008-05-01
+|work= The Digital TV Transition: What You Need to Know About DTV
+|publisher=[[U.S. Federal Communications Commission]] (FCC)
+|quote=[http://www.dtv.gov/video/DTV_ASL-Part3.swf dtv.gov]
+}}</ref>
+
+High-definition disc media ([[HD DVD]], [[Blu-ray Disc]]) uses SDH subtitles as the sole method because technical specifications do not require HD to support line 21 closed captions. Some Blu-ray Discs, however, are said to carry a closed caption stream that only displays through standard-definition connections. Many [[High-definition television|HDTVs]] allow the end–user to customize the captions, including the ability to remove the black band.
+
+<gallery>
+File:Example of SDH - speaker ID (Charade 1963).jpg|Example of speaker id. in SDH (voices are off-screen)
+File:Example of SDH - non-speech information 2 (Charade 1963).jpg|Example of non-speech information in SDH (source is off-screen)
+File:Example of SDH - non-speech information 1 (Charade 1963).jpg|Example of non-speech information in SDH (two sources: off-screen and on-screen)
+File:Example of SDH - music description (Charade 1963).jpg|Example of music description in SDH
+File:Example of SDH - lyrics (Charade 1963).jpg|Example of lyrics transcription in SDH
+</gallery>
+
+=== Use by those not deaf or hard of hearing ===
+Although same-language subtitles and captions are produced primarily with the deaf and hard of hearing in mind, many hearing film and television viewers choose to use them. This is often done because the presence of closed captioning and subtitles ensures that not one word of dialogue will be missed. Bars and other noisy public places, where film dialogue would otherwise be drowned out, often make closed captions visible for patrons. Viewers may also find thick regional accents from other same-language countries hard to understand without subtitles. Films and television shows often have subtitles displayed in the same language if the speaker has a speech impairment. In addition, captions may reveal information that would otherwise be difficult to obtain from hearing. Some examples would be song lyrics, dialog spoken quietly or by those with accents unfamiliar to the intended audience, or supportive, minor dialog from background characters. It is argued{{Weasel inline|date=February 2014}} that such additional information and detail enhances the overall experience and allows the viewer a better grasp of the material. Furthermore, people learning a foreign language may sometimes use same-language subtitles to better understand the dialog without having to resort to a translation.
+
+==== Asia ====
+In some Asian television programming, captioning is considered a part of the genre, and has evolved beyond simply capturing what is being said. The captions are used artistically; it is common to see the words appear one by one as they are spoken, in a multitude of fonts, colors, and sizes that capture the spirit of what is being said. Languages like Japanese also have a rich vocabulary of [[Japanese sound symbolism|onomatopoeia]] which is used in captioning.
+
+===== East Asia =====
+In some East Asian countries, especially Chinese-speaking ones, subtitling is common in all taped television programs. In these countries, written text remains mostly uniform while regional dialects in the spoken form can be mutually unintelligible. Therefore, subtitling offers a distinct advantage to aid comprehension. With subtitles, programs in [[Putonghua]], the standard Mandarin, or any dialect can be understood by viewers unfamiliar with it.
+
+On-screen subtitles as seen in Japanese variety television shows are more for decorative purpose, something that is not seen in television in Europe and the Americas. Some shows even place [[sound effect]]s over those subtitles. This practice of subtitling has been spread to neighbouring countries including South Korea and Taiwan. [[Asia Television|ATV]] in Hong Kong once practiced this style of decorative subtitles on its variety shows when it was owned by [[Want Want]] Holdings in Taiwan (which also owns [[China Television|CTV]] and [[Chung T'ien Television|CTI]]).
+
+===== South Asia =====
+In [[India]], [[Same Language Subtitling]] (SLS) are common for films and music videos. SLS refers to the idea of subtitling in the same language as the audio. SLS is highlighted [[karaoke]] style, that is, to speech. The idea of SLS was initiated to shore up literacy rates as SLS makes reading practice an incidental, automatic, and subconscious part of popular TV entertainment. This idea was well received by the [[Government of India]] which now uses SLS on several national channels, including [[Doordarshan]].<ref name="AshokaBrij" /><ref name=autogenerated1>Biswas, Ranjita (2005). ''[http://www.asianfilm.org/modules.php?name=News&file=article&sid=98 Hindi film songs can boost literacy rates in India] {{Webarchive|url=https://web.archive.org/web/20090820005707/http://www.asianfilm.org/modules.php?name=News&file=article&sid=98 |date=2009-08-20 }}'' from the [http://www.asianfilm.org/index.php  Asian Film Foundation website]. Accessed on February 10, 2009</ref>
+
+== Translation ==
+{{Unreferenced section|date=November 2016}}
+Translation basically means conversion of one language into another language in wrtten or spoken form. The process of translation requires a translator e.g. Google Translate<ref>{{cite web |title=Google translate |url=https://translate.google.co.in/}}</ref>, Microsoft Translator<ref>{{cite web |title=Microsoft translator |url=https://translator.microsoft.com/}}</ref>. Subtitles can be used to translate dialog from a foreign language into the native language of the audience. It is not only the quickest and cheapest method of translating content, but is also usually preferred as it is possible for the audience to hear the original dialog and voices of the actors.
+
+Subtitle translation can be different from the [[translation]] of written text. Usually, during the process of creating subtitles for a film or television program, the picture and each sentence of the audio are analyzed by the subtitle translator; also, the subtitle translator may or may not have access to a written transcript of the dialog. Especially in the field of commercial subtitles, the subtitle translator often interprets what is meant, rather than translating the manner in which the dialog is stated; that is, the meaning is more important than the form—the audience does not always appreciate this, as it can be frustrating for people who are familiar with some of the spoken language; spoken language may contain verbal padding or culturally implied meanings that cannot be conveyed in the written subtitles. Also, the subtitle translator may also condense the dialog to achieve an acceptable reading speed, whereby purpose is more important than form.
+
+Especially in [[fansub]]s, the subtitle translator may translate both form and meaning. The subtitle translator may also choose to display a note in the subtitles, usually in [[parentheses]] (“[[wikt:(|(]]” and “[[wikt:)|)]]”), or as a separate block of on-screen text—this allows the subtitle translator to preserve form and achieve an acceptable reading speed; that is, the subtitle translator may leave a note on the screen, even after the character has finished speaking, to both preserve form and facilitate understanding. For example, the Japanese language has multiple first-person pronouns (see [[Japanese pronouns]]) and each pronoun is associated with a different degree of politeness. In order to compensate during the English translation process, the subtitle translator may reformulate the sentence, add appropriate words and/or use notes.
+
+=== Subtitling ===
+
+==== Real-time ====
+Real-time translation subtitling usually involves an interpreter and a stenographer working concurrently, whereby the former quickly translates to the dialog while the latter types; this form of subtitling is rare. The unavoidable delay, typing errors, lack of editing, and high cost mean that real-time translation subtitling is in low demand. Allowing the interpreter to directly speak to the viewers is usually both cheaper and quicker; however, the translation is not accessible to people who are deaf and hard-of-hearing.
+
+==== Offline ====
+Some subtitlers purposely provide edited subtitles or captions to match the needs of their audience, for learners of the spoken dialog as a second or foreign language, visual learners, beginning readers who are deaf or hard of hearing and for people with learning and/or mental disabilities. For example, for many of its films and television programs, [[PBS]] displays  standard captions representing speech the program audio, word-for-word, if the viewer selects "CC1" by using the television remote control or on-screen menu; however, they also provide edited captions to present simplified sentences at a slower rate, if the viewer selects "CC2". Programs with a diverse audience also often have captions in another language. This is common with popular Latin American [[soap opera]]s in Spanish. Since CC1 and CC2 share [[Bandwidth (signal processing)|bandwidth]], the [[U.S. Federal Communications Commission]] (FCC) recommends translation subtitles be placed in CC3. CC4, which shares bandwidth with CC3, is also available, but programs seldom use it.
+
+=== Subtitles vs. dubbing and lectoring ===
+The two alternative methods of 'translating' films in a foreign language are [[Dubbing (filmmaking)|dubbing]], in which other actors record over the voices of the original actors in a different language, and [[Voice-over translation|lectoring]], a form of [[voice-over]] for fictional material where a narrator tells the audience what the actors are saying while their voices can be heard in the background. Lectoring is common for television in Russia, Poland, and a few other East European countries, while cinemas in these countries commonly show films dubbed or subtitled.
+
+The preference for dubbing or subtitling in various countries is largely based on decisions taken in the late 1920s and early 1930s. With the arrival of sound film, the film importers in [[Germany]], [[Italy]], [[France]] and [[Spain]] decided to dub the foreign voices, while the rest of Europe elected to display the dialog as translated subtitles. The choice was largely due to financial reasons (subtitling is more economical and quicker than dubbing), but during the 1930s it also became a political preference in Germany, Italy and Spain; an expedient form of [[censorship]] that ensured that foreign views and ideas could be stopped from reaching the local audience, as dubbing makes it possible to create a dialogue which is totally different from the original. In larger German cities a few "special cinemas" use subtitling instead of dubbing.
+
+Dubbing is still the norm and favored form in these four countries, but the proportion of subtitling is slowly growing, mainly to save cost and turnaround-time, but also due to a growing acceptance among younger generations, who are better readers and increasingly have a basic knowledge of English (the dominant language in film and TV) and thus prefer to hear the original dialogue.
+
+Nevertheless, in Spain, for example, only public TV channels show subtitled foreign films, usually at late night. It is extremely rare that any Spanish TV channel shows subtitled versions of TV programs, series or documentaries. With the advent of digital land broadcast TV, it has become common practice in Spain to provide optional audio and subtitle streams that allow watching dubbed programmes with the original audio and subtitles. In addition, only a small proportion of cinemas show subtitled films. Films with dialogue in Galician, Catalan or Basque are always dubbed, not subtitled, when they are shown in the rest of the country. Some non-Spanish-speaking TV stations subtitle interviews in Spanish; others do not.
+
+In many [[Latin America]]n countries, local network television will show dubbed versions of English-language programs and movies, while cable stations (often international) more commonly broadcast subtitled material. Preference for subtitles or dubbing varies according to individual taste and reading ability, and theaters may order two prints of the most popular films, allowing moviegoers to choose between dubbing or subtitles. Animation and children's programming, however, is nearly universally dubbed, as in other regions.
+
+Since the introduction of the DVD and, later, the Blu-ray Disc, some high budget films include the simultaneous option of ''both'' subtitles and/or dubbing. Often in such cases, the translations are made separately, rather than the subtitles being a verbatim transcript of the dubbed scenes of the film. While this allows for the smoothest possible flow of the subtitles, it can be frustrating for someone attempting to learn a foreign language.
+
+In the traditional subtitling countries, dubbing is generally regarded as something strange and unnatural and is only used for animated films and TV programs intended for pre-school children. As animated films are "dubbed" even in their original language and ambient noise and effects are usually recorded on a separate sound track, dubbing a low quality production into a second language produces little or no noticeable effect on the viewing experience. In dubbed live-action television or film, however, viewers are often distracted by the fact that the audio does not match the actors' lip movements.  Furthermore, the dubbed voices may seem detached, inappropriate for the character, or overly expressive, and some ambient sounds may not be transferred to the dubbed track, creating a less enjoyable viewing experience.
+
+=== Subtitling as a practice ===
+In several countries or regions nearly all foreign language TV programs are subtitled, instead of dubbed, notably in:
+
+* [[Albania]] (most all foreign-language shows are subtitled in [[Albanian language|Albanian]], children's movies and TV shows are dubbed, mostly animated)
+* [[Argentina]] (cable/satellite TV and cinemas)
+* [[Armenia]] (Subtitles in [[Armenian language|Armenian]], children's shows principally are dubbed)
+*[[Arab world|Arab Middle East and North Africa]] -- [[Modern Standard Arabic]]-language subtitling, used for foreign programming/cinema and often used when Arabic dialects are the primary medium of a film/TV program. Countries such as Lebanon, Algeria, and Morocco also often include French subtitling simultaneously.
+* [[Australia]] (especially by [[Special Broadcasting Service|SBS]])
+* [[Belgium]] (Subtitles in [[Dutch language|Dutch]] in [[Flanders]], dubbed into [[French language|French]] in [[Wallonia]], bilingual [Dutch-French] subtitles in Flemish and Brussels movie theaters, dubbed versions in Wallonia. Children's shows and teleshopping are dubbed)
+* [[Bolivia]]
+* [[Bosnia and Herzegovina]] (Children's shows are dubbed in Serbian, Croatian or Bosnian, everything else subtitled in Bosnian)
+* [[Brazil]] (some cinemas and cable channels use [[Brazilian Portuguese]] subtitles)
+* [[Chile]] (cable/satellite TV only)
+* [[China]] (Most Chinese language programming includes subtitles in Chinese, since many languages and dialects are spoken by the populace, but the writing system is independent of dialects)
+* [[Colombia]] (cable/satellite TV only)
+* [[Cuba]]
+* [[Costa Rica]] (cable/satellite TV, and on some national channels like Channel 7)
+* [[Croatia]] (Children's shows are dubbed in Croatian, everything else is subtitled in Croatian)
+* [[Denmark]] ([[Danish language|Danish]] subtitles in all foreign programmes except children's shows)
+* [[Estonia]] ([[Estonian language]] subtitles are used in foreign films and television programmes except for children's media)
+* [[Finland]] (Subtitles in [[Finnish language|Finnish]] or [[Swedish language|Swedish]], Finland is [[Languages of Finland|bilingual]]; in TV children′s programs are dubbed and off-screen narration in documentaries is often dubbed)
+* [[Greece]] (only children's shows and films are dubbed)
+* [[Hong Kong]] (Dubbing in [[Cantonese]] often happens, but subtitling is also common, since these foreign programs are often broadcast in multiple languages)
+* [[Iceland]] (Subtitles in Icelandic. Television programming and motion pictures directed towards children are dubbed, although cinemas often offer subtitled late-evening screenings of the latter. The off-screen narration in documentaries may be dubbed, although on-screen dialogue are always subtitle)
+* [[India]] (Most English channels now give subtitles of their programmes in English)
+* [[Indonesia]] (Subtitles in [[Indonesian language|Indonesian]], some foreign movies have subtitles of more than one language)
+* [[Iran]] (Subtitles in [[Persian language|Persian]])
+* [[Ireland]], (Subtitles in English for non-English programmes, including those in the [[Irish language]]. Occasional subtitles in [[Irish language]] for programmes shown on the Irish language channel: [[TG4]])
+* [[Israel]] (Non-Hebrew television programmes and films are always translated into Hebrew with subtitles. Bilingual Hebrew/Arabic or Hebrew/Russian subtitling, showing translation into both languages simultaneously, is common on public TV channels. Dubbing is restricted to programmes and films aimed at children below school age. As of 2008 the closed captioning industry in Israel is on the rise since a law has been approved, stating that all the Hebrew programmes of The Israeli Television must be subtitled for the hearing impaired. Moreover, in recent years it became a norm in other channels and broadcasting bodies in Israel)
+* [[Japan]] (side-by-side with dubs)
+* [[Latvia]] (Subtitles in [[Latvian language|Latvian]], occasionally in Latvian language shows or simply in [[Russian language|Russian]] language channels in Russian)
+* [[Republic of Macedonia|Macedonia]] (Children's program dubbed in Macedonian or Serbian, everything other subtitled in Macedonian)
+* [[Malaysia]] (Subtitles in Malay for programming in English and vernacular languages such as Chinese and Tamil and foreign languages such as Hindi and Korean except certain programmes dubbed into Malay such as anime, news programmes in respective vernacular languages (news reports in vernacular language news programmes with foreign people speaking are translated in subtitles) and certain Malay-language live action programs subtitled in English. Also appearing for programming in Indonesian since 2006 except for news reports in Malay news programmes that have Indonesian people speaking where they are not subtitled. All movies on 35&nbsp;mm film subtitled in Malay and Simplified Chinese. Usually, animation and 3D movies are exempted from subtitling (though studios may choose to add subtitles at their discretion). Indian and Chinese movies usually have subtitles of more than one languages)
+* [[Montenegro]] (Subtitles in Montenegrin, children's shows dubbed in Serbian; Serbian subtitles imported frequently)
+* [[Myanmar]]
+* [[Netherlands]] (Subtitles in Dutch, children's shows are dubbed)
+* [[Norway]] (Subtitles in Norwegian. Television programming and motion pictures directed towards children are dubbed, although cinemas often offer subtitled late-evening screenings of the latter. The off-screen narration in documentaries may be dubbed, although on-screen dialogue are always subtitled)
+* [[Peru]] (in [[Aymara language|Aymara]] and [[Quechua languages|Quechua]])
+* [[Poland]] (almost all live-action movies in cinemas are subtitled; some movies can be found in two versions, with subtitles and dubbing)
+* [[Portugal]] (Most shows are subtitled in [[Portuguese language|Portuguese]], but children's shows and documentaries are usually dubbed)
+* [[Romania]] (Subtitles in [[Romanian language|Romanian]], no series dubbed)
+* [[Serbia]] (All children's shows and teleshopping are dubbed, everything else is subtitled in Serbian)
+* [[Slovenia]] (Children's shows are dubbed, everything else is subtitled in Slovenian)
+* [[Singapore]] in English, Chinese and Malay, with some subtitling bilingual in either Chinese and English or Chinese and Malay
+* [[South Africa]] (from [[Afrikaans language|Afrikaans]], [[Sesotho language|Sesotho]], [[Xhosa language|Xhosa]] and [[Zulu language|Zulu]] into [[English language|English]])
+* [[South Korea]] (Subtitles in [[Korean language|Korean]])
+* [[Sweden]] (Subtitles in [[Swedish language|Swedish]]. Television programming and motion pictures directed towards children are dubbed, although cinemas often offer subtitled late-evening screenings of the latter. The off-screen narration in documentaries may be dubbed, although on-screen dialogue are always subtitled)
+* [[Taiwan]] (Mandarin subtitles appear on most shows and all news or live action broadcasts)
+* [[Turkey]] (Ethnical languages of the country in [[TRT 3]])
+* [[Ukraine]] (TV shows in Russian are often shown with [[Ukrainian language|Ukrainian]] subtitles)
+* [[United Kingdom]]
+* [[United States]] 
+* [[Uruguay]] (cable/satellite TV only)
+* [[Venezuela]] (cable/satellite TV only)
+
+It is also common that television services in minority languages subtitle their programs in the dominant language as well. Examples include the [[Welsh language|Welsh]] [[S4C]] and [[Irish language|Irish]] [[TG4]] who subtitle in [[English language|English]] and the [[Swedish language|Swedish]] [[Yle Fem]] in Finland who subtitle in the majority language [[Finnish language|Finnish]].
+
+In [[Wallonia]] (Belgium) films are usually dubbed, but sometimes they are played on two channels at the same time: one dubbed (on La Une) and the other subtitled (on La Deux), but this is no longer done as frequently due to low ratings.
+
+In Australia, one [[free-to-air|FTA]] network, [[Special Broadcasting Service|SBS]] airs its foreign-language shows subtitled in English.
+
+== Categories ==
+Subtitles in the same language on the same production can be in different categories:
+
+* '''Hearing Impaired''' subtitles (sometimes abbreviated as HI or [[Subtitle (captioning)#SDH|SDH]]) are intended for people who are hearing impaired, providing information about music, environmental sounds and off-screen speakers (e.g. when a doorbell rings or a gunshot is heard). In other words, they indicate the kinds and the sources of the sounds coming from the movie, and usually put this information inside brackets to demarcate it from actors' dialogs. For example: [sound of typing on a keyboard], [mysterious music], [glass breaks], [woman screaming].
+* '''Narrative''' is the most common type of subtitle in which spoken dialogue is displayed. These are most commonly used to translate a film with one spoken language and the text of a second language.
+* '''Forced''' subtitles are common on movies and only provide subtitles when the characters speak a foreign or [[alien language]], or a sign, flag, or other text in a scene is not translated in the localization and dubbing process. In some cases, foreign dialogue may be left untranslated if the movie is meant to be seen from the point of view of a particular character who does not speak the language in question.
+* '''Content''' subtitles are a North American Secondary Industry (non-Hollywood, often low-budget) staple. They add content dictation that is missing from filmed action or dialogue. Due to the general low-budget allowances in such films, it is often more feasible to add the overlay subtitles to fill in information. They are most commonly seen on America's Maverick films as forced subtitles, and on Canada's MapleLeaf films as optional subtitles. Content subtitles also appear in the beginning of some higher-budget films (e.g., [[Star Wars]]) or at the end of a film (e.g., [[Gods and Generals (film)|Gods and Generals]]).
+* '''Titles only''' are typically used by dubbed programs and provide only the text for any untranslated on-screen text. They are most commonly forced (see above).
+* '''Bonus''' subtitles are an additional set of text blurbs that are added to DVDs. They are similar to [[Blu-ray Disc]]s' in-movie content or to the "info nuggets" in VH1 [[Pop-up Video]]. Often shown in popup or balloon form, they point out background, behind-the-scenes information relative to what is appearing on screen, often indicating filming and performance mistakes in continuity or consistency.
+* '''Localized''' subtitles are a separate subtitle track that uses expanded references (i.e., "The sake [a Japanese Wine] was excellent as was the Wasabi") or can replace the standardized subtitle track with a [[language localization|localized]] form replacing references to local custom (i.e., from above, "The wine was excellent as was the spicy dip").
+* '''Extended/Expanded''' subtitles combine the standard subtitle track with the localization subtitle track. Originally found only on Celestial DVDs in the early 2000s, the format has expanded to many export-intended releases from China, Japan, India, and Taiwan. The term "Expanded Subtitles" is owned by Celestial, with "Extended Subtitles" being used by other companies.
+* '''3D''' subtitles combine the standard subtitle position along the X and Y axis of the picture, with a third position along the Z-axis.  This third positioning allows the subtitle to "float" in front of the 3D image.  This option is available in Digital Cinema and in 3D Blu-ray releases.
+
+== Types ==
+Subtitles exist in two forms; '''open''' subtitles are 'open to all' and cannot be turned off by the viewer; '''closed''' subtitles are designed for a certain group of viewers, and can usually be turned on/off or selected by the viewer – examples being teletext pages, US Closed captions (608/708), DVB Bitmap subtitles, DVD/Blu-ray subtitles.
+
+While distributing content, subtitles can appear in one of 3 types:
+
+* '''Hard''' (also known as '''hardsubs''' or '''open''' subtitles). The subtitle text is irreversibly merged in original video frames, and so no special equipment or software is required for playback. Hence, complex transition effects and animation can be implemented, such as [[karaoke]] song lyrics using various colors, fonts, sizes, animation (like a [[bouncing ball (music)|bouncing ball]]) etc. to follow the lyrics. However, these subtitles cannot be turned off unless the original video is also included in the distribution as they are now part of the original frame, and thus it is impossible to have several variants of subtitling, such as in multiple languages.
+* '''Prerendered''' (also known as '''closed''') subtitles are separate video frames that are overlaid on the original video stream while playing. Prerendered subtitles are used on [[DVD]] and [[Blu-ray]] (though they are contained in the same file as the video stream). It is possible to turn them off or have multiple language subtitles and switch among them, but the player has to support such subtitles to display them. Also, subtitles are usually encoded as images with minimal bitrate and number of colors; they usually lack [[Spatial anti-aliasing|anti-aliased]] [[font rasterization]]. Also, changing such subtitles is hard, but special [[Optical character recognition|OCR]] software, such as [[SubRip]] exists to convert such subtitles to "soft" ones.
+* '''Soft''' (also known as '''softsubs''' or '''closed''' subtitles) are separate instructions, usually a specially marked up text with time stamps to be displayed during playback. It requires player support and, moreover, there are multiple incompatible (but usually reciprocally convertible) subtitle file formats. Softsubs are relatively easy to create and change, and thus are frequently used for [[fansub]]s. Text rendering quality can vary depending on the player, but is generally higher than prerendered subtitles. Also, some formats introduce [[text encoding]] troubles for the end-user, especially if different languages are used simultaneously (for example, Latin and Asian scripts).
+
+In other categorization, digital video subtitles are sometimes called '''internal''', if they are embedded in a single video file container along with video and audio streams, and '''external''' if they are distributed as separate file (that is less convenient, but it is easier to edit/change such file).
+{| class="wikitable"
+|+'''Comparison table'''
+! Feature
+! Hard
+! Prerendered
+! Soft
+|-
+| Can be turned off/on
+| {{no}}
+| {{yes}}
+| {{yes}}
+|-
+| Multiple subtitle variants (for example, languages)
+| {{Yes}}, though all displayed at the same time
+| {{yes}}
+| {{yes}}
+|-
+| Editable
+| {{no}}
+| {{partial|Difficult, but possible}}
+| {{yes}}
+|-
+| Player requirements
+| None
+| Majority of players support DVD subtitles
+| Usually requires installation of special software, unless national regulators mandate its distribution
+|-
+| Visual appearance, colors, font quality
+| Low to High, depends on video resolution/compression
+| Low
+| Low to High, depends on player and subtitle file format
+|-
+| Transitions, karaoke and other special effects
+| Highest
+| Low
+| Depends on player and subtitle file format, but generally poor{{citation needed|date=July 2014}}
+|-
+| Distribution
+| Inside original video
+| Separate low-bitrate video stream, commonly multiplexed
+| Relatively small subtitle file or instructions stream, multiplexed or separate
+|-
+| Additional overhead
+| None, though subtitles added by re-encoding of the original video may degrade overall image quality, and the sharp edges of text may introduce [[compression artifact|artifacts]] in surrounding video
+| High
+| Low
+|}
+
+== Subtitle formats ==
+{{Refexample|section|date=May 2018}}
+
+=== For software video players ===
+{| class="wikitable sortable"
+|+ Sortable table
+! Name
+! Extension
+! Type
+! Text styling
+! Metadata
+! Timings
+! Timing precision
+|-
+! [[AQTitle]]
+| .aqt
+| Text
+| {{yes}}
+| {{yes}}
+| Framings
+| As [[film frame|frame]]s
+|-
+! [[EBU-TT-D]]<ref>{{cite web|title=EBU-TT-D Subtitling Distribution Format|url=http://tech.ebu.ch/publications/tech3380|work=European Broadcasting Union|publisher=European Broadcasting Union|accessdate=22 July 2015|author=EBU|year=2015}}</ref>
+| {{n/a}}
+| [[XML]]
+| {{yes}}
+| {{yes}}
+| Elapsed time
+| Unlimited
+|-
+! [[Gloss Subtitle]]
+| .gsub
+| HTML/XML
+| {{Yes}}
+| {{Yes}}
+| Elapsed time
+| 10 milliseconds
+|-
+! [[JACOSub]]<ref>{{cite web|title=JACOsub Script File Format Specification|url=http://unicorn.us.com/jacosub/jscripts.html|work=Unicorn Research Corporation|publisher=Unicorn Research Corporation|accessdate=10 March 2013|author=Alex Matulich|year=1997–2002}}</ref>
+| .jss
+| Text with markup
+| {{Yes}}
+| {{No}}
+| Elapsed time
+| As frames
+|-
+! [[MicroDVD]]
+| .sub
+| Text
+| {{No}}
+| {{No}}
+| Framings
+| As frames
+|-
+! [[MPEG-4 Part 17|MPEG-4 Timed Text]]
+| .ttxt (or mixed with A/V stream)
+| [[XML]]
+| {{Yes}}
+| {{No}}
+| Elapsed time
+| 1 millisecond
+|-
+! [[MPlayer|MPSub]]
+| .sub
+| Text
+| {{No}}
+| {{Yes}}
+| Sequential time
+| 10 milliseconds
+|-
+! [[Ogg Writ]]
+| {{n/a}} (embedded in Ogg container)
+| Text
+| {{Yes}}
+| {{Yes}}
+| Sequential granules
+| Dependent on [[bitstream]]
+|-
+! [[Phoenix Subtitle]]
+| .pjs
+| Text
+| {{No}}
+| {{No}}
+| Framings
+| As frames
+|-
+! [[PowerDivX]]
+| .psb
+| Text
+| {{No}}
+| {{No}}
+| Elapsed time
+| 1 second
+|-
+! [[RealText]]<ref>{{cite web|title=RealText Authoring Guide|url=http://service.real.com/help/library/guides/realtext/realtext.htm|work=Real|publisher=RealNetworks|accessdate=10 March 2013|year=1998–2000|deadurl=yes|archiveurl=http://archive.wikiwix.com/cache/20111102153449/http://service.real.com/help/library/guides/realtext/realtext.htm|archivedate=2 November 2011|df=}}</ref>
+| .rt
+| [[HTML]]
+| {{Yes}}
+| {{No}}
+| Elapsed time
+| 10 milliseconds
+|-
+! [[SAMI]]
+| .smi
+| HTML
+| {{Yes}}
+| {{Yes}}
+| Framings
+| As frames
+|-
+! Spruce subtitle format<ref>{{cite web|title=Spruce Subtitle Format|url=http://geocities.com/McPoodle43/DVDMaestro/stl_format.html|work=Internet Archive Wayback Machine|accessdate=10 March 2013|archiveurl=https://web.archive.org/web/20091028173024/http://geocities.com/McPoodle43/DVDMaestro/stl_format.html|archivedate=28 October 2009}}</ref>
+| .stl
+| Text
+| {{Yes}}
+| {{Yes}}
+| Sequential time+frames
+| Sequential time+frames
+|-
+! [[Structured Subtitle Format]]
+| .ssf
+| XML
+| {{Yes}}
+| {{Yes}}
+| Elapsed time
+| 1 millisecond
+|-
+! [[SubRip]]
+| .srt
+| Text
+| {{Yes}}
+| {{No}}
+| Elapsed time
+| 1 millisecond
+|-
+! [[Advanced SubStation Alpha|(Advanced)]] [[SubStation Alpha]]
+| .ssa or .ass (advanced)
+| Text
+| {{Yes}}
+| {{Yes}}
+| Elapsed time
+| 10 milliseconds
+|-
+! [[SubViewer]]
+| .sub
+| Text
+| {{No}}
+| {{Yes}}
+| Elapsed time
+| 10 milliseconds
+|-
+! [[Universal Subtitle Format]]
+| .usf
+| XML
+| {{Yes}}
+| {{Yes}}
+| Elapsed time
+| 1 millisecond
+|-
+! [[VSFilter|VobSub]]
+| .sub + .idx
+| Image
+| {{n/a}}
+| {{n/a}}
+| Elapsed time
+| 1 millisecond
+|-
+! [[XSUB]]
+| {{n/a}} (embedded in [[Divx#DivX Media Format (DMF)|.divx]] container)
+| Image
+| {{n/a}}
+| {{n/a}}
+| Elapsed time
+| 1 millisecond
+|}
+
+There are still many more uncommon formats. Most of them are text-based and have the extension .txt.
+
+=== For media ===
+For cinema movies shown in a theatre:
+* [[Film|Cinema]]
+* [[Digital cinema|D-Cinema]]: digital projection of movie in [[Digital Cinema Package|DCP]] format
+
+For movies on DVD Video:
+* [[DVD-Video]] subtitles
+* [[Blu-ray Disc]] subtitles
+
+For TV broadcast:
+* [[Teletext]]
+* [[Digital Video Broadcasting|DVB]] Subtitles
+* [[Philips Overlay Graphics Text]]
+* [[Imitext]]
+
+Subtitles created for TV broadcast are stored in a variety of file formats. The majority of these formats are proprietary to the vendors of subtitle insertion systems.
+
+Broadcast subtitle formats include:
+
+.ESY
+.XIF
+.X32
+.PAC
+.RAC
+.CHK
+.AYA
+.890
+.CIP
+.CAP
+.ULT
+.USF
+.CIN
+.L32
+.ST4
+.ST7
+.TIT
+.STL
+
+The [[EBU]] format defined by Technical Reference 3264-E<ref>{{cite web|title=Specification of the EBU Subtitling data exchange format|url=http://tech.ebu.ch/docs/tech/tech3264.pdf|work=Specification of the EBU Subtitling data exchange format|publisher=European Broadcasting Union|accessdate=10 March 2013|format=PDF|date=February 1991}}</ref> is an 'open' format intended for subtitle exchange between broadcasters. Files in this format have the extension .stl (not to be mixed up with text "Spruce subtitle format" mentioned above, which also has extension .stl)
+
+For internet delivery:
+* [[Synchronized Multimedia Integration Language|SMIL]]
+* [[Timed Text Markup Language|TTML]]/[[DFXP]]
+** [[SMPTE-TT]]/[[CFF-TT]] (for [[UltraViolet (system)|UltraViolet]]-compatible players)
+** [[EBU-TT]]
+
+The Timed Text format currently a "Candidate Recommendation" of the [[W3C]] (called [[DFXP]]<ref>{{cite web|title=Mission|url=http://www.w3.org/AudioVideo/TT/|work=Timed Text Working Group|accessdate=10 March 2013|author=Philippe Le Hégaret|author2=Sean Hayes |date=6 September 2012}}</ref>) is also proposed as an 'open' format for subtitle exchange and distribution to media players, such as Microsoft [[Silverlight]].
+
+== Reasons for not subtitling a foreign language ==
+Most times a foreign language is spoken in film, subtitles are used to translate the dialogue for the viewer. However, there are occasions when foreign dialogue is left unsubtitled (and thus incomprehensible to most of the target audience). This is often done if the movie is seen predominantly from the viewpoint of a particular character who does not speak the language. Such absence of subtitles allows the audience to feel a similar sense of incomprehension and [[Social alienation|alienation]] that the character feels. An example of this is seen in ''[[Not Without My Daughter (film)|Not Without My Daughter]]''. The [[Persian language]] dialogue spoken by the Iranian characters is not subtitled because the main character [[Betty Mahmoody]] does not speak Persian and the audience is seeing the film from her viewpoint.
+
+A variation of this was used in the video game ''[[Max Payne 3]]''. Subtitles are used on both the English and Portuguese dialogues, but the latter is left untranslated<ref name="maxpayne3subtitles">{{cite web|url=http://www.entdepot.com/2012/06/01/xbox-360-review-max-payne-3/|title=(Xbox 360 Review) Max Payne 3 |publisher=The Entertainment Depot|accessdate=7 May 2013}}</ref> as the main character doesn't understand the language.
+
+== Subtitles as a source of humor ==
+{{Refimprove section|date=June 2011}}
+Occasionally, movies will use subtitles as a source of humor, parody and satire.
+
+* In ''[[Annie Hall]]'', the characters of [[Woody Allen]] and [[Diane Keaton]] are having a conversation; their real thoughts are shown in subtitles.
+* In ''[[Austin Powers in Goldmember]]'', [[Japanese language|Japanese]] dialog is subtitled using white type that blends in with white objects in the background. An example is when white binders turn the subtitle "I have a huge rodent problem" into "I have a huge rod." After many cases of this, Mr. Roboto says "Why don't I just speak English?", in English. In the same film, Austin and Nigel Powers directly speak in [[Cockney English]] to make the content of their conversation unintelligible; subtitles appear for the first part of the conversation, but then cease and are replaced with a series of question marks.
+* In ''[[Yellow Submarine (film)|Yellow Submarine]]'', the Beatles use the subtitles of "[[All you need is love]]" to defeat a giant glove.
+* In ''[[The Impostors]]'', one character speaks in a foreign language, while another character hides under the bed. Although the hidden character cannot understand what is being spoken, he can read the subtitles. Since the subtitles are overlaid on the film, they appear to be reversed from his point of view. His attempt to puzzle out these subtitles enhances the humor of the scene.
+* The movie ''[[Airplane!]]'' and its sequel feature two inner-city [[African American]]s speaking in heavily accented slang, which another character refers to as if it were a foreign language: "[[African American Vernacular English|Jive]]".  Subtitles translate their speech, which is full of colorful expressions and mild profanity, into bland [[standard English]], but the typical viewer can understand enough of what they are saying to recognize the incongruity. [https://web.archive.org/web/20040528112358/http://larry.teamoverkill.com/jive/ Transcript of the dialog]
+* In ''[[Cars 2]]'', Susie Chef and Mater speak Chinese with English subtitles and Luigi, Mama Lopolino and Uncle Topolino speak Italian with English subtitles.
+* In parodies of the German film ''[[Downfall (2004 film)|Der Untergang]]'', incorrect subtitles are deliberately used, often with offensive and humorous results.
+* In the [[Carl Reiner]] comedy ''[[The Man with Two Brains]]'', after stopping Dr. Michael Hfuhruhurr ([[Steve Martin]]) for speeding, a German police officer realizes that Hfuhruhurr can speak English. He asks his colleague in their squad car to turn off the subtitles, and indicates toward the bottom of the screen, commenting that "This is better&nbsp;— we have more room down there now".
+* In the opening credits of ''[[Monty Python and the Holy Grail]]'', the Swedish subtitler switches to English and promotes his country, until the introduction is cut off and the subtitler "sacked".  In the DVD version of the same film, the viewer could choose, instead of hearing aid and local languages, lines from [[William Shakespeare|Shakespeare]]'s ''[[Henry IV, part 2]]'' that vaguely resemble the lines that are actually being spoken in film, if they are "''people who hate the film''".
+* In ''[[Scary Movie 4]]'', there is a scene where the actors speak in faux [[Japanese language|Japanese]] (nonsensical words which mostly consist of Japanese company names), but the content of the subtitles is the "real" conversation.
+* In ''[[Not Another Teen Movie]]'', the nude [[foreign exchange student]] character Areola speaks lightly accented English, but her dialog is subtitled anyway. Also, the text is spaced in such a way that a view of her bare breasts is unhindered.
+* In ''[[Trainspotting (film)|Trainspotting]]'', the leading characters have a conversation in a crowded club. To understand what is being said, the entire dialog is subtitled.
+* [[Simon Ellis (film director)|Simon Ellis]]' 2000 short film ''Telling Lies'' juxtaposes a soundtrack of a man telling lies on the telephone against subtitles which expose the truth.<ref>[http://www.bbc.co.uk/dna/filmnetwork/A7079510 BBC – Film Network<!-- Bot generated title -->]  {{webarchive |url=https://web.archive.org/web/20060831221429/http://www.bbc.co.uk/dna/filmnetwork/A7079510 |date=August 31, 2006 }}</ref>
+* [[Animutation]]s commonly use subtitles to present the comical [[mondegreen|"fake lyrics"]] (English words that sound close to what is actually being sung in the song in the non-English language). These fake lyrics are a major staple of the Animutation genre.
+* ''[[Lock, Stock and Two Smoking Barrels]]'' contains a scene spoken entirely in [[cockney rhyming slang]] that is subtitled in standard English.
+* In an episode of ''[[Angry Beavers]]'', at one point Norbert begins to speak with such a heavy European accent that his words are subtitled on the bottom of the screen. Daggett actually touches the subtitles, shoving them out of the way.
+* In the American theatrical versions of [[Night Watch (2004 film)|''Night Watch'']] and ''[[Day Watch (film)|Day Watch]]'', Russian dialogues are translated by subtitles which are designed accordingly to the depicted events. For instance, subtitles dissolve in water like blood, tremble along with a shaking floor or get cut by sword.
+* The film ''[[Crank (film)|Crank]]'' contains a scene where [[Jason Statham]]'s character understands an Asian character's line of dialogue from reading the on-screen subtitle. The subtitle is even in reverse when his character reads the line. Later, an exclamation made by another Asian character is subtitled, but both the spoken words and the subtitles are in Chinese.
+* In ''[[Fatal Instinct]]'', also directed by [[Carl Reiner]], one scene involving two characters talking about their murder plan in Yiddish to prevent anyone from knowing about it, only to be foiled by a man on the bench reading the on-screen subtitles.
+* [[Ken Loach]] released the film ''[[Riff-Raff]]'' into American theatres with subtitles not only so people could understand the thick Scottish accents, but also to make fun of what he believes to be many Americans' need for them (mentioned in the theatrical trailer). Many of Loach's films contain traditional dialect, with some (e.g. ''[[The Price of Coal]]'') requiring subtitles even when shown on television in England.
+* In [[Bobby Lee]]'s "Tae Do," a [[parody]] of Korean dramas in a ''[[Mad TV]]'' episode, the subtitles make more sense of the story than the Korean language being spoken.  The subtitles are made to appear as though written by someone with a poor understanding of grammar and are often intentionally made longer than what they actually say in the drama. For example, an actor says "Sarang" ("I love you"), but the subtitle is  so long that it covers the whole screen.
+* In television series [[Skithouse]], a journalist interviews a group of Afghan terrorists in English, but one of them gets subtitled and sees it. He gets mad because he takes as an insult that he is the only one to get subtitled.<ref>{{cite av media|url=https://www.youtube.com/watch?v=cFPm2fhB2pI|title=Skithouse: News report from Iraq|date=5 August 2007|work=YouTube}}</ref>
+* In [[Mel Brooks]] film ''[[Men in Tights]]'', the thoughts of Broomhilde's (Megan Cavanaugh) horse [[Farfelkugel]] are shown as subtitles when Broomhilde attempts to jump on saddle off balcony. As Farfelkugel shudders, the showtitles show "She must be kidding!"
+* In the television series ''[[Drawn Together]]'', the character Ling-Ling can only be understood through English subtitles, as his dialogue is delivered in a nonexistent language referred to as "Japorean" by [[Abbey DiGregorio]], the voice actress for the character.
+* In the television series ''[[Green Acres]]'' episode “Lisa's Mudder Comes for a Visit” (season 5 episode 1), Lisa and her mother converse in Hungarian, with English Subtitles.  First, Lisa looks down and corrects the subtitles, “No no no, I said you hadn't changed a bit! We have a lot of trouble here with subtitles.”, and they change.  Mother's Japanese chauffeur asks “I begga pardon – I bringa bags inna house?” that elicits a gong sound and Japanese subtitles. This is followed by Mother’s great Dane barking with the subtitles “I've seen better doghouses than this” with Lisa responding “We're not interested in what the dog says”, and the subtitles disappear. Later, the subtitles ask farmhand Eb if they will be needing any more subtitles for the episode.
+* In the UK television series ''[[Top Gear (2002 TV series)|Top Gear]]'', in episode 6 of Series 13, they purposely mistranslate the song sung by [[Carla Bruni]], having her supposedly denouncing hatred towards the trio of presenters ("but mainly [[James May]]") for destroying what is claimed to be her own [[Morris Marina]].
+* In Vance Joy's music video "Riptide" it shows a woman singing the lyrics to the song. At many points the lyrics which are sung "I got a lump in my throat cause you're gonna sing the words wrong"<ref>{{cite web|url=http://www.metrolyrics.com/riptide-lyrics-vance-joy.html|title=Vance Joy – Riptide Lyrics – MetroLyrics|work=metrolyrics.com}}</ref> are deliberately mis-subtitled as "I got a lump in my throat cause you gone and sank the worlds wolf"<ref>{{cite av media|url=https://www.youtube.com/watch?v=uJ_1HMAGb4k|title=Vance Joy – 'Riptide' Official Video|date=2 April 2013|work=YouTube}}</ref>
+* In [["Weird Al" Yankovic]]'s music video for "[[Smells Like Nirvana]]", the second verse is subtitled as a way to mock the supposed unintelligibility of the song. One of the lines is "It's hard to bargle nawdle zouss???" (with three question marks), which has no meaning, but is explained by the following line, "With all these marbles in my mouth". While singing the latter, Yankovic indeed spits out a couple of marbles.
+
+One unintentional source of humor in subtitles comes from illegal DVDs produced in non-English-speaking countries (especially China).  These DVDs often contain poorly worded subtitle tracks, possibly produced by [[machine translation]], with humorous results.  One of the better-known examples is a copy of ''[[Star Wars: Episode III – Revenge of the Sith]]'' whose opening title was subtitled, "Star war: The backstroke of the west".<ref>{{cite web|title=episode iii, the backstroke of the west|url=http://winterson.com/2005/06/episode-iii-backstroke-of-west.html|work=winterson.com|publisher=Google, Inc|accessdate=10 March 2013|author=jeremy|date=6 July 2005|deadurl=yes|archiveurl=https://web.archive.org/web/20080516224348/http://www.winterson.com/2005/06/episode-iii-backstroke-of-west.html|archivedate=16 May 2008|df=}}</ref>
+
+== See also ==
+{{div col |colwidth=22em}}
+* [[Airscript]]
+* [[Camtasia]]
+* [[Comparison of subtitle editors]]
+* [[Comparison of video player software#Subtitle ability|Comparison of software video players with subtitle support]]
+* [[Dubbing (filmmaking)|Dubbing]]
+* [[Intertitle]]
+* [[Karaoke]]
+* [[Kameraflage]]
+* [[Subtitle editor]]
+* [[Surtitles]]
+* [[Same language subtitling]]
+* [[Synchronized Multimedia Integration Language]]
+* [[Telop]]
+* [[Time shifting]]
+* [[Transcription (linguistics)]]
+* [[WYSIWYG]]
+{{div col end}}
+
+== Notes ==
+Many words such as "Mum/Mom", "pyjamas/pajamas", and so on, are commonly spelled according to the accent or national origin of the person speaking, rather than the language, country, or market the subtitles were created for.  For example, a British film released in the United States might use "Mum" when a British character is speaking, while using "Mom" when an American character is speaking.
+
+'''Phone captioning''' is a free service provided by the US government in which specially trained operators provide transcriptions for hearing-impaired telephone users.
+
+== References ==
+{{Reflist}}
+
+== External links ==
+<!--===============({{NoMoreLinks}})===============-->
+<!-- DO NOT ADD MORE LINKS TO THIS ARTICLE. WIKIPEDIA IS NOT A COLLECTION OF LINKS -->
+<!-- If you think that your link might be useful,  instead of placing it here, put -->
+<!-- it on this article's discussion page first. Links that have not been verified -->
+<!--                                WILL BE DELETED                                -->
+<!--=======================================-->
+* [http://news.bbc.co.uk/1/hi/magazine/4862652.stm Popularity of subtitles among those with unimpaired hearing]
+* [https://web.archive.org/web/20120413022337/http://www.esist.org/ESIST%20Subtitling%20code_files/Code%20of%20Good%20Subtitling%20Practice_en.pdf ESIST Code of Good Subtitling Practice]
+* [https://web.archive.org/web/20070927173418/http://www.accurapid.com/journal/04stndrd.htm Proposed set of subtitling standards in Europe]
+* [http://www.paulmemmi.com/?article=2&lang=en A semiolinguistic study of concise writing and subtitling – in French]
+
+
+[[Category:Subtitling| ]]
+[[Category:Assistive technology]]
+[[Category:Translation]]
+[[Category:Teletext]]

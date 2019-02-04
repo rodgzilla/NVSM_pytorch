@@ -1,0 +1,64 @@
+A '''sensor grid''' integrates wireless sensor networks with [[grid computing]] concepts to enable real-time sensor data collection and the sharing of computational and storage resources for sensor data processing and management. It is an enabling technology for building large-scale infrastructures, integrating heterogeneous sensor, data and computational resources deployed over a wide area, to undertake complicated surveillance tasks such as [[environmental monitoring]].
+
+== Concept and history ==
+The concept of a sensor grid was first defined in the [[Discovery Net]] project where a distinction was made between “sensor networks” and “sensor grids”.<ref>
+{{Citation
+ |author1=M Ghanem |author2=Y Guo |author3=J Hassard |author4=M Osmond |author5=M Richards | year = 2004 
+ | title = Sensor grids for air pollution monitoring 
+ | journal =In Proc. 3rd UK e-Science All Hands Meeting, Nottingham, UK, 2004. 
+ | citeseerx = 10.1.1.127.1135 
+}}
+</ref><ref>
+{{Citation
+ |author1=M Richards |author2=M Ghanem |author3=M Osmond |author4=Y Guo |author5=J Hassard | year = 2006 
+ | title = Grid-based analysis of air pollution data 
+ | journal = Ecological modelling 
+ | volume = 194 
+ | issue = 1-3 
+ | url = http://www.sciencedirect.com/science/article/pii/S0304380005005259 
+ | doi = 10.1016/j.ecolmodel.2005.10.042 
+}}</ref>
+
+Briefly whereas the design of a sensor network addresses the logical and physical connectivity of the sensors, the focus of constructing a sensor grid is on the issues relating to the data management, computation management, information management and knowledge discovery management associated with the sensors and the data they generate, and how they can be addressed within an open computing environment. In particular in a Sensor Grid is characterized by:
+
+*  '''Distributed Sensor Data Access and Integration:''' relating to both the heterogeneity and geographic distribution of the sensors within a sensor grid and how sensors can be located, accessed and integrated within a particular study.
+* '''Large Data Set Storage and Management:''' relating to the sizes of data being collected and analyzed  by multiple users at different locations for different purposes.
+* '''Distributed Reference Data Access and Integration:''' relating to the need for integrating the analysis data collected from a Sensor Grid with other forms of data available of the Internet.
+*  '''Intensive and Open Data Analysis Computation:''' relating to the need for using a multitude of analysis components such as statistical, clustering, visualization and data classification tools that could be executing remotely on high performance computing servers on a computational Grid.
+
+==Uses==
+The sensor grid enables the collection, processing, sharing, visualization, archiving and searching of large amounts of sensor data.
+<ref>H.B. Lim, et al. Sensor Grid: Integration of Wireless Sensor Networks and the Grid, In Proc. of the IEEE Conference on Local Computer Networks 30th Anniversary (LCN’05), October 2005.
+</ref>
+<ref>Hingne, V.; Joshi, A.; Houstis, E.; Michopoulos, J. On the Grid and Sensor Networks. In Proc. Of International Workshop on Grid Computing. pages 166-173. Nov. 2003.</ref> 
+<ref>M. Gaynor, et al. Integrating wireless sensor networks with the grid. IEEE Internet Computing, pages 32–39, Jul/Aug 2004.</ref>
+<ref>H. B. Lim, K. V. Ling, W. Wang, Y. Yao, M. Iqbal, B. Li, X. Yin, and T. Sharma, "The National Weather Sensor Grid," Proc. of the 5th ACM Conference on Embedded Networked Sensor Systems (SenSys 2007), Nov 2007.</ref>
+There are several rationales for a sensor grid. First, the vast amount of data collected by the sensors can be processed, analyzed, and stored using the computational and data storage resources of the grid. Second, the sensors can be efficiently shared by different users and applications under flexible usage scenarios. Each user can access a subset of the sensors during a particular time period to run a specific application, and to collect the desired type of sensor data. Third, as sensor devices with embedded processors become more computationally powerful, it is more efficient to offload specialized tasks such as image and signal on the sensor devices. Finally, a sensor grid provides seamless access to a wide variety of resources in a pervasive manner. Advanced techniques in [[artificial intelligence]], [[data fusion]], [[data mining]], and distributed database processing can be applied to make sense of the sensor data and generate new knowledge of the environment. The results can in turn be used to optimize the operation of the sensors, or influence the operation of actuators to change the environment. Thus, sensor grids are well suited for adaptive and [[pervasive computing]] applications.
+
+{| border="1" align="center"
+| [[Image:Sensor Grid architecture2-new.jpg]]
+|-
+| style="text-align:center;"| Typical sensor grid architecture
+|}
+
+==Applications==
+A sensor grid based architecture has many applications such as [[Community-based monitoring|environmental and habitat monitoring]], healthcare monitoring of patients, weather monitoring and [[Weather forecasting|forecasting]], military and homeland security [[surveillance]], tracking of goods and manufacturing processes, safety monitoring of physical structures and construction sites, smart homes and offices, and many other uses currently beyond our imagination. Various architectures that can be used for such applications as well as different kinds of data analysis and data mining that can be conducted. Examples of architectures that integrate a mobile sensor network and Grids are given in <ref>{{Cite journal | last1 = Ma | first1 = Y. | last2 = Richards | first2 = M. | last3 = Ghanem | first3 = M. | last4 = Guo | first4 = Y. | last5 = Hassard | first5 = J. | title = Air Pollution Monitoring and Mining Based on Sensor Grid in London | doi = 10.3390/s8063601 | journal = Sensors | volume = 8 | issue = 6 | pages = 3601 | year = 2008 | pmid =  | pmc = }}</ref>
+
+==See also ==
+* [[Wireless sensor network]]
+* [[Sensor web]]
+* [[Grid computing]]
+* [[Data mining]]
+
+==References==
+{{Reflist|2}}
+
+==Further reading==
+For sensor grid architectures, designs and applications, see the following:
+
+# Crisisgrid (2007):  http://www.crisisgrid.org
+# The National Weather Sensor Grid: https://archive.is/20130418144026/http://nwsp.ntu.edu.sg/
+
+{{Wireless Sensor Network}}
+{{Sensors}}
+[[Category:Sensor network]]

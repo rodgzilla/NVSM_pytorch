@@ -1,0 +1,556 @@
+{{Redirect|X-15}}
+{{Use dmy dates|date=June 2014}}
+{|{{Infobox aircraft begin
+ |name= X-15
+ |image= File:North American X-15.jpg|alt=Black rocket aircraft with stubby wings and short vertical stabilizers above and below tail unit
+ |caption=
+}}{{Infobox aircraft type
+ |type= [[Experimental aircraft|Experimental]] high-speed [[Rocket-powered aircraft|rocket-powered]] [[research]] aircraft
+ |manufacturer=[[North American Aviation]]
+ |first flight=8 June 1959
+ |introduced=17 September 1959
+ |retired=December 1968
+ |status=
+ |primary user=[[United States Air Force]]
+ |more users=[[NASA]]
+ |produced=
+ |number built= 3
+ |surviving=2
+ |destroyed=1
+ |unit cost=
+ |developed from=
+ |variants with their own articles=
+}}
+|}
+
+The '''North American X-15''' was a [[Hypersonic speed|hypersonic]] [[rocket-powered aircraft]] operated by the [[United States Air Force]] and the [[NASA|National Aeronautics and Space Administration]] as part of the [[List of X-planes|X-plane]] series of [[experimental aircraft]]. The X-15 set speed and altitude records in the 1960s, reaching the [[Kármán line|edge of outer space]] and returning with valuable data used in [[aircraft]] and [[spacecraft]] design. The X-15's [[Flight airspeed record|official world record]] for the highest speed ever recorded by a manned, powered aircraft, set in October 1967 when [[William J. Knight]] flew [[Mach number|Mach]] 6.70 at {{convert|102100|ft|m|sigfig=4}}, a speed of {{convert|4520|mph|km/h m/s|0}}, has remained unbroken as of 2018.<ref name="nasa20140228">{{cite web |url=http://www.nasa.gov/centers/armstrong/news/FactSheets/FS-052-DFRC.html |title=NASA Armstrong Fact Sheet: X-15 Hypersonic Research Program |publisher=NASA |editor-first=Yvonne |editor-last=Gibbs |date=28 February 2014 |accessdate=4 October 2015}}</ref><ref name="Fastest">{{cite web |url=http://www.aerospaceweb.org/aircraft/research/x15/ |title=North American X-15 High-Speed Research Aircraft |work=Aerospaceweb.org |year=2010 |accessdate=24 November 2008}}</ref>
+
+During the X-15 program, 13 flights by eight pilots met the Air Force [[human spaceflight|spaceflight]] criterion by exceeding the altitude of {{convert|50|mi|km}}, thus qualifying these pilots as being [[astronaut]]s. The Air Force pilots qualified for astronaut wings immediately, while the civilian pilots were eventually awarded NASA [[astronaut wings]] in 2005, 35 years after the last X-15 flight.  The only Navy pilot in the X-15 program never took the aircraft above the requisite 50 mile (80 km) altitude and thus never earned astronaut wings.{{sfn|Jenkins|2001|p=10}}<ref name="NASA">{{cite press release |url=http://www.nasa.gov/home/hqnews/2005/aug/HQ_05233_X-15_pilots_honored.html |title=NASA Honors High Flying Space Pioneers |publisher=NASA |first1=Elvia H. |last1=Thompson |first2=Frederick A. |last2=Johnsen |date=23 August 2005 |id=Release 05-233}}</ref>
+
+==Design and development==
+[[File:X-15 in flight.jpg|thumb|right|X-15 after igniting rocket engine]]
+[[File:X-15A2 NB-52B 3.jpg|thumb|right|X-15A-2, with sealed ablative coating, [[Drop tank|external fuel tanks]], and ramjet dummy test]]
+The X-15 was based on a concept study from [[Walter Dornberger]] for the [[National Advisory Committee for Aeronautics]] (NACA) for a [[Hypersonic speed|hypersonic]] research aircraft.{{sfn|Käsmann|1999|p=105}} The [[Request for proposal|requests for proposal]] (RFPs) were published on 30 December 1954 for the airframe and on 4 February 1955 for the [[rocket engine]]. The X-15 was built by two manufacturers: [[North American Aviation]] was contracted for the airframe in November 1955, and [[Reaction Motors]] was contracted for building the engines in 1956.
+
+Like many [[X-plane|X-series]] aircraft, the X-15 was designed to be carried aloft and [[drop test|drop launched]] from under the wing of a [[Boeing B-52 Stratofortress|B-52]] [[mother ship]].  Air Force NB-52A, "The High and Mighty One" (serial 52-0003, a.k.a. ''[[Balls 3]]''), and NB-52B, "The Challenger" (serial 52-0008, a.k.a. ''[[Balls 8]]'') served as carrier planes for all X-15 flights.  Release took place at an altitude of about {{convert|8.5|mi|km}} and a speed of about {{convert|805|km/h|mph|order=flip|sp=us}}.<ref name="E-4942">{{cite web |url=http://www.dfrc.nasa.gov/Gallery/Photo/X-15/HTML/E-4942.html |title=X-15 launch from B-52 mothership |publisher=Armstrong Flight Research Center |date=6 February 2002 |id=Photo E-4942}}</ref> The X-15 fuselage was long and cylindrical, with rear [[Aircraft fairing|fairings]] that flattened its appearance, and thick, dorsal and ventral wedge-fin stabilizers. Parts of the fuselage were heat-resistant [[nickel]] [[alloy]] ([[Inconel]]-X 750).{{sfn|Käsmann|1999|p=105}} The retractable [[landing gear]] comprised a nose-wheel carriage and two rear skids. The skids did not extend beyond the ventral fin, which required the pilot to jettison the lower fin just before landing.  The lower fin was recovered by parachute.
+
+===Cockpit and pilot systems===
+[[File:North American X-15A-2 cockpit 2 USAF.jpg|thumb|left|Cockpit of an X-15]]
+The X-15 was the product of developmental research and changes were made to various systems over the course of the program and between the different models. The X-15 was operated under several different scenarios, including attachment to a launch aircraft, drop, main engine start and acceleration, ballistic flight into thin air/space, re-entry into thicker air, unpowered glide to landing, and direct landing without a main-engine start. The main rocket engine operated only for a relatively short part of the flight, but boosted the X-15 to its high speeds and altitudes. Without main engine thrust, the X-15's instruments and control surfaces remained functional, but the aircraft could not maintain altitude.
+
+Because the X-15 also had to be controlled in an environment where there was too little air for aerodynamic [[flight control surface]]s, it had a [[reaction control system]] (RCS) that used rocket thrusters.<ref name=paul /> There were two different X-15 pilot control setups: one used three joysticks, the other, one joystick.<ref name=jarvis />
+
+The X-15 type with multiple control sticks for the pilot placed a traditional rudder and stick between a left joystick that sent commands to the Reaction Control System,<ref name=paul2 /> and a third joystick on the right used during high-G maneuvers to augment the center stick.<ref name=paul2 /> In addition to pilot input, the X-15 "[[Stability Augmentation System]]" (SAS) sent inputs to the aerodynamic controls to help the pilot maintain [[attitude control]].<ref name=paul2 />  The Reaction Control System (RCS) could be operated in two modes&nbsp;— manual and automatic.<ref name=jarvis /> The automatic mode used a feature called "Reaction Augmentation System" (RAS) that helped stabilize the vehicle at high altitude.<ref name=jarvis>{{cite book |url=http://www.nasa.gov/centers/dryden/pdf/87709main_H-364.pdf |title=Operational Experience With the X-15 Reaction Control and Reaction Augmentation Systems |publisher=NASA |first1=Calvin R. |last1=Jarvis |first2=Wilton P. |last2=Lock |year=1965 |id=TN D-2864 |oclc=703664750}}</ref>  The RAS was typically used for approximately three minutes of an X-15 flight before automatic power off.<ref name=jarvis />
+
+The alternative control setup used the MH-96 flight control system, which allowed one joystick in place of three and simplified pilot input.<ref name=goleta>{{cite web |url=http://www.air-and-space.com/x-15%20forty%20years%20later%20200202.htm |title=Forty Years ago in the X-15 Flight Test Program, November 1961–March 1962 |publisher=Goleta Air & Space Museum |access-date=3 October 2011}}</ref> The MH-96 could automatically blend aerodynamic and rocket controls, depending on how effective each system was at controlling the aircraft.<ref name=goleta />
+
+Among the many controls were the rocket engine throttle and a control for jettisoning the ventral tail fin.<ref name=paul2 /> Other features of the cockpit included heated windows to prevent icing and a forward headrest for periods of high deceleration.<ref name=paul2 />
+
+The X-15 had an ejection seat designed to operate at speeds up to {{convert|4|Mach|120000}} and/or {{convert|120000|ft|km}} altitude, although it was never used during the program.<ref name=paul2>{{cite web |url=http://www.sierrafoot.org/x-15/pirep2.html |title=X-15 Pilot Report, Part 2: X-15 Cockpit Check |work=SierraFoot.org |first=Paul |last=Raveling |access-date=1 October 2011}}</ref> In the event of ejection, the seat was designed to deploy fins, which were used until it reached a safer speed/altitude at which to deploy its main parachute.<ref name=paul2 /> Pilots wore pressure suits, which could be pressurized with nitrogen gas.<ref name=paul2 /> Above {{convert|35000|ft|km}} altitude, the cockpit was pressurized to {{convert|3.5|psi|atm|abbr=on}} with nitrogen gas, while oxygen for breathing was fed separately to the pilot.<ref name=paul2 />
+
+===Propulsion===
+[[File:North American X-15 Nozzle.jpg|thumb|right|X-15 tail with XLR-99]]
+The initial 24 powered flights used two [[Reaction Motors XLR11]] [[liquid-propellant rocket]] engines, enhanced to provide a total of {{convert|16000|lb-f|kN}} of thrust as compared to the {{convert|6000|lb-f|kN}} that a single XLR11 provided in 1947 to make the [[Bell X-1]] the first aircraft to fly faster than the [[speed of sound]].  The XLR11 used [[ethyl alcohol]] and [[liquid oxygen]].
+
+By November 1960, Reaction Motors was able to deliver the [[Reaction Motors XLR99|XLR99]] rocket engine, generating {{convert|57000|lb-f|kN}} of thrust. The remaining 175 flights of the X-15 used XLR99 engines, in a single engine configuration. The XLR99 used anhydrous ammonia and liquid oxygen as propellant, and hydrogen peroxide to drive the high-speed turbopump that delivered propellants to the engine.<ref name=paul /> It could burn {{convert|15000|lb|kg|0}} of propellant in 80 seconds;<ref name=paul /> [[Jules Bergman]] titled his book on the program ''Ninety Seconds to Space'' to describe the total powered flight time of the aircraft.<ref name="gale196110">{{cite magazine |url=https://archive.org/stream/Galaxy_v20n01_1961-10#page/n173/mode/2up |title=Galaxy's 5-Star Shelf |magazine=[[Galaxy Science Fiction|Galaxy Magazine]] |first=Floyd C. |last=Gale |volume=20 |issue=1 |page=174 |date=October 1961}}</ref>
+
+The X-15 [[reaction control system]] (RCS), for maneuvering in low-pressure/density environment, used [[high-test peroxide]] (HTP), which decomposes into water and oxygen in the presence of a catalyst and could provide a [[specific impulse]] of 140 seconds.<ref name="jarvis" />{{sfn|Davies|2003|p=8.28}} The HTP also fueled a turbopump for the main engines and auxiliary power units (APUs).<ref name=paul>{{cite web |url=http://www.sierrafoot.org/x-15/pirep1.html |title=X-15 Pilot Report, Part 1: X-15 General Description & Walkaround |work=SierraFoot.org |first=Paul |last=Raveling |access-date=30 September 2011}}</ref> Additional tanks for helium and liquid nitrogen performed other functions, for example the fuselage interior was purged with helium gas, and the liquid nitrogen was used as coolant for various systems.<ref name=paul />
+
+===Wedge tail and hypersonic stability===
+[[File:X-15 and B-52 Mother ship.jpg|thumb|X-15 attached to its B-52 mother ship with a [[Northrop T-38 Talon|T-38]] flying nearby]]
+The X-15 had a thick wedge tail to enable it to fly in a steady manner at hypersonic speeds.<ref name=wendell>{{cite book |url=http://www.hq.nasa.gov/office/pao/History/SP-60/cover.html |title=X-15 Research Results: With a Selected Bibliography |publisher=NASA |first=Wendell H. |last=Stillwell |year=1965 |id=NASA SP-60 |oclc=44275779}}</ref> This produced a significant amount of drag at lower speeds;<ref name=wendell /> the blunt end at the rear of the X-15 could produce as much drag as an entire [[Lockheed F-104 Starfighter|F-104 Starfighter]].<ref name=wendell />
+{{Quote|A wedge shape was used because it is more effective than the conventional tail as a stabilizing surface at hypersonic speeds. A vertical-tail area equal to 60 percent of the wing area was required to give the X-15 adequate directional stability.|Wendell H. Stillwell|[https://history.nasa.gov/SP-60/ch-3.html X-15 Research Results (SP-60)]}}
+Stability at hypersonic speeds was aided by side panels which could be extended from the tail to increase the overall surface area, and these panels doubled as air-brakes.<ref name=wendell />
+
+==Operational history==
+[[File:Pilot Neil Armstrong with X-15 -1 (9458061153).jpg|thumb|upright|[[Neil Armstrong]] with X-15 number 1]]
+[[File:X-15 Pilots - GPN-2000-000143.jpg|thumb|X-15 pilots as of December 1965, left to right: [[Joe Engle]], [[Robert A. Rushworth|Bob Rushworth]], [[John B. McKay|John McKay]], [[William J. Knight|Pete Knight]], [[Milton Orville Thompson|Milt Thompson]], and [[William H. Dana|Bill Dana]].]]
+Altitudes attained by X-15 aircraft fell short of those of [[Alan Shepard]]'s and [[Gus Grissom]]'s [[Project Mercury]] space capsules in 1961, or of any other manned [[spacecraft]]. However, the X-15 ranks supreme among manned rocket-powered aircraft, becoming the world's first operational [[spaceplane]] in the early 1960s.
+
+Before 1958, [[United States Air Force]] (USAF) and [[NACA]] officials discussed an orbital X-15 [[spaceplane]], the '''X-15B''' that would launch into [[outer space]] from atop an [[SM-64 Navaho]] missile.  This was canceled when the NACA became [[NASA]] and adopted [[Project Mercury]] instead.
+
+By 1959, the [[Boeing X-20 Dyna-Soar]] space-glider program was to become the USAF's preferred means for launching military manned spacecraft into orbit. This program was canceled in the early 1960s before an operational vehicle could be built.{{sfn|Jenkins|2001|p=10}}  Various configurations of the Navajo were considered, and another proposal involved a Titan I stage.<ref name=wade/>
+
+Three X-15s were built, flying 199 test flights, the last on 24 October 1968.
+
+The first X-15 flight was an unpowered glide flight by [[Scott Crossfield]], on 8 June 1959. Crossfield also piloted the first powered flight on 17 September 1959, and his first flight with the XLR-99 [[rocket engine]] on 15 November 1960. Twelve test pilots flew the X-15. Among these were [[Neil Armstrong]], later a NASA [[astronaut]] and first man to set foot on the Moon, and [[Joe Engle]], later a commander of [[Space Shuttle program|NASA Space Shuttle]] missions.
+
+In a 1962 proposal, NASA considered using the B-52/X-15 as a launch platform for a [[Blue Scout]] rocket to place satellites weighing up to {{convert|150|lb|kg}} into orbit.<ref name="wade">{{cite web |url=http://www.astronautix.com/lvs/x15scout.htm |title=X-15/Blue Scout |work=Encyclopedia Astronautica |first=Mark |last=Wade |accessdate=30 September 2011 |deadurl=yes |archiveurl=https://web.archive.org/web/20111011061550/http://astronautix.com/lvs/x15scout.htm |archivedate=11 October 2011 |df=dmy-all}}</ref><ref name="cis20120321">{{cite web |url=http://www.citizensinspace.org/2012/03/historical-note-blue-scout-x-15/ |title=Historical note: Blue Scout / X-15 |work=Citizensinspace.org |date=21 March 2012}}</ref>
+
+In July and August 1963, pilot [[Joseph A. Walker]] exceeded {{nowrap|100 km}} in altitude, joining NASA astronauts and Soviet [[cosmonaut]]s as the first human beings to cross that line on their way to [[outer space]].  The USAF awarded [[astronaut wings]] to anyone achieving an altitude of {{convert|50|mi|km}}, while the [[Fédération Aéronautique Internationale|FAI]] set the [[Kármán line|limit of space]] at {{convert|100|km|mi|1|sp=us}}.
+
+On 15 November 1967, U.S. Air Force test pilot Major [[Michael J. Adams]] was killed during [[X-15 Flight 3-65-97|X-15 Flight 191]] when X-15-3, AF Ser. No. 56-6672, entered a hypersonic spin while descending, then oscillated violently as aerodynamic forces increased after re-entry. As his aircraft's flight control system operated the control surfaces to their limits, acceleration built to {{convert|15|g0|lk=on|abbr=on}} vertical and {{convert|8.0|g0|lk=on|abbr=on}} lateral.  The airframe broke apart at {{convert|60000|ft|km}} altitude, scattering the X-15's wreckage for {{convert|50|sqmi|km2}}.  On 8 May 2004, a monument was erected at the cockpit's locale, near [[Randsburg, California]].<ref name="xpress2004">{{cite journal |url=http://www.nasa.gov/centers/dryden/news/X-Press/stories/2004/073004/ppl_adams.html |title=Michael Adams: Remembering a Fallen Hero |journal=The X-Press |first=Peter W. |last=Merlin |volume=46 |issue=6 |date=30 July 2004}}</ref> Major Adams was posthumously awarded Air Force astronaut wings for his final flight in X-15-3, which had reached an altitude of {{convert|81.1|km|mi|order=flip|sp=us}}. In 1991, his name was added to the [[Space Mirror Memorial|Astronaut Memorial]].<ref name="xpress2004" />
+
+The second plane, X-15-2, was rebuilt after a landing accident on 9 November 1962 which damaged the craft and injured its pilot, [[John B. McKay|John McKay]].  It was lengthened by {{convert|2.4|ft|cm}}, had a pair of auxiliary fuel tanks attached beneath its [[fuselage]] and wings, and a complete heat-resistant [[Atmospheric entry#Ablative|ablative]] coating was added. The plane was renamed the '''X-15A-2''', and took flight for the first time on 25 June 1964. It reached its maximum speed of {{convert|7274|km/h|mph|order=flip|sp=us}} in October 1967 with pilot [[William "Pete" Knight]] of the [[U.S. Air Force]] in control.
+
+Five principal aircraft were used during the X-15 program: three X-15 planes and two modified "nonstandard" [[Boeing B-52 Stratofortress|NB-52]] bombers:
+* {{nowrap|'''X-15-1''' –}} ''56-6670'', 81 free flights
+* {{nowrap|'''X-15-2''' (later '''X-15A-2''') –}} ''56-6671'', 31 free flights as X-15-2, 22 free flights as X-15A-2, and 53 in total
+* {{nowrap|'''X-15-3''' –}} ''56-6672'', 65 free flights, including the [[X-15 Flight 3-65-97|Flight 191]] disaster
+* {{nowrap|'''NB-52A''' –}} ''52-003'' nicknamed ''The High and Mighty One'' (retired in October 1969)
+* {{nowrap|'''NB-52B''' –}} ''[[Balls 8|52-008]]'' nicknamed ''The Challenger'', later ''Balls 8'' (retired in November 2004)
+
+Additionally, [[North American F-100 Super Sabre|F-100]], [[Lockheed F-104 Starfighter|F-104]] and [[Douglas F5D Skylancer|F5D]] [[Chase plane|chase]] aircraft and [[Lockheed C-130 Hercules|C-130]] and [[Douglas C-47 Skytrain|C-47]] transports supported the program.<ref>{{cite book |url=https://www.nasa.gov/connect/ebooks/aero_x15_detail.html |title=X-15: Extending The Frontiers of Flight |publisher=NASA |last=Jenkins |first=Dennis R. |date=2010 |isbn=978-1-4700-2585-4}}</ref>
+
+A 200th flight over Nevada was first scheduled for 21 November 1968, to be flown by William "Pete" Knight. Numerous technical problems and outbreaks of bad weather delayed this proposed flight six times, and it was permanently canceled on 20 December 1968. This X-15 was detached from the B-52 and then put into indefinite storage. The aircraft was later donated to the [[National Museum of the United States Air Force|Air Force Museum]] at [[Wright-Patterson Air Force Base]] for display.
+
+<gallery widths="180px">
+File:Boeing NB-52A carrying X-15.jpg|NB-52A (s/n 52-003), permanent test variant, carrying an X-15, with mission markings; horizontal X-15 silhouettes denote glide flights, diagonal silhouettes denote powered flights.
+File:X-15 launched bw.jpg|X-15 just after release.
+File:NorthAmericanX-15600.jpeg|X-15 touching down on its skids, with the lower ventral fin jettisoned.
+File:X15A2 with tanks.jpg|X-15A-2 (56-6671) with external fuel tanks
+</gallery>
+
+==Current static displays==
+[[File:North American X-15 National Air and Space Museum photo D Ramey Logan.jpg|thumb|X-15 at the National Air and Space Museum in Washington, D.C.]]
+[[File:17 14 083 X15.jpg|thumb|X-15 at the [[National Museum of the United States Air Force|USAF Museum]]]]
+* X-15A-1 (AF Ser. No. 56-6670) is on display in the [[National Air and Space Museum]] "Milestones of Flight" gallery, [[Washington, D.C.]]
+* X-15A-2 (AF Ser. No. 56-6671) is at the [[National Museum of the United States Air Force]], at [[Wright-Patterson Air Force Base]], near [[Dayton, Ohio]]. It was retired to the museum in October 1969.{{sfn|USAF Museum Guidebook|1975|p=73}} The aircraft is displayed in the museum's Research and Development Gallery alongside other "X-planes", including the  [[Bell X-1]]B and [[Douglas X-3 Stiletto]].
+
+===Mockups===
+* [[Dryden Flight Research Center]], [[Edwards Air Force Base|Edwards AFB]], California, United States (painted with AF Ser. No. 56-6672)
+* [[Pima Air & Space Museum]], adjacent to [[Davis-Monthan AFB]], Tucson, Arizona (painted with AF Ser. No. 56-6671)
+* [[Evergreen Aviation & Space Museum]], McMinnville, Oregon (painted with AF Ser. No. 56-6672). A full-scale wooden mockup of the X-15, it is displayed along with one of the rocket engines.
+
+===Stratofortress mother ships===
+[[File:Boeing NB-52B takeoff 061127-F-1234S-007.jpg|thumb|right|NB-52B ''[[Balls 8]]'' takes off with an X-15]]
+* NB-52A (AF Ser. No. 52-003) is displayed at the [[Pima Air & Space Museum]] adjacent to [[Davis–Monthan Air Force Base|Davis–Monthan AFB]] in Tucson, Arizona. It launched the X-15-1 30 times, the X-15-2, 11 times, and the X-15-3 31 times (as well as the [[Northrop M2-F2|M2-F2]] four times, the [[Northrop HL-10|HL-10]] 11 times and the [[Martin Marietta X-24A|X-24A]] twice).
+* NB-52B (AF Ser. No. [[Balls 8|52-008]]) is on permanent display outside the north gate of [[Edwards Air Force Base|Edwards AFB]], California. It launched the majority of X-15 flights.
+
+==Record flights==
+
+{{main|List of X-15 flights}}
+
+===Highest flights===
+
+Over thirteen flights, eight pilots flew above 264,000 feet or 50 miles, thereby qualifying as astronauts according to the United States definition of the space border.  All five Air Force pilots flew above 50 miles and were awarded military [[astronaut wings]] contemporaneously with their achievements, including Adams, who received the distinction posthumously following the flight 191 disaster.<ref>Jenkins (2000), Appendix 8, p. 117.</ref>  However the other three were NASA employees, and did not receive a comparable decoration at the time.  In 2004, the [[Federal Aviation Administration]] conferred its first-ever commercial astronaut wings on [[Mike Melvill]] and [[Brian Binnie]], pilots of the commercial [[SpaceShipOne]], another spaceplane with a flight profile comparable to the X-15's.  Following this in 2005, NASA retroactively awarded its civilian astronaut wings to Dana (then living), and to McKay and Walker (posthumously).<ref>{{cite web |url=https://www.nasa.gov/missions/research/X-15_wings.html |title=X-15 Pioneers Honored as Astronauts |last=Johnsen |first=Frederick A. |date=23 August 2005 |website=NASA}}</ref><ref>{{cite web |url=https://www.space.com/1465-nasa-15-pilots-awarded-astronaut-wings.html |title=Former NASA X-15 Pilots Awarded Astronaut Wings |last=Pearlman |first=Robert Z. |date=23 August 2005 |website=space.com}}</ref>
+
+Of the thirteen flights, only two—flights 90 and 91, piloted by Walker—exceeded the [[Kármán line]], the internationally recognized 100 km altitude used by the FAI to denote the edge of space.
+
+{| class="wikitable sortable"
+|+ X-15 flights higher than 50 miles in chronological order
+|- style="background:#efefef;"
+! Flight
+! Date
+! Top speed
+! Altitude
+! Pilot
+|-
+| Flight 62
+| 17 July 1962
+|align="right"| {{convert|3831|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|59.6|mi|km|abbr=on}}
+| [[Robert Michael White|Robert M. White]]
+|-
+| Flight 77
+| 17 January 1963
+|align="right"| {{convert|3677|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|51.4|mi|km|abbr=on}}
+| [[Joseph A. Walker]]
+|-
+| Flight 87
+| 27 June 1963
+|align="right"| {{convert|3425|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|53.9|mi|km|abbr=on}}
+| [[Robert A. Rushworth]]
+|-
+| '''[[X-15 Flight 90|Flight 90]]'''
+| 19 July 1963
+|align="right"| {{convert|3710|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|65.8|mi|km|abbr=on}}
+| Joseph A. Walker
+|-
+| '''[[X-15 Flight 91|Flight 91]]'''
+| 22 August 1963
+|align="right"| {{convert|3794|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|67.0|mi|km|abbr=on}}
+| Joseph A. Walker
+|-
+| Flight 138
+| 29 June 1965
+|align="right"| {{convert|3431|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|53.1|mi|km|abbr=on}}
+| [[Joe Engle|Joe H. Engle]]
+|-
+| Flight 143
+| 10 August 1965
+|align="right"| {{convert|3549|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|51.3|mi|km|abbr=on}}
+| Joe H. Engle
+|-
+| Flight 150
+| 28 September 1965
+|align="right"| {{convert|3731|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|55.9|mi|km|abbr=on}}
+| [[John B. McKay]]
+|-
+| Flight 153
+| 14 October 1965
+|align="right"| {{convert|3554|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|50.4|mi|km|abbr=on}}
+| Joe H. Engle
+|-
+| Flight 174
+| 1 November 1966
+|align="right"| {{convert|3750|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|58.1|mi|km|abbr=on}}
+| [[William H. "Bill" Dana]]
+|-
+| Flight 190
+| 17 October 1967
+|align="right"|  {{convert|3856|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|53.1|mi|km|abbr=on}}
+| [[William J. "Pete" Knight]]
+|-
+| [[X-15 Flight 191|Flight 191]]
+| 15 November 1967
+|align="right"|  {{convert|3569|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|50.3|mi|km|abbr=on}}
+| [[Michael J. Adams]]<sup>†</sup>
+|-
+| Flight 197
+| 21 August 1968
+|align="right"| {{convert|3443|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|50.6|mi|km|abbr=on}}
+| William H. Dana
+|}<sup>†</sup> fatal
+
+===Fastest recorded flights===
+[[File:X15 speed altitude.jpg|thumb|Key speed and altitude benchmarks of the X-15.]]
+{| class="wikitable sortable"
+|+ X-15 ten fastest flights
+|- style="background:#efefef;"
+! Flight
+! Date
+! Top speed
+! Altitude
+! Pilot
+|-
+| Flight 45
+| 9 November 1961
+|align="right"| {{convert|4092|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|19.2|mi|km|abbr=on}}
+| [[Robert Michael White|Robert M. White]]
+|-
+| Flight 59
+| 27 June 1962
+|align="right"| {{convert|4104|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|23.4|mi|km|abbr=on}}
+| [[Joseph A. Walker]]
+|-
+| Flight 64
+| 26 July 1962
+|align="right"| {{convert|3989|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|18.7|mi|km|abbr=on}}
+| [[Neil Armstrong|Neil A. Armstrong]]
+|-
+| Flight 86
+| 25 June 1963
+|align="right"| {{convert|3910|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|21.7|mi|km|abbr=on}}
+| Joseph A. Walker
+|-
+| Flight 89
+| 18 July 1963
+|align="right"| {{convert|3925|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|19.8|mi|km|abbr=on}}
+| [[Robert A. Rushworth]]
+|-
+| Flight 97
+| 5 December 1963
+|align="right"| {{convert|4017|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|19.1|mi|km|abbr=on}}
+| Robert A. Rushworth
+|-
+| Flight 105
+| 29 April 1964
+|align="right"| {{convert|3905|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|19.2|mi|km|abbr=on}}
+| Robert A. Rushworth
+|-
+| Flight 137
+| 22 June 1965
+|align="right"| {{convert|3938|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|29.5|mi|km|abbr=on}}
+| [[John B. McKay]]
+|-
+| Flight 175
+| 18 November 1966
+|align="right"| {{convert|4250|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|18.7|mi|km|abbr=on}}
+| [[William J. "Pete" Knight]]
+|-
+| Flight 188
+| 3 October 1967
+|align="right"| {{convert|4520|mph|km/h|0|abbr=on}}
+|align="right"| {{convert|19.3|mi|km|abbr=on}}
+| William J. "Pete" Knight
+|}
+
+==Pilots==
+{| class="wikitable sortable"
+|+ X-15 pilots and their achievements during the program
+|- style="background:#efefef;"
+! Pilot
+! Organization
+! Total<br />flights
+! USAF<br />space<br />flights
+! FAI<br />space<br />flights
+! Max<br />Mach
+! Max<br />speed<br />(mph)
+! Max<br />altitude<br />(miles)
+|-
+| [[Michael J. Adams]]<sup>†</sup>
+| U.S. Air Force
+|align="center"| 7
+|align="center"| 1
+|align="center"| 0
+|align="center"| 5.59
+|align="right"| 3,822
+|align="right"| 50.3
+|-
+| [[Neil Armstrong|Neil A. Armstrong]]
+| NASA
+|align="center"| 7
+|align="center"| 0
+|align="center"| 0
+|align="center"| 5.74
+|align="right"| 3,989
+|align="right"| 39.2
+|-
+| [[Albert Scott Crossfield|Scott Crossfield]]
+| North American Aviation
+|align="center"| 14
+|align="center"| 0
+|align="center"| 0
+|align="center"| 2.97
+|align="right"| 1,959
+|align="right"| 15.3
+|-
+| [[William H. Dana]]
+| NASA
+|align="center"| 16
+|align="center"| 2
+|align="center"| 0
+|align="center"| 5.53
+|align="right"| 3,897
+|align="right"| 58.1
+|-
+| [[Joe Engle|Joe H. Engle]]
+| U.S. Air Force
+|align="center"| 16
+|align="center"| 3
+|align="center"| 0
+|align="center"| 5.71
+|align="right"| 3,887
+|align="right"| 53.1
+|-
+| [[William J. Knight]]
+| U.S. Air Force
+|align="center"| 16
+|align="center"| 1
+|align="center"| 0
+|align="center"| 6.70
+|align="right"| 4,519
+|align="right"| 53.1
+|-
+| [[John B. McKay]]
+| NASA
+|align="center"| 29
+|align="center"| 1
+|align="center"| 0
+|align="center"| 5.65
+|align="right"| 3,863
+|align="right"| 55.9
+|-
+| [[Forrest S. Petersen]]
+| U.S. Navy
+|align="center"| 5
+|align="center"| 0
+|align="center"| 0
+|align="center"| 5.3
+|align="right"| 3,600
+|align="right"| 19.2
+|-
+| [[Robert A. Rushworth]]
+| U.S. Air Force
+|align="center"| 34
+|align="center"| 1
+|align="center"| 0
+|align="center"| 6.06
+|align="right"| 4,017
+|align="right"| 53.9
+|-
+| [[Milton Orville Thompson|Milton O. Thompson]]
+| NASA
+|align="center"| 14
+|align="center"| 0
+|align="center"| 0
+|align="center"| 5.48
+|align="right"| 3,723
+|align="right"| 40.5
+|-
+| [[Joseph A. Walker]]
+| NASA
+|align="center"| 25
+|align="center"| 3
+|align="center"| 2
+|align="center"| 5.92
+|align="right"| 4,104
+|align="right"| 67.0
+|-
+| [[Robert Michael White|Robert M. White]]<sup>**</sup>
+| U.S. Air Force
+|align="center"| 16
+|align="center"| 1
+|align="center"| 0
+|align="center"| 6.04
+|align="right"| 4,092
+|align="right"| 59.6
+|-
+|}
+<sup>†</sup> Killed in the crash of X-15-3 <br /> <sup>**</sup> White replaced selected pilot [[Iven Carl Kincheloe Jr.|Iven Kincheloe]], who died before the first X-15 flight.
+
+==Specifications==
+[[File:North American X-15 3-view.svg|right|thumb|X-15 3-view]]
+Other configurations include the [[Reaction Motors XLR11]] equipped X-15, and the long version.
+
+{{aircraft specifications
+|plane or copter?=plane
+|jet or prop?=jet
+|ref=
+|crew=one
+|capacity=
+|payload main=
+|payload alt=
+|length main=50 ft 9 in
+|length alt=15.45 m
+|span main=22 ft 4 in
+|span alt=6.8 m
+|height main=13 ft 6 in
+|height alt=4.12 m
+|area main=200 ft<sup>2</sup>
+|area alt=18.6 m<sup>2</sup>
+|airfoil=
+|empty weight main=14,600 [[pound (mass)|lb]]
+|empty weight alt=6,620 kg
+|loaded weight main=34,000 lb
+|loaded weight alt=15,420 kg
+|useful load main=
+|useful load alt=
+|max takeoff weight main=34,000 lb
+|max takeoff weight alt=15,420 kg
+|more general=
+|engine (jet)=[[Reaction Motors XLR99]]-RM-2
+|type of jet=liquid propellant rocket engine
+|number of jets=1
+|thrust main=70,400 [[pound-force|lb<sub>f</sub>]] at 30&nbsp;km
+|thrust alt=313 kN
+|thrust original=
+|afterburning thrust main=
+|afterburning thrust alt=
+|max speed main=4,520 mph
+|max speed alt=7,274&nbsp;km/h
+|cruise speed main=
+|cruise speed alt=
+|stall speed main=
+|stall speed alt=
+|never exceed speed main=
+|never exceed speed alt=
+|range main=280 mi
+|range alt=450&nbsp;km
+|ceiling main=67 mi
+|ceiling alt=108&nbsp;km, 354,330 ft
+|climb rate main=60,000 ft/min
+|climb rate alt=18,288 m/min
+|loading main=170 lb/ft<sup>2</sup>
+|loading alt=829 kg/m<sup>2</sup>
+|thrust/weight=2.07
+|power/mass main=
+|power/mass alt=
+|more performance=
+|armament=
+|avionics=
+}}
+
+==See also==
+*[[Single-person spacecraft]]
+{{Portal|United States Air Force|Aviation|Spaceflight}}
+{{aircontent|
+|related=
+|similar aircraft=
+* [[Bell X-2]]
+* [[Douglas D-558-2 Skyrocket]]
+|sequence=
+|lists=
+* [[List of rocket aircraft]]
+* [[List of X-15 flights]]
+* [[List of spaceflight-related accidents and incidents]]
+}}
+
+==References==
+;Notes
+{{Reflist|colwidth=35em}}
+
+;Bibliography
+{{Refbegin}}
+* {{cite book |url=https://books.google.com/books?id=lkSM9rmWQBgC&pg=SA8-PA28 |title=The Standard Handbook for Aeronautical and Astronautical Engineers |publisher=McGraw-Hill |location=New York |editor-first=Mark |editor-last=Davies |pages=8–28 |year=2003 |isbn=978-0-07-136229-0 |ref=harv}}
+* {{cite book |title=The X-15 Rocket Plane, Flying the First Wings into Space |publisher=University of Nebraska Press |location=Lincoln, Nebraska |first=Michelle |last=Evans |year=2013 |isbn=978-0-8032-2840-5 |ref=harv}}
+* {{cite book |title=X-15: The NASA Mission Reports |publisher=Apogee Books |location=Burlington, Ontario |editor-first=Robert |editor-last=Godwin |year=2001 |isbn=1-896522-65-3 |ref=harv}}
+* {{cite book |chapter=Saga of the Rocket Ships |title=Air Enthusiast Six |publisher=Pilot Press |location=Bromley, Kent, UK |first=Richard P. |last=Hallion |editor1-first=William |editor1-last=Green |editor2-first=Gordon |editor2-last=Swanborough |date=March–June 1978 |ref=harv}}
+* {{cite book |title=Space Shuttle: The History of the National Space Transportation System: The First 100 Missions |edition=3rd |publisher=Voyageur Press |location=Stillwater, Minnesota |first=Dennis R. |last=Jenkins |year=2001 |isbn=0-9633974-5-1 |ref=harv}}
+* {{cite book |url=https://history.nasa.gov/monograph31.pdf |title=American X-Vehicles: An Inventory—X-1 to X-50 |series=Monographs in Aerospace History No. 31 |publisher=NASA |first1=Dennis R. |last1=Jenkins |first2=Tony |last2=Landis |first3=Jay |last3=Miller |date=June 2003 |id=SP-2003-4531 |oclc=68623213 |ref=harv}}
+* {{cite book |url=https://www.nasa.gov/connect/ebooks/aero_x15_detail.html |title=X-15: Extending the Frontiers of Flight |publisher=NASA |first=Dennis R. |last=Jenkins |year=2007 |isbn=978-0-16-079285-4 |id=SP-2007-562 |ref=harv}}
+* {{cite book |title=Die schnellsten Jets der Welt: Weltrekord-Flugzeuge |trans-title=The Fastest Jets in the World: World Record Aircraft |publisher=Aviatic Verlag |location=Kolpingring, Germany |language=German |first=Ferdinand C. W. |last=Käsmann |year=1999 |isbn=3-925505-26-1 |ref=harv}}
+* {{cite book |url=http://www.sierrafoot.org/x-15/documents/nasa_cr-82003.html |title=Design Report - Thermal Protection System, X-15A-2 |publisher=Martin Marietta Corporation |location=Denver, Colorado |first=A. B. |last=Price |date=12 January 1968 |id=NASA CR-82003 |ref=harv}}
+* {{cite book |title=At the Edge of Space: The X-15 Flight Program |publisher=Smithsonian Institution Press |location=Washington, D.C. |first=Milton O. |last=Thompson |year=1992 |isbn=1-56098-107-5 |ref=harv}}
+* {{cite book |title=X-15 Diary: The Story of America's First Space Ship |publisher=iUniverse |location=Lincoln, Nebraska |first=Richard |last=Tregaskis |year=2000 |isbn=0-595-00250-1 |ref=harv}}
+* {{cite book |title=United States Air Force Museum Guidebook |publisher=Air Force Museum Foundation |location=Wright-Patterson AFB, Ohio |year=1975 |ref={{harvid|USAF Museum Guidebook|1975}} }}
+* {{cite book |url=http://www.nasa.gov/centers/dryden/pdf/87756main_H-524.pdf |title=Flight Experience With Shock Impingement and Interference Heating on the X-15-2 Research Airplane |publisher=NASA |first=Joe D. |last=Watts |date=October 1968 |id=NASA-TM-X-1669 |ref=harv}}
+{{Refend}}
+
+==External links==
+{{Commons category}}
+;NASA
+* [https://history.nasa.gov/x15/cover.html ''X-15: Hypersonic Research at the Edge of Space'']
+* [http://www.hq.nasa.gov/office/pao/History/hyperrev-x15/cover.html ''Transiting from Air to Space: The North American X-15'']
+* [http://www.hq.nasa.gov/office/pao/History/x15conf/cover.html ''Proceedings of the X-15 First Flight 30th Anniversary Celebration'']
+* [https://history.nasa.gov/monograph18.pdf ''Hypersonics Before the Shuttle: A Concise History of the X-15 Research Airplane'']
+* [https://history.nasa.gov/ap11-35ann/interviewspdf/armstrong66.pdf Interview with Neil Armstrong about his experience in the X-15]
+* [http://www.nasa.gov/centers/dryden/news/FactSheets/FS-052-DFRC.html NASA Armstrong Fact Sheet: X-15 Hypersonic Research Program]
+* [http://www.dfrc.nasa.gov/Gallery/Photo/X-15/index.html X-15 photos at NASA Armstrong]
+* [http://www.dfrc.nasa.gov/Gallery/Movie/X-15/index.html X-15 movies at NASA Armstrong]
+* {{Internet Archive short film | gov.archives.arc.45005 | Research Project X-15 }}
+
+;Non-NASA
+* [http://www.astronautix.com/x/x-15a.html X-15A] at Encyclopedia Astronautica
+* [http://www.sierrafoot.org/x-15/documents/X-15_design_proposal.pdf ''X-15: Advanced Research Airplane''], design summary by North America Aviation
+
+{{Navboxes
+|title=Articles and topics related to the X-15
+|state=collapsed
+|list1=
+{{North American Aviation aircraft}}
+{{X-planes}}
+{{North American X-15}}
+{{US manned space programs}}
+{{Crewed spacecraft}}
+{{Reusable launch systems}}
+{{Air-launched launchers}}
+{{NASA navbox}}
+}}
+
+[[Category:X-15 program| ]]
+[[Category:North American Aviation aircraft|X-015]]
+[[Category:United States experimental aircraft 1950–1959]]
+[[Category:Rocket-powered aircraft]]
+[[Category:Mid-wing aircraft]]
+[[Category:Parasite aircraft]]
+[[Category:Hypersonic aircraft]]
+[[Category:Spaceplanes]]
+[[Category:Crewed spacecraft]]
+[[Category:Reusable space launch systems]]
+[[Category:Suborbital spaceflight]]
+[[Category:High-test peroxide]]
+[[Category:1963 in spaceflight]]
+[[Category:Aircraft first flown in 1959]]

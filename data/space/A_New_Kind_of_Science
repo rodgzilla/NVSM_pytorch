@@ -1,0 +1,249 @@
+{{Infobox book
+| name             = A New Kind of Science
+| image            = A new kind of science.PNG
+| caption          =
+| author           = [[Stephen Wolfram]]
+| illustrator      =
+| cover_artist     = 
+| country          = United States
+| language         = English
+| series           =
+| subject          = [[Complex systems]]
+| genre            = Non-fiction
+| publisher        = [[Wolfram Media]]
+| pub_date         = 2002
+| media_type       = Print
+| pages            = 1197 (Hardcover)
+| isbn             = 1-57955-008-8
+| oclc             = 856779719
+| dewey            =
+| congress         =
+| website          = [http://www.wolframscience.com/nks A New Kind of Science, online]
+}}
+
+'''''A New Kind of Science''''' is a best-selling,<ref>{{cite web
+ |last=Rosen
+ |first=Judith
+ |title=Weighing Wolfram's 'New Kind of Science'
+ |url=http://www.publishersweekly.com/pw/print/20030113/40516-weighing-wolfram-s-new-kind-of-science.html
+ |publisher=Publishers Weekly
+ |year=2003}}</ref> controversial book by [[Stephen Wolfram]], published by his own company in 2002. It contains an empirical and systematic study of computational systems such as [[cellular automata]]. Wolfram calls these systems ''simple programs'' and argues that the [[Philosophy of science|scientific philosophy]] and methods appropriate for the study of simple programs are relevant to other fields of science.
+
+== Contents ==
+
+=== Computation and its implications===
+The thesis of ''A New Kind of Science'' (''NKS'') is twofold: that the nature of [[computation]] must be explored experimentally, and that the results of these experiments have great relevance to understanding the [[physical world]]. Since its nascent beginnings in the 1930s, computation has been primarily approached from two traditions: [[engineering]], which seeks to build practical systems using computations; and [[mathematics]], which seeks to prove theorems about computation.  However, as recently as the 1970s, computing has been described as being at the crossroads of mathematical, engineering, and empirical traditions.<ref>{{cite conference | first = Peter | last = Wegner | title = Research Paradigms in Computer Science | booktitle = Proceedings of the 2nd International Conference on Software Engineering | pages = 322–330 | publisher = IEEE Press | year = 1976 | location = San Francisco, CA, USA}}</ref><ref>
+{{cite journal | last = Denning | first = Peter J. | title = Computing as a Discipline | journal = Communications of the ACM | volume = 32 | issue = 1 | pages = 9–23 | year = 1989| doi = 10.1145/63238.63239|display-authors=etal}}</ref>
+
+Wolfram introduces a third tradition that seeks to empirically investigate computation for its own sake: he argues that an entirely new method is needed to do so because traditional mathematics fails to meaningfully describe [[complex systems]], and that there is an upper limit to complexity in all systems.<ref>[https://serendip.brynmawr.edu/local/scisoc/emergence/DBergerNKS.pdf The World According to Wolfram]</ref>
+
+===Simple programs===
+The basic subject of Wolfram's "new kind of science" is the study of simple abstract rules—essentially, elementary [[computer program]]s. In almost any class of a computational system, one very quickly finds instances of great complexity among its simplest cases (after a time series of multiple iterative loops, applying the same simple set of rules on itself, similar to a self-reinforcing cycle using a set of rules). This seems to be true regardless of the components of the system and the details of its setup. Systems explored in the book include, amongst others, cellular automata in one, two, and three dimensions; [[Mobile automaton|mobile automata]]; [[Turing machine]]s in 1 and 2 dimensions; several varieties of substitution and network systems; primitive recursive functions; nested [[recursion (computer science)|recursive functions]]; [[combinator]]s; [[tag system]]s; [[register machine]]s; [[Palindromic number|reversal-addition]]. For a program to qualify as simple, there are several requirements:
+# Its operation can be completely explained by a simple graphical illustration.
+# It can be completely explained in a few sentences of [[human language]].
+# It can be implemented in a computer language using just a few lines of code.
+# The number of its possible variations is small enough so that all of them can be computed.
+
+Generally, simple programs tend to have a very simple abstract framework. Simple cellular automata, Turing machines, and combinators are examples of such frameworks, while more complex cellular automata do not necessarily qualify as simple programs. It is also possible to invent new frameworks, particularly to capture the operation of natural systems. The remarkable feature of simple programs is that a significant percentage of them are capable of producing great complexity. Simply enumerating all possible variations of almost any class of programs quickly leads one to examples that do unexpected and interesting things.  This leads to the question: if the program is so simple, where does the complexity come from? In a sense, there is not enough room in the program's definition to directly encode all the things the program can do. Therefore, simple programs can be seen as a minimal example of [[emergence]]. A logical deduction from this phenomenon is that if the details of the program's rules have little direct relationship to its behavior, then it is very difficult to directly engineer a simple program to perform a specific behavior. An alternative approach is to try to engineer a simple overall computational framework, and then do a [[brute-force search]] through all of the possible components for the best match.
+
+Simple programs are capable of a remarkable range of behavior. Some have been proven to be [[universal computer]]s. Others exhibit properties familiar from traditional science, such as [[thermodynamics|thermodynamic]] behavior, [[continuum mechanics|continuum]] behavior, conserved quantities, [[percolation]], [[sensitive dependence on initial conditions]], and others. They have been used as models of [[traffic]], material fracture, [[crystal growth]], biological growth, and various [[sociology|sociological]], [[geology|geological]], and [[ecology|ecological]] phenomena. Another feature of simple programs is that, according to the book, making them more complicated seems to have little effect on their overall [[complexity]]. ''A New Kind of Science'' argues that this is evidence that simple programs are enough to capture the essence of almost any [[complex system]].
+
+===Mapping and mining the computational universe===
+In order to study simple rules and their often complex behaviour, Wolfram argues that it is necessary to systematically explore all of these computational systems and document what they do. He further argues that this study should become a new branch of science, like [[physics]] or [[chemistry]].  The basic goal of this field is to understand and characterize the computational universe using experimental methods.
+
+The proposed new branch of scientific exploration admits many different forms of scientific production. For instance, qualitative classifications are often the results of initial forays into the computational jungle. On the other hand, explicit proofs that certain systems compute this or that function are also admissible. There are also some forms of production that are in some ways unique to this field of study. For example, the discovery of computational mechanisms that emerge in different systems but in bizarrely different forms.
+
+Another kind of production involves the creation of programs for the analysis of computational systems. In the ''NKS'' framework, these themselves should be simple programs, and subject to the same goals and methodology. An extension of this idea is that the human mind is itself a computational system, and hence providing it with raw data in as effective a way as possible is crucial to research. Wolfram believes that programs and their analysis should be visualized as directly as possible, and exhaustively examined by the thousands or more. Since this new field concerns abstract rules, it can in principle address issues relevant to other fields of science. However, in general Wolfram's idea is that novel ideas and mechanisms can be discovered in the computational universe, where they can be represented in their simplest forms, and then other fields can choose among these discoveries for those they find relevant.
+
+Wolfram has since expressed "A central lesson of ''A New Kind of Science'' is that there’s a lot of incredible richness out there in the computational universe. And one reason that’s important is that it means that there’s a lot of incredible stuff out there for us to 'mine' and harness for our purposes."<ref>{{Cite web|url=http://blog.stephenwolfram.com/2017/05/a-new-kind-of-science-a-15-year-view/|title=A New Kind of Science: A 15-Year View—Stephen Wolfram|last=|first=|date=|website=blog.stephenwolfram.com|language=en|archive-url=|archive-date=|dead-url=|access-date=2017-05-25}}</ref>
+
+===Systematic abstract science===
+While Wolfram advocates simple programs as a scientific discipline, he also argues that its methodology will revolutionize other fields of science. The basis of his argument is that the study of simple programs is the minimal possible form of science,  grounded equally in both [[abstraction]] and empirical experimentation. Every aspect of the methodology advocated in ''NKS'' is optimized to make experimentation as direct, easy, and meaningful as possible while maximizing the chances that the experiment will do something unexpected. Just as this methodology allows computational mechanisms to be studied in their simplest forms, Wolfram argues that the process of doing so engages with the mathematical basis of the physical world, and therefore has much to offer the sciences.
+
+Wolfram argues that the computational realities of the universe make science hard for fundamental reasons. But he also argues that by understanding the importance of these realities, we can learn to use them in our favor. For instance, instead of [[reverse engineering]] our theories from observation, we can [[enumeration|enumerate]] systems and then try to match them to the behaviors we observe. A major theme of ''NKS''  is investigating the structure of the possibility space. Wolfram argues that science is far too ad hoc, in part because the models used are too complicated and unnecessarily organized around the limited primitives of traditional mathematics. Wolfram advocates using models whose variations are enumerable and whose consequences are straightforward to compute and analyze.
+
+===Philosophical underpinnings===
+
+====Computational irreducibility====
+Wolfram argues that one of his achievements is in providing a coherent system of ideas that justifies computation as an organizing [[Philosophy of science|principle of science]]. For instance, he argues that the concept of ''[[computational irreducibility]]'' (that some complex computations are not amenable to short-cuts and cannot be "reduced"), is ultimately the reason why computational models of nature must be considered in addition to traditional [[mathematical models]]. Likewise, his idea of intrinsic randomness generation—that natural systems can generate their own randomness, rather than using chaos theory or stochastic perturbations—implies that computational models do not need to include explicit randomness.
+
+====Principle of computational equivalence====
+Based on his experimental results, Wolfram developed the '''principle of computational equivalence'''<!--boldface per WP:R#PLA--> ('''PCE'''): the principle states that [[systems]] found in the [[natural environment|natural world]] can perform [[computation]]s up to a [[maximum|maximal]] ("universal") level of [[computational power]]. Most systems can attain this level. Systems, in principle, compute the same things as a computer. Computation is therefore simply a question of translating [[Input/output|input and outputs]] from one system to another. Consequently, most systems are computationally equivalent. Proposed examples of such systems are the workings of the human brain and the evolution of weather systems.
+
+The principle can be restated as follows: almost all processes that are not obviously simple are of equivalent sophistication. From this principle, Wolfram draws an array of concrete deductions which he argues reinforce his theory. Possibly the most important among these is an explanation as to why we experience [[randomness]] and [[complexity]]: often, the systems we analyze are just as sophisticated as we are. Thus, complexity is not a special quality of systems, like for instance the concept of "heat,"  but simply a label for all systems whose computations are sophisticated. Wolfram argues that understanding this makes possible the "normal science" of the ''NKS'' paradigm.
+
+At the deepest level, Wolfram argues that—like many of the most important scientific ideas—the principle of computational equivalence allows science to be more general by pointing out new ways in which humans are not "special"; that is, it has been claimed that the complexity of human intelligence makes us special, but the Principle asserts otherwise. In a sense, many of Wolfram's ideas are based on understanding the scientific process—including the human mind—as operating within the same universe it studies, rather than being outside it.
+
+===Applications and results===
+There are a number of specific results and ideas in the ''NKS'' book, and they can be organized into several themes. One common theme of examples and applications is demonstrating how little complexity it takes to achieve interesting behavior, and how the proper methodology can discover this behavior.
+
+First, there are several cases where the ''NKS'' book introduces what was, during the book's composition, the simplest known system in some class that has a particular characteristic. Some examples include the first primitive recursive function that results in complexity, the smallest universal [[Turing Machine]], and the shortest [[axiom]] for [[propositional calculus]]. In a similar vein, Wolfram also demonstrates many simple programs that exhibit phenomena like [[phase transition]]s, [[conserved quantity|conserved quantities]], continuum behavior, and [[thermodynamics]] that are familiar from traditional science. Simple [[computational model]]s of natural systems like [[shell growth]], [[fluid turbulence]], and [[phyllotaxis]] are a final category of applications that fall in this theme.
+
+Another common theme is taking facts about the computational universe as a whole and using them to reason about fields in a [[holistic]] way. For instance, Wolfram discusses how facts about the computational universe inform [[evolutionary theory]], [[SETI]], [[free will]], [[computational complexity theory]], and philosophical fields like [[ontology]], [[epistemology]], and even [[postmodernism]].
+
+Wolfram suggests that the theory of computational irreducibility may provide a resolution to the existence of free will in a nominally [[deterministic]] universe.  He posits that the computational process in the [[brain]] of the being with free will is actually [[Complexity|complex]] enough so that it cannot be captured in a simpler computation, due to the principle of computational irreducibility.  Thus, while the process is indeed deterministic, there is no better way to determine the being's will than, in essence, to run the experiment and let the being exercise it.
+
+The book also contains a vast number of individual results—both experimental and analytic—about what a particular automaton computes, or what its characteristics are, using some methods of analysis.
+
+The book contains a new technical result in describing the [[Turing completeness]] of the [[Rule 110]] cellular automaton. Very small Turing machines can simulate Rule 110, which Wolfram demonstrates using a 2-state 5-symbol [[universal Turing machine]]. Wolfram conjectures that a particular [[Wolfram's 2-state 3-symbol Turing machine|2-state 3-symbol Turing machine]] is universal. In 2007, as part of commemorating the book's fifth anniversary, Wolfram's company offered a $25,000 prize for proof that this Turing machine is universal.<ref>{{cite web | title=The Wolfram 2,3 Turing Machine Research Prize | url=http://www.wolframscience.com/prizes/tm23/ | accessdate=2011-03-31| archiveurl= https://web.archive.org/web/20110515032324/http://www.wolframscience.com/prizes/tm23/| archivedate= 15 May 2011 <!--DASHBot-->| deadurl= no}}</ref>  Alex Smith, a computer science student from [[Birmingham]], UK, won the prize later that year by proving Wolfram's conjecture.<ref>{{cite web | title=The Wolfram 2,3 Turing Machine Is Universal! | url=http://www.wolframscience.com/prizes/tm23/solution_news.html | accessdate=2007-10-24| deadurl=no}}</ref><ref>{{cite web | title=Technical Commentary [on Wolfram 2,3 Turing machine universality proof] | url=http://www.wolframscience.com/prizes/tm23/solution_technical.html | accessdate=2007-10-24| deadurl=no}}</ref>
+
+==NKS Summer School==
+Every year, Wolfram and his group of instructors<ref>{{cite web|url=http://www.wolframscience.com/summerschool/2009/faculty.html|title=Wolfram Science Summer School 2009: Faculty|work=wolframscience.com}}</ref> organize a summer school.<ref>{{cite web|url=http://www.wolframscience.com/summerschool/|title=Wolfram Science Summer School|work=wolframscience.com}}</ref> From 2003 to 2006, these classes were held at [[Brown University]]. In 2007, the summer school began being hosted by the [[University of Vermont]] at Burlington, with the exception of 2009 which was held at the Istituto di Scienza e Tecnologie dell'Informazione of the CNR in [[Pisa, Italy]].  In 2012, the program was held at [[Curry College]] in [[Milton, Massachusetts]]. Since 2013, the Wolfram Summer School has been held annually at [[Bentley University]] in [[Waltham, Massachusetts]]. After 14 consecutive summer schools, more than 550 people have participated, some of whom continued developing their 3-week research projects as their Master's or Ph.D theses.<ref>{{cite web|url=http://www.wolframscience.com/summerschool/2006/participants/letourneau.html|title=Wolfram Science Summer School 2006: Alumni—Paul-Jean Letourneau|work=wolframscience.com}}</ref> Some of the research done in the summer school has resulted in publications.<ref>{{cite journal | author1=Rowland | title=A natural prime-generating recurrence | year=2008 | volume=11 | issue=8 | pages=28 | journal=Journal of Integer Sequences| arxiv=0710.3217 | bibcode=2008JIntS..11...28R }}</ref><ref>{{cite book|url=http://www.springerlink.com/content/m624350kj28305u9/|title=Planar Trivalent Network Computation | doi=10.1007/978-3-540-74593-8_13 | journal=Lecture Notes in Computer Science|volume=4664 |pages=146–157|isbn=9783540745921 9783540745938 |date=2007-09-10 |last1=Bolognesi |first1=Tommaso }}</ref><ref>{{cite journal | author1=Palasek , S. | title=Information flow in cellular automata | year=2013 | volume=22 | issue=2 | pages=193–202 | journal=Complex Systems | url=http://www.complex-systems.com/pdf/22-2-4.pdf }}</ref>
+
+==Reception==
+Periodicals gave ''A New Kind of Science'' coverage, including articles in ''[[The New York Times]]'',<ref>{{cite news
+|last=Johnson|first=George
+|title = 'A New Kind of Science': You Know That Space-Time Thing? Never Mind
+|work= The New York Times
+|date = 9 June 2002
+|url=https://www.nytimes.com/2002/06/09/books/review/09JOHNSOT.html|accessdate=28 May 2009}}</ref> ''[[Newsweek]]'',<ref>
+ {{cite news|last=Levy|first=Stephen
+|title=Great Minds, Great Ideas
+|work=Newsweek|date=27 May 2002
+|url=http://www.newsweek.com/id/64625
+|accessdate=28 May 2009
+}}</ref> ''[[Wired magazine|Wired]]'',<ref>{{cite news|last=Levy|first=Stephen
+|title=The Man Who Cracked The Code to Everything ...
+|work=Wired 
+|date=June 2002
+|url=https://www.wired.com/wired/archive/10.06/wolfram.html|accessdate=28 May 2009
+|archiveurl= https://web.archive.org/web/20090527181907/http://www.wired.com/wired/archive/10.06/wolfram.html
+|archivedate= 27 May 2009 <!--DASHBot-->| deadurl= no}}</ref> and ''[[The Economist]]''.<ref>{{cite news
+|title=The science of everything
+|work=The Economist|date=30 May 2002
+|url=http://www.economist.com/printedition/displayStory.cfm?Story_ID=1154164|accessdate=28 May 2009}}</ref> Some scientists criticized the book as abrasive and arrogant, and perceived a fatal flaw—that simple systems such as cellular automata are not complex enough to describe the degree of complexity present in evolved systems, and observed that Wolfram ignored the research categorizing the complexity of systems.<ref name=Kurzweil>{{cite web
+|last = Kurzweil|first = Ray
+|title = Reflections on Stephen Wolfram's A New Kind of Science
+|url=http://www.kurzweilai.net/reflections-on-stephen-wolfram-s-a-new-kind-of-science
+|date=13 May 2002
+|work=Kurzweil Accelerating Intelligence Blog
+}}</ref><ref name=Shalizi>{{cite web
+|last = Shalizi|first = Cosma
+|title=A New Kind of Science: A Rare Blend of Monster Raving Egomania and Utter Batshit Insanity
+|url=http://bactra.org/reviews/wolfram/
+|work=The Bactra Review
+|number=No. 132 |date=21 October 2005}}</ref> Although critics accept Wolfram's result showing universal computation, they view it as minor and dispute Wolfram's claim of a paradigm shift. Others found that the work contained valuable insights and refreshing ideas.<ref name=Rucker>{{cite journal
+|last = Rucker|first = Rudy
+|title = Review: A New Kind of Science
+|journal=[[American Mathematical Monthly]]|pages = 851–61
+|date=November 2003
+|doi=10.2307/3647819
+|url=http://sjsu.rudyrucker.com/~rudy.rucker/wolfram_review_AMM_11_2003.pdf
+|accessdate=28 May 2009
+                                 |volume=110|issue = 9
+|jstor = 3647819
+}}</ref><ref name=Berry>{{cite journal
+|last1 = Berry |first1 = Michael
+|last2 = Ellis |first2 = John
+|last3 = Deutch |first3 =David
+|title = A Revolution or self indulgent hype? How top scientists view Wolfram
+|journal=[[The Daily Telegraph]]
+|date=15 May 2002
+|url=http://www.phy.bris.ac.uk/people/berry_mv/the_papers/Berry343.pdf|accessdate=14 August 2012}}</ref> Wolfram addressed his critics in a series of blog posts.<ref>{{cite journal
+|last = Wolfram|first = Stephen
+|title = Living a Paradigm Shift: Looking Back on Reactions to ''A New Kind of Science''
+|journal=Stephen Wolfram Blog
+|date=12 May 2012
+|url=http://blog.stephenwolfram.com/2012/05/living-a-paradigm-shift-looking-back-on-reactions-to-a-new-kind-of-science
+|accessdate=14 August 2012}}</ref><ref>{{cite journal
+|last = Wolfram|first = Stephen
+|title = It's Been 10 Years: What's Happened with ''A New Kind of Science''?
+|journal=Stephen Wolfram Blog
+|date=7 May 2012|url= http://blog.stephenwolfram.com/2012/05/its-been-10-years-whats-happened-with-a-new-kind-of-science
+|accessdate=14 August 2012}}</ref>
+
+In an article published on April 3, 2018, ''A New Kind of Science'' was listed among the 190 books recommended by Bill Gates.<ref>{{cite web|last=Wolinsky|first=Jacob|title=190 Books Recommended by Bill Gates|url=https://www.valuewalk.com/2018/04/bill-gates-books/|accessdate=4 April 2018}}</ref>
+
+===Scientific philosophy===
+A tenet of ''NKS'' is that the simpler the system, the more likely a version of it will recur in a wide variety of more complicated contexts. Therefore, ''NKS'' argues that systematically exploring the space of simple programs will lead to a base of reusable knowledge. However, many scientists believe that of all possible parameters, only some actually occur in the universe. For instance, of all possible permutations of the symbols making up an equation, most will be essentially meaningless. ''NKS'' has also been criticized for asserting that the behavior of simple systems is somehow representative of all systems.
+
+===Methodology===
+A common criticism of ''NKS'' is that it does not follow established [[scientific methodology]]. For instance, ''NKS'' does not establish [[rigorous]] mathematical definitions,<ref>{{cite journal|last=Bailey|first=David|title=A Reclusive Kind of Science|journal=Computing in Science and Engineering|pages=79–81|date=September 2002|url = http://crd.lbl.gov/~dhbailey/dhbpapers/dhb-wolfram.pdf|accessdate=28 May 2009}}
+</ref> nor does it attempt to prove [[theorem]]s; and most formulas and equations are written in [[Mathematica]] rather than standard notation.<ref name="autogenerated1">{{cite journal|title=A Mathematician Looks at Wolfram's New Kind of Science|last=Gray|first=Lawrence|journal=Notices of the AMS|year=2003|volume=50|issue=2|pages=200–211|url=http://www.ams.org/notices/200302/fea-gray.pdf}}</ref> Along these lines, ''NKS'' has also been criticized for being heavily visual, with much information conveyed by pictures that do not have formal meaning.<ref name=Berry/> It has also been criticized for not using modern research in the field of [[complexity]], particularly the works that have studied complexity from a rigorous mathematical perspective.<ref name=Shalizi/> And it has been criticized for misrepresenting [[chaos theory]]: "Throughout the book, he equates chaos theory with the phenomenon of sensitive dependence on initial conditions (SDIC)."<ref name=Drysdale>{{cite web|last=Drysdale|first=David|title=Review of "A New Kind of Science"|url=http://www.lurklurk.org/wolfram/review.html}}</ref>
+
+===Utility===
+''NKS'' has been criticized for not providing specific results that would be immediately applicable to ongoing scientific research.<ref name=Berry/> There has also been criticism, implicit and explicit, that the study of simple programs has little connection to the physical universe, and hence is of limited value. [[Steven Weinberg]] has pointed out that no real world system has been explained using Wolfram's methods in a satisfactory fashion.<ref>{{cite news| url=http://www.thefreelibrary.com/In+search+of+a+scientific+revolution%3A+controversial+genius+Stephen...-a0107699603 | work=Science News | title=In search of a scientific revolution: controversial genius Stephen Wolfram presses onward | first=Peter | last=Weiss | year=2003}}</ref>
+
+===PCE===
+The '''Principle of computational equivalence''' has been criticized for being vague, unmathematical, and for not making directly verifiable predictions.<ref name="autogenerated1"/><!-- However, Wolfram's group has described the principle as such, not a law, theorem or formula. [They described it as being vague, unmathematical, and not able to make directly verifiable predictions?] --> It has also been criticized for being contrary to the spirit of research in mathematical logic and computational complexity theory, which seek to make fine-grained distinctions between levels of computational sophistication, and for wrongly conflating different kinds of universality property.<ref name="autogenerated1"/> Moreover, critics such as [[Ray Kurzweil]] have argued that it ignores the distinction between hardware and software; while two computers may be equivalent in power, it does not follow that any two programs they might run are also equivalent.<ref name=Kurzweil/> Others suggest it is little more than a rechristening of the [[Church–Turing thesis]].<ref name=Drysdale/><!--  However, the Church-Turing thesis imposes an upper limit while Wolfram's PCE suggests the nonexistence of intermediate degrees of computation sending a computational system either to the upper level (universal) or to the lowest degree. [No. The claim is that intermediate degrees are derived from the complete degree, hence equivalent in "sophistication".] -->
+
+===The fundamental theory (''NKS'' Chapter 9)===
+Wolfram's speculations of a direction towards a fundamental theory of physics have been criticized as vague and obsolete. [[Scott Aaronson]], Professor of Computer Science at University of Texas Austin, also claims that Wolfram's methods cannot be compatible with both [[special relativity]] and [[Bell's theorem]] violations, and hence cannot explain the observed results of [[Bell test experiments]].<ref>{{cite journal|last=Aaronson|first=Scott|title=Book Review of ''A New Kind of Science''|journal=Quantum Information and Computation|volume=2|issue=5|year=2002|pages=410–423|url=http://www.scottaaronson.com/papers/nks.ps}}</ref> However, Aaronson's arguments are either right and apply to the entire scientific field of [[Quantum gravity]] that seeks to find theories unifying relativity and quantum mechanics or they are fundamentally flawed (e.g. under a non-local hidden variable theory of superdeterminism acknowledged by Bell himself<ref>{{cite journal | last1 = Bell | first1 = J. S. | year = 1981 | title = Bertlmann's socks and the nature of reality | url = | journal = Journal de Physique | volume = 42 | issue = C2| pages = 41–61 }}</ref>), and even explored by e.g. physics Nobel laureate [[Gerard 't Hooft]],<ref name="'t Hooft, G">{{Cite arXiv|author='t Hooft, G.|title=Discreteness and Determinism in Superstrings |date=15 Sep 2012|eprint=1207.3612|class=hep-th }}</ref> see also replies to [[Digital physics#Locality|criticism of digital physics]].<ref>[[John A. Wheeler]], 1990, "Information, physics, quantum: The search for links" in W. Zurek (ed.) ''Complexity, Entropy, and the Physics of Information''. Redwood City, CA: Addison-Wesley.</ref><ref>Lee Smolin, "[https://arxiv.org/abs/hep-th/0201031 Matrix models as non-local hidden variables theories]", 2002; also published in [https://link.springer.com/chapter/10.1007%2F3-540-26669-0_10 Quo Vadis Quantum Mechanics? The Frontiers Collection], [[Springer Science+Business Media|Springer]], 2005, pp 121-152, {{ISBN|978-3-540-22188-3}}.</ref>{{Disputed inline|date=April 2017}}
+
+[[Edward Fredkin]] and [[Konrad Zuse]] pioneered the idea of a [[Cellular automaton#CA as models of the fundamental physical reality|computable universe]], the former by writing a line in his book on how the world might be like a cellular automaton, and later further developed by Fredkin using a toy model called Salt.<ref>{{cite web|url=http://www.math.usf.edu/~eclark/ANKOS_zuse_fredkin_thesis.html|title=ZUSE-FREDKIN-THESIS|work=usf.edu}}</ref> It has been claimed that ''NKS'' tries to take these ideas as its own but Wolfram's model of the universe is a rewriting network and not a cellular automaton as Wolfram himself has suggested a cellular automaton cannot account for relativistic features such as no absolute time frame.<ref>{{Cite web | url=http://www.wolframscience.com/nksonline/section-9.7 | title=Fundamental Physics: A New Kind of Science &#124; Online by Stephen Wolfram}}</ref> [[Jürgen Schmidhuber]] has also charged that his work on [[Turing machine]]-computable [[physics]] was stolen without attribution, namely his idea on enumerating possible Turing-computable universes.<ref name=Schmid>{{cite web|last=Schmidhuber|first=Jurgen|title=Origin of main ideas in Wolfram's book "A New Kind of Science"|url=http://www.idsia.ch/~juergen/wolfram.html|publisher=CERN Courier}}</ref>
+
+In a 2002 review of ''NKS'', the Nobel laureate and elementary particle physicist [[Steven Weinberg]] wrote, "Wolfram himself is a lapsed elementary particle physicist, and I suppose he can't resist trying to apply his experience with digital computer programs to the laws of nature. This has led him to the view (also considered in a 1981 paper by Richard Feynman) that nature is discrete rather than continuous. He suggests that space consists of a set of isolated points, like cells in a cellular automaton, and that even time flows in discrete steps. Following an idea of Edward Fredkin, he concludes that the universe itself would then be an automaton, like a giant computer. It's possible, but I can't see any motivation for these speculations, except that this is the sort of system that Wolfram and others have become used to in their work on computers. So might a carpenter, looking at the moon, suppose that it is made of wood."<ref>{{Cite journal|author=Weinberg, S.|title=Is the Universe a Computer?|journal=The New York Review of Books|date=24 October 2002|url=http://www.nybooks.com/articles/15762}}</ref>
+
+Nobel laureate [[Gerard 't Hooft]] has more recently also suggested a cellular automaton-based unifying theory of quantum gravity as an interpretation of superstring theory where the evolution equations are classical, "[b]oth the bosonic string theory and superstring theory can be reformulated in terms of a special basis of states, defined on a [[space-time]] [[Lattice (group)|lattice]] with lattice length <math>2\pi\sqrt{\alpha'.}</math>"<ref name="'t Hooft, G"/>
+
+===Natural selection===
+Wolfram's claim that [[natural selection]] is not the fundamental cause of complexity in biology has led non-scientist journalist Chris Lavers to state that Wolfram does not understand the [[theory of evolution]].<ref>{{cite news|last=Lavers|first=Chris|title=How the cheetah got his spots|publisher=The Guardian|date=3 August 2002|url= https://www.theguardian.com/Archive/Article/0,4273,4473834,00.html|accessdate=28 May 2009 | location=London}}</ref>
+
+===Originality===
+''NKS'' has been heavily criticized as not being original or important enough to justify its title and claims.
+
+The authoritative manner in which ''NKS'' presents a vast number of examples and arguments has been criticized as leading the reader to believe that each of these ideas was original to Wolfram;<ref name=Drysdale/> in particular, one of the most substantial new technical results presented in the book, that the [[Rule 110|rule 110 cellular automaton]] is [[Turing complete]], was not proven by Wolfram, but by his research assistant, [[Matthew Cook]]. However, the notes section at the end of his book acknowledges many of the discoveries made by these other scientists citing their names together with historical facts, although not in the form of a traditional bibliography section. Additionally, the idea that very simple rules often generate great complexity is already an established idea in science, particularly in [[chaos theory]] and [[complex systems]].<ref name=Shalizi/>
+
+== See also ==
+* [[Digital physics]]
+* [[Scientific reductionism]]
+* ''[[Calculating Space]]''
+* [[Fredkin Finite Nature Hypothesis]]
+* [[Marcus Hutter]]'s "Universal Artificial Intelligence" algorithm
+
+== References ==
+{{Reflist|30em}}
+
+== External links ==
+* [http://www.wolframscience.com/nks A New Kind of Science] free E-Book
+* Chua, Leon O, A Nonlinear Dynamics Perspective of Wolfram's New Kind of Science (Volume V)''[http://www.worldscibooks.com/chaos/8403.html]''. World Scientific Publishing, March, 2012. {{ISBN|978-981-4390-51-4}}
+* [http://tones.wolfram.com/ WolframTones: An Experiment in a New Kind of Music]
+* [http://thenksblog.wordpress.com/ The NKS Blog]
+* [http://www.softcentral.com/informationspace/ InformationSpace]. Causal set exploration tool which supports 1-dimensional causal sets such as those found in the book.
+
+<!--
+
+ARTICLES AND REVIEWS SHOULD BE USED AS REFERENCES, NOT AS EXTERNAL LINKS.
+
+;Scholar articles
+* Leon O Chua, "''A Nonlinear Dynamics Perspective of Wolfram's New Kind of Science''". Singapore ; Hackensack, N.J. : World Scientific, 2006. ISBN 981-256-977-4
+
+;Reviews and overviews
+
+*  Wolfram, Stephen, "[http://www.wolframscience.com/reference/quick_takes.html Quick takes on some ideas and discoveries in A New Kind of Science]". Wolfram Media, Inc.
+* [http://www.wolframscience.com/conference/2004/ NKS 2004 conference].  Wolfram Media, Inc.
+* [http://wolframscience.typepad.com/wolfram_science/ Wolfram's NKS Conference blog], June 2006.
+* Clark, Ed, [http://www.math.usf.edu/~eclark/ANKOS_reviews.html Reviews] (the most comprehensive collection of reviews of NKS)
+* [http://zenbullets.com/blog/?p=72 Universal Automatism - Everything is Computation]
+* Schmidhuber, Juergen [http://www.idsia.ch/~juergen/wolfram.html "A 35 year old kind of science"] (with links to much earlier work on [[digital physics]])
+* [[Kovas Boguta]], [http://forum.wolframscience.com/showthread.php?s=b4dcb648c91f4096a166716339679de1&threadid=271 "Comments on a review of NKS"] (an exposition of what NKS actually is, framed as a response to critics)
+* [http://books.slashdot.org/books/02/05/21/146210.shtml?tid=134 Review and discussion of ''A New Kind of Science'']. [[Slashdot]].
+* Krantz, Steven G., [http://www.ams.org/bull/2003-40-01/S0273-0979-02-00970-9/S0273-0979-02-00970-9.pdf "Book review"]. [[American Mathematical Society]] ([[Portable Document Format|PDF]] document)
+* [[Rudy Rucker]], [http://www.rudyrucker.com/pdf/wolfram_review.pdf "Book Review"]. American Mathematical Monthly, November, 2003.
+* Stephen Wolfram's lecture at MIT, [http://mitworld.mit.edu/play/147/ "A New Kind of Science"] ([[RealNetworks|Real Media]] video and audio, 1:36:36). Department of Mathematics at MIT, September 15, 2003.
+* Naiditch, David, "Divine Secrets Of the Ya-Ya Universe. Stephen Wolfram: A New Kind of Science—or a Not-So-New Kind of Computer Program?", ''[[Skeptic (U.S. magazine)]]'', issue 10-2, 2003.
+* Neske, Garrett, "Whatever Happened to Stephen Wolfram? A New Kind of Science Revisited", ''Skeptic (U.S. magazine)'', issue 14-3, 2008.
+* [http://uk.geocities.com/joelewisbowen/wolfram.html Critique of the explanatory force of A New Kind of Science] ([https://www.webcitation.org/5kkmnrPR2 Archived] 2009-10-23)
+* [[Cosma Shalizi|Shalizi, Cosma]] [http://www.cscs.umich.edu/~crshalizi/reviews/wolfram/ "Review of 'Stephen Wolfram's A New Kind of Science': A Rare Blend of Monster Raving Egomania and Utter Batshit Insanity"]
+* [[Raymond Kurzweil|Ray Kurzweil]] [http://www.kurzweilai.net/articles/art0464.html?printable=1 Reflections on Stephen Wolfram's 'A New Kind of Science']
+* Levy, Steven [https://www.wired.com/wired/archive/10.06/wolfram.html The Man Who Cracked The Code to Everything ...] [[Wired (magazine)|Wired]], 2002
+* Video of a lecture given by Wolfram as part of the MIT "Applied Mathematics Colloquium" [http://mitworld.mit.edu/video/149/ A New Kind of Science].
+
+;Applications
+*[http://blog.wolfram.com/2007/08/the_space_of_all_possible_bridge.html The Space of All Possible Bridge Shapes] by Stephen Wolfram, August 3, 2007, a short essay on the future of bridge design written in response to the collapse of the [[I-35W Mississippi River bridge]].
+
+-->
+
+{{DEFAULTSORT:New Kind Of Science, A}}
+[[Category:2002 books]]
+[[Category:Algorithmic art]]
+[[Category:Cellular automata]]
+[[Category:Computer science books]]
+[[Category:Complex systems theory]]
+[[Category:Mathematics and art]]
+[[Category:Metatheory of science]]
+[[Category:Science books]]
+[[Category:Self-organization]]
+[[Category:Systems theory books]]
+[[Category:Wolfram Research]]
+[[Category:Computational fields of study]]

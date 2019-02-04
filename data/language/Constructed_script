@@ -1,0 +1,44 @@
+{{Unreferenced|date=January 2013}}
+A '''constructed script''' is a new [[writing system]] specifically created by an individual or group, rather than having evolved as part of a language or culture like a natural script. Some are designed for use with [[constructed language]]s, although several of them are used in [[Linguistics|linguistic]] experimentation or for other more practical ends in existing languages.
+
+The most prominent of constructed scripts may be [[Glagolitic]], Korean [[Hangul]] and the [[International Phonetic Alphabet]]. Some, such as the [[Shavian alphabet]], [[Quikscript]], [[Alphabet 26]], and the [[Deseret alphabet]], were devised as [[English (language)|English]] [[spelling reform]]s. Others, including [[Alexander Melville Bell]]'s [[Visible Speech]] and John Malone's [[Unifon]] were developed for [[pedagogy|pedagogical]] use. [[Blissymbols]] were developed as a written [[international auxiliary language]]. [[Shorthand]] systems may be considered constructed scripts.
+==Constructed scripts and traditional "natural" writing systems==
+All scripts, including traditional scripts such as the [[Chinese script|Chinese]] or the [[Arabic script]], are human creations. However, scripts usually evolve out of other scripts rather than being designed by an individual. In most cases, alphabets are ''adopted'', i.e. a language is written in another language's script at first, and gradually develops peculiarities specific to its new environment over the centuries (such as the letters [[w]] and [[j]] added to the [[Latin alphabet]] over time, not being formally considered full members of the English (as opposed to Latin) alphabet until the mid-1800s). Construction of a script presupposes that the author is aware of at least one writing system already. Otherwise, the invention would not just comprise a script, but the concept of [[History of writing|writing]] itself. Therefore, a constructed script is always informed by at least one older writing system, making it difficult in some cases to decide whether a new script is simply an adoption or a new creation (for example the [[Cyrillic script|Cyrillic]] and the [[Gothic alphabet|Gothic]] alphabets, which are nearly identical to the Greek alphabet but were nevertheless designed by individual authors).
+
+In the rare cases where a script evolved not out of a previous script, but out of proto-writing (the only known cases being the [[Cuneiform script]], [[Egyptian hieroglyphs]], the [[Chinese script]] and arguably the [[Mayan script]]), the process was nevertheless a gradual evolution of a system of symbols, not a creation by design.{{Citation needed|date=June 2015}}
+
+==Overview of constructed writing systems==
+
+===For previously unwritten languages===
+Some, like the Korean [[Hangul]], [[Cherokee language|Cherokee]], [[N'Ko alphabet|N'Ko]],  [[Fraser alphabet|Fraser]], [[Tangut script|Tangut]] and  [[Pollard script|Pollard]] scripts, were invented to allow certain spoken natural languages that did not have adequate writing systems to be written. [[Armenian alphabet|Armenian]], [[Georgian alphabet|Georgian]], and [[Glagolitic script|Glagolitic]] may fit in this category, though their origin is not known.
+
+===For fictional languages===
+[[Image:Tengwar alphabet1.png|thumb|The Tengwar script constructed for Tolkien's languages. He also created a mode for English.]]
+[[Image:Kli piqad.GIF|thumb|The KLI pIqaD is a constructed script for [[Klingon language|Klingon]]]]
+The best-known constructed scripts dedicated to [[fictional language]]s are [[J. R. R. Tolkien]]'s elaborate [[Tengwar]] and [[Cirth]], but many others exist, such as the [[Klingon language|Klingon]] script from ''[[Star Trek]]'', [[Aurebesh]] from ''[[Star Wars]]'', [[D'ni language|D'ni]] from the ''[[Myst]]'' series of video games, and the Orokin language (referred to by members of the community as "Tennobet", a portmanteau of alphabet) from the video game ''[[Warframe]]''.
+
+===For technical purposes===
+Several writing systems have been devised for technical purposes by specialists in various fields.  One of the most prominent of these is the [[International Phonetic Alphabet]] (IPA), used by linguists to describe the sounds of human language in exhaustive detail.  While based on the [[Latin alphabet]], IPA also contains invented letters, Greek letters, and numerous diacritics.
+
+The [[Shavian alphabet]] has been designed to have an easier writing system for English.
+
+==Unicode==
+Some neographies have been encoded in [[Unicode]], in particular the [[Shavian alphabet]] and the [[Deseret alphabet]]. A proposal for [[Klingon writing systems#KLI pIqaD|Klingon pIqaD]] was turned down because most users of the Klingon language wrote it using the [[Latin alphabet]], but both [[Tengwar]] and [[Cirth]] were under consideration in 2010. An unofficial project exists to coordinate the encoding of many constructed scripts in specific places in the Unicode [[Private Use Area]]s ({{U+|E000}} to U+F8FF and U+000F0000 to U+0010FFFF), known as the [[ConScript Unicode Registry]].
+
+==See also==
+*[[List of constructed scripts]]
+*[[Asemic writing]]
+*[[Voynich Manuscript]]
+*[[Fictional alphabet]]
+*[[Conlang]]
+
+==External links and references==
+* [http://www.omniglot.com/writing/alternative.htm Omniglot Neographies]
+* [http://www.evertype.com/standards/csur/ ConScript Unicode Registry]
+* [http://copper.chem.ucla.edu/~jericks Deseret Alphabet]
+
+{{Constructed languages}}
+
+[[Category:Constructed languages]]
+[[Category:Writing]]
+[[Category:Artificial scripts| ]]

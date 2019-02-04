@@ -1,0 +1,150 @@
+{{other uses|Human-centered computing (disambiguation)}}
+'''Human-centered computing''' ('''HCC''')  studies the design, development, and deployment of mixed-initiative human-computer systems. It is emerged from the convergence of multiple disciplines that are concerned both with understanding human beings and with the design of computational artifacts.<ref name=":2">{{cite web | url=https://www.researchgate.net/publication/242103770_Human-Centered_Computing_Toward_a_Human_Revolution/file/3deec52c7194105294.pdf | title=Human-centered computing: toward a human revolution | publisher=IEEE Computer | date=Nov 20, 2007 |author1=Alejandro Jaimes |author2=Daniel Gatica-Perez |author3=Nicu Sebe |author4=Thomas S. Huang }}</ref> Human-centered computing is closely related to [[human-computer interaction]] and [[information science]]. Human-centered computing is usually concerned with systems and practices of technology use while human-computer interaction is more focused on [[ergonomics]] and the [[usability]] of computing artifacts and information science is focused on practices surrounding the collection, manipulation, and use of [[information]].
+
+Human-centered computing researchers and practitioners usually come from one or more of disciplines such as [[computer science]], [[human factors]], [[sociology]], [[psychology]], [[cognitive science]], [[anthropology]], [[communication studies]], [[graphic design]] and [[industrial design]]. Some researchers focus on understanding humans, both as individuals and in social groups, by focusing on the ways that human beings adopt and organize their lives around computational technologies. Others focus on designing and developing new computational artifacts.
+
+== Overview ==
+
+=== Scope ===
+HCC aims at bridging the existing gaps between the various disciplines involved with the design and implementation of computing systems that support human's activities.<ref name=":2">{{cite web | url=https://www.researchgate.net/publication/242103770_Human-Centered_Computing_Toward_a_Human_Revolution/file/3deec52c7194105294.pdf | title=Human-centered computing: toward a human revolution | publisher=IEEE Computer | date=Nov 20, 2007 |author1=Alejandro Jaimes |author2=Daniel Gatica-Perez |author3=Nicu Sebe |author4=Thomas S. Huang }}</ref>  Meanwhile, it is a set of methodologies that apply to any field that uses computers in applications in which people directly interact with devices or systems that use computer technologies.
+
+HCC facilitates the design of effective computer systems that take into account personal, social, and cultural aspects and addresses issues such as information design, human information interaction, human-computer interaction, human-human interaction, and the relationships between computing technology and art, social, and cultural issues.<ref name=":2"/>
+
+=== HCC topics ===
+The [[National Science Foundation]] (NSF) defines the trends of HCC research as "a three dimensional space comprising human, computer, and environment."<ref name=":1">{{Cite web|title = US NSF - CISE - IIS|url = https://www.nsf.gov/cise/iis/hcc_pgm.jsp|website = www.nsf.gov|accessdate = 2015-04-17}}</ref>  According to the NSF, the human dimension ranges from research that supports individual needs, through teams as goal-oriented groups, to society as an unstructured collection of connected people.  The computer dimension ranges from fixed computing devices, through mobile devices, to computational systems of visual/audio devices that are embedded in the surrounding physical environment.  The environment dimension ranges from discrete physical computational devices, through mixed reality systems, to immersive virtual environments.<ref name=":1" /> Some examples of topics in the field are listed below.
+
+==== List of topics in HCC field ====
+* Problem-solving in distributed environments, ranging across Internet-based information systems, grids, sensor-based information networks, and mobile and wearable information appliances.
+* Multimedia and multi-modal interfaces in which combinations of speech, text, graphics, gesture, movement, touch, sound, etc. are used by people and machines to communicate with one another.
+* Intelligent interfaces and user modeling, information visualization, and adaptation of content to accommodate different display capabilities, modalities, bandwidth and latency.
+* Multi-agent systems that control and coordinate actions and solve complex problems in distributed environments in a wide variety of domains, such as disaster response teams, e-commerce, education, and successful aging.
+* Models for effective computer-mediated human-human interaction under a variety of constraints, (e.g., video conferencing, collaboration across high vs. low bandwidth networks, etc.).
+* Definition of semantic structures for multimedia information to support cross-modal input and output.
+* Specific solutions to address the special needs of particular communities.
+* Collaborative systems that enable knowledge-intensive and dynamic interactions for innovation and knowledge generation across organizational boundaries, national borders, and professional fields.
+* Novel methods to support and enhance social interaction, including innovative ideas like social orthotics, affective computing, and experience capture.
+* Studies of how social organizations, such as government agencies or corporations, respond to and shape the introduction of new information technologies, especially with the goal of improving scientific understanding and technical design.
+* Knowledge-driven human-computer interaction that uses ontologies to addresss the semantic ambiguities between human and computer's understandings towards mutual behaviors<ref>{{Cite journal|last=Dong|first=Hai, Hussain, Farookh, and Chang, Elizabeth|date=2010|title=A human-centered semantic service platform for the digital ecosystems environment|url=https://www.researchgate.net/publication/220301904_A_Human-Centered_Semantic_Service_Platform_for_the_Digital_Ecosystems_Environment|journal=World Wide Web|doi=|pmid=|access-date=}}</ref>
+* Human-centered semantic relatedness measure that employs human power to measure the semantic relatedness between two concepts<ref>{{Cite book|url=https://www.researchgate.net/publication/280775027_UCOSAIS_A_Framework_for_User-Centered_Online_Service_Advertising_Information_Search|title=UCOSAIS: A Framework for User-Centered Online Service Advertising Information Search, Web Information Systems Engineering – WISE 2013|last=Dong|first=Hai, Hussain, Farookh, Chang, Elizabeth|publisher=Springer-Verlag Berlin Heidelberg|year=2013|isbn=|location=|pages=267–276}}</ref>
+
+== Human-centered systems ==
+'''Human-centered systems (HCS)''' are systems designed for human-centered computing. This approach was developed by [[Mike Cooley (engineer)|Mike Cooley]] in his book ''[[Architect or Bee?]]'' <ref> http://www.spokesmanbooks.com/Spokesman/PDF/131OGrady.pdf | Architect or Bee? The human price of technology </ref> drawing on his experience working with the [[Lucas_Industries#Lucas_Plan_(1976)|Lucas Plan]]. HCS focuses on the design of interactive systems as they relate to human activities.<ref>{{Cite web|title = Human-Centered Systems &#124; Research Areas &#124; Research {{!}} Computer Science & Engineering {{!}} College of Engineering|url = http://engineering.tamu.edu/cse/research/areas/human-centered-systems|website = engineering.tamu.edu|accessdate = 2015-04-17|first = Texas|last = Communications}}</ref>  According to Kling et al., the Committee on Computing, Information, and Communication of the [[National Science and Technology Council]], identified human-centered systems, or HCS, as one of five components for a High Performance Computing Program.<ref name=":0">{{Cite web|title = Human Centered Systems in the Perspective of Organizational and Social Informatics|url = http://philfeldman.com/Human_centered_systems_in_the_perspective_of_organizational_and_social_informatics.pdf|website = philfeldman.com|accessdate = 2015-04-17}}</ref>  Human-centered systems can be referred to in terms of human-centered automation.  According to Kling et al., HCS refers to "systems that are:
+# based on the analysis of the human tasks the system is aiding
+# monitored for performance in terms of human benefits
+# built to take account of human skills and
+# adaptable easily to changing human needs."<ref name=":0" />
+
+In addition, Kling et al. defines four dimensions of human-centeredness that should be taken into account when classifying a system: &nbsp;systems that are human centered must analyze the complexity of the targeted social organization, and the varied social units that structure work and information; &nbsp;human centeredness is not an attribute of systems, but a process in which the stakeholder group of a particular system assists in evaluating the benefit of the system; the basic architecture of the system should reflect a realistic relationship between humans and machines; &nbsp;the purpose and audience the system is designed for should be an explicit part of the design, evaluation, and use of the system.<ref name=":0" />
+
+== Human-centered activities in multimedia ==
+[[File:Wikimania Human Centered Design Visualization.jpg|thumb|Wikimania human-centered design visualization, created by ''[[Myriapoda]]''.]]
+
+The '''human-centered activities in multimedia''', or '''HCM''', can be considered as follows according to:<ref>{{Cite journal|url = http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1580429|title = Human-centered multimedia: culture, deployment, and access|last =Jaimes |first =A. |journal = IEEE Multimedia Magazine |volume=, 13 |issue=1 |pages=12–19 |year=2006 |doi = |pmid = |access-date = }}</ref> media production, annotation, organization, archival, retrieval, sharing, analysis, and communication, which can be clustered into three areas: production, analysis, and interaction.
+
+=== Multimedia production ===
+Multimedia production is the human task of creating media.<ref>{{Cite journal|url = |title = Human-Centered Computing: A Multimedia Perspective|journal = Jaimes, Alejandro, Nicu Sebe, and Daniel Gatica-Perez. "Human-centered computing: a multimedia perspective." Proceedings of the 14th annual ACM international conference on Multimedia. ACM, 2006.|doi = 10.1145/1180639.1180829|pmid = |access-date = }}</ref> For instance, photographing, recording audio, remixing, etc. It is important that all aspects of media production concerned should directly involve humans in HCM. There are two main characteristics of multimedia production. The first is culture and social factors. HCM production systems should consider cultural differences and be designed according to the culture in which they will be deployed. The second is to consider human abilities. Participants involved in HCM production should be able to complete the activities during the production process.
+
+=== Multimedia analysis ===
+Multimedia analysis can be considered as a type of HCM applications which is the automatic analysis of human activities and social behavior in general. There is a broad area of potential relevant uses from facilitating and enhancing human communications, to allowing for improved information access and retrieval in the professional, entertainment, and personal domains.
+
+=== Multimedia interaction ===
+Multimedia interaction can be considered as the interaction activity area of HCM. It is paramount to understand both how humans interact with each other and why, so that we can build systems to facilitate such communication and so that people can interact with computers in natural ways. To achieve natural interaction, cultural differences and social context are primary factors to consider, due to the potential different cultural backgrounds. For instance, a couple of examples include: face-to-face communications where the interaction is physically located and real-time; live-computer mediated communications where the interaction is physically remote but remains real-time; and non-real time computer-mediated communications such as instant SMS, email, etc.
+
+== Career ==
+
+=== Academic programs ===
+As human-centered computing has become increasingly popular, many universities have created special programs for HCC research and study for both graduate and undergraduate students.
+
+===User interface designer===
+{{Main|User interface design}}
+
+A user interface designer is an individual who usually with a relevant degree or high level of knowledge, not only on [[technology]], [[cognitive science]], [[human–computer interaction]], [[learning sciences]], but also on [[psychology]] and [[sociology]]. A user interface designer develops and applies [[user-centered design]] methodologies and [[Agile software development|agile development]] processes that includes consideration for overall usability of interactive software applications, emphasizing interaction design and front-end development.
+
+===Information architect (IA)===
+{{Main|Information architecture}}
+
+Information architects mainly work to understand user and business needs in order to organize information to best satisfy these needs. Specifically, information architects often act as a key bridge between technical and creative development in a project team. Areas of interest in IA include search schemas, metadata, and taxonomy.<ref>{{Cite web|url=https://www.usability.gov/what-and-why/information-architecture.html|title=Information Architecture Basics|date=2013-10-08|website=www.usability.gov|language=en-us|access-date=2017-03-10}}</ref>
+
+== Projects ==
+
+=== NASA/Ames Computational Sciences Division ===
+[[File:NASA Mars Rover.jpg|thumb|NASA Mars Project]]
+The Human-Centered Computing (HCC) group at NASA/Ames Computational Sciences Division is conducting research at Haughton as members of the Haughton-Mars Project (HMP) to determine, via an analog study, how we will live and work on Mars.<ref>{{Cite web|url=https://www.nasa.gov/centers/ames/research/technology-onepagers/hc-computing.html|title=NASA - Human Centered Computing|website=www.nasa.gov|language=en|access-date=2017-03-10}}</ref>
+# '''HMP/Carnegie Mellon University (CMU) Field Robotics Experiments'''—HCC is collaborating with researchers on the HMP/CMU field robotics research program at Haughton to specify opportunities for robots assisting scientists. Researchers in this project has carried out a parallel investigation that documents work during traverses. A simulation module has been built, using a tool that represents people, their tools, and their work environment, that will serve as a partial controller for a robot that assist scientists in the field work in mars. When it comes to take human, computing and environment all into consideration, theory and techniques in HCC filed will be the guideline.
+# '''Ethnography of Human Exploration of Space'''—HCC lab is carrying out an ethnographic study of scientific field work, covering all aspects of a scientist's life in the field. This study involves observing as participants at Haughton and writing about HCC lab`s experiences. HCC lab then look for patterns in how people organize their time, space, and objects and how they relate to each other to accomplish their goals. In this study, HCC lab is focusing on learning and conceptual change.
+
+=== Center for Cognitive Ubiquitous Computing (CUbiC) at Arizona State University ===
+[[File:Note-Taker device and David Hayden.jpg|thumb|Note-Taker device with initial inventor David Hayden]]
+Based on the principles of human-centered computing, the Center for Cognitive Ubiquitous Computing (CUbiC)<ref>{{cite web |url=https://cubic.asu.edu/ |accessdate=28 December 2018}}</ref> at [[Arizona State University]] develops assistive, rehabilitative and healthcare applications. Founded by [[Sethuraman Panchanathan]] in 2001, CUbiC research spans three main areas of multimedia computing: sensing and processing, recognition and learning, and interaction and delivery. CUbiC places an emphasis on transdisciplinary research and positions individuals at the center of technology design and development. Examples of such technologies include the Note-Taker,<ref>{{cite news |last1=Kullman |first1=Joe |title=Note-Taker device promises to help students overcome visual impairments |url=https://asunow.asu.edu/content/note-taker-device-promises-help-students-overcome-visual-impairments |accessdate=28 December 2018 |publisher=ASU Now |date=23 August 2011}}</ref> a device designed to aid students with low vision to follow classroom instruction and take notes, and VibroGlove,<ref>{{cite web |last1=Panchanathan |first1=Sethuraman |last2=Krishna |first2=Sreekar |last3=Bala |first3=Shantanu |title=VibroGlove |url=https://cubic.asu.edu/content/vibroglove |website=CUbiC.asu.edu |accessdate=28 December 2018}}</ref> which conveys facial expressions via haptic feedback to people with visual impairments.
+
+In 2016, researchers at CUbiC introduced “Person-Centered Multimedia Computing,"<ref>{{cite journal |last1=Panchanathan |first1=S. |last2=Chakraborty |first2=S. |last3=McDaniel |first3=T. |last4=Tadayon |first4=R. |title=Person-Centered Multimedia Computing: A New Paradigm Inspired by Assistive and Rehabilitative Applications |journal=IEEE Multimedia Magazine |date=July-September 2016 |volume=23 |page=12-19 |url=https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7535120&tag=1 |accessdate=28 December 2018}}</ref> a new paradigm adjacent to HCC, which aims to understand a user’s needs, preferences, and mannerisms including cognitive abilities and skills to design ego-centric technologies. Person-centered multimedia computing stresses the multimedia analysis and interaction facets of HCC to create technologies that can adapt to new users despite being designed for an individual.
+
+==See also==
+{{div col|colwidth=22em}}
+* [[Cognitive science]]
+* [[Computer-mediated communication]]
+* [[Context awareness]]
+* [[Crowdsourcing]]
+* [[Health information technology]]
+* [[Human-based computation]]
+* [[Human-computer interaction]]
+* [[Information science]]
+* [[Social computing]]
+* [[Socially relevant computing]]
+* [[Ubiquitous computing]]
+* [[User-centered design]]
+{{div col end}}
+
+==References==
+
+<references />
+
+==Further reading==
+*{{cite conference
+ | first = Alejandro
+ | last = Jaimes |author2=Nicu Sebe |author3=Daniel Gatica-Perez
+ | title = Human-Centered Computing: A Multimedia Perspective
+ | booktitle = Proceedings of the 14th annual ACM international conference on Multimedia
+ | pages = 855–864
+ | publisher = ACM Press
+ | year = 2006
+ | location = Santa Barbara, CA, USA
+ | url = http://www.idiap.ch/~gatica/publications/JaimesSebeGatica-acmmm06.pdf
+ | accessdate = 2006-11-30
+ | isbn = 1-59593-447-2
+ | doi = 10.1145/1180639.1180829
+ | format = PDF
+}}
+* {{cite web
+  | title = Program Description
+  | work = Information and Intelligent Systems: Advancing Human-Centered Computing, Information Integration and Informatics, and Robust Intelligence
+  | publisher = [[National Science Foundation]]
+  | date = 2006-05-31
+  | url = https://www.nsf.gov/pubs/2006/nsf06572/nsf06572.htm#pgm_desc_txt
+  | accessdate = 2007-01-07 }}
+*{{cite conference
+ | first = James
+ | last = Foley
+ | authorlink = James D. Foley
+ |author2=[[Michel Beaudouin-Lafon]] |author3=[[Jonathan Grudin]] |author4=James Hollan |author5=Scott Hudson |author6=Judy Olson |author7= Bill Verplank 
+ | title = Graduate Education in Human-Computer Interaction
+ | booktitle = CHI '05 Extended Abstracts on Human Factors in Computing Systems
+ | pages = 2113–2114
+ | publisher = ACM Press
+ | year = 2005
+ | location = Portland, OR, USA
+ | isbn = 1-59593-002-7
+ | doi = 10.1145/1056808.1057112
+}}<!--| accessdate = 2007-01-07-->
+
+* {{cite web
+  | title = Careers at UPMC Technology Development Center
+  | work = Combining Health Care Intelligence and Computer Science Expertise
+  | publisher = [[University of Pittsburgh Medical Center|UPMC]]
+  | year = 2013
+  | url = http://www.upmctdc.com/Pages/Careers.aspx}}
+* "[http://home.comcast.net/~WJClancey/HMP99/hcc.html HMP-99 Science Field Report]" NASA Ames Research Center
+
+[[Category:Human–computer interaction]]
+[[Category:Information science]]
+[[Category:Applied psychology]]

@@ -1,0 +1,1186 @@
+{{Use dmy dates|date=May 2017}}
+This is a compilation of initialisms and acronyms commonly used in astronomy. Most are drawn from professional astronomy, and are used quite frequently in scientific publications. A few are frequently used by the general public or by [[amateur astronomy|amateur astronomers]].
+
+{| id="toc" class="toc" summary="Contents"
+! {{MediaWiki:Toc}}
+|-
+| style="text-align:center;"|
+[[#0–9|0–9]] [[#A|A]] [[#B|B]] [[#C|C]] [[#D|D]] [[#E|E]] [[#F|F]] [[#G|G]] [[#H|H]] [[#I|I]] [[#J|J]] [[#K|K]] [[#L|L]] [[#M|M]] [[#N|N]] [[#O|O]] [[#P|P]] [[#Q|Q]] [[#R|R]] [[#S|S]] [[#T|T]] [[#U|U]] [[#V|V]] [[#W|W]] [[#X|X]] [[#Y|Y]] [[#Z|Z]] __NOTOC__
+[[#top|Top of page]]—[[#See also|See also]]—[[#References|References]]
+|}
+
+The acronyms listed below were placed into one or more of these categories:
+* Astrophysics terminology – ''physics-related acronyms''
+* [[Astronomical catalog|Catalog]] – ''collections of tabulated scientific data''
+* Communications network – ''any network that functions primarily to communicate with [[spacecraft]] rather than performing astronomy''
+* Data – ''astrophysical data not associated with any single catalog or observing program''
+* [[Astronomical object|Celestial object]] – ''acronyms for natural objects in space and for adjectives applied to objects in space''
+* [[Instrumentation]] – ''telescope and other spacecraft equipment, particularly detectors such as imagers and [[spectrometer]]s''
+* Meeting – ''meetings that are not named after organizations''
+* Observing program – ''astronomical programs, often surveys, performed by one or more individuals; may include the groups that perform surveys''
+* Organization – ''any large private organization, government organization, or company''
+* Person – ''individual people''
+* Publication – ''magazines, scientific journals, and similar astronomy-related publications''
+* Software – ''software excluding catalogued data (which is categorized as  "catalog") and scientific images''
+* [[Spacecraft]] – ''any spacecraft except space telescopes''
+* [[Telescope]] – ''ground-based and space telescopes; organizations that operate telescopes (for example, the [[National Optical Astronomy Observatory|National Optical Astronomy Observatory (NOAO)]]) are listed under "organization"''
+
+== 0–9 ==
+* 1RXH – (''catalog'') 1st [[ROSAT]] X-ray HRI, ''a catalog of sources detected by [[ROSAT]] in pointed observations with its [[High Resolution Imager]]''
+* 1RXS – (''catalog'') 1[[ROSAT]] X-ray Survey, ''a catalog of sources detected by [[ROSAT]] in an all-sky survey''
+* 2dF – (''instrumentation'') Two-degree field, ''spectrograph on the [[Anglo-Australian Telescope]]''
+* [[2dF Galaxy Redshift Survey|2dFGRS]] – (''observing program'') Two-degree-Field Galaxy Redshift Survey
+* 2D-FRUTTI – (''instrumentation'') Two dimensional photon counting system
+* 2MASP – (''catalog'') Two-micron all sky survey prototype, ''an early version of the 2MASS catalog''
+* [[Two Micron All Sky Survey|2MASS]] – (''observing program''/''catalog'') Two-Micron All Sky Survey, ''an all-sky survey in the [[near-infrared]]; also, the catalog of sources from the survey''
+* 2MASSI – (''catalog'') Two-Micron All Sky Survey, Incremental release, ''one of the versions of the 2MASS catalog''
+* 2MASSW – (''catalog'') Two-Micron All Sky Survey, Working database, ''one of the versions of the 2MASS catalog''
+* [[2dF-SDSS LRG and QSO survey|2SLAQ]] – (''observing program'') 2dF-[[Sloan Digital Sky Survey|SDSS]] [[Luminous red galaxy|LRG]] And [[Quasar|QSO]] survey
+* 6dF – (''instrumentation'') six-degree field, ''spectrograph on the [[UK Schmidt Telescope|UKST]]''
+
+== A ==
+* [[Astronomy & Astrophysics|A&A]] – (''publication'') Astronomy & Astrophysics, ''a European scientific journal''
+* AAA – (''organization'') Amateur Astronomers Association of New York
+* [[Australian Astronomical Observatory|AAO]] – (''organization'') Australian Astronomical Observatory (prior to 1 July 2010: Anglo-Australian Observatory)
+* [[American Astronomical Society|AAS]] – (''organization'') American Astronomical Society
+* [[Anglo-Australian Telescope|AAT]] – (''telescope'') Anglo-Australian Telescope
+* AMBER [[Astronomical Multi-Beam Recombiner]] – a near-infrared interferometric instrument at [[VLTI]]
+* [[American Association of Variable Star Observers|AAVSO]] – (''organization'') American Association of Variable Star Observers
+* [[ADC Backend For Bolometer Array|ABBA]] – ADC Backend For Bolometer Array
+* [[A Broadband Imaging X-ray All-sky Survey|ABRIXAS]] – (''observing program'') A BRoadband Imaging X-ray All-sky Survey
+* [[Catalogue Astrographique|AC]] – (''catalog'') Catalogue Astrographique
+* [[Advanced Composition Explorer|ACE]] – (''spacecraft'') Advanced Composition Explorer
+* [[Chandra X-ray Observatory|ACIS]] – (''instrumentation'') Advanced CCD Imaging Spectrometer, ''an instrument on the [[Chandra X-Ray Observatory]]''
+* ACM – (''meeting'') Asteroids, Comets, and Meteors
+* ACP – (''instrumentation'') – Aerosol Collector and Pyrolyser, ''an instrument on the [[Huygens probe]]''
+* [[Advanced Camera for Surveys|ACS]] – (''instrumentation'') Advanced Camera for Surveys, ''an instrument on the Hubble Space Telescope''
+* [[Alpha2 Canum Venaticorum variable|ACV]] – (''celestial object'') Alpha Canes Venatici, ''a class of rotating [[variable star]]s with strong [[magnetic field]]s named after [[Cor Caroli|Alpha Canum Venaticorum (Cor Caroli)]], the archetype for the class''
+* [[Alpha Cygni variable|ACYG]] – (''celestial object'') Alpha CYGni, ''a class of rotating [[variable star]]s named after [[Deneb|Alpha Cygni (Deneb)]], the archetype for the class''
+* [[Advection-dominated accretion flow|ADAF]] – (''astrophysics terminology'') Advection Dominated Accretion Flow, ''a mechanism by which matter is slowly accreted onto a [[black hole]]''
+* [[Astronomical Data Center|ADC]] – (''organization'') Astronomical Data Center
+* [[Astrophysics Data Centers Executive Council|ADEC]] – (''organization'') Astrophysics Data Centers Executive Council, ''an organization that provides oversight for the [[Astrophysics Data and Information Services]]''
+* [[Astrophysics Data Facility|ADF]] – (''organization'') Astrophysics Data Facility
+* ADS – (''catalog'') Aitken Double Stars
+* ADS – [http://www.adsabs.harvard.edu/ The [[Smithsonian Astrophysical Observatory]]/[[NASA]] astrophysics data system], an on-line database of almost all astronomical publications
+* [[Astrophysics Data and Information Services|ADIS]] – (''organization'') Astrophysics Data and Information Services
+* [[Astrophysics Data System|ADS]] – (''organization'') Astrophysics Data Service, ''an organization that maintains an online database of scientific articles''
+* AEGIS – (''observing program'') the All-wavelength Extended Groth strip International Survey
+* [[Air Force Geophysics Laboratory|AFGL]] – (''organization'') Air Force Geophysics Laboratory, ''a research laboratory now part of the United States [[Air Force Research Laboratory]]''
+* [[Association française des observateurs d'étoiles variables|AFOEV]] – (''organization'') Association française des observateurs d'étoiles variables
+* [[Astronomische Gesellschaft|AG]] – (''organization'') Astronomische Gesellschaft
+* [[Andromeda Galaxy and Amplified Pixels Experiment|AGAPE]] – (''observing program'') Andromeda Galaxy and Amplified Pixels Experiment, ''a search for [[microlens]]es in front of the [[Andromeda Galaxy]]''
+* [[Asymptotic Giant Branch|AGB]] – (''celestial object'') asymptotic giant branch, ''a type of [[red giant|red giant star]]''
+* AGC – [[Arecibo Observatory|Arecibo]] general catalog
+* AGK – (''catalog'') Astronomische Gesellschaft Katalog
+* [[Active Galactic Nucleus|AGN]] – (''celestial object'') Active galactic nucleus
+* [[American Geophysical Union|AGU]] – (''organization'') American Geophysical Union
+* [[Aeronomy of Ice in the Mesosphere|AIM]] – (''spacecraft'') Aeronomy of Ice in the Mesosphere, ''a spacecraft that will study the [[Noctilucent cloud]]s''
+* [[Astronomical Image Processing System|AIPS]] – (''software'') Astronomical Image Processing System
+* [[Astronomical Journal|AJ]] – (''publication'') Astronomical Journal
+* [[ALaMO]] – (''organization'') Automated Lunar and Meteor Observatory
+* [[Array of Low Energy X-ray Imaging Sensors|ALEXIS]] – (''instrumentation'') Array of Low Energy X-ray Imaging Sensors
+* [[Atacama Large Millimeter Array|ALMA]] – (''telescope'') Atacama Large Millimeter/Sub-millimeter Array
+* [[Association of Lunar and Planetary Observers|ALPO]] – (''organization'') Association of Lunar and Planetary Observers
+* [[Antarctic Muon And Neutrino Detector Array|AMANDA]] – (''telescope'') Antarctic Muon And Neutrino Detector Array, ''a [[neutrino telescope]]''
+* [[Astrophysics Multi-spectral Archive Search Engine|AMASE]] – (''software'') Astrophysics Multi-spectral Archive Search Engine
+* [[American Meteor Society|AMS]] – (''organization'') American Meteor Society
+* [[Astronomische Nachrichten|AN]] – (''publication'') Astronomische Nachrichten, ''a German scientific journal''
+* [[Astronomical Netherlands Satellite|ANS]] – (''telescope'') Astronomical Netherlands Satellite
+* [[Astro News Service|ANS]] – (''organization'') Astro News Service
+* [[American National Standards Institute|ANSI]] – (''organization'') American National Standards Institute
+* [[Adaptive Optics|AO]] – (''instrumentation'') Adaptive optics
+* [[Astronomical Observation Request|AOR]] – (''instrumentation'') Astronomical observation request
+* [[Astrophysical Journal|ApJ]] – (''publication'') Astrophysical Journal
+** [[Astrophysical Journal Letters|ApJL]] – (''publication'') Astrophysical Journal Letters
+** [[Astrophysical Journal Supplement Series|ApJS]] – (''publication'') Astrophysical Journal Supplement Series
+* APM – (''instrumentation''/''catalog''), Automatic plate measuring machine, ''a machine for making measurements from photographic plates; also, a catalog based on measurements by the machine''
+* [[Apache Point Observatory|APO]] – (''organization'') Apache Point Observatory
+* [[Astronomy Picture of the Day|APOD]] – (''data'') Astronomy Picture of the Day
+* [[Automated Patrol Telescope|APT]] – (''telescope'') Automated Patrol Telescope
+* [[Ames Research Center|ARC]] – (''organization'') Ames Research Center
+* [[Astrophysical Research Consortium|ARC]] – (''organization'') Astrophysical Research Consortium
+* [[Absolute Radiometer for Cosmology, Astrophysics, and Diffuse Emission|ARCADE]] – a [[balloon satellite]] experiment to measure the heating of the [[Universe]] by the first [[stars]] and [[galaxies]] after the [[big bang]]
+* [[Astronomical Society of the Atlantic|ASA]] – (''organization'') Astronomical Society of the Atlantic
+* [[All Sky Automated Survey|ASAS]] – All Sky Automated Survey
+* [[Astrophysics Source Code Library|ASCL]] - Astrophysics Source Code Library, a citable online registry of research source codes
+* [[Agenzia Spaziale Italiana|ASI]] – (''organization'') Agenzia Spaziale Italiana
+* [[Academia Sinica Institute of Astronomy and Astrophysics|ASIAA]] – (''organization'') Academia Sinica Institute of Astronomy and Astrophysics
+* [[Australian Square Kilometre Array Pathfinder|ASKAP]] – Australian Square Kilometre Array Pathfinder, a next-generation [[radio telescope]] under construction in Western Australia. It differs from previous radio-telescopes in having many [[pixels]] at the [[focus (optics)|focus]] of each [[antenna (radio)|antenna]].
+* [[Astronomical Society of the Pacific|ASP]] – (''organization'') Astronomical Society of the Pacific
+* [[Orbital Express|ASTRO]] – (''spacecraft'') Autonomous Space Transport Robotic Operations
+* [[Allen Telescope Array|ATA]] – (''telescope'') Allen Telescope Array, ''a radio [[Astronomical interferometer|interferometer array]] developed by the [[SETI Institute]] to search for possible signals from extraterrestrial life''
+* [[Australia Telescope Compact Array|ATCA]] – (''telescope'') Australia Telescope Compact Array
+* ATLAS [http://www.atnf.csiro.au/research/deep/index.html Australia Telescope Large Area Survey] – a deep [[radio astronomy|radio astronomical]] [[sky survey]] of two [http://swire.ipac.caltech.edu//swire/swire.html SWIRE] fields covering a total of about 7 square degrees of sky.
+* [[Amateur telescope making|ATM]] – (''person'') hobbyist engaged in ''[[Amateur telescope making]]'' (may also refer to the book of the same title, [[Amateur Telescope Making]])
+* [[Astronomical Unit|AU]] – (''measurement'') Astronomical Unit, ''the distance between the Earth and the Sun''
+* [[Arab Union for Astronomy and Space Sciences|AUASS]] – (''organization'') Arab Union for Astronomy and Space Sciences
+* [[Association of Universities for Research in Astronomy|AURA]] – (''organization'') Association of Universities for Research in Astronomy
+* [[International Workshop on Cometary Astronomy|AWCA]] – (''meeting'') American Workshop on Cometary Astronomy, ''an older name for the [[International Workshop on Cometary Astronomy]]''
+* [[Anomalous X-ray pulsar|AXP]] – (''celestial object'') Anomalous X-Ray Pulsar
+* [[Chandra X-ray Observatory|AXAF]] – (''telescope'') Advanced X-ray Astrophysics Facility, ''an older name for the [[Chandra X-ray Observatory]]''
+
+== B ==
+* B – (''catalog'') Barnard catalog
+* BAA – (''organization'') British Astronomical Association
+* [[Bulletin of the American Astronomical Society|BAAS]] – (''publication'') Bulletin of the American Astronomical Society
+* BAC – (''catalog'') Bordeaux Astrographic Catalog
+* [[Baryon acoustic oscillations|BAO]] – (''astrophysics terminology'') baryon acoustic oscillations
+* [[Beijing Astronomical Observatory|BAO]] – (''organization'') Beijing Astronomical Observatory
+* BASIS – (''observing program'') Burst and All Sky Imaging Survey
+* BAT – (''instrumentation'') Burst Alert Telescope, ''an instrument on [[Swift Gamma-Ray Burst Mission|SWIFT]]''
+* BATC – (''observing program'') Beijing-Arizona-Taiwan-Connecticut, ''the name of a multi-wavelength sky survey''
+* BATSE – (''instrument'') Burst and Transient Source Experiment, ''an instrument on the [[Compton Gamma-Ray Observatory]]''
+* [[Bisei Asteroid Tracking Telescope for Rapid Survey|BATTeRS]] – (''telescope'') Bisei Asteroid Tracking Telescope for Rapid Survey
+* [[Black Body|BB]] – (''astrophysics terminology'') Black body
+* [[Broad Band X-ray Telescope|BBXRT]] – (''telescope'') Broad Band X-Ray Telescope
+* [[Blue compact dwarf|BCD]] – (''celestial object'') Blue compact dwarf
+* BCD – (''software'') Basic calibrated data, ''data produced after basic processing''
+* [[Beta Cephei variable|BCEP]] – (''celestial object'') Beta CEPhei, ''a class of pulsating [[variable star]]s for which [[Beta Cephei]] is the archetypal object''
+** ''also'' BCE
+* [[Blue compact dwarf|BCG]] – (''celestial object'') Blue compact galaxy, ''another name for a [[blue compact dwarf]]'', also bright central galaxy
+* [[Brightest Cluster Galaxy|BCG]] – (''celestial object'') Brightest Cluster Galaxy, ''the brightest galaxy in a cluster of galaxies''
+* BCVS – (''catalog'') Bibliographic Catalogue of Variable Stars
+* [[Bonner Durchmusterung|BD]] – (''catalog'') Bonner Durchmusterung
+* [[Brown Dwarf|BD]] – (''celestial object'') Brown dwarf
+* BEN – (''catalog'') Jack Bennett catalog, ''a catalog of deep-sky objects for amateur astronomers''
+* BEL – (''celestial object'') broad emission line clouds in [[Active galactic nucleus]]<ref>{{cite journal |first1=J. A. |last1=Baldwin |first2=G. J. |last2=Ferland |first3=K. T. |last3=Korista |first4=F. |last4=Hamann |first5=A. |last5=LaCluyze |title=The Origin of Fe II Emission in Active Galactic Nuclei |journal=The Astrophysical Journal |volume=615 |number=2 |pages=610–624 |date=2004 |doi=10.1086/424683|arxiv = astro-ph/0407404 |bibcode = 2004ApJ...615..610B }}</ref>
+* BF – (''astrophysics terminology'') Broadening function
+* [[Black Hole|BH]] – (''celestial object'') Black hole
+* [[Blue Horizontal Branch|BHB]] – (''celestial object'') Blue horizontal branch, ''a type of luminous star''
+* [[Black Hole|BHC]] – (''celestial object'') Black hole candidate
+* [[Black Hole X-Ray Transient|BHXRT]] – (''celestial object'') Black hole x-ray transient
+** ''also'' BHXT
+* [[BICEP2]] – (''telescope'') Background Imaging of Cosmic Extragalactic Polarization 2
+* [[Berkeley-Illinois-Maryland Association|BIMA]] – (''organization'' & ''telescope'') Berkeley-Illinois-Maryland Association, and also B-M-I Array, '' [[microwave]] telescope it operated''
+* [[British Interplanetary Society|BIS]] – (''organization'') British Interplanetary Society
+* [[BITP]] – (''organization'') – Bogolyubov Institute for Theoretical Physics, ''a Ukrainian research institute''
+* BLAGN – (''celestial object'') Broad-Line [[Active galactic nucleus|AGN]], based on classification of spectral line widths
+* [[BL Lac object|BLLAC]] – (''celestial object'') BL LACertae, ''a class of [[active galaxies]] for which [[BL Lacertae]] is the archetypal object''
+** ''also'' BLL
+* [[BLAST (telescope)|BLAST]] – (''telescope'') – Balloon-borne Large Aperture Submillimeter Telescope
+* BLR – (''astrophysics term'') the broad line region of the [[Active galactic nucleus|AGN]]
+* [[British National Space Centre|BNSC]] – (''organization'') British National Space Centre, ''the older name for [[UK Space Agency|UKSA]]''
+* [[Bohyunsan Optical Astronomy Observatory|BOAO]] – (''observatory'') Bohyunsan Optical Astronomy Observatory, ''in Korea''
+* [[BOOMERanG experiment|BOOMERanG]] - (''telescope'') Balloon Observations Of Millimetric Extragalactic Radiation and Geophysics
+* BPM – (''catalog'') Bruce proper motion
+* [[Blue supergiant|BSG]] – (''celestial object'') Blue super giant
+* [[Blue straggler|BSS]] – (''celestial object'') Blue straggler star
+** ''also'' BS
+* [[Bigelow Sky Survey|BSS]] – (''observing program'') Bigelow Sky Survey
+* [[BY Draconis variable|BY]] – (''celestial object'') BY Draconis, ''a class of rotating [[variable star]]s for which [[BY Draconis]] is the archetypal object''
+
+== C ==
+* C - Cambridge Catalog, 2C ([[Second Cambridge Catalog]]), 3C ([[Third Cambridge Catalog]])
+* [[Canadian Astronomy Data Centre|CADC]] – (''organization'') Canadian Astronomy Data Centre
+* [[Calar Alto Observatory|CAHA]] – (''organization'') Centro Astronómico Hispano Alemán, ''a German-Spanish Astronomical Centre''
+* [[Cosmic Assembly Near-infrared Deep Extragalactic Legacy Survey|CANDELS]] – (survey) Cosmic Assembly Near-Infrared Deep Extragalactic Legacy Survey or Cosmic Assembly and Dark Energy Legacy Survey
+* [[Cassini Plasma Spectrometer|CAPS]] – (''instrumentation'') Cassini Plasma Spectrometer, ''an instrument on the [[Cassini–Huygens|Cassini]] spacecraft''
+* [[California Association for Research in Astronomy|CARA]] – (''organization'') California Association for Research in Astronomy
+* CANGAROO Collaboration between Australian and Nippon for a Gamma Ray Observatory
+* [[Center for Astrophysical Research in Antarctica|CARA]] – (''organization'') Center for Astrophysical Research in Antarctica
+* [[Canadian Astronomical Society|CASCA]] – (''organization'') Canadian Astronomical Society / Société canadienne d'astronomie (the name is officially bilingual)<ref>{{cite web|url=http://www.casca.ca/ |title=CASCA &#124; Canadian Astronomical Society &#124; Société Canadienne d'Astronomie |publisher=[[Canadian Astronomical Society|CASCA]] |date= |accessdate=2013-10-14}}</ref>
+* CARMA [[Combined Array for Research in Millimeter-wave Astronomy]] – an array
+* [[Center for Advanced Space Studies|CASS]] – (''organization'') Center for Advanced Space Studies
+* CASS – (''organization'') Center for Astrophysics and Space Sciences, an interdisciplinary research unit at [[University of California, San Diego|UC San Diego]]
+* [[Central Bureau for Astronomical Telegrams|CBAT]] – (''organization'') Central Bureau for Astronomical Telegrams
+* [[Cosmic Background Radiation|CBR]] – (''celestial object'') cosmic background radiation
+* CC – (''celestial object'') candidate companion, ''a newly detected observed object that initially appears to orbit another celestial object''
+* CCAFS [[Cape Canaveral Air Force Station]], an air force base
+* [[charge-coupled device|CCD]] – (''instrumentation'') Charge-coupled device
+* [[Color–color diagram|CCD]] – (''astrophysics terminology'') – Color–color diagram, ''a plot that compares the differences between magnitudes in different wave bands''
+* CCDM – (''catalog'') Catalog of Components of Double and Multiple Stars
+* CCO – (''catalog'') Catalogue of Cometary Orbits
+* CCO – (''celestial object'') central compact object, ''a [[compact star]] in the center of a [[planetary nebulae]]''
+* [[carbon star|CCS]] – (''celestial object'') cool carbon star
+* [[Cordoba Durchmusterung|CD]] – (''catalog'') Cordoba Durchmusterung
+* CDFS [[Chandra Deep Field South]]
+* CDIMP – (''catalog'') Catalogue of Discoveries and Identifications of Minor Planets
+* [[Cold dark matter|CDM]] – (''astrophysics terminology'') Cold Dark Matter, ''any model for structure formation in the universe that characterize "cold" particles such as [[Weakly Interacting Massive Particle|WIMPs]] as [[dark matter]]''
+* [[Centre de Données astronomiques de Strasbourg|CDS]] – (''organization'') Centre de Données astronomiques de Strasbourg
+* [[Thirty Meter Telescope|CELT]] – (''telescope'') – California Extremely Large Telescope, ''an older name for the Thirty Meter Telescope''
+* [[CEMP star|CEMP]] – (''celestial object'') Carbon-enhanced metal-poor, ''a type of [[carbon star]]''
+** CEMP-no – (''celestial object'') Carbon-enhanced metal-poor star with no enhancement of elements produced by the [[r-process]] or [[s-process]] [[nucleosynthesis]]
+** CEMP-r – (''celestial object'') Carbon-enhanced metal-poor star with an enhancement of elements produced by [[r-process]] [[nucleosynthesis]]
+** CEMP-s – (''celestial object'') Carbon-enhanced metal-poor star with an enhancement of elements produced by [[s-process]] [[nucleosynthesis]]
+** CEMP-r/s – (''celestial object'') Carbon-enhanced metal-poor star with an enhancement of elements produced by both [[r-process]] and [[s-process]] [[nucleosynthesis]]
+* [[Cepheid|CEP]] – (''celestial object'') CEPheid, ''a type of pulsating [[variable star]]''
+* [[Center For Earth and Planetary Studies|CEPS]] – (''organization'') Center for Earth and Planetary Studies
+* [[Center for Astrophysics|CfA]] – (''organization'') Center for Astrophysics
+* [[Canada-France-Hawaii Telescope|CFHT]] – (''telescope'') Canada–France–Hawaii Telescope
+* CFRS – (''observing program''), Canada–France Redshift Survey
+* CG – (''astrophysics terminology'') Center of gravity
+* CG – (''celestial object'') Cometary Globule, ''a [[Bok globule]] that show signs of a tail-like extension''
+* CG – (''celestial object'') Compact galaxy
+* [[carbon star|CGCS]] – (''celestial object'') Cool galactic carbon star
+* [[Compton Gamma Ray Observatory|CGRO]] – (''telescope'') Compton Gamma Ray Observatory
+* CGSS – (''catalog'') Catalogue of Galactic S Stars
+* [[Center for High Angular Resolution Astronomy|CHARA]] – (''organization'') Center for High Angular Resolution Astronomy
+* CHIPSat [[Cosmic Hot Interstellar Plasma Spectrometer satellite]]
+* CIAO – (''software'') Chandra Interactive Analysis of Observations, ''software for processing [[Chandra X-ray Observatory]] data''
+* CIAO – (''instrumentation'') Coronagraphic Imager with Adaptive Optics, ''an instrument for the [[Subaru Telescope]]''
+* [[Cosmic infrared background radiation|CIBR]] – (''celestial object'') Cosmic infrared background radiation
+** ''also'' CIB
+* CIDA – (''instrumentation'') Cometary Interplanetary Dust Analyzer, ''an instrument on the [[Stardust (spacecraft)|Stardust]] spacecraft''
+* CINDI [[CINDI|Coupled Ion-Neutral Dynamics Investigation]]
+* CINEOS – (''observing program'') Campo Imperatore Near-Earth Object Survey
+* CIO – (''catalog'') Catalog of Infrared Observations
+* CISCO – (''instrumentation'') Cooled Infrared Spectrograph and Camera for OHS, ''an instrument for the [[Subaru Telescope]]''
+* CM – (''astrophysics terminology'') center of mass
+* [[Cosmic Microwave Background|CMB]] – (''celestial object'') cosmic microwave background radiation
+** ''also'' CMBR, CBR, MBR
+* CMC – (''catalog'') Carlsberg Meridian Catalogue
+* [[Color–magnitude diagram|CMD]] – (''astrophysics terminology'') color–magnitude diagram, ''the Hertzsprung–Russell diagram or similar diagrams''
+** ''also'' CM
+* CME – [[coronal mass ejection]]
+* [[Cosmic neutrino background|CNB]] – (''celestial object'') cosmic neutrino background
+* [[CNES]] – (''organization'') Centre Nationale d'Etudes Spatiales, ''the French Space Agency''
+* CNO – (''astrophysics terminology'') Carbon-Nitrogen-Oxygen, ''a sequence of nuclear fusion processes''
+* [[Consiglio Nazionale delle Ricerche|CNR]] – (''organization'') Consiglio Nazionale delle Ricerche
+* CNSR – (''spacecraft'') Comet nucleus sample return
+* [[Cosmic Background Explorer|COBE]] – (''telescope'') Cosmic Background Explorer, ''a space telescope used to study the [[cosmic microwave background radiation]]''
+* COHSI – (''instrumentation'') Cambridge OH-Suppression Instrument
+* Col – (''catalog'') [[Collinder catalog]]
+* COMICS – (''instrumentation'') COoled Mid-Infrared Camera and Spectrometer, ''an instrument for the [[Subaru Telescope]]''
+* [[Compton Gamma Ray Observatory|CGRO]] – (''telescope'') COMPton TELescope, ''another name for the [[Compton Gamma Ray Observatory]]''
+* [[Corot (space mission)|COROT]] – (''telescope'') COnvection ROtation and planetary Transits, ''a space telescope for detecting [[extrasolar planet]]s''
+* [[Cosmic Evolution Survey|COSMOS]] – (''observing program'') Cosmic Evolution Survey
+* [[Committee on Space Research|COSPAR]] – (''organization'') COmmittee on SPAce Research
+* [[COSTAR]] – (''instrumentation'') Corrective Optics Space Telescope Axial Replacement, ''corrective optics for the [[Hubble Space Telescope]]''
+* CP – (''astrophysics terminology'') Chemically peculiar, ''stars with [[Peculiar star|peculiar]] chemical compositions''
+* [[Cape Photographic Durchmusterung|CPD]] – (''catalog'') Cape Photographic Durchmusterung
+* [[Comet Rendezvous Asteroid Flyby|CRAF]] – (''spacecraft'') Comet Rendezvous Asteroid Flyby
+* CRRES [[CRRES|Combined Release and Radiation Effects Satellite]]
+* [[Canadian Space Agency|CSA]] – (''organization'') Canadian Space Agency
+* [[Committee for Small-Body Nomenclature|CSBN]] – (''organization'') Committee for Small-Body Nomenclature
+* [[Circumstellar envelope|CSE]] – (''celestial object'') circumstellar envelope, ''a roughly spherical [[planetary nebula]] formed from dense stellar wind if not present before the formation of a star.''
+* [[Catalog of Stellar Identification|CSI]] – (''catalog'') Catalog of Stellar Identification, ''a compilation of the catalogs, [[Bonner Durchmusterung|BD]], [[Cordoba Durchmusterung|CD]], and [[Cape Photographic Durchmusterung|CPD]]''
+* [[Caltech Submillimeter Observatory|CSO]] – (''telescope'') Caltech Submillimeter Observatory
+*CSP – (''astrophysics terminology'') composite stellar population
+* CSPN – (''celestial object'') central star of [[planetary nebula]]
+** ''also'' CSPNe (''plural form of'' CSPN)
+* CSS – (''observing program'') Catalina Sky Survey
+* CST – (''astrophysics terminology'') ConStanT, ''non-variable stars''
+* CSV – (''catalog'') Catalog of Suspected Variables
+* [[Cerro Tololo Interamerican Observatory|CTIO]] – (''telescope''/''organization'') Cerro Tololo Interamerican Observatory
+* [[Classical T Tauri Star|CTTS]] – (''celestial object'') Classical [[T Tauri|T-Tauri]] Star
+* [[Cataclysmic variable|CV]] – (''celestial object'') cataclysmic variable, ''a type of [[variable star|variable]] [[binary star|binary]] [[star|star system]] that contains a [[white dwarf]] and a companion star that changes''
+* [[W Virginis variable|CW]] – (''celestial object'') Cepheid W Virginis, ''a class of [[Cepheid]]s named after [[W Virginis]], the archetype for the class''
+** CWA – (''celestial object'') Cepheid W Virginis A, ''a subclass of CW stars that vary in brightness on timescales of less than 8&nbsp;days''
+** CWB – (''celestial object'') Cepheid W Virginis B, ''a subclass of CW stars that vary in brightness on timescales greater than 8&nbsp;days''
+* CXBR – (''celestial object'') Cosmic x-ray background radiation
+* CXO – (''catalog'') Chandra X-ray Observation, ''a catalog based from the [[Chandra X-Ray Observatory|Chandra]] space telescope''
+
+== D ==
+* [[Dominion Astrophysical Observatory|DAO]] – (''organization'') Dominion Astrophysical Observatory
+* [[Cepheid|DCEP]] – (''celestial object'') Delta CEPhei, ''a class of [[Cepheid]]s named after [[Delta Cephei]], the archetype for the class''
+* DDEB – (''celestial object'') double-lined [[Eclipsing binary#Eclipsing binaries|eclipsing binary]]
+* [[Deep Near Infrared Survey|DENIS]] – (''observing program/catalog'') DEep Near Infrared Survey
+* DENIS-P – (''catalog'') DEep Near Infrared Survey, Provisory designation [or also known as DNS].
+* [[Dark Energy Survey|DES]] – (''observing program'') Dark Energy Survey
+* DEC [[Declination]]
+* [[Deep Ecliptic Survey|DES]] – (''observing program'') Deep Ecliptic Survey
+* [[Diffuse interstellar band|DIB]] – (''celestial object'') diffuse interstellar band, ''an absorption feature in [[stellar spectrum|stellar spectra]] with an interstellar origin''
+* [[Diffuse InfraRed Background Experiment|DIRBE]] – (''instrumentation'') Diffuse InfraRed Background Experiment, a multiwavelength infrared detector used to map dust emission
+* DISR – (''instrumentation'') – Descent Imager/Spectral Radiometer, ''an instrument on the [[Huygens probe]]''
+* [[Differential Microwave Radiometer|DMR]] – (''instrumentation'') Differential Microwave Radiometer, a microwave instrument that would map variations (or anisotropies) in the CMB
+* DM [[dark matter]] – the unidentified non-[[baryon]]ic matter
+* [[dwarf nova|DN]] – (''celestial object'') Dwarf nova
+* DNS – (''celestial object'') double [[neutron star]], ''another name for a binary neutron star system''. [Caution: Do not confuse with DNS relating to DENIS – Deep Near Infrared Survey].
+* DOG – (''celestial object'') [[Cosmic dust|dust]]-obscured [[galaxy]], a galaxy with an unusually high ratio of infrared-to-optical emission, implying strong dust absorption and re-emission.<ref>{{cite journal|last1=Melbourne|first1=J|title=Morphologies of High-Redshift Dust-Obscured Galaxies from Keck Laser Guide Star Adaptive Optics|journal=The Astronomical Journal|date=2008-08-06|volume=136|issue=3|pages=1110–1117|doi=10.1088/0004-6256/136/3/1110|url=http://iopscience.iop.org/article/10.1088/0004-6256/136/3/1110|accessdate=15 June 2016|arxiv = 0807.1115 |bibcode = 2008AJ....136.1110M }}</ref>
+* DPOSS – (''data'') Digitized Palomar Observatory Sky Survey
+* [[Dwarf star|DS]] – (''celestial object'') dwarf star
+* [[Delta Scuti variable|DSCT]] – Delta SCuTi, ''a class of pulsating [[variable star]]s named after [[Delta Scuti]], the archetype for the class''
+* [[Deep Space Network|DSN]] – (''communications network'') Deep Space Network, ''a network of radio antennas used for communicating to [[spacecraft]]''
+* [[Digitized Sky Survey|DSS]] – (''data'') Digitized Sky Survey
+* DWE – (''instrumentation'') – Doppler Wind Experiment, ''an instrument on the [[Huygens probe]]''
+
+== E ==
+* [[binary star|E]] – (''celestial object'') Eclipsing, ''a [[binary star|binary star system]] with [[variable star|variable]] brightness in which the stars eclipse each other''
+** EA – (''celestial object'') Eclipsing Algol, ''a class of eclipsing [[binary star]]s named after [[Algol]], the archetype for the class''
+** EB – (''celestial object'') Eclipsing Beta Lyrae, ''a class of eclipsing [[binary star]]s named after [[Beta Lyrae]], the archetype for the class''
+** EW – (''celestial object'') Eclipsing W Ursa Majoris, ''a class of eclipsing [[binary star]]s named after [[W Ursa Majoris]], the archetype for the class''
+* [[EAAE – European Association for Astronomy Education|EAAE]] – (''organization'') European Association for Astronomy Education
+* EACOA – (''organization'') –  East Asian Core Observatories Association 
+* EAO – (''organization'')  –  East Asian Observatory, operates the [[JCMT]]
+* [[European Extremely Large Telescope|E-ELT]] – (''telescope'') – European Extremely Large Telescope
+* [[East-Asian Planet Search Network|EAPSNET]] – (''organization'') – East-Asian Planet Search Network
+* EC – (''celestial object'') Embedded Cluster, ''a star cluster that is partially or fully embedded in [[Cosmic dust|interstellar gas or dust]]''
+* [[Earth-crossing asteroid|ECA]] – (''celestial object'') Earth-crossing asteroid
+* EGG – (''celestial object'') evaporating gaseous globule
+* EGGR – (''catalog'') Eggen & Greenstein, ''a catalog of mostly [[white dwarf]]s''
+* EGP – (''celestial object'') [[Extrasolar Planet|extrasolar giant planet]]
+* [[Compton Gamma Ray Observatory|EGRET]] – (''telescope'') Energetic Gamma Ray Experiment Telescope, ''another name for the [[Compton Gamma Ray Observatory]]''
+* EGS [[Extended Groth Strip]] – a [[List of Deep Fields|deep field]]
+* EHB – (''celestial object'') extreme horizontal branch, ''a type of hot, evolved [[star]]''
+* [[Electronic Journal of the Astronomical Society of the Atlantic|EJASA]] – (''publication'') Electronic Journal of the Astronomical Society of the Atlantic
+* [[Kuiper belt object|EKBO]] – (''celestial object'') Edgeworth–Kuiper belt object, ''an alternative name for [[Kuiper belt object]]s''
+* ELAIS [[ESO]] large-area infrared survey – a survey
+* ELIAS – (''observing program'') European Large Area ISO Survey, ''a survey of [[redshift|high redshift]] galaxies performed with the [[Infrared Space Observatory|Infrared Space Observatory (ISO)]]''
+* ELF extremely luminous far-infrared galaxy, a synonym for [[Luminous infrared galaxy|Ultra-Luminous infrared galaxy]]
+* [[Extremely large telescope|ELT]] – (''telescope'') Extremely Large Telescope
+* EMP – (''catalog'') Ephemerides of Minor Planets
+* EMP – (''celestial object'') extremely metal-poor, ''a star with few elements other than [[hydrogen]] and [[helium]]''
+* EMU [http://www.atnf.csiro.au/people/rnorris/emu/ Evolutionary Map of the Universe]
+* ENACS – (''observing program'') ESO Nearby Abell Cluster Survey, ''a survey of [[galaxy cluster]]s''
+* [[Extremely Red Object|ERO]] – (''celestial object'') extremely red object, ''a name applied to [[galaxies]] with red [[spectrum|spectra]]''
+* [[European Space Agency|ESA]] – (''organization'') European Space Agency
+* [[European Southern Observatory|ESO]] – (''organization'') European Southern Observatory
+* [[European Space Research and Technology Centre|ESTEC]] – (''organization'') European Space research and TEchnology Centre
+* [[ESTRACK]] – (''communications network'') European Space TRACKing, ''a network of radio antennas used for communicating to [[spacecraft]]''
+* [[Exposure Time Calculator|ETC]] – exposure time calculator
+* [[Ultraviolet|EUV]] – (''astrophysics terminology'') Extreme ultraviolet
+* [[Extreme Ultraviolet Explorer|EUVE]] – (''telescope'') Extreme UltraViolet Explorer, ''an [[ultraviolet]] space telescope''
+* [[European VLBI Network|EVN]] – (''organization'') European VLBI Network
+
+== F ==
+* [[Full-sky Astrometric Mapping Explorer|FAME]] – (''telescope'') Full-sky Astrometric Mapping Explorer
+* [[Flagstaff Astrometric Scanning Transit Telescope|FASTT]] – (''telescope'') Flagstaff Astrometric Scanning Transit Telescope
+* FCC – (''catalog'') Fornax Cluster Catalog, '' a catalog of [[galaxies]] in the [[Fornax Cluster]]''
+* FEB – (''celestial object'') falling-evaporating body, ''a solid planetary object that is being evaporated by the stellar wind''
+* [[Fine guidance sensors|FGS]] – (''instrumentation'') fine guidance sensors, ''an instrument on the [[Hubble Space Telescope]]''
+* [[Fixed Head Star Tracker|FHST]] – (''instrumentation'') Fixed Head Star Trackers, ''an instrument on the [[Hubble Space Telescope]]''
+* [[Infrared|FIR]] – (''astrophysics terminology'') far infrared
+* [[Faint Images of the Radio Sky at Twenty-Centimeters|FIRST]] – (''observing program'') Faint Images of the Radio Sky at Twenty-Centimeters, ''a radio survey of the sky with the [[Very Large Array]]''
+* [[Herschel Space Observatory|FIRST]] – (''telescope'') Far InfraRed and Submillimeter Space Telescope, ''an older name for the [[Herschel Space Observatory]]''
+* [[Far-InfraRed Absolute Spectrophotometer|FIRAS]] – (''Instrumentation'') Far-InfraRed Absolute Spectrophotometer
+* FIRE – (''simulation project'') Feedback In Realistic Environments, a project to [[Simulation|simulate]] [[Galaxy formation and evolution|galaxy formation]] with detailed feedback processes included
+* [[Flexible Image Transport System|FITS]] – (''software'') Flexible Image Transport System, ''the format commonly used for scientific astronomy images''
+* [[Fibre Large Array Multi Element Spectrograph|FLAMES]] – (''instrumentation'') Fibre Large Array Multi Element Spectrograph, ''instrument on the [[Very Large Telescope|VLT]]''
+* [[Fibre-Linked Optical Array Telescope|FLOAT]] – (''telescope'') Fibre-Linked Optical Array Telescope
+* [[Whipple Observatory|FLWO]] – (''telescope'') Fred L. Whipple Observatory
+* [[Fast Moving Object|FMO]] – (''celestial object'') fast moving object, ''an [[asteroid]] so close to the Earth that it appears to be moving very fast''
+* [[Faint Object Camera|FOC]] – (''instrumentation'') Faint Object Camera, ''a camera formerly on the [[Hubble Space Telescope]]''
+* [[Faint Object Camera And Spectrograph|FOCAS]] – (''instrumentation'') Faint Object Camera And Spectrograph, ''an instrument for the [[Subaru Telescope]]''
+* FORTE [[FORTE|Fast On-orbit Rapid Recording of Transient Events]]
+* [[Faint Object Spectrograph|FOS]] – (''instrumentation'') Faint Object Spectrograph, ''a [[spectrometer]] formerly on the [[Hubble Space Telescope]]''
+* FOV – (''instrumentation'') field of view
+* [[Fast radio burst|FRB]] – (''celestial object'') fast radio burst
+* FRED – (''astrophysics terminology'') fast rise exponential decay, ''the variations in the luminosity of [[gamma ray bursts]] over time''
+* FSC – (''catalog'') Faint Source Catalogue, ''one of the catalogs produced using [[Infrared Astronomical Satellite]] data''
+* FTL – (''astrophysics terminology'') faster than light
+* [[FU Orionis variable|FUOR]] – (''celestial object'') FU Orionis objects, '' a class of [[variable star|variable]] [[pre–main sequence star]]s named after [[FU Orionis]], the archetype for the class''
+** ''also'' FU
+* [[Far Ultraviolet Spectroscopic Explorer|FUSE]] – (''telescope'') Far Ultraviolet Spectroscopic Explorer, ''an [[ultraviolet]] space telescope''
+* [[Far UltraViolet Imaging Telescope Array|FUVITA]] – (''instrumentation'') Far UltraViolet Imaging Telescope Array, ''an [[ultraviolet]] imager for the [[Spectrum-Roentgen-Gamma]] mission''
+* FWHM – (''instrumentation'') full width at half maximum, ''a telescope resolution''
+* FWZI – (''instrumentation'') full width at zero intensity, ''a telescopes resolution''
+
+== G ==
+* G – (''catalog'') Giclas, ''a catalog of nearby [[star]]s''
+* [[Gaia probe|GAIA]] – (''telescope'') Global Astrometric Interferometer for Astrophysics, ''a planned space telescope that will be used to make high-precision measurements of stars''
+* [[Galaxy Evolution Explorer|GALEX]] – (''telescope'') Galaxy Evolution Explorer, ''an [[ultraviolet]] space telescope''
+** GALEXASC [[Galaxy Evolution Explorer|GALaxy Evolution eXplorer]] all-sky catalog
+* [[Guide star Astrometric Support Package|GASP]] – (''software'') Guide star Astrometric Support Package
+* GAT – (''catalog'') AO (Gatewood+), ''catalog of G. Gatewood's observations''
+* [[Gamma-ray Burst Monitor|GBM]] - (instrumentation) Gamma-Ray Burst Monitor, a set of gamma ray detectors on the [[Fermi Gamma-ray Space Telescope|Fermi Gamma-Ray Space Telescope]]
+* [[Green Bank Telescope|GBT]] – (''telescope'') Green Bank Telescope
+* [[General Catalogue of Nebulae and Clusters|GC]] – (''catalog'') General Catalog, ''a catalog of clusters, nebulae, and galaxies created by [[John Herschel]] and now superseded by the [[New General Catalogue]]'', also [[globular cluster]]
+* [[Gamma Cassiopeiae variable|GCAS]] – (''celestial object'') Gamma CASsiopeiae, ''a class of eruptive [[variable stars]] named after [[Gamma Cassiopeiae]], the archetype for the class''
+* GCMS – (''instrumentation'') – Gas Chromatograph and Mass Spectrometer, ''an instrument on the [[Huygens probe]]''
+** also GC/MS
+* [[GRB Coordinates Network|GCN]] – (''organization'') GRB Coordinates Network
+* [[Cosmic ray|GCR]] – (''astrophysics terminology'') galactic cosmic rays
+* [[General Catalog of Variable|GCVS]] – (''catalog'') the General Catalog of Variable Stars
+* GD – (''catalog'') Giclas Dwarf, ''a catalog of [[white dwarf]]''
+* GDS – (''celestial object'') Great Dark Spot, ''a transient feature in the clouds of [[Neptune]]''
+* GEM – (''observing program'') galactic emission mapping
+* [[Galileo spacecraft|GEM]] – (''observing program'') Galileo Europa Mission, ''the science observation program of [[Europa (moon)|Europa]] performed by the [[Galileo spacecraft]]''
+* [[Giotto mission|GEM]] – (''observing program'') Giotto Extended Mission, ''the extended operations of the [[Giotto spacecraft]]''
+* GEMS – (''organization'') Group Evolution Multi-wavelength Study
+* GEMS – (''survey'') Galaxy Evolution from Morphology and Spectral energy distributions
+* [[GEMSS]] – (''organization'') Global Exoplanet M-dwarf Search-Survey, ''a search for [[Extrasolar planet|exoplanets]] around m-dwarf stars''
+* [[Ground-based Electro-Optical Deep Space Surveillance|GEODDS]] – (''telescope'') Ground-based Electro-Optical Deep Space Surveillance, ''a network of telescopes used in a [[United States Air Force]] program for observing [[space debris|space junk]]''
+* GEOS – (''organization'') Groupe Européen Observations Stellaires, an amateur and professional association for study of variable stars.
+* [http://gerlumph.swin.edu.au/ GERLUMPH] – (''instrumentation'') GPU-Enabled, High Resolution MicroLensing Parameter survey, where GPU is an acronym for Graphics Processing Unit.
+* GH – (''catalog'') Giclas Hyades, ''a catalog of stars in the [[Hyades (star cluster)|Hyades cluster]]''
+* [[Goddard High Resolution Spectrograph|GHRS]] – (''instrumentation'') Goddard High Resolution Spectrograph, ''a [[spectrograph]] on the [[Hubble Space Telescope]]''
+** ''also'' HRS
+* [[Gruppo Italiano Astrometristi|GIA]] – (''organization'') Gruppo Italiano Astrometristi
+* [[Global Imaging Monitor of the Ionosphere|GIMI]] – (''instrumentation'') Global Imaging Monitor of the Ionosphere, ''an [[ultraviolet]] imager on the [[Advanced Research and Global Observation Satellite]]''
+* [[Gravitationally-interacting massive particles|GIMP]] – (''celestial object'') gravitationally interacting massive particle, ''a particle that may explain [[dark matter]] in the universe''
+* [[Gliese–Jahreiß catalogue#Gl, GJ, Wo|GJ]] – (''catalog'') [[Wilhelm Gliese|Gliese]] & [[Hartmut Jahreiß|Jahreiß/Jahreiss]] nearby star catalog
+* [[Gliese–Jahreiß catalogue#Gl, GJ, Wo|GL]] – (''catalog'') [[Wilhelm Gliese|Gliese]] nearby star catalog
+* [[Gamma-ray Large Area Space Telescope|GLAST]] – (''telescope'') Gamma-ray Large Area Space Telescope
+* [[Galactic Legacy Infrared Mid-Plane Survey Extraordinaire|GLIMPSE]] – (''observing program'') Galactic Legacy Infrared Mid-Plane Survey Extraordinaire
+* [[Giant molecular cloud|GMC]] – (''celestial object'') Giant molecular cloud
+* GMF – (''celestial object'') Galactic magnetic field
+* [[Giant Metrewave Radio Telescope|GMRT]] – (''telescope'') – Giant Metrewave Radio Telescope - Pune, India
+* [[Giant Magellan Telescope|GMT]] – (''telescope'') – Giant Magellan Telescope, ''a telescope being built by a US-Australian collaboration''
+* [[Global Oscillation Network Group|GONG]] – (''organization'') Global Oscillation Network Group, ''an organization that monitors oscillations in the [[Sun]]''
+* GOLD [[Global-scale Observations of the Limb and Disk]]
+* [[Great Observatories Origins Deep Survey|GOODS]] – (''survey'') Great Observatories Origins Deep Survey ''a survey of various redshifts to study [[Galaxy formation and evolution|galactic formation and evolution]]''
+* GP – (''astrophysics terminology'') giant pulses, ''a type of observed pulse emission from [[pulsar]]s''
+* GPS – (''astrophysics teminology'') GHz-peaked spectrum, ''the radio or [[microwave]] [[spectrum|spectra]] of some [[galaxies]]''
+* [[General relativity|GR]] – (''astrophysics terminology'') general relativity
+* GR – (''catalog'') Giclas Red dwarf, ''a catalog of [[red dwarf]]s''
+* [[Gamma ray burst|GRB]] – (''celestial object'') gamma ray burst
+* [[Compton Gamma Ray Observatory|GRO]] – (''telescope'') Gamma Ray Observatory, ''another name for the [[Compton Gamma Ray Observatory]]''
+* [[Gamma Ray Burst Optical Counterparts Search Experiment|GROSCE]] – (''telescope'') Gamma Ray Burst Optical Counterparts Search Experiment, ''an automated telescope used to detect the optical counterparts to [[gamma ray burst]]s''
+* [[Gamma Ray Spectrometer (2001 Mars Odyssey)|GRS]] – (''instrumentation'') Gamma Ray Spectrometer, ''an instrument on the [[Mars Observer]]''
+* [[Great Red Spot|GRS]] – (''celestial object'') Great Red Spot, ''a feature in the clouds of [[Jupiter]]''
+* [[Guide Star Catalog|GSC]] – (''catalog'') Guide Star Catalog, ''a catalog of stars used for pointing the [[Hubble Space Telescope]]''
+* [[Guide Star Catalog II|GSC2]] – (''catalog'') Guide Star Catalog version 2, ''a catalog of stars used for pointing the [[Hubble Space Telescope]]''
+** ''also'' GSC II
+* [[Goddard Space Flight Center|GSFC]] – (''organization'') Goddard Space Flight Center, ''a [[NASA]] institution''
+* [[Guide Star Photometric Catalog|GSPC]] – (''catalog'') Guide Star Photometric Catalog, ''a catalog of stars with precisely measured fluxes used to calibrate the [[Guide Star Catalog]]''
+* [[Gran Telescopio Canarias|GTC]] – (''telescope'') Gran Telescopio Canarias, the 10.4 m reflecting telescope on the island of [[La Palma]], [[Canary Islands]], Spain
+
+== H ==
+* [[Herbig Ae/Be stars|HAeBe]] – (''celestial object'') Herbig AeBe star, ''a type of [[pre–main sequence star]] with strong [[spectral line|spectral emission lines]]''
+** HAe – (''celestial object'') Herbig Ae star
+** HBe – (''celestial object'') Herbig Be star
+* [[HALCA]] – (''telescope'') Highly Advanced Laboratory for Communications and Astronomy, ''a satellite that is part of the [[VLBI Space Observatory Program]], a Japanese [[radio astronomy]] project''
+* [[High Altitude Observatory|HAO]] – (''organization'') high-altitude observatory
+* [[High Accuracy Radial Velocity Planet Searcher|HARPS]] – (''instrumentation'') High Accuracy Radial velocity Planet Searcher, ''a high-precision [[spectrograph]] installed on the [[ESO 3.6m telescope]]''
+* HASI – (''instrumentation'') Huygens Atmosphere Structure Instrument, ''an instrument on the [[Huygens probe]]''
+* [[Horizontal branch|HB]] – (''celestial object'') horizontal branch, ''a type of evolved [[red giant|red giant star]] in which helium is burned in the core and hydrogen is burned in a shell around the core''
+* [[HBRP]] – (''celestial object'') High-magnetic field radio pulsar
+* [[Hamburg–Bergedorf Variables|HBV]] – (''catalog'') Hamburg–Bergedorf Variables, ''a catalog of [[variable star]]s''
+* HBMM – (''astrophysics terminology'') Hydrogen-burning minimum mass
+* HCG [[Hickson Compact Group]]
+* [[Harvard College Observatory|HCO]] – (''organization'') Harvard College Observatory
+* [[Heliospheric current sheet|HCS]] – (''celestial object'') heliospheric current sheet, ''the boundary where the polarity of the Sun's magnetic field changes direction''
+* [[Henry Draper Catalogue|HD]] – (''catalog'') Henry Draper, ''a catalog of [[star]]s''
+* HDE – (''catalog'') Henry Draper Extension, ''a catalog of [[star]]s''
+* [[Hubble Deep Field|HDF]] – (''data''/''celestial object'') Hubble Deep Field, ''an area of the sky with little foreground obscuration that was observed deeply with the [[Hubble Space Telescope]]; also the name for the data product itself''
+** HDFS [[Hubble Deep Field South]]
+* [[Hot dark matter|HDM]] – (''astrophysics terminology'') hot dark matter, any 
+model for structure formation in the universe that characterizes [[neutrino]]s as [[dark matter]]
+* [[High Dispersion Spectrograph|HDS]] – (''instrumentation'') High Dispersion Spectrograph, ''a [[spectrograph]] on the [[Subaru Telescope]]''
+* [[Hamburg/ESO Survey|HE]] – (''catalog'') Hamburg/ESO Survey
+* [[High Energy Astronomical Observatory|HEAO]] – (''telescope'') High Energy Astronomical Observatory, ''a series of [[X-ray]] and [[gamma ray]] space telescopes''
+* [[High Energy Astrophysics Science Archive Research Center|HEASARC]] – (''organization'') High Energy Astrophysics Science Archive Research Center, ''a [[NASA]] organization that deals with [[X-ray]] and [[gamma ray]] telescope data''
+* [[High Energy Stereoscopic System|HESS]] – (''telescope'') High Energy Stereoscopic System, ''a telescope for detecting [[cosmic ray]]s''
+* HET [[Hobby–Eberly Telescope]]
+* [[High Energy Transient Explorer|HETE]] – (''telescope'') High Energy Transient Explorer, ''a space telescope that performs multi-wavelength observations of [[gamma ray burst]]s''
+* [[Frequency|HF]] – (''astrophysics terminology'') High frequency
+* [[High-gain antenna|HGA]] – (''instrumentation'') High gain antenna
+* [[Herbig–Haro object|HH]] – (''celestial object'') Herbig–Haro object, ''objects formed when the ejecta from new [[star]]s collides with the [[interstellar medium]]''
+** ''also'' [[Herbig–Haro object|HHO]]
+* HIC – (''catalog'') HIPPARCOS Input Catalog, ''a catalog of data for the first target [[star]]s selected for observation by the [[Hipparcos]] ''
+* HICAT – (''catalog'') HIPASS catalog, ''a catalog of [[hydrogen line|HI]] sources, see also NHICAT''
+* HID – (''astrophysics terminology'') – hardness–intensity diagram, ''a type of [[color magnitude diagram]] used in [[X-ray astronomy|X-ray]] and [[gamma ray astronomy]]''
+* [[Hipparcos|HIP]] – (''catalog'') HIPPARCOS, ''the catalog of data produced by [[Hipparcos]]''
+* [[HIPASS]] – (''Observing program'') HI Parkes All-Sky Survey, ''survey of [[Hydrogen line|HI sources]]''
+* [[Hipparcos|HIPPARCOS]] – (''telescope'') HIgh Precision PARallax COllecting Satellite, ''a space telescope specifically designed to measure distances to [[star]]s using [[parallax]]''
+* [[HI Self-Absorption|HISA]] – (''astrophysical terminology'') HI self-absorption region
+* [[HK Survey|HK]] – (''catalog'') Survey for metal-poor stars based on the strength of CaII H and K absorption lines
+* [[Hyperluminous infrared galaxy|HLIRG]] – (''celestial object'') Hyperluminous infrared galaxy, ''a [[galaxy]] that is brighter than 10<sup>13</sup> [[solar luminosities]] in the [[infrared]]''
+* HMC – (''instrumentation'') Halley Multicolor Camera, ''an instrument on the [[Giotto mission|Giotto spacecraft]]''
+* HMPO – (''celestial object'') High-mass [[protostar|proto-stellar]] object
+* [[High-mass X-ray binary|HMXB]] – (''celestial object'') High-mass x-ray binary, ''an [[x-ray]]-luminous binary system consisting of a [[compact star]] and a [[Supergiant|massive star]]''
+* HOPS [http://www.hops.org.au The H2O southern Galactic Plane Survey]
+* [[High proper motion star|HPMS]] – (''celestial object'') high proper motion star, ''a star with high [[proper motion]]''
+* [[Hoffleit Bright Star catalog|HR]] – (''catalog'') Hoffleit Bright Star
+* [[Hertzsprung–Russell diagram|HR]] – (''astrophysics terminology'') Hertzsprung–Russell, ''a diagram that compares stars' colors to their luminosities''
+* [[High Resolution Camera|HRC-I]] – (''instrumentation'') High Resolution Camera, ''an instrument on the [[Chandra X-Ray Observatory]]''
+* [[High Rate Detector|HRD]] – (''instrumentation'') High Rate Detector, ''an instrument on the [[Cassini spacecraft]]''
+* [[High Resolution Microwave Survey|HRMS]] – (''observing program'') High Resolution Microwave Survey, ''a survey for [[microwave]] signals from [[extraterrestrial intelligence]]''
+* [[High Resolution Imager|HRI]] – (''instrumentation'') High Resolution Imager, ''an instrument on the [[ROSAT]] telescope''
+* [[High Speed Photometer|HSP]] – (''instrumentation'') High Speed Photometer, ''an instrument formerly on the [[Hubble Space Telescope]]''
+* [[Hubble Space Telescope|HST]] – (''telescope'') Hubble Space Telescope
+* [[High Time Resolution Astrophysics|HTRA]] – (''astrophysics terminology'') High time-resolution astrophysics, ''the observations of phenomena that vary on timescales of one second or less''
+* [[Hopkins Ultraviolet Telescope|HUT]] – (''telescope'') Hopkins Ultraviolet Telescope, ''an ultraviolet telescope that operated from the cargo bay of the [[Space Shuttle]]''
+* [[High-velocity cloud#High-velocity cloud|HVC]] – (''celestial object'') high-velocity cloud, ''an interstellar cloud with a velocity that is too high to be explained by galactic rotation''
+* [[Hard X-Ray Detector|HXD]] – (''instrumentation'') Hard X-ray Detector, ''an instrument on the [[ASTRO-E|Suzaku]] space telescope''
+* [[Hypervelocity star|HVS]] – (''celestial object'') hypervelocity star ''or'' high velocity star
+
+== I ==
+* [[Instituto de Astrofisica de Canarias|IAC]] – (''organization'') Instituto de Astrofisica de Canarias
+* [[International Amateur/Professional Photoelectric Photometry|IAPPP]] – (''organization'') International Amateur/Professional Photoelectric Photometry
+* [[Istituto di Astrofisica Spaziale|IAS]] – (''organization'') Istituto di Astrofisica Spaziale
+* [[International Active Sun Year|IASY]] – (''observing program'') International Active Sun Year, ''the name given to a series of coordinated [[Sun]]-related observational programs performed in 1969 and 1971''
+* [[International Astronomical Union|IAU]] – (''organization'') International Astronomical Union
+* [[IAU Circular|IAUC]] – (''publication'') IAU Circular
+* [[International Astronomical Youth Camp|IAYC]] – (''meeting'') International Astronomical Youth Camp
+* IBAS – (''instrumentation'') – INTEGRAL Burst Alert System, ''an instrument on the [[INTEGRAL]] satellite''
+* IBIS – (''instrumentation'') – Imager on Board the INTEGRAL Satellite, ''an instrument on the [[INTEGRAL]] satellite''
+* [[Information Bulletin on Variable Stars|IBVS]] – (''publication'') Information Bulletin on Variable Stars
+* [[Index Catalogue|IC]] – (''catalog'') Index Catalog
+* IC – (''celestial object'') Intracluster, ''either the regions between stars in [[star cluster]]s or the region between galaxies in [[galaxy cluster]]s''
+* [[International Comet Explorer|ICE]] – (''spacecraft'') International Comet Explorer
+* [[Intracluster medium|ICM]] – (''celestial object'') intracluster medium, ''is the superheated gas present at the center of a galaxy cluster''
+* [[International Comet Quarterly|ICQ]] – (''publication'') International Comet Quarterly
+* [[International Celestial Reference Frame|ICRF]] – (''astrophysics terminology'') International Celestial Reference Frame, ''a coordinate system based on radio sources used to define the locations of objects in the sky''
+* [[International Celestial Reference System|ICRS]] – (''astrophysics terminology'') International Celestial Reference System, ''a coordinate system based on [[Hipparcos]] observations used to define the locations of objects in the sky''
+* [[International Dark-Sky Association|IDA]] – (''organization'') International Dark-Sky Association, ''an organization that seeks to control [[light pollution]]''
+* [[Cosmic dust|IDP]] – (''celestial object'') Interplanetary Dust Particle, ''dust particles around planets or planetary bodies''
+* [[Index Catalog of Double Stars|IDS]] – (''catalog'') Index Catalog of Double Stars
+* IEO – (''astrophysics terminology'') inner-Earth object, ''the orbits of [[asteroid]]s''
+* [[International Earth Rotation Service|IERS]] – (''organization'') International Earth Rotation geophysical Service ''or'' International Earth rotation and Reference systems Service, ''an organization that monitors the Earth's orientation with respect to the radio sources used to define the [[International Celestial Reference Frame|ICRF]]''
+* [[Institute for Astronomy|IfA]] – (''organization'') Institute for Astronomy, ''the astronomy research division of the [[University of Hawaii]]''
+* [[Integrated flux nebulae|IFN]] – (''celestial object'') integrated flux nebulae, ''dust and gas outside the plane of the Milky Way, which are thus illuminated by the entire galaxy as opposed to a nearby star or stars''
+* [[Intergalactic medium|IGM]] – (''celestial object'') intergalactic medium
+* IGR – (''catalog'') Integral Gamma-Ray source, ''a catalog based on observations by the [[INTEGRAL]] telescope''
+* [[International Geophysical Year|IGY]] – (''observing program'') International Geophysical Year, ''the name given to a series of coordinated geophysical and astronomical observation programs performed in 1957 and 1958''
+* [[International Halley Watch|IHW]] – (''organization'') International Halley Watch, ''an organization created to coordinate observations of [[Halley's Comet]] in 1986''
+* [[In-situ Lunar Orientation Measurement|ILOM]] – (''spacecraft'') In-situ Lunar Orientation Measurement, ''a mission to measure variations in the orientation of the [[Moon]] from the Moon's surface''
+* [[IMAGE]] - [[Imager for Magnetopause-to-Aurora Global Exploration]]
+* [[Intermediate-mass black hole|IMBH]] – (''celestial object'') intermediate mass black hole
+* [[Initial mass function|IMF]] – (''astrophysics terminology'') initial mass function, ''the relative numbers of stars of different masses that form during [[star formation]]''
+* [[International Meteor Organization|IMO]] – (''organization'') International Meteor Organization
+* [[International Monitoring Programs for Asteroid and Comet Threat|IMPACT]] – (''meeting'') International Monitoring Programs for Asteroid and Comet Threat
+* [[IRAS Minor Planet Survey|IMPS]] – (''observing program'') IRAS Minor Planet Survey
+* [[Institut National d'Astronomie et de Geophysique|INAG]] – (''organization'') Institut National d'Astronomie et de Geophysique
+* [[Isaac Newton Group of Telescopes|ING]] – (''organization'') Isaac Newton Group of Telescopes
+* INS – (''celestial object'') Isolated [[Neutron star|Neutron Star]]
+* [[Isaac Newton Telescope|INT]] – (''telescope'') Isaac Newton Telescope
+* [[INTEGRAL]] – (''telescope'') INTErnational Gamma-Ray Astrophysics Laboratory, ''a [[gamma-ray]] space telescope''
+* [[Institute of Astronomy, Cambridge|IoA]] – (''organization'') Institute of Astronomy, ''an astronomy research department at [[Cambridge University]]''
+* [[Infrared Optical Telescope Array|IOTA]] – (''telescope'') Infrared Optical Telescope Array
+* [[International Occultation Timing Association|IOTA]] – (''organization'') International Occultation Timing Association, ''an organization for monitoring [[occultation]]s''
+* [[Infrared Processing & Analysis Center|IPAC]] – (''organization'') Infrared Processing & Analysis Center
+* IPMO – (''celestial object'') Isolated Planetary Mass Objects, ''another name for isolated [[planemo]]s or [[sub-brown dwarf]]s''
+* [[International Quiet Sun Year|IQSY]] – (''observing program'') International Quiet Sun Year, ''the name given to a series of coordinated [[Sun]]-related observational programs performed in 1964 and 1965''
+* [[Infrared|IR]] – (''astrophysics terminology'') InfraRed
+* [[Spitzer Space Telescope#Instruments|IRAC]] – (''instrumentation'') Infrared Array Camera, ''a [[infrared|mid-infrared]] imager on the [[Spitzer Space Telescope]]''
+* [[Image Reduction and Analysis Facility|IRAF]] – (''software'') Image Reduction and Analysis Facility, ''a general-purpose professional data-processing package''
+* IRAIT – (''telescope'') – International Robotic Antarctic Infrared Telescope
+* [[Institut de Radio Astronomie Millimetrique|IRAM]] – (''organization'') Institut de Radio Astronomie Millimetrique
+* [[Infrared Astronomical Satellite|IRAS]] – (''telescope''/''catalog'') InfraRed Astronomical Satellite, ''an [[infrared]] space telescope; also the catalog produced using the telescope's data''
+* [[InfraRed Camera and Spectrograph|IRCS]] – (''instrumentation'') InfraRed Camera and Spectrograph, ''an instrument on the [[Subaru Telescope]]''
+* IRDC – (''celestial object'') Infrared Dark Cloud
+* [[Spitzer Space Telescope#Instruments|IRS]] – (''instrumentation'') InfraRed Spectrograph, ''an [[infrared]] spectrometer on the [[Spitzer Space Telescope]]''
+* [[Infrared Science Archive|IRSA]] – (''organization'') Infrared Science Archive
+* [[Infrared Telescope Facility|IRTF]] – (''telescope'') InfraRed Telescope Facility
+* IRX - (''astrophysical terminology'') InfraRed Excess
+* [[Institute of Space and Astronautical Science|ISAS]] – (''organization'') Institute of Space and Astronautical Science
+* ISAS – (''organization'') Institute of Space and Atmospheric Studies, ''a research unit at the [[University of Saskatchewan]]''
+* [[International Sun-Earth Explorer (disambiguation)|ISEE]] – (''spacecraft'') International Sun-Earth Explorer, ''a series of spacecraft designed to study the effects of the [[Sun]] on the Earth's space environment and magnetosphere''
+* ISGRI – (''instrumentation'') – INTEGRAL Soft Gamma-Ray Imager, ''an instrument on the [[INTEGRAL]] satellite''
+* [[Interstellar medium|ISM]] – (''celestial object'') InterStellar Medium
+* [[International Supernovae Network|ISN]] – (''organization'') International Supernovae Network
+* [[Infrared Space Observatory|ISO]] – (''telescope'') Infrared Space Observatory
+* ISON [[International Scientific Optical Network]]
+* [[Ulysses probe|ISPM]] – (''spacecraft'') International Solar Polar Mission, ''another name for the [[Ulysses probe|Ulysses spacecraft]]''
+* [[Indian Space Research Organisation|ISRO]] – (''organization'') Indian Space Research Organisation
+* [[Infrared Sky Survey Atlas|ISSA]] – (''data'') Infrared Sky Survey Atlas, ''an atlas compiled from [[Infrared Astronomical Satellite]] data''
+* [[International Small Telescope Cooperative|ISTeC]] – (''organization'') International Small Telescope Cooperative
+* [[International Space Year|ISY]] – (''observing program''/''meeting'') International Space Year, ''the name given to a celebration of space exploration as well as a series of coordinated astronomical observations and a series of meetings to plan future astronomy research efforts''
+* [[Institute of Astronomy, Cambridge|ITA]] – (''organization'') Institute of Theoretical Astronomy, ''one of three organizations that was combined to form the [[Institute of Astronomy, Cambridge|Institute of Astronomy]]''
+* [[Inter-University Centre for Astronomy and Astrophysics|IUCAA]] – (''organization'') Inter-University Centre for Astronomy and Astrophysics - Pune, India
+* [[International Ultraviolet Explorer|IUE]] – (''telescope'') International Ultraviolet Explorer, ''an [[ultraviolet]] space telescope''
+* [[IUE satellite Data Analysis Center|IUEDAC]] – (''organization'') IUE satellite Data Analysis Center
+* [[International Workshop on Cometary Astronomy|IWCA]] – (''meeting'') International Workshop on Cometary Astronomy
+
+== J ==
+* [[Japan Astronomical Circular|JAC]] – (''publication'') Japan Astronomical Circular
+* [[Joint Astronomy Centre|JAC]] – (''organization'') Joint Astronomy Centre, ''the organization that operates the [[United Kingdom Infrared Telescope]] and the [[James Clerk Maxwell Telescope]]''
+* [[Japan Amateur Photoelectric Observers Association|JAPOA]] – (''organization'') Japan Amateur Photoelectric Observers Association
+* [[Japan Aerospace Exploration Agency|JAXA]] – (''organization'') Japan Aerospace eXploration Agency
+* JBO [[Jodrell Bank Observatory]] A radio observatory in England.
+* [[James Clerk Maxwell Telescope|JCMT]] – (''telescope'') James Clerk Maxwell Telescope
+* [[Julian date|JD]] – (''astrophysics terminology'') Julian Date, ''an alternative time commonly used in astronomy''
+* [[Joint European Telescope for X-ray astronomy|JET-X]] – (''telescope'') Joint European Telescope for X-ray astronomy
+* [[Journal of Geophysical Research|JGR]] – (''publication'') Journal of Geophysical Research
+* [[JILA]] – (''organization'') formerly Joint Institute for Laboratory Astrophysics
+* JIVE [[Joint Institute for VLBI in Europe]]
+* [[Jacobus Kapteyn Telescope|JKT]] – (''telescope'') Jacobus Kapteyn Telescope
+* [[Jet Propulsion Laboratory|JPL]] – (''organization'') Jet Propulsion Laboratory, ''a research center associated with [[NASA]]''
+* [[Japan Spaceguard Association|JSGA]] – (''telescope''/''organization'') Japan SpaceGuard Association, ''a Japanese telescope used to track near-Earth [[asteroid]]s and [[space debris|space junk]]''
+* [[James Webb Space Telescope|JWST]] – (''telescope'') James Webb Space Telescope, ''a planned space telescope that will supersede the [[Hubble Space Telescope]]''
+
+== K ==
+
+* [[Katzman Automatic Imaging Telescope|KAIT]] – (''telescope'') Katzman Automatic Imaging Telescope
+* [[Kuiper Airborne Observatory|KAO]] – (''telescope'') Kuiper Airborne Observatory
+* [[Kuiper belt object|KBO]] – (''celestial object'') Kuiper belt object
+* [[Kumamoto Civil Astronomical Observatory|KCAO]] – (''organization'') Kumamoto Civil Astronomical Observatory
+* KIC – (''catalog'') [[Kepler Input Catalog]], ''a catalog of stars with potential extrasolar planets to be observed by the [[Kepler Mission]]''
+* [[Kitt Peak National Observatory|KPNO]] – (''organization'') Kitt Peak National Observatory
+
+== L ==
+* [[Lagrange point|L]] – (''astrophysics terminology'') Lagrange, ''[[Lagrange point]]s''
+* [[Luyten-Palomar proper motion catalogue#Proper motion catalogues|L]] – (''catalog'') Luyten, ''a catalog of [[proper motion]] measurements of [[star]]s''
+* LAD-C – (''instrumentation'') Large Area Debris Collector, ''a canceled program that was to collect and catalog low orbital dust on the [[International Space Station]]''
+* [[Laboratorio de Astrofisica Espacial y Fisica Fundamental|LAEFF]] – (''organization'') Laboratorio de Astrofisica Espacial y Fisica Fundamental, ''a Spanish astronomy research organization''
+* LAL – (''catalog'') LALande, ''a historical catalog of [[star]]s''
+* [[Large Sky Area Multi-Object Fiber Spectroscopic Telescope|LAMOST]] – (''telescope'') Large sky Area Multi-Object fiber Spectroscopic Telescope
+* [[Los Alamos National Laboratory|LANL]] – (''organization'') Los Alamos National Laboratory
+* [[Large Angle and Spectrometric Coronagraph|LASCO]] – (''instrumentation'') Large Angle and Spectrometric COronagraph, ''an instrument on the [[Solar and Heliospheric Observatory]]''
+* [[Laser]] – (''instrumentation'') light amplification by stimulated emission of radiation
+* LAT - (instrumentation) Large Area Telescope, on the [[Fermi Gamma-ray Space Telescope]]
+* LBN – (''catalog'') Lynds Bright Nebula, ''a catalog of [[Diffuse nebula|bright nebulae]]''
+* [[Lawrence Berkeley National Laboratory|LBNL]] – (''organization'') Lawrence Berkeley National Laboratory
+* [[Large Binocular Telescope|LBT]] – (''telescope'') Large Binocular Telescope
+* [[Luminous blue variable|LBV]] – (''celestial object'') luminous blue variable, ''a type of very bright [[variable star]]''
+* [[Lambda-CDM model|LCDM]] – (''astrophysics terminology'') Lambda cold dark matter, ''any model for structure formation in the universe that includes [[dark energy]]''
+** ''also'' ΛCDM
+* [[Las Cumbres Observatory Global Telescope|LCOGT]] network of autonomous robotic telescopes (2m, 1m and 40&nbsp;cm) at 7 sites in both hemispheres
+* [[Lunar Reconnaissance Orbiter|LCROSS]] – (''spacecraft'') Lunar CRater Observation and Sensing Satellite
+* [[Las Campanas Redshift Survey|LCRS]] – (''observing program'') Las Campanas Redshift Survey
+* LDN – (''catalog'') Lynds Dark Nebula, ''a catalog of [[dark nebula]]e''
+* LDN - (''celestial object'') large dark nebula, a large, wispy nebula made of neutral brown hydrogen gas.
+* LDS – (''catalog'') Luyten Double Star
+* [[Low Earth orbit|LEO]] – (''astrophysics terminology'') low Earth orbit
+* [[Large Earth-based Solar Telescope|LEST]] – (''telescope'') large Earth-based solar telescope
+* [[Low Energy Transmission Grating Spectrometer|LETGS]] – (''instrumentation'') Low Energy Transmission Gratings Spectrometer, ''an instrument on the [[Chandra X-Ray Observatory]]''
+** ''also'' LETG
+* [[Luminosity function|LF]] – (''astrophysics terminology'') luminosity function, ''the spatial density of objects such as [[star cluster]]s and [[galaxies]] as a function of their [[luminosity]]''
+* [[Luyten-Palomar proper motion catalogue#Proper motion catalogues|LFT]] – (''catalog'') Luyten Five-Tenths, ''a catalog of [[star]]s with [[proper motion]]s exceeding 0.5"''
+* LGA – (''instrumentation'') low-gain antenna
+* LGM – (''celestial object'') 	Little Green Men, ''a humorous name applied to [[pulsar]]s soon after their discovery''
+* [[Laboratory for High Energy Astrophysics|LHEA]] – (''organization'') Laboratory for High Energy Astrophysics
+* [[Luyten-Palomar proper motion catalogue#Proper motion catalogues|LHS]] – (''catalog'') Luyten Half-Second, ''a catalog of [[star]]s with [[proper motion]]s exceeding 0.5"''
+* [[Local Interstellar Cloud|LIC]] – (''celestial object'') Local Interstellar Cloud, ''the cloud in the [[interstellar medium]] through which the [[solar system]] is currently moving''
+* [[LIGO]] – (''telescope'') Laser Interferometer Gravitational Wave Observatory, ''an instrument for detecting [[gravitational wave]]s''
+* [[Lincoln Near-Earth Asteroid Research|LINEAR]] – (''observing program'') Lincoln Near-Earth Asteroid Research
+* [[Low ionization nuclear emission region|LINER]] – (''celestial object'') low-ionization nuclear emission region, ''a [[galaxy nucleus|galactic nucleus]] that is characterized by [[spectral line]] emission from weakly [[ion]]ized gas''
+* [[Luminous infrared galaxy|LIRG]] – (''celestial object'') luminous infrared galaxy, ''a galaxy that is between 10<sup>11</sup> and 10<sup>12</sup> [[solar luminosities]] in the [[infrared]]''
+* [[Laser Interferometer Space Antenna|LISA]] – (''telescope'') Laser Interferometer Space Antenna, ''a series of spacecraft that can be used to detect [[gravitational wave]]s''
+* [[Active galactic nucleus|LLAGN]] – (''celestial object'') low-luminosity active galactic nucleus, ''an [[active galactic nucleus]] with a low [[luminosity]]''
+* [[Lawrence Livermore National Laboratory|LLNL]] – (''organization'') Lawrence Livermore National Laboratory
+* [[Large Magellanic Cloud|LMC]] – (''celestial object'') Large Magellanic Cloud, ''an [[irregular galaxy]] near the [[Milky Way]]''
+* LMS – (''celestial object'') Lower [[main sequence]] star, ''the less massive hydrogen-burning [[main sequence|main-sequence star]]s''
+* [[Low-mass X-ray binary|LMXB]] – (''celestial object'') low-mass x-ray binary, ''an [[X-ray]]-luminous [[binary star|binary star system]] in which one of the stars is a [[neutron star]] or [[black hole]] that is stripping material away from the other star in the system''
+* [[Liquid nitrogen|LN2]] – (''instrumentation'') 1ogen
+* LOAN [[Longitude of ascending node]]
+* [[LOFAR]] – (''telescope'') LOw Frequency ARray, ''for radio astronomy''
+* [[Lowell Observatory Near-Earth Object Search|LONEOS]] – (''observing program'') Lowell Observatory Near-Earth Object Search
+* [[Lick Observatory Supernova Search|LOSS]] – (''observing program'') Lick Observatory Supernova Search
+* [[Livermore Optical Transient Imaging System|LOTIS]] – (''telescope'') Livermore Optical Transient Imaging System, ''a telescope designed to find the optical counterparts of [[gamma ray burst]]s''
+* [[Lick Observatory and Tenagra Observatory Supernova Searches|LOTOSS]] – (''observing program'') Lick Observatory and Tenagra Observatory Supernova Searches
+* [[Luyten-Palomar proper motion catalogue#Proper motion catalogues|LP]] – (''catalog'') Luyten Palomar, ''a catalog of [[proper motion]] measurements of [[star]]s ''
+* [[Lunar and Planetary Institute|LPI]] – (''organization'') Lunar and Planetary Institute
+* [[Lunar and Planetary Laboratory|LPL]] – (''organization'') Lunar and Planetary Laboratory, ''the planetary science department of the [[University of Arizona]]''
+* [[La Palma Observatory|LPO]] – (''organization'') La Palma Observatory
+* [[Variable star|LPV]] – (''celestial object'') Long Period Variable, ''a type of [[variable star]] that changes in brightness slowly over time''
+* [[Luminous red galaxy|LRG]] – (''celestial object'') luminous red galaxy, ''a dataset of galaxies from the [[Sloan Digital Sky Survey]] that were selected on the basis of their red colors''
+* [[Lunar Reconnaissance Orbiter|LRO]] – (''spacecraft'') Lunar Reconnaissance Orbiter
+* [[Local standard of rest|LSR]] – (''astrophysics terminology'') local standard of rest, ''the frame of reference with a [[velocity]] equal to the average velocity of all the [[star]]s in the solar neighborhood, including the [[Sun]]''
+* [[Large Synoptic Survey Telescope|LSST]] – (''telescope'') Large Synoptic Survey Telescope
+* [[Local sidereal time|LST]] – (''astrophysics terminology'') local sidereal time, ''the [[right ascension]] that is currently at the [[zenith]]''
+* [[Liverpool Telescope|LT]] – (''telescope'') Liverpool Telescope
+* [[Thermodynamic equilibrium|LTE]] – (''astrophysics terminology'') Local Thermodynamic Equilibrium, ''a state where variations in temperature, pressure, etc. do not vary on small scales''
+* [[Lunar Transient Phenomena|LTP]] – (''astrophysics terminology'') Lunar Transient Phenomenon, ''an observed event (such as a flash of light) on the surface of the [[Moon]]''
+* [[Luyten-Palomar proper motion catalogue#Proper motion catalogues|LTT]] – (''catalog'') Luyten Two-Tenths, ''a catalog of [[proper motion]] measurements for [[star]]s''
+
+== M ==
+* [[Multi-object Apache Point Observatory Radial Velocity Exoplanet Large-area Survey|MARVEL]] – (''project'') Multi-object Apache Point Observatory Radial Velocity Exoplanet Large-area Survey, ''a NASA-funded project to search for [[exoplanet]]s''
+* [[Messier object|M]] – (''catalog'') Messier
+* [[Mira variable|M]] – (''celestial object'') Mira, ''a class of long period pulsating [[variable star]]s named after [[Mira]], the archetype for the class''
+* [[Multi instrument Aircraft Campaign|MAC]] – (''observing program'') Multi-instrument Aircraft Campaign, ''a program to study the cometary dust from the [[Leonids]] [[meteor shower]]s''
+* [[Massive compact halo object|MACHO]] – (''celestial object''/''observing program''/''catalog'') MAssive Compact Halo Object, ''an object in the [[Milky Way]]'s [[Galactic halo|halo]] thought to comprise part of the galaxy's [[dark matter]]; also a survey to detect these sources through [[gravitational lensing]] and the catalog of sources detected by the survey''
+* [[Magellanic Catalogue of Stars|MACS]] (''catalogue'') Magellanic Catalogue of Stars
+* [[MAGIC (telescope)|MAGIC]] – (''telescope'') Major Atmospheric Gamma-ray Imaging Cherenkov telescope
+* MALT Millimetre Astronomy Legacy Team – including [http://malt90.bu.edu/indexMALT90] and MALT45
+* [[Wilkinson Microwave Anisotropy Probe|MAP]] – (''telescope'') Microwave-background Anisotropy Probe, ''an older name for the [[Wilkinson Microwave Anisotropy Probe]]''
+* [[Astrophysical maser|MASER]] – (''astrophysics terminology'') microwave amplification by stimulated emission of radiation, ''[[microwave]] emission that is similar to the optical emission from a [[laser]]''
+* MAVEN [[Mars Atmosphere and Volatile EvolutioN]]
+* [[Main-belt Asteroid|MBA]] – (''celestial object'') main belt asteroid
+* [[Black hole|MBH]] – (''celestial object'') massive black hole
+* [[Morphological Catalogue of Galaxies|MCG]] – (''catalog'') Morphological Catalog of Galaxies
+* [[Mars Climate Orbiter|MCO]] – (''spacecraft'') Mars Climate Orbiter
+* [[Medium Deep Survey|MDS]] – (''observing program'') Medium Deep Survey, ''a survey of high-[[redshift]] galaxies with the [[Hubble Space Telescope]]''
+* [[Magnetospheric eternally collapsing object|MECO]] – (''celestial object'') magnetospheric eternally collapsing object, ''a type of object proposed as an alternative to [[supermassive black hole]]s as the central compact source within [[active galactic nuclei]]''
+* [[MEPAG]] – (''organization'') Mars Exploration Program Analysis Group
+* [[Meeting of European Planetary and Cometary Observers|MEPCO]] – (''meeting'') Meeting of European Planetary and Cometary Observers
+* [[Mars Exploration Rover|MER]] – (''spacecraft'') Mars Exploration Rover
+* MERLIN [[MERLIN|Multi Element Radio Linked Interferometer]]. A seven-telescope radio interferometer
+* MESSENGER [[MErcury Surface, Space ENvironment, GEochemistry and Ranging]]
+* [[Millennium Galaxy Catalogue|MGC]] – (''catalog/observing program'') Millennium Galaxy Catalogue
+* [[Mars Global Surveyor|MGS]] – (''spacecraft'') Mars Global Surveyor
+* [[Magnetohydrodynamics|MHD]] – (''astrophysics terminology'') MagnetoHydroDynamic
+* [[Multiyear Interactive Computer Almanac|MICO]] – (''software'') Multi-year Interactive Computer Almanac, ''astronomy almanac software created by the [[United States Naval Observatory]]''
+* MIDI [[MIDI|MID-Infrared instrument]]. A mid-infrared instrument of the [[VLTI]]
+* [[Spitzer Space Telescope#Instruments|MIPS]]  (''instrumentation'') Multi-band Imaging Photometer, ''an instrument on the [[Spitzer Space Telescope]]''
+* [[MIRI (Mid-Infrared Instrument)|MIRI]] –  (''instrumentation'') Mid-Infrared Instrument, ''an instrument on'' the ''James Webb Telescope''
+* [[Julian Date|MJD]] – (''astrophysics terminology'') Modified Julian Date, ''the [[Julian date]] minus 2400000.5''
+* [[Mount Laguna Observatory|MLO]] – (''organization'')
+* MMO – (''spacecraft'') Mercury Magnetospheric Orbiter, ''[[JAXA]] space probe to [[Mercury (planet)|Mercury]]''
+* [[Orbital resonance#Mean-motion resonances in the Solar System|MMR]] – (''astrophysics terminology'') Mean-Motion Resonance
+* MMS [[Magnetospheric Multiscale Mission]]
+* MMSN [[Minimum Mass Solar Nebula]]
+* [[Multiple Mirror Telescope|MMT]] – (''telescope'') Multiple Mirror Telescope
+* [[Monthly Notices of the Royal Astronomical Society|MNRAS]] – (''publication'') Monthly Notices of the Royal Astronomical Society
+* [[Mars Observer|MO]] – (''spacecraft'') Mars Observer
+* [[Microlensing Observations in Astrophysics|MOA]] – (''observing program'') Microlensing Observations in Astrophysics, ''a survey searching for [[gravitational lens]]es''
+* [[Mars Observer Camera|MOC]] – (''instrumentation'') Mars Observer Camera, ''an instrument on the [[Mars Observer]]''
+* [[Minimum orbit intersection distance|MOID]] – (''astrophysics terminology'') minimum orbit intersection distance, ''the minimum distance between two objects' orbital paths''
+* [[Mars Observer Laser Altimeter|MOLA]] – (''instrumentation'') Mars Observer Laser Altimeter, ''an instrument on the [[Mars Observer]] used to study [[Mars]]'s [[topology]]''
+* [[Modified Newtonian dynamics|MOND]] – (''astrophysics terminology'') modified Newtonian dynamics
+* MONS – (''telescope'') Measuring Oscillations in Nearby Stars, ''a Danish space telescope that was proposed and designed but not built''<ref>{{cite journal|url=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2003AdSpR..31..363K&amp;db_key=AST&amp;data_type=HTML&amp;format=&amp;high=44cedd215811186 |title=A Danish space project: MONS - measuring oscillations in nearby stars |journal=Advances in Space Research |volume=31 |issue=2 |pages=363–370 |date=2003 |doi=10.1016/S0273-1177(02)00627-0 |accessdate=2013-10-14|bibcode = 2003AdSpR..31..363K |last1=Kjeldsen |first1=H. |last2=Christensen-Dalsgaard |first2=J. |last3=Bedding |first3=T.R. }}</ref>
+* [[Microvariability and Oscillations of STars telescope|MOST]] – (''telescope'') Microvariability and Oscillations of STars, ''a space telescope designed to detect oscillations in the atmospheres of stars and [[extrasolar planets]]s in orbit around other stars''
+* [[Molonglo Observatory Synthesis Telescope|MOST]] – (''telescope'') Molonglo Observatory Synthesis Telescope, ''an Australian [[radio telescope]]''
+* [[Maui Optical Tracking and Identification Facility|MOTIF]] – (''telescope'') Maui Optical Tracking and Identification Facility
+* [[Monitoring X-ray Experiment|MOXE]] – (''instrumentation'') Monitoring X-ray Experiment, ''an [[X-ray]] all-sky monitor designed for the [[Spectrum-X-Gamma]] satellite''
+* [[Minor Planet Circulars|MPC]] – (''publication'') Minor Planet Circulars (''also called'' Minor Planets and Comets)
+* [[Minor Planet Electronic Circular|MPEC]] – (''publication'') Minor Planet Electronic Circular
+* [[Mars Pathfinder|MPF]] – (''spacecraft'') Mars PathFinder
+* [[Mars Polar Lander|MPL]] – (''spacecraft'') Mars Polar Lander
+* MPO – (''space craft'') Mercury Planetary Orbiter, ''[[ESA]] space craft to [[Mercury (planet)|Mercury]]''
+* MPP – (''instrumentation'') Multi-Pinned-Phase, ''[[Charge coupled device|CCD]] technology that reduces [[dark current (physics)|dark current]] noise''
+* [[Minor Planet Circulars Supplement|MPCS]] – (''publication'') Minor Planet Circulars Supplement
+* [[Microlensing Planet Search|MPS]] – (''observing project'') Microlensing Planet Search, ''a program designed that detect [[extrasolar planet]]s using a [[gravitational lens|gravitational lensing technique]]''
+* [[Magnetorotational instability|MRI]] – (''astrophysics term'') magnetorotational instability, a local instability in the accretion disks which only requires weak magnetic field and dΩ<sup>2</sup>/dR<0
+* MRK [[Markarian galaxies]]
+* [[Mars Reconnaissance Orbiter|MRO]] – (''spacecraft'') Mars Reconnaissance Orbiter
+* MSL [[Mars Science Laboratory]]
+* [[pulsar|MSP]] – (''celestial object'') millisecond pulsar
+* [[Maui Space Surveillance Site|MSSS]] – (''organization'') Maui Space Surveillance Site
+* [[Midcourse Space Experiment|MSX]] – (''telescope'') Midcourse Space EXperiment, ''an [[infrared]] space telescope''
+* [[Mount Stromlo and Siding Spring Observatories|MSSSO]] – (''organization'') Mount Stromlo and Siding Spring Observatories
+* [[MUnich Near-Infrared Cluster Survey|MUNICS]] – (''observing program'') MUnich Near-Infrared Cluster Survey
+* [[Mu Space Engineering Spacecraft|MUSES]] – (''spacecraft'') MU Space Engineering Spacecraft, ''a Japanese science-related spacecraft launched in a [[Mu (rocket)|Mu rocket]]''
+* [[MUSTANG (camera)|MUSTANG]] – (''instrumentation'') Multiplexed SQUID TES Array at Ninety GHz, ''A bolometer camera on the [[Green Bank Telescope]].''
+* MUSYC – (''observing program'') Multi-wavelength Survey by Yale-Chile
+* [[Milky Way|MW]] – (''celestial object'') Milky Way
+* [[Magnetic white dwarf|MWD]] – (''celestial object'') magnetic white dwarf
+* [[High-mass X-ray binary|MXRB]] – (''celestial object'') massive x-ray binary, ''an [[x-ray]]-luminous binary system consisting of a [[compact star]] and a very massive star''
+* [[Massive young stellar object|MYSO]] – (''celestial object'') massive young stellar object
+
+== N ==
+* [[Nova|N]] – (''celestial object'') nova
+* [[National Advisory Committee on Aeronautics|NACA]] – (''organization'') National Advisory Committee on Aeronautics, ''the older name for [[NASA]]''
+* [[North American Meteor Network|NAMN]] – (''organization'') North American Meteor Network
+* [[National Astronomical Observatory of Japan|NAOJ]] – (''organization'') National Astronomical Observatory of Japan
+* [[Norsk Astronomisk Selskap|NAS]] – (''organization'') Norsk Astronomisk Selskap, ''the Norwegian name for the [[Norsk Astronomisk Selskap|Norwegian Astronomical Society]]''
+* [[NASA]] – (''organization'') National Aeronautics and Space Administration
+* [[National Space Development Agency|NASDA]] – (''organization'') NAtional Space Development Agency
+* [[National Institute of Standards and Technology|NBS]] – (''organization'') National Bureau of Standards, ''an older name for the [[National Institute of Standards and Technology]]''
+* NCT –  (''telescope'') Nuclear Compton Telescope – a balloon-borne soft gamma-ray (0.2-15 MeV) telescope.
+* [[Near Earth Asteroid Prospector|NEAP]] – (''spacecraft'') Near Earth Asteroid Prospector, ''a space probe used to study a [[near-Earth asteroid]]''
+* [[Near Earth Asteroid Rendezvous|NEAR]] – (''spacecraft'') Near Earth Asteroid Rendezvous, ''a space probe used to study a [[near-Earth asteroid]]''
+* [[Near-Earth Asteroid Tracking|NEAT]] – (''observing program'') Near-Earth Asteroid Tracking
+* [[NASA/IPAC Extragalactic Database|NED]] – (''software'') NASA/IPAC Extragalactic Database
+* [[Near-Earth asteroid|NEO]] – (''celestial object'') Near-Earth object
+** ''also'' [[Near-Earth asteroid|NEA]] – (''celestial object'') Near-Earth asteroid
+* NEMP – (''celestial object'') nitrogen-enhanced metal-poor star, ''a type of [[carbon star]] with high amounts of nitrogen''
+* [[NEODyS]] – (''organization'') Near Earth Objects Dynamic Site, ''an Italian web-based service that provides information on [[near-Earth asteroid]]s''
+* [[Near Earth Object Information Center|NEOIC]] – (''organization'') Near Earth Object Information Center, ''a United Kingdom organization that provides information on [[near-Earth asteroid]]s''
+* NEOWISE [[Near-Earth Object WISE]]
+* [[Near Earth Space Surveillance|NESS]] – (''telescope'') Near Earth Space Surveillance, ''a telescope for observing [[near-Earth asteroid]]s''
+* [[Near Earth Space Surveillance Initiative|NESSI]] – (''organization'') Near Earth Space Surveillance Initiative, ''a collaboration planning to use a ground-based telescope to observe [[near-Earth asteroid]]s''
+* [[New General Catalogue|NGC]] – (''catalog'') New General Catalog
+* NGS-POSS [[National Geographic Society – Palomar Observatory Sky Survey]]
+* [[James Webb Space Telescope|NGST]] – (''telescope'') Next Generation Space Telescope, ''an older name for the [[James Webb Space Telescope]]''
+* [[next-generation VLA|ngVLA]] – (''telescope'') Next-Generation Very Large Array
+* NHICAT – (''catalog'') Northern HIPASS CATalog, ''the northern extension of the [[HIPASS]] catalogue''
+* [[Near Infrared Camera and Multi-Object Spectrometer|NICMOS]] – (''instrumentation'') Near Infrared Camera / Multi Object Spectrometer, ''an [[infrared]] instrument on the [[Hubble Space Telescope]]''
+* [[Near-Infrared Mapping Spectrometer|NIMS]] – (''instrumentation'') Near-Infrared Mapping Spectrometer, ''an instrument on the [[Galileo spacecraft]]''
+* [[Infrared|NIR]] – (''astrophysics terminology'') near-infrared
+* [[NIRCam]] (Instrument), ''Near-Infrared Camera'', an instrument on ''James Webb Telescope''
+* [[NIRSpec (Near-Infrared Spectrograph)|NIRSpec]] (instrument) ''Near-Infrared'' Spectrograph, an instrument on ''James Webb Telerscope''
+* [[National Institute of Standards and Technology|NIST]] – (''organization'') National Institute of Standards and Technology
+* NLAGN – (''celestial object'') Narrow-Line [[Active galactic nucleus|AGN]], classified based on lack of broadened emission or absorption lines in spectra
+* [[Non-equilibrium thermodynamics|NLTE]] – (''astrophysics terminology'') non-local thermodynamic equilibrium, ''situations where the temperature, pressure, etc. of a system are not in equilibrium''
+* [[New Luyten Two-Tenths|NLTT]] – (''catalog'') New Luyten Two-Tenths, ''a catalog of [[star]]s with high [[proper motion]]s''
+* [[National Oceanic and Atmospheric Administration|NOAA]] – (''organization'') National Oceanic and Atmospheric Administration
+* [[National Optical Astronomy Observatories|NOAO]] – (''organization'') National Optical Astronomy Observatories
+* [[NASA Orbital Debris Observatory|NODO]] – (''telescope'') NASA Orbital Debris Observatory, ''a now-defunct telescope used to observe [[space debris|space junk]] and other objects''
+* [[Nordic Telescope|NOT]] – (''telescope'') NOrdic Telescope
+* [[North Polar Sequence|NPS]] – (''celestial object'') North Polar Sequence, ''a series of [[star]]s near the [[North Celestial Pole]] once used as standards for measuring [[apparent magnitude|magnitudes]]''
+* NRAL [[Nuffield Radio Astronomy Laboratory]] – the former name for Jodrell
+* [[National Radio Astronomy Observatory|NRAO]] – (''organization'') National Radio Astronomy Observatory
+* [[Naval Research Laboratory|NRL]] – (''organization'') Naval Research Laboratory
+* [[Neutron star|NS]] – (''celestial object'') neutron star
+* [[National Science Foundation|NSF]] – (''organization'') National Science Foundation
+* [[National Solar Observatory|NSO]] – (''organization'') National Solar Observatory
+* [[National Space Science Data Center|NSSDC]] – (''organization'') National Space Science Data Center
+* NSV – (''catalog'') New Suspected Variable, ''a catalog of [[variable star]]s''
+* NT – (''astrophysics terminology'') Non-Thermal, ''radiation that is not related to the emission source's temperature (such as [[synchrotron]] radiation)''
+* [[New Technology Telescope|NTT]] – (''telescope'') New Technology Telescope, ''a telescope operated by the [[European Southern Observatory]]''
+* NuSTAR [[Nuclear Spectroscopic Telescope Array]]
+* NVSS [http://www.cv.nrao.edu/nvss/ NRAO VLA Sky Survey] A major survey
+
+== O ==
+* [[Okayama Astrophysical Observatory|OAO]] – (''observatory'') Okayama Astrophysical Observatory, ''in Japan''
+* [[Orbiting Astronomical Observatory|OAO]] – (''telescope'') Orbiting Astronomical Observatory, ''a series of satellites with astronomical instruments that operated in the 1970s''
+* [[Open cluster|OC]] – (''celestial object'') open cluster, ''a cluster of stars''
+* [[Observatoire de la Côte d'Azur|OCA]] – (''organization'') Observatoire de la Côte d'Azur
+* [[Oort cloud object|OCO]] – (''celestial object'') Oort Cloud Object, ''an object (usually a [[comet]]) in the [[Oort cloud]]''
+* [[Optical Gravitational Lensing Experiment|OGLE]] – (''observing program''/''catalog'') Optical Gravitational Lensing Experiment, ''an observing program to survey the sky for [[gravitational lens|microlensing events]]; also the catalog of sources produced by the project''
+** BLG – (''catalog'') BuLGe, ''used to designate a source detected in the direction of the bulge of the [[Milky Way]]''
+** TR – (''catalog'') TRansit, ''used to designate a potential observation of a [[gravitational lens|microlensing event]] caused by a transiting star''
+* [[Outer Planets Assessment Group|OPAG]] – (''organization'') Outer Planets Assessment Group, ''a group established by NASA that provides advice on [[solar system]] exploration''
+* [[Orbiting and Retrievable Far and Extreme Ultraviolet Spectrometer|ORFEUS]] – (''telescope'') Orbiting and Retrievable Far and Extreme Ultraviolet Spectrometer, ''an [[ultraviolet]] space telescope that could be released and later retrieved by the [[Space Shuttle]]''
+* OSIRIS-REx [[Origins Spectral Interpretation Resource Identification Security Regolith Explorer]]
+* [[Ohio Sky Survey|OSS]] – (''observing program'') Ohio Sky Survey
+* [[Oriented Scintillation Spectrometer Experiment|OSSE]] – (''instrumentation'') Oriented Scintillation Spectrometer Experiment, ''an instrument on the [[Compton Gamma Ray Observatory]]''
+* [[Optical Telescope Assembly|OTA]] – (''instrumentation'') Optical Telescope Assembly, ''the optics of the [[Hubble Space Telescope]]''
+* [[OVV quasar|OVV]] – (''celestial object'') an optically violent variable quasar.
+* [[Orbiting Wide-angle Light-collectors|OWL]] – (''telescope'') orbiting wide-angle light-collectors, ''two satellites that will work together to observe cosmic rays hitting the Earth's atmosphere''
+* [[Overwhelmingly Large Telescope|OWL]] – (''telescope'') OverWhelmingly Large Telescope, ''a proposed telescope with a primary mirror with a width of 100 m''
+
+== P ==
+* P60 – (''telescope'') [[Palomar Observatory|Palomar]] 60-inch telescope
+* PA – (''astrophysics terminology'') Position Angle
+* [[Polycyclic aromatic hydrocarbon|PAH]] – (''astrophysics terminology'') polycyclic aromatic hydrocarbon
+* [[Payload for Antimatter Matter Exploration and Light-nuclei Astrophysics|PAMELA]] – (''telescope'') Payload for Antimatter Matter Exploration and Light-nuclei Astrophysics, ''a space telescope used to study [[cosmic ray]]s''
+* [[Pan-STARRS]] – (''telescope'') Panoramic Survey Telescope And Rapid Response System
+* [[Publications of the Astronomical Society of Japan|PASJ]] – (''publication'') Publications of the Astronomical Society of Japan
+* [[Publications of the Astronomical Society of the Pacific|PASP]] – (''publication'') Publications of the Astronomical Society of the Pacific
+* PCA – (''instrumentation'') Proportional Counter Array, ''an [[X-ray]] detector on the [[Rossi X-ray Timing Explorer]]''
+* [[Planet-Crossing Asteroid Survey|PCAS]] – (''observing program'') Planet-Crossing Asteroid Survey
+* [[Plateau de Bure Interferometer|PDBI]] – (''telescope'') Plateau de Bure Interferometer, ''a radio telescope''
+* [[Photodissociation region|PDR]] – a photodissociation region or photon-dominated region (both terms are used synonymously); ''a region in the neutral [[interstellar medium|ISM]] in which far-ultraviolet photons dominate the heating and chemistry''
+* [[PhotoElectric Photometry|PEP]] – (''instrumentation'') PhotoElectric Photometry, ''an observing technique using [[photometer]]s''
+* [[Plasma Experiment for Planetary Exploration|PEPE]] – (''instrumentation'') Plasma Experiment for Planetary Exploration, ''an instrument on [[Deep Space 1]]''
+* PGC [[Principal Galaxies Catalogue]]
+* [[Potentially hazardous asteroid|PHA]] – (''celestial object'') Potentially Hazardous Asteroid
+* PI – (''person'') Principal Investigator, ''the person who leads a scientific project''
+* PK – (''catalog'') Perek-Kohoutek, ''a catalog of [[planetary nebula]]e''
+* PKS – (''Telescope'') Refers to [[Parkes Observatory]], a radio telescope in Australia
+* [[Planemo]] – (''celestial object'') planetary mass object
+* [[Probing Lensing Anomalies NETwork|PLANET]] – (''observing program'') Probing Lensing Anomalies NETwork, ''a program to search for [[gravitational lens|microlensing events]]''
+* PLS – (''observing program'') Palomar-Leiden Survey, ''a program to search for [[asteroid]]s''
+* PMPS – (''observing program'') Parkes Multibeam Pulsar Survey
+* [[Pre–main sequence star|PMS]] – (''celestial object'') pre-main sequence, ''young [[star]]s that are still in the process of formation''
+** ''also'' pre-MS
+* [[Photomultiplier tube|PMT]] – (''instrumentation'') photomultiplier tube
+* [[P-L]] – a set of asteroid discoveries in the 1960s
+* [[Planetary nebula|PN]] – (''celestial object'') planetary nebula
+** ''also'' PNe (''plural form of ''planetary nebula'')
+* PNG – (''catalog'') Galactic Planetary Nebula
+* [[Planetary nebula luminosity function|PNLF]] – (''astrophysics terminology'') Planetary Nebula Luminosity Function, ''the density of [[planetary nebulae]] as a function of their [[luminosity]]''
+* PNN – (''celestial object'') planetary nebula nucleus, ''the central [[star]] in a [[planetary nebula]]''
+* PNNV – (''celestial object'') planetary nebula nucleus variable, ''a [[variable star]] in the center of a [[planetary nebula]]''
+* [[Palomar Observatory Sky Survey|POSS]] – (''observing program'') Palomar Observatory Sky Survey
+* POSSUM [http://www.physics.usyd.edu.au/sifa/possum/ Polarisation Sky Survey of the Universe's Magnetism]
+* [[Particle Physics and Astronomy Research Council|PPARC]] – (''organization'') Particle Physics and Astronomy Research Council, ''a major government-sponsored science agency in the United Kingdom, merged into the [[Science and Technology Facilities Council]] in 2007''
+* PPM – (''catalog'') Positions and Proper Motions, ''a catalog of the positions and [[proper motion]]s of [[star]]s''
+* [[Protoplanetary nebula|PPN]] – (''celestial object'') proto-planetary nebula, ''an object that has partially evolved from a [[red giant]] to a [[planetary nebula]]''
+* PRE – (''astrophysics terminology'') photospheric radius expansion
+* PRIMUS [http://cass.ucsd.edu/~acoil/primus/Overview.hThe Prism Multi-Object Survey] – a large [spectroscopsurvey]
+* [[Protoplanetary disk|Proplyd]] – (''celestial object'') protoplanetary disk
+* PSC – (''catalog'') Point Source Catalog, ''a catalog of point-like [[infrared]] sources detected with the [[Infrared Astronomy Satellite]]''
+* [[Point spread function|PSF]] – (''instrumentation'') Point Spread Function, ''a function that describes the blurring of a point source that is caused by the optics of the telescope and instrument (as well as other effects)''
+* [[Planetary Science Institute|PSI]] – (''organization'') Planetary Science Institute
+* [[Pulsar|PSR]] – (''celestial object'') Pulsar
+* [[Pioneer Venus Orbiter|PVO]] – (''spacecraft'') Pioneer Venus Orbiter
+* [[PV Telescopii variable|PVTEL]] – (''celestial object'') PV TELescopii, ''a class of pulsating [[variable star]]s named after [[PV Telescopii]], the archetype for the class''
+* [[Pre-white dwarf|PWD]] – (''celestial object'') pre-white dwarf, ''a star that no longer creates energy through fusion that will eventually evolve into a [[white dwarf]]''
+* [[Pulsar wind nebula|PWN]] – (''celestial object'') pulsar wind nebula
+* [[Photographic zenith tube|PZT]] – (''telescope'') photographic zenith tube, ''a general name for any telescope designed to observe objects passing at the [[zenith]]''
+
+== Q ==
+* [[Quasi-biennial oscillation|QBO]] – (''astrophysics terminology'') quasi-biennial oscillation, ''a type of season variation in the Earth's atmosphere''
+* QE – (''instrumentation'') quantum efficiency, ''the sensitivity of [[Charge coupled device|CCDs]]''
+* [[Quasi-periodic oscillations|QPO]] – (''astrophysics terminology'') quasi-periodic oscillation
+* [[Quasar|QSO]] – (''celestial object'') quasi-stellar object
+* [[Quasar]] – (''celestial object'') quasi-stellar radio source
+
+== R ==
+* [[Rapid Telescopes for Optical Response|RAPTOR]] – Rapid Telescopes for Optical Response project
+* [[Right Ascension|RA]] – (''astrophysics terminology'') [[Right ascension]]
+* [[Revised Air Force Geophysics Laboratory|RAFGL]] – See AFGL.
+* [[Robust Associations of Massive Baryonic Objects (RAMBOs)|RAMBO]] – (''celestial object'') An association of [[brown dwarf]]s or [[white dwarf]]s form a dark cluster.
+* [[Royal Astronomical Society|RAS]] – (''organization'') Royal Astronomical Society
+* [[Royal Astronomical Society of Canada|RASC]] – (''organization'') Royal Astronomical Society of Canada
+* RASS – (''observing program''/''catalog'') ROSAT All-Sky Survey, ''used as both a name for a survey with [[ROSAT]] and the catalogs produced from the survey''
+* [[Red clump|RC]] – (''celestial object'') Red Clump, ''a type of [[metallicity|metal-rich]] [[red giant]] star''
+** ''also'' RCG – red clump giant
+* [[Reference Catalogue of Galaxies|RC]] – (''catalog'') Reference Catalogue, ''a catalog of nearby [[galaxies]]''
+** RC2 – Reference Catalogue, 2nd edition
+** RC3 – Reference Catalogue, 3rd edition
+* [[Ritchey Chretien|RC]] – (''organization''/''telescope'') Ritchey Chretien, ''a manufacturer of amateur and professional telescope equipment; also the telescopes themselves''
+* [[R Coronae Borealis variable|RCB]] – (''celestial object'') R Coronae Borealis, ''a class of eruptive [[variable star]]s named after [[R Coronae Borealis]], the archetype for the class''
+* [[Radiation-driven implosion|RDI]] – (''astrophysics terminology'') radiation-driven implosion
+* RECONS – (''organization'') Research Consortium on Nearby Stars, ''a survey of nearby stars''
+* RGB – (''celestial object'') red-giant branch, ''a star that is evolving from a [[main sequence|main-sequence star]] into a [[red giant]]''
+** Can also refer to the ROSAT-Green Bank Catalog
+* [[Royal Greenwich Observatory|RGO]] – (''organization'') Royal Greenwich Observatory
+* RLOF – (''astrophysics terminology'') Roche Lobe Overflow, ''the result of when an object in a binary system is larger than its [[roche lobe]] (i.e. when an object in a binary system expands to a radius where tidal forces become stronger than gravitational forces)''
+* [[Radio loud quasar|RLQ]] – (''celestial object'') radio loud [[quasar]], ''a [[quasar]] that produces strong radio emission''
+* RNGC – (''catalog'') Revised New General Catalog
+* [[Radio/optical reference frame|RORF]] – (''astrophysics terminology'') radio/optical reference frame, ''an [[inertial reference frame]] based on extragalactic [[radio sources]]''
+* [[ROSAT]] – (''telescope'') ROentgen SATellite, ''an [[X-ray]] space telescope''
+* [[Robotic Optical Transient Search Experiment|ROTSE]] – (''observing program''/''telescope'') Robotic Optical Transient Search Experiment, ''an observing program for detecting the optical counterparts of [[gamma ray bursts]]; also the telescopes used in this program''
+* [[Radio-quiet quasar|RQQ]] – (''celestial object'') radio-quiet [[quasar]] ''a [[quasar]] that produces weak radio emission''
+* [[Rotating radio transient|RRAT]] – (''celestial object'') rotating radio transient, ''a population of rotating [[neutron star]]s that produce periodic bursts of emission that are separated by intervals of minutes or hours''
+* [[RR Lyrae variable|RRL]] – (''celestial object'') RR Lyrae, ''a class of pulsating [[variable star]]s named after [[RR Lyrae]], the archetype of the class''
+** ''also'' RR
+* [[Shapley-Ames Catalog#Revised Shapley-Ames|RSA]] – (''catalog'') Revised Shapley-Ames, ''a catalog of nearby [[galaxies]]''
+* [[Russian Space Agency|RSA]] – (''organization'') Russian Space Agency
+* RSAA – (''organization'') Research School of Astronomy and Astrophysics, ''part of the Institute of Advanced Studies at the [[Australian National University]]''
+* [[Red supergiant|RSG]] – (''celestial object'') red super giant
+* [[Radio supernova|RSN]] – (''celestial object'') radio supernova
+* [[Radioisotope thermoelectric generator|RTG]] – (''instrumentation'') Radioisotope Thermoelectric Generator, ''a type of power generator used in spacecraft that travel far from the [[Sun]]''
+* [[Radial velocity|RV]] – (''astrophysics terminology'') radial velocity, ''the velocity along the line of sight''
+* RX – (''catalog'') ROSAT X-ray, ''a catalog of sources detected by [[ROSAT]]''
+* [[Rossi X-ray Timing Explorer|RXTE]] – (''telescope'') Rossi X-Ray Timing Explorer, ''a space telescope designed to observe variability in [[X-ray]] emission''
+
+== S ==
+* S82 [[Stripe 82]]
+* [[Sky & Telescope|S&T]] – (''publication'') Sky & Telescope
+* [[South African Astronomical Observatory|SAAO]] – (''organization'') South African Astronomical Observatory
+* [[Southern African Large Telescope|SALT]] – (''telescope'') Southern African Large Telescope
+* [[Société astronomique de France|SAF]] – (''organization'') Société astronomique de France (French Astronomical Society)
+* [[Smithsonian Astrophysical Observatory|SAO]] – (''organization''/''catalog'') Smithsonian Astrophysical Observatory, ''the name of astrophysics research organization associated with [[Harvard University]]; also a catalog of [[star]]s''
+* [[Society of Amateur Radio Astronomers|SARA]] – (''organization'') Society of Amateur Radio Astronomers
+* SAS – (''software'') Science Analysis Software, ''a software package used for processing data from the [[XMM-Newton Observatory]]''
+* [[Synthetic aperture telescope|SAT]] – (''telescope'') synthetic aperture telescope
+* [[Sociedad Astronómica de Valparaíso y Viña del Mar (SAVAL)|SAVAL]] – (''organization'') Sociedad Astronómica de Valparaíso y Viña del Mar, Chile. Amateur Astronomy. Founded in 1956.
+* [[Binary star#Spectroscopic binaries|SB]] – (''celestial object'') spectroscopic binary
+** SB1 – spectroscopic binary, single-lined spectra
+** SB2 – spectroscopic binary, double-lined spectra
+* [[Surface brightness|SB]] – (''astrophysics terminology'') surface brightness
+* [[Santa Barbara Instrument Group|SBIG]] – (''organization''/''instrumentation'') Santa Barbara Instrument Group, ''the name of both a company that manufactures telescope equipment and the company's products''
+* [[Committee for Small Body Nomenclature|SBNC]] – (''organization'') Small Bodies Names Committee, ''an older name for the Committee for Small Body Nomenclature''
+* [[Supernova Cosmology Project|SCP]] – (''observing program'') Supernova Cosmology Project, ''a project to measure the expansion of the [[universe]] using [[supernovae]] at high [[redshift]]s''
+* SCR – (''observing program'') SuperCOSMOS-RECONS, ''a survey that measured the [[proper motion]]s of [[star]]s''
+* [[Schmidt–Cassegrain Telescope|SCT]] – (''telescope'') Schmidt–Cassegrain telescope, ''a general name for a type of compact telescope that uses both lenses and mirrors''
+* [[Submillimetre Common-User Bolometer Array|SCUBA]] – (''instrumentation'') Submillimetre Common User Bolometer Array, ''a submillimeter imager formerly at the [[James Clerk Maxwell Telescope]]''
+* [[SCUBA-2]] – (''instrumentation'') Submillimetre Common User Bolometer Array 2, ''a submillimeter imager that will replace [[Submillimetre common user bolometer array|SCUBA]]''
+* [[Subdwarf star|sd]] – (''celestial object'') subdwarf, ''stars fainter than [[main sequence|main-sequence star]]s with the same colors; often used as a prefix to a star's [[star classification|spectral type]]''
+* [[Scattered disc|SDO]] – (''celestial object'') scattered disk object, ''[[Kuiper belt object]]s with highly [[Orbital eccentricity|eccentric]], highly inclined [[orbit]]s''
+** ''also'' SKBO – Scattered Kuiper belt object
+* [[S Doradus variable|SDOR]] – (''celestial object'') S DORadus, ''a class of eruptive [[variable star]]s named after [[S Doradus]], the archetype for the class''
+* [[Sloan Digital Sky Survey|SDSS]] – (''observing program''/''catalog'') Sloan Digital Sky Survey, ''a large imaging and spectroscopic survey; also the catalog of sources from the survey''
+* SDSSp – (''catalog'') Sloan Digital Sky Survey provisory
+* [[Southeast Asia Astronomy Network|SEAAN]] – (''organization'') Southeast Asia Astronomy Network, ''astronomy research and education among Southeast Asian countries''
+* [[Spectral Energy Distribution|SED]] – (''astrophyics terminology'') Spectral Energy Distribution
+* [[Students for the Exploration and Development of Space|SEDS]] – (''organization'') Students for the Exploration and Development of Space
+* [[Science and Engineering Research Council|SERC]] – (''organization'') Science and Engineering Research Council
+* [[Swedish-ESO Submillimetre Telescope|SEST]] – (''telescope'') Swedish–ESO Submillimetre Telescope
+* [[SETI]] – (''observing program'') Search for Extra-Terrestrial Intelligence
+* SF – (''astrophysics terminology'') star formation
+* SFH – (''astrophysics terminology'') star formation history
+* SFR – (''astrophyics terminology'') star formation rate
+* [[Spaceguard Foundation|SGF]] – (''organization'') SpaceGuard Foundation, ''an organization that tracks [[near-Earth asteroid]]s''
+* [[Soft gamma repeater|SGR]] – (''celestial object'') soft gamma repeater, ''a type of [[neutron star]] with strong magnetic fields that produces very large bursts of energy''
+* [[Sudden Ionospheric Disturbance|SID]] – (''astrophysics terminology'') Sudden Ionospheric Disturbance, ''a disturbance in the Earth's [[ionosphere]] caused by the [[Sun]]''
+* [[Sunspot Index Data Center|SIDC]] – (''organization'') Sunspot Index Data Center
+* [[Space Interferometry Mission|SIM]] – (''telescope'') Space Interferometry Mission, ''a planned optical space telescope that will be used to measure distances to [[star]]s''
+* [[SIMBAD]] – (''software'') Set of Identifications, Measurements, and Bibliography for Astronomical Data, ''a website that provides catalog data on astronomical objects''
+* SINGG – (''observing program'') Survey of Ionization in Neutral Gas Galaxies, ''a survey of star formation in nearby galaxies selected by gas rich galaxies using H-alpha and ultraviolet observations''
+* [[Spitzer Infrared Nearby Galaxies Survey|SINGS]] – (''observing program'') Spitzer Infrared Nearby Galaxies Survey
+* SIPS – (''observing program''/''catalog'') Southern Infrared Proper Motion Survey, ''a program to identify [[star]]s with high [[proper motion]]s at [[infrared]] wavelengths''
+* [[Spitzer Space Telescope|SIRTF]] – (''telescope'') Space InfraRed Telescope Facility ''or'' Shuttle InfraRed Telescope Facility, ''older names for the [[Spitzer Space Telescope]]''
+* [[Superconductor-Isolator-Superconductor|SIS]] – (''Instrumentation'') Superconductor-Isolator-Superconductor
+* [[Square Kilometre Array|SKA]] – (''telescope'') Square Kilometre Array
+* SL – (''catalog'') Shoemaker–Levy, ''the [[comet]]s discovered by [[Shoemaker]] and [[David H. Levy|Levy]], particularly [[Comet Shoemaker–Levy 9|Shoemaker–Levy 9]]''
+* [[Spacelab|SL]] – (''spacecraft'') SpaceLab
+* [[Space Launch System|SLS]] - (''launch vehicle'') American Space Shuttle-derived super heavy-lift expendable launch vehicle.
+* [[Submillimeter Array|SMA]] – (''telescope'') Submillimeter Array
+* [[SMART-1|SMART]] – (spacecraft) Small Missions for Advanced Research in Technology
+* [[Supermassive black hole|SMBH]] – (''celestial object'') super massive black hole
+* [[Small Magellanic Cloud|SMC]] – (''celestial object'') Small Magellanic Cloud
+* [[Solar Mesosphere Explorer|SME]] – (''spacecraft'') Solar Mesosphere Explorer, ''a spacecraft used to study the Earth's [[ozone layer]]''
+* [[Small Explorer|SMEX]] – (''spacecraft'') SMall EXplorers, ''the name of a series of small astronomical spacecraft; also the program to develop the spacecraft''
+* [[Solar Maximum Mission|SMM]] – (''telescope'') Solar Maximum Mission, ''a solar space telescope''
+* SN – (''instrumentation'') signal-to-noise, ''the ratio of the signal from an object to the noise from the detector that measured the signal''
+** ''also'' SNR – Signal-to-nosie ratio
+* [[Supernova|SN]] – (''celestial object'') supernova
+** also SNe (''plural form of'' SN)
+* [[Supernova/Acceleration Probe|SNAP]] – (''telescope'') SuperNova Acceleration Probe, ''proposed space telescope''
+* [[Supernova remnant|SNR]] – (''celestial object'') supernova remnant
+* [[Solar Neutrino Unit|SNU]] – (''astrophysics terminology'') solar neutrino units
+* [[Steward Observatory Asteroid Relational Database|SOARD]] – (''software'') Steward Observatory Asteroid Relational Database
+* [[Stratospheric Observatory for Infrared Astronomy|SOFIA]] – (''telescope'') Stratospheric Observatory for Infrared Astronomy, ''an [[infrared]] telescope currently under construction that will fly inside a modified [[Boeing 747]] aircraft''
+* [[Solar and Heliospheric Observatory|SOHO]] – (''telescope'') SOlar and Heliospheric Observatory, ''a solar space telescope''
+* SONEAR [[Southern Observatory for Near Earth Asteroids Research]]
+* SOLO [[Solar Orbiter]]
+* [[Shuttle Pointed Autonomous Research Tool for Astronomy|SPARTAN]] – (''telescope'') Shuttle Pointed Autonomous Research Tool for AstroNomy, ''an [[ultraviolet]] space telescope that can be released and retrieved by the [[Space Shuttle]]''
+* [[VLT-SPHERE|SPHERE]] – (''instrumentation'') Spectro-Polarimetric High-Contrast Exoplanet Research, [[Very Large Telescope|VLT]]
+* [[Space Infrared Imaging Telescope|SPIRIT]] – (''instrument'') SPace InfraRed Imaging Telescope, ''an [[infrared]] instrument on the [[Midcourse Space Experiment]] spacecraft''
+* [[Solar power satellite|SPS]] – (''spacecraft'') solar power satellite, ''a general name for proposed satellites that would convert solar power into energy and then beam the energy to the surface of a planet (such as Earth) in the form of [[microwave]]s''
+* SPS – (''astrophysical terminology'') stellar population synthesis
+* [[South Pole Telescope|SPT]] – (''telescope'') South Pole Telescope
+* SQIID – (''instrumentation'') Simultaneous Quad Infrared Imaging Device
+* [[Strange matter|SQM]] – (''celestial object'') strange quark matter
+* [[Special Relativity|SR]] – (''astrophysics terminology'') Special Relativity
+* [[Space Research Organization of the Netherlands|SRON]] – (''organization'') Space Research Organization of the Netherlands
+* [[Symbiotic star|SS]] – (''celestial object'') Symbiotic Star, ''a type of [[binary star]] system containing a [[red giant]] and a hot dwarf star that generate a cone-shaped [[nebula]]''
+* [[Solid-State Imager|SSI]] – (''instrumentation'') Solid-State Imager, ''an instrument on the [[Galileo spacecraft]]''
+* [[Space Studies Institute|SSI]] – (''organization'') Space Studies Institute
+* SSP – (''instrumentation'') [[Surface Science Package]], ''on board the Huygens probe''
+* SSP – (''astrophysics terminology'') simple stellar population
+* SSS – (''observing program'') SuperCOSMOS Sky Surveys
+* SSSPM – (''catalog'') SuperCOSMOS Sky Survey Proper Motion
+* [[Spectroscopic Survey Telescope|SST]] – (''telescope'') Spectroscopic Survey Telescope
+* [[Spitzer Space Telescope|SST]] – (''telescope'') [[Spitzer Space Telescope]], ''a space telescope''
+* STARSMOG – (''observing program'') STarlight Absorption Reduction through a Survey of Multiple Occulting Galaxies, a survey using [[Hubble Space Telescope]] imaging
+* [[Stellar Planet Survey|STEPS]] – (''observing program'') STEllar Planet Survey
+* STEREO [[STEREO|Solar TErrestrial RElations Observatory]]
+* [[Space Telescope Imaging Spectrograph|STIS]] – (''instrumentation'') Space Telescope Imaging Spectrograph, ''an instrument on the [[Hubble Space Telescope]]''
+* [[Space Shuttle program|STS]] – (''vehicle'') Shuttle Transport System ''or'' Space Transportation System
+* [[Space Telescope Science Institute|STScI]] – (''organization'') Space Telescope Science Institute
+* [[Space Telescope Science Data Analysis System|STSDAS]] – (''software'')	Space Telescope Science Data Analysis System
+* [[Supergravity|SUGRA]] – (''astrophysics terminology'') supergravity
+* [[SUbaru PRIME focus CAMera|SUPRIME]] – (''instrumentation'') SUbaru PRIME focus CAMera, ''an instrument on the [[Subaru Telescope]]''
+* SUSI – (''telescope'') Sydney University Stellar Interferometer, '' an [[Astronomical interferometer|optical interferometer]]''
+* [[Solar Wind ANisotropy|SWAN]] – (''instrumentation'') Solar Wind ANisotropy, ''an instrument on [[Solar and Heliospheric Observatory|SOHO]]''
+* [[Submillimeter Wave Astronomy Satellite|SWAS]] – (''telescope'') Submillimeter Wave Astronomy Satellite, ''a [[submillimeter]] space telescope''
+* SWEEPS – (''observing program'') – Sagittarius Window Eclipsing Extrasolar Planet Search, ''a survey of a subsection of the plane of the [[Milky Way]] performed with the [[Hubble Space Telescope]]''
+* [[Spitzer Wide-area InfraRed Extragalactic survey|SWIRE]] – (''observing program'') [[Spitzer Space Telescope|Spitzer]] Wide-area InfraRed Extragalactic survey
+* [[Southwest Research Institute|SwRI]] – (''organization'') Southwest Research Institute
+* [[SX Arietis variable|SXARI]] – (''celestial object'') SX ARIetis, ''a class of rotating [[variable star]]s named after [[SX Arietis]], the archetype for the class''
+* [[SX Phoenicis variable|SXPHE]] – (''celestial object'') SX PhoEnicis, ''a class of pulsating [[variable star]]s named after [[SX Phoenicis]], the archetype for the class''
+
+== T ==
+* T-1 ("observing program") - First Jupiter Trojan survey at Mount Palomar, part of the [[P–L]] survey
+* T-2 ("observing program") - Second Jupiter Trojan survey at Mount Palomar, part of the [[P–L]] survey
+* T-3 ("observing program") - Third Jupiter Trojan survey at Mount Palomar, part of the [[P–L]] survey
+* TABLEAUX [[International Conference on Automated Reasoning with Analytic Tableaux and Related Methods]]
+* TAC – (''organization'') Time Allocation Committee ''or'' Telescope Allocation Committee, ''a general name for a committee that awards telescope observing time''
+* [[Twin Astrograph Catalog|TAC]] – (''catalog'') Twin Astrograph Catalog
+* [[International Atomic Time|TAI]] – (''astrophysics terminology'') International Atomic Time
+* TAMS – (''astrophysics terminology'') terminal-age [[main sequence]], ''stars at the point in their lifetimes where they have finished burning [[hydrogen]] in their cores''
+* [[Télescope à Action Rapide pour les Objets Transitoires|TAROT]] – (''telescope'') Télescope à Action Rapide pour les Objets Transitoires
+* [[The Amateur Sky Survey|TASS]] – (''observing program'') The Amateur Sky Survey
+* [[Thousand Astronomical Unit|TAU]] – (''spacecraft'') Thousand Astronomical Unit, ''a spacecraft mission proposed in the 1980s that would reach 1000 [[astronomical unit|AU]] in 50 years''
+* [[Barycentric Coordinate Time|TCB]] – (''astrophysics terminology'') Barycentric Coordinate Time
+* TCC [[Theory of Cryptography Conference]]
+* [[Geocentric Coordinate Time|TCG]] – (''astrophysics terminology'') Geocentric Coordinate Time
+* [[Barycentric Dynamical Time|TDB]] – (''astrophysics terminology'') Barycentric Dynamical Time
+* [[Tracking and Data Relay Satellite System|TDRSS]] – (''communications network'') Tracking and Data Relay Satellite System, ''an array of [[satellite]]s used by [[NASA]] to communicate with many spacecraft in low Earth orbit''
+* [[Thermal Emission Spectrometer|TES]] – (''instrumentation'') Thermal Emission Spectrometer, ''a [[spectrometer]] on the [[Mars Observer]]''
+* [[Transits of Extrasolar Planets|TEP]] – (''organization'') Transits of Extrasolar Planets
+* [[Terrestrial gamma-ray flash|TGF]] – (''celestial object'') – Terrestrial gamma-ray flash, [[gamma ray]]s emitted from Earth's [[lightning]] storms
+* [[Thermal Emission Imaging System|THEMIS]] – (''instrumentation'') Thermal Emission Imaging System, ''a camera on the [[2001 Mars Odyssey|Mars Odyssey]] spacecraft''
+* TIC – (''catalog'') Tycho Input Catalog, ''a predecessor of the Hipparcos Input Catalog''
+* [[Tata Institute of Fundamental Research|TIFR]] – (''organization'') – Tata Institute of Fundamental Research - India
+* TIR – (''astrophysics terminology'') total infrared
+* [[TIMED]] – (''spacecraft'') thermosphere ionosphere mesosphere energetics and dynamics
+* [[Telescopes In Education|TIE]] – (''organization'') Telescopes In Education
+* [[Transient lunar phenomenon|TLP]] – (''astrophysics terminology'') Transient Lunar Phenomenon, ''an unexplained flash of light observed from the [[Moon]]''
+* [[Taurus Molecular Cloud|TMC]] – (''celestial object'') Taurus Molecular Cloud
+* [[Thirty Meter Telescope|TMT]] – (''telescope'') – Thirty Meter Telescope, ''formerly known as California Extremely Large Telescope''
+* [[Telescope Nut|TN]] – (''person'') telescope nut, nickname for an amateur telescope maker
+* [[Trans-Neptunian object|TNO]] – (''celestial object'') trans-Neptunian object, ''any object that orbits the [[Sun]] at a distance greater than that of [[Neptune]]''
+* TO – (''person'') telescope operator, ''the technician who assists in operating a telescope during astronomical observations''
+* [[Toward Other Planetary Systems|TOPS]] – (''meeting'') Toward Other Planetary Systems, ''a series of educational astronomy workshops''
+* [[Terrestrial Planet Finder|TPF]] – (''telescope'') Terrestrial Planet Finder, ''a planned space telescope that will be used to find [[extrasolar planet|extrasolar Earth-like planets]]''
+* TPHOLs [[Theorem Proving in Higher-Order Logics]]
+* [[Transition Region and Coronal Explorer|TRACE]] – Transition Region and Coronal Explorer, ''a solar space telescope''
+* TrES – (''telescope'') Transatlantic Exoplanet Survey
+* [[Terrestrial Time|TT]] – (''astrophysics terminology'') Terrestrial Time
+** ''also'' TDT – terrestrial dynamical time
+* [[T Tauri star|TTS]] – (''celestial object'') T-Tauri star
+* [[TW Hydrae association|TWA]] – (''celestial object'') TW Hydrae Association
+* [[Hipparcos Catalogue|TYC]] – (''catalog'') Tycho, ''a catalog that was the predecessor of the [[Hipparcos Catalogue|Hipparcos (HIP) Catalogue]]''
+* [[Thorne–Żytkow object|TZO]] – (''celestial object'') Thorne–Żytkow object, ''the object that forms when a [[neutron star]] merges with a [[red giant]]''
+
+== U ==
+
+* UAI [http://www.iau.org Union Astronomique Internationale]
+* [[Upper Atmosphere Research Satellite|UARS]] – (''spacecraft'') Upper Atmosphere Research Satellite, ''a satellite used to study the Earth's upper atmosphere''
+* UCAC – (''catalog'') USNO CCD Astrometric Catalog
+* [[Uppsala-ESO Survey of Asteroids and Comets|UESAC]] – (''observing program'') Uppsala-ESO Survey of Asteroids and Comets
+* [[Unidentified Flying Object|UFO]] – (''astrophysics terminology'') unidentified flying object
+* [[dwarf nova|UG]] – (''celestial object'') U Geminorum, ''a class of [[cataclysmic variable|cataclysmic variable stars]] (also known as [[dwarf novae]]) that are named after [[U Geminorum]], the archetype for the class''
+** [[dwarf nova|UGSS]] – (''celestial object'') UG SS Cygni, ''a subclass of [[dwarf nova|UG-type stars]] named after [[SS Cygni]], the archetype for the subclass''
+** [[dwarf nova|UGSU]] – (''celestial object'') UG SU Ursae Majoris, ''a subclass of [[dwarf nova|UG-type stars]] named after [[SU Ursae Majoris]], the archetype for the subclass''
+** [[dwarf nova|UGWZ]] – (''celestial object'') UG WZ Sagittae, ''a subclass of [[dwarf nova|UG-type stars]] named after [[WZ Sagittae]], the archetype for the subclass''
+** [[dwarf nova|UGZ]] – (''celestial object'') UG Z Camelopardalis, ''a subclass of [[dwarf nova|UG-type stars]] named after [[Z Camelopardalis]], the archetype for the subclass''
+* [[Uppsala General Catalogue|UGC]] – (''catalog'') Uppsala General Catalogue, ''a catalog of [[galaxies]]''
+* [[Ultraviolet Imaging Telescope|UIT]] – (''telescope'') Ultraviolet Imaging Telescope, ''an [[ultraviolet]] telescope that was operated from the cargo bay of the [[Space Shuttle]]''
+* [[UKIRT Infrared Deep Sky Survey|UKIDSS]] – (''observing program/catalog'') [[United Kingdom Infrared Telescope|UKIRT]] Infrared Deep Sky Survey
+* [[United Kingdom Infrared Telescope|UKIRT]] – (''telescope'') United Kingdom Infrared Telescope
+* [[UK Space Agency|UKSA]] – (''organization'') UK Space Agency
+* [[UK Schmidt Telescope|UKST]] – (''telescope'') United Kingdom Schmidt Telescope
+* [[Ultraluminous infrared galaxy|ULIRG]] – (''celestial object'') UltraLuminous InfraRed Galaxy, ''a galaxy that is brighter than 10<sup>12</sup> [[solar luminosities]] in the [[infrared]]''
+* [[Ultraluminous X-ray source|ULX]] – (''celestial object'') ultraluminous x-ray source
+* UMS – (''celestial object'') Upper [[Main sequence|Main Sequence]], ''the more massive hydrogen-burning [[main sequence|main-sequence star]]s''
+* [[United States Air Force|USAF]] – (''organization'') United States Air Force
+* [[United States Geological Survey|USGS]] – (''organization'') United States Geological Survey
+* [[United States Naval Observatory|USNO]] – (''organization'') United States Naval Observatory
+* [[Universal Time|UT]] – (''astrophysics terminology'') Universal Time
+* [[Coordinated Universal Time|UTC]] – (''astrophysics terminology'') Coordinated Universal Time
+* [[Ultraviolet|UV]] – (''astrophysics terminology'') ultraviolet
+* [[Ultraviolet Spectrometer|UVS]] – (''instrumentation'') 	UltraViolet Spectrometer, ''the name of instruments on the [[Voyager program|Voyager]] and [[Galileo spacecraft]]''
+* [[UXOR]] – (''celestial object'') UX ORionis objects, a class of variable pre–main sequence stars named after UX Orionis, the archetype for the class
+* UZC [[Zwicky Catalogue|Updated Zwicky Catalogue]]
+
+== V ==
+* [[Vainu Bappu Observatory|VBO]] – (''organization'') Vainu Bappu Observatory, ''located in India''
+* [[Vainu Bappu telescope|VBT]] – (''telescope'') Vainu Bappu Telescope, ''located at [[Vainu Bappu Observatory]]''
+* VCC – (''catalog'') Virgo Cluster Catalog, ''a catalog of [[galaxies]] in the [[Virgo Cluster]]''
+* [[Vereinigung der Sternfreunde|VdS]] – (''organization'') Vereinigung der Sternfreunde, ''the German [[amateur astronomy|amateur astronomers]] society''
+* VEEGA – (''astrophysics terminology'') Venus-Earth-Earth Gravity Assist, ''the path taken by the [[Galileo spacecraft]] to reach [[Jupiter]]''
+* VeLLO – (celestial object) very-low-luminosity object
+* [[VERITAS]] – (''telescope'') Very Energetic Radiation Imaging Telescope Array System, ''[[gamma ray|gamma-ray]] telescope in [[Arizona]] sensitive to [[GeV]]/[[TeV]] [[gamma ray]]s''
+* [[VLBI Exploration of Radio Astrometry|VERA]] – (''telescope'') VLBI Exploration of Radio Astrometry, ''a Japanese radio telescope designed for studying objects in the [[Milky Way]]''
+* VHE – (''astrophysics terminology'') Very High Energy, ''[[gamma ray]]s with high energies''
+* [[VIMOS]] – (''instrumentation'') VIsible Multi-Object Spectrograph, ''instrument on the [[Very Large Telescope|VLT]]''
+* VIPERS [http://vipers.inaf.it/ VIMOS Public Extragalactic Redshift Survey] an ESO Large Program
+* [[VISTA (telescope)|VISTA]] – (''telescope'') Visible and Infrared Survey Telescope for Astronomy
+* [[Very Large Array|VLA]] – (''telescope'') Very Large Array, ''a radio telescope in [[New Mexico]] operated by the [[National Radio Astronomy Observatory]]''
+* [[Very Long Baseline Array|VLBA]] – (''telescope'') Very Long Baseline Array, ''a radio telescope operated by the [[National Radio Astronomy Observatory]] with antennas spread across the United States''
+* [[Very long baseline interferometry|VLBI]] – (''instrumentation'') very long baseline interferometry, ''combining signals from multiple telescopes/radio antennas that are separated by large distances''
+* VLM – (''astrophysics terminology'') very low mass, ''objects (usually [[star]]s) that have relatively low masses''
+* [[Very Large Telescope|VLT]] – (''telescope'') Very Large Telescope, ''four 8.2 meter telescopes in [[Chile]] that operate either independently as individual telescopes or together as an [[interferometer]]''
+* [[VLT-SPHERE]] – (''instrumentation'') Spectro-Polarimetric High-Contrast Exoplanet Research; istalled at VLT's UT3
+* [[Virtual Meteor Observatory|VMO]] – (''software'') The Virtual Meteor Observatory is an activity of the [[International Meteor Organisation]] together with the [[Research and Scientific Support Department]] of the [[European Space Agency]] to store meteor data from observers all over the world.
+* [[Virtual Observatory|VO]] – (''software'') Virtual Observatory
+* [[Venus Orbiting Imaging Radar|VOIR]] – (''spacecraft'') Venus Orbiting Imaging Radar, ''a spacecraft for mapping [[Venus]] that was canceled and then superseded by the [[Magellan spacecraft]]''
+* [[Magellan spacecraft|VRM]] – (''spacecraft'') Venus Radar Mapper, ''an older name for the [[Magellan spacecraft]]''
+* [[Variable Star Observers League in Japan|VSOLJ]] – (''organization'') Variable Star Observers League in Japan
+* [[VLBI Space Observatory Program|VSOP]] – (''organization'') VLBI Space Observatory Program, ''a project to use both [[satellite]]s and ground-based [[radio telescope]]s as an [[interferometer]]''
+* [[VLT Survey Telescope|VST]] – (''telescope'') VLT Survey Telescope
+* VV [[Vorontsov-Vel'yaminov Interacting Galaxies]]
+* VVDS – (''observing program'') [[VIMOS]]-[[Very Large Telescope|VLT]] Deep Survey
+
+== W ==
+* WALLABY [http://www.atnf.csiro.au/research/WALLABY WALLABY] is a survey of neutral [[hydrogen]] in [[galaxies]]
+* [[White dwarf|WD]] – (''celestial object'') white dwarf
+* [[Warm dark matter|WDM]] – (''astrophysics terminology'') warm dark matter, ''any model for structure formation in the universe that characterizes "hot" particles such as [[neutrino]]s as [[dark matter]]''
+* [[Washington Double Star Catalog|WDS]] – (''catalog'') Washington Double Star, ''a catalog of [[double star]]s''
+* [[Whole Earth Blazar Telescope|WEBT]] – (''organization'') Whole Earth Blazar Telescope, ''a network of observers across the Earth who work together to perform continuous observations of [[blazar]]s''
+* [[Whole Earth Telescope|WET]] – (''organization'') Whole Earth Telescope, ''a network of astronomers spread across the Earth who work together to perform continuous observations of [[variable star]]s''
+* WFCAM – (''instrumentation'') Wide Field Camera, ''a camera on the [[United Kingdom Infrared Telescope]]''
+* WFMOS – (''instrumentation'') Wide-Field Multi-Object Spectrograph, ''proposed instrument for the Gemini telescopes''
+* [[Wide Field and Planetary Camera|WFPC]] – (''instrumentation'') Wide Field and Planetary Camera, ''a camera formerly on the [[Hubble Space Telescope]] that was replaced with [[Wide Field and Planetary Camera 2|WFPC2]]''
+* [[Wide Field and Planetary Camera 2|WFPC2]] – (''instrumentation'') Wide Field and Planetary Camera 2, ''a camera on the Hubble Space Telescope''
+* WFC – (''instrumentation'') Wide-Field Channel, ''one of the detectors in the [[Advanced Camera for Surveys]] on the Hubble Space Telescope''
+* [[Working Group for Planetary System Nomenclature|WGPSN]] – (''organization'') Working Group for Planetary System Nomenclature
+* [[William Herschel Telescope|WHT]] – (''telescope'') William Herschel Telescope
+* [[Weakly Interacting Massive Particle|WIMP]] – (''celestial object'') Weakly Interacting Massive Particle, ''a hypothetical subatomic particle that may comprise most of the dark matter in the universe''
+* WIRCam – (''instrumentation'') Wide-field InfraRed Camera, ''instrument on the [[Canada-France-Hawaii Telescope]]''
+* WIRE [[Wide Field Infrared Explorer]]
+* [[Web Interface for Searching Archival Research Data|WISARD]] – (''software'') Web Interface for Searching Archival Research Data
+* [[Wide-field Infrared Survey Explorer|WISE]] – (''observing program'') Wide-field Infrared Survey Explorer
+* [[WIYN Observatory|WIYN]] – (''telescope'') Wisconsin-Indiana-Yale-NOAO, ''the name of a telescope at [[Kitt Peak]] operated by the [[University of Wisconsin–Madison]], [[Indiana University]], [[Yale University]], and the [[National Optical Astronomy Observatory]]''
+* [[Wolf-Lundmark-Melotte|WLM]] – (''celestial object'') Wolf-Lundmark-Melotte, ''a nearby [[dwarf galaxy]] in the [[constellation]] [[Cetus]]''
+* [[Wilkinson Microwave Anisotropy Probe|WMAP]] – (''telescope'') Wilkinson Microwave Anisotrophy Probe, ''a space telescope used to study the [[cosmic microwave background radiation]]''
+* [[Wolf–Rayet star|WR]] – (''celestial object'') Wolf–Rayet, ''a type of hot, luminous star with strong stellar winds''
+** WC – (''celestial object'') carbon-rich Wolf–Rayet, ''a [[Wolf–Rayet star]] with strong [[carbon]] [[spectral line]] emission''
+** WN – (''celestial object'') nitrogen-rich Wolf–Rayet, ''a Wolf–Rayet star with strong [[nitrogen]] spectral line emission''
+*** WNE – (''celestial object'') early-type nitrogen-rich wolf–rayet, ''a wn star without [[hydrogen]] spectral line emission''
+*** WNL – (''celestial object'') late-type nitrogen-rich Wolf–Rayet, ''a WN star with hydrogen spectral line emission''
+** WO – (''celestial object'') oxygen-rich Wolf–Rayet, ''a Wolf–Rayet star with strong [[oxygen]] spectral line emission''
+* [[Westerbork Synthesis Radio Telescope|WSRT]] – (''telescope'') an aperture synthesis interferometer that consists of a linear array of 14 antennas
+* [[Weak-lined T Tauri star|WTTS]] – (''celestial object'') weak-line t-tauri star, ''a type of young [[star]] with weak spectral line emission''
+
+== X ==
+* [[XMM Cluster Survey|XCS]] – (''observing program'') [[XMM-Newton|XMM]] Cluster Survey
+* [[XIS]] – (''instrumentation'') X-ray imaging spectrometer, ''an instrument on the [[ASTRO-E|Suzaku]] space telescope''
+* [[XMM-Newton|XMM]] – (''telescope'') X-ray Multi-Mirror, ''the XMM-Newton earth-orbiting [[X-ray]]-sensitive telescope''
+* [[X-ray nova|XN]] – (''celestial object'') x-ray nova
+* [[X-ray flash (astronomy)|XRF]] – (''celestial object'') x-ray flash
+
+== Y ==
+* [[Blue straggler|Ys]] – (''celestial object'') yellow straggler
+* [[Yellow supergiant|YSG]] – (''celestial object'') yellow super giant star
+* [[Young stellar object|YSO]] – (''celestial object'') young stellar object
+
+== Z ==
+* ZAHB – (''celestial object'') "zero-age" [[horizontal branch]], ''[[horizontal branch]] stars that have just begun burning helium in their cores and hydrogen in a shell around the cores''
+* ZAMS – (''celestial object'') zero age [[main sequence]], ''a star that has just become a [[main sequence|main-sequence star]] (i.e. a star that has begun burning hydrogen in its core)''
+* [[Z Andromedae variable|ZAND]] – (''celestial object'') Z ANDromedae, ''a class of eruptive [[variable star]]s named after the [[binary star|binary star system]] [[Z Andromedae]], the archetype for the class''
+** [[Z Andromedae variable|ZANDE]] – (''celestial object'') Z ANDromedae with eclipses, ''a subclass of ZAND stars where the stars eclipse each other''
+* [[ZEPLIN]] – (''instrumentation'') ZonEd proportional scintillation in liquid noble gases, ''a dark matter detector''
+* [[Zenithal Hourly Rate|ZHR]] – (''astrophysics terminology'') zenith hourly rate, ''the maximum number of [[meteor]]s per hour that may be observed during a [[meteor shower]]''
+* Z-FOURGE – (''survey'') The FourStar Galaxy Evolution Survey
+* ZOA [[Zone of Avoidance]]
+
+== See also ==
+* [[List of common astronomy symbols]]
+* [[List of astronomical catalogues]]
+* [[Glossary of astronomy]]
+* [[Modern constellations]]
+
+== References ==
+<references/>
+* [https://web.archive.org/web/20060823220715/http://www.aavso.org/typelist.txt AAVSO Type List]. Information retrieved on 2006-09-10 – 2006-09-11
+* [https://web.archive.org/web/20110607051424/http://www.asahi-net.or.jp/~se2k-sgwr/comet_p/ryakugo.html Abbreviations and acronyms frequently used in astronomy]. Information retrieved on 2006-08-28 – 2006-09-12
+* [http://www.daviddarling.info/encyclopedia/ETEmain.html The Encyclopedia of Astrobiology, Astronomy, and Spaceflight]. Information retrieved on 2006-08-27 – 2006-09-12
+* [http://tla.surly.org/ Frequently Seen Space/Astronomy Acronyms]. Information retrieved on 2006-08-27 – 2006-09-12
+
+== External links ==
+* [https://web.archive.org/web/20090429133735/http://www.astro.umd.edu/~marshall/ast_acro.html The Canonical Astronomy Abbreviations/Acronyms List]
+* [http://www.all-acronyms.com/tag/astronomy Astronomy Acronyms and Astronomy Abbreviations]
+
+[[Category:Astronomy-related lists|Acronyms]]
+[[Category:Lists of acronyms|Astronomy]]

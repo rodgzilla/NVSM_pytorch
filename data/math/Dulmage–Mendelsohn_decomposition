@@ -1,0 +1,49 @@
+In [[graph theory]], the '''Dulmage–Mendelsohn decomposition''' is a partition of the vertices of a [[bipartite graph]] into subsets, with the property that two adjacent vertices belong to the same subset if and only if they are paired with each other in a [[perfect matching]] of the graph. It is named after A. L. Dulmage and [[Nathan Mendelsohn]], who published it in 1958.  A generalization to any graph is the [[Gallai–Edmonds decomposition|Edmonds–Gallai decomposition]], using the [[Blossom algorithm]].
+
+==The coarse decomposition==
+Let ''G''&nbsp;=&nbsp;(''U'',''V'',''E'') be a bipartite graph, and let ''D'' be the set of vertices in ''G'' that are not matched in at least one [[maximum matching]] of ''G''.
+Then ''D'' is necessarily an [[Independent set (graph theory)|independent set]], so ''G'' can be partitioned into three parts:
+*The vertices in ''D'' ∩ ''U'' and their neighbors
+*The vertices in ''D'' ∩ ''V'' and their neighbors
+*The remaining vertices
+Every maximum matching in ''G'' consists of matchings in the first and second part that match all neighbors of ''D'', together with a [[perfect matching]] of the remaining vertices.
+
+==The fine decomposition==
+The third set of vertices in the coarse decomposition (or all vertices in a graph with a perfect matching) may additionally be partitioned into subsets by the following steps:
+*Find a perfect matching of ''G''.
+*Form a [[directed graph]] ''H'' whose vertices are the matched edges in ''G''. For each unmatched edge (''u'',''v'') in ''G'', add a directed edge in ''H'' from the matched edge of ''u'' to the matched edge of ''v''.
+*Find the [[strongly connected component]]s of the resulting graph.
+*For each component of ''H'', form a subset of the Dulmage–Mendelsohn decomposition consisting of the vertices in ''G'' that are endpoints of edges in the component.
+
+To see that this subdivision into subsets characterizes the edges that belong to perfect matchings, suppose that two vertices ''u'' and ''v'' in ''G'' belong to the same subset of the decomposition, but are not already matched by the initial perfect matching. Then there exists a strongly connected component in ''H'' containing edge ''uv''. This edge must belong to a [[simple cycle]] in ''H'' (by the definition of strong connectivity) which necessarily corresponds to an alternating cycle in ''G'' (a cycle whose edges alternate between matched and unmatched edges). This alternating cycle may be used to modify the initial perfect matching to produce a new matching containing edge&nbsp;''uv''.
+
+An edge ''uv'' of the graph ''G'' belongs to all perfect matchings of ''G'', if and only if ''u'' and ''v'' are the only members of their set in the decomposition. Such an edge exists if and only if the [[matching preclusion]] number of the graph is one.
+
+==Core==
+As another component of the Dulmage–Mendelsohn decomposition, Dulmage and Mendelsohn defined the ''core'' of a graph to be the union of its maximum matchings.<ref>{{citation
+ | last1 = Harary | first1 = Frank | author1-link = Frank Harary
+ | last2 = Plummer | first2 = Michael D. | author2-link = Michael D. Plummer
+ | journal = Proceedings of the London Mathematical Society
+ | mr = 0209184
+ | pages = 305–314
+ | series = Third Series
+ | title = On the core of a graph
+ | volume = 17
+ | year = 1967
+ | doi = 10.1112/plms/s3-17.2.305 }}.</ref> However, this concept should be distinguished from the [[Core (graph theory)|core]] in the sense of graph homomorphisms, and from the [[k-core|''k''-core]] formed by the removal of low-degree vertices.
+
+==Applications==
+This decomposition has been used to partition meshes in [[finite element analysis]], and to determine specified, underspecified and overspecified equations in systems of nonlinear equations.
+
+==References==
+{{Reflist}}
+*{{Cite journal |title=Coverings of bipartite graphs |authorlink=Andrew Lloyd Dulmage |first=A. L. |last=Dulmage |authorlink2=Nathan Mendelsohn |first2=N. S. |last2=Mendelsohn |lastauthoramp=yes |journal=Can. J. Math. |year=1958 |volume=10 |pages=517–534 |doi=10.4153/cjm-1958-052-0}} The original Dulmage–Mendelsohn paper
+
+==External links==
+*A good explanation of its application to systems of nonlinear equations is available in this paper: [http://www.modelica.org/events/Conference2002/papers/p21_Bunus.pdf]
+*An open source implementation of the algorithm is available as a part of the sparse-matrix library: [http://www.netlib.org/linalg/spooles/spooles.2.2.html SPOOLES]
+*Graph-theoretical aspects of constraint solving in the SST project: [http://essay.utwente.nl/61082/1/MSc_JJ_Koelewijn.PDF]
+
+{{DEFAULTSORT:Dulmage-Mendelsohn decomposition}}
+[[Category:Graph algorithms]]
+[[Category:Matching]]

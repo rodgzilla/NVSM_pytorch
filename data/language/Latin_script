@@ -1,0 +1,199 @@
+{{about||the Latin script as used for the [[Latin language]]|Latin alphabet}}
+{{more footnotes|date=October 2017}}
+{{Infobox writing system
+|name=Latin<br />Roman
+|type=[[Letter case|Bicameral]] impure [[Alphabet]]
+|languages= {{hlist|list_style=line-height:1.3em; | most [[Languages of Europe|western European languages]], including [[Latin language|Latin]] | many [[Turkic languages|Turkic]], [[Finno-Ugric languages|Finno-Ugric]] and [[Eskimo–Aleut languages]] | [[Basque language]] | [[Polynesian languages]] | some [[Languages of Africa|African]], [[Austronesian languages|Austronesian]] and [[Austroasiatic languages]]}}
+|time=~700&nbsp;BC–present
+|fam1= [[Egyptian hieroglyphs]]
+|fam2=[[Proto-Sinaitic]]
+|fam3=[[Phoenician alphabet]]
+|fam4=[[Greek alphabet]]
+|fam5=[[Old Italic script]]
+|sisters=[[Cyrillic script|Cyrillic]]<br />[[Armenian alphabet|Armenian]]<br />[[Georgian script|Georgian]]<br />[[Coptic alphabet|Coptic]]<br />[[Runic alphabet|Runic/Futhark]]
+|children=indirectly, the [[Cherokee syllabary]] and [[Yugtun script]]
+|sample=A Specimen by William Caslon.jpg
+|imagesize=200px
+|unicode=See [[Latin characters in Unicode]]
+|iso15924=Latn
+|IPAChartEng=1
+}}
+'''Latin''' or '''Roman script''' is a set of graphic signs ([[Writing system#General properties|script]]) based on the letters of the [[classical Latin alphabet]]. This is derived from a form of the [[Cumae alphabet|Cumaean Greek]] version of the [[Greek alphabet]] used by the [[Etruscan civilization|Etruscans]].
+
+Several [[Latin-script alphabet]]s exist, which differ in graphemes, collation, and phonetic values from the [[classical Latin alphabet]].
+
+The Latin script is the basis of the [[International Phonetic Alphabet]], and the 26 most widespread letters are the letters contained in the [[ISO basic Latin alphabet]].
+
+Latin script is the basis for the largest number of alphabets of any [[writing system]]{{sfn|Haarmann|2004|p=96}} and is the
+[[List of writing systems by adoption|most widely adopted]] writing system in the world (commonly used by about 70 per cent of the world's population). Latin script is used as the standard method of writing in most Western, Central, as well as in some Eastern European languages, as well as in many languages in other parts of the world.
+
+== Name ==
+The script is either called Roman script or Latin script, in reference to its origin in [[ancient Rome]]. In the context of [[transliteration]], the term "[[romanization]]" or "romanisation" is often found.<ref name="bsigroup">{{cite web |url=http://www.bsigroup.com/en/DualSearch/?q=romanization |title=Search results &#124; BSI Group |publisher=Bsigroup.com |accessdate=2014-05-12}}</ref><ref name="pcgn">{{cite web |url=http://www.pcgn.org.uk/Romanisation_systems.htm |title=Romanisation_systems |publisher=Pcgn.org.uk |accessdate=2014-05-12}}</ref> [[Unicode]] uses the term "Latin"<ref>{{cite web |url=https://www.unicode.org/iso15924/iso15924-en.html |title=ISO 15924 – Code List in English |publisher=Unicode.org |date= |accessdate=2013-07-22}}</ref> as does the [[International Organization for Standardization]] (ISO).<ref name="iso">{{cite web |url=http://www.iso.org/iso/home/search.htm?qt=Latin&sort_by=rel&type=simple&published=on |title=Search – ISO |publisher=Iso.org |accessdate=2014-05-12}}</ref>
+
+The numeral system is called the Roman numeral system; and the collection of the elements, [[Roman numerals]]. The numbers 1, 2, 3 ... are Latin/Roman script numbers for the [[Hindu–Arabic numeral system]].
+
+== History ==
+{{Main|History of the Latin script}}
+
+=== Old Italic alphabet ===
+{| class="wikitable"
+|+ [[Old Italic alphabet]]
+|-
+!Letters || 𐌀 || 𐌁 || 𐌂 || 𐌃 || 𐌄 || 𐌅 || 𐌆 || 𐌇 || 𐌈 || 𐌉 || 𐌊 || 𐌋 || 𐌌 || 𐌍 || 𐌎 || 𐌏 || 𐌐 || 𐌑 || 𐌒 || 𐌓 || 𐌔 || 𐌕 || 𐌖 || 𐌗 || 𐌘 || 𐌙 || 𐌚
+|-
+!Transliteration || A || B || C || D || E || V || Z || H || Θ || I || K || L || M || N || Ξ || O || P || Ś || Q || R || S || T || Y || X || Φ || Ψ || F
+|}
+
+===Archaic Latin alphabet===
+{| class="wikitable"
+|+ Archaic Latin alphabet
+|-
+!As Old Italic || 𐌀 || 𐌁 || 𐌂 || 𐌃 || 𐌄 || 𐌅 || 𐌆 || 𐌇 || 𐌉 || 𐌊 || 𐌋 || 𐌌 || 𐌍 || 𐌏 || 𐌐 || 𐌒 || 𐌓 || 𐌔 || 𐌕 || 𐌖 || 𐌗
+|-
+!As Latin || A || B || C || D || E || F || Z || H || I || K || L || M || N || O || P || Q || R || S || T || V || X
+|}
+The letter {{angle bracket|C}} was the western form of the Greek [[gamma]], but it was used for the sounds {{IPA|/ɡ/}} and {{IPA|/k/}} alike, possibly under the influence of [[Etruscan language|Etruscan]], which might have lacked any voiced [[plosives]]. Later, probably during the 3rd century BC, the letter {{angle bracket|Z}} – unneeded to write Latin properly – was replaced with the new letter {{angle bracket|G}}, a {{angle bracket|C}} modified with a small vertical stroke, which took its place in the alphabet. From then on, {{angle bracket|G}} represented the [[Voice (phonetics)|voiced]] plosive {{IPA|/ɡ/}}, while {{angle bracket|C}} was generally reserved for the voiceless plosive {{IPA|/k/}}. The letter {{angle bracket|K}} was used only rarely, in a small number of words such as ''[[Kalends|Kalendae]]'', often interchangeably with {{angle bracket|C}}.
+
+===Classical Latin alphabet===
+After the [[Roman conquest of Greece]] in the 1st century BC, Latin adopted the Greek letters {{angle bracket|Y}} and {{angle bracket|Z}} (or readopted, in the latter case) to write [[Greek language|Greek]] loanwords, placing them at the end of the alphabet. An attempt by the emperor [[Claudius]] to introduce three [[Claudian letters|additional letters]] did not last. Thus it was during the [[classical Latin]] period that the Latin alphabet contained 23 letters:
+{| class="wikitable" style="text-align:center"
+|+ [[Classical Latin alphabet]]
+|-
+! style="text-align:left" | Letter
+! [[A]] !! [[B]] !! [[C]] !! [[D]] !! [[E]] !! [[F]] !! [[G]] !! [[H]] !! [[I]] !! [[K]] !! [[L]] !! [[M]] !! [[N]] !! [[O]] !! [[P]] !! [[Q]] !! [[R]] !! [[S]] !! [[T]] !! [[V]] !! [[X]] !! [[Y]] !! [[Z]]
+|-
+! style="text-align:left" | Latin name (majus)
+| {{sm|á}} || {{sm|bé}} || {{sm|cé}} || {{sm|dé}} || {{sm|é}} || {{sm|ef}} || {{sm|gé}} || {{sm|há}} || {{sm|ꟾ}} || {{sm|ká}} || {{sm|el}} || {{sm|em}} || {{sm|en}} || {{sm|ó}} || {{sm|pé}} || {{sm|q}}{{sm|v́}} || {{sm|er}} || {{sm|es}} || {{sm|té}} || {{sm|v́}} || {{sm|ix}} || {{sm|ꟾ graeca}} || {{sm|zéta}}
+|-
+! style="text-align:left" | Latin name
+| ''ā || ''bē || ''cē || ''dē || ''ē || ''ef || ''gē || ''hā || ''ī || ''kā || ''el || ''em || ''en || ''ō || ''pē || ''qū || ''er || ''es || ''tē || ''ū || ''ix || {{nowrap|''ī Graeca}} || ''zēta
+|-
+! style="text-align:left" | Latin pronunciation ([[Help:IPA/Latin|IPA]])
+| {{IPA|aː}} || {{IPA|beː}} || {{IPA|keː}} || {{IPA|deː}} || {{IPA|eː}} || {{IPA|ɛf}} || {{IPA|ɡeː}} || {{IPA|haː}} || {{IPA|iː}} || {{IPA|kaː}} || {{IPA|ɛl}} || {{IPA|ɛm}} || {{IPA|ɛn}} || {{IPA|oː}} || {{IPA|peː}} || {{IPA|kuː}} || {{IPA|ɛr}} || {{IPA|ɛs}} || {{IPA|teː}} || {{IPA|uː}} || {{IPA|iks}} || {{IPA|iː&nbsp;ˈɡraɪka}} || {{IPA|ˈdzeːta}}
+|}
+
+===ISO basic Latin alphabet===
+{{main|ISO basic Latin alphabet}}
+{|class="wikitable" style="text-align:center; table-layout:fixed"
+|+ ISO basic Latin alphabet
+|-
+![[Upper case|Uppercase]] Latin alphabet
+|[[A]]||[[B]]||[[C]]||[[D]]||[[E]]||[[F]]||[[G]]||[[H]]||[[I]]||[[J]]||[[K]]||[[L]]||[[M]]||[[N]]||[[O]]||[[P]]||[[Q]]||[[R]]||[[S]]||[[T]]||[[U]]||[[V]]||[[W]]||[[X]]||[[Y]]||[[Z]]
+|-
+![[Lower case|Lowercase]] Latin alphabet
+|a||b||c||d||e||f||g||h||i||j||k||l||m||n||o||p||q||r||s||t||u||v||w||x||y||z
+|}
+
+The use of the letters I and V for both consonants and vowels proved inconvenient as the Latin alphabet was adapted to Germanic and Romance languages. [[W]] originated as a doubled [[V]] (VV) used to represent the sound {{IPA|[w]}} found in [[Old English]] as early as the 7th century. It came into common use in the later 11th century, replacing the runic [[Wynn]] letter which had been used for the same sound. In the Romance languages, the minuscule form of V was a rounded ''u''; from this was derived a rounded capital U for the vowel in the 16th century, while a new, pointed minuscule ''v'' was derived from V for the consonant. In the case of I, a word-final [[Swash (typography)|swash]] form, ''j'', came to be used for the consonant, with the un-swashed form restricted to vowel use. Such conventions were erratic for centuries. J was introduced into English for the consonant in the 17th century (it had been rare as a vowel), but it was not universally considered a distinct letter in the alphabetic order until the 19th century.
+
+By the 1960s, it became apparent to the computer and [[telecommunication]]s industries in the [[First World]] that a non-proprietary method of encoding characters was needed. The [[International Organization for Standardization]] (ISO) encapsulated the Latin alphabet in their ([[ISO/IEC 646]]) standard. To achieve widespread acceptance, this encapsulation was based on popular usage. As the United States held a preeminent position in both industries during the 1960s, the standard was based on the already published ''American Standard Code for Information Interchange'', better known as [[ASCII]], which included in the [[Character encoding|character set]] the 26 × 2 (uppercase and lowercase) letters of the [[English alphabet]]. Later standards issued by the ISO, for example [[ISO/IEC 10646]] ([[Latin script in Unicode|Unicode Latin]]), have continued to define the 26 × 2 letters of the English alphabet as the basic Latin alphabet with extensions to handle other letters in other languages.
+
+== Spread ==
+[[File:Latin alphabet world distribution.svg|thumb|upright=2.05|The distribution of the Latin script. The dark green areas show the countries where the Latin script is the sole main script. Light green shows countries where Latin co-exists with other scripts. Latin-script alphabets are sometimes extensively used in areas coloured grey due to the use of unofficial second languages, such as French in Algeria and English in Egypt, and to Latin transliteration of the official script, such as [[pinyin]] in China.]]
+{{Main|Spread of the Latin script}}
+The Latin alphabet spread, along with [[Latin]], from the [[Italian Peninsula]] to the lands surrounding the [[Mediterranean Sea]] with the expansion of the [[Roman Empire]]. The eastern half of the Empire, including [[Greece]], [[Turkey]], the [[Levant]], and [[Egypt]], continued to use [[Greek language|Greek]] as a [[lingua franca]], but Latin was widely spoken in the western half, and as the western [[Romance languages]] evolved out of Latin, they continued to use and adapt the Latin alphabet.
+
+=== Middle Ages ===
+With the spread of [[Western Christianity]] during the [[Middle Ages]], the Latin alphabet was gradually adopted by the peoples of [[Northern Europe]] who spoke [[Insular Celtic languages|Celtic languages]] (displacing the [[Ogham]] alphabet) or [[Germanic languages]] (displacing earlier [[Runic alphabet]]s) or [[Baltic languages]], as well as by the speakers of several [[Uralic languages]], most notably [[Hungarian language|Hungarian]], [[Finnish language|Finnish]] and [[Estonian language|Estonian]].
+
+The Latin script also came into use for writing the [[West Slavic languages]] and several [[South Slavic languages]], as the people who spoke them adopted [[Roman Catholic Church|Roman Catholicism]]. The speakers of [[East Slavic languages]] generally adopted [[Cyrillic script|Cyrillic]] along with [[Eastern Orthodox Church|Orthodox Christianity]]. The [[Serbian language]] uses both scripts, with Cyrillic predominating in official communication and Latin elsewhere, as determined by the Law on Official Use of the Language and Alphabet.<ref name="ombudsman">{{cite web |url=http://www.ombudsman.rs/pravamanjina/attachments/ZAKON%20o%20sluzbenoj%20upotrebi%20jezika%20i%20pisma.pdf |archive-url=https://web.archive.org/web/20140714223400/http://www.ombudsman.rs/pravamanjina/attachments/ZAKON%20o%20sluzbenoj%20upotrebi%20jezika%20i%20pisma.pdf |dead-url=yes |archive-date=14 July 2014 |date=17 May 2010 |title=Zakon O Službenoj Upotrebi Jezika I Pisama |publisher=Ombudsman.rs |accessdate=2014-07-05 }}</ref>
+
+=== Since the 16th century ===
+As late as 1500, the Latin script was limited primarily to the languages spoken in [[Western Europe|Western]], [[Northern Europe|Northern]], and [[Central Europe]]. The [[Orthodox Christian]] Slavs of [[Eastern Europe|Eastern]] and [[Southeastern Europe]] mostly used [[Cyrillic script|Cyrillic]], and the Greek alphabet was in use by Greek-speakers around the eastern Mediterranean. The [[Arabic script]] was widespread within Islam, both among [[Arab]]s and non-Arab nations like the [[Iranian peoples|Iranians]], [[Ethnic groups in Indonesia|Indonesians]], [[Malays (ethnic group)|Malays]], and [[Turkic peoples]]. Most of the rest of Asia used a variety of [[Brahmic family|Brahmic alphabets]] or the [[Chinese script]].
+
+Through [[European colonization]] the Latin script has spread to the [[Americas]], [[Oceania]], parts of [[Asia]], [[Africa]], and the Pacific, in forms based on the [[Spanish alphabet|Spanish]], [[Portuguese alphabet|Portuguese]], [[English alphabet|English]], [[French alphabet|French]], [[German alphabet|German]] and [[Dutch alphabet|Dutch]] alphabets.
+
+It is used for many [[Austronesian languages]], including the [[languages of the Philippines]] and the [[Malaysian language|Malaysian]] and [[Indonesian language]]s, replacing earlier Arabic and indigenous Brahmic alphabets. Latin letters served as the basis for the forms of the [[Cherokee syllabary]] developed by [[Sequoyah]]; however, the sound values are completely different.{{Citation needed|date=April 2015}}
+
+=== Since 19th century ===
+In the late 19th century, the [[Romanians]] returned to the Latin alphabet, which they had used until the [[Council of Florence]] in 1439,<ref>{{cite web |url=http://la.wikisource.org/wiki/Descriptio_Moldaviae#CAPUT_V_-_DE_LITTERIS_MOLDAVORUM |date=1714 |title=Descriptio_Moldaviae |publisher=La.wikisource.org |accessdate=2014-09-14}}</ref> primarily because [[Romanian language|Romanian]] is a [[Romance language]]. The Romanians were predominantly [[Orthodox Christian]]s, and their Church, increasingly influenced by Russia after the [[Fall of Constantinople|fall of Byzantine Greek Constantinople]] in 1453 and capture of the Greek [[Ecumenical Patriarch of Constantinople|Orthodox Patriarch]], had begun promoting the Slavic [[Cyrillic script|Cyrillic]].
+
+Under French rule and Portuguese missionary influence, a Latin alphabet was devised for the [[Vietnamese language]], which had previously used [[Chu nom|Chinese characters]].
+
+=== Since 20th century ===
+In 1928, as part of [[Mustafa Kemal Atatürk]]'s reforms, the new [[Turkey|Republic of Turkey]] adopted a Latin alphabet for the [[Turkish language]], replacing a modified Arabic alphabet. Most of the [[Turkic languages|Turkic]]-speaking peoples of the former [[Soviet Union|USSR]], including [[Tatars]], [[Bashkirs]], [[Azeri]], [[Kazakhs|Kazakh]], [[Kyrgyz people|Kyrgyz]] and others, used the Latin-based [[Uniform Turkic alphabet]] in the 1930s; but, in the 1940s, all were replaced by Cyrillic. After the collapse of the [[Soviet Union]] in 1991, three of the newly independent Turkic-speaking republics, [[Azerbaijan]], [[Uzbekistan]], and [[Turkmenistan]], as well as Romanian-speaking [[Moldova]], officially adopted Latin alphabets for their languages.
+
+[[Kazakhstan]], [[Kyrgyzstan]], [[Iranian languages|Iranian]]-speaking [[Tajikistan]], and the breakaway region of [[Transnistria]] kept the Cyrillic alphabet, chiefly due to their close ties with Russia. In the 1930s and 1940s, the majority of [[Kurds]] replaced the Arabic script with two Latin alphabets. Although the only official [[Kurdistan Regional Government|Kurdish government]] uses an Arabic alphabet for public documents, the Latin Kurdish alphabet remains widely used throughout the region by the majority of [[Kurdish language|Kurdish]]-speakers.
+
+In 2015, the [[Kazakhstan|Kazakh]] government announced that the [[Latin alphabet]] would replace [[Cyrillic]] as the writing system for the [[Kazakh language]] by 2025.<ref>[http://www.inform.kz/eng/article/2741711 Kazakh language to be converted to Latin alphabet – MCS RK]. Inform.kz (30 January 2015). Retrieved on 2015-09-28.</ref>
+
+== International standards ==
+{{Main|ISO basic Latin alphabet|Latin script in Unicode}}
+By the 1960s, it became apparent to the computer and [[telecommunication]]s industries in the [[First World]] that a non-proprietary method of encoding characters was needed. The [[International Organization for Standardization]] (ISO) encapsulated the Latin alphabet in their ([[ISO/IEC 646]]) standard. To achieve widespread acceptance, this encapsulation was based on popular usage.
+
+As the United States held a preeminent position in both industries during the 1960s, the standard was based on the already published ''American Standard Code for Information Interchange'', better known as [[ASCII]], which included in the [[Character encoding|character set]] the 26 × 2 (uppercase and lowercase) letters of the [[English alphabet]]. Later standards issued by the ISO, for example [[ISO/IEC 10646]] ([[Latin characters in Unicode|Unicode Latin]]), have continued to define the 26 × 2 letters of the English alphabet as the basic Latin alphabet with extensions to handle other letters in other languages.
+
+== As used by various languages ==
+{{Main|Latin-script alphabet}}
+In the course of its use, the Latin alphabet was adapted for use in new languages, sometimes representing [[phoneme]]s not found in languages that were already written with the Roman characters. To represent these new sounds, extensions were therefore created, be it by adding [[diacritic]]s to existing [[letter (alphabet)|letters]], by joining multiple letters together to make [[ligature (typography)|ligatures]], by creating completely new forms, or by assigning a special function to pairs or triplets of letters. These new forms are given a place in the alphabet by defining an [[collation|alphabetical order]] or collation sequence, which can vary with the particular language.
+
+=== Letters ===
+{{Main|List of Latin-script letters}}
+
+Some examples of new letters to the standard Latin alphabet are the [[Runic alphabet|Runic]] letters [[wynn]] {{angle bracket|Ƿ/ƿ}} and [[thorn (letter)|thorn]] {{angle bracket|Þ/þ}}, and the letter [[eth]] {{angle bracket|Ð/ð}}, which were added to the alphabet of [[Old English language|Old English]]. Another Irish letter, the [[Insular G|insular ''g'']], developed into [[yogh]] {{angle bracket|Ȝ/ȝ}}, used in [[Middle English]]. Wynn was later replaced with the new letter {{angle bracket|w}}, eth and thorn with {{angle bracket|[[Pronunciation of English th|th]]}}, and yogh with {{angle bracket|[[Gh (digraph)|gh]]}}. Although the four are no longer part of the English or Irish alphabets, eth and thorn are still used in the modern [[Icelandic orthography|Icelandic]] and [[Faroese alphabet]]s.
+
+Some West, Central and [[Southern Africa]]n languages use a few additional letters that have a similar sound value to their equivalents in the IPA. For example, [[Adangme language|Adangme]] uses the letters {{angle bracket|Ɛ/ɛ}} and {{angle bracket|Ɔ/ɔ}}, and [[Ga language|Ga]] uses {{angle bracket|Ɛ/ɛ}}, {{angle bracket|Ŋ/ŋ}} and {{angle bracket|Ɔ/ɔ}}. [[Hausa language|Hausa]] uses {{angle bracket|Ɓ/ɓ}} and {{angle bracket|Ɗ/ɗ}} for [[implosive consonant|implosives]], and {{angle bracket|Ƙ/ƙ}} for an [[ejective consonant|ejective]]. [[African studies|Africanists]] have standardized these into the [[African reference alphabet]].
+
+The [[Azerbaijani language]] also has the letter written as "Ə", which represents the [[near-open front unrounded vowel]].
+
+=== Multigraphs ===
+{{Main|Latin-script multigraph}}
+A [[digraph (orthography)|digraph]] is a pair of letters used to write one sound or a combination of sounds that does not correspond to the written letters in sequence. Examples are {{angle bracket|[[Ch (digraph)|ch]]}}, {{angle bracket|[[Eng (letter)|ng]]}}, {{angle bracket|[[Rh (digraph)|rh]]}}, {{angle bracket|[[Sh (digraph)|sh]]}} in English, and {{angle bracket|[[IJ (digraph)|ij]]}} in Dutch. In Dutch the {{angle bracket|ij}} is capitalized as {{angle bracket|IJ}} or the [[Ligature (typography)|ligature]] {{angle bracket|Ĳ}}, but never as {{angle bracket|Ij}}, and it often takes the appearance of a ligature {{angle bracket|ĳ}} very similar to the letter {{angle bracket|ÿ}} in [[handwriting]].
+
+A [[trigraph (orthography)|trigraph]] is made up of three letters, like the [[German language|German]] {{angle bracket|[[Sch (trigraph)|sch]]}}, the [[Breton language|Breton]] {{angle bracket|[[C'h (trigraph)|c'h]]}} or the [[Milanese]] {{angle bracket|oeu}}. In the [[orthography|orthographies]] of some languages, digraphs and trigraphs are regarded as independent letters of the alphabet in their own right. The capitalization of digraphs and trigraphs is language-dependent, as only the first letter may be capitalized, or all component letters simultaneously (even for words written in titlecase, where letters after the digraph or trigraph are left in lowercase).
+
+=== Ligatures ===
+{{Main|Ligature (typography)}}
+A [[ligature (typography)|ligature]] is a fusion of two or more ordinary letters into a new [[glyph]] or character. Examples are {{angle bracket|[[Æ]]/æ}} (from {{angle bracket|AE}}, called "ash"), {{angle bracket|[[Œ]]/œ}} (from {{angle bracket|OE}}, sometimes called "oethel"), the [[abbreviation]] {{angle bracket|[[&]]}} (from [[Latin language|Latin]] ''et'' "and"), and the [[German language|German]] symbol {{angle bracket|[[ß]]}} ("sharp S" or "eszet", from {{angle bracket|ſz}} or {{angle bracket|ſs}}, the [[Long s|archaic medial form of {{angle bracket|s}}]], followed by a {{angle bracket|z}} or {{angle bracket|s}}).
+
+=== Diacritics ===
+[[File:Small a with acute.svg|thumb|upright=0.25|The letter {{angle bracket|[[a]]}} with an [[acute accent|acute]] [[diacritic]].]]
+{{Main|Diacritic}}
+
+A diacritic, in some cases also called an accent, is a small symbol that can appear above or below a letter, or in some other position, such as the [[umlaut (diacritic)|umlaut sign]] used in the German characters {{angle bracket|[[ä]]}}, {{angle bracket|[[ö]]}}, {{angle bracket|[[ü]]}} or the Romanian characters [[ă]], [[â]], [[î]], [[S-comma|ș]], [[T-comma|ț]]. Its main function is to change the phonetic value of the letter to which it is added, but it may also modify the pronunciation of a whole syllable or word, or distinguish between [[homonym|homographs]]. As with letters, the value of diacritics is language-dependent. English and [[Dutch language|Dutch]] are the only major modern [[Languages of Europe|European languages]] requiring no diacritics for native words (although a [[diaeresis (diacritic)|diaeresis]] may be used in words such as "coöperation").<ref>As an example, an article containing a [[diaeresis (diacritic)|diaeresis]] in "coöperate" and a [[cedilla]] in "façades" as well as a [[circumflex]] in the word "crêpe" ({{cite journal|first=Anthony |last=Grafton |url=http://www.newyorker.com/archive/2006/10/23/061023crbo_books?currentPage=all |title=Books: The Nutty Professors, The history of academic charisma |date=2006-10-23|journal=[[The New Yorker]]}})</ref><ref>[https://web.archive.org/web/20101216160024/http://dscriber.com/news/121-the-new-yorkers-odd-mark-the-diaeresis "The New Yorker's odd mark{{snd}}the diaeresis"]</ref>
+
+=== Collation ===
+{{Main|Collating sequence}}
+
+Some modified letters, such as the symbols {{angle bracket|[[å]]}}, {{angle bracket|[[ä]]}}, and {{angle bracket|[[ö]]}}, may be regarded as new individual letters in themselves, and assigned a specific place in the alphabet for [[collation]] purposes, separate from that of the letter on which they are based, as is done in [[Swedish alphabet|Swedish]]. In other cases, such as with {{angle bracket|[[ä]]}}, {{angle bracket|[[ö]]}}, {{angle bracket|[[ü]]}} in German, this is not done; letter-diacritic combinations being identified with their base letter. The same applies to digraphs and trigraphs. Different diacritics may be treated differently in collation within a single language. For example, in [[Spanish language|Spanish]], the character {{angle bracket|[[ñ]]}} is considered a letter, and sorted between {{angle bracket|[[n]]}} and {{angle bracket|[[o]]}} in dictionaries, but the accented vowels {{angle bracket|[[á]]}}, {{angle bracket|[[é]]}}, {{angle bracket|[[í]]}}, {{angle bracket|[[ó]]}}, {{angle bracket|[[ú]]}} are not separated from the unaccented vowels {{angle bracket|[[a]]}}, {{angle bracket|[[e]]}}, {{angle bracket|[[i]]}}, {{angle bracket|[[o]]}}, {{angle bracket|[[u]]}}.
+
+=== Capitalization ===
+{{main|Letter case}}
+The languages that use the Latin script today generally use [[capital letters]] to begin paragraphs and sentences and [[Noun#Proper nouns and common nouns|proper nouns]]. The rules for [[capitalization]] have changed over time, and different languages have varied in their rules for capitalization. [[Old English language|Old English]], for example, was rarely written with even proper nouns capitalized; whereas [[Modern English]] of the 18th century had frequently all nouns capitalized, in the same way that Modern [[German language|German]] is written today, e.g. ''Alle Schwestern der alten Stadt hatten die Vögel gesehen'' ("All of the sisters of the old city had seen the birds").
+
+== Romanization ==
+{{Main|Romanization}}
+
+Words from languages natively written with other [[Writing system|scripts]], such as [[Romanization of Arabic|Arabic]] or [[Romanization of Chinese|Chinese]], are usually [[transliteration|transliterated]] or [[Transcription (linguistics)|transcribed]] when embedded in Latin-script text or in [[Multilingualism|multilingual]] international communication, a process termed Romanization.
+
+Whilst the Romanization of such languages is used mostly at unofficial levels, it has been especially prominent in computer messaging where only the limited 7-bit [[ASCII]] code is available on older systems. However, with the introduction of [[Unicode]], Romanization is now becoming less necessary. Note that keyboards used to enter such text may still restrict users to Romanized text, as only ASCII or Latin-alphabet characters may be available.
+
+== See also ==
+* [[Romic alphabet]]
+* [[List of languages by writing system#Latin script]]
+* [[Western Latin character sets (computing)]]
+* [[Latin letters used in mathematics]]
+
+== Notes ==
+{{reflist}}
+
+== References ==
+* {{Citation |last=Haarmann |first=Harald |title=Geschichte der Schrift |trans-title=History of Writing |language=German |publisher=C. H. Beck |location=München |edition=2nd |year=2004 |isbn=978-3-406-47998-4}}
+
+{{Library resources box |by=no |onlinebooks=yes |others=yes |about=yes |label=Latin script
+  |viaf= |lccn= |lcheading= |wikititle= }}
+
+==Further reading==
+* Boyle, Leonard E. 1976. "Optimist and recensionist: 'Common errors' or 'common variations.'" In ''Latin script and letters A.D. 400–900: Festschrift presented to Ludwig Bieler on the occasion of his 70th birthday.'' Edited by John J. O’Meara and Bernd Naumann, 264–74. Leiden, The Netherlands: Brill.
+* Morison, Stanley. 1972. ''Politics and script: Aspects of authority and freedom in the development of Graeco-Latin script from the sixth century B.C. to the twentieth century A.D.'' Oxford: Clarendon.
+
+== External links ==
+{{Commons category|Latin alphabet}}
+* [http://diacritics.typo.cz/ Diacritics Project{{snd}}All you need to design a font with correct accents]
+
+{{Latin script}}
+{{ISO 15924/footer}}
+
+[[Category:Latin script| ]]
+[[Category:Scripts encoded in Unicode 1.0]]
+[[Category:History of the Roman Empire]]

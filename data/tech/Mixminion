@@ -1,0 +1,66 @@
+{{Infobox software
+| name                   = Mixminion
+| logo                   =
+| screenshot             =
+| caption                =
+| collapsible            =
+| author                 = Nick Mathewson
+| developer              =
+| released               = {{release date and age|2002|12|16|df=yes}}
+| latest release version = 0.0.8alpha3
+| latest release date    = {{release date and age|2007|09|15|df=yes}}
+| latest preview version =
+| latest preview date    =
+| frequently updated     =
+| programming language   = [[Python (programming language)|Python]]
+| operating system       =
+| platform               =
+| size                   =
+| language               =
+| status                 =
+| genre                  = [[Anonymous remailer]]
+| license                =
+| website                = {{URL|http://mixminion.net/}}
+}}
+[[Image:Mixminion-Windows frontend.jpg|thumb|250px|Mixminion using a [[Microsoft Windows|Windows]] frontend]]
+'''Mixminion''' is the standard implementation of the Type III [[anonymous remailer]] protocol. Mixminion can send and receive anonymous [[e-mail]].
+
+Mixminion uses a mix network architecture to provide strong [[anonymity]], and prevent eavesdroppers and other attackers from linking senders and recipients. Volunteers run servers (called "mixes") that receive messages, decrypt them, re-order them, and re-transmit them toward their eventual destination. Every e-mail passes through several mixes so that no single mix can link message senders with recipients.
+
+To send an anonymous message, mixminion breaks it into uniform-sized chunks (also called "packets"), pads the packets to a uniform size, and chooses a path through the mix network for each packet. The software encrypts every packet with the [[Public-key cryptography|public keys]] for each server in its path, one by one. When it is time to transmit a packet, mixminion sends it to the first mix in the path. The first mix decrypts the packet, learns which mix will receive the packet, and relays it. Eventually, the packet arrives at a final (or "exit") mix, which sends it to the chosen recipient. Because no mix sees any more of the path besides the immediately adjacent mixes, they cannot link senders to recipients.
+
+Mixminion supports Single-Use Reply Blocks (or SURBs) to allow anonymous recipients. A SURB encodes a half-path to a recipient, so that each mix in the sequence can unwrap a single layer of the path, and encrypt the message for the recipient. When the message reaches the recipient, the recipient can decode the message and learn which SURB was used to send it; the sender does not know which recipient has received the anonymous message.
+
+The most current version of Mixminion Message Sender is 1.2.7 and was released on 11 February 2009.
+
+On 2 September 2011, a news announcement was made that stated the source was uploaded to [[GitHub]]<ref>{{cite web |title=Mixminion at Github|url=https://github.com/mixminion/mixminion/|accessdate=20 December 2014}}</ref>
+
+==See also==
+
+{{Portal|Cryptography}}
+
+* [[Anonymity]]
+** [[Anonymous P2P]]
+** [[Anonymous remailer]]
+*** [[Cypherpunk anonymous remailer]] (Type I)
+*** [[Mixmaster anonymous remailer]] (Type II)
+** [[Onion routing]]
+*** [[Tor (anonymity network)]]
+** [[Pseudonymous remailer]] (a.k.a. nym servers)
+*** [[Penet remailer]]
+* [[Data privacy]]
+* [[Traffic analysis]]
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{Official website|http://mixminion.net/}}
+*[http://peculiarplace.com/mixminion-message-sender/ Windows GUI Frontend for Mixminion]
+*[http://trac.macports.org/browser/trunk/dports/mail/mixminion/Portfile/ Apple OSX, Macport File for Mixminion ]
+
+===Network stats===
+*[http://www.noreply.org/mixminion-nodes/ Noreply number of mixminion nodes]
+
+[[Category:Internet Protocol based network software]]
+[[Category:Anonymity networks]]

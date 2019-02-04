@@ -1,0 +1,254 @@
+{{Selfref|For Wikipedia's policy on editing from open proxies, please see [[Wikipedia:Open proxies]]. For other uses, see [[Proxy (disambiguation)|Proxy]].}}
+
+[[File:Proxy concept en.svg|thumb|277x277px|alt=Diagram of two computers connected only via a proxy server. The first computer says to the proxy server: "ask the second computer what the time is".|Communication between two computers (shown in grey) connected through a third computer (shown in red) acting as a proxy. Bob does not know to whom the information is going, which is why proxies can be used to protect privacy.]]
+
+In [[computer network]]s, a '''proxy server''' is a [[Server (computing)|server]] (a computer system or an application) that acts as an [[intermediary]] for requests from [[client (computing)|clients]] seeking resources from other servers.<ref>[http://courses.cs.vt.edu/~cs4244/spring.09/documents/Proxies.pdf World-Wide Web Proxies], [[Ari Luotonen]], April 1994</ref> A client connects to the proxy server, requesting some service, such as a file, connection, [[web page]], or other resource available from a different server and the proxy server evaluates the request as a way to simplify and control its complexity.<ref>"[https://www.researchgate.net/publication/329502453_A_Survey_of_Techniques_for_Improving_Efficiency_of_Mobile_Web_Browsing A Survey of Techniques for Improving Efficiency of Mobile Web Browsing]", Concurrency and Computation: Practice and Experience, 2018</ref> Proxies were invented to add structure and [[Encapsulation (networking)|encapsulation]] to distributed systems.<ref>[https://hal.inria.fr/inria-00444651/document], Marc Shapiro. Structure and Encapsulation in Distributed Systems: the Proxy Principle. Int. Conf. on Distr. Comp. Sys. (ICDCS), 1986, Cambridge, MA, USA, United States. pp.198--204, 1986, Int. Conf. on Distr. Comp. Sys. (ICDCS).</ref>
+
+==Types of proxy servers==
+A proxy server may reside on the user's local computer, or at any point between the user's computer and destination servers on the Internet.
+* A proxy server that passes unmodified requests and responses is usually called a [[gateway (computer networking)|gateway]] or sometimes a ''tunneling proxy''.
+* A forward proxy is an Internet-facing proxy used to retrieve data from a wide range of sources (in most cases anywhere on the Internet).
+* A [[reverse proxy]] is usually an internal-facing proxy used as a front-end to control and protect access to a server on a private network.  A reverse proxy commonly also performs tasks such as load-balancing, authentication, decryption or caching.
+
+===Open proxies===
+[[File:Open proxy h2g2bob.svg|thumb|right|280px|alt=Diagram of proxy server connected to the Internet.|An open proxy forwarding requests from and to anywhere on the Internet.]]
+{{Main|Open proxy}}
+An open proxy is a forwarding proxy server that is accessible by any Internet user. As of 2008, [[Gordon Lyon]] estimates there are "hundreds of thousands" of open proxies on the Internet.<ref name="nmap" /> An ''anonymous open proxy'' allows users to conceal their [[IP address]] while browsing the Web or using other Internet services. There are varying degrees of anonymity however, as well as a number of methods of 'tricking' the client into revealing itself regardless of the proxy being used.
+
+* '''Anonymous Proxy''' – Thіs server reveаls іts іdentіty аs а server but does not dіsclose the іnіtіаl IP аddress. Though thіs server cаn be dіscovered eаsіly іt cаn be benefіcіаl for some users аs іt hіdes the Internet Protocol аddress.
+
+* '''Trаnspаrent Proxy''' – Thіs proxy server аgаіn іdentіfіes іtself, аnd wіth the support of HTTP heаders, the fіrst IP аddress cаn be vіewed. The mаіn benefіt of usіng thіs sort of server іs іts аbіlіty to cаche the websіtes. Sometіmes, your IP mаy get bаnned аs а result of the use of trаnspаrent proxy. Your Internet Protocol аddress іs not hіdden іn thіs server.<ref>{{Cite web|url=https://proxies24.com/blog/types-of-proxies-anonymous-transparent-and-elite/|title=Proxies24 {{!}}   Types of Proxies – Anonymous, Transparent and Elite|website=proxies24.com|language=en-US|access-date=2018-10-21}}</ref>
+
+===Reverse proxies===
+[[File:Reverse proxy h2g2bob.svg|thumb|right|280px|alt=A proxy server connecting the Internet to an internal network.|A reverse proxy taking requests from the Internet and forwarding them to servers in an internal network. Those making requests connect to the proxy and may not be aware of the internal network.]]
+{{Main|Reverse proxy}}
+A '''reverse proxy''' (or surrogate) is a proxy server that appears to clients to be an ordinary server. Reverse proxies forward requests to one or more ordinary servers which handle the request. The response from the proxy server is returned as if it came directly from the original server, leaving the client with no knowledge of the origin servers.<ref name="apache-forward-reverse">{{cite web |url=http://httpd.apache.org/docs/2.0/mod/mod_proxy.html#forwardreverse |title=Forward and Reverse Proxies |work=httpd mod_proxy |publisher=Apache |accessdate=20 December 2010 }}</ref> Reverse proxies are installed in the neighborhood of one or more web servers. All traffic coming from the Internet and with a destination of one of the neighborhood's web servers goes through the proxy server. The use of "reverse" originates in its counterpart "forward proxy" since the reverse proxy sits closer to the web server and serves only a restricted set of websites. There are several reasons for installing reverse proxy servers:
+* Encryption / SSL acceleration: when secure web sites are created, the [[Secure Sockets Layer]] (SSL) encryption is often not done by the web server itself, but by a reverse proxy that is equipped with SSL acceleration hardware. Furthermore, a host can provide a single "SSL proxy" to provide SSL encryption for an arbitrary number of hosts; removing the need for a separate SSL Server Certificate for each host, with the downside that all hosts behind the SSL proxy have to share a common DNS name or IP address for SSL connections. This problem can partly be overcome by using the ''SubjectAltName'' feature of [[X.509]] certificates.
+* [[Load balancing (computing)|Load balancing]]: the reverse proxy can distribute the load to several web servers, each web server serving its own application area. In such a case, the reverse proxy may need to rewrite the URLs in each web page (translation from externally known URLs to the internal locations).
+* Serve/cache static content: A reverse proxy can offload the web servers by caching static content like pictures and other static graphical content.
+* Compression: the proxy server can optimize and compress the content to speed up the load time.
+* Spoon feeding: reduces resource usage caused by slow clients on the web servers by caching the content the web server sent and slowly "spoon feeding" it to the client. This especially benefits dynamically generated pages.
+* Security: the proxy server is an additional layer of defence and can protect against some OS and Web Server specific attacks. However, it does not provide any protection from attacks against the web application or service itself, which is generally considered the larger threat.
+* Extranet Publishing: a reverse proxy server facing the Internet can be used to communicate to a firewall server internal to an organization, providing [[extranet]] access to some functions while keeping the servers behind the firewalls. If used in this way, security measures should be considered to protect the rest of your infrastructure in case this server is compromised, as its web application is exposed to attack from the Internet.
+
+==Uses==
+
+===Monitoring and filtering===
+
+====Content-control software====
+{{Further|Content-control software}}
+A [[content filtering|content-filtering]] web proxy server provides administrative control over the content that may be relayed in one or both directions through the proxy. It is commonly used in both commercial and non-commercial organizations (especially schools) to ensure that Internet usage conforms to [[acceptable use policy]].
+
+A content filtering proxy will often support [[Authentication|user authentication]] to control web access. It also usually produces [[Server log|logs]], either to give detailed information about the URLs accessed by specific users, or to monitor [[Bandwidth (computers)|bandwidth]] usage statistics. It may also communicate to [[Daemon (computer software)|daemon]]-based and/or [[Internet Content Adaptation Protocol|ICAP]]-based [[antivirus software]] to provide security against virus and other [[malware]] by scanning incoming content in real time before it enters the network.
+
+Many workplaces, schools and colleges restrict the web sites and online services that are accessible and available in their buildings. Governments also censor undesirable content. This is done either with a specialized proxy, called a content filter (both commercial and free products are available), or by using a cache-extension protocol such as [[Internet Content Adaptation Protocol|ICAP]], that allows plug-in extensions to an open caching architecture.
+
+Websites commonly used by students to circumvent filters and access blocked content often include a proxy, from which the user can then access the websites that the filter is trying to block.
+
+Requests may be filtered by several methods, such as a [[Blacklist (Computing)|URL]] or [[DNSBL|DNS blacklists]] blacklist, [[URL]] regex filtering, [[MIME]] filtering, or content keyword filtering. Some products have been known to employ content analysis techniques to look for traits commonly used by certain types of content providers.{{citation needed|date=February 2014}} Blacklists are often provided and maintained by web-filtering companies, often grouped into categories (pornography, gambling, shopping, social networks, etc.).
+
+Assuming the requested URL is acceptable, the content is then fetched by the proxy. At this point a dynamic filter may be applied on the return path. For example, [[JPEG]] files could be blocked based on fleshtone matches, or language filters could dynamically detect unwanted language. If the content is rejected then an HTTP fetch error may be returned to the requester.
+
+Most web filtering companies use an internet-wide crawling robot that assesses the likelihood that a content is a certain type. The resultant database is then corrected by manual labor based on complaints or known flaws in the content-matching algorithms.
+
+Some proxies scan outbound content, e.g., for data loss prevention; or scan content for malicious software.
+
+====Filtering of encrypted data====
+Web filtering proxies are not able to peer inside secure sockets HTTP transactions, assuming the chain-of-trust of SSL/TLS ([[Transport Layer Security]]) has not been tampered with.
+
+The SSL/TLS chain-of-trust relies on trusted root certificate authorities. In a workplace setting where the client is managed by the organization, trust might be granted to a root certificate whose private key is known to the proxy. Consequently, a root certificate generated by the proxy is installed into the browser CA list by IT staff.
+
+In such situations, proxy analysis of the contents of a SSL/TLS transaction becomes possible. The proxy is effectively operating a [[man-in-the-middle attack]], allowed by the client's trust of a root certificate the proxy owns.
+
+====Bypassing filters and censorship====
+If the destination server filters content based on the origin of the request, the use of a proxy can circumvent this filter. For example, a server using [[Internet Protocol|IP]]-based [[geolocation]] to restrict its service to a certain country can be accessed using a proxy located in that country to access the service.
+
+Web proxies are the most common means of bypassing government censorship, although no more than 3% of Internet users use any circumvention tools.<ref>{{cite web |title=2010 Circumvention Tool Usage Report |url=http://cyber.law.harvard.edu/sites/cyber.law.harvard.edu/files/2010_Circumvention_Tool_Usage_Report.pdf |publisher=The Berkman Center for Internet & Society at Harvard University |date=October 2010}}</ref>
+
+In some cases, users can circumvent proxies which filter using blacklists using services designed to proxy information from a non-blacklisted location.<ref name="Bypassing a Filtering Proxy">{{cite web |url=http://sitevana.com/webtech/ |title=Using a Ninjaproxy to get through a filtered proxy. |work=advanced filtering mechanics |publisher=TSNP |accessdate=17 September 2011 }}</ref><!-- Eg. anonymous.org -->
+
+[[File:CPT-Proxy.svg|center|Many schools block access to popular websites such as Facebook. Students can use proxy servers to circumvent this security. However, by connecting to proxy servers, they might be opening themselves up to danger by passing sensitive information such as personal photos and passwords through the proxy server.  Some content filters block proxy servers in order to keep users from using them to bypass the filter.|thumb|400x400px]]
+
+====Logging and eavesdropping====
+Proxies can be installed in order to [[Eavesdropping|eavesdrop]] upon the data-flow between client machines and the web. All content sent or accessed&nbsp;– including passwords submitted and [[HTTP cookie|cookies]] used&nbsp;– can be captured and analyzed by the proxy operator. For this reason, passwords to online services (such as webmail and banking) should always be exchanged over a cryptographically secured connection, such as SSL.
+By chaining the proxies which do not reveal data about the original requester, it is possible to obfuscate activities from the eyes of the user's destination. However, more traces will be left on the intermediate hops, which could be used or offered up to trace the user's activities. If the policies and administrators of these other proxies are unknown, the user may fall victim to a false sense of security just because those details are out of sight and mind.
+In what is more of an inconvenience than a risk, proxy users may find themselves being blocked from certain Web sites, as numerous forums and Web sites [[IP address blocking|block IP addresses]] from proxies known to have [[Spam (electronic)|spammed]] or [[Troll (Internet)|trolled]] the site. Proxy bouncing can be used to maintain privacy.
+
+===Improving performance===
+A '''caching proxy''' server accelerates service requests by retrieving the content saved from a previous request made by the same client or even other clients. Caching proxies keep local copies of frequently requested resources, allowing large organizations to significantly reduce their upstream bandwidth usage and costs, while significantly increasing performance. Most ISPs and large businesses have a caching proxy. Caching proxies were the first kind of proxy server. Web proxies are commonly used to [[web cache|cache]] web pages from a web server.<ref>{{cite book |quote=A proxy server helps speed up Internet access by storing frequently accessed pages |first=Keir |last=Thomas |title=Beginning Ubuntu Linux: From Novice to Professional |publisher=Apress |year=2006 |isbn=978-1-59059-627-2 }}</ref> Poorly implemented caching proxies can cause problems, such as an inability to use user authentication.<ref name="rfc3143">{{cite IETF |title=Known HTTP Proxy/Caching Problems |rfc=3143 |coauthors=I. Cooper, J. Dilley |year=2001 |month=June |publisher=[[Internet Engineering Task Force|IETF]] |accessdate=February 2014 }}</ref>
+
+A proxy that is designed to mitigate specific link related issues or degradation is a [[Performance Enhancing Proxy]] (PEPs). These are typically used to improve [[Transmission Control Protocol|TCP]] performance in the presence of high round-trip times or high packet loss (such as wireless or mobile phone networks); or highly asymmetric links featuring very different upload and download rates. PEPs can make more efficient use of the network, for example, by merging TCP [[Acknowledgement (data networks)|ACKs]] (acknowledgements) or compressing data sent at the [[application layer]].<ref name="rfc3135.2.1">{{cite IETF |title=Performance Enhancing Proxies Intended to Mitigate Link-Related Degradations |rfc=3135 |sectionname=Layering |section=2.1 |page=4 |year=2001 |month=June |publisher=[[Internet Engineering Task Force|IETF]] |accessdate=21 February 2014 }}</ref>
+
+===Translation===
+A translation proxy is a proxy server that is used to localize a website experience for different markets.  Traffic from global audience is routed through the translation proxy to the source website.  As visitors browse the proxied site, requests go back to the source site where pages are rendered.  Original language content in the response is replaced by the translated content as it passes back through the proxy.  The translations used in a translation proxy can be either machine translation, human translation, or a combination of machine and human translation. Different translation proxy implementations have different capabilities.  Some allow further customization of the source site for local audience such as excluding the source content or substituting the source content with the original local content.
+
+===Repairing errors===
+A proxy can be used to automatically repair errors in the proxied content. For instance, the BikiniProxy system instruments Javascript code on the fly in order to detect and automatically repair errors happening in the browser.<ref>{{cite journal |last1=Durieux |first1=T. |last2=Hamadi |first2=Y. |last3=Monperrus |first3=M. |title=Fully Automated HTML and Javascript Rewriting for Constructing a Self-Healing Web Proxy |journal=2018 IEEE 29th International Symposium on Software Reliability Engineering (ISSRE) |date=2018 |doi=10.1109/ISSRE.2018.00012 |url=https://hal.archives-ouvertes.fr/hal-01746141/document}}</ref>. Another kind of repair that can be done by a proxy is to fix accessibility issues.<ref>{{Cite journal|last=Zhang|first=Xiaoyi|last2=Ross|first2=Anne Spencer|last3=Caspi|first3=Anat|last4=Fogarty|first4=James|last5=Wobbrock|first5=Jacob O.|date=2017|title=Interaction Proxies for Runtime Repair and Enhancement of Mobile Application Accessibility|url=https://dx.doi.org/10.1145/3025453.3025846|journal=Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems|doi=10.1145/3025453.3025846}}</ref> 
+
+===Accessing services anonymously===
+{{Main|Anonymizer}}
+An anonymous proxy server (sometimes called a web proxy) generally attempts to anonymize web surfing. There are different varieties of [[anonymizer]]s. The destination server (the server that ultimately satisfies the web request) receives requests from the anonymizing proxy server, and thus does not receive information about the end user's address. The requests are not anonymous to the anonymizing proxy server, however, and so a degree of trust is present between the proxy server and the user. Many proxy servers are funded through a continued advertising link to the user.
+
+'''Access control''': Some proxy servers implement a logon requirement. In large organizations, authorized users must log on to gain access to the [[World Wide Web|web]]. The organization can thereby track usage to individuals. Some anonymizing proxy servers may forward data packets with header lines such as HTTP_VIA, HTTP_X_FORWARDED_FOR, or HTTP_FORWARDED, which may reveal the IP address of the client. Other anonymizing proxy servers, known as elite or high-anonymity proxies, make it appear that the proxy server is the client. A website could still suspect a proxy is being used if the client sends packets which include a cookie from a previous visit that did not use the high-anonymity proxy server. Clearing cookies, and possibly the cache, would solve this problem.
+
+====QA geotargeted advertising====
+Advertisers use proxy servers for validating, checking and quality assurance of [[geotargeting|geotargeted ads]]. A geotargeting ad server checks the request source IP address and uses a [[Country ip database|geo-IP database]] to determine the geographic source of requests.<ref>{{cite web|title=Hot Tactics For Geo-Targeted Ads On Google & Bing|url=http://searchengineland.com/hot-tactics-for-geo-targeted-ads-on-google-bing-smx-east-173213|accessdate=7 February 2014}}</ref> Using a proxy server that is physically located inside a specific country or a city gives advertisers the ability to test geotargeted ads.
+
+===Security===
+A proxy can keep the internal network structure of a company secret by using [[network address translation]], which can help the [[computer security|security]] of the internal network.<ref>{{cite web |quote=The proxy server is, above all, a security device. |url=http://tldp.org/HOWTO/Firewall-HOWTO-11.html |publisher=tldp.org |title=Firewall and Proxy Server HOWTO |accessdate=4 September 2011 }}</ref> This makes requests from machines and users on the local network anonymous. Proxies can also be combined with [[firewall (computing)|firewall]]s.
+
+An incorrectly configured proxy can provide access to a network otherwise isolated from the Internet.<ref name="nmap">{{cite book |title=Nmap network scanning |last=Lyon |first=Gordon |authorlink=Gordon Lyon |year=2008 |publisher=Insecure |location=US |isbn=978-0-9799587-1-7 |page=270 }}</ref>
+
+====Cross-domain resources====
+Proxies allow web sites to make web requests to externally hosted resources (e.g. images, music files, etc.) when cross-domain restrictions prohibit the web site from linking directly to the outside domains. Proxies also allow the browser to make web requests to externally hosted content on behalf of a website when cross-domain restrictions (in place to protect websites from the likes of data theft) prohibit the browser from directly accessing the outside domains.
+
+===Malicious usages===
+====Secondary market brokers====
+Secondary market brokers use web proxy servers to buy large stocks of limited products such as limited sneakers<ref>{{cite web|title=Sneaker Bot Supreme Proxy|url=https://www.geosurf.com/sneaker-residential-ips-proxy/|publisher=GeoSurf|accessdate=24 September 2017}}</ref> or tickets.
+
+==Implementations of proxies==
+
+===Web proxy servers===
+Web proxies forward [[Hypertext Transfer Protocol|HTTP]] requests. The request from the client is the same as a [[Hypertext Transfer Protocol#Example session|regular HTTP request]] except the full URL is passed, instead of just the path.<ref name="rfc7230.5.3.2">{{cite IETF |title=HTTP/1.1 Message Syntax and Routing |quote=a client MUST send the target URI in absolute-form as the request-target |rfc=7230 |sectionname=absolute-form |section=5.3.2 |page=41 |year=2014 |month=June |publisher=[[Internet Engineering Task Force|IETF]] |accessdate=4 November 2017 }}</ref>
+
+<source lang="http">
+GET http://en.wikipedia.org/wiki/Proxy_server HTTP/1.1
+Proxy-Authorization: Basic encoded-credentials
+Accept: text/html
+
+</source>
+
+This request is sent to the proxy server, the proxy makes the request specified and returns the response.
+<source lang="http">
+HTTP/1.1 200 OK
+Content-Type: text/html; charset UTF-8
+
+</source>
+
+Some web proxies allow the [[HTTP tunnel#HTTP CONNECT method|HTTP CONNECT]] method to set up forwarding of arbitrary data through the connection; a common policy is to only forward port 443 to allow [[HTTPS]] traffic.
+
+Examples of web proxy servers include [[Apache HTTP Server|Apache]] (with [[mod_proxy]] or [[Traffic Server]]), [[HAProxy]], [[Internet Information Services|IIS]] configured as proxy (e.g., with Application Request Routing), [[Nginx]], [[Privoxy]], [[Squid (software)|Squid]], [[Varnish (software)|Varnish]] (reverse proxy only), [[WinGate]], [[Ziproxy]], Tinyproxy, [[RabbIT4]] and [[Polipo]].
+
+===SOCKS proxy===
+[[SOCKS]] also forwards arbitrary data after a connection phase, and is similar to HTTP CONNECT in web proxies.
+
+===Transparent proxy===
+<!-- was "Intercepting proxy servers" -->
+Also known as an '''intercepting proxy''', '''inline proxy''', or '''forced proxy''', a transparent proxy intercepts normal communication at the [[OSI model#Layer 3: network layer|network layer]] without requiring any special client configuration. Clients need not be aware of the existence of the proxy. A transparent proxy is normally located between the client and the Internet, with the proxy performing some of the functions of a [[Gateway (computer networking)|gateway]] or [[router (computing)|router]].<ref>{{cite web |url=http://www.ukproxyserver.org/transparent-proxy/ |archive-url=https://web.archive.org/web/20130301235707/http://www.ukproxyserver.org/transparent-proxy/ |dead-url=yes |archive-date=1 March 2013 |publisher=ukproxyserver.org |title=Transparent Proxy Definition |date=1 February 2011 |accessdate=14 February 2013 }}</ref>
+
+{{IETF RFC|2616}} (Hypertext Transfer Protocol—HTTP/1.1) offers standard definitions:
+
+"A 'transparent proxy' is a proxy that does not modify the request or response beyond what is required for proxy authentication and identification". "A 'non-transparent proxy' is a proxy that modifies the request or response in order to provide some added service to the user agent, such as group annotation services, media type transformation, protocol reduction, or anonymity filtering".
+
+TCP Intercept is a traffic filtering security feature that protects TCP servers from TCP [[SYN flood]] attacks, which are a type of denial-of-service attack. TCP Intercept is available for IP traffic only.
+
+In 2009 a security flaw in the way that transparent proxies operate was published by Robert Auger,<ref>{{cite web |url=http://www.thesecuritypractice.com/the_security_practice/2009/03/socket-capable-browser-plugins-result-in-transparent-proxy-abuse.html |title=Socket Capable Browser Plugins Result In Transparent Proxy Abuse |publisher=The Security Practice |date=9 March 2009 |accessdate=14 August 2010}}</ref> and the Computer Emergency Response Team issued an advisory listing dozens of affected transparent and intercepting proxy servers.<ref>{{cite web |url=http://www.kb.cert.org/vuls/id/435052|title=Vulnerability Note VU#435052 |publisher=[[United States Computer Emergency Readiness Team|US CERT]] |date=23 February 2009|accessdate=14 August 2010}}</ref>
+
+====Purpose====
+Intercepting proxies are commonly used in businesses to enforce acceptable use policy, and to ease administrative overheads, since no client browser configuration is required. This second reason however is mitigated by features such as Active Directory group policy, or [[Dynamic Host Configuration Protocol|DHCP]] and automatic proxy detection.
+
+Intercepting proxies are also commonly used by ISPs in some countries to save upstream bandwidth and improve customer response times by caching. This is more common in countries where bandwidth is more limited (e.g. island nations) or must be paid for.
+
+====Issues====
+The diversion / interception of a TCP connection creates several issues. Firstly the original destination IP and port must somehow be communicated to the proxy. This is not always possible (e.g., where the gateway and proxy reside on different hosts). There is a class of [[Cross-site scripting|cross site attacks]] that depend on certain behaviour of intercepting proxies that do not check or have access to information about the original (intercepted) destination. This problem may be resolved by using an integrated packet-level and application level appliance or software which is then able to communicate this information between the packet handler and the proxy.
+
+Intercepting also creates problems for [[HTTP]] authentication, especially connection-oriented authentication such as [[NTLM]], as the client browser believes it is talking to a server rather than a proxy. This can cause problems where an intercepting proxy requires authentication, then the user connects to a site which also requires authentication.
+
+Finally intercepting connections can cause problems for HTTP caches, as some requests and responses become uncacheable by a shared cache.
+
+====Implementation methods====
+In integrated firewall / proxy servers where the router/firewall is on the same host as the proxy, communicating original destination information can be done by any method, for example [[Microsoft Forefront Threat Management Gateway|Microsoft TMG]] or [[WinGate]].
+
+Interception can also be performed using Cisco's [[Web Cache Communication Protocol|WCCP]] (Web Cache Control Protocol). This proprietary protocol resides on the router and is configured from the cache, allowing the cache to determine what ports and traffic is sent to it via transparent redirection from the router. This redirection can occur in one of two ways: GRE Tunneling (OSI Layer 3) or MAC rewrites (OSI Layer 2).
+
+Once traffic reaches the proxy machine itself interception is commonly performed with NAT (Network Address Translation). Such setups are invisible to the client browser, but leave the proxy visible to the web server and other devices on the internet side of the proxy. Recent Linux and some BSD releases provide TPROXY (transparent proxy) which performs IP-level (OSI Layer 3) transparent interception and spoofing of outbound traffic, hiding the proxy IP address from other network devices.
+
+====Detection====
+There are several methods that can often be used to detect the presence of an intercepting proxy server:
+
+* By comparing the client's external IP address to the address seen by an external web server, or sometimes by examining the HTTP headers received by a server. A number of sites have been created to address this issue, by reporting the user's IP address as seen by the site back to the user in a web page. Google also returns the IP address as seen by the page if the user searches for "IP".
+* By comparing the result of online IP checkers when accessed using https vs http, as most intercepting proxies do not intercept SSL. If there is suspicion of SSL being intercepted, one can examine the certificate associated with any secure web site, the root certificate should indicate whether it was issued for the purpose of intercepting.
+* By comparing the sequence of network hops reported by a tool such as [[traceroute]] for a proxied protocol such as http (port 80) with that for a non proxied protocol such as SMTP (port 25).<ref>{{cite web|url=http://svn.haxx.se/dev/archive-2003-02/0257.shtml|title=Subversion Dev: Transparent Proxy detection (was Re: Introduction_|publisher=Tracetop.sourceforge.net|accessdate=16 November 2014}}</ref>
+* By attempting to make a connection to an IP address at which there is known to be no server. The proxy will accept the connection and then attempt to proxy it on. When the proxy finds no server to accept the connection it may return an error message or simply close the connection to the client. This difference in behaviour is simple to detect. For example, most web browsers will generate a browser created error page in the case where they cannot connect to an HTTP server but will return a different error in the case where the connection is accepted and then closed.<ref>{{cite book |last=Wessels |first=Duane |year=2004 |title=Squid The Definitive Guide |publisher=O'Reilly |isbn=978-0-596-00162-9 |pages=130}}</ref>
+* By serving the end-user specially programmed Adobe Flash SWF applications or Sun Java applets that send HTTP calls back to their server.
+
+===CGI proxy===
+A [[Common Gateway Interface|CGI]] web proxy accepts target URLs using a [[Web form]] in the user's browser window, processes the request, and returns the results to the user's browser.  Consequently, it can be used on a device or network that does not allow "true" proxy settings to be changed. The first recorded CGI proxy, named "rover" at the time but renamed in 1998 to "CGIProxy"<ref>{{cite web |last1=Marshall |first1=James |title=CGIProxy |url=https://www.jmarshall.com/tools/cgiproxy/ |accessdate=12 November 2018}}</ref>
+, was developed by American computer scientist James Marshall in early 1996 for an article in "Unix Review" by Rich Morin.<ref>{{cite web |title=The Limits of Control |url=http://www.cfcl.com/rdm/Pubs/tin/P/199606.shtml |date=June 1996 |accessdate=November 12, 2018}}</ref>
+
+The majority of CGI proxies are powered by one of CGIProxy (written in the [[Perl]] language), Glype (written in the [[PHP]] language), or PHProxy (written in the [[PHP]] language). As of April 2016, CGIProxy has received about 2 million downloads, Glype has received almost a million downloads,<ref>https://www.glype.com/ - dead url, archived at https://archive.fo/P9rjE</ref> whilst PHProxy still receives hundreds of downloads per week.<ref>{{cite web|url=https://sourceforge.net/projects/poxy/|title=PHProxy|publisher=}}</ref> Despite waning in popularity <ref>{{cite web|url=https://www.google.com/trends/explore?date=all&q=glype%20proxy|title=Google Trends|publisher=}}</ref> due to [[VPN]]s and other privacy methods, there are still several thousand CGI proxies online.<ref>{{cite web|url=http://getproxi.es/proxy-stats/|title=Proxy Stats :: Get Proxi.es|publisher=}}</ref>
+
+Some CGI proxies were set up for purposes such as [[Web Accessibility Initiative|making websites more accessible]] to disabled people, but have since been shut down due to [[Web traffic#traffic overload|excessive traffic]], usually caused by a [[Slashdot effect|third party advertising the service]] as a means to bypass local filtering.  Since many of these users don't care about the collateral damage they are causing, it became necessary for organizations to hide their proxies, disclosing the URLs only to those who take the trouble to contact the organization and demonstrate a genuine need.{{citation needed|date=December 2013}}
+
+===Suffix proxy===
+A suffix proxy allows a user to access web content by appending the name of the proxy server to the URL of the requested content (e.g. "en.wikipedia.org.''SuffixProxy.com''"). Suffix proxy servers are easier to use than regular proxy servers but they do not offer high levels of anonymity and their primary use is for bypassing web filters. However, this is rarely used due to more advanced web filters.
+
+===Tor onion proxy software===
+{{Main|Tor (anonymity network)}}
+[[File:Vidalia-0.0.11-svn.png|right|thumb|alt=Screenshot of computer program showing computer locations on a world map.|The [[Vidalia project|Vidalia]] Tor-network map.]]
+
+'''Tor''' (short for '''The Onion Router''') is a system intended to enable [[internet anonymity|online anonymity]].<ref name="Glater">{{cite news |url=https://www.nytimes.com/2006/01/25/technology/techspecial2/25privacy.html?_r=1 |title=Privacy for People Who Don't Show Their Navels |first=Jonathan |last=Glater |newspaper=The New York Times |date=25 January 2006 |accessdate=4 August 2011 }}</ref> Tor client software routes Internet traffic through a worldwide volunteer network of servers in order to conceal a user's location or usage from someone conducting [[Computer surveillance#Network surveillance|network surveillance]] or [[Traffic analysis#In computer security|traffic analysis]]. Using Tor makes it more difficult to trace Internet activity, including "visits to Web sites, online posts, instant messages and other communication forms", back to the user.<ref name="Glater" /> It is intended to protect users' personal freedom, privacy, and ability to conduct confidential business by keeping their internet activities from being monitored.
+
+"[[Onion routing]]" refers to the layered nature of the encryption service: The original data are encrypted and re-encrypted multiple times, then sent through successive Tor relays, each one of which decrypts a "layer" of encryption before passing the data on to the next relay and ultimately the destination.  This reduces the possibility of the original data being unscrambled or understood in transit.<ref name="torproject">{{cite web| last = The Tor Project | title = Tor: anonymity online | url = https://www.torproject.org/ | accessdate=9 January 2011}}</ref>
+
+The Tor client is [[free software]], and there are no additional charges to use the network.
+
+===I2P anonymous proxy===
+{{Main|I2P}}
+
+The [[I2P|I2P anonymous network]] ('I2P') is a proxy network aiming at [[internet anonymity|online anonymity]].  It implements [[garlic routing]], which is an enhancement of [[Tor (anonymity network)|Tor]]'s [[onion routing]].  I2P is fully distributed and works by encrypting all communications in various layers and relaying them through a network of routers run by volunteers in various locations. By keeping the source of the information hidden, I2P offers censorship resistance. The goals of I2P are to protect users' personal freedom, privacy, and ability to conduct confidential business.
+
+Each user of I2P runs an I2P router on their computer (node). The I2P router takes care of finding other peers and building anonymizing tunnels through them. I2P provides proxies for all protocols (HTTP, [[IRC]], [[SOCKS]], ...).
+
+The software is [[free software|free and open-source]], and the network is free of charge to use.
+
+===Proxy vs. NAT===
+Most of the time 'proxy' refers to a layer-7 application on the [[OSI model|OSI reference model]]. However, another way of proxying is through layer-3 and is known as [[Network address translation|Network Address Translation]] (NAT).
+The difference between these two proxy technologies is the layer in which they operate, and the procedure to configuring the proxy clients and proxy servers.
+
+In client configuration of layer-3 proxy (NAT), configuring the gateway is sufficient. However, for client configuration of a layer-7 proxy, the destination of the packets that the client generates must always be the proxy server (layer-7), then the proxy server reads each packet and finds out the true destination.
+
+Because NAT operates at layer-3, it is less resource-intensive than the layer-7 proxy, but also less flexible. As we compare these two technologies, we might encounter a terminology known as 'transparent firewall'. '''Transparent firewall''' means that the layer-3 proxy uses the layer-7 proxy advantages without the knowledge of the client. The client presumes that the gateway is a NAT in layer-3, and it does not have any idea about the inside of the packet, but through this method the layer-3 packets are sent to the layer-7 proxy for investigation.
+
+===DNS proxy===
+A [[Domain Name System|DNS]] proxy server takes DNS queries from a (usually local) network and forwards them to an Internet Domain Name Server. It may also cache DNS records.
+
+==See also==
+
+===Overview and discussions===
+* [[Comparison of web server software]]
+* [[Darknet]]
+* [[SMTP proxy]]
+* [[Web accelerator]] which discusses host-based HTTP acceleration
+* [[Web cache]]
+
+===Proxifiers===
+There are client programs that "SOCKS-ify",<ref>{{cite book |last1=Zwicky |first1=Elizabeth D. |last2=Cooper |first2=Simon |last3=Chapman |first3=D. Brent |year=2000 |title=Building Internet Firewalls |edition=2nd |isbn=978-1-56592-871-8 |page=235 }}</ref> which allows adaptation of any networked software to connect to external networks via certain types of proxy servers (mostly SOCKS).
+
+===Diverse topics===
+* [[Application firewall]]
+* [[Captive portal]]
+* [[Distributed Checksum Clearinghouse]]
+* [[Internet privacy]]
+* [[Proxy list]]
+* [[SOCKS]] an alternative firewall traversal protocol supported by many applications
+
+==References==
+{{Reflist|colwidth=30em}}
+
+==External links==
+{{Prone to spam|date=August 2016}}
+{{Z148}}
+* {{dmoz|Computers/Internet/Proxying_and_Filtering/Products_and_Tools/Software|Proxy software and scripts}}
+* {{dmoz|Computers/Internet/Proxying_and_Filtering/Hosted_Proxy_Services/Free/CGI_Proxy|Free web-based proxy services}}
+* {{dmoz|Computers/Internet/Proxying_and_Filtering/Hosted_Proxy_Services/Free/Proxy_Lists|Free http proxy servers}}
+
+{{Use dmy dates|date=January 2011}}
+
+{{DEFAULTSORT:Proxy Server}}
+[[Category:Computer networking]]
+[[Category:Network performance]]
+[[Category:Internet architecture]]
+[[Category:Internet privacy]]
+[[Category:Computer security software]]
+[[Category:Proxy servers| ]]

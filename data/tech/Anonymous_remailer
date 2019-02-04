@@ -1,0 +1,97 @@
+{{More citations needed|date=March 2008}}
+
+An '''anonymous remailer''' is a [[Server (computing)|server]] that receives messages with embedded instructions on where to send them next, and that forwards them without revealing where they originally came from. There are [[Cypherpunk anonymous remailer]]s, [[Mixmaster anonymous remailer]]s, and [[Pseudonymous remailer|nym server]]s, among others, which differ in how they work, in the policies they adopt, and in the type of attack on anonymity of e-mail they can (or are intended to) resist. ''Remailing'' as discussed in this article applies to e-mails intended for particular recipients, not the general public. Anonymity in the latter case is more easily addressed by using any of several methods of anonymous publication.
+
+==Types of remailer==
+There are several strategies that affect the anonymity of the handled e-mail. In general, different classes of anonymous remailers differ with regard to the choices their designers/operators have made. These choices can be influenced by the legal ramifications of operating specific types of remailers.<ref>du Pont, George F. (2001) [http://www.thsh.com/documents/JTLM.pdf The Time Has Come for Limited Liability for Operators of True Anonymity Remailers in Cyberspace: An Examination of the Possibilities and Perils]"Journal of Technology Law & Policy"</ref>
+
+It must be understood that every [[data packet]] traveling on the [[Internet]] contains the node addresses (as raw [[Internet Protocol|IP]] bit strings) of both the sending and intended recipient nodes, and so no data packet can ''ever'' actually be anonymous at this level {{citation needed|date=January 2016}}. In addition, all standards-based e-mail messages contain defined fields in their headers in which the source and transmitting entities (and Internet nodes as well) are required to be included.
+
+Some remailers change both types of address in messages they forward, and the list of forwarding nodes in e-mail messages as well, as the message passes through; in effect, they substitute 'fake source addresses' for the originals. The 'IP source address' for that packet may become that of the remailer server itself, and within an e-mail message (which is usually several packets), a nominal 'user' on that server. Some remailers forward their anonymized e-mail to still other remailers, and only after several such hops is the e-mail actually delivered to the intended address.
+
+There are, more or less, four types of remailers:
+
+===Pseudonymous remailers===
+A [[pseudonymous remailer]] simply takes away the e-mail address of the sender, gives a pseudonym to the sender, and sends the message to the intended recipient (that can be answered via that remailer).
+
+===Cypherpunk remailers, also called Type I===
+A [[Cypherpunk anonymous remailer|Cypherpunk remailer]] sends the message to the recipient, stripping away the sender address on it. One can not answer a message sent via a Cypherpunk remailer. The message sent to the remailer can usually be encrypted, and the remailer will decrypt it and send it to the recipient address hidden inside the encrypted message. In addition, it is possible to chain two or three remailers, so that each remailer can't know who is sending a message to whom. Cypherpunk remailers do not keep logs of transactions.
+
+===Mixmaster remailers, also called Type II===
+In [[Mixmaster anonymous remailer|Mixmaster]], the user composes an email to a remailer, which is relayed through each node in the network using [[SMTP]], until it finally arrives at the final recipient. Mixmaster can only send emails one way. An email is sent anonymously to an individual, but for them to be able to respond, a reply address must be included in the body of the email. Also, Mixmaster remailers require the use of a computer program to write messages. Such programs are not supplied as a standard part of most operating systems or mail management systems.
+
+===Mixminion remailers, also called Type III===
+A [[Mixminion]] remailer attempts to address the following challenges in Mixmaster remailers: replies, forward anonymity, replay prevention and key rotation, exit policies, integrated directory servers and dummy traffic. They are currently available for the Linux and Windows platforms. Some implementations are open source.
+
+==Traceable remailers==
+<!-- appropriate citations for the penet.fi / Scientology case look to be available on the penet remailer Wikipedia article -->
+Some remailers establish an internal list of actual senders and invented names such that a recipient can send mail to ''invented name'' AT ''some-remailer.example''. When receiving traffic addressed to this user, the server software consults that list, and forwards the mail to the original sender, thus permitting anonymous—though traceable with access to the list—two way communication. The famous "[[penet remailer|penet.fi]]" remailer in Finland did just that for several years.<ref>{{cite press release | url = https://w2.eff.org/Privacy/Anonymity/960830_penet_closure.announce | title = Johan Helsingius closes his Internet remailer | date = 1996-08-30 | accessdate = 2014-10-09 }}</ref> Because of the existence of such lists in this type of remailing server, it is possible to break the anonymity by gaining access to the list(s), by breaking into the computer, asking a court (or merely the police in some places) to order that the anonymity be broken, and/or bribing an attendant. This happened to penet.fi as a result of some traffic passed through it about [[Scientology]].{{Citation needed |date=October 2012}} The Church claimed copyright infringement and sued penet.fi's operator. A court ordered the list be made available. Penet's operator shut it down after destroying its records (including the list) to retain [[digital identity|identity]] [[confidentiality]] for its users; though not before being forced to supply the court with the real e-mail addresses of two of its users.{{Citation needed |date=October 2012}}
+
+More recent remailer designs use [[cryptography]] in an attempt to provide more or less the same service, but without so much risk of loss of user confidentiality. These are generally termed [[nym server]]s or [[pseudonymous remailer]]s. The degree to which they remain vulnerable to forced disclosure (by courts or police) is and will remain unclear, since new statutes/regulations and new [[cryptanalytic]] developments proceed apace. Multiple anonymous forwarding among cooperating remailers in different jurisdictions may retain, but cannot guarantee, anonymity against a determined attempt by one or more governments, or civil litigators.
+
+==Untraceable remailers==
+If users accept the loss of two-way interaction, identity anonymity can be made more secure.
+
+By not keeping any list of users and corresponding anonymizing labels for them, a remailer can ensure that any message that has been forwarded leaves no internal information behind that can later be used to break identity confidentiality. However, while being handled, messages remain vulnerable within the server (e.g., to [[Trojan horse (computing)|Trojan]] software in a compromised server, to a compromised server operator, or to mis-administration of the server), and [[traffic analysis]] comparison of traffic into and out of such a server can suggest quite a lot—far more than almost any would credit.
+
+The [[Mixmaster anonymous remailer|Mixmaster]] strategy is designed to defeat such attacks, or at least to increase their cost (i.e., to 'attackers') beyond feasibility. If every message is passed through several servers (ideally in different legal and political jurisdictions), then attacks based on legal systems become considerably more difficult, if only because of '[[Carl von Clausewitz#Principal ideas|Clausewitz]]ian' friction among lawyers, courts, different statutes, organizational rivalries, legal systems, etc. And, since many different servers and server operators are involved, subversion of any (i.e., of either system or operator) becomes less effective also since no one (most likely) will be able to subvert the entire chain of remailers.
+
+[[Random]] [[padding (cryptography)|padding]] of messages, random delays before forwarding, and encryption of forwarding information between forwarding remailers, increases the degree of difficulty for attackers still further as message size and timing can be largely eliminated as traffic analysis clues, and lack of easily readable forwarding information renders ineffective simple automated traffic analysis algorithms.
+
+==Web based mailer==
+There are also web services that allow users to send anonymous e-mail messages. These services do not provide the anonymity of real remailers, but they are easier to use. When using a web-based anonymous e-mail or anonymous remailer service, its reputation should first be analyzed, since the service stands between senders and recipients. Some of the aforementioned web services log the users I.P. addresses to ensure they do not break the law; others offer superior anonymity with attachment functionality by choosing to trust that the users will not breach the websites Terms of Service (TOS).<ref>{{cite web|title=Amnesty Box|url=http://www.amnestybox.com|accessdate=29 March 2012}}</ref>
+
+==Remailer statistics==
+{{expand section|date=January 2014}}
+In most cases, remailers are owned and operated by individuals, and are not as stable as they might ideally be. In fact, remailers can, and have, gone down without warning. It is important to use up-to-date [[statistics]] when choosing remailers.
+
+==Remailer abuse and blocking by governments ==
+{{expand section|date=October 2012}}
+Although most re-mailer systems are used responsibly, the anonymity they provide can be exploited by entities or individuals whose reasons for anonymity are not necessarily benign.
+
+Such reasons could include support for violent extremist actions,{{citation needed|date=October 2012}} sexual exploitation of children {{citation needed|date=October 2012}} or more commonly to frustrate accountability for 'trolling' and harassment of targeted individuals, or companies (The Dizum.com re-mailer chain being abused as recently as May 2013{{citation needed|date=October 2013}} for this purpose.)
+
+The response of some re-mailers to this abuse potential is often to disclaim responsibility (as dizum.com does<ref name="DZ">{{cite web|url=https://dizum.com/help/usenet.html |title=DIZUM FAQ |accessdate=November 1, 2012 |deadurl=yes |archiveurl=https://web.archive.org/web/20100710023752/http://dizum.com/help/usenet.html |archivedate=July 10, 2010 }}</ref>), as owing to the technical design (and ethical principles) of many systems, it is impossible for the operators to physically unmask those using their systems. Some re-mailer systems go further and claim that it would be illegal for them to monitor for certain types abuse at all.<ref name="DZ"/>
+
+Until technical changes were made in the remailers concerned  in the mid-2000s, some re-mailers (notably nym.alias.net based systems) were seemingly willing to use any genuine (and thus valid) but otherwise forged address.  This loophole allowed trolls to mis-attribute controversial claims or statements with the aim of causing offence, upset or harassment to the genuine holder(s) of the address(es) forged.
+
+While re-mailers may disclaim responsibility, the comments posted via them have led to them being blocked in some countries. In 2014, dizum.com (a [[Netherlands]]-based remailer) was seemingly blocked by authorities in Pakistan,{{citation needed|date=January 2014}} because comments an (anonymous) user of that service had made concerning key figures in Islam.
+
+==See also==
+
+{{Portal|Cryptography}}
+
+* [[Anonymity]]
+** [[Anonymity application]]
+** [[Anonymous blogging]]
+** [[Anonymous P2P]]
+** Anonymous remailer
+*** [[Cypherpunk anonymous remailer]] (Type I)
+*** [[Mixmaster anonymous remailer]] (Type II)
+*** [[Mixminion]] anonymous remailer (Type III)
+** [[Anonymous web browsing]]
+* [[Data privacy]]
+* [[Identity theft]]
+* [[Internet privacy]]
+* [[Personally identifiable information]]
+* [[Privacy software]] and [[Privacy-enhancing technologies]]
+** [[I2P]]
+** [[I2P#I2P-Bote|I2P-Bote]]
+** [[Java Anon Proxy]]
+** [[Onion routing]]
+*** [[Tor (anonymity network)]]
+* [[Pseudonymity]], [[Pseudonymization]]
+** [[Pseudonymous remailer]] (a.k.a. nym servers)
+*** [[Penet remailer]]
+* [[Traffic analysis]]
+* [[Winston Smith Project]]
+* [[Mix network]]
+
+==References==
+{{reflist}}
+* [http://freehaven.net/anonbib/cache/rprocess.html Remailer Vulnerabilities]
+* ''Email Security'', [[Bruce Schneier]] ({{ISBN|0-471-05318-X}})
+* ''Computer Privacy Handbook'', Andre Bacard ({{ISBN|1-56609-171-3}})
+
+[[Category:Anonymous file sharing networks]]
+[[Category:Internet Protocol based network software]]

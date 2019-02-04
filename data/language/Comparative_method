@@ -1,0 +1,485 @@
+{{for|other kinds of comparative methods|Comparative (disambiguation)}}
+[[File:Romance-lg-classification-en.svg|thumb|375px|Linguistic map representing a [[tree model]] of the [[Romance languages]] based on the comparative method. Here the family tree has been rendered as an [[Euler diagram]] without overlapping subareas. The [[Wave model (linguistics)|wave model]] allows overlapping regions.]]
+
+In [[linguistics]], the '''comparative method''' is a technique for studying the development of languages by performing a feature-by-feature comparison of two or more languages with [[Genetic relationship (linguistics)|common descent]] from a shared ancestor, in order to extrapolate back to infer the properties of that ancestor. The comparative method may be contrasted with the method of [[internal reconstruction]], in which the internal development of a single language is inferred by the analysis of features within that language.<ref>{{harvnb|Lehmann|1993|pp=31 ff}}.</ref> Ordinarily both methods are used together to reconstruct prehistoric phases of languages, to fill in gaps in the historical record of a language, to discover the development of phonological, morphological, and other linguistic systems, and to confirm or refute hypothesised relationships between languages.
+
+The comparative method was developed over the 19th century. Key contributions were made by the Danish scholars [[Rasmus Christian Rask|Rasmus Rask]] and [[Karl Verner]] and the German scholar [[Jacob Grimm]]. The first linguist to offer reconstructed forms from a [[proto-language]] was [[August Schleicher]], in his ''Compendium der vergleichenden Grammatik der indogermanischen Sprachen'', originally published in 1861.<ref>{{harvnb|Lehmann|1993|p=26}}.</ref> Here is Schleicher's explanation of why he offered reconstructed forms:<ref>{{harvnb|Schleicher|1874|p=8}}.</ref>
+<blockquote>In the present work an attempt is made to set forth the inferred [[Proto-Indo-European language|Indo-European original language]] side by side with its really existent derived languages. Besides the advantages offered by such a plan, in setting immediately before the eyes of the student the final results of the investigation in a more concrete form, and thereby rendering easier his insight into the nature of particular [[Indo-European languages]], there is, I think, another of no less importance gained by it, namely that it shows the baselessness of the assumption that the non-Indian Indo-European languages were derived from Old-Indian ([[Sanskrit]]).</blockquote>
+
+== Demonstrating genetic relationship ==
+The comparative method aims to prove that two or more historically [[attested language]]s descend from a single [[proto-language]] by comparing lists of [[cognate]] terms. From them, regular sound correspondences between the languages are established, and a sequence of regular [[sound change]]s can then be postulated, which allows the [[Linguistic reconstruction|reconstruction]] of a proto-language. Relation is deemed certain only if at least a partial reconstruction of the common ancestor is feasible, and if regular sound correspondences can be established—with chance similarities ruled out.
+
+===Terminology===
+''Descent'' is defined as transmission across the generations: children learn a language from the parents' generation and after being influenced by their peers transmit it to the next generation, and so on. For example, a continuous chain of speakers across the centuries links [[Vulgar Latin]] to all of its modern descendants.
+
+Two languages are ''[[genetic (linguistics)|genetically]] related'' if they descended from the same [[Proto-language|ancestor language]].<ref>{{harvnb|Lyovin|1997|pp= 1–2}}.</ref> For example, [[Italian language|Italian]] and [[French language|French]] both come from [[Latin]] and therefore belong to the same family, the [[Romance languages]].<ref>{{harvnb|Beekes|1995|p= 25}}.</ref> Having a large component of vocabulary from a certain origin is not sufficient to establish relatedness: for example, as a result of heavy [[loanword|borrowing]] from [[Arabic language|Arabic]] into [[Persian language|Persian]], Modern Persian in fact takes more of its [[vocabulary]] from Arabic than from its direct ancestor, [[Proto-Indo-Iranian language|Proto-Indo-Iranian]], but Persian remains a member of the Indo-Iranian family and is not considered "related" to Arabic.<ref>{{harvnb|Campbell|2000|p= 1341}}</ref>
+
+However, it is possible for languages to have different degrees of relatedness. [[English language|English]], for example, is related both to [[German language|German]] and to [[Russian language|Russian]], but is more closely related to the former than to the latter. Although all three languages share a common ancestor, [[Proto-Indo-European language|Proto-Indo-European]], English and German also share a more recent common ancestor, [[Proto-Germanic language|Proto-Germanic]], while Russian does not. Therefore, English and German are considered to belong to a different subgroup, the [[Germanic languages]].<ref>{{harvnb|Beekes|1995|pp= 22, 27–29}}.</ref>
+
+''Shared retentions'' from the parent language are not sufficient evidence of a sub-group. For example, German and Russian both retain from Proto-Indo-European a contrast between the [[dative case]] and the [[accusative case]], which English has lost. However, this similarity between German and Russian is not evidence that German is more closely related to Russian than to English; it only means that the ''innovation'' in question—the loss of the accusative/dative distinction—happened more recently in English than the divergence of English from German. The division of related languages into sub-groups is more certainly accomplished by finding ''shared linguistic innovations'' differentiating them from the parent language, rather than shared features retained from the parent language.
+
+===Origin and development of the method===
+[[File:Sajnovics - Demonstratio.jpg|thumb|left|Title page of Sajnovic's 1770 work.]]
+Languages have been compared since antiquity. For example, in the 1st century BC the Romans were aware of the similarities between Greek and Latin, which they explained mythologically, as the result of Rome being a Greek colony speaking a debased dialect. In the 9th or 10th century AD, [[Yehuda Ibn Quraysh]] compared the phonology and morphology of Hebrew, Aramaic, and Arabic, but attributed this resemblance to the Biblical story of Babel, with Abraham, Isaac and Joseph retaining Adam's language, with other languages at various removes becoming more altered from the original Hebrew.<ref>"The reason for this similarity and the cause of this intermixture was their close neighboring in the land and their genealogical closeness, since Terah the father of Abraham was Syrian, and Laban was Syrian. Ishmael and Kedar were Arabized from the Time of Division, the time of the confounding [of tongues] at Babel, and Abraham and Isaac and Jacob (peace be upon them) retained the Holy Tongue from the original Adam." [http://lameen.googlepages.com/ibn-quraysh.html Introduction of Risalat Yehuda Ibn Quraysh – مقدمة رسالة يهوذا بن قريش]</ref>
+
+In publications of 1647 and 1654, [[Marcus van Boxhorn]] first described a rigid methodology for historical linguistic comparisons<ref name=Driem>George van Driem [http://www.eastling.org/paper/Driem.pdf The genesis of polyphyletic linguistics] {{webarchive |url=https://web.archive.org/web/20110726012439/http://www.eastling.org/paper/Driem.pdf |date=26 July 2011 }}</ref> and proposed the existence of an [[Indo-European languages|Indo-European]] proto-language (which he called "Scythian") unrelated to Hebrew, but ancestral to Germanic, Greek, Romance, Persian, Sanskrit, Slavic, Celtic and Baltic languages. The Scythian theory was further developed by [[Andreas Jäger]] (1686) and [[William Wotton]] (1713), who made early forays to reconstruct this primitive common language.<!-- ?? Perhaps he just proposed to do so. --> In 1710 and 1723 [[Lambert ten Kate]] first formulated the regularity of [[sound law]]s, introducing among others, the term [[root vowel]].<ref name=Driem/>
+
+Another early systematic attempt to prove the relationship between two languages on the basis of similarity of [[grammar]] and [[lexicon]] was made by the Hungarian [[János Sajnovics]] in 1770, when he attempted to demonstrate the relationship between [[Sami languages|Sami]] and [[Hungarian language|Hungarian]] (work that was later extended to the whole [[Finno-Ugric languages|Finno-Ugric language family]] in 1799 by his countryman [[Samuel Gyarmathi]]),<ref name="ssix">{{harvnb|Szemerényi|1996|p= 6}}.</ref> But the origin of modern [[historical linguistics]] is often traced back to [[William Jones (philologist)|Sir William Jones]], an English [[Philology|philologist]] living in [[India]], who in 1786 made his famous {{nowrap|observation:<ref>{{cite web|last= Jones|first= Sir William|title= The Third Anniversary Discourse delivered 2 February 1786 By the President [on the Hindus]|editor-first= Guido|editor-last= Abbattista|publisher= Eliohs Electronic Library of Historiography|url= http://www.eliohs.unifi.it/testi/700/jones/Jones_Discourse_3.html|accessdate= 18 December 2009}}</ref>}}
+<blockquote>The [[Sanskrit|Sanscrit language]], whatever be its antiquity, is of a wonderful structure; more perfect than the [[Ancient Greek language|Greek]], more copious than the [[Latin language|Latin]], and more exquisitely refined than either, yet bearing to both of them a stronger affinity, both in the roots of verbs and the forms of grammar, than could possibly have been produced by accident; so strong indeed, that no philologer could examine them all three, without believing them to have sprung from some common source, which, perhaps, no longer exists.  There is a similar reason, though not quite so forcible, for supposing that both the [[Gothic language|Gothick]] and the [[Celtic languages|Celtick]], though blended with a very different idiom, had the same origin with the Sanscrit; and the [[Old Persian language|old Persian]] might be added to the same family.</blockquote>
+
+The comparative method developed out of attempts to reconstruct the proto-language mentioned by Jones, which he did not name, but which subsequent linguists labelled [[Proto-Indo-European language|Proto-Indo-European]] (PIE). The first professional comparison between the [[Indo-European languages]] known then was made by the German linguist [[Franz Bopp]] in 1816. Though he did not attempt a reconstruction, he demonstrated that Greek, Latin and Sanskrit shared a common structure and a common lexicon.<ref>{{harvnb|Szemerényi|1996|pp= 5–6}}</ref> [[Karl Wilhelm Friedrich von Schlegel|Friedrich Schlegel]] in 1808 first stated the importance of using the eldest possible form of a language when trying to prove its relationships;<ref>{{harvnb|Szemerényi|1996|p= 7}}</ref> in 1818, [[Rasmus Christian Rask]] developed the principle of regular sound-changes to explain his observations of similarities between individual words in the Germanic languages and their cognates in Greek and {{nowrap|Latin.<ref>{{harvnb|Szémerenyi|1996|p=17}}</ref>}} [[Jacob Grimm]]—better known for his ''[[Grimm's Fairy Tales|Fairy Tales]]''—in ''Deutsche Grammatik'' (published 1819–1837 in four volumes) made use of the comparative method in attempting to show the development of the [[Germanic languages]] from a common origin, the first systematic study of [[Historical linguistics|diachronic]] language change.<ref>{{harvnb|Szemerényi|1996|pp=7–8}}.</ref>
+
+Both Rask and Grimm were unable to explain apparent exceptions to the sound laws that they had discovered. Although [[Hermann Grassmann]] explained one of these anomalies with the publication of [[Grassmann's law]] in 1862,<ref>{{harvnb|Szemerényi|1996|p=19}}.</ref> [[Karl Verner]] made a methodological breakthrough in 1875 when he identified a pattern now known as [[Verner's law]], the first sound-law based on comparative evidence showing that a [[phonology|phonological]] change in one [[phoneme]] could depend on other factors within the same word (such as the neighbouring phonemes and the position of the [[Stress (linguistics)|accent]]<ref>{{harvnb|Szemerényi|1996|p=20}}.</ref>), now called ''conditioning environments''.
+
+Similar discoveries made by the ''Junggrammatiker'' (usually translated as "[[Neogrammarians]]") at the [[University of Leipzig]] in the late 19th century led them to conclude that all sound changes were ultimately regular, resulting in the famous statement by [[Karl Brugmann]] and [[Hermann Osthoff]] in 1878 that "sound laws have no exceptions".<ref>{{harvnb|Szemerényi|1996|p= 21}}.</ref> This idea is fundamental to the modern comparative method, since the method necessarily assumes regular correspondences between sounds in related languages, and consequently regular sound changes from the proto-language. This ''Neogrammarian Hypothesis'' led to application of the comparative method to reconstruct [[Proto-Indo-European language|Proto-Indo-European]], with [[Indo-European languages|Indo-European]] being at that time by far the most well-studied language family. Linguists working with other families soon followed suit, and the comparative method quickly became the established method for uncovering linguistic relationships.<ref name="ssix"/>
+
+===Application===
+{{IPA notice}}
+There is no fixed set of steps to be followed in the application of the comparative method, but some steps are suggested by [[Lyle Campbell]]<ref>{{harvnb|Campbell|2004|pp= 126–147}}</ref> and [[Terry Crowley (linguist)|Terry Crowley]],<ref>{{harvnb|Crowley|1992|pp= 108–109}}</ref> both authors of introductory texts in historical linguistics. The abbreviated summary below is based on their concepts of how to proceed.
+
+====Step 1, assemble potential cognate lists====
+This step involves making lists of words that are likely cognates among the languages being compared. If there is a regularly recurring match between the phonetic structure of basic words with similar meanings a genetic kinship can probably be established.<ref name="ltwothree">{{harvnb|Lyovin|1997|pp= 2–3}}.</ref> For example, looking at the [[Polynesian languages|Polynesian family]] linguists might come up with a list similar to the following (a list actually used by them would be much longer):<ref>The table is modified from {{harvnb|Campbell|2004|pp= 168–169}} and {{harvnb|Crowley|1992|pp= 88–89}} using sources such as {{harvnb|Churchward|1959}} for Tongan, and {{harvnb|Pukui|1986}} for Hawaiian.</ref>
+
+{| class=wikitable
+! Gloss
+! &nbsp;one&nbsp;
+! &nbsp;two&nbsp;
+! &nbsp;three&nbsp;
+! &nbsp;four&nbsp;
+! &nbsp;five&nbsp;
+! &nbsp;man&nbsp;
+! &nbsp;sea&nbsp;
+! &nbsp;taboo&nbsp;
+! &nbsp;octopus&nbsp;
+! &nbsp;canoe&nbsp;
+! &nbsp;enter&nbsp;
+|-
+| &nbsp;[[Tongan language|Tongan]]
+| align=center | {{IPA|taha}}
+| align=center | {{IPA|ua}}
+| align=center | {{IPA|tolu}}
+| align=center | {{IPA|fā}}
+| align=center | {{IPA|nima}}
+| align=center | {{IPA|taŋata}}
+| align=center | {{IPA|tahi}}
+| align=center | {{IPA|tapu}}
+| align=center | {{IPA|feke}}
+| align=center | {{IPA|vaka}}
+| align=center | {{IPA|hū}}
+|-
+| &nbsp;[[Samoan language|Samoan]]
+| align=center | {{IPA|tasi}}
+| align=center | {{IPA|lua}}
+| align=center | {{IPA|tolu}}
+| align=center | {{IPA|fā}}
+| align=center | {{IPA|lima}}
+| align=center | {{IPA|taŋata}}
+| align=center | {{IPA|tai}}
+| align=center | {{IPA|tapu}}
+| align=center | {{IPA|feʔe}}
+| align=center | {{IPA|vaʔa}}
+| align=center | {{IPA|ulu}}
+|-
+| &nbsp;[[Māori language|Māori]]
+| align=center | {{IPA|tahi}}
+| align=center | {{IPA|rua}}
+| align=center | {{IPA|toru}}
+| align=center | {{IPA|ɸā}}
+| align=center | {{IPA|rima}}
+| align=center | {{IPA|taŋata}}
+| align=center | {{IPA|tai}}
+| align=center | {{IPA|tapu}}
+| align=center | {{IPA|ɸeke}}
+| align=center | {{IPA|waka}}
+| align=center | {{IPA|uru}}
+|-
+| &nbsp;[[Rapanui language|Rapanui]]
+| align=center | {{IPA|-tahi}}
+| align=center | {{IPA|-rua}}
+| align=center | {{IPA|-toru}}
+| align=center | {{IPA|-ha}}
+| align=center | {{IPA|-rima}}
+| align=center | {{IPA|taŋata}}
+| align=center | {{IPA|tai}}
+| align=center | {{IPA|tapu}}
+| align=center | {{IPA|heke}}
+| align=center | {{IPA|vaka}}
+| align=center | {{IPA|uru}}
+|-
+| &nbsp;[[Rarotongan language|Rarotongan]]&nbsp;
+| align=center | {{IPA|taʔi}}
+| align=center | {{IPA|rua}}
+| align=center | {{IPA|toru}}
+| align=center | {{IPA|ʔā}}
+| align=center | {{IPA|rima}}
+| align=center | {{IPA|taŋata}}
+| align=center | {{IPA|tai}}
+| align=center | {{IPA|tapu}}
+| align=center | {{IPA|ʔeke}}
+| align=center | {{IPA|vaka}}
+| align=center | {{IPA|uru}}
+|-
+| &nbsp;[[Hawaiian language|Hawaiian]]
+| align=center | {{IPA|kahi}}
+| align=center | {{IPA|lua}}
+| align=center | {{IPA|kolu}}
+| align=center | {{IPA|hā}}
+| align=center | {{IPA|lima}}
+| align=center | {{IPA|kanaka}}
+| align=center | {{IPA|kai}}
+| align=center | {{IPA|kapu}}
+| align=center | {{IPA|heʔe}}
+| align=center | {{IPA|waʔa}}
+| align=center | {{IPA|ulu}}
+|}
+
+[[loanword|Borrowings]] or [[false cognate]]s can skew or obscure the correct data.<ref>{{harvnb|Lyovin|1997|pp=3–5}}.</ref> For example, English ''taboo'' ({{IPA|[tæbu]}}) is like the six Polynesian forms due to borrowing from Tongan into English, and not because of a genetic similarity.<ref>{{cite encyclopedia|url= http://dictionary.reference.com/browse/taboo|encyclopedia= Dictionary.com|title= Taboo}}</ref> This problem can usually be overcome by using basic vocabulary—such as kinship terms, numbers, body parts, pronouns, and other basic terms.<ref>{{harvnb|Lyovin|1997|p= 3}}.</ref> Nonetheless, even basic vocabulary can be sometimes borrowed. [[Finnish language|Finnish]], for example, borrowed the word for "mother", ''äiti'', from Proto-Germanic *aiþį̄ (compare to [[Gothic language|Gothic]] ''aiþei'').;<ref>{{harvnb|Campbell|2004|pp= 65, 300}}.</ref> [[English language|English]] borrowed the pronouns "they", "them", and "their(s)" from [[Old Norse language|Norse]];<ref>{{cite encyclopedia|url= http://dictionary.reference.com/browse/they|encyclopedia= Dictionary.com|title= They}}</ref> and [[Thai language|Thai]] (along with various other [[East Asian languages]]) borrowed its numbers from [[Chinese language|Chinese]]. An extreme case is represented by [[Pirahã language|Pirahã]], a [[Muran languages|Muran language]] of South America, which, it is controversially<ref>{{cite journal |last1=Nevins |first1=Andrew |first2=David |last2=Pesetsky |first3=Cilene |last3=Rodrigues |year=2009 |url=http://www.people.fas.harvard.edu/%7Enevins/npr09.pdf |deadurl=yes |archive-url=https://web.archive.org/web/20110604103305/http://www.people.fas.harvard.edu/~nevins/npr09.pdf |archive-date=4 June 2011 |title=Pirahã Exceptionality: a Reassessment |journal=Language |volume=85 |issue=2 |pages=355–404 |doi=10.1353/lan.0.0107}}</ref> claimed, borrowed all its [[pronoun]]s from [[Nheengatu language|Nheengatu]].<ref>{{harvnb|Thomason|2005|pp=8–12 in pdf}}; {{harvnb|Aikhenvald|1999|p= 355}}.</ref><ref>"Superficially, however, the Piraha pronouns don't look much like the Tupi–Guarani pronouns; so this proposal will not be convincing without some additional information about the phonology of Piraha that shows how the phonetic realizations of the Tupi–Guarani forms align with the Piraha phonemic system." [http://www-personal.umich.edu/~thomason/papers/pronborr.pdf "Pronoun borrowing" Sarah G. Thomason & Daniel L. Everett University of Michigan & University of Manchester]</ref>
+
+====Step 2, establish correspondence sets====
+The next step involves determining the regular sound-correspondences exhibited by the lists of potential cognates. For example, in the Polynesian data above, it is apparent that words that contain ''t'' in most of the languages listed have cognates in Hawaiian with ''k'' in the same position. This is visible in multiple cognate sets: the words glossed as 'one', 'three', 'man', and 'taboo' all show this relationship. This situation is termed a ''regular correspondence'' between ''k'' in Hawaiian and ''t'' in the other Polynesian languages. Similarly, in those data a regular correspondence can be seen between Hawaiian and Rapanui ''h'', Tongan and Samoan ''f'', Maori ''ɸ'', and Rarotongan ''ʔ''.
+
+Mere phonetic similarity, as between [[English language|English]] ''day'' and [[Latin]] ''dies'' (both with the same meaning), has no probative value.<ref name="ltwo">{{harvnb|Lyovin|1997|p= 2}}.</ref> English initial ''d-'' does not ''regularly'' match {{nowrap|Latin ''d-''<ref name="bonetwoseven">{{harvnb|Beekes|1995|p= 127}}</ref>}}—it is not possible to assemble a large set of English and Latin non-borrowed cognates such that English ''d'' repeatedly and consistently corresponds to Latin ''d'' at the beginning of a word—and whatever sporadic matches can be observed are due either to chance (as in the above example) or to [[loanword|borrowing]] (for example, Latin ''diabolus'' and English ''devil''—both ultimately of Greek origin<ref>{{cite encyclopedia|title= devil|encyclopedia= Dictionary.com|url= http://dictionary.reference.com/browse/devil}}</ref>). English and Latin ''do'' exhibit a regular correspondence of ''t-'' : ''d-''<ref name="bonetwoseven"/> (where the notation "A : B" means "A corresponds to B"); for example,<ref>In Latin, |c| represents {{IPA|/k/}}; ''dingua'' is an [[Old Latin]] form of the word later attested as ''lingua'' ("tongue").</ref>
+
+{| class="wikitable"
+| align=left | &nbsp;'''English'''&nbsp;
+| align=center | &nbsp;'''t'''en&nbsp;
+| align=center | &nbsp;'''t'''wo&nbsp;
+| align=center | &nbsp;'''t'''ow&nbsp;
+| align=center | &nbsp;'''t'''ongue&nbsp;
+| align=center | &nbsp;'''t'''ooth&nbsp;
+|-
+| align=left | &nbsp;'''Latin'''&nbsp;
+| align=center | &nbsp;'''d'''ecem&nbsp;
+| align=center | &nbsp;'''d'''uo&nbsp;
+| align=center | &nbsp;'''d'''ūco&nbsp;
+| align=center | &nbsp;'''d'''ingua&nbsp;
+| align=center | &nbsp;'''d'''ent-&nbsp;
+|}
+
+If there are many regular correspondence sets of this kind (the more the better), then a common origin becomes a virtual certainty, particularly if some of the correspondences are non-trivial or unusual.<ref name="ltwothree"/>
+
+====Step 3, discover which sets are in complementary distribution====
+During the late 18th to late 19th century, two major developments improved the method's effectiveness.
+
+First, it was found{{by whom?|date=November 2017}} that many sound changes are conditioned by a specific ''context''. For example, in both [[Ancient Greek|Greek]] and [[Sanskrit]], an [[Aspiration (phonetics)|aspirated]] [[stop consonant|stop]] evolved into an unaspirated one, but only if a second aspirate occurred later in the same word;<ref>{{harvnb|Beekes|1995|p= 128}}.</ref> this is [[Grassmann's law]], first described for [[Sanskrit]] by [[Sanskrit grammarians|Sanskrit grammarian]] [[Pāṇini]]<ref>{{harvnb|Sag|1974|p=591}}; {{harvnb|Janda|1989}}.</ref> and promulgated by [[Hermann Grassmann]] in 1863.
+
+Second, it was found that sometimes sound changes occurred in contexts that were later lost. For instance, in Sanskrit [[Velar consonant|velars]] (''k''-like sounds) were replaced by [[Palatal consonant|palatals]] (''ch''-like sounds) whenever the following vowel was ''*i'' or ''*e''.<ref>The asterisk (*) indicates that the sound is inferred/reconstructed, rather than historically documented or attested</ref> Subsequent to this change, all instances of ''*e'' were replaced by ''a''.<ref>Or, more accurately, earlier ''*e'', ''*o'', and ''*a'' merged as ''a''.</ref> The situation would have been unreconstructable, had not the original distribution of ''e'' and ''a'' been recoverable from the evidence of other [[Indo-European languages]].<ref>{{harvnb|Beekes|1995|pp= 60–61}}.</ref> For instance, the [[Latin]] suffix ''que'', "and", preserves the original ''*e'' vowel that caused the consonant shift in Sanskrit:
+
+{| class="wikitable"
+| &nbsp;'''1.'''&nbsp;
+| align=center | &nbsp;''*ke''&nbsp;
+| &nbsp;Pre-Sanskrit "and"&nbsp;
+|-
+| &nbsp;'''2.'''&nbsp;
+| align=center | &nbsp;''*ce''&nbsp;
+| &nbsp;Velars replaced by palatals before ''*i'' and ''*e''&nbsp;
+|-
+| &nbsp;'''3.'''&nbsp;
+| align=center | &nbsp;''ca''&nbsp;
+| &nbsp;The attested Sanskrit form. ''*e'' has become ''a''&nbsp;
+|-
+| &nbsp;'''4.'''&nbsp;
+| align=center | &nbsp;''ca''&nbsp;
+| &nbsp;Pronounced ''ča'', Avestan "and"&nbsp;
+|}
+
+[[Verner's Law]], discovered by [[Karl Verner]] {{circa}} 1875, provides a similar case: the [[Voice (phonetics)|voicing]] of consonants in [[Germanic languages]] underwent a change that was determined by the position of the old Indo-European [[Stress (linguistics)|accent]]. Following the change, the accent shifted to initial position.<ref>{{harvnb|Beekes|1995|pp= 130–131}}.</ref> Verner solved the puzzle by comparing the Germanic voicing pattern with Greek and Sanskrit accent patterns.
+
+This stage of the comparative method, therefore, involves examining the correspondence sets discovered in step 2 and seeing which of them apply only in certain contexts. If two (or more) sets apply in [[complementary distribution]], they can be assumed to reflect a single original [[phoneme]]: "some sound changes, particularly conditioned sound changes, can result in a proto-sound being associated with more than one correspondence set".<ref>{{harvnb|Campbell|2004|p= 136}}.</ref>
+
+For example, the following potential cognate list can be established for [[Romance languages]], which descend from [[Latin]]:
+
+{| class="wikitable"
+!
+! &nbsp;[[Italian language|Italian]]&nbsp;
+! &nbsp;[[Spanish language|Spanish]]&nbsp;
+! &nbsp;[[Portuguese language|Portuguese]]&nbsp;
+! &nbsp;[[French language|French]]&nbsp;
+! &nbsp;Gloss&nbsp;
+|-
+| &nbsp;'''1.'''&nbsp;
+| align=center | &nbsp;corpo&nbsp;
+| align=center | &nbsp;cuerpo&nbsp;
+| align=center | &nbsp;corpo&nbsp;
+| align=center | &nbsp;corps&nbsp;
+| align=center | &nbsp;body&nbsp;
+|-
+| &nbsp;'''2.'''&nbsp;
+| align=center | &nbsp;crudo&nbsp;
+| align=center | &nbsp;crudo&nbsp;
+| align=center | &nbsp;cru&nbsp;
+| align=center | &nbsp;cru&nbsp;
+| align=center | &nbsp;raw&nbsp;
+|-
+| &nbsp;'''3.'''&nbsp;
+| align=center | &nbsp;catena&nbsp;
+| align=center | &nbsp;cadena&nbsp;
+| align=center | &nbsp;cadeia&nbsp;
+| align=center | &nbsp;chaîne&nbsp;
+| align=center | &nbsp;chain&nbsp;
+|-
+| &nbsp;'''4.'''&nbsp;
+| align=center | &nbsp;cacciare&nbsp;
+| align=center | &nbsp;cazar&nbsp;
+| align=center | &nbsp;caçar&nbsp;
+| align=center | &nbsp;chasser&nbsp;
+| align=center | &nbsp;to hunt&nbsp;
+|}
+
+They evidence two correspondence sets, ''k : k'' and ''k : {{IPA link|ʃ}}:
+
+{| class="wikitable"
+!
+! &nbsp;[[Italian language|Italian]]&nbsp;
+! &nbsp;[[Spanish language|Spanish]]&nbsp;
+! &nbsp;[[Portuguese language|Portuguese]]&nbsp;
+! &nbsp;[[French language|French]]&nbsp;
+|-
+| &nbsp;'''1.'''&nbsp;
+| align=center | &nbsp;k&nbsp;
+| align=center | &nbsp;k&nbsp;
+| align=center | &nbsp;k&nbsp;
+| align=center | &nbsp;k&nbsp;
+|-
+| &nbsp;'''2.'''&nbsp;
+| align=center | &nbsp;k&nbsp;
+| align=center | &nbsp;k&nbsp;
+| align=center | &nbsp;k&nbsp;
+| align=center | &nbsp;{{IPA|ʃ}}&nbsp;
+|}
+
+Since French ''{{IPA|ʃ}}'' only occurs before ''a'' where the other languages also have ''a'', while French ''k'' occurs elsewhere, the difference is due to different environments (being before an ''a'' conditions the change) and the sets are complementary. They can therefore be assumed to reflect a single proto-phoneme (in this case ''*k'', spelled |c| in [[Latin language|Latin]]).<ref>{{harvnb|Campbell|2004|p= 26}}.</ref> The original Latin words are ''corpus'', ''crudus'', ''catena'' and ''captiare'', all with an initial k-sound. If more evidence along these lines were given, one might conclude an alteration of the original k took place because of a different environment.
+
+A more complex case involves consonant clusters in [[Proto-Algonquian language|Proto-Algonquian]]. The Algonquianist [[Leonard Bloomfield]] used the reflexes of the clusters in four of the daughter languages to reconstruct the following correspondence sets:<ref>The table is modified from that in {{harvnb|Campbell|2004|p= 141}}.</ref>
+
+{| class="wikitable"
+!
+! &nbsp;[[Anishinaabe language|Ojibwe]]&nbsp;
+! &nbsp;[[Fox language|Meskwaki]]&nbsp;
+! &nbsp;[[Plains Cree language|Plains Cree]]&nbsp;
+! &nbsp;[[Menominee language|Menomini]]&nbsp;
+|-
+| &nbsp;'''1.'''&nbsp;
+| align=center | &nbsp;kk&nbsp;
+| align=center | &nbsp;hk&nbsp;
+| align=center | &nbsp;hk&nbsp;
+| align=center | &nbsp;hk&nbsp;
+|-
+| &nbsp;'''2.'''&nbsp;
+| align=center | &nbsp;kk&nbsp;
+| align=center | &nbsp;hk&nbsp;
+| align=center | &nbsp;sk&nbsp;
+| align=center | &nbsp;hk&nbsp;
+|-
+| &nbsp;'''3.'''&nbsp;
+| align=center | &nbsp;sk&nbsp;
+| align=center | &nbsp;hk&nbsp;
+| align=center | &nbsp;sk&nbsp;
+| align=center | &nbsp;{{IPA|t͡ʃk}}&nbsp;
+|-
+| &nbsp;'''4.'''&nbsp;
+| align=center | &nbsp;{{IPA|ʃk}}&nbsp;
+| align=center | &nbsp;{{IPA|ʃk}}&nbsp;
+| align=center | &nbsp;sk&nbsp;
+| align=center | &nbsp;sk&nbsp;
+|-
+| &nbsp;'''5.'''&nbsp;
+| align=center | &nbsp;sk&nbsp;
+| align=center | &nbsp;{{IPA|ʃk}}&nbsp;
+| align=center | &nbsp;hk&nbsp;
+| align=center | &nbsp;hk&nbsp;
+|}
+
+Although all five correspondence sets overlap with one another in various places, they are not in complementary distribution, and so Bloomfield recognized that a different cluster must be reconstructed for each set; his reconstructions were, respectively, ''*hk'', ''*xk'', ''*čk'' (={{IPA|[t͡ʃk]}}), ''*šk'' (={{IPA|[ʃk]}}), and ''çk'' (where {{'}}''x''{{'}} and {{'}}''ç''{{'}} are arbitrary symbols, not attempts to guess the phonetic value of the proto-phonemes).<ref>{{harvnb|Bloomfield|1925}}.</ref>
+
+====Step 4, reconstruct proto-phonemes====
+Typology assists in deciding what reconstruction best fits the data. For example, the voicing of voiceless stops between vowels is common, but not the devoicing of voiced stops in that environment. If a correspondence ''-t-'' : ''-d-'' between vowels is found in two languages, the proto-[[phoneme]] is more likely to be ''*-t-'', with a development to the voiced form in the second language. The opposite reconstruction would represent a rare type.
+
+However, unusual sound changes do occur. The [[Proto-Indo-European language|Proto-Indo-European]] word for ''two'', for example, is reconstructed as ''*dwō'', which is reflected in [[Classical Armenian]] as ''erku''. Several other cognates demonstrate a regular change ''*dw-'' → ''erk-'' in Armenian.<ref>{{harvnb|Szemerényi|1996|p= 28}}; citing {{harvnb|Szemerényi| 1960|p= 96}}.</ref> Similarly, in Bearlake, a dialect of the [[Athabaskan languages|Athabaskan language]] of [[Slavey language|Slavey]], there has been a sound change of Proto-Athabaskan ''*ts'' → Bearlake ''{{IPA|kʷ}}''.<ref>{{harvnb|Campbell|1997|p=113}}.</ref> It is very unlikely that ''*dw-'' changed directly into ''erk-'' and ''*ts'' into ''{{IPA|kʷ}}'', but instead they probably went through several intermediate steps to arrive at the later forms. It is not phonetic similarity which matters when utilizing the comparative method, but regular sound correspondences.<ref name="ltwo"/>
+
+By the [[principle of economy]], the reconstruction of a proto-phoneme should require as few sound changes as possible to arrive at the modern reflexes in the daughter languages. For example, [[Algonquian languages]] exhibit the following correspondence set:<ref>{{cite web|url= http://www.native-languages.org/famalg_words.htm|title= Vocabulary Words in the Algonquian Language Family|date= 1998–2009|publisher= Native Languages of the Americas|first= Laura|last= Redish|first2= Orrin|last2= Lewis|accessdate= 20 December 2009}}</ref><ref>{{harvnb|Goddard|1974}}.</ref>
+
+{| class="wikitable"
+! &nbsp;[[Anishinaabe language|Ojibwe]]&nbsp;
+! &nbsp;[[Mi'kmaq language|Míkmaq]]&nbsp;
+! &nbsp;[[Cree language|Cree]]&nbsp;
+! &nbsp;[[Munsee language|Munsee]]&nbsp;
+! &nbsp;[[Blackfoot language|Blackfoot]]&nbsp;
+! &nbsp;[[Arapaho language|Arapaho]]&nbsp;
+|-
+| align=center | &nbsp;m&nbsp;
+| align=center | &nbsp;m&nbsp;
+| align=center | &nbsp;m&nbsp;
+| align=center | &nbsp;m&nbsp;
+| align=center | &nbsp;m&nbsp;
+| align=center | &nbsp;b&nbsp;
+|}
+
+The simplest reconstruction for this set would be either ''*m'' or ''*b''. Both ''*m'' → ''b'' and ''*b'' → ''m'' are likely. Because ''m'' occurs in five of the languages, and ''b'' in only one, if ''*b'' is reconstructed, then it is necessary to assume five separate changes of ''*b'' → ''m'', whereas if ''*m'' is reconstructed, it is only necessary to assume a single change of ''*m'' → ''b''. ''*m'' would be most economical. (This argument assumes that the languages other than Arapaho are at least partly independent of each other. If they all formed a common subgroup, the development ''*b'' → ''m'' would only have to be assumed to have occurred once.)
+
+====Step 5, examine the reconstructed system typologically====
+In the final step, the linguist checks to see how the proto-[[phoneme]]s fit the known [[linguistic typology|typological constraints]]. For example, a hypothetical system,
+{| class="wikitable"
+! &nbsp; p &nbsp;
+! &nbsp; t &nbsp;
+! &nbsp; k &nbsp;
+|-
+! &nbsp; b &nbsp;
+!
+!
+|-
+!
+! &nbsp; n &nbsp;
+! &nbsp; ŋ &nbsp;
+|-
+!
+! &nbsp; l &nbsp;
+!
+|}
+
+has only one [[Voiced bilabial stop|voiced stop]], ''*b'', and although it has an [[alveolar nasal|alveolar]] and a [[velar nasal]], ''*n'' and ''*ŋ'', there is no corresponding [[Bilabial nasal|labial nasal]]. However, languages generally (though not always) tend to maintain symmetry in their phonemic inventories. In this case, the linguist might attempt to investigate the possibilities that what was earlier reconstructed as ''*b'' is in fact ''*m'', or that the ''*n'' and ''*ŋ'' are in fact ''*d'' and ''*g''.
+
+Even a symmetrical system can be typologically suspicious. For example, the traditional [[Proto-Indo-European language|Proto-Indo-European]] stop inventory is:<ref>{{harvnb|Beekes|1995|p=124}}.</ref>
+
+{| class="wikitable"
+!
+!&nbsp;[[Labial consonant|Labials]]&nbsp;
+!&nbsp;[[Dental consonant|Dentals]]&nbsp;
+!&nbsp;[[Velar consonant|Velars]]&nbsp;
+!&nbsp;[[labialized velar consonant|Labiovelars]]&nbsp;
+!&nbsp;[[Palatovelar]]s&nbsp;
+|-
+!&nbsp;[[Voiceless consonant|Voiceless]]&nbsp;
+| align=center|p
+| align=center|t
+| align=center|k
+| align=center|{{IPA|kʷ}}
+| align=center|{{IPA|kʲ}}
+|-
+!&nbsp;[[Voiced consonant|Voiced]]&nbsp;
+| align=center|(b)
+| align=center|d
+| align=center|g
+| align=center|{{IPA|ɡʷ}}
+| align=center|{{IPA|ɡʲ}}
+|-
+!&nbsp;[[Voiced consonant|Voiced]] [[Aspiration (phonetics)|aspirated]]&nbsp;
+| align=center|{{IPA|bʱ}}
+| align=center|{{IPA|dʱ}}
+| align=center|{{IPA|ɡʱ}}
+| align=center|{{IPA|ɡʷʱ}}
+| align=center|{{IPA|ɡʲʱ}}
+|}
+
+An earlier voiceless aspirated row was removed on grounds of insufficient evidence. Since the mid-20th century, a number of linguists have argued that this phonology is implausible;<ref>{{harvnb|Szemerényi|1996|p= 143}}.</ref> that it is extremely unlikely for a language to have a voiced aspirated ([[breathy voice]]) series without a corresponding voiceless aspirated series. [[Thomas Gamkrelidze]] and [[Vyacheslav Ivanov (philologist)|Vyacheslav Ivanov]] provided a potential solution, arguing that the series traditionally reconstructed as plain voiced should in fact be reconstructed as [[Glottalization|glottalized]]—either [[implosive consonant|implosive]] {{IPA|(ɓ, ɗ, ɠ)}} or [[Ejective consonant|ejective]] {{IPA|(pʼ, tʼ, kʼ)}}. The plain voiceless and voiced aspirated series would thus be replaced by just voiceless and voiced, with aspiration being a non-distinctive quality of both.<ref>{{harvnb|Beekes|1995|pp= 109–113}}.</ref> This example of the application of linguistic typology to linguistic reconstruction has become known as the [[Glottalic theory|Glottalic Theory]]. It has a large number of proponents but is not generally accepted.<ref>{{harvnb|Szemerényi| 1996|pp= 151–152}}.</ref> As an alternative, the voiceless aspirated row was restored.{{by whom|date=December 2016}}
+
+The reconstruction of proto-sounds logically precedes the reconstruction of grammatical [[morpheme]]s (word-forming affixes and inflectional endings), patterns of [[declension]] and [[Grammatical conjugation|conjugation]], and so on. The full reconstruction of an unrecorded protolanguage is an open-ended task.
+
+==Limitations==
+
+===Problems with the history of historical linguistics===
+The limitations of the comparative method were recognized by the very linguists who developed it,<ref>{{harvnb|Lyovin|1997|pp=4–5, 7–8}}.</ref> but it is still seen as a valuable tool. In the case of Indo-European, the method seemed to at least partially validate the centuries-old search for an [[Ursprache]], the original language. These others were presumed ordered in a [[family tree]], becoming the [[tree model]] of the [[neogrammarians]].
+
+The archaeologists followed suit, attempting to find archaeological evidence of a culture or cultures that could be presumed to have spoken a [[proto-language]], such as [[Vere Gordon Childe]]'s ''The Aryans: a study of Indo-European origins'', 1926. Childe was a philologist turned archaeologist. These views culminated in the ''Siedlungsarchaologie'', or "settlement-archaeology", of [[Gustaf Kossinna]], becoming known as "Kossinna's Law". He asserted that cultures represent ethnic groups, including their languages. It was rejected as a law in the post–World War II era. The fall of Kossinna's Law removed the temporal and spatial framework previously applied to many proto-languages. Fox concludes:<ref>{{harvnb|Fox|1995|pp=141–2}}.</ref>
+<blockquote>The Comparative Method ''as such'' is not, in fact, historical; it provides evidence of linguistic relationships to which we may give a historical interpretation. ...[Our increased knowledge about the historical processes involved] has probably made historical linguists less prone to equate the idealizations required by the method with historical reality. ...Provided we keep [the interpretation of the results and the method itself] apart, the Comparative Method can continue to be used in the reconstruction of earlier stages of languages.</blockquote>
+
+Proto-languages can be verified in many historical instances, such as Latin. Although no longer a law, settlement-archaeology is known to be essentially valid for some cultures that straddle history and prehistory, such as the Celtic Iron Age (mainly Celtic) and [[Mycenaean civilization]] (mainly Greek). None of these models can be or have been completely rejected, and yet none alone are sufficient.
+
+===Problems with the neogrammarian hypothesis===
+The foundation of the comparative method, and of comparative linguistics in general, is the [[Neogrammarian]]s' fundamental assumption that "sound laws have no exceptions". When it was initially proposed, critics of the Neogrammarians proposed an alternate position, summarized by the maxim "each word has its own history".<ref>{{harvnb|Szemerényi|1996|p=23}}.</ref> Several types of change do in fact alter words in non-regular ways. Unless identified, they may hide or distort laws and cause false perceptions of relationship.
+
+====Borrowing====
+All languages [[loanword|borrow words]] from other languages in various contexts. They are likely to have followed the laws of the languages from which they were borrowed rather than the laws of the borrowing language.
+
+====Areal diffusion====
+Borrowing on a larger scale occurs in [[Areal feature (linguistics)|areal diffusion]], when features are adopted by contiguous languages over a geographical area. The borrowing may be [[Phonology|phonological]], [[Morpheme|morphological]] or [[Lexeme|lexical]]. A false proto-language over the area may be reconstructed for them or may be taken to be a third language serving as a source of diffused features.<ref>{{harvnb|Aikhenvald|2001|pp=2–3}}.</ref>
+
+Several areal features and other influences may converge to form a [[sprachbund]], a wider region sharing features that appear to be related but are diffusional. For instance, the [[Mainland Southeast Asia linguistic area]] suggested several false classifications of such languages as [[Chinese language|Chinese]], [[Thai language|Thai]] and [[Vietnamese language|Vietnamese]] before it was recognized.
+
+====Random mutations====
+Sporadic changes, such as irregular inflections, compounding, and abbreviation, do not follow any laws. For example, the [[Spanish language|Spanish]] words ''palabra'' ('word'), ''peligro'' ('danger') and ''milagro'' ('miracle') should have been ''parabla'', ''periglo'', ''miraglo'' by regular sound changes from the Latin ''parabŏla'', ''perīcŭlum'' and ''mīrācŭlum'', but the ''r'' and ''l'' changed places by sporadic [[Metathesis (linguistics)|metathesis]].<ref>{{harvnb|Campbell|2004|p=39}}.</ref>
+
+====Analogy====
+[[Analogy#Linguistics|Analogy]] is the sporadic change of a feature to be like another feature in the same or a different language. It may affect a single word or be generalized to an entire class of features, such as a verb paradigm. For example, the [[Russian language|Russian]] word for ''nine'', by regular sound changes from [[Proto-Slavic language|Proto-Slavic]], should have been {{IPA|/nʲevʲatʲ/}}, but is in fact {{IPA|/dʲevʲatʲ/}}. It is believed that the initial ''{{IPA|nʲ-}}'' changed to ''{{IPA|dʲ-}}'' under influence of the word for "ten" in Russian, {{IPA|/dʲesʲatʲ/}}.<ref>{{harvnb|Beekes|1995|p=79}}.</ref>
+
+====Gradual application====
+Students of contemporary language changes, such as [[William Labov]], note that even a systematic sound change is at first applied in an unsystematic fashion, with the percentage of its occurrence in a person's speech dependent on various social factors.<ref>{{harvnb|Beekes|1995|p=55}}; {{harvnb|Szemerényi|1996|p=3}}.</ref> The sound change gradually spreads, a process known as [[lexical diffusion]]. While not invalidating the Neogrammarians' axiom that "sound laws have no exceptions", their gradual application shows that they do not always apply to all lexical items at the same time. Hock notes,<ref>{{harvnb|Hock|1991|pp=446–447}}.</ref> "While it probably is true in the long run every word has its own history, it is not justified to conclude as some linguists have, that therefore the Neogrammarian position on the nature of linguistic change is falsified."
+
+===Problems with the tree model===
+The comparative method is used to construct a tree model (German ''Stammbaum'') of language evolution,<ref>{{harvnb|Lyovin|1997|pp=7–8}}.</ref> in which daughter languages are seen as branching from the [[proto-language]], gradually growing more distant from it through accumulated [[phonology|phonological]], [[morpho-syntactic]], and [[lexicon|lexical]] changes.
+[[File:Uto-Aztecan Family Tree.jpg|thumb|720px|center|An example of the Tree Model, used to represent the [[Uto-Aztecan languages|Uto-Aztecan]] language family spoken throughout the southern and western United States and Mexico.<ref>The diagram is based on the hierarchical list in {{harvnb|Mithun|1999|pp=539–540}} and on the map in {{harvnb|Campbell| 1997|p=358}}.</ref> Families are in '''bold''', individual languages in ''italics''. Not all branches and languages are shown.]]
+
+====The presumption of a well-defined node====
+[[File:Wave model Schmidt.svg|thumb|300px|The [[Wave model (linguistics)|Wave Model]] has been proposed as an alternative to the [[tree model]] for representing language change.<ref>This diagram is based partly on the one found in Fox 1995:128, and Johannes Schmidt, 1872. ''Die Verwandtschaftsverhältnisse der indogermanischen Sprachen''. Weimar: H. Böhlau</ref> In this [[Venn diagram]], each circle represents a "wave" or [[isogloss]], i.e. the maximum geographical extension of a linguistic change as it propagated through the speaker population. These circles, which represent successive historical events of propagation, typically intersect. Each language in the family differs as to which isoglosses it belongs to, i.e. which innovations it reflects. The tree model presumes that all the circles should be nested, and never crosscut; but studies in [[dialectology]] and historical linguistics have shown this assumption to be usually wrong, suggesting that the wave-based approach may be more realistic than the tree model. A genealogical family in which isoglosses intersect is called a [[dialect continuum]] or a ''[[linkage (linguistics)|linkage]]''.]]
+The tree model features nodes that are presumed to be distinct proto-languages existing independently in distinct regions during distinct historical times. The reconstruction of unattested proto-languages lends itself to that illusion: they cannot be verified and the linguist is free to select whatever definite times and places for them seem best. Right from the outset of Indo-European studies, however, [[Thomas Young (scientist)|Thomas Young]] said:<ref>{{citation|title=Miscellaneous works of the late Thomas Young|first=Thomas |last=Young|contribution=Languages, From the Supplement to the Encyclopædia Britannica, vol. V, 1824|volume=Volume III, Hieroglyphical Essays and Correspondence, &c.|editor-first=John|editor-last=Leitch|location=London|publisher=John Murray|year=1855|page=480}}</ref><blockquote>It is not, however, very easy to say what the definition should be that should constitute a separate language, but it seems most natural to call those languages distinct, of which the one cannot be understood by common persons in the habit of speaking the other ... Still, however, it may remain doubtfull whether the Danes and the Swedes could not, in general, understand each other tolerably well ... nor is it possible to say if the twenty ways of pronouncing the sounds, belonging to the Chinese characters, ought or ought not to be considered as so many languages or dialects... But, ... the languages so nearly allied must stand next to each other in a systematic order…</blockquote>
+
+The assumption of uniformity in a proto-language, implicit in the comparative method, is problematic. Even in small language communities there are always [[Dialect|dialect differences]], whether based on area, gender, class, or other factors. The [[Pirahã language]] of [[Brazil]] is spoken by only several hundred people, but it has at least two different dialects, one spoken by men and one by women.<ref>{{harvnb|Aikhenvald|1999|p=354}}; {{harvnb|Ladefoged|2003|p=14}}.</ref> Campbell points out:<ref>{{harvnb|Campbell|2004|pp=146–147}}</ref>
+<blockquote>It is not so much that the comparative method 'assumes' no variation; rather, it is just that there is nothing built into the comparative method which would allow it to address variation directly....This assumption of uniformity is a reasonable idealization; it does no more damage to the understanding of the language than, say, modern reference grammars do which concentrate on a language's general structure, typically leaving out consideration of regional or social variation.</blockquote>
+
+Different dialects, as they evolve into separate languages, remain in contact with one another and influence each other. Even after they are considered distinct, languages near to one another continue to influence each other, often sharing grammatical, phonological, and lexical innovations. A change in one language of a family may spread to neighboring languages; and multiple waves of change are communicated like waves across language and dialect boundaries, each with its own randomly delimited range.<ref>{{harvnb|Fox|1995|p=129}}</ref> If a language is divided into an inventory of features, each with its own time and range ([[isogloss]]es), they do not all coincide. History and prehistory may not offer a time and place for a distinct coincidence, as may be the case for [[Italic languages|proto-Italic]], in which case the proto-language is only a concept. However, Hock<ref>{{harvnb|Hock|1991|p=454}}.</ref> observes:
+
+<blockquote>The discovery in the late nineteenth century that [[isogloss]]es can cut across well-established linguistic boundaries at first created considerable attention and controversy. And it became fashionable to oppose a wave theory to a tree theory... Today, however, it is quite evident that the phenomena referred to by these two terms are complementary aspects of linguistic change...</blockquote>
+
+====Subjectivity of the reconstruction====
+The reconstruction of unknown proto-languages is inherently subjective.{{Citation needed|date=April 2011}} In the [[Proto-Algonquian language|Proto-Algonquian]] example above, the choice of ''*m'' as the parent [[phoneme]] is only ''likely'', not ''certain''. It is conceivable that a Proto-Algonquian language with ''*b'' in those positions split into two branches, one which preserved ''*b'' and one which changed it to ''*m'' instead; and while the first branch only developed into [[Arapaho language|Arapaho]], the second spread out wider and developed into all the other [[Algonquian peoples|Algonquian]] tribes. It is also possible that the nearest common ancestor of the [[Algonquian languages]] used some other sound instead, such as ''*p'', which eventually mutated to ''*b'' in one branch and to ''*m'' in the other. While examples of strikingly complicated and even circular developments are indeed known to have occurred (such as [[Proto-Indo-European language|PIE]] ''*t'' > Pre-Proto-Germanic ''*þ'' > [[Proto-Germanic language|PG]] ''*ð'' > Proto-West-Germanic ''*d'' > [[Old High German]] ''t'' in ''fater'' > Modern German ''Vater''), in the absence of any evidence or other reason to postulate a more complicated development, the preference of a simpler explanation is justified by the principle of parsimony, also known as [[Occam's razor]]. Since reconstruction involves many of these choices, some linguists prefer to view the reconstructed features as abstract representations of sound correspondences, rather than as objects with a historical time and place.
+
+The existence of proto-languages and the validity of the comparative method is verifiable in cases where the reconstruction can be matched to a known language, which may only be known as a shadow in the [[loanword]]s of another language. For example, [[Finnic languages]] such as [[Finnish language|Finnish]] have borrowed many words from an early stage of [[Germanic languages|Germanic]], and the shape of the loans matches the forms that have been reconstructed for [[Proto-Germanic]]. Finnish ''kuningas'' 'king' and ''kaunis'' 'beautiful' match the Germanic reconstructions *''kuningaz'' and *''skauniz'' (> German ''König'' 'king', ''schön'' 'beautiful').<ref>{{harvnb|Kylstra|1996|p=62}} for KAUNIS, p. 122 for KUNINGAS.</ref>
+
+====Additional models====
+The [[Wave model (linguistics)|Wave model]] was developed in the 1870s as an alternative to the tree model, in order to represent the historical patterns of language diversification. Both the tree-based and the wave-based representations are compatible with the Comparative Method.<ref>[[#linkage|François (2014)]], [[#kf|Kalyan & François (2018)]].</ref>
+
+By contrast, some approaches are incompatible with the Comparative method, including [[glottochronology]] and [[mass lexical comparison]]. Most historical linguists consider these to be flawed and unreliable.<ref>{{harvnb|Campbell|2004|p=201}}; {{harvnb|Lyovin|1997|p=8}}.</ref>
+
+==See also==
+* [[Comparative linguistics]]
+* [[Historical linguistics]]
+* [[Lexicostatistics]]
+* [[Proto-language]]
+* [[Swadesh list]]
+==Notes==
+<!--See http://en.wikipedia.org/wiki/Wikipedia:Footnotes for an explanation of how to generate footnotes using the <ref(erences/)> tags-->
+{{Reflist}}
+
+==References==
+{{refbegin}}
+* {{citation|authorlink=Alexandra Aikhenvald|contribution=Other small families and isolates|publisher=Cambridge University Press|isbn=0-521-57021-2|title=The Amazonian Languages|editor-first=R. M. W. |editor-last=Dixon |editor2-first=Alexandra Y. |editor2-last=Aikhenvald|last=Aikhenvald|first=Alexandra Y. |first2=R. M. W. |last2=Dixon |year=1999|pages=341–384|ref=CITEREFAikhenvald1999}}.
+* {{citation|authorlink=Alexandra Aikhenvald|contribution=Introduction|year=2001|title=Areal Diffusion and Genetic Inheritance: Problems in Comparative Linguistics|location=Oxford|publisher=Oxford University Press|editor-first=R. M. W. |editor-last=Dixon |editor2-first=Alexandra Y. |editor2-last=Aikhenvald|last=Aikhenvald|first=Alexandra Y. |first2=R. M. W. |last2=Dixon|pages=1–22|series=Oxford Linguistics|ref=CITEREFAikhenvald2001}}.
+* {{cite book|last=Beekes|first= Robert S. P. |authorlink=Robert Beekes|year=1995|title=Comparative Indo-European Linguistics|location=Amsterdam|publisher=John Benjamins|ref=CITEREFBeekes1995}}
+* {{cite journal|last=Bloomfield|first=Leonard|date=December 1925|title=On the Sound-System of Central Algonquian|journal=Language|volume=1|issue=4|pages=130–56|authorlink=Leonard Bloomfield|ref=CITEREFBloomfield1925|doi=10.2307/409540|jstor=409540}}
+* {{cite book|last=Campbell|first=George L.|year=2000|title=Compendium of the World's Languages|edition=2nd|location=London|publisher=Routledge|ref=CITEREFCampbell2000}}
+* {{cite book|last=Campbell|first=Lyle|authorlink=Lyle Campbell|year=1997|title=American Indian Languages: The Historical Linguistics of Native America|location=New York|publisher=Oxford University Press|ref=CITEREFCampbell1997}}
+* {{cite book|last=Campbell|first=Lyle|authorlink=Lyle Campbell|year=2004|title=Historical Linguistics: An Introduction|edition=2nd|location=Cambridge|publisher=The MIT Press|ref=CITEREFCampbell2004|url=https://books.google.com/books?id=EjXrrOJhex8C&printsec=frontcover|isbn=978-0-262-53267-9}}
+* {{cite book|last=Churchward|first=C. Maxwell|year=1959|title=Tongan Dictionary|location=Tonga|publisher=Government Printing Office|ref=CITEREFChurchward1959}}
+* {{cite book|last=Crowley|first=Terry|authorlink=Terry Crowley (linguist)|year=1992|title=An Introduction to Historical Linguistics|edition=2nd|location=Auckland|publisher=Oxford University Press|ref=CITEREFCrowley1992}}
+* {{cite book|last=Fox|first=Anthony|year=1995|title=Linguistic Reconstruction: An Introduction to Theory and Method|location=New York|publisher=Oxford University Press|ref=CITEREFFox1995}}
+* {{Citation | last = François | first = Alexandre | author-link = Alexandre François (linguist) | contribution = Trees, Waves and Linkages: Models of Language Diversification | editor1-last = Bowern | editor1-first = Claire | editor2-last = Evans | editor2-first = Bethwyn | title = The Routledge Handbook of Historical Linguistics | series=  | pages = 161–189 | publisher = Routledge | place = London | year = 2014 | isbn = 978-0-41552-789-7 | contribution-url = http://alex.francois.free.fr/data/AlexFrancois_2014_HHL_Trees-waves-linkages_Diversification.pdf | ref = linkage }}
+* {{cite journal|last=Goddard|first=Ives|year=1974|title=An Outline of the Historical Phonology of Arapaho and Atsina|journal=International Journal of American Linguistics|volume=40|issue=2|pages=102–16|ref=CITEREFGoddard1974|doi=10.1086/465292}}.
+* {{cite book|last=Hock|authorlink=Hans Henrich Hock|first=Hans Henrich |year=1991|title=Principles of Historical Linguistics|edition=2nd revised and updated|location=Berlin|publisher=Walter de Gruyter|ref=CITEEFHock1991}}
+* {{cite journal|last=Janda|first=Richard D.|first2=Brian D. |last2=Joseph |year=1989|title=In Further Defence of a Non-Phonological Account for Sanskrit Root-Initial Aspiration Alternations|journal=Proceedings of the Fifth Eastern States Conference on Linguistics|pages=246–260|location=Columbus, Ohio|publisher=Ohio State University Department of Linguistics|url=http://www.ling.ohio-state.edu/~bjoseph/publications/1989aspiration.pdf|ref=CITEREFJanda1989}}
+* {{Citation | last1 = Kalyan | first1 = Siva | author1-link =  | last2 = François | first2 = Alexandre | author2-link =  | contribution = Freeing the Comparative Method from the tree model: A framework for Historical Glottometry | editor1-last = Kikusawa | editor1-first = Ritsuko | editor2-last = Reid | editor2-first = Laurie | title = Let's Talk about Trees: Genetic Relationships of Languages and Their Phylogenic Representation | series= Senri Ethnological Studies, 98 | pages = 59-89 | publisher = National Museum of Ethnology | place = Ōsaka | year = 2018 | isbn =  | contribution-url = http://alex.francois.online.fr/data/Kalyan-Francois_2013_Freeing-the-Comparative-Method_Historical-Glottometry_preprint.pdf | ref = kf }}
+* {{cite book|last=Kylstra|first=A. D.|last2=Sirkka-Liisa |first2=Hahmo|first3=Tette |last3=Hofstra |first4=Osmo |last4=Nikkilä |year=1996|title=Lexikon der älteren germanischen Lehnwörter in den ostseefinnischen Sprachen|language=German|volume=Band II: K-O|location=Amsterdam, Atlanta|publisher=Rodopi B.V.|ref=CITEREFKylstra1996}}
+* {{cite journal | last1 = Labov | first1 = William | year = 2007 | title = Transmission and diffusion | url = http://www.ling.upenn.edu/%7Elabov/Papers/TD.pdf| journal = Language | volume = 83 | issue = | pages = 344–387 | doi=10.1353/lan.2007.0082}}
+* {{cite book|last=Ladefoged|first=Peter|authorlink=Peter Ladefoged|year=2003|title=Phonetic Data Analysis: An Introduction to Fieldwork and Instrumental Techniques|location=Oxford|publisher=Blackwell|ref=CITEREFLadefoged2003}}
+* {{cite book|last=Lehmann|first=Winfred P.|authorlink=Winfred P. Lehmann|year=1993|title=Theoretical Bases of Indo-European Linguistics|location=London|publisher=Routledge|ref=CITEREFLehmann1993}}
+* {{cite book | last = Lyovin | first = Anatole V. | title = An Introduction to the Languages of the World | location = New York | publisher = Oxford University Press, Inc. | year = 1997 | isbn = 0-19-508116-1|ref=CITEREFLyovin1997}}
+* {{cite book|last=Mithun|first=Marianne |authorlink=Marianne Mithun|year=1999|title=The Languages of Native North America|location=Cambridge|publisher=Cambridge University Press|series=Cambridge Language Surveys|ref=CITEREFMithun1999}}
+* {{cite book | last = Pukui | first = Mary Kawena |author2=Samuel H. Elbert | title = Hawaiian Dictionary | location = Honolulu | publisher = University of Hawai'i Press | year = 1986 | isbn = 0-8248-0703-0|ref=CITEREFPukui1986}}
+* {{cite journal|last=Sag|first=Ivan. A. |authorlink=Ivan Sag|date=Autumn 1974|title=The Grassmann's Law Ordering Pseudoparadox|journal=Linguistic Inquiry|volume=5|issue=4|pages=591–607|jstor=4177844|ref=CITEREFSag1974}}.
+* {{cite book|last=Schleicher|first=August|year=1874, 1877|authorlink=August Schleicher|origyear=1871|title=A Compendium of the Comparative Grammar of the Indo-European, Sanskrit, Greek, and Latin Languages, translated from the third German edition|first2=Herbert, translator |last2=Bendall|location=London|publisher=Trübner and Co|ref=CITEREFSchleicher1874}}
+* {{cite book|last=Szemerényi|first=Oswald J. L.|year=1960|title=Studies in the Indo-European System of Numerals|location=Heidelberg|publisher=C. Winter|ref=CITEREFSzemerényi1960}}
+* {{cite book|last=Szemerényi|first=Oswald J. L.|year=1996|title=Introduction to Indo-European Linguistics|edition=4th|location=Oxford|publisher=Oxford University Press|ref=CITEREFSzemerényi1996}}
+* {{cite journal|last=Thomason|first=Sarah G.|first2=Daniel L. |last2=Everett |title=Pronoun Borrowing|url=http://www-personal.umich.edu/~thomason/papers/pronborr.html|journal=Proceedings of the annual meeting of the Berkeley Linguistics Society|volume= 27|year=2005|pages=301 ff|ref=CITEREFThomason2005}}
+* {{cite book|last=Trask| first=R. L. |authorlink=Larry Trask|year=1996| title=Historical Linguistics|location=New York|publisher=Oxford University Press|ref=CITEREFTrask1996}}
+* {{cite journal|last=Zuckermann|first=Ghil'ad|year=2009|url=http://www.zuckermann.org/pdf/Hybridity_versus_Revivability.pdf|title=Hybridity versus Revivability: Multiple Causation, Forms and Patterns|journal=Journal of Language Contact – Varia|issue=2|pages=40–67|ref=CITEREFZuckermann2009}}
+{{refend}}
+
+==External links==
+* {{cite web|title=Everything you ever wanted to know about Proto-Indo-European (and the comparative method), but were afraid to ask!|url=http://www.utexas.edu/depts/classics/documents/PIE.html|publisher=University of Texas Department of Classics|first=Kathleen|last=Hubbard|accessdate=22 December 2009}}
+* {{cite web|title=Week 3:Comparative method and linguistic reconstruction|url=http://www.linguistics.ucsb.edu/faculty/gordon/115/115week3.pdf|format=pdf| first=Matthew|last=Gordon|publisher=Department of Linguistics, University of California, Santa Barbara|accessdate=22 December 2009}}
+{{Use dmy dates|date=July 2012}}
+
+{{DEFAULTSORT:Comparative Method}}
+[[Category:Historical linguistics]]
+[[Category:Language comparison]]
+
+[[pl:Metoda porównawcza]]

@@ -1,0 +1,69 @@
+'''Cloud collaboration''' is a way of sharing and co-authoring [[computer file]]s through the use of [[cloud computing]], whereby documents are [[uploaded]] to a central "cloud" for storage,<ref>{{Cite news |url=http://www.pcworld.com/article/244425/the_cloud_day_10_storing_data_in_the_cloud.html |title=The Cloud, Day 10: Storing Data in the Cloud |last=Bradley |first=Tony |date=Nov 21, 2011 |access-date=2018-05-31 |language=en |website=PCWorld}}</ref> where they can then be accessed by others.
+Cloud collaboration technologies allow users to upload, comment and collaborate on documents and even amend the document itself, evolving the document.<ref>{{Cite web |url=http://www.informationweek.com/thebrainyard/news/document_sharing_collaborative_writing/231902261/how-to-mark-up-documents-in-the-cloud |title=How To Mark Up Documents In The Cloud |last=Carr |first=David F. |date=November 3, 2011 |publisher=Informationweek |archive-url=https://web.archive.org/web/20111104055610/http://www.informationweek.com/thebrainyard/news/document_sharing_collaborative_writing/231902261/how-to-mark-up-documents-in-the-cloud |archive-date=4 Nov 2011 |access-date=2013-07-26}}</ref> Businesses in the last few years have increasingly been switching to use of cloud collaboration.
+
+==Overview==
+Cloud computing is a marketing term for technologies that provide [[software]], [[data access]], and [[Computer data storage|storage]] services that do not require end-user knowledge of the physical location and configuration of the system that delivers the services. <ref>[https://www.multcloud.com/product Manage Sharing Files Between Cloud Storage Services].</ref>A parallel to this concept can be drawn with the [[electricity grid]], where end-users consume power without needing to understand the component devices or infrastructure required to utilize the technology.
+
+Collaboration refers to the ability of workers to work together simultaneously on a particular task. [[Document collaboration]] can be completed face to face.  However, collaboration has become more complex, with the need to work with people all over the world in real time on a variety of different types of documents, using different devices. A 2003 report mapped out five reasons why workers are reluctant to collaborate more.<ref>{{cite report|title=Overcome People Related Challenges For Success With Team Collaboration Software|first= Erica|last= Rugullies|publisher= Giga Information Group|date= 2003}}</ref> These are:
+
+* People resist sharing their knowledge.
+* Safety issues
+* Users are most comfortable using e-mail as their primary electronic [[collaboration tool]].
+* People do not have incentive to change their behaviour.
+* Teams that want to or are selected to use the software do not have strong [[team leaders]] who push for more collaboration.
+* Senior management is not actively involved in or does not support the team collaboration initiative.
+
+As a result, many providers created cloud collaboration tools. These include the integration of email alerts into [[collaboration software]] and the ability to see who is viewing the document at any time. All the tools a team could need are put into one piece of software so workers no longer have to rely on email.
+
+==Origins==
+Before cloud file sharing and collaboration software, most collaboration was limited to more primitive and less effective methods such as email and [[FTP]] among others. These did not work particularly well.{{citation needed|date=January 2012}} 
+
+Very early moves into cloud computing were made by [[Amazon Web Services]] who, in 2006, began offering [[IT infrastructure]] services to businesses in the form of [[web services]]. Cloud computing only began to come to prominence in 2007 when [[Google]] decided to move parts of its email service to a public cloud.<ref>{{harvnb|Keitt|2011|p=2}}</ref> It was not long before [[IBM]] and [[Microsoft]] followed suit with LotusLive and Business Productivity Online Standard Suite (BPOS) respectively. With an increase in [[cloud computing]] services, cloud collaboration was able to evolve. Since 2007, many firms entered the industry offering many [[feature (software design)|feature]]s.
+
+Many analysts{{Who|date=October 2016}} explain the rise of cloud collaboration by pointing to the increasing use by workers of non-authorised websites and online tools to do their jobs. This includes the use of [[instant messaging]] and [[social network]]s. In a survey taken in early 2011, 22% of workers admitted to having used one or more of these external non-authorised websites.<ref>{{harvnb|Keitt|2011|p=3}}</ref> Cloud collaboration packages provide the ability to collaborate on documents together in real time, making the use of non-authorised [[instant messaging]] redundant. IT managers can now properly regulate internet based collaboration with a system tailor made for the office.
+
+It has also been noted{{By whom|date=October 2016}} that cloud collaboration has become more and more necessary for IT departments as workforces have become more mobile and now need access to important documents wherever they are, whether this is through an [[internet browser]], or through newer technologies such as [[smartphone]]s and [[tablet computer|tablet]] devices. 
+
+The tech industry saw several large paradigm changes:
+
+* The [[mainframe computer|mainframe]] computing era enabled business growth to be untethered from the number of employees needed to process transactions manually.
+* The [[personal computing]] era empowered business users to run their businesses based on individual data and applications on their PCs.
+* A decade of [[Computer network|network]] computing established an unprecedented level of transparency of information across multiple groups inside a company and an amazing rate of data exchange between enterprises.
+
+Each of these revolutions brought with it new economies of scale. The cost-per-transaction, the cost of automating office and desktop processes, and finally the cost of [[network bandwidth]] fell quickly and enabled business users to apply ICT solutions more broadly to create business value.{{cn|date=August 2014}}  Most analysts (Forrester, Gartner, etc.) believe that cloud computing will help unleash the next wave of tech-enabled business innovation.
+
+During the mainframe era, client/server was initially viewed as a "toy" technology, not viable as a mainframe replacement. Yet, over time the client/server technology found its way into the enterprise. Similarly, when [[virtualization]] technology was first proposed, application compatibility concerns and potential [[vendor lock-in]] were cited as barriers to adoption. Yet underlying economics of 20 to 30 percent savings compelled CIOs to overcome these concerns, and adoption quickly accelerated<ref>{{cite web |last1=Harms |first1=Rolf |last2=Yamartino |first2=Michael |title=THE ECONOMICS OF THE CLOUD |url=http://download.microsoft.com/download/6/e/4/6e4cb3d1-5004-4024-8d90-6c66c83c17aa/the_economics_of_the_cloud_white_paper.pdf |website=microsoft.com |accessdate=21 November 2018}}</ref>.
+
+==Recent developments==
+Early cloud collaboration tools were quite basic with limited features. Newer packages are much more document-centric in their approach to collaboration. More sophisticated tools allow users to "tag" specific areas of a document for comments which are delivered real time to those viewing the document.<ref>{{Cite web |url=http://www.skydox.com/blog/play-tag-with-your-team |title=Play tag with your team |last=Phillips |first=Chris |date=30 November 2011 |website=SkyDox |archive-url=https://web.archive.org/web/20120102132724/http://www.skydox.com/blog/play-tag-with-your-team |archive-date=2012-01-02 |dead-url=yes |access-date=2012-01-06}}</ref> In some cases, the [[collaboration]] software can even be integrated into Microsoft Office,<ref>{{Cite press release |title=SkyDox Extends SharePoint Collaboration Capabilities |url=http://www.prweb.com/releases/2011/8/prweb8719669.htm |access-date=2018-05-31 |website=PRWeb}}</ref> or allow users to set up video conferences. 
+
+Furthermore, the trend now is for firms to employ a single software tool to solve all their collaboration needs, rather than having to rely on multiple different techniques. Single cloud collaboration providers are now replacing a complicated tangle of instant messengers, email and FTP.<ref>{{Cite web |url=http://www.sptechweb.com/link/35841 |title=SkyDox aims to reduce email |last=Rubinstein |first=David |date=2011-08-18 |publisher=SPTechWeb |archive-url=https://web.archive.org/web/20111123195729/http://www.sptechweb.com/link/35841 |archive-date=23 Nov 2011 |access-date=2013-07-26}}</ref><ref>[https://samepage.io Social Collaboration reinvented by Kerio]</ref>
+
+Cloud collaboration today is promoted as a tool for collaboration internally between different departments within a firm, but also externally as a means for sharing documents with end-clients as receiving feedback. This makes cloud computing a very versatile tool for firms with many different applications in a business environment.
+ 
+The best cloud collaboration tools:<ref>{{Cite web |url=http://www.businesscloud9.com/content/cloud-collaboration-need-not-be-unusable/6601 |title=Cloud collaboration need not be `unusable’ |last=Banks |first=Martin |date=2011-10-07 |publisher=Business Cloud 9 |archive-url=https://web.archive.org/web/20111019125612/http://www.businesscloud9.com/content/cloud-collaboration-need-not-be-unusable/6601 |archive-date=2011-10-19 |access-date=2013-07-26}}</ref>
+
+* Use real-time commenting and messaging features to enhance speed of project delivery
+* Leverage presence indicators to identify when others are active on documents owned by another person
+* Allow users to set permissions and manage other users' activity profiles
+* Allow users to set personal activity feeds and email alert profiles to keep abreast of latest activities per file or user
+* Allow users to collaborate and share files with users outside the company [[firewall (computing)|firewall]]
+* Comply with company security and compliance framework
+* Ensure full auditability of files and documents shared within and outside the organization
+* Reduce workarounds for sharing and collaboration on large files
+
+A 2011 report by Gartner outlines a five stage model on the maturity of firms when it comes to the uptake of cloud collaboration tools.<ref>{{Cite web |url=https://www.gartner.com/doc/1724649/maturity-model-enterprise-collaboration-social |title=Maturity Model for Enterprise Collaboration and Social Software |last=Mann |first=Jeffrey |date=14 June 2011 |website=www.gartner.com |publisher=Gartner |access-date=2018-05-31}}</ref> A firm in the first stage is said to be "reactive", with only email as a collaboration platform and a culture which resists information sharing. A firm in the fifth stage is called "pervasive", and has universal access to a rich collaboration toolset and a strong collaborative culture. The article argues that most firms are in the second stage, but as cloud collaboration becomes more important, most analysts expect to see the majority of firms moving up in the model.
+
+==See also==
+* [[Document collaboration]]
+* [[Document-centric collaboration]]
+
+==References==
+{{Reflist|2}}
+===Sources===
+* {{cite web|title=Navigating the Online Collaboration Suite Landscape|url=https://www.forrester.com/report/Navigating+The+Online+Collaboration+Suite+Landscape/-/E-RES59967|first=TJ|last= Keitt|publisher= Forrester|date= 2011|ref=harv}}
+
+{{Cloud computing}}
+
+[[Category:Cloud computing]]
+[[Category:Web 2.0]]

@@ -1,0 +1,319 @@
+{{About|cryptography advocates|the book by Julian Assange|Cypherpunks (book)}}
+{{Distinguish|Cyberpunk}}
+
+A '''cypherpunk''' is any activist advocating widespread use of strong [[cryptography]] and [[privacy-enhancing technologies]] as a route to social and political change. Originally communicating through the Cypherpunks [[electronic mailing list]], informal groups aimed to achieve privacy and security through proactive use of cryptography. Cypherpunks have been engaged in an active movement since the late 1980s.
+
+== History ==
+
+=== Before the mailing list ===
+
+Until about the 1970s, [[cryptography]] was mainly practiced in secret by military or spy agencies. However, that changed when two publications brought it out of the closet into public awareness: the US government publication of the [[Data Encryption Standard]] (DES), a [[block cipher]] which became very widely used; and the first publicly available work on [[public-key cryptography]], by [[Whitfield Diffie]] and [[Martin Hellman]].
+
+The technical roots of Cypherpunk ideas have been traced back to work by cryptographer [[David Chaum]] on topics such as anonymous digital cash and pseudonymous reputation systems, described in his paper "Security without Identification: Transaction Systems to Make Big Brother Obsolete" (1985).<ref name="narayanan">Arvind Narayanan: [http://randomwalker.info/publications/crypto-dream-part1.pdf What Happened to the Crypto Dream?, Part 1]. IEEE Security & Privacy. Volume 11, Issue 2, March–April 2013, pages 75-76, ISSN 1540-7993</ref>
+
+In the late 1980s, these ideas coalesced into something like a movement.<ref name=narayanan/>
+
+=== Origin of the term, and the Cypherpunks mailing list ===
+<!-- TODO: see whether there are any RSs to the effect that the Secret Admirers list in [[Cryptonomicon]] was the cypherpunk list. -->
+
+In late 1992, [[Eric Hughes (cypherpunk)|Eric Hughes]], [[Timothy C. May]] and [[John Gilmore (activist)|John Gilmore]] founded a small group that met monthly at Gilmore's company [[Cygnus Solutions]] in the [[San Francisco Bay Area]], and was humorously termed ''cypherpunks'' by [[Jude Milhon]] at one of the first meetings - derived from ''[[cipher]]'' and ''[[cyberpunk]]''.<ref name=":0">[[Robert Manne]]: [https://www.themonthly.com.au/issue/2011/february/1324596189/robert-manne/cypherpunk-revolutionary The Cypherpunk Revolutionary - Julian Assange]. [[The Monthly]] March, 2011, No. 65</ref> In November 2006, the word was added to the [[Oxford English Dictionary]].<ref>[https://web.archive.org/web/20110521191819/http://web.resourceshelf.com/go/resourceblog/43743 ResourceShelf » Oxford English Dictionary Updates Some Entries & Adds New Words; Bada-Bing, Cypherpunk, and Wi-Fi Now in the OED]</ref>
+
+The Cypherpunks [[mailing list]] was started in 1992, and by 1994 had 700 subscribers.<ref name=":0" /> At its peak, it was a very active forum with technical discussion ranging over mathematics, cryptography, computer science, political and philosophical discussion, personal arguments and attacks, etc., with some [[Spam (electronic)|spam]] thrown in. An email from [[John Gilmore (activist)|John Gilmore]] reports an average of 30 messages a day from December 1, 1996 to March 1, 1999, and suggests that the number was probably higher earlier.<ref>[http://cryptome.org/jya/cp-who.htm Please title this page. (Page 2)<!-- Bot generated title -->]</ref> The number of subscribers is estimated to have reached 2000 in the year 1997.<ref name=":0" />
+
+In early 1997, Jim Choate and Igor Chudov set up the Cypherpunks Distributed Remailer,<ref name="choatecdr">Jim Choate: "[http://cypherpunks.venona.com/date/1997/02/msg02037.html Cypherpunks Distributed Remailer]". Cypherpunks mailing list. February 1997.</ref> a network of independent mailing list nodes intended to eliminate the [[single point of failure]] inherent in a centralized list architecture. At its peak, the Cypherpunks Distributed Remailer included at least seven nodes.<ref name="imchriscpunk">{{cite web|url=http://imchris.org/projects/cpunk.html|title=Cypherpunk Mailing List Information|publisher=|deadurl=yes|archiveurl=https://web.archive.org/web/20160305051810/http://imchris.org/projects/cpunk.html|archivedate=2016-03-05|df=}}</ref> By mid-2005, al-qaeda.net ran the only remaining node.<ref name="cphowto">[https://web.archive.org/web/20141205102841/https://cpunks.org/cpunk/howto.html Setting Up a Filtering CDR Node for Cypherpunks]</ref> In mid 2013, following a brief outage, the al-qaeda.net node's list software was changed from [[Majordomo (software)|Majordomo]] to [[GNU Mailman]]<ref name=backonair>Riad S. Wahby: "[https://cpunks.org//pipermail/cypherpunks/2013-July/000001.html back on the airwaves]". Cypherpunks mailing list. July 2013.</ref> and subsequently the node was renamed to cpunks.org.<ref name=domainchange>Riad S. Wahby: "[https://cpunks.org//pipermail/cypherpunks/2013-July/000011.html domain change]". Cypherpunks mailing list. July 2013.</ref> The CDR architecture is now defunct, though the list administrator stated in 2013 that he was exploring a way to integrate this functionality with the new mailing list software.<ref name=backonair/>
+
+For a time, the cypherpunks mailing list was a popular tool with mailbombers,<ref>[https://web.archive.org/web/20071030112059/http://cypherpunks.venona.com/date/1997/02/msg01681.html Re: POST: The Frightening Dangers of Moderation<!-- Bot generated title -->]</ref> who would subscribe a victim to the mailing list in order to cause a deluge of messages to be sent to him or her. (This was usually done as a prank, in contrast to the style of terrorist referred to as a mailbomber.) This precipitated the mailing list sysop(s) to institute a reply-to-subscribe system. Approximately two hundred messages a day was typical for the mailing list, divided between personal arguments and attacks, political discussion, technical discussion, and early spam.<ref>[https://web.archive.org/web/20080822071741/http://cypherpunks.venona.com/date/1997/01/msg02533.html Re: Re: Add To Your Monthly Income!!<!-- Bot generated title -->]</ref><ref>[https://web.archive.org/web/20061021180914/http://cypherpunks.venona.com/date/1997/04/ Cypherpunks Date Index for 1997 04<!-- Bot generated title -->]</ref>
+
+The cypherpunks mailing list had extensive discussions of the public policy issues related to cryptography and on the politics and philosophy of concepts such as anonymity, pseudonyms, reputation, and privacy. These discussions continue both on the remaining node and elsewhere as the list has become increasingly moribund.
+
+Events such as the [[GURPS Cyberpunk]] raid lent weight to the idea that private individuals needed to take steps to protect their privacy. In its heyday, the list discussed public policy issues related to cryptography, as well as more practical nuts-and-bolts mathematical, computational, technological, and cryptographic matters. The list had a range of viewpoints and there was probably no completely unanimous agreement on anything. The general attitude, though, definitely put personal privacy and personal liberty above all other considerations.
+
+==== Early discussion of online privacy ====
+The list was discussing questions about privacy, government monitoring, corporate control of information, and related issues in the early 1990s that did not become major topics for broader discussion until ten years or so later. Some list participants were more radical on these issues than almost anyone else.
+
+Those wishing to understand the context of the list might refer to the history of cryptography; in the early 1990s, the US government considered cryptography software a [[munition]] for export purposes, which hampered commercial deployment with no gain in [[national security]], as knowledge and skill was not limited to US citizens. ([[Pretty Good Privacy|PGP]] source code was published as a paper book to bypass these regulations and demonstrate their futility.) The US government had tried to subvert cryptography through schemes such as [[Skipjack (cipher)|Skipjack]] and key escrow. It was also not widely known that all communications were logged by government agencies (which would later be revealed during the [[NSA warrantless surveillance controversy|NSA]] and [[Hepting v. AT&T|AT&T scandals]]) though this was taken as an obvious axiom by list members.
+
+The original cypherpunk mailing list, and the first list spin-off, ''coderpunks'', were originally hosted on [[John Gilmore (activist)|John Gilmore]]'s toad.com, but after a falling out with the sysop over moderation, the list was migrated to several cross-linked mail-servers in what was called the "distributed mailing list."<ref>[http://cypherpunks.venona.com/date/1997/01/msg02001.html Re: Sandy and the Doc<!-- Bot generated title -->]</ref><ref>[http://cypherpunks.venona.com/date/1997/02/msg00627.html Newgroup - distributed mailing list on the way?<!-- Bot generated title -->]</ref> The ''coderpunks'' list, open by invitation only, existed for a time. ''Coderpunks'' took up more technical matters and had less discussion of public policy implications. There are several lists today that can trace their lineage directly to the original Cypherpunks list: the cryptography list (cryptography@metzdowd.com), the financial cryptography list (fc-announce@ifca.ai), and a small group of closed (invitation-only) lists as well.
+
+Toad.com continued to run with the existing subscriber list, those that didn't unsubscribe, and was mirrored on the new distributed mailing list, but messages from the distributed list didn't appear on toad.com.<ref>[http://cypherpunks.venona.com/date/1997/02/msg02277.html Switching to full traffic mode<!-- Bot generated title -->]</ref>  As the list faded in popularity, so too did it fade in the number of cross-linked subscription nodes.
+
+To some extent, the cryptography list<ref>{{cite web|url=http://www.mail-archive.com/cryptography@metzdowd.com|title=cryptography|publisher=}}</ref> acts as a successor to cypherpunks; it has many of the people and continues some of the same discussions. However, it is a moderated list, considerably less zany and somewhat more technical. A number of current systems in use trace to the mailing list, including [[Pretty Good Privacy]], [[/dev/random]] in the [[Linux kernel]] (the actual code has been completely reimplemented several times since then) and today's [[anonymous remailer]]s.
+
+== Main principles ==
+The basic ideas can be found in ''A Cypherpunk's Manifesto'' ([[Eric Hughes (cypherpunk)|Eric Hughes]], 1993): "Privacy is necessary for an open society in the electronic age. ... We cannot expect governments, corporations, or other large, faceless organizations to grant us privacy ... We must defend our own privacy if we expect to have any. ... Cypherpunks write code. We know that someone has to write software to defend privacy, and ... we're going to write it."<ref name="cypherpunk">{{citation |first=Eric |last=Hughes |year=1993 |url= http://www.activism.net/cypherpunk/manifesto.html|title=A Cypherpunk's Manifesto}}</ref>
+
+Some are or were quite senior people at major hi-tech companies and others are well-known researchers (see [[#Well-known list participants|list with affiliations]] below).
+
+The first mass media discussion of cypherpunks was in a 1993 ''[[Wired (magazine)|Wired]]'' article by [[Steven Levy]] titled ''Crypto Rebels'':
+
+{{quote|The people in this room hope for a world where an individual's informational footprints -- everything from an opinion on abortion to the medical record of an actual abortion -- can be traced only if the individual involved chooses to reveal them; a world where coherent messages shoot around the globe by network and microwave, but intruders and feds trying to pluck them out of the vapor find only gibberish; a world where the tools of prying are transformed into the instruments of privacy.
+
+There is only one way this vision will materialize, and that is by widespread use of cryptography. Is this technologically possible? Definitely. The obstacles are political -- some of the most powerful forces in government are devoted to the control of these tools. In short, there is a war going on between those who would liberate crypto and those who would suppress it. The seemingly innocuous bunch strewn around this conference room represents the vanguard of the pro-crypto forces. Though the battleground seems remote, the stakes are not: The outcome of this struggle may determine the amount of freedom our society will grant us in the 21st century. To the Cypherpunks, freedom is an issue worth some risk.<ref name=levyarticle>{{cite news
+| first = Steven | last = Levy
+| date = May 1993
+| work = Wired
+| title = Crypto Rebels
+| url = https://www.wired.com/wired/archive/1.02/crypto.rebels.html
+}}</ref>}}
+
+The three masked men on the cover of that edition of ''Wired'' were prominent cypherpunks [[Timothy C. May|Tim May]], [[Eric Hughes (cypherpunk)|Eric Hughes]] and [[John Gilmore (activist)|John Gilmore]].
+
+Later, Levy wrote a book, ''Crypto: How the Code Rebels Beat the Government&nbsp;– Saving Privacy in the Digital Age'',<ref name="levybook">{{cite book
+  | first= Steven
+  | last = Levy
+  | title = Crypto: How the Code Rebels Beat the Government&nbsp;– Saving Privacy in the Digital Age
+  | publisher = Penguin
+  | year = 2001
+  | isbn = 0-14-024432-8
+}}</ref>
+covering the [[crypto wars]] of the 1990s in detail. "Code Rebels" in the title is almost synonymous with cypherpunks.
+
+The term ''cypherpunk'' is mildly ambiguous. In most contexts it means anyone advocating cryptography as a tool for social change, social impact and expression. However, it can also be used to mean a participant in the Cypherpunks [[electronic mailing list]] described [[#The cypherpunks mailing list|below]]. The two meanings obviously overlap, but they are by no means synonymous.
+
+Documents exemplifying cypherpunk ideas include Timothy C. May's ''The Crypto Anarchist Manifesto'' (1992)<ref name="CAM">{{citation |author=Timothy C. May |author-link=Timothy C. May |year=1992 |url= http://www.activism.net/cypherpunk/crypto-anarchy.html |title=The Crypto Anarchist Manifesto}}</ref> and ''The [[Cyphernomicon]]'' (1994),<ref name="cnomicon">{{cite web|url=https://www.cypherpunks.to/faq/cyphernomicron/cyphernomicon.html|title=The Cyphernomicon: Cypherpunks FAQ and More, Version 0.666|last=May|first=Timothy C.|date=September 10, 1994|work=Cypherpunks.to|archive-url=https://web.archive.org/web/20180612074817/https://www.cypherpunks.to/faq/cyphernomicron/cyphernomicon.html|archive-date=2018-06-12|dead-url=yes|accessdate=June 12, 2018}} as well as Hughes's</ref> ''A Cypherpunk's Manifesto''.<ref name="cypherpunk" />
+
+=== Privacy of communications ===
+
+A very basic cypherpunk issue is [[secrecy of communication|privacy in communications]] and [[data retention]]. John Gilmore said he wanted "a guarantee -- with physics and mathematics, not with laws -- that we can give ourselves real privacy of personal communications."<ref>{{citation
+|author = John Gilmore
+|title = home page
+| url = http://www.toad.com/gnu/}}</ref>
+
+Such guarantees require [[strong cryptography]], so cypherpunks are fundamentally opposed to government policies attempting to control the usage or export of cryptography, which remained an issue throughout the late 1990s. The ''Cypherpunk Manifesto'' stated "Cypherpunks deplore regulations on cryptography, for encryption is fundamentally a private act."<ref name="cypherpunk"/>
+
+This was a central issue for many cypherpunks. Most were passionately opposed to various government attempts to limit cryptography&nbsp;— [[Politics of cryptography#Export Controls|export laws]], promotion of limited key length ciphers, and especially [[escrowed encryption]].
+
+=== Anonymity and pseudonyms ===
+
+The questions of [[anonymity]], [[pseudonym]]ity and [[reputation]] were also extensively discussed.
+
+Arguably, the possibility of [[anonymity|anonymous]] speech and publication is vital for an open society, an essential requirement for genuine freedom of speech&nbsp;— this was the position of most cypherpunks.{{citation needed|date=September 2012}} A frequently cited example was that the [[Federalist Papers]] were originally published under a pseudonym.
+
+=== Censorship and monitoring ===
+
+Questions of censorship and government or police monitoring were also much discussed. Generally, cypherpunks opposed both.
+
+In particular, the US government's [[Clipper chip]] scheme for [[escrowed encryption]] of telephone conversations (encryption secure against most attackers, but breakable at need by government) was seen as anathema by many on the list. This was an issue that provoked strong opposition and brought many new recruits to the cypherpunk ranks. List participant [[Matt Blaze]] found a serious flaw<ref>{{citation
+| title = Protocol failure in the escrowed encryption standard
+| url = http://portal.acm.org/citation.cfm?id=191193
+| author = Matt Blaze
+| year = 1994}}</ref> in the scheme, helping to hasten its demise.
+
+Steven Schear created{{when|date=July 2016}} the [[warrant canary]] to thwart the secrecy provisions of [[court order]]s and [[national security letters]].{{citation needed|date=July 2016}}
+{{asof|2013}}, warrant canaries are gaining commercial acceptance.<ref>{{cite web|url=https://arstechnica.com/tech-policy/2013/11/apple-takes-strong-privacy-stance-in-new-report-publishes-rare-warrant-canary|title=Apple takes strong privacy stance in new report, publishes rare "warrant canary"|work=Ars Technica}}</ref><!-- the source does not mention Steven Schear, nor cypherpunks -->
+
+=== Hiding the act of hiding ===
+
+An important set of discussions concerns the use of cryptography in the presence of oppressive authorities. As a result, Cypherpunks have discussed and improved [[Steganography|steganographic]] methods that hide the use of crypto itself, or that allow interrogators to believe that they have forcibly extracted hidden information from a subject. For instance, ''[[Rubberhose (file system)|Rubberhose]]'' was a tool that partitioned and intermixed secret data on a drive with fake secret data, each of which accessed via a different password. Interrogators, having extracted a password, are led to believe that they have indeed unlocked the desired secrets, whereas in reality the actual data is still hidden. In other words, even its presence is hidden. Likewise, cypherpunks have also discussed under what conditions encryption may be used without being noticed by [[network monitoring]] systems installed by oppressive regimes.
+
+== Activities ==
+
+As the ''Manifesto'' says, "Cypherpunks write code";<ref name="cypherpunk"/> the notion that good ideas need to be implemented, not just discussed, is very much part of the culture of the [[mailing list]]. [[John Gilmore (activist)|John Gilmore]], whose site hosted the original cypherpunks mailing list, wrote: "We are literally in a race between our ability to build and deploy technology, and their ability to build and deploy laws and treaties. Neither side is likely to back down or wise up until it has definitively lost the race."{{citation needed|date=October 2015}}
+
+=== Software projects ===
+
+Anonymous remailers such as the [[Mixmaster anonymous remailer|Mixmaster Remailer]] were almost entirely a cypherpunk development. Among the other projects they have been involved in were [[Pretty Good Privacy|PGP]] for email privacy, [[FreeS/WAN]] for [[opportunistic encryption]] of the whole net, [[Off-the-record messaging]] for privacy in [[Internet chat]], and the [[Tor (anonymity network)|Tor]] project for anonymous web surfing.
+
+=== Hardware ===
+In 1998, the [[Electronic Frontier Foundation]], with assistance from the mailing list, built a $200,000 [[EFF DES cracker|machine]] that could brute-force a [[Data Encryption Standard]] key in a few days.<ref>{{citation
+ | author = Electronic Frontier Foundation
+ | title = Cracking DES: Secrets of Encryption Research, Wiretap Politics, and Chip Design
+ | publisher = Electronic Frontier Foundation
+ | url = http://cryptome.org/jya/cracking-des/cracking-des.htm
+ | isbn = 1-56592-520-3
+ | year = 1998 }}</ref> The project demonstrated that DES was, without question, insecure and obsolete, in sharp contrast to the US government's recommendation of the algorithm.
+
+=== Expert panels ===
+
+Cypherpunks also participated, along with other experts, in several reports on cryptographic matters.
+
+One such paper was "Minimal Key Lengths for Symmetric Ciphers to Provide Adequate Commercial Security".<ref>{{cite journal
+|author=Blaze
+|author2=Diffie
+|author3=Rivest
+|author4=Schneier
+|author5=Shimomura
+|author6=Thompson
+|author7=Wiener
+|last-author-amp=yes
+|year=1996
+|url=http://www.schneier.com/paper-keylength.html}}</ref> It suggested 75 bits was the ''minimum'' key size to allow an existing cipher to be considered secure and kept in service. At the time, the [[Data Encryption Standard]] with 56-bit keys was still a US government standard, mandatory for some applications.
+
+Other papers were critical analysis of government schemes. "The Risks of Key Recovery, Key Escrow, and Trusted Third-Party Encryption",<ref>{{citation
+| title = The Risks of Key Recovery, Key Escrow, and Trusted Third-Party Encryption
+| author = Hal Abelson
+| author-link = Hal Abelson
+| author2 = Ross Anderson
+| author2-link = Ross J. Anderson
+| author3 = Steven M. Bellovin
+| author3-link = Steven M. Bellovin
+| author4 = Josh Benaloh
+| author4-link = Josh Benaloh
+| author5 = Matt Blaze
+| author5-link = Matt Blaze
+| author6 = Whitfield Diffie
+| author6-link = Whitfield Diffie
+| author7 = John Gilmore
+| author7-link = John Gilmore (activist)
+| author8 = Peter G. Neumann
+| author8-link = Peter G. Neumann
+| author9 = Ronald L. Rivest
+| author9-link = Ron Rivest
+| author10 = Jeffrey I. Schiller
+| author10-link = Jeffrey I. Schiller
+| author11 = Bruce Schneier
+| author11-link = Bruce Schneier
+| last-author-amp = yes
+| year = 1998
+| url = http://www.schneier.com/paper-key-escrow.html
+}}</ref> evaluated [[escrowed encryption]] proposals. ''Comments on the Carnivore System Technical Review''.<ref>{{citation
+| title = Comments on the Carnivore System Technical Review
+|author1=Steven Bellovin |author2=Matt Blaze |author3=David Farber |author4=Peter Neumann |author5=Eugene Spafford | url = http://www.crypto.com/papers/carnivore_report_comments.html
+}}</ref> looked at an [[FBI]] scheme for monitoring email.
+
+Cypherpunks provided significant input to the 1996 [[United States National Research Council|National Research Council]] report on encryption policy,
+''Cryptography's Role In Securing the Information Society'' (CRISIS).<ref>{{cite book|title=Cryptography's Role In Securing the Information Society |publisher=National Research Council |editor=Kenneth W. Dam |editor-link=Kenneth W. Dam |editor2=Herbert S. Lin |editor2-link=Herbert S. Lin |year=1996 |location=Washington, D.C. |url=http://cryptome.quintessenz.at/mirror/jya/nrcindex.htm |lccn=96-68943 |isbn=0-309-05475-3 |page=688 |deadurl=yes |archiveurl=https://web.archive.org/web/20110928184335/http://cryptome.quintessenz.at/mirror/jya/nrcindex.htm |archivedate=September 28, 2011 }}</ref>
+This report, commissioned by the U.S. Congress in 1993, was developed via extensive hearings across the nation from all interested stakeholders, by a committee of talented people. It recommended a gradual relaxation of the existing U.S. government restrictions on encryption. Like many such study reports, its conclusions were largely ignored by policy-makers. Later events such as the final rulings in the cypherpunks lawsuits forced a more complete relaxation of the unconstitutional controls on encryption software.
+
+=== Lawsuits ===
+
+Cypherpunks have filed a number of lawsuits, mostly suits against the US government alleging that some government action is unconstitutional.
+
+[[Phil Karn]] sued the State Department in 1994 over cryptography export controls<ref>{{cite web
+| title = The Applied Cryptography Case: Only Americans Can Type!
+| url = http://www.ka9q.net/export/
+}}</ref> after they ruled that, while the book ''Applied Cryptography''<ref name="schneier">{{cite book
+ | first = Bruce
+ | last = Schneier
+ | title = Applied Cryptography
+ | edition = 2nd
+ | year = 1996
+ | publisher = John Wiley & Sons
+ | isbn =0-471-11709-9}}</ref> could legally be exported, a floppy disk containing a verbatim copy of code printed in the book was legally a munition and required an export permit, which they refused to grant. Karn also appeared before both House and Senate committees looking at cryptography issues.
+
+[[Daniel J. Bernstein]], supported by the [[Electronic Frontier Foundation|EFF]], also sued over the export restrictions, arguing that preventing publication of cryptographic source code is an unconstitutional restriction on freedom of speech. He won, effectively overturning the export law. See ''[[Bernstein v. United States]]'' for details.
+
+[[Peter Junger]] also sued on similar grounds, and won.
+
+[[John Gilmore (activist)|John Gilmore]] has sued US Attorneys General Ashcroft and Gonzales, arguing that the requirement to present identification documents before boarding a plane is unconstitutional.<ref>{{citation
+| title = Gilmore v. Gonzales
+| url = http://papersplease.org/gilmore/case.html
+}}</ref> These suits have not been successful to date.
+
+=== Civil disobedience ===
+
+Cypherpunks encouraged civil disobedience, in particular [[Export of cryptography in the United States|US law on the export of cryptography]]. Until 1996, cryptographic code was legally a munition, and until 2000 export required a permit.
+
+In 1995 Adam Back wrote a version of the [[RSA (algorithm)|RSA]] algorithm for [[public-key cryptography]] in three lines of [[Perl]]<ref>{{citation
+| title = export-a-crypto-system sig, web page
+| author = Adam Back
+| url = http://www.cypherspace.org/rsa/
+}}</ref><ref>{{citation
+| title = post to cypherpunks list, RSA in six lines of Perl
+| author = Adam Back
+| url = http://www.cypherspace.org/rsa/org-post.html
+}}</ref> and suggested people use it as an email signature file:
+<source lang="perl">
+#!/bin/perl -sp0777i<X+d*lMLa^*lN%0]dsXx++lMlN/dsM0<j]dsj
+$/=unpack('H*',$_);$_=`echo 16dio\U$k"SK$/SM$n\EsN0p[lN*1
+lK[d2%Sa2/d0$^Ixp"|dc`;s/\W//g;$_=pack('H*',/((..)*)$/)
+</source>
+
+[[Vince Cate]] put up a web page that invited anyone to become an international arms trafficker; every time someone clicked on the form, an export-restricted item&nbsp;— originally [[Pretty Good Privacy|PGP]], later a copy of Back's program&nbsp;— would be mailed from a US server to one in Anguilla. This gained overwhelming attention. There was an option to add your name to a list of such traffickers.<ref>{{citation
+| url = http://online.offshore.com.ai/arms-trafficker/
+| author = Vince Cate
+| title = ITAR Civil Disobedience (International Arms Trafficker Training Page)
+}}</ref><ref>{{cite news|url=http://www.ieee-security.org/Cipher/PastIssues/1998/issue9810/issue9810.txt|first=Marie Ellen|last=Zurko|title=Crypto policy costs the US a citizen|journal=Electronic CIPHER: Newsletter of the IEEE Computer Society's TC on Security and Privacy|issue=29|date=1998-10-07|accessdate=2013-10-11}}</ref><ref>{{cite news|url=http://tbtf.com/archive/1996-05-05.html#i-a-traf|archiveurl=https://web.archive.org/web/19970116044849/http://www.tbtf.com/archive/05-05-96.html#i-a-traf |first=Keith|last=Dawson|title=Become an international arms trafficker in one click|work=[[Tasty Bits from the Technology Front]]|date=1996-05-05|accessdate=2013-10-11|archivedate=1997-01-16}}</ref>
+
+=== Cypherpunk fiction ===
+In [[Neal Stephenson]]'s novel ''[[Cryptonomicon]]'' many characters are on the "Secret Admirers" mailing list. This is fairly obviously based on the cypherpunks list, and several well-known cypherpunks are mentioned in the acknowledgements. Much of the plot revolves around cypherpunk ideas; the leading characters are building a data haven which will allow anonymous financial transactions, and the book is full of cryptography.
+But, according to the author<ref>{{citation|author=Neal Stephenson |title=Cryptonomicon cypher-FAQ |url=http://web.mac.com/nealstephenson/Neal_Stephensons_Site/cypherFAQ.html |deadurl=yes |archiveurl=https://web.archive.org/web/20100528150638/http://web.mac.com/nealstephenson/Neal_Stephensons_Site/cypherFAQ.html |archivedate=May 28, 2010 }}</ref> the book's title is&nbsp;— in spite of its similarity&nbsp;— not based on the Cyphernomicon,<ref name=cnomicon /> an online cypherpunk FAQ document.
+
+=== Legacy ===
+Cypherpunk achievements would later also be used on the Canadian e-wallet, the [[MintChip]], and the creation of [[bitcoin]]. It was an inspiration for [[CryptoParty]] decades later to such an extent that the ''Cypherpunk Manifesto'' is quoted at the header of its Wiki,<ref>[https://cryptoparty.org/wiki/CryptoParty] {{webarchive|url=https://web.archive.org/web/20120912144522/https://cryptoparty.org/wiki/CryptoParty|date=September 12, 2012}}</ref> and Eric Hughes delivered the keynote address at the Amsterdam CryptoParty on 27 August 2012.
+
+== Noteworthy cypherpunks ==
+{{Refimprove section|date=September 2013}}
+[[File:John Gilmore 2009.jpg|thumb|right|[[John Gilmore (activist)|John Gilmore]] is one of the founders of the Cypherpunks mailing list, the [[Electronic Frontier Foundation]], and Cygnus Solutions. He created the alt.* hierarchy in [[Usenet]] and is a major contributor to the [[GNU Project]].]]
+[[File:Julian Assange in Ecuadorian Embassy cropped.jpg|thumb|right|[[Julian Assange]], a well-known cypherpunk who advocates for the use of [[cryptography]] to ensure privacy on the [[Internet]]]]
+Cypherpunks list participants included many notable computer industry figures. Most were list regulars, although not all would call themselves "cypherpunks".<ref>{{cite news|url=https://www.wired.com/culture/lifestyle/news/2002/09/55114 |work=Wired |title=Warm Party for a Code Group |date=September 13, 2002 |deadurl=yes |archiveurl=https://web.archive.org/web/20090305092908/http://www.wired.com/culture/lifestyle/news/2002/09/55114 |archivedate=March 5, 2009 }}</ref> The following is a list of noteworthy cypherpunks and their achievements:
+* [[Jacob Appelbaum]]: [[Tor (anonymity network)|Tor]] developer,<ref name="Lopp-2016-04-09"/> political [[advocate]]
+* [[Julian Assange]]: [[WikiLeaks]] founder,<ref name="Lopp-2016-04-09"/> [[Rubberhose (file system)|deniable cryptography]] inventor, journalist; co-author of ''[[Underground (Suelette Dreyfus book)|Underground]]''; author of ''[[Cypherpunks (book)|Cypherpunks: Freedom and the Future of the Internet]]''; member of the [[International Subversives]]. Assange has stated that he joined the list in late 1993 or early 1994.<ref name=":0" /> An archive of his cypherpunks mailing list posts<ref>[https://marc.info/?a=90366091900010 'Julian Assange <proff () suburbia ! net>' posts - MARC<!-- Bot generated title -->]</ref> is at the [[MARC (archive)|Mailing List Archives]].
+* [[Derek Atkins]]: computer scientist, computer security expert, and one of the people who factored RSA-129
+* [[Adam Back]]: inventor of [[Hashcash]] and of NNTP-based Eternity networks; co-founder of [[Blockstream]]<ref name="Lopp-2016-04-09"/>
+* [[Jim Bell]]: author of ''Assassination Politics'
+* [[Steven Bellovin]]: Bell Labs researcher; later Columbia professor; Chief Technologist for the US Federal Trade Commission in 2012
+* [[Matt Blaze]]: Bell Labs researcher; later professor at University of Pennsylvania; found flaws in the [[Clipper Chip]]<ref name="Rodger-2001-Nov-30">{{cite web|last1=Rodger|first1=Will|title=Cypherpunks RIP|url=https://www.theregister.co.uk/2001/11/30/cypherpunks_rip/|website=The Register|accessdate=13 July 2016|date=30 November 2001}}</ref>
+* [[Eric Blossom]]: designer of the Starium cryptographically secured mobile phone; founder of the [[GNU Radio]] project
+* [[Jon Callas]]: technical lead on OpenPGP specification; co-founder and Chief Technical Officer of PGP Corporation; co-founder with Philip Zimmermann of [[Silent Circle (software)|Silent Circle]]
+* [[Bram Cohen]]: creator of [[BitTorrent (protocol)|BitTorrent]]<ref name="Lopp-2016-04-09"/>
+* [[Lance Cottrell]]: original author of the [[Mixmaster anonymous remailer|Mixmaster Remailer]] software; founder of [[Anonymizer (company)|Anonymizer]]<ref name="Rodger-2001-Nov-30"/>
+* [[Matt Curtin]]: founder of Interhack Corporation; first faculty advisor of the [[Ohio State University]] Open Source Club;<ref>{{cite web|url=http://opensource.osu.edu/about/officers|title=Officers - Open Source Club at Ohio State University|publisher=}}</ref> lecturer at Ohio State University
+* [[Hugh Daniel]] (deceased): former Sun Microsystems employee; manager of the FreeS/WAN project (an early and important freeware [[IPsec]] implementation)
+* Dave Del Torto: [[Pretty Good Privacy#PGP 3 and founding of PGP Inc.|PGPv3]] volunteer; founding PGP Inc. employee; longtime Cypherpunks physical meeting organizer; co-author of RFC3156 (PGP/MIME) standard; co-founder of [[IETF]] [[OpenPGP|OpenPGP Working Group]] and the [[CryptoRights Foundation]] human rights non-profit; HighFire project principal architect
+* [[Suelette Dreyfus]]: [[Rubberhose (file system)|deniable cryptography]] co-inventor, journalist, co-author of ''[[Underground (Suelette Dreyfus book)|Underground]]''
+* [[Hal Finney (cypherpunk)|Hal Finney]] (deceased): cryptographer; main author of PGP 2.0 and the core crypto libraries of later versions of PGP; designer of [[Proof-of-work system|RPOW]]<ref name="Lopp-2016-04-09"/>
+* Alex Fowler: entrepreneur, advocate, executive, AAAS, EFF, Zero-Knowledge Systems, PwC and Mozilla; notable contributions include NSF study on Anonymous Communications on the Internet, AAAS Brief in Bernstein case, EFF's DES Cracker Project, Do Not Track, Collusion/Lightbeam Extension, Stopwatching.us campaign
+* Randy French (pseudonym of Sandy Sandfort): producer of the first Cypherpunk genre pornographic film, ''Cryptic Seduction''<ref>{{cite web|last=Orlowski|first=Andrew|title=Alice, Bob and Eve too|url=https://www.theregister.co.uk/2002/03/16/alice_bob_and_eve/|publisher=The Register}}</ref>
+* Michael Froomkin*: Distinguished Professor of Law at University of Miami School of Law<ref>[http://www.discourse.net/ Discourse.net | On the fringes of the public sphere<!-- Bot generated title -->]</ref>
+* [[Eva Galperin]]: malware researcher and security advocate; Electronic Frontier Foundation activist<ref>{{cite news|last1=Franchesci-Bicchierai|first1=Lorenzo|title=Egypt's New Internet Surveillance System Remains Shrouded in Mystery|url=http://mashable.com/2014/09/19/egypts-new-internet-surveillance-system/|accessdate=23 September 2014|date=20 September 2014}}</ref>
+* [[John Gilmore (activist)|John Gilmore]]*: Sun Microsystems' fifth employee; co-founder of the Cypherpunks and the Electronic Frontier Foundation; project leader for FreeS/WAN
+* [[Mike Godwin]]: Electronic Frontier Foundation lawyer; electronic rights advocate
+* [[Ian Goldberg]]*: professor at University of Waterloo; designer of the off-the-record messaging protocol
+* [[Rop Gonggrijp]]: founder of [[XS4ALL]]; co-creator of the Cryptophone
+* [[Sean Hastings]]: founding CEO of [[Havenco]]; co-author of the book ''[[God Wants You Dead]]''<ref>{{cite book |first= Sean |last=Hastings |title=God Wants You Dead |publisher=Vera Verba|edition= 1st |date=2007|isbn=0979601118}}</ref>
+* [[Johan Helsingius]]: creator and operator of [[Penet remailer]]
+* [[Nadia Heninger]]: assistant professor at University of Pennsylvania; security researcher<ref>{{cite news|last1=Evans|first1=Jon|title=Nadia Heninger Is Watching You|url=https://techcrunch.com/2013/01/12/nadia-heninger-is-watching-you/|accessdate=23 September 2014|date=13 January 2013}}</ref>
+* [[Robert Hettinga]]: founder of the International Conference on Financial Cryptography; originator of the idea of [[Financial cryptography]] as an applied subset of cryptography{{citation needed|date=May 2017}}
+* [[Marc Horowitz]]: author of the first [[Key server (cryptographic)|PGP key server]]
+* [[Tim Hudson]]: co-author of SSLeay, the precursor to [[OpenSSL]]<ref name="Lopp-2016-04-09"/>
+* [[Eric Hughes (cypherpunk)|Eric Hughes]]: founding member of Cypherpunks; author of ''A Cypherpunk's Manifesto''
+* Isak Johnsson (deceased):<ref>{{cite web|url=http://www.svenskagravar.se/index.php/visa_gravsatt/?ID=140076382&LOPNR=1|title=Visa gravplats|accessdate=28 April 2015}}</ref> creator of the [[stealth technology]] used in [[Stuxnet]];<ref>{{cite web|url=http://hackitat.com/meet-the-virus-author/|title=Meet the virus author:Hackitat|date=11 September 2012|accessdate=28 April 2015}}</ref> virus author; programmer
+* [[Peter Junger]] (deceased): law professor at Case Western Reserve University
+* [[Werner Koch]]: author of [[GNU Privacy Guard]]
+* [[Paul Kocher]]: president of [[Cryptography Research|Cryptography Research, Inc.]]; co-author of the SSL 3.0 protocol<ref name="Lopp-2016-04-09"/>
+* [[Ryan Lackey]]: co-founder of [[HavenCo]], the world's first [[data haven]]
+* [[Brian LaMacchia]]: designer of [[XKMS]]; research head at Microsoft Research
+* [[Ben Laurie]]: founder of The Bunker, core [[OpenSSL]] team member, [[Google]] engineer.
+* [[Moxie Marlinspike]]: founder of [[Open Whisper Systems]] (developer of [[Signal (software)|Signal]]);<ref name="Lopp-2016-04-09"/> author of the [[Convergence (SSL)|Convergence]] SSL authenticity system, co-author of the [[Signal Protocol]] and the [[Double Ratchet Algorithm]] (with Trevor Perrin).
+* [[Morgan Marquis-Boire]]: researcher, security engineer, and privacy activist
+* [[Timothy C. May]] (deceased): former Assistant Chief Scientist at Intel; author of ''A Crypto Anarchist Manifesto'' and the ''[[Cyphernomicon]]''; a founding member of the Cypherpunks mailing list
+* [[Jude Milhon]] (deceased; aka "St. Jude"): a founding member of the Cypherpunks [[mailing list]], credited with naming the group; co-creator of ''[[Mondo 2000]]'' magazine
+* [[Vincent Moscaritolo]]: founder of Mac Crypto Workshop;<ref>[http://www.vmeng.com/mc/ Mac Crypto Workshop]</ref> Principal Cryptographic Engineer for [[PGP Corporation]]; co-founder of [[Silent Circle (software)|Silent Circle]] and 4th-A Technologies, LLC
+* [[Satoshi Nakamoto]]: anonymous creator(s) of the decentralized [[Bitcoin]] [[cryptocurrency]], and inventor(s) of the [[blockchain]] technology
+* Julian Oliver: artist, privacy advocate, critical engineer; co-founder of Critical Engineering<ref>{{cite web|url=http://criticalengineering.org/en}}</ref>
+* [[Sameer Parekh]]: former CEO of [[C2Net]] and co-founder of the [[CryptoRights Foundation]] human rights non-profit
+* [[Vipul Ved Prakash]]: co-founder of Sense/Net; author of ''Vipul's Razor''; founder of Cloudmark
+* [[Runa Sandvik]]: Tor developer, political advocate
+* [[Len Sassaman]] (deceased): maintainer of the [[Mixmaster anonymous remailer|Mixmaster Remailer]] software; researcher at [[Katholieke Universiteit Leuven]]; [[biopunk]]
+* Steven Schear: creator of the [[warrant canary]];<ref name="Lopp-2016-04-09"/> [[street performer protocol]]; founding member of the International Financial Cryptographer's Association<ref>{{cite web|url=http://www.ifca.ai/|title=IFCA|publisher=}}</ref> and [[GNURadio]]; team member at [[BT Counterpane|Counterpane]]; former Director at data security company Cylink and [[MojoNation]]
+* [[Bruce Schneier]]*: well-known security author;<ref name="Lopp-2016-04-09"/> founder of [[BT Counterpane|Counterpane]]
+* [[Nick Szabo]]: inventor of [[smart contracts]]; designer of [[bit gold]], a precursor to [[Bitcoin]]
+* [[Zooko Wilcox-O'Hearn]]: [[DigiCash]] and [[MojoNation]] developer; founder of Zcash;<ref name="Lopp-2016-04-09"/> co-designer of [[Tahoe-LAFS]]
+* Asher Wolf: founder of [[Cryptoparty]]<ref>{{cite news|last1=Allnutt|first1=Luke|title=The Woman Behind CryptoParty|url=http://www.rferl.org/content/the-woman-behind-cryptoparty/24782719.html|accessdate=23 September 2014|date=27 November 2012}}</ref>
+* [[Jillian C. York]]: Director of International Freedom of Expression at the Electronic Frontier Foundation (EFF)<ref>{{cite web|url=https://www.eff.org/about/staff/jillian-york|title=Jillian York|work=Electronic Frontier Foundation}}</ref>
+* [[John Young (Cryptome)|John Young]]: anti-secrecy activist and co-founder of [[Cryptome]]
+* [[Philip Zimmermann]]: original creator of PGP v1.0 (1991);<ref name="Lopp-2016-04-09">{{cite web|url=http://www.coindesk.com/the-rise-of-the-cypherpunks|title=The rise of the cypherpunks|first=Jameson |last=Lopp|date=9 April 2016|accessdate=11 April 2016|publisher=[[CoinDesk]]|work=}}</ref> co-founder of PGP Inc. (1996); co-founder with Jon Callas of [[Silent Circle (software)|Silent Circle]]
+
+<nowiki>*</nowiki> indicates someone mentioned in the acknowledgements of Stephenson's ''Cryptonomicon.''
+
+== References ==
+:{{citizendium}}
+{{Reflist|30em}}
+
+== Further reading ==
+* [[Andy Greenberg]]: ''This Machine Kills Secrets: How WikiLeakers, Cypherpunks, and Hacktivists Aim to Free the World's Information''. [[Dutton Adult]] 2012, {{ISBN|978-0525953203}}
+
+== External links ==
+* [http://www.activism.net/cypherpunk/manifesto.html ''A Cypherpunk's Manifesto''] written by Eric Hughes
+* [http://www.activism.net/cypherpunk/crypto-anarchy.html ''The Crypto Anarchist Manifesto''] written by [[Timothy C. May]]
+* [https://www.youtube.com/watch?v=i85fX9-sKYo Assange 'The World Tomorrow'&nbsp;— Cypherpunks uncut version]
+* [http://www.swiss.ai.mit.edu/6805/articles/crypto/cypherpunks/cyphernomicon/CP-FAQ ''The Cyphernomicon''] by [[Timothy C. May]] ("Cypherpunks FAQ and More" from 1994)
+* [http://cryptome.org/cpunks/cpunks-92-98.zip Archives of the first eight years of the mailing list (Zipped, 83MB)]
+* [http://archive.wired.com/culture/lifestyle/news/2002/09/55114 "Warm Party for a Code Group"] - Cypherpunks 10 year anniversary (article in Wired)
+* [http://archive.wired.com/wired/archive/1.02/crypto.rebels.html Crypto Rebels], [[Wired Magazine]] issue 1.02 (May/Jun 1993)
+* [http://crypto.is/ The Crypto Project], a revitalization of the Cypherpunk movement
+
+[[Category:Punk]]
+[[Category:Cypherpunks| ]]
+[[Category:Internet privacy]]

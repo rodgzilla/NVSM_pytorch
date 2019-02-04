@@ -1,0 +1,76 @@
+{{Short description|A set of semantic relations involving the type-of property}}
+[[File:Hyponym and hypernym.svg|thumb|300px| An example of the relationship between hyponyms and hypernym]]
+{{Use British English|date=January 2014}}
+
+In [[linguistics]], a '''hyponym''' (from Greek ''hupó'', "under" and ''ónoma'', "name") is a [[word]] or [[phrase]] whose [[semantic field]]<ref>{{cite book|last=Brinton |first=Laurel J. |year=2000 <!--NO_PREVIEW: |url=https://books.google.com/books?id=Cqhef3mfhXQC--> |title=The Structure of Modern English: A Linguistic Introduction |edition=Illustrated |publisher=[[John Benjamins Publishing Company]] |isbn=978-90-272-2567-2 |page=112}}</ref> is included within that of another word, its '''hyperonym''' or '''hypernym''' (from Greek ''hupér'', "over" and ''ónoma'', "name").<ref>{{cite web|last=Stede |first=Manfred |title=The hyperonym problem revisited: Conceptual and lexical hierarchies in language generation - W00-1413 |url=http://aclweb.org/anthology//W/W00/W00-1413.pdf |publisher=[[Association for Computational Linguistics]] |accessdate=5 January 2014 |pages=93–99 |format=PDF |doi=10.3115/1118253.1118267 |date=June 2000}}</ref> In simpler terms, a hyponym is in a [[ontology components|''type-of'' relationship]] with its hypernym. For example, ''pigeon'', ''crow'', ''eagle'' and ''seagull'' are all hyponyms of ''[[bird]]'' (their hypernym); which, in turn, is a hyponym of ''[[animal]]''.<ref>{{cite book|first=Victoria |last=Fromkin |last2=Robert |first2=Rodman |title=Introduction to Language |isbn=0-03-018682-X |year=1998 |publisher=Harcourt Brace College Publishers |location=Fort Worth |edition=6th}}{{page needed|date=January 2014}}</ref>
+
+Other names for hypernym include '''umbrella term''' and '''blanket term'''. <ref>{{cite web |url=https://definitions.uslegal.com/u/umbrella-term/ |title=Umbrella Term Law and Legal Definition |work=uslegal.com |author= |date= |accessdate=December 11, 2018 |quote=Umbrella term is also called a hypernym}}</ref><ref>{{cite book |url=https://books.google.com/books?id=lDklDwAAQBAJ&pg=PA165&dq=hypernym+umbrella |title=LGBTQs, Media and Culture in Europe |publisher=Taylor & Francis |author=Alexander Dhoest |year=2016 |page=165 |accessdate=December 11, 2018 |quote=Hypernym can also be called an 'Umbrella term'}}</ref><ref>{{cite book |url=https://books.google.com/books?id=Og8rJGaXCDwC&pg=PA73&dq=hypernym+umbrella |title=Handbook of Intellectual Styles |publisher=Springer Publishing Company |author=Robert J. Sternberg |year=2011 |page=73 |accessdate=December 11, 2018 |quote=umbrealla term, or hypernym}}</ref><ref>{{cite book |url=https://books.google.com/books?id=W_MJkq-3scQC&pg=PA77&dq=hypernym+umbrella |title=The Roeder Protocol |publisher=Books on Demand |author=Frank W. D. Röder |year=2011 |page=77 |accessdate=December 11, 2018 |quote=Synaptic plasticity is a hypernym (umbrella term)}}</ref>
+
+== Hyponyms and hypernyms ==
+Hyponymy shows the relationship between a generic term (hypernym) and a specific instance of it (hyponym). A hyponym is a word or phrase whose semantic field is more specific than its hypernym. The semantic field of a hypernym, also known as a superordinate, is broader than that of a hyponym. An approach to the relationship between hyponyms and hypernyms is to view a hypernym as consisting of hyponyms. This, however, becomes more difficult with abstract words such as ''imagine'', ''understand'' and ''knowledge''. While hyponyms are typically used to refer to nouns, it can also be used on other parts of speech.  Like nouns, hypernyms in verbs are words that refer to a broad category of actions. For example, verbs such as ''stare'', ''gaze'', ''view'' and ''peer'' can also be considered hyponyms of the verb ''look'', which is their hypernym.
+
+Hypernyms and hyponyms are asymmetric. Hyponymy can be tested by substituting X and Y in the sentence ‘X is a kind of Y’ and determining if it makes sense.<ref name=Maienborn>{{cite book|first=Claudia|last=Maienborn |last2=von Heusinger |first2=Klaus |last3=Portner |first3=Paul (eds.) |title=Semantics: An International Handbook of Natural Language Meaning. |isbn=978-3-11-018470-9 |year=2011 |publisher=[[De Gruyter Mouton]] |location=Berlin}}</ref>  For example, ‘A screwdriver is a kind of tool’ makes sense but not ‘A tool is a kind of screwdriver’.
+
+Strictly speaking, the meaning relation between hyponyms and hypernyms applies  to lexical items of the same word class (or parts of speech), and holds between [[Word_sense|senses]] rather than words. For instance, the word ''screwdriver'' used in the previous example refers to [[Screwdriver|the tool for turning a screw]], and not to [[Screwdriver (cocktail)|the drink made with vodka and orange juice]].
+
+Hyponymy is a [[transitive relation]], if X is a hyponym of Y, and Y is a hyponym of Z, then X is a hyponym of Z.<ref>{{cite book|first=John|last=Lyons |title=Semantics |isbn=978-0-52-129165-1 |year=1977 |publisher=[[Cambridge University Press]]}}</ref> For example, ''violet'' is a hyponym of ''purple'' and ''purple'' is a hyponym of ''color''; therefore ''violet'' is a hyponym of ''color''. A word can be both a hypernym and a hyponym: for example ''purple'' is a hyponym of colour but itself is a hypernym of the broad spectrum of shades of purple between the range of ''crimson'' and ''violet''.
+
+The hierarchical structure of semantic fields can be mostly seen in hyponymy. They could be observed from top to bottom, where the higher level is more general and the lower level is more specific. For example, ''living things'' will be the highest level followed by ''plants'' and ''animals'', and the lowest level may comprise ''dog'', ''cat'' and ''wolf''.<ref name="The Application of Semantic Field Theory to English Vocabulary Learning">{{cite journal|last1=Gao|first1=Chunming|last2=Xu|first2=Bin|title=The Application of Semantic Field Theory to English Vocabulary Learning|journal=Theory and Practice in Language studies|date=November 2013|volume=3|issue=11|pages=2030–2035|url=http://ojs.academypublisher.com/index.php/tpls/article/viewFile/tpls031120302035/8042|accessdate=6 October 2014}}</ref>
+
+Under the relations of hyponymy and incompatibility, taxonomic hierarchical structures too can be formed. It consists of two relations; the first one being exemplified in 'An X is a Y' (simple hyponymy) while the second relation is 'An X is a kind/type of Y'. The second relation is said to be more discriminating and can be classified more specifically under the concept of taxonomy.<ref name="The Semantics of Relationships: An Interdisciplinary Perspective">{{cite book|last1=Green|first1=Rebecca|last2=Bean|first2=Carol A.|last3=Sung|first3=Hyon Myaeng|title=The Semantics of Relationships: An Interdisciplinary Perspective|date=2002|publisher=[[Kluwer Academic Publishers]]|location=Netherlands|page=12|url=https://books.google.com/books?id=JgplkZbZ2zwC&lpg=PP1&pg=PA3#v=onepage&q&f=false|accessdate=2014-10-17}}</ref>
+
+=== Co-hyponyms===
+If the hypernym Z consists of hyponyms X and Y, X and Y are identified as co-hyponyms. Co-hyponyms are labelled as such when separate hyponyms share the same hypernym but are not hyponyms of one another, unless they happen to be synonymous.<ref name=Maienborn /> For example, ''screwdriver'', ''scissors'', ''knife'', and ''hammer'' are all co-hyponyms of one another and hyponyms of ''tool'', but not hyponyms of one another: *‘A hammer is a type of knife’ is false.
+
+Co-hyponyms are often but not always related to one another by the relation of incompatibility. For example, ''apple'', ''peach'' and ''plum'' are co-hyponyms of ''fruit''. However, an ''apple'' is not a ''peach'', which is also not a ''plum''. Thus, they are incompatible. Nevertheless, co-hyponyms are not necessarily incompatible in all senses. A ''queen'' and ''mother'' are both hyponyms of ''woman'' but there is nothing preventing the ''queen'' from being a ''mother''.<ref name="Meaning in Language">{{cite book|last1=Cruse|first1=D. A.|title=Meaning in Language: An Introduction to Semantics and Pragmatics|date=2004|publisher=]]Oxford University Press]]|page=162|edition=2|url=http://www.personal.uni-jena.de/~mu65qev/wikolin/images/d/d0/Cruse_ch9.pdf|dead-url=yes|accessdate=2014-10-17|archive-url=https://web.archive.org/web/20141017101534/http://www.personal.uni-jena.de/~mu65qev/wikolin/images/d/d0/Cruse_ch9.pdf|archive-date=2014-10-17|df=}}</ref> This shows that compatibility may be relevant.
+
+=== Autohyponyms ===
+[[File:Autohyponyms.svg|thumb|300px|Three varieties of autohyponym]]
+A word is an autohyponym if it is used for both a hypernym and its hyponym.<ref>{{Cite web|url=https://www.jstor.org/stable/20116854|title=Ambiguity, Generality, and Indeterminacy: Tests and Definitions on JSTOR|website=www.jstor.org|language=en|access-date=2018-12-06}}</ref> For example, the word ''dog'' describes both [[Canis familiaris]] and male [[Canis Familaris|Canis familaris]], so it is possible to say "That dog isn't a dog, it's a bitch" ("That hypernym Z isn't a hyponym Z, it's a hyponym Y"). Similarly, the verb to drink (a beverage) is a hypernym for to drink (an alcoholic beverage).<ref name=":0">{{Cite web|url=https://www.researchgate.net/publication/286695474_Ambiguity_negation_and_the_London_school_of_parsimony|title=Ambiguity, negation, and the London School of Parsimony|last=Horn|first=Laurence R|date=1984|website=|page=110-118|archive-url=|archive-date=|dead-url=|access-date=}}</ref> Autohyponymy is also called "vertical [[polysemy]]".{{Efn|In part because the term autohyponymy is ambiguous because it is itself an autohyponym (see Koskela)}}<ref>{{Cite web|url=https://www.sussex.ac.uk/webteam/gateway/file.php?name=ak-metonymy.pdf&site=1|title=On the distinction between metonymy and vertical polysemy in encyclopaedic semantics|last=Koskela|first=Anu|date=2015-01-23|website=www.sussex.ac.uk|language=en|archive-url=|archive-date=|dead-url=|access-date=2018-12-06}}</ref> 
+
+The term "autohyponym" was coined by linguist [[Laurence R. Horn]] in a 1984 paper, ''Ambiguity, negation, and the London School of Parsimony.'' Linguist [[Ruth Kempson]] had already observed that if there are hyponyms for one part of a set but not another, the hypernym can complement the existing hyponym by being used for the remaining part. For example, fingers describe all digits on a hand, but the existence of the word [[thumb]] for the first finger means that fingers can also be used for "non-thumb digits on a hand".<ref name=":0" />
+
+Horn called this "licensed [[polysemy]]", but found that autohyponyms also formed even when there is no other hyponym. [[Yankee]] is autohyponymous because it is a hyponym (native of New England) and its hypernym (native of the United States), even though there is no other hyponym of Yankee (as native of the United States) that means "not a native of New England".{{Efn|Horn identifies up to four layers of hyponym for Yankee: native of the United States, native of the northern United States, native of New England, or [[White Anglo-Saxon Protestant|WASP]] native of New England.}}<ref name=":0" />
+
+In some cases, autohyponyms duplicate existing, distinct hyponyms. The hypernym "smell" (to emit any smell) has a hyponym "stink" (to emit a bad smell), but is autohyponymous because "smell" can also mean "to emit a bad smell", even though there is no "to emit a smell that isn't bad" hyponym.<ref name=":0" />
+
+== Usage ==
+[[Computer science]] often terms this relationship an "[[is-a]]" relationship. For example, the phrase 'Red is-a colour' can be used to describe the hyponymic relationship between ''red'' and ''colour''.
+<!--*''autohyponyms'' (Horn, [[1994]]) ?? -->
+
+Hyponymy is the most frequently encoded relation among [[Synonym ring|synsets]] used in lexical databases such as [[WordNet]]. These semantic relations can also be used to compare [[semantic similarity]] by judging the distance between two synsets and to analyse [[anaphora (linguistics)|Anaphora]].
+
+As a hypernym can be understood as a more general word than its hyponym, the relation is used in [[semantic compression]] by generalization to reduce a level of [[Specialization (linguistics)|specialization]].
+
+The notion of hyponymy is particularly relevant to [[language translation]], as hyponyms are very common across languages. For example, in Japanese the word for older brother is {{nihongo||兄|ani}}, and the word for younger brother is {{nihongo||弟|otōto}}. An English-to-Japanese translator presented with a phrase containing the English word ''brother'' would have to choose which Japanese word equivalent to use. This would be difficult, because abstract information (such as the speakers' relative ages) is often not available during [[machine translation]].
+
+== See also ==
+* [[Contrast set]]
+* [[Is-a]]
+* [[Genus–differentia definition|Genus proximum]]
+* [[Meronymy]]
+* [[-onym]]
+* [[Polysemy]]
+* [[Subcategory]]
+* [[Synonym]]
+* [[Taxonomy (general)|Taxonomy]]
+* [[WordNet]] (a semantic lexicon for the English language, which puts words in semantic relations to each other, mainly by using the concepts ''hypernym'' and ''hyponym'')
+
+== Notes ==
+{{notelist}}
+
+== References ==
+{{Reflist}}
+
+==Sources==
+* {{cite journal|last=Snow |first=Rion |author2=Daniel Jurafsky |author3=Andrew Y. Ng  |title=Learning syntactic patterns for automatic hypernym discovery |journal=Advances in Neural Information Processing Systems |volume=17 |year=2004 |url=http://www.stanford.edu/~jurafsky/paper887.pdf |format=PDF}}
+* {{cite journal|last=Hearst |first=M. |year=1992 |title=Automatic acquisition of hyponyms from large text corpora |journal=Proceedings of 14th International Conference on Computational Linguistics |doi=10.3115/992133.992154 |volume=2 |pages=539}}
+
+== External links ==
+{{Wiktionary|hyponymy}}
+* [http://everything2.com/title/Hypernym Hypernym] at Everything2.com
+
+{{Lexicography}}
+
+[[Category:Hierarchy]]
+[[Category:Lexical semantics]]

@@ -1,0 +1,130 @@
+{{Infobox rocket
+|image =Venturestar1.jpg
+|caption = Simulated view of VentureStar in [[low Earth orbit]]
+|name = VentureStar
+|function = Manned Re-usable [[Spaceplane]]
+|manufacturer = [[Lockheed Martin]]
+|country-origin = United States
+|height = 38.7 m<ref name="AeroSpace">{{cite web
+  |title=AeroSpace Online:X-33 Advanced Technology Demonstrator
+  |url=http://www.nasa.gov/centers/marshall/news/background/facts/x33.html
+  |accessdate=2007-04-23}}</ref>
+|alt-height = 127 [[foot (unit)|ft]]
+|diameter = 39.0 m <ref>http://www.astronautix.com/v/venturestar.html</ref>
+|alt-diameter = 127 [[foot (unit)|ft]]
+|mass = 1,000,000 [[kilogram|kg]]<ref name="AeroSpace" />
+
+|alt-mass = 2,200,000 [[pound (mass)|lb]]
+|stages = 1
+|LEO-payload = 20,000 [[kilogram|kg]]<ref name="AeroSpace" />
+|alt-LEO = 45,000 [[pound (mass)|lb]]
+|payload-location =
+|payload = 0
+|alt-payload =
+|status = Cancelled
+|sites = [[Kennedy Space Center|Kennedy]], [[Kennedy Space Center Launch Complex 39|LC-39A]]
+|launches = 0
+|success =
+|payloads =
+|fail =
+|first=
+|plannedretirement=
+|boosters =
+|boostername=
+|boosterengines =
+|boosterthrust =
+|alt-boosterthrust =
+|boosterSI =
+|boostertime =
+|boosterfuel =
+|stage1name = VentureStar
+|stage1engines = 7 RS2200 [[Aerospike engine|Linear Aerospikes]]<ref name="AeroSpace" />
+|stage1thrust = 3,010,000 lb<ref name="AeroSpace" /> (13.39 M[[Newton (units)|N]])
+|alt-stage1thrust =
+|stage1SI =
+|stage1time =
+|stage1fuel =[[Liquid oxygen|LOX]]/[[Liquid hydrogen|LH2]]<ref name="AeroSpace" />
+|stage2name =
+|stage2engines =
+|stage2thrust =
+|alt-stage2thrust =
+|stage2SI =
+|stage2time =
+|stage2fuel =}}
+[[File:Venturestar releasing a satellite in orbit.jpg|thumb|VentureStar releases a spacecraft]]
+'''VentureStar''' was a [[single-stage-to-orbit]] [[reusable launch system]] proposed by [[Lockheed Martin]] and funded by the U.S. government. The goal was to replace the [[Space Shuttle]] by developing a re-usable [[spaceplane]] that could launch satellites into orbit at a fraction of the cost. While the requirement was for an unmanned launcher, it was expected to carry passengers as cargo. The VentureStar would have had a wingspan of {{convert|68|feet|meter|1}}, a length of {{convert|127|feet|meter|1}}, and would have weighed roughly 1000 [[Tonne|t]] (2.2 million lb).
+
+VentureStar was intended to be a commercial [[single-stage-to-orbit]] vehicle that would launch vertically, but return to Earth as an airplane. Flights would have been leased to [[NASA]] as needed. After failures with the [[Lockheed Martin X-33|X-33]] subscale technology demonstrator test vehicle, funding was cancelled in 2001.
+
+VentureStar was essentially a bigger version of the X-33 but was not produced.<ref name="nasaspaceflight.com">[https://www.nasaspaceflight.com/2006/01/x-33venturestar-what-really-happened/]</ref> The X-33 had ongoing problems meeting performance requirements for the hydrogen carbon fiber fuel tank.<ref name="nasaspaceflight.com"/> There were a number of other technologies that were part of the program, including the linear [[aerospike engine|aerospike rocket engine]], and one point of praise was the metallic thermal protection system invented by BF Goodrich for the launch system.<ref name="nasaspaceflight.com"/>
+
+== Advantages ==
+
+[[File:VentureStar Shuttle Comparison.PNG|left|thumb|250px|VentureStar would have stood approximately 17 [[meter]]s shorter than the [[Space Shuttle]].]]
+
+VentureStar's engineering and design would have offered numerous advantages over the [[Space Shuttle]], representing considerable savings in time and materials, as well as increased safety.<ref name="Reed">{{cite web |url=https://history.nasa.gov/SP-4220/ch9.htm |title=SP-4220 Wingless Flight:  The Lifting Body Story (Chapter 9) |publisher=[[NASA]] |work=R. Dale Reed (NASA Dryden Flight Research Center, Aerospace and Contract Engineer) |date=August 1997 |accessdate= 21 January 2010}}</ref>  VentureStar was expected to launch satellites into orbit at about 1/10 the cost of the Shuttle.
+
+Readying VentureStar for flight would have dramatically differed from that of the Space Shuttle.  Unlike the [[Space Shuttle orbiter]], which had to be lifted and assembled together with several other heavy components (a large [[external tank]], plus two [[solid rocket booster]]s), VentureStar was to be simply inspected in a [[hangar]] like an aeroplane.<ref name="Reed" />
+
+Also unlike the Space Shuttle, VentureStar would not have relied upon [[solid rocket booster]]s, which had to be hauled out of the ocean and then refurbished after each launch.<ref name="Reed" />  Furthermore, design specifications called for the use of linear [[aerospike engine]]s that maintain thrust efficiency at all altitudes,  whereas the Shuttle relied upon conventional nozzle engines which achieve maximum efficiency at only a certain altitude.<ref name="Reed" />
+
+VentureStar would have used a new metallic thermal protection system, safer and cheaper to maintain than the ceramic protection system used on the Space Shuttle. VentureStar's metallic heat shield would have eliminated 17,000 between-flight maintenance hours typically required to satisfactorily check (and replace if needed) the thousands of heat-resistant [[ceramic tile]]s that compose the Shuttle exterior.<ref name="Reed" />
+
+VentureStar was expected to be safer than most modern rockets.<ref name="Reed" /> Whereas most modern rockets fail catastrophically when an engine fails during flight, VentureStar was intended to have a thrust reserve in each engine in the event of an emergency during flight.<ref name="Reed" />  For example, if an engine on VentureStar were to have failed during an ascent to orbit, another engine opposite to the failed engine would have shut off to counterbalance the failed thrust, and each of the remaining working engines could then have throttled up so as to safely continue the mission.<ref name="Reed" />
+
+Unlike the Space Shuttle, whose solid rocket boosters produced chemical wastes, primarily [[hydrogen chloride]], during launch, VentureStar's exhaust would have been composed of only water vapor, since VentureStar's main fuels would have been only [[liquid hydrogen]] and [[liquid oxygen]].<ref name="Reed" /> This would have given VentureStar the benefit of being environmentally clean.<ref name="Reed" /> VentureStar's simpler design would have excluded [[hypergolic propellant]]s and even [[hydraulic]]s, relying instead upon electrical power for flight controls, doors and landing gear.<ref name="Reed" />
+
+Because of its lighter design, VentureStar would have been able to land at almost any major airport in an emergency,<ref name="Reed" /> whereas the Space Shuttle required [[Shuttle Landing Facility|much longer runways]] than available at most public airports.
+
+== Cancellation ==
+
+The VentureStar program was cancelled due to development cost concerns accompanied by technical problems and failures in the [[X-33]] program, a program which was intended as proof-of-concept for some of the critical technologies needed by the VentureStar. The failure during a test of the X-33's complex, multi-lobe composite-structure cryogenic hydrogen tank was one of the main reasons for the cancellation of both the X-33 and the VentureStar. Ultimately, the VentureStar program required too many technical advances at too high a cost to be viable.
+
+==Program hardware==
+[[File:Twin Linear Aerospike XRS-2200 Engine PLW edit.jpg|thumb|300px|XRS-2200 linear aerospike engine]]
+Examples:<ref name="nasaspaceflight.com"/> 
+*Metallic TPS
+*XRS-2200 Linear [[Aerospike engine|aerospike]] main engines
+*LOX tanks
+
+One of the technological barriers at the time was the hydrogen fuel tank.<ref name="nasaspaceflight.com"/> One positive was that several years later the performance requirements for such a hydrogen tank were achieved, as NASA gained more experience with cryogenic carbon fiber fuel tanks.<ref name="news.northropgrumman.com">Northrop Grumman. [http://news.northropgrumman.com/news/releases/northrop-grumman-nasa-complete-testing-of-prototype-composite-cryogenic-fuel-tank "Northrop Grumman, NASA Complete Testing of Prototype Composite Cryogenic Fuel Tank"], ''News Releases'', September 7, 2004, accessed April 27, 2011.</ref>
+
+September 7, 2004, Northrop Grumman and NASA engineers unveiled a liquid hydrogen tank made of carbon fiber composite material that had demonstrated the ability for repeated fuelings and simulated launch cycles.<ref name="news.northropgrumman.com"/> The tank was a simple cylinder, not the complex shape used for the X-33. Northrop Grumman concluded that these successful tests have enabled the development and refinement of new manufacturing processes that will allow the company to build large composite tanks without an [[autoclave]]; and design and engineering development of conformal fuel tanks appropriate for use on a single-stage-to-orbit vehicle.<ref>{{cite web |first= Sara |last= Black |url = http://www.compositesworld.com/articles/an-update-on-composite-tanks-for-cryogens | work= High-Performance Composites |title= An update on composite tanks for cryogens |date= November 2005}}</ref>
+
+== In fiction ==
+In the 2001 novella and 2015 novel ''Lash-Up'' by [[Larry Bond]] and Chris Carlson, the VentureStar prototype is converted into an armed spacecraft named ''Defender'' in order to protect US space assets from China, which is using a [[space gun]] to destroy [[GPS (satellite)|GPS satellites]].<ref>{{cite book|chapter=Lash-Up|last=Bond|first=Larry|authorlink=Larry Bond|title=Combat|editor-last=Coonts|editor-first=Stephen|editor-link=Stephen Coonts|publisher=[[Tor Books|Forge]]|location=[[New York City|New York]]|year=2001|pages=149–265|isbn=0-312-87190-2|oclc=45066376}}</ref><ref>{{cite book|title=Lash-Up|last=Bond|first=Larry|others=With Chris Carlson|publisher=Forge|location=New York|year=2015|isbn=978-0-7653-3491-6|oclc=906798381}}</ref>
+
+In [[John Varley (author)|John Varley]]'s novel ''[[Red Thunder (novel)|Red Thunder]]'' and sequels, one of the major protagonists is a former VentureStar pilot.
+
+In the television series ''[[Star Trek: Enterprise]]'', an operational VentureStar spaceplane is included in the opening credits as part of the history of human spaceflight.<ref>https://www.youtube.com/watch?v=ZPn-lTytfGo&t=60</ref>
+
+In the television series ''[[Space Island One]]'', a fleet of VentureStars resupply the titular commercial space station.
+
+==Diagram==
+[[File:ED97-43938-1mod.jpg|thumb|570px|left|The X-33 (''left'') and VentureStar design (''right'')]]
+{{clear}}
+
+== See also ==
+* [[Lockheed Martin X-33]]
+*[[Skylon (spacecraft)]]
+*[[Orbital Sciences X-34]]
+
+== References ==
+{{reflist}}
+
+== External links ==
+{{Commons category|VentureStar}}
+* {{YouTube|id=zlFVCRgp_Ss|title=Simulated VentureStar Flight}}
+* [http://www.popsci.com/archive-viewer?id=B1r9RiyD6HgC&pg=42&query Popsci article - October 1996]
+*[http://www.armaghplanet.com/blog/10-shuttles-which-never-flew.html Review of various Shuttle replacements]
+
+{{Reusable launch systems}}
+
+[[Category:United States cargo aircraft 2000–2009]]
+[[Category:Lockheed Martin]]
+[[Category:Lifting bodies]]
+[[Category:Rocket-powered aircraft]]
+[[Category:Single-stage-to-orbit]]
+[[Category:Proposed reusable space launch systems]]
+[[Category:Space launch vehicles of the United States]]
+[[Category:Spaceplanes]]

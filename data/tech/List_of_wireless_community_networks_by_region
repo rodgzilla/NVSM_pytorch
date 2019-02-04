@@ -1,0 +1,248 @@
+{{Multiple issues|
+{{citation style|date=April 2017}}
+{{Update|article|inaccurate=y|date=August 2012}}
+}}
+
+Some [[wireless community network]] projects are:
+;Community networks by region
+{{dynamic list}}
+
+==Africa==
+{{See also|South African wireless community networks}}
+
+===DRC===
+
+'''Mesh Bukavu''': A project of News for Peace, which among other things runs Radio Maendeleo, a community radio station. It is the result of a collaboration of Free Press, a Dutch organization, and was bootstrapped with funding and training from the Open Technology Institute (OTI). The training took place in November 2014 and the network was deployed in January 2015. It has a strong emphasis on local hosting of content (Wikipedia, blogs, audio lessons, e-books), and also other local services like a local chat. It is valued also as a standby when official net shutdowns occur, e.g. at election times.
+
+The network, which is still operational, consists of 10-15 nodes, (Ubiquiti NanoStation and Rockets) running Commotion firmware. Equipment is mounted on rooftops of participant organisations especially if they have backup electricity (solar is being phased in).[https://www.freepressunlimited.org/en/news/people-of-dr-congo-will-communicate- using-their-own-mesh-network] [https://www.facebook.com/people/Mesh-Bukavu/100010181648152] [https://webwewant.org/news/fastafrica-mesh-bukavu-workshop-democratic-republic-congo/] [https://communitytechnology.github.io/docs/blog/mesh-bukavu-designing-a-network-from- scratch/] [https://communitytechnology.github.io/files/downloads/SEED_Report_Final.pdf] [https://www.newamerica.org/documents/1371/rebuilding-technology.pdf]
+
+'''Mesh Goma''':  An experiment of a local organization, the Collective of Community Radio and TV in North Kivu (CORACON), in partnership with Free Press Unlimited and inspired by Mesh Bukavu. It also received Seed funding from the OTI.
+
+The network was initially deployed in January 2015 with the idea of providing access to information to the areas in the city of Goma which lacked this access. It consisted of 15 nodes (14 Ubiquiti and 1 Tp-Link). It is no longer operational due to the problems with access and costs of reliable electricity in Goma, and the lack of digital stewards keen to work voluntarily in maintaining the network. Additionally, the network was only providing intranet services, which did not make it attractive to the majority of the population in Goma.[https://communitytechnology.github.io/docs/seed-grants/] [https://communitytechnology.github.io/files/downloads/SEED_Report_Final.pdf]
+
+'''Pamoja Net''' (pamoja means 'together' in Swahili) is a local mesh on the island of Idjwi in Lake Kivu, between the DRC and Rwanda.  It reports 200 regular WiFi users, as well as institutions such as a radio station, the police, and the electoral commission. It also has a public display screen and tablets for casual users in a kiosk. Its backhaul is via line-of-sight links to Bukavu, where another community network is located (although Pamoja's gateway is via an internet cafe there).
+
+The network was created in 2015 by Project First Light, a partnership of NGOs and businesses. The partnership still oversees operations, although it has trained local "guardians" to conduct day-to-day running. In terms of governance, the local traditional leader (who originally requested internet connectivity) is committed to operating Pamoja as a commons.[https://www.fjordnet.com/workdetail/bringing-the-internet-to-africas-forgotten-island/]
+
+===Ghana===
+
+'''Akwapim Community Wireless Network:'''  installed and maintained by a small group of volunteers associated with the Apirede Community Resource center. Both the resource centre and the community network are projects of the Community-Based Libraries and Information Technology (CBLit), a non-government organization based in both Ghana and the United States. It started in 2005 in response to the local community’s requests for connectivity to help them break their isolation, as an extension of a public library initiative, with the support of the US Peace Corps. Its first phase had 10 nodes, and the second was to have another 10. The second phase was also to use a V-Sat link. Most nodes use old PCs as routers, with new WiFi cards (Dell OptiPlex units and D-Link DWLG520 cards). Its website is down and no information after 2009 can be found online,.[http://www.muniwireless.com/2006/11/05/voip-on-cuwin-network-in-rural-ghana/][https://www.youtube.com/watch?v=NPD4Ep_J81k][http://www.schmoller.net/documents/Wireless_Ghana_A_Case_Study.pdf]
+
+===Kenya===
+
+'''Tunapandanet''': This was started and funded in the last 5 years by an educational-development NGO (Tunapanda Institute, which got early funding via Indiegogo, and had high input from American “backpacker” volunteers). The network serves to further its outreach (educational activities center on Edubuntu thin client system) into large, high-density slum. Of particular interest is the organization’s emphasis on cached/recorded content to avoid external data costs. Base station and 3 nodes: Ubiquity PicoStation (short range, omnidirectional), Ubiquiti NanoStation (medium range, directional), Ubiquiti Rocket. Network likely expanding as the organisation is active.[http://www.tunapanda.org/]
+
+===Namibia===
+
+'''Connecting Eenhana''': This was created in 2015 by a partnership between the University of Namibia and the Glowdom Educational Foundation with a grant from the OTI to support learning amongst community members of the small town of Eenhana and surrounding villages. In particular, it aimed at supporting the generation and sharing local content and to increase access of schools to educational content, including for learners and students at a Special school for Deaf learners. Additionally, the local content creation was extended to provide local government information, as well as transparency and accountability of local government It connects 7 sites using Ubiquiti routers, indoor coverage is provided using Mesh Potatoes to provide VoIP services too. All the network runs SECN firmware. It is only partly functional at the moment, due to equipment failure due to overheating and difficult terrain (very flat and with tall trees, which prevent Line of Sight between the nodes).[https://shingapi.blogspot.com/2015/07/community-mesh-network-in-northern.html][https://communitytechnology.github.io/files/downloads/SEED_Report_Final.pdf][https://www.newamerica.org/documents/1371/rebuilding-technology.pdf]
+
+===Nigeria===
+
+'''Fantsuam Foundation''': Started in 2009 with SEED funding and having only 2 nodes, ZittNet is a department of Fantsuam Foundation (an NGO in Kaduna), and focuses mainly on ICT training; nonetheless it was honored as Nigeria’s first rural ISP. It was also intended to provide rural students with access to (downloaded) offline study materials. It started off having a VSat connection but due to cost is trying to replace this with a fiber connection. It notably uses solar backup to maintain service in the absence of reliable grid power.[http://fantsuam.net/project/zittnet-nigeria%E2%80%99s-first-rural-community-wireless-network-and-training-centre][https://www.newamerica.org/documents/1371/rebuilding-technology.pdf][https://communitytechnology.github.io/files/downloads/SEED_Report_Final.pdf][http://www.dadamac.org/blog/2015-10/fantsuam-wireless-network-mesh]
+
+'''Ibadan WUG''': Started by one of the Mesh Potato project’s earlier contributors in a residential precinct in Ibadan. It is still actively providing connectivity largely to students. It consists of 22 Mesh Potatoes.[https://villagetelco.org/2013/02/ibadan-wireless-user-group/]
+
+===Somalia===
+
+'''Abaarso''': Initiated by an American working as ICT instructor in Somalia to serve the Abaarso School of Science and Technology due to poor and at times nonexistent internet. Also involved some local cloud hosting. Used Ubiquity & Commotion. Current status unknown.[https://commotionwireless.net/blog/2013/12/12/building-mesh-network-rural-somaliland/]
+
+===South Africa===
+
+'''Siyakhula Living Labs''': It started in 2005 involving the Telkom Centre of Excellence at two universities, Rhodes and Fort Hare. The first network was intended to provide exposure to international markets to the local arts and craft entrepreneurs within the Dwesa community; and started off with 3 nodes at schools, consisting of WiMAX backbone with WIFI hotspots around each node, and a VSAT backhaul and later growing to at least 14 nodes. From the initial offering of e-commerce services this grew to providing information and communication services (including telephony services, emailing, school administration, etc.) both for the schools and the surrounding communities. The network grew from the three nodes to about 14+ (might have actually been 17 schools at the end) and offering a whole plethora of services to the schools and the communities. The network is still operational but barely, largely due to funding challenge. The second network was started by a researcher from the University of Fort Hare (UFH) who deployed a community wireless mesh network consisting of seven nodes using nanostations m2 (3) and picostations m2-hp (4) connected through a VSAT sponsored by Sifunda Kunye Educational Foundation in a location called Ntselamanzi, Its operation is linked to a research project by a student at UFH, which meant that its active management and administration has slowed down since the student completed his work. Still, it has plans to be extended to neighbouring communities.[http://www.siyakhulall.org/]
+
+'''Rural Telehealth''': The University of Western Cape led a series of rural wireless projects, lasting several years each, between 2003-2012, connecting remote hospitals and clinics in the Eastern Cape province. There was also an initial try at rural community networks, even mesh. These involved long range (up to 15&nbsp;km) line-of-sight WiFi links, in both 2.4 and 5&nbsp;GHz. At times, they were connected to one or two expensive VSAT links. All were powered by deep cycle 12v batteries, charged either by solar panels or trickle charged from unreliable mains. Despite robust technical performance, the networks and apps created for them were not fully utilised mainly due to social reasons, e.g. power relations, suspicion of motives and the single champion problem.<ref>{{Cite journal|last=Tucker et al|first=William|year=2007|title=Reflection on three years of rural wireless Internet Protocol communication|url=|journal=Southern African Telecommunication Networks and Applications Conference (SATNAC)|volume=|pages=452–457|via=}}</ref>
+
+'''Peebles Valley Mesh Network''': Centred on a clinic dealing with AIDS patients, where a VSat connection provided a gateway for a mesh of 6 nodes serving the surrounding area including a school. Supported by First Mile First Inch, a collaboration including Meraka and various academic and development agencies, mainly funded by IDRC. Lapsed due to high cost of VSat and lack of continued support.[http://www.fmfi.org.za/wiki/index.php/Mpumalanga_Mesh:Project_Overview]
+
+'''Bo-Kaap''': A now-defunct “testbed” experiment in a historic inner-city precinct involving 75 of the early Mesh Potatoes and an internet gateway, funded by the Shuttleworth Foundation. Unfortunately technology was prioritised over human capacity-building; problems with the equipment combined with lack of community buy-in led to the project lapsing.[https://villagetelco.org/deployments/bokaap/]
+
+'''Orange Farm''': Another pilot project in the development of the Village Telco technology/business model, in a township near Johannesburg. Social enterprise Dabba installed Mesh Potatoes and cheap VoIP handsets. However the network seems to have lapsed after the rapid proliferation of cellular telephony created a more powerful “network effect” so the micro-entrepreneurs Dabba anticipated were not forthcoming.[http://www.balancingact-africa.com/news/en/issue-no-412/top-story/dabba-looks-set-to-m/en][[Dabba (company)|Dabba]]
+
+'''Kranshoek Mesh''': A truly community-driven network in a historic coastal village occupied by an ethnic minority. Using Mesh Potatoes, it promised to bring relief from high communications cost in a context of high unemployment, but current status is unknown.[https://villagetelco.org/deployments/wayne-abroue-south-africa/]
+
+'''Zenzeleni Networks''': Formed with technical assistance from the University of the Western Cape, it is registered as a co-operative enterprise and a telecoms provider, operated and managed by members of Mankosi, a rural community in one of the most disadvantaged areas of South Africa. It has 12 nodes linked via a long distance WiFi backbone to a fibre gateway. Each node consists of a Mesh Potato connected to a solar power supply. It provides access to voices services at a fraction of the cost offered by incumbent operators. Currently under way are the provision of WiFi hotspots and connection of local schools’ computer labs, as well as backhaul improvement.[http://zenzeleni.net/][https://www.youtube.com/watch?v=YxTPSWMX26M]
+
+'''Scarborough Wireless User Group''': A middle-class peri-urban DIY community was sharing internet access by mesh with each other and some poorer neighbours near Cape Town. At its peak it had about 200 nodes. Used Linksys WRT54GL routers. Defunct due to arrival of cheaper, faster ADSL & fibre.[http://www.prospect.ac.za/wifi/faq.html]
+
+'''Cape Town WUG''': Although using the term “mesh” this large urban network (registered as a nonprofit organisation) is more correctly described as decentralised. With some hundreds of members, its only official connection to the internet is for POP email; otherwise, the main functions are offline file-sharing and gaming. It has a progressive constitution regarding sharing of skills and resources and some cross-subsidisation is evident between richer and poorer areas.[http://www.ctwug.za.net/]
+
+'''Johannesburg Area WUG''': Similar to above; is a member not only of Wireless Application Providers Association, but Internet Service Providers Association.[http://www.jawug.org.za/]
+
+'''SoWUG:''' Hybrid CN/ISP in Soweto, South Africa. Started in 2010 with corporate sponsorship and technical support from the Johannesburg Area WUG. It provides WiFi hotspots in public spaces in Soweto and nearby peri-urban areas. The organisation’s website maps out several operations it intends to expand into such as educational support.[http://www.sowug.org.za/home/]
+
+'''Durban Wireless Community''': Smaller (approx 50 nodes) and more sporadically active; founded 2004 and recently revived; a non-profit promoting wireless technology and computer networks.[https://web.archive.org/web/20081223092144/http://www.dwc.za.net/]
+
+'''Other WUG'''s: Another five nuclei of smaller, sporadic groups are [http://www.wug.za.net/ listed].
+
+'''Pretoria Mesh''': This is an experimental project started in 2006 in the residential village of the CSIR, to test hardware and software deployed in other projects throughout the country. It has about 20 nodes and is still active.[http://wirelessafrica.meraka.org.za/wiki/index.php/Pretoria_Mesh]
+
+'''B4All:''' This is an abbreviation of Broadband Community Wireless Mesh Network which was a government program targeting the digital divide in rural areas, but which eventually merged with a commercial organisation providing school connectivity and public hotspots. It launched in 2009 in Limpopo province and public-sector involvement ended in 2014.[http://embizounify.com/?v=68caa8201064]
+
+'''ICT4RED:''' The ICT for Rural Education (ICT4RED) project (2012-2016), undertaken by CSIR Meraka, was the largest research, development, innovation and implementation project of its kind in South Africa. It formed the ICT aspect of the larger Cofimvaba Technology for Rural Education Development (TECH4RED) project, a joint initiative between the Department of Science and Technology, the Department of Basic Education and the Eastern Cape Department of Education. TECH4RED is aimed at contributing to the improvement of rural education through technology-led innovation. ICT4RED was particularly successful in implementing technology in schools and in empowering rural teachers to comfortably use tablets in their day-to-day teaching activities, by using gamification principles and an "earn-as-you-learn" approach. ICT4RED employed a mesh network connecting 26 schools, with internet connectivity provided via shared satellite infrastructure. In 2016 the project has been handed over to the district and the province authorities to institutionalize the initiative.[http://www.ict4red.co.za/]
+
+'''Home of Compassion''': This N.P.O. based in Delft (Cape Town), has piloted a community network since 2015. It started with funding from the Western Cape Government and the support of an external ISP to roll out the network but once they built enough technical capacity, they decided to become an ISP themselves. By November 2015, it had 20 active access points and 17,150 active devices. They offer 50MB allowance a day per device and once users reach their cap, they sell prepaid top-up vouchers though a network of local resellers. In addition to the provision of Wi-Fi connectivity, Home of Compassion provides IT training and through its network it is able to set up “call centres on-demand”. Finally, Home of Compassion has developed an app, which is zero-rated across its network, to purchase goods and services within the community.<ref>Geerdts, C., Gillwald, A., Calandro, E., Rademan, B., and Chair, C. (2016). Developing Smart Public Wi-Fi in South Africa. (Under publication.)</ref>
+
+===Tanzania===
+
+'''ICT for Rural Development''' (ICT4RD): This nationwide initiative had 2 pilot networks set up in Bunda and Serengeti in 2006. Assistance came from Swedish researchers and the agency SIDA. Both pilots were motivated by existence of fibre optic cables owned by other entities, however use was also made of a VSat connection at Bunda. Local governments were involved to create ownership and sustainability but contributed to the demise of the first. The remaining one connects schools and hospitals.[http://ict4rd.ne.tz/]
+
+'''Sengerema Wireless Community Network''': A project of the Sengerema multi-purpose Telecenter which provides computer services, printing, office, internet, education, FM Radio Station (reaching 400 000 people) with support from Dutch NGO, IICD. In 2012 it had an internet connection - VSAT 128/64 kbit/s through COSTECH (Tanzania Commission for Science and Technology). The network served a large number of civil society and official organisations including schools. It featured wireless routers: Linksys WRT54GL; firmware OpenWRT/Freifunk; self-built antennas (with some exceptions) and locally built masts. Current status unknown, believed to be lapsed.[http://www.ruralict.com/2008/11/sengerema-wireless-community-network-up.html][http://www.share4dev.info/telecentreskb/documents/4545.pdf]
+
+===Tunisia===
+
+'''Mesh SAYADA''': A project of Clibre (a local open-web advocacy group) that started in 2012. The networking equipment (12 nodes) was donated by the Open Technology Institute, and the time was volunteer. The network is not really operating currently, largely due to the unstable sociopolitical situation.[https://nawaat.org/portail/2014/05/31/mesh-sayada-entre-fantasme-et-realite/][https://commotionwireless.net/files/posts/041814-Case-Study-Sayada.pdf][https://www.youtube.com/watch?v=x4TCPoXlBSI]
+
+===Uganda===
+
+'''Bosco Network''': Battery Operated System for Community Outreach (BOSCO)-Uganda is a Non-Profit Organization (NGO) under the trusteeship of the Archdiocese of Gulu. Funded and operational since the year 2007 the organization started in installing wireless Internet and VoIP telephony in internally displaced persons (IDP) camps with reliable eco-friendly energy. 9 years later BOSCO-Uganda is managing 32 Information and Communication Technology (ICT) Centers situated in rural communities and former internally displaced persons camps, consist of low-power, solar powered PCs connected to a high-speed, long-range WiFi Internet connection. Each communication station is linked to other BOSCO sites via a free VoIP telephony network and through a high-speed internal network (INTRANET) content management page that are all powered by solar energy and enabling thousands of Ugandans in acquiring ICT and entrepreneurship knowledge, connecting them with other communities (e.g. market platform) and the outside world.[http://boscouganda.com/our-approach/bosco-network/]
+
+===Zambia===
+
+'''Macha Works''': Macha Works' LinkNet internet provisioning in the rural community of Macha, in Choma District, Southern Zambia, is a renowned example of a community networking in Southern Africa. The first internet connection became available for the community, early 2004, by means of a shared satellite internet connection with a medical research center in the community. From its start, so-called ‘local talent’ gained experience in collaboration with international partners but always approached realities from the local perspective first. The networking morphs continuously, utilising a variety of available technologies. These (did) include mesh network technologies and direct WiFi links, the use of second-hand computers, and the deployment of locally refurbished sea containers for the sensitising for the internet in other rural communities in Zambia and Zimbabwe. With the implementation of a WiMax network by a commercial operator and with debilitating donor-led intrusions of the LinkNet developed 'market' in its community, Macha Works focuses more on user training, technical training, and the maintenance of ICT equipment. The Macha network inspired and trained local leadership in both the technical and communal aspects of the provisioning of internet access in rural area. At least 7 other communities in Zambia emulate Macha's example and run a plethora of community networks and ICT services..[http://www.machaworks.org/]
+
+===Zimbabwe===
+
+'''Murambinda Works''': Established in the early 2000s, Murambinda Works at Buhera in Zimbabwe is focused on bridging the digital divide between rural and urban settings. In this sense, Murambinda works provides ICT training in rural communities where most schools lack relevant computer facilities. It is affiliated with Macha Works in Zambia and has various operations, including internet service provision and an internet cafe.
+
+After using dial-up internet until 2015, it now has a fibre link to the national backbone. Training is provided for public officials including teachers, and any surplus revenue is channeled to a local foster home. Plans are afoot to extend to remote access points, perhaps even by satellite although for now costs are prohibitive..[http://www.machaworks.org/murumbinda.html]
+
+==Asia==
+* [[Nepal Wireless Networking Project]]
+
+==Middle East==
+
+{{Empty section|date=January 2016}}
+
+==Oceania==
+
+===Australia===
+* [[Air Stream Wireless]]<ref>{{cite news|url=http://encore.slsa.sa.gov.au/iii/encore/articles/C__SAir%20networks%20take%20off__Orightresult?acc=624892436&con=EbscoXML&lang=eng&link=http%3A%2F%2Fencore.slsa.sa.gov.au%3A50080%2Febsco%2Flogin.aspx%3Fdirect%3Dtrue%26scope%3Dsite%26db%3Danh%26AN%3D200304121089847018&suite=cobalt&title=Air+networks+take+off |title=Air networks take off |last=Harris |first=John |newspaper=[[The Advertiser (Adelaide)]] |location=Adelaide, Australia |date=2015-12-03}}</ref>
+* [[Melbourne Wireless]]
+* [[TasWireless]], Tasmania
+
+==Europe==
+
+===Austria===
+* ''[[FunkFeuer]]''
+
+===Denmark===
+* ''[[Freemesh Denmark]]''
+* ''[[Forening for Gratis Internet via Vedvarende Energi]]''
+
+===France===
+* ''[[Allier Wireless]]''
+* ''[[Antrasite Sans Fil]]''
+* ''[[Caen Sans Fil]]''
+* ''[[Clermont Sans Fil]]''
+* ''[[Incrédibulle]]''
+* ''[[Lille sans fil]]''
+* ''[[Rouen-Wireless]]''
+* ''[[cafes-wifi, Paris]]''
+* ''[[Montpellier Wireless]]''
+* ''[[Strasbourg Sans Fils]]''
+* ''[[Lozère Wireless]]''
+* ''[[Grenoble Wireless]]''
+* ''[[Wi-Fi Alpes]]''
+* ''[[Les Orres Sans Fil]]''
+* ''[[Nord Charente Wireless]]''
+* ''[[Vienne-Glane Haut-Débit Solidaire]]''
+* ''[[Ail-Network du Pays d'Autan]]''
+* ''[[Carbodebit]]''
+
+===Germany===
+* ''[[Freifunk]]''
+
+===Greece===
+* [[Athens Wireless Metropolitan Network]]
+* [[Wireless Thessaloniki]]
+* [[Patras Wireless Network]]
+* [[Sarantaporo.gr|Sarantaporo.gr Wireless Community Network]]
+
+===Italy===
+* ''[[ninux]]''
+* [[Progetto neco|Progetto Neco]]
+
+===Netherlands===
+* [[Wireless Leiden]]
+
+===Portugal===
+* [[Wirelesspt]]
+
+=== Slovenia ===
+* [[wlan slovenija]]
+
+===Spain===
+* [[guifi.net]]
+
+===Sweden===
+* [https://pjodd.se Pjodd]
+
+===United Kingdom===
+* [[Southampton Open Wireless Network]]
+
+==North America==
+
+===Canada===
+
+====Nova Scotia====
+* [[Chebucto Community Network]], [[Halifax Regional Municipality]]
+
+====Ontario====
+* [http://www.tomesh.net/ TOMesh]
+* [[Wireless Toronto]]
+* [[Wireless Nomad]], [[Ontario]] and [[Toronto]]
+
+====Québec====
+* [[Île Sans Fil]], [[Montreal]]
+* [[ZAP Sherbrooke]], [[Sherbrooke]]
+
+===Cuba===
+* SNET (abbreviation of "Street Network"), nationwide underground community network<ref>[https://www.polygon.com/features/2017/5/15/15625950/cuba-secret-gaming-network Inside Cuba’s secretive underground gamer network], Polygon, 2017-05-15</ref><ref>[https://www.youtube.com/watch?v=FFPjJM6yYS8 Castro hates the internet, so Cubans created their own], Vox Video, 2015-10-05</ref><ref>[https://www.youtube.com/watch?v=Ycv-ZIx-1-c SNET: Cuba's Underground Internet & The Rise of Competitive Gaming], Polygon Video, 2017-05-15</ref>
+
+===United States===
+
+====California====
+* [https://peoplesopen.net People's Open Network] / [https://sudomesh.org sudo mesh]. [[Oakland]]/[[Berkeley, CA|Berkeley]]/[[San Francisco]]<ref>[https://peoplesopen.net/ People's Open Network, Oakland/Berkeley/San Francisco mesh network]</ref> 
+* [http://ocmesh.org/ Orange County Mesh Organization]
+
+====Illinois====
+* [[Champaign-Urbana Community Wireless Network]]
+
+====Minnesota====
+* [[Minneapolis wireless internet network]]
+
+====New York====
+*[https://nycmesh.net NYC Mesh]
+
+====Oregon====
+* [[Personal Telco]], Portland, OR
+
+====Washington====
+* [[Seattle Wireless]]
+
+====West Virginia====
+* [[West Virginia Broadband]]
+
+==See also==
+* [[Computer network]]
+* [[Metropolitan area network]]
+* [[Wireless community network]]
+* [[Wireless mesh network]]
+* [[Wireless user group]]
+
+==References==
+{{Reflist}}
+
+==External links==
+
+{{Use dmy dates|date=August 2010}}
+
+{{DEFAULTSORT:Wireless Community Networks by Region}}
+[[Category:Community networks|*]]
+[[Category:Lists by region]]
+[[Category:Technology-related lists]]
+[[Category:Wireless network organizations|*]]
+
+[[da:Frie fællesskabs radionet]]
+[[de:Freies Funknetz]]
+[[fr:Réseaux sans fil communautaires]]

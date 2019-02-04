@@ -1,0 +1,195 @@
+{{Use mdy dates|date=April 2015}}
+'''Service-oriented architecture''' ('''SOA''') is a style of [[software design]] where services are provided to the other components by [[application components]], through a [[Communications protocol|communication protocol]] over a network. The basic principles of service-oriented architecture are independent of vendors, products and technologies.<ref>{{Cite web|url=https://msdn.microsoft.com/en-us/library/bb833022.aspx|title=Chapter 1: Service Oriented Architecture (SOA)|website=msdn.microsoft.com|access-date=2016-09-21|deadurl=yes |archiveurl=https://web.archive.org/web/20160206132542/https://msdn.microsoft.com/en-us/library/bb833022.aspx |archivedate=February 6, 2016 |df=mdy-all }}</ref>
+A service is a discrete unit of functionality that can be accessed remotely and acted upon and updated independently, such as retrieving a credit card statement online.
+
+A service has four properties according to one of many definitions of SOA:<ref>{{cite web|url=https://publications.opengroup.org/standards/soa|title=Service-Oriented Architecture Standards - The Open Group|website=www.opengroup.org}}</ref>
+# It logically represents a business activity with a specified outcome.
+# It is self-contained.
+# It is a [[black box]] for its consumers.
+# It may consist of other underlying services.<ref>{{Cite web |url=http://www.opengroup.org/soa/source-book/soa/soa.htm |title=What Is SOA? |website=www.opengroup.org |access-date=2016-09-21 |deadurl=yes |archiveurl=https://web.archive.org/web/20160819141303/http://opengroup.org/soa/source-book/soa/soa.htm |archivedate=August 19, 2016 |df=mdy-all }}</ref>
+
+SOA was first termed Service-Based Architecture<ref>{{Cite book|title=Achieving EAI Using A Services-Based Architecture|last=Abate, Aiken, Burke|first=Robert J., Dr. Peter, Joseph N.|publisher=Wiley & Sons|year=2000|location=|pages=|via=}}</ref> in 1998 by a team developing integrated foundational management services and then business process-type services based upon units of work and using [[Common Object Request Broker Architecture|CORBA]] for inter-process communications.
+
+Different services can be used in conjunction to provide the functionality of a large [[Software applications|software application]],<ref>{{Cite book|title=Cloud Computing: A Practical Approach|last=Velte|first=Anthony T.|publisher=McGraw Hill|year=2010|isbn=978-0-07-162694-1|location=|pages=|via=}}</ref> a principle SOA shares with [[modular programming]]. Service-oriented architecture integrates distributed, separately-maintained and -deployed software components. It is enabled by technologies and standards that facilitate components' communication and cooperation over a network, especially over an IP network.
+
+== Overview ==
+In SOA, services use protocols that describe how they [[Message passing|pass]] and parse messages using description [[metadata]]. This metadata describes both the functional characteristics of the service and quality-of-service characteristics. Service-oriented architecture aims to allow users to combine large chunks of functionality to form applications which are built purely from existing services and combining them in an ad hoc manner. A service presents a simple interface to the requester that abstracts away the underlying complexity acting as a black box. Further users can also access these independent services without any knowledge of their internal implementation.<ref>{{Cite web|url=http://www-128.ibm.com/developerworks/library/ws-migratesoa/ |title=Migrating to a service-oriented architecture, Part 1 |date=2008-12-09 |access-date=2016-09-21 |deadurl=bot: unknown |archiveurl=https://web.archive.org/web/20081209120916/http://www-128.ibm.com/developerworks/library/ws-migratesoa/ |archivedate=December 9, 2008 |df= }}</ref>
+
+== Defining concepts ==
+The related buzzword [[service-orientation]] promotes ''[[loose coupling]]'' between services. SOA separates functions into distinct units, or services,<ref name="Bell">{{cite book|title=Service-Oriented Modeling: Service Analysis, Design, and Architecture|publisher=Wiley & Sons|year=2008|isbn=978-0-470-14111-3|page=3|chapter=Introduction to Service-Oriented Modeling|author=Michael Bell}}</ref> which developers make accessible over a network in order to allow users to combine and reuse them in the production of applications. These services and their corresponding consumers communicate with each other by passing data in a well-defined, shared format, or by coordinating an activity between two or more services.<ref name="Bell_">{{ cite book |author=Michael Bell|title=SOA Modeling Patterns for Service-Oriented Discovery and Analysis |year=2010 |publisher=Wiley & Sons|isbn=978-0-470-48197-4 |page=390 }}</ref>
+
+A manifesto was published for service-oriented architecture in October, 2009. This came up with six core values which are listed as follows:<ref>{{Cite web|url=http://www.soa-manifesto.org/|title=SOA Manifesto|website=www.soa-manifesto.org|access-date=2016-09-21}}</ref>
+# '''Business value''' is given more importance than technical strategy.
+# '''Strategic goals''' are given more importance than project-specific benefits.
+# '''Intrinsic inter-operability''' is given more importance than custom integration.
+# '''Shared services''' are given more importance than specific-purpose implementations.
+# '''Flexibility''' is given more importance than optimization.
+# '''Evolutionary refinement''' is given more importance than pursuit of initial perfection.
+
+SOA can be seen as part of the continuum which ranges from the older concept of [[distributed computing]]<ref name="Bell" /><ref name="Erl">Thomas Erl (June 2005). ''About the Principles''. Serviceorientation.org</ref> and [[modular programming]], through SOA, and on to current practices of [[Mashup (web application hybrid)|mashup]]s, [[SaaS]], and [[cloud computing]] (which some see as the offspring of SOA).<ref>{{cite web|url=http://apsblog.burtongroup.com/2009/01/soa-is-dead-long-live-services.html |title=Application Platform Strategies Blog: SOA is Dead; Long Live Services |publisher=Apsblog.burtongroup.com |date=January 5, 2009 |accessdate=August 13, 2012 }}</ref>
+
+== Principles ==
+There are no industry standards relating to the exact composition of a service-oriented architecture, although many industry sources have published their own principles.  Some of these<ref>Yvonne Balzer [http://www-128.ibm.com/developerworks/webservices/library/ws-improvesoa/ Improve your SOA project plans], ''IBM'', July 16, 2004</ref><ref>{{cite web |url= http://msdn.microsoft.com/en-us/library/bb972954.aspx |title=Principles of Service Oriented Design |author=Microsoft Windows Communication Foundation team |work=msdn.microsoft.com |year=2012 |accessdate=September 3, 2012}}</ref><ref name="Terl">Principles by [[Thomas Erl]] of SOA Systems Inc. [http://soaprinciples.com eight specific service-orientation principles]</ref><ref>{{cite book|author=M. Hadi Valipour|title= 2009 2nd IEEE International Conference on Computer Science and Information Technology|author2= Bavar AmirZafari|author3= Kh. Niki Maleki|author4= Negin Daneshpour|doi=10.1109/ICCSIT.2009.5235004 |pages=34–38|chapter= A brief survey of software architecture concepts and service oriented architecture|year= 2009|isbn= 978-1-4244-4519-6}}</ref>
+include the following:
+; [[Standardized service contract]]
+: Services adhere to a standard communications agreements, as defined collectively by one or more service-description documents within a given set of services.
+; [[Service reference autonomy (an aspect of loose coupling)]]
+: The relationship between services is minimized to the level that they are only aware of their existence.
+; [[Service location transparency (an aspect of loose coupling)]]
+: Services can be called from anywhere within the network that it is located no matter where it is present.
+; [[Service longevity]]
+: Services should be designed to be long lived. Where possible services should avoid forcing consumers to change if they do not require new features, if you call a service today you should be able to call the same service tomorrow.
+; [[Service abstraction]]
+: The services act as black boxes, that is their inner logic is hidden from the consumers.
+; [[Service autonomy principle|Service autonomy]]
+: Services are independent and control the functionality they encapsulate, from a Design-time and a run-time perspective.
+; [[Service statelessness principle|Service statelessness]]
+: Services are stateless, that is either return the requested value or give an exception hence minimizing resource use.
+; [[Service granularity principle|Service granularity]]
+: A principle to ensure services have an adequate size and scope. The functionality provided by the service to the user must be relevant. 
+; Service normalization
+: Services are decomposed or consolidated (normalized) to minimize redundancy. In some, this may not be done, These are the cases where performance optimization, access, and aggregation are required.<ref>{{cite book|author=Tony Shan|title=IEEE International Conference on ''Services'' Computing, 2004. (SCC 2004). Proceedings. 2004 |doi=10.1109/SCC.2004.1358011 |pages=237–244|year=2004|chapter=Building a service-oriented e ''Banking'' platform |isbn=0-7695-2225-4 }}2004</ref>
+; [[Service composability principle|Service composability]]
+: Services can be used to compose other services.
+; [[Service discovery]]
+: Services are supplemented with communicative meta data by which they can be effectively discovered and interpreted.
+; [[Service reusability principle|Service reusability]]
+: Logic is divided into various services, to promote reuse of code.
+; Service [[Encapsulation (computer science)|encapsulation]]
+: Many services which were not initially planned under SOA, may get encapsulated or become a part of SOA.
+
+== Patterns ==
+Each SOA building block can play any of the three roles:
+
+; Service provider
+: It creates a web service and provides its information to the service registry. Each provider debates upon a lot of hows and whys like which service to expose, which to give more importance: security or easy availability, what price to offer the service for and many more''.'' The provider also has to decide what category the service should be listed in for a given broker service<ref>{{cite web|url=http://ieeexplore.ieee.org/document/6928915/|title=Exploring Cloud Service Brokering from an Interface Perspective|last1=Duan |first1=Yucong |last2=Narendra |first2= Nanjangud |last3=Du |first3=Wencai |last4=Wang |first4=Yongzhi |last5=Zhou|first5=Nianjun|publisher=[[IEEE]]}}</ref> and what sort of trading partner agreements are required to use the service.
+; Service broker, service registry or service repository
+: Its main functionality is to make the information regarding the web service available to any potential requester. Whoever implements the broker decides the scope of the broker. Public brokers are available anywhere and everywhere but private brokers are only available to a limited amount of public. UDDI was an early, no longer actively supported attempt to provide [[Web Services Discovery|Web services discovery]].
+; Service requester/consumer
+: It locates entries in the broker registry using various find operations and then binds to the service provider in order to invoke one of its web services. Whichever service the service-consumers need, they have to take it into the brokers, bind it with respective service and then use it. They can access multiple services if the service provides multiple services.
+
+The service consumer–provider relationship is governed by a [[standardized service contract]],<ref>{{cite web |url=http://ieeexplore.ieee.org/document/6299375/|title=A Survey on Service Contract |last1=Duan |first1=Yucong |publisher=[[IEEE]]}}</ref> which has a business part, a functional part and a technical part.
+
+[[Service composability principle|Service composition patterns]] have two broad, high-level architectural styles: [[Service choreography#Service choreography and service orchestration|choreography and orchestration]]. Lower level enterprise integration patterns that are not bound to a particular architectural style continue to be relevant and eligible in SOA design.<ref name="ieeesweip">{{Cite journal | url = http://ieeexplore.ieee.org/document/7368007/ | doi = 10.1109/MS.2016.11 | title = A Decade of Enterprise Integration Patterns | journal = IEEE Software | volume = 33 | issue = 1 | pages =  13–19 | year = 2016 | last1 = Olaf Zimmermann, Cesare Pautasso, Gregor Hohpe, Bobby Woolf | first1 = }}</ref><ref>{{Cite book | last=Rotem-Gal-Oz | first=Arnon | title= SOA Patterns | publisher= Manning Publications | year=2012 | location= | isbn=978-1933988269 }}</ref><ref>K. Julisch et al., [http://soadecisions.org/download/ComplianceByDesign-AAM.pdf Compliance by Design – Bridging the Chasm between Auditors and IT Architects]. Computers & Security, Elsevier. Volume 30, Issue 6-7, Sep.-Oct. 2011.</ref>
+
+== Implementation approaches ==
+Service-oriented architecture can be implemented with [[Web service|web services]].<ref>Brandner, M., Craes, M., Oellermann, F., Zimmermann, O., Web Services-Oriented Architecture in Production in the Finance Industry, Informatik-Spektrum 02/2004, Springer-Verlag, 2004</ref> This is done to make the functional building-blocks accessible over standard Internet protocols that are independent of platforms and programming languages. These services can represent either new applications or just wrappers around existing legacy systems to make them network-enabled.<ref>{{Cite web|url=http://www.ibm.com/support/knowledgecenter/en/SSEQTP_6.1.0/com.ibm.websphere.base.iseries.doc/info/iseries/ae/cwbs_soawbs.html|title=www.ibm.com|access-date=2016-09-10}}</ref>
+
+Implementers commonly build SOAs using web services standards. One example is [[SOAP]], which has gained broad industry acceptance after recommendation of Version 1.2 from the W3C<ref>{{cite web|url=http://www.w3.org/2003/06/soap12-pressrelease |title=SOAP Version 1.2 の公開について (W3C 勧告) |language=ja |publisher=W3.org |accessdate=August 13, 2012 }}</ref> (World Wide Web Consortium) in 2003. These standards (also referred to as [[List of web service specifications|web service specifications]]) also provide greater interoperability and some protection from lock-in to proprietary vendor software. One can, however, also implement SOA using any other service-based technology, such as [[Jini]], [[CORBA]] or [[Representational State Transfer|REST]].
+
+Architectures can operate independently of specific technologies and can therefore be implemented using a wide range of technologies, including:
+* [[Web services]] based on WSDL and [[SOAP]]
+* Messaging, e.g., with ActiveMQ, JMS, RabbitMQ
+* RESTful HTTP, with [[Representational state transfer]] (REST) constituting its own constraints-based architectural style
+* [[OPC Unified Architecture|OPC-UA]]
+* [[Windows Communication Foundation|WCF]] (Microsoft's implementation of Web services, forming a part of WCF)
+* [[Apache Thrift]]
+* [[SORCER]]
+
+Implementations can use one or more of these protocols and, for example, might use a file-system mechanism to communicate data following a defined interface specification between processes conforming to the SOA concept. The key is independent services with defined interfaces that can be called to perform their tasks in a standard way, without a service having foreknowledge of the calling application, and without the application having or needing knowledge of how the service actually performs its tasks. SOA enables the development of applications that are built by combining loosely coupled and [[interoperable]] services.
+
+These services inter-operate based on a formal definition (or contract, e.g., WSDL) that is independent of the underlying platform and programming language. The interface definition [[Information hiding|hides the implementation]] of the language-specific service. SOA-based systems can therefore function independently of development technologies and platforms (such as Java, .NET, etc.). Services written in C# running on .NET platforms and services written in Java running on [[Java Platform, Enterprise Edition|Java EE]] platforms, for example, can both be consumed by a common composite application (or client). Applications running on either platform can also consume services running on the other as web services that facilitate reuse. Managed environments can also wrap COBOL legacy systems and present them as software services.<sup>[[Service-oriented architecture#cite note-23|.]]</sup><ref>{{Cite web|url=http://www.fujitsu.com/global/documents/about/resources/publications/fstj/archives/vol42-3/paper18.pdf|title=. "Case Study of System Architecture that use COBOL assets"|last=Okishima|first=Haruhiru|date=2006|website=|publisher=|access-date=}}</ref>
+
+[[High-level programming language]]s such as [[BPEL]] and specifications such as [[WS-CDL]] and [[WS-Coordination]] extend the service concept by providing a method of defining and supporting orchestration of fine-grained services into more coarse-grained business services, which architects can in turn incorporate into workflows and business processes implemented in [[composite applications]] or [[Enterprise portal|portals]].
+
+[[Service-oriented modeling]] is an SOA framework that identifies the various disciplines that guide SOA practitioners to conceptualize, analyze, design, and architect their service-oriented assets. The [[Service-oriented modeling#Service-oriented modeling framework|Service-oriented modeling framework (SOMF)]] offers a modeling language and a work structure or "map" depicting the various components that contribute to a successful service-oriented modeling approach. It illustrates the major elements that identify the "what to do" aspects of a service development scheme. The model enables practitioners to craft a [[project plan]] and to identify the milestones of a service-oriented initiative. SOMF also provides a common modeling notation to address alignment between business and IT organizations.[[File:SOA Elements.png|thumb|450px|right|Elements of SOA, by Dirk Krafzig, Karl Banke, and Dirk Slama<ref>''Enterprise SOA''. Prentice Hall, 2005</ref>]]
+[[File:SOA Metamodel.svg|thumb|450px|right|SOA meta-model, The Linthicum Group, 2007]]
+
+== Organizational benefits ==
+Some [[enterprise architect]]s believe that SOA can help businesses respond more quickly and more cost-effectively to changing market conditions.<ref>Christopher Koch [http://www.cio.com.au/index.php/id;1350140708 A New Blueprint For The Enterprise], ''CIO Magazine'', March 1, 2005</ref> This style of ''architecture'' promotes reuse at the macro (service) level rather than micro (classes) level. It can also simplify interconnection to—and usage of—existing IT (legacy) assets.
+
+With SOA, the idea is that an organization can look at a problem holistically. A business has more overall control. Theoretically there would not be a mass of developers using whatever tool sets might please them. But rather they would be coding to a standard that is set within the business. They can also develop enterprise-wide SOA that encapsulates a business-oriented infrastructure. SOA has also been illustrated as a highway system providing efficiency for car drivers. The point being that if everyone had a car, but there was no highway anywhere, things would be limited and disorganized, in any attempt to get anywhere quickly or efficiently. IBM Vice President of Web Services Michael Liebow says that SOA "builds highways".<ref>Elizabeth Millard (January 2005). "Building a Better Process". ''Computer User''. Page 20.</ref>
+
+In some respects, SOA could be regarded as an architectural evolution rather than as a revolution. It captures many of the [[best practice]]s of previous software architectures. In communications systems, for example, little development of solutions that use truly static bindings to talk to other equipment in the network has taken place. By embracing a SOA approach, such systems can position themselves to stress the importance of well-defined, highly inter-operable interfaces. Other predecessors of SOA include [[Component-based software engineering]] and Object-Oriented Analysis and Design (OOAD) of remote objects, for instance, in [[CORBA]].
+
+A service comprises a stand-alone unit of functionality available only via a formally defined interface. Services can be some kind of "nano-enterprises" that are easy to produce and improve. Also services can be "mega-corporations" constructed as the coordinated work of subordinate services. A mature rollout of SOA effectively defines the API of an organization.
+
+Reasons for treating the implementation of services as separate projects from larger projects include:
+# Separation promotes the concept to the business that services can be delivered quickly and independently from the larger and slower-moving projects common in the organization. The business starts understanding systems and simplified user interfaces calling on services. This advocates [[agility]]. That is to say, it fosters business innovations and speeds up time-to-market.<ref>Brayan Zimmerli (November 11, 2009) [https://web.archive.org/web/20101105063545/http://www.brayan.com/projects/BenefitsOfSOA/default.htm Business Benefits of SOA], ''University of Applied Science of Northwestern Switzerland, School of Business''</ref>
+# Separation promotes the decoupling of services from consuming projects. This encourages good design insofar as the service is designed without knowing who its consumers are.
+# Documentation and test artifacts of the service are not embedded within the detail of the larger project. This is important when the service needs to be reused later.
+
+SOA promises to simplify testing indirectly. Services are autonomous, stateless, with fully documented interfaces, and separate from the cross-cutting concerns of the implementation. If an organization possesses appropriately defined test data, then a corresponding stub is built that reacts to the test data when a service is being built. A full set of regression tests, scripts, data, and responses is also captured for the service. The service can be tested as a 'black box' using existing stubs corresponding to the services it calls. Test environments can be constructed where the primitive and out-of-scope services are stubs, while the remainder of the mesh is test deployments of full services. As each interface is fully documented with its own full set of regression test documentation, it becomes simple to identify problems in test services. Testing evolves to merely validate that the test service operates according to its documentation, and finds gaps in documentation and test cases of all services within the environment. Managing the data state of [[idempotent]] services is the only complexity.
+
+Examples may prove useful to aid in documenting a service to the level where it becomes useful. The documentation of some APIs within the Java Community Process provide good examples. As these are exhaustive, staff would typically use only important subsets. The 'ossjsa.pdf' file within [[Java Platform, Standard Edition|JSR-89]] exemplifies such a file.<ref>[https://web.archive.org/web/20110726070810/https://cds.sun.com/is-bin/INTERSHOP.enfinity/WFS/CDS-CDS_Developer-Site/en_US/-/USD/ViewProductDetail-Start?ProductRef=7854-oss_service_activation-1.0-fr-spec-oth-JSpec%40CDS-CDS_Developer JSR-000089 OSS Service Activation API Specification 1.0 Final Release]. sun.com</ref>
+
+== Criticism ==
+SOA has been conflated with [[Web service]]s;<ref>{{cite web|author=Joe McKendrick|title=Bray: SOA too complex; 'just vendor BS'|url=http://www.zdnet.com/blog/service-oriented/bray-soa-too-complex-just-vendor-bs/597|publisher=ZDNet}}</ref> however, Web services are only one option to implement the patterns that comprise the SOA style. In the absence of native or binary forms of remote procedure call (RPC), applications could run more slowly and require more processing power, increasing costs. Most implementations do incur these overheads, but SOA can be implemented using technologies (for example, [[Java Business Integration]] (JBI), [[Windows Communication Foundation]] (WCF) and [[data distribution service]] (DDS)) that do not depend on remote procedure calls or translation through XML. At the same time, emerging open-source XML parsing technologies (such as [[VTD-XML]]) and various XML-compatible binary formats promise to significantly improve SOA performance.  Services implemented using [[JSON]] instead of XML do not suffer from this performance concern.<ref>Jimmy Zhang (February 20, 2008) [http://xml.sys-con.com/read/453082.htm "Index XML Documents with VTD-XML"]. ''XML Journal''.</ref><ref>Jimmy Zhang (August 5, 2008) [http://soa.sys-con.com/read/250512.htm "i-Technology Viewpoint: The Performance Woe of Binary XML"]. ''Microservices Journal''.</ref><ref>Jimmy Zhang (January 9, 2008)  [http://www.devx.com/xml/Article/36379 "Manipulate XML Content the Ximple Way"]. ''devx.com''.</ref>
+
+Stateful services require both the consumer and the provider to share the same consumer-specific context, which is either included in or referenced by messages exchanged between the provider and the consumer. This constraint has the drawback that it could reduce the overall [[scalability]] of the service provider if the service-provider needs to retain the shared context for each consumer. It also increases the coupling between a service provider and a consumer and makes switching service providers more difficult.<ref>{{cite web | url=http://www.jpmorgenthal.com/morgenthal/?p=31 | title=The Reason SOA Isn’t Delivering Sustainable Software | date=June 19, 2009 | publisher=jpmorgenthal.com | accessdate=June 27, 2009 }}</ref> Ultimately, some critics feel that SOA services are still too constrained by applications they represent.<ref>{{cite web | url=http://www.zdnet.com/article/soa-services-still-too-constrained-by-applications-they-represent/ | title=SOA services still too constrained by applications they represent | date=June 27, 2009 | publisher=zdnet.com | accessdate=June 27, 2009 }}</ref>
+
+A primary challenge faced by service-oriented architecture is managing of metadata. Environments based on SOA include many services which communicate among each other to perform tasks. Due to the fact that the design may involve multiple services working in conjunction, an Application may generate millions of messages. Further services may belong to different organizations or even competing firms creating a huge trust issue. Thus SOA governance comes into the scheme of things.<ref>{{Cite web|url=https://www.opengroup.org/soa/source-book/soa_refarch/governance.htm|title=Governance Layer|website=www.opengroup.org|access-date=2016-09-22}}</ref>
+
+Another major problem faced by SOA is the lack of a uniform testing framework. There are no tools that provide the required features for testing these services in a service-oriented architecture. The major causes of difficulty are:<ref>{{Cite web|url=http://wso2.com/library/articles/2014/04/how-to-efficiently-test-service-oriented-architecture/|title=How to Efficiently Test Service Oriented Architecture {{!}} WSO2 Inc|website=wso2.com|access-date=2016-09-22}}</ref>
+* Heterogeneity and complexity of solution.
+* Huge set of testing combinations due to integration of autonomous services.
+* Inclusion of services from different and competing vendors.
+* [[Platform as a service|Platform]] is continuously changing due to availability of new features and services.
+
+See drops.dagstuhl.de<ref>http://drops.dagstuhl.de/opus/volltexte/2009/2046/pdf/09021_abstracts_collection.2046.pdf</ref> for additional challenges, partial solutions and research roadmap input regarding [[Service-oriented modeling|software service engineering]]
+
+== Extensions and variants ==
+
+=== Event-driven architectures ===
+{{Main|Event-driven architecture}}
+
+=== Web 2.0 ===
+[[Tim O'Reilly]] coined the term "[[Web 2.0]]" to describe a perceived, quickly growing set of web-based applications.<ref>{{cite web |url=http://www.oreillynet.com/pub/a/oreilly/tim/news/2005/09/30/what-is-web-20.html |title=What Is Web 2.0 |accessdate=June 10, 2008 |publisher=Tim O'Reilly |date=September 30, 2005 }}</ref> A topic that has experienced extensive coverage involves the relationship between Web 2.0 and service-oriented architectures.{{Which|date=October 2016}}
+
+SOA is the philosophy of encapsulating application logic in services with a uniformly defined interface and making these publicly available via discovery mechanisms. The notion of complexity-hiding and reuse, but also the concept of loosely coupling services has inspired researchers to elaborate on similarities between the two philosophies, SOA and Web 2.0, and their respective applications. Some argue Web 2.0 and SOA have significantly different elements and thus can not be regarded "parallel philosophies", whereas others consider the two concepts as complementary and regard Web 2.0 as the global SOA.<ref name="sch">{{ cite journal | url=http://www.alexandria.unisg.ch/Publikationen/37270| title=Web 2.0 and SOA: Converging Concepts Enabling the Internet of Services | accessdate=February 23, 2008 |author1=Christoph Schroth  |author2=Till Janner  |lastauthoramp=yes | publisher=IT Professional 9 (2007), Nr. 3, pp. 36–41, IEEE Computer Society | year=2007 }}</ref>
+
+The philosophies of Web 2.0 and SOA serve different user needs and thus expose differences with respect to the design and also the technologies used in real-world applications. However, {{As of|2008|lc=y}}, use-cases demonstrated the potential of combining technologies and principles of both Web 2.0 and SOA.<ref name="sch" />
+
+=== Microservices ===
+{{main|Microservices}}
+Microservices are a modern interpretation of service-oriented architectures used to build  [[Distributed computing|distributed software systems]]. Services in a microservice architecture<ref>{{cite web|title=Microservices: yesterday, today, and tomorrow|url=https://arxiv.org/pdf/1606.04036v1.pdf|accessdate=6 July 2016}}</ref> are [[Process (computing)|processes]] that communicate with each other over the [[Computer network|network]] in order to fulfill a goal. These services use technology agnostic [[Communications protocol|protocols]],<ref name="martinfowler">{{cite web|url= http://martinfowler.com/articles/microservices.html|title= Microservices|author= James Lewis and Martin Fowler}}</ref> which aid in encapsulating choice of language and frameworks, making their choice a concern internal to the service. Microservices are a new realisation and implementation approach to SOA, which have become popular since 2014 (and after the introduction of [[DevOps]]), and which also emphasize continuous deployment and other agile practices.<ref>{{Cite journal|last=Balalaie|first=A.|last2=Heydarnoori|first2=A.|last3=Jamshidi|first3=P.|date=2016-05-01|title=Microservices Architecture Enables DevOps: Migration to a Cloud-Native Architecture|url=http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=7436659|journal=IEEE Software|volume=33|issue=3|pages=42–52|doi=10.1109/MS.2016.64|issn=0740-7459}}</ref>
+
+There is no single commonly agreed definition of microservices. The following characteristics and principles can be found in the literature:
+* fine-grained interfaces (to independently deployable services), 
+* business-driven development (e.g. domain-driven design), 
+* IDEAL cloud application architectures, 
+* polyglot programming and persistence, 
+* lightweight container deployment, 
+* decentralized continuous delivery, and 
+* DevOps with holistic service monitoring.
+
+== See also ==
+* [[Loose coupling]]
+* [[OASIS SOA Reference Model]]
+* [[Service granularity principle]]
+* [[SOA governance]]
+* [[Software architecture]]
+* [[Service-oriented communications]] (SOC)
+* [[Service-oriented development of applications]]
+* [[Service-oriented distributed applications]]
+
+== References ==
+{{reflist|30em}}
+
+{{commons category}}
+{{Spoken Wikipedia|En-Service-oriented architecture.ogg|2011-10-27}}
+
+{{Prone to spam|date=December 2018}}
+{{Z148}}<!--     {{No more links}}
+
+       Please be cautious adding more external links.
+
+Wikipedia is not a collection of links and should not be used for advertising.
+
+     Excessive or inappropriate links will be removed.
+
+ See [[Wikipedia:External links]] and [[Wikipedia:Spam]] for details.
+
+If there are already suitable links, propose additions or replacements on
+the article's talk page.
+
+-->
+
+{{Software engineering}}
+{{Authority control}}
+
+[[Category:Software design patterns]]
+[[Category:Architectural pattern (computer science)]]
+[[Category:Enterprise application integration]]
+[[Category:Service-oriented (business computing)]]
+[[Category:Web services]]

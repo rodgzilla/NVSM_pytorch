@@ -1,0 +1,184 @@
+{{File sharing sidebar}}
+'''Peer-to-peer file sharing''' is the distribution and sharing of [[digital media]] using [[peer-to-peer]] (P2P) networking technology. P2P [[file sharing]] allows users to access media files such as books, music, movies, and games using a P2P software program that searches for other connected computers on a P2P network to locate the desired content.<ref name="Carmack">{{cite web|last=Carmack |first=Carman|url= http://computer.howstuffworks.com/bittorrent1.htm|title=How Bit Torrent Works|work=computer.howstuffworks.com/|date=2005-03-26}}</ref> The nodes (peers) of such networks are end-user computers and distribution servers (not required).
+
+Peer-to-peer file sharing technology has evolved through several design stages from the early networks like [[Napster]], which popularized the technology, to the later models like the [[BitTorrent (protocol)|BitTorrent]] protocol. Microsoft uses it for Update distribution (Windows 10) and online playing games (e.g. the [[Massively multiplayer online role-playing game|mmorpg]] [[Skyforge]]<ref>{{Cite web|url=https://www.reddit.com/r/MMORPG/comments/3dmzhz/heads_up_if_youre_installing_skyforge_the/|title=Heads up if you're installing Skyforge - The downloader is a P2P client and by default starts with Windows. • /r/MMORPG|website=reddit|access-date=2016-03-03}}</ref>) use it as their content distribution network for downloading large amounts of data without incurring the dramatic costs for bandwidth inherent when providing just a single source.
+
+Several factors contributed to the widespread adoption and facilitation of peer-to-peer file sharing. These included increasing Internet bandwidth, the widespread digitization of physical media, and the increasing capabilities of residential personal computers. Users are able to transfer one or more files from one computer to another across the Internet through various [[file transfer]] systems and other file-sharing networks.<ref name="Carmack" />
+
+==History==
+Peer-to-peer file sharing became popular in with the introduction of [[Napster]], a file sharing application and a set of central servers that linked people who had files with those who requested files. The central index server indexed the users and their shared content. When someone searched for a file, the server searched all available copies of that file and presented them to the user. The files would be transferred directly between the two private computers. A limitation was that only music files could be shared.<ref name="Tyson">{{cite web|last=Tyson|first= Jeff|url=http://computer.howstuffworks.com/napster2.htm|title=How the Old Napster Worked|work=howstuffworks.com|date= 2000-10-30}}</ref> Because this process occurred on a central server, however, Napster was held liable for copyright infringement and shut down in July 2001. It later reopened as a pay service.<ref>{{cite web|url=http://www.murdoch.edu.au/elaw/issues/v11n1/douglas111.html|title= Copyright and Peer-To-Peer Music File Sharing: The Napster Case and the Argument Against Legislative Reform|date= March 2004|work=murdoch.edu.au}}</ref>
+
+After Napster was shut down, the most popular peer-to-peer services were [[Gnutella]] and [[Kazaa]]. These services also allowed users to download files other than music, such as movies and games.<ref name="Tyson" />
+
+===Technology evolution ===
+[[Napster]] and [[eDonkey2000]], which both used a central server-based model, may be classified as the first generation of P2P systems.<ref>{{cite web|last1=Gong|first1=Yiming|title=Identifying P2P users using traffic analysis|url=http://www.symantec.com/connect/articles/identifying-p2p-users-using-traffic-analysis|publisher=Symantec|accessdate=8 December 2014}}</ref> These systems relied on the operation of the respective central servers, and thus were susceptible to centralized shutdown. The second generation of P2P file sharing encompasses networks like [[Kazaa]], [[Gnutella]] and [[Gnutella2]], which are able to operate without any central servers, eliminated the central vulnerability by connecting users remotely to each other.<ref>{{cite web|last=Watson|first=Stephanie|url=http://computer.howstuffworks.com/kazaa3.htm|title=How Kazaa Works|work=computer.howstuffworks.com|date=2005-02-10}}</ref>
+
+The third generation of filesharing networks are the so-called [[darknet]]s, including networks like [[Freenet]], which provide user anonymity in addition to the independence from central servers.
+
+The [[BitTorrent (protocol)|BitTorrent]] protocol represents a special case. In principle, it is a filesharing protocol of the first generation, relying on central servers called ''trackers'' to coordinate users. However, it does not form a network in the traditional sense. Instead new, separate networks of coordinating users are created for every set of files, called a ''torrent''. Newer extensions of the protocol removes the need of centralized trackers, allow the usage of a decentralized server-independent network for source identification purposes, referred to as the [[Mainline DHT]]. This allows BitTorrent to encompass certain aspects of a filesharing network of the second generation as well. Users create an index file containing the metadata of the files they want to share, and upload the index files to websites where they are shared with others.
+
+Peer-to-peer file sharing is also efficient in terms of cost.<ref name="Babaoglu 2012">{{cite web|last=Babaoglu|first=Ozalp|title=Introduction to Peer-to-Peer Systems|url=http://www.cs.unibo.it/babaoglu/courses/cas/slides/p2p.pdf|work=Complex Systems|publisher=Universitá di Bologna|accessdate=6 February 2013|year=2012}}</ref><ref>http://ijcsits.org/papers/vol3no22013/1vol3no2.pdf</ref> The system administration overhead is smaller because the user is the provider and usually the provider is the administrator as well. Hence each network can be monitored by the users themselves. At the same time, large servers sometimes require more storage and this increases the cost since the storage has to be rented or bought exclusively for a server. However, usually peer-to-peer file sharing does not require a [[dedicated server]].<ref>{{cite web|last=Winkelman|first=Dr. Roy|title=Software|url=http://fcit.usf.edu/network/chap6/chap6.htm|publisher=Florida Center for Instructional Technology College of Education, University of South Florida|accessdate=6 February 2013}}</ref>
+
+== Economic impact ==
+{{Main article|File sharing#Economic impact|l1=Effects of file sharing}}
+There is still ongoing discussion about the economic impact of P2P file sharing. Norbert Michel, a policy analyst at the [[Heritage Foundation]], said that because of "econometric and data issues, studies thus far have produced disparate estimates of file sharing's impact on album sales."<ref name="heritage.org">J. Michel, Norbert. [http://www.heritage.org/research/reports/2004/08/internet-file-sharing-the-evidence-so-far-and-what-it-means-for-the-future Internet File Sharing and The Evidence So far], heritage.org, August 23, 2004.</ref>
+
+In the book ''[[The Wealth of Networks]]'', [[Yochai Benkler]] states that peer-to-peer file sharing is economically efficient and that the users pay the full transaction cost and marginal cost of such sharing even if it "throws a monkey wrench into the particular way in which our society has chosen to pay musicians and re-cording executives. This trades off efficiency for longer-term incentive effects for the recording industry. However, it is efficient within the normal meaning of the term in economics in a way that it would not have been had Jack and Jane used subsidized computers or network connections".<ref name="Yochai Benkler">{{cite book | author = Yochai Benkler | url = https://books.google.com/books?id=McotnvNSjQ4C&printsec=frontcover&dq=benkler#v=onepage&q&f=falsee | title = Wealth of Networks | publisher = Yale University Press | isbn = 978-0300127232 | date = 2006}}</ref>
+
+As peer-to-peer file sharing can be used to exchange files for which the distribution right was granted (e.g. [[public domain]], [[Creative Commons]], [[Copyleft|Copyleft licenses]], online games, updates, ...).
+
+Especially startups can save massive amounts of money compared with other means of [[content delivery network]]s.
+
+A calculation example:
+
+with peer to peer file sharing: <math>\text{total cost} = \frac{\text{filesize}}{\text{customers}} \times \text{cost-per-byte}</math>
+
+with casual content delivery networks: <math>\text{total cost} = \text{filesize} \times \text{customers} \times \text{cost-per-byte}</math>
+
+=== Music industry ===
+The economic effect of copyright infringement through peer-to-peer file sharing on music revenue has been controversial and difficult to determine. Unofficial studies found that file sharing had a negative impact on record sales.<ref>Alejandro Zentner, [http://www.bepress.com/cgi/viewcontent.cgi?article=1452&amp;context=bejeap "File Sharing and International Sales of Copyrighted Music: An Empirical Analysis with a Panel of Countries"], ''The B.E. Journal of Economic Analysis & Policy'', Vol. 5, Issue 1 (2005)</ref><ref>{{cite journal
+  |title = File Sharing: Creative Destruction or Just Plain Destruction?
+  |last = Liebowitz
+  |first = Stan J.
+  |journal = [[The Journal of Law & Economics]]
+  |issn = 1537-5285
+  |volume = 49
+  |issue = 1
+  |year = 2006
+  |pages = 1–28
+  |doi = 10.1086/503518
+  |jstor = 10.1086/503518
+  |registration = y
+|citeseerx = 10.1.1.320.601
+  }}</ref><ref>{{cite journal
+  |title = Piracy on the High C's: Music Downloading, Sales Displacement, and Social Welfare in a Sample of College Students
+  |last1 = Rob
+  |first1 = Rafael
+  |last2 = Waldfogel
+  |first2 = Joel
+  |journal = [[The Journal of Law & Economics]]
+  |issn = 1537-5285
+  |volume = 49
+  |issue = 1
+  |year = 2006
+  |pages = 29–62
+  |doi = 10.1086/430809
+  |jstor = 10.1086/430809
+  |registration = y
+|citeseerx = 10.1.1.505.4843
+  }}</ref><ref>{{cite journal
+  |title = Measuring the Effect of File Sharing on Music Purchases
+  |last = Zentner
+  |first = Alejandro
+  |journal = [[The Journal of Law & Economics]]
+  |issn = 1537-5285
+  |volume = 49
+  |issue = 1
+  |year = 2006
+  |pages = 63–90
+  |doi = 10.1086/501082
+  |jstor = 10.1086/501082
+  |registration = y
+|citeseerx = 10.1.1.571.6264
+  }}</ref><ref>Stan J. Liebowitz in a series of papers (2005, 2006) <!--"File sharing: creative destruction or just plain destruction?" Liebowitz, Stan J. ''Journal of Law and Economics'' (0022-2186) 1 Apr 2006. Vol.49, Iss.1; p.1-28--><!--"Copyright reconsidered". Liebowitz, Stan J. ''Issues in Science and Technology'' (0748-5492) 22 Mar 2005. Vol.21, Iss.3; p.92(4)--><!--"Seventeen famous economists weigh in on copyright: the role of theory, empirics, and network effects". Liebowitz, Stan J. ''Harvard Journal of Law & Technology'' (0897-3393) 22 Mar 2005. Vol. 18, Iss. 2; p. 435–457--></ref> It has proven difficult to untangle the cause and effect relationships among a number of different trends, including an increase in legal online purchases of music; illegal file-sharing; drops in the prices of CDs; and the extinction of many independent music stores with a concomitant shift to sales by big-box retailers.<ref name="autogenerated2">Smith, Ethan. March 21, 2007. [https://www.wsj.com/articles/SB117444575607043728 "Sales of Music, Long in Decline, Plunge Sharply: Rise in Downloading Fails to Boost Industry; A Retailing Shakeout"], ''Wallstreet Journal Website''</ref>
+
+Also many independent artists choose a peer-to-peer file sharing method named [[BitTorrent Bundle]] for distribution.
+
+===Film industry===
+The [[MPAA]] reported that American studios lost $2.373 billion to Internet piracy in 2005, representing approximately one third of the total cost of film piracy in the United States.<ref>{{cite web|format=PDF|url=http://www.MPAA.org/press_releases/2006_05_31.pdf|title=SWEDISH AUTHORITIES SINK PIRATE BAY: Huge Worldwide Supplier of Illegal Movies Told No Safe Harbors for Facilitators of Piracy!|date=2006-05-31|publisher=[[MPAA]]}}</ref> The MPAA's estimate was doubted by commentators since it was based on the assumption that one download was equivalent to one lost sale, and downloaders might not purchase the movie if illegal downloading was not an option.<ref>{{cite news |url=https://www.nytimes.com/2004/11/21/business/yourmoney/21view.html?ex=1258693200&en=a210357f5dcc8523&ei=5088&partner=rssnyt |title=Does a Free Download Equal a Lost Sale? |first=Daniel |last=Gross |date=2004-11-21 |accessdate=2007-07-16 |work=[[The New York Times]]}}</ref><ref>{{cite journal|url=http://www.unc.edu/~cigar/papers/FileSharing_March2004.pdf|first=Felix|last=Oberholzer|author2=Strumpf, Koleman|title=The Effect of File Sharing on Record Sales: An Empirical Analysis|date=March 2004|publisher=[[UNC Chapel Hill]]}}</ref><ref>
+{{cite news|url=https://query.nytimes.com/gst/fullpage.html?sec=technology&res=9C02E2D91139F936A35757C0A9629C8B63|title=A Heretical View of File Sharing|first=John|last=Schwartz|date=2004-04-05|accessdate=2007-07-16|publisher=[[The New York Times]]}}</ref> Due to the private nature of the study, the figures could not be publicly checked for methodology or validity,<ref>{{cite web|url=https://arstechnica.com/news.ars/post/20060505-6761.html|publisher=[[Ars Technica]]|first=Ken|last=Fisher|date=2006-05-05|accessdate=2007-07-15|title=The problem with MPAA's shocking piracy numbers}}</ref><ref>
+{{cite web|url=http://torrentfreak.com/movie-piracy-cost-61-billion/|title=Movie Piracy Cost 6.1 Billion|publisher=[[Torrent Freak]]|date=2006-05-03|accessdate=2007-07-16}}</ref><ref>
+{{cite news|url=http://news.zdnet.com/2100-9595_22-6068198.html|title=Hollywood study examines costs of film piracy|publisher=[[ZDNet]] ([[Reuters]])|date=2006-05-03|accessdate=2007-07-16 |archiveurl = https://web.archive.org/web/20070417092540/http://news.zdnet.com/2100-9595_22-6068198.html <!-- Bot retrieved archive --> |archivedate = 2007-04-17}}</ref> and on January 22, 2008, as the MPAA was lobbying for a bill which would compel universities to crack down on piracy, it was admitted by MPAA that its figures on piracy in colleges had been inflated by up to 300%.<ref>
+{{cite web|url=https://arstechnica.com/tech-policy/news/2008/01/oops-mpaa-admits-college-piracy-numbers-grossly-inflated.ars|title=MPAA admits college piracy numbers grossly inflated|publisher=[[Ars Technica]]|date=2008-01-22|first=Nate|last=Anderson}}</ref><ref>
+{{cite web|url=https://arstechnica.com/old/content/2008/01/filtering-could-come-to-isps-colleges-in-2008.ars|title=2008 shaping up to be "Year of Filters" at colleges, ISPs|publisher=[[Ars Technica]]|date=2008-01-15|first=Nate|last=Anderson}}</ref>
+
+A 2010 study, commissioned by the [[International Chamber of Commerce]] and conducted by independent Paris-based economics firm TERA, estimated that unlawful downloading of music, film and software cost Europe's creative industries several billion dollars in revenue each year.<ref>Mundell, Ian. [http://www.variety.com/article/VR1118016618.html?categoryId=1338&cs=1 Piracy in Europe costs $13.7 billion], ''Variety''. March 18, 2010.</ref> Furthermore, the TERA study entitled "Building a Digital Economy: The Importance of Saving Jobs in the EU's Creative Industries" predicted losses due to piracy reaching as much as 1.2 million jobs and €240 billion in retail revenue by 2015 if the trend continued.  Researchers applied a substitution rate of ten percent to the volume of copyright infringements per year. This rate corresponded to the number of units potentially traded if unlawful file sharing were eliminated and did not occur.<ref>Geoffron, Patrice. [http://www.iccwbo.org/bascap/id35360/index.html Building a Digital Economy], iccwbo.org, March 17, 2010.</ref> Piracy rates of one-quarter or more{{vague|date=January 2012}} for popular [[software]] and [[operating system]]s have been common, even in countries and regions with strong intellectual property enforcement, such as the [[United States]] or the [[European Union|EU]].<ref>Moisés Naím (2007). ''Illicit: How smugglers, traffickers and copycats are hijacking the global economy'', p. 15. Arrow Books, London. {{ISBN|1-4000-7884-9}}.</ref>
+
+== Public perception and usage ==
+In 2004, an estimated 70 million people participated in online file sharing.<ref>Delgado, Ray. [http://news-service.stanford.edu/news/2004/march17/fileshare-317.html Law professors examine ethical controversies of peer-to-peer file sharing]. ''Stanford Report'', March 17, 2004.</ref> According to a [[CBS News]] poll, nearly 70 percent of 18- to 29-year-olds thought file sharing was acceptable in some circumstances and 58 percent of all [[United States|Americans]] who followed the file sharing issue considered it acceptable in at least some circumstances.<ref>[http://www.cbsnews.com/stories/2003/09/18/opinion/polls/main573990.shtml Poll: Young Say File Sharing OK] ''CBS News'', Bootie Cosgrove-Mather, 2003-09-18</ref>
+
+In January 2006, 32 million Americans over the age of 12 had downloaded at least one feature-length movie from the Internet, 80 percent of whom had done so exclusively over P2P. Of the population sampled, 60 percent felt that downloading copyrighted movies off the Internet did not constitute a very serious offense, however 78 percent believed taking a DVD from a store without paying for it constituted a very serious offense.<ref>[http://www.srgnet.com/pdf/Movie%20File-Sharing%20Booming%20Release%20Jan%2024%2007%20Final.pdf Solutions Research Group - Movie File-Sharing Booming: Study] {{webarchive|url=https://web.archive.org/web/20120217011553/http://www.srgnet.com/pdf/Movie%20File-Sharing%20Booming%20Release%20Jan%2024%2007%20Final.pdf |date=2012-02-17 }}</ref>
+
+In July 2008, 20 percent of Europeans used file sharing networks to obtain music, while 10 percent used paid-for digital music services such as [[iTunes Store|iTunes]].<ref>17:41 GMT, Thursday, 3 July 2008 18:41 UK. [http://news.bbc.co.uk/2/hi/technology/7486743.stm Technology: "Warning letters to 'file-sharers'"], ''BBC NEWS''.</ref>
+
+In February 2009, a [[Tiscali]] UK survey found that 75 percent of the English public polled were aware of what was legal and illegal in relation to file sharing, but there was a divide as to where they felt the legal burden should be placed: 49 percent of people believed P2P companies should be held responsible for illegal file sharing on their networks, 18 percent viewed individual file sharers as the culprits, while 18 percent either didn't know or chose not to answer.<ref>MarkJ - 24 February 2009 (1:46 PM).  [http://www.ispreview.co.uk/news/EkFVulFEAVbPsdkYcg.html "Tiscali UK Survey Reveals Illegal File Sharing Attitudes"], ''ISPreview UK News''.</ref>
+
+According to an earlier poll, 75 percent of young voters in [[Sweden]] (18-20) supported file sharing when presented with the statement: "I think it is OK to download files from the Net, even if it is illegal." Of the respondents, 38 percent said they "adamantly agreed" while 39 percent said they "partly agreed".<ref>TT/Adam Ewing. 8 Jun 06 09:54 CET. [http://www.thelocal.se/article.php?ID=4014&date=20060608 "Young voters back file sharing"], ''The Local''.</ref> An academic study among American and European college students found that users of file-sharing technologies were relatively anti-copyright and that copyright enforcement created backlash, hardening pro-file sharing beliefs among users of these technologies.<ref>Ben Depoorter et al. [http://papers.ssrn.com/sol3/papers.cfm?abstract_id=740184 " Copyright Backlash"], Southern California Law Review, 2011.</ref>
+
+== Communities in P2P file sharing networks==
+Communities have a prominent role in many peer to peer networks and applications, such as BitTorrent, Gnutella and [[DC++]]. There are different elements that contribute to the formation, development and the stability of these communities, which include interests, user attributes, cost reduction, user motivation and the dimension of the community.
+
+=== Interest attributes ===
+Peer communities are formed on the basis of common interests. For Khambatti, Ryu and Dasgupta common interests can be labelled as attributes "which are used to determine the peer communities in which a particular peer can participate".<ref name=":0">{{Cite book|title = Structuring Peer-to-Peer Networks Using Interest-Based Communities|last = Khambatti|first = Mujtaba|date = 7 September 2003|journal = Lecture Notes in Computer Science|volume = 2944|pages = 48|doi = 10.1007/978-3-540-24629-9_5|last2 = Ryu|first2 = Kyung Dong|last3 = Partha|first3 = Dasgupta|isbn = 978-3-540-20968-3}}</ref> There are two ways in which these attributes can be classified: explicit and implicit attributes.
+
+Implicit values means that peers provide information about themselves to a specific community, for example they may express their interest in a subject or their taste in music. With explicit values, users do not directly express information about themselves, albeit, it is still possible to find information about that specific user by uncovering his or her past queries and research carried out in a P2P network. 
+Khambatti, Ryu and Dasgupta  divide these interests further into three classes: personal, claimed and group attributes.<ref name=":0" />
+
+A full set of attributes (common interests) of a specific peer is defined as personal attributes, and is a collection of information a peer has about him or herself. Peers may decide not to disclose information about themselves to maintain their privacy and online security. It is for this reason that the authors specify that "a subset of...attributes is explicitly claimed public by a peer", and they define such attributes as "claimed attributes".<ref name=":0" /> The third category of interests is group attributes, defined as "location or affiliation oriented" and are needed to form a...basis for communities", an example being the "domain name of an internet connection" which acts as an online location and group identifier for certain users.
+
+=== Cost reduction ===
+Cost reduction influences the sharing component of P2P communities. Users who share do so to attempt "to reduce...costs" as made clear by Cunningham, Alexander and Adilov.<ref name=":1">{{Cite journal|url = http://opus.ipfw.edu/econ_facpubs/23/|title = Peer-to-peer file sharing communities|last = Cunningham|first = Brendan|date = 28 October 2003|journal = Information Economics and Policy|doi = |pmid = |access-date = 16 December 2015|last2 = Alexander|first2 = Peter|last3 = Adilov|first3 = Nodir}}</ref> In their work Peer-to-peer file sharing communities, they explain that "the act of sharing is costly since any download from a sharer implies that the sharer is sacrificing bandwidth".<ref name=":1" /> As sharing represents the basis of P2P communities, such as Napster, and without it "the network collapses", users share despite its costs in order to attempt to lower their own costs, particularly those associated with searching, and with the congestion of internet servers.<ref name=":1" />
+
+=== User motivation and size of community ===
+User motivation and the size of the P2P community contribute to its sustainability and activity. In her work Motivating Participation in Peer to Peer Communities, Vassileva studies these two aspects through an experiment carried out in the University of Saskatchewan (Canada), where a P2P application (COMUTELLA) was created and distributed among students. In her view, motivation is "a crucial factor" in encouraging users to participate in an online P2P community, particularly because the "lack of a critical mass of active users" in the form of a community will not allow for a P2P sharing to function properly.<ref name=":2">{{Cite book|title = Motivating Participation in Peer to Peer Communities|last = Vassileva|first = Julita|date = January 2002|journal = Engineering Societies in the Agents World III|volume = 2577|pages = 141–155|doi = 10.1007/3-540-39173-8_11|series = Lecture Notes in Computer Science|isbn = 978-3-540-14009-2}}</ref>
+
+Usefulness is a valued aspect by users when joining a P2P community. The specific P2P system must be perceived as "useful" by the user and must be able to fulfil his or her needs and pursue his or her interests. Consequently, the "size of the community of users defines the level of usefulness" and "the value of the system determines the number of users".<ref name=":2" /> This two way process is defined by Vassileva as a feedback loop, and has allowed for the birth of file-sharing systems like Napster and KaZaA. However, in her research Vassileva has also found that "incentives are needed for the users in the beginning", particularly for motivating and getting users into the habit of staying online.<ref name=":2" /> This can be done, for example, by providing the system with a wide amount of resources or by having an experienced user provide assistance to a less experienced one.
+
+=== User classification ===
+Users participating in P2P systems can be classified in different ways. According to Vassileva, users can be classified depending on their participation in the P2P system. There are five types of users to be found: users who create services, users who allow services, users who facilitate search, users who allow communication, users who are uncooperative and free ride.<ref name=":2" />
+
+In the first instance, the user creates new resources or services and offers them to the community. In the second, the user provides the community with disk space "to store files for downloads" or with "computing resources" to facilitate a service provided by another users.<ref name=":2" /> In the third, the user provides a list of relationships to help other users find specific files or services. In the fourth, the user participates actively in the "protocol of the network", contributing to keeping the network together. In the last situation, the user does not contribute to the network, downloads what he or she needs but goes immediately offline once the service is not needed anymore, thus free-riding on the network and community resources.<ref name=":2" />
+
+== Tracking ==
+Corporations continue to combat the use of the internet as a tool to illegally copy and share various files, especially that of copyrighted music. The [[Recording Industry Association of America]] (RIAA) has been active in leading campaigns against infringers. Lawsuits have been launched against individuals as well as programs such as [[Napster]] in order to "protect" copyright owners.<ref>{{Cite web|title = EBSCO Publishing Service Selection Page|url = http://eds.a.ebscohost.com/eds/pdfviewer/pdfviewer?sid=f9f5f492-42ef-4892-80d3-e21faab3803c%2540sessionmgr4002&vid=2&hid=4111|website = eds.a.ebscohost.com|accessdate = 2015-11-25}}</ref> One of the most recent efforts of the RIAA has been to implant decoy users to monitor the use of copyrighted material from a firsthand perspective.<ref>{{Cite journal|title = The P2P war: Someone is monitoring your activities|url = http://www.sciencedirect.com/science/article/pii/S1389128608000091|journal = Computer Networks|date = 2008-04-24|pages = 1272–1280|volume = 52|issue = 6|doi = 10.1016/j.comnet.2008.01.011|first = Anirban|last = Banerjee|first2 = Michalis|last2 = Faloutsos|first3 = Laxmi|last3 = Bhuyan|citeseerx = 10.1.1.76.9451}}</ref>
+
+== Risks ==
+In early June 2002, Researcher Nathaniel Good at [[HP Labs]] demonstrated that user interface design issues could contribute to users inadvertently sharing personal and confidential information over P2P networks.<ref>{{cite journal|last=Good|first=Nathaniel|author2=Aaron Krekelberg|title=Usability and privacy: a study of Kazaa P2P file- sharing|journal=HP Labs Tech Report|date=5 June 2002|url=http://www.hpl.hp.com/techreports/2002/HPL-2002-163.html|accessdate=15 October 2013}}</ref><ref>{{cite book|last=Good|first=Nathaniel|author2=Aaron Krekelberg|title=Usability and privacy: a study of Kazaa P2P file- sharing|journal=Proceedings of the SIGCHI Conference on Human Factors in Computing Systems|year=2003|pages=137–144|doi=10.1145/642611.642636 |url=http://dl.acm.org/citation.cfm?doid=642611.642636|isbn=978-1581136302}}</ref><ref>{{cite news|last=Markoff|first=John|title=Security Hole Found in KaZaA File-Sharing Service|url=https://www.nytimes.com/2002/06/07/technology/07PRIV.html|accessdate=15 October 2013|newspaper=New York Times|date=June 7, 2002}}</ref>
+
+In 2003, Congressional hearings before the House Committee of Government Reform (''Overexposed: The Threats to Privacy & Security on File Sharing Networks'')<ref>{{cite web|url=http://www.gpo.gov/fdsys/pkg/CHRG-108hhrg88016/pdf/CHRG-108hhrg88016.pdf|title=Overexposed: The Threats to Privacy & Security on File Sharing Networks}}</ref> and the Senate Judiciary Committee (''The Dark Side of a Bright Idea: Could Personal and National Security Risks Compromise the Potential of P2P File-Sharing Networks?'') <ref>{{cite web|url=http://www.judiciary.senate.gov/hearings/hearing.cfm?id=4f1e0899533f7680e78d03281fed5fb5|work="The Dark Side of a Bright Idea: Could Personal and National Security Risks Compromise the Potential of P2P File-Sharing Networks?"|title=The Dark Side of a Bright Idea: Could Personal and National Security Risks Compromise the Potential of P2P File-Sharing Networks?}}</ref> were convened to address and discuss the issue of inadvertent sharing on peer-to-peer networks and its consequences to consumer and national security.
+
+Researchers have examined potential security risks including the release of personal information, bundled [[spyware]], and [[Computer virus|viruses]] downloaded from the network.<ref>By M. Eric Johnson, Dan McGuire, Nicholas D. Willey [http://csdl2.computer.org/comp/proceedings/hicss/2008/3075/00/30750383.pdf The Evolution of the Peer-to-Peer File Sharing Industry and the Security Risks for Users]</ref><ref>{{Cite journal|title=Where Only Fools Dare to Tread: An Empirical Study on the Prevalence of Zero-day Malware|author=Håvard Vegge, Finn Michael Halvorsen and Rune Walsø Nergård|publisher=2009 Fourth International Conference on Internet Monitoring and Protection|year=2009}}</ref> Some proprietary file sharing clients have been known to bundle [[malware]], though [[Open-source software|open source]] programs typically have not. Some open source file sharing packages have even provided integrated anti-virus scanning.<ref>[http://www.turnkeylinux.org/torrentserver Open source file sharing software with integrated anti-virus scanning]</ref>
+
+Since approximately 2004 the threat of [[identity theft]] had become more prevalent, and in July 2008 there was another inadvertent revealing of vast amounts of personal information through P2P sites. The "names, dates of birth, and [[Social Security number]]s of about 2,000 of (an investment) firm's clients" were exposed, "including [those of] [[Stephen Breyer|Supreme Court Justice Stephen Breyer]]."<ref name="CNET"/> A drastic increase in inadvertent P2P file sharing of personal and sensitive information became evident in 2009 at the beginning of [[Barack Obama|President Obama]]'s administration when the blueprints to the helicopter [[Marine One]] were made available to the public through a breach in security via a P2P file sharing site. Access to this information has the potential of being detrimental to US security.<ref name="CNET">Greg Sandoval. April 21, 2009 10:41 AM PDT. [http://news.cnet.com/8301-1023_3-10224080-93.html "Congress to probe P2P sites over 'inadvertent sharing'"], ''CNET News''</ref> Furthermore, shortly before this security breach, the ''[[Today (NBC program)|Today]]'' show had reported that more than 150,000 tax returns, 25,800 student loan applications and 626,000 credit reports had been inadvertently made available through file sharing.<ref name="CNET"/>
+
+The United States government then attempted to make users more aware of the potential risks involved with P2P file sharing programs<ref>{{Cite web|title=P2P File-Sharing Risks|publisher=OnGuardOnLine.gov|url=http://www.onguardonline.gov/p2p|date=2011-09-24}}</ref> through legislation such as H.R. 1319, the Informed P2P User Act, in 2009.<ref>{{Cite web|title=Hearing on Barrow P2P Legislation Held on Tuesday|publisher =Congressman John Barrow|date=May 2009|url=http://www.barrow.house.gov/index.php?option=com_content&task=view&id=346&Itemid=72}}</ref> According to this act, it would be mandatory for individuals to be aware of the risks associated with peer-to-peer file sharing before purchasing software with informed consent of the user required prior to use of such programs. In addition, the act would allow users to block and remove P2P file sharing software from their computers at any time,<ref>[http://www.govtrack.us/congress/billtext.xpd?bill=h111-1319 "Text of H.R. 1319: Informed P2P User Act"], ''GovTrack.us''</ref> with the [[Federal Trade Commission]] enforcing regulations. [[United States Computer Emergency Readiness Team|US-CERT]] also warns of the potential risks.<ref>{{Cite web|title=Risks of File-Sharing Technology|publisher=[[US-CERT]]|url=http://www.us-cert.gov/cas/tips/ST05-007.html}}</ref>
+
+Nevertheless, in 2010, researchers discovered thousands of documents containing sensitive patient information on popular peer-to-peer (P2P) networks, including insurance details, personally identifying information, physician names and diagnosis codes on more than 28,000 individuals. Many of the documents contained sensitive patient communications, treatment data, medical diagnoses and psychiatric evaluations.<ref>Jaikumar Vijayan. May 17, 2010 [http://www.computerworld.com/s/article/9176883/P2P_networks_a_treasure_trove_of_leaked_health_care_data_study_finds?source=CTWNLE_nlt_pm_2010-05-17 "P2P networks a treasure trove of leaked health care data, study finds"], ComputerWorld</ref>
+
+==Copyright issues==
+{{Main article|Legal aspects of file sharing}}
+The act of file sharing is not illegal per se and peer-to-peer networks are also used for legitimate purposes. The legal issues in file sharing involve violating the laws of [[copyrighted]] material. Most discussions about the legality of file sharing are implied to be about solely copyright material. Many countries have [[fair use]] exceptions that permit limited use of copyrighted material without acquiring permission from the rights holders. Such documents include commentary, news reporting, research and scholarship. Copyright laws are territorial- they do not extend beyond the territory of a specific state unless that state is a party to an international agreement. Most countries today are parties to at least one such agreement.
+
+In the area of privacy, recent court rulings seem to indicate that there can be no [[expectation of privacy]] in data exposed over peer-to-peer file-sharing networks.  In a 39-page ruling released November 8, 2013, US District Court Judge [[Christina Reiss]] denied the motion to suppress evidence gathered by authorities without a search warrant through an automated peer-to-peer search tool.<ref>ComputerWorld.[http://www.computerworld.com/s/article/9243970/Don_t_expect_data_on_P2P_networks_to_be_private_judge_rules] " Don't expect data on P2P networks to be private, judge rules".</ref>
+
+== See also ==
+{{Portal|Internet}}
+* [[Anonymous P2P]]
+* [[Comparison of file sharing applications]]
+* [[Disk sharing]]
+* [[File sharing in Canada]]
+* [[File sharing timeline]] (peer to peer and not)
+* [[Friend-to-friend]] or F2F
+* [[Open Music Model]]
+* [[Privacy in file sharing networks]]
+* [[Private P2P]]
+* [[Public domain]]
+* [[Torrent poisoning]]
+* [[Trade group efforts against file sharing]]
+* [[Warez]]
+
+== References ==
+{{Reflist|colwidth=30em}}
+
+== External links ==
+* [http://airccse.org/ijp2p/papers/3512ijp2p01.pdf Structured Hierarchical P2P Protocol]
+
+{{File sharing protocols}}
+{{intellectual property activism}}
+
+{{DEFAULTSORT:Peer-To-Peer File Sharing}}
+[[Category:Peer-to-peer file sharing| ]]
+[[Category:Internet terminology]]
+[[Category:Intellectual property law]]
+
+[[de:Filesharing]]

@@ -1,0 +1,43 @@
+[[File:Freifunk.net.svg|thumb|Freifunk.net logo]]
+'''Freifunk''' (German for: "free radio") is a non-commercial open [[grassroots]] initiative to support free computer networks in the German region. Freifunk is part of the international movement for a [[wireless community network]]. The initiative counts about 400 local communities<ref>{{Cite web|url=https://freifunk.net/wie-mache-ich-mit/community-finden/|title=Find you community (Community Finden)|last=|first=|date=|website=|archive-url=|archive-date=|dead-url=|access-date=}}</ref> with over 41,000 [[Wireless access point|access point]]s.<ref>{{cite web|url=http://www.freifunk-karte.de/|title=Freifunk-Karte|publisher=}}</ref> Among them, [[Münster]], [[Aachen]], [[Munich]], [[Stuttgart]], and [[Paderborn]] are the biggest communities, with more than 1000 access points each.<ref>http://freifunk.net/wie-mache-ich-mit/community-finden/ Freifunk.net Overview Map</ref>
+
+== Aim ==
+The main goals of Freifunk are to build a large scale free wireless [[Wi-Fi]] network that is [[decentralized computing|decentralized]], owned by those who run it and to support local communication. The initiative is based on the '''Picopeering Agreement'''.<ref>http://www.picopeer.net/PPA-en.shtml</ref> In this agreement, participants agree upon a network that is free from discrimination, in the sense of [[net neutrality]]. Similar grassroots initiatives in Austria and in Switzerland are FunkFeuer and [[OpenWireless.org|Openwireless]].
+
+== Technology ==
+Like many other free [[Community project|community-driven]] networks, Freifunk uses [[Wireless mesh network|mesh]] technology to bring up [[ad hoc network]]s by interconnecting multiple Wireless LANs. In a Wi-Fi [[mobile ad hoc network]], all routers connect to each other using special routing software. When a router fails, this software automatically calculates a new route to the destination. This software, the Freifunk firmware, is based on [[OpenWrt]] and other [[free software]].
+
+There are several different implementations of the firmware depending on the hardware and protocols local communities use. The first Wi-Fi ad hoc network was done in Georgia, USA in 1999 as demonstrated by Toh.<ref>{{cite web|url=http://dl.acm.org/citation.cfm?id=377622 |title=Experimenting with an Ad Hoc wireless network on campus: insights and experiences, Toh, ACMSIGMETRICS, 2000}}</ref>It was a six-node implementation running the [[Associativity-Based Routing protocol]] on Linux kernel and WAVELAN WiFi. But ABR was a patented protocol. Following that experience, Freifunk work on standard IETF protocols - the two common standard proposals are [[Optimized Link State Routing Protocol|OLSR]] and [[B.A.T.M.A.N.]]<ref>{{cite web|url=http://freifunk.net/worum-geht-es/technik-der-community-netzwerke/|title=Technik der Community Netzwerke|work=freifunk.net}}</ref><ref>Wireless Networking in the Developing World. A practical guide to planning and building low-cost telecommunications infrastructure, Chapter 8: "Mesh Networking", pp. 134</ref> The development of B.A.T.M.A.N. is driven by Freifunk activists on a volunteering basis.
+
+== History ==
+[[File:Freifunk-Initiative in Berlin.jpg|thumb|The Freifunk-Initiative installing Wi‑Fi antennas in Berlin-Kreuzberg in 2013]]
+One of the results of the ''BerLon'' workshop in October 2002 on free wireless community networks in [[Berlin]] and [[London]] was the '''Picopeering Agreement'''. This agreement about rationales of free networks describes how the transmission of other people's data is handled in a free network and has become a core agreement of the community. During the workshop, participants also agreed upon regular meetings in Berlin to build their own free wifi network. Ever since, there have been weekly meetings at [[c-base]] Hackerspace every Wednesday. At the same time, the German language site freifunk.net was started.
+
+In September 2003, Freifunk activists founded the non-profit association ''Förderverein Freie Netzwerke e.V.'' to support free communication infrastructures.<ref>http://foerderverein.freie-netzwerke.de/organisation/ (Website of the association, in German)</ref>
+
+In the following years, the initiative became quite successful all over Germany, also because it became easier to install the Freifunk firmware on off-the-shelf wireless routers. There is a yearly ''Wireless Community Weekend'' taking place in Berlin, at [[c-base]].
+
+== Legal Issues ==
+In 2012, the Berlin Freifunk community got a lot of media attention for a project called ''Freifunk Freedom Fighter Box''. The project fights [[secondary liability]]: Secondary liability is the legal situation that makes the owners of open / non-encrypted [[wireless access point]]s liable for what other users do over their internet connection, as outlined in the [[Störerhaftung]] law ([[:de:Störerhaftung|de]]).<ref>https://qz.com/694618/why-is-it-impossible-to-find-free-wi-fi-in-germany/</ref> The owners can thus be forced to pay for copyright infringements of third persons just because they opened their network to the public. This legal practice led to fear and uncertainty and made many people close their access points, e.g. in cafés or in public locations. The ''Freifunk Freedom Fighter Box'' was a preconfigured access point that sent all data from the public network to [[Sweden]] over a [[VPN]] connection. In Sweden (as in most other countries), there is no secondary liability.<ref>[http://writing.jan.io/2012/07/26/freifunk-statt-angst.html Blogpost about the ''Freifunk Freedom Fighter Box'' in English]</ref>
+
+== Outcome ==
+In 2013, the [[Hamburg]] Freifunk community set up a network of more than 300 nodes,<ref>http://hamburg.freifunk.net/?page_id=16 (Map of the Hamburg nodes)</ref> using VPN tunnels to the [[Netherlands]]. Many new Freifunk communities emerged. In Berlin, the community is building a [[backbone network]] based on [[microwave transmission]] over longer distances. This project is funded by the local broadcasting corporation ''Medienanstalt Berlin-Brandenburg'' and is still on-going in Germany.
+
+== See also ==
+* [[Netsukuku]]
+
+== References ==
+{{Reflist}}
+
+== External links ==
+{{commons category}}
+* [http://www.freifunk.net Freifunk's website]
+* [https://www.youtube.com/watch?v=DrXJ9_ezSy4 Video clip on youtube that explains the Freifunk idea] or [https://www.youtube.com/watch?v=2Z12OjnPADA Version in German with English subtitles]
+* [http://wiki.freifunk.net/Freifunk_Firmware Freifunk firmware information] in the Freifunk wiki (German only)
+* [https://wiki.freifunk.net/Kategorie:English Freifunk wiki (English-language category)]
+* Wireless Networking in the developing world. A practical guide to planning and building low-cost telecommunications infrastructure, 3rd edition, Feb. 2013 [http://wndw.net/pdf/wndw3-en/wndw3-ebook.pdf]
+
+[[Category:Custom firmware]]
+[[Category:Wireless]]
+[[Category:Wireless networking]]
+[[Category:Community networks]]

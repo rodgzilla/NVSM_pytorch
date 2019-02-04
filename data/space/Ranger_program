@@ -1,0 +1,175 @@
+{{For|the U.S. Army training course|Ranger School}}
+
+{{Infobox spacecraft class
+| name                 = Ranger
+| image                = Ranger 6789.svg
+| image_caption        = Block III Ranger spacecraft
+ 
+| manufacturer         = [[Jet Propulsion Laboratory]]
+| designer             =
+| country              = United States
+| operator             = [[NASA]]
+| applications         =
+
+<!--Specifications-->
+| spacecraft_type      =
+| spacecraft_bus       = Block I, Block II, Block III
+| design_life          =
+| launch_mass          =
+| dry_mass             = 
+| dimensions           = 
+| volume               = 
+| power                = 
+| batteries            = 
+| equipment            = 
+| orbits               =
+
+<!--Production-->
+| status               = Retired
+| built                =
+| launched             = 9
+| failed               = 5
+| lost                 = 
+| first                = August 23, 1961
+| last                 = March 21, 1965
+
+<!--Related spacecraft-->
+| derivedfrom          =
+| derivatives          = [[Mariner program|Mariner]] 
+| subsatellites        =
+
+<!--insignia-->
+| insignia             = 
+| insignia_size        = 
+| insignia_alt         = 
+| insignia_caption     =
+
+<!--image at bottom of infobox-->
+| bottom_image         = 1964 71395L-Ranger.svg
+| bottom_image_caption = Block II Ranger spacecraft
+}}
+[[Image:Ranger7 PIA02975.jpg|thumb|200px|right|First image of the Moon returned by a Ranger mission (Ranger 7 in 1964)]]The '''Ranger program''' was a series of [[unmanned space mission]]s by the [[United States]] in the 1960s whose objective was to obtain the first close-up images of the [[surface of the Moon]]. The Ranger spacecraft were designed to take images of the lunar surface, transmitting those images to Earth until the spacecraft were destroyed upon impact. A series of mishaps, however, led to the failure of the first six flights. At one point, the program was called "shoot and hope".<ref>[http://www.jsc.nasa.gov/history/oral_histories/CortrightEM/EMC_8-20-98.pdf Cortright Oral History (p25)]</ref> Congress launched an investigation into "problems of management" at [[NASA]] Headquarters and [[JPL|Jet Propulsion Laboratory]].<ref>{{cite web|last=Dick|first=Steven J.|title=NASA's First 50 Years: Historical Perspectives|url=http://hdl.handle.net/2060/20100025873|work=NASA History|publisher=NASA Technical Reports Server|accessdate=21 September 2011|page=12}}</ref>  After two reorganizations of the agencies,{{citation needed|date=October 2012}} [[Ranger 7]] successfully returned images in July 1964, followed by two more successful missions.
+
+Ranger was originally designed, beginning in 1959, in three distinct phases, called "blocks". Each block had different mission objectives and progressively more advanced system design. The [[JPL]] mission designers planned multiple launches in each block, to maximize the engineering experience and scientific value of the mission and to assure at least one successful flight. Total research, development, launch, and support costs for the Ranger series of spacecraft (Rangers 1 through 9) was approximately $170 million (equivalent to ${{format price|{{Inflation|US-GDP|170000000|1965}}}} in {{Inflation-year|US-GDP}}).{{Inflation/fn|US-GDP}}
+
+==Ranger spacecraft==
+[[File:Program Ranger organization.jpg|thumb|right|250px|Program Ranger Organization Chart]]
+
+Each of the block III Ranger spacecraft had six cameras on board. The cameras were fundamentally the same with differences in exposure times, fields of view, lenses, and scan rates. The camera system was divided into two channels, P (partial) and F (full). Each channel was self-contained with separate power supplies, timers, and transmitters. The F-channel had two cameras: the wide-angle A-camera and the narrow angle B-camera. The P-channel had four cameras: P1 and P2 (narrow angle) and P3 and P4 (wide angle). The final F-channel image was taken between 2.5 and 5 seconds before impact (altitude about 5&nbsp;km) and the last P-channel image 0.2 to 0.4 seconds before impact (altitude about 600 m). The images provided better resolution than was available from Earth-based views by a factor of 1000. The design and construction of the cameras was led by [[Leonard R Malling]].<ref>
+{{cite paper
+ | author = [[Jet Propulsion Laboratory]] -  Malling, L. R. 
+ | title = Planetary photography- Television camera for a geological survey of the planet Mars
+ | publisher = NASA-JPL
+ | year = 1962
+ | url = https://ntrs.nasa.gov/search.jsp?R=19660002908
+ | format = PDF
+ }}</ref>
+<ref>
+{{cite paper
+ | author = [[Jet Propulsion Laboratory]] -  Malling, L. R. 
+ | title = Space astronomy and the slow-scan vidicon system
+ | publisher = NASA-JPL
+ | year = 1963
+ | url = https://ntrs.nasa.gov/search.jsp?R=19640004932
+ | format = PDF
+ }}</ref>
+<ref>
+{{cite paper
+ | author = [[Jet Propulsion Laboratory]] -  Malling, L. R. 
+ | title = Digital television camera control system Patent
+ | publisher = NASA-JPL
+ | year = 1966
+ | url = https://ntrs.nasa.gov/search.jsp?R=19700032491
+ | format = PDF
+ }}</ref>
+<ref>
+{{cite paper
+ | author = [[Jet Propulsion Laboratory]] -  Malling, L. R. 
+ | title = Reduced bandwidth video communication system utilizing sampling techniques Patent
+ | publisher = NASA-JPL
+ | year = 1968
+ | url = https://ntrs.nasa.gov/search.jsp?R=19710013550
+ | format = PDF
+ }}</ref>
+The Ranger program manager for the first six spacecraft was [[James Burke (space engineer)|James D. Burke]].<ref name="ranger2">{{cite web|last=|first=|title=LUNAR IMPACT: A History of Project Ranger, Part I. The Original Ranger, Chapter Two - ORGANIZING THE CAMPAIGN|url=http://history.nasa.gov/SP-4210/pages/Ch_2.htm#Ch2_R42|work=NASA History|publisher=NASA|accessdate=14 July 2016}}</ref>
+
+==Mission list==
+
+===Block 1 missions===
+[[Image:Ranger Block 1 scientific experiments.jpg|thumb|250px|right|Ranger block I spacecraft diagram. (NASA)]]
+
+*[[Ranger 1]], launched 23 August 1961, lunar prototype, launch failure
+*[[Ranger 2]], launched 18 November 1961, lunar prototype, launch failure
+
+Block 1, consisting of two spacecraft launched into Earth orbit in 1961, was intended to test the [[Atlas-Agena]] launch vehicle and spacecraft equipment without attempting to reach the Moon.
+
+Problems with the early version of the launch vehicle left [[Ranger 1]] and [[Ranger 2]] in short-lived, low-Earth orbits in which the spacecraft could not stabilize themselves, collect solar power, or survive for long. In 1962, JPL utilized the Ranger 1 and Ranger 2 design for the failed [[Mariner 1]] and successful [[Mariner 2]] deep-space probes to [[Venus]].
+
+===Block 2 missions===
+[[Image:1964 71395L-Ranger.svg|thumb|250px|right|Ranger block II spacecraft diagram. (NASA)]]
+
+*[[Ranger 3]], launched 26 January 1962, lunar probe, spacecraft failed, missed Moon
+*[[Ranger 4]], launched 23 April 1962, lunar probe, spacecraft failed, impact
+*[[Ranger 5]], launched 18 October 1962, lunar probe, spacecraft failed, missed
+
+Block 2 of the Ranger project launched three spacecraft to the Moon in 1962, carrying a TV camera, a radiation detector, and a seismometer in a separate capsule slowed by a rocket motor and packaged to survive its low-speed impact on the Moon's surface. The three missions together demonstrated good performance of the Atlas/Agena B launch vehicle and the adequacy of the spacecraft design, but unfortunately not both on the same attempt. [[Ranger 3]] had problems with both the launch vehicle and the spacecraft, missed the Moon by about 36,800&nbsp;km, and has orbited the Sun ever since. [[Ranger 4]] had a perfect launch, but the spacecraft was completely disabled. The project team tracked the seismometer capsule to impact just out of sight on the [[Far side (Moon)|lunar far side]], validating the communications and navigation system. [[Ranger 5]] missed the Moon and was disabled. No significant science information was gleaned from these missions. The craft weighed 331&nbsp;kg.
+
+Around the end of Block 2, it was discovered that a type of diode used in previous missions produced problematic gold-plate flaking in the conditions of space. This may have been responsible for some of the failures.<ref>{{cite web|url=https://history.nasa.gov/SP-480/ch8.htm|title=ch8|publisher=}}</ref>
+
+===Block 3 missions===
+[[Image:Ranger 6789.svg|thumb|250px|right|Ranger block III spacecraft diagram. (NASA)]]
+
+*[[Ranger 6]], launched 30 January 1964, lunar probe, impact, cameras failed
+*[[Ranger 7]]
+**Launched 28 July 1964
+**Impacted Moon 31 July 1964 at 13:25:49 UT
+**{{coord|10.35|S|20.58|W|globe:Moon_type:landmark|display=inline|name=Ranger 7}} - [[Mare Cognitum]]
+*[[Ranger 8]]
+**Launched 17 February 1965
+**Impacted Moon 20 February 1965 at 09:57:37 UT
+**{{coord|2.67|N|24.65|E|globe:Moon_type:landmark|display=inline|name=Ranger 8}} - [[Mare Tranquillitatis]] (Sea of Tranquility)
+*[[Ranger 9]]
+**Launched 21 March 1965
+**Impacted Moon 24 March 1965 at 14:08:20 UT
+**{{coord|12.83|S|2.37|W|globe:moon_type:landmark|display=inline|name=Ranger 9}} - [[Alphonsus crater]]
+
+Ranger's Block 3 embodied four launches in 1964-65. These spacecraft boasted a television instrument designed to observe the lunar surface during the approach; as the spacecraft neared the Moon, they would reveal detail smaller than the best Earth telescopes could show, and finally details down to dishpan size.{{vague|date=June 2009}} The first of the new series, [[Ranger 6]], had a flawless flight, except that the television system was disabled by an in-flight accident and could take no pictures.
+
+The next three Rangers, with a redesigned television, were completely successful. [[Ranger 7]] photographed its way down to target in a lunar plain, soon named [[Mare Cognitum]], south of the crater [[Copernicus (lunar crater)|Copernicus]]. It sent more than 4,300 pictures from six cameras to waiting scientists and engineers. The new images revealed that craters caused by impact were the dominant features of the Moon's surface, even in the seemingly smooth and empty plains. Great craters were marked by small ones, and the small with tiny impact pockmarks, as far down in size as could be discerned—about {{convert|50|cm|in|abbr=off|sp=us}}. The light-colored streaks radiating from Copernicus and a few other large craters turned out to be chains and nets of small craters and debris blasted out in the primary impacts.
+
+In February 1965, [[Ranger 8]] swept an oblique course over the south of [[Oceanus Procellarum]] and [[Mare Nubium]], to crash in [[Mare Tranquillitatis]] about {{convert|70|km|mi|sp=us}} distant from where [[Apollo 11]] would land 4½ years later. It garnered more than 7,000 images, covering a wider area and reinforcing the conclusions from Ranger 7. About a month later, [[Ranger 9]] came down in the {{convert|90|km|mi|abbr=off|sp=us}} diameter crater [[Alphonsus (crater)|Alphonsus]]. Its 5,800 images, nested concentrically and taking advantage of very low-level sunlight, provided strong confirmation of the crater-on-crater, gently rolling contours of the lunar surface.
+
+==See also==
+*[[Surveyor program]]
+*[[Lunar Orbiter program]]
+*[[Apollo program]]
+*[[Pioneer program]]
+*[[Luna programme]]
+*[[Timeline of Solar System exploration]]
+*[[s:NASA FACTS Volume 2 number 6 PROJECT RANGER|NASA FACTS Volume 2 number 6 PROJECT RANGER on wikisource]]
+
+==References==
+{{Reflist}}
+
+==External links==
+{{Commons}}
+*[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19780007206_1978007206.pdf Lunar Impact: A History of Project Ranger (PDF) 1977]
+*[https://history.nasa.gov/SP-4210/pages/Cover.htm Lunar Impact: A History of Project Ranger (HTML)]
+Both links lead to a whole book on the program. For the HTML one, scroll down to see the table of contents link.
+*[http://solarsystem.nasa.gov/missions/profile.cfm?MCode=Ranger Ranger Program Page] by [http://solarsystem.nasa.gov NASA's Solar System Exploration]
+*[http://www.lpi.usra.edu/expmoon/ranger/ranger.html Exploring the Moon: The Ranger Program]
+*[http://www.lpi.usra.edu/resources/ranger/ Ranger Photography of the Moon] Lunar and Planetary Institute
+*[https://history.nasa.gov/series95.html NASA History Series Publications] (many of which are on-line)
+
+{{Ranger program | before=''None'' | after=[[Surveyor program|Surveyor]], [[Lunar Orbiter program|Lunar Orbiters]] }}
+{{Moon spacecraft}}{{NASA planetary exploration programs}}
+{{NASA navbox}}
+{{Jet Propulsion Laboratory}}
+
+{{authority control}}
+
+{{Use American English|date=January 2014}}
+
+[[Category:Ranger program|*]]
+[[Category:Missions to the Moon]]
+[[Category:NASA programs]]

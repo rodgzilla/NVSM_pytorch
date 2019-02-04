@@ -1,0 +1,94 @@
+
+
+[[Image:MPD plume.jpg|thumb|right|A thruster during test firing]]
+[[File:VASIMR spacecraft.jpg|thumb|right|Artist rendition of [[VASIMR]] plasma engine]]
+A '''plasma propulsion engine''' is a type of [[electric propulsion]] that generates thrust from a quasi-neutral [[plasma (physics)|plasma]]. This is in contrast to [[ion thruster]] engines, which generate thrust through extracting an ion current from [[Plasma (physics)|plasma]] source, which is then accelerated to high velocities using grids/anodes. These exist in many forms (see [[electric propulsion]]). 
+Plasma thrusters do not typically use high voltage grids or anodes/ cathodes to accelerate the charged particles in the plasma, but rather uses currents and potentials which are generated internally in the plasma to accelerate the plasma ions. While this results in a lower exhaust velocities by virtue of the lack of high accelerating voltages, this type of thruster has a number of advantages. The lack of high voltage grids of anodes removes a possible limiting element as a result of grid ion erosion. The plasma exhaust is 'quasi-neutral', which means that ion and electrons exist in equal number, which allows simply ion-electron recombination in the exhaust to neutralise the exhaust plume, removing the need for an electron gun (hollow cathode). This type of thruster often generates the source plasma using radio frequency or microwave energy, using an external antenna. This fact, combined with the absence of hollow cathodes (which are very sensitive to all but the few noble gases) allows the intriguing possibility of being able to use this type of thruster on a huge range of propellants, from argon, to carbon dioxide, air mixtures to astronaut urine.<ref>{{cite web |url=http://www.dvice.com/archives/2012/06/aussie_helicon.php |title= Australian National University develops helicon plasma thruster |author= |date=January 2010 |website= |publisher=Dvice |accessdate=8 June 2012}}</ref>
+
+Plasma engines are  better suited for long-distance [[Interplanetary travel|interplanetary space travel]] missions.<ref name="plasma rocket">{{cite news |url=http://www.cbc.ca/news/technology/story/2010/01/07/tech-space-plasma-rocket-nautel.html?ref=rss |title=N.S. company helps build plasma rocket |author= |date=January 2010 |work= |publisher=cbcnews |accessdate=24 July 2012}}</ref>
+
+In recent years, many agencies have developed several forms of plasma-fueled engines, including the [[European Space Agency]], [[Iranian Space Agency]] and [[Australian National University]], which have co-developed a more advanced type described as a [[Helicon Double Layer Thruster|double layer thruster]].<ref>{{cite news| url=http://news.bbc.co.uk/2/hi/science/nature/4527696.stm | work=BBC News | title=Plasma engine passes initial test | date=14 December 2005}}</ref><ref>{{Cite news|url=https://www.newscientist.com/article/mg23431264-500-plasma-jet-engines-that-could-take-you-from-the-ground-to-space/|title=Plasma jet engines that could take you from the ground to space|work=New Scientist|access-date=2017-07-29|language=en-US}}</ref> However, this form of plasma engine is only one of many types.
+
+== Advantages ==
+
+Plasma engines have a much higher [[Specific impulse|specific impulse (I<sub>sp</sub>)]] value than most other types of rocket technology. The [[Variable Specific Impulse Magnetoplasma Rocket|VASIMR]] engine is capable of reaching an impulse value of over 12000, while [[Hall-effect thruster|hall thrusters]] can reach about 2000. This is much higher than the chemical bipropellant fuel that is sometimes used that can reach a specific impulse of 450.<ref name=":0">{{Cite web|url=https://www.dsiac.org/resources/journals/dsiac/spring-2017-volume-4-number-2/space-travel-aided-plasma-thrusters-past|title=Space Travel Aided by Plasma Thrusters: Past, Present and Future {{!}} DSIAC|website=www.dsiac.org|language=en|access-date=2017-07-29}}</ref> With high impulse, these rockets are capable of reaching relatively high speeds. Ex-astronaut [[Franklin Chang Díaz|Franklin Chang-Diaz]] claims his [[Variable Specific Impulse Magnetoplasma Rocket|VASIMR]] engine could send a payload to Mars in as little as 39 days while reaching a max velocity of 34 miles per second.<ref>{{Cite web|url=https://cosmosmagazine.com/technology/antimatter-ion-drives-nasas-plans-deep-space-propulsion|title=Antimatter to ion drives: NASA's plans for deep space propulsion|website=Cosmos Magazine|language=en|access-date=2017-07-29}}</ref> The trend is the same for other plasma rockets.
+
+Certain plasma thrusters, such as the mini-helicon, are hailed for their simple design and ease of use. With cheap fuel (a large number of gases or combinations of gases can be used as fuel), and relatively simple theory of performance, plasma rockets can be used more than once, and be easily built. Plasma rockets also do not have to spend all of their fuel all at once unlike traditional chemical rockets. This allows plasma rockets to more easily be used in flight.<ref name=":1">{{Cite news|url=https://www.sciencedaily.com/releases/2009/02/090223221524.htm|title=Rocket Aims For Cheaper Nudges In Space; Plasma Thruster Is Small, Runs On Inexpensive Gases|work=ScienceDaily|access-date=2017-07-29|language=en}}</ref>
+
+== Drawbacks ==
+
+For some plasma thruster technologies, such as Berkant Goksel's tiny plasma thruster, one of the largest problems is generating enough electricity to turn gases into plasma.<ref>{{Cite news|url=https://www.newscientist.com/article/mg23431264-500-plasma-jet-engines-that-could-take-you-from-the-ground-to-space/|title=Plasma jet engines that could take you from the ground to space|work=New Scientist|access-date=2017-07-29|language=en-US}}</ref> This same problem plagues Diaz's VASIMR thruster. Diaz's device would need so much electricity, that any vehicle that uses a VASIMR engine would also need several nuclear reactors in order to generate enough power. Not only would the reactors add mass to the payload, this has caused concern by some who fear the possible fallout caused by an explosion of the reactor.<ref>{{Cite news|url=http://www.popsci.com/technology/article/2010-10/123000-mph-plasma-engine-could-finally-take-astronauts-mars|title=The 123,000 MPH Plasma Engine That Could Finally Take Astronauts To Mars|work=Popular Science|access-date=2017-07-29|language=en}}</ref>
+
+Another common issue plasma rockets have run into is the possibility of the rocket breaking itself. Over time, the plasma these rockets produce will damage the walls of the device ultimately causing it to break. This means that on a mission to Mars, it is possible that the rocket will destroy itself.<ref>{{Cite news|url=https://phys.org/news/2016-07-mars-immortal-plasma-rockets.html|title=Traveling to Mars with immortal plasma rockets|access-date=2017-07-29}}</ref>
+
+Lastly, due to their low thrust, plasma engines are not suitable for sending large payloads into space. On average, these rockets provide about 2 pounds of thrust maximum.<ref name=":0" /> This is a problem since in order to be financially efficient, heavy payloads need to be sent up every time a mission is scheduled. While plasma engines could take over once in space, chemical rockets would be needed to launch the vehicle.
+
+== Plasma engines in use ==
+
+While most plasma engines are still confined to the laboratory, some have seen active flight time and use on missions. As of 2011, NASA, partnered with aerospace company [[Busek]], launched the first hall thruster into space aboard the [[TacSat-2|Tacsat-2]] satellite. The thruster was the satellite's main propulsion system. Since then, the company has launched another hall effect thruster in 2011.<ref>{{Cite web|url=http://www.busek.com/flightprograms__ts2.htm|title=TacSat-2|website=www.busek.com|access-date=2017-07-29}}</ref> As time progresses, more plasma thrusters are likely to see flight time on objects that have left Earth's surface. 
+
+== Engine types ==
+
+=== Helicon double layer thrusters ===
+{{main|Helicon double-layer thruster}}Helicon thrusters use low-frequency electromagnetic waves (Helicon waves) that exist inside plasma when exposed to a magnetic field. An R-F antennae that wraps around a chamber of gas is used to create the waves and excite the gas. Once the energy provided by the antennae couples with the gas a plasma is created. Once the plasma is formed, the plasma is accelerated out of the engine using a magnetic field of ideal topology. Mini-helicon thrusters, invented by Oleg Batishcev, are small simple thrusters ideal for small maneuvers in space. These thrusters are capable of running off of many different fuels making these simple rockets ideal for long term missions. Its simple design also makes it versatile in that it can be made out of simple materials such as a glass soda bottle.&nbsp;<ref name=":15">{{Cite news|url=https://www.sciencedaily.com/releases/2009/02/090223221524.htm|title=Rocket Aims For Cheaper Nudges In Space; Plasma Thruster Is Small, Runs On Inexpensive Gases|work=ScienceDaily|access-date=2017-07-29|language=en}}</ref>
+
+=== Magnetoplasmadynamic thrusters ===
+{{main|Magnetoplasmadynamic thruster}}
+
+[[Magnetoplasmadynamic thruster]]s (MPD) use the [[Lorentz force]] (a force resulting from the interaction between a [[magnetic field]] and an [[electric current]]) to generate thrust—the electric charge flowing through the plasma in the presence of a magnetic field causing the plasma to [[accelerate]] due to the generated magnetic force.
+The [[Lorentz force]] is also crucial to the operation of most [[pulsed plasma thruster]]
+
+=== Pulsed inductive thrusters ===
+{{main|Pulsed inductive thruster}}
+
+[[Pulsed inductive thruster]]s (PIT) also use the Lorentz force to generate thrust, but unlike the magnetoplasmadynamic thruster, they do not use any electrode, preventing their erosion. Ionization and electric currents in the plasma are induced by a rapidly varying magnetic field.
+
+=== Electrodeless plasma thrusters ===
+{{main|Electrodeless plasma thruster}}
+
+[[Electrodeless plasma thruster]]s  use the [[ponderomotive force]] which acts on any plasma or [[charged particle]] when under the influence of a strong [[electromagnetic energy]] density [[gradient]] to [[accelerate]] both electrons and ions of the plasma in the same direction, thereby able to operate without neutralizer.
+
+[[File:Russian stationary plasma thrusters.jpg|thumb|right|SPT]]
+
+=== Hall effect thrusters ===
+{{main|Hall effect thruster}}
+
+[[Hall effect thruster]]s (also called stationary plasma thrusters SPT) combine a strong localized static magnetic field perpendicular to the electric field created between an upstream anode and a downstream cathode called neutralizer, to create a "virtual cathode" (area of high electron density) at the exit of the device. This virtual cathode then attracts the ions formed inside the thruster closer to the anode. Finally the accelerated ion beam is neutralized by some of the electrons emitted by the neutralizer.
+Serial production of Hall effect thruster started in [[Soviet Union]] in the 1970s. One of the early variants, SPT-100 is now produced under license by European Snecma Moteurs under the name PPS-1350. Similarly BPT-4000 and PPS-5000 are closely related to SPT-140.
+SPT-290 has a thrust of 1.5N, 5-30&nbsp;kW power and specific impulse 30&nbsp;km/s, efficiency 65% and weight 23&nbsp;kg.
+
+[[File:Vasimr.png|thumb|right|VASIMR]]
+
+=== VASIMR ===
+{{main|Variable Specific Impulse Magnetoplasma Rocket}}
+
+VASIMR, short for Variable Specific Impulse Magnetoplasma Rocket, uses [[radio waves]] to [[ion]]ize a [[propellant]] into a plasma. Then, a [[magnetic field]] accelerates the plasma from the [[rocket engine]], generating [[thrust]].
+The VASIMR is being developed by [[Ad Astra Rocket Company]], headquartered in Houston, TX. A [[Nova Scotia]], [[Canada]]-based company [[Nautel]], is producing the 200&nbsp;kW RF generators required to ionize the propellant. Some component tests and "Plasma Shoot" experiments are performed in a [[Liberia, Costa Rica]] laboratory.
+This project is led by former NASA astronaut Dr. [[Franklin Chang-Díaz]] (CRC-USA).
+
+The Costa Rican Aerospace Alliance has announced development of an exterior support for the VASIMR to be fitted outside the [[International Space Station]]. This phase of the plan to test the VASIMR in space is expected to be conducted in 2016. A projected 200 megawatt VASIMR engine could reduce the time to travel from Earth to Jupiter or Saturn from six years to fourteen months, and from Earth to Mars from 6 months to 39 days.<ref>{{Cite web|url=http://www.busek.com/flightprograms__ts2.htm|title=TacSat-2|website=www.busek.com|access-date=2017-07-29}}</ref>
+
+== See also ==
+{{Commons|Plasma propulsion engine}}[[Magnetic sail]]
+* [[Capacitively Coupled Plasma Thruster]]
+* [[Ion thruster]]
+* [[Spaceflight]]
+* [[Wingless Electromagnetic Air Vehicle]]
+* [[Electrically powered spacecraft propulsion]]
+* [[List of plasma (physics) articles]]
+
+== References ==
+<references />
+
+==External links==
+* [https://web.archive.org/web/20060926070534/http://www.tipmagazine.com/tip/INPHFA/vol-6/iss-5/p16.pdf Plasma Propulsion in Space] - A.I.P. October, 2000
+* [https://www.sciencedaily.com/releases/2009/02/090223221524.htm Mini-Helicon Plasma Thruster]
+
+[[Category:Russian inventions]]
+[[Category:Spacecraft propulsion]]
+[[Category:Plasma physics]]
+[[Category:Engine technology]]
+[[Category:Emerging technologies]]
+
+{{Spacecraft propulsion}}
+{{Emerging technologies}}

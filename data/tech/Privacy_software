@@ -1,0 +1,64 @@
+{{Refimprove|date=August 2014}}
+
+'''Privacy software''' is [[Computer software|software]] built to protect the [[privacy]] of its users. The software typically works in conjunction with [[Internet]] usage to control or limit the amount of information made available to third parties. The software can apply [[encryption]] or filtering of various kinds.
+
+==Types of protection==
+
+Privacy software can refer to two different types of protection.  One type is protecting a user's [[Internet privacy]] from the [[World Wide Web]]. There are software products that will mask or hide a user's [[IP address]] from the outside world in order to protect the user from [[identity theft]].  The second type of protection is hiding or deleting the users Internet traces that are left on their PC after they have been surfing the Internet.  There is software that will erase all the users Internet traces and there is software that will hide and encrypt a user's traces so that others using their PC will not know where they have been surfing.
+
+===Whitelisting and blacklisting===
+
+One solution to enhance privacy software is [[whitelisting]]. Whitelisting is a process in which a company identifies the software that it will allow to and does not try to recognize malware. Whitelisting permits acceptable software to run and either prevents anything else from running or lets new software run in a quarantined environment until the can verify its validity. Whereas whitelisting allows nothing to run unless it is on the whitelist, [[blacklisting]] allows everything to run unless it is on the black. A blacklist then includes certain types of software that are not allowed to run in the company environment. For example, a company might blacklist peer-to-peer file sharing on its systems. In addition to software, people, devices, and web sites can also be whitelisted or blacklisted.
+
+=== Intrusion detection systems ===
+{{Main|Intrusion detection system}}
+Intrusion detection systems are designed to detect all types of malicious network traffic and computer usage that cannot be detected by a firewall. These systems capture all network traffic flows and examine the contents of each packet for malicious traffic.
+
+=== Encryption ===
+{{Main|Encryption software}}
+[[Encryption]] is another form for privacy security. When organizations do not have secure channel for sending information, they use encryption to stop unauthorized eavesdroppers. Encryption is the process of converting an original message into a form that cannot be read by anyone except the intended receiver.
+
+=== Steganography ===
+
+[[Steganography]] is sometimes used to hide messages from eavesdropping and e-surveillance.
+
+== Privacy vs anonymity ==
+
+Privacy is different from [[anonymity]] in its applicability and usage. Anonymity is subordinate to privacy and might be desired for the exchange, retrieval or publication of specific information.
+
+== Legal issues of use ==
+Uses of privacy software are not free from legal issues. For instance, there are regulations for [[export of cryptography from the United States]]. Similarly, [[key disclosure law]] also requires individuals to surrender cryptographic keys to law enforcement agencies. Encryption laws in India also carry many legal restrictions in diverse situations.<ref name="http://perry4law.co.in/blog/?p=67">{{cite news|url= http://perry4law.co.in/blog/?p=67|title= Encryption Laws In India|work= Cyber Law, Cyber Security, Telecom Laws And Telecom Security Legal Due Diligence And Statutory Compliance Services In India |date=4 June 2014 |accessdate=25 August 2014}}</ref> Talks are also in pipeline to include cyber security technologies, like encryption related software, under the Wassenaar Arrangement thereby making its export more cumbersome.<ref name="http://perry4law.co.in/cyber_security/?p=61">{{cite news|url= http://perry4law.co.in/cyber_security/?p=61|title= India Opposes Proposal To Include Cyber Security Technologies Under The Wassenaar Arrangement|work= International Legal Issues Of Cyber Attacks, Cyber Terrorism, Cyber Espionage, Cyber Warfare And Cyber Crimes|date=20 June 2014 |accessdate=25 August 2014}}</ref>
+
+==See also==
+
+===General topics===
+*[[Information privacy]]
+*[[Internet privacy]]
+*[[Encryption]]
+*[[Privacy]]
+*[[Proxy server]]
+*[[Metadata removal tool]]
+*[[Privacy engineering]]
+*[[Privacy-enhancing technologies]]
+
+===Software===
+*[[GNU Privacy Guard]] (GPG)
+*[[Pretty Easy privacy]]
+*[[Portable Firefox]]
+*[[Pretty Good Privacy]] (PGP)
+*[[Secure Shell]] (SSH)
+*[[I2P]]
+*[[Tor (anonymity network)|Tor]]
+*[[uProxy]]
+
+==References==
+{{reflist|30em}}
+
+== External links ==
+* [https://www.resetthenet.org/ Reset The Net]
+* [http://prism-break.org/en/ PRISM Break]
+* [https://www.cryptoparty.in/learn/how-tos Tutorials for privacy tools], by [[CryptoParty]]
+
+{{DEFAULTSORT:Privacy Software}}
+[[Category:Privacy|Software]]
+[[Category:Privacy software| ]]

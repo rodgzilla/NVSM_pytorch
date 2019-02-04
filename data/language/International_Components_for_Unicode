@@ -1,0 +1,73 @@
+{{Infobox software
+| name = International Components for Unicode
+| title = 
+| logo = <!-- [[File: ]] -->
+| logo caption = 
+| screenshot = <!-- [[File: ]] -->
+| caption = 
+| collapsible = 
+| author = 
+| developer = [[IBM]] and many other companies.
+| released = 1999<!-- {{Start date|YYYY|MM|DD|df=yes/no}} -->
+| discontinued = 
+| latest release version = 61.1 (and 60.2)
+| latest release date = {{Start date and age|2018|03|26|df=yes/no}}
+| latest preview version = 
+| latest preview date = <!-- {{Start date and age|YYYY|MM|DD|df=yes/no}} -->
+| status = 
+| programming language = [[C (programming language)|C]]/[[C++]] and [[Java (programming language)|Java]]
+| operating system = [[Cross-platform]]
+| platform = 
+| size = 
+| language = 
+| language count = <!-- DO NOT include this parameter unless you know what it does -->
+| language footnote = 
+| genre = [[Library (computer science)|libraries]] for [[Unicode]] and [[Internationalization and localization|internationalization]]
+| license = [http://source.icu-project.org/repos/icu/icu/tags/latest/LICENSE Unicode License]
+| alexa = 
+| website = {{URL|www.icu-project.org}}
+| standard = 
+| AsOf = 
+}}
+
+'''International Components for Unicode''' ('''ICU''') is an [[open-source software|open-source]] project of mature [[C (programming language)|C]]/[[C++]] and [[Java (programming language)|Java]] libraries for [[Unicode]] support, software [[Internationalization and localization|internationalization]], and software globalization. ICU is widely portable to many operating systems and environments. It gives applications the same results on all platforms and between C, C++, and Java software. The ICU project is sponsored, supported, and used by [[IBM]] and many other companies.<ref>[http://site.icu-project.org/home#TOC-What-is-ICU- ICU homepage - What is ICU?]</ref>
+
+ICU provides the following services: [[Unicode]] text handling, full character properties, and [[character set]] conversions; Unicode [[regular expression]]s; full Unicode sets; character, word, and line boundaries; language-sensitive [[collation]] and searching; [[unicode normalization|normalization]], upper and lowercase conversion, and script [[transliteration]]s; comprehensive [[Locale (computer software)|locale]] data and resource bundle architecture via the [[Common Locale Data Repository]] (CLDR); multi-[[calendar]] and [[time zone]]s; and rule-based formatting and parsing of dates, times, numbers, currencies, and messages. ICU provided [[complex text layout]] service for Arabic, Hebrew, Indic, and Thai historically, but that was deprecated in version 54, and was completely removed in version 58 in favor of [[HarfBuzz]].<ref>[http://userguide.icu-project.org/layoutengine Layout Engine - ICU User Guide]</ref>
+
+ICU provides more extensive internationalization facilities than the standard libraries for C and C++. ICU 62 supports [[Unicode 11.0]], and older versions supports Unicode 10.0, but not for older platforms such as [[Windows XP]], [[Windows Vista]], [[IBM AIX|AIX]], [[Solaris (operating system)|Solaris]], or [[z/OS]].
+
+ICU has historically used [[UTF-16]], and still does only for Java; while for C/C++ [[UTF-8]] is supported,<ref>{{Cite web|url=http://userguide.icu-project.org/strings/utf-8|title=UTF-8 - ICU User Guide|website=userguide.icu-project.org|access-date=2018-04-03}}</ref> including the correct handling of "illegal UTF-8".<ref>{{Cite web|url=http://bugs.icu-project.org/trac/ticket/13311|title=#13311 (change illegal-UTF-8 handling to Unicode "best practice") |website=bugs.icu-project.org|access-date=2018-04-03}}</ref>
+
+==Origin and development==
+After [[Taligent]] became part of [[IBM]] in early 1996, [[Sun Microsystems]] decided that the new Java language should have better support for internationalization. Since Taligent had experience with such technologies and were close geographically, their Text and International group were asked to contribute the international classes to the [[Java Development Kit]] as part of the [[JDK]] 1.1 internationalization [[API]]s.<ref>{{cite web |url=http://www.icu-project.org/docs/papers/history_of_java_internationalization.html | title=Getting Java ready for the world: A brief history of IBM and Sun's internationalization efforts |author=Laura Werner |year=1999}}</ref> A large portion of this code still exists in the {{Javadoc:SE|package=java.text|java/text}} and {{Javadoc:SE|package=java.util|java/util}} packages. Further internationalization features were added with each later release of Java.
+
+The Java internationalization classes were then ported to C++ and C<ref>{{cite web |url=http://userguide.icu-project.org |title=ICU User Guide}}</ref> as part of a library known as ICU4C ("ICU for C"). The ICU project also provides ICU4J ("ICU for Java"), which adds features not present in the standard Java libraries. ICU4C and ICU4J are very similar, though not identical; for example, ICU4C includes a Regular Expression API, while ICU4J does not. Both frameworks have been enhanced over time to support new facilities and new features of Unicode and [[Common Locale Data Repository]] (CLDR).
+
+ICU was released as an open source project in 1999 under the name IBM Classes for Unicode. It was later renamed to International Components For Unicode.<ref>{{cite web |url=http://site.icu-project.org/projectinfo | title=ICU Project Management Committee}}</ref> In May, 2016, the ICU project joined the Unicode consortium as technical committee ''ICU-TC'', and the library sources are now distributed under the Unicode license.<ref>{{cite web|url=http://blog.unicode.org/2016/05/icu-joins-unicode-consortium.html|title=ICU joins the Unicode Consortium|date=2016-05-16|publisher=[[Unicode|Unicode, Inc.]]|accessdate=2016-08-01}}</ref>
+
+==See also==
+* [[Apple Advanced Typography]]
+* [[Apple Type Services for Unicode Imaging]]
+* [[GNU gettext|GNU GetText]]
+* [[Graphite (SIL)]]
+* [[NetRexx]] (ICU license)
+* [[OpenType]]
+* [[Pango]]
+* [[Uconv]]
+* [[Uniscribe]]
+
+==References==
+{{Reflist|30em}}
+
+==External links==
+* {{Official website|www.icu-project.org}}
+* [http://demo.icu-project.org/icu-bin/translit/ International Components for Unicode transliteration services] [http://www.icu-project.org/userguide/Transform.html ICU User Guide: Transforms]
+
+{{Unicode navigation}}
+
+[[Category:Unicode]]
+[[Category:Component-based software engineering]]
+[[Category:Digital typography]]
+[[Category:Pattern matching]]
+[[Category:Internationalization and localization]]
+[[Category:Free computer libraries]]

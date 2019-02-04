@@ -1,0 +1,271 @@
+{{peacock|date=November 2018}}
+{{update|date=November 2018}}
+{{more footnotes|date=June 2012}}
+[[File:Evolution computer 1960-2010-fr.jpg|thumb|An (expected) evolution of computing from 1960–2010]]
+In [[computing]], '''ambient intelligence''' ('''AmI''') refers to electronic environments that are sensitive and responsive to the presence of people. Ambient intelligence is a [[Futures studies|vision]] on the future of [[consumer electronics]], [[telecommunications]] and [[computing]] that was originally developed in the late 1990s by [[Eli Zelkha]] and his team at Palo Alto Ventures for the time frame 2010–2020.<ref>{{cite journal|url=https://www.academia.edu/1080720|title=Ambient Intelligence: an innovation narrative|journal=Lancs.ac.uk|first=Michael|last=Arribas-Ayllon}}</ref><ref>{{cite book|url=https://books.google.com/?id=JfeAlyQX4gYC&pg=PA6&lpg=PA6&dq=pieper%20digital%20living%20room#v=onepage&q=pieper%20digital%20living%20room&f=false|title=True Visions: The Emergence of Ambient Intelligence|first1=Emile H. L.|last1=Aarts|first2=José Luis|last2=Encarnação|date=13 December 2006|publisher=Springer|via=Google Books|isbn=9783540289746}}</ref><ref>{{cite journal|url=https://www.researchgate.net/publication/273316307|title=The Internet of Things and Convenience (PDF Download Available)|journal=Internet Research|volume=26|issue=2|pages=360–376|doi=10.1108/IntR-03-2014-0082|year=2016|last1=Nolin|first1=Jan|last2=Olson|first2=Nasrine}}</ref><ref>{{cite web|url=http://semiengineering.com/kc/knowledge_center/Ambient-Intelligence/186|title=Ambient Intelligence Knowledge Center .: SemiEngineering.com|publisher=}}</ref> In an ambient intelligence world, devices work in concert to support people in carrying out their everyday life activities, tasks and rituals in an easy, natural way using information and intelligence that is hidden in the network connecting these devices (for example: The [[Internet of Things]]). As these devices grow smaller, more connected and more integrated into our environment, the technology disappears into our surroundings until only the user interface remains perceivable by users.
+
+The ambient intelligence paradigm builds upon [[pervasive computing]], [[ubiquitous computing]], [[profiling (information science)|profiling]], [[context awareness]], and [[Human-centered computing|human-centric computer]] interaction design, of which, is characterized by systems and technologies that are:<ref>Brian Epstein, Digital Living Room Conference Keynote 1998, (17 June 1998: revised script) https://epstein.org/ambient-intelligence/ accessed 14/12/17</ref>
+* [[embedded system|embedded]]: many networked devices are integrated into the environment
+* [[Context awareness|context aware]]: these devices can recognize you and your situational context
+* [[personalization|personalized]]: they can be tailored to your needs
+* [[adaptive behavior|adaptive]]: they can change in response to you
+* [[anticipation (artificial intelligence)|anticipatory]]: they can anticipate your desires without conscious mediation.
+
+A typical context of ambient intelligence environment is home, but may also be extended to work spaces (offices, coworking), public spaces (based on technologies such as [[Intelligent street lighting|smart street lights]]), and hospital environments.<ref>{{Cite web|url=https://www.ercim.eu/publication/Ercim_News/enw47/bielikova.html|title=Ambient Intelligence within a Home Environment|website=www.ercim.eu|access-date=2017-12-14}}</ref>
+
+== Overview ==
+More and more people make decisions based on the effect their actions will have on their own inner, mental world.{{vague|date=January 2012}}  This experience-driven way of acting is a change from the past when people were primarily concerned about the use value of products and services,{{Dubious|Dubious|date=January 2012}} and is the basis for the [[experience economy]]. Ambient intelligence addresses this shift in existential view by emphasizing people and user experience.
+
+The interest in user experience also grew in importance in the late 1990s because of the overload of products and services in the information society that were difficult to understand and hard to use. An urge emerged to design things from a user's point of view. Ambient intelligence is influenced by [[user-centered design]] where the user is placed in the center of the design activity and asked to give feedback through specific [[User experience evaluation|user evaluations]] and tests to improve the design or even co-create the design with the designer ([[participatory design]]) or with other users ([[end-user development]]).
+
+In order for AmI to become a reality a number of key technologies are required:
+* Unobtrusive hardware ([[miniaturization]], [[nanotechnology]], smart devices, sensors etc.)
+* Seamless mobile/fixed communication and computing infrastructure ([[interoperability]], wired and [[wireless]] networks, [[service-oriented architecture]], [[Semantic Web|semantic web]] etc.)
+* Dynamic and massively distributed device networks, which are easy to control and program (e.g. [[service discovery]], [[auto-configuration]], end-user programmable devices and systems etc.)
+* Human-centric computer interfaces ([[intelligent agents]], [[multimodal interaction]], [[context awareness]] etc.)
+* Dependable and secure systems and devices (self-testing and self repairing software, [[privacy]] ensuring technology etc.)
+
+==History and invention==
+In 1998, the board of management of Philips commissioned a series of presentations and internal workshops, organized by [[Eli Zelkha]] and Brian Epstein of Palo Alto Ventures (who, with [[Simon Birrell]], coined the term 'ambient intelligence') to investigate different scenarios that would transform the high-volume consumer electronic industry from the current "fragmented with features" world into a world in 2020 where user-friendly devices support ubiquitous information, communication and entertainment.<ref>{{cite journal|url=http://www.diva-portal.org/smash/get/diva2:845301/FULLTEXT02|title=Semantic web, ubiquitous computing, or internet of things? A macro-analysis of scholarly publications|date=2015|journal=Journal of Documentation|volume=71|issue=5|pages=884–916|doi=10.1108/JD-03-2013-0033|last=Olson|first=Nasrine|last2=Nolin|first2=Jan|last3=Nelhans|first3=Gustaf}}</ref> While developing the ambient intelligence concept, Palo Alto Ventures created the keynote address for Roel Pieper of Philips for the Digital Living Room Conference, 1998.<ref>{{cite book|url=https://books.google.com/?id=JfeAlyQX4gYC&pg=PA6&lpg=PA6&dq=roel%20pieper%20ambient%20intelligence#v=onepage&q=roel%20pieper%20ambient%20intelligence&f=false|title=True Visions: The Emergence of Ambient Intelligence|first1=Emile H. L.|last1=Aarts|first2=José Luis|last2=Encarnação|date=13 December 2006|publisher=Springer|via=Google Books|isbn=9783540289746}}</ref> The group included Eli Zelkha, Brian Epstein, Simon Birrell, Doug Randall, and Clark Dodsworth. In the years after, these developments grew more mature. In 2005, Philips joined the Oxygen alliance, an international consortium of industrial partners within the context of the [[Massachusetts Institute of Technology|MIT]] Oxygen project,<ref>{{cite web|url=http://www.oxygen.lcs.mit.edu |title=MIT Project Oxygen |publisher=Computer Science and Artificial Intelligence Laboratory |accessdate=2012-06-27}}</ref> aimed at developing technology for the computer of the 21st century. In 2000, plans were made to construct a feasibility and usability facility dedicated to ambient intelligence. This HomeLab officially opened on 24 April 2002.
+
+Along with the development of the vision at Philips, a number of parallel initiatives started to explore ambient intelligence in more detail. Following the advice of the Information Society and Technology Advisory Group ([[ISTAG]]), the [[European Commission]] used the vision for the launch of their sixth framework (FP6) in Information, Society and Technology (IST), with a subsidiary budget of 3.7 billion euros. The European Commission played a crucial role in the further development of the AmI vision. As a result of many initiatives the AmI vision gained traction. During the past few years several major initiatives have been started. [[Fraunhofer Society]] started several activities in a variety of domains including multimedia, [[microsystem]]s design and augmented spaces. MIT started an ambient intelligence research group at their Media Lab.<ref>{{cite web |url=http://ambient.media.mit.edu/ |title=Fluid Interfaces Group |publisher=MIT Media Lab |accessdate=2012-06-27 |archive-url=https://web.archive.org/web/20120510050536/http://ambient.media.mit.edu/ |archive-date=2012-05-10 |dead-url=yes |df= }}</ref> Several more research projects started in a variety of countries such as the US, Canada, Spain, France and the Netherlands. Since 2004, the European Symposium on Ambient Intelligence (EUSAI) and many other conferences have been held that address special topics in AmI.
+
+==Criticism==
+
+As far as dissemination of information on personal presence is out of control, ambient intelligence vision is subject of criticism (e.g. David Wright, Serge Gutwirth, Michael Friedewald et al., Safeguards in a World of Ambient Intelligence, Springer, Dordrecht, 2008).
+Any immersive, personalized, context-aware and anticipatory characteristics brings up societal, political and cultural concerns about the loss of [[privacy]].  The example scenario above shows both the positive and negative possibilities offered by ambient intelligence.  However, it should be noted that applications of ambient intelligence do not necessarily have to reduce privacy in order to work.{{Citation needed|date=March 2018}}
+
+Power concentration in large organizations, a fragmented, decreasingly private society and [[Hyperreality|hyperreal]] environments where the virtual is indistinguishable from the real are the main topics of critics.<ref>{{Cite news|url=https://www.clickz.com/no-ads-on-orkut-but-apps-may-come/88217/|title=No Ads on Orkut, but  Come|date=2007-10-08|work=ClickZ|access-date=2017-12-14|language=en-US}}</ref> Several research groups and communities are investigating the socioeconomic, political and cultural aspects of ambient intelligence. New thinking on AmI distances itself therefore from some of the original characteristics such as adaptive and anticipatory behaviour and emphasizes empowerment and participation to place control in the hands of people instead of organizations.{{Citation needed|date=March 2018}}
+
+==Social and political aspects==
+The [[Framework Programmes for Research and Technological Development|ISTAG]] advisory group suggests that the following characteristics will permit the societal acceptance of ambient intelligence.
+
+AmI should...
+* facilitate human contact.
+* be oriented towards community and cultural enhancement.
+* help to build knowledge and skills for work, better quality of work, citizenship and consumer choice.
+* inspire trust and confidence.
+* be consistent with long term sustainability—personal, societal and environmental—and with lifelong learning.
+* be made easy to live with and controllable by ordinary people.
+
+==Business models==
+The ISTAG group acknowledges the following entry points to AmI business landscape:
+* Initial premium value niche markets in industrial, commercial or public applications where enhanced interfaces are needed to support human performance in fast moving or delicate situations.
+* Start-up and spin-off opportunities from identifying potential service requirements and putting the services together that meet these new needs.
+* High access-low entry cost based on a loss leadership model in order to create economies of scale (mass customization).
+* Audience or customer's attention economy as a basis for 'free' end-user services paid for by advertising or complementary services or goods.
+* Self-provision—based upon the network economies of very large user communities providing information as a gift or at near zero cost (e.g. social networking applications).
+* The combination of multiple and diverse datasets in a platform for sense-making and understanding consumer behaviour (e.g. [[Near (company)|Near]]).
+
+== Technologies ==
+A variety of technologies can be used to enable Ambient intelligence environments such as {{Harv|Gasson|Warwick|2007}}:
+* [[Bluetooth Low Energy]]
+*[[Radio-frequency identification|RFID]]
+*[[Microchip implant (human)|Microchip implant]]
+* [[Sensor]]s: Ambient light sensor ([[photodetector]]), [[Thermometer|thermometers]], [[Proximity sensor|proximity sensors]] and [[Motion detector|motion detectors]]
+*[[Software agent|Software agents]]
+* [[Affective computing]]
+* [[Nanotechnology]]
+* [[Biometrics]]
+
+== Computing ==
+This means of computing links all pieces of technology together. This also allows the device to have the capability to remember past requests.<ref>{{Cite journal|last=Raisinghani|first=Mahesh S.|last2=Benoit|first2=Ally|last3=Ding|first3=Jianchun|last4=Gomez|first4=Maria|last5=Gupta|first5=Kanak|last6=Gusila|first6=Victor|last7=Power|first7=Daniel|last8=Schmedding|first8=Oliver|date=2006-03-30|title=Ambient Intelligence: Changing Forms of Human-Computer Interaction and their Social Implications|url=https://journals.tdl.org/jodi/index.php/jodi/article/view/149|journal=Journal of Digital Information|language=en|volume=5|issue=4|issn=1368-7506}}</ref>
+
+== Uses in fiction ==
+* [[Minority Report (film)|''Minority Report'' (2002 film)]]. One scene illustrates adaptive [[advertising]] in the future: consumers are identified via retinal scans, and receive targeted ads {{Harv|Parker|2002}}.
+* ''[[The Hitchhiker's Guide to the Galaxy]]'' by [[Douglas Adams]]. The doors have emotion, and express this when people use them.
+** See also: [[Technology in The Hitchhiker's Guide to the Galaxy|Technology in ''The Hitchhiker's Guide to the Galaxy'']]
+* ''[[The Diamond Age]]'' by [[Neal Stephenson]], depicts a world completely changed by the full development of [[nanotechnology]] that is present everywhere.
+* [[Her (film)|''Her'' (2013 film)]]. The opening scene depicts the protagonist commuting home, upon arriving the various lights throughout the apartment are turned on as the character moves through the rooms ([[Lighting control system|automated lighting control]]). A later scene shows that an artificial entity can also control these systems, changing a song being played in the background to lighten a situation, and for humorous effect.
+
+==Research groups==
+Several research groups have been founded to tackle the question of the manifestations of ambient intelligence—what can be done and what will the actions most probably result in:
+
+* Ambient Intelligence Group, CITEC, Bielefeld University.<ref>{{cite web|url=http://www.cit-ec.de/ami|title=Ambient Intelligence Group - CITEC|website=www.cit-ec.de}}</ref>
+* Ambient Intelligence Laboratory, [[National University of Singapore]].<ref>{{cite web|url=http://ami-lab.org|title=Ambient Intelligence Laboratory – Test bed for Innovations|website=ami-lab.org}}</ref>
+* Ambient Intelligence Research Group, [[Ulster University]], UK.<ref>{{Cite web |url=http://isrc.ulster.ac.uk/ambient-intelligence-team/ambient-intelligence-team.html |title=Archived copy |access-date=2015-06-16 |archive-url=https://web.archive.org/web/20140401023633/http://isrc.ulster.ac.uk/ambient-intelligence-team/ambient-intelligence-team.html |archive-date=2014-04-01 |dead-url=yes |df= }}</ref>
+* Artificial Intelligence Group in the Informatics Department, [[University of Minho]], Portugal.<ref>{{Cite web |url=http://gia1.di.uminho.pt/gia |title=Archived copy |access-date=2009-03-29 |archive-url=https://web.archive.org/web/20090217221551/http://gia1.di.uminho.pt/gia/ |archive-date=2009-02-17 |dead-url=yes |df= }}</ref>
+* AMBIT research group – e-lab, Artesis University College of Antwerp, Belgium.<ref>{{Cite web |url=http://www.artesis.be/iw/elab/ |title=Archived copy |access-date=2011-08-25 |archive-url=https://web.archive.org/web/20110823084655/http://www.artesis.be/iw/elab/ |archive-date=2011-08-23 |dead-url=yes |df= }}</ref>
+* Agent Systems Research Group, [[VU University Amsterdam|Free University of Amsterdam]], NL<ref>{{cite web|url=http://www.cs.vu.nl/en/sec/ai/asr/index.html|title=VU Behavioural Informatics|website=www.cs.vu.nl}}</ref>
+*[[Alcatel-Lucent]] Research & Innovation. Ambient Services Group.<ref>{{cite web|url=http://www.alcatel-lucent.com/|title=Homepage|date=2 September 2015|publisher=}}</ref>
+*[[Ajou University]], CUSLAB – Well-Being Life Care Research<ref>{{cite web|url=http://www.cuslab.com/|title=万博体育manbetx-万博娱乐-意甲官网万博manbetx|website=www.cuslab.com}}</ref>
+* AmIVital – Spanish project to develop intelligent services for elderly and disabled<ref>{{Cite web|url=http://www.amivital.es|title=Guía sobre el embarazo, bebés y educación infantil|website=embarazoymas.net|language=es|access-date=2018-10-13}}</ref>
+*[[Autonomous University of Barcelona]] – CAIAC<ref>{{cite web|url=http://centresderecerca.uab.cat/caiac/|title=Inici - Centre d'Accessibilitat i Intel·ligència Ambiental de Catalunya (CaiaC)|website=centresderecerca.uab.cat}}</ref>
+*[[Autonomous University of Madrid]] – AmiLab<ref>{{Cite web|url=http://amilab.ii.uam.es/|title=Ambient Intelligence Laboratory|website=amilab.ii.uam.es|language=en|access-date=2018-10-13}}</ref>
+*[[Charles III University of Madrid|Carlos III University of Madrid]] – Applied Artificial Intelligence Group (GIAA)<ref>[http://www.giaa.inf.uc3m.es]</ref>
+*[[Carnegie Mellon University]]. CyLab – Ambient Intelligence Lab<ref>{{cite web|url=http://www.cmu.edu/vis/|title=Visual Intel Studio (VIS)|website=www.cmu.edu}}</ref>
+* DAI – [[Domotics]] and Ambient Intelligence, [[University of Alicante]] (Spain)<ref>{{cite web|url=http://web.ua.es/dai|title=Research group|first=Research group. Universidad de|last=Alicante|website=web.ua.es}}</ref>
+* MORElab – Envisioning Future Internet, [[University of Deusto]], Spain<ref>{{cite web|url=http://www.morelab.deusto.es|title=MORElab|website=www.morelab.deusto.es}}</ref>
+*[[Fraunhofer Institute]]: 
+**Ambient Assisted Living<ref>[http://www.iese.fraunhofer.de/fhg/iese/research/ami/ami.jsp]</ref>
+** InHaus<ref>{{cite web|url=http://www.inhaus-zentrum.de/site_de/|title=Das Inhaus Zentrum testet|website=www.inhaus-zentrum.de|access-date=2007-06-29|archive-url=https://web.archive.org/web/20090228105046/http://www.inhaus-zentrum.de/site_de/|archive-date=2009-02-28|dead-url=yes|df=}}</ref>
+* Pervasive, Ubiquitous & Mobile Applications (PUMA) Lab – [[Heriot-Watt University]], Edinburgh, Scotland<ref>{{Cite web|url=http://www.macs.hw.ac.uk/puma/|title=PUMA Lab|website=www.macs.hw.ac.uk|access-date=2018-10-13}}</ref>
+*[[Hydra Project (EU Project)|Hydra]] – European research project on ambient intelligence [[middleware]]<ref>{{cite web|url=http://www.hydramiddleware.eu/|title=The Hydra project - News|website=www.hydramiddleware.eu}}</ref>
+* iHomeLab Living Lab, [[Lucerne University of Applied Sciences]]<ref>{{Cite web|url=http://www.iHomeLab.ch/|title=iHomeLab|website=Hochschule-Luzern|language=de|access-date=2018-10-13}}</ref>
+* iAMEA, [[International Ambient Media Association]]<ref>{{cite web|url=http://www.ambientmediaassociation.org/|title=Series and Journal of the International Ambient Media Association (iAMEA)|website=www.ambientmediaassociation.org}}</ref>
+*Intelligent Environments Research Group, [[University of Essex]] (UK).<ref>{{Cite web|url=http://ieg.essex.ac.uk|title=Intelligent Environments Research Group – @ University of Essex|website=ieg.essex.ac.uk|language=en-US|access-date=2018-10-13}}</ref>
+* Department of Intelligent Systems, [[Jožef Stefan Institute]], Slovenia<ref>{{cite web|url=http://dis.ijs.si/|title=Department of Intelligent Systems - Jožef Stefan Institute|website=dis.ijs.si}}</ref>
+*[[Kingston University, London|Kingston University London]], Ambient Intelligence Research Group<ref>{{Cite web |url=http://www.ambientintelligence.net/ |title=Archived copy |access-date=2007-06-29 |archive-url=https://web.archive.org/web/20090626074128/http://www.ambientintelligence.net/ |archive-date=2009-06-26 |dead-url=yes |df= }}</ref>
+* LIMSI-CNRS, Laboratoire d'Informatique pour la Mécanique et les Sciences de l'Ingénieur<ref>[http://iroom.limsi.fr]{{Dead link|date=October 2018 |bot=InternetArchiveBot |fix-attempted=yes }}</ref>
+* MAmI – Modeling Ambient Intelligence – UCLM, Spain<ref>[http://mami.uclm.es]</ref>
+* MIMOSA project – Microsystem Platform for Mobile Services & Application<ref>{{Cite web |url=http://www.mimosa-fp6.com/ |title=Archived copy |access-date=2018-10-14 |archive-url=https://web.archive.org/web/20160804035320/http://www.mimosa-fp6.com/ |archive-date=2016-08-04 |dead-url=yes |df= }}</ref>
+* MINAmI project – MIcro-Nano integrated platform for transverse Ambient Intelligence applications<ref>{{Cite web |url=http://www.fp6-minami.org/ |title=Archived copy |access-date=2009-03-29 |archive-url=https://web.archive.org/web/20080229010153/http://www.fp6-minami.org/ |archive-date=2008-02-29 |dead-url=yes |df= }}</ref>
+* MERL, Ambient Intelligence for Better Buildings<ref>{{cite web|url=http://www.merl.com/projects/ulrs/|title=redirect|website=www.merl.com}}</ref>
+* MESH Cities – A project researching and distributing information about the future of [[Smart city|smart]], livable cities<ref>{{cite web|url=http://meshcities.com/|title=MESH Cities|website=MESH Cities}}</ref>
+*[[MIT Media Lab]], Ambient Intelligence group<ref>{{Cite web |url=http://ambient.media.mit.edu/ |title=Archived copy |access-date=2006-11-05 |archive-url=https://web.archive.org/web/20120510050536/http://ambient.media.mit.edu/ |archive-date=2012-05-10 |dead-url=yes |df= }}</ref>
+* e-Lite Research Group, [[Polytechnic University of Turin]], Italy<ref>{{cite web|url=http://elite.polito.it/|title=e-Lite: Intelligent and Interactive Systems|website=elite.polito.it}}</ref>
+*[[University of Palermo]], Department of Computer Engineering, Distributed Artificial Intelligence group<ref>{{Cite web |url=http://www.dinfo.unipa.it/en?0 |title=Archived copy |access-date=2009-03-29 |archive-url=https://web.archive.org/web/20080624235712/http://www.dinfo.unipa.it/en?0 |archive-date=2008-06-24 |dead-url=yes |df= }}</ref>
+* NTT Research, Ambient Intelligence Research Group<ref>{{Cite web |url=http://www.brl.ntt.co.jp/cs/kikang/index.html |title=Archived copy |access-date=2007-06-29 |archive-url=https://web.archive.org/web/20070623102431/http://www.brl.ntt.co.jp/cs/kikang/index.html |archive-date=2007-06-23 |dead-url=yes |df= }}</ref>
+*[[Philips Research]], Ambient Intelligence Research in ExperienceLab<ref>{{cite web|url=http://www.research.philips.com/technologies/syst_softw/ami/|title=Meet Philips Research - Research - Philips|publisher=}}</ref>
+*[[University of Reading]], Ambient & Pervasive Intelligence Research group<ref>[http://www.api.reading.ac.uk/]</ref>
+* SERENITY Security & Dependability in AmI<ref>{{Cite web|url=http://www.serenity-project.org/|title=ジュエリー買取激戦区である東京 - 東京でジュエリーを高く買取してもらう方法|website=東京でジュエリーを高く買取してもらう方法|language=ja-JP|access-date=2018-10-13}}</ref>
+* Smart Environment Research Group, Ulster University<ref>{{cite web|url=http://scm.ulster.ac.uk/~scmresearch/SERG/|title=Smart Environments Research Group|first=Ulster|last=University|date=9 February 2017|publisher=}}</ref>
+* SeNSe Lab, Sensor Network and Smart Environment Lab, [[Auckland University of Technology]], New Zealand<ref>{{cite web|url=http://sense.aut.ac.nz/|title=SeNSe Labs|website=sense.aut.ac.nz}}</ref>
+* SWAMI – Safeguards in a World of Ambient Intelligence<ref>{{Cite web |url=http://swami.jrc.es/pages/index.htm |title=Archived copy |access-date=2007-06-29 |archive-url=https://web.archive.org/web/20070928111046/http://swami.jrc.es/pages/index.htm |archive-date=2007-09-28 |dead-url=yes |df= }}</ref>
+* SERCO – Contextual Services Group in the Information Technologies and Communications Department, Technical University of Cartagena<ref>[http://ait.upct.es/serco]{{Dead link|date=October 2018 |bot=InternetArchiveBot |fix-attempted=yes }}</ref>
+* EMMi Lab, Tampere University of Technology (formerly New AMbient Multimedia Research (NAMU) Lab)<ref>[http://namu.tut.fi/emmi]{{Dead link|date=October 2018 |bot=InternetArchiveBot |fix-attempted=yes }}</ref>
+* GECAD – Knowledge Engineering and Decision Support Research Center<ref>{{cite web|url=http://www.gecad.isep.ipp.pt/|title=GECAD|website=www.gecad.isep.ipp.pt}}</ref>
+* CETpD – [[CETpD|Technical Research Center for Dependency Care and Autonomous Living]]<ref>[http://www.upc.edu/cetpd/]</ref>
+* GREC – Qualitative Reasoning and Learning Systems Research Group
+* LST – Life Supporting Technologies<ref>{{cite web|url=http://www.lst.tfo.upm.es/|title=LifeSTech|website=LifeSTech}}</ref>
+* OSAmI-Commons. Open Ambient Intelligence<ref>{{cite web|url=http://www.osami-commons.org|title=雪原の風俗|website=www.osami-commons.org}}</ref>
+* Vellore Institute of Technology – AMIR<ref>{{cite web|url=http://sites.google.com/site/netresearchforum/net-research-labs/projects/ambient-intelligence-and-advanced-networking|title=Ambient Intelligence and Advanced Networking Research (AMIR) - Net Research Labs|website=sites.google.com}}</ref>
+
+== See also ==
+* [[Ambient media]]
+* [[Augmented reality]]
+* [[Context awareness]]
+* [[Context-aware pervasive systems]]
+* [[Cyborg]]
+* [[Internet of Things]]
+** [[Edge computing]]
+* [[Mobile computing]]
+* [[PositiveID]]
+* [[RFID]]
+* [[Sensor]]
+* [[Smart, connected products]]
+* [[Ubiquitous computing]]
+* [[Wireless sensor network]]
+
+== References ==
+{{reflist}}
+*{{Citation
+ | last=Zelkha | first=Eli
+ | last2=Epstein | first2=Brian 
+ | last3=Birrell | first3=Simon
+ | last4=Dodsworth | first4=Clark
+ | date=1998
+ | title=From Devices to "Ambient Intelligence"
+ | publication-date=June 1998
+ | journal=Digital Living Room Conference
+ | url=http://www.epstein.org/brian/ambient_intelligence/DLR%20Final%20Internal.ppt
+}}
+*{{Citation
+ | last=Aarts | first=Emile
+ | last2=Harwig | first2=Rick
+ | last3=Schuurmans | first3=Martin
+ | date=2007
+ | title=chapter "Ambient Intelligence" in The Invisible Future: The Seamless Integration Of Technology Into Everyday Life
+ | publisher=McGraw-Hill Companies
+}}
+*{{Citation
+ | last=Aarts | first=Emile
+ | last2=Marzano| first2=Stefano
+ | date=2003
+ | title=The New Everyday: Visions of Ambient Intelligence
+ | publisher=010 Publishers
+}}
+*{{Citation
+ | last=Bieliková | first=Mária
+ | last2=Krajcovic | first2=Tibor 
+ | date=2001
+ | title=Ambient Intelligence within a Home Environment
+ | publication-date=October 2001
+ | journal=ERCIM News | issue=47
+ | url=http://www.ercim.org/publication/Ercim_News/enw47/bielikova.html
+}}
+*{{Citation
+ | last=Parker | first=Pamela
+ | date=2002
+ | title=Interactive Ads Play Big Role in "Minority Report"
+ | publication-date=June 21, 2002
+ | journal=ClickZ
+ | url=http://www.clickz.com/1369861
+}}
+*{{Citation
+ | last=Gasson| first=Mark
+ | last2=Warwick| first2=Kevin
+ | author2-link=Kevin Warwick
+ | date=2013
+ | title=D12.2: Study on Emerging AmI Technologies
+ | journal=FIDIS Deliverables
+ | volume=12 | issue=2
+ | url=http://www.fidis.net/resources/deliverables/hightechid/#c1869
+}}
+
+==Sources and further reading==
+* AMEA – Ambient Media Association [http://www.ambientmediaassociation.org] – multidisciplinary association for developing an interdisciplinary viewpoint towards ambient media
+* [http://www.ambientmediaassociation.org/Journal/index.php/series/issue/archive Proceedings of the Semantic Ambient Media Workshop Series (iAMEA)]
+* Eli Zelkha and Brian Epstein [http://www.epstein.org/brian/ambient_intelligence.htm] – first use and definition of '''ambient intelligence'''
+* Malcolm McCullough, Digital Ground: Architecture, Pervasive Computing, and Environmental Knowing, MIT Press, 2005
+* X. Wang, J. S. Dong, C. Chin, S. R. Hettiarachchi and D. Zhang. Semantic Space: A Semantic Web Infrastructure for Smart Spaces. IEEE Pervasive Computing, 3(3):32-39, July–September 2004
+* B. Guo, D. Zhang, M.Imai. [https://web.archive.org/web/20110904201306/http://www.ayu.ics.keio.ac.jp/members/bingo/research/PUC_Guo.pdf Towards a Cooperative Programming Framework for Context-Aware Applications]. ACM/Springer Journal of Personal and Ubiquitous Computing, Vol. 15, No. 3, pp.&nbsp;221–233, 2011.
+* Emile Aarts, Rick Harwig and Martin Schuurmans, chapter Ambient Intelligence in The Invisible Future: The Seamless Integration Of Technology Into Everyday Life, McGraw-Hill Companies, 2001
+* Emile Aarts, Stefano Marzano (editors), The New Everyday: Visions of Ambient Intelligence, 010 Publishers, 2003
+* [[Adam Greenfield]], Everyware: The Dawning Age of Ubiquitous Computing, New Riders Publishing, 2006
+* Emile Aarts and José Encarnação, True Visions: The Emergence of Ambient Intelligence, Springer, 2006
+* Peter Morville, Ambient Findability: What We Find Changes Who We Become, O'Reilly Media, 2005
+* [[Nicholas Negroponte]], Being Digital, Knopf, 1995
+* Donald Norman, [[The Design of Everyday Things]], Basic Books, 2002
+* Tom Igoe and Dan O'sullivan. Physical Computing: Sensing and Controlling the Physical World with Computers, Course Technology PTR, 2004
+* Joseph Pine and James Gillmore, The Experience Economy: Work is Theatre and Every Business a Stage, Harvard Business School Press, 1999
+* Bryon Reeves and [[Clifford Nass]], [[The Media Equation]]: How People Treat Computers, Television, and New Media Like Real People and Places, University of Chicago Press, 1996
+* Mark Weiser, "The Computer for the Twenty-First Century," Scientific American, pp.&nbsp;94–10, September 1991 [https://web.archive.org/web/20070630213952/http://www.ubiq.com/hypertext/weiser/SciAmDraft3.html]
+* Giuseppe Riva et al. Ambient Intelligence: The Evolution of Technology, Communication and Cognition towards the Future of Human-Computer Interaction, IOS, Amsterdam, The Netherlands, 2005
+* Tim Berners-Lee, Weaving the Web, Harper Collins, San Francisco CA, USA, 1999
+* Yang Cai and Juli Abascal (eds.), Ambient Intelligence in Everyday Life" Springer  Lectures Notes in Computer Science (LNAI 3864), 2006
+*  Yang Cai and Juli Abascal (eds.),  Ambient Intelligence for Scientific Discovery: Foundations, Theories, and Systems, Springer Lectures Notes in Computer Science (LNCS 3345)
+* Dipak Surie, "Egocentric Interaction for Ambient Intelligence", PhD. Thesis, Dept. of Computing Science, Umeå University, Sweden, 2012.
+* Juan C. Augusto and Daniel Shapiro (Eds.). [http://www.iospress.nl/loadtop/load.php?isbn=9781586038007] Advances in Ambient Intelligence.  Volume 164, Frontiers in Artificial Intelligence and Applications (FAIA) series, IOS Press. 2007.
+* Mehul Bhatt and Hans Guesgen (Eds.). [http://arquivo.pt/wayback/20160518070013/http://www.cosy.informatik.uni-bremen.de/stami/stami-2009/proceedings/assets/STAMI-2009-Proceedings.pdf] Proceedings of the 1st International Workshop on: Space, Time and Ambient Intelligence (STAMI 2009). Co-located with the Conference on Spatial Information Theory, 2009 (France). Also published within: Report Series of the Transregional Collaborative Research Center SFB/TR 8 Spatial Cognition, University of Bremen Bremen/ University of Freiburg. SFB/TR 8 Spatial Cognition Report No. 020-08/2009, Bremen, Germany [http://arquivo.pt/wayback/20160518070044/http://www.cosy.informatik.uni-bremen.de/stami/stami-2009/ STAMI 2009].
+* Jürgen Bohn e.a. Social, Economic and Ethical Implications of Ambient Intelligence and Ubiquitous Computing [http://www.vs.inf.ethz.ch/publ/papers/socialambient.pdf].
+* ISTAG Scenarios for Ambient Intelligence in 2010 [ftp://ftp.cordis.lu/pub/ist/docs/istagscenarios2010.pdf]{{Dead link|date=October 2018 |bot=InternetArchiveBot |fix-attempted=yes }}
+* ISTAG Ambient Intelligence: from vision to reality [ftp://ftp.cordis.lu/pub/ist/docs/istag-ist2003_draft_consolidated_report.pdf]{{Dead link|date=October 2018 |bot=InternetArchiveBot |fix-attempted=yes }}
+* JRC/IPTS-ESTO Healthcare Technologies Roadmapping [https://web.archive.org/web/20070928120334/http://esto.jrc.es/docs/HealthcareTechnologiesRoadmapping.pdf]
+* Ambient Intelligence blog [http://ambientintelligence.wordpress.com/] – Blog about news on Ambient Intelligence, wireless sensor networks, and related topics (in Spanish)
+* AmbientIntelligence.org [https://web.archive.org/web/20090207013142/http://www.ambientintelligence.org/] – Website for Ambient Intelligence, e-Health, virtual reality and future technologies in healthcare
+* Architectradure [http://architectradure.blogspot.com/] – Weblog on architecture and design
+* awareIT [http://awareit.com/blog]– News blog about Ambient Intelligence, Ubiquitous Computing and intelligent devices.
+* Digital Experience [http://www.digitalexperience.dk/] – Blog on interaction and experience design.
+* Information Aesthetics [https://web.archive.org/web/20101229143710/http://infosthetics.com/]– Weblog on information visualization
+* Pasta and Vinegar [http://tecfa.unige.ch/perso/staf/nova/blog/] – Weblog about emerging technologies usage/research/ foresight
+* Putting People First [http://www.experientia.com/blog/] – News on user experience, experience design and people-centred innovation
+* José Encarnação (Ed.) et al.: ''Ambient Intelligence – The New Paradigm for Computer Science and for Information Technology''. Special Topic of Journal ''it – Information Technology'', Oldenbourg Verlag, Munich. Vol.50(2008) Issue 1.
+* Wright, David, Serge Gutwirth, Michael Friedewald et al., Safeguards in a World of Ambient Intelligence, Springer, Dordrecht, 2008.
+* Carlos Ramos, Juan Augusto, and Daniel Shapiro (Eds.). [http://csdl2.computer.org/persagen/DLAbsToc.jsp?resourcePath=/dl/mags/ex/&toc=comp/mags/ex/2008/02/mex02toc.xml] Special Issue on Ambient Intelligence. IEEE Intelligent Systems, vol. 23, no. 2, pp.&nbsp;15–18, Mar/Apr, 2008.
+* Juan C. Augusto, Daniel Shapiro and Hamid Aghajan (Eds.). Proceedings of the 3rd Workshop on Artificial Intelligence Techniques for Ambient Intelligence (AITAmI2008), Patras, Greece. 21st–22 July 2008. Co-located event of ECAI 2008.
+* Personal Environment Service [http://ieeexplore.ieee.org/xpls/abs_all.jsp?tp=&arnumber=4109853&isnumber=4109265] – Network architecture for AmI, IEEE Proceedings of Vehicular Technology Conference 2006, VTC-2006 Fall.
+* [[OSAMI|The European ITEA 2 research project OSAMI (Open Source AMbient Intelligence)]]
+* [https://scholar.google.com/citations?user=txyI5aAAAAAJ Benkő, Attila] and Cecilia, Lanyi Sik (2009). ''Ambient Intelligence in Multimeda and Virtual Reality Environments for the rehabilitation''[https://link.springer.com/chapter/10.1007/978-0-387-88777-7_7], Multimedia Techniques for Device and Ambient Intelligence, Springer US, pp.&nbsp;165–177, {{ISBN|978-0-387-88777-7}}, DOI: 10.1007/978-0-387-88777-7_7.
+
+==External links==
+* [http://www.ambientmediaassociation.org SAME Series] – Semantic Ambient Media Series Workshop
+* [http://cindy.informatik.uni-bremen.de/cosy/stami/ STAMI Series] – Space, Time and Ambient Intelligence (STAMI). International Workshop Series.
+* [http://ucami2010.lcc.uma.es/ UCAmI '10] – Symposium of Ubiquitous Computing and Ambient Intelligence – UCAmI
+* [http://www.few.vu.nl/~tbosse/HAI09/ HAI'09] – International Workshop on Human Aspects in Ambient Intelligence
+* [http://www.ami-07.org/ AmI-07] – European Conference on Ambient Intelligence
+* [https://web.archive.org/web/20091216061626/http://www.cosy.informatik.uni-bremen.de/events/cosit09-ami/ COSIT-Space-AmI-09] – Workshop on "Spatial and Temporal Reasoning for Ambient Intelligence Systems"
+* [http://sensami.snic.nl/ambient.php Sensami] – a congress on ambient intelligence.
+* [https://web.archive.org/web/20090116032033/http://www.infj.ulst.ac.uk/~jcaug/aitami08.htm AITAmI] – Workshop on "Artificial Intelligence Techniques for Ambient Intelligence"
+* [http://www.igi-global.com/journals/details.asp?id=7825 IJACI] – The International Journal of Ambient Computing and Intelligence
+* [http://www.iospress.nl/journal/journal-of-ambient-intelligence-and-smart-environments/ JAISE] – The International Journal of Ambient Intelligence and Smart Environments. {{ISSN|1876-1364}}
+* [https://web.archive.org/web/20090718000915/http://www.infj.ulst.ac.uk/~jcaug/FlyerAISE.pdf AISE] – Book Series on Ambient Intelligence and Smart Environments.
+* [http://www.i-o-t.org/ I-o-T.org] – Internet of Things : mainly based on Ambient intelligence
+* [http://intelligentenvironments.org/conferences/ie09 IE'09] – Intelligent Environments Conference 2009
+* [http://www.ami-11.org/ AmI-11] – International Joint Conference on Ambient Intelligent 2011
+* [http://www.ami-12.org/ AmI-12] – International Joint Conference on Ambient Intelligent 2012
+* [http://net-of-things.blogspot.com/ Rethinking The Internet of Things] Nature driven view of M2M cloud communications
+* [http://www.ami-conferences.org/ AmI] – International Joint Conferences on Ambient Intelligent
+{{Ambient intelligence}}
+
+[[Category:Ambient intelligence| ]]

@@ -1,0 +1,103 @@
+[[Image:Paley13.svg|thumb|upright=1.1|The [[Paley graph]] of order 13, a strongly regular graph with parameters srg(13,6,2,3).]]
+{{Graph families defined by their automorphisms}}
+
+In [[graph theory]], a '''strongly regular graph'''  is defined as follows.  Let ''G'' = (''V'', ''E'') be a [[regular graph]] with ''v'' vertices and degree ''k''.  ''G'' is said to be '''strongly regular''' if there are also [[integer]]s λ and μ such that:
+
+* Every two [[adjacent vertices]] have λ common neighbours.
+* Every two non-adjacent vertices have μ common neighbours.
+
+A graph of this kind is sometimes said to be an srg(''v'', ''k'', λ, μ). Strongly regular graphs were introduced by [[Raj Chandra Bose]] in 1963.<ref>https://projecteuclid.org/euclid.pjm/1103035734, R. C. Bose, Strongly regular graphs, partial geometries and partially balanced designs, Pacific
+J. Math 13 (1963) 389–419. (p. 122)</ref>
+
+Some authors exclude graphs which satisfy the definition trivially, namely those graphs which are the disjoint union of one or more equal-sized [[complete graph]]s,<ref>[http://homepages.cwi.nl/~aeb/math/ipm.pdf Brouwer, Andries E; Haemers, Willem H. ''Spectra of Graphs''. p. 101] {{Webarchive|url=https://web.archive.org/web/20120316102909/http://homepages.cwi.nl/~aeb/math/ipm.pdf |date=2012-03-16 }}</ref><ref>Godsil, Chris; Royle, Gordon. ''Algebraic Graph Theory''. Springer-Verlag New York, 2001, p. 218.</ref> and their [[complement graph|complements]], the complete [[multipartite graph]]s with equal-sized independent sets.
+
+The [[complement graph|complement]] of an srg(''v'', ''k'', λ, μ) is also strongly regular. It is an srg(''v'', ''v−k''−1, ''v''−2−2''k''+μ, ''v''−2''k''+λ).
+
+A strongly regular graph is a [[distance-regular graph]] with diameter 2 whenever μ is non-zero.
+
+==Properties==
+
+===Relationship between Parameters===
+The four parameters in an srg(''v'', ''k'', λ, μ) are not independent and must obey the following relation:
+:<math>(v-k-1)\mu = k(k-\lambda-1)</math>
+The above relation can be derived very easily through a counting argument as follows:
+# Imagine the vertices of the graph to lie in three levels. Pick any vertex as the root, in Level 0. Then its ''k'' neighbors lie in Level 1, and all other vertices lie in Level 2.
+# Vertices in Level 1 are directly connected to the root, hence they must have λ other neighbors in common with the root, and these common neighbors must also be in Level 1. Since each vertex has degree ''k'', there are <math>k-\lambda-1</math> edges remaining for each Level 1 node to connect to nodes in Level 2. Therefore, there are <math>k\times(k-\lambda-1)</math> edges between Level 1 and Level 2.
+# Vertices in Level 2 are not directly connected to the root, hence they must have μ common neighbors with the root, and these common neighbors must all be in Level 1. There are <math>(v-k-1)</math> vertices in Level 2, and each is connected to μ nodes in Level 1. Therefore the number of edges between Level 1 and Level 2 is <math>(v-k-1)\times\mu</math>.
+# Equating the two expressions for the edges between Level 1 and Level 2, the relation follows.
+
+===Adjacency Matrix===
+Let ''I'' denote the [[identity matrix]] and let ''J'' denote the [[matrix of ones]], both matrices of order ''v''.  The [[adjacency matrix]] ''A'' of a strongly regular graph satisfies two equations. First:
+:<math>AJ = JA = kJ,</math>
+which is a trivial restatement of the regularity requirement. This shows that ''k'' is an eigenvalue of the adjacency matrix with the all-ones eigenvector. Second is a quadratic equation,
+
+:<math>{A}^{2} = k{I} + \lambda{A} + \mu({J-I-A})</math>
+
+which expresses strong regularity. The ''ij''-th element of the left hand side gives the number of two-step paths from ''i'' to ''j''. The first term of the RHS gives the number of self-paths from ''i'' to ''i'', namely ''k'' edges out and back in. The second term gives the number of two-step paths when ''i'' and ''j'' are directly connected. The third term gives the corresponding value when ''i'' and ''j'' are not connected. Since the three cases are [[mutually exclusive]] and [[collectively exhaustive]], the simple additive equality follows.
+
+Conversely, a graph whose adjacency matrix satisfies both of the above conditions and which is not a complete or null graph is a strongly regular graph.<ref>{{citation|first1=P.J.|last1=Cameron|first2=J.H.|last2=van Lint|title=Designs, Graphs, Codes and their Links|publisher=Cambridge University Press|series=London Mathematical Society Student Texts 22|year=1991|isbn=978-0-521-42385-4|page=37}}</ref>
+
+===Eigenvalues===
+The adjacency matrix of the graph has exactly three [[eigenvalue]]s:
+*''k'', whose [[Multiplicity (mathematics)|multiplicity]] is 1 (as seen above)
+* <math>\frac{1}{2}\left[(\lambda-\mu)+\sqrt{(\lambda-\mu)^2 + 4(k-\mu)}\right],</math> whose multiplicity is <math>\frac{1}{2} \left[(v-1)-\frac{2k+(v-1)(\lambda-\mu)}{\sqrt{(\lambda-\mu)^2 + 4(k-\mu)}}\right]</math>
+* <math>\frac{1}{2}\left[(\lambda-\mu)-\sqrt{(\lambda-\mu)^2 + 4(k-\mu)}\right],</math> whose multiplicity is <math>\frac{1}{2} \left[(v-1)+\frac{2k+(v-1)(\lambda-\mu)}{\sqrt{(\lambda-\mu)^2 + 4(k-\mu)}}\right]</math>
+As the multiplicities must be integers, their expressions provide further constraints on the values of ''v'', ''k'', ''μ'', and ''λ'', related to the so-called ''Krein conditions''.
+
+Strongly regular graphs for which <math>2k+(v-1)(\lambda-\mu) = 0</math> are called [[conference graph]]s because of their connection with symmetric [[conference matrix|conference matrices]]. Their parameters reduce to
+
+::<math>\text{srg}\left(v, \tfrac{1}{2}(v-1), \tfrac{1}{4}(v-5), \tfrac{1}{4}(v-1)\right).</math>
+
+Strongly regular graphs for which <math>2k+(v-1)(\lambda-\mu) \ne 0</math> have integer eigenvalues with unequal multiplicities.
+
+Conversely, a connected regular graph with only three eigenvalues is strongly regular.<ref>Godsil, Chris; Royle, Gordon. ''Algebraic Graph Theory''. Springer-Verlag, New York, 2001, Lemma 10.2.1.</ref>
+
+==Examples==
+* The [[Cycle graph|cycle]] of length 5 is an srg(5, 2, 0, 1).
+* The [[Petersen graph]] is an srg(10, 3, 0, 1).
+* The [[Clebsch graph]] is an srg(16, 5, 0, 2).
+* The [[Shrikhande graph]] is an srg(16, 6, 2, 2) which is not a [[distance-transitive graph]].
+* The ''n''&nbsp;×&nbsp;''n'' square [[rook's graph]], i.e., the line graph of a balanced complete bipartite graph ''K<sub>n,n</sub>'', is an srg(''n''<sup>2</sup>, 2''n''&nbsp;−&nbsp;2, ''n''&nbsp;−&nbsp;2, 2).  The parameters for ''n''=4 coincide with those of the Shrikhande graph, but the two graphs are not isomorphic.
+* The [[line graph]] of a complete graph ''K<sub>n</sub>'' is an srg(<math>\binom{n}{2}, 2(n-2), n-2, 4</math>).
+* The [[Chang graphs]] are srg(28, 12, 6, 4), the same as the line graph of ''K''<sub>8</sub>, but these four graphs are not isomorphic.
+* The [[line graph]] of a [[generalized quadrangle]] GQ(2, 4) is an srg(27, 10, 1, 5). In fact every generalized quadrangle of order (s, t) gives a strongly regular graph in this way: to wit, an srg((s+1)(st+1), s(t+1), s-1, t+1).
+* The [[Schläfli graph]] is an srg(27, 16, 10, 8).<ref>{{MathWorld | urlname=SchlaefliGraph | title=Schläfli graph}}</ref>
+* The [[Hoffman–Singleton graph]] is an srg(50, 7, 0, 1).
+* The [[Sims-Gewirtz graph]] is an (56, 10, 0, 2).
+* The [[M22 graph]] aka [[Mesner graph]] is an srg(77, 16, 0, 4).
+* The [[Brouwer–Haemers graph]] is an srg(81, 20, 1, 6).
+* The [[Higman–Sims graph]] is an srg(100, 22, 0, 6).
+* The [[Local McLaughlin graph]] is an srg(162, 56, 10, 24).  
+* The [[Cameron graph]] is an srg(231, 30, 9, 3).
+* The [[McLaughlin graph]] is an srg(275, 112, 30, 56).
+* The [[Paley graph]] of order ''q'' is an srg(''q'', (''q''&nbsp;−&nbsp;1)/2, (''q''&nbsp;−&nbsp;5)/4, (''q''&nbsp;−&nbsp;1)/4).  The smallest Paley graph, with ''q''=5, is the 5-cycle (above).
+* [[Self-complementary graph|self-complementary]] [[Symmetric graph|arc-transitive]] graphs are strongly regular.
+
+A strongly regular graph is called '''primitive''' if both the graph and its complement are connected. All the above graphs are primitive, as otherwise μ=0 or λ=k.
+
+===Moore graphs===
+The strongly regular graphs with λ&nbsp;=&nbsp;0 are [[triangle-free graph|triangle free]]. Apart from the complete graphs on less than 3 vertices and all complete bipartite graphs the seven listed above (pentagon, Petersen, Clebsch, Hoffman-Singleton, Gewirtz, Mesner-M22, and Higman-Sims) are the only known ones. Strongly regular graphs with λ&nbsp;=&nbsp;0 and μ&nbsp;=&nbsp;1 are [[Moore graph]]s with girth 5. Again the three graphs given above (pentagon, Petersen, and Hoffman-Singleton), with parameters (5, 2, 0, 1), (10, 3, 0, 1) and (50, 7, 0, 1), are the only known ones. The only other possible set of parameters yielding a Moore graph is (3250, 57, 0, 1); it is unknown if such a graph exists, and if so, whether or not it is unique.
+
+==See also==
+* [[Seidel adjacency matrix]]
+* [[Partial geometry]]
+
+==Notes==
+{{reflist}}
+
+==References==
+* A.E. Brouwer, A.M. Cohen, and A. Neumaier (1989), ''Distance Regular Graphs''.  Berlin, New York: Springer-Verlag.  {{isbn|3-540-50619-5}}, {{isbn|0-387-50619-5}}
+* [[Chris Godsil]] and Gordon Royle (2004), ''Algebraic Graph Theory''.  New York: Springer-Verlag.  {{isbn|0-387-95241-1}}
+
+==External links==
+* [[Eric W. Weisstein]], [http://mathworld.wolfram.com/StronglyRegularGraph.html Mathworld article with numerous examples.]
+* [[Gordon Royle]], [https://web.archive.org/web/20080503090520/http://people.csse.uwa.edu.au/gordon/remote/srgs/ List of larger graphs and families.]
+* [[Andries E. Brouwer]], [http://www.win.tue.nl/~aeb/graphs/srg/srgtab.html Parameters of Strongly Regular Graphs.]
+* [[Brendan McKay]], [http://cs.anu.edu.au/~bdm/data/graphs.html Some collections of graphs.]
+* [[Ted Spence]], [http://www.maths.gla.ac.uk/~es/srgraphs.php Strongly regular graphs on at most 64 vertices.]
+
+{{DEFAULTSORT:Strongly Regular Graph}}
+[[Category:Graph families]]
+[[Category:Algebraic graph theory]]
+[[Category:Regular graphs]]
+[[Category:Strongly regular graphs| ]]

@@ -1,0 +1,140 @@
+{{Infobox spaceflight
+| name                  = Mariner 9
+| image                 = Mariner09.jpg
+| image_caption         = The Mariner 9 spacecraft
+
+| mission_type          = [[Mars]] orbiter
+| operator              = [[NASA]] / [[JPL]]
+| website               = 
+| COSPAR_ID             = 1971-051A
+| SATCAT                = 5261
+| mission_duration      = 1&nbsp;year, 4&nbsp;months, 27&nbsp;days
+
+| manufacturer          = [[Jet Propulsion Laboratory]]
+| dry_mass              = {{convert|558.8|kg}}
+| launch_mass           = {{convert|997.9|kg}}
+| power                 = 500&nbsp;watts
+
+| launch_date           = {{start-date|May 30, 1971, 22:23:04|timezone=yes}}&nbsp;UTC 
+| launch_rocket         = [[Atlas-Centaur|Atlas SLV-3C Centaur-D]]
+| launch_site           = [[Cape Canaveral Air Force Station|Cape Canaveral]] [[Spaceport Florida Launch Complex 36|LC-36B]]
+| launch_contractor     =
+
+| disposal_type         = Decommissioned
+| deactivated           = {{end-date|October 27, 1972}}
+
+| orbit_epoch           = {{date|1971-12-29}}, 19:00:00&nbsp;UTC<ref name="M9_trajectory"/>
+| orbit_reference       = [[Areocentric orbit|Areocentric]]
+| orbit_periapsis       = {{Convert|1650|km}}
+| orbit_apoapsis        = {{Convert|16860|km}}
+| orbit_eccentricity    = 0.6014
+| orbit_inclination     = 64.4&nbsp;degrees
+| orbit_period          = 719.47&nbsp;minutes
+| apsis                 = areion
+
+|interplanetary         = 
+ {{Infobox spaceflight/IP
+   |type                = orbiter
+   |component           = 
+   |object              = [[Mars]]
+   |orbits              = 
+   |arrival_date        = November 14, 1971, 00:42:00 [[UTC]]
+ }}
+}}
+
+'''Mariner 9''' ('''Mariner Mars '71''' / '''Mariner-I''') was an unmanned [[NASA]] space probe that contributed greatly to the exploration of [[Mars]] and was part of the [[Mariner program]]. Mariner 9 was launched toward Mars on May 30, 1971<ref name=M9_trajectory>{{cite web | url=http://nssdc.gsfc.nasa.gov/nmc/spacecraftOrbit.do?id=1971-051A | title=Mariner 9: Trajectory Information | publisher=[[National Space Science Data Center]] | accessdate=December 28, 2011}}</ref><ref name=final_report>{{cite web | url=https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19730018117_1973018117.pdf | title=Mariner Mars 1971 Project Final Report | publisher=NASA Technical Reports Server | accessdate=December 28, 2011 | format=PDF}}</ref> from [[Cape Canaveral Air Force Station]] and reached the planet on November 14 of the same year,<ref name=M9_trajectory /><ref name=final_report /> becoming the first spacecraft to orbit another planet<ref name=M9_details>{{cite web | url=http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1971-051A | title=Mariner 9: Details | publisher=National Space Science Data Center | accessdate=December 28, 2011}}</ref> – only narrowly beating the [[Soviet Union|Soviets']] [[Mars 2]] and [[Mars 3]], which both arrived within a month. After months of dust storms it managed to send back clear pictures of the surface.
+
+Mariner 9 returned 7329 images over the course of its mission, which concluded in October 1972.<ref name=log>[http://mars.jpl.nasa.gov/programmissions/missions/log/ NASA PROGRAM & MISSIONS Historical Log]</ref>
+
+== Objectives ==
+{{unref|section|date=November 2018}}
+[[File:Atlas I-CENTAUR.jpg|thumb|right|Mariner 9 launch]]
+
+Mariner 9 was designed to continue the atmospheric studies begun by [[Mariner 6 and 7]], and to map over 70% of the Martian surface from the lowest altitude ({{Convert|1500|km|sp=us}}) and at the highest resolutions (from 1 kilometer per pixel to 100 meters per pixel) of any Mars mission up to that point. An infrared [[radiometer]] was included to detect heat sources in search of evidence of [[volcanic activity]]. It was to study temporal changes in the Martian atmosphere and surface. Mars' two moons were also to be analyzed. Mariner 9 more than met its objectives.
+
+Under original plans, a dual mission was to be flown like Mariners 6–7, however the launch failure of [[Mariner 8]] ruined this scheme and forced NASA planners to fall back on a simpler one-probe mission. NASA still held out hope that another Mariner probe and [[Atlas-Centaur]] could be readied before the 1971 Mars [[launch window]] closed. A few logistical problems emerged, including the lack of an available Centaur payload shroud of the correct configuration for the Mariner probes, however there was a shroud in NASA's inventory which could be modified. [[Convair]] also had an available Centaur stage on hand and could have an Atlas readied in time, but the idea was ultimately abandoned for lack of funding.
+
+Mariner 9 was mated to Atlas-Centaur AC-23 on May 9 with investigation into Mariner 8's failure ongoing. The malfunction was traced to a problem in the Centaur's pitch control servoamplifier and because it was not clear if the spacecraft itself had been responsible, [[Electromagnetic interference|RFI]] testing was conducted on Mariner 9 to ensure the probe was not releasing interference that could cause problems with the Centaur's electronics. All testing came back negative and on May 22, a tested and verified rate gyro package arrived from Convair and was installed in the Centaur.
+
+Liftoff took place on May 30 at 5:23 PM EST. All launch vehicle systems performed normally and the Mariner separated from the Centaur at 13 minutes and 18 seconds after launch.
+
+== Experiments ==
+# Ultraviolet Spectrometer (UVS)
+# Infrared Interferometer Spectrometer (IRIS)
+# Celestial Mechanics (not a separate instrument; it relied upon tracking measurements including range, range rate, and Doppler)
+# S-Band [[Occultation]] (not a separate instrument; experiment observed the attenuation of the communication signal as the orbiting satellite passed out of view)
+# Infrared Radiometer (IRR)
+# Visual Imaging System – in a lower orbit, half that of [[Mariner 6]] and [[Mariner 7]] flyby missions, and with a vastly improved imaging system, Mariner 9 achieved a resolution of {{convert|320|ft}} per [[pixel]], whereas previous Martian probes had achieved only approximately {{convert|2600|ft}} per pixel.<ref name=Pyle2012-M9>
+{{cite book |last=Pyle|first=Rod |title=Destination Mars |year=2012 |publisher=[[Prometheus Books]] |isbn=978-1-61614-589-7 |pages=73–78 |quote=''It was the first spacecraft to enter orbit around another world.'' ... [It] continues to orbit Mars to this day, sailing around the planet deaf and dumb in the cold darkness.}}</ref>
+
+== Achievements ==
+[[File:M09 mtvs4187 45.gif|thumb|right|Mariner 9 view of the [[Noctis Labyrinthus]] "labyrinth" at the western end of [[Valles Marineris]].]]
+
+Mariner 9 was the first [[spacecraft]] to [[orbit]] another [[planet]]. It carried an instrument payload similar to Mariners 6 and 7, but because of the need for a larger propulsion system to control the spacecraft in Martian orbit, it weighed more than Mariners 6 and 7 combined.<ref name=Pyle2012-M9/>
+
+When Mariner 9 arrived at Mars on November 14, 1971, [[Planetary science|planetary scientists]] were surprised to find the [[celestial body's atmosphere|atmosphere]] was thick with "a planet-wide robe of [[Martian soil#Atmospheric dust|dust]], the largest [[Climate of mars#Dust storms on Mars|storm]] ever observed."  The surface was totally obscured. Mariner 9's computer was thus reprogrammed from Earth to delay imaging of the surface for a couple of months until the dust settled. The main surface imaging did not get underway until mid-January 1972.  However, surface-obscured images did contribute to the collection of Mars science, including understanding of the existence of several huge high-altitude volcanoes of the [[Tharsis Bulge]] that gradually became visible as the dust storm abated.  This unexpected situation made a strong case for the desirability of studying a planet from orbit rather than merely flying past.<ref name=Pyle2012-M9/> It also highlighted the importance of flexible mission software. The Soviet Union's [[Mars 2]] and [[Mars 3]] probes, which arrived during the same dust storm, were unable to adapt to the unexpected conditions, which severely limited the amount of data that they were able to collect.
+
+After 349 days in orbit, Mariner 9 had transmitted 7,329 images, covering 85% of Mars' surface, whereas previous flyby missions had returned less than one thousand images covering only a small portion of the planetary surface.<ref>http://solarsystem.nasa.gov/missions/profile.cfm?Sort=Target&Target=Mars&MCode=Mariner_09&Display=ReadMore 
+</ref> 
+The images revealed [[river]] beds, [[Impact crater|crater]]s, massive extinct [[volcano]]es (such as [[Olympus Mons]], the largest known volcano in the [[Solar System]]; Mariner 9 led directly to its reclassification from Nix Olympica), [[canyon]]s (including the [[Valles Marineris]], a system of canyons over about {{convert|2500|mi|km|-1}} long), evidence of wind and water [[erosion]] and deposition, weather fronts, [[fog]]s, and more.<ref>http://www.space.com/18439-mariner-9.html</ref> Mars' small [[natural satellite|moon]]s, [[Phobos (moon)|Phobos]] and [[Deimos (moon)|Deimos]], were also photographed.<ref>[http://mars.jpl.nasa.gov/programmissions/missions/past/mariner89/ Mars Exploration Program: Mariner 8 & 9<!-- Bot generated title -->]</ref><ref>Hartmann, W. O. Raper.  1974.  The New Mars. The Discoveries of Mariner 9. With the Cooperation of the Mariner 9 Science Experiment Team. Prepared for the NASA Office of Space Science.</ref>
+
+The findings from the Mariner 9 mission underpinned the later [[Viking program]].<ref name=Pyle2012-M9/>
+
+The enormous [[Valles Marineris]] canyon system is named after Mariner 9 in honor of its achievements.<ref name=Pyle2012-M9/>
+
+After depleting its supply of [[attitude control]] gas, the spacecraft was turned off on October 27, 1972.<ref name=Pyle2012-M9/>
+
+== Construction ==
+[[File:Mariner8&9 schematics.jpg|thumb|right|250px|A schematic of Mariner 9, showing the major components and features]]
+The [[ultraviolet]] [[spectrometer]] aboard Mariner 9 was constructed by the [[Laboratory for Atmospheric and Space Physics]] at the [[University of Colorado at Boulder|University of Colorado]], [[Boulder, Colorado]]. The ultraviolet spectrometer team was led by Professor Charles Barth.
+
+The Infrared Interferometer Spectrometer (IRIS) team was led by Dr. Rudolf A. Hanel from [[NASA Goddard Spaceflight Center]] (GSFC). The IRIS instrument was built by [[Texas Instruments]], [[Dallas, Texas]].
+
+The Infrared Radiometer (IRR) team was led by Professor Gerald Neugebauer from the [[California Institute of Technology]] (Caltech).
+
+== Error-Correction Codes achievements ==
+To control for errors in the reception of the [[grayscale]] image data sent by Mariner 9 (caused by a low [[signal-to-noise ratio]]), the data had to be encoded before transmission using a so-called [[forward error correction|forward error-correcting code]] (FEC). Without FEC, noise would have made up roughly a quarter of a received image, while the FEC encoded the data in a redundant way which allowed for the reconstruction of most of the sent image data at reception.
+
+Since the flown hardware was constrained with regards to weight, power consumption, storage, and computing power, some considerations had to be put into choosing an FEC, and it was decided to use a [[Hadamard code]] for Mariner 9. Each image pixel was represented as a six-bit binary value, which had 64 possible [[grayscale]] levels. Because of limitations of the transmitter, the maximum useful data length was about 30 bits. Instead of using a [[repetition code]], a [32, 6, 16] punctured Hadamard code was used, which is also a 1st-order [[Reed-Muller code]]. Errors of up to seven bits per each 32-bit word could be corrected using this scheme.<ref>[https://www.youtube.com/watch?v=NRv3HMEyuDE] 64 Shades of Martian Grey – Computerphile</ref><ref>[https://www.youtube.com/watch?v=CtOCqKpti7s] Reed-Muller Code (64 Shades of Grey pt2) – Computerphile</ref> Compared to a five-repetition code, the error correcting properties of this Hadamard code were much better, yet its data rate was comparable. The efficient decoding [[algorithm]] was an important factor in the decision to use this code. The circuitry used was called the "Green Machine", which employed the [[fast Fourier transform]], increasing the decoding speed by a factor of three.<ref>[http://www-math.ucdenver.edu/~wcherowi/courses/m7409/mariner9talk.pdf] Combinatorics in Space The Mariner 9 Telemetry System</ref>
+
+== Present location ==
+Mariner 9 remains a derelict satellite in Mars orbit.<ref name=Pyle2012-M9/>  It is expected to remain in orbit until approximately 2022, when the spacecraft is projected to enter the Martian atmosphere and either burn up or crash into the planet's surface.<ref>[http://www.nasa.gov/offices/oce/appel/ask-academy/issues/volume4/ata_4-9_mariner_9_prt.htm NASA – This Month in NASA History: Mariner 9], November 29, 2011 – Vol. 4, Issue 9 {{webarchive |url=https://web.archive.org/web/20130514043808/http://www.nasa.gov/offices/oce/appel/ask-academy/issues/volume4/ata_4-9_mariner_9_prt.htm |date=May 14, 2013 }}</ref>
+
+== See also ==
+{{Portal|Spaceflight}}
+* [[Exploration of Mars]]
+* [[List of Mars orbiters]]
+* [[List of missions to Mars]]
+* [[Space exploration]]
+* [[Timeline of artificial satellites and space probes]]
+* [[Unmanned space mission]]s
+* [[Mars flyby]]
+
+== References ==
+{{Reflist}}
+
+== External links ==
+{{commonscat|Mariner 9}}
+*[https://web.archive.org/web/20120731101459/http://solarsystem.nasa.gov/missions/profile.cfm?MCode=Mariner_09 Mariner 9 Mission Profile] by [http://solarsystem.nasa.gov NASA's Solar System Exploration]
+*[http://nssdc.gsfc.nasa.gov/nmc/masterCatalog.do?sc=1971-051A NSSDC Master Catalog: Spacecraft – Mariner 9]
+*[https://web.archive.org/web/20120211142601/http://sse.jpl.nasa.gov/missions/profile.cfm?Sort=Target&Target=Mars&MCode=Mariner_09 NASA-JPL Guide to Mariner 9]
+*[https://www.flickr.com/photos/46043736@N03/sets/72157623202452236/with/4268348665/ some Mariner 9 images of Mars]
+*[http://planetary.org/blog/article/00003296/ Mariner 9 approaching Mars movie]
+*[http://petermasek.tripod.com/mariner9.html Mariner 9 images, including dust storm]
+*[http://www.planetary.org/multimedia/space-images/mars/phobos-from-mariner-9.html Mariner 9 view of Phobos] (hosted by The Planetary Society)
+*[http://photojournal.jpl.nasa.gov/catalog/PIA02304 Mariner 9 image compared to MGS image, helps determine if Dunes moved in decades]
+*[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19730002410.pdf P.418  Correct DN values appear to be 512, not 64  i.e. 9bits per pixel]
+
+{{Mariner program | before=[[Mariner 8]] | after=[[Mariner 10]] }}
+{{Mars spacecraft}}
+{{Satellite and spacecraft instruments}}
+{{Orbital launches in 1971}}
+
+[[Category:Mariner program]]
+[[Category:Missions to Mars]]
+[[Category:1971 in spaceflight]]
+[[Category:Derelict satellites orbiting Mars]]
+[[Category:Derelict space probes]]
+[[Category:Spacecraft launched by Atlas-Centaur rockets]]
+[[Category:Spacecraft launched in 1971]]
+[[Category:Geography of Mars]]

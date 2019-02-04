@@ -1,0 +1,257 @@
+{{redirect-several|Codebreaker}}
+[[Image:FIALKA-rotors-in-machine.jpg|thumb|Close-up of the rotors in a [[Fialka]] cipher machine]]
+
+'''Cryptanalysis''' (from the [[Greek language|Greek]] ''kryptós'', "hidden", and ''analýein'', "to loosen" or "to untie") is the study of analyzing [[information system]]s in order to study the hidden aspects of the systems.<ref>{{cite web|url=http://www.nsa.gov/careers/career_fields/cryptsiganalysis.shtml |title=Cryptanalysis/Signals Analysis |publisher=Nsa.gov |date=2009-01-15 |accessdate=2013-04-15}}</ref>  Cryptanalysis is used to breach [[cryptographic]] security systems and gain access to the contents of encrypted messages, even if the [[key (cryptography)|cryptographic key]] is unknown.
+
+In addition to mathematical analysis of cryptographic algorithms, cryptanalysis includes the study of [[side-channel attacks]] that do not target weaknesses in the cryptographic algorithms themselves, but instead exploit weaknesses in their implementation.
+
+Even though the goal has been the same, the methods and techniques of cryptanalysis have changed drastically through the history of cryptography, adapting to increasing cryptographic complexity, ranging from the pen-and-paper methods of the past, through machines like the British [[Bombe]]s and [[Colossus computer]]s at [[Bletchley Park]] in [[World War II]], to the mathematically advanced computerized schemes of the present. Methods for breaking modern [[cryptosystem]]s often involve solving carefully constructed problems in [[pure mathematics]], the best-known being [[integer factorization]].
+
+==Overview==
+Given some encrypted data (''"[[ciphertext]]"''), the goal of the ''cryptanalyst'' is to gain as much information as possible about the original, unencrypted data (''"[[plaintext]]"''). It is useful to consider two aspects of achieving this. The first is ''breaking'' the system — that is discovering how the encipherment process works. The second is ''solving'' the key that is unique for a particular encrypted message or group of messages.
+
+===Amount of information available to the attacker===
+Attacks can be classified based on what type of information the attacker has available. As a basic starting point it is normally assumed that, for the purposes of analysis, the general [[algorithm]] is known; this is [[Claude Shannon|Shannon's Maxim]] "the enemy knows the system"<ref>{{cite journal|last1=Shannon|first1=Claude|title=Communication Theory of Secrecy Systems|journal=Bell System Technical Journal|date=4 October 1949|volume=28|page=662|url=https://archive.org/stream/bstj28-4-656#page/n5/mode/2up|accessdate=20 June 2014|ref=Shannon}}</ref> — in its turn, equivalent to [[Kerckhoffs' principle]]<ref>{{citation |first = David |last = Kahn |title = The Codebreakers: the story of secret writing  |year = 1996 |edition=second |publisher = Scribners |p=235}}</ref>. This is a reasonable assumption in practice — throughout history, there are countless examples of secret algorithms falling into wider knowledge, variously through [[espionage]], [[betrayal]] and [[reverse engineering]]. (And on occasion, ciphers have been broken through pure deduction; for example, the German [[Lorenz cipher]] and the Japanese [[Purple code]], and a variety of classical schemes):<ref>{{cite book|author=Schmeh, Klaus|title=Cryptography and public key infrastructure on the Internet|publisher=John Wiley & Sons|year=2003|isbn=978-0-470-84745-9|page=45|url=https://books.google.com/books?id=9NqidkUqHdgC&pg=PA45}}</ref>
+*''[[Ciphertext-only attack|Ciphertext-only]]'': the cryptanalyst has access only to a collection of [[ciphertext]]s or [[codetext]]s.
+*''[[Known-plaintext attack|Known-plaintext]]'': the attacker has a set of ciphertexts to which he knows the corresponding [[plaintext]].
+*''[[Chosen plaintext attack|Chosen-plaintext]]'' (''[[chosen-ciphertext attack|chosen-ciphertext]]''): the attacker can obtain the ciphertexts (plaintexts) corresponding to an arbitrary set of plaintexts (ciphertexts) of his own choosing.
+*''[[Adaptive chosen plaintext attack|Adaptive chosen-plaintext]]'': like a chosen-plaintext attack, except the attacker can choose subsequent plaintexts based on information learned from previous encryptions. Similarly ''[[Adaptive chosen ciphertext attack]]''.
+*''[[Related-key attack]]'': Like a chosen-plaintext attack, except the attacker can obtain ciphertexts encrypted under two different keys. The keys are unknown, but the relationship between them is known; for example, two keys that differ in the one bit.
+
+===Computational resources required===
+Attacks can also be characterised by the resources they require. Those resources include:<ref>{{Cite journal|last=Hellman|first=M.|date=July 1980|title=A cryptanalytic time-memory trade-off|url=https://ieeexplore.ieee.org/document/1056220/|journal=IEEE Transactions on Information Theory|language=en-US|volume=26|issue=4|pages=401–406|doi=10.1109/tit.1980.1056220|issn=0018-9448|via=ACM}}</ref>
+
+*Time — the number of ''computation steps'' (e.g., test encryptions) which must be performed.
+*Memory — the amount of ''storage'' required to perform the attack.
+*Data — the quantity and type of ''plaintexts and ciphertexts'' required for a particular approach.
+
+It's sometimes difficult to predict these quantities precisely, especially when the attack isn't practical to actually implement for testing. But academic cryptanalysts tend to provide at least the estimated ''order of magnitude'' of their attacks' difficulty, saying, for example, "SHA-1 collisions now 2<sup>52</sup>."<ref>{{Citation | last = McDonald | first = Cameron | last2 = Hawkes | first2 = Philip | last3 = Pieprzyk | first3 = Josef | author3-link = Josef Pieprzyk | title =SHA-1 collisions now 2<sup>52</sup> | url = http://eurocrypt2009rump.cr.yp.to/837a0a8086fa6ca714249409ddfae43d.pdf | accessdate = 4 April 2012}}</ref>
+
+[[Bruce Schneier]] notes that even computationally impractical attacks can be considered breaks: "Breaking a cipher simply means finding a weakness in the cipher that can be exploited with a complexity less than brute force. Never mind that brute-force might require 2<sup>128</sup> encryptions; an attack requiring 2<sup>110</sup> encryptions would be considered a break...simply put, a break can just be a certificational weakness: evidence that the cipher does not perform as advertised."<ref name="schneier"/><!-- Birthday attacks; man in the middle / time-memory tradeoff -->
+
+===Partial breaks===
+The results of cryptanalysis can also vary in usefulness. For example, cryptographer [[Lars Knudsen]] (1998) classified various types of attack on [[block cipher]]s according to the amount and quality of secret information that was discovered:
+*''Total break'' — the attacker deduces the secret [[key (cryptography)|key]].
+*''Global deduction'' — the attacker discovers a functionally equivalent [[algorithm]] for encryption and decryption, but without learning the key.
+*''Instance (local) deduction'' — the attacker discovers additional plaintexts (or ciphertexts) not previously known.
+*''Information deduction'' — the attacker gains some [[Information entropy|Shannon information]] about plaintexts (or ciphertexts) not previously known.
+*''Distinguishing algorithm'' — the attacker can distinguish the cipher from a random [[permutation]].
+
+Academic attacks are often against weakened versions of a cryptosystem, such as a block cipher or hash function with some rounds removed. Many, but not all, attacks become exponentially more difficult to execute as rounds are added to a cryptosystem,<ref>For an example of an attack that cannot be prevented by additional rounds, see [[slide attack]].</ref> so it's possible for the full cryptosystem to be strong even though reduced-round variants are weak. Nonetheless, partial breaks that come close to breaking the original cryptosystem may mean that a full break will follow; the successful attacks on [[Data Encryption Standard|DES]], [[MD5]], and [[SHA-1]] were all preceded by attacks on weakened versions.
+
+In academic cryptography, a ''weakness'' or a ''break'' in a scheme is usually defined quite conservatively: it might require impractical amounts of time, memory, or known plaintexts. It also might require the attacker be able to do things many real-world attackers can't: for example, the attacker may need to choose particular plaintexts to be encrypted or even to ask for plaintexts to be encrypted using several keys related to the secret key. Furthermore, it might only reveal a small amount of information, enough to prove the cryptosystem imperfect but too little to be useful to real-world attackers. Finally, an attack might only apply to a weakened version of cryptographic tools, like a reduced-round block cipher, as a step towards breaking of the full system.<ref name=schneier>{{Harvnb|Schneier|2000}}</ref>
+
+==History==
+{{Main|History of cryptography}}
+[[Image:Zimmermann-telegramm-offen.jpg|thumb|right|The decrypted [[Zimmermann Telegram]].]]
+Cryptanalysis has [[coevolution|coevolved]] together with cryptography, and the contest can be traced through the [[history of cryptography]]—new [[cipher]]s being designed to replace old broken designs, and new cryptanalytic techniques invented to crack the improved schemes. In practice, they are viewed as two sides of the same coin: secure cryptography requires design against possible cryptanalysis.{{Citation needed|date=April 2012}}
+
+Successful cryptanalysis has undoubtedly influenced history; the ability to read the presumed-secret thoughts and plans of others can be a decisive advantage. For example, in England in 1587, [[Mary, Queen of Scots]] was tried and executed for [[treason]] as a result of her involvement in three plots to assassinate [[Elizabeth I of England]]. The plans came to light after her coded correspondence with fellow conspirators was deciphered by [[Thomas Phelippes]].
+
+In [[World War I]], the breaking of the [[Zimmermann Telegram]] was instrumental in bringing the United States into the war. In [[World War II]], the [[Allies of World War II|Allies]] benefitted enormously from their joint success cryptanalysis of the German ciphers — including the [[Enigma machine]] and the [[Lorenz cipher]] — and Japanese ciphers, particularly [[Purple (cipher machine)|'Purple']] and [[JN-25]]. [[Ultra (cryptography)|'Ultra']] intelligence has been credited with everything between shortening the end of the European war by up to two years, to determining the eventual result. The war in the Pacific was similarly helped by [[Magic (cryptography)|'Magic']] intelligence.<ref>{{Harvnb|Smith|2000|p=4}}</ref>
+
+Governments have long recognized the potential benefits of cryptanalysis for [[Military espionage|intelligence]], both military and diplomatic, and established dedicated organizations devoted to breaking the codes and ciphers of other nations, for example, [[GCHQ]] and the [[National Security Agency|NSA]], organizations which are still very active today. In 2004, it was reported that the United States had broken [[Iran]]ian ciphers. (It is unknown, however, whether this was pure cryptanalysis, or whether other factors were involved:<ref>{{cite news| url=http://news.bbc.co.uk/1/hi/technology/3804895.stm | work=BBC News | title=Breaking codes: An impossible task? | date=June 21, 2004}}</ref>).
+
+===Classical ciphers===
+[[Image:Al-kindi-cryptanalysis.png|thumb|right|First page of [[Al-Kindi]]'s 9th century ''Manuscript on Deciphering Cryptographic Messages'']]
+{{See also|Frequency analysis|Index of coincidence|Kasiski examination}}
+
+Although the actual word "''cryptanalysis''" is relatively recent (it was coined by [[William Friedman]] in 1920), methods for breaking [[code (cryptography)|codes]] and [[cipher]]s are much older. The first known recorded explanation of cryptanalysis was given by 9th-century [[Arabs|Arab]]<ref>[https://books.google.com.sa/books?id=3xJjNG5CNdwC&pg=PA199&dq=Al+Kindi+Arab&hl=ar&sa=X&ved=0ahUKEwjsjMXP3ZvYAhUFthQKHQ2nCDk4HhDoAQgpMAQ#v=onepage&q=Al%20Kindi%20Arab&f=false/ History of Islamic philosophy: With View of Greek Philosophy and Early history of Islam P.199]</ref><ref>[https://books.google.com.sa/books?id=2wS2CAAAQBAJ&pg=PA279&dq=al+kindi+Arab&hl=ar&sa=X&ved=0ahUKEwir87melZzYAhWCXBQKHTwOAKI4ChDoAQg1MAc#v=onepage&q=al%20kindi%20Arab&f=false/ The Biographical Encyclopedia of Islamic Philosophy P.279]</ref> [[polymath]], [[Al-Kindi]] (also known as "Alkindus" in Europe), in ''A Manuscript on Deciphering Cryptographic Messages''. This treatise includes a description of the method of [[frequency analysis]] ([[Ibrahim Al-Kadi]], 1992- ref-3). [[Italy|Italian]] scholar [[Giambattista della Porta]] was author of a seminal work on cryptanalysis ''"De Furtivis Literarum Notis".''<ref>[http://www.cryptool.org/content/view/28/54/lang,english/ Crypto History ]  {{webarchive|url=https://web.archive.org/web/20080828190150/http://www.cryptool.org/content/view/28/54/lang%2Cenglish/ |date=August 28, 2008 }}</ref>
+
+[[Frequency analysis]] is the basic tool for breaking most [[classical cipher]]s. In natural languages, certain letters of the [[alphabet]] appear more often than others; in [[English language|English]], "[[E]]" is likely to be the most common letter in any sample of [[plaintext]]. Similarly, the [[Digraph (orthography)|digraph]] "TH" is the most likely pair of letters in English, and so on. Frequency analysis relies on a cipher failing to hide these [[statistics]]. For example, in a [[simple substitution cipher]] (where each letter is simply replaced with another), the most frequent letter in the [[ciphertext]] would be a likely candidate for "E". Frequency analysis of such a cipher is therefore relatively easy, provided that the ciphertext is long enough to give a reasonably representative count of the letters of the alphabet that it contains.<ref>{{Harvnb|Singh|1999|p=17}}</ref>
+
+In Europe during the 15th and 16th centuries, the idea of a [[Polyalphabetic cipher|polyalphabetic substitution cipher]] was developed, among others by the French diplomat [[Blaise de Vigenère]] (1523–96).<ref>{{Harvnb|Singh|1999|pp=45–51}}</ref> For some three centuries, the [[Vigenère cipher]], which uses a repeating key to select different encryption alphabets in rotation, was considered to be completely secure (''le chiffre indéchiffrable''—"the indecipherable cipher"). Nevertheless, [[Charles Babbage]] (1791–1871) and later, independently, [[Friedrich Kasiski]] (1805–81) succeeded in breaking this cipher.<ref>{{Harvnb|Singh|1999|pp=63–78}}</ref> During [[World War I]], inventors in several countries developed [[rotor cipher machine]]s such as [[Arthur Scherbius]]' [[Enigma machine|Enigma]], in an attempt to minimise the repetition that had been exploited to break the Vigenère system.<ref>{{Harvnb|Singh|1999|p=116}}</ref>
+
+===Ciphers from World War I and World War II===
+{{See also|Cryptanalysis of the Enigma|Cryptanalysis of the Lorenz cipher}}
+Cryptanalysis of enemy messages played a significant part in the [[Allies of World War II|Allied]] victory in World War II. [[F. W. Winterbotham]], quoted the western Supreme Allied Commander, [[Dwight D. Eisenhower]], at the war's end as describing [[Ultra]] intelligence as having been "decisive" to Allied victory.{{sfn|Winterbotham|2000|p=229}} [[Harry Hinsley|Sir Harry Hinsley]], official historian of British Intelligence in World War II, made a similar assessment about Ultra, saying that it shortened the war "by not less than two years and probably by four years"; moreover, he said that in the absence of Ultra, it is uncertain how the war would have ended.{{sfn|Hinsley|1993}}
+
+In practice, frequency analysis relies as much on [[linguistics|linguistic]] knowledge as it does on statistics, but as ciphers became more complex, [[mathematics]] became more important in cryptanalysis. This change was particularly evident before and during [[World War II]], where efforts to crack [[Axis Powers|Axis]] ciphers required new levels of mathematical sophistication. Moreover, automation was first applied to cryptanalysis in that era with the Polish [[Bomba (cryptography)|Bomba]] device, the British [[Bombe]], the use of [[punched card]] equipment, and in the [[Colossus computers]] — the first electronic digital computers to be controlled by a program.<ref>{{Harvnb|Copeland|2006|p=1}}</ref><ref>{{Harvnb|Singh|1999|p=244}}</ref>
+
+====Indicator====
+With reciprocal machine ciphers such as the [[Lorenz cipher]] and the [[Enigma machine]] used by [[Nazi Germany]] during [[World War II]], each message had its own key. Usually, the transmitting operator informed the receiving operator of this message key by transmitting some plaintext and/or ciphertext before the enciphered message. This is termed the ''indicator'', as it indicates to the receiving operator how to set his machine to decipher the message.<ref>{{Harvnb|Churchhouse|2002|pp=33, 34}}</ref>
+
+Poorly designed and implemented indicator systems allowed first [[Biuro Szyfrów|Polish cryptographers]]<ref>{{Harvnb|Budiansky|2000|pp=97–99}}</ref> and then the British cryptographers at [[Bletchley Park]]<ref>{{Harvnb|Calvocoressi|2001|p=66}}</ref> to break the Enigma cipher system. Similar poor indicator systems allowed the British to identify ''depths'' that led to the diagnosis of the [[Lorenz cipher|Lorenz SZ40/42]] cipher system, and the comprehensive breaking of its messages without the cryptanalysts seeing the cipher machine.<ref name="Tutte 1998">{{Harvnb|Tutte|1998}}</ref>
+
+====Depth====
+Sending two or more messages with the same key is an insecure process. To a cryptanalyst the messages are then said to be ''"in depth."''<ref>{{Harvnb|Churchhouse|2002|p=34}}</ref> This may be detected by the messages having the same ''[[Enigma machine#Indicator|indicator]]'' by which the sending operator informs the receiving operator about the [[Key (cryptography)|key generator initial settings]] for the message.<ref>{{Harvnb|Churchhouse|2002|pp= 33, 86}}</ref>
+
+Generally, the cryptanalyst may benefit from lining up identical enciphering operations among a set of messages. For example, the [[Gilbert Vernam|Vernam cipher]] enciphers by bit-for-bit combining plaintext with a long key using the "[[exclusive or]]" operator, which is also known as "[[Modular arithmetic|modulo-2 addition]]" (symbolized by ⊕ ):
+::::Plaintext ⊕ Key = Ciphertext
+Deciphering combines the same key bits with the ciphertext to reconstruct the plaintext:
+::::Ciphertext ⊕ Key = Plaintext 
+(In modulo-2 arithmetic, addition is the same as subtraction.) When two such ciphertexts are aligned in depth, combining them eliminates the common key, leaving just a combination of the two plaintexts:
+::::Ciphertext1 ⊕ Ciphertext2 = Plaintext1 ⊕ Plaintext2
+The individual plaintexts can then be worked out linguistically by trying ''probable words'' (or phrases), also known as ''"cribs,"'' at various locations; a correct guess, when combined with the merged plaintext stream, produces intelligible text from the other plaintext component:
+::::(Plaintext1 ⊕ Plaintext2) ⊕ Plaintext1 = Plaintext2
+The recovered fragment of the second plaintext can often be extended in one or both directions, and the extra characters can be combined with the merged plaintext stream to extend the first plaintext. Working back and forth between the two plaintexts, using the intelligibility criterion to check guesses, the analyst may recover much or all of the original plaintexts. (With only two plaintexts in depth, the analyst may not know which one corresponds to which ciphertext, but in practice this is not a large problem.) When a recovered plaintext is then combined with its ciphertext, the key is revealed:
+::::Plaintext1 ⊕ Ciphertext1 = Key
+Knowledge of a key of course allows the analyst to read other messages encrypted with the same key, and knowledge of a set of related keys may allow cryptanalysts to diagnose the system used for constructing them.<ref name="Tutte 1998"/>
+
+===Development of modern cryptography===
+[[Image:TuringBombeBletchleyPark.jpg|thumb|The [[Bombe]] replicated the action of several [[Enigma machine]]s wired together. Each of the rapidly rotating drums, pictured above in a [[Bletchley Park]] museum mockup, simulated the action of an Enigma rotor.]]
+
+Even though computation was used to great effect in [[Cryptanalysis of the Lorenz cipher]] and other systems during World War II, it also made possible new methods of cryptography [[orders of magnitude]] more complex than ever before. Taken as a whole, modern cryptography has become much more impervious to cryptanalysis than the pen-and-paper systems of the past, and now seems to have the upper hand against pure cryptanalysis.{{Citation needed|date=April 2012}} The historian [[David Kahn (writer)|David Kahn]] notes:
+
+{{quote|Many are the cryptosystems offered by the hundreds of commercial vendors today that cannot be broken by any known methods of cryptanalysis. Indeed, in such systems even a [[Chosen-plaintext attack|chosen plaintext attack]], in which a selected plaintext is matched against its ciphertext, cannot yield the key that unlock[s] other messages. In a sense, then, cryptanalysis is dead. But that is not the end of the story. Cryptanalysis may be dead, but there is - to mix my metaphors - more than one way to skin a cat.|<ref>[[David Kahn (writer)|David Kahn]] [https://fas.org/irp/eprint/kahn.html Remarks on the 50th Anniversary of the National Security Agency], November 1, 2002.</ref>}}
+
+Kahn goes on to mention increased opportunities for interception, [[bugging]], [[side channel attack]]s, and [[quantum cryptography|quantum computers]] as replacements for the traditional means of cryptanalysis. In 2010, former NSA technical director Brian Snow said that both academic and government cryptographers are "moving very slowly forward in a mature field."<ref>Tim Greene, Network World, [http://www.networkworld.com/news/2010/030410-rsa-cloud-security-warning.html Former NSA tech chief: I don't trust the cloud] {{webarchive|url=https://web.archive.org/web/20100308105556/http://www.networkworld.com/news/2010/030410-rsa-cloud-security-warning.html |date=2010-03-08 }}. Retrieved March 14, 2010.</ref>
+
+However, any postmortems for cryptanalysis may be premature. While the effectiveness of cryptanalytic methods employed by intelligence agencies remains unknown, many serious attacks against both academic and practical cryptographic primitives have been published in the modern era of computer cryptography:{{citation needed|date=February 2012}}
+
+*The [[block cipher]] [[Madryga]], proposed in 1984 but not widely used, was found to be susceptible to [[ciphertext-only attack]]s in 1998.
+*[[FEAL|FEAL-4]], proposed as a replacement for the [[Data Encryption Standard|DES]] standard encryption algorithm but not widely used, was demolished by a spate of attacks from the academic community, many of which are entirely practical.
+*The [[A5/1]], [[A5/2]], [[CMEA (cipher)|CMEA]], and [[DECT Standard Cipher|DECT]] systems used in [[mobile phone|mobile]] and wireless phone technology can all be broken in hours, minutes or even in real-time using widely available computing equipment.
+*[[Brute-force search|Brute-force keyspace search]] has broken some real-world ciphers and applications, including single-DES (see [[EFF DES cracker]]), [[Cryptography#Export controls|40-bit "export-strength" cryptography]], and the [[Content Scrambling System|DVD Content Scrambling System]].
+*In 2001, [[Wired Equivalent Privacy]] (WEP), a protocol used to secure [[Wi-Fi]] [[wireless network]]s, was shown to be breakable in practice because of a weakness in the [[RC4]] cipher and aspects of the WEP design that made [[related-key attack]]s practical. WEP was later replaced by [[Wi-Fi Protected Access]].
+*In 2008, researchers conducted a proof-of-concept break of [[Transport Layer Security|SSL]] using weaknesses in the [[MD5]] [[Cryptographic hash function|hash function]] and certificate issuer practices that made it possible to exploit [[collision attack]]s on hash functions. The certificate issuers involved changed their practices to prevent the attack from being repeated.
+
+Thus, while the best modern ciphers may be far more resistant to cryptanalysis than the [[Enigma machine|Enigma]], cryptanalysis and the broader field of [[information security]] remain quite active.{{citation needed|date=February 2012}}
+
+==Symmetric ciphers==
+*[[Boomerang attack]]
+*[[Brute-force attack]]
+*[[Davies' attack]]
+*[[Differential cryptanalysis]]
+*[[Impossible differential cryptanalysis]]
+*[[Improbable differential cryptanalysis]]
+*[[Integral cryptanalysis]]
+*[[Linear cryptanalysis]]
+*[[Meet-in-the-middle attack]]
+*[[Mod-n cryptanalysis]]
+*[[Related-key attack]]
+*[[Sandwich attack]]
+*[[Slide attack]]
+*[[XSL attack]]
+
+==Asymmetric ciphers==
+[[Asymmetric cryptography]] (or [[public key cryptography]]) is cryptography that relies on using two (mathematically related) keys; one private, and one public. Such ciphers invariably rely on "hard" [[mathematical problem]]s as the basis of their security, so an obvious point of attack is to develop methods for solving the problem. The security of two-key cryptography depends on mathematical questions in a way that single-key cryptography generally does not, and conversely links cryptanalysis to wider mathematical research in a new way.{{Citation needed|date=April 2012}}
+
+Asymmetric schemes are designed around the (conjectured) difficulty of solving various mathematical problems. If an improved algorithm can be found to solve the problem, then the system is weakened. For example, the security of the [[Diffie–Hellman key exchange]] scheme depends on the difficulty of calculating the [[discrete logarithm]]. In 1983, [[Don Coppersmith]] found a faster way to find discrete logarithms (in certain groups), and thereby requiring cryptographers to use larger groups (or different types of groups). RSA's security depends (in part) upon the difficulty of [[integer factorization]] — a breakthrough in factoring would impact the security of RSA.{{Citation needed|date=April 2012}}
+
+In 1980, one could factor a difficult 50-digit number at an expense of 10<sup>12</sup> elementary computer operations. By 1984 the state of the art in factoring algorithms had advanced to a point where a 75-digit number could be factored in 10<sup>12</sup> operations. Advances in computing technology also meant that the operations could be performed much faster, too. [[Moore's law]] predicts that computer speeds will continue to increase. Factoring techniques may continue to do so as well, but will most likely depend on mathematical insight and creativity, neither of which has ever been successfully predictable. 150-digit numbers of the kind once used in RSA have been factored. The effort was greater than above, but was not unreasonable on fast modern computers. By the start of the 21st century, 150-digit numbers were no longer considered a large enough [[key size]] for RSA. Numbers with several hundred digits were still considered too hard to factor in 2005, though methods will probably continue to improve over time, requiring key size to keep pace or other methods such as [[elliptic curve cryptography]] to be used.{{Citation needed|date=April 2012}}
+
+Another distinguishing feature of asymmetric schemes is that, unlike attacks on symmetric cryptosystems, any cryptanalysis has the opportunity to make use of knowledge gained from the [[public key]].<ref>{{cite book|last=Stallings|first=William|title=Cryptography and Network Security: Principles and Practice|year=2010|publisher=Prentice Hall|isbn=0136097049}}</ref>
+
+==Attacking cryptographic hash systems==
+{{Expand section|date=April 2012}}
+*[[Birthday attack]]
+*[[Hash function security summary]]
+*[[Rainbow table]]
+
+==Side-channel attacks==
+{{Main|Side channel attack}}
+{{Expand section|date=April 2012}}
+*[[Black-bag cryptanalysis]]
+*[[Man-in-the-middle attack]]
+*[[Power analysis]]
+*[[Replay attack]]
+*[[Rubber-hose cryptanalysis]]
+*[[Timing attack|Timing analysis]]
+
+==Quantum computing applications for cryptanalysis==
+[[Quantum computer]]s, which are still in the early phases of research, have potential use in cryptanalysis. For example, [[Shor's Algorithm]] could factor large numbers in [[polynomial time]], in effect breaking some commonly used forms of public-key encryption.<ref>{{Cite news|url=http://blogs.ams.org/mathgradblog/2014/04/30/shors-algorithm-breaking-rsa-encryption|title=Shor's Algorithm – Breaking RSA Encryption|date=2014-04-30|newspaper=AMS Grad Blog|access-date=2017-01-17}}</ref>
+
+By using [[Grover's algorithm]] on a quantum computer, brute-force key search can be made quadratically faster. However, this could be countered by doubling the key length.<ref name=djb-groverr>{{cite journal |date=2010-03-03 |author=[[Daniel J. Bernstein]] |title=Grover vs. McEliece |url=http://cr.yp.to/codes/grovercode-20100303.pdf }}</ref>
+
+==See also==
+*[[Economics of security]]
+*[[Global surveillance]]
+*[[Information assurance]], a term for information security often used in government
+*[[Information security]], the overarching goal of most cryptography
+*[[National Cipher Challenge]]
+*[[Security engineering]], the design of applications and protocols
+*[[Security vulnerability]]; vulnerabilities can include cryptographic or other flaws
+*[[Topics in cryptography]]
+*[[Zendian Problem]]
+
+===Historic cryptanalysts===
+*[[Conel Hugh O'Donel Alexander]]
+*[[Charles Babbage]]
+*[[Lambros D. Callimahos]]
+*[[Joan Clarke]]
+*[[Alastair Denniston]]
+*[[Agnes Meyer Driscoll]]
+*[[Elizebeth Friedman]], co-inventor of modern cryptology<ref>{{cite web|title=Elizebeth S. Friedman|url=https://www.nsa.gov/about/cryptologic-heritage/historical-figures-publications/hall-of-honor/1999/efriedman.shtml|website=Hall of Honor|publisher=National Security Agency|accessdate=1 April 2018|language=en}}</ref>
+*[[William F. Friedman]], co-inventor of modern cryptology
+*[[Meredith Gardner]]
+*[[Friedrich Kasiski]]
+*[[Al-Kindi]]
+*[[Dilly Knox]]
+*[[Solomon Kullback]]
+*[[Marian Rejewski]]
+*[[Joseph Rochefort]], whose contributions affected the outcome of the [[Battle of Midway]]
+*[[Frank Rowlett]]
+*[[Abraham Sinkov]]
+*[[Giovanni Soro]], the Renaissance's first outstanding cryptanalyst
+*[[John Tiltman]]
+*[[Alan Turing]]
+*[[W. T. Tutte|William T. Tutte]]
+*[[John Wallis]] - 17th-century English mathematician
+*[[William Stone Weedon]] - worked with [[Fredson Bowers]] in World War II
+*[[Herbert Yardley]]
+
+==References==
+{{refimprove|date=April 2012}}
+
+===Notes===
+{{Reflist|35em}}
+
+===Bibliography===
+*[[Ibrahim A. Al-Kadi]],"The origins of cryptology: The Arab contributions", ''[[Cryptologia]]'', 16(2) (April 1992) pp.&nbsp;97–126.
+*Friedrich L. Bauer: "Decrypted Secrets". Springer 2002. {{ISBN|3-540-42674-4}}
+* {{Citation | last = Budiansky | first = Stephen  | date = 10 October 2000 | title = Battle of wits: The Complete Story of Codebreaking in World War II | publisher = Free Press | isbn = 978-0-684-85932-3}}
+* {{cite web | last = Burke | first = Colin B. | title = It Wasn't All Magic: The Early Struggle to Automate Cryptanalysis, 1930s-1960s | place = Fort Meade | publisher = Center for Cryptologic History, National Security Agency | year = 2002 |url=https://purl.fdlp.gov/GPO/gpo40404}}
+* {{Citation | last = Calvocoressi | first = Peter | author-link = Peter Calvocoressi | title = Top Secret Ultra | place = Cleobury Mortimer, Shropshire | publisher = M & M Baldwin | origyear = 1980 | year = 2001 | isbn = 0-947712-41-0 }}
+* {{Citation | last = Churchhouse | first = Robert | title = Codes and Ciphers: Julius Caesar, the Enigma and the Internet | place = Cambridge | publisher = Cambridge University Press | year = 2002 | isbn = 978-0-521-00890-7 }}
+* {{Citation | editor-last = Copeland | editor-first = B. Jack | editor-link = Jack Copeland | title = Colossus: The Secrets of Bletchley Park's Codebreaking Computers | place = Oxford | publisher = Oxford University Press | year = 2006 | isbn = 978-0-19-284055-4 }}
+*Helen Fouché Gaines, "Cryptanalysis", 1939, Dover. {{ISBN|0-486-20097-3}}
+*[[David Kahn (writer)|David Kahn]], "[[The Codebreakers]] - The Story of Secret Writing", 1967. {{ISBN|0-684-83130-9}}
+*[[Lars R. Knudsen]]: Contemporary Block Ciphers. Lectures on Data Security 1998: 105-126
+* {{Cite journal | last = Schneier | first = Bruce | author-link = Bruce Schneier | title = A Self-Study Course in Block-Cipher Cryptanalysis | journal = Cryptologia | volume = 24 | issue = 1 | pages = 18–34 |date=January 2000 | url = https://www.schneier.com/paper-self-study.html | doi = 10.1080/0161-110091888754 | ref = harv | postscript = <!-- Bot inserted parameter. Either remove it; or change its value to "." for the cite to end in a ".", as necessary. -->{{inconsistent citations}} }}
+*[[Abraham Sinkov]], ''Elementary Cryptanalysis: A Mathematical Approach'', Mathematical Association of America, 1966. {{ISBN|0-88385-622-0}}
+*[[Christopher Swenson]], Modern Cryptanalysis: Techniques for Advanced Code Breaking, {{ISBN|978-0-470-13593-8}}
+*[[William F. Friedman|Friedman, William F.]], [[Military Cryptanalysis (book) (William F. Friedman)|Military Cryptanalysis]], Part I, {{ISBN|0-89412-044-1}}
+*Friedman, William F., Military Cryptanalysis, Part II, {{ISBN|0-89412-064-6}}
+*Friedman, William F., Military Cryptanalysis, Part III, Simpler Varieties of Aperiodic Substitution Systems, {{ISBN|0-89412-196-0}}
+*Friedman, William F., Military Cryptanalysis, Part IV, Transposition and Fractionating Systems, {{ISBN|0-89412-198-7}}
+*Friedman, William F. and [[Lambros D. Callimahos]], [[Military Cryptanalytics]], Part I, Volume 1, {{ISBN|0-89412-073-5}}
+*Friedman, William F. and Lambros D. Callimahos, Military Cryptanalytics, Part I, Volume 2, {{ISBN|0-89412-074-3}}
+*Friedman, William F. and Lambros D. Callimahos, Military Cryptanalytics, Part II, Volume 1, {{ISBN|0-89412-075-1}}
+*Friedman, William F. and Lambros D. Callimahos, Military Cryptanalytics, Part II, Volume 2, {{ISBN|0-89412-076-X}}
+* {{Citation  | last = Hinsley | first = F.H. | author-link = Harry Hinsley | year = 1993 | title = Introduction: The influence of Ultra in the Second World War }} in {{Harvnb|Hinsley|Stripp|1993|pp=1–13}}
+*{{Citation |last=Singh |first=Simon |author-link=Simon Singh |year=1999 |title=[[The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography]] |publication-place=London |publisher=Fourth Estate |pages=143–189 |isbn=1-85702-879-1}}
+* {{Citation | last = Smith | first = Michael | title = The Emperor's Codes: Bletchley Park and the breaking of Japan's secret ciphers | place = London | publisher = Random House | year = 2000 | isbn = 0-593-04641-2 }}
+* {{Citation | last = Tutte | first = W. T. | author-link = W. T. Tutte | title = Fish and I | date = 19 June 1998 | url = http://frode.home.cern.ch/frode/crypto/tutte.pdf | accessdate = 7 October 2010 | deadurl = yes | archiveurl = https://web.archive.org/web/20070710042331/http://frode.home.cern.ch/frode/crypto/tutte.pdf | archivedate = 10 July 2007 | df =  }} Transcript of a lecture given by Prof. Tutte at the [[University of Waterloo]]
+* {{Citation | last = Winterbotham | first = F.W. | author-link = F.W. Winterbotham | title = The Ultra secret: the inside story of Operation Ultra, Bletchley Park and Enigma | place = London | publisher = Orion Books Ltd | origyear = 1974 | year = 2000 | oclc = 222735270 | isbn = 978-0-7528-3751-2 }}
+
+==Further reading==
+<!-- * {{cite book|title=|publisher=|year=|isbn=|url=}} -->
+* {{cite book|author=Bard, Gregory V.|title=Algebraic Cryptanalysis|publisher=Springer|year=2009|isbn=978-1-4419-1019-6|url=https://books.google.com/books?id=PYs4Vjdo0z0C}}
+* {{cite book|author=Hinek, M. Jason|title=Cryptanalysis of RSA and Its Variants|publisher=CRC Press|year=2009|isbn=978-1-4200-7518-2|url=https://books.google.com/books?id=LS8m8nyu55QC}}
+* {{cite book|author=Joux, Antoine|title=Algorithmic Cryptanalysis|publisher=CRC Press|year=2009|isbn=978-1-4200-7002-6|url=https://books.google.com/books?id=buQajqt-_iUC}}
+* {{cite book|author1=Junod, Pascal  |author2=Canteaut, Anne|title=Advanced Linear Cryptanalysis of Block and Stream Ciphers|publisher=IOS Press|year=2011|isbn=978-1-60750-844-1|url=https://books.google.com/books?id=pMnRhjStTZoC}}
+* {{cite book|authors=Stamp, Mark & Low, Richard|title=Applied Cryptanalysis: Breaking Ciphers in the Real World|publisher=John Wiley & Sons|year=2007|isbn=978-0-470-11486-5|url=https://books.google.com/books?id=buVGyPNbwJUC}}
+* {{cite book|author=Sweigart, Al|title=Hacking Secret Ciphers with Python|publisher=Al Sweigart|year=2013|isbn=978-1482614374|url=http://inventwithpython.com/hacking}}
+* {{cite book|author=Swenson, Christopher|title=Modern cryptanalysis: techniques for advanced code breaking|publisher=John Wiley & Sons|year=2008|isbn=978-0-470-13593-8|url=https://books.google.com/books?id=oLoaWgdmFJ8C}}
+* {{cite book|author=Wagstaff, Samuel S.|title=Cryptanalysis of number-theoretic ciphers|publisher=CRC Press|year=2003|isbn=978-1-58488-153-7|url=https://books.google.com/books?id=jQxRYd65LxIC}}
+
+==External links==
+{{Wiktionary|cryptanalysis}}
+{{commons category|Cryptanalysis}}
+*[http://www.umich.edu/~umich/fm-34-40-2/ Basic Cryptanalysis] (files contain 5 line header, that has to be removed first)
+*[http://distributedcomputing.info/ap-crypto.html#m4 Distributed Computing Projects]
+*[https://github.com/Deadlyelder/Tools-for-Cryptanalysis List of tools for cryptanalysis on modern cryptography]
+*[http://simonsingh.net/cryptography/ Simon Singh's crypto corner]
+*[https://web.archive.org/web/20090129221702/http://tnmoc.org/home.aspx The National Museum of Computing]
+*[http://home.no.net/fenja256/ultraanvil/ UltraAnvil tool for attacking simple substitution ciphers]
+*[http://www.iwm.org.uk/history/how-alan-turing-cracked-the-enigma-code How Alan Turing Cracked The Enigma Code] Imperial War Museums
+
+{{Cryptography navbox}}
+{{Portal bar|Cryptography}}
+
+{{Authority control}}
+
+[[Category:Cryptographic attacks]]
+[[Category:Applied mathematics]]
+[[Category:Cryptography]]

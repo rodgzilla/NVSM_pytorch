@@ -1,0 +1,200 @@
+{{redirect|Zuse|Konrad Zuse's son|Horst Zuse|the institute|Zuse Institute Berlin}}
+
+{{pp|small=yes}}
+{{Infobox scientist
+| name = Konrad Zuse
+| image = Konrad Zuse (1992).jpg
+| caption = Konrad Zuse in 1992
+| birth_date = {{birth date|1910|6|22|df=yes}}
+| birth_place = [[Berlin]], [[Kingdom of Prussia|Prussia]], [[German Empire]]
+| death_date = {{death date and age|1995|12|18|1910|6|22|df=yes}}
+| death_place = [[Hünfeld]], [[Hesse]], Germany
+| residence = 
+| nationality = German
+| field = [[Computer science]]<br /> [[Computer engineering]]
+| work_institutions = Aerodynamic Research Institute
+| alma_mater = [[Technical University of Berlin]]
+| doctoral_advisor = 
+| doctoral_students = 
+| known_for  = [[Z3 (computer)|Z3]], [[Z4 (computer)|Z4]]<br />[[Plankalkül]]<br />[[Calculating Space]] (cf. [[digital physics]])
+| prizes = ''[[Werner von Siemens Ring]]'' in 1964, <br /> ''[[Harry H. Goode Memorial Award]]'' in 1965 (together with [[George Stibitz]]), <br />[[Wilhelm Exner Medal]], 1969<ref name="Editor 2015">Editor, ÖGV. (2015). Wilhelm Exner Medal. Austrian Trade Association. ÖGV. Austria.</ref><br>''[[Order of Merit of the Federal Republic of Germany]]'' in 1972 <br />''[[Computer History Museum]] Fellow Award'' in 1999
+| signature= Konrad Zuse Signature.png
+}}
+'''Konrad Zuse''' ({{IPA-de|ˈkɔnʁat ˈtsuːzə|lang}}; 22 June 1910 – 18 December 1995) was a German [[civil engineer]], inventor and [[computer pioneer]]. His greatest achievement was the world's first programmable computer; the functional program-controlled [[Turing completeness|Turing-complete]] [[Z3 (computer)|Z3]] became operational in May 1941. Thanks to this machine and its predecessors, Zuse has often been regarded as the inventor of the modern computer.<ref>[http://ed-thelen.org/comp-hist/Zuse_Z1_and_Z3.pdf PDF] Raúl Rojas: Konrad Zuse’s Legacy: The Architecture of the Z1 and Z3</ref><ref>[http://www.inf.fu-berlin.de/~rojas/1997/Universal_Computer.pdf] [http://citeseerx.ist.psu.edu/viewdoc/download;?doi=10.1.1.37.665&rep=rep1&type=pdf] Raúl Rojas: How to make Zuse's Z3 a universal computer.</ref><ref>[http://www.rtd-net.de/Zuse.html RTD Net]: "From various sides Konrad Zuse was awarded with the title "Inventor of the computer"."</ref><ref>[http://www.german-way.com/famous-konrad-zuse.html GermanWay]: "(...)German inventor of the computer"</ref><ref>[http://www.monstersandcritics.com/tech/features/article_1566782.php/Z-like-Zuse-German-inventor-of-the-computer Monsters & Critics] {{webarchive |url=https://web.archive.org/web/20130522022610/http://www.monstersandcritics.com/tech/features/article_1566782.php/Z-like-Zuse-German-inventor-of-the-computer |date=May 22, 2013 }}: "he [Zuse] built the world's first computer in Berlin"</ref><ref>[http://inventors.about.com/library/weekly/aa050298.htm About.com]: "Konrad Zuse earned the semiofficial title of 'inventor of the modern computer{{'"}}</ref>
+
+Zuse was also noted for the S2 computing machine, considered the first [[process control]] computer. He founded one of the earliest computer businesses in 1941, producing the [[Z4 (computer)|Z4]], which became the world's first commercial computer. From 1943<ref>''Inception of a universal theory of computation with special consideration of the propositional calculus and its application to relay circuits'' (Zuse, Konrad, (1943) "Ansätze einer Theorie des allgemeinen Rechnens unter besonderer Berücksichtigung des Aussagenkalküls und dessen Anwendung auf Relaisschaltungen"), unpublished manuscript, Zuse Papers 045/018.</ref> to 1945<ref>A book on the subject: [http://www.zib.de/zuse/English_Version/Inhalt/Texte/Chrono/40er/Pdf/0233.pdf (full text of the 1945 manuscript)] {{webarchive|url=https://web.archive.org/web/20120210150041/http://www.zib.de/zuse/English_Version/Inhalt/Texte/Chrono/40er/Pdf/0233.pdf |date=2012-02-10 }}</ref> he designed the first [[high-level programming language]], [[Plankalkül]].<ref name="HZ2010-11-18"/> In 1969, Zuse suggested the concept of a [[digital physics|computation-based universe]] in his book ''Rechnender Raum'' (''[[Calculating Space]]'').
+
+Much of his early work was financed by his family and commerce, but after 1939 he was given resources by the [[Nazi Germany|Nazi German]] government.<ref name="books.google.com">[https://books.google.com/books?id=gayW7Z-B_e8C&pg=PA82&dq=zuse,+nazi&lr=&cd=24#v=onepage&q=zuse%2C%20nazi&f=false "Weapons Grade: How Modern Warfare Gave Birth To Our High-Tech World"], David Hambling. Carroll & Graf Publishers, 2006. {{ISBN|0-7867-1769-6}}, {{ISBN|978-0-7867-1769-9}}. Retrieved March 14, 2010.</ref> Due to [[World War II]], Zuse's work went largely unnoticed in the [[United Kingdom]] and the [[United States]]. Possibly his first documented influence on a US company was [[IBM]]'s option on his patents in 1946.
+
+There is a replica of the Z3, as well as the original Z4, in the [[Deutsches Museum]] in [[Munich]]. The [[Deutsches Technikmuseum Berlin|Deutsches Technikmuseum]] in [[Berlin]] has an exhibition devoted to Zuse, displaying twelve of his machines, including a replica of the [[Z1 (computer)|Z1]] and several of Zuse's paintings.
+
+==Pre-World War II work and the Z1==
+[[File:Zuse Z1-2.jpg|thumb|left|Zuse Z1 replica in the [[German Museum of Technology]] in Berlin]]
+Born in [[Berlin]], [[Germany]], on 22 June 1910, he moved with his family in 1912 to [[East Prussia]]n [[Braunsberg]] (now Braniewo in [[Poland]]), where his father was a postal clerk. Zuse attended the [[Collegium Hosianum]] in Braunsberg. In 1923, the family moved to [[Hoyerswerda]], where he passed his [[Abitur]] in 1928, qualifying him to enter university.
+
+He enrolled in the ''[[Technische Hochschule]] Berlin'' (now [[Technical University of Berlin]]) and explored both engineering and architecture, but found them boring. Zuse then pursued [[civil engineering]], graduating in 1935. For a time, he worked for the [[Ford Motor Company]], using his considerable artistic skills in the design of advertisements.<ref name="HZ2010-11-18">Talk given by [[Horst Zuse]] to the [[Computer Conservation Society]] at the [[Science Museum (London)]] on 18 November 2010</ref> He started work as a design engineer at the [[Henschel]] aircraft factory in [[Schönefeld|Schönefeld near Berlin]]. This required the performance of many routine calculations by hand, which he found mind-numbingly boring, leading him to dream of doing them by machine.
+
+Beginning in 1935 he experimented in the construction of computers in his parents' flat on Wrangelstraße 38, moving with them into their new flat on Methfesselstraße 10, the street leading up the [[Kreuzberg (Tempelhofer Berge)|Kreuzberg]], Berlin.<ref name="Spode Computer 1994 418">[[Hasso Spode]], „Der Computer – eine Erfindung aus Kreuzberg, Methfesselstraße 10/Oranienstraße 6“, in: ''Geschichtslandschaft Berlin: Orte und Ereignisse'': 5 vols., Helmut Engel, Stefi Jersch-Wenzel, Wilhelm Treue (eds.), vol.&nbsp;5: 'Kreuzberg', Berlin: Nicolai, 1994, pp.&nbsp;418–429, here p.&nbsp;418. {{ISBN|3-87584-474-2}}.</ref> Working in his parents' apartment in 1936, he produced his first attempt, the [[Z1 (computer)|Z1]], a [[floating point]] binary mechanical calculator with limited programmability, reading instructions from a perforated 35&nbsp;mm film.<ref name="HZ2010-11-18"/> In 1937, Zuse submitted two patents that anticipated a [[von Neumann architecture]]. He finished the Z1 in 1938. The Z1 contained some 30,000 metal parts and never worked well due to insufficient mechanical precision. On 30 January 1944, the Z1 and its original [[blueprint]]s were destroyed with his parents' flat and many neighbouring buildings by a [[Battle of Berlin (air)|British air raid]] in [[World War II]].<ref name="Spode Computer 1994 426">Hasso Spode, „Der Computer – eine Erfindung aus Kreuzberg, Methfesselstraße 10/Oranienstraße 6“, in: ''Geschichtslandschaft Berlin: Orte und Ereignisse'': 5 vols., Helmut Engel, Stefi Jersch-Wenzel, Wilhelm Treue (eds.), vol.&nbsp;5: 'Kreuzberg', Berlin: Nicolai, 1994, pp.&nbsp;418–429, p.&nbsp;426. {{ISBN|3-87584-474-2}}.</ref>
+
+Between 1987 and 1989, Zuse recreated the Z1, suffering a heart attack midway through the project. It cost 800,000&nbsp;[[Deutsche Mark|DM]], (approximately $500,000) and required four individuals (including Zuse) to assemble it. Funding for this [[retrocomputing]] project was provided by [[Siemens]] and a consortium of five companies.
+
+==The Z2, Z3, and Z4==
+[[File:2007-01-20 Gedenktafel Zuse Z3.jpg|thumb|right|Plaque commemorating Zuse's work, attached to the ruin of Methfesselstraße 7, Berlin]] Zuse completed his work entirely independently of other leading computer scientists and mathematicians of his day. Between 1936 and 1945, he was in near-total intellectual isolation.<ref>[http://www.gap-system.org/~history/Biographies/Zuse.html "Konrad Zuse"] {{webarchive|url=https://web.archive.org/web/20110829164932/http://www.gap-system.org/~history/Biographies/Zuse.html |date=2011-08-29 }}, Gap System. Retrieved March 14, 2010.</ref> In 1939, Zuse was called to military service, where he was given the resources to ultimately build the [[Z2 (computer)|Z2]].<ref name="books.google.com"/> In September 1940 Zuse presented the Z2, covering several rooms in the parental flat, to experts of the [[Deutsche Versuchsanstalt für Luftfahrt#History|Deutsche Versuchsanstalt für Luftfahrt]] (DVL; i.e. German Research Institute for Aviation).<ref name="Spode Computer 1994 424">Hasso Spode, „Der Computer – eine Erfindung aus Kreuzberg, Methfesselstraße 10/Oranienstraße 6“, in: ''Geschichtslandschaft Berlin: Orte und Ereignisse'': 5 vols., Helmut Engel, Stefi Jersch-Wenzel, Wilhelm Treue (eds.), vol.&nbsp;5: 'Kreuzberg', Berlin: Nicolai, 1994, pp.&nbsp;418–429, p.&nbsp;424. {{ISBN|3-87584-474-2}}.</ref> The Z2 was a revised version of the Z1 using telephone [[relay]]s.
+
+The DVL granted research subsidies so that in 1941 Zuse started a company, ''Zuse Apparatebau'' (Zuse Apparatus Construction), to manufacture his machines,<ref>{{Cite book | last = Lippe | first = Wolfram-M. | title = Die Geschichte der Rechenautomaten | trans-title = The History of Computing Machines | chapter = Kapitel 14: Die ersten programmierbaren Rechner | trans-chapter = Chapter 14: The First Programmable Computer | url = http://cs.uni-muenster.de/Professoren/Lippe/lehre/skripte/geschichte/ | chapterurl = http://cs.uni-muenster.de/Professoren/Lippe/lehre/skripte/geschichte/pdf/Kap14.pdf | accessdate = 2010-06-21 | archive-url = https://web.archive.org/web/20080503054847/http://cs.uni-muenster.de/Professoren/Lippe/lehre/skripte/geschichte/ | archive-date = 2008-05-03 | dead-url = yes | df =  }}</ref> renting a workshop on the opposite side in Methfesselstraße 7 and stretching through the block to Belle-Alliance Straße 29 (renamed and renumbered as [[Mehringdamm]] 84 in 1947).<ref name="Spode Computer 1994 418"/><ref name="Spode Computer 1994 425">Hasso Spode, „Der Computer – eine Erfindung aus Kreuzberg, Methfesselstraße 10/Oranienstraße 6“, in: ''Geschichtslandschaft Berlin: Orte und Ereignisse'': 5 vols., Helmut Engel, Stefi Jersch-Wenzel, Wilhelm Treue (eds.), vol.&nbsp;5: 'Kreuzberg', Berlin: Nicolai, 1994, pp.&nbsp;418–429, p.&nbsp;425. {{ISBN|3-87584-474-2}}.</ref>
+
+Improving on the basic Z2 machine, he built the [[Z3 (computer)|Z3]] in 1941. On 12 May 1941 Zuse presented the Z3, built in his workshop, to the public.<ref name="Spode Computer 1994 425"/><ref name="Chod 2003 52">Kathrin Chod, Herbert Schwenk and Hainer Weißpflug, ''Berliner Bezirkslexikon: Friedrichshain-Kreuzberg'', Berlin: Haude & Spener / Edition Luisenstadt, 2003, p.&nbsp;52. {{ISBN|3-7759-0474-3}}.</ref> The Z3 was a [[Binary numeral system|binary]] 22-bit [[floating point]] calculator featuring programmability with loops but without conditional jumps, with memory and a calculation unit based on telephone relays. The telephone relays used in his machines were largely collected from discarded stock. Despite the absence of conditional jumps, the Z3 was a [[Turing complete]] computer. However, Turing-completeness was never considered by Zuse (who had practical applications in mind) and only demonstrated in 1998 (see [[History of computing hardware]]).
+
+The Z3, the first fully operational electromechanical computer, was partially financed by German government-supported DVL, which wanted their extensive calculations automated. A request by his co-worker [[Helmut Schreyer]]—who had helped Zuse build the Z3 prototype in 1938<ref>St. Amant, Kirk; Still, Brian. [https://books.google.com/books?id=75KT6GdcWbYC&pg=PA62&dq=z3,+nazi,+zuse&cd=5#v=onepage&q=z3%2C%20nazi%2C%20zuse&f=false ''Handbook of research on open source software''] Idea Group. 2007. {{ISBN|978-1-59140-999-1}}. Retrieved March 14, 2010.</ref>—for government funding for an electronic successor to the Z3 was denied as "strategically unimportant".
+
+[[File:KZuse denkmal.jpg|thumb|right|Statue of Zuse in [[Bad Hersfeld]]]] In 1937, Schreyer had advised Zuse to use [[vacuum tube]]s as switching elements; Zuse at this time considered it a crazy idea ("Schnapsidee" in his own words). Zuse's workshop on Methfesselstraße 7 (with the Z3) was destroyed in an [[Bombing of Berlin in World War II|Allied Air raid in late 1943]] and the parental flat with Z1 and Z2 on 30 January the following year, whereas the successor [[Z4 (computer)|Z4]], which Zuse had begun constructing in 1942<ref name=MCML /> in new premises in the ''Industriehof'' on Oranienstraße 6, remained intact.<ref name="Spode Computer 1994 428">Hasso Spode, „Der Computer – eine Erfindung aus Kreuzberg, Methfesselstraße 10/Oranienstraße 6“, in: ''Geschichtslandschaft Berlin: Orte und Ereignisse'': 5 vols., Helmut Engel, Stefi Jersch-Wenzel, Wilhelm Treue (eds.), vol.&nbsp;5: 'Kreuzberg', Berlin: Nicolai, 1994, pp.&nbsp;418–429, p.&nbsp;428. {{ISBN|3-87584-474-2}}.</ref> On 3 February 1945, aerial bombing caused devastating destruction in the [[Luisenstadt]], the area around Oranienstraße, including neighbouring houses.<ref>{{cite web|url=http://www.kreuzberger-chronik.de/chroniken/2011/oktober/geschichten.html|title=Kreuzberger Chronik: Bomber Ã¼ber Kreuzberg - Sie lesen das Original! aus Berlin-Kreuzberg|first=Bernd Selig, Kreuzberger|last=Chronik|website=www.kreuzberger-chronik.de}}</ref> This event effectively brought Zuse's research and development to a complete halt. The partially finished, relay-based Z4 was packed and moved from Berlin on 14 February, only arriving in [[Göttingen]] two weeks later.<ref name="Spode Computer 1994 428"/>
+
+Work on the Z4 could not be resumed immediately in the extreme privation of [[Allied-occupied Germany|post-war Germany]], and it was not until 1949 that he was able to resume work on it. He showed it to the mathematician [[Eduard Stiefel]] of the [[ETH Zürich|Swiss Federal Institute of Technology Zurich]] (''Eidgenössische Technische Hochschule (ETH) Zürich'') who ordered one in 1950. On 8 November 1949, Zuse KG was founded. The Z4 was delivered to ETH Zurich on 12 July 1950, and proved very reliable.<ref name="HZ2010-11-18"/>
+
+==S1 and S2==
+In 1940, the German government began funding him through the ''Aerodynamische Versuchsanstalt'' (AVA, Aerodynamic Research Institute, forerunner of the [[German Aerospace Center|DLR]]),<ref>[http://www5.in.tum.de/~huckle/mathwar.html "Mathematicians during the Third Reich and World War II"], Technische Universität München. Retrieved March 14, 2010.</ref> which used his work for the production of [[glide bomb]]s. Zuse built the S1 and S2 computing machines, which were special purpose devices which computed aerodynamic corrections to the wings of radio-controlled flying bombs. The S2 featured an integrated [[analog-to-digital converter]] under program control, making it the first process-controlled computer.<ref name=MCML />
+
+These machines contributed to the Henschel Werke [[Henschel Hs 293|Hs 293]] and [[Henschel Hs 294|Hs 294]] guided missiles developed by the German military between 1941 and 1945, which were the precursors to the modern [[cruise missile]].<ref name=MCML>{{Citation | last = Zuse | first = Konrad | author-link = Konrad Zuse | editor-last = Wössner | editor-first = Hans | title = The Computer – My Life (Translation of Der Computer – Mein Lebenswerk) | place = Heidelberg | publisher = Springer Verlag | origyear = 1993 | year = 2010 | url = https://books.google.com/?id=Ro5JOskbChAC&pg=PA75&dq=konrad+zuse,+z4&cd=1#v=onepage&q=&f=false | isbn = 978-3-642-08151-4 }}</ref><ref>[https://books.google.com/books?id=wx7myVYenMcC&pg=PA51&dq=s1,+s2,+HS-293&cd=1#v=onepage&q=&f=false "Germany's Secret Weapons in World War II"], Roger Ford. Zenith Imprint, 2000. {{ISBN|0-7603-0847-0}}, {{ISBN|978-0-7603-0847-9}}. Retrieved March 14, 2010.</ref><ref>[https://archive.is/20120731110116/http://www.atypon-link.com/OLD/doi/abs/10.1524/itit.2010.0566 "The S1 and S2 Computing Machines — Konrad Zuse´s Work for the German Military 1941–1945"], Atypon Link. Retrieved March 14, 2010.</ref> The circuit design of the S1 was the predecessor of Zuse's [[Z11 (computer)|Z11]].<ref name=MCML /> Zuse believed that these machines had been captured by occupying Soviet troops in 1945.<ref name=MCML />
+
+==Plankalkül==
+{{main|Plankalkül}}
+While working on his Z4 computer, Zuse realised that programming in [[machine code]] was too complicated. He started working on a PhD thesis<ref>K. Zuse: [http://herbscorner.lepete.de/upload/plankalkuel.%28pdf%29 Der Plankalkül] {{Webarchive|url=https://web.archive.org/web/20150512112136/http://herbscorner.lepete.de/upload/plankalkuel.%28pdf%29 |date=2015-05-12 }}. PhD thesis, 1945</ref> containing groundbreaking research years ahead of its time, mainly the first high-level programming language, [[Plankalkül]] ("Plan Calculus") and, as an elaborate example program, the first real computer chess engine.<ref name=knuthpardo>Knuth & Pardo: The early development of programming languages. In Nicholas Metropolis (Ed): ''History of Computing in the Twentieth Century'', p. 203</ref> After the 1945 Luisenstadt bombing, he flew from Berlin for the rural [[Allgäu]], and, unable to do any hardware development, he continued working on the Plankalkül, eventually publishing some brief excerpts of his thesis in 1948 and 1959; the work in its entirety, however, remained unpublished until 1972.<ref name="knuthpardo"/> The PhD thesis was submitted at [[University of Augsburg]], but rejected for formal reasons, because Zuse forgot to pay the 400 Mark university enrollment fee. (The rejection did not bother him.<ref>{{cite web|url=https://www.get-it.tu-berlin.de/menue/werdegaenge/ursula_walk/|title=get-it: Ursula Walk|website=www.get-it.tu-berlin.de}}</ref>) Plankalkül slightly influenced the design of [[ALGOL 58]]<ref>{{cite book |last=Rojas|first=Raúl|first2=Ulf|last2=Hashagen| year=2002 |title=The First Computers: History and Architectures|page=292 |url=https://books.google.com/books?id=nDWPW9uwZPAC&pg=PA292&dq=algol-68+konrad+zuse |location= |publisher=MIT Press |isbn=978-0262681377 |accessdate=October 25, 2013 }}</ref> but was itself implemented only in 1975 in a dissertation by Joachim Hohmann.<ref>Joachim Hohmann: Der Plankalkül im Vergleich mit algorithmischen Sprachen. Reihe Informatik und Operations Research, S. Toeche-Mittler Verlag, Darmstadt 1979, {{ISBN|3-87820-028-5}}.</ref> [[Heinz Rutishauser]], one of the inventors of [[ALGOL]], wrote: "The very first attempt to devise an [[algorithm]]ic language was undertaken in 1948 by K. Zuse. His notation was quite general, but the proposal never attained the consideration it deserved". Further implementations followed in 1998 and then in 2000 by a team from the [[Free University of Berlin]]. [[Donald Knuth]] suggested a [[thought experiment]]: What might have happened had the bombing not taken place, and had the PhD thesis accordingly been published as planned?<ref name=knuthpardo/>
+
+==Graphomat Z64 plotter==
+[[File:Zuse Z64 Graphomat.jpg|alt=Z64 Graphomat plotter|thumb|Z64 Graphomat plotter]]
+In addition to his computing-related work, described above, Zuse began to work in 1956 on a high precision, large format [[plotter]]. It was demonstrated at the 1961 [[Hanover Fair]],<ref name=HorstZuse>{{cite web|url=http://www.horst-zuse.homepage.t-online.de/z64.html|title=Graphomat Z64 (in German)|website=www.zuse.de}}</ref> and became well known also outside of the technical world thanks to [[Frieder Nake]]'s pioneering computer art work.<ref>{{cite web|url=http://www.heikewerner.com/nake_en.html|title=Pioneer Work: Frieder Nake|website=http://www.heikewerner.com}}</ref>
+
+Other plotters designed by Zuse include the ZUSE Z90 and ZUSE Z9004.<ref name=HorstZuse/>
+
+==Personal life==
+[[File:Konrad Zuse Denkmal im Huenfelder Stadtpark.JPG|thumb|right|Zuse Memorial in [[Hünfeld]], Hessen]]
+Konrad Zuse married Gisela Brandes in January 1945, employing a carriage, himself dressed in tailcoat and top hat and with Gisela in a wedding veil, for Zuse attached importance to a "noble ceremony". Their son [[Horst Zuse|Horst]], the first of five children, was born in November 1945.
+
+While Zuse never became a member of the [[Nazi Party]], he is not known to have expressed any doubts or qualms about working for the Nazi war effort. Much later, he suggested that in modern times, the best scientists and engineers usually have to choose between either doing their work for more or less questionable business and military interests in a [[Deal with the Devil|Faustian bargain]], or not pursuing their line of work at all.<ref>Zuse, Konrad. ''Der Computer, mein Lebenswerk [The Computer, My Life's Work]''. Berlin: Springer. 1984. page X. {{ISBN|978-3-540-13814-3}}</ref>
+
+According to the memoirs of the German computer pioneer [[Heinz Billing]] from the [[Max Planck Institute for Physics]], published by Genscher, Düsseldorf, there was a meeting between [[Alan Turing]] and Konrad Zuse.<ref>{{cite web|url=http://www.mathcomp.leeds.ac.uk/turing2012/Images/Turing_Zuse.pdf|title=Did Alan Turing interrogate Konrad Zuse in Göttingen in 1947?|author=Bruderer, Herbert |accessdate= 7 February 2013}}</ref> It took place in [[Göttingen]] in 1947. The encounter had the form of a [[Academic conference|colloquium]]. Participants were [[John R. Womersley|Womersley]], Turing, Porter from England and a few German researchers like Zuse, Walther, and Billing. (For more details see Herbert Bruderer, ''Konrad Zuse und die Schweiz'').
+
+After he retired, he focused on his hobby of painting.{{citation needed|date=September 2014}}
+
+Zuse was an atheist.<ref>{{cite book|title=The Man Who Invented the Computer: The Biography of John Atanasoff, Digital Pioneer|year=2010|publisher=Random House Digital, Inc.|isbn=9780385527132|author=Jane Smiley|quote=Like Alan Turing, Zuse was educated in a system that focused on a child's emotional and philosophical life as well as his intellectual life, and at the end of school, like Turing, Zuse found himself to be something of an outsider—to the disappointment of his very conventional parents, he no longer believed in God or religion.}}</ref><ref>{{cite book|title=The Computer, My Life|year=1993|publisher=Springer|isbn=978-3-540-56453-9|pages=12–13|author=Konrad Zuse|quote=The only problem was that the progressive spirit at our school did not always correspond to my parents' ideas. This was particularly true for religious instruction, which now and again seemed even to us pupils to be rather too enlightened. After the 'Abitur' my parents wanted to go to communion with me; it was a terrible disappointment to them when I wouldn't go. They had lived under the illusion that I was a good student when it came to religion, too, which wasn't the case. ...I remember a poem presented by a student, which made a great impression on me. The essence of the poem read, "Basically, you are always alone". I have forgotten the name of the poet, but have often experienced the truth of these words in later life.}}</ref>
+
+==Death==
+Zuse died on 18 December 1995 in [[Hünfeld]], Germany (near [[Fulda]]) from heart failure.
+
+==Zuse the entrepreneur==
+[[File:Zuse-Werkstatt-Neukirchen-Jan-2010.jpg|right|250px|thumb|Zuse's workshop at Neukirchen (photograph taken in January 2010)]]
+[[File:Zuse Z31.jpg|right|250px|thumb|[[Magnetic drum]] storage inside a Z31 (which was first displayed in 1963).]]
+
+During World War 2, Zuse founded one of the earliest computer companies: the ''Zuse-Ingenieurbüro Hopferau''. Capital was raised in 1946 through [[ETH Zurich]] and an IBM option on Zuse's patents.
+
+Zuse founded another company, ''Zuse KG'' in [[Haunetal|Haunetal-Neukirchen]] in 1949; in 1957 the company’s head office moved to [[Bad Hersfeld]]. The [[Z4 (computer)|Z4]] was finished and delivered to the [[ETH Zurich]], [[Switzerland]] in September 1950. At that time, it was the only working computer in continental Europe, and the second computer in the world to be sold, beaten only by the [[BINAC]], which never worked properly after it was delivered. Other computers, all numbered with a leading Z, up to Z43,<ref>{{cite web |url=http://epemag.com/zuse/part7e.htm |title=Part 7 (continued): The Zuse KG |accessdate=July 4, 2011 |deadurl=unfit |archiveurl=https://web.archive.org/web/20090511021714/http://epemag.com/zuse/part7e.htm |archivedate=May 11, 2009 }} Prof. Horst Zuse, EPE Online, archived on May 11, 2009 from [http://www.epemag.com/zuse/part7e.htm the original] {{Webarchive|url=https://web.archive.org/web/20081228103304/http://www.epemag.com/zuse/part7e.htm |date=2008-12-28 }}</ref> were built by Zuse and his company. Notable are the [[Z11 (computer)|Z11]], which was sold to the optics industry and to universities, and the [[Z22 (computer)|Z22]], the first computer with a memory based on magnetic storage.<ref>{{cite web|url=http://www.epemag.com/zuse/ |title=The Life and Work of Konrad Zuse |accessdate=April 18, 2010 |deadurl=unfit |archiveurl=https://web.archive.org/web/20090629003415/http://www.epemag.com/zuse/ |archivedate=June 29, 2009 }} Prof. Horst Zuse, EPE Online, archived on June 29, 2009 from [http://www.epemag.com/zuse/ the original] {{webarchive |url=https://web.archive.org/web/20100418164050/http://www.epemag.com/zuse/ |date=April 18, 2010 }}</ref>
+
+By 1967, the ''Zuse KG'' had built a total of 251 computers. Owing to financial problems, the company was then sold to [[Siemens AG|Siemens]].
+
+==''Calculating Space''==
+[[File:Digitalteilchen.svg|thumb|150px|left|An elementary process in Zuse's Calculating Space: Two digital particles A und B form a new digital particle C.<ref>[ftp://ftp.idsia.ch/pub/juergen/zuse67scan.pdf ''Rechnender Raum''] (PDF document), Elektronische Datenverarbeitung, 8: 336–344, 1967.</ref>]]
+In 1967, Zuse also suggested that the [[universe]] itself is running on a [[cellular automaton]] or similar computational structure ([[digital physics]]); in 1969, he published the book ''Rechnender Raum'' (translated into English as ''[[Calculating Space]]''). This idea has attracted a lot of attention, since there is no physical evidence against Zuse's thesis. [[Edward Fredkin]] (1980s), [[Jürgen Schmidhuber]] (1990s), and others have expanded on it.
+
+==Awards and honours==
+Zuse received several awards for his work:
+* ''[[Werner von Siemens Ring]]'' in 1964 (together with [[Fritz Leonhardt]] and [[Walter Schottky]])<ref>{{cite web|url=http://ei.cs.vt.edu/~history/Zuse.html|title=Konrad Zuse|website=ei.cs.vt.edu}}</ref>
+* ''[[Harry H. Goode Memorial Award]]'' in 1965 (together with [[George Stibitz]])
+* [[Wilhelm Exner Medal]] in 1969.<ref name="Editor 2015"/>
+* ''[[Bundesverdienstkreuz]]'' in 1972 – ''Great Cross of Merit''
+* ''[[Computer History Museum]] Fellow Award'' in 1999 "for his invention of the first program-controlled, electromechanical, digital computer and the first high-level programming language, [[Plankalkül]]."<ref>[http://www.computerhistory.org/fellowawards/hall/bios/Konrad,Zuse/ Konrad Zuse 1999 Fellow Award Recipient] {{webarchive|url=https://web.archive.org/web/20120703013338/http://www.computerhistory.org/fellowawards/hall/bios/Konrad,Zuse/ |date=2012-07-03 }} Computer History Museum</ref>
+
+The [[Zuse Institute Berlin]] is named in his honour.
+
+The [[Konrad Zuse Medal]] of the [[Gesellschaft für Informatik]], and the Konrad Zuse Medal of the Zentralverband des Deutschen Baugewerbes (Central Association of German Construction), are both named after Zuse.
+
+==Zuse Year 2010==
+The 100th anniversary of the birth of this computer pioneer was celebrated by exhibitions, lectures and workshops to remember his life and work and to bring attention to the importance of his invention to the digital age.<ref>{{cite web|url=http://www.horst-zuse.homepage.t-online.de/horst-zuse-zuse-jahr-2010-html/english/index.html|title=Zuse-Jahr 2010|first=Irene|last=Zwernemann-Blech|website=www.horst-zuse.homepage.t-online.de}}</ref><ref>[http://www.sdtb.de/Medieninfo-Zuse-Jahr-2010-zum-100-Geburtstag-d.1642.0.html Zuse-Jahr 2010 – zum 100. Geburtstag des Computerpioniers Konrad Zuse] Deutsches Technikmuseum Berlin, 19 April 2010 {{de icon}}</ref> The movie ''[[Tron: Legacy]]'', which revolves around a world inside a computer system, features a character named Zuse, presumably in honour of Konrad Zuse.{{citation needed|date=November 2011}}  German posts DP AG issued a [https://philatelie.deutschepost.de/Briefmarken/weitere-Briefmarken/nach-Ausgabetag/Jahrgang-2010/2-Quartal-2010/100-Geburtstag-Konrad-Zuse.html commemorative stamp] at this occasion, June 6, 2010: [https://web.archive.org/web/20160304133950/https://philatelie.deutschepost.de/out/pictures/generated/product/1/695_500_75/004478_1.jpg a Zuse portrait], composed solely by the binary code numbers 1 and 0 in fine print.
+
+==See also==
+{{col-begin}}
+{{col-2}}
+* [[Z1 (computer)|Z1]]
+* [[Z2 (computer)|Z2]]
+* [[Z3 (computer)|Z3]]
+* [[Z4 (computer)|Z4]]
+* [[Z5 (computer)|Z5]]
+{{col-2}}
+* [[Z11 (computer)|Z11]]
+* [[Z22 (computer)|Z22]]
+* [[Z23 (computer)|Z23]]
+* [[Z25 (computer)|Z25]]
+* [[Digital philosophy]]
+* [[List of pioneers in computer science]]
+* [[John Vincent Atanasoff]]
+*[[German inventors and discoverers]]
+{{col-end}}
+
+==References==
+{{Reflist}}
+
+==Sources==
+{{Refbegin}}
+* Zuse, Konrad (1993). ''The Computer – My Life.'' Berlin/Heidelberg: Springer-Verlag. {{ISBN|0-387-56453-5}} (translated from the original German edition (1984): ''Der Computer – Mein Lebenswerk.'' Springer. {{ISBN|3-540-56292-3}}.) ([https://link.springer.com/book/10.1007/978-3-662-02931-2] Electronic version from Springer)
+* Zuse, Konrad (1969). ''Rechnender Raum'' Braunschweig: Vieweg & Sohn. {{ISBN|3-528-09609-8}}
+* [ftp://ftp.idsia.ch/pub/juergen/zuse67scan.pdf ''Rechnender Raum''] (PDF document), Elektronische Datenverarbeitung, 8: 336–344, 1967.
+* [ftp://ftp.idsia.ch/pub/juergen/zuserechnenderraum.pdf ''Calculating Space''] English translation as PDF document
+* Zuse, Konrad. Direction-bound engraving tool with program control. U.S. Patent 3,163,936
+* U.S.Patents 3,234,819; 3,306,128; 3,408,483; 3,356,852; 3,316,442
+{{Refend}}
+
+==Further reading==
+* Konrad Zuse: The Computer – My Life, Springer Verlag, {{ISBN|3-540-56453-5}}, {{ISBN|0-387-56453-5}}
+* Jürgen Alex, Hermann Flessner, Wilhelm Mons, Horst Zuse: Konrad Zuse: Der Vater des Computers. Parzeller, Fulda 2000, {{ISBN|3-7900-0317-4}}
+* Raul Rojas (Hrsg.): Die Rechenmaschinen von Konrad Zuse. Springer, Berlin 1998, {{ISBN|3-540-63461-4}}.
+* Wilhelm Füßl (Ed.): 100 Jahre Konrad Zuse. Einblicke in den Nachlass, München 2010, {{ISBN|978-3-940396-14-3}}.
+* Jürgen Alex: Wege und Irrwege des Konrad Zuse. In: Spektrum der Wissenschaft (dt. Ausgabe von Scientific American) 1/1997, {{ISSN|0170-2971}}.
+* Hadwig Dorsch: Der erste Computer. Konrad Zuses Z1 – Berlin 1936. Beginn und Entwicklung einer technischen Revolution. Mit Beiträgen von Konrad Zuse und Otto Lührs. Museum für Verkehr und Technik, Berlin 1989.
+* Clemens Kieser: „Ich bin zu faul zum Rechnen“ – Konrad Zuses Computer Z22 im Zentrum für Kunst und Medientechnologie Karlsruhe. In: Denkmalpflege in Baden-Württemberg, 4/34/2005, Esslingen am Neckar, S. 180–184, {{ISSN|0342-0027}}.
+* Mario G. Losano (ed.), ''Zuse. L'elaboratore nasce in Europa. Un secolo di calcolo automatico'', Etas Libri, Milano 1975, pp.&nbsp;XVIII-184.
+* Arno Peters: Was ist und wie verwirklicht sich Computer-Sozialismus: Gespräche mit Konrad Zuse. Verlag Neues Leben, Berlin 2000, {{ISBN|3-355-01510-5}}.
+* Paul Janositz: Informatik und Konrad Zuse: Der Pionier des Computerbaus in Europa – Das verkannte Genie aus Adlershof. In: Der Tagesspiegel Nr. 19127, Berlin, 9. März 2006, Beilage Seite B3.
+* Jürgen Alex: Zum Einfluß elementarer Sätze der mathematischen Logik bei Alfred Tarski auf die drei Computerkonzepte des Konrad Zuse. TU Chemnitz 2006.
+* Jürgen Alex: Zur Entstehung des Computers – von Alfred Tarski zu Konrad Zuse. VDI-Verlag, Düsseldorf 2007, {{ISBN|978-3-18-150051-4}}, {{ISSN|0082-2361}}.
+* Herbert Bruderer: [http://www.oldenbourg-verlag.de/wissenschaftsverlag/konrad-zuse-und-schweiz/9783486713664 ''Konrad Zuse und die Schweiz. Wer hat den Computer erfunden? Charles Babbage, Alan Turing und John von Neumann''] Oldenbourg Verlag, München 2012, XXVI, 224 Seiten, {{ISBN|978-3-486-71366-4}}
+
+==External links==
+{{Commons}}
+{{Wikiquote}}
+* [http://zuse.zib.de Konrad Zuse Internet Archive]
+* {{webarchive |url=https://web.archive.org/web/20100418164050/http://www.epemag.com/zuse/ |date=April 18, 2010 |title=The Life and Work of Konrad Zuse }} – By Prof. [[Horst Zuse]] (K. Zuse's son); an extensive and well-written historical account
+* {{MacTutor Biography|id=Zuse}}
+* [http://www.tu-berlin.de/ Technical University of Berlin]
+* [http://www.fu-berlin.de/ Free University of Berlin]
+* [https://web.archive.org/web/20070610131817/http://irb.cs.tu-berlin.de/~zuse/Konrad_Zuse/en/index.html Konrad Zuse and his computers, from Technische Universität Berlin]
+* [http://ei.cs.vt.edu/~history/Zuse.html Konrad Zuse]
+* [http://www.idsia.ch/~juergen/zuse.html Konrad Zuse, inventor of first working programmable computer]
+* [http://www.idsia.ch/~juergen/digitalphysics.html Zuse's thesis of digital physics and the computable universe]
+* [http://www.dtmb.de/Aktuelles/Sonderausstellungen/Zuse_Ausstellung/index.html Deutsches Technikmuseum Berlin]
+* [http://www.konrad-zuse-computermuseum.de/ Konrad Zuse Museum Hoyerswerda]
+* [http://www.juliantrubin.com/bigten/zusecomputer.html Konrad Zuse and The Invention of the Computer]
+* Computermuseum Kiel [https://web.archive.org/web/20110725133821/http://www.museen-sh.de/ml/pi_485_0489AB_s2.html Z11]
+* Computermuseum Kiel [https://web.archive.org/web/20110725133829/http://www.museen-sh.de/ml/pi_485_0488ABCDEF_s2.html Z22]
+* Computermuseum Kiel {{webarchive |url=https://web.archive.org/web/20110725133850/http://www.museen-sh.de/ml/pi_485_0490ABCDEF_s2.html |date=July 25, 2011 |title=Z25 }}
+* [http://www.computerhistory.org/atchm/first-steps-lectures-from-the-dawn-of-computing/ Video lecture by Zuse discussing the history of Z1 to 4]
+
+{{Konrad zuse computer}}
+
+{{Authority control}}
+
+{{DEFAULTSORT:Zuse, Konrad}}
+[[Category:1910 births]]
+[[Category:1995 deaths]]
+[[Category:Businesspeople from Berlin]]
+[[Category:German atheists]]
+[[Category:German inventors]]
+[[Category:German civil engineers]]
+[[Category:German computer scientists]]
+[[Category:Computer hardware engineers]]
+[[Category:Computer designers]]
+[[Category:Programming language designers]]
+[[Category:Cellular automatists]]
+[[Category:Werner von Siemens Ring laureates]]
+[[Category:Technical University of Berlin alumni]]
+[[Category:Grand Crosses with Star and Sash of the Order of Merit of the Federal Republic of Germany]]
+[[Category:Members of the Bavarian Maximilian Order for Science and Art]]
+[[Category:Konrad Zuse| ]]

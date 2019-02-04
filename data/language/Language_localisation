@@ -1,0 +1,160 @@
+{{Use British English|date=August 2016}}
+{{Translation sidebar}}
+'''Language <i>localisation</i>''' (or '''<i>localization</i>''', see [[American and British English spelling differences#iseize|spelling-differences]]) is the process of adapting a product that has been previously translated into multiple languages to a specific country or region (from [[Latin]] ''locus'' (place) and the English term ''[[locale (computer software)|locale]]'', "a place where something happens or is set").<ref>{{cite encyclopedia|year=2005|title=locale|encyclopedia=The New Oxford American Dictionary|publisher=Oxford University Press|edition=2nd}}</ref> It is the second phase of a larger process of product translation and cultural adaptation (for specific countries, regions, or groups) to account for differences in distinct markets, a process known as [[internationalization and localization|internationalisation and localisation]].
+
+
+Language localisation differs from [[Translation|translation activity]] because it involves a comprehensive study of the target culture in order to correctly adapt the product to local needs. Localisation can be referred to by the [[numeronym]] '''L10N''' (as in: "L", followed by ten more letters, and then "N").
+
+The localisation process is most generally related to the cultural adaptation and translation of [[software]], [[video games]], and [[website]]s, as well as audio/[[voiceover]], [[video]], or other [[multimedia]] content, and less frequently to any written translation (which may also involve cultural adaptation processes). Localisation can be done for regions or countries where people speak different languages or where the same language is spoken. For instance, different [[German dialects|dialects of German]], with [[Idiom|different idioms]], are spoken in [[Standard German|Germany]], [[Austrian German|Austria]], [[Swiss German|Switzerland]], and [[German-speaking Community of Belgium|Belgium]].
+
+== The overall process: internationalisation, globalisation and localisation ==
+The former [[Localization Industry Standards Association]] (LISA) said that globalisation "can best be thought of as a cycle rather than a single process".<ref name="lisa-whatis">{{cite web|url=http://www.lisa.org/What-Is-Globalization.48.0.html |title=What is Globalization? |work=LISA |publisher=Localization Industry Standards Association |accessdate=6 September 2010 |location=Romainmôtier, Switzerland |deadurl=yes |archiveurl=https://web.archive.org/web/20110101205931/http://www.lisa.org/What-Is-Globalization.48.0.html |archivedate=January 1, 2011 }}</ref> To ''globalise'' is to plan the design and development methods for a product in advance, keeping in mind a multicultural audience, in order to avoid increased costs and quality problems, save time, and smooth the localising effort for each region or country. Localisation is an integral part of the overall process called '''globalisation'''.
+[[File:Globalisationchart.jpg|thumb|400px|The globalisation process <br/>(based on a chart from the LISA website.)<ref name="lisa-whatis"/>]]
+There are two primary technical processes that comprise globalisation: internationalisation and localisation.
+
+The first phase, '''internationalisation''', encompasses the planning and preparation stages for a product that is built by design to support global markets. This process removes all cultural assumptions, and any country- or language-specific content is stored so that it can be easily adapted. If this content is not separated during this phase, it must be fixed during localisation, adding time and expense to the project. In extreme cases, products that were not internationalised may not be localisable.
+
+The second phase, '''localisation''', refers to the actual adaptation of the product for a specific market. The localisation phase involves, among other things, the four issues LISA describes as ''linguistic'', ''physical'', ''business and cultural'', and ''technical'' issues.
+
+At the end of each phase, testing (including [[quality assurance]]) is performed to ensure that the product works properly and meets the client's quality expectations.
+
+=== Translation versus localisation ===
+
+Though it is sometimes difficult to draw the limits between translation and localisation, in general localisation addresses significant, non-textual components of products or services. In addition to translation (and, therefore, [[grammar]] and [[spelling|spelling issues]] that vary from place to place where the same language is spoken), the localisation process might include adapting graphics; adopting local currencies; using proper format for date and time, addresses, and phone numbers applicable to the location; the choices of colours; cultural references; and many other details, including rethinking the physical structure of a product. All these changes aim to recognise local sensitivities, avoid conflict with local culture, customs, common habits, and enter the local market by merging into its needs and desires.<ref>{{cite journal|url=http://blog.ititranslates.com/the-importance-of-website-localization-in-a-global-marketplace-part-2|title=The Importance Of Website Localization In A Global Marketplace|last=Pagano|first=Annie|date=June 2018|journal=Interpreter and Translators, Inc.|publisher=Interpreters and Translators, Inc.|location=Glastonbury,Connecticut}}</ref> For example, localisation aims to offer country-specific websites of the same company or different editions of a book depending on where it is published. It must be kept in mind that a political entity such as a country is not the same as a language or culture; even in countries where there exists a substantially identical relationship between a language and a political entity, there are almost certainly multiple cultures and multiple minority languages even if the minority languages are spoken by transient populations. For instance, [[Japan]]'s national language is [[Japanese language|Japanese]] and is the primary language for [[Japan#Languages|over 99% of the population]], but the country also recognises [[Languages of Japan|11 languages officially, others are spoken by transient populations, and others are spoken as second or other languages]].
+
+=== Globalisation versus localisation ===
+
+Whereas localisation is the process of adapting one product to a particular locale, globalisation designs the product to minimise the extra work required for each localisation.
+
+Suppose that a company operating exclusively in [[Germany]] chooses to open a major office in [[Russia]] and needs a [[Standard Russian|Russian-language]] website. The company offers the same products and services in both countries with minor differences, but perhaps some elements that appeared in the original website intended for a German audience are offensive or upsetting in Russia (use of flags, colours, nationalistic images, songs, etc.). Thus, that company might lose a potential market because of small details of presentation.
+
+Furthermore, this company might need to adapt the product to its new buyers; video games are the best example.<ref>{{cite journal|url=http://www.multilingual.com/articleDetail.php?id=1485|title=Practical skills for video game translators|last=Chandler|first=Heather Maxwell|date=October–November 2008|journal=MultiLingual|publisher=MultiLingual Computing|location=Sandpoint, Idaho}}</ref><ref>{{cite journal|url=http://www.multilingual.com/articleDetail.php?id=1486 |title=Preserving the spell in games localization|journal=MultiLingual|date=October–November 2008|last=Crosignani|first=Simone|last2=Ballista|first2=Andrea|last3=Minazzi|first3=Fabio|publisher=MultiLingual Computing|location=Sandpoint, Idaho}}</ref>
+
+Now, suppose instead that this company has major offices in a dozen countries and needs a specifically designed website in each of these countries. Before deciding how to localise the website and the products offered in any given country, a professional in the area might advise the company to create an overall strategy: to globalise the way the organisation does business. The company might want to design a framework to codify and support this global strategy. The globalisation strategy and the globalisation framework would provide uniform guidance for the twelve separate localisation efforts.
+
+Globalisation is especially important in mitigating extra work involved in the long-term cycle of localisation. Because localisation is a cycle and not a one-time project, there will always be new texts, updates, and projects to localise. For example, as the original website is updated over time, each of the localised websites already translated will also need to be updated. This cycle of work is continuous as long as the original project continues to evolve. It is therefore important for globalisation processes to be created and streamlined in order to implement ongoing changes. 
+
+[[Translation memory]] (TM) technology that exists in various [[translation software]] platforms can aid in this specific aspect of the globalisation process.<ref>{{cite web|title=Best Way to Translate a Website for Accuracy & SEO|url=https://www.pairaphrase.com/best-way-translate-website-accuracy-seo/|website=Pairaphrase|publisher=Pairaphrase Blog|accessdate=4 January 2018}}</ref>
+
+== Language tags and codes ==
+
+[[Language codes]] are closely related to the localising process because they indicate the locales involved in the translation and adaptation of the product. They are used in various contexts; for example, they might be informally used in a document published by the European Union<ref>{{cite web|url=http://publications.europa.eu/code/en/en-370200.htm|title=7.2.1. Order of language versions and ISO codes (multilingual texts)|work=Interinstitutional style guide|publisher=Europa Publications Office|date=1 July 2010}}</ref> or they might be introduced in [[HTML element]] under the <tt>lang</tt> attribute. In the case of the European Union style guide, the language codes are based on the [[ISO 639-1]] alpha-2 code; in HTML, the [[IETF language tag|language tags]] are generally defined within the Internet Engineering Task Force's ''[[Best Current Practice]]'' [https://tools.ietf.org/html/bcp47 (BCP) 47].<ref group="nb">''BCP'' is a persistent name for a series of IETF [[Request for Comments]] (RFCs) whose numbers change as they are updated. As of 2015-05-28, the latest included RFC about the principles of language tags is RFC 5646, ''Tags for the Identification of Languages''.</ref> The decision to use one type of code or tag versus another depends upon the nature of the project and any requirements set out for the localisation specialist.
+
+Most frequently, there is a primary sub-code that identifies the language (e.g., "en"), and an optional sub-code in capital letters that specifies the national variety (e.g., "GB" or "US" according to [[ISO 3166-2]]). The sub-codes are typically linked with a hyphen, though in some contexts it's necessary to substitute this with an underscore.<ref>{{cite web|url=http://sources.redhat.com/cgi-bin/cvsweb.cgi/libc/localedata/SUPPORTED?rev=1.102&content-type=text/x-cvsweb-markup&cvsroot=glibc|title=libc/localedata/SUPPORTED - view - 1.102|work=sources.redhat.com|publisher=Red Hat|date=18 February 2007|author=drepper|accessdate=6 September 2010}} (List of supported locales in the GNU <tt>libc</tt> library.)</ref>
+
+There are multiple language tag systems available for language codification. For example, the [[International Organization for Standardization]] (ISO) specifies both two- and three-letter codes to represent languages in standards [[ISO 639-1]] and [[ISO 639-2]], respectively.
+
+{| class="wikitable"
+|+Examples of language tags
+|-
+! scope="col" | Language family
+! scope="col" | Language tag
+! scope="col" | Language variant
+|-
+| rowspan=2 | '''Bangla'''
+| bn-BD || Bangla (Bangladesh)
+|-
+| bn-IN || Bangla (India)
+|-
+| rowspan=3 | '''Chinese'''
+| zh-CN || Mainland China, simplified characters
+|-
+| zh-TW || Taiwan, traditional characters
+|-
+| zh-HK || Hong Kong, traditional characters
+|-
+| rowspan=2 | '''Dutch'''
+| nl-BE || Belgian Dutch
+|-
+| nl-NL || Standard Dutch (as spoken in The Netherlands)
+|-
+| rowspan=6 | '''English'''
+| en-GB || British English
+|-
+| en-US || American English
+|-
+| en-CA || Canadian English
+|-
+| en-IN || Indian English
+|-
+| en-AU || Australian English
+|-
+| en-NZ || New Zealand English
+|-
+| rowspan=4 | '''French'''
+| fr-BE || Belgian French
+|-
+| fr-CH || "Swiss" French
+|-
+| fr-FR || Standard French (especially in France)
+|-
+| fr-CA || Canadian French
+|-
+| rowspan=3 | '''German'''
+| de-AT || Austrian German
+|-
+| de-DE || Standard German (as spoken in Germany)
+|-
+| de-CH || "Swiss" German
+|-
+| rowspan=2 | '''Italian'''
+| it-CH || "Swiss" Italian
+|-
+| it-IT || Standard Italian (as spoken in Italy)
+|-
+| rowspan=2 | '''Portuguese'''
+| pt-PT || European Portuguese (as written and spoken in Portugal)
+|-
+| pt-BR || Brazilian Portuguese
+|-
+| rowspan="6" | '''Spanish'''
+| es-ES || Castilian Spanish (as spoken in Central-Northern Spain)
+|-
+| es-MX || Mexican Spanish
+|-
+| es-AR || Argentine Spanish
+|-
+| es-CO || Colombian Spanish
+|-
+| es-CL || Chilean Spanish
+|-
+|es-US
+|American Spanish
+|-
+
+==Notes==
+{{Reflist|group="nb"}}
+
+== See also ==
+
+* [[Internationalization and localization|Internationalisation and localisation]]
+* [[Globalization|Globalisation]]
+* [[American and British English differences]]
+* [[Spanish dialects and varieties]]
+* [[Transcreation]]
+* [[Variety (linguistics)]]
+* [[Indigenization|Indigenisation]]
+
+==References==
+{{Reflist|2}}thailand
+
+== External links ==
+* [http://www.alcus.org/ Association of Language Companies (USA)]
+* [http://www.gala-global.org/ Globalization and Localization Association (GALA)]
+* [http://www.localizationworld.com/ Localization World Conference]
+* [http://www.localisation.ie/ Localisation Research Centre]
+* [http://slsp-bg.com Localisation Company SLSP]
+* [https://web.archive.org/web/20170508060800/http://www.jensen-localization.com/fileadmin/downloads/Starting Guide to Localization.pdf|Starting Guide to Localization]
+* [https://www.projectconnections.com/knowhow/subsets/sample-templates/sample-localization.pdf Introduction: Localization guidelines]
+* [https://wiki.mozilla.org/L10n:Home_Page Mozilla Localization Project]
+* [http://www.foreignword.com/translators/magazines/magazines.htm Foreignword] - List of translation magazines
+* [http://www.w3.org/International/articles/language-tags/ W3C: Internationalization - Language tags in HTML and XML]
+* [https://www.loc.gov/standards/iso639-2/php/code_list.php Library of Congress List of ISO 639-2 (alpha 3) Language Codes]
+
+{{DEFAULTSORT:Language Localization}}
+[[Category:Business terms]]
+[[Category:Globalization]]
+[[Category:Internationalization and localization]]
+[[Category:Translation]]
+[[Category:Transliteration]]
+[[Category:Word coinage]]

@@ -1,0 +1,25 @@
+In [[mathematics]], in [[graph theory]], the '''Seidel adjacency matrix''' of a [[Graph (discrete mathematics)|simple undirected graph]] ''G'' is a [[symmetric matrix]] with a row and column for each vertex, having 0 on the diagonal, &minus;1 for positions whose rows and columns correspond to adjacent vertices, and +1 for positions corresponding to non-adjacent vertices.
+It is also called the '''Seidel matrix''' or&mdash;its original name&mdash;the (&minus;1,1,0)-'''adjacency matrix'''. 
+It can be interpreted as the result of subtracting the [[adjacency matrix]] of ''G'' from the adjacency matrix of the [[complement graph|complement]] of ''G''.
+
+The [[multiset]] of [[eigenvalue]]s of this matrix is called the '''Seidel spectrum'''. 
+
+The Seidel matrix was introduced by [[J. H. van Lint]] and [[Johan Jacob Seidel|J. J. Seidel]] in 1966 and extensively exploited by Seidel and coauthors.  
+
+The Seidel matrix of ''G'' is also the adjacency matrix of a [[signed graph|signed complete graph]] ''K<sub>G</sub>'' in which the edges of ''G'' are negative and the edges not in ''G'' are positive.  It is also the adjacency matrix of the [[two-graph]] associated with ''G'' and ''K<sub>G</sub>''.
+
+The eigenvalue properties of the Seidel matrix are valuable in the study of [[strongly regular graph]]s.
+
+==References==
+* van Lint, J. H., and Seidel, J. J. (1966), Equilateral point sets in elliptic geometry.  ''Indagationes Mathematicae'', vol. 28 (= ''Proc. Kon. Ned. Aka. Wet. Ser. A'', vol. 69), pp.&nbsp;335–348.
+* Seidel, J. J. (1976), A survey of two-graphs.  In: <cite>Colloquio Internazionale sulle Teorie Combinatorie</cite> (Proceedings, Rome, 1973), vol. I, pp.&nbsp;481–511.  Atti dei Convegni Lincei, No. 17.  Accademia Nazionale dei Lincei, Rome.
+*Seidel, J. J. (1991), ed. [[Derek Corneil|D.G. Corneil]] and R. Mathon, <cite>Geometry and Combinatorics: Selected Works of J. J. Seidel</cite>.  Boston: Academic Press.  Many of the articles involve the Seidel matrix.
+*Seidel, J. J. (1968), Strongly Regular Graphs with (−1,1,0) Adjacency Matrix Having Eigenvalue 3. ''Linear Algebra and its Applications'' 1, 281–298.
+
+{{Matrix classes}}
+
+[[Category:Algebraic graph theory]]
+[[Category:Matrices]]
+
+
+{{combin-stub}}

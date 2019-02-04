@@ -1,0 +1,79 @@
+{{Multiple issues|
+{{Primary sources|date=April 2015}}
+{{More citations needed|date=August 2016}}
+}}
+{{Infobox software
+| logo                   = MooseFS logo.png
+| logo size              = 100px
+| name                   = Moose File System
+| developer              = Jakub Kruszona-Zawadzki<ref>https://github.com/moosefs/moosefs/graphs/contributors</ref> / Core Technology<ref>{{cite web|url=https://moosefs.com/about/company.html |title=About us - Core Technology - MooseFS fault tolerant network distributed file system |publisher=Core Technology}}</ref>
+| latest release version = 3.0.103-1
+| latest release date    = {{Start date and age|2018|11|23|df=yes}}<ref name="moosefs-download">{{cite web |url=https://moosefs.com/download.html | title= Download MooseFS - fault tolerant network distributed file system}}</ref><ref name="Latest changes in MooseFS 3.0">{{cite web |url=https://moosefs.com/documentation/changes-in-moosefs-3-0.html | title= Latest changes in MooseFS 3.0}}</ref><ref name="github.com">https://github.com/moosefs/moosefs/releases</ref>
+| latest preview version = 3.0.103-1
+| latest preview date    = {{Start date and age|2018|11|23|df=yes}}<ref name="moosefs-download"/><ref name="Latest changes in MooseFS 3.0">{{cite web |url=https://moosefs.com/documentation/changes-in-moosefs-3-0.html | title= Latest changes in MooseFS 3.0}}</ref><ref name="github.com">https://github.com/moosefs/moosefs/releases</ref>
+| operating system       = [[Linux]], [[FreeBSD]], [[Solaris (operating system)|Solaris]], [[OpenIndiana]],<ref>"We also successfully compiled MooseFS from sources on OpenIndiana Hipster." https://moosefs.com/download.html</ref> [[Mac OS X]]
+| genre                  = [[Distributed file system]]
+| license                = [[GPLv2]] / [[Proprietary software|proprietary]]
+| website                = [https://moosefs.com/ https://moosefs.com]
+| repo                   = <!-- Refer to Wikidata. -->
+}}
+
+'''Moose File System''' ('''MooseFS''') is an [[Open-source software|Open-source]], POSIX-compliant [[distributed file system]] developed by Core Technology. MooseFS aims to be [[Fault-tolerant design|fault-tolerant]], highly available, highly performing, scalable general-purpose network distributed file system for [[data center]]s. Initially proprietary software, it was released to the public as [[Open-source software|open source]] on May 5, 2008.
+
+Currently two editions of MooseFS are available:
+* MooseFS - released under GPLv2 license,
+* MooseFS Professional Edition (MooseFS Pro) - release under proprietary license in binary packages form.
+
+==Design==
+The MooseFS follows similar design principles as [[Fossil (file system)]], [[Google File System]], [[Lustre (file system)|Lustre]] or [[Ceph (file system)|Ceph]]. The file system comprises three components:
+
+* Metadata server (MDS) — manages the location (layout) of files, file access and namespace hierarchy. The current version of MooseFS does support multiple metadata servers and automatic [[failover]]. Clients only talk to the MDS to retrieve/update a file's layout and attributes; the data itself is transferred directly between clients and chunk servers. The Metadata server is a user-space [[daemon (computer software)|daemon]]; the metadata is kept in memory and lazily stored on local disk.
+* Metalogger server — periodically pulls the metadata from the MDS to store it for backup. Since version 1.6.5, this is an optional feature.
+* Chunk servers (CSS) — store the data and optionally replicate it among themselves. There can be many of them, though the scalability limit has not been published. The biggest cluster reported so far consists of 160 servers.<ref name=lmp>{{cite web |date=2010-04-01 |author=Mariusz Gądarowski|title=MooseFS: Bezpieczny i rozproszony system plików |url=http://moosefs.org/tl_files/moosefs-rozproszony-system-plikow-linux-magazine201004.pdf |publisher=[[Linux Magazine|Linux Magazine Poland]] |language=Polish }}</ref> The Chunk server is also a user-space [[daemon (computer software)|daemon]] that relies on the underlying local file system to manage the actual storage.
+* Clients — talk to both the MDS and CSS. MooseFS clients mount the file system into user-space via [[Filesystem in Userspace|FUSE]].
+
+==Features==
+To achieve high reliability and performance MooseFS offers the following features:
+
+* [[Fault-tolerance]] — MooseFS uses [[Replication (computer science)|replication]], data can be replicated across chunkservers, the replication ratio (N) is set per file/directory. If (N-1) replicas fail the data will still be available. At the moment MooseFS does not offer any other technique for [[fault-tolerance]]. [[Fault-tolerance]] for very big files thus requires vast amount of space - N*filesize instead of filesize+(N*stripesize) as would be the case for [[RAID 4]], [[RAID 5]] or [[RAID 6]]. Version 4.x PRO of MooseFS will have RAID6.
+* [[data striping|Striping]] — Large files are divided into chunks (up to 64 [[megabyte]]s) that might be stored on different chunk servers in order to achieve higher aggregate bandwidth.
+* [[Load balancing (computing)|Load balancing]] — MooseFS attempts to use storage resources equally, the current algorithm seems to take into account only the consumed space.
+* [[Security]] — Apart from classical [[POSIX]] file permissions, since the 1.6 release MooseFS offers a simple, NFS-like, [[authentication]]/[[authorization]].
+* [[Snapshot (computer storage)|Coherent snapshots]] — Quick, low-overhead snapshots.
+* Transparent "trash bin" — Deleted files are retained for a configurable period of time.
+* Data tiering / storage classes — Possibility to "label" servers, create label definitions called "Storage Classes" and decide, on which types of servers the data is stored<ref>MooseFS 3.0 Storage Classes Manual https://moosefs.com/Content/Downloads/moosefs-storage-classes-manual.pdf</ref>
+* [[Disk quota|"Project" quotas]] support
+* POSIX locks, flock locks support
+
+==Hardware, software and networking==
+Similarly to other cluster-based file systems MooseFS uses [[commodity hardware]] running a [[POSIX]] compliant operating system. [[TCP/IP]] is used as the interconnect.
+
+==MooseFS in figures<ref>https://moosefs.com/factsheet</ref>==
+* Storage size is up to: 2<sup>64</sup> [[Byte]]s = 16 EiB = 16 384 PiB
+* Single file size is up to: 2<sup>57</sup> Bytes = 128 PiB
+* Number of files is up to: 2<sup>31</sup> = 2.1 × 10<sup>9</sup>
+* Number of active clients is unlimited it depends on number of file descriptors in the system
+
+==See also==
+{{Portal|Free and open-source software}}
+* [[Distributed file system]]
+* [[List of file systems#Distributed fault-tolerant file systems|List of file systems § Distributed fault-tolerant file systems]]
+* [[LizardFS]]{{snd}} a fork of MooseFS
+* [[Ceph (file system)|Ceph]]
+* [[Lustre (file system)|Lustre]]
+* [[GlusterFS]]
+* [[BeeGFS]]
+
+==References==
+{{reflist}}
+
+==External links==
+* {{Official website}}
+* {{GitHub|moosefs/moosefs}}
+* {{SourceForge|moosefs|MooseFS}}
+
+[[Category:Distributed file systems]]
+[[Category:Distributed file systems supported by the Linux kernel]]
+[[Category:Network file systems]]
+[[Category:Userspace file systems]]
+[[Category:File system management]]

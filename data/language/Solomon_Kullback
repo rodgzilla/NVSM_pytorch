@@ -1,0 +1,90 @@
+{{more citations needed|date=February 2010}}
+{{Infobox scientist
+|name              = Solomon Kullback
+|image             = Solomon-kullback.jpg
+|image_size        = 152px
+|alt               = 
+|caption           = 
+|birth_date        = {{Birth date|1907|04|03}}
+|birth_place       = [[Brooklyn, New York]]
+|death_date        = {{Death date and age|1994|08|05|1907|04|03}}
+|death_place       = [[Boynton Beach, Florida]]
+|residence         = 
+|citizenship       = American
+|ethnicity         = 
+|fields            = [[cryptanalysis]], [[mathematics]], [[information theory]]
+|workplaces        = [[George Washington University]], [[National Security Agency]]
+|alma_mater        = [[City College of New York]] (B.A., 1927; M.A., 1929)<br>[[George Washington University]] (Ph.D., Mathematics, 1934)
+|doctoral_advisor  = Frank M. Weida
+|academic_advisors = 
+|doctoral_students = [[Hubert Lilliefors]]
+|known_for         = Work in [[Information theory]], [[Kullback–Leibler divergence]]
+}}
+
+'''Solomon Kullback''' (April 3, 1907{{spaced ndash}}August 5, 1994) was an American [[cryptanalyst]] and [[mathematician]], who was one of the first three employees hired by [[William F. Friedman]] at the [[United States Army|US Army]]'s [[Signal Intelligence Service]] (SIS) in the 1930s, along with [[Frank Rowlett]] and [[Abraham Sinkov]]. He went on to a long and distinguished career at SIS and its eventual successor, the [[National Security Agency]] (NSA). Kullback was the Chief Scientist at the NSA until his retirement in 1962, whereupon he took a position at the [[George Washington University]].
+
+The [[Kullback–Leibler divergence]] is named after Kullback and [[Richard Leibler]].
+
+==Life and career==
+Kullback was born to Jewish parents in [[Brooklyn, New York]] and attended [[Boys High School (Brooklyn)|Boys High School]] there. He then went to [[City College of New York]], graduating with a [[Bachelor of Arts|BA]] in 1927 and an [[Master of Arts|MA]] in math in 1929.<ref name = "MMI" /> He completed a [[Doctor of Philosophy|doctorate]] in math from [[George Washington University]] in 1934. His intention had been to teach, and he returned to Boy's High School to do so, but found it not to his taste; he discovered his real interest was using mathematics, not teaching it.{{Citation needed|date=January 2010}}
+
+At the suggestion of [[Abraham Sinkov]], who showed him a [[United States federal civil service|Civil Service]] flyer for "junior mathematicians" at US$2,000 per year, he took the examination. Both passed, and were assigned to [[Washington, D.C.|Washington]] as junior cryptanalysts.
+
+Upon arrival in Washington, Kullback was assigned to [[William F. Friedman]]. Friedman had begun an intensive program of training in cryptology for his new civilian employees. For several summers running, the SIS cryptanalysts attended training camps at [[Fort Meade]] until they received commissions as reserve officers in the Army. Kullback and Sinkov took Friedman's admonitions on education seriously and spent the next several years attending night classes; both received their doctorates in mathematics. Afterward, Kullback rediscovered a love of teaching; he began offering evening classes in mathematics at [[George Washington University]] from 1939 on.
+
+Once they had completed the training, the three were put to the work for which they had actually been hired, compilations of [[cipher]] or [[code (cryptography)|code]] material for the U.S. Army. Another task was to test commercial cipher devices which vendors wished to sell to the U.S. government.
+
+Kullback worked in partnership with [[Frank Rowlett]] against [[RED (cipher machine)|RED cipher machine]] messages. Almost overnight, they unravelled the keying system and then the machine pattern – with nothing but the intercepted messages in hand. Using the talents of linguist John Hurt to translate text, SIS started issuing current intelligence to military decision-makers.
+
+In May 1942, five months after [[Pearl Harbor]], Kullback, by then a Major, was sent to Britain.<ref>[https://www.nsa.gov/public_info/_files/oral_history_interviews/nsa_oh_17_82_kullback.pdf  Farley, R.D. & Schorreck H F Oral history interview NSA OH-17-82 with Solomon Kullback National Security Agency 26 August 1982 (declassified under FOIA Sept 12 2008)] {{webarchive|url=https://web.archive.org/web/20150224171438/https://www.nsa.gov/public_info/_files/oral_history_interviews/nsa_oh_17_82_kullback.pdf |date=24 February 2015 }}</ref>  He learned at [[Bletchley Park]] that the British were producing intelligence of high quality by exploiting the [[Enigma machine]]. He also cooperated with the British in the solution of more conventional German codebook-based systems. Shortly after his return to the States, Kullback moved into the Japanese section as its chief.
+
+When the [[National Security Agency]] (NSA) was formed in 1952, Rowlett became chief of cryptanalysis. The primary problem facing research and development in the post-war period was development of high-speed processing equipment. Kullback supervised a staff of about 60, including such innovative thinkers in automated data processing development as [[Leo Rosen]] and Sam Snyder. His staff pioneered new forms of input and memory, such as [[magnetic tape]] and [[drum memory]], and compilers to make machines truly "multi-purpose." Kullback gave priority to using computers to generate [[communications security]] (COMSEC) materials.
+
+==Retirement==
+Solomon Kullback retired from NSA in 1962, and focused on his teaching at George Washington University and publishing new papers. In 1963 he was elected as a [[Fellow of the American Statistical Association]].<ref>[http://www.amstat.org/awards/fellowslist.cfm View/Search Fellows of the ASA], accessed 2016-07-23.</ref> He reached the rank of [[colonel]], and was inducted into the [[Military Intelligence Hall of Fame]].
+
+Kullback is remembered by his colleagues at NSA as straightforward; one described him as "totally guileless, you always knew where you stood with him." One former NSA senior recalled him as a man of unlimited energy and enthusiasm and a man whose judgment was usually "sound and right."
+
+==References==
+{{reflist|refs=
+<ref name = "MMI">{{cite book
+|first1=Kenneth P.
+|last1=Burnham
+|first2=David R.
+|last2=Anderson
+|title=Model Selection and Multimodel Inference
+|edition=2nd
+|origyear=1998
+|year=2002
+|publisher=Springer Science+Business Media
+|location=New York City
+|isbn=978-0-387-95364-9
+|oclc=
+|page=141
+|lccn=2001057677
+}}</ref>
+}}
+
+==External links==
+*{{MathGenealogy|id=13292}}
+* [https://www.nsa.gov/about/cryptologic-heritage/historical-figures-publications/hall-of-honor/1999/skullback.shtml Solomon Kullback at the NSA Hall of Fame]
+
+{{authority control}}
+
+{{DEFAULTSORT:Kullback, Solomon}}
+[[Category:1903 births]]
+[[Category:1994 deaths]]
+[[Category:American cryptographers]]
+[[Category:National Security Agency cryptographers]]
+[[Category:Signals Intelligence Service cryptographers]]
+[[Category:City College of New York alumni]]
+[[Category:George Washington University alumni]]
+[[Category:George Washington University faculty]]
+[[Category:American statisticians]]
+[[Category:20th-century mathematicians]]
+[[Category:Fellows of the American Statistical Association]]
+[[Category:United States Army colonels]]
+[[Category:American army personnel of World War II]]
+[[Category:Boys High School (Brooklyn) alumni]]
+[[Category:Military personnel from New York City]]
+[[Category:Mathematicians from New York (state)]]

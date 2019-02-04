@@ -1,0 +1,44 @@
+{{about|electronic speech processing|speech processing in the human brain|Language processing in the brain}}
+'''Speech processing''' is the study of [[Speech communication|speech]] [[Signal (information theory)|signals]] and the processing methods of  signals. The signals are usually processed in a [[Digital data|digital]] representation, so speech processing can be regarded as a special case of [[digital signal processing]], applied to [[audio signal|speech signals]]. Aspects of speech processing includes the acquisition, manipulation, storage, transfer and output of speech signals. The input is called [[speech recognition]] and the output is called [[speech synthesis]].
+
+== History ==
+Early attempts at speech processing and recognition were primarily focused on understanding a handful of simple [[Phonetics|phonetic]] elements such as vowels. In 1952, three researchers at Bell Labs, Stephen. Balashek, R. Biddulph, and K. H. Davis, developed a system that could recognize digits spoken by a single speaker. <ref>{{Citation|last=Juang|first=B.-H.|title=Speech Recognition, Automatic: History|date=2006|url=https://dx.doi.org/10.1016/b0-08-044854-2/00906-8|work=Encyclopedia of Language & Linguistics|pages=806–819|publisher=Elsevier|isbn=9780080448541|access-date=2018-10-26|last2=Rabiner|first2=L.R.}}</ref>
+
+One of the first commercially available speech recognition products was Dragon Dictate, released in 1990. In 1992, technology developed by [[Lawrence Rabiner]] and others at Bell Labs was used by [[AT&T]] in their Voice Recognition Call Processing service to route calls without a human operator. By this point, the vocabulary of these systems was larger than the average human vocabulary.<ref>{{Cite journal|last=Huang|first=Xuedong|last2=Baker|first2=James|last3=Reddy|first3=Raj|date=2014-01-01|title=A historical perspective of speech recognition|url=https://dx.doi.org/10.1145/2500887|journal=Communications of the ACM|volume=57|issue=1|pages=94–103|doi=10.1145/2500887|issn=0001-0782}}</ref> 
+
+By the early 2000s, the dominant speech processing strategy started to shift away from [[Hidden Markov model|Hidden Markov Models]] towards more modern [[Artificial neural network|neural networks]] and [[deep learning]].{{cn|date=December 2018}}
+
+== Techniques ==
+
+=== Dynamic time warping ===
+{{Main article|Dynamic time warping}}Dynamic time warping (DTW) is an [[algorithm]] for measuring similarity between two [[Time series|temporal sequences]], which may vary in speed. In general, DTW is a method that calculates an [[Optimal matching|optimal match]] between two given sequences (e.g. time series) with certain restriction and rules. The optimal match is denoted by the match that satisfies all the restrictions and the rules and that has the minimal cost, where the cost is computed as the sum of absolute differences, for each matched pair of indices, between their values.{{cn|date=December 2018}}
+
+=== Hidden Markov models ===
+{{Main article|Hidden Markov model}}A hidden Markov model can be represented as the simplest [[dynamic Bayesian network]]. The goal of the algorithm is to estimate a hidden variable x(t) given a list of observations y(t). By applying the [[Markov property]], the [[conditional probability distribution]] of the hidden variable ''x''(''t'') at time ''t'', given the values of the hidden variable ''x'' at all times, depends ''only'' on the value of the hidden variable ''x''(''t'' − 1). Similarly, the value of the observed variable ''y''(''t'') only depends on the value of the hidden variable ''x''(''t'') (both at time ''t'').{{cn|date=December 2018}}
+
+=== Artificial neural networks ===
+{{Main article|Artificial neural network}}An artificial neural network (ANN) is based on a collection of connected units or nodes called [[Artificial neuron|artificial neurons]], which loosely model the [[Neuron|neurons]] in a biological [[brain]]. Each connection, like the [[Synapse|synapses]] in a biological [[brain]], can transmit a signal from one artificial neuron to another. An artificial neuron that receives a signal can process it and then signal additional artificial neurons connected to it. In common ANN implementations, the signal at a connection between artificial neurons is a [[real number]], and the output of each artificial neuron is computed by some non-linear function of the sum of its inputs.{{cn|date=December 2018}}
+
+== Applications ==
+
+* [[Interactive voice response|Interactive Voice Systems]]
+* [[Virtual assistant|Virtual Assistants]]
+* [[Speaker recognition|Voice Identification]]
+* [[Emotion recognition|Emotion Recognition]]
+* Call Center Automation
+* [[Robotics]]
+
+==See also==
+* [[Neurocomputational speech processing]]
+* [[Speech coding]]
+* [[Speech technology]]
+*[[Natural language processing|Natural Language Processing]]
+
+==References==
+{{reflist}}
+
+{{Authority control}}
+
+[[Category:Speech]]
+[[Category:Signal processing]]
+[[Category:Speech processing]]

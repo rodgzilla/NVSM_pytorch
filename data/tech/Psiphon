@@ -1,0 +1,91 @@
+{{Infobox software
+|name = Psiphon
+|logo = Psiphon-logo-512.png
+|screenshot = Psiphon-84.png
+|developer = Psiphon, Inc., the [[Citizen Lab]]
+|released = 2006
+|ver layout = stacked
+|latest release version = {{Multiple releases
+  |branch1 = Windows
+  |version1 = 3.0
+  |date1 = {{Start date and age|df=yes|2016|12|18}}
+  |branch2 = Android
+  |version2 = 194
+  |date2 = {{Start date and age|df=yes|2018|07|04}}
+  |branch3 = iOS
+  |version3 = 1.1.0
+  |date3 = {{Start date and age|df=yes|2017|08|16}}
+  }}
+|operating system = [[Windows]], [[Android (operating system)|Android]], [[iOS (operating system)|iOS]]
+|size = {{Plainlist|
+* '''Windows:''' 4.7 MB
+* '''Android:''' 7.9 ~ 8.4 MB
+  }}
+|genre = [[Internet censorship circumvention]]
+|license = [[GNU General Public License]]
+|website = {{URL|https://psiphon.ca}}
+}}
+
+'''Psiphon''' is a [[free and open-source]] [[Internet censorship circumvention]] tool that uses a combination of secure communication and obfuscation technologies ([[Virtual private network|VPN]], [[Secure Shell|SSH]], and [[Proxy server|HTTP Proxy]]). Psiphon is a centrally managed, and geographically diverse network of thousands
+of proxy servers, using a performance-oriented, single and multi hop architecture.<ref name="Fifield">{{cite web
+|title=Blocking-resistant communication through domain fronting
+|url=https://www.bamsoftware.com/papers/fronting/
+|vauthors=Fifield D, Lan C, Hynes R, Wegmann P, Paxson V
+|date=2015-05-15
+|publisher=Proceedings on Privacy Enhancing Technologies 2015
+|doi=10.1515/popets-2015-0009}}</ref>
+
+Psiphon is specifically designed to support users in countries considered to be "enemies of the Internet".<ref>{{cite web |url=http://en.rsf.org/internet-enemie-egypt,36679.html |title=Archived copy |accessdate=2012-04-11 |deadurl=yes |archiveurl=https://web.archive.org/web/20120412165622/http://en.rsf.org/internet-enemie-egypt,36679.html |archivedate=2012-04-12 |df= }} </ref> The codebase is developed and maintained by Psiphon, Inc. which operates systems and technologies designed to assist [[Internet]] users to securely bypass the content-filtering systems used by governments to impose [[Internet censorship|censorship of the Internet]]. 
+
+The original concept for Psiphon (1.0) was developed by the [[Citizen Lab]] at the [[University of Toronto]], building upon previous generations of web proxy software systems, such as the "Safe Web"<ref>{{cite news| url=https://www.wired.com/politics/law/news/2002/02/50371 | work=Wired | title=SafeWeb's Holes Contradict Claims | date=2002-02-12}}</ref> and "Anonymizer" systems.
+
+In 2007 Psiphon, Inc. was established as an independent Ontario corporation that develops advanced censorship circumvention systems and technologies. Psiphon, Inc. and the [[Citizen Lab]] at the [[Munk School of Global Affairs]], [[University of Toronto]] occasionally collaborate on research projects, through the Psi-Lab partnership.<ref>{{cite web|url=http://deibert.citizenlab.org/2009/05/psiphon-launch-let-the-revolution-begin/ |title=Ronald Deibert &#124; Director, The Canada Centre for Global Security Studies and the Citizen Lab, Munk School of Global Affairs, University of Toronto |publisher=Deibert.citizenlab.org |date=2009-05-02 |accessdate=2012-12-12}}</ref>
+
+Psiphon currently consists of three separate but related open source software projects:
+* 3.0 – A cloud based run-time tunneling system.<ref>{{cite web|url=https://bitbucket.org/psiphon/psiphon-circumvention-system |title=psiphon / Psiphon Circumvention System — Bitbucket |publisher=Bitbucket.org |date=2011-06-14 |accessdate=2012-12-12}}</ref>
+* 2.0 – A cloud-based secure proxy system.<ref>{{cite web|url=https://launchpad.net/psiphon |title=psiphon in Launchpad |publisher=Launchpad.net |date= |accessdate=2012-12-12}}</ref>
+* 1.0 – The original home based server software (released by the Citizen Lab in 2004, rewritten  and launched in 2006). Psiphon 1.X is no longer supported by Psiphon, Inc. or the Citizen Lab.<ref name="Psiphon.ca">{{cite web|url=http://psiphon.ca/?p=46 |title=Psiphon - Total Delivery Solution for the Censored Internet |publisher=Psiphon.ca |date= |accessdate=2012-12-12}}</ref>
+
+==History==
+[[File:Psiphon.jpg|{{largethumb}}]]
+The original concept for Psiphon envisioned an easy-to-use and lightweight Internet proxy, designed to be installed and operated by individual computer users who would then host private connections for friends and family in countries where the Internet is censored.   According to Nart Villeneuve "The idea is to get (users) to install this on their computer, and then deliver the location of that circumventor, to people in filtered countries by the means they know to be the most secure. What we're trying to build is a network of trust among people who know each other, rather than a large tech network that people can just tap into."<ref>{{cite news |first=Clark |last=Boyd |title=Bypassing China's net firewall |url=http://news.bbc.co.uk/2/hi/technology/3548035.stm |publisher=BBC News |id= |date=2004-03-10 |accessdate=2007-03-28}}</ref> Psiphon 1.0 was launched by the Citizen Lab on 1 December 2006 as open source software.<ref name="ReferenceA">{{cite web|url=http://psiphon.ca/?page_id=94 |title=Psiphon - Total Delivery Solution for the Censored Internet |publisher=Psiphon.ca |date= |accessdate=2012-12-12}}</ref>
+
+In Early—2007, Psiphon, Inc. was established as a Canadian corporation independent of the Citizen Lab and the University of Toronto. The original code (1.6) was made available under the [[GNU General Public License]]. In 2008, Psiphon was awarded the [[Netexplorateur award]] by the [[French Senate]].<ref name="rue1">{{cite web|url=http://www.rue89.com/comment/226747 |title=Psiphon, un logiciel anticensure, « Netxplorateur de l'année » |language=fr |publisher=Rue89 |date=2008-02-14 |accessdate=2012-12-12}}</ref> In 2009, Psiphon was recognized with [[The Economist]] Best New Media Award by [[Index on Censorship]].<ref name="indexoncensorship1">{{cite web|url=http://www.indexoncensorship.org/2009/04/freedom-of-expression-award-2009-recipients-announced/ |title=FREEDOM OF EXPRESSION AWARD 2009 RECIPIENTS ANNOUNCED |publisher=Index on Censorship |date=2009-04-21 |accessdate=2012-12-12}}</ref> In 2011, Psiphon 1.X was officially retired and is no longer actively supported by Psiphon, Inc., or the Citizen Lab.<ref name="Psiphon.ca"/>
+
+In 2008, Psiphon, Inc. was awarded two sub-grants via the Internews operated SESAWE (Open Internet) project(s).<ref name="ReferenceA"/><ref>{{cite web|url=http://www.sesawe.net/ |title=is now offline |publisher=Sesawe.net |date= |accessdate=2012-12-12}}</ref> The source of funding came from the European Parliament and the [[US State Department]] [[Internet Freedom programme|Internet Freedom program]], administered by the [[Bureau of Democracy, Human Rights, and Labor]] (DRL).<ref>{{cite web|url=https://www.state.gov/j/drl/rls/rm/2011/168684.htm |title=Promises We Keep Online: Internet Freedom in the Organisation for Security and Cooperation in Europe (OSCE) Region |publisher=State.gov |date= |accessdate=2012-12-12}}</ref> The objective of these grants was to develop Psiphon into a scalable anti-censorship solution capable of supporting large numbers of users across different geographic regions. The core development team grew to include a group of experienced security and encryption software engineers that previously developed [[Ciphershare]], a secure [[document management system]].<ref>{{cite web|url=http://www.provensecuritysolutions.com/products.html |title=CipherShare - High Performance, Secure Document Management and Collaboration |publisher=Provensecuritysolutions.com |date= |accessdate=2012-12-12}}</ref> 
+
+In 2010, Psiphon, Inc. began providing services to the [[Broadcasting Board of Governors|Broadcasting Board of Governors (US)]], [[US Department of State]], and the [[British Broadcasting Corporation]]. Psiphon, Inc. currently (2015) operates on the basis revenues generated from commercial operations.
+
+In 2012, Psiphon, Inc. began development of a mobile version of Psiphon 3 for use with phones running [[Android (operating system)|Android]].<ref>{{cite web|url=http://psiphon.ca/?page_id=411 |title=Psiphon - Total Delivery Solution for the Censored Internet |publisher=Psiphon.ca |date= |accessdate=2012-12-12}}</ref>
+
+==See also==
+{{Portal|Free and open-source software}}
+*[[Freedom of information]]
+*[[GNUnet]]
+*[[Hacktivism]]
+*[[Internet censorship]]
+*[[OpenNet Initiative]]
+*[[Hacktivismo#The Six/Four System|The Six/Four System]]
+
+==References==
+{{Reflist}}
+
+==Further reading==
+*[http://www.cbc.ca/news/arts/media/story/2008/03/20/tibet-firewall.html: Software jumps China's firewall for news from Tibet]
+*[http://news.bbc.co.uk/2/hi/technology/6187486.stm BBC: Web censorship 'bypass' unveiled]
+*[https://ottawacitizen.com/technology/Rafal+Rohozinski+warrior+against+cyber+Armageddon/2421533/story.html: Canadian software touted as answer to Internet censorship abroad]
+*[https://web.archive.org/web/20070929083926/http://www.computerworld.com.au/index.php/id%3B1633821483%3Bfp%3B2%3Bfpid%3B1 Computerworld: Liberation software designed on basis of trust]
+*[https://web.archive.org/web/20070105192358/http://today.reuters.com/news/articlenews.aspx?type=internetNews Reuters: Canada experts find path round Internet firewalls]
+*[https://www.youtube.com/watch?v=1klb7ExoSNY Al Jazeera's Listening Post story about psiphon on YouTube]
+*[http://www.indexoncensorship.org/2009/04/21/freedom-of-expression-award-2009-recipients-announced/ Index on Censorship – Psiphon wins Economist New Media award at Freedom of Expression awards 2009]
+
+==External links==
+* {{Official|https://psiphon.ca/}}
+<!--Posting the download address will make the link blocked in some countries.-->
+
+{{Internet censorship circumvention technologies}}
+
+[[Category:Free network-related software]]
+[[Category:University of Toronto]]
+[[Category:Internet censorship]]
+[[Category:Free and open-source Android software]]

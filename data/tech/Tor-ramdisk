@@ -1,0 +1,46 @@
+{{Infobox OS
+| name                   = Tor-ramdisk
+| website                = {{URL|gitweb.torproject.org/tor-ramdisk.git}}
+| developer              = Anthony G. Basile
+| family                 = [[Unix-like]]
+| source_model           = [[Free software]]
+| license                = [[GNU General Public License#Version 3|GPL v3]]
+| latest_release_version = 20170130
+| latest_release_date    = {{Start date and age|2017|01|30}}<ref>{{cite web |url=https://people.torproject.org/~blueness/tor-ramdisk/images/ |title=Tor-ramdisk official i686 download |accessdate=2018-07-24 |df= }}</ref>
+| language               = [[English language|English]]
+| kernel_type            = [[Monolithic kernel|Monolithic]] ([[Linux kernel|Linux]])
+| ui                     = [[Text-based user interface|Text]]
+| working_state          = Current
+| supported_platforms    = [[P6 (microarchitecture)|i686]], [[MIPS architecture|MIPS]],<ref>{{cite web | url=http://opensource.dyc.edu/tor-mips-ramdisk | title=Tor-ramdisk MIPS Port | accessdate=2011-04-15 | deadurl=yes | archiveurl=https://web.archive.org/web/20160428180641/http://opensource.dyc.edu/tor-mips-ramdisk | archivedate=2016-04-28 | df= }}</ref> [[x86-64]]<ref>{{cite web | url=https://people.torproject.org/~blueness/tor-x86_64-ramdisk/images/ | title=Tor-ramdisk x86_64 Port | accessdate=2018-07-27 | df= }}</ref>
+}}
+
+'''Tor-ramdisk''' is an [[i686]] [[uClibc]]-based micro [[Linux distribution]] whose only purpose is to host a [[Tor (anonymity network)|Tor]] server in an environment that maximizes security and privacy. Security is enhanced in Tor-ramdisk by employing a monolithically compiled [[Grsecurity|GRSEC]]/[[PaX]] patched kernel and hardened system tools. Privacy is enhanced by turning off logging at all levels so that even the Tor operator only has access to minimal information. Finally, since everything runs in ephemeral memory, no information survives a reboot, except for the Tor configuration file and the private [[RSA (algorithm)|RSA]] key, which may be exported and imported by [[File Transfer Protocol|FTP]] or [[Secure copy|SCP]].
+
+==See also==
+{{Portal|Computer security|Cryptography|Free and open-source software|Linux}}
+{{Div col}}
+* [[Crypto-anarchism]]
+* [[Cypherpunk]]
+* [[Free Haven Project]]
+* [[Hacktivism]]
+* [[Internet censorship]]
+* [[Internet privacy]]
+* [[Ramdisk]]
+* [[Real-time adaptive security]]
+* [[Security-Enhanced Linux]]
+{{Div col end}}
+
+==References==
+{{Reflist|30em}}
+
+== External links ==
+* {{Official website|gitweb.torproject.org/tor-ramdisk.git}}
+
+{{Tor project}}
+{{Linux distributions}}
+
+[[Category:Light-weight Linux distributions]]
+[[Category:Tor (anonymity network)]]
+
+
+{{Tor-network-stub}}

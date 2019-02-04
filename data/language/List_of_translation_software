@@ -1,0 +1,32 @@
+{{More citations needed|date=December 2017}}
+
+This is a list of notable [[translation software]].
+
+== Software ==
+Recommended PO file editors/translator (in no particular order):
+* Omniscien Technologies - Language Studio is a web-based and in-house statistical and neural machine translation and language processing platform.
+* [[XEmacs]] (with po-mode): runs on Unices with X
+* [[GNU Emacs]] (with po-mode): runs on Unices and Windows
+* Lokalize: the replacement of KBabel in [[KDE Software Compilation 4|KDE4]]. Formally known as KAider
+* [[Poedit|poEdit]]: Linux, Mac OS X, and Windows poEdit does support multiple plural forms since version 1.3..
+* [[OmegaT]] is another translation tool that can translate PO files. It is written in [[Java (programming language)|Java]] so it is available for multiple platforms (including GNU/Linux and Windows). It can be downloaded from [[SourceForge]].
+* Pairaphrase is a web-based [[Translation management system|translation management system]] that supports file translation and Translation Memory.
+* [[GNU Gettext]] (Linux/Unix) used for the GNU Translation Project. Gettext also provides msgmerge that makes merging translations easy.
+* [[Vim (text editor)|Vim]] (Linux/Unix and Windows versions available) with PO ftplugin for easier editing of GNU gettext PO files.
+* [[gtranslator]] has been around and works fine under GNU/Linux
+* [[Virtaal]]: Linux and Windows; for MAC OS X 10.5 and newer a Beta release Native support for Gettext PO translation as well as XLIFF and other formats. Simple interface with powerful machine translation, translation memory and terminology management features.
+* [[GlobalSight]]
+
+== Other tools ==
+* [[Google Translator Toolkit]]
+
+== References ==
+* {{cite web|title=Programs to use for translation|url=https://www.drupal.org/node/11131|website=Drupal.org|accessdate=19 December 2017|date=28 September 2004}} [[File:CC-BY-SA icon.svg|50px]] Material was copied from this source, which is available under a [https://creativecommons.org/licenses/by-sa/2.0/ Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)] license.
+
+== See also ==
+* [[Computer-assisted translation]]
+* [[Comparison of computer-assisted translation tools]]
+* [[Machine translation]]
+* [[Translation memory|Memory transaction]]
+
+[[Category:Lists of software]]

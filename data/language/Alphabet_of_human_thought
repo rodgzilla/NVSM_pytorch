@@ -1,0 +1,25 @@
+The '''alphabet of human thought''' is a concept originally proposed by [[Gottfried Leibniz]] that provides a universal way to represent and analyze ideas and relationships by breaking down their component pieces. All ideas are compounded from a very small number of simple ideas which can be represented by a unique character.<ref>{{cite book|series=International Cognitive Linguistics Conference (1 : 1989 : Duisburg) |editor-last=Geiger |editor-first=Richard A. |editor2-first= Brygida |editor2-last=Rudzka-Ostyn|title=Conceptualizations and mental processing in language|publisher=Walter de Gruyter|year=1993|pages=25–26|isbn=978-3-11-012714-0}}</ref><ref>{{cite book|last=Bunnin|first=Nicholas|author2=Jiyuan Yu|title=The Blackwell Dictionary of Western Philosophy|publisher=Blackwell Publishing|year=2004|pages=715|isbn=978-1-4051-0679-5}}</ref>
+
+== Logic and the Universal Language ==
+Logic was Leibniz's earliest philosophic interest going back to his teens. [[René Descartes]] had suggested that the [[lexicon]] of a [[universal language]] should consist of primitive elements.<ref>{{cite web|last1=Hatfield|first1=Gary|title=René Descartes, The Stanford Encyclopedia of Philosophy (Summer 2014 Edition)|url=http://plato.stanford.edu/archives/sum2014/entries/descartes/|website=plato.stanford.edu|publisher=Stanford University|accessdate=12 July 2014|quote=he offered a new vision of the natural world that continues to shape our thought today: a world of matter possessing a few fundamental properties and interacting according to a few universal laws.}}</ref> The systematic combination of these elements, according to syntactical rules, would generate the infinite combinations of computational structures required to represent human language. In this way Descartes and Leibniz were precursors to computational linguistics as defined by [[Noam Chomsky]].<ref>{{cite book|last1=Chomsky|first1=Noam|title=New Horizons in the Study of Language and Mind|publisher=Cambridge University Press|isbn=0521658225|pages=425–428|edition=Kindle|quote=I mentioned that modern generative grammar has sought to address concerns that animated the tradition; in particular, the Cartesian idea that "the true distinction" (Descartes 1649/1927: 360) between humans and other creatures or machines is the ability to act in the manner they took to be most clearly illustrated in the ordinary use of language: without any finite limits, influenced but not determined by internal state, appropriate to situations but not caused by them, coherent and evoking thoughts that the hearer might have expressed, and so on. The goal of the work I have been discussing is to unearth some of the factors that enter into such normal practice.}}</ref>
+
+In the early 18th century, Leibniz outlined his ''[[characteristica universalis]]'', an artificial language in which [[grammar|grammatical]] and [[logic]]al structure would coincide, which would allow  reasoning to be reduced to calculation. Leibniz acknowledged the work of [[Ramon Llull]], particularly the ''Ars generalis ultima'' (1305), as one of the inspirations for this idea. The basic elements of his ''characteristica'' would be pictographic characters representing unambiguously a limited number of elementary concepts. Leibniz called the inventory of these concepts "the alphabet of human thought." There are quite a few mentions of the ''characteristica'' in Leibniz's writings, but he never set out any details save for a brief outline of some possible sentences in his ''Dissertation on the Art of Combinations''.
+
+His main interest was what is known in modern logic as classification and composition. In modern terminology Leibniz's alphabet was a proposal for an [[automated theorem prover]] or [[Hierarchical classifier|ontology classification reasoner]] written centuries before the technology to implement them.<ref>{{cite book|last=Russell|first=L.J.|title= The Encyclopedia of Philosophy Volumes 3 and 4|year=1985|publisher=Macmillan Publishing|asin=B0017IMQME|pages=422–423 |editor=Paul Edwards|chapter=Leibniz, Gottfried Wilhelm|quote=his main emphasis... was on classification, deduction was a natural consequence of combining classified items into new classes.}}</ref>
+
+== Semantic web implementation ==
+[[John Giannandrea]], co-founder and CTO of [[Metaweb|Metaweb Technologies]], acknowledged in a speech that [[Freebase]] was at least linked to the alphabet of human thought, if not an implementation of it.<ref>{{Cite web|title = PARCForum Presentation by Giannandrea, J.|url = https://www.youtube.com/watch?v=Wa__x-wUKWw|website = YouTube|accessdate = 2015-10-30|at = min 37+}}</ref>
+
+== See also ==
+* [[Algebraic logic]]
+* [[Natural semantic metalanguage]]
+* [[Philosophical language]]
+* ''[[An Essay towards a Real Character, and a Philosophical Language]]''
+
+==References==
+{{Reflist}}
+
+{{computable knowledge}}
+{{Authority control}}
+[[Category:Philosophy of language]]
+[[Category:History of philosophy]]

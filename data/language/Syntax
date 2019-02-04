@@ -1,0 +1,249 @@
+{{Other uses}}
+{{redirect|Sentence structure|sentence types in traditional grammar|Sentence clause structure}}
+{{linguistics}}
+
+In [[linguistics]], '''syntax''' ({{IPAc-en|ˈ|s|ɪ|n|t|æ|k|s}}{{refn|{{OxfordDictionaries.com|accessdate=2016-01-22|syntax}}}}{{refn|{{MerriamWebsterDictionary|=2016-01-22|syntax}}}}) is the set of rules, principles, and processes that govern the structure of [[Sentence (linguistics)|sentences]] ('''sentence structure''') in a given [[Natural language|language]], usually including [[word order]]. The term ''syntax'' is also used  to refer to the study of such principles and processes.<ref name="Chomsky def">{{cite book |last=Chomsky |first=Noam |year=2002 |origyear=1957 |title= Syntactic Structures |page=[https://books.google.com/books?id=SNeHkMXHcd8C&pg=PA11&dq=%22syntax+is%22 11]}}</ref> The goal of many syntacticians is to discover the [[Universal grammar|syntactic rules]] common to all languages.
+
+In mathematics, ''syntax'' refers to the rules governing the notation of mathematical systems, such as [[formal language]]s used in [[logic]]. (See [[Syntax (logic)|logical syntax]].)
+
+== Etymology ==
+The word ''syntax'' comes from [[Ancient Greek]]: {{wikt-lang|grc|σύνταξις}} "coordination", which consists of {{lang|grc|σύν}} ''syn'', "together", and {{lang|grc|τάξις}} ''táxis'', "an ordering".
+
+==Sequencing of subject, verb, and object==
+One basic description of a language's syntax is the sequence in which the [[subject (grammar)|subject]] (S), [[verb]] (V), and [[object (grammar)|object]] (O) usually appear in sentences. Over 85% of languages usually place the subject first, either in the sequence [[subject-verb-object|SVO]] or the sequence [[subject-object-verb|SOV]]. The other possible sequences are [[verb-subject-object|VSO]], [[verb-object-subject|VOS]], [[object-verb-subject|OVS]], and [[object-subject-verb|OSV]], the last three of which are rare. In most generative theories of syntax, these surface differences arise from a more complex clausal phrase structure, and each order may be compatible with multiple derivations.
+
+== Early history ==
+The ''Aṣṭādhyāyī'' of [[Pāṇini]] (c. 4th century BC  in [[Ancient India|Ancient]] [[India]]),  is often cited as an example of a premodern work that approaches the sophistication of a modern syntactic theory (as works on [[grammar]] were written long before modern syntax came about).<ref>{{cite book |last=Fortson IV |first=Benjamin W. |title=Indo-European Language and Culture: An Introduction |publisher=Blackwell |year=2004 |isbn=978-1405188968 |page=186 |quote=[The ''Aṣṭādhyāyī''] is a highly precise and thorough description of the structure of Sanskrit somewhat resembling modern generative grammar...[it] remained the most advanced linguistic analysis of any kind until the twentieth century.}}</ref> In the West, the school of thought that came to be known as "traditional grammar" began with the work of [[Dionysius Thrax]].
+
+For centuries, a framework known as {{lang|fr|grammaire générale}} (first expounded in 1660 by [[Antoine Arnauld]] in a book of the same title) dominated work in syntax: as its basic premise the assumption that language is a direct reflection of thought processes and therefore there is a single, most natural way to express a thought.{{citation needed|date=October 2015}}
+
+However, in the 19th century, with the development of [[historical-comparative linguistics]], linguists began to realize the sheer diversity of human language and to question fundamental assumptions about the relationship between language and logic. It became apparent that there was no such thing as the most natural way to express a thought, and therefore [[logic]] could no longer be relied upon as a basis for studying the structure of language.{{citation needed|date=October 2015}}
+
+The [[Port-Royal-des-Champs|Port-Royal grammar]] modeled the study of syntax upon that of logic. (Indeed, large parts of the [[Port-Royal Logic]] were copied or adapted from the ''Grammaire générale''.<ref>{{cite book |last=Arnauld |first=Antoine |title=La logique |year=1683 |edition=5th |location=Paris |publisher=G. Desprez |url=http://visualiseur.bnf.fr/Visualiseur?Destination=Gallica&O=NUMM-57444 |quote={{lang|fr|Nous avons emprunté...ce que nous avons dit...d'un petit Livre...sous le titre de Grammaire générale.}} |pages=137}}</ref>) Syntactic categories were identified with logical ones, and all sentences were analyzed in terms of "subject – copula – predicate". Initially, this view was adopted even by the early comparative linguists such as [[Franz Bopp]].
+
+The central role of syntax within [[theoretical linguistics]] became clear only in the 20th century, which could reasonably be called the "century of syntactic theory" as far as linguistics is concerned. (For a detailed and critical survey of the history of syntax in the last two centuries, see the monumental work by Giorgio Graffi (2001)<ref>{{cite book |last= Giorgio |first=Graffi |year= 2001 |url= https://books.google.com/books/about/200_Years_of_Syntax.html?id=mydolrE-PPkC |title= 200 Years of Syntax: A Critical Survey |format=googlebook preview |publisher=John Benjamins Publishing |isbn=9789027284570  }}</ref>.)
+
+== Theories ==
+There are a number of theoretical approaches to the discipline of syntax. One school of thought, founded in the works of [[Derek Bickerton]],<ref>See {{cite book |title=Language and Species |author=Bickerton, Derek |year=1990 |publisher=University of Chicago Press |isbn=0-226-04610-9}} and, for more recent advances, {{cite book |title=Biological foundations and origin of syntax |editor1=Derek Bickerton |editor2=Eörs Szathmáry |year=2009 |publisher=[[MIT Press]] |isbn=978-0-262-01356-7}}</ref> sees syntax as a branch of biology, since it conceives of syntax as the study of linguistic knowledge as embodied in the human [[mind]]. Other linguists (e.g., [[Gerald Gazdar]]) take a more [[Philosophy of mathematics#Platonism|Platonistic]] view, since they regard syntax to be the study of an abstract [[formal system]].<ref>Ted Briscoe, 2 May 2001, [http://www.informatics.susx.ac.uk/research/nlp/gazdar/briscoe/gpsg.html#SECTION00040000000000000000 Interview with Gerald Gazdar] {{webarchive|url=https://web.archive.org/web/20051122163306/http://www.informatics.susx.ac.uk/research/nlp/gazdar/briscoe/gpsg.html |date=2005-11-22 }}. Retrieved 2008-06-04.</ref> Yet others (e.g., [[Joseph Greenberg]]) consider syntax a taxonomical device to reach broad generalizations across languages.
+
+=== Generative grammar ===
+{{Main|Generative grammar}}
+The hypothesis of generative grammar is that language is a structure of the human mind. The goal of generative grammar is to make a complete model of this inner language (known as ''[[i-language]]''). This model could be used to describe all human language and to predict whether any given utterance in a hypothetical language would [[grammaticality|sound correct]] to a speaker of that language (versus constructions which no human language would use). This approach to language was pioneered by [[Noam Chomsky]]. Most generative theories (although not all of them) assume that syntax is based upon the constituent structure of sentences. Generative grammars are among the theories that focus primarily on the form of a sentence, rather than its communicative function.
+
+Among the many generative theories of linguistics, the Chomskyan theories are:
+* [[Transformational grammar]] (TG) (Original theory of generative syntax laid out by Chomsky in ''Syntactic Structures'' in 1957)<ref>Chomsky, Noam. 1957. ''Syntactic Structures''. The Hague/Paris: Mouton, p. 15.</ref>
+* [[Government and binding theory]] (GB) (revised theory in the tradition of TG developed mainly by Chomsky in the 1970s and 1980s)<ref>Chomsky, Noam (1981/1993). Lectures on Government and Binding: The Pisa Lectures. Mouton de Gruyter.</ref>
+* [[Minimalist program]] (MP) (a reworking of the theory out of the GB framework published by Chomsky in 1995)<ref>Chomsky, Noam (1995). The Minimalist Program. MIT Press.</ref>
+
+Other theories that find their origin in the generative paradigm are:
+* [[Arc pair grammar]]
+* [[Generalized phrase structure grammar]] (GPSG; now largely out of date)
+* [[Generative semantics]] (superseded by Semantic Syntax <ref>Seuren, P. A. M. 2018. ''Semantic Syntax''. Revised edition. Leiden: Brill</ref>)
+* [[Head-driven phrase structure grammar]] (HPSG)
+* [[Lexical functional grammar]] (LFG)
+* [[Nanosyntax]]<!--Commenting out until explained: the link seems to be about something unrelated. HPSG and LFG also fall into the category of [[unification]] grammars.-->
+* [[Relational grammar]] (RG) (now largely out of date)
+
+=== Dependency grammar ===
+{{Main|Dependency grammar}}
+[[Dependency grammar]] is an approach to sentence structure where syntactic units are arranged according to the dependency relation, as opposed to the constituency relation of [[phrase structure grammar]]s. Dependencies are directed links between words. The (finite) verb is seen as the root of all clause structure and all the other words in the clause are either directly or indirectly dependent on this root. Some prominent dependency-based theories of syntax are:
+
+* [[Recursive categorical syntax]], or Algebraic syntax
+* [[Functional generative description]]
+* [[Meaning–text theory]]
+* [[Operator grammar]]
+* [[Word grammar]]
+
+[[Lucien Tesnière]] (1893–1954) is widely seen as the father of modern dependency-based theories of syntax and grammar. He argued vehemently against the binary division of the clause into [[subject (grammar)|subject]] and [[predicate (grammar)|predicate]] that is associated with the grammars of his day (S → NP VP) and which remains at the core of most phrase structure grammars. In the place of this division, he positioned the verb as the root of all clause structure.<ref>Concerning Tesnière's rejection of the binary division of the clause into subject and predicate and in favor of the verb as the root of all structure, see Tesnière (1969:103–105).</ref>
+
+=== Categorial grammar ===
+{{Main|Categorial grammar}}
+[[Categorial grammar]] is an approach that attributes the syntactic structure not to rules of grammar, but to the properties of the [[syntactic categories]] themselves. For example, rather than asserting that sentences are constructed by a rule that combines a noun phrase (NP) and a verb phrase (VP) (e.g., the [[phrase structure rule]] S → NP VP), in categorial grammar, such principles are embedded in the category of the [[head (linguistics)|head]] word itself. So the syntactic category for an [[intransitive]] verb is a complex formula representing the fact that the verb acts as a [[function word]] requiring an NP as an input and produces a sentence level structure as an output. This complex category is notated as (NP\S) instead of V. NP\S is read as "a category that searches to the left (indicated by \) for an NP (the element on the left) and outputs a sentence (the element on the right)." The category of [[transitive verb]] is defined as an element that requires two NPs (its subject and its direct object) to form a sentence. This is notated as (NP/(NP\S)) which means "a category that searches to the right (indicated by /) for an NP (the object), and generates a function (equivalent to the VP) which is (NP\S), which in turn represents a function that searches to the left for an NP and produces a sentence."
+
+[[Tree-adjoining grammar]] is a categorial grammar that adds in partial [[tree structure]]s to the categories.
+
+=== Stochastic/probabilistic grammars/network theories ===
+Theoretical approaches to syntax that are based upon [[probability theory]] are known as [[stochastic grammar]]s. One common implementation of such an approach makes use of a [[neural network]] or [[connectionism]].
+
+=== Functionalist grammars ===
+{{main|Functional theories of grammar}}
+Functionalist theories, although focused upon form, are driven by explanation based upon the function of a sentence (i.e., its communicative function). Some typical functionalist theories include:
+* [[Cognitive grammar]]
+* [[Construction grammar]] (CxG)
+* [[Emergent grammar]]
+* [[Functional discourse grammar]] (Dik)
+* [[Prague linguistic circle]]
+* [[Role and reference grammar]] (RRG)
+* [[Systemic functional grammar]]
+
+== See also ==
+{{col-begin}}
+{{col-break}}
+* [[List of language disorders]]
+* [[List of syntactic phenomena]]
+* [[Musical syntax]]
+* [[Semiotics]]
+* ''[[Simpler Syntax]]'' (book)
+* [[Syntactic category]]
+* ''[[Syntax (journal)|Syntax]]'' ([[academic journal]])
+* [[Syntax (programming languages)]]
+* [[Usage]]
+{{col-end}}
+
+=== Syntactic terms ===
+{{div col|colwidth=18em}}
+* [[Adjective]]
+* [[Adjective phrase]]
+* [[Adjunct (grammar)|Adjunct]]
+* [[Adpositional phrase]]
+* [[Adverb]]
+* [[Anaphora (linguistics)|Anaphora]]
+* [[Answer ellipsis]]
+* [[Antecedent (grammar)|Antecedent]]
+* [[Antecedent-contained deletion]]
+* [[Appositive]]
+* [[Argument (linguistics)|Argument]]
+* [[Article (grammar)|Article]]
+* [[Grammatical aspect|Aspect]]
+* [[Attributive adjective]] and [[predicative adjective]]
+* [[Auxiliary verb]]
+* [[Binding (linguistics)|Binding]]
+* [[Branching (linguistics)|Branching]]
+* [[c-command]]
+* [[Grammatical case|Case]]
+* [[Syntactic category|Category]]
+* [[Catena (linguistics)|Catena]]
+* [[Clause]]
+* [[Closed class]] word
+* [[Comparison (grammar)|Comparative]]
+* [[Complement (linguistics)|Complement]]
+* [[Compound (linguistics)|Compound noun and adjective]]
+* [[Grammatical conjugation|Conjugation]]
+* [[Conjunction (grammar)|Conjunction]]
+* [[Constituent (linguistics)|Constituent]]
+* [[Coordination (linguistics)|Coordination]]
+* [[Coreference]]
+* [[Crossover effects|Crossover]]
+* [[Dangling modifier]]
+* [[Declension]]
+* [[Dependency grammar]]
+* [[Dependent-marking language|Dependent marking]]
+* [[Determiner (linguistics)|Determiner]]
+* [[Discontinuity (linguistics)|Discontinuity]]
+* [[Do-support]]
+* [[Dual (grammatical number)|Dual]] (form for two)
+* [[Ellipsis]]
+* [[Endocentric]]
+* [[Exceptional case-marking]]
+* [[Syntactic expletive|Expletive]]
+* [[Extraposition]]
+* [[Finite verb]]
+* [[Function word]]
+* [[Gapping]]
+* [[Grammatical gender|Gender]]
+* [[Gerund]]
+* [[Government (linguistics)|Government]]
+* [[Head (linguistics)|Head]]
+* [[Head-marking language|Head marking]]
+* [[Infinitive]]
+* [[Inverse copular constructions|Inverse copular construction]]
+* [[Inversion (linguistics)|Inversion]]
+* [[Lexical item]]
+* [[m-command]]
+* [[Measure word]] (classifier)
+* [[Merge (linguistics)|Merge]]
+* [[Modal particle]]
+* [[Modal verb]]
+* [[Grammatical modifier|Modifier]]
+* [[Grammatical mood|Mood]]
+* [[Syntactic movement|Movement]]
+* [[Movement paradox]]
+* [[Nanosyntax]]
+* [[Negative inversion]]
+* [[Non-configurational language]]
+* [[Non-finite verb]]
+* [[Noun]]
+* [[Noun ellipsis]]
+* [[Noun phrase]]
+* [[Grammatical number|Number]]
+* [[Object (grammar)|Object]]
+* [[Open class (linguistics)|Open class word]]
+* [[Parasitic gap]]
+* [[Part of speech]]
+* [[Grammatical particle|Particle]]
+* [[Periphrasis]]
+* [[Grammatical person|Person]]
+* [[Personal pronoun]]
+* [[Pied-piping]]
+* [[Phrasal verb]]
+* [[Phrase]]
+* [[Phrase structure grammar]]
+* [[Plural]]
+* [[Predicate (grammar)|Predicate]]
+* [[Predicative expression]]
+* [[Preposition and postposition]]
+* [[Pronoun]]
+* [[Pseudogapping]]
+* [[Raising (linguistics)|Raising]]
+* Relation ([[Grammatical relation]])
+* [[Restrictiveness]]
+* [[Right node raising]]
+* [[Sandhi]]
+* [[Scrambling (linguistics)|Scrambling]]
+* [[Selection (linguistics)|Selection]]
+* [[Sentence (linguistics)|Sentence]]
+* [[Separable verb]]
+* [[Shifting (syntax)|Shifting]]
+* [[Grammatical number|Singular]]
+* [[Sluicing]]
+* [[Small clause]]
+* [[Stripping (linguistics)|Stripping]]
+* [[Subcategorization]]
+* [[Subject (grammar)|Subject]]
+* [[Subject-auxiliary inversion]]
+* [[Subject-verb inversion]]
+* [[Subordination (linguistics)|Subordination]]
+* [[Superlative]]
+* [[Grammatical tense|Tense]]
+* [[Topicalization]]
+* [[Tough movement]]
+* [[Uninflected word]]
+* [[V2 word order]]
+* [[Valency (linguistics)|Valency]]
+* [[Verb]]
+* [[Verb phrase]]
+* [[Verb phrase ellipsis]]
+* [[Voice (grammar)|Voice]]
+* [[Wh-movement]]
+* [[Word order]]
+* [[X-bar theory]]
+{{div col end}}
+
+== Notes ==
+{{Reflist}}
+
+== References ==
+* {{cite book |editor1-last=Brown |editor1-first=Keith |editor2-first=Jim| editor2-last=Miller|title=Concise Encyclopedia of Syntactic Theories |publisher=Elsevier Science |location=New York |year=1996 |isbn=0-08-042711-1}}
+* {{cite book |last=Carnie |first=Andrew |year=2006 |title=Syntax: A Generative Introduction |location=Oxford |publisher=Wiley-Blackwell |isbn=1-4051-3384-8 |edition=2nd}}
+* {{cite book |editor1-last=Freidin |editor1-first=Robert |editor2-first=Howard|editor2-last=Lasnik|title=Syntax |series=Critical Concepts in Linguistics |publisher=Routledge |location=New York |year=2006 |isbn=0-415-24672-5}}
+* {{cite book |last=Graffi |first=Giorgio |year=2001 |title=200 Years of Syntax. A Critical Survey |location=Amsterdam |publisher=Benjamins |series=Studies in the History of the Language Sciences 98 |isbn=90-272-4587-8}}
+* {{cite book |first=Mieszko|last=Talasiewicz |title=Philosophy of Syntax—Foundational Topics |year=2009 |publisher=Springer |isbn=978-90-481-3287-4}} An interdisciplinary essay on the interplay between logic and linguistics on syntactic theories.
+* Tesnière, Lucien 1969. Éleménts de syntaxe structurale. 2nd edition. Paris: Klincksieck.
+
+== Further reading ==
+* {{cite book |editor=Martin Everaert |editor2=Henk Van Riemsdijk |editor3=Rob Goedemans |editor4=Bart Hollebrandse |title=The Blackwell companion to syntax |year=2006 |publisher=Blackwell |isbn=978-1-4051-1485-1}} 5 Volumes; 77 case studies of syntactic phenomena.
+* {{cite book | first=Daniela | last=Isac |author2=Charles Reiss  | title= I-language: An Introduction to Linguistics as Cognitive Science, 2nd edition |url= http://linguistics.concordia.ca/i-language/ | year=2013 | publisher=Oxford University Press | isbn=978-0199660179}}
+* {{cite book |first=Edith A.| last= Moravcsik |title=An introduction to syntax: fundamentals of syntactic analysis |year=2006 |publisher=Continuum International Publishing Group |isbn=978-0-8264-8945-6}} Attempts to be a theory-neutral introduction. The companion {{cite book |author=Edith A. Moravcsik |title=An introduction to syntactic theory |year=2006 |publisher=Continuum International Publishing Group |isbn=978-0-8264-8943-2}} surveys the major theories. Jointly reviewed in ''[[The Canadian Journal of Linguistics]]'' 54(1), March 2009, [http://muse.jhu.edu/login?uri=/journals/canadian_journal_of_linguistics/v054/54.1.hewson.html pp. 172–175]
+* {{cite book |first=Stefan |last=Müller |title=Grammatical theory: From transformational grammar to constraint-based approaches |year=2016 |place= Berlin | publisher=Language Science Press |url=http://langsci-press.org/catalog/book/25 |isbn=978-3-944675-21-3}} 
+* {{cite book |author1=Brian Roark |author2=Richard William Sproat |title=Computational approaches to morphology and syntax |year=2007 |publisher=Oxford University Press |isbn=978-0-19-927477-2}} part II: Computational approaches to syntax.
+
+== External links ==
+{{commons category}}
+* [http://www.ling.upenn.edu/~beatrice/syntax-textbook The syntax of natural language: An online introduction using the Trees program]—Beatrice Santorini & Anthony Kroch, [[University of Pennsylvania]], 2007
+
+[[Category:Grammar]]
+[[Category:Philosophy of language]]
+[[Category:Semiotics]]
+[[Category:Syntax| ]]
+[[Category:Linguistics]]
+[[Category:Syntactic entities| ]]

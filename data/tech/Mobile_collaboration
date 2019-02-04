@@ -1,0 +1,147 @@
+'''Mobile collaboration''' is a technology-based process of communicating using electronic assets and accompanying software designed for use in remote locations. Newest generation hand-held electronic devices feature video, audio, and telestration (on-screen drawing) capabilities broadcast over secure networks, enabling multi-party conferencing in real time (although real time communication is not a strict requirement of mobile collaboration and may not be applicable or practical in many collaboration scenarios).
+
+Differing from traditional [[videoconferencing|video conferencing]], mobile collaboration utilizes [[wireless]], [[Cellular network|cellular]] and [[broadband]] technologies enabling effective [[collaboration]] independent of location. Where traditional video conferencing has been limited to boardrooms, offices, and lecture theatres, [[recent technological advancements]] have extended the capabilities of video conferencing for use with discreet, [[Mobile device|hand-held mobile devices]], permitting true mobile collaborative possibilities.<ref>{{cite news
+  | last = Herrell
+  | first = Elizabeth |author2=Whitely, Robert |author3=Crumb, Alex
+  | title = Enterprise Communications: The Next Decade
+  | publisher = Forrester Research White Paper
+  | date = March 9, 2010
+  | url = http://www.downloadic.com/v4erizonb8usin4essa17com/Enterprise-communications-the-next-decade.html
+}}</ref>
+
+== Scope ==
+The scope of mobile collaboration takes into account a number of elements that continue to evolve in their sophistication and complexity: video, audio and telestration capabilities, conferencing and [[telepresence]] systems, collaboration tools, [[Data transmission|transmission]] technologies, and mobility.
+
+== Forecasts ==
+[[Cisco Systems]] predicts "two-thirds of the world's mobile data traffic will be video by 2015."<ref>{{cite news
+  | title = CISCO Visual Networking Index: Global Mobile Data Traffic Forecast Update, 2010-2015
+  | publisher = CISCO White Paper
+  | date = February 1, 2011
+  | url =  http://www.cisco.com/en/US/solutions/collateral/ns341/ns525/ns537/ns705/ns827/white_paper_c11-520862.html
+}}</ref> The [[Unified Communications Interoperability Forum]] (UCIF), a non-profit alliance of technology vendors states that "one important driver for the growth of UC ([[unified communications]]) is mobility and the remote worker. No segment is growing faster than mobile communications, and virtually every [[Smartphone|smart phone]] will be equipped with [[Videotelephony|video chat]], [[Instant Messaging|IM]], directory, and other UC features within a few years."<ref>{{cite news
+  | title = UC: Driving the Next Step to Interoperability
+  | publisher = UCIForum White Paper
+  | year = 2011
+  | url = http://www.ucif.org/Resources/whitepapers.aspx
+}}</ref>
+
+== Impact on industry ==
+To date, the use of mobile collaboration technology extends to industries as diverse as manufacturing,<ref>{{cite news
+  | last = Presher
+  | first = Al
+  | title = TelePresence in Manufacturing: IP-based video conferencing provides effective tools for remote collaboration
+  | publisher = ''Automation and Control – Design News''
+  | date = December 2010
+  | url = http://www.allitwares.com/featured-articles-body-TelePresence-in-Manufacturing-523-1.html
+}}</ref> energy,<ref>{{cite news
+  | last = Wadhwa
+  | first = Anil
+  | title = Being in Two Places At One Time
+  | publisher = ''Energy Manufacturing''
+  | year = 2010
+  | url = http://www.librestream.com/pdf/EnergyManufacturing2010.pdf
+}}</ref> healthcare,<ref>{{cite news
+ |last        = Van’t Haaff
+ |first       = Corey
+ |title       = Virtually On-sight
+ |pages       = 22
+ |publisher   = ''Just for Canadian Doctors''
+ |date        = March–April 2009
+ |url         = http://www.justforcanadiandoctors.com/pastissues/JFCD2009/JFCD-Mar-Apr2009.pdf
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20120324052954/http://www.justforcanadiandoctors.com/pastissues/JFCD2009/JFCD-Mar-Apr2009.pdf
+ |archivedate = 2012-03-24
+ |df          = 
+}}</ref> insurance,<ref>{{cite news
+ |last      = Macdonald
+ |first     = Cindy
+ |title     = Estimating from a distance now possible
+ |pages     = 4
+ |publisher = ''Bodyshop''
+ |date      = December 2008
+ |url       = http://www.bodyshopbiz.com/issues/story.aspx?aid=1000228332
+}}{{dead link|date=February 2018 |bot=InternetArchiveBot |fix-attempted=yes }}</ref> government and public safety.<ref>{{cite news
+  | last = Blackwell
+  | first = Gerry
+  | title = Secure Wi-Fi Video on the Battlefield
+  | publisher = ''e-security Planet''
+  | date = March 25, 2010
+  | url = http://www.esecurityplanet.com/trends/article.php/3872836/Secure-Wi-Fi-Video-On-The-Battlefield.htm
+}}</ref> Mobile collaboration allows multiple users in multiple locations the ability to [[Synergy|synergistically]] combine their input while working towards the resolution of problems or issues in today’s complex work environments. This can be done in real time with advanced video, audio and telestrator capabilities, comparable to working together in the same room but without the associated expense and downtime typically involved in getting the experts to remote locations.<ref>{{cite news
+  | last = Herrell
+  | first = Elizabeth |author2=Whitely, Robert |author3=Crumb, Alex
+  | title = Enterprise Communications: The Next Decade
+  | publisher = Forrester Research White Paper
+  | date = March 9, 2010
+  | url = http://www.downloadic.com/v4erizonb8usin4essa17com/Enterprise-communications-the-next-decade.html
+}}</ref>
+
+=== Manufacturing ===
+Manufacturers of all kinds use mobile collaboration technology in a number of ways. Recent trends in [[globalization]] and [[outsourcing]] in particular, have meant that companies need to communicate with employees, suppliers, and customers the world over.<ref>{{cite news
+  | last = Michaels
+  | first = Daniel
+  |author2=Sanders, Peter
+  | title = Dreamliner Production Gets Closer Monitoring
+  | publisher = ''The Wall Street Journal''
+  | date = October 8, 2009
+  | url = http://www.librestream.com/Brochures/PR/DreamlinerUseofMobile%20Video.pdf
+}}</ref> The flexibility of hand-held mobile collaboration devices allow real-time communication to take place at any location where products are being designed, built, and inspected, such as an automotive assembly plant a continent away. Improved communication through mobile collaboration affects many aspects of complex manufacturing such as production line maintenance, [[supply chain management]] and [[Field service management|equipment field service]].<ref>{{cite news
+ |last        = Robbins
+ |first       = Renee
+ |title       = Mobile video system visually connects global plant floor engineers
+ |publisher   = ''Control Engineering''
+ |date        = May 28, 2009
+ |url         = http://m.controleng.com/index.php?id=2819&tx_ttnews%5Btt_news%5D=11999&cHash=0387e9884a
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20110820094831/http://m.controleng.com/index.php?id=2819&tx_ttnews%5Btt_news%5D=11999&cHash=0387e9884a
+ |archivedate = August 20, 2011
+ |df          = 
+}}</ref>
+
+=== Energy ===
+Companies in the energy sector face unique challenges due to, for example, the vast distances between a head office and the remote, harsh environment of an offshore oil rig, as well as the often inadequacies or absence of  necessary transmission networks. Recent advancements in mobile collaboration technology and transmission networks are making it possible for employees in these situations to collaborate in secure and reliable ways with colleagues thousands of miles away. The use of mobile collaboration in the energy sector is enabling companies to conduct remote inspections, safety audits, maintenance, repair and overhaul work, as well as IT/communication infrastructure troubleshooting.<ref>{{cite news
+  | title = Pixavi is Nominated for Innovation Award, Releases Whitepapers 
+  | publisher = 'PR Web''
+  | date = August 29, 2012
+  | url = http://www.prweb.com/releases/wireless/whitepapers/prweb9847333.htm
+}}</ref>
+
+=== Healthcare ===
+Although [[telemedicine]] technology has been in use for a number of years in the healthcare sector, mobile collaboration technology extends these capabilities to locations now reachable through the use of hand-held devices such as a remote community, long-term care facility, or a patient’s home. Healthcare professionals in multiple locations can together view, discuss, and assess patient issues. The use of mobile collaboration technology within the healthcare sector has the potential to improve the quality and access to care, while making its delivery more cost-effective.<ref>{{cite news
+  | last = Saunders
+  | first = Peter 
+  | title = Case Study: Winnipeg Health Sciences Centre. Surgeons Using Wireless Mobile Communications in a New Assessment and Support System.
+  | publisher = ''Government Purchasing Guide''
+  | date = November 2009
+  | url = http://www.librestream.com/Brochures/PR/GovernmentPurchasing.pdf
+}}</ref>
+
+=== Education ===
+Mobile collaboration technology might also be used for remote education. From one on one tutoring to large classes it has many uses. Homeschooling could really benefit from this technology as you participate in a lecture from anywhere in the world. Most useful you can record your classes or lectures and review them. Internet schools, including higher education, will most certainly also benefit from this development in mobile education. Though these methods are not widely used they are quite useful and most likely will become widely popular.<ref>{{cite news
+  | title = Mobile Collaboration Tool for University Education
+  | publisher = ''IEEE Computer Society''
+  | year = 2003
+  | url = http://www.computer.org/portal/web/csdl/doi/10.1109/WETICE.2003.10002
+}}</ref>
+
+== Franchise businesses ==
+Mobile collaboration between franchiser and franchisee allows modern technology to be used to allow a better flow of communications similar to face-to-face, albeit remotely via video/voice media such as smartphones, tablets, iPhones, iPads, etc. to be collectively used without requiring one party to travel to another location.  This in turn reduces travel time and expenses not to mention better and quicker modes of communication.
+
+Franchisers who have several hundred franchisees find it an absolute must.<ref>{{cite news
+  | title = Communications Business Opportunity - Communications & Wireless Franchises
+  | year = 2012
+  | url = http://www.franchisesolutions.com/communications_wireless_franchises.cfm
+}}</ref>
+
+== See also ==
+*[[List of video telecommunication services and product brands]]
+*[[Virtual collaboration]]
+*[[Visual networking]]
+
+== References ==
+{{reflist}}
+
+[[Category:Collaboration]]
+[[Category:Mobile technology]]
+[[Category:Teleconferencing]]
+[[Category:Videotelephony]]

@@ -1,0 +1,98 @@
+[[File:Earth horizon and International Space Station solar panel array (Expedition 17 crew, August 2008).jpg|right|thumb|350px|A solar panel array of the [[International Space Station]] ([[Expedition 17]] crew, August 2008)]]
+
+[[Spacecraft]] operating in the inner [[Solar System]] usually rely on the use of [[photovoltaic]] [[solar panel]]s to derive electricity from [[sunlight]]. In the outer solar system, where the sunlight is too weak to produce sufficient power, [[radioisotope thermoelectric generator]]s (RTGs) are used as a power source.<ref name="EPSD">NASA JPL Publication: Basics of Space Flight, Chapter 11. Typical Onboard Systems , Electrical Power Supply and Distribution Subsystems, {{cite web |url=http://www2.jpl.nasa.gov/basics/bsf11-3.html |title=Archived copy |accessdate=2008-07-04 |deadurl=yes |archiveurl=https://web.archive.org/web/20080518124056/http://www2.jpl.nasa.gov/basics/bsf11-3.html |archivedate=2008-05-18 |df= }}</ref>
+
+== History ==
+
+The first spacecraft to use solar panels was the [[Vanguard 1]] satellite, launched by the US in 1958. This was largely because of the influence of Dr. [[Hans K. Ziegler|Hans Ziegler]], who can be regarded as the father of spacecraft solar power.<ref>{{cite web
+  | last =Perlin
+  | first =John
+  | title =Late 1950s – Saved by the Space Race
+  | work =SOLAR EVOLUTION – The History of Solar Energy
+  | publisher =The Rahus Institute
+  | url =http://www.californiasolarcenter.org/history_pv.html
+  | date =2005
+  | accessdate =2007-02-25}}</ref>
+
+== Uses ==
+[[File:Capturing the Solar Maximum Mission satellite.jpg|thumb|The solar panels on the SMM satellite provided electrical power. Here it is being captured by an astronaut in a mobile space-suit that runs on chemical battery power.]]
+Solar panels on spacecraft supply power for two main uses:
+
+* power to run the sensors, active heating, cooling and telemetry.
+* power for [[spacecraft propulsion]] – [[Electrically powered spacecraft propulsion|electric propulsion]], sometimes called solar-electric propulsion.<ref name="NASA11">NASA JPL Publication: Basics of Space Flight, Chapter 11. Typical Onboard Systems, Propulsion Subsystems, http://www2.jpl.nasa.gov/basics/bsf11-4.html#propulsion {{webarchive|url=https://web.archive.org/web/20061208093125/http://www2.jpl.nasa.gov/basics/bsf11-4.html |date=2006-12-08 }}</ref>
+
+For both uses, a key [[figure of merit]] of the solar panels is the specific power (watts generated divided by [[solar array]] mass), which indicates on a relative basis how much power one array will generate for a given launch mass relative to another.  Another key metric is stowed packing efficiency (deployed watts produced divided by stowed volume), which indicates how easily the array will fit into a launch vehicle.  Yet another key metric is cost (dollars per watt).<ref>{{cite journal|last1=Hoffman|first1=David|title=Thin Film Solar Array Parametric Assessment|journal=AIAA|date=July 2000|volume=AIAA-2000-2919}}</ref>
+
+To increase the specific power, typical solar panels on spacecraft use close-packed solar cell rectangles that cover nearly 100% of the sun-visible area of the solar panels,
+rather than the [[solar wafer]] circles which, even though close-packed, [[Sphere packing#Circle packing|cover about 90%]] of the sun-visible area of typical solar panels on earth. However, some solar panels on spacecraft have solar cells that cover only 30% of the sun-visible area.<ref name="NASA11" />
+
+== Implementation ==
+[[File:SpacecraftBus-model.jpg|thumb|Diagram of the [[Spacecraft Bus (JWST)|Spacecraft Bus]] on the planned [[James Webb Space Telescope]], which is powered by solar panels (coloured green in this 3/4 view). Note that shorter light purple extensions are radiator shades not solar panels.<ref>[https://static1.squarespace.com/static/54b171c5e4b047061239404b/t/57b30618b8a79bb69fff7b4c/1471350297818/SPIE990405_Status+of+the+JWST+Sunshield+and+Spacecraft.pdf]</ref>]]
+Solar panels need to have a lot of surface area that can be pointed towards the Sun as the spacecraft moves. More exposed surface area means more electricity can be converted from light energy from the Sun. Since spacecraft have to be small, this limits the amount of power that can be produced.<ref name="EPSD" />
+
+All electrical circuits generate [[waste heat]]; in addition, solar arrays act as optical and thermal as well as electrical collectors. Heat must be radiated from their surfaces.  High-power spacecraft may have solar arrays that compete with the active payload itself for thermal dissipation. The innermost panel of arrays may be "blank" to reduce the overlap of [[View factor|views]] to space.  Such spacecraft include the higher-power communications satellites (e.g., later-generation [[Tracking and Data Relay Satellite System|TDRS]]) and [[Venus Express]], not high-powered but closer to the Sun.
+
+Spacecraft are built so that the solar panels can be pivoted as the spacecraft moves. Thus, they can always stay in the direct path of the light rays no matter how the spacecraft is pointed. Spacecraft are usually designed with solar panels that can always be pointed at the Sun, even as the rest of the body of the spacecraft moves around, much as a tank turret can be aimed independently of where the tank is going. A tracking mechanism is often incorporated into the solar arrays to keep the array pointed towards the sun.<ref name="EPSD"/>
+
+Sometimes, satellite operators purposefully orient the solar panels to "off point," or out of direct alignment from the Sun. This happens if the batteries are completely charged and the amount of electricity needed is lower than the amount of electricity made; off-pointing is also sometimes used on the International Space Station for orbital [[Night Glider mode|drag reduction]].
+
+== Ionizing radiation issues and mitigation ==
+{{expand section|date=June 2016}}
+
+[[File:Illumination test on one of Juno's solar panels.jpg|thumb|[[Juno (spacecraft)|''Juno'']] is the second spacecraft to orbit Jupiter and the first solar-powered craft to do so.]]
+
+Space contains varying levels of ionizing radiation, that which includes flares and other solar events.  Some satellites orbit within the protective zone of the [[magnetosphere]], while others do not.
+
+== Types of solar cells typically used ==
+
+[[Gallium arsenide]]-based solar cells are typically favored over [[crystalline silicon]] in industry because they have a higher efficiency and degrade more slowly than silicon in the radiation present in space. The most efficient solar cells currently in production are [[multi-junction photovoltaic cell]]s. These use a combination of several layers of gallium arsenide, indium gallium phosphide, and germanium to capture more energy from the solar spectrum. Leading edge multi-junction cells are capable of exceeding 38.8% under non-concentrated AM1.5G illumination and 46% using concentrated AM1.5G illumination.<ref>[[Solar cell efficiency]]</ref>
+
+== Spacecraft that have used solar power ==
+
+To date, solar power, other than for propulsion, has been practical for spacecraft operating no farther from the [[Sun]] than the orbit of [[Jupiter]]. For example, ''[[Juno (spacecraft)|Juno]]'', ''[[Magellan probe|Magellan]]'', ''[[Mars Global Surveyor]]'', and ''[[Mars Observer]]'' used solar power as does the Earth-orbiting, [[Hubble Space Telescope]]. The [[Rosetta space probe|''Rosetta'' space probe]], launched 2 March 2004, used its {{convert|64|sqm}} of solar panels<ref name="rosettaFAQ">{{cite web|url=http://www.esa.int/Our_Activities/Space_Science/Rosetta/Frequently_asked_questions|title=Rosetta's frequently asked questions|publisher=[[ESA]]|accessdate=2 December 2016}}</ref> as far as the orbit of [[Jupiter]] (5.25 [[Astronomical unit|AU]]); previously the furthest use was the [[Stardust (spacecraft)|''Stardust'' spacecraft]] at 2 AU. Solar power for propulsion was also used on the European lunar mission [[SMART-1]] with a [[Hall effect thruster]].
+
+The ''[[Juno (space mission)|Juno]]'' mission, launched in 2011, is the first mission to Jupiter (arrived at Jupiter on July 4, 2016) to use solar panels instead of the traditional RTGs that are used by previous outer solar system missions, making it the furthest spacecraft to use solar panels to date.<ref>[http://newfrontiers.nasa.gov/missions_juno.html Juno mission page at NASA's New Frontiers Web Site] {{webarchive|url=https://web.archive.org/web/20070203235637/http://newfrontiers.nasa.gov/missions_juno.html |date=2007-02-03 }}. Retrieved 2007-08-31.</ref><ref>[http://www.jpl.nasa.gov/news/news.php?feature=4818 Jet Propulsion Laboratory: NASA's Juno Spacecraft Breaks Solar Power Distance Record]. January 13, 2016. Retrieved July 12, 2016.</ref> It has {{convert|72|sqm}} of panels.<ref>{{cite web|url=http://www.zmescience.com/space/nasa-solar-powered-shuttle-18012016/|title=NASA’s solar-powered Juno shuttle breaks record distance at 793 million km from the Sun|publisher=ZME Science|first1=Dragos|last1=Mitrica|date=18 January 2016|accessdate=2 December 2016}}</ref>
+
+Another spacecraft of interest is ''[[Dawn (spacecraft)|Dawn]]'' which went into orbit around [[4 Vesta]] in 2011. It used [[ion thrusters]] to get to [[Ceres (dwarf planet)|Ceres]].
+
+The potential for solar powered spacecraft beyond Jupiter has been studied.<ref>[http://www.lpi.usra.edu/opag/nov_2007_meeting/presentations/solar_power.pdf Scott W. Benson – '''Solar Power for Outer Planets Study''' (2007) – NASA Glenn Research Center]</ref>
+
+The International Space Station also uses solar arrays to power everything on the station. The 262,400 solar cells cover around {{convert|27,000|sqft}} of space. There are four sets of solar arrays that power the station and the fourth set of arrays were installed in March 2009. 84 to 120 kilowatts of electricity can be generated from these solar arrays.<ref>{{Cite news|url=https://www.nasa.gov/mission_pages/station/structure/elements/solar_arrays-about.html|title=About the Space Station Solar Arrays|last=Garcia|first=Mark|date=2017-07-31|work=NASA|access-date=2017-12-06|language=en}}</ref>
+
+== Future uses ==
+[[File:ISS-52 Roll Out Solar Array (ROSA) (4).jpg|thumb|Flexible solar arrays are being investigated for use in space. The [[Roll Out Solar Array]] (ROSA) was deployed on the International Space Station in July 2017.]]
+For future missions, it is desirable to reduce solar array mass, and to increase the power generated per unit area. This will reduce overall spacecraft mass, and may make the operation of solar-powered spacecraft feasible at larger distances from the sun. Solar array mass could be reduced with thin-film photovoltaic cells, flexible blanket substrates, and composite support structures. Solar array efficiency could be improved by using new photovoltaic cell materials and solar concentrators that intensify the incident sunlight. Photovoltaic concentrator solar arrays for primary spacecraft power are devices which intensify the sunlight on the photovoltaics. This design uses a flat lens, called a [[Fresnel lens]], which takes a large area of sunlight and concentrates it onto a smaller spot. The same principle is used to start fires with a [[magnifying glass]] on a sunny day.
+
+Solar concentrators put one of these lenses over every solar cell. This focuses light from the large concentrator area down to the smaller cell area. This allows the quantity of expensive solar cells to be reduced by the amount of concentration. Concentrators work best when there is a single source of light and the concentrator can be pointed right at it. This is ideal in space, where the Sun is a single light source. Solar cells are the most expensive part of solar arrays, and arrays are often a very expensive part of the spacecraft. This technology may allow costs to be cut significantly due to the utilization of less material.<ref>{{cite web|last1=NASA|title=Concentrators Enhance Solar Power Systems|url=http://spinoff.nasa.gov/Spinoff2012/ee_6.html|accessdate=14 June 2014}}</ref>
+
+== Gallery ==
+
+<gallery class="center" mode="packed" heights="140px">
+File:Vanguard 1.jpg|[[Vanguard 1]], the first solar powered satellite
+File:Juno spacecraft model 1.png|The ''[[Juno (spacecraft)|Juno]]'' space probe
+File:Part of one of Junos solar panel.jpg|A section of one of [[Juno (spacecraft)|''Juno''{{'}}s]] solar panels
+File:ROSSA.jpg|Solar panels on the [[International Space Station]], September 2000
+File:Black light test of Dawns solar cells.jpg|[[Black light]] test of [[Dawn (spacecraft)|''Dawn'']]{{'s}} [[multijunction solar cell|triple-junction]] gallium arsenide solar cells<ref>{{cite web |url=http://www.dutchspace.nl/pages/business/content.asp?id=234&LangType=1033 | title=Dawn Solar Arrays |accessdate=July 18, 2011 |date=2007 | publisher=Dutch Space}}</ref>
+File:Philae lander (transparent bg).png|''[[Rosetta (spacecraft)|Rosetta]]''{{'}}s lander ''[[Philae (spacecraft)|Philae]]''
+</gallery>
+
+== See also ==
+{{Portal|Renewable energy|Energy}}
+* {{commons category-inline|Category:Solar panels of spacecraft}}
+* {{commons category-inline|Category:Solar panels in space}}
+* For solar arrays on the [[International Space Station]], see [[ISS Solar Arrays#Solar arrays|ISS Solar Arrays]] or [[Electrical system of the International Space Station]]
+* [[Nuclear power in space]]
+* [[Photovoltaic system]]
+* [[Solar cell]]
+* [[Space-based solar power]]
+
+== References ==
+{{Reflist|30em}}
+
+{{Photovoltaics}}
+
+{{DEFAULTSORT:Solar Panels On Spacecraft}}
+[[Category:Spacecraft components]]
+[[Category:Solar power]]
+[[Category:Photovoltaics]]
+[[Category:Solar power and space]]

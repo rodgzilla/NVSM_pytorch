@@ -1,0 +1,174 @@
+In computing, a [[distributed file system]] (DFS) or network file system is any [[file system]] that allows access to [[computer file|files]] from multiple hosts [[resource sharing|sharing]] via a [[computer network]]. This makes it possible for multiple users on multiple machines to share files and storage resources.
+
+Distributed file systems differ in their performance, mutability of content, handling of concurrent writes, handling of permanent or temporary loss of nodes or storage, and their policy of storing content.
+
+==Locally managed==
+{| class="wikitable sortable" style="width: auto; table-layout: fixed;  text-align: center;"
+|- style="background: #ececec"
+!| Client
+! Written in
+! License
+! Access API
+|-
+! {{rh}} |[[Ceph (file system)|Ceph]]
+| C++
+| {{free|LGPL}}
+| librados (C, C++, Python, Ruby), [[Amazon S3|S3]], Swift, [[Filesystem in Userspace|FUSE]]
+|-
+! {{rh}} |[[BeeGFS]]
+| C / C++
+| FRAUNHOFER FS (FhGFS) EULA,<ref>{{cite web
+| url=http://www.fhgfs.com/docs/FraunhoferFS_EULA.txt
+| title=FRAUNHOFER FS (FhGFS) END USER LICENSE AGREEMENT
+| date=2012-02-22
+| publisher=[[Fraunhofer Society]]}}</ref>
+GPLv2 client
+| [[Posix#POSIX.1|POSIX]]
+|-
+! {{rh}} |[[GlusterFS]]
+| C
+| {{free|GPLv3}}
+| libglusterfs, [[Filesystem in Userspace|FUSE]], NFS, SMB, Swift, libgfapi
+|-
+! {{rh}} |[[Infinit (file system)|Infinit]]<ref>{{cite web
+| url=http://infinit.sh
+| title=The Infinit Storage Platform}}</ref>
+| C++
+| {{proprietary}} (to be open sourced)<ref>{{cite web
+| url=http://infinit.sh/open-source
+| title=Infinit's Open Source Projects}}</ref>
+| [[Filesystem in Userspace|FUSE]], [[Installable File System]], [[Network File System|NFS]]/[[Server Message Block|SMB]], [[Posix#POSIX.1|POSIX]], [[Command-line interface|CLI]], [[Software Development Kit|SDK]] (libinfinit)
+|-
+! {{rh}} |[[OneFS distributed file system|Isilon OneFS]]
+| C/C++
+| {{Proprietary}}
+| [[Posix#POSIX.1|POSIX]], [[Network File System|NFS]], [[SMB/CIFS]], [[HDFS]], [[HTTP]], [[FTP]], SWIFT Object, [[Command-line interface|CLI]], Rest API
+|-
+! {{rh}} |[[ObjectiveFS]]<ref>{{cite web
+| url=https://objectiveFS.com
+| title=ObjectiveFS official website}}</ref>
+| C
+| {{proprietary}}
+| [[Posix#POSIX.1|POSIX]], [[Filesystem in Userspace|FUSE]]
+|-
+! {{rh}} |[[Moose File System|MooseFS]]
+| C
+| {{free|GPLv2}}
+| [[Posix#POSIX.1|POSIX]], [[Filesystem in Userspace|FUSE]]
+|-
+! {{rh}} |[[Quantcast File System]]
+| C
+| {{free|Apache License 2.0}}
+| C++ client, [[Filesystem in Userspace|FUSE]] (C++ server: MetaServer and ChunkServer are both in C++)
+|-
+! {{rh}} |[[GPFS|Spectrum Scale (GPFS)]] 
+| C, C++
+| {{proprietary}}
+| [[POSIX]], NFS, [[Server Message Block|SMB]], Swift
+|-
+! {{rh}} |[[LizardFS]]
+| C++
+| {{free|GPLv3}}
+| [[Posix#POSIX.1|POSIX]], [[Filesystem in Userspace|FUSE]], [[Network_File_System#Other_extensions|NFS-Ganesha]], [[Ceph_(software)|Ceph FSAL (via libcephfs)]]
+|-
+! {{rh}} |[[Lustre (file system)|Lustre]]
+| C
+| {{free|GPLv2}}
+| [[Posix#POSIX.1|POSIX]], liblustre, [[Filesystem in Userspace|FUSE]]
+|-
+! {{rh}} |[[MapR FS|MapR-FS]]
+| C, C++
+| {{proprietary}}
+| [[Posix#POSIX.1|POSIX]], [[Network File System|NFS]], [[Filesystem in Userspace|FUSE]], [[Amazon S3|S3]]
+|-
+! {{rh}} |[[OpenAFS]]
+| C
+| {{free|IBM Public License}}
+| [[Virtual file system]], [[Installable File System]]
+|-
+! {{rh}} |[[OpenIO]]<ref>{{Cite web|url=https://docs.openio.io/|title=OpenIO SDS Documentation|last=|first=|date=|website=docs.openio.io|archive-url=|archive-date=|dead-url=}}</ref>
+| C
+| {{free|AGPLv3 / LGPLv3}}
+| Native ([[Python (programming language)|Python]], [[C (programming language)|C]], [[Java (programming language)|Java]]), [[HTTP]]/[[REST]], [[Amazon S3|S3]], [[OpenStack Swift|Swift]], [[Filesystem in Userspace|FUSE]] ([[POSIX]], [[Network File System|NFS]], [[Server Message Block|SMB]], [[File Transfer Protocol|FTP]])
+|-
+! {{rh}} |[https://www.panasas.com/panfs-architecture/panfs/ PanFS]
+| C, C++
+| {{proprietary}}
+| [[Panasas#DirectFlow|DirectFlow]], [[POSIX]], [[Network File System|NFS]], [[Server Message Block|SMB/CIFS]], [[Hypertext Transfer Protocol|HTTP]], [[Command-line interface|CLI]]
+|-
+! {{rh}} |[[scality]]
+| C
+| {{proprietary}}
+| [[Filesystem in Userspace|fuse]], [[NFS file system]], [[Representational state transfer|rest]], [[AWS S3]]
+|-
+! {{rh}} |[[Tahoe-LAFS]]
+| Python
+| [[GNU GPL]] 2+ and other<ref>{{cite web
+| url=https://tahoe-lafs.org/trac/tahoe-lafs/browser/docs/about.rst#license
+| title=About Tahoe-LAFS}}</ref>
+| HTTP (browser or [[Command-line interface|CLI]]), [[SSH File Transfer Protocol|SFTP]], [[File Transfer Protocol|FTP]], [[Filesystem in Userspace|FUSE]] via [[SSHFS]], pyfilesystem
+|-
+! {{rh}} |[[HDFS]]
+| Java
+| {{free|Apache License 2.0}}
+| Java and C client, HTTP
+|-
+! {{rh}} |[[XtreemFS]]
+| Java, C++
+| {{free|BSD License}}
+| libxtreemfs (Java, C++), [[Filesystem in Userspace|FUSE]]
+|-
+! {{rh}} |Ori<ref>{{cite web
+| url=http://ori.scs.stanford.edu
+| title=Ori: A Secure Distributed File System}}</ref>
+| C, C++
+| {{free|MIT}}
+| libori, [[Filesystem in Userspace|FUSE]]
+|}
+
+==Remote access==
+{| class="wikitable sortable" style="width: auto; table-layout: fixed;  text-align: center;"
+|- style="background: #ececec"
+!| Name
+! Run by
+! Access API
+|-
+| {{rh}} |[[Amazon S3]]
+| [[Amazon.com]]
+| [[HTTP]] ([[REST]]/[[SOAP]])
+|-
+| {{rh}} |[[Google Cloud Storage]]
+| [[Google]]
+| [[HTTP]] ([[REST]])
+|-
+| {{rh}} |SWIFT (part of [[OpenStack]])
+| [[Rackspace]], [[Hewlett-Packard]], others
+| [[HTTP]] ([[REST]])
+|-
+| {{rh}} |[[Microsoft Azure]]
+| [[Microsoft]]
+| [[HTTP]] ([[REST]])
+|-
+| {{rh}} |[[Cleversafe]]
+| [[Cleversafe]]
+| [[HTTP]] ([[REST]])
+|}
+
+==Comparison==
+Some researchers have made a functional and experimental analysis of several distributed file systems including HDFS, Ceph, Gluster, Lustre and old (1.6.x) version of MooseFS, although this document is over 4 years old and a lot of information may be outdated (e.g. MooseFS has at the time of writing this stable 2.0 and beta 3.0 version and HA for Metadata Server - since 2.0 and it is not mentioned in this document).<ref>{{cite web|last1=Séguin|first1=Cyril|last2=Depardon|first2=Benjamin|last3=Le Mahec|first3=Gaël|title=Analysis of Six Distributed File Systems|url=https://hal.archives-ouvertes.fr/file/index/docid/789086/filename/a_survey_of_dfs.pdf|website=HAL}}</ref>
+
+The cloud based remote distributed storage from major vendors have different APIs and different consistency models.<ref>{{cite web|title=Data Consistency Models of Public Cloud Storage Services: Amazon S3, Google Cloud Storage and Windows Azure Storage|url=https://www.systutorials.com/3551/data-consistency-models-of-public-cloud-storage-services-amazon-s3-google-cloud-storage-and-windows-azure-storage/|website=SysTutorials|accessdate=19 June 2017}}</ref> 
+
+==See also==
+*[[Distributed file system]]
+*[[List of file systems#Distributed file systems|List of file systems, the ''Distributed file systems'' section]]
+
+==References==
+<references />
+
+{{Storage virtualization}}
+{{File systems}}
+
+[[Category:Network file systems]]
+[[Category:Software comparisons|Distributed file systems]]
+{{compu-storage-stub}}

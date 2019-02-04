@@ -1,0 +1,36 @@
+'''ER=EPR''' is a conjecture in physics stating that [[Quantum entanglement|entangled]] particles are connected by a [[wormhole]] (or Einstein–Rosen bridge)<ref name="FT-2016">{{cite web |author=Staff |title=This New Equation Could Unite The Two Biggest Theories in Physics |url=https://futurism.com/this-new-equation-could-unite-the-two-biggest-theories-in-physics/ |date=2016 |work=futurism.com |accessdate=May 19, 2017 }}</ref><ref name=Cowen>{{cite journal|last1=Cowen|first1=Ron|title=The quantum source of space-time|journal=Nature|date=16 November 2015|volume=527|issue=7578|url=http://www.nature.com/news/the-quantum-source-of-space-time-1.18797}}</ref> and may be a basis for unifying [[general relativity]] and [[quantum mechanics]] into a [[theory of everything]].<ref name="FT-2016" />
+
+==Overview==
+The conjecture was proposed by [[Leonard Susskind]] and [[Juan Maldacena]] in 2013.<ref>{{cite journal|last1=Maldacena|first1=Juan|last2=Susskind|first2=Leonard|title=Cool horizons for entangled black holes|journal=Fortsch. Phys.|date=2013|volume=61|issue=9|pages=781–811|doi=10.1002/prop.201300020|arxiv = 1306.0533 |bibcode = 2013ForPh..61..781M }}</ref> They proposed that a non-traversable wormhole (Einstein–Rosen bridge or ER bridge) is equivalent to a pair of maximally [[quantum entanglement|entangled]] [[black holes]]. EPR refers to [[quantum entanglement]] ([[EPR paradox]]).
+
+The symbol is derived from the first letters of the surnames of authors who wrote the first paper on wormholes ([[Albert Einstein]] and [[Nathan Rosen]])<ref>{{cite journal|last1=Einstein|first1=A.|last2=Rosen|first2=N.|title=The Particle Problem in the General Theory of Relativity|journal=Physical Review|date=1 July 1935|volume=48|issue=1|pages=73–77|doi=10.1103/PhysRev.48.73|bibcode = 1935PhRv...48...73E }}</ref> and the first paper on entanglement (Einstein, [[Boris Podolsky]] and Rosen).<ref>{{cite journal|last1=Einstein|first1=A.|last2=Podolsky|first2=B.|last3=Rosen|first3=N.|title=Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?|journal=Physical Review|date=15 May 1935|volume=47|issue=10|pages=777–780|doi=10.1103/PhysRev.47.777|bibcode = 1935PhRv...47..777E |url=http://cds.cern.ch/record/405662|type=Submitted manuscript}}</ref> The two papers were published in 1935, but the authors did not claim any connection between the concepts.<ref name=Cowen/>
+
+Preliminary evidence, though indirect, for ER=EPR is that a certain entangled pair has been realized as an ER bridge using [[AdS/CFT correspondence]].<ref>H. Gharibyan; R. F. Penna; 2014; Physical Rev. D 89 , 06601</ref>
+
+===Conjectured resolution===
+This is a conjectured resolution to the [[firewall (physics)|AMPS firewall]] paradox. Whether or not there is a firewall depends upon what is thrown into the other distant black hole. However, as the firewall lies inside the [[event horizon]], no external [[superluminal signalling]] would be possible.
+
+This conjecture is an extrapolation of the observation by [[Mark Van Raamsdonk]]<ref>{{cite journal|last1=van Raamsdonk|first1=Mark|title=Building up spacetime with quantum entanglement|journal=Gen. Rel. Grav.|date=2010|volume=42|issue=14|pages=2323–2329|doi=10.1142/S0218271810018529|bibcode = 2010IJMPD..19.2429V|arxiv=1005.3035|citeseerx=10.1.1.694.9818}}</ref> that a maximally extended [[AdS-Schwarzschild black hole]], which is a non-traversable wormhole, is dual to a pair of maximally entangled thermal [[conformal field theories]] via the [[AdS/CFT correspondence]].
+
+They backed up their conjecture by showing that the pair production of charged black holes in a background [[magnetic field]] leads to entangled black holes, but also, after [[Wick rotation]], to a wormhole.
+
+{{Quote|text=Susskind and Maldacena envisioned gathering up all the Hawking particles and smushing them together until they collapse into a black hole. That black hole would be entangled, and thus connected via wormhole, with the original black hole. That trick transformed a confusing mess of Hawking particles—paradoxically entangled with both a black hole and each other—into two black holes connected by a wormhole. Entanglement overload is averted, and the firewall problem goes away.|author=Science News|source=<ref>{{cite web |website=ScienceNews |url=https://www.sciencenews.org/article/entanglement-gravitys-long-distance-connection |title=Entanglement: Gravity's long-distance connection |last=Grant |first=Andrew |access-date=6 May 2018 |date=7 October 2015}}</ref>}}
+
+This conjecture sits uncomfortably with the [[linearity]] of quantum mechanics. An entangled state is a linear [[quantum superposition|superposition]] of separable states. Presumably, separable states are not connected by any wormholes, but yet a superposition of such states is connected by a wormhole.<ref>{{Cite web|url=https://medium.com/@wormhole/entangled-universe-could-wormholes-hold-the-cosmos-together-437dfaf61771|title=Entangled universe: Could wormholes hold the cosmos together?|date=2016-03-13|website=Medium|access-date=2017-05-20}}</ref>
+
+The authors pushed this conjecture even further by claiming any entangled pair of particles—even particles not ordinarily considered to be black holes, and pairs of particles with different masses or spin, or with charges which aren't opposite—are connected by [[Planck scale]] wormholes.
+
+The conjecture leads to a grander conjecture that the geometry of space, time and gravity is determined by entanglement.<ref name=Cowen/><ref>{{cite journal |last=Susskind |first=Leonard |author-link=Leonard Susskind |arxiv=1604.02589|title=Copenhagen vs Everett, Teleportation, and ER=EPR |class= |date=2016 | quote=If we believe in the ambitious form of ER=EPR, this implies the presence of an Einstein-Rosen bridge connecting the superposed wave packets for a single particle. |doi=10.1002/prop.201600036 |volume=64 |issue=6–7 |journal=Fortschritte der Physik |pages=551–564|bibcode = 2016ForPh..64..551S }}</ref><ref>{{cite web | author=[[Sean M. Carroll]] | title=Space Emerging from Quantum Mechanics| publisher= | url=http://www.preposterousuniverse.com/blog/2016/07/18/space-emerging-from-quantum-mechanics/ | date=July 18, 2016  | quote= A related notion is the ER=EPR conjecture of Maldacena and Susskind, relating entanglement to wormholes. In some sense, we’re making this proposal a bit more specific, by giving a formula for distance as a function of entanglement.}}</ref>
+
+== References ==
+ {{reflist|colwidth=30em}}
+
+==External links==
+* Susskind, Leonard. [https://www.youtube.com/watch?v=OBPpRqxY8Uw "ER = EPR" or "What's Behind the Horizons of Black Holes?"]. Stanford Institute for Theoretical Physics. November. 4, 2014.
+
+{{black holes}}
+{{quantum gravity}}
+
+{{DEFAULTSORT:ER EPR}}
+[[Category:Black holes]]
+[[Category:Quantum gravity]]

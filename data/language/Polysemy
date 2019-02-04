@@ -1,0 +1,150 @@
+{{distinguish|Polysomy}}
+{{redirects|Polysemia|the moth genus|Polysemia (moth)}}
+'''Polysemy''' ({{IPAc-en|p|ə|ˈ|l|ɪ|s|ᵻ|m|i}} or {{IPAc-en|ˈ|p|ɒ|l|ᵻ|s|iː|m|i}};<ref>{{cite web |url=http://www.bartleby.com/61/0/P0430050.html |archiveurl=https://web.archive.org/web/20080628052459/http://www.bartleby.com/61/0/P0430050.html |archivedate=28 June 2008 |title=polysemous |work=The American Heritage Dictionary of the English Language (Fourth Edition) |year=2000}}</ref><ref>{{cite web |url=http://www.askoxford.com/concise_oed/polysemy?view=uk |title=definition of polysemy |publisher=Oxford Dictionaries Online}}</ref> from {{lang-el|πολυ-}}, ''poly-'', "many" and {{lang|grc|σῆμα}}, ''sêma'', "sign") is the capacity for a [[sign (semiotics)|sign]] (such as a [[word]], [[phrase]], or [[symbol]]) to have multiple meanings (that is, multiple [[seme (semantics)|semes]] or [[sememe]]s and thus multiple [[word sense|senses]]), usually related by contiguity of [[meaning (linguistics)|meaning]] within a [[semantic field]]. Polysemy is thus distinct from [[homonymy]]—or [[Homophone|homophony]]—which is an accidental similarity between two words (such as ''[[bear]]'' the animal, and the verb ''to bear''); while homonymy is often a mere linguistic coincidence, polysemy is not.
+
+[[Charles J. Fillmore|Charles Fillmore]] and [[B. T. S. Atkins|Beryl Atkins']] definition stipulates three elements: (i) the various senses of a polysemous word have a central origin, (ii) the links between these senses form a network, and (iii) understanding the 'inner' one contributes to understanding of the 'outer' one.<ref>
+{{cite book
+  | chapter   = Describing polysemy: The case of "crawl"
+  | last1 = Fillmore
+  | first1 = C J
+  | author1-link = Charles J. Fillmore
+  | last2 = Atkins
+  | first2 = B T S
+  | author2-link = B. T. S. Atkins
+  | year = 2000
+  | editor1-last  = Ravin
+  | editor1-first = Y
+  | editor2-last  = Leacock
+  | editor2-first = C
+  | title = Polysemy: Theoretical and computational approaches
+  | publisher = [[Oxford University Press]]
+  | location = Oxford
+  | pages = 91–110
+  | url = https://books.google.com/books?id=Bt5gexKhIlQC&printsec=frontcover#v=onepage&q&f=false
+}}, p.100.</ref>
+
+Polysemy is a pivotal concept within disciplines such as [[media studies]] and [[linguistics]]. The analysis of polysemy, [[synonym]]y, and [[hyponymy and hypernymy]] is vital to [[taxonomy (general)|taxonomy]] and [[ontology (information science)|ontology]] in the [[information science|information-science]] senses of those terms. It has applications in [[pedagogy]] and [[machine learning]], because they rely on [[word-sense disambiguation]] and [[wikt:schema#Noun|schemas]].{{citation needed|date=September 2016}}
+
+==Polysemes==
+A '''polyseme''' is a word or phrase with different, but related [[Word sense|senses]]. Since the test for polysemy is the vague concept of the relatedness, judgments of polysemy can be difficult to make. Because applying pre-existing words to new situations is a natural process of language change, looking at words' [[etymology]] is helpful in determining polysemy but not the only solution; as words become lost in etymology, what once was a useful distinction of meaning may no longer be so. Some apparently unrelated words share a common historical origin, however, so etymology is not an infallible test for polysemy, and dictionary writers also often defer to speakers' intuitions to judge polysemy in cases where it contradicts etymology. English has many polysemous words. For example, the verb "to get" can mean "procure" (''I'll get the drinks''), "become" (''she got scared''), "understand" (''I get it'') etc.
+
+In linear or vertical polysemy, one sense of a word is a subset of the other. These are examples of [[hyponymy and hypernymy]], and are sometimes called autohyponyms.<ref>{{cite web|url=http://sro.sussex.ac.uk/24023/|title=On the distinction between metonymy and vertical polysemy in encyclopaedic semantics|last=Koskela|first=Anu|year=2005|work=Sussex Research Online|accessdate=30 June 2014}}</ref> For example, 'dog' can be used for 'male dog'. Alan Cruse identifies four types of linear polysemy:<ref name=":0">{{Cite book|title=Meaning in Language|last=Cruse|first=D Alan|publisher=Oxford University Press|year=2000|isbn=|location=|pages=|chapter=Contextual variability}}</ref> 
+
+* autohyponymy, where the basic sense leads to a specialised sense (from "drinking (anything)" to "drinking (alcohol)") 
+* automeronymy, where the basic sense leads to a subpart sense (from "door (whole structure)" to "door (panel)")
+* autohyperonymy or autosuperordination, where the basic sense leads to a wider sense (from "(female) cow" to "cow (of either sex)")
+* autoholonymy, where the basis sense leads to a larger sense (from "leg (thigh and calf)" to "leg (thigh, calf, knee and foot)")
+
+In non-linear polysemy, the original sense of a word is used figuratively to provide a different way of looking at the new subject. Alan Cruse identifies three types of non-linear polysemy:<ref name=":0" />
+
+* [[metonymy]], where one sense "stands for" another (from "hands (body part)" to "hands (manual labourers)"
+* [[metaphor]], where there is a resemblance between senses (from "swallowing (a pill)" to "swallowing (an argument)"
+* other construals (for example, from "month (of the year)" to "month (four weeks)"
+
+There are several tests for polysemy, but one of them is [[zeugma]]: if one word seems to exhibit zeugma when applied in different contexts, it is likely that the contexts bring out different polysemes of the same word. If the two senses of the same word do not seem to ''fit,'' yet seem related, then it is likely that they are polysemous. The fact that this test again depends on speakers' judgments about relatedness, however, means that this test for polysemy is not infallible, but is rather merely a helpful conceptual aid.
+
+The difference between [[homonyms]] and polysemes is subtle. [[lexicography|Lexicographers]] define polysemes within a single dictionary [[Lemma (morphology)|lemma]], numbering different meanings, while homonyms are treated in separate lemmata. [[Semantic shift]] can separate a polysemous word into separate homonyms. For example, ''[[cheque|check]]'' as in "bank check" (or ''Cheque''), ''check'' in chess, and ''check'' meaning "verification" are considered homonyms, while they originated as a single word derived from [[chess]] in the 14th century. Psycholinguistic experiments have shown that homonyms and polysemes are represented differently within people's mental [[lexicon]]: while the different meanings of homonyms (which are semantically unrelated) tend to interfere or compete with each other during comprehension, this does not usually occur for the polysemes that have semantically related meanings.<ref name="RoddGaskellMarslenWilson2002">{{cite journal |author1=Jennifer Rodd |author2=M Gareth Gaskell |author3=William Marslen-Wilson  |last-author-amp=yes | title=
+Making Sense of Semantic Ambiguity: Semantic Competition in Lexical Access|journal = Journal of Memory and Language | year=2002| volume=46 | pages=245–266|doi=10.1006/jmla.2001.2810}}</ref><ref name="RoddGaskellMarslenWilson2004">{{cite journal |author1=Jennifer Rodd |author2=M Gareth Gaskell |author3=William Marslen-Wilson  |last-author-amp=yes | title=
+Modelling the effects of semantic ambiguity in word recognition|journal = Cognitive Science | year=2004| volume=28 | pages=89–104|doi=10.1016/j.cogsci.2003.08.002}}</ref><ref>Klepousniotou, E., & Baum, S.R. (2007). [http://digitool.library.mcgill.ca/webclient/DeliveryManager?pid=148085&custom_att_2=direct Disambiguating the ambiguity advantage effect in word recognition: An advantage for polysemous but not homonymous words]. Journal of Neurolinguistics, 20, 1-24. doi:10.1016/j.jneuroling.2006.02.001</ref><ref>Beretta, A., Fiorentino, R., & Poeppel, D. (2005). [http://ling.umd.edu/~ellenlau/courses/ling646/Beretta_2005.pdf The effects of homonymy and polysemy on lexical access: AN MEG study]. Cognitive Brain Research, 24, 57-65. doi:10.1016/j.cogbrainres.2004.12.006</ref> Results for this contention, however, have been mixed.<ref>Klein, D.E., & Murphy, G.L. (2001). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.80.4050&rep=rep1&type=pdf The representation of polysemous words]. Journal of Memory and Language, 45, 259-282. doi:10.1006/jmla.2001.2779</ref><ref>Klein, D.E., & Murphy, G.L. (2002). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.74.5670&rep=rep1&type=pdf Paper has been my ruin: Conceptual relations of polysemous senses]. Journal of Memory and Language, 47, 548-570. doi:10.1016/S0749-596X(02)00020-7</ref><ref>Hino, Y., Kusunose, Y., & Lupker, S.J. (2010). [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.857.7346&rep=rep1&type=pdf The relatedness-of-meaning effect for ambiguous words in lexical-decision tasks: When does relatedness matter?] Canadian Journal of Experimental Psychology, 64, 180-196. doi:10.1037/a0020475</ref><ref>Hino, Y., Pexman, P.M., & Lupker, S.J. (2006). [http://psychology.uwo.ca/faculty/lupkerpdfs/Hino%20et%20al.,%202006.pdf Ambiguity and relatedness effects in semantic tasks: Are they due to semantic coding?] Journal of Memory and Language, 55, 247-273. doi:10.1016/j.jml.2006.04.001</ref>
+
+For [[Dick Hebdige]]<ref>[[Dick Hebdige|Hebdige, D.]] (1979). ''Subculture: The Meaning of Style''. New York: Metheun.</ref> polysemy means that, "each text is seen to generate a potentially infinite range of meanings," making, according to [[Richard Middleton (musicologist)|Richard Middleton]],<ref>[[Richard Middleton (musicologist)|Middleton, Richard]] (1990/2002). ''Studying Popular Music''. Philadelphia: Open University Press. {{ISBN|0-335-15275-9}}.</ref> "any homology, out of the most heterogeneous materials, possible. The idea of ''signifying practice''—texts not as communicating or expressing a pre-existing meaning but as 'positioning subjects' within a ''process'' of [[semiosis]]—changes the whole basis of creating social meaning".
+
+One group of polysemes are those in which a word meaning an activity, perhaps derived from a verb, acquires the meanings of those engaged in the activity, or perhaps the results of the activity, or the time or place in which the activity occurs or has occurred. Sometimes only one of those meanings is intended, depending on context, and sometimes multiple meanings are intended at the same time. Other types are derivations from one of the other meanings that leads to a verb or activity.
+
+===Examples===
+;Man
+:# The human species (i.e., man vs. other organisms)
+:# Males of the human species (i.e., man vs. woman)
+:# Adult males of the human species (i.e., man vs. boy)
+This example shows the specific polysemy where the same word is used at different levels of a [[Taxonomy (general)|taxonomy]]. Example 1 contains 2, and 2 contains 3.
+
+;Mole
+:# a small burrowing mammal
+:# consequently, there are several different entities called moles (see the [[Mole (disambiguation)|Mole]] disambiguation page). Although these refer to ''different'' things, their names derive from 1 (e.g. a [[Mole (espionage)|mole]] burrows for information hoping to go undetected).
+:'''However:''' other senses of the word – the skin blemish, the breakwater, the [[mole_(unit)|unit]] of measure, and the Mexican sauce – are [[homonym|homonyms]], not polysems, as they are each etymologically distinct.
+
+;Bank
+:# [[bank|a financial institution]]
+:# the building where a financial institution offers services
+:# a [[synonym]] for 'rely upon' (e.g. ''"I'm your friend, you can ''bank'' on me"''). It is different, but ''related,'' as it derives from the theme of security initiated by 1.
+:'''However:''' a river ''bank'' is a [[homonym]] to 1 and 2, as they do not share etymologies. It is a ''completely different'' meaning.<ref>[http://etymonline.com/index.php?term=bank&allowed_in_frame=0 (Etymology on ''etymonline.com'')]: ''Bank'' "earthen incline, edge of a river", c. 1200, probably in Old English but not attested in surviving documents, from a Scandinavian source such as Old Norse ''banki'', Old Danish ''banke'' "sandbank," from Proto-Germanic *''bangkon'' "slope," cognate with *bankiz "shelf".</ref> ''River bed'', though, is polysemous with the ''beds'' on which people sleep.
+
+;[[Book]]
+:# a bound collection of pages
+:# a text reproduced and distributed (thus, someone who has read the same text on a computer has read the same book as someone who had the actual paper volume)
+:# to make an action or event a matter of record (e.g. "Unable to book a hotel room, a man sneaked into a nearby private residence where police arrested him and later booked him for unlawful entry.")
+
+;Newspaper
+:# a company that publishes written news.
+:# a single physical item published by the company.
+:# the newspaper as an edited work in a specific format (e.g. "They changed the layout of the newspaper's front page").
+The different meanings can be combined in a single sentence, e.g. "John used to work for the newspaper that you are reading."
+
+;Milk
+:# (noun) a secretion, produced by a mammary gland, that functions to provide nutrients to offspring
+:# The verb ''milk'' (e.g. ''"he's milking it for all he can get"'') derives from the process of obtaining [[milk]].
+
+;Wood
+:# the material made from trees
+:# a geographical area with many trees
+
+;Crane
+:# a bird with a long neck
+:# a type of construction equipment which looks like it has a long neck
+:# to strain out one's neck
+
+;[[Happiness]]
+:# joy and similar emotions experienced in the here and now
+:# feeling good about my overall life as-a-whole
+
+==Related ideas==
+A lexical conception of polysemy was developed by [[B. T. S. Atkins]], in the form of [[lexical implication rule]]s.<ref>Nicholas Ostler, B.T.S. Atkins "[http://www.aclweb.org/anthology/W91-0208 Predictable Meaning Shift: Some Linguistic Properties of Lexical Implication Rules]" (1991) ''Proceedings of the First SIGLEX Workshop on Lexical Semantics and Knowledge Representation'', Springer-Verlag.</ref> These are rules that describe how words, in one lexical context, can then be used, in a different form, in a related context. A crude example of such a rule is the pastoral idea of "verbizing one's nouns": that certain nouns, used in certain contexts, can be converted into a verb, conveying a related meaning.
+
+Another clarification of polysemy is the idea of [[predicate transfer]]<ref>{{cite journal |author=Nunberg G |title=Transfers of Meaning |journal=Journal of Semantics |year=1995 |publisher=Oxford Univ Press|url=https://aclanthology.info/pdf/P/P93/P93-1025.pdf}}</ref>—the reassignment of a property to an object that would not otherwise inherently have that property. Thus, the expression "''I am parked out back''" conveys the meaning of "parked" from "car" to the property of "I possess a car". This avoids incorrect polysemous interpretations of "parked": that "people can be parked", or that "I am pretending to be a car", or that "I am something that can be parked". This is supported by the [[morphology (linguistics)|morphology]]: "''We are parked out back''" does not mean that there are multiple cars; rather, that there are multiple passengers (having the property of being in possession of a car).
+
+== See also ==
+
+{{columns-list|colwidth=20em|
+* [[Amphiboly]]
+* [[Aberrant decoding]]
+* [[Ambiguous grammar]]
+* [[Essentially contested concept]]
+* [[Heterosemy]]
+* [[Homograph]]
+** [[Interlingual homograph]]
+* [[Idiom]]
+* [[Metonymy]]
+* [[Monosemy]]
+* [[Polytely]]
+* [[Pronoun game]]
+* [[Pun]]
+* [[Semantic change]]
+**[[Euphemism treadmill]]
+* [[Syncretism (linguistics)]]
+* [[Syntactic ambiguity]]
+* [[Troponymy]]
+}}
+
+==References==
+{{reflist}}
+
+==Further reading==
+*AlBader, Yousuf B. (2015) "[http://etheses.whiterose.ac.uk/9696/ Semantic Innovation and Change in Kuwaiti Arabic: A Study of the Polysemy of Verbs]"
+*{{cite journal |vauthors=Joordens S, Besner D |year=1994 |title=When banking on meaning is not (yet) money in the bank: Explorations in connectionist modeling. |journal=Journal of Experimental Psychology: Learning, Memory, and Cognition |volume=20 |pages=1051–1062 |doi=10.1037/0278-7393.20.5.1051}}
+*{{cite journal |vauthors=Kawamoto AH, Farrar WT, Kello CT |year=1994 |title=When two meanings are better than one: Modeling the ambiguity advantage using a recurrent distributed network. |journal=Journal of Experimental Psychology: Human Perception and Performance |volume=20 |pages=1233–1247 |doi=10.1037/0096-1523.20.6.1233}}
+*{{cite journal |vauthors=Borowsky R, Masson ME |year=1996 |title=Semantic ambiguity effects in word identification. |journal=Journal of Experimental Psychology: Learning, Memory, and Cognition |volume=22 |pages=63–85 |doi=10.1037/0278-7393.22.1.63}}
+*{{cite journal |author=Jastrzembski JE |year=1981 |title=Multiple meanings, number of related meanings, frequency of occurrence, and the lexicon |journal=Cognitive Psychology |volume=13 |pages=278–305 |doi=10.1016/0010-0285(81)90011-6}}
+*{{cite journal |author=Rubenstein H, Garfield L, Millikan |year=1970 |title=Homographic entries in the internal lexicon |journal=Journal of Verbal Learning and Verbal Behavior |volume=9 |pages=487–494 |doi=10.1016/s0022-5371(70)80091-3}}
+*{{cite book |author=O'Sullivan|year=1994 |title=Key Concepts in Communication and Cultural Studies |location=London |publisher=Routledge |isbn=0-415-06173-3|display-authors=etal}}
+*Jamet, Denis (Ed.) (2008) "[https://web.archive.org/web/20090926153750/http://screcherche.univ-lyon3.fr/lexis/spip.php?rubrique6 Polysemy]", 1st issue of ''Lexis, E-Journal in English Lexicology''.
+
+==External links==
+*{{wiktionary-inline|polysemy}}
+*{{wiktionary-inline|polyseme}}
+
+{{Authority control}}
+
+[[Category:Lexical semantics]]
+[[Category:Psycholinguistics]]
+[[Category:Polysemy| ]]
+[[Category:Homonymy]]

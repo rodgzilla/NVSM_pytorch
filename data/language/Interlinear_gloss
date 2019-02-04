@@ -1,0 +1,189 @@
+{{See also|List of glossing abbreviations}}
+In [[linguistics]] and [[pedagogy]], an '''interlinear gloss''' is a [[gloss (annotation)|gloss]] (series of brief explanations, such as definitions or pronunciations) placed between lines (''[[wikt:inter-#Prefix|inter-]]'' + ''[[wikt:linear#Adjective|linear]]''), such as between a line of original text and its [[translation]] into another [[language]]. When glossed, each line of the original text acquires one or more lines of transcription known as an '''interlinear text''' or '''interlinear glossed text''' ('''IGT'''){{mdash}}'''interlinear''' for short. Such glosses help the reader follow the relationship between the [[source text]] and its translation, and the structure of the original language. In its simplest form, an interlinear gloss is simply a literal, word-for-word translation of the [[source text]].
+
+==History==
+[[File:Toussaint-Langenscheidt Spanisch 7.13.png|thumb|Interlinear text in ''Toussaint-Langenscheidt Spanisch'', a [[Spanish language|Spanish-language]] textbook for [[German language|German]] speakers, 1910]]
+Interlinear glosses have been used for a variety of purposes over a long period of time. One common usage has been to annotate bilingual textbooks for language education. This sort of interlinearization serves to help make the meaning of a [[source text]] explicit without attempting to formally model the structural characteristics of the source language.
+
+Such annotations have occasionally been expressed not through interlinear layout, but rather, through enumeration of words in the object and meta language. One such example is [[Wilhelm von Humboldt]]'s annotation of [[Classical Nahuatl]]:<ref name=lehmann2004directions/>
+
+{| style="line-height: 80%;"
+|-
+| &nbsp;&nbsp;&nbsp;&nbsp; || 1   || 2  || 3      || 4    || 5  || 6   || 7       || 8  || 9
+|-
+| &nbsp;&nbsp;&nbsp;&nbsp; || ni- || c- || chihui || -lia || in || no- || piltzin || ce || calli
+|-
+| &nbsp;&nbsp;&nbsp;&nbsp; || 1   || 3     || 2  || 4   || 5   || 6    || 7    || 8   || 9
+|-
+| &nbsp;&nbsp;&nbsp;&nbsp; || ich || mache || es || für || der || mein || Sohn || ein || Haus
+|}
+
+This "inline" style allows examples to be included within the flow of text, and for the word order of the target language to be written in an order which approximates the target language syntax. (In the gloss here, ''mache es'' is reordered from the corresponding source order to approximate German syntax more naturally.) Even so, this approach requires the readers to "re-align" the correspondences between source and target forms.
+
+More modern 19th- and 20th-century approaches took to glossing vertically, aligning the same sort of word-by-word content in such a way that the metalanguage terms were placed vertically below the source language terms. In this style, the given example might be rendered thus (here English gloss):
+
+:{{interlinear| lang = nci
+| ni- c- chihui -lia in no- piltzin ce calli
+| I it make for to-the my son a house
+|"I made my son a house."}}
+
+Note that here word ordering is determined by the syntax of the object language.
+
+Finally, modern linguists have adopted the practice of using abbreviated grammatical category labels. A 2008 publication which repeats this example labels it as follows:<ref name=haspelmath2008handbook/>
+
+:{{interlinear| lang = nci
+|ni-c-chihui-lia in no-piltzin ce calli
+|1SG.SUBJ-3SG.OBJ-mach-APPL DET 1SG.POSS-Sohn ein Haus|}}
+
+This approach is denser and also requires effort to read, but it is less reliant on the grammatical structure of the metalanguage for expressing the semantics of the target forms.
+
+In computing, special text markers are provided in [[Specials (Unicode block)]] to indicate the start and end of interlinear glosses.
+
+==Structure==
+
+A semi-standardized set of parsing conventions and grammatical abbreviations is explained in the [[Leipzig Glossing Rules]].<ref name=leipzigRules/>
+
+An interlinear text will commonly consist of some or all of the following, usually in this order, from top to bottom: 
+*The original [[orthography]] (typically in ''italic'' or '''''bold italic'''''), 
+*a conventional transliteration into the Latin alphabet,
+*a [[phonetic]] transcription, 
+*a [[morphophonemic]] transliteration,
+*a word-by-word or [[morpheme]]-by-morpheme gloss, where morphemes within a word are separated by hyphens or other punctuation,
+and finally 
+*a free translation, which may be placed in a separate paragraph or on the facing page if the structures of the languages are too different for it to follow the text line by line.
+
+As an example, the following [[Taiwanese Minnan|Taiwanese]] clause has been transcribed with five lines of text: 
+:1. the standard ''[[pe̍h-ōe-jī]]'' transliteration, 
+:2. a gloss using [[tone number]]s for the surface tones, 
+:3. a gloss showing the underlying tones in citation form (before undergoing [[tone sandhi]]), 
+:4. a morpheme-by-morpheme gloss in [[English language|English]], and 
+:5. an English translation:<ref>Example from ''A Basic Vocabulary for a Beginner in Taiwanese'' by Ko Chek Hoan and Tan Pang Tin</ref>
+
+:{{interlinear|italics1=yes|italics2=yes|italics3=yes|glossing2=no
+|{{noitalic|(1.)}} goá iáu-boē koat-tēng tang-sî boeh tńg-khì
+|{{noitalic|(2.)}} goa1 iau1-boe3 koat2-teng3 tang7-si5 boeh2 tng1-khi3.
+|{{noitalic|(3.)}} goa2 iau2-boe7 koat4-teng7 tang1-si5 boeh4 tng2-khi3.
+|(4.) I not-yet decide when want return.
+|(5.) "I have not yet decided when I shall return."}}
+In linguistics, it has become standard to align the words and to gloss each transcribed [[morpheme]] separately. That is, ''koat-tēng'' in line 1 above would either require a hyphenated two-word gloss, or be transcribed without a hyphen, for example as ''koattēng.'' Grammatical terms are commonly abbreviated and printed in {{small|SMALL CAPITALS}} to keep them distinct from translations, especially when they are frequent or important for analysis. Varying levels of analysis may be detailed. For example, in a [[Lezgian language|Lezgian]] text using standard romanization,<ref>Haspelmath 1993:207</ref>
+
+:{{interlinear|glossing = link| lang = lez
+|Gila abur-u-n ferma hamišaluǧ güǧüna amuqʼ-da-č
+|now they-OBL-GEN farm forever behind stay-FUT-NEG
+|'Now their farm will not stay behind forever.'}}
+
+Here every Lezgian morpheme is set off with hyphens and glossed separately. Since many of these are difficult to gloss in English, the [[root word|roots]] are translated, but the grammatical suffixes are glossed with three-letter grammatical abbreviations.
+
+The same text may be glossed at a different level of analysis:
+
+:{{interlinear| lang = lez
+|Gila aburun ferma hamišaluǧ güǧüna amuqʼ-da-č
+|now their.OBL farm forever behind stay-will-not
+|'Now their farm will not stay behind forever.'}}
+
+Here the Lezgian morphemes are translated into English as much as possible; only those which correspond to English are set off with hyphens.
+
+A more colloquial gloss would be:
+
+:{{interlinear| lang = lez
+|Gila aburun ferma hamišaluǧ güǧüna amuqʼdač
+|now their farm forever behind won't.stay
+|'Now their farm will not stay behind forever.'}}
+
+Here the gloss is word for word; rather than setting off Lezgian morphemes with hyphens, the English words in the gloss are joined with periods when more than one is required to translate a Lezgian word.
+
+==Punctuation==
+In interlinear morphological glosses, various forms of punctuation separate the glosses. Typically, the words are aligned with their glosses; within words, a hyphen is used when a boundary is marked in both the text and its gloss, a period when a boundary appears in only one. That is, there should be the same number of words separated with spaces in the text and its gloss, as well as the same number of hyphenated morphemes within a word and its gloss. This is the basic system, and can be applied universally. For example,
+
+:{{interlinear| lang = tr| glossing = link
+|top = ''Odadan hızla çıktım.'' (Turkish) 
+|oda-dan hız-la çık-tı-m
+|room-ABL speed-COM go.out-PFV-1sg
+|room-from speed-with go_out-perfective-I
+|'I left the room quickly.'}}
+
+An underscore may be used instead of a period, as in ''go_out-{{small|PFV}}'', when a single word in the source language happens to correspond to a phrase in the glossing language, though a period would still be used for other situations, such as Greek ''oikíais'' house.{{small|FEM.PL.DAT}} 'to the houses'.
+
+However, sometimes finer distinctions may be made. For example, [[clitic]]s may be separated with a double hyphen (or, for ease of typing, an equal sign) rather than a hyphen:
+
+:{{interlinear| lang = fr
+|top = ''Je t'aime.'' (French)
+|je{{=}}te{{=}}aime
+|I{{=}}you{{=}}love
+|'I love you.'}} 
+
+Affixes which case discontinuity ([[infix]]es, [[circumfix]]es, transfixes, etc.) may be set off by angle brackets, and [[reduplication]] with tildes, rather than with hyphens:
+
+:{{interlinear|tone-superscripting = no| lang  = tl
+|top = sulat, susulat, sumulat, sumusulat (verbal declensions) (Tagalog) 
+|sulat su~sulat s{{infix|um}}ulat s{{infix|um}}u~sulat
+|write [[contemplative mood]]~write {{infix|[[agent trigger]].past}}write {{infix|agent{{nbsp}}trigger}}contemplative~write
+|}}
+(See [[affix]] for other examples.)
+
+Morphemes which cannot be easily separated out, such as [[Germanic umlaut|umlaut]], may be marked with a backslash rather than a period:
+
+:{{interlinear
+|unser-n Väter-n| c1 = (German)
+|our-DAT.PL father\PL-DAT.PL
+|'to our fathers' (the singular of ''Väter'' 'fathers' is ''Vater'')}}
+
+A few other conventions which are sometimes seen are illustrated in the Leipzig Glossing Rules.<ref name=leipzigRules/>
+
+==See also==
+* [[Kanbun]] – Japanese tradition of glossing Classical Chinese texts
+* [[Ruby character|Ruby text]] &ndash; a gloss sometimes used with Chinese or Japanese to show the pronunciation
+* [http://www.eopas.org/transcripts Collection of texts in the EOPAS system, many in interlinear formats and linked back to the source media]
+
+==References==
+{{Reflist|refs=
+<ref name=haspelmath2008handbook>
+{{Cite book
+| publisher = Walter de Gruyter
+| isbn = 978-3-11-011423-2
+| last = Haspelmath
+| page = 715
+| first = Martin
+| title = Language typology and language universals: an international handbook
+| year = 2008
+}}</ref>
+<ref name=lehmann2004directions>{{Cite book
+| publisher = W. de Gruyter
+| volume = 2
+| pages = 1834–1857
+| last = Lehmann
+| first = Christian
+| editors = Geert Booij, Christian Lehmann, Joachim Mugdan, Stavros Skopeteas
+| title = Morphologie. Ein internationales Handbuch zur Flexion und Wortbildung
+| chapter = Directions for interlinear morphemic translations
+| location = Berlin
+| series = Handbücher der Sprach- und Kommunikationswissenschaft
+| date = 2004-01-23
+}}</ref>
+<ref name=leipzigRules>{{Cite web
+| last = Bickel
+| first = Balthasar
+|author2=Bernard Comrie |author3=Martin Haspelmath
+ | title = The Leipzig Glossing Rules. Conventions for Interlinear Morpheme by Morpheme Glosses.
+| work = Dept. of Linguistics – Resources – Glossing Rules
+| accessdate = 2010-06-30
+| date = February 2008
+| url = http://www.eva.mpg.de/lingua/tools-at-lingboard/tools.php
+}}</ref>
+
+}}
+
+
+==External links==
+* [http://www.eva.mpg.de/lingua/resources/glossing-rules.php The Leipzig Glossing Rules: Conventions for interlinear morpheme-by-morpheme glosses]
+* [http://emeld.org/school/classroom/text/standards.html Interlinear Glossed Text Standards] (E-MELD)
+* [http://emeld.org/school/classroom/text/levels.html Interlinear Glossed Text Levels] (E-MELD)
+* [http://emeld.org/workshop/2003/bowbadenbird-paper.pdf Towards a General Model of Interlinear Text] (E-MELD)
+* [http://www.uni-erfurt.de/sprachwissenschaft/personal/lehmann/CL_Publ/IMG.pdf Interlinear Morphemic Glosses]
+* [http://wikis.hu-berlin.de/interlinear_glossing/ Glossing Ancient Languages and Texts]. A forum for recommendations on the Interlinar Morphemic Glossing of ancient languages as attested in ancient manuscripts. 
+* [http://www.scripture4all.org/OnlineInterlinear/Greek_Index.htm Online Interlinear of Biblical Greek Scriptures (New Testament) text - Requires Adobe Acrobat]
+* [http://odin.linguistlist.org/ ODIN - The Online Database of INterlinear text]
+
+[[Category:Translation]]
+[[Category:Linguistics]]
+[[Category:Reordered languages]]

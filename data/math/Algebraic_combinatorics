@@ -1,0 +1,75 @@
+[[File:fano plane.svg|thumb|The Fano [[matroid]], derived from the [[Fano plane]]. Matroids are one of many areas studied in '''algebraic combinatorics'''.]]
+
+'''Algebraic combinatorics''' is an area of [[mathematics]] that employs methods of [[abstract algebra]], notably [[group theory]] and [[representation theory]], in various [[combinatorics|combinatorial]] contexts and, conversely, applies combinatorial techniques to problems in [[abstract algebra|algebra]].
+
+==History==
+Through the early or mid-1990s, typical combinatorial objects of interest in algebraic combinatorics either admitted a lot of [[symmetry (mathematics)|symmetries]] ([[association scheme]]s, [[strongly regular graph]]s, posets with a [[group action]]) or possessed a rich algebraic structure, frequently of representation theoretic origin ([[symmetric function]]s, [[Young tableaux]]). This period is reflected in the area 05E, ''Algebraic combinatorics'', of the [[American Mathematical Society|AMS]] [[Mathematics Subject Classification]], introduced in 1991.
+
+==Scope==
+Algebraic combinatorics has come to be seen more expansively as an area of mathematics where the interaction of combinatorial and algebraic methods is particularly strong and significant. Thus the combinatorial topics may be [[enumerative combinatorics|enumerative]] in nature or involve [[matroid]]s, [[polytope]]s, [[partially ordered set]]s, or [[finite geometry|finite geometries]]. On the algebraic side, besides group and representation theory, [[lattice theory]] and [[commutative algebra]] are common.
+
+==Important topics==
+
+===Symmetric functions===
+{{main|Ring of symmetric functions}}
+The [[ring of symmetric functions]] is a specific limit of the rings of [[symmetric polynomial]]s in ''n'' indeterminates, as ''n'' goes to infinity. This ring serves as universal structure in which relations between symmetric polynomials can be expressed in a way independent of the number ''n'' of indeterminates (but its elements are neither polynomials nor functions). Among other things, this ring plays an important role in the [[representation theory of the symmetric group]]s.
+
+===Association schemes===
+{{main|Association scheme}}
+
+An [[association scheme]] is a collection of [[binary relation]]s satisfying certain compatibility conditions. Association schemes provide a unified approach to many topics, for example [[combinatorial design]]s and [[coding theory]].<ref>{{harvnb|Bannai|Ito|1984}}</ref><ref>{{harvnb|Godsil|1993}}</ref> In algebra, association schemes generalize [[group (mathematics)|group]]s, and the theory of association schemes generalizes the [[group character|character theory]] of [[group representation|linear representations]] of groups.<ref>{{harvnb|Bailey|2004|loc=pg. 387}}</ref><ref>{{harvnb|Zieschang|2005b}}</ref><ref>{{harvnb|Zieschang|2005a}}</ref>
+
+===Strongly regular graphs===
+{{main|Strongly regular graph}}
+A [[strongly regular graph]] is defined as follows.  Let ''G'' = (''V'',''E'') be a [[regular graph]] with ''v'' vertices and degree ''k''.  ''G'' is said to be '''strongly regular''' if there are also [[integer]]s λ and μ such that:
+
+* Every two [[adjacent vertices]] have λ common neighbours.
+* Every two non-adjacent vertices have μ common neighbours.
+
+A graph of this kind is sometimes said to be an srg(''v'', ''k'', λ, μ).
+
+Some authors exclude graphs which satisfy the definition trivially, namely those graphs which are the disjoint union of one or more equal-sized [[complete graph]]s,<ref>{{Cite web |url=http://homepages.cwi.nl/~aeb/math/ipm.pdf |title=Brouwer, Andries E; Haemers, Willem H. ''Spectra of Graphs''. p. 101 |access-date=2014-10-10 |archive-url=https://web.archive.org/web/20120316102909/http://homepages.cwi.nl/~aeb/math/ipm.pdf |archive-date=2012-03-16 |dead-url=yes |df= }}</ref><ref>Godsil, Chris; Royle, Gordon. ''Algebraic Graph Theory''. Springer-Verlag New York, 2001, p. 218.</ref> and their [[complement graph|complements]], the [[Turán graph]]s.
+
+===Young tableaux===
+{{main|Young tableau}}
+A [[Young tableau]] (pl.: ''tableaux'') is a [[combinatorics|combinatorial]] object useful in [[representation theory]] and [[Schubert calculus]]. It provides a convenient way to describe the [[group representation]]s of the [[symmetric group|symmetric]] and [[general linear group|general linear]] groups and to study their properties. Young tableaux were introduced by [[Alfred Young]], a [[mathematician]] at [[University of Cambridge|Cambridge University]], in 1900. They were then applied to the study of the symmetric group by [[Georg Frobenius]] in 1903. Their theory was further developed by many mathematicians, including [[Percy MacMahon]], [[W. V. D. Hodge]], [[Gilbert de Beauregard Robinson|G. de B. Robinson]], [[Gian-Carlo Rota]], [[Alain Lascoux]], [[Marcel-Paul Schützenberger]] and [[Richard P. Stanley]].
+
+===Matroids===
+{{main|Matroid}}
+A [[matroid]] is a structure that captures and generalizes the notion of [[linear independence]] in [[vector space]]s. There are many equivalent ways to define a matroid, the most significant being in terms of independent sets, bases, circuits, closed sets or flats, closure operators, and rank functions.
+
+Matroid theory borrows extensively from the terminology of [[linear algebra]] and [[graph theory]], largely because it is the abstraction of various notions of central importance in these fields. Matroids have found applications in geometry, [[topology]], [[combinatorial optimization]], [[network theory]] and [[coding theory]].<ref name=Neel2009>{{cite journal|last1=Neel|first1=David L.|last2=Neudauer|first2=Nancy Ann|title=Matroids you have known|journal=Mathematics Magazine|date=2009|volume=82|issue=1|pages=26–41|url=http://www.maa.org/sites/default/files/pdf/shortcourse/2011/matroidsknown.pdf|accessdate=4 October 2014|doi=10.4169/193009809x469020}}</ref><ref name=Kashyap2009>{{cite web|last1=Kashyap|first1=Navin|last2=Soljanin|first2=Emina|last3=Vontobel|first3=Pascal|title=Applications of Matroid Theory and Combinatorial Optimization to Information and Coding Theory|url=https://www.birs.ca/workshops/2009/09w5103/report09w5103.pdf|website=www.birs.ca|accessdate=4 October 2014}}</ref>
+
+===Finite geometries===
+{{main|Finite geometry}}
+A [[finite geometry]] is any [[geometry|geometric]] system that has only a [[finite set|finite]] number of [[point (geometry)|points]].
+The familiar [[Euclidean geometry]] is not finite, because a Euclidean line contains infinitely many points. A geometry based on the graphics displayed on a computer screen, where the [[pixel]]s are considered to be the points, would be a finite geometry. While there are many systems that could be called finite geometries, attention is mostly paid to the finite [[projective space|projective]] and [[affine space]]s because of their regularity and simplicity.  Other significant types of finite geometry are finite [[Möbius plane|Möbius or inversive plane]]s and [[Laguerre plane]]s, which are examples of a general type called [[Benz plane]]s, and their higher-dimensional analogs such as higher finite [[inversive geometry|inversive geometr]]ies.
+
+Finite geometries may be constructed via [[linear algebra]], starting from [[vector space]]s over a [[finite field]]; the affine and [[projective plane]]s so constructed are called [[Galois geometry|Galois geometries]].  Finite geometries can also be defined purely axiomatically. Most common finite geometries are Galois geometries, since any finite [[projective space]] of dimension three or greater is [[isomorphism|isomorphic]] to a projective space over a finite field (that is, the projectivization of a vector space over a finite field). However, dimension two has affine and projective planes that are not isomorphic to Galois geometries, namely the [[non-Desarguesian plane]]s.  Similar results hold for other kinds of finite geometries.
+
+== See also ==
+
+*[[Algebraic graph theory]]
+*[[Combinatorial commutative algebra]]
+*''[[Journal of Algebraic Combinatorics]]''
+*[[Polyhedral combinatorics]]
+
+== References ==
+{{reflist}}
+
+==Further reading==
+*{{ cite book | last1=Bannai | first1=Eiichi | <!-- authorlink1=Eiichi Bannai | authorlink2= Tatsuro Ito --> | last2=Ito | first2=Tatsuro | title=Algebraic combinatorics I: Association schemes |  publisher=The Benjamin/Cummings Publishing Co., Inc. | location=Menlo Park, CA | year=1984 | pages=xxiv+425 | isbn=0-8053-0490-8 | mr=0882540 }}
+* {{cite book|editor-first1=Louis J. |editor-last1=Billera|editor1-link=Louis Billera|editor-first2= Anders|editor-last2= Björner|editor2-link=Anders Björner|editor-first3= Curtis|editor-last3= Greene|editor3-link=Curtis Greene | editor-first4= Rodica|editor-last4= Simion|editor4-link=Rodica Simion|editor-first5=Richard P.|editor-last5= Stanley | editor5-link=Richard P. Stanley |url=http://library.msri.org/books/Book38/index.html|title=New Perspectives in Algebraic Combinatorics|series= MSRI Publications|volume= 38|publisher= 
+[[Cambridge University Press]]|year= 1999}}
+*{{cite book|first=Chris D.| last=Godsil|authorlink = Chris Godsil|title=Algebraic Combinatorics|publisher=Chapman and Hall|year=1993|location=New York|ISBN=0-412-04131-6 | mr=1220704 }}
+* Takayuki Hibi, ''Algebraic combinatorics on convex polytopes'', Carslaw Publications, Glebe, Australia, 1992
+*[[Melvin Hochster]], ''Cohen-Macaulay rings, combinatorics, and simplicial complexes''. Ring theory, II (Proc. Second Conf., Univ. Oklahoma, Norman, Okla., 1975), pp.&nbsp;171–223. Lecture Notes in Pure and Appl. Math., vol. 26, Dekker, New York, 1977.
+* Ezra Miller, [[Bernd Sturmfels]], ''Combinatorial commutative algebra'', [[Graduate Texts in Mathematics]], vol. 227, Springer-Verlag, New York, NY, 2005.  {{ISBN|0-387-22356-8}}
+*[[Richard P. Stanley|Richard Stanley]], ''Combinatorics and commutative algebra''. Second edition, Progress in Mathematics, vol. 41. Birkhäuser, Boston, MA, 1996. {{ISBN|0-8176-3836-9}}
+* {{cite book|first=Bernd|last=Sturmfels|authorlink=Bernd Sturmfels|title=Gröbner bases and convex polytopes|series=University Lecture Series|volume=8|publisher= [[American Mathematical Society]]|location= Providence, RI|year= 1996|isbn=0-8218-0487-1}}
+*[[Doron Zeilberger]], [http://www.math.rutgers.edu/~zeilberg/mamarim/mamarimPDF/enuPCM.pdf Enumerative and Algebraic Combinatorics], in ''[[The Princeton Companion to Mathematics]]'', 2008.
+
+==External links==
+*{{Commonscat-inline}}
+
+[[Category:Algebraic combinatorics| ]]

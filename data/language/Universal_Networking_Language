@@ -1,0 +1,65 @@
+'''Universal Networking Language''' ('''UNL''') is a declarative [[formal language]] specifically designed to represent [[semantic]] data extracted from [[natural language]] texts. It can be used as a [[pivot language]] in [[interlingual machine translation]] systems or as a [[knowledge representation]] language in [[information retrieval]] applications. 
+
+== Scope and goals ==
+UNL is designed to establish a simple foundation for representing the most central aspects of information and meaning in a machine- and human-language-independent form. As a language-independent formalism, UNL aims to code, store, disseminate and retrieve information independently of the original language in which it was expressed. In this sense, UNL seeks to provide tools for overcoming the language barrier in a systematic way.
+
+At first glance, UNL seems to be a kind of interlingua, into which source texts are converted before being translated into target languages. It can, in fact, be used for this purpose, and very efficiently, too. However, its real strength is knowledge representation and its primary objective is to provide an infrastructure for handling knowledge that already exists or can exist in any given language.
+
+Nevertheless, it is important to note that at present it would be foolish to claim to represent the “full” meaning of any word, sentence, or text for any language. Subtleties of intention and interpretation make the “full meaning,” however we might conceive it, too variable and subjective for any systematic treatment.  Thus UNL avoids the pitfalls of trying to represent the “full meaning” of sentences or texts, targeting instead the “core” or “consensual” meaning most often attributed to them. In this sense, much of the subtlety of poetry, metaphor, figurative language, innuendo, and other complex, indirect communicative behaviors is beyond the current scope and goals of UNL. Instead, UNL targets direct communicative behavior and literal meaning as a tangible, concrete basis for most human communication in practical, day-to-day settings.
+
+== Structure ==
+In the UNL approach, information conveyed by natural language is represented sentence by sentence as a hypergraph composed of a set of directed binary labeled links (referred to as '''relations''') between nodes or hypernodes (the '''Universal Words''', or simply '''UWs'''), which stand for concepts. UWs can also be annotated with '''attributes''' representing context information. 
+
+As an example, the English sentence ‘The sky was blue?!’ can be represented in UNL as follows:
+
+[[File:UNLGraph.svg]]
+
+In the example above, "sky(icl>natural world)" and "blue(icl>color)", which represent individual concepts, are UWs; "aoj" (= attribute of an object) is a directed binary semantic relation linking the two UWs; and "@def", "@interrogative", "@past", "@exclamation" and "@entry" are attributes modifying UWs.
+
+UWs are intended to represent universal concepts, but are expressed in English words or in any other natural language in order to be humanly readable. They consist of a "headword" (the UW root) and a "constraint list" (the UW suffix between parentheses), where the constraints are used to disambiguate the general concept conveyed by the headword. The set of UWs is organized in the UNL Ontology, in which high-level concepts are related to lower-level ones through the relations "icl" (= is a kind of), "iof" (= is an instance of) and "equ" (= is equal to). 
+
+Relations are intended to represent semantic links between words in every existing language. They can be ontological (such as "icl" and "iof," referred to above), logical (such as "and" and "or"), and thematic (such as "agt" = agent, "ins" = instrument, "tim" = time, "plc" = place, etc.). There are currently 46 relations in the UNL Specs. They jointly define the UNL syntax.
+
+Attributes represent information that cannot be conveyed by UWs and relations. Normally, they represent information concerning time ("@past", "@future", etc.), reference ("@def", "@indef", etc.), modality ("@can", "@must",  etc.), focus ("@topic", "@focus", etc.), and so on.
+
+Within the UNL Program, the process of representing natural language sentences in UNL graphs is called '''UNLization''', and the process of generating natural language sentences out of UNL graphs is called '''NLization'''. UNLization, which involves natural language analysis and understanding, is intended to be carried out semi-automatically (i.e., by humans with computer aids); and NLization is intended to be carried out fully automatically.
+
+== History ==
+The UNL Programme started in 1996, as an initiative of the Institute of Advanced Studies of the [[United Nations University]] in Tokyo, Japan. In January 2001, the United Nations University set up an autonomous organization, the '''UNDL Foundation''', to be responsible for the development and management of the UNL Programme.  The Foundation, a non-profit international organisation, has an independent identity from the United Nations University, although it has special links with the UN. It inherited from the UNU/IAS the mandate of implementing the UNL Programme so that it can fulfil its mission.
+
+The Programme has already crossed important milestones. The overall architecture of the UNL System has been developed with a set of basic software and tools necessary for its functioning. These are being tested and improved. A vast amount of linguistic resources from the various native languages already under development, as well as from the UNL expression, has been accumulated in the last few years. Moreover, the technical infrastructure for expanding these resources is already in place, thus facilitating the participation of many more languages in the UNL system from now on. A growing number of scientific papers and academic dissertations on the UNL are being published every year.  
+
+The most visible accomplishment so far is the recognition by the Patent Co-operation Treaty (PCT) of the innovative character and industrial applicability of the UNL, which was obtained in May 2002 through the World Intellectual Property Organisation (WIPO). Acquiring the patents (US patents 6,704,700 and 7,107,206) for the UNL is a completely novel achievement within the United Nations.
+
+== See also ==
+* [[Semantic network]]
+* [[Abstract semantic graph]]
+* [[Semantic translation]]
+* [[Semantic unification]]
+* [[Abstract Meaning Representation]]
+
+== External links ==
+* [http://www.unlweb.net UNLweb], the UNLweb portal
+* [http://www.undlfoundation.org/ UNDL Foundation] where UNL development is coordinated.
+* [http://www.cicling.org/2005/UNL-book Online book on UNL]
+* [http://www.unl.ru/system.html UNL system description]
+
+=== UNL Society ===
+* [https://web.archive.org/web/20130706115035/http://www.dreamdoorsoft.com/ UNL in Bangladesh]
+* [https://web.archive.org/web/20090602180248/http://www.undl.org.br/ UNL in Brazil]
+* [http://www.bibalex.org/unl UNL in Egypt]
+* [https://web.archive.org/web/20120330233411/http://www.getalp.org/xwiki/bin/view/Projects/page%20du%20projet UNL in France]
+* [https://web.archive.org/web/20040602215955/http://www.iai.uni-sb.de/iaien/en/unl.htm UNL in Germany]
+* [http://www.cfilt.iitb.ac.in/ UNL in India]
+* [https://web.archive.org/web/20040614134009/http://unl.ilc.pi.cnr.it/ UNL in Italy]
+* [https://web.archive.org/web/20130718050658/http://undltokyo.org/ UNL in Japan]
+* [https://web.archive.org/web/20040729124147/http://www.unl.rss.gov.jo/ UNL in Jordan]
+* [http://www.ailab.lv/unl.htm UNL in Latvia]
+* [http://www.unl.ru/ UNL in Russia], [http://proling.iitp.ru/etap3 Russian⇔UNL⇔English converter]
+* [https://web.archive.org/web/20040803084514/http://www.vai.dia.fi.upm.es/ing/projects/unl/index.htm UNL in Spain]
+* [https://web.archive.org/web/20040614222120/http://www.links.nectec.or.th/unl/UnuWeb/UNLP_Homepage.htm UNL in Thailand]
+
+[[Category:Knowledge representation languages]]
+[[Category:Computational linguistics]]
+[[Category:Machine translation]]
+[[Category:Translation]]

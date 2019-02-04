@@ -1,0 +1,132 @@
+{{essay|date=January 2015}}
+'''Secure communication''' is when two entities are communicating and do not want a third party to listen in. For that they need to communicate in a way not susceptible to [[eavesdropping]] or [[Signals intelligence|interception]].<ref>D. P. Agrawal and Q-A. Zeng, ''Introduction to Wireless and Mobile Systems'' (2nd Edition, published by Thomson, April 2005) {{ISBN|978-0-534-49303-5}}</ref><ref>J.K. and K. Ross, ''Computer Networking'' (2nd Ed, Addison Wesley, 2003) {{ISBN|978-0-321-17644-8}}</ref>  Secure communication includes means by which people can share information with varying degrees of certainty that third parties cannot intercept what was said. Other than spoken face-to-face communication with no possible eavesdropper, it is probably safe to say that no communication is guaranteed secure in this sense, although practical obstacles such as legislation, resources, technical issues (interception and encryption), and the sheer volume of communication serve to limit surveillance.
+
+With many communications taking place over long distance and mediated by technology, and increasing awareness of the importance of interception issues, technology and its compromise are at the heart of this debate. For this reason, this article focusses on communications mediated or intercepted by technology.
+
+Also see ''[[Trusted Computing]]'', an approach under present development that achieves security in general at the potential cost of compelling obligatory trust in corporate and government bodies.
+
+==History==
+In 1898, [[Nikola Tesla]] demonstrated a [[radio controlled]] boat in [[Madison Square Garden]] that allowed secure communication between transmitter and receiver.<ref>The schematics are illustrated in {{US patent|613809}} and describes "rotating [[coherer]]s".</ref>
+
+One of the most famous systems of secure communication was the [[SIGSALY|Green Hornet]]. During WWII, [[Winston Churchill]] had to discuss vital matters with [[Franklin D. Roosevelt]].  At first, the calls were made using a voice scrambler as this was thought to be secure. When this was found to be untrue the engineers started work on a whole new system which resulted in the Green Hornet or SIGSALY. With the Green Hornet, anyone unauthorized party listening in would just hear [[white noise]] while the conversation was clear to authorized parties. As secrecy was paramount, the location of the Green Hornet was only known by the people who built it and Winston Churchill. To maintain secrecy, the Green Hornet was kept in a closet labeled <nowiki>'Broom Cupboard.''</nowiki> It is said {{by whom|date=October 2016}} that because the Green Hornet works by a [[one-time pad]] it cannot be beaten.
+
+==Nature and limits of security==
+
+===Types of security===
+Security can be broadly categorized under the following headings, with examples:
+
+* Hiding the content or nature of a communication
+** [[Code]] – a rule to convert a piece of information (for example, a letter, word, phrase, or gesture) into another form or representation (one sign into another sign), not necessarily of the same type. In communications and information processing, encoding is the process by which information from a source is converted into symbols to be communicated. Decoding is the reverse process, converting these code symbols back into information understandable by a receiver. One reason for coding is to enable communication in places where ordinary spoken or written language is difficult or impossible. For example, semaphore, where the configuration of flags held by a signaler or the arms of a [[Semaphore line|semaphore tower]] encodes parts of the message, typically individual letters and numbers. Another person standing a great distance away can interpret the flags and reproduce the words sent.
+** [[Encryption]]
+** [[Steganography]]
+** Identity Based
+* Hiding the parties to a communication – preventing identification, promoting [[anonymity]]
+** "[[Crowds]]" and similar anonymous group structures – it is difficult to identify who said what when it comes from a "crowd"
+** Anonymous communication devices – unregistered [[cellphone]]s, [[Internet cafe]]s
+** [[Anonymous proxies]]
+** Hard to trace [[routing]] methods – through unauthorized third-party systems, or relays
+* Hiding the fact that a communication takes place
+** "Security by obscurity" – similar to needle in a haystack
+** Random traffic – creating random data flow to make the presence of genuine communication harder to detect and [[traffic analysis]] less reliable
+
+Each of the three is important, and depending on the circumstances any of these may be critical. For example, if a communication is not readily identifiable, then it is unlikely to attract attention for identification of parties, and the mere fact a communication has taken place (regardless of content) is often enough by itself to establish an evidential link in legal prosecutions. It is also important with computers, to be sure where the security is applied, and what is covered.
+
+== Borderline cases ==
+A further category, which touches upon secure communication, is software intended to take advantage of security openings at the end-points. This software category includes [[trojan horse]]s, [[keystroke logging|keylogger]]s and other [[spyware]].
+
+These types of activity are usually addressed with everyday mainstream security methods, such as [[antivirus]] software, [[firewall (computing)|firewalls]], programs that identify or neutralize [[adware]] and [[spyware]], and web filtering programs such as [[Proxomitron]] and [[Privoxy]] which check all web pages being read and identify and remove common nuisances contained. As a rule they fall under [[computer security]] rather than secure communications.
+
+==Tools used to obtain security==
+
+===Encryption===
+{{Main|Encryption}}
+[[Encryption]] is a method in which data is rendered hard to read by an unauthorized party. Since encryption methods are created to extremely hard to break, many communication methods either use deliberately weaker encryption than possible, or have [[Backdoor (computing)|backdoor]]s inserted to permit rapid decryption. In some cases government authorities have required backdoors be installed in secret. Many methods of encryption are also subject to "[[Man-in-the-middle attack|man in the middle]]" attack whereby a third party who can 'see' the establishment of the secure communication is made privy to the encryption method, this would apply for example to interception of computer use at an ISP. Provided it is correctly programmed, sufficiently powerful, and the keys not intercepted, encryption would usually be considered secure. The article on [[key size]] examines the key requirements for certain degrees of encryption security.
+
+Encryption can be implemented in a way that requires the use of encryption, i.e. if encrypted communication is impossible then no traffic is sent, or opportunistically.  [[Opportunistic encryption]] is a lower security method to generally increase the percentage of generic traffic which is encrypted.  This is analogous to beginning every conversation with "Do you speak [[Code talker|Navajo]]?"  If the response is affirmative, then the conversation proceeds in Navajo, otherwise it uses the common language of the two speakers.  This method does not generally provide [[authentication]] or [[anonymity]] but it does protect the content of the conversation from [[eavesdropping]].
+
+An [[Information-theoretic security]] technique known as [[Information-theoretic security#Physical Layer Encryption|physical layer encryption]] ensures that a wireless communication link is provably secure with communications and coding techniques.
+
+===Steganography===
+{{Main articles|Steganography}}
+[[Steganography]] ("hidden writing") is the means by which data can be hidden within other more innocuous data. Thus a watermark proving ownership embedded in the data of a picture, in such a way it is hard to find or remove unless you know how to find it. Or, for communication, the hiding of important data (such as a telephone number) in apparently innocuous data (an MP3 music file). An advantage of steganography is [[plausible deniability]], that is, unless one can prove the data is there (which is usually not easy), it is deniable that the file contains any. 
+
+===Identity based networks===
+Unwanted or malicious behavior is possible on the web since the internet is inherently anonymous. True identity based networks replace the ability to remain anonymous and are inherently more trustworthy since the identity of the sender and recipient are known. (The telephone system is an example of an identity based network.)
+
+===Anonymized networks===
+Recently, anonymous networking has been used to secure communications. In principle, a large number of users running the same system, can have communications routed between them in such a way that it is very hard to detect what the complete message is, which user sent it, and where it is ultimately coming from or going to. Examples are [[Crowds]], [[Tor (anonymity network)|Tor]], [[I2P]], [[Mixminion]], various [[anonymous P2P]] networks, and others.
+
+===Anonymous communication devices===
+In theory, an unknown device would not be noticed, since so many other devices are in use. This is not altogether the case in reality, due to the presence of systems such as [[Carnivore (FBI)|Carnivore]] and [[ECHELON|Echelon]], which can monitor communications over entire networks, and the fact that the far end may be monitored as before. Examples include [[payphone]]s, [[Internet cafe]], etc.
+
+==Methods used to "break" security==
+
+===Bugging===
+{{Main|Covert listening device}}
+The placing covertly of monitoring and/or transmission devices either within the communication device, or in the premises concerned.
+
+===Computers (general)===
+{{Main|Computer security}}
+Any security obtained from a computer is limited by the many ways it can be compromised – by hacking, [[keystroke logging]], [[backdoor (computing)|backdoors]], or even in extreme cases by monitoring the tiny electrical signals given off by keyboard or monitors to reconstruct what is typed or seen ([[TEMPEST]], which is quite complex).
+
+===Laser audio surveillance===
+{{Main|Laser microphone}}
+Sounds, including speech, inside rooms can be sensed by bouncing a [[laser]] beam off a window of the room where a conversation is held, and detecting and decoding the vibrations in the glass caused by the [[sound wave]]s.<ref>{{cite web |url=https://books.google.com/books?id=mgAAAAAAMBAJ&pg=PA48 |title=High-tech bugging techniques, and a costly fix |work=Popular Science |publisher=Google |date=August 1987}}</ref>
+
+==Systems offering partial security==
+
+===Anonymous cellphones===
+Cellphones can easily be obtained, but are also easily traced and "tapped". There is no (or only limited) encryption, the phones are traceable – often even when switched off{{Citation needed|date=August 2009}} – since the phone and SIM card broadcast their International Mobile Subscriber Identity ([[International mobile subscriber identity|IMSI]]). It is possible for a cellphone company to turn on some cellphones when the user is unaware and use the microphone to listen in on you,[https://archive.is/20120711010525/http://news.com.com/FBI+taps+cell+phone+mic+as+eavesdropping+tool/2100-1029_3-6140191.html] and according to James Atkinson, a [[counter-surveillance]] specialist cited in the same source, "Security-conscious corporate executives routinely remove the batteries from their cell phones" since many phones' software can be used "as-is", or modified, to enable transmission without user awareness [https://archive.is/20120711010525/http://news.com.com/FBI+taps+cell+phone+mic+as+eavesdropping+tool/2100-1029_3-6140191.html] and the user can be located within a small distance using signal [[triangulation]] and now using built in GPS features for newer models. Transceivers may also be defeated by [[Radio jamming|jamming]] or [[Faraday cage]].
+
+Some cellphones ([[Apple Inc.|Apple]]'s [[iPhone]], [[Google]]'s [[Android (operating system)|Android]]) track and store users' position information, so that movements for months or years can be determined by examining the phone.<ref>[https://online.wsj.com/community/groups/question-day-229/topics/how-concerned-you-iphone-tracks?commentid=2388220 Wall Street Journal: How concerned are you that the iPhone tracks and stores your location?]</ref>
+
+===Landlines===
+Analogue landlines are not encrypted, it lends itself to being easily tapped. Such tapping requires physical access to the line which can be easily obtained from a number of places, e.g. the phone location, distribution points, cabinets and the exchange itself. Tapping a landline in this way can enable an attacker to make calls which appear to originate from the tapped line.
+
+===Anonymous Internet===
+{{Main|Anonymity}}
+Using a third party system of any kind (payphone, Internet cafe) is often quite secure, however if that system is used to access known locations (a known email account or 3rd party) then it may be tapped at the far end, or noted, and this will remove any security benefit obtained. Some countries also impose mandatory registration of Internet cafe users.
+
+[[anonymous proxy|Anonymous proxies]] are another common type of protection, which allow one to access the net via a third party (often in a different country) and make tracing difficult. Note that there is seldom any guarantee that the [[plaintext]] is not tappable, nor that the proxy does not keep its own records of users or entire dialogs. As a result, anonymous proxies are a generally useful tool but may not be as secure as other systems whose security can be better assured. Their most common use is to prevent a record of the originating [[IP address|IP]], or address, being left on the target site's own records. Typical anonymous proxies are found at both regular websites such as Anonymizer.com and spynot.com, and on proxy sites which maintain up to date lists of large numbers of temporary proxies in operation.
+
+A recent development on this theme arises when wireless Internet connections ("[[Wi-Fi]]") are left in their unsecured state. The effect of this is that any person in range of the base unit can [[piggybacking (Internet access)|piggyback]] the connection – that is, use it without the owner being aware. Since many connections are left open in this manner, situations where piggybacking might arise (willful or unaware) have successfully led to a defense in some cases, since it makes it difficult to prove the owner of the connection  was the downloader, or had knowledge of the use to which unknown others might be putting their connection. An example of this was the Tammie Marson case, where neighbours and anyone else might have been the culprit in the sharing of copyright files.<ref>[https://www.theregister.co.uk/2007/04/25/open_wi-fi_child_porn_case/ Open Wi-Fi proves no defence in child porn case], The Register</ref> Conversely, in other cases, people deliberately seek out businesses and households with unsecured connections, for illicit and anonymous Internet usage, or simply to obtain free [[Bandwidth (computing)|bandwidth]].<ref>[https://www.theregister.co.uk/2007/12/11/piggybacking_arrest_made/ 'Extortionist' turns Wi-Fi thief to cover tracks], The Register</ref>
+
+===Programs offering more security===
+{{see also|Comparison of instant messaging clients#Secure messengers|Comparison of VoIP software#Secure VoIP software}}
+
+* [[Secure instant messaging]] – Some instant messaging clients use [[end-to-end encryption]] with [[forward secrecy]] to secure all instant messages to other users of the same software. Some instant messaging clients also offer end-to-end encrypted file transfer support and group messaging. 
+* [[VoIP]] – Some VoIP clients implement [[ZRTP]] and [[Secure Real-time Transport Protocol|SRTP]] encryption for calls.
+* [[Secure email]] – some email networks are designed to provide encrypted and/or anonymous communication. They authenticate and encrypt on the users own computer, to prevent transmission of plain text, and mask the sender and recipient. [[Mixminion]] and [[I2P#I2P-Bote|I2P-Bote]] provide a higher level of anonymity by using a network of anonymizing intermediaries, similar to how [[Tor (anonymity network)|Tor]] works, but at a higher latency.
+* [[IRC]] and web chat – Some IRC clients and systems use client-to-server encryption such as [[Secure Sockets Layer|SSL]]/[[Transport Layer Security|TLS]]. This is not standardized.
+
+==See also==
+{{Portal|Cryptography}}
+
+===General background===
+* [[Computer security]]
+* [[Opportunistic encryption]]
+* [[Communications security]]
+* [[Secure messaging]]
+
+===Software selections and comparisons===
+* [[Comparison of VoIP software]]
+* [[Comparison of instant messaging clients]]
+* [[Anonymous P2P]]
+
+===Other===
+* [[Freenet]]
+* [[Hepting vs. AT&T]], a 2006 lawsuit in which the [[Electronic Frontier Foundation]] alleges [[AT&T Inc.]] allowed the [[NSA]] to tap all of its clients' Internet and [[Voice over IP]] communications
+* [[NSA warrantless surveillance controversy]]
+* [[Secret cell phone]]
+
+==References==
+{{reflist}}
+
+==External links==
+*{{Commonscat-inline}}
+
+{{DEFAULTSORT:Secure Communication}}
+[[Category:Secure communication| ]]
+[[Category:Secret broadcasting]]
+[[Category:Internet privacy]]
+[[Category:Espionage techniques]]

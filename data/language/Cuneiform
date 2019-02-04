@@ -1,0 +1,789 @@
+{{Use mdy dates|date=November 2018}}
+
+{{Infobox writing system
+ |
+ |type         = [[Logographic]]
+ |typedesc     = and [[syllabary|syllabic]]
+ |languages    = [[Akkadian language|Akkadian]], [[Eblaite language|Eblaite]], [[Elamite language|Elamite]], [[Hattic language|Hattic]], [[Hittite language|Hittite]], [[Hurrian language|Hurrian]], [[Luwian language|Luwian]], [[Sumerian language|Sumerian]], [[Urartian language|Urartian]], [[Old Persian]]
+ |date         = around 3200 BC<ref>"...The Mesopotamians invented writing around 3200 bc without any precedent to guide them, as did the Egyptians, independently as far as we know, at approxi- mately the same time"  The Oxford History of Historical Writing. Vol. 1. To AD 600, page 5</ref>
+ |time         = c. 31st century BC to 1st century AD
+ |fam1         = ([[Proto-writing]])
+ |children     = None; influenced shape of [[Ugaritic alphabet|Ugaritic]]; apparently inspired [[Old Persian cuneiform|Old Persian]]
+ |unicode      = {{plainlist|
+*[https://www.unicode.org/charts/PDF/U12000.pdf U+12000 to U+123FF] Cuneiform
+*[https://www.unicode.org/charts/PDF/U12400.pdf U+12400 to U+1247F] Cuneiform Numbers and Punctuation}}
+ |iso15924     = Xsux
+ |sample       = Xerxes Cuneiform Van.JPG
+ |imagesize    =
+ |caption      = Trilingual cuneiform [[Xerxes I's inscription at Van|inscription of Xerxes I at Van Fortress]] in Turkey, written in [[Old Persian]], [[Akkadian language|Akkadian]] and [[Elamite]]
+}}
+{{Contains cuneiform text}}
+
+'''Cuneiform''' or '''Sumerian cuneiform''',{{efn|{{IPAc-en|k|juː|ˈ|n|iː|ᵻ|f|ɔːr|m}} {{respell|kew|NEE|i-form}} or {{IPAc-en|k|juː|ˈ|n|eɪ|.|ᵻ|f|ɔːr|m}}<ref name=oxford_dictionaries>{{cite web |url=https://en.oxforddictionaries.com/definition/cuneiform |title=Definition of cuneiform in English |website=Oxford Dictionaries |access-date=July 30, 2017 |deadurl=no |archiveurl=https://web.archive.org/web/20160925193132/https://en.oxforddictionaries.com/definition/cuneiform |archivedate=September 25, 2016 |df=mdy-all }}</ref><ref>{{cite AV media |date=June 4, 2014 |title=Cuneiform: Irving Finkel & Jonathan Taylor bring ancient inscriptions to life |url=https://www.youtube.com/watch?v=6OC_kpFyfT0 |access-date=July 30, 2017 |publisher=The British Museum |deadurl=no |archiveurl=https://web.archive.org/web/20151017195607/https://www.youtube.com/watch?v=6OC_kpFyfT0 |archivedate=October 17, 2015 |df=mdy-all }}</ref> {{respell|kew|NAY|i-form}} or {{IPAc-en|ˈ|k|juː|n|ᵻ|f|ɔːr|m}}<ref name=oxford_dictionaries/> {{respell|KEW|ni-form}}}} one of the earliest systems of [[writing]], was invented by the [[Sumer]]ians.<ref>[[Egyptian hieroglyphs]] date to about the same period, and it is unsettled which system began first. See [https://oi.uchicago.edu/sites/oi.uchicago.edu/files/uploads/shared/docs/oimp32.pdf ''Visible Language. Inventions of Writing in the Ancient Middle East and Beyond''], Oriental Institute Museum Publications, 32, Chicago: University of Chicago, p. 13, {{ISBN|978-1-885923-76-9}}</ref> It is distinguished by its  [[wedge (mechanical device)|wedge]]-shaped marks on [[clay tablet]]s, made by means of a blunt [[phragmites|reed]] for a [[stylus]].<ref>{{Cite web|url=https://cuneiform.neocities.org/CWT/CWT.html|title=Cuneiform Writing Techniques|last=Cammarosano|first=Michele|date=2017-2018|website=cuneiform.neocities.org|archive-url=|archive-date=|dead-url=|access-date=July 18, 2018}}</ref><ref>{{Cite journal|last=Cammarosano|first=Michele|date=2014|title=The Cuneiform Stylus|url=https://osf.io/dfng4/|journal=Mesopotamia|volume=XLIX|pages=53–90|via=https://osf.io/dfng4/}}</ref><ref>{{cite journal|last1=Bramanti|first1=Armando|title=The Cuneiform Stylus. Some Addenda|journal=Cuneiform Digital Library Notes|date=2015|volume=2015|issue=12|url=https://www.academia.edu/14510982/2015._The_Cuneiform_Stylus._Some_Addenda}}</ref><ref>{{Cite journal|last=Taylor|first=Jonathan|title=Wedge Order in Cuneiform: a Preliminary Survey|url=https://www.academia.edu/21404629/Wedge_Order_in_Cuneiform_a_Preliminary_Survey|language=en}}</ref> The name ''cuneiform'' itself simply means "wedge shaped".<ref>from a [[New Latin]] ''cuneiformis'', composed of ''cuneus'' "wedge" and ''forma'' "shape" (17th century)<!-- anatomy, https://books.google.ch/books?id=ygcnuIUsM3EC&pg=PA178 https://books.google.ch/books?id=VWVEAAAAcAAJ&pg=PA22 --> of the script in the 19th century ([[Sir Henry Rawlinson, 1st Baronet|Henry Creswicke Rawlinson]], ''The Persian Cuneiform Inscription at Behistun, Decyphered and Tr.; with a Memoir on Persian Cuneiform Inscriptions in General, and on that of Behistun in Particular'' (1846).
+Different shape-derived names occur in several other languages, such as Finnish [[wikt:nuolenpääkirjoitus|''nuolenpääkirjoitus'']] "arrowhead script", Hebrew [[wikt:כתב יתדות|כתב יתדות]] "stake script", and Persian [[wikt:میخی|میخی]] and Dutch [[wikt:spijkerschrift|''spijkerschrift'']], both meaning "nail script".</ref><ref>The word "cuneiform" was coined in 1700 by the English orientalist [[Thomas Hyde]] (1663–1703):
+*  Thomas Hyde, ''Historia Religionis Veterum Persarum,'' … [History of religion of the ancient Persians … ] (Oxford, England:  Sheldonian Theater, 1700), [https://archive.org/stream/bub_gb_PcLW_2q7GwkC#page/n565/mode/2up p. 526.] [in Latin] On pages 526–527, Hyde discusses the cuneiform found at Persepolis. From p. 526:  "{{lang|la|Istiusmodi enim ductuli pyramidales seu Cuneiformes non veniunt in Gavrorum literis, nec in Telesmaticis, nec in Hieroglyphicis Ægypti; sed tales ductus (tam inter seinvicem juxta positi quam per seinvicem transmissi) sunt peculiares Persepoli ...}}" (Because such thin pyramidal or wedge forms do not occur in the letters of the Gavres [variously spelled Gabres, Guebers, Ghebers, or Chebers, was an old English name for [[Zoroastranism|Zoroastrians]], an ancient cult of fire worshippers; the word Gavres was derived from the Persian word [[Giaour|''gaur'']] for "infidel"], nor in talismans, nor in Egyptian hieroglyphs; but such drawings (so closely placed among each other as [intended to] be conveyed by means of each other) are peculiar to Persepolis, ... )
+*  [https://books.google.com/books?id=iuAUAAAAIAAJ&pg=PA5#v=onepage&q&f=false (Meade, 1974), p. 5.] {{webarchive|url=https://web.archive.org/web/20161219091553/https://books.google.com/books?id=iuAUAAAAIAAJ&pg=PA5 |date=December 19, 2016 }}
+According to (Meade, 1974), p. 5, the German naturalist, physician, and explorer [[Engelbert Kaempfer]] (1651–1716) is often credited with having coined the word "cuneiform"; see:
+*  Kaempfer, Engelbert, [https://babel.hathitrust.org/cgi/pt?id=uc1.31378008345145;view=1up;seq=11 ''Amoenitatum Exoticarum'' … ] [Of Foreign Charms … ] (Lippe (Lemgoviae), (Germany): Heinrich Wilhelm Meyer, 1712), [https://babel.hathitrust.org/cgi/pt?id=uc1.31378008345145;view=1up;seq=413 p. 331.] On p. 331 Kaempfer describes cuneiform as:  ''" … formam habentibus cuneolorum; … "'' ( … having the form of wedges; … ).  [Note:  A sample of the cuneiform from Persepolis appears on [https://babel.hathitrust.org/cgi/pt?id=uc1.31378008345145;view=1up;seq=415 the plate following p. 332.] ]
+However, on pp. 317–318, Kaempfer states that he had read Thomas Hyde's book ''Historia Religionis Veterum Persarum'':
+*  [https://babel.hathitrust.org/cgi/pt?id=uc1.31378008345145;view=1up;seq=397 From pp. 317–318:]  ''"Cl. ''Thomas Hyde'', Anglus, Vir in linguis & rebus exoticis præclare doctus, in ''Hist. Relig. vet. Pers. & Med.'' …  "'' (The famous ''Thomas Hyde'', an Englishman, a man well trained in languages and in exotic things, in [his] ''Historia Religionis Veterum Persarum'' … )</ref>
+
+Emerging in [[Sumer]] in the late fourth millennium BC (the [[Uruk period|Uruk IV period]]) to convey the [[Sumerian language]], which was a [[language isolate]], cuneiform writing began as a system of [[pictogram]]s, stemming from an earlier system of shaped tokens used for accounting. In the third millennium, the pictorial representations became simplified and more abstract as the number of characters in use grew smaller ([[Hittite cuneiform]]). The system consists of a combination of [[logophonetic]], consonantal alphabetic and syllabic signs.
+
+The original [[Sumerian language|Sumerian]] script was adapted for the writing of the [[Semitic languages|Semitic]] [[Akkadian language|Akkadian]] ([[Assyrian Neo-Aramaic|Assyrian]]/[[Babylonia]]n), [[Eblaite language|Eblaite]] and [[Amorite language|Amorite]] languages, the [[language isolate]]s [[Elamite language|Elamite]], [[Hattic language|Hattic]], [[Hurrian language|Hurrian]] and [[Urartian language|Urartian]], as well as [[Indo-European languages]] [[Hittite language|Hittite]] and [[Luwian language|Luwian]]; it inspired the later Semitic [[Ugaritic alphabet]] as well as [[Old Persian cuneiform]]. Cuneiform writing was gradually replaced by the [[Phoenician alphabet]] during the [[Neo-Assyrian Empire]] (911–612 BC). By the second century AD, the script had become extinct, its last traces being found in [[Assyria]] and [[Babylonia]], and all knowledge of how to read it was lost until it began to be deciphered in the 19th century.
+
+Between half a million<ref name=BAR/> and two million cuneiform tablets are estimated to have been excavated in modern times, of which only approximately 30,000<ref name=DigHamm/>–100,000 have been read or published. The [[British Museum]] holds the largest collection ({{circa}} 130,000), followed by the [[Vorderasiatisches Museum Berlin]], the [[Louvre]], the [[Istanbul Archaeology Museums]], the [[National Museum of Iraq]], the [[Yale Babylonian Collection]] ({{circa}} 40,000) and [[University of Pennsylvania Museum of Archaeology and Anthropology|Penn Museum]]. Most of these have "lain in these collections for a century without being translated, studied or published",<ref name=BAR>{{citation|url=http://members.bib-arch.org/publication.asp?PubID=BSBA&Volume=31&Issue=2&ArticleID=10|title=Cuneiform Tablets: Who’s Got What?|journal=Biblical Archaeology Review|volume=31|issue=2|year=2005|deadurl=no|archiveurl=https://web.archive.org/web/20140715000414/http://members.bib-arch.org/publication.asp?PubID=BSBA&Volume=31&Issue=2&ArticleID=10|archivedate=July 15, 2014|df=mdy-all}}</ref> as there are only a few hundred qualified cuneiformists in the world.<ref name=DigHamm>{{citation|url=http://pages.jh.edu/~dighamm/version2/research/2003_03_Museums%20and%20the%20Web%20Conference%202003.pdf|first1=Lee|last1=Watkins|first2=Dean|last2=Snyder|title=The Digital Hammurabi Project|publisher=The Johns Hopkins University|year=2003|quote=Since the decipherment of Babylonian cuneiform some 150 years ago museums have accumulated perhaps 300,000 tablets written in most of the major languages of the Ancient Near East – Sumerian, Akkadian (Babylonian and Assyrian), Eblaite, Hittite, Persian, Hurrian, Elamite, and Ugaritic. These texts include genres as variegated as mythology and mathematics, law codes and beer recipes. In most cases these documents are the earliest exemplars of their genres, and cuneiformists have made unique and valuable contributions to the study of such moderns disciplines as history, law, religion, linguistics, mathematics, and science. In spite of continued great interest in mankind's earliest documents it has been estimated that only about 1/10 of the extant cuneiform texts have been read even once in modern times. There are various reasons for this: the complex Sumero/Akkadian script system is inherently difficult to learn; there is, as yet, no standard computer encoding for cuneiform; there are only a few hundred qualified cuneiformists in the world; the pedagogical tools are, in many cases, non-optimal; and access to the widely distributed tablets is expensive, time-consuming, and, due to the vagaries of politics, becoming increasingly difficult.|deadurl=no|archiveurl=https://web.archive.org/web/20140714163229/http://pages.jh.edu/~dighamm/version2/research/2003_03_Museums%20and%20the%20Web%20Conference%202003.pdf|archivedate=July 14, 2014|df=mdy-all}}</ref>
+
+==History==
+[[File:Early writing tablet recording the allocation of beer.jpg|thumb|Early writing tablet recording the allocation of beer in southern [[Iraq]], 3100–3000 BC]]
+
+The cuneiform writing system was in use for more than three millennia, through several stages of development, from the 31st century BC down to the second century AD.<ref>Adkins 2003, p. 47.</ref> Ultimately, it was completely replaced by [[alphabetic writing]] (in the general sense) in the course of the [[Roman era]], and there are no cuneiform systems in current use. It had to be deciphered as a completely unknown writing system in 19th-century [[Assyriology]]. Successful completion of its deciphering is dated to 1857.
+
+{| <!-- work around layout issues. Table forces the image to appear in order, in particular before the next heading -->
+|
+The cuneiform script underwent considerable changes over a period of more than two millennia. The image below shows the development of the sign SAĜ "head" (Borger nr. 184, U+12295 {{Cuneiform|[[:wiktionary:𒊕|𒊕]]}}).
+[[File:SAG.svg|left|frameless|upright=1.8|Evolution of the cuneiform sign SAG "head", 3000–1000 BC]]
+{{clear}}
+Stages:
+# shows the pictogram as it was drawn around 3000 BC
+# shows the rotated pictogram as written from c.  2800 BC – c. 2600 BC
+# shows the abstracted glyph in archaic monumental inscriptions, from c. 2600 BC
+# is the sign as written in clay, contemporary to stage 3
+# represents the late 3rd millennium
+# represents Old Assyrian [[ductus (linguistics)|ductus]] of the early 2nd millennium, as adopted into Hittite
+# is the simplified sign as written by Assyrian scribes in the early 1st millennium and until the script's extinction.
+|}
+
+===Proto-literate period===
+{{see also|Kish tablet}}
+[[File:Sumerian 26th c Adab.jpg|thumbnail|left|Sumerian inscription in monumental archaic style, c. 26th century BC]]
+The cuneiform script was developed from pictographic [[proto-writing]] in the late 4th millennium BC, stemming from the near eastern token system used for accounting. These tokens were in use from the 9th millennium BC and remained in occasional use even late in the 2nd millennium BC.<ref>Denise Schmandt-Besserat, "An Archaic Recording System and the Origin of Writing." Syro Mesopotamian Studies, vol. 1, no. 1, pp. 1–32, 1977</ref> It has been suggested that the token shapes were the original basis for some of the Sumerian pictographs.<ref>Denise Schmandt-Besserat, An Archaic Recording System in the Uruk-Jemdet Nasr Period,  American Journal of Archaeology, vol. 83, no. 1, pp. 19–48, (Jan., 1979)</ref>
+
+Mesopotamia's "proto-literate" period spans roughly the 35th to 32nd centuries. The first documents unequivocally written in Sumerian date to the 31st century BC at [[Jemdet Nasr]].
+
+Originally, pictographs were either drawn on [[clay]] tablets in vertical columns with a sharpened [[Phragmites|reed]] [[stylus]] or incised in stone. This early style lacked the characteristic wedge shape of the strokes.
+
+Certain signs to indicate names of gods, countries, cities, vessels, birds, trees, etc., are known as [[determinative]]s and were the Sumerian signs of the terms in question, added as a guide for the reader. Proper names continued to be usually written in purely "logographic" fashion.
+
+The earliest known Sumerian king whose name appears on contemporary cuneiform tablets is [[Enmebaragesi]] of Kish. Surviving records only very gradually become less fragmentary and more complete for the following reigns, but by the end of the pre-Sargonic period, it had become standard practice for each major city-state to date documents by year-names commemorating the exploits of its ''lugal'' (king).
+
+From about 2900 BC, many pictographs began to lose their original function, and a given sign could have various meanings depending on context. The sign inventory was reduced from some 1,500 signs to some 600 signs, and writing became increasingly [[phonological]]. Determinative signs were re-introduced to avoid ambiguity. Cuneiform [[writing]] proper thus arises from the more primitive system of pictographs at about that time ([[Early Bronze Age II]]).
+
+===Archaic cuneiform===
+{{Further|Liste der archaischen Keilschriftzeichen|Early Dynastic Cuneiform}}
+[[File:Letter Luenna Louvre AO4238.jpg|thumb|Letter sent by the high-priest Luenna to the king of [[Lagash]] (maybe [[Urukagina]]), informing him of his son's death in combat, [[Girsu]] c. 2400 BC]]
+
+In the mid-3rd millennium BC, the direction of writing was changed to left-to-right in horizontal rows (rotating all of the pictographs 90° counter-clockwise in the process) and a new wedge-tipped stylus was introduced which was pushed into the clay, producing wedge-shaped ("cuneiform") signs; these two developments made writing quicker and easier. By adjusting the relative position of the tablet to the stylus, the writer could use a single tool to make a variety of impressions.
+
+[[File:Cuneiform inscriptions, Stela of Iddi-Sin, king of Simurrum..JPG|thumb|Cuneiform inscriptions, Stela of Iddi-Sin, king of Simurrum]]
+
+Cuneiform tablets could be fired in [[kiln]]s to bake them hard, and so provide a permanent record, or they could be left moist and recycled, if permanence was not needed. Many of the clay tablets found by archaeologists have been preserved by chance, baked when attacking armies burned the buildings in which they were kept.
+
+[[File:An Inscribed stand's head, early dynastic period..JPG|thumb|An inscribed stand's head, early dynastic period]]
+
+The script was also widely used on commemorative [[stele|stelae]] and carved reliefs to record the achievements of the ruler in whose honour the monument had been erected.
+
+The spoken language included many [[homophone]]s and near-homophones, and in the beginning similar-sounding words such as "life" [til] and "arrow" [ti] were written with the same symbol. After the Semites conquered Southern Mesopotamia, some signs gradually changed from being pictograms to syllabograms, most likely to make things clearer in writing. In that way the sign for the word "arrow" would become the sign for the sound "ti".
+Words that sounded alike would have different signs; for instance the syllable "gu" had fourteen different symbols.
+When the words had similar meaning but very different sounds they were written with the same symbol. For instance "tooth" [zu], "mouth" [ka] and "voice" [gu] were all written with the symbol for "voice". To be more accurate, scribes started adding to signs or combining two signs to define the meaning. They used either geometrical patterns or another cuneiform sign. 
+As time went by, the cuneiform got very complex and the distinction between a pictogram and syllabogram became vague. Several symbols had too many meanings to permit clarity. Therefore, symbols were put together to indicate both the sound and the meaning of a compound. The word "Raven" [UGA] had the same logogram as the word "soap" [NAGA], name of a city [EREŠ] and the patron goddess of Eresh [NISABA]. Two phonetic complements were used to define the word [u] in front of the symbol and [gu] behind. Finally the symbol for "bird" [MUŠEN] was added to ensure proper interpretation.{{clarify|date=June 2016}}
+
+Written Sumerian was used as a scribal language until the first century AD. The spoken language died out around the 18th century BC.
+
+===Akkadian cuneiform===
+
+The archaic cuneiform script was adopted by the [[Akkadian Empire]] from the 23rd century BC ([[short chronology]]), and by the beginning of the [[Short chronology timeline#Middle Bronze Age|Middle Bronze Age]] (20th century BC), it had evolved into [[Old Assyrian Empire|Old Assyrian]] cuneiform, with many modifications to Sumerian orthography. The [[Semitic languages]] employed equivalents for many signs that were distorted or abbreviated to represent new values because the syllabic nature of the script as refined by the Sumerians was not intuitive to Semitic speakers. At this stage, the former pictograms were reduced to a high level of abstraction, and were composed of only five basic wedge shapes: horizontal, vertical, two diagonals and the ''Winkelhaken'' impressed vertically by the tip of the stylus. The signs exemplary of these basic wedges are
+* AŠ (B001, U+12038) <span lang="akk">{{Cuneiform|[[:wikt:𒀸|𒀸]]}}</span>: horizontal;
+* DIŠ (B748, U+12079) <span lang="akk">{{Cuneiform|[[:wikt:𒁹|𒁹]]}}</span>: vertical;
+* GE<sub>23</sub>, DIŠ ''tenû'' (B575, U+12039) <span lang="akk">{{Cuneiform|[[:wikt:𒀹|𒀹]]}}</span>: downward diagonal;
+* GE<sub>22</sub> (B647, U+1203A) <span lang="akk">{{Cuneiform|[[:wikt:𒀺|𒀺]]}}</span>: upward diagonal;
+* U (B661, U+1230B) <span lang="akk">{{Cuneiform|[[:wikt:𒌋|𒌋]]}}</span>: the ''[[Winkelhaken]]''.
+Except for the ''Winkelhaken'' which has no tail, the length of the wedges' tails could vary as required for sign composition.
+
+Signs tilted by about 45 degrees are called ''tenû'' in Akkadian, thus DIŠ is a vertical wedge and DIŠ ''tenû'' a diagonal one. If a sign is modified with additional wedges, this is called ''gunû'' or "gunification"; if signs are crosshatched with additional ''Winkelhaken'', they are called ''šešig''; if signs are modified by the removal of a wedge or wedges, they are called ''nutillu''.
+[[File:Cuneiform script2.png|thumb|left|Cuneiform tablet from the Kirkor Minassian collection in the US [[Library of Congress]], c. 24th century BC]]
+[[File:Amarna Akkadian letter.png|thumb|right|One of the [[Amarna letters]], 14th century BC]]
+[[File:B063ellst.png|thumb|right|Neo-Assyrian [[Typographic ligature|ligature]] {{lang|sux|KAxGUR<sub>7</sub>}} (<span lang="akk">{{Cuneiform|𒅬}})</span>; the {{lang|sux|KA}} sign (<span lang="akk">{{Cuneiform|𒅗}}</span>) was a Sumerian compound marker, and appears frequently in ligatures enclosing other signs. {{lang|sux|GUR<sub>7</sub>}} is itself a ligature of {{lang|sux|SÍG.AḪ.ME.U}}, meaning "to pile up; grain-heap" (Akkadian ''{{lang|akk|kamāru; karû}}'').]]
+
+"Typical" signs have about five to ten wedges, while complex [[Typographic ligature|ligatures]] can consist of twenty or more (although it is not always clear if a ligature should be considered a single sign or two collated, but distinct signs); the ligature KAxGUR<sub>7</sub> consists of 31 strokes.
+
+Most later adaptations of Sumerian cuneiform preserved at least some aspects of the Sumerian script. Written [[Akkadian language|Akkadian]] included phonetic symbols from the Sumerian [[syllabary]], together with [[logogram]]s that were read as whole words. Many signs in the script were polyvalent, having both a syllabic and logographic meaning. The complexity of the system bears a resemblance to [[Old Japanese]], written in a Chinese-derived script, where some of these Sinograms were used as logograms and others as phonetic characters.
+
+===Assyrian cuneiform===
+This "mixed" method of writing continued through the end of the [[Babylonia]]n and [[Assyria]]n empires, although there were periods when "purism" was in fashion and there was a more marked tendency to spell out the words laboriously, in preference to using signs with a phonetic complement. Yet even in those days, the Babylonian syllabary remained a mixture of logographic and phonemic writing.
+
+[[Hittite cuneiform]] is an adaptation of the Old Assyrian cuneiform of c. 1800 BC to the [[Hittite language]]. When the cuneiform script was adapted to writing Hittite, a layer of Akkadian logographic spellings was added to the script, thus the pronunciations of many Hittite words which were conventionally written by logograms are now unknown.
+
+In the Iron Age (c. 10th to 6th centuries BC), Assyrian cuneiform was further simplified. From the 6th century, the [[Akkadian language]] was marginalized by [[Aramaic language|Aramaic]], written in the [[Aramaean alphabet]], but Neo-Assyrian cuneiform remained in use in literary tradition well into times of [[Parthian Empire]] (250 BC – AD 226). The last known cuneiform inscription, an astronomical text, was written in 75 AD.<ref>{{cite journal |first=Marckham |last=Geller |title=The Last Wedge |journal=Zeitschrift für Assyriologie und vorderasiatische Archäologie |volume=87 |issue=1 |year=1997 |pages=43–95 |url=http://www.degruyter.com/view/j/zava.1997.87.issue-1/zava.1997.87.1.43/zava.1997.87.1.43.xml |doi=10.1515/zava.1997.87.1.43 |deadurl=no |archiveurl=https://web.archive.org/web/20150721045552/http://www.degruyter.com/view/j/zava.1997.87.issue-1/zava.1997.87.1.43/zava.1997.87.1.43.xml |archivedate=July 21, 2015 |df=mdy-all }}</ref>
+
+===Derived scripts===
+The complexity of the system prompted the development of a number of simplified versions of the script. [[Old Persian]] was written in a subset of simplified cuneiform characters known today as [[Old Persian cuneiform]]. It formed a semi-alphabetic syllabary, using far fewer wedge strokes than Assyrian used, together with a handful of logograms for frequently occurring words like "god" and "king". [[Ugaritic]] was written using the [[Ugaritic alphabet]], a standard Semitic style [[alphabet]] (an ''[[abjad]]'') written using the cuneiform method.
+
+==Decipherment==
+For centuries, travellers to [[Persepolis]], in modern-day [[Iran]], had noticed carved cuneiform inscriptions and were intrigued.<ref name="Sayce">Sayce 1908.</ref> Attempts at deciphering these [[Old Persian cuneiform|Old Persian writings]] date back to [[Sociology in medieval Islam#Archeology|Arabo-Persian historians]] of the [[Islamic Golden Age|medieval Islamic world]], though these early attempts at [[decipherment]] were largely unsuccessful.<ref>{{Cite book|title=Egyptology: The Missing Millennium : Ancient Egypt in Medieval Arabic Writings|first=Okasha|last=El Daly|publisher=[[Routledge]]|year=2004|isbn=1-84472-063-2|pages=39–40 & 65|postscript=<!--None-->}}</ref>
+
+In the 15th century, the [[Venice|Venetian]] [[Giosafat Barbaro]] explored ancient ruins in the Middle East and came back with news of a very odd writing he had found carved on the stones in the temples of [[Shiraz]] and on many clay tablets.
+
+[[Antonio de Gouvea]], a professor of theology, noted in 1602 the strange writing he had had occasion to observe during his travels a year earlier in Persia which took in visits to ruins.<ref name="Meade">C. Wade Meade, [https://books.google.com/books?id=iuAUAAAAIAAJ&pg=PA5 ''Road to Babylon: Development of U.S. Assyriology,''] {{webarchive|url=https://web.archive.org/web/20161219091553/https://books.google.com/books?id=iuAUAAAAIAAJ&pg=PA5 |date=December 19, 2016 }} Brill Archive, 1974 p.5.</ref><ref>See:
+*  Gouvea, Antonio de, ''Relaçam em que se tratam as guerras e grandes vitórias que alcançou o grande Rey de Persia Xá Abbas, do grão Turco Mahometo, e seu filho Amethe'' … [An account in which are treated the wars and great victories that were attained by the great king of Persia Shah Abbas against the great Turk Mehmed and his son, Ahmed … ] (Lisbon, Portugal:  Pedro Crasbeeck, 1611), [https://books.google.com/books?id=gY9mAAAAcAAJ&pg=PA32#v=onepage&q&f=false p. 32.] {{webarchive|url=https://web.archive.org/web/20180320153206/https://books.google.com/books?id=gY9mAAAAcAAJ&pg=PA32 |date=March 20, 2018 }} [in Portuguese]
+*  French translation:  Gouvea, Antonio de, with Alexis de Meneses, trans., ''Relation des grandes guerres et victoires obtenues par le roy de Perse Cha Abbas contre les empereurs de Turquie Mahomet et Achmet son fils,'' … (Rouen, France:  Nicolas Loyselet, 1646), [https://books.google.com/books?id=TcypEWd4iIIC&pg=PA81#v=onepage&q&f=false pp. 81–82.] {{webarchive|url=https://web.archive.org/web/20180320153206/https://books.google.com/books?id=TcypEWd4iIIC&pg=PA81 |date=March 20, 2018 }} [in French] From pp. 81–82:  ''"Peu esloigné de là estoit la sepulture de la Royne, qui estoit fort peu differente.  L'escriture qui donnoit cognoissance par qui, pourquoy, & en quel temps cest grande masse avoit esté bastie est fort distincte en plusieurs endroits du bastiment:  mais il n'y a personne qui y entende rien, parce que les carracteres ne sont Persiens, Arabes, Armeniens ny Hebreux, qui sont les langages aujourd'hui en usage en ces quartiers là, … "''  (Not far from there [i.e., Persepolis or "Chelminira"] was the sepulchre of the queen, which wasn't much different.  The writing that announced by whom, why, and at what time this great mass had been built, is very distinct in several locations in the building:  but there wasn't anyone who understood it, because the characters were neither Persian, Arabic, Armenian, nor Hebrew, which are the languages in use today in those quarters … )</ref><ref>In 1619, Spain's ambassador to Persia, [[García de Silva Figueroa]] (1550–1624), sent a letter to the Marquesse of Bedmar, discussing various subjects regarding Persia, including his observations on the cuneiform inscriptions at Persepolis.  This letter was originally printed in 1620:
+*  Figueroa, Garcia Silva, ''Garciae Silva Figueroa ... de Rebus Persarum epistola v. Kal. an. M.DC.XIX Spahani exarata ad Marchionem Bedmari'' (Antwerp, (Belgium): 1620), 16 pages. [in Latin].
+It was translated into English and reprinted in 1625 by [[Samuel Purchas]], who included it in a collection of letters and other writings concerning travel and exploration:
+*  [https://books.google.com/books?id=XRZZAAAAcAAJ&pg=PA533#v=onepage&q&f=false "Letter from Don Garcia Silva Figueroa Embassador from Philip the Third King of Spaine, to the Persian, Written at Spahan, or Hispahan Anno 1619 to the Marquese Bedmar Touching Matters of Persia,"] {{webarchive|url=https://web.archive.org/web/20180320153206/https://books.google.com/books?id=XRZZAAAAcAAJ&pg=PA533 |date=March 20, 2018 }} in:  Purchas, Samuel, ''Purchas His Pilgrimes'' (London, England:  William Stansby, 1625), vol. 2, book IX, Chap. XI, pp. 1533–1535.
+That English translation was reprinted in 1905:
+*  Figueroa, Don Garcia Silva,  [https://archive.org/stream/hakluytusposthum09purc#page/190/mode/2up "Chap. XI.  Letter from Don Garcia Silva Figueroa Embassador from Philip the Third King of Spaine, to the Persian, Written at Spahan, or Hispahan Anno 1619 to the Marquese Bedmar Touching Matters of Persia,"] in:  Purchas, Samuel, ''Hakluytus Posthumus or Purchas His Pilgrimes,'' … (Glasgow, Scotland:  James MacLehose and Sons, 1905), vol. 9, pp. 190–196.  On pp. 192–193, Figueroa describes the cuneiform at Persepolis:  "The Letters themselves are neither Chaldæan, nor Hebrew, nor Greeke, nor Arabike, nor of any other Nation, which was ever found of old, or at this day, to be extant.  They are all three-cornered, but somewhat long, of the forme of a Pyramide, or such a little Obeliske, as I have set in the margine:  so that in nothing doe they differ one from another, but in their placing and situation, yet so conformed that they are wondrous plaine distinct and perspicuous."</ref> In 1625, the [[Rome|Roman]] traveler [[Pietro Della Valle]], who had sojourned in Mesopotamia between 1616 and 1621, brought to Europe copies of characters he had seen in [[Persepolis]] and inscribed bricks from [[Ur]] and the ruins of [[Babylon]].<ref>{{cite book|last1=Hilprecht|first1=Hermann Vollrat|title=The Excavations in Assyria and Babylonia|date=1904|publisher=Cambridge University Press|isbn=9781108025645|page=17|url=https://babel.hathitrust.org/cgi/pt?id=njp.32101073396747;view=1up;seq=45}}</ref><ref>Pallis, Svend Aage (1954) "Early exploration in Mesopotamia, with a list of the Assyro-Babylonian cuneiform texts published before 1851," ''Det Kongelige Danske Videnskabernes Selskab:  Historisk-filologiske Meddelelser'' (The Royal Danish Society of Science:  Historical-philological Communications), '''33''' (6) :  1–58; see p. 10.  Available at:  [http://www.royalacademy.dk/Publications/Low/613_Pallis,%20Svend%20Aage.pdf Royal Danish Society of Science] {{webarchive|url=https://web.archive.org/web/20171006113327/http://www.royalacademy.dk/Publications/Low/613_Pallis,%20Svend%20Aage.pdf |date=October 6, 2017 }}</ref> The copies he made, the first that reached circulation within Europe, were not quite accurate but Della Valle understood that the writing had to be read from left to right, following the direction of wedges, but did not attempt to decipher the scripts.<ref>Valle, Pietro della, ''Viaggi di Pietro della Valle, Il Pellegrino'' [The journeys of Pietro della Valle, the pilgrim] (Brighton, England:  G. Gancia, 1843), vol. 2, [https://babel.hathitrust.org/cgi/pt?id=mdp.39015014139722;view=1up;seq=263 pp. 252–253.] From p. 253:  ''"Mi da indizio che possa scriversi dalla sinistra alla destra al modo nostro, … "''  (It indicates to me that it [i.e., cuneiform] might be written from left to right in our way, … )</ref>
+
+Englishman [[Sir Thomas Herbert]], in the 1638 edition of his travel book ''Some Yeares Travels into Africa & Asia the Great. … '', reported seeing at Persepolis carved on the wall "a dozen lines of strange characters…consisting of figures, obelisk, triangular, and pyramidal" and thought they resembled Greek.<ref>Herbert, Thomas, ''Some Yeares Travels into Africa & Asia the Great. …'' (London, England:  R. Bishop, 1638), [https://babel.hathitrust.org/cgi/pt?id=mdp.39015078546473;view=1up;seq=161 pp. 145–146.] From pages 145–146:  "In part of this great roome [i.e., in the palace at Persepolis] (not farre from the portall) in a mirrour of polisht marble, wee noted above a dozen lynes of strange characters, very faire and apparent to the eye, but so mysticall, so odly framed, as no Hierogliphick, no other deep conceit can be more difficultly fancied, more adverse to the intellect.  These consisting of Figures, obelisk, triangular, and pyramidall, yet in such Simmetry and order as cannot well be called barbarous.  Some resemblance, I thought some words had of the Antick Greek, shadowing out ''Ahashuerus Theos''.  And though it have small concordance with the Hebrew, Greek, or Latine letter, yet questionless to the Inventer it was well knowne; and peradventure may conceale some excellent matter, though to this day wrapt up in the dim leafes of envious obscuritie."</ref> In the 1677 edition he reproduced some and thought they were 'legible and intelligible' and therefore decipherable. He also guessed, correctly, that they represented not letters or [[hieroglyphics]] but words and syllables, and were to be read from left to right.<ref>Herbert, Sir Thomas, ''Some Years Travels into Divers Parts of Africa and Asia the Great'', 4th ed. (London, England:  R. Everingham, 1677), [https://books.google.com/books?id=PFlOAAAAcAAJ&pg=PA141#v=onepage&q&f=false pp. 141–142.] From p. 141:  " … albeit I rather incline to the first [possibility], and that they comprehended words or syllables, as in ''Brachyography'' or Short-writing we familiarly practise: … Nevertheless, by the posture and tendency of some of the Characters (which consist of several magnitudes) it may be supposed that this writing was rather from the left hand to the right, … "  Page 142 shows an illustration of some cuneiform.</ref> Herbert is rarely mentioned in standard histories of the decipherment of cuneiform.
+
+[[Carsten Niebuhr]] brought the first reasonably complete and accurate copies of the inscriptions at [[Persepolis]] to Europe in 1767.<ref>Niebuhr, Carsten, ''Reisebeschreibung nach Arabien und andern umliegender Ländern'' (Account of travels to Arabia and other surrounding lands), vol. 2 (Kopenhagen, Denmark:  Nicolaus Möller, 1778), [https://books.google.com/books?id=TG5BAAAAcAAJ&pg=PA150#v=onepage&q&f=false p. 150;] see also [https://books.google.com/books?id=TG5BAAAAcAAJ&pg=PA150-IA5#v=onepage&q&f=false the fold-out plate (Tabelle XXXI)] after p. 152.  From p. 150:  ''"Ich will auf der Tabelle XXXI, noch eine, oder vielmehr vier Inschriften H, I, K, L beyfügen, die ich etwa in der Mitte an der Hauptmauer nach Süden, alle neben einander, angetroffen habe.  Der Stein worauf sie stehen, ist 26 Fuß lang, und 6 Fuß hoch, und dieser ist ganz damit bedeckt.  Man kann also daraus die Größe der Buchstaben beurtheilen.  Auch hier sind drey verschiedene Alphabete."''  (I want to include in Plate XXXI another, or rather four inscriptions H, I, K, L, which I found approximately in the middle of the main wall to the south [in the ruined palace at Persepolis], all side by side.  The stone on which they appear, is 26 feet long and 6 feet high, and it's completely covered with them.  One can thus judge therefrom the size of the letters.  Also here, [there] are three different alphabets.)</ref><ref name="Sayce"/>{{rp|9}} Bishop [[Friedrich Münter]] of Copenhagen discovered that the words in the Persian inscriptions were divided from one another by an oblique wedge and that the monuments must belong to the age of [[Cyrus the Great|Cyrus]] and his successors. One word, which occurs without any variation towards the beginning of each inscription, he correctly inferred to signify "king".<ref>See:
+*  Münter, Frederik (1800a) [https://babel.hathitrust.org/cgi/pt?id=umn.31951d00004536u;view=1up;seq=273 "Undersögelser om de Persepolitanske Inscriptioner.  Förste Afhandling."] (Investigations of the inscriptions of Persepolis.  First part.), ''Det Kongelige Danske Videnskabers-Selskabs Skrivter'' (Writings of the Royal Danish Society of Science), 3rd series, '''1''' (1) :  253–292. [in Danish]
+*  Münter, Frederik (1800b) [https://babel.hathitrust.org/cgi/pt?id=umn.31951d00004536u;view=1up;seq=643 "Undersögelser om de Persepolitanske Inscriptioner.  Anden Afhandling."] (Investigations of the inscriptions of Persepolis.  Second part.), ''Det Kongelige Danske Videnskabers-Selskabs Skrivter'' (Writings of the Royal Danish Society of Science), 3rd series, '''1''' (2) :  291–348. [in Danish] On p. 339, Münter presents the Old Persian word for "king" written in cuneiform.
+*  Reprinted in German as:  Münter, Friederich, [https://archive.org/stream/versuchberdiekei00mnte#page/n7/mode/2up''Versuch über die keilförmigen Inschriften zu Persepolis''] [Attempt at the cuneiform inscription at Persepolis] (Kopenhagen, Denmark:  C. G. Prost, 1802).</ref><ref name="Sayce"/>{{rp|10}} By 1802 [[Georg Friedrich Grotefend]] had determined that two kings' names mentioned were [[Darius I of Persia|Darius]] and [[Xerxes I of Persia|Xerxes]] (but in their native Old Persian forms, which were unknown at the time and therefore had to be conjectured), and had been able to assign correct alphabetic values to the cuneiform characters which composed the two names.<ref>Heeren 1815.</ref> Although Grotefend's Memoir was presented to the [[Göttingen Academy of Sciences and Humanities]] on September 4, 1802, the Academy refused to publish it; it was subsequently published in Heeren's work in 1815, but was overlooked by most researchers at the time.<ref>Ceram, C.W., ''Gods, Graves and Scholars'', 1954</ref><ref>See:
+*  Grotefend, G. F., [https://books.google.com/books?id=JQ0PAAAAQAAJ&pg=PA563#v=onepage&q&f=false "Ueber die Erklärung der Keilschriften, und besonders der Inschriften von Persepolis"] [On the explanation of cuneiform, and especially of the inscriptions of Persepolis] in:  Heeren, Arnold Hermann Ludwig, [https://books.google.com/books?id=JQ0PAAAAQAAJ&pg=PR1#v=onepage&q&f=false ''Ideen über die Politik, den Verkehr und den Handel der vornehmsten Völker der alten Welt''] [Ideas about the politics, commerce, and trade of the most distinguished peoples of the ancient world], part 1, section 1, (Göttingen, (Germany):  Bandelhoel und Ruprecht, 1815), 563–609. [in German]
+*  English translation:  Grotefend, G.F., "Appendix II:  On the cuneiform character, and particularly the inscriptions at Persepolis" in:  Heeren, Arnold Hermann Ludwig, with David Alphonso Talboys, trans., ''Historical Researches into the Politics, Intercourse, and Trade of the Principal Nations of Antiquity'', vol. 2, (Oxford, England:  D.A. Talboys, 1833), [https://babel.hathitrust.org/cgi/pt?id=hvd.hn39i8;view=1up;seq=327 pp. 313–360.] Grotefend's determinations of the values of several characters in cuneiform are also briefly mentioned in [https://babel.hathitrust.org/cgi/pt?id=hvd.hn39i9;view=1up;seq=230 vol. 1, p. 196.]</ref>
+
+In 1836, the eminent French scholar [[Eugène Burnouf]] discovered that the first of the inscriptions published by Niebuhr contained a list of the [[Satrap#Medo-Persian satraps|satrapies]] of Darius. With this clue in his hand, he identified and published an alphabet of thirty letters, most of which he had correctly deciphered.<ref name="Sayce"/>{{rp|14}}<ref>Burnouf 1836</ref><ref name="Prichard">Prichard 1844, pp.&nbsp;30–31</ref>
+
+A month earlier, a friend and pupil of Burnouf's, Professor [[Christian Lassen]] of Bonn, had also published his own work on ''The Old Persian Cuneiform Inscriptions of Persepolis''.<ref name="Prichard"/><ref>Lassen.</ref> He and Burnouf had been in frequent correspondence, and his claim to have independently detected the names of the satrapies, and thereby to have fixed the values of the Persian characters, was consequently fiercely attacked. According to Sayce, whatever his obligations to Burnouf may have been, Lassen's
+
+{{Quote|...contributions to the decipherment of the inscriptions were numerous and important. He succeeded in fixing the true values of nearly all the letters in the Persian alphabet, in translating the texts, and in proving that the language of them was not [[Avestan|Zend]], but stood to both Zend and [[Sanskrit]] in the relation of a sister.|Sayce<ref name="Sayce"/>{{rp|15}}}}
+
+Meanwhile, in 1835 [[Sir Henry Rawlinson, 1st Baronet|Henry Rawlinson]], a British East India Company army officer, visited the [[Behistun Inscription]]s in [[Iran|Persia]]. Carved in the reign of [[Darius I of Persia|King Darius of Persia]] (522–486 BC), they consisted of identical texts in the three official languages of the empire: Old [[Persian language|Persian]], [[Akkadian language|Assyrian]] and [[Elamite]]. The Behistun inscription was to the decipherment of cuneiform what the [[Rosetta Stone]] was to the decipherment of [[Egyptian hieroglyph]]s.<ref>Adkins 2003.{{full citation needed|date=November 2012}}</ref>
+
+Rawlinson correctly deduced that the Old Persian was a phonetic script and he successfully deciphered it. In 1837 he finished his copy of the Behistun inscription, and sent a translation of its opening paragraphs to the Royal Asiatic Society. Before his article could be published, however, the works of Lassen and Burnouf reached him, necessitating a revision of his article and the postponement of its publication. Then came other causes of delay. In 1847 the first part of the Rawlinson's Memoir was published; the second part did not appear until 1849.<ref>Rawlinson 1847.</ref>{{efn|It seems that various parts of Rawlisons' paper formed Vol X of this journal. The final part III comprised chapters IV (Analysis of the Persian Inscriptions of Behistunand) and V (Copies and Translations of the Persian Cuneiform Inscriptions of Persepolis, Hamadan, and Van), pp. 187–349.}} The task of deciphering the Persian cuneiform texts was virtually accomplished.<ref name="Sayce"/>{{rp|17}}
+
+After translating the Persian, Rawlinson and, working independently of him, the Irish [[Assyriologist]] [[Edward Hincks]], began to [[decipher]] the others. (The actual techniques used to decipher the [[Akkadian language]] have never been fully published; Hincks described how he sought the proper names already legible in the deciphered Persian while Rawlinson never said anything at all, leading some to speculate that he was secretly copying Hincks.<ref>Daniels 1996.</ref><ref>{{cite journal |url=http://www.cdli.ucla.edu/pubs/cdlj/2011/cdlj2011_001.html |first=Kevin J. |last=Cathcart |title=The Earliest Contributions to the Decipherment of Sumerian and Akkadian |journal=Cuneiform Digital Library Journal |year=2011 |issue=1 |issn=1540-8779}}</ref>) They were greatly helped by the excavations of the French naturalist [[Paul Émile Botta]] and English traveler and diplomat [[Austen Henry Layard]] of the city of [[Nineveh]] from 1842. Among the treasures uncovered by Layard and his successor [[Hormuzd Rassam]] were, in 1849 and 1851, the remains of two libraries, now mixed up, usually called the [[Library of Ashurbanipal]], a royal archive containing tens of thousands of baked clay tablets covered with cuneiform inscriptions.
+
+By 1851, Hincks and Rawlinson could read 200 Babylonian signs. They were soon joined by two other decipherers: young German-born scholar [[Julius Oppert]], and versatile British Orientalist [[William Henry Fox Talbot]]. In 1857 the four men met in London and took part in a famous experiment to test the accuracy of their decipherments. [[Edwin Norris]], the secretary of the [[Royal Asiatic Society]], gave each of them a copy of a recently discovered inscription from the reign of the Assyrian emperor [[Tiglath-Pileser I]]. A jury of experts was empanelled to examine the resulting translations and assess their accuracy. In all essential points the translations produced by the four scholars were found to be in close agreement with one another. There were of course some slight discrepancies. The inexperienced Talbot had made a number of mistakes, and Oppert's translation contained a few doubtful passages which the jury politely ascribed to his unfamiliarity with the English language. But Hincks' and Rawlinson's versions corresponded remarkably closely in many respects. The jury declared itself satisfied, and the decipherment of Akkadian cuneiform was adjudged a ''fait accompli''.<ref>Rawlinson, Henry; Fox Talbot, William Henry; Hincks, Edward; and Oppert, Julius, [https://books.google.com/books?id=GGI-AAAAcAAJ&pg=PA1#v=onepage&q&f=false ''Inscription of Tiglath-Pileser I., King of Assyria, B.C. 1150,'' …] (London, England:  J. W. Parker and Son, 1857).  For a description of the "experiment" in the translation of cuneiform, see pp. 3–7.</ref>
+
+===Proper names===
+In the early days of cuneiform decipherment, the reading of proper names presented the greatest difficulties. However, there is now a better understanding of the principles behind the formation and the pronunciation of the thousands of names found in historical records, business documents, votive inscriptions, literary productions and legal documents. The primary challenge was posed by the characteristic use of old Sumerian non-phonetic logograms in other languages that had different pronunciations for the same symbols. Until the exact phonetic reading of many names was determined through parallel passages or explanatory lists, scholars remained in doubt, or had recourse to conjectural or provisional readings. However, in many cases, there are variant readings, the same name being written phonetically (in whole or in part) in one instance and logographically in another.
+
+==Transliteration==
+[[File:Cyrus cylinder extract.svg|right|thumb|upright=1.15|Extract from the [[Cyrus Cylinder]] (lines 15–21), giving the genealogy of [[Cyrus the Great]] and an account of his capture of [[Babylon]] in 539 BC]]
+Cuneiform has a specific format for [[transliteration]]. Because of the script's [[wikt:polyvalent|polyvalence]], transliteration requires certain choices of the transliterating scholar, who must decide in the case of each sign which of its several possible meanings is intended in the original document. For example, the sign [[dingir|DINGIR]] in a Hittite text may represent either the Hittite syllable ''an'' or may be part of an Akkadian phrase, representing the syllable ''[[ilah|il]]'', it may be a [[Sumerogram]], representing the original Sumerian meaning, 'god' or the [[determinative]] for a deity. In transliteration, a different rendition of the same glyph is chosen depending on its role in the present context.
+
+Therefore, a text containing DINGIR and MU in succession could be construed to represent the words "ana", "ila", god + "a" (the [[accusative case]] ending), god + water, or a divine name "A" or Water. Someone transcribing the signs would make the decision how the signs should be read and assemble the signs as "ana", "ila", "Ila" ("god"+accusative case), etc. A transliteration of these signs, however, would separate the signs with dashes "il-a", "an-a", "DINGIR-a" or "<sup>D</sup>a". This is still easier to read than the original cuneiform, but now the reader is able to trace the sounds back to the original signs and determine if the correct decision was made on how to read them. A transliterated document thus presents the reading preferred by the transliterating scholar as well as an opportunity to reconstruct the original text.
+
+There are differing conventions for transliterating Sumerian, Akkadian (Babylonian) and Hittite (and Luwian) cuneiform texts. One convention that sees wide use across the different fields is the use of acute and grave accents as an abbreviation for homophone disambiguation. Thus, ''u'' is equivalent to ''u<sub>1</sub>'', the first glyph expressing phonetic ''u''. An acute accent, ''ú'', is equivalent to the second, ''u<sub>2</sub>'', and a grave accent ''ù'' to the third, ''u<sub>3</sub>'' glyph in the series (while the sequence of numbering is conventional but essentially arbitrary and subject to the history of decipherment). In Sumerian transliteration, a multiplication sign 'x' is used to indicate [[typographic ligature]]s. As shown above, signs ''as such'' are represented in [[capital letter]]s, while the specific reading selected in the transliteration is represented in small letters. Thus, capital letters can be used to indicate a so-called Diri compound – a sign sequence that has, in combination, a reading different from the sum of the individual constituent signs (for example, the compound IGI.A – "water" + "eye" – has the reading ''imhur'', meaning "foam"). In a Diri compound, the individual signs are separated with dots in transliteration. Capital letters may also be used to indicate a Sumerogram (for example, KÙ.BABBAR – Sumerian for "silver" – being used with the intended [[Akkadian language|Akkadian]] reading ''kaspum'', "silver"), an Akkadogram, or simply a sign sequence of whose reading the editor is uncertain. Naturally, the "real" reading, if it is clear, will be presented in small letters in the transliteration: IGI.A will be rendered as imhur<sub>4</sub>.
+
+Since the Sumerian language has only been widely known and studied by scholars for approximately a century, changes in the accepted reading of Sumerian names have occurred from time to time. Thus the name of a king of [[Ur]], read ''Ur-Bau'' at one time, was later read as ''Ur-Engur'', and is now read as [[Ur-Nammu]] or Ur-Namma; for [[Lugal-zage-si]], a king of [[Uruk]], some scholars continued to read ''Ungal-zaggisi''; and so forth. Also, with some names of the older period, there was often uncertainty whether their bearers were Sumerians or Semites. If the former, then their names could be assumed to be read as Sumerian, while, if they were Semites, the signs for writing their names were probably to be read according to their Semitic equivalents, though occasionally Semites might be encountered bearing genuine Sumerian names. There was also doubt whether the signs composing a Semite's name represented a phonetic reading or a logographic compound. Thus, e.g. when inscriptions of a Semitic ruler of Kish, whose name was written ''Uru-mu-ush'', were first deciphered, that name was first taken to be logographic because ''uru mu-ush'' could be read as "he founded a city" in Sumerian, and scholars accordingly retranslated it back to the original Semitic as ''Alu-usharshid''. It was later recognized that the URU sign can also be read as ''rí'' and that the name is that of the [[Akkadian Empire|Akkadian]] king [[Rimush]].
+
+==Syllabary==
+The tables below show signs used for simple syllables of the form CV or VC. As used for the Sumerian language, the cuneiform script was in principle capable of distinguishing at least 16 consonants,<ref>{{cite book |url=https://cdli.ucla.edu/pubs/cdlp/cdlp0002_20160104.pdf |first=Daniel A. |last=Foxvog |title=Introduction to Sumerian grammar |pages=16–17, 20–21 |postscript=none |deadurl=no |archiveurl=https://web.archive.org/web/20170103191548/http://cdli.ucla.edu/pubs/cdlp/cdlp0002_20160104.pdf |archivedate=January 3, 2017 |df=mdy-all }} (about phonemes g̃ and ř and their representation using cuneiform signs).</ref><ref>{{cite thesis |url=https://openaccess.leidenuniv.nl/bitstream/handle/1887/16107/Binnenwerk-jagersma.pdf?sequence=2 |title=A descriptive grammar of Sumerian |pages=43–45, 50–51 |first=A. H. |last=Jagersma |postscript=none |deadurl=no |archiveurl=https://web.archive.org/web/20151125111544/https://openaccess.leidenuniv.nl/bitstream/handle/1887/16107/Binnenwerk-jagersma.pdf?sequence=2 |archivedate=November 25, 2015 |df=mdy-all }} (about phonemes g̃ and ř and their representation using cuneiform signs).</ref> transliterated as
+:''b, d, g, g̃, ḫ, k, l, m, n, p, r, ř, s, š, t, z''
+as well as four vowel qualities, ''a, e, i, u''.
+The Akkadian language had no use for ''g̃'' or ''ř'' but needed to distinguish its [[emphatic series]], ''q, ṣ, ṭ'', adopting various "superfluous" Sumerian signs for the purpose (e.g. ''qe''=KIN, ''qu''=KUM, ''qi''=KIN, ''ṣa''=ZA, ''ṣe''=ZÍ, ''ṭur''=DUR etc.{{Clarify|date=August 2009}})
+Hittite, as it adopted the Akkadian cuneiform, further introduced signs such as ''wi<sub>5</sub>''=GEŠTIN.
+
+<div class="center Unicode">
+{|class="wikitable" style=" text-align:center;"
+|-
+| || -a || -e || -i || -u
+|-
+|
+|| ''a'' {{Cuneiform|[[:wikt:𒀀|𒀀]]}},<br />
+''á'' {{Cuneiform|[[:wikt:𒀉|𒀉]]}}
+|| ''e'' {{Cuneiform|[[:wikt:𒂊|𒂊]]}},<br />
+''[[𒂍|é]]'' {{Cuneiform|[[:wikt:𒂍|𒂍]]}}
+|| ''i'' {{Cuneiform|[[:wikt:𒄿|𒄿]]}},<br />
+''í''=IÁ {{Cuneiform|[[:wikt:𒐊|𒐊]]}}
+||  ''u'' {{Cuneiform|[[:wikt:𒌋|𒌋]]}},<br />
+''ú'' {{Cuneiform|[[:wikt:𒌑|𒌑]]}},<br />
+''ù'' {{Cuneiform|[[:wikt:𒅇|𒅇]]}}
+|-
+| b-
+|| ''ba'' {{Cuneiform|[[:wikt:𒁀|𒁀]]}},<br />
+''bá''=PA {{Cuneiform|[[:wikt:𒉺|𒉺]]}},<br />
+''bà''=EŠ {{Cuneiform|[[:wikt:𒂠|𒂠]]}}
+|| ''be''=BAD {{Cuneiform|[[:wikt:𒁁|𒁁]]}},<br />
+''bé''=BI {{Cuneiform|[[:wikt:𒁉|𒁉]]}},<br />
+''bè''=NI {{Cuneiform|[[:wikt:𒉌|𒉌]]}}
+|| ''bi'' {{Cuneiform|[[:wikt:𒁉|𒁉]]}},<br />
+''bí''=NE {{Cuneiform|[[:wikt:𒉈|𒉈]]}},<br />
+''bì''=PI {{Cuneiform|[[:wikt:𒉿|𒉿]]}}
+||  ''bu'' {{Cuneiform|[[:wikt:𒁍|𒁍]]}},<br />
+''bú''=KASKAL {{Cuneiform|[[:wikt:𒆜|𒆜]]}},<br />
+''bù''=PÙ {{Cuneiform|[[:wikt:𒅤|𒅤]]}}
+|-
+| d-
+|| ''da'' {{Cuneiform|[[:wikt:𒁕|𒁕]]}},<br />
+''dá''=TA {{Cuneiform|[[:wikt:𒋫|𒋫]]}}
+|| ''de''=DI {{Cuneiform|[[:wikt:𒁲|𒁲]]}},<br />
+''dé'' <!--missing in Unicode-->,<br />
+''dè''=NE {{Cuneiform|[[:wikt:𒉈|𒉈]]}}
+|| ''di'' {{Cuneiform|[[:wikt:𒁲|𒁲]]}},<br />
+''dí''=TÍ {{Cuneiform|[[:wikt:𒄭|𒄭]]}}
+|| ''du'' {{Cuneiform|[[:wikt:𒁺|𒁺]]}},<br />
+''dú''=TU {{Cuneiform|[[:wikt:𒌅|𒌅]]}},<br />
+''dù''=GAG {{Cuneiform|[[:wikt:𒆕|𒆕]]}},<br />
+''du<sub>4</sub>''=TUM {{Cuneiform|[[:wikt:𒌈|𒌈]]}}
+|-
+| g-
+|| ''ga'' {{Cuneiform|[[:wikt:𒂵|𒂵]]}},<br />
+''gá'' {{Cuneiform|[[:wikt:𒂷|𒂷]]}}
+|| ''ge''=GI {{Cuneiform|[[:wikt:𒄀|𒄀]]}},<br />
+''gé''=KID {{Cuneiform|[[:wikt:𒆤|𒆤]]}},<br />
+''gè''=DIŠ {{Cuneiform|[[:wikt:𒁹|𒁹]]}}
+||  ''gi'' {{Cuneiform|[[:wikt:𒄀|𒄀]]}},<br />
+''gí''=KID {{Cuneiform|[[:wikt:𒆤|𒆤]]}},<br />
+''gì''=DIŠ {{Cuneiform|[[:wikt:𒁹|𒁹]]}},<br />
+''gi<sub>4</sub>'' {{Cuneiform|[[:wikt:𒄄|𒄄]]}},<br />
+''gi<sub>5</sub>''=KI {{Cuneiform|[[:wikt:𒆠|𒆠]]}}
+|| ''gu'' {{Cuneiform|[[:wikt:𒄖|𒄖]]}},<br />
+''gú'' {{Cuneiform|[[:wikt:𒄘|𒄘]]}},<br />
+''gù''=KA {{Cuneiform|[[:wikt:𒅗|𒅗]]}},<br />
+''gu<sub>4</sub>'' {{Cuneiform|[[:wikt:𒄞|𒄞]]}},<br />
+''gu<sub>5</sub>''=KU {{Cuneiform|[[:wikt:𒆪|𒆪]]}},<br />
+''gu<sub>6</sub>''=NAG {{Cuneiform|[[:wikt:𒅘|𒅘]]}},<br />
+''gu<sub>7</sub>'' {{Cuneiform|[[:wikt:𒅥|𒅥]]}}
+|-
+| ḫ-
+|| ''ḫa'' {{Cuneiform|[[:wikt:𒄩|𒄩]]}},<br />
+''ḫá''=ḪI.A {{Cuneiform|[[:wikt:𒄭𒀀|𒄭𒀀]]}},<br />
+''ḫà''=[[𒌋|U]] {{Cuneiform|[[:wikt:𒌋|𒌋]]}},<br />
+''ḫa<sub>4</sub>''=ḪI {{Cuneiform|[[:wikt:𒄭|𒄭]]}}
+|| ''ḫe''=ḪI {{Cuneiform|[[:wikt:𒄭|𒄭]]}},<br />
+''ḫé''=GAN {{Cuneiform|[[:wikt:𒃶|𒃶]]}}
+||  ''ḫi'' {{Cuneiform|[[:wikt:𒄭|𒄭]]}},<br />
+''ḫí''=GAN {{Cuneiform|[[:wikt:𒃶|𒃶]]}}
+|| ''ḫu'' {{Cuneiform|[[:wikt:𒄷|𒄷]]}}
+|-
+| k-
+|| ''ka'' {{Cuneiform|[[:wikt:𒅗|𒅗]]}},<br />
+''ká'' {{Cuneiform|[[:wikt:𒆍|𒆍]]}},<br />
+''kà''=GA {{Cuneiform|[[:wikt:𒂵|𒂵]]}}
+|| ''ke''=[[𒆠|KI]] {{Cuneiform|[[:wikt:𒆠|𒆠]]}},<br />
+''ké''=GI {{Cuneiform|[[:wikt:𒄀|𒄀]]}}
+|| ''[[𒆠|ki]]'' {{Cuneiform|[[:wikt:𒆠|𒆠]]}},<br />
+''kí''=GI {{Cuneiform|[[:wikt:𒄀|𒄀]]}}
+|| ''ku'' {{Cuneiform|[[:wikt:𒆪|𒆪]]}},<br />
+''kú''=GU<sub>7</sub> {{Cuneiform|[[:wikt:𒅥|𒅥]]}},<br />
+''kù'' {{Cuneiform|[[:wikt:𒆬|𒆬]]}},<br />
+''ku<sub>4</sub>'' {{Cuneiform|[[:wikt:𒆭|𒆭]]}}
+|-
+| l-
+|| ''la'' {{Cuneiform|[[:wikt:𒆷|𒆷]]}},<br />
+''lá''=LAL {{Cuneiform|[[:wikt:𒇲|𒇲]]}},<br />
+''là''=NU {{Cuneiform|[[:wikt:𒉡|𒉡]]}}
+|| ''le''=LI {{Cuneiform|[[:wikt:𒇷|𒇷]]}},<br />
+''lé''=NI {{Cuneiform|[[:wikt:𒉌|𒉌]]}}
+|| ''li'' {{Cuneiform|[[:wikt:𒇷|𒇷]]}},<br />
+''lí''=NI {{Cuneiform|[[:wikt:𒉌|𒉌]]}}
+|| ''lu'' {{Cuneiform|[[:wikt:𒇻|𒇻]]}},<br />
+''lú'' {{Cuneiform|[[:wikt:𒇽|𒇽]]}}
+|-
+| m-
+|| ''ma'' {{Cuneiform|[[:wikt:𒈠|𒈠]]}},<br />
+''má'' {{Cuneiform|[[:wikt:𒈣|𒈣]]}}
+|| ''me'' {{Cuneiform|[[:wikt:𒈨|𒈨]]}},<br />
+''mé''=MI {{Cuneiform|[[:wikt:𒈪|𒈪]]}},<br />
+''mè'' {{Cuneiform|[[:wikt:𒀞|𒀞]]/[[:wikt:𒅠|𒅠]]}}
+|| ''mi'' {{Cuneiform|[[:wikt:𒈪|𒈪]]}},<br />
+''mí''=[[MUNUS (Sumerogram)|MUNUS]] {{Cuneiform|[[:wikt:𒊩|𒊩]]}},<br />
+''mì''=ME {{Cuneiform|[[:wikt:𒈨|𒈨]]}}
+|| ''mu'' {{Cuneiform|[[:wikt:𒈬|𒈬]]}},<br />
+''mú''=SAR {{Cuneiform|[[:wikt:𒊬|𒊬]]}}
+|-
+| n-
+|| ''na'' {{Cuneiform|[[:wikt:𒈾|𒈾]]}},<br />
+''ná'' {{Cuneiform|[[:wikt:𒈿|𒈿]]}},<br />
+''nà''=AG {{Cuneiform|[[:wikt:𒀝|𒀝]]}},<br />
+''na<sub>4</sub>'' ("NI.UD") {{Cuneiform|[[:wikt:𒉌𒌓|𒉌𒌓]]}}
+|| ''ne'' {{Cuneiform|[[:wikt:𒉈|𒉈]]}},<br />
+''né''=NI {{Cuneiform|[[:wikt:𒉌|𒉌]]}}
+|| ''ni'' {{Cuneiform|[[:wikt:𒉌|𒉌]]}},<br />
+''ní''=IM {{Cuneiform|[[:wikt:𒉎|𒉎]]}}
+|| ''nu'' {{Cuneiform|[[:wikt:𒉡|𒉡]]}},<br />
+''nú''=NÁ {{Cuneiform|[[:wikt:𒈿|𒈿]]}}
+|-
+| p-
+|| ''pa'' {{Cuneiform|[[:wikt:𒉺|𒉺]]}},<br />
+''pá''=BA {{Cuneiform|[[:wikt:𒐀|𒐀]]}}
+|| ''pe''=PI {{Cuneiform|[[:wikt:𒉿|𒉿]]}},<br />
+''pé''=BI {{Cuneiform|[[:wikt:𒁉|𒁉]]}}
+|| ''pi'' {{Cuneiform|[[:wikt:𒉿|𒉿]]}},<br />
+''pí''=BI {{Cuneiform|[[:wikt:𒁉|𒁉]]}},<br />
+''pì''=BAD {{Cuneiform|[[:wikt:𒁁|𒁁]]}}
+|| ''pu''=BU {{Cuneiform|[[:wikt:𒁍|𒁍]]}},<br />
+''pú''=TÚL {{Cuneiform|[[:wikt:𒇥|𒇥]]}},<br />
+''pù'' {{Cuneiform|[[:wikt:𒅤|𒅤]]}}
+|-
+| r-
+|| ''ra'' {{Cuneiform|[[:wikt:𒊏|𒊏]]}},<br />
+''rá''=DU {{Cuneiform|[[:wikt:𒁺|𒁺]]}}
+|| ''re''=RI {{Cuneiform|[[:wikt:𒊑|𒊑]]}},<br />
+''ré''=URU {{Cuneiform|[[:wikt:𒌷|𒌷]]}}
+|| ''ri'' {{Cuneiform|[[:wikt:𒊑|𒊑]]}},<br />
+''rí''=URU {{Cuneiform|[[:wikt:𒌷|𒌷]]}}
+|| ''ru'' {{Cuneiform|[[:wikt:𒊒|𒊒]]}},<br />
+''rú''=GAG {{Cuneiform|[[:wikt:𒆕|𒆕]]}},<br />
+''rù''=AŠ {{Cuneiform|[[:wikt:𒀸|𒀸]]}}
+|-
+| s-
+|| ''sa'' {{Cuneiform|[[:wikt:𒊓|𒊓]]}},<br />
+''sá''=DI {{Cuneiform|[[:wikt:𒁲|𒁲]]}},<br />
+''sà''=ZA {{Cuneiform|[[:wikt:𒍝|𒍝]]}},<br />
+''sa<sub>4</sub>'' ("ḪU.NÁ") {{Cuneiform|[[:wikt:𒄷𒈾|𒄷𒈾]]}}
+|| ''se''=SI {{Cuneiform|[[:wikt:𒋛|𒋛]]}},<br />
+''sé''=ZI {{Cuneiform|[[:wikt:𒍣|𒍣]]}}
+|| ''si'' {{Cuneiform|[[:wikt:𒋛|𒋛]]}},<br />
+''sí''=ZI {{Cuneiform|[[:wikt:𒍣|𒍣]]}}
+|| ''su'' {{Cuneiform|[[:wikt:𒋢|𒋢]]}},<br />
+''sú''=ZU {{Cuneiform|[[:wikt:𒍪|𒍪]]}},<br />
+''sù''=SUD {{Cuneiform|[[:wikt:𒋤|𒋤]]}},<br />
+''su<sub>4</sub>'' {{Cuneiform|[[:wikt:𒋜|𒋜]]}}
+|-
+| š-
+|| ''ša'' {{Cuneiform|[[:wikt:𒊭|𒊭]]}},<br />
+''šá''=NÍG {{Cuneiform|[[:wikt:𒐼|𒐼]]}},<br />
+''šà'' {{Cuneiform|[[:wikt:𒊮|𒊮]]}}
+|| ''še'' {{Cuneiform|[[:wikt:𒊺|𒊺]]}},<br />
+''šé'', <br />
+''šè'' {{Cuneiform|[[:wikt:𒂠|𒂠]]}}
+|| ''ši''=IGI {{Cuneiform|[[:wikt:𒅆|𒅆]]}},<br />
+''ší''=SI {{Cuneiform|[[:wikt:𒋛|𒋛]]}}
+|| ''šu'' {{Cuneiform|[[:wikt:𒋗|𒋗]]}},<br />
+''šú'' {{Cuneiform|[[:wikt:𒋙|𒋙]]}},<br />
+''šù''=ŠÈ {{Cuneiform|[[:wikt:𒂠|𒂠]]}},<br />
+''šu<sub>4</sub>''=[[𒌋|U]] {{Cuneiform|[[:wikt:𒌋|𒌋]]}}
+|-
+| t-
+|| ''ta'' {{Cuneiform|[[:wikt:𒋫|𒋫]]}},<br />
+''tá''=DA {{Cuneiform|[[:wikt:𒁕|𒁕]]}}
+|| ''te'' {{Cuneiform|[[:wikt:𒋼|𒋼]]}},<br />
+''té''=TÍ {{Cuneiform|[[:wikt:𒊹|𒊹]]}}
+|| ''ti'' {{Cuneiform|[[:wikt:𒋾|𒋾]]}},<br />
+''tí'' {{Cuneiform|[[:wikt:𒊹|𒊹]]}},<br />
+''tì''=DIM {{Cuneiform|[[:wikt:𒁴|𒁴]]}},<br />
+''ti<sub>4</sub>''=DI {{Cuneiform|[[:wikt:𒁲|𒁲]]}}
+|| ''tu'' {{Cuneiform|[[:wikt:𒌅|𒌅]]}},<br />
+''tú''=UD {{Cuneiform|[[:wikt:𒌓|𒌓]]}},<br />
+''tù''=DU {{Cuneiform|[[:wikt:𒁺|𒁺]]}}
+|-
+|  z-
+|| ''za'' {{Cuneiform|[[:wikt:𒍝|𒍝]]}},<br />
+''zá''=NA<sub>4</sub> {{Cuneiform|[[:wikt:𒉌𒌓|𒉌𒌓]]}}
+
+ || ''ze''=ZI {{Cuneiform|[[:wikt:𒍣|𒍣]]}},<br />
+''zé''=ZÌ {{Cuneiform|[[:wikt:𒍢|𒍢]]}}
+|| ''zi'' {{Cuneiform|[[:wikt:𒍣|𒍣]]}},<br />
+''zí'' {{Cuneiform|[[:wikt:𒍢|𒍢]]}},<br />
+''zì'' {{Cuneiform|[[:wikt:𒍥|𒍥]]}}
+|| ''zu'' {{Cuneiform|[[:wikt:𒍪|𒍪]]}},<br />
+''zú''=KA {{Cuneiform|[[:wikt:𒅗|𒅗]]}}
+|-
+| g̃-
+|| ''g̃á''=GÁ {{Cuneiform|[[:wikt:𒂷|𒂷]]}}
+|| ''g̃e<sub>26</sub>''=GÁ {{Cuneiform|[[:wikt:𒂷|𒂷]]}}
+|| ''g̃i<sub>6</sub>''=MI {{Cuneiform|[[:wikt:𒈪|𒈪]]}}
+|| ''g̃u<sub>10</sub>''=MU {{Cuneiform|[[:wikt:𒈬|𒈬]]}}
+|-
+| ř-
+|| ''řá''=DU {{Cuneiform|[[:wikt:𒁺|𒁺]]}}
+|| ''ře<sub>6</sub>''=DU {{Cuneiform|[[:wikt:𒁺|𒁺]]}} 
+||
+||
+|}
+</div>
+
+<div class="center">
+
+{|class="wikitable" style="text-align:center;"
+|-
+| || a- || e- || i- || u-
+|-
+|
+|| ''a'' {{Cuneiform|[[:wikt:𒀀|𒀀]]}},<br />
+''á'' {{Cuneiform|[[:wikt:𒀉|𒀉]]}}
+|| ''e'' {{Cuneiform|[[:wikt:𒂊|𒂊]]}},<br />
+''[[𒂍|é]]'' {{Cuneiform|[[:wikt:𒂍|𒂍]]}}
+|| ''i'' {{Cuneiform|[[:wikt:𒄿|𒄿]]}},<br />
+''í''=IÁ {{Cuneiform|[[:wikt:𒐊|𒐊]]}}
+|| ''[[𒌋|u]]'' {{Cuneiform|[[:wikt:𒌋|𒌋]]}},<br />
+''ú'' {{Cuneiform|[[:wikt:𒌑|𒌑]]}},<br />
+''ù'' {{Cuneiform|[[:wikt:𒅇|𒅇]]}}
+|-
+| -b
+|| ''ab'' {{Cuneiform|[[:wikt:𒀊|𒀊]]}},<br />
+''áb'' {{Cuneiform|[[:wikt:𒀖|𒀖]]}}
+||''eb''=IB {{Cuneiform|[[:wikt:𒅁|𒅁]]}},<br />
+''éb''=TUM {{Cuneiform|[[:wikt:𒌈|𒌈]]}}
+|| ''ib'' {{Cuneiform|[[:wikt:𒅁|𒅁]]}},<br />
+''íb''=TUM {{Cuneiform|[[:wikt:𒌈|𒌈]]}}
+|| ''ub'' {{Cuneiform|[[:wikt:𒌒|𒌒]]}},<br />
+''úb''=ŠÈ {{Cuneiform|[[:wikt:𒂠|𒂠]]}}
+|-
+| -d
+|| ''ad'' {{Cuneiform|[[:wikt:𒀜|𒀜]]}},<br />
+''ád'' {{Cuneiform|[[:wikt:𒄉|𒄉]]}}
+||''ed''=Á {{Cuneiform|[[:wikt:𒀉|𒀉]]}}
+||''id''=Á {{Cuneiform|[[:wikt:𒀉|𒀉]]}},<br />
+''íd''=A.ENGUR {{Cuneiform|[[:wikt:𒀀𒇉|𒀀𒇉]]}}
+|| ''ud'' {{Cuneiform|[[:wikt:𒌓|𒌓]]}},<br />
+''úd''=ÁŠ {{Cuneiform|[[:wikt:𒀾|𒀾]]}}
+|-
+| -g
+||''ag'' {{Cuneiform|[[:wikt:𒀝|𒀝]]}},<br />
+''ág'' {{Cuneiform|[[:wikt:𒉘|𒉘]]}}
+|| ''eg''=IG {{Cuneiform|[[:wikt:𒅅|𒅅]]}},<br />
+''ég''=E {{Cuneiform|[[:wikt:𒂊|𒂊]]}}
+||''ig'' {{Cuneiform|[[:wikt:𒅅|𒅅]]}},<br />
+''íg''=E {{Cuneiform|[[:wikt:𒂊|𒂊]]}}
+||''ug'' {{Cuneiform|[[:wikt:𒊌|𒊌]]}}
+|-
+| -ḫ
+|| ''aḫ'' {{Cuneiform|[[:wikt:𒄴|𒄴]]}},<br />
+''áḫ''=ŠEŠ {{Cuneiform|[[:wikt:𒋀|𒋀]]}}
+||''eḫ''=AḪ {{Cuneiform|[[:wikt:𒄴|𒄴]]}}
+||''iḫ''=AḪ {{Cuneiform|[[:wikt:𒄴|𒄴]]}}
+|| ''uḫ''=AḪ {{Cuneiform|[[:wikt:𒄴|𒄴]]}},<br />
+''úḫ'' {{Cuneiform|[[:wikt:𒌔|𒌔]]}}
+|-
+| -k
+|| ''ak''=AG {{Cuneiform|[[:wikt:𒀝|𒀝]]}}
+||''ek''=IG {{Cuneiform|[[:wikt:𒅅|𒅅]]}}
+||''ik''=IG {{Cuneiform|[[:wikt:𒅅|𒅅]]}}
+||''uk''=UG {{Cuneiform|[[:wikt:𒊌|𒊌]]}}
+|-
+| -l
+||''al'' {{Cuneiform|[[:wikt:𒀠|𒀠]]}},<br />
+''ál''=ALAM {{Cuneiform|[[:wikt:𒀩|𒀩]]}}
+||''el'' {{Cuneiform|[[:wikt:𒂖|𒂖]]}},<br />
+''él''=IL {{Cuneiform|[[:wikt:𒅋|𒅋]]}}
+|| ''il'' {{Cuneiform|[[:wikt:𒅋|𒅋]]}},<br />
+''íl'' {{Cuneiform|[[:wikt:𒅍|𒅍]]}}
+||''ul'' {{Cuneiform|[[:wikt:𒌌|𒌌]]}},<br />
+''úl''=NU {{Cuneiform|[[:wikt:𒉡|𒉡]]}}
+|-
+| -m
+||''am'' {{Cuneiform|[[:wikt:𒄠|𒄠]]/[[:wikt:𒂔|𒂔]]}},<br />
+''ám''=ÁG {{Cuneiform|[[:wikt:𒉘|𒉘]]}}
+||''em''=IM {{Cuneiform|[[:wikt:𒅎|𒅎]]}}
+||''im'' {{Cuneiform|[[:wikt:𒅎|𒅎]]}},<br />
+''ím''=KAŠ<sub>4</sub> {{Cuneiform|[[:wikt:𒁽|𒁽]]}}
+||''um'' {{Cuneiform|[[:wikt:𒌝|𒌝]]}},<br />
+''úm''=UD {{Cuneiform|[[:wikt:𒌓|𒌓]]}}
+|-
+| -n
+|| ''[[𒀭|an]]'' {{Cuneiform|[[:wikt:𒀭|𒀭]]}}
+||''[[𒂗|en]]'' {{Cuneiform|[[:wikt:𒂗|𒂗]]}},<br />
+''én'',<br />
+''èn''=LI {{Cuneiform|[[:wikt:𒇷|𒇷]]}}
+|| ''in'' {{Cuneiform|[[:wikt:𒅔|𒅔]]}},<br />
+''in<sub>4</sub>''=EN {{Cuneiform|[[:wikt:𒂗|𒂗]]}},<br />
+''in<sub>5</sub>''=[[NIN (cuneiform)|NIN]] {{Cuneiform|[[:wikt:𒊩𒌆|𒊩𒌆]]}}
+||''un'' {{Cuneiform|[[:wikt:𒌦|𒌦]]}},<br />
+''ún''=[[𒌋|U]] {{Cuneiform|[[:wikt:𒌋|𒌋]]}}
+|-
+| -p
+||''ap''=AB {{Cuneiform|[[:wikt:𒀊|𒀊]]}}
+||''ep''=IB, <br />
+''ép''=TUM {{Cuneiform|[[:wikt:𒌈|𒌈]]}}
+||''ip''=IB {{Cuneiform|[[:wikt:𒅁|𒅁]]}},<br />
+''íp''=TUM {{Cuneiform|[[:wikt:𒌈|𒌈]]}}
+|| ''up''=UB {{Cuneiform|[[:wikt:𒌒|𒌒]]}},<br />
+''úp''=ŠÈ {{Cuneiform|[[:wikt:𒂠|𒂠]]}}
+|-
+|  -r
+||''ar'' {{Cuneiform|[[:wikt:𒅈|𒅈]]}},<br />
+''ár''=UB {{Cuneiform|[[:wikt:𒌒|𒌒]]}}
+||''er''=IR {{Cuneiform|[[:wikt:𒅕|𒅕]]}}
+|| ''ir'' {{Cuneiform|[[:wikt:𒅕|𒅕]]}},<br />
+''íp''=A.IGI {{Cuneiform|[[:wikt:𒀀𒅆|𒀀𒅆]]}}
+||''ur'' {{Cuneiform|[[:wikt:𒌨|𒌨]]}},<br />
+''úr'' {{Cuneiform|[[:wikt:𒌫|𒌫]]}}
+|-
+| -s
+||''as''=AZ {{Cuneiform|[[:wikt:𒊍|𒊍]]}}
+||''es''=GIŠ {{Cuneiform|[[:wikt:𒄑|𒄑]]}},<br />
+''és''=EŠ {{Cuneiform|[[:wikt:𒂠|𒂠]]}}
+||''is''=GIŠ {{Cuneiform|[[:wikt:𒄑|𒄑]]}},<br />
+''ís''=EŠ {{Cuneiform|[[:wikt:𒂠|𒂠]]}}
+||''us''=UZ,<br />
+''ús''=UŠ {{Cuneiform|[[:wikt:𒍑|𒍑]]}}
+|-
+| -š
+||''aš'' {{Cuneiform|[[:wikt:𒀸|𒀸]]}},<br />
+''áš'' {{Cuneiform|[[:wikt:𒀾|𒀾]]}}
+|| ''eš'' {{Cuneiform|[[:wikt:𒌍|𒌍]]/[[:wikt:𒐁|𒐁]]}},<br />
+''éš''=ŠÈ {{Cuneiform|[[:wikt:𒂠|𒂠]]}}
+||''iš'' {{Cuneiform|[[:wikt:𒅖|𒅖]]}},<br />
+''íš''=KASKAL {{Cuneiform|[[:wikt:𒆜|𒆜]]}}
+||''uš'' {{Cuneiform|[[:wikt:𒍑|𒍑]]}},<br />
+''úš''{{Cuneiform|[[:wikt:𒍗|𒍗]]}}=BAD {{Cuneiform|[[:wikt:𒁁|𒁁]]}}
+|-
+| -t
+||''at''=AD {{Cuneiform|[[:wikt:𒀜|𒀜]]}},<br />
+''át''=GÍR ''gunû'' {{Cuneiform|[[:wikt:𒄉|𒄉]]}}
+||''et''=Á {{Cuneiform|[[:wikt:𒀉|𒀉]]}}
+||''it''=Á {{Cuneiform|[[:wikt:𒀉|𒀉]]}}
+||''ut''=UD {{Cuneiform|[[:wikt:𒌓|𒌓]]}},<br />
+''út''=ÁŠ {{Cuneiform|[[:wikt:𒀾|𒀾]]}}
+|-
+| -z
+||''az'' {{Cuneiform|[[:wikt:𒊍|𒊍]]}}
+||''ez''=GIŠ {{Cuneiform|[[:wikt:𒄑|𒄑]]}},<br />
+''éz''=EŠ {{Cuneiform|[[:wikt:𒂠|𒂠]]}}
+||''iz''= GIŠ {{Cuneiform|[[:wikt:𒄑|𒄑]]}},<br />
+''íz''=IŠ {{Cuneiform|[[:wikt:𒅖|𒅖]]}}
+||''uz''=ŠE&HU {{Cuneiform|[[:wikt:𒊺𒄷|𒊺𒄷]]}}<br />
+''úz''=UŠ {{Cuneiform|[[:wikt:𒍑|𒍑]]}},<br />
+''ùz'' {{Cuneiform|[[:wikt:𒍚|𒍚]]}}
+|-
+| -g̃
+|| ''ág̃''=ÁG {{Cuneiform|[[:wikt:𒉘|𒉘]]}}
+|| ''èg̃''=ÁG {{Cuneiform|[[:wikt:𒉘|𒉘]]}}
+|| ''ìg̃''=ÁG {{Cuneiform|[[:wikt:𒉘|𒉘]]}}
+|| ''ùg̃''=UN {{Cuneiform|[[:wikt:𒌦|𒌦]]}}
+|}
+</div>
+
+==Sign inventories==
+{{See also|List of cuneiform signs}}
+[[File:Cuneiform writing Ur.jpg|thumb|right|Cuneiform writing in [[Ur]], southern Iraq]]
+
+The Sumerian cuneiform script had on the order of 1,000 distinct signs (or about 1,500 if variants are included). This number was reduced to about 600 by the 24th century BC and the beginning of Akkadian records. Not all Sumerian signs are used in Akkadian texts, and not all Akkadian signs are used in Hittite.
+
+Falkenstein (1936) lists 939 signs used in the earliest period ([[Uruk period|late Uruk]], 34th to 31st centuries).
+With an emphasis on ''Sumerian'' forms, [[Anton Deimel|Deimel]] (1922) lists 870 signs used in the [[Fara period|Early Dynastic II]] period (28th century, "LAK") and for the Early Dynastic IIIa period (26th century, "ŠL").
+Rosengarten (1967) lists 468 signs used in Sumerian (pre-[[Sargon of Akkad|Sargonian]]).
+[[Lagash]] and Mittermayer ("aBZL", 2006) list 480 Sumerian forms, written in Isin-Larsa and Old Babylonian times. Regarding ''Akkadian'' forms, the standard handbook for many years was Borger ("ABZ", 1981) with 598 signs used in Assyrian/Babylonian writing, recently superseded by Borger ("MesZL", 2004) with an expansion to 907 signs, an extension of their Sumerian readings and a new numbering scheme.
+
+Signs used in [[Hittite cuneiform]] are listed by Forrer (1922), Friedrich (1960) and the ''HZL'' (Rüster and Neu 1989). The HZL lists a total of 375 signs, many with variants (for example, 12 variants are given for number 123 ''EGIR'').
+
+===Numerals===
+{{Main|Babylonian numerals}}
+The Sumerians used a numerical system based on 1, 10 and 60. The way of writing a number like 70 would be the sign for 60 and the sign for 10 right after. This way of counting is still used today for measuring time as 60 seconds per minute and 60 minutes per hour.
+
+== Usage ==
+Cuneiform script was used in many ways in ancient [[Mesopotamia]]. It was used to record laws, like the [[Code of Hammurabi]]. It was also used for recording maps, compiling medical manuals, and documenting religious stories and beliefs, among other uses.<ref>{{Cite journal|last=|first=|date=May 2016|title=The World's Oldest Writing|url=http://web.b.ebscohost.com/ehost/detail/detail?sid=2f0d7c0d-4a6b-4ce8-97dd-388db96deeeb%40sessionmgr105&vid=0&hid=118&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#AN=114537239&db=a9h|journal=Archaeology|volume=69|issue=3|doi=|pmid=|access-date=September 18, 2016|via=Virtual Library of Virginia}}</ref> Studies by Assyriologists like Claus Wilcke<ref>{{Cite book|title=Wer las und schrieb in Babylonien und Assyrien|last=Wilcke|first=Claus|publisher=Verlag der Bayerischen Akademie der Wissenschaften|year=2000|isbn=978-3-7696-1612-5|location=München|pages=|via=}}</ref> and [[Dominique Charpin]]<ref>Charpin, Dominique. 2004. "Lire et écrire en Mésopotamie: une affaire dé spécialistes?" Comptes rendus de l'Académie des Inscriptions et Belles Lettres: 481–501.</ref> suggest that cuneiform literacy was not reserved solely for the elite but was common for average citizens.
+
+According to the Oxford Handbook of Cuneiform Culture,<ref>{{Cite journal|last=Veldhuis|first=Niek|date=2011|title=Levels of Literacy|url=|journal=The Oxford Handbook of Cuneiform Culture|volume=|issue=|doi=10.1093/oxfordhb/9780199557301.001.0001|pmid=|access-date=|via=}}</ref> cuneiform script was used at a variety of literacy levels:
+
+Average citizens needed only a basic, functional knowledge of cuneiform script to write personal letters and business documents. More highly literate citizens put the script to more technical use, listing medicines and diagnoses and writing mathematical equations. Scholars held the highest literacy level of cuneiform and mostly focused on writing as a complex skill and an art form.
+
+==Unicode==
+{{Main|Cuneiform (Unicode block)|Cuneiform Numbers and Punctuation|l2=Cuneiform Numbers and Punctuation (Unicode block)|3=Early Dynastic Cuneiform|l3=Early Dynastic Cuneiform (Unicode block)}}
+
+As of version 8.0, the following ranges are assigned to the Sumero-Akkadian Cuneiform script in the [[Unicode|Unicode Standard]]:
+:U+12000–U+123FF (922 assigned characters) "[[Cuneiform (Unicode block)|Cuneiform]]"
+:U+12400–U+1247F (116 assigned characters) "[[Cuneiform Numbers and Punctuation]]"
+:U+12480–U+1254F (196 assigned characters) "[[Early Dynastic Cuneiform]]"
+
+The final proposal for Unicode encoding of the script was submitted by two cuneiform scholars working with an experienced Unicode proposal writer in June 2004.<ref>Everson, Michael; Feuerherm, Karljürgen; Tinney, Steve (June 8, 2004). "[https://www.unicode.org/L2/L2004/04189-n2786-cuneiform.pdf Final proposal to encode the Cuneiform script in the SMP of the UCS] {{webarchive|url=https://web.archive.org/web/20161017100311/http://www.unicode.org/L2/L2004/04189-n2786-cuneiform.pdf |date=October 17, 2016 }}."</ref>
+The base character inventory is derived from the list of [[Ur III]] signs compiled by the [[Cuneiform Digital Library Initiative]] of [[UCLA]] based on the inventories of Miguel Civil, Rykle Borger (2003) and Robert Englund. Rather than opting for a direct ordering by glyph shape and complexity, according to the numbering of an existing catalogue, the Unicode order of glyphs was based on the Latin alphabetic order of their "last" Sumerian transliteration as a practical approximation.
+
+==List of major cuneiform tablet discoveries==
+{{expand list|date=July 2014}}
+{| class="wikitable sortable" style="text-align:center;"
+|-
+! scope="col" | Location
+! scope="col" data-sort-type="number" | Number of tablets
+! scope="col" | Initial discovery
+! scope="col" | Language
+|-
+| [[Persepolis]], [[Persia|Iran]]
+| Large<ref name=":0">{{Cite web|url=https://oi.uchicago.edu/research/projects/persepolis-fortification-archive|title=Persepolis Fortification Archive {{!}} The Oriental Institute of the University of Chicago|website=oi.uchicago.edu|access-date=September 18, 2016|deadurl=no|archiveurl=https://web.archive.org/web/20160929234803/http://oi.uchicago.edu/research/projects/persepolis-fortification-archive|archivedate=September 29, 2016|df=mdy-all}}</ref>
+| 1472
+|
+|-
+| Kuyunkjik hill on Tigris River, Outside of Mosul, now in [[Iraq]]
+| NA{{Citation needed|date=July 2016}}
+| 1840–1842
+|
+|-
+| Khorsabad hill on Tigris River, Outside of Mosul, now in [[Iraq]]
+| Significant{{Citation needed|date=July 2016}}
+| 1843
+|
+|-
+| [[Library of Ashurbanipal]]
+| 20,000–24,000<ref name=":1">{{Cite book|title=Handbook to Life in Ancient Mesopotamia|last=Bertman|first=Stephen|publisher=Oxford University Press|year=2005|isbn=978-0195183641|location=|pages=|via=}}</ref>
+| 1849
+| Akkadian
+|-
+| [[Nippur]]
+| 60,000<ref name=":1" />
+| 1851
+|
+|-
+| [[Girsu]]
+| 40,000–50,000<ref name=":1" />
+| 1877
+|
+|-
+| [[Dūr-Katlimmu]]
+| 500<ref name=":1" />
+| 1879
+|
+|-
+| [[Sippar]]
+| data-sort-value="10,000" | Tens of thousands<ref name=":1" />
+| 1880
+| Babylonian
+|-
+| [[Amarna letters]]
+| 382
+| 1887
+| Akkadian
+|-
+| [[Nuzi]]
+| 10,000–20,000<ref name=":1" />
+| 1896
+| 
+|-
+| [[Assur]]
+| 16,000<ref>Ellermeier, Friedrich., and Margret. Studt. ''Sumerisches Glossar. Bd. 3, T. 6, Handbuch Assur / Friedrich Ellmermeier; Margret Studt.''Hardegsen bei Göttingen: Selbstverl. Ellermeier, 2003. Print. Theologische und orientalistische Arbeiten aus Göttingen, 4; Theologische und orientalistische Arbeiten aus Göttingen, 4.</ref>
+| 1898
+| Akkadian
+|-
+| [[Hattusa]]
+| 30,000<ref>{{Cite web|url=http://www.unesco.org/new/en/communication-and-information/memory-of-the-world/register/full-list-of-registered-heritage/registered-heritage-page-8/the-hittite-cuneiform-tablets-from-bogazkoey/|title=The Hittite cuneiform tablets from Bogazköy {{!}} United Nations Educational, Scientific and Cultural Organization|website=www.unesco.org|access-date=September 18, 2016|deadurl=no|archiveurl=https://web.archive.org/web/20160919072426/http://www.unesco.org/new/en/communication-and-information/memory-of-the-world/register/full-list-of-registered-heritage/registered-heritage-page-8/the-hittite-cuneiform-tablets-from-bogazkoey/|archivedate=September 19, 2016|df=mdy-all}}</ref>
+| 1906
+| Hittite
+|-
+| [[Nippur#Drehem|Drehem]]
+| 100,000<ref name=":1" />
+|
+| Sumerian
+|-
+| [[Kanesh]]
+| 23,000<ref>Michel, Cecile, Old Assyrian Bibliography, 2001.</ref>
+| 1925<ref>Tablets from the site surfaced on the market as early as 1880, when three tablets made their way to European museums. By the early 1920s, the number of tablets sold from the site exceeded 4,000. While the site of Kültepe was suspected as the source of the tablets, and the site was visited several times, it was not until 1925 when Bedrich Hrozny corroborated this identification by excavating tablets from the fields next to the tell that were related to tablets already purchased.</ref>
+| Akkadian
+|-
+| [[Ugarit texts]]
+| data-sort-value="1,000" | 1,500
+| 1929
+| Ugaritic
+|-
+| [[Persepolis]], [[Persia|Iran]]
+| 15,000–18,000<ref name=":0" />
+| 1933
+| Elamite
+|-
+| [[Persepolis]], [[Persia|Iran]]
+| 
+| 1933<ref name=":0" />
+| [[Old Persian]]
+|-
+| [[Mari, Syria]]
+| 20,000–25,000<ref name=":1" />
+| 1933
+| Akkadian
+|-
+| [[Alalakh]]
+| 300<ref>{{Cite thesis|last=Lauinger|first=Jacob|title=Archival practices at Old Babylonian/Middle Bronze Age Alalakh (Level VII)|date=January 1, 2007|publisher=THE UNIVERSITY OF CHICAGO|url=http://gradworks.umi.com/32/73/3273033.html|deadurl=no|archiveurl=https://web.archive.org/web/20140714142423/http://gradworks.umi.com/32/73/3273033.html|archivedate=July 14, 2014|df=mdy-all}}</ref>
+| 1937
+| 
+|-
+| [[Abu Salabikh]]
+| 500<ref name=":1" />
+| 1963
+|
+|-
+| [[Ebla tablets]]
+| data-sort-value="5,000" | {{circa}}5,000<ref>{{Cite book|title=A Century of Biblical Archaeology|last=Moorey|first=P.R.S.|publisher=Westminster Knox Press|year=1992|isbn=978-0664253929|location=|pages=|via=}}</ref>
+| 1974
+| Sumerian and Eblaite
+|-
+|[[Epic of Gilgamesh|Tablet V of the Epic of Gilgamesh]]
+|1<ref>{{Cite web|url=http://etc.ancient.eu/2015/09/24/giglamesh-enkidu-humbaba-cedar-forest-newest-discovered-tablet-v-epic/|title=The newly discovered tablet V of the Epic of Gilgamesh|last=Amin|first=Osama S. M.|date=September 24, 2015|website=Ancient History et cetera|access-date=September 18, 2016|deadurl=no|archiveurl=https://web.archive.org/web/20160903191715/http://etc.ancient.eu/2015/09/24/giglamesh-enkidu-humbaba-cedar-forest-newest-discovered-tablet-v-epic/|archivedate=September 3, 2016|df=mdy-all}}</ref>
+|2011
+|Old Babylonian
+|}
+
+==See also==
+{{Portal|Ancient Near East}}
+{{div col|colwidth=30em}}
+* [[Babylonokia]]:  a 21st-century cuneiform artwork
+* [[Elamite cuneiform]]
+* [[Hittite cuneiform]]
+* [[Journal of Cuneiform Studies]]
+* [[List of cuneiform signs]]
+* [[List of museums of ancient Near Eastern art]]
+* [[Old Persian cuneiform]]
+* [[Ugaritic alphabet]]
+{{div col end}}
+
+== Notes ==
+{{Notelist}}
+
+==References==
+{{Reflist|30em}}
+
+==Bibliography==
+{{Refbegin|30em}}
+* Adkins, Lesley, ''Empires of the Plain: Henry Rawlinson and the Lost Languages of Babylon'', New York, St. Martin's Press (2003) {{ISBN|0-312-33002-2}}
+* {{citation|title=Handbook to Life in Ancient Mesopotamia|first=Stephen|last=Bertman|publisher=Oxford University Press|year=2005|isbn=9780195183641|url=https://books.google.com/books?id=1C4NKp4zgIQC}}
+* [[R. Borger]], ''Assyrisch-Babylonische Zeichenliste'', 2nd ed., Neukirchen-Vluyn (1981)
+* {{cite book|last=Borger|first=Rykle|title=Mesopotamisches Zeichenlexikon|editor=Dietrich, M. |editor2=Loretz, O.|publisher=Ugarit Verlag|location=Münster|year=2004|series=Alter Orient und Altes Testament|volume=305|isbn=3-927120-82-0|url=http://www.jhu.edu/ice/BorgerMZ/BorgerMZ.html}}
+* Burnouf, E. (1836). [https://babel.hathitrust.org/cgi/pt?id=hvd.32044052784154;view=1up;seq=7 "Mémoire sur deux Inscriptions Cunéiformes trouvées près d'Hamadan et qui font partie des papiers du Dr Schulz",] [Memoir on two cuneiform inscriptions [that were] found near Hamadan and that form part of the papers of Dr. Schulz], Imprimerie Royale, Paris.
+* Cammarosano, M. (2017–2018) [https://cuneiform.neocities.org/CWT/CWT.html "Cuneiform Writing Techniques"], cuneiform.neocities.org (with further bibliography)
+* {{cite book|author=Daniels, Peter|author2=Bright, William|title=The World's Writing Systems|page=146|publisher=Oxford University Press|year=1996|isbn=0-19-507993-0}}
+* [[Anton Deimel|A. Deimel]] (1922), ''Liste der archaischen Keilschriftzeichen'' ("LAK"), WVDOG 40, Berlin.
+* A. Deimel (1925–1950), ''Šumerisches Lexikon'', Pontificum Institutum Biblicum.
+* F. Ellermeier, M. Studt, [http://www.sumerisches-glossar.de/ Sumerisches Glossar]
+** vol. 1: 1979–1980, {{ISBN|3-921747-08-2}}, {{ISBN|3-921747-10-4}}
+** vol. 3.2: 1998–2005, A-B {{ISBN|3-921747-24-4}}, D-E {{ISBN|3-921747-25-2}}, G {{ISBN|3-921747-29-5}}
+** vol. 3.3: {{ISBN|3-921747-22-8}} (font CD {{ISBN|3-921747-23-6}})
+** vol. 3.5: {{ISBN|3-921747-26-0}}
+** vol 3.6: 2003, Handbuch Assur {{ISBN|3-921747-28-7}}
+* [[A. Falkenstein]], ''Archaische Texte aus Uruk'', Berlin-Leipzig (1936)
+* Charpin, Dominique. 2004. 'Lire et écrire en Mésopotamie: une affaire dé spécialistes?’ Comptes rendus de l’Académie des Inscriptions et Belles Lettres: 481–501.
+* E. Forrer, ''Die Keilschrift von Boghazköi'', Leipzig (1922)
+* J. Friedrich, ''Hethitisches Keilschrift-Lesebuch'', Heidelberg (1960)
+* [[Jean-Jacques Glassner]], ''The Invention of Cuneiform'', English translation, Johns Hopkins University Press (2003), {{ISBN|0-8018-7389-4}}.
+* {{cite book|last=Hayes|first=John L.|title=A Manual of Sumerian Grammar and Texts|publisher=Undena Publications|location=Malibu|year=2000|edition=2d|series=Aids and Research Tools in Ancient Near Eastern Studies|volume=5|isbn=0-89003-197-5}}
+* Heeren (1815) "Ideen über die Politik, den Verkehr und den Handel der vornehmsten Volker der alten Welt", vol. i. pp.&nbsp;563 seq., translated into English in 1833.
+* {{cite book|last=Kramer|first=Samuel Noah|title=History Begins at Sumer: Thirty-Nine Firsts in Man's Recorded History|publisher=University of Pennsylvania Press|location=Philadelphia|year=1981|edition=3d revised|pages=381–383|chapter=Appendix B: The Origin of the Cuneiform Writing System|isbn=0-8122-7812-7}}
+* [[René Labat (assyriologist)|René Labat]], ''Manuel d'epigraphie Akkadienne'', Geuthner, Paris (1959); 6th ed., extended by Florence Malbran-Labat (1999), {{ISBN|2-7053-3583-8}}.
+* Lassen, Christian (1836) [https://archive.org/stream/bub_gb_ngBAeGomz98C#page/n1/mode/2up ''Die Altpersischen Keil-Inschriften von Persepolis.  Entzifferung des Alphabets und Erklärung des Inhalts.''] [The Old-Persian cuneiform inscriptions of Persepolis.  Decipherment of the alphabet and explanation of its content.] Eduard Weber, Bonn, (Germany).
+* {{cite book|last=Mittermayer|first=Catherine|author2=Attinger, Pascal|title=Altbabylonische Zeichenliste der Sumerisch-Literarischen Texte|publisher=Academic Press Fribourg|year=2006|series=Orbis Biblicus et Orientalis|volume=Special Edition|isbn=978-3-7278-1551-5}}
+* Moorey, P.R.S. (1992). A Century of Biblical Archaeology. Westminster Knox Press. {{ISBN|978-0664253929}}. 
+* [[O. Neugebauer]], A. Sachs (eds.), ''Mathematical Cuneiform Texts'', New Haven (1945).
+* Patri, Sylvain (2009). "La perception des consonnes hittites dans les langues étrangères au XIIIe siècle." ''Zeitschrift für Assyriologie und vorderasiatische Archäologie'' 99(1): 87–126. {{doi|10.1515/ZA.2009.003}}.
+* Prichard, James Cowles (1844). [https://books.google.com/books?id=V_wWAAAAYAAJ&pg=PA30#v=onepage&q&f=false "Researches Into the Physical History of Mankind"], 3rd ed., vol IV, Sherwood, Gilbert and Piper, London.
+* Rawlinson, Henry (1847) [https://archive.org/stream/jstor-25581217/25581217#page/n1/mode/2up "The Persian Cuneiform Inscription at Behistun, decyphered and translated; with a Memoir on Persian Cuneiform Inscriptions in general, and on that of Behistun in Particular,"] ''The Journal of the Royal Asiatic Society of Great Britain and Ireland'', vol. X. {{JSTOR|25581217}}.
+* Y. Rosengarten, ''Répertoire commenté des signes présargoniques sumériens de Lagash'', Paris (1967)
+* Chr. Rüster, E. Neu, ''Hethitisches Zeichenlexikon'' (''HZL''), Wiesbaden (1989)
+* [[Archibald Sayce|Sayce, Rev. A. H.]] (1908). [https://archive.org/stream/archaeologyofcun00sayc#page/n7/mode/2up "The Archaeology of the Cuneiform Inscriptions"], Second Edition-revised, 1908, Society for Promoting Christian Knowledge, London, Brighton, New York; at pp 9–16 [https://archive.org/details/archaeologyofcun00sayc Not in copyright]
+* Nikolaus Schneider, ''Die Keilschriftzeichen der Wirtschaftsurkunden von Ur III nebst ihren charakteristischsten Schreibvarianten'', Keilschrift-Paläographie; Heft 2, Rom: Päpstliches Bibelinstitut (1935).
+* Wilcke, Claus. 2000. Wer las und schrieb in Babylonien und Assyrien. Sitzungsberichte der Bayerischen Akademie der Wissenschaften Philosophisch-historische Klasse. 2000/6. München: Verlag der Bayerischen Akademie der Wissenschaften. 
+* Wolfgang Schramm, ''Akkadische Logogramme'', Goettinger Arbeitshefte zur Altorientalischen Literatur (GAAL) Heft 4, Goettingen (2003), {{ISBN|3-936297-01-0}}.
+* F. Thureau-Dangin, ''Recherches sur l'origine de l'écriture cunéiforme'', Paris (1898).
+* Ronald Herbert Sack, ''Cuneiform Documents from the Chaldean and Persian Periods'', (1994) {{ISBN|0-945636-67-9}}
+{{Refend}}
+
+==External links==
+{{external links|date=July 2018}}
+{{Commons category|Cuneiform}}
+* [http://www.fonts2u.com/akkadian.font Akkadian font] for Windows and Mac
+* [http://edsitement.neh.gov/lesson-plan/cuneiform-writing-system-ancient-mesopotamia-emergence-and-evolution EDSITEment lesson plan Cuneiform Writing System in Ancient Mesopotamia: Emergence and Evolution]
+* [http://sumerianshakespeare.com/30301.html The Sumerian invention of writing.]
+* [http://librarycollections.stevens.edu/exhibits/show/babylonian-cunieform/cuneiform-offering-to-the-king Babylonian Cunieform] offering to the King of Erech
+* {{DMOZ|Science/Social_Sciences/Archaeology/Topics/Epigraphy|Epigraphy}}
+* [http://smarthistory.khanacademy.org/cuneiform.html Smarthistory], Cuneiform and the Invention of Writing
+* [http://packages.ubuntu.com/raring/ttf-ancient-fonts Unicode Fonts for Ancient Scripts] and Akkadian font for Ubuntu Linux-based operating system (ttf-ancient-fonts)
+* [http://oracc.museum.upenn.edu/doc/user/fonts/ Unicode Fonts for Oracc], fonts for transliterating and displaying cuneiform
+
+{{Ancient Mesopotamia}}
+{{list of writing systems}}
+
+{{Authority control}}
+
+{{DEFAULTSORT:Cuneiform Script}}
+[[Category:Cuneiform| ]]
+[[Category:Sumerian language]]
+[[Category:Akkadian language]]
+[[Category:Elamite language]]
+[[Category:Obsolete writing systems]]
+[[Category:Hittite language]]
+[[Category:Hurro-Urartian languages]]
+[[Category:Luwian language]]
+[[Category:Old Persian language]]
+[[Category:Ugaritic language and literature]]
+[[Category:Scripts encoded in Unicode 5.0]]
+[[Category:4th-millennium BC establishments]]
+[[Category:1st-century disestablishments]]

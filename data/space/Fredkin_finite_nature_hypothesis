@@ -1,0 +1,42 @@
+In [[digital physics]], the '''[[Edward Fredkin|Fredkin]] finite nature hypothesis''' states that ultimately all quantities of [[physics]], including [[space]] and [[time]], are [[Quantum|discrete]] and [[Wikt:finite|finite]]. All measurable physical quantities arise from some [[Planck scale]] substrate for [[information processing]]. Also, the amount of [[information]] in any small [[volume]] of [[spacetime]] will be finite and equal to a small number of possibilities.<ref>{{cite journal | author=Fredkin, E. | title=Finite Nature | journal=Proceedings of the XXVIIth Rencontre de Moriond | year = 1992}}</ref>
+
+==Conceptions==
+{{Expand section|date=October 2010}}
+[[Stephen Wolfram]] in ''[[A New Kind of Science]]'', Chapter 9, considered the possibility that [[energy]] and [[spacetime]] might be secondary derivations from an informational substrate underlying the [[Planck scale]]. Fredkin's "Finite Nature" and Wolfram's ideas on the foundations of [[physics]] might be relevant to [[unsolved problems in physics]].
+
+==Fredkin's ideas on inertia==
+According to Fredkin, "the computational substrate of quantum mechanics must have access to some sort of metric to create inertial motion. Whether or not higher level processes in physics can access this process is another story."<ref>[http://www.digitalphilosophy.org/Home/Papers/FiniteNature/tabid/106/Default.aspx Fredkin's 1992 "Finite Nature" paper, chapter on "Consequences of Finite Nature"]</ref> According to [[Edward Witten|Witten]], "string theory leads in a remarkably simple way to a reasonable rough draft of particle physics unified with gravity";<ref>{{cite journal|last=Witten|first=Edward|title=ESSAY: Unravelling string theory|journal=Nature|volume=438| year=2005 |page=1085|url=http://www.sns.ias.edu/~witten/papers/Unravelling.pdf|bibcode = 2005Natur.438.1085W |doi = 10.1038/4381085a }}</ref> if Fredkin is correct about inertia, then there is the highly controversial hypothesis that the foundations of physics might depend upon either string theory with the infinite nature hypothesis or some modified version of string theory with Fredkin's finite nature hypothesis, in which inertial mass-energy obeys [[Mordehai Milgrom|Milgrom]]'s [[modified Newtonian dynamics]] and not the [[equivalence principle]].
+
+<!--==M-theory with infinite, continuous nature versus M-theory with finite, digital nature==
+According to [[Edward Witten]], perhaps the greatest mathematical problem in quantum field theory (QFT) is the "existence and mass gap" problem of four-dimensional quantum gauge theory. Witten states, "Since the asymptotic freedom of quantum non-abelian gauge theory was discovered in 1973, we have known what conjectures one should aim to prove to give a proper mathematical foundation to the standard model of particle physics."<ref>{{cite journal|author=Witten, E.|title=Physical law and the quest for mathematical understanding|journal=Bulletin of the American Mathematical Society |year=2003|volume=40|issue=01|pages=21–9|doi=10.1090/S0273-0979-02-00969-2}}</ref> Is the "existence and mass gap" problem crucial for both M-theory and the finite nature hypothesis? If the problem has an affirmative solution, then the logical foundations of QFT are established on the viewpoint of infinite, continuous nature. If the problem has a negative solution in the sense that mathematical proof can show that no affirmative solution exists, then the logical foundations of QFT might require a new foundation below the [[Planck scale]]. If such a new foundation below the Planck scale consists of a finite automaton, then Fredkin and Wolfram are correct, at least in principle.
+
+Consider two mutually-exclusive hypotheses:
+# M-theory (or some other theory) might explain the Koide formula, dark energy, dark matter, and space roar with new particles and new waves and without the finite nature hypothesis. There would be BIg Bang —> forever getting colder with infinite, continuous nature.
+#The finite nature hypothesis might use a modification of M-theory (or some other theory) to explain the [[Koide formula]], [[dark energy]], [[dark matter]], and [[space roar]] by means of alternate universes spread across some bizarre finite automaton below the Planck scale. There would be ... —> Big Bang —> Big Stop to the Big Bang —> Big Bang —> ... with finite, digital nature and some version of the Fredkin alternate-universe engine.-->
+
+<!---==Objections to the hypothesis of finite nature==
+{{Weasel|date=May 2010}}
+
+Fredkin's Finite Nature hypothesis runs counter to the accepted ideas in [[physics]] and the [[philosophy of physics]]. The vast majority of [[physicists]] reject Fredkin's [[hypothesis]] as [[pseudo-scientific]] nonsense.{{Citation needed|date=May 2010}}--->
+
+==See also==
+{{col-begin}}
+{{col-break}}
+*''[[Calculating Space]]''
+*[[Digital philosophy]]
+{{col-break}}
+{{col-end}}
+
+==References==
+<references/>
+
+==External links==
+*[http://www.digitalphilosophy.org/ Fredkin's website Digital Philosophy.org]
+*[http://www.digitalphilosophy.org/Home/Papers/FiniteNature/tabid/106/Default.aspx Fredkin's 1992 "Finite Nature" paper]
+*[http://portal.acm.org/citation.cfm?id=1062307/ Abstract for Fredkin's 2005 paper "A contemporary architecture for physics"]
+*[http://wolframscience.com/ A New Kind of Science]
+
+{{DEFAULTSORT:Fredkin Finite Nature Hypothesis}}
+[[Category:Theoretical physics]]
+[[Category:Theoretical computer science]]
+[[Category:Unsolved problems in physics]]

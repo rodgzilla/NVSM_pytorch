@@ -1,0 +1,91 @@
+{{About|transcription in linguistics|other uses|Transcription (disambiguation){{!}}Transcription}}
+{{Translation sidebar}}
+
+'''Transcription''' in the [[linguistics|linguistic]] sense is the systematic representation of [[language]] in written form. The source can either be [[utterance]]s (''speech'' or ''[[sign language]]'') or preexisting [[written language|text]] in another [[writing system]].
+
+Transcription should not be confused with [[translation]], which means representing the meaning of a source language text in a target language (e.g. ''[[Los Angeles]]'' into ''City of Angels'') or with [[transliteration]] which means representing the spelling of a text from one script to another (e.g. ''Jalapeño'', which preserves the Ñ from Spanish despite the [[diacritic]] having no use in English).
+
+In the academic discipline of [[linguistics]], transcription is an essential part of the methodologies of (among others) [[phonetics]], [[conversation analysis]], [[dialectology]] and [[sociolinguistics]]. It also plays an important role for several subfields of [[speech technology]]. Common examples for transcriptions outside academia are the proceedings of a [[court hearing]] such as a [[criminal trial]] (by a [[court reporter]]) or a [[physician]]'s recorded voice notes ([[medical transcription]]). This article focuses on transcription in linguistics.
+
+==Phonetic vs. orthographic transcription==
+Broadly speaking, there are two possible approaches to linguistic transcription. [[Phonetic transcription]] focuses on phonetic and phonological properties of spoken language. Systems for phonetic transcription thus furnish rules for mapping individual sounds or [[phone (phonetics)|phones]] to written symbols. Systems for [[orthographic transcription]], by contrast, consist of rules for mapping spoken words onto written forms as prescribed by the [[orthography]] of a given language. Phonetic transcription operates with specially defined character sets, usually the [[International Phonetic Alphabet]].
+
+Which type of transcription is chosen depends mostly on the research interests pursued. Since phonetic transcription strictly foregrounds the phonetic nature of language, it is most useful for phonetic or phonological analyses. Orthographic transcription, on the other hand, has a morphological and a lexical component alongside the phonetic component (which aspect is represented to which degree depends on the language and orthography in question). It is thus more convenient wherever meaning-related aspects of spoken language are investigated. Phonetic transcription is doubtlessly more systematic in a scientific sense, but it is also harder to learn, more time-consuming to carry out and less widely applicable than orthographic transcription.
+
+==As theory==
+Mapping spoken language onto written symbols is not as straightforward a process as may seem at first glance. Written language is an idealisation, made up of a limited set of clearly distinct and discrete symbols. Spoken language, on the other hand, is a continuous (as opposed to discrete) phenomenon, made up of a potentially unlimited number of components. There is no predetermined system for distinguishing and classifying these components and, consequently, no preset way of mapping these components onto written symbols.
+
+Literature is relatively consistent in pointing out the nonneutrality of transcription practices. There is not and cannot be a neutral transcription system. Knowledge of social culture enters directly into the making of a transcript. They are captured in the texture of the transcript (Baker, 2005).
+
+==Transcription systems==
+Transcription systems are sets of rules which define how spoken language is to be represented in written symbols. Most phonetic transcription systems are based on the [[International Phonetic Alphabet]] or, especially in speech technology, on its derivative [[SAMPA]].
+Examples for orthographic transcription systems (all from the field of conversation analysis or related fields) are:
+
+===CA (conversation analysis)===
+Arguably the first system of its kind, originally sketched in (Sacks et al. 1978), later adapted for the use in computer readable corpora as ''CA-CHAT'' by (MacWhinney 2000). The field of Conversation Analysis itself includes a number of distinct approaches to transcription and sets of transcription conventions. These include, among others, Jefferson Notation. To analyze conversation, recorded data is typically transcribed into a written form that is agreeable to analysts. There are two common approaches. The first, called narrow transcription, captures the details of conversational interaction such as which particular words are stressed, which words are spoken with increased loudness, points at which the turns-at-talk overlap, how particular words are articulated, and so on. If such detail is less important, perhaps because the analyst is more concerned with the overall gross structure of the conversation or the relative distribution of turns-at-talk amongst the participants, then a second type of transcription known as broad transcription may be sufficient (Williamson, 2009).
+
+====Jefferson Notation====
+The Jefferson Notation System is a set of symbols, developed by [[Gail Jefferson]], which is used for transcribing talk. Having had some previous experience in transcribing when she was hired in 1963 as a clerk typist at the UCLA Department of Public Health to transcribe sensitivity-training sessions for prison guards, Jefferson began transcribing some of the recordings that served as the materials out of which Harvey Sacks’ earliest lectures were developed. Over four decades, for the majority of which she held no university position and was unsalaried, Jefferson's research into talk-in-interaction has set the standard for what became known as [[Conversation Analysis]] (CA). Her work has greatly influenced the sociological study of interaction, but also disciplines beyond, especially linguistics, communication, and anthropology.<ref>[http://www.gail-jefferson.com/obituary.html Obituary – gail-jefferson.com]</ref> This system is employed universally by those working from the CA perspective and is regarded as having become a near-globalized set of instructions for transcription.<ref>Davidson, C. (2007). Independent writing in current approaches to writing instruction: What have we overlooked? English Teaching: Practice and Critique. Volume 6, Number 1.http://edlinked.soe.waikato.ac.nz/research/files/etpc/files/2007v6n1art1.pdf</ref>
+
+===DT (discourse transcription)===
+A system described in (DuBois et al. 1992), used for transcription of the Santa Barbara Corpus of Spoken American English (SBCSAE), later developed further into ''DT2''.
+
+===GAT (Gesprächsanalytisches Transkriptionssystem – Conversation Analytic transcription system)===
+: A system described in (Selting et al. 1998), later developed further into GAT2 (Selting et al. 2009), widely used in German speaking countries for [[Prosody (linguistics)|prosodically]] oriented conversation analysis and interactional linguistics
+
+===HIAT (Halbinterpretative Arbeitstranskriptionen – Semiinterpretative Working Transcriptions)===
+: Arguably the first system of its kind, originally described in (Ehlich and Rehbein 1976) – see (Ehlich 1992) for an English reference - adapted for the use in computer readable corpora as (Rehbein et al. 2004), and widely used in functional [[pragmatics]].
+
+==Software==
+Transcription was originally a process carried out manually, i.e. with pencil and paper, using an analogue sound recording stored on, e.g., a Compact Cassette. Nowadays, most transcription is done on computers. Recordings are usually digital [[Audio file format|audio]] or [[Container format (digital)|video]] files, and transcriptions are [[electronic document]]s. Specialized computer software exists to assist the transcriber in efficiently creating a digital transcription from a digital recording. Among the most widely used transcription tools in linguistic research are:
+; ANVIL (Annotation of Video and Language Data): A tool specialising in transcription of [[multimodal interaction]], see [http://www.anvil-software.de/ ANVIL-Website]
+; Cielo24: A  tool to create captions, indexes and transcripts for searchable metadata, see [https://cielo24.com/solutions/].
+; [[CLAN program|CLAN]] (Computerized Language Analysis): A tool mainly used for the transcription of child language acquisition data as in the [[CHILDES]] database, see [http://childes.psy.cmu.edu/clan/ CLAN page of the CHILDES website].
+; [[ELAN software|ELAN]] (EUDICO Linguistic Annotator): A tool widely used for the transcription of signed and spoken language data and the documentation of [[endangered language]]s, see [https://tla.mpi.nl/tools/tla-tools/elan/ ELAN page on the Language Archiving Technology portal]
+; [[EXMARaLDA]] (Extensible Markup Language for Discourse Annotation): A tool widely used in discourse analysis, dialectology and sociolinguistics, see [http://www.exmaralda.org/en_index.html EXMARaLDA website]
+; f4transkript: A tool used in social science which includes a free guide on transcription methodology on its site, see [https://www.audiotranskription.de/english/f4.htm f4transkript website]
+; FOLKER (FOLK Editor): A tool developed for the Research and Teaching Corpus of Spoken German (FOLK) and widely used in conversation analysis, see [https://web.archive.org/web/20101015045623/http://agd.ids-mannheim.de/html/folker_en.shtml FOLKER page at the website of the Institute for German Language]
+; Interact-AS: Software that automatically transcribes audio.<ref>{{Cite web|url=http://www.auditorysciences.com|title=Interact-AS Transcription Software|last=|first=|date=|website=|archive-url=|archive-date=|dead-url=|access-date=}}</ref>
+; [[Praat]]: A tool widely used in phonetics
+; [[Transcriber]]: A tool originally developed for the transcription of speech, see [http://trans.sourceforge.net/en/presentation.php Transcriber website at SourceForge]
+; Voxcribe: A tool for media (audio/video) transcription and captioning with embedded high speech recognition for English.
+
+Other [[Transcription (software)|transcription software]] is developed for commercial sale.
+
+==See also==
+*[[Interlinear gloss]]
+*[[Phonetic transcription]]
+*[[Speech recognition]]
+*[[Subtitle (captioning)]]
+*[[Textual scholarship]]
+*[[Transcription (service)]]
+*[[Transcription (software)]]
+
+==References==
+{{Reflist|30em}}
+
+==Further reading==
+*Hepburn, A., & Bolden, G. B. (2013). The conversation analytic approach to transcription. In J. Sidnell & T. Stivers (Eds.), The handbook of Conversation Analysis (pp.&nbsp;57–76). Oxford: Blackwell. [https://www.academia.edu/1128693/Hepburn_A._and_Bolden_G._2013_._The_conversation_analytic_approach_to_transcription PDF]
+*DuBois, John / Schuetze-Coburn, Stephan / Cumming, Susanne / Paolino, Danae (1992): Outline of Discourse Transcription. In: Edwards/Lampert (1992), 45-89.
+*Ehlich, K. (1992). HIAT - a Transcription System for Discourse Data. In: Edwards, Jane / Lampert, Martin (eds.):  Talking Data – Transcription and Coding in Discourse Research. Hillsdale: Erlbaum, 123-148.
+*Ehlich, K. & Rehbein, J. (1976) Halbinterpretative Arbeitstranskriptionen (HIAT). In: Linguistische Berichte (45), 21-41.
+*Haberland, H. & Mortensen, J. (2016) Transcription as second order entextualisation: The challenge of heteroglossia. In: Capone, A. & Mey, J. L. (eds.): Interdisciplinary Studies in Pragmatics, Culture and Society, 581-600. Cham: Springer.
+*Jenks, C.J. (2011) Transcribing Talk and Interaction: Issues in the Representation of Communication Data. Amsterdam: John Benjamins.
+*MacWhinney, Brian (2000): The CHILDES project: tools for analyzing talk. Mahwah, NJ: Lawrence Erlbaum.
+*Rehbein, J.; Schmidt, T.; Meyer, B.; Watzke, F. & Herkenrath, A. (2004) Handbuch für das computergestützte Transkribieren nach HIAT. In: Arbeiten zur Mehrsprachigkeit, Folge B (56). [http://www.exmaralda.org/files/azm_56.pdf Online version]
+*Ochs, E. (1979) Transcription as theory. In: Ochs, E. & Schieffelin, B. B. (ed.): Developmental pragmatics, 43-72. New York: Academic Press.
+*Sacks, H.; Schegloff, E. & Jefferson, G. (1978) [http://pubman.mpdl.mpg.de/pubman/item/escidoc:2376846/component/escidoc:2376845/Sacks_1974_simplest_systematics.pdf A simplest systematics for the organization of turn taking for conversation]. In: Schenkein, J. (ed.): Studies in the Organization of Conversational Interaction, 7-56. New York: Academic Press.
+*Selting, Margret / Auer, Peter / Barden, Birgit / Bergmann, Jörg / Couper-Kuhlen, Elizabeth / Günthner, Susanne / Meier, Christoph / Quasthoff, Uta / Schlobinski, Peter / Uhmann, Susanne (1998): Gesprächsanalytisches Transkriptionssystem (GAT). In: Linguistische Berichte 173, 91-122.
+*Selting, M., Auer, P., Barth-Weingarten, D., Bergmann, J., Bergmann, P., Birkner, K., Couper-Kuhlen, E., Deppermann, A., Gilles, P., Günthner, S., Hartung, M., Kern, F., Mertzlufft, C., Meyer, C., Morek, M., Oberzaucher, F., Peters, J., Quasthoff, U., Schütte, W., Stukenbrock, A., Uhmann, S. (2009): Gesprächsanalytisches Transkriptionssystem 2 (GAT 2). In: Gesprächsforschung (10), 353-402. [http://www.gespraechsforschung-ozs.de/heft2009/px-gat2.pdf Online version]
+
+==External links==
+*[http://www.linguistics.ucsb.edu/projects/transcription/index.html Transcription in Action - website from UC Santa Barbara]
+*[http://www.exmaralda.org/hiat/en_index.html Documentation and examples for the HIAT transcription system]
+*[http://www.paultenhave.nl/Transcription.html Transcription - a website with resources for transcription in conversation analysis]
+*[http://upodn.com/phun.asp Turn your text into fənɛ́tɪks (IPA / American)]
+
+{{DEFAULTSORT:Transcription (Linguistics)}}
+[[Category:Phonetics]]
+[[Category:Subtitling]]
+[[Category:Writing]]
+[[Category:Transcription (linguistics)| ]]

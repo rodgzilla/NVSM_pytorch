@@ -1,0 +1,239 @@
+{{short description|Method of deriving an ontology}}
+{{Expand German|Formale Begriffsanalyse|date=February 2012}}
+'''Formal concept analysis''' ('''FCA''') is a [[Principle|principled way]] of deriving a ''concept hierarchy'' or formal [[Ontology (computer science)|ontology]] from a collection of [[Mathematical object|objects]] and their [[Property (philosophy)|properties]]. Each concept in the hierarchy represents the objects sharing some set of properties; and each sub-concept in the hierarchy represents a [[subset]] of the objects (as well as a superset of the properties) in the concepts above it. The term was introduced by [[Rudolf Wille]] in 1980, and builds on the mathematical theory of [[lattice theory|lattices]] and [[order theory|ordered sets]] that was developed by [[Garrett Birkhoff]] and others in the 1930s.
+
+Formal concept analysis finds practical application in fields including [[data mining]], [[text mining]], [[machine learning]], [[knowledge management]], [[semantic web]], [[software development]], [[chemistry]] and [[biology]].
+
+== Overview and history ==
+The original motivation of formal concept analysis was the search for real-world meaning of mathematical [[order theory]]. One such possibility of very general nature is that data tables can be transformed into algebraic structures called ''complete lattices'', and that these can be utilized for data visualization and interpretation. A data table that represents a [[heterogeneous relation]] between objects and attributes, tabulating pairs of the form "object ''g'' has attribute ''m''", is considered as a basic data type. It is referred to as a ''formal context''. In this theory, a ''formal concept'' is defined to be a pair (''A'', ''B''), where ''A'' is a set of objects (called the ''extent'') and ''B'' is a set of attributes (the ''intent'') such that
+
+* the extent ''A'' consists of all objects that share the attributes in ''B'', and [[dual (math)|dually]]
+* the intent ''B'' consists of all attributes shared by the objects in ''A''.
+
+In this way, formal concept analysis formalizes the [[semantics|semantic]] notions of [[Extension (semantics)|extension]] and [[intension]].
+
+The formal concepts of any formal context can—as explained below—be [[partially ordered set|ordered]] in a hierarchy called more formally the context's "concept lattice." The concept lattice can be graphically visualized as a "line diagram", which then may be helpful for understanding the data. Often however these lattices get too large for visualization. Then the mathematical theory of formal concept analysis may be helpful, e.g., for decomposing the lattice into smaller pieces without information loss, or for embedding it into another structure which is easier to interpret.
+
+The theory in its present form goes back to the early 1980s and a research group led by [[Rudolf Wille]], [[:de:Bernhard Ganter|Bernhard Ganter]] and Peter Burmeister at the [[Technische Universität Darmstadt]]. Its basic mathematical definitions, however, were already introduced in the 1930s by [[Garrett Birkhoff]] as part of general lattice theory. Other previous approaches to the same idea arose from various French research groups, but the Darmstadt group normalised the field and systematically worked out both its mathematical theory and its philosophical foundations. The latter refer in particular to [[Charles S. Peirce]], but also to the ''[[Port-Royal Logic]]''.
+
+== Motivation and philosophical background ==
+In his article "Restructuring Lattice Theory" (1982),<ref name="restructuring">Rudolf Wille, "Restructuring lattice theory: An approach based on hierarchies of concepts". Published in {{cite book |editor1-last=Rival |editor1-first=Ivan |title=Ordered Sets. Proceedings of the NATO Advanced Study Institute held at Banff, Canada, August 28 to September 12, 1981 |series=Nato Science Series C |volume=83 |publisher=Springer Netherlands |publication-date=1982 |pages=445–470 |doi=10.1007/978-94-009-7798-3}}, reprinted in {{cite book |editor1-last=Ferré |editor1-first=Sébastien |editor2-last=Rudolph |editor2-first=Sebastian | title=Formal Concept Analysis: 7th International Conference, ICFCA 2009 Darmstadt, Germany, May 21–24, 2009 Proceedings | page=314 | publisher=Springer Science & Business Media | isbn=978-364201814-5 }}</ref> initiating formal concept analysis as a mathematical discipline, Wille starts from a discontent with the current lattice theory and pure mathematics in general: The production of theoretical results—often achieved by "elaborate mental gymnastics"—were impressive, but the connections between neighboring domains, even parts of a theory were getting weaker.
+
+{{Quote |text=Restructuring lattice theory is an attempt to reinvigorate connections with our general culture by interpreting the theory as concretely as possible, and in this way to promote better communication between lattice theorists and potential users of lattice theory |author=Rudolf Wille |source=<ref name="restructuring" />}}
+
+This aim traces back to the educationalist Hartmut von Hentig, who in 1972 pleaded for restructuring sciences in view of better teaching and in order to make sciences mutually available and more generally (i.e. also without specialized knowledge) critiqueable.<ref>{{cite book |last=Hentig, von |first=Hartmut |date=1972 |title=Magier oder Magister? Über die Einheit der Wissenschaft im Verständigungsprozeß |publisher=Klett (1972), Suhrkamp (1974) |isbn=978-3518067079}}</ref> Hence, by its origins formal concept analysis aims at interdisciplinarity and democratic control of research.<ref name="AttrExGeneRegProc">Johannes Wollbold: ''[http://www.db-thueringen.de/servlets/DerivateServlet/Derivate-24615/Wollbold/Dissertation.pdf Attribute Exploration of Gene Regulatory Processes]''. PhD thesis, University of Jena 2011, p. 9</ref>
+
+It corrects the starting point of lattice theory during the development of [[formal logic]] in the 19th century. Then—and later in [[model theory]]—a concept as unary [[predicate (logic)|predicate]] had been reduced to its extent. Now again, the philosophy of concepts should become less abstract by considering the intent. Hence, formal concept analysis is oriented towards the categories [[extension (semantics)|extension]] and [[intension]] of [[linguistics]] and classical conceptual logic.<ref name="GW">Ganter, Bernhard and Wille, Rudolf: ''Formal Concept Analysis: Mathematical Foundations''. Springer, Berlin, {{ISBN|3-540-62771-5}}</ref>
+
+Formal concept analysis aims at the clarity of concepts according to Charles S. Peirce's [[pragmatic maxim]] by unfolding observable, elementary properties of the [[Minor premise|subsumed]] objects.<ref name="AttrExGeneRegProc" /> In his late philosophy, Peirce assumed that logical thinking aims at perceiving [[reality]], by the triade concept, [[judgement]] and [[Consequent|conclusion]]. Mathematics is an abstraction of logic, develops patterns of [[Logical possibility|possible]] realities and therefore may support rational [[communication]]. On this background, Wille defines:
+
+{{Quote |text=The aim and meaning of Formal Concept Analysis as mathematical theory of concepts and concept hierarchies is to support the rational communication of humans by mathematically developing appropriate conceptual structures which can be logically activated. |author=Rudolf Wille |source = <ref>Rudolf Wille, "Formal Concept Analysis as Mathematical Theory of Concepts and Concept Hierarchies". In {{cite book |editor1-last=Ganter |editor1-first=Bernhard |editor2-last=Stumme |editor2-first=Gerd |editor3-last=Wille |editor3-first=Rudolf | title=Formal Concept Analysis. Foundations and Applications |publisher=Springer Science & Business Media |publication-date=2005 |isbn=978-354027891-7|url=https://books.google.com/books?id=oyb6BwAAQBAJ&printsec=frontcover#v=onepage&q&f=false}}</ref>}}
+
+== Example ==
+The data in the example is taken from a semantic field study, where different kinds of [[Body of water|bodies of water]] were systematically categorized by their attributes.<ref>{{citation |author1=Peter Rolf Lutzeier |title=Wort und Feld: wortsemantische Fragestellungen mit besonderer Berücksichtigung des Wortfeldbegriffes: Dissertation |series=Linguistische Arbeiten 103 |publisher=Niemeyer |publication-place=Tübingen |OCLC=8205166 |date=1981 |language=German |DOI=10.1515/9783111678726.fm}}</ref> For the purpose here it has been simplified.
+
+The data table represents a ''formal context'', the ''line diagram'' next to it shows its ''concept lattice''. Formal definitions follow below.
+
+{| class="wikitable" style="text-align: center; margin-right: 2em; float: left; font-size: 80%"
+|+ Example for a formal context: "bodies of water"
+|-
+! rowspan="2" colspan="2"| bodies of water !! colspan="8" | attributes
+|-
+! ''temporary'' !! ''running'' !! ''natural'' !! ''stagnant'' !! ''constant'' !! ''maritime''
+|-
+! rowspan="18" {{verth|va=middle|objects}}
+! {{rh}} | [[canal]]
+| || X || || || X ||
+|-
+! {{rh}} | [[Channel (geography)|channel]]
+| || X || || || X ||
+|-
+! {{rh}} | [[lagoon]]
+| || || X || X || X || X
+|-
+! {{rh}} | [[lake]]
+| || || X || X || X ||
+|-
+! {{rh}} | [[maar]]
+| || || X || X || X ||
+|-
+! {{rh}} | [[puddle]]
+| X || || X || X || ||
+|-
+! {{rh}} | [[pond]]
+| || || X || X || X ||
+|-
+! {{rh}} | pool
+| || || X || X || X ||
+|-
+! {{rh}} | [[reservoir]]
+| || || || X || X ||
+|-
+! {{rh}} | [[river]]
+| || X || X || || X ||
+|-
+! {{rh}} | [[rivulet]]
+| || X || X || || X ||
+|-
+! {{rh}} | [[Stream|runnel]]
+| || X || X || || X ||
+|-
+! {{rh}} | [[sea]]
+| || || X || X || X || X
+|-
+! {{rh}} | [[stream]]
+| || X || X || || X ||
+|-
+! {{rh}} | [[Tarn (lake)|tarn]]
+| || || X || X || X ||
+|-
+! {{rh}} | torrent
+| || X || X || || X ||
+|-
+! {{rh}} | [[trickle]]
+| || X || X || || X ||
+|}
+&nbsp; <!-- for the diagramm, to be displayed on the same level as the table -->
+[[file:FCA body of water.svg|thumb|Line diagram corresponding to the formal context ''bodies of water'' on the left]]
+{{Clear}}
+
+The above line diagram consists of circles, connecting line segments, and labels. Circles represent ''formal concepts''. The lines allow to read off the subconcept-superconcept hierarchy. Each object and attribute name is used as a label exactly once in the diagram, with objects below and attributes above concept circles. This is done in a way that an attribute can be reached from an object via an ascending path if and only if the object has the attribute.
+
+In the diagram shown, e.g. the object ''reservoir'' has the attributes ''stagnant'' and ''constant'', but not the attributes ''temporary, running, natural, maritime''. Accordingly, ''puddle'' has exactly the characteristics ''temporary, stagnant'' and ''natural''.
+
+The original formal context can be reconstructed from the labelled diagram, as well as the formal concepts. The extent of a concept consists of those objects from which an ascending path leads to the circle representing the concept. The intent consists of those attributes to which there is an ascending path from that concept circle (in the diagram). In this diagram the concept immediately to the left of the label ''reservoir'' has the intent ''stagnant'' and ''natural'' and the extent ''puddle, maar, lake, pond, tarn, pool, lagoon,'' and ''sea''.
+
+== Formal contexts and concepts ==
+A formal context is a triple ''K'' = (''G'', ''M'', ''I''), where ''G'' is a set of ''objects'', ''M'' is a set of ''attributes'', and ''I'' &sube; ''G'' &times; ''M'' is a binary relation called ''incidence'' that expresses which objects ''have'' which attributes.<ref name="GW" /> For subsets ''A'' &sube; ''G'' of objects and subsets ''B'' &sube; ''M'' of attributes, one defines two ''derivation operators'' as follows:
+
+''A''' = {''m'' &isin; ''M'' | ''gIm'' for all ''g'' &isin; ''A''}, and dually
+
+''B''' = {''g'' &isin; ''G'' | ''gIm'' for all ''m'' &isin; ''B''}.
+
+Applying either derivation operator and then the other constitutes two [[closure operator]]s:
+
+''A'' &nbsp; ↦ &nbsp;''A''" = (''A''')' &nbsp; for ''A'' &sube; G &nbsp; (extent closure), and
+
+''B'' &nbsp; ↦ &nbsp;''B''" = (''B''')' &nbsp; for ''B'' &sube; M &nbsp; (intent closure).
+
+The derivation operators define a [[Galois connection]] between sets of objects and of attributes. This is why in French a concept lattice is sometimes called a ''treillis de Galois'' (Galois lattice).
+
+With these derivation operators, Wille gave an elegant definition of a formal concept:
+<!--With these derivation operators, it is possible to restate the definition of the term "formal concept" more rigorously:-->
+a pair (''A'',''B'') is a ''formal concept'' of a context (''G'', ''M'', ''I'') provided that:
+
+''A'' &sube; ''G'', &nbsp; ''B'' &sube; ''M'', &nbsp; ''A''&prime; = ''B'', &nbsp; and &nbsp;''B''&prime; = ''A''.
+
+Equivalently and more intuitively, (''A'',''B'') is a formal concept precisely when:
+* every object in ''A'' has every attribute in ''B'',
+* for every object in ''G'' that is not in ''A'', there is some attribute in ''B'' that the object does not have,
+* for every attribute in ''M'' that is not in ''B'', there is some object in ''A'' that does not have that attribute.
+
+For computing purposes, a formal context may be naturally represented as a [[(0,1)-matrix]] ''K'' in which the rows correspond to the objects, the columns correspond to the attributes, and each entry ''k''<sub>''i'',''j''</sub> equals to 1 if "object ''i'' has attribute ''j''." In this matrix representation, each formal concept corresponds to a [[maximal element|maximal]] submatrix (not necessarily contiguous) all of whose elements equal 1. It is however misleading to consider a formal context as ''boolean'', because the negated incidence ("object ''g'' does '''not''' have attribute ''m''") is not concept forming in the same way as defined above. For this reason, the values 1 and 0 or TRUE and FALSE are usually avoided when representing formal contexts, and a symbol like <math>\times</math> is used to express incidence.
+
+== Concept lattice of a formal context ==
+The concepts (''A''<sub>''i''</sub>, ''B''<sub>''i''</sub>) of a context ''K'' can be [[Partial order|(partially) ordered]] by the inclusion of extents, or, equivalently, by the dual inclusion of intents. An order ≤ on the concepts is defined as follows: for any two concepts (''A''<sub>''1''</sub>, ''B''<sub>''1''</sub>) and (''A''<sub>''2''</sub>, ''B''<sub>''2''</sub>) of ''K'', we say that (''A''<sub>''1''</sub>, ''B''<sub>''1''</sub>) ≤ (''A''<sub>''2''</sub>, ''B''<sub>''2''</sub>) precisely when ''A''<sub>''1''</sub> ⊆ ''A''<sub>''2''</sub>. Equivalently, (''A''<sub>''1''</sub>, ''B''<sub>''1''</sub>) ≤ (''A''<sub>''2''</sub>, ''B''<sub>''2''</sub>) whenever ''B''<sub>''1''</sub> ⊇ ''B''<sub>''2''</sub>.
+
+In this order, every set of formal concepts has a [[join and meet|greatest common subconcept]], or meet. Its extent consists of those objects that are common to all extents of the set. [[dual (math)|Dually]], every set of formal concepts has a ''least common superconcept'', the intent of which comprises all attributes which all objects of that set of concepts have.
+
+These meet and join operations satisfy the axioms defining a [[Lattice (order)|lattice]], in fact a [[complete lattice]]. Conversely, it can be shown that every complete lattice is the concept lattice of some formal context (up to isomorphism).
+
+== Attribute values and negation ==
+Real-world data is often given in the form of an object-attribute table, where the attributes have "values". Formal concept analysis handles such data by transforming them into the basic type of a ("one-valued") formal context. The method is called ''conceptual scaling''.
+
+The negation of an attribute ''m'' is an attribute &not;''m'', the extent of which is just the complement of the extent of ''m'', i.e., with (&not;''m'')' = G&nbsp;\&nbsp;m'. It is in general ''not'' assumed that negated attributes are available for concept formation. But pairs of attributes which are negations of each other often naturally occur, for example in contexts derived from conceptual scaling.
+
+For possible negations of formal concepts see the section [[#concept algebra|concept algebras]] below.
+
+== Implications ==
+An ''[[Implication (information science)|implication]]'' ''A &rarr; B'' relates two sets ''A'' and ''B'' of attributes and expresses that every object possessing each attribute from ''A'' also has each attribute from ''B''. When (''G'',''M'',''I'') is a formal context and ''A'', ''B'' are subsets of the set ''M'' of attributes (i.e., ''A,B &sube; M''), then the implication ''A &rarr; B'' ''is valid'' if ''A&prime; &sube; B&prime;''. For each finite formal context, the set of all valid implications has a ''canonical basis'',<ref>Guigues, J.L. and Duquenne, V. ''Familles minimales d'implications informatives résultant d'un tableau de données binaires.'' Mathématiques et Sciences Humaines 95 (1986): 5–18.</ref> an irredundant set of implications from which all valid implications can be derived by the natural inference ([[Armstrong axioms|Armstrong rules]]). This is used in ''attribute exploration'', a knowledge acquisition method based on implications.<ref name="GanterObiedkov"> Ganter, Bernhard and Obiedkov, Sergei (2016) ''Conceptual Exploration''. Springer, {{ISBN|978-3-662-49290-1}}</ref>
+
+== Arrow relations ==
+Formal concept analysis has elaborate mathematical foundations,<ref name="GW" /> making the field versatile. As a basic example we mention the ''arrow relations'', which are simple and easy to compute, but very useful. They are defined as follows: For ''g'' &isin; ''G'' and ''m'' &isin; ''M'' let
+
+''g'' ↗ ''m'' &nbsp;⇔&nbsp; &not;''(gIm)'' and if ''m'&sube;n' '' and ''m' ≠ n' '', then ''gIn'',
+
+and dually
+
+''g'' ↙ ''m'' &nbsp;⇔&nbsp; &not;''(gIm)'' and if ''g'&sube;h' '' and ''g' ≠ h' '', then ''hIm''.
+
+Since only non-incident object-attribute pairs can be related, these relations can conveniently be recorded in the table representing a formal context. Many lattice properties can be read off from the arrow relations, including distributivity and several of its generalizations. They also reveal structural information and can be used for determining, e.g., the congruence relations of the lattice.
+
+== Extensions of the theory ==
+* '''Triadic concept analysis''' replaces the binary incidence relation between objects and attributes by a ternary relation between objects, attributes, and conditions. An incidence ''(g,m,c)'' then expresses that ''the object g has the attribute m under the condition c''. Although ''triadic concepts'' can be defined in analogy to the formal concepts above, the theory of the ''trilattices'' formed by them is much less developed than that of concept lattices, and seems to be difficult.<ref>Wille R. "The basic theorem of triadic concept analysis". ''Order'' 12, 149–158, 1995</ref> Voutsadakis has studied the ''n''-ary case.<ref name="Voutsadakis">Voutsadakis G. "Polyadic Concept Analysis". ''Order'' 19(3), 295–304, 2002</ref>
+* '''Fuzzy concept analysis''': Extensive work has been done on a fuzzy version of formal concept analysis.<ref>{{Cite web |url=http://www.glc.us.es/cla2010/slides/tutorialI_Belohlavek.pdf |title=Formal Concept Analysis and Fuzzy Logic |access-date=2017-12-08 |archive-url=https://web.archive.org/web/20171209043947/http://www.glc.us.es/cla2010/slides/tutorialI_Belohlavek.pdf |archive-date=2017-12-09 |dead-url=yes |df= }}</ref>
+* <span id="concept algebra">'''Concept algebras'''</span>: Modelling negation of formal concepts is somewhat problematic because the complement (''G''&nbsp;\&nbsp;''A'', ''M''&nbsp;\&nbsp;''B'') of a formal concept (''A'', ''B'') is in general not a concept. However, since the concept lattice is complete one can consider the join (''A'', ''B'')<sup>Δ</sup> of all concepts (''C'', ''D'') that satisfy ''C''&nbsp;⊆&nbsp;''G''&nbsp;\&nbsp;''A''; or dually the meet (''A'', ''B'')<sup>𝛁</sup> of all concepts satisfying ''D''&nbsp;⊆&nbsp;''M''&nbsp;\&nbsp;''B''. These two operations are known as ''weak negation'' and ''weak opposition'', respectively. This can be expressed in terms of the ''derivation operators''. Weak negation can be written as (''A'', ''B'')<sup>Δ</sup> = ((''G''&nbsp;\&nbsp;''A'')<nowiki>''</nowiki>, (''G''&nbsp;\&nbsp;''A'')'), and weak opposition can be written as (''A'', ''B'')<sup>𝛁</sup> = ((''M''&nbsp;\&nbsp;''B'')', (''M''&nbsp;\&nbsp;''B'')<nowiki>''</nowiki>). The concept lattice equipped with the two additional operations Δ and 𝛁 is known as the ''concept algebra'' of a context. Concept algebras generalize [[power set]]s. Weak negation on a concept lattice ''L'' is a ''weak complementation'', i.e. an [[order-reversing]] map Δ:&nbsp;''L''&nbsp;→&nbsp;''L'' which satisfies the axioms ''x''<sup>ΔΔ</sup>&nbsp;≤&nbsp;''x'' and (''x''⋀''y'')&nbsp;⋁&nbsp;(''x''⋀''y''<sup>Δ</sup>)&nbsp;=&nbsp;''x''. Weak composition is a dual weak complementation. A (bounded) lattice such as a concept algebra, which is equipped with a weak complementation and a dual weak complementation, is called a ''weakly dicomplemented lattice''. Weakly dicomplemented lattices generalize distributive [[orthocomplemented lattice]]s, i.e. [[Boolean algebra (structure)|Boolean algebras]].<ref>{{Citation |last=Wille |first=Rudolf |year=2000 |contribution=Boolean Concept Logic |editor1-last=Ganter |editor1-first=B. |editor2-last=Mineau |editor2-first=G. W. |title=ICCS 2000 Conceptual Structures: Logical, Linguistic and Computational Issues |publisher=Springer |pages=317–331 |isbn=978-3-540-67859-5 |series=LNAI 1867}}.</ref><ref name=kwuida2004>{{Citation |last=Kwuida |first=Léonard |title=Dicomplemented Lattices. A contextual generalization of Boolean algebras |year=2004 |publisher=[[Shaker Verlag]] |isbn=978-3-8322-3350-1 |url=http://hsss.slub-dresden.de/documents/1101148726640-2926/1101148726640-2926.pdf }}</ref>
+
+== Algorithms and tools==
+There is a number of simple and fast algorithms for generating formal concepts and for constructing and navigating concept lattices. For a survey, see Kuznetsov and Obiedkov<ref name="AlgSurvey">Kuznetsov S., Obiedkov S. ''Comparing Performance of Algorithms for Generating Concept Lattices'', 14, [[Journal of Experimental and Theoretical Artificial Intelligence]], Taylor & Francis, {{ISSN|0952-813X}} (print) {{ISSN|1362-3079}} (online), pp.189–216, 2002</ref> or the book by Ganter and Obiedkov,<ref name="GanterObiedkov"/> where also some pseudo-code can be found. Since the number of formal concepts may be exponential in the size of the formal context, the complexity of the algorithms usually is given with respect to the output size. Concept lattices with a few million elements can be handled without problems.
+
+Many FCA software applications are available today.<ref name="fcahome.org.uk">One can find a non exhaustive list of FCA tools in the FCA software website: {{cite web |url=http://www.fcahome.org.uk/fcasoftware.html |title=Formal Concept Analysis Software and Applications |accessdate=2010-06-10 |deadurl=yes |archiveurl=https://web.archive.org/web/20100416002832/http://www.fcahome.org.uk/fcasoftware.html |archivedate=2010-04-16}}</ref> The main purpose of these tools varies from formal context creation to formal [[concept mining]] and generating the concepts lattice of a given formal context and the corresponding implications and [[association rules]]. Most of these tools are academic open-source applications, such as:
+* ConExp<ref name="conexp.sourceforge.net">{{cite web|url=http://conexp.sourceforge.net/|title=The Concept Explorer|website=Conexp.sourceforge.net|accessdate=27 December 2018}}</ref>
+* ToscanaJ<ref name="toscanaj.sourceforge.net">{{cite web|url=http://toscanaj.sourceforge.net/|title=ToscanaJ: Welcome|website=Toscanaj.sourceforge.net|accessdate=27 December 2018}}</ref>
+* [[Lattice Miner]]<ref name="ReferenceB">Boumedjout Lahcen and Leonard Kwuida. "Lattice Miner: A Tool for Concept Lattice Construction and Exploration". In: Supplementary Proceeding of International Conference on Formal concept analysis (ICFCA'10), 2010</ref>
+* Coron<ref name="coron.loria.fr">{{cite web|url=http://coron.loria.fr/site/index.php|title=The Coron System|website=Coron.loria.fr|accessdate=27 December 2018}}</ref>
+* FcaBedrock<ref name="sourceforge.net">{{cite web|url=https://sourceforge.net/projects/fcabedrock/|title=FcaBedrock Formal Context Creator|website=SourceForge.net|accessdate=27 December 2018}}</ref>
+
+== Related analytical techniques ==
+=== Bicliques ===
+A formal context can naturally be interpreted as a [[bipartite graph]]. The formal concepts then correspond to the maximal [[biclique]]s in that graph. The mathematical and algorithmic results of formal concept analysis may thus be used for the theory of maximal bicliques. The notion of [[bipartite dimension]] (of the complemented bipartite graph) translates<ref name="GW" /> to that of ''Ferrers dimension'' (of the formal context) and of [[order dimension]] (of the concept lattice) and has applications e.g. for Boolean matrix factorization.<ref>Belohlavek, Radim, and Vychodil, Vilem. [http://www.sciencedirect.com/science/article/pii/S0022000009000415 "Discovery of optimal factors in binary data via a novel method of matrix decomposition"]. ''Journal of Computer and System Sciences'' 76.1 (2010): 3–20.</ref>
+
+=== Biclustering and multidimensional clustering ===
+Given an object-attribute numerical data-table, the goal of [[biclustering]] is to group together some objects having similar values of some attributes. For example, in gene expression data, it is known that genes (objects) may share a common behavior for a subset of biological situations (attributes) only: one should accordingly produce local patterns to characterize biological processes, the latter should possibly overlap, since a gene may be involved in several processes. The same remark applies for recommender systems where one is interested in local patterns characterizing groups of users that strongly share almost the same tastes for a subset of items.<ref name="AdomTuzh">Adomavicius C., Tuzhilin A. [http://homepages.dcc.ufmg.br/~nivio/cursos/ri13/sources/recommender-systems-survey-2005.pdf "Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions"]. ''IEEE Transactions on Knowledge and Data Engineering'', 17(6): 734–749, 2005.</ref>
+
+A bicluster in a binary object-attribute data-table is a pair ''(A,B)'' consisting of an inclusion-maximal set of objects ''A'' and an inclusion-maximal set of attributes ''B'' such that almost all objects from ''A'' have almost all attributes from ''B'' and vice versa.
+
+Of course, formal concepts can be considered as "rigid" biclusters where all objects have all attributes and vice versa. Hence, it is not surprising that some bicluster definitions coming from practice<ref>Prelic, S. Bleuler, P. Zimmermann, A. Wille, P. Buhlmann, W. Gruissem, L. Hennig, L. Thiele, and E. Zitzler. [https://academic.oup.com/bioinformatics/article/22/9/1122/200492 "A Systematic Comparison and Evaluation of Biclustering Methods for Gene Expression Data"]. ''Bioinformatics'', 22(9):1122–1129, 2006</ref> are just definitions of a formal concept.<ref name="KayMinBicl">Kaytoue M., Kuznetsov S., Macko J., Wagner Meira Jr., Napoli A. "Mining Biclusters of Similar Values with Triadic Concept Analysis". CLA : 175–190, 2011</ref>
+
+A bicluster of similar values in a numerical object-attribute data-table is usually defined<ref>R. G. Pensa, C. Leschi, J. Besson, J.-F. Boulicaut. [https://www.academia.edu/download/35719269/biokdd04.pdf "Assessment of discretization techniques for relevant pattern discovery from gene expression data"]. In M. J. Zaki, S. Morishita, and I. Rigoutsos, editors, Proceedings of the 4th ACM SIGKDD Workshop on Data Mining in Bioinformatics (BIOKDD 2004), 24–30, 2004.</ref><ref>Besson J., Robardet C. Raedt L.D., Boulicaut, J.-F. [https://lirias.kuleuven.be/bitstream/123456789/134532/1/07-kdid-bessonetal.pdf "Mining bi-sets in numerical data"]. In S. Dzeroski and J. Struyf, editors, KDID, LNCS 4747, p.11–23. Springer, 2007.</ref><ref name="CerfCloPat">Cerf L., Besson J., Robardet C., Boulicaut J.-F. [http://homepages.dcc.ufmg.br/~lcerf/publications/articles/Closed%20Patterns%20Meet%20n-ary%20Relations.pdf "Closed patterns meet n-ary relations"]. TKDD, 3(1), 2009</ref> as a pair consisting of an inclusion-maximal set of objects and an inclusion-maximal set of attributes having similar values for the objects. Such a pair can be represented as an inclusion-maximal rectangle in the numerical table, modulo rows and columns permutations. In<ref name="KayMinBicl" /> it was shown that biclusters of similar values correspond to triconcepts of a triadic context where the third dimension is given by a scale that represents numerical attribute values by binary attributes.
+
+This fact can be generalized to ''n''-dimensional case, where ''n''-dimensional clusters of similar values in ''n''-dimensional data are represented by ''n+1''-dimensional concepts. This reduction allows one to use standard definitions and algorithms from multidimensional concept analysis<ref name="CerfCloPat"/><ref name="Voutsadakis" /> for computing multidimensional clusters.
+
+=== Knowledge spaces ===
+In the theory of [[knowledge space]]s it is assumed that in any knowledge space the family of ''knowledge states'' is union-closed. The complements of knowledge states therefore form a [[closure operator|closure system]] and may be represented as the extents of some formal context.
+
+== Hands-on experience with formal concept analysis ==
+The formal concept analysis can be used as a qualitative method for data analysis. Since the early beginnings of FBA in the early 1980s, the FBA research group at TU Darmstadt has gained experience from more than 200 projects using the FBA (as of 2005).<ref name="FCAFaA">{{citation |editor1=Bernhard Ganter |editor2=Gerd Stumme |editor3=Rudolf Wille|title=Formal Concept Analysis. Foundations and Applications|publisher=Springer Science & Business Media|publication-place=Berlin Heidelberg|isbn=3-540-27891-5|date=2005| DOI=10.1007/978-3-540-31881-1|url=https://books.google.de/books?id=nEh4D4e88NwC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false|access-date=2015-11-14}}</ref> Including the fields of: [[medicine]] and [[cell biology]],<ref>{{citation |author1=Susanne Motameny |author2=Beatrix Versmold |author3=Rita Schmutzler |editor1=Raoul Medina |editor2=Sergei Obiedkov|periodical=ICFCA 2008|title=Formal Concept Analysis for the Identification of Combinatorial Biomarkers in Breast Cancer |series=LNAI |volume=4933 |publisher=Springer |publication-place=Berlin Heidelberg |pages=229–240 |isbn=978-3-540-78136-3 |date=2008 |url=https://www.springer.com/us/book/9783540781363 |access-date=2016-01-29}}</ref><ref>{{citation |author1=Dominik Endres |author2=Ruth Adam |author3=Martin A. Giese |author4=Uta Noppeney |editor1=Florent Domenach |editor2=Dmitry I. Ignatov |editor3=Jonas Poelmans |periodical=ICFCA 2012 |title=Understanding the Semantic Structure of Human fMRI Brain Recordings with Formal Concept Analysis |series=LNCS |volume=7278 |publisher=Springer |publication-place=Berlin Heidelberg |pages=96–111 |isbn=978-3-642-29891-2 |issn=0302-9743 |date=2012 |DOI=10.1007/978-3-642-29892-9}}</ref> [[genetics]],<ref>{{citation |author1=Denis Ponomaryov |author2=Nadezhda Omelianchuk |author3=Victoria Mironova |author4=Eugene Zalevsky |author5=Nikolay Podkolodny |author6=Eric Mjolsness |author7=Nikolay Kolchanov |editor1=Karl Erich Wolff |editor2=Dmitry E. Palchunov |editor3=Nikolay G. Zagoruiko |editor4=Urs Andelfinger |periodical=KONT 2007, KPP 2007|title=From Published Expression and Phenotype Data to Structured Knowledge: The Arabidopsis Gene Net Supplementary Database and Its Applications |series=LNCS |volume=6581 |publisher=Springer |publication-place=Heidelberg New York |pages=101–120 |isbn=978-3-642-22139-2 |issn=0302-9743 |date=2011 |DOI=10.1007/978-3-642-22140-8}}</ref><ref>{{citation |author1=Mehdi Kaytoue |author2=Sergei Kuznetsov |author3=Amedeo Napoli |author4=Sébastien Duplessis |periodical=Information Sciences |title=Mining gene expression data with pattern structures in formal concept analysis |volume=181 |issue=10 |publisher=Elsevier |pages=1989–2001 |date=2011 |DOI=10.1016/j.ins.2010.07.007 |url=https://www.hse.ru/data/2010/11/01/1223500185/InformationSciences.pdf |access-date=2016-02-13 |format=PDF}}</ref> [[ecology]],<ref>{{citation |author1=Aurélie Bertaux |author2=Florence Le Ber |author3=Agnès Braud |author4=Michèle Trémolières |editor1=Sébastien Ferré |editor2=Sebastian Rudolph |periodical=ICFCA 2009 |title=Identifying Ecological Traits: A Concrete FCA-Based Approach |series=LNAI |volume=5548 |publisher=Springer-Verlag |publication-place=Berlin Heidelberg |pages=224–236 |isbn=978-3-642-01814-5 |date=2009 |DOI=10.1007/978-3-642-01815-2}}</ref> [[software engineering]],<ref>{{citation |author1=Gregor Snelting |author2=Frank Tip |periodical=Proceeding. SIGSOFT '98/FSE-6 |title=Reengineering class hierarchies using concept analysis |volume=23 |issue=6 |publisher=ACM |publication-place=New York |pages=99–110 |isbn=1-58113-108-9 |date=1998 |DOI=10.1145/291252.288273 |url=http://dl.acm.org/citation.cfm?doid=288195.288273 |access-date=2016-02-04}}</ref> [[ontology (information science)|ontology]],<ref>{{citation |author1=Gerd Stumme |author2=Alexander Maedche |editor1=Universität Leipzig |periodical=IJCAI |title=FCA-Merge: Bottom-up merging of ontologies |publication-place=Leipzig |pages=225–230 |date=2001 |url=http://se-pubs.dbs.uni-leipzig.de/files/Stumme2001FCAMergeBottomupmergingofontologies.pdf |access-date=2016-02-13 |format=PDF}}</ref> [[information management|information]] and [[library science]]s,<ref>{{citation |author1=Uta Priss |editor1=American Documentation Institute |periodical=Annual Review of Information Science and Technology |title=Formal Concept Analysis in Information Science |volume=40 |issue=1 |publisher=Information Today |publication-place=Medford, NJ 09855 |pages=521–543 |issn=0066-4200 |date=2006 |DOI=10.1002/aris.1440400120 |url=http://www.upriss.org.uk/papers/arist.pdf |access-date=2016-02-04 |format=PDF}}</ref><ref>{{citation |author1=Jens Illig |author2=Andreas Hotho |author3=Robert Jäschke |author4=Gerd Stumme |editor1=Karl Erich Wolff |editor2=Dmitry E. Palchunov |editor3=Nikolay G. Zagoruiko |editor4=Urs Andelfinger |periodical=KONT 2007, KPP 2007 |title=A Comparison of Content-Based Tag Recommendations in Folksonomy Systems |series=LNCS |volume=6581 |publisher=Springer |publication-place=Heidelberg New York |pages=136–149 |isbn=978-3-642-22139-2 |issn=0302-9743 |date=2011 |DOI=10.1007/978-3-642-22140-8}}</ref><ref>{{citation |editor1=Claudio Carpineto |editor2=Giovanni Romano |title=Concept Data Analysis: Theory and Applications |publisher=John Wiley & Sons |isbn=0-470-85055-8 |date=2004 |url=http://eu.wiley.com/WileyCDA/WileyTitle/productCd-0470850558.html |access-date=2016-02-04}}</ref> [[office administration]],<ref>{{citation |author1=Richard Cole |author2=Gerd Stumme |editor1=Bernhard Ganter |editor2=Guy W. Mineau |periodical=Conceptual Structures: Logical, Linguistic, and Computational Issues |title=CEM – A Conceptual Email Manager |series=LNAI |volume=1867 |publisher=Springer-Verlag |publication-place=Berlin Heidelberg |pages=438–452 |isbn=3-540-67859-X |date=2000 |DOI=10.1007/10722280}}</ref> [[law]],<ref>{{citation |author1=Dieter Eschenfelder |author2=Wolfgang Kollewe |author3=Martin Skorsky |author4=Rudolf Wille |editor1=Gerd Stumme |editor2=Rudolf Wille |periodical=Begriffliche Wissensverarbeitung – Methoden und Anwendungen |title=Ein Erkundungssystem zum Baurecht: Methoden der Entwicklung eines TOSCANA-Systems |publisher=Springer |publication-place=Berlin Heidelberg |pages=254–272 |isbn=3-540-66391-6 |date=2000 |language=German |DOI=10.1007/978-3-642-57217-3_12}}</ref><ref>{{citation |author1=Nada Mimouni |author2=Adeline Nazarenko |author3=Sylvie Salotti |editor1=Jaume Baixeries |editor2=Christian Sacarea |editor3=Manuel Ojeda-Aciego |periodical=ICFCA 2015 |title=A Conceptual Approach for Relational IR: Application to Legal Collections |series=LNAI |volume=9113 |publisher=Springer |publication-place=Heidelberg New York |pages=303–318 |isbn=978-3-319-19544-5 |issn=0302-9743 |date=2015 |DOI=10.1007/978-3-319-19545-2_19}}</ref> [[linguistics]],<ref>{{citation |author1=Uta Priss |editor1=Bernhard Ganter |editor2=Gerd Stumme |editor3=Rudolf Wille |periodical=Formal Concept Analysis – Foundations and Applications|title=Linguistic Applications of Formal Concept Analysis |series=LNCS |volume=3626 |publisher=Springer |publication-place=Berlin Heidelberg |pages=149–160 |isbn=3-540-27891-5 |issn=0302-9743 |date=2005 |DOI=10.1007/978-3-540-31881-1}}</ref> [[political science]].<ref>{{citation |author1=Beate Kohler-Koch |author2=Frank Vogt |author3=Gerhard Stumme |author4=Rudolf Wille |periodical=Begriffliche Wissenverarbeitung – Methoden und Anwendungen|title=Normen- und Regelgeleitete internationale Kooperationen: Quoted in: Peter Becker et al. The ToscanaJ Suite for Implementing Conceptual Information Systems |publisher=Springer |publication-place=Berlin, Heidelberg, New York |pages=325–340 |isbn=978-3-540-66391-1 |date=2000 |language=German}}</ref>
+
+Many more examples are e.g. described in: ''Formal Concept Analysis. Foundations and Applications'',<ref name="FCAFaA" /> conference papers at regular conferences such as: ''International Conference on Formal Concept Analysis'' (ICFCA),<ref>{{cite web| title=International Conference on Formal Concept Analysis| periodical=| publisher=[[Digital Bibliography & Library Project|dblp]]| url=http://dblp.uni-trier.de/db/conf/icfca/index| accessdate=2016-02-14}}</ref> ''Concept Lattices and their Applications'' (CLA),<ref>{{cite web| title=CLA: Concept Lattices and Their Applications| publisher=CLA| url=http://cla.inf.upol.cz/papers.html| accessdate=2015-11-14}}</ref> or ''International Conference on Conceptual Structures'' (ICCS).<ref>{{cite web |title=International Conferences On Conceptual Structures – Conferences and Workshops| publisher=New Mexico State University |url=http://conceptualstructures.org/confs.htm |accessdate=2016-02-14}}</ref>
+
+== See also ==
+{{Div col|colwidth=22em}}
+* [[Association rule learning]]
+* [[Cluster analysis]]
+* [[Commonsense reasoning]]
+* [[Conceptual clustering]]
+* [[Concept learning]]
+* [[Correspondence analysis]]
+* [[Description logic]]
+* [[Factor analysis]]
+* [[Graphical model]]
+* [[Grounded theory]]
+* [[Inductive logic programming]]
+* [[Pattern theory]]
+* [[Statistical relational learning]]
+* [[Schema (genetic algorithms)]]
+{{Div col end}}
+
+== Notes ==
+{{Reflist}}
+
+== References ==
+{{refbegin}}
+* {{citation | editor1-last = Ganter | editor1-first = Bernhard | editor2-last = Stumme | editor2-first = Gerd | editor3-last = Wille | editor3-first = Rudolf | title = Formal Concept Analysis: Foundations and Applications | publisher = Lecture Notes in Artificial Intelligence, no. 3626, Springer-Verlag | year = 2005 | isbn = 3-540-27891-5}}
+* {{citation | last1 = Ganter | first1 = Bernhard | last2 = Wille | first2 = Rudolf | title = Formal Concept Analysis: Mathematical Foundations | publisher = Springer-Verlag, Berlin | year = 1998 | isbn = 3-540-62771-5 |translator=C. Franzke}}
+* {{citation | last1 = Carpineto | first1 = Claudio | last2 = Romano | first2 = Giovanni | title = Concept Data Analysis: Theory and Applications | publisher = Wiley | year = 2004 | isbn = 978-0-470-85055-8}}
+* {{citation |first = Karl Erich |last = Wolff |title = A first course in Formal Concept Analysis |editor = F. Faulbaum in StatSoft 1993 |publisher = Gustav Fischer Verlag |url = http://fbmn.fh-darmstadt.de/home/wolff/Publikationen/A_First_Course_in_Formal_Concept_Analysis.pdf |pages = 429–438 |year = 1994 |archiveurl=https://web.archive.org/web/20060323075347/http://fbmn.fh-darmstadt.de/home/wolff/Publikationen/A_First_Course_in_Formal_Concept_Analysis.pdf |archivedate = 2006-03-23 }}
+* {{citation | last1=Davey | first1=B.A. | last2=Priestley | first2=H. A. | title=Introduction to Lattices and Order, chapter 3. Formal Concept Analysis | publisher=[[Cambridge University Press]] | isbn=978-0-521-78451-1 | year=2002}}
+{{refend}}
+
+== External links ==
+* [http://www.upriss.org.uk/fca/fca.html A Formal Concept Analysis Homepage]
+* [http://www.ketlab.org.uk/scripts/context Demo]
+* [http://www.math.tu-dresden.de/icfca13/ 11th International Conference on Formal Concept Analysis. ICFCA 2013 – Dresden, Germany – May 21–24, 2013]
+
+{{DEFAULTSORT:Formal Concept Analysis}}
+[[Category:Machine learning]]
+[[Category:Lattice theory]]
+[[Category:Data mining]]
+[[Category:Ontology (information science)]]

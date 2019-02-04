@@ -1,0 +1,47 @@
+{{about|the deep-space space station mission concept|the second launch of the original ''Skylab'' program|Skylab 2|the backup Skylab space station|Skylab B|another deep-space space station proposed to NASA|Deep Space Habitat|other uses|Skylab Two (disambiguation)}}
+{{DISPLAYTITLE:''Skylab II''}}
+{{Infobox space station 
+| station_image = [[File:Skylab II-2.jpg|250px]]
+| station_image_caption = Artist's conception of the [[Orion Multi-Purpose Crew Vehicle]] docking with a module of the proposed ''Skylab II''.<br /><small>Credit: NASA/Advanced Concepts Office</small>
+| Organization = [[NASA]]
+| crew         = 4
+| launch = after 2021
+| carrier_rocket = [[Space Launch System]]
+| status = Proposed
+| mass = {{convert|37300|kg|lb}}<ref name=griffin-2013 />
+| NSSDC_ID = 
+| length                 = {{convert|11.15|m|ft|sp=us}}
+| diameter               = {{convert|8.5|m|ft|sp=us}}
+| volume                 = {{convert|495|m3|ft3|sp=us}}
+| inclination = 5.145° to the [[ecliptic]]
+| period  = {{longitem|class=nowrap |{{val|27.321661|ul=d}}<br>{{smaller|(27&thinsp;d 7&thinsp;h 43.19&thinsp;min 11.5&thinsp;s<ref name="W06">{{cite journal |last1=Wieczorek |first1=M. |title=The constitution and structure of the lunar interior |journal=Reviews in Mineralogy and Geochemistry |volume=60 |issue=1 |pages=221–364 |date=2006 |doi=10.2138/rmg.2006.60.3 |display-authors=1 |author2=<Please add first missing authors to populate metadata.>|bibcode=2006RvMG...60..221W }}
+</ref>
+)}}}}
+| apogee  = 
+| perigee = {{convert|443000|km|nmi|sp=us}} (approx.)
+}}
+'''''Skylab II''''' is a [[space station]] concept proposed in 2013 by the Advanced Concepts Office of [[NASA]] [[Marshall Space Flight Center]], to be located at the [[Earth-Moon system|Earth-Moon]] [[Lagrangian point#L2|L<sub>2</sub>]] [[Lagrangian point]].<ref name=hammonds-2013>{{cite news | url=http://news.discovery.com/space/private-spaceflight/skylab-ii-living-beyond-the-dark-side-of-the-moon-130414.htm | title=Skylab II: Living Beyond the Dark Side of the Moon | work=Discovery News | date=April 14, 2013 | agency=Discovery Communications LLC | accessdate=April 15, 2013 | author=Hammonds, Markus | deadurl=bot: unknown | archiveurl=https://web.archive.org/web/20150508133952/http://news.discovery.com/space/private-spaceflight/skylab-ii-living-beyond-the-dark-side-of-the-moon-130414.htm | archivedate=May 8, 2015 | df= }}</ref> Proposed by NASA contractor Brand Griffin, ''Skylab II'' would be constructed as a "[[wet workshop]]" using a spent [[multistage rocket|upper-stage]] hydrogen fuel tank from the [[Space Launch System]] (SLS), much as the ''[[Skylab]]'' was originally planned to be built "wet" from the spent [[bipropellant#Types|bipropellant]] tanks of the [[Saturn (rocket family)|Saturn]] [[S-IVB]] upper stage.<ref name=hammonds-2013 /> If constructed, ''Skylab II'' would be the first crewed outpost located beyond the orbit of the Moon.<ref name=wall-2013>{{cite news | url=http://www.space.com/20444-nasa-deep-space-station-skylab2.html | title=NASA Mega-Rocket Could Lead to Skylab 2 Deep Space Station | work=Space.com | date=April 2, 2013 | agency=TechMediaNetwork | accessdate=April 15, 2013 | author=Wall, Mike}}</ref>
+
+==Space station design==
+''Skylab II'' would be parked near the Earth-Moon L<sub>2</sub> point, which revolves around the Earth at an approximate mean distance of {{convert|443000|km|nmi|sp=us}} from the surface, and stays approximately {{convert|62800|km|nmi|sp=us}} beyond the [[far side of the Moon|far surface of the Moon]].<ref name=dunn-2008>{{cite web | url=http://orbitsimulator.com/formulas/LagrangePointFinder.html | title=Lagrange Point Calculator | work=Gravity Simulator | year=2008 | accessdate=April 16, 2013 | author=Dunn, Tony}}</ref> Given its location far away from the nearest food, water, and air, the first iteration of the space station would be able to support a four-person crew for 60 days on one shipment of supplies, to be eventually improved to 180 days.<ref name=griffin-2013>{{cite web | url=http://spirit.as.utexas.edu/~fiso/telecon/Griffin_3-27-13/Griffin_3-27-13.pdf | title=Skylab II: Making a Deep Space Habitat from a Space Launch System Propellant Tank | publisher=Future In-Space Operations Working Group | work=Future In-Space Operations Colloquium | date=March 27, 2013 | accessdate=April 16, 2013 | author=Griffin, Brand}}</ref> As ''Skylab II'' would be built from an SLS hydrogen fuel tank, the costs of assembly would be a relatively low $2 billion, a tremendous savings over a previously projected cost of $4.175 billion for a similar space station.<ref name=griffin-2013 />
+[[File:Skylab II Drawing.jpg|250px|thumb|right|Skylab II Habitat made from the SLS upper-stage hydrogen tank.<br />Credit: NASA/Advanced Concepts Office]]
+
+The space station would have large modules with diameters of {{convert|8.5|m|ft|sp=us}}&mdash;much larger than the {{convert|4.5|m|ft|adj=on|sp=us}} diameter of [[International Space Station]] modules or the {{convert|6.7|m|ft|adj=on|sp=us}} diameter of the original ''Skylab''.<ref name=wall-2013 /> This large diameter would lead to a module volume of about {{convert|495|m3|ft3|sp=us}}, allowing for a large amount of space for both storage and habitation.<ref name=wall-2013 /> This large interior volume, in turn, would make ''Skylab II'' suitable for its deep-space location, where resupply missions would be rare and astronauts would have to store the food they received from each mission for months at a time.<ref name=hammonds-2013 /> The supplies themselves could be carried in a variety of vehicles, such as the existing [[Progress (spacecraft)|Progress]] and [[SpaceX Dragon|Dragon]], or perhaps a new, SLS-derived logistics module, which could resupply the whole station in one mission.<ref name=griffin-2013 />
+
+==Potential uses==
+Once at Earth-Moon L<sub>2</sub>, ''Skylab II'' could be a "[[The Next Steps In Exploring Deep Space|stepping stone]]" for further human exploration in the Solar System,<ref name=griffin-2013 /> for example by being a docking site for a crewed lunar lander before the trip to the Moon.<ref name=griffin-2013 /> The second use would be to add a servicing capability for the astrophysics missions located near Earth-Sun [[Lagrangian point#L2|L<sub>2</sub>]], extending the [[cryogenic]] mission lifetime of such missions by continually refilling their [[liquid helium]] and enabling some astrophysics missions which may otherwise have not been possible or would have been launched in a less-capable state.<ref name=griffin-2013 />
+
+For [[extravehicular activity|extravehicular activities]] (EVAs) near the space station, a small, one-person [[FlexCraft]] may be used in lieu of a spacesuit to improve dexterity and safety for astronauts, as well as the efficiency of EVAs.<ref name=griffin-2013 /><ref name=griffin-2012>{{cite web | url=http://spirit.as.utexas.edu/~fiso/telecon10-12/Griffin_8-15-12/Griffin_8-15-12.pdf | title=Benefits of a Single-Person Spacecraft for Weightless Operations | publisher=Future In-Space Operations Working Group | work=Future In-Space Operations Colloquium | date=August 13, 2012 | accessdate=April 16, 2013 | author=Griffin, Brand}}</ref> FlexCraft would eliminate the requirement of an astronaut to prebreathe the pure oxygen atmosphere in a spacesuit, reducing overhead time for EVAs significantly and enabling longer EVAs to be carried out.<ref name=griffin-2012 /> Additionally, FlexCraft would improve astronaut speed during EVAs, as moving around space installations would be faster and less physically demanding in automated vehicles.<ref name=griffin-2012 />
+
+== References ==
+<!--- See http://en.wikipedia.org/wiki/Wikipedia:Footnotes on how to create references using <ref></ref> tags which will then appear here automatically -->
+{{Reflist}}
+
+== External links ==
+* [http://www.nasa.gov/centers/marshall/capabilities/advanced_concepts.html NASA Marshall Space Flight Center Advanced Concepts Office]
+* [http://www.space.com/12957-nasa-giant-rocket-space-launch-system-infographic.html Space Launch System infographic]
+
+{{space stations}}
+<!--- Categories --->
+
+[[Category:Proposed space stations]]

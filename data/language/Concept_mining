@@ -1,0 +1,34 @@
+'''Concept mining''' is an activity that results in the extraction of [[concept]]s from [[Document|artifacts]]. Solutions to the task typically involve aspects of [[artificial intelligence]] and [[statistics]], such as [[data mining]] and [[text mining]].<ref>Yuen-Hsien Tseng, Chun-Yen Chang, Shu-Nu Chang Rundgren, and Carl-Johan Rundgren, " [https://www.academia.edu/download/35493513/Mining_concept_maps_from_news_stories_for_measuring_civic_scientific_literacy_in_media.pdf Mining Concept Maps from News Stories for Measuring Civic Scientific Literacy in Media]", Computers and Education, Vol. 55, No. 1, August 2010, pp. 165-177.</ref> Because artifacts are typically a loosely structured sequence of words and other symbols (rather than concepts), the problem is [[nontrivial]], but it can provide powerful insights into the meaning, provenance and similarity of documents.
+
+==Methods==
+
+Traditionally, the conversion of words to concepts has been performed using a [[thesaurus]],<ref>Yuen-Hsien Tseng, " [https://www.researchgate.net/profile/Yuen-Hsien_Tseng/publication/229604107_Automatic_thesaurus_generation_for_Chinese_documents_Special_issue/links/54db4bd80cf233119bc5c1c6/Automatic-thesaurus-generation-for-Chinese-documents-Special-issue.pdf Automatic Thesaurus Generation for Chinese Documents]", Journal of the American Society for Information Science and Technology, Vol. 53, No. 13, Nov. 2002, pp. 1130-1138.</ref> and for computational techniques the tendency is to do the same. The thesauri used are either specially created for the task, or a pre-existing language model, usually related to Princeton's [[WordNet]].
+
+The mappings of words to concepts<ref>Yuen-Hsien Tseng, " [http://ai2-s2-pdfs.s3.amazonaws.com/1e8b/c4c569c551a56c7d56817138aa9285eb6c8b.pdf Generic Title Labeling for Clustered Documents]", Expert Systems With Applications, Vol. 37, No. 3, 15 March 2010, pp. 2247-2254 .</ref> are often ambiguous. Typically each word in a given language will relate to several possible concepts. Humans use context to disambiguate the various meanings of a given piece of text, where available [[machine translation]] systems cannot easily infer context.
+
+For the purposes of concept mining however, these ambiguities tend to be less important than they are with machine translation, for in large documents the ambiguities tend to even out, much as is the case with text mining.
+
+There are many techniques for [[Word sense disambiguation|disambiguation]] that may be used. Examples are linguistic analysis of the text and the use of word and concept association frequency information that may be inferred from large text corpora. Recently, techniques that base on [[semantic similarity]] between the possible concepts and the context have appeared and gained interest in the scientific community.
+
+==Applications==
+
+===Detecting and indexing similar documents in large corpora===
+One of the spin-offs of calculating document statistics in the concept domain, rather than the word domain, is that concepts form natural tree structures based on [[hypernymy]] and [[meronymy]]. These structures can be used to produce simple tree membership statistics, that can be used to locate any document in a [[Euclidean concept space]]. If the size of a document is also considered as another dimension of this space then an extremely efficient indexing system can be created. This technique is currently in commercial use locating similar legal documents in a 2.5 million document corpus.
+
+===Clustering documents by topic===
+Standard numeric clustering techniques may be used in "concept space" as described above to locate and index documents by the inferred topic. These are numerically far more efficient than their [[text mining]] cousins, and tend to behave more intuitively, in that they map better to the similarity measures a human would generate.
+
+==See also==
+*[[Formal concept analysis]]
+*[[Information extraction]]
+*[[Compound term processing]]
+
+==References==
+<references />
+
+{{Natural Language Processing}}
+
+{{DEFAULTSORT:Concept Mining}}
+[[Category:Natural language processing]]
+[[Category:Artificial intelligence applications]]
+[[Category:Data mining]]

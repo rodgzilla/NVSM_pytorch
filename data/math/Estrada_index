@@ -1,0 +1,41 @@
+In [[chemical graph theory]], the '''Estrada index''' is a [[topological index]] of [[protein folding]]. The index was first defined by [[Ernesto Estrada]] as a measure of the degree of folding of a protein,<ref>{{cite journal|first1=E. |last1=Estrada| journal=Chem. Phys. Lett. |number=319 |page=713 |year=2000|doi=10.1016/S0009-2614(00)00158-5|title=Characterization of 3D molecular structure |bibcode=2000CPL...319..713E}}</ref> which is represented as a path-graph weighted by the dihedral or [[torsional angle]]s of the protein backbone. This index of degree of folding has found multiple applications in the study of protein functions and [[protein-ligand interaction]]s.
+
+The name of this index as the “Estrada index” was proposed by de la Peña et al. in 2007.<ref>{{cite journal|first1=J. A.|last1= de la Peña|first2=I.|last2=Gutman|first3=J. |last3=Rada| title=Estimating the Estrada index|journal=Linear Algebra Appl. |volume=427|year=2007|pages=70–76|doi=10.1016/j.laa.2007.06.020}}</ref>
+
+==Derivation==
+
+Let <math>G=(V,E)</math> be a graph of size <math>|V|=n</math> and let <math>\lambda_1 \geq \lambda_2 \geq \cdots \geq \lambda_n</math> be a non-increasing ordering of the eigenvalues of its adjacency matrix <math>A</math>. The Estrada index is defined as
+
+: <math>\operatorname{EE}(G)=\sum_{j=1}^n e^{\lambda_j}</math>
+ 
+For a general graph, the index can be obtained as the sum of the subgraph centralities of all nodes in the graph. The subgraph centrality of node <math>i</math> is defined as<ref name="Estrada">{{cite journal|first1=E. |last1=Estrada |first2=J.A. |last2= Rodríguez-Velázquez |journal=Phys. Rev. E |volume= 71 |number=5 |page= 056103 |year=2005|doi=10.1103/PhysRevE.71.056103|title=Subgraph centrality in complex networks|arxiv = cond-mat/0504730 |bibcode = 2005PhRvE..71e6103E }}</ref>
+
+: <math>\operatorname{EE}(i)=\sum_{k=0}^\infty \frac{(A^k)_{ii}} {k!}</math>
+ 
+The subgraph centrality has the following closed form<ref name="Estrada"/>
+
+: <math>\operatorname{EE}(i)=(e^A)_{ii}=\sum_{j=1}^n[\varphi(i)]^2 e^{\lambda _j}</math>
+ 
+where  <math>\varphi _j (i)</math> is the <math>i</math> th entry of the  <math>j</math>th eigenvector associated with the eigenvalue <math>\lambda _j</math>. It is straightforward to realise that<ref name="Estrada"/>
+
+: <math>\operatorname{EE}(G)=\operatorname{tr}(e^A) </math>
+
+==References==
+{{reflist}}
+*{{cite journal
+|first1=Bo
+|last1=Zhou
+|first2=Ivan
+|last2=Gutman
+|doi=10.2298/AADM0902371Z
+|title=More on the Laplacian Estrada Index
+|year=2009
+|volume=3
+|number=2
+|pages=371–378
+|journal=Appl. Anal. Discrete Math.
+}}
+
+[[Category:Mathematical chemistry]]
+[[Category:Cheminformatics]]
+[[Category:Graph invariants]]

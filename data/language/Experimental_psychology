@@ -1,0 +1,308 @@
+{{For|the peer-reviewed journal|Experimental Psychology (journal)}}
+{{Psychology sidebar|basic}}
+'''Experimental psychology''' refers to work done by those who apply [[Experiment|experimental methods]] to psychological study and the processes that underlie it. Experimental psychologists employ human participants and animal subjects to study a great many topics, including (among others) [[Perception|sensation & perception]], [[memory]], [[cognition]], [[learning]], [[motivation]], [[emotion]]; [[Developmental psychology|developmental processes]], [[social psychology]], and the [[Neuroscience|neural substrates]] of all of these.<ref>Pashler, H. (Ed)(2002) ''Stevens' Handbook of Experimental Psychology''; New York: Wiley</ref>
+
+== History ==
+[[File:Wilhelm Wundt.jpg|thumb|199px|Wilhelm Wundt]]
+[[File:CharlesBell001.jpg|thumb|199px|Charles Bell]]
+
+=== Early experimental psychology ===
+
+{{See also|Psychophysics}}
+
+==== Wilhelm Wundt ====
+
+{{Main article|Wilhelm Wundt}}
+Experimental psychology emerged as a modern academic discipline in the 19th century when [[Wilhelm Wundt]] introduced a mathematical and experimental approach to the field. Wundt founded the first psychology laboratory in [[Leipzig, Germany]]<!--DIGRESSION and the [[structuralist]] school of psychology-->.<ref name=Khaleefa>{{cite journal | last1 = Khaleefa | first1 = Omar | year = 1999 | title = Who Is the Founder of Psychophysics and Experimental Psychology? | url = | journal = American Journal of Islamic Social Sciences | volume = 16 | issue = | page = 2 }}</ref> Other experimental psychologists, including [[Hermann Ebbinghaus]] and [[Edward Titchener]], included [[introspection]] among their experimental methods.
+
+==== Charles Bell ====
+
+{{Main article|Charles Bell}}
+Charles Bell was a British [[Physiology|physiologist]], whose main contribution was research involving the [[Nervous_system|nervous system]].  He wrote a pamphlet summarizing his research on rabbits.  His research concluded that sensory nerves enter at the posterior (dorsal) roots of the spinal cord and motor nerves emerge from the anterior (ventral) roots of the spinal cord.  Eleven years later, a French physiologist Francois Magendie published the same findings without being aware of Bell’s research.  Due to Bell not publishing his research, the discovery was called the [[Bell-Magendie_law|Bell-Magendie law]].  Bell’s discovery disproved the belief that nerves transmitted either vibrations or spirits.
+
+==== Ernst Heinrich Weber ====
+
+{{Main article|Ernst Heinrich Weber}}
+Weber was a German physician who is credited with being one of the founders of experimental psychology.  His main interests were the sense of touch and kinesthesis.  His most memorable contribution is the suggestion that judgments of sensory differences are relative and not absolute. This relativity is expressed in "Weber's Law," which suggests that the [[just-noticeable difference]], or '''jnd''' is a constant proportion of the ongoing stimulus level. Weber's Law is stated as an equation: 
+: <math>\frac {\Delta I} {I} = k,</math>
+where <math>I\!</math> is the original intensity of stimulation, <math>\Delta I\!</math> is the addition to it required for the difference to be perceived (the '''jnd'''), and ''k'' is a constant.  Thus, for k to remain constant, <math>\Delta I\!</math> must rise as '''I''' increases.  Weber’s law is considered the first quantitative law in the history of psychology.<ref>Hergenhahn, B.R. (2009) An Introduction to the History of Psychology. Cengage Learning.</ref>
+
+==== Gustav Fechner ====
+
+{{Main article|Gustav Fechner}}
+Fechner published in 1860 what is considered to be the first work of experimental psychology, "Elemente der Psychophysik."<ref name="Fraisse">Fraisse, P, Piaget, J, & Reuchlin, M. (1963). Experimental psychology: its scope and method. 1. History and method. New York:  Basic Books.</ref>  Some historians date the beginning of experimental psychology from the publication of "Elemente."  Weber was not a psychologist, and it was Fechner who realized the importance of Weber’s research to psychology.  Fechner was profoundly interested in establishing a scientific study of the mind-body relationship, which became known as [[psychophysics]].  Much of Fechner's research focused on the measurement of psychophysical thresholds and [[just-noticeable difference]]s, and he invented the psychophysical method of limits, the method of constant stimuli, and the method of adjustment, which are still in use.
+
+==== Oswald Külpe ====
+
+{{Main article|Oswald Külpe}}
+Oswald Külpe is the main founder of the Würzburg School in Germany.  He was a pupil of Wilhelm Wundt for about twelve years.  Unlike Wundt, Külpe believed experiments were possible to test higher mental processes.  In 1883 he wrote Grundriss der Psychologie, which had strictly scientific facts and no mention of thought.<ref name="Fraisse" />  The lack of thought in his book is odd because the Würzburg School put a lot of emphasis on mental set and imageless thought.
+
+==== Würzburg School ====
+
+The work of the Würzburg School was a milestone in the development of experimental psychology.  The School was founded by a group of psychologists led by Oswald Külpe, and it provided an alternative to the [[structuralism (psychology)|structuralism]] of Edward Titchener and Wilhelm Wundt.  Those in the School focused mainly on mental operations such as mental set (''Einstellung'') and imageless thought.  Mental set affects perception and problem solving without the awareness of the individual; it can be triggered by instructions or by experience. Similarly, according to Külpe, imageless thought consists of pure mental acts that do not involve mental images.  An example of mental set was provided by William Bryan, an American student working in Külpe’s laboratory.  Bryan presented subjects with cards that had nonsense syllables written on them in various colors.  The subjects were told to attend to the syllables, and in consequence they did not remember the colors of the nonsense syllables.  Such results made people question the validity of introspection as a research tool, and led to a decline of [[voluntarism (metaphysics)|voluntarism]] and structuralism.  The work of the Würzburg School later influenced many [[gestalt psychology|Gestalt psychologists]], including [[Max Wertheimer]].
+
+==== George Trumbull Ladd ====
+
+{{main article|George Trumbull Ladd}}
+Experimental psychology was introduced into the United States by [[George Trumbull Ladd]], who founded [[Yale University]]'s psychological laboratory in 1879. In 1887, Ladd published ''Elements of Physiological Psychology'', the first American textbook that extensively discussed experimental psychology. Between Ladd's founding of the Yale Laboratory and his textbook, the center of experimental psychology in the US shifted to [[Johns Hopkins University]], where [[George Hall (psychologist)|George Hall]] and [[Charles Sanders Peirce]] were extending and qualifying Wundt's work.
+
+==== Charles Sanders Peirce ====
+
+{{main article|Charles Sanders Peirce|Random assignment}}
+{{see also|Repeated measures design}}
+[[File:Charles Sanders Peirce.jpg|thumb|220px|Charles Sanders Peirce]]
+[[File:Joseph Jastrow.jpg|thumb|220px|Joseph Jastrow]]
+With his student [[Joseph Jastrow]], Charles S. Peirce randomly assigned volunteers to a [[blinding (medicine)|blinded]], [[repeated-measures design]] to evaluate their ability to discriminate weights.<ref name="smalldiff">{{cite journal |author=Peirce, C.S. |authorlink=Charles Sanders Peirce |author2=Jastrow, J. |authorlink2=Joseph Jastrow |year=1885 |title=On Small Differences in Sensation |url= http://psychclassics.yorku.ca/Peirce/small-diffs.htm |journal=Memoirs of the National Academy of Sciences |volume=3 |pages=73–83}}</ref><ref name="telepathy">{{cite journal |doi=10.1086/354775 |first=Ian |last=Hacking |authorlink=Ian Hacking |title=Telepathy: Origins of Randomization in Experimental Design |journal=[[Isis (journal)|Isis]] |issue=A Special Issue on Artifact and Experiment |volume=79 |date= September 1988 |pages=427–51 |jstor=234674 |mr=1013489}}</ref><ref name="stigler">{{cite journal |doi=10.1086/444032 |author=Stigler, S.M. |authorlink=Stephen M. Stigler |title=A Historical View of Statistical Concepts in Psychology and Educational Research |journal=American Journal of Education |volume=101 |issue=1 |date=November 1992 |pages=60–70}}</ref><ref name="dehue">{{cite journal |doi=10.1086/383850 |author=Trudy Dehue |title=Deception, Efficiency, and Random Groups: Psychology and the Gradual Origination of the Random Group Design |journal=[[Isis (journal)|Isis]] |volume=88 |issue=4 |date=December 1997 |pages=653–73 |pmid=9519574}}</ref> Peirce's experiment inspired other researchers in psychology and education, which developed a research tradition of randomized experiments in laboratories and specialized textbooks in the 1800s.<ref name="smalldiff"/><ref name="telepathy"/><ref name="stigler"/><ref name="dehue"/> The Peirce–Jastrow experiments were conducted as part of Peirce's [[pragmaticism|pragmatic]] program to understand [[human perception]]; other studies considered perception of light, etc. While Peirce was making advances in experimental psychology and [[psychophysics]], he was also developing a theory of [[statistical inference]], which was published in "[[Charles Sanders Peirce bibliography#illus|Illustrations of the Logic of Science]]" (1877–78) and "[[Charles Sanders Peirce bibliography#SIL|A Theory of Probable Inference]]" (1883); both publications that emphasized the importance of randomization-based inference in statistics. To Peirce and to experimental psychology belongs the honor of having invented [[randomized experiment]]s, decades before the innovations of [[Jerzy Neyman]] and [[Ronald Fisher]] in agriculture.<ref name="smalldiff"/><ref name="telepathy"/><ref name="stigler"/><ref name="dehue"/>
+
+Peirce's pragmaticist philosophy also included an extensive theory of mental representations and cognition, which he studied under the name of [[semiotics]].<ref>Liszka, J.J. (1996). ''A General Introduction to the Semeiotic of C.S. Peirce.'' Indiana University Press.</ref> Peirce's student [[Joseph Jastrow]] continued to conduct randomized experiments throughout his distinguished career in experimental psychology, much of which would later be recognized as [[cognitive psychology]]. There has been a resurgence of interest in Peirce's work in cognitive psychology.<ref>Sowa, J.F. (1984). ''Conceptual structures: Information processing in mind and machine''. Reading, MA: Addison-Wesley.</ref><ref>Sowa, J.F. (1997). Matching logical structure to linguistic structure. In N. Houser, D.D. Roberts & J.V. Evra (Eds.), ''Studies in the logic of Charles Sanders Peirce'' (pp. 418–44). Bloomington, IN: Indiana University Press.</ref><ref>{{cite journal |title=Peirce, logic diagrams, and the elementary operations of reasoning |authorlink=Philip Johnson-Laird |first=P.N. |last=Johnson-Laird |journal=Thinking & Reasoning |volume=8 |year=2002 |pages=69–95 |doi=10.1080/13546780143000099 |url=http://www.tandf.co.uk/journals/pp/13546783.html  }}</ref> Another student of Peirce, [[John Dewey]], conducted experiments on human [[Cognition|cognition]], particularly in schools, as part of his "experimental logic" and "public philosophy."
+
+==== 20th century{{anchor|20th Century}} ====
+In the middle of the 20th century, [[behaviorism]] became a dominant paradigm within psychology, especially in the [[United States]]. This led to some neglect of [[mind|mental]] phenomena within experimental psychology. In [[Europe]] this was less the case, as European psychology was influenced by psychologists such as [[Sir Frederic Bartlett]], [[Kenneth Craik]], [[W. E. Hick|W.E. Hick]] and [[Donald Broadbent]], who focused on topics such as [[thinking]], [[memory]] and [[attention]]. This laid the foundations for the subsequent development of cognitive psychology.
+
+In the latter half of the 20th century, the phrase "experimental psychology" had shifted in meaning due to the expansion of psychology as a discipline and the growth in the size and number of its sub-disciplines. Experimental psychologists use a range of methods and do not confine themselves to a strictly experimental approach, partly because developments in the [[philosophy of science]] have affected the exclusive prestige of experimentation. In contrast, an experimental method is now widely used in fields such as developmental and [[social psychology]], which were not previously part of experimental psychology. The phrase continues in use, however, in the titles of a number of well-established, high prestige [[learned societies]] and [[scientific journals]], as well as some [[university]] courses of study in psychology.
+
+== Methodology ==
+{{Main article|Design of experiments}}
+Sound methodology is essential to the study of complex behavioral and mental processes, and this implies, especially, the careful definition and control of experimental variables.
+
+=== Some underlying assumptions of psychological science ===
+{{citation needed|date=March 2016}}  
+As a scientific endeavor, experimental psychology shares several assumptions with most other sciences. Among these are the following.
+
+==== Empiricism ====
+
+Perhaps the most basic assumption of science is that factual statements about the world must ultimately be based on observations of the world. This notion of [[empiricism]] requires that hypotheses and theories be tested against observations of the natural world rather than on a priori reasoning, intuition, or revelation.
+
+==== Testability ====
+
+Closely related to empiricism is the idea that, to be useful, a scientific law or theory must be testable with available research methods. If a theory cannot be tested in any conceivable way then many scientists consider the theory to be meaningless. Testability implies [[falsifiability]], which is the idea that some set of observations could prove the theory to be incorrect .<ref>Abramson, P.R. (1992) A case for case studies: An immigrant's journal. Newbury Park, CA: Sage Publications.</ref> Testability has been emphasized in psychology because influential or well-known theories like those of Freud have been difficult to test.
+
+==== Determinism ====
+
+Experimental psychologists, like most scientists, accept the notion of [[determinism]]. This is the assumption that any state of an object or event is determined by prior states.  In other words, behavioral or mental phenomena are typically stated in terms of cause and effect. If a phenomenon is sufficiently general and widely confirmed, it may be called a "law"; psychological theories serve to organize and integrate laws.
+
+==== Parsimony ====
+
+Another guiding idea of science is parsimony, the search for simplicity.  For example, most scientists agree that if two theories handle a set of empirical observations equally well, we should prefer the simpler or more parsimonious of the two.  A notable early argument for parsimony was stated by the medieval English philosopher William of Occam, and for this reason the principle of parsimony is often referred to as [[Occam's razor]].<ref>Duffy, M. (1993). Occam's razor. London: Sinclair- Stevenson.</ref>
+
+==== Operational definition ====
+
+Some well-known behaviorists such as [[Edward C. Tolman]] and [[Clark Hull]] popularized the idea of operationism, or operational definition. Operational definition implies that a concept be defined in terms of concrete, observable procedures. Experimental psychologists attempt to define currently unobservable phenomena, such as mental events, by connecting them to observations by chains of reasoning.<ref>{{cite journal | last1 = Benjafield | first1 = J. G. | year = 2013 | title = The vocabulary of anglophone psychology in the context of other subjects | url = | journal = History of Psychology | volume = 16 | issue = 1| pages = 36–56 | doi = 10.1037/a0030532 | pmid = 23394175 }}</ref>
+
+=== Experiments ===
+{{Main article|Experiment}}
+In experiments, human participants often respond to visual, auditory or other stimuli, following instructions given by an experimenter; animals may be similarly "instructed" by rewarding appropriate responses. Since the 1990s, computers have commonly been used to automate stimulus presentation and behavioral measurement in the laboratory. Behavioral experiments with both humans and animals typically measure reaction time, choices among two or more alternatives, and/or response rate or strength; they may also record movements, facial expressions, or other behaviors. Experiments with humans may also obtain written responses before, during, and after experimental procedures. [[Psychophysiology|Psychophysiological]] experiments, on the other hand, measure brain or (mostly in animals) single-cell activation during the presentation of a stimulus using methods such as [[fMRI]], [[EEG]], [[Positron emission tomography|PET]] or similar.
+
+Control of [[extraneous variables]], minimizing the potential for [[experimenter bias]], counterbalancing the order of experimental tasks, adequate [[sample size]], the use of [[operational definition]]s, emphasis on both the [[reliability (statistics)|reliability]] and [[validity (statistics)|validity]] of results, and proper [[statistical analysis]] are central to experimental methods in psychology. Because an understanding of these matters is important to the interpretation of data in almost all fields of psychology, undergraduate programs in psychology usually include mandatory courses in [[research]] methods and [[statistics]].
+
+A '''crucial experiment''' is an experiment that is intended to test several hypotheses at the same time. Ideally, one hypothesis may be confirmed and all the others rejected.  However, the data may also be consistent with several hypotheses, a result that calls for further research to narrow down the possibilities.
+
+A '''pilot study''' may be run before a major experiment, in order to try out different procedures, determine optimal values of the experimental variables, or uncover weaknesses in experimental design. The pilot study may not be an experiment as usually defined; it might, for example, consist simply of [[self-report study|self-reports]].<ref>McGuigan, F.J. (1997) Experimental Psychology: Methods of Research. New Jersey: Prentice-Hall.</ref>
+
+In a '''[[field experiment]]''', participants are observed in a naturalistic setting outside the laboratory. Field experiments differ from field ''studies'' in that some part of the environment (''field'') is manipulated in a controlled way (for example, researchers give different kinds of toys to two different groups of children in a nursery school).  Control is typically more lax than it would be in a laboratory setting.<ref>Levine, G., Parkinson, S (1994) ''Experimental methods in psychology''. Hillsdale, NJ: Lawrence Erlbaum Associates.</ref>
+
+Other methods of research such as [[case study]], interview, [[opinion polls]] and [[naturalistic observation]], are often used by psychologists. These are not experimental methods, as they lack such aspects as well-defined, controlled variables, randomization, and isolation from unwanted variables.
+
+=== Reliability and Validity ===
+
+==== Reliability ====
+
+Reliability measures the consistency or repeatability of an observation. For example, one way to assess reliability is the "test-retest" method, done by measuring a group of participants at one time and then testing them a second time to see if the results are consistent. Because the first test itself may alter the results of a second test, other methods are often used. For example, in the "split-half" measure, a group of participants is divided at random into two comparable sub-groups, and reliability is measured by comparing the test results from these groups,  It is important to note that a reliable measure need not yield a valid conclusion.<ref>Fleiss, J. L. (1986). Reliability of measurement. The design and analysis of clinical experiments, 1-32.</ref>
+
+==== Validity ====
+Validity measures the relative accuracy or correctness of conclusions drawn from a study. To determine the validity of a measurement quantitatively, it must be compared with a criterion. For example, to determine the validity of a test of academic ability, that test might be given to a group of students and the results correlated with the grade-point averages of the individuals in that group. As this example suggests, there is often controversy in the selection of appropriate criteria for a given measure.   In addition, a conclusion can only be valid to the extent that the observations upon which it is based are reliable.
+
+Several types of validity have been distinguished, as follows:
+
+===== Internal validity =====
+
+[[Internal validity]] refers to the extent to which a set of research findings provides compelling information about causality.<ref>{{cite journal | last1 = West | first1 = S. G. | last2 = Thoemmes | first2 = F. | year = 2010 | title = Campbell's and Rubin's perspectives on causal inference | url = | journal = Psychological Methods | volume = 15 | issue = 1| pages = 18–37 | doi = 10.1037/a0015917 | pmid = 20230100 }}</ref> High internal validity implies that the experimental design of a study excludes extraneous influences, such that one can confidently conclude that variations in the independent variable caused any observed changes in the dependent variable.
+
+===== External validity =====
+
+[[External Validity]] refers to the extent to which the outcome of an experiment can be generalized to apply to other situations than those of the experiment - for example, to other people, other physical or social environments, or even other cultures.<ref>{{cite journal | last1 = Berkowitz | first1 = L. | last2 = Donnerstein | first2 = E. | year = 1982 | title = External validity is more than skin deep: Some answers to criticisms of laboratory experiments | url = | journal = American Psychologist | volume = 37 | issue = 3| pages = 245–257 | doi=10.1037/0003-066x.37.3.245}}</ref><ref>Brewer, M. (2000). Research Design and Issues of Validity. In Reis, H. & Judd, C. (eds) Handbook of Research Methods in Social and Personality Psychology. Cambridge:Cambridge University Press.</ref>
+
+===== Construct validity =====
+
+Construct validity refers to the extent to which the independent and dependent variables in a study represent the abstract hypothetical variables of interest.<ref>{{cite journal | last1 = King | first1 = L. A. | last2 = King | first2 = D. W. | year = 1990 | title = Role conflict and role ambiguity: A critical assessment of construct validity | url = | journal = Psychological Bulletin | volume = 107 | issue = 1| pages = 48–64 | doi=10.1037/0033-2909.107.1.48}}</ref> In other words, it has to do with whether the manipulated and/or measured variables in a study accurately reflect the variables the researcher hoped to manipulate. Construct validity also reflects the quality of one’s operational definitions. If a researcher has done a good job of converting the abstract to the observable, construct validity is high.
+
+===== Conceptual validity =====
+
+Conceptual validity refers to how well specific research maps onto the broader theory that it was designed to test. Conceptual and construct validity have a lot in common, but conceptual validity relates a study to broad theoretical issues whereas construct validity has more to do with specific manipulations and measures.
+
+=== Scales of measurement ===
+{{Main article|Units of measurement|Systems of measurement|Level of measurement}}
+
+Measurement can be defined as "the assignment of numerals to objects or events according to rules."<ref name = "Torg">Torgerson, W. S. (1962) Theory and Methods of Scaling. New York: Wiley</ref><ref name = "Stevens">Stevens, S. S. (1951) Mathematics, Measurement and Psychophysics in S. S. Stevens (Ed) Handbook of Experimental Psychology. New York: Wiley</ref>
+Almost all psychological experiments involve some sort of measurement, if only to determine the reliability and validity of results, and of course measurement is essential if results are to be relevant to quantitative theories.
+
+The rule for assigning numbers to a property of an object or event is called a "scale".    Following are the basic scales used in psychological measurement.<ref name = "Stevens"/>
+
+==== Nominal measurement ====
+In a nominal scale, numbers are used simply as labels – a letter or name would do as well.  Examples are the numbers on the shirts of football or baseball players. The labels are more useful if the same label can be given to more than one thing, meaning that the things are equal in some way, and can be classified together.
+
+==== Ordinal measurement ====
+An ordinal scale arises from the ordering or ranking objects, so that A is greater than B, B is greater than C, and so on.  Many psychological experiments yield numbers of this sort; for example, a participant might be able to rank odors such that A is more pleasant than B, and B is more pleasant than C, but these rankings ("1, 2, 3 ...") would not tell by how much each odor differed from another. Some statistics can be computed from ordinal measures – for example, [[median]], percentile, and [[Correlation and dependence|order correlation]] – but others, such as [[standard deviation]], cannot properly be used.
+
+==== Interval measurement ====
+An interval scale is constructed by determining the equality of differences between the things measured. That is, numbers form an interval scale when the differences between the numbers correspond to differences between the properties measured. For instance, one can say that the difference between 5 and 10 degrees on a Fahrenheit thermometer equals the difference between 25 and 30, but it is meaningless to say that something with a temperature of 20 degrees Fahrenheit is "twice as hot" as something with a temperature of 10 degrees. (Such ratios are meaningful on an [[Thermodynamic temperature|absolute temperature scale]] such as the Kelvin scale. See next section.) "Standard scores" on an achievement test are said to be measurements on an interval scale, but this is difficult to prove.<ref name = "Stevens"/>
+
+==== Ratio measurement ====
+A ratio scale is constructed by determining the equality of ratios. For example, if, on a balance instrument, object A balances two identical objects B, then one can say that A is twice as heavy as B and can give them appropriate numbers, for example "A weighs 2 grams" and "B weighs 1 gram". A key idea is that such ratios remain the same regardless of the scale units used; for example, the ratio of A to B remains the same whether grams or ounces are used.  Length, resistance, and Kelvin temperature are other things that can be measured on ratio scales.  Some psychological properties such as the loudness of a sound can be measured on a ratio scale.<ref name = "Stevens"/>
+
+=== Research design ===
+
+==== One-way designs ====
+
+The simplest experimental design is a one-way design, in which there is only one independent variable. The simplest kind of one-way design involves just two-groups, each of which receives one value of the independent variable.  A two-group design typically consists of an [[experimental group]] (a group that receives treatment) and a [[control group]] (a group that does not receive treatment).<ref>Kline, R. B. (2004). Effect Size Estimation in Multifactor Designs. In ''Beyond significance testing: Reforming data analysis methods in behavioral research'' (pp. 203-243). Washington, DC US: American Psychological Association. {{DOI|10.1037/10693-007}}</ref>
+
+The one-way design may be expanded to a one-way, multiple groups design. Here a single independent variable takes on three or more levels.<ref>Kline, R. B. (2004). Effect Size Estimation in One-Way Designs. In ''Beyond significance testing: Reforming data analysis methods in behavioral research'' (pp. 163-202). Washington, DC US: American Psychological Association. {{DOI|10.1037/10693-006}}</ref> This type of design is particularly useful because it can help to outline a functional relationship between the independent and dependent variables.
+
+==== Factorial designs ====
+
+One-way designs are limited in that they allow researchers to look at only one independent variable at a time, whereas many phenomena of interest are dependent on multiple variables. Because of this, [[R.A Fisher]] popularized the use of factorial designs. [[Factorial designs]] contain two or more independent variables that are completely "crossed," which means that every level each independent variable appears in combination with every level of all other independent variables. Factorial designs carry labels that specify the number of independent variables and the number of levels of each independent variable there are in the design. For example, a 2x3 factorial design has two independent variables (because there are two numbers in the description), the first variable having two levels and the second having three.
+
+==== Main effects and interactions ====
+
+The effects of [[independent variables]] in factorial studies, taken singly, are referred to as main effects. This refers to the overall effect of an independent variable, averaging across all levels of the other independent variables. A main effect is the only effect detectable in a one-way design.<ref>Xu, L., Yang, F., Abula, A., & Qin, S. (2013). A parametric bootstrap approach for [[two-way ANOVA]] in presence of possible interactions with unequal variances. Journal of Multivariate Analysis, 115172-180. {{DOI|10.1016/j.jmva.2012.10.008}}</ref>  Often more important than main effects are "interactions", which occur when the effect of one independent variable on a dependent variable depends on the level of a second independent variable. For example, the ability to catch a ball (dependent variable) might depend on the interaction of visual acuity (independent variable #1) and the size of the ball being caught (independent variable #2).  A person with good eyesight might catch a small ball most easily, and person with very poor eyesight might do better with a large ball, so the two variables can be said to interact.
+
+==== Within- and between-subjects designs ====
+
+Two basic approaches to [[research design]] are within-subjects design and [[between-subjects design]]. In within-subjects or repeated measures designs, each participant serves in more than one or perhaps all of the conditions of a study. In between-subjects designs each participant serves in only one condition of an experiment.<ref>{{cite journal | last1 = Charness | first1 = G. | last2 = Gneezy | first2 = U. | last3 = Kuhn | first3 = M. A. | year = 2012 | title = Experimental methods: Between-subject and within-subject design | url = | journal = Journal of Economic Behavior & Organization | volume = 81 | issue = 1| pages = 1–8 | doi = 10.1016/j.jebo.2011.08.009 }}</ref> Within-subjects designs have significant advantages over between-subjects designs, especially when it comes to complex factorial designs that have many conditions. In particular, within-subjects designs eliminate person confounds, that is, they get rid of effects caused by differences among subjects that are irrelevant to the phenomenon under study.  However, the within-subject design has the serious disadvantage of possible sequence effects. Because each participant serves in more than one condition, the passage of time or the performance of an earlier task may affect the performance of a later task. For example, a participant might learn something from the first task that affects the second.
+<ref>{{cite journal | last1 = Brooks | first1 = J. L. | year = 2012 | title = Counterbalancing for serial order carryover effects in experimental condition orders | url = | journal = Psychological Methods | volume = 17 | issue = 4| pages = 600–614 | doi = 10.1037/a0029310 }}</ref>
+
+== Experimental instruments ==
+
+Instruments used in experimental psychology evolved along with technical advances and with the shifting demands of experiments. The earliest instruments, such as the Hipp Chronoscope and the kymograph, were originally used for other purposes. The list below exemplifies some of the different instruments used over the years.
+
+=== Hipp chronoscope / chronograph ===
+
+This instrument, dating from around 1850, uses a vibrating reed to tick off time in 1000ths of a second. Originally designed for experiments in physics, it was later adapted to study the speed of bullets.<ref>{{cite journal | last1 = Sturm | first1 = T. | last2 = Ash | first2 = M.G | year = 2005 | title = Roles of instruments in psychological research | url = | journal = History of Psychology | volume = 8 | issue = 1| pages = 3–34 | doi=10.1037/1093-4510.8.1.3| pmid = 16021762 }}</ref>   After then being introduced to physiology, it was finally used in psychology to measure reaction time and the duration of mental processes.
+
+=== Stereoscope ===
+
+{{main article|Stereoscope}}
+The first stereoscope was invented by Wheatstone in 1838.<ref>{{cite journal | last1 = Wheatstone | first1 = C | year = 1838 | title = On some remarkable and hitherto unobserved phenomena of binocular vision | url = | journal = Philosophical Transactions of the Royal Society of London | volume = 128 | issue = | pages = 371–394 | doi=10.1098/rstl.1838.0019}}</ref>   It presents two slightly different images, one to each eye, at the same time. Typically the images are photographs of the same object taken from camera positions that mimic the position and separation of the eyes in the head. When one looks through the steroscope the photos fuse into a single image that conveys a powerful sense of depth and solidity.
+
+=== Kymograph ===
+
+Developed by Carl Ludwig in the 19th century, the kymograph is a revolving drum on which a moving stylus tracks the size of some measurement as a function of time.  The kymograph is similar to the polygraph, which has a strip of paper moving under one or more pens. The kymograph was originally used to measure blood pressure and it later was used to measure muscle contractions and speech sounds.  In psychology, it was often used to record response times.
+
+=== Photokymographs ===
+
+This device is a photographic recorder.  It used mirrors and light to record the photos.  Inside a small box with a slit for light there are two drive rollers with film connecting the two.  The light enters through the slit to record on the film.  Some photokymographs have a lens so an appropriate speed for the film can be reached.
+
+=== Galvanometer ===
+
+{{Main article|Galvanometer}}
+
+The galvanometer is an early instrument used to measure the strength of an electric current.  Hermann von Helmholtz used it to detect the electrical signals generated by nerve impulses, and thus to measure the time taken by impulses to travel between two points on a nerve.
+
+=== Audiometer ===
+
+This apparatus was designed to produce several fixed frequencies at different levels of intensity.  It could either deliver the tone to a subject’s ear or transmit sound oscillations to the skull.  An experimenter would generally use an audiometer to find the auditory threshold of a subject.  The data received from an audiometer is called an audiogram.
+
+=== Colorimeters ===
+
+These determine the color composition by measuring its tricolor characteristics or matching of a color sample.  This type of device would be used in visual experiments.<ref name=Stevens />
+
+=== Algesiometers and algometers ===
+
+Both of these are mechanical stimulations of pain. They have a sharp needle-like stimulus point so it does not give the sensation of pressure. Experimenters use these when doing an experiment on analgesia.
+
+=== Olfactometer ===
+
+An olfactometer is any device that is used to measure the sense of smell.  The most basic type in early studies was placing a subject in a room containing a specific measured amount of an odorous substance.  More intricate devices involve some form of sniffing device, such as the neck of a bottle.  The most common olfactometer found in psychology laboratories at one point was the Zwaardemker olfactometer.  It had two glass nasal tubes projecting through a screen.  One end would be inserted into a stimulus chamber, the other end is inserted directly into the nostrils.
+
+=== Mazes ===
+
+Probably one of the oldest instruments for studying memory would be the maze.  The common goal is to get from point A to point B, however the mazes can vary in size and complexity.  Two types of mazes commonly used with rats are the radial arm maze and the Morris water maze.<ref>Meyer, J., & Quenzer, L. (2005) Psychopharmacology: Drugs, the Brain, and Behavior. Sinauer Associates, Inc.</ref>  The [[radial arm maze]] consists of multiple arms radiating from a central point.  Each arm has a small piece of food at the end.  The Morris water maze is meant to test spatial learning.  It uses a large round pool of water that is made opaque.  The rat must swim around until it finds the escape platform that is hidden from view just below the surface of the water.
+
+=== Electroencephalograph (EEG) ===
+
+{{Main article|Electroencephalography}}
+
+The EEG is an instrument that can reflect the summed electrical activity of neural cell assemblies in the brain.  It was originally used as an attempt to improve medical diagnoses.  Later it became a key instrument to psychologists in examining brain activity and it remains a key instrument used in the field today.
+
+=== Functional magnetic resonance imaging (fMRI) ===
+
+{{Main article|Functional magnetic resonance imaging}}
+
+The fMRI is an instrument that can detect changes in blood oxygen levels over time.  The increase in blood oxygen levels shows where brain activity occurs.  These are rather bulky and expensive instruments which are generally found in hospitals.  They are most commonly used for cognitive experiments.
+
+=== Positron emission tomography (PET) ===
+
+{{Main article|Positron emission tomography}}
+
+PET is also used to look at brain activity.  It can detect drugs binding neurotransmitter receptors in the brain.  A down side to PET is that it requires radioisotopes to be injected into the body so the brain activity can be mapped out.  The radioisotopes decay quickly so they do not accumulate in the body.
+
+== Some research areas that employ experimental methods ==
+The use of experimental methods was perhaps the main characteristic by which psychology became distinguishable from philosophy in the late 19th century.<ref>Hearst, E. (1979) The First Century of Experimental Psychology. Hillsdale, NJ: Erlbaum</ref> Ever since then experiments have been an integral part of most psychological research.  Following is a sample of some major areas that use experimental methods.
+
+=== Cognitive psychology ===
+
+{{Main article|Cognitive psychology}}
+
+Some of the major topics studied by cognitive psychologists are [[memory]], [[learning]], [[problem solving]], and [[attention]].  Most cognitive experiments are done in a lab instead of a social setting; this is done mainly to provide maximum control of experimental variables and minimal interference from irrelevant events and other aspects of the situation. A great many experimental methods are used; frequently used methods are described on the main pages of the topics just listed. In addition to studying behavior, experimenters may use fMRI or PET so they are able to see what areas of the brain are active during cognitive processing.
+
+==== Animal cognition ====
+
+{{Main article|Animal cognition}}
+
+Animal cognition refers to the mental capacities of non-human animals, and research in this field often focuses on matters similar to those of interest to cognitive psychologists using human participants.  Cognitive studies using animals can often control conditions more closely and use methods not open to research with humans. In addition, processes such as conditioning my appear in simpler form in animals, certain animals display unique capacities (such as echo location in bats) that clarify important cognitive functions, and animal studies often have important implications for the survival and evolution of species.
+
+=== Sensation and perception ===
+
+{{Main article|Sensation (psychology)}}
+
+Experiments on sensation and perception have a very long history in experimental psychology (see History above).  Experimenters typically manipulate stimuli affecting vision, hearing, touch, smell, taste and proprioception.  Sensory measurement plays a large role in the field, covering many aspects of sensory performance - for example, minimum discriminable differences in brightness or the detection of odors; such measurement involves the use of instruments such as the oscillator, attenuator, stroboscope, and many others listed earlier in this article.  Experiments also probe subtle phenomena such as visual illusions, or the emotions aroused by stimuli of different sorts.
+
+=== Behavioral psychology ===
+
+{{Main article|Behaviorism}}
+{{See also|Operant Conditioning}}
+{{See also|Classical Conditioning}}
+
+The behavioristic approach to psychology reached its peak of popularity in the mid twentieth century but still underlies much experimental research and clinical application. Its founders include such figures as [[Ivan Pavlov]], [[John B. Watson]], and [[B.F. Skinner]].  Pavlov's experimental study of the digestive system in dogs led to extensive experiments through which he established the basic principles of classical conditioning. Watson popularized the behaviorist approach to human behavior; his experiments with [[Little Albert experiment|Little Albert]] are particularly well known.  Skinner distinguished [[operant conditioning]] from [[classical conditioning]] and established the experimental analysis of behavior as a major component in the subsequent development of experimental psychology.
+
+=== Social psychology ===
+
+{{Main article|Social psychology}}
+Social psychologists use experimental methods, both within and outside the laboratory, in an attempt to understand human social interaction.  Two widely cited experiments in social psychology experiment are the [[Stanford prison experiment]] conducted by [[Philip Zimbardo]] in 1971 and the [[Milgram experiment|Milgram obedience experiment]] by [[Stanley Milgram]].  In both experiments ordinary individuals were induced to engage in remarkably cruel behavior, suggesting that such behavior can be very strongly influenced by social pressure. Because of possible negative effects on the participants, neither of these experiments could be legally performed in the United States today.
+
+== Institutional review board (IRB) ==
+{{Main article|Institutional review board}}
+
+In the United States, Institutional Review Boards (IRBs) play an important role in monitoring the conduct of psychological experiments. Their presence is required by law at institutions such a universities where psychological research occurs. Their purpose is to make sure that experiments do not violate ethical codes or legal requirements; thus they protect human subjects from physical or psychological harm and assure the humane treatment of animal subjects.  An IRB must review the procedure to be used in each experiment before that experiment may begin. The IRB also assures that human participants give informed consent in advance; that is, the participants are told the general nature of the experiment and what will be required of them. There are three types of review that may be undertaken by an IRB - exempt, expedited, and full review. More information is available on the main IRB page.<ref>Bronte-Tinkew, J., Allen, T., & Joyner, K. (2008) Institutional Review Boards (IRBs): What are they and why are they important? Atlantic Philanthropies.</ref>
+
+== Criticism ==
+{{No footnotes|section|date=December 2018}}
+There have been several criticisms of experimental psychology.
+
+=== Frankfurt school ===
+
+{{See also|Frankfurt school|Herbert Marcuse|Theodore Adorno|Jürgen Habermas|Karl Popper|Alasdair MacIntyre}}
+One school opposed to experimental psychology has been associated with the Frankfurt School, which calls its ideas "[[Critical Theory]]." [[Critical psychologist]]s claim that experimental psychology approaches humans as entities independent of the cultural, economic, and historical context in which they exist. These contexts of human mental processes and behavior are neglected, according to critical psychologists, like [[Herbert Marcuse]]. In so doing, experimental psychologists paint an inaccurate portrait of human nature while lending tacit support to the prevailing social order, according to critical theorists like [[Theodor Adorno]] and [[Jürgen Habermas]] (in their essays in ''The Positivist Debate in German Sociology'').
+
+[[Critical theory]] has itself been criticized, however. While the philosopher [[Karl Popper]] "never took their methodology (whatever that may mean) seriously" (p.&nbsp;289), Popper wrote counter-criticism to reduce the {{"'}}irrationalist' and 'intelligence-destroying{{'"}} "political influence" of critical theorists on students ([[Karl Popper]] pages 288–300 in ''[The Positivist Debate in German Sociology]''). The critical theorists Adorno and Marcuse have been severely criticized by [[Alasdair MacIntyre]] in ''Herbert Marcuse: An Exposition and Polemic''. Like Popper, MacIntyre attacked critical theorists like Adorno and especially Marcuse as obscurantists pontificating dogma in the authoritarian fashion of German professors of philosophy of their era—before World War II—(page 11); Popper made a similar criticism of critical theory's rhetoric, which reflected the culture of [[Hegelian]] [[social studies]] in [[German universities]] (pp.&nbsp;293–94). Furthermore, MacIntyre ridiculed Marcuse as being a [[ultra-leftism|senile]] revival of the [[young Hegelian]] [[Theses on Feuerbach|tradition]] [[The German Ideology|criticized]] by [[Karl Marx|Marx]] and [[F. Engels|Engels]] (pp.&nbsp;18–19, 41, and 101); similarly, "critical theory{{"'}}s revival of [[young Hegelianism]] and its criticism by Karl Marx was noted by Popper (p.&nbsp;293). Marcuse's support for the political re-education camps of [[Cultural Revolution|Maoist China]] was also criticized as [[totalitarian]] by MacIntyre (pp.&nbsp;101–05). More recently, the [[Critical Theory]] of Adorno and Marcuse has been criticized as being a degeneration of the original [[Frankfurt school]], particularly the work of empirical psychologist [[Erich Fromm]],<ref>{{cite journal |doi=10.2307/3341480 |title=Origin Myths in the Social Sciences: Fromm, the Frankfurt School and the Emergence of Critical Theory |author=Neil McLaughlin |journal=Canadian Journal of Sociology |volume=24 |issue=1 |date=Winter 1999 |pages=109–139 |jstor=3341480 }}</ref> who did surveys and experiments to study the development of personality in response to economic stress and social change (Michael Macoby's Preface to Fromm's ''[http://www.transactionpub.com/title/Social-Character-in-a-Mexican-Village-978-1-56000-876-7.html Social Character in a Mexican Village]'').
+
+== See also ==
+* [[Outline of psychology]]
+* [[Psychonomic Society]]
+* [[Society of Experimental Psychologists]]
+* [[Empirical psychology]]
+
+== Notes ==
+{{reflist|2}}
+
+== References ==
+{{Library resources box|by=no|onlinebooks=no|about=yes|wikititle=experimental psychology}}
+* {{Cite book |first=Edwin G. |last=Boring |title=A History of Experimental Psychology |edition=2nd |publisher=Prentice-Hall |year=1950}}
+* {{Cite book |first=Robert L. |last=Solso |lastauthoramp=yes |first2=M. Kimberly |last2=MacLin |title=Experimental Psychology: A Case Approach |edition=7th |location=Boston |publisher=Allyn & Bacon |year=2001 |isbn=978-0-205-41028-6}}
+
+{{Authority control}}
+
+[[Category:Experimental psychology| ]]
+[[Category:Branches of psychology]]
+[[Category:Psychological methodology]]
+[[Category:Mathematical and quantitative methods (economics)]]

@@ -1,0 +1,56 @@
+{{multiple issues|
+{{lead rewrite|date=September 2011}}
+{{more footnotes|date=January 2012}}
+}}
+
+'''Context-aware computing''' refers to a general class of mobile systems that can sense their physical environment, and adapt their behavior accordingly.<ref>{{cite web|url= http://www.sersc.org/journals/IJSH/vol4_no1_2010/1.pdf|last= Rosslin John |first= Robles|date=January 2010|title= Review: Context Aware Tools for Smart Home Development|journal= International Journal of Smart Home|volume=4|pages=2–3}}</ref><ref>{{cite journal |first=Thyagaraju |last= GS |author2=Umakant P Kulkarni |title=Design and Implementation of User Context aware Recommendation Engine for Mobile using Bayesian Network, Fuzzy Logic and Rule Base|journal=International Journal of Computer Applications|volume=40 |issue=3|pages=47–63 |year= 2012|doi= 10.5120/5028-7176}}</ref>
+
+Context-aware systems are a component of a [[ubiquitous computing]] or [[pervasive computing]] environment.<ref name="Design and Implementation of User Context aware Recommendation Engine for Mobile using Bayesian Network, Fuzzy Logic and Rule Base ">Review:{{cite journal |first=Thyagaraju |last= GS |author2=Umakant P Kulkarni |title=Design and Implementation of User Context aware Recommendation Engine for Mobile using Bayesian Network, Fuzzy Logic and Rule Base|journal=International Journal of Computer Applications|volume=40 |issue=3|pages=47–63 |year= 2012|doi= 10.5120/5028-7176}}</ref>{{citation needed|date=January 2012}} Three important aspects of context are: where you are; who you are with; and what resources are nearby. Although location is a primary capability, location-aware does not necessarily capture things of interest that are mobile or changing. Context-aware in contrast is used more generally to include nearby people, devices, lighting, noise level, network availability, and even the social situation, e.g., whether you are with your family or a friend from school.<ref name=" Review: Context Aware Tools for Smart Home Development ">Review: {{cite web|url= http://www.sersc.org/journals/IJSH/vol4_no1_2010/1.pdf|last= Rosslin John |first= Robles|date=January 2010|title= Review: Context Aware Tools for Smart Home Development|journal= International Journal of Smart Home|volume=4|pages=2–3}}</ref>
+
+== History ==
+The concept emerged from [[ubiquitous computing]] research at [[Xerox PARC]] and elsewhere in the early 1990s.{{citation needed|date=January 2012}} The term 'context-aware' was first used by Schilit and Theimer in their 1994 paper ''Disseminating Active Map Information to Mobile Hosts'' where they describe a model of computing ''in which users interact with many different mobile and stationary computers'' and classify a context-aware systems as one that can ''adapt according to its location of use, the collection of nearby people and objects, as well as the changes to those objects over time over the course of the day.''<ref name="schilit94b">{{cite journal
+|author1=Schilit, B.N. |author2=Theimer, M.M.
+| year = 1994
+| title = Disseminating Active Map Information to Mobile Hosts
+| journal = IEEE Network
+| pages = 22–32
+| volume = 8
+| issue = 5
+| doi = 10.1109/65.313011
+}}</ref>
+<ref>{{cite web|url=http://www.valueageing.eu/wp-content/uploads/2012/10/D2.2-Ubiquitous-Communication-Document.pdf|title=DELIVERABLE D2.2– Document on Ubiquitous Communication}}</ref>
+
+== See also ==
+* [[Ambient intelligence]]
+* [[Context awareness]]
+* [[Differentiated service (design pattern)]]
+* [[Locative media|Locative Media]]
+
+== References ==
+{{Reflist}}
+
+==Further reading==
+* [http://www-lia.deis.unibo.it/Staff/LucaFoschini/pdfDocs/context_survey_CSUR.pdf A Survey of Context Data Distribution for Mobile Ubiquitous Systems]. P. Bellavista, A. Corradi, M. Fanelli, L. Foschini. ''[[ACM Computing Surveys]]'' (CSUR), [[ACM Press]], expected to appear in Vol. 45, No. 1, March 2013, pages 1–49.
+* [https://web.archive.org/web/20100415205657/http://www.academypublisher.com/ojs/index.php/jsw/article/view/04099921013/1431 Context and Adaptivity in Pervasive Computing Environments: Links with Software Engineering and Ontological Engineering]. A. Soylu, P. De Causmaecker, P. Desmet. Journal of Software, Vol 4, No 9 (2009), 992-1013, November 2009 {{doi|10.4304/jsw.4.9.992-1013}}
+* [http://schilit.googlepages.com/wmc-94-schilit.pdf Context-Aware Computing Applications]. Bill N. Schilit, Norman I. Adams, and Roy Want. In Proceedings of the Workshop on Mobile Computing Systems and Applications, Santa Cruz, CA, December 1994. Pages 85–90. IEEE Computer Society.
+* [http://www1.i2r.a-star.edu.sg/~tgu/gutao/paper/SOCAM_gutao.pdf A Service-Oriented Middleware for Building Context-Aware Services]. T. Gu, H. K. Pung, D. Zhang. Elsevier Journal of Network and Computer Applications (JNCA), Vol. 28, Issue 1, pp.&nbsp;1–18, January 2005.
+* X. Wang, J. S. Dong, C. Chin, S. R. Hettiarachchi and D. Zhang. Semantic Space: A Semantic Web Infrastructure for Smart Spaces. IEEE Pervasive Computing, 3(3):32-39, July–September 2004
+* [https://web.archive.org/web/20110904201306/http://www.ayu.ics.keio.ac.jp/members/bingo/research/PUC_Guo.pdf Towards an Cooperative Programming Framework for Context-Aware Applications]. B. Guo, D. Zhang, M. Imai. ACM/Springer Journal of Personal and Ubiquitous Computing, Vol. 15, No. 3, pp.&nbsp;221–233, 2011.
+* [https://www.amazon.ca/dp/0849372550 Context-Aware Pervasive Systems: Architectures for a New Breed of Applications] by Seng W. Loke.
+* [http://www.ponnuki.de/cmaruo/cmaruo.pdf Context Modeling and Reasoning using Ontologies]. Feruzan Ay, 2007: The paper gives an introduction to context modeling and reasoning in the area of pervasive computing.
+* [http://ria.e-revues.com/article.jsp?articleId=5985 Context-Aware Information Delivery. An Application in the Health Care Domain]. J.JAHNKE, Y.BYCHKOV, D.DAHLEM, L.KAWASME. Revue d'Intelligence Artificielle, Volume 19, Issue 3, p.&nbsp;459-478 (2005)
+* [http://www.teco.edu/~albrecht/publication/draft_docs/context-is-more-than-location.pdf There is more to context than location]. Albrecht Schmidt, Michael Beigl and Hans-W. Gellersen. In: Computers & Graphics Journal, Elsevier, Volume 23, No.6, December 1999, pp 893–902.
+* [http://dl.acm.org/citation.cfm?doid=1361348.1361353 A data-oriented survey of context models]. Cristiana Bolchini, Carlo Curino, Elisa Quintarelli, Fabio A. Schreiber, Letizia Tanca. In: SIGMOD Record 36(4): 19-26 (2007)
+
+==External links==
+* [http://sandbox.xerox.com/parctab Xerox PARCTAB] is generally considered the first context-aware mobile computer.
+* [http://www.quacon09.nexus.uni-stuttgart.de/ First International Workshop on Quality of Context] (QuaCon '09), 25–26 June 2009, Stuttgart, Germany
+* [http://loca2009.context-aware.org/ 4th International Workshop on Location- and Context-Awareness] (LoCA 2009), 7–8 May 2009, Tokyo Japan
+* [http://loca2007.context-aware.org/ 3rd International Workshop on Location- and Context-Awareness] (LoCA 2007), 20–21 September 2007, Oberpfaffenhofen near Munich (DLR), Germany
+* [http://loca2006.context-aware.org/ 2nd International Workshop on Location- and Context-Awareness] (LoCA 2006), 10–11 May 2006, Dublin Ireland
+* [http://loca2005.context-aware.org/ 1st International Workshop on Location- and Context-Awareness] (LoCA 2005), 12–13 May 2005, Oberpfaffenhofen near Munich (DLR), Germany
+* [[Technology and mental health issues|Pervasive Computing and Mental Health]]
+{{Autonomous cars and enabling technologies}}
+
+[[Category:Ubiquitous computing]]
+[[Category:Embedded systems]]

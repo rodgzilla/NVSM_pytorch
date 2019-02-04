@@ -1,0 +1,41 @@
+'''Crypto-shredding''' is the practice of 'deleting' [[Data (computing)|data]] by deliberately deleting or overwriting the [[encryption]] keys.<ref>[https://books.google.nl/books?id=nMwVDAAAQBAJ&pg=PT668&dq=isbn:1119278651+crypto-shredding&hl=nl&sa=X&ved=0ahUKEwj51IGKoqHTAhUoKsAKHZWwCaoQ6AEIJDAA#v=onepage&q=isbn%3A1119278651%20crypto-shredding&f=false Crypto-shredding in 'The Official ISC2 Guide to the SSCP CBK'] {{ISBN|1119278651}}</ref> 
+This requires that the data have been encrypted. Data comes in these three states: [[data at rest]], [[data in transit]] and [[data in use]]. In the [[CIA triad]] of confidentiality, integrity, and availability all three states must be adequately protected.
+
+Getting rid of data at rest like old [[backup]] tapes, [[Cloud storage#Potential_concerns|data stored in the cloud]], [[Computer data storage|computers]], phones, and [[Multi-function_printer#Security|multi-function printer]]s can be challenging when confidentiality of information is of concern; when encryption is in place it allows for smooth disposal of data. [[Confidentiality]] and [[privacy]] are big drivers of encryption.
+
+==Motive==
+The motive of deleting data can be: defect product, old product, no further use of data, no legal right to [[wiktionary:en:retain|retain]] data any longer, etc. Legal obligations can come from rules like: the [[right to be forgotten]], the [[General Data Protection Regulation]], etc.
+
+==Use==
+In some cases everything is encrypted (eg. [[harddisk]], [[computer file]], [[database]], etc.) but in other cases only specific data (eg. [[passport]] number, [[social security number]], [[bank account number]], [[person name]], [[database record|record in a database]], etc.) is encrypted. In addition the same specific data in one system can be encrypted with another key in another system.
+The more [[Data-centric security|specific each piece of data is encrypted]] (with different keys) the more specific data can be shredded.
+
+Example: [[iOS]] devices use crypto-shredding when activating the "Erase all content and settings" by discarding all the keys in 'effaceable storage'. This renders all user data on the device cryptographically inaccessible.<ref>[https://uit.stanford.edu/security/data-sanitization Crypto-shredding using effaceable storage in iOS on stanford.edu]</ref>
+
+==Best practices==
+* '''Storing encryption keys''' securely is important for shredding to be effective. There is no effect when a encryption key is shredded when it has already been compromised (copied). A [[Trusted Platform Module]] addresses this issue. A [[hardware security module]] is one of the safest ways to use and store encryption keys.
+* '''[[Bring your own encryption]]''' refers to a cloud computing security model to help cloud service customers to use their own encryption software and manage their own encryption keys.
+* '''Salt''': [[Cryptographic_hash_function|Hashing]] can be inadequate for confidentiality, because the hash is always the same. For example: The hash of a specific [[social security number]] can be reverse engineered by the help of [[rainbow table]]s. [[Salt (cryptography)|Salt]] addresses this problem.
+
+==Security considerations==
+* '''[[Security level|Encryption strength]]''' can be weaker over time when computers get faster or flaws are found.
+* '''[[Brute-force attack]]''': If the data is not adequately encrypted it is still possible to decrypt the information through brute force. [[Quantum computing]] has the potential to speed up a brute force attack in the future.<ref>[https://www.ncsc.nl/english/current-topics/factsheets/factsheet-post-quantum-cryptography.html Factsheet post quantum cryptography on ncsc.nl]</ref> However, quantum computing is less effective against [[symmetric encryption]] than [[public-key encryption]]. Assuming the use of symmetric encryption, the fastest possible attack is [[Grover's algorithm]], which can be mitigated by using larger keys.<ref>[https://application.wiley-vch.de/PQC_for_Dummies Post Quantum-Crypto for dummies on wiley-vch.de]</ref>
+
+* '''[[Data in use]]'''. For example: the encryption keys temporarily used in [[Random-access_memory|RAM]] can be threatened by [[cold boot attack]]s, hardware [[advanced persistent threat]]s, [[rootkits]]/bootkits, computer hardware [[supply chain attack]]s, and physical threats to computers from insiders (employees).
+* '''[[Data remanence]]''': For example: When data on a harddisk is encrypted after it has been stored there is a chance that there is still unencrypted data on the harddisk. Encrypting data does not automatically mean it will overwrite the exact same location of the unencrypted data. Also [[Bad sector|bad sectors]] cannot be encrypted afterwards. It is better to have encryption in place before storing data.
+* '''[[Hibernation (computing)|Hibernation]]''' is a threat to the use of an encryption key. When an encryption key is loaded into RAM and the machine is hibernated at that time, all memory, including the encryption key, is stored on the harddisk (outside of the encryption key's safe storage location).
+
+The mentioned security issues are not specific to crypto-shredding, but apply in general to encryption. In addition to crypto-shredding, [[data erasure]], [[degaussing]] and [[Scrap_metal_shredder|physically shredding]] the physical device (disk) can mitigate the risk further.
+
+==See also==
+* [[Data erasure]]
+* [[Data remanence]]
+
+==References==
+{{Reflist}}
+
+{{Cryptography navbox}}
+
+[[Category:Public-key cryptography]]
+[[Category:Cryptography]]
+[[Category:Key management]]

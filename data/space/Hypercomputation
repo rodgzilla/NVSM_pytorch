@@ -1,0 +1,168 @@
+'''Hypercomputation''' or '''super-Turing computation''' refers to models of computation that can provide outputs that are not [[Turing computable]]. For example, a machine that could solve the [[halting problem]] would be a hypercomputer; so too would one that can [[Entscheidungsproblem|correctly evaluate every statement]] in [[Peano arithmetic]].
+
+The [[Church–Turing thesis]] states that any "effectively computable" function that can be computed by a mathematician with a pen and paper using a finite set of simple algorithms, can be computed by a Turing machine. Hypercomputers compute functions that a Turing machine cannot and which are, hence, not effectively computable in the Church–Turing sense.
+
+Technically the output of a [[random Turing machine]] is uncomputable; however, most hypercomputing literature focuses instead on the computation of useful, rather than random, uncomputable functions.
+
+==History==
+A computational model going beyond Turing machines was introduced by [[Alan Turing]] in his 1938 PhD dissertation ''[[Systems of Logic Based on Ordinals]]''.<ref>Alan Turing, 1939, ''Systems of Logic Based on Ordinals'' Proceedings London Mathematical Society Volumes 2–45, Issue 1, pp. 161–228.[http://plms.oxfordjournals.org/content/s2-45/1/161.extract]</ref> This paper investigated mathematical systems in which an [[Oracle machine|oracle]] was available, which could compute a single arbitrary (non-recursive) function from [[Natural number|naturals]] to naturals. He used this device to prove that even in those more powerful systems, [[Undecidable problem|undecidability]] is still present. Turing's oracle machines are mathematical abstractions, and are not physically realizable.<ref>"Let us suppose that we are supplied with some unspecified means of solving number-theoretic problems; a kind of oracle as it were. We shall not go any further into the nature of this oracle apart from saying that it cannot be a machine" (Undecidable p.&nbsp;167, a reprint of Turing's paper ''Systems of Logic Based On Ordinals'')</ref>
+
+==State space==
+In a sense, most functions are uncomputable: there are [[Aleph 0|<math>\aleph_0</math>]] computable functions, but there are an [[uncountable]] number (<math>2^{\aleph_0}</math>) of possible Super-Turing functions.<ref>{{cite journal | url=http://binds.cs.umass.edu/papers/CabessaSiegelmannNC12.pdf |author1=J. Cabessa |author2=H.T. Siegelmann | title=The Computational Power of  Interactive Recurrent Neural Networks | journal=Neural Computation | volume=24 | number=4 | pages=996–1019 | date=Apr 2012 | doi=10.1162/neco_a_00263}}</ref>
+
+==Hypercomputer models==
+Hypercomputer models range from useful but probably unrealizable (such as Turing's original oracle machines), to less-useful random-function generators that are more plausibly "realizable" (such as a [[random Turing machine]]).
+
+===Hypercomputers with uncomputable inputs or black-box components===
+A system granted knowledge of the uncomputable, oracular [[Chaitin's constant]] (a number with an infinite sequence of digits that encode the solution to the halting problem) as an input can solve a large number of useful undecidable problems; a system granted an uncomputable random-number generator as an input can create random uncomputable functions, but is generally not believed to be able to meaningfully solve "useful" uncomputable functions such as the halting problem. There are an unlimited number of different types of conceivable hypercomputers, including:
+
+<!-- Please include only well-cited examples, we don't need to hear about a penguin whose eyeblinks encode Chaitin's constant -->
+*Turing's original oracle machines, defined by Turing in 1939.
+*A [[real computer]] (a sort of idealized [[analog computer]]) can perform hypercomputation<ref>[[Arnold Schönhage]], "On the power of random access machines", in ''Proc. Intl. Colloquium on Automata, Languages, and Programming (ICALP)'', pages 520–529, 1979.  Source of citation: [[Scott Aaronson]], "NP-complete Problems and Physical Reality"[http://www.scottaaronson.com/papers/npcomplete.pdf] p.&nbsp;12</ref> if physics admits general [[real number|real]] variables (not just [[computable number|computable reals]]), and these are in some way "harnessable" for useful (rather than random) computation.  This might require quite bizarre laws of physics (for example, a measurable [[physical constant]] with an oracular value, such as [[Chaitin's constant]]), and would require the ability to measure the real-valued physical value to arbitrary precision.
+**Similarly, a neural net that somehow had Chaitin's constant exactly embedded in its weight function would be able to solve the halting problem,<ref>{{cite journal | url=http://www.sciencedirect.com/science/article/pii/0304397594901783/pdf?md5=177e8bf9a987e10b191747ab2ddcafd3&pid=1-s2.0-0304397594901783-main.pdf |author1=H.T. Siegelmann |author2=E.D. Sontag | title=Analog Computation via Neural Networks | journal=Theoretical Computer Science | volume=131 | number= | pages=331&mdash;360 | month= | year=1994 |doi=10.1016/0304-3975(94)90178-3 }}</ref> though constructing such an infinitely precise neural net, even if you somehow know Chaitin's constant beforehand, is impossible under the laws of quantum mechanics.<ref name=HodgesSCIAM>{{cite web |url=http://www.turing.org.uk/philosophy/sciam.html |title=The Professors and the Brainstorms |author=Andrew Hodges |accessdate=23 September 2011 |work=The Alan Turing Home Page }}</ref>
+*Certain [[fuzzy logic]]-based "fuzzy Turing machines" can, by definition, accidentally solve the halting problem, but only because their ability to solve the halting problem is indirectly assumed in the specification of the machine; this tends to be viewed as a "bug" in the original specification of the machines.<ref>{{Cite journal|last=Biacino|first=L.|author2=Gerla, G.|year=2002|title=Fuzzy logic, continuity and effectiveness|url=|journal=Archive for Mathematical Logic|issn=0933-5846|volume=41|issue=7|pages=643–667|doi=10.1007/s001530100128}}</ref><ref name=ClassicalFuzzy>{{Cite journal|last=Wiedermann|first=Jiří |year=2004|title=Characterizing the super-Turing computing power and efficiency of classical fuzzy Turing machines|url=http://portal.acm.org/citation.cfm?id=1011188|journal=Theor. Comput. Sci.|volume=317|issue=1–3|pages=61–69|doi=10.1016/j.tcs.2003.12.004|quote=Their (ability to solve the halting problem) is due to their acceptance criterion in which the ability to solve the halting problem is indirectly assumed.}}</ref>
+**Similarly, a proposed model known as [[fair nondeterminism]] can accidentally allow the oracular computation of noncomputable functions, because some such systems, by definition, have the oracular ability to identify reject inputs that would "unfairly" cause a subsystem to run forever.<ref>{{cite journal|title=Nondeterminism, Fairness and a Fundamental Analogy|journal=EATCS bulletin|volume=37|pages=186–193|year=1989|author1=Edith Spaan |author2=Leen Torenvliet |author3=Peter van Emde Boas }}</ref><ref>Ord, Toby. "The many forms of hypercomputation." Applied mathematics and computation 178.1 (2006): 143–153.</ref>
+*Dmytro Taranovsky has proposed a [[finitism|finitistic]] model of traditionally non-finitistic branches of analysis, built around a Turing machine equipped with a rapidly increasing function as its oracle. By this and more complicated models he was able to give an interpretation of second-order arithmetic. These models require an uncomputable input, such as a physical event-generating process where the interval between events grows at an uncomputably large rate.<ref name=Taranovsky>{{cite web | author=Dmytro Taranovsky | date=July 17, 2005 | title=Finitism and Hypercomputation | url=http://web.mit.edu/dmytro/www/FinitismPaper.htm | accessdate=Apr 26, 2011}}</ref>
+**Similarly, one unorthodox interpretation of a model of [[unbounded nondeterminism]] posits, by definition, that the length of time required for an "Actor" to settle is fundamentally unknowable, and therefore it cannot be proven, within the model, that it does not take an uncomputably long period of time.<ref>Hewitt, Carl. "What Is Commitment." Physical, Organizational, and Social (Revised), Coordination, Organizations, Institutions, and Norms in Agent Systems II: AAMAS (2006).</ref><!-- There is also an argument in Hewitt 2006 that this model is justified in the physical world, but this appears to be unbased [[WP:FRINGE]] speculation that I can't find anyone else endorsing or even explicitly acknowledging. -->
+
+==="Infinite computational steps" models===
+In order to work correctly, certain computations by the machines below literally require infinite, rather than merely unlimited but finite, physical space and resources; in contrast, with a Turing machine, any given computation that halts will require only finite physical space and resources.
+
+*A Turing machine that can ''complete'' infinitely many steps in finite time, a feat known as a [[supertask]]. Simply being able to run for an unbounded number of steps does not suffice. One mathematical model is the [[Zeno machine]] (inspired by [[Zeno's paradox]]). The Zeno machine performs its first computation step in (say) 1 minute, the second step in ½ minute, the third step in ¼ minute, etc.  By summing [[1/2 + 1/4 + 1/8 + 1/16 + · · ·|1+½+¼+...]] (a [[geometric series]]) we see that the machine performs infinitely many steps in a total of 2 minutes. According to Shagrir, Zeno machines introduce physical paradoxes and its state is logically undefined outside of one-side open period of [0, 2), thus undefined exactly at 2 minutes after beginning of the computation.<ref>These models have been independently developed by many different authors, including {{cite book|author=[[Hermann Weyl]]|  year=1927 | title=Philosophie der Mathematik und Naturwissenschaft}}; the model is discussed in {{cite journal
+ |author=Shagrir, O. 
+ |title=Super-tasks, accelerating Turing machines and uncomputability 
+ |journal=Theor. Comput. Sci. 
+ |date=June 2004 
+ |pages=105–114 
+ |doi=10.1016/j.tcs.2003.12.007 
+ |url=http://edelstein.huji.ac.il/staff/shagrir/papers/Supertasks_Accelerating_Turing_Machines_and_Uncomputability.pdf 
+ |volume=317 
+ |deadurl=yes 
+ |archiveurl=https://web.archive.org/web/20070709100858/http://edelstein.huji.ac.il/staff/shagrir/papers/Supertasks_Accelerating_Turing_Machines_and_Uncomputability.pdf 
+ |archivedate=2007-07-09 
+ |df= 
+}}, {{cite journal| author=Petrus H. Potgieter| title=Zeno machines and hypercomputation| journal=Theoretical Computer Science| volume=358 | issue=1 |date=July 2006 | pages=23–33| doi=10.1016/j.tcs.2005.11.040}} and {{cite journal
+ |author=Vincent C. Müller 
+ |title=On the possibilities of hypercomputing supertasks 
+ |journal=Minds and Machines 
+ |volume=21 
+ |issue=1 
+ |date=2011 
+ |pages=83–96 
+ |url=http://philpapers.org/rec/MLLOTP
+ |doi=10.1007/s11023-011-9222-6
+}}</ref>
+
+*It seems natural that the possibility of time travel (existence of [[closed timelike curve]]s (CTCs)) makes hypercomputation possible by itself. However, this is not so since a CTC does not provide (by itself) the unbounded amount of storage that an infinite computation would require. Nevertheless, there are spacetimes in which the CTC region can be used for relativistic hypercomputation.<ref>Hajnal Andréka, István Németi and Gergely Székely, ''Closed Timelike Curves in Relativistic Computation'' Parallel Process. Lett. 22, 1240010 (2012).[https://arxiv.org/abs/1105.0047]</ref> According to a 1992 paper,<ref>Hogarth, M., 1992, 'Does General Relativity Allow an Observer to View an Eternity in a Finite Time?', Foundations of Physics Letters, 5, 173–181.</ref> a computer operating in a [[Malament–Hogarth spacetime]] or in orbit around a rotating [[black hole]]<ref>{{cite book|chapter=Can General Relativistic Computers Break the Turing Barrier? | author=István Neméti | author2=Hajnal Andréka | title=Logical Approaches to Computational Barriers, Second Conference on Computability in Europe, CiE 2006, Swansea, UK, June 30-July 5, 2006. Proceedings | publisher=Springer | series=Lecture Notes in Computer Science | volume=3988 | doi=10.1007/11780342 | year=2006}}</ref> could theoretically perform non-Turing computations.<ref>Etesi, G., and Nemeti, I., 2002  'Non-Turing computations via Malament-Hogarth space-times', Int.J.Theor.Phys. 41 (2002) 341–370,  [http://lanl.arxiv.org/abs/gr-qc/0104023 Non-Turing Computations via Malament-Hogarth Space-Times:].</ref><ref>Earman, J. and Norton, J., 1993,  'Forever is a Day: Supertasks in Pitowsky and Malament-Hogarth Spacetimes', Philosophy of Science, 5, 22–42.</ref> Access to a CTC may allow the rapid solution to [[PSPACE-complete]] problems, a complexity class which, while Turing-decidable, is generally considered computationally intractable.<ref>Todd A. Brun, ''Computers with closed timelike curves can solve hard problems'', Found.Phys.Lett. 16 (2003) 245–253.[https://arxiv.org/abs/gr-qc/0209061]</ref><ref>[[Scott Aaronson|S. Aaronson]] and J. Watrous. Closed Timelike Curves Make Quantum and Classical Computing Equivalent [http://scottaaronson.com/papers/ctc.pdf]</ref>
+
+===Quantum models===
+Some scholars conjecture that a [[Quantum mechanics|quantum mechanical]] system which somehow uses an infinite superposition of states could compute a non-[[computable function]].<ref>There have been some claims to this effect; see {{cite journal | author = Tien Kieu | title = Quantum Algorithm for the [[Hilbert problems|Hilbert's Tenth Problem]] | journal = Int. J. Theor. Phys. | year = 2003 | volume = 42 | arxiv = quant-ph/0110136 | pages = 1461–1478 | doi = 10.1023/A:1025780028846 | issue = 7}} or {{cite journal | author = M. Ziegler | title = Computational Power of Infinite Quantum Parallelism | year = 2005 | journal = [[International Journal of Theoretical Physics]] | volume = 44 | issue = 11 | pages = 2059–2071 | doi = 10.1007/s10773-005-8984-0| arxiv = quant-ph/0410141 | bibcode = 2005IJTP...44.2059Z }} and the ensuing literature. For a retort see  {{cite journal | author = Warren D. Smith | doi = 10.1016/j.amc.2005.09.078 | title = Three counterexamples refuting Kieu's plan for "quantum adiabatic hypercomputation"; and some uncomputable quantum mechanical tasks | journal = Applied Mathematics and Computation | volume = 178 | issue = 1 | pages = 184–193}}.
+</ref> This is not possible using the standard [[qubit]]-model [[quantum computer]], because it is proven that a regular quantum computer is [[PSPACE-reduction|PSPACE-reducible]] (a quantum computer running in [[polynomial time]] can be simulated by a classical computer running in [[polynomial space]]).<ref>Bernstein and Vazirani, Quantum complexity theory, [[SIAM Journal on Computing]], 26(5):1411–1473, 1997. [http://www.cs.berkeley.edu/~vazirani/bv.ps]</ref>
+
+==="Eventually correct" systems===
+Some physically-realizable systems will always eventually converge to the correct answer, but have the defect that they will often output an incorrect answer and stick with the incorrect answer for an uncomputably large period of time before eventually going back and correcting the mistake.
+
+*In mid 1960s, [[E Mark Gold]] and [[Hilary Putnam]] independently proposed models of [[inductive inference]] (the "limiting recursive functionals"<ref name=LimRecurs>{{cite journal | author=E. M. Gold | title=Limiting Recursion | journal=Journal of Symbolic Logic | volume=30 | issue=1 | pages=28–48 | year=1965 | jstor=2270580 | doi=10.2307/2270580}}, {{cite journal | author=E. Mark Gold | title=Language identification in the limit | journal=Information and Control | volume=10 | pages=447–474 | year=1967 | doi=10.1016/S0019-9958(67)91165-5 | issue=5}}</ref> and "trial-and-error predicates",<ref name=TrialError>{{cite journal | author=Hilary Putnam | title=Trial and Error Predicates and the Solution to a Problem of Mostowksi | journal=Journal of Symbolic Logic | volume=30 | issue=1 | pages=49–57 | year=1965 | jstor=2270581 | doi=10.2307/2270581}}</ref> respectively). These models enable some nonrecursive sets of numbers or languages (including all [[recursively enumerable]] sets of languages) to be "learned in the limit"; whereas, by definition, only recursive sets of numbers or languages could be identified by a Turing machine. While the machine will stabilize to the correct answer on any learnable set in some finite time, it can only identify it as correct if it is recursive; otherwise, the correctness is established only by running the machine forever and noting that it never revises its answer. Putnam identified this new interpretation as the class of "empirical" predicates, stating: "if we always 'posit' that the most recently generated answer is correct, we will make a finite number of mistakes, but we will eventually get the correct answer. (Note, however, that even if we have gotten to the correct answer (the end of the finite sequence) we are never ''sure'' that we have the correct answer.)"<ref name=TrialError/> [[L. K. Schubert]]'s 1974 paper "Iterated Limiting Recursion and the Program Minimization Problem" <ref name=IterLimRec>{{cite journal| author=L. K. Schubert | title=Iterated Limiting Recursion and the Program Minimization Problem | journal=Journal of the ACM | volume=21 | issue=3 |date=July 1974 | url=http://portal.acm.org/citation.cfm?id=321832.321841 | doi=10.1145/321832.321841| pages=436–445}}</ref> studied the effects of iterating the limiting procedure; this allows any [[arithmetic hierarchy|arithmetic]] predicate to be computed. Schubert wrote, "Intuitively, iterated limiting identification might be regarded as higher-order inductive inference performed collectively by an ever-growing community of lower order inductive inference machines."
+*A symbol sequence is ''computable in the limit'' if there is a finite, possibly non-halting program on a [[universal Turing machine]] that incrementally outputs every symbol of the sequence. This includes the dyadic expansion of π and of every other [[computable real]], but still excludes all noncomputable reals. Traditional Turing machines cannot edit their previous outputs; generalized Turing machines, as defined by [[Jürgen Schmidhuber]], can. He defines the constructively describable symbol sequences as those that have a finite, non-halting program running on a generalized Turing machine, such that any output symbol eventually converges; that is, it does not change any more after some finite initial time interval. Due to limitations first exhibited by [[Kurt Gödel]] (1931), it may be impossible to predict the convergence time itself by a halting program, otherwise the [[halting problem]] could be solved. Schmidhuber (<ref name=genTuring2000>{{cite journal | author=[[Jürgen Schmidhuber]]| year=2000 | title=Algorithmic Theories of Everything | pages=1–5 | volume=13 | issue=4 | journal=Sections  in: Hierarchies of generalized Kolmogorov   complexities and nonenumerable universal measures computable in the limit.   International Journal of Foundations of Computer Science ():587–612   (). Section 6 in: the Speed Prior: A New Simplicity Measure Yielding   Near-Optimal Computable Predictions. in J. Kivinen and R. H. Sloan, editors,   Proceedings of the 15th Annual Conference on Computational Learning Theory   (COLT ), Sydney, Australia, Lecture Notes in Artificial Intelligence,   pages 216–228. Springer, . | arxiv=quant-ph/0011122 | bibcode=2000quant.ph.11122S }}</ref><ref name=GenKolm>{{cite journal| author=J. Schmidhuber | title=Hierarchies of generalized Kolmogorov complexities and nonenumerable universal measures computable in the limit | journal=International Journal of Foundations of Computer Science | volume=13 | issue=4 | pages=587–612 | year=2002 | url=http://www.idsia.ch/~juergen/kolmogorov.html| doi=10.1142/S0129054102001291}}</ref>) uses this approach to define the set of formally describable or constructively computable universes or constructive [[theory of everything|theories of everything]]. Generalized Turing machines can eventually converge to a correct solution of the halting problem by evaluating a [[Specker sequence]].
+
+==Analysis of capabilities==
+Many hypercomputation proposals amount to alternative ways to read an [[oracle machine|oracle]] or [[advice (complexity)|advice function]] embedded into an otherwise classical machine. Others allow access to some higher level of the [[arithmetic hierarchy]]. For example, supertasking Turing machines, under the usual assumptions, would be able to compute any predicate in the [[truth-table reduction|truth-table degree]] containing <math>\Sigma^0_1</math> or <math>\Pi^0_1</math>. Limiting-recursion, by contrast, can compute any predicate or function in the corresponding [[Turing degree]], which is known to be <math>\Delta^0_2</math>. Gold further showed that limiting partial recursion would allow the computation of precisely the <math>\Sigma^0_2</math> predicates.
+
+{| class="wikitable sortable"
+|-
+! Model
+! Computable predicates
+! Notes
+! Refs
+|-
+| supertasking
+| tt(<math>\Sigma^0_1, \Pi^0_1</math>)
+| dependent on outside observer
+| <ref>{{cite journal| author=Petrus H. Potgieter| title=Zeno machines and hypercomputation| journal=Theoretical Computer Science| volume=358 | issue=1 |date=July 2006 | pages=23–33| doi=10.1016/j.tcs.2005.11.040}}</ref>
+|-
+| limiting/trial-and-error
+| <math> \Delta^0_2 </math>
+| 
+| <ref name=LimRecurs/>
+|-
+| iterated limiting (''k'' times)
+| <math> \Delta^0_{k+1} </math>
+| 
+| <ref name=IterLimRec/>
+|-
+| [[Blum-Shub-Smale machine]]
+|  
+| incomparable with traditional [[computable real]] functions
+| <ref>{{cite book|author=[[Lenore Blum]], Felipe Cucker, Michael Shub, and [[Stephen Smale]]|title=Complexity and Real Computation|isbn=0-387-98281-7}}</ref>
+|-
+| [[Malament-Hogarth spacetime]]
+| '''[[Hyperarithmetic hierarchy|HYP]]'''
+| dependent on spacetime structure
+| <ref>{{cite journal | author=[[P.D. Welch]] | title = The extent of computation in Malament-Hogarth spacetimes | arxiv=gr-qc/0609035 | journal=British Journal for the Philosophy of Science |volume=59 |year= 2008 | pages=659–674 | doi=10.1093/bjps/axn031}}</ref>
+|-
+|-
+| analog recurrent neural network
+| <math> \Delta^0_1[f] </math>
+| ''f'' is an advice function giving connection weights; size is bounded by runtime
+| <ref name="Siegelmann.1995">{{cite journal | doi=10.1126/science.268.5210.545 | pmid=17756722 | url=http://binds.cs.umass.edu/papers/1995_Siegelmann_Science.pdf | author=H.T. Siegelmann | title=Computation Beyond the Turing Limit | journal=Science | volume=268 | number=5210 | pages=545&mdash;548 | date=Apr 1995 | bibcode=1995Sci...268..545S }}</ref><ref>{{cite journal | author=[[Hava Siegelmann]] | author2=Eduardo Sontag | title=Analog Computation via Neural Networks | journal=Theoretical Computer Science | volume=131 | year=1994 | pages=331–360 | doi=10.1016/0304-3975(94)90178-3 | issue=2 | authorlink2=Eduardo Sontag}}</ref>
+|-
+| infinite time Turing machine
+| <math> AQI</math>
+| Arithmetical Quasi-Inductive sets
+|  <ref>{{cite journal|author=[[P.D. Welch]] |title=Characteristics of discrete transfinite time Turing machine models: Halting times, stabilization times, and Normal Form theorems |journal=Theoretical Computer Science |year=2009 |volume=410 |pages=426–442 |doi=10.1016/j.tcs.2008.09.050  |df= }}</ref>
+|-
+| classical fuzzy Turing machine
+| <math> \Sigma^0_1 \cup \Pi^0_1 </math>
+| for any computable [[T-norm fuzzy logics|t-norm]]
+| <ref name=ClassicalFuzzy />
+|-
+| increasing function oracle
+| <math> \Delta^1_1 </math>
+| for the one-sequence model; <math> \Pi^1_1 </math> are r.e.
+| <ref name=Taranovsky/>
+|}
+
+==Criticism==
+[[Martin Davis]], in his writings on hypercomputation<ref name=Davis95>{{cite journal | author=Davis, Martin | title = Why there is no such discipline as hypercomputation | journal = Applied Mathematics and Computation | volume = 178 | issue = 1 <!-- Special Issue on Hypercomputation --> | year = 2006 | pages = 4–7 | doi = 10.1016/j.amc.2005.09.066}}</ref><ref>{{cite book |last=Davis| first=Martin|title=Alan Turing: Life and Legacy of a Great Thinker|publisher=Springer|year=2004  |chapter=The Myth of Hypercomputation}}</ref>
+refers to this subject as "a myth" and offers counter-arguments to the
+physical realizability of hypercomputation. As for its theory, he argues against
+the claims that this is a new field founded in the 1990s. This point of view relies
+on the history of computability theory (degrees of unsolvability, computability over
+functions, real numbers and ordinals), as also mentioned above.
+In his argument he makes a remark that all of hypercomputation is little more than: "'' if non-computable inputs are permitted then non computable outputs are attainable.''"<ref>{{cite book | url=https://www.mfo.de/document/0304a/Report03_2003.pdf | author=Martin Davis | contribution=The Myth of Hypercomputation | editor=Alexandra Shlapentokh | title=Miniworkshop: Hilbert's Tenth Problem, Mazur's  Conjecture and Divisibility Sequences | publisher=Mathematisches Forschungsinstitut Oberwolfach | series=MFO Report | volume=3 | pages=2 | date=Jan 2003 }}</ref>
+
+==See also==
+* [[Computation]]
+* [[Digital physics]]
+* [[Supertask]]
+
+==References==
+{{reflist|2}}
+
+==Further reading==
+* Mario Antoine Aoun, "[http://www.ejtp.com/articles/ejtpv13i36p169.pdf Advances in Three Hypercomputation Models]", (2016)
+* L. Blum, F. Cucker, M. Shub, S. Smale, ''Complexity and Real Computation'', Springer-Verlag 1997.  General development of complexity theory for [[abstract machine]]s that compute on [[real computation|real numbers]] instead of bits.
+*Burgin, M. S. (1983) Inductive Turing Machines, ''Notices of the Academy of Sciences of the USSR'', v.&nbsp;270, No. 6, pp.&nbsp;1289–1293
+* Keith Douglas. ''[http://www.philosopher-animal.com/papers/take6c.PDF Super-Turing Computation: a Case Study Analysis]'' ([[Portable Document Format|PDF]]), M.S. Thesis, Carnegie Mellon University, 2003.
+*Mark Burgin (2005), ''Super-recursive algorithms'', Monographs in computer science, Springer. {{ISBN|0-387-95569-0}}
+* Cockshott, P. and Michaelson, G. Are there new Models of Computation? Reply to Wegner and Eberbach, ''The computer Journal'', 2007
+*{{cite journal|last = Cooper|first = S. B.|title = Definability as hypercomputational effect|journal = Applied Mathematics and Computation|volume = 178|year = 2006|pages = 72–82|url = http://www.amsta.leeds.ac.uk/~pmt6sbc/preprints/hyp.comp.eff.pdf|doi = 10.1016/j.amc.2005.09.072}}
+*{{cite book|last = Cooper|first = S. B.|author2=Odifreddi, P.|chapter = Incomputability in Nature|title= Computability and Models: Perspectives East and West| editors = S. B. Cooper and S. S. Goncharov | publisher = Plenum Publishers, New York, Boston, Dordrecht, London, Moscow|year = 2003|pages = 137–160|url = http://www.amsta.leeds.ac.uk/~pmt6sbc/preprints/co.pdf}}
+* Copeland, J. (2002) ''[http://research.cs.queensu.ca/home/akl/cisc879/papers/PAPERS_FROM_MINDS_AND_MACHINES/VOLUME_12_NO_4/NV6361035557Q678.pdf Hypercomputation]'', Minds and machines, v.&nbsp;12, pp.&nbsp;461–502
+* Davis, Martin (2006), "[http://wayback.archive-it.org/all/20080221162316/http://people.cs.uchicago.edu/~simon/TEACH/28000/DavisUniversal.pdf The Church–Turing Thesis: Consensus and opposition]". Proceedings, Computability in Europe 2006.  ''The requested URL /~simon/TEACH/28000/DavisUniversal.pdf was not found on this server.'' Lecture Notes in Computer Science, 3988 pp.&nbsp;125–132
+* Hagar, A. and Korolev, A., ''[http://philsci-archive.pitt.edu/archive/00003180/ Quantum Hypercomputation—Hype or Computation?]'', (2007)
+* {{cite journal|last2=|first2=|date=2011|title=On the possibilities of hypercomputing supertasks|url=http://philpapers.org/rec/MLLOTP|journal=Minds and Machines|volume=21|issue=1|pages=83–96|doi=10.1007/s11023-011-9222-6|author=Müller, Vincent C.}}
+* Ord, Toby. [https://arxiv.org/abs/math/0209332 ''Hypercomputation: Computing more than the Turing machine can compute'']: A survey article on various forms of hypercomputation.
+*[[Gualtiero Piccinini|Piccinini]], [[Gualtiero Piccinini|Gualtiero]]: [http://plato.stanford.edu/entries/computation-physicalsystems/ ''Computation in Physical Systems'']
+* Putz, Volkmar and Karl Svozil, ''[https://arxiv.org/abs/1003.1238 Can a computer be "pushed" to perform faster-than-light?]'', (2010)
+* Rogers, H. (1987) Theory of Recursive Functions and Effective Computability, MIT Press, Cambridge Massachusetts
+* {{cite journal | author=[[Mike Stannett]] | title=X-machines and the halting problem: Building a super-Turing machine | journal=Formal Aspects of Computing | volume=2 | issue=1 |date=1990 | pages=331–341 | doi=10.1007/BF01888233|url=|first=Mike|year=|via=}}
+*[[Mike Stannett]], ''[http://research.cs.queensu.ca/home/akl/cisc879/papers/PAPERS_FROM_APPLIED_MATHEMATICS_AND_COMPUTATION/Special_Issue_on_Hypercomputation/stannett%5b1%5d.pdf The case for hypercomputation]'', Applied Mathematics and Computation, Volume 178, Issue 1, 1 July 2006, Pages 8–24, Special Issue on Hypercomputation
+*Syropoulos, Apostolos (2008), ''[https://www.springer.com/computer/foundations/book/978-0-387-30886-9 Hypercomputation: Computing Beyond the Church–Turing Barrier]'' ([https://books.google.com/books?id=5gVOf_OQa04C preview]), Springer. {{ISBN|978-0-387-30886-9}}
+* {{cite journal | last1 = Turing | first1 = Alan | authorlink = Alan Turing | title = Systems of logic based on ordinals | doi = 10.1112/plms/s2-45.1.161 | journal = Proceedings of the London Mathematical Society | volume = 45 | issue = | year = 1939 | pages=161–228}}<!-- #http://www.nature.com/nsu/010329/010329-8.html A ''[[Nature (journal)|Nature]]'' article on the above. This link doesn't seem to go to the article anymore. -->
+
+==External links==
+*[http://www.hypercomputation.net/ Hypercomputation Research Network]
+
+[[Category:Theory of computation]]
+[[Category:Hypercomputation| ]]

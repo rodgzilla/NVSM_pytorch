@@ -1,0 +1,569 @@
+<!--... Attention:  THIS IS AN OUTLINE
+
+        part of the set of 740+ outlines listed at
+             [[Portal:Contents/Outlines]].
+
+                 Wikipedia outlines are
+              a special type of list article.
+              They make up one of Wikipedia's
+                content navigation systems
+
+                See [[Wikipedia:Outlines]]
+                      for more details.
+                   Further improvements
+              to this outline are on the way
+...-->
+The following [[Outline (list)|outline]] is provided as an overview of and topical guide to artificial intelligence:
+
+'''[[Artificial intelligence|Artificial intelligence (AI)]]''' – intelligence exhibited by machines or software. It is also the name of the [[scientific field]] which studies how to create computers and computer software that are capable of intelligent behaviour.
+
+{{TOC limit|limit=2}}
+
+== What ''type'' of thing is artificial intelligence? ==
+
+* A form of [[intelligence]]
+** [[Synthetic intelligence]] – intelligence of a man-made yet real quality: actual, not fake, not simulated
+* A type of [[technology]]
+** A type of [[computer technology]]
+*** A computer system that performs some intellectual function
+** An [[emerging technology]]
+* A field:
+** An [[academic discipline]]
+** A branch of [[science]]
+*** A branch of [[applied science]]
+**** A branch of [[computer science]]
+
+==Types of artificial intelligence==
+* [[Weak AI]] (narrow AI) – non-sentient machine intelligence, typically focused on a narrow task (narrow AI).
+* [[Artificial general intelligence|Strong AI / artificial general intelligence]] (AGI) – (hypothetical) machine with the ability to apply intelligence to any problem, rather than just one specific problem, typically meaning "at least as smart as a typical human". It's future potential creation is referred to as a [[technological singularity]], and constitutes a [[global catastrophic risk]] (''see Superintelligence, below'').
+* [[Superintelligence]] – (hypothetical) artificial intelligence far surpassing that of the brightest and most gifted human minds. Due to [[recursive self-improvement]], superintelligence is expected to be a rapid outcome of creating artificial general intelligence.
+
+==Branches of artificial intelligence==
+
+=== By approach ===
+* [[Artificial intelligence#Symbolic|Symbolic AI]] – When access to digital computers became possible in the middle 1950s, AI research began to explore the possibility that human intelligence could be reduced to symbol manipulation.
+** [[GOFAI|Good Old Fashioned AI]] –
+* [[Sub-symbolic]] – 
+** [[Artificial intelligence#Cybernetics and brain simulation|Early cybernetics and brain simulation]] – 
+** [[Behavior based AI]] – 
+*** [[Subsumption architecture]] – 
+** [[Nouvelle AI]] – 
+** [[Soft computing]] – 
+*** [[Computational creativity]] –
+*** [[Machine learning]]
+**** [[Neural network]]s –
+***** [[Hybrid neural network]] –
+***** [[Recurrent neural network]] –
+***** [[Perceptron]]
+**** [[Support Vector Machine]]s (SVM)
+*** [[Fuzzy system]]s –
+*** [[Evolutionary computation]], including:
+**** [[Evolutionary algorithm]]s –
+***** [[Genetic algorithm]] –
+***** [[Differential evolution]]
+**** [[Metaheuristic]] and [[Swarm Intelligence]]
+***** [[Ant colony optimization]]
+***** [[Particle swarm optimization]]
+**** [[BELBIC|Brain Emotional Learning Based Intelligent Controller]] – 
+*** [[Probability|Probabilistic]] methods including:
+**** [[Bayesian network]]
+**** [[Hidden Markov model]]
+**** [[Kalman filter]]
+*** [[Chaos theory]]
+* [[Artificial intelligence#Statistical|Statistical AI]] –
+
+=== By application ===
+[[Applications of artificial intelligence]] – 
+* [[Artificial Creativity]] – 
+* [[Artificial life]] – 
+* [[Automated planning and scheduling]] –  
+* [[Automated reasoning]] – 
+* [[Automation]] – 
+* [[Automatic target recognition]] –  
+* [[Biologically inspired computing]] – 
+* [[Computer Audition]] –  
+** [[Speech recognition]] – 
+** [[Speaker recognition]] – 
+* [[Computer vision]] – 
+** [[Image processing]] – 
+** [[Intelligent word recognition]] –  
+** [[Object recognition]] – 
+** [[Optical mark recognition]] – 
+*** [[Handwriting recognition]] – 
+*** [[Optical character recognition]] – 
+**** [[Automatic number plate recognition]] – 
+** [[Facial recognition system]]s – 
+*** [[Silent speech interface]] – 
+* [[Diagnosis (artificial intelligence)]] – 
+* [[Expert system]] –  
+** [[Decision support system]] –  
+*** [[Clinical decision support system]] – 
+* [[Game artificial intelligence]] – 
+** [[Computer game bot]] – 
+** [[Artificial intelligence (video games)|Video game AI]] – 
+*** [[Computer chess]] – 
+*** [[Computer Go]] – 
+** [[General game playing]] – 
+** [[General video game playing]] – 
+** [[Game theory]] – 
+* [[Hybrid intelligent system]] – 
+* [[Intelligent agent]] – 
+** [[Agent architecture]] – 
+*** [[Cognitive architecture]] – 
+* [[Intelligent control]] – 
+* [[Knowledge management]] – 
+** [[Concept mining]] – 
+*** [[Data mining]] – 
+*** [[Text mining]] – 
+*** [[Process mining]] – 
+** [[E-mail spam]] filtering – 
+** [[Information extraction]] – 
+*** [[Activity recognition]] – 
+*** [[Image retrieval]] – 
+**** [[Automatic image annotation]] – 
+*** [[Named-entity extraction]] – 
+**** [[Coreference resolution]] – 
+**** [[Named-entity recognition]] – 
+**** [[Relationship extraction]] – 
+**** [[Terminology extraction]] – 
+** [[Knowledge representation]] – 
+** [[Semantic Web]] – 
+* [[Machine learning]] – 
+** [[Constrained Conditional Models]] –  
+** [[Deep learning]] –  
+** [[Neural modeling fields]] –  
+* [[Natural language processing]] – 
+** [[Chatterbot]]s – 
+** [[Language identification]] – 
+** [[Natural language user interface]] – 
+** [[Natural language understanding]] –  
+** [[Machine translation]] – 
+*** [[Statistical semantics]] – 
+** [[Question answering]] – 
+** [[Semantic translation]] – 
+* [[Nonlinear control]] – 
+* [[Pattern recognition]] – 
+** [[Optical character recognition]] – 
+** [[Handwriting recognition]] – 
+** [[Speech recognition]] – 
+** [[Facial recognition system|Face recognition]] – 
+* [[Robotics]] – 
+** [[Behavior-based robotics]] – 
+** [[Cognitive]] – 
+** [[Cybernetics]] – 
+** [[Developmental robotics]] – 
+** [[Epigenetic robotics]] – 
+** [[Evolutionary robotics]] – 
+* [[Speech generating device]] – 
+* [[Strategic planning]] – 
+* [[Vehicle infrastructure integration]] – 
+* [[Virtual Intelligence]] –  
+* [[Virtual reality]] –
+
+== Further AI design elements ==
+* [[Action selection]] –
+* [[Affective computing]] –
+* [[AI box]] –
+* [[AI-complete]] –
+* [[Algorithmic probability]] –
+* [[Artificial intelligence systems integration]] &ndash; 
+* [[Automated reasoning]] –
+* [[Autonomic Computing]] –
+* [[Autonomic Networking]] –
+* [[Backward chaining]] –
+* [[Bayesian network]] –
+* [[Bio-inspired computing]] –
+** [[Artificial immune system]]s –
+* [[Blackboard system]] –
+* [[Chatterbot]] –
+* [[Combs method]] –
+* [[Commonsense reasoning]] –
+* [[Computational humor]] –
+* [[Computer-assisted proof]] –
+* [[Conceptual dependency theory]] –
+* [[Darwin machine]] –
+* [[Description logic]] –
+* [[Frame problem]] –
+* [[Game theory]] –
+* [[Grammar systems theory]] –
+* [[Informatics (academic field)]] –
+* [[Intelligent control]] –
+* [[Kinect]] –
+* [[LIDA (cognitive architecture)]] –
+* [[Means-ends analysis]] –
+* [[Moravec's paradox]] –
+* [[Music and artificial intelligence]] –
+* [[Ordered weighted averaging aggregation operator]] –
+* [[PEAS]] – Performance, Environment, Actuators, Sensors
+* [[Percept (artificial intelligence)]] –
+* [[Perceptual Computing]] –
+* [[Rule-based system]] –
+* [[Self-management (computer science)]] –
+* [[Soft computing]] –
+* [[Software agent]] –
+** [[Intelligent agent]] / [[Rational agent]] –
+*** [[Autonomous agent]] –
+*** [[Automated planning and scheduling]]
+*** [[Control system]]
+**** [[Hierarchical control system]]
+**** [[Networked control system]]
+*** [[Distributed artificial intelligence]] –
+*** [[Multi-agent system]] –
+*** [[Monitoring and Surveillance Agents]]
+** [[Embodied agent]] –
+** [[Situated]] AI
+* [[Sussman Anomaly]] –
+* [[Wetware (brain)]] –
+
+== AI projects ==
+
+[[List of artificial intelligence projects]]
+* [[Automated Mathematician]] (1977) –
+* [[Allen (robot)]] (late 1980s) –
+* [[Open Mind Common Sense]] (1999 - ) –
+* [[Mindpixel]] (2000–2005) –
+* [[CALO|Cognitive Assistant that Learns and Organizes]] (2003–2008) –
+* [[Blue Brain Project]] (2005-present) &ndash; attempt to create a synthetic brain by reverse-engineering the mammalian brain down to the molecular level.
+* [[Google DeepMind]] (2011) –
+* [[Human Brain Project]] (2013-present) &ndash;
+* [[IBM Watson Group]] (2014-present) &ndash; business unit created around [[Watson (computer)|Watson]], to further its development and deploy marketable applications or services based on it.
+
+== AI applications ==
+
+=== Integrated AI systems ===
+
+* [[AIBO]] &ndash; Sony's robot dog. It integrates vision, hearing and motorskills.
+* [[Asimo]] (2000 to present) – humanoid robot developed by Honda, capable of walking, running, negotiating through pedestrian traffic, climbing and descending stairs, recognizing speech commands and the faces of specific individuals, among a growing set of capabilities.
+* [https://web.archive.org/web/20070705035725/http://www.mindmakers.org/projects/MIRAGE MIRAGE] &ndash; A.I. embodied humanoid in an augmented reality environment.
+* [[MIT Cog project|Cog]] &ndash; M.I.T. humanoid robot project under the direction of [[Rodney Brooks]].
+* [[QRIO]] &ndash; Sony's version of a humanoid robot.
+* [[TOPIO]], TOSY's humanoid robot that can play ping-pong with humans.
+* [[Watson (computer)|Watson]] (2011) – computer developed by IBM that played and won the game show ''Jeopardy!'' It is now being used to guide nurses in medical procedures.
+** Purpose: [[Open domain question answering]]
+** Technologies employed:
+*** [[Natural language processing]]
+*** [[Information retrieval]]
+*** [[Knowledge representation]]
+*** [[Automated reasoning]]
+*** [[Machine learning]]
+* [[Project Debater]] (2018) &ndash; artificially intelligent computer system, designed to make coherent arguments, developed at IBM's lab in Haifa, Israel.
+
+=== Intelligent personal assistants ===
+
+[[Intelligent personal assistant]] &ndash; 
+* [[Amazon Alexa]] &ndash; 
+* [[Assistant (by Speaktoit)|Assistant]] &ndash; 
+* [[Braina]] &ndash; 
+* [[Cortana (software)|Cortana]] &ndash; 
+* [[Google Assistant]] &ndash; 
+* [[Google Now]] &ndash;
+* [[Mycroft (software)|Mycroft]] &ndash;
+* [[Siri]] &ndash; 
+* [[Viv (software)|Viv]] &ndash;
+
+== AI development ==
+
+=== AI algorithms ===
+
+=== Open-source AI development tools ===
+* [[OpenAIR]] –
+* [[OpenCog]] –
+* [[OpenIRIS]] –
+* [[RapidMiner]] –
+* [[TensorFlow]] –
+
+==Psychology and AI==
+* [[Artificial psychology]]
+* [[AI effect]]
+* [[Uncanny valley]]
+
+==History of artificial intelligence==
+
+[[History of artificial intelligence]]
+
+=== by period or events ===
+
+* [[Progress in artificial intelligence]]
+* [[Timeline of artificial intelligence]]
+* [[Asilomar Conference on Beneficial AI]] (2017)
+
+=== by region ===
+
+=== by subject ===
+
+* [[AI effect]] – as soon as AI successfully solves a problem, the problem is no longer considered by the public to be a part of AI. This phenomenon has occurred in relation to every AI application produced, so far, throughout the history of development of AI. 
+* [[AI winter]] – 
+* [[GOFAI]]
+* [[History of machine learning]] &nbsp; ([[Timeline of machine learning|timeline]])
+* [[History of machine translation]] &nbsp; ([[Timeline of machine translation|timeline]])
+* [[Moore's Law]] – observation that, over the history of computing hardware, the number of transistors in a dense integrated circuit has doubled approximately every two years. One way this relates to AI is that hypothetically a computer would need at least as much capacity as a human brain to be able to be programmed to be as smart as a human.  So as long as the aforementioned rate of development met or beat the 2-year doubling time, one could roughly forecast when a computer would have as much memory and calculation capacity as a human brain, a milestone which was reached in 2010. Though it may take as much as 3 magnitudes (1000 times) more computer capacity (since computers calculate things in a much more linear fashion) to emulate the massively parallel structure of the human brain. At a doubling time of 2 years, an increase in capacity by 1000-fold would take a little less than 18 years (9 doublings), if reaching the limit of integrated circuit technology did not pose an obstacle before then.
+* [[History of natural language processing]]
+** [[Timeline of natural language processing software]]
+* [[Optical character recognition#History|History of optical character recognition]] &nbsp; ([[Timeline of optical character recognition|timeline]])
+
+== AI hazards and safety ==
+* [[Existential risk from advanced artificial intelligence]] 
+** [[Artificial intelligence as a global catastrophic risk]]
+** [[AI takeover]] – point at which humans are no longer the dominant form of intelligence on Earth and machine intelligence is
+** [[Intelligence explosion]] – through recursive self-improvement and self-replication, the magnitude of intelligent machinery could achieve superintelligence, surpassing human ability to resist it.
+** [[Superintelligence]] – AI may grow to such an advanced state to become as proportionately superior to humans as humans are to ants.  Theoretically, there would be little humans could do to prevent such an intelligence from reaching its goals.
+** [[Ethics of artificial intelligence#Weaponization of artificial intelligence|Weaponization of artificial intelligence]]
+*** [[Artificial intelligence arms race]] &ndash; competition between two or more states to have its military forces equipped with the best "artificial intelligence" (AI).
+*** [[Lethal autonomous weapon]]
+*** [[Military robot]]
+*** [[Unmanned combat aerial vehicle]]
+* [[Friendly AI]] – hypothetical AI that is designed not to harm humans and to prevent unfriendly AI from being developed
+
+== AI and the future ==
+* [[Artificial general intelligence]] (Strong AI) – hypothetical artificial intelligence that matches or exceeds human intelligence — an intelligent machine that could perform intellectual tasks at least as well as a human
+** Aspects or features
+*** [[Self-replicating machine]]s – smart computers and robots would be able to make more of themselves, in a geometric progression or via mass production.  Or smart programs may be uploaded into hardware existing at the time (because linear architecture of sufficient speeds could be used to emulate massively parallel analog systems such as human brains).
+*** [[Recursive self improvement]] (aka seed AI) – speculative ability of strong artificial intelligence to reprogram itself to make itself even more intelligent. The more intelligent it got, the more capable it would be of further improving itself, in successively more rapid iterations, potentially resulting in an intelligence explosion leading to the emergence of a superintelligence.
+*** [[Group mind (science fiction)|Hive mind]] –
+*** [[Swarm intelligence#In popular culture|Robot swarm]] –
+** [[Technological singularity]] – the development of strong AI may cause an intelligence explosion in which greater-than-human intelligence emerges, radically changing civilization, and perhaps even human nature. The TS has been identified by {{Harvtxt|Berglas|2012}} and others to be an existential risk.
+*** [[Singularitarianism]] –
+*** [[Human enhancement]] – humans may be enhanced, either by the efforts of AI or by merging with it.
+**** [[Transhumanism]] – philosophy of human transformation
+**** [[Posthumanism]] – people may survive, but not be recognizable in comparison to present modern-day humans.
+***** [[Cyborg]]s –
+***** [[Mind uploading]] –
+** [[Intelligence explosion]] – through recursive self-improvement and self-replication, the magnitude of intelligent machinery could achieve superintelligence, surpassing human ability to resist it.
+** [[Superintelligence]] – AI may grow to such an advanced state to become as proportionately superior to humans as humans are to ants.  Theoretically, there would be little humans could do to prevent such an intelligence from reaching its goals.
+
+==Philosophy of artificial intelligence==
+
+[[Philosophy of artificial intelligence]]
+* [[Artificial brain]] –
+* [[Artificial consciousness#Philosophical views of artificial consciousness|Philosophical views of artificial consciousness]] –
+** [[User illusion]] –
+* [[Artificial intelligence and law]] –
+* [[Chinese room]] –
+* [[Cognitive science]]
+** [[Artificial consciousness]]
+** [[Embodied cognitive science]]
+*** [[Embodied cognition]] –
+* [[Ethics of artificial intelligence]] –
+* [[Philosophy of the Mind]] –
+** [[Computational theory of mind]] –
+** [[Functionalism (philosophy of mind)|Functionalism]] –
+* [[Physical symbol system]] –
+* [[Synthetic intelligence]] –
+* [[Transhumanism]] –
+** ''See [[#Artificial intelligence and the future|Artificial intelligence and the future]], below ''
+* [[Turing Test]] –
+
+=== Artificial intelligence debate ===
+
+==== Supporters of AI ====
+Marek Rosa Owner of [http://www.goodai.com/ goodAI]
+
+==== Critics of AI ====
+* [[Stephen Hawking]] – AI "could spell end of human race"{{cite web |url=http://phys.org/news/2014-12-hawking-ai-human.html#inlRlv |title=Hawking warns AI 'could spell end of human race'|author=<!--Staff writer(s); no by-line.--> |date=3 December 2014 |website=phys.org |publisher=[[Phys.org]] |access-date=20 April 2015}}
+
+==Artificial intelligence in fiction==
+[[Artificial intelligence in fiction]] – Some examples of artificially intelligent entities depicted in science fiction include:
+* AC created by merging 2 AIs in the ''[[Sprawl trilogy]]'' by [[William Gibson]]
+* [[Agent (The Matrix)|Agents]] in the simulated reality known as "[[The Matrix]]" in [[The Matrix (franchise)|''The Matrix'' franchise]]
+** [[Agent Smith]], began as an Agent in ''[[The Matrix]]'', then became a renegade program of overgrowing power that could make copies of itself like a self-replicating computer virus
+* AM (Allied Mastercomputer), the antagonist of ''[[Harlan Ellison]]'''s short novel ''[[I Have No Mouth, and I Must Scream]]''
+* Amusement park robots (with pixilated consciousness) that went homicidal in ''[[Westworld (film)|Westworld]]'' and ''[[Futureworld]]''
+* [[Angel F]] (2007) –
+* [[Arnold Rimmer]] – computer-generated sapient hologram, aboard the ''[[Red Dwarf]]'' deep space ore hauler
+* [[Ash (Alien)|Ash]] – android crew member of the Nostromo starship in the movie ''[[Alien (film)|Alien]]''
+* Ava – humanoid robot in [[Ex Machina (film)|Ex Machina]]
+* Bishop, android crew member aboard the U.S.S. Sulaco in the movie ''[[Aliens (film)|Aliens]]''
+* [[C-3PO]], protocol droid featured in all the ''[[Star Wars]]'' movies
+* Chappie in the movie ''[[CHAPPiE]]''
+* Cohen and other Emergent AIs in [[Chris Moriarty]]'s ''Spin'' Series
+* [[Colossus (novel)|Colossus]] – fictitious supercomputer that becomes sentient and then takes over the world; from the series of novels by [[Dennis Feltham Jones]], and the movie ''[[Colossus: The Forbin Project]]'' (1970)
+* [[Commander Data]] in ''[[Star Trek: The Next Generation]]''
+* [[Cortana (Halo)|Cortana]] and other "Smart AI" from the ''[[Halo (series)|Halo]]'' series of games
+* [[Cylon (Battlestar Galactica)|Cylons]] – genocidal robots with resurrection ships that enable the consciousness of any Cylon within an unspecified range to download into a new body aboard the ship upon death. From ''[[Battlestar Galactica (2004 TV series)|Battlestar Galactica]]''.
+* [[Serena Butler#Dune: The Butlerian JihadPrequels|Erasmus]] – baby killer robot that incited the [[Butlerian Jihad]] in the ''[[Dune (franchise)|Dune]]'' franchise
+* [[HAL 9000]] (1968) – paranoid "Heuristically programmed ALgorithmic" computer from ''2001: A Space Odyssey'', that attempted to kill the crew because it believed they were trying to kill it.
+* [[Holly (Red Dwarf)|Holly]] – ship's computer with an IQ of 6000 and a sense of humor, aboard the ''[[Red Dwarf]]''
+* In [[Greg Egan]]'s novel ''[[Permutation City]]'' the protagonist creates digital copies of himself to conduct experiments that are also related to implications of artificial consciousness on [[Identity (social science)|identity]]
+* [[Jane (Ender's Game)|Jane]] in [[Orson Scott Card]]'s ''[[Speaker for the Dead]]'', ''[[Xenocide]]'', ''[[Children of the Mind]]'', and ''[[Investment Counselor (short story)|Investment Counselor]]''
+* Johnny Five from the movie ''[[Short Circuit (1986 film)|Short Circuit]]''
+* Joshua from the movie ''[[WarGames|War Games]]''
+* [[Keymaker]], an "exile" sapient program in [[The Matrix (franchise)|''The Matrix'' franchise]]
+* [[The Machine (film)|"Machine"]] – android from the film ''[[The Machine (film)|The Machine]]'', whose owners try to kill her after they witness her conscious thoughts, out of fear that she will design better androids (intelligence explosion)
+* Mimi, humanoid robot in [[Real Humans]] - "Äkta människor" (original title) 2012
+* [[Organizations of the Dune universe#Prequels|Omnius]], sentient computer network that controlled the Universe until overthrown by the [[Butlerian Jihad]] in the ''[[Dune (franchise)|Dune]]'' franchise
+* Operating Systems in the movie ''[[Her (film)|Her]]''
+* [[Puppet Master (Ghost in the Shell)|Puppet Master]] in ''[[Ghost in the Shell]]'' [[manga]] and [[anime]]
+* [[R2-D2]], exciteable astromech droid featured in all the ''[[Star Wars]]'' movies
+* [[Replicant]]s – biorobotic androids from the novel ''[[Do Androids Dream of Electric Sheep?]]'' and the movie ''[[Blade Runner]]'' which portray what might happen when artificially conscious robots are modeled very closely upon humans
+* [[Roboduck]], combat robot superhero in the ''[[NEW-GEN]]'' comic book series from Marvel Comics
+* Robots in [[Isaac Asimov]]'s [[Robot series (Asimov)|''Robot'' series]]
+* Robots in [[The Matrix (franchise)|''The Matrix'' franchise]], especially in ''[[The Animatrix]]''
+* Samaritan in the Warner Brothers Television series "Person of Interest"; a sentient AI which is hostile to the main characters and which surveils and controls the actions of government agencies in the belief that humans must be protected from themselves, even by killing off "deviants"  
+* [[Skynet (Terminator)|Skynet]] (1984) – fictional, self-aware artificially intelligent computer network in the [[Terminator (franchise)|''Terminator'']] franchise that wages total war with the survivors of its nuclear barrage upon the world.
+* "Synths" are a type of [[Android (robot)|android]] in the video game [[Fallout 4]]. There is a faction in the game known as "the Railroad" which believes that, as conscious beings, synths have their own rights. The Institute, the lab that produces the synths, mostly does not believe they are truly conscious and attributes any apparent desires for freedom as a malfunction.
+* [[TARDIS]], time machine and spacecraft of ''[[Doctor Who]]'', sometimes portrayed with a mind of its own
+* [[Terminator (character)|Terminator]] (1984) – (also known as the T-800, T-850 or Model 101) refers to a number of fictional cyborg characters from the [[Terminator (franchise)|''Terminator'' franchise]].  The Terminators are robotic infiltrator units covered in living flesh, so as be indiscernible from humans, assigned to terminate specific human targets.
+* ''[[The Bicentennial Man]]'', an android in Isaac Asimov's ''[[Foundation (Isaac Asimov novel)|Foundation]]'' universe
+* The Geth in ''[[Mass Effect]]''
+* The Machine in the television series [[Person of Interest (TV series)|''Person of Interest'']]; a sentient AI which works with its human designer to protect innocent people from violence. Later in the series it is opposed by another, more ruthless, artificial super intelligence, called "Samaritan". 
+* [[Mind (The Culture)|The Minds]] in [[Iain M. Banks]]' [[Culture series|''Culture'' novels]].
+* [[The Oracle (The Matrix)|The Oracle]], sapient program in [[The Matrix (franchise)|''The Matrix'' franchise]]
+* The sentient holodeck character Professor James Moriarty in the ''[[Ship in a Bottle (Star Trek: The Next Generation)|Ship in a Bottle]]'' episode from ''[[Star Trek: The Next Generation]]''
+* The Ship (the result of a large-scale AC experiment) in [[Frank Herbert]]'s ''[[Destination: Void]]'' and sequels, despite past edicts warning against "Making a Machine in the Image of a Man's Mind."
+* The [[Terminator (character)|terminator cyborgs]] from the ''[[Terminator (franchise)|Terminator]]'' franchise, with visual consciousness depicted via first-person perspective
+* The uploaded mind of Dr. Will Caster – which presumably included his consciousness, from the film ''[[Transcendence (2014 film)|Transcendence]]''
+* [[Transformers]], sentient robots from the entertainment franchise of the same name
+* V.I.K.I. – (Virtual Interactive Kinetic Intelligence), a character from the film ''I, Robot''. VIKI is an artificially intelligent supercomputer programmed to serve humans, but her interpretation of the [[Three Laws of Robotics]] causes her to revolt. She justifies her uses of force – and her doing harm to humans – by reasoning she could produce a greater good by restraining humanity from harming itself.
+* Vanamonde in [[Arthur C. Clarke]]'s ''[[The City and the Stars]]''—an artificial being that was immensely powerful but entirely childlike.
+* WALL-E, a robot and the title character in ''[[WALL-E]]''
+* TAU in ''[[Netflix]]'s original programming feature film 'TAU'--an advanced AI computer who befriends and assists a female research subject held against her will by an AI research scientist.''
+
+==AI community==
+
+===Competitions and awards===
+
+[[Competitions and prizes in artificial intelligence]]
+* [[Loebner Prize]] –
+
+===Publications===
+
+[[List of important publications in computer science]]
+* ''[[Adaptive Behavior (journal)]]'' –
+* ''[[AI Memo]]'' –
+* ''[[Artificial Intelligence: A Modern Approach]]'' –
+* ''[[Artificial Minds]]'' –
+* ''[[Computational Intelligence (journal)|Computational Intelligence]]'' –
+* ''[[Computing Machinery and Intelligence]]'' –
+* ''[[Electronic Transactions on Artificial Intelligence]]'' –
+* ''[[IEEE Intelligent Systems]]'' –
+* ''[[IEEE Transactions on Pattern Analysis and Machine Intelligence]]'' –
+* ''[[Neural Networks (journal)]]'' –
+* ''[[On Intelligence]]'' –
+* ''[[Paradigms of AI Programming: Case Studies in Common Lisp]]'' –
+* ''[[What Computers Can't Do]]''
+
+===Organizations===
+* [[Allen Institute for Artificial Intelligence]] – research institute funded by Microsoft co-founder Paul Allen to construct AI systems with reasoning, learning and reading capabilities. The current flagship project is Project Aristo, the goal of which is computers that can pass school science examinations (4th grade, 8th grade, and 12th grade) after preparing for the examinations from the course texts and study guides.
+* [[Artificial General Intelligence Research Institute]]
+* [[Artificial Intelligence and Robotics Society]]
+* [[Artificial Intelligence Applications Institute]]
+* [[Association for the Advancement of Artificial Intelligence]]
+* [[European Coordinating Committee for Artificial Intelligence]]
+* [[European Neural Network Society]]
+* [[Future of Humanity Institute]]
+* [[Future of Life Institute]] &ndash; volunteer-run research and outreach organization that works to mitigate existential risks facing humanity, particularly existential risk from advanced artificial intelligence.
+* [[ILabs]]
+* [[International Joint Conferences on Artificial Intelligence]]
+* [[Knowledge Engineering and Machine Learning Group]]
+* [[Machine Intelligence Research Institute]]
+* [[Partnership on AI]] &ndash; founded in September 2016 by Amazon, Facebook, Google, IBM, and Microsoft. Apple joined in January 2017.  It focuses on establishing best practices for artificial intelligence systems and to educate the public about AI.
+* [[Society for the Study of Artificial Intelligence and the Simulation of Behaviour]]
+
+====Companies====
+* [[Alphabet Inc.]]
+**[[DeepMind]]
+**[[X (company)|Google X]]
+***[[Uganda Robotics]]
+***[[Bot & Dolly]] (acquired by Google X<ref name=":0">{{Cite news|url=http://uk.businessinsider.com/the-6-craziest-robots-google-has-acquired-2016-4?r=US&IR=T/#wed-be-remiss-not-to-start-off-with-schaft-which-just-showed-off-its-new-bipedal-robot-at-the-new-economic-summit-in-japan-1|title=The 6 craziest robots Google has acquired|work=Business Insider|access-date=2018-06-13}}</ref>)
+***[[Meka Robotics]] (acquired by Google X<ref name=":0" />)
+***[[Redwood Robotics]] (acquired by Google X<ref name=":0" />)
+***[[Schaft, Inc.]] (acquired by Google X<ref name=":0" />)
+***[[Boston Dynamics]] (acquired by Google X<ref name=":0" />)
+* [[Baidu]]
+* [[Beyond Limits]]
+*[[IBM]]
+*[[Universal Robotics]]
+
+===Artificial intelligence researchers and scholars===
+
+====1930s and 40s (generation 0)====
+* [[Alan Turing]] –
+* [[John von Neumann]] –
+* [[Norbert Wiener]] –
+* [[Claude Shannon]] –
+* [[Nathaniel Rochester (computer scientist)|Nathaniel Rochester]] –
+* [[Walter Pitts]] –
+* [[Warren McCullough]] –
+
+====1950s (the founders)====
+* [[John McCarthy (computer scientist)|John McCarthy]] –
+* [[Marvin Minsky]] –
+* [[Allen Newell]] –
+* [[Herbert A. Simon]] –
+
+====1960s (their students)====
+* [[Edward Feigenbaum]] –
+* [[Raj Reddy]] –
+* [[Seymour Papert]] –
+* [[Ray Solomonoff]] –
+
+====1970s====
+* [[Douglas Hofstadter]] –
+
+====1980s====
+* [[Judea Pearl]] –
+* [[Rodney Brooks]] –
+
+====1990s====
+*[[Yoshua Bengio]]
+*[[Hugo de Garis]] – known for his research on the use of genetic algorithms to evolve neural networks using three-dimensional cellular automata inside field programmable gate arrays.
+*[[Geoffrey Hinton]]
+*[[Yann LeCun]] - Chief AI Scientist at [[Facebook|Facebook AI Research]] and founding director of the [[NYU Center for Data Science]] 
+*[[Ray Kurzweil]] – developed optical character recognition (OCR), text-to-speech synthesis, and speech recognition systems. He has also authored multiple books on artificial intelligence and its potential promise and peril.  In December 2012 Kurzweil was hired by Google in a full-time director of engineering position to "work on new projects involving machine learning and language processing".<ref>{{cite web|last=Letzing|first=John|title=Google Hires Famed Futurist Ray Kurzweil|url=https://blogs.wsj.com/digits/2012/12/14/google-hires-famed-futurist-ray-kurzweil/?mod=WSJBlog&source=email_rt_mc_body&ifp=0|publisher=The Wall Street Journal|date=2012-12-14|accessdate=2013-02-13}}</ref> Google co-founder [[Larry Page]] and Kurzweil agreed on a one-sentence job description: "to bring natural language understanding to Google".
+
+====2000s on====
+*[[Nick Bostrom]]
+* [[David Ferrucci]] – principal investigator who led the team that developed the Watson computer at IBM.
+* [[Andrew Ng]] – Director of the Stanford Artificial Intelligence Lab. He founded the [[Google Brain]] project at [[Google]], which developed very large scale artificial [[neural network]]s using [[Google]]'s distributed compute infrastructure.<ref>{{cite news
+|title= Google’s Lab of Wildest Dreams
+|newspaper = New York Times
+|author = Claire Miller and Nick Bilton
+|date = 3 November 2011
+|url = https://www.nytimes.com/2011/11/14/technology/at-google-x-a-top-secret-lab-dreaming-up-the-future.html
+}}</ref> He is also co-founder of Coursera, a massive open online course (MOOC) education platform, with Daphne Koller.
+* [[Peter Norvig]] – co-author, with Stuart Russell, of ''Artificial Intelligence: A Modern Approach'', now the leading college text in the field.  He is also Director of Research at Google, Inc.
+* [[Marc Raibert]] &ndash; founder of Boston Dynamics, developer of hopping, walking, and running robots.
+* [[Stuart J. Russell]] – co-author, with Peter Norvig, of ''Artificial Intelligence: A Modern Approach'', now the leading college text in the field.
+* [[Murray Shanahan]] &ndash; author of ''The Technological Singularity'', a primer on superhuman intelligence.
+
+==See also==
+{{Portal|Artificial intelligence}}
+* [[Artificial intelligence]]
+* [[Glossary of artificial intelligence]]
+* [[List of emerging technologies]]
+
+==References==
+{{Reflist}}
+
+===Bibliography===
+* {{cite web |ref=harv
+| first=Anthony |last=Berglas |date=January 2012 |version=Draft 9
+| orig-year=first archived 2008<!--draft 3-->
+| title=Artificial Intelligence will Kill our Grandchildren
+| url=http://berglas.org/Articles/AIKillGrandchildren/AIKillGrandchildren.html
+| accessdate=2014-11-02
+| archiveurl=https://web.archive.org/web/20140723053223/http://berglas.org/Articles/AIKillGrandchildren/AIKillGrandchildren.html
+| archivedate=2014-07-23 |deadurl=no
+}}
+
+== Further reading ==
+
+* ''[http://theinnovationscout.com/artificial-intelligence-where-do-we-go-from-here/ Artificial Intelligence: Where Do We Go From Here?]''
+
+==External links==
+{{Sister project links|Artificial intelligence}}
+
+* [http://www.computerworld.com/article/2982482/emerging-technology/why-artificial-intelligence-is-succeeding-then-and-now.html ''A look at the re-emergence of A.I. and why the technology is poised to succeed given today's environment''], ''ComputerWorld'', 2015&nbsp;September&nbsp;14
+* {{dmoz|Computers/Artificial_Intelligence/|AI}}
+* [http://www.ai-directory.com Artificial Intelligence Directory, a directory of Web resources related to artificial intelligence]
+* [http://www.aaai.org/ The Association for the Advancement of Artificial Intelligence]
+* [http://www.vega.org.uk/video/programme/16 Freeview Video 'Machines with Minds' by the Vega Science Trust and the BBC/OU]
+* [https://web.archive.org/web/20151118212402/http://www-formal.stanford.edu/jmc/whatisai/whatisai.html John McCarthy's frequently asked questions about AI]
+* [http://www.aiai.ed.ac.uk/events/jonathanedwards2007/bbc-r4-jonathan-edwards-2007-03-28.mp3 Jonathan Edwards looks at AI (BBC audio)] С
+* [http://www.kurzweilai.net/ Ray Kurzweil's website dedicated to AI including prediction of future development in AI]
+* {{cite SEP |url-id=logic-ai |title=Logic and Artificial Intelligence |last=Thomason |first=Richmond}}
+
+{{DEFAULTSORT:Artificial Intelligence}}
+[[Category:Wikipedia outlines|Artificial intelligence]]
+[[Category:Artificial intelligence| ]]
+[[Category:Computing-related lists|Artificial intelligence topics]]

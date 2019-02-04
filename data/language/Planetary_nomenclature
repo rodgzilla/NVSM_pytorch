@@ -1,0 +1,978 @@
+[[Image:MoonMap1.jpg|thumb|300px|A map of the Moon from [[Andrees Allgemeiner Handatlas]], 1st edition (1881), predating IAU conventions]]
+'''Planetary nomenclature''', like terrestrial nomenclature, is a system of uniquely identifying features on the surface of a [[planet]] or [[natural satellite]] so that the features can be easily located, described, and discussed. Since the invention of the [[telescope]], astronomers have given names to the surface features they have discerned, especially on the [[Moon]] and [[Mars]]. To standardize planetary nomenclature, the [[International Astronomical Union]] (IAU) was assigned in 1919 the task of selecting official names for features on solar system bodies.<ref>{{cite web|url=http://planetarynames.wr.usgs.gov/history.html|title=History of Planetary Nomenclature|date=2008-05-17}}</ref>
+
+== How names are approved by the IAU ==
+
+When images are first obtained of the surface of a planet or satellite, a theme for naming features is chosen and a few important features are named, usually by members of the appropriate IAU task group (a commonly accepted planet-naming group). Later, as higher [[image resolution|resolution]] images and maps become available, additional features are named at the request of investigators mapping or describing specific surfaces, features, or [[geology|geologic]] formations. Anyone may suggest that a specific name be considered by a task group. If the members of the task group agree that the name is appropriate, it can be retained for use when there is a request from a member of the scientific community that a specific feature be named. Names successfully reviewed by a task group are submitted to the IAU [[Working Group for Planetary System Nomenclature]] (WGPSN). Upon successful review by the members of the WGPSN, names are considered provisionally approved and can be used on [[cartography|maps]] and in publications as long as the provisional status is clearly stated. Provisional names are then presented for adoption to the IAU's General Assembly, which met triennially in the past, and which now adopts nomenclature for planetary surface features as required. A name is not considered to be official &mdash; that is, "adopted" &mdash; until the General Assembly has given its approval.
+
+== IAU rules and conventions ==
+
+Names adopted by the IAU must follow various rules and conventions established and amended through the years by the Union. These include:<ref>{{citation |title= Planetary Names: IAU Rules and Conventions |publisher= IAU |url= http://planetarynames.wr.usgs.gov/Page/Rules }}</ref>
+
+#Nomenclature is a tool and the first consideration should be to make it simple, clear, and unambiguous.
+#In general, official names will not be given to features whose longest dimensions are less than 100 meters, although exceptions may be made for smaller features having exceptional scientific interest.
+#The number of names chosen for each body should be kept to a minimum. Features should be named only when they have special scientific interest, and when the naming of such features is useful to the scientific and cartographic communities at large.
+#Duplication of the same surface feature name on two or more bodies, and of the same name for satellites and minor planets, is discouraged. Duplications may be allowed when names are especially appropriate and the chances for confusion are very small.
+#Individual names chosen for each body should be expressed in the language of origin. Transliteration for various alphabets should be given, but there will be no translation from one language to another.
+#Where possible, the themes established in early solar system nomenclature should be used and expanded on.
+#Solar system nomenclature should be international in its choice of names. Recommendations submitted to the IAU national committees will be considered, but final selection of the names is the responsibility of the International Astronomical Union. Where appropriate, the WGPSN strongly supports an equitable selection of names from ethnic groups, countries, and gender on each map; however, a higher percentage of names from the country planning a landing is allowed on landing site maps.
+#No names having political, military or (modern) religious significance may be used, except for names of political figures prior to the 19th century.
+#Commemoration of persons on planetary bodies should not normally be a goal in itself, but may be employed in special circumstances and is reserved for persons of high and enduring international standing. Persons being so honored must have been deceased for at least three years.
+#When more than one spelling of a name is extant, the spelling preferred by the person, or used in an authoritative reference, should be used. [[Diacritical marks]] are a necessary part of a name and will be used.
+#Ring and ring-gap nomenclature and names for newly discovered satellites are developed in joint deliberation between WGPSN and IAU Commission 20. Names will not be assigned to satellites until their orbital elements are reasonably well known or definite features have been identified on them.
+#Accessible and authoritative sources, including Internet sources, are required for adopted names. [[Wikipedia]] is not sufficient as a source, but may be useful for identifying appropriate sources.
+
+In addition to these general rules, each task group develops additional conventions as it formulates an interesting and meaningful nomenclature for individual planetary bodies.
+
+== Naming conventions ==
+{{unreferenced section|date=May 2018}}
+Names for all planetary features include a descriptor term, with the exception of two feature types. For craters, the descriptor term is implicit. Some features named on [[Io (moon)|Io]] and [[Triton (moon)|Triton]] do not carry a descriptor term because they are ephemeral.
+
+In general, the naming convention for a feature type remains the same regardless of its size. Exceptions to this rule are valleys and craters on Mars and Venus; naming conventions for these features differ according to size.
+
+One feature classification, ''regio'', was originally used on early maps of the Moon and Mercury (drawn from telescopic observations) to describe vague albedo features. It is now used to delineate a broad geographic region.
+
+Named features on bodies so small that coordinates have not yet been determined are identified on drawings of the body that are included in the IAU Transactions volume of the year when the names were adopted. Satellite rings and gaps in the rings are named for scientists who have studied these features; drawings that show these names are also included in the pertinent Transactions volume. Names for atmospheric features are informal at present; a formal system will be chosen in the future.
+
+The boundaries of many large features (such as ''terrae, regiones, planitiae'' and ''plana'') are not topographically or geomorphically distinct; the coordinates of these features are identified from an arbitrarily chosen center point. Boundaries (and thus coordinates) may be determined more accurately from geochemical and geophysical data obtained by future missions.
+
+During active missions, small surface features are often given informal names. These may include landing sites, spacecraft impact sites, and small topographic features, such as craters, hills, and rocks. Such names will not be given official status by the IAU, except as provided for by Rule 2 above. As for the larger objects, official names for any such small features would have to conform to established IAU rules and categories.
+
+== {{anchor|feature types}} Descriptor terms (feature types) ==
+{| class="wikitable" 
+|- bgcolor="#cccccc"
+! Feature
+! Pronunciation<ref>Listed pronunciations are conventional or follow the [[traditional English pronunciation of Latin]] words. However, some speakers use different (often variable) pronunciations that are closer to the Latin or Greek.</ref>
+! Description
+! Designation
+|- 
+| [[Albedo feature]]
+| {{IPAc-en|æ|l|ˈ|b|iː|d|oʊ}}
+| An area which shows a contrast in brightness or darkness (albedo) with adjacent areas. This term is implicit.
+| AL
+|- 
+| Arcus, arcūs
+| {{IPAc-en|ˈ|ɑːr|k|ə|s}}
+| Arc: curved feature
+| AR
+|-
+| Astrum, astra
+| {{IPAc-en|ˈ|æ|s|t|r|ə|m}}, {{IPAc-en|ˈ|æ|s|t|r|ə}}
+| Radial-patterned features on [[Venus]]
+| AS
+|- 
+| [[Crater chain|Catena, catenae]]
+| {{IPAc-en|k|ə|ˈ|t|iː|n|ə}}, {{IPAc-en|k|ə|ˈ|t|iː|n|i}}
+| A chain of craters e.g. [[Enki Catena]].
+| CA
+|- 
+| [[Cavus (planetary nomenclature)|Cavus, cavi]]
+| {{IPAc-en|ˈ|k|eɪ|v|ə|s}}, {{IPAc-en|ˈ|k|eɪ|v|aɪ}}
+| Hollows, irregular steep-sided depressions usually in arrays or clusters
+| CB
+|- 
+| [[Chaos terrain|Chaos]]
+| {{IPAc-en|ˈ|k|eɪ|ɒ|s}}
+| A distinctive area of broken or jumbled terrain e.g. [[Iani Chaos]].
+| CH
+|- 
+| [[Chasma|Chasma, chasmata]]
+| {{IPAc-en|ˈ|k|æ|z|m|ə}}, {{IPAc-en|ˈ|k|æ|z|m|ə|t|ə}}
+| Deep, elongated, steep-sided depression e.g. [[Eos Chasma]].
+| CM
+|- 
+| [[Collis (planetary nomenclature)|Colles]]
+| {{IPAc-en|ˈ|k|ɒ|l|iː|z}}
+| A collection of small hills or knobs.
+| CO
+|- 
+| [[Corona (planetary geology)|Corona, coronae]]
+| {{IPAc-en|k|ɒ|ˈ|r|oʊ|n|ə}}, {{IPAc-en|k|ɒ|ˈ|r|oʊ|n|i}}
+| An oval feature. Used only on Venus and [[Miranda (moon)|Miranda]].
+| CR
+|- 
+| Crater, craters
+| {{IPAc-en|ˈ|k|r|eɪ|t|ər}}
+| A circular depression (in most cases [[Impact crater|created by impact event]]). This term is implicit.
+| AA
+|- 
+| [[Wrinkle-ridge|Dorsum, dorsa]]
+| {{IPAc-en|ˈ|d|ɔːr|s|əm}}, {{IPAc-en|ˈ|d|ɔːr|s|ə}}
+| Ridge, sometimes called a wrinkle ridge e.g. [[Dorsum Buckland]].
+| DO
+|- 
+| Eruptive center
+|
+| An [[Volcanology of Io|active volcano]] on [[Io (moon)|Io]]. This term is implicit.
+| ER
+|- 
+| [[Facula|Facula, faculae]]
+| {{IPAc-en|ˈ|f|æ|k|j|ʊ|l|ə}}, {{IPAc-en|ˈ|f|æ|k|j|ʊ|l|i}}
+| Bright spot
+| FA
+|- 
+| Farrum, farra
+| {{IPAc-en|ˈ|f|ær|ə|m}}, {{IPAc-en|ˈ|f|ær|ə}}
+| Pancake-like structure, or a row of such structures. Used only on Venus.
+| FR
+|- 
+| Flexus, flexūs
+| {{IPAc-en|ˈ|f|l|ɛ|k|s|ə|s}}
+| Very low curvilinear ridge with a scalloped pattern
+| FE
+|- 
+| Fluctus, fluctūs
+| {{IPAc-en|ˈ|f|l|ʌ|k|t|ə|s}}
+| Terrain covered by outflow of liquid. Used on Venus, Io, Titan, and Mars.
+| FL
+|- 
+| Flumen, flumina
+| {{IPAc-en|ˈ|f|l|uː|m|ᵻ|n}}, {{IPAc-en|ˈ|f|l|uː|m|ᵻ|n|ə}}
+| Channel on [[Titan (moon)|Titan]] that might carry liquid
+| FM
+|-
+| [[Fossa (geology)|Fossa, fossae]]
+| {{IPAc-en|ˈ|f|ɒ|s|ə}}, {{IPAc-en|ˈ|f|ɒ|s|i}}
+| Long, narrow, shallow depression
+| FO
+|- 
+| Fretum, freta
+| {{IPAc-en|ˈ|f|r|iː|t|əm}}, {{IPAc-en|ˈ|f|r|iː|t|ə}}
+| Strait of liquid connecting two larger areas of liquid. Used only on Titan.
+| FT
+|- 
+| Insula, insulae
+| {{IPAc-en|ˈ|ɪ|n|sj|uː|l|ə}}, {{IPAc-en|ˈ|ɪ|n|sj|uː|l|i}}
+| Island (islands), an isolated land area (or group of such areas) surrounded by, or nearly surrounded by, a liquid area (sea or lake). Used only on Titan.
+| IN
+|-
+| [[Labes|Labes, labes]]
+| {{IPAc-en|ˈ|l|eɪ|b|iː|z}}
+| Landslide debris. Used only on Mars.
+| LA
+|- 
+| Labyrinthus, labyrinthi
+| {{IPAc-en|l|æ|b|ᵻ|ˈ|r|ɪ|n|θ|ə|s}}, {{IPAc-en|l|æ|b|ᵻ|ˈ|r|ɪ|n|θ|aɪ}}
+| Complex of intersecting valleys or ridges.
+| LB
+|- 
+| Lacuna, lacunae
+| {{IPAc-en|l|ə|ˈ|k|juː|n|ə}}, {{IPAc-en|l|ə|ˈ|k|juː|n|i}}
+| Irregularly shaped depression having the appearance of a dry lake bed. Used only on Titan.
+| LU
+|-
+| Lacus, lacūs
+| {{IPAc-en|ˈ|l|eɪ|k|ə|s}}
+| A "lake" or small plain on Moon and Mars; on Titan, a "lake" or small, dark plain with discrete, sharp boundaries.
+| LC
+|- 
+| colspan=2|Landing site name
+| Lunar features at or near [[Project Apollo|Apollo]] landing sites
+| LF
+|- 
+| colspan=2|Large ringed feature
+| Cryptic ringed features
+| LG
+|- 
+| Lenticula, lenticulae
+| {{IPAc-en|l|ɛ|n|ˈ|t|ɪ|k|j|ʊ|l|ə}}, {{IPAc-en|l|ɛ|n|ˈ|t|ɪ|k|j|ʊ|l|i}}
+| Small dark spots on [[Europa (moon)|Europa]]
+| LE
+|- 
+| Linea, lineae
+| {{IPAc-en|ˈ|l|ɪ|n|i|ə}}, {{IPAc-en|ˈ|l|ɪ|n|i|i}}
+| Dark or bright elongate marking, may be curved or straight
+| LI
+|- 
+| Lingula, lingulae
+| 
+| Extension of plateau having rounded lobate or tongue-like boundaries
+| LN
+|- 
+| [[Macula (planetary geology)|Macula, maculae]]
+| {{IPAc-en|ˈ|m|æ|k|j|ʊ|l|ə}}, {{IPAc-en|ˈ|m|æ|k|j|ʊ|l|i}}
+| Dark spot, may be irregular
+| MA
+|- 
+| [[Lunar mare|Mare]], maria
+| {{IPAc-en|ˈ|m|ɑːr|i|,_|-|eɪ}}, {{IPAc-en|ˈ|m|ɑːr|i|ə}}
+| A "sea": on the Moon, a low albedo, relatively smooth plain, generally of large extent; on Mars, dark albedo area, e.g. [[Mare Erythraeum]]; on Titan, large expanses of dark materials thought to be liquid hydrocarbons, e.g. [[Ligeia Mare]].
+| ME
+|- 
+| [[Mensa (geology)|Mensa, mensae]]
+| {{IPAc-en|ˈ|m|ɛ|n|s|ə}}, {{IPAc-en|ˈ|m|ɛ|n|s|i}}
+| A flat-topped prominence with cliff-like edges, i.e. a [[mesa]].
+| MN
+|- 
+| [[Mons (planetary nomenclature)|Mons, montes]]
+| {{IPAc-en|ˈ|m|ɒ|n|z}}, {{IPAc-en|ˈ|m|ɒ|n|t|iː|z}}
+| Mons refers to a mountain.  Montes refers to a mountain range.
+| MO
+|- 
+| Oceanus
+| {{IPAc-en|oʊ|ʃ|iː|ˈ|aɪ|n|ə|s}}
+| Very large dark area. The only feature with this designation is [[Oceanus Procellarum]].
+| OC
+|- 
+| Palus, paludes
+| {{IPAc-en|ˈ|p|eɪ|l|ə|s}}, {{IPAc-en|p|ə|ˈ|lj|uː|d|iː|z}}
+| "Swamp"; small plain. Used on the Moon and Mars.
+| PA
+|- 
+| [[Patera (planetary nomenclature)|Patera, paterae]]
+| {{IPAc-en|ˈ|p|æ|t|ər|ə}}, {{IPAc-en|ˈ|p|æ|t|ər|i}}
+| Irregular crater, or a complex one with scalloped edges e.g. [[Ah Peku Patera]].  Usually refers to the dish-shaped depression atop a volcano.
+| PE
+|- 
+| [[Planitia|Planitia, planitiae]]
+| {{IPAc-en|p|l|ə|ˈ|n|ɪ|ʃ|ə}}, {{IPAc-en|p|l|ə|ˈ|n|ɪ|ʃ|i}}
+| Low plain e.g. [[Amazonis Planitia]].
+| PL
+|- 
+| Planum, plana
+| {{IPAc-en|ˈ|p|l|eɪ|n|ə|m}}, {{IPAc-en|ˈ|p|l|eɪ|n|ə}}
+| A [[plateau]] or high plain e.g. [[Planum Boreum]].
+| PM
+|- 
+| Plume
+| 
+| A [[cryovolcano|cryovolcanic]] feature on [[Triton (moon)|Triton]]. This term is currently unused.
+| PU
+|- 
+| Promontorium, promontoria
+| {{IPAc-en|p|r|ɒ|m|ə|n|ˈ|t|ɔər|i|ə|m}}, {{IPAc-en|p|r|ɒ|m|ə|n|ˈ|t|ɔər|i|ə}}
+| "Cape"; headland. Used only on the Moon.
+| PR
+|- 
+| Regio, regiones
+| {{IPAc-en|ˈ|r|iː|dʒ|i|oʊ|,_|ˈ|r|ɛ|dʒ|-}}, {{IPAc-en|r|ɛ|dʒ|i|ˈ|oʊ|n|iː|z}}
+| Large area marked by reflectivity or color distinctions from adjacent areas, or a broad geographic region
+| RE
+|- 
+| Reticulum, reticula
+| {{IPAc-en|r|ᵻ|ˈ|t|ɪ|k|j|ʊ|l|ə|m}}, {{IPAc-en|r|ᵻ|ˈ|t|ɪ|k|j|ʊ|l|ə}}
+| reticular (netlike) pattern on Venus
+| RT
+|- 
+| Rima, rimae
+| {{IPAc-en|ˈ|r|aɪ|m|ə}}, {{IPAc-en|ˈ|r|aɪ|m|i}}
+| Fissure. Used only on the Moon and [[21 Lutetia]].
+| RI
+|- 
+| [[Rupes|Rupes, rupēs]]
+| {{IPAc-en|ˈ|r|uː|p|iː|z}}
+| Scarp
+| RU
+|-
+| Saxum, saxa
+|
+| Boulder or rock
+| SA
+|-
+| Satellite feature
+|
+| A feature that shares the name of an associated feature, for example [[Hertzsprung (crater)#Satellite craters|Hertzsprung D]].
+| SF
+|-
+| [[Scopulus]], scopuli
+| {{IPAc-en|ˈ|s|k|ɒ|p|j|ʊ|l|ə}}, {{IPAc-en|ˈ|s|k|ɒ|p|j|ʊ|l|aɪ}}
+| Lobate or irregular scarp
+| SC
+|- 
+| Serpens, serpentes
+| {{IPAc-en|ˈ|s|ɜːr|p|ɛ|n|z}}, {{IPAc-en|s|ər|ˈ|p|ɛ|n|t|iː|z}}
+| Sinuous feature with segments of positive and negative relief along its length
+| SE
+|- 
+| Sinus, sinūs
+| {{IPAc-en|ˈ|s|aɪ|n|ə|s}}
+| "Bay"; small plain on Moon or Mars, e.g. [[Sinus Meridiani]]; On Titan, bay within bodies of liquid.
+| SI
+|- 
+| Sulcus, sulci
+| {{IPAc-en|ˈ|s|ʌ|l|k|ə|s}}, {{IPAc-en|ˈ|s|ʌ|l|s|aɪ}}
+| Subparallel furrows and ridges
+| SU
+|-
+| {{anchor|Terra|terra}}Terra, terrae
+| {{IPAc-en|ˈ|t|ɛr|ə}}, {{IPAc-en|ˈ|t|ɛr|i}}
+| Extensive land mass e.g. [[Arabia Terra]], [[Aphrodite Terra]].
+| TA
+|- 
+| Tessera, tesserae
+| {{IPAc-en|ˈ|t|ɛ|s|ər|ə}}, {{IPAc-en|ˈ|t|ɛ|s|ər|i}}
+| An area of tile-like, polygonal terrain. This term is used only on Venus.
+| TE
+|- 
+| [[Tholus]], tholi
+| {{IPAc-en|ˈ|θ|oʊ|l|ə|s}}, {{IPAc-en|ˈ|θ|oʊ|l|aɪ}}
+| Small domical mountain or hill e.g. [[Hecates Tholus]].
+| TH
+|- 
+| Undae
+| {{IPAc-en|ˈ|ʌ|n|d|i}}
+| A field of dunes. Used on Venus, Mars and Titan.
+| UN
+|- 
+| Vallis, valles
+| {{IPAc-en|ˈ|v|æ|l|ᵻ|s}}, {{IPAc-en|ˈ|v|æ|l|iː|z}}
+| A valley e.g. [[Valles Marineris]].
+| VA
+|- 
+| Vastitas, vastitates
+| {{IPAc-en|ˈ|v|æ|s|t|ᵻ|t|ə|s}}, {{IPAc-en|v|æ|s|t|ᵻ|ˈ|t|eɪ|t|iː|z}}
+| An extensive plain. The only feature with this designation is [[Vastitas Borealis]].
+| VS
+|-
+| Virga, virgae
+| {{IPAc-en|ˈ|v|ɜːr|ɡ|ə}}, {{IPAc-en|ˈ|v|ɜːr|dʒ|i}}
+| A streak or stripe of color. This term is currently used only on Titan.
+| VI
+|}
+
+== Categories for naming features on planets and satellites ==
+
+=== [[Mercury (planet)|Mercury]] ===
+
+[[Image:Mercury h06 Kuiper quadrangle.png|thumb|300px|right|Examples of Mercurian nomenclature from the [[Kuiper quadrangle]].]]
+{| class="wikitable"
+|- bgcolor="#cccccc"
+! Feature type
+! Current list
+! Naming convention
+|-
+| Catenae
+| [http://planetarynames.wr.usgs.gov/SearchResults?target=MERCURY&featureType=Catena,%20catenae]
+|Radio telescope facilities
+|-
+| Craters
+| [[List of craters on Mercury|list]]  [http://planetarynames.wr.usgs.gov/SearchResults?target=MERCURY&featureType=Crater,%20craters]
+|Famous deceased artists, musicians, painters, authors
+|-
+| Dorsa
+| [[List of dorsa on Mercury|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=MERCURY&featureType=Dorsum,%20dorsa]
+| Astronomers who made detailed studies of the planet
+|-
+|Facula
+|[[List of fossae on Mercury|list]] [https://planetarynames.wr.usgs.gov/SearchResults?target=MERCURY&featureType=Facula,%20faculae]
+|The word 'snake' in various languages
+|-
+| Fossae
+| [[List of fossae on Mercury|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=MERCURY&featureType=Fossa,%20fossae]
+| Significant works of architecture
+|-
+| Montes
+| [[List of mountains on Mercury|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=MERCURY&featureType=Mons,%20montes]
+| Words for "hot" in various languages. Only one mountain range is currently named: [[Caloris Montes]], from Latin word for "heat"
+|-
+| Planitiae
+| [[List of planitiae on Mercury|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=MERCURY&featureType=Planitia,%20planitiae]
+| Names for Mercury (either planet or god) in various languages. Two exceptions exist.
+|-
+| Rupēs
+| [[List of rupes on Mercury|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=MERCURY&featureType=Rupes,%20rup%C4%93s]
+| Ships of discovery or scientific expeditions
+|-
+| Valles
+| [[List of valles on Mercury|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=MERCURY&featureType=Vallis,%20valles]
+|Abandoned cities, towns or settlements of antiquity
+|}
+
+=== [[Venus]] ===
+
+All but three features on Venus are named after females. These three exceptions were named before the convention was adopted, being respectively Alpha Regio, Beta Regio, and [[Maxwell Montes]] which is named after [[James Clerk Maxwell]].
+
+{| class="wikitable"
+|- bgcolor="#cccccc"
+! Feature type
+! Current list
+! Naming convention
+|-
+| Astra
+| none [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Astrum,%20astra]
+| Goddesses, miscellaneous
+|-
+| Chasmata
+| [[List of chasmata on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Chasma,%20chasmata]
+| Goddesses of hunt; moon goddesses
+|-
+| Colles
+| [[List of colles on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Collis,%20colles]
+| Sea goddesses
+|-
+| Coronae
+| [[List of coronae on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Corona,%20coronae]
+| Fertility and earth goddesses
+|-
+| Craters
+| [[List of craters on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Crater,%20craters]
+| Over 20&nbsp;km; famous women; under 20&nbsp;km, common female first names
+|-
+| Dorsa
+| [[List of dorsa on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Dorsum,%20dorsa]
+| Sky goddesses
+|-
+| Farra
+| [[List of farra on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Farrum,%20farra]
+| Water goddesses
+|-
+| Fluctūs
+| [[List of fluct-us on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Fluctus,%20fluct%C5%ABs]
+| Goddesses, miscellaneous
+|-
+| Fossae
+| [[List of fossae on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Fossa,%20fossae]
+| Goddesses of war
+|-
+| Labyrinthi
+| [[List of labyrinthi on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Labyrinthus,%20labyrinthi]
+| Goddesses, miscellaneous
+|-
+| Lineae
+| [[List of lineae on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Linea,%20lineae]
+| Goddesses of war
+|-
+| Montes
+| [[List of montes on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Mons,%20montes]
+| Goddesses, miscellaneous (also one radar scientist)
+|-
+| Paterae
+| [[List of paterae on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Patera,%20paterae]
+| Famous women
+|-
+| Planitiae
+| [[List of planitiae on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Planitia,%20planitiae]
+| Mythological heroines
+|-
+| Plana
+| [[List of plana on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Planum,%20plana]
+| Goddesses of prosperity
+|-
+| Regiones
+| [[List of regiones on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Regio,%20regiones]
+| Giantesses and Titanesses (also two Greek alphanumeric)
+|-
+| Rupēs
+| [[List of rup-es on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Rupes,%20rup%C4%93s]
+| Goddesses of hearth and home
+|-
+| Terrae
+| [[List of terrae on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Terra,%20terrae]
+| Goddesses of love
+|-
+| Tesserae
+| [[List of tesserae on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Tessera,%20tesserae]
+| Goddesses of fate and fortune
+|-
+| Tholi
+| [[List of tholi on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Tholus,%20tholi]
+| Goddesses, miscellaneous
+|-
+| Undae
+| [[List of undae on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Unda,%20undae]
+| Desert goddesses
+|-
+| Valles
+| [[List of valles on Venus|list]] [http://planetarynames.wr.usgs.gov/SearchResults?target=VENUS&featureType=Vallis,%20valles]
+| Word for planet Venus in various world languages (400&nbsp;km and longer); river goddesses (less than 400&nbsp;km in length)
+|}
+
+=== The [[Moon]] ===
+{{see also|Selenography|List of features on the Moon|List of craters on the Moon|List of maria on the Moon|List of mountains on the Moon|List of valleys on the Moon}}
+{| class="wikitable"
+|- bgcolor="#cccccc"
+! Feature type
+! Naming convention
+|-
+| Craters
+| Craters are generally named after deceased scientists, scholars, artists and explorers who have made outstanding or fundamental contributions to their field. Additionally, craters in or around [[Mare Moscoviense]] are named after deceased Russian cosmonauts and craters in and around [[Apollo crater]] are named after deceased American astronauts (see [[Space accidents and incidents]]). This convention may be extended if other space-faring countries suffer fatalities in spaceflight.
+|- 
+| Lacūs, Maria, Paludes, Sinūs
+| These features are assigned names which are Latin terms describing weather and other abstract concepts.
+|- 
+| Montes
+| Montes are named after terrestrial mountain ranges or nearby craters.
+|- 
+| Rupēs
+| Rupēs are named after nearby mountain ranges (see above).
+|- 
+| Valles
+| Valles are named after nearby features.
+|-
+| Others
+| Features that don't fall into any of the above categories are named after nearby craters.
+|}
+
+=== Mars and martian satellites ===
+
+==== [[Mars]] ====
+[[Image:Karte Mars Schiaparelli MKL1888.png|thumb|200px|Early map of Mars by Giovanni Schiaparelli, which depicts classical albedo features]]
+
+{| class="wikitable"
+|- bgcolor="#cccccc"
+! Feature type
+! Naming convention
+|-
+| Large craters
+| Deceased scientists who have contributed to the study of Mars; writers and others who have contributed to the lore of Mars
+|- 
+| Small craters
+| Villages of the world with a population of less than 100,000.
+|- 
+| Large valles
+| Name for Mars/star in various languages
+|- 
+| Small valles
+| Classical or modern names of rivers
+|- 
+| Other features
+| From nearest named albedo feature on [[Giovanni Schiaparelli|Schiaparelli]] or [[Eugene Antoniadi|Antoniadi]] maps. See [[Classical albedo features on Mars]] for a list.
+|}
+
+When [[space probe]]s have landed on Mars, individual small features such as rocks, dunes, and hollows have often been given [[list of rocks on Mars|informal names]]. Many of these are frivolous: features have been named after [[ice cream]] (such as [[Cookies and Cream|Cookies N Cream]]); [[cartoon]] characters (such as [[SpongeBob SquarePants]] and [[Patrick Star|Patrick]]); and '70s music acts (such as [[ABBA]] and the [[Bee Gees]]).<ref>{{cite news|url=http://www.post-gazette.com/pg/05282/584655.stm|title=Map of Mars fills up with strange names|accessdate=2008-04-18 | work=Pittsburgh Post-Gazette | first=Jia-Rui | last=Chong | date=2005-10-09}}</ref>
+
+==== [[Deimos (moon)|Deimos]] ====
+{{see also|Deimos (moon)#Named geological features}}
+[[Image:SwiftCrater.gif|thumb|200px|The two named craters on Deimos]]
+Features on Deimos are named after authors who wrote about Martian satellites. There are currently two named features on Deimos - [[Swift (Deimian crater)|Swift crater]] and [[Voltaire (crater)|Voltaire crater]] - after [[Jonathan Swift]] and [[Voltaire]] who predicted the presence of Martian moons.
+
+==== [[Phobos (moon)|Phobos]] ====
+{{see also|Phobos (moon)#Named geological features}}
+All features on Phobos are named after scientists involved with the discovery, dynamics, or properties of the Martian satellites or people and places from [[Jonathan Swift]]'s ''[[Gulliver's Travels]]''.
+
+=== Satellites of [[Jupiter]] ===
+
+==== [[Amalthea (moon)|Amalthea]]====
+{{see also|Amalthea (moon)#Named geological features}}
+People and places associated with the Amalthea myth
+
+====[[Thebe (moon)|Thebe]]====
+
+Features on Thebe are named after people and places associated with the Thebe myth. There is only one named feature on Thebe - [[Zethus Crater]].
+
+====[[Io (moon)|Io]]====
+
+{{see also|List of geological features on Io|List of mountains on Io|List of paterae on Io}}
+
+{| class="wikitable"
+|- bgcolor="#cccccc"
+! Feature type
+! Naming convention
+|-
+| Active eruptive centers
+| Active volcanoes on Io are named after fire, sun or thunder gods or heroes.
+|- 
+| Catenae
+| Crater chains are named after [[solar deity|Sun gods]].
+|- 
+| Fluctūs
+| Names of fluctūs are derived from a nearby named feature, fire, sun, thunder or volcano gods, goddesses and heroes or mythical blacksmiths.
+|- 
+| Mensae, Montes, Plana, Regiones and Tholi
+| These features can be named after places associated with [[Io (mythology)|Io mythology]], derived from nearby named features, or places from Dante's ''[[Divine Comedy|Inferno]]''
+|- 
+| Paterae
+| Paterae on Io are named after fire, sun, thunder or volcano gods, heroes or goddesses or mythical blacksmiths.
+|- 
+| Valles
+| Names of valleys are derived from nearby named features.
+|}
+
+====[[Europa (moon)|Europa]]====
+{{see also|List of geological features on Europa|List of craters on Europa|List of lineae on Europa}}
+{| class="wikitable"
+|- bgcolor="#cccccc"
+! Feature type
+! Naming convention
+|-
+| Chaos
+| Places associated with Celtic myths
+|- 
+| Craters
+| Celtic gods and heroes
+|- 
+| Flexūs
+| Places associated with the Europa myth
+|- 
+| Large ringed features
+| Celtic stone circles
+|- 
+| Lenticulae
+| Celtic gods and heroes
+|- 
+| Lineae
+| People associated with the Europa myth
+|- 
+| Maculae
+| Places associated with the Europa myth
+|- 
+| Regiones
+| Places associated with Celtic myths
+|}
+
+====[[Ganymede (moon)|Ganymede]]====
+{{see also|List of geological features on Ganymede}}
+{| class="wikitable"
+|- bgcolor="#cccccc"
+! Feature type
+! Naming convention
+|-
+| Catenae, craters
+| Gods and heroes of ancient [[Fertile Crescent]] people
+|- 
+| Faculae
+| Places associated with Egyptian myths
+|- 
+| Fossae
+| Gods (or principals) of ancient Fertile Crescent people
+|- 
+| Paterae
+| Paterae on Ganymede are named after [[wadi]]s in the Fertile Crescent.
+|-
+| Regiones
+| Astronomers who discovered Jovian satellites
+|- 
+| Sulci
+| Places associated with myths of ancient people
+|}
+
+====[[Callisto (moon)|Callisto]]====
+{{see also|List of geological features on Callisto|List of craters on Callisto}}
+
+{| class="wikitable"
+|- bgcolor="#cccccc"
+! Feature type
+! Naming convention
+|-
+| Large ringed features
+| Homes of the gods and of heroes
+|- 
+| Craters
+| Heroes and heroines from northern myths
+|- 
+| Catenae
+| Mythological places in high latitudes
+|}
+
+=== Satellites of [[Saturn]] ===
+
+==== [[Janus (moon)|Janus]]====
+{{see also|List of geological features on Saturn's smaller moons}}
+People from myth of [[Castor and Pollux]] (twins)
+
+====[[Epimetheus (moon)|Epimetheus]]====
+
+People from myth of Castor and Pollux (twins)
+
+====[[Mimas (moon)|Mimas]]====
+{{see also|List of geological features on Mimas}}
+People and places from [[Thomas Malory|Malory's]] ''[[Le Morte d'Arthur]]'' legends (Baines translation)
+
+====[[Enceladus]]====
+{{see also|List of geological features on Enceladus}}
+People and places from Burton's ''Arabian Nights''
+
+====[[Tethys (moon)|Tethys]]====
+{{see also|List of geological features on Tethys}}
+People and places from Homer's ''Odyssey''
+
+====[[Dione (moon)|Dione]]====
+{{see also|List of geological features on Dione}}
+People and places from Virgil's ''Aeneid''
+
+====[[Rhea (moon)|Rhea]]====
+{{see also|List of geological features on Rhea}}
+People and places from creation myths
+
+====[[Titan (moon)|Titan]]====
+{{see also|List of geological features on Titan}}
+{| class="wikitable"
+|- bgcolor="#cccccc"
+! Feature type
+! Naming convention
+|-
+| Albedo features, terrae	
+| Sacred or enchanted places, paradise, or celestial realms from legends, myths, stories, and poems of cultures from around the world
+|-
+| Colles	
+| Names of characters from [[Middle-earth]], the fictional setting in fantasy novels by English author [[J.R.R. Tolkien]] (1892-1973)
+|-
+| Craters and ringed features	
+| Gods and goddesses of wisdom
+|-
+| Facula and faculae	
+| Facula: Names of islands on Earth that are not politically independent, Faculae: Names of archipelagos
+|-
+| Fluctūs	
+| Gods and goddesses of beauty
+|-
+| Flumina	
+| Names of mythical or imaginary rivers
+|-
+| Freta	
+| Names of characters from the [[Foundation series]] of science fiction novels by American author [[Isaac Asimov]] (1920-1992)
+|-
+| Insulae	
+| Names of islands from legends and myths
+|-
+| Lacūs and lacunae	
+| Lakes on Earth, preferably with a shape similar to the lacus or lacuna on Titan
+|-
+| Mare and maria	
+| Sea creatures from myth and literature
+|-
+| Montes	
+| Names of mountains and peaks from Middle-earth, the fictional setting in fantasy novels by English author J.R.R. Tolkien (1892-1973)
+|-
+| Planitiae and labyrinthi	
+| Names of planets from the [[Dune (franchise)|Dune series]] of science fiction novels by American author [[Frank Herbert]] (1920 - 1986)
+|-
+| Sinūs
+| Names of terrestrial bays, coves, fjords or other inlets
+|-
+| Undae	
+| Gods and goddesses of wind
+|-
+| Virgae 
+| Gods and goddesses of rain
+|}
+
+====[[Hyperion (moon)|Hyperion]]====
+{{see also|List of geological features on Hyperion}}
+Sun and Moon deities
+
+====[[Iapetus (moon)|Iapetus]]====
+{{see also|List of geological features on Iapetus}}
+People and places from Sayers' translation of ''Chanson de Roland'', the only exception is [[Cassini Regio]], which is named after its discoverer, [[Giovanni Cassini]].
+
+====[[Phoebe (moon)|Phoebe]]====
+[[Image:Cratersofphoebe.jpg|thumb|right|300px|Examples of crater nomenclature on Phoebe]]
+
+{| class="wikitable"
+|- bgcolor="#cccccc"
+! Feature type
+! Naming convention
+|-
+| Craters
+| Craters of Phoebe are named after people associated with [[Phoebe (mythology)|Phoebe]] or people from ''[[Argonautica]]'' by [[Apollonius Rhodius]] or [[Gaius Valerius Flaccus]].
+|-
+| Other
+| Non-crater features on Phoebe are named after places from ''Argonautica''.
+|}
+
+=== Satellites of [[Uranus]] ===
+Satellites of Uranus are named for characters from the works of [[William Shakespeare]].
+
+====[[Puck (moon)|Puck]]====
+{{see also|List of geological features on Puck}}
+Mischievous (Pucklike) spirits (class)
+
+====[[Miranda (moon)|Miranda]]====
+{{see also|List of geological features on Miranda}}
+Characters, places from Shakespeare's plays
+
+====[[Ariel (moon)|Ariel]]====
+{{see also|List of geological features on Ariel}}
+Light spirits (individual and class)
+
+====[[Umbriel (moon)|Umbriel]]====
+{{see also|List of craters on Umbriel}}
+Dark spirits (individual)
+
+====[[Titania (moon)|Titania]]====
+{{see also|List of geological features on Titania}}
+Female Shakespearean characters, places
+
+====[[Oberon (moon)|Oberon]]====
+{{see also|List of geological features on Oberon}}
+Shakespearean tragic heroes and places
+
+====Small satellites====
+There are currently no named features on Uranian small satellites, however the naming convention is heroines from plays by Shakespeare and Pope.
+
+=== Satellites of [[Neptune]] ===
+
+====[[Proteus (moon)|Proteus]]====
+{{see also|List of geological features on Proteus}}
+Features on Proteus are to be named after water-related spirits, gods or goddesses who are neither Greek nor Roman. The only named feature on Proteus is crater [[Pharos (crater)|Pharos]].
+
+====[[Triton (moon)|Triton]]====
+{{see also|List of geological features on Triton}}
+Geological features on Triton should be assigned aquatic names, excluding those which are Roman and Greek in origin. Possible themes for individual descriptor terms include worldwide aquatic spirits, famous terrestrial fountains or fountain locations, terrestrial aquatic features, famous terrestrial geysers or geyser locations and terrestrial islands.
+
+====[[Nereid (moon)|Nereid]]====
+
+There are currently no named features on Nereid. When features are discovered, they are to be named after individual [[nereids]].
+
+====Small satellites====
+
+Features on other satellites of Neptune, once discovered, should be named after gods and goddesses associated with [[Neptune (mythology)|Neptune]]/[[Poseidon]] mythology or generic mythological aquatic beings.
+
+=== Pluto and plutonian satellites ===
+{{main article|Geography of Pluto|List of geological features on Pluto}}
+[[File:Pluto-Map-Annotated.jpg|thumb|200px|right|[[List of geological features on Pluto|Informally named geographic features]] on Pluto]]
+
+In February 2017, the IAU approved the following themes for surface features on Pluto and its satellites:<ref>{{cite web|title=Official Naming of Surface Features on Pluto and its Satellites: First Step Approved|url=https://www.iau.org/news/pressreleases/detail/iau1702/|website=International Astronomical Union|publisher=International Astronomical Union|accessdate=14 March 2017|date=23 February 2017}}</ref>
+
+<!-- Formatted differently because I don't actually know if any of these are associated with particular features. Be on the eye for a more specific list!-->
+==== [[Pluto]] ====
+* Gods, goddesses, and other beings associated with the Underworld from mythology, folklore and literature.
+* Names for the Underworld and for Underworld locales from mythology, folklore and literature.
+* Heroes and other explorers of the Underworld.
+* Scientists and engineers associated with Pluto and the Kuiper Belt.
+* Pioneering space missions and spacecraft.
+* Historic pioneers who crossed new horizons in the exploration of the Earth, sea and sky.
+
+==== [[Charon (moon)|Charon]] ====
+* Destinations and milestones of fictional space and other exploration.
+* Fictional and mythological vessels of space and other exploration.
+* Fictional and mythological voyagers, travellers and explorers.
+* Authors and artists associated with space exploration, especially Pluto and the Kuiper Belt.
+
+==== [[Nix (moon)|Nix]] ====
+* Deities of the night.
+
+==== [[Hydra (moon)|Hydra]] ====
+* Legendary serpents and dragons.
+
+==== [[Kerberos (moon)|Kerberos]] ====
+* Dogs from literature, mythology, and history.
+
+==== [[Styx (moon)|Styx]] ====
+* River gods.
+
+=== [[Asteroid]]s ===
+
+====[[1 Ceres]]====
+{{see also|List of geological features on Ceres}}
+{| class="wikitable"
+|- bgcolor="#cccccc"
+! Feature type
+! Naming convention
+|-
+| Craters
+| Agricultural deities
+|- 
+| ''other''
+| Agricultural festivals
+|}
+
+====[[4 Vesta]]====
+{{see also|List of geological features on Vesta}}
+{| class="wikitable"
+|- bgcolor="#cccccc"
+! Feature type
+! Naming convention
+|-
+| Craters
+| Historical and mythological women of Ancient Rome
+|- 
+| other
+| Festivals of Ancient Rome
+|}
+
+====[[243 Ida]]====
+{{see also|List of geological features on 243 Ida and Dactyl}}
+{| class="wikitable"
+|- bgcolor="#cccccc"
+! Feature type
+! Naming convention
+|-
+| Craters
+| Caverns and grottos of the world
+|- 
+| Dorsa
+| [[Galileo spacecraft|Galileo project]] participants
+|- 
+| Regiones
+| Discoverer of Ida and places associated with the discoverer
+|}
+
+====[[Dactyl (asteroid)|(243) Ida I Dactyl]]====
+
+{| class="wikitable"
+|- bgcolor="#cccccc"
+! Feature type
+! Naming convention
+|-
+|Craters
+|Idaean dactyls
+|}
+
+====[[951 Gaspra]]====
+{{see also|List of geological features on 951 Gaspra}}
+{| class="wikitable"
+|- bgcolor="#cccccc"
+! Feature type
+! Naming convention
+|-
+|Craters
+|Spas of the world
+|-
+|Regiones
+|Discoverer of [[951 Gaspra#Exploration|Gaspra]], and [[Galileo spacecraft|Galileo project]] participants
+|}
+
+====[[253 Mathilde]]====
+{{see also|List of craters on 253 Mathilde}}
+{| class="wikitable"
+|- bgcolor="#cccccc"
+! Feature type
+! Naming convention
+|-
+|Craters
+|Coal fields and basins of the world
+|}
+
+====[[433 Eros]]====
+{{see also|List of geological features on 433 Eros}}
+{| class="wikitable"
+|- bgcolor="#cccccc"
+! Feature type
+! Naming convention
+|-
+|Craters
+|Mythological and legendary names of an erotic nature
+|-
+|Regiones
+|Discoverers of Eros
+|-
+|Dorsa
+|Scientists who have contributed to the exploration and study of Eros
+|}
+
+====[[25143 Itokawa]]====
+{{see also|List of geological features on 25143 Itokawa}}
+<br />
+
+==See also==
+* [[Astronomical naming conventions]]
+* [[Lists of geological features of the Solar System]]
+* [[List of adjectivals and demonyms of astronomical bodies]]
+* [[Naming of moons]]
+* [[Selenography]]
+* [[Toponymy]], the scientific study of place-names ([[wikt:toponym|toponyms]]), their origins, meanings, use and typology.
+
+==Notes==
+{{Reflist|30em}}
+
+==References==
+* [[File:PD-icon.svg|16px|link=|alt=]] The above article incorporates text from the United States Geological Survey [http://planetarynames.wr.usgs.gov/ Gazetteer of Planetary Nomenclature], which is in the [[public domain]].
+* {{cite book |title=Mapping and Naming the Moon: A History of Lunar Cartography and Nomenclature |author=E. A. Whitaker |date=2003 |isbn=9780521544146 |url=https://books.google.com/books?id=aV1i27jDYL8C}}.
+
+==Further reading==
+*{{cite book|title=Planetary Mapping|author=Ronald Greeley|author2=Raymond M. Batson|last-author-amp=yes|publisher=Cambridge University Press|date=1990|isbn=0-521-03373-X |url=https://books.google.com/books?id=ztodv66A1VsC}}
+
+==External links==
+*[http://planetarynames.wr.usgs.gov/ Gazetteer of Planetary Nomenclature] IAU Working Group for Planetary System Nomenclature (WGPSN)
+*[https://web.archive.org/web/20070621074953/http://www.planetary.org/blog/article/00000691/ 'Planetary Names: How do we come up with them?'], [[Planetary Society]] weblog article by [[Rosaly Lopes]], IAU WGPSN member
+*[http://iau.org/science/scientific_bodies/working_groups/98/members/ Members of the WGPSN]
+*[https://web.archive.org/web/20081003132939/http://emc.elte.hu/~hargitai/hargitai/planmaps.pdf Planetary Maps: Visualization and Nomenclature] Cartographica 41/2 2006
+*[https://web.archive.org/web/20081003133053/http://emc.elte.hu/~hargitai/hargitai/topomdrs.pdf Development of a Local Toponym System at the Mars Desert Research Station] Cartographica 42/2 2007
+*[https://archive.org/details/JohnKoulourisesq.AptnNationalNews_PlanetaryNomenclature APTN National News interviews Planetary Cartographer John Koulouris,(Esq.) on I.A.U. officially adopted Planetary Surface Feature Nomenclature attributed to Aboriginal Peoples' Cultures, People and Places]
+*[https://archive.org/details/JohnKoulourisesq.PlanetaryMapOfVenus_greek_english Planetary Atlas of Venus in the Hellenic (Greek) and English Languages with I.A.U. adopted surface feature nomenclature as of 1984 created by: John A. Koulouris,(Esq.)]
+
+[[Category:Planets of the Solar System|Nomenclature]]
+[[Category:Encodings]]
+[[Category:Astronomical nomenclature]]
+[[Category:Planetary geology]]

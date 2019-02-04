@@ -1,0 +1,58 @@
+{{about|the readability formula|air pollution|Smog|other uses|Smog (disambiguation)}}
+
+The '''SMOG grade''' is a measure of [[readability]] that estimates the years of education needed to understand a piece of writing. SMOG is an acronym for '''Simple Measure of Gobbledygook'''.
+
+SMOG is widely used, particularly for checking health messages.<ref name="Hedman2008">{{cite journal |last=Hedman |first=Amy S. |date=January 2008 |title=Using the SMOG formula to revise a health-related document|journal=American Journal of Health Education |volume=39 |issue=1 |pages=61–64 |url=http://www.articlearchives.com/education-training/literacy-illiteracy/880189-1.html |accessdate=2009-01-19 |doi=10.1080/19325037.2008.10599016}}</ref><ref name="ley1996">{{cite journal |last=Ley |first=P. |author2=T. Florio  |date=February 1996 |title=The use of readability formulas in health care |journal=Psychology, Health & Medicine |volume=1 |issue=1 |pages=7–28 |doi=10.1080/13548509608400003 |url=http://www.informaworld.com/smpp/content~db=all~content=a783435805 |accessdate=2010-12-14}}</ref> The SMOG grade yields a 0.985 [[correlation]] with a [[standard error]] of 1.5159 grades with the grades of readers who had 100% comprehension of test materials.<ref>{{cite journal |last=McLaughlin |first=G. Harry |date=May 1969 |title=SMOG Grading — a New Readability Formula |journal=Journal of Reading |volume=12 |issue=8 |pages=639–646  |url=https://ogg.osu.edu/media/documents/health_lit/WRRSMOG_Readability_Formula_G._Harry_McLaughlin__1969_.pdf |format=PDF |accessdate=2018-04-26}}</ref>
+
+The formula for calculating the SMOG grade was developed by G. Harry McLaughlin as a more accurate and more easily calculated substitute for the [[Gunning fog index]] and published in 1969. To make calculating a text's readability as simple as possible an approximate formula was also given — count the words of three or more syllables in three 10-sentence samples, estimate the count's square root (from the nearest perfect square), and add 3.
+
+A 2010 study published in the ''Journal of the Royal College of Physicians of Edinburgh'' stated that “SMOG should be the preferred measure of readability when evaluating consumer-oriented healthcare material.” The study found that “The [[Flesch–Kincaid readability test|Flesch-Kincaid formula]] significantly underestimated reading difficulty compared with the gold standard SMOG formula.”<ref name=Fitzsimmons2010>{{cite journal
+|author = Fitzsimmons,P. |author2=Michael, B. |author3=Hulley, J. |author4=Scott, G.
+|year = 2010
+|title = A readability assessment of online Parkinson's disease information
+|journal = J R Coll Physicians Edinb
+|volume = 40
+|issue = 4
+|pages = 292–6 
+|doi = 10.4997/JRCPE.2010.401
+|pmid = 21132132}}
+</ref>
+
+Applying SMOG to other languages lacks statistical validity.<ref name=Contreras1999>{{cite journal
+|author = Contreras, A. |author2=Garcia-alonso, R. |author3=Echenique, M. |author4=Daye-contreras, F.
+|year = 1999
+|title = The SOL Formulas for Converting SMOG Readability Scores Between Health Education Materials Written in Spanish, English, and French
+|journal = Journal of Health Communication
+|volume = 4
+|issue = 1
+|pages = 21–29
+|doi = 10.1080/108107399127066
+|url = http://www.informaworld.com/smpp/content~content=a713851470~db=all
+|accessdate=2008-09-20
+|pmid = 10977275}}</ref>
+
+==Formulae==
+To calculate SMOG
+#Count a number of sentences (at least 30)
+#In those sentences, count the [[wikt:polysyllable|polysyllables]] (words of 3 or more syllables).
+#Calculate using
+#:
+#:<math>
+\mbox{grade} = 1.0430 \sqrt{\mbox{number of polysyllables}\times{30 \over \mbox{number of sentences}} } + 3.1291
+</math>
+
+This version (sometimes called the SMOG Index) is more easily used for [[mental math]]:
+# Count the number of polysyllabic words in three samples of ten sentences each.
+# Take the square root of the nearest [[square number|perfect square]]
+# Add 3
+
+SMOG conversion tables compiled by Harold C. McGraw are slightly inaccurate because they are based on the approximate formula. Furthermore, tables for texts of fewer than 30 sentences are statistically invalid, because the formula was normed on 30-sentence samples.
+
+==References==
+{{Reflist}}
+
+
+{{Readability tests}}
+{{DEFAULTSORT:Smog}}
+[[Category:Writing]]
+[[Category:Readability tests]]

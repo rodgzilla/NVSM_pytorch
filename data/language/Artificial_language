@@ -1,0 +1,69 @@
+{{about|languages that naturally emerge in computer simulations or controlled psychological experiments with humans|planned or constructed human languages|constructed language|formal computer languages|formal language}}
+
+'''Artificial languages''' are [[language]]s of a typically very limited size which emerge either in computer simulations between artificial agents, robot interactions or controlled psychological experiments with humans. They are different from both [[constructed language]]s and [[formal language]]s in that they have '''''not''''' been consciously devised by an individual or group but are the result of (distributed) conventionalisation processes, much like [[natural language]]s. Opposed to the idea of a central ''designer'', the field of '''artificial language evolution''' in which artificial languages are studied can be regarded as a sub-part of the more general [[cultural evolution]] studies.
+
+==Origin==
+The idea of creation of artificial language arose in 17th and 18th century as a result of gradually decreasing international role of Latin. The initial schemes ere mainly aimed at the development of a rational language free from inconsistence of living language and based on classification of concepts. The material of living languages also appears later.
+
+== Motivation ==
+
+The lack of empirical evidence in the field of [[evolutionary linguistics]] has led many researchers to adopt computer simulations as a means to investigate the ways in which artificial agents can self-organize languages with natural-like properties.<ref>
+{{cite conference
+ | last = Steels
+ | first = Luc
+ | year = 2006
+ | title = How To Do Experiments in Artificial Language Evolution and Why
+ | conference = Proceedings of the 6th International Conference EVOLANG6
+ | pages = 323-332
+ | publisher = World Scientific Publishing Co.
+ | doi = 10.1142/9789812774262_0041
+}}</ref> This research is based on the hypothesis that [[natural language]] is a [[complex adaptive system]] that emerges through interactions between individuals and continues to evolve in order to remain adapted to the needs and capabilities of its users. By explicitly building all assumptions into computer simulations, this strand of research strives to experimentally investigate the dynamics underlying [[language change]] as well as questions regarding the [[origin of language]] under controlled conditions.
+
+Due to its success the paradigm has also been extended to investigate the emergence of new languages in psychological experiments with humans,<ref>{{cite journal
+ | last1 = Scott-Phillips
+ | first1 = Thomas C
+ | last2 = Kirby
+ | first2 = Simon
+ | year = 2010
+ | title = Language evolution in the laboratory
+ | journal = Trends in Cognitive Sciences
+ | volume = 14
+ | issue = 9
+ | pages = 411–417
+ | publisher = Elsevier
+ | pmid=20675183
+ | doi=10.1016/j.tics.2010.06.006
+}}</ref> leading up to the new paradigm of [[experimental semiotics]].<ref>{{cite journal
+ | last = Galantucci
+ | first = Bruno
+ |date=April 2009
+ | title = Experimental Semiotics: A New Approach for Studying Communication as a Form of Joint Action
+ | journal = Topics in Cognitive Science
+ | volume = 1
+ | issue = 2
+ | pages = 393–410
+ | publisher = Wiley
+ | doi = 10.1111/j.1756-8765.2009.01027.x
+ | url = http://onlinelibrary.wiley.com/doi/10.1111/j.1756-8765.2009.01027.x/abstract
+| pmc = 4503356
+ }}</ref>
+
+Because the focus of the investigations lies on the conventionalisation dynamics and higher-level properties of the resulting languages rather than specific details of the conventions, artificially evolved languages are typically not documented or re-used outside the single experiment trial or simulation run in which they emerge. In fact, the limited size and short-lived nature of artificial languages are probably the only things that sets them apart from ''natural'' languages, since ''all'' languages are artificial insofar as they are [[conventional]] (see also [[Constructed language#Planned, constructed, artificial]]).
+
+== Uses ==
+
+Artificial languages have been used in research in developmental psycholinguistics. Because researchers have a great deal of control over artificial languages, they have used these languages in '''[[statistical language acquisition]]''' studies, in which it can be helpful to control the linguistic patterns heard by infants.
+
+== References ==
+{{Reflist}}
+
+== See also ==
+*[[Evolutionary linguistics]]
+*[[Language-game]]
+*[[Signaling game]]
+
+==External links==
+{{wiktionary}}
+
+{{Authority control}}
+[[Category:Language]]

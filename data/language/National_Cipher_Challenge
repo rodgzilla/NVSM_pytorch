@@ -1,0 +1,28 @@
+{{Use dmy dates|date=December 2013}}
+{{Use British English|date=December 2013}}
+{{Unreferenced|date=October 2010}}
+
+The '''National Cipher Challenge''' is an annual [[Cryptography|cryptographic]] competition organised by the [[University of Southampton]] School of Mathematics. Competitors attempt to break [[cryptograms]] published on the competition website. In the 2007/08 challenge, 1301 teams participated. Participants must be in full-time education and aged 18 or under on 31 August of the year that the challenge finishes.
+
+==Format==
+
+The competition is organised into eight challenges, which are further subdivided into parts A and B. The part A challenge consists of a relatively simple cryptogram that is intended for beginning cryptographers. In later challenges the cryptograms become harder to break. In the past, part A cryptograms have been encrypted with the [[Caesar cipher]], the [[Affine cipher]], the [[Keyword cipher]], the [[Transposition cipher]], the [[Vigenère cipher]] and the 2x2 [[Hill cipher]].
+
+The part B challenges are intended to be harder. These begin with relatively simple [[substitution ciphers]], including the [[Bacon cipher]] and [[Polybius square]], before moving on to [[transposition cipher]]s, [[Playfair cipher]]s and polyalphabetic ciphers such as the [[Vigenère cipher]], the  [[Autokey cipher]] and the [[Alberti cipher]]. In the later stages of the competition, the [[ADFGVX cipher]], the [[Solitaire cipher]], the Double Playfair cipher, the [[Hill cipher]], the [[Book cipher]] and versions of the [[Enigma machine|Enigma]] and [[Fialka]] cipher machines have all been used. The 2009 challenge ended with a Jefferson Disk cipher, the 2012 challenge ended with the ADFGVX Cipher, the 2014 with the [[Playfair Cipher]], and the most recent challenge ended with a sectioned Cadenus transposition.
+
+==Prizes==
+
+£25 cash prizes are awarded to eight random entrants who submit a correct solution for each part A of the challenge. Leaderboards for the part B challenges are also compiled, based on how accurate solutions are and how quickly the entrant broke the cipher. Prizes are awarded to the top three entrants at the end of the challenge. In the 2009/10 challenge, the sponsors provided several prizes: IBM provided iPod Touches to each member of the team winning the Team Prize, Trinity College provided a cash prize of £700, and GCHQ provided a cash prize of £1000. In previous years prizes such as an IBM Thinkpad laptop have been awarded.
+
+After the challenge the winners of the top prizes and other randomly selected entrants are invited to a day held at [[Bletchley Park]] consisting of lectures (with subjects such as the Semantic Web, [[World War II]] cryptography and [[computer programming]]) and the prize-giving ceremony.
+
+Current sponsors of the competition include [[GCHQ]], [[IBM]], [[British Computer Society]], [[Trinity College, Cambridge]], [[Cambridge University Press]], [[Winton Capital Management]] and [[EPSRC]].
+
+==External links==
+* [https://www.cipherchallenge.org The official challenge website]
+* [https://2016.cipherchallenge.org/ The website of the 2016/17 challenge] (slightly broken)
+* [http://www.cipher.maths.soton.ac.uk/archive The website of the 2015/16 challenge]
+The websites for the challenges earlier than this are no longer available.
+
+[[Category:Cryptography contests]]
+[[Category:University of Southampton]]

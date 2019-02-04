@@ -1,0 +1,73 @@
+{{Infobox Book
+| name          = Programming the Universe: A Quantum Computer Scientist Takes On the Cosmos
+| title_orig    = 
+| translator    = 
+| image         = Programming the Universe - book cover.jpg
+| image_caption = Softcover edition
+| author        = [[Seth Lloyd]]
+| illustrator   = 
+| cover_artist  = 
+| country       = United States
+| language      = English
+| series        = 
+| subject       = [[Quantum mechanics]], [[quantum computers]]
+| genre         = Non-fiction
+| publisher     = [[Alfred A. Knopf]]
+| pub_date      = 2006
+| isbn          = 978-1-4000-4092-6 
+| dewey         = 530.12 22
+| congress      = QC174.12 .L57 2006
+| oclc          = 423500375
+}}
+
+'''''Programming the Universe: A Quantum Computer Scientist Takes On the Cosmos''''' is a 2006 [[popular science]] book by [[Seth Lloyd]], professor of mechanical engineering at the [[Massachusetts Institute of Technology]]. The book proposes that the universe is a [[quantum computer]], and advances in the understanding of physics may come from viewing [[entropy]] as a phenomenon of information, rather than simply [[thermodynamics]].  Lloyd also postulates that the universe can be fully simulated using a quantum computer; however, in the absence of a theory of [[quantum gravity]], such a simulation is not yet possible.
+
+==Reaction==
+Reviewer [[Corey S. Powell]] of ''The New York Times'' writes:
+
+<blockquote>In the space of 221 dense, frequently thrilling and occasionally exasperating pages, …  tackles computer logic, thermodynamics, chaos theory, complexity, quantum mechanics, cosmology, consciousness, sex and the origin of life — throwing in, for good measure, a heartbreaking afterword that repaints the significance of all that has come before. The source of all this intellectual mayhem is the kind of Big Idea so prevalent in popular science books these days. Lloyd, a professor of mechanical engineering at M.I.T., takes as his topic the fundamental workings of the universe…, which he thinks has been horribly misunderstood. Scientists have looked at it as a ragtag collection of particles and fields while failing to see what it is as a majestic whole: an enormous computer.<ref>{{cite news 
+  | last = Powell
+  | first = Corey S.
+  | title = Welcome to the Machine
+  | work = 
+  | publisher = ''The New York Times''
+  | date = April 2, 2006
+  | url = https://www.nytimes.com/2006/04/02/books/review/02powell.html?_r=1&partner=rssnyt&emc=rss&oref=slogin
+  | accessdate = 2009-06-08}}
+</ref>
+</blockquote>
+
+In an interview with ''[[Wired (magazine)|Wired]]'' magazine, Lloyd writes:
+
+<blockquote>everything in the universe is made of bits. Not chunks of stuff, but chunks of information — ones and zeros. … Atoms and electrons are bits. Atomic collisions are "ops." Machine language is the laws of physics. The universe is a quantum computer.<ref>{{cite news 
+  | title = Life, the Universe, and Everything 
+  | work = Issue 14.03
+  | publisher = ''Wired''
+  | date = March 2006
+  | url = https://www.wired.com/wired/archive/14.03/play.html?pg=4
+  | accessdate = 2009-06-08
+}}</ref></blockquote>
+
+Gilbert Taylor, writing in ''[[Booklist]]'' of the [[American Library Association]], said that the book:
+
+<blockquote>offers brilliantly clarifying explanations of the "bit," the smallest unit of information; how bits change their state; and how changes-of-state can be registered on atoms via quantum-mechanical qualities such as "spin" and "superposition." Putting readers in the know about quantum computation, Lloyd then informs them that it may well be the answer to physicists' search for a unified theory of everything. Exploring big questions in accessible, comprehensive fashion, Lloyd's work is of vital importance to the general-science audience.<ref>[https://www.amazon.com/dp/1400033861 Quoted on the Amazon website.]</ref></blockquote>
+
+==See also==
+*[[Digital physics]]
+*''[[Decoding the Universe]]'', a 2007 book by [[Charles Seife]]
+*[[Seth Lloyd]]
+*[[Simulation hypothesis]]
+*[[Simulated reality]]
+
+==References==
+{{reflist}}
+
+==External links==
+*{{official website|http://www.randomhouse.com/kvpa/lloyd/}}
+*[http://www.randomhouse.com/kvpa/lloyd/scientist.html Chapter 7, Director’s Cut: It from Qubit] (not included in the book)
+* ''Ultimate physical limits to computation'', [[Nature (journal)|Nature]], volume 406, pages 1047&ndash;1054
+
+[[Category:Science books]]
+[[Category:Computer science books]]
+[[Category:Information science]]
+[[Category:Alfred A. Knopf books]]

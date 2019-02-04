@@ -1,0 +1,214 @@
+A number of '''[[computer-assisted translation]]''' software and websites exists for various platforms and access types. The list below includes only some of the existent and available software and website platforms.
+
+<!-- *******************************************
+Note that this table is not intended to be a complete listing of products, only those that already have an article here.
+Before adding any other product to this table, please ensure that it has its own article first.
+"Wikipedia is not a directory" - see the Talk page discussions and previous page https://en.wikipedia.org/wiki/Talk:Computer-assisted_translation
+************************************************ -->
+
+==General Information==
+{|class="wikitable sortable"
+|-
+!Name
+!Supported File Formats
+!OS
+!Language
+!Widget tool
+!License
+|-
+
+!Pairaphrase<ref>{{cite web|url=https://www.pairaphrase.com/how-it-works/file-language-translation-software/|title=File Language Translation Software for Business - Secure - Pairaphrase|publisher=}}</ref>
+|Word (.docx), Excel (.xlsx), PowerPoint (.pptx), HTML, XML, XML for Android, Adobe InDesign (IDML), ARB, Autocad (.dxf), JPG (scanned text), PNG (scanned text), MS Visio (.vsd), PDF, Resource files (.strings), JSON (.json), Portable Objects (.po), Plain Text (.txt), DXF, RTF, Srt (YouTube subtitles), Sub(.txt), Xliff
+|Cross-platform
+|
+|
+|{{proprietary}}
+|-
+![[Across Language Server]]<ref>ftp://ftp.across.net/Datasheets/data_sheet-dataformats_en.pdf</ref>
+|Microsoft Word (DOC, DOT, DOCX, and DOCM files), Microsoft Excel (XLS files, and XLSX and XLSM files), Microsoft PowerPoint (PPT and PPS files as well as PPTX, PPSX, and PPTM files), Rich Text Format1 (RTF files), text files (TXT files), TeX (TEX files), HTML, XHTML, XML, SGML, Adobe FrameMaker (in MIF format), Adobe InDesign (IDML files, in INX exchange format) Adobe InCopy (INCX format), BroadVision QuickSilver (ILDOC files), QuarkXPress (export to XTG format, re-import upon translation), Executable files (EXE files); Dynamic Link Library (DLL files), Resource Script files (RC, RC2, and DLL files), .NET RESX files (RESX files), .NET RESOURCE files (RESOURCE files), .NET Satellite Assemblies (RESOURCE.DLL files), Windows Installer (MSI files), configuration files (INI files), OLE Control, extensions (OCX files), Screen Saver (SCR files), Control Panel Extensions (CPL files), National Language Support (NLS files), Portable Object (PO files), MC files (Message Compiler), PROPERTIES files (Java Property), Android: (string XML files with HTML markup), iOS (text-based strings files (UTF-8 or UTF-16)), BlackBerry (ANSI-based text files in rrc format), XML Localization Interchange (XLIFF or XLF), Drawing Interchange Format (DXF files)
+|[[Microsoft Windows|Windows]]
+|
+|
+|{{proprietary}}
+|-
+![[CafeTran]]<ref>{{cite web|url=http://cafetran.com|title=CafeTran Espresso - Translation memory tool|website=cafetran.com}}</ref>
+|Text (.txt), OpenOffice (.odt/ods/odp/odg), MS Word (.docx/xml), MS Word OCR (.docx/xml), MS Excel (.xlsx), MS PowerPoint (.pptx), iWork (.pages/key/numbers), XML, HTML, XML/HTML with tags, AbiWord (.abw), MS Word Uncleaned (.docx/xml), OpenOffice Uncleaned (.odt), AutoCAD (.dfx), InDesign (.inx), InDesign (.idml), FrameMaker (.mif), Java Properties (.properties), Windows .NET Resources (.resx), Mac String Resources (.strings), String resource header (.loc), DTP Tagged Text, Tagged MS Excel (.xlsx), Transit XML File, Image (.jpg/gif/bmp/png)
+|colspan=3|[[Java (software platform)|Java platform]] / [[Java (programming language)|Java]]
+|{{proprietary}}
+|-
+![[Déjà Vu (software)|Déjà Vu]]<ref>{{cite web|url=http://www.atril.com/sites/default/files/docs/presentation/Deja-Vu-X3_Supported-Formats.pdf|title=Supported file type reference list for Déjà Vu X3|publisher=}}</ref>
+|Microsoft Office (Word, Excel, Powerpoint, also embedded objects, and Access), Help Contents (CNT), FrameMaker (MIF), PageMaker, QuarkXPress, QuickSilver/Interleaf ASCII, Java Properties (.properties), HTML, HTML Help, XML, RC, C/Java/C++, IBM TM/2, Trados Workbench, Trados BIF (old TagEditor), Trados TagEditor, JavaScript, VBScript, ODBC, TMX, EBU, InDesign (TXT, ITD, INX, IDML), GNU GetText (PO/POT), OpenOffice, OpenDocument SDLX (ITD), ResX, XLIFF (XLF, XLIF, XLIFF, MQXLIFF, unsegmented and segmented SDLXLIFF), Visio (VDX), PDF, Transit NXT PPF, WordFast Pro TXML
+|[[Microsoft Windows|Windows]]
+|
+|
+|{{proprietary}}
+|-
+![[GlobalSight]]
+|Text ANSI / ASCII / Unicode for Windows, Text for Apple Macintosh, HTML, XML (ASP.NET, ASP, JSP, XSL), SGML, MS Word for Windows, MS Excel, MS PowerPoint, RTF, RC, Adobe FrameMaker, Adobe InDesign
+|colspan=3|[[Java (software platform)|Java platform]] / [[Java (programming language)|Java]]
+|{{free|[[Apache License 2.0]]}}
+|-
+![[gtranslator]]
+|[[Gettext|PO]]
+|[[POSIX]]
+|[[C (programming language)|C]]||[[GTK+]]
+|{{free|[[GNU General Public License]]}}
+|-
+![[Lokalize]]
+|Gettext PO, [[Qt (framework)|Qt]] ts, [[XLIFF]], [[Translation Memory eXchange|TMX]]
+|Cross-platform
+|[[C++]]||[[Qt (software)|Qt]]
+|{{free|[[GNU General Public License]]}}
+|-
+![[MateCat]]
+|doc, dot, docx, dotx, docm, dotm, pdf, xls, xlt, xlsm, xlsx, xltx, pot, pps, ppt, potm, potx, ppsm, ppsx, pptm,pptx, odp, ods, odt, sxw, sxc, sxl, txt, csv, xml, rtf, htm, html, xhtml, xml, xliff, sdlxliff, tmx, ttx, itd, xlf, mif, inx, idml, icml, xtg, tag, xml, dita, properties, rc, resx, sgml, sgm
+|web based (supports Safari and Chrome)
+|[[PHP]]||
+|{{free|[[GNU Lesser General Public License]]}}
+|-
+![[memoQ]]<ref>{{cite web|url=http://kilgray.com/products/memoq/formats-and-languages|title=Supported file type reference list for memoQ|publisher=}}</ref>
+|.MIF, InDesign formats (.INDD, .INX, .IDML), .XML, .DITA, .XML, .MM, .PO, .HTML, .HMT, .SHT, .properties, .DOC, .RTF, .BAK, .DOT, .DOCX, .XLS, .XML, .XLSX, .XLSM, .XLS, .XLT, .PPT, .PPS, .POT, .PPF, .PPTX, .PPSX, .POTX, .SLDX, .VDX, .HHC, .HHK, .ODT, .ODF, .TXT, .INF, .INI, .REG, .PDF, .SVG, .SDLPPX, .TTX, .SDLXLIFF, .TMX, .TXML, .RESX, .XLF, .XLIF, .XLIFF, XLIFF:doc
+|Windows
+|
+|
+|{{proprietary}}
+|-
+![[Memsource]]<ref>{{cite web|url=http://wiki.memsource.com/wiki/Memsource_Cloud_User_Manual#Supported_File_Formats|title=Memsource Cloud User Manual – Memsource|website=wiki.memsource.com}}</ref>
+|.doc, .docx, .dot, .dotx, .docm, .dotm, .rtf, .ppt, .pptx, .pot, .potx, .pptm, .potm, .xls, .xlsx, .xlt, .xltx, .xlsm, .xltm, .htm, .html, .idml (.indd), .icml, .mif (version 8 and above only), .svg, .ttx (pre-segmented), .sdlxliff, .xml, .xhtm, .xhtml, Android .xml, .xliff, .xliff for WordPress, tmx, .dita, .ditamap, .pdf, .catkeys, .csv, (Magento).csv, .dbk, .desktop, (Mozilla).DTD, .epub, (Joomla).ini, .json, .lang, .Plist, .po, .properties, (Java).properties, .resx, .srt, .strings, .sub, .ts, .txt, .wiki, .yaml, .zip
+|Web, Windows, Mac OS X, Linux
+|
+|
+|{{proprietary}}
+|-
+![[MetaTexis]]
+|Microsoft Word, Excel and Powerpoint, all kinds of text formats, XML, HTML, [[XLIFF]], RTF, TRADOS Studio (SDLXLIFF), TagEditor (TTX), POT/PO, Manual Maker, several further formats...
+|Microsoft Office Word add-in
+|
+|
+|{{proprietary}}
+|-
+![[Net-Proxy]]
+|Any websites formats: Wordpress, Drupal, Joomla, ocPortal, WebGUI, Rubedo, eZPublish Platform, MODX, concrete 5, X3 CMS
+|Cross-platform
+|
+|Web
+|{{proprietary}}
+|-
+![[OmegaT]]
+|Plain text, HTML, XHTML, StarOffice, OpenOffice.org, OpenDocument (ODF), MS Office Open XML, Help & Manual, HTML Help Compiler (HCC), LaTeX, DokuWiki, QuarkXPress CopyFlow Gold, DocBook, Android Resource, Java Properties, Typo3 LocManager, Mozilla DTD, Windows RC, WiX, ResX, INI files, [[XLIFF]], [[Gettext|PO]], SubRip Subtitles, SVG Images
+|colspan=3|[[Java (software platform)|Java platform]] / [[Java (programming language)|Java]]
+|{{free|[[GNU General Public License]]}}
+|-
+![[Open Language Tools]]
+|[[XLIFF]], HTML/XHTML, XML, DocBook SGML, ASCII, StarOffice/OpenOffice/ODF, [[Gettext|PO]], .properties, .java (ResourceBundle), .msg/.tmsg (catgets)
+|colspan=3|[[Java (software platform)|Java platform]] / [[Java (programming language)|Java]]
+|{{free|[[Common Development and Distribution License|CDDL]]}}
+|-
+![[Poedit]]
+|[[Gettext|PO]]
+|Cross-platform
+|[[C++]]||[[GTK+]]
+|{{free|[[MIT License]]}}
+|-
+![[Pootle]]
+|[[Gettext|PO]], XLIFF, OpenOffice GSI files (.sdf), TMX, TBX, Java Properties, DTD, CSV, HTML, XHTML, Plain Text
+|Cross-platform
+|[[Python (programming language)|Python]]||Web
+|{{free|[[GNU General Public License]]}}
+|-
+![[SDL Trados]]
+|Features four translation environments: dedicated TagEditor, MSWord Interface, SDLX, the integrated interface SDL Trados Studio 2014. Filters for translating with Trados Studio or TagEditor available: Word, Excel, PowerPoint, [[OpenOffice.org|OpenOffice]], InDesign, QuarkXPress, PageMaker, Interleaf, Framemaker, HTML, SGML, XML, SVG, Xliff, Legacy Trados files TTX, ITD, Word Bilingual, Wordfast, MemoQ  .... Includes SDL MultiTerm for terminology management and Project Management Dashboard for automating tasks and tracking.
+|Windows
+|
+|
+|{{proprietary}}
+|-
+![[SmartCAT]]
+|Text documents: DOCX, DOC, TXT, RTF. PowerPoint presentations: PPTX, PPSX, PPT, PPS. Excel spreadsheets: XLSX, XLS. Scanned documents and images: PDF, JPG, TIFF, BMP, PNG, GIF, DJVU and more. HTML pages: HTML, HTM. OpenOffice files: ODP, ODS. Resource files: RESX. Bilingual files: TTX. Industry-standard formats: SDLXLIFF, XLF, XLIFF, TMX. HTML pages: HTML, HTM. InDesign CS4 Markup: IDML.
+|Cross-platform
+|[[C Sharp (programming language)|C#]]||Web
+|{{proprietary}}
+|-
+!Star Transit<ref>[ftp://ftp.star-group.net/LTS/TransitNXT/MarCom/TransitNXT_ProductGuide_ENG.pdf Transit/TermStar NXT: Product Guide Service Pack 9 – 2016-05]</ref>
+|Office (MS Office/Word/Excel/PowerPoint/OpenOffice/LibreOffice/IBM Lotus Symphony/OpenDocument formats/Corel WordPerfect), DTP (FrameMaker/ InDesign Mac and Win/Interleaf/Quicksilver/ PageMaker/ QuarkXPress Mac and Win), TMS (SDLPPX/Trados TTX/MemoQ/XLIFF), Graphics (AutoCAD /SVG/Visio), *ML (DITA/DocBook/HTML/XHTML/SGML/XML), Localization (RC Binary/EXE/DLL C++ and .NET/DLL with WPF elements), Text files (ANSI/ASCII/Unicode/Mac text/RTF/ RTF for WinHelp), Subtitling (SubRip/Text/WebVTT)
+|Windows
+|
+|
+|{{proprietary}}
+|-
+![[UNMIN]] Machine Assisted Translation system<ref>{{cite book |first1= |title=Report of the Secretary-General on the request of Nepal for United Nations assistance in support of its peace process |date=12 May 2008 |publisher=United Nations |location=New York |page=11 |url=http://undocs.org/S/2008/313 |accessdate=13 November 2018 |language=en}}</ref><ref>{{cite book |first1= |title=Report of the Secretary-General on the request of Nepal for United Nations assistance in support of its peace process |date=10 July 2008 |publisher=United Nations |location=New York |page=10 |url=http://undocs.org/S/2008/454 |accessdate=13 November 2018 |language=en}}</ref> (discontinued)
+|Plain Text (ANSI / ASCII / Unicode), Rich Text, HTML, MS Word (.doc)
+|Web
+|[[PHP]]
+|
+|Limited to UN operations in [[Nepal]]
+|-
+![[Virtaal]]
+|XLIFF, [[Gettext|PO]] and MO, TMX, TBX, Wordfast TM, Qt ts<br />Many others via converters in the [[Translate Toolkit]]
+|Cross-platform
+|[[Python (programming language)|Python]]||[[GTK+]]
+|{{free|[[GNU General Public License]]}}
+|-
+![[Wordfast]] Classic
+|Microsoft Word, Rich Text...
+|Microsoft Office Word add-in (Windows / Mac)
+|
+|
+|{{proprietary}}
+|-
+![[Wordfast]] Pro
+|MS Word, Excel, PowerPoint (all versions), PDF, SGML, HTML, XML, InDesign, FrameMaker, tagged documents, XLIFF, etc.
+|colspan=3|[[Java (software platform)|Java platform]] / [[Java (programming language)|Java]]
+|{{proprietary}}
+|-
+![https://xtm.cloud/faq/xtm-cloud-file-types/ XTM Cloud]
+|
+Microsoft Office (doc, docx, xls, xlsx, ppt, pptx, xlsm)
+, Microsoft Visio (vdx)
+, Open Office (sxw, odt, ods, odp)
+, Java property files
+, Adobe FrameMaker (mif)
+, JSON
+, Adobe InDesign (idml, indd, indb)
+, DITA
+, Adobe Photoshop (psd)
+, po, pot
+, Adobe Illustrator (fxg, svg)
+, yml, yaml
+, PDF (converts file to Word)
+, asp, aspx, ascx
+, txt
+, resx, resw
+, rtf
+, rc
+, ini
+, iOS apps (strings)
+, xlf, xliff
+, Android apps (xml)
+, MemoQ (mqxliff)
+, sdf
+, Trados Studio (sdlxliff)
+, Document template (tpl)
+, Trados (ttx)
+, svg
+, Wordfast (txml)
+, SubRip text (srt)
+, xml
+, Salesforce (stf)
+, php
+, Digia QT (ts)
+, html, htm xhtml, xht shtml, shtm
+|Web, Windows, Mac OS X, Linux
+|[[Java (programming language)|Java]]
+|
+|{{proprietary}}
+
+|}
+According to a 2006 survey undertaken by [[Imperial College]] of 874 translation professionals from 54 countries, primary tool usage was reported as follows: [[Trados]] (35%), [[Wordfast]] (17%), Déjà Vu (16%), [[SDL Trados|SDL Trados 2006]] (15%), SDLX (4%), STAR Transit (3%), [[OmegaT]] (3%), others (7%).<ref>{{cite web|url=http://www3.imperial.ac.uk/portal/pls/portallive/docs/1/7307707.PDF |title=Imperial College London Translation Memories Survey |year=2006 |pages=8, 25–6, figure 25 |deadurl=yes |archiveurl=https://www.webcitation.org/5jsaMDqiR?url=http://www3.imperial.ac.uk/portal/pls/portallive/docs/1/7307707.PDF |archivedate=2009-09-18 |df= }} ()</ref>
+
+==References==
+{{Reflist}}
+
+[[Category:Computer-assisted translation|*]]
+[[Category:Language software]]
+[[Category:Natural language and computing|Translation]]

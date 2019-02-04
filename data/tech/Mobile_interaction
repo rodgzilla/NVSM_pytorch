@@ -1,0 +1,160 @@
+{{outdated|date=October 2018}}
+[[File:NFC touch interactions 2.jpg|thumb|Mobile Phone Device]]
+'''Mobile interaction''' is the study of interaction between mobile users and computers. Mobile interaction is an aspect of [[human–computer interaction]] that emerged when computers became small enough to enable mobile usage, around the 1990s.
+
+[[Mobile devices]] are a pervasive part of people's everyday lives. People use [[mobile phones]], [[PDAs]], and [[portable media players]] almost everywhere. These devices are the first truly pervasive interaction devices that are currently used for a huge variety of services and applications.<ref name="Mobile Interaction with the Real World" /> Mobile devices affect the way people interact, share, and communicate with others. They are growing in diversity and complexity, featuring new interaction paradigms, modalities, shapes, and purposes (e.g., [[e-readers]], [[portable media players]], [[handheld game consoles]]). The strong differentiating factors that characterize mobile devices from traditional personal computing (e.g., [[desktop computers]]), are their ubiquitous use, usual small size, and mixed interaction modalities.<ref name="Designing and Evaluating Mobile Interaction: Challenges and Trends" />
+
+The history of mobile interaction includes different design trends. The main six design trends are portability, [[miniaturization]], [[Internet connectivity|connectivity]], [[Convergence (telecommunications)|convergence]], [[divergence]], and [[application software]] (apps). The main reason behind those trends is to understand the requirements and needs of mobile users which is the main goal for mobile interaction. Mobile interaction is a multidisciplinary area with various academic subjects making contributions to it. The main disciplines involved in mobile interaction are [[psychology]], [[computer science]], [[sociology]], [[design]], and [[information systems]]. The processes in mobile interaction design includes three main activities: understanding users, developing prototype designs, and evaluation.
+
+== History ==
+The history of mobile interaction can be divided into a number of eras, or waves, each characterized by a particular technological focus, interaction design trends, and by leading to fundamental changes in the design and use of mobile devices. Although not strictly sequential, they provide a good overview of the legacy on which current mobile computing research and design is built.<ref name="Mobile Interactions in Context: A Designerly Way Toward Digital Ecology" />
+
+# Portability
+#: One of the first work in the mobile interaction discipline was the concept of the [[Dynabook]] by [[Alan Kay]] in 1968. However, at that time the necessary hardware to build such system was not available. When the first [[laptop]]s were built in the early 1980s they were seen as transportable [[desktop computers]].
+# Miniaturization
+#: By the early 1990s, many types of handheld devices were introduced such as labelled [[palmtop]] computers, digital organizers, or [[personal digital assistants]] (PDAs).
+# Connectivity
+#: By 1973, [[Martin Cooper (inventor)|Martin Cooper]] worked at [[Motorola Mobility|Motorola]] developed a handheld mobile phone concept, which later on by 1983, led to the introduction of the first commercial mobile phone called the [[DynaTAC 8000X]].[[File:IPhone and iPhone 3G (Yutaka Tsutano).jpg|thumb|[[Apple Inc.|Apple]] [[iPhone]]]]
+# Convergence
+#: During this era, different types of specialized mobile devices started to converge into new types of hybrid devices with primarily different form factors and interaction designs. On 1992, the first device of such technique, the "[[smartphones]]" was introduced. The first smart phone was the [[IBM Simon]] and it was used for making phone calls, calendars, addresses, notes, e-mail, fax and games.
+# Divergence
+#: During the 2000s, a trend toward a single function many devices started to spread. the basic idea behind divergence is that specialized tools facilitate optimization of functionality over time and enhancement of use. The most famous device of this era was the [[Apple iPod]] on 2001.
+# Apps
+#: During 2007, [[Apple Inc.]] introduced the first truly "smart" cellular phone; the [[iPhone]]. It was a converged mobile device with different features functionality. The most important thing is that it represents a significant rethinking of the design of mobile interactions and a series of notable interaction design choices. In less than a decade Apple Inc. would sell over one-billion iPhones<ref name="Mobile Interactions in Context: A Designerly Way Toward Digital Ecology" />
+
+== Goals ==
+With the evolution of both [[software]] and hardware on the mobile devices, the users are becoming more demanding of the [[user interface]] that provide both functionality and pleasant [[user experience]]. The goal of mobile interaction researches is to understand the requirements and needs of mobile users. Compared with stationary devices mobile devices have specific, often restricted, input and output requirements. A goal that is often named is to overcome the limitations of mobile devices. However, exploiting the special opportunities of mobile usage can also be seen as a central goal.
+
+== Disciplines involved ==
+Mobile interaction is a multidisciplinary area with various academic subjects making contributions. This is a reflection of the complicated nature of an individual's interaction with a computer system. This includes factors such as an understanding of the user and the task the user wants to perform with the system, understanding of the design tools, [[software suite|software packages]] that are needed to achieve this and an understanding of software engineering tools. The following are the main disciplines involved in mobile interaction:<ref name="Understanding Mobile Human-Computer Interaction" />
+
+===1. Psychology===
+Many of the research methods and system evaluation techniques currently used in mobile human-computer interaction research are borrowed from [[psychology]]. As well as attitude measures, performance measures that are used in mobile human-computer interaction research studies come from the area of [[experimental psychology]]. Understanding users and their needs is a key aspect in the design of mobile systems, devices, and applications so that they will be easy and enjoyable to use. Individual user characteristics such as age, or personality physical disabilities such as blindness, all have an effect on users' performance when they are using [[mobile applications]] and systems, and these individual differences can also affect people's attitude towards the mobile service or device that they interact with.
+
+===2. Computer science===
+[[Computer science]] (along with [[software engineering]]) is responsible for providing software tools to develop the interfaces that users need to interact with system. These include the [[software development tools]].
+
+===3. Sociology===
+[[Sociologist]]s working in this area are responsible for looking at [[socio-technical]] aspects of human-computer interaction. They bring methods and techniques from the [[social sciences]] (e.g., observational studies, ethnography) that can be used in the design and evaluation of mobile devices and applications.
+
+===4. Design===
+People working in this area are concerned with looking at the [[design]] layout of the interface (e.g., colors, positioning of text or graphics on a screen of a PDA). This is a crucial area of mobile human-computer interaction research due to the limited screen space available for most mobile devices. Therefore, it is crucial that services and applications reflect this limitation by reducing information complexity to fit the parameters of the mobile device, without losing any substantial content.
+
+===5. Information systems===
+People who work in [[information systems]] are interested in investigating how people interact with information and technologies in an organisational, managerial, and business context. In an organisational context, information system professionals and researchers are interested in looking at ways in which mobile technologies and [[mobile applications]] can be used to make an organisation more effective in conducting its business on a day-to-day business.
+
+== Mobile interaction design ==
+Mobile interaction design is part of the interaction design which heavily focused on satisfying the needs and desires of the majority of people who will use the product.<ref name="About Face 3: The Essentials of Interaction Design" /> The processes in mobile interaction design are in the following main types of activity:<ref name="Mobile Interaction Design" />
+# '''Understanding users''' – having a sense of people's capabilities and limitations; gaining a rich picture of what makes up the detail of their lives, the things they do and use.
+# '''Developing prototype designs''' – representing a proposed interaction design in such a way that it can be demonstrated, altered, and discussed.
+# '''Evaluation''' – each prototype is a stepping stone to the next, better, refined design. Evaluation techniques identify the strengths and weaknesses of a design but can also lead the team to propose a completely different approach, discarding the current line of design thinking for a radical approach.
+
+== See also ==
+{{Too many see alsos|date=December 2016}}
+{{div col|colwidth=30em}}
+* [[Human–computer interaction]]
+** [[Augmented reality]]
+** [[Interaction design]]
+** [[Mobile computing]]
+** [[Outline of human–computer interaction]]
+** [[Ubiquitous computing]]
+** [[Usability]]
+** [[User experience]], [[User experience design]]
+** [[User interface]], [[User interface design]]
+** [[User-centered design]]
+* [[Human factors and ergonomics]]
+* [[Mobile app]]lication
+** [[Mobile application development]]
+** [[Mobile browser]]
+* [[Mobile content]]
+* [[Apple iPhone]]
+* [[Mobile device]]
+** [[Handheld game consoles]]
+** [[Mobile phone]]
+*** [[Form factor (mobile phones)|Mobile phone form factor]]
+** [[Personal digital assistant]]
+** [[Portable media player]]
+** [[Smartphone]]
+** [[Tablet computer|Tablet]]
+* [[Mobile web]]
+* [[Pervasive game]], [[Mobile game]]
+* [[Portable computer]]
+** [[Laplet]]
+** [[Laptop]]
+** [[Netbook]]
+* [[Wearable computer]]
+** [[Head-mounted display]]
+** [[Smartglasses]]
+** [[Smartwatch]]
+{{div col end}}
+
+== References ==
+{{reflist|refs=
+<ref name="Mobile Interaction with the Real World">
+{{cite journal
+| last1=Zimmermann | first1=Andreas | last2= Henze | first2= Niels | last3= Righetti | first3= Xavier | last4= Rukzio | first4= Enrico
+| title=Mobile Interaction with the Real World
+| journal=MobileHCI’09, Article No. 106
+| year=2009
+| isbn=978-1-60558-281-8
+| doi=10.1145/1613858.1613980
+| url=http://dl.acm.org/citation.cfm?id=1613858.1613980
+}}</ref>
+<ref name="Designing and Evaluating Mobile Interaction: Challenges and Trends">
+{{cite journal
+| last1=De Sa | first1=Marco | last2=Carrico | first2=Luis
+| title=Designing and Evaluating Mobile Interaction: Challenges and Trends
+| journal=Foundations and Trends in Human–Computer Interaction |volume=4 |issue=3
+| year=2011
+| pages=175–243
+| doi=10.1561/1100000025
+| url=http://dl.acm.org/citation.cfm?id=2344377
+}}</ref>
+<ref name="Mobile Interactions in Context: A Designerly Way Toward Digital Ecology">
+{{cite book
+| last1=Kjeldskov | first1=Jesper
+| title=Mobile Interactions in Context: A Designerly Way Toward Digital Ecology
+| publisher= Morgan & Claypool
+| year=2014
+| isbn=9781627052269
+}}</ref>
+<ref name="About Face 3: The Essentials of Interaction Design">
+{{cite book
+| last=Cooper | first=Alan | last2=Reimann | first2=Robert | last3=Cronin | first3=Dave
+| title=About Face 3: The Essentials of Interaction Design
+| authorlink=Alan Cooper
+| year=2007
+| publisher=[[John Wiley & Sons|Wiley]]
+| location=[[Indianapolis|Indianapolis, Indiana]]
+| isbn=978-0-470-08411-3
+| pages=610
+| url=https://books.google.com/books?id=0gdRAAAAMAAJ
+}}</ref>
+<ref name="Mobile Interaction Design">
+{{cite book
+| last1=Jones | first1=Matt | last2=Marsden | first2=Gary
+| title=Mobile Interaction Design
+| publisher=Wiley & Sons
+| year=2006
+| isbn=978-0-4700-9089-3
+}}</ref>
+<ref name="Understanding Mobile Human-Computer Interaction">
+{{cite book
+| last=Love | first= Steve
+| title=Understanding Mobile Human-Computer Interaction
+| publisher=Butterworth-Heinemann
+| year=2005
+| isbn=9780750663526
+}}</ref>
+}}
+
+== Further reading ==
+* Bertini, Enrico; Calì, Andrea; Catarci, Tiziana; Gabrielli, Silvia; Kimani, Stephen (2005). "Interaction-Based Adaptation for Small Screen Devices". ''User Modeling, [[Lecture Notes in Computer Science]]''. Springer Berlin / Heidelberg. {{ISBN|978-3-5402-7885-6}}.
+* Tarasewich, Peter (2003). "Designing mobile commerce applications". ''[[Communications of the ACM]]''. ISSN 0001-0782.
+* Roduner, Christof (2006). [http://www.hcilab.org/events/mirw2006/pdf/mirw2006_roduner.pdf "The Mobile Phone as a Universal Interaction Device – Are There Limits?"]. ''MobileHCI 2006 Workshop on Mobile Interaction with the Real World (MIRW)''.
+* Hinckley, Ken; Pierce, Jeff; Sinclair, Mike; Horvitz, Eric (2000). "Sensing Techniques for Mobile Interaction". Symposium on User Interface Software and Technology, CHI Letters 2 (2), pp.&nbsp;91–100. {{ISBN|1-58113-212-3}}.
+
+==External links==
+{{commons category|People with handheld devices}}
+
+[[Category:Human–computer interaction]]

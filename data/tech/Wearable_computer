@@ -1,0 +1,212 @@
+{{Use dmy dates|date=January 2012}}
+[[File:Apple Watch-.jpg|thumb|330x330px|The [[Apple Watch]], released in 2015]]
+'''Wearable computers''', also known as '''wearables''' or '''body-borne computers''',<ref>{{Cite web|url=https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/wearable-computing|title=Wearable Computing|website=The Interaction Design Foundation|language=en|access-date=2018-03-23}}</ref><ref>{{Cite book|url=https://books.google.ca/books?hl=zh-CN&lr=&id=QxUqCgAAQBAJ&oi=fnd&pg=PP1&dq=fundamentals+of+wearable+computers+and+augmented+reality&ots=f9grvFy-I_&sig=jEp9vBFzwhifpoiS7uxbDzfS8IQ&redir_esc=y#v=onepage&q=fundamentals%20of%20wearable%20computers%20and%20augmented%20reality&f=false|title=Fundamentals of Wearable Computers and Augmented Reality, Second Edition|last=Barfield|first=Woodrow|date=2015-07-29|publisher=CRC Press|year=|isbn=9781482243512|location=|pages=4|language=en}}</ref> are small computing devices (nowadays usually [[electronic device|electronic]]) that are worn under, with, or on top of [[clothing]].<ref name=Interaction-Design>[http://www.interaction-design.org/encyclopedia/wearable_computing.html Mann, Steve (2012): Wearable Computing. In: Soegaard, Mads and Dam, Rikke Friis (eds.). "Encyclopedia of Human-Computer Interaction". Aarhus, Denmark: The Interaction-Design.org Foundation.]</ref>
+
+The definition of 'wearable computer' may be narrow or broad, extending to [[smartphone]]s or even ordinary [[wristwatch]]es. This article uses the broadest definition.<ref name=":0">{{Cite journal|url = http://www.cc.gatech.edu/~thad/p/magazine/2002-1-no-longer-science-fiction.pdf|title = Wearable Computer: No Longer Science Fiction|last = Starner|first = Thad|date = January 2002|journal = Pervasive Computing|doi = |pmid = |access-date = }}</ref><ref>{{Cite web|url=https://www.topgizmo.com/evolution-of-smartwatches-infographic/|title=Evolution Of Smartwatches With Time: A Infographic Timeline {{!}} TopGizmo|website=TopGizmo|language=en-US|access-date=2016-03-14}}</ref>
+
+Wearables may be for general use, in which case they are just a particularly small example of [[mobile computing]]. Alternatively they may be for specialized purposes such as [[fitness tracker]]s. They may incorporate special sensors such as [[accelerometer]]s, [[thermometer]] and [[Heart rate monitor|heart rate monitors]], or novel user interfaces such as [[Google Glass]], an [[optical head-mounted display]] controlled by gestures. It may be that specialized wearables will evolve into general all-in-one devices, as happened with the convergence of [[PDA]]s and mobile phones into smartphones.
+
+Wearables are typically worn on the wrist (e.g. fitness trackers), hung from the neck (like a necklace), strapped to the arm or leg (smartphones when exercising), or on the head (as glasses or a helmet), though some have been located elsewhere (e.g. on a finger or in a shoe). Devices carried in a pocket or bag – such as [[smartphone]]s and before them [[pocket calculator]]s and [[PDA]]s, may or may not be regarded as 'worn'.
+
+Wearable computers have various technical issues common to other [[mobile computing]], such as batteries, [[Thermal management (electronics)|heat dissipation]], [[software architecture]]s, [[wireless]] and [[personal area network]]s, and data management.<ref>O'donoghue, John, and John Herbert. "Data management within mHealth environments: Patient sensors, mobile devices, and databases." Journal of Data and Information Quality (JDIQ) 4.1 (2012): 5.</ref> Many wearable computers are active all the time, e.g. processing or recording data continuously.
+
+==Applications==
+Wearable computers are not only limited to the computers such as fitness trackers, that are worn on wrists, they also includes wearables such as Heart pacemakers and other prosthetic.
+It is used most often in research that focuses on behavioral modeling, health monitoring systems, IT and media development, where the person wearing the computer actually moves or is otherwise engaged with his or her surroundings. Wearable computers have been used for the following:
+
+* general-purpose computing (e.g. [[smartphone]]s and [[smartwatch]]es)
+* sensory integration, e.g. to help people see better or understand the world better (whether in task-specific applications like camera-based [[welding helmet]]s<ref name=Quantigraphic>{{Cite news |title=Quantigraphic camera promises HDR eyesight from Father of AR |work=SlashGear |author=Chris Davies |date= 12 September 2012 |url=http://www.slashgear.com/quantigraphic-camera-promises-hdr-eyesight-from-father-of-ar-12246941/}}</ref> or for everyday use like [[Google Glass]]
+* [[behavioral modeling]]
+* [[health care]] [[monitoring (medicine)|monitoring]] [[system]]s
+* [[service management]]
+* [[E-textiles|electronic textile]]s and [[fashion design]], e.g. Microsoft's 2011 prototype "The Printing Dress".<ref>Microsoft, (3 August 2011), Dressing for the Future: Microsoft Duo Breaks Through with Wearable Technology Concept, Microsoft News Center</ref>
+
+Wearable computing is the subject of active research, especially the form-factor and location on the body, with areas of study including [[user interface]] design, [[augmented reality]], and [[pattern recognition]]. The use of wearables for specific applications, for compensating [[disabilities]] or supporting elderly people steadily increases.
+
+==History==
+[[File:Wearcompevolution.jpg|thumb|509x509px|right|Evolution of [[Steve Mann]]'s ''WearComp'' wearable computer from backpack based systems of the 1980s to his current covert systems]]
+Due to the varied definitions of "wearable" and "computer", the first wearable computer could be as early as the first abacus on a necklace, a 16th-century abacus ring, a [[wristwatch]] and 'finger-watch' owned by [[Queen Elizabeth I]] of England, or the covert timing devices hidden in shoes to cheat at roulette by Thorp and Shannon in the 1960s and 1970s.<ref>{{cite journal|last=Thorp|first=Edward|title=The Invention of the First Wearable Computer|journal=Digest of Papers. Second International Symposium on Wearable Computers (Cat. No.98EX215)|date=October 1998|pages=4–8}}</ref>
+
+However, a computer is not merely a time-keeping or calculating device, but rather a user-programmable item for complex [[algorithm]]s, [[interface (computing)|interfacing]], and data management. By this definition, the wearable computer was invented by [[Steve Mann]], in the late 1970s:<ref name=ISSCC2000>{{cite news |title=IEEE ISSCC 2000: 'Dick Tracy' watch watchers disagree |author=Peter Clarke |work=EE Times| url=http://www.eetimes.com/electronics-news/4039816/ISSCC--Dick-Tracy-watch-watchers-disagree}}</ref><ref name=Watier>{{cite news |title=Marketing Wearable Computers to Consumers: An Examination of Early Adopter Consumers' Feelings and Attitudes Toward Wearable Computers |author=Katherine Watier |date=19 April 2003 |work=Washington, DC }}</ref><ref>{{cite web |author=Tara Kieffner |title=Wearable Computers: An Overview |url=http://misnt.indstate.edu/harper/Wearable_Computers.html |archive-url=https://web.archive.org/web/20010526051405/http://misnt.indstate.edu/harper/Wearable_Computers.html |dead-url=yes |archive-date=2001-05-26 }}</ref>
+
+{{quotation |Steve Mann, a professor at the University of Toronto, was hailed as the father of the wearable computer and the ISSCC's first virtual panelist, by moderator Woodward Yang of Harvard University (Cambridge Mass.).|IEEE ISSCC 8 Feb. 2000}}
+
+The development of wearable items has taken several steps of miniaturization from discrete electronics over hybrid designs to fully integrated designs, where just one processor chip, a battery and some interface conditioning items make the whole unit.
+
+===1500s===
+[[Elizabeth I of England|Queen Elizabeth I]] of [[England]] received a watch from Robert Dudley in 1571, as a New Year present; it may have been worn on the forearm rather than the wrist. She also possessed a 'finger-watch' set in a ring, with an alarm that prodded her finger. <ref>David Boettcher, [http://www.vintagewatchstraps.com/wristwatchinvention.php "The "Invention" of the Wristwatch"], ''Eur Ing David Boettcher'', April 2015</ref>
+
+===1600s===
+The [[Qing Dynasty]] saw the introduction of a fully functional [[abacus]] on a [[Ring (jewellery)|ring]], which could be used while it was being worn.<ref name=Interaction-Design /><ref name=AbacusRing>{{cite news |title=Huizhou people's abacus complex |date=2006-07-20 |work=Xinhua}}</ref>
+
+===1960s===
+In 1961, mathematicians [[Edward O. Thorp]] and [[Claude Shannon]] built some computerized timing devices to help them win at a game of [[roulette]]. One such timer was concealed in a shoe and another in a pack of cigarettes. Various versions of this apparatus were built in the 1960s and 1970s.  Detailed pictures of a shoe-based timing device can be viewed at [http://www.eyetap.org/wearcam/eudaemonic/ www.eyetap.org].
+
+Thorp refers to himself as the inventor of the first "wearable computer"<ref>Quincy, [http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?isnumber=15725&arnumber=729523&count=30&index=1 The invention of the first wearable computer], in ''The Second International Symposium on Wearable Computers: Digest of Papers'', IEEE Computer Society, 1998, pp. 4–8.</ref> In other variations, the system was a concealed cigarette-pack sized [[analog computer]] designed to predict the motion of roulette wheels. A data-taker would use [[microswitch]]es hidden in his shoes to indicate the speed of the roulette wheel, and the computer would indicate an [[Octant (plane geometry)|octant]] of the roulette wheel to bet on by sending musical tones via radio to a miniature speaker hidden in a collaborator's ear canal. The system was successfully tested in [[Las Vegas Valley|Las Vegas]] in June 1961, but hardware issues with the speaker wires prevented it from being used beyond test runs.<ref name="BtD">Raseana.k.a shigady, ''Beat the Dealer'', 2nd Edition, Vintage, New York, 1966. {{ISBN|0-394-70310-3}}</ref> This was not a wearable computer, because it could not be re-purposed during use; rather it was an example of task-specific hardware. This work was kept secret until it was first mentioned in Thorp's book ''Beat the Dealer'' (revised ed.) in 1966<ref name="BtD"/> and later published in detail in 1969.<ref>Edward O. Thorp, "Optimal gambling systems for favorable game." ''Review of the [[International Statistical Institute]]'', V. 37:3, 1969, pp. 273–293.</ref>
+
+===1970s===
+[[Pocket calculator]]s became mass-market devices from 1970, starting in Japan. [[Programmable calculators]] followed in the late 1970s, being somewhat more general-purpose computers. The HP-01 algebraic [[calculator watch]] by Hewlett-Packard was released in 1977.<ref name="Marion">Andre F. Marion, Edward A. Heinsen, Robert Chin, and Bennie E. Helmso, wrist instrument Opens New Dimension in Personal Information [http://www.hp.com/hpinfo/abouthp/histnfacts/museum/personalsystems/0022/other/0022hpjournal.pdf "Wrist instrument opens new dimension in personal information"], Hewlett-Packard Journal, December 1977. See also [http://www.hp.com/hpinfo/abouthp/histnfacts/museum/personalsystems/0022/index.html HP-01 wrist instrument, 1977].</ref>
+
+A camera-to-tactile vest for the blind, launched by C.C. Collins in 1977, converted images into a 1024-point, 10-inch square [[haptic technology|tactile grid]] on a vest.<ref name="collins">C.C. Collins, L.A. Scadden, and A.B. Alden, "Mobile Studies with a Tactile Imaging Device," ''Fourth Conference on Systems & Devices For The Disabled'', 1–3 June 1977, Seattle WA.</ref>
+
+===1980s===
+The 1980s saw the rise of more general-purpose wearable computers. In 1981, [[Steve Mann]] designed and built a backpack-mounted 6502-based wearable multimedia computer with text, graphics, and multimedia capability, as well as video capability (cameras and other photographic systems). [[Steve Mann|Mann]] went on to be an early and active researcher in the wearables field, especially known for his 1994 creation of the Wearable Wireless [[Webcam]], the first example of [[Lifelog]]ging.<ref>Steve Mann, "An historical account of the 'WearComp' and 'WearCam' inventions developed for applications in 'Personal Imaging,'" in ''The First International Symposium on Wearable Computers: Digest of Papers'', IEEE Computer Society, 1997, pp. 66–73</ref><ref name=FirstStep>{{cite journal| title= Wearable Computing: A First Step Toward Personal Imaging |journal=IEEE Computer |volume=30 |number=2 |pages= |url=http://wearcam.org/ieeecomputer/}}</ref>
+
+[[Seiko Epson]] released the [[RC-20]] Wrist Computer in 1984. It was an early [[smartwatch]], powered by a [[computer on a chip]].<ref>[https://www.youtube.com/watch?v=rbh1XP4kCT4 Japanese PCs (1984)] (14:05), ''[[Computer Chronicles]]''</ref>
+
+In 1989, Reflection Technology marketed the Private Eye [[head-mounted display]], which scans a vertical array of [[Light-emitting diode|LEDs]] across the visual field using a vibrating mirror. This display gave rise to several hobbyist and research wearables, including Gerald "Chip" Maguire's [[IBM]] / [[Columbia University]] Student Electronic Notebook,<ref name="Bade">J. Peter Bade, G.Q. Maguire Jr., and David F. Bantz, The IBM/Columbia Student Electronic Notebook Project, IBM, T. J. Watson Research Lab., Yorktown Heights, NY, 29 June 1990. (The work was first shown at the [[DARPA]] Workshop on Personal Computer Systems, Washington, D.C., 18 January 1990.)</ref> Doug Platt's Hip-PC,<ref>{{cite journal | author=Simson Garfinkel|title=Dressed for Success|journal=The Village Voice|date=9 March 1993|url=http://simson.net/clips/1993/1993.VillageVoice.Dressed_For_Success.pdf|page=51}}</ref> and [[Carnegie Mellon University]]'s VuMan 1 in 1991.<ref name="Platt">{{cite web |url=http://www.wearablegroup.org/ |title=WearableGroup at Carnegie Mellon |accessdate=2017-09-25 |deadurl=bot: unknown |archiveurl=https://web.archive.org/web/20100927063238/http://www.wearablegroup.org/ |archivedate=27 September 2010 |df=dmy-all }}</ref>
+
+The Student Electronic Notebook consisted of the Private Eye, [[Toshiba]] diskless AIX [[notebook computer]]s (prototypes), a stylus based input system and a [[virtual keyboard]]. It used [[direct-sequence spread spectrum]] radio links to provide all the usual [[TCP/IP]] based services, including [[Network File System|NFS]] mounted file systems and X11, which all ran in the Andrew Project environment.
+
+The Hip-PC included an Agenda palmtop used as a chording keyboard attached to the belt and a 1.44 megabyte [[Floppy Drive|floppy drive]]. Later versions incorporated additional equipment from Park Engineering. The system debuted at "The Lap and Palmtop Expo" on 16 April 1991.
+
+VuMan 1 was developed as part of a Summer-term course at Carnegie Mellon's Engineering Design Research Center, and was intended for viewing house blueprints. Input was through a three-button unit worn on the belt, and output was through Reflection Tech's Private Eye. The [[Central processing unit|CPU]] was an 8&nbsp;MHz 80188 processor with 0.5 MB [[Read-only memory|ROM]].
+
+===1990s===
+In the 1990s [[PDAs]] became widely used, and in 1999 were combined with [[mobile phone]]s in Japan to produce the first mass-market [[smartphone]].
+
+[[File:Datalink USB Dress Edition.JPG|thumb|upright|[[Timex Datalink]] USB Dress edition with ''Invasion'' video game. The watch crown (''icontrol'') can be used to move the defender left to right and the fire control is the Start/Split button on the lower side of the face of the watch at 6 o' clock. ]]
+In 1993, the Private Eye was used in [[Thad Starner]]'s wearable, based on [[Doug Platt]]'s system and built from a kit from Park Enterprises, a Private Eye display on loan from [[Devon Sean McCullough]], and the Twiddler chording keyboard made by Handykey. Many iterations later this system became the [[MIT]] "Tin Lizzy" wearable computer design, and Starner went on to become one of the founders of MIT's wearable computing project. 1993 also saw [[Columbia University]]'s augmented-reality system known as KARMA (Knowledge-based Augmented Reality for Maintenance Assistance). Users would wear a Private Eye display over one eye, giving an overlay effect when the real world was viewed with both eyes open. KARMA would overlay wireframe schematics and maintenance instructions on top of whatever was being repaired. For example, graphical wireframes on top of a laser printer would explain how to change the paper tray. The system used sensors attached to objects in the physical world to determine their locations, and the entire system ran tethered from a desktop computer.<ref name="Feiner">Steve Feiner, Blair MacIntyre, and Doree Seligmann, "Knowledge-based augmented reality," in ''Communications of the ACM'', 36(7), July 1993, 52–62.</ref><ref name="feiner2">{{cite web|url=http://www1.cs.columbia.edu/graphics/projects/karma/karma.html|title=KARMA|work=columbia.edu}}</ref>
+
+In 1994, [[Edgar Matias]] and Mike Ruicci of the [[University of Toronto]], debuted a "wrist computer." Their system presented an alternative approach to the emerging head-up display plus chord keyboard wearable. The system was built from a modified HP 95LX palmtop computer and a Half-QWERTY one-handed keyboard. With the keyboard and display modules strapped to the operator's forearms, text could be entered by bringing the wrists together and typing.<ref name="Matias 94">Edgar Matias, I. Scott MacKenzie, and William Buxton, "Half-QWERTY: Typing with one hand using your two-handed skills," ''Companion of the CHI '94 Conference on Human Factors in Computing Systems'', ACM, 1994, pp. 51–52.</ref> The same technology was used by IBM researchers to create the half-keyboard "belt computer.<ref name="Mattias 96">Edgar Matias, I. Scott MacKenzie and William Buxton, "A Wearable Computer for Use in Microgravity Space and Other Non-Desktop Environments," ''Companion of the CHI '96 Conference on Human Factors in Computing Systems'', ACM, 1996, pp. 69–70.</ref> Also in 1994, Mik Lamming and Mike Flynn at [[PARC (company)|Xerox EuroPARC]] demonstrated the Forget-Me-Not, a wearable device that would record interactions with people and devices and store this information in a database for later query.<ref>Mik Lamming and Mike Flynn, [http://www.lamming.com/mik/Papers/fmn.pdf "'Forget-me-not' Intimate Computing in Support of Human Memory"] {{webarchive|url=https://web.archive.org/web/20060426205744/http://www.lamming.com/mik/Papers/fmn.pdf |date=26 April 2006 }} in ''Proceedings FRIEND21 Symposium on Next Generation Human Interfaces''</ref> It interacted via wireless transmitters in rooms and with equipment in the area to remember who was there, who was being talked to on the telephone, and what objects were in the room, allowing queries like "Who came by my office while I was on the phone to Mark?". As with the Toronto system, Forget-Me-Not was not based on a head-mounted display.
+
+Also in 1994, [[DARPA]] started the Smart Modules Program to develop a modular, ''humionic'' approach to wearable and carryable computers, with the goal of producing a variety of products including computers, radios, navigation systems and human-computer interfaces that have both military and commercial use. In July 1996, DARPA went on to host the "Wearables in 2005" workshop, bringing together industrial, university, and military visionaries to work on the common theme of delivering computing to the individual.<ref name="DARPA">E.C. Urban, Kathleen Griggs, Dick Martin, Dan Siewiorek and Tom Blackadar, [http://www.darpa.mil/MTO/Displays/Wear2005/ Proceedings of Wearables in 2005] {{webarchive|url=https://web.archive.org/web/20050914132505/http://www.darpa.mil/MTO/Displays/Wear2005/ |date=14 September 2005 }}, Arlington, VA, 18–19 July 1996.</ref> A follow-up conference was hosted by [[Boeing]] in August 1996, where plans were finalized to create a new academic conference on wearable computing. In October 1997, Carnegie Mellon University, MIT, and [[Georgia Institute of Technology|Georgia Tech]] co-hosted the [[IEEE]] [[International Symposium on Wearable Computers|International Symposium on Wearables Computers (ISWC)]] in [[Cambridge, Massachusetts]]. The symposium was a full academic conference with published proceedings and papers ranging from sensors and new hardware to new applications for wearable computers, with 382 people registered for the event.
+
+In 1998, Steve Mann invented and built the world's first smartwatch.  It was featured on the cover of Linux Journal in 2000, and demonstrated at ISSCC 2000.<ref>[https://www.delltechnologies.com/en-us/perspectives/podcasts-trailblazers-s03-e02/ Watches: Innovation on Time, Trailblazers, Season 3, Episode 2]</ref><ref>The History of Wearable Tech: From Calculator Watches to VR Headsets, Social Media Week, April 5th, 2018 </ref><ref>Linux Journal, July 2000, Issue 75, Cover + pages 86-91</ref>
+
+===2000s===
+Dr. [[Bruce H Thomas]] and Dr. Wayne Piekarski developed the Tinmith wearable computer system to support [[augmented reality]]. This work was first published internationally in 2000 at the ISWC conference. The work was carried out at the Wearable Computer Lab in the [[University of South Australia]].
+
+In 2002, as part of [[Kevin Warwick]]'s [[Kevin Warwick#Project Cyborg|Project Cyborg]], Warwick's wife, Irena, wore a necklace which was electronically linked to Warwick's nervous system via an implanted [[electrode array]] The color of the necklace changed between red and blue dependent on the signals on Warwick's nervous system.<ref>Warwick, K, "I, Cyborg", University of Illinois Press, 2004</ref>
+
+Also in 2002, [[Xybernaut]] released a wearable computer called the Xybernaut Poma Wearable PC, Poma for short. Poma stood for Personal Media Appliance. The project failed for a few reasons though the top reasons are that the equipment was expensive and clunky. The user would wear a head mounted optical piece, a CPU that could be clipped onto clothing, and a mini keyboard that was attached to the user's arm.<ref>PIERINI, D. (2015, July 26). First wearable computers made you look like a freaking Borg. Retrieved May 23, 2018, from https://www.cultofmac.com/311850/first-wearable-computer-xybernaut-poma/</ref>
+
+[[GoPro]] released their first product, the [[GoPro#35mm|GoPro HERO 35mm]], which began a successful franchise of wearable cameras. The cameras can be worn atop the head or around the wrist and are shock and waterproof. GoPro cameras are used by many athletes and extreme sports enthusiasts, a trend that became very apparent during the early 2010s.
+
+In the late 2000s, various Chinese companies began producing mobile phones in the form of wristwatches, the descendants of which as of 2013 include the i5 and i6, which are GSM phones with 1.8 inch displays, and the [[ZGPAX s5]] [[Android (operating system)|Android]] wristwatch phone.
+
+===2010s===
+[[File:IPod Nano - LunaTik and TikTok.jpg|thumb|LunaTik, a machined wristband attachment for the [[IPod Nano#6th generation|6th-generation iPod Nano]]|198x198px]]
+Standardization with [[IEEE]], [[IETF]], and several industry groups (e.g. [[Bluetooth]]) lead to more various interfacing under the [[Wireless personal area network|WPAN]] (wireless personal area network). It also led the [[Body area network|WBAN]] (Wireless body area network) to offer new classification of designs for interfacing and networking. The [[IPod Nano#6th generation|6th-generation iPod Nano]], released in September 2010, has a wristband attachment available to convert it into a wearable wristwatch computer.
+
+The development of wearable computing spread to encompass [[rehabilitation engineering]], ambulatory intervention treatment, life guard systems, and defense wearable systems.{{Clarify|date=April 2012}}
+
+[[Sony]] produced a wristwatch called [[Sony SmartWatch]] that must be paired with an Android phone. Once paired, it becomes an additional remote display and notification tool.<ref>{{cite web|url=http://www.sonymobile.com/us/products/accessories/smartwatch/|title=Sony SmartWatch}}</ref>
+
+[[Fitbit]] released several wearable fitness trackers and the [[List of Fitbit products#Fitbit Surge|Fitbit Surge]], a full [[smartwatch]] that is compatible with [[Android (operating system)|Android]] and [[iOS]].
+
+On April 11, 2012, [[Pebble (watch)|Pebble]] launched a [[Kickstarter]] campaign to raise $100,000 for their initial smartwatch model. The campaign ended on May 18 with $10,266,844, over 100 times the fundraising target.<ref>{{Cite news|url=http://techland.time.com/2012/05/10/pebble-smartwatch-pre-orders-sold-out/|title=Pebble Smartwatch Pre-Orders Are Sold Out, $10+ Million Pledged|last=Newman|first=Jared|newspaper=Time|issn=0040-781X|access-date=2016-04-09}}</ref> Pebble has released several smartwatches since, including the [[Pebble Time]] and the Pebble Round.
+
+[[File:Google Glass detail.jpg|thumb|right|[[Google Glass]], Google's [[head-mounted display]], which was launched in 2013.]]
+Google Glass launched their [[optical head-mounted display]] (OHMD) to a test group of users in 2013, before it became available to the public on May 15, 2014.<ref>{{Citation | title = Here's your chance to get Google glass | newspaper = Gadget cluster | date = Apr 2014 | url = http://www.gadgetcluster.com/2014/04/heres-your-chance-to-get-google-glass/}}.</ref> Google's mission was to produce a mass-market [[ubiquitous computing|ubiquitous computer]] that displays information in a [[smartphone]]-like hands-free format<ref>{{cite news|url=https://www.pcmag.com/article2/0,2817,2402613,00.asp|work=PC Magazine|title=Google 'Project Glass' Replaces the Smartphone With Glasses|first=Chloe|last=Albanesius| date=4 April 2012|accessdate=4 April 2012}}</ref> that can interact with the Internet via [[Natural language processing|natural language]] voice commands.<ref>{{cite news|title=Google's 'Project Glass' Teases Augmented Reality Glasses|url=https://www.pcworld.com/article/253200/googles_project_glass_teases_augmented_reality_glasses.html|work=PC World|last=Newman|first=Jared| date=4 April 2012|accessdate=4 April 2012}}</ref><ref name="NYT 2012-02-23">{{cite news|url=https://www.nytimes.com/2012/02/23/technology/google-glasses-will-be-powered-by-android.html?_r=2|title=Behind the Google Goggles, Virtual Reality|last=Bilton|first=Nick|work=The New York Times|date=23 February 2012|accessdate=4 April 2012}}</ref> Google Glass received criticism over privacy and safety concerns. On January 15, 2015, Google announced that it would stop producing the Google Glass prototype but would continue to develop the product. According to Google, Project Glass was ready to "graduate" from [[Google X]], the experimental phase of the project.<ref name="BBC News 15 January 2015">{{cite web |url= https://www.bbc.co.uk/news/technology-30831128 |title= Google Glass sales halted but firm says kit is not dead |date= January 15, 2015 |website=BBC News | accessdate=January 15, 2015}}</ref>
+
+[[Thync]], a headset launched in 2014, is a wearable that stimulates the brain with mild electrical pulses, causing the wearer to feel energized or calm based on input into a phone app. The device is attached to the temple and to the back of the neck with an adhesive strip.<ref>{{Cite web|url=https://techcrunch.com/2015/06/02/hands-on-with-thyncs-mood-altering-headset/|title=Hands-On With Thync's Mood-Altering Headset|last=Russell|first=Kyle|website=TechCrunch|access-date=2016-04-09}}</ref>
+
+[[Macrotellect Ltd|Macrotellect]] launched 2 portable brainwave([[Electroencephalography|EEG]]) sensing devices, BrainLink Pro and BrainLink Lite in 2014, which allows families and meditation students to enhance the mental fitness and stress relief with 20+ brain fitness enhancement Apps on Apple and Android App Stores.<ref>{{Cite web|url=http://o.macrotellect.com/app.html|title=APP – Macrotellect|website=o.macrotellect.com|access-date=2016-12-13}}</ref>
+
+In January 2015, [[Intel]] announced the sub-miniature Intel Curie for wearable applications, based on its [[Intel Quark]] platform. As small as a button, it features a 6-axis [[accelerometer]], a DSP sensor hub, a Bluetooth LE unit, and a battery charge controller.<ref>{{cite web|url=http://www.intel.com/content/www/us/en/wearables/wearable-soc.html|title=Intel® Curie™ Module: Unleashing Wearable Device Innovation|date=2015-01-06|publisher=Intel|accessdate=11 September 2015}}</ref> It was scheduled to ship in the second half of the year.
+
+On April 24, 2015, [[Apple Inc.|Apple]] released their take on the smartwatch, known as the Apple Watch. The Apple Watch features a touchscreen, many applications, and a heart-rate sensor.<ref>By Brian X. Chen & Nick Bilton, The New York Times. "[https://www.nytimes.com/2014/02/03/technology/building-a-better-battery.html?_r=0 / Building a Better Battery]." 2 February 2014. Retrieved 3 February 2014.</ref>
+
+==Commercialization==
+[[File:Zypad.jpg|thumb|Image of the [[ZYPAD]] wrist wearable computer from [[Eurotech (company)|Eurotech]]]]
+[[File:Fitbit Charge HR.jpg|thumb|The [[List of Fitbit products#Fitbit Charge|Fitbit Charge]]]]
+The commercialization of general-purpose wearable computers, as led by companies such as [[Xybernaut]], [[CDI Corporation|CDI]] and [[ViA, Inc.]] has thus far been met with limited success. Publicly traded Xybernaut tried forging alliances with companies such as [[IBM]] and [[Sony]] in order to make wearable computing widely available, and managed to get their equipment seen on such shows as [[First Person Shooter (The X-Files)|The X-Files]], but in 2005 their stock was delisted and the company filed for [[Chapter 11]] bankruptcy protection amid financial scandal and federal investigation. Xybernaut emerged from bankruptcy protection in January, 2007. ViA, Inc. filed for bankruptcy in 2001 and subsequently ceased operations.
+
+In 1998, [[Seiko]] marketed the [[Ruputer]], a computer in a (fairly large) wristwatch, to mediocre returns. In 2001, IBM developed and publicly displayed two prototypes for a wristwatch computer running [[Linux]]. The last message about them dates to [https://web.archive.org/web/20110710192625/http://gadgets.engadget.com/2004/10/20/watch-this-wednesday-the-linux-watch/ 2004], saying the device would cost about $250, but it is still under development. In 2002, [[Fossil, Inc.]] announced the [[Fossil Wrist PDA]], which ran the [[Palm OS]]. Its release date was set for summer of 2003, but was delayed several times and was finally made available on January 5, 2005. [[Timex Datalink]] is another example of a practical wearable computer. [[Hitachi]] launched a wearable computer called Poma in 2002. [[Eurotech (company)|Eurotech]] offers the [[ZYPAD]], a wrist wearable touch screen computer with [[GPS]], [[Wi-Fi]] and [[Bluetooth]] connectivity and which can run a number of custom applications.<ref>{{cite web|url=http://www.arcom.com/wearable_computer/Zypad/default.htm|title=Eurotech Group: embedded boards, rugged systems for integrated solutions – high performance computing|work=arcom.com|deadurl=yes|archiveurl=https://web.archive.org/web/20070307134352/http://www.arcom.com/wearable_computer/Zypad/default.htm|archivedate=7 March 2007|df=dmy-all}}</ref> In 2013, a wearable computing device on the wrist to control body temperature was developed at [[Massachusetts Institute of Technology|MIT]].<ref>{{cite web|url=http://alum.mit.edu/pages/sliceofmit/2013/11/05/wristify-thermal-comfort-via-a-wrist-band/ |title=Wristify: Thermal Comfort via a Wrist Band |publisher=Slice of MIT |accessdate=2013-11-08}}</ref>
+
+Evidence of weak market acceptance was demonstrated when [[Panasonic]] Computer Solutions Company's product failed. Panasonic has specialized in mobile computing with their [[Toughbook]] line for over 10 years and has extensive market research into the field of portable, wearable computing products. In 2002, Panasonic introduced a wearable [[brick computer]] coupled with a handheld or a touchscreen worn on the arm. The "Brick" Computer is the CF-07 Toughbook, dual batteries, screen used same batteries as the base, 800 x 600 resolution, optional GPS and [[Wireless WAN|WWAN]]. Has one M-PCI slot and one PCMCIA slot for expansion. CPU used is a 600&nbsp;MHz Pentium 3 factory under clocked to 300&nbsp;MHz so it can stay cool passively as it has no fan. Micro DIM RAM is upgradeable. The screen can be used wirelessly on other computers. The brick would communicate wirelessly to the screen, and concurrently the brick would communicate wirelessly out to the internet or other networks. The wearable brick was quietly pulled from the market in 2005, while the screen evolved to a [[thin client]] touchscreen used with a handstrap.
+
+Google has announced that it has been working on a [[head-mounted display]]-based wearable "[[augmented reality]]" device called [[Google Glass]]. An early version of the device was available to the US public from April 2013 until January 2015. Despite ending sales of the device through their Explorer Program, Google has stated that they plan to continue developing the technology.<ref>{{cite web|url=http://plus.google.com/u/1/111626127367496192147/posts/aKymsANgWBD |title=Project Glass – Google+ – We think technology should work for you—to be there when… |publisher=Plus.google.com |accessdate=2013-02-26}}</ref><ref>{{cite web|url=https://plus.google.com/+GoogleGlass/posts/QLD88fE7qmE |title=Last week we told you we'd be trying out new ways to find Explorers. Well, we… |publisher=Plus.google.com |accessdate=2015-01-07}}</ref><ref>{{cite web|url=https://www.bbc.com/news/technology-30831128 |title=Google Glass sales halted but firm says kit is not dead |website=[[BBC]] |accessdate=2015-03-29}}</ref>
+
+[[LG]] and [[iriver]] produce earbud wearables measuring heart rate and other biometrics, as well as various activity metrics.<ref>{{cite web |first=Matt |last=Burns |url=https://techcrunch.com/2014/06/05/the-lg-lifeband-touch-and-heartrate-earphones-are-the-wonder-twins-of-activity-trackers/ |title=The LG LifeBand Touch And HeartRate Earphones Are The Wonder Twins Of Activity Trackers |website=[[TechCrunch]] |date=5 June 2014 }}</ref><ref>{{cite web |first=Amanda |last=Kooser |url=http://www.cnet.com/news/fitness-sensor-earphones-gather-health-data-deliver-music/ |title=Fitness sensor earphones gather health data, deliver music |website=[[CNET]] |date=10 January 2013 }}</ref>
+
+Greater response to commercialization has been found in creating devices with designated purposes rather than all-purpose. One example is the WSS1000.<ref>{{Cite web|url=http://www.symbol.com/product.php?productID=212|title=WSS1000/1060 Wearable Scanning & Computing System|website=www.symbol.com|language=en|access-date=2018-03-23}}</ref> The WSS1000 is a wearable computer designed to make the work of inventory employees easier and more efficient. The device allows workers to scan the [[barcode]] of items and immediately enter the information into the company system. This removed the need for carrying a clipboard, removed error and confusion from hand written notes, and allowed workers the freedom of both hands while working; the system improves accuracy as well as efficiency.<ref name=":0" />
+
+== Popular culture ==
+Many technologies for wearable computers derive their ideas from science fiction. There are many examples of ideas from popular movies that have become technologies or are technologies currently being developed.
+* '''3D User Interface:''' Devices that display usable, tactile interfaces that can be manipulated in front of the user. Examples include the glove-operated hologram computer featured at the Pre-Crime headquarters in the beginning of ''[[Minority Report (film)|Minority Report]]'' and the computers used by the gate workers at Zion in [[The Matrix (franchise)|''The Matrix'' trilogy]].
+* '''Intelligent Textiles:''' Clothing that can relay and collect information. Examples include ''[[Tron]]'' and its [[Tron Legacy|sequel]], and also many [[Science fiction|sci-fi]] military films.
+* '''Threat Glasses:''' Scan others in vicinity and assess threat-to-self level. Examples include ''[[Terminator 2: Judgment Day|Terminator 2]]'', 'Threep' Technology in ''Lock-In, and [[Kill Switch (2017 film)|Kill switch]].''
+* '''Computerized Contact Lenses:''' A special contact lenses that is used to confirm one's identity.  Used in ''[[Mission: Impossible – Ghost Protocol|Mission Impossible 4]]''.
+* '''Combat Suit Armor:''' A wearable exoskeleton that provides protection to its wearer and is typically equipped with powerful weapons and a computer system.  Examples include numerous [[Iron Man]] suits, along with [[Samus Aran|Samus Aran's]] Power Suit and Fusion Suit in the ''[[Metroid]]'' video game series.  
+* '''Brain Nano-Bots to Store Memories in the Cloud:''' Used in ''Total Recall''.
+* '''Infrared Headsets:''' Can help identify suspects and see through walls. Examples include [[RoboCop|Robocop's]] special eye system, as well as some more advanced visors that Samus Aran uses in the [[Metroid Prime Trilogy|''Metroid Prime'' trilogy]].
+*'''Wrist-Worn Computers:''' Provide various abilities and information, such as data about the wearer, a vicinity map, a flashlight, a communicator, a poison detector or an enemy-tracking device.  Examples include the Pip-Boy 3000 from the ''[[Fallout (series)|Fallout]]'' games and [[Leela (Futurama)|Leela]]'s Wrist Device from the ''[[Futurama]]'' TV sitcom.
+*'''On-chest device''' or smart necklace form-factor of wearable computer was shown in many sci-fi movies, including ''[[Prometheus (2012 film)|Prometheus]]'' and ''[[Iron Man (2008 film)|Iron Man]]'', however such location of the most precious individual's possession comes from history of wearing amulets and charms.
+
+==Military use==
+{{see also|Future Soldier}}
+{{Expand section|date=September 2010}}
+The wearable computer was introduced to the US Army in 1989, as a small computer that was meant to assist soldiers in battle. Since then, the concept has grown to include the Land Warrior program and proposal for future systems.<ref name="Zieniewicz 2002">{{cite journal|last=Zieniewicz|first=Matthew J. |author2=D. C. Johnson |author3=D.C. Wong |author4=J. D Flatt|title=The Evolution of Army Wearable Computers|journal=Pervasive Computing|year=2002|volume=1|series=4|pages=30–40|doi=10.1109/mprv.2002.1158276}}</ref> The most extensive military program in the wearables arena is the [[US Army]]'s [[Land Warrior]] system,<ref>{{Cite news |title=Troops in Iraq give thumbs up to Land Warrior |author=Matthew Cox |date=23 June 2007|work=Army Times |url=http://www.armytimes.com/news/2007/06/army_warrior_070623p/}}</ref> which will eventually be merged into the [[Future Force Warrior]] system.{{Citation needed|date=May 2008}} There are also researches for increasing the reliability of terrestrial navigation.<ref>{{Cite journal|last=Thomas|first=B.|last2=Demczuk|first2=V.|last3=Piekarski|first3=W.|last4=Hepworth|first4=D.|last5=Gunther|first5=B.|date=October 1998|title=A wearable computer system with augmented reality to support terrestrial navigation|url=http://ieeexplore.ieee.org:80/abstract/document/729549/?reload=true|journal=Digest of Papers. Second International Symposium on Wearable Computers (Cat. No.98EX215)|pages=168–171|doi=10.1109/ISWC.1998.729549}}</ref>
+
+[[F-INSAS]] is an Indian Military Project, designed largely with wearable computing.
+
+==See also==
+{{div col|colwidth=15em}}
+*[[Activity tracker]]
+*[[Apple Watch]]
+*[[Artificial neural membrane]] (Smartskin)
+*[[Augmented reality]]
+*[[Radio-frequency identification|Active tag]]
+*[[Calculator watch]]
+*[[Computer-mediated reality]]
+*[[eHealth]]
+*[[EyeTap]]
+*[[E-textiles]]
+*[[FrogPad]]
+*[[Retro-futurism|Futuristic clothing]]
+*[[Glove One]]
+*[[Google Glass]]
+*[[Golden-i]]
+*[[GPS watch]]
+*[[Head-mounted display]]
+*[[Head-up display]]
+*[[Heart rate monitor]]
+*[[Internet of Things]]
+*[[Lifelog]]
+*[[Open-source computing hardware]]
+*[[Radio-frequency identification|Identity tag]]
+*[[Mobile phone]]
+*[[Mobile interaction]]
+*[[Optical head-mounted display]]
+*[[OQO]]
+*[[Personal digital assistant]]
+*[[Pocket computer]]
+*[[Skully (helmet)|Skully]] (helmet)
+*[[Smartphone]]
+*[[Smartglasses]]
+*[[Smartwatch]]
+*[[Real-time locating system|Staff locators]]
+*[[Tablet computer|Tablet PC]]
+*[[Virtual retinal display]]
+{{div col end}}
+
+==References==
+{{reflist|30em}}
+{{refbegin}}
+*{{Cite journal|url = http://www.cc.gatech.edu/~thad/p/magazine/2002-1-no-longer-science-fiction.pdf|title = Wearable Computer: No Longer Science Fiction|last = Starner|first = Thad|date = January 2002|journal = Pervasive Computing|doi = |pmid = |access-date = }}
+
+{{refend}}
+
+==External links==
+*Peer-reviewed [http://www.interaction-design.org/encyclopedia/wearable_computing.html encyclopedia chapter on Wearable Computing] by [[Steve Mann]]
+*[http://bradleyrhodes.com/Papers/brief-history-of-wearable-computing.html A brief history of wearable computing]
+*[http://www.iswc.net IEEE International Symposium on Wearable Computers (Academic Conference)]
+*[https://www.theverge.com/2012/6/26/2986317/google-project-glass-wearable-computers-disappoint-me Project Glass and the epic history of wearable computers], Paul Miller, ''The Verge,'' 26 June 2012.
+
+{{Computer sizes}}
+{{Computer science}}
+
+{{DEFAULTSORT:Wearable Computer}}
+[[Category:Internet of things]]
+[[Category:Fashion accessories]]
+[[Category:Smartwatches]]
+[[Category:Mobile computers]]
+[[Category:Laptops]]
+[[Category:Personal digital assistants]]
+[[Category:Human–computer interaction]]
+[[Category:Ambient intelligence]]
+[[Category:Ubiquitous computing]]
+[[Category:Wearable computers| ]]
+[[Category:Wearable devices]]

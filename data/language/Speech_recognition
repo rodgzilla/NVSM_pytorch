@@ -1,0 +1,508 @@
+{{About||the human linguistic concept|Speech perception}}
+{{redirect|Speech to text|the human role|Speech-to-text reporter}}
+{{Use dmy dates|date=February 2017}}
+'''Speech recognition''' is the [[inter-disciplinary]] sub-field of [[computational linguistics]] that develops methodologies and technologies that enables the recognition and [[translation]] of spoken language into text by computers. It is also known as '''automatic speech recognition''' ('''ASR'''), '''computer speech recognition''' or '''speech to text''' ('''STT'''). It incorporates knowledge and research in the [[linguistics]], [[computer science]], and [[electrical engineering]] fields.
+
+Some speech recognition systems require "training" (also called "enrollment") where an individual speaker reads text or isolated [[vocabulary]] into the system. The system analyzes the person's specific voice and uses it to fine-tune the recognition of that person's speech, resulting in increased accuracy. Systems that do not use training are called "speaker independent"<ref>{{cite web |url=http://www.fifthgen.com/speaker-independent-connected-s-r.htm |title=Speaker Independent Connected Speech Recognition- Fifth Generation Computer Corporation |publisher=Fifthgen.com |accessdate=15 June 2013 |deadurl=no |archiveurl=https://web.archive.org/web/20131111101228/http://www.fifthgen.com/speaker-independent-connected-s-r.htm |archivedate=11 November 2013 |df=dmy-all }}</ref> systems. Systems that use training are called "speaker dependent".
+
+Speech recognition applications include [[voice user interface]]s such as voice dialing (e.g. "call home"), call routing (e.g. "I would like to make a collect call"), [[domotic]] appliance control, search (e.g. find a podcast where particular words were spoken), simple data entry (e.g., entering a credit card number), preparation of structured documents (e.g. a radiology report), determining speaker characteristics,<ref>{{cite web |title=Automatic classification of speaker characteristics
+|url=https://ieeexplore.ieee.org/document/5670700 |author=P. Nguyen  
+|date=2010}}</ref> speech-to-text processing (e.g., [[word processor]]s or [[email]]s), and [[aircraft]] (usually termed [[direct voice input]]).
+
+{{anchor|vs_voice_rec}}The term ''voice recognition''<ref name="Macmillan Brit. def of voice recognition">{{cite web | url=http://www.macmillandictionary.com/dictionary/british/voice-recognition | title=British English definition of voice recognition | publisher=Macmillan Publishers Limited. | accessdate=21 February 2012 | deadurl=no | archiveurl=https://web.archive.org/web/20110916050430/http://www.macmillandictionary.com/dictionary/british/voice-recognition | archivedate=16 September 2011 | df=dmy-all }}</ref><ref name="Voice rec, definition">{{cite web | url=http://www.businessdictionary.com/definition/voice-recognition.html | title=voice recognition, definition of | publisher=WebFinance, Inc | accessdate=21 February 2012 | deadurl=no | archiveurl=https://web.archive.org/web/20111203144647/http://www.businessdictionary.com/definition/voice-recognition.html | archivedate=3 December 2011 | df=dmy-all }}</ref><ref name="mail bag, gazette">{{cite web |url=http://linuxgazette.net/114/lg_mail.html#mailbag.3 |title=The Mailbag LG #114 |publisher=Linuxgazette.net |accessdate=15 June 2013 |deadurl=no |archiveurl=https://web.archive.org/web/20130219032501/http://linuxgazette.net/114/lg_mail.html#mailbag.3 |archivedate=19 February 2013 |df=dmy-all }}</ref> or ''[[Speaker recognition|speaker identification]]''<ref>{{cite journal|last=Reynolds|first=Douglas|last2=Rose|first2=Richard|title=Robust text-independent speaker identification using Gaussian mixture speaker models|journal=IEEE Transactions on Speech and Audio Processing|date=January 1995|volume=3|issue=1|pages=72–83|url=http://www.cs.toronto.edu/~frank/csc401/readings/ReynoldsRose.pdf|accessdate=21 February 2014|publisher=IEEE|issn=1063-6676|oclc=26108901|doi=10.1109/89.365379|deadurl=no|archiveurl=https://web.archive.org/web/20140308001101/http://www.cs.toronto.edu/~frank/csc401/readings/ReynoldsRose.pdf|archivedate=8 March 2014|df=dmy-all}}</ref><ref>{{cite web|title=Speaker Identification (WhisperID)|url=http://research.microsoft.com/en-us/projects/whisperid/|work=Microsoft Research|publisher=Microsoft|accessdate=21 February 2014|quote=When you speak to someone, they don't just recognize what you say: they recognize who you are. WhisperID will let computers do that, too, figuring out who you are by the way you sound.|deadurl=no|archiveurl=https://web.archive.org/web/20140225190956/http://research.microsoft.com/en-us/projects/whisperid/|archivedate=25 February 2014|df=dmy-all}}</ref> refers to identifying the speaker, rather than what they are saying. [[Speaker recognition|Recognizing the speaker]] can simplify the task of translating speech in systems that have been trained on a specific person's voice or it can be used to authenticate or verify the identity of a speaker as part of a security process.
+
+From the technology perspective, speech recognition has a long history with several waves of major innovations. Most recently, the field has benefited from advances in [[deep learning]] and [[big data]]. The advances are evidenced not only by the surge of academic papers published in the field, but more importantly by the worldwide industry adoption of a variety of deep learning methods in designing and deploying speech recognition systems. These speech industry players include [[Google]], [[Microsoft]], [[IBM]], [[Baidu]], [[Apple Inc.|Apple]], [[Amazon.com|Amazon]], [[Nuance Communications|Nuance]], GoVivace Inc., [[SoundHound]], [[Anhui USTC iFlytek Co.|iFLYTEK]] many of which have publicized the core technology in their speech recognition systems as being based on deep learning.
+
+==History==
+The key areas of growth were: vocabulary size, speaker independence and processing speed.
+
+===Pre-1970===
+* '''1952''' - Three Bell Labs researchers, Stephen Balashek,<ref>{{cite news |url=https://obits.nj.com/obituaries/starledger/obituary.aspx?page=lifestory&pid=158702138 |work=The Star-Ledger |title=Obituaries: Stephen Balashek |date=July 22, 2012}}</ref> R. Biddulph, and K. H. Davis built a system called "Audrey"<ref>https://cdn57.androidauthority.net/wp-content/uploads/2012/04/IBM-Shoebox-front.jpg</ref> for single-speaker digit recognition. Their system located the [[formants]] in the power spectrum of each utterance.<ref>{{cite journal|last1=Juang|first1=B. H.|last2=Rabiner|first2=Lawrence R.|title=Automatic speech recognition–a brief history of the technology development|page=6|url=http://www.ece.ucsb.edu/faculty/Rabiner/ece259/Reprints/354_LALI-ASRHistory-final-10-8.pdf|accessdate=17 January 2015|deadurl=no|archiveurl=https://web.archive.org/web/20140817193243/http://www.ece.ucsb.edu/Faculty/Rabiner/ece259/Reprints/354_LALI-ASRHistory-final-10-8.pdf|archivedate=17 August 2004|df=dmy-all}}</ref> 
+* '''1960''' - [[Gunnar Fant]] developed and published the [[source-filter model of speech production]]. 
+* '''1962''' - IBM demonstrated it's 16-word "Shoebox" machine's speech recognition capability at the 1962 World's Fair.<ref name=PCW.Siri>{{cite magazine  |magazine=PC World  |accessdate=October 22, 2018
+   |url=https://www.pcworld.com/article/243060/speech_recognition_through_the_decades_how_we_ended_up_with_siri.html
+   |title=Speech Recognition Through the Decades: How We Ended Up With Siri
+   |author=Melanie Pinola |date=November 2, 2011}}</ref>
+* '''1969''' - Funding at Bell Labs dried up for several years when, in 1969, the influential [[John R. Pierce|John Pierce]] wrote an open letter that was critical of and defunded speech recognition research.<ref name=jasapierce>{{cite journal 
+   |title=Whither speech recognition? 
+   |author=John R. Pierce |authorlink=John R. Pierce 
+   |journal=Journal of the Acoustical Society of America 
+   |date=1969 |volume=46 |issue=48 |doi=10.1121/1.1911801 |pages=1049
+   |bibcode=1969ASAJ...46.1049P}}</ref> This defunding lasted until Pierce retired and [[James L. Flanagan]] took over.
+
+[[Raj Reddy]] was the first person to take on continuous speech recognition as a graduate student at [[Stanford University]] in the late 1960s. Previous systems required users to pause after each word. Reddy's system issued spoken commands for playing game [[chess]].
+
+Around this time Soviet researchers invented the [[dynamic time warping]] (DTW) algorithm and used it to create a recognizer capable of operating on a 200-word vocabulary.<ref>{{cite book|last1=Benesty|first1=Jacob|last2=Sondhi|first2=M. M.|last3=Huang|first3=Yiteng|title=Springer Handbook of Speech Processing|date=2008|publisher=Springer Science & Business Media|isbn=3540491252}}</ref> DTW processed speech by dividing it into short frames, e.g. 10ms segments, and processing each frame as a single unit. Although DTW would be superseded by later algorithms, the technique carried on. Achieving speaker independence remained unsolved at this time period.
+
+===1970-1990===
+* '''1971''' - [[DARPA]] funded five years for ''Speech Understanding Research'', speech recognition research seeking  a minimum vocabulary size of 1,000 words. They thought [[natural language understanding|speech ''understanding'']] would be key to making progress in speech ''recognition'';, this later proved to untrue.<ref>{{cite web
+  |author=John Makhoul 
+  |title=ISCA Medalist: For leadership and extensive contributions to speech and language processing
+  |url=https://www.superlectures.com/interspeech2016/isca-medalist-for-leadership-and-extensive-contributions-to-speech-and-language-processing
+   |accessdate=23 January 2018    |deadurl=no 
+  |archiveurl=https://web.archive.org/web/20180124071005/https://www.superlectures.com/interspeech2016/isca-medalist-for-leadership-and-extensive-contributions-to-speech-and-language-processing|archivedate=24 January 2018|df=dmy-all}}</ref> [[BBN Technologies|BBN]], [[IBM]], [[Carnegie Mellon]] and [[Stanford Research Institute]] all participated in the program.<ref>{{cite news|last1=Blechman|first1=R. O.|last2=Blechman|first2=Nicholas|title=Hello, Hal|url=http://www.newyorker.com/magazine/2008/06/23/hello-hal|accessdate=17 January 2015|publisher=The New Yorker|date=23 June 2008|deadurl=no|archiveurl=https://web.archive.org/web/20150120042048/http://www.newyorker.com/magazine/2008/06/23/hello-hal|archivedate=20 January 2015|df=dmy-all}}</ref><ref>{{cite journal|last=Klatt|first=Dennis H.|title=Review of the ARPA speech understanding project|journal=The Journal of the Acoustical Society of America|volume=62|issue=6|year=1977|pages=1345–1366|doi=10.1121/1.381666|bibcode=1977ASAJ...62.1345K}}</ref> This revived speech recognition research post John Pierce's letter.
+
+* '''1972''' - The IEEE Acoustics, Speech, and Signal Processing group held a conference in Newton, Massachusetts. 
+* '''1976''' The first [[ICASSP]] was held in [[Philadelphia]], which since then has been a major venue for the publication of research on speech recognition.<ref>{{cite journal|last1=Rabiner|title=The Acoustics, Speech, and Signal Processing Society.  A Historical Perspective|date=1984|url=http://www.ece.ucsb.edu/Faculty/Rabiner/ece259/Reprints/216_historical%20perspective.pdf|accessdate=23 January 2018|deadurl=no|archiveurl=https://web.archive.org/web/20170809113828/http://www.ece.ucsb.edu/Faculty/Rabiner/ece259/Reprints/216_historical%20perspective.pdf|archivedate=9 August 2017|df=dmy-all}}</ref>
+
+During the late 1960s [[Leonard E. Baum|Leonard Baum]] developed the mathematics of [[Markov chain]]s at the [[Institute for Defense Analysis]]. A decade later, at CMU, Raj Reddy's students [[James K. Baker|James Baker]] and [[Janet M. Baker]] began using the [[Hidden Markov Model]] (HMM) for speech recognition.<ref>{{cite web|url=http://ethw.org/First-Hand:The_Hidden_Markov_Model|title=First-Hand:The Hidden Markov Model – Engineering and Technology History Wiki|author=|date=|website=ethw.org|accessdate=1 May 2018|deadurl=no|archiveurl=https://web.archive.org/web/20180403191314/http://ethw.org/First-Hand:The_Hidden_Markov_Model|archivedate=3 April 2018|df=dmy-all}}</ref> James Baker had learned about HMMs from a summer job at the Institute of Defense Analysis during his undergraduate education.<ref name="James Baker interview"/> The use of HMMs allowed researchers to combine different sources of knowledge, such as acoustics, language, and syntax, in a unified probabilistic model.
+
+* By the '''mid-1980s''' IBM's [[Frederick Jelinek|Fred Jelinek's]] team created a voice activated typewriter called Tangora, which could handle a 20,000-word vocabulary<ref>{{cite web
+   |title=Pioneering Speech Recognition
+   |url=http://www-03.ibm.com/ibm/history/ibm100/us/en/icons/speechreco/ |accessdate=18 January 2015
+   |deadurl=no  
+   |archiveurl=https://web.archive.org/web/20150219080748/http://www-03.ibm.com/ibm/history/ibm100/us/en/icons/speechreco/
+   |archivedate=19 February 2015  |df=dmy-all}}</ref> Jelinek's statistical approach put less emphasis on emulating the way the human brain processes and understands speech in favor of using statistical modeling techniques like HMMs. (Jelinek's group independently discovered the application of HMMs to speech.<ref name="James Baker interview">{{cite web 
+   |url=http://www.sarasinstitute.org/Audio/JimBaker(2006).mp3 
+   |title=James Baker interview |deadurl=no |accessdate=9 February 2017  
+   |archiveurl=https://web.archive.org/web/20170828105222/http://www.sarasinstitute.org/Audio/JimBaker(2006).mp3 
+   |archivedate=28 August 2017 |df=dmy-all }}</ref>) This was controversial with linguists since HMMs are too simplistic to account for many common features of human languages.<ref name="Communications of the ACM">{{cite web 
+   |author1=Xuedong Huang  |author2=James Baker |author3=Raj Reddy 
+   |title=A Historical Perspective of Speech Recognition 
+   |url=http://cacm.acm.org/magazines/2014/1/170863-a-historical-perspective-of-speech-recognition/fulltext#R5 
+   |publisher=Communications of the ACM |accessdate=20 January 2015 |deadurl=no 
+   |archiveurl=http://archive.wikiwix.com/cache/20150120074239/http://cacm.acm.org/magazines/2014/1/170863-a-historical-perspective-of-speech-recognition/fulltext#R5 
+   |archivedate=20 January 2015 |df=dmy-all }}</ref> However, the HMM proved to be a highly useful way for modeling speech and replaced dynamic time warping to become the dominant speech recognition algorithm in the 1980s.<ref>{{cite journal|last1=Juang|first1=B. H.|last2=Rabiner|first2=Lawrence R.|title=Automatic speech recognition–a brief history of the technology development|page=10|url=http://www.ece.ucsb.edu/faculty/Rabiner/ece259/Reprints/354_LALI-ASRHistory-final-10-8.pdf|accessdate=17 January 2015|deadurl=no|archiveurl=https://web.archive.org/web/20140817193243/http://www.ece.ucsb.edu/Faculty/Rabiner/ece259/Reprints/354_LALI-ASRHistory-final-10-8.pdf|archivedate=17 August 2014|df=dmy-all}}</ref> 
+
+* '''1982''' - Dragon Systems, founded by James and [[Janet M. Baker]],<ref>{{cite web
+   |work=Dragon Medical Transcription
+   |title=History of Speech Recognition
+   |url=http://www.dragon-medical-transcription.com/history_speech_recognition.html
+   |accessdate=17 January 2015
+   |archiveurl=https://web.archive.org/web/20150813223326/http://dragon-medical-transcription.com/history_speech_recognition.html
+   |archivedate=13 August 2015}}</ref> was one IBM's few competitors.
+
+===Practical speech recognition===
+The 1980s also saw the introduction of the [[n-gram]] language model. 
+
+* '''1987''' -  The [[Katz's back-off model|back-off model]] allowed language models to use multiple length n-grams, and [[CSELT]] used HMM to recognize languages.
+<!-- CSELT was spun off; see CSELT Wiki article for details. -->
+
+Much of the progress in the field is owed to the rapidly increasing capabilities of computers. At the end of the DARPA program in 1976, the best computer available to researchers was the [[PDP-10]] with 4 MB ram.<ref name="Communications of the ACM"/> It could take up to 100 minutes to decode just 30 seconds of speech.<ref>{{cite news
+   |author=Kevin McKean  
+   |title=When Cole talks, computers listen
+   |url=https://news.google.com/newspapers?nid=1798&dat=19800408&id=xgsdAAAAIBAJ&sjid=w44EAAAAIBAJ&pg=6057,1141823&hl=en|accessdate=23 November 2015
+   |agency=AP   |publisher=Sarasota Journal  |date=8 April 1980}}</ref> 
+
+Two practical products were:
+* '''1987''' - a recognizer from Kurzweil Applied Intelligence
+* '''1990''' - Dragon Dictate, a consumer product released in 1990<ref>{{cite web
+   |author=Melanie Pinola   
+   |title=Speech Recognition Through the Decades: How We Ended Up With Siri
+   |url=http://www.pcworld.com/article/243060/speech_recognition_through_the_decades_how_we_ended_up_with_siri.html?page=2
+   |website=PC World  |accessdate=28 July 2017
+  |deadurl=no  
+|archiveurl=https://web.archive.org/web/20170113074944/http://www.pcworld.com/article/243060/speech_recognition_through_the_decades_how_we_ended_up_with_siri.html?page=2
+|archivedate=13 January 2017|df=dmy-all}}</ref><ref name="KurzweilAIbio">{{cite web |url=http://www.kurzweilai.net/ray-kurzweil-bio |title=Ray Kurzweil biography |publisher=KurzweilAINetwork |date= |accessdate=25 September 2014 
+   |deadurl=no 
+   |archiveurl=https://web.archive.org/web/20140205002828/http://www.kurzweilai.net/ray-kurzweil-bio |archivedate=5 February 2014 
+   |df=dmy-all }}</ref> [[AT&T]] deployed the Voice Recognition Call Processing service in 1992 to route telephone calls without the use of a human operator.<ref>{{cite journal|last1=Juang|first1=B.H.|last2=Rabiner|first2=Lawrence|title=Automatic Speech Recognition – A Brief History of the Technology Development|url=http://www.ece.ucsb.edu/Faculty/Rabiner/ece259/Reprints/354_LALI-ASRHistory-final-10-8.pdf|accessdate=28 July 2017|deadurl=no|archiveurl=https://web.archive.org/web/20170809211311/http://www.ece.ucsb.edu/Faculty/Rabiner/ece259/Reprints/354_LALI-ASRHistory-final-10-8.pdf|archivedate=9 August 2017|df=dmy-all}}</ref> The technology was developed by [[Lawrence Rabiner]] and others at Bell Labs.
+
+By this point, the vocabulary of the typical commercial speech recognition system was larger than the average human vocabulary.<ref name="Communications of the ACM"/> Raj Reddy's former student, [[Xuedong Huang]], developed the [[CMU Sphinx|Sphinx-II]] system at CMU. The Sphinx-II system was the first to do speaker-independent, large vocabulary, continuous speech recognition and it had the best performance in DARPA's 1992 evaluation. Handling continuous speech with a large vocabulary was a major milestone in the history of speech recognition. Huang went on to found the [[Windows Speech Recognition|speech recognition group at Microsoft]] in 1993. Raj Reddy's student [[Kai-Fu Lee]] joined Apple where, in 1992, he helped develop a speech interface prototype for the Apple computer known as Casper.
+
+
+[[Lernout & Hauspie]], a Belgium-based speech recognition company, acquired several other companies, including Kurzweil Applied Intelligence in 1997 and Dragon Systems in 2000. The L&H speech technology was used in the [[Windows XP]] operating system. L&H was an industry leader until an accounting scandal brought an end to the company in 2001. The speech technology from L&H was bought by ScanSoft which became [[Nuance Communications|Nuance]] in 2005. [[Apple Inc.|Apple]] originally licensed software from Nuance to provide speech recognition capability to its digital assistant [[Siri]].<ref>{{cite web |url=http://techpinions.com/nuance-exec-on-iphone-4s-siri-and-the-future-of-speech/3307 |title=Nuance Exec on iPhone 4S, Siri, and the Future of Speech |publisher=Tech.pinions |date=10 October 2011 |accessdate=23 November 2011 |deadurl=no |archiveurl=https://web.archive.org/web/20111119211021/http://techpinions.com/nuance-exec-on-iphone-4s-siri-and-the-future-of-speech/3307 |archivedate=19 November 2011 |df=dmy-all }}</ref>
+
+====2000s====
+In the 2000s DARPA sponsored two speech recognition programs: Effective Affordable Reusable Speech-to-Text (EARS) in 2002 and [[DARPA Global autonomous language exploitation program|Global Autonomous Language Exploitation]] (GALE). Four teams participated in the EARS program: [[IBM]], a team led by [[BBN Technologies|BBN]] with [[LIMSI]] and [[University of Pittsburgh|Univ. of Pittsburgh]], 
+[[Cambridge University]], and a team composed of [[International Computer Science Institute|ICSI]], [[Stanford Research Institute|SRI]] and [[University of Washington]]. EARS funded the collection of the Switchboard telephone speech corpus containing 260 hours of recorded conversations from over 500 speakers.<ref>{{cite web
+   |title=Switchboard-1 Release 2
+   |url=https://catalog.ldc.upenn.edu/LDC97S62  |accessdate=26 July 2017
+   |deadurl=no|archiveurl=https://web.archive.org/web/20170711061225/https://catalog.ldc.upenn.edu/LDC97S62|archivedate=11 July 2017
+   |df=dmy-all}}</ref> The GALE program focused on [[Modern Standard Arabic|Arabic]] and [[Standard Chinese|Mandarin]] broadcast news speech. [[Google]]'s first effort at speech recognition came in 2007 after hiring some researchers from Nuance.<ref>{{cite web
+   |author=Jason Kincaid  
+   |title=The Power of Voice: A Conversation With The Head Of Google's Speech Technology
+   |url=https://techcrunch.com/2011/02/13/the-power-of-voice-a-conversation-with-the-head-of-googles-speech-technology/
+   |website=Tech Crunch|accessdate=21 July 2015     |deadurl=no  
+   |archiveurl=https://web.archive.org/web/20150721034447/http://techcrunch.com/2011/02/13/the-power-of-voice-a-conversation-with-the-head-of-googles-speech-technology/|archivedate=21 July 2015|df=dmy-all}}</ref> The first product was [[GOOG-411]], a telephone based directory service. The recordings from GOOG-411 produced valuable data that helped Google improve their recognition systems. [[Google Voice Search]] is now supported in over 30 languages.
+
+In the United States, the [[National Security Agency]] has made use of a type of speech recognition for [[keyword spotting]] since at least 2006.<ref>{{cite web|last1=Froomkin|first1=Dan|title=THE COMPUTERS ARE LISTENING|url=https://firstlook.org/theintercept/2015/05/05/nsa-speech-recognition-snowden-searchable-text/|website=The Intercept|accessdate=20 June 2015|deadurl=no|archiveurl=https://web.archive.org/web/20150627185007/https://firstlook.org/theintercept/2015/05/05/nsa-speech-recognition-snowden-searchable-text/|archivedate=27 June 2015|df=dmy-all}}</ref> This technology allows analysts to search through large volumes of recorded conversations and isolate mentions of keywords. Recordings can be indexed and analysts can run queries over the database to find conversations of interest. Some government research programs focused on intelligence applications of speech recognition, e.g. DARPA's EARS's program and [[IARPA]]'s [[Babel program|Babel]] program.
+
+In the early 2000s, speech recognition was still dominated by traditional approaches such as [[Hidden Markov Models]] combined with feedforward [[artificial neural networks]].<ref name=bourlard1994>Herve Bourlard and [[Nelson Morgan]], Connectionist Speech Recognition: A Hybrid Approach, The Kluwer International Series in Engineering and Computer Science; v. 247, Boston: Kluwer Academic Publishers, 1994.</ref>
+Today, however, many aspects of speech recognition have been taken over by a [[deep learning]] method called [[Long short-term memory]] (LSTM), a [[recurrent neural network]] published by [[Sepp Hochreiter]] & [[Jürgen Schmidhuber]] in 1997.<ref name=lstm>{{cite journal
+   |author1=Sepp Hochreiter    |authorlink1=Sepp Hochreiter
+   |author2=J. Schmidhuber  |authorlink2=Jürgen Schmidhuber
+   |title=Long Short-Term Memory   |journal=Neural Computation|volume=9|issue=8|pages=1735–1780
+   |year=1997|doi=10.1162/neco.1997.9.8.1735 |pmid=9377276}}</ref> LSTM RNNs avoid the [[vanishing gradient problem]] and can learn "Very Deep Learning" tasks<ref name="schmidhuber2015">{{cite journal|last1=Schmidhuber|first1=Jürgen|authorlink=Jürgen Schmidhuber|year=2015|title=Deep learning in neural networks: An overview|journal=Neural Networks|volume=61|pages=85–117|arxiv=1404.7828|doi=10.1016/j.neunet.2014.09.003|pmid=25462637}}</ref> that require memories of events that happened thousands of discrete time steps ago, which is important for speech.
+Around 2007, LSTM trained by Connectionist Temporal Classification (CTC)<ref name="graves2006">Alex Graves, Santiago Fernandez, Faustino Gomez, and [[Jürgen Schmidhuber]] (2006). Connectionist temporal classification: Labelling unsegmented sequence data with recurrent neural nets. Proceedings of ICML'06, pp. 369–376.</ref> started to outperform traditional speech recognition in certain applications.<ref name="fernandez2007keyword">Santiago Fernandez, Alex Graves, and Jürgen Schmidhuber (2007). [http://www6.in.tum.de/pub/Main/Publications/Fernandez2007b.pdf An application of recurrent neural networks to discriminative keyword spotting]. Proceedings of ICANN (2), pp. 220–229.</ref> In 2015, Google's speech recognition reportedly experienced a dramatic performance jump of 49% through CTC-trained LSTM, which is now available through [[Google Voice]] to all smartphone users.<ref name="sak2015">Haşim Sak, Andrew Senior, Kanishka Rao, Françoise Beaufays and Johan Schalkwyk (September 2015): "[http://googleresearch.blogspot.ch/2015/09/google-voice-search-faster-and-more.html Google voice search: faster and more accurate]." {{webarchive|url=https://web.archive.org/web/20160309191532/http://googleresearch.blogspot.ch/2015/09/google-voice-search-faster-and-more.html |date=9 March 2016 }}</ref>
+
+The use of deep feedforward (non-recurrent) networks for [[acoustic model]]ing was introduced during later part of 2009 by [[Geoffrey Hinton]] and his students at University of Toronto and by Li Deng<ref>{{cite web |title=Li Deng |url=https://lidengsite.wordpress.com/ |publisher=Li Deng Site}}</ref> and colleagues at Microsoft Research, initially in the collaborative work between Microsoft and University of Toronto which was subsequently expanded to include IBM and Google (hence "The shared views of four research groups" subtitle in their 2012 review paper).<ref name="NIPS2009">NIPS Workshop: Deep Learning for Speech Recognition and Related Applications, Whistler, BC, Canada, Dec. 2009 (Organizers: Li Deng, Geoff Hinton, D. Yu).</ref><ref name=HintonDengYu2012/><ref name="ReferenceICASSP2013"/> A Microsoft research executive called this innovation "the most dramatic change in accuracy since 1979".<ref name="Scientists-see-advances">{{cite news|last1=Markoff|first1=John|title=Scientists See Promise in Deep-Learning Programs|url=https://www.nytimes.com/2012/11/24/science/scientists-see-advances-in-deep-learning-a-part-of-artificial-intelligence.html?pagewanted=1&_r=3|accessdate=20 January 2015|publisher=New York Times|date=23 November 2012|deadurl=no|archiveurl=https://web.archive.org/web/20121130080314/http://www.nytimes.com/2012/11/24/science/scientists-see-advances-in-deep-learning-a-part-of-artificial-intelligence.html?pagewanted=1|archivedate=30 November 2012|df=dmy-all}}</ref> In contrast to the steady incremental improvements of the past few decades, the application of deep learning decreased word error rate by 30%.<ref name="Scientists-see-advances"/> This innovation was quickly adopted across the field. Researchers have begun to use deep learning techniques for language modeling as well.
+
+In the long history of speech recognition, both shallow form and deep form (e.g. recurrent nets) of artificial neural networks had been explored for many years during 1980s, 1990s and a few years into the 2000s.<ref name="Morgan1993">Morgan, Bourlard, Renals, Cohen, Franco (1993) "Hybrid neural network/hidden Markov model systems for continuous speech recognition. ICASSP/IJPRAI"</ref><ref name="Robinson1992">[[Tony Robinson (speech recognition)|T. Robinson]]. (1992) [https://www.researchgate.net/profile/Tony_Robinson/publication/3532171_A_real-time_recurrent_error_propagation_network_word_recognitionsystem/links/54f83d530cf28d6deca0f392.pdf A real-time recurrent error propagation network word recognition system] {{webarchive|url=https://web.archive.org/web/20170903121808/https://www.researchgate.net/profile/Tony_Robinson/publication/3532171_A_real-time_recurrent_error_propagation_network_word_recognitionsystem/links/54f83d530cf28d6deca0f392.pdf |date=3 September 2017|volume=1|pages=617–620 }}, ICASSP.</ref><ref name="Waibel1989">[[Alex Waibel|Waibel]], Hanazawa, Hinton, Shikano, Lang. (1989) "Phoneme recognition using time-delay neural networks. IEEE Transactions on Acoustics, Speech, and Signal Processing."</ref>
+But these methods never won over the non-uniform internal-handcrafting [[Mixture model|Gaussian mixture model]]/[[Hidden Markov model]] (GMM-HMM) technology based on generative models of speech trained discriminatively.<ref name="Baker2009">{{cite journal|last1=Baker|first1=J.|last2=Li Deng|last3=Glass|first3=J.|last4=Khudanpur|first4=S.|last5=Chin-Hui Lee|last6=Morgan|first6=N.|last7=O'Shaughnessy|first7=D.|year=2009|title=Developments and Directions in Speech Recognition and Understanding, Part 1|journal=IEEE Signal Processing Magazine|volume=26|issue=3|pages=75–80|doi=10.1109/MSP.2009.932166|bibcode=2009ISPM...26...75B}}</ref>
+A number of key difficulties had been methodologically analyzed in the 1990s, including gradient diminishing<ref name="hochreiter1991">[[Sepp Hochreiter]] (1991), [http://people.idsia.ch/~juergen/SeppHochreiter1991ThesisAdvisorSchmidhuber.pdf Untersuchungen zu dynamischen neuronalen Netzen] {{webarchive|url=https://web.archive.org/web/20150306075401/http://people.idsia.ch/~juergen/SeppHochreiter1991ThesisAdvisorSchmidhuber.pdf |date=6 March 2015 }}, Diploma thesis. Institut f. Informatik, Technische Univ. Munich. Advisor: J. Schmidhuber.</ref> and weak temporal correlation structure in the neural predictive models.<ref name="Bengio1991">{{cite thesis |first=Y. |last=Bengio |year=1991 |title=Artificial Neural Networks and their Application to Speech/Sequence Recognition |type=Ph.D. |publisher=McGill University}}</ref><ref name="Deng1994">{{cite journal|last1=Deng|first1=L.|last2=Hassanein|first2=K.|last3=Elmasry|first3=M.|year=1994|title=Analysis of the correlation structure for a neural predictive model with application to speech recognition|journal=Neural Networks|volume=7|issue=2|pages=331–339|doi=10.1016/0893-6080(94)90027-2}}</ref>
+All these difficulties were in addition to the lack of big training data and big computing power in these early days. Most speech recognition researchers who understood such barriers hence subsequently moved away from neural nets to pursue generative modeling approaches until the recent resurgence of deep learning starting around 2009–2010 that had overcome all these difficulties. Hinton et al. and Deng et al. reviewed part of this recent history about how their collaboration with each other and then with colleagues across four groups (University of Toronto, Microsoft, Google, and IBM) ignited a renaissance of applications of deep feedforward neural networks to speech recognition.<ref name="HintonDengYu2012">{{cite journal|last1=Hinton|first1=Geoffrey|last2=Deng|first2=Li|last3=Yu|first3=Dong|last4=Dahl|first4=George|last5=Mohamed|first5=Abdel-Rahman|last6=Jaitly|first6=Navdeep|last7=Senior|first7=Andrew|last8=Vanhoucke|first8=Vincent|last9=Nguyen|first9=Patrick|last10=Sainath|first10=Tara|last11=Kingsbury|first11=Brian|year=2012|title=Deep Neural Networks for Acoustic Modeling in Speech Recognition: The shared views of four research groups|journal=IEEE Signal Processing Magazine|volume=29|issue=6|pages=82–97|doi=10.1109/MSP.2012.2205597|bibcode=2012ISPM...29...82H}}</ref><ref name="ReferenceICASSP2013">{{cite book|last1=Deng|first1=L.|title=2013 IEEE International Conference on Acoustics, Speech and Signal Processing: New types of deep neural network learning for speech recognition and related applications: An overview|pages=8599|last2=Hinton|first2=G.|last3=Kingsbury|first3=B.| date=2013|doi=10.1109/ICASSP.2013.6639344 |isbn=978-1-4799-0356-6|chapter=New types of deep neural network learning for speech recognition and related applications: An overview}}</ref><ref name="HintonKeynoteICASSP2013">Keynote talk: Recent Developments in Deep Neural Networks. ICASSP, 2013 (by Geoff Hinton).</ref><ref name="interspeech2014Keynote">Keynote talk: "Achievements and Challenges of Deep Learning: From Speech Analysis and Recognition To Language and Multimodal Processing," Interspeech, September 2014 (by [[Li Deng]]).</ref>
+
+====2010s====
+By early 2010s ''speech'' recognition, also called voice recognition<ref>{{cite web
+   |url=https://www.techrepublic.com/article/improvements-in-voice-recognition-software-increase-productivity
+   |title=Improvements in voice recognition software increase  |website=TechRepublic.com
+   |date=August 27, 2002
+   |quote=Maners said IBM has worked on advancing speech recognition ... or on the floor of a noisy  trade show.}}</ref><ref>{{cite web  |website=BusinessTravelNews.com |url=http://www.businesstravelnews.com/More-News/Voice-Recognition-To-Ease-Travel-Bookings
+   |title=Voice Recognition To Ease Travel Bookings: Business Travel News |date=March 3, 1997
+   |quote=The earliest applications of speech recognition software were dictation ... Four months ago, IBM introduced a 'continual dictation product' designed to ... debuted at the National Business Travel Association trade show in 1994.}}</ref><ref>{{cite newspaper  
+   |newspaper=[[Computerworld]] |date=March 14, 1994 
+   |title=Voice recognition enters the mainstream  |author=Ellis Booker |page=45
+   |quote=Just a few years ago, speech recognition was limited to ...}}</ref> was clearly differentiated from ''sp<u>eaker</u>'' recognition, and speaker independence was considered a major breakthrough. Until then, systems required a "training" period.  A 1987 ad for a doll had carried the tagline "Finally, the doll that understands you." – despite the fact that it was described as "which children could train to respond to their voice".<ref name=PCW.Siri>{{cite magazine  |magazine=PC World  |accessdate=October 22, 2018
+   |url=https://www.pcworld.com/article/243060/speech_recognition_through_the_decades_how_we_ended_up_with_siri.html
+   |title=Speech Recognition Through the Decades: How We Ended Up With Siri
+   |author=Melanie Pinola |date=November 2, 2011}}</ref>
+
+==Models, methods, and algorithms==
+Both [[acoustic model]]ing and [[language model]]ing are important parts of modern statistically-based speech recognition algorithms. Hidden Markov models (HMMs) are widely used in many systems. Language modeling is also used in many other natural language processing applications such as [[document classification]] or [[statistical machine translation]].
+
+===Hidden Markov models===
+{{Main|Hidden Markov model}}
+Modern general-purpose speech recognition systems are based on Hidden Markov Models. These are statistical models that output a sequence of symbols or quantities. HMMs are used in speech recognition because a speech signal can be viewed as a piecewise stationary signal or a short-time stationary signal. In a short time-scale (e.g., 10 milliseconds), speech can be approximated as a [[stationary process]]. Speech can be thought of as a [[Markov model]] for many stochastic purposes.
+
+Another reason why HMMs are popular is because they can be trained automatically and are simple and computationally feasible to use. In speech recognition, the hidden Markov model would output a sequence of ''n''-dimensional real-valued vectors (with ''n'' being a small integer, such as 10), outputting one of these every 10 milliseconds. The vectors would consist of [[cepstrum|cepstral]] coefficients, which are obtained by taking a [[Fourier transform]] of a short time window of speech and decorrelating the spectrum using a [[cosine transform]], then taking the first (most significant) coefficients. The hidden Markov model will tend to have in each state a statistical distribution that is a mixture of diagonal covariance Gaussians, which will give a likelihood for each observed vector. Each word, or (for more general speech recognition systems), each [[phoneme]], will have a different output distribution; a hidden Markov model for a sequence of words or phonemes is made by concatenating the individual trained hidden Markov models for the separate words and phonemes.
+
+Described above are the core elements of the most common, HMM-based approach to speech recognition. Modern speech recognition systems use various combinations of a number of standard techniques in order to improve results over the basic approach described above. A typical large-vocabulary system would need [[context dependency]] for the phonemes (so phonemes with different left and right context have different realizations as HMM states); it would use [[cepstral normalization]] to normalize for different speaker and recording conditions; for further speaker normalization it might use vocal tract length normalization (VTLN) for male-female normalization and [[maximum likelihood linear regression]] (MLLR) for more general speaker adaptation. The features would have so-called [[delta coefficient|delta]] and [[delta-delta coefficient]]s to capture speech dynamics and in addition might use [[heteroscedastic linear discriminant analysis]] (HLDA); or might skip the delta and delta-delta coefficients and use [[splicing (speech recognition)|splicing]] and an [[Linear Discriminant Analysis|LDA]]-based projection followed perhaps by [[heteroscedastic]] linear discriminant analysis or a [[global semi-tied co variance]] transform (also known as [[maximum likelihood linear transform]], or MLLT). Many systems use so-called discriminative training techniques that dispense with a purely statistical approach to HMM parameter estimation and instead optimize some classification-related measure of the training data. Examples are maximum [[mutual information]] (MMI), minimum classification error (MCE) and minimum phone error (MPE).
+
+Decoding of the speech (the term for what happens when the system is presented with a new utterance and must compute the most likely source sentence) would probably use the [[Viterbi algorithm]] to find the best path, and here there is a choice between dynamically creating a combination hidden Markov model, which includes both the acoustic and language model information, and combining it statically beforehand (the [[finite state transducer]], or FST, approach).
+
+A possible improvement to decoding is to keep a set of good candidates instead of just keeping the best candidate, and to use a better scoring function ([[re scoring (ASR)|re scoring]]) to rate these good candidates so that we may pick the best one according to this refined score. The set of candidates can be kept either as a list (the [[N-best list]] approach) or as a subset of the models (a [[lattice (order)|lattice]]). Re scoring is usually done by trying to minimize the [[Bayes risk]]<ref>{{cite journal
+ |last1       = Goel
+ |first1      = Vaibhava
+ |last2       = Byrne
+ |first2      = William J.
+ |year        = 2000
+ |title       = Minimum Bayes-risk automatic speech recognition
+ |url         = http://www.clsp.jhu.edu/people/vgoel/publications/CSAL.ps
+ |journal     = Computer Speech & Language
+ |volume      = 14
+ |issue       = 2
+ |pages       = 115–135
+ |doi         = 10.1006/csla.2000.0138
+ |accessdate  = 28 March 2011
+ |deadurl     = no
+ |archiveurl  = https://web.archive.org/web/20110725225846/http://www.clsp.jhu.edu/people/vgoel/publications/CSAL.ps
+ |archivedate = 25 July 2011
+ |df          = dmy-all
+}}</ref> (or an approximation thereof): Instead of taking the source sentence with maximal probability, we try to take the sentence that minimizes the expectancy of a given loss function with regards to all possible transcriptions (i.e., we take the sentence that minimizes the average distance to other possible sentences weighted by their estimated probability). The loss function is usually the [[Levenshtein distance]], though it can be different distances for specific tasks; the set of possible transcriptions is, of course, pruned to maintain tractability. Efficient algorithms have been devised to re score [[lattice (order)|lattices]] represented as weighted [[finite state transducers]] with [[edit distance]]s represented themselves as a [[finite state transducer]] verifying certain assumptions.<ref>{{cite journal
+ |last        = Mohri
+ |first       = M.
+ |year        = 2002
+ |title       = Edit-Distance of Weighted Automata: General Definitions and Algorithms
+ |url         = http://www.cs.nyu.edu/~mohri/pub/edit.pdf
+ |journal     = International Journal of Foundations of Computer Science
+ |volume      = 14
+ |issue       = 6
+ |pages       = 957–982
+ |doi         = 10.1142/S0129054103002114
+ |accessdate  = 28 March 2011
+ |deadurl     = no
+ |archiveurl  = https://web.archive.org/web/20120318032640/http://www.cs.nyu.edu/~mohri/pub/edit.pdf
+ |archivedate = 18 March 2012
+ |df          = dmy-all
+}}
+</ref>
+
+===Dynamic time warping (DTW)-based speech recognition===
+{{Main|Dynamic time warping}}
+
+Dynamic time warping is an approach that was historically used for speech recognition but has now largely been displaced by the more successful HMM-based approach.
+
+Dynamic time warping is an algorithm for measuring similarity between two sequences that may vary in time or speed. For instance, similarities in walking patterns would be detected, even if in one video the person was walking slowly and if in another he or she were walking more quickly, or even if there were accelerations and deceleration during the course of one observation. DTW has been applied to video, audio, and graphics&nbsp;– indeed, any data that can be turned into a linear representation can be analyzed with DTW.
+
+A well-known application has been automatic speech recognition, to cope with different speaking speeds. In general, it is a method that allows a computer to find an optimal match between two given sequences (e.g., time series) with certain restrictions. That is, the sequences are "warped" non-linearly to match each other. This sequence alignment method is often used in the context of hidden Markov models.
+
+===Neural networks===
+{{Main|Artificial neural network}}
+Neural networks emerged as an attractive acoustic modeling approach in ASR in the late 1980s. Since then, neural networks have been used in many aspects of speech recognition such as phoneme classification,<ref>{{cite journal | last1 = Waibel | first1 = A. | last2 = Hanazawa | first2 = T. | last3 = Hinton | first3 = G. | last4 = Shikano | first4 = K. | last5 = Lang | first5 = K. J. | year = 1989 | title = Phoneme recognition using time-delay neural networks | url = | journal = IEEE Transactions on Acoustics, Speech, and Signal Processing | volume = 37 | issue = 3 | pages = 328–339 | doi=10.1109/29.21701}}</ref> isolated word recognition,<ref>{{cite journal | last1 = Wu | first1 = J. | last2 = Chan | first2 = C. | year = 1993 | title = Isolated Word Recognition by Neural Network Models with Cross-Correlation Coefficients for Speech Dynamics | journal = IEEE Transactions on Pattern Analysis and Machine Intelligence | volume = 15 | issue = 11 | pages = 1174–1185 | doi=10.1109/34.244678}}</ref> audiovisual speech recognition, audiovisual speaker recognition and speaker adaptation.
+
+In contrast to HMMs, [[Artificial neural network|neural networks]] make no assumptions about feature statistical properties and have several qualities making them attractive recognition models for speech recognition. When used to estimate the probabilities of a speech feature segment, neural networks allow discriminative training in a natural and efficient manner. Few assumptions on the statistics of input features are made with neural networks. However, in spite of their effectiveness in classifying short-time units such as individual phonemes and isolated words,<ref>S. A. Zahorian, A. M. Zimmer, and F. Meng, (2002) "Vowel Classification for Computer based Visual Feedback for Speech Training for the Hearing Impaired," in ICSLP 2002</ref> neural networks are rarely successful for continuous recognition tasks, largely because of their lack of ability to model temporal dependencies.
+
+However, recently LSTM Recurrent Neural Networks (RNNs)<ref name="lstm"/><ref name="sak2015"/><ref name="fernandez2007">{{cite book|title=Proceedings of IJCAI|last2=Graves|first2=Alex|last3=Schmidhuber|first3=Jürgen|year=2007|chapter=Sequence labelling in structured domains with hierarchical recurrent neural networks|first1=Santiago|last1=Fernandez|authorlink3=Jürgen Schmidhuber|url=http://www.aaai.org/Papers/IJCAI/2007/IJCAI07-124.pdf|deadurl=no|archiveurl=https://web.archive.org/web/20170815003130/http://www.aaai.org/Papers/IJCAI/2007/IJCAI07-124.pdf|archivedate=15 August 2017|df=dmy-all}}</ref><ref>{{cite arXiv | first1=Alex | last1=Graves | first2=Abdel-rahman | last2=Mohamed | first3=Geoffrey | last3=Hinton | title=Speech recognition with deep recurrent neural networks | eprint=1303.5778 | class=cs.NE | year=2013}} ICASSP 2013.</ref> and Time Delay Neural Networks(TDNN's)<ref>{{cite journal|first=Alex|last=Waibel|year=1989|title=Modular Construction of Time-Delay Neural Networks for Speech Recognition|url=http://isl.anthropomatik.kit.edu/cmu-kit/Modular_Construction_of_Time-Delay_Neural_Networks_for_Speech_Recognition.pdf|journal=Neural Computation|volume=1|issue=1|pages=39–46|doi=10.1162/neco.1989.1.1.39|deadurl=no|archiveurl=https://web.archive.org/web/20160629180846/http://isl.anthropomatik.kit.edu/cmu-kit/Modular_Construction_of_Time-Delay_Neural_Networks_for_Speech_Recognition.pdf|archivedate=29 June 2016|df=dmy-all}}</ref> have been used which have been shown to be able to identify latent temporal dependencies and use this information to perform the task of speech recognition.
+
+Deep Neural Networks and Denoising [[Autoencoder]]s<ref>{{cite book|first1=Andrew L.|last1=Maas|first2=Quoc V.|last2=Le|first3=Tyler M.|last3=O'Neil|first4=Oriol|last4=Vinyals|first5=Patrick|last5=Nguyen|first6=Andrew Y.|last6=Ng|authorlink6=Andrew Ng|year=2012|chapter=Recurrent Neural Networks for Noise Reduction in Robust ASR|title=Proceedings of Interspeech 2012}}</ref> were also being experimented with to tackle this problem in an effective manner.
+
+Due to the inability of feedforward Neural Networks to model temporal dependencies, an alternative approach is to use neural networks as a pre-processing e.g. feature transformation, dimensionality reduction,<ref>{{cite book|first1=Hongbing|last1=Hu|first2=Stephen A.|last2=Zahorian|year=2010|chapter-url=http://bingweb.binghamton.edu/~hhu1/paper/Hu2010Dimensionality.pdf|chapter=Dimensionality Reduction Methods for HMM Phonetic Recognition|title=ICASSP 2010|deadurl=no|archiveurl=http://archive.wikiwix.com/cache/20120706063756/http://bingweb.binghamton.edu/~hhu1/paper/Hu2010Dimensionality.pdf|archivedate=6 July 2012|df=dmy-all}}</ref> for the HMM based recognition.
+
+====Deep feedforward and recurrent neural networks====
+{{Main|Deep learning}}
+A deep feedforward neural network (DNN) is an [[artificial neural network]] with multiple hidden layers of units between the input and output layers.<ref name=HintonDengYu2012/> Similar to shallow neural networks, DNNs can model complex non-linear relationships. DNN architectures generate compositional models, where extra layers enable composition of features from lower layers, giving a huge learning capacity and thus the potential of modeling complex patterns of speech data.<ref name=BOOK2014/>
+
+A success of DNNs in large vocabulary speech recognition occurred in 2010 by industrial researchers, in collaboration with academic researchers, where large output layers of the DNN based on context dependent HMM states constructed by decision trees were adopted.<ref name="Roles2010">{{cite journal|last1=Yu|first1=D.|last2=Deng|first2=L.|last3=Dahl|first3=G.|title=Roles of Pre-Training and Fine-Tuning in Context-Dependent DBN-HMMs for Real-World Speech Recognition|journal=NIPS Workshop on Deep Learning and Unsupervised Feature Learning|date=2010}}</ref><ref name="ref27">{{cite journal
+| last1 = Dahl
+| first1 = George E.
+| last2 = Yu
+| first2 = Dong
+| last3 = Deng
+| first3 = Li
+| last4 = Acero
+| first4 = Alex
+| title = Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition
+| journal = IEEE Transactions on Audio, Speech, and Signal Processing
+| volume = 20
+| issue = 1
+| pages = 30–42
+| date = 2012
+| url = http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5740583
+| doi = 10.1109/TASL.2011.2134090}}</ref>
+<ref name="ICASSP2013">Deng L., Li, J., Huang, J., Yao, K., Yu, D., Seide, F. et al. Recent Advances in Deep Learning for Speech Research at Microsoft. ICASSP, 2013.</ref> See comprehensive reviews of this development and of the state of the art as of October 2014 in the recent Springer book from Microsoft Research.<ref name="ReferenceA"/> See also the related background of automatic speech recognition and the impact of various machine learning paradigms including notably [[deep learning]] in
+recent overview articles.<ref>{{cite journal|last1=Deng|first1=L.|last2=Li|first2=Xiao|title=Machine Learning Paradigms for Speech Recognition: An Overview|journal=IEEE Transactions on Audio, Speech, and Language Processing|date=2013}}</ref><ref name="scholarpedia2015">{{cite journal | last1 = Schmidhuber | first1 = Jürgen | authorlink = Jürgen Schmidhuber | year = 2015 | title = Deep Learning | url = | journal = Scholarpedia | volume = 10 | issue = 11| page = 32832 | doi=10.4249/scholarpedia.32832| bibcode = 2015SchpJ..1032832S}}</ref>
+
+One fundamental principle of [[deep learning]] is to do away with hand-crafted [[feature engineering]] and to use raw features. This principle was first explored successfully in the architecture of deep autoencoder on the "raw" spectrogram or linear filter-bank features,<ref name="interspeech2010">L. Deng, M. Seltzer, D. Yu, A. Acero, A. Mohamed, and G. Hinton (2010) Binary Coding of Speech Spectrograms Using a Deep Auto-encoder. Interspeech.</ref> showing its superiority over the Mel-Cepstral features which contain a few stages of fixed transformation from spectrograms.
+The true "raw" features of speech, waveforms, have more recently been shown to produce excellent larger-scale speech recognition results.<ref name="interspeech2014">{{cite book|first1=Zoltán|last1=Tüske|first2=Pavel|last2=Golik|first3=Ralf|last3=Schlüter|first4=Hermann|last4=Ney|year=2014|chapter=Acoustic Modeling with Deep Neural Networks Using Raw Time Signal for LVCSR|title=Interspeech 2014|chapter-url=https://www-i6.informatik.rwth-aachen.de/publications/download/937/T%7Bu%7DskeZolt%7Ba%7DnGolikPavelSchl%7Bu%7DterRalfNeyHermann--AcousticModelingwithDeepNeuralNetworksUsingRawTimeSignalfor%7BLVCSR%7D--2014.pdf|deadurl=no|archiveurl=https://web.archive.org/web/20161221174753/https://www-i6.informatik.rwth-aachen.de/publications/download/937/T%7Bu%7DskeZolt%7Ba%7DnGolikPavelSchl%7Bu%7DterRalfNeyHermann--AcousticModelingwithDeepNeuralNetworksUsingRawTimeSignalfor%7BLVCSR%7D--2014.pdf|archivedate=21 December 2016|df=dmy-all}}</ref>
+
+=== End-to-end automatic speech recognition ===
+Since 2014, there has been much research interest in "end-to-end" ASR. Traditional phonetic-based (i.e., all [[Hidden Markov model|HMM]]-based model) approaches required separate components and training for the pronunciation, acoustic and [[language model]]. End-to-end models jointly learn all the components of the speech recognizer. This is valuable since it simplifies the training process and deployment process. For example, a [[N-gram|n-gram language model]] is required for all HMM-based systems, and a typical n-gram language model often takes several gigabytes in memory making them impractical to deploy on mobile devices.<ref>{{Cite book|title=Speech and Language Processing|last=Jurafsky|first=Daniel|publisher=|year=2016|isbn=|location=|pages=|quote=|via=}}</ref> Consequently, modern commercial ASR systems from [[Google]] and [[Apple Inc.|Apple]] (as of 2017) are deployed on the cloud and require a network connection as opposed to the device locally.
+
+The first attempt of end-to-end ASR was with Connectionist Temporal Classification (CTC) based systems introduced by [[Alex Graves (computer scientist)|Alex Graves]] of [[DeepMind|Google DeepMind]] and Navdeep Jaitly of the [[University of Toronto]] in 2014.<ref>{{Cite journal|last=Graves|first=Alex|year=2014|title=Towards End-to-End Speech Recognition with Recurrent Neural Networks|url=|journal=ICML|volume=|pages=|via=}}</ref> The model consisted of [[recurrent neural network]]s and a CTC layer. Jointly, the RNN-CTC model learns the pronunciation and acoustic model together, however it is incapable of learning the language due to [[conditional independence]] assumptions similar to a HMM. Consequently, CTC models can directly learn to map speech acoustics to English characters, but the models make many common spelling mistakes and must rely on a separate language model to clean up the transcripts. Later, [[Baidu]] expanded on the work with extremely large datasets and demonstrated some commercial success in Chinese Mandarin and English.<ref>{{Cite arxiv|last=Amodei|first=Dario|year=2016|title=Deep Speech 2: End-to-End Speech Recognition in English and Mandarin|eprint=1512.02595|class=cs.CL}}</ref> In 2016, [[University of Oxford]] presented LipNet,<ref>{{cite web|title=LipNet: How easy do you think lipreading is?|url=https://www.youtube.com/watch?v=fa5QGremQf8&list=PLXkuFIFnXUAPIrXKgtIpctv2NuSo7xw3k&index=1 |website=YouTube|accessdate=5 May 2017 |deadurl=no |archiveurl=https://web.archive.org/web/20170427104009/https://www.youtube.com/watch?v=fa5QGremQf8|archivedate=27 April 2017| df=dmy-all}}</ref> the first end-to-end sentence-level lip reading model, using spatiotemporal convolutions coupled with an RNN-CTC architecture, surpassing human-level performance in a restricted grammar dataset.<ref>{{Cite arxiv|last=Assael|first=Yannis|last2=Shillingford|first2=Brendan|last3=Whiteson|first3=Shimon|last4=de Freitas|first4=Nando|date=5 November 2016 |title=LipNet: End-to-End Sentence-level Lipreading|eprint=1611.01599|class=cs.CV}}</ref> A large-scale CNN-RNN-CTC architecture was presented in 2018 by [[DeepMind|Google DeepMind]] achieving 6 times better performance than human experts.<ref name=":0">{{Cite journal|last=Shillingford|first=Brendan|last2=Assael|first2=Yannis|last3=Hoffman|first3=Matthew W.|last4=Paine|first4=Thomas|last5=Hughes|first5=Cían|last6=Prabhu|first6=Utsav|last7=Liao|first7=Hank|last8=Sak|first8=Hasim|last9=Rao|first9=Kanishka|date=2018-07-13|title=Large-Scale Visual Speech Recognition|arxiv=1807.05162}}</ref>
+
+An alternative approach to CTC-based models are attention-based models. Attention-based ASR models were introduced simultaneously by Chan et al. of [[Carnegie Mellon University]] and [[Google Brain]] and Bahdanaua et al. of the [[Université de Montréal|University of Montreal]] in 2016.<ref>{{Cite journal|last=Chan|first=William|last2=Jaitly|first2=Navdeep|last3=Le|first3=Quoc|last4=Vinyals|first4=Oriol|year=2016|title=Listen, Attend and Spell: A Neural Network for Large Vocabulary Conversational Speech Recognition|url=|journal=ICASSP|volume=|pages=|via=}}</ref><ref>{{Cite arxiv|last=Bahdanau|first=Dzmitry|year=2016|title=End-to-End Attention-based Large Vocabulary Speech Recognition|eprint=1508.04395|class=cs.CL}}</ref> The model named "Listen, Attend and Spell" (LAS), literally "listens" to the acoustic signal, pays "attention" to different parts of the signal and "spells" out the transcript one character at a time. Unlike CTC-based models, attention-based models do not have conditional-independence assumptions and can learn all the components of a speech recognizer including the pronunciation, acoustic and language model directly. This means, during deployment, there is no need to carry around a language model making it very practical for deployment onto applications with limited memory. By the end of 2016, the attention-based models have seen considerable success including outperforming the CTC models (with or without an external language model).<ref>{{Cite arxiv|last=Chorowski|first=Jan|last2=Jaitly|first2=Navdeep|date=8 December 2016 |title=Towards better decoding and language model integration in sequence to sequence models|eprint=1612.02695|class=cs.NE}}</ref> Various extensions have been proposed since the original LAS model. Latent Sequence Decompositions (LSD) was proposed by [[Carnegie Mellon University]], [[Massachusetts Institute of Technology|MIT]] and [[Google Brain]] to directly emit sub-word units which are more natural than English characters;<ref>{{Cite arxiv|last=Chan|first=William|last2=Zhang|first2=Yu|last3=Le|first3=Quoc|last4=Jaitly|first4=Navdeep|date=10 October 2016 |title=Latent Sequence Decompositions|eprint=1610.03035|class=stat.ML}}</ref> [[University of Oxford]] and [[DeepMind|Google DeepMind]] extended LAS to "Watch, Listen, Attend and Spell" (WLAS) to handle lip reading surpassing human-level performance.<ref>{{Cite arxiv|last=Chung|first=Joon Son|last2=Senior|first2=Andrew|last3=Vinyals|first3=Oriol|last4=Zisserman|first4=Andrew|date=16 November 2016 |title=Lip Reading Sentences in the Wild|eprint=1611.05358|class=cs.CV}}</ref>
+
+==Applications==
+
+===In-car systems===
+Typically a manual control input, for example by means of a finger control on the steering-wheel, enables the speech recognition system and this is signalled to the driver by an audio prompt. Following the audio prompt, the system has a "listening window" during which it may accept a speech input for recognition.{{citation needed|date=March 2014}}
+ 
+Simple voice commands may be used to initiate phone calls, select radio stations or play music from a compatible smartphone, MP3 player or music-loaded flash drive. Voice recognition capabilities vary between car make and model. Some of the most recent{{When|date=April 2014}} car models offer natural-language speech recognition in place of a fixed set of commands, allowing the driver to use full sentences and common phrases. With such systems there is, therefore, no need for the user to memorize a set of fixed command words.{{citation needed|date=March 2014}}
+
+===Health care===
+
+====Medical documentation====
+In the [[health care]] sector, speech recognition can be implemented in front-end or back-end of the medical documentation process. Front-end speech recognition is where the provider dictates into a speech-recognition engine, the recognized words are displayed as they are spoken, and the dictator is responsible for editing and signing off on the document. Back-end or deferred speech recognition is where the provider dictates into a [[digital dictation]] system, the voice is routed through a speech-recognition machine and the recognized draft document is routed along with the original voice file to the editor, where the draft is edited and report finalized. Deferred speech recognition is widely used in the industry currently.
+
+One of the major issues relating to the use of speech recognition in healthcare is that the [[American Recovery and Reinvestment Act of 2009]] ([[American Recovery and Reinvestment Act of 2009|ARRA]]) provides for substantial financial benefits to physicians who utilize an EMR according to "Meaningful Use" standards. These standards require that a substantial amount of data be maintained by the EMR (now more commonly referred to as an [[Electronic Health Record]] or EHR). The use of speech recognition is more naturally suited to the generation of narrative text, as part of a radiology/pathology interpretation, progress note or discharge summary: the ergonomic gains of using speech recognition to enter structured discrete data (e.g., numeric values or codes from a list or a [[controlled vocabulary]]) are relatively minimal for people who are sighted and who can operate a keyboard and mouse.
+
+A more significant issue is that most EHRs have not been expressly tailored to take advantage of voice-recognition capabilities. A large part of the clinician's interaction with the EHR involves navigation through the user interface using menus, and tab/button clicks, and is heavily dependent on keyboard and mouse: voice-based navigation provides only modest ergonomic benefits. By contrast, many highly customized systems for radiology or pathology dictation implement voice "macros", where the use of certain phrases – e.g., "normal report", will automatically fill in a large number of default values and/or generate boilerplate, which will vary with the type of the exam – e.g., a chest X-ray vs. a gastrointestinal contrast series for a radiology system.
+
+As an alternative to this navigation by hand, cascaded use of speech recognition and information extraction has been studied<ref>{{cite journal |last1=Suominen |first1=Hanna |last2=Zhou |first2=Liyuan |last3=Hanlen |first3=Leif |last4=Ferraro |first4=Gabriela |year=2015 |title=Benchmarking Clinical Speech Recognition and Information Extraction: New Data, Methods, and Evaluations |journal=JMIR Medical Informatics |volume=3 |issue=2 |pages=e19 |doi=10.2196/medinform.4321 |pmid=25917752 |pmc=4427705}}</ref> as a way to fill out a handover form for clinical proofing and sign-off. The results are encouraging, and the paper also opens data, together with the related performance benchmarks and some processing software, to the research and development community for studying clinical documentation and language-processing.
+
+====Therapeutic use====
+Prolonged use of speech recognition software in conjunction with [[word processor]]s has shown benefits to short-term-memory restrengthening in [[brain AVM]] patients who have been treated with [[Resection (surgery)|resection]]. Further research needs to be conducted to determine cognitive benefits for individuals whose AVMs have been treated using radiologic techniques.{{citation needed|date=November 2016}}
+
+===Military===
+
+====High-performance fighter aircraft====
+Substantial efforts have been devoted in the last decade to the test and evaluation of speech recognition in [[fighter aircraft]]. Of particular note have been the US program in speech recognition for the [[General Dynamics F-16 Fighting Falcon variants#Technology demonstrators, and test variants#Flight control variants#F-16 Advanced Fighter Technology Integration|Advanced Fighter Technology Integration (AFTI)]]/[[F-16]] aircraft ([[F-16 VISTA]]), the program in France for [[Mirage (aircraft)|Mirage]] aircraft, and other programs in the UK dealing with a variety of aircraft platforms. In these programs, speech recognizers have been operated successfully in fighter aircraft, with applications including: setting radio frequencies, commanding an autopilot system, setting steer-point coordinates and weapons release parameters, and controlling flight display.
+
+Working with Swedish pilots flying in the [[Saab JAS 39 Gripen|JAS-39]] Gripen cockpit, Englund (2004) found recognition deteriorated with increasing [[g-force|g-loads]]. The report also concluded that adaptation greatly improved the results in all cases and that the introduction of models for breathing was shown to improve recognition scores significantly. Contrary to what might have been expected, no effects of the broken English of the speakers were found. It was evident that spontaneous speech caused problems for the recognizer, as might have been expected. A restricted vocabulary, and above all, a proper syntax, could thus be expected to improve recognition accuracy substantially.<ref>{{cite thesis|url=http://www.speech.kth.se/prod/publications/files/1664.pdf|title=Speech recognition in the JAS&nbsp;39 Gripen aircraft: Adaptation to speech at different G-loads|first=Christine |last=Englund |publisher=[[Stockholm University|Stockholm Royal Institute of Technology]] |type=Masters thesis |year=2004 |deadurl=no |archiveurl=https://web.archive.org/web/20081002002102/http://www.speech.kth.se/prod/publications/files/1664.pdf|archivedate=2 October 2008|df=dmy-all}}</ref>
+
+The [[Eurofighter Typhoon]], currently in service with the UK [[RAF]], employs a speaker-dependent system, requiring each pilot to create a template. The system is not used for any safety-critical or weapon-critical tasks, such as weapon release or lowering of the undercarriage, but is used for a wide range of other cockpit functions. Voice commands are confirmed by visual and/or aural feedback. The system is seen as a major design feature in the reduction of pilot [[workload]],<ref>{{cite web|url=https://www.eurofighter.com/the-aircraft#cockpit|title=The Cockpit |website=Eurofighter Typhoon |deadurl=no |archiveurl=https://web.archive.org/web/20170301222529/https://www.eurofighter.com/the-aircraft#cockpit |archivedate=1 March 2017|df=dmy-all}}</ref> and even allows the pilot to assign targets to his aircraft with two simple voice commands or to any of his wingmen with only five commands.<ref>{{cite web |url=http://www.eurofighter.com/capabilities/technology/voice-throttle-stick/direct-voice-input.html |title=Eurofighter Typhoon – The world's most advanced fighter aircraft |author= |date= |website=www.eurofighter.com |accessdate=1 May 2018 |deadurl=no |archiveurl=https://web.archive.org/web/20130511025203/http://www.eurofighter.com/capabilities/technology/voice-throttle-stick/direct-voice-input.html |archivedate=11 May 2013|df=dmy-all}}</ref>
+
+Speaker-independent systems are also being developed and are under test for the [[Lockheed Martin F-35 Lightning II|F35 Lightning II]] (JSF) and the [[Alenia Aermacchi M-346 Master]] lead-in fighter trainer. These systems have produced word accuracy scores in excess of 98%.<ref>{{cite web|url=http://www.af.mil/news/story.asp?id=123071861|deadurl=yes|archiveurl=https://web.archive.org/web/20071020030310/http://www.af.mil/news/story.asp?id=123071861|archivedate=20 October 2007|first=John|last=Schutte|title=Researchers fine-tune F-35 pilot-aircraft speech system|date=15 October 2007|publisher=United States Air Force}}</ref>
+
+====Helicopters====
+The problems of achieving high recognition accuracy under stress and noise pertain strongly to the [[helicopter]] environment as well as to the jet fighter environment. The acoustic noise problem is actually more severe in the helicopter environment, not only because of the high noise levels but also because the helicopter pilot, in general, does not wear a [[Fighter pilot helmet|facemask]], which would reduce acoustic noise in the [[microphone]]. Substantial test and evaluation programs have been carried out in the past decade in speech recognition systems applications in helicopters, notably by the [[U.S. Army]] Avionics Research and Development Activity (AVRADA) and by the Royal Aerospace Establishment ([[Royal Aircraft Establishment|RAE]]) in the UK. Work in France has included speech recognition in the [[Puma helicopter]]. There has also been much useful work in [[Canada]]. Results have been encouraging, and voice applications have included: control of communication radios, setting of [[navigation]] systems, and control of an automated target handover system.
+
+As in fighter applications, the overriding issue for voice in helicopters is the impact on pilot effectiveness. Encouraging results are reported for the AVRADA tests, although these represent only a feasibility demonstration in a test environment. Much remains to be done both in speech recognition and in overall [[speech technology]] in order to consistently achieve performance improvements in operational settings.
+
+====Training air traffic controllers====
+Training for air traffic controllers (ATC) represents an excellent application for speech recognition systems. Many ATC training systems currently require a person to act as a "pseudo-pilot", engaging in a voice dialog with the trainee controller, which simulates the dialog that the controller would have to conduct with pilots in a real ATC situation.
+Speech recognition and [[speech synthesis|synthesis]] techniques offer the potential to eliminate the need for a person to act as pseudo-pilot, thus reducing training and support personnel. In theory, Air controller tasks are also characterized by highly structured speech as the primary output of the controller, hence reducing the difficulty of the speech recognition task should be possible. In practice, this is rarely the case. The FAA document 7110.65 details the phrases that should be used by air traffic controllers. While this document gives less than 150 examples of such phrases, the number of phrases supported by one of the simulation vendors speech recognition systems is in excess of 500,000.
+
+The USAF, USMC, US Army, US Navy, and FAA as well as a number of international ATC training organizations such as the Royal Australian Air Force and Civil Aviation Authorities in Italy, Brazil, and Canada are currently using ATC simulators with speech recognition from a number of different vendors.{{citation needed|date=December 2012}}
+
+===Telephony and other domains===
+ASR is now commonplace in the field of [[telephony]], and is becoming more widespread in the field of [[computer gaming]] and simulation. In the telephony systems, ASR is now being predominantly used in contact centers by integrating it with [[IVR]] systems. Despite the high level of integration with word processing in general personal computing, in the field of document production, ASR has not seen the expected increases in use.
+
+The improvement of mobile processor speeds has made speech recognition practical in [[smartphone]]s. Speech is used mostly as a part of a user interface, for creating predefined or custom speech commands. Leading software vendors in this field are: Google, Microsoft Corporation (Microsoft Voice Command), Digital Syphon (Sonic Extractor), GoVivace Inc., [[LumenVox]], [[Nuance Communications]] (Nuance Voice Control), Voci Technologies, VoiceBox Technology, [[Speech Technology Center]], Vito Technologies (VITO Voice2Go), Speereo Software (Speereo Voice Translator), Verbyx VRX and SVOX.
+
+=== Usage in education and daily life ===
+For [[language learning]], speech recognition can be useful for learning a [[second language]]. It can teach proper pronunciation, in addition to helping a person develop fluency with their speaking skills.<ref>{{cite web | last = Cerf | first = Vinton | last2 = Wrubel | first2 = Rob | last3 = Sherwood | first3 = Susan | title = Can speech-recognition software break down educational language barriers? | url = http://curiosity.discovery.com/question/speech-recognition-software-language-barriers | deadurl=yes |archiveurl=https://web.archive.org/web/20140407065245/http://curiosity.discovery.com/question/speech-recognition-software-language-barriers | archivedate=7 April 2014 | website=Curiosity.com | publisher = Discovery Communications | accessdate = 26 March 2014}}</ref>
+
+Students who are blind (see [[Blindness and education]]) or have very low vision can benefit from using the technology to convey words and then hear the computer recite them, as well as use a computer by commanding with their voice, instead of having to look at the screen and keyboard.<ref name=brainline>{{cite web|title=Speech Recognition for Learning|publisher=National Center for Technology Innovation|year=2010|url=http://www.brainline.org/content/2010/12/speech-recognition-for-learning_pageall.html|accessdate=26 March 2014|deadurl=no|archiveurl=https://web.archive.org/web/20140413100513/http://www.brainline.org/content/2010/12/speech-recognition-for-learning_pageall.html|archivedate=13 April 2014|df=dmy-all}}</ref><!--second host of same journal, if this becomes deadlink: http://www.ldonline.org/article/38655/ -->
+
+Students who are physically disabled or suffer from [[Repetitive strain injury]]/other injuries to the upper extremities can be relieved from having to worry about handwriting, typing, or working with scribe on school assignments by using speech-to-text programs. They can also utilize speech recognition technology to freely enjoy searching the Internet or using a computer at home without having to physically operate a mouse and keyboard.<ref name=brainline />
+
+Speech recognition can allow students with learning disabilities to become better writers. By saying the words aloud, they can increase the fluidity of their writing, and be alleviated of concerns regarding spelling, punctuation, and other mechanics of writing.<ref>{{cite web | last = Follensbee | first = Bob | first2 = Susan | last2 = McCloskey-Dale | title = Speech recognition in schools: An update from the field | url = http://www.csun.edu/~hfdss006/conf/2000/proceedings/0219Follansbee.htm | website = Technology And Persons With Disabilities Conference 2000 | year = 2000 | accessdate = 26 March 2014 | deadurl = no | archiveurl = https://web.archive.org/web/20060821213145/http://www.csun.edu/~hfdss006/conf/2000/proceedings/0219Follansbee.htm | archivedate = 21 August 2006 | df = dmy-all }}</ref> Also, see [[Learning disability]].
+
+Use of voice recognition software, in conjunction with a digital audio recorder and a personal computer running word-processing software has proven to be positive for restoring damaged short-term-memory capacity, in stroke and craniotomy individuals.
+
+===People with disabilities===
+People with disabilities can benefit from speech recognition programs. For individuals that are Deaf or Hard of Hearing, speech recognition software is used to automatically generate a closed-captioning of conversations such as discussions in conference rooms, classroom lectures, and/or religious services.<ref>{{cite web |url=http://www.massmatch.org/aboutus/listserv/2010/2010-03-31.html |title=Overcoming Communication Barriers in the Classroom |publisher=MassMATCH |date=18 March 2010 |accessdate=15 June 2013 |deadurl=no |archiveurl=https://web.archive.org/web/20130725024622/http://www.massmatch.org/aboutus/listserv/2010/2010-03-31.html |archivedate=25 July 2013 |df=dmy-all }}</ref>
+
+Speech recognition is also very useful for people who have difficulty using their hands, ranging from mild repetitive stress injuries to involve disabilities that preclude using conventional computer input devices. In fact, people who used the keyboard a lot and developed [[Repetitive Strain Injury|RSI]] became an urgent early market for speech recognition.<ref>{{cite web|url=http://www.businessweek.com/1998/08/b3566022.htm|title=Speech recognition for disabled people|deadurl=no|archiveurl=https://web.archive.org/web/20080404013302/http://www.businessweek.com/1998/08/b3566022.htm|archivedate=4 April 2008|df=dmy-all}}</ref><ref>[[Friends International Support Group]]</ref> Speech recognition is used in [[deaf]] [[telephony]], such as voicemail to text, [[relay services]], and [[Telecommunications Relay Service#Captioned telephone|captioned telephone]]. Individuals with learning disabilities who have problems with thought-to-paper communication (essentially they think of an idea but it is processed incorrectly causing it to end up differently on paper) can possibly benefit from the software but the technology is not bug proof.<ref>{{cite journal | last1 = Garrett | first1 = Jennifer Tumlin | display-authors = etal | year = 2011 | title = Using Speech Recognition Software to Increase Writing Fluency for Individuals with Physical Disabilities | journal = Journal of Special Education Technology | volume = 26 | issue = 1| pages = 25–41 | doi = 10.1177/016264341102600104 }}</ref> Also the whole idea of speak to text can be hard for intellectually disabled person's due to the fact that it is rare that anyone tries to learn the technology to teach the person with the disability.<ref>Forgrave, Karen E. "Assistive Technology: Empowering Students with Disabilities." Clearing House 75.3 (2002): 122–6. Web.</ref>
+
+This type of technology can help those with dyslexia but other disabilities are still in question. The effectiveness of the product is the problem that is hindering it being effective. Although a kid may be able to say a word depending on how clear they say it the technology may think they are saying another word and input the wrong one. Giving them more work to fix, causing them to have to take more time with fixing the wrong word.<ref>{{cite journal | last1 = Tang | first1 = K. W. | last2 = Kamoua | first2 = Ridha | last3 = Sutan | first3 = Victor | year = 2004 | title = Speech Recognition Technology for Disabilities Education | journal = Journal of Educational Technology Systems | volume = 33 | issue = 2| pages = 173–84 }}</ref>
+
+===Further applications===
+*[[Aerospace]] (e.g. [[space exploration]], [[spacecraft]], etc.) NASA's [[Mars Polar Lander]] used speech recognition technology from [[Sensory, Inc.]] in the Mars Microphone on the Lander<ref name="Planetary Society article">{{cite web | publisher=The Planetary Society | url=http://www.planetary.org/programs/projects/planetary_microphones/mars_microphone.html | deadurl=yes |archiveurl=https://web.archive.org/web/20120127161038/http://www.planetary.org/programs/projects/planetary_microphones/mars_microphone.html | archivedate=27 January 2012 |title=Projects: Planetary Microphones}}</ref>
+*Automatic [[Same language subtitling|subtitling]] with speech recognition<ref name="GoVivace Inc.">{{cite web|publisher=GoVivace Inc.|url=https://www.govivace.com/2017/09/14/automatic-subtitling-with-speech-recognition/|title=Automatic subtitling with speech recognition|deadurl=no|archiveurl=https://www.govivace.com/2017/09/14/automatic-subtitling-with-speech-recognition/|archivedate=14 September 2017|df=dmy-all}}</ref>
+*Automatic [[emotion recognition]]<ref>{{cite journal |last1=Caridakis |first1=George |last2=Castellano |first2=Ginevra |last3=Kessous |first3=Loic |last4=Raouzaiou |first4=Amaryllis |last5=Malatesta |first5=Lori |last6=Asteriadis |first6=Stelios |last7=Karpouzis |first7=Kostas |title=Multimodal emotion recognition from expressive faces, body gestures and speech |journal=IFIP The International Federation for Information Processing |date=19 September 2007 |pages=375–388 |doi=10.1007/978-0-387-74161-1_41 |url=https://doi.org/10.1007/978-0-387-74161-1_41 |publisher=Springer US |language=en}}</ref>
+*[[Automatic translation]]
+*[[Court reporting]] (Real time Speech Writing)
+*[[eDiscovery]] (Legal discovery)
+*[[Hands-free computing]]: Speech recognition computer [[user interface]]
+*[[Home automation]]
+*[[Interactive voice response]]
+*[[Mobile telephony]], including mobile email
+*[[Multimodal interaction]]
+*[[Pronunciation]] evaluation in computer-aided language learning applications
+*Real Time [[Captioning]]{{citation needed|date=October 2018}}
+*[[Robotics]]
+*Speech to text (transcription of speech into text, real time video [[captioning]], Court reporting )<ref name="Speech To Text (Audio Transcription)">{{cite web |title=SPEECH TO TEXT (AUDIO TRANSCRIPTION) |url=https://www.govivace.com/products/speech-to-text-transcription/ |publisher=GoVivace Inc. |accessdate=14 September 2017}}</ref>
+*[[Telematics]] (e.g. vehicle Navigation Systems)
+*[[Transcription (linguistics)|Transcription]] (digital speech-to-text)
+*[[Video games]], with ''[[Tom Clancy's EndWar]]'' and ''[[Lifeline (video game)|Lifeline]]'' as working examples
+*[[Virtual assistant (artificial intelligence)|Virtual assistant]] (e.g. [[Apple Siri|Apple's Siri]])
+
+==Performance==
+The performance of speech recognition systems is usually evaluated in terms of accuracy and speed.<ref>Ciaramella, Alberto. "A prototype performance evaluation report." Sundial workpackage 8000 (1993).</ref><ref>Gerbino, E., Baggia, P., Ciaramella, A., & Rullent, C. (1993, April). Test and evaluation of a spoken dialogue system. In Acoustics, Speech, and Signal Processing, 1993. ICASSP-93., 1993 IEEE International Conference on (Vol. 2, pp. 135–138). IEEE.</ref> Accuracy is usually rated with [[word error rate]] (WER), whereas speed is measured with the [[real time factor]]. Other measures of accuracy include [[Single Word Error Rate]] (SWER) and [[Command Success Rate]] (CSR).
+
+Speech recognition by machine is a very complex problem, however. Vocalizations vary in terms of accent, pronunciation, articulation, roughness, nasality, pitch, volume, and speed. Speech is distorted by a background noise and echoes, electrical characteristics. Accuracy of speech recognition may vary with the following:<ref>National Institute of Standards and Technology. "[http://www.itl.nist.gov/iad/mig/publications/ASRhistory/ The History of Automatic Speech Recognition Evaluation at NIST] {{webarchive|url=https://web.archive.org/web/20131008210040/http://www.itl.nist.gov/iad/mig/publications/ASRhistory/ |date=8 October 2013 }}".</ref>{{Citation needed|date=May 2013}}
+* Vocabulary size and confusability
+* Speaker dependence versus independence
+* Isolated, discontinuous or continuous speech
+* Task and language constraints
+* Read versus spontaneous speech
+* Adverse conditions
+
+===Accuracy===
+As mentioned earlier in this article, accuracy of speech recognition may vary depending on the following factors:
+* Error rates increase as the vocabulary size grows: 
+::e.g. the 10 digits "zero" to "nine" can be recognized essentially perfectly, but vocabulary sizes of 200, 5000 or 100000 may have error rates of 3%, 7% or 45% respectively.
+* Vocabulary is hard to recognize if it contains confusable words:
+::e.g. the 26 letters of the English alphabet are difficult to discriminate because they are confusable words (most notoriously, the E-set: "B, C, D, E, G, P, T, V, Z"); an 8% error rate is considered good for this vocabulary.{{citation needed|date=June 2012}}
+* Speaker dependence vs. independence:
+::A speaker-dependent system is intended for use by a single speaker.<br />
+::A speaker-independent system is intended for use by any speaker (more difficult).
+* Isolated, Discontinuous or continuous speech
+::With isolated speech, single words are used, therefore it becomes easier to recognize the speech.<br />
+With discontinuous speech full sentences separated by silence are used, therefore it becomes easier to recognize the speech as well as with isolated speech. <br />
+With continuous speech naturally spoken sentences are used, therefore it becomes harder to recognize the speech, different from both isolated and discontinuous speech.
+
+
+* Task and language constraints
+**e.g. Querying application may dismiss the hypothesis "The apple is red."
+**e.g. Constraints may be semantic; rejecting "The apple is angry."
+**e.g. Syntactic; rejecting "Red is apple the."
+
+Constraints are often represented by a grammar. 
+* Read vs. Spontaneous Speech - When a person reads it's usually in a context that has been previously prepared, but when a person uses spontaneous speech, it is difficult to recognize the speech because of the disfluencies (like "uh" and "um", false starts, incomplete sentences, stuttering, coughing, and laughter) and limited vocabulary. 
+* Adverse conditions - Environmental noise (e.g. Noise in a car or a factory). Acoustical distortions (e.g. echoes, room acoustics)<br />
+Speech recognition is a multi-levelled pattern recognition task.
+* Acoustical signals are structured into a hierarchy of units, e.g. [[Phoneme]]s, Words, Phrases, and Sentences;
+* Each level provides additional constraints;
+e.g. Known word pronunciations or legal word sequences, which can compensate for errors or uncertainties at lower level;
+* This hierarchy of constraints are exploited. By combining decisions probabilistically at all lower levels, and making more deterministic decisions only at the highest level, speech recognition by a machine is a process broken into several phases. Computationally, it is a problem in which a sound pattern has to be recognized or classified into a category that represents a meaning to a human. Every acoustic signal can be broken in smaller more basic sub-signals. As the more complex sound signal is broken into the smaller sub-sounds, different levels are created, where at the top level we have complex sounds, which are made of simpler sounds on lower level, and going to lower levels even more, we create more basic and shorter and simpler sounds. The lowest level, where the sounds are the most fundamental, a machine would check for simple and more probabilistic rules of what sound should represent. Once these sounds are put together into more complex sound on upper level, a new set of more deterministic rules should predict what new complex sound should represent. The most upper level of a deterministic rule should figure out the meaning of complex expressions. In order to expand our knowledge about speech recognition we need to take into a consideration neural networks. There are four steps of neural network approaches: 
+* Digitize the speech that we want to recognize
+For telephone speech the sampling rate is 8000 samples per second; 
+* Compute features of spectral-domain of the speech (with Fourier transform);
+computed every 10&nbsp;ms, with one 10&nbsp;ms section called a frame;
+
+Analysis of four-step neural network approaches can be explained by further information. Sound is produced by air (or some other medium) vibration, which we register by ears, but machines by receivers. Basic sound creates a wave which has two descriptions: [[amplitude]] (how strong is it), and [[frequency]] (how often it vibrates per second).
+
+===Security concerns===
+Speech recognition can become a means of attack, theft, or accidental operation.  For example, activation words like "Alexa" spoken in an audio or video broadcast can cause devices in homes and offices to start listening for input inappropriately, or possibly take an unwanted action.<ref>{{cite news |url=https://www.npr.org/2016/03/06/469383361/listen-up-your-ai-assistant-goes-crazy-for-npr-too |title=Listen Up: Your AI Assistant Goes Crazy For NPR Too |work=[[NPR]] |date=6 March 2016 |deadurl=no |archiveurl=https://web.archive.org/web/20170723210358/http://www.npr.org/2016/03/06/469383361/listen-up-your-ai-assistant-goes-crazy-for-npr-too |archivedate=23 July 2017 |df=dmy-all }}</ref> Voice-controlled devices are also accessible to visitors to the building, or even those outside the building if they can be heard inside.  Attackers may be able to gain access to personal information, like calendar, address book contents, private messages, and documents.  They may also be able to impersonate the user to send messages or make online purchases.
+
+Two attacks have been demonstrated that use artificial sounds.  One transmits ultrasound and attempt to send commands without nearby people noticing.<ref>{{cite news |url=https://www.theregister.co.uk/2017/08/25/amazon_alexa_answers_inaudible_commands/?mt=1504024969000 |title=Is it possible to control Amazon Alexa, Google Now using inaudible commands? Absolutely |work=[[The Register]] |first=Thomas |last=Claburn |date=25 August 2017 |deadurl=no |archiveurl=https://web.archive.org/web/20170902051123/https://www.theregister.co.uk/2017/08/25/amazon_alexa_answers_inaudible_commands/?mt=1504024969000 |archivedate=2 September 2017 |df=dmy-all }}</ref> The other adds small, inaudible distortions to other speech or music that are specially crafted to confuse the specific speech recognition system into recognizing music as speech, or to make what sounds like one command to a human sound like a different command to the system.<ref>{{cite web|url=https://motherboard.vice.com/en_us/article/d34nnz/attack-targets-automatic-speech-recognition-systems|title=Attack Targets Automatic Speech Recognition Systems|author=|date=31 January 2018|website=vice.com|accessdate=1 May 2018|deadurl=no|archiveurl=https://web.archive.org/web/20180303050744/https://motherboard.vice.com/en_us/article/d34nnz/attack-targets-automatic-speech-recognition-systems|archivedate=3 March 2018|df=dmy-all}}</ref>
+
+==Further information==
+
+=== Conferences and journals ===
+Popular speech recognition conferences held each year or two include SpeechTEK and SpeechTEK Europe, [[International Conference on Acoustics, Speech, and Signal Processing|ICASSP]], [[Interspeech]]/Eurospeech, and the IEEE ASRU. Conferences in the field of [[natural language processing]], such as [[Association for Computational Linguistics|ACL]], [[North American Chapter of the Association for Computational Linguistics|NAACL]], EMNLP, and HLT, are beginning to include papers on [[speech processing]]. Important journals include the [[IEEE]] Transactions on Speech and Audio Processing (later renamed [[IEEE]] Transactions on Audio, Speech and Language Processing and since Sept 2014 renamed [[IEEE]]/ACM Transactions on Audio, Speech and Language Processing—after merging with an ACM publication), Computer Speech and Language, and Speech Communication.
+
+=== Books ===
+Books like "Fundamentals of Speech Recognition" by [[Lawrence Rabiner]] can be useful to acquire basic knowledge but may not be fully up to date (1993). Another good source can be "Statistical Methods for Speech Recognition" by [[Frederick Jelinek]] and "Spoken Language Processing (2001)" by [[Xuedong Huang]] etc. More up to date are "Computer Speech", by [[Manfred R. Schroeder]], second edition published in 2004, and "Speech Processing: A Dynamic and Optimization-Oriented Approach" published in 2003 by Li Deng and Doug O'Shaughnessey. The recently updated textbook of "Speech and Language Processing (2008)" by [[Daniel Jurafsky|Jurafsky]] and Martin presents the basics and the state of the art for ASR. [[Speaker recognition]] also uses the same features, most of the same front-end processing, and classification techniques as is done in speech recognition. A most recent comprehensive textbook, "Fundamentals of Speaker Recognition" is an in depth source for up to date details on the theory and practice.<ref name="auto">{{cite book|last=Beigi|first=Homayoon|title=Fundamentals of Speaker Recognition|year=2011|publisher=Springer|location=New York|isbn=978-0-387-77591-3|url=http://www.fundamentalsofspeakerrecognition.org|deadurl=no|archiveurl=https://web.archive.org/web/20180131140911/http://www.fundamentalsofspeakerrecognition.org/|archivedate=31 January 2018|df=dmy-all}}</ref> A good insight into the techniques used in the best modern systems can be gained by paying attention to government sponsored evaluations such as those organised by [[DARPA]] (the largest speech recognition-related project ongoing as of 2007 is the GALE project, which involves both speech recognition and translation components).
+
+A good and accessible introduction to speech recognition technology and its history is provided by the general audience book "The Voice in the Machine. Building Computers That Understand Speech" by [[Roberto Pieraccini]] (2012).
+
+The most recent book on speech recognition is "Automatic Speech Recognition: A Deep Learning Approach" (Publisher: Springer) written by D. Yu and L. Deng published near the end of 2014, with highly mathematically-oriented technical detail on how deep learning methods are derived and implemented in modern speech recognition systems based on DNNs and related deep learning methods.<ref name="ReferenceA">{{cite journal|last1=Yu|first1=D.|last2=Deng|first2=L.|title=Automatic Speech Recognition: A Deep Learning Approach (Publisher: Springer)| date=2014}}</ref> A related book, published earlier in 2014, "Deep Learning: Methods and Applications" by L. Deng and D. Yu provides a less technical but more methodology-focused overview of DNN-based speech recognition during 2009–2014, placed within the more general context of deep learning applications including not only speech recognition but also image recognition, natural language processing, information retrieval, multimodal processing, and multitask learning.<ref name="BOOK2014">{{cite journal|first1=Li|last1=Deng|first2=Dong|last2=Yu|year=2014|title=Deep Learning: Methods and Applications|url=http://research.microsoft.com/pubs/209355/DeepLearning-NowPublishing-Vol7-SIG-039.pdf|doi=10.1561/2000000039|journal=Foundations and Trends in Signal Processing|volume=7|issue=3–4|pages=197–387|deadurl=no|archiveurl=https://web.archive.org/web/20141022161017/http://research.microsoft.com/pubs/209355/DeepLearning-NowPublishing-Vol7-SIG-039.pdf|archivedate=22 October 2014|df=dmy-all}}</ref>
+
+=== Software ===
+In terms of freely available resources, [[Carnegie Mellon University]]'s [[CMU Sphinx|Sphinx]] toolkit is one place to start to both learn about speech recognition and to start experimenting. Another resource (free but copyrighted) is the [[HTK (software)|HTK]] book (and the accompanying HTK toolkit). For more recent and state-of-the-art techniques, [[Kaldi (software)|Kaldi]] toolkit can be used.{{citation needed|date=October 2016}}
+
+A demonstration of an on-line speech recognizer is available on Cobalt's webpage.<ref>https://demo-cubic.cobaltspeech.com/</ref>
+
+For more software resources, see [[List of speech recognition software]].
+
+==See also==
+{{div col|colwidth=22em}}
+*[[AI effect]]
+*[[ALPAC]]
+*[[Applications of artificial intelligence]]
+*[[Articulatory speech recognition]]
+*[[Audio mining]]
+*[[Audio-visual speech recognition]]
+*[[Automatic Language Translator]]
+* [[Automotive head unit]]
+*[[Cache language model]]
+*[[Dragon NaturallySpeaking]]
+*[[Google Voice Search]]
+*[[IBM ViaVoice]]
+*[[Keyword spotting]]
+*[[Kinect]]
+*[[Mondegreen]]
+*[[Multimedia information retrieval]]
+*[[Origin of speech]]
+*[[Phonetic search technology]]
+*[[Speaker diarisation]]
+*[[Speaker recognition]]
+*[[Speech analytics]]
+*[[Speech interface guideline]]
+*[[Speech recognition software for Linux]]
+*[[Speech synthesis]]
+*[[Speech verification]]
+*[[Subtitle (captioning)]]
+*[[VoiceXML]]
+*[[VoxForge]]
+*[[Windows Speech Recognition]]
+; Lists
+* [[List of emerging technologies]]
+* [[Outline of artificial intelligence]]
+* [[Timeline of speech and voice recognition]]
+{{div col end}}
+
+==References==
+{{Reflist}}
+
+==Further reading==
+*{{Cite book
+ | first1 = Roberto | last1 = Pieraccini 
+ | title = The Voice in the Machine. Building Computers That Understand Speech.
+ | publisher = The MIT Press | isbn = 978-0262016858}}
+*{{Cite book
+ | first1 = Matthias | last1 = Woelfel | first2 = John | last2 = McDonough
+ | title = Distant Speech Recognition
+ | publisher = Wiley | isbn = 978-0470517048}}
+*{{Cite book
+ | contribution = Conversational Interface Technologies | year = 2007
+ | first1 = Clare-Marie | last1 = Karat | first2 = John | last2 = Vergo | first3 = David | last3 = Nahamoo
+ | title = The Human-Computer Interaction Handbook: Fundamentals, Evolving Technologies, and Emerging Applications (Human Factors and Ergonomics)
+ | editor1-first = Andrew | editor1-last = Sears | editor1-link = Andrew Sears
+ | editor2-first = Julie A. | editor2-last = Jacko
+ | publisher = Lawrence Erlbaum Associates Inc | isbn = 978-0-8058-5870-9}}
+*{{Cite book
+ | title = Survey of the state of the art in human language technology
+ | year = 1997
+ | series = Cambridge Studies in Natural Language Processing | volume = XII–XIII
+ | editor1-first = Ronald | editor1-last = Cole
+ | editor2-first = Joseph | editor2-last = Mariani | editor2-link = Joseph mariani
+ | editor3-first = Hans | editor3-last = Uszkoreit
+ | editor4-first = Giovanni Battista | editor4-last = Varile
+ | editor5-last = Zaenen | editor5-first = Annie
+ | editor6-last = Zampolli
+ | editor7-last = Zue | editor7-first = Victor
+ | publisher = Cambridge University Press | isbn = 0-521-59277-1
+}}
+*{{Cite book
+ | title = Robustness in Automatic Speech Recognition: Fundamentals and Applications | year = 1995
+ | last1 = Junqua | first1 = J.-C. | last2 = Haton | first2 = J.-P.
+ | publisher = Kluwer Academic Publishers | isbn = 978-0-7923-9646-8
+}}
+*{{Cite book
+ | title = Advanced algorithms and architectures for speech understanding| year = 2013
+ | editor1-first = Giancarlo | editor1-last = Pirani
+ | publisher = Springer Science & Business Media | isbn = 978-3-642-84341-9
+}}
+
+==External links==
+* Signer, Beat and Hoste, Lode: [https://www.academia.edu/4685517/SpeeG2_A_Speech-_and_Gesture-based_Interface_for_Efficient_Controller-free_Text_Entry ''SpeeG2: A Speech- and Gesture-based Interface for Efficient Controller-free Text Entry''], In Proceedings of ICMI 2013, 15th International Conference on Multimodal Interaction, Sydney, Australia, December 2013
+*{{dmoz|Computers/Speech_Technology|Speech Technology}}
+
+{{Natural Language Processing}}
+
+{{Authority control}}
+
+{{DEFAULTSORT:Speech Recognition}}
+[[Category:Automatic identification and data capture]]
+[[Category:Computational linguistics]]
+[[Category:Speech recognition| ]]
+[[Category:User interface techniques]]
+[[Category:History of human–computer interaction]]
+[[Category:Computer accessibility]]
+[[Category:Machine learning task]]

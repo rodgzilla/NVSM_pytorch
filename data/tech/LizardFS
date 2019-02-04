@@ -1,0 +1,41 @@
+{{Infobox software
+| name = LizardFS
+| logo = LizardFS Logo.svg
+| logo size = 100px
+| developer = Skytechnology Sp. z o.o.<ref>{{cite web|url=http://skytechnology.pl/en/our-products/|title=Skytechnology -   Our products|publisher=}}</ref>
+| latest release version = 3.12
+| operating system = [[Linux]], [[FreeBSD]], [[Mac OS X]], [[Solaris (operating system)|Solaris]]
+| genre = [[Distributed file system]]
+| license = [[GPLv3]]
+| website = [http://www.lizardfs.com LizardFS.com]
+}}
+
+'''LizardFS''' is an open source [[distributed file system]] that is POSIX-compliant and licensed under GPLv3.<ref>{{Cite web|url=http://www.golem.de/news/lizardfs-software-defined-storage-wie-es-sein-soll-1604-119518.html|title=LizardFS: Software-defined storage, as it should be (original article in German)|date=April 27, 2016|website=www.golem.de|access-date=2016-05-06}}</ref><ref>{{Cite web|url=http://mrbluecoat.blogspot.com/2016/02/updated-distributed-file-system.html|title=Mr. Blue Coat: (updated) Distributed File System benchmark|access-date=2016-05-06}}</ref> It was released in 2013 as fork of [[MooseFS]].<ref>{{Cite web|url=http://permalink.gmane.org/gmane.linux.file-systems.zfs.user/12572|title=ZFS + glusterfs on two or three nodes|website=permalink.gmane.org|access-date=2016-05-06}}</ref>
+
+LizardFS is a distributed, scalable and fault-tolerant file system. This is achieved by spreading data over several physical servers and their associated physical data storage. This storage is presented to the end-user as a single logical name space.<ref>{{Cite web|url=https://github.com/lizardfs/lizardfs/wiki|title=www.github.com/lizardfs/lizardfs/wiki|website=GitHub|access-date=2016-05-06}}</ref> The file system is designed so that it is possible to add more disks and servers “on the fly”, without the need for any server reboots or shut-downs.<ref>{{Cite journal|last=Korenkov|first=V. V.|last2=Kutovskiy|first2=N. A.|last3=Balashov|first3=N. A.|last4=Baranov|first4=A. V.|last5=Semenov|first5=R. N.|date=2015-01-01|title=JINR Cloud Infrastructure|url=http://www.sciencedirect.com/science/article/pii/S1877050915034146|journal=Procedia Computer Science|series=4th International Young Scientist Conference on Computational Science|volume=66|pages=574–583|doi=10.1016/j.procs.2015.11.065}}</ref>
+
+== Description ==
+LizardFS is used as the underlying distributed file system for a  product developed by CloudWeavers that uses the [[OpenNebula]] cloud management platform, marketed as [[hyper-converged infrastructure]].<ref>{{Cite web|url=http://www.nodeweaver.eu/blog/blog-1/post/the-nodeweaver-storage-platform-2|title=the NodeWeaver storage platform|last=|first=|date=|website=|archive-url=|archive-date=|dead-url=|access-date=}}</ref> Other possible use cases include storage for cloud hosting services, render farms and backups.<ref>{{Cite web|url=https://www.newswire.com/press-release/eracks-continues-openstack-and-cloud-commitment-with-upgraded|title=Eracks Continues Openstack And Cloud Commitment, With Upgraded Storage Servers, As Well As Private Cloud Hosting Services|website=www.newswire.com|access-date=2016-05-09}}</ref><ref>{{Cite web|url=http://www.golem.de/news/lizardfs-software-defined-storage-wie-es-sein-soll-1604-119518-5.html|title=LizardFS: Software-defined storage, as it should be (original article in German)|website=www.golem.de|access-date=2016-05-09}}</ref><ref>{{Cite web|url=http://skytechnology.pl/en/our-products/lizardfs/|title=Skytechnology {{!}}   LizardFS|website=skytechnology.pl|access-date=2016-05-09}}</ref>
+
+High availability and the native [[Microsoft Windows]] client are licensed features that are available under a support contract. Alternatively, a time-limited trial version of the Windows client is available and high availability can be achieved manually by scripting.<ref>{{cite web|url=https://www.itcentralstation.com/product_reviews/lizardfs-review-34235-by-valentin-hobel|title=Review of LizardFS by a Real User|publisher=}}</ref>
+
+== See also ==
+* [[Hyper-converged infrastructure]]
+* [[Distributed file system]]
+* [[List of file systems#Distributed parallel fault-tolerant file systems]]
+* [[Moose File System|MooseFS]]
+* [[BeeGFS]]
+
+== References ==
+{{reflist}}
+
+== External links ==
+* {{Official website|https://lizardfs.com/|LizardFS official website}}
+* [https://github.com/lizardfs/lizardfs LizardFS on GitHub]
+* [http://docs.lizardfs.com LizardFS official documentation]
+
+[[Category:File system management]]
+[[Category:Distributed file systems]]
+[[Category:Network file systems]]
+[[Category:Userspace file systems]]
+[[Category:Distributed file systems supported by the Linux kernel]]

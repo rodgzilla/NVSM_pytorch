@@ -1,0 +1,343 @@
+This article covers the '''evolution of time-sharing systems''', providing links to major early [[time-sharing]] operating systems, showing their subsequent evolution.
+
+==Time-sharing==
+{{Main|Time-sharing}}
+
+Time-sharing was developed in the late 1950s out of the realization that a single expensive computer could be efficiently utilized if a multitasking, multiprogramming operating system allowed multiple users simultaneous [[Interactive computing|interactive access]]. Typically an individual user would enter bursts of information followed by long pauses; but with a group of users working at the same time, the pauses of one user would be filled by the activity of the others. Similarly, small slices of time spent waiting for disk, tape, or network input could be granted to other users. Given an optimal group size, the overall process could be very efficient.
+
+Each user would use their own [[computer terminal]]; initially electromechanical [[teleprinter]]s such as the [[Teletype Model 33]] ASR or the [[Friden Flexowriter]], but from about 1970 these were progressively superseded by [[cathode ray tube|CRT]]-based units such as the [[Digital Equipment Corporation|DEC]] [[VT05]], [[Datapoint 2200]] and [[Lear Siegler]] [[ADM-3A]].
+
+Terminals were initially linked to a nearby computer via [[current loop]] or [[serial cable]]s, by conventional [[electric telegraph#Teleprinters|telegraph circuits]] provided by [[Postal, telegraph and telephone service|PTTs]] and over specialist digital [[leased lines]] such [[T-carrier|T1]]. [[Modem]]s such as the [[Bell 103 modem|Bell 103]] and successors, allowed remote and higher-speed use over the [[Plain old telephone service|analogue voice telephone network]].
+
+==Family tree of major systems==
+
+See details and additional systems in the table below. Relationships shown here are for the purpose of grouping entries and do not reflect all influences (e.g., [[OS/2]] was more influenced by [[VAX/VMS]] than by [[MS-DOS]], but its legacy is as an x86 platform). The Cambridge Multiple-Access System<ref>{{Citation | last = Hartley | first = D. F. | author-link = David Hartley (computer scientist) | title = The Cambridge multiple-access system: user's reference manual | place = Cambridge  | publisher = Cambridge Univ. Press | year = 1968 | isbn = 978-0901224002 }}</ref><ref>{{Citation | last = Wilkes | first = M. | author-link = Maurice Wilkes | last2 = Needham | first2 = R. | author2-link = Roger Needham | title = The Design of Multiple-Access Computer Systems: Part 2 | journal = The Computer Journal | volume = 10 | issue = 4 | pages = 315–320 | year = 1968 | url = http://comjnl.oxfordjournals.org/content/10/4/315.full.pdf | doi=10.1093/comjnl/10.4.315}}</ref> was the first time-sharing system developed outside the United States.
+
+{| style="border:2px solid; text-align:left; vertical-align:middle; margin:6pt; padding:6pt"
+|+ '''Family tree''' of major [[time-sharing]] operating system families<br>Influences:&nbsp;&nbsp;&nbsp;&nbsp;→ derivation&nbsp;&nbsp;&nbsp;&nbsp;>> strong influence&nbsp;&nbsp;&nbsp;&nbsp;> some influence/precedence
+|-
+| rowspan="99" style="border-right:1px solid" | [[Compatible Time-Sharing System|CTSS]]&nbsp;>&nbsp;
+|-
+| colspan="99" style="border-bottom:1px solid" | '''''[[IBM mainframe]] systems'''''
+|-
+| rowspan="2" style="border-right:1px solid" | [[IBM CP-40|CP-40/CMS]] → [[CP/CMS| CP[-67]/CMS]] →&nbsp;
+| colspan="99" | &nbsp;[[VM/370]] → VM/SE versions → VM/SP versions   → VM/XA versions → [[VM/ESA]] → [[z/VM]]
+|-
+| &nbsp;[[VP/CSS]]
+|-
+| colspan="99" style="border-top:1px solid" | [[TSS/360]]
+|-
+| colspan="99" style="border-top:1px solid" | [[Time Sharing Option|OS/360 MVT-TSO]] → [[Time Sharing Option|OS/VS2 SVS-TSO]] → [[Time Sharing Option|MVS-TSO]] → [[Time Sharing Option|OS/390-TSO]] → [[Time Sharing Option|z/OS-TSO]]
+|-
+| colspan="99" style="border-top:1px solid" | Transactional systems: [[CICS]], [[Transaction Processing Facility|TPF]] → [[z/TPF]]
+|-
+| colspan="99" style="border-bottom:1px solid"  | <br>'''''Non-IBM systems on IBM mainframes'''''
+|-
+| colspan="99" | &nbsp;&nbsp;[[Michigan Terminal System|Michigan Terminal System (MTS)]]
+|-
+| colspan="99" | &nbsp;&nbsp;[[MUSIC/SP]]
+|-
+| colspan="99" | &nbsp;&nbsp;[[ORVYL]]
+|-
+| colspan="99" style="border-bottom:1px solid" | <br>'''''The MULTICS/UNIX family'''''
+|-
+| colspan="99" | &nbsp;&nbsp;[[MULTICS]] > [[UNIX|UNIX family]] >> [[Linux]]<br>&nbsp;&nbsp;[[MULTICS]] > [[PRIMOS]] > [[Domain/OS]]<br>&nbsp;&nbsp;[[MULTICS]] >> [[Stratus VOS]]
+|-
+| colspan="99" style="border-bottom:1px solid" | <br>'''''[[Digital Equipment Corporation|DEC]] time-sharing systems'''''
+|-
+| colspan="99" | &nbsp;&nbsp;[[TOPS-10]] > [[TOPS-20#TENEX|TENEX]]&nbsp;>>&nbsp;[[TOPS-20]]
+|-
+| colspan="99" | &nbsp;&nbsp;[[RSTS/E]]
+|-
+| colspan="99" | &nbsp;&nbsp;[[RSX-11M]] >> [[VAX/VMS]] → [[OpenVMS|VMS]] → [[OpenVMS]]
+|-
+| colspan="99" | &nbsp;&nbsp;[[Dartmouth Time Sharing System]] (DTSS)
+|-
+| colspan="99" | &nbsp;&nbsp;[[Incompatible Timesharing System]] (ITS)
+|-
+|}
+
+==System descriptions and relationships==
+
+{| class="wikitable sortable" style="font-size: smaller; text-align: center; width: 100%; table-layout: fixed;"
+|+ Important time-sharing systems, 1960-1990 (and successors); listed alphabetically
+|-
+| colspan="6" | Influences:&nbsp;&nbsp;&nbsp;&nbsp;→ derivation&nbsp;&nbsp;&nbsp;&nbsp;>> strong influence&nbsp;&nbsp;&nbsp;&nbsp;> some influence/precedence
+|-
+! System
+! Platform
+! Dates in use
+! Developer
+! Description
+! Influences: ''from''<span style="font-size:small">→</span>&nbsp;&nbsp;&nbsp;<span style="font-size:small">→</span>''to''
+|-
+| [[Airlines Control Program|ACP]]
+| S/360 and S/370
+| 1965-1979
+| [[IBM]]
+| High-performance mainframe transaction platform used in [[Sabre (computer system)|SABRE]] and [[Programmed Airline Reservation System|PARS]]
+| → [[Transaction Processing Facility|TPF]] → [[z/TPF]]
+|-
+| [[APL (programming language)|APL]] ("A Programming Language," also "Iverson's Language")
+| [[System/360]], others later<ref>{{cite web |last1=McDonnell |first1=Eugene |title=The Socio-Technical Beginnings of APL |url=http://www.jsoftware.com/papers/eem/socio.htm |accessdate=18 January 2019}}</ref>
+| 1964–present
+| [[Kenneth E. Iverson|Kenneth Iverson]]
+| Mathematically-oriented language and interactive environment, noted for incredible terseness and powerful set processing operators
+|
+|-
+| [[Berkeley Timesharing System]]
+| [[SDS 940]]
+| 1964-1972
+| [[Project Genie]]
+| Early general-purpose
+| >> [[TOPS-20#TENEX|TENEX]]
+|-
+| Cambridge Multiple-Access System
+| [[Titan (1963 computer)|Titan]], the prototype [[Atlas (computer)|Atlas]] 2 
+| 1967-1973
+| [[University of Cambridge]] and [[Ferranti]]
+| Multiple Access System
+| [[Project MAC]]→ →[[UNIX]]
+|-
+| [[CANDE]]
+| [[Burroughs large systems]]
+| 1965?-present
+| Burroughs
+| first IDE
+| (separate evolution)
+|-
+| [[CICS]]
+| S/3x0
+| 1969–present
+| [[IBM]]
+| Ubiquitous mainframe transaction platform; often used with [[IBM 3270]] terminals and [[COBOL]]
+|
+|-
+| [[IBM CP-40|CP-40/CMS]]
+| customized S/360-40
+| 1967-1972?
+| IBM's [[Cambridge Scientific Center]]
+| First implementation of [[full virtualization]]
+| [[Compatible Time-Sharing System|CTSS]] ><br>→ [[CP-67]]
+|-
+| [[CP-67|CP-67/CMS]]
+| [[IBM System/360-67]]
+| 1967-1975?
+| [[Cambridge Scientific Center|IBM's Cambridge Scientific Center]]
+| Influential precursor to IBM's [[VM (operating system)|VM]] series, widely distributed as [[open source]]
+| [[IBM CP-40|CP-40]] →<br>→ [[VP/CSS]]<br>→ [[VM (operating system)|VM/370]] → [[z/VM]]
+|-
+| [[Compatible Time-Sharing System|CTSS]] ("Compatible Time Sharing System")
+| modified [[IBM 7094]]
+| 1961-1973
+| [[MIT]] Computation Center
+| First-generation "grandfather" of time-sharing systems
+| [[History of IBM mainframe operating systems#FORTRAN Monitor System|FMS]] > <br> >> [[IBM CP-40|CP-40]]<br> >> [[Multics]]<br> >> [[Incompatible Timesharing System|ITS]]<br> > [numerous other systems]
+|-
+| [[Dartmouth Time Sharing System|DTSS]] ("Dartmouth Time Sharing System")
+| [[GE-200 series|GE 200]]
+| 1964-1999
+| [[Dartmouth College]]
+| Early time-sharing system running [[Dartmouth BASIC]] and other tools; the first commercial time-sharing system
+| [[History of IBM mainframe operating systems#FORTRAN Monitor System|FMS]] ><br> >> [[IBM CP-40|CP-40]]<br> >> [[Multics]]<br> >> [[Incompatible Timesharing System|ITS]]<br> > [numerous other systems]
+|-
+| [[Incompatible Timesharing System|ITS]] ("Incompatible Timesharing System")
+| [[PDP-6]], [[PDP-10]]
+| 1968?-1990
+| [[MIT Artificial Intelligence Laboratory]]
+| "Subversive" operating system developed to counter direction of [[Compatible Time-Sharing System|CTSS]], the original platform for [[Macsyma]], and other important applications
+| [[Compatible Time-Sharing System|CTSS]] ><br> > [numerous later systems]
+|-
+| [[Linux]]
+| ubiquitous
+| 1991–present
+| [[Linus Torvalds]], [[GNU project]], [[open source]]
+| Operating system dominating current open source activities
+| [[UNIX]] >><br>[[minix]] >><br> > [numerous other systems]
+|-
+| [[Microsoft Windows]]
+| [[x86]], [[IA-64]], others
+| 1985–present
+| [[Microsoft]]
+| Ubiquitous GUI operating system
+| [[MS-DOS]] >><br>[[OS/2]] >><br>[[OpenVMS|VMS]] >><br>[[Smalltalk]] >>
+|-
+| [[Michigan Terminal System|MTS (Michigan Terminal System)]]
+| [[IBM System/360 Model 67|IBM S/360-67]], [[S/370]]
+| 1967-1999
+| [[Michigan Terminal System#MTS Consortium|University of Michigan and 7 other universities]]
+| First (Nov. 1967) OS to use the [[virtual memory]] features of the [[IBM System/360 Model 67|S/360-67]]. Early (Sept. 1968) S/360-67 [[multiprocessing|multiprocessor]] support.
+| [[Compatible Time-Sharing System|CTSS]] ><br>[[Dartmouth Time Sharing System|DTSS]] ><br> > [[UNIX]] (BSD)
+|-
+| [[MULTICS]]
+| [[GE 645]]
+| 1969-2000
+| [[Project MAC]]
+| Rich, important system
+| [[Compatible Time-Sharing System|CTSS]] >><br> >> [[UNIX]]<br> >> [many other systems]
+|-
+| [[Time Sharing Option|MVS/TSO]]
+| [[System/370]] and successors
+| 1971–present
+| [[IBM]]
+| Probably the most widely used version of TSO,<br>extended version TSO/E,<br>current version zOS-TSO
+| [[Compatible Time-Sharing System|CTSS]] ><br>[[TSS/360]] > <br>→ z/OS-TSO
+|-
+| [[NOS (software)|NOS]]
+| CDC 60-bit platforms
+| 1976-??
+| [[Control Data Corporation]]
+| System used on most CDC machines<ref>[http://bitsavers.org/pdf/cdc/cyber/CDC_Operating_System_History_Mar76.pdf "A partial history of CDC Operating Systems"], March 1976</ref>
+| MACE >→ [[CDC Kronos|Kronos]] >>
+|-
+| [[CDC SCOPE#SCOPE for the CDC 6000 series|NOS/BE]]
+| CDC 60-bit platforms
+| 1976-??
+| [[Control Data Corporation]]
+| System used on most CDC machines<ref>[http://bitsavers.org/pdf/cdc/cyber/CDC_Operating_System_History_Mar76.pdf "A partial history of CDC Operating Systems"], March 1976</ref>
+| [[Chippewa Operating System|COS]] → [[CDC SCOPE#SCOPE for the CDC 6000 series|SCOPE]]   >→
+
+|-
+| [[ORVYL and WYLBUR|ORVYL]]
+| [[IBM 9672]]
+| 1967-??
+| [[Stanford University]]
+| Early time-sharing system; source of the [[ORVYL and WYLBUR|WYLBUR]] editor later used on [[System/370]] platforms
+|
+|-
+| [[OS/2]]
+| [[x86]]
+| 1987–present
+| [[IBM]]/[[Microsoft]]
+| Joint OS effort, now moribund. Still available as [[eComStation]] and [[ArcaOS]].
+| [[IBM PC DOS|DOS]] → Microsoft Windows >> OS/2<br>→ eComStation<br>→ ArcaOS 5.0
+|-
+| ROSCOE
+| [[System/360]] and successors
+| 1969-??
+| [[Applied Data Research]] (ADR)
+| Early time-sharing editor environment, often used as an alternative to TSO<ref>[http://archive.computerhistory.org/resources/access/text/Oral_History/102658239.05.01.acc.pdf ''Oral History of Martin A. Goetz''] {{Webarchive|url=https://web.archive.org/web/20120324211926/http://archive.computerhistory.org/resources/access/text/Oral_History/102658239.05.01.acc.pdf |date=2012-03-24 }}, co-founder of [[Applied Data Research]] (ADR), interviewed by: Burt Grad and Luanne Johnson, December 10, 1985 at Princeton, New Jersey, Computer History Museum Reference No. X4579.2008</ref>
+| → WRAP
+|-
+| [[RSTS/E]]
+| [[PDP-11]]
+| 1972-1992+
+| [[Digital Equipment Corporation|DEC]]
+| General-purpose time-sharing for the PDP-11
+|
+|-
+| [[RSX-11]]
+| [[PDP-11]]
+| 1972-??
+| [[Digital Equipment Corporation|DEC]]
+| Real-time operating system for the PDP-11
+| → IAS<br> >> [[OpenVMS|VMS]]
+|-
+| [[Smalltalk]]
+| [[Xerox Alto]], later made portable
+| 1972–present
+| [[Xerox PARC]], successors
+| Seminal system for experimental programming, responsible for many modern user interface concepts
+| >> [[Apple Lisa]]<br> >> [[Apple Macintosh]]<br> >> [[Microsoft Windows]]<br> >> [all GUI platforms]
+|-
+| [[Stratus VOS]]
+| [[Intel i860|i860]], [[x86]], [[PA-RISC]], [[68k]]
+| 1980?-present
+| [[Stratus Technologies]]
+| [[High-availability]] [[fault-tolerant]] [[transaction processing]]
+| [[MULTICS]] >>
+|-
+| [[TOPS-20#TENEX|TENEX]]
+| [[PDP-10]]
+| 1970?-??
+| [[BBN Technologies|Bolt Beranek and Newman]]
+| Influential system widely used at research and government sites
+| >> [[TOPS-20]]<br> >> [[OpenVMS|VMS]]
+|-
+| [[TOPS-10]]
+| [[PDP-10]]
+| 1970-1988? (as TOPS-10)<br>1964-1970 (as PDP-6 Monitor)
+| [[Digital Equipment Corporation|DEC]]
+| Widely used at research and academic sites
+| PDP-6 Monitor →<br> > [[TOPS-20#TENEX|TENEX]]<br> >> [[CP/M]]
+|-
+| [[TOPS-20]]
+| [[DECSYSTEM-20|DECsystem 20]]
+| 1976-??
+| [[Digital Equipment Corporation|DEC]]
+| Successor to [[TOPS-10]] but more like [[TOPS-20#TENEX|TENEX]]
+| [[TOPS-20#TENEX|TENEX]] ><br>[[TOPS-10]] >
+|-
+| [[Transaction Processing Facility|TPF]]
+| S/3x0
+| 1979–present (TPF)<br>2005–present(z/TPF)
+| [[IBM]]
+| High-performance mainframe transaction platform, successor to [[Airlines Control Program|ACP]], still available as z/TPF
+| [[Airlines Control Program|ACP]] →<br>→ [[z/TPF]]
+|-
+| [[TSS-8]]
+| [[PDP-8]]
+| 1967–??
+| [[Digital Equipment Corporation|DEC]]
+| Simple minicomputer OS
+| > [[RSTS/E]]
+|-
+| [[TSS/360]]<br>TSS/370
+| [[IBM System/360-67]] and successors
+| 1967-1971?
+| [[IBM]]
+| IBM's original "official" time-sharing system; not a success
+| [[Compatible Time-Sharing System|CTSS]] ><br>→ TSS/370
+|-
+| [[Unisys]]/[[UNIVAC]] [[EXEC 8]]
+| [[UNIVAC 1108]] <br> and successors
+| 1964–present
+| [[Sperry Corporation|Sperry-Rand]] et al.
+| Many universities <br>and government agencies were early users
+| [[EXEC 8]] → OS 1100 →<br> [[OS 2200]]
+|-
+| [[UNIX]] and derivative systems
+| ubiquitous
+| 1969–present
+| [[Bell Laboratories]] and successors
+| Ultimately dominated operating system thought, in both proprietary and open-source descendants
+| [[Multics]] >><br> >> [[Linux]]
+|-
+| [[VM/370]]<br>VM/SE<br>VM/SP
+| [[System/370]] and successors
+| 1972-1988<br>2000–present ([[z/VM]])
+| [[IBM]]
+| Proprietary reimplementation of [[CP/CMS]], still available as [[z/VM]]
+| [[IBM CP-40|CP-40]] → [[CP-67]] →<br>→ [[VM/ESA]] → [[z/VM]]
+|-
+| [[OpenVMS|VMS and OpenVMS]]
+| [[VAX/VMS]], [[IA-64]], [[DEC Alpha]]
+| 1977–present
+| [[Digital Equipment Corporation|DEC]]
+| Popular DEC operating system
+| [[TOPS-20#TENEX|TENEX]] > <br>[[RSX-11M]] >> <br> >> [[Windows NT]]<br> >> [[OS/2]]
+|-
+| [[VP/CSS]]
+| [[IBM System/360-67]], [[System/370]] and successors
+| 1968-1986?
+| [[National CSS]]
+| Proprietary fork of [[CP/CMS]] developed by a time-sharing vendor
+| [[CP/CMS]] →
+|-
+| [[ORVYL and WYLBUR|WYLBUR]]
+| [[System/370]] and successors
+| 1967-2009?
+| [[Stanford University]]
+| Popular editor system originally from [[ORVYL and WYLBUR|ORVYL]], used under OS/VS as an alternative to TSO
+| → SuperWylbur
+|}
+
+==See also==
+*[[History of CP/CMS]] has many period details and sources.
+*[[Timeline of operating systems]]
+
+==References==
+{{reflist}}
+
+[[Category:History of software]]
+[[Category:Time-sharing operating systems| Time-sharing system evolution]]

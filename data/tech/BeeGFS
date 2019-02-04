@@ -1,0 +1,97 @@
+{{advert|date=August 2018}}
+{{Infobox software
+| name = BeeGFS
+| logo = BeeGFS-Logo.png
+| developer = [[Fraunhofer Society|Fraunhofer]] ITWM, ThinkParQ
+| latest release version = 7.0<ref>{{Cite web |title=Latest stable BeeGFS release |date= May 29, 2018  |url= http://www.beegfs.io/download/latest-release/ |accessdate= Aug 23, 2018}}</ref>
+| latest release date = May 29, 2018
+| operating system = [[Linux]]
+| genre = [[Distributed file system]]
+| website = {{URL|beegfs.io}}
+}}
+
+'''BeeGFS''' (formerly FhGFS) is an open source [[parallel file system]], developed and optimized for [[high-performance computing]]. BeeGFS includes a distributed metadata architecture for scalability and flexibility reasons. Its most important aspect is data throughput.
+
+BeeGFS was originally developed at the [[Fraunhofer Society|Fraunhofer]] Center for High Performance Computing in [[Germany]] by a team around Sven Breuner,<ref>{{Cite web|url=https://www.clustermonkey.net/FileSystems/fhgfs-a-fast-and-scalable-parallel-filesystem-crafted-in-germany.html|title=FhGFS: A Fast and Scalable Parallel Filesystem {{!}} FileSystems {{!}} Columns|website=www.clustermonkey.net|access-date=2019-01-13}}</ref> who later became the CEO of ThinkParQ, the spin-off company that was founded in 2014 to maintain BeeGFS and offer professional services.
+
+The software can be downloaded and used free of charge from the project's website.<ref>
+{{ cite web
+| title = BeeGFS End-User License Agreement (EULA)
+| url = http://www.beegfs.io/docs/BeeGFS_EULA.txt
+| publisher = Fraunhofer ITWM
+| date = February 22, 2012
+| accessdate = March 15, 2014
+}}
+</ref>
+
+==History & usage==
+BeeGFS started in 2005 as an in-house development at Fraunhofer Center for [[High Performance Computing|HPC]] to replace the existing file system on the institute's new compute cluster and to be used in a production environment.
+
+In 2007, the first beta version of the software was announced during ISC07 in Dresden, Germany and introduced to the public during SC07 in Reno, NV. One year later the first stable major release became available.
+
+In 2014, Fraunhofer started its spin-off, the new company called ThinkParQ<ref>{{cite web|title=ThinkParQ website|url=http://www.thinkparq.com|accessdate=March 17, 2014}}</ref> for BeeGFS. In this process, FhGFS was renamed and became BeeGFS®.<ref>{{cite web|title=Fraunhofer to Spin Off Renamed BeeGFS File System|url=http://insidehpc.com/2014/03/13/fraunhofer-spin-renamed-beegfs-file-system/|work=insideHPC|accessdate=March 17, 2014|author=Rich Brueckner|date=March 13, 2014}}</ref> While ThinkParQ maintains the software and offers professional services, further feature development will continue in cooperation of ThinkParQ and Fraunhofer.
+
+Due to the nature of BeeGFS being free of charge, it is unknown how many active installations there are. However, in 2014 there were already around 100 customers worldwide that used BeeGFS with commercial support by ThinkParQ and Fraunhofer. Among those are academic users such as universities and research facilities<ref>{{cite web|title=FraunhoferFS High-Performance Parallel File System |url=http://www.clustervision.com/eNews/Nov2012/Technology/Fraunhofer |work=ClusterVision eNews |accessdate=March 17, 2014 |date=November 2012 |deadurl=yes |archiveurl=https://web.archive.org/web/20140317231314/http://www.clustervision.com/eNews/Nov2012/Technology/Fraunhofer |archivedate=March 17, 2014 |df= }}</ref>  as well as commercial companies in fields like the finance or the oil & gas industry.
+
+Notable installations include several [[TOP500]] computers such as the Loewe-CSC<ref>{{cite web|title=... And Fraunhofer|url=http://www.storagenewsletter.com/rubriques/business-others/fraunhofer-goethe-university-of-frankfurt-hpc/|work=StorageNewsletter.com|accessdate=March 17, 2014|date=June 18, 2010}}</ref> cluster at the [[Goethe University Frankfurt]], Germany (#22 on installation), the Vienna Scientific Cluster<ref>{{cite web|title=VSC-2|url=http://www.top500.org/system/177280|work=Top500 List|accessdate=March 17, 2014|date=June 20, 2011}}</ref> at the [[University of Vienna]], Austria (#56 on installation), and the Abel<ref>{{cite web|title=Abel|url=
+http://www.top500.org/system/177801|work=Top500 List|accessdate=March 17, 2014|date=June 18, 2012}}</ref> cluster at the [[University of Oslo]], Norway (#96 on installation).
+
+==Key concepts & features==
+When developing BeeGFS, Fraunhofer aimed for three key concepts with the software: scalability, flexibility and good usability.
+
+BeeGFS runs on any Linux machine and consists of several components that include services for clients, metadata servers and storage servers. In addition, there is a service for the management host as well as one for a graphical administration and monitoring system.
+
+<gallery mode="nolines" widths="344" heights="433">
+File:Beegfs-architecture-overview.png|BeeGFS System Overview
+</gallery><ref>{{Cite web|url=https://www.beegfs.io/content/|title=BeeGFS - The Leading Parallel Cluster File System|website=BeeGFS|language=en-US|access-date=2017-12-07}}</ref>
+
+To run BeeGFS, at least one instance of the metadata server and the storage server is required. But BeeGFS allows multiple instances of each service to distribute the load from a large number of clients. The scalability of each component makes sure the system itself is scalable.
+
+File contents are distributed over several storage servers using striping, i.e. each file is split into chunks of a given size and these chunks are distributed over the existing storage servers. The size of these chunks can be defined by the file system administrator. In addition, also the metadata is distributed over several metadata servers on a directory level, with each server storing a part of the complete file system tree. This approach allows fast access on the data.
+
+Clients as well as metadata or storage servers can be added into an existing system without any downtime. The client itself is a lightweight kernel module that does not require any kernel patches. The servers run on top of an existing local file system. There are no restrictions to the type of underlying file system as long as it supports [[POSIX]]; recommendations are to use ext4 for the metadata servers and XFS for the storage servers. Both servers run in userspace.
+
+Also there is no strict requirement for dedicated hardware for individual services. The design allows a file system administrator to start the services in any combination on a given set of machines and expand in the future. A common way among BeeGFS users to take advantage of this is combining metadata servers and storage servers on the same machines.
+
+BeeGFS supports various network-interconnects with dynamic failover such as Ethernet or Infiniband as well as many different Linux distributions and kernels (from 2.6.16 to the latest vanilla).
+The software has a simple setup and startup mechanism using init scripts. For users who prefer a graphical interface over command lines, a Java-based GUI (AdMon) is available. The GUI provides monitoring of the BeeGFS state and management of system settings. Besides managing and administrating the BeeGFS installation, this tool also offers a couple of monitoring options to help identifying performance issues within the system.
+
+===BeeGFS on-demand===
+BeeGFS on-demand (''BeeOND'') allows the creation of BeeGFS file system instances on a set of nodes with one single command line. Possible use cases for the tool are manifold; a few include setting up a dedicated parallel file system for a cluster job (often referred to as ''burst-buffering''), cloud computing or for fast and easy temporary setups for testing purposes.
+
+==Benchmarks==
+The following benchmarks have been performed on Fraunhofer Seislab, a test and experimental cluster at Fraunhofer ITWM with 25 nodes (20 compute + 5 storage) and a three tier memory: 1 TB RAM, 20 TB SSD, 120 TB HDD. Single node performance on the local file system without BeeGFS is 1,332 MB/s (write) and 1,317 MB/s (read).
+
+The nodes are equipped with 2x Intel Xeon X5660, 48 GB RAM, 4x Intel 510 Series SSD (RAID 0), Ext4, QDR Infiniband and run Scientific Linux 6.3, Kernel 2.6.32-279 and FhGFS 2012.10-beta1.
+
+<gallery mode="nolines" widths="400px" heights="325px">
+FhGFS_read_write_throughput_benchmark.png|Read/Write Throughput
+FhGFS_file_create_benchmark.png|File Creates
+FhGFS_iops_benchmark.png|IOPS
+</gallery>
+
+==BeeGFS and exascale==
+Fraunhofer ITWM is participating in the Dynamic-Exascale Entry Platform – Extended Reach (DEEP-ER) project of the European Union,<ref>{{cite web|title=DEEP-ER Project Website|url=http://www.deep-er.eu/project/partners|accessdate=March 17, 2014}}</ref> which addresses the problems of the growing gap between compute speed and I/O bandwidth, and system resiliency for large-scale systems.
+
+Some of the aspects that BeeGFS developers are working on under the scope of this project are:
+*support for tiered storage,
+*POSIX interface extensions,
+*fault tolerance and high availability (HA), and
+*improved monitoring and diagnostic tools.
+
+The plan is to keep the POSIX interface for backward compatibility but also allow applications more control over how the file system handles things like data placement and coherency through API extensions.
+
+==See also==
+*[[Distributed file system]]
+*[[List of file systems#Distributed parallel file systems|List of file systems, the distributed parallel file system section]]
+
+==References==
+{{Reflist|30em}}
+
+{{File systems}}
+
+{{DEFAULTSORT:Fhgfs}}
+[[Category:Cluster computing]]
+[[Category:Distributed file systems supported by the Linux kernel]]
+[[Category:Network file systems]]
+[[Category:Distributed file systems]]

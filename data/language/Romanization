@@ -1,0 +1,487 @@
+{{Other uses|Romanization (disambiguation)|Latinisation (disambiguation)}}
+{{External links|date=June 2015}}
+[[File:Gwoyu.svg|thumb|upright=0.7|Languages can be romanized in a number of ways, as shown here with [[Standard Chinese|Mandarin Chinese]]]]
+
+'''Romanization''' or '''romanisation''', in [[linguistics]], is the conversion of writing from a different [[writing system]] to the [[Latin script|Roman (Latin) script]], or a system for doing so. Methods of romanization include [[transliteration]], for representing written text, and [[transcription (linguistics)|transcription]], for representing the spoken word, and combinations of both. Transcription methods can be subdivided into ''[[phonemic orthography|phonemic]] transcription'', which records the [[phonemes]] or units of [[semantic]] meaning in speech, and more strict ''[[phonetic transcription|phonetic]] transcription'', which records speech sounds with precision.
+
+==Methods==
+There are many consistent or [[standardized]] romanization systems. They can be classified by their characteristics. A particular system’s characteristics may make it better-suited for various, sometimes contradictory applications, including document retrieval, linguistic analysis, easy readability, faithful representation of pronunciation.
+* Source, or donor language – A system may be tailored to romanize text from a particular language, or a series of languages, or for any language in a particular writing system. A language-specific system typically preserves language features like pronunciation, while the general one may be better for cataloguing international texts.
+* Target, or receiver language – Most systems are intended for an audience that speaks or reads a particular language. (So-called ''international'' romanization systems for Cyrillic text are based on central-European alphabets like the [[Czech alphabet|Czech]] and [[Croatian alphabet]].)
+* Simplicity – Since the basic [[Latin alphabet]] has a smaller number of letters than many other writing systems, [[digraph (orthography)|digraphs]], [[diacritics]], or special characters must be used to represent them all in Latin script. This affects the ease of creation, digital storage and transmission, reproduction, and reading of the romanized text.
+* Reversibility – Whether or not the original can be restored from the converted text. Some reversible systems allow for an irreversible simplified version.
+
+===Transliteration===
+{{Main|Transliteration}}
+If the romanization attempts to transliterate the original script, the guiding principle is a one-to-one mapping of characters in the source language into the target script, with less emphasis on how the result sounds when pronounced according to the reader's language. For example, the [[Nihon-shiki]] romanization of [[Japanese language|Japanese]] allows the informed reader to reconstruct the original Japanese [[kana]] syllables with 100% accuracy, but requires additional knowledge for correct pronunciation.
+
+===Transcription===
+{{Main|Transcription (linguistics)}}
+
+====Phonemic====
+{{See also|Phonemic orthography}}
+Most romanizations are intended to enable the casual reader who is unfamiliar with the original script to pronounce the source language reasonably accurately. Such romanizations follow the principle of [[phonemic orthography|phonemic transcription]] and attempt to render the significant sounds ([[phoneme]]s) of the original as faithfully as possible in the target language. The popular [[Hepburn romanization]] of Japanese is an example of a transcriptive romanization designed for English speakers.
+
+====Phonetic====
+{{See also|Phonetic transcription}}
+A [[phonetic]] conversion goes one step further and attempts to depict all [[Phone (phonetics)|phones]] in the source language, sacrificing legibility if necessary by using characters or conventions not found in the target script. In practice such a representation almost never tries to represent ''every'' possible allophone—especially those that occur naturally due to [[coarticulation]] effects—and instead limits itself to the most significant allophonic distinctions. The [[International Phonetic Alphabet]] is the most common system of phonetic transcription.
+
+===Tradeoffs===
+For most language pairs, building a usable romanization involves tradeoffs between the two extremes. Pure transcriptions are generally not possible, as the source language usually contains sounds and distinctions not found in the target language, but which must be shown for the romanized form to be comprehensible. Furthermore, due to [[wikt:diachronic|diachronic]] and [[wikt:synchronic|synchronic]] variance no [[written language]] represents any [[spoken language]] with perfect accuracy and the vocal interpretation of a [[Writing system|script]] may vary by a great degree among languages. In modern times the chain of transcription is usually spoken foreign language, written foreign language, written native language, spoken (read) native language. Reducing the number of those processes, i.e. removing one or both steps of writing, usually leads to more accurate oral articulations. In general, outside a limited audience of scholars, romanizations tend to lean more towards transcription. As an example, consider the Japanese martial art 柔術: the Nihon-shiki romanization ''zyûzyutu'' may allow someone who knows Japanese to reconstruct the kana syllables {{nowrap|じゅうじゅつ}}, but most native English speakers or rather readers would find it easier to guess the pronunciation from the Hepburn version, ''[[jujutsu|jūjutsu]]''.
+
+==Romanization of specific writing systems==
+:''The below listing may be incomplete, see also [[:Category:Romanization]]''
+
+===Arabic===
+{{Main|Romanization of Arabic}}
+The [[Arabic alphabet]] is used to write [[Arabic language|Arabic]], [[Persian language|Persian]],  [[Urdu]]  and [[Pashto language|Pashto]] as well as numerous other languages in the Muslim world, particularly [[Languages of Africa|African]] and [[Languages of Asia|Asian]] languages without alphabets of their own. Romanization standards include the following:
+* [[Deutsche Morgenländische Gesellschaft]] (1936): Adopted by the International Convention of Orientalist Scholars in Rome. It is the basis for the very influential [[Dictionary of Modern Written Arabic|Hans Wehr dictionary]] ({{ISBN|0-87950-003-4}}).<ref>{{cite web|url=http://www.dmg-web.de/ |title=Deutsche Morgenländische Gesellschaft |publisher=Dmg-web.de |date= |accessdate=2015-07-02}}</ref>
+* [[BS 4280]] (1968): Developed by the [[British Standards Institution]]<ref>{{cite web|url=http://www.bsi-global.com/index.xalter |title=Standards, Training, Testing, Assessment and Certification &#124; BSI Group |publisher=Bsi-global.com |date= |accessdate=2013-04-25}}</ref>
+* [[SATTS]] (1970s): A one-for-one substitution system, a legacy from the [[Morse code]] era
+* [[UNGEGN]] (1972)<ref>{{cite web|url=http://www.eki.ee/wgrs/rom1_ar.pdf |format=PDF |title=Arabic |publisher=Eki.ee |accessdate=2015-07-02}}</ref>
+* [[DIN 31635]] (1982): Developed by the [[Deutsches Institut für Normung]] (German Institute for Standardization)
+* [[ISO 233]] (1984). Transliteration.
+* [[Qalam]] (1985): A system that focuses upon preserving the spelling, rather than the pronunciation, and uses mixed case<ref>{{cite web |url=http://eserver.org/langs/qalam.txt |format=TXT |title=Qalam: A Convention for Morphological rabic-Latin-Arabic Transliteration |publisher=Eserver.org |accessdate=2015-07-02 |deadurl=yes |archiveurl=https://web.archive.org/web/20090208143407/http://eserver.org/langs/qalam.txt |archivedate=2009-02-08 |df= }}</ref>
+* [[ISO 233-2]] (1993): Simplified transliteration.
+* [[Buckwalter transliteration]] (1990s): Developed at [[Xerox]] by [[Tim Buckwalter]];<ref>{{cite web|url=http://www.qamus.org/transliteration.htm |title=Buckwalter Arabic Transliteration |publisher=Qamus.org |date= |accessdate=2013-04-25}}</ref> doesn't require unusual [[diacritic]]s<ref>{{cite web |url=http://www.xrce.xerox.com/competencies/content-analysis/arabic/info/buckwalter-about.html |archive-url=https://web.archive.org/web/20020424194140/http://www.xrce.xerox.com/competencies/content-analysis/arabic/info/buckwalter-about.html |dead-url=yes |archive-date=2002-04-24 |title=Open Xerox: arabic-morphology Service Home Page |publisher=Xrce.xerox.com |date=2010-11-22 |accessdate=2013-04-25 }}</ref>
+* [[ALA-LC romanization|ALA-LC]] (1997)<ref>{{cite web|url=https://www.loc.gov/catdir/cpso/romanization/arabic.pdf |format=PDF |title=Arabic |publisher=Loc.gov |accessdate=2015-07-02}}</ref>
+* [[Arabic chat alphabet]]
+
+===Persian===
+{{Main|Romanization of Persian}}
+
+{{See also|Category:Persian orthography}}
+
+===Armenian===
+{{Main|Romanization of Armenian}}
+{{expand section|date=June 2015}}
+
+===Georgian===
+{{Main|Romanization of Georgian}}
+{{expand section|date=June 2015}}
+
+===Greek===
+{{Main|Romanization of Greek}}
+There are romanization systems for both [[Modern Greek|Modern]] and [[Ancient Greek]].
+* [[ALA-LC romanization|ALA-LC]]<ref>{{cite web|url=https://www.loc.gov/catdir/cpso/romanization/greek.pdf |format=PDF |title=Greek |publisher=Loc.gov |accessdate=2015-07-02}}</ref>
+* [[Beta Code]]<ref>[http://www.tlg.uci.edu/BCM2004.pdf ] {{webarchive |url=https://web.archive.org/web/20060129172716/http://www.tlg.uci.edu/BCM2004.pdf |date=January 29, 2006 }}</ref>
+* [[Greeklish]]
+* [[ISO 843]] (1997)<ref>[http://www.biology.uoc.gr/gvd/contents/databases/01c.htm ] {{webarchive |url=https://web.archive.org/web/20041210021506/http://www.biology.uoc.gr/gvd/contents/databases/01c.htm |date=December 10, 2004 }}</ref>
+
+===Hebrew===
+{{Main|Romanization of Hebrew}}
+The [[Hebrew alphabet]] is romanized using several standards:
+* [[American National Standards Institute|ANSI]] Z39.25 (1975)
+* [[UNGEGN]] (1977)<ref>{{cite web|url=http://www.eki.ee/wgrs/rom1_he.pdf |format=PDF |title=Hebrew |publisher=Eki.ee |accessdate=2015-07-02}}</ref>
+* [[ISO 259]] (1984): Transliteration.
+* [[ISO 259-2]] (1994): Simplified transliteration.
+* [[ISO/DIS 259-3]]: Phonemic transcription.
+* [[ALA-LC romanization|ALA-LC]]<ref>{{cite web|url=https://www.loc.gov/catdir/cpso/romanization/hebrew.pdf |format=PDF |title=Hebrew and Yiddish |publisher=Loc.gov |accessdate=2015-07-02}}</ref>
+
+===Indic (Brahmic) scripts===
+{{See also|Devanagari transliteration|Romanization of Bengali|Romanization of Malayalam}}
+
+The [[Brahmic family]] of [[abugida]]s is used for languages of the Indian subcontinent and south-east Asia. There is a long tradition in the west to study [[Sanskrit]] and other Indic texts in Latin transliteration. Various transliteration conventions have been used for Indic scripts since the time of Sir William Jones.<ref>{{cite web |author=Gabriel Pradīpaka |url=http://www.sanskrit-sanscrito.com.ar/english/sanskrit/sanskrit3part2.html |archive-url=https://web.archive.org/web/20040315080622/http://www.sanskrit-sanscrito.com.ar/english/sanskrit/sanskrit3part2.html |dead-url=yes |archive-date=2004-03-15 |title=A comparison of some of them |publisher=Sanskrit-sanscrito.com.ar |date= |accessdate=2013-04-25 }}</ref>
+* [[ISO 15919]] (2001): A standard [[transliteration]] convention was codified in the ISO 15919 standard. It uses [[diacritic]]s to map the much larger set of Brahmic [[consonant]]s and [[vowel]]s to the Latin script. See also Transliteration of Indic scripts: how to use ISO 15919.<ref>{{cite web|url=http://homepage.ntlworld.com/stone-catend/trind.htm |title=Transliteration of Indic scripts: How to use ISO 15919 |publisher=Homepage.ntlworld.com |date= |accessdate=2013-04-25}}</ref>  The Devanagari-specific portion is very similar to the academic standard, [[IAST]]: "International Alphabet of Sanskrit Transliteration", and to the United States Library of Congress standard, [[ALA-LC romanization|ALA-LC]],<ref>{{cite web|url=https://www.loc.gov/catdir/cpso/romanization/hindi.pdf |format=PDF |title=Hindi |publisher=Loc.gov |accessdate=2015-07-02}}</ref> although there are a few differences
+* The [[National Library at Kolkata romanization]], intended for the romanization of all [[Brahmic family|Indic scripts]], is an extension of [[IAST]]
+* [[Harvard-Kyoto]]: Uses upper and lower case and doubling of letters, to avoid the use of diacritics, and to restrict the range to 7-bit ASCII.
+* [[ITRANS]]: a transliteration scheme into 7-bit ASCII created by [[Avinash Chopde]] that used to be prevalent on [[Usenet]].
+* [[ISCII]] (1988)
+
+==== Devanagari–nastaʿlīq (Hindustani) ====
+[[Hindustani language|Hindustani]] is an [[Indo-Aryan language]] with extreme [[digraphia]] and [[diglossia]] resulting from the [[Hindi–Urdu controversy]] starting in the 1800s. Technically, Hindustani itself is recognized by neither the language community nor any governments. Two [[Standard language|standardized]] [[Register (sociolinguistics)|registers]], [[Standard Hindi]] and [[Standard Urdu]], are recognized as [[official language]]s in India and Pakistan. However, in practice the situation is,
+* In Pakistan:  Standard (Saaf or Khaalis) Urdu is the "high" variety, whereas Hindustani is the "low" variety used by the masses (called Urdu, written in [[nastaʿlīq script]]).
+* In India, both Standard (Shuddh) Hindi and Standard (Saaf or Khaalis) Urdu are the "H" varieties (written in [[devanagari]] and nastaʿlīq respectively), whereas Hindustani is the "L" variety used by the masses and written in either devanagari or nastaʿlīq (and called 'Hindi' or 'Urdu' respectively).
+
+The digraphia renders any work in either script largely inaccessible to users of the other script, though otherwise Hindustani is a perfectly mutually intelligible language, essentially meaning that any kind of text-based [[open source]] collaboration is impossible among devanagari and nastaʿlīq readers.
+
+Initiated in 2011, the Hamari Boli Initiative<ref>{{cite web |url=http://www.hamariboli.com |title=hamariboli.co |publisher=Hamariboli.com |date=2011-06-15 |accessdate=2013-04-25 |deadurl=yes |archiveurl=https://web.archive.org/web/20130601231148/http://www.hamariboli.com/ |archivedate=2013-06-01 |df= }}</ref> is a full-scale open-source [[language planning]] initiative aimed at Hindustani script, style, status & lexical reform and modernization. One of primary stated objectives of Hamari Boli is to relieve Hindustani of the crippling devanagari–nastaʿlīq digraphia by way of romanization.<ref>[http://www.thenews.com.pk/Todays-News-4-84689-Hamari-boli-angraizon-ke-rasmul-khat-mein ''The News International'' - Dec 29, 2011] -- "Hamari Boli (our language) is perhaps one of the very first serious undertakings to explore, develop and encourage the growth of Roman script in the use of Urdu/Hindi language"</ref>
+
+===Chinese===
+{{Main|Romanization of Chinese}}
+
+Romanization of the [[Sinitic languages]], particularly [[Mandarin Chinese|Mandarin]], has proved a very difficult problem, although the issue is further complicated by political considerations. Because of this, many romanization tables contain Chinese characters plus one or more romanizations or [[Zhuyin]].
+
+====Mandarin====
+* [[ALA-LC romanization|ALA-LC]]: Used to be similar to Wade–Giles,<ref>{{cite web|url=https://www.loc.gov/catdir/cpso/romanization/chinese.pdf |format=PDF |title=Chinese |publisher=Loc.gov |accessdate=2015-07-02}}</ref> but converted to [[Hanyu Pinyin]] in 2000<ref>{{cite web|url=https://www.loc.gov/catdir/pinyin/romcover.html |title=New Chinese Romanization Guidelines |publisher=Loc.gov |date=1998-11-03 |accessdate=2013-04-25}}</ref>
+* [[EFEO]]. Developed by [[École française d'Extrême-Orient]] in the 19th century, used mainly in France.
+* [[Latinxua Sin Wenz]] (1926): Omitted tone sounds. Used mainly in the [[Soviet Union]] and [[Xinjiang]] in the 1930s. Predecessor of [[Hanyu Pinyin]].
+* [[Lessing-Othmer]]: Used mainly in Germany.
+* [[Postal romanization]] (1906): Early standard for international addresses
+* [[Wade–Giles]] (1892): Transliteration. Very popular from the 19th century until recently and continues to be used by some Western academics.
+* [[Yale romanization of Mandarin|Yale]] (1942): Created by the U.S. for battlefield communication and used in the influential Yale textbooks.
+* [[Legge romanization]]: Created by [[James Legge]], a Scottish missionary.
+
+=====Mainland China=====
+* [[Hanyu Pinyin]] (1958): In [[mainland China]], Hanyu Pinyin has been used officially to romanize [[Standard Chinese|Mandarin]] for decades, primarily as a linguistic tool for teaching the standardized language. The system is also used in other Chinese-speaking areas such as [[Singapore]] and parts of [[Taiwan]], and has been adopted by much of the international community as a standard for writing Chinese words and names in the Latin script. The value of Hanyu Pinyin in education in China lies in the fact that China, like any other populated area with comparable area and population, has numerous distinct [[Chinese dialect|dialects]], though there is just one common written language and one common standardized spoken form. (These comments apply to Romanization in general)
+* [[ISO 7098]] (1991): Based on Hanyu Pinyin.
+
+=====Taiwan=====
+{{Main|Chinese language romanization in Taiwan}}
+
+# [[Gwoyeu Romatzyh]] (GR, 1928–1986, in Taiwan 1945–1986; Taiwan used Japanese Romaji before 1945),
+# [[Mandarin Phonetic Symbols II]] (MPS II, 1986–2002),
+# [[Tongyong Pinyin]] (2002–2008),<ref name="taipei_times_2002-07-11">{{cite news |publisher=Taipei Times |date=2002-07-11 |title=Tongyong Pinyin the new system for romanization |url=http://www.taipeitimes.com/News/taiwan/archives/2002/07/11/147813}}</ref><ref name="peoples_daily_2002-07-12">{{cite news |work=People's Daily Online |date=2002-07-12 |title=Taiwan Authority Concerned Passes Tongyong Pinyin Scheme |url=http://english.peopledaily.com.cn/200207/12/print20020712_99598.html}}</ref> and
+# [[Hanyu Pinyin]] (since January 1, 2009).<ref name="taipei_times_2008-09-18">{{cite news |publisher=Taipei Times |date=2008-09-18 |title=Hanyu Pinyin to be standard system in 2009 |url=http://www.taipeitimes.com/News/taiwan/archives/2008/09/18/2003423528}}</ref><ref name="china_post_2008-09-18">{{cite news |work=The China Post |date=2008-09-18 |title=Gov't to improve English-friendly environment |url=http://www.chinapost.com.tw/taiwan/national/national%20news/2008/09/18/175155/Gov%27t-to.htm |deadurl=yes |archiveurl=https://web.archive.org/web/20080919054355/http://www.chinapost.com.tw/taiwan/national/national%20news/2008/09/18/175155/Gov%27t%2Dto.htm |archivedate=2008-09-19 |df= }}</ref>
+
+=====Singapore=====
+{{Main|Chinese language romanisation in Singapore}}
+
+====Cantonese====
+* [[Barnett–Chao]]
+* [[Canton Romanization|Guangdong]] (1960)
+* [[Hong Kong Government Cantonese Romanisation|Hong Kong Government]]
+* [[Jyutping]]
+* [[Meyer–Wempe]]
+* [[Sidney Lau]]
+* [[Yale romanization of Cantonese|Yale]] (1942)
+* [[Cantonese Pinyin]]
+
+=====Min Nan or Hokkien=====
+{{main|Romanization of Hokkien}}
+* [[Pe̍h-ōe-jī]] (POJ), once the ''de facto'' official script of the [[Taiwanese Minnan#Scripts and orthographies|Presbyterian Church in Taiwan]] (since the late 19th century). Technically this represented a largely phonemic transcription system, as [[Min Nan]] was not commonly written in Chinese.
+** ''See also [[Comparison of Hokkien writing systems]].''
+
+=====Teochew=====
+* [[Guangdong Romanization#Teochew|Guangdong]] (1960), for the distinct [[Teochew dialect|Teochew]] variety.
+
+====Min Dong====
+* [[Foochow Romanized]]
+
+===Japanese===
+{{Main|Romanization of Japanese}}
+Romanization (or, more generally, [[Roman letters]]) is called "[[rōmaji]]" in [[Japanese language|Japanese]]. The most common systems are:
+* [[Hepburn romanization|Hepburn]] (1867): transcription to Anglo-American practices, used in geographical names
+* [[Nihon-shiki romanization|Nihon-shiki]] (1885): transliteration. Also adopted as ([[ISO 3602 Strict]]) in 1989.
+* [[Kunrei-shiki romanization|Kunrei-shiki]] (1937): transliteration. Also adopted as ([[ISO 3602]]).
+* [[JSL romanization|JSL]] (1987): transcription. Named after the book ''Japanese: The Spoken Language'' by Eleanor Jorden.
+* [[ALA-LC romanization|ALA-LC]]: Similar to Modified Hepburn<ref>{{cite web |url=https://www.loc.gov/catdir/cpso/romanization/japanese.pdf |title=Japanese |publisher=Library of Congress |accessdate=2014-09-28}}</ref>
+* [[Wāpuro rōmaji|Wāpuro]]: ("word processor romanization") transliteration. Not strictly a system, but a collection of common practices that enables input of Japanese text.
+
+===Korean===
+{{Main|Romanization of Korean}}
+
+While romanization has taken various and at times seemingly unstructured forms, some sets of rules do exist:
+* [[McCune–Reischauer]] (MR; 1937?), the first transcription to gain some acceptance. A slightly changed version of MR was the official system for [[Korean language|Korean]] in [[South Korea]] from 1984 to 2000, and yet a different modification is still the official system in [[North Korea]]. Uses [[breve]]s, [[apostrophe]]s and [[Diaeresis (diacritic)|diereses]], the latter two indicating orthographic syllable boundaries in cases that would otherwise be ambiguous.<br>What is called MR may in many cases be any of a number of systems that differ from each other and from the original MR mostly in whether word endings are separated from the stem by a space, a hyphen or&nbsp;– according to McCune's and Reischauer's system&nbsp;– not at all; and if a hyphen or space is used, whether sound change is reflected in a stem's last and an ending's first consonant letter (e.g. ''pur-i'' vs. ''pul-i''). Although mostly irrelevant when transcribing uninflected words, these aberrations are so widespread that any mention of "McCune-Reischauer romanization" may not necessarily refer to the original system as published in the 1930s.
+** There is, for example, the [[ALA-LC romanization|ALA-LC]] / U.S. Library of Congress system, based on MR but with some deviations. Word division is addressed in detail, with a generous use of spaces to separate word endings from stems that is not seen in MR. Syllables of given names are always separated with a hyphen, which is expressly never done by MR. Sound changes are ignored more often than in MR. Distinguishes between '''‘''' and '''’'''.<ref>{{cite web|url=https://www.loc.gov/catdir/cpso/romanization/korean.pdf |format=PDF |title=Korean |publisher=Loc.gov |accessdate=2015-07-02}}</ref>
+
+Several problems with MR led to the development of the newer systems:
+* [[Yale romanization of Korean|Yale]] (1942): This system has become the established standard romanization for Korean among [[linguistics|linguists]]. Vowel length in old or dialectal pronunciation is indicated by a [[Macron (diacritic)|macron]]. In cases that would otherwise be ambiguous, orthographic syllable boundaries are indicated with a period. Indicates disappearance of consonants.
+* [[Revised Romanization of Korean]] (RR; 2000): Includes rules both for transcription and for transliteration. South Korea now officially uses this system that was approved in 2000. Road signs and textbooks were required to follow these rules as soon as possible, at a cost estimated by the government to be at least US$20 million. All road signs, names of railway and subway stations on line maps and signs etc. have been changed. The change has been either ignored or [[grandfather clause|grandfathered]] in some cases, notably the romanization of names and existing companies. RR is generally similar to MR, but uses no diacritics or apostrophes, and uses distinct letters for ㅌ/ㄷ (t/d), ㅋ/ㄱ (k/g), ㅊ/ㅈ (ch/j) and ㅍ/ㅂ (p/b). In cases of ambiguity, orthographic syllable boundaries were intended to be indicated with a [[hyphen]], but this is inconsistently applied in practice.
+* [[ISO/TR 11941]] (1996): This actually is two different standards under one name: one for North Korea (DPRK) and the other for South Korea (ROK). The initial submission to the ISO was based heavily on Yale and was a joint effort between both states, but they could not agree on the final draft.<ref>{{cite web|url=http://www.sori.org/hangul/romanizations.html#Roman_Intro |title=A superficial comparison between the two |publisher=Sori.org |date= |accessdate=2013-04-25}}</ref>
+* [[Fred Lukoff|Lukoff]] romanization, developed 1945–47 for his ''Spoken Korean'' coursebooks<ref>[http://www.glossika.com/en/dict/korpin.html ] {{webarchive |url=https://web.archive.org/web/20060214042244/http://www.glossika.com/en/dict/korpin.html |date=February 14, 2006 }}</ref>
+
+===Philippine languages===
+{{main|Filipino orthography}}
+Almost all [[Languages of the Philippines]] (including [[Tagalog language|Tagalog]], [[Ilokano language|Ilokano]], the [[Bicol languages]], [[Cebuano language|Cebuano]] and other [[Visayan languages]], [[Kapampangan language|Kapampangan]], and the [[Spanish-based creole languages|Spanish-based]] [[Creole language|creole]] [[Chavacano language|Chavacano]]) use the [[Filipino alphabet|Modern Filipino Alphabet]].
+
+When Spain colonised the Philippines in the late 16th century, the numerous languages of the Philippines were written in various scripts, such as [[Baybayin]]. These were initially promoted by the colonists but later replaced by Spanish transcriptions, which are still evident in place names and surnames. Letters such as [[C]], [[Ll]], and [[Ñ]] were considered Hispanic additions and removed in the ''[[Abakada]]'', an attempt at a more indigenous alphabet devised by [[Lope K. Santos]] in 1940. These were eventually superseded by the Pilipino Alphabet and by the 28-letter, Modern Filipino Alphabet, which adds Ñ and the native [[Ng (digraph)|Ng]] to the standard, 26-letter [[Latin alphabet]].
+
+While the Spanish language itself uses a very [[phonemic]] spelling, the romanised spelling created for Philippine languages is even more so. For example, the Spanish ''caballo'' ([kaˈβa.ʎo], "horse"), the same word in Tagalog is ''kabayo'' (demonstrating [[yeismo]] in the pronunciation of the Spanish "Ll" digraph).
+
+===Thai===
+{{main|Romanization of Thai}}
+[[Thai language|Thai]], spoken in [[Thailand]] and some areas of Laos, Burma and China, is written with [[Thai alphabet|its own script]], probably descended from mixture of Tai–Laotian and [[Old Khmer]], in the [[Brahmic family]].
+* [[Royal Thai General System of Transcription]]
+* [[ISO 11940]] 1998 Transliteration
+* [[ISO 11940-2]] 2007 Transcription
+* [[ALA-LC romanization|ALA-LC]] <ref>{{cite web|url=https://www.loc.gov/catdir/cpso/romanization/thai.pdf |format=PDF |title=Thai |publisher=Loc.gov |accessdate=2015-07-02}}</ref>
+
+===Cyrillic===
+In English language library catalogues, bibliographies, and most academic publications, the [[ALA-LC romanization for Russian|Library of Congress transliteration method]] is used worldwide.
+
+In linguistics, [[scientific transliteration]] is used for both [[Cyrillic script|Cyrillic]] and [[Glagolitic alphabet]]s. This applies to [[Old Church Slavonic]], as well as modern [[Slavic languages]] that use these alphabets.
+
+====Belarusian====
+{{Main|Romanization of Belarusian}}
+* [[BGN/PCGN romanization of Belarusian]], 1979 ([[United States Board on Geographic Names]] and [[Permanent Committee on Geographical Names for British Official Use]])
+* [[Scientific transliteration]], or the ''International Scholarly System'' for [[linguistics]]
+* [[ALA-LC romanization]], 1997 (American Library Association and Library of Congress):<ref>{{cite web|url=https://www.loc.gov/catdir/cpso/romanization/beloruss.pdf |format=PDF |title=Belarusian |publisher=Loc.gov |accessdate=2015-07-02}}</ref>
+* [[ISO 9]]:1995
+* ''[[Instruction on transliteration of Belarusian geographical names with letters of Latin script]]'', 2000
+
+{{See also|Belarusian Latin alphabet}}
+
+====Bulgarian====
+{{Main|Romanization of Bulgarian}}
+
+A system based on [[scientific transliteration]] and [[ISO/R 9:1968]] was considered official in Bulgaria since the 1970s. Since the late 1990s, Bulgarian authorities have switched to the so-called [[Romanization of Bulgarian#Streamlined System|Streamlined System]] avoiding the use of diacritics and optimized for compatibility with English. This system became mandatory for public use with a law passed in 2009.<ref>State Gazette # 19, Sofia, 13 March 2009. (in Bulgarian)</ref> Where the old system uses <č,š,ž,št,c,j,ă>, the new system uses <ch,sh,zh,sht,ts,y,a>.
+
+The new Bulgarian system was endorsed for official use also by UN in 2012,<ref>{{cite web|url=http://www.eki.ee/wgrs/rom1_bg.htm|title=UN Romanization of Bulgarian for Geographical Names (1977)|work=Eki.ee|accessdate=2015-06-27}}</ref> and by [[United States Board on Geographic Names|BGN]] and [[Permanent Committee on Geographical Names for British Official Use|PCGN]] in 2013.<ref>[http://earth-info.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf ] {{webarchive |url=https://web.archive.org/web/20071219024011/http://earth-info.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf |date=December 19, 2007 }}</ref>
+
+====Kyrgyz====
+{{Main|Romanization of Kyrgyz}}
+{{empty section|date=June 2015}}
+
+====Macedonian====
+{{Main|Romanization of Macedonian}}
+{{empty section|date=June 2015}}
+
+====Russian====
+{{Main|Romanization of Russian}}
+
+There is no single universally accepted system of writing [[Russian language|Russian]] using the Latin script—in fact there are a huge number of such systems: some are adjusted for a particular target language (e.g. German or French), some are designed as a librarian's transliteration, some are prescribed for Russian travellers' passports; the transcription of some names is purely traditional. &nbsp; All this has resulted in great reduplication of names. &nbsp; E.g. the name of the Russian composer [[Pyotr Ilyich Tchaikovsky|Tchaikovsky]] may also be written as ''Tchaykovsky'', ''Tchajkovskij'', ''Tchaikowski'', ''Tschaikowski'', ''Czajkowski'', ''Čajkovskij'', ''Čajkovski'', ''Chajkovskij'', ''Çaykovski'', ''Chaykovsky'', ''Chaykovskiy'', ''Chaikovski'', ''Tshaikovski'', ''Tšaikovski'', ''Tsjajkovskij'' etc. Systems include:
+* [[BGN/PCGN romanization|BGN/PCGN]] (1947): Transliteration system (United States Board on Geographic Names & Permanent Committee on Geographical Names for British Official Use).<ref>{{cite web |url=http://dspace.dial.pipex.com/town/avenue/vy75/cyrillic.htm |title=Cyrillic Translations |publisher=Dspace.dial.pipex.com |date= |accessdate=2013-04-25 |deadurl=yes |archiveurl=https://web.archive.org/web/20120716180905/http://dspace.dial.pipex.com/town/avenue/vy75/cyrillic.htm |archivedate=2012-07-16 |df= }}</ref>
+* [[GOST 16876-71]] (1971): A now defunct Soviet transliteration standard. Replaced by GOST 7.79, which is an [[ISO 9]] equivalent.
+* [[United Nations]] romanization system for geographical names (1987): Based on [[GOST 16876-71]].
+* [[ISO 9]] (1995): Transliteration. From the [[International Organization for Standardization]].
+* [[ALA-LC romanization|ALA-LC]] (1997)<ref>{{cite web|url=https://www.loc.gov/catdir/cpso/romanization/russian.pdf |format=PDF |title=Russian |publisher=Loc.gov |accessdate=2015-07-02}}</ref>
+* [[Volapuk encoding|"Volapuk" encoding]] (1990s): Slang term (it's not really [[Volapük]]) for a writing method that's not truly a transliteration, but used for similar goals (see article).
+* Conventional English transliteration is based to BGN/PCGN, but doesn't follow a particular standard. Described in detail at [[Romanization of Russian]].
+* Streamlined System<ref>{{cite web|author=Dimiter Dobrev |url=http://www.metodii.com/ru_Russian_Translit.html |title=Транслитерация |publisher=Metodii.com |date= |accessdate=2013-04-25}}</ref><ref>[https://web.archive.org/web/20070930163656/http://members.lycos.co.uk/rre/Russian.html Basic] and [http://russian-romanization.weebly.com/ Optimized] Romanization of Russian. 2006–2016.</ref> for the Romanization of Russian.
+* Comparative transliteration of Russian<ref>{{cite web|url=http://www.russki-mat.net/trans.htm |title=Транслитерация русского алфавита |publisher=Russki-mat.net |date= |accessdate=2013-04-25}}</ref> in different languages (Western European, Arabic, Georgian, Braille, Morse)
+
+====Syriac====
+{{Main|Syriac alphabet#Latin alphabet and romanization}}
+The Latin script for Syriac was developed in the 1930s, following the state policy for minority languages of the [[Soviet Union]], with some material published.<ref>S.P. Brock, "Three Thousand Years of Aramaic literature", in Aram,1:1 (1989)</ref>
+
+====Ukrainian====
+{{Main|Romanization of Ukrainian}}
+
+Ukrainian personal names are usually transcribed phonetically; see the main article section [[Romanization of Ukrainian#Conventional romanization of proper names|Conventional romanization of proper names]]. The Ukrainian National system is used for geographic names in Ukraine.
+* [[ALA-LC romanization|ALA-LC]]<ref>{{cite web|url=https://www.loc.gov/catdir/cpso/romanization/ukrainia.pdf |format=PDF |title=Ukrainian |publisher=Loc.gov |accessdate=2015-07-02}}</ref>
+* [[ISO 9]]
+* Ukrainian National transliteration<ref>[http://www.hostmaster.net.ua/docs/translit/tab_01.jpg ] {{webarchive |url=https://web.archive.org/web/20050307110826/http://www.hostmaster.net.ua/docs/translit/tab_01.jpg |date=March 7, 2005 }}</ref>
+* Ukrainian National and BGN/PCGN systems, at the UN Working Group on Romanization Systems<ref>{{cite web|url=http://www.eki.ee/wgrs/rom1_uk.pdf |format=PDF |title=Ukrainian |publisher=Eki.ee |accessdate=2015-07-02}}</ref>
+* Thomas T. Pedersen's comparison of five systems<ref>{{cite web|url=http://transliteration.eki.ee/pdf/Ukrainian.pdf |format=PDF |title=Ukrainian |publisher=Transliteration.eki.ee |accessdate=2015-07-02}}</ref>
+
+''See also:'' [[Ukrainian Latin alphabet]]
+
+==Overview and summary==
+The chart below shows the most common phonemic transcription romanization used for several different alphabets. While it is sufficient for many casual users, there are multiple alternatives used for each alphabet, and many exceptions. For details, consult each of the language sections above. (Hangul characters are broken down into [[jamo]] components.)
+
+{| class="wikitable sortable"
+|-
+! Romanized !! [[Greek language|Greek]] !! [[Russian language|Russian]] ([[Cyrillic]]) !! [[Hebrew language|Hebrew]] !! [[Arabic language|Arabic]] !!| [[Persian language|Persian]] !! [[Katakana]] !! [[Hangul]]
+|-
+| A || A || А || ַ, ֲ, ָ || َ, ا || ا, آ || ア || ㅏ
+|-
+| AE ||ΑΙ || || || || || || ㅐ
+|-
+| AI || || || י ַ || || || ||
+|-
+| B || ΜΠ, Β || Б || בּ || ﺏ ﺑ ﺒ ﺐ || ﺏ ﺑ || || ㅂ
+|-
+| C || Ξ || || || || || ||
+|-
+| CH || TΣ̈ || Ч || צ׳ || || چ || || ㅊ
+|-
+| CHI || || || || || || チ ||
+|-
+| D || ΝΤ, Δ || Д || ד || ﺩ&nbsp;— ﺪ, ﺽ ﺿ ﻀ ﺾ || د || || ㄷ
+|-
+| DH || Δ || || דֿ || ﺫ&nbsp;— ﺬ || || ||
+|-
+| DZ || ΤΖ || Ѕ || || || || ||
+|-
+| E || Ε, ΑΙ || Э ||, ֱ, י ֵֶ, ֵ, י ֶ || || || エ, ヱ || ㅔ
+|-
+| EO || || || || || || || ㅓ
+|-
+| EU || || || || || || || ㅡ
+|-
+| F || Φ || Ф || פ (or its final form ף ) || ﻑ ﻓ ﻔ ﻒ || ﻑ || ||
+|-
+| FU || || || || || || フ ||
+|-
+| G || ΓΓ, ΓΚ, Γ || Г || ג || || گ || || ㄱ
+|-
+| GH || Γ || Ғ || גֿ, עֿ || ﻍ ﻏ ﻐ ﻎ || ق غ || ||
+|-
+| H || Η || Һ || ח, ה || ﻩ ﻫ ﻬ ﻪ, ﺡ ﺣ ﺤ ﺢ || ه ح ﻫ || || ㅎ
+|-
+| HA || || || || || || ハ ||
+|-
+| HE || || || || || || ヘ ||
+|-
+| HI || || || || || || ヒ ||
+|-
+| HO || || || || || || ホ ||
+|-
+| I || Η, Ι, Υ, ΕΙ, ΟΙ || И, І || ִ, י ִ || دِ || || イ, ヰ || ㅣ
+|-
+| IY || || || || دِي || || ||
+|-
+| J || TZ̈ || ДЖ, Џ || ג׳ || ﺝ ﺟ ﺠ ﺞ || ج || || ㅈ
+|-
+|| JJ || || || || || || || ㅉ
+|-
+| K || Κ || К || כּ (or its final form ךּ ) || ﻙ ﻛ ﻜ ﻚ || ک || || ㅋ
+|-
+| KA || || || || || || カ ||
+|-
+| KE || || || || || || ケ ||
+|-
+| KH || X || Х || כ, חֿ (or its final form ך ) || ﺥ ﺧ ﺨ ﺦ || خ || ||
+|-
+| KI || || || || || || キ ||
+|-
+| KK || || || || || || || ㄲ
+|-
+| KO || || || || || || コ ||
+|-
+| KU || || || || || || ク ||
+|-
+| L || Λ || Л || ל || ﻝ ﻟ ﻠ ﻞ || ل || || ㄹ
+|-
+| M || Μ || М || מ (or its final form ם ) || ﻡ ﻣ ﻤ ﻢ || م || || ㅁ
+|-
+| MA || || || || || || マ ||
+|-
+| ME || || || || || || メ ||
+|-
+| MI || || || || || || ミ ||
+|-
+| MO || || || || || || モ ||
+|-
+| MU || || || || || || ム ||
+|-
+| N || Ν || Н || נ (or its final form ן ) || ﻥ ﻧ ﻨ ﻦ || ن || ン || ㄴ
+|-
+| NA || || || || || || ナ ||
+|-
+| NE || || || || || || ネ ||
+|-
+| NG || || || || || || || ㅇ
+|-
+| NI || || || || || || ニ ||
+|-
+| NO || || || || || || ノ ||
+|-
+| NU || || || || || || ヌ ||
+|-
+| O || Ο, Ω || О ||, ֳ, וֹֹ || || ُا || オ || ㅗ
+|-
+| OE || || || || || || || ㅚ
+|-
+| P || Π || П || פּ (or its final form ףּ ) || || پ || || ㅍ
+|-
+| PP || || || || || || || ㅃ
+|-
+| PS || Ψ || || || || || ||
+|-
+| Q || Θ || || ק || ﻕ ﻗ ﻘ ﻖ || غ ق || ||
+|-
+| R || Ρ || Р || ר || ﺭ&nbsp;— ﺮ || ر || || ㄹ
+|-
+| RA || || || || || || ラ ||
+|-
+| RE || || || || || || レ ||
+|-
+| RI || || || || || || リ ||
+|-
+| RO || || || || || || ロ ||
+|-
+| RU || || || || || || ル ||
+|-
+| S || Σ || С || ס, שׂ || ﺱ ﺳ ﺴ ﺲ, ﺹ ﺻ ﺼ ﺺ || س ث ص || || ㅅ
+|-
+| SA || || || || || || サ ||
+|-
+| SE || || || || || || セ ||
+|-
+| SH || Σ̈ || Ш || שׁ || ﺵ ﺷ ﺸ ﺶ || ش || ||
+|-
+| SHCH || || Щ || || || || ||
+|-
+| SHI || || || || || || シ ||
+|-
+| SO || || || || || || ソ ||
+|-
+| SS || || || || || || || ㅆ
+|-
+| SU || || || || || || ス ||
+|-
+| T || Τ || Т || ט, תּ, ת || ﺕ ﺗ ﺘ ﺖ, ﻁ ﻃ ﻄ ﻂ || ت ط || || ㅌ
+|-
+| TA || || || || || || タ ||
+|-
+| TE || || || || || || テ ||
+|-
+| TH || Θ || || תֿ || ﺙ ﺛ ﺜ ﺚ || || ||
+|-
+| TO || || || || || || ト ||
+|-
+| TS || ΤΣ || Ц || צ (or its final form ץ ) || || || ||
+|-
+| TSU || || || || || || ツ ||
+|-
+| TT || || || || || || || ㄸ
+|-
+| U || ΟΥ, Υ || У ||, וֻּ || دُ || || ウ || ㅜ
+|-
+| UI || || || || || || || ㅢ
+|-
+| UW || || || || دُو || || ||
+|-
+| V || B || В || ב || || و || ||
+|-
+| W || Ω || || ו, וו || ﻭ&nbsp;— ﻮ || || ||
+|-
+| WA || || || || || || ワ || ㅘ
+|-
+| WAE || || || || || || || ㅙ
+|-
+| WE || || || || || || || ㅞ
+|-
+| WI || || || || || || || ㅟ
+|-
+| WO || || || || || || ヲ || ㅝ
+|-
+| X || Ξ, Χ || || || || || ||
+|-
+| Y || Υ, Ι, ΓΙ || Й, Ы, Ј || י || ﻱ ﻳ ﻴ ﻲ || ی || ||
+|-
+| YA || || Я || || || || ヤ || ㅑ
+|-
+| YAE || || || || || || || ㅒ
+|-
+| YE || || Е, Є || || || || || ㅖ
+|-
+| YEO || || || || || || || ㅕ
+|-
+| YI || || Ї || || || || ||
+|-
+| YO || || Ё || || || || ヨ || ㅛ
+|-
+| YU || || Ю || || || || ユ || ㅠ
+|-
+| Z || Ζ || З || ז || ﺯ&nbsp;— ﺰ, ﻅ ﻇ ﻈ ﻆ || ز ظ ذ ض || ||
+|-
+| ZH || Ζ̈ || Ж || ז׳ || || ژ || ||
+|}
+
+==See also==
+* [[Anglicisation]]
+* [[Cyrillization]], expression of a language in Cyrillic letters
+* [[Francization]]
+* [[Gairaigo]]
+* [[Latinisation of names]]
+* [[Spread of the Latin script]]
+
+==References==
+{{Reflist|colwidth=30em}}
+
+==External links==
+{{commons category}}
+'''About Romanization:'''
+* [http://www.theelp.org/library.htm IPA for Urdu and Roman Urdu for Mobile and Internet Users (Download)]
+* [http://www.microsoft.com/globaldev/tools/translit.mspx Microsoft Transliteration Utility]&nbsp;– A tool for creating, debugging and using transliteration modules from any script to any other script.
+* Randall Barry (ed.) ''ALA-LC Romanization Tables'' U.S. Library of Congress, 1997, {{ISBN|0-8444-0940-5}}. (One of the few printed books with lists of romanizations)
+* [https://www.loc.gov/catdir/cpso/roman.html U.S. Library of Congress Romanization Tables] in PDF format
+* [http://www.eki.ee/wgrs/ UNGEGN Working Group on Romanization Systems]
+* [http://unicode.org/cldr/transliteration_guidelines.html Unicode Transliteration Guidelines]
+'''Romanization Online:'''
+* [http://ctext.org/pinyin.pl?if=en Chinese Phonetic Conversion Tool]&nbsp;– Converts between Pinyin and other formats
+* [http://www.cesty.in/transliteration Cyrillic Transliteration and Transcription ONLINE (Cyrillic -> Latin)]
+* [http://www.eiktub.com eiktub]&nbsp;– An Arabic Transliteration Pad
+* [http://netzum-sorglos.de/software/lingua-translit/ Lingua::Translit]&nbsp;– [[Perl]] module covering a variety of writing systems e.g. Cyrillic or Greek. Provides a lot of standards as well as common transliteration schemes.
+* [http://www.arabeasy.net/wp-content/uploads/ae.htm Arabeasy]&nbsp;– Arabic Transliteration (free chrome extension exists, also works for Persian, Urdu)
+* [http://russianeasy.net/aeRUS1.htm Russianeasy]&nbsp;– Russian Transliteration (free chrome extension exists)
+
+{{Romanization}}
+
+[[Category:Romanization| ]]
+[[Category:Latin script]]
+[[Category:Multilingual orthographies]]
+[[Category:Orthography]]

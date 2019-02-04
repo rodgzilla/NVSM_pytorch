@@ -1,0 +1,287 @@
+{{other uses}}
+{{Merge from|Spacefaring|date=May 2018}}{{Spaceflight sidebar}}
+{{transport}}
+
+'''Spaceflight''' (also written '''space flight''') is [[ballistics|ballistic]] [[flight]] into or through [[outer space]]. Spaceflight can occur with [[spacecraft]] with or without humans on board. Examples of [[human spaceflight]] include the [[United States|U.S.]] [[Apollo program|Apollo Moon landing]] and [[Space Shuttle program]]s and the [[Russia]]n [[Soyuz programme|Soyuz program]], as well as the ongoing [[International Space Station]]. Examples of unmanned spaceflight include [[space probe]]s that leave [[Earth orbit]], as well as [[satellite]]s in [[orbit]] around [[Earth]], such as [[communications satellite]]s. These operate either by [[telerobotic]] control or are fully [[Autonomous robot|autonomous]].
+
+Spaceflight is used in [[space exploration]], and also in commercial activities like [[space tourism]] and [[telecommunications satellite|satellite telecommunications]]. Additional non-commercial uses of spaceflight include [[Space observatory|space observatories]], [[reconnaissance satellite]]s and other [[Earth observation satellite]]s.
+
+A spaceflight typically begins with a [[rocket]] [[rocket launch|launch]], which provides the initial thrust to overcome the force of [[gravity]] and propels the spacecraft from the surface of the Earth. Once in space, the motion of a spacecraft&nbsp;– both when unpropelled and when under propulsion&nbsp;– is covered by the area of study called [[astrodynamics]]. Some spacecraft remain in space indefinitely, some disintegrate during [[atmospheric reentry]], and others reach a planetary or lunar surface for landing or impact.
+
+{{TOC limit|limit=4}}
+
+== History ==
+{{Main|History of spaceflight|Timeline of spaceflight}}
+[[Image:Konstantin Tsiolkovsky 1934.jpg|thumb|left|upright=0.6|[[Konstantin Tsiolkovsky|Tsiolkovsky]], early space theorist]]
+
+The first theoretical proposal of space travel using [[rocket]]s was published by Scottish astronomer and mathematician [[William Leitch (scientist)|William Leitch]], in an 1861 essay "A Journey Through Space".<ref>{{cite book|author=William Leitch|title=God's Glory in the Heavens|url=https://books.google.com/books?id=vuAUAQAAMAAJ|year=1867|publisher=A. Strahan}}</ref> More well-known (though not widely outside Russia) is [[Konstantin Tsiolkovsky]]'s work, "{{lang|ru|Исследование мировых пространств реактивными приборами}}" (''The Exploration of Cosmic Space by Means of Reaction Devices''), published in 1903.
+
+Spaceflight became an engineering possibility with the work of [[Robert H. Goddard]]'s publication in 1919 of his paper ''[[Robert H. Goddard#A Method of Reaching Extreme Altitudes|A Method of Reaching Extreme Altitudes]]''. His application of the [[de Laval nozzle]] to [[liquid fuel rocket]]s improved efficiency enough for interplanetary travel to become possible. He also proved in the laboratory that rockets would work in the vacuum of space;{{specify|date=October 2015}} nonetheless, his work was not taken seriously by the public. His attempt to secure an Army contract for a rocket-propelled weapon in the [[World War I|first World War]] was defeated by the [[Armistice of 11 November 1918|November 11, 1918 armistice with Germany]].
+
+Nonetheless, Goddard's paper was highly influential on [[Hermann Oberth]], who in turn influenced [[Wernher von Braun]]. Von Braun became the first to produce modern rockets as guided weapons, employed by [[Adolf Hitler]]. Von Braun's [[V-2]] was the first rocket to reach space, at an altitude of {{convert|189|km|nmi|sp=us|abbr=off}} on a June 1944 test flight.<ref>{{cite book|author=Lucy Rogers|title=It's ONLY Rocket Science: An Introduction in Plain English|url=https://books.google.com/books?id=75b84eC-ulsC&pg=PA25|year=2008|publisher=Springer Science & Business Media|isbn=978-0-387-75377-5|page=25}}</ref>
+
+Tsiolkovsky's rocketry work was not fully appreciated in his lifetime, but he influenced [[Sergey Korolev]], who became the [[Soviet Union]]'s chief rocket designer under [[Joseph Stalin]], to develop [[intercontinental ballistic missile]]s to carry [[nuclear weapon]]s as a counter measure to United States bomber planes. Derivatives of Korolev's [[R-7 Semyorka]] missiles were used to launch the world's first artificial Earth [[satellite]], [[Sputnik 1]], on October 4, 1957, and later the first human to orbit the Earth, [[Yuri Gagarin]] in [[Vostok 1]], on April 12, 1961.<ref>Peter Bond, [http://findarticles.com/p/articles/mi_qn4158/is_20030407/ai_n12692130 Obituary: Lt-Gen Kerim Kerimov] {{dead link|date=May 2016|bot=medic}}{{cbignore|bot=medic}}, ''[[The Independent]]'', 7 April 2003.</ref>
+
+At the end of [[World War II]], von Braun and most of his rocket team surrendered to the United States, and were expatriated to work on American missiles at what became the [[Army Ballistic Missile Agency]]. This work on missiles such as [[Juno I]] and [[SM-65 Atlas|Atlas]] enabled launch of the first US satellite [[Explorer 1]] on February 1, 1958, and the first American in orbit, [[John Glenn]] in ''[[Friendship 7]]'' on February 20, 1962. As director of the [[Marshall Space Flight Center]], Von Braun oversaw development of a larger class of rocket called [[Saturn (rocket family)|Saturn]], which allowed the US to send the first two humans, [[Neil Armstrong]] and [[Buzz Aldrin]], to the Moon and back on [[Apollo 11]] in July 1969. Over the same period, the Soviet Union secretly tried but failed to develop the [[N1 (rocket)|N1 rocket]] to give them the capability to land one person on the Moon.
+
+== Phases ==
+=== Launch ===
+{{Main|Rocket launch}}{{See also|List of space launch system designs}}
+[[Image:Apollo 4 Saturn V, s67-50531.jpg|thumb|upright|Saturn V on the launch pad before the launch of [[Apollo 4]]]]
+
+Rockets are the only means currently capable of reaching orbit or beyond. Other [[non-rocket spacelaunch]] technologies have yet to be built, or remain short of orbital speeds.
+A [[rocket launch]] for a spaceflight usually starts from a [[spaceport]] (cosmodrome), which may be equipped with launch complexes and [[launch pad]]s for vertical rocket launches, and runways for takeoff and landing of carrier airplanes and winged spacecraft. Spaceports are situated well away from human habitation for noise and safety reasons. [[Intercontinental ballistic missile|ICBMs]] have various special launching facilities.
+
+A launch is often restricted to certain [[launch window]]s. These windows depend upon the position of celestial bodies and orbits relative to the launch site. The biggest influence is often the rotation of the Earth itself. Once launched, orbits are normally located within relatively constant flat planes at a fixed angle to the axis of the Earth, and the Earth rotates within this orbit.
+
+A [[launch pad]] is a fixed structure designed to dispatch airborne vehicles. It generally consists of a launch tower and flame trench. It is surrounded by equipment used to erect, fuel, and maintain launch vehicles.
+
+=== Reaching space ===
+The most commonly used definition of [[outer space]] is everything beyond the [[Kármán line]], which is {{convert|100|km|mi|sp=us}} above the Earth's surface. The United States sometimes defines outer space as everything beyond {{convert|50|mi|km|sp=us}} in altitude.
+
+[[Rocket]]s are the only currently practical means of reaching space. Conventional airplane engines cannot reach space due to the lack of oxygen. Rocket engines expel [[rocket propellant|propellant]] to provide forward [[thrust]] that generates enough [[delta-v]] (change in velocity) to reach orbit.
+
+For manned launch systems [[launch escape system]]s are frequently fitted to allow astronauts to escape in the case of emergency.
+
+==== Alternatives ====
+{{Main|Non-rocket spacelaunch}}
+
+Many ways to reach space other than rockets have been proposed. Ideas such as the [[space elevator]], and [[momentum exchange tether]]s like [[Rotovator (tether propulsion)|rotovators]] or [[Skyhook (structure)|skyhooks]] require new materials much stronger than any currently known. Electromagnetic launchers such as [[launch loop]]s might be feasible with current technology. Other ideas include rocket assisted aircraft/spaceplanes such as [[Reaction Engines Skylon]] (currently in early stage development), [[scramjet]] powered spaceplanes, and [[RBCC]] powered spaceplanes. Gun launch has been proposed for cargo.
+
+=== Leaving orbit ===
+{{Original research|section|discuss=Talk:Spaceflight#Leaving orbit: original research|date=June 2018}}
+{{Main|Escape velocity|Parking orbit}}
+[[Image:RIAN archive 510848 Interplanetary station Luna 1 - blacked.jpg|thumb|upright|Launched in 1959, [[Luna 1]] was the first known man-made object to achieve escape velocity from the Earth.<ref>{{cite web|url=http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1959-012A |title=NASA – NSSDC – Spacecraft – Details |publisher=Nssdc.gsfc.nasa.gov |accessdate=November 5, 2013}}</ref> ''(replica pictured)'']]
+
+Achieving a closed orbit is not essential to lunar and interplanetary voyages. Early [[Russia]]n space vehicles successfully achieved very high altitudes without going into orbit. [[NASA]] considered launching [[Project Apollo|Apollo]] missions directly into lunar trajectories but adopted the strategy of first entering a temporary [[parking orbit]] and then performing a separate burn several orbits later onto a lunar trajectory. This costs additional propellant because the parking orbit perigee must be high enough to prevent reentry while direct injection can have an arbitrarily low perigee because it will never be reached.
+
+However, the parking orbit approach greatly simplified Apollo mission planning in several important ways. It substantially widened the allowable [[launch window]]s, increasing the chance of a successful launch despite minor technical problems during the countdown. The parking orbit was a stable "mission plateau" that gave the crew and controllers several hours to thoroughly check out the spacecraft after the stresses of launch before committing it to a long lunar flight; the crew could quickly return to Earth, if necessary, or an alternate Earth-orbital mission could be conducted. The parking orbit also enabled translunar trajectories that avoided the densest parts of the [[Van Allen radiation belts]].
+
+Apollo missions minimized the performance penalty of the parking orbit by keeping its altitude as low as possible. For example, [[Apollo 15]] used an unusually low parking orbit (even for Apollo) of 92.5 [[nautical mile|nmi]] by 91.5 nmi (171&nbsp;km by 169&nbsp;km) where there was significant atmospheric drag. But it was partially overcome by continuous venting of hydrogen from the third stage of the [[Saturn V]], and was in any event tolerable for the short stay.
+
+Robotic missions do not require an abort capability or radiation minimization, and because modern launchers routinely meet "instantaneous" launch windows, space probes to the Moon and other planets generally use direct injection to maximize performance. Although some might coast briefly during the launch sequence, they do not complete one or more full parking orbits before the burn that injects them onto an Earth escape trajectory.
+
+Note that the escape velocity from a celestial body decreases with altitude above that body. However, it is more fuel-efficient for a craft to burn its fuel as close to the ground as possible; see [[Oberth effect]] and reference.<ref name="Escape Velocity of Earth">[http://van.physics.uiuc.edu/qa/listing.php?id=1053 Escape Velocity of Earth]. Van.physics.uiuc.edu. Retrieved on 2011-10-05.</ref> This is another
+way to explain the performance penalty associated with establishing the safe perigee of a parking orbit.
+
+Plans for future crewed interplanetary spaceflight missions often include final vehicle assembly in Earth orbit, such as NASA's [[Orion Multi-Purpose Crew Vehicle|Project Orion]] and Russia's [[Kliper]]/[[Parom]] tandem.
+
+=== Astrodynamics ===
+{{Main|Orbital mechanics}}
+
+Astrodynamics is the study of spacecraft trajectories, particularly as they relate to gravitational and propulsion effects. Astrodynamics allows for a spacecraft to arrive at its destination at the correct time without excessive propellant use. An [[orbital maneuvering system]] may be needed to maintain or change orbits.
+
+Non-rocket orbital propulsion methods include [[solar sail]]s, [[magnetic sail]]s, [[Mini-magnetospheric plasma propulsion|plasma-bubble magnetic systems]], and using [[gravitational slingshot]] effects.
+
+{{multiple image
+ |direction = vertical
+ |align     = right
+ |width     = 200
+ |image1    = Space Shuttle Atlantis in the sky on July 21, 2011, to its final landing.jpg
+ |image2    = Keyhole capsule recovery.jpg
+ |caption1  = Ionized gas trail from [[Space Shuttle|Shuttle]] reentry
+ |caption2  = Recovery of [[Discoverer 14|Discoverer&nbsp;14]] return capsule by a [[C-119 Flying Boxcar|C-119]] airplane
+}}
+
+=== Transfer energy ===
+The term "transfer energy" means the total amount of [[energy]] imparted by a rocket stage to its payload.  This can be the energy imparted by a [[First stage (rocketry)|first stage]] of a [[launch vehicle]] to an upper stage plus payload, or by an upper stage or spacecraft [[Apogee kick motor|kick motor]] to a [[spacecraft]].<ref>{{cite book |title=Space Flight: History, Technology, and Operations |author=Lance K. Erickson |isbn= |year=2010 |page=187 |publisher=Government Institutes }}</ref><ref>{{cite web |title=Musk pre-launch backgrounder on Falcon 9 Flight 20 |url=http://www.spacex.com/news/2015/12/21/background-tonights-launch |date=22 December 2015 |accessdate=28 December 2015 |work=SpaceX press release }}</ref>
+
+=== Reentry ===
+{{Main|Atmospheric reentry}}
+
+Vehicles in orbit have large amounts of kinetic energy. This energy must be discarded if the vehicle is to land safely without vaporizing in the atmosphere. Typically this process requires special methods to protect against [[aerodynamic heating]]. The theory behind reentry was developed by [[Harry Julian Allen]]. Based on this theory, reentry vehicles present blunt shapes to the atmosphere for reentry. Blunt shapes mean that less than 1% of the kinetic energy ends up as heat that reaches the vehicle, and the remainder heats up the atmosphere.
+
+=== Landing ===
+The Mercury, Gemini, and Apollo capsules all [[Splashdown|splashed down]] in the sea. These capsules were designed to land at relatively low speeds with the help of a parachute.
+Russian capsules for Soyuz make use of a big parachute and braking rockets to touch down on land.
+The Space Shuttle glided to a touchdown like a plane.
+
+=== Recovery ===
+After a successful landing the spacecraft, its occupants and cargo can be recovered. In some cases, recovery has occurred before landing: while a spacecraft is still descending on its parachute, it can be snagged by a specially designed aircraft. This [[mid-air retrieval]] technique was used to recover the film canisters from the [[Corona (satellite)|Corona]] spy satellites.
+
+== Types ==
+=== Uncrewed ===
+{{see also|Uncrewed spacecraft|robotic spacecraft}}
+[[File:Pathfinder01.jpg|thumb|''[[Sojourner (rover)|Sojourner]]'' takes its [[Alpha particle X-ray spectrometer|APXS]] measurement of the [[Yogi Rock]].]]
+[[Image:messenger.jpg|thumb|The ''[[MESSENGER]]'' spacecraft at Mercury (artist's interpretation)]]
+
+'''Uncrewed spaceflight''' (or unmanned) is all spaceflight activity without a necessary human presence in space. This includes all space probes, satellites and robotic spacecraft and missions. Uncrewed spaceflight is the opposite of manned spaceflight, which is usually called [[human spaceflight]]. Subcategories of uncrewed spaceflight are "robotic spacecraft" (objects) and "robotic space missions" (activities). A [[robotic spacecraft]] is an uncrewed spacecraft with no humans on board, that is usually under [[telerobotic]] control. A robotic spacecraft designed to make scientific research measurements is often called a [[space probe]].
+
+Uncrewed space missions use remote-controlled [[spacecraft]]. The first uncrewed space mission was ''[[Sputnik I]]'', launched October 4, 1957 to orbit the Earth. Space missions where [[animals in space|animals]] but no humans are on-board are considered uncrewed missions.
+
+==== Benefits ====
+Many space missions are more suited to telerobotic rather than [[Human spaceflight|crewed]] operation, due to lower cost and lower risk factors. In addition, some planetary destinations such as [[Venus]] or the vicinity of [[Jupiter]] are too hostile for human survival, given current technology. Outer planets such as [[Saturn]], [[Uranus]], and [[Neptune]] are too distant to reach with current crewed spaceflight technology, so telerobotic probes are the only way to explore them. Telerobotics also allows exploration of regions that are vulnerable to contamination by Earth micro-organisms since spacecraft can be sterilized. Humans can not be sterilized in the same way as a spaceship, as they coexist with numerous micro-organisms, and these micro-organisms are also hard to contain within a spaceship or spacesuit.
+
+==== Telepresence ====
+Telerobotics becomes telepresence when the time delay is short enough to permit control of the spacecraft in close to real time by humans. Even the two seconds light speed delay for the Moon is too far away for telepresence exploration from Earth. The L1 and L2 positions permit 400-millisecond round trip delays, which is just close enough for telepresence operation. Telepresence has also been suggested as a way to repair satellites in Earth orbit from Earth. The Exploration Telerobotics Symposium in 2012 explored this and other topics.<ref>[http://telerobotics.gsfc.nasa.gov/ Exploration Telerobotics Symposium] {{webarchive|url=https://web.archive.org/web/20150705060719/http://telerobotics.gsfc.nasa.gov/ |date=2015-07-05 }} May 2–3, 2012 at NASA Goddard Space Flight Center.</ref>
+
+=== Human ===
+{{Main|Human spaceflight}}
+[[File:ISS-20 Robert Thirsk at the Minus Eighty Degree Laboratory Freezer.jpg|thumb|[[International Space Station|ISS]] crew member stores samples]]
+
+The first human spaceflight was [[Vostok 1]] on April 12, 1961, on which [[astronaut|cosmonaut]] [[Yuri Gagarin]] of the [[USSR]] made one orbit around the Earth. In official Soviet documents, there is no mention of the fact that Gagarin parachuted the final seven miles.<ref>[http://www.astronautix.com/flights/vostok1.htm Vostok 1]. Astronautix.com. Retrieved on 2011-10-05.</ref> Currently, the only spacecraft regularly used for human spaceflight are the Russian [[Soyuz spacecraft]] and the Chinese [[Shenzhou spacecraft]]. The U.S. [[Space Shuttle]] fleet operated from April 1981 until July 2011. [[SpaceShipOne]] has conducted two human suborbital spaceflights.
+
+=== Sub-orbital ===
+{{Main| Sub-orbital spaceflight}}
+[[Image:STS-119 Flyaround (Low Resolution).jpg|thumb|The [[International Space Station]] in Earth [[orbit]] after a visit from the crew of [[STS-119]]]]
+
+On a [[sub-orbital spaceflight]] the spacecraft reaches space and then returns to the atmosphere after following a (primarily) ballistic trajectory. This is usually because of insufficient [[specific orbital energy]], in which case a suborbital flight will last only a few minutes, but it is also possible for an object with enough energy for an orbit to have a trajectory that intersects the Earth's atmosphere, sometimes after many hours. [[Pioneer 1]] was NASA's first [[space probe]] intended to reach the Moon. A partial failure caused it to instead follow a suborbital trajectory to an altitude of {{convert|113854|km|mi|sp=us}} before reentering the Earth's atmosphere 43 hours after launch.
+
+The most generally recognized boundary of space is the [[Kármán line]] 100&nbsp;km above sea level. (NASA alternatively defines an astronaut as someone who has flown more than {{convert|50|mi|km}} above sea level.) It is not generally recognized by the public that the increase in potential energy required to pass the Kármán line is only about 3% of the orbital energy (potential plus kinetic energy) required by the lowest possible Earth orbit (a circular orbit just above the Kármán line.) In other words, it is far easier to reach space than to stay there. On May 17, 2004, [[Civilian Space eXploration Team]] launched the [[GoFast Rocket]] on a suborbital flight, the first amateur spaceflight. On June 21, 2004, [[SpaceShipOne]] was used for the first [[Private spaceflight|privately funded]] [[human spaceflight]].
+
+=== Point-to-point ===
+Point-to-point is a category of [[sub-orbital spaceflight]] in which a spacecraft provides rapid transport between two terrestrial locations. Consider a conventional airline route between [[London]] and [[Sydney]], a flight that normally lasts [[Non-stop flight#Future of ultra long-haul|over twenty hours]]. With point-to-point suborbital travel the same route could be traversed in less than one hour.<ref>{{cite web | url=http://www.spacex.com/sites/spacex/files/making_life_multiplanetary_transcript_2017.pdf | title=Becoming a Multiplanet Species | date=29 September 2017 | location=68th annual meeting of the International Astronautical Congress in Adelaide, Australia | publisher=SpaceX }}</ref> While no company offers this type of transportation today, [[SpaceX]] has revealed plans to do so as early as the 2020s using its [[BFR (rocket)|BFR]] vehicle.<ref name="musk20170929">{{cite AV media | url=https://www.youtube.com/watch?v=tdUX3ypDVwI | people=Elon Musk | title=Becoming a Multiplanet Species |date=29 September 2017 |medium=video | location=68th annual meeting of the International Astronautical Congress in Adelaide, Australia | publisher=SpaceX | via=YouTube | accessdate=14 December 2017}}</ref> Suborbital spaceflight over an intercontinental distance requires a vehicle velocity that is only a little lower than the velocity required to reach low Earth orbit.<ref>{{cite web|author=David HoerrMonday, May 5, 2008 |url=http://www.thespacereview.com/article/1118/1 |title=Point-to-point suborbital transportation: sounds good on paper, but… |publisher=The Space Review |date=May 5, 2008 |accessdate=November 5, 2013}}</ref> If rockets are used, the size of the rocket relative to the payload is similar to an Intercontinental Ballistic Missile (ICBM). Any intercontinental spaceflight has to surmount problems of heating during atmosphere re-entry that are nearly as large as those faced by orbital spaceflight.
+
+=== Orbital ===
+{{Main| Orbital spaceflight}}
+[[File:S68-27366.jpg|thumb|Apollo 6 heads into orbit]]
+A minimal [[orbital spaceflight]] requires much higher velocities than a minimal sub-orbital flight, and so it is technologically much more challenging to achieve. To achieve orbital spaceflight, the tangential velocity around the Earth is as important as altitude. In order to perform a stable and lasting flight in space, the spacecraft must reach the minimal [[orbital speed]] required for a [[orbit|closed orbit]].
+
+=== Interplanetary ===
+{{Main|Interplanetary spaceflight}}
+
+[[Interplanetary travel]] is travel between planets within a single [[planetary system]]. In practice, the use of the term is confined to travel between the planets of our [[Solar System]].
+
+=== Interstellar ===
+{{Main|Interstellar travel}}
+
+Five spacecraft are currently leaving the [[Solar System]] on escape trajectories, ''Voyager 1'', ''Voyager 2'', ''Pioneer 10'', ''Pioneer 11'', and ''New Horizons''. The one farthest from the Sun is ''[[Voyager 1]]'', which is more than 100 [[Astronomical unit|AU]] distant and is moving at 3.6 AU per year.<ref>{{cite web|url=http://www.heavens-above.com/solar-escape.asp |title=Spacecraft escaping the Solar System |publisher=Heavens-Above GmbH |deadurl=yes |archiveurl=https://web.archive.org/web/20070427184732/http://www.heavens-above.com/solar-escape.asp |archivedate=April 27, 2007 }}</ref> In comparison, [[Proxima Centauri]], the closest star other than the Sun, is 267,000 AU distant. It will take ''Voyager 1'' over 74,000 years to reach this distance.<!-- This still borders on original research, but is at least consistent with cited sources. --> Vehicle designs using other techniques, such as [[nuclear pulse propulsion]] are likely to be able to reach the nearest star significantly faster. Another possibility that could allow for human interstellar spaceflight is to make use of [[time dilation]], as this would make it possible for passengers in a fast-moving vehicle to travel further into the future while aging very little, in that their great speed slows down the rate of passage of on-board time.  However, attaining such high speeds would still require the use of some new, advanced method of [[Spacecraft propulsion|propulsion]].
+
+=== Intergalactic ===
+{{Main|Intergalactic travel}}
+
+Intergalactic travel involves spaceflight between galaxies, and is considered much more technologically demanding than even interstellar travel and, by current engineering terms, is considered [[science fiction]].
+
+== Spacecraft ==
+{{Main|Spacecraft}}
+[[Image:Apollo16LM.jpg|thumb|right|An Apollo Lunar Module on the lunar surface]]
+
+Spacecraft are vehicles capable of controlling their trajectory through space.
+
+The first 'true spacecraft' is sometimes said to be [[Apollo Lunar Module]],<ref>[https://history.nasa.gov/SP-350/ch-10-3.html Apollo Expeditions to the Moon: Chapter 10]. History.nasa.gov (1969-03-03). Retrieved on 2011-10-05.</ref> since this was the only manned vehicle to have been designed for, and operated only in space; and is notable for its non aerodynamic shape.
+
+=== Propulsion ===
+{{Main|Spacecraft propulsion}}
+
+Spacecraft today predominantly use [[rocket]]s for [[Spacecraft propulsion|propulsion]], but other propulsion techniques such as [[ion drive]]s are becoming more common, particularly for unmanned vehicles, and this can significantly reduce the vehicle's mass and increase its [[delta-v]].
+
+=== Launch systems ===
+{{main|Launch vehicle}}
+
+Launch systems are used to carry a payload from Earth's surface into outer space.
+
+==== Expendable ====
+{{Main|Expendable launch system}}
+
+:All current spaceflight uses [[Multistage rocket|multi-stage]] expendable launch systems to reach space.
+
+==== Reusable ====
+{{Main|Reusable launch system}}
+
+: The first reusable spacecraft, the [[X-15]], was air-launched on a suborbital trajectory on July 19, 1963. The first partially reusable orbital spacecraft, the Space Shuttle, was launched by the USA on the 20th anniversary of [[Yuri Gagarin]]'s flight, on April 12, 1981. During the Shuttle era, six orbiters were built, all of which have flown in the atmosphere and five of which have flown in space. The ''[[Space Shuttle Enterprise|Enterprise]]'' was used only for approach and landing tests, launching from the back of a [[Boeing 747]] and gliding to deadstick landings at [[Edwards AFB, California]]. The first Space Shuttle to fly into space was the ''[[Space Shuttle Columbia|Columbia]]'', followed by the ''[[Space Shuttle Challenger|Challenger]]'', ''[[Space Shuttle Discovery|Discovery]]'', ''[[Space Shuttle Atlantis|Atlantis]]'', and ''[[Space Shuttle Endeavour|Endeavour]]''. The ''Endeavour'' was built to replace the ''Challenger'', which was [[STS-51-L|lost]] in January 1986. The ''Columbia'' [[Space Shuttle Columbia disaster|broke up]] during reentry in February 2003.
+{|
+|[[Image:Space Shuttle Columbia launching.jpg|thumb|The [[Space Shuttle Columbia|Space Shuttle ''Columbia'']] seconds after engine ignition on mission [[STS-1]]]]
+|[[File:Columbia landing on Rogers dry lake.triddle.jpg|thumb|''Columbia'' landing, concluding the STS-1 mission]]
+|[[File:Columbia launch 1981.jpg|thumb|''Columbia'' launches again on STS-2]]
+|}
+: The first automatic partially reusable spacecraft was the ''[[Shuttle Buran|Buran]]'' (''Snowstorm''), launched by the USSR on November 15, 1988, although it made only one flight. This [[spaceplane]] was designed for a crew and strongly resembled the US Space Shuttle, although its drop-off boosters used liquid propellants and its main engines were located at the base of what would be the external tank in the American Shuttle. Lack of funding, complicated by the dissolution of the USSR, prevented any further flights of Buran.
+
+: Per the [[Vision for Space Exploration]], the Space Shuttle was retired in 2011 due mainly to its old age and high cost of the program reaching over a billion dollars per flight. The Shuttle's human transport role is to be replaced by the partially reusable [[Crew Exploration Vehicle]] (CEV) no later than 2021. The Shuttle's heavy cargo transport role is to be replaced by expendable rockets such as the [[Evolved Expendable Launch Vehicle]] (EELV) or a [[Shuttle Derived Launch Vehicle]].
+
+: [[Scaled Composites]] [[SpaceShipOne]] was a reusable [[suborbital spaceplane]] that carried pilots [[Mike Melvill]] and [[Brian Binnie]] on consecutive flights in 2004 to win the [[Ansari X Prize]]. [[The Spaceship Company]] will build its successor [[SpaceShipTwo]]. A fleet of SpaceShipTwos operated by [[Virgin Galactic]] planned to begin reusable [[private spaceflight]] carrying paying passengers ([[space tourism|space tourists]]) in 2008, but this was delayed due to an accident in the propulsion development.<ref>[http://www.flightglobal.com/news/articles/virgin-galactics-spaceshiptwo-plans-held-up-by-testing-accident-217949/ Launch aircraft development continues while suborbital ship awaits investigation into fatal explosion in California], retrieved 2012-01-27.</ref>
+
+== Challenges ==
+{{main|Effect of spaceflight on the human body}}
+
+=== Space disasters ===
+{{Main|Space accidents and incidents}}
+
+All launch vehicles contain a huge amount of energy that is needed for some part of it to reach orbit. There is therefore some risk that this energy can be released prematurely and suddenly, with significant effects. When a [[Delta II]] rocket exploded 13 seconds after launch on January 17, 1997, there were reports of store windows {{convert|10|mi|km}} away being broken by the blast.<ref>{{cite news | url = http://www.cnn.com/TECH/9701/17/rocket.explosion/index.html | title = Unmanned rocket explodes after liftoff | publisher = CNN }}</ref>
+
+Space is a fairly predictable environment, but there are still risks of accidental depressurization and the potential failure of equipment, some of which may be very newly developed.
+
+In 2004 the [[International Association for the Advancement of Space Safety]] was established in the Netherlands to further international cooperation and scientific advancement in space systems safety.<ref>{{cite web |url=http://www.congrex.nl/07a02/ |archive-url=https://archive.is/20120724193521/http://www.congrex.nl/07a02/ |dead-url=yes |archive-date=24 July 2012 |title= The second IAASS: Introduction |accessdate=3 January 2009 |work=Congrex |publisher=European Space Agency}}</ref>
+
+=== Weightlessness ===
+{{Main|Weightlessness}}
+[[Image:Foale ZeroG.jpg|thumb|280px|Astronauts on the [[International Space Station|ISS]] in weightless conditions. [[Michael Foale]] can be seen exercising in the foreground.]]
+
+In a microgravity environment such as that provided by a spacecraft in orbit around the Earth, humans experience a sense of "weightlessness." Short-term exposure to microgravity causes [[space adaptation syndrome]], a self-limiting nausea caused by derangement of the [[vestibular system]]. Long-term exposure causes multiple health issues. The most significant is bone loss, some of which is permanent, but microgravity also leads to significant [[deconditioning]] of muscular and cardiovascular tissues.
+
+=== Radiation ===
+Once above the atmosphere, radiation due to the [[Van Allen belts]], [[solar radiation]] and [[cosmic radiation]] issues occur and increase. Further away from the Earth, [[solar flare]]s can give a fatal radiation dose in minutes, and the [[Health threat from cosmic rays|health threat from cosmic radiation]] significantly increases the chances of cancer over a decade exposure or more.<ref>[https://science.nasa.gov/science-news/science-at-nasa/2002/16sep_rightstuff/ Super Spaceships], ''[[NASA]]'', 16 September 2002, Retrieved 25 October 2011.</ref>
+
+=== Life support ===
+{{Main|Life support system}}
+
+In human spaceflight, the [[life support system]] is a group of devices that allow a human being to survive in outer space. [[NASA]] often uses the phrase Environmental Control and Life Support System or the acronym ECLSS when describing these systems for its [[human spaceflight]] missions.<ref>{{cite web|url=https://science.nasa.gov/headlines/y2000/ast13nov_1.htm |title=Breathing Easy on the Space Station |publisher=NASA |deadurl=yes |archiveurl=https://web.archive.org/web/20080921141609/https://science.nasa.gov/headlines/y2000/ast13nov_1.htm |archivedate=2008-09-21 |df= }}</ref> The life support system may supply: [[air]], [[water]] and [[food]]. It must also maintain the correct body temperature, an acceptable pressure on the body and deal with the body's waste products. Shielding against harmful external influences such as radiation and micro-meteorites may also be necessary. Components of the life support system are [[Life-critical system|life-critical]], and are designed and constructed using [[safety engineering]] techniques.
+
+=== Space weather ===
+{{Main|Space weather}}
+[[Image:Aurora-SpaceShuttle-EO.jpg|thumb|280px|[[Aurora (astronomy)|Aurora australis]]
+and [[Space Shuttle Discovery|''Discovery'']], May 1991.]]
+
+Space weather is the concept of changing environmental conditions in [[outer space]]. It is distinct from the concept of [[weather]] within a [[Celestial body atmosphere|planetary atmosphere]], and deals with phenomena involving ambient [[Plasma (physics)|plasma]], magnetic fields, [[radiation]] and other [[matter]] in space (generally close to Earth but also in [[interplanetary space|interplanetary]], and occasionally [[interstellar medium]]). "Space weather describes the conditions in space that affect Earth and its technological systems. Our space weather is a consequence of the behavior of the Sun, the nature of Earth's magnetic field, and our location in the Solar System."<ref>[http://www7.nationalacademies.org/ssb/SSB_Space_weather97.pdf Space Weather: A Research Perspective], [[National Academy of Science]], 1997</ref>
+
+Space weather exerts a profound influence in several areas related to space exploration and development. Changing geomagnetic conditions can induce changes in atmospheric density causing the rapid degradation of spacecraft altitude in [[Low Earth orbit]]. Geomagnetic storms due to increased solar activity can potentially blind sensors aboard spacecraft, or interfere with on-board electronics. An understanding of space environmental conditions is also important in designing shielding and life support systems for manned spacecraft.
+
+=== Environmental considerations ===
+Rockets as a class are not inherently grossly polluting. However, some rockets use toxic propellants, and most vehicles use propellants that are not [[carbon neutral]]. Many solid rockets have chlorine in the form of [[perchlorate]] or other chemicals, and this can cause temporary local holes in the ozone layer. Re-entering spacecraft generate nitrates which also can temporarily impact the ozone layer. Most rockets are made of metals that can have an environmental impact during their construction.
+
+In addition to the atmospheric effects there are effects on the near-Earth space environment. There is the possibility that orbit could become inaccessible for generations due to exponentially increasing [[space debris]] caused by [[spalling]] of satellites and vehicles ([[Kessler syndrome]]). Many launched vehicles today are therefore designed to be re-entered after use.
+
+== Applications ==
+[[File:S74-15583skylabsunview.jpg|thumb|400px|This shows an extreme ultraviolet view of the sun (the Apollo Telescope Mount SO82A Experiment) taken during [[Skylab 3]], with the Earth added for scale. On the right an image of the Sun shows a helium emissions, and there is an image on the left showing emissions from iron. One application for spaceflight is to take observation hindered or made more difficult by being on Earth's surface. Skylab included a massive manned solar observatory that revolutionized solar science in the early 1970s using the Apollo-based space station in conjunction with manned spaceflights to it.]]
+Current and proposed applications for spaceflight include:
+* [[Earth observation satellite]]s such as [[Spy satellite]]s, [[weather satellite]]s
+* [[Space exploration]]
+* [[Communication satellite]]s
+* [[Satellite television]]
+* [[Satellite navigation]]
+* [[Space tourism]]
+* Protecting Earth from [[Potentially hazardous object]]s
+* [[Space colonization]]
+
+Most early spaceflight development was paid for by governments. However, today major launch markets such as [[Communication satellite]]s and [[Satellite television]] are purely commercial, though many of the launchers were originally funded by governments.
+
+[[Private spaceflight]] is a rapidly developing area: space flight that is not only paid for by corporations or even private individuals, but often provided by [[List of private spaceflight companies|private spaceflight companies]]. These companies often assert that much of the previous high cost of access to space was caused by governmental inefficiencies they can avoid. This assertion can be supported by much lower published launch costs for private space launch vehicles such as [[Falcon 9]] developed with private financing. Lower launch costs and excellent safety will be required for the applications such as [[Space tourism]] and especially [[Space colonization]] to become successful.
+
+== See also ==
+{{portal|Spaceflight|Technology}}
+{{Div col|colwidth=25em}}
+* [[Aerial landscape art]]
+* [[Human mission to Mars]]
+* [[List of Solar System probes]]
+* [[List of spaceflight records]]
+* [[List of unmanned spacecraft by program]]
+* [[NewSpace]]
+* [[Orbiter (simulator)]]
+* [[Space logistics]]
+* [[Spacecraft propulsion]]
+* [[Timeline of artificial satellites and space probes]]
+* [[Timeline of Solar System exploration]]
+* [[U.S. space exploration history on U.S. stamps]]
+{{Div col end}}
+{{clear right}}
+
+== References ==
+{{Reflist}}
+
+== Further reading ==
+* Erik Gregerson (2010): ''An Explorer's Guide to the Universe – Unmanned Space Missions'', Britannica Educational Publishing, {{ISBN|978-1-61530-052-5}} (eBook)
+
+== External links ==
+{{Commons category|Spaceflight}}
+{{Wiktionary}}
+* [[v:Topic:Aerospace engineering|Aerospace engineering at Wikiversity]]
+* [http://www.astronautix.com/index.html Encyclopedia Astronautica]
+* [http://www2.jpl.nasa.gov/basics/ Basics of Spaceflight]
+* {{cite web |author = Tedd E. Hankins |author2 = H. Paul Shuch | url = http://www.qsl.net/n/n6tx/prose/ham/manned.pdf | title = Reflections – manned vs. unmanned spaceflight |date=1987-03-04 |accessdate=2011-04-15}}
+
+{{Spaceflight}}
+{{Space exploration lists and timelines}}
+{{Solar System}}
+
+{{Authority control}}
+
+[[Category:Spaceflight| ]]

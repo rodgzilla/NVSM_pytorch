@@ -1,0 +1,30 @@
+'''Sentient computing''' is a form of [[ubiquitous computing]] which uses [[sensor]]s to perceive its environment and react accordingly. A common use of the sensors is to construct a [[world model]] which allows location-aware or context-aware applications to be constructed.
+
+One famous [[research]] prototype of a sentient computing system was the work at [[Olivetti Research Laboratory|AT&T Laboratories]], [[Cambridge]] (now defunct). It consisted of an [[Ultrasonic sensor|ultrasonic]] indoor location system called the "[[Active Bat]]s" which provided a location accuracy of about 3&nbsp;cm. The world model was managed via the [https://web.archive.org/web/20040607034055/http://www.uk.research.att.com/spirit/ SPIRIT] database, using [[CORBA]] to access information and [[Spatial index|spatial indexing]] to deliver high-level events such as "Alice has entered the kitchen" to listening [[context awareness|context-aware]] applications. The research continues at the [http://www.cl.cam.ac.uk/Research/DTG/ Digital Technology Group] at the [[University of Cambridge]].
+
+Some example applications of the system include:
+* A "follow-me phone" which would cause the [[telephone]] nearest the recipient to ring.
+* Teleporting desktops via [[Virtual Network Computing|VNC]] just by clicking their Active Bat near the computer.
+* Spatial buttons which were activated by clicking the Active Bat at a particular spot (such as a poster).
+* Measuring and surveying buildings.
+* [[Location-based game]]s 
+
+== Context adaptation ==
+
+A context adaptive system typically enables the user to maintain a certain application (in different forms) while roaming between different wireless access technologies, locations, devices and even simultaneously executing everyday tasks like meetings, driving a car etc. For example a context adaptive and hence ubiquitous navigation system would offer navigation support in the situations ''at home'', ''indoor'', ''outdoor'', and ''in car''. This involves making the navigation functionality available for different '''availability''' of output devices, input devices and location sensors as well as adapting the user interaction '''operability''' to the current speed, noise or operator handicaps while keeping in mind the overall '''applicability''' depending on the user preferences, his knowledge, current task etc.{{Citation needed|date=March 2009}}
+
+== See also ==
+*[[Domotics]]
+*[[Mobile computing]]
+*[[Ubiquitous computing]]
+*[[mscape]]
+
+== References ==
+
+{{reflist}}
+* [[Andy Hopper]], The Royal Society Clifford Paterson Lecture, 1999 - Sentient Computing. Philosophical Transactions, Royal Society London. 2000, Volume 358, Pages 2349-2358, [[Royal Society]], August 2000 .pdf [http://www.cl.cam.ac.uk/Research/DTG/publications/public/files/tr.2001.8.pdf].
+* [http://www.economist.com/science/tq/PrinterFriendly.cfm?Story_ID=1841108 "The sentient office is coming"], [[The Economist]].
+* [https://www.cl.cam.ac.uk/research/dtg/attarchive/spirit/ Sentient Computing Project Home Page], AT&T Laboratories archive, Cambridge University Computer Laboratory
+
+{{DEFAULTSORT:Sentient Computing}}
+[[Category:Multimodal interaction]]

@@ -1,0 +1,90 @@
+{{Infobox court case
+| name = Winny copyright infringement case
+| court = [[Supreme Court of Japan]]
+| date decided = Dec. 19, 2011
+| full name = 
+| citations = 
+| prior actions = 
+| judges = [[Kiyoko Okabe]], [[Kohei Nasu]], [[Mutsuo Tahara]], [[Takehiko Otani]], [[Itsuro Terada]]
+| keywords = [[Copyright infringement]], [[peer to peer file-sharing]], [[criminal case]]
+}}
+
+'''Winny copyright infringement criminal case in Japan''' was a [[Japan|Japanese]] criminal case in which Isamu Kaneko, the developer of [[peer-to-peer|P2P]] [[file-sharing]] program [[Winny]], was indicted for aiding in [[copyright infringement]]. This was the first case in which a computer program developer faced a criminal charge for assisting in the copyright infringement of the program's users. In 2006, the [[Kyoto District Court]] found Kaneko guilty and fined him ¥1.5 million.<ref>"[http://www.japantimes.co.jp/text/nn20061214a1.html Winny creator guilty in copyright violations]", [[The Japan Times]] ONLINE, Dec. 14, 2006</ref>  On appeal, the [[Osaka High Court]] in 2009 overturned the lower court's decision, acquitting Kaneko.<ref name="osaka">"[http://www.japantimes.co.jp/text/nn20091009a2.html Winny developer acquitted]", The Japan Times ONLINE, Oct. 9, 2009</ref> Finally, in 2011, the [[Supreme Court of Japan]] upheld the acquittal, holding that Kaneko did not intentionally induce infringement and was therefore not responsible for the users' unlawful actions.<ref>"[http://www.japantimes.co.jp/text/nn20111221a7.html Winny creator's acquittal upheld]", The Japan Times ONLINE, Dec. 21, 2011</ref> 
+
+==Background==
+
+On November 2003, two Japanese users of [[Winny]], Yoshihiro Inoue, a 41-year-old self-employed businessman, and an unnamed 19-year-old, were arrested by the [[Kyoto Prefecture|Kyoto Prefectural]] Police. Shortly following the two users' arrests, the Kyoto Police also searched the home of Isamu Kaneko, a 33-year-old [[assistant professor]] at the [[University of Tokyo]] and the developer of Winny, and confiscated Winny's source code.<ref>John Leyden "[https://www.theregister.co.uk/2003/12/03/anonymous_p2p_users_busted/ ‘Anonymous’ P2P users busted in Japan]", [[The Register]], Dec. 3, 2003</ref><ref name=leyden>John Leyden"[https://www.theregister.co.uk/2004/05/10/winny_founder_arrested/ Japanese P2P founder arrested]", The Register, May 10, 2004</ref> The two principals were accused of sharing copyrighted materials via Winny, and both were eventually found guilty of violating [[copyright law]].<ref name="osaka"/><ref>"[http://www.japantimes.co.jp/text/nn20041201a9.html Winny file-sharer gets suspended term]", The Japan Times ONLINE, Dec. 1, 2004</ref>
+
+On May 10, 2004, the High-tech Crime Taskforce of the Kyoto Prefectural Police arrested Kaneko for suspected conspiracy to commit copyright violations.<ref name=leyden /><ref>Associated Press"[https://www.wired.com/techbiz/it/news/2004/05/63408 Copyright Arrest in Japan]", [[WIRED]], May 10, 2004</ref><ref>"[http://www.abc.net.au/news/2004-05-10/top-software-developer-arrested-for-winny-file/1973572 Top software developer arrested for 'Winny' file sharing]", [[ABC News (Australia)|ABC News]], May 10, 2004</ref> Kaneko was [[indictment|indicted]] on May 31, 2004, the first indictment for assisting [[copyright infringement]] in Japan, and court hearings started in September 2004 at the [[Kyoto District Court]].<ref>"[http://www.japantimes.co.jp/text/nn20040601a6.html Prosecutors indict creator of Winny]", The Japan Times ONLINE, Jun. 1, 2004</ref><ref>"[http://www.japantimes.co.jp/text/nn20040902a6.html Winny creator denies abetting piracy"], The Japan Times ONLINE, Sept. 2, 2004</ref>
+
+==Procedural History==
+
+===Opinion of the Kyoto District Court===
+
+The Kyoto District Court stated that since [[peer-to-peer|P2P]] [[file-sharing]] programs are value-neutral and has legitimate, meaningful uses, simply developing the program and making it publicly available does not necessarily qualify as assisting [[copyright]] violations. Instead, in the case of supplying such technologies to the public, whether or not such an act consists of a crime of [[Accessory_(legal_term)|accessory]] depends on how the technology had actually been used in society, whether the accused was aware of the use, and the accused's intentions in offering the program.<ref name=opinion>"[http://www.courts.go.jp/hanrei/pdf/20111221102925.pdf Opinion of the Court"] (in Japanese)</ref> 
+
+In Kaneko's case, the court stated that Kaneko had made Winny publicly available on his website with full knowledge and acceptance that:
+:* a significant portion of files exchanged on the Internet are copyrighted,
+:* file-sharing programs including Winny had been widely used to infring copyright, 
+:* Winny was well known as a safe program for performing copyright infringement,
+:* and Winny was widely used for its many useful and efficient features.
+Given the above points and the two users who demonstrably used Winny to infringe, The court stated that Kaneko's act of making Winny publicly available did consist of being an accessory to copyright infringement. The Court concluded that Kaneko was guilty and fined him ¥1.5 million.<ref name=opinion/>
+
+===Opinion of the Osaka High Court===
+
+The [[Osaka High Court]] reversed the District Court's decision, finding Kaneko not guilty.
+
+====District Court's legal standard====
+
+The Osaka High Court reviewed the legal standard set forth in the district court’s decision, and concluded the standard was inappropriate. Firstly, the District Court's decision was unclear about which version of Winny applied to the case. Winny had initially been released on May 6, 2002, but had then been improved upon and re-released many times. The charges against Kaneko involved events that had occurred in September 2003, and the District Court was unclear about when in that period Kaneko's publication of Winny became punishable as assisting copyright violations.<ref name=opinion/>
+
+Secondly, the District Court was also unclear about how much of Winny's use had actually been unlawful. Testimonies before the court revealed that the results of surveys done on copyright infringement using file-sharing programs were significantly different depending on how or when the surveys were conducted. Furthermore, the District Court gave no standard for the amount of illegal usage that would make a program's publisher punishable as an accessory to copyright violations.<ref name=opinion/>
+
+Thirdly, the District Court stated that whether Kaneko's actions consisted of assisting copyright violations depended in part on his intentions when offering the program. The court held that since Winny itself was value-neutral and was offered through the internet, Kaneko's intentions in developing and publishing the program could not have been known.<ref name=opinion/>
+
+====Holding and reasoning====
+
+The [http://www.japaneselawtranslation.go.jp/law/detail/?re=02&yo=%E5%88%91%E6%B3%95&ft=2&ky=&page=1 Penal Code] states that a value-neutral act qualifies as assisting a crime when it has been shown objectively that the principal offender was trying to engage in criminal activities, and the assisting person knew of the principal's actions. On the contrary, if the assistant did not know how the principal would apply their assistance, the act of providing assistance could not be evaluated as being an accessory to the crime. Furthermore, if the assistant only knew there was a possibility that their assistance might be used for crimes, the act of providing assistance also does not qualify as being a criminal accessory.<ref name=opinion/>
+
+In Kaneko's case, the Osaka High Court pointed out the following facts of the case:
+:* Developing and providing Winny was a value-neutral act because Winny was a value-neutral technology with various applications. 
+:* Kaneko provided Winny not for specific persons but for many unspecified persons in the general public. 
+:* It was impossible for Kaneko to know who downloaded Winny, how they used the program, and whether they had intentions of copyright infringement.
+:* Kaneko's act of providing Winny was not solely for the sake of crimes, and Winny users acted independently in choosing to share lawful files or infringing ones.
+The court stated that if Kenako's act of providing value-neutral software over the internet were evaluated as criminal assistance, this would make all software developers liable for the acts of all of their programs' users, even though they can't know who those users are and how they intended to use the programs. Furthermore, the program providers could be liable indefinitely, for as long as the programs existed and were being used for illegal purposes. Therefore, the court urged caution in pursuing criminal liability against software developers.<ref name=opinion/>
+
+In Kaneko's case, the court held that even if a provider of value-neutral software programs knew and accepted the possibility that some people among the program's many users would use it for illegal purposes, it was insufficient to punish the provider as an accessory to the users' infringements. The provider was only punishable when they, while offering their program, simultaneously advocated using their program for primarily illegal purposes. Under this standard, the court held that Kaneko was not guilty.<ref name=opinion/>
+
+==Opinion of the Supreme Court of Japan==
+
+The [[Supreme Court of Japan]] voted 4-1 to uphold the [[acquittal]], with [[Takehiko Otani|Justice Otani]] dissenting. [[Kiyoko Okabe|Justice Okabe]] upheld the [[Osaka High Court]]'s opinion, while the other majority judges upheld the acquittal but denied the Osaka High Court's legal interpretation.<ref name=opinion/>  
+
+===Osaka High Court’s legal standard===
+
+The Osaka High Court held that a person who provided value-neutral software to the public through the internet is only liable for criminal assistance if they simultaneously encouraged using the software solely or primarily for illegal purposes. The Supreme Court rejected this narrow interpretation for criminal assistance. The Supreme Court held that in these cases, other factors should be considered such as the character of the program, the probability of the program being used for illegal acts, and how the program had actually been used.<ref name=opinion/>  
+
+===Holding and reasoning===
+
+Looking at the facts of Kaneko's case, the court agreed that Winny was a value-neutral program, capable of legal and illegal usage, and that each user independently decided on whether to use Winny for infringement or other purposes. The court also stated that it was not unusual or unreasonable for Kaneko, in the course of developing this program, to offer it to the public in order to receive user feedback during development. In order not to excessively chill the development of such programs, the court held that merely providing the program with knowledge of a general possibility that someone would use it for copyright infringement does not consist of criminal assistance, even if users subsequently did use the program to infringe.<ref name=opinion/>  
+
+Instead, the court established two situations in which a provider of value-neutral software programs could be complicit in the infringing conduct of the programs' users. First, if the provider released the program with knowledge and acceptance that specific acts of copyright infringement would be done using the program, and then such acts of copyright infringement were actually done in reality. Second, if the provider released the program with knowledge and acceptance of the high probability that more than just a few users would use the program for copyright infringement, and then the program was actually used for copyright infringement in reality.<ref name=opinion/>
+
+Applying the above standard to this case, the court held that Kaneko did not have knowledge of specific acts of copyright infringement that would be done by users of Winny. The court further stated that while there objectively was a high probability that many users of Winny would use the program to infringe, it was difficult to say that Kaneko knew and accepted this high probably when he released Winny. Thus, the court found Kaneko not guilty.<ref name=opinion/>
+
+===Justice Otani’s dissent===
+
+Justice Otani, on the contrary, concluded that Kaneko was guilty. Otani did not object to the majority's legal standard, but stated that Kaneko knew and accepted the high probability that more than a few people would use Winny for copyright infringement. Otani conceded that Kaneko did not intend for his program to be primarily used for infringement, nor did he encourage users to use Winny unlawfully. However, Otani pointed out that Kaneko had continued to provide Winny without restraining the illegal usage; thus, Kaneko must have had knowledge of the high probability of copyright infringement.<ref name=opinion/>
+
+==References==
+{{Reflist|colwidth=33em}}
+
+==External links==
+*Mike Masnick "[http://www.techdirt.com/articles/20061214/121055.shtml Japanese Court Decides That Making Software That's Used For Some Illegal Things Is Illegal]", [[techdirt]], Dec. 14, 2006
+*Jared Moya "[http://www.zeropaid.com/news/8122/winny_developer_gets_fined_12500_usd_for_aiding_copyright_infringement/ Winny Developer gets fined $12,500 USD for aiding copyright infringement]", ZeroPaid, Dec. 14, 2006
+*"[http://www.japantimes.co.jp/text/nn20090120a7.html File-share developer appeals penalty]", The Japan Times ONLINE, Jan. 20, 2009
+*"[http://www.japantimes.co.jp/text/ed20091016a1.html Winny creator rightly acquitted]", The Japan Times ONLINE, Oct. 16, 2009
+*Karl-Friedrich Lenz "[http://k.lenz.name/LB/?p=5726 Winny developer acquitted at Supreme Court]", Lenz Blog, Dec. 21, 2011
+*"[http://www.japantimes.co.jp/text/ed20111226a2.html Absurd arrest rectified]", The Japan Times ONLINE, Dec. 26, 2011
+*Mike Masnick "[http://www.techdirt.com/articles/20111227/04240017202/japanese-supreme-court-says-developer-file-sharing-software-not-guilty-infringement-done-users.shtml Japanese Supreme Court Says Developer Of File Sharing Software Not Guilty Of Infringement Done By Users]", techdirt, Dec. 28, 2011
+
+[[Category:Japanese copyright law]]

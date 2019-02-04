@@ -1,0 +1,62 @@
+[[File:Mariner4 flyby.jpg|thumb|300px|Data collected from [[Mariner 4]]'s flyby on a modern map]]
+[[File:M04 3 4a.jpg|thumb|This shows two of the frames from the Mariner 4 flyby projected over a grid]]
+A '''Mars flyby''' is a movement of [[spacecraft]] passing in the vicinity of the [[planet Mars]], but not entering [[Orbit (celestial mechanics)|orbit]] or landing on it.<ref name="portree2001flyby">
+Page 15-16 in Chapter 3 of David S. F. Portree's ''Humans to Mars: Fifty Years of Mission Planning, 1950 - 2000,'' NASA Monographs in Aerospace History Series, Number 21, February 2001. Available as [https://history.nasa.gov/monograph21/humans_to_Mars.htm NASA SP-2001-4521].</ref> Unmanned space probes have used this method to collect data on Mars, as opposed to orbiting or landing.<ref name=bbc/> A spacecraft designed for a [[Flyby (spaceflight)|flyby]] is also known as a "flyby bus" or "flyby spacecraft".<ref>{{cite book|author=Joseph A. Angelo|title=Encyclopedia of Space and Astronomy|url=https://books.google.com/books?id=VUWno1sOwnUC&pg=PA171|year=2014|publisher=Infobase Publishing|isbn=978-1-4381-1018-9|page=171}}</ref>
+
+==Concepts==
+One application of a Mars flyby is for a human mission, where after landing and staying on the surface for some time the ascent stage has a [[space rendezvous]] with another, unmanned spacecraft, that was launched separately from Earth, flying by. This  would mean the ascent stage of the lander to reach the speed necessary equal to that of the spacecraft flying by, but the resources needed for Earth return would not have to enter or leave Mars orbit.<ref name="portree2001flyby"/><ref name="Astronautica - FLEM">[http://www.astronautix.com/craft/flem.html Astronautica - FLEM]{{dead link|date=November 2017 |bot=InternetArchiveBot |fix-attempted=yes }}</ref>
+
+The spacecraft they live in on the journey to Mars does the flyby, but the crew separates and goes into a lander.<ref name="portree2001flyby"/> The Excursion module's ascent stage must rejoin the main spacecraft before it gets too far away.<ref name="portree2001flyby"/> An advantage is that the resources needed for Earth return don't have to enter and leave Mars orbit, but the ascent stage has to perform [[space rendezvous]] in solar orbit and the time on Mars is constrained by the need to this.<ref name="portree2001flyby"/><ref name="Astronautica - FLEM"/> [[Mars cycler]]s orbit the Sun in such a way as to pass by Mars and the Earth on regular intervals, performing Mars flybys on regular intervals. The crews would live on the stations during the interplanetary voyages. The concept for [[Flyby Excursion Landing Module]] is that a lander and flyby would separate in solar orbit, the lander would accelerate to get to Mars first, then land on Mars meanwhile the other segment does a Mars flyby, then the lander takes off and rendezvous with the flyby segment transferring the crew over.<ref>[https://www.wired.com/wiredscience/2014/01/to-mars-by-flyby-landing-excursion-mode-flem-1966/ W.I.R.E.D.]</ref> (see also [[Mars Excursion Module]] (MEM))
+
+Alternately, a flyby-only human mission is also possible, without detaching at Mars, but to [[Gravitational slingshot|slingshot]] around Mars and back to Earth.<ref>Washington Post, [https://www.washingtonpost.com/national/health-science/dennis-titos-mission-to-mars-launching-in-2018-for-the-children-and-to-beat-china/2013/02/27/4a4a98ce-8135-11e2-8074-b26a871b165a_story.html "Dennis Tito’s mission to Mars: Launching in 2018 for the children (and to beat China)"], Brian Vastag, 27 February 2013</ref>
+
+==History==
+[[File:Rosetta’s self-portrait at Mars (12743274474).jpg|thumb|left|upright|Photograph by ''[[Philae (spacecraft)|Philae]]''{{'}}s ROLIS camera of ''[[Rosetta (spacecraft)|Rosetta]]'' and Mars in February 2007]]
+In July 1965, Mariner 4 achieved a flyby of Mars with a return of data, providing the public and scientists with dramatically closer images of Mars.<ref name=status>{{cite journal|url = http://www.sciencedirect.com/science/article/pii/S0032063315001956 | doi=10.1016/j.pss.2015.06.017 | bibcode=2015P&SS..117..207S | volume=117 | title=On the status of orbital high-resolution repeat imaging of Mars for the observation of dynamic surface processes | year=2015 | journal=Planetary and Space Science | pages=207–222 | last1 = Sidiropoulos | first1 = P. | last2 = Muller | first2 = J.-P.}}</ref> During the flyby Mariner 4 took 21 pictures amounting to about 1% of the surface of Mars.<ref name=status/> Mars was not globally mapped until the [[Mariner 9]] orbiter, which over the course of 1972 to 1973 took thousands of images up to 100m a pixel.<ref name=status/> Observations from optical ground-based Earth telescopes have to peer through the atmosphere which blurred images, typically limiting them to resolving features about {{convert|300|km|mile|sp=us}} across even when Earth and Mars are closest.<ref name="usra">[http://www.lpi.usra.edu/publications/slidesets/redplanet2/slide_2.html] THE RED PLANET: A SURVEY OF MARS Slide 2 Earth Telescope View of Mars [http://www.lpi.usra.edu/publications/slidesets/redplanet2/index.shtml index]</ref>
+
+In October 1999, [[Deep Space 1]] made observations of Mars after its flyby of asteroid Braille.<ref name="naif.jpl.nasa.gov">[http://naif.jpl.nasa.gov/pub/naif/pds/data/ds1-a_c-spice-6-v1.0/ds1sp_1000/catalog/mission.cat]</ref> Although this was a very distant flyby it did succeed in taking multiple infrared spectra with its MICAS instrument of the planet.<ref name="naif.jpl.nasa.gov"/>
+
+In 2018, [[Mars Cube One]] (MarCO), two flyby [[CubeSat]]s to relay communication from ''[[InSight]]'' lander during its EDL were launched towards Mars with the cruise stage.<ref>{{Cite web|url=http://www.planetary.org/blogs/emily-lakdawalla/2018/0501-marco-cubesats-to-mars.html|title=MarCO: CubeSats to Mars!|website=www.planetary.org|language=en|access-date=2018-11-26}}</ref> Both MarCOs reached Mars and successfully relayed data during the entry, descent, and landing phase of ''Insight'' on November 26, 2018.<ref name=":0">{{Cite news|url=https://www.space.com/42541-mars-insight-lander-success.html|title=Touchdown on Mars! NASA's InSight Lands to Peer Inside the Red Planet|work=Space.com|access-date=2018-11-26}}</ref>
+
+==List of Mars flybys==
+[[File:Pickering-Johnson.jpg|thumb|An image taken during the Mariner 4 Mars flyby is presented to the U.S. President]]
+
+[[File:Mariner 7 lift-off.jpg|thumb|right|Mariner 7 lift-off]]
+
+===20th century===
+*[[Mariner program]] spacecraft
+**[[Mariner 4]], mapped 1% of Mars with 21 images and returned other data.<ref name=status/>
+**[[Mariner 6 and 7|Mariner 6, and Mariner 7]] returned data from Mars flybys, mapping about 20% of Mars more closely with a couple hundred images.<ref name=status/>
+*[[Mars program]] spacecraft
+**Two Mars flyby attempts were made in 1960 under [[Mars 1M]] (Mars 1960A and Mars 1960B). 
+**The third attempt at a Mars flyby was the Soviet [[Mars 2MV-4 No.1]],<ref name="LL">{{cite web|url=http://planet4589.org/space/log/launchlog.txt|title=Launch Log|last=McDowell|first=Jonathan|publisher=Jonathan's Space Page|accessdate=29 July 2010}}</ref>  also called Mars 1962A or Sputnik 22, which launched in 1962 as part of the [[Mars program]].<ref name="RSW">{{cite web|url=http://www.russianspaceweb.com/spacecraft_planetary_mars.html |title=Russia's unmanned missions to Mars |last=Zak |first=Anatoly |publisher=RussianSpaecWeb |accessdate=29 July 2010 |deadurl=yes |archiveurl=https://web.archive.org/web/20100720011556/http://www.russianspaceweb.com/spacecraft_planetary_mars.html |archivedate=20 July 2010 |df= }}</ref> but it was destroyed in [[low Earth orbit]] due to rocket failure.<ref name="EA">{{cite web|url=http://www.astronautix.com/project/mars.htm|title=Mars|last=Wade|first=Mark|publisher=[[Encyclopedia Astronautica]]|accessdate=29 July 2010|deadurl=yes|archiveurl=https://web.archive.org/web/20101208124224/http://www.astronautix.com/project/mars.htm|archivedate=8 December 2010|df=}}</ref> 
+**[[Mars 1]] also launched in 1962 but communications failed before it reached Mars.<ref name=mihos>[http://burro.astr.cwru.edu/stu/advanced/20th_soviet_mars.html The Soviet Mars program] {{webarchive|url=https://web.archive.org/web/20131013211415/http://burro.astr.cwru.edu/stu/advanced/20th_soviet_mars.html |date=2013-10-13 }}, Professor Chris Mihos, Case Western Reserve University</ref> 
+**Mars 4 achieved a flyby in 1974 and detected a nightside ionosphere.<ref name=mihos/>
+**Mars 6 and 7 were Mars landers carried by instrumented flyby buses.<ref>[http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1973-052A NASA - Mars 6]</ref>
+
+===21st century===
+*''[[Dawn (spacecraft)|Dawn]]'', closest approach was 549&nbsp;km.<ref>{{cite web | url = http://www.planetary.org/blog/article/00001755/ | title = Dawn Journal: Aiming away from a bull's eye at Mars| accessdate=2010-03-21 | first = Marc D. | last = Rayman | publisher = [[The Planetary Society]]}}</ref><ref>{{cite web | url =http://www.space.com/missionlaunches/090218-dawn-asteroid-mars.html | title = Asteroid-Bound Probe Zooms Past Mars | publisher =  [[Space.com]] | first =Tariq | last= Malik  | date = February 18, 2009| accessdate=2010-03-21}}</ref>
+*''[[Rosetta (spacecraft)|Rosetta]]'',<ref>[http://www.esa.int/SPECIALS/Rosetta/SEMWZ5CE8YE_0.html ESA - Rosetta successfully swings-by Mars],</ref> within 250&nbsp;km<ref name=bbc>[http://news.bbc.co.uk/2/hi/6394141.stm Space probe performs Mars fly-by - BBC]</ref>
+*''[[Nozomi (spacecraft)|Nozomi]]'',<ref>[http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1998-041A NSSDC - Nozomi]</ref> flewby at about 1000&nbsp;km<ref>[http://www.planetary.org/explore/space-topics/space-missions/missions-to-mars.html]</ref>
+*[[Mars Cube One]], twin flyby relay communication CubeSats for ''[[InSight]]'' lander.<ref name=":0" />
+
+==See also==
+*[[List of Earth flybys]]
+*[[List of missions to Mars]]
+*[[Planetary flyby]]
+
+== References ==
+{{reflist}}
+
+==External links==
+*[https://web.archive.org/web/20120618074919/http://www.astronautix.com/fam/marflyby.htm Astronautix - Mars flyby]
+*[http://www.esa.int/images/MarsNACTwoColor_H,0.JPG Mars by ''Rosetta'']  [http://www.esa.int/images/AnnotatedNACT_H.jpg Annotated] [http://www.esa.int/SPECIALS/Rosetta/SEMUDT70LYE_1.html#subhead2 ESA source]
+*[http://petermasek.tripod.com/m67ex11.html Mariner 6 montage]
+*[http://www.esa.int/spaceinimages/Images/2007/02/Stunning_image_of_Rosetta_above_Mars_taken_by_the_Philae_lander_camera ''Rosetta'' view of Mars during swingby by its comet lander Philae]
+
+{{Mars spacecraft}}
+{{portal bar|Mars}}
+
+[[Category:Exploration of Mars]]
+[[Category:Spaceflight concepts]]
+[[Category:Flybys]]

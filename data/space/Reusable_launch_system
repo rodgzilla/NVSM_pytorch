@@ -1,0 +1,305 @@
+[[File:STS120LaunchHiRes-edit1.jpg|thumb|The [[Space Shuttle Discovery]] launching from [[Kennedy Space Center Launch Complex 39|Kennedy Space Center]]]]
+A '''reusable launch system''' ('''RLS''', or '''reusable launch vehicle''', '''RLV''') is a space launch system intended to allow for recovery of all or part of the system for later reuse. To date, several fully reusable [[sub-orbital]] systems and partially reusable [[orbital spaceflight|orbital]] systems have been flown. However the design issues are extremely challenging and no fully reusable [[Orbital spaceflight|orbital]] launch system has yet been demonstrated. A wide variety of system concepts have been proposed, and several are represented in those which have actually flown.
+
+The first aircraft to attain sub-orbital flight was the [[North American X-15]].  The first reusable vehicle to reach orbit was [[NASA]]'s [[Space Shuttle]].  It was intended to reduce launch costs below those of [[expendable launch system]]s, but instead ended up being more expensive.  The last Shuttle was [[Space Shuttle retirement|retired]] in 2011.
+
+During the 21st century, commercial interest in reusable launch systems has grown. The [[SpaceX]] [[Falcon 9]] rocket has a reusable [[first stage (rocketry)|first stage]] and expendable second stage, and is currently in use for the NASA [[Commercial Orbital Transportation Services]] program and commercial satellite launches. Additionally, [[SpaceX]] is developing the fully reusable [[BFR (rocket)|BFR]] for manned interplanetary missions. [[Scaled Composites]] have flown two prototype sub-orbital [[spaceplane]]s for [[Virgin Galactic]], while the [[Blue Origin]] [[New Shepard]] rocket has recoverable first and second stages but is only capable of suborbital flights.
+
+==Vehicle configurations==
+===Single stage===
+There are two approaches to [[Single-stage-to-orbit|Single stage to orbit]] or SSTO.  The [[rocket equation]] says that an SSTO vehicle needs a high [[mass ratio]].  "Mass ratio" is defined as the mass of the fully fueled vehicle divided by the mass of the vehicle when empty (zero fuel weight, ZFW).
+
+One way to increase the mass ratio is to reduce the mass of the empty vehicle by using very lightweight structures and high-efficiency engines.  This tends to push up maintenance costs as component reliability can be impaired, and makes reuse more expensive to achieve.
+
+Another is to reduce the weight of oxidant carried, by burning the fuel in air during the atmospheric stage of flight. A dual-cycle [[powerplant]] such as a [[liquid air cycle engine]] or the proposed [[SABRE (rocket engine)|SABRE]] engine is used.
+
+The margins are so small with the SSTO approach that there is uncertainty whether such a vehicle could carry any payload into orbit.
+
+Another way that SSTO can be made to work is to reduce the amount of velocity the launch vehicle needs to achieve to reach orbit.  This can be done by using a [[Rocket sled launch|ground accelerator]] to accelerate the launch vehicle to Mach 1 or higher, [[Air launch to orbit|air launching]] from a carrier aircraft such as [[Stratolaunch Systems|Stratolaunch]].
+
+===Multiple stages===
+[[Two stage to orbit]] uses two vehicles, joined together at launch. Usually the second-stage orbiter is 5-10 times smaller than the first-stage launcher, although in '''biamese''' and '''triamese'''<ref>{{cite web|url=http://www.astronautix.com/lvs/triamese.htm|title=Triamese|publisher=Astronautix.com|accessdate=7 January 2015|deadurl=yes|archiveurl=https://web.archive.org/web/20141227012608/http://www.astronautix.com/lvs/triamese.htm|archivedate=27 December 2014|df=}}</ref> configurations both vehicles are the same size.
+
+Besides the cost of developing two independent vehicles, the complexity of the interactions between them both as a unit and when separating must also be evaluated.
+
+In addition, the first stage needs to be returned to the launch site for it to be reused. This is usually proposed to be done by flying a compromise trajectory that keeps the first stage above or close to the launch site at all times, or by using small air-breathing engines to fly the vehicle back, or by recovering the first stage down range and returning it some other way (often landing in the sea, and returning it by ship.) Most techniques involve some performance penalty; these can require the first stage to be several times larger for the same payload, although for recovery from downrange these penalties may be small.
+
+The second stage is normally returned after flying one or more orbits and reentering.
+
+This is also called a combination launch system.<ref>{{Cite news|url=http://www.high-frontier.org/how-a-combination-launch-system-works/|title=How a Combination Launch System Works - Opening the High Frontier|date=2017-09-04|work=Opening the High Frontier|access-date=2018-03-04|language=en-US}}</ref>
+
+==== Clustering {{Anchor|Biamese}}{{Anchor|Triamese}} ====
+
+In a cluster system, multiple stages are stacked side by side and typically burn in parallel, but only one is the orbiter. As the orbiter burns fuel, crossfeeds from the tanks of the booster stages may be used to keep it topped up. Once a booster runs dry it separates and (typically) glides back to a safe landing for re-use. {{citation needed|date=September 2016}}
+
+Although not fully re-usable, the [[Space Shuttle]] used a similar crossfeed between the main external tank and the Shuttle orbiter.
+
+The fully reusable [[BAC Mustard]] project included an engine in each of its near-identical modules, allowing its shut-down engines to be discarded along with the empty tankage, where the Shuttle had the penalty of carrying its shut-down engines into orbit. A criticism of this approach is that designing separate orbiter and boosters, or a single vehicle that could do both, would compromise performance, safety, and possible cost savings. Compromising maximum performance to reduce cargo cost, however, is the point of the clustering approach. Stacking two or three winged vehicles can also be challenging.
+
+=== Launch ===
+All orbital vehicles to date have been launched vertically.  Rockets are good for this regime because they have a very high thrust/weight ratio (~100).
+
+[[Non-rocket spacelaunch]] systems provide a theoretical increase in efficiency. Since rocket [[delta-v]] has a non linear relationship to [[Propellant mass fraction|mass fraction]] due to the [[rocket equation]], any small reduction in delta-v gives a relatively large reduction in the required mass fraction; and starting a mission at higher altitude also helps.
+
+A vehicle which takes off, or separates from the previous stage horizontally, needs wings.  A '[[wet wing]]' might be used, where the wing contains propellant.  Wings may be about 9-12% of the vehicle takeoff weight.
+
+Rockets [[air launch]]ed from aircraft may be considered to be at least partially reusable, because the launch aircraft is reusable.  An example of this configuration is the [[Pegasus (rocket)|Orbital Sciences Pegasus]] system.
+
+The [[Scaled Composites Tier One]] combination of [[SpaceShipOne]] and [[White Knight One]] used wings on both the launch aircraft and the sub-orbital second stage.
+
+Other proposed launch assists include [[high-altitude balloon]]s such as the [[zero2infinity]]  [[bloostar]].<ref>{{cite journal|last1=Reyes|first1=Tim|title=Balloon launcher Zero2Infinity Sets Its Sights to the Stars|journal=Universe Today|date=October 17, 2014|url=http://www.universetoday.com/115391/balloon-launcher-zero2infinity-sets-its-sights-to-the-stars/|accessdate=9 July 2015}}</ref> More speculative technologies include [[Rocket sled launch|ground-based sleds]], [[Maglev (transport)|maglev]] systems, high-altitude (80&nbsp;km) maglev systems such as [[launch loop]]s, and more exotic systems such as [[tether propulsion]] systems to catch the vehicle at high altitude, or even [[Space Elevator]]s.
+
+===Landing===
+[[File:Kluft-photo-SS1-landing-June-2004-Img 1406c.jpg|thumb|right|[[Scaled Composites SpaceShipOne]] used horizontal landing after being launched from a carrier airplane]]
+Every component vehicle of a reusable system must be able to land safely.
+
+Horizontal landers require wings and undercarriage (unless landing at sea). This typically requires about 9-12% of the landing vehicle to be wings; which in turn implies that the takeoff weight is higher and/or the payload smaller. Concepts such as [[lifting body|lifting bodies]] attempt to deal with the somewhat conflicting issues of reentry, hypersonic and subsonic flight; as does the [[delta wing]] shape of the [[Space shuttle|Space Shuttle]].
+
+[[File:McDonnell Douglas DC-XA.jpg|thumb|right|[[McDonnell Douglas DC-X]] used vertical takeoff and vertical landing]]
+A variety of systems are proposed for vertical landers. Parachutes may be augmented with small landing rockets (as with Soyuz). McDonnell Douglas DC-X ascended to an altitude of about 3.1 kilometers before returning safely.<ref name="arstechnica20151125"/> Alternatively, rockets could be used to fully decelerate and soft land the vehicle on the ground, after the subsonic speeds had been reached at low altitude (see [[DC-X]]). This typically requires about 10% of the vehicle's landing weight to be propellant. [[SpaceX]]'s [[Falcon 9]] rocket became the first orbital rocket to vertically land its first stage on the ground, after propelling its second stage and payload to a suborbital trajectory, where it would continue on to orbit.<ref>{{cite web|url=https://twitter.com/SpaceX/status/679114269485436928|title=SpaceX on Twitter|author=|date=|work=Twitter|accessdate=January 7, 2016}}</ref> A different approach to vertical landing is to use an [[autogyro]] or [[helicopter]] rotor. This requires perhaps 2-3% of the landing weight for the rotor {{Citation needed|date=January 2019}}.
+
+===Airbreathing engines===
+Airbreathing approaches use the air during ascent for propulsion. The most commonly proposed approach is the [[scramjet]], but [[turborocket]], [[Liquid air cycle engine|Liquid Air Cycle Engine]] (LACE) and [[precooled jet engine]]s have also been proposed such as the [[SABRE (rocket engine)|SABRE engine]].
+
+In all cases, the highest speed that an air-breathing engine can reach is far short of orbital speed (about Mach 15 for Scramjets and Mach 5-6 for the other engine designs), and rockets would be used for the remaining 10-20 Mach required for orbit.
+
+The thermal situation for airbreathers (particularly scramjets) can be awkward; normal rockets fly steep initial trajectories to avoid drag, whereas scramjets would deliberately fly through the relatively thick atmosphere at high speed generating enormous heating of the airframe. The thermal situation for the other airbreathing approaches is much more benign, although is not without its challenges.
+
+==Design issues==
+
+===Weight===
+Any RLV is degrading the launcher's performance compared to [[Expendable launch vehicle|ELV]] due to additional stage inert mass. This additional mass is almost unavoidable due to either supplementary mechanical or propulsion systems or surplus propellant needed for the safe return of RLV stages. The actual amount of the mass penalty and its dispersal between structure and propellant is depending on the chosen RLV stage return modes and staging velocity.<ref name=IAC2017 >{{Citation |url = http://elib.dlr.de/114960/1/IAC17-D2.4.4.pdf| first1 = M | last1 = Sippel | first2 = S | last2 = Stappert | first3 = L | last3 = Bussler | first4 = E | last4 = Dumont | title = Systematic Assessment of Reusable First-Stage Return Options | journal = IAC-17-D2.4.4, 68th International Astronautical Congress, Adelaide, Australia.  | date= September 2017}}</ref>
+
+===Reentry heat shielding===
+{{main|Atmospheric entry}}
+[[Robert Zubrin]] has said that as a rough rule of thumb, 15% of the landed weight of a vehicle needs to be aerobraking reentry shielding.<ref name="atom">{{cite web |url=http://www.projectrho.com/rocket/basicdesign.php |title=Basic Design |first=Winchell D. Jr. |last=Chung |publisher=Projectrho.com |date=2011-05-30 |work=Atomic Rockets |accessdate=2011-07-04 }}</ref>
+
+Reentry heat shields on these vehicles are often proposed to be some sort of ceramic and/or [[Reinforced carbon-carbon|carbon-carbon]] heat shields, or occasionally metallic heat shields (possibly using water cooling or some sort of relatively exotic rare earth metal.)
+<ref>{{cite web
+ | url = https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20120016878.pdf
+ | title = Thermal Protection Materials: Development, Characterization, and Evaluation
+ | last = Johnson
+ | first = Sylvia
+ | date = September 2012
+ | publisher = NASA Ames Research Center }}
+</ref>  
+[[Ablative heat shield]]s offer light weight, but are not reusable.
+
+A newer [[Thermal Protection System]] (TPS) technology was first developed for use in steering fins on ICBM [[Multiple independently targetable reentry vehicle|MIRV]]s.  Given the need for such warheads to reenter the atmosphere swiftly and retain hypersonic velocities to sea level, researchers developed what are known as SHARP materials, typically [[hafnium diboride]] and [[zirconium diboride]], whose thermal tolerance exceeds 3600 C. SHARP equipped vehicles can fly at Mach 11 at 30&nbsp;km altitude and Mach 7 at sea level.  The sharp-edged geometries permitted with these materials also eliminates plasma shock wave interference in radio communications during reentry.  SHARP materials are very robust and would not require constant maintenance as did the silica tiles used on the Space Shuttle, which accounted for over half of that vehicle's maintenance costs and turnaround time.  The maintenance savings are thus a major factor in favor of using these materials for a reusable launch vehicle.
+
+===Development cost===
+The [[research & development]] costs of reusable vehicle are expected to be higher, because making a vehicle reusable implies making it robust enough to survive more than one use, which adds to the testing required. Increasing robustness is most easily done by adding weight; but this reduces performance and puts further pressure on the R&D to recoup this in some other way.
+
+These extra costs must be recouped; and this pushes up the average cost of the vehicle.
+
+===Maintenance===
+{{Unreferenced section|date=March 2016}}
+Reusable launch systems require maintenance, which is often substantial. The Space Shuttle system required extensive refurbishing between flights, primarily dealing with the silica tile TPS and the high performance LH2/LOX burning main engines. Both systems require a significant amount of detailed inspection, rebuilding and parts replacement between flights, and account for over 75% of the maintenance costs of the Shuttle system. These costs, far in excess of what had been anticipated when the system was constructed, have cut the maximum flight rate of Shuttle to 1/4 of that planned. This has also quadrupled the cost per pound of payload to orbit, making Shuttle economically infeasible in today's launch market for any but the largest payloads, for which there is no competition.
+
+For any RLV technology to be successful, it must learn from the failings of Shuttle and overcome those failings with new technologies in the TPS and propulsion areas.
+
+===Manpower and logistics===
+The Space Shuttle program required a standing army of over 9,000 employees to maintain, refurbish, and relaunch the shuttle fleet, irrespective of flight rates. That manpower budget must be divided by the total number of flights per year. The fewer flights means the cost per flight goes up significantly. Streamlining the manpower requirements of any launch system is an essential part of making an RLV economical. Projects that have attempted to develop this ethic include the DC-X Delta Clipper project, as well as SpaceX's Falcon 9 and Falcon 1 programs.
+
+One issue mitigating against this drive for labor savings is government regulation. Given that NASA and USAF (as well as government programs in other countries) are the primary customers and sources of development capital, government regulatory requirements for oversight, parwork, quality, safety, and other documentation tend to inflate the operational costs of any such system.
+
+==History==
+[[File:rombus.jpg|right|thumb|250px|ROMBUS]]
+[[File:Aerospaceplane.jpg|thumb|250px|[[Aerospaceplane]] 1]]
+With the invention of [[rocket propulsion]] in the first half of the twentieth century, [[Spaceflight|space travel]] in the void beyond the [[atmosphere]] became a technical possibility.
+
+Early ideas of a single-stage reusable [[spaceplane]] proved unrealistic and although the first practical rocket vehicles such as the [[V-2]] weapon of WWII could reach the fringes of space, re-usable technology was too heavy and the rockets were expendable. The problem of mass efficiency could be overcome using multiple stages and both vertical-launch [[multistage rocket]]s and horizontal-launch [[composite aircraft|composite]] spaceplanes were proposed. However the first re-usable stages did not appear until the advent of the US [[Space Shuttle]] in 1981.
+
+===Early studies===
+During WWII the German [[Eugen Sänger]] proposed the [[Silbervogel]] ("Silverbird") [[suborbital]] skip bomber. HTOL vehicles which can reach [[Orbital speed|orbital velocity]] are harder to design than VTOL due to their higher vehicle structural weight. This led to several multi-stage prototypes such as a [[suborbital]] [[X-15]]. [[Aerospaceplane]] being one of the first HTOL SSTO concepts. Proposals have been made to make such a vehicle more viable including:
+* [[Rocket sled launch|Rail boost]] (e.g. 270&nbsp;m/s at 3000 m on a mountain allowing 35% less [[SSTO]] takeoff mass for a given payload in one NASA study)<ref>{{cite web|url=http://forum.nasaspaceflight.com/index.php?action=dlattach;topic=24756.0;attach=288934|title=The Maglifter: An Advanced Concept Using Electromagnetic Propulsion in Reducing the Cost of Space Launch|publisher=NASA|accessdate=24 May 2011}}</ref>
+* Use of [[lifting body]] designs to reduce vehicle structural mass.
+* Use of in-flight refueling.
+
+During the 1960s the partially reusable multi-stage [[NEXUS (launch vehicle)|NEXUS]] launcher was studied by [[Krafft Arnold Ehricke]]. [[Philip Bono]], worked at [[Douglas Aircraft Company|Douglas]], proposed several VTOL SSTO launch vehicles including: [https://web.archive.org/web/20160303191204/http://www.astronautix.com/lvs/roost.htm ROOST], [https://web.archive.org/web/20080611053600/http://www.astronautix.com/lvs/rombus.htm ROMBUS], [https://web.archive.org/web/20020528222509/http://www.astronautix.com/lvs/ithacus.htm Ithacus], [https://web.archive.org/web/20160303180623/http://www.astronautix.com/lvs/pegvtovl.htm Pegasus] and [[Douglas SASSTO|SASSTO]]. Most of his vehicles combined similar innovations to achieve SSTO capability. Bono proposed:
+* [[Plug nozzle]] engines to retain high specific impulse at all altitudes.
+* Base first re-entry which allowed the reuse of the engine as a heat shield, lowering required heat shield mass.
+* Use of [[spherical]] tanks and stubby shape to reduce vehicle structural mass further.
+* Use of drop tanks to increase range.
+* Use of in-orbit refueling to increase range.
+Bono also proposed the use of his vehicles for space launch, rapid intercontinental military transport (Ithacus), rapid intercontinental civilian transport (Pegasus), even Moon and Mars missions ([https://web.archive.org/web/20090207162229/http://astronautix.com/craft/proelena.htm Project Selena], [https://web.archive.org/web/20081226175811/http://www.astronautix.com/craft/proeimos.htm Project Deimos]).
+
+In Europe, Dietrich Koelle, inspired by Bono's SASSTO design, proposed his own VTVL vehicle named [http://www.spacefuture.com/archive/beta_a_single_stage_reusable_ballistic_space_shuttle_concept.shtml BETA].
+
+Other launch system configuration designs are possible such as horizontal launch with vertical landing ([[HTVL]]) and vertical launch with horizontal landing ([[VTHL]]). One of the few HTVL vehicles is the 1960s concept spacecraft Hyperion SSTO, designed by Philip Bono.<ref name=as1999>
+{{cite web |last=Wade |first=Mark |title=Hyperion SSTO |url=http://www.astronautix.com/lvs/hypnssto.htm |publisher=Astronautix |accessdate=2011-02-06 |quote=''The 'Hyperion' vehicle was truly remarkable since it would have been launched horizontally and landed vertically (HTVL) — an extremely rare combination. The payload capability was 110 passengers or 18t of cargo.'' |deadurl=yes |archiveurl=https://web.archive.org/web/20110513234043/http://www.astronautix.com/lvs/hypnssto.htm |archivedate=2011-05-13 |df= }}</ref>
+[[X-20 Dyna-Soar]] is an early example of a VTHL design,{{Citation needed|date=February 2011}}
+while the [[HL-20 Personnel Launch System|HL-20]] and [[Orbital Sciences X-34|X-34]] are examples from the 1990s.{{Citation needed|date=February 2011}}
+{{as of|2010|2}}, the VTHL [[Boeing X-37|X-37]] has completed initial development and flown an initial [[Classified information|classified]] [[Low Earth orbit|orbital]] mission of over seven months duration.{{Citation needed|date=February 2011}}
+Currently proposed VTHL [[human spaceflight|manned]] spaceplanes include the [[Dream Chaser (spacecraft)|Dream Chaser]] and [[Prometheus (spacecraft)|Prometheus]], both circa 2010 concept spaceplanes proposed to NASA under the [[CCDev]] program.{{Citation needed|date=February 2011}}
+
+===The Space Shuttle era===
+The late 1960s saw the start of the [[Space Shuttle]] design process. From an initial multitude of ideas, a two-stage reusable [[VTHL]] design was pushed forward that eventually resulted in a reusable orbiter payload spacecraft and reusable [[solid rocket]] boosters. The [[Space Shuttle external tank|external tank]] and its [[Rigid frame|load frame]] were discarded, and the parts that were reusable took a 10,000-person group nine months to refurbish for flight.{{Citation needed|date=December 2017}} Early studies from 1980 and 1982 proposed [[low-Earth orbit|in-space]] uses for the tank<ref name=nasaStudy1982>[https://web.archive.org/web/20100513080246/https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19940004970_1994004970.pdf NASA-CR-195281, "Utilization of the external tanks of the space transportation system"]</ref><ref name=nasaStudy1980>{{cite web|url=http://www.astronautix.com/craft/stsation.htm|title=STS External Tank Station|publisher=Ntrs.nasa.gov|accessdate=7 January 2015|deadurl=yes|archiveurl=https://web.archive.org/web/20150407010201/http://www.astronautix.com/craft/stsation.htm|archivedate=7 April 2015|df=}}</ref> but NASA never pursued those options beyond the proposal stage.
+
+During the 1970s, further VTOL and HTOL SSTO designs were proposed for [[solar power satellite]] and military applications. There was a VTOL SSTO [https://web.archive.org/web/20020503203134/http://www.abo.fi/~mlindroo/SpaceLVs/Slides/sld043.htm study] by [[Boeing]]. HTHL SSTO designs included the [[Rockwell International|Rockwell]] [https://web.archive.org/web/20020221182402/http://www.abo.fi/~mlindroo/SpaceLVs/Slides/sld047.htm Star-Raker] and the Boeing [https://web.archive.org/web/20020221184826/http://www.abo.fi/~mlindroo/SpaceLVs/Slides/sld041.htm HTHL SSTO study]. However, the focus of all space launch funding in the United States on the Shuttle killed off these prospects. The [[Soviet Union]] followed suit with [[Shuttle Buran|Buran]]. Others preferred expendables for their lower design risk and lower design cost.
+
+Eventually, the Shuttle was found to be even more expensive to operate than an expendable launch system.
+
+The cancellation of a Shuttle-[[Centaur rocket]] after the loss of [[Space Shuttle Challenger|Challenger]] also caused a hiatus, and the United States military scrambled back towards expendables to launch their payloads. Many commercial satellite customers had already switched to expendables, due to the lack of response to customer concerns by the Shuttle launch system.
+
+In 1986 President [[Ronald Reagan]] called for an air-breathing [[scramjet]] plane to be built by the year 2000, called [[National Aerospace Plane|NASP]]/[[X-30]] that would be capable of SSTO. Based on the research from Project '''Copper Canyon''',<ref>{{Cite web|url=http://www.astronautix.com/c/coppercanyon.html|title=Copper Canyon|website=www.astronautix.com|access-date=2018-06-08}}</ref> the project failed due to severe technical issues and was canceled in 1993.
+
+This research may have inspired the British [[HOTOL]] program, which rather than air breathing up to high [[hypersonic]] speeds as with NASP, proposed to use a pre-cooler up to Mach 5.5. The program's funding was canceled by the British government when the research identified some technical risks and indicated the proposed vehicle architecture would only be able to deliver a relatively small payload to orbit.
+
+When the Soviet Union collapsed in the early nineties, the cost of [[Buran (spacecraft)|Buran]] became untenable. [[Russia]] has only used pure expendables for space launch since.
+
+Interest in developing new reusable vehicles arose during the 1990s The military [[Strategic Defense Initiative]] ("Star Wars") program "[[Brilliant Pebbles]]" required low cost, rapid turnaround launches. From this requirement came the [[McDonnell Douglas]] [[Delta Clipper]] VTOL SSTO proposal. The [[DC-X]] prototype for Delta Clipper demonstrated rapid turnaround time, and that automatic computer control of such a vehicle was possible. It also demonstrated that a reusable space launch vehicle need not require a large standing army to maintain like the Shuttle.
+
+In mid-1990, further British research and major re-engineering to avoid deficiencies of the HOTOL design led to the far more promising [[Skylon (spacecraft)|Skylon]] design, with a much greater payload.
+
+From the commercial side, large [[satellite constellation]]s such as [[Iridium satellite constellation]] were proposed which also demanded low-cost launches. This fueled a private launch industry, including partially reusable vehicle players, such as [[Rocketplane Kistler]], and reusable vehicle players such as [[Roton SSTO|Rotary Rocket]].
+
+The end of that decade saw the implosion of the satellite constellation market with the bankruptcy of [[Iridium Satellite LLC|Iridium]]. In turn, the nascent private launch industry collapsed. The fall of the Soviet Union eventually had political ripples which led to a scaling down of ballistic missile defense, including the demise of the "Brilliant Pebbles" program. The military decided to replace their aging expendable launcher workhorses, evolved from ballistic missile technology, with the [[Evolved Expendable Launch Vehicle|EELV]] program. NASA proposed riskier reusable concepts to replace the Shuttle technology, to be demonstrated under the [[X-33]] and [[X-34]] programs.
+
+In the early 2000s, rising costs and teething problems led to the cancellation of both X-33 and X-34, and the 2003 [[Space Shuttle Columbia disaster]] caused another grounding of the fleet. The Shuttle design was now over 20 years old, and in need of replacement. Meanwhile, the military EELV program churned out a new generation of better expendables. The commercial satellite market was depressed due to a glut of cheap expendable rockets and a dearth of satellite payloads. The Space Shuttle retired in 2011.
+
+=== 21st century ===
+Against this backdrop came the [[Ansari X Prize]] contest, inspired by the aviation contests made in the early 20th century.  Many private companies competed, the winner being [[Scaled Composites]] with their reusable HTHL [[SpaceShipOne]].  It won the ten million dollars, by reaching the [[Kármán line]] twice in a two-week period.  While SpaceShipOne is [[suborbital]] like the X-15, some hope the private sector can eventually develop reusable orbital vehicles given enough incentive. [[SpaceX]] is a recent player in the private launch market succeeding in converting its [[Falcon 9]] [[Expendable launch system|expendable]] launch vehicle into a partially [[SpaceX reusable launch system development program|reusable vehicle]] by returning the [[First stage (rocketry)|first stage]] for reuse.
+
+In 2012, [[SpaceX]] had started a flight test program with experimental vehicles [[Grasshopper (rocket)|Grasshopper and F9R Dev1]]. These subsequently led to the development of the [[Falcon 9]] re-usable rocket launcher.<ref name="nsw20130328">
+{{cite news|url=http://www.newspacewatch.com/articles/spacex-moving-quickly-towards-fly-back-first-stage.html|title=SpaceX moving quickly towards fly-back first stage|last=Lindsey|first=Clark|date=2013-03-28|newspaper=NewSpace Watch|accessdate=2013-03-29|subscription=yes}}</ref>
+
+On 23 November 2015 the [[Blue Origin New Shepard]] rocket became the first [[VTVL|Vertical Take-Off/Landing (VTOL)]] rocket to reach space by passing the [[Kármán line]] (100 kilometres), reaching 329,839 feet (100.5 kilometers) before returning to a parachute landing.<ref name="space20151124">{{cite news| url=http://www.space.com/31202-blue-origin-historic-private-rocket-landing.html |title=Blue Origin Makes Historic Reusable Rocket Landing in Epic Test Flight |work=Calla Cofield |publisher=Space.Com |date=2015-11-24 |accessdate=2015-11-25 }}</ref><ref name="arstechnica20151125">{{cite web|last1=Berger|first1=Eric|title=Jeff Bezos and Elon Musk spar over gravity of Blue Origin rocket landing|url=https://arstechnica.com/science/2015/11/jeff-bezos-and-elon-musk-spar-over-gravity-of-blue-origin-rocket-landing/|website=Ars Technica|accessdate=25 November 2015}}</ref>
+
+SpaceX achieved the first vertical soft landing of a re-usable rocket stage on December 21, 2015, after helping send 11 [[Orbcomm OG-2]] commercial satellites into [[low Earth orbit]].<ref>{{cite web|url=https://twitter.com/SpaceX/status/679114269485436928|title=SpaceX on Twitter|work=Twitter}}</ref>
+
+A refurbished booster was successfully re-used on March 30, 2017 and recovered by landing on an [[Autonomous Spaceport Drone Ship]] (ASDS).<ref>{{cite news|url=https://www.theguardian.com/science/video/2017/mar/31/spacex-successfuly-launches-first-recycled-rocket-video|title=SpaceX successfuly launches first recycled rocket – video|date=31 March 2017|work=Reuters|publisher=The Guardian}}</ref> SpaceX now routinely recovers and reuses their first stages both on land and, using the ASDS, at sea.
+
+{{As of|October 2017}}, the only operational orbital reusable module is the SpaceX [[SpaceX reusable launch system development program|Falcon 9 core booster]], which forms the first stage of the Falcon 9 and also propels the [[Falcon Heavy]] three-core version.
+
+SpaceX is also developing a fully and more rapidly reusable launch system, the [[BFR (rocket)|BFR]]. The {{convert|9|m|sp=us|adj=on}} core diameter system is intended to replace both Falcon 9 and Falcon Heavy launch vehicles, as well as the [[Dragon spacecraft]], initially aiming at the Earth-orbit [[Space launch market competition|launch market]], but explicitly adding substantial capability to support [[Beyond Earth orbit|long-duration spaceflight]] in the [[cislunar]] and [[Exploration of Mars|Mars]] mission environments.<ref name=musk20170929>
+{{cite AV media |url=https://www.youtube.com/watch?v=tdUX3ypDVwI |people=Elon Musk |title=Becoming a Multiplanet Species |date=29 September 2017 |medium=video |location=68th annual meeting of the International Astronautical Congress in Adelaide, Australia |publisher=SpaceX |via=YouTube |access-date=2017-12-31}}</ref>
+
+==List of reusable launch systems==
+{|class="wikitable sortable"
+|-
+! Company !! Type !! Country !! Class !! Role !! Date !! Status !! Notes
+|-
+| [[ARCASPACE]] || [[ARCA Space Corporation#Orizont|Orizont]] ||  ||  || Sub-orbital ||  || Project || {{citation needed|date=April 2015}}
+|-
+| [[Airbus Defence and Space|Airbus]] || [[Adeline (rocket)|Adeline]] ||  ||  ||  ||  || Project || Partially reusable.<ref>[https://www.bbc.com/news/science-environment-33006056 Airbus unveils 'Adeline' re-usable rocket concept], ''BBC'', June 2015. ''Note: includes an overview of RLV systems with comparison of SpaceX, ULA and Airbus/Arianespace.''</ref>
+|-
+| [[Armadillo Aerospace|Armadillo]] || [[Black Armadillo]] ||  ||  || Sub-orbital ||  || Project || Cancelled. {{citation needed|date=April 2015}}
+|-
+| [[Blue Origin]] || [[Blue Origin New Shepard|New Shepard]] || US ||  || Sub-orbital || 2015 || Prototype || 
+|-
+| [[Blue Origin]] || [[Blue Origin New Shepard|New Glenn]] || US || Rocket || Orbital ||  || Project || First stage reusable.<ref>{{cite web|url=http://www.parabolicarc.com/wp-content/uploads/2011/06/552848main_Commercial_Crew_Program_Overview_Collura.pdf|title=Commercial Crew Program Overview|date=2011-04-22|publisher=NASA|accessdate=21 November 2011}}</ref><ref name="arstechnica20151125"/>
+|-
+| [[Canadian Arrow]] || [[Canadian Arrow]] ||  ||  || Sub-orbital ||  || Project || Cancelled {{citation needed|date=April 2015}}
+|-
+| [[British Aircraft Corporation|BAC]] || [[MUSTARD]] || UK ||  ||  ||  || Project || 
+|-
+| [[British Aerospace|BAe]] || [[HOTOL]] || UK ||  || SSO ||  || Project || 
+|-
+|  || [[Hyperion SSTO|Hyperion]] ||  ||  || SSO || 1960s || Project || [[HTVL]] spacecraft.<ref name="as1999"/>
+|-
+| || [[Kliper]] || Russia ||  ||  || 2006 || Project || partly reusable orbiter.{{citation needed|date=January 2015}}
+|-
+| DLR || [[Liquid Fly-back Booster]]  ||  ||  ||  ||  || Project || reusable boosters for Ariane 5 with additional derivatives
+|-
+|[[Indian Space Research Organisation|ISRO]]
+|[[RLV-TD]]
+|India
+|Rocket
+|
+|2012
+|Project
+|Successful flight test<ref>{{Cite web|url=https://www.isro.gov.in/update/23-may-2016/india%E2%80%99s-reusable-launch-vehicle-technology-demonstrator-rlv-td-successfully|title=India’s Reusable Launch Vehicle-Technology Demonstrator (RLV-TD), Successfully Flight Tested - ISRO|website=www.isro.gov.in|language=en|access-date=2018-09-24}}</ref> 
+|-
+| Lockheed Martin || [[Lockheed Martin X-33|X-33]] || US ||  || SSO || 2001 || Project || 
+|-
+| Lockheed Martin || [[VentureStar]] || US ||  || SSO || 2001 || Project || 
+|-
+|  || [[MAKS (spacecraft)|MAKS]] ||  Russia ||  ||  ||  || Project || Buran-like smaller winged reusable orbiter on heavy aircraft carrier.
+|-
+| [[Makeyev Rocket Design Bureau|Makeyev]] || [[CORONA (SSTO)|CORONA]] || Russia ||  || SSO ||  || Project ||
+|-
+| [[Masten Space Systems|Masten]] || [[XA 1.0]] ||  ||  || Launch stage ||  || Project || {{citation needed|date=April 2015}}
+|-
+| [[NPO Molniya|Molniya]] || [[Baikal (rocket booster)|Baikal]] || France, Russia ||  ||  || early-2000s || Project || Cancelled.<ref name=sn20150105>
+{{cite news |last1=de Selding|first1=Peter B. |title=With Eye on SpaceX, CNES Begins Work on Reusable Rocket Stage |url=http://spacenews.com/with-eye-on-spacex-cnes-begins-work-on-reusable-rocket-stage/ |accessdate=6 January 2015 |work=SpaceNews |date=5 January 2015 }}</ref>
+|-
+| [[North American Aviation|North American]] || [[North American X-15|X-15]] || US || Spaceplane || Sub-orbital || 1959 || Operational || Air launched. Retired.
+|-
+| [[NASA]] || [[Space Shuttle]] || US || Spaceplane || Orbital || 1981 || Operational || Vertical launch. Retired.
+|-
+|  || Phoenix || US ||  ||  ||  || Project || <ref name=aas1991>[http://www.spacefuture.com/archive/history_of_the_phoenix_vtol_ssto_and_recent_developments_in_single_stage_launch_systems.shtml History of the Phoenix VTOL SSTO and Recent Developments in Single-Stage Launch Systems], AAS 91-643, included in Proceedings of 5th ISCOPS, AAS Vol. 77, pp 329-351, November 1991, accessed 2011-01-05.</ref>
+|-
+| [[PlanetSpace]] || [[Silver Dart (spacecraft)|Silver Dart]] ||  || Spaceplane ||  || 2000s || Project || partially reusable.{{citation needed|date=December 2017}}
+|-
+| [[PLD Space]] || [[PLD Space#Miura 5|Miura 5]] || Spain || Rocket || Orbital || 2021 || Project || First stage of 3 is reusable
+|-
+| [[Reaction Engines]] || [[Skylon (spacecraft)|Skylon]] || UK || Spaceplane || SSO ||  || Project || [[SABRE (rocket engine)|SABRE]] air-breathing rocket engines.
+|-
+| [[Rocketplane Limited, Inc.|Rocketplane]] || [[Rocketplane XP|XP]] ||  ||  || Sub-orbital ||  || Project || Cancelled
+|-
+| Rockwell || [[Rockwell X-30|X-30 NASP]] || US ||  || SSO || 2001 || Project || 
+|-
+| Molniya || [[Buran (spacecraft)|Buran]] || USSR || Spaceplane || Orbital || 1988 || Prototype ||  Vertical launch. Retired.
+|-
+| [[Rotary Rocket]] || Roton ATV || US || Helicopter || Experimental || 1999 || Prototype || Vertical launch
+|-
+|  || [[Sea Dragon (rocket)|Sea Dragon]] || US ||  ||  || 1962 || Project ||Cancelled
+|-
+| [[Scaled Composites]] || [[SpaceShipOne]] || US ||  || Sub-orbital ||  || Prototype || Flew to space twice in 2004 
+|-
+| [[The Spaceship Company]] || [[Scaled Composites SpaceShipTwo|SpaceShipTwo]] || US ||  || Sub-orbital ||  || Prototype || 
+|-
+|  || [[Shenlong (spacecraft)|Shenlong]] || China ||  ||  || 2005 || Project || Scale model flown
+|-
+|  || [[SpaceLiner]] ||  Germany || Spaceplane || Sub-orbital || mid-2000s || Project || 
+|-
+| [[SpaceX]] || [[Falcon 9]] || US || Rocket || Orbital || 2015 || Operational || First stage reusable.
+|-
+| [[SpaceX]] || [[Falcon Heavy]] || US || Rocket || Orbital || 2018 || Operational || Core and side boosters reusable.
+|-
+| [[SpaceX]] ||[[BFR (rocket)|Starship-Super Heavy]]|| US || Rocket || Orbital ||  2016
+| Project ||Fully reusable, capable of interplanetary transfers. 
+|-
+|  || [[Mikoyan-Gurevich MiG-105|Spiral]] || USSR ||  ||  ||  || Project || Small winged reusable orbiter on winged hypersonic air-carrier.{{citation needed|date=January 2015}}
+|-
+|  || Sura || Ukraine ||  ||  ||  || Project || reusable launch vehicle, proposed by [[Ukraine]]<ref>[http://www.stcu.int/documents/reports/distribution/tpf/Aerospace/PRESENTATION/PPTe%2084_03.ppt Unmanned Transport Reusable Airborne Space Vehicle] (Powerpoint)</ref>
+|-
+| [[Swiss Space Systems]] || [[SOAR (spaceplane)|SOAR]] || Switzerland || Spaceplane || Sub-orbital ||  || Project || Air-launched from an Airbus 300.<ref>{{cite web|url=http://www.s-3.ch/en/mission-goals|title=Mission - Goals|publisher=S-3.ch|accessdate=7 January 2015}}</ref><ref>{{Cite news|url=http://www.20min.ch/finance/news/story/12883608|title=Swiss Space in Konkurs geschickt|last=www.20min.ch|first=www.20minuten.ch, 20 Minuten, 20 Min,|access-date=2017-07-02|newspaper=20 Minuten}}</ref>
+|- 
+| [[Winged Reusable Sounding rocket|WIRES]] || [[JAXA]] || Japan || Launcher<br/>or spaceplane || Sub-orbital || 2005 || Project || In development<ref name='WIRES March 2018'>[https://www.researchgate.net/publication/323693460_Subscale_Winged_Rocket_Development_and_Application_to_Future_Reusable_Space_Transportation/fulltext/5aa5cc6daca272d448ba9c95/323693460_Subscale_Winged_Rocket_Development_and_Application_to_Future_Reusable_Space_Transportation.pdf?origin=publication_detail Subscale Winged Rocket Development and Application to Future Reusable Space Transportation]. (PDF) Koichi YONEMOTO, Takahiro FUJIKAWA, Toshiki MORITO, Joseph WANG, Ahsan R. CHOUDHURI. Aerospace Europe CEAS 2017 Conference, 16th-20th October 2017, Palace of the Parliament, Bucharest, Romania. Published by INCAS in March 2018. {{doi|10.13111/2066-8201.2018.10.1.15}}</ref> 
+|-
+| [[XCOR Aerospace|XCOR]] || [[XCOR Lynx|Lynx]] || US ||  || Sub-orbital ||  || Project || Cancelled<ref>{{cite web|url=http://www.xcor.com/lynx|title=XCOR Lynx Suborbital Spacecraft / spaceplane|work=xcor.com|accessdate=13 June 2015}}{{deadlink|date=January 2019}}</ref>
+|-
+| [[zero2infinity]] || [[bloostar]] ||  ||  || Launch stage ||  || Project || <ref>{{cite news|last1=Henry|first1=Caleb|title=Zero2infiniti Announces Bloostar Launch Vehicle, More than $200 Million Pre-Booked Sales|url=http://www.satellitetoday.com/launch/2014/10/16/zero2infiniti-announces-bloostar-launch-vehicle-more-than-200-million-pre-booked-sales/|accessdate=9 July 2015|agency=Satellite Today|date=October 16, 2014}}</ref>
+|}
+
+==Regulation==
+In 2006, the US [[Federal Aviation Administration]] issued a new regulation regarding commercial reusable launch vehicles, both suborbital and orbital, as Part 431.  The text can be found under the US Federal Code at [https://web.archive.org/web/20071112122254/http://ecfr.gpoaccess.gov/cgi/t/text/text-idx?c=ecfr&sid=f021b61228983645ed5c5a83a72ef312&tpl=%2Fecfrbrowse%2FTitle14%2F14cfr431_main_02.tpl 14 CFR Part 431].  The new regulation was made in anticipation of planned commercial reusable launch operations including the American companies listed above.  FAA regulations only have jurisdiction within the United States and its territories, and to aircraft and spacecraft registered in the United States.
+
+==See also==
+* [[Non-rocket spacelaunch]]
+* [[Rocket sled launch]]
+* [[List of private spaceflight companies]]
+
+==References==
+{{Reflist|colwidth=30em}}
+
+==Bibliography==
+* Heribert Kuczera, et al.: ''Reusable space transportation systems.'' Springer, Berlin 2011, {{ISBN|978-3-540-89180-2}}.
+
+==External links==
+{{commons category|Reusable manned spacecraft}}
+* [https://skyhooksandspaceelevators.wordpress.com Skyhooks and Space Elevators]
+* [http://www.ikonet.com/en/visualdictionary/astronomy/astronautics/space-shuttle/space-shuttle-at-takeoff.php Illustration of a Space shuttle at takeoff and Orbiter] (Visual Dictionary - QAInternational)
+
+{{Reusable launch systems}}
+{{Spaceflight}}
+{{Emerging technologies}}
+
+[[Category:Spacecraft propulsion]]
+[[Category:Reusable space launch systems| ]]
+[[Category:Space launch vehicles]]
+[[Category:Space access]]
+[[Category:Reuse]]
+[[Category:Emerging technologies]]

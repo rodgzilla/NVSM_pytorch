@@ -1,0 +1,133 @@
+{{for|approaches to [[cognitive science]] that emphasize the embodied mind|Embodied cognition}}
+
+'''Embodied cognitive science''' is an interdisciplinary field of research, the aim of which is to explain the mechanisms underlying intelligent behavior.   It comprises three main methodologies: 1) the modeling of psychological and biological systems in a holistic manner that considers the mind and body as a single entity, 2) the formation of a common set of general principles of intelligent behavior, and 3) the experimental use of robotic agents in controlled environments.
+
+Embodied cognitive science borrows heavily from [[embodied philosophy]] and the related research fields of [[cognitive science]], [[psychology]], [[neuroscience]] and [[artificial intelligence]]. From the perspective of neuroscience, research in this field was led by [[Gerald Edelman]] of the [[Neurosciences Institute]] at La Jolla, the late [[Francisco Varela]] of [[CNRS]] in France, and [[J. A. Scott Kelso]] of [[Florida Atlantic University]].  From the perspective of psychology, research by [[Michael Turvey]], [[Lawrence Barsalou]] and [[Eleanor Rosch]].  From the perspective of language acquisition, [[Eric Lenneberg]] and [[Philip Rubin]] at [[Haskins Laboratories]].  From the perspective of autonomous agent design, early work is sometimes attributed to [[Rodney Brooks]] or [[Valentino Braitenberg]].  From the perspective of artificial intelligence, see ''Understanding Intelligence'' by [[Rolf Pfeifer]] and Christian Scheier or ''How the body shapes the way we think'', also by Rolf Pfeifer and Josh C. Bongard. From the perspective of philosophy see [[Andy Clark]], [[Shaun Gallagher]], and [[Evan Thompson]].
+
+[[Alan Turing|Turing]] proposed that a machine may need a human-like body to think and speak:
+
+::''It can also be maintained that it is best to provide the machine with the best sense organs that money can buy, and then teach it to understand and speak English. That process could follow the normal teaching of a child. Things would be pointed out and named, etc. Again, I do not know what the right answer is, but I think both approaches should be tried'' (Turing, 1950).<ref>{{Turing 1950}}</ref>
+
+== Traditional cognitive theory ==
+
+Embodied cognitive science is an alternative theory to cognition in which it minimizes appeals to [[computational theory of mind]] in favor of greater emphasis on how an organism's body determines how and what it thinks. Traditional cognitive theory is based mainly around symbol manipulation, in which certain inputs are fed into a processing unit that produces an output. These inputs follow certain rules of syntax, from which the processing unit finds semantic meaning. Thus, an appropriate output is produced. For example, a human's sensory organs are its input devices, and the stimuli obtained from the external environment are fed into the nervous system which serves as the processing unit. From here, the nervous system is able to read the sensory information because it follows a syntactic structure, thus an output is created. This output then creates bodily motions and brings forth behavior and cognition. Of particular note is that cognition is sealed away in the brain, meaning that mental cognition is cut off from the external world and is only possible by the input of sensory information.
+
+== The embodied cognitive approach ==
+
+Embodied cognitive science differs from the traditionalist approach in that it denies the input-output system. This is chiefly due to the problems presented by the [[Homunculus argument]], which concluded that semantic meaning could not be derived from symbols without some kind of inner interpretation. If some little man in a person's head interpreted incoming symbols, then who would interpret the little man's inputs? Because of the specter of an infinite regress, the traditionalist model began to seem less plausible. Thus, embodied cognitive science aims to avoid this problem by defining cognition in three ways.<ref name="Shapiro2007">{{cite journal|last=Shapiro|first=Larry|title=The Embodied Cognition Programme|journal=Philosophy Compass|date=March 2007|volume=2|issue=2|doi=10.1111/j.1747-9991.2007.00064.x|url=http://portal.uni-freiburg.de/cognition/lehre/archiv/ss13/mat-prosem/embodiedcognition/Shapiro_EmbodiedCognition.pdf}}</ref>{{rp|340}}
+
+=== Physical attributes of the body ===
+The first aspect of embodied cognition examines the role of the physical body, particularly how its properties affect its ability to think. This part attempts to overcome the symbol manipulation component that is a feature of the traditionalist model. Depth perception for instance can be better explained under the embodied approach due to the sheer complexity of the action. Depth perception requires that the brain detect the disparate retinal images obtained by the distance of the two eyes. In addition, body and head cues complicate this further. When the head is turned in a given direction, objects in the foreground will appear to move against objects in the background. From this, it is said that some kind of visual processing is occurring without the need of any kind of symbol manipulation. This is because the objects appearing to move the foreground are simply appearing to move. This observation concludes then that depth can be perceived with no intermediate symbol manipulation necessary. 
+
+A more poignant example exists through examining auditory perception. Generally speaking the greater the distance between the ears, the greater the possible auditory acuity. Also relevant is the amount of density in between the ears, for the strength of the frequency wave alters as it passes through a given medium. The brain's auditory system takes these factors into account as it process information, but again without any need for a symbolic manipulation system. This is because the distance between the ears for example does not need symbols to represent it. The distance itself creates the necessary opportunity for greater auditory acuity. The amount of density between the ears is similar, in that it is the actual amount itself that simply forms the opportunity for frequency alteration. Thus under consideration of the physical properties of the body, a symbolic system is unnecessary and an unhelpful metaphor.
+
+=== The body's role in the cognitive process ===
+
+The second aspect draws heavily from [[George Lakoff]]'s and [[Mark Johnson (philosopher)|Mark Johnson]]'s work on concepts. They argued that humans use metaphors whenever possible to better explain their external world. Humans also have a basic stock of concepts in which other concepts can be derived from. These basic concepts include spatial orientations such as up, down, front, and back. Humans can understand what these concepts mean because they can directly experience them from their own bodies. For example, because human movement revolves around standing erect and moving the body in an up-down motion, humans innately have these concepts of up and down. Lakoff and Johnson contend this is similar with other spatial orientations such as front and back too. As mentioned earlier, these basic stocks of spatial concepts are the basis in which other concepts are constructed. Happy and sad for instance are seen now as being up or down respectively. When someone says they are feeling down, what they are really saying is that they feel sad for example. Thus the point here is that true understanding of these concepts is contingent on whether one can have an understanding of the human body. So the argument goes that if one lacked a human body, they could not possibly know what up or down could mean, or how it could relate to emotional states.
+
+<blockquote>
+
+‘[I]magine a spherical being living outside of any gravitational field, with no
+knowledge or imagination of any other kind of experience. What could UP
+possibly mean to such a being?'<ref name="Shapiro2007"/>{{rp|342}}
+
+</blockquote>  
+
+While this does not mean that such beings would be incapable of expressing emotions in other words, it does mean that they would express emotions differently from humans. Human concepts of happiness and sadness would be different because human would have different bodies. So then an organism's body directly affects how it can think, because it uses metaphors related to its body as the basis of concepts.
+
+=== Interaction of local environment ===
+A third component of the embodied approach looks at how agents use their immediate environment in cognitive processing. Meaning, the local environment is seen as an actual extension of the body's cognitive process. The example of a [[personal digital assistant]] (PDA) is used to better imagine this. Echoing [[functionalism (philosophy of mind)]], this point claims that mental states are individuated by their role in a much larger system. So under this premise, the information on a PDA is similar to the information stored in the brain. So then if one thinks information in the brain constitutes mental states, then it must follow that information in the PDA is a cognitive state too. Consider also the role of pen and paper in a complex multiplication problem. The pen and paper are so involved in the cognitive process of solving the problem that it seems ridiculous to say they are somehow different from the process, in very much the same way the PDA is used for information like the brain. Another example examines how humans control and manipulate their environment so that cognitive tasks can be better performed. Leaving one's car keys in a familiar place so they aren't missed for instance, or using landmarks to navigate in an unfamiliar city. Thus, humans incorporate aspects of their environment to aid in their cognitive functioning.
+
+== Examples of the value of embodied approach ==
+
+The value of the embodiment approach in the context of cognitive science is perhaps best explained by [[Andy Clark]].<ref name="Clark1999">{{cite journal|last=Clark|first=Andy|title=An Embodied Cognitive Science?|journal=Trends in Cognitive Sciences|date=September 1999|volume=3|issue=9|pages=345–351|url=http://psy.haifa.ac.il/~ep/Lecture%20Files/AI/Secure/Download/Clark%20Andy%20-%20Embodied%20Cog%20Science%20%281999%20Trends%29.pdf|accessdate=27 June 2011|doi=10.1016/s1364-6613(99)01361-3}}</ref>{{rp|345–351}} He makes the claim that the brain alone should not be the single focus for the scientific study of cognition
+
+<blockquote>
+
+It is increasingly clear that, in a wide variety of cases, the individual brain should not be the sole locus of cognitive scientific interest. Cognition is not a phenomenon that can be successfully studied while marginalizing the roles of body, world and action.<ref name="Clark1999"/>{{rp|350}}
+
+</blockquote>
+
+The following examples used by Clark will better illustrate how embodied thinking is becoming apparent in scientific thinking.
+
+=== Bluefin tuna ===
+
+''[[Thunnus]]'', or tuna, long baffled conventional biologists with its incredible abilities to accelerate quickly and attain great speeds. A biological examination of the tuna shows it is simply not capable of such feats. However, an answer can be found when taking the tuna's embodied state into account. The [[bluefin tuna]] is able to take advantage of and exploit its local environment by finding naturally occurring currents to increase its speed. The tuna also uses its own physical body for this end as well, by utilizing its tailfin to create the necessary vortices and pressure so it can accelerate and maintain high speeds. Thus, the bluefin tuna is actively using its local environment for its own ends through the attributes of its physical body.
+
+=== Robots ===
+
+Clark uses the example of the hopping [[robot]] constructed by Raibert and Hodgins to demonstrate further the value of the embodiment paradigm. These robots were essentially vertical cylinders with a single hopping foot. The challenge of managing the robot's behavior can be daunting because in addition to the intricacies of the program itself, there were also the mechanical matters regarding how the foot ought to be constructed so that it could hop. An embodied approach makes it easier to see that in order for this robot to function, it must be able to exploit its system to the fullest. That is, the robot's systems should be seen as having dynamic characteristics as opposed to the traditional view that it is merely a command center that just executes actions.
+
+=== Vision ===
+
+Clark distinguishes between two kinds of [[Visual perception|vision]], animate and pure vision. Pure vision is an idea that is typically associated with classical [[artificial intelligence]], in which vision is used to create a rich world model so that thought and reason can be used to fully explore the inner model. In other words, pure vision passively creates the external perceivable world so that the faculties of reason can be better used introspectively. Animate vision, by contrast, sees vision as the means by which real-time action can commence. Animate vision is then more of a vehicle by which visual information is obtained so that actions can be undertaken. Clark points to animate vision as an example of embodiment, because it uses both biological and local environment cues to create an active intelligent process. Consider the Clark's example of going to the drugstore to buy some Kodak film. In one's mind, one is familiar with the Kodak logo and its trademark gold color. Thus, one uses incoming visual stimuli to navigate around the drugstore until one finds the film. Therefore, vision should not be seen as a passive system but rather an active retrieval device that intelligently uses sensory information and local environmental cues to perform specific real-world actions.
+
+=== Affordance ===
+
+Inspired by the work of the American psychologist [[James J. Gibson]], this next example emphasizes the importance of action-relevant sensory information, bodily movement, and local environment cues. These three concepts are unified by the concept of affordances, which are possibilities of action provided by the physical world to a given agent. These are in turn determined by the agent's physical body, capacities, and the overall action-related properties of the local environment as well. Clark uses the example of an outfielder in baseball to better illustrate the concept of affordance. Traditional computational models would claim that an outfielder attempting to catch a fly-ball can be calculated by variables such as the running speed of the outfielder and the arc of the baseball. However, Gibson's work shows that a simpler method is possible. The outfielder can catch the ball so long as they adjust their running speed so that the ball continually moves in a straight line in their field of vision. Note that this strategy uses various affordances that are contingent upon the success of the outfielder, including their physical body composition, the environment of the baseball field, and the sensory information obtained by the outfielder. 
+
+Clark points out here that the latter strategy of catching the ball as opposed to the former has significant implications for perception. The affordance approach proves to be non-linear because it relies upon spontaneous real-time adjustments. On the contrary, the former method of computing the arc of the ball is linear as it follows a sequence of perception, calculation and performing action. Thus, the affordance approach challenges the traditional view of perception by arguing against the notion that computation and introspection are necessary. Instead, it ought to be replaced with the idea that perception constitutes a continuous equilibrium of action adjustment between the agent and the world. Ultimately Clark does not expressly claim this is certain but he does observe the affordance approach can explain adaptive response satisfactorily.<ref name="Clark1999"/>{{rp|346}} This is because they utilize environmental cues made possible by perceptual information that is actively used in the real-time by the agent.
+
+== General principles of intelligent behavior ==
+In the formation of general principles of intelligent behavior, Pfeifer intended to be contrary to older principles  given in traditional artificial intelligence.  The most dramatic difference is that the principles are applicable only to situated robotic agents in the real world, a domain where traditional artificial intelligence showed the least promise.
+
+Principle of Cheap Design and Redundancy: Pfeifer realized that implicit assumptions made by engineers often substantially influence a control architecture's complexity.<ref name="Pfeifer2001">Pfeifer, R., Scheier, C.,  ''Understanding Intelligence'' (MIT Press, 2001) {{ISBN|0-262-66125-X}}</ref>{{rp|436}}  This insight is reflected in discussions of the scalability problem in robotics.  The internal processing needed for some bad architectures can grow out of proportion to new tasks needed of an agent.  
+
+<blockquote>
+One of the primary reasons for scalability problems is that the amount of programming and knowledge engineering that the robot designers have to perform grows very rapidly with the complexity of the robot's tasks. There is mounting evidence that pre-programming cannot be the solution to the scalability problem ... The problem is that programmers introduce too many hidden assumptions in the robot's code.<ref>Stoytchev, A. (2006). [http://www.cs.iastate.edu/~alex/papers/NIPS_Workshop_2006.pdf Five Basic Principles of Developmental Robotics] NIPS 2006 Workshop on Grounding Perception, Knowledge and Cognition in Sensori-Motor Experience.  Department of Computer Science, Iowa State U</ref>
+</blockquote>
+
+The proposed solutions are to have the agent exploit the inherent physics of its environment, to exploit the constraints of its niche, and to have agent morphology based on parsimony and the principle of Redundancy. Redundancy reflects the desire for the error-correction of signals afforded by duplicating like channels.  Additionally, it reflects the desire to exploit the associations between sensory modalities. (See [[modality (human-computer interaction)|redundant modalities]]).  In terms of design, this implies that redundancy should be introduced with respect not only to one sensory modality but to several.<ref name="Pfeifer2001"/>{{rp|448}}  It has been suggested that the fusion and transfer of knowledge between modalities can be the basis of reducing the size of the sense data taken from the real world.<ref>Konijn, Paul (2007). [http://www.diracproject.org/workshop-2007/pdf/DIRAC-Summer-Workshop.pdf Summer Workshop on Multi-Sensory Modalities in Cognitive Science] Detection and Identification of Rare Audiovisual Cues. DIRAC EU IP IST project, Switzerland.</ref>  This again addresses the scalability problem.
+
+Principle of Parallel, Loosely-coupled Processes: An alternative to hierarchical methods of knowledge and [[action selection]]. This design principle differs most importantly from the Sense-Think-Act cycle of traditional AI. Since it does not involve this famous cycle, it is not affected by the [[frame problem]].
+
+Principle of Sensory-Motor Coordination: Ideally, internal mechanisms in an agent should give rise to things like memory and choice-making in an emergent fashion, rather than being prescriptively programmed from the beginning.   These kinds of things are allowed to emerge as the agent interacts with the environment. The motto is, build fewer assumptions into the agent's controller now, so that learning can be more robust and idiosyncratic in the future. 
+
+Principle of Ecological Balance: This is more a theory than a principle, but its implications are widespread.  Its claim is that the internal processing of an agent cannot be made more complex unless there is a corresponding increase in complexity of the motors, limbs, and sensors of the agent. In other words, the extra complexity added to the brain of a simple robot will not create any discernible change in its behavior. The robot's morphology must already contain the complexity in itself to allow enough "breathing room" for more internal processing to develop.
+
+The Value Principle: This was the architecture developed in the Darwin III robot of [[Gerald Edelman]]. It relies heavily on [[connectionism]].
+
+== Critical responses ==
+
+=== Traditionalist response to local environment claim ===
+A traditionalist may argue that objects may be used to aid in cognitive processes, but this does not mean they are part of a cognitive system.<ref name="Shapiro2007"/>{{rp|343}} Eyeglasses are used to aid in the visual process, but to say they are a part of a larger system would completely redefine what is meant by a visual system. However, supporters of the embodied approach could make the case that if objects in the environment play the functional role of mental states, then the items themselves should not be counted among the mental states.
+
+== See also ==
+{{div col|colwidth=22em}}
+*[[Action-specific perception]]
+*[[Behavior-based robotics]]
+*[[Behaviorism]]
+*[[Cognitive science]]
+*[[Cognitive neuroscience]]
+*[[Embodied embedded cognition]]
+*[[Embodied philosophy]]
+*[[Linguistics]]
+*[[Neurophenomenology]]
+*[[Situated cognition]]
+*[[Artificial general intelligence|Strong AI]]
+{{div col end}}
+
+== References ==
+<div style="font-size:100%">
+<references/>
+</div>
+
+==Further reading==
+*Braitenberg, Valentino (1986). ''Vehicles: Experiments in Synthetic Psychology''. Cambridge, MA: The MIT Press. {{ISBN|0-262-52112-1}}
+*Brooks, Rodney A. (1999). ''Cambrian Intelligence: The Early History of the New AI''. Cambridge, MA: The MIT Press. {{ISBN|0-262-52263-2}}
+*Edelman, G.  ''Wider than the Sky'' (Yale University Press, 2004) {{ISBN|0-300-10229-1}}
+*Fowler, C., Rubin, P. E., Remez, R. E., & Turvey, M. T. (1980). Implications for speech production of a general theory of action. In B. Butterworth (Ed.), ''Language Production, Vol. I: Speech and Talk'' (pp.&nbsp;373–420). New York: Academic Press. {{ISBN|0-12-147501-8}}
+*Lenneberg, Eric H. (1967). ''Biological Foundations of Language''. John Wiley & Sons. {{ISBN|0-471-52626-6}}
+*Pfeifer, R. and Bongard  J. C., ''How the body shapes the way we think: a new view of intelligence'' (The MIT Press, 2007). {{ISBN|0-262-16239-3}}
+
+== External links ==
+*[https://web.archive.org/web/20070817145608/http://tokyolectures.org/lectures AI lectures from Tokyo hosted by Rolf Pfeifer]
+*[http://www.pnas.org/cgi/content/abstract/89/15/7267 synthetic neural modelling in DARWIN IV]
+*[https://web.archive.org/web/20120415141848/http://www.isab.org.uk/ISAB/  Society for the Simulation of Adaptive Behavior]
+*[http://www.sparkingtogether.com/  A platform for creating Embodied Cognitive Agents]
+
+{{DEFAULTSORT:Embodied Cognitive Science}}
+[[Category:Cognitive science]]
+[[Category:Artificial intelligence]]
+[[Category:Robotics]]
+[[Category:Cognitive neuroscience]]

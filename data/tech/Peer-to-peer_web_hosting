@@ -1,0 +1,103 @@
+{{File sharing sidebar}}
+{{Internet hosting}}
+'''Peer-to-peer web hosting''' is using [[peer-to-peer]] networking to distribute access to [[webpage]]s.<ref>{{cite web|title=Peer-To-Peer File Sharing|url=http://www.activewebhosting.com/faq/legal-p2p.html|publisher=Active Web Hosting|accessdate=3 November 2013}}</ref>  This is differentiated from the [[client–server model]] which involves the distribution of Web data between dedicated [[web server]]s and user-end client computers.<BR />
+P2P web hosting may take the form of P2P [[web cache]]s ( and [[content delivery network]]s like [[Revver#Dijjer|Dijjer]] and [[Coral Cache]] which allow users to hold copies of data from single web pages and distribute the caches with other users for faster access during peak traffic.<ref>https://web.archive.org/web/20111129082011/http://dijjer.org/</ref>
+
+==Comparison==
+
+{| class="wikitable sortable"
+! Name
+! First release date
+! Anonymous
+! Fast
+! Per file [[File attribute|edit rights]]
+! Per file read rights
+! Offline compatible<ref>Can the hosted web site be used (browsed) by the users even if the owner has shut down his node (the computer that hosted it first).</ref>
+! [[FOSS]] implementation
+! Notes
+|-
+| [[Freenet]]
+| 2000
+| {{yes}}
+| {{no}}
+| {{no}}
+| {{no}}
+| {{yes}}
+| {{yes}}
+| 
+|-
+| [[Osiris (software)|Osiris]]
+| 2010
+| {{yes}}
+| {{yes}}
+| {{no}}
+| {{no}}
+| {{yes}}
+| {{no}}
+|
+|-
+| [[InterPlanetary_File_System|IPFS]]
+| 2014
+| {{no}}
+| {{yes}}
+| {{no}}
+| {{no}}
+| {{yes}}
+| {{yes}}
+| 
+|-
+| [[BitTorrent (company)#Project Maelstrom .28beta.29|Maelstrom]]
+| 2014
+| {{no}}
+| {{yes}}
+| ?
+| ?
+| ?
+| {{no}}
+| Project seems suspended since 2015<ref>http://blog.bittorrent.com/?s=Maelstrom</ref>
+|-
+| [[ZeroNet]]
+| 2015
+| {{no}},<br /> unless used via [[Tor (anonymity network)|Tor]]/[[I2P]]<ref>I2P is not yet supported as of 2016-02</ref>
+| {{yes}}
+| {{yes}}
+| {{no}}
+| {{yes}}
+| {{yes}}
+| [[Distributed hash table|DHT]]
+|-
+| [[Dat_(software)|Dat]]
+| 2013
+| {{no}}
+| {{yes}}
+| ?
+| ?
+| {{yes}}
+| {{yes}}
+| Sites can be viewed in [[Beaker_(web_browser)|Beaker Browser]], or in [[Firefox]] using an experimental add-on<ref>{{cite web |last1=Macbeth |first1=Sam |title=Dat P2P Protocol |url=https://addons.mozilla.org/en-US/firefox/addon/dat-p2p-protocol/ |website=Firefox Add-ons |publisher=Mozilla |accessdate=17 October 2018}}</ref>.
+|-
+| Blockstack<ref>https://blockstack.org/</ref>
+| 2013
+| {{no}}
+| ?
+| ?
+| ?
+| ?
+| {{yes}}
+| Uses the [[Bitcoin|Bitcoin blockchain]].
+|}
+
+==See also==
+* [[WebRTC]] - a web standard for peer-to-peer communication between web browsers
+* [[Freenet#Freesite|Freesite]] – a site on '''Freenet'''
+* [[Cloud computing]]
+* [[Decentralized computing]]
+
+==References==
+{{reflist}}
+
+{{File sharing protocols}}
+
+[[Category:File sharing]]
+[[Category:Peer-to-peer computing]]
+[[Category:Web hosting]]

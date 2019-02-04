@@ -1,0 +1,139 @@
+{{pp-pc1}}
+{{about|networking technology|other uses|Darknet (disambiguation)|websites that exist on top of this technology|dark web}}
+{{Cleanup|reason= the first sentence seems to talk about something completely different than the rest of the article.|date=July 2018}}
+
+'''Dark Net''' (or '''Darknet''') is an umbrella term describing the portions of the [[Internet]] purposefully not open to public view or hidden networks whose architecture is superimposed on that of the Internet.<ref name=":0">{{Cite book|title=Darknet: Geopolitics and Uses|last=Gayard|first=Laurent|publisher=John Wiley & Sons|year=2018|isbn=9781786302021|location=Hoboken, NJ|pages=158}}</ref> "Darknet" is often associated with the encrypted part of the Internet called [[Tor (anonymity network)|Tor network]] where illicit trading takes place such as the infamous online drug bazaar called [[Silk Road (marketplace)|Silk Road]].<ref>{{Cite book|title=Drugs on the Dark Net: How Cryptomarkets are Transforming the Global Trade in Illicit Drugs|last=Martin|first=James|publisher=Palgrave Macmillan|year=2014|isbn=9781349485666|location=New York|pages=2}}</ref> It is also considered part of the  [[Deep web|Deep Web]].<ref>{{Cite book|url=https://books.google.com.ph/books?id=BwweDQAAQBAJ&pg=PT5&dq=darknet+internet+definition&hl=en&sa=X&ved=0ahUKEwjE3MzxjLXfAhVRZt4KHaxZADgQ6AEIQjAE#v=onepage&q=darknet%20internet%20definition&f=false|title=Cybercrime & the Dark Net: Revealing the hidden underworld of the internet|last=Senker|first=Cath|date=2016-09-12|publisher=Arcturus Publishing|year=2016|isbn=9781784285555|location=London|pages=|language=en}}</ref>. Anonymous communication between whistle-blowers, journalists and news organisations is facilitated by the "Darknet" Tor network through use of applications including SecureDrop.<ref>{{cite web |last1=Press Foundation |first1=Freedom of the |title=SecureDrop |url=https://github.com/freedomofpress/securedrop/blob/develop/README.md |website=github |publisher=Freedom of the Press Foundation |accessdate=28 January 2019}}</ref>
+
+== Terminology ==
+The term originally described computers on [[ARPANET]] that were hidden, programmed to receive messages but not respond to or acknowledge anything, thus remaining invisible, in the dark.{{Citation needed|date=November 2018}}An account detailed how the first online transaction related to drugs transpired in 1971 when students of the [[Massachusetts Institute of Technology]] and [[Stanford University]] traded marijuana using ARPANET accounts in the former's [[MIT Computer Science and Artificial Intelligence Laboratory|Artificial Intelligence Laboratory]].<ref>{{Cite book|title=Returning to Interpersonal Dialogue and Understanding Human Communication in the Digital Age|last=Brown Sr.|first=Michael|last2=Hersey|first2=Leigh|publisher=IGI Global|year=2018|isbn=9781522541684|location=Hershey, PA|pages=6}}</ref>
+
+The term has in later usage incorporated services such as the [[dark web]], which is an [[overlay network]] that can be accessed only with specific software, configurations, or authorization, often using non-standard [[communication protocol]]s and [[port (computer networking)|ports]]. Types of dark webs include [[friend-to-friend]] networks (usually used for [[file sharing]] with a [[peer-to-peer]] connection) and [[internet privacy|privacy]] networks such as Tor.<ref name="Wood">{{cite journal
+|last=Wood |first=Jessica
+|title=The Darknet: A Digital Copyright Revolution
+|journal=Richmond Journal of Law and Technology
+|date=2010 |volume=16 |issue=4
+|url=http://jolt.richmond.edu/v16i4/article14.pdf
+|accessdate=25 October 2011
+|pages=15–17}}</ref><ref>{{Cite journal
+|last=Mansfield-Devine | first=Steve
+|title=Darknets
+|doi =10.1016/S1361-3723(09)70150-2
+|journal=Computer Fraud & Security
+| volume = 2009 | issue=12 | pages=4–6 |date=December 2009}}</ref> The reciprocal term for an encrypted darknet is [[clearnet (networking)|clearnet]] or [[surface web]] when referring to content indexable by search engines.<ref>
+{{cite web
+|last=Miller|first=Tessa
+|title=How Can I Stay Anonymous with Tor?
+|url=http://lifehacker.com/how-can-i-stay-anonymous-with-tor-1498876762
+|website=Life Hacker |date=10 January 2014
+|accessdate=7 June 2015}}
+</ref><ref>
+{{cite web
+|title=Blockchain.info Launches Tor Hidden Service
+|first=Kyle |last=Torpey 
+|date=2 December 2014
+|url=http://insidebitcoins.com/news/blockchain-info-launches-tor-hidden-service/26920
+|website=Inside Bitcoins
+|accessdate=9 June 2015}}
+</ref><ref>
+{{cite web
+|title=Clearnet vs Hidden Services – Why You Should Be Careful
+|url=http://www.deepdotweb.com/jolly-rogers-security-guide-for-beginners/clearnet-vs-hidden-services-why-you-should-be-careful/
+|work=Jolly Roger’s Security Guide for Beginners
+|first=Jolly |last=Roger
+|publisher=[[DeepDotWeb]]
+|accessdate=4 June 2015}}
+</ref><ref>
+{{cite web
+|last=Barratt |first=Monica
+|title=A Discussion About Dark Net Terminology |date=15 January 2015
+|work=Drugs, Internet, Society
+|url=http://monicabarratt.net/?p=5999
+|accessdate=14 June 2015}}</ref>
+
+{{As of|2015}}, the term "darknet" is often used [[skunked term|interchangeably]] with the "[[dark web]]" due to the quantity of [[Tor (anonymity network)#Hidden services|hidden services]] on [[Tor (anonymity network)|Tor]]'s darknet. The term is often inaccurately used interchangeably with the [[Deep Web (search)|deep web]] due to Tor's history as a platform that could not be search-indexed. Mixing uses of both these terms has been described as inaccurate, with some commentators recommending the terms be used in distinct fashions.<ref name="dark_web">{{cite web|url=http://www.brightplanet.com/2014/03/clearing-confusion-deep-web-vs-dark-web/|title=Clearing Up Confusion – Deep Web vs. Dark Web|work=BrightPlanet}}</ref><ref>{{cite news|last1=NPR Staff|title=Going Dark: The Internet Behind The Internet|url=https://www.npr.org/sections/alltechconsidered/2014/05/25/315821415/going-dark-the-internet-behind-the-internet|accessdate=29 May 2015|date=25 May 2014}}</ref><ref>{{cite news|last1=Greenberg|first1=Andy|title=Hacker Lexicon: What Is the Dark Web?|url=https://www.wired.com/2014/11/hacker-lexicon-whats-dark-web/|accessdate=6 June 2015|date=19 November 2014}}</ref>
+
+==Origins==
+"Darknet" was coined in the 1970s to designate networks isolated from [[ARPANET]] (the government-founded military/academical network which evolved into the [[Internet]]), for security purposes.<ref>{{cite web|url=http://chainhead.io/om-darknet/|title=Om Darknet|accessdate={{date|2018-01-15}}}}</ref> Darknet addresses could receive data from ARPANET but did not appear in the network lists and would not answer [[Ping (networking utility)|pings]] or other inquiries.
+
+The term gained public acceptance following publication of "The Darknet and the Future of [[Digital distribution|Content Distribution]]", a 2002 paper by [[Peter Biddle]], [[Paul England (researcher)|Paul England]], [[Marcus Peinado]], and [[Bryan Willman]], four employees of [[Microsoft]] who argued the presence of the darknet was the primary hindrance to the development of workable [[digital rights management]] (DRM) technologies and made [[copyright infringement]] inevitable.<ref>{{cite conference |url=http://msl1.mit.edu/ESD10/docs/darknet5.pdf |title=The Darknet and the Future of Content Distribution |last1=Biddle |first1=Peter |last2=England |first2=Paul |last3=Peinado |first3=Marcus |last4=Willman |first4=Bryan |publisher=[[Microsoft|Microsoft Corporation]] |date=18 November 2002 |conference=ACM Workshop on Digital Rights Management |location=Washington, D.C. |format=[[Portable Document Format|PDF]] |accessdate=10 October 2012}}<!-- alternate/backup HTML version: http://www.bearcave.com/misl/misl_tech/msdrm/darknet.htm --></ref> This paper described "darknet" more generally as any type of parallel network that is encrypted or requires a specific protocol to allow a user to connect to it.<ref name=":0" /> 
+
+=== Sub-cultures ===
+Journalist [[J. D. Lasica]], in his 2005 book ''Darknet: Hollywood's War Against the Digital Generation'', described the darknet's reach encompassing file sharing networks.<ref>{{cite book |last=Lasica |first=J. D. |title=Darknets: Hollywood's War Against the Digital Generation |year=2005 |publisher=J. Wiley & Sons |location=Hoboken, NJ |isbn=0-471-68334-5}}</ref> Subsequently, in 2014, journalist [[Jamie Bartlett (journalist)|Jamie Bartlett]] in his book ''The Dark Net'' used the term to describe a range of underground and emergent [[subculture]]s, including [[camgirl]]s, [[Crypto-anarchism|cryptoanarchists]], [[Darknet market|darknet drug markets]], [[Self-harm|self harm]] communities, [[social media]] racists, and [[Transhumanism|transhumanists]].<ref>{{cite news|last1=Ian|first1=Burrell|title=The Dark Net: Inside the Digital Underworld by Jamie Bartlett, book review|url=https://www.independent.co.uk/arts-entertainment/books/reviews/the-dark-netinside-the-digital-underworld-by-jamie-bartlett-book-review-9696473.html|accessdate=3 June 2015|date=28 August 2014}}</ref>
+
+[[Telegram (service)|Telegram]] because of its features with encryption and after the ban on the territory of different countries, also belongs to the darknet.<ref>{{Cite web|accessdate=2018-10-29|author=netstalkers|date=2017-09-07|title=ДАРКНЕТ ПЕРЕЕХАЛ В ТЕЛЕГРАМ [netstalkers]|url=https://www.youtube.com/watch?v=UAzVK3xqqvU}}</ref> It is because of the anonymity that it contains encrypted channels for the sale of prohibited substances, recruiting various organizations and coordinating anti-government actions.<ref>{{Cite web|accessdate=2018-10-29|title=Опасный Telegram: закрытость мессенждера на руку террористам и наркоторговцам|url=https://www.vesti.ru/doc.html?id=2902947}}</ref>
+
+== Uses ==
+Darknets in general may be used for various reasons, such as:
+* [[Computer crime]] (cracking, file corruption, etc.)
+* Protecting [[dissident]]s from political reprisal
+* [[File sharing]] ([[warez]], personal files, pornography, confidential files, illegal or counterfeit software, etc.)
+* To better protect the [[Internet privacy|privacy]] rights of citizens from [[targeted surveillance|targeted]] and [[mass surveillance|mass]] surveillance
+* Sale of restricted goods on [[darknet markets]]
+* [[Whistleblower|Whistleblowing]] and [[news leak]]s
+* Purchase or sale of illicit or illegal goods or services<ref>{{cite web|url=https://www.cnbc.com/2016/05/18/hit-men-drugs-and-malicious-teens-the-darknet-is-going-mainstream.html|title=Hit men, drugs and malicious teens: the darknet is going mainstream|first=Harriet|last=Taylor|date=19 May 2016|publisher=}}</ref>
+* [[Internet censorship circumvention|Circumventing]] [[Internet censorship|network censorship]] and [[content-control software|content-filtering systems]], or bypassing restrictive [[firewall (computing)|firewall]] policies<ref>{{cite web|title=Who uses Tor?|url=https://www.torproject.org/about/torusers.html.en|publisher=Tor Project|accessdate=14 May 2017}}</ref>
+
+==Software==
+All darknets require specific software installed or network configurations made to access them, such as [[Tor (anonymity network)|Tor]], which can be accessed via a customised browser from [[Vidalia (software)|Vidalia]] (aka the Tor browser bundle), or alternatively via a [[proxy server|proxy]] configured to perform the same function.
+
+===Active===
+[[File:Geographies of Tor.png|thumb|A [[cartogram]] illustrating Tor usage]]
+* [[anoNet]] is a decentralized friend-to-friend network built using VPNs and software BGP routers.
+* [[Decentralized network 42]] (not for anonymity but research purposes).
+* [[Freenet]] is a popular darknet ([[friend-to-friend]]) by default; since version 0.7 it can run as a "[[Anonymous P2P#Opennet and darknet network types|opennet]]" (peer nodes are discovered automatically).
+* [[GNUnet]] can be utilised as a darknet<ref>{{cite book|author1=Bennett, Krista|author2=Grothoff, Christian|author3=Kügler, Dennis|editor1-last=Dingledine|editor1-first=Roger|editor1-link=Roger Dingledine|title=Privacy Enhancing Technologies Third International Workshop (PET 2003)|date=2003|publisher=Springer-Verlag (Heidelberg)|isbn=9783540206101|pages=141–175}}</ref> if the "[[Friend-to-friend|F2F]] [[network topology|(network) topology]]" option is enabled.<ref>{{cite book|editor1-last=Xiang|editor1-first=Yang|editor2-last=Lopez|editor2-first=Javier|editor3-last=Jay Kuo|editor3-first=C.-C.|editor4-last=Zhou|editor4-first=Wanlei|title=Cyberspace Safety and Security: 4th International Symposium : Proceedings (CSS 2012)|date=2012|publisher=Springer (Heidelberg)|isbn=9783642353628|pages=89, 90}}</ref>
+* [[I2P]] (Invisible Internet Project) is another [[overlay network]] that features a darknet whose sites are called "[[Eepsite]]s".
+* [[OneSwarm]] can be run as a darknet for [[friend-to-friend]] file-sharing.
+* [[RetroShare]] can be run as a darknet ([[friend-to-friend]]) by default to perform anonymous file transfers if [[Distributed hash table|DHT]] and Discovery features are disabled.
+* [[Riffle (anonymity network)|Riffle]] is a client-server darknet system that simultaneously provides secure anonymity (as long as at least one server remains uncompromised), efficient computation, and minimal bandwidth burden.<ref>{{cite web |title=Riffle: An Efficient Communication System with Strong Anonymity |author=Young Hyun Kwon |url=http://dspace.mit.edu/bitstream/handle/1721.1/99859/927718269-MIT.pdf?sequence=1 |accessdate=12 July 2016 |date=20 May 2015}}</ref><ref>{{cite web |title=How to stay anonymous online |author=Larry Hardesty, MIT News Office  |url=http://news.mit.edu/2016/stay-anonymous-online-0711 |accessdate=12 July 2016 |date=11 July 2016}}</ref>
+* [[Syndie]] is [[software]] used to publish [[Distributed computing|distributed]] forums over the anonymous networks of I2P, Tor and Freenet.
+* [[Tor (anonymity network)|Tor]] (The onion router) is an [[Internet anonymity|anonymity]] network that also features a darknet – its "[[Tor (anonymity network)#Hidden services|hidden services]]". It is the <!--best known/-->most popular instance of a darknet.<ref name=inta>{{cite web|title=Anticounterfeiting on the Dark Web – Distinctions between the Surface Web, Dark Web and Deep Web|url=http://www.inta.org/Advocacy/Documents/2015/ACC%20Dark%20Web%20Report.pdf|accessdate=1 June 2015|date=13 April 2015}}</ref><!--and often mistakenly equated with the darknet as a whole-->
+* [[Tribler]] can be run as a darknet for file-sharing.<!--more details needed-->
+* [[Zeronet]] is [[open source software]] aimed to build an [[internet]]-like [[computer network]] of [[peer-to-peer]] users of [[Tor (anonymity network)|Tor]].
+
+===No longer supported===
+* [[RShare]] (discontinued)
+* [[StealthNet]] (discontinued)
+
+===Defunct===
+* [[AllPeers]]
+* [[Turtle F2F]]
+
+==See also==<!-- New links in alphabetical order plese -->
+{{Portal|Computer science}}
+* [[Crypto-anarchism]]
+* [[Cryptocurrency]]
+* [[Dark web]]
+* [[Deep web]]
+* [[Deepnet]]
+* [[Private peer-to-peer]] (P2P)
+* [[Sneakernet]]
+* [[Virtual private network]] (VPN)
+
+==References==
+{{Reflist}}
+
+==External links==
+{{commonscatinline}}
+* {{Cite news |url=http://www.slate.com/id/2094336/ |title=See You on the Darknet |first=Paul |last=Boutin |date=January 28, 2004 |work=[[Slate (magazine)|Slate]]}}
+* {{Cite news |url=http://news.bbc.co.uk/1/hi/technology/4798059.stm |title=File-sharing 'darknet' unveiled |date=August 16, 2006 |work=[[BBC News]]}}
+* [http://askthecomputerguy.com/opinions/dark-net-101/ Darknet 101 – introduction for non technical people]
+* [https://www.team-cymru.com/darknet.html The DarkNet Project – Team Cymru]
+
+{{File sharing}}
+{{Tor (anonymity network)}}
+
+{{DEFAULTSORT:Darknet (networking)}}
+[[Category:File sharing]]
+[[Category:Virtual private networks]]
+[[Category:Darknet markets]]
+[[Category:Cyberspace]]
+[[Category:Internet culture]]
+[[Category:Internet terminology]]
+[[Category:World Wide Web]]
+[[Category:Dark web]]
+[[Category:Network architecture]]
+[[Category:Distributed computing architecture]]
+[[Category:Words coined in the 1970s]]
+[[Category:Anonymity networks|*]]
+[[Category:Internet architecture]]

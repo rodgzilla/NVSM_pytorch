@@ -1,0 +1,324 @@
+{{essay-like|date=November 2017}}
+{{quantum}}
+The '''Einstein–Podolsky–Rosen paradox''' ('''EPR paradox''') is a [[thought experiment]] proposed by physicists [[Albert Einstein]], [[Boris Podolsky]] and [[Nathan Rosen]] (EPR) that they interpreted as indicating that the explanation of physical reality provided by Quantum Mechanics was incomplete.<ref name="EPR">{{cite journal | title = Can Quantum-Mechanical Description of Physical Reality be Considered Complete? | date = 1935-05-15 | first = A | last = Einstein |author2=B Podolsky |author3=N Rosen  | journal = [[Physical Review]] | volume = 47 | issue = 10 | pages = 777–780 | url=http://www.drchinese.com/David/EPR.pdf |bibcode = 1935PhRv...47..777E |doi = 10.1103/PhysRev.47.777 }}</ref> In a 1935 paper titled ''Can Quantum-Mechanical Description of Physical Reality be Considered Complete?'', they attempted to mathematically show that the [[wave function]] does not contain complete information about physical reality, and hence the [[Copenhagen interpretation]] is unsatisfactory; resolutions of the paradox have important implications for the [[interpretation of quantum mechanics]].
+
+The work was done at the [[Institute for Advanced Study]] in 1934, which Einstein [[Albert_Einstein#1933:_Emigration_to_the_US|had joined the prior year]] after he had fled Nazi Germany. 
+
+[[File:Einstein.jpg|right|thumb|200px|[[Albert Einstein]]]] The essence of the paradox is that particles can interact in such a way that it is possible to measure both their position and their momentum more accurately than [[Heisenberg's uncertainty principle]] allows, unless measuring one particle instantaneously affects the other to prevent this accuracy, which would involve information being transmitted faster than light as forbidden by the [[theory of relativity]] ("[[action at a distance (physics)|spooky action at a distance]]"). This consequence had not previously been noticed and seemed unreasonable at the time; the phenomenon involved is now known as [[quantum entanglement]].
+
+== History of EPR developments ==
+The article that first brought forth these matters, "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?" was published in 1935.<ref name="EPR">{{cite journal | title = Can Quantum-Mechanical Description of Physical Reality be Considered Complete? | date = 1935-05-15 | first = A | last = Einstein |author2=B Podolsky |author3=N Rosen  | journal = [[Physical Review]] | volume = 47 | issue = 10 | pages = 777–780 | url=http://www.drchinese.com/David/EPR.pdf |bibcode = 1935PhRv...47..777E |doi = 10.1103/PhysRev.47.777 }}</ref> The paper prompted a response by Bohr, which he published in the same journal, in the same year, using the same title.<ref name='Bohr1935'>{{cite journal |title=Can Quantum-Mechanical Description of Physical Reality be Considered Complete? |date=1935-10-13 |first=N. |last=Bohr |journal=[[Physical Review]] |volume=48 |issue=8 |pages=696–702 |doi=10.1103/PhysRev.48.696|bibcode=1935PhRv...48..696B |url=http://cds.cern.ch/record/1060284/files/PhysRev.48.696.pdf }}</ref>  There followed a debate between Bohr and Einstein about the fundamental nature of reality. Einstein had been skeptical of the Heisenberg uncertainty principle and the role of chance in quantum theory.  But the crux of this debate was not about chance, but something even deeper: Is there one objective physical reality, which every observer sees from his own vantage? (Einstein's view)  Or does the observer co-create physical reality by the questions he poses with experiments? (Bohr's view)
+
+Einstein struggled to the end of his life for a theory that could better comply with his idea of [[Causality (physics)|causality]], protesting against the view that there exists no objective physical reality other than that which is revealed through measurement interpreted in terms of quantum mechanical formalism. However, since Einstein's death, experiments analogous to the one described in the EPR paper have been carried out, starting in 1976 by French scientists Lamehi-Rachti and Mittig<ref>[https://books.google.com/books?id=dkaCKHKLo3gC&pg=PA330&lpg=PA330&dq=%22Saclay%22+%22Bell%27s+inequality%22&source=bl&hl=en&oi=book_result&ct=result&resnum=2 Advances in atomic and molecular physics, Volume 14 By David Robert Bates]</ref>  at the [[Saclay Nuclear Research Centre]]. These experiments appear to show that the [[local realism]] idea is false,<ref name='Gribbin'>{{cite book |title=In Search of Schrödinger's Cat |publisher=Black Swan |year=1984 |first=J. |last=Gribbin |isbn=978-0-7045-3071-3}}</ref> vindicating Bohr.
+
+Per EPR, the paradox demonstrated that quantum theory was incomplete, and needed to be extended with [[hidden variable theory|hidden variables]]. One modern resolution is as follows: for two "entangled" particles created at once (e.g., an electron-positron pair from a photon), measurable properties have well-defined meaning only for the ensemble system. Properties of constituent subsystems (e.g., the individual electron or positron), considered individually, remain undefined. Therefore, if analogous measurements are performed on the two entangled subsystems, there will always be a correlation between the outcomes, and a well-defined global outcome for the ensemble. However, the outcomes for each subsystem, considered separately, at each repetition of the experiment, will not be well defined or predictable. This correlation does not imply that measurements performed on one particle influence measurements on the other. This modern resolution eliminates the need for hidden variables, action at a distance, or other schemes introduced over time, in order to explain the phenomenon.
+
+According to quantum mechanics, under some conditions, a pair of quantum systems may be described by a single [[wave function]], which encodes the probabilities of the outcomes of experiments that may be performed on the two systems, whether jointly or individually. At the time the EPR article discussed below was written, it was known from experiments that the outcome of an experiment sometimes cannot be uniquely predicted. An example of such indeterminacy can be seen when a beam of light is incident on a [[half-silvered mirror]]. One half of the beam will reflect, and the other will pass. If the intensity of the beam is reduced until only one photon is in transit at any time, whether that photon will reflect or transmit cannot be predicted quantum mechanically.
+
+The routine explanation of this effect was, at that time, provided by Heisenberg's uncertainty principle. Physical quantities come in pairs called [[conjugate quantities]]. Examples of such conjugate pairs are ([[position (vector)|position]], [[momentum]]), ([[time]], [[energy]]), and ([[angular position]], [[angular momentum]]). When one quantity was measured, and became determined, the conjugated quantity became indeterminate. Heisenberg explained this uncertainty as due to the quantization of the disturbance from measurement.
+
+The EPR paper, written in 1935, was intended to illustrate that this explanation is inadequate. It considered two [[Quantum entanglement|entangled]] particles, referred to as A and B, and pointed out that measuring a quantity of a particle A will cause the conjugated quantity of particle B to become undetermined, even if there was no contact, no classical disturbance. The basic idea was that the quantum states of two particles in a system cannot always be decomposed from the joint state of the two, as is the case for the [[Bell state]], <math>|\Phi^+\rangle=\frac{1}{\sqrt{2}}\left(|00\rangle+|11\rangle\right).</math>
+
+Heisenberg's principle was an attempt to provide a classical explanation of a quantum effect sometimes called [[Quantum nonlocality|non-locality]]. According to EPR there were two possible explanations.  Either there was some interaction between the particles (Even though they were separated) or the information about the outcome of all possible measurements was already present in both particles.
+
+The EPR authors preferred the second explanation according to which that information was encoded in some '[[Hidden variable theory#EPR paradox|hidden parameters]]'. The first explanation of an effect propagating instantly across a distance is in conflict with the [[theory of relativity]]. They then concluded that quantum mechanics was incomplete since its formalism does not permit hidden parameters.
+
+Violations of the conclusions of Bell's theorem are generally understood to have demonstrated that the hypotheses of [[Bell's theorem]], also assumed by Einstein, Podolsky and Rosen, do not apply in our world.<ref name=Gaasbeek2010>{{cite arXiv |eprint= 1007.3977v1 |class=quant-ph|last= Gaasbeek |first= Bram |title= Demystifying the Delayed Choice Experiments |date= Jul 22, 2010}}</ref> Most physicists who have examined the issue concur that experiments, such as those of [[Alain Aspect]] and his group, have confirmed that physical probabilities, as predicted by quantum theory, do exhibit the phenomena of Bell-inequality violations that are considered to invalidate EPR's preferred "local hidden-variables" type of explanation for the correlations to which EPR first drew attention.<ref name=Bell1964>Bell, John. [http://www.drchinese.com/David/Bell_Compact.pdf ''On the Einstein–Poldolsky–Rosen paradox''], Physics '''1''' 3, 195–200, Nov. 1964</ref><ref name=Aspect1999>{{cite journal | title = Bell's inequality test: more ideal than ever | journal = Nature | date = 1999-03-18 | author = Aspect A | volume = 398 | pages = 189–90| doi = 10.1038/18296 | url = http://www.rpi.edu/dept/phys/Courses/PHYS4510/AspectNature.pdf |bibcode = 1999Natur.398..189A | issue=6724}}</ref>
+
+== Quantum mechanics and its interpretation ==
+{{main article|Interpretations of quantum mechanics}}
+Since the early twentieth century, quantum theory has proved to be successful in describing accurately the physical reality of the [[mesoscopic scale|mesoscopic]] and microscopic world, in multiple reproducible physics experiments.
+
+Quantum mechanics was developed with the aim of describing atoms and explaining the observed spectral lines in a measurement apparatus. Although disputed especially in the early twentieth century, it has yet to be seriously challenged. Philosophical interpretations of quantum phenomena, however, are another matter: the question of how to ''interpret'' the mathematical formulation of quantum mechanics has given rise to a variety of different answers from people of different philosophical persuasions (see [[Interpretations of quantum mechanics]]).
+
+Quantum theory and quantum mechanics do not provide single measurement outcomes in a deterministic way. According to the understanding of quantum mechanics known as the [[Copenhagen interpretation]], measurement causes an instantaneous collapse of the [[wave function]] describing the quantum system into an [[eigenstate]] of the [[observable]] that was measured. Einstein characterized this imagined collapse in the [[Solvay conference#Fifth Conference|1927 Solvay Conference]]. He presented a [[Einstein's thought experiments|thought experiment]] in which electrons are introduced through a small hole in a sphere whose inner surface serves as a detection screen. The electrons will contact the spherical detection screen in a widely dispersed manner. Those electrons, however, are all individually described by wave fronts that expand in all directions from the point of entry. A wave as it is understood in everyday life would paint a large area of the detection screen, but the electrons would be found to impact the screen at single points and would eventually form a pattern in keeping with the probabilities described by their identical wave functions. Einstein asks what makes each electron's wave front "collapse" at its respective location. Why do the electrons appear as single bright scintillations rather than as dim washes of energy across the surface? Why does any single electron appear at one point rather than some alternative point? The behavior of the electrons gives the impression of some signal having been sent to all possible points of contact that would have nullified all but one of them, or, in other words, would have preferentially selected a single point to the exclusion of all others.<ref>[http://plato.stanford.edu/entries/qt-epr/ The Einstein–Podolsky–Rosen Argument in Quantum Theory (Stanford Encyclopedia of Philosophy)<!-- Bot generated title -->]</ref>
+
+==Einstein's opposition==
+Einstein was the most prominent opponent of the [[Copenhagen interpretation]]. In his view, quantum mechanics was incomplete. Commenting on this, other writers (such as [[John von Neumann]]<ref>von Neumann, J. (1932/1955). In ''Mathematische Grundlagen der Quantenmechanik'', Springer, Berlin, translated into English by Beyer, R.T., Princeton University Press, Princeton, cited by Baggott, J. (2004) ''Beyond Measure: Modern physics, philosophy, and the meaning of quantum theory'', Oxford University Press, Oxford, {{ISBN|0-19-852927-9}}, pages 144–145.</ref> and [[David Bohm]]<ref>Bohm, D. (1951). [https://books.google.com/books?id=9DWim3RhymsC&printsec=frontcover&dq=david+bohm+quantum+theory&source=bl&ots=6G-2u1wtav&sig=Q1GcoVDLFRmKOmDYFAJte6LzrZU&hl=en&ei=Pv45TNSnLYffcfnS6foO&sa=X&oi=book_result&ct=result&resnum=7&ved=0CEEQ6AEwBg#v=onepage&q&f=false ''Quantum Theory''], Prentice-Hall, Englewood Cliffs, page 29, and Chapter 5 section 3, and Chapter 22 Section 19.</ref>) hypothesized that consequently there would have to be [[hidden variable theory|'hidden' variables]] responsible for random measurement results, something which was not expressly claimed in the original paper.
+
+The [[1935 in science|1935]] EPR paper<ref name="EPR"/> condensed the philosophical discussion into a physical argument. The authors claim that given a specific experiment, in which the outcome of a measurement is known before the measurement takes place, there must exist something in the real world, an "element of reality", that determines the measurement outcome. They postulate that these elements of reality are [[principle of locality|local]], in the sense that each belongs to a certain point in [[spacetime]]. Each element may only be influenced by events which are located in the backward [[light cone]] of its point in spacetime (i.e., the past). These claims are founded on assumptions about nature that constitute what is now known as [[local realism]].
+
+Though the EPR paper has often been taken as an exact expression of Einstein's views, it was primarily authored by Podolsky, based on discussions at the [[Institute for Advanced Study]] with Einstein and Rosen. Einstein later expressed to [[Erwin Schrödinger]] that, "it did not come out as well as I had originally wanted; rather, the essential thing was, so to speak, smothered by the formalism."<ref>{{Citation
+ | last = Kaiser
+ | first = David
+ | title = Bringing the human actors back on stage: the personal context of the Einstein-Bohr debate
+ | journal = British Journal for the History of Science
+ | volume = 27
+ | year = 1994
+ | jstor = 4027432
+ | p = 147
+}}</ref> In 1936, Einstein presented an individual account of his [[Principle of locality|local realist]] ideas.<ref>{{cite journal |last1=Einstein |first1=Albert |year=1936 |title=Physik und realität |journal=Journal of the Franklin Institute |volume=221 |issue=3 |pages=313–347 |doi=10.1016/S0016-0032(36)91045-1 |url=http://www.sciencedirect.com/science/article/pii/S0016003236910451 |accessdate=9 December 2012}} English translation by Jean Piccard, pp 349–382 in the same issue, doi:[https://dx.doi.org/10.1016/S0016-0032(36)91047-5 10.1016/S0016-0032(36)91047-5]).</ref>
+
+== Description of the paradox ==
+The original EPR paradox challenges the prediction of quantum mechanics that it is impossible to know both the position and the momentum of a quantum particle. This challenge can be extended to other pairs of physical properties.
+
+===EPR paper===
+The original paper purports to describe what must happen to "two systems I and II, which we permit to interact ...", and, after some time, "we suppose that there is no longer any interaction between the two parts." As explained by [[Manjit Kumar]] (2009), the EPR description involves "two particles, A and B, [which] interact briefly and then move off in opposite directions."<ref name=Kumar2011>{{cite book
+ | last =Kumar
+ | first =Manjit
+ | title =Quantum: Einstein, Bohr, and the Great Debate about the Nature of Reality
+ | publisher =W. W. Norton & Company
+ | edition =Reprint
+ | year =2011
+ | pages =305–306
+ | isbn =978-0393339888
+}}</ref> According to [[Heisenberg's uncertainty principle]], it is impossible to measure both the momentum and the position of particle B exactly. However, it is possible to measure the exact position of particle A. By calculation, therefore, with the exact position of particle A known, the exact position of particle B can be known. Alternatively, the exact momentum of particle A can be measured, so the exact momentum of particle B can be worked out. Kumar writes: "EPR argued that they had proved that ... [particle] B can have simultaneously exact values of position and momentum. ... Particle B has a position that is real and a momentum that is real."<blockquote> EPR appeared to have contrived a means to establish the exact values of ''either'' the momentum ''or'' the position of B due to measurements made on particle A, without the slightest possibility of particle B being physically disturbed.<ref name=Kumar2011/>
+</blockquote>
+EPR tried to set up a paradox to question the range of true application of Quantum Mechanics: Quantum theory predicts that both values cannot be known for a particle, and yet the EPR thought experiment purports to show that they must all have determinate values. The EPR paper says: "We are thus forced to conclude that the quantum-mechanical description of physical reality given by wave functions is not complete."<ref name=Kumar2011/>
+
+The EPR paper ends by saying: <blockquote>While we have thus shown that the wave function does not provide a complete description of the physical reality, we left open the question of whether or not such a description exists. We believe, however, that such a theory is possible.</blockquote>
+
+=== Measurements on an entangled state ===
+{{Main|Measurement in quantum mechanics}}
+We have a source that emits electron–positron pairs, with the electron sent to destination ''A'', where there is an observer named [[Alice and Bob|Alice]], and the positron sent to destination ''B'', where there is an observer named [[Alice and Bob|Bob]]. According to quantum mechanics, we can arrange our source so that each emitted pair occupies a quantum state called a [[spin singlet]]. The particles are thus said to be [[quantum entanglement|entangled]]. This can be viewed as a [[quantum superposition]] of two states, which we call state I and state II. In state I, the electron has [[spin (physics)|spin]] pointing upward along the ''z''-axis (''+z'') and the positron has spin pointing downward along the ''z''-axis (−''z''). In state II, the electron has spin −''z'' and the positron has spin +''z''. Because it is in a superposition of states it is impossible without measuring to know the definite state of spin of either particle in the spin singlet.<ref name=Griffiths2004>{{citation| author=Griffiths, David J.|title=Introduction to Quantum Mechanics (2nd ed.) | publisher=Prentice Hall |year=2004 |isbn= 978-0-13-111892-8}}</ref>{{rp|421–422}}
+
+[[Image:EPR illustration.svg|thumb|500px|center|The EPR thought experiment, performed with electron–positron pairs. A source (center) sends particles toward two observers, electrons to Alice (left) and positrons to Bob (right), who can perform spin measurements.]]
+
+Alice now measures the spin along the ''z''-axis. She can obtain one of two possible outcomes: +''z'' or −''z''. Suppose she gets +''z''. According to the [[Copenhagen interpretation]] of quantum mechanics, the quantum state of the system [[wavefunction collapse|collapses]] into state I. The quantum state determines the probable outcomes of any measurement performed on the system. In this case, if Bob subsequently measures spin along the ''z''-axis, there is 100% probability that he will obtain −''z''. Similarly, if Alice gets −''z'', Bob will get +''z''.
+
+There is, of course, nothing special about choosing the ''z''-axis: according to quantum mechanics the spin singlet state may equally well be expressed as a superposition of spin states pointing in the ''x'' direction.<ref name=Laloe>{{citation|last=Laloe|first=Franck|title=Do We Really Understand Quantum Mechanics|journal=American Journal of Physics|volume=69|issue=6|pages=655–701| publisher=Cambridge University Press|year=2012| isbn = 978-1-107-02501-1|arxiv=quant-ph/0209123|bibcode=2002quant.ph..9123L|doi=10.1119/1.1356698}}</ref>{{rp|318}} Suppose that Alice and Bob had decided to measure spin along the ''x''-axis. We'll call these states Ia and IIa. In state Ia, Alice's electron has spin +''x'' and Bob's positron has spin −''x''. In state IIa, Alice's electron has spin −''x'' and Bob's positron has spin +''x''. Therefore, if Alice measures +''x'', the system 'collapses' into state Ia, and Bob will get −''x''. If Alice measures −''x'', the system collapses into state IIa, and Bob will get +''x''.
+
+Whatever axis their spins are measured along, they are always found to be opposite. This can only be explained if the particles are linked in some way. Either they were created with a definite (opposite) spin about every axis—a "hidden variable" argument—<!-- Is it too obvious to point out that by using a spin singlet both particles by definition have opposite spin? -->or they are linked so that one electron "feels" which axis the other is having its spin measured along, and becomes its opposite about that one axis—an "entanglement" argument. Moreover, if the two particles have their spins measured about ''different'' axes, once the electron's spin has been measured about the ''x''-axis (and the positron's spin about the ''x''-axis deduced), the positron's spin about the ''z''-axis will no longer be certain, as if (a) it knows that the measurement has taken place, or (b) it has a definite spin already, about a ''second'' axis—a hidden variable. However, it turns out that the predictions of Quantum Mechanics, which have been confirmed by experiment, cannot be explained by any local hidden variable theory. This is demonstrated in [[Bell's theorem]].<ref>George Greenstein and Arthur G. Zajonc, ''The Quantum Challenge'', p. "[Experiments in the early 1980s] have conclusively shown that quantum mechanics is indeed orrect, and that the EPR argument had relied upon incorrect assumptions."</ref>
+
+In quantum mechanics, the ''x''-spin and ''z''-spin are "incompatible observables", meaning the [[uncertainty principle|Heisenberg uncertainty principle]] applies to alternating measurements of them: a quantum state cannot possess a definite value for both of these variables. Suppose Alice measures the ''z''-spin and obtains ''+z'', so that the quantum state collapses into state I. Now, instead of measuring the ''z''-spin as well, Bob measures the ''x''-spin. According to quantum mechanics, when the system is in state I, Bob's ''x''-spin measurement will have a 50% probability of producing +''x'' and a 50% probability of -''x''. It is impossible to predict which outcome will appear until Bob actually ''performs'' the measurement.
+
+'''The paradox'''
+
+One might imagine that, when Bob measures the ''x''-spin of his positron, he would get an answer with absolute certainty, since prior to this he hasn't disturbed his particle at all.  <!-- Why would I imagine that? There seems to be no obvious link between the ''z''-axis and the ''x''-axis, hence no reason for the ''x''-axis to favour one direction over another. -->   But it turns out that Bob's positron has a 50% probability of producing +''x'' and a 50% probability of −''x'', meaning the outcome is not certain. It's as if Bob's positron "knows" that Alice has measured the ''z''-spin of her electron, and hence his positron's own ''z''-spin must also be set, but its ''x''-spin remains uncertain.
+
+Put another way, how does Bob's positron know which way to point if Alice decides (based on information unavailable to Bob) to measure x (i.e., to be the opposite of Alice's electron's spin about the ''x''-axis) and ''also'' how to point if Alice measures z, since it is only supposed to know one thing at a time?  <!-- Is it too obvious to point out that in a spin singlet both particles have opposite spin? Therefore, Bob's particle will have the opposite ''x''-spin to Alice's. -->    The Copenhagen interpretation rules that say the wave function "collapses" at the time of measurement, so there must be action at a distance (entanglement) or the positron must know more than it's supposed to know (hidden variables).  <!-- To make the mixed part-quantum and part-classical descriptions of this experiment local, we have to say that the notebooks (and experimenters) are entangled and have linear combinations of + and – written in them, like [[Schrödinger's Cat]]. -->
+
+It is one thing to say that physical measurement of the first particle's momentum affects uncertainty in its ''own'' position, but to say that measuring the first particle's momentum affects the uncertainty in the position of the ''other'' is another thing altogether. Einstein, Podolsky and Rosen asked how can the second particle "know" to have precisely defined momentum but uncertain position? Since this implies that one particle is communicating with the other instantaneously across space, i.e., faster than light, this is the "paradox".
+
+Incidentally, Bell used spin as his example, but many types of physical quantities—referred to as "observables" in quantum mechanics—can be used. The EPR paper used [[momentum]] for the observable. Experimental realisations of the EPR scenario often use [[photon polarization]], because polarized photons are easy to prepare and measure.
+
+=== Locality in the EPR experiment ===
+EPR describe the principle of locality as asserting that physical processes occurring at one place should have no immediate effect on the elements of reality at another location. At first sight, this appears to be a reasonable assumption to make, as it seems to be a consequence of [[special relativity]], which states that energy can never be transmitted faster than the [[speed of light]] without violating [[causality (physics)|causality]].<ref name=Griffiths2004/>{{rp|427–428}}<ref name=Blaylock>{{Cite journal
+  | last =Blaylock
+  | first = Guy
+  | title = The EPR paradox, Bell's inequality, and the question of locality
+  | journal = American Journal of Physics
+  | volume = 78
+  | issue = 1
+  | pages = 111–120
+  | date=January 2010
+  | arxiv = 0902.3827
+  | bibcode = 2010AmJPh..78..111B
+  | doi = 10.1119/1.3243279
+ }}</ref>
+
+However, it turns out that the usual rules for combining quantum mechanical and classical descriptions violate EPR's principle of locality without violating special relativity or causality.<ref name=Griffiths2004/>{{rp|427–428}}<ref name=Blaylock/> Causality is preserved because there is no way for Alice to transmit messages (i.e., information) to Bob by manipulating her measurement axis. Whichever axis she uses, she has a 50% probability of obtaining "+" and 50% probability of obtaining "−", completely at [[randomness|random]]; according to quantum mechanics, it is fundamentally impossible for her to influence what result she gets. Furthermore, Bob is only able to perform his measurement ''once'': there is a fundamental property of quantum mechanics, the [[no cloning theorem]], which makes it impossible for him to make an arbitrary number of copies of the electron he receives, perform a spin measurement on each, and look at the statistical distribution of the results. Therefore, in the one measurement he is allowed to make, there is a 50% probability of getting "+" and 50% of getting "−", regardless of whether or not his axis is aligned with Alice's. 
+
+Note that in this argument, we never assumed that energy could be transmitted faster than the speed of light. This shows that the results of the EPR experiment do not contradict the predictions of special relativity.
+
+However, the principle of locality appeals powerfully to physical intuition, and Einstein, Podolsky and Rosen were unwilling to abandon it. Einstein derided the quantum mechanical predictions as "[[action at a distance (physics)|spooky action at a distance]]". The (incorrect) conclusion they drew was that quantum mechanics is not a complete theory.<ref name=Bell1981>{{cite journal
+ | last =Bell
+ | first =John
+ | title =Bertlmann's socks and the nature of reality
+ | journal =J. Physique Colloques
+ | volume =C22
+ | pages =41–62
+ | year =1981
+ | url =http://cds.cern.ch/record/142461?ln=en
+| bibcode =1988nbpw.conf..245B
+ }}</ref>
+
+The word [[principle of locality|locality]] has several different meanings in physics. For example, in [[quantum field theory]] "locality" means that quantum fields at different points of space do not interact with one another. However, quantum field theories that are "local" in this sense ''appear'' to violate the [[principle of locality]] as defined by EPR, but they nevertheless do not violate locality in a more general sense.  [[Wavefunction collapse]] can be viewed as an epiphenomenon of [[quantum decoherence]], which in turn is nothing more than an effect of the underlying local time evolution of the wavefunction of a system and ''all'' of its environment.  Since the ''underlying'' behaviour doesn't violate causality or special relativity, it follows that neither does the additional effect of wavefunction collapse, whether real ''or'' apparent.  Therefore, as mentioned above, neither the EPR experiment nor any quantum experiment demonstrates that superluminous signaling is possible.
+
+== Resolving the paradox ==
+
+=== Hidden variables ===
+{{main|Hidden-variable theory}}
+There are several ways to resolve the EPR paradox. The one suggested by EPR is that quantum mechanics, despite its success in a wide variety of experimental scenarios, is actually an incomplete theory. In other words, there is some yet undiscovered theory of nature to which quantum mechanics acts as a kind of statistical approximation (albeit an exceedingly successful one). Unlike quantum mechanics, the more complete theory contains variables corresponding to all the "elements of reality". There must be some unknown mechanism acting on these variables to give rise to the observed effects of "non-commuting quantum observables", i.e., the [[Heisenberg uncertainty principle]]. Such a theory is called a [[hidden variable theory]].<ref name=Kumar2011/>{{rp|334}}<ref name="WheelerZurek2014">{{cite book|author1=John Archibald Wheeler|author2=Wojciech Hubert Zurek|title=Quantum Theory and Measurement|date=14 July 2014|publisher=Princeton University Press|isbn=978-1-4008-5455-4}}</ref>{{rp|357–358}}
+
+To illustrate this idea, we can formulate a very simple hidden variable theory for the above thought experiment. One supposes that the quantum spin-singlet states emitted by the source are actually approximate descriptions for "true" physical states possessing definite values for the ''z''-spin and ''x''-spin. In these "true" states, the positron going to Bob always has spin values opposite to the electron going to Alice, but the values are otherwise completely random. For example, the first pair emitted by the source might be "(+''z'', −''x'') to Alice and (−''z'', +''x'') to Bob", the next pair "(−''z'', −''x'') to Alice and (+''z'', +''x'') to Bob", and so forth. Therefore, if Bob's measurement axis is aligned with Alice's, he will necessarily get the opposite of whatever Alice gets; otherwise, he will get "+" and "−" with equal probability.<ref name=Sakurai>{{Citation  | last1 = Sakurai  | first1 = J. J.  |last2 = Napolitano  | first2 = Jim  | title = Modern Quantum Mechanics  | edition = 2nd  | publisher = Addison-Wesley  | year = 2010|isbn =978-0805382914  }}</ref>{{rp|239–240}}
+
+Assuming we restrict our measurements to the ''z''- and ''x''-axes, such a hidden variable theory is experimentally indistinguishable from quantum mechanics. In reality, there may be an infinite number of axes along which Alice and Bob can perform their measurements, so there would have to be an infinite number of independent hidden variables. However, this is not a serious problem; we have formulated a very simplistic hidden variable theory, and a more sophisticated theory might be able to patch it up. It turns out that there is a much more serious challenge to the idea of hidden variables.
+
+==== Bell's inequality ====
+{{Main article|Bell's theorem}}
+In 1964, [[John Stewart Bell|John Bell]] showed that the predictions of quantum mechanics in the EPR thought experiment are significantly different from the predictions of a particular class of hidden variable theories (the ''local'' hidden variable theories). Roughly speaking, quantum mechanics has a much stronger statistical [[correlation]] with measurement results performed on different axes than do these hidden variable theories. These differences, expressed using [[inequality (mathematics)|inequality relations]] known as "Bell's inequalities", are in principle experimentally detectable. After the publication of Bell's paper, a variety of experiments to test Bell's inequalities were devised. These generally relied on measurement of [[photon polarization]]. All experiments conducted to date have found behavior in line with the predictions of standard quantum mechanics theory.
+
+Later work by [[Henry Stapp]] showed that a key property of local hidden variable theories which lead to Bell's inequalities was [[counterfactual definiteness]]. Building on Stapp's observations, P.H. Eberhard showed that any local counterfactual model results in Bell's inequality even without the assumption of there being hidden variables unknown to physics upon which the relevant observables depend. [[Arthur Fine]] subsequently showed that any theory satisfying the inequalities can be modeled by a local hidden variable theory. (Although Eberhard referred to his result as "Bell's theorem without hidden variables", Fine used a more general definition of "hidden variables" that includes the possibility of the observables being elementary.) Fine went on to show that any stochastic factorizable model leads to Bell's inequality. Itamar Pitowsky showed that Bell's inequality was a special case of an inequality discovered by George Boole which provides a consistency check on whether data can be represented by variables on a single classical probability space. He interpreted this to be an indication that the locality assumption prevented the data from being represented as events on such a space.<ref name="Pitowsky1989">{{cite book | last=Pitowsky | first=Itamar | title=Bell's Theorem, Quantum Theory and Conceptions of the Universe | chapter=From George Boole To John Bell — The Origins of Bell’s Inequality | publisher=Springer Netherlands | location=Dordrecht | year=1989 | isbn=978-90-481-4058-9 | doi=10.1007/978-94-017-0849-4_6 | pages=37–49}}</ref>
+
+As Eberhard's proof made use of both locality and counterfactual definiteness it was assumed that an interpretation could reject either one of these to escape Bell's inequality. Violation of locality is difficult to reconcile with [[special relativity]], and is thought to be incompatible with the principle of causality, nevertheless there was renewed interest in the [[Bohm interpretation]] of quantum mechanics which keeps counterfactual definiteness while introducing a conjectured non-local mechanism in the form of the '[[quantum potential]]' that is defined as one of the terms of the Schrödinger equation. Mainstream physics preferred to keep locality and reject counterfactual definiteness. Fine's work showed that, taking locality as a given, there exist scenarios in which two statistical variables are correlated in a manner inconsistent with counterfactual definiteness, and that such scenarios are no more mysterious than any other, despite the fact that the inconsistency with counterfactual definiteness may seem counterintuitive.
+
+Further insights resulted from the work of Lawrence J. Landau. Landau showed that if it is assumed that there is a single classical probability space underlying all the observables under consideration in the EPR experiment, Bell's inequality will result.<ref name=landau87>{{cite journal |first=L. J.|last=Landau|title=On the violation of Bell's inequality in quantum theory|journal=[[Physics Letters]]|volume=120|issue=2|pages=4–6|year=1987|doi=10.1016/0375-9601(87)90075-2|bibcode=1987PhLA..120...54L}}</ref> Thus the fundamental issue is that Quantum mechanical probabilities cannot be modeled using classical (Kolmogorovian) probability regardless of whether Quantum Mechanics is considered a complete description of reality or not. Regarding Landau's proof [[Ray Streater]] notes that it shows that Bohmian mechanics is inconsistent with Quantum mechanics and succumbs to Bell's inequality despite claims to the contrary by its proponents. Streater notes that Landau's proof only requires the assumption of a single classical probability space (a condition still satisfied by Bohm's theory) and the fact that Bohmian mechanics additionally postulates the existence of a non-local mechanism, cannot prevent Bell's inequality from applying to it.<ref name="streater2007lost">{{cite book|author1=Streater, R.F.|title=Lost Causes in and beyond Physics|date=2017|publisher=Springer Berlin Heidelberg|isbn=9783540365822}}</ref>{{rp|99–102}}
+
+Similar observations have been made by Karl Hess, Walter, Philipp, Hans de Raedt and Kristel Michielsen, who note that in Bell's proof, Bell's assumption of a space of hidden variables behaving as a classical probability space is sufficient to produce a contradiction with the predications of Quantum mechanics via a consistency theorem of N. N. Vorob'ev, a statistician who had built on the same work of Boole used by Pitowsky. The additional assumption of locality used by Bell is redundant and indeed Fine's work had included a derivation of Bell's inequality that did not require the assumption of locality .<ref name="Hess2005">{{cite conference | last=Hess | first=Karl | title=Bell’s theorem: Critique of proofs with and without inequalities | publisher=AIP | year=2005 | issn=0094-243X | doi=10.1063/1.1874568 | pages=150–157| arxiv=quant-ph/0410015 }}</ref>
+<ref name="HessRaedtMichielsen2012">{{cite journal | last=Hess | first=Karl | last2=Raedt | first2=Hans De | last3=Michielsen | first3=Kristel | title=Hidden assumptions in the derivation of the theorem of Bell | journal=Physica Scripta | volume=T151 | date=2012-11-01 | issn=0031-8949 | doi=10.1088/0031-8949/2012/t151/014002 | page=014002| arxiv=1108.3583 | bibcode=2012PhST..151a4002H }}</ref> Non-locality is not sufficient to escape Bell's inequality, any interpretation of Quantum mechanics needs to reject counterfactual definiteness to be consistent with the Quantum mechanical predications. The authors also produced a model of an EPR experiment that is local but which violates Bell's inequality, thus demonstrating that non-locality is also not necessary for escaping Bell's inequality.<ref name="HessRaedtMichielsen2016b">{{cite journal | last=De Raedt | first=Hans | last2=Michielsen | first2=Kristel | last3=Hess | first3=Karl | title=The digital computer as a metaphor for the perfect laboratory experiment: Loophole-free Bell experiments | journal=Computer Physics Communications | volume=209 | year=2016 | issn=0010-4655 | doi=10.1016/j.cpc.2016.08.010 | pages=42–47| bibcode=2016CoPhC.209...42D }}</ref> They also note a loophole regarding models of EPR experiments whereby even a counterfactual definite model can result in data that violates Bell's inequality if as in actual experiments there is a time window based post-selection of results due to the need to identify particles belonging to an emitted pair.<ref name="HessRaedtMichielsen2016b"/> [[Robert Griffiths (physicist)|Robert Griffiths]] has shown that according to a quantum mechanical analysis, the instrument settings for the measurement of one of the particles in the EPR scenario, does not influence subsequent measurement results on the second, thus ruling out non-locality as a viable explanation for the EPR correlations.<ref name="Griffiths">{{cite journal | last=Griffiths | first=Robert B. | title=Quantum Locality | journal=Foundations of Physics | volume=41 | issue=4 | date=2010-10-21 | issn=0015-9018 | doi=10.1007/s10701-010-9512-5 | pages=705–733| arxiv=0908.2914 | bibcode=2011FoPh...41..705G }}</ref>
+
+However, Bell's theorem does not apply to all possible [[philosophical realism|philosophically realist]] theories. It is a common misconception that quantum mechanics is inconsistent with all notions of philosophical realism. Realist interpretations of quantum mechanics are possible, although as discussed above, such interpretations must reject counterfactual definiteness. Examples of such realist interpretations are the [[consistent histories]] interpretation and the [[transactional interpretation]] (first proposed by [[John G. Cramer]] in 1986). Griffiths notes that it is not "local realism" that is ruled out by quantum mechanics but "classical realism".<ref name="Griffiths"/>  Some workers in the field have also attempted to formulate hidden variable theories that exploit [[Loopholes in Bell test experiments|loopholes in actual experiments]], such as the assumptions made in interpreting experimental data, although no theory has been proposed that can reproduce all the results of quantum mechanics.
+
+Alternatives are still possible. A recent review article based on the [[Wheeler–Feynman absorber theory|Wheeler–Feynman time-symmetric theory]] rewrites the entire theory in terms of retarded [[Liénard–Wiechert potential]]s only, which becomes manifestly causal, and, establishes a conservation law for total generalized momenta held instantaneously for any closed system.<ref name=scott15>{{cite journal |first=T. C. |last=Scott |first2=D. |last2=Andrae |title=Quantum Nonlocality and Conservation of momentum|journal=[[Physics Essays|Phys. Essays]]|volume=28|issue=3|pages=374–385|url=http://www.physicsessays.org/browse-journal-2/product/1379-15-t-c-scott-and-d-andrae-quantum-nonlocality-and-conservation-of-momentum.html|year=2015|bibcode=2015PhyEs..28..374S |doi=10.4006/0836-1398-28.3.374 }}</ref> The outcome results in correlation between particles from a "handshake principle" based on a variational principle applied to a system as a whole, an idea with a slightly non-local feature but the theory is nonetheless in agreement with the essential results of quantum electrodynamics and [[relativistic quantum chemistry]].
+
+There are also individual EPR-like experiments that have no local hidden variables explanation. Examples have been suggested by [[David Bohm]] and by [[Lucien Hardy]].
+
+===Einstein's hope for a purely algebraic theory===
+The [[Bohm interpretation]] of quantum mechanics hypothesizes that the state of the universe evolves smoothly through time with no collapsing of quantum wavefunctions. One problem for the [[Copenhagen interpretation]] is to precisely define wavefunction collapse. Einstein maintained that quantum mechanics is physically incomplete and logically unsatisfactory. In "The Meaning of Relativity", Einstein wrote, "One can give good reasons why reality cannot at all be represented by a continuous field. From the quantum phenomena it appears to follow with certainty that a finite system of finite energy can be completely described by a finite set of numbers (quantum numbers). This does not seem to be in accordance with a continuum theory and must lead to an attempt to find a purely [[Local quantum field theory|algebraic theory]] for the representation of reality. But nobody knows how to find the basis for such a theory."
+If time, space, and energy are secondary features derived from a substrate below the [[Planck scale]], then Einstein's hypothetical algebraic system might resolve the EPR paradox (although Bell's theorem would still be valid). If physical reality is totally finite, then the Copenhagen interpretation might be an approximation to an information processing system below the Planck scale.
+
+==="Acceptable theories" and the experiment===
+According to the present view of the situation, quantum mechanics flatly contradicts Einstein's philosophical postulate that any acceptable physical theory must fulfill  "local realism".
+
+In the EPR paper (1935), the authors realised that quantum mechanics was inconsistent with their assumptions, but Einstein nevertheless thought that quantum mechanics might simply be augmented by hidden variables (i.e., variables which were, at that point, still obscure to him), without any other change, to achieve an acceptable theory. He pursued these ideas for over twenty years until the end of his life, in 1955.
+
+In contrast, [[John Stewart Bell|John Bell]], in his 1964 paper, showed that quantum mechanics and the class of hidden variable theories Einstein favored<ref>{{cite journal | title = Clearing up mysteries: the original goal | url = http://bayes.wustl.edu/etj/articles/cmystery.pdf}}</ref> would lead to different experimental results: different by a factor of {{sfrac|3|2}} for certain correlations. So the issue of "acceptability", up to that time mainly concerning theory, finally became experimentally decidable.
+
+There are many [[Bell test experiments]], e.g., those of [[Alain Aspect]] and others. They support the predictions of quantum mechanics rather than the class of hidden variable theories supported by Einstein.<ref name=Aspect1999/>
+
+=== Implications for quantum mechanics ===
+Most physicists today believe that quantum mechanics is correct, and that the EPR paradox is a "paradox" only because classical intuitions do not correspond to physical reality. How EPR is interpreted regarding locality depends on the [[Interpretations of quantum mechanics|interpretation of quantum mechanics]] one uses.  In the [[Copenhagen interpretation]], it is usually understood that instantaneous [[wave function collapse]] does occur.  However, the view that there is no ''causal'' instantaneous effect has also been proposed within the Copenhagen interpretation: in this alternative view, measurement affects our ability to define (and measure) quantities in the physical system, not the system itself. In the [[many-worlds interpretation]], locality is strictly preserved, since the effects of operations such as measurement affect only the state of the particle that is measured.<ref name=Blaylock/>  However, the results of the measurement are not unique—every possible result is obtained.
+
+The EPR paradox has deepened our understanding of quantum mechanics by exposing the fundamentally non-classical characteristics of the [[measurement (quantum mechanics)|measurement]] process. Before the publication of the EPR paper, a measurement was often visualized as a physical disturbance that had to be inflicted ''directly'' upon the measured subsystem. For instance, when measuring the position of an electron, one imagines shining a light on it, thus disturbing the electron and producing the quantum mechanical uncertainties in its position. Such pat and convenient but unhelpful explanations of quantum mechanics remain commonplace today,<ref>{{cite news|last1=Furuta|first1=Aya|title=One Thing Is Certain: Heisenberg's Uncertainty Principle Is Not Dead|url=https://www.scientificamerican.com/article/heisenbergs-uncertainty-principle-is-not-dead/|accessdate=16 January 2017|work=Scientific American|quote=Yet the uncertainty principle comes in two superficially similar formulations that even many practicing physicists tend to confuse. Werner Heisenberg's own version is that in observing the world, we inevitably disturb it. And that is wrong, as a research team at the Vienna University of Technology has now vividly demonstrated.}}</ref><ref>{{cite news|last1=Jha|first1=Alok|title=What is Heisenberg's Uncertainty Principle?|url=https://www.theguardian.com/science/2013/nov/10/what-is-heisenbergs-uncertainty-principle|accessdate=16 January 2017|work=The Guardian|date=10 November 2013|quote=One way to think about the uncertainty principle is as an extension of how we see and measure things in the everyday world... the act of observation affects the particle being observed}}</ref> but they fail to explain (among other things) the EPR paradox, which shows that a "measurement" can be performed on a particle without disturbing it directly, by performing a measurement on a distant entangled particle. In fact, [[Yakir Aharonov]] and his collaborators have developed a whole theory of so-called [[Weak measurement]].<ref name=Laloe/>{{rp|181–184}}
+
+Technologies relying on quantum entanglement are now being developed. In [[quantum cryptography]], entangled particles are used to transmit signals that cannot be [[Eavesdropping|eavesdropped]] upon without leaving a trace. In [[quantum computation]], entangled quantum states are used to perform computations in [[parallel computing|parallel]], which may allow certain calculations to be performed much more quickly than they ever could be with classical computers.<ref name=Haroche>{{cite book | last1 =Haroche | first1 =Serge | last2 =Raimond | first2 =Jean-Michel | title =Exploring the Quantum: Atoms, Cavities, and Photons | publisher =Oxford University Press | edition =1st  | date =2006 | isbn =978-0198509141 }}</ref>{{rp|83–100}}
+
+== Mathematical formulation ==
+The above discussion can be expressed mathematically using the [[spin (physics)|quantum mechanical formulation of spin]]. The spin degree of freedom for an electron is associated with a two-dimensional complex [[vector space]] ''V'', with each quantum state corresponding to a vector in that space. The operators corresponding to the spin along the ''x'', ''y'', and ''z'' direction, denoted ''S<sub>x</sub>'', ''S<sub>y</sub>'', and ''S<sub>z</sub>'' respectively, can be represented using the [[Pauli matrices]]:<ref name=Sakurai />{{rp|9}}
+
+:<math>
+  S_x = \frac{\hbar}{2} \begin{bmatrix} 0 &  1 \\ 1 &  0 \end{bmatrix}, \quad
+  S_y = \frac{\hbar}{2} \begin{bmatrix} 0 & -i \\ i &  0 \end{bmatrix}, \quad
+  S_z = \frac{\hbar}{2} \begin{bmatrix} 1 &  0 \\ 0 & -1 \end{bmatrix}
+</math>
+
+where <math>\hbar</math> is the [[reduced Planck constant]] (or the Planck constant divided by 2π).
+
+The [[eigenstate]]s of ''S<sub>z</sub>'' are represented as
+
+:<math>
+  \left|+z\right\rangle \leftrightarrow \begin{bmatrix}1\\0\end{bmatrix}, \quad
+  \left|-z\right\rangle \leftrightarrow \begin{bmatrix}0\\1\end{bmatrix}
+</math>
+
+and the eigenstates of ''S<sub>x</sub>'' are represented as
+
+:<math>
+  \left|+x\right\rangle \leftrightarrow \frac{1}{\sqrt{2}} \begin{bmatrix}1\\1\end{bmatrix}, \quad
+  \left|-x\right\rangle \leftrightarrow \frac{1}{\sqrt{2}} \begin{bmatrix}1\\-1\end{bmatrix}
+</math>
+
+The vector space of the electron-positron pair is <math> V \otimes V </math>, the [[tensor product]] of the electron's and positron's vector spaces. The spin singlet state is
+
+:<math>
+  \left|\psi\right\rangle = \frac{1}{\sqrt{2}} \bigg (
+    \left|+z\right\rangle \otimes \left|-z\right\rangle -
+    \left|-z\right\rangle \otimes \left|+z\right\rang
+  \bigg)
+</math>
+
+where the two terms on the right hand side are what we have referred to as state I and state II above.
+
+From the above equations, it can be shown that the spin singlet can also be written as
+
+:<math>
+  \left|\psi\right\rangle = -\frac{1}{\sqrt{2}} \bigg(
+    \left|+x\right\rangle \otimes \left|-x\right\rangle -
+    \left|-x\right\rangle \otimes \left|+x\right\rangle
+  \bigg)
+</math>
+
+where the terms on the right hand side are what we have referred to as state Ia and state IIa.
+
+To illustrate how this leads to the violation of local realism, we need to show that after Alice's measurement of ''S<sub>z</sub>'' (or ''S<sub>x</sub>''), Bob's value of ''S<sub>z</sub>'' (or ''S<sub>x</sub>'') is uniquely determined, and therefore corresponds to an "element of physical reality". This follows from the principles of [[measurement in quantum mechanics]]. When ''S''<sub>z</sub> is measured, the system state ψ collapses into an eigenvector of ''S''<sub>z</sub>.  If the measurement result is ''+z'', this means that immediately after measurement the system state undergoes an orthogonal projection of ψ onto the
+space of states of the form
+
+:<math> \left| +z \right\rangle \otimes \left| \phi\right\rangle \quad \phi \in V </math>
+
+For the spin singlet, the new state is
+
+:<math> \left| +z \right\rangle \otimes \left| -z \right\rangle </math>
+
+Similarly, if Alice's measurement result is −''z'', the system undergoes an orthogonal projection onto
+
+:<math> \left| -z \right\rangle \otimes \left| \phi\right\rangle \quad \phi \in V </math>
+
+which means that the new state is
+
+:<math> \left|-z\right\rangle \otimes \left|+z\right\rangle </math>
+
+This implies that the measurement for ''S''<sub>z</sub> for Bob's positron is now determined.  It will be −''z'' in the first case or +''z'' in the second case.
+
+It remains only to show that ''S<sub>x</sub>'' and ''S<sub>z</sub>'' cannot simultaneously possess definite values in quantum mechanics. One may show in a straightforward manner that no possible vector can be an [[eigenvector]] of both matrices. More generally, one may use the fact that the operators do not [[commutation relation|commute]],
+
+:<math>\left[S_x, S_z\right] = -i\hbar S_y \ne 0</math>
+
+along with the Heisenberg uncertainty relation
+
+:<math>
+ \left\langle {\Delta S_x}^2 \right\rangle \left\langle {\Delta S_z}^2 \right\rangle \ge
+   \frac{1}{4} \left|\left\langle \left[S_x, S_z\right] \right\rang\right|^2
+</math><!-- Yet, for the given state, $\langle\left[S_x,S_z\right]\rangle=−i\hbar\langle S_y\rangle=0$ and thus this relation will always be fulfilled!     -->
+
+== See also ==
+{{Div col|colwidth=22em}}
+* [[Bra–ket notation]]
+* [[CHSH Bell test]]
+* [[Coherence (physics)|Coherence]]
+* [[Correlation does not imply causation]]
+* [[ER=EPR]]
+* [[Ghirardi–Rimini–Weber theory]]
+* [[GHZ experiment]]
+* [[Measurement problem]]
+* [[Penrose interpretation]]
+* [[Philosophy of information]]
+* [[Philosophy of physics]]
+* [[Popper's experiment]]
+* [[Quantum gravity]]
+* [[Quantum information]]
+* [[Quantum pseudo-telepathy]]
+* [[Quantum teleportation]]
+* [[Quantum Zeno effect]]
+* [[Sakurai's Bell inequality]]
+* [[Synchronicity]]
+* [[John Clive Ward|Ward's probability amplitude]]
+* [[Zero-point field]]
+{{Div col end}}
+
+== Notes ==
+{{reflist|30em}}
+
+== References ==
+
+=== Selected papers ===
+* P. H. Eberhard, ''Bell's theorem without hidden variables''. Nuovo Cimento '''38B1''' 75 (1977).
+* P. H. Eberhard, ''Bell's theorem and the different concepts of locality''. Nuovo Cimento '''46B''' 392 (1978).
+* A. Einstein, B. Podolsky, and N. Rosen, [http://www.drchinese.com/David/EPR.pdf ''Can quantum-mechanical description of physical reality be considered complete?''] Phys. Rev. '''47''' 777 (1935). [https://dx.doi.org/10.1103/PhysRev.47.777]
+* A. Fine, ''Hidden Variables, Joint Probability, and the Bell Inequalities''. Phys. Rev. Lett. 48, 291 (1982).[http://prola.aps.org/abstract/PRL/v48/i5/p291_1]
+* A. Fine, ''Do Correlations need to be explained?'', in ''Philosophical Consequences of Quantum Theory: Reflections on Bell's Theorem'', edited by Cushing & McMullin (University of Notre Dame Press, 1986).
+* L. Hardy, ''Nonlocality for two particles without inequalities for almost all entangled states''. Phys. Rev. Lett. '''71''' 1665 (1993).[http://prola.aps.org/abstract/PRL/v71/i11/p1665_1]
+* M. Mizuki, ''A classical interpretation of Bell's inequality''. Annales de la Fondation Louis de Broglie '''26''' 683 (2001)
+*{{cite journal|ref=harv|first=Asher|last=Peres|authorlink=Asher Peres|year=2005|title=Einstein, Podolsky, Rosen, and Shannon|journal=Foundations of Physics|volume=35|issue=3|pages=511–514|doi=10.1007/s10701-004-1986-6|arxiv=quant-ph/0310010|issn=0015-9018|bibcode=2005FoPh...35..511P}}
+* P. Pluch, "Theory for Quantum Probability", PhD Thesis University of Klagenfurt (2006)
+* M. A. Rowe, D. Kielpinski, V. Meyer, C. A. Sackett, W. M. Itano, C. Monroe and D. J. Wineland, ''Experimental violation of a Bell's inequality with efficient detection'', Nature '''409''', 791–794 (15 February 2001). [http://www.nature.com/nature/journal/v409/n6822/full/409791a0.html]
+* M. Smerlak, C. Rovelli, ''Relational EPR'' [https://arxiv.org/abs/quant-ph/0604064]
+
+=== Books ===
+* [[John S. Bell]] (1987) ''Speakable and Unspeakable in Quantum Mechanics''. Cambridge University Press. {{ISBN|0-521-36869-3}}.
+*[[Arthur Fine]] (1996) ''The Shaky Game: Einstein, Realism and the Quantum Theory'', 2nd ed. Univ. of Chicago Press.
+* Selleri, F. (1988) ''Quantum Mechanics Versus Local Realism:  The Einstein–Podolsky–Rosen Paradox''. New York: Plenum Press. {{ISBN|0-306-42739-7}}
+* Leon Lederman, L., Teresi, D. (1993). ''The God Particle: If the Universe is the Answer, What is the Question?'' Houghton Mifflin Company, pages 21, 187 to 189.
+*[[John Gribbin]]  (1984) ''In Search of Schrödinger's Cat''. Black Swan. {{ISBN|978-0-552-12555-0}}
+
+== External links ==
+{{wikiquote}}
+* The Einstein–Podolsky–Rosen Argument in Quantum Theory; 1.2 The argument in the text;<br>http://plato.stanford.edu/entries/qt-epr/#1.2
+* [http://prola.aps.org/abstract/PR/v47/i10/p777_1 The original EPR paper.]
+* [[Internet Encyclopedia of Philosophy]]: "[http://www.iep.utm.edu/epr/ The Einstein-Podolsky-Rosen Argument and the Bell Inequalities]".
+* [[Abner Shimony]] (2004) "[http://plato.stanford.edu/entries/bell-theorem/ ''Bell’s Theorem.]"
+*[http://www.drchinese.com/David/EPR_Bell_Aspect.htm EPR, Bell & Aspect: The Original References.]
+*[http://math.ucr.edu/home/baez/physics/Quantum/bells_inequality.html Does Bell's Inequality Principle rule out local theories of quantum mechanics?] From the Usenet Physics FAQ.
+*[https://web.archive.org/web/20061115193609/http://www.research.ibm.com/journal/rd/481/brassard.html Theoretical use of EPR in teleportation.]
+*[http://www.dhushara.com/book/quantcos/aq/qcrypt.htm Effective use of EPR in cryptography.]
+*[http://www.QuantumLab.de/ EPR experiment with single photons interactive.]
+*[https://www.youtube.com/watch?v=ta09WXiUqcQ Spooky Actions At A Distance?: Oppenheimer Lecture by Prof. Mermin.]
+
+{{Einstein}}
+{{authority control}}
+
+[[Category:Concepts in physics]]
+[[Category:Physical paradoxes]]
+[[Category:Quantum measurement]]
+[[Category:Albert Einstein]]
+[[Category:Thought experiments in quantum mechanics]]

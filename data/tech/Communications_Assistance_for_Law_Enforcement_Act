@@ -1,0 +1,109 @@
+The '''Communications Assistance for Law Enforcement Act''' ('''CALEA'''), also known as the "Digital Telephony Act," is a [[United States]] [[wiretapping]] law passed in 1994, during the [[presidency of Bill Clinton]] (Pub. L. No. 103-414, 108 Stat. 4279, codified at 47 USC 1001-1010).
+
+CALEA's purpose is to enhance the ability of [[law enforcement agency|law enforcement agencies]] to conduct [[lawful interception]] of communication by requiring that telecommunications carriers and manufacturers of telecommunications equipment modify and design their equipment, facilities, and services to ensure that they have built-in capabilities for [[targeted surveillance]], allowing federal agencies to selectively wiretap any telephone traffic; it has since been extended to cover broadband Internet and VoIP traffic. Some government agencies argue that it covers [[mass surveillance]] of communications rather than just tapping specific lines and that not all CALEA-based access requires a warrant.
+
+The original reason for adopting CALEA was the [[Federal Bureau of Investigation]]'s worry that increasing use of digital telephone exchange switches would make tapping phones at the phone company's [[Telephone exchange|central office]] harder and slower to execute, or in some cases impossible.<ref>{{cite journal|last1=Trope|first1=Konrad L.|title=US Government Eavesdropping on Electronic Communications: Where Are We Going?|journal=SciTech Lawyer|date=2014|volume=10|issue=2}}</ref> Since the original requirement to add CALEA-compliant interfaces required phone companies to modify or replace hardware and software in their systems, [[U.S. Congress]] included funding for a limited time period to cover such network upgrades.{{Citation needed|date=December 2014}}  CALEA was passed into law on October 25, 1994 and came into force on January 1, 1995.{{Citation needed|date=December 2014}}
+
+In the years since CALEA was passed it has been greatly expanded to include all [[Voice over IP|VoIP]] and [[Internet access|broadband Internet]] traffic. From 2004 to 2007 there was a 62 percent growth in the number of wiretaps performed under CALEA{{snd}} and more than 3,000 percent growth in interception of Internet data such as email.<ref name="point-click-eavesdrop">{{cite web |last=Singel |first=Ryan |url=https://www.wired.com/politics/security/news/2007/08/wiretap? |title=Point, Click ... Eavesdrop: How the FBI Wiretap Net Operates |publisher=Wired.com |date=29 August 2008 |accessdate=14 March 2010 |deadurl=yes |archiveurl=https://web.archive.org/web/20100314213702/http://www.wired.com/politics/security/news/2007/08/wiretap |archivedate=March 14, 2010 |df= }}</ref>
+
+By 2007, the FBI had spent $39 million on its [[Digital Collection System Network]] (DCSNet) system, which collects, stores, indexes, and analyzes communications data.<ref name="point-click-eavesdrop"/>
+{{wikisource}}
+
+== Provisions of CALEA ==
+In its own words, the purpose of CALEA is:
+
+:''To amend title 18, [[United States Code]], to make clear a telecommunications carrier's duty to cooperate in the interception of communications for Law Enforcement purposes, and for other purposes.''
+
+The U.S. Congress passed the CALEA to aid law enforcement in its effort to conduct criminal investigations requiring wiretapping of digital telephone networks. The Act obliges telecommunications companies to make it possible for law enforcement agencies to [[Wiretapping|tap]] any phone conversations carried out over its networks, as well as making [[call detail record]]s available. The act stipulates that it must not be possible for a person to detect that his or her conversation is being monitored by the respective government agency.
+
+Common carriers, facilities-based broadband Internet access providers, and providers of interconnected Voice over Internet Protocol (VoIP) service{{snd}} all three types of entities are defined to be “telecommunications carriers” and must meet the requirements of CALEA.
+
+The CALEA Implementation Unit at the FBI has clarified that intercepted information is supposed to be sent to Law Enforcement concurrently with its capture.
+
+On March 10, 2004, the [[United States Department of Justice]], FBI and [[Drug Enforcement Administration]] filed a "Joint Petition for Expedited Rulemaking"<ref>http://www.askcalea.com/docs/20040310.calea.jper.pdf</ref> in which they requested certain steps to accelerate CALEA compliance, and to extend the provisions of CALEA to include the ability to perform surveillance of all communications that travel over the Internet{{snd}} such as Internet traffic and VoIP.
+
+As a result, the FCC adopted a "First Report and Order" concluding that CALEA applies to facilities-based broadband Internet access providers and providers of interconnected (with the [[PSTN|public switched telephone network]]) Voice-over-Internet-Protocol (VoIP) services.
+
+In May 2006, the FCC adopted a "Second Report and Order", which  clarified and affirmed the First Order:
+
+* The CALEA compliance deadline remains May 14, 2007.
+* Carriers are permitted to meet their CALEA obligations through the services of "Trusted Third Parties (TTP)"{{snd}} that is, they can hire outside companies, which meet security requirements outlined in CALEA, to perform all of the required functions.
+* Carriers are responsible for CALEA development and implementation costs.
+
+== Technical implementation ==
+For Voice and Text messaging, CALEA software in the central office enables wiretap.  If a call comes in for a number on the target phone a "conference bridge" is created and the second leg is sent to law enforcement at the place of their choosing. By law this must be outside of phone company.  This prevents law enforcement from being inside the phone company and possibly illegally tapping other phones.
+
+Text messages are also sent to law enforcement.
+
+There are two levels of CALEA wiretapping:
+
+* The first level only allows that the "meta data" about a call be sent.  That is the parties to the call, the time of the call and for cell phones, the cell tower being used by the target phone.  For text message, the same information is sent but the content is not sent.  This level is called "Trap and Trace". 
+* The second level of CALEA wiretap, when permitted, actually sends the voice and content of text messages. This is called "Title III" wiretap.
+ 
+USA telecommunications providers must install new hardware or software, as well as modify old equipment, so that it doesn't interfere with the ability of a law enforcement agency (LEA) to perform real-time surveillance of any telephone or Internet traffic.  Modern voice switches now have this capability built in, yet Internet equipment almost always requires some kind of intelligent [[deep packet inspection]] probe to get the job done.  In both cases, the intercept function must single out a subscriber named in a warrant for intercept and then immediately send some (headers-only) or all (full content) of the intercepted data to an LEA.  The LEA will then process this data with analysis software that is specialized towards criminal investigations.
+
+All traditional voice switches on the U.S. market today have the CALEA intercept feature built in.  The IP-based "soft switches" typically do not contain a built-in CALEA intercept feature; and other IP-transport elements (routers, switches, access multiplexers) almost always delegate the CALEA function to elements dedicated to inspecting and intercepting traffic.  In such cases, hardware taps or switch/router mirror-ports are employed to deliver copies of all of a network's data to dedicated IP probes.
+
+Probes can either send directly to the LEA according to the industry standard delivery formats (c.f. ATIS T1.IAS, T1.678v2, et al.); or they can deliver to an intermediate element called a mediation device, where the mediation device does the formatting and communication of the data to the LEA.  A probe that can send the correctly formatted data to the LEA is called a "self-contained" probe.
+
+In order to be compliant, IP-based service providers (broadband, cable, VoIP) must choose either a self-contained probe, or a "dumb" probe component plus a mediation device, or they must implement the delivery of correctly formatted data for a named subscriber on their own.
+
+== Controversy ==
+The [[Electronic Frontier Foundation]] (EFF) warns that:<ref>{{cite web|url=https://www.eff.org/pages/calea-faq#19 |title=FAQ on the CALEA Expansion by the FCC &#124; Electronic Frontier Foundation |publisher=Eff.org |date= |accessdate=2013-10-09}}</ref>
+
+* CALEA makes US software and hardware less attractive for worldwide consumers.
+* CALEA is a reason to move [[research and development]] out from the US.
+* CALEA-free devices will probably be available in the [[gray market]].
+
+Journalist [[Marc Zwillinger]] from the ''[[The Wall Street Journal|Wall Street Journal]]'' explains his concerns with proposed revisions to the CALEA that would require Internet companies to provide law enforcement with a method of gaining access to communication on their networks.<ref name="Zwillinger">{{Cite news|url=https://www.wsj.com/articles/should-law-enforcement-have-the-ability-to-access-encrypted-communications-1429499474|title=Should Law Enforcement Have the Ability to Access Encrypted Communications?|last=Zwillinger|first=Marc|date=April 20, 2015|work=Wall Street Journal|access-date=May 30, 2018|language=|issn=}}</ref> Zwillinger warns this new mandatory access could create a dangerous situation for multinational companies not being able to refuse demands from foreign governments.<ref name="Zwillinger"/>  These governments could “threaten financial sanctions, asset seizures, imprisonment of employees and prohibition against a company’s services in their countries."<ref>{{Cite news|url=https://www.wsj.com/articles/should-law-enforcement-have-the-ability-to-access-encrypted-communications-1429499474|title=Should Law Enforcement Have the Ability to Access Encrypted Communications?|last=Zwillinger|first=Marc|date=April 20, 2018|work=Wall Street Journal|access-date=May 30, 2018|language=|issn=}}</ref>  In addition, the creation of this new mechanism could create an easier way for hackers to gain access to the U.S. government’s key.<ref name="Zwillinger"/>  Moreover, the [[Communications in the United States|U.S. telephone network]] and the [[Global Internet usage|global internet]] differ in that U.S. telephone carriers “weren’t responsible for decrypting communications unless the carrier possessed the decryption key. In fact, CALEA’s legislative history is full of assurances that the Department of Justice and FBI had no intention to require providers to decrypt communications for which they did not have the key.”<ref name="Zwillinger"/>  Therefore, a revision of the CALEA cannot necessarily secure companies from providing data on their devices during criminal investigations to foreign governments.
+
+== Lawsuits ==
+Originally CALEA only granted the ability to wiretap digital telephone networks, but in 2004, the [[United States Department of Justice]] (DOJ),  [[Bureau of Alcohol, Tobacco, Firearms, and Explosives]] (ATF), [[Federal Bureau of Investigation]] (FBI), and [[Drug Enforcement Administration]] (DEA) filed a joint petition with the [[Federal Communications Commission]] (FCC) to expand their powers to include the ability to monitor [[VoIP]] and [[broadband]] Internet communications{{snd}} so that they could monitor Web traffic as well as phone calls.<ref>{{cite web|url=https://apps.fcc.gov/edocs_public/attachmatch/FCC-06-56A1.pdf|title=FCC's Second Report and Order |publisher=FCC |date= |accessdate=2014-12-19}}</ref>
+
+The [[Electronic Frontier Foundation]] has filed several lawsuits to prevent the FCC from granting these expanded [[mass surveillance|domestic surveillance]] capabilities.<ref>{{cite web|url=http://w2.eff.org/Privacy/Surveillance/CALEA/1999/ |title=EFF CALEA Archives 1999 |publisher=W2.eff.org |date= |accessdate=2013-10-09}}</ref><ref>{{cite web|url=http://w2.eff.org/Privacy/Surveillance/CALEA/2000/ |title=EFF CALEA Archives 2000 |publisher=W2.eff.org |date= |accessdate=2013-10-09}}</ref>
+
+The FCC’s First Report and Order, issued in September 2005, ruled that providers of broadband Internet access and interconnected VoIP services are regulable as “telecommunications carriers” under CALEA. That order was affirmed and further clarified by the Second Report and Order, dated May 2006. On May 5, 2006, a group of higher education and library organizations led by the [[American Council on Education]] (ACE) challenged that ruling, arguing that the FCC’s interpretation of CALEA was unconstitutional under the [[Fourth Amendment to the United States Constitution|Fourth Amendment]]. However, on June 9, 2006, the D.C. Circuit Court disagreed and summarily denied the petition.<ref>American Council on Education vs. FCC, [[United States Court of Appeals for the District of Columbia Circuit]], [http://www.baller.com/pdfs/ACE.pdf Decision 05-1404(pdf)] {{webarchive|url=https://web.archive.org/web/20120907032500/http://www.baller.com/pdfs/ACE.pdf |date=2012-09-07 }} June 9, 2006</ref>
+
+== See also ==
+* [[Carnivore (FBI)]]
+* [[NSA ANT catalog]]
+* [[Tempora]]
+* [[DCSNET]]
+* [[ECHELON]]
+* ''[[Hepting v. AT&T]]''
+* [[Lawful interception]]
+* [[Magic Lantern (software)|Magic Lantern]]
+* [[PositiveID]]
+* [[Secrecy of correspondence]]
+* [[Secure communication]]
+* [[SORM]] (Russia)
+* [[Surveillance]]
+* [[Telecommunications Intercept and Collection Technology Unit]]
+* [[Telephone tapping]]
+* [[Total Information Awareness]]
+* [[Patriot Act]]
+* [[Verint]]
+
+== References ==
+<references />
+
+== Further reading ==
+* [http://www.aqsacomna.com/us/articles/LIIPWhitePaperv21%2Epdf White Paper on Lawful Interception of IP Networks]
+* [[wikisource:Communications Assistance for Law Enforcement Act of 1994|Communications Assistance for Law Enforcement Act of 1994]]
+* [http://www.fcc.gov/encyclopedia/communications-assistance-law-enforcement-act FCC CALEA Home page]
+* [https://www.eff.org/issues/calea EFF CALEA page]
+* [http://www.fas.org/sgp/crs/intel/RL30677.pdf Digital Surveillance: The Communications Assistance for Law Enforcement Act], Congressional Research Service, June 8, 2007
+* RFC 3924 - Cisco Architecture for Lawful Intercept in IP Networks
+* [http://www.lasarletter.net/drupal/node/71 CALEA for Broadband? The Critics Are Unanimous :: Lasar's Letter on the Federal Communications Commission]
+* [http://www.lasarletter.net/drupal/node/48 Law enforcement groups have been lobbying for years for FCC Internet wiretapping plan :: Lasar's Letter on the Federal Communications Commission]
+* [http://www.cybertelecom.org/security/calea.htm Cybertelecom: CALEA Information]
+* [https://web.archive.org/web/20080307143322/http://www.ss8.com/pdfs/Ready_Guide_Download_Version.pdf Guide to lawful intercept legislation around the world]
+* [https://web.archive.org/web/20070704162803/http://www.cablemodem.com/specifications/cbis.html CableLabs Cable Broadband Intercept Specification]
+* [http://www.netequalizer.com/caleafaq.php CALEA Q&A]
+
+[[Category:Surveillance]]
+[[Category:United States federal communications legislation]]
+[[Category:United States federal criminal legislation]]
+[[Category:Privacy of telecommunications]]
+[[Category:Privacy law in the United States]]
+[[Category:Mass surveillance]]

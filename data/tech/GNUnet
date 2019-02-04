@@ -1,0 +1,278 @@
+{{distinguish|Gnutella}}
+{{Infobox software
+| name                   = GNUnet
+| logo                   = GNUnet logo.svg
+| screenshot             = GNUnet Screenshot.png
+| caption                = GNUnet with the [[GTK+]] user interface
+| developer              = GNUnet community
+| released               = {{Start date and age|2001|11|05}}
+| latest preview version = 0.11.0pre66
+| latest preview date = {{Start date and age|2018|06|06}}<ref>[https://gnunet.org/downloads GNUnet download website]</ref>
+| programming language   = [[C (programming language)|C]]<ref>[https://gnunet.org/git/gnunet.git/tree/ GNUnet Source Code]</ref>
+| operating system       = official: [[Free software]] operating systems ([[Linux]], [[FreeBSD]], [[NetBSD]], [[OpenBSD]]);<br />inofficial: Other operating systems ([[OS X]], [[Microsoft Windows|Windows]])
+| language               = Spanish, English, Russian, German, French
+| genre                  = [[Anonymous P2P]], [[Friend-to-friend]]
+| license              = [[GNU Affero General Public License|GNU AGPLv3 or later]]<ref>{{cite web |accessdate=June 8, 2018 |url=https://gnunet.org/git/gnunet.git/tree/src/core/core.h?id=4e2504a967ba09643c6dd7e3b9ce400e30adcb3d |title=license notice placed at the top in one of the source files of the project's repository, probably in each of its source files |quote=GNUnet is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.}}</ref> ([[Free software]])
+| alexa                  = {{IncreaseNegative}} 1,022,092 ({{as of|2015|10|27|alt=Oct 2015}})<ref name=alexa>{{cite web | url = http://www.alexa.com/siteinfo/gnunet.org | title = gnunet.org Site Overview | publisher = [[Alexa Internet]] | accessdate = October 27, 2015}}</ref>
+| website                = {{URL|https://gnunet.org}}
+}}
+{{File sharing sidebar}}
+[[File:Christian Grothoff - August 2013 - Berlin, Germany.png|thumb|[[Christian Grothoff]], maintainer of GNUnet, in [[Berlin]] on August 1, 2013 at the "[http://youbroketheinternet.org/#august2013 #youbroketheinternet. We'll make ourselves a GNU one.]" event.]]
+'''GNUnet''' is a [[software framework]] for [[decentralization|decentralized]], [[peer-to-peer]] [[Computer network|networking]] and an official [[GNU project|GNU]] package. The framework offers [[link encryption]], [[Peering|peer discovery]], [[resource allocation]], communication over many transports (such as [[Transmission Control Protocol|TCP]], [[User Datagram Protocol|UDP]], [[HTTP]], [[HTTPS]], [[WLAN]] and [[Bluetooth]]) and various basic [[peer-to-peer]] algorithms for [[routing]], [[multicast]] and [[network size estimation]].{{sfn|EvansPolotGrothoff|2012}}
+
+GNUnet's basic network topology is that of a [[mesh network]]. GNUnet includes a [[distributed hash table]] (DHT) which is a [[randomized]] variant of [[Kademlia]] that can still efficiently route in [[small-world network]]s. GNUnet offers a "[[Friend-to-friend|F2F topology]]" option for restricting connections to only the users' trusted friends. The users' friends' own friends (and so on) can then indirectly exchange files with the users' computer, never using its IP address directly.
+
+GNUnet uses [[Uniform resource identifier]]s (not approved by [[Internet Assigned Numbers Authority|IANA]], although an application has been made). GNUnet URIs consist of two major parts: the module and the module specific identifier. A GNUnet URI is of form ''gnunet://module/identifier'' where ''module'' is the module name and ''identifier'' is a module specific string.
+
+The primary codebase is written in [[C (programming language)|C]], but with [[gnunet-java]] there is an effort to produce an API for developing extensions in [[Java (programming language)|Java]]. GNUnet is part of the [[GNU project]]. It has gained interest to the [[Hacker (programmer subculture)|hacker community]] after the [[PRISM (surveillance program)|PRISM]] revelations.{{sfn|Grothoff|2013}}
+
+GNUnet consists of several subsystems, of which essential ones are Transport and Core subsystems.{{sfn|FerreiraGrothoffRuth|2003|loc=Figure 1}} Transport subsystem provides insecure link-layer communications, while Core provides peer discovery and encryption.{{sfn|FerreiraGrothoffRuth|2003|loc=II. GNUNET AND THE TRANSPORT LAYER|ps=: "The core is responsible for link-to-link encryption, binding of node identities to routable addresses, and peer discovery."}} On top of the core subsystem various applications are built.
+
+GNUnet includes various P2P applications in the main distribution of the framework, including filesharing, chat and VPN; additionally, a few external projects (such as [[secushare]]) are also extending the GNUnet infrastructure.
+
+GNUnet is unrelated to the older [[Gnutella]] P2P protocol. Gnutella is not an official GNU project while GNUnet is.
+
+== Transport ==
+
+Originally, GNUnet used [[User Datagram Protocol|UDP]] for underlying transport.{{sfn|GrothoffPatrascuBennettStef|2002|loc=3.1.1 UDP}} Now GNUnet transport subsystem provides multiple options, such as TCP and SMTP.{{sfn|FerreiraGrothoffRuth|2003}}
+
+The communication port, officially registered at [[Internet Assigned Numbers Authority|IANA]], is 2086 ([[Transmission Control Protocol|tcp]] + [[User Datagram Protocol|udp]]).<ref>[http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml?&page=37 Service Name and Transport Protocol Port Number Registry, p. 37]</ref>
+
+== Trust system ==
+
+GNUnet provides trust system based on excess-based economic model.{{sfn|Grothoff|2003}} The idea of employing economic system is taken from [[MojoNation]] network.{{sfn|GrothoffPatrascuBennettStef|2002|loc=2.4 Mojo Nation}}
+
+GNUnet network has no trusted entities so it is impossible to maintain global ''reputation''. Instead, each peer maintains its own ''trust'' for each of its local links.
+
+When resources, such as bandwidth and CPU time, are in excess, peer provides them to all requesting neighbors without reducing trust or otherwise charging them. When a node is under stress it drops requests from its neighbor nodes having lower internal trust value. However, when peer has less resources than enough to fulfill everyone's requests, it denies requests of those neighbors that it trusts less and charges others by reducing their trust.
+
+== File sharing ==
+The primary application at this point is [[anonymity|anonymous]], [[Internet censorship|censorship]]-resistant file-sharing, allowing users to anonymously publish or retrieve information of all kinds. GNUnet protocol that provides anonymity is called GAP (GNUnet anonymity protocol).{{sfn|BennettGrothoff|2003}} GNUnet uses [[GNU libextractor]] to automatically annotate shared files with [[metadata]].
+
+=== File encoding ===
+Files shared with GNUnet are ECRS (An Encoding for Censorship-Resistant Sharing) coded.{{sfn|BennettGrothoffHorozovPatrascu|2002}}
+
+All content is represented as GBlocks. Each GBlock contains 1024 bytes. There are several types of GBlocks, each of them serves a particular purpose. Any GBlock <math>B</math> is uniquely identified by its [[RIPEMD#RIPEMD-160 hashes|RIPEMD-160 hash]] <math>H(B)</math>.
+
+DBlocks store actual file contents and nothing else. File is split at 1024 byte boundaries and resulting chunks are stored in DBlocks. DBlocks are linked together into [[Merkle tree]] by means of IBlocks that store DBlock identifiers.
+
+Blocks are encrypted with a symmetric key derived from <math>H(B)</math> when they are stored in the network.
+
+=== Queries and replies ===
+GNUnet Anonymity Protocol consists of queries and replies. Depending on load of the forwarding node, messages are forwarded to zero or more nodes.
+
+Queries are used to search for content and request data blocks.
+
+Query contains resource identifier, reply address, priority and TTL (Time-to-Live).
+
+Resource identifier of datum <math>Q</math> is a triple-hash <math>H(H(H(Q)))</math>.{{sfn|GrothoffPatrascuBennettStef|2002|loc=5.5 More on queries}} Peer that replies to query provides <math>H(H(Q))</math>to prove that it indeed has the requested resource without providing <math>H(Q)</math> to intermediate nodes, so intermediate nodes can't decrypt <math>Q</math>.
+
+Reply address is the major difference compared to [[Freenet]] protocol. While in Freenet reply always propagates back using the same path as the query, in GNUnet the path may be shorter. Peer receiving a query may drop it, ''forward'' it without rewriting reply address or ''indirect'' it by replacing reply address with its own address. By indirecting queries peer provides [[cover traffic]] for its own queries, while by forwarding them peer avoids being a link in reply propagation and preserves its bandwidth. This feature allows the user to trade anonymity for efficiency. User can specify an anonymity level for each publish, search and download operation. An anonymity level of ''zero'' can be used to select non-anonymous file-sharing. GNUnet's DHT infrastructure is only used if non-anonymous file-sharing is specified. The anonymity level determines how much cover traffic a peer must have to hide the user's own actions.
+
+Priority specifies how much of its trust user wants to spend in case of resource shortage.
+
+TTL is used to prevent queries from staying in the network for too long.
+
+=== File sharing URIs ===
+The ''fs'' module ''identifier'' consists of either ''chk'', ''sks'', ''ksk'' or ''loc'' followed by a slash and a category specific value. Most URIs contain hashes, which are encoded in [[base32#base32hex|base32hex]].<ref>{{cite web|last1=Grothoff|first1=Christian|title=File-Sharing URIs|url=https://www.gnunet.org/fs-urisyntax|website=www.gnunet.org|accessdate=15 July 2016}}</ref>
+
+* ''chk'' identifies files, typically: <code><nowiki>gnunet://fs/chk/[file hash].[query hash].[file size in bytes]</nowiki></code>
+: File hash is the hash of the plaintext file, which allows decrypting it once it is downloaded. Query hash is the hash of topmost GBlock which allows downloading the whole tree of GBlocks that contain encrypted file. File size is required to determine the shape of the tree.
+* ''sks'' identifies files within namespaces, typically: <code><nowiki>gnunet://fs/sks/NAMESPACE/IDENTIFIER</nowiki></code>
+* ''ksk'' identifies search queries, typically: <code><nowiki>gnunet://fs/ksk/KEYWORD[+KEYWORD]*</nowiki></code>
+* ''loc'' identifies a datum on a specific machine, typically: <code><nowiki>gnunet://fs/loc/PEER/QUERY.TYPE.KEY.SIZE</nowiki></code>
+
+==== Examples ====
+A type of GNUnet filesharing URI pointing to a specific copy of [[GNU GPL]] license text:
+<code style="word-wrap:break-word">
+gnunet://fs/chk/9E4MDN4VULE8KJG6U1C8FKH5HA8C5CHSJTILRTTPGK8MJ6VHORERHE68JU8Q0FDTOH1DGLUJ3NLE99N0ML0N9PIBAGKG7MNPBTT6UKG.1I823C58O3LKS24LLI9KB384LH82LGF9GUQRJHACCUINSCQH36SI4NF88CMAET3T3BHI93D4S0M5CC6MVDL1K8GFKVBN69Q6T307U6O.17992</code>
+
+Another type of GNUnet filesharing URI, pointing to the search results of a search with keyword "gpl":
+<code style="word-wrap:break-word">
+gnunet://fs/ksk/gpl
+</code>
+
+== GNU Name System ==
+GNUnet includes an implementation of the GNU Name System (GNS), a decentralized and censorship-resistant replacement for [[Domain Name System|DNS]]. In GNS, each user manages their own ''master'' [[DNS zone|zone]] which is mapped into the DNS namespace under the ''.gnu'' [[top-level domain]]. Users can delegate subdomains to zones managed by other users. Lookups of records defined by other users are performed using GNUnet's DHT.
+
+== Protocol translation ==
+
+GNUnet can tunnel IP traffic over the peer-to-peer network. If necessary, GNUnet can perform IPv4-IPv6 [[IPv6 transition mechanisms|protocol translation]] in the process. GNUnet provides a [[Application-level gateway|DNS Application-level gateway]] to proxy DNS requests and map addresses to the desired address family as necessary. This way, GNUnet offers a possible technology to facilitate [[IPv6 transition mechanisms|IPv6 transition]]. Furthermore, in combination with GNS, GNUnet's protocol translation system can be used to access hidden services --- IP-based services that run locally at some peer in the network and which can only be accessed by resolving a GNS name.
+
+== Social API ==
+[[Gabor X toth]] published in early September 2013 a thesis<ref>Toth, Gabor X (2013-09-05), [https://gnunet.org/design-social-messaging-system Design of a Social Messaging System Using Stateful Multicast] - Retrieved 2013-09-28</ref> to present the design of a [[social messaging]] service for the GNUnet peer-to-peer framework that offers scalability, extensibility, and end-to-end encrypted communication. The scalability property is achieved through multicast message delivery, while extensibility is made possible by using [[PSYC]] (Protocol for SYnchronous Conferencing), which provides an extensible [[Remote procedure call|RPC]] (Remote Procedure Call) syntax that can evolve over time without having to upgrade the software on all nodes in the network. Another key feature provided by the PSYC layer are stateful multicast channels, which are used to store e.g. user profiles. End-to-end encrypted communication is provided by the mesh service of GNUnet, upon which the multicast channels are built. Pseudonymous users and social places in the system have cryptographical identities — identified by their public key — these are mapped to human memorable names using GNS ([[GNU Name System]]), where each pseudonym has a zone pointing to its places.
+
+That is the required building block for turning the GNUnet framework into a fully [[Distributed social network|peer-to-peer social networking]] platform.
+
+== Chat ==
+A trivial chat module has been implemented more as a test than as a serious application, but it is usable.{{Citation needed|date=February 2012}}
+
+== See also ==
+{{Portal|Free and open-source software|Computer security}}
+* [[Comparison of file sharing applications]]
+* [[Synchronous conferencing]]
+
+== Notes ==
+
+{{Reflist}}
+
+== References ==
+
+{{refbegin}}
+* {{cite techreport
+  |first=Christian
+  |last=Grothoff
+  |first2=Ioana
+  |last2=Patrascu
+  |first3=Krista
+  |last3=Bennett
+  |first4=Tiberiu
+  |last4=Stef
+  |first5=Tzvetan
+  |last5=Horozov
+  |title=The GNet whitepaper
+  |institution=Purdue University
+  |date=2002-06-13
+  |url=https://gnunet.org/sites/default/files/main.pdf
+  |ref=harv
+  }}
+* {{Cite book
+  |title=Efficient Sharing of Encrypted Data
+  |last=Bennett
+  |first=Krista
+  |last2=Grothoff
+  |first2=Christian
+  |last3=Horozov
+  |first3=Tzvetan
+  |last4=Patrascu
+  |first4=Ioana
+  |date=2002-07-03
+  |publisher=Springer Berlin Heidelberg
+  |isbn=9783540438618
+  |editor-last=Batten
+  |editor-first=Lynn|editor-link=Lynn Batten
+  |series=Lecture Notes in Computer Science
+  |pages=107–120
+  |language=en
+  |doi=10.1007/3-540-45450-0_8
+  |editor-last2=Seberry
+  |editor-first2=Jennifer
+  |ref=harv
+  |citeseerx = 10.1.1.19.9837}}
+* {{Cite book
+  |first=Ronaldo
+  |last=Ferreira
+  |first2=Christian
+  |last2=Grothoff
+  |first3=Paul
+  |last3=Ruth
+  |date=2003-05-01
+  |publisher=IEEE
+  |isbn=978-0-7695-1919-7
+  |doi=10.1109/CCGRID.2003.1199393
+  |journal=3rd IEEE/ACM International Symposium on Cluster Computing and the Grid, 2003. Proceedings. CCGrid 2003
+  |pages=398–405
+  |title=A transport layer abstraction for peer-to-peer networks
+  |url=http://grothoff.org/christian/transport.pdf
+  |ref=harv
+  |citeseerx=10.1.1.13.5086
+  }}
+* {{Cite journal
+  |last=Grothoff
+  |first=Dipl-Math Christian
+  |date=2003-06-01
+  |title=Resource allocation in peer-to-peer networks
+  |journal=Wirtschaftsinformatik
+  |language=en
+  |volume=45
+  |issue=3
+  |pages=285–292
+  |doi=10.1007/BF03254946
+  |issn=0937-6429
+  |ref=harv
+  }}
+* {{Cite book
+  |title=gap – Practical Anonymous Networking
+  |last=Bennett
+  |first=Krista
+  |last2=Grothoff
+  |first2=Christian
+  |date=2003-03-26
+  |publisher=Springer Berlin Heidelberg
+  |isbn=9783540206101
+  |editor-last=Dingledine
+  |editor-first=Roger
+  |series=Lecture Notes in Computer Science
+  |pages=141–160
+  |language=en
+  |doi=10.1007/978-3-540-40956-4_10
+  |ref=harv
+|citeseerx = 10.1.1.125.9673}}
+* {{Cite book
+  |title=Efficient and Secure Decentralized Network Size Estimation
+  |last=Evans
+  |first=Nathan
+  |last2=Polot
+  |first2=Bartlomiej
+  |last3=Grothoff
+  |first3=Christian
+  |date=2012-05-21
+  |publisher=Springer Berlin Heidelberg
+  |isbn=9783642300448
+  |editor-last=Bestak
+  |editor-first=Robert
+  |series=Lecture Notes in Computer Science
+  |pages=304–317
+  |language=en
+  |doi=10.1007/978-3-642-30045-5_23
+  |editor-last2=Kencl
+  |editor-first2=Lukas
+  |editor-last3=Li
+  |editor-first3=Li Erran
+  |editor-last4=Widmer
+  |editor-first4=Joerg
+  |editor-last5=Yin
+  |editor-first5=Hao
+  |ref=harv
+  }}
+* {{cite web
+  |url=https://gnunet.org/internetistschuld
+  |title=Video: You broke the Internet. We're making ourselves a GNU one.
+  |last=Grothoff
+  |first=Christian
+  |date=2013-08-01
+  |website=gnunet.org
+  |publisher=[[Pirate Party Germany]], [[Berlin]]
+  |accessdate=4 October 2013
+  |ref=harv
+  }}
+* {{cite web
+  |url=http://grothoff.org/christian/psc2015.pdf
+  |title=The Architecture of the GNUnet: 45 Subsystems in 45 Minutes
+  |last=Grothoff
+  |first=Christian
+  |year=2015
+  |accessdate=2016-07-14
+  }}
+{{refend}}
+
+== External links ==
+* {{Official website}}
+* [https://gnunet.org/sites/default/files/ecrs.pdf Paper describing ECRS]
+* [https://grothoff.org/christian/habil.pdf The GNUnet System], presented in an habilitation thesis to supervise research, Christian Grothoff
+* [https://gnunet.org/compare A comparison of GNUnet with other peer-to-peer networking]
+* [https://lwn.net/Articles/473187/ GNUnet adds VPN, direct wireless peering, and more], LWN.net, December 21, 2011
+* [https://gnunet.org/sites/default/files/schanzen2012msc.pdf Master's thesis about the GNU Name System]
+* [https://gnunet.org/sites/default/files/gnunet-psyc.pdf Master's thesis about stateful multicast messaging design]
+* [http://secushare.org/ secushare] - social network service built on top of GNUnet
+{{File sharing protocols}}
+{{GNU}}
+{{Cryptographic software}}
+
+[[Category:GNU Project software]]
+[[Category:Free file sharing software]]
+[[Category:Anonymity networks]]
+[[Category:Anonymous file sharing networks]]
+[[Category:Free software programmed in C]]
+[[Category:Cross-platform free software]]
+[[Category:Software using the GNU AGPL license]]

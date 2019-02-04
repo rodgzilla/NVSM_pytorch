@@ -1,0 +1,69 @@
+{{multiple issues|
+{{notability|Web|date=August 2011}}
+{{primary sources|date=August 2011}}
+}}
+
+{{lowercase|title=iFolder}}
+{{Infobox software
+| name                   = iFolder
+| screenshot             = Am ifolder.png
+| screenshot size        = 250px
+| caption                = A screenshot of iFolder, running on [[macOS]]
+| developer              = [[Novell, Inc.|Novell]]
+| latest release version = 3.8.0.3
+| latest release date    = {{Release date and age|2010|07|19}}<ref>https://sourceforge.net/p/ifolder/mailman/ifolder-announce/</ref>
+| operating system       = [[Linux]], [[Microsoft Windows|Windows]], [[macOS]], [[Solaris (operating system)|Solaris]]
+| genre                  = File sharing
+| license                = [[GNU General Public License|GPL]]
+| website                = {{URL|http://sourceforge.net/projects/ifolder/}}
+}}
+'''iFolder''' is an [[open-source software|open-source application]], developed by [[Novell, Inc.]], intended to allow [[cross-platform]] [[file sharing]] across computer networks.
+
+iFolder operates on the concept of shared [[Directory (file systems)|folders]], where a folder is marked as shared and the contents of the folder are then synchronized to other computers over a network, either directly between computers in a [[peer-to-peer]] fashion or through a server.  This is intended to allow a single user to [[File synchronization|synchronize files]] between different computers (for example between a work computer and a home computer) or share files with other users (for example a group of people who are collaborating on a project).
+
+The core of the iFolder is actually a project called [[Simias (software)|Simias]].  It is Simias which actually monitors files for changes, synchronizes these changes and controls the access permissions on folders.  The actual iFolder clients (including a graphical desktop client and a web client) are developed as separate programs that communicate with the Simias back-end.
+
+==History==
+Originally conceived and developed at [[PGSoft]] before the company was taken over by Novell in 2000,<ref name="Novell_2000_PGSoft"/><ref name="Rolander_PGSoft"/><ref name="F6S_2013"/> iFolder was announced by Novell on March 19, 2001, and released on June 29, 2001 as a software package for [[Windows NT]]/[[Windows 2000|2000]] and [[Novell NetWare]] 5.1 or included with the forthcoming Novell NetWare 6.0. It also included the ability to access shared files through a web browser.<ref>[http://www.novell.com/news/press/archive/2001/06/pr01064.html Novell iFolder Gives Users 'One Net' Access to Files from Anywhere on the Net]</ref>
+
+iFolder Professional Edition 2, announced on March 13, 2002 and released a month later, added support for [[Linux]] and [[Solaris (operating system)|Solaris]] and web access support for [[Windows CE]] and [[Palm OS]]. This edition was also designed to share files between millions of users in large companies, with increased reporting features for administrators.<ref>[http://www.novell.com/news/press/archive/2002/03/pr02021.html Novell iFolder Gives Users 'Anywhere Access' to Files, Across Platforms and Devices]</ref> In 2003 iFolder won a [[Software and Information Industry Association#CODiE Awards|Codie award]].<ref>{{cite web |title=iFolder Wins 2003 Codie Award - Novell Cool Solutions: Tip |date=2003-05-08 |url=http://www.novell.com/coolsolutions/tip/375.html |access-date=2016-11-12}}</ref><ref name="Rolander_PGSoft">{{cite web |title=Thomas Rolander |work=crunchbase |url=https://www.crunchbase.com/person/thomas-rolander |access-date=2016-11-12 |quote=design and implementation of the 2003 Codie award winning [[Novell]] iFolder internet application, a secure internet based client file system replication tool. [[PGSoft|PG Soft]] sold to Novell in 2001.}}</ref>
+
+On March 22, 2004, after their purchase of the Linux software companies [[Ximian]] and [[SUSE Linux|SUSE]], Novell announced that they were releasing iFolder as an open source project under the [[GNU General Public License|GPL]] license. They also announced that the open source version of iFolder would use the [[Mono (software)|Mono]] framework in an effort to ease development.
+
+iFolder 3.0 was released on June 22, 2005.
+
+On March 31, 2006, Novell announced that iFolder Enterprise Server is now Open Source.
+
+On April 2, 2009, Novell released iFolder 3.7.2 which included a Mac client for 10.4 and 10.5 as well as a Windows Vista client. In addition to the improved client lineup this version supports SSL, LDAPGroup Support, Auto-account creation, iFolder Merge, and Enhanced web access and administration. The iFolder.com website has been completely redesigned with no references to the earlier versions.<ref>[http://www.ifolder.com/news iFolder.com - iFolder 3.7.2 Released!] {{webarchive|url=https://web.archive.org/web/20090404020233/http://www.ifolder.com/news |date=2009-04-04 }}</ref>
+
+On Nov 25, 2009, Novell released iFolder 3.8 <ref>[http://www.ifolder.com/news iFolder.com - iFolder 3.8 Released!] {{webarchive|url=https://web.archive.org/web/20090404020233/http://www.ifolder.com/news |date=2009-04-04 }}</ref>
+
+==See also==
+{{Portal|Free and open-source software}}
+* [[Comparison of file hosting services]]
+* [[Comparison of file synchronization software]]
+* [[Comparison of online backup services]]
+
+==References==
+{{Reflist|refs=
+<ref name="Novell_2000_PGSoft">{{cite web |title=Novell Acquires PGSoft, Inc. |date=2000-02-22 |publisher=Novell, Inc. |url=https://www.microfocus.com/it-it/about/press-room/article/2000/novell-acquires-pgsoft-inc/ |access-date=2018-09-09 |dead-url=no |archive-url=https://archive.is/grPc1 |archive-date=2018-09-09}}</ref>
+<ref name="F6S_2013">{{cite web |title=Tom Rolander - Serial entrepreneur and Emergent Farming co-founder |url=https://www.f6s.com/tomrolander |access-date=2016-11-11 |quote=At [[PGSoft]] [[Tom Rolander]] was founding CEO and VP of Engineering, where he led the development of the iFolder and was acquired by [[Novell]].}}</ref>
+}}
+
+==External links==
+* {{SourceForge|ifolder}}
+* [http://www.nofolder.com/wp-content/uploads/2011/05/ifolder-walkthrough-11.3.pdf Installation procedure for  OpenSUSE. OpenSUSE is recommended because of its lineage to OES and SLES]
+* [https://help.ubuntu.com/community/iFolderInstall Installation procedure for Ubuntu and Debian]
+* [http://www.chimos.de/stuff/ifolder-ubuntu.txt Installation procedure for Ubuntu 11.04 based on official RPM packages]
+
+{{File sharing}}
+
+[[Category:Free software programmed in C Sharp]]
+[[Category:Mono project applications]]
+[[Category:Novell NetWare]]
+[[Category:Free file sharing software]]
+[[Category:Data synchronization]]
+[[Category:Backup software]]
+[[Category:File hosting for Linux]]
+[[Category:File hosting for MacOS]]
+[[Category:File hosting for Windows]]

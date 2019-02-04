@@ -1,0 +1,46 @@
+{{Infobox rocket
+| name = HOPE-X
+| image = HOPE-X spacecraft.jpg
+| caption = HOPE-X
+| country-origin = Japan
+| height = {{Convert|15.2|m|abbr=on}}<ref name="mhi_hope200201" />
+| diameter = {{Convert|9.7|m|abbr=on}} (wing span)<ref name="mhi_hope200201" />
+| mass = {{Convert|14|t|lbs|abbr=on}}<ref name="mhi_hope200201" />
+| stages = launched on [[H-IIA]]
+| status = Project cancelled
+}}
+
+'''HOPE''' was a Japanese experimental [[spaceplane]] project designed by a partnership between [[National Space Development Agency of Japan|NASDA]] and [[National Aerospace Laboratory of Japan|NAL]] (both now part of [[Japan Aerospace Exploration Agency|JAXA]]), started in the 1980s. It was positioned for most of its lifetime as one of the main Japanese contributions to the [[International Space Station]], the other being the [[Japanese Experiment Module]]. The project was eventually cancelled in 2003, by which point test flights of a sub-scale testbed had flown successfully.
+
+==History==
+The original HOPE project called for the building of a sub-scale orbital prototype known as '''HOPE-X''', for ''H-2 Orbiting Plane, Experimental''. This would be used for flight testing and systems validation, before moving onto the larger HOPE, which used many of the same parts and general design in a 4-man {{convert|22|MT|lb|adj=on|lk=on}} design. As the name implies, both would be launched on Japan's new [[H-II|H-2]] launcher, the full-scale HOPE requiring substantial upgrades in performance. At the time, Japan was an up-and-coming industrial powerhouse, and their space program was moving from success to success. There was little doubt, and a little trepidation, that HOPE would be successful.
+
+As part of the overall Japanese space program, testing for technologies that would be used on HOPE and other projects was well advanced. In February 1994 the first test flight of the new H-2 launcher was used to also launch the experimental [[OREX]] ballistic re-entry vehicle, which tested various communications systems, heating profiles and heat shielding components. Another project, [[HYFLEX]], followed in February 1996. Hyflex was intended to test the [[reinforced carbon–carbon|carbon-carbon]] heat shielding tiles that were intended to be used on HOPE, as well as having the same body shaping in order to gather data on hypersonic lifting. HYFLEX was successful, but sank in the Pacific after splashdown before it could be recovered.
+
+In 1997, well into the study, it was decided that HOPE-X should be modified into an unmanned cargo vehicle with the addition of automated approach and docking systems, and a cargo bay with doors similar to the one on the U.S. [[Space Shuttle]]. It was believed this would result in a "quick and dirty" cargo supply system for ISS, which was suffering from continued delays due to problems with the Shuttle program. It was estimated that such a conversion could be completed for an additional [[United States dollar|US$]]292&nbsp;million, less expensive than designing a completely new ballistic cargo vehicle for the H-2 launcher, and much less expensive that the estimated US$2.9&nbsp;billion needed to complete the full-sized HOPE. Even the small HOPE-X launched on unmodified H-2A rockets would deliver a useful {{convert|3|MT|lb}} to ISS, about the same as the [[Progress spacecraft]]'s approximate {{convert|2500|kg|lb}}. HOPE-X was about {{convert|15.2|m|ft}} long with a {{convert|9.7|m|ft}} wingspan,<ref name="mhi_hope200201">{{Cite web|url=http://www.mhi.co.jp/technology/review/pdf/391/391016.pdf|title=HOPE_X 開発から将来宇宙輸送系に向けて|work=Technical Review|publisher=[[Mitsubishi Heavy Industries|MHI]]|date=January 2002|accessdate=2012-06-06|language=Japanese|trans-title=HOPE_X Lessons Learned for Future Space Transportation Systems}}</ref> and looked quite a bit like the U.S. [[X-20 Dyna-Soar]].
+
+In 1998, the H-2 suffered from a string of failures. A&nbsp;re-evaluation of the entire space program followed, and budget constraints later forced a reduction in overall funding by US$690 million to US$4.22&nbsp;billion for the five-year spending period between 1998 and 2002. This would force a delay in the timeline for the HOPE-X, with its first flight in 2003. By this time NASDA had spent only US$305&nbsp;million since the project was approved in 1988, reflecting the status as a research project. The next year the H-2 project was cancelled outright, proceeding with the simplified and lighter H-2A alone. [[Hughes Aircraft|Hughes]] pulled out of the H-2A project at about this time; they had initially purchased ten launches on the system and it was considered a major international success for NASDA.
+
+HOPE continued to soldier on. In 2000, an agreement was signed to land the returning vehicle at Aeon Airstrip on [[Kiritimati|Christmas Island]] in [[Kiribati]]. The High Speed Flight Demonstration project consisted of 25% scale models of HOPE-X to test navigation technologies and flight characteristics.<ref name="jaxa_hsfd">{{Cite web|url=http://global.jaxa.jp/projects/rockets/hsfd/index.html|title=High Speed Flight Demonstration "HSFD"|work=Technical Review|publisher=[[JAXA]]|date=July 2003|accessdate=2014-06-10}}</ref> As the 2003 deadline approached a number of debates broke out about the launcher profile, with many arguing that the H-2 should be replaced with a jet-powered cargo aircraft for an air-start. The first flight was pushed back further to 2004. Before this milestone was reached a major re-organization of NASDA took place in order to address its obvious overcommitment in light of [[Lost Decade (Japan)|Japan's economic stagnation]], especially now that there were demands for a crash program to develop [[spy satellite]]s in order to track [[North Korea]]n nuclear efforts. JAXA was formed, and HOPE was cancelled during this process.
+
+== See also ==
+*[[Buran (spacecraft)]]
+*[[EADS Phoenix]] - successor to the cancelled [[Hermes (shuttle)|Hermes]] program that was a contemporary of HOPE.
+*[[Fuji (Spacecraft)]]
+*[[H-II Transfer Vehicle]]
+*[[Space Shuttle program]]
+*[[X-37]]
+
+== References ==
+{{Reflist}}
+
+== External links ==
+* [https://web.archive.org/web/20090523222127/http://rocket.sfo.jaxa.jp/fstrc/0a06_05.html HOPE-X Program]
+* [http://stratocat.com.ar/fichas-e/2003/KRN-20030701.htm Drop test of a scaled model of the Hope-X vehicle]
+
+{{Japanese space program}}
+{{Spaceplanes}}
+
+[[Category:Spaceplanes]]
+[[Category:Space program of Japan]]
+[[Category:Cancelled spacecraft]]

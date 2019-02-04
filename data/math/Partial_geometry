@@ -1,0 +1,43 @@
+An [[incidence structure]] <math>C=(P,L,I)</math> consists of points <math>P</math>, lines <math>L</math>, and flags <math>I \subseteq P \times L</math> where a point <math>p</math> is said to be incident with a line <math>l</math> if <math>(p,l) \in I</math>. It is a ([[Wikt:finite|finite]]) '''partial geometry''' if there are [[integer]]s <math>s,t,\alpha\geq 1</math> such that:
+
+* For any pair of distinct points <math>p</math> and <math>q</math>, there is at most one line incident with both of them.
+* Each line is incident with <math>s+1</math> points.
+* Each point is incident with <math>t+1</math> lines.
+* If a point <math>p</math> and a line <math>l</math> are not incident, there are exactly <math>\alpha</math> pairs <math>(q,m)\in I</math>, such that <math>p</math> is incident with <math>m</math> and <math>q</math> is incident with <math>l</math>.
+
+A partial geometry with these parameters is denoted by <math>pg(s,t,\alpha)</math>.
+
+==Properties==
+* The number of points is given by <math>\frac{(s+1)(s t+\alpha)}{\alpha}</math> and the number of lines by <math>\frac{(t+1)(s t+\alpha)}{\alpha}</math>.
+* The point graph (also known as the [[Collinearity#Collinearity graph|collinearity graph]]) of a <math>pg(s,t,\alpha)</math> is a [[strongly regular graph]]: <math>srg((s+1)\frac{(s t+\alpha)}{\alpha},s(t+1),s-1+t(\alpha-1),\alpha(t+1))</math>.
+* Partial geometries are dual structures: the dual of a <math>pg(s,t,\alpha)</math> is simply a <math>pg(t,s,\alpha)</math>.
+
+==Special case==
+* The [[generalized quadrangle]]s are exactly those partial geometries <math>pg(s,t,\alpha)</math> with <math>\alpha=1</math>.
+* The [[Steiner system]]s are precisely those partial geometries <math>pg(s,t,\alpha)</math> with <math>\alpha=s+1</math>.
+
+==Generalisations==
+A [[partial linear space]] <math>S=(P,L,I)</math> of order <math>s, t</math> is called a semipartial geometry if there are [[integer]]s <math>\alpha\geq 1, \mu</math> such that:
+
+* If a point <math>p</math> and a line <math>\ell</math> are not incident, there are either <math>0</math> or exactly <math>\alpha</math> pairs <math>(q,m)\in I</math>, such that <math>p</math> is incident with <math>m</math> and <math>q</math> is incident with <math>\ell</math>.
+* Every pair of non-collinear points have exactly <math>\mu</math> common neighbours.
+
+A semipartial geometry is a partial geometry if and only if <math>\mu = \alpha(t+1)</math>.
+
+It can be easily shown that the collinearity graph of such a geometry is strongly regular with parameters 
+<math>(1 + s(t + 1) +  s(t+1)t(s - \alpha + 1)/\mu, s(t+1), s - 1 + t(\alpha - 1), \mu)</math>.
+
+A nice example of such a geometry is obtained by taking the affine points of <math>PG(3, q^2)</math> and only those lines that intersect the plane at infinity in a point of a fixed Baer subplane; it has parameters <math>(s, t, \alpha, \mu) = (q^2 - 1, q^2 + q, q, q(q + 1))</math>.
+
+==See also==
+* [[Maximal arc]]
+
+==References==
+* {{citation|last1=Brouwer|first1=A.E.|last2=van Lint|first2=J.H.|contribution=Strongly regular graphs and partial geometries|editor1-last=Jackson|editor1-first=D.M.|editor2-last=Vanstone|editor2-first=S.A.|title=Enumeration and Design|publisher=Academic Press|place=Toronto|publication-date=1984|pages=85–122}}
+* {{citation |last = Bose | first = R. C. | title = Strongly regular graphs, partial geometries and partially balanced designs | journal = Pacific J. Math. | volume = 13 | date = 1963 | url = https://projecteuclid.org/euclid.pjm/1103035734 | pages = 389–419}}
+* {{citation|last1=De Clerck|first1=F.|last2=Van Maldeghem|first2=H.|contribution=Some classes of rank 2 geometries|title=Handbook of Incidence Geometry|publisher=North-Holland|place=Amsterdam|publication-date=1995|pages=433–475}}
+* {{citation|last=Thas|first=J.A.|contribution=Partial Geometries|editor1-last=Colbourn|editor1-first=Charles J.|editor2-last=Dinitz|editor2-first=Jeffrey H.|title=Handbook of Combinatorial Designs|publication-date=2007|publisher=Chapman & Hall/ CRC|location=Boca Raton|isbn=1-58488-506-8|edition=2nd|pages=557–561}}
+* {{citation|last1=Debroey|first1=I.|last2=Thas|first2=J. A.|title=On semipartial geometries|journal= Journal of Combinatorial Theory, Series A|publication-date=1978|volume = 25|pages=242–250}}
+
+{{DEFAULTSORT:Partial Geometry}}
+[[Category:Incidence geometry]]

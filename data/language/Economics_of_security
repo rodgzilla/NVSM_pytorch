@@ -1,0 +1,60 @@
+{{unreferenced|date=December 2010}}
+The economics of [[information security]] addresses the economic aspects of [[privacy]] and [[computer security]]. Economics of information security includes models of the strictly rational “[[homo economicus]]” as well as [[behavioral economics]]. '''Economics of security''' addresses individual and organizational decisions and behaviors with respect to security and privacy as market decisions.
+
+Economics of security addresses a core question: why do agents choose technical risks when there exists technical solutions to mitigate security and privacy risks?  Economics addresses not only this question, but also inform design decisions in [[security engineering]].
+
+== Emergence of economics of security ==
+[[National security]] is the canonical [[public good]]. The economic status of information security came to the intellectual fore around 2000. As is the case with innovations it arose simultaneously in multiple venues.
+
+In 2000, [[Ross J. Anderson|Ross Anderson]] wrote, [http://www.acsac.org/2001/papers/110.pdf Why Information Security is Hard].  Anderson explained that a significant difficulty in optimal development of security technology is that incentives must be aligned with the technology to enable rational adoption. Thus, economic insights should be integrated into technical design. A security technology should enable the party at risk to invest to limit that risk. Otherwise, the designers are simply counting on [[altruism]] for adoption and diffusion. Many consider this publication the birth of economics of security.
+
+Also in 2000 at Harvard, Camp at the School of Government and Wolfram in the Department of Economics argued that security is not a [[public good]] but rather each extant vulnerabilities has an associated negative [[externality]] value.  Vulnerabilities were defined in this work as tradable goods.  Six years later, [http://idefense.com/ iDEFENSE], [http://zerodayinitiative.com/  ZDI] and [https://web.archive.org/web/20071125104648/http://www.mozilla.org/security/bug-bounty.html Mozilla] have extant markets for vulnerabilities.
+
+In 2000, the scientists at the Computer Emergency Response Team at [[Carnegie Mellon University]] proposed an early mechanism for risk assessment. The Hierarchical Holographic Model provided the first multi-faceted evaluation tool to guide security investments using the science of risk. Since that time, CERT has developed a suite of systematic mechanism for organizations to use in risk evaluations, depending on the size and expertise of the organization: [http://www.cert.org/octave OCTAVE]. The study of computer security as an investment in risk avoidance has become standard practice.
+
+In 2001, in an unrelated development, [[Lawrence A. Gordon]] and [http://www.rhsmith.umd.edu/faculty/mloeb/ Martin P. Loeb] published [http://dl.acm.org/citation.cfm?id=383709 Using information security as a response to competitor analysis systems]. A working paper of the published article was written in 2000. These professors, from Maryland's Smith School of Business, present a game-theoretic framework that demonstrates how information security can prevent rival firms from gaining sensitive information. In this context, the article considers the economic (i.e., cost-benefit) aspects of information security. 
+
+The authors came together to develop and expand a series of flagship events under the name Workshop on the Economics of Information Security.
+
+== Examples of findings in economics of security ==
+Proof of work is a security technology designed to stop spam by altering the economics. An early paper in economics of information security argued that [[proof of work]] cannot work. In fact, the finding was that [[proof of work]] cannot work without [[price discrimination]] as illustrated by a later paper, [http://weis2006.econinfosec.org/docs/50.pdf Proof of Work can Work].
+
+Another finding, one that is critical to an understanding of current American data practices, is that the opposite of [[privacy]] is not, in economic terms [[anonymity]], but rather [[price discrimination]]. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.4.9746&rep=rep1&type=pdf Privacy and price discrimination] was authored by [[Andrew Odlyzko]] and illustrates that what may appear as information pathology in collection of data is in fact rational organizational behavior.
+
+[[Hal Varian]] presented three models of security using the metaphor of the height of walls around a town to show security as a normal good, public good, or good with externalities. [http://www.sims.berkeley.edu/resources/affiliates/workshops/econsecurity/econws/49.pdf Free riding] is the end result, in any case.
+
+[[Lawrence A. Gordon]] and [http://www.rhsmith.umd.edu/faculty/mloeb/ Martin P. Loeb] wrote the [http://ns2.virusflags.dc.hu/~mfelegyhazi/courses/EconSec/readings/04_GordonL02economics_security_investment.pdf Economics of Information Security Investment]. The [[Gordon-Loeb Model]] is considered by many as the first economic model that determines the optimal amount to invest to protect a given set of information. The model takes into account the vulnerability of the information to a security breach and the potential loss should such a breach occur.
+
+==See also==
+* [[Computer insecurity]]
+* [[Defensive programming]] (secure coding)
+* [[Security engineering]]
+* [[Hacker (computer security)|Hacking]]
+* [[Information Systems Security Engineering]]
+* [[Software Security Assurance]]
+* [[Computer security]]
+* [[Trusted system]]
+* [[Cyber-Insurance|Cyber Insurance]]
+
+== External links ==
+
+=== Centers that study economics of security ===
+* [http://www.heinz.cmu.edu/ Carnegie Mellon University Heinz College]
+* [http://privacy.cs.cmu.edu/  Carnegie Mellon University Privacy Lab]
+* [http://www.cl.cam.ac.uk/research/security/ Cambridge University Computer Science Laboratory]
+* [http://informatics.indiana.edu/ Indiana University School of Informatics]
+* [http://www.dtc.umn.edu/ University of Minnesota]
+* [http://www.si.umich.edu/ University of Michigan School of Information]
+* [http://www.eecs.harvard.edu/index/cs/cs_index.php Harvard University Division of Engineering and Applied Sciences]
+* [http://www.thei3p.org/ Dartmouth hosts the I3P] which includes the Tuck School as well as the Computer Science Department in studying economics of information security.
+
+=== Resources in economics of security ===
+* [[Ross J. Anderson|Ross Anderson]] maintains the [http://www.cl.cam.ac.uk/~rja14/econsec.html Economics of Information Security] page.
+* [http://www.heinz.cmu.edu/~acquisti Alessandro Acquisti] has the corresponding [http://www.heinz.cmu.edu/~acquisti/economics-privacy.htm Economics of Privacy Resources] page.
+* [[Jean Camp]] [http://infosecon.net/ Economics of Information Security] links to all the past workshops, with the corresponding papers, as well as current conferences and calls for papers. It also provides events, books, past workshops, and an annotated bibliography.
+* [http://www.adrianmizzi.com/ Return on Information Security Investment] provides self-assessment questionnaire, papers and links to Information security economics resources.
+* [http://voxeu.org/article/cyber-attacks-economic-policy-challenge Cyber Attacks: An Economic Policy Challenge], published in [[Centre for Economic Policy Research|CEPR]]'s policy portal VOX, provides a non-technical overview of policy and measurement issues related to the economics of cybersecurity.
+[[Category:Computer security]]
+[[Category:Risk]]
+[[Category:Security]]
+[[Category:Interdisciplinary subfields of economics|Security]]

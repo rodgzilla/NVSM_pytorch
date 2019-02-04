@@ -1,0 +1,44 @@
+'''Task computing''' is a computation meant to fill the gap between [[Task (computing)|tasks]] (what the user wants to be done) and [[Service (computing)|services]] (functionalities that are available to the user). Task computing seeks to redefine how users interact with and use computing environments. It is built on [[pervasive computing]].
+
+== Task Computing Framework (TCF) and Task Computing Environment (TCE) ==
+A Task Computing Framework (TCF) is a framework that supports task computing, by providing support for:
+* The [[workflow]]s of task computing, i.e., at a minimum, discovery, followed by composition and [[Execution (computing)|execution]]
+* [[Semantics|Semantic]] description of tasks and services
+* Specification, execution, and re-usability of tasks by [[end user]]s
+* Manipulation, including creation and disposal of services by end users
+
+This definition of a task computing framework does not make reference to computational components. This is referred to as a Task Computing Environment (TCE). A TCE is a computational system that includes, at a minimum, the following components:
+* One or more Task Computing Clients (TCCs),
+* One or more [[Semantic service-oriented architecture|Semantically Described Services]] (SDSs),
+* One or more Semantic Service Discovery Mechanisms (SSDMs), and
+* Optionally, one or more Service Controls (SCs)
+
+== Applications ==
+Using Task Execution EditoR (STEER),<ref>[http://www.flacp.fujitsulabs.com/~rmasuoka/papers/Task-Computing-ISWC2003-202-color-final.pdf Microsoft Word - Task-Computing-ISCW2003-202-final.doc<!-- Bot generated title -->] {{Webarchive|url=https://web.archive.org/web/20051016164132/http://www.flacp.fujitsulabs.com/~rmasuoka/papers/Task-Computing-ISWC2003-202-color-final.pdf |date=2005-10-16 }}</ref> embodiments of multiple semantically described services and service controls, the following applications are possible:
+* Exchanging [[Business Card]]s
+* Showing and Sharing the Presentation
+* Scheduling a Future Presentation
+* Checking and Printing Directions to the Airport
+
+==Notes==
+<references/>
+
+== References ==
+* {{Cite journal | ref=harv
+  | first = Seng W.
+  | last = Loke
+  | authorlink =
+  | coauthors = 
+  | title =  Building Taskable Spaces over Ubiquitous Services
+  | journal = IEEE Pervasive Computing
+  | volume = 8
+  | issue = 4
+  | pages = 72–78
+  | year = 2009
+ | doi=10.1109/mprv.2009.69}}
+
+== Related work ==
+*[http://csdl2.computer.org/persagen/DLAbsToc.jsp?resourcePath=/dl/mags/ex/&toc=comp/mags/ex/2003/05/x5toc.xml&DOI=10.1109/MIS.2003.1234773 White Hole]
+*[http://doi.ieeecomputersociety.org/10.1109/SAINT.2005.2 PIPE (Pervasive Instance Provision Environment)]
+
+[[Category:Software architecture]]
