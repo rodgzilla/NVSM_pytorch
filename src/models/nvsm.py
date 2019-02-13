@@ -96,8 +96,6 @@ class NVSM(nn.Module):
         Computes the similarity between a query and a document. This method corresponds
         to the function 'P' in the article.
         '''
-#         print('query.is_cuda', query.is_cuda)
-#         print('document.is_cuda', query.is_cuda)
         document_emb  = self.doc_emb(document)
         query_proj    = self.stand_projection(query)
         # If we have a single document to match against each query, we have
