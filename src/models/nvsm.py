@@ -140,3 +140,13 @@ class NVSM(nn.Module):
         proba         = ((z + 1) / (2 * z)) * (z * positive_term + negative_term)
 
         return proba
+
+def loss_function(nvsm, pred, lamb):
+    output_term = pred.mean()
+    sum_square  = lambda m: (m.weight * m.weight).sum()
+    reg_term    = sum_square(nvsm.tok_emb) + \
+                  sum_square(nvsm.doc_emb) + \
+                  sum_square(nvsm.tok_to_doc)
+    loss        = -output_term + (lamb / (2 * pred.shape[0])) * reg_term
+
+    return loss
