@@ -8,9 +8,16 @@ from torch.utils.data import DataLoader
 spacy_en = spacy.load('en')
 
 def tokenize(text):
+    '''
+    Takes a string as input and returns a list of tokens. This function
+    utilizes the tokenizer algorithm from the english spacy package.
+    '''
     return [tok.text for tok in spacy_en.tokenizer(text)]
 
 def load_docs(filepaths):
+    '''
+    Opens and load the content of a list of files.
+    '''
     documents = []
     for filepath in filepaths:
         with open(filepath) as file:
@@ -19,11 +26,19 @@ def load_docs(filepaths):
     return documents
 
 def tokenize_docs(documents):
+    '''
+    Tokenises a list of documents.
+    '''
     tokenized_documents = [tokenize(doc) for doc in documents]
 
     return tokenized_documents
 
 def create_vocabulary(tokenized_documents):
+    '''
+    Creates the set of words presents in the document and the
+    two dictionaries stoi (token to voc index) and itos (voc index to
+    token).
+    '''
     vocabulary    = {token for doc in tokenized_documents for token in doc}
     stoi          = {token : i + 2 for i, token in enumerate(vocabulary)}
     stoi['<PAD>'] = 0
@@ -33,6 +48,10 @@ def create_vocabulary(tokenized_documents):
     return vocabulary, stoi, itos
 
 def create_dataset(tok_docs, stoi, n):
+    '''
+    Creates the dataset by extracting n-grams from the documents using a
+    rolling window.
+    '''
     n_grams      = []
     document_ids = []
     for i, doc in enumerate(tok_docs):
@@ -44,6 +63,10 @@ def create_dataset(tok_docs, stoi, n):
     return n_grams, document_ids
 
 def create_pytorch_datasets(n_grams, doc_ids, val_prop = 0.2):
+    '''
+    Creates and splits the pytorch dataset corresponding to the n_grams and
+    doc_ids.
+    '''
     n_grams_tensor = torch.tensor(n_grams)
     doc_ids_tensor = torch.tensor(doc_ids)
     full_dataset   = TensorDataset(n_grams_tensor, doc_ids_tensor)
@@ -54,6 +77,10 @@ def create_pytorch_datasets(n_grams, doc_ids, val_prop = 0.2):
     return train, val
 
 def create_query_dataset(queries, stoi):
+    '''
+    Creates a TensorDataset of a list of string queries in order to run queries
+    on the model.
+    '''
     pad_token         = stoi['<PAD>']
     tokenized_queries = [tokenize(query) for query in queries]
     queries_tok_idx   = [[stoi.get(tok, stoi['<UNK>']) for tok in query] for query in tokenized_queries]
@@ -65,6 +92,9 @@ def create_query_dataset(queries, stoi):
     return dataset
 
 def evaluate_queries(nvsm, queries_text, doc_names, stoi, batch_size, device):
+    '''
+    Run a list of queries on the model.
+    '''
     query_dataset    = create_query_dataset(queries_text, stoi)
     test_loader      = DataLoader(query_dataset, batch_size = batch_size)
     results          = []
