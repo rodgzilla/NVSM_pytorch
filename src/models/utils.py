@@ -1,5 +1,7 @@
 import spacy
 
+from tqdm import tqdm
+
 import torch
 from torch.utils.data import TensorDataset
 from torch.utils.data import random_split
@@ -19,7 +21,7 @@ def load_docs(filepaths):
     Opens and load the content of a list of files.
     '''
     documents = []
-    for filepath in filepaths:
+    for filepath in tqdm(filepaths, desc = 'Loading doc content'):
         with open(filepath) as file:
             documents.append(file.read().strip().lower())
 
@@ -29,7 +31,7 @@ def tokenize_docs(documents):
     '''
     Tokenises a list of documents.
     '''
-    tokenized_documents = [tokenize(doc) for doc in documents]
+    tokenized_documents = [tokenize(doc) for doc in tqdm(documents, desc = 'Tokenizing documents')]
 
     return tokenized_documents
 
