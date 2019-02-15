@@ -1,0 +1,198 @@
+Image:Neuroethology of bat echolocation.png|thumb|right|''Animal Echolocation|Echolocation'' in bats is one model system in neuroethology.
+Neuroethology is the evolutionary and comparative approach to the study of animal behavior and its underlying mechanistic control by the nervous system.<ref>Hoyle, G. (1984) The scope of Neuroethology. The Behavioral and Brain Sciences. 7: 367–412.</ref><ref>Ewert, P. (1980) Neuroethology. Springer-Verlag. New York.</ref><ref>Camhi, J. (1984) Neuroethology. Sinauer. Sunderland Mass.</ref>  This interdisciplinary branch of behavioral neuroscience endeavors to understand how the central nervous system translates biologically relevant stimuli into natural behavior. For example, many bats are capable of Animal Echolocation|echolocation which is used for prey capture and navigation. The auditory system of bats is often cited as an example for how acoustic properties of sounds can be converted into a sensory map of behaviorally relevant features of sounds.<ref>Suga, N. (1989). "Principles of auditory information-processing derived from neuroethology." J Exp Biol 146: 277–86.</ref>  Neuroethologists hope to uncover general principles of the nervous system from the study of animals with exaggerated or specialized behaviors.
+
+As its name implies, neuroethology is a multidisciplinary field composed of neurobiology (the study of the nervous system) and ethology (the study of animal behavior in natural conditions).  A central theme of the field of neuroethology, delineating it from other branches of neuroscience, is this focus on natural behavior, which may be thought of as those behaviors generated through means of natural selection (i.e. finding mates, navigation, locomotion, predator avoidance) rather than behaviors in disease states, or behavioral tasks that are particular to the laboratory.
+
+Philosophy
+Neuroethology is an integrative approach to the study of animal behavior that draws upon several disciplines.  Its approach stems from the theory that animals' nervous systems have evolved to address problems of sensing and acting in certain environmental niches and that their nervous systems are best understood in the context of the problems they have evolved to solve.  In accordance with Krogh's principle, neuroethologists often study animals that are "specialists" in the behavior the researcher wishes to study e.g. honeybees and social behavior, bat echolocation, owl sound localization, etc.
+
+The scope of neuroethological inquiry might be summarized by Jörg-Peter Ewert, a pioneer of neuroethology, when he considers the types of questions central to neuroethology in his 1980 introductory text to the field:
+
+# How are stimuli detected by an organism?
+# How are environmental stimuli in the external world represented in the nervous system?
+# How is information about a stimulus acquired, stored and recalled by the nervous system?
+# How is a behavioral pattern encoded by neural networks?
+# How is behavior coordinated and controlled by the nervous system?
+# How can the ontogenetic development of behavior be related to neural mechanisms?
+
+Often central to addressing questions in neuroethology are comparative methodologies, drawing upon knowledge about related organisms' nervous systems, anatomies, life histories, behaviors and environmental niches.  While it is not unusual for many types of neurobiology experiments to give rise to behavioral questions, many neuroethologists often begin their research programs by observing a species' behavior in its natural environment.  Other approaches to understanding nervous systems include the systems identification approach, popular in engineering. The idea is to stimulate the system using a non-natural stimulus with certain properties. The system's response to the stimulus may be used to analyze the operation of the system. Such an approach is useful for linear systems, but the nervous system is notoriously nonlinear, and neuroethologists argue that such an approach is limited.  This argument is supported by experiments in the auditory system, which show that neural responses to complex sounds, like social calls, can not be predicted by the knowledge gained from studying the responses due to pure tones (one of the non-natural stimuli favored by auditory neurophysiologists). This is because of the non-linearity of the system.
+
+Modern neuroethology is largely influenced by the research techniques used.  Neural approaches are necessarily very diverse, as is evident through the variety of questions asked, measuring techniques used, relationships explored, and model systems employed.  Techniques utilized since 1984 include the use of intracellular dyes, which make maps of identified neurons possible, and the use of brain slices, which bring vertebrate brains into better observation through intracellular electrodes (Hoyle 1984).  Currently, other fields toward which neuroethology may be headed include computational neuroscience, molecular genetics, neuroendocrinology and epigenetics.  The existing field of neural modeling may also expand into neuroethological terrain, due to its practical uses in robotics.  In all this, neuroethologists must use the right level of simplicity to effectively guide research towards accomplishing the goals of neuroethology.
+
+Critics of neuroethology might consider it a branch of neuroscience concerned with 'animal trivia'.  Though neuroethological subjects tend not to be traditional neurobiological model systems (i.e. ''Drosophila melanogaster|Drosophila'', ''Caenorhabditis elegans|C. elegans'', or ''Danio rerio''), neuroethological approaches emphasizing comparative methods have uncovered many concepts central to neuroscience as a whole, such as lateral inhibition, Coincidence detection in neurobiology|coincidence detection, and sensory maps.  The discipline of neuroethology has also discovered and explained the only vertebrate behavior for which the entire neural circuit has been described: the electric fish jamming avoidance response.  Beyond its conceptual contributions, neuroethology makes indirect contributions to advancing human health.  By understanding simpler nervous systems, many clinicians have used concepts uncovered by neuroethology and other branches of neuroscience to develop treatments for devastating human diseases.
+
+History
+
+The field of neuroethology owes part of its existence to the establishment of ethology as a unique discipline within the discipline of  Zoology.  Although animal behavior had been studied since the time of Aristotle (384–342 BC), it was not until the early twentieth century that ethology finally became distinguished from natural science (a strictly descriptive field) and ecology.  The main catalysts behind this new distinction were the research and writings of Konrad Lorenz and Niko Tinbergen.
+
+Konrad Lorenz was born in Austria in 1903, and is widely known for his contribution of the theory of fixed action patterns (FAPs): endogenous, instinctive behaviors involving a complex sequence of movements that are triggered ("released") by a certain kind of stimulus.  This sequence always proceeds to completion, even if the original stimulus is removed. It is also species-specific and performed by nearly all members. Lorenz constructed his famous "hydraulic model" to help illustrate this concept, as well as the concept of action specific energy, or drives.
+
+Niko Tinbergen was born in the Netherlands in 1907 and worked closely with Lorenz in the development of the FAP theory; their studies focused on the egg retrieval response of nesting geese.  Tinbergen performed extensive research on the releasing mechanisms of particular FAPs, and used the bill-pecking behavior of baby herring gulls as his model system.  This led to the concept of the supernormal stimulus.  Tinbergen is also well known for his Tinbergen's four questions|four questions that he believed ethologists should be asking about any given animal behavior; among these is that of the mechanism of the behavior, on a physiological, neural and molecular level, and this question can be thought of in many regards as the keystone question in neuroethology. Tinbergen also emphasized the need for ethologists and neurophysiologists to work together in their studies, a unity that has become a reality in the field of neuroethology.
+
+Unlike behaviorism, which studied animals' reactions to non-natural Stimulus (physiology)|stimuli in artificial, laboratory conditions, ethology sought to categorize and analyze the natural behaviors of animals in a field setting. Similarly, neuroethology asks questions about the neural bases of ''naturally occurring'' behaviors, and seeks to mimic the natural context as much as possible in the laboratory.
+
+Although the development of ethology as a distinct discipline was crucial to the advent of neuroethology, equally important was the development of a more comprehensive understanding of neuroscience. Contributors to this new understanding were the Spanish Neuroanatomist, Ramon y Cajal (born in 1852), and physiologists Charles Sherrington, Edgar Adrian, Alan Hodgkin, and Andrew Huxley.  Charles Sherrington, who was born in Great Britain in 1857, is famous for his work on the nerve synapse as the site of transmission of nerve impulses, and for his work on reflexes in the spinal cord. His research also led him to hypothesize that every muscular activation is coupled to an inhibition of the opposing muscle.  He was awarded a Nobel Prize for his work in 1932 along with Lord Edgar Adrian who made the first physiological recordings of neural activity from single nerve fibers.
+
+Alan Hodgkin and Andrew Huxley (born 1914 and 1917, respectively, in Great Britain), are known for their collaborative effort to understand the production of action potentials in the giant axons of squid.  The pair also proposed the existence of ion channels to facilitate action potential initiation, and were awarded the Nobel Prize in 1963 for their efforts.
+
+As a result of this pioneering research, many scientists then sought to connect the physiological aspects of the nervous and sensory systems to specific behaviors.  These scientists – Karl von Frisch, Erich von Holst, and Theodore Bullock – are frequently referred to as the "fathers" of neuroethology.<ref>Bullock T.H. (1999) Neuroethology has pregnant agendas. J. Comp. Physiol. A 185(4): 291-295 [http://www.springerlink.com/content/q7w26u824yrc5na8/]</ref>  Neuroethology did not really come into its own, though, until the 1970s and 1980s, when new, sophisticated experimental methods allowed researchers such as Masakazu Konishi, Walter Heiligenberg, Jörg-Peter Ewert, and others to study the neural circuits underlying verifiable behavior.
+
+Modern neuroethology
+
+The International Society for Neuroethology represents the present discipline of neuroethology, which was founded on the occasion of the NATO-Advanced Study Institute  "Advances in Vertebrate Neuroethology" (August 13–24, 1981) organized by J.-P. Ewert, D.J. Ingle and R.R. Capranica, held at the University of Kassel in Hofgeismar, Germany (cf. report Trends in Neurosci. 5:141-143,1982). Its first president was Theodore H. Bullock. The society has met every three years since its first meeting in Tokyo in 1986.
+
+Its membership draws from many research programs around the world; many of its members are students and faculty members from medical schools and neurobiology departments from various universities.  Modern advances in neurophysiology techniques have enabled more exacting approaches in an ever-increasing number of animal systems, as size limitations are being dramatically overcome. Survey of the most recent (2007) congress of the ISN meeting symposia topics gives some idea of the field's breadth:
+
+*Comparative aspects of spatial memory (rodents, birds, humans, bats)
+*Influences of higher processing centers in active sensing (primates, owls, electric fish, rodents, frogs)
+*Animal signaling plasticity over many time scales (electric fish, frogs, birds)
+*Song production and learning in passerine birds
+*Primate sociality
+*Optimal function of sensory systems (flies, moths, frogs, fish)
+*Neuronal complexity in behavior (insects, computational)
+*Contributions of genes to behavior (Drosophila, honeybees, zebrafish)
+*Eye and head movement (crustaceans, humans, robots)
+*Hormonal actions in brain and behavior (rodents, primates, fish, frogs, and birds)
+*Cognition in insects (honeybee)
+
+Application to technology
+
+Neuroethology can help create advancements in technology through an advanced understanding of animal behavior.  Model systems were generalized from the study of simple and related animals to humans.  For example, the neuronal cortical space map discovered in bats, a specialized champion of hearing and navigating, elucidated the concept of a computational space map.  In addition, the discovery of the space map in the barn owl led to the first neuronal example of the Lloyd A. Jeffress|Jeffress model.  This understanding is translatable to understanding spatial localization in humans, a mammalian relative of the bat.  Today, knowledge learned from neuroethology are being applied in new technologies.  For example, Randall Beer and his colleagues used algorithms learned from insect walking behavior to create robots designed to walk on uneven surfaces (Beer et al.).  Neuroethology and technology contribute to one another bidirectionally.
+
+Neuroethologists seek to understand the neural basis of a behavior as it would occur in an animal's natural environment but the techniques for neurophysiological analysis are lab-based, and cannot be performed in the field setting.  This dichotomy between field and lab studies poses a challenge for neuroethology.  From the neurophysiology perspective, experiments must be designed for controls and objective rigor, which contrasts with the ethology perspective – that the experiment be applicable to the animal's natural condition, which is uncontrolled, or subject to the dynamics of the environment.  An early example of this is when Walter Rudolf Hess developed focal brain stimulation technique to examine a cat's brain controls of vegetative functions in addition to other behaviors.  Even though this was a breakthrough in technological abilities and technique, it was not used by many neuroethologists originally because it compromised a cat's natural state, and, therefore, in their minds, devalued the experiments' relevance to real situations.
+
+When intellectual obstacles like this were overcome, it led to a golden age of neuroethology, by focusing on simple and robust forms of behavior, and by applying modern neurobiological methods to explore the entire chain of sensory and neural mechanisms underlying these behaviors (Zupanc 2004).  New technology allows neuroethologists to attach electrodes to even very sensitive parts of an animal such as its brain while it interacts with its environment.<ref>Ewert J.-P., Borchers H.-W. (1974) Antwort von retinalen Ganglienzellen bei freibeweglichen Kröten (''Bufo bufo'' L.). [Responses of retinal ganglion cells in freely moving toads] Abstract available.  J. Comp. Physiol. 92: 117-130 [http://www.springerlink.com/content/g5672t121j427g15/?p=4172391acd64460eb4b381b2266cbe80&pi=13]</ref> The founders of neuroethology ushered this understanding and incorporated technology and creative experimental design.  Since then even indirect technological advancements such as battery-powered and waterproofed instruments have allowed neuroethologists to mimic natural conditions in the lab while they study behaviors objectively.
+In addition, the electronics required for amplifying neural signals and for transmitting them over a certain distance have enabled neuroscientists to record from behaving animals<ref>Schürg-Pfeiffer E., Spreckelsen C., and Ewert J.-P. (1993) Temporal discharge patterns of tectal and medullary neurons chronically recorded during snapping toward prey in toads ''Bufo bufo spinosus''. J. Comp. Physiol. A 173: 363-376 [http://www.springerlink.com/content/u422g42540063q57/?p=05cc34a8f6a1409183d2e8ea69cdcb39&pi=1]</ref> performing activities in naturalistic environments. Emerging technologies can complement neuroethology, augmenting the feasibility of this valuable perspective of natural neurophysiology.
+
+Another challenge, and perhaps part of the beauty of neuroethology, is experimental design.  The value of neuroethological criteria speak to the reliability of these experiments, because these discoveries represent behavior in the environments in which they evolved.  Neuroethologists foresee future advancements through using new technologies and techniques, such as computational neuroscience, neuroendocrinology, and molecular genetics that mimic natural environments.<ref>Zupanc, Günther K.H. (2004). Behavioral Neurobiology an Integrative Approach.  Oxford University Press. New York.</ref>
+
+Case studies
+
+=Jamming avoidance response=
+In 1963, Akira Watanabe and Kimihisa Takeda discovered the behavior of the jamming avoidance response in the knifefish ''Eigenmannia'' sp. In collaboration with T.H. Bullock and colleagues, the behavior was further developed. Finally, the work of Walter Heiligenberg|W. Heiligenberg expanded it into a full neuroethology study by examining the series of neural connections that led to the behavior. ''Eigenmannia'' is a weakly electric fish that can generate electric discharges through electrocytes in its tail. Furthermore, it has the ability to electrolocate by analyzing the perturbations in its electric field. However, when the frequency of a neighboring fish's current is very close (less than 20&nbsp;Hz difference) to that of its own, the fish will avoid having their signals interfere through a behavior known as Jamming Avoidance Response. If the neighbor's frequency is higher than the fish's discharge frequency, the fish will lower its frequency, and vice versa. The sign of the frequency difference is determined by analyzing the "beat" pattern of the incoming interference which consists of the combination of the two fish's discharge patterns.
+
+Neuroethologists performed several experiments under ''Eigenmannia'''s natural conditions to study how it determined the sign of the frequency difference. They manipulated the fish's discharge by injecting it with curare which prevented its natural electric organ from discharging. Then, an electrode was placed in its mouth and another was placed at the tip of its tail. Likewise, the neighboring fish's electric field was mimicked using another set of electrodes. This experiment allowed neuroethologists to manipulate different discharge frequencies and observe the fish's behavior. From the results, they were able to conclude that the electric field frequency, rather than an internal frequency measure, was used as a reference. This experiment is significant in that not only does it reveal a crucial neural mechanism underlying the behavior but also demonstrates the value neuroethologists place on studying animals in their natural habitats.
+
+=Feature analysis in toad vision=
+
+The recognition of prey and predators in the toad was first studied in depth by :de:Jörg-Peter Ewert|Jörg-Peter Ewert (Ewert 1974; see also 2004). He began by observing the natural prey-catching behavior of the common toad (''Bufo bufo'') and concluded that the animal followed a sequence that consisted of stalking, binocular fixation, snapping, swallowing and mouth-wiping. However, initially, the toad's actions were dependent on specific features of the sensory stimulus: whether it demonstrated worm or anti-worm configurations. It was observed that the worm configuration, which signaled prey, was initiated by movement along the object's long axis, whereas anti-worm configuration, which signaled predator, was due to movement along the short axis. (Zupanc 2004).
+
+Ewert and coworkers adopted a variety of methods to study the predator versus prey behavior response. They conducted recording experiments where they inserted electrodes into the brain, while the toad was presented with worm or anti-worm stimuli. This technique was repeated at different levels of the visual system and also allowed feature detection (nervous system)|feature detectors to be identified. In focus was the discovery of prey-selective neurons in the optic tectum, whose axons could be traced towards the snapping pattern generating cells in the hypoglossal nucleus. The discharge patterns of prey-selective tectal neurons in response to prey objects – in freely moving toads – "predicted" prey-catching reactions such as snapping. Another approach, called stimulation experiment, was carried out in freely moving toads. Focal electrical stimuli were applied to different regions of the brain, and the toad's response was observed. When the thalamic-pretectal region was stimulated, the toad exhibited escape responses, but when the tectum was stimulated in an area close to prey-selective neurons, the toad engaged in prey catching behavior (Carew 2000). Furthermore, neuroanatomical experiments were carried out where the toad's thalamic-pretectal/tectal connection was lesioned and the resulting deficit noted: the prey-selective properties were abolished both in the responses of prey-selective neurons and in the prey catching behavior. These and other experiments suggest that prey selectivity results from pretecto-tectal influences.
+
+Ewert and coworkers showed in toads that there are stimulus-response mediating pathways that translate perception (of visual sign stimuli) into action (adequate behavioral responses). In addition there are modulatory loops that initiate, modify or specify this mediation (Ewert 2004). Regarding the latter, for example, the telencephalic caudal ventral striatum is involved in a loop gating the stimulus-response mediation in a manner of directed attention. The telencephalic ventral medial pallium („primordium hippocampi"), however, is involved in loops that either modify prey-selection due to associative learning or specify prey-selection due to non-associative learning, respectively.
+
+Computational neuroethology
+
+Computational neuroethology (CN<ref name=franklin>cite book
+ | title = Artificial Minds
+ | author = Stan Franklin
+ | publisher = MIT Press
+ | year = 1998
+ | isbn = 978-0-262-56109-9
+ | pages = 13–14
+ | url = https://books.google.com/books?id=_2XbpFvR1IoC&pg=PA13&dq=%22Computational+neuroethology%22+cn#PPA14,M1
+ </ref> or CNE<ref>cite book
+ | title = Mind as machine
+ | author = Margaret A. Boden
+ | publisher = Oxford University Press
+ | year = 2006
+ | isbn = 978-0-19-924144-6
+ | page = 1291
+ | url = https://books.google.com/books?id=tcBfoQujX74C&pg=RA1-PA1291&dq=%22Computational+neuroethology%22+cne#PRA1-PA1290,M1
+ </ref>)
+is concerned with the computer modelling of the neural mechanisms underlying animal behaviors. Computational neuroethology was first argued for in depth by Randall Beer<ref name=beer90>cite book
+ | title = Intelligence as Adaptive Behavior: An experiment in computational neuroethology
+ | author = Randall D. Beer
+ | publisher = Academic Press
+ | year = 1990
+ | isbn = 0-12-084730-2
+ </ref> and by Dave Cliff (computer scientist)|Dave Cliff<ref>D. Cliff (1990) Computational Neuroethology: A provisional manifesto. In J.-A. Meyer and S. W. Wilson (editors): ''From Animals to Animats: Proceedings of the First International Conference on the Simulation of Adaptive Behaviour (SAB90)''. MIT Press Bradford Books, 1991, pp. 29–39.
+ [http://citeseer.ist.psu.edu/viewdoc/download;jsessionid=AC6014F67854B884C2836A5BC2B57914?doi=10.1.1.27.4422&rep=rep1&type=pdf]
+</ref> both of whom acknowledged the strong influence of Michael Arbib's ''Rana Computatrix'' computational model of neural mechanisms for visual guidance in frogs and toads.<ref>M. A. Arbib (1987) Levels of Modeling of Mechanisms of Visually Guided Behavior. ''The Behavioral and Brain Sciences'' 10:407–465.</ref>
+
+CNE systems work within a closed-loop environment; that is, they perceive their (perhaps artificial) environment directly, rather than through human input, as is typical in Artificial intelligence|AI systems.<ref name=franklin/><ref>D. Cliff (2003) Neuroethology, Computational. In M. A. Arbib (editor): ''The Handbook of Brain Theory and Neural Networks''. Second Edition. MIT Press Bradford Books. pp. 737–741.</ref> For example, Barlow et al. developed a time-dependent model for the retina of the horseshoe crab Horseshoe crab|''Limulus polyphemus'' on a Connection Machine (Model CM-2).<ref>Robert B. Barlow, Jr., Ramkrishna Prakash, and Eduardo Solessio (1993). The Neural Network of the Limulus Retina: From Computer to Behavior. American Zoologist 33(1):66-78 [http://icb.oxfordjournals.org/cgi/content/abstract/33/1/66]</ref> Instead of feeding the model retina with idealized input signals, they exposed the simulation to digitized video sequences made underwater, and compared its response with those of real animals.
+
+Model systems
+
+* Animal Echolocation#Bats|Bat echolocation – nocturnal flight navigation and prey capture; location of objects using echo returns of its own call
+* Songbird|Oscine bird song – zebra finch (''Taeniopygia guttata''), canary (''Serinus canaria'') and white-crowned sparrow (''Zonotrichia leucophrys''); song learning as a model for human speech development
+* Electric fish – navigation, communication, Jamming Avoidance Response (JAR), PID controller|corollary discharge, expectation generators, and spike timing dependent plasticity
+* Barn owl auditory spatial map – nocturnal prey location and capture
+* Vision in toads|Toad vision – discrimination of prey versus predator – [http://www.joerg-peter-ewert.de/13.html Video] "Image processing in the toad's visual system: behavior, brain function,  [http://www.joerg-peter-ewert.de/12.html artificial neuronal net]"
+* Circadian rhythm – influence of various circadian controlled behaviors by the suprachiasmatic nucleus
+* Cricket (insect)#Cricket chirping|Cricket song – mate attraction and corollary discharge
+* Fish Mauthner cells – C-start escape response and underwater directional hearing
+* Fly – Microscale directional hearing in ''Ormia ochracea'', Sex Differences in Sensory Systems|sex differences of the visual system in Bibionidae, and spatial navigation in chasing behavior of Fannia canicularis
+* Noctuid moths – ultrasound avoidance response to bat calls
+* ''Aplysia'' sea hares – learning and memory in startle response
+* Rat – spatial memory and navigation
+* Salmon homing (biology)|homing – olfactory imprinting and thyroid hormones
+* Crayfish – escape and startle behaviors, aggression and formation of social hierarchies
+* Cichlid fish – aggression and attack behaviors
+* Honey bee – learning, navigation, vision, olfaction, flight, aggression, foraging
+* Monarch (butterfly)|Monarch butterfly – navigational mechanisms
+* [http://nelson.beckman.uiuc.edu/courses/neuroethol/model_systems.html More Model Systems and Information]
+
+See also
+
+*Niko Tinbergen
+*Karl von Frisch
+*Konrad Lorenz
+*Erich von Holst
+*Theodore H. Bullock
+*Jörg-Peter Ewert
+*Eric Knudsen
+*Masakazu Konishi
+
+References
+
+<references/>
+
+Sources
+
+* Beer D., Randall, Roy E. Ritzmann, Thomas McKenna (1993) Biological neural networks in invertebrate neuroethology and robotics.  Boston : Academic Press.
+* Camhi, J.M. (1984) Neuroethology: Nerve cells and the Natural behavior of Animals, Sinauer Associates.
+* Carew, T.J. (2000) Feature analysis in Toads. Behavioral Neurobiology, Sunderland, MA: Sinauer, pp.&nbsp;95–119.
+* Carew, T.J. (2000) Behavioral neurobiology: The Cellular Organization of Natural Behavior, Sinauer Associates.
+* Ewert, J.-P. (1974) The neural basis of visually guided behavior. Scientific American 230(3):34-42
+* Ewert J.-P. (2004) Motion perception shapes the visual world of amphibians. In: Prete F.R. (Ed.) Complex Worlds from Simpler Nervous Systems. Cambridge, MA, MIT Press, pp.&nbsp;117–160
+* Hoyle, G. (1984) The scope of Neuroethology. Behavioural Brain Science 7:367-412. Graham Hoyle put forth a rather narrow definition of the goals and subject matter of neuroethology and links the field to the field of ethology. This is followed by commentaries from many prominent neuroethologists. It makes for fascinating reading.
+* Metzner, W. (1993) The Jamming avoidance response in ''Eigenmannia'' is controlled by two separate motor pathways. The Journal of Neuroscience. 13(5):1862-1878
+* Pfluger, H.-J. and R. Menzel (1999) Neuroethology, its roots and future. J Comp Physiol A 185:389-392.
+* Zupanc, G.K.H. (2004) Behavioral Neurobiology: An Integrative Approach. Oxford University Press: Oxford, UK.
+
+Further reading
+
+=Textbooks=
+* Sillar, K.T., Picton, L.P., Heitler, W.J. (2016) The Neuroethology of Predation and Escape. John Wiley & Sons Inc., New York.
+* Zupanc, G.K.H. (2004) Behavioral Neurobiology an Integrative Approach.  Oxford University Press, New York.
+* Carew, T.J. (2000) Behavioral Neurobiology: The Cellular Organization of Natural Behavior. Sinauer, Sunderland Mass.
+* Simmons, P., Young, D. (1999) Nerve Cells and Animal Behaviour. Second Edition. Cambridge University Press, New York.
+* Simmons, P., Young, D. (2010) Nerve Cells and Animal Behaviour. Third Edition. Cambridge University Press, New York.
+* Camhi J. (1984) Neuroethology: Nerve Cells and the Natural Behavior of Animals. Sinauer Associates, Sunderland Mass.
+* Guthrie, D.M. (1980)  Neuroethology: An Introduction. Wiley, New York.
+* Ewert, J.-P. (1980) Neuroethology: An Introduction to the Neurophysiological Fundamentals of Behaviour. Springer-Verlag, New York.
+* Ewert, J.-P. (1976) Neuroethologie: Einführung in die neurophysiologischen Grundlagen des Verhaltens. HT 181. Springer-Verlag Heidelberg, Berlin, New York.
+* Eric Kandel|Kandel, E.R. (1976) Cellular Basis of Behavior: An Introduction to Behavioral Neurobiology. W.H. Freeman
+* Roeder, K.D. (1967) Nerve Cells and Insect Behavior. Harvard University Press, Cambridge Mass.
+*Peter Marler|Marler, P., Hamilton, W.J. (1966) Mechanisms of Animal Behavior. John Wiley & Sons Inc., New York.
+
+=Articles=
+*citation |year=1992 |author=Leslie Brothers & Brian Ring |title=A neuroethological framework for the representation of minds |journal=Journal of Cognitive Neuroscience |volume=4 |issue=2 |pages=107–118 |doi=10.1162/jocn.1992.4.2.107
+*[http://www.scholarpedia.org/article/Neuroethology Günther K. H. Zupanc (2010), Neuroethology, Scholarpedia, 5(10):5306.]
+
+External links
+*[http://www.neuroethology.org/  International Society for Neuroethology]
+*[http://nelson.beckman.uiuc.edu/neuroethology.html Topics in Neuroethology]
+*https://web.archive.org/web/20071006201121/http://www.tamie.org/insect.png
+*[http://www.scholarpedia.org/article/Category:Neuroethology Collected Neuroethology articles in Scholarpedia]
+
+Neuroethology
+Neuroscience
+animal cognition
+Ethology
+Zoology
+
+Category:Ethology
+Category:Neurophysiology
+Category:Neuroethology| 

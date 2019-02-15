@@ -1,0 +1,20 @@
+Incomplete lineage sorting<ref>cite book |url=https://books.google.com/?id=dj8KRImgyf4C&pg=PA652&lpg=PA652&dq=cladogenesis+incomplete+lineage+sorting+synapomorphy#v=onepage&q&f=false|title=Plant Systematics|isbn=9780080922089|last1=Simpson|first1=Michael G|date=2010-07-19</ref><ref>Cite journal|pmc = 4788455|year = 2016|last1 = Kuritzin|first1 = A|title = Incomplete Lineage Sorting and Hybridization Statistics for Large-Scale Retroposon Insertion Data|journal = PLOS Computational Biology|volume = 12|issue = 3|pages = e1004812|last2 = Kischka|first2 = T|last3 = Schmitz|first3 = J|last4 = Churakov|first4 = G|pmid = 26967525|doi = 10.1371/journal.pcbi.1004812|bibcode = 2016PLSCB..12E4812K</ref><ref>Cite journal|pmc = 4540587|year = 2015|last1 = Suh|first1 = A|title = The Dynamics of Incomplete Lineage Sorting across the Ancient Adaptive Radiation of Neoavian Birds|journal = PLOS Biology|volume = 13|issue = 8|pages = e1002224|last2 = Smeds|first2 = L|last3 = Ellegren|first3 = H|pmid = 26284513|doi = 10.1371/journal.pbio.1002224</ref> is a characteristic of Phylogenetics|phylogenetic analysis where the Phylogenetic tree|tree produced by a single gene differs from the population or species level tree.<ref name=rogers>Cite journal|last = Rogers|first = Jeffrey|last2 = Gibbs|first2 = Richard A.|date = 2014-05-01|title = Comparative primate genomics: emerging patterns of genome content and dynamics|url = http://www.nature.com/nrg/journal/v15/n5/fig_tab/nrg3707_F3.html|journal = Nature Reviews Genetics|language = en|volume = 15|issue = 5|pages = 347–359|doi = 10.1038/nrg3707|pmid = 24709753|pmc = 4113315</ref> 
+<blockquote>
+Incomplete lineage sorting (ILS) occurs when a Polymorphism (biology)|polymorphic ancestral species, with two or more alleles (haplotypes) at a given locus divides into two Lineage (evolution)|lineages. Both alleles can be retained in the descendant branches, and when one of those lineages divides again, the phylogenetic tree for that Locus (genetics)|locus (the gene tree) may or may not match the branching order for the species-level evolutionary tree.<ref name=rogers/></blockquote>
+
+References
+reflist
+
+External links
+* cite web |last1=Venema |first1=D. |title=Evolution Basics: Incomplete Lineage Sorting and Ancestral Population Sizes |url=https://biologos.org/blogs/dennis-venema-letters-to-the-duchess/evolution-basics-incomplete-lineage-sorting-and-ancestral-population-sizes |website=BioLogos|date=2013-08-01 |accessdate=29 June 2018
+* cite journal|last1=Maddison|first1=Wayne P.|last2=Knowles|first2=L. Lacey|last3=Collins|first3=Tim|title=Inferring Phylogeny Despite Incomplete Lineage Sorting|journal=Systematic Biology|volume=55|issue=1|year=2006|pages=21–30|issn=1076-836X|doi=10.1080/10635150500354928|pmid=16507521
+* Cite journal|title=A Statistical Approach for Distinguishing Hybridization and Incomplete Lineage Sorting|
+first1=Simon|last1= Joly|first2= Patricia A. |last2=McLenachan|first3= Peter J. |last3=Lockhart|
+journal=The American Naturalist|date= 2009|volume=174|issue=2|pages=E54–E70|doi=10.1086/600082|
+pmid=19519219 
+* cite journal|last1=Carstens|first1=Bryan C.|last2=Knowles|first2=L. Lacey|last3=Collins|first3=Tim|title=Estimating Species Phylogeny from Gene-Tree Probabilities Despite Incomplete Lineage Sorting: An Example from Melanoplus Grasshoppers|journal=Systematic Biology|volume=56|issue=3|year=2007|pages=400–411|issn=1076-836X|doi=10.1080/10635150701405560|pmid=17520504
+
+Category:Phylogenetics
+
+
+Evolution-stub

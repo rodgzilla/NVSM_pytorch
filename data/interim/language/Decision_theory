@@ -1,0 +1,168 @@
+Decision theory (or the theory of choice) is the study of the reasoning underlying an agent (economics)|agent's choices.<ref>Steele, Katie and Stefánsson, H. Orri, "Decision Theory", The Stanford Encyclopedia of Philosophy (Winter 2015 Edition), Edward N. Zalta (ed.), URL = [http://plato.stanford.edu/archives/win2015/entries/decision-theory]</ref> Decision theory can be broken into two branches: Norm (philosophy)|normative decision theory, which gives advice on how to make the optimal decision|best decisions given a set of uncertain beliefs and a set of Value (personal and cultural)|values, and descriptive decision theory which analyzes how existing, possibly irrational agents actually make decisions.
+
+Closely related to the field of game theory,<ref>cite book|last1=Myerson|first1=Roger B.|title=Game theory analysis of conflict|date=1991|publisher=Harvard University Press|location=Cambridge, Massachusetts|isbn=9780674728615|chapter=1.2: Basic concepts of Decision Theory</ref> decision theory is concerned with the choices of individual agents whereas game theory is concerned with interactions of agents whose decisions affect each other. Decision theory is an interdisciplinary topic, studied by economists,
+statisticians, psychologists, biologists,<ref>Cite journal|last=Habibi|first=Iman|last2=Cheong|first2=Raymond|last3=Lipniacki|first3=Tomasz|last4=Levchenko|first4=Andre|last5=Emamian|first5=Effat S.|last6=Abdi|first6=Ali|date=2017-04-05|title=Computation and measurement of cell decision making errors using single cell data|url=http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005436|journal=PLOS Computational Biology|volume=13|issue=4|pages=e1005436|doi=10.1371/journal.pcbi.1005436|issn=1553-7358</ref> political and other social scientists, philosophers,<ref>Hansson, Sven Ove. "Decision theory: A brief introduction." (2005) Section 1.2: A truly interdisciplinary subject.</ref> and computer scientists.
+
+Empirical applications of this rich theory are usually done with the help of statistics|statistical and econometrics|econometric methods, especially via the so-called choice models, such as probit and logit models. Estimation of such models is usually done via parametric, semi-parametric and non-parametric maximum likelihood methods.<ref>cite journal|url = http://www.sciencedirect.com/science/article/pii/S0167947316302596 | doi=10.1016/j.csda.2016.10.024 | volume=108 | title=Nonparametric estimation of dynamic discrete choice models for time series data | year=2017 | journal=Computational Statistics & Data Analysis | pages=97–120 | last1 = Park | first1 = Byeong U. | last2 = Simar | first2 = Léopold | last3 = Zelenyuk | first3 = Valentin</ref>
+
+Normative and descriptive
+Normative decision theory is concerned with identifying the best decisions by considering an ideal decision maker who is able to compute with perfect accuracy and is fully Rationality|rational. The practical application of this prescriptive approach (how people ''ought to'' make decisions) is called decision analysis, and is aimed at finding tools, methodologies and software (Decision support system|decision support systems) to help people make better decisions.<ref name=":5">MacCrimmon, Kenneth R. "Descriptive and normative implications of the decision-theory postulates." ''Risk and uncertainty''. Palgrave Macmillan, London, 1968. 3-32.</ref><ref name=":6">Slovic, Paul, Baruch Fischhoff, and Sarah Lichtenstein. "Behavioral decision theory." ''Annual review of psychology''28.1 (1977): 1-39.</ref>
+
+In contrast, Positive statement|positive or descriptive decision theory is concerned with describing observed behaviors under the assumption that the decision-making agents are behaving under some consistent rules. These rules may, for instance, have a procedural framework (e.g. Amos Tversky's elimination by aspects model) or an Axiom|axiomatic framework, reconciling the Expected utility hypothesis#Von Neumann|Von Neumann-Morgenstern axioms with behavioral violations of the expected utility hypothesis, or they may explicitly give a functional form for Time inconsistency|time-inconsistent Utility function|utility functions (e.g. Laibson's Hyperbolic discounting|quasi-hyperbolic discounting).<ref name=":5" /><ref name=":6" />
+
+The prescriptions or predictions about behaviour that positive decision theory produces allow for further tests of the kind of decision-making that occurs in practice. There is a thriving dialogue with experimental economics, which uses laboratory and field experiments to evaluate and inform theory. In recent decades, there has also been increasing interest in what is sometimes called "behavioral decision theory" and this has contributed to a re-evaluation of what rational decision-making requires.<ref>For instance, see: Anand, Paul (1993). Foundations of Rational Choice Under Risk. Oxford: Oxford University Press.</ref><ref>Keren, Gideon B., and Willem A. Wagenaar. “On the Psychology of Playing Blackjack: Normative and Descriptive Considerations with Implications for Decision Theory.” ''Journal of Experimental Psychology: General'', vol. 114, no. 2, June 1985, pp. 133–158. ''EBSCOhost'', doi:10.1037/0096-3445.114.2.133</ref>
+
+Types of decisions
+
+=Choice under uncertainty= <!-- This section is linked from Risk -->
+Details|Expected utility hypothesis
+The area of choice under uncertainty represents the heart of decision theory. Known from the 17th century (Blaise Pascal invoked it in his Pascal's Wager|famous wager, which is contained in his ''Pensées'', published in 1670), the idea of expected value is that, when faced with a number of actions, each of which could give rise to more than one possible outcome with different probabilities, the rational procedure is to identify all possible outcomes, determine their values (positive or negative) and the probabilities that will result from each course of action, and multiply the two to give an "expected value", or the average expectation for an outcome; the action to be chosen should be the one that gives rise to the highest total expected value.  In 1738, Daniel Bernoulli published an influential paper entitled ''Exposition of a New Theory on the Measurement of Risk'', in which he uses the St. Petersburg paradox to show that expected value theory must be Norm (philosophy)|normatively wrong. He gives an example in which a Dutch merchant is trying to decide whether to insure a cargo being sent from Amsterdam to St Petersburg in winter. In his solution, he defines a utility function and computes expected utility rather than expected financial value (see<ref>cite journal|last=Schoemaker|first=P. J. H.|title=The Expected Utility Model: Its Variants, Purposes, Evidence and Limitations|journal=Journal of Economic Literature|volume=20|year=1982|pages=529–563</ref> for a review).
+
+In the 20th century, interest was reignited by Abraham Wald|Abraham Wald's 1939 paper<ref>cite journal
+ |title=Contributions to the Theory of Statistical Estimation and Testing Hypotheses
+ |last=Wald |first=Abraham |authorlink=Abraham Wald
+ |journal=Annals of Mathematical Statistics
+ |volume=10 |issue=4 |pages=299–326 |year=1939
+ |doi=10.1214/aoms/1177732144
+ |mr=932
+</ref> pointing out that the two central procedures of frequentist statistics|sampling-distribution-based statistical-theory, namely statistical hypothesis testing|hypothesis testing and estimation theory|parameter estimation, are special cases of the general decision problem.  Wald's paper renewed and synthesized many concepts of statistical theory, including loss functions, risk functions, admissible decision rules, prior probability|antecedent distributions, admissible decision rule#Bayes rules|Bayesian procedures, and minimax procedures.  The phrase "decision theory" itself was used in 1950 by E. L. Lehmann.<ref>cite journal|last=Lehmann|first=E. L.|authorlink=E. L. Lehmann|title=Some Principles of the Theory of Testing Hypotheses|journal=Annals of Mathematical Statistics|year=1950|volume=21|issue=1|pages=1–26|jstor=2236552|doi=10.1214/aoms/1177729884</ref>
+
+The revival of subjective probability theory, from the work of Frank P. Ramsey|Frank Ramsey, Bruno de Finetti, L. J. Savage|Leonard Savage and others, extended the scope of expected utility theory to situations where subjective probabilities can be used. At the time, von Neumann and Morgenstern’s theory of expected utility<ref>Cite book|title=Theory of Games and Economic Behavior (Third ed.)|last=Neumann|first=John von|last2=Morgenstern|first2=Oskar|publisher=Princeton University Press|year=1953 |origyear=1944|isbn=|location=Princeton, NJ|pages=</ref> proved that expected utility maximization followed from basic postulates about rational behavior.
+
+The work of Maurice Allais and Daniel Ellsberg showed that human behavior has systematic and sometimes important departures from expected-utility maximization. The prospect theory of Daniel Kahneman and Amos Tversky renewed the empirical study of behavioral economics|economic behavior with less emphasis on rationality presuppositions. Kahneman and Tversky found three regularities – in actual human decision-making, "losses loom larger than gains"; persons focus more on ''changes'' in their utility-states than they focus on absolute utilities; and the estimation of subjective probabilities is severely biased by anchoring.
+
+=Intertemporal choice=
+Main|Intertemporal choice
+Intertemporal choice is concerned with the kind of choice where different actions lead to outcomes that are realised at different points in time.  If someone received a windfall of several thousand dollars, they could spend it on an expensive holiday, giving them immediate pleasure, or they could invest it in a pension scheme, giving them an income at some time in the future.  What is the optimal thing to do?  The answer depends partly on factors such as the expected interest rate|rates of interest and inflation, the person's life expectancy, and their confidence in the pensions industry.  However even with all those factors taken into account, human behavior again deviates greatly from the predictions of prescriptive decision theory, leading to alternative models in which, for example, objective interest rates are replaced by hyperbolic discounting|subjective discount rates.
+
+=Interaction of decision makers=
+Some decisions are difficult because of the need to take into account how other people in the situation will respond to the decision that is taken.  The analysis of such social decisions is more often treated under the label of game theory, rather than decision theory, though it involves the same mathematical methods. From the standpoint of game theory, most of the problems treated in decision theory are one-player games (or the one player is viewed as playing against an impersonal background situation). In the emerging field of socio-cognitive engineering, the research is especially focused on the different types of distributed decision-making in human organizations, in normal and abnormal/emergency/crisis situations.<ref>Crozier, M. & Friedberg, E. 1995. "Organization and Collective Action. Our Contribution to Organizational Analysis" in Bacharach S.B, Gagliardi P. & Mundell P. (Eds). Research in the Sociology of Organizations. Vol. XIII, Special Issue on European Perspectives of Organizational Theory, Greenwich, CT: JAI Press.</ref>
+
+=Complex decisions=
+Other areas of decision theory are concerned with decisions that are difficult simply because of their complexity, or the complexity of the organization that has to make them. Individuals making decisions may be limited in resources or are Bounded rationality|boundedly rational (have finite time or intelligence); in such cases the issue, more than the deviation between real and optimal behaviour, is the difficulty of determining the optimal behaviour in the first place. One example is the model of economic growth and resource usage developed by the Club of Rome to help politicians make real-life decisions in complex situationsCitation needed|date=January 2010. Decisions are also affected by whether options are framed together or separately; this is known as the distinction bias.  In 2011, Dwayne Rosenburgh explored and showed how decision theory can be applied to complex decisions that arise in areas such as wireless communications.<ref>Rosenburgh, Dwayne, "Decision Theory with its Applications in Wireless Communication" in Zhang, Y. (Ed.), GUIZANI, M. (Ed.). (2011). Game Theory for Wireless Communications and Networking. Boca Raton: CRC Press.  ISBN|9781439808894</ref>
+
+Heuristics
+Main|Heuristic
+
+Heuristic|Heuristics in decision-making is the ability of making decisions based on unjustified or routine thinking. While quicker than step-by-step processing, heuristic thinking is also more likely to experience fallacies or inaccuracies.<ref name=":0">Johnson, Eric J, and Payne, John W. “Effort and Accuracy in Choice.” ''Management science'' 31.4 (1985): 395–414. Web.</ref>The main use for heuristics in our daily routines is to decrease the amount of evaluative thinking we perform when making simple decisions, and instead make them based on unconscious rules and focusing on some aspects of the decision, while ignoring others.<ref name=":1">Bobadilla-Suarez, Sebastian et al. “Fast or Frugal, but Not Both: Decision Heuristics Under Time Pressure.” ''Journal of Experimental Psychology: Learning, Memory, and Cognition'' 44.1 (2018): 24–33. Web.</ref>One example of common and erroneous thought process that arrises through heuristic thinking is the Gambler's fallacy|Gambler's Fallacy. Believing that a isolated random event is affected by previous isolated random events, for example if a coin is flipped to tails for a couple of turns it still carries the same probability of doing so, however intuitively it sounds more likely for it to roll heads soon.<ref name=":2">Roe, Robert M, Busemeyer, Jermone R, and Townsend, James T. “Multialternative Decision Field Theory: A Dynamic Connectionst Model of Decision Making.” ''The psychological review.'' 108.2 (2001): 370–392. Web.</ref>This happens because, due to routine thinking, one disregards the probability and concentrate on the ratio of the outcome, meaning, in the long run the ratio of flips should be half for each outcome.<ref name=":3">Xu, Juemin, and Harvey, Nigel. “Carry on Winning: The Gamblers’ Fallacy Creates Hot Hand Effects in Online Gambling.” ''Cognition'' 131.2 (2014): 173–180. Web.</ref>Another example is that decision-makers may be biased towards preferring moderate alternatives to extreme ones; the "Compromise Effect" operates under a mindset that the most moderate option carries the most benefit. In an incomplete information scenario, like in most daily decisions, the moderate option will look more appealing than either extreme independent of the context, based only on the fact that it gathers characteristics that can be found in either extremes.<ref name=":4">Chuang, Shih-Chieh et al. “The Effect of Incomplete Information on the Compromise Effect.” ''Judgment and Decision Making'' 7.2 (2012): 196. Web.</ref>
+
+Alternatives
+A highly controversial issue is whether one can replace the use of probability in decision theory by other alternatives.
+
+=Probability theory=
+Advocates for the use of probability theory point to:
+*   the work of Richard Threlkeld Cox for justification of the probability axioms,
+*   the Dutch book paradoxes of Bruno de Finetti as illustrative of the theoretical difficulties that can arise from departures from the probability axioms, and
+*   the complete class theorems, which show that all admissible decision rules are equivalent to the Bayesian decision rule for some utility function and some prior distribution (or for the limit of a sequence of prior distributions). Thus, for every decision rule, either the rule may be reformulated as a Bayesian probability|Bayesian procedure (or a limit of a sequence of such), or there is a rule that is sometimes better and never worse.
+
+=Alternatives to probability theory=
+The proponents of fuzzy logic, possibility theory, quantum cognition, Dempster–Shafer theory, and info-gap decision theory maintain that probability is only one of many alternatives and point to many examples where non-standard alternatives have been implemented with apparent success; notably, probabilistic decision theory is sensitivity analysis|sensitive to assumptions about the probabilities of various events, while non-probabilistic rules such as minimax are robust statistics|robust, in that they do not make such assumptions.
+
+=Ludic fallacy=
+Main|Ludic fallacy
+
+A general criticism of decision theory based on a fixed universe of possibilities is that it considers the "known unknowns", not the "unknown unknowns"citation needed|date=July 2017: it focuses on expected variations, not on unforeseen events, which some argue (as in black swan theory) have outsized impact and must be considered – significant events may be "outside model". This line of argument, called the ludic fallacy, is that there are inevitable imperfections in modeling the real world by particular models, and that unquestioning reliance on models blinds one to their limits.
+
+See also
+Wikiquote
+columns-list|colwidth=15em|
+* Bayesian statistics
+* Causal decision theory
+* Choice modelling
+* Constraint satisfaction
+* Decision making
+* Evidential decision theory
+* Game theory
+* Multi-criteria decision making
+* Operations research
+* Optimal decision
+* Decision quality
+* Preference (economics)
+* Quantum cognition
+* Rationality
+* Secretary problem
+* Signal detection theory
+* Small-numbers game
+* Stochastic dominance
+* TOTREP
+* Two envelopes problem
+
+
+References
+reflist|30em
+
+Further reading
+refbegin|2
+* cite journal |author1=Akerlof, George A. |author2=Yellen, Janet L. |title=Rational Models of Irrational Behavior |volume=77 |issue=2 |pages=137–142 |date=May 1987|url=https://notendur.hi.is/ajonsson/kennsla2003/Akerlof_Yellen.pdf
+* cite book |author=Anand, Paul |title=Foundations of Rational Choice Under Risk |publisher=Oxford University Press |location=Oxford |year=1993 |isbn=0-19-823303-5  (''an overview of the philosophical foundations of key mathematical axioms in subjective expected utility theory – mainly normative'')
+* cite journal |author=Arthur, W. Brian |title=Designing Economic Agents that Act like Human Agents: A Behavioral Approach to Bounded Rationality |journal=The American Economic Review |volume=81 |issue=2 |pages=353–9 |date=May 1991
+* cite book
+ |title=Statistical decision theory and Bayesian Analysis
+ |first=James O. |last=Berger |authorlink=James Berger (statistician)
+ |year=1985
+ |edition=2nd
+ |publisher=Springer-Verlag |location=New York
+ |isbn=0-387-96098-8 |mr=0804611
+
+* cite book
+ |title=Bayesian Theory
+ |authorlink=José-Miguel Bernardo |last=Bernardo |first=José M.
+ |authorlink2=Adrian Smith (academic) |last2=Smith |first2=Adrian F. M.
+ |publisher=Wiley |year=1994
+ |mr=1274699 |isbn=0-471-92416-4
+
+* cite book |author1=Clemen, Robert  |author2=Reilly, Terence |title=Making Hard Decisions with DecisionTools: An Introduction to Decision Analysis |publisher=Cengage|location=Stamford CT |year=2014 |edition=3rd |isbn=0-538-79757-6  ''(covers normative decision theory)''
+* De Groot, Morris, ''Optimal Statistical Decisions''. Wiley Classics Library. 2004. (Originally published 1970.) ISBN|0-471-68029-X.
+* cite book |author1=Goodwin, Paul  |author2=Wright, George |title=Decision Analysis for Management Judgment |publisher=Wiley |location=Chichester |year=2004 |isbn=0-470-86108-8 |edition=3rd |url=  ''(covers both normative and descriptive theory)''
+* cite web|author=Hansson, Sven Ove |title=Decision Theory: A Brief Introduction |url=http://www.infra.kth.se/~soh/decisiontheory.pdf |format=PDF |deadurl=yes |archiveurl=https://web.archive.org/web/20060705052730/http://www.infra.kth.se/~soh/decisiontheory.pdf |archivedate=July 5, 2006 
+* Khemani, Karan, [https://papers.ssrn.com/soL3/papers.cfm?abstract_id=647666 Ignorance is Bliss: A study on how and why humans depend on recognition heuristics in social relationships, the equity markets and the brand market-place, thereby making successful decisions], 2005.
+* cite book |author=Leach, Patrick |title=Why Can't You Just Give Me the Number? An Executive's Guide to Using Probabilistic Thinking to Manage Risk and to Make Better Decisions |publisher=Probabilistic |year=2006 |isbn=0-9647938-5-7  A rational presentation of probabilistic analysis.
+* cite journal |doi=10.1016/0028-3932(85)90022-3 |author=Miller L |title=Cognitive risk-taking after frontal or temporal lobectomy—I. The synthesis of fragmented visual information |journal=Neuropsychologia |volume=23 |issue=3 |pages=359–69 |year=1985 |pmid=4022303 
+* cite journal |doi=10.1016/0028-3932(85)90023-5 |vauthors=Miller L, Milner B |title=Cognitive risk-taking after frontal or temporal lobectomy—II. The synthesis of phonemic and semantic information |journal=Neuropsychologia |volume=23 |issue=3 |pages=371–9 |year=1985 |pmid=4022304 
+* cite journal
+ |last=North |first=D.W.
+ |title=A tutorial introduction to decision theory
+ |journal=IEEE Transactions on Systems Science and Cybernetics
+ |volume=4 |issue=3 |year=1968 |pages=200–210
+ |doi=10.1109/TSSC.1968.300114
+ Reprinted in Shafer & Pearl. ''(also about normative decision theory)''
+* cite book |author=Peterson, Martin |title=An Introduction to Decision Theory |publisher=Cambridge University Press |year=2009 |isbn=978-0-521-71654-3 
+* cite book |author=Raiffa, Howard |title=Decision Analysis: Introductory Lectures on Choices Under Uncertainty |publisher=McGraw Hill |year=1997 |isbn=0-07-052579-X 
+* cite book
+ |last=Robert |first=Christian
+ |title=The Bayesian Choice
+ |publisher=Springer |location=New York
+ |year=2007 |edition=2nd
+ |doi=10.1007/0-387-71599-1 |isbn=0-387-95231-4 |mr=1835885
+
+* cite book |editor1=Shafer, Glenn |editor2=Pearl, Judea |title=Readings in uncertain reasoning |publisher=Morgan Kaufmann |location=San Mateo, CA |year=1990 |isbn= 
+* cite book |author=Smith, J.Q. |title=Decision Analysis: A Bayesian Approach |publisher=Chapman and Hall |year=1988 |isbn=0-412-27520-1 
+* cite journal| author=Charles Sanders Peirce and Joseph Jastrow|year=1885|url=http://psychclassics.yorku.ca/Peirce/small-diffs.htm|title=On Small Differences in Sensation| journal=Memoirs of the National Academy of Sciences|volume=3|pages=73–83 http://psychclassics.yorku.ca/Peirce/small-diffs.htm
+* Frank P. Ramsey|Ramsey, Frank Plumpton; "Truth and Probability" ([https://web.archive.org/web/20030605070939/http://cepa.newschool.edu/het/texts/ramsey/ramsess.pdf PDF]), Chapter VII in ''The Foundations of Mathematics and other Logical Essays'' (1931).
+* cite journal |author=de Finetti, Bruno |authorlink=Bruno de Finetti |title=Probabilism: A Critical Essay on the Theory of Probability and on the Value of Science |journal=Erkenntnis |volume=31 |date=September 1989 (translation of 1931 article)
+* cite journal |author=de Finetti, Bruno |title=La Prévision: ses lois logiques, ses sources subjectives |journal=Annales de l'Institut Henri Poincaré |year=1937
+: de Finetti, Bruno.  "Foresight: its Logical Laws, Its Subjective Sources," (translation of the [http://www.numdam.org/item?id=AIHP_1937__7_1_1_0 1937 article] in French) in H. E. Kyburg and H. E. Smokler (eds), ''Studies in Subjective Probability,'' New York: Wiley, 1964.
+* de Finetti, Bruno. ''Theory of Probability'', (translation by AFM Smith of 1970 book) 2 volumes, New York: Wiley, 1974-5.
+* cite book| title=Decision-Making: An Experimental Approach| author=Donald Davidson (philosopher)|Donald Davidson, Patrick Suppes and Sidney Siegel| publisher=Stanford University Press|year=1957
+* cite book|author=Pfanzagl, J|year=1967|publisher=Princeton University Press|chapter=Subjective Probability Derived from the Oskar Morgenstern|Morgenstern-John von Neumann|von Neumann Expected utility|Utility Theory|pages=237–251|title=Essays in Mathematical Economics In Honor of Oskar Morgenstern|editor=Martin Shubik 
+* cite book|author=Pfanzagl, J. in cooperation with V. Baumann and H. Huber|year=1968|publisher=Wiley|chapter=Events, Utility and Subjective Probability|pages=195–220|title=Theory of Measurement
+* cite book|author=Morgenstern, Oskar|year=1976|publisher=New York University Press|chapter=Some Reflections on Utility|pages=65–70|title=Selected Economic Writings of Oskar Morgenstern|editor=Andrew Schotter|isbn=0-8147-7771-6
+* Non-Robust Models in Statistics by Lev B. Klebanov, Svetlozat T. Rachev and Frank J. Fabozzi, Nova Scientific Publishers, Inc. New York, 2009.
+
+refend
+
+Decision theory paradoxes
+Industrial and applied mathematics
+Cybernetics
+Economics
+
+Authority control
+
+Category:Decision theory| 
+Category:Statistical inference
+Category:Economics of uncertainty
+Category:Risk
+Category:Control theory
+Category:Formal sciences
+Category:Epistemology of science
+Category:Mathematical and quantitative methods (economics)

@@ -1,0 +1,128 @@
+Infobox company
+| name     = Gluster, Inc.
+| logo     = Image:Gluster-Logo-thumbnail5.png|200px|Gluster Inc., logo
+| type     = Privately funded
+|  foundation       = 2005
+|  location_city    = Sunnyvale, California and Bangalore, India
+|  locations        = 2
+|  key_people       = Anand Babu (AB) Periasamy (Co-Founder & Chief technology officer|CTO) and Hitesh Chellani  (Co-Founder & Chief Executive Officer|CEO)
+|  num_employees    = 60
+|  industry         = Software, computer storage
+|  products         = Cloud storage
+|  homepage         = URL|http://www.gluster.com/
+
+
+Gluster Inc. was a software company that provided an open source platform for scale-out public and private cloud storage. The company was privately funded and headquartered in Sunnyvale, California, with an engineering center in Bangalore, India. Gluster was funded by Nexus Venture Partners and Index Ventures. Gluster was acquired by Red Hat on October 7, 2011.<ref name="buy">cite web |url=http://www.redhat.com/promo/storage/press-release.html |title=Red Hat to Acquire Gluster |publisher=redhat.com |date=October 4, 2011 |accessdate=2013-08-16 |deadurl=yes |archiveurl=https://web.archive.org/web/20130530203435/http://www.redhat.com/promo/storage/press-release.html |archivedate=May 30, 2013 |df= </ref>
+
+History
+
+The name ''Gluster'' combined ''GNU'' and ''cluster''. Despite the similarity in names, Gluster is not related to the Lustre (file system)|Lustre file system and does not incorporate any Lustre code.
+Gluster based its product on ''GlusterFS'', an open-source software-based Network-attached storage|network-attached filesystem that deploys on commodity hardware.<ref>cite web|author= |url=http://www.infostor.com/nas/gluster-open-source-scale-out-nas-.html |title=Gluster: Open source scale-out NAS |publisher=InfoStor.com |date=2011-02-17 |accessdate=2013-08-16</ref>  The initial version of GlusterFS was written by Anand Babu Periasamy, Gluster's founder and CTO.<ref>cite web|last=Kovar |first=Joseph F. |url=http://www.crn.com/slide-shows/storage/225700107/2010-storage-superstars-25-you-need-to-know.htm?pgno=17 |title=Page 17 - 2010 Storage Superstars: 25 You Need To Know |publisher=Crn.com |date= |accessdate=2013-08-16</ref>
+In May 2010 Ben Golub became the president and chief executive officer.<ref>Cite news |title= Former Plaxo CEO Ben Golub Joins Gluster, An Open Source Storage Platform Startup |date= May 18, 2010 |author= Jason Kincaid |work= Tech Crunch |url= https://techcrunch.com/2010/05/18/former-plaxo-ceo-ben-golub-joins-gluster-an-open-source-storage-platform-startup/ |accessdate= August 20, 2013 </ref><ref>Cite news |title= Former Plaxo CEO takes top spot at Gluster |date= May 19, 2010 |work= Silicon Valley Business Journal  |url= http://www.bizjournals.com/sanjose/stories/2010/05/17/daily50.html |accessdate= August 20, 2013 </ref>
+
+Red Hat became the primary author and maintainer of the GlusterFS open-source software|open-source project after acquiring the Gluster company in October 2011.<ref name="buy" />
+The product was first marketed as Red Hat Storage Server, but in early 2015 renamed to be Red Hat Gluster Storage since Red Hat has also acquired the Ceph (software)|Ceph file system technology.<ref>Cite web |title= New product names. Same Great features. |url= http://app.engage.redhat.com/e/es.aspx?s=1795&e=556851 |archiveurl= https://web.archive.org/web/20150402165836/http://app.engage.redhat.com/e/es.aspx?s=1795&e=556851 |archivedate= April 2, 2015 |accessdate= October 27, 2016 </ref>
+
+Architecture
+The GlusterFS architecture aggregates compute, storage, and I/O resources into a global namespace. Each server plus attached commodity storage (configured as direct-attached storage, JBOD, or using a storage area network) is considered to be a node. Capacity is scaled by adding additional nodes or adding additional storage to each node. Performance is increased by deploying storage among more nodes. High availability is achieved by replicating data n-way between nodes.
+
+=Public cloud deployment=
+For public cloud deployments, GlusterFS offers an Amazon Web Services (AWS) Amazon Machine Image (AMI), which is deployed on Elastic Compute Cloud (EC2) instances rather than physical servers and the underlying storage is Amazon's Elastic Block Storage (EBS).<ref>cite web|author=Nathan Eddy |url=http://www.eweek.com/c/a/Midmarket/Gluster-Introduces-NAS-Virtual-Appliances-for-VMware-Amazon-Web-Services-148680/ |title=Gluster Introduces NAS Virtual Appliances for VMware, Amazon Web Services |publisher=Eweek.com |date=2011-02-11 |accessdate=2013-08-16</ref> In this environment, capacity is scaled by deploying more EBS storage units, performance is scaled by deploying more EC2 instances, and availability is scaled by n-way replication between AWS availability zones.
+
+=Private cloud deployment=
+A typical on-premises, or private cloud deployment will consist of GlusterFS installed as a virtual appliance on top of multiple commodity servers running hypervisors such as Kernel-based Virtual Machine|KVM, Xen, or VMware; or on bare metal.<ref>cite web|title=Gluster Virtual Storage Appliance|url=http://www.storage-switzerland.com/Blog/Entries/2011/2/22_Gluster_Virtual_Storage_Appliance.html|publisher=Storage Switzerland, LLC|accessdate=1 September 2013</ref>
+
+ GlusterFS 
+
+Infobox software
+| name = GlusterFS
+| author = Gluster
+| developer = Red Hat, Inc.
+| latest release version = 3.12.9<ref name="gluster.org">cite web|url=https://www.gluster.org/release-schedule/|accessdate=15 September 2018</ref>
+| latest release date = release date|df=yes|2018|08|22
+| latest preview version = 4.1.4<ref name="gluster.org">cite web|url=https://www.gluster.org/release-schedule/|accessdate=15 September 2018</ref>
+| latest preview date = release date|df=yes|2018|09|06
+| operating system = Linux, OS&nbsp;X, FreeBSD, NetBSD, OpenSolaris
+| genre = Distributed file system
+| license = GPLv3|GNU General Public License v3<ref>cite web|url=https://gluster.org/community/documentation/index.php/Gluster_3.1:_Understanding_the_GlusterFS_License |title=Gluster 3.1: Understanding the GlusterFS License |work=Gluster Documentation |publisher=Gluster.org |date= |accessdate=30 April 2014</ref>
+| website = URL|https://www.gluster.org
+
+
+GlusterFS is a Scale out|scale-out network-attached storage file system.  It has found applications including cloud computing, streaming media services, and content delivery networks. GlusterFS was developed originally by Gluster, Inc. and then by Red Hat, Inc., as a result of Red Hat acquiring Gluster in 2011.<ref>cite web|author1=Timothy Prickett Morgan|title=Red Hat snatches storage Gluster file system for $136m|url=https://www.theregister.co.uk/2011/10/04/redhat_buys_gluster/|publisher=The Register|accessdate=3 July 2016|date=4 October 2011</ref>
+
+In June 2012, Red Hat Storage Server was announced as a commercially supported integration of GlusterFS with Red Hat Enterprise Linux.<ref>Cite news |title= Red Hat Storage Server NAS takes on Lustre, NetApp |author= Timothy Prickett Morgan |work= The Register |date= 27 June 2012 |url= https://www.theregister.co.uk/2012/06/27/redhat_storage_server_2_launch/ |accessdate= 30 May 2013 </ref>  Red Hat bought Inktank Storage in April 2014, which is the company behind the Ceph (software)|Ceph distributed file system, and re-branded GlusterFS-based Red Hat Storage Server to "Red Hat Gluster Storage".<ref>cite web|url=http://app.engage.redhat.com/e/es.aspx?s=1795&e=556851 |title=Red Hat Storage. New product names. Same great features. |website=redhat.com |date=20 March 2015 |accessdate=20 March 2015 |deadurl=yes |archiveurl=https://web.archive.org/web/20150402165836/http://app.engage.redhat.com/e/es.aspx?s=1795&e=556851 |archivedate=2 April 2015 </ref>
+
+= Design =
+GlusterFS aggregates various storage servers over Ethernet or Infiniband Remote direct memory access|RDMA interconnect into one large parallel network file system. It is free software, with some parts licensed under the GNU General Public License (GPL) v3 while others are dual licensed under either GPL v2 or the Lesser General Public License (LGPL) v3. GlusterFS is based on a stackable user space design.
+
+GlusterFS has a client and server component. Servers are typically deployed as ''storage bricks'', with each server running a <tt>glusterfsd</tt> daemon to export a local file system as a ''volume''. The <tt>glusterfs</tt> client process, which connects to servers with a custom protocol over TCP/IP, InfiniBand or Sockets Direct Protocol, creates composite virtual volumes from multiple remote servers using stackable ''translators''. By default, files are stored whole, but data striping|striping of files across multiple remote volumes is also supported. The final volume may then be mounted by the client host using its own native protocol via the Filesystem in Userspace|FUSE mechanism, using Network File System|NFS v3 protocol using a built-in server translator, or accessed via <tt>gfapi</tt> client library. Native-protocol mounts may then be re-exported e.g. via the kernel NFSv4 server, SAMBA, or the object-based OpenStack Storage (Swift) protocol using the "UFO" (Unified File and Object) translator.
+
+Most of the functionality of GlusterFS is implemented as translators, including file-based Web mirror|mirroring and replication (computer science)|replication, file-based data striping|striping, file-based Load balancing (computing)|load balancing, volume failover, I/O scheduling|scheduling and disk buffer|disk caching, Disk quota|storage quotas, and volume snapshots with user serviceability (since GlusterFS version 3.6).
+
+The GlusterFS server is intentionally kept simple: it exports an existing directory as-is, leaving it up to client-side translators to structure the store. The clients themselves are stateless, do not communicate with each other, and are expected to have translator configurations consistent with each other. GlusterFS relies on an elastic hash function|hashing algorithm, rather than using either a centralized or distributed metadata model. With version 3.1 and later of GlusterFS, volumes can be added, deleted, or migrated dynamically, helping to avoid configuration consistency model|coherency problems, and allowing GlusterFS to scale up to several petabytes on commodity hardware by avoiding bottlenecks that normally affect more tightly coupled distributed file systems.
+
+GlusterFS provides data reliability and availability through various options of replication: replicated volumes and Geo-replication.<ref>Cite news |title= GlusterFS Documentation |url= https://docs.gluster.org/en/latest/Quick-Start-Guide/Architecture/ |accessdate= January 28, 2018 </ref> Replicated volumes ensure that exists at least one copy of each file across the bricks, thus if one fails, data can be still accessed. Geo-replication provides a master-slave model of replication, where volumes are copied across geographically distinct locations. This happens asynchronously and it is useful for backup of data in case of failure.
+
+GlusterFS has been used as the foundation for academic research<ref>cite conference
+| url = http://nowlab.cse.ohio-state.edu/publications/conf-papers/2008/noronha-icpp08.pdf
+| title = IMCa: A High Performance Caching Front-End for GlusterFS on InfiniBand
+| last1 = Noronha | first1 = Ranjit
+| last2 = Panda | first2 = Dhabaleswar K
+| date = 9–12 September 2008
+| conference = 37th International Conference on Parallel Processing, 2008. ICPP '08.
+| conferenceurl = http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4625814 
+| publisher     = IEEE
+| format        =
+| doi = 10.1109/ICPP.2008.84 
+| accessdate    = 14 June 2011
+</ref><ref>Citation
+| last1 = Kwidama | first1 = Sevickson
+| date = 2007–2008
+| url = http://www.delaat.net/rp/2007-2008/p04/report.pdf |format=PDF
+| title = Streaming and storing CineGrid data: A study on optimization methods
+| publisher = University of Amsterdam System and Network Engineering
+| accessdate = 10 June 2011
+</ref>
+and a survey article.<ref>Citation
+| last1 = Klaver | first1 = Jeroen
+| last2 = van der Jagt | first2 = Roel
+| date = 14 July 2010
+| url = http://staff.science.uva.nl/~delaat/rp/2009-2010/p32/report.pdf |format=PDF
+| title = Distributed file system on the SURFnet network Report
+| publisher = University of Amsterdam System and Network Engineering
+| accessdate = 9 June 2012
+</ref>
+
+Red Hat markets the software for three markets: "on-premises", public cloud and "private cloud".<ref>cite web |title= Red Hat Storage Server |work= Web site |publisher= Red Hat |url= http://www.redhat.com/products/storage-server/ |accessdate= 30 May 2013 </ref>
+
+ See also 
+Portal|Free and open-source software|Linux
+Div col|colwidth=20em
+* BeeGFS
+* Ceph (software)
+* Distributed file system
+* Distributed parallel fault-tolerant file systems
+* Gfarm file system
+* IBM General Parallel File System (GPFS)
+* LizardFS
+* Lustre (file system)|Lustre
+* MapR FS
+* Moose File System
+* OrangeFS
+* Parallel Virtual File System
+* Quantcast File System
+* RozoFS
+* XtreemFS
+* ZFS
+div col end
+
+References
+Reflist
+
+External links
+*official website|https://www.gluster.org/
+
+Category:Computer storage companies
+Category:Software companies based in the San Francisco Bay Area
+Category:Cloud storage
+Category:Companies based in Sunnyvale, California

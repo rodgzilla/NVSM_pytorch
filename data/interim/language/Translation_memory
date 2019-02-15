@@ -1,0 +1,194 @@
+A translation memory (TM) is a database that stores "segments", which can be sentences, paragraphs or sentence-like units (headings, titles or elements in a list) that have previously been translated, in order to aid human Translation|translators. The translation memory stores the source text and its corresponding translation in language pairs called “translation units”. Individual words are handled by terminology bases and are not within the domain of TM.
+
+Software programs that use translation memories are sometimes known as translation memory managers (TMM) or translation memory systems (TM systems, not to be confused with a Translation management system (TMS), which is another type of software focused on managing process of translation).
+
+Translation memories are typically used in conjunction with a dedicated computer assisted translation (CAT) tool, wordprocessor|word processing program, terminology management systems, multilingual dictionary, or even raw machine translation output.
+
+Research indicates that many language industry|companies producing multilingual documentation are using translation memory systems. In a survey of language professionals in 2006, 82.5% out of 874 replies confirmed the use of a TM.<ref name="survey"/> Usage of TM correlated with text type characterised by technical terms and simple sentence structure (technical, to a lesser degree marketing and financial), computing skills, and repetitiveness of content.<ref name="survey">Elina Lagoudaki (2006), "Translation Memory systems: Enlightening users' perspective. Key finding of the TM Survey 2006 carried out during July and August 2006. (Imperial College London, Translation Memories Survey 2006), p.16 cite web |url=http://www3.imperial.ac.uk/portal/pls/portallive/docs/1/7307707.PDF |title=Archived copy |accessdate=2007-03-25 |deadurl=yes |archiveurl=https://web.archive.org/web/20070325114619/http://www3.imperial.ac.uk/portal/pls/portallive/docs/1/7307707.PDF |archivedate=2007-03-25 |df= </ref>
+
+ Using translation memories 
+The program breaks the source text (the text to be translated) into segments, looks for matches between segments and the source half of previously translated source-target pairs stored in a translation memory, and presents such matching pairs as translation candidates. The translator can accept a candidate, replace it with a fresh translation, or modify it to match the source. In the last two cases, the new or modified translation goes into the database.
+
+Some translation memory systems search for 100% matches only, that is to say that they can only retrieve segments of text that match entries in the database exactly, while others employ Fuzzy string searching|fuzzy matching algorithms to retrieve similar segments, which are presented to the translator with differences flagged. It is important to note that typical translation memory systems only search for text in the source segment.
+
+The flexibility and robustness of the matching algorithm largely determine the performance of the translation memory, although for some applications the recall rate of exact matches can be high enough to justify the 100%-match approach.
+
+Segments where no match is found will have to be translated by the translator manually. These newly translated segments are stored in the database where they can be used for future translations as well as repetitions of that segment in the current text.
+
+Translation memories work best on texts which are highly repetitive, such as technical manuals. They are also helpful for translating incremental changes in a previously translated document, corresponding, for example, to minor changes in a new version of a user manual. Traditionally, translation memories have not been considered appropriate for literary or creative texts, for the simple reason that there is so little repetition in the language used. However, others find them of value even for non-repetitive texts, because the database resources created have value for concordance searches to determine appropriate usage of terms, for quality assurance (no empty segments), and the simplification of the review process (source and target segment are always displayed together while translators have to work with two documents in a traditional review environment).
+
+If a translation memory system is used consistently on appropriate texts over a period of time, it can save translators considerable work. Enterprises that employ translators to work on corporate translations can also save significant resources as a result of using a translation memory system.<ref>cite web |title=15 Best Translation Management System Features |url=https://www.pairaphrase.com/15-best-translation-management-system-features/ |website=Pairaphrase |publisher=Cloud Translation Blog |accessdate=5 October 2018</ref>
+
+= Main benefits =
+Translation memory managers are most suitable for translating technical documentation and documents containing specialized vocabularies. Their benefits include:
+
+* Ensuring that the document is completely translated (translation memories do not accept empty target segments)
+* Ensuring that the translated documents are consistent, including common definitions, phrasings and terminology. This is important when different translators are working on a single project.
+* Enabling translators to translate documents in a wide variety of formats without having to own the software typically required to process these formats.
+* Accelerating the overall translation process; since translation memories "remember" previously translated material, translators have to translate it only once.
+* Reducing costs of long-term translation projects; for example the text of manuals, warning messages or series of documents needs to be translated only once and can be used several times.
+* For large documentation projects, savings (in time or money) thanks to the use of a TM package may already be apparent even for the first translation of a new project, but normally such savings are only apparent when translating subsequent versions of a project that was translated before using translation memory.
+
+= Main obstacles =
+cite-section|date=April 2018
+The main problems hindering wider use of translation memory managers include:
+
+* The concept of "translation memories" is based on the premise that sentences used in previous translations can be "recycled". However, a guiding principle of translation is that the translator must translate the ''message'' of the text, and not its component ''Sentence (linguistics)|sentences''.
+* Translation memory managers do not easily fit into existing translation or localization processes. In order to take advantage of TM technology, the translation processes must be redesigned.
+* Translation memory managers do not presently support all documentation formats, and filters may not exist to support all file types.
+* There is a learning curve associated with using translation memory managers, and the programs must be customized for greatest effectiveness.
+* In cases where all or part of the translation process is outsourced or handled by freelance translators working off-site, the off-site workers require special tools to be able to work with the texts generated by the translation memory manager.
+* Full versions of many translation memory managers can cost from US dollar|US$500 to US$2,500 per seat, which can represent a considerable investment (although lower cost programs are also available). However, some developers produce free or low-cost versions of their tools with reduced feature sets that individual translators can use to work on projects set up with full versions of those tools. (Note that there are freeware and shareware TM packages available, but none of these has yet gained a large market share.)
+* The costs involved in importing the user's past translations into the translation memory database, training, as well as any add-on products may also represent a considerable investment.
+* Maintenance of translation memory databases still tends to be a manual process in most cases, and failure to maintain them can result in significantly decreased usability and quality of TM matches.
+* As stated previously, translation memory managers may not be suitable for text that lacks internal repetition or which does not contain unchanged portions between revisions. Technical text is generally best suited for translation memory, while marketing or creative texts will be less suitable.
+
+= Effects on quality =
+The use of TM systems might have an effect on the quality of the texts translated. Its main effect is clearly related to the so-called "error propagation": if the translation for a particular segment is incorrect, it is in fact more likely that the incorrect translation will be reused the next time the same source text, or a similar source text, is translated, thereby perpetuating the error.Traditionally, two main effects on the quality of translated texts have been described: the "sentence-salad" effect (Bédard 2000; cited in O’Hagan 2009: 50) and the "peep-hole" effect (Heyn 1998). The first refers to a lack of coherence at the text level when a text is translated using sentences from a TM which have been translated by different translators with different styles. According to the latter, translators may adapt their style to the use of TM system in order for these not to contain intratextual references, so that the segments can be better reused in future texts, thus affecting cohesion and readability (O'Hagan 2009).
+
+There is a potential, and, if present, probably an unconscious effect on the translated text. Different languages use different sequences for the logical elements within a sentence and a translator presented with a multiple clause sentence that is half translated is less likely to completely rebuild a sentence. Consistent empirical evidences (Martín-Mor 2011) show that translators will most likely modify the structure of a multiple clause sentence when working with a text processor rather than with a TM system.
+
+There is also a potential for the translator to deal with the text mechanically sentence-by-sentence, instead of focusing on how each sentence relates to those around it and to the text as a whole. Researchers (Dragsted 2004) have identified this effect, which relates to the Automatic Segmentation feature of these programs, but it does not necessarily have a negative effect on the quality of translations.
+
+Note that these effects are closely related to training rather than inherent to the tool. According to Martín-Mor (2011), the use of TM systems does have an effect on the quality of the translated texts, especially on novices, but experienced translators are able to avoid it. Pym (2013) reminds that "translators using TM/MT tend to revise each segment as they go along, allowing little time for a final revision of the whole text at the end", which might in fact be the ultimate cause of some of the effects described here.
+
+Types of translation-memory systems
+* Desktop: Desktop translation memory tools are typically what individual translators use to complete translations. They are programs that a freelance translator downloads and installs on his/her desktop computer.
+* Server-based or Centralised: Centralized translation memory systems store TM on a central server. They work together with desktop TM and can increase TM match rates by 30–60% more than the TM leverage attained by desktop TM alone.
+
+Functions
+The following is a summary of the main functions of a translation memory.
+
+= Off-line functions =
+
+ Import 
+This function is used to transfer a text and its translation from a text file to the TM. Data transformation|Import can be done from a ''raw format'', in which an external source text is available for importing into a TM along with its translation. Sometimes the texts have to be reprocessed by the user. There is another format that can be used to import: the ''native format''. This format is the one that uses the TM to save translation memories in a file.
+
+ Analysis 
+The process of analysis involves the following steps:
+;Textual parsing
+: It is very important to recognize punctuation correctly in order to distinguish between for example a full stop at the end of a sentence and a full stop in an abbreviation. Thus, mark-up is a kind of pre-editing. Usually, materials which have been processed through translators' aid programs contain mark-up, as the translation stage is embedded in a multilingual document production line. Other special text elements may be set off by mark-up. There are special elements which do not need to be translated, such as proper names and codes, while others may need to be converted to native format.
+;Linguistic parsing
+: The base form reduction is used to prepare lists of words and a text for automatic retrieval of terms from a term bank. On the other hand, syntactic parsing may be used to extract multi-word terms or phraseology from a source text. So parsing is used to normalise word order variation of phraseology, this is which words can form a phrase.
+;Segmentation
+: Its purpose is to choose the most useful translation units. Segmentation is like a type of parsing. It is done monolingually using superficial parsing and alignment is based on segmentation. If the translators correct the segmentations manually, later versions of the document will not find matches against the TM based on the corrected segmentation because the program will repeat its own errors. Translators usually proceed sentence by sentence, although the translation of one sentence may depend on the translation of the surrounding ones.
+;Alignment
+: It is the task of defining translation correspondences between source and target texts. There should be feedback from alignment to segmentation and a good alignment algorithm should be able to correct initial segmentation.
+;Term extraction
+: It can have as input a previous dictionary. Moreover, when extracting unknown terms, it can use parsing based on text statistics. These are used to estimate the amount of work involved in a translation job. This is very useful for planning and scheduling the work. Translation statistics usually count the words and estimate the amount of repetition in the text.
+
+ Export 
+Export transfers the text from the TM into an external text file. Import and export should be inverses.
+
+= Online functions =
+When translating, one of the main purposes of the TM is to retrieve the most useful matches in the memory so that the translator can choose the best one. The TM must show both the source and target text pointing out the identities and differences.
+
+ Retrieval 
+Several different types of matches can be retrieved from a TM.
+
+;Exact match: Exact matches appear when the match between the current source segment and the stored one is a character by character match. When translating a sentence, an exact match means the same sentence has been translated before. Exact matches are also called "100 % matches".
+;In-Context Exact (ICE) match or Guaranteed Match: An ICE match is an exact match that occurs in exactly the same context, that is, the same location in a paragraph. Context is often defined by the surrounding sentences and attributes such as document file name, date, and permissions.
+;Fuzzy match: When the match is not exact, it is a "fuzzy" match. Some systems assign percentages to these kinds of matches, in which case a fuzzy match is greater than 0% and less than 100%. Those figures are not comparable across systems unless the method of scoring is specified.
+;Concordance: When the translator selects one or more words in the source segment, the system retrieves segment pairs that match the search criteria. This feature is helpful for finding translations of terms and idioms in the absence of a terminology database.
+
+ Updating 
+A TM is updated with a new translation when it has been accepted by the translator. As always in updating a database, there is the question what to do with the previous contents of the database. A TM can be modified by changing or deleting entries in the TM. Some systems allow translators to save multiple translations of the same source segment.
+
+ Automatic translation 
+Translation memory tools often provide automatic retrieval and substitution.
+
+;Automatic retrieval: TM systems are searched and their results displayed automatically as a translator moves through a document.
+;Automatic substitution: With automatic substitution, if an exact match comes up in translating a new version of a document, the software will repeat the old translation. If the translator does not check the translation against the source, a mistake in the previous translation will be repeated.
+
+ Networking 
+Networking enables a group of translators to translate a text together faster than if each was working in isolation, because sentences and phrases translated by one translator are available to the others. Moreover, if translation memories are shared before the final translation, there is an opportunity for mistakes by one translator to be corrected by other team members.
+
+= Text memory =
+"Text memory" is the basis of the proposed Lisa OSCAR xml:tm standard.  Text memory comprises author memory and translation memory.
+
+ Translation memory 
+
+The unique identifiers are remembered during translation so that the target language document is 'exactly' aligned at the text unit level. If the source document is subsequently modified, then those text units that have not changed can be directly transferred to the new target version of the document without the need for any translator interaction. This is the concept of 'exact' or 'perfect' matching to the translation memory.  xml:tm can also provide mechanisms for in-document leveraged and fuzzy matching.
+
+History
+1970s is the infancy stage for TM systems in which scholars carried on a preliminary round of exploratory discussions. The original idea for TM systems is often attributedwhom|date=April 2018 to Martin Kay's "Proper Place" paper <ref>cite journal |last1=Kay |first1=Martin |title=The Proper Place of Men and Machines in Language Translation |journal=Machine Translation |date=March 1997 |volume=12 |issue=1–2 |pages=3–23 |doi=10.1023/A:1007911416676 |url=https://link.springer.com/article/10.1023/A:1007911416676 |accessdate=2018-12-28</ref>, but the details of it are not fully given. In this paper, it has shown the basic concept of the storing system: "The translator might start by issuing a command causing the system to display anything in the store that might be relevant to .... Before going on, he can examine past and future fragments of text that contain similar material". This observation from Kay was actually influenced by the suggestion of Peter Arthern that translators can use similar, already translated documents online. In his 1978 articlecitation-needed|date=April 2018 he gave fully demonstration of what we call TM systems today: Any new text would be typed into a word processing station, and as it was being typed, the system would check this text against the earlier texts stored in its memory, together with its translation into all the other official languages [of the European Community]. ... One advantage over machine translation proper would be that all the passages so retrieved would be grammatically correct. In effect, we should be operating an electronic 'cut and stick' process which would, according to my calculations, save at least 15 per cent of the time which translators now employ in effectively producing translations.
+
+The idea was incorporated from ALPS(Automated Language Processing Systems) Tools first developed by researcher from Brigham Young University, and at that time the idea of TM systems was mixed with a tool call "Repetitions Processing" which only aimed to find matched strings. Only after a long time, did the concept of so-called translation memory come into being.
+
+The real exploratory stage of TM systems would be 1980s. One of the first implementation of TM system appeared in Sadler and Vendelmans' Bilingual Knowledge Bank. A Bilingual Knowledge Bank is a syntactically and referentially structured  pair of corpora, one being a translation of the other, in which translation units are  cross-coded between the corpora. The aim of Bilingual Knowledge Bank is to develop a corpus-based general-purpose knowledge source for applications in  machine translation and computer-aided translation (Sadler & Vendelman, 1987). Another important step was made by Brian Harris with his "Bi-text". He has defined the bi-text as "a single text in two dimensions" (1988), the source and target texts related by the activity of the translator through translation units which made a similar echoes with Sadler's Bilingual Knowledge Bank. And in Harris's work he proposed something like TM system without using this name: a database of paired translations, searchable either by individual word, or by "whole translation unit", in the latter case the search being allowed to retrieve similar rather than identical units.
+
+TM technology only became commercially available on a wide scale in the late 1990s, so the efforts made by several engineers and translators. Of note is the first TM tool called Trados (Trados|SDL Trados nowadays). In this tool, when opening the source file and applying the translation memory so that any "100% matches" (identical matches) or "fuzzy matches" (similar, but not identical matches) within the text are instantly extracted and placed within the target file. Then, the "matches" suggested by the translation memory can be either accepted or overridden with new alternatives. If a translation unit is manually updated, then it is stored within the translation memory for future use as well as for repetition in the current text. In a similar way, all segments in the target file without a "match" would be translated manually and then automatically added to the translation memory. 
+
+In the 2000s, online translation services began incorporating TM. Machine translation services like Google Translate, as well as professional and "hybrid" translation services provided by sites like Gengo and Translation Cloud#Ackuna|Ackuna, incorporate databases of TM data supplied by translators and volunteers to make more efficient connections between languages provide faster translation services to end-users.<ref>[https://techcrunch.com/2016/11/22/googles-ai-translation-tool-seems-to-have-invented-its-own-secret-internal-language/ Google's AI translation tool seems to have invented its own secret internal language] Devin Coldewey, TechCrunch, November 22, 2016</ref>
+
+Recent trends
+One recent development is the concept of 'text memory' in contrast to translation memory.<ref>[http://www.xml.com/pub/a/2004/01/07/xmltm.html Translating XML Documents with xml:tm]</ref> This is also the basis of the proposed LISA OSCAR standard.<ref>[http://www.xml.com/pub/a/2004/01/07/xmltm.html xml:tm]</ref> Text memory within xml:tm comprises 'author memory' and 'translation memory'. Author memory is used to keep track of changes during the authoring cycle. Translation memory uses the information from author memory to implement translation memory matching. Although primarily targeted at XML documents, xml:tm can be used on any document that can be converted to XLIFF<ref>[http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=xliff XLIFF]</ref> format.
+
+=Second-generation translation memories=
+Much more powerful than first-generation TM systems, they include a linguistic analysis engine, use chunk technology to break down segments into intelligent terminological groups, and automatically generate specific glossaries.
+
+Related standards
+
+=TMX=
+Translation Memory eXchange (TMX) is a standard that enables the interchange of translation memories between translation suppliers. TMX has been adopted by the translation community as the best way of importing and exporting translation memoriesCitation needed|date=March 2009. The current version is 1.4b - it allows for the recreation of the original source and target documents from the TMX data.
+
+=TBX=
+TermBase eXchange. This Localization Industry Standards Association|LISA standard, which was revised and republished as ISO 30042, allows for the interchange of terminology data including detailed lexical information. The framework for TBX is provided by three ISO standards: ISO 12620, ISO 12200 and ISO 16642. ISO 12620 provides an inventory of well-defined “data categories” with standardized names that function as data element types or as predefined values. ISO 12200 (also known as MARTIF) provides the basis for the core structure of TBX. ISO 16642 (also known as Terminological Markup Framework) includes a structural meta-model for Terminology Markup Languages in general.
+
+=UTX=
+Universal Terminology eXchange (UTX) format is a standard specifically designed to be used for user dictionaries of machine translation, but it can be used for general, human-readable glossaries. The purpose of UTX is to accelerate dictionary sharing and reuse by its extremely simple and practical specification.
+
+=SRX=
+Segmentation Rules eXchange (SRX) is intended to enhance the TMX standard so that translation memory data that is exchanged between applications can be used more effectively. The ability to specify the segmentation rules that were used in the previous translation may increase the leveraging that can be achieved.
+
+=GMX=
+GILT Metrics. GILT stands for (Globalization, Internationalization, Localization, and Translation). The GILT Metrics standard comprises three parts: GMX-V for volume metrics, GMX-C for complexity metrics and GMX-Q for quality metrics. The proposed GILT Metrics standard is tasked with quantifying the workload and quality requirements for any given GILT task.
+
+=OLIF=
+Open Lexicon Interchange Format. OLIF is an open, XML-compliant standard for the exchange of terminological and lexical data. Although originally intended as a means for the exchange of lexical data between proprietary machine translation lexicons, it has evolved into a more general standard for terminology exchange.<ref>[http://www.olif.net/ Open Lexicon Interchange Format]</ref>
+
+<span id="anchor_xliff"></span>
+
+=XLIFF=
+XLIFF|XML Localisation Interchange File Format (XLIFF) is intended to provide a single interchange file format that can be understood by any localization provider. XLIFF is the preferred wayCitation needed|date=March 2009 of exchanging data in XML format in the translation industry.<ref>[http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=xliff XML Localisation Interchange File Format]
+</ref>
+
+=TransWS=
+Translation Web Services. TransWS specifies the calls needed to use Web services for the submission and retrieval of files and messages relating to localization projects. It is intended as a detailed framework for the automation of much of the current localization process by the use of Web Services.<ref>[http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=trans-ws Translation Web Services]</ref>
+
+=xml:tm=
+Main article|xml:tm
+The xml:tm (XML-based Text Memory) approach to translation memory is based on the concept of text memory which comprises author and translation memory.<ref>cite web|title=OAXAL—What is it and why should I care|url=http://www.infomanagementcenter.com/enewsletter/200808/second.htm|work=CIDM Information Management News|accessdate=March 30, 2013|author=Andrzej Zydroń|date=August 2008|quote=At the core of xml:tm are the following concepts which together make up 'Text Memory': Author Memory and Translation Memory.|archive-url=https://web.archive.org/web/20130517222230/http://www.infomanagementcenter.com/enewsletter/200808/second.htm|archive-date=May 17, 2013|dead-url=yes|df=mdy-all</ref>   xml:tm has been donated to Lisa OSCAR by XML-INTL.
+
+=PO=
+Gettext| Gettext Portable Object format. Though often not regarded as a translation memory format, Gettext PO files are bilingual files that are also used in translation memory processes in the same way translation memories are used.  Typically, a PO translation memory system will consist of various separate files in a directory tree structure.  Common tools that work with PO files include the GNU Gettext Tools and the Translate Toolkit.  Several tools and programs also exist that edit PO files as if they are mere source text files.
+
+See also
+* Comparison of computer-assisted translation tools
+* List of translation software
+* Translation
+* Text corpus
+* Computer-assisted reviewing
+* Translation software#Applications
+
+References
+Reflist
+
+Further reading
+* Dragsted, Barbara. (2004). ''Segmentation in translation and translation memory systems: An empirical investigation of cognitive segmentation and effects of integrating a TM system into the translation process''. Copenhagen: Samfundslitteratur. 369 p.
+* Heyn, Matthias. (1998). “Translation memories: Insights and prospects”. In: Lynne Bowker; et al. (eds.), ''Unity in diversity? Current trends in translation studies''. Manchester: St. Jerome. P. 123-136.
+* Martín-Mor, Adrià (2011), ''La interferència lingüística en entorns de Traducció Assistida per Ordinador: Recerca empíricoexperimental''. Bellaterra: Universitat Autònoma de Barcelona. URL: <nowiki>http://www.tdx.cat/handle/10803/83987</nowiki>.
+* O’Hagan, Minako. (2009). “Computer-aided translation (CAT)”. In: Mona Baker & Gabriela Saldanha (eds.), ''Routledge encyclopedia of translation studies''. London: Routledge. P. 48-51.
+* Pym, Anthony (2013). ''Translation Skill-Sets in a Machine-Translation Age''. Meta: Translators' Journal, 58 (3), p.&nbsp;487-503. URL: <nowiki>http://id.erudit.org/iderudit/1025047ar</nowiki>
+
+External links
+* [http://www.maxprograms.com/articles/analysis.html XML in Localisation: A Practical Analysis]
+* [http://www.issco.unige.ch/ewg95/node149.html Translation memories]
+* [http://www.issco.unige.ch/ewg95/node157.html Benchmarking translation memories]
+* [http://www.lucianomonteiro.com/technology/ Translators Now And Then - How Technology Has Changed Their Trade]
+* [https://web.archive.org/web/20050123123221/http://ecolore.leeds.ac.uk/downloads/2003.05_bdue_survey_analysis.doc Ecolore survey of TM use by freelance translators (Word document)]
+* [http://www.springerlink.com/content/5618063651089kj8 Power Shifts in Web-Based Translation Memory]
+* [https://jealousmarkup.xyz/catzine-what-is-a-translation-memory/ What is a translation memory?] - a cartoon explanation
+* [https://mymemory.translated.net/ MyMemory] free online collaborative translation archive
+Category:Computer-assisted translation
+Category:Translation databases

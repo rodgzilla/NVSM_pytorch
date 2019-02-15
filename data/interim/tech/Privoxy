@@ -1,0 +1,54 @@
+Infobox software
+| name                   = Privoxy
+| logo                   = Privoxy Icon.png
+| screenshot             =
+| caption                = Privoxy on Windows XP
+| developer              = Privoxy Developers
+| released               = 2001
+| programming language   = C (programming language)|C
+| repo                   = <code>cvs://<wbr/>anonymous:<wbr/>@ijbswa.<wbr/>cvs.<wbr/>sourceforge.<wbr/>net/<wbr/>cvsroot/<wbr/>ijbswa</code>
+| platform               = 
+| language               =
+| genre                  = Filtering Proxy server|proxy
+| license                = GNU GPLv2
+
+
+Privoxy is a free non-Web cache|caching Proxy_server#Web_proxy_servers|web proxy with filtering capabilities for enhancing privacy, manipulating cookies and modifying web page data and HTTP headers before the page is rendered by the browser. Privoxy is a "privacy enhancing proxy", filtering web pages and removing advertisements. Privoxy can be customized by users, for both stand-alone systems and multi-user networks.<ref>cite web|url=http://www.privoxy.org/faq/|title=Privoxy Frequently Asked Questions</ref> Privoxy can be chained to other proxies and is frequently used in combination with Squid (software)|Squid and can be used to bypass Internet censorship.<ref>cite journal|url=http://www.linux-magazin.de/Ausgaben/2012/03/Privoxy|title=Anonymisieren mit Squid und Privoxy|last1=Fellner|first1=Markus|last2=Husemann|first2=Falk|work=Linux Magazin|issue=March 2012|accessdate=2014-03-27|language=German</ref>
+
+ History 
+Privoxy is based on the Internet Junkbuster and is released under the GNU General Public License. It runs on Linux, OpenWrt, DD-WRT, Microsoft Windows|Windows, macOS, OS/2, AmigaOS, BeOS, and most flavors of Unix. Almost any Web browser can use it.  The software is hosted at SourceForge.<ref>cite web|url=http://www.drdobbs.com/tool-of-the-month-privoxy/199102828|title=Tool of the Month: Privoxy|last=Brockmeier|first=Joe|work=Dr. Dobb's Journal|date=2005-06-17|accessdate=2014-03-27</ref>  Historically the Tor Project bundled Privoxy with Tor_(anonymity_network)|Tor but this was discontinued in 2010 as they pushed their own internal Tor browser project and recommended against external third party proxies. Privoxy still works if manually configured and is still recommended for third party non-browser applications which do not natively support SOCKS.<ref>cite web|url=https://www.torproject.org/docs/faq.html.en#TBBSocksPort|title=Tor Frequently Asked Questions</ref>
+
+ Reception 
+Shashank Sharma of ''Linux Format'' rated it 9/10 stars and wrote, "Privoxy is highly customisable, easy to set up, has good documentation and is fun to work with. Use it!"<ref>cite journal|url=http://www.techradar.com/us/news/software/applications/6-of-the-best-content-filters-for-linux-698307/3|title=SafeSquid and Privoxy|last=Sharma|first=Shashank|work=Linux Format|issue=133|date=2010-06-25|accessdate=2014-03-27|via=Tech Radar</ref>  Erez Zukerman of ''PC World'' rated it 4/5 stars and called it complicated but powerful.<ref>cite web|url=http://www.pcworld.com/article/252136/privoxy.html|title=Avoid Ads and Creepy Tracking Scripts With Privoxy|last=Zukerman|first=Erez|work=PC World|date=2012-03-19|accessdate=2014-03-27</ref>  Michelle Delio of Wired.com called it "an outstanding way to protect one's privacy".<ref>cite web|url=http://archive.wired.com/techbiz/it/news/2004/05/63442?currentPage=all|title=A Tightwad's Guide to Ad Blockers|last=Delio|first=Michelle|work=Wired.com|date=2004-05-14|accessdate=2014-03-27|deadurl=yes|archiveurl=https://web.archive.org/web/20140418085206/http://archive.wired.com/techbiz/it/news/2004/05/63442?currentPage=all |archivedate=2014-04-18|df=</ref>
+
+ See also 
+Portal|Free and open-source software
+* Content-control software
+* Web accelerator which discusses host-based HTTP acceleration
+* Proxy server which discusses client-side proxies
+* Reverse proxy which discusses origin-side proxies
+* Internet Cache Protocol
+* Polipo, a caching web proxy server
+* Proxomitron, a similar content-filtering proxy for Windows
+
+ References 
+Reflist
+
+ External links 
+* Official website
+* SourceForge|ijbswa
+
+Software in the Public Interest
+
+Category:Internet privacy
+Category:Proxy servers
+Category:Free network-related software
+Category:Free software programmed in C
+Category:Cross-platform software
+Category:Forward proxy
+Category:Reverse proxy
+Category:Proxy server software for Linux
+Category:Unix network-related software
+
+
+network-software-stub

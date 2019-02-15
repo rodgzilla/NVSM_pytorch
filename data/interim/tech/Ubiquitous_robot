@@ -1,0 +1,30 @@
+Ubiquitous robot is a term used in an analogous way to ubiquitous computing.  Software useful for "integrating robotic technologies with technologies from the fields of ubiquitous and pervasive computing, sensor networks, and ambient intelligence".
+
+The emergence of mobile phone, wearable computers and ubiquitous computing makes it likely that human beings will live in a ubiquitous world in which all devices are fully networked. The existence of ubiquitous space resulting from developments in computer and network technology will provide motivations to offer desired services by any IT device at any place and time through user interactions and seamless applications. This shift has hastened the ubiquitous revolution, which has further manifested itself in the new multidisciplinary research area, ubiquitous robotics. It initiates the third generation of robotics following the first generation of the industrial robot and the second generation of the personal robot.
+
+Ubiquitous robot (Ubibot) is a robot incorporating three components including virtual software robot or Avatar (computing)|avatar, real-world mobile robot and embedded sensor system in surroundings. Software robot within a virtual world can control a real-world robot as a brain and interact with human beings. Researchers of KAIST, Korea describe these three components as a Sobot (Intelligent agent|Software robot), Mobot (Mobile robot), and Embot (Embedded robot).
+
+See also
+* Cloud robotics
+* Internet of things
+
+Related Technical literature
+* Tae-Hun Kim, Seung-Hwan Choi, and Jong-Hwan Kim. "Incorporation of a Software Robot and a Mobile Robot Using a Middle Layer." IEEE Transactions on Systems, Man, and Cybernetics - Part C: Applications and Reviews, Vol. 37, No. 6, Nov. 2007.
+* Jong-Hwan Kim et al., "Ubiquitous Robot: A New Paradigm for Integrated Services", in Proc. of IEEE Int’l Conf. on Robotics and Automation, Rome, Italy, April 2007.
+* Jong-Hwan Kim, "Ubiquitous Robot: Recent Progress and Development", (Keynote Speech Paper) in SICE-ICASE International Joint Conference 2006, Busan, Korea, pp.&nbsp;I-25 - I-30, Oct. 2006.
+* Jong-Hwan Kim et al., "The 3rd Generation of Robotics: Ubiquitous Robot", (Keynote Speech Paper) in Proc. of the International Conference on Autonomous Robots and Agents, Palmerston North, New Zealand, 2004.
+* Jong-Hwan Kim, "Ubiquitous Robot", in ''Computational Intelligence, Theory and Applications'' (edited by B. Reusch), in Springer, pp.&nbsp;451–459, 2004 (Keynote Speech Paper of the 8th Fuzzy Days International Conference, Dortmund, Germany, Sep. 2004).
+
+References
+reflist
+
+Robotics
+
+Category:Robots|-Ubiquitous
+Category:Robotics software|*
+Category:Assistive technology
+Category:Ambient intelligence
+Category:Ubiquitous computing|*
+
+
+robotics-stub

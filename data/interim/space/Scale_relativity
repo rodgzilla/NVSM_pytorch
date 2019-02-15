@@ -1,0 +1,541 @@
+Multiple issues|
+essay|date=February 2016
+POV|date=February 2016
+Fringe theories|date=April 2017
+
+Quantum mechanics|cTopic=Interpretation of quantum mechanics|Interpretations
+
+Scale relativity is a geometrical and fractal space-time physical theory.
+
+Relativity theories (special relativity and general relativity) are based on the notion that position, orientation, movement and acceleration cannot be defined in an absolute way, but only relative to a system of reference. The scale relativity theory proposes to extend the concept of relativity to physical Scale (spatial)|scales (time, length, energy, or momentum scales), by introducing an explicit "state of scale" in coordinate systems.
+
+This extension of the relativity principle was originally introduced by Laurent Nottale,sfn|Nottale|1989 based on the idea of a fractal space-time theory first introduced by Garnet Ord,sfn|Ord|1983 and by Nottale and Jean Schneider.sfn|Nottale|Schneider|1984
+
+To describe scale transformations requireswhy|date=February 2016 the use of fractal geometries, which are typicallydubious|date=February 2016 concerned with scale changes. Scale relativity is thus an extension of relativity theory to the concept of scaling (geometry)|scale, using fractal geometries to study scale transformations.
+
+The construction of the theory is similar to previous relativity theories, with three different levels: Galilean, special and general. The development of a full general scale relativity is not finished yet.
+
+History
+
+=Feynman's paths in quantum mechanics=
+Richard Feynman developed a path integral formulation of quantum mechanics before 1966.sfn|Feynman|Hibbs|1965 Searching for the most important paths relevant for quantum particles, Feynman noticed that such paths were very irregular on small scales, i.e. infinite and non-differentiable. This means that in between two points, a particle can have not one path, but an infinity of potential paths.
+
+This can be illustrated with a concrete example. Imagine that you are hiking in the mountains, and that you are free to walk wherever you like. To go from point A to point B, there is not just one path, but an infinity of possible paths, each going through different valleys and hills.sfn|Müller|2005|p=71
+
+Scale relativity hypothesizes that quantum behavior comes from the fractal nature of spacetime. Indeed, fractal geometries allow to study such non-differentiable paths. This fractal interpretation of quantum mechanics has been further specified by Abbot and Wise,sfn|Abbott|Wise|1981 showing that the paths have a fractal dimension 2. Scale relativity goes one step further by asserting that the fractality of these paths is a consequence of the fractality of space-time.
+
+There are other pioneers who saw the fractal nature of quantum mechanical paths.sfn|Campesino-Romeo|D'Olivo|Socolovsky|1982sfn|Allen|1983 Also, as much as the development of general relativity required the mathematical tools of non-Euclidean geometry|non-Euclidean (Riemannian) geometries, the development of a fractal space-time theory would not have been possible without the concept of fractal geometries developed and popularized by Benoit Mandelbrot. Fractals are usually associated with the self-similar case of a fractal curve, but other more complicated fractals are possible, e.g. considering not only curves, but also fractal landscape|fractal surfaces or fractal volumes, as well as investigating fractal dimensions which have other values than 2, and which also vary with scale.
+
+=Independent discovery=
+Garnet Ordsfn|Ord|1983 and Laurent Nottalesfn|Nottale|Schneider|1984 both connected fractal space-time with quantum mechanics. Nottale coined the term "scale relativity" in 1992.sfn|Nottale|1992 He developed the theory and its applications with more than one hundred scientific papers,<ref>[http://luth.obspm.fr/~luthier/nottale/ukdownlo.htm Nottale: list of papers]</ref> two technical books in English,<ref>harvnb|Nottale|1993a; nowrap|harvnb|Nottale|2011.</ref> and three popular books in French.<ref>harvnb|Nottale|1998d; nowrap|harvnb|Nottale|Chaline|Grou|2000; nowrap|harvnb|Nottale|Célérier|Lehner|2009.</ref>
+
+Basic concepts
+
+=Principle of scale relativity=
+The principle of relativity says that physical laws should be valid in all coordinate systems. This principle has been applied to states of position (the origin and orientation of axes), as well as to the states of movement of coordinate systems (speed, acceleration). Such states are never defined in an absolute manner, but relatively to one another. For example, there is no absolute movement, in the sense that it can only be defined in a relative way between one body and another. Scale relativity proposes in a similar manner to define a scale relative to another one, and not in an absolute way. Only scale ratios have a physical meaning, never an absolute scale, in the same way as there exists no absolute position or velocity, but only position or velocity differences.
+
+The concept of ''resolution'' is re-interpreted as the "state of scale" of the system, in the same way as velocity characterizes the state of movement. The principle of scale relativity can thus be formulated as:
+<blockquote>the laws of physics must be such that they apply to coordinate systems whatever their state of scale.sfn|Nottale|2011|p=8
+</blockquote>
+
+The main goal of scale relativity is to find laws which mathematically respect this new principle of relativity. Mathematically, this can be expressed through the principle of covariance applied to scales, that is, the invariance of the form of physics equations under transformations of resolutions (dilations and contractions).
+
+=Including resolutions in coordinate systems=
+Galileo introduced explicitly velocity parameters in the observational referential. Then, Einstein introduced explicitly acceleration parameters. In a similar way, Nottale introduces scale parameters explicitly in the observational referential. The core idea of scale-relativity is thus to include resolutions explicitly in coordinate systems, thereby integrating measure theory in the formulation of physical laws.
+
+An important consequence is that coordinates are not numbers anymore, but ''functions'', which depend on the resolution.sfn|Nottale|1998a|p=218 For example, the length of the Brittany coast is explicitly dependent on the resolution at which one measures it: the coastline paradox.sfn|Mandelbrot|1983
+
+If we measure a pen with a ruler graduated at a millimetric scale, we should write that it is 15 ± 0.1&nbsp;cm. The error bar indicates the resolution of our measure. If we had measured the pen at another resolution, for example with a ruler graduated at the centimeter scale, we would have found another result, 15 ± 1&nbsp;cm. In scale relativity, this resolution defines the "state of scale". In the relativity of movement, this is similar to the concept of speed, which defines the "state of movement".
+
+The relative state of scale is fundamental to know about for any physical description. For example, if we want to describe the movement and properties of a sphere, we may as well use classical mechanics or quantum mechanics depending on the size of the sphere in question.sfn|Nottale|2004atime needed|date=May 2016
+
+In particular, information on resolution is essential to understand quantum mechanical systems, and in scale relativity, resolutions are included in coordinate systems, so it seems a logical and promising approach to account for quantum phenomena.
+
+=Dropping the hypothesis of differentiability=
+Scientific theories usually do not improve by adding complexity, but rather by starting from a more and more simple basis. This fact can be observed throughout the history of science. The reason is that starting from a less constrained basis provides more freedom and therefore allows richer phenomena to be included in the scope of the theory. Therefore, new theories usually do not contradict the old ones, but widen their domain of validity and include previous knowledge as special cases. For example, releasing the constraint of rigidity of space led Einstein to derive his theory of general relativity and to understand gravitation. As expected, this theory naturally includes Newton's theory, which is recovered as a linear approximation under weak fields.
+
+The same type of approach has been followed by Nottale to build the theory of scale relativity. The basis of current theories is a continuous and two-times differentiable space. Space is by definition a continuum, but the assumption of differentiability is not supported by any fundamental reason. It is usually assumed only because it is observed that the first two derivatives of position with respect to time are needed to describe motion. Scale relativity theory is rooted in the idea that the constraint of differentiability can be relaxed and that this allows quantum laws to be derived.
+
+In terms of geometry, differentiability means that a curve is sufficiently smooth and can be approximated by a tangent. Mathematically, two points are placed on this curve and one observes the slope of the straight line joining them as they become closer and closer. If the curve is smooth enough, this process converges (almost) everywhere and the curve is said to be differentiable. It is often believed that this property is common in nature. However, most natural objects have instead a very rough surface, or contour. For example, the bark of trees and snowflakes have a detailed structure that does not become smoother when the scale is refined. For such curves, the slope of the tangent fluctuates endlessly or diverges. The derivative is then undefined (almost) everywhere and the curve is said to be nondifferentiable.Therefore, when the ''assumption'' of space differentiability is abandoned, there is an additional degree of freedom that allows the geometry of space to be extremely rough. The difficulty in this approach is that new mathematical tools are needed to model this geometry because the classical derivative cannot be used. Nottale found a solution to this problem by using the fact that nondifferentiability implies scale dependence and therefore the use of fractal geometry. Scale dependence means that the distances on a nondifferentiable curve depend on the scale of observation. It is therefore possible to maintain differential calculus provided that the scale at which derivatives are calculated is given, and that their definition includes no limit. It amounts to saying that nondifferentiable curves have a whole set of tangents in one point instead of one, and that there is a specific tangent at each scale.
+
+To abandon the hypothesis of differentiability does not mean abandoning differentiability. Instead, this leads to a more general framework, where ''both'' differentiable and non-differentiable cases are included. Combined with motion relativity, scale relativity by definition thus extends and contains general relativity. As much as general relativity is possible when we drop the hypothesis of euclidian space-time, allowing the possibility of curved space-time, scale relativity is possible when we abandon the hypothesis of differentiability, allowing the possibility of a fractal space-time. The objective is then to describe a continuous space-time which is not everywhere differentiable, as it was in general relativity.
+
+Abandoning differentiability doesn't mean abandoning differential equations. The concept of fractal allows work with the nondifferentiable case with differential equations. In differential calculus, we can see the concept of limit as a zoom, but in this generalization of differential calculus, one doesn't look only at the limit zooms (zero and infinity) but also everything in between, that is, all possible zooms.
+
+In sum, we can drop the hypothesis of the differentiability of space-time, keeping differential equations, provided that fractal geometries are used. With them, we can still deal with the nondifferentiable case with the tools of differential equations. This leads to a double differential equation treatment: in space-time and in scale space.
+
+=Fractal space-time=
+If Einstein showed that space-time was curved, Nottale shows that it is not only curved, but also fractal. Nottale has proven a key theorem which shows that a space which is continuous and non-differentiable is necessarily fractal.sfn|Nottale|1993a|p=82 It means that such a space depends on scale.
+
+Importantly, the theory does not merely describe fractal objects in a given space. Instead, it is ''space itself which is fractal''. To understand what a fractal space means requires to study not just fractal curves, but also fractal surfaces, fractal volumes, etc.
+
+Mathematically, a fractal space-time is defined as a nondifferentiable generalization of Riemannian geometry.sfn|Nottale|1993a|p=84sfn|Nottale|1998a|p=188 Such a fractal space-time geometry is the natural choice to develop this new principle of relativity, in the same way that curved geometries were needed to develop Einstein's theory of general relativity.sfn|Sendra|2013a
+
+In the same way that general relativistic effects are not felt in a typical human life, the most radical effects of the fractality of spacetime appear only at the extreme limits of scales: micro scales or at cosmological scales. This approach therefore proposes to bridge not only the quantum and the classical, but also the classical and the cosmological, with fractal to non-fractal transitions (see Fig. 1). More plots of this transition can be seen in the literature.sfn|Nottale|1993a|p=304sfn|Nottale|1996a|p=915
+File:Variation of the fractal dimension of space-time geodesics according to the resolution in special scale relativity.png|thumb|Fig. 1. Variation of the fractal dimension of space-time geodesics (trajectories), according to the resolution, in the framework of special scale relativity. The scale symmetry is broken in two transitioning scales λ and Λ (non-absolute), which divide the scale space in three domains: (1) a classical domain, intermediary, where space-time doesn't depend on resolutions because the laws of movement dominate over scale laws; and two asymptotical domains towards (2) very small and (3) very large scales where scale laws dominate over the laws of movement, which makes explicit the fractal structure of space-time.
+
+=Minimum and maximum invariant scales=
+A fundamental and elegant result of scale relativity is to propose a minimum and maximum scale in physics, invariant under dilations, in a very similar way as the speed of light is an upper limit for speed.
+
+Minimum invariant scale
+In special relativity, there is an unreachable speed, the speed of light. We can add speeds without end, but they will always be less than the speed of light. The sums of all speeds are limited by the speed of light. Additionally, the composition of two velocities is inferior to the sum of those two speeds.
+
+In special scale relativity, similar unreachable observational scales are proposed, the Planck length scale (''l''<sub>P</sub>) and the Planck time scale (''t''<sub>P</sub>). Dilations are bounded by ''l''<sub>P</sub> and ''t''<sub>P</sub>, which means that we can divide spatial or temporal intervals without end, but they will always be superior to Planck's length and time scales. This is a result of special scale relativity (see #Special scale relativity|section 2.7 below). Similarly, the composition of two scale changes is inferior to the product of these two scales.sfn|Nottale|1998a|p=161
+
+Maximum invariant scale
+The choice of the maximum scale (noted L) is less easy to explain, but it mostly consists to identify it with the cosmological constant: L = 1/(Λ<sup>2</sup>).sfn|Nottale|1993a|p=299sfn|Nottale|1996asfn|Nottale|2003sfn|Nottale|2011|loc=sec.&nbsp;12.6 This is motivated in parts because a dimensional analysis shows that the cosmological constant is the inverse of the square of a length, i.e. a curvature.
+
+=Galilean scale relativity=
+The theory of scale relativity follows a similar construction as the one of the relativity of movement, which took place in three steps: galilean, special and general relativity.
+
+This is not surprising, as in both cases the goal is to find laws satisfying transformation laws including one parameter that is relative: the speed in the case of the relativity of movement; the resolution in the case of the relativity of scales.
+
+Galilean scale relativity involves linear map|linear transformations a constant fractal dimension, self-similarity and scale invariance. This situation is best illustrated with self-similar fractals. Here, the length of geodesics varies constantly with resolution. The fractal dimensions of free particles doesn't change with zooms. These are self-similar curves.
+
+In Galilean invariance|Galilean relativity, recall that the laws of motion are the same in all inertial frames. Galileo famously concluded that "the movement is like nothing".sfn|Galileo|1991 In the case of self-similar fractals, paraphrasing Galileo, one could say that "scaling is like nothing". Indeed, the same patterns occur at different scales, so scaling (geometry)|scaling is not noticeable, it is like nothing.
+
+In the relativity of movement, Galileo's theory is an additive Galilean transformation#Galilean group|Galilean group:
+: X' = X - VT
+: T' = T
+
+However, if we consider scale transformations (dilations and contractions), the laws are products, and not sums. This can be seen by the necessity to use units of measurements. Indeed, when we say that an object measures 10 meters, we actually mean the object measures 10 times the definite predetermined length called "meter". The number 10 is actually a scale ratio of two lengths 10/1m, where 10 is the measured quantity, and 1m is the arbitrary defining unit. This is the reason why the group is multiplicative.
+
+Moreover, an arbitrary scale ''e'' doesn't have any physical meaning in itself (like the number 10), only scale ratios r = e' / e have a meaning, in our example, r = 10 / 1. Using the Gell-Mann-Lévy method,sfn|Gell-Mann|Lévy|1960 we can use a more relevant scale variable, V = ln(e' / e), and then find back an additive group for scale transformations by taking the logarithm – which converts products into sums.
+
+When in addition to the principle of scale relativity, one adds the principle of relativity of movement, there is a transition of the structure of geodesics at large scales, where trajectories do not depend on the resolution anymore, where trajectories become classical. This explains the shift of behavior from quantum to classical.sfn|Nottale|1993asfn|Nottale|1996a See also Fig. 1.
+
+=Special scale relativity=
+Special scale relativity can be seen as a correction of galilean scale relativity, where Galilean transformations are replaced by Lorentz transformations.sfn|Nottale|1992sfn|Nottale|1993a The "corrections remain small at 'large' scale (i.e. around the Compton scale of particles) and increase when going to smaller length scales (i.e. large energies) in the same way as motion-relativistic corrections increase when going to large speeds".sfn|Nottale|2011|p=460
+
+In Galilean relativity, it was considered "obvious" that we could add speeds without limit (''w'' = ''u'' + ''v''). This composition laws for speed was not challenged. However, Poincaré and Einstein did challenge it with special relativity, setting a maximum speed on movement, the speed of light. Formally, if ''v'' is a velocity, ''v + c = c''. The status of the speed of light in special relativity is a horizon, unreachable, impassable, invariant under changes of movement.
+
+Regarding scale, we are still within a Galilean kind of thinking. Indeed, we assume without justification that the composition of two dilations is ''ρ * ρ = ρ<sup>2</sup>. ''Written with logarithms, this equality becomes ''lnρ + lnρ = 2lnρ. ''However, nothing guarantees that this law should hold at quantum or cosmic scales.sfn|Nottale|1998a|p=212 As a matter of fact, this dilation law is corrected in special scale relativity, and becomes: ln ''ρ'' + ln ''ρ'' = 2 ln ''ρ / ''(1 + ln ''ρ''<sup>2</sup>).
+
+More generally, in special relativity the composition law for velocities differs from the Galilean approximation and becomes (with the speed of light ''c'' = 1):
+: ''u'' ⊕ ''v'' = (''u'' + ''v'') / (1 + ''u * v'')
+
+Similarly, in special scale relativity, the composition law for dilations differs from our Galilean intuitions and becomes (in a logarithm of base K which includes a possible constant C = ln K, which plays the same role as ''c''):
+: log''ρ''1 ⊕'' ''log''ρ''2 ''= ''(log''ρ''1 ''+ ''log''ρ''2) ''/ ''(1 + log''ρ''1 * log''ρ''2)
+
+The status of the Planck scale in special scale relativity plays a similar role as the speed of light in special relativity. It is a horizon for small scales, unreachable, impassable, invariant under scale changes, i.e. dilations and contractions. The consequence for special scale relativity is that applying two times the same contraction ''ρ'' to an object, the result is a contraction less strong than contraction ''ρ ''x'' ρ''. Formally, if ''ρ'' is a contraction, ''ρ'' * ''l<sub>P</sub>'' = ''l<sub>P''</sub>.
+
+As noted above, there is also an unreachable, impassable maximum scale, invariant under scale changes, which is the cosmic length L.sfn|Nottale|1993a In particular, it is invariant under the expansion of the universe.
+
+=General scale relativity=
+In Galilean scale relativity, spacetime was fractal with ''constant'' fractal dimensions. In special scale relativity, fractal dimensions can vary. This varying fractal dimension remains however constrained by a log-Lorentz law. This means that the laws satisfy a logarithmic version of the Lorentz transformation. The varying fractal dimension is covariant, in a similar way as proper time is covariant in special relativity.
+
+In general scale relativity, the fractal dimension is not constrained anymore, and can take any value. In other words, it is the situation where there is ''curvature in scale space''. Einstein's curved space-time becomes a particular case of the more general fractal spacetime.
+
+General scale relativity is much more complicated, technical, and less developed than its Galilean and special versions. It involves non-linear laws, scale dynamics and gauge fields. In the case of non self-similarity, changing scales generates a new scale-force or scale-field which needs to be taken into account in a scale dynamics approach. Quantum mechanics then needs to be analyzed in scale space.sfn|Nottale|1997sfn|Nottale|2004b
+
+Finally, in general scale relativity, we need to take into account both movement ''and'' scale transformations, where scale variables depend on space-time coordinates. More details about the implications for abelian gauge fieldssfn|Nottale|1994|p=121sfn|Nottale|1996a and non-abelian gauge fieldssfn|Nottale|Célérier|Lehner|2006 can be found in the literature. Nottale's 2011 booksfn|Nottale|2011 provides the state of the art.
+
+To sum up, one can see some structural similarities between the relativity of movement and the relativity of scales in Table 1:
+{| border="1" class="wikitable plainrowheaders"
+! scope="col" | Relativity
+! scope="col" | Variables defining the coordinate system
+! scope="col" | Variables characterizing the state of the coordinate system
+|-
+! scope="row" | ''Movement''
+|Space<br/>Time
+|Speed<br/>Acceleration
+|-
+! scope="row" | ''Scale''
+|Length of a fractal<br/>Variable fractal dimension
+|Resolution<br/>Scale acceleration
+|}
+Table 1. Comparison between relativity of movement and relativity of scales. In both cases, there are two kinds of variables linked to the coordinate systems: variables which define the coordinate system, and variables that characterize the state of the coordinate system. In this analogy, the resolution can be assimilated to a speed; acceleration to a scale acceleration; space to the length of a fractal; and time, to the variable fractal dimension.sfn|Nottale|1992 Table adapted from this paper.sfn|Forriez|Martin|Nottale|2010
+
+Consequences for quantum mechanics
+
+=Introduction=
+The fractality of space-time implies an infinity of virtual geodesics. This remark already means that a fluid mechanics is needed. Note that this view is not new, as many authors have noticed fractal properties at quantum scales, thereby suggesting that typical quantum mechanical paths are fractal. See this article for a review.sfn|Kröger|1997 However, the idea to consider a fluid of geodesics in a fractal spacetime is an original proposal from Nottale.
+
+In scale relativity, quantum mechanical effects appear as effects of fractal structures on the movement. The fundamental quantum indeterminacy|indeterminism and quantum nonlocality|nonlocality of quantum mechanics are deduced from the fractal geometry itself.
+
+There is an analogy between the interpretation of gravitation in general relativity and quantum effects in scale relativity. Indeed, if gravitation is a manifestation of space-time curvature in general relativity, quantum effects are manifestations of a fractal space-time in scale relativity.
+
+To sum up, there are two aspects which allows scale relativity to better understand quantum mechanics. On the one side, fractal fluctuations themselves are hypothesized to lead to quantum effects. On the other side, non-differentiability leads to a local irreversibility of the dynamics and therefore to the use of complex numbers.
+
+Quantum mechanics thus receives not only a new interpretation, but a firm foundation in relativity principles.
+
+=Quantum-classical transition=
+As Philip Turner summarized:
+<blockquote>the structure of space has both a smooth (differentiable) component at the macro-scale and a chaotic, fractal (non-differentiable) component at the micro-scale, the transition taking place at the de Broglie length scale.sfn|Turner|2013
+</blockquote>
+
+This transition is explained with Galilean scale relativitysfn|Célérier|Nottale|2004 (see also above).
+
+=Derivation of quantum mechanics' postulates=
+Starting from scale relativity, it is possible to derive the fundamental "postulates" of quantum mechanics.sfn|Nottale|Célérier|2007 More specifically, building on the result of the key theorem showing that a space which is continuous and non-differentiable is necessarily fractal (#Fractal space-time|see section 2.4), Schrödinger equation|Schrödinger's equation, Born's and von Neumann's postulate are derived.
+
+To derive Schrödinger's equation, Nottalesfn|Nottale|1993a|loc=sec.&nbsp;5.6 started with Newton's laws of motion#Newton.27s second law|Newton's second law of motion, and used the result of the key theorem. Many subsequent works then confirmed the derivation.sfn|Dubois|2000sfn|Jumarie|2001sfn|Cresson|2003sfn|Ben Adda|Cresson|2004sfn|Ben Adda|Cresson|2005sfn|Jumarie|2006sfn|Jumarie|2007
+
+Actually, the Schrödinger equation derived becomes generalized in scale relativity, and opens the way to a macroscopic quantum mechanics (see below for validated empirical predictions in astrophysics). This may also help to better understand macroscopic quantum phenomena in the future.
+
+Reasoning about fractal geodesics and non-differentiability, it is also possible to derive Dirac–von Neumann axioms|von Neumann's postulatesfn|Nottale|2011|loc=sec.&nbsp;5.7.2 and Born's postulate.sfn|Nottale|2011|loc=sec.&nbsp;5.7.3
+
+With the hypothesis of a fractal space-time, the Klein–Gordon equation|Klein-Gordon, and the Dirac equation can then be derived.sfn|Célérier|Nottale|2003sfn|Célérier|Nottale|2010sfn|Nottale|Célérier|2007
+
+The significance of these fundamental results is immense, as the foundations of quantum mechanics which were up to now axiomatic, are now logically derived from more primary relativity theory principles and methods.
+
+=Gauge transformations=
+Gauge fields appear when scale and movements are combined. Scale relativity proposes a geometric theory of gauge fields. As Turner explains:
+<blockquote>The theory offers a new interpretation of gauge transformations and gauge fields (both Abelian and non-Abelian), which are manifestations of the fractality of space-time, in the same way that gravitation is derived from its curvature.sfn|Turner|2013
+</blockquote>
+
+The relationships between fractal space-time, gauge fields and quantum mechanics are technical and advanced subject-matters elaborated in details in Nottale's latest book.sfn|Nottale|2011
+
+Consequences for elementary particles physics
+
+=Introduction=
+Scale relativity gives a geometric interpretation to charges, which are now "defined as the conservative quantities that are built from the new scale symmetries".sfn|Nottale|2011|p=297 Relations between mass scales and coupling constants can be theoretically established, and some of them empirically validated. This is possible because in scale relativity, the problem of divergences in quantum field theory is resolved. Indeed, in the new framework, masses and charges become finite, even at infinite energy. In special scale relativity, the possible scale ratios become limited, constraining in a geometric way the elementary charge#Quantization|quantization of charges. Let us compare a few theoretical predictions with their experimental measures.
+
+=Fine-structure constant=
+Main|Fine-structure constant
+Nottale's latest theoretical prediction of the fine-structure constant at the Z<sub>0</sub> scale is:sfn|Nottale|2011|p=490
+: ''α''<sup>−1</sup>(''m''<sub>Z</sub>) = 128.92
+
+By comparison, a recent experimental measure gives:sfn|Yao|2006
+: ''α''<sup>−1</sup>(''m''<sub>Z</sub>) = 128.91 ± 0.02
+
+At low energy, the theoretical fine-structure constant prediction is:sfn|Nottale|2011|p=490
+: ''α''<sup>−1</sup> = 137.01 ± 0.035;
+
+which is within the range of the experimental precision:
+: ''α''<sup>−1</sup> = 137.036
+
+=SU (2) coupling at Z scale=
+Here the SU(2) coupling corresponds to rotations in a three-dimensional scale-space. The theoretical estimate of the special unitary group#n .3D 2|SU (2) coupling at Z scale is:sfn|Nottale|2011|p=499
+: ''α''<sup>−1</sup><sub>2 Z</sub> = 29.8169 ± 0.0002
+
+While the experimental value gives:sfn|Particle Data Group|2000
+: ''α''<sup>−1</sup><sub>2 Z</sub> = 29.802 ± 0.027.
+
+=Strong nuclear force at Z scale=
+Special scale relativity predicts the value of the strong nuclear force with great precision, as later experimental measurements confirmed. The first prediction of the strong nuclear force at the Z energy level was made in 1992:sfn|Nottale|1992
+: α<sub>S </sub>(''m''<sub>Z</sub>) = 0.1165 ± 0.0005
+
+A recent and refined theoretical estimate gives:sfn|Nottale|2010|pp=123–24
+: α<sub>S </sub>(''m''<sub>Z</sub>) = 0.1173 ± 0.0004,
+
+which fits very well with the experimental measure:sfn|Yao|2006
+: α<sub>S </sub>(''m''<sub>Z</sub>) = 0.1176 ± 0.0009
+
+=Mass of the electron=
+As an application from this new approach to gauge fields, a theoretical estimate of the mass of the electron (m<sub>e</sub>) is possible, from the experimental value of the fine-structure constant. This leads a very good agreement:sfn|Nottale|2011|p=483
+: m<sub>e</sub>(theoretical) = 1.007 m<sub>e</sub> (experimental)
+
+Astrophysical applications
+
+=Macroquantum mechanics=
+Some chaotic systems can be analyzed thanks to a macroquantum mechanics. The main tool here is the generalized Schrödinger equation, which brings statistical predictability characteristic of quantum mechanics into other scales in nature. The equation predicts probability density peaks. For example, the position of exoplanets can be predicted in a statistical manner. The theory predicts that planets have more chances to be found at such or such distance from their star. As Baryshev and Teerikorpisfn|Baryshev|Teerikorpi|2002|p=256 write:
+<blockquote>With his equation for the probability density of planetary orbits around a star, Nottale has seemingly come close to the old analogy which saw a similarity between our solar system and an atom in which electrons orbit the nucleus. But now the analogy is deeper and mathematically and physically supported: it comes from the suggestion that chaotic planetary orbits on very long time scales have preferred sizes, the roots of which go to fractal space-time and generalized Newtonian equation of motion which assumes the form of the quantum Schrödinger equation.
+</blockquote>
+
+However, as Nottale acknowledges, this general approach is not totally new:
+<blockquote>The suggestion to use the formalism of quantum mechanics for the treatment of macroscopic problems, in particular for understanding structures in the solar system, dates back to the beginnings of the quantum theory<!--full stop or ellipsis here?-->sfn|Nottale|2011|p=589
+</blockquote>
+
+=Gravitational systems=
+
+Space debris
+Main|Space debris
+At the scale of Earth's orbit, space debris probability peaks at 718&nbsp;km and 1475&nbsp;km have been predicted with scale relativity,sfn|Da Rocha|Nottale|2003|p=577 which is in agreement with observations at 850&nbsp;km and 1475&nbsp;km.sfn|Anz|2000 Da Rocha and Nottale suggest that the dynamical braking of the Earth's atmosphere may be responsible for the difference between the theoretical prediction and the observational data of the first peak.
+
+Solar system
+Scale relativity predicts a new law for interplanetary distances, proposing an alternative to the nowadays falsified Titius–Bode law|Titius-bode "law".sfn|Nottale|1993a|pp=311–21sfn|Nottale|Schumacher|Gay|1997 However, the predictions here are statistical and not deterministic as in Newtonian dynamics. In addition to being statistical, the scale relativistic law has a different theoretical form, and is more reliable than the original Titius-Bode version:
+<blockquote>The Titius-Bode "law" of planetary distance is of the form ''a + b × c <sup>n''</sup>, with ''a'' = 0.4 AU, ''b'' = 0.3 AU and ''c'' = 2 in its original version. It is partly inconsistent — Mercury corresponds to ''n'' = −∞, Venus to ''n'' = 0, the Earth to ''n'' = 1, etc. It therefore "predicts" an infinity of orbits between Mercury and Venus and fails for the main asteroid belt and beyond Saturn. It has been shown by harvtxt|Herrmann|1997 that its agreement with the observed distances is not statistically significant. ... <nowiki>[I]</nowiki>n the scale relativity framework, the predicted law of distance is not a Titius-Bode-like power law but a more constrained and statistically significant quadratic law of the form ''a<sub>n''</sub> = ''a''<sub>0</sub>''n''<sup>2</sup>.sfn|Nottale|2011|p=559
+</blockquote>
+
+Extrasolar systems
+Main|Exoplanet
+The method also applies to other extrasolar systems. Let us illustrate this with the first exoplanets found around the pulsar PSR B1257+12.sfn|Wolszczan|Frail|1992 Three planets, A, B and C have been found. Their orbital period ratios (noted P<sub>A</sub>/P<sub>C</sub> for the period ratio of planet A to C) can be estimated and compared to observations.sfn|Nottale|1998b Using the macroscopic Schrödinger equation, the recent theoretical estimates are:sfn|Nottale|2011|p=622
+: (P<sub>A</sub>/P<sub>C</sub>)<sup>1/3</sup> = 0.63593 (predicted)
+: (P<sub>B</sub>/P<sub>C</sub>)<sup>1/3</sup> = 0.8787 (predicted),
+
+which fit the observed valuessfn|Konacki|Wolszczan|2003|p=L149 with great precision:
+: (P<sub>A</sub>/P<sub>C</sub>)<sup>1/3</sup> = 0.63597 (observed)
+: (P<sub>B</sub>/P<sub>C</sub>)<sup>1/3</sup> = 0.8783 (observed).
+
+The puzzling fact that many exoplanets (e.g. hot Jupiters) are so close to their parent stars receives a natural explanation in this framework. Indeed, it corresponds to the fundamental orbital of the model, where (exo)planets are at 0.04 UA / solar mass of their parent star.sfn|Nottale|2011|loc=sec.&nbsp;13.5
+
+More validated predictions can be found regarding orbital periods and the distances of planets from their parent star.sfn|Nottale|1996bsfn|Nottale|1998csfn|Nottale|Schumacher|Lefevre|2000
+
+Galaxy pairs
+Daniel da Rocha studied the velocity of about 2000 galaxy pairs,sfn|Da Rocha|2004 which gave statistically significant results when compared to the theoretical structuration in phase space from scale relativity. The method and tools here are similar to the one used for explaining the structure in solar systems.
+
+Similar successful results apply at other extragalactic scales: the local group of galaxies, clusters of galaxies, the local supercluster and other very large scale structures.sfn|Nottale|2011|loc=sec.&nbsp;13.8
+
+=Dark matter=
+Main|Dark matter
+Scale relativity suggests that the fractality of matter contributes to the phenomenon of dark matter. Indeed, some of the dynamical and gravitational effects which seem to require unseen matter are suggested to be consequences of the fractality of space on very large scales.sfn|Nottale|2011|p=520
+
+In the same way as quantum physics differs from the classical at very small scales because of fractal effects, symmetrically, at very large scales, scale relativity also predicts that corrections from the fractality of space-time must be taken into account (see also Fig. 1full citation needed|date=May 2016|reason=where? Nottale 2011?).
+
+Such an interpretation is somehow similar in spirit to modified Newtonian dynamics (MOND), although here the approach is founded on relativity principles. Indeed, in MOND, Newtonian dynamics is modified in an ''ad hoc'' manner to account for the new effects, while in scale relativity, it is the new fractal geometric field taken into consideration which leads to the emergence of a dark potential.
+
+On the largest scale, scale relativity offers a new perspective on the issue of redshift quantization. With a reasoning similar to the one which allows to predict probability peaks for the velocity of planets, this can be generalized to larger intergalactic scales. Nottale writes:
+<blockquote>In the same way as there are well-established structures in the position space (stars, clusters of stars, galaxies, groups of galaxies, clusters of galaxies, large scale structures), the velocity probability peaks are simply the manifestation of structuration in the velocity space. In other words, as it is already well-known in classical mechanics, a full view of the structuring can be obtained in phase space.sfn|Nottale|2011|p=656
+</blockquote>
+
+Cosmological applications
+
+=Large numbers hypothesis=
+Main|Dirac large numbers hypothesis
+Nottale noticed that reasoning about scales was a promising road to explain the large numbers hypothesis.sfn|Nottale|1993a|p=303 This was elaborated in more details in a working paper.sfn|Nottale|1993b The scale-relativistic way to explain the large numbers hypothesis was later discussed by Nottalesfn|Nottale|1996asfn|Nottale|2011|pp=543–45 and by Sidharth.sfn|Sidharth|2001
+
+=Prediction of the cosmological constant=
+Main|Cosmological constant
+In scale relativity, the cosmological constant is interpreted as a curvature. If one does a dimensional analysis, it is indeed the inverse of the square of a length. The predicted value of the cosmological constant, back in 1993 was:sfn|Nottale|1993a|p=305
+: Ω<sub>Λ </sub>''h''<sup>2</sup> = 0.36
+
+Depending on model choices, the most recent predictions give the following range:sfn|Nottale|2012
+: 0.311 <nowiki><</nowiki> Ω<sub>Λ'' </sub>h''<sup>2</sup> (predicted) <nowiki><</nowiki> 0.356,
+
+while the measured cosmological constant from the Planck satellite is:
+: Ω<sub>Λ </sub>''h''<sup>2</sup> (measured) = 0.318 ±0.012.sfn|Planck Collaboration|2013
+
+Given the improvements of the empirical measures from 1993 until 2011, Nottale commented:
+<blockquote>The convergence of the observational values towards the theoretical estimate, despite an improvement of the precision by a factor of more than 20, is striking.sfn|Nottale|2011|p=554
+</blockquote>
+
+Dark energy can be considered as a measurement of the cosmological constant. In scale relativity, dark energy would come from a potential energy manifested by the fractal geometry of the universe at large scales,sfn|Nottale|2011|p=543 in the same way as the Newtonian potential is a manifestation of its curved geometry in general relativity.
+
+=Horizon problem=
+Main|Horizon problem
+Scale relativity offers a new perspective on the old horizon problem in cosmology. The problem states that different regions of the universe have not had contact with each other's because of the great distances between them, but nevertheless they have the same temperature and other physical properties. This should not be possible, given that the transfer of information (or energy, heat, etc.) can occur, at most, at the speed of light.
+
+Nottalesfn|Nottale|1993a|p=292 writes that special scale relativity "naturally solves the problem because of the new behaviour it implies for light cones. Though there is no inflation in the usual sense, since the scale factor time dependence is unchanged with respect to standard cosmology, there is an inflation of the light cone as t → Λ/c″, where Λ is the Planck length scale (ħG/c<sup>3</sup>)<sup>1/2</sup>. This inflation of the light cones makes them flare and cross themselves, thereby allowing a causal connection between any two points, and solving the horizon problem (see alsosfn|Nottale|2003).
+
+Applications to other fields
+Although scale relativity started as a spacetime theory, its methods and concepts can and have been used in other fields. For example, quantum-classical kinds of transitions can be at play at intermediate scales, provided that there exists a fractal medium which is locally nondifferentiable. Such a fractal medium then plays a role similar to that played by fractal spacetime for particles. Objects and particles embedded in such a medium will acquire macroquantum properties. As examples, we can mention gravitational structuring in astrophysics (see #Astrophysical applications|section 5), turbulence,sfn|Dubrulle|2000 superconductivity at laboratory scales (see #Superconductivity and macroquantum phenomena|section 7.1), and also modeling in geography #Geography|(section 7.4).
+
+What follows are ''not'' strict applications of scale relativity, but rather models constructed with the general idea of relativity of scales.sfn|Nottale|Chaline|Grou|2000sfn|Nottale|Célérier|Lehner|2002 Fractal models, and in particular self-similar fractal laws have been applied to describe numerous biological systems such as trees, blood networks, or plants. It is thus to be expected that the mathematical tools developed through a fractal space-time theory can have a wider variety of applications to describe fractal systems.
+
+=Superconductivity and macroquantum phenomena=
+Main|Macroscopic quantum phenomena
+The generalized Schrödinger equation, under certain conditions, can apply to macroscopic scales. This leads to the proposal that quantum-like phenomena need not to be only at quantum scales. In a recent paper, Turner and Nottalesfn|Turner|Nottale|2015 proposed new ways to explore the origins of macroscopic quantum coherence in high-temperature superconductivity.
+
+=Morphogenesis=
+If we assume that morphologies come from a growth process, we can model this growth as an infinite family of virtual, fractal, and locally irreversible trajectories. This allows to write a growth equation in a form which can be integrated into a Schrödinger-like equation.
+
+The structuring implied by such a generalized Schrödinger equation provides a new basis to study, with a purely energetic approach, the issues of formation, duplication, bifurcation and hierarchical organization of structures.sfn|Nottale|2007
+
+An inspiring example is the solution describing growth from a center, which bears similarities with the problem of particle scattering in quantum mechanics. Searching for some of the simplest solutions (with a central potential and a spherical symmetry), a solution leads to a flower shape, the common Platycodon|Platycodon flower (see Fig. 2). In honor to Erwin Schrödinger, Nottale, Chaline and Grou named their book "Flowers for Schrödinger" (Des fleurs pour Schrödingersfn|Nottale|Célérier|Lehner|2009).
+
+File:Schrödinger's flower.png|thumb|Fig. 2. Schrödinger's flower. Morphogenesis of a flower-like structure, solution of a growth process equation that takes the form of a Schrödinger equation under fractal conditions. For more details, see: Nottale 2007.
+
+=Biology=
+In a short paper,sfn|Cash|Chaline|Nottale|Grou|2002 researchers inspired by scale relativity proposed a log-periodic law for the development of the human embryo, which fits pretty well with the steps of the human embryo development.
+
+With scale-relativistic models, Nottale and Auffray did tackle the issue of multiple-scale integration in systems biology.sfn|Auffray|Nottale|2008sfn|Nottale|Auffray|2008
+
+Other studies suggest that many living systems processes, because embedded in a fractal medium, are expected to display wave-like and quantized structuration.sfn|Nottale|2013b
+
+=Geography=
+The mathematical tools of scale relativity have also been applied to geographical problems.sfn|Forriez|Martin|Nottale|2010sfn|Nottale|Martin|Forriez|2012
+
+=Singularity and evolutionary trees=
+In their review of approaches to technological singularity|technological singularities, Magee and Devezassfn|Magee|Devezas|2011|p=1370 included the work of Nottale, Chaline and Grou:sfn|Nottale|Chaline|Grou|2000
+<blockquote>Utilizing the fractal mathematics due to Mandlebrot (1983) these authors develop a model based upon a fractal tree of the time sequences of major evolutionary leaps at various scales (log-periodic law of acceleration – deceleration). The application of the model to the evolution of western civilization shows evidence of an acceleration in the succession (pattern) of economic crisis/non-crisis, which point to a next crisis in the period 2015–2020, with a critical point T<sub>c</sub> = 2080. The meaning of T<sub>c</sub> in this approach is the limit of the evolutionary capacity of the analyzed group and is biologically analogous with the end of a species and emergence of a new species.
+</blockquote>
+
+The interpretation of this emergence of a new species remains open to debate, whether it will take the form of the emergence of transhumans, cyborgs, superintelligence|superintelligent AI, or a global brain.
+
+Reception and critique
+
+=Scale relativity and other approaches=
+It may help to understand scale relativity by comparing it to various other approaches to unifying quantum and classical theories. There are two main roads to try to unify quantum mechanics and relativity: to start from quantum mechanics, or to start from relativity. Quantum gravity theories explore the former, scale relativity the latter. Quantum gravity theories try to make a quantum theory of spacetime, whereas scale relativity is a spacetime theory of quantum theory.
+
+String theory
+Main|String theory
+Although string theory and scale relativity start from different assumptions to tackle the issue of reconciling quantum mechanics and relativity theory, the two approaches need not to be opposed. Indeed, Castrosfn|Castro|1997|p=275 suggested to combine string theory with the principle of scale relativity:
+<blockquote>It was emphasized by Nottale in his book that a full motion plus scale relativity including all spacetime components, angles and rotations remains to be constructed. In particular the general theory of scale relativity. Our aim is to show that string theory provides an important step in that direction and vice versa: the scale relativity principle must be operating in string theory.
+</blockquote>
+
+Quantum gravity
+Main|Quantum gravity
+Scale relativity is based on a geometrical approach, and thereby recovers the quantum laws, instead of assuming them. This distinguishes it from other quantum gravity approaches. Nottale comments:
+<blockquote>The main difference is that these quantum gravity studies assume the quantum laws to be set as fundamental laws. In such a framework, the fractal geometry of space-time at the Planck scale is a consequence of the quantum nature of physical laws, so that the fractality and the quantum nature co-exist as two different things.
+In the scale relativity theory, there are not two things (in analogy with Einstein's general relativity theory in which gravitation is a manifestation of the curvature of space-time): the quantum laws are considered as manifestations of the fractality and nondifferentiability of space-time, so that they do not have to be added to the geometric description.sfn|Nottale|2011|p=458
+</blockquote>
+
+Loop quantum gravity
+Main|Loop quantum gravity
+They have in common to start from relativity theory and principles, and to fulfill the condition of background independence.
+
+El Naschie's E-Infinity theory
+Mohamed El Naschie|El Naschie has developed a similar, yet different fractal space-time theory, because he gives up differentiability ''and'' continuity. El Naschie thus uses a "Cantorian" space-time, and uses mostly number theory (see harvnb|Nottale|2011|p=7). This is to be contrasted with scale relativity, which keeps the hypothesis of continuity, and thus works preferentially with mathematical analysis and fractals.
+
+Causal dynamical triangulation
+Main|Causal dynamical triangulation
+Through computer simulations of causal dynamical triangulation theory, a fractal to nonfractal transition was found from quantum scales to larger scales.sfn|Loll|2008|p=114006 This result seems to be compatible with quantum-classical transition deduced in another way, from the theoretical framework of scale relativity.
+
+Noncommutative geometry
+Main|Noncommutative standard model|l1=Noncommutative geometry
+For both scale relativity and non-commutative geometries, particles are geometric properties of space-time. The intersection of both theories seems fruitful and still to be explored. In particular, Nottalesfn|Nottale|2011|p=277 further generalized this non-commutativity, saying that it "is now at the level of the fractal space-time itself, which therefore fundamentally comes under Connes's noncommutative geometry.sfn|Connes|1994sfn|Lapidus|2008 Moreover, this noncommutativity might be considered as a key for a future better understanding of the parity and CP violations, which will not be developed here."
+
+Doubly special relativity
+Main|Doubly special relativity
+Both theories have identified the Planck length as a fundamental minimum scale. However, as Nottale comments:
+<blockquote>the main difference between the "Doubly-Special-Relativity" approach and the scale relativity one is that we have identified the question of defining an invariant length-scale as coming under a relativity of scales. Therefore the new group to be constructed is a multiplicative group that becomes additive only when working with the logarithms of scale ratios, which are definitely the physically relevant scale variables, as we have shown by applying the Gell-Mann–Levy method to the construction of the dilation operator (see Sec. 4.2.1).sfn|Nottale|2011|p=459
+</blockquote>
+
+Nelson stochastic mechanics
+At first sight, scale relativity and Nelson's stochastic mechanics share features, such as the derivation of the Schrödinger equation.sfn|Nelson|1966
+Some authors point out problems of  Nelson's mechanics in multi-time correlations in repeated measurements.sfn|Wang|Liang|1993
+On the other hand, perceived problems could be resolved.sfn|Blanchard|Serva|1995
+By contrast, scale relativity is not founded on a stochastic approach. As Nottale writes:
+<blockquote>Here, the fractality of the space-time continuum is derived from its nondifferentiability, it is constrained by the principle of scale relativity and the Dirac equation is derived as an integral of the geodesic equation. This is therefore not a stochastic approach in its essence, even though stochastic variables must be introduced as a consequence of the new geometry, so it does not come under the contradictions encountered by stochastic mechanics.sfn|Nottale|2011|p=265</blockquote>
+
+Bohm's mechanics
+Bohm's mechanics is a De Broglie–Bohm theory#Hidden variables hidden variables|hidden variables theory, which is not the case of scale relativity. In this way, they are quite different. This point is explained by harvtxt|Nottale|2011|p=360: 
+ 
+<blockquote>In the scale relativity description, there is no longer any separation between a "microscopic" description and an emergent "macroscopic" description (at the level of the wave function), since both are accounted for in the double scale space and position space representation.sfn|Nottale|2011|p=360</blockquote>
+
+=Cognitive aspects=
+Special and general relativity theory are notoriously hard to understand for non-specialists. This is partly because our psychological and sociological use of the concepts of space and time are not the same as the one in physics. Yet, the relativity of scales is still harder to apprehend than other relativity theories. Indeed, humans can change their positions and velocities but have virtually no experience of shrinking or dilating themselves.
+
+Such transformations appear in fiction however, such as in ''Alice's Adventures in Wonderland'' or in the movie ''Honey, I Shrunk the Kids''.
+
+=Sociological analysis=
+Sociologists Bontems and Gingras did a detailed bibliometrical analysis of scale relativity and showed the difficulty for such a theory with a different theoretical starting point to compete with well-established paradigms such as string theory.sfn|Bontems|Gingras|2007
+
+Back in 2007, they considered the theory to be neither mainstream, that is, there are not many people working on it compared to other paradigms; but also neither controversial, as there is very little informed and academic discussion around the theory. The two sociologists thus qualified the theory as "marginal", in the sense that the theory is developed inside academics, but is not controversial.
+
+They also show that Nottale has a double career. First, a classical one, working on gravitational lensing, and a second one, about scale relativity. Nottale first secured his scientific reputation with important publications about gravitational lensing,sfn|Karoji|Nottale|1976sfn|Nottale|Vigier|1977 then obtained a stable academic position, giving him more freedom to explore the foundations of spacetime and quantum mechanics.
+
+A possible obstacle to the growth in popularity of scale relativity is that fractal geometries necessary to deal with special and general scale relativity are less well known and developed mathematically than the simple and well-known self-similar fractals. This technical difficulty may make the advanced concepts of the theory harder to learn. Physicists interested in scale relativity need to invest some time into understanding fractal geometries. The situation is similar to the need to learn non-euclidian geometries in order to work with Einstein's general relativity.sfn|Vidal|2010 Similarly, the generality and transdiciplinary nature of the theory also made Auffray and Noble comment:sfn|Auffray|Noble|2010|p=303 "The scale relativity theory and tools extend the scope of current domain-specific theories, which are naturally recovered, not replaced, in the new framework. This may explain why the community of physicists has been slow to recognize its potential and even to challenge it."
+
+Nottale's popular book,sfn|Nottale|1998a written in French, has been compared with Einstein's popular booksfn|Merker|1999|p=166 ''Relativity: The Special and the General Theory''. A future translation of this book from French into English might help the popularization of the theory.
+
+=Reactions=
+The reactions from scientists to scale relativity are generally positive. For example, Baryshev and Teerikorpi write:sfn|Baryshev|Teerikorpi|2002|p=255
+<blockquote>Though Nottale's theory is still developing and not yet a generally accepted part of physics, there are already many exciting views and predictions surfacing from the new formalism. It is concerned in particular with the frontier domains of modern physics, i.e. small length- and time-scales (microworld, elementary particles), large length-scales (cosmology), and long time-scales.
+</blockquote>
+
+Regarding the predictions of planetary spacings, Potter and Jargodzki commented:sfn|Potter|Jargodzki|2005|p=113
+<blockquote>In the 1990s, applying chaos theory to gravitationally bound systems, L. Nottale found that statistical fits indicate that the planet orbital distances, including that of Pluto, and the major satellites of the Jovian planets, follow a numerical scheme with their orbital radii proportional to the squares of integers n<sup>2</sup> extremely well!
+</blockquote>
+
+Auffray and Noble gave an overview:sfn|Auffray|Noble|2010|p=303
+<blockquote>Scale relativity has implications for every aspect of physics, from elementary particle physics to astrophysics and cosmology. It provides numerous examples of theoretical predictions of standard model parameters, a theoretical expectation for the Higgs boson mass which will be potentially assessed in the coming years by the Large Hadron Collider, and a prediction of the cosmological constant which remains within the range of increasingly refined observational data. Strikingly, many predictions in astrophysics have already been validated through observations such as the distribution of exoplanets or the formation of extragalactic structures.
+</blockquote>
+
+Although many applications have led to validated predictions (see above), Patrick Peter criticized a provisionally estimated value of the Higgs boson in harvtxt|Nottale|2011page needed|date=May 2016:
+<blockquote>a prediction for the Higgs boson that should have been observed at mH ≃113.7GeV...it would appear, according to the book itself, that the theory it describes would be already ruled out by LHC data!sfn|Peter|2013
+</blockquote>
+
+However, this prediction was initially made at a time when the Higgs boson mass was totally unknown.sfn|Nottale|2001 Additionally, the prediction does not rely on scale relativity itself, but on a new suggested form of the electroweak interaction|electroweak theory. The final LHC result is mH = 125.6 ± 0.3 GeV,sfn|Beringer|x|y|z|2013|p=33 and lies therefore at about 110% of this early estimate.
+
+Particle physicist and skeptic Victor J. Stenger|Victor Stenger also noticed that the theory "predicts a nonzero value of the cosmological constant in the right ballpark".sfn|Stenger|2011|p=100 He also acknowledged that the theory "makes a number of other remarkable predictions".
+
+See also
+* Fractal cosmology
+* General relativity
+* Special relativity
+* Galilean invariance
+* Multifractal system
+
+References
+reflist |20em
+
+Citations
+refbegin
+* cite journal |last1=Abbott |first1=Laurence F. |last2=Wise |first2=Mark B. |date=1981 |title=Dimension of a Quantum-Mechanical Path |url=http://www.columbia.edu/cu/neurotheory/Larry/AbbottAmJPhys81.pdf |format=PDF |journal=American Journal of Physics |volume=49 |issue=1 |pages=37–39 |doi=10.1119/1.12657 |bibcode=1981AmJPh..49...37A |ref=harv
+* cite journal |last1=Allen |first1=A. D. |date=1983 |title=Fractals and Quantum Mechanics |journal=Speculations in Science and Technology |issn=0155-7785 |volume=6 |issue=2 |pages=165–70 |ref=harv
+* cite journal |last=Anz |first=Meador P. |date=2000 |title=A Decade of Growth |journal=The Orbital Debris Quarterly News |volume=5 |issue=4 |pages=1–2 |url=http://orbitaldebris.jsc.nasa.gov/newsletter/pdfs/ODQNv5i4.pdf |ref=harv
+* cite journal |last1=Auffray |first1=C. |last2=Noble |first2=D. |date=2010 |title=Scale Relativity: an Extended Paradigm for Physics and Biology? |arxiv=0912.5508|journal=Foundations of Science |volume=16 |issue=4 |pages=303–5 |doi=10.1007/s10699-010-9203-x |ref=harv
+* cite journal |last1=Auffray |first1=C. |last2=Nottale |first2=L. |date=2008 |author-mask=3 |title=Scale relativity theory and integrative systems biology: 1: Founding principles and scale laws |journal=Progress in Biophysics and Molecular Biology |volume=97 |issue=1 |pages=79–114 |url=http://luth2.obspm.fr/~luthier/nottale/arPBMB08AN.pdf |format=PDF |doi=10.1016/j.pbiomolbio.2007.09.002 |pmid=17991512 |ref=harv
+* cite book |last1=Baryshev |first1=Yurij |last2=Teerikorpi |first2=Pekka |date=2002 |title=Discovery of Cosmic Fractals |location=River Edge, NJ |publisher=World Scientific |isbn= |ref=harv
+* cite journal |last1=Ben Adda |first1=Fayçal |last2=Cresson |first2=Jacky |date=2004 |title=Quantum Derivatives and the Schrödinger Equation |journal=Chaos, Solitons & Fractals |volume=19 |issue=5 |pages=1323–34 |doi=10.1016/S0960-0779(03)00339-4 |bibcode=2004CSF....19.1323B |ref=harv
+* cite journal |last1=Ben Adda |first1=Fayçal |last2=Cresson |first2=Jacky |date=2005 |author-mask=3 |title=Fractional differential equations and the Schrödinger equation |journal=Applied Mathematics and Computation |volume=161 |issue=1 |pages=323–45 |doi=10.1016/j.amc.2003.12.031 |ref=harv
+* cite book |author-mask=Beringer J.; et al. (Particle Physics Group) |last=Beringer |first=J. |date=2013<!--(2012) and 2013 update for the 2014 edition--> |title=Status of Higgs Boson Physics |work=PR |volume=D86 |at=010001 |url=http://pdg.lbl.gov/2013/reviews/rpp2013-rev-higgs-boson.pdf |ref=harvid|Beringer|x|y|z|2013
+* cite journal |last1=Blanchard |first1=Philippe |last2=Serva |first2=Maurizio |date=1995 |title=Reply to 'Comment on "Repeated measurements in stochastic mechanics"-' |journal=Phys. Rev. D |volume=51 |issue=6 |page=3132 |ref=harv|bibcode=1995PhRvD..51.3132B |doi=10.1103/PhysRevD.51.3132 
+* cite journal |last1=Bontems |first1=Vincent |last2=Gingras |first2=Yves |date=2007 |title=De la science normale à la science marginale. Analyse d'une bifurcation de trajectoire scientifique: le cas de la Théorie de la Relativité d'Echelle |language=fr |journal=Social Science Information |volume=46 |issue=4 |pages=607–53 |doi=10.1177/0539018407082595 |ref=harv|url=http://www.archipel.uqam.ca/481/1/gingras_bontems_SSI.pdf
+* cite journal |last1=Campesino-Romeo |first1=E. |last2=D'Olivo |first2=J. C. |last3=Socolovsky |first3=M. |date=1982 |title=Hausdorff Dimension for the Quantum Harmonic Oscillator |journal=Physics Letters A |volume=89 |issue=7 |pages=321–24 |doi=10.1016/0375-9601(82)90182-7 |bibcode=1982PhLA...89..321C |ref=harv
+* cite journal |last1=Cash |first1=R. |last2=Chaline |first2=J. |last3=Nottale |first3=L. |last4=Grou |first4=P. |date=2002 |title=Développement Humain et Loi Log-Périodique |url=http://luth2.obspm.fr/~luthier/nottale/arcash.pdf |format=PDF |journal=Comptes Rendus Biologies |volume=325 |issue=5 |pages=585–90 |doi=10.1016/S1631-0691(02)01468-3 |pmid=12187644 |ref=harv
+* cite journal |last1=Castro |first1=Carlos |date=1997 |title=String Theory, Scale Relativity and the Generalized Uncertainty Principle |journal=Foundations of Physics Letters |volume=10 |issue=3 |pages=273–93 |doi=10.1007/BF02764209 |bibcode=1997FoPhL..10..273C |ref=harv|arxiv=hep-th/9512044 |citeseerx=10.1.1.52.3013 
+* cite journal |last1=Célérier |first1=Marie-Noëlle |last2=Nottale |first2=Laurent |year=2003 |title=A Scale-Relativistic Derivation of the Dirac Equation |arxiv=hep-th/0210027|journal=Electromagnetic Phenomena |volume=3 |pages=70–80 |ref=harv|bibcode=2002hep.th...10027C 
+* cite journal |last1=Célérier |first1=Marie-Noëlle |last2=Nottale |first2=Laurent |year=2004 |author-mask=3 |title=Quantum–classical transition in Scale Relativity |journal=Journal of Physics A: Mathematical and General |volume=37 |issue=3 |pages=931–955 |doi=10.1088/0305-4470/37/3/026 |arxiv=quant-ph/0609161 |bibcode=2004JPhA...37..931C |ref=harv
+* cite journal |last1=Célérier |first1=Marie-Noëlle |last2=Nottale |first2=Laurent |year=2010 |author-mask=3 |title=Electromagnetic Klein–Gordon and Dirac Equations in Scale Relativity |journal=International Journal of Modern Physics A |volume=25 |issue=22 |pages=4239–53 |doi=10.1142/S0217751X10050615 |arxiv=1009.2934 |bibcode=2010IJMPA..25.4239C |ref=harv
+* cite book |last=Connes |first=Alain |date=1994 |title=Noncommutative Geometry |location=San Diego |publisher=Academic Press |isbn= |ref=harv
+* cite journal |last1=Cresson |first1=Jacky |date=2003 |title=Scale Calculus and the Schrödinger Equation |journal=Journal of Mathematical Physics |volume=44 |issue=11 |pages=4907–38 |doi=10.1063/1.1618923 |bibcode=2003JMP....44.4907C |ref=harv|arxiv=math/0211071 
+* cite journal |last1=Da Rocha |first1=D. |last2=Nottale |first2=L. |date=2003 |title=Gravitational structure formation in scale relativity |arxiv=astro-ph/0310036|journal=Chaos, Solitons & Fractals |volume=16 |issue=4 |pages=565–95 |doi=10.1016/S0960-0779(02)00223-0 |bibcode=2003CSF....16..565D |ref=harv|citeseerx=10.1.1.407.2262 
+* cite thesis |last=Da Rocha |first=D. |date=2004 |title=Structuration gravitationnelle en Relativité d'échelle |type=Ph.D. |language=fr |publisher=Observatoire de Paris |id=tel-00010204 |url=https://tel.archives-ouvertes.fr/tel-00010204/document |ref=harv
+* Cite book|last=Dubois |first=Daniel M. |date=2000 |work=Computing Anticipatory Systems: CASYS'99&nbsp;– Third International Conference, Liège 1999 |volume=517 |pages=417–429 |series=AIP Conference Proceedings |doi= 10.1063/1.1291279 |ref=harv|chapter=Computational derivation of quantum relativist electromagnetic systems with forward-backward space-time shifts |title=AIP Conference Proceedings 
+* cite journal |last1=Dubrulle |first1=B. |date=2000 |title=Finite Size Scale Invariance |journal=The European Physical Journal B |volume=14 |issue=4 |pages=757–71 |doi=10.1007/s100510051087 |bibcode=2000EPJB...14..757D |ref=harv|url=https://zenodo.org/record/1232771/files/article.pdf 
+* cite encyclopedia |last1=Feynman |first1=Richard P. |last2=Hibbs |first2=Albert R. |date=1965 |title=Quantum Mechanics and Path Integrals |series=International Series in Pure and Applied Physics |location=New York |publisher=McGraw-Hill |isbn= |ref=harv
+* cite journal |last1=Forriez |first1=M. |last2=Martin |first2=P. |last3=Nottale |first3=L. |date=2010 |title=Lois d'échelle et transitions fractal-non fractal en géographie |journal=L'Espace Géographique |language=fr |volume=39 |issue=2 |pages=97–112 |url=http://www.cairn.info/resume.php?ID_ARTICLE=EG_392_0097 |ref=harv
+* cite book |author=Galileo Galilei |date=1991 |others=Translated by Henry Crew and Alfonso de Salvio |title=Dialogues Concerning Two New Sciences |series=Great Minds |location=Buffalo, NY |publisher=Prometheus |isbn=978-0-87975-707-6 |ref=harvid|Galileo|1991
+* cite journal |last1=Gell-Mann |first1=M. |last2=Lévy |first2=M. |date=1960 |title=The Axial Vector Current in Beta Decay |journal=Il Nuovo Cimento |volume=16 |issue=4 |pages=705–26 |doi=10.1007/BF02859738 |ref=harv|bibcode=1960NCim...16..705G 
+* cite journal |author-mask=Particle Data Group: Groom, D. E.; |last1=Groom |first1=D. E. |first2=M. |last2=Aguillar-Benitez |first3=C. |last3=Amsler |display-authors=etal |date=2000 |title=Review of particle physics |journal=European Physical Journal C |volume=15 |issue=1–4 |pages=1–878 |url=http://inis.iaea.org/Search/search.aspx?orig_q=RN:31041263 |ref=harvid|Particle Data Group|2000
+* cite thesis |last=Herrmann |first=Felix Johan |date=1997 |title=A Scaling Medium Representation: A Discussion on Well-Logs, Fractals and Waves |type=Ph.D. |publisher=TU Delft |id=TR diss 2884 |url=http://repository.tudelft.nl/assets/uuid:5423a23f-814e-4260-ba9b-f60e16cd2f14/as_herrmann_1997.pdf |ref=harv
+* cite journal |last1=Jumarie |first1=G. |date=2001 |title=Schrödinger Equation for Quantum Fractal Space–Time of Order n via the Complex-Valued Fractional Brownian Motion |journal=International Journal of Modern Physics A |volume=16 |issue=31 |pages=5061–84 |doi=10.1142/S0217751X01005468 |bibcode=2001IJMPA..16.5061J |ref=harv
+* cite journal |last1=Jumarie |first1=G. |date=2006 |author-mask=3 |title=Modified Riemann-Liouville derivative and fractional Taylor series of nondifferentiable functions further results |journal=Computers & Mathematics with Applications |volume=51 |issue=9–10 |pages=1367–76 |doi=10.1016/j.camwa.2006.02.001 |ref=harv
+* cite journal |last1=Jumarie |first1=G. |date=2007 |author-mask=3 |title=The Minkowski's space–time is consistent with differential geometry of fractional order |journal=Physics Letters A |volume=363 |issue=1–2 |pages=5–11 |doi=10.1016/j.physleta.2006.10.085 |bibcode=2007PhLA..363....5J |ref=harv
+* cite journal |last1=Karoji |first1=H. |last2=Nottale |first2=L. |date=1976 |title=Possible implications of the Rubin-Ford effect |journal=Nature |volume=259 |issue=5538 |pages=31–33 |doi=10.1038/259031a0 |bibcode=1976Natur.259...31K |ref=harv
+* cite journal |last1=Konacki |first1=Maciej |last2=Wolszczan |first2=Alex |date=2003 |title=Masses and Orbital Inclinations of Planets in the PSR B1257+12 System |journal=The Astrophysical Journal Letters |volume=591 |issue=2 |pages=L147–150 |doi=10.1086/377093 |bibcode=2003ApJ...591L.147K |ref=harv|arxiv=astro-ph/0305536 
+* cite journal |last1=Kröger |first1=H. |date=1997 |title=Proposal for an experiment to measure the Hausdorff dimension of quantum-mechanical trajectories |journal=Physical Review A |volume=55 |issue=2 |pages=951–66 |doi=10.1103/PhysRevA.55.951 |bibcode=1997PhRvA..55..951K |ref=harv|arxiv=quant-ph/9702013 
+* cite book |last=Lapidus |first=Michel L. |date=2008 |title=In Search of the Riemann Zeros: Strings, Fractal Membranes and Noncommutative Spacetimes |location=Providence, R.I |publisher=American Mathematical Society |isbn= |ref=harv
+* cite journal |last1=Loll |first1=R. |year=2008 |title=The Emergence of Spacetime or Quantum Gravity on Your Desktop |arxiv=0711.0273|journal=Classical and Quantum Gravity |volume=25 |issue=11 |page=114006 |doi=10.1088/0264-9381/25/11/114006 |bibcode=2008CQGra..25k4006L |ref=harv
+* cite journal |last1=Magee |first1=Christopher L. |last2=Devezas |first2=Tessaleno C. |date=2011 |title=How many singularities are near and how will they disrupt human history? |journal=Technological Forecasting and Social Change |volume=78 |issue=8 |pages=1365–78 |url=http://web.mit.edu/cmagee/www/documents/29-singularitysdarticle.pdf |doi=10.1016/j.techfore.2011.07.013 |ref=harv
+* cite book |last=Mandelbrot |first=Benoit B. |date=1983 |title=The Fractal Geometry of Nature |publisher=Macmillan |isbn= |ref=harv
+* cite journal |last1=Merker |first1=Joël |date=1999 |title=Deux infinis cousus main |journal=Revue de Synthèse |volume=120 |issue=1 |pages=165–74 |doi=10.1007/BF03182083 |ref=harv
+* cite news |last=Müller |first=Xavier |date=2005 |title=La Relativité d'Echelle&nbsp;- Et si le monde n'était qu'un océan fractal? |language=fr |work=Science et Vie |volume=1051 |pages=70–73 |ref=harv
+* cite journal |last=Nelson |first=Edward |date=1966 |title=Derivation of the Schrödinger Equation from Newtonian Mechanics |journal=Physical Review |volume=150 |issue=4 |pages=1079–1085 |doi=10.1103/PhysRev.150.1079 |ref=harv|bibcode=1966PhRv..150.1079N 
+* cite journal |last1=Nottale |first1=L. |date=1989 |title=Fractals and the Quantum Theory of Spacetime |journal=International Journal of Modern Physics A |volume=04 |issue=19 |pages=5047–5117 |doi=10.1142/S0217751X89002156 |bibcode=1989IJMPA...4.5047N |ref=harv
+* cite journal |last1=Nottale |first1=L. |date=1992 |author-mask=3 |title=The Theory of Scale Relativity |journal=International Journal of Modern Physics A |volume=7 |issue=20 |pages=4899–4936 |doi=10.1142/S0217751X92002222 |url=http://luth.obspm.fr/~luthier/nottale/arIJMP2.pdf |bibcode=1992IJMPA...7.4899N |ref=harv|citeseerx=10.1.1.407.2534 
+* cite book |last1=Nottale |first1=L. |date=1993a |author-mask=3 |title=Fractal Space-Time and Microphysics: Towards a Theory of Scale Relativity |publisher=World Scientific |isbn=978-981-02-0878-3 |url=http://luth2.obspm.fr/~luthier/nottale/LIWOS7-1cor.pdf |ref=harv
+* cite web |last1=Nottale |first1=L. |date=1993b |author-mask=3 |title= Mach's principle, Dirac's large numbers and the cosmological constant problem |publisher=Nottale, working paper |url=http://luth2.obspm.fr/~luthier/nottale/arlambda.pdf |ref=harv
+* cite conference |last1=Nottale |first1=L. |date=1994 |author-mask=3 |title=Scale Relativity: First Steps Toward a Field Theory |conference=Spanish Relativity Meeting, Salas, 1993 |editor1-last=Alonso Diaz |editor1-first=J. |editor2-last=Lorente Paramo |editor2-first=M. |book-title=Relativity in General |volume=1 |pages=121–122 |location=Gif-sur-Yvette |publisher=Editions Frontières |isbn=978-2-86332-168-3 |url=http://luth2.obspm.fr/~luthier/nottale/arSalas.pdf |ref=harv
+* cite journal |last1=Nottale |first1=L. |date=1996a |author-mask=3 |title=Scale Relativity and Fractal Space-Time: Applications to Quantum Physics, Cosmology and Chaotic Systems |journal=Chaos, Solitons & Fractals |volume=7 |issue=6 |pages=877–938 |doi=10.1016/0960-0779(96)00002-1 |url=http://luth2.obspm.fr/~luthier/nottale/arRevFST.pdf |ref=harv|bibcode=1996CSF.....7..877N 
+* cite journal |last1=Nottale |first1=L. |date=1996b |author-mask=3 |title=Scale-relativity and quantization of extra-solar planetary systems |journal=Astronomy and Astrophysics |volume=315 |pages=L9–12 |url=http://luth2.obspm.fr/~luthier/nottale/arA&A315.pdf |ref=harv|bibcode=1996A&A...315L...9N 
+* cite encyclopedia |last1=Nottale |first1=L. |date=1997 |author-mask=3 |title=Scale Relativity |editor1-last=Dubrulle |editor1-first=B. |editor2-last=Graner |editor2-first=F. |editor3-last=Sornette |editor3-first=D. |work=Scale Invariance and Beyond |location=Berlin, Heidelberg |publisher=Springer |isbn= 978-3-540-64000-4 |url=http://luth2.obspm.fr/~luthier/nottale/arhouche.pdf |ref=harv
+* cite book |last1=Nottale |first1=L. |date=1998a |author-mask=3 |title=La relativité dans tous ses états : au-delà de l'espace-temps |language=fr |publisher=Hachette |isbn=978-2-01-235278-0 |ref=harv
+* cite journal |last1=Nottale |first1=L. |date=1998b |author-mask=3 |title=Scale relativity and quantization of the planetary system around the pulsar PSR B1257 + 12 |journal=Chaos, Solitons & Fractals |volume=9 |issue=7 |pages=1043–50 |doi=10.1016/S0960-0779(97)00079-9 |url=http://luth2.obspm.fr/~luthier/nottale/arPSR.pdf |ref=harv|bibcode=1998CSF.....9.1043N |citeseerx=10.1.1.407.3441 
+* cite journal |last1=Nottale |first1=L. |date=1998c |author-mask=3 |title=Scale relativity and quantization of planet obliquities |journal=Chaos, Solitons & Fractals |volume=9 |issue=7 |pages=1035–41 |doi=10.1016/S0960-0779(97)00078-7 |url=http://luth2.obspm.fr/~luthier/nottale/arobliq.pdf |ref=harv|bibcode=1998CSF.....9.1035N |citeseerx=10.1.1.407.2273 
+* cite book |last=Nottale |first=Laurent |date=1998d |author-mask=3 |title=L'Univers et la Lumière. Cosmologie Classique Et Mirages Gravitationnels |language=fr |publisher=Flammarion |isbn=978-2-08-081383-1 |ref=harv
+* cite encyclopedia |last1=Nottale |first1=L. |date=2001 |author-mask=3 |title=Scale relativity and non-differentiable fractal space-time |editor1-last=Sidharth |editor1-first=B. G. |editor2-last=Altaisky |editor2-first=M. V. |work=Frontiers of Fundamental Physics |volume=4 |pages=65–79 |publisher=Springer |url=http://luth.obspm.fr/%7Eluthier/nottale/arBirla00.pdf |ref=harv
+* cite journal |last1=Nottale |first1=L. |date=2003 |author-mask=3 |title=Scale-Relativistic Cosmology |journal=Chaos, Solitons and Fractals |volume=16 |issue=4 |pages=539–64 |url=http://luth2.obspm.fr/~luthier/nottale/arScRCosmo.pdf |doi=10.1016/s0960-0779(02)00222-9 |bibcode=2003CSF....16..539N |ref=harv|citeseerx=10.1.1.407.2647 
+* cite AV media |people=Nottale, L. (Director) |date=2004a |title=Relativité d'échelle et structuration de l'univers |url=https://www.youtube.com/watch?v=JwaKLTitwtc |accessdate=2015-04-12 |ref=harvid|Nottale|2004a<!--duration, 1:34:26-->
+* Cite book|last1=Nottale |first1=L. |title=AIP Conference Proceedings |date=2004b |author-mask=3 |work=Computing Anticipatory Systems: CASYS'03&nbsp;– Sixth International Conference, Liège 1993 |series=AIP Conference Proceedings |volume=718 |pages=68–95 |doi=10.1063/1.1787313 |url=http://luth2.obspm.fr/~luthier/nottale/arcasys03.pdf |ref=harv|chapter=The Theory of Scale Relativity: Non-Differentiable Geometry and Fractal Space-Time 
+* cite journal |last1=Nottale |first1=L. |date=2007 |author-mask=3 |title=Scale Relativity: A Fractal Matrix for Organization in Nature |journal=Electronic Journal of Theoretical Physics |volume=4 |issue=16 |pages=187–274 |url=http://www.luth.obspm.fr/%7Eluthier/nottale/arEJTP.pdf |ref=harv
+* cite journal |last1=Nottale |first1=L. |date=2010 |author-mask=3 |title=Scale Relativity and Fractal Space-Time: Theory and Applications |journal=Foundations of Science |volume=15 |issue=2 |pages=101–52 |doi=10.1007/s10699-010-9170-2 |arxiv=0912.5508 |ref=harv
+* cite book |last1=Nottale |first1=L. |date=2011 |author-mask=3 |title=Scale Relativity and Fractal Space-Time: A New Approach to Unifying Relativity and Quantum Mechanics |publisher=World Scientific Publishing |isbn= |ref=harv
+* cite encyclopedia |last1=Nottale |first1=L. |date=2012 |author-mask=3 |title=Nature et valeur de la constante cosmologique |editor1-last=Nottale |editor1-first=L. |editor2-last=Martin |editor2-first=P. |work=Premières Rencontres d’Avignon (2007-2009) autour de la Relativité d’Échelle |language=fr |pages=31–39 |publisher=Actes d'Avignon |isbn=978-2-910545-07-9 |url=http://luth.obspm.fr/%7Eluthier/nottale/arAvLambda.pdf |ref=harv
+* cite journal |last1=Nottale |first1=L. |date=2013b |author-mask=3 |title=Macroscopic Quantum-Type Potentials in Theoretical Systems Biology |journal=Cells |volume=3 |issue=1 |pages=1–35 |doi=10.3390/cells3010001 |pmid=24709901 |pmc=3980741 |ref=harv
+* cite journal |last1=Nottale |first1=L. |last2=Auffray |first2=C. |date=2008 |title=Scale relativity theory and integrative systems biology: 2 Macroscopic quantum-type mechanics |url=http://luth2.obspm.fr/~luthier/nottale/arPBMB08NA.pdf |format=PDF |journal=Progress in Biophysics and Molecular Biology |volume=97 |issue=1 |pages=115–57 |doi=10.1016/j.pbiomolbio.2007.09.001 |pmid=17991513 |ref=harv
+* cite journal |last1=Nottale |first1=L. |last2=Célérier |first2=M. N. |year=2007 |author-mask=3 |title=Derivation of the Postulates of Quantum Mechanics from the First Principles of Scale Relativity |arxiv=0711.2418|journal=Journal of Physics A: Mathematical and Theoretical |volume=40 |issue=48 |pages=14471–98 |doi=10.1088/1751-8113/40/48/012 |bibcode=2007JPhA...4014471N |ref=harv
+* cite encyclopedia |last1=Nottale |first1=L. |last2=Célérier |first2=M.N. |last3=Lehner |first3=T. |date=2002 |author-mask=3 |title=On the Fractal Structure of Evolutionary Trees |editor1-last=Losa |editor1-first=Gabriele A. |editor2-last=Nonnenmacher |editor2-first=Theo F. |editor3-last=Merlini |editor3-first=Danilo |editor4-last=Weibel |editor4-first=Ewald R. |work=Fractals in Biology and Medicine |pages=247–58 |publisher=Birkhäuser |url=http://luth2.obspm.fr/%7Eluthier/nottale/arbiomed.pdf |ref=harv
+* cite journal |last1=Nottale |first1=L. |last2=Célérier |first2=M.N. |last3=Lehner |first3=T. |year=2006 |author-mask=3 |title=Non-Abelian gauge field theory in scale relativity |journal=Journal of Mathematical Physics |volume=47 |issue=3 |page=032303 |doi=10.1063/1.2176915 |arxiv=hep-th/0605280 |ref=harv|bibcode=2006JMP....47c2303N |citeseerx=10.1.1.329.7415 
+* cite book |last1=Nottale |first1=L. |last2=Célérier |first2=M.N. |last3=Lehner |first3=T. |date=2009 |author-mask=3 |title=Des fleurs pour Schrödinger : La relativité d'échelle et ses applications |language=fr |publisher=Ellipses |isbn=978-2-7298-5182-8 |ref=harv
+* cite book |last1=Nottale |first=L. |last2=Chaline |first2=J. |last3=Grou |first3=P. |date=2000 |author-mask=3 |title=Les Arbres de L'évolution: Univers, Vie, Sociétés |publisher=Hachette littératures |isbn= |ref=harv
+* cite encyclopedia |last1=Nottale |first1=L. |last2=Martin |first2=P. |last3=Forriez |first3=M. |date=2012 |author-mask=3 |title=Analyse en relativité d'échelle du bassin versant du Gardon (Gard, France) |editor1-last=Nottale |editor1-first=L. |editor2-last=Martin |editor2-first=P. |work=Premières Rencontres d'Avignon (2007-2009) autour de La Relativité d'Echelle |language=fr |pages=267–95 |publisher=Actes d'Avignon |isbn=978-2-910545-07-9 |url=http://luth.obspm.fr/%7Eluthier/nottale/arAvGardon.pdf |ref=harv
+* cite journal |last1=Nottale |first1=L. |last2=Schneider |first2=J. |date=1984 |author-mask=3 |title=Fractals and Nonstandard Analysis |url=http://luth2.obspm.fr/~luthier/nottale/arFNSAtex.pdf |format=PDF |journal=Journal of Mathematical Physics |volume=25 |issue=5 |pages=1296–1300 |doi=10.1063/1.526285 |bibcode=1984JMP....25.1296N |ref=harv
+* cite journal |last1=Nottale |first1=L. |last2=Schumacher |first2=G. |last3=Gay |first3=J. |date=1997 |author-mask=3 |title=Scale Relativity and Quantization of the Solar System |url=http://luth2.obspm.fr/~luthier/nottale/arA&A322.pdf |format=PDF |journal=Astronomy and Astrophysics |volume=322 |pages=1018–25 |ref=harv|bibcode=1997A&A...322.1018N 
+* cite journal |last1=Nottale |first1=L. |last2=Schumacher |first2=G. |last3=Lefevre |first3=E. T. |date=2000 |author-mask=3 |title=Scale-Relativity and Quantization of Exoplanet Orbital Semi-Major Axes |url=http://luth2.obspm.fr/~luthier/nottale/arA&A361.pdf |format=PDF |journal=Astronomy and Astrophysics |volume=361 |pages=379–87 |ref=harv|bibcode=2000A&A...361..379N 
+* cite journal |last1=Nottale |first1=L. |last2=Vigier |first2=J. P. |date=1977 |author-mask=3 |title=Continuous increase of Hubble modulus behind clusters of galaxies |journal=Nature |volume=268 |issue=5621 |pages=608–10 |doi=10.1038/268608a0 |bibcode=1977Natur.268..608N |ref=harv
+* cite journal |last1=Ord |first1=G. N. |date=1983 |title=Fractal space-time: a geometric analogue of relativistic quantum mechanics |journal=Journal of Physics A: Mathematical and General |volume=16 |issue=9 |pages=1869–84 |doi=10.1088/0305-4470/16/9/012 |bibcode=1983JPhA...16.1869O |ref=harv
+* cite journal |last1=Peter |first1=Patrick |date=2013 |title=Laurent Nottale: Scale relativity and fractal space-time |journal=General Relativity and Gravitation |volume=45 |issue=7 |pages=1459–61 |doi=10.1007/s10714-013-1535-8 |bibcode=2013GReGr..45.1459P |ref=harv
+* cite journal |author-mask=Plank Collaboration: Ade, P.A.R; |last1=Ade |first1=P. A. R. |last2=Aghanim |first2=N. |last3=Armitage-Caplan |first3=C. |last4=Arnaud |first4=M. |last5=Ashdown |first5=M. |last6=Atrio-Barandela |first6=F. |last7=Aumont |first7=J. |last8=Baccigalupi |first8=C. |last9=Banday |first9=A. J. |last10=Barreiro |first10=R. B. |last11=Bartlett |first11=J. G. |last12=Battaner |first12=E. |last13=Benabed |first13=K. |last14=Benoît |first14=A. |last15=Benoit-Lévy |first15=A. |last16=Bernard |first16=J.-P. |last17=Bersanelli |first17=M. |last18=Bielewicz |first18=P. |last19=Bobin |first19=J. |last20=Bock |first20=J. J. |last21=Bonaldi |first21=A. |last22=Bond |first22=J. R. |last23=Borrill |first23=J. |last24=Bouchet |first24=F. R. |last25=Bridges |first25=M. |last26=Bucher |first26=M. |last27=Burigana |first27=C. |last28=Butler |first28=R. C. |last29=Calabrese |first29=E. |last30=Cappellini |first30=B. |last31=Cardoso |first31=J.-F. |last32=Catalano |first32=A. |last33=Challinor |first33=A. |last34=Chamballu |first34=A. |last35=Chary |first35=R.-R. |last36=Chen |first36=X. |last37=Chiang |first37=H. C. |last38=Chiang |first38=L.-Y. |last39=Christensen |first39=P. R. |last40=Church |first40=S. |last41=Clements |first41=D. L. |last42=Colombi |first42=S. |last43=Colombo |first43=L. P. L. |last44=Couchot |first44=F. |last45=Coulais |first45=A. |last46=Crill |first46=B. P. |last47=Curto |first47=A. |last48=Cuttaia |first48=F. |last49=Danese |first49=L. |last50=Davies |first50=R. D. |last51=Davis |first51=R. J. |last52=de Bernardis |first52=P. |last53=de Rosa |first53=A. |last54=de Zotti |first54=G. |last55=Delabrouille |first55=J. |last56=Delouis |first56=J.-M. |last57=Désert |first57=F.-X. |last58=Dickinson |first58=C. |last59=Diego |first59=J. M. |last60=Dolag |first60=K. |last61=Dole |first61=H. |last62=Donzelli |first62=S. |last63=Doré |first63=O. |last64=Douspis |first64=M. |last65=Dunkley |first65=J. |last66=Dupac |first66=X. |last67=Efstathiou |first67=G. |last68=Elsner |first68=F. |last69=Enßlin |first69=T. A. |last70=Eriksen |first70=H. K. |last71=Finelli |first71=F. |last72=Forni |first72=O. |last73=Frailis |first73=M. |last74=Fraisse |first74=A. A. |last75=Franceschi |first75=E. |last76=Gaier |first76=T. C. |last77=Galeotta |first77=S. |last78=Galli |first78=S. |last79=Ganga |first79=K. |last80=Giard |first80=M. |last81=Giardino |first81=G. |last82=Giraud-Héraud |first82=Y. |last83=Gjerløw |first83=E. |last84=González-Nuevo |first84=J. |last85=Górski |first85=K. M. |last86=Gratton |first86=S. |last87=Gregorio |first87=A. |last88=Gruppuso |first88=A. |last89=Gudmundsson |first89=J. E. |last90=Haissinski |first90=J. |last91=Hamann |first91=J. |last92=Hansen |first92=F. K. |last93=Hanson |first93=D. |last94=Harrison |first94=D. |last95=Henrot-Versillé |first95=S. |last96=Hernández-Monteagudo |first96=C. |last97=Herranz |first97=D. |last98=Hildebrandt |first98=S. R. |last99=Hivon |first99=E. |last100=Hobson |first100=M. |last101=Holmes |first101=W. A. |last102=Hornstrup |first102=A. |last103=Hou |first103=Z. |last104=Hovest |first104=W. |last105=Huffenberger |first105=K. M. |last106=Jaffe |first106=A. H. |last107=Jaffe |first107=T. R. |last108=Jewell |first108=J. |last109=Jones |first109=W. C. |last110=Juvela |first110=M. |last111=Keihänen |first111=E. |last112=Keskitalo |first112=R. |last113=Kisner |first113=T. S. |last114=Kneissl |first114=R. |last115=Knoche |first115=J. |last116=Knox |first116=L. |last117=Kunz |first117=M. |last118=Kurki-Suonio |first118=H. |last119=Lagache |first119=G. |last120=Lähteenmäki |first120=A. |last121=Lamarre |first121=J.-M. |last122=Lasenby |first122=A. |last123=Lattanzi |first123=M. |last124=Laureijs |first124=R. J. |last125=Lawrence |first125=C. R. |last126=Leach |first126=S. |last127=Leahy |first127=J. P. |last128=Leonardi |first128=R. |last129=León-Tavares |first129=J. |last130=Lesgourgues |first130=J. |last131=Lewis |first131=A. |last132=Liguori |first132=M. |last133=Lilje |first133=P. B. |last134=Linden-Vørnle |first134=M. |last135=López-Caniego |first135=M. |last136=Lubin |first136=P. M. |last137=Macías-Pérez |first137=J. F. |last138=Maffei |first138=B. |last139=Maino |first139=D. |last140=Mandolesi |first140=N. |last141=Maris |first141=M. |last142=Marshall |first142=D. J. |last143=Martin |first143=P. G. |last144=Martínez-González |first144=E. |last145=Masi |first145=S. |last146=Massardi |first146=M. |last147=Matarrese |first147=S. |last148=Matthai |first148=F. |last149=Mazzotta |first149=P. |last150=Meinhold |first150=P. R. |last151=Melchiorri |first151=A. |last152=Melin |first152=J.-B. |last153=Mendes |first153=L. |last154=Menegoni |first154=E. |last155=Mennella |first155=A. |last156=Migliaccio |first156=M. |last157=Millea |first157=M. |last158=Mitra |first158=S. |last159=Miville-Deschênes |first159=M.-A. |last160=Moneti |first160=A. |last161=Montier |first161=L. |last162=Morgante |first162=G. |last163=Mortlock |first163=D. |last164=Moss |first164=A. |last165=Munshi |first165=D. |last166=Murphy |first166=J. A. |last167=Naselsky |first167=P. |last168=Nati |first168=F. |last169=Natoli |first169=P. |last170=Netterfield |first170=C. B. |last171=Nørgaard-Nielsen |first171=H. U. |last172=Noviello |first172=F. |last173=Novikov |first173=D. |last174=Novikov |first174=I. |last175=O'Dwyer |first175=I. J. |last176=Osborne |first176=S. |last177=Oxborrow |first177=C. A. |last178=Paci |first178=F. |last179=Pagano |first179=L. |last180=Pajot |first180=F. |last181=Paoletti |first181=D. |last182=Partridge |first182=B. |last183=Pasian |first183=F. |last184=Patanchon |first184=G. |last185=Pearson |first185=D. |last186=Pearson |first186=T. J. |last187=Peiris |first187=H. V. |last188=Perdereau |first188=O. |last189=Perotto |first189=L. |last190=Perrotta |first190=F. |last191=Pettorino |first191=V. |last192=Piacentini |first192=F. |last193=Piat |first193=M. |last194=Pierpaoli |first194=E. |last195=Pietrobon |first195=D. |last196=Plaszczynski |first196=S. |last197=Platania |first197=P. |last198=Pointecouteau |first198=E. |last199=Polenta |first199=G. |last200=Ponthieu |first200=N. |last201=Popa |first201=L. |last202=Poutanen |first202=T. |last203=Pratt |first203=G. W. |last204=Prézeau |first204=G. |last205=Prunet |first205=S. |last206=Puget |first206=J.-L. |last207=Rachen |first207=J. P. |last208=Reach |first208=W. T. |last209=Rebolo |first209=R. |last210=Reinecke |first210=M. |last211=Remazeilles |first211=M. |last212=Renault |first212=C. |last213=Ricciardi |first213=S. |last214=Riller |first214=T. |last215=Ristorcelli |first215=I. |last216=Rocha |first216=G. |last217=Rosset |first217=C. |last218=Roudier |first218=G. |last219=Rowan-Robinson |first219=M. |last220=Rubiño-Martín |first220=J. A. |last221=Rusholme |first221=B. |last222=Sandri |first222=M. |last223=Santos |first223=D. |last224=Savelainen |first224=M. |last225=Savini |first225=G. |last226=Scott |first226=D. |last227=Seiffert |first227=M. D. |last228=Shellard |first228=E. P. S. |last229=Spencer |first229=L. D. |last230=Starck |first230=J.-L. |last231=Stolyarov |first231=V. |last232=Stompor |first232=R. |last233=Sudiwala |first233=R. |last234=Sunyaev |first234=R. |last235=Sureau |first235=F. |last236=Sutton |first236=D. |last237=Suur-Uski |first237=A.-S. |last238=Sygnet |first238=J.-F. |last239=Tauber |first239=J. A. |last240=Tavagnacco |first240=D. |last241=Terenzi |first241=L. |last242=Toffolatti |first242=L. |last243=Tomasi |first243=M. |last244=Tristram |first244=M. |last245=Tucci |first245=M. |last246=Tuovinen |first246=J. |last247=Türler |first247=M. |last248=Umana |first248=G. |last249=Valenziano |first249=L. |last250=Valiviita |first250=J. |last251=Van Tent |first251=B. |last252=Vielva |first252=P. |last253=Villa |first253=F. |last254=Vittorio |first254=N. |last255=Wade |first255=L. A. |last256=Wandelt |first256=B. D. |last257=Wehus |first257=I. K. |last258=White |first258=M. |last259=White |first259=S. D. M. |last260=Wilkinson |first260=A. |last261=Yvon |first261=D. |last262=Zacchei |first262=A. |last263=Zonca |first263=A. |title=Planck 2013 results. XVI. Cosmological parameters |arxiv=1303.5076 |date=2013 |display-authors=6 |ref=harvid|Planck Collaboration|2013 |doi=10.1051/0004-6361/201321591 |volume=571 |journal=Astronomy & Astrophysics |page=A16 |bibcode=2014A&A...571A..16P
+* cite book |last1=Potter |first1=Frank |last2=Jargodzki |first2=Christopher |date=2005 |title=Mad About Modern Physics: Braintwisters, Paradoxes, and Curiosities |location=Hoboken, NJ |publisher=Wiley |isbn= |ref=harv
+* cite web |last1=Sendra |first1=Sophie |date=2013a |author-mask=3 |title=Laurent Nottale : La Tête dans les Étoiles. Interview |url=http://www.bscnews.fr/201310283220/Exclusivites/laurent-nottale-la-tete-dans-les-etoiles.html |ref=harv
+* cite book |last=Sidharth |first=B. G. |date=2001 |title=Chaotic Universe: From Planck to the Hubble Scale |series=Contemporary Fundamental Physics |location=Huntington, NY |publisher=Nova Science |isbn=978-1-56072-977-8 |ref=harv
+* cite book |last=Stenger |first=V. J. |date=2011 |title=The Fallacy of Fine-Tuning: Why the Universe Is Not Designed for Us |publisher=Prometheus Books |isbn= |ref=harv
+* cite web |last=Turner |first=Philip |date=2013 |title=A review of Scale Relativity and fractal space-time |url=https://www.researchgate.net/publication/259373681 |publisher=Researchgate |accessdate=2016-05-31 |ref=harv
+* cite journal |last1=Turner |first1=Philip |last2=Nottale |first2=L. |date=2015 |author-mask=3 |title=The Origins of Macroscopic Quantum Coherence in High Temperature Super Conductivity |journal=Physica C: Superconductivity and Its Applications |doi=10.1016/j.physc.2015.04.006 |pages=15–30 |arxiv=1410.3659 |ref=harv |volume=515|bibcode=2015PhyC..515...15T 
+* cite journal |last1=Vidal |first1=C. |date=2010 |title=Introduction to the Special Issue on the Evolution and Development of the Universe |journal=Foundations of Science |volume=15 |issue=2 |pages=95–99 |doi=10.1007/s10699-010-9176-9 |ref=harv
+* cite journal |last1=Wang |first1=M. S. |last2=Liang |first2=Wei-Kuang |date=1993 |title=Comment on 'Repeated measurements in stochastic mechanics' |journal=Physical Review D |volume=48 |issue=4 |pages=1875–1877 |doi=10.1103/PhysRevD.48.1875 |ref=harv|bibcode=1993PhRvD..48.1875W 
+* cite journal |last1=Wolszczan |first1=A. |last2=Frail |first2=D. A. |date=1992 |title=A Planetary System Around the Millisecond Pulsar PSR1257 + 12 |journal=Nature |volume=355 |issue=6356 |pages=145–47 |doi=10.1038/355145a0 |bibcode=1992Natur.355..145W |ref=harv
+* cite journal |last1=Yao |first1=W.-M. |display-authors=etal |date=2006 |title=Review of Particle Physics |journal=Journal of Physics G: Nuclear and Particle Physics |volume=33 |issue=1 |pages=1–1232 |doi=10.1088/0954-3899/33/1/001 |bibcode=2006JPhG...33....1Y |ref=harv|url=http://sro.sussex.ac.uk/1109/1/070223_the_cosmological_parameters_2006.pdf 
+refend
+
+External links
+* [http://luth.obspm.fr/~luthier/nottale/ Laurent Nottale's site]
+* [http://luth.obspm.fr/~luthier/nottale/ukdownlo.htm List of downloadable papers from Nottale]
+* [https://medium.com/zooming-on-scale-relativity A blog about scale relativity]
+
+Category:Quantum mechanics
+Category:Theory of relativity

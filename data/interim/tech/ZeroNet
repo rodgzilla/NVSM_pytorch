@@ -1,0 +1,117 @@
+Infobox software
+| name                   = ZeroNet
+| logo                   = ZeroNet vector logo.svg
+| logo alt               = 
+| screenshot             =
+| caption                = ZeroNet landing page
+| screenshot alt         = 
+| collapsible            = 
+| author                 = 
+| developer              = Tamas Kocsis
+| released               = 2015<!-- Start date and age|YYYY|MM|DD|df=yes/no -->
+| discontinued           = 
+| latest release version = 
+| latest release date    = <!-- Start date and age|YYYY|MM|DD|df=yes/no -->
+| latest preview version = 
+| latest preview date    = <!-- Start date and age|YYYY|MM|DD|df=yes/no -->
+| status                 = Active
+| programming language   = Python (programming language)|Python
+| operating system       = Windows, Linux, OS X, FreeBSD, Android (operating system)|Android
+| platform               = 
+| size                   = 
+| language               = Danish, German, English, Spanish, French, Hungarian, Italian, Polish, Portuguese, Russian, Turkish, Ukrainian, Chinese.
+| language count         = <!-- Number only -->
+| language footnote      = 
+| genre                  = Peer-to-peer web hosting
+| license                = GNU GPL v2
+| alexa                  = 
+| website                = URL|https://zeronet.io/
+| standard               = 
+| AsOf                   = 
+
+File sharing sidebar
+
+ZeroNet is a decentralized World Wide Web|web-like computer network|network of peer-to-peer users, created by Tamas Kocsis in 2015. Programming for the network is based in Budapest, Hungary; is built in Python; and is fully open source software|open source.<ref name=":0">Cite web|url=https://torrentfreak.com/play-p2p-impossible-shutdown-160301/|title=Play: A P2P Distributed Torrent Site That's Impossible to Shut Down – TorrentFreak|website=TorrentFreak|language=en-US|access-date=2016-03-08</ref> Instead of having an IP address, sites are identified by a public key (specifically a bitcoin address). The private key allows the owner of a site to sign and publish change, which propagate through the network. Sites can be accessed through an ordinary web browser when using the ZeroNet application, which acts as a local webhost for such pages.<ref name=":0" /> In addition to using bitcoin cryptography, ZeroNet uses trackers from the BitTorrent network<ref>cite web|last1=Kysar|first1=Tom|title=ZeroNet Expands Key Distributed And Anonymous Features|url=http://bravenewcoin.com/news/zeronet-expands-key-distributed-and-anonymous-features/|website=bravenewcoin.com|accessdate=20 September 2015|date=18 March 2015</ref><ref>cite web|last1=Sewell|first1=Chase|title=Can Blockchain Technology Decentralize the Web?|url=http://insidebitcoins.com/news/can-blockchain-technology-decentralize-the-web/28793|website=insidebitcoins.com|accessdate=20 September 2015|date=15 January 2015</ref><ref>cite web|last1=Kumar|first1=Mohit|title=MegaNet — New Decentralized, Non-IP Based and Encrypted Network|url=https://thehackernews.com/2015/02/meganet-decentralized-internet.html|publisher=The Hacker News|accessdate=20 September 2015|date=18 February 2015</ref> to negotiate connections between peers.<ref name=":0" /> ZeroNet is not anonymous by default, but it supports routing traffic through the Tor (anonymity network)|Tor network.<ref>cite web |title=FAQ: Is Zero Net Anonymous |url=https://zeronet.io/docs/faq/#is-zeronet-anonymous |website=zeronet.io</ref>
+
+The ZeroNet website and bittorrent tracker are blocked in China.<ref>cite web |last1=Hill |first1=Paul |title=China blocks access to ZeroNet website and tracker |url=https://www.neowin.net/news/china-blocks-access-to-zeronet-website-and-tracker |website=Neowin |accessdate=16 June 2018</ref>
+
+The existence of peer-to-peer online web-sites had been hypothesised for some time, with The Pirate Bay suggesting they would build a network, as well as BitTorrent Inc. which created the closed-source Project Maelstrom.<ref name=":0" /><ref name=":1">Cite web|url=https://bitcoinmagazine.com/articles/bittorrent-powered-zeronet-decentralized-web-pioneers-peer-to-peer-file-transfers-1457103175|title=BitTorrent-Powered ZeroNet Decentralized Web Pioneers Peer-To-Peer Internet|last=Prisco|first=Giulio|website=Bitcoin Magazine|access-date=2016-03-08</ref> One other similar project is the SAFE Network by MaidSafe, though it has not yet seen widespread use, and has been said to focus more on file storage.<ref name=":1" /> Another application, Beaker (web browser)|Beaker Browser, uses the P2P Dat (software)|DAT files protocol to allow the creation, hosting and serving of websites without need of a server.<ref name="beakerbrowser">[https://beakerbrowser.com/docs/inside-beaker/ Inside Beaker]</ref>
+
+As of|2016 there is no way to take down a ZeroNet page which still has seeders,<ref name=":0" /> thus making such pages immune to third-party methods of taking them down, including DMCA takedown notices.<ref>Cite web|quote=and what's happened is [...] some forward-thinking person has created a site on ZeroNet called Play, a torrent site[...]. The difference is that you can't take it down. I think you literally can't take it down. [...] It sniffs at your DMCA. |url=https://torrentfreak.com/steal-this-show-s01e07-160307/|title=Steal This Show S01E07: Did P2P Break the Law? - TorrentFreak|website=TorrentFreak|language=en|access-date=2016-03-08|time=17m39s</ref> By default, sites have a size limit of 10 megabytes, but users may grant a site permission to use more storage space if they wish.
+
+ Development of sites 
+Sites on ZeroNet are known as "zites" by its users.
+
+ZeroNet supports HTML, CSS and JavaScript. Site developers can also write sites in CoffeeScript instead of write in JavaScript, but they need to compile the .coffee files. ZeroNet can compile to JavaScript in development mode, so all .coffee files are compiled and saved to all.js file. This also supports compiling .sass files to CSS (also compiles to all.css).
+
+Sever-side languages like PHP are not supported, although ZeroNet can achieve user signup/login on MySQL databases, that are also distributed via Point-to-point (telecommunications)|P2P.
+
+With plugins and the ZeroFrame API, sites can communicate with ZeroNet calling Python (programming language)|Python by JavaScript.
+
+ Notable Sites 
+
+* The BitTorrent website Play (p2p website)|Play hosts a magnet link repository for movies on ZeroNet, which links to copyrighted content.<ref name=":0" /> 
+* On 11 August 2016<ref>Cite news|url=https://decentralize.today/new-version-0-4-0-zerome-social-site-de455aea85c1|title=New ZeroNet version: 0.4.0 + ZeroMe decentralized, P2P social site|date=2016-08-11|work=Decentralize Today|access-date=2018-09-14</ref>, ZeroMe has been launched as ZeroNet's first social network, based on Twitter. Thanks to the merger site feature, ZeroMe's user data are stored in different hubs, that are merged sites from ZeroMe.
+* On 20 November 2017, KopyKate Big has started as the first YouTube reliable alternative on ZeroNet, taking use of Big File feature.
+* Since Microsoft acquired GitHub, Git Center has been launched in 2017 as alternative, supporting clone, issues, pull requests, stars and comment reactions in a decentralized way.
+* On 2018, development has been initiated on the first web browser dedicated to ZeroNet and the zero:// protocol: ZeroNet Browser.
+* On 06 December 2018, the world's first click-to-begin web framework has been presented: FrameworkJS, launched on ZeroNet thanks to its cloning/theming features.
+
+ See also 
+
+colbegin
+div col|colwidth=20em
+* Bitcoin
+* Ethereum
+* Cooperative storage cloud
+* Coral Content Distribution Network
+* Decentralized computing
+* Distributed data store
+* Distributed hash table
+* Filecoin
+* Freenet
+* I2P
+* InterPlanetary File System
+* Kademlia
+* Namecoin
+* OpenBazaar
+* Peer-to-peer web hosting
+* Self-certifying File System
+div col end
+colend
+
+ References 
+
+reflist|colwidth=30em
+
+* cite web|url=http://upstart.bizjournals.com/entrepreneurs/hot-shots/2015/03/31/kim-dotcom-s-meganet-could-be-a-bitcoin-inspired.html?page=all|title=Kim Dotcom's 'MegaNet' could be a bitcoin-inspired spy-resistant Internet|date=31 March 2015|work=Upstart Business Journal
+
+ External links 
+
+* Official website|http://zeronet.io/
+
+File systems|state=collapsed
+File sharing|state=collapsed
+Internet censorship circumvention technologies|state=collapsed
+Bitcoin
+
+DEFAULTSORT:ZeroNet
+Category:Anonymity networks
+Category:Application layer protocols
+Category:Bitcoin
+Category:BitTorrent
+Category:Computer-related introductions in 2015
+Category:Distributed data storage
+Category:Distributed file systems
+Category:File transfer protocols
+Category:Free network-related software
+Category:Free software programmed in Python
+Category:Internet privacy software
+Category:Internet protocols
+Category:Network protocols
+Category:Peer-to-peer computing
+Category:Tor (anonymity network)
+Category:World Wide Web
+
+
+network-software-stub

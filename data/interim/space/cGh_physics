@@ -1,0 +1,30 @@
+File:Quantum gravity.png|thumb|420px|Diagram showing where quantum gravity sits in the a near-cube hierarchy of physics theories. Note that electromagnetism and quantum field theory in curved spacetime are added in as an extra and distinct items.
+DISPLAYTITLE:''cGh'' physics
+''cGh'' physics refers to the mainstream attempts in physics to unify relativity, gravitation and quantum mechanics, in particular following the ideas of Matvei Petrovich Bronstein and George Gamow. The letters are the standard symbols for the speed of light (''c''), the gravitational constant (''G''), and Planck constant|Planck's constant (''h'').
+
+If one considers these three universal constants as the basis for a 3-D coordinate system and envisions a cube, then this pedagogic construction provides a framework, which is referred to as the ''cGh'' cube, or physics cube, or cube of theoretical physics (CTP).<ref>Cite book |title=Sleeping Beauties in Theoretical Physics |last=Padmanabhan |first=Thanu |chapter=The Grand Cube of Theoretical Physics |publisher=Springer |year=2015 |pages=1–8 |isbn=978-3319134420 </ref> This cube can used for organizing major subjects within physics as occupying each of the eight corners.<ref>cite book |first=Gennady E. |last=Gorelik |authorlink = Gennady Gorelik |title=Studies in the History of General Relativity |chapter=First Steps of Quantum Gravity and the Planck Values |date=1992 |pages=364–379 | publisher = Birkhäuser |isbn=978-0-8176-3479-7 |chapterurl = http://people.bu.edu/gorelik/cGh_FirstSteps92_MPB_36/cGh_FirstSteps92_text.htm</ref><ref>cite web |last=Wainwright |first=C.J. |title=The Physics Cube |url=http://www.cjwainwright.co.uk/maths/physicscube/ |archiveurl=https://web.archive.org/web/20120306041426/http://www.cjwainwright.co.uk/maths/physicscube/ |archivedate=6 March 2012</ref> The eight corners of the ''cGh'' physics cube are:
+* Classical mechanics (_,_,_)
+* Special relativity (''c'',_,_), Gravitation (_,''G'',_), Quantum mechanics (_,_,''h'')
+* General relativity (''c'',''G'',_), Quantum field theory (''c'',_,''h''), Non-relativistic quantum theory with gravity (_,''G'',''h'')
+* Theory of everything, or relativistic quantum gravity (''c'',''G'',''h'')
+
+Other ''cGh'' subjects include Planck units, Hawking radiation and black hole thermodynamics.
+
+While there are several other physical constants, these three are given special consideration, because they can be used to define all Planck units and thus all physical quantities.<ref>cite journal| last = Duff | first = Michael |author2=Lev B. Okun |author3=Gabriele Veneziano| title= Trialogue on the number of fundamental constants| arxiv = physics/0110060| journal = Journal of High Energy Physics | issue = 3 | year = 2002 |bibcode = 2002JHEP...03..023D |doi = 10.1088/1126-6708/2002/03/023 </ref> The three constants are therefore used sometimes as a framework for philosophical study and as one of pedagogical patterns.<ref>cite journal| last =  Okun | first = Lev| date = 1991-01-01| title = The fundamental constants of physics| url = http://www.iop.org/EJ/abstract/0038-5670/34/9/A05 | journal =  Soviet Physics Uspekhi (Sov. Phys. Usp.) | issue =  9 | pages = 818–826| doi = 10.1070/PU1991v034n09ABEH002475| id = Physics and Astronomy Classification Scheme|PACS 06.20.Jr. | volume = 34|bibcode = 1991SvPhU..34..818O </ref>
+
+ Overview 
+Before Ole Rømer made the first successful estimate of the speed of light in 1676, it was not known if the speed of light (''c'') was infinite or not. Because of the tremendously large value of c (i.e. 299,792,458 metres per second in a vacuum) compared to the speeds of things in our daily experience, the propagation of light seems to us as instantaneous. Hence, the ratio 1/''c'' was hidden from our view making relativistic mechanics irrelevant. At speeds comparable to the speed of light (''c''), special relativity takes the finiteness of the speed of light into consideration by the aid of Lorentz transformation. A non-relativistic theory is recovered from a relativistic theory when the limit 1/''c'' is set to zero.
+
+The gravitational constant (''G)'' is irrelevant for a system where gravitational forces are negligible or non-existent. For example, the special theory of relativity is the special case of general relativity in the limit ''G=0.''
+
+Similarly, in the theories where the effects of quantum mechanics are irrelevant, the value of Planck constant(''h)'' can be neglected. For example, setting ''h→0'' in the commutation relation of quantum mechanics, the uncertainty in the simultaneous measurement of two conjugate variables tends to zero approximating quantum mechanics with classical mechanics.
+
+In popular culture
+* George Gamow chose "C. G. H." as the initials of his fictitious character, Mr Tompkins|Mr C. G. H. Tompkins.
+
+References
+reflist
+
+Branches of physics
+
+Category:Theoretical physics

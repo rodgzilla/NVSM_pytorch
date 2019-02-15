@@ -1,0 +1,158 @@
+for|cloud-hosted security software|Security as a service
+Cloud computing security or, more simply, cloud security  refers to a broad set of policies, technologies, applications, and controls utilized to protect virtualized IP, data, applications, services, and the associated infrastructure of cloud computing. It is a sub-domain of computer security, network security, and, more broadly, information security.
+
+Security issues associated with the cloud
+
+Cloud computing and storage provides users with capabilities to store and process their data in third-party data centers.<ref name="cloudid">cite journal | last1 = Haghighat | first1 = M. | last2 = Zonouz | first2 = S. | last3 = Abdel-Mottaleb | first3 = M. | year = 2015 | title = CloudID: Trustworthy Cloud-based and Cross-Enterprise Biometric Identification | doi = 10.1016/j.eswa.2015.06.025 | journal = Expert Systems with Applications | volume = 42 | issue = 21| pages = 7905–7916 </ref> Organizations use the cloud in a variety of different service models (with acronyms such as SaaS, PaaS, and IaaS) and deployment models (Cloud computing#Private cloud|private, Cloud computing#Public cloud|public, Cloud computing#Hybrid|hybrid, and community cloud|community).<ref name="Srinivasan">cite web|last=Srinivasan|first=Madhan|title='State-of-the-art cloud computing security taxonomies: a classification of security challenges in the present cloud computing environment|publisher= ACM ICACCI'|year=2012|url=http://doi.acm.org/10.1145/2345396.2345474</ref> Security concerns associated with cloud computing fall into two broad categories: security issues faced by cloud providers (organizations providing Software as a service|software-, Platform as a service|platform-, or Infrastructure as a service|infrastructure-as-a-service via the cloud) and security issues faced by their customers (companies or organizations who host applications or store data on the cloud).<ref>cite news|url=http://security.sys-con.com/node/1231725|title=Swamp Computing a.k.a. Cloud Computing|publisher=Web Security Journal|date=2009-12-28|accessdate=2010-01-25</ref> The responsibility is shared, however. The provider must ensure that their infrastructure is secure and that their clients’ data and applications are protected, while the user must take measures to fortify their application and use strong passwords and authentication measures.
+
+When an organization elects to store data or host applications on the public cloud, it loses its ability to have physical access to the servers hosting its information. As a result, potentially sensitive data is at risk from insider attacks. According to a recent Cloud Security Alliance report, insider attacks are the sixth biggest threat in cloud computing.<ref name="Top Threats to Cloud Computing v1.0">cite web|title=Top Threats to Cloud Computing v1.0|url=https://cloudsecurityalliance.org/topthreats/csathreats.v1.0.pdf|publisher=Cloud Security Alliance|accessdate=2014-10-20</ref> Therefore, cloud service providers must ensure that thorough background checks are conducted for employees who have physical access to the servers in the data center. Additionally, data centers must be frequently monitored for suspicious activity.
+
+In order to conserve resources, cut costs, and maintain efficiency, cloud service providers often store more than one customer's data on the same server. As a result, there is a chance that one user's private data can be viewed by other users (possibly even competitors). To handle such sensitive situations, cloud service providers should ensure proper Isolation (database systems)|data isolation and logical storage segregation.<ref name="Srinivasan"/>
+
+The extensive use of virtualization in implementing cloud infrastructure brings unique security concerns for customers or tenants of a public cloud service.<ref name="Cloud Virtual Security Winkler">cite web|last=Winkler|first=Vic|title=Cloud Computing: Virtual Cloud Security Concerns|url=https://technet.microsoft.com/en-us/magazine/hh641415.aspx|publisher=Technet Magazine, Microsoft|accessdate=12 February 2012</ref>  Virtualization alters the relationship between the OS and underlying hardware – be it computing, storage or even networking. This introduces an additional layer – virtualization – that itself must be properly configured, managed and secured.<ref name="virtualization risks hickey">cite web|last=Hickey|first=Kathleen|title=Dark Cloud: Study finds security risks in virtualization|url=http://gcn.com/articles/2010/03/18/dark-cloud-security.aspx|publisher=Government Security News|accessdate=12 February 2012</ref> Specific concerns include the potential to compromise the virtualization software, or "hypervisor". While these concerns are largely theoretical, they do exist.<ref name="Securing the Cloud Winkler virt">cite book|last=Winkler|first=Vic|title=Securing the Cloud: Cloud Computer Security Techniques and Tactics|year=2011|publisher=Elsevier|location=Waltham, MA USA|isbn=978-1-59749-592-9 |page=59|url=http://www.elsevier.com/wps/find/bookdescription.cws_home/723529/description#description</ref> For example, a breach in the administrator workstation with the management software of the virtualization software can cause the whole datacenter to go down or be reconfigured to an attacker's liking.
+
+ Cloud security controls 
+
+Cloud security architecture is effective only if the correct defensive implementations are in place. An efficient cloud security architecture should recognize the issues that will arise with security management.<ref name="Krutz, Ronald L. 2010">Krutz, Ronald L., and Russell Dean Vines. "Cloud Computing Security Architecture." Cloud Security: A Comprehensive Guide to Secure Cloud Computing. Indianapolis, IN: Wiley, 2010. 179-80. Print.</ref> The security management addresses these issues with security controls. These controls are put in place to safeguard any weaknesses in the system and reduce the effect of an attack. While there are many types of controls behind a cloud security architecture, they can usually be found in one of the following categories:<ref name="Krutz, Ronald L. 2010"/>
+
+;Deterrent controls
+:These controls are intended to reduce attacks on a cloud system. Much like a warning sign on a fence or a property, deterrent controls typically reduce the threat level by informing potential attackers that there will be adverse consequences for them if they proceed.  (Some consider them a subset of preventive controls.)
+
+;Preventive controls
+:Preventive controls strengthen the system against incidents, generally by reducing if not actually eliminating vulnerabilities.  Strong authentication of cloud users, for instance, makes it less likely that unauthorized users can access cloud systems, and more likely that cloud users are positively identified.
+
+;Detective controls
+:Detective controls are intended to detect and react appropriately to any incidents that occur. In the event of an attack, a detective control will signal the preventative or corrective controls to address the issue.<ref name="Krutz, Ronald L. 2010"/>  System and network security monitoring, including intrusion detection and prevention arrangements, are typically employed to detect attacks on cloud systems and the supporting communications infrastructure.
+
+;Corrective controls
+:Corrective controls reduce the consequences of an incident, normally by limiting the damage. They come into effect during or after an incident.  Restoring system backups in order to rebuild a compromised system is an example of a corrective control.
+
+Dimensions of cloud security
+
+It is generally recommended that information security controls be selected and implemented according and in proportion to the risks, typically by assessing the threats, vulnerabilities and impacts. Cloud security concerns can be grouped in various ways; Gartner named seven<ref>cite news|url=http://www.infoworld.com/d/security-central/gartner-seven-cloud-computing-security-risks-853|title=Gartner: Seven cloud-computing security risks|publisher=InfoWorld|date=2008-07-02|accessdate=2010-01-25</ref> while the Cloud Security Alliance identified twelve areas of concern.<ref>cite web|url=https://cloudsecurityalliance.org/artifacts/top-threats-cloud-computing-plus-industry-insights/|title=Top Threats to Cloud Computing Plus: Industry Insights|last=|first=|date=2017-10-20|year=|website=|publisher=Cloud Security Alliance|archive-url=|archive-date=|dead-url=|accessdate=2018-10-20</ref> Cloud access security brokers (CASBs) are software that sits between cloud users and cloud applications to provide visibility into cloud application usage, data protection and governance to monitor all activity and enforce security policies.<ref>Cite web|title = What is a CASB (Cloud Access Security Broker)?|publisher=CipherCloud|url = https://www.ciphercloud.com/what-is-a-casb|accessdate = 2018-08-30</ref>
+
+Security and privacy
+
+;Identity management :Every enterprise will have its own identity management system to control access to information and computing resources. Cloud providers either integrate the customer's identity management system into their own infrastructure, using Federated identity management|federation or Single sign-on|SSO technology, or a biometric-based identification system,<ref name="cloudid"/> or provide an identity management system of their own.<ref>cite web|url=http://www.darkreading.com/identity-management-in-the-cloud/d/d-id/1140751 |title=Identity Management in the Cloud |publisher=Information Week |date=2013-10-25 |accessdate=2013-06-05</ref> CloudID,<ref name="cloudid"/> for instance, provides privacy-preserving cloud-based and cross-enterprise biometric identification. It links the confidential information of the users to their biometrics and stores it in an encrypted fashion. Making use of a searchable encryption technique, biometric identification is performed in encrypted domain to make sure that the cloud provider or potential attackers do not gain access to any sensitive data or even the contents of the individual queries.<ref name="cloudid"/>
+
+;Physical security :Cloud service providers physically secure the IT Computer hardware|hardware (servers, routers, cables etc.) against unauthorized access, interference, theft, fires, floods etc. and ensure that essential supplies (such as electricity) are sufficiently robust to minimize the possibility of disruption.  This is normally achieved by serving cloud applications from 'world-class' (i.e. professionally specified, designed, constructed, managed, monitored and maintained) data centers.
+
+;Personnel security :Various information security concerns relating to the IT and other professionals associated with cloud services are typically handled through pre-, para- and post-employment activities such as security screening potential recruits, security awareness and training programs, proactive.
+;Privacy :Providers ensure that all critical data (credit card numbers, for example) are data masking|masked or encrypted and that only authorized users have access to data in its entirety. Moreover, digital identities and credentials must be protected as should any data that the provider collects or produces about customer activity in the cloud.
+
+= Cloud Vulnerability and Penetration Testing =
+Scanning could from outside and inside using free or commercial products is very important because without a hardened environment your service is considered as a soft target. Virtual servers should be hardened like a physical server against Data leakage prevention|data leakage, malware, and exploited vulnerabilities. "Data loss or leakage represents 24.6% and cloud related malware 3.4% of threats causing cloud outages”<ref>Cite journal|last=Thangasamy|first=Veeraiyah|date=2017|title=Journal of Applied Technology and Innovation|url=|journal=http://www.apu.edu.my/ejournals/jati/journal/JATI-VOLUME_1-ISSUE_2-2017.pdf|volume=1|pages=97|via=</ref>
+
+Scanning and penetration testing from inside or outside the cloud require to be authorized by the cloud provider. Since the cloud is a shared environment with other tenants following penetration testing rules of engagement step-by-step is a mandatory requirement. Violation of [https://www.microsoft.com/en-us/msrc/pentest-rules-of-engagement acceptable use policy] which can lead to termination of the service.
+
+ Data security 
+A number of security threats are associated with cloud data services: not only traditional security threats, such as network eavesdropping, illegal invasion, and denial of service attacks, but also specific cloud computing threats, such as side channel attacks, virtualization vulnerabilities, and abuse of cloud services. The following security requirements limit the threats.<ref>Cite journal|last=Jun Tang|first=Yong Cui|date=2016|title=Ensuring Security and Privacy Preservation for Cloud Data Services|url=http://www.4over6.edu.cn/cuiyong/lunwen/Ensuring%20Security%20and%20Privacy%20Preservation%20for%20Cloud%20Data%20Services.pdf|journal=ACM Computing Surveys|doi=10.1145/2906153|pmid=|access-date=</ref>
+
+= Confidentiality =
+Data confidentiality is the property that data contents are not made available or disclosed to illegal users. Outsourced data is stored in a cloud and out of the owners' direct control. Only authorized users can access the sensitive data while others, including CSPs, should not gain any information of the data. Meanwhile, data owners expect to fully utilize cloud data services, e.g., data search, data computation, and data sharing, without the leakage of the data contents to CSPs or other adversaries.
+
+= Access controllability =
+Access controllability means that a data owner can perform the selective restriction of access to her or his data outsourced to cloud. Legal users can be authorized by the owner to access the data, while others can not access it without permissions. Further, it is desirable to enforce fine-grained access control to the outsourced data, i.e., different users should be granted different access privileges with regard to different data pieces. The access authorization must be controlled only by the owner in untrusted cloud environments.
+
+= Integrity =
+Data integrity demands maintaining and assuring the accuracy and completeness of data. A data owner always expects that her or his data in a cloud can be stored correctly and trustworthily. It means that the data should not be illegally tampered, improperly modified, deliberately deleted, or maliciously fabricated. If any undesirable operations corrupt or delete the data, the owner should be able to detect the corruption or loss. Further, when a portion of the outsourced data is corrupted or lost, it can still be retrieved by the data users.
+
+ Encryption 
+Some advanced encryption algorithms which have been applied into cloud computing increase the protection of privacy. In a practice called crypto-shredding, the keys can simply be deleted when there is no more use of the data.
+
+= Attribute-based encryption (ABE) =
+Attribute-based encryption is a type of public-key encryption in which the secret key of a user and the ciphertext are dependent upon attributes (e.g. the country in which he lives, or the kind of subscription he has). In such a system, the decryption of a ciphertext is possible only if the set of attributes of the user key matches the attributes of the ciphertext.
+
+ Ciphertext-policy ABE (CP-ABE) 
+
+In the CP-ABE, the encryptor controls access strategy. The main research work of CP-ABE is focused on the design of the access structure.<ref>
+cite conference |url= https://www.cs.utexas.edu/~bwaters/publications/papers/cp-abe.pdf|title= Ciphertext-Policy Attribute-Based Encryption|last1= Bethencourt|first1= John|last2= Sahai|first2= Amit|author-link2= Amit_Sahai|last3= Waters|first3= Brent|book-title= IEEE Symposium on Security and Privacy 2007|pages= 321–334
+</ref>
+
+ Key-policy ABE (KP-ABE) 
+
+In the KP-ABE, attribute sets are used to describe the encrypted texts and the private keys are associated to specified policy that users will have.
+<ref>
+cite conference |title= Attribute-Based Encryption for Fine-Grained Access Control of Encrypted Data|last1= Goyal|first1= Vipul|last2= Pandey|first2= Omkant|last3= Sahai|first3= Amit|author-link3= Amit_Sahai|last4= Waters|first4= Brent|book-title= ACM Conference on Computer and Communications Security 2006|pages= 89–98
+</ref>
+<ref>
+cite conference |title= Improving Privacy and Security in Multi-Authority Attribute-Based Encryption|last1= Chase|first1= Melissa|author1-link=Melissa Chase|last2= Chow|first2= Sherman S. M.|book-title= ACM Conference on Computer and Communications Security 2009|pages= 121–130
+</ref>
+<ref>
+Cite journal|title = Attribute-based encryption schemes with constant-size ciphertexts|url = http://www.sciencedirect.com/science/article/pii/S0304397511009649|journal = Theoretical Computer Science|date = 2012-03-09|pages = 15–38|volume = 422|doi = 10.1016/j.tcs.2011.12.004|first = Nuttapong|last = Attrapadung|first2 = Javier|last2 = Herranz|first3 = Fabien|last3 = Laguillaumie|first4 = Benoît|last4 = Libert|first5 = Elie|last5 = de Panafieu|first6 = Carla|last6 = Ràfols
+</ref>
+
+= Fully homomorphic encryption (FHE) =
+Fully homomorphic encryption allows computations on encrypted data, and also allows computing sum and product for the encrypted data without decryption.<ref>Cite conference|
+last1= Gentry|first1= Craig|
+title= Fully Homomorphic Encryption using Ideal Lattices|
+book-title = ACM Symposium on Theory of Computing, STOC 2009|pages= 169–178
+</ref>
+
+= Searchable encryption (SE) =
+Searchable encryption is a cryptographic system which offer secure search functions over encrypted data.
+<ref name="Wang et al. 2018">cite journal|last1=Wang|first1=Qian|
+last2= He| first2= Meiqi|
+last3= Du|first3= Minxin|
+last4= Chow|first4= Sherman S. M.|
+last5= Lai|first5= Russell W. F.|
+last6= Zou|first6= Qin Zou|
+title=Searchable Encryption over Feature-Rich Data|
+journal=IEEE Transactions on Dependable and Secure Computing|volume=15|number=3|date=2018|pages= 496–510</ref>
+<ref name="Naveed 2014">cite conference|last1=Naveed|first1=Muhammad|title=Dynamic Searchable Encryption via Blind Storage|book-title=IEEE Symposium on Security and Privacy 2014</ref>
+SE schemes can be classified into two categories: SE based on secret-key (or symmetric-key) cryptography,
+and SE based on public-key cryptography.
+In order to improve search efficiency, symmetric-key SE generally builds keyword indexes to answer user queries.
+
+Compliance
+
+Numerous laws and regulations pertain to the storage and use of data.  In the US these include privacy or data protection laws, Payment Card Industry Data Security Standard (PCI DSS), the Health Insurance Portability and Accountability Act (HIPAA), the Sarbanes-Oxley Act, the Federal Information Security Management Act of 2002 (FISMA), and Children's Online Privacy Protection Act of 1998, among others.
+
+Similar laws may apply in different legal jurisdictions and may differ quite markedly from those enforced in the US.  Cloud service users may often need to be aware of the legal and regulatory differences between the jurisdictions.  For example, data stored by a cloud service provider may be located in, say, Singapore and mirrored in the US.<ref>cite web|url=http://www.technologyslegaledge.com/2014/08/29/managing-legal-risks-arising-from-cloud-computing/|title=Managing legal risks arising from cloud computing  |publisher=DLA Piper |accessdate=2014-11-22</ref>
+
+Many of these regulations mandate particular controls (such as strong access controls and audit trails) and require regular reporting. Cloud customers must ensure that their cloud providers adequately fulfil such requirements as appropriate, enabling them to comply with their obligations since, to a large extent, they remain accountable.
+
+;Business continuity and data recovery
+:Cloud providers have business continuity planning|business continuity and data recovery plans in place to ensure that service can be maintained in case of a disaster or an emergency and that any data loss will be recovered.<ref>cite web|url=http://content.dell.com/us/en/enterprise/d/large-business/benefits-cloud-based-recovery.aspx|title=It’s Time to Explore the Benefits of Cloud-Based Disaster Recovery |publisher=Dell.com |accessdate=2012-03-26</ref> These plans may be shared with and reviewed by their customers, ideally dovetailing with the customers' own continuity arrangements. Joint continuity exercises may be appropriate, simulating a major Internet or electricity supply failure for instance.
+
+;Log and audit trail
+:In addition to producing logs and audit trails, cloud providers work with their customers to ensure that these logs and audit trails are properly secured, maintained for as long as the customer requires, and are accessible for the purposes of forensic investigation (e.g., eDiscovery).
+
+;Unique compliance requirements
+:In addition to the requirements to which customers are subject, the data centers used by cloud providers may also be subject to compliance requirements. Using a cloud service provider (CSP) can lead to additional security concerns around data jurisdiction since customer or tenant data may not remain on the same system, or in the same data center or even within the same provider's cloud.<ref name="Securing the Cloud Winkler">cite book|last=Winkler|first=Vic|title=Securing the Cloud: Cloud Computer Security Techniques and Tactics|year=2011|publisher=Elsevier|location=Waltham, MA USA|isbn=978-1-59749-592-9|pages=65, 68, 72, 81, 218–219, 231, 240|url=http://www.elsevier.com/wps/find/bookdescription.cws_home/723529/description#description</ref>
+:The European Union’s General Data Protection Regulation|GDPR regulation has introduced new compliance requirements for customer data.<ref>Cite web|url=https://www.safeswisscloud.ch/en/blog/general-data-protection-regulation-gdpr-how-does-new-european-data-protection-standard-impact|title=General Data Protection Regulation (GDPR): How does the new European data-protection standard impact a company's cloud strategy? ! Safe Swiss Cloud|website=safeswisscloud.ch|language=en|access-date=2018-05-01</ref>
+
+Legal and contractual issues
+
+Aside from the security and compliance issues enumerated above, cloud providers and their customers will negotiate terms around liability (stipulating how incidents involving data loss or compromise will be resolved, for example), intellectual property, and end-of-service (when data and applications are ultimately returned to the customer). In addition, there are considerations for acquiring data from the cloud that may be involved in litigation.<ref name="adams">cite web|last=Adams|first=Richard|title='The emergence of cloud storage and the need for a new digital forensic process model|publisher=Murdoch University|year=2013|url=http://researchrepository.murdoch.edu.au/19431/1/emergence_of_cloud_storage.pdf</ref> These issues are discussed in service-level agreements (SLA).
+
+=Public records=
+
+Legal issues may also include Records management|records-keeping requirements in the public sector, where many agencies are required by law to retain and make available Records management#Managing electronic records|electronic records in a specific fashion. This may be determined by legislation, or law may require agencies to conform to the rules and practices set by a records-keeping agency. Public agencies using cloud computing and storage must take these concerns into account.
+
+References
+reflist
+
+ Further reading 
+*cite journal|ref=harv|title=The Fog over the Grimpen Mire: Cloud Computing and the Law|first=Miranda|last=Mowbray|year=2009|volume=6|issue=1|journal=SCRIPTed|page=129|url=http://www.law.ed.ac.uk/ahrc/script-ed/vol6-1/mowbray.asp
+*cite book|ref=harv|title=Cloud Security and Privacy: An Enterprise Perspective on Risks and Compliance|first1=Tim|last1=Mather|first2=Subra|last2=Kumaraswamy|first3=Shahed|last3=Latif|publisher=O'Reilly Media, Inc.|year=2009|isbn=9780596802769
+*cite book|ref=harv|title=Securing the Cloud: Cloud Computer Security Techniques and Tactics|first1=Vic|last1=Winkler|publisher=Elsevier|year=2011|isbn=9781597495929
+*cite book|ref=harv|title=Securing the Virtual Environment: How to Defend the Enterprise Against Attack|first1=Davi|last1=Ottenheimer|publisher=Wiley|year=2012|isbn=9781118155486
+*cite journal|title=CloudID: Trustworthy Cloud-based and Cross-Enterprise Biometric Identification|first=Mohammad|last=Haghighat|year=2015|volume=42|issue=21|journal=Expert Systems with Applications|pages=7905–7916|doi=10.1016/j.eswa.2015.06.025
+* [http://www.iso.org/iso/catalogue_detail?csnumber=43757 BS ISO/IEC 27017]: "Information technology. Security techniques. Code of practice for information security controls based on ISO/IEC 27002 for cloud services." (2015) 
+* [http://www.iso.org/iso/catalogue_detail.htm?csnumber=61498 BS ISO/IEC 27018]: "Information technology. Security techniques. Code of practice for protection of personally identifiable information (PII) in public clouds acting as PII processors." (2014)
+* [http://www.iso.org/iso/catalogue_detail.htm?csnumber=59689 BS ISO/IEC 27036-4]: "Information technology. Security techniques. Information security for supplier relationships. Guidelines for security of cloud services" (2016)
+
+External links
+* [https://www.ciphercloud.com/what-is-cloud-security What is Cloud Security]
+* [http://www.cloudsecurityalliance.org Cloud Security Alliance]
+* [https://www.usatoday.com/story/cybertruth/2013/11/25/why-cloud-security-requires-multiple-layers/3683171 Why cloud security requires multiple layers]
+* [http://visual.ly/data-security-breaches-2014 Data Security Breaches Infographics]
+* [https://aws.amazon.com/security/introduction-to-cloud-security The Beginner's Guide to Cloud Security]
+* [https://iase.disa.mil/cloud_security/Pages/index.aspx DoD Cloud Computing Security Requirements Guide (CC SRG)]
+
+Cloud computing
+
+DEFAULTSORT:Cloud computing security
+Category:Cloud computing
+Category:Computer security

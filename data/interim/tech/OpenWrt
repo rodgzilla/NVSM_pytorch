@@ -1,0 +1,324 @@
+Use mdy dates|date=September 2015
+mergefrom|LEDE|discuss=Talk:OpenWrt#Merger proposal|date=October 2017
+Third-party|date=November 2013
+Infobox OS
+| name = OpenWrt
+| logo = Openwrt Logo.svg
+| screenshot = OpenWrt Screenshot 18.06.1.svg
+| caption = OpenWrt 18.06.1 login screen
+| developer = OpenWrt Project
+| family = Unix-like
+| working_state = Current
+| source_model = Open-source software|Open source
+| released = Start date and age|df=yes|2004|01
+| latest release date = Start date and age|2019|01|31|df=yes|paren=yes
+
+<ref>cite web|title=OpenWrt 18.06.1 - First Stable Release - July 2018|url=https://openwrt.org/releases/18.06/notes-18.06.1</ref>
+| latest release version = 18.06.2
+| language = 22 languages<ref>cite web |url=http://i18n.luci.subsignal.org/ |title=LuCI Translation Portal |date=2004-09-01 |accessdate=2010-12-31 |deadurl=yes |archiveurl=https://web.archive.org/web/20101119164526/http://i18n.luci.subsignal.org/ |archivedate=November 19, 2010 |df=mdy-all </ref>
+| updatemodel = opkg
+| package_manager = opkg
+| supported_platforms = 50 different platforms using the following Instruction sets: ARC_(processor)|ARC, ARM architecture|ARM, Motorola 68000 family|m68k, MIPS architecture|MIPS, PowerPC, SPARC, SuperH, x86, x86-64<ref>cite web|url=https://git.openwrt.org/?p=openwrt/openwrt.git;a=blob;f=target/Config.in |title=git.openwrt.org Git - openwrt/openwrt.git/blob - target/Config.in |website=git.openwrt.org |date=2017-10-24 |accessdate=2018-07-02</ref>
+| kernel_type = Monolithic kernel|Monolithic (Linux kernel|Linux)
+| userland = BusyBox
+| ui = Command-line interface|CLI, WebUIs
+| license = Free software (GPL and other licenses)
+| website = URL|www.openwrt.org
+
+
+OpenWrt is an open source project for embedded operating system based on Linux kernel | Linux, primarily used on Embedded system|embedded devices to Router (computing)|route network traffic. The main components are Linux, util-linux, musl,<ref>Cite news|url = http://comments.gmane.org/gmane.comp.embedded.openwrt.devel/32651|title = OpenWrt switches to musl by default|last = Fietkau|first = Felix|date = 16 June 2015|work = |access-date = 16 June 2015|via = </ref> and BusyBox. All components have been optimized to be small enough to fit into the limited storage and memory available in home routers.
+
+OpenWrt is configured using a command-line interface (Almquist shell|ash shell), or a web interface (LuCI). There are about 3500 optional software package (installation)|software packages available for installation via the opkg package management system.
+
+OpenWrt can run on various types of devices, including Customer-premises equipment|CPE routers, residential gateways, smartphones, pocket computers (e.g. Ben NanoNote), and laptops. It is also possible to run OpenWrt on personal computers, which are most commonly based on the x86 architecture.
+
+ History 
+The OpenWrt project was started in 2004 after Linksys had built the firmware for their Linksys WRT54G series|WRT54G series of wireless routers with code licensed under the GNU General Public License.<ref>cite mailing list | url=https://lkml.org/lkml/2003/6/7/164 | title=Linksys WRT54G and the GPL | date=7 June 2003 | accessdate=5 July 2018 | mailing-list=Linux kernel mailing list | last=Miklas | first=Andrew</ref> Under the terms of that license, Linksys was required to make the source code of its modified version available under the same license,<ref>cite web | url=http://www.wi-fiplanet.com/tutorials/article.php/3562391 | title=The Open Source WRT54G Story | last=Weiss | first=Aaron | date=8 November 2005 | website=Wi-Fi Planet | access-date=5 July 2018</ref><ref>cite web | url=http://hardware.slashdot.org/story/03/07/06/2121234/linksys-releases-gpled-code-for-wrt54g | title=Linksys Releases GPLed Code for WRT54G | date=6 July 2003 | website=Slashdot | access-date=5 July 2018</ref> which enabled independent developers to create derivative versions. Support was originally limited to the WRT54G series, but has since been expanded to include many other routers and devices from many different manufacturers.
+
+Using this code as a base and later as a reference, developers created a Linux distribution that offers many features not previously found in consumer-level routers. Some features formerly required proprietary software. Before the introduction of OpenWrt 8.09, using Linux 2.6.25 and the <code>b43</code> kernel module, WLAN for many Broadcom-based routers was only available through the proprietary <code>wl.o</code> module that was also provided for Linux 2.4.x only. 
+
+OpenWrt releases were historically named after cocktails, such as White Russian (cocktail)|White Russian, Kamikaze (cocktail)|Kamikaze, Backfire, Attitude Adjustment, Barrier Breaker and Chaos Calmer, and their recipes were included in the motd (Unix)|message of the day (motd) displayed after logging in using the command-line interface.
+
+In May 2016, OpenWrt was forked by a group of core OpenWrt contributors due to disagreements on internal process.<ref>Cite web
+| title = LEDE and OpenWrt
+| author = Willis
+| first = Nathan
+| work = LWN.net
+| date = May 11, 2016
+| accessdate = 2017-08-31
+| url = https://lwn.net/Articles/686767/
+| language =  
+| quote = 
+</ref> The fork was dubbed Linux Embedded Development Environment (LEDE). The schism was reconciled a year later.<ref>Cite web
+| title = OpenWRT and LEDE agree on Linux-for-routers peace plan
+| author = Sharwood
+| first = Simon
+| work = theregister.co.uk
+| date = 10 May 2017
+| accessdate = 2017-08-31
+| url = https://www.theregister.co.uk/2017/05/10/openwrt_and_lede_peace_plan/
+| quote = 
+</ref> Following the remerger, announced in January 2018,<ref>Cite web
+| title = Announcing the OpenWrt/LEDE merge
+| author = Wich
+| first = Jo-Philipp
+| work = LEDE Project Forum
+| date = Jan 2, 2018
+| accessdate = 2018-01-10
+| url = https://forum.lede-project.org/t/announcing-the-openwrt-lede-merge/10217
+| quote = 
+</ref> the OpenWrt branding is preserved, with many of the LEDE processes and rules used. The LEDE project name was used for v17.01, with development versions of 18.01 branded OpenWrt, dropping the original cocktail based naming scheme.<ref name=merged>cite web |url=https://openwrt.org/ |title=Welcome to the OpenWrt Project (OpenWrt Project) |website=OpenWrt|date=January 2018  |author= |accessdate= 16 February 2018|quote=As of January 2018, the current Stable OpenWrt release [17.01.4] was built from the LEDE 17.01 source code, and branded with the LEDE project name. Development versions of OpenWrt are currently branded with the OpenWrt name, and have a version number of 18.01 "</ref>
+<noinclude>
+
+
+= Releases =
+{| class="wikitable" 
+|-
+! Revision
+! Code Name
+! Version
+! Release date
+! Kernel
+! C standard library|libc
+! Notes
+|-
+| r6268
+| Version |o |White Russian
+| 0.9
+| January 2006
+| 2.4.30
+| rowspan=10 | uClibc
+| NVRAM-based, <code>nas</code>, <code>wl</code>. Supported platform: <code>brcm-2.4</code>.
+|-
+| r7428
+| Version |o |Kamikaze
+| 7.06
+| June 2007
+| 2.6.19
+| Using <code>opkg</code>.  Supported platforms: <code>atheros-2.6</code>, <code>au1000-2.6</code>, <code>brcm-2.4</code>, <code>brcm47xx-2.6</code>, <code>ixp4xx-2.6</code>, <code>imagicbox-2.6</code>, <code>rb532-2.6</code> and <code>x86-2.6</code>.
+|-
+| r7832
+| Version |o |Kamikaze
+| 7.07
+| July 2007
+| rowspan=2 | 2.6.21
+| New platform: <code>amcc-2.6</code>.
+|-
+| r8679
+| Version |o |Kamikaze
+| 7.09
+| September 2007
+| n/a
+|-
+| r14547
+| Version |o |Kamikaze
+| 8.09
+| September 2008
+| 2.6.26
+| New platform: <code>ar71xx</code>.
+|-
+| r20742
+| Version |o |Backfire
+| 10.03
+| date|2010-04-07|mdy<ref name="Release Notes Backfire 10.03">cite web|url=https://forum.openwrt.org/viewtopic.php?id=24177 |title=Release Notes Backfire 10.03 |date=2010-04-07 |website=openwrt.org |accessdate=2013-04-26</ref>
+| 2.6.32
+| Supported platforms: <code>adm5120_mips</code>, <code>adm5120_mipsel</code>, <code>ar7</code>, <code>ar71xx</code>, <code>atheros</code>, <code>Alchemy (microarchitecture)|au1000</code>, <code>avr32</code>, <code>brcm-2.4</code>, <code>brcm47xx</code>, <code>brcm63xx</code>, <code>cobalt</code>, <code>ep80579</code>, <code>ifxmips</code>, <code>ixp4xx</code>, <code>kirkwood</code>, <code>octeon</code>, <code>orion</code>, <code>ppc40x</code>, <code>ppc44x</code>, <code>rb532</code>, <code>rdc</code>, <code>x86</code> and <code>XBurst (microarchitecture)|xburst</code>.
+|-
+| r36088
+| Version |o |Attitude Adjustment
+| 12.09
+| date|2013-04-25|mdy<ref name="Release Notes Attitude Adjustment 12.09">cite web|url=https://forum.openwrt.org/viewtopic.php?id=43764 |title=Release Notes Attitude Adjustment 12.09 |date=2013-04-25 |website=openwrt.org |accessdate=2013-04-26 </ref>
+| 3.3
+| CoDel (network scheduler) backported from Linux 3.5 to 3.3.  New platforms: <code>ramips</code>, Raspberry Pi|<code>bcm2708</code> (Raspberry Pi) and others.
+|-
+| r42625
+| Version |o |Barrier Breaker
+| 14.07
+| date|2014-10-02|mdy<ref>cite web |url=https://forum.openwrt.org/viewtopic.php?pid=242292|title=OpenWrt BarrierBreaker 14.07|website=openwrt.org|publication-date=October 2014</ref>
+| 3.10.49<ref>cite web|url=https://dev.archive.openwrt.org/changeset/41776 |title=kernel: update to 3.10.49 |website=dev.archive.openwrt.org |date=2014-07-20</ref>
+| New platforms: <code>i.MX#i.MX23 family|i.MX23</code>, <code>i.MX#i.MX6x series|i.MX6</code>.<ref>Cite web|url=https://openwrt.org/docs/techref/hardware/soc/soc.freescale.imx|title=OpenWrt Project: Freescale i.MX|website=openwrt.org|language=en|access-date=2018-07-16</ref>
+|-
+| r46767
+| Version |o |Chaos Calmer
+| 15.05
+| date|2015-09-11|mdy<ref>cite web |url=https://forum.openwrt.org/viewtopic.php?id=59528|title=OpenWrt  Chaos Calmer 15.05|website=openwrt.org|publication-date=September 2015</ref>
+| 3.18.20<ref>cite web |url=https://lists.openwrt.org/pipermail/openwrt-devel/2015-July/034444.html |title=[OpenWrt-Devel] Chaos Calmer 15.05-rc3 |date=2015-07-16</ref>
+| nftables (available since Linux kernel 3.12); New platforms: TBA if any
+|-
+| r49022
+| Version | o | Chaos Calmer
+| 15.05.1
+| date|2016-03-16|mdy<ref name="auto">cite web | url=https://forum.openwrt.org/viewtopic.php?id=63415 | title=Chaos Calmer 15.05.1 | date=16 March 2016 | access-date=21 March 2016</ref>
+| 3.18.23<ref name="auto"/>
+| n/a
+|-
+| v17.01.5<ref>cite web | url=https://git.openwrt.org/?p=openwrt/openwrt.git;a=tag;h=refs/tags/v17.01.5 | title=v17.01.5 Tag  | date=2018-07-15 | access-date=2018-08-08</ref>
+| Version | co | Reboot (LEDE)
+| 17.01.5
+| date|2018-07-17|mdy<ref>cite web | url=http://downloads.openwrt.org/releases/ | title=LEDE Project Releases | access-date=2018-08-08</ref>
+|  4.4.140<ref>cite web | url=https://openwrt.org/releases/17.01/notes-17.01.5 | title=OpenWrt/LEDE 17.01.5 - Fifth Service Release - July 2018 | date=17 July 2018 | access-date=2018-08-08</ref>
+| rowspan="5" | musl<ref>cite web |url=https://lists.openwrt.org/pipermail/openwrt-devel/2015-June/033702.html |title=[OpenWrt-Devel] OpenWrt switches to musl by default |date=2015-06-16</ref>
+| n/a
+|-
+| v18.06.0
+| 18.06.0
+| 18.06.0
+| date|2018-07-31|mdy
+| 4.9.111 / 4.14.52
+| n/a
+|-
+|v18.06.1
+|18.06.1
+|18.06.1
+|4.9.120 / 4.14.63| August 19, 2018
+|4.9.120 / 4.14.63| 4.9.120 / 4.14.63
+| n/a
+|-
+|v18.06.2
+| Version | c | 18.06.2
+|18.06.2
+|4.9.152 / 4.14.95| January 31, 2019
+|4.9.152 / 4.14.95| 4.9.152 / 4.14.95
+| n/a
+|-
+| git-tree
+| Version |cp | SNAPSHOT 
+| ''development''
+| n/a
+| 4.9 / 4.14
+| n/a
+|-
+| colspan="7" | Version |l |show=11111
+|}
+
+With the Attitude Adjustment (12.09) release of OpenWrt, all hardware devices with 16&nbsp;MB or less RAM are no longer supported as they can run out of memory easily.
+
+ Features 
+OpenWrt features a writeable Root directory|root file system, enabling users to modify any file and easily install additional software. This is in contrast with other firmware based on read-only file systems which don't allow modifying installed software without rebuilding and flashing a complete firmware image. This is accomplished by overlaying a read-only compressed SquashFS file system with a writeable JFFS2 file system using overlayfs.<ref>cite web | url=https://openwrt.org/docs/techref/flash.layout | title=The OpenWrt Flash Layout | website=OpenWrt Project | access-date=7 July 2018</ref><ref>cite web | url=https://lwn.net/Articles/447650/ | title=Debating overlayfs | last=Corbet | first=Jonathan | date=15 June 2011 | website=LWN.net | access-date=7 July 2018</ref> Additional software can be installed with the ''opkg'' package manager and the package repository contains approximately 3500 packages.
+
+Image:Openwrt-luci-firewall.png | thumb | LuCI
+OpenWrt can be configured through either a command-line interface or a web interface called LuCI. OpenWrt provides set of scripts called UCI (unified configuration interface) to unify and simplify configuration through the command-line interface.<ref>cite web | url=https://openwrt.org/docs/guide-user/base-system/uci | title=The UCI System | website=OpenWrt Project | access-date=8 July 2018</ref> Additional web interfaces, such as Gargoyle (router firmware)|Gargoyle, are also available.
+
+OpenWrt provides regular bug fixes and security updates even for devices that are no longer supported by their manufacturers.
+
+Other features include:
+* Extensible configuration of the entire hardware drivers, e.g. built-in network switches and their VLAN-capabilities, Wireless network interface controller|WNICs, DSL modems, Foreign exchange service (telecommunications)|FX, available hardware buttons, etc.
+* Exhaustive possibilities to configure Computer network|network-related features, like:
+** IPv4 support.
+** IPv6 native stack: 
+*** Prefix Handling, 
+*** Native IPv6 configuration (SLAAC, stateless DHCPv6, stateful DHCPv6, DHCPv6-PD), 
+*** IPv6 transitioning technologies (6rd, 6to4, 6in4, ds-lite, lw4o6, map-e), 
+*** Downstream IPv6 configuration (Router Advertisement, DHCPv6 (stateless and stateful) and DHCPv6-PD).
+** Routing through iproute2, Quagga (software)|Quagga, Bird Internet routing daemon|BIRD, Babel (protocol)|Babel etc.
+** Mesh networking through B.A.T.M.A.N., Optimized Link State Routing Protocol|OLSR and IEEE 802.11s-capabilities of the Comparison of open-source wireless drivers|WNIC drivers and other ad hoc mesh routing protocols that have been implemented within Linux.
+** Wireless functionality, e.g. make the device act as a wireless repeater, a wireless access point, a wireless bridge, a captive portal, or a combination of these with e.g. ChilliSpot, WiFiDog Captive Portal, etc.
+** Wireless security: Packet injection, e.g. [http://airpwn.sourceforge.net/Airpwn.html Airpwn], lorcon, e.a.
+** Stateful firewall, Network address translation|NAT and port forwarding through netfilter; additionally PeerGuardian is available
+** Dynamically-configured port forwarding protocols UPnP and NAT-PMP through upnpd, etc.
+** Port knocking via knockd and knock
+** TR-069 (CWMP) client<ref>cite web|url=https://events.ccc.de/congress/2012/Fahrplan/events/5112.en.html|title=29C3: ISP's black box|date=January 19, 2013|website=events.ccc.de</ref>
+** Intrusion prevention system|IPS via Snort (software)
+** Active queue management (AQM) through the network scheduler of the Linux kernel, with many available queuing disciplines. CoDel has been backported to Kernel 3.3.<ref>cite web|url=https://dev.archive.openwrt.org/changeset/31756 |title=kernel: add codel and fq_codel to generic 3.3 patch set |website=dev.archive.openwrt.org |date=2012-05-16 |accessdate=2018-07-02</ref> This encapsulates Traffic shaping to ensure fair distribution of bandwidth among multiple users and Quality of Service (QoS) for simultaneous use of applications such as VoIP, Online game|online gaming, and streaming media without experiencing the negative impacts of link saturation.
+** Load balancing for use with multiple Internet service provider|ISPs using source-specific routing
+** IP tunneling (GRE, OpenVPN, pseudowire, etc.)
+** Extensible realtime network monitoring and statistics through e.g. RRDtool, Collectd, Nagios, Munin (network monitoring application)|Munin lite, Zabbix, etc.
+** Domain Name System (DNS) and DHCP through Dnsmasq, MaraDNS, etc.
+** Dynamic DNS services to maintain a fixed domain name with an Internet service provider|ISP that does not provide a static IP address
+** Wireless distribution system (WDS) including WPA-PSK, WPA2-PSK, WPA-PSK/WPA2-PSK Mixed-Mode encryption modes
+* OpenWrt supports any hardware that has Linux support; devices that can be connected (e.g. over Universal Serial Bus|USB) to an embedded device include
+** Printer (computing)|Printers
+** Mobile broadband modems
+** Webcams
+** Sound cards
+* Notable software packages to use the hardware support are:
+** File sharing via SAMBA, (Windows-compatible), Network File System (protocol)|NFS, FTP, SFTP. Printer sharing over the print server CUPS (spooling) or p910nd (non-spooling)
+** PulseAudio, Music Player Daemon, Audio/Video streaming via DLNA/Universal Plug and Play#UPnP AV standards|UPnP AV standards, iTunes (Digital Audio Access Protocol|DAAP) server
+** Asterisk (PBX)
+** MQ Telemetry Transport through Mosquitto
+
+ Anchor|BUILDROOTDevelopment 
+OpenWrt's development environment and build system, known together as ''OpenWrt Buildroot'', are based on a heavily modified Buildroot system.  OpenWrt Buildroot is a set of Makefiles and patch (Unix)|patches that automates the process of building a complete Linux-based OpenWrt system for an embedded device, by building and using an appropriate Cross compiler|cross-compilation toolchain.<ref name="buildroot-about">cite web
+ | url = https://openwrt.org/docs/guide-developer/build-system/start
+ | title = OpenWrt Buildroot – About
+ | accessdate = 2013-10-21
+ | website = openwrt.org
+</ref><ref>cite web
+ | url = http://downloads.openwrt.org/docs/buildroot-documentation.html
+ | title = OpenWrt Buildroot - Usage and documentation
+ | date = 2006-01-08 | accessdate = 2013-10-21
+ | website = openwrt.org
+</ref>
+
+Embedded devices usually use a different processor than the one found in host computers used for building their OpenWrt system images, requiring a cross-compilation toolchain.  Such a compilation toolchain runs on a host system, but generates code for a targeted embedded device and its processor's instruction set architecture (ISA).  For example, if a host system uses x86 and a target system uses MIPS32, the regular compilation toolchain of the host runs on x86 and generates code for x86 architecture, while the cross-compilation toolchain runs on x86 and generates code for the MIPS32 architecture.  OpenWrt Buildroot automates this whole process to work on the instruction set architectures of most embedded devices and host systems.<ref name="buildroot-about" /><ref name="openwrt-dev-guide">cite web
+ | url = http://www.ccs.neu.edu/home/noubir/Courses/CS6710/S12/material/OpenWrt_Dev_Tutorial.pdf
+ | format = PDF | title = OpenWrt Development Guide
+ | date = 2012-02-13 | accessdate = 2013-10-21
+ | author = Tao Jin | publisher = Wireless Networks Lab, CCIS, NEU
+</ref>
+
+OpenWrt Buildroot provides the following features:<ref name="buildroot-about" /><ref name="openwrt-dev-guide" />
+* Makes it easy to port software across architectures
+* Uses kconfig (Linux kernel menuconfig) for the configuration of all options
+* Provides an integrated cross-compiler toolchain (GNU Compiler Collection|gcc, ld (Unix)|ld, uClibc etc.)
+* Provides an abstraction for autotools (automake, autoconf), cmake and SCons
+* Handles standard OpenWrt image build workflow: downloading, patching, configuration, compilation and packaging
+* Provides a number of common fixes for known badly behaving packages
+
+Besides building system images, OpenWrt development environment also provides a mechanism for simplified cross-platform building of OpenWrt software packages.  Source code for each software package is required to provide a Makefile-like set of building instructions, and an optional set of patches for bug fixes or footprint optimizations.<ref>cite web
+ | url = https://openwrt.org/docs/devel/packages
+ | title = Creating packages
+ | accessdate = 2013-10-21
+ | website = openwrt.org
+</ref>
+
+ Hardware compatibility 
+OpenWrt runs many different routers, and includes a table of compatible hardware on its website.<ref>Cite web|url=https://openwrt.org/toh/start|title=OpenWrt Project: Table of Hardware|website=openwrt.org|access-date=2018-07-02</ref> In its buyer's guide<ref>Cite web|url=https://openwrt.org/toh/buyerguide|title=OpenWrt Project: Buyers' Guide|website=openwrt.org|access-date=2018-07-02</ref>, it notes that users recommend devices equipped with wireless chips from either Qualcomm's Qualcomm Atheros|Atheros or Ralink (now MediaTek).
+
+ Adoption 
+OpenWrt, especially its Buildroot build system, has been adopted many times:
+* Freifunk and other mesh network communities
+* Bufferbloat.net (Cerowrt)
+* SIMET Box, developed by NIC.br, is OpenWrt-based<ref>cite web |url=https://simet.nic.br/simetbox.html |title=Simet Box |accessdate=2017-09-14</ref>
+* Internet Engineering Task Force|IETF IPv6 integration projects HIPnet and HomeNet are OpenWrt-based
+
+= Anchor|PACKET-PROTECTOR|CEROWRTDerivatives =
+See also|List of router firmware projects
+
+* LEDE was a fork of the OpenWrt project. The two projects reconciled and merged under the OpenWrt name<ref name="lwn-openwrt-lede-merge">cite web |title=Announcing the OpenWrt/LEDE merge |url=https://lwn.net/Articles/742708/ |website=Linux Weekly News |accessdate=8 June 2018</ref>.
+* ''CeroWrt''snd with a purpose to complement the debloat-testing kernel tree and provide a platform for real-world testing of bufferbloat fixes<ref>cite web |url=http://www.bufferbloat.net/projects/cerowrt/wiki |title=CeroWrt Wiki |accessdate=2015-09-16</ref><ref>cite web|url=https://lwn.net/Articles/429943/ |title=ANNOUNCE: debloat-testing kernel git tree |publisher=LWN.net |date= |accessdate=2014-02-13</ref>
+* Coova chillisnd OpenWrt-based with focus on wireless hotspots, a fork of chillifire with focus on wireless hotspot management
+* Gargoyle (router firmware)|Gargoylesnd a web interface for OpenWrt with a strong emphasis on usability that later forked into a separate distribution
+* Fluksosnd Wireless sensor nodes using an Atheros AR2317 chipset running a patched OpenWrt OS for communication. Sources and hardware schematics available on GitHub.
+* Fon (company)|Fonsnd OpenWrt-based wireless routers acting as hotspots. Sources and toolchain available on fonosfera.org
+* Lininosnd OpenWrt-based distribution for the MIPS architecture|MIPS-based Arduino Yùn: [https://github.com/arduino/linino GitHub Project]
+* Midge Linuxsnd an OpenWrt-based distribution for devices based on Infineon Technologies ADM-5120 System-on-a-chip|SoCs, such as Edimax BR-6104K and BR-6104KP.
+* OpenSANsnd iSCSI target Storage Area Network realization.
+* PacketProtectorsnd OpenWrt-based security distribution that includes Intrusion detection system|IDS, Internet Provider Security|IPS, Virtual private network|VPN, and web antivirus capabilities. Packages included Snort, Snort-inline, FreeRADIUS, OpenVPN, DansGuardian and ClamAV. These tools were accessible via the old web GUI management interface of OpenWrt, called X-Wrt or webif^2. Project ended on June 7, 2012.<ref>cite web |url=https://packetprotector.org/forum/viewtopic.php?id=5007 |title="closing time" message from author on PacketProtector forum |deadurl=yes |archiveurl=https://web.archive.org/web/20130421070224/https://packetprotector.org/forum/viewtopic.php?id=5007 |archivedate=April 21, 2013 |df=mdy-all </ref>
+* The Turris Omnia router runs on an OpenWrt derivative
+* Diverse grassroots projects for wireless community networks, including Freifunk, Libre-Mesh and qMp
+* libreCMCsnd OpenWrt-based distribution without non-free software or binary blobs, endorsed by the Free Software Foundation<ref>cite web|url=https://www.fsf.org/news/fsf-adds-librecmc-to-endorsed-distros-list |title=Free Software Foundation adds libreCMC to its list of endorsed distributions |website=FSF.org |date=2014-09-04 |accessdate=2014-12-21</ref>
+
+ References 
+Reflist|30em
+
+ External links 
+Portal|Linux
+Commons category
+* Official website|https://www.openwrt.org/
+* [https://github.com/openwrt/luci/wiki LuCI project]
+* [http://openwrtsummit.org/ OpenWrt Summit]
+* [https://www.linksys.com/us/support-article?articleNum=114663 GPL Code Center] at Linksys
+
+Routing software
+Firewall software
+Software in the Public Interest
+
+Category:Custom firmware
+Category:Embedded Linux distributions
+Category:Free routing software
+Category:Homebrew software
+Category:Linux distributions without systemd
+Category:Lua-scriptable software
+Category:Network operating systems
+Category:Wi-Fi

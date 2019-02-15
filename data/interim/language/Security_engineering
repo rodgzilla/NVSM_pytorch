@@ -1,0 +1,179 @@
+refimprove|date=June 2017
+Security engineering is a specialized field of engineering that focuses on the security aspects in the design of systems that need to be able to deal robustly with possible sources of disruption, ranging from natural disasters to malicious acts. It is similar to other systems engineering activities in that its primary motivation is to support the delivery of engineering solutions that satisfy pre-defined functional and user requirements, but it has the added dimension of preventing misuse and malicious behavior. Those constraints and restrictions are often asserted as a security policy.
+
+In one form or another, security engineering has existed as an informal field of study for several centuries. For example, the fields of locksmithing and security printing have been around for many years.
+
+Recent catastrophic events, most notably 9/11, have made security engineering quickly become a rapidly-growing field. In fact, in a report completed in 2006, it was estimated that the global security industry was valued at US$150 billion.
+
+Security engineering involves aspects of social science, psychology (such as designing a system to "fail well", instead of trying to eliminate all sources of error), and economics as well as physics, chemistry, mathematics, architecture, and landscaping.<ref>cite news|url=http://findarticles.com/p/articles/mi_m1216/is_n5_v181/ai_6730246 |archive-url=https://archive.is/20120718154110/http://findarticles.com/p/articles/mi_m1216/is_n5_v181/ai_6730246 |dead-url=yes |archive-date=2012-07-18 |work=Sunset |title=Landscaping for security |year=1988</ref>
+Some of the techniques used, such as fault tree analysis, are derived from safety engineering.
+
+Other techniques such as cryptography were previously restricted to military applications. One of the pioneers of security engineering as a formal field of study is Ross J. Anderson|Ross Anderson.
+
+Qualifications
+No single qualification exists to become a security engineer.
+
+However, an undergraduate and/or graduate degree, often in computer science, computer engineering, or information assurance, in combination with practical work experience (systems, network engineering, software development, etc.) most qualifies an individual to succeed in the field. Other degree qualifications with a security focus exist. Multiple List_of_computer_security_certifications|certifications, such as the Certified Information Systems Security Professional, are available that may demonstrate expertise in the field. Regardless of the qualification, the course must include a knowledge base to diagnose the security system drivers, security theory and principles including defense in depth, protection in depth, situational crime prevention and crime prevention through environmental design to set the protection strategy (professional inference), and technical knowledge including physics and mathematics to design and commission the engineering treatment solution. 
+
+All this knowledge must be braced by professional attributes including strong communication skills and high levels of literacy for engineering report writing. Security engineering also goes by the label Security Science.
+
+Sub-fields
+* Information security
+:*protecting data from unauthorized access, use, disclosure, destruction, modification, or disruption to access.
+:* See esp. Computer security
+* Physical security
+:*deter attackers from accessing a facility, resource, or information stored on physical media.
+* Technical surveillance counter-measures
+* Economics of security
+:*the economic aspects of economics of privacy and computer security.
+
+Methodologies
+Technological advances, principally in the field of computers, have now allowed the creation of far more complex systems, with new and complex security problems.  Because modern systems cut across many areas of human endeavor, security engineers not only need consider the mathematical and physical properties of systems; they also need to consider attacks on the people who use and form parts of those systems using Social engineering (computer security)|social engineering attacks.  Secure systems have to resist not only technical attacks, but also coercion, fraud, and deception by confidence tricksters.
+
+=Web applications=
+According to the ''Microsoft Developer Network'' the patterns and practices of security engineering consist of the following activities:<ref>[http://msdn2.microsoft.com/en-us/library/ms998404.aspx patterns & practices of Security Engineering]</ref>
+* Security Objectives
+* Security Design Guidelines
+* Security Modeling
+* Security Architecture and Design Review
+* Security Code Review
+* Security Testing
+* Security Tuning
+* Security Deployment Review
+These activities are designed to help meet security objectives in the software life cycle.
+
+=Physical=
+File:Canadian Embassy DC 2007 002.jpg|thumb|Canadian Embassy in Washington, D.C. showing planters being used as vehicle barriers, and barriers and gates along the vehicle entrance
+* Understanding of a ''typical'' threat and the usual risks to people and property.
+* Understanding the incentives created both by the threat and the countermeasures.
+* Understanding risk and threat analysis methodology and the benefits of an empirical study of the physical security of a facility.
+* Understanding how to apply the methodology to buildings, critical infrastructure, ports, public transport and other facilities/compounds.
+* Overview of common physical and technological methods of protection and understanding their roles in Deterrence (psychology)|deterrence, detection and mitigation.
+* Determining and prioritizing security needs and aligning them with the perceived threats and the available budget.
+
+Target hardening
+Whatever the target, there are multiple ways of preventing penetration by unwanted or unauthorised persons. Methods include placing Jersey barriers, stairs or other sturdy obstacles outside tall or politically sensitive buildings to prevent car and truck bombings. Improving the method of visitor management and some new electronic Lock (security device)|locks take advantage of technologies such as fingerprint scanning, iris or retinal scanning, and voice identification|voiceprint identification to authenticate users.
+
+See also
+col-start
+col-break
+Computer-related
+* Security Requirements Analysis
+* Secure coding
+* Security testing
+* Product lifecycle (engineering)#Phases of product lifecycle and corresponding technologies|Engineering Product Lifecycle
+* Authentication
+* Cryptanalysis
+* Data remanence
+* Defensive programming (secure coding)
+* Earthquake engineering
+* Explosion protection
+* Password policy
+* Security hacker
+* Software cracking
+* Software security assurance
+* Security pattern
+* Systems engineering
+* Trusted system
+* Economics of security
+
+col-break
+Physical
+* Access control
+* Authorization
+* Critical infrastructure protection
+* Environmental design (esp. Crime prevention through environmental design|CPTED)
+* Mantrap (access control)|Mantrap
+* Physical security
+* Secrecy
+* Secure cryptoprocessor
+* Security through obscurity
+
+col-break
+Misc. Topics
+* Full disclosure (computer security)
+* Security awareness
+* Security community
+* Steganography
+* Kerckhoffs's principle
+col-end
+
+References
+Reflist
+
+Further reading
+*cite book
+ |    author = Ross Anderson
+ |      year = 2001
+ |     title = Security Engineering
+ | publisher = Wiley
+ |        isbn = 0-471-38922-6
+ |       url = http://www.cl.cam.ac.uk/~rja14/book.html
+ |authorlink = Ross J. Anderson
+ 
+*cite book
+ |    author = Ross Anderson
+ |      year = 2008
+ |     title = Security Engineering - A Guide to Building Dependable Distributed Systems
+ | publisher = Wiley
+ |        isbn = 0-470-06852-3
+ |authorlink = Ross J. Anderson
+ 
+* Ross Anderson (2001). "[http://www.acsa-admin.org/2001/papers/110.pdf Why Information Security is Hard - An Economic Perspective]"
+<!--
+*Conference reference
+ |    Author = Ross J. Anderson|Ross Anderson
+ |      Year = 2001
+ |     Title = Why Information Security is Hard - An Economic Perspective
+ | Booktitle = Proc. Annual Computer Security Applications Conference
+ |     Pages = 
+ |       URL = http://www.acsa-admin.org/2001/papers/110.pdf
+ -->
+*cite book
+ |    author = Bruce Schneier
+ |      year = 1995
+ |     title = Applied Cryptography
+ | publisher = Wiley
+ |   edition = 2nd
+ |        isbn = 0-471-11709-9
+ |authorlink = Bruce Schneier
+
+*cite book
+ |    author = Bruce Schneier
+ |      year = 2000
+ |     title = Secrets and Lies: Digital Security in a Networked World
+ | publisher = Wiley
+ |        isbn = 0-471-25311-1
+
+*cite web
+ |      author = David A. Wheeler
+ | year = 2003
+ |         url = http://www.dwheeler.com/secure-programs
+ |       title = Secure Programming for Linux and Unix HOWTO
+ |        work = Linux Documentation Project
+ |        accessdate = 2005-12-19
+ 
+*cite web
+ |      author = Ron Ross, Michael McEvilley, Janet Carrier Oren
+ | year = 2016
+ |         url = http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-160.pdf
+ |       title = Systems Security Engineering
+ |        work = Internet of Things
+ |        accessdate = 2016-11-22
+ 
+
+=Articles and papers=
+* [http://channel9.msdn.com/wiki/default.aspx/SecurityWiki.SecurityEngineering patterns & practices Security Engineering on Channel9]
+* [http://msdn.com/SecurityEngineering patterns & practices Security Engineering on MSDN]
+* [https://web.archive.org/web/20060622155933/http://msdn.microsoft.com/library/en-us/dnpag2/html/secengexplained.asp patterns & practices Security Engineering Explained]
+* [https://web.archive.org/web/20070829200622/http://www.capitalprograms.sa.edu.au/a8_publish/modules/publish/content.asp?id=23343&navgrp=2557 Basic Target Hardening] from the Government of South Australia
+
+Engineering fields
+
+DEFAULTSORT:Security Engineering
+Category:Security engineering| 
+Category:Cryptography
+Category:Security
+Category:National security
+Category:Crime prevention
+Category:Public safety

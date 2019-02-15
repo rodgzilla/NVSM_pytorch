@@ -1,0 +1,283 @@
+about|the quantum computing unit
+Fundamental info units
+
+In quantum computing, a qubit&nbsp;(IPAc-en|ˈ|k|juː|b|ɪ|t)&nbsp;or quantum bit&nbsp;(sometimes qbit) is the basic unit of quantum information—the quantum version of the classical binary bit physically realized with a two-state device.  A qubit is a Two-state quantum system|two-state (or two-level) quantum-mechanical system, one of the simplest quantum systems displaying the peculiarity of quantum mechanics.  Examples include: the spin (physics)|spin of the electron in which the two levels can be taken as spin up and spin down; or the Photon polarization|polarization of a single photon in which the two states can be taken to be the vertical polarization and the horizontal polarization. In a classical system, a bit would have to be in one state or the other. However, quantum mechanics allows the qubit to be in a coherent Quantum superposition|superposition&nbsp;of both states/levels  simultaneously, a property which is fundamental to quantum mechanics and quantum computing.
+
+Etymology
+The coining of the term ''qubit'' is attributed to Benjamin Schumacher.<ref name="schumacher1995">
+cite journal
+ |author=B. Schumacher | authorlink=Benjamin Schumacher
+ |year=1995
+ |title=Quantum coding
+ |journal=Physical Review A
+ |volume=51 |pages=2738–2747
+ |doi=10.1103/PhysRevA.51.2738
+|bibcode = 1995PhRvA..51.2738S
+ |issue=4 </ref> In the acknowledgments of his 1995 paper, Schumacher states that the term ''qubit'' was created in jest during a conversation with William Wootters.  The paper describes a way of compressing states emitted by a quantum source of information so that they require fewer physical resources to store.  This procedure is now known as Schumacher compression.
+
+Bit versus qubit
+A binary digit, characterized as 0 and 1, is used to represent information in classical computers. A binary digit can represent up to one bit of Shannon information, where a bit is the basic unit of information theory|information.  
+However, in this article, the word bit is synonymous with binary digit.
+
+In classical computer technologies, a ''processed'' bit is implemented by one of two levels of low Direct Current|DC voltage, and whilst switching from one of these two levels to the other, a so-called forbidden zone must be passed as fast as possible, as electrical voltage cannot change from one level to another ''instantaneously''.
+
+There are two possible outcomes for the measurement of a qubit&mdash;usually taken to have the value "0" and "1", like a bit or binary digit. However, whereas the state of a bit can only be either 0 or 1, the general state of a qubit according to quantum mechanics can be a Quantum superposition|coherent superposition&nbsp;of both.<ref name="nielsen2010">cite book |last1=Nielsen |first1=Michael A. | last2=Chuang | first2=Isaac L. |date=2010 |title=Quantum Computation and Quantum Information (book)|Quantum Computation and Quantum Information |publisher=Cambridge University Press |page=13 |isbn=978-1-107-00217-3 </ref>  Moreover, whereas a measurement of a classical bit would not disturb its state, a measurement of a qubit would destroy its coherence and irrevocably disturb the superposition state.  It is possible to fully encode one bit in one qubit. However, a qubit can hold more information, e.g. up to two bits using superdense coding.
+
+For a system of ''n'' components, a complete description of its state in classical physics requires only ''n'' bits, whereas in quantum physics it requires 2<sup>''n''</sup>−1 complex numbers.<ref name="shor1996">cite journal|last1=Shor|first1=Peter|title=Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer∗|date=1996|arxiv=quant-ph/9508027|bibcode=1995quant.ph..8027S</ref>
+
+Standard representation
+In quantum mechanics, the general quantum state of a qubit can be represented by a linear superposition of its two Orthonormality|orthonormal Basis (linear algebra)|basis states (or basis vector space|vectors). These vectors are usually denoted as
+<math>| 0 \rangle = \bigl[\begin{smallmatrix}
+1\\
+0
+\end{smallmatrix}\bigr]</math>
+and 
+<math>| 1 \rangle = \bigl[\begin{smallmatrix}
+0\\
+1
+\end{smallmatrix}\bigr]</math>.  They are written in the conventional List of things named after Paul Dirac|Dirac—or bra–ket notation|"bra–ket"—notation; the <math>| 0 \rangle </math> and <math>| 1 \rangle </math> are pronounced "ket 0" and "ket 1", respectively.  These two orthonormal basis states, <math>\{|0\rangle,|1\rangle\}</math>, together called the computational basis, are said to span the two-dimensional Hilbert space|linear vector (Hilbert) space of the qubit.
+
+Qubit basis states can also be combined to form product basis states. For example, two qubits could be represented in a four-dimensional linear vector space spanned by the following product basis states:
+<math>| 00 \rangle = \biggl[\begin{smallmatrix}
+1\\
+0\\
+0\\
+0
+\end{smallmatrix}\biggr]</math>,
+<math>| 01 \rangle = \biggl[\begin{smallmatrix}
+0\\
+1\\
+0\\
+0
+\end{smallmatrix}\biggr]</math>,
+<math>| 10 \rangle = \biggl[\begin{smallmatrix}
+0\\
+0\\
+1\\
+0
+\end{smallmatrix}\biggr]</math>, and 
+<math>| 11 \rangle = \biggl[\begin{smallmatrix}
+0\\
+0\\
+0\\
+1
+\end{smallmatrix}\biggr]</math>.
+
+In general, ''n'' qubits are represented by a superposition state vector in 2<sup>''n''</sup>-dimensional Hilbert space.
+
+Qubit states
+
+Unsolved|physics|Is it possible to have three-dimensional, Stabilizer code|self-correcting, quantum memory?
+
+A pure qubit state is a coherent quantum superposition|superposition of the basis states. This means that a single qubit can be described by a linear combination of <math>|0 \rangle </math> and <math>|1 \rangle </math>:
+
+: <math>| \psi \rangle = \alpha |0 \rangle + \beta |1 \rangle  </math>
+
+where <var>α</var> and <var>β</var> are probability amplitudes and can in general both be complex numbers.
+When we measure this qubit in the standard basis, according to the Born rule, the probability of outcome <math>|0 \rangle </math> with value "0" is <math>| \alpha |^2</math>  and the probability of outcome  <math>|1 \rangle </math>  with value "1" is <math>| \beta |^2</math>.  Because the absolute squares of the amplitudes equate to probabilities, it follows that <math>\alpha</math> and <math>\beta</math> must be constrained by the equation
+
+: <math>| \alpha |^2 + | \beta |^2 = 1.</math>
+
+Note that a qubit in this superposition state does not have a value in between "0" and "1"; rather, when measured, the qubit has a probability <math>| \alpha |^2</math> of the value “0” and a probability <math>| \beta |^2</math> of the value "1".  In other words, superposition means that there is no way, even in principle, to tell which of the two possible states forming the superposition state actually pertains.  Furthermore, the probability amplitudes, <math>\alpha</math> and <math>\beta</math>, encode more than just the probabilities of the outcomes of a measurement; the ''relative phase'' of <math>\alpha</math> and <math>\beta</math> is responsible for wave interference|quantum interference, ''e.g.'', as seen in the Double-slit experiment|two-slit experiment.
+
+=Bloch sphere representation=
+
+File:Bloch sphere.svg|thumb|Bloch sphere representation of a qubit. The probability amplitudes for the superposition state, <math>| \psi \rangle = \alpha |0 \rangle + \beta |1 \rangle,\,</math> are given by <math> \alpha = \cos\left(\frac{\theta}{2}\right) </math> and <math> \beta = e^{i \phi}  \sin\left(\frac{\theta}{2}\right) </math>.
+
+It might, at first sight, seem that there should be four Degrees of freedom (physics and chemistry)|degrees of freedom in <math>| \psi \rangle = \alpha |0 \rangle + \beta |1 \rangle\,</math>, as <math>\alpha</math> and <math>\beta</math> are complex numbers with two degrees of freedom each. However, one degree of freedom is removed by the normalization constraint math|!''α''!<sup>2</sup> + !''β''!<sup>2</sup> = 1.  This means, with a suitable change of coordinates, one can eliminate one of the degrees of freedom.  One possible choice is that of 3-sphere#Hopf coordinates|Hopf coordinates:
+:<math>\begin{align}
+\alpha &= e^{i \psi} \cos\frac{\theta}{2}, \\
+\beta &= e^{i (\psi + \phi)} \sin\frac{\theta}{2}.
+\end{align}</math>
+Additionally, for a single qubit the overall phase factor|phase of the state math|''e<sup>i ψ</sup>'' has no physically observable consequences, so we can arbitrarily choose math|''α'' to be real (or math|''β'' in the case that math|''α'' is zero), leaving just two degrees of freedom:
+:<math>\begin{align}
+\alpha &= \cos\frac{\theta}{2}, \\
+\beta &= e^{i \phi} \sin\frac{\theta}{2},
+\end{align}</math> 
+where <math> e^{i \phi} </math> is the physically significant ''relative phase''.
+
+The possible quantum states for a single qubit can be visualised using a Bloch sphere (see diagram). Represented on such a 2-sphere, a classical bit could only be at the "North Pole" or the "South Pole", in the locations where <math>|0 \rangle </math> and <math>|1 \rangle </math> are respectively. This particular choice of the polar axis is arbitrary, however.  The rest of the surface of the Bloch sphere is inaccessible to a classical bit, but a pure qubit state can be represented by any point on the surface. For example, the pure qubit state <math>((|0 \rangle +i|1 \rangle)/{\sqrt{2) </math> would lie on the equator of the sphere at the positive y axis.  In the classical limit, a qubit, which can have quantum states anywhere on the Bloch sphere, reduces to the classical bit, which can be found only at either poles.
+
+The surface of the Bloch sphere is a two-dimensional space, which represents the state space (physics)|state space of the pure qubit states. This state space has two local degrees of freedom, which can be represented by the two angles <math>\phi </math> and <math>\theta </math>.
+
+=Mixed state =
+A pure state is one fully specified by a single ket, <math>| \psi \rangle = \alpha |0 \rangle + \beta |1 \rangle,\,</math> a coherent superposition as described above.  Coherence is essential for a qubit to be in a superposition state.  With interactions and decoherence, it is possible to put the qubit in a Mixed state (physics)|mixed state, a statistical combination or incoherent mixture of different pure states. Mixed states can be represented by points ''inside'' the Bloch sphere (or in the Bloch ball). A mixed qubit state has three degrees of freedom: the angles <math>\phi </math> and <math>\theta </math>, as well as the length <math>r</math> of the vector that represents the mixed state.
+
+=Operations on pure qubit states=
+There are various kinds of physical operations that can be performed on pure qubit states.
+* Quantum logic gates, building blocks for a quantum circuit in a quantum computing|quantum computer, operate on one, two, or three qubits: mathematically, the qubits undergo a (reversible) unitary transformation under the quantum gate. For a single qubit, unitary transformations correspond to rotations of the qubit (unit) vector on the Bloch sphere to specific superpositions.  For two qubits, the Controlled NOT gate can be used to entangle or disentangle them.
+* Quantum measurement|Standard basis measurement is an irreversible operation in which information is gained about the state of a single qubit (and coherence is lost). The result of the measurement will be either <math>| 0 \rangle </math> (with probability <math>|\alpha|^2</math>) or <math>| 1 \rangle </math> (with probability <math>|\beta|^2</math>). Measurement of the state of the qubit alters the magnitudes of <var>α</var> and <var>β</var>.  For instance, if the result of the measurement is <math>| 1 \rangle </math>, <var>α</var> is changed to 0 and <var>β</var> is changed to the phase factor <math> e^{i \phi} </math> no longer experimentally accessible.  When a qubit is measured, the superposition state collapses to a basis state (up to a phase) and the relative phase is rendered inaccessible (i.e., coherence is lost).  Note that a measurement of a qubit state that is entangled with another quantum system transforms the qubit state, a pure state, into a Mixed state (physics)|mixed state (an incoherent mixture of pure states) as the relative phase of the qubit state is rendered inaccessible.
+
+Quantum entanglement
+An important distinguishing feature between qubits and classical bits is that multiple qubits can exhibit quantum entanglement. Quantum entanglement is a quantum nonlocality|nonlocal property of two or more qubits that allows a set of qubits to express higher correlation than is possible in classical systems.
+
+The simplest system to display quantum entanglement is the system of two qubits.  Consider, for example, two entangled qubits in the <math>|\Phi^+\rangle</math> Bell state:
+
+:<math>\frac{1}{\sqrt{2 (|00\rangle + |11\rangle).</math>
+
+In this state, called an ''equal superposition'', there are equal probabilities of measuring either product state <math>|00\rangle</math> or <math>|11\rangle</math>, as <math>|1/\sqrt{2}|^2 = 1/2</math>.  In other words, there is no way to tell if the first qubit has value “0” or “1” and likewise for the second qubit.
+
+Imagine that these two entangled qubits are separated, with one each given to Alice and Bob.  Alice makes a measurement of her qubit, obtaining&mdash;with equal probabilities&mdash;either <math>|0\rangle</math> or <math>|1\rangle</math>, i.e., she can not tell if her qubit has value “0” or “1”.  Because of the qubits' entanglement, Bob must now get exactly the same measurement as Alice.  For example, if she measures a <math>|0\rangle</math>, Bob must measure the same, as <math>|00\rangle</math> is the only state where Alice's qubit is a <math>|0\rangle</math>.  In short, for these two entangled qubits, whatever Alice measures, so would Bob, with ''perfect'' correlation, in any basis, however far apart they may be and even though both can not tell if their qubit has value “0” or “1” — a most surprising circumstance that can ''not'' be explained by classical physics.
+
+=Controlled gate to construct the Bell state=
+
+Quantum logic gate|Controlled gates act on 2 or more qubits, where one or more qubits act as a control for some specified operation. In particular, the controlled NOT gate (or CNOT or cX) acts on 2 qubits, and performs the NOT operation on the second qubit only when the first qubit is <math>|1\rangle</math>, and otherwise leaves it unchanged. With respect to the unentangled product basis <math>\{|00\rangle</math>, <math>|01\rangle</math>, <math>|10\rangle</math>, <math>|11\rangle\}</math>, it maps the basis states as follows:
+:<math> | 0 0 \rangle \mapsto | 0 0 \rangle </math>
+:<math> | 0 1 \rangle \mapsto | 0 1 \rangle </math>
+:<math> | 1 0 \rangle \mapsto | 1 1 \rangle </math>
+:<math> | 1 1 \rangle \mapsto | 1 0 \rangle </math>.
+
+A common application of the C<sub>NOT</sub> gate is to maximally entangle two qubits into the <math>|\Phi^+\rangle</math> Bell state.  To construct <math>|\Phi^+\rangle</math>, the inputs A (control) and B (target) to the C<sub>NOT</sub> gate are:
+
+<math>\frac{1}{\sqrt{2(|0\rangle + |1\rangle)_A</math> and <math>|0\rangle_B</math>
+
+After applying C<sub>NOT</sub>, the output is the <math>|\Phi^+\rangle</math> Bell State: <math>\frac{1}{\sqrt{2(|00\rangle + |11\rangle)</math>.
+
+=Applications=
+
+The <math>|\Phi^+\rangle</math> Bell state forms part of the setup of the superdense coding, quantum teleportation, and entangled quantum cryptography algorithms.
+
+Quantum entanglement also allows multiple states (such as the Bell state mentioned above) to be acted on simultaneously, unlike classical bits that can only have one value at a time.  Entanglement is a necessary ingredient of any quantum computation that cannot be done efficiently on a classical computer.  Many of the successes of quantum computation and communication, such as quantum teleportation and superdense coding, make use of entanglement, suggesting that entanglement is a Computational resource|resource that is unique to quantum computation.<ref>Cite journal|last=Horodecki|first=Ryszard et al.|date=2009|title=Quantum entanglement|url=https://link.aps.org/doi/10.1103/RevModPhys.81.865|journal=Reviews of Modern Physics|volume=81|issue=2|pages=865–942|doi=10.1103/RevModPhys.81.865|arxiv=quant-ph/0702225|bibcode=2009RvMP...81..865H</ref>  A major hurdle facing quantum computing, as of 2018, in its quest to surpass classical digital computing, is noise in quantum gates that limits the size of quantum circuits that can be executed reliably.<ref name="preskill2018">cite arxiv |last1=Preskill |first1=John |date=2018|title=Quantum Computing in the NISQ era and beyond |eprint=1801.00862 |class=quant-ph </ref>
+
+Quantum register
+A number of qubits taken together is a quantum register|qubit register. Quantum computers perform calculations by manipulating qubits within a register. A qubyte (quantum byte) is a collection of eight qubits.<ref>cite journal
+ |author=R. Tanburn
+ |author2=E. Okada
+ |author3=N. S. Dattani
+  |year=2015
+ |title=Reducing multi-qubit interactions in adiabatic quantum computation without adding auxiliary qubits. Part 1: The "deduc-reduc" method and its application to quantum factorization of numbers 
+ |arxiv=1508.04816|bibcode=2015arXiv150804816T</ref>
+
+=Variations of the qubit=
+Similar to the qubit, the qutrit is the unit of quantum information that can be realized in suitable 3-level quantum systems.  This is analogous to the unit of classical information trit (computing)|trit of ternary computers.  Note, however, that not all 3-level quantum systems are qutrits.<ref>Cite web|url=https://physics.stackexchange.com/questions/342903/quantum-systems-three-level-vs-qutrit|title=Quantum systems: three-level vs qutrit|website=Physics Stack Exchange|access-date=2018-07-25</ref>  The term "qu-''d''-it" (''quantum'' d''-git'') denotes the unit of quantum information that can be realized in suitable ''d''-level quantum systems.<ref>Cite journal|last=Nisbet-Jones|first=Peter B. R.|last2=Dilley|first2=Jerome|last3=Holleczek|first3=Annemarie|last4=Barter|first4=Oliver|last5=Kuhn|first5=Axel|date=2013|title=Photonic qubits, qutrits and ququads accurately prepared and delivered on demand|url=http://stacks.iop.org/1367-2630/15/i=5/a=053007|journal=New Journal of Physics|language=en|volume=15|issue=5|pages=053007|doi=10.1088/1367-2630/15/5/053007|issn=1367-2630|arxiv=1203.5614|bibcode=2013NJPh...15e3007N</ref>
+
+Physical implementations
+
+Any two-state quantum system|two-level quantum-mechanical system can be used as a qubit. Multilevel systems can be used as well, if they possess two states that can be effectively decoupled from the rest (e.g., ground state and first excited state of a nonlinear oscillator). There are various proposals. Several physical implementations that approximate two-level systems to various degrees were successfully realized. Similarly to a classical bit where the state of a transistor in a processor, the magnetization of a surface in a hard disk and the presence of current in a cable can all be used to represent bits in the same computer, an eventual quantum computer is likely to use various combinations of qubits in its design.
+
+The following is an incomplete list of physical implementations of qubits, and the choices of basis are by convention only.
+
+{| class="wikitable" align="center"
+|-
+! scope="col" | Physical support
+! scope="col" | Name
+! scope="col" | Information support
+! scope="col" style="background: white;" | <math>|0 \rangle</math>
+! scope="col" style="background: white;" | <math>|1 \rangle</math>
+|-
+| rowspan=3 |Photon
+| Polarization encoding
+| Polarization of light
+| Horizontal
+| Vertical
+|-
+| Number of photons
+| Fock state
+| Vacuum
+| Single photon state
+|-
+| Time-bin encoding
+| Time of arrival
+| Early
+| Late
+|-
+| Coherent state of light
+| Squeezed coherent state|Squeezed light
+| Quadrature
+| Amplitude-squeezed state
+| Phase-squeezed state
+|-
+| rowspan=2|Electrons
+| Spin quantum number|Electronic spin
+| Spin (physics)|Spin
+| Up
+| Down
+|-
+| Electron number
+| charge (physics)|Charge
+| No electron
+| One electron
+|-
+| Atomic nucleus|Nucleus
+| Nuclear spin addressed through Nuclear magnetic resonance|NMR
+| Spin
+| Up
+| Down
+|-
+| Optical lattices
+| Atomic spin
+| Spin
+| Up
+| Down
+|-
+| rowspan=3|Josephson junction
+| Superconducting charge qubit
+| Charge
+| Uncharged superconducting island (''Q''=0)
+| Charged superconducting island (''Q''=2''e'', one extra Cooper pair) 
+|-
+| Superconducting flux qubit
+| Current
+| Clockwise current
+| Counterclockwise current
+|-
+| Superconducting phase qubit
+| Energy
+| Ground state
+| First excited state
+|-
+| Singly charged quantum dot pair
+| Electron localization
+| Charge
+| Electron on left dot
+| Electron on right dot
+|-
+| Quantum dot
+| Dot spin
+| Spin
+| Down
+| Up
+|-
+| Topological order|Gapped topological system
+| Non-abelian anyon|anyons
+| Braid group|Braiding of Excitations
+| Depends on specific topological system
+| Depends on specific topological system
+|}
+
+Qubit storage
+
+In a paper entitled: "Solid-state quantum memory using the <sup>31</sup>P nuclear spin", published in the October 23, 2008 issue of the journal ''Nature (journal)|Nature'',<ref>
+cite journal
+ |author=J. J. L. Morton
+ |year=2008
+ |title=Solid-state quantum memory using the <sup>31</sup>P nuclear spin |journal=Nature (journal)|Nature
+ |volume=455 |pages=1085–1088
+ |doi=10.1038/nature07295
+|bibcode = 2008Natur.455.1085M
+ |issue=7216|arxiv = 0803.2021 |display-authors=etal</ref> a team of scientists from the U.K. and U.S. reported the first relatively long (1.75 seconds) and coherent transfer of a superposition state in an electron spin "processing" qubit to a nuclear spin "memory" qubit. This event can be considered the first relatively consistent quantum data storage, a vital step towards the development of quantum computing. Recently, a modification of similar systems (using charged rather than neutral donors) has dramatically extended this time, to 3 hours at very low temperatures and 39 minutes at room temperature.<ref>cite journal |author=Kamyar Saeedi |year=2013|title=Room-Temperature Quantum Bit Storage Exceeding 39 Minutes Using Ionized Donors in Silicon-28|volume=342|pages=830–833|doi=10.1126/science.1239584|issue=6160|journal=Science (journal)|Science|bibcode = 2013Sci...342..830S |display-authors=etal |pmid=24233718</ref> Room temperature preparation of a qubit based on electron spins instead of nuclear spin was also demonstrated by a team of scientists from Switzerland and Australia.<ref>cite journal|last1=Náfrádi|first1=Bálint|last2=Choucair|first2=Mohammad|last3=Dinse|first3=Klaus-Pete|last4=Forró|first4=László|title=Room temperature manipulation of long lifetime spins in metallic-like carbon nanospheres|journal=Nature Communications|date=July 18, 2016|volume=7|page=12232|doi=10.1038/ncomms12232|url=http://www.nature.com/ncomms/2016/160718/ncomms12232/abs/ncomms12232.html|pmid=27426851|pmc=4960311|arxiv=1611.07690|bibcode=2016NatCo...712232N</ref>
+
+See also
+* Two-state quantum system
+* Ancilla bit
+* Photonic computer
+* W state
+
+Further reading
+
+*A good introduction to the topic is the book of Nielsen and Chuang <ref name="nielsen2010" />.
+*An excellent treatment of two-state quantum systems and their quantum weirdness, presented to undergraduates in the 1960s, decades before the term “qubit” was coined, is found in the third volume of The Feynman Lectures on Physics [http://www.feynmanlectures.caltech.edu/III_toc.html (2013 ebook edition)].
+*A non-traditional motivation of the qubit aimed at non-physicists is found in Quantum Computing Since Democritus, by Scott Aaronson, Cambridge University Press (2013).
+*A good introduction to qubits for non-specialists, by the person who coined the word, is found in Lecture 21 of ‘‘The science of information: from language to black holes’’, by Professor Benjamin Schumacher, The Great Courses, The Teaching Company (4DVDs, 2015).
+*A picture-book introduction to entanglement, contrasting classical systems and a Bell state, is found in “Quantum entanglement for babies“, by Chris Ferrie (2017).
+
+References
+Reflist
+
+quantum computing
+
+Category:Quantum computing
+Category:Quantum information science
+Category:Quantum states
+Category:Teleportation
+Category:Units of information

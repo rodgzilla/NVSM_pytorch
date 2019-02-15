@@ -1,0 +1,46 @@
+one source|date=March 2011
+A simple generalization of the black hole entropy bound (cf. holographic principle) to generic systems is that, in quantum gravity, the maximum entropy which can be enclosed by a spatial boundary is given by a quarter of its surface area. However, as a general rule, this simple generalization appears to be false, because the spatial boundary can be taken to be within the event horizon of a black hole.Citation needed|date=April 2016 It also fails in cosmological models.Citation needed|date=April 2016
+
+Raphael Bousso came up with a modification that the spatial boundary should not be a trapped surface. This led him to come up with Bousso's holographic bound,<ref>cite journal
+| last         = Bousso
+| first        = Raphael
+| date         = 13 August 1999
+| title        = A Covariant Entropy Conjecture
+| journal      = Journal of High Energy Physics
+| issue        = 7
+| doi          = 10.1088/1126-6708/1999/07/004
+| arxiv        = hep-th/9905177
+|bibcode = 1999JHEP...07..004B </ref><ref>cite journal
+| last         = Bousso
+| first        = Raphael
+| date         = 9 August 1999
+| title        = Holography in General Space-times
+| journal      = Journal of High Energy Physics
+| issue        = 6
+| doi          = 10.1088/1126-6708/1999/06/028
+| url          = http://iopscience.iop.org/1126-6708/1999/06/028/
+|arxiv = hep-th/9906022 |bibcode = 1999JHEP...06..028B 
+</ref><ref>
+cite journal
+| last         = Bousso
+| first        = Raphael
+| date         = 5 August 2002
+| title        = The holographic principle
+| journal      = Reviews of Modern Physics
+| volume       = 74
+| issue        = 3
+| pages        = 825–874
+| doi          = 10.1103/RevModPhys.74.825
+| arxiv        = hep-th/0203101
+|bibcode = 2002RvMP...74..825B </ref> also known as the covariant entropy bound. Basically, a spatial boundary is valid if, when one considers both null (or light) sheets orthogonal to its tangent space, the expansion factors both point in the same direction. This defines inside and outside. The entropy crossing either (past or future) of the inner or non-expanding null surface (light sheet) is bounded by one quarter of the surface area of the interior region.
+
+ References 
+<references />
+
+quantum gravity
+
+Category:Quantum gravity
+
+
+quantum-stub
+relativity-stub

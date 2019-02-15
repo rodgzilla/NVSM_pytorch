@@ -1,0 +1,215 @@
+Choice modelling attempts to model the decision process of an individual or segment via revealed preferences or stated preferences made in a particular context or contexts. Typically, it attempts to use discrete choices (A over B; B over A, B & C) in order to infer positions of the items (A, B and C) on some relevant latent scale (typically "utility" in economics and various related fields). Indeed many alternative models exist in econometrics, marketing, sociometrics and other fields, including utility maximization, optimization applied to consumer theory, and a plethora of other identification strategies which may be more or less accurate depending on the data, Sample (statistics)|sample, hypothesis and the particular decision being modelled. In addition, choice modelling is regarded as the most suitable method for estimating consumers' willingness to pay for quality improvements in multiple dimensions.<ref>2001 - Centre for International Economics - Review of willingness-to-pay methodologies</ref>
+TOC limit|2
+
+ Related terms 
+There are a number of terms which are considered to be synonyms with the term choice modelling. Some are accurate (although typically discipline or continent specific) and some are used in industry applications, although considered inaccurate in academia (such as conjoint analysis).<ref name=":0" />
+
+These include the following:
+
+##Stated preference|Stated preference discrete choice modeling
+#Discrete choice
+#Choice experiment
+#Stated preference studies
+#Conjoint analysis
+#Controlled experiments
+Although disagreements in terminology persist, it is notable that the academic journal intended to provide a cross-disciplinary source of new and empirical research into the field is called the Journal of Choice Modelling.<ref>Cite web|title = Journal of Choice Modelling|url = http://www.journals.elsevier.com/journal-of-choice-modelling/|website = Elsevier|accessdate = 2015-11-05</ref>
+
+ Theoretical background 
+The theory behind choice modelling was developed independently by economists and mathematical psychologists. The origins of choice modelling can be traced to Louis Leon Thurstone|Thurstone's research into food preferences in the 1920s and to random utility theory.<ref>Cite web|url=http://psycnet.apa.org/psycinfo/1928-00527-001|title=A law of comparative judgment.|last=Thurston|first=|date=1994|website=APA PsycNET|archive-url=|archive-date=|dead-url=|accessdate=2017-12-08</ref> In economics, random utility theory was then developed by Daniel McFadden<ref name=":5">Cite book|title = Frontiers in Econometrics|last = Zarembka|first = Paul|publisher = Academic Press|year = 1974|isbn = |location = New York|pages = 105–142</ref> and in mathematical psychology primarily by R. Duncan Luce|Duncan Luce and Anthony Marley.<ref>Cite book|title = Conditional logit analysis of qualitative choice behavior|last = Luce|first = R. Duncan|publisher = John Wiley & Sons|year = 1959|isbn = |location = New York|pages = </ref> In essence, choice modelling assumes that the utility (benefit, or value) that an individual derives from item A over item B is a function of the frequency that (s)he chooses item A over item B in repeated choices. Due to his use of the normal distribution Thurstone was unable to generalise this binary choice into a multinomial choice framework (which required the multinomial logistic regression rather than probit link function), hence why the method languished for over 30 years. However, in the 1960s through 1980s the method was axiomatised and applied in a variety of types of study.
+
+ Distinction between revealed and stated preference studies 
+Choice modelling is used in both revealed preference (RP) and stated preference (SP) studies. RP studies use the choices made already by individuals to estimate the value they ascribe to items - they "reveal their preferences - and hence values (utilities) – by their choices". SP studies use the choices made by individuals made under experimental conditions to estimate these values – they "state their preferences via their choices". McFadden successfully used revealed preferences (made in previous transport studies) to predict the demand for the Bay Area Rapid Transit (BART) before it was built. Luce and Marley had previously axiomatised random utility theory but had not used it in a real world application;<ref>Cite journal|title = Some probabilistic models of simple choice and ranking|url = http://www.sciencedirect.com/science/article/pii/0022249668900783|journal = Journal of Mathematical Psychology|date = 1968-06-01|pages = 311–332|volume = 5|issue = 2|doi = 10.1016/0022-2496(68)90078-3|first = A. A. J.|last = Marley</ref> furthermore they spent many years testing the method in SP studies involving psychology students.
+
+ History 
+McFadden's work earned him the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel<ref>[http://nobelprize.org/nobel_prizes/economics/laureates/2000/ Economics 2000<!-- Bot generated title -->]</ref> in 2000. However, much of the work in choice modelling had for almost 20 years been proceeding in the field of stated preferences.<ref>Cite journal|title = Design and Analysis of Simulated Consumer Choice or Allocation Experiments: An Approach Based on Aggregate Data|jstor = 3151440|journal = Journal of Marketing Research|date = 1983-11-01|pages = 350–367|volume = 20|issue = 4|doi = 10.2307/3151440|first = Jordan J.|last = Louviere|first2 = George|last2 = Woodworth</ref><ref name=":1">Cite journal|title = DESIGN AND ANALYSIS OF SIMULATED CHOICE OR ALLOCATION EXPERIMENTS IN TRAVEL CHOICE MODELING|url = http://trid.trb.org/view.aspx?id=189334|journal = Transportation Research Record|date = 1982-01-01|issn = 0361-1981|issue = 890|first = Jordan J.|last = Louviere|first2 = David A.|last2 = Hensher</ref> Such work arose in various disciplines, originally transport and marketing, due to the need to predict demand for new products that were potentially expensive to produce. This work drew heavily on the fields of conjoint analysis and design of experiments, in order to:
+# Present to consumers goods or services that were defined by particular features (attributes) that had levels, e.g. "price" with levels "$10, $20, $30"; "follow-up service" with levels "no warranty, 10 year warranty";
+# Present configurations of these goods that minimised the number of choices needed in order to estimate the consumer's utility function (decision rule).
+Specifically, the aim was to present the minimum number of pairs/triples etc of (for example) mobile/cell phones in order that the analyst might estimate the value the consumer derived (in monetary units) from every possible feature of a phone. In contrast to much of the work in conjoint analysis, discrete choices (A versus B; B versus A, B & C) were to be made, rather than ratings on category rating scales (Likert scale<nowiki/>s). David Hensher and Jordan Louviere are widely credited with the first stated preference choice models.<ref name=":1" /> They remained pivotal figures, together with others including Joffre Swait and Moshe Ben-Akiva, and over the next three decades in the fields of transport and marketing helped develop and disseminate the methods.<ref name=":2">Cite web|title = Stated Choice Methods|url = http://www.cambridge.org/gb/academic/subjects/economics/econometrics-statistics-and-mathematical-economics/stated-choice-methods-analysis-and-applications|website = Cambridge University Press|accessdate = 2015-11-04</ref><ref name=":3">Cite web|title = Discrete Choice Analysis|url = https://mitpress.mit.edu/books/discrete-choice-analysis|website = MIT Press|accessdate = 2015-11-04</ref> However, many other figures, predominantly working in transport economics and marketing, contributed to theory and practice and helped disseminate the work widely.
+
+ Relationship with conjoint analysis 
+Choice modelling from the outset suffered from a lack of standardisation of terminology and all the terms given above have been used to describe it. However, the largest disagreement has proved to be geographical: in the Americas, following industry practice there, the term "choice-based conjoint analysis" has come to dominate.<ref>Cite web|title = Survey Software & Conjoint Analysis - What is Conjoint Analysis?|url = http://www.sawtoothsoftware.com/products/conjoint-choice-analysis/conjoint-analysis-software|website = www.sawtoothsoftware.com|accessdate = 2015-11-04</ref> This reflected a desire that choice modelling (1) reflect the attribute and level structure inherited from conjoint analysis, but (2) show that discrete choices, rather than numerical ratings, be used as the outcome measure elicited from consumers. Elsewhere in the world, the term discrete choice experiment has come to dominate in virtually all disciplines.<ref name=":0" /> Louviere (marketing and transport) and colleagues in environmental and health economics came to disavow the American terminology, claiming that it was misleading and disguised a fundamental difference discrete choice experiments have from traditional conjoint methods: discrete choice experiments have a testable theory of human decision-making underpinning them (random utility theory), whilst conjoint methods are simply a way of decomposing the value of a good using ''statistical'' designs from numerical ratings that have no ''psychological'' theory to explain what the rating scale numbers mean.<ref name=":0">Cite journal|title = Discrete Choice Experiments Are Not Conjoint Analysis|url = http://www.sciencedirect.com/science/article/pii/S1755534513700149|journal = Journal of Choice Modelling|date = 2010-01-01|pages = 57–72|volume = 3|issue = 3|doi = 10.1016/S1755-5345(13)70014-9|first = Jordan J|last = Louviere|first2 = Terry N|last2 = Flynn|first3 = Richard T|last3 = Carson</ref>
+
+ Designing a choice model 
+Designing a choice model or discrete choice experiment (DCE) generally follows the following steps:
+# Identifying the good or service to be valued;
+# Deciding on what attributes and levels fully describe the good or service;
+# Constructing an Experimental design that is appropriate for those attributes and levels, either from a design catalogue,<ref>Cite web|title = Orthogonal Arrays|url = https://support.sas.com/techsup/technote/ts723.html|website = support.sas.com|accessdate = 2015-11-04</ref> or via a software program;<ref>Cite web|title = ChoiceMetrics ! Ngene ! Features|url = http://www.choice-metrics.com/features.html|website = www.choice-metrics.com|accessdate = 2015-11-04</ref>
+# Constructing the survey, replacing the design codes (numbers) with the relevant attribute levels;
+# Administering the survey to a sample of respondents in any of a number of formats including paper and pen, but increasingly via web surveys;
+# Analysing the data using appropriate models, often beginning with the Multinomial logistic regression model, given its attractive properties in terms of consistency with economic demand theory.<ref name=":5" />
+
+= Identifying the good or service to be valued =
+This is often the easiest task, typically defined by:
+* the research question in an academic study, or
+* the needs of the client (in the context of a consumer good or service)
+
+= Deciding on what attributes and levels fully describe the good or service =
+A good or service, for instance mobile (cell) phone, is typically described by a number of attributes (features). Phones are often described by shape, size, memory, brand, etc. The attributes to be varied in the DCE must be all those that are of interest to respondents. Omitting key attributes typically causes respondents to make inferences (guesses) about those missing from the DCE, leading to omitted variable problems. The levels must typically include all those currently available, and often are expanded to include those that are possible in future – this is particularly useful in guiding product development.
+
+= Constructing an experimental design that is appropriate for those attributes and levels, either from a design catalogue, or via a software program =
+A strength of DCEs and conjoint analyses is that they typically present a subset of the full factorial. For example, a phone with two brands, three shapes, three sizes and four amounts of memory has 2x3x3x4=72 possible configurations. This is the full factorial and in most cases is too large to administer to respondents. Subsets of the full factorial can be produced in a variety of ways but in general they have the following aim: to enable estimation of a certain limited number of parameters describing the good: main effects (for example the value associated with brand, holding all else equal), two-way interactions (for example the value associated with this brand and the smallest size, that brand and the smallest size), etc. This is typically achieved by deliberately confounding higher order interactions with lower order interactions. For example, two-way and three-way interactions may be confounded with main effects. This has the following consequences:
+* The number of profiles (configurations) is significantly reduced;
+* A regression coefficient for a given main effect is unbiased if and only if the confounded terms (higher order interactions) are zero;
+* A regression coefficient is biased in an unknown direction and with an unknown magnitude if the confounded interaction terms are non-zero;
+* No correction can be made at the analysis to solve the problem, should the confounded terms be non-zero.
+Thus, researchers have repeatedly been warned that design involves critical decisions to be made concerning whether two-way and higher order interactions are likely to be non-zero; making a mistake at the design stage effectively invalidates the results since the hypothesis of higher order interactions being non-zero is untestable.<ref name=":2" />
+
+Designs are available from catalogues and statistical programs. Traditionally they had the property of Orthogonality where all attribute levels can be estimated independently of each other. This ensures zero collinearity and can be explained using the following example.
+
+Imagine a car dealership that sells both luxury cars and used low-end vehicles. Using the utility maximisation principle and assuming an MNL model, we hypothesise that the decision to buy a car from this dealership is the sum of the individual contribution of each of the following to the total utility.
+* Price
+* Marque (BMW, Chrysler, Mitsubishi)
+* Origin (German, American)
+* Performance
+
+Using multinomial regression on the sales data however will not tell us what we want to know. The reason is that much of the data is collinear since cars at this dealership are either:
+
+* high performance, expensive German cars
+* low performance, cheap American cars
+
+There is not enough information, nor will there ever be enough, to tell us whether people are buying cars because they are European, because they are a BMW or because they are high performance. This is a fundamental reason why RP data are often unsuitable and why SP data are required. In RP data these three attributes always co-occur and in this case are perfectly correlated. That is: all BMWs are made in Germany and are of high performance. These three attributes: origin, marque and performance are said to be collinear or non-orthogonal. Only in experimental conditions, via SP data, can performance and price be varied independently – have their effects decomposed.
+
+An experimental design (below) in a Choice Experiment is a strict scheme for controlling and presenting hypothetical scenarios, or choice sets to respondents. For the same experiment, different designs could be used, each with different properties. The best design depends on the objectives of the exercise.
+
+It is the experimental design that drives the experiment and the ultimate capabilities of the model. Many very efficient designs exist in the public domain that allow near optimal experiments to be performed.
+
+For example the Latin square 16<sup>17</sup> design allows the estimation of all main effects of a product that could have up to 16<sup>17</sup> (approximately 295 followed by eighteen zeros) configurations. Furthermore this could be achieved within a sample frame of only around 256 respondents.
+
+Below is an example of a much smaller design. This is 3<sup>4</sup> main effects design.
+
+{| class="wikitable"
+|-
+|0
+|0
+|0
+|0
+|-
+|0
+|1
+|1
+|2
+|-
+|0
+|2
+|2
+|1
+|-
+|1
+|0
+|1
+|1
+|-
+|1
+|1
+|2
+|0
+|-
+|1
+|2
+|0
+|2
+|-
+|2
+|0
+|2
+|2
+|-
+|2
+|1
+|0
+|1
+|-
+|2
+|2
+|1
+|0
+|}
+
+This design would allow the estimation of main effects utilities from 81 (3<sup>4</sup>) possible product configurations ''assuming all higher order interactions are zero''. A sample of around 20 respondents could model the main effects of all 81 possible product configurations with statistically significant results.
+
+Some examples of other experimental designs commonly used:
+
+*Balanced incomplete block designs (BIBD)
+*Random designs
+*Main effects
+*Higher order interaction designs
+*Full factorial
+
+More recently, efficient designs have been produced.<ref name=":4">Cite journal|title = Constructing Efficient Stated Choice Experimental Designs|url = https://dx.doi.org/10.1080/01441640902827623|journal = Transport Reviews|date = 2009-09-01|issn = 0144-1647|pages = 587–617|volume = 29|issue = 5|doi = 10.1080/01441640902827623|first = John M.|last = Rose|first2 = Michiel C. J.|last2 = Bliemer</ref><ref>Cite book|title = The Construction of Optimal Stated Choice Experiments: Theory and Methods|url = https://books.google.com/books?id=_IZ3kqzaxHMC|publisher = John Wiley & Sons|date = 2007-07-20|isbn = 9780470148556|first = Deborah J.|last = Street|first2 = Leonie|last2 = Burgess</ref> These typically minimise functions of the variance of the (unknown but estimated) parameters. A common function is the D-efficiency of the parameters. The aim of these designs is to reduce the sample size required to achieve statistical significance of the estimated utility parameters. Such designs have often incorporated Bayesian priors for the parameters, to further improve statistical precision.<ref>[Rossi, P., Allenby, G., McCulloch, R. (2009) Bayesian statistic and marketing. Wiley]</ref> Highly efficient designs have become extremely popular, given the costs of recruiting larger numbers of respondents. However, key figures in the development of these designs have warned of possible limitations, most notably the following.<ref name=":4" /> Design efficiency is typically maximised when good A and good B are as different as possible: for instance every attribute (feature) defining the phone differs across A and B. This forces the respondent to trade across price, brand, size, memory, etc; no attribute has the same level in both A and B. This may impose cognitive burden on the respondent, leading him/her to use simplifying heuristics ("always choose the cheapest phone") that do not reflect his/her true utility function (decision rule). Recent empirical work has confirmed that respondents do indeed have different decision rules when answering a less efficient design compared to a highly efficient design.<ref>Cite journal|url = |title = Are Efficient Designs Used In Discrete Choice Experiments Too Difficult For Some Respondents? A Case Study Eliciting Preferences for End-Of-Life Care|last = Flynn|first = Terry N|date = March 2016|journal = Pharmacoeconomics|doi = 10.1007/s40273-015-0338-z |pmid = 26589411 </ref>
+
+More information on experimental designs may be found experimental design|here. It is worth reiterating, however, that small designs that estimate main effects typically do so by deliberately confounding higher order interactions with the main effects. This means that unless those interactions are zero in practice, the analyst will obtain biased estimates of the main effects. Furthermore (s)he has (1) no way of testing this, and (2) no way of correcting it in analysis. This emphasises the crucial role of design in DCEs.
+
+= Constructing the survey =
+Constructing the survey typically involves:
+* Doing a "find and replace" in order that the experimental design codes (typically numbers as given in the example above) are replaced by the attribute levels of the good in question.
+* Putting the resulting configurations (for instance types of mobile/cell phones) into a broader survey than may include questions pertaining to sociodemographics of the respondents. This may aid in segmenting the data at the analysis stage: for example males may differ from females in their preferences.
+
+= Administering the survey to a sample of respondents in any of a number of formats including paper and pen, but increasingly via web surveys =
+Traditionally, DCEs were administered via paper and pen methods. Increasingly, with the power of the web, internet surveys have become the norm. These have advantages in terms of cost, randomising respondents to different versions of the survey, and using screening. An example of the latter would be to achieve balance in gender: if too many males answered, they can be screened out in order that the number of females matches that of males.
+
+= Analysing the data using appropriate models, often beginning with the multinomial logistic regression model, given its attractive properties in terms of consistency with economic demand theory =
+Analysing the data from a DCE requires the analyst to assume a particular type of decision rule - or functional form of the utility equation in economists' terms. This is usually dictated by the design: if a main effects design has been used then two-way and higher order interaction terms cannot be included in the model. Regression models are then typically estimated. These often begin with the conditional logit model - traditionally, although slightly misleadingly, referred to as the multinomial logistic (MNL) regression model by choice modellers. The MNL model converts the observed choice frequencies (being estimated probabilities, on a ratio scale) into utility estimates (on an interval scale) via the logistic function. The utility (value) associated with every attribute level can be estimated, thus allowing the analyst to construct the total utility of any possible configuration (in this case, of car or phone). However, a DCE may alternatively be used to estimate non-market environmental benefits and costs.<ref>Jeff Bennet University of Queensland https://www.epa.qld.gov.au/publications?id=1585</ref>
+
+ Strengths
+* Forces respondents to consider trade-offs between attributes;
+* Makes the frame of reference explicit to respondents via the inclusion of an array of attributes and product alternatives;
+* Enables implicit prices to be estimated for attributes;
+* Enables welfare impacts to be estimated for multiple scenarios;
+* Can be used to estimate the level of customer demand for alternative 'service product' in non-monetary terms; and
+* Potentially reduces the incentive for respondents to behave strategically.<ref>2001 – The Centre for International Economics – review of
+willingness-to-pay methodologies</ref>
+
+ Weaknesses 
+* Discrete choices provide only ordinal data, which provides less information than ratio or interval data;
+* Inferences from ordinal data, to produce estimates on an interval/ratio scale, require assumptions about error distributions and the respondent's decision rule (functional form of the utility function);
+* Fractional factorial designs used in practice deliberately confound two-way and higher order interactions with lower order (typically main effects) estimates in order to make the design small: if the higher order interactions are non-zero then main effects are biased, with no way for the analyst to know or correct this ex post;
+* Non-probabilistic (deterministic) decision-making by the individual violates random utility theory: under a random utility model, utility estimates become infinite.
+* There is one fundamental weakness of all limited dependent variable models such as logit and probit models: the means (true positions) and variances on the latent scale are perfectly Confounded. In other words they cannot be separated.
+
+ The mean-variance confound 
+Yatchew and Griliches first proved that means and variances were confounded in limited dependent variable models (where the dependent variable takes any of a discrete set of values rather than a continuous variable|continuous one as in conventional linear regression).<ref>Cite journal|title = Specification Error in Probit Models|url = https://www.researchgate.net/publication/24094302_Specification_Error_in_Probit_Models|journal = The Review of Economics and Statistics|volume = 67|issue = 1|doi = 10.2307/1928444|first = Adonis|last = Yatchew|first2 = Zvi|last2 = Griliches</ref> This limitation becomes acute in choice modelling for the following reason: a large estimated beta from the MNL regression model or any other choice model can mean:
+# Respondents place the item high up on the latent scale (they value it highly), or
+# Respondents do not place the item high up on the scale BUT they are very certain of their preferences, consistently (frequently) choosing the item over others presented alongside, or
+# Some combination of (1) and (2).
+This has significant implications for the interpretation of the output of a regression model. All statistical programs "solve" the mean-variance confound by setting the variance equal to a constant; all estimated beta coefficients are, in fact, an estimated beta multiplied by an estimated lamda (an inverse function of the variance). This tempts the analyst to ignore the problem. However (s)he must consider whether a set of large beta coefficients reflect strong preferences (a large true beta) or consistency in choices (a large true lamda), or some combination of the two. Dividing all estimates by one other – typically that of the price variable – cancels the confounded lamda term from numerator and denominator.<ref>Cite journal|title = Combining sources of preference data |journal = Journal of Econometrics|date = 1998-11-26|pages = 197–221|volume = 89|issue = 1–2|doi = 10.1016/S0304-4076(98)00061-X|first = David|last = Hensher|first2 = Jordan|last2 = Louviere|first3 = Joffre|last3 = Swait</ref> This solves the problem, with the added benefit that it provides economists with the respondent's willingness to pay for each attribute level. However, the finding that results estimated in "utility space" do not match those estimated in "willingness to pay space",<ref>Cite book|title = Applications of simulation methods in environmental and resource economics|last = Train|first = Kenneth|publisher = Doredrecht|year = 2005|isbn = |location = |pages = 1–16</ref><ref>Cite journal|title = Heterogeneity Distributions of Willingness-to-Pay in Choice Models|url = https://www.researchgate.net/publication/5155835_Heterogeneity_distributions_of_willingness-to-pay_in_choice_models|journal = |doi = 10.2139/ssrn.928412|first = Garrett|last = Sonnier|first2 = Andrew S.|last2 = Ainslie|first3 = Thomas|last3 = Otter</ref> suggests that the confound problem is not solved by this "trick": variances may be attribute specific or some other function of the variables (which would explain the discrepancy). This is a subject of current research in the field.
+
+ Versus traditional ratings-based conjoint methods 
+Major problems with ratings questions that do not occur with choice models are:
+*no trade-off information. A risk with ratings is that respondents tend not to differentiate between perceived 'good' attributes and rate them all as attractive.
+*variant personal scales. Different individuals value a '2' on a scale of 1 to 5 differently. Aggregation of the frequencies of each of the scale measures has no theoretical basis.
+*no relative measure. How does an analyst compare something rated a 1 to something rated a 2? Is one twice as good as the other? Again there is no theoretical way of aggregating the data.
+
+ Other types 
+
+= Ranking =
+Rankings do tend to force the individual to indicate relative preferences for the items of interest. Thus the trade-offs between these can, like in a DCE, typically be estimated. However, ranking models must test whether the same utility function is being estimated at every ranking depth: e.g. the same estimates (up to variance scale) must result from the bottom rank data as from the top rank data.
+
+= Best–worst scaling =
+Best–worst scaling (BWS) is a well-regarded alternative to ratings and ranking. It asks people to choose their most and least preferred options from a range of alternatives.  By subtracting or integrating across the choice probabilities, utility scores for each alternative can be estimated on an interval or ratio scale, for individuals and/or groups. Various psychological models may be utilised by individuals to produce best-worst data, including the MaxDiff model.
+
+ Uses 
+
+Choice modelling is particularly useful for:
+
+*Predicting uptake and refining new product development
+*Estimating the implied willingness to pay (WTP) for goods and services
+*Product or service viability testing
+*Estimating the effects of product characteristics on consumer choice
+*Variations of product attributes
+*Understanding brand value and preference
+*Demand estimates and optimum pricing
+
+ See also 
+
+*Consumer choice
+*Discrete choice
+
+ References 
+Reflist|30em
+
+ External links 
+* [http://biblio.repec.org/entry/tbbd.html Curated bibliography] at Research papers in economics|IDEAS/RePEc
+
+Category:Economics models
+Category:Scientific modeling
+Category:Choice modelling| 

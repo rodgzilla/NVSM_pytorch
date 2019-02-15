@@ -1,0 +1,110 @@
+short description|alternative technology to enable extravehicular activity
+Image:Disconnecting from suit port during field tests.jpg|300px|thumb|A man disconnecting from a suitport mockup during field tests
+Image:Suitport on small pressurized rover.png|300px|thumb|An astronaut entering a spacesuit through a suitport
+A suitport or suitlock is an alternative technology to an airlock, designed for use in hazardous environments and in human spaceflight, especially planetary surface exploration. Suitports present advantages over traditional airlocks in terms of mass, volume, and ability to mitigate contamination by—and of—the local environment.
+
+Operation
+In a suitport system, a rear-entry space suit is attached and sealed against the outside of a spacecraft, space habitat, or pressurized Rover (space exploration)|rover, facing outward. To begin an extra-vehicular activity (EVA), an astronaut in shirt-sleeve environment|shirt-sleeves first enters the suit feet-first from inside the pressurized environment, and closes and seals the space suit Primary Life Support System|backpack and the vehicle's hatch (which seals to the backpack for dust containment). The astronaut then unseals and separates the suit from the vehicle, and is ready to perform an EVA.<ref name = culbertson>cite web
+  | last = Culbertson
+  | first = Philip, Jr.
+  | title = Suitlock docking mechanism — United States Patent 5697108
+  | publisher = freepatentsonline.com
+  | date = 1996-09-30
+  | url = http://www.freepatentsonline.com/5697108.html
+  | accessdate = 2006-06-15 </ref><ref name = boettcher>
+cite web
+  | last = Boettcher
+  | first = Joerg
+  |author2=Stephen Ransom |author3=Frank Steinsiek
+   | title =  Apparatus and method for putting on a protective suit — United States Patent 6959456
+  | publisher = freepatentsonline.com
+  | date = 17 July 2003
+  | url = http://www.freepatentsonline.com/6959456.html
+  | accessdate = 2006-06-15 </ref><ref name = NASATechBriefs>
+cite web
+  | title = Docking Fixture and Mechanism for a Protective Suit
+  | work = NASA Tech Briefs
+  | publisher = NASA
+  | date = March 1, 2003
+  | url = http://www.techbriefs.com/content/view/1242/34/
+  | accessdate = 2006-06-15 </ref>
+
+To re-enter the vehicle, the astronaut backs up to the suitport and seals the suit to the vehicle, before opening the hatch and backpack and transferring back into the vehicle. If the vehicle and suit do not operate at the same pressure, it will be necessary to equalize the two pressures before the hatch can be opened.
+
+Advantages and disadvantages
+=Advantages=
+Suitports carry three major advantages over traditional airlocks.  First, the mass and volume required for a suitport is significantly less than that required for an airlock.  Launch mass is at a premium in modern chemical rocket-powered launch vehicles, at an estimated cost of United States dollar|US$60,000 per kilogram delivered to the lunar surface.<ref>cite conference
+  | title = Earth to Lunar CELSS Evolution
+  | booktitle = Proceedings of the NASA/USRA Advanced Design Program 7th Summer Conference
+  | pages = 123–132
+  | publisher = University of Colorado
+  | url = https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19930020538_1993020538.pdf
+  | accessdate = 2006-06-15 </ref>
+
+Secondly, suitports can eliminate or minimize the problem of dust migration. During the Apollo program, it was discovered that the lunar soil is Electric charge|electrically charged, and adheres readily to any surface with which it comes into contact, a problem magnified by the sharp, barb-like shapes of the dust particles.<ref name=space>cite web
+  | last = David
+  | first = Leonard
+  | title = Lunar Explorers Face Moon Dust Dilemma
+  | publisher = Space.com
+  | date = November 7, 2006
+  | url = http://www.space.com/scienceastronomy/061007_moon_dust.html
+  | accessdate = 2008-06-15 </ref>  Lunar dust may be harmful in several ways:
+
+*The abrasive nature of the dust particles may rub and wear down surfaces through friction.
+*The dust may damage coatings used on gaskets, optical lenses, solar panels, windows, and wiring.
+*The dust may cause damage to an astronaut's lungs as well as nervous and circulatory system|cardiovascular systems, leading to conditions such as pneumoconiosis.<ref>cite web |url=http://www.lpi.usra.edu/meetings/lpsc2006/pdf/2193.pdf  |title=Micro-Morphology And Toxicological Effects Of Lunar Dust |accessdate=2007-03-08 |last=Park |first=J.S. |authorlink= |author2=Y. Liu |author3=K. D. Kihm |author4=L. A. Taylor  |work= |publisher=Lunar and Planetary Science XXXVII (2006)-  |pages= |language= |archiveurl= |archivedate= |quote=The particle size distribution of the lunar dust from Apollo 17 sample 77051 has been determined using SEM imaging analysis. The size-distribution data features an approximate Gaussian distribution with a single mode at around 300-nm. The reactivation surface area of highly porous “Swiss-cheese” particles is about 26% higher than a sphere. The morphologies of dust grains have been classified based upon their four types: 1) spherical; 2) angular blocks; 3) glass shards; and 4) irregular (ropey or Swiss-cheese). These data will assist the medical researchers in their studies of the toxicological effects of inhalation of lunar dust by humans.</ref><ref>cite news |first=Kelly|last=Young |author= |title=Lint rollers may collect dangerous Moon dust |url=https://www.newscientist.com/article/dn11326-lint-rollers-may-collect-dangerous-moon-dust.html |work= |publisher=New Scientist |id= |pages= |page= |date=6 March 2007  |accessdate=2008-02-17  |language= |quote=While hailed as a potential source of oxygen and metals, Moon dust is a concern because doctors fear the smallest grains could lodge in astronauts' lungs, possibly causing long-term health effects.</ref>
+
+During the Apollo missions, the astronauts donned their space suits inside the Apollo Lunar Module cabin, which was then depressurized to allow them to exit the vehicle.  Upon the end of EVA, the astronauts would re-enter the cabin in their suits, bringing with them a great deal of dust which had adhered to the suits. Several astronauts reported a "gunpowder" smell and respiratory and/or eye irritation upon opening their helmets and being exposed to the dust.<ref name=space/>
+
+When the suit is attached to the vehicle, any dust which may have adhered to the backpack of the suit is sealed between the outside of the backpack and the vehicle-side hatch. Any dust on the suit that is not on the backpack remains sealed outside the vehicle. Likewise, the suitport prevents contamination of the external environment by microbes carried by the astronaut.
+
+Additionally, the suitports significantly reduce the ingress and egress time, and virtually remove the need of pumpdown of the airlock, which normally is either associated with air loss, or requires heavy and complex pumping machinery as the only space that needs to be pressurized is the area between the vehicle hatch and the life-support backpack, and even that only in case of need for repairs, decontamination and refitting of the suit.<ref name = culbertson /><ref name = NASATechBriefs />
+
+=Disadvantages=
+Disadvantages of suitports include the additional mass of the interface on the rear of the space suit which may be more than 4.5 kg, and increased mechanical complexity, potentially reducing the overall reliability of the EVA system.<ref name="autogenerated2003">cite book| last1=Abramov|first1=Isaak P.|last2=Skoog|first2=Ingemar A.|title=Russian Spacesuits|date=23 November 2003|publisher=Springer Science & Business Media|accessdate=17 February 2003</ref> According to NASA's Exploration Systems Mission Directorate, disadvantages of suitports also include:
+* A lower technology readiness level (TRL) than airlocks
+* Greater difficulty for incapacitated crewmembers to ingress 
+* Possible requirement for suit donning at convert|8|psi|atm with relaxed man-loads 
+* Likely requirement for some back-mounted Primary Life Support System components, introducing challenges for achieving an optimal center of mass.<ref>cite web |url=https://www.nasa.gov/pdf/190083main_AIAA_ESMD_finalSPACE2007.pdf |title='Exploration Systems Mission Directorate, Lunar Architecture Update, AIAA Space 2007’ |date=September 20, 2007 |accessdate=December 24, 2012 </ref>
+
+Development and use
+File:Suitport - suit and rover.png|thumb|Space suit docked to rover with suitport
+File:Suitport testing - Z1.jpg|thumb|thumbnail|Suitport concept being tested with the Z-1 prototype spacesuit in 2012
+The first Extravehicular activity|EVA rear entry space suit was developed at NPP Zvezda<ref>cite web |url=https://en.wikipedia.org/wiki/NPP_Zvezda |title=NPP Zvezda </ref>Better source|reason=per WP:CIRCULAR|date=May 2017 in 1962.<ref name="autogenerated2003"/> The suitport concept was suggested for use in the Soviet manned Moon program. A patent for a suitport was first filed in 1980 in the Soviet Union, by Isaak Abramov of Zvezda and Yuri Nazarov of CKBM.<ref>cite web |url=http://nauka21vek.ru/archives/2213 |title='Lunokhod, Obama, Yuri Nazarov and Russian stupidity’ |date=January 25, 2009 |accessdate=December 24, 2010 </ref>
+
+A US patent for a suitport was first filed in 1987 by Marc M. Cohen of NASA's Ames Research Center.<ref>cite web|url=http://www.google.com/patents/US4842224?dq=suitport&hl=en&sa=X&ei=5mfOUJ7NI8qu2gWVuoGgDQ&ved=0CDgQ6AEwAA|title=Suitport extra-vehicular access facility|date=27 June 1988|publisher=United States Patent and Trademark Office|accessdate=17 December 2012</ref> Further patents were filed in 1996 by Philip Culbertson Jr.,<ref name = culbertson/> and in 2003 by Joerg Boettcher, Stephen Ransom, and Frank Steinsiek.<ref name = boettcher/>
+
+As of 1995, suitports have found a practical, terrestrial application as part of a Ames Research Center|NASA Ames hazardous materials vehicle, where the use of the suitport eliminates the need to decontaminate the hazmat suit before doffing.<ref name="cohen">cite conference
+  | first = Marc M.
+  | last = Cohen
+  | title = The Suitport's progress
+  | booktitle = Life Sciences and Space Medicine Conference
+  | publisher = American Institute of Aeronautics and Astronautics
+  | date = April 3–5, 1995
+  | location = Houston, Texas
+  | url = http://www.spacearchitect.org/pubs/AIAA-95-1062.pdf
+  | accessdate = 2008-11-19 
+</ref> A suitport prototype built by Brand Griffin has been used in a simulated lunar gravity test on board Johnson Space Center|NASA Johnson's C-135 aircraft.<ref name="cohen"/>
+
+Suitports may find use as part of future NASA projects aimed at achieving a return to the Exploration of the Moon|Moon and manned exploration of Mars. NASA's conceptual Space Exploration Vehicle has two suitports on the back of the craft.
+
+Testing has been taking place in combination with the Z-1 prototype spacesuit inside NASA's human-rated thermal vacuum Space Environment Simulation Laboratory|chamber B at the Johnson Space Center.<ref>cite web|url=https://www.youtube.com/watch?v=Hte9L5BXlDU|title=ISS Update: Suitport Testing |date=7 June 2012|publisher=NASA|accessdate=27 July 2012</ref> Early unmanned tests of the suitport were conducted in June 2012.<ref>cite web|url=https://www.youtube.com/watch?v=NUqm_-0P7y8|title=ISS Update: Suitport |date=7 June 2012|publisher=NASA|accessdate=28 July 2012</ref><ref name=Boyle>cite web|url=https://www.youtube.com/watch?v=48PVtI3lJGE|title=ISS Update: Testing the Suitport |date=19 July 2012|publisher=NASA|accessdate=27 July 2012</ref> The first manned tests of the suitport occurred on 16 and 18 July 2012; during these manned tests the spacesuit was kept at a pressure of convert|14.7|psi|atm|abbr=on|sigfig=1 with the chamber pressure at approximately convert|6.5|psi|atm|abbr=on|sigfig=2, equivalent to an altitude of convert|21000|ft|m.<ref name=Boyle/> Future manned tests were planned for September and August 2012, where NASA planned to keep the spacesuit at a pressure of convert|8|psi|atm|abbr=on|sigfig=1 and the vacuum chamber at roughly convert|0|psi|atm|abbr=on|sigfig=1.<ref name=Boyle/> Suitports may eventually be tested on the International Space Station.<ref>cite web|url=http://www.jsc.nasa.gov/roundup/online/2011/0811.pdf|title=Coming to a center near you: Advanced Exploration Systems|last=Williams|first=Catherine|date=August 2011|publisher=NASA|accessdate=27 October 2011</ref>
+
+See also
+Commons category|Suitport
+*Space exploration
+*Project Constellation
+**Lunar outpost (NASA)
+**Altair (spacecraft)
+*Lunar surface
+*Colonization of the Moon
+*Colonization of Mars
+*Mars suit
+*Single-person spacecraft
+
+References
+Reflist|2
+
+Category:Spacecraft components
+Category:Space suit components
+Category:Space technology

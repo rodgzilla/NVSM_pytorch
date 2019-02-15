@@ -1,0 +1,132 @@
+About|the grammatical use|the typographical sense|Homoglyph|the geometrical sense|Homography
+globalize|date=September 2018
+File:Homograph homophone venn diagram.png|thumb|400px|Venn diagram showing the relationships between homographs (yellow) and related linguistic concepts
+Wiktionary|homograph
+
+A homograph (from the lang-el|ὁμός, ''homós'', "same" and γράφω, ''gráphō'', "write") is a word that shares the same written form as another word but has a different meaning.<ref>
+
+	cite web|
+	title=One of two or more words that have the same spelling but differ in origin, meaning, and sometimes pronunciation, such as fair (pleasing in appearance) and fair (market) or wind (wĭnd) and wind (wīnd)|
+	url=http://tfd.com/homograph
+	
+	</ref> However, some dictionaries insist that the words must also sound different,<ref>[https://books.google.co.uk/books?id=vCUTBQAAQBAJ&pg=PA3&dq=homograph+dictionary&hl=en&sa=X&ved=0CCYQ6AEwAWoVChMI2J_XwvfhxgIVji3bCh3O0wBB#v=onepage&q=homograph%20dictionary&f=false ''Homophones and Homographs: An American Dictionary, 4th ed.''], McFarland, 2006, p. 3.</ref> while the Oxford English Dictionary says that the words should also be of "different origin".<ref>Oxford English Dictionary: ''homograph''.</ref> In this vein, ''The Oxford Guide to Practical Lexicography'' lists various types of homographs, including those in which the words are discriminated by being in a different ''word class'', such as ''hit'', the verb ''to strike'', and ''hit'' the noun ''a blow''.<ref>Atkins, BTS.; Rundell, M., [https://books.google.co.uk/books?id=H0rc_cnr3NYC&pg=PA192&dq=homograph+dictionary&hl=en&sa=X&ved=0CDkQ6AEwBWoVChMI2J_XwvfhxgIVji3bCh3O0wBB#v=onepage&q=homograph%20dictionary&f=false ''The Oxford Guide to Practical Lexicography''], OUP Oxford, 2008, 
+pp. 192 - 193.</ref>
+
+If, when spoken, the meanings may be distinguished by different pronunciations, the words are also heteronym (linguistics)|heteronyms. Words with the same writing ''and'' pronunciation (i.e. are both homographs and homophones) are considered homonyms. However, in a looser sense the term "homonym" may be applied to words with the same writing ''or'' pronunciation. Homograph disambiguation is critically important in speech synthesis, natural language processing and other fields. Identically written different senses of what is judged to be fundamentally the ''same'' word are called polysemes; for example, ''wood'' (substance) and ''wood'' (area covered with trees).
+
+In English
+Examples:
+*''sow'' (verb) – to plant seed
+:''sow'' (noun) – female pig
+where the two words are spelt identically but pronounced differently. Here confusion is not possible in spoken language but could occur in written language.
+
+*''bear'' (verb) – to support or carry
+:''bear'' (noun) –  the animal
+where the words are identical in spelling and pronunciation, but differ in meaning and grammatical function. These are called Homonym|homonyms.
+
+=More examples=
+main article|List of English homographs
+
+{| class="wikitable"
+|-
+! Word
+! Example of first meaning
+! Example of second meaning
+|-
+| lead
+| Gold is heavier than  lead.
+| The mother duck will lead her ducklings around.
+|-
+| close
+| "Will you please close that door!"
+| The tiger was now so close that I could smell it...
+|-
+| wind
+| The wind howled through the woodlands.
+| Wind your watch.
+|-
+| minute
+| I will be there in a minute.
+| That is a very minute amount.
+|}
+
+In Chinese
+Many Chinese Variety (linguistics)|varieties have homographs, called Linktext|多音字 (zh|p=duōyīnzì) or Linktext|重形字 (zh|p=chóngxíngzì), Linktext|破音字 (zh|p=pòyīnzì).
+
+=Old Chinese=
+Modern study of Old Chinese has found patterns that suggest a system of affixes.<ref>cite book |title=Chinese|last=Norman|first=Jerry|authorlink=Jerry Norman (sinologist)|year=1988|publisher=Cambridge University Press|location=Cambridge|isbn=978-0-521-22809-1|page=84</ref> One pattern is the addition of the prefix IPA|/*ɦ/, which turns transitive verbs into intransitive verb|intransitive or passive voice|passives in some cases:<ref name=baxterhandbook>cite book |title=A Handbook of Old Chinese Phonology (Trends in Linguistics. Studies and Monographs)|last=Baxter|first=William H.|year=1992|publisher=de Gruyter Mouton|location=Berlin and New York|isbn=978-3-11-012324-1|pages=218–220</ref>
+
+{| class="wikitable"
+|-
+! Word !! Pronunciation<sub>a</sub> !! Meaning<sub>a</sub> !! Pronunciation<sub>b</sub> !! Meaning<sub>b</sub>
+|-
+| 見 || IPA|*kens || see || IPA|*ɦkens || appear
+|-
+| 敗 || IPA|*prats || defeat || IPA|*ɦprats || be defeated
+|-
+|colspan="5"|All data from Baxter, 1992.<ref name=baxterhandbook/>
+|}
+
+Another pattern is the use of a IPA|/*s/ suffix, which seems to create nouns from verbs or verbs from nouns:<ref name=baxterhandbook/>
+{| class="wikitable"
+|-
+! Word !! Pronunciation<sub>a</sub> !! Meaning<sub>a</sub> !! Pronunciation<sub>b</sub> !! Meaning<sub>b</sub>
+|-
+| 傳 || IPA|*dron || transmit || IPA|*drons || (n.) record
+|-
+| 磨 || IPA|*maj || grind || IPA|*majs || grindstone
+|-
+| 塞 || IPA|*sɨk || (v.) block || IPA|*sɨks ||border, frontier
+|-
+| 衣 || IPA|*ʔjɨj || clothing || IPA|*ʔjɨjs || wear, clothe
+|-
+| 王 || IPA|*wjaŋ || king || IPA|*wjaŋs|| be king
+|-
+|colspan="5"|All data from Baxter, 1992.<ref name=baxterhandbook/>
+|}
+
+=Middle Chinese=
+Many homographs in Old Chinese also exist in Middle Chinese. Examples of homographs in Middle Chinese are:
+{| class="wikitable IPA"
+|-
+! Word !! Pronunciation<sub>a</sub> !! Meaning<sub>a</sub> !! Pronunciation<sub>b</sub> !! Meaning<sub>b</sub>
+|-
+| 易 || IPA|/jĭe꜄/ || easy || IPA|/jĭɛk꜆/ || (v.) change
+|-
+| 別 || IPA|/bĭɛt꜆/ || (v.) part || IPA|/pĭɛt꜆/ || differentiate, other
+|-
+| 上 || IPA|/꜂ʑĭaŋ/ || rise, give || IPA|/ʑĭaŋ꜄/ || above, top, emperor
+|-
+| 長 || IPA|/꜀dʲʱĭaŋ/ || long || IPA|/꜂tʲĭaŋ/ || lengthen, elder
+|-
+|colspan="5"|Reconstructed phonology from Wang Li (linguist)|Wang Li on the tables in the article Middle Chinese. Tone names in terms of ''level'' (꜀平), ''rising'' (꜂上), ''departing'' (去꜄), and ''entering'' (入꜆) are given. All meanings and their respective pronunciations from Wang et al., 2000.<ref>cite book |title=王力古漢語字典|authors=Wang Li|year=2000|publisher=中華書局|location=Beijing|isbn=7-101-01219-1|display-authors=etal</ref>
+|}
+
+=Modern Chinese=
+Many homographs in Old Chinese and Middle Chinese also exist in modern Chinese varieties. Homographs which did not exist in Old Chinese or Middle Chinese often come into existence due to differences between literary and colloquial readings of Chinese characters. Other homographs may have been created due to merging two different characters into the same glyph during script reform (See Simplified Chinese characters and Shinjitai).
+
+Some examples of homographs in Cantonese from Middle Chinese are:
+{| class="wikitable IPA"
+|-
+! Word !! Pronunciation<sub>a</sub> !! Meaning<sub>a</sub> !! Pronunciation<sub>b</sub> !! Meaning<sub>b</sub>
+|-
+| 易 || IPA|[jiː˨] || easy || IPA|[jɪk˨] || (v.) change
+|-
+| 上 || IPA|[ɕœːŋ˩˧] || rise, give || IPA|[ɕœːŋ˨] || above, top, emperor
+|-
+| 長 || IPA|[tɕʰœːŋ˨˩] || long || IPA|[tɕœːŋ˧˥] || lengthen, elder
+|}
+
+See also
+Portal|Linguistics
+
+* Heterography and homography
+* Interlingual homograph
+* IDN homograph attack
+* Syncretism (linguistics)
+
+References
+Reflist
+
+Category:Word play
+Category:Orthography

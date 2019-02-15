@@ -1,0 +1,593 @@
+Short description|Government support and limits of scientific researchupdate|date=December 2017
+File:U.S. research funding.png|thumb|300px|Federal funding of basic and applied research by year.  The spike in 2009 is due to the American Reinvestment and Recovery Act.  Figures for 2014 are requested levels.<ref name="2014ostp">cite web|title=The 2014 Budget: A World-Leading Commitment to Science and Research|url=http://www.whitehouse.gov/sites/default/files/microsites/ostp/2014_R&Dbudget_overview.pdf|publisher=Office of Science and Technology Policy|accessdate=19 March 2014</ref>
+
+The science policy of the United States is the responsibility of many organizations throughout the Federal government of the United States|federal government.  Much of the large-scale policy is made through the legislative United States budget process|budget process of enacting the yearly United States federal budget|federal budget, although there are other legislative issues that directly involve science, such as Energy policy of the United States|energy policy, Politics of global warming (United States)|climate change, and Stem cell laws and policy in the United States|stem cell research.  Further decisions are made by the various federal agencies which spend the funds allocated by Congress, either on in-house research or by granting funds to outside organizations and researchers.
+
+The USA devoted 2.81% of GDP to research and development (R&D) in 2012. The private sector contributed two-thirds of the total. The Obama administration had fixed a target of a 3% ratio by the end of his presidency in 2016.<ref name=":0" />
+
+Legislating science policy
+
+In the Executive Office of the President, the main body advising the President of the United States|president on science policy is the Office of Science and Technology Policy.  Other advisory bodies exist within the Executive Office of the President, including the United States President's Council of Advisors on Science and Technology|President's Council of Advisors on Science and Technology and the National Science and Technology Council.
+
+In the United States Congress, a number of United States congressional committee|congressional committees have jurisdiction over legislation on science policy, most notably the United States House Committee on Science and Technology|House Committee on Science and Technology and the United States Senate Committee on Commerce, Science and Transportation|Senate Committee on Commerce, Science and Transportation, and their subcommittees. These committees oversee the various federal research agencies that are involved in receiving funding for scientific research. Oversight of some agencies may fall under multiple committees, for example the Environmental Protection Agency.<ref name="AAAS Working with Congress">cite book | title=Working with Congress: A Scientist Guide to Policy | publisher=AAAS Office of Government Relations |author1=White, Kasey |author2=Carney, Joanne | year=2011 |location=http://www.aaas.org/news/releases/2011/0802pubs.shtml | pages=20–23</ref>
+
+There are also Congressional support agencies, which do not solely focus on science, but provide insight for Congress to make decisions dealing with scientific issues. These agencies are nonpartisan and provide objective reports on topics requested by members of congress.  They are the Congressional Research Service, Government Accountability Office, and Congressional Budget Office.  In the past, the Office of Technology Assessment provided Congressional members and committees with objective analysis of scientific and technical issues, but this office was abolished as a result of the Republican Revolution of 1994.
+
+Further advice is provided by extragovernmental organizations such as United States National Academies|The National Academies, which was created and mostly funded by the federal government,<ref>cite web|title=Frequently asked questions|url=http://www.nationalacademies.org/about/faq.html|publisher=The National Academies|accessdate=29 April 2011</ref> and the RAND Corporation, as well as other non-profit organizations such as the American Association for the Advancement of Science and the American Chemical Society among others.
+
+Research and development in the federal budget
+
+{| class="wikitable floatright" width = 150
+|<small>The research and development budget by department in the Obama administration's United States federal budget|federal budget proposal for fiscal year 2015.<ref name="2015ostp">cite web|title=R&D in the 2015 Budget (revised)|url=http://www.whitehouse.gov/sites/default/files/microsites/ostp/fy2015rdtables.pdf|publisher=U.S. Office of Science and Technology Policy|accessdate=27 July 2014|date=May 2014</ref><ref name="2015defense">cite web|title=FY2015 Department of Defense Budget: RTD&E Programs (R-1)|url=http://comptroller.defense.gov/Portals/45/Documents/defbudget/fy2015/amendment/fy2015_r1a.pdf|publisher=Office of the Under Secretary of Defense (Comptroller)|accessdate=27 July 2014|page=II|date=June 2014</ref></small>
+|-
+|
+ #invoke:Chart | pie chart
+| radius = 125
+| slice 1  = 23.740 : United States Department of the Air Force|Air Force : #FF0000 : United States Department of the Air Force
+| slice 2  = 16.301 : United States Department of the Navy|Navy : #DD0000 : United States Department of the Navy
+| slice 3  = 6.598  : United States Department of the Army|Army : #BB0000 : United States Department of the Army
+| slice 4  = 18.225 : United States Department of Defense|Other Defense : #990000 : United States Department of Defense
+| slice 5  = 29.540 : National Institutes of Health|NIH : #0000FF : National Institutes of Health
+| slice 6  = 1.529  : United States Department of Health and Human Services|Other HHS : #0000BB : United States Department of Health and Human Services
+| slice 7  = 12.309 : United States Department of Energy|Energy : green : United States Department of Energy
+| slice 8  = 11.555 : NASA : yellow : NASA
+| slice 9  = 5.727  : National Science Foundation|NSF : magenta : National Science Foundation
+| slice 10  = 2.447  : United States Department of Agriculture|Agriculture : cyan : United States Department of Agriculture
+| slice 11 = 1.597  : United States Department of Commerce|Commerce (National Institute of Standards and Technology|NIST & National Oceanic and Atmospheric Administration|NOAA) : : United States Department of Commerce
+| slice 12 = 1.178  : United States Department of Veterans Affairs|Veterans Affairs : : United States Department of Veterans Affairs
+| slice 13 = .925   : United States Department of the Interior|Interior : : United States Department of the Interior
+| slice 14 = .876   : United States Department of Homeland Security|Homeland Security : : United States Department of Homeland Security
+| slice 15 = .865   : United States Department of Transportation|Transportation : : United States Department of Transportation
+| slice 16 = .560   : United States Environmental Protection Agency|EPA : : United States Environmental Protection Agency
+| slice 17 = .528   : Patient-Centered Outcomes Research Institute|PCORI : : Patient-Centered Outcomes Research Institute
+| slice 18 = .336   : United States Department of Education|Education : : United States Department of Education
+| slice 19 = .252   : Smithsonian Institution|Smithsonian : : Smithsonian Institution
+| slice 20 = .698   : Other
+| units prefix = $
+| units suffix = B
+
+|}
+
+Only a small percentage of the overall federal budget is allocated to R&D.  The FY2015 budget request includes $135.110B in R&D spending<ref name="2015ostp"/> out of a total budget of $3969.069B, representing 3.4% of the budget.<ref name="2015byfunction">cite web|title=Table 28-1: Policy Budget Authority and Outlay by Function, Category, and Program|url=http://www.whitehouse.gov/sites/default/files/omb/budget/fy2015/assets/28_1.pdf|work=Analytical Perspectives, Budget of the United States Government, Fiscal Year 2015|publisher=United States Office of Management and Budget|accessdate=22 May 2014</ref>  Research and development funding in the United States federal budget|federal budget is not centrally enacted, but is spread across many Appropriation bill#United States|appropriations bills which are enacted in the annual United States budget process.  Of the twelve annual appropriations bills, the most important for R&D are those for ''Defense''; ''Labor, Health and Human Services, and Education'' (which includes NIH); ''Commerce, Justice, and Science'' (which includes NSF, NASA, NIST, and NOAA); and ''Energy and Water Development''.  Other appropriations bills include smaller amounts of R&D funding.
+<!--There has been criticism is that there is not a "science policy" but rather a "budget policy", stifling the ability for the nation to move forward in the field of science.<ref name="Ehlers_science"/>-->
+
+There are a number of federal agencies across the government which carry out science policy.  Some of these primarily perform their own research "in-house", while others grant funds to external organizations or individual researchers.  In addition, the List of federally funded research and development centers|federally funded research and development centers, which include most of the United States Department of Energy National Laboratories|U.S. National Laboratories, are funded by the government but operated by universities, non-profit organizations, or for-profit consortia.
+
+The FY2015 presidential budget request defines R&D as "the collection of efforts directed toward gaining greater knowledge or understanding and applying knowledge toward the production of useful materials, devices, and methods."  R&D is divided into five subcategories.  ''Basic research'' is  directed toward understanding of the fundamental aspects of observable phenomena.  It may be directed towards broad but not specific applications. ''Applied research'' is directed towards gaining knowledge to meet a recognized and specific need.  ''Development'' is the application of knowledge or understanding for the production of useful materials, devices, and methods, including production of prototypes. ''R&D equipment'' includes acquisition or production of movable equipment, such as spectrometers, research satellites, or detectors. ''R&D facilities'' include the construction or major repairs to physical facilities including land, buildings, and fixed capital equipment such fixed facilities as reactors, wind tunnels, and particle accelerators.<ref name="2015analp"/>
+
+The following chart shows a breakdown for the five agencies with the largest R&D budgets in the Obama administration's FY2015 proposal:<ref name="2015analp">cite web|title=Analytical Perspectives, Budget of the United States Government, Fiscal Year 2015|url=http://www.whitehouse.gov/sites/default/files/omb/budget/fy2015/assets/topics.pdf|publisher=U.S. Office of Management and Budget|accessdate=25 July 2014|pages=312–315|chapter=Special Topics</ref>
+
+ #invoke:Chart | bar chart
+| height = 300
+| width = 500
+| stack = yes
+| x legends = United States Department of Defense|Defense : United States Department of Health and Human Services|HHS : United States Department of Energy|Energy : NASA : National Science Foundation|NSF : Other
+| group 1 =  2.052 : 16.085 : 4.143 : 3.086 : 4.708 : 2.005
+| group 2 =  4.530 : 14.783 : 4.269 : 2.389 :  .480 : 6.200
+| group 3 = 57.747 :  0.029 : 2.927 : 6.009 :  .000 : 1.305
+| group 4 =   .101 :   .172 :  .970 :  .071 :  .539 :  .762
+| group names = Basic research : Applied research : Development : Equipment and facilities
+| colors = purple : blue : green : orange
+| units prefix = $
+| units suffix = B
+
+
+=Defense research and development=
+
+Defense R&D has the goal of "maintaining strategic technological advantages over potential foreign adversaries."<ref name="AAAS2015"/>  As of 2009, just over half of the R&D budget was allocated to defense spending.<ref name="AAAS-R&D">cite web|last=Koizumi|first=Kei|title=Federal R&D in the FY 2009 Budget: An Introduction|url=http://www.aaas.org/spp/rd/09pch1.htm|publisher=AAAS|accessdate=20 August 2010</ref>  Most Defense R&D falls under the Research, Development, Test, and Evaluation (RTD&E) budget, although some R&D funding is outside this budget, such as the Defense Health Program and the chemical weapons destruction program.  The Department of Defense divides development further, giving each category a code: 6.1 is Basic Research, 6.2 is Applied Research, 6.3 is Advanced Technology Development, 6.4 is Advanced Component Development and Prototypes, 6.5 is System Development and Demonstration, 6.6 is RDT&E Management and Support, and 6.7 is Operational Systems Development.<ref name="AAAS2015">cite web|last1=Doom|first1=Travis R.|title=Department of Defense|url=http://www.aaas.org/sites/default/files/15pch05.pdf|publisher=American Association for the Advancement of Science|accessdate=1 August 2014</ref>
+
+Most of the Defense R&D budget is for weapon systems development, with nearly all activity in categories 6.4 and higher carried out by private defense contractors.  About one sixth of it is allocated to the Science and Technology (S&T) program, which includes all of 6.1, 6.2, 6.3, and medical research.  As of 2013, research funding (6.1 and 6.2) was disbursed 40% to industry, 33% to DoD laboratories, and 21% to academia.<ref name="PropExp">cite web|title=Federal R&D Funding: Quick Agency Profiles|url=http://www.proposalexponent.com/federalprofiles.html|publisher=Proposal Exponent|accessdate=28 July 2014</ref>  The Department of Defense was the third-largest supporter of R&D in academia in FY2012, with only National Institutes of Health|NIH and National Science Foundation|NSF having larger investments, with DoD the largest federal funder for engineering research and a close second for computer science.<ref name="AAAS2015"/>
+
+The Defense Research Enterprise (DRE) consists of S&T programs within each of the three military departments within DoD.  The budget is prepared by each department's acquisition secretary, namely the Assistant Secretary of the Air Force (Acquisition), Assistant Secretary of the Navy (Research, Development and Acquisition), and United States Assistant Secretary of the Army for Acquisition, Logistics, and Technology|Assistant Secretary of the Army for Acquisition, Logistics, and Technology.  Air Force S&T is executed by the Air Force Materiel Command's Air Force Research Laboratory (AFRL).  Navy S&T is executed by the Office of Naval Research (ONR), with medical research performed by the Navy Bureau of Medicine and Surgery.  For the Army, 72% of the S&T budget is in United States Army Materiel Command|Army Materiel Command's United States Army Research, Development and Engineering Command|Research, Development and Engineering Command (RDECOM), with the remainder in United States Army Medical Research and Materiel Command|Army Medical Research and Materiel Command (USAMRMC), United States Army Corps of Engineers|Army Corps of Engineers (USACE), United States Army Space and Missile Defense Command|Army Space and Missile Defense Command (USASMDC) and the Deputy Chief of Staff (G1-Personnel) to the Assistant Secretary of the Army (Manpower and Reserve Affairs).  Each agency supports both in-house intramural research as well as grants to outside academic or industrial organizations.<ref name="NRC-DoDRes">cite book|author1=National Research Council|title=Strategic Engagement in Global S&T: Opportunities for Defense Research|date=2014|publisher=The National Academies Press|location=Washington, DC|pages=28&ndash;35|url=http://www.nap.edu/openbook.php?record_id=18816&page=28|accessdate=1 August 2014</ref>
+
+The following chart shows a breakdown for the agencies with the most R&D funding within the Department of Defense in the Obama administration's FY2015 proposal.  The "Other" category includes $3.7B for Classified information in the United States|classified programs such as National Security Agency|NSA, Defense Intelligence Agency|DIA, and National Geospatial-Intelligence Agency|NGA, whose top-level budget numbers are not released, as well as the uncategorized R&D funds not included in the RDT&E budget.<ref name="2015defense"/>
+
+ #invoke:Chart | bar chart
+| height = 300
+| width = 600
+| stack = yes
+| x legends = United States Department of the Air Force|Air Force : United States Department of the Navy|Navy : United States Department of the Army|Army : Missile Defense Agency|MDA : DARPA : Office of the Secretary of Defense|OSD : United States Department of Defense|Other
+| group 1 =   .454490 :  .576339 :  .424176 : 0        :  .361994 : .114464 :  .086039
+| group 2 =  1.081133 :  .820883 :  .862611 : 0        : 1.136550 : .138061 :  .417804
+| group 3 =   .593817 :  .595014 :  .917791 :  .176233 : 1.344864 : .806416 :  .605889
+| group 4 =  1.372168 : 4.591812 :  .327656 : 5.370014 : 0        : .430708 :  .246340
+| group 5 =  3.337419 : 5.419108 : 1.719374 : 0        : 0        : .138561 :  .472212
+| group 6 =  1.183199 :  .977151 : 1.000430 :  .036998 :  .071362 : .504303 :  .275213
+| group 7 = 15.717666 : 3.321108 : 1.346360 : 0        : 0        : .071991 : 4.000465 
+| group 8 =  0        : 0        : 0        : 0        : 0        : 0       : 1.250507
+| group names = Basic Research (6.1) : Applied Research (6.2) : Advanced Technology Development (6.3) : Advanced Component Development and Prototypes (6.4) : System Development and Demonstration (6.5) : Management and Support (6.6) : Operational Systems Development (6.7) : Uncategorized
+| colors = purple : blue : cyan : #00DD00 : #00BB00 : #009900 : #007700 : darkred
+| units prefix = $
+| units suffix = B
+
+
+ Intellectual property policy 
+expand section|date=November 2010
+
+main|United States patent law
+
+Inventions "conceived or actually reduced to practice" in the performance of government-funded research may be subject to the Bayh-Dole Act.
+
+The Federal Research Public Access Act (111th congress S.1373, introduced 25 June 2009 but still in a Senate committee) would require "free online public access to such final peer-reviewed manuscripts or published versions as soon as practicable, but not later than 6 months after publication in peer-reviewed journals".<ref>[http://www.taxpayeraccess.org/issues/frpaa/index.shtml Federal Research Public Access Act]</ref><ref>[http://thomas.loc.gov/cgi-bin/bdquery/z?d111:s.01373: Library of Congress, S.1273]</ref><ref>[http://search.engrant.com/ US Scientific Grant Awards Database] webarchive|url=https://web.archive.org/web/20101106080019/http://search.engrant.com/ |date=6 November 2010 </ref>
+
+The America Invents Act of 2011 moved the USA from a ‘first to invent’ system to a ‘first to file’ model, the most significant patent reform since 1952. This act will limit or eliminate lengthy legal and bureaucratic challenges that used to accompany contested filings. However, the pressure to file early may limit the inventor’s ability to exploit the period of exclusivity fully. It may also disadvantage very small entities, for which the legal costs of preparing an application are the main barrier to filing. This legislation has also fostered the rise of what are familiarly known as Patent troll|patent trolls.<ref name=":0" />  
+
+ Science in political discourse 
+expand section|date=November 2010
+
+Most of the leading political issues in the United States have a scientific component.  For example, renewable energy, Stem Cell Research, climate change, and national security. Despite the growing integration of science in policy there are only a handful of Congressional members and their staff who have sufficient background in science; therefore they refer to various congressional support agencies for analysis on science related issues. Important for thinking about science in political discourse is that congressional members weigh many factors when addressing an issue, not just the scientific merit of an issue.<ref name="AAAS Working with Congress" />
+
+Science policy in the states
+
+= State government initiatives =
+There are also a number of state and local agencies which deal with state-specific science policy and provide additional funding, such as the California Institute for Regenerative Medicine.
+
+= Overall research spending in the states =
+File:Science and engineering in the USA by state, 2010.svg|thumb|Contribution of each state to US research in 2010, in terms of funding (public and private sectors) and science and engineering occupations. Source: Figure 5.6 from the ''UNESCO Science Report: towards 2030'', based on data from National Science FoundationThe level of research spending varies considerably from one state to another. Six states (New Mexico, Maryland, Massachusetts, Washington, California and Michigan) each devoted 3.9% or more of their GDP to R&D in 2010, together contributing 42% of national research expenditure.  In 2010, more than one-quarter of R&D was concentrated in California (28.1%), ahead of Massachusetts (5.7%), New Jersey (5.6%), Washington State (5.5%), Michigan (5.4%), Texas (5.2%), Illinois (4.8%), New York (3.6%) and Pennsylvania (3.5%).  Seven states (Arkansas, Nevada, Oklahoma, Louisiana, South Dakota and Wyoming) devoted less than 0.8% of GDP to R&D.<ref name=":0">Cite book|title=United States of America. In: UNESCO Science Report: towards 2030|last=Stewart|first=Shannon|last2=Springs|first2=Stacy|publisher=UNESCO|year=2015|isbn=978-92-3-100129-1|location=Paris|pages=</ref>
+
+California is home to Silicon Valley, the name given to the area hosting the leading corporations and start-ups in information technology. This state also hosts dynamic biotechnology clusters in the San Francisco Bay Area, Los Angeles and San Diego. The main biotechnology clusters outside California are the cities of Boston/Cambridge, Massachusetts, Maryland, suburban Washington DC, New York, Seattle, Philadelphia and Chicago. California supplies 13.7% of all jobs in science and engineering across the country, more than any other state. Some 5.7% of Californians are employed in these fields. This high share reflects a potent combination of academic excellence and a strong business focus on R&D: the prestigious Stanford University and University of California rub shoulders with Silicon Valley, for instance. In much the same way, Route 128 around Boston in the State of Massachusetts is not only home to numerous high-tech firms and corporations but also hosts the renowned Harvard University and Massachusetts Institute of Technology.<ref name=":0" />
+
+New Mexico’s high research intensity can be explained by the fact that it hosts both Los Alamos National Laboratory and the primary campus of Sandia National Laboratories, the two major United States Department of Energy research and development national laboratories. Maryland’s position may reflect the concentration of federally funded research institutions there. Washington State has a high concentration of high-tech firms like Microsoft, Amazon and Boeing and the engineering functions of most automobile manufacturers are located in the State of Michigan.<ref name=":0" />
+
+Microsoft, Intel and Google figured among the world’s top 10 corporations for research spending in 2014. They shared this distinction with Johnson & Johnson, a multinational based in New Jersey which makes pharmaceutical and healthcare products, as well as medical devices, and were closely followed by automobile giant General Motors (11th), based in Detroit, and pharmaceutical companies Merck (12th) and Pfizer (15th). Merck is headquartered in New Jersey and Pfizer in New York. Intel’s investment in R&D has more than doubled in the past 10 years, whereas Pfizer’s investment has dropped since 2012. Several pharmaceutical companies figure among the top 15 corporations for research spending. The USA carries out almost half (46%) of all research in the life sciences, making it the world leader. In 2013, US pharmaceutical companies spent US$40 billion on R&D inside the USA and nearly another US$11 billion on R&D abroad. Some 7% of the companies on Thomson Reuters’ Top 100 Global Innovators list for 2014 are active in Biomedical research in the United States|biomedical research, equal to the number of businesses in consumer products and telecommunications.<ref name=":0" />
+
+Global top 50 companies by R&D volume and intensity, 2014
+
+{| class="wikitable"
+|Rank in 2014
+|Company
+|Country
+|Field
+|R&D
+
+(€ millions)
+|Change in rank for R&D, 2004–2014
+|Research intensity 
+(R&D expenditure
+
+divided by net sales
+|-
+|1
+|Volkswagen
+|Germany
+|Automobiles &  parts
+|11 743
+|<nowiki>+7</nowiki>
+|6.0
+|-
+|2
+|Samsung Electronics
+|Rep.  Korea
+|Electronics
+|10 155
+|<nowiki>+31</nowiki>
+|6.5
+|-
+|3
+|Microsoft
+|USA
+|Computer hardware  and software
+|8 253
+|<nowiki>+10</nowiki>
+|13.1
+|-
+|4
+|Intel
+|USA
+|Semiconductors
+|7 694
+|<nowiki>+10</nowiki>
+|20.1
+|-
+|5
+|Novartis
+|Switzerland
+|Pharmaceuticals
+|7 174
+|<nowiki>+15</nowiki>
+|17.1
+|-
+|6
+|Roche
+|Switzerland
+|Pharmaceuticals
+|7 076
+|<nowiki>+12</nowiki>
+|18.6
+|-
+|7
+|Toyota Motors
+|Japan
+|Automobiles &  parts
+|6 270
+|<nowiki>-2</nowiki>
+|3.5
+|-
+|8
+|Johnson & Johnson
+|USA
+|Medical equipment,  pharmaceuticals, consumer goods
+|5 934
+|<nowiki>+ 4</nowiki>
+|11.5
+|-
+|9
+|Google
+|USA
+|Internet-related  products and services
+|5 736
+|<nowiki>+ 173</nowiki>
+|13.2
+|-
+|10
+|Daimler
+|Germany
+|Automobiles &  parts
+|5 379
+|<nowiki>-7</nowiki>
+|4.6
+|-
+|11
+|General Motors
+|USA
+|Automobiles &  parts
+|5 221
+|<nowiki>-5</nowiki>
+|4.6
+|-
+|12
+|Merck USA
+|USA
+|Pharmaceuticals
+|5 165
+|<nowiki>+17</nowiki>
+|16.2
+|-
+|13
+|BMW
+|Germany
+|Automobiles &  parts
+|4 792
+|<nowiki>+15</nowiki>
+|6.3
+|-
+|14
+|Sanofi-Aventis
+|France
+|Pharmaceuticals
+|4 757
+|<nowiki>+8</nowiki>
+|14.4
+|-
+|15
+|Pfizer
+|USA
+|Pharmaceuticals
+|4 750
+|<nowiki>-13</nowiki>
+|12.7
+|-
+|16
+|Robert  Bosch
+|Germany
+|Engineering and  electronics
+|4 653
+|<nowiki>+10</nowiki>
+|10.1
+|-
+|17
+|Ford Motors
+|USA
+|Automobiles &  parts
+|4 641
+|<nowiki>-16</nowiki>
+|4.4
+|-
+|18
+|Cisco Systems
+|USA
+|Networking equipment
+|4 564
+|<nowiki>+13</nowiki>
+|13.4
+|-
+|19
+|Siemens
+|Germany
+|Electronics & electrical equipment
+|4 556
+|<nowiki>-15</nowiki>
+|6.0
+|-
+|20
+|Honda Motors
+|Japan
+|Automobiles &  parts
+|4 367
+|<nowiki>- 4</nowiki>
+|5.4
+|-
+|21
+|Glaxosmithkline
+|UK
+|Pharmaceuticals & biotechnology
+|4 154
+|<nowiki>-10</nowiki>
+|13.1
+|-
+|22
+|IBM
+|USA
+|Computer hardware, middleware  & software
+|4 089
+|<nowiki>-13</nowiki>
+|5.7
+|-
+|23
+|Eli Lilly
+|USA
+|Pharmaceuticals
+|4 011
+|<nowiki>+18</nowiki>
+|23.9
+|-
+|24
+|Oracle
+|USA
+|Computer hardware & software 
+|3 735
+|<nowiki>+47</nowiki>
+|13.5
+|-
+|25
+|Qualcomm
+|USA
+|Semiconductors, telecommunications  equipment
+|3 602
+|<nowiki>+112</nowiki>
+|20.0
+|-
+|26
+|Huawei
+|China
+|Telecommunications equipment and services
+|3 589
+|up > 200
+|25.6
+|-
+|27
+|Airbus  
+|Netherlands*
+|Aeronautics
+|3 581
+|<nowiki>+8</nowiki>
+|6.0
+|-
+|28
+|Ericsson
+|Sweden
+|Telecommunications equipment
+|3 485
+|<nowiki>-11</nowiki>
+|13.6
+|-
+|29
+|Nokia
+|Finland
+|Technology  hardware & equipment
+|3 456
+|<nowiki>- 9</nowiki>
+|14.7
+|-
+|30
+|Nissan Motors
+|Japan
+|Automobiles &  parts
+|3 447
+|<nowiki>+4</nowiki>
+|4.8
+|-
+|31
+|General Electric
+|USA
+|Engineering, electronics & electrical equipment
+|3 444
+|<nowiki>+6</nowiki>
+|3.3
+|-
+|32
+|Fiat
+|Italy
+|Automobiles &  parts
+|3 362
+|<nowiki>+12</nowiki>
+|3.9
+|-
+|33
+|Panasonic
+|Japan
+|Electronics & electrical equipment
+|3 297
+|<nowiki>-26</nowiki>
+|6.2
+|-
+|34
+|Bayer
+|Germany
+|Pharmaceuticals  & biotechnology
+|3 259
+|<nowiki>-2</nowiki>
+|8.1
+|-
+|35
+|Apple
+|USA
+|Computer hardware  & software 
+|3 245
+|<nowiki>+120</nowiki>
+|2.6
+|-
+|36
+|Sony
+|Japan
+|Electronics & electrical equipment
+|3 209
+|<nowiki>-21</nowiki>
+|21.3
+|-
+|37
+|Astrazeneca
+|UK
+|Pharmaceuticals  & biotechnology
+|3 203
+|<nowiki>-12</nowiki>
+|17.2
+|-
+|38
+|Amgen
+|USA
+|Pharmaceuticals & biotechnology
+|2 961
+|<nowiki>+18</nowiki>
+|21.9
+|-
+|39
+|Boehringer  Ingelheim
+|Germany
+|Pharmaceuticals  & biotechnology
+|2 743
+|<nowiki>+23</nowiki>
+|19.5
+|-
+|40
+|Bristol–Myers Squibb
+|USA
+|Pharmaceuticals  & biotechnology
+|2 705
+|<nowiki>+2</nowiki>
+|22.8
+|-
+|41
+|Denso
+|Japan
+|Automobile parts
+|2 539
+|<nowiki>+12</nowiki>
+|9.0
+|-
+|42
+|Hitachi
+|Japan
+|Technology hardware & equipment
+|2 420
+|<nowiki>-18</nowiki>
+|3.7
+|-
+|43
+|Alcatel–Lucent
+|France
+|Technology  hardware & equipment
+|2 374
+|<nowiki>+4</nowiki>
+|16.4
+|-
+|44
+|EMC
+|USA
+|Computer software
+|2 355
+|<nowiki>+48</nowiki>
+|14.0
+|-
+|45
+|Takeda Pharmceuticals
+|Japan
+|Pharmaceuticals & biotechnology
+|2 352
+|<nowiki>+28</nowiki>
+|20.2
+|-
+|46
+|SAP
+|Germany
+|Software &  computer services
+|2 282
+|<nowiki>+23</nowiki>
+|13.6
+|-
+|47
+|Hewlett–Packard
+|USA
+|Technology  hardware & equipment
+|2 273
+|<nowiki>-24</nowiki>
+|2.8
+|-
+|48
+|Toshiba
+|Japan
+|Computer hardware
+|2 269
+|<nowiki>-18</nowiki>
+|5.1
+|-
+|49
+|LG Electronics
+|Korea, Rep.
+|Electronics
+|2 209
+|<nowiki>+61</nowiki>
+|5.5
+|-
+|50
+|Volvo
+|Sweden
+|Automobiles & parts
+|2 131
+|<nowiki>+27</nowiki>
+|6.9
+|}
+
+<nowiki>*</nowiki> Although incorporated in the Netherlands, Airbus’s principal manufacturing facilities are located in France, Germany, Spain and the UK.
+
+Source: ''UNESCO Science Report: towards 2030'' (2015), Table 9.3. Based on Hernández ''et. al'' (2014) ''EU R&D Scoreboard: the 2014 EU Industrial R&D Investment Scoreboard''. European Commission: Brussels, Table 2.2.
+
+History
+
+The first President's Science and Technology Advisor was James R. Killian, appointed in 1958 by President Dwight D. Eisenhower after Sputnik Shock created the urgency for the government to support science and education. President Eisenhower realized then that if Americans were going to continue to  be the world leader in scientific, technological and military advances, the government would need to provide support. After World War II, the US government began to formally provide support for scientific research and to establish the general structure by which science is conducted in the US.<ref name="sputnik">cite book|last=Neal|first=Homer|author2=Smith, Tobin|author3=McCormick, Jennifer|title=Beyond Sputnik|year=2008|publisher=The University of Michigan Press</ref> The foundation for modern American science policy was laid way out in Vannevar Bush's ''Science - the Endless Frontier'', submitted to President Truman in 1945. Vannevar Bush was President Roosevelt's science advisor and became one of the most influential science advisors as, in his essay, he pioneered how we decide on science policy today.<ref name="Ehlers_science">cite journal|last=Ehlers|first=Vernon|title=The Future of U.S. Science Policy|journal=Science|date=16 January 1998|volume=279|pages=302|doi=10.1126/science.279.5349.302a|issue=5349</ref> He made recommendations to improve the following three areas: national security, health, and the economy—the same three focuses we have today.
+
+=Creation of the NSF=
+
+The National Science Foundation#History and mission|creation of the National Science Foundation, although implemented in 1950, was a controversial issue that started as early as 1942, between engineer and science administrator Vannevar Bush and Senator Harley M. Kilgore (D-WV), who was interested in the organization of military research. Senator Kilgore presented a series of bills between 1942-1945 to Congress, the one that most resembles the establishment of the NSF, by name, was in 1944, outlining an independent agency whose main focus was to promote peacetime basic and applied research as well as scientific training and education. Some specifics outlined were that the director would be appointed and the board would be composed of scientists, technical experts and members of the public. The government would take ownership of intellectual property developed with federal funding and funding would be distributed based on geographical location, not merit.  Although both Bush and Kilgore were in favor of government support of science, they disagreed philosophically on the details of how that support would be carried out. In particular, Bush sided with the board being composed of just scientists with no public insight. When Congress signed the legislation that created the NSF, many of Bush's ideals were removed. It illustrates that these questions about patent rights, social science expectations, the distribution of federal funding (geographical or merit), and who (scientists or policymakers) get to be the administrators are interesting questions that science policy grapples with.
+
+ See also 
+* List of United States research and development agencies
+* Science and technology in the United States
+* Biomedical research in the United States
+* Technological and industrial history of the United States
+* Science policy
+* NASA Budget
+* STAR METRICS
+* List of books about the politics of science|List of Books about the Politics of Science
+
+ References 
+Free-content attribution
+| title = UNESCO Science Report: towards 2030
+| author = 
+| publisher = UNESCO
+| page numbers = 
+| source = 
+| documentURL = http://unesdoc.unesco.org/images/0023/002354/235406e.pdf
+| license statement URL = 
+| license = CC-BY-SA IGO 3.0
+
+Reflist
+Use dmy dates|date=November 2010
+
+United States policy
+US research agencies
+
+DEFAULTSORT:Science Policy Of The United States
+Category:Science policy
+Category:United States federal policy
+Category:Science and technology in the United States

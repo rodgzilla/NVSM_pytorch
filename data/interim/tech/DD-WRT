@@ -1,0 +1,179 @@
+Use dmy dates|date=August 2012
+Infobox software
+| name                   = DD-WRT
+| logo                   = DDwrt.logo.png
+| screenshot             = Ddwrtv24rc7.png
+| caption                = DD-WRT's Web interface
+| developer              = Sebastian Gottschall / NewMedia-NET
+| released               = Start date and age|df=yes|2005|01|22<ref>Cite web | url= http://freewrt.narod.ru/ | title=Alchemy branch v16 by BrainSlayer | website=FreeWRT.Narod.ru | date=22 January 2005| access-date=29 July 2012</ref>
+| latest release version = v24 SP1 (Build 10020)
+| latest release date    = Start date and age|df=yes|2008|07|27
+| latest preview version = Constantly being updated in beta form in forums or at URL|http://download1.dd-wrt.com/dd-wrtv2/downloads/betas/
+| latest preview date    = 
+| genre                  = Router operating system
+| license                = Various Proprietary software|proprietary and Free software license|free software
+| website                = URL|www.dd-wrt.com
+
+File:Linksys WRT54G.jpg|thumb|DD-WRT was originally designed for the Linksys WRT54G series, but now runs on a variety of routers.
+
+DD-WRT is Linux-based firmware for wireless routers and Wireless access point|access points. Originally designed for the Linksys WRT54G series, it now runs on a wide variety of models. DD-WRT is one of a handful of List of router firmware projects|third-party firmware projects designed to replace manufacturer's original firmware with custom firmware offering additional features or functionality.
+
+Sebastian Gottschall, a.k.a. "BrainSlayer", is the founder and primary maintainer of the DD-WRT project.<ref>Cite web|url=https://www.dd-wrt.com/site/content/about|title=About DD-WRT ! www.dd-wrt.com|website=www.dd-wrt.com|language=en|access-date=2017-05-01</ref>  The letters "DD" in the project name are the Vehicle registration plates of Germany|German license-plate letters for vehicles from Dresden, where the development team lived.<ref name="GPL wiki">Cite web | title=What is DD-WRT? | url=http://www.dd-wrt.com/wiki/index.php/What_is_DD-WRT%3F | website=DD-WRT.com | access-date=2 April 2016</ref>  The remainder of the name was taken from the Linksys WRT54G model router, a home router popular in 2002–2004. "WRT", also used by the OpenWrt router firmware project, comes from the generic abbreviation for "Wireless RouTer", which may have been the original Linksys meaning.
+
+Melco|Buffalo Technology and other companies have shipped routers with factory-installed, customized versions of DD-WRT.<ref>Cite press release
+|url=http://www.buffalo-technology.com/press/releases/buffalo-partners-with-newmedia-net/
+|title=Buffalo Partners with NewMedia-NET
+|date=23 October 2007
+|access-date=14 November 2007
+|archiveurl=https://web.archive.org/web/20080116185127/http://www.buffalo-technology.com/press/releases/buffalo-partners-with-newmedia-net/
+|archivedate=2008-01-16
+</ref><ref>Cite web
+|url=http://www.dd-wrt.com/phpBB2/viewtopic.php?p=121822&highlight=#121822
+|title=Congratulations on the partnership w/Buffalo!
+|last=Gottschall |first=Sebastian [BrainSlayer]
+|date=29 October 2007
+|access-date=14 November 2007
+</ref> In January 2016, Linksys started to offer DD-WRT firmware for their routers.<ref>[http://www.zdnet.com/article/dd-wrt-linux-firmware-comes-to-linksys-routers/ DD-WRT Linux firmware comes to Linksys routers] on zdnet.com by Steven J. Vaughan-Nichols (January 5, 2016)</ref>
+
+Features
+Among the standard features common to all versions of DD-WRT are: Computer access control|access control, bandwidth monitoring, quality of service, Wi-Fi Protected Access|WPA/WPA2 (personal and enterprise), the iptables firewall, Universal Plug and Play, Wake-on-LAN, Dynamic DNS, AnchorFree VPN, wireless access point configuration, multiple SSIDs, overclocking, Transmission (telecommunications)|transmission power control, and the ability to link routers. A telnet daemon (computing)|daemon is also standard. A few examples of optional features are a wireless distribution system and support for RADIUS and XLink Kai networks. DD-WRT's support for OpenVPN, WireGuard enables both protocols to pass all network traffic through a virtual private network.<ref>Cite web|url=https://www.yellowgurl.com/best-dd-wrt-routers-reviews/|title=DD-WRT Products, Pros & Cons|website=yellowgurl|access-date=2017-02-19</ref><ref>Cite web|url=http://www.best-vpn.net/set-up-vpn-on-dd-wrt-router|title=All-in-One Guide to Choose and Set Up VPN On a DD-WRT Router|website=www.best-vpn.net|access-date=2018-02-03</ref>
+
+{| class="wikitable"
+|+ Version-specific features
+|-
+! Feature
+! Micro<br />small|(2 MB)Efn|"Micro" builds additionally require 128&nbsp;kB of Common Firmware Environment storage
+! Mini<br />small|(4 MB)
+! Nokaid<br />small|(4 MB)
+! Standard<br />small|(4 MB)
+! VOIP<br />small|(4 MB)
+! VPN<br />small|(4 MB)Efn|name=VPN_JFFS|Smaller VPN JFFS builds are available for 4 MB units.
+! MegaEfn|Only on DD-WRT v24<br />small|(8 MB)
+|-
+! rh2|align=left scope="row" | ChilliSpot
+| colspan="2" no2
+| colspan="2" ya
+| colspan="2" no2
+| ya
+|-
+! rh2|align=left scope="row" | Web management over HTTPS
+| colspan="2" no2
+| colspan="5" ya
+|-
+! rh2|align=left scope="row" | IPv6
+| colspan="2" no2
+| ya
+| no2
+| colspan="3" ya
+|-
+! rh2|align=left scope="row" | JFFS2Efn|name=VPN_JFFS
+| no2
+| colspan="4" ya
+| no2
+| ya
+|-
+! rh2|align=left scope="row" | XLink Kai daemon
+| colspan="3" no2
+| ya
+| colspan="2" no2
+| ya
+|-
+! rh2|align=left scope="row" | MultiMediaCard|MMC & Secure Digital|SD card support
+| colspan="2" no2
+| colspan="5" ya
+|-
+! rh2|align=left scope="row" | NoCat
+| colspan="2" no2
+| colspan="5" ya
+|-
+! rh2|align=left scope="row" | OpenVPN
+| colspan="5" no2
+| colspan="2" ya
+|-
+! rh2|align=left scope="row" | Point-to-Point Tunneling Protocol|PPTP client
+| no2
+| colspan="6" ya
+|-
+! rh2|align=left scope="row" | radvd
+| colspan="3" ya
+| no2
+| ya
+| no2
+| ya
+|-
+! rh2|align=left scope="row" | RFlow small|(traffic information)
+| colspan="2" no2
+| colspan="5" ya
+|-
+! rh2|align=left scope="row" | Samba (software)|Samba/CIFS client
+| colspan="2" no2
+| colspan="5" ya
+|-
+! rh2|align=left scope="row" | Milkfish Session Initiation Protocol|SIP router
+| colspan="4" no2
+| ya
+| no2
+| ya
+|-
+! rh2|align=left scope="row" | Simple Network Management Protocol|SNMP
+| colspan="2" no2
+| colspan="5" ya
+|-
+! rh2|align=left scope="row" | Secure Shell daemon
+| no2
+| colspan="6" ya
+|-
+! rh2|align=left scope="row" | Wiviz
+| no2
+| colspan="6" ya
+|}
+
+Notelist
+
+It is also possible to build a bespoke firmware package.<ref name="Firmware_Modification_Kit">[http://www.bitsum.com/firmware_mod_kit.htm Firmware Modification Kit] gives the user the ability to make changes to a firmware image without recompiling the firmware sources.</ref><ref>Cite web|url=http://heatonc.com/best-dd-wrt-router/|title=Best Router for DD-WRT firmware|website=HeatonC|access-date=2017-12-19</ref>
+
+Version history
+{| class="wikitable" style="text-align:center"
+! scope="col" | Version !! scope="col" | Release date !! scope="col" | Changes !! scope="col" | abbr|Refs|References
+|-
+| Version|o|16 || nowrap|22 January 2005 || style="text-align:left | Initial release. Created as a branch of Sveasoft Alchemy firmware|Alchemy, which, in turn, is based on the Linksys WRT54G firmware || <ref>cite web | url= http://freewrt.narod.ru/ | title=Alchemy branch v16 by BrainSlayer | date=22 January 2005| access-date=29 July 2012</ref>
+|-
+| Version|o|22 || nowrap|25 July 2005 || dunno || <ref>cite web | url= ftp://ftp.dd-wrt.com/stable/dd-wrt.v22/ | title=Index of /stable/dd-wrt.v22/ | date=25 July 2005| access-date=29 July 2012</ref>
+|-
+| Version|o|23 || nowrap|25 December 2005 || style="text-align:left | Replaced the Alchemy kernel with the OpenWrt kernel || <ref>cite web|url=ftp://ftp.dd-wrt.com/stable/dd-wrt.v23/|title=Index of /stable/dd-wrt.v23/|date=25 December 2005|access-date=29 July 2012</ref>
+|-
+| Version|o|23 SP 1 || nowrap|16 May 2006 || style="text-align:left | In this service pack, much of the code was overhauled and rewritten during the development of this release; many new features were added. || CN|date=January 2018
+|-
+| Version|o|23 SP 2 || nowrap|14 September 2006 || style="text-align:left | The interface was overhauled, and some new features were added. Some additional router models are supported. || CN|date=January 2018
+|-
+| Version|o|24 || nowrap|18 May 2008 || style="text-align:left | Allows up to 16 virtual interfaces with different Service set (802.11 network)#Service set identifier (SSID)|SSIDs and Wireless security|encryption protocols. It can run on some PowerPC, IXP425-based router boards, Atheros WiSOC, and X86-based systems. It can also run to some extent on routers with low flash memory (ex. Linksys WRT54G series#Hardware and revisions|WRT54Gv8 or Linksys WRT54G series#WRT54GS|WRT54GSv7) || CN|date=January 2018
+|-
+| Version|co|24 SP 1 || 26 July 2008 || style="text-align:left | Critical DNS security fix for an issue in dnsmasq, site survey security fixes, longer passwords, and flexible OpenVPN configurations. It can also run on additional hardware, including WRT300 v1.1, WRT310N, WRT600N, Tonze AP42X Pronghorn SBC, Ubiquiti LSX and Netgear, Belkin, and USR devices. || CN|date=January 2018
+|-
+| Version|cp|Beta || varies || style="text-align:left | Since 2010, the DD-WRT developers have frequently published Beta software|beta builds for various routers. Some builds are considered very stable, while others do not work at all, Since January 2018 WireGuard has been made available with routers with 8MB or more Flash and has been updated regularly by BrainSlayer|| <ref>cite web |url=ftp://ftp.dd-wrt.com/betas/ |title=ftp.dd-wrt.com/betas/ |website=DD-WRT.com |access-date=2018-01-06</ref>
+|}
+
+Router Hardware Supported
+DD-WRT supports many different router models, both new and obsolete. This is a full list of currently supported models.<ref>cite web |url=https://www.dd-wrt.com/wiki/index.php/Supported_Devices |title=Supported Devices - DD-WRT Wiki |website=DD-WRT.com |access-date=2018-01-25</ref> Known incompatible devices are found here.<ref>cite web |url=https://www.dd-wrt.com/wiki/index.php/Known_incompatible_devices |title=Known incompatible devices - DD-WRT Wiki |website=DD-WRT.com |access-date=2018-01-25</ref>
+
+See also
+Portal|Free and open-source software
+* BusyBox
+* List of router firmware projects
+
+References
+Reflist|30em
+
+External links
+Wikibooks
+Commons category|DD-WRT
+* Official website|www.dd-wrt.com
+* [https://forum.dd-wrt.com/phpBB2/index.php?c=3 DD-WRT Forum]
+* [http://svn.dd-wrt.com/ DD-WRT software version control]
+
+Routing software
+
+Category:Custom firmware
+Category:Free system software
+Category:Routing software
+Category:Linux distributions without systemd

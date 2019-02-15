@@ -1,0 +1,111 @@
+Distinguish | Interactive programming
+
+File:Study in keith.ogv|thumb|200px|alt=Example live coding performance|''A Study in Keith'' is a musical live coding performance in Impromptu (programming environment)|Impromptu by Andrew Sorensen.
+
+Live coding<ref>Collins, N., McLean, A., Rohrhuber, J. & Ward, A. (2003), "[http://akustik.hfbk.net/publications/LiveCodingInLaptopPerformance.pdf Live Coding in Laptop Performance]", ''Organised Sound'' 8(3): 321–30. doi|10.1017/S135577180300030X</ref> (sometimes referred to as 'on-the-fly programming',<ref>Wang G. & Cook P. (2004) [http://soundlab.cs.princeton.edu/publications/on-the-fly_nime2004.pdf "On-the-fly Programming: Using Code as an Expressive Musical Instrument"], In ''Proceedings of the 2004 International Conference on New Interfaces for Musical Expression (NIME)'' (New York: NIME, 2004).</ref> 'just in time programming' and 'conversational programming') makes programming an integral part of the running program.<ref>Alan Blackwell, Alex McLean, James Noble, Jochen Otto, and Julian Rohrhuber, "Collaboration and learning through live coding (Dagstuhl Seminar 13382)", Dagstuhl Reports 3 (2014), no. 9, 130–168.</ref>
+
+It is most prominent as a performing arts form and a creativity technique centred upon the writing of source code and the use of interactive programming in an improvisation|improvised way. Live coding is often used to create sound and image based digital media, as well as light systems, improvised dance and poetry,<ref>Magnusson, T. (2013). [https://liveprogramming.github.io/2013/papers/thor.pdf The Threnoscope. A Musical Work for Live Coding Performance]. In Live 2013. First International Workshop on Live Programming.</ref><ref>cite news|url=http://news.bbc.co.uk/1/hi/technology/8221235.stm|title= Tech Know: Programming, meet music |publisher=BBC News|accessdate=2010-03-25 | date=2009-08-28</ref> though is particularly prevalent in computer music usually as improvisation, although it could be combined with algorithmic composition.<ref>Collins, N. (2003) "[https://wiki.brown.edu/confluence/download/attachments/74258672/Collins,+Generative+Music.pdf Generative Music and Laptop Performance] webarchive|url=https://web.archive.org/web/20140514102233/https://wiki.brown.edu/confluence/download/attachments/74258672/Collins,+Generative+Music.pdf |date=2014-05-14 ", ''Contemporary Music Review'' 22(4):67–79.</ref> Typically, the process of writing source code is made visible by projecting the computer screen in the audience space, with ways of visualising the code an area of active research.<ref>McLean, A., Griffiths, D., Collins, N., and Wiggins, G. (2010). [http://yaxu.org/visualisation-of-live-code/ Visualisation of live code]. In Electronic Visualisation and the Arts London 2010.</ref> Live coding techniques are also employed outside of performance, such as in producing sound for film<ref>cite book|last=Rohrhuber|first=Julian|title=Artificial, Natural, Historical in Transdisciplinary Digital Art. Sound, Vision and the New Screen|year=2008|publisher=Springer Berlin Heidelberg|pages=60–70|url=http://akustik.hfbk.net/publications/rohrhuber_artificial_natural_historical.pdf</ref> or audiovisual work for interactive art installations.<ref>cite web|title=Communion by Universal Everything and Field.io: interview|url=http://www.creativeapplications.net/scripts/communion-cinder-scripts-events-special/|accessdate=5 February 2013</ref> Also, the interconnection between computers makes possible to realize this practice networked in group. 
+
+The figure of live coder is who performs the act of live coding, usually "artists who want to learn to code, and coders who want to express themselves"<ref>cite web|last=Bell|first=Sarah|title=Live coding brings programming to life - an interview with Alex McLean|url=http://www.britishscienceassociation.org/blog/live-coding-brings-programming-to-life-an-interview-with-alex-mac|accessdate=2 March 2016</ref> or in terms of Wang & Cook the "programmer/performer/composer".<ref>Wang G. & Cook P. (2004) [http://soundlab.cs.princeton.edu/publications/on-the-fly_nime2004.pdf "On-the-fly Programming: Using Code as an Expressive Musical Instrument"], In ''Proceedings of the 2004 International Conference on New Interfaces for Musical Expression (NIME)'' (New York: NIME, 2004).</ref>
+
+Live coding is also an increasingly popular technique in programming-related lectures and conference presentations, and has been described as a "best practice" for computer science lectures by Mark Guzdial.<ref>cite web|last=Guzdial|first=Mark|title=What students get wrong when building computational physics models in Python: Cabellero thesis part 2|url=http://computinged.wordpress.com/2011/08/01/what-students-get-wrong-when-building-computational-physics-models-in-python-cabellero-thesis-part-2/|accessdate=5 February 2013</ref>
+
+ Live coding techniques 
+
+A range of techniques have been developed and appropriated for the purposes of live coding.
+
+= Representation and manipulation of time =
+
+The specific affordances of time-based media and live interaction with code has led to a number of novel developments and uses in programming language design. Through mutual embedding of imperative and declarative subsystems, the programming language SuperCollider<ref>James McCartney (1996), SuperCollider: a new real time synthesis language, ICMC Proceedings, 1996.
+</ref> permitted to build a library that allows incomplete and provisional specifications which can be rewritten at runtime.<ref>Julian Rohrhuber, Alberto de Campo, and Renate Wieser (2005), Algorithms today - Notes on Language Design for Just In Time Programming, Proceedings of International Computer Music Conference (Barcelona), ICMC, 2005, pp. 455–458.</ref>
+
+The ChucK language introduced an approach to "strongly timed" programming in 2002, embedding precision timing into control flow through a concise syntax.
+
+"Temporal recursion" was a term initially coined in relation to the Impromptu (programming environment)|Impromptu programming environment. Technical elements within a programming environment continue to locate compressors and recursion solutions, but timing had been a major issue. While the general form of a temporal recursion, being any asynchronous function recursion through time, is available to any event driven system, Impromptu has placed a special emphasis on this particular design pattern,<ref>Sorensen, A & Gardner, H (2010) "[http://eprints.qut.edu.au/55712/1/sorensen_ow_2010.pdf Programming With Time: Cyberphysical Programming In Impromptu, In proceedings of the ACM Splash Conference 2010]"</ref> making it the centre piece of the concurrency architecture on that platform. Temporal recursion had repeatedly been used in SuperCollider and has since been implemented in the Fluxus (programming environment)|Fluxus environment.
+
+Another functional approach to the representation of time is shown in the Tidal (livecoding)|Tidal pattern Domain-specific language|DSL,<ref>cite book|last=McLean|first=Alex|chapter=[https://github.com/yaxu/Tidal/blob/master/doc/farm/farm.pdf?raw=true Making programming languages to dance to: Live Coding with Tidal]|title=In proceedings of the 2nd ACM SIGPLAN International Workshop on Functional Art, Music, Modelling and Design|year=2014|location=Gothenburg|accessdate=26 July 2014</ref> which represents patterns as combinators operating over functions of time, similar to techniques in functional reactive programming.<ref>cite web|last=McLean|first=Alex|title=Tidal homepage|url=https://yaxu.org/tidal/</ref>
+
+= Multi-user programming and shared memory =
+
+Multi-user programming has developed in the context of group music-making, through the long development of the ''Republic'' system developed and employed by members of the network band ''PowerBooks Unplugged''.<ref>Rohrhuber, J., A. de Campo, R. Wieser, J.-K. van Kampen, E. Ho, and H. Hölzl (2007). [http://www.wertlos.org/articles/Purloined_letters.pdf Purloined letters and distributed persons]. In Music in the Global Village Conference 2007.</ref> Republic is built into the SuperCollider language, and allows participants to collaboratively write live code that is distributed across the network of computers. There are similar efforts in other languages, such as the distributed tuple space used in the Impromptu language.<ref>Sorensen, A. (2010). [http://impromptu.moso.com.au/extras/icmc2010.pdf A distributed memory for networked livecoding performance]. In Proceedings of International Computer Music Conference 2010.</ref> Additionally Overtone, Impromptu and Extempore support multi-user sessions, in which any number of programmers can intervene across the network in a given runtime process.<ref>Sorensen, A. (2005). [http://eprints.qut.edu.au/31056/ Impromptu : an interactive programming environment for composition and performance, In proceedings of the Australasian Computer Music Conference 2005]</ref> More recently systems as Extramuros are used to live coding in group through the technique of shared buffers of code written in SuperCollider and TidalCycles languages. The practice of writing code in group can be done in the same room through a local network or from remote places accessing a common server. Terms like laptop band, laptop orchestra, collaborative live coding or collective live coding are used to frame a networked live coding practice both in a local or remote way.
+
+ Organizations 
+TOPLAP (The (Temporary|Transnational|Terrestrial|Transdimensional) Organisation for the (Promotion|Proliferation|Permanence|Purity) of Live (Algorithm|Audio|Art|Artistic) Programming) is an informal organization formed in February 2004 to bring together the various communities that had formed around live coding environments.<ref>Ward, A., Rohrhuber, J., Olofsson, F., McLean, A., Griffiths, D., Collins, N., and Alexander, A. (2004). [http://art.runme.org/1107861145-2780-0/livecoding.pdf Live algorithm programming and a temporary organisation for its promotion]. In Goriunova, O. and Shulgin, A., editors, read_me - Software Art and Cultures.</ref> The TOPLAP manifesto asserts several requirements for a TOPLAP compliant performance, in particular that performers' screens should be projected and not hidden.<ref>http://toplap.org/wiki/ManifestoDraft</ref>
+
+ Research 
+
+A number of research projects and research groups have been created to explore live coding, often taking interdisciplinary approaches bridging the humanities and sciences. First efforts to both develop live coding systems and embed the emerging field in the broader theoretical context happened in the research project Artistic Interactivity in Hybrid Networks from 2005 to 2008, funded by the Deutsche Forschungsgemeinschaft|German Research Foundation.<ref>https://web.archive.org/web/20160303215643/http://www.uni-koeln.de/phil-fak/muwi/c10/index.html</ref>
+
+Further, the Live Coding Research Network was funded by the UK Arts and Humanities Research Council for two years from February 2014, supporting a range of activities including symposia, workshops and an annual international conference called ICLC.
+
+In Madrid, since 2015 a group of experimentation on free software called Live Code Mad,<ref>cite web|title=Live Code Mad. Grupo de experimentación con Software Libre para la programación de sonido digital.|url=http://medialab-prado.es/article/live-coding-en-medialab|accessdate=25 February 2016</ref> organizes regular meetings in order to experiment with different live coding platforms and languages. In Mexico, a workshop of live coding take place in Instituto Politécnico Nacional at ESFM.<ref>cite web|title=Live Coding at IPN Mexico.|url=http://www.esfm.ipn.mx/Estudiantes/Paginas/Act_Deportivas_Culturales.aspx|accessdate=30 May 2016|deadurl=yes|archiveurl=https://web.archive.org/web/20160629055355/http://www.esfm.ipn.mx/Estudiantes/Paginas/Act_Deportivas_Culturales.aspx|archivedate=29 June 2016|df=</ref> In USA there is a group called Live Code NYC.<ref>cite web|title=Live Code NYC|url=http://livecode.nyc/|accessdate=22 August 2017</ref> Since 2014 the collective Algo0ritmos is working in Medellin, this group develop tools for live coding focused on live coding and free software.<ref>cite web|title=algo0ritmos|url=https://twitter.com/algo0ritmos|accessdate=23 August 2017</ref>
+
+ Notable live coding environments 
+div col|colwidth=10em
+* ChucK
+* COLT (software)|COLT
+* Extempore (software)|Extempore
+* Fluxus (programming environment)|Fluxus
+* Impromptu (programming environment)|Impromptu
+* ixi lang
+* LiveCode
+* Lua (programming language)|Lua
+* Max (software)|Max
+* Pharo
+* Pure Data
+* Scratch (programming language)|Scratch
+* Sonic Pi
+* SuperCollider
+* Tidal (livecoding)|TidalCycles
+* Wolfram Language
+div col end
+
+ Notable live coders 
+div col|colwidth=20em
+* Ron Kuivila
+* Slub (band)|Slub
+* Alex McLean
+* Adrian Ward (artist)|Adrian Ward
+* Ge Wang
+* Sonic Pi|Sam Aaron
+* Joanne Armitage
+* Matthew Yee-King
+* Alexandra Cardenas
+* Nick Collins (composer)|Nick Collins
+* Shelly Knotts
+* Benoît and the Mandelbrots (Band)|Benoît and the Mandelbrots
+* Extempore (software)|Andrew Sorensen
+div col end
+
+ See also 
+* Interactive programming—programming practice of using live coding in software development
+* Demoscene—subculture around coding audiovisual presentations (demos)
+* Algorave—event where music and/or visuals are generated from algorithms, generally live coded
+* NIME—academic and artistic conference on advances in music technology, sometimes featuring live coding performances and research presentations
+
+ Notes 
+reflist
+
+Further reading
+* Andrews, Robert. “[https://www.wired.com/science/discoveries/news/2006/07/71248 Real DJs Code Live].” ''Wired'' (online), 7 March 2006.
+* Brown, Andrew R. “[http://journal.media-culture.org.au/0612/03-brown.php Code Jamming].” ''M/C Journal'' 9/6 (December 2006).
+* Magnusson, Thor. "[http://www.mitpressjournals.org/doi/pdf/10.1162/COMJ_a_00216 Herding Cats: Observing Live Coding in the Wild]." "Computer Music Journal" Spring 2014, Vol. 38, No. 1, pp.&nbsp;8–16. 
+* Ramsay, Stephen. “[http://vimeo.com/9790850 Algorithms are Thoughts, Chainsaws are Tools].” Critical Code Studies Workshop, March 2010. A short film on live coding and the TOPLAP manifesto.
+* Sorensen, Andrew and Henry Gardner. “[http://impromptu.moso.com.au/extras/sorensen_ow_2010.pdf Programming With Time: Cyber-physical programming with Impromptu].” 22 September 2010.
+* Di Próspero, Carolina. "[http://www.revistacontenido.com/wp-content/uploads/2015/02/art%C3%ADculo-3-%C2%B7-Carolina-Di-Prospero.pdf Live coding. Arte computacional en proceso]." ''Contenido. Arte, Cultura y Ciencias Sociales'' 2015, Vol. 5, pp.&nbsp;5–19.
+* ICLC 2015. "[https://zenodo.org/collection/user-iclc2015 Proceedings of the First International Conference on Live Coding]." Leeds, UK.
+
+External links
+* [http://toplap.org/ Official TOPLAP website]
+* [http://vivo.cmm.cenart.gob.mx/ /*vivo*/ symposium on live coding]
+* [http://www.livecodenetwork.org/ Live Code Research Network]
+* [http://iclc.livecodenetwork.org/ International Conference on Live Coding]
+
+Category:Live coding| 
+Category:Algorave
+Category:Electronic music
+Category:Experimental music
+Category:Live music
+Category:Computer music
+Category:Computer programming
+Category:Digital art

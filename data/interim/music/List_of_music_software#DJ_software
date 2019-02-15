@@ -1,0 +1,565 @@
+This is a list of notable software for creating, performing, learning, analyzing, researching, broadcasting and editing music. This article only includes software, not services. For streaming services such as iHeartRadio, Pandora, Prime Music, and Spotify, see Comparison of on-demand streaming music services. For storage, uploading, downloading and streaming of music via the cloud, see Comparison of online music lockers. Although this field is only 46 years old, this list does not include discontinued historic or legacy software, with the exception of #Trackers|trackers that are still supported.<ref name="Historic music software">cite web|url=http://artsites.ucsc.edu/ems/music/equipment/computers/history/history.html|title=Short History of Computer Music|website=UCSC.edu|accessdate=11 June 2015</ref><ref name="Legacy music software">cite web|url=http://www.factmag.com/2014/04/21/the-14-pieces-of-software-that-shaped-modern-music/|title=The 14 pieces of software that shaped modern music|website=FactMag.com|accessdate=11 June 2015</ref> For example, the company Ars Nova produces List of music software#Music education software|music education software, and its software program Practica Musica has remnants of the historic Palestrina software. Practica will be listed here, but not Palestrina.<ref>Walter B. Hewlett, Computing in Musicology, 1990, p. 112, Stanford Music Lab, Menlo Park, CA. Ars Nova (educational music software company, not music style) is at [http://www.ars-nova.com/home6.html Ars Nova Software]</ref> If a program fits dozens of categories, such as a comprehensive List of music software#Digital audio workstation (DAW) software|DAW or a foundation programming language (e.g. Pure Data), listing is limited to its top three categories.
+
+Types of music software
+
+= CD ripping software =
+Div col|colwidth=30em
+* Brasero (software)|Brasero
+* CDex
+* Exact Audio Copy
+* fre:ac
+* k3b
+* XLDdiv col end
+
+= Choir and learn-to-sing software =
+: ''This section includes both choir software and learn-to-sing software. For music learning software, see List of music software#Music education software|music education software.''
+Main article|Choir|Vocal coach
+
+Div col|colwidth=22em
+* Cantor (music software)
+* SingingCoachdiv col end
+
+= DJ software =
+Main article|DJ#Software
+Div col|colwidth=22em
+* Cross/CrossDJ
+* Deckadance
+* djay (software)|djay
+* Final Scratch
+* Mixxx
+* Serato
+* Traktor
+div col end
+
+= Digital audio workstation (DAW) software =
+Main article|Digital audio workstation
+div col|colwidth=20em
+*ACID Pro
+*Ardour (software)|Ardour
+*Audiotool
+*Steinberg Cubase|Cubase
+*Digital Performer
+*FL Studio
+*Fairlight (company)|Fairlight 
+*GarageBand
+*Ableton Live|Live
+*Logic Pro
+*Maschine
+*Mixcraft
+*Steinberg Nuendo|Nuendo
+*Harrison Mixbus|Mixbus
+*MuLab (MuTools)|MuLab
+*Pro Tools
+*REAPER
+*Renoise
+*Reason (software)|Reason
+*Magix Samplitude|Samplitude
+*Magix Sequoia|Sequoia
+*Studio One (audio software)|Studio One
+*Tracktiondiv col end
+
+= Computer music software =
+Electronic music top
+Main article|Computer music
+See also|List of audio programming languages
+Div col|colwidth=22em
+* ChucK
+* Csound
+* Director Musices
+* Generative music#Software|List of Generative music software
+* JFugue
+* Kyma (sound design language)
+* Keykit
+* Max/MSP
+* Pure Data
+* SuperCollider
+div col end
+
+= Internet, RSS, Broadcast Music Software =
+Main article|Netlabel
+See also|Content delivery network
+''This section only includes software, not services. For services programs like Spotify, Pandora, Prime Music, etc. see Comparison of on-demand streaming music services. Likewise, list includes music RSS apps, widgets and software, but for a list of actual feeds, see Comparison of feed aggregators. For music broadcast software lists in the cloud, see Content delivery network and Comparison of online music lockers.''
+Div col|colwidth=22em
+* Airtime (software)|Airtime
+* Audicom (First radio automation software—see Radio software)
+* Campcaster
+* Clickradio
+* Juice (aggregator)
+* Moodagent (AI based emotion keyed playlist generator and app)
+* OpenBroadcaster
+* Panopto
+* SAM Broadcaster
+* StarMaker Interactive (app for original video music)
+* RapidFeeds
+div col end
+
+= Lyrics and Vocals =
+See also|List of vocoders#Software vocoder models
+Div col|colwidth=22em
+* Cantor (music software)
+* Rhyme Genie (Algorithms and software for rhyming lyrics)
+* SingingCoach
+* Synchro Arts VocAlign Project (Soundscape Digital Technology, also a MIDI Plugin)
+div col end
+
+= MIDI plug-ins =
+Main article|Audio plug-in
+
+Div col|colwidth=22em
+* Bitcrusher
+* Chorus effect
+* Delay (audio effect)
+* Dither
+* Liquid Rhythm
+* MachFive (MOTU Mark of the Unicorn)
+* MCDSP (Metropolis Group)
+* Native Instruments's B4, Electrik Piano, Guitar Rig 2
+* OrangeVocoder (Prosoniq)
+* Producer Factory Pro Bundle (DigiDesign via Avid Audio)
+*SoundFont (Integrates synthesized/sampled MIDI files with recorded music)
+* Symphonic Instrument (MOTU Mark of the Unicorn)
+* TL Space Native Edition (Trillium Labs dist. by DigiDesign via Avid Audio)div col end
+
+= Music analysis software =
+Main article|Musical analysis
+See also|Spectrum analyzer
+Div col|colwidth=22em
+* BeatRoot
+* BRP-PACU
+* ChucK
+* Kyma (sound design language)
+* Pure Data (This software also is used in embedded form for real time algorithmic music generation in Spore (2008 video game))
+* Platinum Blue Music Intelligence (from Music Xray company)
+* Praat
+* Sonic Visualiser
+* WaveSurfer
+div col end
+
+= Music circuit software =
+See also|Audio electronics|circuit bending
+Div col|colwidth=22em
+* Arduinome (software circuit platform)
+* CPU Sim
+* Electric (software)|Electric VLSI Design System
+* gLogic
+* GNU Circuit Analysis Package
+* KTechLab
+* Linear Technology (a/d, circuit software, and others.)
+* List of free electronics circuit simulators
+* LTspice
+* Logisim
+* Micro-Cap
+* MIDIbox (software circuit platform)
+* Monome (software circuit platform)
+* Ngspice
+* Oregano (software)
+* Quite Universal Circuit Simulator
+* SapWin
+* SPICE
+* Tenori-on (software circuit platform)
+div col end
+
+= Music composing software =
+See also|Algorithmic composition
+Div col|colwidth=22em
+* Antescofo
+* Director Musices
+* JFugue
+* Keykit
+* Kyma (sound design language)
+* Max (software)
+* MAGIX|Music Maker
+* Music Mouse (Algorithmic synth and composer)
+* Nodal (software)
+* Ocarina (app)
+* OpenMusic
+* PetSynth
+* Progression (software)
+* Reaktor (Software creation of nearly every instrument; reverse engineering encouraged)
+* Rubato Composer (First composition software based on Category theory)
+div col end
+
+= Music engraving software =
+* Dorico
+* Finale (software)|Finale
+* Sibelius (software)|Sibelius
+* MuseScore
+
+= Music education software =
+About|music learning software|choir and learn-to-sing software|#Choir and Learn to Sing Software|section=yes
+Main article|Comparison of music education software
+
+Div col|colwidth=22em
+* EarMaster
+* InstrumentChamp (video game for also acoustic guitar, and piano, drum, sax and trumpet; multiplayer)
+* Reaktor (software creation of nearly every instrument; reverse engineering encouraged)
+* Rocksmith (video game with emphasis on instructional aspects; unique in that controller can be any electric guitar w/ 1/4" jack)
+* Synthesia (video game with piano instruction aspects)
+* WaveSurfer (studies of acoustic phonetics)
+* Yousician (educational game to learn to play guitar and piano)
+div col end
+
+= Music gaming software =
+See also|Video game music|Dynamic music
+Div col|colwidth=22em
+* GarageBand
+* InstrumentChamp
+* Crypt of the Necrodancer
+* Pixelh8|Music Tech
+* Rocksmith (Video game with some instructional aspects; unique in that controller can be almost any electric guitar)
+div col end
+
+= Music mathematics software =
+Main article|Music and mathematics
+See also|Society for Mathematics and Computation in Music|Mathematical software
+Div col|colwidth=22em
+* JFugue, an API for music programming that is designed to support generative and algorithmic music
+* Julia (programming language) (MIT freeware, new, high-level dynamic programming language competing with R (programming language), MATLAB and GNU Octave.)
+* Scala (software)|Scala, a program for creating and analysing musical scales
+* Wolfram Language provides built-in functionality for audio generation, as well signal processing, audio signal processing and MIDI.<ref>cite web|url=http://reference.wolfram.com/language/guide/SoundAndSonification.html|title=Sound and Sonification—Wolfram Language Documentation|publisher=|accessdate=5 January 2017</ref>
+div col end
+
+= Music notation software =
+Main article|Scorewriter
+
+Div col|colwidth=22em
+* Canorus
+* Capella (notation program)|Capella
+* Denemo
+* Dorico
+* Encore (software)|Encore
+* Finale (software)|Finale
+* Forte (notation program)|Forte
+* Frescobaldi (software)|Frescobaldi
+* Gregorio (software)|Gregorio (for Neumes)
+* Guitar Pro
+* Igor Engraver
+* Impro-Visor
+* JEdit#Plug-ins|jEdit plugin
+* LilyPond
+* Lime
+* MagicScore
+* Mozart the music processor|Mozart
+* Mus2
+* MusEdit
+* MuseScore
+* Music Write
+* MusiCAD
+* MusicEase
+* Musink
+* MusiXTeX
+* NoteEdit
+* Notation Composer
+* NoteWorthy Composer
+* Notion (software)|NOTION
+* Overture (software)|Overture (Includes VST hosting as well as being a scorewriter)
+* Philip's Music Writer (PMW)
+* Power Tab Editor
+* Progression (software)|Progression
+* Rosegarden
+* SCORE (software)|SCORE
+* Scorecloud|ScoreCloud
+* Sibelius (software)|Sibelius (Division of Avid Technology since 8/2006. Avid also sells the Pro Tools DAW)
+* SmartScore (Focus on Optical music recognition|Music OCR)
+* TuxGuitar
+div col end
+
+= Music player software =
+Main article|Comparison of audio player software
+
+= Music research software =
+Main article|Sound and music computing
+* Scorecloud|ScoreCloud (Notation research)
+
+= Music technology, synthesis and o/s software =
+See also|Software synthesizer
+Div col|colwidth=22em
+* :Category:Music software plugin architectures
+* Comparison of audio synthesis environments
+* DirectMusic
+* Moodagent (AI based emotion keyed playlist generator and app)
+* Music information retrieval
+* Software effect processor
+* Sound Recorder (Windows)
+* Impromptu (programming environment)
+* Keykit
+* Max (software)<ref name="Online history of Max">cite web|url=http://www.musicwords.net/musictech/numbers.htm|title=Music & Math|publisher=|accessdate=5 January 2017</ref>
+* SynthFont (a MIDI to WAV converter-- Virtual Studio Technology instruments can be used instead of source files)
+div col end
+
+= Music visualization software =
+Main article|Music visualization
+Div col|colwidth=22em
+* Advanced Visualization Studio (Justin Frankel) (platform: Windows)
+* Cthugha (software)|Cthugha (1993, Kevin "Zaph" Burfitt) (platform: DOS)
+* Magic Music Visuals (2012-CURRENTYEAR, Color & Music, LLC) (platforms: Windows, OS X)
+* MilkDrop (2001-2012, Ryan Geiss) reimplemented as ''projectM'' (platforms: Windows, Linux, Android)
+* Neon (light synthesizer)|Neon (2004, Jeff Minter and Ivan Zorzin) (platform: Xbox 360)
+* Psychedelia (light synthesizer)|Psychedelia, (1984, Jeff Minter), an early "light synthesizer",  did not use audio input but was designed to create visualizations in accompaniment to music.
+* Pure Data (e.g. visualization of incoming music signals)
+* Virtual Light Machine (1990, Jeff Minter) (platform: Atari Jaguar)
+* Stephen Nachmanovitch|Visual Music Tone Painter (1992–2004)<ref>cite journal|title=Intelligence, new visions of artificial intelligence in practice|volume=11|publisher=Association for Computing Machinery|year=2000|url=https://books.google.com/books?id=-WZVAAAAMAAJ&q=%22Visual+Music+Tone+Painter%22&dq=%22Visual+Music+Tone+Painter%22&hl=en&ei=akTuS6O1JI-h_AacoezmBg&sa=X&oi=book_result&ct=result&resnum=2&ved=0CDIQ6AEwAQ</ref>
+* Vsxu (2003-2014, Vovoid) (platforms: Windows, Linux)
+div col end
+
+= Orchestration software =
+About|music orchestration software|orchestration software as used in information technology|Orchestration (computing)|section=yes
+Div col|colwidth=22em
+* Antescofo
+* IRCAM#Software developed at IRCAM|IRCAM
+* OpenMusic
+* Orchidée
+div col end
+
+ Drums and Percussion 
+Div col|colwidth=22em
+* Liquid Rhythm
+* Radiodrum
+div col end
+
+ Guitar 
+Div col|colwidth=22em
+* Guitar Rig 
+* Progression (software)
+div col end
+
+ Piano 
+Div col|colwidth=22em
+* Daynes Music|Kurzweil Digital Piano
+* Pianoteq (Modartt)
+* Korg Kronos|SGX-1 Premium Piano
+* Synthesia
+* Virtual piano
+div col end
+
+ Pipe organ 
+* Hauptwerk produces audio in response to MIDI signal from attached keyboard or from a MIDI sequencer<ref>Thomas Wichmann, The Hauptwerk Computer Program, Review in "The American Organist" 2004 July</ref>
+
+= Automatic composition software =
+Main article|Music and artificial intelligence
+See also|Robotic art
+*Experiments in Musical Intelligence
+
+= Samplers and Sequencers =
+See also|Comparison of MIDI editors and sequencers
+Div col|colwidth=22em
+* Electribe
+* Music sequencer (Article includes extensive list)
+* Reason (software)|Propellerhead
+* SoundFont (Integrates synthesized/sampled MIDI files with recorded music)
+div col end
+
+= Soundtrack creation software =
+Main article|Soundtrack
+See also|Multitrack recording|Sound recording and reproduction
+Commons category|Soundtrack creation software
+
+Div col|colwidth=22em
+* Anvil studio
+* Ensoniq PARIS
+* FL Studio
+* FL Studio Mobile
+* Mixcraft
+* Pro Tools
+* Sound Forge
+* SpectraLayers
+* WaveLab
+div col end
+
+= Trackers =
+Main article|Music tracker#Selected list of music trackers
+{| class="wikitable sortable"
+|-
+! rowspan=2| Name
+! rowspan=2| Latest<br/>update
+! rowspan=2| License
+! colspan=3| operating system|OS&nbsp;versions
+! colspan=5| file format|File&nbsp;format&nbsp;support
+! rowspan=2| Virtual Studio Technology|VST<br/>support
+! rowspan=2| Audio Stream Input/Output|ASIO<br/>output
+|-
+! Microsoft Windows|Windows
+! OS X|OS&nbsp;X
+! Linux
+! Musical Instrument Digital Interface#Standard files|MID
+! MOD (file format)|MOD
+! XM (file format)|XM
+! IT (file format)|IT
+! S3M (file format)|S3M
+|-
+| Renoise
+| 2016-01
+| commercial software|Commercial
+| Yes
+| Yes
+| Yes
+| Partial|Load
+| Partial|Load
+| Partial|Load
+| Partial|Load
+| No
+| Yes
+| Yes
+|-
+| OpenMPT
+| 2018-12
+| BSD licenses|BSD
+| Yes
+| No
+| No
+| Yes
+| Yes
+| Yes
+| Yes
+| Yes
+| Yes
+| Yes
+|-
+| SoundTracker (Unix)|SoundTracker&nbsp;(beta)
+| 2006-02
+| GPL
+| No
+| No
+| Yes
+| No
+| Yes
+| Yes
+| No
+| No
+| No
+| No
+|-
+| MilkyTracker&nbsp;
+| 2017-4
+| GPL
+| Yes
+| Yes
+| Yes
+| No
+| Yes
+| Yes
+| Partial|Load
+| Partial|Load
+| No
+| Yes
+|-
+| Buzztrax
+| 2015-09-03
+| GNU Lesser General Public License|LGPL
+| Yes
+| Yes
+| Yes
+| Partial|Load
+| Partial|Load
+| Partial|Load
+| Partial|Load
+| No
+| Yes
+| Yes
+|-
+| Psycle
+| 2009-11
+| GPL
+| Yes
+| No
+| No
+| No
+| Partial|Load
+| Yes
+| Partial|Load
+| Partial|Load
+| Yes
+| Yes
+|}
+
+=Virtual Studio Technology Hosting Software=
+Div col|colwidth=22em
+* Ableton Live
+* ACID Pro
+* Adobe Audition
+* Adobe Premiere Elements
+* Adobe Premiere Pro
+* Acoustica Mixcraft
+* Ardour (audio processor)|Ardour (open source)
+* Audacity (audio editor)|Audacity (open source, Windows, Linux and Mac platforms only<ref>citation | title = VST plug-ins | url = http://wiki.audacityteam.org/wiki/VST_Plug-ins</ref>)
+* AudioMulch
+* Band-in-a-Box
+* Bidule
+* Cakewalk Sonar
+* Deckadance
+* Digital Performer (version 8 or higher)
+* FL Studio
+* GoldWave
+* Jeskola Buzz
+* LMMS (open source)
+* Logic Pro
+* Max MSP
+* ModPlug Tracker
+* MultitrackStudio
+* n-Track Studio
+* Notion (software)|NOTION
+* Psycle (open source)
+* REAPER
+* Reason (software)|Reason
+* Renoise
+* Samplitude
+* Acid Pro|Sony Acid Pro
+* Sony Sound Forge 
+* Sony Vegas 
+* Steinberg Cubase
+* Steinberg Nuendo
+* Studio One (audio software)|Studio One
+* Wavelab|Steinberg Wavelab
+* Traktor
+* Vocaloid
+* Zynewave Podium|Podium
+div col end
+
+= Virtual Synthesizer and Studio Software =
+See also|Virtual Studio Technology
+maincat|Software synthesizers
+Div col|colwidth=22em
+* Amsynth
+* Minimoog
+* Reaktor (Software creation of nearly every instrument; reverse engineering encouraged)
+* Reason (software)|Reason (Both a DAW and virtual Recording studio)(This software is now integrated with Record (software)|Record)
+* ZynAddSubFX
+div col end
+
+ See also 
+Portal|Computer Science
+Wikipedia books|Computer Music
+Main article|Outline of music|Index of music articles
+Wikipedia books|Music
+* Audio editing software
+* Comparison of audio synthesis environments
+* Comparison of digital audio editors
+* Comparison of free software for audio
+* Comparison of scorewriters
+* List of audio conversion software
+* List of audio programming languages
+* List of guitar tablature software
+* List of Linux audio software
+* List of MIDI editors and sequencers
+* List of scorewriters
+* Music technology
+
+ References 
+Reflist|30em
+
+Audio editors
+Computer music
+Electronic music
+Media player (application software)|free
+Western music genres
+
+DEFAULTSORT:Music software
+Category:Computer music software| 
+Category:DJing
+Category:Lists of software
+Category:MIDI
+Category:Music-related lists|Software
+Category:Music software plugin architectures| 
+Category:Musical terminology|*
+Category:Wikipedia outlines
+Category:Soundtrack creation software| 

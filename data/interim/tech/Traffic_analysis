@@ -1,0 +1,185 @@
+About|analysis of traffic in a radio or computer network|vehicular traffic|Traffic flow
+Traffic analysis is the process of intercepting and examining messages in order to deduce information from patterns in communication, which can be performed even when the messages are encrypted.<ref name=":0">cite arxiv|last=Soltani|first=Ramin|last2=Goeckel|first2=Dennis|last3=Towsley|first3=Don|last4=Houmansadr|first4=Amir|date=2017-11-27|title=Towards Provably Invisible Network Flow Fingerprints|eprint=1711.10079|class=cs.NI</ref> In general, the greater the number of messages observed, or even intercepted and stored, the more can be inferred from the traffic. Traffic analysis can be performed in the context of military intelligence, counter-intelligence, or pattern-of-life analysis, and is a concern in computer security.
+
+Traffic analysis tasks may be supported by dedicated computer software programs. Advanced traffic analysis techniques may include various forms of social network analysis.
+
+ Breaking the anonymity of networks 
+Traffic analysis method can be used to break the anonymity of anonymous networks, e.g., Tor (anonymity network)|TORs <ref name=":0" />Tor (anonymity network)|. There are two methods of traffic-analysis attack, passive and active. 
+
+*In passive traffic-analysis method, the attacker extracts features from the traffic of a specific flow on one side of the network and looks for those features on the other side of the network. 
+*In active traffic-analysis method, the attacker alters the timings of the packets of a flow according to a specific pattern and looks for that pattern on the other side of the network; therefore, the attacker can link the flows in one side to the other side of the network and break the anonymity of it. It is shown, although timing noise is added to the packets, there are active traffic analysis methods robust against such a noise.<ref name=":0" />
+
+ In military intelligence 
+<!--File:GenCOM EOB snapshot.GIF|frame|An example of an electronic order of battle (EOB) geo-spectral analysis, automatically produced by Genesis EW's GenCOM EOB. It shows the geo-locations of different emitters and the connections between them. This illustrates the practical use of COMINT metadata/Traffic Analysis. By intercepting, processing and analyzing electromagnetic emission only,  the locations of different army units and the connections between them can be seen, without the need to monitor, translate and process their communications. -->
+In a military context, traffic analysis is a  basic part of SIGINT|signals intelligence, and can be a source of information about the intentions and actions of the target. Representative patterns include:
+
+* Frequent communications – can denote planning
+* Rapid, short communications – can denote negotiations
+* A lack of communication – can indicate a lack of activity, or completion of a finalized plan
+* Frequent communication to specific stations from a central station – can highlight the chain of command
+* Who talks to whom – can indicate which stations are 'in charge' or the 'control station' of a particular network. This further implies something about the personnel associated with each station
+* Who talks when – can indicate which stations are active in connection with events, which implies something about the information being passed and perhaps something about the personnel/access of those associated with some stations
+* Who changes from station to station, or medium to medium – can indicate movement, fear of interception
+
+There is a close relationship between traffic analysis and cryptanalysis (commonly called codebreaking). Callsigns and addresses are frequently encrypted, requiring assistance in identifying them. Traffic volume can often be a sign of an addressee's importance, giving hints to pending objectives or movements to cryptanalysts.
+
+=Traffic flow security=
+Traffic-flow security is the use of measures that conceal the presence and properties of valid messages on a network to prevent traffic analysis. This can be done by operational procedures or by the protection resulting from features inherent in some cryptographic equipment. Techniques used include:
+
+* changing radio callsigns frequently
+* encryption of a message's sending and receiving addresses (codress messages)
+* causing the circuit to appear busy at all times or much of the time by sending dummy traffic
+* sending a continuous encrypted Signalling (telecommunication)|signal, whether or not traffic is being transmitted. This is also called masking or  link encryption.
+
+Traffic-flow security is one aspect of communications security.
+
+= COMINT metadata analysis =
+multiple issues|section=y|Tone|section|date=November 2011
+Unreferenced section|date=November 2011
+The Communications' Metadata Intelligence, or COMINT metadata is a term in communications intelligence (COMINT) referring to the concept of producing intelligence by analyzing only the technical metadata, hence, is a great practical example for traffic analysis in intelligence.
+
+While traditionally information gathering in COMINT is derived from intercepting transmissions, tapping the target's communications and monitoring the content of conversations, the metadata intelligence is not based on content but on technical communicational data.
+
+Non-content COMINT is usually used to deduce information about the user of a certain transmitter, such as locations, contacts, activity volume, routine and its exceptions.
+
+Examples
+
+For example, if a certain emitter is known as the radio transmitter of a certain unit, and by using direction finding (DF) tools, the position of the emitter is locatable; hence the changes of locations can be monitored. That way we're able to understand that this certain unit is moving from one point to another, without listening to any orders or reports. If we know that this unit reports back to a command on a certain pattern, and we know that another unit reports on the same pattern to the same command, then the two units are probably related, and that conclusion is based on the metadata of the two units' transmissions, and not on the content of their transmissions.
+
+Using all, or as much of the metadata available is commonly used to build up an SIGINT#Electronic Order of Battle|Electronic Order of Battle (EOB) – mapping different entities in the battlefield and their connections. Of course the EOB could be built by tapping all the conversations and trying to understand which unit is where, but using the metadata with an automatic analysis tool enables a much faster and accurate EOB build-up that alongside tapping builds a much better and complete picture.
+
+=World War I=
+* British analysts in World War I noticed that the call sign of German Vice Admiral Reinhard Scheer, commanding the hostile fleet, had been transferred to a land station. Admiral of the Fleet (Royal Navy)|Admiral of the Fleet David Beatty, 1st Earl Beatty|Beatty, ignorant of Scheer's practice of changing callsigns upon leaving harbor, dismissed its importance and disregarded Room 40 analysts' attempts to make the point. The German fleet sortied, and the British were late in meeting them at the Battle of Jutland.<ref name="Kahn">cite book
+ | title = The Codebreakers: The Story of Secret Writing
+ | author = Kahn, David
+ | year = 1974
+ | id = Kahn-1974
+ | publisher = Macmillan 
+ | isbn = 0-02-560460-0
+ </ref> If traffic analysis had been taken more seriously, the British might have done better than a 'draw'.original research inline|date=August 2009
+* French military intelligence, shaped by Kerckhoffs's legacy, had erected a network of intercept stations at the Western front in pre-war times. When the Germans crossed the frontier, the French worked out crude means for direction-finding based on intercepted signal intensity. Recording of call-signs and volume of traffic further enabled them to identify German combat groups and to distinguish between fast-moving cavalry and slower infantry.<ref name="Kahn"/>
+
+=World War II=
+* In early World War II, the aircraft carrier HMS|Glorious was evacuating pilots and planes from Norway. Traffic analysis produced indications ship|German battleship|Scharnhorst||2 and ship|German battleship|Gneisenau||2 were moving into the North Sea, but the Admiralty dismissed the report as unproven. The captain of ''Glorious'' did not keep sufficient lookout, and was subsequently surprised and sunk. Harry Hinsley, the young Bletchley Park liaison to the Admiralty, later said his reports from the traffic analysts were taken much more seriously thereafter.<ref>cite web
+ |url         = http://www.warship.org/no11994.htm
+ |title       = The Loss of HMS Glorious: An Analysis of the Action
+ |author      = Howland, Vernon W.
+ |date        = 2007-10-01
+ |accessdate  = 2007-11-26
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20010522092000/http://www.warship.org/no11994.htm
+ |archivedate = 2001-05-22
+ |df          = 
+</ref>
+* During the planning and rehearsal for the attack on Pearl Harbor, very little traffic passed by radio, subject to interception. The ships, units, and commands involved were all in Japan and in touch by phone, courier, signal lamp, or even flag. None of that traffic was intercepted, and could not be analyzed.<ref name="Kahn"/>
+* The espionage effort against Pearl Harbor before December didn't send an unusual number of messages; Japanese vessels regularly called in Hawaii and messages were carried aboard by consular personnel. At least one such vessel carried some Japanese Navy Intelligence officers. Such messages cannot be analyzed. It has been suggested,<ref>cite book
+ | author = Costello, John
+ | title = Days of Infamy: Macarthur, Roosevelt, Churchill-The Shocking Truth Revealed : How Their Secret Deals and Strategic Blunders Caused Disasters at Pear Harbor and the Philippines
+ | publisher = Pocket 
+ | year = 1995
+ | isbn = 0-671-76986-3
+</ref> however, the volume of diplomatic traffic to and from certain Consular office|consular stations might have indicated places of interest to Japan, which might thus have suggested locations to concentrate traffic analysis and decryption efforts.Citation needed|date=November 2007
+* Nagumo Chuichi|Admiral Nagumo's Pearl Harbor Attack Force sailed under radio silence, with its radios physically locked down. It is unclear if this deceived the U.S.; Pacific Fleet intelligence was unable to locate the Japanese carriers in the days immediately preceding the attack on Pearl Harbor Harv | Kahn.
+* The Imperial Japanese Navy|Japanese Navy played radio games to inhibit traffic analysis (see Examples, below) with the attack force after it sailed in late November.  Radio operators normally assigned to carriers, with a characteristic Morse Code "Telegraph key#Key's influence on sender's personal characteristics|fist", transmitted from inland Japanese waters, suggesting the carriers were still near Japan Harv | Kahn<ref>cite book
+ | title =  "And I Was There": Pearl Harbor And Midway -- Breaking the Secrets.
+ | author = Layton, Edwin T.
+ |author2=Roger Pineau, John Costello
+ | publisher = William Morrow & Co
+ | year = 1985
+ | isbn  =0-688-04883-8
+</ref>
+* Operation Quicksilver (WWII)|Operation Quicksilver, part of the British deception plan for the Invasion of Normandy in World War II, fed German intelligence a combination of true and  false information about troop deployments in Britain, causing the Germans to deduce an order of battle which suggested an invasion at the Pas-de-Calais instead of Normandy. The fictitious divisions created for this deception were supplied with real radio units, which maintained a flow of messages consistent with the deception.<ref>cite book |last=Masterman |first=John C |authorlink=John Cecil Masterman |title=The Double-Cross System in the War of 1939 to 1945 |publisher=Australian National University Press |isbn=978-0-7081-0459-0 |year=1972 |origyear=1945|page=233 </ref>
+
+ In computer security 
+
+Traffic analysis is also a concern in computer security. An attacker can gain important information by monitoring the frequency and timing of network packets. A timing attack on the Secure Shell|SSH protocol can use timing information to deduce information about passwords since, during interactive session, SSH transmits each keystroke as a message.<ref name="Song2001">Cite journal 
+ |last1=Song 
+ |first1=Dawn Xiaodong 
+ |last2=Wagner 
+ |first2=David 
+ |last3=Tian 
+ |first3=Xuqing 
+ |title=Timing Analysis of Keystrokes and Timing Attacks on SSH 
+ |publisher=10th USENIX Security Symposium 
+ |year=2001 
+ |ref=harv 
+ |postscript=<!--None-->
+</ref> The time between keystroke messages can be studied using hidden Markov models. Song, ''et al.'' claim that it can recover the password fifty times faster than a brute force attack.
+
+Onion routing systems are used to gain anonymity.  Traffic analysis can be used to attack anonymous communication systems like the Tor (anonymity network)|Tor anonymity network.  Adam Back, Ulf Möeller and Anton Stiglic present traffic analysis attacks against anonymity providing systems 
+.<ref>cite web
+ | author =  Adam Back
+ |author2=Ulf Möeller and Anton Stiglic
+ | url = http://www.cypherspace.org/adam/pubs/traffic.pdf
+ | title = Traffic Analysis Attacks and Trade-Offs in Anonymity Providing systems
+ | year = 2001
+ | publisher = Springer Proceedings - 4th International Workshop Information Hiding
+</ref> Steven Murdoch|Steven J. Murdoch and George Danezis from University of Cambridge presented  
+<ref>cite web
+ | author =  Murdoch, Steven J. 
+ |author2=George Danezis
+ | url = http://www.cl.cam.ac.uk/users/sjm217/papers/oakland05torta.pdf 
+ | title = Low-Cost Traffic Analysis of Tor
+ | year = 2005
+</ref> 
+research showing that traffic-analysis allows adversaries to infer which nodes relay the anonymous streams.  This reduces the anonymity provided by Tor. They have shown that otherwise unrelated streams can be linked back to the same initiator.
+
+Anonymous remailer|Remailer systems can also be attacked via traffic analysis. If a message is observed going to a remailing server, and an identical-length (if now anonymized) message is seen exiting the server soon after, a traffic analyst may be able to (automatically) connect the sender with the ultimate receiver. Variations of remailer operations exist that can make traffic analysis less effective.
+
+ Countermeasures 
+
+It is difficult to defeat traffic analysis without both encrypting messages and masking the channel.  When no actual messages are being sent, the channel can be masked
+<ref>cite web
+ |url         = http://students.cs.tamu.edu/xinwenfu/paper/ICCNMC03_Fu.pdf
+ |title       = Active Traffic Analysis Attacks and Countermeasures
+ |author      = Xinwen Fu, Bryan Graham, Riccardo Bettati and Wei Zhao
+ |accessdate  = 2007-11-06
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20060913152709/http://students.cs.tamu.edu/xinwenfu/paper/ICCNMC03_Fu.pdf
+ |archivedate = 2006-09-13
+ |df          = 
+</ref> by sending dummy traffic, similar to the encrypted traffic, thereby keeping bandwidth usage constant
+.<ref>cite book
+ |author1=Niels Ferguson  |author2=Bruce Schneier 
+  |lastauthoramp=yes | title = Practical Cryptography
+ | publisher = John Wiley & Sons
+ | year = 2003 
+</ref> "It is very hard to hide information about the size or timing of messages. The known solutions require Alice and Bob|Alice to send a continuous stream of messages at the maximum Bandwidth (computing)|bandwidth she will ever use...This might be acceptable for military applications, but it is not for most civilian applications." The military-versus-civilian problems applies in situations where the user is charged for the volume of information sent.
+
+Even for Internet access, where there is not a per-packet charge, ISPs make statistical assumption that connections from user sites will not be busy 100% of the time. The user cannot simply increase the bandwidth of the link, since masking would fill that as well. If masking, which often can be built into end-to-end encryptors, becomes common practice, ISPs will have to change their traffic assumptions.
+
+ See also 
+
+* Chatter (signals intelligence)
+* Data warehouse
+* Echelon (signals intelligence)|ECHELON
+* Signals intelligence#Electronic order of battle|Electronic order of battle
+* Signals intelligence#ELINT|ELINT
+* Pattern-of-life analysis
+* Signals intelligence|SIGINT
+* Social network#Social network analysis|Social network analysis
+* Data retention|Telecommunications data retention
+* Zendian Problem
+
+References
+Reflist
+
+* cite book |last1=Ferguson |first1=Niels |last2=Schneier |first2=Bruce |title=Practical Cryptography |year=2003 |page=114 |isbn=0-471-22357-3
+* cite journal |vauthors=Wang XY, Chen S, Jajodia S |title=Tracking Anonymous Peer-to-Peer VoIP Calls on the Internet |journal=Proceedings of the 12th ACM Conference on Computer Communications Security (CCS 2005) |date=November 2005 |url=http://ise.gmu.edu/~xwangc/Publications/CCS05-VoIPTracking.pdf |ref=harv |deadurl=yes |archiveurl=https://web.archive.org/web/20060830201527/http://ise.gmu.edu/~xwangc/Publications/CCS05-VoIPTracking.pdf |archivedate=2006-08-30 |df= 
+*[http://www.fmv.se/upload/Bilder%20och%20dokument/Vad%20gor%20FMV/Uppdrag/LedsystT/FMLS/FMLS_Generic%20Design/LT1K%20P06-0035%20SD%20Provide%20Streaming%20Data%202.0%20-%20c.pdf FMV Sweden]dead link|date=December 2017 |bot=InternetArchiveBot |fix-attempted=yes 
+*[http://ieeexplore.ieee.org/Xplore/login.jsp?url=/iel5/6676/18015/00832361.pdf Multi-source data fusion in NATO coalition operations]
+*[http://seeker.dice.com/jobsearch/servlet/JobSearch?op=101&dockey=xml/4/5/4562220fc28ae47508f252d9212a80b6@endecaindex&c=1&source=20 request for COMINT metadata analysts]
+
+ Further reading 
+*http://www.cyber-rights.org/interception/stoa/interception_capabilities_2000.htm &mdash; a study by Duncan Campbell
+*https://web.archive.org/web/20070713232218/http://www.onr.navy.mil/02/baa/docs/07-026_07_026_industry_briefing.pdf
+*[http://freehaven.net/anonbib/ Selected Papers in Anonymity] &mdash; on Free Haven
+
+intelligence cycle management
+
+DEFAULTSORT:Traffic Analysis
+Category:Cryptographic attacks
+Category:Intelligence analysis
+Category:Military communications
+Category:Telecommunications
+Category:Computer security

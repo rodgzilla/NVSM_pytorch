@@ -1,0 +1,62 @@
+technical|date=January 2019
+
+Dew computing is an information technology (Information technology|IT) paradigm that combines the core concept of cloud computing with the capabilities of end devices (personal computers, mobile phones, etc.).<ref>Cite journal|last=Wang|first=Yingwei|date=2015-09-16|title=Cloud-dew architecture|url=http://www.inderscience.com/offer.php?id=71717|journal=International Journal of Cloud Computing (IJCC)|volume=4(3)|pages=199–210|via=</ref> It is used to enhance the experience for the end user in comparison to only using cloud computing.<ref name=":2">Cite book|date=2018|editor-last=Hu|editor-first=Yu-Chen|editor2-last=Tiwari|editor2-first=Shailesh|editor3-last=Mishra|editor3-first=Krishn K.|editor4-last=Trivedi|editor4-first=Munesh C.|title=Intelligent Communication and Computational Technologies|volume=19|doi=10.1007/978-981-10-5523-2|issn=2367-3370|series=Lecture Notes in Networks and Systems|isbn=978-981-10-5522-5</ref> Dew computing attempts to solve major problems related to cloud computing technology, such as reliance on internet access. Dropbox (service)|Dropbox is an example of the dew computing paradigm, as it provides access to the files and folders in the Cloud computing|cloud in addition to keeping copies on local devices. This allows the user to access files during times without an internet connection; when a connection is established again, files and folders are synchronized back to the cloud server.<ref name=":0">Cite journal|last=Wang|first=Yingwei|date=2016|title=Definition and Categorization of Dew Computing|url=https://www.ronpub.com/publications/ojcc/OJCC_2016v3i1n02_YingweiWang.html|journal=Open Journal of Cloud Computing|volume=3|issue=1|issn=2199-1987</ref>
+
+ History 
+The term "dew computing", as used in information technology, first appeared in 2015 in IT literature and since then has become a field of its own. The cloud-dew architecture was proposed as a possible solution to the offline data accessibility problem.<ref name=":7">Cite web|url=http://wwwen.zte.com.cn/endata/magazine/ztecommunications/2017/5/articles/201711/t20171124_466311.html|title=Dew Computing and Transition of Internet Computing Paradigms - ZTE Corporation|website=wwwen.zte.com.cn|access-date=2018-06-30</ref> At first, its scope included only web applications; broader applications were later proposed.<ref name=":1" />
+
+Dew computing is a model which was derived from the original concept of cloud computing. Other models have also emerged from cloud computing, including fog computing, edge computing, dew computing, and others. Proponents claim that these novel models, such as dew computing, can provide better experiences for users.<ref name=":5">Cite web|url=https://www.semanticscholar.org/paper/Doing-More-with-the-Dew:-A-New-Approach-to-Fisher-Yang/693e467a3b5efd3ae578687fa7af3e5e57deca00|title=Doing More with the Dew: A New Approach to Cloud-Dew Architecture - Semantic Scholar|access-date=2018-06-30</ref>
+
+Cloud computing provides universal access and scalability. However, having all the resources far from a user's control occasionally causes problems. In the classic cloud computing paradigm, when the internet connection to the Server (computing)|servers is lost, the user is unable to access their data; dew computing aims to solve this problem.<ref name=":0" /><ref name=":6">Cite web|url=https://www.semanticscholar.org/paper/Cloud-dew-architecture-:-realizing-the-potential-of-Wang-Pan/fc8edd29f5df60244a66d05c74c50a240a4529ef|title=Cloud-dew architecture : realizing the potential of distributed database systems in unreliable networks - Semantic Scholar|access-date=2018-06-30</ref><ref name=":1">Cite news|url=https://phys.org/news/2015-09-dew-ground-cloud.html|title=Dew helps ground cloud computing|access-date=2018-06-30</ref><ref name=":4">Cite journal|last=Yingwei|first=Wang,|date=2015|title=The initial definition of dew computing|url=https://www.islandscholar.ca/islandora/object/ir:20044|journal=Dew Computing Research</ref>
+
+ Definition 
+As an information technology paradigm, dew computing seeks to use the capabilities of personal computers along with cloud services in a more reliable manner.<ref name=":2" /><ref name=":6" /><ref name=":5" />
+
+The key features of dew computing are independence and collaboration. Independence means that the local device must be able to provide service without a continuous connection to the Internet. Collaboration means that the application must be able to connect to the cloud service and synchronize data when appropriate.<ref name=":4" />
+
+Use of the word "dew" reflects natural phenomena: clouds are far from the ground, fog is closer to the ground, and dew is on the ground. Analogically, cloud computing is a remote service, fog computing is beside the user, and dew computing is at the user end.
+
+ Architecture 
+File:Dew-cloud architecture.png|thumb|DVM-cloud architecture
+
+To establish a cloud-dew architecture on a PC, a dew virtual machine (DVM) is needed.  The DVM is an isolated environment for executing the dew server on the local PC, and it consists of at least three components: the dew server (DS), the Data analysis|data analytics Server (computing)|server (DAS), and the artificial intelligence of the dew (AID).<ref name=":7" />
+
+* Dew server (DS): The DS acts like the cloud service on the local PC. It interacts with and periodically synchronizes content with the cloud service.<ref name=":7" />
+* Dew analytics server (DAS): The dew analytics server collects data about how the dew server is being used.<ref name=":7" />
+* Artificial intelligence of the dew (AID): After receiving data from the DAS about usage patterns, the AID uses the data to customize and tailor the dew server to the user to enhance their experience.<ref name=":7" />
+
+ Categories 
+The dew computing categories are classified based on the application field.
+
+* Web in Dew (WiD)
+** The local device must possess a duplicated fraction of the World Wide Web (WWW) or a modified copy of that fraction to satisfy the independence feature. Because this fraction synchronizes with the web, it satisfies the collaboration feature of dew computing.<ref name=":0" />
+* Storage in Dew (SiD)
+** The Storage (memory)|storage of the local device is partially or fully copied into the cloud. An example of this is Dropbox (service)|Dropbox, in which a user can create a folder in the cloud and have access to the folder and its contents on the local device once the synchronization is completed. Since the user can access the files at any time without the need for constant Internet access, this category meets the independence feature of dew computing. SiD also meets the collaboration feature because the folder and its contents automatically synchronize with the cloud service.<ref name=":0" />
+* Database in Dew (DBiD)
+** The local device and the cloud both store copies of the same database. One of these two databases is considered the main version and can be defined as such by the database administrator. This service increases the reliability of a database, since one of the databases can act as the backup for the other.<ref name=":0" />
+* Software in Dew (SiD)
+** The configuration and ownership of software are saved in the Cloud computing|cloud. Good examples of this are the Apple App Store and Google Play, where the applications that the user installs are saved to their account and can then be installed on any device linked to that user's account.<ref name=":0" />
+* Platform in Dew (PiD)
+** A software development suite must be installed on the local device with the settings and application data synchronized to the cloud service. A Software development kit|Software Development Kit on its own does not satisfy these requirements; it must be able to synchronize development data, system deployment data, and online backups. An example of this category is GitHub.<ref name=":0" />
+* Infrastructure as Dew (IaD)
+** The local device is dynamically supported by cloud services. IaD can come in different forms, but the following two forms can be used: (1) the local device can have an exact duplicate DVM instance in the cloud, which is always kept in the same state as the local instance, or (2) the local device can have all its settings/data saved in the cloud, including system settings/data and data for each application.<ref name=":0" />
+* Data in Dew (DiD)
+** The term DiD is applied when all its applications satisfy the independence and collaboration requirements but cannot be placed in any of the above categories. An example of this is the GroupWise|Novell Groupwise email client.<ref name=":0" />
+
+ Possible challenges 
+Dew computing faces a number of technical challenges, including issues related to power management, processor utility, and data storage. Other factors impacting the use of dew computing are the viability of the operation system, network model, and communication model, programming principles, dew recommended engine, local dew network, personal high productivity, database security, and behaviors of the browser.<ref name=":3">Cite web|url=https://ieeexplore.ieee.org/document/8114187/|title=An Introduction to Dew Computing: Definition, Concept and Implications - IEEE Journals & Magazine|website=ieeexplore.ieee.org|access-date=2018-06-30</ref>
+
+ See also 
+* Thick client
+* Distributed computing
+*Dropbox (service)|Dropbox
+*Mega (service)|MEGA
+*Google Drive
+*Amazon Web Services
+*iCloud
+
+ References 
+<references />
+
+Category:Post-cloud computing architecture
+Category:Distributed computing architecture

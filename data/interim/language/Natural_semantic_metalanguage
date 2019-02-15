@@ -1,0 +1,133 @@
+linguistics
+
+The Natural semantic metalanguage (NSM) is a linguistic theory based on the conception of Polish professor Andrzej Bogusławski. The theory was formally developed by Anna Wierzbicka at Warsaw University and later at the Australian National University in the early 1970s,<ref name="Lexical Meaning">Cite book|title=Lexical Meaning|last=Murphy|first=M. Lynne|publisher=Cambridge|year=2010|isbn=978-0521677646|location=|pages=69–73</ref> and Cliff Goddard at Australia's Griffith University.<ref name="Meaning and Universal Grammar">Cite book|title=Meaning and Universal Grammar: Theory and Empirical Findings|editor-last=Goddard|editor-first=Cliff|editor2-first=Anna|editor2-last=Wierzbicka|publisher=John Benjamins|year=2002|isbn=9781588112644|location=|pages=</ref>
+
+Approach
+The Natural Semantic Metalanguage (NSM) theory attempts to reduce the semantics of all lexicons down to a restricted set of Semantic primes|semantic primitives, or primes. Primes are universal in that they have the same translation in every language, and they are primitive in that they cannot be defined using other words. Primes are ordered together to form explications, which are descriptions of semantic representations consisting solely of primes.<ref name="Lexical Meaning" />
+
+Research in the NSM approach deals extensively with language and cognition, and language and culture. Key areas of research include lexical semantics, grammatical semantics, phraseology and pragmatics, as well as cross-cultural communication.
+
+Dozens of languages, including representatives of 16 language groups, have been studied using the NSM framework.  They include English language|English, Russian language|Russian, Polish language|Polish, French language|French, Spanish language|Spanish, Italian language|Italian, Swedish language|Swedish, Danish language|Danish, Finnish language|Finnish, Malay language|Malay, Japanese language|Japanese, Chinese language|Chinese, Korean language|Korean, Ewe language|Ewe, Wolof language|Wolof, East Cree, Koromu, at least 16 Australian languages, and a number of creole languages including Trinidadian creole, Australian Kriol language|Roper River Kriol, Bislama and Tok Pisin.<ref name="NSM-approach">cite web |last1=Peeters |first1=Bert |title=nsm-approach.net |url=https://nsm-approach.net/ |website=nsm-approach.net |accessdate=13 October 2018</ref>
+
+Apart from the originators Anna Wierzbicka and Cliff Goddard, a number of other scholars have participated in NSM semantics, most notably Bert Peeters, Zhengdao Ye, Felix Ameka, Jean Harkins, Marie-Odile Junker, Anna Gladkova, Jock Wong, Carsten Levisen, Helen Bromhead, Adrian Tien, Carol Priestley, Yuko Asano-Cavanagh and Gian Marco Farese.
+
+ Semantic primes 
+Main article|Semantic primes
+Semantic primes (also known as semantic primitives) are concepts that are universal and primitive. Universal indicates that they can be translated literally into any known language and retain their semantic representation. They are primitive as they are proposed to be the most simple linguistic concepts and are unable to be defined using simpler terms <ref name="Lexical Meaning" />.
+
+Proponents of the NSM theory argue that every language shares a core vocabulary of concepts. In 1994 and 2002, Goddard and Wierzbicka studied languages across the globe and found strong evidence supporting this argument<ref name="Lexical Meaning" />.
+
+Wierzbicka's 1972 study<ref name="Semantic Primitives">Cite book|title=Semantic Primitives|last=Wierzbicka|first=Anna|publisher=Athenäum|year=1972|isbn=|location=|pages=</ref> proposed 14 semantic primes. That number was expanded to 60 in 2002 by Wierzbicka and Goddard, and the current agreed-upon number is 65 <ref name="Semantics of Nouns">Cite book|title=The Semantics of Nouns|editor-last=Ye|editor-first=Zhengdao|publisher=Oxford University Press|year=2017|isbn=9780198736721|location=|pages=</ref><ref name="Words and Meanings">Cite book|title=Words and Meanings: Lexical Semantics across Domains, Languages and Cultures|last1=Goddard|first1=Cliff|first2=Anna|last2=Wierzbicka|publisher=Oxford University Press|year=2014|isbn=9780199668434|location=Oxford|pages=</ref>.
+
+Each language's translations of the semantic primes are called exponents. Below is a list of English exponents, or the English translation of the semantic primes. It is important to note that some of the exponents in the following list are polysemy|polysemous and can be associated with meanings in English (and other languages) that are not shared. However, when used as an exponent in the Natural semantic metalanguage, it is only the prime concept which is identified as universal.
+
+The following is a list of English language|English exponents of semantic primes adapted from Levisen and Waters (eds.) 2017<ref name="Cultural Keywords"/>.
+
+{| class="wikitable"
+|-
+! Category !! Primes
+|-
+| noun substantive|Substantives || I, YOU, SOMEONE, PEOPLE, SOMETHING/THING, BODY
+|-
+| Relational Substantives || KIND, PART
+|-
+| Determiner (linguistics)|Determiners || THIS, THE SAME, OTHER~ELSE~ANOTHER
+|-
+| Quantifier (linguistics)|Quantifiers || ONE, TWO, SOME, ALL, MUCH/MANY, LITTLE/FEW
+|-
+| Evaluators || GOOD, BAD
+|-
+| Descriptors || BIG, SMALL
+|-
+| Mental Predicate (grammar)|predicates || THINK, KNOW, WANT, DON'T WANT, FEEL, SEE, HEAR
+|-
+| Speech || SAY, WORDS, TRUE
+|-
+| wikt:action|Actions, wikt:event|Events, Motion (physics)|Movement || DO, HAPPEN, MOVE
+|-
+| Existence, Ownership|Possession || BE (SOMEWHERE), THERE IS, BE (SOMEONE/SOMETHING), (IS) MINE
+|-
+| Life and Death || LIVE, DIE
+|-
+| Time || WHEN/TIME, NOW, BEFORE, AFTER, A LONG TIME, A SHORT TIME, FOR SOME TIME, MOMENT
+|-
+| Space || WHERE/PLACE, HERE, ABOVE, BELOW, FAR, NEAR, SIDE, INSIDE, TOUCH (CONTACT)
+|-
+| Logical Concepts || NOT, MAYBE, CAN, BECAUSE, IF
+|-
+| Intensifier, Augmentor || VERY, MORE
+|-
+| Similarity || LIKE/AS/WAY
+|}
+
+=NSM Syntax=
+NSM primes can be combined in a limited set of syntactic frames that are also universal <ref name="Semantic Analysis" />. These valency options specify the specific types of grammatical functions that can be combined with the primes. While these combinations can be realized differently in other languages, it is believed that the meanings expressed by these syntactic combinations are universal. 
+
+Example of valency frames for SAY (from Semantic Analysis <ref name="Semantic Analysis" /> )
+
+someone said something→[minimal frame]
+
+someone said: '––'→[direct speech]
+
+someone said something to someone→[plus 'addressee']
+
+someone said something about something/someone→[plus 'locutionary topic']
+
+=Explications=
+
+A semantic analysis in the NSM approach results in a reductive paraphrase called an explication that captures the meaning of the concept explicated <ref name="Semantic Analysis">Cite book|title=Semantic Analysis|last=Goddard|first=Cliff|publisher=Oxford University Press|year=2011|isbn=9780199560288|location=|pages=</ref>. An ideal explication can be substituted for the original expression in context without change of meaning.
+
+E.g., ''Someone X killed someone Y'':<br />
+someone X did something to someone else Y<br />
+because of this, something happened to Y at the same time<br />
+because of this, something happened to Y's body<br />
+because of this, after this Y was not living anymore<ref>cite web|last=Goddard|first=Cliff|title=The Natural Semantic Metalanguage Approach|url=http://www.griffith.edu.au/__data/assets/pdf_file/0006/419064/Goddard_2010_OUP_Handbook_Ch18.pdf|website=Griffith University|accessdate=27 May 2013</ref> ''(archived at'' <ref name="Goddard_archive">cite web |last1=Goddard |first1=Cliff |title=The Natural Semantic Metalanguage Approach |url=https://www.griffith.edu.au/__data/assets/pdf_file/0006/419064/Goddard_2010_OUP_Handbook_Ch18.pdf |archive-url=https://web.archive.org/web/20170723010101/https://www.griffith.edu.au/__data/assets/pdf_file/0006/419064/Goddard_2010_OUP_Handbook_Ch18.pdf|website=Internet Archive Wayback Machine |publisher=Oxford University Press |accessdate=13 October 2018 |dead-url=yes |archivedate=23 July 2017</ref>'')''
+
+Semantic Molecules
+Semantic molecules are intermediary words used in explications and cultural scripts. While not semantic primes, they can be defined exclusively using primes. Semantic molecules can be determined as words that are necessary to build upon to explicate other words <ref name="Cultural Keywords">Cite book|title=Cultural Keywords in Discourse|editor-last=Levisen|editor-first=Carsten|editor2-first=Sophia|editor2-last=Waters|publisher=John Benjamins Publishing Company|year=2017|isbn=9789027256829|location=Amsterdam|pages=</ref>. These molecules are marked by the notation [m] in explications and cultural scripts. Some molecules are proposed to be universal or near-universal, while others are culture or area specific<ref name="Homepage Semantic Molecules">cite web|last1=Goddard|first1=Cliff|title=Semantic Molecules|url=https://www.griffith.edu.au/humanities-languages/school-humanities-languages-social-science/research/natural-semantic-metalanguage-homepage/what-is-nsm/semantic-molecules|website=NSM Homepage|accessdate=2 February 2018</ref>. 
+
+Examples of proposed universal molecules:
+{| class="wikitable"
+|-
+| hands, mouth, eyes, head, ears, nose, face, teeth, fingers, breast, skin, bones, blood|| Body parts
+|-
+| long, round, flat, thin, hard, soft, sharp, smooth, heavy|| Physical
+|-
+| children, men, women, be born, mother, father, wife, husband || Biosocial
+|}
+
+Minimal English
+Minimal English is a new derivative of the Natural semantic metalanguage research, with the first major publication in 2018 <ref name="Minimal English">Cite book|title=Minimal English for a Global World|editor-last=Goddard|editor-first=Cliff|publisher=Palgrave Macmillan|year=2018|isbn=|location=|pages=</ref>. It is a reduced form of English designed for non-specialists to use when requiring clarity of expression or easily translatable materials<ref>cite web|last1=Goddard|first1=Cliff|last2=Wierzbicka|first2=Anna|title=Global English, Minimal English position papers|url=http://hrc.cass.anu.edu.au/sites/default/files/hrc/u78/Global_English_Minimal_English%20position%20papers.pdf|website=Global English, Minimal English: Towards better intercultural communication|accessdate=2 February 2018</ref>. Minimal English uses an expanded set of vocabulary to the semantic primes. It includes the proposed universal and near-universal molecules, as well as non-universal words which can assist in clarity <ref name="Homepage Minimal English">cite web|last1=Goddard|first1=Cliff|title=Minimal English|url=https://www.griffith.edu.au/humanities-languages/school-humanities-languages-social-science/research/natural-semantic-metalanguage-homepage/minimal-english|website=NSM Homepage|accessdate=2 February 2018</ref>.  As such, it already has counterparts targeted at speakers of other natural languages, e.g. Minimal French<ref name="Peeters_stereotypes">cite journal |last1=Peeters |first1=Bert |title=Du bon usage des stéréotypes en cours de FLE: le cas de l’ethnolinguistique appliquée [Making good use of stereotypes in the French foreign language classroom: the case of applied ethnolinguistics] |journal=Dire |date=2017 |volume=9 |pages=43-60 |url=http://epublications.unilim.fr/revues/dire/816 |language=French</ref>, Minimal Polish<ref name="Wierzbicka_What">cite book |last1=Wierzbicka |first1=Anna |title=W co wierzą chrześcijanie? Opowieść o Bogu i o ludziac [What Christians believe: The story of God and people] |date=2017 |publisher=Znak |location=Kraków (Cracow) |language=Polish</ref>, 65 Sanaa (''Minimal Finnish'')<ref name="Minimal English" />rp|225-258 and so on.  Minimal English differs from other simple Englishes (such as Basic English) as it has been specifically designed for maximal cross-translatability.
+
+ See also 
+* Metalanguage
+* Semantic primes
+* Semantic decomposition for AI (Natural language processing|NLP Natural language understanding|NLU might also benefit from the NSM theory <ref>''Semantic Decomposition and Marker Passing in an Artificial Representation of Meaning'', Doctoral Thesis of Johannes Fähndrich at the Technischen Universität Berlin 2018 https://d-nb.info/1162540680/34</ref>.)
+
+References
+reflist
+
+ Sources 
+* Goddard, Cliff. 1998. ''Semantic Analysis: A practical introduction. Oxford. Oxford University Press.
+* Goddard, Cliff (ed.) 2006. ''Ethnopragmatics – Understanding discourse in cultural context''. Berlin: Mouton de Gruyter.
+* Goddard, Cliff (ed.) 2008. ''Cross-Linguistic Semantics''. Amsterdam/Philadelphia: John Benjamins.
+* Goddard, Cliff and Wierzbicka, Anna (eds.). 1994. ''Semantic and Lexical Universals – Theory and Empirical Findings''. Amsterdam/Philadelphia: John Benjamins.
+* Goddard, Cliff and Wierzbicka, Anna (eds.). 2002. ''Meaning and Universal Grammar:  Theory and Empirical Findings'' (2 volumes). Amsterdam/Philadelphia: John Benjamins.
+* Harkins, Jean & Anna Wierzbicka. 2001. ''Emotions in Crosslinguistic Perspective''. Berlin: Mouton de Gruyter.
+* Peeters, Bert (ed.) 2006. ''[https://books.google.com/books?id=8Qw6AAAAQBAJ&printsec=frontcover#v=onepage&q&f=false Semantic Primes and Universal Grammar: Empirical evidence from the Romance languages]''. Amsterdam: John Benjamins.
+* Wierzbicka, Anna. 1972. ''Semantic Primitives''. Frankfurt: Athenäum.
+* Wierzbicka, Anna. 1992. ''Semantics, Culture, and Cognition''. Oxford: Oxford University Press.
+* Wierzbicka, Anna. 1996. ''Semantics: Primes and Universals''. Oxford: Oxford University Press.
+* Wierzbicka, Anna. 1997. ''Understanding Cultures Through Their Key Words''. Oxford: Oxford University Press.
+* Wierzbicka, Anna. 1999. ''Emotions Across Languages and Cultures''. Cambridge: Cambridge University Press.
+* Wierzbicka, Anna. 2003 (1991). ''Cross-cultural Pragmatics: The semantics of human interaction''. 2nd edition. Berlin: Mouton de Gruyter.
+* Wierzbicka, Anna. 2006. ''English: Meaning and culture''. New York: Oxford University Press.
+
+ External links 
+*[https://www.griffith.edu.au/humanities-languages/school-humanities-languages-social-science/research/natural-semantic-metalanguage-homepage Natural Semantic Metalanguage Homepage]
+*[http://www.griffith.edu.au/humanities-languages/school-languages-linguistics/research/natural-semantic-metalanguage-homepage/downloads Collection of papers from Homepage]
+*[http://nsmetalanguage.pbwiki.com Natural Semantic Metalanguage Wiki]
+
+DEFAULTSORT:Natural Semantic Metalanguage
+Category:Semantics
+Category:Pragmatics

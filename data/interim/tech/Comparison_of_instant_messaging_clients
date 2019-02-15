@@ -1,0 +1,4097 @@
+See also|Messaging apps
+The current landscape for instant messaging involves cross-platform instant messaging clients that can handle one or multiple protocols so that internet users can communicate with multiple users at the same time.<ref>cite web|url=https://thenextweb.com/apps/2011/08/30/the-top-6-best-instant-message-client-apps-on-any-platform/|title=History of Instant Messaging |publisher=The top 6 best Instant Message client apps on any platform |accessdate=2 May 2018</ref> The following tables compare general and technical information for a number of instant messaging clients. See the individual products' articles for further information. External links may lead to extensions that add a feature to a client.
+
+General information
+{| class="wikitable sortable"
+|-
+! Client
+! Publisher
+! First public release
+! Type
+! Latest stable version
+! License
+|-
+! Adium
+| Adam Iser, Evan Schoenberg
+| 2001-09
+| Multi-protocol
+| Latest stable software release/Adium
+| free|GPLv2
+|-
+! aMSN
+| The aMSN team
+| 2002-05
+| Single-protocol
+| 0.98.4
+| free|GNU General Public License|GPL
+|-
+! AOL Instant Messenger (AIM)
+| AOL
+| 1997-05
+| Single-protocol
+| Latest stable software release/AOL Instant Messenger
+| Terminated|Discontinued (was freeware)
+|-
+! Ayttm
+| Colin Leroy and Philip Tellis
+| 2003-04
+| Multi-protocol
+|
+*Linux: 0.6.3 (10 Jul 2010)
+*Windows: 0.4.6-17
+| free|GPL
+|-
+! BlackBerry Messenger (BBM)
+| BlackBerry Limited
+| 2006
+| Single-protocol
+| Latest stable software release/BlackBerry Messenger (BBM)
+| proprietary|Freeware
+|-
+! BitlBee
+| Wilmer van der Gaast
+| 2002-08-09
+| Multi-protocol IRC gateway
+| Latest stable software release/BitlBee
+| free|GPL
+|-
+! Bombus (software)|Bombus
+| Eugene Stahov
+| 2005-01-05
+| Single-protocol
+| v0.6 (Start date and age|2008)
+| free|GPL
+|-
+! Centericq
+| Konstantin Klyagin
+| 1999
+| Multi-protocol
+| Latest stable software release/Centericq
+| free|GPL
+|-
+! Coccinella (software)|Coccinella
+| Mats Bengtsson
+| 1999-12-01
+| Single-protocol
+| 0.96.16 (Start date and age|2009|12|01)
+| free|GPLv3
+|-
+! Discord (software)|Discord
+| Discord Inc.
+| 2015-03-06
+| Single-protocol
+| 12.21.2018; (Start date and age|2018|12|21)
+| proprietary|Freeware
+|-
+! eBuddy
+| Paulo Taylor
+| 2003-03-09
+| Multi-protocol
+| Start date and age|2011
+| proprietary|Freeware
+|-
+! emesene
+| Luis Mariano Guerra
+| 2006-05-24
+| Multi-protocol
+| 2.12.5
+| free|GPL
+|-
+! Empathy (software)|Empathy
+| The GNOME Project
+| 2007-05
+| Multi-protocol
+| Latest stable software release/Empathy (software)
+| free|GPL
+|-
+! Facebook Messenger
+| Facebook, Inc.
+| 2011-08-09
+| Single-protocol
+| 
+| proprietary|Freeware
+|-
+! FaceTime
+| Apple Inc.
+| 2010-06-24 for iOS; 2011-02-24 for macOS: 
+| Single-protocol
+|
+* iOS: 10.3.3 (stable), Start date and age|2017|07|19
+* macOS: 4.0 (3080), Start date and age|2017|07|24
+| Included|Part of macOS or iOS
+|-
+! Fire (instant messaging client)|Fire
+| Eric Peyton
+| 1999-04-01
+| Multi-protocol
+| Latest stable software release/Fire
+| free|GPL
+|-
+! Firetalk
+| Multitude Communications
+| 1997 -2001
+| voice/music chat program
+| 
+| free|GPL
+|-
+! Flock (messaging service)|Flock
+| Riva FZC
+| September 2014
+| Single-protocol
+| iOS: v2.28.5, Android: v4.6, OS X: v2.2.144, Windows: v2.2.x, Web: v2.2.x
+| proprietary|Freemium
+|-
+! Gadu-Gadu
+| Łukasz Foltyn / GG Network S.A.
+| 2000-08-15
+| Single-protocol
+|
+*Modern UI: 2.0.0.179
+*Desktop: 12.0.49.11103 (Start date and age|2013|12|13)
+| proprietary|Freeware
+|-
+! Gajim
+| Yann Le Boulanger
+| 2004-05-21
+| Single-protocol
+| Latest stable software release/Gajim
+| free|GPL
+|-
+! Google Allo
+| Google, Inc.
+| 2016-09-21
+| Single-protocol
+| Latest stable software release/Google Allo
+| proprietary|Freeware
+|-
+! Google Hangouts
+| Google, Inc.
+| 2013-05-15
+| Single-protocol
+| 
+| proprietary|Freeware
+|-
+! Hookt
+| Hookt, Inc.
+| 2011-09-14
+| Single-protocol
+| 
+| proprietary|Freeware
+|-
+! Hike Messenger|Hike
+| Bharti SoftBank
+| 2012-12-12
+| Single-protocol
+| 
+*5.15.16 small|(Android, start date and age|2019|01|07)<ref>cite web |url=https://play.google.com/store/apps/details?id=com.bsb.hike |title=hike messenger |work=Play Store |publisher=Google |accessdate=August 12, 2014</ref>
+*5.6.2 small|(iOS, release date and age|2018|03|15)<ref>cite web|url=https://itunes.apple.com/us/app/hike-messenger/id568038211|title=hike messenger|work=iTunes Store|publisher=Apple Inc|accessdate=August 12, 2014</ref>
+*2.6.2.0 small|(Windows Phone, release date and age|2014|07|23)<ref>cite web |url=http://www.windowsphone.com/en-in/store/app/hike-messenger/b4703e38-092f-4144-826a-3e3d41f50714 |title=hike messenger |work=Windows Phone Marketplace |publisher=Microsoft |accessdate=August 12, 2014</ref>
+*2.6.2 small|(BlackBerry, release date and age|2014|05|07)<ref>cite web |url=http://appworld.blackberry.com/webstore/content/20393557/ |title=hike messenger |work=BlackBerry World |accessdate=August 12, 2014</ref>
+*2.6.0 small|(Symbian)
+| proprietary|Freeware
+|-
+! IBM Lotus Sametime
+| IBM, Ubique (company)|Ubique
+| 1998
+| Multi-protocol&nbsp;— proprietary T.120, SIP, XMPP
+| 9.0.0 (Start date and age|2013|09|20)
+| proprietary|Proprietary software|Proprietary commercial software
+|-
+! iChat
+| Apple Inc.
+| 2002-08
+| Multi-protocol
+| 6.0.1 (1002) (Start date and age|2012|02|01), replaced by Messages (Apple)|Messages
+| included|Part of macOS
+|-
+! ICQ
+| Mail.Ru
+| 1996-11
+| Single-protocol
+| 8.0.5977 (Start date and age|2016|01|14)
+| free|Apache license
+|-
+! IMVU
+| Will Harvey
+| 2001-07
+| Multiple-protocol
+| 3.0
+| proprietary|Freemium
+|-
+! Instantbird
+| Florian Quèze
+| 2007
+| Multi-protocol
+| Latest stable software release/Instantbird
+| free|GPLv2
+|-
+! Jitsi
+| Emil Ivov
+| 2003
+| Multi-protocol
+| Latest stable software release/Jitsi
+| free|GNU Lesser General Public License|LGPL
+|-
+! Kadu (software)|Kadu
+| Kadu Team
+| 2001-08
+| Multi-protocol
+| 4.1 (Start date and age|2016|12|02)
+| free|GPLv2
+|-
+! KakaoTalk
+| Kakao Corp.
+| 2010-03-18
+| single-protocol
+| 
+* iOS: 5+
+* Android: 4+
+* Windows Phone: 2+
+* BlackBerry: 3+
+* Windows 8
+| proprietary|Freeware
+|-
+! Kik Messenger
+| Kik Interactive
+| 2010-10
+| Single-protocol
+| 15.2.0.18561
+| proprietary|Freeware
+|-
+! Kopete
+| Kopete Team
+| 2002-03-03
+| Multi-protocol
+| Latest stable software release/Kopete
+| free|GPL
+|-
+! Libon (service)|Libon
+| Orange S.A.
+| 2012-11-21
+| 
+| 
+| proprietary|Freemium
+|-
+! Line (application)|Line
+| LINE Corporation
+| 2011
+| Single-protocol
+|
+* iOS: 3.8.2
+* Android: 8.19.2
+* Windows Phone: 2.6.0.137
+* BlackBerry: 1.8.23
+* Windows: 5.8.1706
+| proprietary|Freemium
+|-
+! MCabber
+| Mikael Berthe
+| 2005-06-07
+| Single-protocol
+| Latest stable software release/MCabber
+| free|GPL
+|-
+! Meetro
+| Paul Bragiel & Samuel Stauffer
+| 2005
+| Multi-protocol
+|
+*Windows: 0.96 beta
+*OS X: 0.53 beta
+| Terminated|Discontinued
+|-
+! Messages (Apple)|Messages
+| Apple Inc.
+| 2012-07-25
+| Multi-protocol
+| 8.1.3 (Start date and age|2015|01|27)
+| Included|Part of macOS and iOS
+|-
+! Skype for Business
+| Microsoft
+| 2005
+| Single-protocol
+| 2013 (Start date and age|2012|10|02)
+| proprietary|Trialware
+|-
+! Miranda IM
+| Miranda IM project
+| 2000-02-06
+| Multi-protocol
+| Latest stable software release/Miranda IM
+| free|GPL
+|-
+! Mysms
+| sms.at mobile internet services gmbh
+| 2011
+| Single-protocol
+| dunno
+| proprietary|Freemium
+|-
+! MySpaceIM
+| MySpace
+| 2006-05-09
+| Single-protocol
+| 1.0.754.0 (Start date and age|2008|02|07)
+| proprietary|Freeware
+|-
+! naim (software)|naim
+| Daniel Reed
+| 1998-10-05
+| Multi-protocol
+| 0.11.8.3.1 (Start date and age|2007|07|09)
+| free|GPL
+|-
+! Nimbuzz
+| Evert Jaap Lugt
+| 2006
+| Multi-protocol
+| Latest stable software release/Nimbuzz
+| proprietary|Freeware
+|-
+! Palringo
+| Palringo Ltd
+| 2006
+| Single-protocol
+|
+*Windows: 2.7.9 (Start date and age|2012|07|04)
+*Windows Mobile: 2.6.6 (Start date and age|2012|03|30)
+*iOS: 4.12 (Start date and age|2012|08|06)
+*Android: 8.3.1 (Start date and age|2018|10|25)
+*OS X: 4.6.4 (Start date and age|2012|07|24)
+*Windows Phone: 0.11.0.0 (Start date and age|2012|02|14)
+| proprietary|Freemium
+|-
+! Paltalk
+| 
+| 1998-06
+| Multi-protocol
+| Version 10.2 Build 455
+| proprietary|Freeware
+|-
+! Pidgin (software)|Pidgin
+| Mark Spencer (computer engineer)|Mark Spencer
+| 1998-11
+| Multi-protocol
+| Latest stable software release/Pidgin
+| free|GPL
+|-
+! Psi (instant messaging client)|Psi
+| Psi and Psi+ developers
+| 2001
+| Single-protocol
+| Latest stable software release/Psi
+| free|GPL
+|-
+! Quiet Internet Pager (QIP)
+| Ilgam Zyulkorneev
+| 2004
+| Multi-protocol
+| Latest stable software release/Quiet Internet Pager
+| proprietary|Freeware
+|-
+! QuteCom
+| QuteCom
+| 2004
+| Multi-protocol
+| Latest stable software release/QuteCom
+| free|GPL
+|-
+! Ricochet (software)|Ricochet
+| Invisible.im
+| 2014-06
+| Single-protocol
+| Latest stable software release/Ricochet
+| free|BSD
+|-
+! Ring (software)|Ring
+| Savoir-faire Linux Inc.
+| 2014
+| Single-protocol
+| 20180509
+| free|GPLv3
+|-
+! RingID
+| Ring Inc.
+| 2015
+| Multi-protocol
+| 
+*5.0.15 small|(Android, start date and age|2019|1|16)<ref>cite web |url=https://play.google.com/store/apps/details?id=com.ringid.ring |title=ringID |work=Play Store |publisher=Google |accessdate= March 16, 2016</ref>
+*4.1.1.4 small|(Windows Phone, release date and age|2016|3|9)<ref>cite web |url=https://www.microsoft.com/en-us/store/apps/ringid/9wzdncrcv6nb |title=ringID |work=Windows Phone Marketplace |publisher=Microsoft |accessdate=March 9, 2016</ref>
+*4.2.2 small|(iOS, release date and age|2016|3|19)<ref>cite web |url=https://itunes.apple.com/us/app/ringid-free-video-call-voice/id925330759 |title=ringID |work=iTunes Store |publisher=Apple Inc |accessdate=March 19, 2016</ref>
+| proprietary|Freeware
+|-
+! Riot.im
+| New Vector Limited
+| 2016-07
+| Single-protocol
+| Latest stable software release/Riot.im
+| free|Apache License
+|-
+! Sicher
+| SHAPE GmbH
+| 2014-06
+| Single-protocol
+| 1.1
+| Proprietary|Freeware
+|-
+! Signal (software)|Signal
+| Open Whisper Systems
+| 2014-07
+| Single-protocol
+| Latest stable software release/Signal
+| free|GPLv3
+|-
+! Skype
+| Skype Technologies, a subsidiary of Microsoft Corporation
+| 2003
+| Single-protocol
+| Latest stable software release/Skype
+| proprietary|Freemium adware
+|-
+! Spark (XMPP client)
+| Ignite Realtime
+| 2006-09
+| Single-protocol
+| Latest stable software release/Spark (XMPP client)
+| free|Apache License
+|-
+! Surespot
+| Surespot LLC
+| 2013
+| Single-protocol
+| Latest stable software release/Surespot
+| free|GPLv3
+|-
+! Telegram (software)|Telegram
+| Telegram Messenger LLP
+| 2013
+| Single-protocol
+| Latest stable software release/Telegram
+| free|GPLv2, GPLv3<ref name="Telegram license info">cite web|url=https://telegram.org/apps#source-code|title=Telegram license info|accessdate=22 October 2015</ref>
+|-
+! Tencent QQ
+| Tencent Holdings
+| 1999-02
+| Single-protocol
+| See Tencent QQ#Stable|current releases
+| proprietary|Adware
+|-
+! TextSecure
+| Open Whisper Systems
+| 2010-05
+| Single-protocol
+| Discontinued (merged with RedPhone to become Signal (software)|Signal)
+| free|GPLv3
+|-
+! Threema
+| Threema GmbH
+| 2012-12
+| Single-protocol
+| Latest stable software release/Threema
+| Proprietary|Proprietary software|Proprietary commercial software
+|-
+! Tkabber
+| Alexey Shchepin
+| 2002-07-03
+| Single-protocol
+| 1.1.2 (Start date and age|2015|05|10)
+| free|GPL
+|-
+! Tox (protocol)|Tox
+| Tox Foundation
+| 2013
+| Single-protocol
+| 
+| free|GPLv3
+|-
+! Trillian (software)|Trillian
+| Cerulean Studios
+| 2000-07-01
+| Multi-protocol
+| Latest stable software release/Trillian
+| proprietary|Freemium adware
+|-
+! Tuenti
+| Tuenti
+| 2006
+| Multi-protocol
+| 
+| proprietary
+|-
+! Upptalk
+| Upptalk
+| 2010
+| Dual-protocol
+| Latest stable software release/Upptalk
+| proprietary|Freeware
+|-
+! Viber
+| Talmon Marco, Igor Magazinnik, Sani Maroli and Ofer Smocha
+| 2010-12-02
+| Single-protocol
+| Latest stable software release/Viber
+| proprietary|Freemium
+|-
+! WeChat
+| Tencent Holdings
+| 2011-01
+| Single-protocol
+| Latest stable software release/WeChat
+| proprietary|Freeware
+|-
+! WhatsApp
+| Facebook, Inc.
+| 2009-08
+| Single-protocol
+| Latest stable software release/WhatsApp
+| proprietary|Freeware
+|-
+! Wickr
+| Wickr Inc.
+| 2012-06
+| Single-protocol
+| Latest stable software release/Wickr
+| proprietary|Trialware
+|-
+! Windows Live Messenger
+| Microsoft
+| 1999-07
+| Dual-protocol
+| Latest stable software release/Windows Live Messenger
+| Terminated|Discontinued (was freeware)
+|-
+! Wire (software)|Wire
+| Wire Swiss|Wire Swiss GmbH
+| 2014-12-03
+| Single-protocol
+|
+* iOS: 2.2
+* Android: 3.25.685
+* OS X: 2.5
+* Windows: 2.6ch
+* Web: 2016-04-08
+| free|GPLv3
+|-
+! Xabber
+| Redsolution Inc.
+| 2011 
+| Single-protocol
+|
+* iOS: 2.0.1<ref name="Latest Release">cite web|url = https://github.com/redsolution/xabber-android/releases/tag/2.0.1|title = GitHub Releases|accessdate = 7 May 2017</ref>
+| free|GPLv3
+|-
+! Xfire
+| Xfire Inc.
+| 2004
+| Dual-protocol
+| Latest stable software release/Xfire
+| Terminated|Discontinued (was freeware)
+|-
+! Yahoo! Messenger
+| Yahoo!
+| 1999-06-21
+| Dual-protocol
+|
+*Windows: 11.5.0.228
+*OS X: 3.0.2
+*Unix: 1.0.4
+| Terminated|Discontinued (was freeware)
+|-
+! Zephyr (protocol)|Zephyr
+| Project Athena
+| 1987
+| Single-protocol
+| 2.0
+| free|MIT License|MIT
+|-
+! Client
+! Publisher
+! First public release
+! Type
+! Latest stable version
+! Software license|License
+|}
+
+Operating system support
+The operating systems the clients can run on without emulator|emulation or compatibility layers.
+{| class="wikitable sortable" style="background:none; border:0; font-size: 0.8em;"
+|-
+! rowspan=2 | Client (computing)|Client
+! colspan=5 | Desktop
+! colspan=8 | Mobile
+! colspan=2 | Other
+|-
+! Microsoft Windows|Windows
+! macOS
+! Unix-like
+! Haiku (operating system)|Haiku
+! AmigaOS|Amiga
+! Windows Phone
+! Android (operating system)|Android
+! BlackBerry OS
+! iOS
+! Symbian
+! MeeGo
+! Java Platform, Micro Edition|Java ME
+! WebOS
+! Web application|Web
+! video game console|VGCs
+|-
+! Adium
+| no || yes || no || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! BlackBerry Messenger|BBM
+| no || no || no || no || no || yes || yes || yes || yes || no || no || no || no || yes || no
+|-
+! AOL Instant Messenger|AIM
+| yes|| yes || dropped || no || no || no || yes || yes || yes || no || no || no || yes || no || no
+|-
+! aMSN
+| yes || yes || yes || no || no || no || no || no || no || no || yes || no || no || no || no
+|-
+! Ayttm
+| yes || yes || yes || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! BitlBee
+| yes || yes || yes || no || yes || no || no || no || no || no || no || no || no || no || no
+|-
+! Bombus (software)|Bombus
+| no || no || no || no || no || no || no || no || no || no || no || yes || no || no || no
+|-
+! Centericq
+| yes || yes || yes || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! climm
+| yes || yes || yes || yes || yes || no || no || no || no || no || no || no || no || no || no
+|-
+! Coccinella (software)|Coccinella
+| yes || yes || yes || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! Discord (software)|Discord
+| yes || yes || partial<ref group=lower-alpha name="linux-only" />|| no || no || no || yes || no || yes || no || no || no || no || yes || no
+|-
+! eBuddy
+| no || no || no || no || no || yes || yes || yes || yes || yes || no || yes || no || yes || no
+|-
+! emesene
+| yes || yes || yes || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! Empathy (software)|Empathy
+| no || no || yes || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! Facebook Messenger
+| yes || no || no || no || no || yes || yes || no || yes || no || no || no || no || yes || no
+|-
+! FaceTime
+| no || included || no || no || no || no || no || no || included || no || no || no || no || no || no
+|-
+! Flock (messaging service)|Flock
+| yes || yes || no || no || no || no || yes || no || yes || no || no || no || no || yes || no
+|-
+! Fire (instant messaging client)|Fire
+| no || yes || no || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! Gadu-Gadu
+| yes || no || no || no || no || no || yes || no || yes || yes || no || yes || no || yes || no
+|-
+! Gajim
+| yes || yes|| yes || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! Google Hangouts
+| partial<ref group=lower-alpha name="google-hangouts-desktop" /> || partial<ref group=lower-alpha name="google-hangouts-desktop" /> || partial<ref group=lower-alpha name="google-hangouts-desktop" /><ref group=lower-alpha name="linux-only" /> || no || no || no || yes || no || yes || no || no || no || no || yes || no
+|-
+! Hookt
+| yes || yes || no || no || no || yes || yes || yes || yes || yes || no || yes || no || yes || no
+|-
+! Hike Messenger|Hike
+| no || no || no || no || no || yes || yes || yes || yes || yes || yes || no || no || no || no
+|-
+! IBM Lotus Sametime
+| yes || yes || yes || no || no || yes || yes || yes || yes || yes || no || no || no || no || no
+|-
+! ICQ
+| yes || yes || yes || no || no || yes || yes || yes || yes || yes || no || no || no || yes || no
+|-
+! IMVU
+| yes || yes || no || no || no || no || yes || no || no || no || no || no || no || no || no
+|-
+! Instantbird
+| yes || yes || yes || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! Jitsi
+| yes || yes || yes || no || no || no || partial|Unstable || partial|Unstable || no || no || no || no || no || no || no
+|-
+! KakaoTalk
+| yes || yes || no || no || no || yes || yes || yes || yes || no || no || no || no || no || no
+|-
+! Kadu (software)|Kadu
+| yes || yes || yes || yes || no || no || no || no || no || no || yes || no || no || no || no
+|-
+! Kik Messenger|Kik
+| no || no || no || no || no || yes || yes || no || yes || no || no || no || no || no || no
+|-
+! Kopete
+| yes<ref group=lower-alpha name="may-not-be-stable-version" /><ref>cite web|title=KDE Windows Initiative|url=https://windows.kde.org|website=kde.org|accessdate=19 December 2014</ref> || yes || yes || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! Line (application)|Line
+| yes || yes || no || no || no || yes || yes || yes || yes || no || no || no || no || no || no
+|-
+! Messages (Apple)|Messages
+| no || included || no || no || no || no || no || no || included || no || no || no || no || no || no
+|-
+! MCabber
+| no || yes || yes || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! Skype for Business
+| yes || yes || no || no || no || yes || yes || no || yes || yes || no || no || no || no || no
+|-
+! Miranda IM
+| yes || no || no || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! MySpaceIM
+| yes || no || no || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! naim (software)|naim
+| yes || yes || yes || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! Nimbuzz
+| Yes || yes || no || no || no || yes || yes || yes || yes || yes || no || yes || yes || yes || no
+|-
+! Palringo
+| yes || yes || no || no || no || no || yes || yes || yes || yes || no || no || no || no || no
+|-
+! Paltalk
+| yes || no || no || no || no || no || yes || yes || yes || no || no || no || no || yes || no
+|-
+! Pidgin (software)|Pidgin
+| yes || yes || yes || no || yes || no || no || no || no || no || yes || no || no || no || no
+|-
+! Psi (instant messaging client)|Psi
+| yes || yes || yes || yes || no || no || no || no || no || no || no || no || no || no || no
+|-
+! Quiet Internet Pager|QIP
+| yes || no || no || no || no || yes || no || no || yes || yes || no || no || no || no || no
+|-
+! QuteCom
+| yes || yes || yes || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! Ring (software)|Ring
+| yes || yes || yes || no || no || no || yes || no || no || no || no || no || no || no || no
+|-
+! RingID
+| yes<ref>[http://www.phonearena.com/news/Spotlight-ringID-messenger-promises-quality-HD-video-calls-over-slow-connections_id78372/ Spotlight: ringID messenger promises quality HD video calls over slow connections]. phonearena.com Retrieved on 2016-02-16.</ref> || no || no || no || no || yes || yes || no || yes || no || no || no || yes || yes || no
+|-
+! Riot.im
+| yes || yes || yes || no || no || no || yes || no || yes || no || no || no || no || yes || no
+|-
+! Signal (software)|Signal
+| yes<ref name="Coldewey-2017-10-31"/> || yes<ref name="Coldewey-2017-10-31">cite web|last1=Coldewey|first1=Devin|title=Signal escapes the confines of the browser with a standalone desktop app|url=https://techcrunch.com/2017/10/31/signal-escapes-the-confines-of-the-browser-with-a-standalone-desktop-app/|website=TechCrunch|publisher=Oath Tech Network|accessdate=1 November 2017|date=31 October 2017</ref> || partial<ref group=lower-alpha>The only supported desktop Unix-like platforms are Debian-based Linux distributions.</ref><ref name="standalone-signal-desktop"/> || no || no || no || yes || no || yes || no || no || no || no || dropped<ref name="standalone-signal-desktop">cite web|last1=Nonnenberg|first1=Scott|title=Standalone Signal Desktop|url=https://signal.org/blog/standalone-signal-desktop/|publisher=Open Whisper Systems|accessdate=1 November 2017|date=31 October 2017</ref> || no
+|-
+!Snapchat
+| no || no || no || no || no || no || yes || no || yes || no || no || no || no || no || no
+|-
+! Surespot
+| no || no || no || no || no || no || yes || no || yes || no || no || no || no || no || no
+|-
+! Skype
+| yes || yes || partial<ref group=lower-alpha name="linux-only" /> || no || no || yes || yes || yes || yes || no || yes || no || no || yes || yes|PlayStation Portable|PSP PlayStation Vita|PSV Xbox One|XB1
+|-
+! SOMA Messenger|SOMA
+| no || no || no || no || no || no || yes || no || yes || no || no || no || no || no || no
+|-
+! Spark (XMPP client)
+| yes || yes<ref group=lower-alpha name="no-native-installer-java" /> || yes || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! Telegram (software)|Telegram (standard messages)
+| yes || yes || yes || no || no || yes || yes || no<ref>[https://core.telegram.org/blackberry Blackberry 10 Dev Contest]. Telegram.org. Retrieved on 2014-11-20.</ref> || yes || no || no || no || no || yes || no
+|-
+!Telegram (software)|Telegram (secret chats)
+| yes || yes-no<ref group=lower-alpha name="telegram-secret-chats-osx" /> || yes-no<ref group=lower-alpha name="telegram-secret-chats-unix-like" /> || no || no || yes || yes || no || yes || no || no || no || no || no || no
+|-
+! Tencent QQ
+| yes || yes || yes || no || no || yes || yes || yes || yes || yes || yes || yes || yes || yes || no
+|-
+! Threema
+| no || no || no || no || no || yes || yes || no || yes || no || no || no || no || yes || no
+|-
+! Tkabber
+| yes || yes || yes || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! Tox (protocol)|Tox
+| yes || yes || yes || no || no || yes || yes || no || yes || no || no || no || no || no || no
+|-
+! Trillian (software)|Trillian
+| yes || yes || partial<ref group=lower-alpha name="beta-testing" /><ref group=lower-alpha name="linux-only" /> || no || no || no || yes || yes || yes || no || no || no || no || yes || no
+|-
+! Tuenti
+| no || no || no || no || no || yes || yes || no || yes || no || no || no || no || yes || no
+|-
+! Viber
+| yes || yes || yes || no || no || yes || yes || yes || yes || yes || no || no || no || no || no
+|-
+! WeChat
+| yes || yes<ref>[http://www.techienews.co.uk/977156/wechat-announces-native-mac-client-windows-version-may-follow-soon/ WeChat announces native Mac client; Windows version may follow soonTechie News]. Techienews.co.uk. Retrieved on 2014-05-22.</ref> || no || no || no || yes || yes || yes || yes || yes || no || no || no || yes || no
+|-
+! WhatsApp
+| partial|8+<ref name="Swanner-11-May-2016">citation |url=https://thenextweb.com/apps/2016/05/11/whatsapp-desktop-app-windows-mac/|last1=Swanner| first1=Nate|date=11 May 2016| website=The Next Web| publisher=|accessdate=11 July 2016|title=WhatsApp now has an official desktop app for Windows and Mac</ref> || yes<ref name="Swanner-11-May-2016"/> || no || no || no || partial|8.1+<ref name="whatsapp-faq-wp8">citation |url=https://faq.whatsapp.com/en/wp/21478428|website=WhatsApp FAQ|accessdate=12 May 2018|title=WhatsApp FAQ - Supported devices</ref> || yes || dropped|To be discontinued in 2017<ref name="WhatsApp-support-for-mobile-devices">cite web|url=https://www.whatsapp.com/faq/en/general/26000006|title=WhatsApp FAQ - Support for older operating systems|website=WhatsApp.com|accessdate=6 October 2017</ref> || yes || dropped|To be discontinued in 2017<ref name="WhatsApp-support-for-mobile-devices"/> || no || no || no || yes || no
+|-
+! Wickr
+| yes || yes || yes || no || no || no || yes || no || yes || no || no || no || no || no || no
+|-
+! Windows Live Messenger
+| yes || yes || no || no || no || yes || no || yes || yes || yes || no || no || no || yes || yes|Xbox 360|Xbox
+|-
+! Wire (software)|Wire
+| yes || yes || yes || no || no || no || yes || no || yes || no || no || no || no || yes || no
+|-
+! Xabber
+| no || no || no || no || no || no || yes || no || no || no || no || no || no || no || no
+|-
+! Xfire
+| yes || no || no || no || no || no || no || no || no || no || no || no || no || no || no
+|-
+! Yahoo! Messenger
+| yes || yes || no || no || no || no || yes || yes || yes || yes || no || no || no || yes || no
+|-
+! Yuilop
+| no || no || no || no || no || yes || yes || yes || yes || no || no || no || no || no || no
+|-
+! Zephyr (protocol)|Zephyr
+| yes || yes || yes || no || no || no || no || no || no || no || no || no || no || no || no
+|- class="sortbottom"
+! rowspan=2 | Client
+! Windows
+! OS X
+! Unix-like
+! Haiku
+! Amiga
+! Windows Phone
+! Android
+! BlackBerry OS
+! iOS
+! Symbian
+! MeeGo
+! Java ME
+! WebOS
+! Web
+! VGCs
+|-
+! colspan=5 | Desktop
+! colspan=8 | Mobile
+! colspan=3 | Other
+|}
+Reflist|group=lower-alpha|refs=
+<ref name="google-hangouts-desktop">Only available as Google Chrome/Chromium (browser)|Chromium plugin. No native application available.</ref>
+<ref name="linux-only">The only supported desktop Unix-like platform is Linux.</ref>
+<ref name="beta-testing">Currently in Beta software|beta testing.</ref>
+<ref name="may-not-be-stable-version">May not be the final version suitable for everyday use.</ref>
+<ref name="no-native-installer-java">Runs under Java, no native installer for latest version</ref>
+<ref name="telegram-secret-chats-osx">Secret chats supported only in native application Telegram. Cross-platform application Telegram Desktop does not support them.</ref>
+<ref name="telegram-secret-chats-unix-like">Secret chats supported only in the third-party applications Cutegram and Telegram CLI. Cross-platform application Telegram Desktop does not support them.</ref>
+<!--<ref name="not-official">Not an official release.</ref>-->
+
+
+Protocol support
+{| class="wikitable sortable"
+|-
+! Client
+! Yahoo! Messenger|Y!M
+! AOL Instant Messenger|AIM/ICQ<ref group="lower-alpha" name="im-to-text-note">Supports messaging to a phone number (text messaging service).[https://www.engadget.com/2004/07/13/how-to-use-aol-instant-messenger-to-send-a-text-message-to-a][http://www.skype.com/en/features/sms]</ref><ref group="lower-alpha" name="AOL-third-parties-support">AOL is ending AIM access to cryptographically insecure MD5 authentication.[https://arstechnica.com/business/2017/02/aol-will-cut-off-third-party-app-access-to-aim/]</ref><ref group="lower-alpha" name="AIM will be discontinued December 15, 2017">AIM was discontinued December 15, 2017.[https://help.aol.com/articles/aim-discontinued]</ref>
+! Extensible Messaging and Presence Protocol|XMPP<ref group="lower-alpha" name="xmpp-note" />
+! Internet Relay Chat|IRC
+! IBM Lotus Sametime
+! Novell GroupWise Messenger
+! Gadu-Gadu
+! Tencent QQ|QQ
+! Skype<ref group="lower-alpha" name="im-to-text-note" />
+! MySpaceIM
+! Session Initiation Protocol|SIP
+! Others
+|-
+! Adium
+| yes || yes || yes || yes || yes || yes || yes || yes || partial<ref group="lower-alpha" name="skype-dep" /> || yes || no || MobileMe, NateOn, Steam (software)|Steam IM, Telegram (software)|Telegram, Tox (protocol)|Tox, Zephyr (protocol)|Zephyr
+|-
+! AOL Instant Messenger|AIM
+| no || yes<ref group="lower-alpha" name="icq-aim" /> || no || no || no || no || no || no || no || no || no || no
+|-
+! Ayttm
+| yes || partial || yes || yes || no || no || no || no ||  no || no || no || no
+|-
+! BitlBee
+| yes || yes || yes || n/a<ref group="lower-alpha" name="bitlbee-irc" /> || colspan="6" depends<ref group="lower-alpha" name="pidgin" /> || no || depends<ref group="lower-alpha" name="pidgin" />
+|-
+! Centericq
+| yes || yes || yes || yes || no || no || yes || no || no || no || no || no
+|-
+! climm
+| no || yes<ref group="lower-alpha" name="aim-icq" /> || partial || no || no || no || no || no || no || no || no || no
+|-
+! eBuddy
+| yes || yes || yes || no || no || no || no || no || no || yes || no || no
+|-
+! emesene
+| no || no || yes || no || no || no || no || no ||  no || no || no || no
+|-
+! Empathy (software)|Empathy
+| colspan="2" depends<ref group="lower-alpha" name="pidgin" />
+| yes || yes
+| colspan="6" depends<ref group="lower-alpha" name="pidgin" />
+| yes
+| depends<ref group="lower-alpha" name="pidgin" />
+|-
+! Fire (instant messaging client)|Fire
+| yes || yes || yes || yes || no || no || no || no || no || no || no || no
+|-
+|-
+! Ichat
+| yes || maybe|yes/no<ref>[https://apple.stackexchange.com/questions/54116/how-can-i-log-in-to-icq-using-messages Ichat doesn't support ICQ]</ref> || yes || no || no || no || no || no || no || no || no || Bonjour
+|-
+! IMVU
+| yes || yes || yes || no || no || no || no || no || no || no || no || IMVU
+|-
+! Instantbird
+| yes || yes || yes || yes || yes || yes || yes || yes || no || yes || yes || Netsoul
+|-
+! Jitsi
+| no || yes || yes || yes || no || no || no || no ||  no || no || yes || ippi, iptel.org, google talk
+|-
+! Kadu (software)|Kadu
+| no || no || yes || no || no || no || yes || no ||  no || no || no || no
+|-
+! KDE Telepathy
+| yes || yes || yes || no || yes || no || yes || no || no || no || no || Telegram (software)|Telegram
+|-
+! Kopete
+| yes || yes || yes || yes || yes || yes || yes || yes || partial<ref group="lower-alpha" name="skype-dep" /> || no || no || SILC (protocol)|SILC, WinPopup
+|-
+! Messages (Apple)|Messages
+| yes || yes<ref group="lower-alpha" name="icq-aim" /> || yes || no || no || no || no || no || no || no || no || MobileMe
+|-
+! Miranda IM
+| yes || yes || yes || yes || yes || no || yes || yes<ref group="lower-alpha" name="plugin"/> || yes || yes || no || dunno
+|-
+! naim (software)|naim
+| no || yes || no || yes || no || no || no || no || no || no || no || Lily
+|-
+! Nimbuzz
+| yes || no || yes || dunno || dunno || dunno || dunno || dunno || dunno || no || yes || Twitter, Facebook chat, Google Talk
+|-
+! Palringo
+| yes || yes || yes || no || no || no || yes || no || dunno || dunno || no || dunno
+|-
+! Paltalk
+| yes || yes || no || no || no || no || no || no ||  dunno || dunno || no || dunno
+|-
+! Pidgin (software)|Pidgin
+| yes2Plug-in || yes<ref group="lower-alpha" name="upgrade-to-version-2.12" /> || yes || yes || yes || yes || yes || yes2Plug-in || yes2Plug-in ||  yes2Plug-in || yes2Plug-in<ref>Available in [http://sipe.sourceforge.net/ plugin]</ref> || Bonjour (software)|Bonjour, Facebook plugin, SIMPLE, Zephyr
+|-
+! Quiet Internet Pager|QIP
+| no || yes || yes || yes || no || no || no || no || no || yes || no || MRA, XIMSS
+|-
+! QuteCom
+| yes || yes || yes || no || no || no || no || no || no || no || yes || no
+|-
+! Ring (software)|Ring
+| no || no || no || no || no || no || no || no  || no || no || yes || Ring (software)|Ring
+|-
+! Spark (XMPP client)
+| no || no || yes || no || no || no || no || no || no || no || yes<ref group="lower-alpha" name="plugin"/>  || no
+
+|-
+! Tencent QQ
+| no || no || no || no || no || no || no || yes || no || no || no || no
+|-
+! Tkabber
+| no || no || yes || no || no || no || no || no || no || no || no || no
+|-
+! Trillian (software)|Trillian
+| no<ref>cite web|url=https://www.trillian.im/help/user/yahoo-messenger/ |title=Yahoo Messenger ! Trillian </ref> || yes || yes || yes<ref group="lower-alpha" name="android" /> || no || yes<ref group="lower-alpha" name="android" /> || yes<ref group="lower-alpha" name="plugin"/><ref group="lower-alpha" name="android" /> || yes<ref group="lower-alpha" name="plugin"/><ref group="lower-alpha" name="android" /> || No<ref>cite web|url=http://blog.trillian.im/?p=2999 |title=Trillian and Skype |work=Official blog |publisher=Cerulean Studios |date=2014-07-02 |accessdate=2014-08-07</ref><ref group="lower-alpha" name="android" /> || yes || no || LinkedIn,<ref group="lower-alpha" name="android" /> Foursquare,<ref group="lower-alpha" name="android" /> ASTRA, VZ<ref group="lower-alpha" name="android" />
+|-
+! Yahoo! Messenger
+| partial<ref group="lower-alpha" name="wlm-yahoo" /> || yes || no || no || no || yes || no || no || no || no || no || no
+|-
+! Upptalk
+| no || no || yes || no || no || no || no || no || no || no || no || no
+|-
+! Xabber
+| no || no || yes || no || no || no || no || no || no || no || no || no
+|- style="vertical-align:top;" class="sortbottom"
+!
+! Y!M
+! AIM/ICQ
+! XMPP
+! IRC
+! IBM Lotus Sametime
+! Novell GroupWise Messenger
+! Gadu-Gadu
+! QQ
+! Skype
+! MySpaceIM
+! SIP
+! Others
+|}
+
+reflist|group=lower-alpha|refs=
+
+<ref group="lower-alpha" name="xmpp-note">Commonly termed ''Jabber'', used in Facebook, LiveJournal, Tweeter, Identi.ca, etc.</ref>
+
+<ref group="lower-alpha" name="icq-aim">Via AIM account only.</ref>
+
+<ref group="lower-alpha" name="aim-icq">Via ICQ account only.</ref>
+
+<ref group="lower-alpha" name="wlm-yahoo">Via Yahoo! Messenger account only.</ref>
+
+<ref group="lower-alpha" name="skype-dep">Needs running official Skype client.</ref>
+
+<ref group="lower-alpha" name="bitlbee-irc">Bitlbee is accessed via IRC.</ref>
+
+<ref group="lower-alpha" name="plugin">Available as plugin.</ref>
+
+<ref group="lower-alpha" name="pidgin">Supported via Pidgin back-end, depends on its version</ref>
+
+<ref group="lower-alpha" name="android">Not supported in versions for Android (checked 12 November 2012 in latest version 1.2.0.11)</ref>
+
+<ref group="lower-alpha" name="upgrade-to-version-2.12">Requires Pidgin 2.12</ref>
+
+
+
+=XMPP-related features=
+{| class="wikitable sortable"
+|-
+! rowspan="2" | Client
+! rowspan="2" | Transports<ref group="lower-alpha" name="transports" />
+! rowspan="2" | File transfer<br /><small>(XEP-0096)</small><ref group="lower-alpha" name="file-transfer" />
+! rowspan="2" | Synchronous conferencing|Multi-user<br />chat<br /><small>(XEP-0045)</small>
+! rowspan="2" | Link-local<br />small|(XEP-0174)
+! colspan="3" | Jingle (protocol)|Jingle<br />small|(XEP-0166)
+|-
+! File transfer<ref group="lower-alpha" name="file-transfer" />
+! Voice calls<br />
+! Video calls<br />
+|-
+! Adium
+| yes || yes || yes || yes || no || no || no
+|-
+! BitlBee
+| yes || yes || yes || yes || no || no || no
+|-
+! Bombus (software)|Bombus<ref name="xeps-bombus">citation|url=http://bombus-im.org/wiki/bombus/xeps|language=Russian|title=Список стандартов XMPP, поддерживаемых в Bombus|work=Bombus|accessdate=2011-12-13|deadurl=yes|archiveurl=https://web.archive.org/web/20111104003843/http://bombus-im.org/wiki/bombus/xeps|archivedate=2011-11-04|df=</ref>
+| no || yes || yes || no || no || no || no
+|-
+! climm
+| no || yes || no || no || no || no || no
+|-
+! Coccinella (software)|Coccinella<ref name="xeps-coccinella">citation|url=http://sourceforge.net/p/coccinella/code/HEAD/tree/trunk/coccinella/READMEs/README-xmpp|title=README-jabber|work=Coccinella|accessdate=2011-12-13</ref>
+| yes || yes || yes || no || no || yes || no
+|-
+! Conversations (software)|Conversations
+| no || no || yes || no || yes || no || no
+|-
+! Telepathy (software)|Telepathy-based<ref group="lower-alpha" name="telepathy"/><ref name="xeps-gabble">citation|url=http://telepathy.freedesktop.org/wiki/Gabble%20XEP|title=XEP status in gabble|work=Telepathy (software)|Telepathy|publisher=freedesktop.org|accessdate=2011-12-13|deadurl=yes|archiveurl=https://web.archive.org/web/20120426050718/http://telepathy.freedesktop.org/wiki/Gabble%20XEP|archivedate=2012-04-26|df=</ref>
+| no || yes || yes || yes || yes || yes || yes
+|-
+! Gajim<ref name="xeps-gajim">citation|url=https://dev.gajim.org/gajim/gajim/wikis/help/GajimXEPSupport|title=GajimXEPSupport|work=Gajim|accessdate=2019-01-12</ref>
+| yes || yes || yes || yes || yes || yes || yes-no|Except Windows
+|-
+! Jitsi
+| no || yes || yes || yes || no || yes || yes
+|-
+! Kadu (software)|Kadu
+| no || yes || no || no || no || no || no
+|-
+! Kopete
+| yes || yes || yes || yes || no || no || no
+|-
+! Messages (Apple)|Messages
+| no || yes || yes-no|Only join<ref group="lower-alpha" name="partial-multichat" /> || yes || yes || no || no
+|-
+! MCabber<ref name="xeps-mcabber">citation|title=Features|url=http://wiki.mcabber.com/index.php/Main_Page#Features|work=MCabber|accessdate=2011-12-13|deadurl=yes|archiveurl=https://web.archive.org/web/20111219124321/http://wiki.mcabber.com/index.php/Main_Page#Features|archivedate=2011-12-19|df=</ref>
+| no || no || yes || no || no || no || no
+|-
+! Miranda IM
+| yes || yes || yes || no || no || no || no
+|-
+! Nimbuzz
+| yes || yes || yes || no || yes || yes || yes
+|-
+! <!-- Please update BitlBee if updating this --> Pidgin (software)|Pidgin<ref name="pidgin-gpg">citation|url=https://github.com/segler-alex/Pidgin-GPG|title=Pidgin-GPG|accessdate=2013-05-18</ref>
+| yes || yes || yes || yes || partial<ref>[https://developer.pidgin.im/wiki/SupportedXEPs Supported XEP] - supported for XMPP not for Jingle</ref> || yes-no|Except Windows<ref group="lower-alpha" name="not-on-win" /> || yes-no|Except Windows<ref group="lower-alpha" name="not-on-win" />
+|-
+! Psi (instant messaging client)|Psi
+| yes || yes || yes || yes || no || yes2Plug-in || yes2Plug-in
+|-
+! Spark (XMPP client)
+| yes || yes || yes || dunno || yes|| yes2Plug-in || yes2Plug-in
+|-
+
+! Tkabber<ref name="xeps-tkabber">citation|url=http://tkabber.jabber.ru/protocols|title=Protocol support|work=Tkabber|date=2005-11-18|accessdate=2011-12-13</ref>
+| yes || yes || yes || no || no || no || no
+|-
+! Trillian (software)|Trillian
+| no || yes || yes-no|Only Windows<ref group="lower-alpha" name="only-on-win" /> || yes-no|Only Windows<ref group="lower-alpha" name="only-on-win" /> || no || no || no
+|}
+
+reflist|group=lower-alpha|refs=
+<ref name="transports">Transport support means the ''ability to set up transports''. Once transport is set up, any client can use it to manage contacts and communicate with them.</ref>
+<ref name="file-transfer">The difference between XEP-0096 (legacy) and XEP-0234 (Jingle) file transfer is that the latter works behind network address translation|NAT (e.g., from home and corporate networks).</ref>
+<ref name="telepathy">Both Empathy (software)|Empathy and KDE Telepathy are based on Telepathy (software)|Telepathy framework and share same properties in regard of XMPP features support.</ref>
+<ref name="not-on-win">Feature unavailable on Windows.</ref>
+<ref name="only-on-win">Feature available on Windows only.</ref>
+<ref name="partial-multichat">Multi-user chats can be joined but not started</ref>
+
+
+Features
+Information on what features each of clients support.
+{| class="wikitable sortable" style="text-align: center; font-size:90%;"
+|-
+!style="width:12em" | Client
+!Toolkits or SDKs
+!File transfer
+!Editing sent messages
+!Proxy server
+!Graphical emoticons
+!Unicode (UTF-8)
+!Built-in games
+!Themes, skins
+!plug-in (computing)|Plugin system
+!Third party add-ons
+!Scripting
+!Message logging
+!Voice messaging
+!Voice mail
+!Webcam
+!Offline
+!Cloud backup
+!Remote desktop assistance
+!whiteboarding|Whiteboard
+!Right-to-left|RTL texting
+|-
+! Adium
+| Cocoa
+| yes
+| dunno
+| dunno
+| yes
+| yes
+| no
+| yes
+| yes
+| yes
+| yes
+| yes
+| no
+| yes
+| no
+| yes
+||
+| dunno
+| dunno
+|-
+! AOL Instant Messenger|AIM
+| W32/Cocoa
+| yes
+| dunno
+| yes-no<ref group="lower-alpha" name="win-only" />
+| yes
+| yes
+| no
+| yes-no<ref group="lower-alpha" name="win-only" />
+| yes-no<ref group="lower-alpha" name="win-only" />
+| yes-no<ref group="lower-alpha" name="win-only" />
+| no
+| yes
+| yes-no<ref group="lower-alpha" name="win-only" />
+| no
+| yes-no<ref group="lower-alpha" name="win-only" />
+| yes-no<ref group="lower-alpha" name="win-only" />
+||
+| no
+| no
+|-
+! aMSN
+| Tcl/Tk
+| yes
+| dunno
+| http, socks5, msn gateway
+| yes
+| yes
+| partial
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| no
+| yes
+| yes
+||
+| no
+| no
+|-
+! Ayttm
+| GTK2
+| no
+| dunno
+| http, socks4/5
+| yes
+| yes
+| no
+| no
+| yes
+| no
+| yes
+| yes
+| no
+| no
+| partial
+| partial
+||
+| no
+| no
+|-
+! BitlBee
+| n/a
+| yes
+| dunno
+| yes
+| no
+| yes
+| no
+| n/a
+| yes
+| no
+| no
+| n/a
+| dunno
+| dunno
+| no
+| yes
+||
+| dunno
+| dunno
+|-
+! Bombus (software)|Bombus
+| Java ME
+| yes
+| dunno
+| yes
+| yes
+| yes
+| no
+| yes
+| yes
+| yes
+| no
+| yes
+| no
+| no
+| no
+| yes
+||
+| no
+| dunno
+|-
+! Centericq
+| ncurses
+| partial
+| dunno
+| dunno
+| no
+| dunno
+| no
+| yes
+| yes
+| dunno
+| yes
+| yes
+| no
+| no
+| no
+| yes
+||
+| dunno
+| dunno
+|-
+! climm
+| line based
+| yes
+| dunno
+| dunno
+| n/a
+| yes
+| no
+| yes
+| no
+| no
+| yes
+| yes
+| n/a
+| n/a
+| n/a
+| yes
+||
+| no
+| dunno
+|-
+! Coccinella (software)|Coccinella
+| Tcl/Tk
+| yes
+| dunno
+| http, socks4/5
+| yes
+| yes
+| yes
+| yes
+| yes
+| dunno
+| no
+| yes
+| yes
+| no
+| no
+| yes
+||
+| yes
+| dunno
+|-
+! Discord (software)|Discord
+| yes
+| yes
+| yes
+| no
+| yes
+| yes
+| no
+| yes
+| yes
+| yes
+| no
+| yes
+| yes
+| partial|TTS
+| yes
+| partial
+| no
+| no
+| no
+| yes2|Plug-in<ref>[https://github.com/SilverTuxedo/RTL-Discord-Bot RTL-Discord-Bot]</ref>
+|-
+! eBuddy
+| no
+| partial
+| dunno
+| dunno
+| yes
+| yes
+| no
+| no
+| no
+| no
+| no
+| yes
+| no
+| no
+| yes
+| yes
+||
+| no
+| dunno
+|-
+! Empathy (software)|Empathy
+| GTK3
+| yes
+| dunno
+| dunno
+| yes
+| yes
+| no
+| yes
+| dunno
+| dunno
+| no
+| yes
+| yes
+| yes
+| yes
+| yes
+||
+| yes
+| dunno
+|-
+!Facebook Messenger
+| dunno
+| yes
+| no
+| dunno
+| yes
+| yes
+| yes
+| no
+| yes
+| yes
+| yes
+| yes
+| yes
+| no
+| yes
+| yes
+||
+| no
+| yes
+|-
+! Fire (instant messaging client)|Fire
+| Cocoa
+| yes
+| dunno
+| dunno
+| yes
+| yes
+| no
+| yes
+| yes
+| yes
+| yes
+| yes
+| dunno
+| dunno
+| dunno
+| dunno
+||
+| dunno
+| dunno
+|-
+! Gadu-Gadu
+| Qt
+| yes
+| dunno
+| dunno
+| yes
+| yes
+| no
+| dunno
+| no
+| yes
+| no
+| yes
+| yes
+| dunno
+| dunno
+| yes
+||
+| no
+| dunno
+|-
+! Gajim
+| GTK2
+| yes
+| dunno
+| http
+| yes
+| yes
+| no
+| yes
+| yes
+| no
+| no
+| yes
+| yes
+| dunno
+| yes
+| yes
+||
+| no
+| yes
+|-
+! Google Talk
+| W32
+| yes
+| no
+| dunno
+| partial
+| yes
+| no
+| yes
+| no
+| yes
+| no
+| yes
+| yes
+| no
+| style="background:#dff;" | Third party plugin<!--template code deprecated, because template was missing third-party plugin-->
+| yes
+||
+| no
+| yes
+|-
+! IBM Lotus Sametime
+| yes
+| yes
+| dunno
+| dunno
+| yes
+| yes
+| no
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| style="background:#dff;" | available
+| yes
+| yes
+||
+| yes
+| dunno
+|-
+! ICQ
+| W32
+| yes
+| dunno
+| dunno
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| no
+| yes
+| yes
+||
+| no
+| yes
+|-
+! IMVU
+| dunno
+| no
+| dunno
+| dunno
+| yes
+| yes
+| partial
+| yes
+| no
+| partial<ref group="lower-alpha" name="custom-content" />
+| no
+| yes
+| no
+| dunno
+| no
+| yes
+||
+| dunno
+| dunno
+|-
+! Jitsi
+| Java
+| yes
+| dunno
+| yes
+| yes
+| yes
+| no
+| dunno
+| yes
+| dunno
+| dunno
+| yes
+| yes
+| yes
+| yes
+| yes
+||
+| dunno
+| dunno
+|-
+! Kadu (software)|Kadu
+| Qt
+| yes
+| dunno
+| yes
+| yes
+| yes
+| no
+| partial
+| yes
+| yes
+| partial
+| yes
+| yes
+| no
+| no
+| yes
+||
+| no
+| dunno
+|-
+! Kopete
+| Qt/KDE
+| yes
+| dunno
+| no
+| yes
+| yes
+| no
+| yes
+| yes
+| yes
+| style="background:#dff;" | With plugin
+| yes
+| yes
+| no
+| yes
+| yes
+||
+| no
+| yes
+|-
+! Line (software)|Line
+| Line SDK
+| dunno
+| no
+| dunno
+| yes
+| yes
+| yes
+| yes
+| yes
+| no
+| yes
+| no
+| yes
+| yes
+| dunno
+| yes
+||
+| yes
+| dunno
+|-
+! Messages (Apple)|Messages
+| Cocoa
+| yes
+| dunno
+| dunno
+| yes
+| yes
+| no
+| no
+| no
+| yes
+| yes
+| yes
+| yes
+| dunno
+| yes
+| yes
+||
+| partial<ref group="lower-alpha" name="plugin"/>
+| dunno
+|-
+! MCabber
+| Curses
+| no
+| dunno
+| dunno
+| no
+| yes
+| no
+| dunno
+| dunno
+| no
+| dunno
+| yes
+| no
+| no
+| no
+| yes
+||
+| no
+| dunno
+|-
+! Miranda IM
+| W32
+| yes
+| dunno
+| yes, socks4/5, http(s)
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| partial<ref group="lower-alpha" name="plugin"/>
+| no
+| partial<ref group="lower-alpha" name="plugin"/>
+| yes
+||
+| yes
+| yes
+|-
+! Palringo
+| dunno
+| no
+| dunno
+| dunno
+| yes
+| dunno
+| no
+| yes
+| no
+| no
+| no
+| no
+| yes
+| no
+| partial (picture capture only)
+| dunno
+||
+| no
+| dunno
+|-
+! Paltalk
+| n/a
+| yes
+| dunno
+| dunno
+| yes
+| no
+| yes
+| yes
+| no
+| no
+| no
+| yes
+| yes
+| dunno
+| yes
+| yes
+| no
+| no
+| dunno
+|-
+! Pidgin (software)|Pidgin
+| GTK2
+| partial
+| no
+| yes, http, socks4/5
+| yes
+| yes
+| no
+| yes
+| yes
+| yes
+| yes
+| yes
+| partial (XMPP in Linux)
+| no
+| yes  (XMPP in Linux)
+| yes
+||
+| partial
+| yes
+|-
+! Psi (instant messaging client)|Psi
+| Qt
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| no
+| no
+| yes
+| partial (Linux & Unix)
+| no
+| partial (Linux & Unix)
+| yes
+||
+| yes
+| yes
+|-
+! Quiet Internet Pager|QIP
+| W32, VCL
+| yes
+| dunno
+| yes, http(s), socks4/4A/5
+| yes
+| yes
+| no
+| yes
+| yes
+| yes
+| no
+| yes
+| yes
+| no
+| no
+| yes
+||
+| no
+| dunno
+|-
+! QuteCom
+| Qt
+| yes
+| dunno
+| dunno
+| yes
+| yes
+| no
+| yes
+| no
+| no
+| dunno
+| dunno
+| dunno
+| dunno
+| yes
+| dunno
+||
+| dunno
+| dunno
+|-
+! Ring (software)|Ring
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+||
+| dunno
+| dunno
+|-
+! Riot.im
+| dunno
+| yes
+| partial
+| dunno
+| yes
+| yes
+| dunno
+| yes
+| dunno
+| dunno
+| dunno
+| yes
+| yes
+| dunno
+| yes
+| yes
+||
+| no
+| no
+|-
+! Skype
+| Qt/KDE, W32
+| yes
+| yes
+| yes
+| yes
+| partial
+| yes
+| no
+| yes
+| yes
+| no
+| yes
+| yes
+| yes
+| yes
+| yes
+||
+| yes-no<ref group="lower-alpha" name="plugin"/><ref group="lower-alpha" name="win-only" />
+| yes
+|-
+! Surespot
+| ?
+| yes
+| dunno
+| dunno
+| yes
+| yes
+| no
+| yes
+| no
+| no
+| yes
+| yes
+| yes
+| no
+| no
+| yes
+||
+| dunno
+| dunno
+|-
+! Tencent QQ
+| W32
+| yes
+| dunno
+| dunno
+| yes
+| yes
+| yes
+| yes
+| no
+| yes
+| yes
+| yes
+| yes
+| no
+| yes
+| yes
+||
+| yes
+| dunno
+|-
+! Telegram (software)|Telegram
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| no
+| yes
+| no
+| no
+| no
+| yes
+| yes
+| yes
+| partial
+| yes
+| Partial|Only un-encrypted messages
+| Yes
+|Yes
+|-
+! Tkabber
+| Tcl/Tk
+| yes
+| dunno
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| no
+| no
+| no
+| yes
+||
+| yes
+| no
+|-
+! Tox (protocol)|Tox
+| style="background:#dff;" | Many <ref group="lower-alpha" name="tox-clarification" />
+| yes
+| dunno
+| yes
+| yes
+| yes
+| style="background:#dff;" | Up to clients <ref group="lower-alpha" name="tox-clarification"/>
+| style="background:#dff;" | Up to clients <ref group="lower-alpha" name="tox-clarification"/>
+| style="background:#dff;" | Up to clients <ref group="lower-alpha" name="tox-clarification"/>
+| style="background:#dff;" | Up to clients <ref group="lower-alpha" name="tox-clarification"/>
+| style="background:#dff;" | Up to clients <ref group="lower-alpha" name="tox-clarification"/>
+| yes
+| yes
+| no
+| yes
+| partial <ref>Not part of the P2P network. Some clients simulate offline-messaging.  Using relays is also possible.</ref>
+||
+| no
+| yes
+|-
+! Trillian (software)|Trillian
+| W32, Cocoa
+| yes
+| dunno
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| dunno
+| yes
+| yes
+| dunno
+| yes
+| yes
+||
+| dunno
+| yes
+|-
+!WhatsApp
+| no
+| yes
+| no
+| no
+| yes
+| yes
+| no
+| no
+| no
+| no
+| no
+| yes
+| yes
+| yes
+| dunno
+| yes
+|Yes|
+| no
+| yes
+|-
+! Wickr
+| no
+| yes
+| dunno
+| yes
+| no
+| yes
+| no
+| no
+| no
+| no
+| no
+| no
+| yes
+| no
+| yes
+| yes
+||
+| no
+| ?
+|-
+! Windows Live Messenger
+| W32
+| yes
+| dunno
+| yes, http, socks4/5,
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+||
+| yes
+| yes
+|-
+! Wire (software)|Wire
+| no
+| yes
+| yes
+| no
+| yes
+| yes
+| no
+| no
+| no
+| no
+| no
+| yes
+| yes
+| yes
+| yes
+| yes
+| No<ref>Cite web|title=Why can't I see my conversation history?|url=https://support.wire.com/hc/en-us/articles/207834645|website=Wire – Support|language=en-US|access-date=2018-06-24</ref>
+| no
+| yes
+|-
+! Xfire
+| W32
+| yes
+| dunno
+| dunno
+| no
+| yes
+| no
+| yes
+| partial
+| yes
+| no
+| yes
+| yes
+| no
+| no
+| no
+||
+| no
+| dunno
+|-
+! Yahoo! Messenger
+| W32, Cocoa, GTK
+| yes
+| dunno
+| dunno
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| dunno
+| yes
+| yes
+| yes
+| yes
+| yes
+||
+| partial
+| yes
+|-
+! Yuilop
+| dunno
+| yes
+| dunno
+| no
+| yes
+| dunno
+| no
+| no
+| no
+| no
+| dunno
+| yes
+| yes
+| no
+| no
+| yes
+||
+| partial
+| dunno
+|- class="sortbottom"
+!Client
+!Toolkits or SDKs
+!File transfer
+!Editing sent messages
+!Proxy server
+!Graphical emoticons
+!Unicode (UTF-8)
+!Built-in games
+!Themes, skins
+!Plugin system
+!Third party add-ons
+!Scripting
+!Message logging
+!Voice messaging
+!Voice mail
+!Webcam support
+!Offline messaging
+!Cloud backup
+!Remote desktop assistance
+!Whiteboard
+!Right-to-left|RTL texting
+|}
+
+reflist|group=lower-alpha|refs=
+
+<ref group="lower-alpha" name="custom-content">While IMVU does not allow add-ons to extend the client, registered accounts can create new content for use inside the simulation.clarify|date=December 2011</ref>
+
+<ref group="lower-alpha" name="plugin">Supported with plugin</ref>
+
+<ref group="lower-alpha" name="win-only">Feature only supported on Windows</ref>
+
+<ref group="lower-alpha" name="tox-clarification">Tox is a communications protocol and a library implementing that protocol. Applications can bring features of their own.</ref>
+
+
+
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! style="width:12em" |Client
+! Handwriting mode
+! Dockable
+! Multiaccount
+! Spell check
+! User-defined graphic emoticons
+! Animations
+! OAuth
+|-
+! Adium
+| yes, receive only
+| yes
+| yes
+| yes
+| partial
+| partial
+| dunno
+|-
+! AOL Instant Messenger|AIM
+| no
+| yes
+| no
+| no
+| dunno
+| partial
+| dunno
+|-
+! aMSN
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| dunno
+|-
+! Ayttm
+| no
+| no
+| yes
+| yes
+| yes
+| no
+| dunno
+|-
+! BitlBee
+| no
+| n/a
+| yes
+| dunno
+| dunno
+| dunno
+| dunno
+|-
+! Centericq
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+|-
+! climm
+| n/a
+| dunno
+| yes
+| dunno
+| dunno
+| dunno
+| dunno
+|-
+! Coccinella (software)|Coccinella
+| dunno
+| yes
+| yes
+| yes
+| dunno
+| dunno
+| dunno
+|-
+! Discord (software)|Discord
+| no
+| no
+| no
+| yes
+| yes
+| yes
+| yes
+|-
+! Empathy (software)|Empathy
+| no
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+|-
+!Facebook Messenger
+| no
+| yes
+| no
+| no
+| dunno
+| dunno
+| dunno
+|-
+! Fire (instant messaging client)|Fire
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+|-
+! Gajim
+| dunno
+| yes
+| yes
+| yes
+| yes
+| yes
+| dunno
+|-
+! Google Talk
+| yes-no<ref group="lower-alpha" name="googletalk-enc" />
+| yes
+| yes-no<ref group="lower-alpha" name="no-standalone" />
+| no
+| no
+| yes-no<ref group="lower-alpha" name="no-standalone" />
+| no
+|-
+! iChat
+| no
+| dunno
+| yes
+| yes
+| dunno
+| dunno
+| dunno
+|-
+! ICQ
+| no
+| yes
+| no
+| yes
+| no
+| yes, tZer
+| dunno
+|-
+! IMVU
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+|-
+! Jitsi
+| No
+| No
+| Yes
+| Yes
+| Yes
+| Yes
+| dunno
+|-
+! Kadu (software)|Kadu
+| no
+| yes
+| yes
+| yes
+| partial
+| yes, emoticons
+| no
+|-
+! Kopete
+| no
+| yes
+| yes
+| yes
+| yes
+| yes, emoticons
+| no
+|-
+! Miranda IM
+| no
+| yes
+| yes
+| yes
+| yes
+| yes
+| dunno
+|-
+! MySpaceIM
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+|-
+! naim (software)|naim
+| no
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+|-
+! Paltalk
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+|-
+! Pidgin (software)|Pidgin
+| no
+| yes
+| yes
+| yes
+| yes
+| yes, emoticons, user icons
+| dunno
+|-
+! Psi (instant messaging client)|Psi
+| no
+| dunno
+| yes
+| yes
+| yes
+| yes-no<ref group="lower-alpha" name="configuration-options" />
+| dunno
+|-
+! Quiet Internet Pager|QIP
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes, emoticons
+| dunno
+|-
+! QuteCom
+| dunno
+| dunno
+| yes
+| dunno
+| dunno
+| dunno
+| dunno
+|-
+! Ring (software)|Ring
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+|-
+! Riot.im
+| no
+| dunno
+| dunno
+| dunno
+| yes
+| yes
+| dunno
+|-
+! Signal (software)|Signal
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+|-
+! Snapchat
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+|-
+! Skype
+| no
+| no
+| no
+| no
+| dunno
+| yes, animated emoticons
+| dunno
+|-
+! Telegram (software)|Telegram (standard messages)
+| dunno
+| dunno
+| dunno
+| no
+| dunno
+| dunno
+| dunno
+|-
+! Telegram (software)|Telegram (secret chats)
+| dunno
+| dunno
+| dunno
+| no
+| dunno
+| dunno
+| dunno
+|-
+! Tencent QQ
+| no
+| yes
+| yes
+| no
+| yes
+| yes
+| dunno
+|-
+! Tkabber
+| no
+| yes
+| yes
+| yes
+| yes
+| yes, animated emoticons
+| no
+|-
+! Trillian (software)|Trillian
+| yes
+| yes
+| yes
+| yes
+| no
+| yes, animated emoticons
+| dunno
+|-
+!WhatsApp
+| no
+| dunno
+| no
+| no
+| no
+| no
+| no
+|-
+! Windows Live Messenger
+| yes
+| no
+| yes
+| no
+| yes
+| yes, animated emoticons, winks
+| dunno
+|-
+! Wire (software)|Wire
+| yes
+| ?
+| yes
+| yes
+| yes
+| yes
+| no, uses encrypted protocol
+|-
+! Yahoo! Messenger
+| dunno
+| dunno
+| dunno
+| no
+| dunno
+| dunno
+| dunno
+|- class="sortbottom"
+! Client
+! Handwriting mode
+! Dockable
+! Multiaccount
+! Spell check
+! User-defined graphic emoticons
+! Animations
+! OAuth for client authorization
+|}
+reflist|group=lower-alpha|refs=
+
+<ref group="lower-alpha" name="no-standalone">Feature unavailable in standalone version.</ref>
+<ref group="lower-alpha" name="googletalk-enc">The connection between the Google Talk client and the Google Talk server is encrypted, except when using Gmail's chat over HTTP, a federated network that doesn't support encryption, or when using a proxy like IMLogic. - [https://sites.google.com/a/antioch.edu/end-user-support-site/home/google-talk-gtalk-/gtalk-information Google]</ref>
+<ref group="lower-alpha" name="configuration-options">Depends on build configuration options.</ref>
+
+
+
+Secure messengers
+main article|Secure instant messaging
+
+=Messengers with client-to-client encryption=
+
+The following table is an overview of instant messaging clients that provide end-to-end encryption. Some of the listed client applications do not provide end-to-end encryption by default. These clients may require that users install a separate plugin, turn on a setting, or use an optional mode. In these cases, the encryption-related information in this table is only applicable when the encryption is enabled.
+
+{| class="wikitable sortable" style="font-size: smaller; width: 100%; text-align: center;"
+|-
+! rowspan=3 | Client
+! rowspan=3 | Encrypted by default
+! rowspan=3 | Development status
+! rowspan=3 | Open source client<ref group=lower-alpha name="OpenSourceLicense" />
+! rowspan=3 | Decentralized<ref group=lower-alpha name="Decentralized" />
+! colspan="7" | Servers
+! rowspan=3 | Contact verification<ref group=lower-alpha name="ContactVerification" />
+! colspan="9" | Encryption ciphers
+! rowspan=3 | Forward secrecy<ref group=lower-alpha name="forwardSecrecy" />
+! rowspan=3 | Multiple encryption<ref group=lower-alpha name="asymmetric-encrypt-session-key-for-symmetric-encrypt-message" /><ref group=lower-alpha name="Multiple" />
+! rowspan=3 | Encrypted groupchat<ref group=lower-alpha name="groupChatandfiletransfer" />
+! rowspan=3 | Encrypted file transfer<ref group=lower-alpha name="groupChatandfiletransfer" />
+! rowspan=3 | Public key and IP unrelated<ref group=lower-alpha name="IP" />
+! rowspan=3 | Proxy /Tor<ref group=lower-alpha name="proxy" />
+! colspan=3 | Transport<ref group=lower-alpha name="transport" />
+! rowspan=3 | Asynchronous encryp. communication<ref group=lower-alpha name="asynchronous" />
+! rowspan=3 | Encrypted client data<ref group=lower-alpha name="local-database" />
+! rowspan=3 | Screenshot protection<ref group=lower-alpha name="screen-destroy" />
+! rowspan=3 | Self-destructing messages<ref group=lower-alpha name="screen-destroy" />
+|-
+! rowspan= 2| Open source
+! rowspan= 2| Distributed
+! rowspan= 2| Federated
+! colspan="4" | Data
+! rowspan=2 | Symmetric<ref group=lower-alpha name="asymmetric-encrypt-session-key-for-symmetric-encrypt-message" /><ref group="lower-alpha" name="otr" />
+! colspan="6" |Asymmetric<ref group=lower-alpha name="Asym" />
+! colspan=2 | Asym. key size<ref group=lower-alpha name="keysize" />
+! rowspan=2 | TCP
+! rowspan=2 | UDP
+! rowspan=2 | SCTP
+|-
+! Profile information<ref group=lower-alpha name="profile">For example user avatars and display names.</ref>
+! Chat metadata<ref group=lower-alpha name="metadata">For example when and to whom messages have been sent, the time when chats were created, lists of chat participants, the roles of chat participants, chat titles, and chat avatars.</ref>
+! Contact lists<ref group=lower-alpha name="contactlists">For example a list of contacts who are also using the software or a list of other users whom the user has communicated with.</ref>
+! Cloud backup
+! McEliece
+! RSA
+! DSA
+! ECC
+! NTRU
+! El&nbsp;Gamal
+! Default
+! Max.
+|-
+! Briar (software)|Briar
+| yes
+| Active|Active, public beta
+| yes
+| yes
+| n/a
+| n/a
+| n/a
+| n/a
+| n/a
+| n/a
+| no
+| yes
+| yes
+| dunno
+| dunno
+| dunno
+| yes
+| dunno
+| dunno
+| ECC-256
+| dunno
+| yes
+| yes
+| yes
+| no
+| yes
+| yes
+| yes
+| dunno
+| dunno
+| no
+| yes
+| yes
+| no
+|-
+! ChatSecure
+| yes-no|allows unencrypted
+| Active
+| yes
+| yes
+| yes
+| yes
+| yes
+|
+|
+|
+| no
+| yes<ref name="EFF"/>
+| yes<ref group="lower-alpha" name="otrWithAES" />
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| yes<ref group="lower-alpha" name="otrWithAES" />
+| Optional
+| dunno
+| dunno
+| dunno
+| Optional
+| dunno
+| dunno
+| dunno
+| no
+| dunno
+| dunno
+| no
+|-
+! Conversations (software)|Conversations
+| yes-no|allows unencrypted
+| Active
+| yes
+| yes
+| yes
+| yes
+| yes
+| bad|Stored; not client-side encrypted<ref name="conversations privacy policy"/>
+|
+| bad|Stored<ref name="conversations privacy policy">cite web|title=Privacy Policy|url=https://account.conversations.im/privacy/|publisher=Conversations.im|accessdate=11 January 2018</ref>
+| no
+| yes
+| yes<ref group="lower-alpha" name="otrWithAES" />
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| Depends
+| Optional
+| Optional
+| yes
+| Optional
+| Optional
+| dunno
+| dunno
+| dunno
+| Optional
+| dunno
+| dunno
+| no
+|-
+! Cryptocat
+| yes
+| Active
+| yes
+| no
+| dunno
+| dunno
+| no
+|
+|
+|
+| no
+| yes<ref name="cryptocat-security"/>
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| yes<ref name="cryptocat-security"/>
+| yes<ref name="cryptocat-security"/>
+| No groupchat
+| yes<ref name="cryptocat-security">cite web|title=Security|url=https://crypto.cat/security.html|publisher=Cryptocat|accessdate=14 July 2016</ref>
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+|-
+! FireChat<ref name="technology-33718318">cite web|title=FireChat launches new offline private messaging option|url=https://www.bbc.com/news/technology-33718318|website=BBC News|publisher=BBC|accessdate=11 July 2016|date=30 July 2015</ref>
+| yes-no|allows unencrypted<ref group="lower-alpha">Only one-to-one messages are end-to-end encrypted. Public chatrooms are not end-to-end encrypted.</ref>
+| Active
+| no
+| yes
+| n/a
+| n/a
+| n/a
+|
+|
+|
+| no
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| no|Includes groupchat, but it is not encrypted
+| dunno
+| dunno
+| no
+| dunno
+| dunno
+| dunno
+| yes
+| dunno
+| dunno
+| no
+|-
+! iMessage<ref name="iMessage" />
+| yes-no|allows unencrypted<ref group="lower-alpha">iMessage allows users to send instant messages to other iMessage users, as well as SMS/MMS messages to contacts who are not iMessage users. Only instant messages sent to other iMessage users are end-to-end encrypted. iMessage also contains an optional setting that allows fallback to unencrypted SMS/MMS messaging if the user or an iMessage contact is offline.</ref>
+| Active
+| no<ref name="iMessage" />
+| no
+| no
+| dunno
+| no
+|
+|
+|
+| optional
+| no<ref name="EFF"/>
+| dunno
+| dunno
+| yes<ref name="Garman-21-March-2016">cite web|last1=Garman|first1=Christina|last2=Green|first2=Matthew|authorlink2=Matthew D. Green|last3=Kaptchuk|first3=Gabriel|last4=Miers|first4=Ian|last5=Rushanan|first5=Michael|title=Dancing on the Lip of the Volcano: Chosen Ciphertext Attacks on Apple iMessage|url=https://isi.jhu.edu/~mgreen/imessage.pdf|format=PDF|website=Johns Hopkins Information Security Institute|publisher=Johns Hopkins University|accessdate=10 July 2016|date=21 March 2016</ref>
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| no<ref name="iMessage">cite web|last1=Lee|first1=Micah|title=You Should Really Consider Installing Signal, an Encrypted Messaging App for iPhone|url=https://theintercept.com/2015/03/02/signal-iphones-encrypted-messaging-app-now-supports-text/|website=The Intercept|publisher=First Look Media|accessdate=12 January 2016|date=2 March 2015|quote=Apple’s iMessage ... employs strong encryption, but only when communicating between two Apple devices and only when there is a proper data connection. Otherwise, iMessage falls back on insecure SMS messaging. iMessage also lacks forward secrecy and inspectable source code.</ref>
+| dunno
+| depends<ref>cite web|title=Types of group messages|url=https://support.apple.com/en-us/HT202724|publisher=Apple|accessdate=16 July 2016|date=3 June 2016</ref>
+| yes<ref name="Nakashima-21-March-2016">cite web|last1=Nakashima|first1=Ellen|title=Johns Hopkins researchers poke a hole in Apple’s encryption|url=https://www.washingtonpost.com/world/national-security/johns-hopkins-researchers-discovered-encryption-flaw-in-apples-imessage/2016/03/20/a323f9a0-eca7-11e5-a6f3-21ccdbc5f74e_story.html|website=The Washington Post|publisher=Nash Holdings LLC|accessdate=10 July 2016|date=21 March 2016</ref>
+| dunno
+| no
+| dunno
+| dunno
+| dunno
+| yes
+| dunno
+| no
+| no
+|-
+! Line (software)|Line<ref name="Sawers-2016-06-30">cite web|last1=Sawers|first1=Paul|title=Ahead of IPO, mobile messaging giant Line introduces end-to-end encryption by default|url=https://venturebeat.com/2016/06/30/ahead-of-ipo-mobile-messaging-giant-line-introduces-end-to-end-encryption-by-default/|website=VentureBeat|accessdate=15 July 2016|date=30 June 2016</ref><ref name="Shin-2016-08-11"/>
+| yes
+| Active
+| no
+| no
+| no
+| yes<ref name="Line Privacy Policy"/>
+| no
+| bad|Stored; not client-side encrypted<ref name="Line Privacy Policy"/>
+|
+| bad|Stored<ref name="Line Privacy Policy">cite web|title=LINE Privacy Policy|url=http://terms.line.me/line_rules/?lang=en-US|publisher=LINE|accessdate=6 December 2017</ref>
+| optional
+| no
+| dunno
+| dunno
+| dunno
+| dunno
+| yes<ref name="linecorp-letter-sealing">cite web|author1=JI|title=New generation of safe messaging: "Letter Sealing"|url=http://developers.linecorp.com/blog/?p=3679|website=LINE Engineers' Blog|publisher=LINE Corporation|accessdate=15 July 2016|date=13 October 2015</ref>
+| dunno
+| dunno
+| ECC-256<ref name="linecorp-letter-sealing"/>
+| n/a
+| no
+| dunno
+| yes<ref name="Shin-2016-08-11">cite web|author1=Shin, Ki Bin|title=The next step for even safer messaging: Letter Sealing|url=http://developers.linecorp.com/blog/?p=3938|publisher=Line Corporation|accessdate=30 September 2016|date=11 August 2016</ref>
+| dunno
+| dunno
+| no
+| dunno
+| dunno
+| dunno
+| yes
+| no
+| no
+| no
+|-
+! RetroShare
+| yes
+| Active
+| yes<ref group="lower-alpha" name="gpl" />
+| yes
+| n/a
+| n/a
+| n/a
+|
+|
+|
+| no
+| yes<ref name="EFF"/>
+| yes
+| dunno
+| yes
+| dunno
+| dunno
+| no
+| no
+| dunno
+| dunno
+| yes<ref name="EFF"/>
+| yes
+| yes
+| yes
+| optional
+| optional
+| yes
+| yes
+| no
+| yes
+| yes
+| dunno
+| dunno
+|-
+! Ring (software)|Ring
+| yes<ref>cite web|title=About Ring|url=https://ring.cx/en/about/practical|publisher=Savoir-faire Linux Inc.|accessdate=8 December 2017|quote=Your communications will be encrypted without any exception with the most advanced current techniques (see our page dedicated to security). Ring stores your secrets (private key for encryption and identity) only on the machine that runs it.</ref>
+| Active
+| yes<ref group="lower-alpha" name="gpl" />
+| yes
+|
+| 
+| 
+| 
+| 
+| bad|Stored<ref>cite web|title=Privacy and anonymity|url=https://ring.cx/en/about/privacy-and-anonymity|publisher=Savoir-faire Linux Inc.|accessdate=8 December 2017|quote=One possible weakness is that OpenDHT collects and saves metadata. This makes it possible for eavesdroppers to observe the traffic on some DHT node and see who is talking to whom.</ref>
+| no
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+|-
+! Ricochet (software)|Ricochet
+| yes
+| Active
+| Yes
+| yes
+| n/a
+| n/a
+| n/a
+| n/a
+| n/a
+| n/a
+| no
+| no<ref name="NCC-Group-2016-01"/>
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| yes<ref name="NCC-Group-2016-01"/>
+| no<ref name="NCC-Group-2016-01">cite web|last1=Hertz|first1=Jesse|last2=Jara-Ettinger|first2=Patricio|last3=Manning|first3=Mark|title=Ricochet Security Assessment|url=https://ricochet.im/files/ricochet-ncc-audit-2016-01.pdf|publisher=NCC Group|accessdate=19 February 2016|format=PDF|date=15 February 2016</ref>
+| No groupchat
+| no
+| yes
+| yes
+| dunno
+| dunno
+| dunno
+| no
+| no<ref name="NCC-Group-2016-01"/>
+| no
+| no
+|-
+! Sicher (software)|Sicher
+| yes
+| Active
+| no<ref group="lower-alpha" name="gpl" />
+| no
+| no
+| dunno
+| no
+|
+|
+|
+|
+| dunno
+| yes
+| dunno
+| yes
+| dunno
+| dunno
+| no
+| no
+| RSA-2048<ref>cite web|url=http://www.shape.ag/en/faq/sections/sicher.php#messages-sent-securely|title=Sicher FAQ|website=www.shape.ag|accessdate=6 October 2017</ref>
+| n/a
+| no
+| no
+| yes
+| yes
+| no
+| no
+| yes
+| no
+| no
+| dunno
+| yes
+| dunno
+| yes
+|-
+! Signal (software)|Signal
+| yes<ref group="lower-alpha">Signal contains a setting that allows users to send unencrypted SMS/MMS messages to contacts who do not have Signal. This setting is not enabled by default. Users can also enable a setting that allows fallback to unencrypted SMS/MMS messaging if the user or a Signal contact is offline.</ref>
+| Active
+| yes<ref group="lower-alpha" name="gpl" />
+| no
+| yes
+| yes<ref>cite web| url=https://www.wired.com/2014/07/free-encrypted-calling-finally-comes-to-the-iphone/ |title=Your iPhone Can Finally Make Free, Encrypted Calls |website= Wired |publisher=Condé Nast |first=Andy |last=Greenberg |date= 29 July 2014 |accessdate= 29 July 2016 |quote=The group has set up dozens of servers to handle the encrypted calls in more than 10 countries around the world to minimize latency.</ref>
+| no<ref>cite web|url=https://lwn.net/Articles/687294/|last=Edge|first=Jake|title=The perils of federated protocols|website=LWN.net|date=18 May 2016|accessdate=29 July 2016</ref>
+| good|Stored; client-side encrypted<ref>cite web|last1=Lund|first1=Joshua|title=Encrypted profiles for Signal now in public beta|url=https://signal.org/blog/signal-profiles-beta/|publisher=Open Whisper Systems|accessdate=5 December 2017|date=6 September 2017</ref>
+| good|Not stored<ref name="eastern-virginia">cite web|title=Grand jury subpoena for Signal user data, Eastern District of Virginia|url=https://signal.org/bigbrother/eastern-virginia-grand-jury/|publisher=Open Whisper Systems|accessdate=5 December 2017|date=4 October 2016</ref>
+| good|Not stored<ref name="eastern-virginia"/><ref>cite web|last1=Marlinspike|first1=Moxie|title=Technology preview: Private contact discovery for Signal|url=https://signal.org/blog/private-contact-discovery/|publisher=Open Whisper Systems|accessdate=5 December 2017|date=26 September 2017</ref>
+| no
+| yes<ref name="EFF"/>
+| yes
+| dunno
+| dunno
+| no
+| yes
+| no
+| no
+| ECC-256<ref name="Frosch-2014"/>
+| n/a
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes<ref name="signal-ports"/>
+| yes<ref name="signal-ports">cite web|last1=Kolenkina|first1=Masha|title=Which TCP & UDP ports need to be available?|url=https://support.signal.org/hc/en-us/articles/213697218-Which-TCP-UDP-ports-need-to-be-available-|website=Signal.org|accessdate=23 March 2018</ref>
+| no
+| yes
+| yes<ref group="lower-alpha">On iOS, the local message database is encrypted by the operating system if the user has a password on their lock screen.</ref>
+| Yes
+| Yes
+|-
+! Silent Circle (software)|Silent Phone
+| yes
+| Active
+| yes|Viewable source<ref>cite web|url=https://www.silentcircle.com/products-and-solutions/technology/zrtp/#is-silent-phone-open-source|title=Zrtp - SilentCircle|publisher=|accessdate=6 October 2017</ref>
+| no
+| no
+| no
+| no
+| bad|Stored<ref>cite web|title=Silent Circle Privacy Policy|url=https://www.silentcircle.com/privacy-policy/|publisher=Silent Circle|accessdate=17 May 2018</ref>
+| good|Not storedcn|date=May 2018
+| good|Not storedcn|date=May 2018
+| dunno
+| yes<ref name="EFF"/>
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| yes<ref name="EFF"/>
+| yes<ref>cite web|url=https://support.silentcircle.com/customer/en/portal/articles/2389676-silent-circle-messaging-in-a-multi-device-environment|title=HappyFox - The page you are looking for doesn't exist (404)|website=support.silentcircle.com|accessdate=6 October 2017</ref>
+| yes<ref>cite web|title=Silent Phone 6.0 is Here!|url=https://www.silentcircle.com/blog/silent-phone-6-0/|publisher=Silent Circle|accessdate=5 December 2017|date=15 June 2017</ref>
+| yes
+| yes
+| dunno
+| yes
+| yes
+| dunno
+| yes
+| yescn|date=May 2018
+| yes
+| yes
+|-
+! Surespot
+| yes
+| Active
+| yes<ref group="lower-alpha" name="gpl" />
+| no
+| no
+| dunno
+| no
+| good|Stored; client-side encrypted<ref name="Surespot Threat Analysis"/>
+| bad|Stored<ref name="Surespot Threat Analysis"/>
+| bad|Stored<ref name="Surespot Threat Analysis">cite web|title=Data and threat analysis|url=https://www.surespot.me/documents/threat.html|publisher=Surespot|accessdate=6 December 2017</ref>
+| no
+| yes<ref name="EFF"/>
+| yes
+| dunno
+| no
+| dunno
+| yes<ref name="surespot-27">cite web | url= https://github.com/surespot/android/issues/27 | publisher= github.com | title=  Everyday Usage Improvements #27 |location=user:2fours, item 3 | date= 2013-11-10</ref>
+| no
+| no
+| ECC-521<ref name="surespot-27"/>
+| n/a
+| yes
+| no
+| No groupchat
+| no
+| no
+| dunno
+| yes
+| no
+| no
+| dunno
+| dunno
+| dunno
+| no
+|-
+! Threema
+| yes
+| Active
+| partial|Partially<ref group=lower-alpha name="encryption-open"/><ref>cite web | url= https://threema.ch/en/faq/source_code | publisher= Threema | title= Why is Threema not Open Source? | accessdate= 2016-05-24</ref>
+| no
+| no
+| dunno
+| no
+| good|Stored; client-side encrypted<ref name="Threema FAQ"/>
+| good|Not stored<ref name="Threema FAQ"/>
+| good|Not stored<ref name="Threema FAQ">cite web|title=Frequently asked questions|url=https://threema.ch/en/faq/|publisher=Threema GmbH|accessdate=5 December 2017</ref>
+| optional
+| yes<ref name="EFF"/>
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| no<ref group="lower-alpha" name="threema-forward-secrecy">Only on the network connection, not on the end-to-end layer.[https://threema.ch/press-files/2_documentation/cryptography_whitepaper.pdf]</ref>
+| dunno
+| yes
+| yes
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| yes
+| yes
+| dunno
+| no
+|-
+! Tox (protocol)|Tox
+| yes
+| Active
+| yes<ref group="lower-alpha" name="gpl" />
+| yes
+| n/a
+| n/a
+| n/a
+| n/a
+| n/a
+| n/a
+| no
+| yes
+| yes
+| dunno
+| yes
+| dunno
+| dunno
+| no
+| no
+| dunno
+| dunno
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| yes
+| no
+| no
+| no
+| no
+| no
+|-
+! Viber
+| yes-no|allows unencrypted<ref group="lower-alpha" name="viber">Only messages between Viber users with the latest version for Android, iOS, Desktop or Windows 10 are end-to-end encrypted. The Windows Phone and BlackBerry versions are not supported.</ref><ref>cite web|title=Requirements for enhanced security features|url=https://support.viber.com/customer/portal/articles/2017401-viber-security-faq|website=Viber Security FAQ|publisher=Viber|accessdate=16 July 2016|date=n.d.|quote= Note that Viber for Windows Phone 8 will not support the new security features. It will continue to secure calls and messages through standard encryption methods.</ref>
+| Active
+| no
+| no
+| no
+| dunno
+| no
+| bad|Stored; not client-side encrypted<ref name="Viber Privacy Policy">cite web|title=Viber Privacy Policy|url=https://www.viber.com/terms/viber-privacy-policy/|publisher=Viber Media S.à r.l.|accessdate=6 December 2017|date=March 2017</ref>
+| bad|Stored<ref name="Viber Privacy Policy"/>
+| bad|Stored<ref name="Viber Privacy Policy"/>
+| optional
+| yes<ref name="viber-encryption-overview">cite web|title=Viber Encryption Overview|url=https://www.viber.com/en/security-overview|publisher=Viber|accessdate=9 July 2016|date=3 May 2016</ref>
+| dunno
+| dunno
+| dunno
+| dunno
+| yes<ref name="viber-encryption-overview"/>
+| dunno
+| dunno
+| ECC-256<ref name="viber-encryption-overview"/>
+| n/a
+| yes<ref name="viber-encryption-overview"/>
+| dunno
+| depends<ref name="viber-encryption-overview"/><ref>cite web|title=Are my group chats encrypted as well?|url=https://support.viber.com/customer/portal/articles/2017401-viber-security-faq|website=Viber Security FAQ|publisher=Viber|accessdate=16 July 2016|date=n.d.|quote= A group conversation will only use the upgraded security methods if all group participants are using the upgraded version of Viber.</ref>
+| yes<ref name="viber-encryption-overview"/>
+| dunno
+| no
+| dunno
+| dunno
+| dunno
+| yes<ref name="viber-encryption-overview"/>
+| dunno
+| no
+| no
+|-
+! WhatsApp
+| yes
+| Active
+| partial|Partially<ref group=lower-alpha name="encryption-open"/><ref name="whatsapp-ows" />
+| no
+| no
+| yes
+| no
+| bad|Stored; not client-side encrypted<ref name="WhatsApp Privacy Policy">cite web|title=WhatsApp Privacy Policy|url=https://www.whatsapp.com/legal/#privacy-policy|publisher=WhatsApp Inc.|accessdate=5 December 2017|date=25 August 2016</ref>
+| bad|Stored<ref name="WhatsApp Privacy Policy"/>
+| bad|Stored<ref name="WhatsApp Privacy Policy"/>
+| optional|Optional, icloud backup is encrypyed by phone#<ref>Cite news|url=https://techcrunch.com/2017/05/08/whatsapp-quietly-added-encryption-to-icloud|title=WhatsApp quietly added encryption to iCloud backups|work=TechCrunch|access-date=2018-11-09|language=en-US</ref> 
+| yes<ref name="whatsapp-ows">cite web|title=WhatsApp Encryption Overview&nbsp;– Technical white paper|url=https://www.whatsapp.com/security/WhatsApp-Security-Whitepaper.pdf|publisher=WhatsApp Inc.|accessdate=5 April 2016|format=PDF|date=4 April 2016</ref>
+| yes<ref name="whatsapp-ows" />
+| dunno
+| dunno
+| dunno
+| yes<ref name="whatsapp-ows" />
+| dunno
+| dunno
+| ECC-256<ref name="whatsapp-ows" />
+| n/a
+| yes<ref name="whatsapp-ows" />
+| yes<ref name="whatsapp-ows" />
+| yes<ref name="whatsapp-ows" />
+| yes<ref name="whatsapp-ows" />
+| yes<ref name="whatsapp-ows" />
+| no
+| dunno
+| dunno
+| dunno
+| yes<ref name="whatsapp-ows" />
+| no
+| no
+| no
+|-
+! Wickr|Wickr Me
+| yes
+| Active
+| partial|Partially<ref group=lower-alpha name="encryption-open"/><ref>cite web|title=Wickr Me Private Messenger: udpdate & what's coming next|url=https://www.wickr.com/blog-archive/2017/8/14/wickr-me-private-messenger-update|publisher=Wickr Inc.|accessdate=1 October 2017|date=14 August 2017</ref>
+| no
+| no
+| dunno
+| no
+| bad|Stored; not client-side encrypted<ref name="Wickr Avatar">cite web|title=Privacy Policy|url=https://www.wickr.com/privacy-policy|publisher=Wickr Inc.|accessdate=5 December 2017|date=16 September 2017|quote=You can set a public profile avatar, which will become visible to others on Wickr Me so please do not add an avatar if you do not want it to be viewed by others users within the Wickr Me App.</ref>
+| good|Not stored<ref name="Wickr LPG">cite web|title=Legal Process Guidelines|url=https://www.wickr.com/legal-process-guidelines|publisher=Wickr Inc.|accessdate=5 December 2017</ref>
+| good|Not stored<ref name="Wickr LPG"/>
+|
+| yes<ref name="wickr-messaging-protocol"/>
+| dunno
+| dunno
+| dunno
+| dunno
+| yes<ref name="wickr-messaging-protocol"/>
+| no
+| no
+| ECC-521<ref name="wickr-messaging-protocol"/>
+| n/a
+| yes<ref name="wickr-messaging-protocol"/>
+| yes<ref name="wickr-messaging-protocol"/>
+| yes
+| dunno
+| dunno
+| no
+| yes
+| dunno
+| dunno
+| yes
+| yes<ref name="wickr-messaging-protocol"/>
+| yes-no|Capture notification<ref>cite web|last1=Sanchez|first1=Seth|title=Why don’t you disable screen capture?|url=https://support.wickr.com/hc/en-us/articles/115007884288-Why-don-t-you-disable-screen-capture-|publisher=Wickr Inc.|accessdate=1 October 2017|date=1 August 2017</ref>
+| yes
+|-
+! Wickr|Wickr Pro
+| yes
+| Active
+| partial|Partially<ref group=lower-alpha name="encryption-open"/><ref name="pcmag-2017-02-15">Cite news|url=https://www.pcmag.com/news/351756/wickr-releases-crypto-protocol-on-github|title=Wickr Releases Crypto Protocol on GitHub|last=Eddy|first=Max|date=15 February 2017|newspaper=PCMag|access-date=19 February 2017|work=|via=</ref>
+| no
+| no
+| dunno
+| no
+| bad|Stored; not client-side encrypted<ref name="Wickr Avatar"/>
+| good|Not stored<ref name="Wickr LPG"/>
+| good|Not stored<ref name="Wickr LPG"/>
+|
+| yes<ref name="wickr-messaging-protocol"/>
+| dunno
+| dunno
+| dunno
+| dunno
+| yes<ref name="wickr-messaging-protocol"/>
+| no
+| no
+| ECC-521<ref name="wickr-messaging-protocol">cite web|title=Wickr Messaging Protocol|url=https://www.wickr.com/wickr-messaging-protocol |publisher=Wickr Inc.|accessdate=19 February 2017|type=Whitepaper|date=2017</ref>
+| n/a
+| yes<ref name="wickr-messaging-protocol"/>
+| yes<ref name="wickr-messaging-protocol"/>
+| yes
+| dunno
+| dunno
+| no
+| yes
+| dunno
+| dunno
+| yes
+| yes<ref name="wickr-messaging-protocol"/>
+| dunno
+| yes
+|-
+! Wire (software)|Wire
+| yes
+| Active
+| yes<ref>cite web | url= https://github.com/wireapp |title=Wire Swiss GmbH | publisher= Wire Swiss GmbH | website= GitHub | accessdate= 25 July 2016</ref>
+| no
+| yes<ref name="wire-servers">cite web|title=Wire server code now 100% open source – the journey continues|url=https://medium.com/@wireapp/wire-server-code-now-100-open-source-the-journey-continues-88e24164309c|website=Medium|publisher=Wire Swiss GmbH|accessdate=23 September 2017|date=19 September 2017</ref>
+| dunno
+| no<ref name="wire-servers"/>
+| bad|Stored; not client-side encrypted<ref name="Wire Privacy Whitepaper">cite web|title=Wire Privacy Whitepaper|url=https://wire-docs.wire.com/download/Wire+Privacy+Whitepaper.pdf|publisher=Wire Swiss GmbH|accessdate=5 December 2017|format=PDF|date=23 October 2017</ref>
+| bad|Stored<ref name="Wire Privacy Whitepaper"/>
+| bad|Stored<ref name="Wire Privacy Whitepaper"/>
+| no
+| Yes<ref>Cite web|url=https://support.wire.com/hc/en-us/articles/207692235-How-can-I-compare-key-fingerprints-|title= How can I compare key fingerprints? |publisher= Wire Swiss GmbH |accessdate=11 March 2016</ref>
+| Yes<ref name="Wire Security Whitepaper">Cite web|url=https://wire.com/resource/Wire%20Security%20Whitepaper/download/|title= Wire Security Whitepaper |publisher= Wire Swiss GmbH |accessdate=13 April 2016</ref>
+| dunno
+| dunno
+| dunno
+| Yes<ref name="Wire Security Whitepaper"/>
+| dunno
+| dunno
+| ECC-256<ref name="Wire Security Whitepaper"/>
+| n/a
+| Yes
+| Yes
+| Yes
+| yes<ref>cite web|url=https://support.wire.com/hc/en-us/articles/207628179-How-can-I-send-a-file-|title=How can I send a file?|website=Wire – Support|accessdate=6 October 2017</ref>
+| dunno
+| No
+| Yes<ref name="Wire Security Whitepaper"/>
+| Yes<ref name="Wire Security Whitepaper"/>
+| dunno
+| Yes
+| Yescitation needed|date=May 2016
+| No
+| yes<ref>cite web|title=Safe and tidy with Timed Messages|url=https://medium.com/wire-news/safe-and-tidy-with-timed-messages%EF%B8%8F-4f26ff17b11b|publisher=Wire Swiss|accessdate=25 October 2016|date=25 October 2016</ref>
+|-
+! TextSecure
+| yes
+| No|Discontinued<ref group="lower-alpha">Merged with RedPhone to become Signal (software)|Signal.</ref>
+| yes<ref group="lower-alpha" name="gpl" /><ref>cite web| url= https://github.com/WhisperSystems/TextSecure |title= TextSecure |website= GitHub |author= Open Whisper Systems | accessdate= 17 January 2015</ref>
+| partial|Partially<ref group=lower-alpha name="TextSecure-decentralization"/>
+| Yes<ref group=lower-alpha name="TextSecure-decentralization"/>
+| Yes
+| Yes|Yes, briefly<ref group=lower-alpha name="TextSecure-decentralization"/>
+| n/a
+| good|Not stored
+| good|Not stored
+| no
+| yes<ref name="EFF"/>
+| yes
+| dunno
+| dunno
+| no
+| yes
+| no
+| no
+| ECC-256<ref name="Frosch-2014">cite web|last1=Frosch |first1=Tilman |last2=Mainka |first2=Christian |last3=Bader |first3=Christoph |last4=Bergsma |first4=Florian |last5=Schwenk |first5=Jörg |last6=Holz |first6=Thorsten |title=How Secure is TextSecure? |website=Cryptology ePrint Archive |publisher= International Association for Cryptologic Research (IACR) |url=https://eprint.iacr.org/2014/904.pdf |format=PDF |year=2014 |accessdate=13 July 2016</ref>
+| n/a
+| yes
+| yes
+| yes
+| yes
+| yes
+| no
+| yes
+| no
+| no
+| yes<ref>cite web|date=22 August 2013 | author=Moxie Marlinspike |url=https://whispersystems.org/blog/asynchronous-security/ |title=Forward Secrecy for Asynchronous Messages |publisher=Open Whisper Systems |accessdate=2014-03-01</ref>
+| yes
+| yes
+| no
+|-
+! WASTE
+| yes
+| No|Discontinued
+| yes<ref group="lower-alpha" name="gpl" />
+| yes
+| n/a
+| n/a
+| n/a
+|
+|
+|
+|
+| no
+| yes
+| dunno
+| dunno
+| dunno
+| no
+| no
+| dunno
+| dunno
+| no
+| no
+| no
+| yes
+| no
+| no
+| yes
+| no
+| no
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+|-
+! Adium
+| no
+| Active
+| yes<ref group="lower-alpha" name="gpl" />
+| yes
+| yes
+| yes
+| yes
+|
+|
+|
+| no
+| yes
+| yes<ref group="lower-alpha" name="otrWithAES" />
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| yes<ref group="lower-alpha" name="otrWithAES" />
+| dunno
+| dunno
+| yes<ref group="lower-alpha" name="otrWithAES" />
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| no
+| no
+| no
+| no
+|-
+! Google Allo (incognito mode)<ref name="Greenberg-2016-05-18">Cite web|last=Greenberg|first=Andy|url=https://www.wired.com/2016/05/allo-duo-google-finally-encrypts-conversations-end-end/|title=With Allo and Duo, Google Finally Encrypts Conversations End-to-End|website=Wired|publisher=Condé Nast|date=18 May 2016|accessdate=18 May 2016</ref>
+| no
+| Active
+| partial|Partially<ref group=lower-alpha name="encryption-open"/>
+| no
+| no
+| yes<ref>cite web|title=Data center locations|url=https://www.google.com/about/datacenters/inside/locations/|publisher=Google Inc.|accessdate=2 August 2016</ref>
+| no
+|
+|
+|
+| no
+| dunno
+| yes
+| dunno
+| dunno
+| dunno
+| yes
+| dunno
+| dunno
+| ECC-256
+| n/a
+| yes
+| yes
+| optional
+| dunno
+| dunno
+| no
+| dunno
+| dunno
+| dunno
+| yes
+| dunno
+| dunno
+| yes
+|-
+! Facebook Messenger (secret conversations)<ref name="Greenberg-2016-07-08">cite web|last1=Greenberg|first1=Andy|title=‘Secret Conversations:’ End-to-End Encryption Comes to Facebook Messenger|url=https://www.wired.com/2016/07/secret-conversations-end-end-encryption-facebook-messenger-arrived/|website=Wired|publisher=Condé Nast|accessdate=8 July 2016|date=8 July 2016</ref>
+| no
+| Active
+| partial|Partially<ref group=lower-alpha name="encryption-open"/><ref name="fb-whitepaper">cite web|title=Messenger Secret Conversations |url=https://fbnewsroomus.files.wordpress.com/2016/07/secret_conversations_whitepaper.pdf |publisher=Facebook |type=Whitepaper |accessdate=8 July 2016 |format=PDF |date=8 July 2016 |deadurl=yes |archiveurl=https://web.archive.org/web/20160708213226/https://fbnewsroomus.files.wordpress.com/2016/07/secret_conversations_whitepaper.pdf |archivedate=8 July 2016 |df= </ref>
+| no
+| no
+| yes<ref>cite web|last1=Harding|first1=Luke|title=The node pole: inside Facebook's Swedish hub near the Arctic Circle|url=https://www.theguardian.com/technology/2015/sep/25/facebook-datacentre-lulea-sweden-node-pole|website=The Guardian|publisher=Guardian Media Group|accessdate=2 August 2016|date=25 September 2015</ref>
+| no
+| bad|Stored; not client-side encrypted
+|
+| bad|Stored
+| no
+| yes<ref name="fb-whitepaper"/>
+| yes<ref name="fb-whitepaper"/>
+| dunno
+| dunno
+| dunno
+| yes<ref name="fb-whitepaper"/>
+| dunno
+| dunno
+| ECC-256<ref name="fb-whitepaper"/>
+| n/a
+| yes<ref name="fb-whitepaper"/>
+| yes
+| no|Includes groupchat, but it is not encrypted<ref>cite web|last1=Paul|first1=Ian|title=Facebook brings end-to-end encryption to Messenger with ‘secret conversations’|url=http://www.pcworld.com/article/3093079/ios/facebook-brings-end-to-end-encryption-to-messenger-with-secret-conversations.html|website=PCWorld|publisher=IDG|accessdate=9 July 2016|date=8 July 2016</ref>
+| dunno
+| dunno
+| no
+| dunno
+| dunno
+| dunno
+| yes
+| yes<ref name="fb-whitepaper"/>
+| dunno
+| yes<ref name="fb-whitepaper"/>
+|-
+! Gajim
+| no
+| Active
+| yes
+| yes
+| yes
+| yes
+| yes
+|
+|
+|
+| no
+| yes
+| yes<ref group="lower-alpha" name="otrWithAES" />
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| yes<ref group="lower-alpha" name="otrWithAES" />
+| Optional
+| Optional<ref group="lower-alpha" name="plugin"/>
+| yes
+| dunno
+| no
+| dunno
+| dunno
+| dunno
+| Optional
+| dunno
+| dunno
+| no
+|-
+! Jitsi
+| no
+| Active
+| yes
+| yes
+| yes
+| yes
+| yes
+|
+|
+|
+| no
+| yes<ref name="EFF"/>
+| yes<ref group="lower-alpha" name="otrWithAES" />
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| yes<ref group="lower-alpha" name="otrWithAES" />
+| dunno
+| dunno
+| yes<ref group="lower-alpha" name="otrWithAES" />
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| no
+| dunno
+| no
+| no
+|-
+! KakaoTalk (secret chats)<ref name="Russell-2014-12-07">cite web|last1=Russell|first1=Jon|title=Chat App Kakao Talk Begins Offering Opt-In Encryption Following Recent Privacy Storm|url=https://techcrunch.com/2014/12/07/chat-app-kakao-talk-begins-offering-opt-in-encryption-following-recent-privacy-storm/|website=TechCrunch|publisher=AOL Inc.|accessdate=21 October 2016|date=7 December 2014</ref>
+| no
+| Active
+| no
+| dunno
+| dunno
+| dunno
+| dunno
+|
+|
+|
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+|-
+! Kopete<ref group="lower-alpha" name="pgp" />
+| no
+| Active
+| yes<ref group="lower-alpha" name="gpl" />
+| yes
+| yes
+| yes
+| yes
+|
+|
+|
+|
+| yes
+| yes<ref group="lower-alpha" name="otrWithAES" /> 
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| yes<ref group="lower-alpha" name="otrWithAES" />
+| dunno
+| no|Includes groupchat, but it is not encrypted
+| yes<ref group="lower-alpha" name="otrWithAES" />
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| No
+| No
+| dunno
+| dunno
+|-
+! Miranda IM
+| no
+| Active
+| yes<ref group="lower-alpha" name="gpl" />
+| yes
+| dunno
+| dunno
+| dunno
+|
+|
+|
+|
+| yes<ref>cite web|title=SecureIM - plugin development and mod |url=http://forums.miranda-im.org/showthread.php?4768-SecureIM-plugin-development-and-mod/page31|date=May 2009</ref>
+| yes<ref>cite web|title=Pluginlist |url=http://wiki.miranda-im.org/Pluginlist|website=miranda-im.org|accessdate=27 March 2017</ref>
+| dunno
+| Optional<ref group="lower-alpha" name="plugin"/><ref name="miranda-im.org">cite web|title="SecureIM - plugin development and mod"|url=http://forums.miranda-im.org/archive/index.php/t-4768-p-2.html|date=23 April 2009</ref>
+| dunno
+| dunno
+| dunno
+| dunno
+| ECC-192<ref name="miranda-im.org"/>
+| dunno
+| dunno
+| dunno
+| dunno
+| yes<ref>cite web|title=Off-the-Record (OTR) encryption plugin discussion |url=http://forums.miranda-im.org/showthread.php?5810-Off-the-Record-(OTR)-encryption-plugin-discussion-thread/page43|date=10 June 2008</ref>
+| dunno
+| dunno
+| yes
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+|-
+! Pidgin (software)|Pidgin
+| no
+| Active
+| yes<ref group="lower-alpha" name="gpl" />
+| yes
+| yes
+| yes
+| yes
+|
+|
+|
+| no
+| yes<ref name="EFF"/>
+| yes<ref group="lower-alpha" name="otrWithAES" /><ref name="developer.pidgin.im">cite web|title=Plugins: Off-the-Record Messaging (OTR) |url=https://developer.pidgin.im/wiki/ThirdPartyPlugins|website=pidgin.im|accessdate=19 December 2014</ref>
+| dunno
+| Optional<ref group="lower-alpha" name="plugin"/><ref>cite web|title=Plugins: "Pidgin-encryption"|url=http://pidgin-encrypt.sourceforge.net|website=sourceforge.net|accessdate=19 December 2014</ref>
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| yes<ref group="lower-alpha" name="otrWithAES" /><ref name="developer.pidgin.im"/>
+| dunno
+| dunno
+| yes<ref name="developer.pidgin.im"/>
+| dunno
+| dunno
+| yes
+| dunno
+| dunno
+| optional<ref group="lower-alpha" name="asynchronous-pidgin">Supported when used with a protocol/service (e.g. Yahoo, MSN etc.) that supports offline messaging. Most protocols support offline messaging (see the features table, fourth from last column).</ref>
+| dunno
+| dunno
+| dunno
+|-
+! Riot.im
+| no
+| Active, public beta
+| yes
+| yes
+| yes
+| yes
+| yes
+| dunno
+| dunno
+| dunno
+| dunno
+| yes|Device verification
+| yes
+| dunno
+| dunno
+| dunno
+| yes
+| dunno
+| dunno
+| ECC-256
+| dunno
+| Optional
+| dunno
+| yes
+| yes
+| yes
+| dunno
+| yes
+| dunno
+| dunno
+| yes
+| dunno
+| no
+| no
+|-
+! Telegram (software)|Telegram (secret chats)
+| no
+| Active
+| yes<ref group="lower-alpha" name="gpl" />
+| no
+| no
+| yes
+| no
+| bad|Stored; not client-side encrypted
+| good|Not stored<ref name="Telegram Privacy Policy"/>
+| bad|Stored<ref name="Telegram Privacy Policy">cite web|title=Privacy Policy|url=https://telegram.org/privacy|publisher=Telegram|accessdate=5 December 2017</ref>
+| no
+| yes<ref name="EFF"/>
+| yes
+| dunno
+| yes
+| dunno
+| no
+| no
+| no
+| RSA-2048<ref name="Jakobsen-2015">cite web|last1=Jakobsen|first1=Jakob|last2=Orlandi|first2=Claudio|title=On the CCA (in)security of MTProto|website=Cryptology ePrint Archive|publisher=International Association for Cryptologic Research (IACR)|date=8 December 2015|url=https://eprint.iacr.org/2015/1177.pdf|format=PDF |accessdate=13 July 2016</ref>
+| n/a
+| yes-no|Sort of<ref group="lower-alpha">Encryption keys are only changed after a key has been used more than 100 times or has been in use for more than a week.</ref>
+| yes
+| no|Includes groupchat, but it is not encrypted
+| yes
+| no
+| no
+| yes
+| no
+| dunno
+| no
+| optional
+| yes, warning
+| Yes
+|-
+! Xabber
+| no
+| Active
+| yes
+| dunno
+| yes
+| yes
+| yes
+|
+|
+|bad|Stored
+| dunno
+| dunno
+| yes<ref group="lower-alpha" name="otrWithAES" />
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+| dunno
+|- class="sortbottom"
+! rowspan=3 | Client name
+! rowspan=3 | Encrypted by default
+! rowspan=3 | Development status
+! rowspan=3 | Open source client<ref group=lower-alpha name="OpenSourceLicense" />
+! rowspan=3 | Decentralized<ref group=lower-alpha name="Decentralized" />
+! colspan="7" | Servers
+! rowspan=3 | Contact verification<ref group=lower-alpha name="ContactVerification" />
+! colspan="9" | Encryption ciphers
+! rowspan=3 | Forward secrecy<ref group=lower-alpha name="forwardSecrecy" />
+! rowspan=3 | Multiple encryption<ref group=lower-alpha name="asymmetric-encrypt-session-key-for-symmetric-encrypt-message" /><ref group=lower-alpha name="Multiple" />
+! rowspan=3 | Encrypted groupchat<ref group=lower-alpha name="groupChatandfiletransfer" />
+! rowspan=3 | Encrypted file transfer<ref group=lower-alpha name="groupChatandfiletransfer" />
+! rowspan=3 | Public key and IP unrelated<ref group=lower-alpha name="IP" />
+! rowspan=3 | Proxy /Tor<ref group=lower-alpha name="proxy" />
+! colspan=3 | Transport<ref group=lower-alpha name="transport" />
+! rowspan=3 | Asynchronous encryp. communication<ref group=lower-alpha name="asynchronous" />
+! rowspan=3 | Encrypted client data<ref group=lower-alpha name="local-database" />
+! rowspan=3 | Screenshot protection<ref group=lower-alpha name="screen-destroy" />
+! rowspan=3 | Self-destructing messages<ref group=lower-alpha name="screen-destroy" />
+|-
+! rowspan= 2| Open source
+! rowspan= 2| Distributed
+! rowspan= 2| Federated
+! colspan="4" | Data
+! rowspan=2 | Symmetric<ref group=lower-alpha name="asymmetric-encrypt-session-key-for-symmetric-encrypt-message" /><ref group="lower-alpha" name="otr" />
+! colspan="6" |Asymmetric<ref group=lower-alpha name="Asym" />
+! colspan=2 | Asym. key size<ref group=lower-alpha name="keysize" />
+! rowspan=2 | TCP
+! rowspan=2 | UDP
+! rowspan=2 | SCTP
+|-
+! Profile information<ref group=lower-alpha name="profile"/>
+! Chat metadata<ref group=lower-alpha name="metadata"/>
+! Contact lists<ref group=lower-alpha name="contactlists"/>
+! Cloud backup
+! McEliece
+! RSA
+! DSA
+! ECC
+! NTRU
+! El&nbsp;Gamal
+! Default
+! Max.
+|}
+
+=Messengers with client-to-server encryption=
+The following table is an overview of those Instant Messenger clients which provide client-to-server encryption. It does not include clients that also provide end-to-end encryption.
+
+{| class="wikitable sortable" style="font-size: smaller; width: 40%; text-align: center; background:none;"
+|- class="sortbottom"
+|-
+! Client
+! Encryption protocol
+|-
+! AOL Instant Messenger|AIM<ref name="EFF"/>
+| dunno
+|-
+! BlackBerry Messenger<ref name="EFF"/>
+| dunno
+|-
+! eBuddy<ref name="EFF"/>
+| dunno
+|-
+! Gadu-Gadu
+| yes|Transport Layer Security|TLScitation needed|date=July 2016
+|-
+! Google Hangouts<ref name="EFF"/>
+| yes|Transport Layer Security|TLS<ref>cite web|url=https://support.google.com/hangouts/answer/6046115|title=Fix problems with Hangouts - Hangouts Help|website=support.google.com|accessdate=6 October 2017</ref>
+|-
+! Kik Messenger<ref name="EFF"/>
+| dunno
+|-
+! Skype<ref name="EFF"/><ref>cite news|title=Microsoft handed the NSA access to encrypted messages |url=https://www.theguardian.com/world/2013/jul/11/microsoft-nsa-collaboration-user-data|first1=Glenn |last1=Greenwald |first2=Ewen |last2=MacAskill |first3=Laura |last3=Poitras |first4=Spencer |last4=Ackerman |first5=Dominic |last5=Rushe |work=The Guardian |publisher=Guardian Media Group |date=12 July 2013 |accessdate=10 July 2016</ref>
+| yes|Transport Layer Security|TLS<ref>cite web|url=https://support.skype.com/en/faq/fa31/does-skype-use-encryption|title=Does Skype use encryption?|website=support.skype.com|accessdate=6 October 2017</ref>
+|-
+! Snapchat<ref name="EFF"/>
+| dunno
+|-
+! Tencent QQ<ref name="EFF"/>
+| yes-no|A custom protocol<ref name="EFF"/>
+|-
+! Yahoo! Messenger<ref name="EFF"/>
+| dunno
+|-
+! Echat<ref>cite web|url=https://ico.echat.io|title=Echat|website=Echat|accessdate=21 November 2017</ref>
+| dunno
+|- class="sortbottom
+|}
+
+=Messengers with no encryption=
+The following is a list of those Instant Messenger clients which do not provide client-to-server encryption:
+
+* Empathy (software)|Empathycitation needed|date=July 2016
+* ICQcitation needed|date=July 2016
+* Mxit<ref name="EFF">cite web | url = https://www.eff.org/node/82654 | publisher = Electronic Frontier Foundation | title = Secure Messaging Scorecard. Which apps and tools actually keep your messages safe? | date = 4 November 2014 |accessdate=9 July 2016</ref>
+* Nimbuzz<ref>cite web|title=Nimbuzz Webchat 2.7 [updated]|url=http://blog.nimbuzz.com/2010/06/17/nimbuzz-webchat-2-7-updated|type=Blog|publisher=Nimbuzz|date=17 June 2010|accessdate=10 July 2016</ref>failed verification|date=July 2016
+* Palringocitation needed|date=July 2016
+
+;Notes
+Reflist|group=lower-alpha|refs=
+<ref name="screen-destroy">Screenshot protection and self-destructing messages provide only basic protection against casual/inadvertent logging of messages by users.</ref>
+<ref name="asymmetric-encrypt-session-key-for-symmetric-encrypt-message">In symmetric-key algorithm|symmetric cryptography, the same key is used for encryption and decryption. Knowledge of this key needs to be limited to the two communication partners to ensure confidentiality. As asymmetric algorithms are relatively Public-key cryptography#Computational cost|computationally costly in terms of speed, as compared to symmetric cryptography, the session key may be encrypted / decrypted by a asymmetric algorithm and use a much faster symmetric algorithm to encrypt and decrypt messages, reducing computational cost (increasing speed).</ref>
+<ref name="OpenSourceLicense">For transparency to the public, the source code of the encryption algorithms, and its implementation into a messenger, should be subject to public auditing—which may disclose flaws or implementation failures. Whereas, a company offering a messenger which does not reveal the source must be blindly trusted. In general it is recommended to not trust closed source encryption.</ref>
+<ref name="Decentralized">If a messenger relies on a client-server|central server, the setup is closed and may be surveilled. To counter this, decentralized computing architectures have been developed via a peer-to-peer technology, open source chat servers (easily setup by anyone) and/or Federation (information technology)|federated protocols. An architecture in which all the messages do not pass through a central server lessens a single point for surveillance.</ref>
+<ref name="ContactVerification">The clients have a built-in method for users to verify the identity of correspondents they are speaking with and the integrity of the channel, even if the service provider or other third parties are compromised. Two possible ways of doing this are through:
+#An interface for users to view the fingerprint (hash) of their correspondent's public keys as well as their own, which users can verify manually or out-of-band.
+#A key exchange protocol with a short-authentication-string comparison. An example is the Socialist millionaire's protocol.
+The solution should verify a binding between the users and the cryptographic channel.</ref>
+<ref name="Asym">The critical advantage in an asymmetric cryptography|asymmetric key system is that copies of keys do not need to be sent between communicators. This prevents a third party from copying a key while it is in transit, and preventing the third party from spying on all future messages. In addition, if one key was copied by a third party, only messages to the holder of the key would be compromised, not the messages to the other party in the communication. However, asymmetric algorithms are relatively Public-key cryptography#Computational cost|computationally costly in terms of speed, as compared to symmetric cryptography. The most common asymmetric cryptography algorithm is the RSA (algorithm)|RSA Algorithm. Public-key cryptography#Examples|Alternative asymmetric algorithms are Digital Signature Algorithm (DSA), Elliptic curve cryptography (ECC), ElGamal encryption|ElGamal and NTRUEncrypt|NTRU. NTRU is regarded not vulnerable to decryption by quantum computing.</ref>
+<ref name="keysize">The key size describes the length of the needed mathematical operation. Simply spoken, the longer the key, the longer it takes to crack it.</ref>
+<ref name="forwardSecrecy">Forward secrecy describes the option to change the encryption key every session or even instant. This may be implemented by Off-the-Record Messaging (OTR)</ref>
+<ref name="Multiple">Multiple encryption is the process of encrypting an already encrypted message one or more times, either using the same or a different algorithm.</ref>
+<ref name="groupChatandfiletransfer">Some messengers offer Groupchat and file transfer. These features should transfer only encrypted bytes. Encrypted file transfer may be implemented by Off-the-Record Messaging (OTR)</ref>
+<ref name="IP">Public keys are used to identify users. A user's IP address can in some cases be related to his or her public key. Messengers that do not relate the user's public key to the user's IP address are considered more secure. This offers more security because the IP cannot be targeted to gain access to the private key. If an attacker knows the IP related to a public key, he or she can try to get on the remote machine, download and decrypt the private key and thus decrypt all encrypted communication.</ref>
+<ref name="proxy">Proxy server|Proxies and Tor (anonymity network)|Tor might prevent an IP address|IP from being related to the public key.</ref>
+<ref name="transport">Not all messengers support the same transport layer|transport protocols like Transmission Control Protocol|TCP, User Datagram Protocol|UDP and SCTP.</ref>
+<ref group="lower-alpha" name="gpl">See: Comparison of instant messaging clients#General information.</ref>
+<ref group="lower-alpha" name="pgp">OpenPGP encryption (XEP-0027).</ref>
+<ref group="lower-alpha" name="otr">Off-the-Record Messaging encryption uses the AES symmetric algorithm and Diffie–Hellman key exchange. It allows forward secrecy and encrypted file transfers.</ref>
+<ref group="lower-alpha" name="otrWithAES">Implements Off-the-Record Messaging encryption which uses the AES symmetric algorithm and Diffie–Hellman key exchange. It allows forward secrecy and encrypted file transfers.</ref>
+<ref group="lower-alpha" name="plugin">Supported with plugin</ref>
+<ref group="lower-alpha" name="asynchronous">Lets users exchange encrypted messages Asynchronous communication|asynchronously, i.e. participants do not have to be online at the same time.</ref>
+<ref group=lower-alpha name="local-database">Lets users set a passphrase that encrypts the local message database. The messages are protected if the device is e.g. lost or stolen.</ref>
+<ref group=lower-alpha name="TextSecure-decentralization">The TextSecure#Servers|TextSecure server architecture was partially decentralized between December 2013 and February 2016, when it federated with servers run by the developers of CyanogenMod.</ref>
+<ref group=lower-alpha name="encryption-open">Only the encryption related source code is open.</ref>
+
+
+See also
+*Comparison of instant messaging protocols
+*Comparison of Internet Relay Chat clients
+*Comparison of LAN messengers
+*Comparison of VoIP software
+*List of SIP software
+*List of video telecommunication services and product brands
+
+References
+reflist|35em
+
+Instant messaging
+
+DEFAULTSORT:Comparison Of Instant Messaging Clients
+Category:Network software comparisons|Instant Messaging clients
+Category:Instant messaging clients| 
+Category:Social software|Instant messaging clients

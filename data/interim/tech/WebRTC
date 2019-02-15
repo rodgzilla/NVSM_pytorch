@@ -1,0 +1,161 @@
+Infobox software
+| name = WebRTC
+| logo = WebRTC Logo.svg
+| released = Start date and age|df=yes|2011
+| latest release version = 1.1
+| latest release date = Start date and age|2017|05|04
+| repo = URL|webrtc.googlesource.com
+| programming language = C++,<ref>https://webrtc.googlesource.com/src/webrtc/</ref> JavaScript
+| genre = 
+| author = Justin Uberti<br/>Peter Thatcher
+| license = BSD license
+| website = URL|webrtc.org
+
+
+WebRTC (Web Real-Time Communication) is a free, open-source software|open-source project that provides web browsers and mobile applications with Real-time communication|real-time communication (RTC) via simple application programming interfaces (APIs). It allows audio and video communication to work inside web pages by allowing direct peer-to-peer communication, eliminating the need to install Plug-in (computing)|plugins or download native apps.<ref name="revolutionizing"/> Supported by Apple_Inc.|Apple, Google, Microsoft, Mozilla, and Opera Software|Opera, WebRTC is being standardized through the World Wide Web Consortium (W3C) and the Internet Engineering Task Force (IETF).<ref name="org">cite web| title =WebRTC| url= https://webrtc.org |website = WebRTC |accessdate=6 February 2018| archiveurl=https://archive.is/svdbj |archivedate=8 January 2018</ref>
+
+Its mission is to "enable rich, high-quality Real-time Transport Protocol|RTP applications to be developed for the browser, mobile platforms, and Internet of things|IoT devices, and allow them all to communicate via a common set of communication protocol|protocols".<ref name="org"/> The reference implementation is released as free software under the terms of a BSD license. OpenWebRTC provides another free implementation based on the multimedia framework GStreamer. JavaScript inventor Brendan Eich called it a "new front in the long war for an open and unencumbered web".<ref>cite web|author1=Justin Uberti|author2=Sam Dutton|title=WebRTC: Plugin-free realtime communication|url=https://io13webrtc.appspot.com/#6|accessdate=6 February 2018</ref>
+
+ History 
+
+In May 2010, Google bought Global IP Solutions or GIPS, a Voice over IP|VoIP and videoconferencing software company that had developed many components required for RTC, such as codecs and echo cancellation techniques. Google open-sourced the GIPS technology and engaged with relevant standards bodies at the IETF and W3C to ensure industry consensus.<ref>cite web|title=Are the WebRTC components from Google’s acquisition of Global IP Solutions?|url=https://webrtc.org/faq/#are-the-webrtc-components-from-googles-acquisition-of-global-ip-solutions|website=WebRTC|accessdate=6 February 2018</ref><ref>cite news|last1=Wauters|first1=Robin|title=Google makes $68.2 million cash offer for Global IP Solutions| url= https://techcrunch.com/2010/05/18/google-makes-68-2-million-cash-offer-for-global-ip-solutions |accessdate=6 February 2018 |work=TechCrunch|date=18 May 2010</ref> In May 2011, Google released an open-source software|open-source project for browser-based real-time communication known as WebRTC.<ref name="code"/> This has been followed by ongoing work to standardize the relevant communication protocol|protocols in the Internet Engineering Task Force|IETF<ref name="rtcweb charter"/> and browser APIs in the W3C.<ref name="w3"/>
+
+In May 2011, Ericsson Labs built the first implementation of WebRTC using a modified WebKit library.<ref name="eric">cite news| author1= Stefan Håkansson|author2=Stefan Ålund|title=Beyond HTML5: Experiment with Real-Time Communication in a Browser|url=https://www.ericsson.com/research-blog/beyond-html5-experiment-real-time-communication-browser |accessdate=6 February 2018|work=Ericsson Research blog|date=26 May 2011</ref> In October 2011, the World Wide Web Consortium|W3C published its first draft for the spec.<ref>cite web|title=WebRTC 1.0: Real-time Communication Between Browsers|url=https://www.w3.org/TR/2011/WD-webrtc-20111027/|website=World Wide Web Consortium|accessdate=6 February 2018|date=27 October 2011</ref> WebRTC milestones include the first cross-browser video call (February 2013), first cross-browser data transfers (February 2014), and as of July 2014 Google Hangouts was "kind of" using WebRTC.<ref name="nowak">cite web| last1 =Nowak|first1=Szymon|title=WebRTC: So Much More Than Videoconferencing|url=https://szimek.github.io/presentation-meetjs-summit-2014-webrtc/#16|website=GitHub|accessdate=6 February 2018</ref>
+
+The W3C draft of WebRTC<ref name="1.0"/> is a work in progress with advanced implementations in the Chrome and Firefox browsers. The API is based on preliminary work done in the WHATWG.<ref name="whatwg"/> It was referred to as the ConnectionPeer API, and a pre-standards concept implementation was created at Ericsson Labs.<ref name="ericsson"/> The WebRTC Working Group expects this specification to evolve significantly based on:
+
+* Outcomes of ongoing exchanges in the companion RTCWEB group at IETF<ref name="rtcweb"/> to define the set of Communications protocol|protocols that, together with this document, define real-time communications in web browsers. While no one signaling protocol is mandated, Session Initiation Protocol|SIP over Websockets (IETF RFC|7118) is often used partially due to the applicability of SIP to most of the envisaged communication scenarios as well as the availability of open-source software such as JsSIP.
+* Internet privacy|Privacy issues that arise when exposing local capabilities and local streams
+* Technical discussions within the group, on implementing data channels in particular<ref name="data-protocol-00"/>
+* Experience gained through early experimentation
+* Feedback from other groups and individuals
+
+ Overview 
+
+= Design =
+Major components of WebRTC include several JavaScript Application programming interface|APIs:
+* <code>getUserMedia</code> acquires the audio and video media (e.g., by accessing a device's camera and microphone).<ref name="getusermedia"/>
+* <code>RTCPeerConnection</code> enables audio and video communication between peers. It performs signal processing, codec handling, peer-to-peer communication, security, and bandwidth (computing)|bandwidth management.<ref name="rtcpeerconnection"/>
+* <code>RTCDataChannel</code> allows bidirectional communication of arbitrary data between peers. It uses the same API as WebSockets and has very low Network latency|latency.<ref name="rtcdatachannel"/>
+
+The WebRTC API also includes a statistics function:
+* <code>getStats</code> allows the web application to retrieve a set of statistics about WebRTC sessions. These statistics data are being described in a separate W3C document.<ref name="stats"/>
+
+RFC 7874 requires implementations to provide A-law algorithm|PCMA/PCMU (IETF RFC|3551), Telephone Event as DTMF (IETF RFC|4733), and Opus (audio format)|Opus (IETF RFC|6716) audio codecs as minimum capabilities. The PeerConnection, data channel and media capture browser APIs are detailed in the W3C.
+
+W3C is developing ORTC (Object Real-Time Communications) for WebRTC.<ref name="ORTC"/> This is commonly referred to as WebRTC 1.1.
+
+= Examples =
+
+Although initially developed for web browsers, WebRTC has applications for non-browser devices, including mobile platforms and Internet of Things|IoT devices. Examples include browser-based VoIP telephony, also called cloud phones or web phones, which allow calls to be made and received from within a web browser, replacing the requirement to download and install a softphone.<ref>https://www.siliconrepublic.com/comms/babelfish-softphone-cloud-goldfish</ref>
+
+= Support =
+WebRTC is supported by the following browsers:
+* Desktop PC
+**Microsoft Edge 12+<ref name="edge"/>
+** Google Chrome 28+
+** Mozilla Firefox 22+<ref name="Firefox22"/>
+** Safari (web browser)|Safari 11+<ref name="Safari11"/>
+** Opera (web browser)|Opera 18+<ref name="opera-18"/>
+** Vivaldi (web browser)|Vivaldi 1.9+
+* Android (operating system)|Android
+** Google Chrome 28+ (enabled by default since 29)
+** Mozilla Firefox 24+<ref name="Firefox24"/>
+** Opera Mobile 12+
+* Chrome OS
+* Firefox OS
+* Blackberry 10
+* iOS 11
+**MobileSafari/WebKit
+*Tizen 3.0
+
+Support was not included in Internet Explorer prior to its final feature release in October 2013,<ref name="IE"/> but 3rd party plugins are available to add the support of WebRTC to IE and Safari for MacOS.<ref name="Priologic"/><ref name="Temasys"/> At Apple Worldwide Developers Conference|WWDC 2017, Apple announced Safari would get WebRTC support in Safari 11,<ref name="Safari11"/> and it was made available in release 32 of the Safari Technology Preview.<ref name="Safari-TP"/>
+
+ Concerns 
+Main|DNS leak
+In January 2015, TorrentFreak reported a serious security flaw in browsers that support WebRTC, saying that it compromised the security of Virtual private network|VPN tunnels, by exposing the true IP address of a user.<ref name="IPleak"/> The IP address read requests are not visible in the browser's developer console, and they are not blocked by most ad blocking/Internet privacy|privacy/Internet security|security add-ons, enabling online tracking by advertisers and other entities despite precautions<ref name="webrtc-ips"/> (however the uBlock Origin add-on can fix this problem).<ref>cite web |title=Prevent WebRTC from leaking local IP address |author=Raymond Hill |work=uBlock Origin documentation |url=https://github.com/gorhill/uBlock/wiki/Prevent-WebRTC-from-leaking-local-IP-address |date=26 March 2016 |accessdate=1 Sep 2016</ref>
+
+ See also 
+* Global IP Solutions (GIPS)
+* Real-time Transport Protocol (RTP)
+* Session Description Protocol (SDP)
+* WebRTC Gateway
+
+ References 
+Reflist|30em|refs=
+<ref name="revolutionizing">[http://blogs.trilogy-lte.com/post/77427158750/how-webrtc-is-revolutionizing-telephony How WebRTC Is Revolutionizing Telephony]. Blogs.trilogy-lte.com (2014-02-21). Retrieved on 2014-04-11.</ref>
+
+<ref name="code">cite web|url=http://lists.w3.org/Archives/Public/public-webrtc/2011May/0022.html |title=Google release of WebRTC source code |author=Harald Alvestrand |date=2011-05-31 |publisher=public-webrtc@w3.org |accessdate=2012-09-12</ref>
+
+<ref name="rtcweb charter">[http://datatracker.ietf.org/wg/rtcweb/charter/ Charter of the Real-Time Communication in WEB-browsers (rtcweb) working group]</ref>
+
+<ref name="w3">cite web|url=http://www.w3.org/TR/webrtc/ |title=WebRTC 1.0: Real-time Communication Between Browsers |publisher=W3.org |date= |accessdate=2012-09-12</ref>
+
+<ref name="1.0">cite web|url=http://dev.w3.org/2011/webrtc/editor/webrtc.html |title=WebRTC 1.0: Real-time Communication Between Browsers |publisher=Dev.w3.org |date= |accessdate=2012-09-12</ref>
+
+<ref name="whatwg">cite web|url=http://www.whatwg.org/specs/web-apps/current-work/multipage/introduction.html#history-1 |title=Introduction — HTML Standard |publisher=Whatwg.org |date= |accessdate=2012-09-12</ref>
+
+<ref name="ericsson">cite web|url=http://www.ericsson.com/research-blog/context-aware-communication/beyond-html5-peer-peer-conversational-video/ |title=Beyond HTML5: Peer-to-Peer Conversational Video |publisher=Labs.ericsson.com |date= |accessdate=2012-09-12</ref>
+
+<ref name="rtcweb">cite web|url=http://tools.ietf.org/wg/rtcweb/ |title=Rtcweb Status Pages |publisher=Tools.ietf.org |date= |accessdate=2012-09-12</ref>
+
+<ref name="data-protocol-00">cite web|url=http://tools.ietf.org/html/draft-jesup-rtcweb-data-protocol-00 |title=draft-jesup-rtcweb-data-protocol-00 - WebRTC Data Channel Protocol |publisher=Tools.ietf.org |date= |accessdate=2012-09-12</ref>
+
+<ref name="getusermedia">cite web|url=http://www.w3.org/TR/mediacapture-streams/#dom-navigator-getusermedia |title=Media Capture and Streams: getUserMedia |publisher=W3C |date=2013-09-03 |accessdate=2014-01-15</ref>
+
+<ref name="rtcpeerconnection">cite web|url=http://www.w3.org/TR/webrtc/#rtcpeerconnection-interface |title=WebRTC: RTCPeerConnection Interface |publisher=W3C |date=2013-09-10 |accessdate=2014-01-15</ref>
+
+<ref name="rtcdatachannel">cite web|url=http://www.w3.org/TR/webrtc/#rtcdatachannel |title=WebRTC: RTCDataChannel |publisher=W3C |date=2013-09-10 |accessdate=2014-01-15</ref>
+
+<ref name="stats">cite web|url=https://w3c.github.io/webrtc-stats/webrtc-stats.html| title= Identifiers for WebRTC's Statistics API |publisher=W3C |date=2014-09-29 </ref>
+
+<!-- <ref name="rtcweb-audio-09">cite web|url=https://tools.ietf.org/html/draft-ietf-rtcweb-audio-09#section-3 |title=WebRTC Audio Codec and Processing Requirements draft-ietf-rtcweb-audio-09 |website=tools.ietf.org |date=2015-11-04 |accessdate=2015-11-08</ref> -->
+
+<ref name="ORTC">cite web|url=http://www.w3.org/community/ortc/|title=W3C ORTC (Object Real-time Communications) Community Group</ref>
+
+<ref name="edge">cite web | url=https://blogs.windows.com/msedgedev/2015/09/18/ortc-api-is-now-available-in-microsoft-edge/ | title=ORTC API is now available in Microsoft Edge | publisher=Microsoft </ref>
+
+<ref name="Firefox22">[https://www.mozilla.org/en-US/firefox/22.0/releasenotes/ Firefox Notes - Desktop]. Mozilla.org (2013-06-25). Retrieved on 2014-04-11.</ref>
+
+<ref name="opera-18">[http://blogs.opera.com/news/2013/11/opera-18/ Opera News]. blogs.opera.com (2013-11-19). Retrieved on 2015-09-17.</ref>
+
+<ref name="Firefox24">[https://www.mozilla.org/en-US/mobile/24.0/releasenotes/ Firefox Notes - Desktop]. Mozilla.org (2013-09-17). Retrieved on 2014-08-04.</ref>
+
+<ref name="IE">cite web | url=https://status.modern.ie/webrtcwebrtcv10api?term=WebRTC |deadurl=yes |archiveurl=https://web.archive.org/web/20150504092553/https://status.modern.ie/webrtcwebrtcv10api?term=WebRTC |archivedate=2015-05-04 | title=Internet Explorer Web Platform Status and Roadmap | publisher=Microsoft | accessdate=7 September 2014</ref>
+
+<ref name="Priologic">cite web |url=http://www.easyrtc.com/news/?a=37af688dfd72da30a2ccfd839a9a3d24 |deadurl=yes |archiveurl=https://web.archive.org/web/20140626033329/http://easyrtc.com/news/?a=37af688dfd72da30a2ccfd839a9a3d24 |archivedate=2014-06-26 |title=Priologic Releases First Open Source WebRTC Plugin for Internet Explorer |date=2014-06-10</ref>
+
+<ref name="Temasys">cite press release |url=http://www.prweb.com/releases/2014/05/prweb11844308.htm |title=Temasys Plugin Supports webRTC in Internet Explorer and Apple Safari, on Desktops |date=2014-05-12 |first=Charles |last=Wilcox |publisher=Temasys Communications Pte Ltd |agency=PRWeb</ref>
+
+<ref name="Safari11">cite web | url=https://developer.apple.com/library/content/releasenotes/General/WhatsNewInSafari/Safari_11_0/Safari_11_0.html | title=Safari 11.0 | publisher=Apple Inc. | accessdate=6 June 2017</ref>
+
+<ref name="IPleak">[https://torrentfreak.com/huge-security-flaw-leaks-vpn-users-real-ip-addresses-150130/ Huge Security Flaw Leaks VPN Users’ Real IP-addresses] TorrentFreak.com (2015-01-30). Retrieved on 2015-02-21.</ref>
+
+<ref name="webrtc-ips">[https://github.com/diafygi/webrtc-ips STUN IP Address requests for WebRTC] Retrieved on 2015-02-21.</ref>
+<ref name="Safari-TP">cite web|title=Safari Technology Preview Release Notes|url=https://developer.apple.com/safari/technology-preview/release-notes/|accessdate=12 June 2017</ref>
+
+
+ Further reading 
+* cite IETF |title=Additional WebRTC Audio Codecs for Interoperability |rfc=7875 |editor1-last=Proust |editor1-first=S. |date=May 2016 |publisher=Internet Engineering Task Force|IETF |accessdate=2016-10-12
+* cite IETF |title=WebRTC Audio Codec and Processing Requirements |rfc=7874 |last1=Valin |first1=J. M. |last2=Bran |first2=C. |date=May 2016 |publisher=Internet Engineering Task Force|IETF |accessdate=2016-10-12
+* cite IETF |title=WebRTC Video Processing and Codec Requirements |rfc=7742 |last1=Roach |first1=A. B. |date=March 2016 |publisher=Internet Engineering Task Force|IETF |accessdate=2016-10-12
+* cite IETF |title=Session Traversal Utilities for NAT (STUN) Usage for Consent Freshness |rfc=7675 |last1=Perumal |first1=M. |last2=Wing |first2=D. |last3=Ravindranath |first3=R. |last4=Reddy |first4=T. |last5=Thomson |first5=M. |date=October 2015 |publisher=Internet Engineering Task Force|IETF |accessdate=2016-10-12
+* cite IETF |title=Web Real-Time Communication Use Cases and Requirements |rfc=7478 |last1=Holmberg |first1=C. |last2=Hakansson |first2=S. |last3=Eriksson |first3=G. |date=March 2015 |publisher=Internet Engineering Task Force|IETF |accessdate=2016-10-12
+
+ External links 
+* official website
+* [http://www.w3.org/2011/04/webrtc/ W3C Web Real-Time Communications Working Group]
+* [https://tools.ietf.org/wg/rtcweb/ IETF Real-Time Communication in WEB-browsers (rtcweb) Working Group]
+* [http://www.html5rocks.com/en/tutorials/webrtc/basics/ Getting Started With WebRTC]
+* [http://knowledge.santanu.net/what-is-webrtc-current-scenario-and-why-we-should-follow/ WebRTC Interest and History]
+* [http://www.frafos.com/wp-content/uploads/2014/11/FRAFOS_WebRTC_Deployment.pdf WebRTC:How and Why?]
+* [https://diafygi.github.io/webrtc-ips/ WebRTC: IP Address Exposure Demo]
+* [https://github.com/webrtc/apprtc  Video chat demo app based on WebRTC]
+
+Web browsers|fsp
+Web interfaces
+
+Category:Software using the BSD license
+Category:Web development
+Category:Web standards
+Category:Peer-to-peer

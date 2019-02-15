@@ -1,0 +1,132 @@
+Opportunistic encryption (OE) refers to any system that, when connecting to another system, attempts to Encryption|encrypt the communications channel, otherwise falling back to unencrypted communications. This method requires no pre-arrangement between the two systems.
+
+Opportunistic encryption can be used to combat passive wiretapping.<ref>Cite web
+ |last= Gilmore
+ |first= John
+ |authorlink= John Gilmore (activist)
+ |title= FreeS/WAN Project: History and Politics
+ |date= 2003-05-13
+ |url= http://www.freeswan.org/history.html
+ |accessdate= 2007-11-24
+</ref> (An ''active'' wiretapper, on the other hand, can disrupt encryption negotiation to either force an unencrypted channel or perform a man-in-the-middle attack on the encrypted link.) It does not provide a strong level of security as authentication may be difficult to establish and secure communications are not mandatory.  However, it does make the encryption of most Internet traffic easy to implement, which removes a significant impediment to the mass adoption of Internet traffic security.
+
+Opportunistic encryption on the Internet is described in IETF RFC|4322 "Opportunistic Encryption using the Internet Key Exchange (IKE)" and another version in IETF RFC|7435 "Opportunistic Security: Some Protection Most of the Time".
+
+Routers
+The FreeS/WAN project was one of the early proponents of OE.<ref>[https://nohats.ca/wordpress/blog/2013/09/12/history-and-implementation-status-of-opportunistic-encryption-for-ipsec/ History of OE]</ref> The effort is continued by the former freeswan developers now working on Libreswan. libreswan aims to support different authentication hooks for Opportunistic Encryption with IPsec. Version 3.16 released in December 2015 has support for Opportunistic IPsec using AUTH-NULL<ref>[https://libreswan.org/wiki/HOWTO:_Opportunistic_IPsec Opportunistic IPsec using AUTH-NULL]</ref> which is based on . The Libreswan Project is currently working on (forward) DNSSEC and Kerberos support for Opportunistic IPsec.
+
+Openswan has also been ported to the OpenWrt project.<ref>Cite web
+ |last=
+ |first=
+ |authorlink=
+ |coauthors=
+ |title= IPSec Howto
+ |work=
+ |publisher= OpenWrt Community wiki
+ |date=
+ |url= http://wiki.openwrt.org/oldwiki/ipsec
+ |format=
+ |doi=
+ |accessdate= 2007-10-24
+</ref> Openswan used reverse domain name system|DNS records to facilitate the key exchange between the systems.
+
+It is possible to use OpenVPN and networking protocols to set up dynamic VPN links which act similar to OE for specific domains.<ref>Cite web
+ |last=
+ |first=
+ |authorlink=
+ |coauthors=
+ |title= Creating a Dynamic VPN
+ |work=
+ |publisher=
+ |date=
+ |url= http://www.wisq.net/docs/ospf-vpn
+ |format=
+ |doi=
+ |accessdate= 2007-10-24
+ |archiveurl= https://web.archive.org/web/20070928194026/http://www.wisq.net/docs/ospf-vpn <!-- Bot retrieved archive -->
+ |archivedate= 2007-09-28
+</ref>
+
+Unix and unix-like systems
+The FreeS/WAN and forks such as Openswan and strongSwan offer VPNs which can also operate in OE mode using IPsec based technology. Obfuscated TCP is another method of implementing OE.
+
+Windows OS
+Windows platforms have an implementation of OE installed by default. This method uses IPsec to secure the traffic and is a simple procedure to turn on.  It is accessed via the Microsoft Management Console|MMC and "IP Security Policies on Local Computer" and then editing the properties to assign the "(Request Security)" policy.<ref>[http://slashdot.org/~cronscript/journal/131319 (Request Security)]</ref> This will turn on optional IPsec in a Kerberos (protocol)|Kerberos environment.
+
+In a non-Kerberos environment, a certificate from a certificate authority (CA) which is common to any system with which you communicate securely is required.
+
+Many systems also have problems when either side is behind a Network Address Translation|NAT. This problem is addressed by NAT Traversal (NAT-T) and is accomplished by adding a DWORD of 2 to the registry: Windows Registry#HKEY LOCAL MACHINE|HKLM\SYSTEM\CurrentControlSet\Services\IPsec\AssumeUDPEncapsulationContextOnSendRule
+<ref>Cite web
+ |last=
+ |first=
+ |authorlink=
+ |coauthors=
+ |title= L2TP/IPsec NAT-T update for Windows XP and Windows 2000
+ |work=
+ |publisher= Microsoft
+ |date=
+ |url= http://support.microsoft.com/kb/818043
+ |format=
+ |doi=
+ |accessdate= 2007-10-24
+</ref> Using the filtering options provided in MMC, it is possible to tailor the networking to require, request or permit traffic to various domains and protocols to use encryption.
+
+E-mail
+Opportunistic encryption can also be used for specific traffic like e-mail using the SMTP STARTTLS extension for relaying messages across the Internet, or the Internet Message Access Protocol (IMAP) STARTTLS extension for reading e-mail. With this implementation, it is not necessary to obtain a certificate from a certificate authority, as a self-signed certificate can be used.
+* RFC 2595 Using TLS with IMAP, POP3 and ACAP
+* RFC 3207 SMTP Service Extension for Secure SMTP over TLS
+* [http://www.postfix.org/TLS_README.html#server_tls STARTTLS and postfix]
+* [http://support.microsoft.com/default.aspx?scid=kb;en-us;829721 STARTTLS and Exchange]
+
+Many systems employ a variant with third-party add-ons to traditional email packages by first attempting to obtain an encryption key and if unsuccessful, then sending the email in the clear. Pretty Good Privacy|PGP, Pretty_Easy_privacy|p≡p, Hushmail, and Ciphire, among others can all be set up to work in this mode.
+
+In practice, STARTTLS in SMTP is often deployed with self-signed certificates,<ref>[http://mdoc.su/o56/starttls]</ref> which represents a minimal one-time task for a system administrator, and results in most email traffic being opportunistically encrypted.<ref> cite web|url=https://m.facebook.com/notes/protect-the-graph/the-current-state-of-smtp-starttls-deployment/1453015901605223/ | title=The Current State of SMTP STARTTLS Deployment|publisher=Facebook|date=May 13, 2014</ref>
+
+VoIP
+Some Voice over IP (VoIP) solutions provide for painless encryption of voice traffic when possible. Some versions of the Sipura and Linksys lines of analog telephony adapters (ATA) include a hardware implementation of Secure Real-time Transport Protocol|SRTP with the installation of a certificate from Voxilla, a VoIP information site. When the call is placed an attempt is made to use SRTP, if successful a series of tones are played into the handset, if not the call proceeds without using encryption. Skype and Amicima use only secure connections and Gizmo5 attempts a secure connection between its clients. Phil Zimmermann, Alan Johnston, and Jon Callas have proposed a new VoIP encryption protocol called ZRTP.<ref>[//tools.ietf.org/html/draft-zimmermann-avt-zrtp-01 ZRTP: Extensions to RTP for Diffie-Hellman Key Agreement for SRTP]</ref> They have an implementation of it called Zfone whose source and compiled binaries are available.
+
+Websites
+For encrypting WWW/HTTP connections, HTTPS is typically used, which requires strict encryption and has significant administrative costs, both in terms of initial setup and continued maintenance costs for the website operator. Most browsers verify the webserver's identity to make sure that an SSL certificate is signed by a trusted certificate authority (which the administrator typically has to pay for) and has not expired, usually requiring the website operator to manually change the certificate every one or two years. The easiest way to enable some sort of opportunistic website encryption is by using self-signed certificates, but this causes Web browser|browsers to display a warning each time the website is visited unless the user manually marks the website's certificate as trusted. Because unencrypted websites do not currently display any such warnings, the use of self-signed certificates is not well received.
+
+In 2015, Mozilla started to roll out opportunistic encryption in Firefox version 37.<ref>cite news
+ | url=http://thehackernews.com/2015/04/firefox-opportunistic-encryption.html
+ | title=Firefox 37 arrives with Opportunistic Encryption support
+ | work=Hacker News
+ | date=2015-04-04
+ | accessdate=2015-04-07 
+</ref> This was quickly rolled back (in update 37.0.1) due to a serious vulnerability that could bypass SSL certificate verification. 
+<ref>cite news
+ | url=http://www.eweek.com/security/mozilla-dials-back-on-firefox-opportunistic-encryption.html
+ | title=Mozilla Dials Back on Firefox Opportunistic Encryption
+ | work=eWeek
+ | date=2015-04-06
+ | accessdate=2015-05-08 
+</ref> 
+
+Browser extensions like HTTPS Everywhere and HTTPSfinder<ref>[https://code.google.com/p/https-finder/HTTPSfinder]</ref> find and automatically switch the connection to HTTPS when possible.
+
+Several proposals were available for true, seamless opportunistic encryption of HTTP/2 protocol.<ref>[//tools.ietf.org/html/draft-hoffman-httpbis-minimal-unauth-enc-01 Minimal Unauthenticated Encryption (MUE) for HTTP/2]</ref> These proposals were later rejected. Poul-Henning Kamp, lead developer of Varnish (software)|Varnish and a senior FreeBSD kernel developer, has criticized the IETF for following a particular political agenda with HTTP/2 for not implementing opportunistic encryption in the standard.<ref>Cite journal |url=http://queue.acm.org/detail.cfm?id=2716278 |title=HTTP/2.0 — The IETF is Phoning It In (Bad protocol, bad politics) |date=2015-01-06 |accessdate=2015-01-12 |publisher=ACM Queue |first=Poul-Henning |last=Kamp |author-link=Poul-Henning Kamp</ref><ref>Cite mailing list |mailinglist=ietf-http-wg@w3.org |url=https://lists.w3.org/Archives/Public/ietf-http-wg/2015JanMar/0043.html |title=Re: Last Call: &lt;draft-ietf-httpbis-http2-16.txt&gt; (Hypertext Transfer Protocol version 2) to Proposed Standard |date=2015-01-07 |accessdate=2015-01-12 |first=Poul-Henning |last=Kamp |author-link=Poul-Henning Kamp</ref>
+
+ Weaknesses 
+STARTTLS implementations often used with SMTP are vulnerable to STRIPTLS attacks when subject to active wiretapping.
+
+See also
+Portal|Cryptography
+* John Gilmore (activist)|John Gilmore
+* Multi-factor authentication
+* Opportunistic Wireless Encryption (OWE)
+* tcpcrypt
+
+References
+Reflist|30em
+
+External links
+* [http://www.simson.net/clips/academic/2003.DGO.GarfinkelCrypto.pdf Enabling Email Confidentiality through the use of Opportunistic Encryption] by Simson Garfinkel of the MIT Laboratory for Computer Science, May 2003
+* [http://slashdot.org/~cronscript/journal/131319 Windows OE HOWTO]
+* [http://support.microsoft.com/kb/818043 Windows KB article on NAT-T and DH2048]
+* [//tools.ietf.org/html/rfc4322 RFC 4322 - Opportunistic Encryption using the Internet Key Exchange (IKE)]
+* [//tools.ietf.org/html/rfc7258 RFC 7258 - Pervasive Monitoring Is an Attack]
+
+Category:Cryptographic software
+Category:Internet Protocol based network software
+Category:Internet privacy

@@ -1,0 +1,211 @@
+Infobox software
+| name = SELinux
+| title = 
+| logo = SELinux logo.svg
+| logo caption = 
+| logo_size = 210x232px
+| logo_alt = 
+| screenshot = SELinux admin.png
+| caption = SELinux administrator GUI in Fedora (operating system)|Fedora v8
+| screenshot_size = 
+| screenshot_alt = 
+| collapsible = 
+| author = NSA and Red Hat
+| developer = Red Hat
+| released = Start date and age|2000|12|22|<ref>cite web |title=Security-enhanced Linux available at NSA site - MARC |url=https://marc.info/?l=linux-kernel&m=97749381725894 |website=MARC (archive)|MARC |accessdate=24 December 2018</ref>
+| discontinued = 
+| latest release version = 2.8
+| latest release date = Start date and age|2018|05|24|df=yes<ref>cite web |url=https://github.com/SELinuxProject/selinux/wiki/Releases |title=SELinux userspace release 20180524 / 2.8 |publisher=SELinux Project |date=2018-05-24 |accessdate=2018-11-26</ref>
+| latest preview version = 
+| latest preview date = <!-- Start date and age|YYYY|MM|DD|df=yes/no -->
+| programming language = C (programming language)|C
+| operating system = Linux
+| platform = 
+| size = 
+| language = 
+| language count = <!-- DO NOT include this parameter unless you know what it does -->
+| language footnote = 
+| genre = Security, Linux Security Modules (LSM)
+| license = GNU GPL
+| website = URL|https://selinuxproject.org, URL|https://nsa.gov/What-We-Do/Research/SELinux/
+| standard = 
+| AsOf = 
+
+
+Security-Enhanced Linux (SELinux)  is a Linux kernel Linux Security Modules|security module that provides a mechanism for supporting access control security policies, including mandatory access controls (MAC).
+
+SELinux is a set of kernel modifications and user-space tools that have been added to various Linux distributions. Its software architecture|architecture strives to separate enforcement of security decisions from the security policy itself, and streamlines the amount of software involved with security policy enforcement.<ref>cite web|url=https://www.nsa.gov/what-we-do/research/selinux/faqs.shtml |title=SELinux Frequently Asked Questions (FAQ) - NSA/CSS |publisher=National Security Agency |date= |accessdate=2013-02-06</ref><ref>cite web |first=Peter |last=Loscocco |first2=Stephen |last2=Smalley |date=February 2001 |title=Integrating Flexible Support for Security Policies into the Linux Operating System |url=https://www.nsa.gov/resources/everyone/digital-media-center/publications/research-papers/assets/files/flexible-support-for-security-policies-into-linux-feb2001-report.pdf </ref> The key concepts underlying SELinux can be traced to several earlier projects by the United States National Security Agency (NSA).
+
+ Overview 
+From NSA Security-enhanced Linux Team:<ref>cite web |url=https://www.nsa.gov/what-we-do/research/selinux/ |title=Security-Enhanced Linux - NSA/CSS |publisher=National Security Agency |date=2009-01-15 |accessdate=2013-02-06</ref>
+
+<blockquote>NSA Security-Enhanced Linux is a set of patch (computing)|patches to the Linux kernel and utilities to provide a strong, flexible, mandatory access control (MAC) architecture into the major subsystems of the kernel. It provides an enhanced mechanism to enforce the separation of information based on confidentiality and integrity requirements, which allows threats of tampering, and bypassing of application security mechanisms, to be addressed and enables the confinement of damage that can be caused by malicious or flawed applications. It includes a set of sample security policy configuration files designed to meet common, general-purpose security goals.</blockquote>
+
+A Linux kernel integrating SELinux enforces mandatory access control policies that confine user programs and system services, as well as access to files and network resources. Limiting privilege to the minimum required to work reduces or eliminates the ability of these programs and daemon (computing)|daemons to cause harm if faulty or compromised (for example via buffer overflows or misconfigurations). This confinement mechanism operates independently of the traditional Linux (discretionary access control|discretionary) access control mechanisms. It has no concept of a "root" superuser, and does not share the well-known shortcomings of the traditional Linux security mechanisms, such as a dependence on setuid/setgid binaries.
+
+The security of an "unmodified" Linux system (a system without SELinux) depends on the correctness of the kernel, of all the privileged applications, and of each of their configurations. A fault in any one of these areas may allow the compromise of the entire system. In contrast, the security of a "modified" system (based on an SELinux kernel) depends primarily on the correctness of the kernel and its security-policy configuration. While problems with the correctness or configuration of applications may allow the limited compromise of individual user programs and system daemons, they do not necessarily pose a threat to the security of other user programs and system daemons or to the security of the system as a whole.
+
+From a purist perspective, SELinux provides a hybrid of concepts and capabilities drawn from mandatory access controls, mandatory integrity controls, role-based access control (RBAC), and type enforcement architecture. Third-party tools enable one to build a variety of security policies.
+
+ History 
+
+The earliest work directed toward standardizing an approach providing mandatory and discretionary access controls (MAC and DAC) within a UNIX (more precisely, POSIX) computing environment can be attributed to the National Security Agency's Trusted UNIX (TRUSIX) Working Group, which met from 1987 to 1991 and published one Rainbow Series|Rainbow Book (#020A), and produced a formal model and associated evaluation evidence prototype (#020B) that was ultimately unpublished.
+
+SELinux was designed to demonstrate the value of mandatory access controls to the Linux community and how such controls could be added to Linux. Originally, the patches that make up SELinux had to be explicitly applied to the Linux kernel source; SELinux was merged into the Linux kernel mainline in the 2.6 series of the Linux kernel.
+
+The NSA, the original primary developer of SELinux, released the first version to the Open-source software|open source development community under the GNU GPL on December 22, 2000.<ref>
+Compare
+cite web
+|url         = https://www.nsa.gov/news-features/press-room/press-releases/2001/se-linux.shtml
+|title       = National Security Agency Shares Security Enhancements to Linux
+|date        = 2001-01-02
+|work        = NSA Press Release
+|publisher   = National Security Agency Central Security Service
+|location    = Fort George G. Meade, Maryland
+|accessdate  = 2011-11-17
+|quote       = The NSA is pleased to announce that it has developed, and is making available to the public, a prototype version of a security-enhanced Linux operating system.
+
+</ref>
+The software was merged into the mainline Linux kernel 2.6.0-test3, released on 8 August 2003. Other significant contributors include Red Hat, Network Associates, Secure Computing Corporation, Tresys Technology, and Trusted Computer Solutions. Experimental ports of the FLASK/TE implementation have been made available via the TrustedBSD Project for the FreeBSD and Darwin (operating system)|Darwin operating systems.
+
+Security-Enhanced Linux implements the FLASK|Flux Advanced Security Kernel (FLASK). Such a kernel contains architectural components prototyped in the Fluke operating system. These provide general support for enforcing many kinds of mandatory access control policies, including those based on the concepts of type enforcement, role-based access control, and multilevel security. FLASK, in turn, was based on DTOS, a Mach-derived Distributed Trusted Operating System, as well as on Trusted Mach, a research project from Trusted Information Systems that had an influence on the design and implementation of DTOS.
+
+ Users, policies and security contexts 
+SELinux users and roles do not have to be related to the actual system users and roles. For every current user or process, SELinux assigns a three string context consisting of a username, role, and domain (or type). This system is more flexible than normally required: as a rule, most of the real users share the same SELinux username, and all access control is managed through the third tag, the domain. The circumstances under which a process is allowed into a certain domain must be configured in the policies. The command <code>runcon</code> allows for the launching of a process into an explicitly specified context (user, role, and domain), but SELinux may deny the transition if it is not approved by the policy.
+
+Files, network ports, and other hardware also have an SELinux context, consisting of a name, role (seldom used), and type. In the case of file systems, mapping between files and the security contexts is called labeling. The labeling is defined in policy files but can also be manually adjusted without changing the policies. Hardware types are quite detailed, for instance, <code>bin_t</code> (all files in the folder /bin) or <code>postgresql_port_t</code> (PostgreSQL port, 5432). The SELinux context for a remote file system can be specified explicitly at mount time.
+
+SELinux adds the <code>-Z</code> switch to the shell commands <code>ls</code>, <code>ps</code>, and some others, allowing the security context of the files or process to be seen.
+
+Typical policy rules consist of explicit permissions, for example, which domains the user must possess to perform certain actions with the given target (read, execute, or, in case of network port, bind or connect), and so on. More complex mappings are also possible, involving roles and security levels.
+
+A typical policy consists of a mapping (labeling) file, a rule file, and an interface file, that define the domain transition. These three files must be compiled together with the SELinux tools to produce a single policy file. The resulting policy file can be loaded into the kernel to make it active. Loading and unloading policies does not require a reboot. The policy files are either hand written or can be generated from the more user friendly SELinux management tool. They are normally tested in permissive mode first, where violations are logged but allowed. The <code>audit2allow</code> tool can be used later to produce additional rules that extend the policy to allow all legitimate activities of the application being confined.
+
+ Anchor|AVCFeatures 
+SELinux features include:
+* Clean separation of policy from enforcement
+* Well-defined policy interfaces
+* Support for applications querying the policy and enforcing access control (for example, Cron|crond running jobs in the correct context)
+* Independence of specific policies and policy languages
+* Independence of specific security-label formats and contents
+* Individual labels and controls for kernel objects and services
+* Support for policy changes
+* Separate measures for protecting system integrity (domain-type) and data confidentiality (multilevel security)
+* Flexible policy
+* Controls over process initialization and inheritance, and program execution
+* Controls over file systems, directories, files, and open file descriptors
+* Controls over sockets, messages, and network interfaces
+* Controls over the use of "capabilities"
+* Cached information on access-decisions via the ''Access Vector Cache'' (AVC)<ref>
+cite book
+| author     = Fedora Documentation Project
+| title      = Fedora 13 Security-Enhanced Linux User Guide
+| url        = https://books.google.com/books?id=feDeO4IglRkC
+| accessdate = 2012-02-22
+| year       = 2010
+| publisher  = Fultus Corporation
+| isbn       = 978-1-59682-215-3
+| page       = 18
+| quote      = SELinux decisions, such as allowing or disallowing access, are cached. This cache is known as the Access Vector Cache (AVC). Caching decisions decreases how often SELinux rules need to checked, which increases performance.
+
+</ref>
+
+ Implementations 
+SELinux has been implemented in Android (operating system)|Android since version 4.3.<ref>cite web | title=Security-Enhanced Linux in Android | accessdate=2016-01-31 | publisher=Android Open Source Project | url=https://source.android.com/security/selinux/</ref>
+
+Among free community-supported GNU/Linux distributions, Fedora (operating system)|Fedora was one of the earliest adopters, including support for it by default since Fedora Core 2. Other distributions include support for it such as Debian as of the Stretch release<ref>cite web|url=https://wiki.debian.org/SELinux|title=SELinux|work=debian.org</ref> and Ubuntu (operating system)|Ubuntu as of 8.04 Hardy Heron.<ref>cite web|url=https://ubuntu-tutorials.com/2008/03/18/how-to-install-selinux-on-ubuntu-804-hardy-heron/|title=How To Install SELinux on Ubuntu 8.04 "Hardy Heron"|work=Ubuntu Tutorials</ref> As of version 11.1, SUSE Linux|openSUSE contains SELinux "basic enablement".<ref>cite web|url=https://news.opensuse.org/2008/08/20/opensuse-to-add-selinux-basic-enablement-in-111/ |title=openSUSE News|work=openSUSE News</ref> SUSE Linux Enterprise 11 features SELinux as a "technology preview".<ref>cite web|url=https://www.novell.com/linux/releasenotes/x86_64/SUSE-SLED/11/#02 |title=Release Notes for SUSE Linux Enterprise Desktop 11 |publisher=Novell |date= |accessdate=2013-02-06</ref>
+
+SELinux is popular in systems based on linux containers, such as Container Linux by CoreOS|CoreOS Container Linux and rkt.<ref>cite web|url=https://coreos.com/os/docs/latest/selinux.html |title=SELinux on CoreOS|work=CoreOS Docs</ref> It is useful as an additional security control to help further enforce isolation between deployed containers and their host.
+
+SELinux is available as part of Red Hat Enterprise Linux (RHEL) version 4 and all future releases. This presence is also reflected in corresponding versions of CentOS and Scientific Linux. The supported policy in RHEL4 is targeted policy which aims for maximum ease of use and thus is not as restrictive as it might be. Future versions of RHEL are planned to have more targets in the targeted policy which will mean more restrictive policies.
+
+ Use scenarios 
+SELinux can potentially control which activities a system allows each user, process, and daemon, with very precise specifications. It is used to confine Daemon (computer software)|daemons such as database engines or web servers that have clearly defined data access and activity rights. This limits potential harm from a confined daemon that becomes compromised.
+
+Command-line utilities include:<ref>cite web|url=https://fedoraproject.org/wiki/SELinux/Commands |title=SELinux/Commands - FedoraProject |accessdate=2015-11-25</ref>
+<code>chcon</code>,<ref>cite web |url=http://linuxcommand.org/man_pages/chcon1.html |archive-url=https://web.archive.org/web/20041024211853/http://linuxcommand.org/man_pages/chcon1.html |dead-url=yes |archive-date=2004-10-24 |title=chcon |publisher=Linuxcommand.org |date= |accessdate=2013-02-06 </ref>
+<code>restorecon</code>,<ref>cite web|url=http://linux.die.net/man/8/restorecon |title=restorecon(8) - Linux man page |publisher=Linux.die.net |date= |accessdate=2013-02-06</ref>
+<code>restorecond</code>,<ref>cite web|url=http://linux.die.net/man/8/restorecond |title=restorecond(8) - Linux man page |publisher=Linux.die.net |date= |accessdate=2013-02-06</ref>
+<code>runcon</code>,<ref>cite web|url=http://linux.die.net/man/1/runcon |title=runcon(1) - Linux man page |publisher=Linux.die.net |date= |accessdate=2013-02-06</ref>
+<code>secon</code>,<ref>cite web|url=http://linux.die.net/man/1/secon |title=secon(1) - Linux man page |publisher=Linux.die.net |date= |accessdate=2013-02-06</ref>
+<code>fixfiles</code>,<ref>cite web|url=http://linux.die.net/man/8/fixfiles |title=fixfiles(8): fix file SELinux security contexts - Linux man page |publisher=Linux.die.net |date= |accessdate=2013-02-06</ref>
+<code>setfiles</code>,<ref name="auto">cite web|url=http://linux.die.net/man/8/setfiles |title=setfiles(8): set file SELinux security contexts - Linux man page |publisher=Linux.die.net |date= |accessdate=2013-02-06</ref>
+<code>load_policy</code>,<ref>cite web|url=http://linux.die.net/man/8/load_policy |title=load_policy(8) - Linux man page |publisher=Linux.die.net |date= |accessdate=2013-02-06</ref>
+<code>booleans</code>,<ref>cite web|url=http://linux.die.net/man/8/booleans |title=booleans(8) - Linux man page |publisher=Linux.die.net |date= |accessdate=2013-02-06</ref>
+<code>getsebool</code>,<ref>cite web|url=http://linux.die.net/man/8/getsebool |title=getsebool(8): SELinux boolean value - Linux man page |publisher=Linux.die.net |date= |accessdate=2013-02-06</ref>
+<code>setsebool</code>,<ref>cite web|url=http://linux.die.net/man/8/setsebool |title=setsebool(8): set SELinux boolean value - Linux man page |publisher=Linux.die.net |date= |accessdate=2013-02-06</ref>
+<code>togglesebool</code><ref>cite web|url=http://linux.die.net/man/8/togglesebool |title=togglesebool(8) - Linux man page |publisher=Linux.die.net |date= |accessdate=2013-02-06</ref>
+<code>setenforce</code>,
+<code>semodule</code>,
+<code>postfix-nochroot</code>,
+<code>check-selinux-installation</code>,
+<code>semodule_package</code>,
+<code>checkmodule</code>,
+<code>selinux-config-enforcing</code>,<ref>cite web |url=http://manpages.ubuntu.com/manpages/natty/man8/selinux-config-enforcing.8.html |title=Ubuntu Manpage: selinux-config-enforcing - change /etc/selinux/config to set enforcing |publisher=Canonical Ltd |date= |accessdate=2013-02-06 |deadurl=yes |archiveurl=https://web.archive.org/web/20121220020432/http://manpages.ubuntu.com/manpages/natty/man8/selinux-config-enforcing.8.html |archivedate=2012-12-20 |df= </ref>
+<code>selinuxenabled</code>,<ref>cite web |url=http://manpages.ubuntu.com/manpages/natty/man1/selinuxenabled.1.html |title=Ubuntu Manpage: selinuxenabled - tool to be used within shell scripts to determine if |publisher=Canonical Ltd |date= |accessdate=2013-02-06 |deadurl=yes |archiveurl=https://web.archive.org/web/20130209033811/http://manpages.ubuntu.com/manpages/natty/man1/selinuxenabled.1.html |archivedate=2013-02-09 |df= </ref>
+and <code>selinux-policy-upgrade</code><ref>cite web |url=http://manpages.ubuntu.com/manpages/natty/man8/selinux-policy-upgrade.8.html |title=Ubuntu Manpage: selinux-policy-upgrade - upgrade the modules in the SE Linux policy |publisher=Canonical Ltd |date= |accessdate=2013-02-06 |deadurl=yes |archiveurl=https://web.archive.org/web/20120404160143/http://manpages.ubuntu.com/manpages/natty/man8/selinux-policy-upgrade.8.html |archivedate=2012-04-04 |df= </ref>
+
+= Examples =
+To put SELinux into enforcing mode:
+:<code>$ sudo setenforce 1</code>
+To query the SELinux status:
+:<code>$ getenforce</code>
+
+ Comparison with AppArmor 
+SELinux represents one of several possible approaches to the problem of restricting the actions that installed software can take. Another popular alternative is called AppArmor and is available on SUSE Linux Enterprise Server (SLES), openSUSE, and List_of_Linux_distributions#Debian-based|Debian-based platforms. AppArmor was developed as a component to the now-defunct Immunix|Immunix Linux platform. Because AppArmor and SELinux differ radically from one another, they form distinct alternatives for software control. Whereas SELinux re-invents certain concepts to provide access to a more expressive set of policy choices, AppArmor was designed to be simple by extending the same administrative semantics used for Discretionary Access Control|DAC up to the mandatory access control level.
+
+There are several key differences:
+* One important difference is that AppArmor identifies file system objects by path name instead of inode. This means that, for example, a file that is inaccessible may become accessible under AppArmor when a hard link is created to it, while SELinux would deny access through the newly created hard link.
+** As a result, AppArmor can be said not to be a type enforcement system, as files are not assigned a type; instead, they are merely referenced in a configuration file.
+* SELinux and AppArmor also differ significantly in how they are administered and how they integrate into the system.<ref>cite web | url= https://www.suse.com/documentation/sles11/book_security/data/sect1_chapter_book_security.html |publisher= SUSE |series= Security Guide |work= SELinux |title= SELinux backgrounds </ref>
+* Since it endeavors to recreate traditional DAC controls with MAC-level enforcement, AppArmor's set of operations is also considerably smaller than those available under most SELinux implementations. For example, AppArmor's set of operations consist of: read, write, append, execute, lock, and link.<ref>cite web | url=http://manpages.ubuntu.com/manpages/hardy/man5/apparmor.d.5.html | title=apparmor.d - syntax of security profiles for AppArmor | deadurl=yes | archiveurl=https://web.archive.org/web/20131017094320/http://manpages.ubuntu.com/manpages/hardy/man5/apparmor.d.5.html | archivedate=2013-10-17 | df= </ref> Most SELinux implementations will support numbers of operations orders of magnitude more than that. For example, SELinux will usually support those same permissions, but also includes controls for mknod, binding to network sockets, implicit use of POSIX capabilities, loading and unloading kernel modules, various means of accessing shared memory, etc.
+* There are no controls in AppArmor for categorically bounding POSIX capabilities. Since the current implementation of capabilities contains no notion of a subject for the operation (only the actor and the operation itself) it is usually the job of the MAC layer to prevent privileged operations on files outside the actor's enforced realm of control (i.e. "Sandbox"). AppArmor can prevent its own policy from being altered, and prevent file systems from being mounted/unmounted, but does nothing to prevent users from stepping outside their approved realms of control.
+** For example, it may be deemed beneficial for help desk employees to change ownership or permissions on certain files even if they don't own them (for example, on a departmental file share). You obviously don't want to give the user(s) root on the box so you give them <code>CAP_FOWNER</code> or <code>CAP_DAC_OVERRIDE</code>. Under SELinux you (or your platform vendor) can configure SELinux to deny all capabilities to otherwise unconfined users, then create confined domains for the employee to be able to transition into after logging in, one that can exercise those capabilities, but only upon files of the appropriate type. Citation Needed|date=April 2017
+* There is no notion of multilevel security with AppArmor, thus there is no hard Bell–LaPadula model|BLP or Biba Model|Biba enforcement available. Citation Needed|date=April 2017.
+* AppArmor configuration is done using solely regular flat files. SELinux (by default in most implementations) uses a combination of flat files (used by administrators and developers to write human readable policy before it's compiled) and extended attributes.
+* SELinux supports the concept of a "remote policy server" (configurable via /etc/selinux/semanage.conf) as an alternative source for policy configuration. Central management of AppArmor is usually complicated considerably since administrators must decide between configuration deployment tools being run as root (to allow policy updates) or configured manually on each server.
+
+ Similar systems 
+See also|Samsung Knox
+
+Isolation of processes can also be accomplished by mechanisms such as Operating system-level virtualization|virtualization; the OLPC project, for example, in its first implementation<ref>cite web|url=http://wiki.laptop.org/go/Rainbow|title=Rainbow|work=laptop.org</ref> Sandbox (computer security)|sandboxed individual applications in lightweight Vservers.  Also, the NSA has adopted some of the SELinux concepts in Security-Enhanced Android (operating system)|Android.<ref>cite web |title=
+SELinux Related Work |work=NSA.gov |url=https://www.nsa.gov/what-we-do/research/selinux/related-work/ </ref>
+
+General Dynamics builds and distributes PitBull Trusted Computing Platform, a multilevel security enhancement for Red Hat Enterprise Linux.
+
+ See also 
+* Unix security
+* AppArmor
+* Grsecurity
+* RSBAC|Rule Set Based Access Control (RSBAC)
+* Simplified Mandatory Access Control Kernel
+* Solaris Trusted Extensions
+* TOMOYO Linux|Tomoyo
+* TrustedBSD
+* Qubes OS
+
+Portal bar|Computer security|Linux
+
+ References 
+Reflist|30em
+
+ External links 
+* Official website|https://selinuxproject.org/
+* NSA:
+** [https://www.nsa.gov/What-We-Do/Research/SELinux/FAQs/ SELinux FAQs]
+** [https://www.nsa.gov/what-we-do/research/selinux/ Security-Enhanced Linux] at NSA
+** [https://www.nsa.gov/what-we-do/research/selinux/mailing-list.shtml Mailing list]
+** cite web |url= https://www.nsa.gov/news-features/press-room/press-releases/2001/se-linux.shtml  |work= Press release |title= NSA shares security enhancements to Linux |date= Jan 2, 2001 
+* Github|SELinuxProject/selinux/wiki|SELinux
+* cite web |url= https://opensource.com/business/13/11/selinux-policy-guide |title= Visual how-to guide for SELinux policy enforcement |date= 13 Nov 2013 |first= Daniel J |last= Walsh |publisher= Opensource.com 
+
+Linux kernel
+Linux
+
+Authority control
+
+Category:Linux kernel features
+Category:Linux security software
+Category:National Security Agency
+Category:Red Hat software
+Category:Unix file system technology

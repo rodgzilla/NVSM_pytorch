@@ -1,0 +1,59 @@
+A cooperative storage cloud is a decentralized model of networked computer data storage|online storage where data is stored on multiple computers (Node (networking)|nodes), hosted by the participants cooperating in the cloud. For the cooperative scheme to be viable, the total storage contributed in aggregate must be at least equal to the amount of storage needed by end users.  However, some nodes may contribute less storage and some may contribute more.  There may be reward models to compensate the nodes contributing more.
+
+Unlike a traditional Cloud storage|storage cloud, a cooperative does not directly employ dedicated servers for the actual storage of the data, thereby eliminating the need for a significant dedicated hardware investment. Each node in the cooperative runs specialized software which communicates with a centralizedcn|date=April 2017 control and orchestration server, thereby allowing the node to both consume and contribute storage space to the cloud. The centralized control and orchestration server requires several orders of magnitude less resources (storage, computing power, and bandwidth) to operate, relative to the overall capacity of the cooperative.
+
+ Data security 
+Files hosted in the cloud are fragmented and Encryption|encrypted before leaving the local machine. They are then distributed randomly using a Load balancing (computing)|load balancing and geo-distribution algorithm to other nodes in the cooperative. Users can add an additional layer of Information security|security and reduce storage space by Data compression|compressing and encrypting files before they are copied to the cloud.
+
+ Data redundancy 
+In order to maintain data integrity and high availability across a relatively unreliable set of computers over a wide area network like the Internet, the source node will add some level of Data redundancy|redundancy to each Block (data storage)|data block.<ref name=computerworld/> This allows the system to recreate the entire block even if some nodes are temporarily unavailable (due to loss of network connectivity, the machine being powered off or a hardware failure).  The most storage and Bandwidth (computing)|bandwidth efficient forms of redundancy use Erasure code|erasure coding techniques like Reed-Solomon.  A simple, less CPU intensive but more expensive form of redundancy is duplicate copies.
+
+ Flexible contribution 
+Due to bandwidth or hardware constraints some nodes may not be able to contribute as much space as they consume in the cloud. On the other hand, nodes with large storage space and limited or no bandwidth constraints may contribute more than they consume, thereby the cooperative can stay in balance.
+
+ Examples 
+The University of California's OceanStore project, MIT's Chord_(peer-to-peer)|Chord, is a non-commercial example.<ref name=computerworld/>
+
+Sia is a fully distributed system using a Blockchain (database)|blockchain where a cryptocurrency is exchanged for storage, and a Daemon (computing)|daemon that can act both as a file host and as a "renter" of storage, using Merkle tree|Merkle trees to provide strong guarantees that hosts will only get paid if they successfully hold data for the duration of a "storage contract".<ref>Cite web
+| url = https://bitcoinmagazine.com/articles/sia-launches-decentralized-blockchain-based-storage-platform-similar-to-filecoin-and-storj-1449082814
+| title = Sia Launches Decentralized Blockchain-based Storage Platform Similar to Filecoin and Storj
+| last = Young
+| first = Joseph
+| website = Bitcoin Magazine
+| access-date = 2016-02-29
+</ref> Data is encrypted and spread among hosts in a redundant manner, using erasure coding, to maximize availability.<ref name="Sia Paper">cite web|last1=Vorick|first1=David|last2=Champine|first2=Luke|title=Sia: Simple Decentralized Storage|url=http://sia.tech/assets/globals/sia.pdf</ref> According to one of its creators, Sia was the first platform of its kind to launch an end-user product.<ref>Cite web
+| url = https://www.cryptocoinsnews.com/sia-launches-bitcoin-cloud-storage-block-chain/
+| title = Sia Launches Bitcoin Cloud Storage With Own Blockchain
+| last = Evander
+| first = Smart
+| website = CCN: Financial Bitcoin & Cryptocurrency News
+| language = en-US
+| access-date = 2016-02-27
+</ref>
+
+On June 1, 2016<ref>Cite web|url=http://us12.campaign-archive1.com/?u=28542349724534dc599e8f3e0&id=a6ab62aecb|title=Minebox Newsletter Vol.1 Turning Off Stealth Mode|website=us12.campaign-archive1.com|access-date=2018-06-06</ref> Minebox GMBH<ref>Cite web|url=https://minebox.io|title=Minebox GmbH|last=GmbH|first=Minebox|website=minebox.io|language=en-US|access-date=2018-06-06</ref> announced that their forthcoming Minebox Network-attached storage|Networked Attached Storage device (NAS)  will utilize the  Sia network to persist its backups.  Users of the Minebox will also be able to rent their free disk space via Sia.
+
+STORJ is another example: based on the Bitcoin blockchain technology and a peer-to-peer architecture, it intends to provide cloud storage to people. It is currently developing two applications to achieve this goal: ''MetaDisk'',<ref>Cite web|url=http://metadisk.org|title=Decentralized Cloud Storage — Storj|website=Decentralized Cloud Storage — Storj|language=en-US|access-date=2018-06-06</ref> which lets the user upload files to the network, and ''DriveShare'', allowing users to rent out their storage space to MetaDisk users.<ref>Cite web|url=http://storj.io/|title=Decentralized Cloud Storage — Storj|last=|first=|date=|website=|language=en-US|archive-url=|archive-date=|dead-url=|access-date=2018-06-06</ref>
+
+A partly centralized system was operated by Symform, Inc., a startup company based in Seattle.<ref name="computerworld">cite web|last=Mearian|first=Lucas|title=Start-up unveils cloud storage co-op|url=http://www.computerworld.com/s/article/9138257/Start_up_unveils_cloud_storage_co_op|work=Computerworld|date=2009-09-21|accessdate=2010-10-14</ref><ref name=xconomy>cite web|last=Huang|first=Gregory T|title=Symform, Founded by Ex-Microsoft Pair, Offers Cheap, Efficient Data Storage in the Cloud|url=http://www.xconomy.com/seattle/2009/02/19/symform-founded-by-ex-microsoft-pair-offers-cheap-efficient-data-storage-in-the-cloud/|work=Xconomy|date=2009-02-19|accessdate=2010-10-14</ref> Symform generated and kept the keys used to encrypt and decrypt, and since it also decided which server will host which parts of a file, users have to trust Symform not to share those with any other party or misuse the information.<ref>cite web|title=Symform Security Analysis|date=December 19, 2012|work=VirtualServerGuy|url=http://virtualserverguy.com/blog/2012/12/19/symform-security-analysis</ref> Symform discontinued its service on Jul 31, 2016.
+
+See also
+*Cloud computing
+*Cloud storage
+*Distributed data store
+*Tahoe-LAFS
+*Freenet
+*Cyber Resilience
+*InterPlanetary File System
+
+References
+Reflist
+
+ External links 
+* [https://oceanstore.cs.berkeley.edu/ OceanStore]
+* [http://sia.tech/ Sia]
+* [http://storj.io/ Storj]
+
+Category:Cloud storage
+Category:Cloud computing
+Category:Distributed data storage

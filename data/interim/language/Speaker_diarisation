@@ -1,0 +1,31 @@
+refimprove|date=January 2012
+Speaker diarisation (American and British English spelling differences#-ise.2C -ize .28-isation.2C -ization.29|or diarization)  is the process of partitioning an input audio stream into homogeneous segments according to the speaker identity. It can enhance the readability of an Speech recognition|automatic speech transcription by structuring the audio stream into speaker turns and, when used together with speaker recognition systems, by providing the speaker’s true identity.<ref>cite web|first1=Xuan |last1=Zhu |first2=Claude |last2=Barras |first3=Sylvain |last3=Meignier |first4=Jean-Luc |last4=Gauvain |url=http://www.limsi.fr/Rapports/RS2005/chm/tlp/tlp1/index.html |title=Improved speaker diarization using speaker identification |accessdate=2012-01-25</ref> It is used to answer the question "who spoke when?"<ref>cite web|first1=Margarita |last1=Kotti |first2=Vassiliki |last2=Moschou |first3=Constantine |last3=Kotropoulos |url=http://poseidon.csd.auth.gr/papers/PUBLISHED/JOURNAL/pdf/Kotti08a.pdf |title=Speaker Segmentation and Clustering |accessdate=2012-01-25</ref>
+Speaker diarisation is a combination of speaker segmentation and speaker clustering. The first aims at finding speaker change points in an audio stream. The second aims at grouping together speech segments on the basis of speaker characteristics.
+
+With the increasing number of broadcasts, meeting recordings and voice mail collected every year, speaker diarisation has received much attention by the speech community, as is manifested by the specific evaluations devoted to it under the auspices of the National Institute of Standards and Technology for telephone speech, broadcast news and meetings.<ref>cite web|url=http://www.itl.nist.gov/iad/mig/tests/rt/ |title=Rich Transcription Evaluation Project |publisher=National Institute of Standards and Technology|NIST |accessdate=2012-01-25</ref>
+
+ Main types of diarisation systems 
+In speaker diarisation one of the most popular methods is to use a Mixture model|Gaussian mixture model to model each of the speakers, and assign the corresponding frames for each speaker with the help of a Hidden Markov Model. There are two main kinds of clustering scenario. The first one is by far the most popular and is called Bottom-Up. The algorithm starts in splitting the full audio content in a succession of clusters and progressively tries to merge the redundant clusters in order to reach a situation where each cluster corresponds to a real speaker. The second clustering strategy is called [http://www.eurecom.fr/util/publidownload.fr.htm?id=3000 top-down] and starts with one single cluster for all the audio data and tries to split it iteratively until reaching a number of clusters equal to the number of speakers.
+A 2010 review can be found at [http://www.icsi.berkeley.edu/~fractor/papers/friedland_146.pdf]
+
+ Open source speaker diarisation software 
+
+There are some open source initiatives for speaker diarisation:
+
+*ALIZE Speaker Diarization (last repository update: July 2016; last release: February 2013, version: 3.0): ALIZE Diarization System, developed at the University Of Avignon, a release 2.0 is available [http://alize.univ-avignon.fr/svn/LIA_RAL/branches/2.0/LIA_SpkSeg/].
+*[http://www-lium.univ-lemans.fr/diarization/doku.php/welcome|LIUM SpkDiarization] (last release: September 2013, version: 8.4.1): LIUM_SpkDiarization tool [http://www-lium.univ-lemans.fr/fr/content/liumspkdiarization].
+*Audioseg (last repository update: May 2014; last release: January 2010, version: 1.2): AudioSeg is a toolkit dedicated to audio segmentation and classification of audio streams. [http://gforge.inria.fr/projects/audioseg].
+*SHoUT (last update: December 2010; version: 0.3): SHoUT is a software package  developed at the University of Twente to aid speech recognition research. SHoUT is a Dutch acronym for ''Speech Recognition Research at the University of Twente''. [http://shout-toolkit.sourceforge.net/]
+*pyAudioAnalysis (last repository update: August 2018): Python Audio Analysis Library: Feature Extraction, Classification, Segmentation and Applications [https://github.com/tyiannak/pyAudioAnalysis]
+
+References
+
+<references />
+
+ Bibliography 
+* Cite book|last=Anguera|first=Xavier|url=http://www.eurecom.fr/publication/3152 |title=Speaker diarization: A review of recent research|publisher=TALSP|year=2012|ISSN=1558-7916 
+* Cite book|last=Beigi|first=Homayoon|url=https://www.springer.com/computer/image+processing/book/978-0-387-77591-3 |title=Fundamentals of Speaker Recognition|publisher=Springer|location=New York|year=2011|isbn=978-0-387-77591-3
+
+DEFAULTSORT:Speaker diarisation
+Category:Speech recognition
+Category:Speech processing

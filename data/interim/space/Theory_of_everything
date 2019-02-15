@@ -1,0 +1,330 @@
+about|the physical concept
+
+refimprove|reason=large swathes of this article have no footnotes|date=January 2017
+Beyond the Standard Model|expanded=Theories
+
+A theory of everything (TOE<ref>cite journal |url=https://arxiv.org/ftp/gr-qc/papers/9910/9910036.pdf |title=TOE: Theory of Everything |date=November 2012</ref> or ToE), final theory, ultimate theory, or master theory is a hypothetical single, all-encompassing, coherent theoretical physics|theoretical framework of physics that fully explains and links together all physical aspects of the universe.<ref name="Weinberg2011">cite book |author=Steven Weinberg |title=Dreams of a Final Theory: The Scientist's Search for the Ultimate Laws of Nature |publisher=Knopf Doubleday Publishing Group |isbn=978-0-307-78786-6|date=2011-04-20 </ref>rp|6 Finding a TOE is one of the major unsolved problems in physics. Over the past few centuries, two theoretical frameworks have been developed that, as a whole, most closely resemble a TOE. These two theories upon which all modern physics rests are general relativity (GR) and quantum field theory (QFT). GR is a theoretical framework that only focuses on gravity for understanding the universe in regions of both large scale and high mass: stars, galaxies, clusters of galaxies, etc. On the other hand, QFT is a theoretical framework that only focuses on three non-gravitational forces for understanding the universe in regions of both small scale and low mass: sub-atomic particles, atoms, molecules, etc. QFT successfully implemented the Standard Model and unified the interactions (so-called Grand Unified Theory) between the three non-gravitational forces: strong force|strong, weak force|weak, and electromagnetism|electromagnetic force.<ref name="Hawking2006">cite book |author=Stephen W. Hawking |title=The Theory of Everything: The Origin and Fate of the Universe |date=28 February 2006 |publisher=Phoenix Books; Special Anniv |isbn=978-1-59777-508-3</ref>rp|122
+
+Through years of research, physicists have experimentally confirmed with tremendous accuracy virtually every prediction made by these two theories when in their appropriate domains of applicability. In accordance with their findings, scientists also learned that GR and QFT, as they are currently formulated, are mutually incompatible – they cannot both be right. Since the usual domains of applicability of GR and QFT are so different, most situations require that only one of the two theories be used.<ref name="Carlip">cite journal |last=Carlip |first=Steven |title=Quantum Gravity: a Progress Report |journal=Reports on Progress in Physics |volume=64 |issue=8 |pages=885–942 |date=2001 |doi=10.1088/0034-4885/64/8/301 |arxiv=gr-qc/0108040 |bibcode=2001RPPh...64..885C </ref><ref name="Priest2010">cite book |author=Susanna Hornig Priest |title=Encyclopedia of Science and Technology Communication |date=14 July 2010 |publisher=SAGE Publications |isbn=978-1-4522-6578-0</ref>rp|842–844 As it turns out, this incompatibility between GR and QFT is apparently only an issue in regions of extremely small scale and high mass, such as those that exist within a black hole or during the beginning stages of the universe (i.e., the moment immediately following the Big Bang). To resolve this conflict, a theoretical framework revealing a deeper underlying reality, unifying gravity with the other three interactions, must be discovered to harmoniously integrate the realms of GR and QFT into a seamless whole: a single theory that, in principle, is capable of describing all phenomena. In pursuit of this goal, quantum gravity has become an area of active research.
+
+Eventually, string theory evolved into a candidate for the ultimate theory of the universe, but not without drawbacks and controversy. String theory posits that at the planck epoch|beginning of the universe (up to 10<sup>−43</sup> seconds after the Big Bang), the four fundamental forces were once a single fundamental force. According to string theory, every particle in the universe, at its most microscopic level (Planck length), consists of varying combinations of vibrating strings (or strands) with preferred patterns of vibration. String theory further claims that it is through these specific oscillatory patterns of strings that a particle of unique mass and force charge is created (that is to say, the electron is a type of string that vibrates one way, while the up quark is a type of string vibrating another way, and so forth).
+
+Historical antecedents
+Initially, the term ''theory of everything'' was used with an ironic reference to various overgeneralized theories. For example, a grandfather of Ijon Tichy – a character from a cycle of Stanisław Lem's science fiction stories of the 1960s – was known to work on the "General Theory of Everything". Physicist John Ellis (physicist)|John Ellis claims<ref>
+cite journal
+ |first=John |last=Ellis
+ |date=2002
+ |journal=Nature (journal)|Nature
+ |title=Physics gets physical (correspondence)
+ |volume=415 |pages=957
+ |doi=10.1038/415957b
+ |bibcode=2002Natur.415..957E
+ |issue=6875
+ |pmid=11875539</ref> to have introduced the term into the technical literature in an article in ''Nature (magazine)|Nature'' in 1986.<ref>
+Cite journal
+ |first=John |last=Ellis
+ |date=1986
+ |journal=Nature
+ |title=The Superstring: Theory of Everything, or of Nothing?
+ |volume=323 |pages=595–598
+ |doi=10.1038/323595a0
+ |bibcode=1986Natur.323..595E
+ |issue=6089</ref> Over time, the term stuck in popularizations of theoretical physics research.
+
+=From ancient Greece to Einstein=
+In ancient Greece, Pre-Socratic philosophy|pre-Socratic philosophers speculated that the apparent diversity of observed phenomena was due to a single type of interaction, namely the motions and collisions of Atomism|atoms. The concept of 'atom', introduced by Democritus, was an early philosophical attempt to unify all phenomena observed in nature.
+
+Archimedes was possibly the first scientist known to have described nature with axioms (or principles) and then deduce new results from them. He thus tried to describe "everything" starting from a few axioms. Any "theory of everything" is similarly expected to be based on axioms and to deduce all observable phenomena from them.<ref name="Impey2012">cite book |author=Chris Impey |title=How It Began: A Time-Traveler's Guide to the Universe |url=https://books.google.com/books?id=IjEz8Tq-EdIC |date=26 March 2012 |publisher=W. W. Norton |isbn=978-0-393-08002-5</ref>rp|340
+
+Following Democritean atomism, the mechanical philosophy of the 17th century posited that all forces could be ultimately reduced to contact forces between the atoms, then imagined as tiny solid particles.<ref name="Burns2001">cite book |author=William E. Burns |title=The Scientific Revolution: An Encyclopedia |date=1 January 2001 |publisher=ABC-CLIO |isbn=978-0-87436-875-8</ref>rp|184<ref>
+cite book
+ |first=Steven |last=Shapin
+ |date=1996
+ |title=The Scientific Revolution
+ |publisher=University of Chicago Press
+ |isbn=978-0-226-75021-7
+</ref>
+
+In the late 17th century, Isaac Newton's description of the long-distance force of gravity implied that not all forces in nature result from things coming into contact. Newton's work in his ''Philosophiæ Naturalis Principia Mathematica|Mathematical Principles of Natural Philosophy'' dealt with this in a further example of unification, in this case unifying Galileo's work on terrestrial gravity, Kepler's laws of planetary motion and the phenomenon of tides by explaining these apparent actions at a distance under one single law: the law of universal gravitation.<ref>cite book |page=255 |url=https://books.google.com/books?id=6EqxPav3vIsC&pg=PA255 |title=The Mathematical Principles of Natural Philosophy |volume=II |last1=Newton |first1=Sir Isaac |date=1729</ref>
+
+In 1814, building on these results, Laplace famously suggested that a Laplace's demon|sufficiently powerful intellect could, if it knew the position and velocity of every particle at a given time, along with the laws of nature, calculate the position of any particle at any other time:<ref name="Carroll2010">cite book <!-- Citation bot deny-->|author=Sean Carroll |title=From Eternity to Here: The Quest for the Ultimate Theory of Time |year=2010 |publisher=Penguin Group US |isbn=978-1-101-15215-7</ref>rp |ch 7
+
+quote|An intellect which at a certain moment would know all forces that set nature in motion, and all positions of all items of which nature is composed, if this intellect were also vast enough to submit these data to analysis, it would embrace in a single formula the movements of the greatest bodies of the universe and those of the tiniest atom; for such an intellect nothing would be uncertain and the future just like the past would be present before its eyes.|''Essai philosophique sur les probabilités'', Introduction. 1814
+
+Laplace thus envisaged a combination of gravitation and mechanics as a theory of everything. Modern quantum mechanics implies that Heisenberg uncertainty|uncertainty is inescapable, and thus that Laplace's vision has to be amended: a theory of everything must include gravitation and quantum mechanics.
+
+In 1820, Hans Christian Ørsted discovered a connection between electricity and magnetism, triggering decades of work that culminated in 1865, in James Clerk Maxwell's theory of electromagnetism. During the 19th and early 20th centuries, it gradually became apparent that many common examples of forces – contact forces, elasticity (physics)|elasticity, viscosity, friction, and pressure – result from electrical interactions between the smallest particles of matter.
+
+In his experiments of 1849–50, Michael Faraday was the first to search for a unification of gravity with electricity and magnetism.<ref>
+Cite journal
+ |first=M.|last=Faraday
+ |date=1850
+ |title=Experimental Researches in Electricity. Twenty-Fourth Series. On the Possible Relation of Gravity to Electricity
+ |journal=Abstracts of the Papers Communicated to the Royal Society of London
+ |volume=5 |pages=994–995
+ |doi=10.1098/rspl.1843.0267
+</ref> However, he found no connection.
+
+In 1900, David Hilbert published a famous list of mathematical problems. In Hilbert's sixth problem, he challenged researchers to find an axiomatic basis to all of physics. In this problem he thus asked for what today would be called a theory of everything.<ref>Cite journal |doi=10.1090/S0273-0979-2013-01439-3 |title=Hilbert's 6th Problem: Exact and approximate hydrodynamic manifolds for kinetic equations |journal=Bulletin of the American Mathematical Society |volume=51 |issue=2 |pages=187 |year=2013 |last1=Gorban |first1=Alexander N. |last2=Karlin |first2=Ilya|arxiv=1310.0406 </ref>
+
+In the late 1920s, the new quantum mechanics showed that the chemical bonds between atoms were examples of (quantum) electrical forces, justifying Paul Dirac|Dirac's boast that "the underlying physical laws necessary for the mathematical theory of a large part of physics and the whole of chemistry are thus completely known".<ref>
+cite journal
+ |last=Dirac |first=P.A.M.
+ |date=1929
+ |title=Quantum mechanics of many-electron systems
+ |journal=Proceedings of the Royal Society of London A
+ |volume=123 |pages=714–733
+ |doi=10.1098/rspa.1929.0094
+ |bibcode=1929RSPSA.123..714D
+ |issue=792</ref>
+
+After 1915, when Albert Einstein published the theory of gravity (general relativity), the search for a unified field theory combining gravity with electromagnetism began with a renewed interest. In Einstein's day, the strong and the weak forces had not yet been discovered, yet, he found the potential existence of two other distinct forces -gravity and electromagnetism- far more alluring. This launched his thirty-year voyage in search of the so-called "unified field theory" that he hoped would show that these two forces are really manifestations of one grand underlying principle. During these last few decades of his life, this quixotic quest isolated Einstein from the mainstream of physics. Understandably, the mainstream was instead far more excited about the newly emerging framework of quantum mechanics. Einstein wrote to a friend in the early 1940s, "I have become a lonely old chap who is mainly known because he doesn't wear socks and who is exhibited as a curiosity on special occasions." Prominent contributors were Gunnar Nordström, Hermann Weyl, Arthur Eddington, David Hilbert,<ref>cite book |arxiv=physics/0405110 |doi=10.1007/0-8176-4454-7_14 |isbn=978-0-8176-4454-3 | title=Hilbert's "World Equations" and His Vision of a Unified Science |series=Einstein Studies |volume=11 |pages=259–276 |year=2005 |last1=Majer |first1=U. |last2=Sauer |first2=T. |bibcode=2005ugr..book..259M |journal=<!-- Citation bot--> </ref> Theodor Kaluza, Oskar Klein (see Kaluza–Klein theory), and most notably, Albert Einstein and his collaborators. Einstein intensely searched for, but ultimately failed to find, a unifying theory.<ref name="Pais1982">cite book |author=Abraham Pais |title=Subtle is the Lord : The Science and the Life of Albert Einstein: The Science and the Life of Albert Einstein |date=23 September 1982 |publisher=Oxford University Press |isbn=978-0-19-152402-8</ref>rp|ch 17 (But see:Einstein–Maxwell–Dirac equations.) More than a half a century later, Einstein's dream of discovering a unified theory has become the Holy Grail of modern physics.
+
+=Twentieth century and the nuclear interactions=
+In the twentieth century, the search for a unifying theory was interrupted by the discovery of the strong force|strong and weak force|weak nuclear forces (or interactions), which differ both from gravity and from electromagnetism. A further hurdle was the acceptance that in a TOE, quantum mechanics had to be incorporated from the start, rather than emerging as a consequence of a deterministic unified theory, as Einstein had hoped.
+
+Gravity and electromagnetism could always peacefully coexist as entries in a list of classical forces, but for many years it seemed that gravity could not even be incorporated into the quantum framework, let alone unified with the other fundamental forces. For this reason, work on unification, for much of the twentieth century, focused on understanding the three "quantum" forces: electromagnetism and the weak and strong forces. The first two were electroweak interaction|combined in 1967–68 by Sheldon Glashow, Steven Weinberg, and Abdus Salam into the "electroweak" force.<ref>Weinberg (1993), Ch. 5</ref>
+Electroweak unification is a broken symmetry: the electromagnetic and weak forces appear distinct at low energies because the particles carrying the weak force, the W and Z bosons, have non-zero masses of val|80.4|u=GeV/c2 and val|91.2|u=GeV/c2, whereas the photon, which carries the electromagnetic force, is massless. At higher energies Ws and Zs can be matter creation|created easily and the unified nature of the force becomes apparent.
+
+While the strong and electroweak forces peacefully coexist in the Standard Model of particle physics, they remain distinct. So far, the quest for a theory of everything is thus unsuccessful on two points: neither a unification of the strong and electroweak forces&nbsp;– which Laplace would have called 'contact forces'&nbsp;– nor a unification of these forces with gravitation has been achieved.
+
+Modern physics
+
+=Conventional sequence of theories=
+A Theory of Everything would unify all the fundamental interactions of nature: gravitation, strong interaction, weak interaction, and electromagnetism. Because the weak interaction can transform elementary particles from one kind into another, the TOE should also yield a deep understanding of the various different kinds of possible particles. The usual assumed path of theories is given in the following graph, where each unification step leads one level up:
+
+familytree/start
+familytree| | | | |TOE| | TOE=Theory of everything 
+familytree| | | | | |!| | 
+familytree| | | | |QG| | QG=Quantum gravity 
+familytree| | | | | |!| | 
+familytree| |REL|-|^|-|GUT| | REL=General Relativity|Space Curvature | GUT=Electronuclear force (Grand Unified Theory|GUT) 
+familytree| | |!| | | | | |!| | 
+familytree| |SMC| | | |SMP| SMC=Lambda-CDM model|Standard model of cosmology | SMP=Standard model of particle physics
+familytree| | | | | | | | |!| | 
+familytree| | | | |QCD|-|^|-|-|EWT| | QCD=Strong interaction<br />Special unitary group|SU(3) | EWT=Electroweak interaction<br />Special unitary group|SU(2) x Unitary group|U(1)<sub>hypercharge|Y</sub> 
+familytree| | | | | | | | | | | | |!| | 
+familytree| | | | | | | | |WNF|-|^|-|EMF||WNF=Weak interaction<br />Special unitary group|SU(2)|EMF=Electromagnetism<br />Unitary group|U(1)<sub>EM</sub>
+familytree| | | | | | | | | | | | | | | |!| | | | | | 
+familytree| | | | | | | | | | | |EF|-|^|-|MF| |EF=Electricity|MF=Magnetism 
+familytree/end
+
+In this graph, electroweak unification occurs at around 100 GeV, grand unification is predicted to occur at 10<sup>16</sup> GeV, and unification of the GUT force with gravity is expected at the Planck energy, roughly 10<sup>19</sup> GeV.
+
+Several Grand Unified Theory|Grand Unified Theories (GUTs) have been proposed to unify electromagnetism and the weak and strong forces. Grand unification would imply the existence of an electronuclear force; it is expected to set in at energies of the order of 10<sup>16</sup> GeV, far greater than could be reached by any possible Earth-based particle accelerator. Although the simplest GUTs have been experimentally ruled out, the general idea, especially when linked with supersymmetry, remains a favorite candidate in the theoretical physics community. Supersymmetric GUTs seem plausible not only for their theoretical "beauty", but because they naturally produce large quantities of dark matter, and because the inflationary force may be related to GUT physics (although it does not seem to form an inevitable part of the theory). Yet GUTs are clearly not the final answer; both the current standard model and all proposed GUTs are quantum field theory|quantum field theories which require the problematic technique of renormalization to yield sensible answers. This is usually regarded as a sign that these are only effective field theory|effective field theories, omitting crucial phenomena relevant only at very high energies.<ref name="Carlip" />
+
+The final step in the graph requires resolving the separation between quantum mechanics and gravitation, often equated with general relativity. Numerous researchers concentrate their efforts on this specific step; nevertheless, no accepted theory of quantum gravity&nbsp;– and thus no accepted theory of everything&nbsp;– has emerged yet. It is usually assumed that the TOE will also solve the remaining problems of GUTs.
+
+In addition to explaining the forces listed in the graph, a TOE may also explain the status of at least two candidate forces suggested by modern physical cosmology|cosmology: an inflation (cosmology)|inflationary force and dark energy. Furthermore, cosmological experiments also suggest the existence of dark matter, supposedly composed of fundamental particles outside the scheme of the standard model. However, the existence of these forces and particles has not been proven.
+
+=String theory and M-theory=
+
+unsolved|physics|Is string theory, superstring theory, or M-theory, or some other variant on this theme, a step on the road to a "theory of everything", or just a blind alley?
+
+Since the 1990s, some physicistswho|date=March 2015 believe that 11-dimensional M-theory, which is described in some limits by one of the five perturbation theory|perturbative superstring theory|superstring theories, and in another by the maximally-supersymmetry|supersymmetric 11-dimensional supergravity, is the theory of everything. However, there is no widespread consensus on this issue.
+
+A surprising property of string theory|string/M-theory is that extra dimensions are required for the theory's consistency. In this regard, string theory can be seen as building on the insights of the Kaluza–Klein theory, in which it was realized that applying general relativity to a five-dimensional universe (with one of them small and curled up)huh|date=March 2018 looks from the four-dimensional perspective like the usual general relativity together with Maxwell's equations|Maxwell's electrodynamics. This lent credence to the idea of unifying gauge theory|gauge and gravity interactions, and to extra dimensions, but did not address the detailed experimental requirements. Another important property of string theory is its supersymmetry, which together with extra dimensions are the two main proposals for resolving the hierarchy problem of the standard model, which is (roughly) the question of why gravity is so much weaker than any other force. The extra-dimensional solution involves allowing gravity to propagate into the other dimensions while keeping other forces confined to a four-dimensional spacetime, an idea that has been realized with explicit stringy mechanisms.<ref>cite journal |pmid=16196251 |date=2005 |title=The Beauty of Branes |journal=Scientific American |pages=38–40 |doi=10.1038/scientificamerican1005-38 |url=http://randall.physics.harvard.edu/RandallCV/ScientificAm10-05.pdf |accessdate=August 13, 2012 |last1=Holloway |first1=M |volume=293 |issue=4 |bibcode=2005SciAm.293d..38H </ref>
+
+Research into string theory has been encouraged by a variety of theoretical and experimental factors. On the experimental side, the particle content of the standard model supplemented with Seesaw mechanism|neutrino masses fits into a spinor representation of SO(10) (physics)|SO(10), a subgroup of E8 (mathematics)|E8 that routinely emerges in string theory, such as in heterotic string theory<ref>cite journal |arxiv=0806.3905 |doi=10.1140/epjc/s10052-008-0740-1 |title=From strings to the MSSM |year=2009 |last1=Nilles |first1=Hans Peter |last2=Ramos-Sánchez |first2=Saúl |last3=Ratz |first3=Michael |last4=Vaudrevange |first4=Patrick K. S. |journal=The European Physical Journal C |volume=59 |issue=2 |pages=249–267 |bibcode=2009EPJC...59..249N </ref> or (sometimes equivalently) in F-theory.<ref>cite journal |doi=10.1088/1126-6708/2009/01/058 |arxiv=0802.3391 |title=GUTs and exceptional branes in F-theory — I |date=2009 |last1=Beasley |first1=Chris |last2=Heckman |first2=Jonathan J |last3=Vafa |first3=Cumrun |journal=Journal of High Energy Physics |volume=2009 |issue=1 |pages=058 |bibcode=2009JHEP...01..058B </ref><ref>cite arXiv |eprint=0802.2969v3 |last1=Donagi |first1=Ron |title=Model Building with F-Theory |last2=Wijnholt |first2=Martijn |class=hep-th |year=2008</ref> String theory has mechanisms that may explain why fermions come in three hierarchical generations, and explain the CKM matrix|mixing rates between quark generations.<ref>Cite journal |arxiv=0811.2417v3 |last1=Heckman |first1=Jonathan J. |title=Flavor Hierarchy from F-theory |journal=Nuclear Physics B |volume=837 |issue=1 |pages=137–151 |last2=Vafa |first2=Cumrun |year=2010 |doi=10.1016/j.nuclphysb.2010.05.009 |bibcode=2010NuPhB.837..137H </ref> On the theoretical side, it has begun to address some of the key questions in quantum gravity, such as resolving the black hole information paradox, counting the correct black hole thermodynamics|entropy of black holes<ref>cite journal |doi=10.1016/0370-2693(96)00345-0 |arxiv=hep-th/9601029 |title=Microscopic origin of the Bekenstein-Hawking entropy |date=1996 |last1=Strominger |first1=Andrew |last2=Vafa |first2=Cumrun |journal=Physics Letters B |volume=379 |pages=99–104 |bibcode=1996PhLB..379...99S </ref><ref>cite arxiv<!--Citation bot deny, the arxiv metadata is wrong-->|arxiv=gr-qc/9604051 |last1=Horowitz |first1=Gary |title=The Origin of Black Hole Entropy in String Theory</ref> and allowing for topology-changing processes.<ref>cite journal |doi=10.1016/0550-3213(95)00371-X |arxiv=hep-th/9504145 |title=Black hole condensation and the unification of string vacua |date=1995 |last1=Greene |first1=Brian R. |last2=Morrison |first2=David R. |last3=Strominger |first3=Andrew |journal=Nuclear Physics B |volume=451 |issue=1–2 |pages=109–120 |bibcode=1995NuPhB.451..109G </ref><ref>cite journal |doi=10.1016/0550-3213(94)90321-2 |arxiv=hep-th/9309097 |title=Calabi-Yau moduli space, mirror manifolds and spacetime topology change in string theory |date=1994 |last1=Aspinwall |first1=Paul S. |last2=Greene |first2=Brian R. |last3=Morrison |first3=David R. |journal=Nuclear Physics B |volume=416 |issue=2 |pages=414 |bibcode=1994NuPhB.416..414A </ref><ref>cite journal |doi=10.1088/1126-6708/2005/10/033 |arxiv=hep-th/0502021 |title=Things fall apart: Topology change from winding tachyons |date=2005 |last1=Adams |first1=Allan |last2=Liu |first2=Xiao |last3=McGreevy |first3=John |last4=Saltman |first4=Alex |last5=Silverstein |first5=Eva |journal=Journal of High Energy Physics |volume=2005 |issue=10 |pages=033 |bibcode=2005JHEP...10..033A </ref> It has also led to many insights in pure mathematics and in ordinary, strongly-coupled gauge theory due to the AdS/CFT|Gauge/String duality.
+
+In the late 1990s, it was noted that one major hurdle in this endeavor is that the number of possible four-dimensional universes is incredibly large. The small, "curled up" extra dimensions can be compact dimension|compactified in an enormous number of different ways (one estimate is 10<sup>500</sup>&nbsp;) each of which leads to different properties for the low-energy particles and forces. This array of models is known as the string theory landscape.<ref name="Impey2012" />rp|347
+
+One proposed solution is that many or all of these possibilities are realised in one or another of a huge number of universes, but that only a small number of them are habitable. Hence what we normally conceive as the fundamental constants of the universe are ultimately the result of the anthropic principle rather than dictated by theory. This has led to criticism of string theory,<ref>cite book |last=Smolin |first=Lee |title=The Trouble With Physics: The Rise of String Theory, the Fall of a Science, and What Comes Next |date=2006 |publisher=Houghton Mifflin |isbn=978-0-618-55105-7|title-link=The Trouble With Physics </ref> arguing that it cannot make useful (i.e., original, falsifiable, and verifiable) predictions and regarding it as a pseudoscience. Others disagree,<ref>cite journal |author=Duff, M. J. |arxiv=1112.0788 |doi=10.1007/s10701-011-9618-4 |title=String and M-Theory: Answering the Critics |date=2011 |journal=Foundations of Physics |volume=43 |issue=1 |pages=182–200 |bibcode=2013FoPh...43..182D </ref> and string theory remains an active topic of investigation in theoretical physics.<ref>Cite news|url=https://www.symmetrymagazine.org/article/may-2007/the-great-string-debate|title=The Great String Debate|last=Chui|first=Glennda|date=May 1, 2007|work=Symmetry Magazine|access-date=2018-10-17|language=en</ref>
+
+=Loop quantum gravity=
+
+Current research on loop quantum gravity may eventually play a fundamental role in a TOE, but that is not its primary aim.<ref>cite web
+ |last=Potter |first=Franklin
+ |date=15 February 2005
+ |url=http://www.sciencegems.com/discretespace.pdf
+ |title=Leptons And Quarks In A Discrete Spacetime
+ |work=Frank Potter's Science Gems
+ |accessdate=2009-12-01
+</ref> Also loop quantum gravity introduces a lower bound on the possible length scales.
+
+There have been recent claims that loop quantum gravity may be able to reproduce features resembling the Standard Model. So far only the first generation of fermions (leptons and quarks) with correct parity properties have been modelled by Sundance Bilson-Thompson using preons constituted of braids of spacetime as the building blocks.<ref>cite journal |title=Quantum gravity and the standard model |last=Bilson-Thompson |first=Sundance O. |author2=Markopoulou, Fotini |author3=Smolin, Lee |doi=10.1088/0264-9381/24/16/002 |date=2007 |journal=Classical and Quantum Gravity |volume=24 |issue=16 |pages=3975–3994 |arxiv=hep-th/0603022 |bibcode=2007CQGra..24.3975B</ref> However, there is no derivation of the Lagrangian (field theory)|Lagrangian that would describe the interactions of such particles, nor is it possible to show that such particles are fermions, nor that the gauge groups or interactions of the Standard Model are realised. Utilization of quantum computing concepts made it possible to demonstrate that the particles are able to survive quantum fluctuations.<ref>cite journal |url=https://www.newscientist.com/channel/fundamentals/mg19125645.800 |journal=New Scientist |title=You are made of space-time |first=Davide |last=Castelvecchi |author2=Valerie Jamieson |issue=2564 |date=August 12, 2006</ref>
+
+This model leads to an interpretation of electric and colour charge as topological quantities (electric as number and chirality of twists carried on the individual ribbons and colour as variants of such twisting for fixed electric charge).
+
+Bilson-Thompson's original paper suggested that the higher-generation fermions could be represented by more complicated braidings, although explicit constructions of these structures were not given. The electric charge, colour, and parity properties of such fermions would arise in the same way as for the first generation. The model was expressly generalized for an infinite number of generations and for the weak force bosons (but not for photons or gluons) in a 2008 paper by Bilson-Thompson, Hackett, Kauffman and Smolin.<ref>cite arXiv |eprint=0804.0037 |author1=Sundance Bilson-Thompson |author2=Jonathan Hackett |author3=Lou Kauffman |author4=Lee Smolin |title=Particle Identifications from Symmetries of Braided Ribbon Network Invariants |class=hep-th |date=2008</ref>
+
+=Other attempts=
+
+Among other attempts to develop a theory of everything is the theory of causal fermion systems,<ref name="CFSIntro">Cite journal |author=F. Finster |author2=J. Kleiner |arxiv=1502.03587 |title=Causal fermion systems as a candidate for a unified physical theory |journal=Journal of Physics: Conference Series |volume=626 |issue=2015 |pages=012020 |date=2015 |doi=10.1088/1742-6596/626/1/012020 |bibcode=2015JPhCS.626a2020F </ref> giving the two current physical theories (general relativity and quantum field theory) as limiting cases.
+
+Another theory is called Causal Sets. As some of the approaches mentioned above, its direct goal isn't necessarily to achieve a TOE but primarily a working theory of quantum gravity, which might eventually include the standard model and become a candidate for a TOE. Its founding principle is that spacetime is fundamentally discrete and that the spacetime events are related by a partial order. This partial order has the physical meaning of the causality relations between relative past and future distinguishing spacetime events.<!--Please do _not_ insert "Time Cube" and "Heim Theory" here without first gaining a consensus on the talk page for including these theories. Changes without such a consensus will be promptly reverted. Thanks!-->
+
+Outside the previously mentioned attempts there is An Exceptionally Simple Theory of Everything|Garrett Lisi's E8 proposal. This theory provides an attempt of identifying general relativity and the standard model within the Lie group E8. The theory doesn't provide a novel quantization procedure and the author suggests its quantization might follow the Loop Quantum Gravity approach above mentioned.<ref name="Lisi-E8">cite arXiv |author=A. G. Lisi |eprint=0711.0770 |title=An Exceptionally Simple Theory of Everything |date=2007 |class=hep-th </ref>
+
+Causal dynamical triangulation does not assume any pre-existing arena (dimensional space), but rather attempts to show how the spacetime fabric itself evolves.
+
+Christoph Schiller's Strand Model attempts to account for the Gauge theory|gauge symmetry of the Standard model#Construction of the Standard Model Lagrangian|Standard Model of particle physics, Unitary group|U(1)×Special unitary group|SU(2)×Special unitary group#n=3|SU(3), with the three Reidemeister moves of knot theory by equating each elementary particle to a different tangle of one, two, or three strands (selectively a long prime knot or unknotted curve, a Tangle theory|rational tangle, or a braided tangle respectively).
+
+Another attempt may be related to ER=EPR, a conjecture in physics stating that Quantum entanglement|entangled particles are connected by a wormhole (or Einstein–Rosen bridge).<ref name="FT-2016">cite web |author=Staff |title=This New Equation Could Unite The Two Biggest Theories in Physics |url=https://futurism.com/this-new-equation-could-unite-the-two-biggest-theories-in-physics/ |date=2016 |work=futurism.com |accessdate=May 19, 2017 </ref><ref name=Cowen>cite journal|last1=Cowen|first1=Ron|title=The quantum source of space-time|journal=Nature|date=16 November 2015|volume=527|issue=7578|pages=290|url=http://www.nature.com/news/the-quantum-source-of-space-time-1.18797|bibcode=2015Natur.527..290C|doi=10.1038/527290a</ref>
+
+=Present status=
+
+At present, there is no candidate theory of everything that includes the standard model of particle physics and general relativity. For example, no candidate theory is able to calculate the fine structure constant or the mass of the electron. Most particle physicists expect that the outcome of the ongoing experiments – the search for new particles at the large particle accelerators and for dark matter – are needed in order to provide further input for a TOE.
+
+Philosophy
+Main article|Theory of everything (philosophy)
+
+The philosophical implications of a physical TOE are frequently debated. For example, if philosophical physicalism is true, a physical TOE will coincide with a philosophical theory of everything.
+
+The Metaphysics#Styles and methods of metaphysics|"system building" style of metaphysics attempts to answer ''all'' the important questions in a coherent way, providing a complete picture of the world. Aristotle is the first and most noteworthy philosopher to have attempted such a comprehensive system in his Metaphysics.  While Aristotle made important contributions to all the sciences in terms of his method of logic and his first principle of causality, he was later demonized by later modern philosophers of the Enlightenment like Immanuel Kant who criticized him for his idea of God as first cause.  Isaac Newton and his Mathematical Principles of Natural Philosophy constituted the most all encompassing attempt at a theory of everything up until the twentieth century and Albert Einstein's General Theory of Relativity. After David Hume's attacks upon the inductive method utilized in all the sciences, the German idealism|German Idealists such as Kant and G.W.F. Hegel - and the many philosophical reactions they inspired - took a decided turn away from natural philosophy and the physical sciences and focused instead on issues of perception, cognition, consciousness and ultimately language.
+
+Arguments against
+
+In parallel to the intense search for a TOE, various scholars have seriously debated the possibility of its discovery.
+
+=Gödel's incompleteness theorem=
+A number of scholars claim that Gödel's incompleteness theorem suggests that any attempt to construct a TOE is bound to fail. Gödel's theorem, informally stated, asserts that any formal theory expressive enough for elementary arithmetical facts to be expressed and strong enough for them to be proved is either inconsistent (both a statement and its denial can be derived from its axioms) or incomplete, in the sense that there is a true statement that can't be derived in the formal theory.
+
+Stanley Jaki, in his 1966 book ''The Relevance of Physics'', pointed out that, because any "theory of everything" will certainly be a consistent non-trivial mathematical theory, it must be incomplete. He claims that this dooms searches for a deterministic theory of everything.<ref>
+cite book
+ |last=Jaki |first=S.L.
+ |date=1966
+ |pages=127–130
+ |title=The Relevance of Physics
+ |publisher=Chicago Press
+ </ref>
+
+Freeman Dyson has stated that "Gödel's theorem implies that pure mathematics is inexhaustible. No matter how many problems we solve, there will always be other problems that cannot be solved within the existing rules. […] Because of Gödel's theorem, physics is inexhaustible too. The laws of physics are a finite set of rules, and include the rules for doing mathematics, so that Gödel's theorem applies to them."<ref>Freeman Dyson, NYRB, May 13, 2004</ref>
+
+Stephen Hawking was originally a believer in the Theory of Everything but, after considering Gödel's Theorem, concluded that one was not obtainable: "Some people will be very disappointed if there is not an ultimate theory, that can be formulated as a finite number of principles. I used to belong to that camp, but I have changed my mind."<ref>Stephen Hawking, [http://www.damtp.cam.ac.uk/strings02/dirac/hawking/ Gödel and the end of physics], July 20, 2002</ref>
+
+Jürgen Schmidhuber (1997) has argued against this view; he points out that Gödel's theorems are irrelevant for computable physics.<ref>
+cite book
+ |last=Schmidhuber |first=Jürgen
+ |date=1997
+ |title=A Computer Scientist's View of Life, the Universe, and Everything. Lecture Notes in Computer Science
+ |volume=1337
+ |url=http://www.idsia.ch/~juergen/everything/
+ |pages=201–208
+ |publisher=Springer (publisher)|Springer
+ |isbn=978-3-540-63746-2
+ |doi=10.1007/BFb0052071
+|series=Lecture Notes in Computer Science
+ </ref> In 2000, Schmidhuber explicitly constructed limit-computable, deterministic universes whose pseudo-randomness based on undecidable problem|undecidable, Gödel-like halting problems is extremely hard to detect but does not at all prevent formal TOEs describable by very few bits of information.<ref>
+Cite journal
+ |author=Schmidhuber, Jürgen
+ |date=2002
+ |title=Hierarchies of generalized Kolmogorov complexities and nonenumerable universal measures computable in the limit
+ |journal=International Journal of Foundations of Computer Science
+ |volume=13
+ |issue=4
+ |pages=587–612
+ |arxiv=quant-ph/0011122
+ |bibcode=2000quant.ph.11122S
+ |doi=10.1142/s0129054102001291
+</ref>
+
+Related critique was offered by Solomon Feferman,<ref>
+cite web
+ |last=Feferman |first=Solomon
+ |url=http://math.stanford.edu/~feferman/papers/Godel-IAS.pdf
+ |title=The nature and significance of Gödel's incompleteness theorems
+ |publisher=Institute for Advanced Study
+ |date=17 November 2006
+ |accessdate=2009-01-12
+</ref> among others. Douglas S. Robertson offers Conway's game of life as an example:<ref>
+cite journal
+ |last=Robertson |first=Douglas S.
+ |date=2007
+ |title=Goedel's Theorem, the Theory of Everything, and the Future of Science and Mathematics
+ |journal=Complexity (journal)|Complexity
+ |volume=5 |pages=22–27
+ |doi=10.1002/1099-0526(200005/06)5:5<22::AID-CPLX4>3.0.CO;2-0
+ |issue=5
+|bibcode=2000Cmplx...5e..22R</ref> The underlying rules are simple and complete, but there are formally undecidable questions about the game's behaviors. Analogously, it may (or may not) be possible to completely state the underlying rules of physics with a finite number of well-defined laws, but there is little doubt that there are questions about the behavior of physical systems which are formally undecidable on the basis of those underlying laws.
+
+Since most physicists would consider the statement of the underlying rules to suffice as the definition of a "theory of everything", most physicists argue that Gödel's Theorem does ''not'' mean that a TOE cannot exist. On the other hand, the scholars invoking Gödel's Theorem appear, at least in some cases, to be referring not to the underlying rules, but to the understandability of the behavior of all physical systems, as when Hawking mentions arranging blocks into rectangles, turning the computation of prime numbers into a physical question.<ref>
+cite web
+ |last=Hawking |first=Stephen
+ |date=20 July 2002
+ |title=Gödel and the end of physics
+ |url=http://www.damtp.cam.ac.uk/strings02/dirac/hawking/
+ |accessdate=2009-12-01
+</ref> This definitional discrepancy may explain some of the disagreement among researchers.
+
+=Fundamental limits in accuracy=
+
+No physical theory to date is believed to be precisely accurate. Instead, physics has proceeded by a series of "successive approximations" allowing more and more accurate predictions over a wider and wider range of phenomena. Some physicists believe that it
+is therefore a mistake to confuse theoretical models with the true nature of reality, and
+hold that the series of approximations will never terminate in the "truth". Einstein himself
+expressed this view on occasions.<ref>Einstein, letter to Felix Klein, 1917. (On determinism and approximations.) Quoted in Pais (1982), Ch. 17.</ref> Following this view, we may reasonably hope for ''a'' theory of everything which self-consistently incorporates all currently known forces, but we should not expect it to be the final answer.
+
+On the other hand, it is often claimed that, despite the apparently ever-increasing complexity of the mathematics of each new theory, in a deep sense associated with their underlying gauge symmetry and the number of dimensionless physical constants, the theories are becoming simpler. If this is the case, the process of simplification cannot continue indefinitely.
+
+=Lack of fundamental laws=
+There is a philosophical debate within the physics community as to whether a theory of everything deserves to be called ''the'' fundamental law of the universe.<ref>Weinberg (1993), Ch 2.</ref> One view is the hard reductionist position that the TOE is the fundamental law and that all other theories that apply within the universe are a consequence of the TOE. Another view is that emergence|emergent laws, which govern the behavior of complex systems, should be seen as equally fundamental. Examples of emergent laws are the second law of thermodynamics and the theory of natural selection. The advocates of emergence argue that emergent laws, especially those describing complex or living systems are independent of the low-level, microscopic laws. In this view, emergent laws are as fundamental as a TOE.
+
+The debates do not make the point at issue clear. Possibly the only issue at stake is the right to apply the high-status term "fundamental" to the respective subjects of research. A well-known debate over this took place between Steven Weinberg and Philip Warren Anderson|Philip AndersonCitation needed|date=May 2010
+
+=Impossibility of being "of everything"=
+
+Although the name "theory of everything" suggests the determinism of Laplace's quotation, this gives a very misleading impression. Determinism is frustrated by the probabilistic nature of quantum mechanical predictions, by the extreme sensitivity to initial conditions that leads to Chaos theory|mathematical chaos, by the limitations due to event horizons, and by the extreme mathematical difficulty of applying the theory. Thus, although the current standard model of particle physics "in principle" predicts almost all known non-gravitational phenomena, in practice only a few quantitative results have been derived from the full theory (e.g., the masses of some of the simplest hadrons), and these results (especially the particle masses which are most relevant for low-energy physics) are less accurate than existing experimental measurements. The TOE would almost certainly be even harder to apply for the prediction of experimental results, and thus might be of limited use.
+
+A motive for seeking a TOE,citation needed|date=November 2010 apart from the pure intellectual satisfaction of completing a centuries-long quest, is that prior examples of unification have predicted new phenomena, some of which (e.g., electrical generators) have proved of great practical importance. And like in these prior examples of unification, the TOE would probably allow us to confidently define the domain of validity and residual error of low-energy approximations to the full theory.
+
+=Infinite number of onion layers=
+
+Frank Close regularly argues that the layers of nature may be like the layers of an onion, and that the number of layers might be infinite.<ref>cite book|title=The New Cosmic Onion: Quarks and the Nature of the Universe|first=search|last=results|date=17 December 2006|publisher=CRC Press|isbn = 978-1584887980</ref> This would imply an infinite sequence of physical theories.
+
+=Impossibility of calculation=
+Weinberg<ref>Weinberg (1993) p. 5</ref> points out that calculating the precise motion of an actual projectile in the Earth's atmosphere is impossible. So how can we know we have an adequate theory for describing the motion of projectiles? Weinberg suggests that we know ''principles'' (Newton's laws of motion and gravitation) that work "well enough" for simple examples, like the motion of planets in empty space. These principles have worked so well on simple examples that we can be reasonably confident they will work for more complex examples. For example, although general relativity includes equations that do not have exact solutions, it is widely accepted as a valid theory because all of its equations with exact solutions have been experimentally verified. Likewise, a TOE must work for a wide range of simple examples in such a way that we can be reasonably confident it will work for every situation in physics.
+
+See also
+Portal|Physics
+Colbegin|colwidth=30em
+* Absolute (philosophy)
+* Argument from beauty
+* Attractor
+* Black hole thermodynamics#Beyond black holes|Beyond black holes
+* Beyond the standard model
+* Big Bang
+* Bit-string physics
+* cGh physics
+* Chronology of the universe
+* Electroweak interaction
+* ER=EPR
+* Holographic principle
+* Mathematical beauty
+* Mathematical universe hypothesis
+* Multiverse
+* Penrose interpretation
+* Scale relativity
+* Standard Model (mathematical formulation)
+* Superfluid vacuum theory (SVT)
+* ''The Theory of Everything (2014 film)''
+* Timeline of the Big Bang
+* Unified field theory|Unified Field Theory
+* Zero-energy universe
+colend
+
+References
+
+=Footnotes=
+Reflist|35em
+
+=Bibliography=
+* Abraham Pais|Pais, Abraham (1982) ''Subtle is the Lord...: The Science and the Life of Albert Einstein'' (Oxford University Press, Oxford, . Ch. 17, ISBN|0-19-853907-X
+* Steven Weinberg|Weinberg, Steven (1993) ''Dreams of a Final Theory: The Search for the Fundamental Laws of Nature'', Hutchinson Radius, London, ISBN|0-09-177395-4
+
+External links
+wikiquote
+* [https://www.pbs.org/wgbh/nova/elegant/program.html The Elegant Universe], ''Nova (TV series)|Nova'' episode about the search for the theory of everything and string theory.
+* [http://www.vega.org.uk/video/programme/7 Theory of Everything], freeview video by the Vega Science Trust, BBC and Open University.
+* [http://iai.tv/video/the-theory-of-everything The Theory of Everything]: Are we getting closer, or is a final theory of matter and the universe impossible? Debate between John Ellis (physicist), Frank Close and Nicholas Maxwell.
+* [http://iai.tv/video/why-the-world-exists Why The World Exists], a discussion between physicist Laura Mersini-Houghton, cosmologist George Francis Rayner Ellis and philosopher David Wallace about dark matter, parallel universes and explaining why these and the present Universe exist.
+* [https://www.bbc.co.uk/programmes/p004y24b Theories of Everything], BBC Radio 4 discussion with Brian Greene, John Barrow & Val Gibson (''In Our Time'', Mar. 25, 2004)
+
+Theories of gravitation|selected=GR alternatives
+World view
+Standard model of physics
+
+Authority control
+
+Category:Physics beyond the Standard Model
+Category:Theoretical physics
+Category:Theories of gravitation

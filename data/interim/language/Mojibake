@@ -1,0 +1,344 @@
+more citations needed|date=May 2009
+File:Mojibakevector.png|thumb|400px|The UTF-8-encoded :ja:文字化け|Japanese Wikipedia article for ''mojibake'', as displayed if interpreted as Windows-1252 encoding.
+special characters
+
+Mojibake (lang|ja|文字化け; IPA-ja|mod͡ʑibake|IPA) is the garbled text that is the result of text being decoded using an unintended character encoding.<ref name="ieee">"[https://dx.doi.org/10.1109/MSPEC.2012.6221090 Will Unicode soon be the universal code?]" ''IEEE Spectrum'', vol. 49, issue 7, p. 60 (July 2012).  ''The advantage of Unicode is that if everyone adopted it, it would eradicate the problem of mojibake, Japanese for "character transformation." Mojibake is the jumble that results when characters are encoded in one system but decoded in another.''</ref> The result is a systematic replacement of symbols with completely unrelated ones, often from a different writing system.
+
+This display may include the generic Specials (Unicode block)#Replacement character|replacement character ("�") in places where the binary representation is considered invalid. A replacement can also involve multiple consecutive symbols, as viewed in one encoding, when the same binary code constitutes one symbol in the other encoding. This is either because of differing constant length encoding (as in Asian 16-bit encodings vs European 8-bit encodings), or the use of variable length encodings (notably UTF-8 and UTF-16).
+
+Failed rendering of glyphs due to either missing fonts or missing glyphs in a font is a different issue that is not to be confused with mojibake. Symptoms of this failed rendering include blocks with the code point displayed in hexadecimal or using the generic replacement character ("�"). Importantly, these replacements are ''valid'' and are the result of correct error handling by the software.
+
+Etymology
+''Mojibake'' means "character transformation" in Japanese (language)|Japanese. The word is composed of lang|ja|文字 (moji, IPA-ja|mod͡ʑi|IPA), "character" and lang|ja|化け (bake, IPA-ja|bake|IPA, pronounced "bah-keh"), "transform".
+
+Causes
+To correctly reproduce the original text that was encoded, the correspondence between the encoded data and the notion of its encoding must be preserved. As mojibake is the instance of non-compliance between these, it can be achieved by manipulating the data itself, or just relabeling it.
+
+Mojibake is often seen with text data that have been tagged with a wrong encoding; it may not even be tagged at all, but moved between computers with different default encodings. A major source of trouble are communication protocols that rely on settings on each computer rather than sending or storing metadata together with the data.
+
+The differing default settings between computers are in part due to differing deployments of Unicode among operating system families, and partly the legacy encodings' specializations for different writing systems of human languages. Whereas Linux distributions mostly switched to UTF-8 in 2004,<ref>cite web |last1=WINDISCHMANN |first1=Stephan |title=curl -v linux.ars (Internationalization) |url=https://arstechnica.com/information-technology/2004/03/linux-20040331/ |website=Ars Technica |accessdate=5 October 2018 |language=en-us |date=31 March 2004</ref> Microsoft Windows still uses codepages for text files that differ between languages.disputed inline|Windows and Unicode|date=January 2018
+
+For some writing systems, an example being Japanese script|Japanese, several encodings have historically been employed, causing users to see mojibake relatively often. As a Japanese example, the word ''mojibake'' "文字化け" stored as EUC-JP might be incorrectly displayed as "ﾊｸｻ&#65533;ｽ､ｱ", "ﾊｸｻ嵂ｽ､ｱ" (Windows-31J|MS-932), or "ﾊｸｻ郾ｽ､ｱ" (Shift JIS-2004). The same text stored as UTF-8 is displayed as "譁&#65533;蟄怜喧縺&#65533;" if interpreted as Shift JIS. This is further exacerbated if other locales are involved: the same UTF-8 text appears as "æ–‡å—åŒ–ã‘" in software that assumes text to be in the Windows-1252 or ISO-8859-1 encodings, usually labelled Western, or (for example) as "鏂囧瓧鍖栥亼" if interpreted as being in a GBK (character encoding)|GBK (Mainland China) locale.
+
+=Underspecification=
+If the encoding is not specified, it is up to the software to decide it by other means. Depending on the type of software, the typical solution is either configuration or charset detection heuristics. Both are prone to mis-prediction in not-so-uncommon scenarios.
+
+The encoding of text files is usually governed by the Operating system|OS-level setting, which depends on brand of operating system and possibly the user's language. Therefore, the assumed encoding is systematically wrong for files that come from a computer with a different setting, for example when transferring files between Windows and Linux. One solution is to use a byte order mark, but for source code and other machine readable text, many parsers don't tolerate this. Another is storing the encoding as metadata in the file system. File systems that support extended file attributes can store this as <code>user.charset</code>.<ref>cite web|title=Guidelines for extended attributes|url=http://www.freedesktop.org/wiki/CommonExtendedAttributes|date=2013-05-17|accessdate=2015-02-15</ref> This also requires support in software that wants to take advantage of it, but does not disturb other software.
+
+While a few encodings are easy to detect, in particular UTF-8, there are many that are hard to distinguish (see charset detection). A web browser may not be able to distinguish a page coded in EUC-JP and another in Shift-JIS if the coding scheme is not assigned explicitly using HTTP headers sent along with the documents, or using the HTML document's meta tags that are used to substitute for missing HTTP headers if the server cannot be configured to send the proper HTTP headers; see character encodings in HTML.
+
+=Mis-specification=
+Mojibake also occurs when the encoding is wrongly specified. This often happens between encodings that are similar. For example, the Eudora (e-mail client)|Eudora email client for Microsoft Windows|Windows was known to send emails labelled as ISO-8859-1 that were in reality Windows-1252.<ref>cite web|url=https://www.unicode.org/mail-arch/unicode-ml/y2001-m07/0355.html|title=Unicode mailinglist on the Eudora email client|date=2001-05-13|accessdate=2014-11-01</ref> The Mac OS version of Eudora did not exhibit this behaviour. Windows-1252 contains extra printable characters in the C1 control codes|C1 range (the most frequently seen being the typographically correct quotation marks and dashes), that were not displayed properly in software complying with the ISO standard; this especially affected software running under other operating systems such as Unix.
+
+Human ignorance
+Of the encodings still in use, many are partially compatible with each other, with ASCII as the predominant common subset. This sets the stage for human ignorance:
+* Compatibility can be a deceptive property, as the common subset of characters are unaffected by a mixup of two encodings (see #Problems in different writing systems|Problems in different writing systems).
+* People think they are using ASCII, and tend to label whatever superset of ASCII they actually use as "ASCII". Maybe for simplification, but even in academic literature, the word "ASCII" can be found used as an example of something ''not'' compatible with Unicode, where evidently "ASCII" is Windows-1252 and "Unicode" is UTF-8.<ref name="ieee"/> Note that UTF-8 ''is'' backwards compatible with ASCII.
+
+=Overspecification=
+When there are layers of protocols, each trying to specify the encoding based on different information, the least certain information may be misleading to the recipient.
+For example, consider a web server serving a static HTML file over HTTP. The character set may be communicated to the client in any number of 3 ways:
+* in the HTTP header. This information can be based on server configuration (for instance, when serving a file off disk) or controlled by the application running on the server (for dynamic websites).
+* in the file, as an Meta element|HTML meta tag (<code>http-equiv</code> or <code>charset</code>) or the <code>encoding</code> attribute of an XML declaration. This is the encoding that the author meant to save the particular file in.
+* in the file, as a byte order mark. This is the encoding that the author's editor actually saved it in. Unless an accidental encoding conversion has happened (by opening it in one encoding and saving it in another), this will be correct. It is, however, only available in Unicode encodings such as UTF-8 or UTF-16.
+
+=Lack of hardware/software support=
+Much older hardware is typically designed to support only one character set and the character set typically cannot be altered. The character table contained within the display firmware will be localized to have characters for the country the device is to be sold in, and typically the table differs from country to country. As such, these systems will potentially display mojibake when loading text generated on a system from a different country. Likewise, many early operating systems do not support multiple encoding formats and thus will end up displaying mojibake if made to display non-standard text- early versions of Microsoft Windows and Palm OS for example, are localized on a per-country basis and will only support encoding standards relevant to the country the localized version will be sold in, and will display mojibake if a file containing a text in a different encoding format from the version that the OS is designed to support is opened.
+
+Resolutions
+
+Applications using UTF-8 as a default encoding may achieve a greater degree of interoperability because of its widespread use and backward compatibility with US-ASCII. UTF-8 also has the ability to be directly recognised by a simple algorithm, so that well written software should be able to avoid mixing UTF-8 up with other encodings.
+
+The difficulty of resolving an instance of mojibake varies depending on the application within which it occurs and the causes of it. Two of the most common applications in which mojibake may occur are web browsers and word processors. Modern browsers and word processors often support a wide array of character encodings. Browsers often allow a user to change their Browser engine|rendering engine's encoding setting on the fly, while word processors allow the user to select the appropriate encoding when opening a file. It may take some trial and error for users to find the correct encoding.
+
+The problem gets more complicated when it occurs in an application that normally does not support a wide range of character encoding, such as in a non-Unicode computer game. In this case, the user must change the operating system's encoding settings to match that of the game. However, changing the system-wide encoding settings can also cause Mojibake in pre-existing applications. In Windows XP or later, a user also has the option to use Microsoft AppLocale, an application that allows the changing of per-application locale settings. Even so, changing the operating system encoding settings is not possible on earlier operating systems such as Windows 98; to resolve this issue on earlier operating systems, a user would have to use third party font rendering applications.
+
+Problems in different writing systems
+
+=English=
+Mojibake in English texts generally occurs in punctuation, such as em dashes (&mdash;), en dashes (&ndash;), and curly quotes (“,”,‘,’), but rarely in character text, since most encodings agree with ASCII on the encoding of the English alphabet. For example, the pound sign "£" will appear as "Â£" if it was encoded by the sender as UTF-8 but interpreted by the recipient as CP1252 or ISO 8859-1. If iterated, this can lead to "Ã‚Â£", "Ãƒâ€šÃ‚Â£", "ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£", etc.
+
+Some computers did, in older eras, have vendor-specific encodings which caused mismatch also for English text.
+Commodore International|Commodore brand 8-bit computers used PETSCII encoding, particularly notable for ''inverting'' the upper and lower case compared to standard ASCII. PETSCII printers worked fine on other computers of the era, but flipped the case of all letters. IBM mainframes use the EBCDIC encoding which does not match ASCII at all.
+
+=Central and Eastern European=
+Users of Central Europe|Central and Eastern European languages can also be affected. Because most computers were not connected to any network during the mid- to late-1980s, there were different character encodings for every language with diacritical characters (see ISO/IEC 8859 and KOI-8), often also varying by operating system.
+
+File:Moya Strana Mojibake.jpg|thumb|Mojibake caused by a song title in Cyrillic (Moya Strana, Moya Bălgaria|Моя Страна) on a car audio system
+
+=Russian and other Cyrillic alphabets anchor|Russian and other Cyrillic-based scripts=<!-- A #-link leads to here from #Countries of the former Yugoslavia -->
+<!-- Deleted image removed: File:Letter to Russia with krokozyabry.jpg|thumb|right|Example of Mojibake corrected upon identification. -->
+Mojibake may be colloquially called ''krakozyabry'' (кракозя́бры IPA-ru|krɐkɐˈzʲæbrɪ̈|) in Russian language|Russian, which was and remains complicated by several systems for encoding Cyrillic.<ref>p. 141, ''Control + Alt + Delete: A Dictionary of Cyberslang'', Jonathon Keats, Globe Pequot, 2007, ISBN|1-59921-039-8.</ref>  The Soviet Union and early Russian Federation developed KOI character encodings|KOI encodings (Kod Obmena Informatsiey, Код Обмена Информацией, which translates to "Code for Information Exchange").  This began with Cyrillic-only 7-bit KOI7, based on ASCII but with Latin and some other characters replaced with Cyrillic letters.  Then came 8-bit KOI8 encoding that is an extended ASCII|ASCII extension which encodes Cyrillic letters only with high-bit set octets corresponding to 7-bit codes from KOI7. It is for this reason that KOI8 text, even Russian, remains partially readable after stripping the eighth bit, which was considered as a major advantage in the age of 8BITMIME-unaware email systems. For example, words "Школа русского языка" ''shkola russkogo yazyka'', encoded in KOI8 and then passed through the high bit stripping process, end up rendered as "[KOLA RUSSKOGO qZYKA". Eventually KOI8 gained different flavors for Russian/Bulgarian (KOI8-R), Ukrainian (KOI8-U), Belarusian alphabet|Belarusian (KOI8-RU) and even Tajik Cyrillic alphabet|Tajik (KOI8-T).
+
+Meanwhile, in the West, Code page 866 supported Ukrainian language|Ukrainian and Belarusian language|Belarusian as well as Russian/Bulgarian language|Bulgarian in MS-DOS.  For Microsoft Windows, Windows-1251|Code Page 1251 added support for Serbian Cyrillic alphabet|Serbian and Cyrillic alphabet variants#Slavic languages|other Slavic variants of Cyrillic.
+
+Most recently, the Cyrillic Unicode block|Unicode encoding includes code points for practically all the characters of all the world's languages, including all Cyrillic characters.
+
+Before Unicode, it was necessary to match text encoding with a font using the same encoding system. Failure to do this produced unreadable gibberish whose specific appearance varied depending on the exact combination of text encoding and font encoding.  For example, attempting to view non-Unicode Cyrillic text using a font that is limited to the Latin alphabet, or using the default ("Western") encoding, typically results in text that consists almost entirely of vowels with diacritical marks. (KOI8 "Библиотека" (''biblioteka'', library) becomes "âÉÂÌÉÏÔÅËÁ".) Using Windows codepage 1251 to view text in KOI8 or vice versa results in garbled text that consists mostly of capital letters (KOI8 and codepage 1251 share the same ASCII region, but KOI8 has uppercase letters in the region where codepage 1251 has lowercase, and vice versa). In general, Cyrillic gibberish is symptomatic of using the wrong Cyrillic font. During the early years of the Russian sector of the World Wide Web, both KOI8 and codepage 1251 were common. As of 2017, one can still encounter HTML pages in codepage 1251 and, rarely, KOI8 encodings, as well as Unicode. (An estimated 1.7% of all web pages worldwide – all languages included – are encoded in codepage 1251.<ref>cite web|url=https://w3techs.com/technologies/details/en-windows1251/all/all|title=Usage of Windows-1251 for websites</ref>)  Though the HTML standard includes the ability to specify the encoding for any given web page in its source,<ref>cite web|url=https://www.w3schools.com/TAGs/att_meta_charset.asp|title=Declaring character encodings in HTML</ref> this is sometimes neglected, forcing the user to switch encodings in the browser manually.
+
+In Bulgarian language|Bulgarian, mojibake is often called ''majmunica'' (маймуница), meaning "monkey's [alphabet]". In Serbian language|Serbian, it is called ''đubre'' (ђубре), meaning "waste|trash". Unlike the former USSR, South Slavs never used something like KOI8, and Code Page 1251 was the dominant Cyrillic encoding there before Unicode. Therefore, these languages experienced fewer encoding incompatibility troubles than Russian. In the 1980s, Bulgarian computers used their own MIK Code page|MIK encoding, which is superficially similar to (although incompatible with) CP866.
+
+{| class="wikitable"
+|+Example
+|- class="hintergrundfarbe6"
+!colspan="2" style="text-align:center"| Russian example: 
+!style="text-align:center"| Кракозябры (krakozyabry, garbage characters)
+|-
+!File encoding!!Setting in browser!!Result
+|-
+| Code page 855|MS-DOS 855 || ISO 8859-1 || Æá ÆÖóÞ¢áñ
+|-
+| KOI8-R || ISO 8859-1 || ëÒÁËÏÚÑÂÒÙ
+|-
+| UTF-8 || KOI8-R || п я─п╟п╨п╬п╥я▐п╠я─я▀
+|}
+
+=Polish=
+Prior to the creation of ISO 8859-2 in 1987, users of various computing platforms used their own Polish code pages|character encodings such as AmigaPL on Amiga, Atari Club on Atari ST and Masovia, IBM CP852, Mazovia encoding|Mazovia and Windows-1250|Windows CP1250 on IBM PCs. Polish companies selling early DOS computers created their own mutually-incompatible ways to encode Polish characters and simply reprogrammed the EPROMs of the video cards (typically Color Graphics Adapter|CGA, Enhanced Graphics Adapter|EGA, or Hercules Graphics Card|Hercules) to provide hardware code pages with the needed glyphs for Polish—arbitrarily located without reference to where other computer sellers had placed them.
+
+The situation began to improve when, after pressure from academic and user groups, ISO 8859-2 succeeded as the "Internet standard" with limited support of the dominant vendors' software (today largely replaced by Unicode). With the numerous problems caused by the variety of encodings, even today some users tend to refer to Polish diacritical characters as ''krzaczki'' ([kshach-kih], lit. "little shrubs").
+
+=Yugoslav languages=
+Croatian language|Croatian, Bosnian language|Bosnian, Serbian language|Serbian (the variants of the Yugoslav Serbo-Croatian language) and Slovene language|Slovenian add to the basic Latin alphabet the letters š, đ, č, ć, ž, and their capital counterparts Š, Đ, Č, Ć, Ž (only č/Č, š/Š and ž/Ž in Slovenian; officially, although others are used when needed, mostly in foreign names, as well). All of these letters are defined in ISO/IEC 8859-2|Latin-2 and Windows-1250, while only some (š, Š, ž, Ž, Đ) exist in the usual OS-default Windows-1252, and are there because of some other languages.
+
+Although Mojibake can occur with any of these characters, the letters that are not included in Windows-1252 are much more prone to errors. Thus, even nowadays, "šđčćž ŠĐČĆŽ" is often displayed as "šðèæž ŠÐÈÆŽ", although ð, è, æ, È, Æ are never used in Slavic languages.
+
+When confined to basic ASCII (most user names, for example), common replacements are: š→s, đ→dj, č→c, ć→cj, ž→z (capital forms analogously, with Đ→Dj or Đ→DJ depending on word case). All of these replacements introduce ambiguities, so reconstructing the original from such a form is usually done manually if required.
+
+The Windows-1252 encoding is important because the English versions of the Windows operating system are most widespread, not localized ones.citation needed|date=December 2014 The reasons for this include a relatively small and fragmented market, increasing the price of high quality localization, a high degree of software piracy (in turn caused by high price of software compared to income), which discourages localization efforts, and people preferring English versions of Windows and other software .citation needed|date=August 2013
+
+The drive to Differences between standard Bosnian, Croatian and Serbian|differentiate Croatian from Serbian, Bosnian from Croatian and Serbian, and now even Montenegrin alphabet|Montenegrin from the other three creates many problems. There are many different localizations, using different standards and of different quality. There are no common translations for the vast amount of computer terminology originating in English. In the end, people use adopted English words ("kompjuter" for "computer", "kompajlirati" for "compile," etc.), and if they are unaccustomed to the translated terms may not understand what some option in a menu is supposed to do based on the translated phrase. Therefore, people who understand English, as well as those who are accustomed to English terminology (who are most, because English terminology is also mostly taught in schools because of these problems) regularly choose the original English versions of non-specialist software.
+
+When Cyrillic script is used (for Macedonian language|Macedonian and partially Serbian language|Serbian), the problem is similar to #Russian and other Cyrillic-based scripts|other Cyrillic-based scripts.
+
+Newer versions of English Windows allow the ANSI codepage to be changed (older versions require special English versions with this support), but this setting can be and often was incorrectly set. For example, Windows 98/Me can be set to most non-right-to-left SBCS|single-byte codepages including 1250, but only at install time.
+
+=Hungarian=
+Hungarian language|Hungarian is another affected language, which uses the 26 basic English characters, plus the accented forms á, é, í, ó, ú, ö, ü (all present in the Latin-1 character set), plus the two characters ő and ű, which are not in Latin-1. These two characters can be correctly encoded in Latin-2, Windows-1250 and Unicode. Before Unicode became common in e-mail clients, e-mails containing Hungarian text often had the letters ő and ű corrupted, sometimes to the point of unrecognizability. It is common to respond to an e-mail rendered unreadable (see examples below) by character mangling (referred to as "betűszemét", meaning "garbage lettering") with the phrase "Árvíztűrő tükörfúrógép", a nonsense phrase (literally "Flood-resistant mirror-drilling machine") containing all accented characters used in Hungarian.
+
+Examples
+{| class="wikitable" width="90%"
+! Source encoding !! Target encoding !! width="250px" | Result !! Occurrence
+|-
+! colspan="2" | Hungarian example
+| ÁRVÍZTŰRŐ TÜKÖRFÚRÓGÉP<br/>árvíztűrő tükörfúrógép
+|-
+! CP 852 !! CP 437
+| ╡RV╓ZTδRè TÜKÖRFΘRαGÉP<br/>árvízt√rï tükörfúrógép
+| This was very common in DOS-era when the text was encoded by the Central European CP 852 encoding; however, the operating system, a software or printer (computing)|printer used the default CP 437 encoding. Please note that small-case letters are mainly correct, exception with ő (ï) and ű (√). Ü/ü is correct because CP 852 was made compatible with German. Nowadays occurs mainly on printed prescriptions and cheques.
+|-
+! CWI-2 !! CP 437
+| ÅRVìZTÿRº TÜKÖRFùRòGÉP<br/>árvíztûrô tükörfúrógép
+| The CWI-2 encoding was designed so that the text remains fairly well-readable even if the display or printer uses the default CP 437 encoding. This encoding was heavily used in the 1980s and early 1990s, but nowadays it is completely deprecated.
+|-
+! Windows-1250 !! Windows-1252
+| ÁRVÍZTÛRÕ TÜKÖRFÚRÓGÉP<br/>árvíztûrõ tükörfúrógép
+| The default Western Windows encoding is used instead of the Central-European one. Only ő-Ő (õ-Õ) and ű-Ű (û-Û) are wrong, but the text is completely readable. This is the most common error nowadays; due to ignorance, it occurs often on webpages or even in printed media.
+|-
+! CP 852 !! Windows-1250
+| µRVÖZTëRŠ TšK™RFéRŕGP<br/>  rvˇztűr‹ tk"rfŁr˘g‚p
+| Central European Windows encoding is used instead of DOS encoding. The use of ű is correct.
+|-
+! Windows-1250 !! CP 852
+| ┴RV═ZT█RŇ T▄KÍRF┌RËG╔P<br/>ßrvÝztűr§ tŘk÷rf˙rˇgÚp
+| Central European DOS encoding is used instead of Windows encoding. The use of ű is correct.
+|-
+! Quoted-printable !! 8-bit clean|7-bit ASCII
+| =C1RV=CDZT=DBR=D5 T=DCK=D6RF=DAR=D3G=C9P<br/>=E1rv=EDzt=FBr=F5 t=FCk=F6rf=FAr=F3g=E9p
+| Mainly caused by wrongly configured mail servers but may occur in SMS messages on some cell-phones as well.
+|- id=HungarianUTF8
+! UTF-8 !! Windows-1252
+| ÃRVÃZTÅ°RÅ TÃœKÃ–RFÃšRÃ"GÃ‰P<br/>Ã¡rvÃztÅ±rÅ‘ tÃ¼kÃ¶rfÃºrÃ³gÃ©p
+| Mainly caused by wrongly configured web services or webmail clients, which were not tested for international usage (as the problem remains concealed for English texts). In this case the actual (often generated) content is in UTF-8; however, it is not configured in the HTML headers, so the rendering engine displays it with the default Western encoding.
+|}
+
+=Other Western European languages=
+The alphabets of the North Germanic languages, Catalan language|Catalan, Finnish language|Finnish, German language|German, French language|French, Portuguese language|Portuguese and Spanish language|Spanish are all extensions of the Latin alphabet. The additional characters are typically the ones that become corrupted, making texts only mildly unreadable with mojibake:
+*å, ä and ö in Finnish language|Finnish and Swedish language|Swedish
+*à, ç, è, é, ï, í, ò, ó, ú, ü in Catalan language|Catalan
+*å, æ and ø in Norwegian language|Norwegian and Danish language|Danish
+*á, é, ó, ý, è, ë, ï in Dutch language|Dutch
+*ä, ö, ü, and ß in German language|German
+*á, ð, í, ó, ú, ý, æ and ø in Faroese language|Faroese
+*á, ð, é, í, ó, ú, ý, þ, æ and ö in Icelandic language|Icelandic
+*à, â, ç, è, é, ë, ê, ï, î, ö, ô, ù, û, ÿ, æ, œ in French language|French
+*à, è, é, ì, ò, ù in Italian language|Italian
+*á, é, í, ñ, ó, ú, ï, ü, Inverted question and exclamation marks|¡, ¿ in Spanish language|Spanish
+*à, á, â, ã, ç, é, ê, í, ó, ô, õ, ú in Portuguese language|Portuguese (ü no longer used)
+*á, é, í, ó, ú in Irish language|Irish
+*£ in British English
+... and their uppercase counterparts, if applicable.
+
+These are languages for which the iso-8859-1 character set (also known as ''Latin 1'' or ''Western'') has been in use. However, iso-8859-1 has been obsoleted by two competing standards, the backward compatible windows-1252, and the slightly altered iso-8859-15. Both add the Euro sign € and the French œ, but otherwise any confusion of these three character sets does not create mojibake in these languages. Furthermore, it is always safe to interpret iso-8859-1 as windows-1252, and fairly safe to interpret it as iso-8859-15, in particular with respect to the Euro sign, which replaces the rarely used Currency sign (typography)|currency sign (¤). However, with the advent of UTF-8, mojibake has become more common in certain scenarios, e.g. exchange of text files between UNIX and Microsoft Windows|Windows computers, due to UTF-8's incompatibility with Latin-1 and Windows-1252. But UTF-8 has the ability to be directly recognised by a simple algorithm, so that well written software should be able to avoid mixing UTF-8 up with other encodings, so this was most common when many had software not supporting UTF-8. Most of these languages were supported by MS-DOS default CP437 and other machine default encodings, except ASCII, so problems when buying an operating system version were less common. Windows and MS-DOS are not compatible however.
+
+In Swedish, Norwegian, Danish and German, vowels are rarely repeated, and it is usually obvious when one character gets corrupted, e.g. the second letter in "kÃ⁠¤rlek" (''lang|sv|kärlek'', "love"). This way, even though the reader has to guess between å, ä and ö, almost all texts remain legible. Finnish text, on the other hand, does feature repeating vowels in words like ''lang|fi|hääyö'' ("wedding night") which can sometimes render text very hard to read (e.g. ''lang|fi|hääyö'' appears as "hÃ⁠¤Ã⁠¤yÃ⁠¶"). Icelandic and Faroese have ten and eight possibly confounding characters, respectively, which thus can make it more difficult to guess corrupted characters; Icelandic words like ''lang|is|þjóðlöð'' ("outstanding hospitality") become almost entirely unintelligible when rendered as "Ã¾jÃ³Ã°lÃ¶Ã°".
+
+In German, ''lang|de|Buchstabensalat'' ("letter salad") is a common term for this phenomenon, and in Spanish, ''lang|es|deformación'' (literally deformation).
+
+Some users transliterate their writing when using a computer, either by omitting the problematic diacritics, or by using digraph replacements (å → aa, ä/æ → ae, ö/ø → oe, ü → ue etc.).  Thus, an author might write "ueber" instead of "über", which is standard practice in German when umlaut (diacritic)|umlauts are not available. The latter practice seems to be better tolerated in the German language sphere than in the Nordic countries.  For example, in Norwegian, digraphs are associated with archaic Danish, and may be used jokingly.  However, digraphs are useful in communication with other parts of the world. As an example, the Norwegian football player Ole Gunnar Solskjær had his name spelled "SOLSKJAER" on his back when he played for Manchester United.
+
+An artifact of UTF-8 misinterpreted as ISO-8859-1, "Ring meg nÃ¥" ("lang|no|Ring meg nå"), was seen in an SMS scam raging in Norway in June 2014.<ref>cite web|title=sms-scam|url=http://tv2.no/2014/06/18/nyheter/5718240|date=June 18, 2014|accessdate=June 19, 2014</ref>
+{| class="wikitable"
+|+Examples
+|- class="hintergrundfarbe6"
+!colspan="2" style="text-align:center"| Swedish example:
+|:sv:Smörgås|Smörgås (Open sandwich)
+|-
+!File encoding!!Setting in browser!!Result
+|-
+| Code page 437|MS-DOS 437 || ISO 8859-1 || Sm"rg†s
+|-
+| ISO 8859-1 || Mac OS Roman|Mac Roman || SmˆrgÂs
+|-
+| UTF-8 || ISO 8859-1 || SmÃ¶rgÃ¥s
+|-
+| UTF-8 || Mac Roman || Sm√∂rg√•s
+|}
+
+=Caucasian languages=
+The writing systems of certain languages of the Caucasus region, including the scripts of Georgian language|Georgian and Armenian language|Armenian, may produce mojibake. This problem is particularly acute in the case of ArmSCII or ARMSCII, a set of obsolete character encodings for the Armenian alphabet which have been superseded by Unicode standards. ArmSCII is not widely used because of a lack of support in the computer industry. For example, Microsoft Windows does not support it.
+
+=Asian encodings=
+Another type of mojibake occurs when text is erroneously parsed in a multi-byte encoding, such as one of the encodings for East Asian languages. With this kind of mojibake more than one (typically two) characters are corrupted at once, e.g. "k舐lek" (''kärlek'') in Swedish, where "är" is parsed as "舐". Compared to the above mojibake, this is harder to read, since letters unrelated to the problematic å, ä or ö are missing, and is especially problematic for short words starting with å, ä or ö such as "än" (which becomes "舅"). Since two letters are combined, the mojibake also seems more random (over 50 variants compared to the normal three, not counting the rarer capitals). In some rare cases, an entire text string which happens to include a pattern of particular word lengths, such as the sentence "Bush hid the facts", may be misinterpreted.
+
+Japanese
+Main|Japanese language and computers
+In Japanese language|Japanese, the phenomenon is, as mentioned, called nihongo|''mojibake''|文字化け. It is a particular problem in Japan due to the numerous different encodings that exist for Japanese text. Alongside Unicode encodings like UTF-8 and UTF-16, there are other standard encodings, such as Shift-JIS (Windows machines) and EUC-JP (UNIX systems). Mojibake, as well as being encountered by Japanese users, is also often encountered by non-Japanese when attempting to run software written for the Japanese market.
+
+Chinese
+In Chinese language|Chinese, the same phenomenon is called ''Luàn mǎ'' (Pinyin, Simplified Chinese lang|zh-Hans|乱码, Traditional Chinese lang|zh-Hant|亂碼, meaning chaotic code), and can occur when computerised text is encoded in one Chinese character encoding but is displayed using the wrong encoding.  When this occurs, it is often possible to fix the issue by switching the character encoding without loss of data.  The situation is complicated because of the existence of several Chinese character encoding systems in use, the most common ones being: Unicode, Big5, and Guobiao code|Guobiao (with several backward compatible versions), and the possibility of Chinese characters being encoded using Japanese encoding.
+
+It is easy to identify the original encoding when ''luanma'' occurs in Guobiao encodings: 
+{| class="wikitable"
+!Original encoding
+!Viewed as 
+!Result
+!Original text
+!Note
+|-
+|Big5
+|GB
+|PUA|&#xe5fa;瓣в&#xe76b;&#xe76b;&#xe07f;&#xe5f5;&#xe661;眏&#xe008;
+|三國志１１威力加強版
+|Lots of blank or undisplayable characters with occasional Chinese characters
+|-
+|Shift-JIS
+|GB
+|暥帤壔偗僥僗僩
+|文字化けテスト
+|Kana is displayed as characters with the radical 亻, while kanji are other characters. Most of them are extremely uncommon and not in practical use in modern Chinese.
+|-
+|EUC-KR
+|GB
+|叼力捞钙胶 抛农聪墨
+|디제이맥스 테크니카
+|Random common Simplified Chinese characters which in most cases make no sense. Easily identifiable because of spaces between every several characters.
+|}
+
+An additional problem is caused when encodings are missing characters, which is common with rare or antiquated characters that are still used in personal or place names. Examples of this are Taiwanese politicians Wang Chien-shien (zh|c=王建煊|p=Wáng Jiànxuān|links=no)'s "煊", Yu Shyi-kun (zh|t=游錫堃|s=游锡堃|p=Yóu Xíkūn|links=no)'s "堃" and singer David Tao (zh|t=陶喆|p=Táo Zhé|links=no)'s "喆" missing in Big5, ex-PRC Premier Zhu Rongji (zh|c=朱镕基|p=Zhū Róngjī|links=no)'s "镕" missing in GB2312, copyright symbol|copyright symbol "©" missing in GBK (character encoding)|GBK.<ref>cite web |url=http://www.microsoft.com/typography/unicode/936.txt |archiveurl=https://web.archive.org/web/20021001194325/http://www.microsoft.com/typography/unicode/936.txt |title=PRC GBK (XGB) |archivedate=2002-10-01 |deadurl=yes Conversion map between Code page 936 (Microsoft Windows)|Code page 936 and Unicode. Need manually selecting GB18030 or GBK in browser to view it correctly.</ref>
+
+Newspapers have dealt with this problem in various ways, including using software to combine two existing, similar characters; using a picture of the personality; or simply substituting a homophone for the rare character in the hope that the reader would be able to make the correct inference.
+
+=Indic text=
+A similar effect can occur in Brahmic scripts|Brahmic or Indic scripts of South Asia, used in such Indo-Aryan languages|Indo-Aryan or Indic languages as Hindustani language|Hindustani (Hindi-Urdu), Bengali language|Bengali, Punjabi language|Punjabi, Marathi language|Marathi, and others, even if the character set employed is properly recognized by the application.  This is because, in many Indic scripts, the rules by which individual letter symbols combine to create symbols for syllables may not be properly understood by a computer missing the appropriate software, even if the glyphs for the individual letter forms are available.
+
+A particularly notable example of this is the old Logo of Wikipedia|Wikipedia logo, which attempts to show the character analogous to "wi" (the first syllable of "Wikipedia") on each of many puzzle pieces.  The puzzle piece meant to bear the Devanagari character for "wi" instead used to display the "wa" character followed by an unpaired "i" diacritic|modifier vowel, easily recognizable as mojibake generated by a computer not configured to display Indic text.<ref name="NYTimes">Cite news|title=Some Errors Defy Fixes: A Typo in Wikipedia’s Logo Fractures the Sanskrit|last=Cohen|first=Noam|url=https://www.nytimes.com/2007/06/25/technology/25wikipedia.html?_r=2&oref=slogin|date=June 25, 2007|accessdate=July 17, 2009|work=The New York Times</ref> The logo as redesigned as of|2010|05|lc=y|url=http://en.wikipedia.org/wiki/Logo_of_Wikipedia#Current_logo has fixed these errors.
+
+The idea of Plain Text requires the operating system to provide a font to display Unicode codes. This font is different from OS to OS for Singhala and it makes orthographically incorrect glyphs for some letters (syllables) across all operating systems. For instance, the 'reph', the short form for 'r' is a diacritic that normally goes on top of a plain letter. However, it is wrong to go on top of some letters like 'ya' or 'la' but it happens in all operating systems. This appears to be a fault of internal programming of the fonts. In Macintosh / iPhone, the muurdhaja l (dark l) and 'u' combination and its long form both yield wrong shapes.
+
+Some Indic and Indic-derived scripts, most notably Lao script|Lao, were not officially supported by Windows XP until the release of Windows Vista|Vista.<ref>cite web|url=http://msdn.microsoft.com/en-us/library/ms776260(VS.85).aspx |title=Content Moved (Windows) |publisher=Msdn.microsoft.com |date= |accessdate=2014-02-05</ref> However, various sites have made free-to-download fonts.
+
+=African languages=
+In certain writing systems of Africa, unencoded text is unreadable. Texts that may produce mojibake include those from the Horn of Africa such as the Ge'ez script in Ethiopia and Eritrea, used for Amharic, Tigre language|Tigre, and other languages, and the Somali language, which employs the Osmanya alphabet. In Southern Africa, the Mwangwego alphabet is used to write languages of Malawi and the Mandombe alphabet was created for the Democratic Republic of the Congo, but these are not generally supported. Various other writing systems native to West Africa present similar problems, such as the N'Ko alphabet, used for Manding languages in Guinea, and the Vai syllabary, used in Liberia.
+
+=Arabic=
+Another affected language is Arabic language|Arabic (see #Example|below). The text becomes unreadable when the encodings do not match.
+
+Examples
+{| class="wikitable"
+|- class="hintergrundfarbe6"
+!File encoding!!Setting in browser!!Result
+|-
+!colspan="2" style="text-align:center"| Arabic example:
+|File:Arabic example.svg|140px|link=|alt= (Universal Declaration of Human Rights)
+|-
+!colspan="2" style="text-align:center"| Browser rendering:
+|Lang|ar|الإعلان العالمى لحقوق الإنسان
+|-
+!rowspan="6"| UTF-8 || Windows-1252
+| ï»¿Ø§Ù"Ø¥Ø¹Ù"Ø§Ù† Ø§Ù"Ø¹Ø§Ù"Ù…Ù‰ Ù"ØÙ‚ÙˆÙ‚ Ø§Ù"Ø¥Ù†Ø³Ø§Ù†
+|-
+! KOI8-R
+| О╩©ь╖ы└ь╔ь╧ы└ь╖ы├ ь╖ы└ь╧ь╖ы└ы┘ы┴ ы└ь╜ы┌ы┬ы┌ ь╖ы└ь╔ы├ьЁь╖ы├
+|-
+! ISO 8859-5
+| яЛПиЇй�иЅиЙй�иЇй� иЇй�иЙиЇй�й�й� й�ий�й�й� иЇй�иЅй�иГиЇй�
+|-
+! CP 866
+| я╗┐╪з┘Д╪е╪╣┘Д╪з┘Ж ╪з┘Д╪╣╪з┘Д┘Е┘Й ┘Д╪н┘В┘И┘В ╪з┘Д╪е┘Ж╪│╪з┘Ж
+|-
+! ISO 8859-6
+| ُ؛؟ظ�ع�ظ�ظ�ع�ظ�ع� ظ�ع�ظ�ظ�ع�ع�ع� ع�ظع�ع�ع� ظ�ع�ظ�ع�ظ�ظ�ع�
+<!--|-
+! CP 852
+|-->
+|-
+! ISO 8859-2
+| ďťżŘ§Ů�ŘĽŘšŮ�Ř§Ů� Ř§Ů�ŘšŘ§Ů�Ů�Ů� Ů�ŘŮ�Ů�Ů� Ř§Ů�ŘĽŮ�ŘłŘ§Ů�
+|-
+!Windows-1256
+!Windows-1252
+|ÇáÅÚáÇä ÇáÚÇáãì áÍÞæÞ ÇáÅäÓÇä
+<!--|-
+! ASMO 708 ||-->
+<!-- all these samples, as Incnis Mrsi concluded, were made of UTF-8 Arabic.   why there are no other recoding paths? -->
+|}
+The examples in this article do not have UTF-8 as browser setting, because UTF-8 is easily recognisable, so if a browser supports UTF-8 it should recognise it automatically, and not try to interpret something else as UTF-8.
+
+See also
+* Code point 
+* Replacement character
+* Newline — The conventions for representing the line break differ between Windows and Unix systems. Though most software supports both conventions (which is trivial), software that must preserve or display the difference (e.g. version control systems and data comparison tools) can get substantially more difficult to use if not adhering to one convention.
+* Byte order mark — The most in-band way to store the encoding together with the data – prepend it. This is by intention invisible to humans using compliant software, but will by design be perceived as "garbage characters" to incompliant software (including many Interpreter (computing)|interpreters).
+* Character encodings in HTML|HTML entities — An encoding of special characters in HTML, mostly optional, but required for certain characters to Escape sequence|escape interpretation as markup.
+
+:While failure to apply this transformation is a vulnerability (see cross-site scripting), applying it too many times results in garbling of these characters. For example, the quotation mark <code>"</code> becomes <code>&amp;quot;</code>, <code>&amp;amp;quot;</code>, <code>&amp;amp;amp;quot;</code> and so on.
+:
+* Unreadable SMS / unexpected Text-messages|text messages :
+:Some people may receive short unreadable chinese text messages whereas the sender never sent any. Despite it may look like an hacking attempt, it's just a delivery confirmation coded with the wrong format. Example :
+:# Received text message = 浥獳慧攠⁴漠〱㈳㐵㘷㠹〠獵捣敥摥搮
+:# Converted<ref name=":0">cite web|title=Unicode code converter|url=https://r12a.github.io/apps/conversion/|language=en</ref> to UTF-16 = 6D65 7373 6167 6520 2074 6F20 3031 3233 3435 3637 3839 3020 7375 6363 6565 6465 642E
+:# Formatted in UTF-8 (spaces added) = 6D 65 73 73 61 67 65 20 20 74 6F 20 30 31 32 33 34 35 36 37 38 39 30 20 73 75 63 63 65 65 64 65 64 2E
+:# Converted from UTF-8 to characters<ref name=":0" /> = "message  to 01234567890 succeeded."
+
+References
+reflist
+
+External links
+cleanup|reason=full of spam|date=December 2017
+Wiktionary
+Commons category|Mojibake
+* [https://alexpad.com/textdecoder Universal Text Decoder] - knows how to fix broken and mixed text
+* [http://www.denbushi.net/?p=371 Avoiding Mojibake - Reprinted article from the Japan Times]
+* [http://coldfusion.sys-con.com/read/44480.htm Coldfusion Developers Guide article]
+* [http://www.gibberish.co.il/ Online decoder of Hebrew text] – Online decoder converts input into readable Hebrew text
+* [http://www.fumizuki.com/mojibake.html Translators guide]
+* [http://www.kanzaki.com/docs/jis-recover.html Recovery tool] – Recovery of Japanese text ja icon
+* [http://www.mandarintools.com/email.html Chinese E-mail Fixer] – Recovery of Chinese text
+* [http://www.mandarintools.com/zhcode.html Chinese Encoding Converter] - Convert file encoding of text files
+* [http://decodr.ru/ Decodr.ru] - Fast Cyrillic decoder of e-mail and charsets
+* [http://2cyr.com/decode/ Universal Cyrillic decoder] – Recovery of Cyrillic (and other) text
+* [http://www.online-decoder.com/ Multilingual online text decoder] – Online decoder converts scrambled input into readable text. Supported languages are Russian, Bulgarian, Greek, Hebrew and Thai.
+* [http://esperanto.pt/cx_tab.htm ''Noto pri ĉapeloj: Resuma tabelo''] – Covers most cases of Esperanto mojibake.
+* [http://www.cbootle.com/erk/erk.html Encoding Repair Kit] – Fixes mojibake, originally intended for Japanese. Windows freeware, 1998. Not compatible with Windows Vista or 7.
+* [http://krzaki.blizinski.pl/ Krzaki krzaki krzaki] &ndash; Online decoder for Polish mojibake cases.
+* [https://www.cqse.eu/en/blog/no-such-thing-as-plain-text/ No Such Thing As Plain Text] &ndash; Developers' Guide for A Better Handling of Text Encoding
+* [http://padma.mozdev.org/ Padma: Transformer for Indic Scripts] &ndash; [https://github.com/psjinx/padma source code] is on GitHub
+* [https://github.com/LuminosoInsight/python-ftfy ftfy] &ndash; Python library that "fixes Unicode that's broken in various ways".
+* [http://www.enderminh.com/minh/vnconversions.aspx Vietnamese Conversions]snd online tool for recovering Vietnamese mojibake
+
+Character encoding
+
+Category:Character encoding
+Category:Computer errors
+Category:Nonsense

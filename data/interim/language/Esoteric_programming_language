@@ -1,0 +1,225 @@
+technical|date=October 2017
+An esoteric programming language (sometimes shortened to esolang) is a programming language designed to test the boundaries of computer programming language design, as a proof of concept, as software art, as a hacking interface to another language (particularly functional programming or procedural programming languages), or as a joke.  The use of ''wiktionary:esoteric|esoteric'' distinguishes these languages from programming languages that working developers use to write software. Usually, an esolang's creators do not intend the language to be used for mainstream programming, although some esoteric features, such as visuospatial syntax (programming languages)|syntax,<ref>McLean, A., Griffiths, D., Collins, N., and Wiggins, G. (2010). "Visualisation of Live Code". In ''Electronic Visualisation and the Arts'', London: 2010.</ref>  have inspired practical applications in the arts.  Such languages are often popular among Hacker (hobbyist)|hackers and hobbyists.
+
+Usability is rarely a goal for esoteric programming language designers—often it is quite the opposite.  Their usual aim is to remove or replace conventional language features while still maintaining a language that is Turing-complete, or even one for which the Computability theory (computer science)|computational class is unknown.
+
+History
+The earliest, and still the canonical example of an esoteric language was INTERCAL,<ref>Matthew Fuller, [https://mitpress.mit.edu/books/software-studies Software Studies], MIT Press, 2008</ref> designed in 1972 by Don Woods (programmer)|Don Woods and James M. Lyon, with the stated intention of being unlike any other programming language the authors were familiar with.<ref name="Raymond1996">cite book|author=Eric S. Raymond|title=The New Hacker's Dictionary|url=https://books.google.com/books?id=g80P_4v4QbIC&pg=PA258|year=1996|publisher=MIT Press|isbn=978-0-262-68092-9|page=258</ref><ref name="woods-lyon-intercal">citation|url=http://www.muppetlabs.com/~breadbox/intercal/intercal.txt |last1=Woods |first1=Donald R. |last2=Lyon |first2=James M. |year=1973 |title=The INTERCAL Programming Language Reference Manual |accessdate=2009-04-24 |publisher=Muppetlabs.com |archiveurl=https://www.webcitation.org/5gGhTDeaV?url=http://www.muppetlabs.com/~breadbox/intercal/intercal.txt |archivedate=2009-04-24 |deadurl=yes |df= </ref>  It parody|parodied elements of established programming languages of the day, such as Fortran, COBOL, and assembly language.
+
+For many years INTERCAL was represented only by paper copies of the INTERCAL manual. The language's revival in 1990 as an implementation in C under Unix stimulated a wave of interest in the intentional design of esoteric computer languages.
+
+In 1993, Wouter van Oortmerssen created FALSE, a small stack-oriented programming language, with syntax designed to make the code inherently obfuscated, confusing, and unreadable. It also has a compiler of only 1024 bytes.<ref name="Wouter">cite web | title= Interview with Wouter van Oortmerssen | journal = esoteric.codes  | url = http://esoteric.codes/post/122942498363/interview-with-wouter-van-oortmerssen | date = 1 July 2015 | accessdate = 1 December 2015</ref> This inspired Urban Müller to create an even smaller language, the now-infamous brainfuck, which consists of only eight recognized characters. Along with Chris Pressey's Befunge (like FALSE, but with a two-dimensional instruction pointer), brainfuck is now one of the best-supported esoteric programming languages. These are canonical examples of minimal Turing tarpits and needlessly obfuscated language features. Brainfuck is related to the P′′ family of Turing machines.
+
+Esoteric programming terms
+=Turing tarpit=
+Main article|Turing tarpit
+
+A Turing tarpit is a Turing-complete programming language in which any computable function could theoretically be written, but in which it is impractically difficult to do so. Esoteric languages may be described as Turing tarpits, especially when they aim to minimize the number of language features.
+
+=Stateful encoding=
+A method of encoding programs, such that each substring of the encoding is an instruction to both:
+#Locate the next instruction in a list, and
+#Apply it to transform the current program state.
+
+A single instruction always includes two sequential phases: choosing an operation, and executing it.  The list of operations may either be static—as in [http://esolangs.org/wiki/ReMorse reMorse] or [http://esolangs.org/wiki/THRAT THRAT]—or dynamic—as in reMorse4ever.
+
+Here is an example based on reMorse or THRAT:
+ Select Next Operation in list
+ Perform Operation
+
+=Language paradigm=
+The Programming paradigm|paradigm of a language can fall into a number of categories, and these categories are used to get a general understanding of the way that a specific language operates. These include imperative languages such as brainfuck, in which instructions describe how to change data; functional languages such as Unlambda programming language|Unlambda, in which data and code are more or less interchangeable and execution is the repeated application of functions to the results of other functions; and rewriting languages such as Thue (programming language)|Thue, in which transformation functions are applied to an initial state.
+
+= Funges =
+A funge is an esoteric programming language which models its programs as metric spaces with coordinate systems (often, but not necessarily, Cartesian coordinate system|Cartesian) and which execute instructions located at points in their program space by moving an instruction pointer (a position vector which indicates the currently executing instruction) through that space.  Different instructions determine the direction in which the instruction pointer moves, and consequently, the sequence of instructions that is executed.
+
+The current official standard for the behaviour of these programming languages is the Funge-98 specification.  This specification is a generalisation of the semantics of the Befunge programming language, which has a two-dimensional torus|toroidal topology.  Languages which adhere closely to this standard, such as Unefunge (one-dimensional) and Trefunge (three-dimensional), are sometimes called ''funges'', while more "distant relatives" which differ in significant respects, such as Not typo|Wierd, are referred to as ''fungeoids''.
+
+= One instruction set computer =
+A one instruction set computer is a machine which supports only one operation.
+
+=Nondeterministic language=
+For a deterministic language, if one is given the current state of a program, the next state can always be predicted. This is not true for a Nondeterministic programming|nondeterministic language. Most languages are deterministic, but some languages, such as Befunge, supply a built-in randomization instruction.  Moreover, languages such as [http://p-nand-q.com/programming/languages/java2k/ Java2k] have only randomized instructions. Thus, getting even trivial programs to have a reliable output is often a monumental, if not outright impossible, task.
+
+Nondeterministic languages can be used to explore large search spaces, such as grammars, where exhaustive search is impractical. Random text generators such as [http://dev.null.org/dadaengine/ the Dada Engine] and [http://sourceforge.net/projects/rmutt/ rmutt] are examples of this kind of nondeterminstic language.
+
+More esoterically, nondeterministic algorithms have been employed in the theoretical investigation of hypercomputation.
+
+Examples
+Below are some characteristic examples of esoteric programming languages:
+= Arnoldc =
+Arnoldc is an esoteric programming language based on one-liners of Arnold Schwarzenegger. Following is the "Hello, World!" programmed in arnoldc:<syntaxhighlight lang="text">
+IT'S SHOWTIME
+TALK TO THE HAND "Hello, World!"
+YOU HAVE BEEN TERMINATED
+</syntaxhighlight>
+
+= AsciiDots =
+AsciiDots is an esoteric programming language based on ascii art. In this language, ''dots'', represented by periods (<code>.</code>), travel down ascii art paths and undergo operations. Here is an example of a code-golf counter:<syntaxhighlight lang="text">
+/#$<.
+*-[+]
+\#1/
+</syntaxhighlight>
+
+= Befunge =
+Befunge allows the instruction pointer to roam in multiple dimensions through the code. For example, the following program displays "Hello World" by pushing the characters in reverse order onto the stack, then printing the characters in a loop which circulates clockwise through the instructions [>], [:], [v], [_], [,], and [^].
+<syntaxhighlight lang="befunge">
+ "dlroW olleH">:v
+              ^,_@
+</syntaxhighlight>
+
+= Binary lambda calculus =
+Binary lambda calculus is designed from an algorithmic information theory perspective to allow for the densest possible code with the most minimal means, featuring a 29 byte self interpreter, a 21 byte prime number sieve, and a 112 byte Brainfuck interpreter.
+
+= Brainfuck =
+Brainfuck is designed for extreme minimalism and leads to obfuscated code, with programs containing only eight distinct characters. The following program outputs "Hello World!":
+<syntaxhighlight lang="bf">
+++++++++++[>+++++++>++++++++++>+++<<<-]>++.>+.+++++++
+ ..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.
+</syntaxhighlight>
+
+= Chef =
+Chef by David Morgan-Mar is a stack-oriented programming language designed to make programs look like cooking recipes.<ref>cite book|last=Cozens|first=Simon|title=Advanced Perl programming|year=2005|publisher=O'Reilly Media|isbn=978-0-596-00456-9|page=269|quote=A final Acme curiosity, and one of my favourites, is Acme: :Chef, an implementation of David Morgan-Mar's Chef programming language. In Chef, programs are expressed in the form of recipes: ...</ref> Programs consist of a title, a list of variables and their data values and a list of stack manipulation instructions.<ref name="chef">cite web|url=http://www.dangermouse.net/esoteric/chef.html|title=Chef|work=DM's Esoteric Programming Languages|first=David|last=Morgan-Mar|publisher=Self-published|date=2011-03-24|accessdate=2014-06-28</ref> A joking design principle states that "program recipes should not only generate valid output, but be easy to prepare and delicious", and Morgan-Mar notes that an example Hello world program|Hello World program with "101 eggs" and "111 cups oil" would produce "a lot of food for one person."<ref name="chef"/><ref>cite web|url=http://www.dangermouse.net/esoteric/chef_hello.html|title=Chef Sample Program: Hello World Souffle|work=DM's Esoteric Programming Languages|first=David|last=Morgan-Mar|publisher=Self-published|date=2014-06-28|accessdate=2014-06-28</ref>
+
+= FALSE =
+FALSE is a stack-based language with single-character commands and variables.<ref>cite web |url=http://strlen.com/false/ |title=The FALSE Programming Language |last1=van Oortmerssen |first1=Wouter |publisher=Self-published |access-date=11 February 2016</ref> For example, 3 + 1 can be calculated by evaluating (λ x → x + 1)(3):
+ 3[1+]!
+
+= FiM++ =
+FiM++ is an Object-oriented programming|object-oriented programming language based on the My Little Pony: Friendship Is Magic|My Little Pony television show.<ref>Cite web|url=https://www.equestriadaily.com/2012/10/editorial-fim-pony-programming-language.html|title=Editorial: FiM++, A Pony Programming Language|last=Sethisto|website=www.equestriadaily.com|access-date=2018-01-07</ref> FiM++ programs read like plain English, in the style of the show's 'friendship reports'. The following program prints "Hello World!"<syntaxhighlight lang="text">
+Dear Princess Celestia: Hello World!
+
+Today I learned how to say Hello World!
+I said "Hello World!".
+That's all about how to say Hello World.
+
+Your faithful student, Twilight Sparkle.
+</syntaxhighlight>
+
+= FRACTRAN =
+A FRACTRAN program is an ordered list of positive fractions together with an initial positive integer input ''n''. The program is run by multiplying the integer ''n'' by the first fraction ''f'' in the list for which ''nf'' is an integer. The integer ''n'' is then replaced by ''nf'' and the rule is repeated. If no fraction in the list produces an integer when multiplied by ''n'' then the program halts. FRACTRAN was invented by mathematician John Horton Conway|John Conway.
+
+= .Gertrude =
+.Gertrude<ref>https://esolangs.org/wiki/.Gertrude</ref> is named after Gertrude Stein, and was designed (by Gerson Kurz) to enable programs to vaguely resemble her poetry.
+
+= GolfScript =
+Programs in GolfScript consist of lists of items, each of which is pushed onto the Stack (abstract data type)|stack as it is encountered with the exception of variables which have code blocks as their value, in which case the code is executed.
+
+= Grass =
+Grass is a functional programming language that only uses the characters "W", "w", and "v".  Thus, programs in Grass are said to look like ASCII art of grass.  Grass has the formal specification which is based on untyped lambda calculus and the SECD machine.<ref>http://www.blue.sky.or.jp/grass/</ref>  Grass should not be confused with GRASS_(programming_language)|GRASS, a different programming language.
+
+= INTERCAL =
+INTERCAL, short for "Compiler Language With No Pronounceable Acronym", was created in 1972 as a parody to satirize aspects of the various programming languages at the time.<ref name="woods-lyon-intercal"/>
+
+= JSFuck =
+JSFuck is an esoteric programming style of JavaScript, where code is written using only six characters: [, ], (, ), !, and +. 
+Unlike Brainfuck, which requires its own compiler or interpreter, JSFuck is valid JavaScript code, meaning JSFuck programs can be run in any web browser or engine that interprets JavaScript.<ref>JSFuck</ref>Better source|reason=per WP:CIRCULAR|date=December 2017
+
+= LOLCODE =
+LOLCODE is designed to resemble the speech of lolcats. The following is the "hello world" example:
+<pre>
+HAI
+CAN HAS STDIO?
+VISIBLE "HAI WORLD!"
+KTHXBYE
+</pre>
+
+LOLCODE is frequently criticized for not being very esoteric, but rather being an ordinary procedural language with an unusual vocabulary.<ref>cite web|url=http://esolangs.org/wiki/LOLCODE#Criticism|title=LOLCODE#Criticism|website=Esolangs.org|accessdate=30 November 2015|quote=LOLCODE is often criticized for not being Esoteric enough. By design, LOLCODE is actually a normal procedural language behind its lulzy syntax. This is a stark contrast from "True" Esolangs like Befunge, which features a two-dimensional, almost game board-like syntax. For this reason, LOLCODE is technically categorized as a Weirdlang.</ref>
+
+= Malbolge =
+Malbolge (the 8th circle of Hell) was designed to be the most difficult and esoteric programming language. Among other features, code is self-modifying by design and the effect of an instruction depends on its address in memory.
+
+= ModiScript =
+[https://github.com/VPanjeta/ModiScript/ ModiScript]<ref>Cite web|url=https://github.com/VPanjeta/ModiScript|title=VPanjeta/ModiScript|website=GitHub|language=en|access-date=2018-04-18</ref> is an esoteric programming language that entirely consists of quotes from Indian Prime Minister Narendra Modi's speeches. The language follows many of his ideologies such as the "No import rule', in which importation of code is not allowed, consistent with his "Make in India" campaign.
+The following code prints "Mandir Wahin Banayenge":
+<syntaxhighlight lang="text">
+mitrooon
+UP "BJP governed state hai"
+SP "opposition me hai"
+agar ye sach hai
+	bhaiyo aur behno "Mandir wahin banayenge"
+nahi toh
+	bhaiyo aur behno "Abhi decision nahi liya gaya hai"
+achhe din aa gaye
+</syntaxhighlight>
+
+= Piet =
+Image:Piet Program.gif|thumb|Piet program that prints 'Piet'
+Image:Piet Program Hello World(1).gif|thumb|A "Hello World" program in Piet
+Piet is a language designed by David Morgan-Mar, whose programs are bitmaps that look like abstract art.<ref>
+cite web
+| title = Piet programming language
+| url = http://www.dangermouse.net/esoteric/piet.html
+| last = Morgan-Mar
+| first = David
+| date = 25 January 2008
+| accessdate = 18 May 2013
+</ref> The compilation is guided by a "pointer" that moves around the image, from one continuous coloured region to the next. Procedures are carried through when the pointer exits a region.
+
+There are 20 colours for which behaviour is specified: 18 "colourful" colours, which are ordered by a 6-step hue cycle and a 3-step brightness cycle; and black and white which are not ordered. When exiting a "colourful" colour and entering another one, the performed procedure is determined by the number of steps of change in hue and brightness. Black cannot be entered; when the pointer tries to enter a black region, the rules of choosing the next block are changed instead. If all possible rules are tried, the program terminates. Regions outside the borders of the image are also treated as black. White does not perform operations, but allows the pointer to "pass through". The behaviour of colours other than the 20 specified is left to the compiler or interpreter.
+
+Variables are stored in memory as signed integers in a single Stack (abstract data type)|stack. Most specified procedures deal with operations on that stack, others with input/output and with the rules by which the compilation pointer moves.
+
+Piet was named after the Dutch painter Piet Mondrian.<ref name="Cox2013">harvnb|Cox|2013|p=6</ref> The originally intended name, ''Mondrian'', was already taken.
+
+=Pikachu=
+Pikachu is an esoteric programming language developed by Nilabhro Datta, whose programs look like the dialect of Pikachus. Its stated purpose is to be easily usable by Pikachus. Programs written in the language should be readable and writable by any Pikachu.<ref name=":0">Cite web|url=http://www.trove42.com/introducing-pikachu-programming-language/|title=Introducing The Pikachu Programming Language – A Programming Language Made For Pikachus|last=|first=|date=|website=|archive-url=|archive-date=|dead-url=|access-date=</ref> To this end, Pikachu makes use of only 3 valid syntax elements - pi, pika and pikachu.<ref>Cite news|url=http://trove42.com/pikachu-syntax-rules/|title=Pikachu Programming Language - Syntax Rules|date=2017-08-21|work=Trove 42|access-date=2017-08-22|language=en-US</ref><ref name=":0" />
+
+= Rockstar =
+[https://github.com/dylanbeattie/rockstar Rockstar] is designed for creating computer programs that are also song lyrics, and is heavily influenced by the lyrical conventions of 1980s hard rock and power ballads. It is dynamically typed and Turing-Complete.
+
+In the following example the line of code multiplies the value of ''your heart'' by ''the whole'' and stores it in ''my hands''.
+
+* "your heart", "the whole" and "my hand" are variables.
+* of is used for multiplication and is an alias of ''times''
+* Put/into combination is used for assignment
+
+ Put the whole of your heart into my hands
+
+= Shakespeare =
+Shakespeare (programming language)|Shakespeare is designed to make programs look like Shakespearean plays. For example, the following statement declares a point in the program which can be reached via a GOTO-type statement:
+
+ Act I: Hamlet's insults and flattery.
+
+= Train =
+Train (programming language)|Train is a completely visual programming language that looks like a wooden train set. Engines are threads, train cars are memory, and cargo on the cars are variables. Train contains multiple data types including blocks, numbers, colors, and dinosaurs. Stations operate on cargo to e.g. increment, decrement, add, subtract, or catapult and can be type specific. Wyes direct the flow of trains and include greater than, less than, prompt, and random. Magic tunnels allow for the creation of functions. Unlike other programming languages, there is no distinction between code, memory, and output in Train; a program and its state are just defined by the arrangement of Train pieces.
+
+= Unlambda =
+Unlambda is a minimalist functional programming language. Most programs consist solely of the characters s, k, and `.
+
+= Whitespace =
+Whitespace (programming language)|Whitespace uses only whitespace characters (space, tab, and return), ignoring all other characters. This is the reverse of many traditional languages, which do not distinguish between different whitespace characters, treating tab and space the same. It also allows Whitespace programs to be hidden in the source code of programs in languages like C.
+
+ Fictional Examples 
+
+= ~ath =
+~ath is an esoteric programming language used by the humans and trolls in the webcomic ''Homestuck''. The name when spoken is "tilde ath", a pun on "til death." It is known to be insufferable to work with, despite its relative simplistic syntax. The language can only compile when using infinite loops. In the context of the story, it has the capability to import and change objects from a wide library, such as the author and the universe itself. This wide range, combined with the inability to interact with anything that has a short lifespan, leads to files being tied to long-term events, such as the deaths of characters and universes. ~ath is also sensitive to the color that the text is written in, and accepts unusual characters. One ~ath program shown in the story uses a command called bifurcate to split the program into red text and blue text. Another ~ath program contains a character that appears as an animated flickering billiard ball.
+
+ ~ATH(THIS) {
+ 
+     // ADDITIONAL GRAVES...
+ 
+ } EXECUTE(NULL);
+ 
+ THIS.DIE();
+The ~ath code above is the simplest in the language, and any code deviating from the pattern does not compile.
+
+ Cultural context of esolangs 
+The cultural context of esolangs has been studied by people like Geoff Cox, who writes that esolangs "shift attention from command and control toward cultural expression and refusal",<ref>harvnb|Cox|2013|page=5</ref> seeing esolangs as similar to code art and code poetry, such as Mez Breeze's mezangelle.  Daniel Temkin describes brainfuck as "refusing to ease the boundary between human expression and assembly code and thereby taking us on a ludicrous journey of logic,"<ref>cite journal|last=Temkin|first=Daniel|title=Glitch && Human/Computer Interaction|journal=NOOART: The Journal of Objectless Art|date=15 January 2014|issue=1|url=http://nooart.org/post/73353953758/temkin-glitchhumancomputerinteraction</ref> exposing the inherent conflict between human thinking and computer logic.  He connects programming within an esolang to performing an event score such as those of the Fluxus movement, where playing out the rules of the logic in code makes the point of view of the language clear.<ref>cite journal|last=Temkin|first=Daniel|title=brainfuck|url=http://median.s151960.gridserver.com/?page_id=947|journal=Media-N Journal|issue=Spring 2013|accessdate=2014-05-06</ref>
+
+References
+Reflist
+
+ Further reading 
+* Camille Paloque-Bergès (2009). "Langages ésotériques". ''Poétique des codes sur le réseau informatique''. Archives contemporaines. ISBN|978-2-914610-70-4.
+* cite book|author=Geoff Cox|title=Speaking Code: Coding as Aesthetic and Political Expression|url=https://books.google.com/books?id=wgnSUL0zh5gC&pg=PA6|year=2013|publisher=MIT Press|isbn=978-0-262-01836-4
+
+External links
+Commons category|Esoteric programming languages
+* dmoz|Computers/Programming/Languages/Obfuscated/|Obfuscated Programming Languages
+* esolang:Main Page|Esolang &mdash; a wiki devoted to esoteric programming languages
+Programming language
+Use dmy dates|date=July 2017
+
+DEFAULTSORT:Esoteric Programming Language
+Category:Programming language classification

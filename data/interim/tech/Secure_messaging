@@ -1,0 +1,57 @@
+more citations needed|date=March 2014
+
+Secure messaging is a server-basedundue weight inline|reason=There are also serverless approaches to secure messaging.|date=July 2016 approach to protect sensitive data when sent beyond the corporateundue weight inline|reason=Not all secure messaging is business related.|date=July 2016 borders and provides compliance with industry regulations such as HIPAA, GLBA and Sarbanes-Oxley Act|SOX. Advantages over classical secure e-mail are that confidential and authenticated exchanges can be started immediately by any internet user worldwide since there is no requirement to install any software nor to obtain or to distribute Key (cryptography)|cryptographic keys beforehand. Secure messages provide non-repudiation as the recipients (similar to online banking) are personally identified and transactions are logged by the secure email platform.Citation needed|date=March 2018
+
+ Functionality 
+Secure messaging works as an online messaging service. Users enroll to a secure messaging platform. The user logs into his account by typing in his username and password (or strong authentication) similar to a web-based email account. Out of a message center messages can be sent over a Transport Layer Security|secure SSL-connection or via other equally protecting methods to any recipient. If the recipient is contacted for the first time a message unlock code #MUC (message unlock code)|(see below MUC) is needed to authenticate the recipient. Alternatively, Secure Messaging can be used out of any standard email program without installing software.
+
+ Secure delivery 
+Secure Messaging possesses different types of delivery: secured web interface, S/MIME or Pretty Good Privacy|PGP encrypted communication or Transport Layer Security|TLS secured connections to email domains or individual email clients. One single secure message can be sent to different recipients with different types of secure delivery the sender does not have to worry about.
+
+ Trust management 
+Secure Messaging relies on the method of the dynamic personal web of trust. This method synthesizes the authentication approach of web of trust, known from Pretty Good Privacy|PGP, with the advantages of hierarchical structures, known from centralized Public key infrastructure|PKI systems. Those combined with certificates provide high quality of electronic identities. This approach focuses on the user and allows for immediate and personal bootstrapping of trust, respectively revocation.
+
+ Physical security 
+In traditional client-server email, message data is downloaded to a local hard drive, and is vulnerable if the computer is lost, stolen, or physically accessed by an unauthorized person. Secure Messages are stored on a network or internet server which are typically more physically secure, and are encrypted when data is inbound or outbound. However, an abundance of data still makes the server an attractive target for remote attacks. Of course, the intentions of the server operator may also come into question.Citation need|date=March 2018
+
+ Application 
+Secure Messaging is used in many business areas with company-wide and sensitive data exchanges. Financial institutions, insurance companies, public services, health organizations and service providers rely on the protection from Secure Messaging. Secure Messaging can be easily integrated into the corporate email infrastructures.citation needed|date=August 2016
+
+In the government context, secure messaging can offer electronic registered mail functions. For this to be binding, some countries, such as Switzerland,<ref>http://www.isb.admin.ch/themen/sicherheit/00530/01200/index.html?lang=en</ref> require it to be accredited as a secure platform.
+
+ Technical requirements 
+There is no software required for using Secure Messaging. Users only need a valid email address and a working internet connection with an up-to-date web browser.
+
+ Similar technologies 
+*Pretty Good Privacy|PGP
+*S/MIME
+*Identity-Based Encryption
+
+ History 
+*1965: Mainframe computer users are able to exchange messages.
+*1982: Standard for (D)ARPA internet text messages (RFC822) is adopted: different email systems can communicate with each other.
+*1983: Development of the Internet Protocol
+*1991: Phil Zimmermann creates PGP in 1991, a first generation for secure mail communication.
+*1999: Launch of browser-based internet banking at UBS AG (Union Bank of Switzerland) with the advent of strong cryptography in industry standard browsers.
+*2001: Google search engine indexes more than 1 billion internet pages: cooperating web sites can be found easily
+*2002: Introduction of strong authentication in internet banking  (UBS Switzerland) to prevent identity fraud.
+*2005: More than 1 billion internet users: most people in industrial countries can be reached via the internet
+
+ See also 
+*Information security
+*Email authentication
+*Email encryption
+*Email privacy
+*Secure communication
+*Secure instant messaging
+*Transport Layer Security
+*Cryptography
+*Electronic signature
+*Certified email
+
+ References 
+Reflist
+
+Category:Email
+Category:Privacy of telecommunications
+Category:Internet privacy

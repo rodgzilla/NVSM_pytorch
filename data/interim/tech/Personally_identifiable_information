@@ -1,0 +1,236 @@
+Redirect|Private information|the 1952 British film|Private Information
+Use dmy dates|date=October 2010
+Essay-like
+Personal information, described in United States legal fields as either personally identifiable information (PII), or sensitive personal information (SPI),<ref name="MyUser_Va.OPTgov_May_25_2015c">cite web |url=https://www.va.gov/vapubs/viewPublication.asp?Pub_ID=843&FType=2 |title=Management of Data Breaches Involving Sensitive Personal Information (SPI) |work=Va.gov |date=January 6, 2012 |publisher=Department OF Veterans Affairs |location=Washington, DC |accessdate=May 25, 2015 |deadurl=yes |archiveurl=https://web.archive.org/web/20150526030226/http://web.archive.org/web/20150526030226/www.va.gov/vapubs/viewPublication.asp?Pub_ID=608 |archivedate=26 May 2015 |df=dmy-all </ref><ref name="Data Security Breach Notification Laws - R42475">cite web |url=https://www.fas.org/sgp/crs/misc/R42475.pdf |title=Data Security Breach Notification Laws |work=fas.org |date=April 10, 2012  |first=Gina |last=Stevens |accessdate=Jun 8, 2017</ref><ref name="Security Program and Policies: Principles and Practices">cite book |url=https://books.google.com/books?id=UbwiAwAAQBAJ&pg=PA349 |title=Security Program and Policies: Principles and Practices |first=Sari Stern |last=Greene |year=2014 |location=Indianapolis, IN, US |publisher=Pearson IT Certification|isbn=9780789751676 |oclc=897789345 |page=349</ref> as used in information security and privacy laws, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. The abbreviation PII is widely accepted in the U.S. context, but the phrase it abbreviates has four common variants based on ''personal''  / ''personally'', and ''identifiable'' / ''identifying''. Not all are equivalent, and for legal purposes the effective definitions vary depending on the jurisdiction and the purposes for which the term is being used. Efn|In other countries with privacy protection laws derived from the OECD privacy principles, the term used is more often "personal information", which may be somewhat broader: in Australia's ''Privacy Act ''1988 (Cth) "personal information" also includes information from which the person's identity is "reasonably ascertainable", potentially covering some information not covered by PII.
+
+Under European and other data protection regimes, which centre primarily around the General Data Protection Regulation, the term "personal data" is significantly broader, and determines the scope of the regulatory regime.<ref name=":0">Cite journal|last=Schwartz|first=Paul M|last2=Solove|first2=Daniel|date=2014|title=Reconciling Personal Information in the United States and European Union |url=https://scholarship.law.berkeley.edu/californialawreview/vol102/iss4/7/|journal=California Law Review|language=en|volume=102|issue=4|pages=|doi=10.15779/Z38Z814|via=</ref>
+
+National Institute of Standards and Technology Special Publication 800-122<ref>cite web|url=http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-122.pdf|title=NIST Special Publication 800-122|author=|date=|website=nist.govNIST-PD</ref> defines PII as "any information about an individual maintained by an agency, including (1) any information that can be used to distinguish or trace an individual's identity, such as name, social security number, date and place of birth, mother's maiden name, or biometric records; and (2) any other information that is linked or linkable to an individual, such as medical, educational, financial, and employment information." So, for example, a user's IP address is not classed as PII on its own, but is classified as linked PII.<ref>Section 3.3.3 “Identifiability”</ref> However in Europe, a user's IP address IS classed as PII.<ref name="ECJ-IP">cite web |url=https://www.enterprisetimes.co.uk/2016/10/20/ecj-rules-ip-address-is-pii/ |title=ECJ rules IP Address is PII |date=October 20, 2016 |publisher=Enterprise Times |accessdate=January 29, 2019 </ref>
+
+The concept of PII has become prevalent as information technology and the Internet have made it easier to collect PII leading to a profitable market in collecting and reselling PII. PII can also be exploited by criminals to stalking|stalk or identity theft|steal the identity of a person, or to aid in the planning of criminal acts. As a response to these threats, many website privacy policy|privacy policies specifically address the gathering of PII,citation needed|date=February 2018 and lawmakerswho|date=April 2013 have enacted a series of legislationwhich|date=February 2018 to limit the distribution and accessibility of PII.citation needed|date=February 2018
+
+PII is a legal concept, not a technical concept, and it is not utilised in all jurisdictions. Because of the versatility and power of modern re-identification algorithms,<ref>cite journal|last=de Montjoye|first=Yves-Alexandre|author2=César A. Hidalgo |author3=Michel Verleysen |author4=Vincent D. Blondel |title=Unique in the Crowd: The privacy bounds of human mobility|journal=Scientific Reports|volume=3|pages=1376|date=March 25, 2013|doi=10.1038/srep01376|pmid=23524645|pmc=3607247|url=https://www.nature.com/articles/srep01376|accessdate=Jun 8, 2017</ref><ref>Cite book | last1 = Narayanan | first1 = A. | last2 = Shmatikov | first2 = V. | doi = 10.1109/SP.2008.33 | chapter = Robust De-anonymization of Large Sparse Datasets | title = 2008 IEEE Symposium on Security and Privacy (sp 2008) | pages = 111 | year = 2008 | isbn = 978-0-7695-3168-7 | pmid =  | pmc = </ref><ref>Cite book | last1 = Narayanan | first1 = A. | last2 = Shmatikov | first2 = V. | doi = 10.1109/SP.2009.22 | chapter = De-anonymizing Social Networks | title = 2009 30th IEEE Symposium on Security and Privacy | pages = 173 | year = 2009 | isbn = 978-0-7695-3633-0 | pmid =  | pmc = | arxiv = 0903.3276 </ref> the absence of PII data does not mean that the remaining data does not identify individuals. While some attributes may not be uniquely identifying on their own, any attribute can be potentially identifying in combination with others.<ref>Cite journal | last1 = Narayanan | first1 = A. | last2 = Shmatikov | first2 = V. | doi = 10.1145/1743546.1743558 | title = Myths and fallacies of "personally identifiable information" | journal = Communications of the ACM | volume = 53 | issue = 6 | pages = 24 | year = 2010 | pmid =  | pmc = </ref><ref>
+cite web
+ | title        = Broken Promises of Privacy: Responding to the Surprising Failure of Anonymization
+ | ssrn         = 1450006
+| date         = 2009-08-13
+</ref> These attributes have been referred to as quasi-identifiers or pseudo-identifiers.<ref>cite web |url=http://www.jos.nu/Articles/article.asp |first=Tore |last=Delanius|title= Finding a needle in a haystack – or identifying anonymous census record| publisher =Journal of Official Statistics| date=1986</ref><ref>[http://ec.europa.eu/justice/data-protection/article-29/documentation/opinion-recommendation/files/2014/wp216_en.pdf  Opinion 05/2014 on Anonymisation Techniques] Article 29 Data Protection Working Party</ref> While such data may not constitute PII in the United States, it is highly likely to remain personal data under European data protection law.<ref name=":0" />
+
+ NIST definition 
+The following data, often used for the express purpose of distinguishing individual identity, clearly classify as PII under the definition used by the National Institute of Standards and Technology (described in detail below):<ref name="NIST">cite web
+| url=https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-122.pdf
+| title=Guide to Protecting the Confidentiality of Personally Identifiable Information (PII)
+| publisher=NIST
+| others=Special Publication 800-122
+</ref>
+
+* Full name (if not common)
+* Face (sometimes)
+* Address (geography)|Home address
+* Email address
+* National identification number (e.g., Social Security number in the U.S.)
+* Passport number
+* Vehicle registration plate number
+* Driver's license number
+* Face, fingerprints, or handwriting
+* Credit card numbers
+* Digital identity
+* Date of birth
+* Birthplace
+* Genetics|Genetic information
+* Telephone number
+* User (computing)|Login name, screen name, nickname, or Pseudonym|handle
+
+The following are less often used to distinguish individual identity, because they are traits shared by many people.
+However, they are potentially PII, because they may be combined with other personal information to identify an individual.
+
+* First or last name, if common
+* Country, state, postcode or city of residence
+* Age, especially if non-specific
+* Gender or race
+* Name of the school they attend or workplace
+* Grades, salary, or job position
+* Criminal record
+* Web cookie<ref name=LN01>cite web|title=Anonymity and PII|url=http://cookieresearch.com/anonymityandpii|website=cookieresearch.com|accessdate=6 May 2015|ref=LN01</ref>
+
+When a person wishes to remain anonymous, descriptions of them will often employ several of the above, such as "a 34-year-old white male who works at Target". Note that information can still be ''private'', in the sense that a person may not wish for it to become publicly known, without being personally identifiable. Moreover, sometimes multiple pieces of information, none sufficient by itself to uniquely identify an individual, may uniquely identify a person when combined; this is one reason that multiple pieces of evidence are usually presented at criminal trials. It has been shown that, in 1990, 87% of the population of the United States could be uniquely identified by gender, ZIP code, and full date of birth.<ref>cite web
+| url=http://privacy.cs.cmu.edu/dataprivacy/HIPAA/HIPAAcomments.html
+| title=Comments of Latanya Sweeney, Ph.D. on "Standards of Privacy of Individually Identifiable Health Information"
+| archiveurl=https://web.archive.org/web/20090328103238/http://privacy.cs.cmu.edu/dataprivacy/HIPAA/HIPAAcomments.html
+| archivedate=2009-03-28
+| deadurl=yes
+| publisher=Carnegie Mellon University
+</ref>
+
+In hacker (computer security)|hacker and Internet slang, the practice of finding and releasing such information is called "doxing".<ref>cite web|author=James Wray and Ulf Stabe |url=http://www.thetechherald.com/articles/The-FBIs-warning-about-doxing-was-too-little-too-late |title=The FBI's warning about doxing was too little too late |publisher=Thetechherald.com |date=2011-12-19 |accessdate=2012-10-23</ref><ref>cite web|url=http://www.ibtimes.com/articles/276610/20120104/anonymous-operation-hiroshima-inside-doxing-coup.htm |title=Anonymous's Operation Hiroshima: Inside the Doxing Coup the Media Ignored (VIDEO) |publisher=Ibtimes.com |date=2012-01-01 |accessdate=2012-10-23</ref> It is sometimes used to deter collaboration with law enforcement.<ref>cite web|url=http://www.theatlanticwire.com/technology/2011/07/did-lulzsec-trick-police-arresting-wrong-guy/40522/ |title=Did LulzSec Trick Police Into Arresting the Wrong Guy? - Technology |publisher=The Atlantic Wire |date=2011-07-28 |accessdate=2012-10-23</ref> On occasion, the doxing can trigger an arrest, particularly if law enforcement agencies suspect that the "doxed" individual may panic and disappear.<ref>cite web|last=Bright |first=Peter |url=https://arstechnica.com/tech-policy/news/2012/03/doxed-how-sabu-was-outed-by-former-anons-long-before-his-arrest.ars |title=Doxed: how Sabu was outed by former Anons long before his arrest |publisher=Ars Technica |date=2012-03-07 |accessdate=2012-10-23</ref>
+
+In privacy law
+The U.S. government used the term "personally identifiable" in 2007 in a memorandum from the Executive Office of the President, Office of Management and Budget (OMB),<ref name="whitehouse.gov">[http://www.whitehouse.gov/omb/memoranda/fy2007/m07-16.pdf M-07-16 SUBJECT:Safeguarding Against and Responding to the Breach of Personally Identifiable Information] FROM: Clay Johnson III, Deputy Director for Management (2007/05/22)</ref> and that usage now appears in US standards such as the NIST ''Guide to Protecting the Confidentiality of Personally Identifiable Information'' (SP 800-122).<ref name="NIST"/>  The OMB memorandum defines PII as follows:
+
+cquote|''Information which can be used to distinguish or trace an individual's identity, such as their name, social security number, biometric records, etc. alone, or when combined with other personal or identifying information which is linked or linkable to a specific individual, such as date and place of birth, mother’s maiden name, etc.''
+
+A term similar to PII, "personal data" is defined in EU directive 95/46/EC, for the purposes of the directive:<ref>cite web|url=https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:EN:HTML |title=Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data |publisher=Eur-lex.europa.eu |accessdate=2013-08-20</ref>
+
+cquote|''Article 2a: 'personal data' shall mean any information relating to an identified or identifiable natural person ('data subject'); an identifiable person is one who can be identified, directly or indirectly, in particular by reference to an identification number or to one or more factors specific to his physical, physiological, mental, economic, cultural or social identity;''
+
+However, in the EU rules, there has been a clearer notion that the data subject can potentially be identified through additional processing of other attributes—quasi- or pseudo-identifiers. In an early draft of the EU General Data Protection Regulation, this was formalized in Article 4, but was omitted in the final version: a "data subject" is one "who can be identified, directly or indirectly, by means reasonably likely to be used by the controller or by any other natural or legal person".<ref>cite web|url=http://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//TEXT+TA+P7-TA-2014-0212+0+DOC+XML+V0//EN|title=Texts adopted - Wednesday, 12 March 2014 - Protection of individuals with regard to the processing of personal data ***I - P7_TA(2014)0212|author=|date=|website=www.europarl.europa.eu</ref> The General Data Protection Regulation|GDPR became enforceable on 25 May 2018.
+
+Another term similar to PII, "personal information" is defined in a section of the California data breach notification law, SB1386:<ref name="California">cite web
+| url= http://www.leginfo.ca.gov/pub/01-02/bill/sen/sb_1351-1400/sb_1386_bill_20020926_chaptered.html
+| title=Text of California Senate Bill SB 1386 ref paragraph SEC. 2 1798.29.(e)
+| publisher=California
+</ref>
+
+cquote|''(e) For purposes of this section, "personal information" means an individual's first name or first initial and last name in combination with any one or more of the following data elements, when either the name or the data elements are not encrypted:  (1) Social security number. (2) Driver's license number or California Identification Card number. (3) Account number, credit or debit card number, in combination with any required security code, access code, or password that would permit access to an individual's financial account. (f) For purposes of this section, "personal information" does not include publicly available information that is lawfully made available to the general public from federal, state, or local government records.''
+
+The concept of information combination given in the SB1386 definition is key to correctly distinguishing PII, as defined by OMB, from "personal information", as defined by SB1386.  Information, such as a name, that lacks context cannot be said to be SB1386 "personal information", but it must be said to be PII as defined by OMB. For example, the name Placeholder name|John Smith has no meaning in the current context and is therefore not SB1386 "personal information", but it is PII. A Social Security Number (SSN) without a name or some other associated identity or context information is not SB1386 "personal information", but it is PII. For example, the SSN 078-05-1120 by itself is PII, but it is not SB1386 "personal information". However the combination of a valid name with the correct SSN is SB1386 "personal information".<ref name="California"/>
+
+The combination of a name with a context may also be considered PII; for example, if a person's name is on a list of patients for an HIV clinic.  However, it is not necessary for the name to be combined with a context in order for it to be PII.  The reason for this distinction is that bits of information such as names, although they may not be sufficient by themselves to make an identification, may later be combined with other information to identify persons and expose them to harm.
+
+According to the OMB, it is not always the case that PII is "sensitive", and context may be taken into account in deciding whether certain PII is or is not sensitive.<ref name="whitehouse.gov"/>full citation needed|date=April 2013
+
+= Australia =
+In Australia, the Privacy Act 1988 deals with the protection of individual privacy, using the OECD Privacy Principles from the 1980s to set up a broad, principles-based regulatory model (unlike in the US, where coverage is generally not based on broad principles but on specific technologies, business practices or data items). Section 6 has the relevant definition.<ref>cite web|url=https://www.austlii.edu.au/au/legis/cth/consol_act/pa1988108/s6.html|title=Privacy Act 1988|accessdate=14 October 2012</ref> The critical detail is that the definition of 'personal information' also applies to where the individual can be indirectly identified:
+
+quote|"personal information" means information or an opinion (including information or an opinion forming part of a database), whether true or not, and whether recorded in a material form or not, about an individual whose identity is apparent, ''or can reasonably be ascertained'', from the information or opinion. [emphasis added]
+
+This raises the question of reasonableness: assume it is theoretically possible to identify a person from core information which say does NOT include a simple name and address, but does contain clues which could be pursued to ascertain who it relates to. Just how much extra effort or difficulty would such a step need before we could clearly say that the identity could NOT be "reasonably ascertained" from it?
+
+quote|For instance, if the information involves an IP address, and the relevant ISP stores logs which could easily be inspected (if you had sufficient legal justification) to re-link the IP address to the account holder, can their identity be "reasonably ascertained"? If such linking used to be expensive, slow and difficult, but becomes easier, does this change the answer at some point?
+
+It appears that this definition is significantly broader than the Californian example given above, and thus that Australian privacy law, while in some respects weakly enforced, may cover a broader category of data and information than in some US law.
+In particular, online behavioral advertising businesses based in the US but surreptitiously collecting information from people in other countries in the form of cookies, bugs, trackers and the like may find that their preference to avoid the implications of wanting to build a psychographic profile of a particular person using the rubric of 'we don't collect personal information' may find that this does not make sense under a broader definition like that in the Australian Privacy Act.
+
+= Canada =
+* Privacy Act (Canada)|Privacy Act governs the Federal Government agencies
+* Freedom of Information and Protection of Privacy Act (Ontario)|Ontario Freedom of Information and Protection of Privacy Act and similar Provincial legislation governs Provincial Government agencies.
+* Personal Information Protection and Electronic Documents Act governs private corporations, unless there is equivalent Provincial legislation
+* Personal Health Information Protection Act|Ontario Personal Health Information Protection Act and other similar Provincial legislation governs health information
+
+= European Union =
+European data protection law does not utilize the concept of PII, and its scope is instead determined by non-synonymous, wider concept of "personal data".
+* Article 8 of the European Convention on Human Rights
+* The General Data Protection Regulation adopted in April 2016. Effective 25 May 2018
+** supersedes the Data Protection Directive - 95/46/EC
+* Directive on Privacy and Electronic Communications|Directive 2002/58/EC (the E-Privacy Directive)
+* Data Retention Directive|Directive 2006/24/EC Article 5 (The Data Retention Directive)
+
+Further examples can be found on the EU privacy website.<ref>cite web|title=Data protection|url=https://ec.europa.eu/info/law/law-topic/data-protection_en|website=European Commission - European Commission|language=en|date=2017-04-11</ref>
+
+ United Kingdom 
+* The UK (Data Protection Act 2018)<ref>[http://www.legislation.gov.uk/ukpga/2018/12/contents/enacted Data Protection Act 2018] Published by legislation.gov.uk, retrieved 14 August 2018</ref>
+* The UK Data Protection Act 1998 - superseded by the UK Data Protection Act 2018
+* General Data Protection Regulation (Europe, 2016)
+* Article 8 of the European Convention on Human Rights
+* The Regulation of Investigatory Powers Act 2000|UK Regulation of Investigatory Powers Act 2000
+* Employers' Data Protection Code of Practice
+* Model Contracts for Data Exports
+* The Privacy and Electronic Communications (EC Directive) Regulations 2003
+* The UK Interception of Communications (Lawful Business Practice) Regulations 2000
+* The UK Anti-Terrorism, Crime and Security Act 2001
+
+=New Zealand=
+The twelve Information Privacy Principles of the Right to privacy in New Zealand|Privacy Act 1993 apply.
+
+= Switzerland =
+
+The Federal Act on Data Protection of 19 June 1992 (in force since 1993) has set up a strict protection of privacy by prohibiting virtually any processing of personal data which is not expressly authorized by the data subjects.<ref name=FADP>[https://www.admin.ch/opc/en/classified-compilation/19920153/index.html Federal Act on Data Protection of 19 June 1992 (status as of 1 January 2014)], Federal Chancellery of Switzerland (page visited on 18 September 2016).</ref> The protection is subject to the authority of the Federal Data Protection and Information Commissioner.<ref name=FADP/>
+
+Additionally, any person may ask in writing a company (managing data files) the correction or deletion of any personal data.<ref name=Amarelle>fr Cesla Amarelle, ''Droit suisse'', Éditions Loisirs et pédagogie, 2008.</ref> The company must respond within thirty days.<ref name=Amarelle/>
+
+= United States =
+The Privacy Act of 1974 (Pub.L. 93–579, 88 Stat. 1896, enacted December 31, 1974, 5 U.S.C. § 552a), a United States federal law, establishes a Code of Fair Information Practice that governs the collection, maintenance, use, and dissemination of personally identifiable information about individuals that is maintained in systems of records by federal agencies.
+
+One of the primary focuses of the Health Insurance Portability and Accountability Act (HIPAA), is to protect a patient's Protected Health Information (PHI), which is similar to PII. The U.S. Senate proposed the Privacy Act of 2005, which attempted to strictly limit the display, purchase, or sale of PII without the person's consent. Similarly, the (proposed) Anti-Phishing Act of 2005 attempted to prevent the acquiring of PII through phishing.
+
+U.S. lawmakers have paid special attention to the social security number because it can be easily used to commit identity theft. The (proposed) Social Security Number Protection Act of 2005 and (proposed) Identity Theft Prevention Act of 2005 each sought to limit the distribution of an individual's social security number.
+
+ State laws and significant court rulings 
+* California
+** The California state constitution declares privacy an inalienable right in Article 1, Section 1.
+** Online Privacy Protection Act|California Online Privacy Protection Act (OPPA) of 2003
+** SB 1386 requires organizations to notify individuals when PII is known or believed to be acquired by an unauthorized person.
+** In 2011, the California State Supreme Court ruled that a person's ZIP code is PII.<ref>cite web
+| url=http://www.lexisnexis.com/Community/emergingissues/blogs/emergingissueslawblog/archive/2011/02/15/california-supreme-court-zip-code-personal-identification-information-bullivant-houser-bailey-song-beverly-credit-card-act.aspx
+| title=California Supreme Court Holds that Zip Code is Personal Identification Information - Bullivant Houser Bailey Business Matters eAlert
+| publisher=LexisNexis
+</ref>
+* Nevada
+** Nevada Revised Statutes 603A-Security of Personal Information
+* Massachusetts
+** 201 CMR 17.00: Standards for The Protection of Personal Information of Residents of the Commonwealth<ref>cite web
+| url=http://www.mass.gov/ocabr/docs/idtheft/201cmr1700reg.pdf
+| title=201 CMR 17.00: Standards for The Protection of Personal Information of Residents of the Commonwealth
+| publisher=Commonwealth of Massachusetts
+</ref>
+** In 2013, the Massachusetts Supreme Court ruled that ZIP codes are PII.<ref>Tyler v. Michaels Stores, Inc., 984N.E.2d 737, 739 (2013)</ref>
+
+ Federal law 
+* [https://www.law.cornell.edu/uscode/text/18/1028 Title 18 of the United States Code, section 1028d(7)]
+* The Privacy Act of 1974, codified at [https://www.law.cornell.edu/uscode/text/5/part-I/chapter-5/subchapter-II 5 U.S.C. § 552a et seq.]
+* [https://www.privacyshield.gov/welcome US "Privacy Shield" Rules] (EU Harmonisation)
+
+ Forensics 
+In forensics, particularly the identification and prosecution of criminals, personally identifiable information is critical in establishing evidence in criminal procedure. Criminals may go to great trouble to avoid leaving any PII,citation needed|date=April 2013 such as by:
+* wearing masks, sunglasses, or clothing to obscure or completely hide distinguishing features, such as retinal scan|eye, skin, and hair colour, facial features, and personal marks such as tattoos, birthmarks, moles and scars.
+<!-- Examples regarding physical appearance merged into single bullet
+* they wear masks (faces and hair are PII).
+* wearing sunglasses (eye color and retinal scan|retinae are PII).<ref>http://riots2011.epetitions.net/ Ban the bandana, hoodies and sunglasses after dark</ref>verify credibility
+* wearing clothing that covers personal marks such as tattoos, birthmarks, Melanocytic nevus|moles and scars. -->
+* wearing gloves to conceal fingerprints, which themselves are PII. However, gloves can also leave prints that are just as unique as human fingerprints. After collecting glove prints, law enforcement can then match them to gloves that they have collected as evidence.<ref>cite news|last=Sawer |first=Patrick |url=https://www.telegraph.co.uk/news/uknews/law-and-order/3740688/Police-use-glove-prints-to-catch-criminals.html |title=Police use glove prints to catch criminals |publisher=Telegraph.co.uk |date=2008-12-13 |accessdate=2013-08-20</ref> In many jurisdictions the act of wearing gloves itself while committing a crime can be prosecuted as an inchoate offense.<ref name=McCord>James W.H. McCord and Sandra L. McCord, ''Criminal Law and Procedure for the paralegal: a systems approach'', ''supra'', p. 127.</ref>
+<!-- Weasel-word justification of presence and emotionally purposed statements
+* wearing gloves (fingerprints are PII). Since the advent of fingerprint detection, many criminalswho have resorted to the wearing of gloves in order to avoid leaving fingerprints, which thus makes the crime investigation more difficult. However, the gloves themselves can leave prints that are just as unique as human fingerprints. After collecting glove prints, law enforcement can then match them to gloves that they have collected as evidence.-->
+* avoiding writing anything in their own handwriting.citation needed|date=April 2013
+* masking their internet presence with methods such as using a proxy server to appear to be connecting from an IP address unassociated with oneself.
+
+ Personal safety 
+In some professions, it is dangerous for a person's identity to become known, because this information might be exploited violently by their enemies; for example, their enemies might hunt them down or kidnap loved ones to force them to cooperate. For this reason, the United States Department of Defense (DoD) has strict policies controlling release of PII of DoD personnel.<ref>cite web
+ |url         = http://www.dod.mil/pubs/foi/withhold.pdf
+ |title       = MEMORANDUM FOR DOD FOIA OFFICES
+ |publisher   = United States Department of Defense
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20110629082449/http://www.dod.mil/pubs/foi/withhold.pdf
+ |archivedate = 29 June 2011
+ |df          = dmy-all
+</ref>  Many intelligence agency|intelligence agencies have similar policies, sometimes to the point where employees do not disclose to their friends that they work for the agency.
+
+Similar identity protection concerns exist for witness protection programs, women's shelters, and victims of domestic violence and other threats.citation needed|date=April 2013
+
+ See also 
+* Anonymity
+* ''Bundesdatenschutzgesetz''
+* De-identification
+* Personal identifier
+* Personal identity
+* Personal Information Agent
+* Protected health information
+* Pseudonymity
+* Privacy
+* Privacy law
+* Privacy laws of the United States
+* Obfuscation
+* Surveillance
+* General Data Protection Regulation
+
+ Notes 
+notelist
+ References 
+Reflist|30em
+
+ External links 
+* [https://www.donneespersonnelles.fr/6-things-you-need-to-know-about-the-new-eu-privacy-framework Six things you need to know about the new EU privacy framework] A legal analysis of the new European regulatory framework about data privacy
+* [https://onlinelibrary.wiley.com/doi/10.1002/bult.2012.1720380207/full ''Personal and professional information management'']
+* [https://www.togetherwerebetter.org.uk/resources/giving-citizens-their-personal-data-rights-back Power to the People! Giving Citizens their Personal Data Rights Back] - J Cromack
+* [http://www3.weforum.org/docs/WEF_RethinkingPersonalData_ANewLens_Report_2014.pdf Rethinking Personal Data New Lens Report - World Economic Forum]
+* [https://community.mbaworld.com/blog/b/weblog/posts/why-consent-is-different-from-marketing-preferences Why Consent is Different to Marketing Preferences - K Dewar]
+
+Privacy
+Portal bar|Law
+
+DEFAULTSORT:Personally Identifiable Information
+Category:Identity documents
+Category:Privacy
+Category:Personal life
+Category:Data security
+Category:Data laws
+Category:Anonymity

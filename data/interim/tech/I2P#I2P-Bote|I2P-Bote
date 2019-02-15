@@ -1,0 +1,341 @@
+Multiple issues|
+Primary sources|article|date=August 2017
+Update|inaccurate=yes|date=August 2017
+
+
+Infobox software
+| title = 
+| name = I2P&nbsp;— The Anonymous Network
+| logo = #property:logo image
+| logo_size = 300px
+| logo_alt = 
+| logo caption = 
+| screenshot = <!--  Image name is enough -->
+| screenshot_size = 
+| screenshot_alt = 
+| caption = I2P 0.9.8.1 Router Console
+| collapsible = 
+| author = I2P Team<ref name="team">cite web |url=https://geti2p.net/en/about/team |title=I2P Project Members |website=geti2p.net |accessdate=22 November 2015</ref>
+| developer = 
+| released = Start date and age|2003
+| discontinued = 
+| latest release version = 0.9.37
+| latest release date = Start date and age |2018|10|04|df=yes<ref name="recentRelease">cite web |url=https://geti2p.net/de/blog/post/2018/10/04/0.9.37-Release |title=0.9.37 Release |website=geti2p.net</ref>
+| latest preview version = 
+| latest preview date = <!-- Start date and age|YYYY|MM|DD|df=yes/no -->
+| programming language = Java (programming language)|Java
+| operating system = Cross-platform
+| platform = 
+| size = 
+| language = English, Spanish<br />Incomplete translations: Russian, French,Romanian, German, Swedish, Italian, Portuguese, Chinese, Dutch, Polish, Hungarian, Arabic, Japanese, Estonian, Persian<ref>Citation | title = I2P | url = https://www.transifex.com/projects/p/I2P/ | publisher = Transifex | type = project.</ref>
+| language count = <!-- DO NOT include this parameter unless you know what it does -->
+| language footnote = 
+| genre = Overlay network
+| license = Free/Open Source – different licenses for different parts<ref>Citation | contribution = Licenses | publisher = Get I2P | contribution-url = https://geti2p.net/en/get-involved/develop/licenses | title = Get involved.</ref> Public domain, BSD license|BSD, GNU General Public License|GPL, MIT license|MIT
+| alexa = 
+| website = #property:official website
+| standard = 
+| AsOf = 
+
+The Invisible Internet Project (I2P) is an anonymous network layer (implemented as a Mix network|Mix Network) that allows for Internet censorship circumvention|censorship-resistant, Peer-to-peer|peer to peer communication.  Anonymous connections are achieved by encrypting the user's traffic (by using end-to-end encryption), and sending it through a volunteer-run network of roughly 55,000 computers distributed around the world.  Given the high number of possible paths the traffic can transit, a third party watching a full connection is unlikely.  The software that Implementation|implements this layer is called an "I2P Router (computing)|router", and a computer running I2P is called an "I2P Node (networking)|node".  I2P is Free software|free and Open-source software|open source, and is published under multiple software license|licenses.
+
+ Technical design 
+I2P is Development stage#Beta|beta software since 2003.<ref>Citation | url = https://geti2p.net/en/blog/ | type = blog | title = Get I2P.</ref>  The software's developers emphasize that there are likely to be Software bug|bugs in the beta version and that there has been insufficient peer review to date.<ref>cite web|title=Benefits of Tor over I2P| url= https://geti2p.net/en/comparison | publisher=I2P Dev Team | accessdate =23 December 2013</ref>  However, they believe the code is now reasonably stable and well-developed, and more exposure can help development of I2P.
+
+The network itself is strictly message-based (like Internet Protocol|IP), but there is a Library (computing)|library available to allow reliable Streaming algorithm|streaming communication on top of it (similar to Transmission control protocol|TCP, although from version 0.6 there is a new User datagram protocol|UDP-based Synchronization in telecommunications#Synchronization Supply Unit|SSU transport).  All communication is end-to-end encryption|encrypted (in total there are four layers of encryption used when sending a message) through garlic routing,<ref>https://geti2p.net/en/docs/how/garlic-routing</ref> and even the Communication endpoint|end points ("destinations") are cryptographic identifiers (essentially a pair of public keys), so that neither sender nor recipient of a message need to reveal their IP address to the other side or to third-party observers.
+
+Although many developers had been a part of the ''Invisible IRC Project (IIP)''<ref>Citation | title = Invisible IP | publisher = Source forge | contribution = IIP | contribution-url = http://invisibleip.sourceforge.net/iip/.</ref> and Freenet communities, there are significant differences between their designs and concepts.  IIP was an anonymous centralized Internet Relay Chat|IRC server.  Freenet is a censorship-resistant distributed data store.  I2P is an Anonymous P2P|anonymous peer-to-peer distributed communication layer designed to run ''any'' traditional internet service (e.g. Usenet, email, Internet Relay Chat|IRC, file sharing, Web hosting and HTTP, Telnet), as well as more traditional distributed applications (e.g. a distributed data store, a web proxy network using Squid (software)|Squid, or Domain Name System|DNS).
+
+Many developers of I2P are known only under Pseudonymity|pseudonyms.  While the previous main developer, ''J. Random Hacker|jrandom'', is currently on hiatus,<ref>Cite web|url=https://geti2p.net/en/misc/jrandom-awol|title=Jrandom's Announcement - I2P|website=geti2p.net|language=en|access-date=2017-07-15</ref> others, such as ''zzz'', ''killyourtv'', and ''Complication'' have continued to lead development efforts, and are assisted by numerous contributors.<ref name="team"/>
+
+I2P uses 2048bit ElGamal/AES256/SHA256+Session Tags encryption<ref>https://geti2p.net/pl/docs/how/elgamal-aes</ref> and Ed25519 EdDSA/ECDSA  Digital signature|signatures.<ref>https://trac.i2p2.de/wiki/Crypto/ECDSA</ref>
+
+= Releases =
+
+I2P has had a stable release every six to eight weeks.  Updates are distributed via I2P torrents and are signed by the release manager (generally ''zzz'' or ''str4d'').
+
+{|class="wikitable collapsible collapsed" style="border:none" 
+|-
+!scope="col"|I2P Versions
+|-
+|style="padding:0;border:none"|
+{| class="wikitable sortable" style="margin-bottom:0;margin:0;width:100%;"
+|-
+! Version
+!data-sort-type="isoDate" | Release date
+! Release Notes
+<!-- If someone wants to do even older releases please do :) -->
+|-
+! Version |o |0.9.11
+| style="text-align:right;"| 2014-02-08
+| style="border-left:0;"| Support for outproxy plugins, improves lease set lookup security, and reduces memory usage.<ref>cite web |url=https://geti2p.net/en/blog/post/2014/02/08/0.9.11-Release |title=0.9.11 Release |website=geti2p.net|author=zzz | date=8 February 2014</ref>
+|-
+! Version |o |0.9.12
+| style="text-align:right;"| 2014-03-31
+| style="border-left:0;"| Support for Elliptic Curve Digital Signature Algorithm|ECDSA and updates to Jetty (web server)|Jetty 8.<ref>cite web |url=https://geti2p.net/en/blog/post/2014/03/31/0.9.12-Release |title=0.9.12 Release |website=geti2p.net|author=zzz | date=31 March 2014</ref>
+|-
+! Version |o |0.9.13
+| style="text-align:right;"| 2014-05-22
+| style="border-left:0;"| SusiMail improvements and fixes for firewalled router.<ref>cite web |url=https://geti2p.net/en/blog/post/2014/05/22/0.9.13-Release |title=0.9.13 Release |website=geti2p.net|author=zzz | date=22 May 2014</ref>
+|-
+! Version |o |0.9.14
+| style="text-align:right;"| 2014-07-26 
+| style="border-left:0;"| Critical fixes for Cross-site scripting|XSS and remote execution vulnerabilities.<ref>cite web |url=https://geti2p.net/en/blog/post/2014/07/26/0.9.14-Release |title=0.9.14 Release |website=geti2p.net|author=zzz | date=26 July 2014</ref>
+|-
+! Version |o |0.9.14.1
+| style="text-align:right;"| 2014-08-09
+| style="border-left:0;"| I2PSnark and console fixes.<ref>cite web |url=https://geti2p.net/en/blog/post/2014/08/09/0.9.14.1-Release |title=0.9.14.1 Release |website=geti2p.net|author=zzz | date=9 August 2014</ref>
+|-
+! Version |o |0.9.15
+| style="text-align:right;"| 2014-09-20
+| style="border-left:0;"| Preliminary support for Ed25519 EdDSA signatures.<ref>cite web |url=https://geti2p.net/en/blog/post/2014/09/20/0.9.15-Release |title=0.9.15 Release |website=geti2p.net|author=zzz | date=20 September 2014</ref>
+|-
+! Version |o |0.9.16
+| style="text-align:right;"| 2014-11-01
+| style="border-left:0;"| Add support for stronger Router Info signatures.<ref>cite web |url=https://geti2p.net/en/blog/post/2014/11/01/0.9.16-Release |title=0.9.16 Release |website=geti2p.net|author=zzz | date=1 November 2014</ref>
+|-
+! Version |o |0.9.17
+| style="text-align:right;"| 2014-11-30
+| style="border-left:0;"| Signed news, ECDSA tunnels by default.<ref>cite web |url=https://geti2p.net/en/blog/post/2014/11/30/0.9.17-Release |title=0.9.17 Release |website=geti2p.net|author=zzz | date=30 November 2014</ref>
+|-
+! Version |o |0.9.18
+| style="text-align:right;"| 2015-02-22
+| style="border-left:0;"| Shortened the startup time, and reduced latency throughout our network protocols.<ref>cite web |url=https://geti2p.net/en/blog/post/2015/02/22/0.9.18-Release |title=0.9.18 Release |website=geti2p.net|author=zzz | date=22 February 2015</ref>
+|-
+! Version |o |0.9.19
+| style="text-align:right;"| 2015-04-12
+| style="border-left:0;"| Several fixes and improvements for floodfill performance.<ref>cite web |url=https://geti2p.net/en/blog/post/2015/04/12/0.9.19-Release |title=0.9.19 Release |website=geti2p.net|author=zzz | date=12 April 2015</ref>
+|-
+! Version |o |0.9.20
+| style="text-align:right;"| 2015-06-02
+| style="border-left:0;"| Important bug fixes, and several changes to increase floodfill capacity in the network.<ref>cite web |url=https://geti2p.net/en/blog/post/2015/06/02/0.9.20-Release |title=0.9.20 Release |website=geti2p.net|author=zzz | date=2 June 2015</ref>
+|-
+! Version |o |0.9.21
+| style="text-align:right;"| 2015-07-31
+| style="border-left:0;"| Contains several changes to add capacity to the network, increase the efficiency of the floodfills, and use bandwidth more effectively.<ref>cite web |url=https://geti2p.net/en/blog/post/2015/07/31/0.9.21-Release |title=0.9.21 Release |website=geti2p.net|author=zzz | date=31 July 2015</ref>
+|-
+! Version |o |0.9.22
+| style="text-align:right;"| 2015-09-12
+| style="border-left:0;"| Fixes for I2PSnark getting stuck before completion, and begins the migration of router infos to new, stronger Ed25519 signatures.<ref>cite web |url=https://geti2p.net/en/blog/post/2015/09/12/0.9.22-Release |title=0.9.22 Release |website=geti2p.net|author=zzz | date=12 December 2015</ref>
+|-
+! Version |o |0.9.23
+| style="text-align:right;"| 2015-11-19
+| style="border-left:0;"| Accelerates the rekeying process.<ref>cite web |url=https://geti2p.net/en/blog/post/2015/11/19/0.9.23-Release |title=0.9.23 Release |website=geti2p.net|author=str4d |date=19 November 2015</ref>
+|-
+! Version |o |0.9.24
+| style="text-align:right;"| 2016-01-27
+| style="border-left:0;"| A new version of SAM (v3.2) and numerous bug fixes and efficiency improvements. The first release to require Java 7.<ref>cite web |url=https://geti2p.net/en/blog/post/2016/01/27/0.9.24-Release |title=0.9.24 Release |website=geti2p.net|author=zzz |date=27 January 2016</ref>
+|-
+! Version |o |0.9.25
+| style="text-align:right;"| 2016-03-22
+| style="border-left:0;"| A new version of SAM (v3.3), QR codes for sharing hidden services, identicons and router families.<ref>cite web |url=https://geti2p.net/en/blog/post/2016/03/22/0.9.25-Release |title=0.9.25 Release |website=geti2p.net|author=zzz |date=3 March 2016</ref>
+|-
+! Version |o |0.9.26
+| style="text-align:right;"| 2016-06-07
+| style="border-left:0;"| Major upgrade to the native crypto library, a new addressbook subscription protocol with signatures, and major improvements to the Debian/Ubuntu packaging.<ref>cite web |url=https://geti2p.net/en/blog/post/2016/06/07/0.9.26-Release |title=0.9.26 Release |website=geti2p.net|author=zzz |date=7 June 2016</ref>
+|-
+! Version |o |0.9.27
+| style="text-align:right;"| 2016-10-17
+| style="border-left:0;"| Improvements in IPv6 transports, SSU peer testing, and hidden mode.<ref>cite web |url=https://geti2p.net/en/blog/post/2016/10/17/0.9.27-Release |title=0.9.27 Release |website=geti2p.net|author=zzz |date=17 October 2016</ref>
+|-
+! Version |o |0.9.28
+| style="text-align:right;"| 2016-12-12
+| style="border-left:0;"| Updates for a number of bundled software, fixes for IPv6 peer testing, improvements to detect and block potentially malicious peers. Preliminary fixes for Java 9.<ref>cite web |url=https://geti2p.net/en/blog/post/2016/12/12/0.9.28-Release |title=0.9.28 Release |website=geti2p.net|author=zzz |date=12 December 2016</ref>
+|-
+! Version |o |0.9.29
+| style="text-align:right;"| 2017-02-27
+| style="border-left:0;"| Support for NTP over IPv6, preliminary Docker support, translated main pages. We now pass same-origin Referrer headers through the HTTP proxy. There are more fixes for Java 9, although we do not yet recommend Java 9 for general use.<ref>cite web |url=https://geti2p.net/en/blog/post/2017/02/27/0.9.29-Release |title=0.9.29 Release |website=geti2p.net|author=zzz |date=27 February 2017</ref>
+|-
+! Version |o |0.9.30
+| style="text-align:right;"| 2017-05-03
+| style="border-left:0;"| Support for Debian Stretch and Ubuntu Zesty, upgraded to Jetty 9 and Tomcat 8, support for the migration of old DSA-SHA1 hidden services to the EdDSA signature type.<ref>cite web |url=https://geti2p.net/en/blog/post/2017/05/03/0.9.30-Release |title=0.9.30 Release |website=geti2p.net|author=zzz |date=3 May 2017</ref>
+|-
+! Version |o |0.9.31
+| style="text-align:right;"| 2017-08-07
+| style="border-left:0;"| Refreshed the router console to improve readability, improved accessibility and cross-browser support, and general tidying up.<ref>cite web |url=https://geti2p.net/en/blog/post/2017/08/07/0.9.31-Release |title=0.9.31 Release |website=geti2p.net|author=zzz |date=7 August 2017</ref>
+|-
+! Version |o |0.9.32
+| style="text-align:right;"| 2017-11-07
+| style="border-left:0;"| 0.9.32 contains a number of fixes in the router console and associated webapps (addressbook, i2psnark, and susimail). We have also changed the way we handle configured hostnames for published router infos, to eliminate some network enumeration attacks via DNS. Added some checks in the console to resist rebinding attacks.<ref>cite web |url=https://geti2p.net/en/blog/post/2017/11/07/0.9.32-Release |title=0.9.32 Release |website=geti2p.net|author=zzz |date=11 November 2017</ref>
+|-
+! Version |o |0.9.33
+| style="text-align:right;"| 2018-01-30
+| style="border-left:0;"| 0.9.33 contains bug fixes for i2psnark, i2ptunnel, streaming, and SusiMail. Updates for reseed proxying, and default rate limiting.<ref>cite web |url=https://geti2p.net/en/blog/post/2018/01/30/0.9.33-Release |title=0.9.33 Release |website=geti2p.net|author=zzz |date=30 January 2018</ref>
+|-
+! Version |o |0.9.34
+| style="text-align:right;"| 2018-04-10
+| style="border-left:0;"| 0.9.34 contains bug fixes for i2ptunnel, router console, SusiMail, routing and transport along with Changes to SusiMail and UPnP.<ref>cite web |url=https://geti2p.net/en/blog/post/2018/04/10/0.9.34-Release |title=0.9.34 Release |website=geti2p.net|author=zzz |date=10 April 2018</ref>
+|-
+! Version |o |0.9.35
+| style="text-align:right;"| 2018-06-26
+| style="border-left:0;"| 0.9.35 adds support for folders in SusiMail, and a new SSL Wizard for setting up HTTPS on your Hidden Service website.<ref>cite web |url=https://geti2p.net/en/blog/post/2018/06/26/0.9.35-Release |title=0.9.35 Release |website=geti2p.net|author=zzz |date=26 June 2018</ref>
+|-
+! Version |o |0.9.36
+| style="text-align:right;"| 2018-08-23
+| style="border-left:0;"| 0.9.36 implements a new, more secure transport protocol called NTCP2. It is disabled by default, but you may enable it for testing. NTCP2 will be enabled in the next release.<ref>cite web |url=https://geti2p.net/en/blog/post/2018/08/23/0.9.36-Release |title=0.9.36 Release |website=geti2p.net|author=zzz |date=23 August 2018</ref>
+|-
+! Version |o |0.9.37
+| style="text-align:right;"| 2018-10-04
+| style="border-left:0;"| 0.9.37 enables the faster, more secure transport protocol called NTCP2.<ref>cite web |url=https://geti2p.net/en/blog/post/2018/10/04/0.9.37-Release |title=0.9.37 Release |website=geti2p.net|author=zzz |date=4 October 2018</ref>
+|-
+! Version |c |0.9.38
+| style="text-align:right;"| 2019-01-22
+| style="border-left:0;"| 0.9.38 includes a new first-install wizard with a bandwidth tester. We've added support for the latest GeoIP database format. There's a new Firefox profile installer and a new, native Mac OSX installer on our website. Work continues on supporting the new "LS2" netdb format.<ref>cite web |url=https://geti2p.net/en/blog/post/2019/01/22/0.9.38-Release |title=0.9.38 Release |website=geti2p.net|author=zzz |date=22 January 2019</ref>
+|}
+|}
+
+ Software 
+File:I2P_router_console_0.9.31-0.png|thumb|I2P 0.9.31-0 router console
+
+Since I2P is an anonymous network layer, it is designed so other software can use it for anonymous communication. As such, there are a variety of tools currently available for I2P or in development.
+
+The I2P Router (computing)|router is controlled through the router console, which is a web frontend accessed through a web browser.
+
+= General networking =
+* ''I2PTunnel'' is an application embedded into I2P that allows arbitrary TCP/IP applications to communicate over I2P by setting up "Tunneling protocol|tunnels" which can be accessed by connecting to pre-determined ports on localhost.
+* ''SAM'' (''Simple Anonymous Messaging'') is a Communications protocol|protocol which allows a client application written in any programming language to communicate over I2P, by using a socket-based interface to the I2P router.<ref>Citation | title = API | contribution-url = https://geti2p.net/en/docs/api/sam | contribution = SAM | publisher = I2P.</ref>
+* ''BOB'' (''Basic Open Bridge'') is a less complex app to router protocol similar to "SAM"<ref>Citation | title = API | contribution-url = https://geti2p.net/en/docs/api/bob | contribution = BOB | publisher = Get I2P.</ref><ref>Citation | url = http://bob.i2p.xyz/ | title = BOB: Basic Open Bridge API to the I2P router | type = official eepsite | deadurl = yes | archiveurl = https://web.archive.org/web/20151204035029/http://bob.i2p.xyz/ | archivedate = 2015-12-04 | df =  .</ref>
+* ''Orchid'' Outproxy Tor (anonymity network)|Tor plugin<ref>https://github.com/subgraph/Orchid</ref>
+
+= Chat =
+* Any IRC client made for the Internet Relay Chat can work, once connected to the I2P IRC server (on localhost).
+
+= File sharing =
+* Several programs provide BitTorrent (protocol)|BitTorrent functionality for use within the I2P network.  Users cannot connect to non-I2P torrents or peers from within I2P, nor can they connect to I2P torrents or peers from outside I2P.<ref>Citation | place = Germany|DE | url = https://forum.i2p2.de/viewtopic.php?t=2068 | title = I2P Bittorrent FAQ | publisher = i2p2 | type = forum | deadurl = yes | archiveurl = https://web.archive.org/web/20111103091108/http://forum.i2p2.de/viewtopic.php?t=2068 | archivedate = 2011-11-03 | df =  .</ref> ''I2PSnark'', included in the I2P install package, is a port of the BitTorrent client named Snark.<ref>Citation | url = http://klomp.org/snark/ | title = The Hunting of the Snark Project – BitTorrent Application Suite | publisher = Klomp.</ref> ''Vuze'', formerly known as Azureus, is a BitTorrent client that includes a plugin for I2P, allowing anonymous Segmented downloading|swarming through this network.<ref>Citation | contribution-url = http://wiki.vuze.com/w/I2PHelper_HowTo | title = I2PHelper | contribution = How To for I2P Network Plugin | format = Howto | type = setup tutorial | publisher = Vuze.</ref> This plugin is still in an early stage of development, however it is already fairly stable. ''I2P-BT'' is a BitTorrent client for I2P that allows anonymous swarming for file sharing. This client is a modified version of the original BitTorrent 3.4.2 program which runs on Microsoft|MS Windows and most dialects of Unix in a GUI and command-line environment. It was developed by the individual known as 'duck' on I2P in cooperation with 'smeghead'. It is no longer being actively developed; however, there is a small effort to upgrade the I2P-BT client up to par with the BitTorrent 4.0 release. ''I2PRufus'' is an I2P port of the Rufus BitTorrent client.<ref>cite web | url = http://rufus.sourceforge.net/ | title = Rufus – BitTorrent Client |work= Sourceforge.</ref>  Robert (P2P Software) is the most actively maintained I2PRufus fork. XD is a standalone BitTorrent client written in Go.<ref>https://github.com/majestrate/XD/</ref>
+*  Two Kad network clients exist for the I2P network, ''iMule'' and ''Nachtblitz''. iMule (''invisible Mule'') is a port of eMule for I2P network. iMule has not been developed since 2013. iMule is made for anonymous file sharing. In contrast to other eDonkey network|eDonkey clients, iMule only uses the Kademlia for proceeding to connect through I2P network, so no servers are needed. ''Nachtblitz''<ref>Citation | url = https://echelon.i2p.xyz/nachtblitz | title = Official Nachtblitz Resource | publisher = nachtblitz</ref> is a custom client built on the .NET Framework. The latest version is 1.4.27, released on March 23, 2016.<ref>http://echelon.i2p.xyz/nachtblitz/changelog.txt</ref> Nachtblitz includes a time lock to disable the software one year after its release date. 
+* I2Phex is a port of the popular Gnutella client Phex to I2P. It is stable and fairly functional.
+* A port of Tahoe-LAFS has been ported to I2P. This allows for files to be anonymously stored in Tahoe-LAFS grids.
+
+ Bridging to Clearnet 
+Currently, Vuze is the only torrent client that make clearnet (connections not through I2P) torrents available on I2P and vice versa, by using a plugin that connects them to the I2P network. Depending on the client settings, torrents from the internet can be made available on I2P (via announcements to I2P's DHT network) and torrents from I2P can be made available to the internet. For this reason, torrents previously published only on I2P can be made available to the entire Internet, and users of I2P can often download popular content from the Internet while maintaining the anonymity of I2P.<ref>cite web|url=https://torrentfreak.com/vuze-speeds-up-torrent-downloads-through-swarm-merging-150320/|title=Vuze Speeds Up Torrent Downloads Through "Swarm Merging" |date=20 March 2015 |work=TorrentFreak |accessdate=4 June 2016</ref><ref>cite web |url=https://wiki.vuze.com/w/I2PHelper_HowTo#Network_Mixing |title=I2PHelper HowTo |work=VuzeWiki |accessdate=4 June 2016</ref>
+
+= Email =
+File:I2PBote-inbox-0.4.png|thumb|A screenshot of the inbox of I2P-Bote.
+
+* ''I2P-Bote'' is a free, fully Decentralized computing|decentralized and distributed anonymous email system with a strong focus on security.<ref>Citation | publisher = I2P | title = I2P-Bote | url = http://bote.i2p.xyz/ | deadurl = yes | archiveurl = https://web.archive.org/web/20150913030443/http://bote.i2p.xyz/ | archivedate = 2015-09-13 | df =  .</ref> It supports multiple identities and does not expose email metadata. As of | 2015, it is still considered beta version|beta software. I2P-Bote is accessible via the I2P web application|web console interface or using standard email protocols (i.e. IMAP/SMTP). All bote-mails are transparently end-to-end encrypted and signed by the sender's private key, thus removing the need for Pretty Good Privacy|PGP or other email encryption software. I2P-Bote offers additional anonymity by allowing for the use of mail relays with variable length delays. Since it is decentralized, there is no centralized email server that could correlate different email identities as communicating with each other (i.e. ''profiling''). Even the Node (networking)|nodes relaying the mails do not know the sender, and apart from sender and receiver, only the end of the high-Latency (engineering)|latency mail route and the storing nodes will know to whom (which I2P-Bote address – the user's IP address is still hidden by I2P) the mail is destined. The original sender could have gone offline long before the email becomes available to the recipient. No account registration is necessary, all you have to do in order to use it is create a new identity. I2P-Bote can be installed as an I2P plugin .<ref>Citation | title = Plugins | url = http://plugins.i2p.xyz/plugins/i2pbote/ | publisher = I2P | deadurl = yes | archiveurl = https://archive.is/20150909185051/http://plugins.i2p.xyz/plugins/i2pbote/ | archivedate = 2015-09-09 | df =  </ref>
+* I2P also has a free pseudonymous e-mail service run by an individual called ''Postman''. Susimail is a web-based email client intended primarily for use with Postman's mail servers, and is designed with security and anonymity in mind. Susimail was created to address privacy concerns in using these servers directly using traditional email clients, such as leaking the user's hostname while communicating with the SMTP server. It is currently included in the default I2P distribution, and can be accessed through the I2P router console web interface. Mail.i2p can contact both I2P email users, via user@mail.i2p and public internet email users from a user@i2pmail.org address.
+* Bitmessage#Bitmessage.ch|Bitmessage.ch can be used over I2P or Tor.
+
+= Instant Messaging =
+* ''I2P-Messenger'' is a simple Qt (framework)|Qt-based, serverless, end-to-end-encrypted instant messenger for I2P.<ref>Citation | title = Introducing I2P | url = https://geti2p.net/en/docs/how/tech-intro#app.i2pmessenger | date = Nov 10, 2015</ref> No servers can log the user's conversations. No ISP can log with whom the user chats, when, or for how long. As it is serverless, it can make use of I2P's end-to-end encryption, preventing any node between two parties from having access to the plain text. I2P-Messenger can be used for fully anonymous instant communication with persons the user doesn't even know, or, alternatively, to communicate securely and untraceably with friends, family members, or colleagues. <!--"Thus, it is also a useful tool against data retention in a surveillance society" Is this the part that is soapboxy?--> In addition to messaging, file transfer is also supported.
+* ''I2P-Talk'' is another simple instant messenger incompatible with I2P-Messenger, but having the same security properties
+
+= Publishing =
+* ''Syndie'' is a content distribution application, suitable for blogs, newsgroups, Internet forum|forums and small media attachments. Syndie is designed for Resilience (network)|network resilience. It supports connections to I2P, the Tor network (Syndie does not support Socks proxies, workaround needed for Tor access), Freenet and the regular internet. Server connections are intermittent, and support Network performance#Examples of latency or throughput dominated systems|higher-latency communications. Connections can be made to any number of known servers. Content is spread efficiently using a Gossip protocol. 
+* ''Aktie'' is an anonymous file sharing and distributed Web of trust forums system.  Aktie can connect to I2P with its internal router or use an external router. To fight spam, "hash payments" (proof of CPU work) is computed for every published item.
+
+= Routers =
+* I2PBerry is a Linux distribution which can be used as a router to encrypt and route network traffic through the I2P network.
+*i2pd is a light-weight I2P router written in C++, stripping the excessive applications such as e-mail, torrents, and others that can be regarded as bloat.<ref>Cite web|url=https://github.com/PurpleI2P/i2pd/wiki/Differences-between-i2pd-and-Java-I2P-router|title=PurpleI2P/i2pd|website=GitHub|language=en|access-date=2018-08-20</ref><ref>Cite web|url=https://i2pd.website/|title=Invisible Internet Protocol Daemon|website=i2pd.website|access-date=2018-08-20</ref>
+* Kovri is an I2P router written in C++.<ref>https://getkovri.org/index.html</ref> It was forked from i2pd following developer disagreements.<ref>cite web|title=What is the difference between i2pd and Kovri?|url=http://monero.stackexchange.com/a/2327/42|website=StackExchange|accessdate=4 March 2017</ref> Kovri's primary purpose is to integrate with the cryptocurrency Monero (cryptocurrency)|Monero to send new transaction information over I2P, making it much more difficult to find which node is the origin of a transaction request.<ref>cite web|title=Kovri - Moneropedia|url=https://getmonero.org/knowledge-base/moneropedia/kovri|website=GetMonero|accessdate=4 March 2017</ref> Those using the Kovri router will be running full I2P routers that contribute to the I2P network the same way the current Java (programming language)|Java router does. This project is expected to benefit both the Monero and I2P communities, since it will allow for greater privacy in Monero, and it should increase the number of nodes on the I2P network.<ref>cite web|title=What use cases will Kovri have for Monero?|url=http://monero.stackexchange.com/a/1961/42|website=StackExchange</ref>
+
+= The Privacy Solutions project =
+The Privacy Solutions project,<ref>Citation | url = https://privacysolutions.no/ | title = Privacy Solutions project.</ref> a new organization that develops and maintains I2P software, launched several new development efforts designed to enhance the privacy, security, and anonymity for users, based on I2P protocols and technology.
+
+These efforts include:<ref>Citation | url = https://geti2p.net/nl/blog/post/2014/08/15/The-privacy-solutions-project | title = List of ongoing Privacy Solutions projects.</ref>
+
+* The Abscond browser bundle.
+* i2pd,<ref>http://i2pd.website/</ref> an alternate implementation of I2P, written in C++ (rather than Java).
+* The "BigBrother" I2P network monitoring project.
+
+The code repository and download sections for the i2pd and Abscond project is available for the public to review and download.<ref>Citation | url = https://github.com/PrivacySolutions/i2pd | title = Active development | publisher = The Privacy Solutions</ref>
+Effective January, 2015 i2pd is operating under  PurpleI2P.<ref>Citation | url = https://github.com/PurpleI2P/i2pd | title = Active development | publisher = Purple I2P</ref>
+
+=Android=
+File:I2PAndroid-console-0.9.20.png|thumb|I2P running on Android (operating system)|Android.
+
+* Release builds of an I2P Router application for Android can be found on the Google Play store under The Privacy Solutions Project's Google Play account or on an F-Droid repository hosted by the developers.<ref>Citation | url=https://geti2p.net/en/blog/post/2014/12/01/Android-app-releases | title=Android App Releases </ref>
+* ''Nightweb'' is an Android application that utilizes I2P and Bittorrent to share blog posts, photos, and other similar content. It can also be run as a desktop application. It is no longer in development.<ref>Citation | url = https://sekao.net/nightweb/blog/discontinued.html | title = Discontinued | publisher = Nightweb.</ref>
+
+=Crypto-Currency=
+Some crypto currencies that support I2P are listed below.
+<!-- LIST ONLY CURRENCIES THAT ALREADY HAVE WIKIPEDIA ARTICLES -->
+* Monero (cryptocurrency)
+* Verge (cryptocurrency)
+
+ Terminology 
+File:Itoopie.svg|thumb|I2P's mascot, itoopie, who is looking through a magnifying glass.<ref>cite web |title=I2P con 2015 - Growing the Network, Spreading the Word, 03:41 |url=https://www.youtube.com/watch?v=_R85duCOWsY&t=221 |website=YouTube</ref>
+
+; Eepsite: Eepsites are websites that are hosted anonymously within the I2P network.  Eepsite names end in ''.i2p'', such as ''ugha.i2p'' or ''forum.i2p''. EepProxy can locate these sites through the Key (cryptography)|cryptographic identifier keys stored in the hosts (file)|hosts.txt file found within the I2P program directory.  Typically, I2P is required to access these eepsites.<ref>cite web |url=https://geti2p.net/en/about/intro |title=Intro |work=I2P |accessdate=4 June 2016</ref>
+; .i2p: 'I2p' is a pseudo-top-level domain which is only valid within the I2P overlay network scope. <tt>.i2p</tt> Name resolution (computer systems)|names are resolved by browsers by submitting requests to EepProxy which will resolve names to an I2P peer key and will handle data transfers over the I2P network while remaining transparent to the browser.<ref>cite web|url=https://geti2p.net/en/docs/naming |title=Naming and Addressbook - I2P |work=geti2p.net |accessdate=4 June 2016</ref>
+; EepProxy: The EepProxy program handles all communication between the browser and any eepsite.  It functions as a proxy server that can be used by any web browser.
+; Peers, I2P nodes: Other machines using I2P that are connected to user's machine within the network.  Each machine within the network shares the routing and forwarding of encrypted Network packet|packets.
+; Tunnels: Every ten minutes, a connection is established between the user's machine and another peer.  Data to and from the user, along with the data for other peers (routed through the user's machine), pass through these tunnels and are forwarded to their final destination (may include more Jump Server|jumps).<ref>cite web |url=https://geti2p.net/en/docs/how/tunnel-routing |title=Tunnel Routing |work=I2P |accessdate=4 June 2016</ref>
+; netDb: The distributed database that holds information on I2P nodes and I2P eepsites. This database is split up among routers known as "floodfill routers".  When a user wants to know how to contact an eepsite, or where more peers are, they query the database.<ref>cite web |url=https://geti2p.net/en/docs/how/network-database |title=The Network Database |work=I2P |accessdate=4 June 2016</ref>
+
+ I2PCon 
+
+File:I2PCon-2015-David-Dagon.jpg|thumb|David Dagon presenting at the first I2Pcon.
+
+From daterange|Format date|2015|08|15|Format date|2015|08|16 the first I2P convention was held in Toronto|Toronto, Ontario.<ref>cite web|url=https://geti2p.net/en/blog/post/2015/08/20/I2PCon_Mission_Accomplished |title=I2PCon: Mission Accomplished - Blog |work=I2P |accessdate=4 June 2016</ref>  The conference was hosted by a local hackerspace, Hacklab. The conference featured presentations from I2P developers and security researchers.
+
+Format date|2015|08|15 mainly had presentations on the past growth of the I2P network, a talk on what happens when companies sell people's personal information, and a round-table discussion on general privacy and security topics.  The day ended with a CryptoParty, which helped to introduce new users to installing I2P, sending secure emails with I2P-Bote, and using I2P along with Vuze.
+
+Format date|2015|08|16 had more technical discussions than the previous day.  The talks focused what how to dissuade bad-actors from using the network, how I2P has worked computer connection limits, how to do application development using I2P, and the development of the Android version.  This day ended with a development meeting.
+
+ Cultural references 
+
+In House of Cards (U.S. TV series)|House of Cards Season 2 Episode 2, I2P is referenced.<ref>cite web |url=http://wwno.org/post/hacker-turned-consultant-helps-house-cards |title=Hacker-Turned-Consultant Helps 'House Of Cards' |date=9 April 2014 |website= New Orleans Public Radio  |access-date=4 October 2017</ref>
+
+ See also 
+* Rendezvous protocol
+* Crypto-anarchism
+* Darknet
+* Garlic routing
+* Secure communication
+* Threat model
+
+=Software=
+* Retroshare
+* Tor (anonymity network)|Tor
+* Tribler
+* ZeroNet
+
+ References 
+Reflist|2|refs = EXCHANGED.i2p
+
+ External links 
+* official website
+
+Prone to spam|date=November 2017
+Z148<!--     No more links
+
+       Please be cautious adding more external links.
+
+Wikipedia is not a collection of links and should not be used for advertising.
+
+     Excessive or inappropriate links will be removed.
+
+ See Wikipedia:External links and Wikipedia:Spam for details.
+
+If there are already suitable links, propose additions or replacements on
+the article's talk page.
+
+-->
+
+I2P
+File sharing protocols
+Cryptographic software
+Portal bar|Free and open-source software
+
+Internet censorship circumvention technologies
+
+Category:I2P
+Category:Anonymity networks
+Category:Anonymous file sharing networks
+Category:Cross-platform free software
+Category:Cross-platform software
+Category:Cryptographic software
+Category:Cryptographic protocols
+Category:Dark web
+Category:Free communication software
+Category:Free multilingual software
+Category:Free network-related software
+Category:Free routing software
+Category:Free software programmed in Java (programming language)
+Category:Free and open-source Android software
+Category:Internet privacy software
+Category:Peer-to-peer computing
+Category:Privacy software
+Category:2003 software
+Category:Software using the MIT license

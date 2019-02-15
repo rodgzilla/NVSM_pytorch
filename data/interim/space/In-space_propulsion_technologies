@@ -1,0 +1,98 @@
+File:Apollo 4 Saturn V, s67-50531.jpg|thumb|Saturn V rocket, used for the American manned lunar landing missions
+
+Proposed in-space propulsion technologies describe the propulsion technologies that could meet future space research|space science and exploration needs. These propulsion technologies are intended to provide effective exploration of our Solar System and will permit mission designers to plan missions to "fly anytime, anywhere, and complete a host of science objectives at the destinations" and with greater reliability and safety. With a wide range of possible missions and candidate propulsion technologies, the question of which technologies are "best" for future missions is a difficult one. A portfolio of propulsion technologies should be developed to provide optimum solutions for a diverse set of missions and destinations.<ref name=meyer>
+NASA
+|article="In-space propulsion systems roadmap." (April 2012).
+|url=http://www.nasa.gov/pdf/501329main_TA02-ID_rev3-NRC-wTASR.pdf
+|author=Meyer, Mike, et al</ref><ref name=mason>
+Mason, Lee S. "[http://www.mdcampbell.com/Mason2006.pdf A practical approach to starting fission surface power development.]" 
+proceedings of International Congress on Advances in Nuclear Power Plants (ICAPP’06), American Nuclear Society, La Grange Park, IL, 2006b, paper. Vol. 6297. 2006.</ref><ref name=leone>
+cite news
+ | last = Leone
+ | first = Dan (Space Technology and Innovation)
+ | title = NASA Banking on Solar Electric Propulsion’s Slow but Steady Push
+ | newspaper = Space News
+ | publisher = SpaceNews, Inc
+ | date = May 20, 2013 
+ | url = http://www.spacenews.com/article/civil-space/35395space-technology-and-innovation-nasa-banking-on-solar-electric-propulsion%E2%80%99s
+ | accessdate = </ref>
+
+In-space propulsion begins where the upper stage of the launch vehicle leaves off; performing the functions of rocket propulsion|primary propulsion, reaction engine|reaction control, orbital station-keeping|station keeping, attitude control|precision pointing, and orbital maneuvering. The rocket engine|main engines used in space provide the primary propulsive force for Geostationary orbit|orbit transfer, Hohmann transfer orbit|planetary trajectories and extra List of landings on extraterrestrial bodies|planetary landing and wikt:ascent|ascent. The reaction control and orbital maneuvering systems provide the propulsive force for orbit maintenance, position control, station keeping, and spacecraft attitude control.<ref name=meyer/><ref name=mason/><ref name=leone/>
+
+Current technology
+A large fraction of the rocket engines in use today are Rocket engine#Chemically powered|chemical rockets; that is, they obtain the energy needed to generate thrust by chemical reactions to create a hot gas that is expanded to produce thrust. A significant limitation of Rocket engine#Chemically powered|chemical propulsion is that it has a relatively low specific impulse (Isp), which is the ratio of the thrust produced to the mass|mass of propellant needed at a certain Mass flow rate|rate of flow.<ref name=meyer/>
+
+File:Ion Engine Test Firing - GPN-2000-000482.jpg|thumb|right|225px|NASA's 2.3 kW NSTAR ion thruster for the Deep Space&nbsp;1 spacecraft during a hot fire test at the Jet Propulsion Laboratory.
+
+A significant improvement (above 30%) in specific impulse can be obtained by using cryogenic propellants, such as liquid oxygen and liquid hydrogen, for example. Historically, these propellants have not been applied beyond rocket stage|upper stages. Furthermore, numerous concepts for advanced propulsion technologies, such as electrically powered spacecraft propulsion|electric propulsion, are commonly used for station keeping on commercial communications satellites and for prime propulsion on some space exploration|scientific space missions because they have significantly higher values of specific impulse. However, they generally have very small values of thrust and therefore must be operated for long durations to provide the total impulse required by a mission.<ref name=meyer/><ref name=tomsik>Tomsik, Thomas M. "[http://thehuwaldtfamily.org/jtrl/research/Propulsion/Rocket%20Propulsion/NASA-TM-2000-209941,%20Advances%20in%20Cryo%20Propellant%20Densification%20Technology.pdf Recent advances and applications in cryogenic propellant densification technology]." NASA TM 209941 (2000).</ref><ref name=oleson>Oleson, S., and J. Sankovic. "[http://adsabs.harvard.edu/full/2000ESASP.465..717O Advanced Hall electric propulsion for future in-space transportation]." Spacecraft Propulsion. Vol. 465. 2000.</ref><ref>Dunning, John W., Scott Benson, and Steven Oleson. "NASA’s electric propulsion program." 27th International Electric Propulsion Conference, Pasadena, CA, IEPC-01-002. 2001.</ref>
+
+Several of these technologies offer performance that is significantly better than that achievable with chemical propulsion.
+
+Metrics
+In-space propulsion represents technologies that can significantly improve a number of critical aspects of the mission. Space exploration is about getting somewhere safely (mission enabling), getting there quickly (reduced transit times), getting a lot of mass there (increased payload (air and space craft)|payload mass), and getting there cheaply (lower cost). The simple act of "getting" there requires the employment of an in-space propulsion system, and the other metrics are modifiers to this fundamental action.<ref name=meyer/><ref name=leone/>
+
+Development of technologies will result in technical solutions that improve thrust levels, Isp, power, specific mass, (or Power-to-weight ratio|specific power), volume, system mass, system complexity, operational complexity, commonality with other spacecraft systems, manufacturability, durability, and cost. These types of improvements will yield decreased transit times, increased payload mass, safer spacecraft, and decreased costs. In some instances, development of technologies within this TA will result in mission- enabling breakthroughs that will revolutionize space exploration. There is no single propulsion technology that will benefit all missions or mission types. The requirements for in-space propulsion vary widely due according to their intended application. The described technologies should support everything from small satellites and deep space exploration|robotic deep space exploration to space stations and Manned mission to Mars|human missions to Mars applications.<ref name=meyer/><ref name=leone/>
+
+=Technology area breakdown=
+The technology areas are divided into four basic groups: (1) Chemical propulsion, (2) Nonchemical propulsion, (3) Advanced propulsion technologies, and (4) Supporting technologies; based on the physics of the propulsion system and how it derives thrust as well as its technical maturity. Additionally, there may be credible meritorious in-space propulsion concepts not foreseen or reviewed at the time of publication, and which may be shown to be beneficial to future mission applications.<ref name=meyer/>
+
+=Defining technologies=
+Furthermore, the term "mission pull" defines a technology or a performance characteristic necessary to meet a planned NASA mission requirement. Any other relationship between a technology and a mission (an alternate propulsion system, for example) is categorized as "technology push." Also, a space demonstration refers to the spaceflight of a scaled version of a particular technology or of a critical technology subsystem. On the other hand, a space validation would serve as a qualification flight for future mission implementation. A successful validation flight would not require any additional space testing of a particular technology before it can be adopted for a science or exploration mission.<ref name=meyer/>
+
+The challenge
+For both human and robotic exploration, traversing the solar system is a struggle against time and distance. The most distant planets are 4.5–6 billion kilometers from the Sun and to reach them in any reasonable time requires much more capable propulsion systems than conventional chemical rockets. Rapid inner solar system missions with flexible launch dates are difficult, requiring propulsion systems that are beyond today's current state of the art. The logistics, and therefore the total system mass required to support sustained human exploration beyond Earth to destinations such as the Moon, Mars or Near Earth Objects,
+are daunting unless more efficient in-space propulsion technologies are developed and fielded.<ref name=meyer/><ref name=huntsb>
+cite journal
+|doi=10.1061/40476(299)45
+|citeseerx = 10.1.1.83.3242
+|title=Robotics Challenges for Robotic and Human Mars Exploration
+|journal=Robotics 2000
+|year=2000
+|last1=Huntsberger
+|first1=Terry
+|last2=Rodriguez
+|first2=Guillermo
+|last3=Schenker
+|first3=Paul S.
+|isbn=978-0-7844-0476-8
+|pages=340</ref>
+
+Primary propulsion technologies
+Work being performed at the Glenn Research Center develops primary propulsion technologies that can benefit near and mid-term science missions by reducing cost, mass and/or travel times. The In-Space Program is working to develop next generation electric propulsion technologies, including Ion and Hall thrusters.  Solar Sails, which are a form of propellantless propulsion, are also being developed. Solar sails rely on the naturally occurring sunlight for the propulsion energy. Other propulsion technologies being developed include advanced chemical propulsion and aerocapture.<ref name=leone/><ref name=grcspace>[http://spaceflightsystems.grc.nasa.gov/SSPO/ISPTProg/ In-Space Propulsion Program].Glenn Research Center. NASA. 2013</ref><ref name=glenion>[http://www.grc.nasa.gov/WWW/ion/ Ion propulsion system research]. Glenn Research Center. NASA. 2013</ref>
+
+See also
+Portal| Spaceflight 
+columns-list|colwidth=25em|
+* Alcubierre drive
+* Breakthrough Propulsion Physics Program
+* Interplanetary Transport Network
+* Interplanetary travel
+* List of aerospace engineering topics
+* List of rockets
+* Magnetic sail
+* Orbital maneuver
+* Orbital mechanics
+* Plasma propulsion engine
+* Pulse detonation engine
+* Rocket
+* Rocket engine nozzles
+* Satellite
+* Solar sail
+* Space travel using constant acceleration
+* Specific impulse
+* Stochastic electrodynamics
+* Tsiolkovsky rocket equation
+
+
+
+References
+reflist
+
+Further reading
+*Fullerton, Richard K. "[http://spacecraft.ssl.umd.edu/design_lib/ICES01-2200.EVA_roadmaps.pdf Advanced EVA Roadmaps and Requirements]." Proceedings of the 31st International Conference on Environmental Systems. 2001.
+
+Category:Spacecraft propulsion
+Category:Space technology
+Category:NASA programs
+Category:Glenn Research Center
+Category:Discovery and exploration of the Solar System

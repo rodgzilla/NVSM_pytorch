@@ -1,0 +1,57 @@
+multiple issues|
+More citations needed|date=January 2010
+expert needed|date=January 2016
+original research|date=January 2016
+
+lowercase|libdvdcss
+Infobox software
+| name                   = libdvdcss<ref name="videolan">http://www.videolan.org/developers/libdvdcss.html</ref>
+| logo                   =
+| author                 =
+| developer              = VideoLAN
+| released               =
+| latest release version = 1.4.2
+| latest release date    = release date|2018|03|23<ref>http://download.videolan.org/pub/libdvdcss/1.4.2</ref>
+| latest preview version =
+| latest preview date    =
+| programming language   = C (programming language)|C
+| operating system       = Linux, BSD, BeOS<br>Windows 95 and later<br>Mac OS X, Solaris (operating system)|Solaris, HP-UX
+| platform               = Portable
+| size                   =
+| genre                  = Library (computing)|Library
+| license                = GNU General Public License#Version 2|GNU GPL v2<ref>https://code.videolan.org/videolan/libdvdcss/raw/master/COPYING</ref>
+| website                =  URL|http://www.videolan.org/developers/libdvdcss.html|videolan.org/../libdvdcss
+
+libdvdcss (or libdvdcss2 in some repositories) is a Free software|free and  open-source software|open-source software library for accessing and unscrambling DVDs encrypted with the Content Scramble System (CSS). libdvdcss is part of the VideoLAN project and is used by VLC media player and other DVD player software packages, such as Ogle DVD Player|Ogle, xine-based players, and MPlayer.citation needed|date=January 2016
+
+Comparison with DeCSS
+libdvdcss is not to be confused with DeCSS. Whereas DeCSS uses a cracked DVD player key to perform authentication, libdvdcss uses a generated list of possible player keys. If none of them works (for instance, when the DVD drive enforces region coding), libdvdcss then performs a brute-force attack, ignoring the DVD's region code (if any). The legal status of libdvdcss is controversial<ref>[https://wiki.videolan.org/Frequently_Asked_Questions/#Is_libdvdcss_legal.3F VLC FAQ]</ref> but there has been - unlike DeCSS - no known legal challenge to it as of May 2018.
+
+Distribution
+Many GNU/Linux distributions do not contain libdvdcss (for example, Debian, Ubuntu (operating system)|Ubuntu, Fedora (operating system)|Fedora and openSUSE) due to fears of running afoul of Digital Millennium Copyright Act|DMCA-style laws, but they often provide the tools to let the user install it themselves. For example, it used to be available in Ubuntu through Medibuntu, which is no longer available.<ref>Many Debian derivatives provide a script in /usr/share/doc/libdvdread4/install-css.sh</ref>
+
+Distributions which come pre-installed with libdvdcss include BackTrack, CrunchBang Linux, LinuxMCE, Linux Mint, PCLinuxOS, Puppy Linux|Puppy Linux 4.2.1, Slax, Super OS, Pardus (operating system)|Pardus, and XBMC Live.citation needed|date=January 2016
+
+Usage
+Libdvdcss alone is only a Software library|library and cannot play DVDs. DVD player applications, such as VLC media player, use this library to decode DVDs. Libdvdcss is optional in many open-source DVD players, but without it, only non-encrypted discs will play.citation needed|date=January 2016
+
+Using HandBrake for DVD ripping on macOS requires that one compile and install libdvdcss.<ref>http://mac.softpedia.com/get/Development/Libraries/libdvdcss.shtml LibDVDcss compiled and install instructions for Mac OS X</ref>citation needed|date=February 2016
+
+References
+Reflist
+
+External links
+Portal|Free and open-source software
+* Official website|http://www.videolan.org/developers/libdvdcss.html
+
+Category:C libraries
+Category:Compact Disc and DVD copy protection
+Category:Cryptographic software
+Category:Free codecs
+Category:Free computer libraries
+Category:DVD
+
+
+compu-library-stub
+free-software-stub
+multimedia-software-stub

@@ -1,0 +1,34 @@
+Pseudonymization is a data management and de-identification procedure by which personally identifiable information fields within a data record are replaced by one or more artificial identifiers, or pseudonyms. A single pseudonym for each replaced field or collection of replaced fields makes the data record less identifiable while remaining suitable for data analysis and data processing. 
+
+Pseudonymization can be one way to comply with the European Union's new General Data Protection Regulation demands for secure data storage of personal information.<ref>[https://www.dativa.com/data-science-gdpr-pseudonymization-data-pipeline/ Data science under GDPR with pseudonymization in the data pipeline] Published by Dativa, 17 April, 2018</ref> Pseudonymized data can be restored to its original state with the addition of information which then allows individuals to be re-identified, while anonymized data can never be restored to its original state.<ref>[http://www.protegrity.com/pseudonymization-vs-anonymization-help-gdpr/ Pseudonymization vs. Anonymization and How They Help With GDPR] Published January, 2017 Retrieved April 20, 2018</ref>
+
+Data fields
+The choice of which data fields are to be pseudonymized is partly subjective. Less selective fields, such as Birth Date or Postal Code are often also included because they are usually available from other sources and therefore make a record easier to identify. Pseudonymizing these less identifying fields removes most of their analytic value and is therefore normally accompanied by the introduction of new derived and less identifying forms, such as year of birth or a larger postal code region.
+
+Data fields that are less identifying, such as date of attendance, are usually not pseudonymized. It is important to realize that this is because too much statistical utility is lost in doing so, not because the data cannot be identified. For example, given prior knowledge of a few attendance dates it is easy to identify someone's data in a pseudonymized dataset by selecting only those people with that pattern of dates. This is an example of an inference attack.
+
+The weakness of pseudonymized data to inference attacks is commonly overlooked. A famous example is the AOL search data scandal.
+
+Protecting statistically useful pseudonymized data from re-identification requires:
+#  a sound information security base 
+#  controlling the risk that the analysts, researchers or other data workers cause a privacy breach
+
+The pseudonym allows tracking back of data to its origins, which distinguishes pseudonymization from anonymization,<ref>http://dud.inf.tu-dresden.de/literatur/Anon_Terminology_v0.31.pdf Anonymity, Unlinkability, Undetectability, Unobservability, Pseudonymity, and Identity Management – A Consolidated Proposal for Terminology</ref> where all person-related data that could allow backtracking has been purged. Pseudonymization is an issue in, for example, patient-related data that has to be passed on securely between clinical centers.
+
+The application of pseudonymization to e-health intends to preserve the patient's privacy and data confidentiality. It allows primary use of medical records by authorized health care providers and privacy preserving secondary use by researchers.<ref>Neubauer T, Heurix J. A methodology for the pseudonymization of medical data. Int J Med Inform. 2011 Mar;80(3) 190-204. doi:10.1016/j.ijmedinf.2010.10.016. PMID|21075676.</ref> However, plain pseudonymization for privacy preservation often reaches its limits when genetic data are involved (see also genetic privacy). Due to the identifying nature of genetic data, depersonalization is often not sufficient to hide the corresponding person. Potential solutions are the combination of pseudonymization with fragmentation and encryption.<ref>http://www.xylem-technologies.com/2011/09/07/privacy-preserving-storage-and-access-of-medical-data-through-pseudonymization-and-encryption Privacy-Preserving Storage and Access of Medical Data through Pseudonymization and Encryption</ref>
+
+An example of application of pseudonymization procedure is creation of datasets for de-identification research by replacing Personally identifiable information|identifying words with words from the same category (e.g. replacing a name with a random name from the names dictionary),<ref>cite journal | last1 = Neamatullah | first1 = Ishna | last2 = Douglass | first2 = Margaret M | last3 = Li-wei | last4 = Lehman | first4 = H | last5 = Reisner | first5 = Andrew | last6 = Villarroe | first6 = Mauricio | last7 = Long | first7 = William J | last8 = Szolovits | first8 = Peter | last9 = Moody | first9 = George B | last10 = Mark | first10 = Roger G | last11 = Clifford | first11 = Gari D | year = 2008 | title = Automated de-identification of free-text medical records | url = http://www.biomedcentral.com/1472-6947/8/32 | journal = BMC Medical Informatics and Decision Making | volume = 8 | issue ishna neamatullah, automated de-identification of free-text medical records, http://www.physionet.= | page = 32 | doi=10.1186/1472-6947-8-32</ref><ref>org/physiotools/deid/doc/ishna-meng-thesis.pdf</ref><ref>cite journal | last1 = Deleger | first1 = L | display-authors = etal   | year = 2014 | title = Preparing an annotated gold standard corpus to share with extramural investigators for de-identification research | url = | journal = J Biomed Inform | volume = 50| issue = | pages = 173–183| doi = 10.1016/j.jbi.2014.01.014 </ref> however, in this case it is in general not possible to track data back to its origins.
+
+See also
+
+* Clinical information system
+* Data masking#Dynamic data masking|Dynamic Data Masking
+* FLAIM
+* Privacy
+
+References
+
+reflist|30em
+
+Category:Health informatics
+Category:Data management

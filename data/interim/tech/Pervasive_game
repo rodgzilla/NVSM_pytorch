@@ -1,0 +1,168 @@
+
+A pervasive game is a video game where the gaming experience is extended out in the reality|real world,<ref name="Benford2005-Bridging"/> or where the fictive world in which the game takes place blends with the physical world.<ref name="Nieuwdorp2007-Discourse"/> The "It's Alive" mobile games company described pervasive games as "games that surround you",<ref name="ItsAlive2005"/> while Montola, Stenros and Waern's book, ''Pervasive Games'' defines them as having "one or more salient features that expand the contractual magic circle of play spatially, temporally, or socially."<ref name="Montola2009-PG"/> The concept of a "Magic Circle (virtual worlds)|magic circle" draws from the work of Johan Huizinga, who describes the boundaries of play.<ref name="Oppermann2009-thesis"/>
+
+The origins of pervasive gaming are related to the concepts of pervasive computing, ubiquitous computing and ubiquitous gaming.<ref name="Nieuwdorp2007-Discourse"/>a
+
+ Definitions 
+
+Pervasive games was first defined as "a LARP (Live action role-playing game) game that is augmented with computing and communication technology in a way that combines the physical and digital space together".<ref name="schneider2001-how2host"/> Since then the term has become ambiguous, taking on the following definitions:<ref name="Nieuwdorp2007-Discourse"/>
+* A game that depends primarily on ''pervasive technology and nonstandard input devices''
+* An existing game that is ''augmented by computers'', resulting in a blend of the real and virtual worlds
+* A game ''that pervades the real world in an undefined manner, and thus blends with it''
+* A ''specific setting'' of the game world within the real world
+* A game that ''blurs the boundaries between itself and the real world'', which can influence the concept of the ''Magic Circle (virtual worlds)|magic circle''
+* A game that is ''an overlay'' of the real world or where the ''world becomes a game board''
+* A game with a ''persistent presence'' in the real world, and thus available to the players at all times
+* A game where the ''gameplay'' interacts with elements of the real world, thus challenging standard gameplay conventions
+* A game where there is ''mutual interaction among players and elements in the real world''
+* A game that blends ''with everyday experiences''
+
+These definitions can be generalized as being from two perspectives: "a technological one that focuses on computing technology as a tool to enable the game to come into being" (i.e., the first two meanings on the list above) and "a cultural one that focuses on the game itself and, subsequently, on the way the game world can be related to the everyday world" (i.e., the eight remaining meanings above). In definitive work by Markus Montola,<ref name="Montola2009-PG"/> pervasive games are summarily defined as having "one or more salient features that expand the contractual magic circle of play spatially, temporally, or socially", in other words "expand the boundaries of play".<ref name="Oppermann2009-thesis"/>
+
+From the user experience perspective, Arango-López et. al <ref name="Lopez2017"/> propose a new definition, taking into account the given basis by Montola and their own experience in the games development. They define that: "A pervasive game delivers to the player an enriched experience of the game through an evolvement of the dynamics of the game, expanding the space of the game according to the context where it is played. This allows breaking the boundaries of the game world, making reality part of it and that the elements in that really have an influence during the game". They delved in the special features and added a component diagram of the pervasive games, it is based on the pervasive narrative of videogames. 
+
+ History 
+
+The first time the word "pervasive" was applied to gaming is around March or April 2001, by Jennica Falk, in an article referring to the environmgggh2host"/> Although the origins of ubiquitous computing and pervasive computing differ, they are often used interchangeably and both are the basis for pervasive gaming. Specifically, it is thegb technological perspective of pervasive games that borrows from both the cultural and the technological perspectives of pervasive computing. And, because ubiquitous computing and pervasive computing have been intermingled in the past, they both influence pervasive games.<ref name="Nieuwdorp2007-Discourse"/>
+
+At the Computer Science Lab at PARC (company)|Xerox PARC in 1988, Mark Weiser set up a "ubiquitous computing" research program to "conceive a new way of thinking about computers in the world, one that takes into account the natural human environment and allows the computers themselves to vanish into the background".<ref name="Weiser91"/> The program was designed such that computers were to cater to the wishes of the user, being of various sizes, aware of their location and easy to use. In 1998, Mark Bregman at IBM introduced "pervasive computing" as a commercial aspect where people have quick access to services anytime and anywhere.<ref name="davidsson2004-designpatt"/> Initially, the concepts of ubiquitous computing and/>
+
+ Staging a pervasive game 
+
+The staging of a pervasive game can be divided into three temporal phases: "pre-production", "run-time", and "post-production", but because we are dealing with games these phases can also be referred to as "pre-game", "in-game" and "post-game", leaving the word "run-time" to mean that the game is running, but players are not necessarily playing.<ref name="nevelsteen2015-pervasivemoo"/> Because pervasive games make use of technology, the technology is started during or at the end of the pre-game phase and left running throughout the in-game phase. The pre-game phase is usually used to reconfigure or author the game to a particular context, for example a location. Reconfiguration of the game can extend into the in-game phase. The post-game phases is often used to debrief players and perform analysis of the game for further stagings.<ref name="nevelsteen2015-pervasivemoo"/>
+
+While players are playing in the in-game phase, the game can be continuously altered through the use of Gamemaster|game mastering. Because pervasive games take place in the physical world, another responsibility of the game master is to keep players safe in the highly variable, possibly dangerous conditions of the physical world. A drawback of game mastering being that it can require a significant amount of human resources.<ref name="Broll2006-AugmentedTech"/> In order to support game mastering, tools can be used to automate the process. Such tools, among other things, can help process the potentially massive amounts of event information game masters must deal with. Two ways a gamemaster can influence the flow of the game: by directly altering information in the technology guiding the game, or by communicating directly with the players.<ref name="nevelsteen2015-pervasivemoo"/>
+
+Classification
+Pervasive games have been associated with ubiquitous games, Augmented reality|augmented and mixed reality games, mobile games, alternate reality games, Live action role-playing game|(enhanced) live action role playing, affective gaming, virtual reality games, smart toys, Location-based game|location-based or location-aware games, crossmedia games and augmented tabletop games.<ref name="Nieuwdorp2007-Discourse"/> The book ''Digital Cityscapes'' categorizes "playful activities that use mobile technologies as interfaces and the physical space as the game board" into four categories; pervasive games is said to be the most general, with Urban gaming|urban games, location-based mobile games and hybrid reality games being successively more specific.<ref name="deSouzaeSilva2009-Cityscapes"/>
+
+Another subclassification of pervasive games is based on to what degree technology is utilized in the game. A pervasive game is said to be "technology-sustained", if the game relies on computer simulation, in other words, "the computer maintains the game state through monitoring and reacting to player activities".<ref name="Montola2009-PG"/> In contrast, "technology-supported" pervasive games use technology, but it is not required for all game activities. Hybrids are possible, where part of the game is technology-sustained, but others are not.<ref name="Montola2009-PG"/>
+
+Not a straightforward classification, Valente et. al <ref name="Valente2017"/> propose a method to determine pervasive qualities applicable to mobile games, i.e. what makes a mobile game pervasive? The results of their method is a quality report containing a Quality spreadsheet and a Quality vector summarizing each game. They provide a taxonomy of pervasive qualities consisting of the following first-level qualities: Spatiality, Permanence, Communicability, Accessibility, Context awareness, Resilience and Sociality. Each of these first-level qualities has been divided into one or more second-level qualities.
+
+Examples
+Examples of pervasive games are ''Pokémon Go'',<ref name="waern2016-Persona"/> ''Assassin (game)|The Killer'', ''The Beast (game)|The Beast'', ''Shelby Logan's Run'', ''BotFighters'', ''Pac-Manhattan'', ''Uncle Roy All Around You'' and ''Amazing Race''.<ref name="Montola2009-PG"/>
+
+Pervasive game examples built on the EQUIP 2 software architecture, used in Equator IRC|Equator and thereafter in IPerG, include ''Can You See Me Now?'', ''Rider Spoke'', ''Day of the Figurines'', and ''Love City''.<ref name="Greenhalgh2013-Homepage"/> Niantic, Inc. launched ''Ingress (game)|Ingress'' in 2012, with about 500,000 players globally, and ''Pokémon Go'' in 2016.
+
+See also
+* Augmented reality
+* Blast Theory
+* Live-action virtual reality game
+* Pervasive informatics
+* The Game (mind game)
+* Transreality gaming
+
+External links
+* [https://annikawaern.wordpress.com/2016/07/12/you-dont-have-to-catch-them-all/ You don’t have to catch them all], safety in Pokémon Go
+
+ References 
+reflist|refs=
+<ref name="Benford2005-Bridging">Citation|first1=Steve |last1=Benford |first2=Carsten |last2=Magerkurth |first3=Peter |last3=Ljungstrand |author-link= |title=Bridging the physical and digital in pervasive gaming |url=http://www.pervasive-gaming.org/Publications/ACM-Bridging-the-Physical-and-Digital-in-Pervasive-Gaming.pdf |series=Communications of the ACM |year=2005 |pages=54–57 |publisher=ACM |deadurl=yes |archiveurl=https://web.archive.org/web/20141111144210/http://www.pervasive-gaming.org/Publications/ACM-Bridging-the-Physical-and-Digital-in-Pervasive-Gaming.pdf |archivedate=11 November 2014 </ref>
+<ref name="Nieuwdorp2007-Discourse">Cite journal | last1 = Nieuwdorp | first1 = E. | title = The pervasive discourse | doi = 10.1145/1279540.1279553 | journal = Computers in Entertainment | volume = 5 | issue = 2 | pages = 13 | year = 2007 | pmid =  | pmc = </ref>
+<ref name="ItsAlive2005">cite web
+ | title = What is Pervasive Gaming?
+ | publisher= It's Alive Mobile Games AB
+ | url = http://www.itsalive.com/page.asp?sa=0&id=1069
+ | accessdate = 2013-10-18
+ | archiveurl = https://web.archive.org/web/20050224025131/http://www.itsalive.com/page.asp?sa=0&id=1069
+ | archivedate=24 February 2005</ref> 
+<ref name="Montola2009-PG">cite book | title = Pervasive Games. Theory and Design. Experiences on the Boundary Between Life and Play. | first1= Markus | last1 = Montola | first2= Jaakko | last2= Stenros | first3 = Annika | last3= Waern | year= 2009 | publisher = Morgan Kaufmann Publishers  | pages =  </ref>
+<ref name="deSouzaeSilva2009-Cityscapes">cite book | title = Digital Cityscapes: merging digital and urban playspaces | first1 = Adriana | last1 = de Souza e Silva | first2 = Daniel M. | last2 = Sutko | year = 2009 | publisher = Peter Lang Publishing, Inc | location= New York  | pages =  </ref>
+<ref name="Greenhalgh2013-Homepage">cite web
+ | last = Greenhalgh
+ | first = Chris
+ | title = Chris Greenhalgh's Home Page
+ | date =
+ | url = http://www.cs.nott.ac.uk/~cmg/
+ | accessdate = 2013-10-17
+ | archiveurl = 
+ | archivedate = 
+ | quote=  collaborations with performance artists Blast Theory (Rider Spoke, Day of the Figurines) and Active Ingredient (Love City, Exploding Places)</ref>
+<ref name="Oppermann2009-thesis">Citation
+ | last = Oppermann
+ | first = Leif
+ | title = Facilitating the development of location-based experiences
+ | publisher = University of Nottingham
+ | year=2009
+ | website = eprints.nottingham.ac.uk
+ | url = http://eprints.nottingham.ac.uk/14215/
+ | id = EThOS|uk.bl.ethos.508291 free access</ref>
+<ref name="schneider2001-how2host">cite conference
+ | first = Jay
+ | last = Schneider
+ | first2 = Gerd
+ | last2 = Kortuem
+ | author-link =
+ | title = How to Host a Pervasive Game: Supporting Face-to-Face Interactions in Live-Action Roleplaying
+ | book-title = Designing Ubiquitous Computing Games Workshop at UbiComp (position paper)
+ | pages = 1–6
+ | year = 2001
+ | location = Atlanta, Georgia, USA</ref>
+<ref name="nevelsteen2015-pervasivemoo">cite book
+ | last = Nevelsteen
+ | first = Kim JL
+ | title = A Survey of Characteristic Engine Features for Technology-Sustained Pervasive Games
+ | publisher = Springer International Publishing
+ | series = SpringerBriefs in Computer Science
+ | date = 2015
+ | doi = 10.1007/978-3-319-17632-1</ref>
+<ref name="davidsson2004-designpatt">Citation
+ | first = Ola
+ | last = Davidsson 
+ | first2 = Johan
+ | last2 = Peitz
+ | first3 = Staffan
+ | last3 = Björk
+ | title = Game design patterns for mobile games
+ | year = 2004
+ | place = Finland
+ | publisher = Nokia Research Center</ref>
+<ref name="Weiser91">cite web
+ | url=http://dl.acm.org/citation.cfm?id=329126
+ | title=The Computer for the 21st Century 
+ | year=1991
+ | last=Weiser
+ | first=Mark
+ | authorlink=Mark Weiser
+ |accessdate=2012-12-19</ref>
+<ref name="Broll2006-AugmentedTech">Cite book | last1 = Broll | first1 = W. | last2 = Ohlenburg | first2 = J. | last3 = Lindt | first3 = I. | last4 = Herbst | first4 = I. | last5 = Braun | first5 = A. K. | doi = 10.1145/1230040.1230097 | chapter = Meeting technology challenges of pervasive augmented reality games | title = Proceedings of 5th ACM SIGCOMM workshop on Network and system support for games  - NetGames '06 | pages = 28 | year = 2006 | isbn = 1595935894 | pmid =  | pmc = </ref>
+<ref name="waern2016-Persona">cite web | title=Why is Pokemon Go such a hit? | website=Persona | date=2016-07-16 | url=https://annikawaern.wordpress.com/2016/07/16/why-is-pokemon-go-such-a-hit/ | access-date=2017-09-25</ref>
+<ref name="Lopez2017">Cite journal|last=Arango-López|first=Jeferson|last2=Gallardo|first2=Jesús|last3=Gutiérrez|first3=Francisco L.|last4=Cerezo|first4=Eva|last5=Amengual|first5=Esperança|last6=Valera|first6=Ramón|date=2017|title=Pervasive Games: Giving a Meaning Based on the Player Experience|url=http://doi.acm.org/10.1145/3123818.3123832|journal=Proceedings of the XVIII International Conference on Human Computer Interaction|series=Interacción '17|location=New York, NY, USA|publisher=ACM|pages=9:1–9:4|doi=10.1145/3123818.3123832|isbn=9781450352291</ref>
+<ref name="Valente2017">cite journal
+ | last = Valente
+ | first = Luis
+ | last2 = Feijó
+ | first2 = Bruno
+ | last3 = Leite
+ | first3 = Julio Cesar Sampaio do Prado
+ | last4 = Clua
+ | first4 = Esteban
+ | author-link =
+ | title = A method to assess pervasive qualities in mobile games
+ | journal = Personal and Ubiquitous Computing
+ | volume =
+ | issue =
+ | pages = 1-24
+ | publisher = Springer 
+ | location = London
+ | date = 2017
+ | language =
+ | url =
+ | jstor =
+ | issn =
+ | doi = 10.1007/s00779-017-1107-0
+ | id =
+ | mr =
+ | zbl =
+ | jfm =
+ | access-date = </ref>
+
+
+
+Pervasive games
+Mixed reality
+
+Category:Leisure activities
+Category:Pervasive games| 
+Category:Live-action role-playing games|*

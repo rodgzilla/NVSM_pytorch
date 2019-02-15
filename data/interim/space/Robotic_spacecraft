@@ -1,0 +1,197 @@
+<!-- merge|Unmanned spacecraft|date=February 2013-->
+Image:messenger.jpg|250px|right|thumb|An artist's interpretation of the ''MESSENGER'' spacecraft at Mercury
+
+A robotic spacecraft is an unmanned spacecraft, usually under telerobotic control. A robotic spacecraft designed to make scientific research measurements is often called a space probe. Many space missions are more suited to telerobotic rather than Human spaceflight|manned operation, due to lower cost and lower risk factors.  In addition, some planetary destinations such as Venus or the vicinity of Jupiter are too hostile for human survival, given current technology. Outer planets such as Saturn, Uranus, and Neptune are too distant to reach with current manned spaceflight technology, so telerobotic probes are the only way to explore them.
+
+Many artificial satellites are robotic spacecraft, as are many lander (spacecraft)|landers and rover (space exploration)|rovers.
+
+History
+File:Sputnik asm.jpg|thumb|A replica of Sputnik 1 at the U.S. National Air and Space Museum
+File:Explorer1.jpg|thumb|A replica of Explorer 1
+The first robotic spacecraft was launched by the Soviet Union (USSR) on 22 July 1951, a suborbital spaceflight|suborbital flight carrying Soviet space dogs|two dogs Dezik and Tsygan.<ref>Asif Siddiqi, ''Sputnik and the Soviet Space Challenge'', University Press of Florida, 2003, ISBN|081302627X, p. 96</ref> Four other such flights were made through the fall of 1951.
+
+The first artificial satellite, Sputnik 1, was put into a convert|215|by|939|km|nmi|sp=us|adj=on Earth orbit by the USSR) on 4 October 1957. On 3 November 1957, the USSR orbited Sputnik 2. Weighing convert|113|kg|lb, Sputnik 2 carried the first living animal into orbit, the dog Laika.<ref>cite web
+ | url                 = http://news.bbc.co.uk/
+ | title               = First dog in space died within hours
+ | author              = Dr. David Whitehouse
+ | authorlink          = 
+ | date                = 2002-10-28
+ | publisher           = BBC NEWS World Edition
+ | archiveurl          = http://news.bbc.co.uk/2/hi/sci/tech/2367681.stm
+ | archivedate         = 2002-10-28
+ | quote               = The animal, launched on a one-way trip on board Sputnik 2 in November 1957, was said to have died painlessly in orbit about a week after blast-off. Now, it has been revealed she died from overheating and panic just a few hours after the mission started.
+ | accessdate          = 2013-05-10
+</ref> Since the satellite was not designed to detach from its launch vehicle's upper stage, the total mass in orbit was convert|508.3|kg|lb.<ref>Cite web|url = http://www.russianspaceweb.com/sputnik2_decision.html|title = ''Sputnik 2'', Russian Space Web|date = 3 November 2012|accessdate = |website = |publisher = |last = |first = </ref>
+
+In a Space Race|close race with the Soviets, the United States launched its first artificial satellite, Explorer 1, into a convert|193|by|1373|nmi|km|adj=on orbit on 31 January 1958. Explorer I was a convert|80.75|in|cm|adj=on long by convert|6.00|in|cm|adj=on diameter cylinder weighing convert|30.8|lb|kg, compared to  Sputnik 1, a convert|58|cm|in|sp=us|adj=on sphere which weighed convert|83.6|kg|lb. Explorer 1 carried sensors which confirmed the existence of the Van Allen belts, a major scientific discovery at the time, while Sputnik 1 carried no scientific sensors. On 17 March 1958, the US orbited its second satellite, Vanguard 1, which was about the size of a grapefruit, and remains in a convert|360|by|2080|nmi|km|adj=on orbit As of|2016|lc=y.
+
+Nine other countries have successfully launched satellites using their own launch vehicles: France (1965), Japan and China (1970), the United Kingdom (1971), India (1980), Israel (1988), Iran (2009), North Korea (2012), and New Zealand (2018).<ref>cite web
+ | url                 = http://news.bbc.co.uk/
+ | title               = Firsts in Space: Firsts in Space
+ | author              = Bob Christy
+ | authorlink          = 
+ | date                = 2013-05-10
+ | publisher           = Zarya
+ | archiveurl          = http://www.zarya.info/Gallimaufry/Firsts.php
+ | archivedate         = 2013-05-10
+ | quote               = 
+ | accessdate          = 2013-05-10
+</ref>
+
+Design
+Expand section|date=October 2007
+In spacecraft design, the United States Air Force considers a vehicle to consist of the mission payload (air and space craft)|payload and the satellite bus|bus (or platform). The bus provides physical structure, thermal control, electrical power, attitude control and telemetry, tracking and commanding.<ref>
+cite web | url = http://space.au.af.mil/primer/spacecraft_design_structure_ops.pdf | title = Air University Space Primer, Chapter 10 – Spacecraft Design, Structure And Operation | publisher = USAF</ref>
+
+JPL divides the "flight system" of a spacecraft into subsystems.<ref>cite web |url=http://www2.jpl.nasa.gov/basics/bsf11-1.html |title=Chapter 11. Typical Onboard Systems |publisher=JPL</ref> These include:
+
+=Structure=
+File:NASA’s Orion spacecraft approaching the robotic asteroid capture vehicle.jpg|thumb|NASA’s Orion spacecraft approaching the robotic asteroid capture vehicle
+This is the physical backbone structure. It:
+* provides overall mechanical integrity of the spacecraft
+* ensures spacecraft components are supported and can withstand launch loads
+
+=Data handling=
+This is sometimes referred to as the command and data subsystem. It is often responsible for:
+* command sequence storage
+* maintaining the spacecraft clock
+* collecting and reporting spacecraft telemetry data (e.g. spacecraft health)
+* collecting and reporting mission data (e.g. photographic images)
+
+=Attitude determination and control=
+See also|Attitude control system
+This system is mainly responsible for the correct spacecraft's orientation in space (attitude) despite external disturbance-gravity gradient effects, magnetic-field torques, solar radiation and aerodynamic drag; in addition it may be required to reposition movable parts, such as antennas and solar arrays.<ref>Wiley J. Larson; James R. Wertz(1999). ''Space Mission Analysis and Design, 3rd edition''. Microcosm. pp. 354. ISBN|978-1-881883-10-4,</ref>
+
+= Landing on hazardous terrain =
+Refimprove section|date=June 2018
+
+In planetary exploration missions involving robotic spacecraft, there are three key parts in the processes of landing on the surface of the planet to ensure a safe and successful landing.<ref>Cite journal|last=Howard|first=Ayanna|date=January 2011|title=Rethinking public–private space travel|url=https://www.sciencedirect.com/science/article/pii/S0265964613000799|journal=Space Policy|volume=29|pages=266|via=Science Direct</ref> This process includes a entry into the planetary gravity field and atmosphere, a descent through that atmosphere towards a intended/targeted region of scientific value, and a safe landing that guarantees the integrity of the instrumentation on the craft is preserved. While the robotic spacecraft is going through those parts, it must also be capable of estimating its position compared to the surface in order to ensure reliable control of itself and its ability to maneuver well. The robotic spacecraft must also efficiently perform hazard assessment and trajectory adjustments in real time to avoid hazards. To achieve this, the robotic spacecraft requires accurate knowledge of where the spacecraft is located relative to the surface (localization), what may pose as hazards from the terrain (hazard assessment), and where the spacecraft should presently be headed (hazard avoidance). Without the capability for operations for localization, hazard assessment, and avoidance, the robotic  spacecraft becomes unsafe and can easily enter dangerous situations such as surface collisions, undesirable fuel consumption levels, and/or unsafe maneuvers.
+
+= Entry, descent, and landing =
+Unreferenced section|date=June 2018
+
+Integrated sensing incorporates an image transformation algorithm to interpret the immediate imagery land data, perform a real-time detection and avoidance of terrain hazards that may impede safe landing, and increase the accuracy of landing at a desired site of interest using landmark localization techniques. Integrated sensing completes these tasks by relying on pre-recorded information and cameras to understand its location and determine its position and whether it is correct or needs to make any corrections (localization). The cameras are also used to detect any possible hazards whether it is increased fuel consumption or it is a physical hazard such as a poor landing spot in a crater or cliff side that would make landing very not ideal (hazard assessment).
+
+=Telecommunications=
+Components in the telecommunications subsystem include radio antennas, transmitters and receivers. These may be used to communicate with ground stations on Earth, or with other spacecraft.<ref>cite web
+ | url                 = http://encyclopedia2.thefreedictionary.com/
+ | title               = Space Communications 
+ | author              = LU. K. KHODAREV
+ | authorlink          = 
+ | year                = 1979
+ | publisher           = The Great Soviet Encyclopedia
+ | archiveurl          = http://encyclopedia2.thefreedictionary.com/Space+Communications
+ | archivedate         = 1979
+ | quote               = The transmission of information between the earth and spacecraft, between two or more points on the earth via spacecraft or using artificial means located in space (a belt of needles, a cloud of ionized particles, and so on), and between two or more spacecraft.
+ | accessdate          = 2013-05-10
+</ref>
+
+=Electrical power=
+The supply of electric power on spacecraft generally come from photovoltaic (solar) cells or from a radioisotope thermoelectric generator. Other components of the subsystem include batteries for storing power and distribution circuitry that connects components to the power sources.<ref>Wiley J. Larson; James R. Wertz(1999). ''Space Mission Analysis and Design, 3rd edition''. Microcosm. pp. 409. ISBN|978-1-881883-10-4,</ref>
+
+=Temperature control and protection from the environment=
+Main|Spacecraft thermal control
+Spacecraft are often protected from temperature fluctuations with insulation. Some spacecraft use mirrors and sunshades for additional protection from solar heating. They also often need shielding from micrometeoroids and orbital debris.<ref>cite web
+ | url                 = http://www.nasa.gov/externalflash/ISSRG/pdfs/mmod.pdf
+ | title               = Micrometeoroid and Orbital Debris (MMOD) Protection
+ | publisher           = NASA
+ | accessdate          = 2013-05-10
+|archiveurl=https://web.archive.org/web/20091029013503/http://www.nasa.gov/externalflash/ISSRG/pdfs/mmod.pdf|archivedate=2009-10-29</ref>
+
+=Propulsion=
+Main|Spacecraft propulsionRefimprove section|date=June 2018
+
+Spacecraft propulsion is a method that allows a spacecraft to travel through space by generating thrust to push it forward.<ref>Cite web|url=https://www.grc.nasa.gov/www/k-12/airplane/bgp.html|title=Welcome to the Beginner's Guide to Propulsion|last=Hall|first=Nancy|date=May 5, 2015|website=NASA|access-date=</ref> However, there isn’t one universally used propulsion system: monopropellant, bipropellant, ion propulsion, and etc. Each propulsion system generates thrust in slightly different ways with each system having its own advantages and disadvantages. But, most spacecraft propulsion today is based on rocket engines. The general idea behind rocket engines is that when an oxidizer meets the fuel source, there is explosive release of energy and heat at high speeds, which propels the spacecraft forward. This happens due to one basic principle known as Newton's laws of motion|Newton’s Third Law. According to Newton, “to every action there is an equal and opposite reaction.” As the energy and heat is being released from the back of the spacecraft, gas particles are being pushed around to allow the spacecraft to propel forward. The main reason behind the usage of rocket engine today is because rockets are the most powerful form of propulsion there is.
+
+Monopropellant
+Refimprove section|date=June 2018
+
+For a propulsion system to work, there is usually always an Oxidizing agent|oxidizer line and a fuel line. This way, the spacecraft propulsion is controlled. But in a monopropellant propulsion, there is no need for an oxidizer line and only requires the fuel line.<ref>Cite journal|last=Zhang|first=Bin|date=October 2014|title=A verification framework with application to a propulsion system|url=https://www.sciencedirect.com/science/article/pii/S0957417414001468?_rdoc=1&_fmt=high&_origin=gateway&_docanchor=&md5=b8429449ccfc9c30159a5f9aeaa92ffb|journal=Expert Systems with Applications|volume=41|pages=5669|via=Science Direct</ref> This works due to the oxidizer being chemically bonded into the fuel molecule itself. But for the propulsion system to be controlled, the combustion of the fuel can only occur due to a presence of a Catalysis|catalyst. This is quite advantageous due to making the rocket engine lighter and cheaper, easy to control, and more reliable. But, the downfall is that the chemical is very dangerous to manufacture, store, and transport.
+
+Bipropellant
+Refimprove section|date=June 2018
+
+A bipropellant propulsion system is a rocket engine that uses a liquid propellent.<ref>Cite journal|last=Chen|first=Yang|date=April 2017|title=Dynamic modeling and simulation of an integral bipropellant propulsion double-valve combined test system|url=https://www.sciencedirect.com/science/article/pii/S0094576516306725?_rdoc=1&_fmt=high&_origin=gateway&_docanchor=&md5=b8429449ccfc9c30159a5f9aeaa92ffb|journal=Acta Astronautica|volume=133|pages=346–374|via=Science Direct</ref> This means both the oxidizer and fuel line are in liquid states. This system is unique because it requires no ignition system, the two liquids would spontaneously combust as soon as they come into contact with each other and produces the propulsion to push the ship forward. The main benefit for having this technology is because that these kinds of liquids have relatively high density, which allows the volume of the propellent tank to be small, therefore increasing space efficacy. The downside is the same as that of monopropellant propulsion system: very dangerous to manufacture, store, and transport.
+
+Ion
+Refimprove section|date=June 2018
+
+An ion propulsion system is a type of engine that generates thrust by the means of electron bombardment or the acceleration of ions.<ref>Cite web|url=https://www.nasa.gov/centers/glenn/about/fs21grc.html|title=Ion Propulsion|last=Patterson|first=Michael|date=August 2017|website=NASA|access-date=</ref> By shooting high-energy electrons to a propellant atom (neutrally charge), it removes electrons from the propellant atom and this results the propellant atom becoming a positively charged atom. The positively charged ions are guided   to pass through positively charged grids that contains thousands of precise aligned holes are running at high voltages. Then, the aligned positively charged ions accelerates through a negative charged accelerator grid that further increases the speed of the ions up to 90,000&nbsp;mph. The momentum of these positively charged ions provides the thrust to propel the spacecraft forward. The advantage of having this kind of propulsion is that it is incredibly efficient in maintaining constant velocity, which is needed for deep-space travel. However, the amount of thrust produced is extremely low and that it needs a lot of electrical power to operate.
+
+=Mechanical devices=
+Mechanical components often need to be moved for deployment after launch or prior to landing. In addition to the use of motors, many one-time movements are controlled by pyrotechnic devices.<ref>Wiley J. Larson; James R. Wertz(1999). ''Space Mission Analysis and Design, 3rd edition''. Microcosm. pp. 460. ISBN|978-1-881883-10-4,</ref>
+
+=Robotic vs. unmanned spacecraft=
+Robotic spacecraft are specifically designed system for a specific hostile environment.<ref>Cite web|url=https://solarsystem.nasa.gov/basics/chapter9-1/|title=Basics of Space Flight|last=Davis|first=Phillips|date=|website=NASA|access-date=</ref>  Due to their specification for a particular environment, it varies greatly in complexity and capabilities. While an unmanned spacecraft is a spacecraft without personnel or crew and is operated by automatic (proceeds with an action without human intervention) or remote control (with human intervention). The term 'unmanned spacecraft' does not imply that the spacecraft is robotic.
+
+Control
+Robotic spacecraft use telemetry to radio back to Earth acquired data and vehicle status information. Although generally referred to as "remotely controlled" or "telerobotic", the earliest orbital spacecraft – such as Sputnik 1 and Explorer 1 – did not receive control signals from Earth. Soon after these first spacecraft, command systems were developed to allow remote control from the ground. Increased Autonomous robot|autonomy is important for distant probes where the light travel time prevents rapid decision and control from Earth. Newer probes such as ''Cassini–Huygens'' and the Mars Exploration Rovers are highly autonomous and use on-board computers to operate independently for extended periods of time.<ref>cite web
+ | url                 = http://www7.informatik.uni-wuerzburg.de/
+ | title               = AUTONOMY AND ON-BOARD MISSION MANAGEMENT ASPECTS FOR THE CASSINI-TITAN PROBE
+ | author              = K. Schilling
+ |author2=W. Flury
+  | authorlink          = 
+ | date                = 1989-04-11
+ | format              = PDF
+ | publisher           = ATHENA MARS EXPLORATION ROVERS
+ | archiveurl          = http://www7.informatik.uni-wuerzburg.de/fileadmin/10030700/user_upload/News/1990.pdf
+ | archivedate         = 1989-04-11
+ | quote               = Current space missions exhibit a rapid growth in the requirements for on-board autonomy. This is the result of increases in mission complexity, intensity of mission activity and mission duration. In addition, for interplanetary spacecraft, the operations are characterized by complicated ground control access, due to the large distances and the relevant solar system environment[…] To handle these problemsn, the spacecraft design has to include some form of autonomous control capability.
+ | accessdate          = 2013-05-10
+</ref><ref>cite web
+ | url                 = http://www.nasa.gov/externalflash/ISSRG/pdfs/mmod.pdf
+ | title               = Frequently Asked Questions (Athena for kids): Q) Is the rover controlled by itself or controlled by scientists on Earth?
+ | year                = 2005
+ | publisher           = ATHENA MARS EXPLORATION ROVERS
+ | archiveurl          =https://web.archive.org/web/20091029013503/http://www.nasa.gov/externalflash/ISSRG/pdfs/mmod.pdf| archivedate         =2009-10-29| quote               = Communication with Earth is only twice per sol (martian day) so the rover is on its own (autonomous) for much of its journey across the martian landscape. Scientists send commands to the rover in a morning "uplink" and gather data in an afternoon "downlink." During an uplink, the rover is told where to go, but not exactly how to get there. Instead, the command contains the coordinates of waypoints toward a desired destination. The rover must navigate from waypoint to waypoint without human help. The rover has to use its "brain" and its "eyes" for these instances. The "brain" of each rover is the onboard computer software that tells the rover how to navigate based on what the Hazcams (hazard avoidance cameras) see. It is programmed with a given set of responses to a given set of circumstances. This is called "autonomy and hazard avoidance."
+ | accessdate          = 2013-05-10
+</ref>
+
+Space probes
+main|Space probe
+
+A space probe is a robotic spacecraft that does not orbit Earth, but instead, explores further into outer space.[1] A space probe may approach the Moon; travel through interplanetary space; flyby, orbit, or land on other planetary bodies; or enter interstellar space.
+
+ SpaceX’s Dragon 
+main|SpaceX Dragon
+An example of a fully robotic spacecraft in the modern world would be SpaceX’s Dragon.<ref>Cite journal|last=Anderson|first=Chad|date=November 2013|title=Rethinking public–private space travel|url=https://www.sciencedirect.com/science/article/pii/S0265964613000799|journal=Space Policy|volume=29|pages=266–271|via=Science Direct</ref> The SpaceX Dragon is a robotic spacecraft designed to send not only cargo to Earth’s orbit, but also humans as well. The SpaceX Dragon’s total height is 7.2&nbsp;m (23.6&nbsp;ft) with a diameter of 3.7&nbsp;m (12&nbsp;ft). The total launch payload mass is 6,000&nbsp;kg (13,228&nbsp;lbs) and a total return mass of 3,000&nbsp;kg (6,614&nbsp;lbs), along with a total launch payload volume of 25m^3 (883&nbsp;ft^3) and a total return payload volume of 11m^3 (388&nbsp;ft^3). The total duration of the Dragon in Earth’s orbit is two years.
+
+In 2012 the SpaceX Dragon made history by becoming the first commercial robotic spacecraft to deliver cargo to the International Space Station and to safely return cargo to Earth in the same trip. This feat that the Dragon made was only achieved previously by governments. Currently the Dragon is meant to transfer cargo because of its capability of returning significant amounts of cargo to Earth despite it originally being designed to carry humans.File:Blue hazes over backlit Pluto.jpg|thumb|right|Departure shot of Pluto by ''New Horizons'', showing Pluto's atmosphere backlit by the Sun.
+A space probe is a scientific space exploration mission in which a spacecraft leaves Earth and explores space. It may approach the Moon, enter interplanetary, flyby or orbit other bodies, or approach interstellar space.
+
+Robotic spacecraft service vehicles
+File:AERCam Sprint Columbia.jpg|thumb|AERCam Sprint released from the Space Shuttle Columbia|Space Shuttle ''Columbia'' payload bay
+* MDA Space Infrastructure Servicing vehicle — an in-space propellant depot|refueling depot and service spacecraft for communication satellites in geosynchronous orbit.  Launch planned for 2015.<ref name=cnw20110315>
+cite web |title=Intelsat Picks MacDonald, Dettwiler and Associates Ltd. for Satellite Servicing |url=http://www.canadanewswire.ca/en/releases/archive/March2011/15/c2866.html |work=press release |publisher=CNW Group |accessdate=2011-03-15 |quote=''MDA plans to launch its Space Infrastructure Servicing ("SIS") vehicle into near geosynchronous orbit, where it will service commercial and government satellites in need of additional fuel, re-positioning or other maintenance. ... MDA and Intelsat will work together to finalize specifications and other requirements over the next six months before both parties authorize the build phase of the program. The first refueling mission is to be available 3.5 years following the commencement of the build phase.'' |deadurl=yes |archiveurl=https://web.archive.org/web/20110512175952/http://www.canadanewswire.ca/en/releases/archive/March2011/15/c2866.html |archivedate=2011-05-12 |df= </ref>Update after|2016|01
+
+* Mission Extension Vehicle is an alternative approach that does not utilize in-space reaction control system|RCS fuel transfer.  Rather, it would connect to the target satellite in the same way as MDA SIS, and then use "its own thrusters to supply attitude control for the target."<ref name=av20110321>
+cite news |last=Morring|first=Frank, Jr. |title=An End To Space Trash? |url=http://www.aviationweek.com/aw/generic/story.jsp?id=news/awst/2011/03/21/AW_03_21_2011_p23-297586.xml&headline=An%20End%20to%20Space%20Trash?&channel=awst |accessdate=2011-03-21 |newspaper=Aviation Week |date=2011-03-22 |quote=''ViviSat, a new 50-50 joint venture of U.S. Space and ATK, is marketing a satellite-refueling spacecraft that connects to a target spacecraft using the same probe-in-the-kick-motor approach as MDA, but does not transfer its fuel. Instead, the vehicle becomes a new fuel tank, using its own thrusters to supply attitude control for the target. ... [the ViviSat] concept is not as far along as MDA.''</ref>
+
+See also
+Portal|Spaceflight|Robotics
+* Astrobotic Technology
+* Geosynchronous satellite
+* Human spaceflight
+* Space observatory
+* Timeline of Solar System exploration
+* Automated cargo spacecraft
+
+References
+Reflist
+
+External links
+* [http://www.jpl.nasa.gov NASA Jet Propulsion Laboratory]
+* [http://www.russianspaceweb.com/spacecraft_planetary_lunar.html Russia's unmanned Moon missions]
+* [http://www.nasa.gov/ NASA Home Page]
+
+Spaceflight
+Space exploration lists and timelines
+Solar System
+Mobile robots
+Robotics
+
+DEFAULTSORT:Robotic Spacecraft
+<!--Categories-->
+Category:Spacecraft
+Category:Embedded systems
+Category:Unmanned spacecraft

@@ -1,0 +1,381 @@
+Use dmy dates|date=November 2016
+primary sources| date=July 2014
+Undisclosed paid|date=September 2018
+This is a comparison of file hosting services which are currently active. File hosting services are a particular kind of online file storage; however, various products that are designed for online file storage may not have features or characteristics that others designed for sharing files have.
+
+ File hosting services  
+legend-table| title=
+|#9F9|No restriction  <!-- Use template yes -->
+|#FFD|Limit on some types of accounts  <!-- USe template some -->
+|#FC8|Limit across all accounts  <!-- Use template rarely -->
+|#F99|Total restriction across all accounts  <!-- Use template no -->
+|notes=
+
+{| class="wikitable sortable" style="font-size: smaller; text-align: center; width: auto;"
+|+
+|-
+!Web host
+!Storage size
+!Max. file size
+!Direct access<ref group="Note" name="ReferenceA">For paying users there is usually a direct access possible.</ref>
+!Traffic or bandwidth limit
+!File expiration<ref group="Note" name="ReferenceB">For paying users there is usually no file expiration.</ref>
+!Remote uploading?
+!Developer API?
+!FTP upload possible?
+!File versioning
+!Follows symlinks
+!Client-side encryption<ref name="Security Now 349">cite web | url=http://wiki.twit.tv/wiki/Security_Now_349 | title=Security Now 349 | work = Wiki | publisher= TWiT | date=27 December 2013 | accessdate=12 July 2014</ref>
+!Free GB (number only)
+!Misc. notes
+|-
+!Amazon Drive<ref name="Muchmore">cite web | last=Muchmore | first=Michael  | url=https://www.pcmag.com/article2/0,2817,2382825,00.asp | title=Amazon Drive Review & Rating | publisher=PCMag | accessdate= 12 July 2014</ref>
+| <!--Storage size--> some|nts|5 Gigabyte|GB 3 mo. free trial,<br>up to 30 TB paid
+| <!--Max. file size--> rarely|2 GB upload via Web, 50 GB per file via Drive app and third party clients <ref name="forums.developer.amazon.com">cite web | url=https://forums.developer.amazon.com/questions/22038/support-for-chunked-transfer-encoding.html | title=Support for chunked transfer encoding? | accessdate= 23 November 2016</ref>
+| <!--Direct access--> yes|Yes
+| <!--Traffic/bandwidth limit--> rarely|Amazon S3 limits
+| <!--File expiration--> bad| 90 days after subscription expires, data is deleted.
+| <!--Remote Uploading?--> no
+| <!--Developer API?--> yes
+| <!--FTP upload possible--> no
+| <!--File versioning--> no
+| <!--Follows symlinks--> ?
+| <!--Client-side encryption--> ?
+| <!--Free GB--> some|5
+| <!--Misc. notes--> Free 5GB plan only for China and Brazil.
+|-
+! Amazon S3<ref>cite web | last=Thomas | first=Keir  | url= http://www.pcworld.com/article/220118/amazon_s3_offers_complete_website_hosting.html | title=Amazon S3 Offers Complete Website Hosting | publisher = PCWorld | accessdate= 12 July 2014</ref>
+| <!--Storage size--> some|nts|5 GB 12-month free trial with credit-card,<br>(paid bandwidth),<br>unlimited paid
+| <!--Max. file size--> rarely|nts|5&nbsp;GB per file, unlimited files per bucket
+| <!--Direct access--> yes
+| <!--Traffic/bandwidth limit--> rarely|Amazon S3 limits
+| <!--File expiration--> some|None, pay for storage each month
+| <!--Remote Uploading?--> no
+| <!--Developer API?--> yes|Representational State Transfer|REST, SOAP
+| <!--FTP upload possible--> ?
+| <!--File versioning--> yes
+| <!--Follows symlinks--> ?
+| <!--Client-side encryption--> ?
+| <!--Free GB--> nonfree|0
+| <!--Misc. notes--> n/a
+|-
+! Baidu Cloud
+| <!--Storage size--> rarely|nts|2&nbsp;TB <br>(6 GB free)<ref>Citation | url = http://yun.baidu.com/1t | publisher = Baidu | title = Yun | type = official website | accessdate = 23 April 2014 | language = zh</ref>
+| <!--Max. file size--> rarely|10 GB free,<br>20 GB paid <ref>Citation | url = http://yun.baidu.com/buy/center?tag=4#FAQ03question=diff-vip&question=upload-file | publisher = Baidu | title = 帮助中心-会员中心-百度网盘 | type = official website | accessdate = 22 June 2017 | language = zh</ref>
+| <!--Direct access--> yes
+| <!--Traffic/Bandwidth limit--> yes|None
+| <!--File Expiration--> yes|None
+| <!--Remote Uploading?--> yes
+| <!--Developer API?--> yes
+| <!--FTP upload possible?--> no
+| <!--File versioning--> no
+| <!--Follows symlinks--> no
+| <!--Client-side encryption--> ?
+| <!--Free GB--> free|6
+| <!--Misc. notes--> Currently in Chinese only
+|-
+! Box (service)|Box<ref>cite web | last=Yegulalp | first=Serdar  | url=http://www.infoworld.com/d/cloud-computing/review-box-beats-dropbox-and-all-the-rest-business-230288 | title=Review: Box beats Dropbox – and all the rest – for business | publisher=InfoWorld | date=6 November 2013 | accessdate=12 July 2014</ref><ref>cite web | last = Duffy | first= Jill  | url= https://www.pcmag.com/article2/0,2817,2410914,00.asp | title= Box (Personal) Review & Rating | publisher=PCMag | accessdate=12 July 2014</ref>
+| <!--Storage size--> some|free trial,<br>100 GB paid (Starter),<br>Unlimited Business,<br>Unlimited Enterprise<ref name=":0">Citation | url = https://www.box.com/pricing/ | publisher = Box | title = Plans & Pricing | accessdate = 20 July 2016.</ref>
+| <!--Max. file size--> rarely|250&nbsp;MB free Personal,<br>5&nbsp;GB paid Personal,<br>5 GB Business,<br>5 GB Enterprise<ref name=":0" />
+| <!--Direct access--> some|Paid account types only<ref>cite web | url= https://support.box.com/hc/en-us/articles/200519908-Direct-Linking | title = Direct Linking | publisher = Box | work = Help | date = 16 January 2015 | accessdate = 12 July 2014</ref>
+| <!--Traffic/bandwidth limit--> some|10&nbsp;GB/month free,<br>2 TB/month paid<ref>Citation | contribution-url = https://support.box.com/entries/21543487-What-is-the-bandwidth-limit- | contribution = What is the bandwidth limit? | title = Support | publisher = Box | accessdate = 7 August 2013.</ref>
+| <!--File expiration--> yes|NoneCitation needed| date=March 2016
+| <!--Remote uploading--> some| 30&nbsp;MB per file via IFTTT<ref>cite web| title=Upload file from URL - Box | url=https://web.archive.org/web/20170317153513/https://ifttt.com/channels/box/actions/72-upload-file-from-url|website=IFTTT (archived)| publisher=IFTTT| accessdate=22 January 2019(original access on 29 March 2016)</ref>
+| <!--Developer API?--> yes<ref>cite web | url=https://developers.box.com/ | title= Platform Developer Documentation | publisher=Box | accessdate= 15 December 2013</ref>
+| <!--FTP upload possible--> some| Business and Enterprise customers only<ref>cite web | url = https://support.box.com/hc/en-us/articles/200520058-FTP-Details | title=I’m having trouble using FTP with Box | publisher =Box | accessdate= 15 December 2013</ref>
+| <!--File versioning--> some (premium)<ref>cite web | url=https://support.box.com/hc/en-us/articles/200519698-Version-History | title= Tracking Your File Versions – Version History | publisher=Box | accessdate = 15 June 2014</ref>
+| <!--Follows symlinks--> no
+| <!--Client-side encryption--> ?
+| <!--Free GB--> free|10
+| <!--Misc. notes--> Does not sync Mac files such as iWork (Keynote etc.). Does not support Linux OS. <br>50 GB free with Sony Xperia or HP Spectre 13
+|-
+! CloudMe<ref>cite web | url=http://www.pcadvisor.co.uk/downloads/3329285/cloudme-184/?zk=apple | title = CloudMe 1.8.4 | publisher=PC Advisor | accessdate= 12 July 2014</ref>
+| <!--Storage size--> rarely|nts|3 GB free,<br>+500 MB for referrals up to 16 GB,<br>500 GB paid<ref>cite web | url=https://www.cloudme.com/pricing | title=The European Sync / Storage Service | publisher=CloudMe | date=31 January 2013 | accessdate=14 June 2013</ref>
+| <!--Max. file size--> some|nts|150&nbsp;MB free,<br>Unlimited premium
+| <!--Direct access--> no|No<ref>cite web | url=http://forum.cloudme.com/viewtopic.php?id=465 | title=Add ability to download media file(s) (Page 1) - Feature Requests - CloudMe Forum | publisher=Forum.cloudme.com | date= | accessdate=14 June 2013</ref>
+| <!--Traffic/bandwidth limit--> yes|None
+| <!--File expiration--> yes|None
+| <!--Remote Uploading?--> no <ref>https://forum.cloudme.com/viewtopic.php?id=635</ref>
+| <!--Developer API?--> yes| REST, SOAP, WebDAV<ref>cite web | url=https://www.cloudme.com/en/webdav | title=The European Sync / Storage Service | publisher=CloudMe | date= | accessdate=14 June 2013</ref>
+| <!--FTP upload possible--> no<ref>cite web|title=FTP support|url=https://forum.cloudme.com/viewtopic.php?id=635|website=CloudMe Support Forum|publisher=CloudMe|accessdate=30 March 2018</ref> 
+| <!--File versioning--> rarely (60 days)<ref>cite web  | url=http://forum.cloudme.com/viewtopic.php?id=542 | title=CloudMe FAQ » I lost files, what do I do? | publisher=CloudMe | date=30 January 2014 | accessdate=16 June 2014</ref>
+| <!--Follows symlinks--> ?
+| <!--Client-side encryption--> ?
+| <!--Free GB--> free|3
+| <!--Misc. notes--> Primarily focused on media files, synchronization and backup with web sharing.
+|-
+! Dropbox (storage provider)|Dropbox<ref>cite web | last=Duffy | first=Jill  | url=https://www.pcmag.com/article2/0,2817,2343852,00.asp | title=Dropbox Review & Rating | publisher=PCMag.com | date= | accessdate=12 July 2014</ref>
+| <!--Storage size--> some|nts|2 GB free,<br>+500 MB for referrals up to 18 GB;<br>1 TB, 2 TB, or unlimited paid<ref>cite web | url=http://www.dropbox.com/plans | title=Dropbox - Upgrade your account | publisher=Dropbox | date= | accessdate=14 June 2017</ref>
+| <!--Max. file size--> some|nts|10&nbsp;GB,<br>Unlimited&nbsp;using<br>client&nbsp;application
+| <!--Direct access--> rarely|File-by-file, not for HTML<ref>cite web| title=Sharing files with non-Dropbox users | url=https://www.dropbox.com/help/files-folders/share-outside-dropbox|work=Dropbox Help center| publisher=Dropbox| accessdate=14 June 2017</ref><ref>cite web| title=Force a file or folder to download, or to render on dropbox.com | url=https://www.dropbox.com/help/desktop-web/force-download|work=Dropbox Help center| publisher=Dropbox| accessdate=14 June 2017</ref> 
+| <!--Traffic/bandwidth limit--> rarely|20&nbsp;GB/day free,<br>200&nbsp;GB/day paid<ref>cite web| title=Banned links or file requests | url=https://www.dropbox.com/help/security/banned-links|work=Dropbox Help center| publisher=Dropbox| accessdate=14 June 2017</ref> 
+| <!--File expiration--> some|1&nbsp;year of account inactivity<ref>cite web| title=I received an email about an inactive Dropbox account—what do I need to do? | url=https://www.dropbox.com/help/9080|work=Support| publisher=Dropbox | accessdate=1 November 2016</ref> 
+| <!--Remote Uploading?--> no
+| <!--Developer API?--> Yes
+| <!--FTP upload possible--> No<ref>cite web | url=https://www.dropbox.com/help/62/en | title=Do you offer WebDAV, Email Attachments, or FTP support? | publisher=Dropbox | date= | accessdate=15 December 2013</ref>
+| <!--File versioning--> rarely| 30 days by default,<br>1 year w/ add-on<ref>cite web| title=Extended version history—a Dropbox Plus add-on |url=https://www.dropbox.com/help/security/extended-version-history|work=Dropbox Help center| publisher=Dropbox| accessdate=14 June 2017</ref>
+| <!--Follows symlinks--> yes
+| <!--Client-side encryption--> no
+| <!--Free GB--> free|2
+| <!--Misc. notes-->Synchronization, backup and websharing. Does support Linux OS<br>25 GB free with HTC Sense 4 & 5,<br>100 GB free with Samsung device
+|-
+! Google Drive<ref>cite web | last=Leonhard | first=Woody  | url=http://www.infoworld.com/d/cloud-computing/review-google-drive-leads-in-features-lags-in-ease-of-use-243281 | title=Review: Google Drive leads in features, lags in ease-of-use &#124; Cloud Computing | publisher=InfoWorld | date=29 May 2014 | accessdate=12 July 2014</ref><ref>cite web | last=Duffy | first=Jill  | url=https://www.pcmag.com/article2/0,2817,2403546,00.asp | title=Google Drive Review & Rating | publisher=PCMag.com | date= | accessdate=12 July 2014</ref>
+| <!--Storage size--> some|nts|15&nbsp;GB free,<ref>Citation | last = Lockhart | first = Joshua | title = Google Introduces Unified Cloud Storage: 15 GB For Google Drive, Gmail, & Google+ Photos [Updates] | newspaper = MakeUseOf | date = 14 May 2013 | url = http://www.makeuseof.com/tag/google-introduces-unified-cloud-storage-15gb-for-google-drive-gmail-google-photos-updates | archiveurl = | archivedate = | accessdate = 5 June 2013</ref><br>nts|100&nbsp;GB to nts|30&nbsp;TB paid;<ref>http://www.pcworld.com/article/2107946/google-lowers-prices-on-drive-paid-storage-options.html</ref><ref>https://techcrunch.com/2014/03/13/google-drive-gets-a-big-price-drop-100gb-now-costs-1-99-a-month/</ref> Unlimited Storage for G Suite Business (1 TB per user if there are fewer than 5 users)
+| <!--Max. file size--> rarely|nts|5&nbsp;Terabyte|TB<ref>cite web|author=Drive  | url=https://support.google.com/docs/bin/answer.py?hl=en&answer=37603 | title=Google Docs, Sheets, and Slides size limits - Drive Help | publisher=Support.google.com | date=19 March 2013 | accessdate=14 June 2013</ref>
+| <!--Direct access--> rarely|Manually, file-by-file<ref>cite web| title=How to Create Direct Download Links for Files on Google Drive | url=https://www.labnol.org/internet/direct-links-for-google-drive/28356/| publisher=labnol.org| accessdate=14 June 2017</ref><ref>cite web| title=Deprecating web hosting support in Google Drive | url=https://gsuiteupdates.googleblog.com/2015/08/deprecating-web-hosting-support-in.html| publisher=G Suite team| accessdate=14 June 2017</ref>
+| <!--Traffic/bandwidth limit--> rarely|download: web client 750 MB/hour 1250 MB/day<br>upload: 300 MB/hour 750 MB/day<br>download from IMAP: 2500 MB <br/ > download POP: 1250 MB <br />Upload IMAP: 500 MB<ref>cite web |title=Bandwidth limits |url=https://support.google.com/a/answer/1071518?hl=en |accessdate=14 September 2018</ref>
+| <!--File expiration--> yes|NoneCitation needed| date=October 2014
+| <!--Remote Uploading?--> no
+| <!--Developer API--> yes|OAuth2
+| <!--FTP upload possible--> no
+| <!--File versioning--> yes<ref>[https://support.google.com/drive/bin/answer.py?hl=en&answer=2409045 About file versions]</ref>
+| <!--Follows symlinks--> no
+| <!--Client-side encryption--> no
+| <!--Free GB--> free|15
+| <!--Misc. notes-->Additional space for limited time period with some devices and services.<ref>http://www.androidcentral.com/updating-htc-sense-55-claim-25gb-free-google-drive-space</ref><ref>http://www.cnet.com/how-to/get-10gb-extra-space-on-google-drive-for-linking-with-quickoffice/</ref><ref>http://9to5google.com/2012/10/22/how-to-claim-google-chromebook-goodies-100gb-google-drive-storage-12-gogo-in-air-wi-fi-passes/</ref><ref>http://lifehacker.com/two-year-chromebook-users-your-free-google-drive-spac-1588050197</ref>
+|-
+! IBM Connections#Files|IBM Connections Files Cloud
+| <!--Storage size--> rarely|nts|1 TB paid<br>(60-day free trial)<ref>[https://www.ibm.com/us-en/marketplace/connections-files-cloud/purchase#product-header-top IBM Connections Files Cloud - Pricing - United States].  Accessed 2019-01-12.</ref>
+| <!--Max. file size--> rarely|nts|2&nbsp;GB
+| <!--Direct access--> yes
+| <!--Traffic/bandwidth limit--> yes|None
+| <!--File expiration--> yes|None 
+| <!--Remote Uploading?--> no
+| <!--Developer API--> yes|CMIS, REST, Atom (standard) and OAuth2
+| <!--FTP upload possible--> no
+| <!--File versioning--> yes
+| <!--Follows symlinks--> ?
+| <!--Client-side encryption--> ?
+| <!--Free GB--> free|5
+| <!--Misc. notes--> Subscription costs US$6/year<ref>cite web  | url=http://www.ibm.com/cloud-computing/social/us/en/planspricing/ | title=Plans and pricing | publisher=IBM | accessdate=14 March 2014</ref>
+|-
+! Apple iCloud<ref>cite web | last=Duffy | first=Jill  | url=https://www.pcmag.com/article2/0,2817,2394611,00.asp | title=Apple iCloud Review & Rating | publisher=PCMag.com | date= | accessdate=12 July 2014</ref>
+| <!--Storage size--> rarely| nts|5&nbsp;GB free,<br>nts|50&nbsp;GB to nts|2&nbsp;TB paid
+| <!--Max. file size--> rarely|nts|50&nbsp;GB
+| <!--Direct access--> yes
+| <!--Traffic/bandwidth limit--> rarely|200/400/600 GB per month
+| <!--File expiration--> yes|None
+| <!--Remote Uploading?--> no
+| <!--Developer API--> Yes
+| No
+| <!--File versioning--> rarely|Partly
+| <!--Follows symlinks--> no
+| <!--Client-side encryption--> ?
+| <!--Free GB--> free|5
+| <!--Misc. notes--> nts|25 GB for previous MobileMe account subscriptions<ref>cite web  | url=https://www.apple.com/mobileme/pricing/ | title=MobileMe pricing | publisher=Apple Computer | accessdate=5 March 2010</ref><!-- needs updated information for iCloud and updated link to the pricing for iCloud please -->
+|-
+! Jumpshare
+| <!--Storage size--> rarely|2 GB free, 1 TB paid
+| <!--Max. file size--> rarely|250 MB free, Unlimited paid
+| <!--Direct access--> yes
+| <!--Traffic/bandwidth limit--> rarely|5GB per month free, 200GB per month on paid plan
+| <!--File expiration--> yes|None
+| <!--Remote Uploading?--> yes
+| <!--Developer API--> dunno
+| <!--FTP upload possible--> dunno
+| <!--File versioning--> dunno
+| <!--Follows symlinks--> dunno
+| <!--Client-side encryption--> no
+| <!--Free GB--> free|2
+| <!--Misc. notes-->Real-time file sharing with built-in utilities for screenshots, screencasts, notes, and voice clips.
+|-
+! MediaFire<ref>cite web|author=4/09/14 9:00am 4/09/14 9:00am  | url=http://lifehacker.com/mediafire-launches-desktop-apps-offers-1tb-of-space-fo-1561318986 | title=MediaFire Launches Desktop Apps, Offers 1TB of Space for $2.50 a Month | publisher=Lifehacker.com | date= | accessdate=12 July 2014</ref>
+| <!--Storage size--> rarely|nts|10&nbsp;GB,<br>+nts|50&nbsp;GB for referrals up to nts|1&nbsp;TB Pro accounts;<br>nts|100&nbsp;TB Business accounts
+| <!--Max. file size--> rarely|nts|20&nbsp;GB<ref>[https://www.mediafire.com/upgrade/ Plan Comparison]</ref>
+| <!--Direct access--> Yes
+| <!--Traffic/bandwidth limit--> some| nts|10&nbsp;TB&nbsp;pro plan,<br>Business plans receive an amount of bandwidth per month equal to ten times the account’s storage space.<ref>Mediafire states on their knowledgebase that [https://mediafire.zendesk.com/hc/en-us/articles/207100597-Bandwidth-and-Direct-Downloading] there's a bandwidth limit for premium users</ref>
+| <!--File expiration--> rarely|1 year of account inactivity<ref>Mediafire states on their [http://knowledgebase.mediafire.com/article.php?id=100 knowledgebase] webarchive|url=https://archive.is/20130626230202/http://knowledgebase.mediafire.com/article.php?id=100 |date=26 June 2013  there isn’t a time limit on how long files will be stored. However, "MediaFire Free accounts holders must have some type (any type) of activity to protect their accounts from deletion".</ref>
+| <!--Remote Uploading?--> Yes
+| <!--Developer API?--> Yes
+| <!--FTP upload possible?--> No<ref>cite web | url=http://knowledgebase.mediafire.com/article.php?id=94 | title=Can I upload files via FTP? | publisher=MediaFire.com | date=28 March 2013 | accessdate=19 September 2013</ref>
+| <!--File versioning--> Yes
+| <!--Follows symlinks--> ?
+| <!--Client-side encryption--> Yes
+| <!--Free GB--> free|10
+| <!--Misc. notes--> Resuming of interrupted downloads possible.
+|-
+! Mega (service)|Mega<ref>cite web | url=http://www.zdnet.com/review-what-to-expect-from-megas-free-50gbs-of-cloud-storage-7000010089/ | title=Review: What to expect from Mega's free 50GB of cloud storage | publisher=ZDNet | date=21 January 2013 | accessdate=12 July 2014</ref>
+| <!--Storage size--> rarely|nts|15&nbsp;GB free,<br>up to nts|50&nbsp;GB free trial,<ref>cite web|accessdate=2018-04-29|title=MEGA Review - Updated 2018|url=https://www.cloudwards.net/review/mega/|website=Cloudwards</ref><br>up to nts|8&nbsp;TB paid
+| <!--Max. file size--> good|Available cloud drive space<ref>[https://mega.nz/#help/client/webclient/cloud-drive/are-there-any-file-size-limits-on-mega Mega Help Centre: Basics: Are there any file size limits on Mega?]</ref>
+| <!--Direct access--> No|No<ref>cite web| url=https://www.mega.co.nz/#help_sharing| title=Help Centre - Sharing| publisher=Mega (service)| accessdate=2 May 2014| quote=How do I link to a file on MEGA?...select one or multiple files in your file manager, then right-click and use "Get link". However, the link they give you goes to their downloader interface, not the direct file.</ref>
+| <!--Traffic/Bandwidth limit--> some| nts|10&nbsp;GB&nbsp;free,<br>Up to nts|96&nbsp;TB per month paid.<ref name="Mega service">Mega (service)</ref>
+| <!--File Expiration--> rarely|3 months of account inactivity/failure to reply to email<ref>[https://mega.nz/#terms Under Suspension and Termination]</ref>
+| <!--Remote uploading?--> no
+| <!--Developer API?--> yes
+| <!--FTP upload possible?--> no
+| <!--File versioning--> yes<ref>cite web | url=https://mega.nz/help/client/webclient/cloud-drive/can-i-manage-versions-of-my-files-in-mega-59d3095ef1b709dd018b4583 | title=Can I manage versions of my files in MEGA? | publisher=MEGA | date=6 October 2017 | accessdate=12 October 2017</ref>
+| <!--Follows symlinks--> ?
+| <!--Client-side encryption--> yes
+| <!--Free GB--> free|50
+| <!--Misc. notes--> Apps for Windows, macOS, Linux, iOS, Android, Windows Phone, Blackberry, Chrome, Firefox, Safari<ref>https://mega.co.nz/#sync</ref> Supports HTML5 browsers.<ref>cite web| url=https://mega.co.nz/update.html| title=MEGA update browser| publisher=Mega (service)| accessdate=29 May 2014| quote= Your browser seems a bit outdated. Please update to the latest version or switch to a recommended browser, Mozilla Firefox or Google Chrome.</ref>
+|-
+! OneDrive<ref>cite web | last=Muchmore | first=Michael  | url=https://www.pcmag.com/article2/0,2817,2409569,00.asp | title=Microsoft OneDrive Review & Rating | publisher=PCMag.com | date= | accessdate=12 July 2014</ref>
+| <!--Storage size--> rarely|nts|5&nbsp;GB free (since 31 January 2016)refn|group=Note|Previously 15 GB<ref>http://www.pcworld.com/article/3028036/data-center-cloud/todays-your-last-day-to-claim-your-free-15gb-of-onedrive-storage.html</ref> and 25 GB since 2008<ref>cite web | last=Broida | first=Rick  | url=http://www.cnet.com/news/get-100gb-of-microsoft-onedrive-storage-for-free/ | title=Get 100GB of Microsoft OneDrive storage for free | publisher=CNET | date=27 October 2011 | accessdate=12 July 2014</ref>.<br>+500 MB free for referrals up to 5 GB;<br>nts|200&nbsp;GB paid<ref>cite web | url=http://www.informationweek.com/cloud/cloud-storage/microsoft-onedrive-cloud-storage-price-showdown/d/d-id/1278780 | title=Microsoft OneDrive: Cloud Storage Price Showdown | publisher=InformationWeek | date= | accessdate=12 July 2014</ref>
+<br>1 TB with paid Office 365 account by default, but can be increased without limit.<ref group="Note" name="OneDrive_unlimited">Currently requires user to request "unlimited" storage (10TB, able to be increased upon request), otherwise 1TB for Office 365 subscribers.</ref><ref>cite web|author=Tom Warren  | url=https://www.theverge.com/2014/10/27/7078397/microsoft-unlimited-onedrive-storage-office-365 | title=Microsoft targets Dropbox and Google with unlimited OneDrive storage for Office 365 subscribers | publisher=The Verge| date=28 October 2014 | accessdate=1 November 2014</ref>
+| <!--Max. file size--> rarely|nts|10&nbsp;GB<ref>cite web | url=https://blog.onedrive.com/onedrive-now-supports-10-gb-files/ | title=OneDrive now supports 10 GB files | publisher=Microsoft | accessdate=13 September 2014 | date=10 September 2014</ref>
+| <!--Direct access--> no
+| <!--Traffic/Bandwidth limit--> yes|None
+| <!--File Expiration--> some|1&nbsp;year of account inactivity<ref>Microsoft states in their [http://windows.microsoft.com/en-US/windows-live/microsoft-services-agreement Terms of Service]: "You must sign into your Outlook.com inbox and your OneDrive (separately) at least once in a one-year period, otherwise we will close your Outlook.com inbox and your OneDrive for you."</ref>
+| <!--Remote Uploading?--> yes
+| <!--Developer API?--> yes<ref>cite web | url=http://msdn.microsoft.com/en-us/live/hh561489.aspx | title=SkyDrive core concepts (Live Connect) | publisher=Msdn.microsoft.com | date=15 May 2013 | accessdate=14 June 2013</ref>
+| <!--FTP upload possible?--> no<ref>cite web|title=How to access with ftp to OneDrive?|url=https://answers.microsoft.com/en-us/onedrive/forum/odwork-odfiles/how-to-access-with-ftp-to-onedrive/cbebf3d0-78a5-4132-abbf-636b34a5a9e6?page=2|website=Microsoft Answers|publisher=Microsoft|accessdate=30 March 2018</ref>
+| <!--File versioning--> yes (Office files only)
+| <!--Follows symlinks--> no<ref>cite web | url=http://answers.microsoft.com/en-us/onedrive/forum/sdfiles-sdsync/symbolic-links-in-skydrive/42def14d-17d3-4431-8512-8a5e2464051c| title=Symbolic links in Skydrive - Microsoft Community| accessdate=11 April 2014</ref>
+| <!--Client-side encryption--> ?
+| <!--Free GB--> free|5
+| <!-- Misc. notes --> Fetch files allows remote access of files on Windows with OneDrive installed<ref>cite web | url=http://windows.microsoft.com/en-US/skydrive/fetch-files-pc-ui | title=Fetch files on your PC - Microsoft Windows Help | publisher=Windows.microsoft.com | date= | accessdate=14 June 2013</ref><br>25 GB free for grandfathered accounts before April 2012<ref>cite web|author=4/25/12 1:00pm 4/25/12 1:00pm  | url=http://lifehacker.com/5905111/upgrade-from-7gb-to-25gb-of-free-microsoft-skydrive-storage | title=Upgrade from 7GB to 25GB of Free Microsoft SkyDrive Storage While You Can | publisher=Lifehacker.com | date=23 April 2012 | accessdate=12 July 2014</ref>
+|-
+! SecureSafe<ref name="mikel backup">cite web | last=Lohnash | first=Mike  | url=http://www.backupreview.com/securesafe-review/ | title=SecureSafe Review | publisher=backupreview.com | date= | accessdate=30 June 2017</ref>
+| <!--Storage size-->  some| 100MB free,<br> up to 100GB paid <ref>cite web | url=https://www.securesafe.com/en/pricing/#private-clients | title=Pricing | publisher=SecureSafe.com | date= | accessdate=30 June 2017</ref>
+| <!--Max. file size--> ? <br> 2GB limit for SecureSend
+| <!--Direct access--> Yes
+| <!--Traffic/Bandwidth limit--> Yes|None
+| <!--File Expiration--> yes|None
+| <!--Remote uploading?--> no
+| <!--Developer API?--> no
+| <!--FTP upload possible?--> No
+| <!--File versioning--> no<ref name="mikel backup" />
+| <!--Follows symlinks--> ?
+| <!--Client-side encryption--> yes
+| <!--Free GB--> free|0.1
+| <!--Misc. notes--> Offers Data Inheritance <ref>cite web|title=Data Inheritance: valuable help for loved ones|url=https://www.securesafe.com/en/news/data-inheritance-valuable-help-for-loved-ones/|website=SecureSafe|publisher=SecureSafe.com|accessdate=30 June 2017|date=14 April 2016</ref>
+|-
+! SugarSync<ref>cite web | last=Duffy | first=Jill  | url=https://www.pcmag.com/article2/0,2817,2343598,00.asp | title=SugarSync Review & Rating | publisher=PCMag.com | date=1 January 1970 | accessdate=12 July 2014</ref>
+| <!--Storage size--> some| nts|60&nbsp;GB personal paid,<br>Unlimited&nbsp;GB professional paid
+| <!--Max. file size--> yes|None
+| <!--Direct access--> No<ref>cite web| title= Direct Link – SugarSync Customer Support | url=https://support.sugarsync.com/hc/en-us/community/posts/115001376134/comments/115001175333 | publisher=SugarSync Support | date=29 September 2017 | accessdate= 25 March 2018 </ref>
+| <!--Traffic/Bandwidth limit--> some|10&nbsp;GB/file/day free,<br>250&nbsp;GB file/day paid
+| <!--File Expiration--> some|No expiration for paid accounts;<br>90&nbsp;days of inactivity for free users
+| <!--Remote Uploading?--> no
+| <!--Developer API?--> yes|Representational State Transfer|REST<ref>cite web | url=https://www.sugarsync.com/developer | title=Developers, Bring the Power of the Cloud to Your App! | publisher=SugarSync | date= | accessdate=15 December 2013</ref>
+| <!--FTP upload possible?--> ?
+| <!--File versioning--> Yes
+| <!--Follows symlinks--> ?
+| <!--Client-side encryption--> No
+| <!--Free GB--> nonfree|0
+| <!--Misc. notes--> If you hit the limit your links will be disabled for 24 hours. The bandwidth limits only apply to public links.<ref>cite web| title=SugarSync Help Portal - My Public Link is no longer available | url=https://sugarsync.custhelp.com/app/answers/detail/a_id/267/~/my-public-link-is-no-longer-available</ref> 
+|-
+! Tencent Weiyun<ref>cite web|author=8/30/13 12:07pm 8/30/13 12:07pm  | url=https://www.weiyun.com/ | publisher=weiyun.com | date=6 December 2016 | accessdate=6 December 2016</ref>
+| <!--Storage size--> rarely|nts|2&nbsp;TB<br>(10 GB free)
+| <!--Max. file size--> rarely|1 GB regular upload,<br>32 GB Power Upload plug-in
+| <!--Direct access--> yes
+| <!--Traffic/Bandwidth limit--> yes|None
+| <!--File Expiration--> rarely|45 days of account inactivity
+| <!--Remote Uploading?--> no
+| <!--Developer API?--> no
+| <!--FTP upload possible?--> no
+| <!--File versioning--> no
+| <!--Follows symlinks--> ?
+| <!--Client-side encryption--> no
+| <!--Free GB--> free|10
+| <!--Misc. notes--> In English and Chinese (free version in Chinese only)
+|-
+! TitanFile
+| <!--Storage size--> rarely| No free space, unlimited paid
+| <!--Max. file size--> rarely|nts|100&nbsp;MB free,<br>nts|1&nbsp;GB paid,<br>nts|4&nbsp;GB professional
+| <!--Direct access--> yes<ref name="Pricing">cite web | url=https://www.titanfile.com/pricing/#access-anchor | title=Pricing | publisher=TitanFile | accessdate=7 February 2014</ref>
+| <!--Traffic/Bandwidth limit--> yes|None
+| <!--File Expiration--> yes|None, unless set by user<ref name="Pricing"/>
+| <!--Remote Uploading?--> no|No
+| <!--Developer API?--> yes<ref>cite web | url=https://www.titanfile.com/pricing/#API-anchor | title=Pricing | publisher=TitanFile | accessdate=23 March 2014</ref>
+| <!--FTP upload possible?--> yes<br>For enterprise clients only
+| <!--File versioning--> yes<ref>cite web | url=https://www.titanfile.com/pricing/#DM-anchor | title=Pricing | publisher=TitanFile | accessdate=7 February 2014</ref>
+| <!--Follows symlinks--> ?
+| <!--Client-side encryption--> yes for paid plans<ref>Cite news|url=https://www.titanfile.com/blog/client-side-encryption-explained/|title=Client-Side Encryption – Explained|date=22 January 2014|newspaper=TitanFile|access-date=1 November 2016</ref>
+| <!--Free GB--> nonfree|0
+| <!--Misc. notes--> HIPAA-compliant, group messaging, audit logs, granular security control, embedable on website. 
+|-
+! Tresorit<ref>cite web | url=https://tresorit.com | title=Secure Cloud Storage with Client-Side Encryption</ref>
+| <!--Storage size--> rarely| 3 GB free trial,<br> 100-1000 GB paid plans<ref>cite web | url=https://tresorit.com | title=Tresorit Pricing | publisher=Tresorit.com | date= | accessdate=9 January 2015</ref>
+| <!--Max. file size--> rarely| 500 MB free,<br>5 GB premium,<br>10 GB rest of paid plans<ref>cite web | url=https://support.tresorit.com/hc/en-us/articles/216113757-File-size-limit | title=File size limit - Tresorit Knowledge Base | publisher=Tresorit.com | date= | accessdate=21 April 2018</ref>
+| <!--Direct access--> Yes
+| <!--Traffic/Bandwidth limit--> yes|None
+| <!--File Expiration--> yes|None
+| <!--Remote uploading?--> no
+| <!--Developer API?--> no
+| <!--FTP upload possible?--> No
+| <!--File versioning--> some|For paid plans only<ref>cite web | url=https://tresorit.com/blog/file-versioning-has-arrived-to-tresorit-pro-and-business/ | title=File versioning has arrived to Tresorit Pro and Business! | publisher=Tresorit.com | date= | accessdate=9 January 2015</ref>
+| <!--Follows symlinks--> no
+| <!--Client-side encryption--> yes<ref>cite web | url=https://tresorit.com/security | title=Client-Side Encryption | publisher=Tresorit.com | date= | accessdate=9 January 2015</ref>
+| <!--Free GB--> free|3
+| <!--Misc. notes--> Files stored in Tresorit are encrypted using the most advanced encryption methods. No one, not even Tresorit administrators hold the users' decryption keys.
+|-
+! Yandex Disk
+| <!--Storage size--> rarely| up to 20 GB free (10 GB when registering),<br/> up to 1024 GB paid
+| <!--Max. file size--> rarely| 2 GB upload via Web or WebDAV,<br/> 50 GB upload via application
+| <!--Direct access--> yes
+| <!--Traffic/Bandwidth limit--> 200% of storage size per day
+| <!--File Expiration--> yes|NoneCitation needed| date=March 2016
+| <!--Remote Uploading?--> no
+| <!--Developer API?--> yes: REST, WebDAV, SDK<ref>cite web | url=https://api.yandex.com/disk/ | title =Yandex Disk API documentation | accessdate= 2 April 2015</ref>
+| <!--FTP upload possible?--> no
+| <!--File versioning--> no
+| <!--Follows symlinks--> ?
+| <!--Client-side encryption--> no
+| <!--Free GB--> free|10
+| <!--Misc. notes--> English, Russian, Ukrainian and Turkish interfaces. Service is tightly integrated with other Yandex services. Native apps for Windows, macOS, Linux, iOS, Android. Client-side encryption is available with 3rd party open source clients. 
+|-
+!Web host
+!Storage size
+!Max. file size
+!Direct access<ref group="Note" name="ReferenceA" />
+!Traffic or bandwidth limit
+!File expiration<ref group="Note" name="ReferenceB" />
+!Remote uploading?
+!Developer API?
+!FTP upload possible?
+!File versioning
+!Follows symlinks
+!Client-side encryption<ref name="Security Now 349" />
+!Free GB (number only)
+!Misc. notes
+|}
+
+ Former services 
+{|
+|-
+| valign="top" |
+* Barracuda Networks|Copy.com<ref>[http://www.crn.com/news/storage/300079567/barracuda-closes-copy-com-cudadrive-services-may-be-looking-to-sell-itself.htm Barracuda Closes Copy.com, CudaDrive Services, May Be Looking To Sell Itself]</ref>
+* Drop.io
+* Fileserve
+* Hotfile
+* Humyo
+* iDisk
+* IFile.it
+* Megaupload
+* Pogoplug<ref>cite web | url=https://venturebeat.com/2016/09/21/pogoplug-unlimited-cloud-storage-service-is-shutting-down-on-september-28 | title =Pogoplug unlimited cloud storage service is shutting down on September 28 | accessdate= 23 October 2016</ref>
+* RapidShare
+* Steek (brand)|SteekR
+* Ubuntu One
+* Wuala
+* MobileMe
+* Xdrive (website)|Xdrive
+* Yahoo! Briefcase
+* ZumoDrive
+|}
+
+ See also 
+* Cloud storage
+* Comparison of file synchronization software
+* Comparison of online backup services
+* Comparison of online music lockers
+* List of backup software
+* Remote backup service
+* Shared disk access
+
+ Footnotes 
+reflist|group=Note
+
+ References 
+Reflist|30em
+
+ External links 
+* dmoz|Computers/Internet/On_the_Web/Web_Applications/Storage|File hosting services
+
+Category:Cloud storage
+Category:File hosting
+Category:File hosting for Linux
+Category:File hosting for MacOS
+Category:File hosting for Windows
+Category:Online services comparisons|File hosting services
+Category:Companies' terms of service

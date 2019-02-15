@@ -1,0 +1,102 @@
+The AI effect occurs when onlookers discount the behavior of an artificial intelligence program by arguing that it is not ''real'' intelligence.
+
+Author Pamela McCorduck writes: "It's part of the history of the field of artificial intelligence that every time somebody figured out how to make a computer do something—play good checkers, solve simple but relatively informal problems—there was chorus of critics to say, 'that's not thinking'."<ref>Harvnb|McCorduck|2004|p=204</ref> AIS researcher Rodney Brooks complains "Every time we figure out a piece of it, it stops being magical; we say, 'Oh, that's just a computation.'"<ref>cite journal| first=Jennifer | last =Kahn | title=It's Alive | url=https://www.wired.com/wired/archive/10.03/everywhere.html | magazine=Wired | issue=10.30 | accessdate=24 Aug 2008 |date=March 2002</ref>
+
+"The AI effect" tries to redefine AI to mean: AI is anything that has not been done yet
+A view taken by some people trying to promulgate the AI effect is: As soon as AI successfully solves a problem, the problem is no longer a part of AI.
+
+Pamela McCorduck calls it an "odd paradox" that "practical AI successes, computational programs that actually achieved intelligent behavior, were soon assimilated into whatever application domain they were found to be useful in, and became silent partners alongside other problem-solving approaches, which left AI researchers to deal only with the "failures", the tough nuts that couldn't yet be cracked."<ref>Harvnb|McCorduck|2004|p=423</ref>
+
+When IBM's chess playing computer Deep Blue (chess computer)|Deep Blue succeeded in defeating Garry Kasparov in 1997, people complained that it had only used "brute force methods" and it wasn't real intelligence.<ref>Harvnb|McCorduck|p=433</ref> Fred Reed writes: <blockquote>"A problem that proponents of AI regularly face is this: When we know how a machine does something 'intelligent,' it ceases to be regarded as intelligent. If I beat the world's chess champion, I'd be regarded as highly bright."<ref>cite news
+ | author=Fred Reed
+ | title =Promise of AI not so bright
+ | newspaper=The Washington Times
+ | date=2006-04-14
+ | url =http://washingtontimes.com/news/2006/apr/13/20060413-105217-7645r/ 
+</ref></blockquote>
+
+Douglas Hofstadter expresses the AI effect concisely by quoting Larry Tesler|Tesler's Theorem: <blockquote>"AI is whatever hasn't been done yet."<ref>As quoted by Harvtxt|Hofstadter|1980|p=601. Larry Tesler actually feels he was misquoted: see his note in the "Adages" section of [http://www.nomodes.com/Larry_Tesler_Consulting/CV.html Larry Tesler's CV].</ref></blockquote>
+
+When problems have not yet been formalised, they can still be characterised by a model of computation that includes human computation. The computational burden of a problem is split between a computer and a human: one part is solved by computer and the other part solved by human.  This formalisation is referred to as AI complete#Formalisation|human-assisted Turing machine.<ref>Dafna Shahaf and Eyal Amir (2007) [http://www.cs.uiuc.edu/~eyal/papers/ai-complete-commonsense07.pdf Towards a theory of AI completeness]dead link|date=June 2017 |bot=InternetArchiveBot |fix-attempted=yes . [http://www.ucl.ac.uk/commonsense07 Commonsense 2007,  8th International Symposium on Logical Formalizations of Commonsense Reasoning].</ref>
+
+ AI applications become mainstream 
+Software and algorithms developed by AI researchers are now integrated into many applications throughout the world, without really being called AI.
+
+Michael Swaine (technical author)|Michael Swaine reports "AI advances are not trumpeted as artificial intelligence so much these days, but are often seen as advances in some other field". "AI has become more important as it has become less conspicuous", Patrick Winston says. "These days, it is hard to find a big system that does not work, in part, because of ideas developed or matured in the AI world."<ref>Cite web | url=http://www.ddj.com/cpp/201804174
+ | title=AI - It's OK Again! Is AI on the rise again?
+ | first=Michael
+ | last=Swaine
+ | publisher=Dr. Dobbs
+ | date=September 5, 2007
+</ref>
+
+According to Stottler Henke, "The great practical benefits of AI applications and even the existence of AI in many software products go largely unnoticed by many despite the already widespread use of AI techniques in software. This is the AI effect. Many marketing people don't use the term 'artificial intelligence' even when their company's products rely on some AI techniques. Why not?"<ref>cite web
+| url = http://www.stottlerhenke.com/ai_general/glossary.htm
+| title = AI Glossary
+| author=Stottler Henke
+</ref>
+
+Marvin Minsky writes "This paradox resulted from the fact that whenever an AI research project made a useful new discovery, that product usually quickly spun off to form a new scientific or commercial specialty with its own distinctive name. These changes in name led outsiders to ask, Why do we see so little progress in the central field of artificial intelligence?"<ref>cite web|author=Marvin Minsky |title=The Age of Intelligent Machines: Thoughts About Artificial Intelligence |url=http://www.kurzweilai.net/articles/art0100.html?printable=1 |deadurl=yes |archiveurl=https://web.archive.org/web/20090628081048/http://www.kurzweilai.net/articles/art0100.html?printable=1 |archivedate=2009-06-28 </ref>
+
+Nick Bostrom observes that "A lot of cutting edge AI has filtered into general applications, often without being called AI because once something becomes useful enough and common enough it's not labelled AI anymore."<ref>Quoted in Cite web| url=http://www.cnn.com/2006/TECH/science/07/24/ai.bostrom/
+ | title=AI set to exceed human brain power
+ | publisher= CNN.com
+ | date=July 26, 2006 
+</ref>
+
+ Legacy of the AI winter 
+Main|AI winter
+Many AI researchers find that they can procure more funding and sell more software if they avoid the tarnished name of "artificial intelligence" and instead pretend their work has nothing to do with intelligence at all. This was especially true in the early 1990s, during the "AI winter".
+
+Patty Tascarella writes "Some believe the word 'robotics' actually carries a stigma that hurts a company's chances at funding"<ref>cite news
+ | url=http://www.bizjournals.com/pittsburgh/stories/2006/08/14/focus3.html?b=1155528000%5E1329573 
+ | title=Robotics firms find fundraising struggle, with venture capital shy
+ | author=Patty Tascarella 
+ | newspaper=Pittsburgh Business Times
+ | date=August 11, 2006
+</ref>
+
+ Saving a place for humanity at the top of the chain of being 
+Michael_Kearns_(computer_scientist)|Michael Kearns suggests that "people subconsciously are trying to preserve for themselves some special role in the universe".<ref>cite news
+ | title=A new robot makes a leap in brainpower
+ | author= Faye Flam
+ | authorlink=Faye Flam
+ | newspaper=Philadelphia Inquirer 
+ | date=January 15, 2004
+ available from Philly.com
+</ref>
+By discounting artificial intelligence people can continue to feel unique and special. Kearns argues that the change in perception known as the AI effect can be traced to the ''mystery'' being removed from the system: that being able to trace the cause of events implies that it's a form of automation rather than intelligence.
+
+A related effect has been noted in the history of animal cognition and in  consciousness studies, where every time a capacity formerly thought as uniquely human is discovered in animals (e.g. the tool use|ability to make tools, or passing the mirror test), the overall importance of that capacity is deprecated.Citation needed|date=October 2009
+
+Herbert A. Simon, when asked about the lack of AI's press coverage at the time, said, "What made AI different was that the very idea of it arouses a real fear and hostility in some human breasts. So you are getting very strong emotional reactions. But that's okay. We'll live with that."<ref>cite journal 
+  | url=http://handle.dtic.mil/100.2/ADA385470 
+ | title=A Conversation with Herbert Simon. 
+ | author=Reuben L. Hann.
+ | publisher=Gateway
+ | volume= IX
+ | number=2 
+ | pages=12–13
+  | year= 1998
+ (Gateway is published by the Crew System Ergonomics Information Analysis Center, Wright-Patterson AFB)
+</ref>
+
+ See also 
+* ELIZA effect
+* History of artificial intelligence
+* AI winter
+* Moravec's paradox
+* Chinese room
+
+ Notes 
+reflist
+
+ References 
+* McCorduck 2004
+* Citation | first = Douglas | last = Hofstadter | title = Gödel, Escher, Bach|Gödel, Escher, Bach: an Eternal Golden Braid | year = 1980 | authorlink = Douglas Hofstadter 
+
+
+ External links 
+*[https://dspace.mit.edu/bitstream/handle/1721.1/80558/43557450-MIT.pdf?sequence=2  "If It Works, It's Not AI: A Commercial Look at Artificial Intelligence startups"]
+
+Category:Philosophy of artificial intelligence

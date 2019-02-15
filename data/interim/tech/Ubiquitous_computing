@@ -1,0 +1,142 @@
+More citations needed|date=June 2017
+ Ubiquitous computing (or "ubicomp") is a concept in software engineering and computer science where computing is made to appear anytime and everywhere. In contrast to desktop computing, ubiquitous computing can occur using any device, in any location, and in any format. A user interacts with the computer, which can exist in many different forms, including laptop computers, Tablet computer|tablets and Computer terminal|terminals in everyday objects such as a refrigerator or Smartglasses|a pair of glasses.  The underlying technologies to support ubiquitous computing include Internet, advanced middleware, operating system, mobile code, sensors, microprocessors, new I/O and user interfaces, Computer network|networks, mobile protocols, location and positioning, and new materials.
+
+This paradigm is also described as pervasive computing,<ref name="Nieuwdorp2007-Discourse">Cite journal | last1 = Nieuwdorp | first1 = E. | title = The pervasive discourse | doi = 10.1145/1279540.1279553 | journal = Computers in Entertainment | volume = 5 | issue = 2 | page = 13 | year = 2007 | pmid =  | pmc = </ref> ambient intelligence,<ref>cite book|title=Pervasive Computing: The Mobile World| last=Hansmann| first=Uwe|year=2003|publisher=Springer|isbn=978-3-540-00218-5</ref> or "everyware".<ref>cite book|title=Everyware: the dawning age of ubiquitous computing|last=Greenfield|first=Adam|authorlink=Adam Greenfield|year=2006|publisher=New Riders|isbn=978-0-321-38401-0|pages=11–12</ref> Each term emphasizes slightly different aspects. When primarily concerning the objects involved, it is also known as physical computing, the Internet of Things, haptic technology|haptic computing,<ref>cite web
+ | url=http://www.worldhaptics.org/hapticConferences.htm
+ | title=World Haptics Conferences
+ | publisher=Haptics Technical Committee
+ | accessdate=2007-10-13
+</ref> and "things that think".
+Rather than propose a single definition for ubiquitous computing and for these related terms, a Taxonomy (general)|taxonomy of properties for ubiquitous computing has been proposed, from which different kinds or flavors of ubiquitous systems and applications can be described.<ref name="Poslad">cite book
+  | last = Poslad
+  | first = Stefan
+  | title = Ubiquitous Computing Smart Devices, Smart Environments and Smart Interaction
+  | publisher = Wiley
+  | year = 2009
+  | isbn = 978-0-470-03560-3
+  | url = http://www.elec.qmul.ac.uk/people/stefan/ubicom/index.html
+</ref>
+
+Ubiquitous computing touches on different fields, such as distributed computing, mobile computing, location computing, mobile networking, sensor networks, human–computer interaction, and artificial intelligence.
+
+ Core concepts 
+At their core, all models of ubiquitous computing share a vision of small, inexpensive, robust networked processing devices, distributed at all scales throughout everyday life and generally turned to distinctly common-place ends. For example, a domestic ubiquitous computing environment might interconnect lighting and environmental controls with personal biometric monitors woven into clothing so that illumination and heating conditions in a room might be modulated, continuously and imperceptibly. Another common scenario posits refrigerators "aware" of their suitably tagged contents, able to both plan a variety of menus from the food actually on hand, and warn users of stale or spoiled food.
+
+Ubiquitous computing presents challenges across computer science: in systems design and engineering, in systems modelling, and in user interface design. Contemporary human-computer interaction models, whether command-line, menu-driven, or GUI-based, are inappropriate and inadequate to the ubiquitous case. This suggests that the "natural" interaction paradigm appropriate to a fully robust ubiquitous computing has yet to emerge – although there is also recognition in the field that in many ways we are already living in a ubicomp world (see also the main article on Natural user interfaces). Contemporary devices that lend some support to this latter idea include mobile phones, digital audio players, radio-frequency identification tags, GPS, and interactive whiteboards.
+
+Mark Weiser proposed three basic forms for ubiquitous system devices (see also smart device): tabs, pads and boards.
+* ''Tabs'': wearable centimetre sized devices
+* ''Pads'': hand-held decimetre-sized devices
+* ''Boards'': metre sized interactive display devices.
+These three forms proposed by Weiser are characterized by being macro-sized, having a planar form and on incorporating visual output displays. If we relax each of these three characteristics we can expand this range into a much more diverse and potentially more useful range of ubiquitous computing devices. Hence, three additional forms for ubiquitous systems have been proposed:<ref name="Poslad"/>
+* ''Dust'': miniaturized devices can be without visual output displays, e.g. micro electro-mechanical systems (Microelectromechanical systems|MEMS), ranging from nanometres through micrometers to millimetres. See also Smart dust.
+* ''Skin'': fabrics based upon light emitting and conductive polymers, organic computer devices, can be formed into more flexible non-planar display surfaces and products such as clothes and curtains, see OLED display. MEMS device can also be painted onto various surfaces so that a variety of physical world structures can act as networked surfaces of MEMS.
+* ''Clay'': ensembles of MEMS can be formed into arbitrary three dimensional shapes as artefacts resembling many different kinds of physical object (see also Tangible interface).
+
+In his book ''The Information Age: Economy, Society and Culture#The Rise of the Network Society|The Rise of the Network Society'', Manuel Castells suggests that there is an ongoing shift from already-decentralised, stand-alone microcomputers and mainframes towards entirely pervasive computing. In his model of a pervasive computing system, Castells uses the example of the Internet as the start of a pervasive computing system. The logical progression from that paradigm is a system where that networking logic becomes applicable in every realm of daily activity, in every location and every context. Castells envisages a system where billions of miniature, ubiquitous inter-communication devices will be spread worldwide, "like pigment in the wall paint".
+
+Ubiquitous computing may be seen to consist of many layers, each with their own roles, which together form a single system:
+
+Layer 1: ''task management layer''
+*Monitors user task, context and index
+*Map user's task to need for the services in the environment
+*To manage complex dependencies
+
+Layer 2: ''environment management layer  ''
+*To monitor a resource and its capabilities
+*To map service need, user level states of specific capabilities
+
+Layer 3: ''environment layer ''
+*To monitor a relevant resource
+*To manage reliability of the resources
+
+History
+Mark Weiser coined the phrase "ubiquitous computing" around 1988, during his tenure as Chief Technologist of the Xerox Xerox PARC|Palo Alto Research Center (PARC). Both alone and with PARC Director and Chief Scientist John Seely Brown, Weiser wrote some of the earliest papers on the subject, largely defining it and sketching out its major concerns.<ref name="Weiser91">cite web|url=http://dl.acm.org/citation.cfm?id=329126 |title=The Computer for the 21st Century| year=1991| last=Weiser| first=Mark| authorlink=Mark Weiser|accessdate=2012-12-19</ref><ref>cite web| url=http://www.research.ibm.com/journal/sj/384/weiser.html|title=Ubiquitous computing| date=1999-05-11|author1=Weiser |author2=Gold |author3=Brown |accessdate=2008-05-07</ref><ref name="Weiser96">cite web|url=http://www.ubiq.com/hypertext/weiser/UbiHome.html|title=Ubiquitous computing| date=1996-03-17| last=Weiser|first=Mark| authorlink=Mark Weiser| accessdate=2007-11-03</ref>
+
+Recognizing the effects of extending processing power
+Recognizing that the extension of processing power into everyday scenarios would necessitate understandings of social, cultural and psychological phenomena beyond its proper ambit, Weiser was influenced by many fields outside computer science, including "philosophy, Phenomenology (philosophy)|phenomenology, anthropology, psychology, post-Modernism, sociology of science and feminist criticism". He was explicit about "the humanistic origins of the 'invisible ideal in post-modernist thought'",<ref name="Weiser96"/> referencing as well the ironically dystopian Philip K. Dick novel ''Ubik''.
+
+Andy Hopper from Cambridge University UK proposed and demonstrated the concept of "Teleporting" – where applications follow the user wherever he/she moves.
+
+Roy Want, while a researcher and student working under Andy Hopper at Cambridge University, worked on the "Active Badge System", which is an advanced location computing system where personal mobility that is merged with computing.
+
+Bill Schilit (now at Google) also did some earlier work in this topic, and participated in the early Mobile Computing workshop held in Santa Cruz in 1996.
+
+Ken Sakamura of the University of Tokyo, Japan leads the Ubiquitous Networking Laboratory (UNL), Tokyo as well as the T-Engine Forum. The joint goal of Sakamura's Ubiquitous Networking specification and the T-Engine forum, is to enable any everyday device to broadcast and receive information.<ref>Cite journal|url=http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=1427641 |title=IEEE Xplore Abstract – T-Engine: Japan&#39;s ubiquitous computing architecture is ready for prime time |journal=IEEE Pervasive Computing |volume=4 |issue=2 |pages=4–9 |doi=10.1109/MPRV.2005.40 |accessdate=2015-10-13|year=2005 |last1=Krikke |first1=J </ref><ref>cite web|url=http://www.t-engine.org/forum-guide/t-engine-summary |title=The name of T-Engine Forum was changed to TRON Forum |publisher=T-engine.org |date=2015-04-01 |accessdate=2015-10-13</ref>
+
+MIT has also contributed significant research in this field, notably ''Things That Think'' consortium (directed by Hiroshi Ishii (computer scientist)|Hiroshi Ishii, Joseph A. Paradiso and Rosalind Picard) at the MIT Media Lab|Media Lab<ref>cite web|url=http://ttt.media.mit.edu|title=MIT Media Lab – Things That Think Consortium|publisher=MIT|accessdate=2007-11-03</ref> and the CSAIL effort known as Project Oxygen.<ref>cite web|url=http://oxygen.csail.mit.edu/Overview.html|title=MIT Project Oxygen: Overview|publisher=MIT|accessdate=2007-11-03</ref> Other major contributors include University of Washington's [http://ubicomplab.cs.washington.edu/ Ubicomp Lab] (directed by Shwetak Patel), Georgia Institute of Technology|Georgia Tech's Georgia Institute of Technology College of Computing|College of Computing,  Cornell University's [http://pac.cs.cornell.edu/ People Aware Computing Lab], New York University|NYU's NYU Interactive Telecommunications Program|Interactive Telecommunications Program, UC Irvine's Department of Informatics, Microsoft Research, Intel Research and Equator,<ref>cite web|url=http://www.cs.ucl.ac.uk/research/equator/ |title=Equator |publisher=University College London|UCL|accessdate=2009-11-19</ref>  Ajou University UCRi & CUS.<ref>cite web|title=Center_of_excellence_for_Ubiquitous_System|url=http://www.cuslab.com|publisher=CUS|accessdate=2008-05-04</ref>
+
+Examples
+One of the earliest ubiquitous systems was artist Natalie Jeremijenko's "Live Wire", also known as "Dangling String", installed at Xerox PARC during Mark Weiser's time there. This was a piece of string attached to a stepper motor and controlled by a LAN connection; network activity caused the string to twitch, yielding a ''peripherally noticeable'' indication of traffic. Weiser called this an example of ''calm technology''.<ref>cite journal|last=Weiser|first=Mark|authorlink=Mark Weiser |author2=Rich Gold |author3=John Seely Brown|title=The origins of ubiquitous computing research at PARC in the late 1980s|year=1999|journal=IBM Systems Journal|volume=38|issue=4|doi= 10.1147/sj.384.0693|page=693</ref>
+
+A present manifestation of this trend is the widespread diffusion of mobile phones. Many of mobile phones supporting high speed data transmission, video services, and mobile devices with powerful computational ability. Although these mobile devices are not necessarily manifestations of ubiquitous computing, there are examples, such as Japan's Yaoyorozu ("Eight Million Gods") Project in which mobile devices, coupled with radio frequency identification tags demonstrate that ubiquitous computing is already present in some form.<ref name="ReferenceA">cite journal|last1=Winter|first1=Jenifer|title=Emerging Policy Problems Related to Ubiquitous Computing: Negotiating Stakeholders' Visions of the Future|journal=Knowledge, Technology & Policy|date=December 2008|volume=21|issue=4|pages=191–203|doi=10.1007/s12130-008-9058-4</ref>
+
+Ambient Devices has produced an "orb", a "dashboard", and a "weather beacon": these decorative devices receive data from a wireless network and report current events, such as stock prices and the weather, like the Nabaztag produced by Violet Snowden.
+
+The Australian futurist Mark Pesce has produced a highly configurable 52-LED LAMP (software bundle)|LAMP enabled lamp which uses Wi-Fi named ''MooresCloud'' after Moore's Law.<ref>cite web|last=Fingas |first=Jon |url=https://www.engadget.com/2012/10/13/moorescloud-light-runs-linux-puts-lamp-on-your-lamp/ |title=MooresCloud Light runs Linux, puts LAMP on your lamp (video) |publisher=Engadget.com |date=2012-10-13 |accessdate=2015-10-13</ref>
+
+The Unified Computer Intelligence Corporation has launched a device called ''Ubi – The Ubiquitous Computer'' that is designed to allow voice interaction with the home and provide constant access to information.<ref>cite web|url=http://www.theubi.com |title=Ubi Cloud |publisher=Theubi.com |date= |accessdate=2015-10-13</ref>
+
+Ubiquitous computing research has focused on building an environment in which computers allow humans to focus attention on select aspects of the environment and operate in supervisory and policy-making roles. Ubiquitous computing emphasizes the creation of a human computer interface that can interpret and support a user's intentions. For example, MIT's Project Oxygen seeks to create a system in which computation is as pervasive as air:
+<blockquote>In the future, computation will be human centered. It will be freely available everywhere, like batteries and power     sockets, or oxygen in the air we breathe...We will not need to carry our own devices around with us. Instead,   configurable generic devices, either handheld or embedded in the environment, will bring computation to us, whenever   we need it and wherever we might be. As we interact with these "anonymous" devices, they will adopt our information personalities. They will respect our desires for privacy and security. We won't have to type, click, or learn new computer jargon. Instead, we'll communicate naturally, using speech and gestures that describe our intent...</blockquote>
+
+This is a fundamental transition that does not seek to escape the physical world and "enter some metallic, gigabyte-infested cyberspace" but rather brings computers and communications to us, making them "synonymous with the useful tasks they perform".<ref name="ReferenceA"/>
+
+Network robots link ubiquitous networks with robots, contributing to the creation of new lifestyles and solutions to address a variety of social problems including the aging of population and nursing care.<ref>[http://www.scat.or.jp/nrf/English/index.html ] webarchive |url=https://web.archive.org/web/20071024203219/http://www.scat.or.jp/nrf/English/index.html |date=October 24, 2007 </ref>
+
+Issues
+Privacy is easily the most often-cited criticism of ubiquitous computing (ubicomp), and may be the greatest barrier to its long-term success.<ref>cite journal|last1=Hong|first1=Jason|title=An architecture for privacy-sensitive ubiquitous computing|date=2005|page=310</ref>
+
+An article by Linda Little and Pam Briggs on this privacy issue, states that: "These are the kinds of privacy principles that have been established by the industry – but over the past two years, we have been trying to understand whether such principles reflect the concerns of the ordinary citizen. Some of the key research questions we have been addressing are: What are users' key concerns regarding privacy management in a ubiquitous context and do they reflect 'expert' privacy principles? Do these concerns vary as a function of context? Will users have enough confidence in privacy management procedures to hand-over management and administration of their privacy preferences? Motahari, et al., (2007) argue people do not have a complete understanding of the threats to their privacy. While users of ubicomp systems are aware of inappropriate use of their personal information, legal obligations and inadequate security they are less aware of setting preferences for who has access and any social inferences that can be made by observations by other people. They further argue a holistic approach is needed as traditional approaches and current investigations are not enough to address privacy threats in ubiquitous computing. Recognising – in line with a number of other researchers (Harper & Singleton, 2001; Paine, et al., 2007) – that privacy concerns are likely to be highly situation-dependent, we have developed a method of enquiry which displays a rich context to the user in order to elicit more detailed information about those privacy factors that underpin our acceptance of ubiquitous computing".<ref>cite journal|last1=Little|first1=Linda|last2=Briggs|first2=Pam|title=Privacy Factors for Successful Ubiquitous Computing|journal=International Journal of E-Business Research|date=2009|volume=5|issue=2|page=20</ref>
+
+Public policy problems are often "preceded by long shadows, long trains of activity", emerging slowly, over decades or even the course of a century. There is a need for a long-term view to guide policy decision making, as this will assist in identifying long-term problems or opportunities related to the ubiquitous computing environment. This information can reduce uncertainty and guide the decisions of both policy makers and those directly involved in system development (Wedemeyer et al. 2001). One important consideration is the degree to which different opinions form around a single problem. Some issues may have strong consensus about their importance, even if there are great differences in opinion regarding the cause or solution. For example, few people will differ in their assessment of a highly tangible problem with physical impact such as terrorists using new weapons of mass destruction to destroy human life. The problem statements outlined above that address the future evolution of the human species or challenges to identity have clear cultural or religious implications and are likely to have greater variance in opinion about them.<ref name="ReferenceA"/>
+
+See also
+Div col|colwidth=20em
+* Ambient intelligence
+* Ambient media
+* Augmented reality
+* Computer accessibility
+* Context-aware pervasive systems
+* Human-centered computing
+* List of ubiquitous computing research centers
+* Mobile interaction
+* Pervasive game
+* Pervasive informatics
+* Sensor grid
+* Smart, connected products
+* Sentient computing
+* Smart city (ubiquitous city)
+* System on chip
+* Task computing
+* Transreality gaming
+* Ubiquitous commerce
+* Ubiquitous learning
+* Ubiquitous robot
+* Urban computing
+* Urban informatics
+* User experience
+* Virtual reality
+* Wearable computer
+div col end
+
+References
+Reflist|30em
+
+Further reading
+*Adam Greenfield's book ''Everyware: The Dawning Age of Ubiquitous Computing'' (ISBN|0-321-38401-6).
+* John Tinnell's book ''[https://www.amazon.com/Actionable-Media-Digital-Communication-Desktop/dp/0190678089 Actionable Media: Digital Communication Beyond the Desktop]'' Oxford University Press, 2018. ISBN|0190678089
+
+External links
+* [http://pervasiveconference.org/2012/ International Conference on Pervasive Computing] (Pervasive)
+* [http://www.elsevier.com/locate/pmc Pervasive and Mobile Computing journal, PMC (Elsevier)]
+* [http://www.ambientmediaassociation.org/Journal Proceedings of the Semantic Ambient Media Workshop Series (iAMEA)]
+
+Computer science
+Mixed reality
+Ambient intelligence
+
+Authority control
+
+DEFAULTSORT:Ubiquitous Computing
+Category:Ubiquitous computing| 

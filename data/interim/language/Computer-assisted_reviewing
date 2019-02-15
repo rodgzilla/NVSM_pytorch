@@ -1,0 +1,34 @@
+Unreferenced|date=September 2008
+
+Computer-assisted reviewing (CAR) tools are pieces of software based on text-comparison and analysis algorithms. These tools focus on the differences between two documents, taking into account each document's typeface through an intelligent analysis.
+
+Detecting differences
+The intelligent analysis used by CAR tools detect the differences do not have the same value depending on their type and/or the document field/subject. For example, a difference on a number is not the same if this number is a date, a price, a page number, a figure number, a part of an address, a footnote call, a list item number, a title number, etc.
+* a title number or a list item number difference can be of no interest if these numbers will be re-calculated afterward before printing or publishing by a text processing tool,
+* a small number difference like "1" to "one" or "1" to "1st" is often of secondary interest, depending on the subject and the field of the document
+* while some other number differences can be very damageable to the document.
+
+These tools are interesting in various kind of applications:
+* comparison between a document and an updated/modified version of it. The main goal is then to highlight the modifications made by a third person or a text processing software.
+* comparison between a document edited two file formats: Microsoft Word|Word, TXT, PDF, HTML, XML. The main goal is to highlight differences implied by the format modification or the conversion/re-formatter software. Often, simple char encoding conversion troubles can cause disasters.
+
+For translation
+Computer assisted reviewing for translation (CART) tools are CAR tools being able to manage multi-lingual comparisons. This implies to be able to match each part of text from one document to the other, taking into account the specificity of each language: date/number formats, punctuation (for example,  French language|French/English language|English quotation marks), etc. The best CART tools are able to find matches between noun or verbal groups, this implying to find terminological and syntactical elements using linguistic analyzers.
+
+ Application examples 
+* A book author updating his document (often in Word format) while he is receiving printer's proofs (often in PDF), or translations in another language.
+* A web site content manager that should ensure updates and versions consistence of his HTML pages in different languages
+* A printer that should ensure the consistency and the quality of his process, possibly using proprietary XML/SGML formats, some automatic treatments, possible manual interventions, done by himself or by a subcontractor.
+* An editor through which documents from all actors are transiting
+* The MediaWiki "history" on each page is a CAR tool
+
+ See also 
+* Computer-assisted translation
+* Language industry
+* Translation memory
+
+External links
+* [http://similis.org/CoquiWeb?lang=en CoquiWeb (still experimental CAR & CART tool).]
+
+Category:Word processors
+Category:Computer-assisted translation|Reviewing

@@ -1,0 +1,78 @@
+Infobox software
+| title                  = 
+| logo                   = File:Tahoe-LAFS-logo-kpreid-2.svg|100px|Logo of Tahoe-LAFS
+| screenshot             = <!-- File:  -->
+| caption                = 
+| collapsible            = 
+| author                 = 
+| developer              = 
+| released               = May 2, 2007<ref>cite web|url=https://tahoe-lafs.org/trac/tahoe-lafs/wiki/Doc|title=Tahoe-LAFS Documentation|publisher=tahoe-lafs.org|access-date=2013-05-01</ref>
+| discontinued           = 
+| latest release version = 1.13.0<ref>cite mailing list|url=https://tahoe-lafs.org/pipermail/tahoe-dev/2017-January/009848.html|title=ANN: Tahoe-LAFS 1.12.1 released|date=2017-01-19|access-date=2017-04-09|mailing-list=tahoe-dev|last=Warner|first=Brian</ref>
+| latest release date    = Start date and age|2018|08|08|df=yes/no
+| latest preview version = 
+| latest preview date    = <!-- Start date and age|YYYY|MM|DD|df=yes/no -->
+| programming language   = Python (programming language)|Python
+| operating system       = Cross-platform
+| platform               = 
+| size                   = 
+| language               = English
+| genre                  = Cloud computing
+| license                = GNU General Public License|GNU GPL 2+ and other<ref>https://tahoe-lafs.org/trac/tahoe-lafs/browser/git/docs/about.rst</ref>
+| website                = URL|https://tahoe-lafs.org/
+
+
+Tahoe-LAFS (Tahoe Least-Authority File Store<ref name=wiki>cite web|url=https://tahoe-lafs.org/trac/tahoe-lafs|title=Tahoe-LAFS wiki|publisher=tahoe-lafs.org|access-date=2014-12-01|last=|first=</ref>) is a Free software|free and open, secure, decentralized, fault-tolerant, distributed data store and Clustered file system#Distributed file systems|distributed file system.<ref>[https://arstechnica.com/open-source/news/2009/08/p2p-like-tahoe-filesystem-offers-secure-storage-in-the-cloud.ars Ars Technica]</ref><ref>cite web |last=Monteiro|first=Julian Geraldes |title=Modeling and Analysis of Reliable Peer-to-Peer Storage Systems |access-date=15 December 2012 |publisher=University of Nice Sophia Antipolis|Université de Nice |location=Sophia Antipolis |pages=17 |date=16 November 2010 |url=http://hal-unice.archives-ouvertes.fr/docs/00/54/57/24/PDF/these-jmonteiro.pdf </ref> It can be used as an Remote backup service|online backup system, or to serve as a file or Web host similar to Freenet,<ref>[https://zooko.com/uri/URI:DIR2-MDMF-RO:jf3sqg535zufb43iafx7fpmszq:7icvjsf6ltqr47jdaejvhpguqcfv53k5hqo5hwylquejqf5zkgba/blog.html Zooko's blog, hosted on Tahoe]</ref> depending on the Front and back ends|front-end used to insert and access files in the Tahoe system. Tahoe can also be used in a RAID-like fashion using multiple disks to make a single large Redundant Array of Inexpensive Servers|Redundant Array of Inexpensive Nodes (RAIN) pool of reliable data storage.
+
+The system is designed and implemented around the "Principle of least privilege|principle of least authority" (POLA). Strict adherence to this convention is enabled by the use of Cryptography|cryptographic capabilities that provide the minimum set of Privilege (computing)|privileges necessary to perform a given task by asking agents. A RAIN array acts as a storage volume; these servers do not need to be trusted by confidentiality or integrity of the stored data.
+
+ Fork 
+A patched version of Tahoe-LAFS exists from 2011, and was made to run on anonymous networks I2P, with support for multiple introducers. There is also a version for Microsoft Windows.<ref>[https://tahoe-lafs.org/trac/tahoe-lafs/wiki/OSPackages Foolscap & Tahoe-LAFS patched for use on I2P (with support for multiple introducers). 2013.]</ref> It is distributed from a site within the I2P network.<ref>http://killyourtv.i2p.rocks/tahoe-lafs/ URL to inside I2P</ref> When I2P, and Tahoe-LAFS are used together, the location of the nodes is disguised. This allows for anonymous distributed grids to be formed. In normal operation, the IP address of all nodes are known to the introducers and any client systems on the grid.
+
+See also
+Portal|Free and open-source software
+* Ceph (software)#CephFS|CephFS (file system)
+* Coda (file system)
+* Comparison of distributed file systems
+* Freenet
+* Gluster#GlusterFS|GlusterFS
+* Moose File System
+* LizardFS
+* iFolder
+* List of file systems#Distributed file systems|List of distributed file systems
+* Lustre (file system)
+* Parallel Virtual File System
+* XtreemFS
+
+References
+Reflist|30em
+*cite web|title=Cloud Storage Vault|url=http://urn.kb.se/resolve?urn=urn:nbn:no:ntnu:diva-13812|publisher=Institutt for telematikk|access-date=15 December 2012|author=Haver, Eirik|author2=Melvold, Eivind |author3=Ruud, Pål|pages=2-3, 20-21 80-80|date=23 September 2011
+*cite web|title=Survey of Technologies for Wide Area  Distributed Storage|url=http://www.surfnet.nl/nl/Innovatieprogramma's/gigaport3/Documents/EDS-3R%20open-storage-scouting-v1.0.pdf|access-date=15 December 2012|author=Arjan Peddemors, Christiaan Kuun, Rogier Spoor, Paul Dekkers and Christiaan den Besten|page=17|date=29 June 2011
+*cite web|last=Huchton|first=Scott|title=Secure mobile distributed file system (MDFS)|url=http://calhoun.nps.edu/public/bitstream/handle/10945/5758/11Mar_Huchton.pdf?sequence=1|publisher=Monterey, California. Naval Postgraduate School|access-date=15 December 2012|pages=8–9|date=March 2011
+*cite book|last=Lee|first=Changhoon|title=Secure and trust computing, data management and applications : STA 2011 workshops: IWCS 2011 and STAVE 2011, Loutraki, Greece, June 28 - 30, 2011|publisher=Springer|location=Berlin|isbn=3642223648|pages=192–193
+*cite web|title=Avaliacao De Desempenho De Sistemas De Arquivos Distribuidos|url=http://www.dcce.ibilce.unesp.br/spd/pubs/Mono_Renato.pdf|access-date=15 December 2012|author=Renata Spolon Lobato|author2=Renato Dulizio Martins |location=São José do Rio Preto|pages=10–12|language=Portuguese|year=2011
+
+External links
+*Official website|https://tahoe-lafs.org/trac/tahoe-lafs
+
+
+Object-capability security
+File systems
+
+Category:Distributed file systems
+Category:Userspace file systems
+Category:Free network-related software
+Category:Free file sharing software
+Category:Free software programmed in Python
+Category:File sharing software
+Category:File sharing software for Linux
+Category:Virtualization-related software for Linux
+Category:Cross-platform software
+Category:Cross-platform free software
+Category:Cloud infrastructure
+Category:Cloud storage
+Category:Free software for cloud computing
+Category:I2P
+
+
+network-software-stub

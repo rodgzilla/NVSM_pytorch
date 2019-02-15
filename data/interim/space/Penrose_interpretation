@@ -1,0 +1,85 @@
+refimprove|date=February 2011
+
+The Penrose interpretation is a prediction by Roger Penrose about the relationship between quantum mechanics  and general relativity. Penrose proposes that a quantum state remains in quantum linear superposition|superposition until the difference of space-time curvature attains a significant level.<ref name="Emperor1999">Citation
+|last=Penrose
+|first=Roger
+|authorlink=Sir Roger Penrose
+|title=The Emperor's New Mind
+|edition=New Preface (1999)
+|origyear=1989
+|year=1999
+|publisher=Oxford University Press
+|location=Oxford, England
+|isbn=0-19-286198-0
+|pages=475–481
+</ref><ref name="Discover"/><ref name="Penrose1996">Cite journal
+ | last = Penrose
+ | first = Roger
+ | title = On Gravity's Role in Quantum State Reduction
+ | journal = General Relativity and Gravitation
+ | volume = 28
+ | issue = 5
+ | pages = 581–600
+ | year = 1996
+ | doi = 10.1007/BF02105068|bibcode = 1996GReGr..28..581P </ref>
+
+Overview
+Penrose's idea is inspired by quantum gravity, because it uses both the physical constants Reduced Planck constant|<math>\scriptstyle \hbar</math> and Gravitational Constant|<math>\scriptstyle G</math>. It is an alternative to the Copenhagen interpretation, which posits that superposition fails when an observation is made (but that it is non-objective in nature), and the many-worlds interpretation, which states that alternative outcomes of a superposition are equally "real", while their mutual decoherence precludes subsequent observable interactions.
+
+Penrose's idea is a type of objective collapse theory. For these theories, the wavefunction is a physical wave, which experiences wave function collapse as a physical process, with observers not having any special role. Penrose theorises that the wave function cannot be sustained in superposition beyond a certain energy difference between the quantum states. He gives an approximate value for this difference: a Planck mass worth of matter, which he calls the "'one-graviton' level".<ref name="Emperor1999"/>  He then hypothesizes that this energy difference causes the wave function to collapse to a single state, with a probability based on its amplitude in the original wave function, a procedure derived from standard quantum mechanics. Penrose's "'one-graviton' level" criterion forms the basis of his prediction, providing an objective criterion for wave function collapse.<ref name="Emperor1999"/>  Despite the difficulties of specifying this in a rigorous way, he proposes that the quantum state|basis states into which the collapse takes place are mathematically described by the stationary solutions of the Schrödinger–Newton equation.<ref name="Penrose1998">Citation
+ | last = Penrose
+ | first = Roger
+ | title = Quantum computation, entanglement and state reduction
+ | journal = Phil. Trans. R. Soc. Lond. A
+ | volume = 356
+ | issue = 1743
+ | pages = 1927–1939
+ | year = 1998
+ | doi = 10.1098/rsta.1998.0256|bibcode = 1998RSPTA.356.1927P </ref><ref name="Penrose2014">Citation
+ | last = Penrose
+ | first = Roger
+ | title = On the Gravitization of Quantum Mechanics 1: Quantum State Reduction
+ | journal = Foundations of Physics
+ | volume = 44
+ | pages = 557–575
+ | year = 2014|bibcode = 2014FoPh...44..557P |doi = 10.1007/s10701-013-9770-0 </ref>
+Recent work indicates an increasingly deep inter-relation between quantum mechanics and gravitation.<ref>Leonard Susskind, [https://arxiv.org/abs/1604.02589 Copenhagen vs Everett, Teleportation, and ER=EPR] (2016) seminar notes, Arxiv</ref>
+
+ Physical consequences 
+Accepting that wavefunctions are physically real, Penrose believes that matter can exist in more than one place at one time. In his opinion, a macroscopic system, like a human being, cannot exist in more than one place for a measurable time, as the corresponding energy difference is very large. A microscopic system, like an electron, can exist in more than one location significantly longer (thousands of years), until its space-time curvature separation reaches collapse threshold.<ref name="Road">Citation|last=Penrose|first=Roger|authorlink=Sir Roger Penrose|title=Road to Reality|year=2007|publisher=Vintage Books|isbn=0-679-77631-1|pages=856–860</ref><ref name=Hameroff2014>cite journal |author1=S. Hameroff |author2=R. Penrose |title=Consciousness in the universe: A review of the 'Orch OR' theory |journal=Physics of Life Reviews |date=2014|volume=11|issue=1|pages=51–53 |url=http://www.sciencedirect.com/science/article/pii/S1571064513001188 | accessdate=20 February 2015 |pmid=24070914|doi=10.1016/j.plrev.2013.08.002|bibcode = 2014PhLRv..11...39H </ref>
+
+<blockquote>
+In Einstein's theory, any object that has mass causes a warp in the structure of spacetime|space and time around it. This warping produces the effect we experience as gravity. Penrose points out that tiny objects, such as dust specks, atoms and electrons, produce space-time warps as well. Ignoring these warps is where most physicists go awry. If a dust speck is in two locations at the same time, each one should create its own distortions in space-time, yielding two superposed gravitational fields. According to Penrose's theory, it takes energy to sustain these dual fields. The stability of a system depends on the amount of energy involved: the higher the energy required to sustain a system, the less stable it is. Over time, an unstable system tends to settle back to its simplest, lowest-energy state: in this case, one object in one location producing one gravitational field. If Penrose is right, gravity yanks objects back into a single location, without any need to invoke observers or parallel universes.<ref name="Discover"/>
+</blockquote>
+
+Penrose speculates that the transition between macroscopic and quantum states begins at the scale of dust particles (the mass of which is close to a Planck mass). He has proposed an experiment to test this theory, called FELIX (free-orbit experiment with laser interferometry X-rays), in which an laser|X-ray laser in space is directed toward a tiny mirror, and fissioned by a half-silvered mirror|beam splitter from tens of thousands of miles away, with which the photons are directed toward other mirrors and reflected back. One photon will strike the tiny mirror moving en route to another mirror and move the tiny mirror back as it returns, and according to conventional quantum theories, the tiny mirror can exist in superposition for a significant period of time. This would prevent any photons from reaching the detector. If Penrose's hypothesis is correct, the mirror's superposition will collapse to one location in about a second, allowing half the photons to reach the detector.<ref name="Discover">Folger, Tim. [http://discovermagazine.com/2005/jun/cover "If an Electron Can Be in 2 Places at Once, Why Can't You?"] ''Discover (magazine)|Discover''. Vol. 25 No. 6 (June 2005). pp. 33–35.</ref>
+
+However, because this experiment would be difficult to arrange, a table-top version that uses optical cavities to trap the photons long enough for achieving the desired delay has been proposed instead.<ref name="Marshall2003">cite journal |author=Marshall, W., Simon, C., Penrose, R., and Bouwmeester, D. |title=Towards quantum superpositions of a mirror |journal=Physical Review Letters |volume=91 |issue=13 |pages=130401 |year=2003 |pmid=14525288 |doi=10.1103/PhysRevLett.91.130401|arxiv = quant-ph/0210001 |bibcode = 2003PhRvL..91m0401M </ref>
+
+ Response 
+David Deutsch, from Oxford University|Oxford’s Centre for Quantum Computation, endorses the many-worlds interpretation. He dismisses Penrose's interpretation as "based more on aesthetics than science", as no experimental anomalies have been observed.<ref name="Discover"/> However, Penrose has responded that if his prediction is true, no experiments have been performed at the particular 'one graviton' level where quantum theory becomes overwhelmed by macroscopic effects.
+
+ See also 
+* Interpretations of quantum mechanics
+* Orchestrated objective reduction
+* Schrödinger–Newton equation
+* Stochastic quantum mechanics
+
+;Relevant books by Roger Penrose
+* ''The Emperor's New Mind''
+* ''The Road to Reality''
+* ''Shadows of the Mind''
+
+ References 
+reflist|30em
+
+ External links 
+* [http://universe-review.ca/F12-molecule.htm#interpretations Molecules – Quantum Interpretations]
+* [http://sci4um.com/about2884.html QM – the Penrose Interpretation]
+* [http://www.bbc.co.uk/radio4/history/inourtime/inourtime_20020502.shtml Roger Penrose discusses his experiment on the BBC (25 minutes in)]
+* cite web|url= http://timfolger.net/penrose.pdf |title=Tim Folger's 2005 ''Discover'' article &nbsp;small|(1.08&nbsp;MB)
+
+Roger Penrose
+
+Category:Quantum measurement
+Category:Interpretations of quantum mechanics

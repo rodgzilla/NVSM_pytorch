@@ -1,0 +1,47 @@
+Anonymous web browsing refers to the utilization of the World Wide Web that hides a user's personally identifiable information from websites visited. Anonymous web browsing can be achieved via proxy servers, virtual private networks and other anonymity programs such as Tor (anonymity network)|Tor. These programs work by sending information through a series of routers in order to hide the source and destination of information. However, there is never a guarantee of anonymity with these servers. These programs are still susceptible to traffic analysis. Proxy servers, which have a central point of knowledge, are also susceptible to collection of data by authorities. Moreover, cookies, browser plugins, and other information can be used to uniquely identify a user even if they have hidden their IP address.
+
+Achieving anonymity
+When a user opens a web page, his or her IP address and other computer information (e.g. device fingerprint) becomes visible to the target web page's server. This information can be used to track the user. The user's IP address can be hidden via a proxy server or a Virtual private network|VPN server, though this can be circumvented by just using the WebRTC#Concerns|wrong browser. These types of servers work by sending a request to the target server from itself rather than from the user directly. For example, if a user requests to visit a link on a web page, the request will—instead of being sent directly to the web site server—be sent to the proxy server, which then relays the request to the targeted internet server. This hides the user's IP address from the target server, as only the proxy server's information is visible.<ref>Confident Ltd. [http://www.anonic.org/anonymous-surfing.html "Anonymous Surfing], AnonIC.org, 2004</ref>
+
+On the other hand, device fingerprints are relatively resistant to anonymization. While some data can be hidden or spoofed, this can actually make a particular user atypical and thereby less anonymous. Services NoScript and Tor (anonymity network)|Tor, however, appear to be very effective for creating anonymity.<ref name=browser-fingerprint>cite web|last1=Eckersley |first1=Peter |title=How Unique Is Your Web Browser? |url=https://panopticlick.eff.org/browser-uniqueness.pdf |website=Electronics Frontier Foundation |publisher=Springer |accessdate=18 November 2014 |deadurl=yes |archiveurl=https://web.archive.org/web/20141015220910/https://panopticlick.eff.org/browser-uniqueness.pdf |archivedate=15 October 2014 |df= </ref>
+
+Anonymous web servers generally work by placing an anonymous proxy between a user and the website he/she is visiting. These servers can be used to bypass restrictions and visit sites that might be blocked in a specific country, office, or school. Some individuals take advantage of these servers solely to protect their personal online identity.<ref>https://www.purevpn.com/anonymous-browsing</ref>
+
+However, by simply hiding your IP doesn't make you anonymous in internet. There are cookies stored in web browsers and with smartphones, the locations can be tracked using GPS. To achieve complete anonymity, you need to use browsers that doesn't allow such activities or at least warn you when the websites are trying to use such features. Tor browser is one of the best tool available.<ref>Cite news|url=https://www.themreview.com/anonymous-web-surfing-how-to-browse-web-safely-2/|title=Anonymous Web Surfing - How to browse web safely? ! Them Review|date=2018-08-28|work=Them Review|access-date=2018-09-02|language=en-US</ref>
+
+Anonymous web browsing is useful to Internet users who want to ensure that their Session (computer science)|sessions cannot be monitored. For instance, it is used to circumvent Website monitoring|traffic monitoring by organizations who want to discover or control which websites employees visit.
+
+If law enforcement officials suspect illegal activity, they can request Computer data logging|logs from the user's Internet provider. Internet providers that emphasize protection of personal data will typically only save their log files for a few days citation needed|date=January 2016, at which time they are deleted/overwritten by rotation. Many providers, however, keep log files indefinitely citation needed|date=January 2016.
+
+Limitations to proxy servers
+Proxy servers have a number of limitations. Primarily, web pages will sometimes load at a slow pace as user information must be rerouted. Further, if the server is attempting to bypass suspicious software, some elements of a page may not load. Since personal information, such as credit card numbers and passwords, has been passed through an external server that could be accessed by anyone, proxy servers are more of a security hazard than browsing the web without a proxy (if not on an encrypted channel (HTTPS)).<ref>Roos, D. [http://electronics.howstuffworks.com/how-to-tech/how-to-surf-the-web-anonymously3.htm "How to Surf the Web Anonymously], HowStuffWorks.com, 11 June 2009</ref>
+
+Browser add-ons like the Java virtual machine plugin and the Adobe Flash Player can be used to reveal the web surfer's IP address even if they are surfing through an anonymous proxy web server.
+
+Cookies
+HTTP cookies are String (computer science)|strings of text that are saved on a computer when a user browses different web pages.  Cookies allow small bits of information to be stored, such as passwords and shopping lists. They are also used to track demographics and browsing habits. This information is sent to the user's computer and then uploaded to web databases without the user's approval.<ref>Whalen, D. [http://www.cookiecentral.com/faq/#1.1 "The Unofficial Cookie FAQ"], CookieCentral.com, June 2002</ref>
+Cookies represent another avenue (besides transmission of the IP address) by which a user's anonymity can potentially be breached.
+
+See also
+* Anonymity
+** Anonymity application
+** Anonymous blogging
+** Anonymous P2P
+** Anonymous remailer
+* Data privacy
+* HTTP cookie
+* HTTP tunnel
+* Internet privacy
+* Personally identifiable information
+* Privacy software and Privacy-enhancing technologies
+* Private P2P
+
+References
+reflist
+
+Sources
+*[https://web.archive.org/web/20090129143144/http://www.wired.com/science/discoveries/news/2006/01/70051?currentPage=all How to Foil Search Engine Snoops, Wired Magazine] (2006)
+
+Category:Internet privacy
+Category:Anonymity
+Category:World Wide Web

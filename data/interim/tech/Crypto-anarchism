@@ -1,0 +1,96 @@
+Anarchism sidebar |Issues
+Libertarianism sidebar |Concepts
+
+Crypto-anarchism (or  crypto-anarchy) is a form of anarchism|anarchy accomplished through Computing|computer technology.<ref>[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3079241 Crypto-anarchism]. Crypto-anarchism and Cryptocurrencies Series. Social Science Research Network (SSRN). Accessed 30 November 2017.</ref> Crypto-anarchists employ cryptography|cryptographic software to evade persecution and harassment while sending and receiving information over computer networks, in an effort to protect their privacy, their Freedom (political)|political freedom, and their economic freedom.
+
+By using Encryption software|cryptographic software, the association between the identity (social science)|identity of a certain user or organization and the pseudonym they use is made difficult to find, unless the user reveals the association. It is difficult to say which country's laws will be ignored, as even the location of a certain participant is unknown. However, participants may in theory voluntarily create new laws using smart contracts or, if the user is pseudonymity|pseudonymous, depend on online reputation.
+
+ Origin 
+In his 1988 "Crypto Anarchist Manifesto", Timothy C. May introduced the basic principles of crypto-anarchism, encrypted exchanges ensuring total anonymity, total freedom of speech, and total free-market|freedom to trade – with foreseeable hostility coming from State (polity)|States.<ref>http://www.activism.net/cypherpunk/crypto-anarchy.html The Crypto Anarchist Manifesto</ref>
+
+Terminology
+"Crypto-" comes from the Ancient Greek wikt:κρυπτός#Ancient Greek|''κρυπτός'' kruptós, meaning "hidden" or "secret". Crypto-anarchism refers to anarchist politics founded on cryptographic methods, as well as a form of anarchism that operates in secret.sfn|May|1994|loc=section 19.4.29
+
+Motives
+One motive of crypto-anarchists is to defend against computer surveillance|surveillance of computer networks communication. Crypto-anarchists try to protect against government mass surveillance, such as PRISM (surveillance program)|PRISM, Tempora, telecommunications data retention, the NSA warrantless surveillance controversy, Room 641A, the National Defence Radio Establishment (Sweden)#Mass surveillance|FRA and so on. Crypto-anarchists consider the development and use of cryptography to be the main defense against such problems, as opposed to political action.
+
+A second concern is evasion of censorship, particularly Internet censorship, on the grounds of freedom of expression. The programs used by crypto-anarchists often make it possible to both publish and read information off the internet or other computer networks anonymously. For example, Tor (anonymity network)|Tor, I2P, Freenet and many similar networks allow for anonymous "hidden" webpages accessible only by users of these programs, while projects like Bitmessage allow for anonymous messaging system intended to be a substitute for email. This helps whistleblowing|whistleblowers and political opposition in oppressive nations to spread their information.
+
+A third reason is to build and participate in counter economics, which includes development of viable alternatives to banking systems, and development of alternative financial systems which provide the user with options for greater privacy or anonymity. Cryptocurrency|Cryptocurrencies such as Bitcoin and services like Silk Road (marketplace)|Silk Road and Black Market Reloaded made it possible to trade goods and services with little interference from the law. These are examples of centralized, and thus vulnerable, marketplaces, or tools. Similarly, cryptocurrency wallet|web wallets employed by Bitcoin users are also centralized and vulnerable. Decentralized and distributed marketplaces and currency exchanges are more difficult to target by law enforcement agencies and may provide more security to its end-users. A decentralized and distributed marketplace in development is OpenBazaar.
+
+The technical challenge in developing and maintaining these cryptographic systems is tremendous, which causes some programmers to be interested in joining such projects.
+
+= Cryptography and law =
+Crypto-anarchists argue that without encryption abilities, messages, personal information, and private life would be seriously damaged.  They argue that a ban on cryptography is equal to the eradication of secrecy of correspondence. They argue that only a Draco (lawgiver)|draconian police-state would criminalize cryptography.  It is already illegal to use it in some countries, and export laws are restrictive in others. Citizens in the United Kingdom must, upon request, give keys for decryption of personal systems to authorities. Failing to do this can result in imprisonment for up to two years, without evidence of other criminal activity.<ref>citation|url=http://www.cryptolaw.org/cls2.htm#uk|title=Crypto Law Survey</ref>
+
+This legislative key-surrender tactic can be circumvented using automatic Rekeying (cryptography)|rekeying of secure channels through rapid generation of new, unrelated public and private keys at short intervals. Following rekeying, the old keys can be deleted, rendering previously used keys inaccessible to the end-user, and thus removing the user's ability to disclose the old key, even if they are willing to do so. Technologies enabling this sort of rapidly rekeyed encryption include public-key cryptography, Hardware random number generator|hardware PRNGs, perfect forward secrecy, and opportunistic encryption.  Many apps commonly in use today on mobile devices around the world employ such encryption. The only ways to stop this sort of cryptography is to ban it completely (any such ban would be unenforceable for any government that is not totalitarian, as it would result in massive invasions of privacy, such as blanket permission for physical searches of all computers at random intervals), or otherwise raise barriers to its practical use (be they Great Firewall of China|technological or Cryptography export laws|legal). Such barriers represent a Harassment|difficulty and Frameup|risk to the users of such cryptographic technology which would limit and potentially prevent its widespread adoption. Generally, it is the Legal threat#Effect of legal threat|threat of prosecution which limits the use and proliferation of a technology more so than the ease-of-use of a technology in and of itself.
+
+Crypto-anarchism is an ideology that seeks to create and deploy information infrastructure that, by design, is unable to comply with authoritarian requests to break the participating individuals' secrecy of correspondence.
+
+Plausible deniability
+Crypto-anarchism relies heavily on plausible deniability to avoid censorship. Crypto-anarchists create this deniability by sending encrypted messages to interlinked Proxy server|proxies in computer networks. A payload of routing information is bundled with the message; the message is encrypted with each one of the proxies', and the receiver's, public key cryptography|public keys. Each node can only decrypt its own part of the message, and only obtain the information intended for itself. That is, from which node it got the message, and to which node it should deliver the message. With only access to this information, it is thought to be very difficult for nodes in the network to know what information they are carrying or who is communicating with whom. Peers can protect their identities from each other's by using rendevouz onions<ref>https://www.torproject.org/docs/onion-services</ref> or similar,<ref>https://www.freehaven.net/doc/freehaven.ps</ref><ref>https://geti2p.net/en/docs/how/garlic-routing</ref> digital signatures, etc. Who originally sent the information and who is the intended receiver is considered infeasible to detect, unless the peers themselves collaborate to reveal this information. See mix networks, onion routing and anonymous P2P for more information.
+
+Anonymizing communication protocols makes it difficult to know who is connected to any particular service or pseudonym. Because summary punishment for crimes is mostly illegal, it is difficult to stop any potential criminal activity in the network without enforcing a ban on strong cryptography.
+
+Deniable encryption and anonymizing networks can be used to avoid being detected while sharing illegal or sensitive information that users are too afraid to share without any protection of their identity. The information being shared could be anything from anti-state propaganda, whistleblowing, organization of narcotics distribution, illegal pornographic content, distribution of reports from political dissidents, anonymous monetary transactions, etc.
+
+Anonymous trading
+Untraceable, privately issued electronic money and anonymous Internet banking exists in these networks. In the past, this was handled only by centralized organizations. Digital Monetary Trust and Yodelbank were examples of two such anonymous banks that were later put offline by their creators. Ukash is an e-money network. Cash in amounts up to £500/€750 can be swapped for a 19-digit Ukash voucher in payment terminals and retail outlets.
+
+Bitcoin is a currency generated and secured by peer-to-peer networked devices that maintain a communal record of all transactions within the system that can be used in a crypto-anarchic context. The idea behind bitcoin can be traced to ''The Crypto Anarchist Manifesto''.<ref>cite news|title=Much Ado About Bitcoin|first=Adrian|last=Chen|url=https://www.nytimes.com/2013/11/27/opinion/much-ado-about-bitcoin.html|date=26 November 2013|archiveurl=https://web.archive.org/web/20131210164404/http://www.nytimes.com/2013/11/27/opinion/much-ado-about-bitcoin.html|archivedate=10 December 2013|newspaper=International New York Times</ref> There exist a large number of altcoins, some of which have opague ledgers such that transactions between peers can be untraceable (the first protocol for this is known as the Zerocoin protocol|Zerocoin protocol, see also Monero (cryptocurrency)|Monero). Some altcoin currencies also act as decentralized autonomous organizations, or act as platforms for enabling such organizations.
+
+Silk Road (marketplace)|Silk Road was the first anonymous crypto-market. It operated using the Tor network and all transactions used bitcoin. It was shut down by the FBI in 2013. Silkroad was quickly replaced by other cryptomarkets and today there are several competing markets operating in parallel.
+
+OpenBazaar is an open source project developing a protocol for e-commerce transactions in a fully Decentralization|decentralized marketplace.<ref>https://www.usv.com/blog/introducing-ob1</ref> It uses the cryptocurrency bitcoin and was inspired by a hackathon project called DarkMarket.
+
+Anonymous trading is easier to achieve for information services that can be provided over the Internet. Providing physical products is more difficult as the anonymity is more easily broken when crossing into the physical world: The vendor needs to know where to send the physical goods. Untraceable money makes it possible to ignore some of the laws of the physical world, as the laws cannot be enforced without knowing people's physical identities. For instance, tax on income for online services provided via the crypto-anarchists networks can be avoided if no government knows the identity of the service provider.
+
+Assassination market#Assassination Market (assmkedzgorodn7o.onion)|Assassination Market is a Tor-based market operated by a self-described crypto-anarchist going by the pseudonym Kuwabatake Sanjuro.<ref>citation|url=https://www.forbes.com/sites/andygreenberg/2013/11/18/meet-the-assassination-market-creator-whos-crowdfunding-murder-with-bitcoins/|title=Meet the 'Assassination Market' Creator Who's Crowdfunding Murder with Bitcoins|first=Andy|last=Greenberg|date=18 November 2013|archiveurl=https://web.archive.org/web/20131210230049/http://www.forbes.com/sites/andygreenberg/2013/11/18/meet-the-assassination-market-creator-whos-crowdfunding-murder-with-bitcoins/|archivedate=10 December 2013|publisher=Forbes</ref>
+
+In ''Cyphernomicon|The Cyphernomicon'', Timothy C. May suggests that crypto-anarchism qualifies as a form of anarcho-capitalism: quote|What emerges from this is unclear, but I think it will be a form of anarcho-capitalist market system I call "crypto-anarchy."sfn|May|1994|loc=section 2.3.4
+
+Another quote in the cyphernomicon defines crypto-anarchism. Under the title "What is Crypto Anarchy?", May writes:
+
+quote|Some of us believe various forms of strong cryptography will cause the power of the state to decline, perhaps even collapse fairly abruptly. We believe the expansion into cyberspace, with secure communications, digital money, anonymity and pseudonymity, and other crypto-mediated interactions, will profoundly change the nature of economies and social interactions. 
+Governments will have a hard time collecting taxes, regulating the behavior of individuals and corporations (small ones at least), and generally coercing folks when it can't even tell what _continent_ folks are on!sfn|May|1994|loc=2.13.1
+
+ See also 
+Portal|Anarchism|Cryptography
+div col|colwidth=22em
+* Anarchism
+** Illegalism
+** Anarcho-communism#Gift_economies_and_commons-based_organising
+* Counter-economics
+* Cypherpunk
+* Darknet
+* Darknet market
+* Data havens
+* Digital gold currency
+* Free software
+* Hacktivism
+* Jim Bell
+* Libertarianism
+** Agorism
+* Technological utopianism
+div col end
+
+Notes
+Reflist
+
+=Works cited=
+*citation|url=http://www.cryptoanarchy.net/index.html|title=The Cyphernomicon|first=Timothy C.|last=May|year=1994|author-link =Timothy C. May|archiveurl=https://web.archive.org/web/20130822092045/http://www.spinnaker.com/crypt/cyphernomicon/CP-FAQ|archivedate=22 August 2013
+
+Further reading
+refbegin
+*citation|url=http://www.activism.net/cypherpunk/crypto-anarchy.html|title=The Crypto Anarchist Manifesto|first=Timothy C.|last=May|author-link =Timothy C. May |year=1988
+*citation|first1=Vernor|last1=Vinge|first2=James|last2=Frankel|title=True Names: And the Opening of the Cyberspace Frontier|year=2001|publisher=Tor Books
+*citation|url=http://projects.eff.org/~barlow/Declaration-Final.html|title=A Declaration of the Independence of Cyberspace|first=John Perry|last=Barlow|author-link =John Perry Barlow|date=February 1996|archiveurl=https://web.archive.org/web/20131023143120/https://projects.eff.org/~barlow/Declaration-Final.html|archivedate=23 October 2013
+refend
+Cryptocurrencies
+Anarchism
+
+DEFAULTSORT:Crypto-Anarchism
+Category:Computer law
+Category:Applications of cryptography
+Category:Individualist anarchism
+Category:Crypto-anarchism| 

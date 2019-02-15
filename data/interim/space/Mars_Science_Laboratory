@@ -1,0 +1,578 @@
+About|the spaceflight mission to Mars|the surface rover|Curiosity (rover)|events and findings on Mars|Timeline of Mars Science Laboratory
+Use mdy dates|date=June 2018
+Infobox spaceflight
+| name                  = ''Mars Science Laboratory''
+| image                 = MSL cruise stage configuration (PIA14831).png
+| image_caption         = MSL cruise configuration
+| mission_type          = Mars Rover (space exploration)|rover
+| operator              = NASA
+| COSPAR_ID             = 2011-070A
+| SATCAT                = 37936
+| website               = http://mars.jpl.nasa.gov/msl/
+| mission_duration      = Primary: 669 Martian Timekeeping on Mars#Sols|sols <br/> in5(687 days) <br/> Elapsed: Curiosity Mission Timer sols <br/> in5(time interval|6 August 2012 05:17:57|show=d|disp=raw days)
+
+| manufacturer          = Jet Propulsion Laboratory|JPL, Lockheed Martin Space Systems|Lockheed Martin<ref name="reuters20111124">cite news |url=https://www.reuters.com/article/2011/11/24/us-space-mars-idUSTRE7AN0AT20111124 |title=New NASA rover to scout for life's habitats on Mars |agency=Reuters |first=Irene |last=Klotz |date=November 24, 2011 |accessdate=May 5, 2015</ref>
+| launch_mass           = convert|8463|lb|kg|order=flip|abbr=on<ref name="Mars Science Laboratory Landing Press Kit"/>
+| payload_mass          = <!--Total mass of instrumentation/equipment/experiments for mission-->
+| dimensions            = <!--body dimensions and solar array span-->
+
+| launch_date           = start-date|November 26, 2011, 15:02:00.211&nbsp;UTC<ref name="NASA-2"/><ref name="NASA-1"/><ref name="launch date announcement"/>
+| launch_rocket         = Atlas V|Atlas V 541 (AV-028)
+| launch_site           = Cape Canaveral Air Force Station|Cape Canaveral Cape Canaveral Air Force Station Space Launch Complex 41|SLC-41<ref name="oig report" />
+| launch_contractor     = United Launch Alliance
+
+| disposal_type         = <!--Whether the spacecraft was deorbited, decommissioned, placed in a graveyard orbit, etc-->
+| deactivated           = <!--when craft was decommissioned-->
+| destroyed             = <!--when craft was destroyed (if other than by re-entry)-->
+| last_contact          = <!--when last signal received if not decommissioned-->
+
+|interplanetary         = 
+ Infobox spaceflight/IP
+   |type                = rover
+   |object              = Mars
+   |arrival_date        = August 6, 2012, 05:17&nbsp;UTC<ref name ="Space-20120806">cite news |url=http://www.space.com/16932-mars-rover-curiosity-landing-success.html |title=Touchdown! Huge NASA Rover Lands on Mars |work=Space.com |last=Wall |first=Mike |date=August 6, 2012 |accessdate=December 14, 2012</ref> Spacecraft Event Time|SCET<ref name=Sol3/> <br/> MSD 49269 05:50:16 Airy Mean Time|AMT<ref name="nasa"/>
+   |location            = "Bradbury Landing" in Gale (crater)|Gale Crater <br/> coord|4.5895|S|137.4417|E|globe:Mars<ref name="MSNBC-20120806">cite news |url=http://www.nbcnews.com/id/48540619/ns/technology_and_science-space/t/video-rover-looks-down-mars-during-landing/ |title=Video from rover looks down on Mars during landing |work=MSNBC |date=August 6, 2012 |accessdate=October 7, 2012</ref><ref name="S&T-20120807">cite news |url=http://www.skyandtelescope.com/astronomy-news/watch-curiosity-descend-onto-mars/ |title=Watch Curiosity Descend onto Mars |work=Sky & Telescope |first=Monica |last=Young |date=August 7, 2012 |accessdate=October 7, 2012</ref>
+   |distance            = <!--closest approach distance for flybys, distance travelled on surface for rovers, omit for others-->
+ 
+
+| insignia              = Mars Science Laboratory mission logo.png
+
+| programme             = Flagship Program|Flagship
+| previous_mission      = ''Cassini-Huygens''
+| next_mission          = Mars 2020
+
+Mars Science Laboratory (MSL) is a robotic spacecraft|robotic space probe mission to Mars launched by NASA on November 26, 2011,<ref name="NASA-2"/> which successfully landed ''Curiosity (rover)|Curiosity'', a Mars rover, in Gale (crater)|Gale Crater on August 6, 2012.<ref name="NASA-1"/><ref name ="Space-20120806" /><ref name=Sol3>cite web |title=MSL Sol 3 Update |url=https://www.youtube.com/watch?v=6f8HHQ2U2jg |publisher=NASA Television |accessdate=August 9, 2012 |date=August 8, 2012</ref><ref name="SF1012012-07-06"/> The overall objectives include investigating Mars' Planetary habitability|habitability, studying its Climate of Mars|climate and Planetary geology|geology, and collecting data for a manned mission to Mars.<ref name="overview"/> The rover carries a variety of scientific instruments designed by an international team.<ref name="MarsExplorationMMRTG"/>
+
+ Overview 
+File:Mars and Elysium - GPN-2000-000919.jpg|thumb|left|Hubble view of Mars: Gale crater can be seen. Slightly left and south of center, it's a small dark spot with dust trailing southward from it.
+MSL successfully carried out the most accurate Martian landing of any known spacecraft, hitting a small target landing ellipse of only convert|7|by|20|km|mi|abbr=on,<ref name="Updated landing area"/> in the Aeolis Palus region of Gale Crater. In the event, MSL achieved a landing convert|2.4|km|abbr=on east and convert|400|m|abbr=on north of the center of the target.<ref>cite conference |url=http://issfd.org/ISSFD_2012/ISSFD23_IN1_1.pdf |title=Mars Science Laboratory Navigation Results |conference=23rd International Symposium on Space Flight Dynamics. Pasadena, California. October 29 – November 2, 2012. |first1=Tomas J. |last1=Martin-Mur |first2=Gerhard L. |last2=Kruizinga |first3=P. Daniel |last3=Burkhart |first4=Mau C. |last4=Wong |first5=Fernando |last5=Abilleira |year=2012 |page=17 |id=[http://trs-new.jpl.nasa.gov/dspace/handle/2014/43257 Beacon record]</ref><ref name="Actual landing spot"/> This location is near the mountain Aeolis Mons (a.k.a. "Mount Sharp").<ref name="NASA-20120328"/><ref name="Space-20120329"/> The rover mission is set to explore for at least 687 Earth days (1 Martian year) over a range of convert|5|by|20|km|mi|abbr=on.<ref name="MSL-main_page"/>
+
+The Mars Science Laboratory mission is part of NASA's Mars Exploration Program, a long-term effort for the robotic exploration of Mars that is managed by the Jet Propulsion Laboratory of California Institute of Technology. The total cost of the MSL project is about US$2.5 billion.<ref name="leone"/><ref name="spacenews20120810">cite news |url=http://www.spacenews.com/article/msl-readings-could-improve-safety-human-mars-missions |title=MSL Readings Could Improve Safety for Human Mars Missions |work=Space News |first=Dan |last=Leone |date=August 10, 2012 |accessdate=June 18, 2014</ref>
+
+Previous successful U.S. Mars rovers include ''Sojourner'' from the Mars Pathfinder mission and the Mars Exploration Rovers ''Spirit (rover)|Spirit'' and ''Opportunity (rover)|Opportunity''. ''Curiosity'' is about twice as long and five times as heavy as ''Spirit'' and ''Opportunity'',<ref name="MSLUSAToday"/> and carries over ten times the mass of scientific instruments.<ref name="Wired-20120625"/>
+
+ Goals and objectives 
+File:PIA16239 High-Resolution Self-Portrait by Curiosity Rover Arm Camera.jpg|thumb|MSL self-portrait from Gale Crater sol age in sols|2012|8|5|2012|10|31 (October 31, 2012).
+For|results and findings|Timeline of Mars Science Laboratory
+
+The MSL mission has four scientific goals: Determine the landing site's Planetary habitability|habitability including the Water on Mars|role of water, the study of the climate of Mars|climate and the geology of Mars. It is also useful preparation for a future manned mission to Mars.
+
+To contribute to these goals, MSL has eight main scientific objectives:<ref>cite web |url=http://mars.jpl.nasa.gov/msl/mission/science/objectives/ |title=Objectives - Mars Science Laboratory |first=JPL, |last=NASA |publisher=</ref>
+;Biological:
+* (1) Determine the nature and inventory of Organic compound|organic carbon compounds
+* (2) Investigate the chemical CHON|building blocks of life (carbon, hydrogen, nitrogen, oxygen, phosphorus, and sulfur)
+* (3) Identify features that may represent the effects of biological processes (biosignatures)
+
+;Geological and geochemical:
+* (4) Investigate the chemical, Isotope|isotopic, and mineralogical composition of the Martian surface and near-surface geological materials
+* (5) Interpret the processes that have formed and Pedology (soil study)|modified rocks and soils
+
+;Planetary process:
+* (6) Assess long-timescale (i.e., 4-billion-year) Atmosphere of Mars|Martian atmospheric evolution processes
+* (7) Determine present state, distribution, and Water on Mars|cycling of water and carbon dioxide
+
+;Surface radiation:
+* (8) Characterize the broad spectrum of surface radiation, including cosmic ray|cosmic radiation, solar particle events and Neutron#High-energy neutrons|secondary neutrons. As part of its exploration, it also measured the radiation exposure in the interior of the spacecraft as it traveled to Mars, and it is continuing radiation measurements as it explores the surface of Mars. This data would be important for a future Manned mission to Mars|manned mission.<ref name="double"/>
+
+About one year into the surface mission, and having assessed that ancient Mars could have been hospitable to microbial life, the MSL mission objectives evolved to developing predictive models for the preservation process of organic compounds and biomolecules; a branch of paleontology called taphonomy.<ref name="Science 01-24-2014">cite journal |url=http://www.sciencemag.org/content/343/6169/386.full |title=Habitability, Taphonomy, and the Search for Organic Carbon on Mars |journal=Science (journal)|Science |first=John P. |last=Grotzinger |volume=343 |issue=6169 |pages=386–87 |date=January 24, 2014 |doi=10.1126/science.1249944 |pmid=24458635 |bibcode=2014Sci...343..386G</ref>
+
+ Specifications 
+
+= Spacecraft =
+File:MSL final assembly 2011-7372.jpg|thumb|Mars Science Laboratory in final assembly
+File:MSL-spacecraft-exploded-view.png|thumb|left|Diagram of the MSL spacecraft: 1- Cruise stage; 2- Backshell; 3- Descent stage; 4- Curiosity (rover)|''Curiosity'' rover; 5- [http://mars.jpl.nasa.gov/msl/multimedia/raw/?rawid=0000MD9999000031E1_DXXX&s=0 Heat shield]; 6- Parachute
+The spacecraft flight system had a mass at launch of convert|3893|kg|lb|abbr=on, consisting of an Earth-Mars fueled cruise (flight)|cruise stage (convert|539|kg|lb|abbr=on), the entry-descent-landing (EDL) system (convert|2401|kg|lb|abbr=on including convert|390|kg|lb|abbr=on of landing propellant), and a convert|899|kg|lb|abbr=on mobile rover with an integrated instrument package.<ref name="Mars Science Laboratory Landing Press Kit"/><ref name="DESCANSO"/>
+
+The MSL spacecraft includes spaceflight-specific instruments, in addition to utilizing one of the rover instruments — Radiation assessment detector (RAD) — during the spaceflight transit to Mars.
+* MSL EDL Instrument (MEDLI): The MEDLI project's main objective is to measure aerothermal environments, sub-surface heat shield material response, vehicle orientation, and atmospheric density.<ref name="MSLMEDLIProject"/> The MEDLI instrumentation suite was installed in the heatshield of the MSL entry vehicle. The acquired data will support future Mars missions by providing measured atmospheric data to validate Atmosphere of Mars|Mars atmosphere models and clarify the lander design margins on future Mars missions. MEDLI instrumentation consists of three main subsystems: MEDLI Integrated Sensor Plugs (MISP), Mars Entry Atmospheric Data System (MEADS) and the Sensor Support Electronics (SSE).
+
+= Rover =
+File:Drawing-of-the-Mars-Science Laboratory.png|thumb|right|Color-coded rover diagram
+main|Curiosity (rover)#Specifications
+''Curiosity'' rover has a mass of convert|899|kg|lb|abbr=on, can travel up to convert|90|m|ft|abbr=on per hour on its six-wheeled rocker-bogie system, is powered by a multi-mission radioisotope thermoelectric generator (MMRTG), and communicates in both X band and UHF bands.
+* Computers: The two identical on-board rover computers, called "Rover Compute Element" (RCE), contain Radiation hardening|radiation-hardened memory to tolerate the extreme radiation from space and to safeguard against power-off cycles. Each computer's memory includes 256&nbsp;Kilobyte|KB of EEPROM, 256&nbsp;Megabyte|MB of Dynamic random-access memory|DRAM, and 2&nbsp;Gigabyte|GB of flash memory.<ref name="Brains"/> This compares to 3&nbsp;MB of EEPROM, 128&nbsp;MB of DRAM, and 256&nbsp;MB of flash memory used in the Mars Exploration Rovers.<ref name="ieeecomputer"/>
+
+:The RCE computers use the RAD750 Central processing unit|CPU (a successor to the IBM RAD6000|RAD6000 CPU used in the Mars Exploration Rovers) operating at 200&nbsp;MHz.<ref name="BAE Systems Computers to Manage Data Processing and Command For Upcoming Satellite Missions"/><ref name="E&ISNow&nbsp;— Media gets closer look at Manassas"/><ref name="cpuspeed"/> The RAD750 CPU is capable of up to 400&nbsp;Instructions per second#Million instructions per second|MIPS, while the RAD6000 CPU is capable of up to 35&nbsp;MIPS.<ref name="RAD750brochure"/><ref name="RAD6000brochure"/> Of the two on-board computers, one is configured as backup, and will take over in the event of problems with the main computer.<ref name="Brains"/>
+
+:The rover has an Inertial Measurement Unit (IMU) that provides 3-axis information on its position, which is used in rover navigation.<ref name="Brains"/> The rover's computers are constantly self-monitoring to keep the rover operational, such as by regulating the rover's temperature.<ref name="Brains"/> Activities such as taking pictures, driving, and operating the instruments are performed in a command sequence that is sent from the flight team to the rover.<ref name="Brains"/>
+
+The rover's computers function on VxWorks, a real-time operating system from Wind River Systems.<ref>cite news |title=Wind River's VxWorks Powers Mars Science Laboratory Rover, Curiosity |date=August 6, 2012 |url=http://www.virtual-strategy.com/2012/08/06/wind-river%E2%80%99s-vxworks-powers-mars-science-laboratory-rover-curiosity |work=Virtual Strategy Magazine |accessdate=August 20, 2012</ref> During the trip to Mars, VxWorks ran applications  dedicated to the navigation and guidance phase of the mission, and also had a pre-programmed software sequence for handling the complexity of the entry-descent-landing. Once landed, the applications were replaced with software for driving on the surface and performing scientific activities.<ref name="BrainTransplant"/><ref name="CuriosityVxWorks"/><ref name="cnn.com">cite news |title=Impressive' Curiosity landing only 1.5 miles off, NASA says |url=http://www.cnn.com/2012/08/10/us/mars-curiosity/index.html?eref=mrss_igoogle_cnn |accessdate=August 10, 2012</ref>
+:See also|Comparison of embedded computer systems on board the Mars rovers
+File:Goldstone DSN antenna.jpg|thumb|right|Goldstone Deep Space Communications Complex|Goldstone antenna can receive signals
+File:Wheels of a working sibling to Curiosity rover.JPG|thumb|Wheels of a working sibling to ''Curiosity''. The Morse code pattern (for "Jet Propulsion Laboratory|JPL") is represented by small (dot) and large (dash) holes in three horizontal lines on the wheels. The code on each line is read from right to left.
+* Communications: ''Curiosity'' is equipped with several means of communication, for redundancy. An X band Small Deep Space Transponder for communication directly to Earth via the NASA Deep Space Network<ref>Cite web |url=http://mars.jpl.nasa.gov/msl/mission/communicationwithearth/ |title=Mars Science Laboratory, Communications With Earth |publisher=JPL</ref> and a ultra high frequency|UHF Electra (radio)|Electra-Lite software-defined radio for communicating with Mars orbiters.<ref name="DESCANSO"/>Rp|46  The X-band system has one radio, with a 15&nbsp;W power amplifier, and two antennas: a low-gain omnidirectional antenna that can communicate with Earth at very low data rates (15&nbsp;bit/s at maximum range), regardless of rover orientation, and a high-gain antenna that can communicate at speeds up to 32&nbsp;kbit/s, but must be aimed. The UHF system has two radios (approximately 9&nbsp;W transmit power<ref name="DESCANSO"/>Rp|81), sharing one omnidirectional antenna. This can communicate with the ''Mars Reconnaissance Orbiter'' (MRO) and ''2001 Mars Odyssey'' orbiter (ODY) at speeds up to 2&nbsp;Mbit/s and 256&nbsp;kbit/s, respectively, but each orbiter is only able to communicate with ''Curiosity'' for about 8 minutes per day.<ref name="Curiosity's data communication with Earth"/>  The orbiters have larger antennas and more powerful radios, and can relay data to Earth faster than the rover could do directly. Therefore, most of the data returned by ''Curiosity'' (MSL), is via the UHF relay links with MRO and ODY. The data return via the communication infrastructure as implemented at MSL, and observed during the first 10 days was approximately 31 megabytes per day.
+
+:Typically 225&nbsp;kbit/day of commands are transmitted to the rover directly from Earth, at a data rate of 1–2&nbsp;kbit/s, during a 15-minute (900 second) transmit window, while the larger volumes of data collected by the rover are returned via satellite relay.<ref name="DESCANSO"/>Rp|46  The one-way communication delay with Earth varies from 4 to 22 minutes, depending on the planets' relative positions, with 12.5 minutes being the average.<ref name="UT-20120817">cite web |url=http://www.universetoday.com/14824/distance-from-earth-to-mars/ |title=Distance from Earth to Mars |first=Fraser |last=Cain |date=August 10, 2012 |publisher=Universe Today |accessdate=August 17, 2012</ref>
+
+:At landing, telemetry was monitored by the ''2001 Mars Odyssey'' orbiter, ''Mars Reconnaissance Orbiter'' and ESA's ''Mars Express''. Odyssey is capable of relaying UHF telemetry back to Earth in real time. The relay time varies with the distance between the two planets and took 13:46 minutes at the time of landing.<ref name="WA-20120806" /><ref name="spaceflightnow" />
+* Mobility systems:  ''Curiosity'' is equipped with six wheels in a rocker-bogie suspension, which also served as landing gear for the vehicle, unlike its smaller predecessors.<ref name="new wheels"/><ref>cite web |url=http://www.nasa.gov/mission_pages/msl/building_curiosity.html |title=Watch NASA's Next Mars Rover Being Built Via Live 'Curiosity Cam' |accessdate=August 16, 2012 |date=September 13, 2011 |work=NASA</ref> The wheels are significantly larger (convert|50|cm|in|sp=us diameter) than those used on previous rovers. Each wheel has cleats and is independently actuated and geared, providing for climbing in soft sand and scrambling over rocks. The four corner wheels can be independently steered, allowing the vehicle to turn in place as well as execute arcing turns.<ref name="DESCANSO"/> Each wheel has a pattern that helps it maintain traction and leaves patterned tracks in the sandy surface of Mars. That pattern is used by on-board cameras to judge the distance traveled. The pattern itself is Morse code for "Jet Propulsion Laboratory|JPL" (•−−− •−−• •−••).<ref name="aarlmorse"/> Based on the center of mass, the vehicle can withstand a tilt of at least 50 degrees in any direction without overturning, but automatic sensors will limit the rover from exceeding 30-degree tilts.<ref name="DESCANSO"/>
+clear right
+
+ Instruments 
+{| class="sortable wikitable" align="right" style=font-family:arial;font-size:11px
+! Main instruments
+|-
+| APXS – Alpha Particle X-ray Spectrometer
+|-
+| ChemCam – Chemistry and Camera complex
+|-
+| CheMin – CheMin|Chemistry and Mineralogy
+|-
+| DAN – Dynamic Albedo of Neutrons
+|-
+| Hazcam – Hazcam|Hazard Avoidance Camera
+|-
+| MAHLI – Mars Hand Lens Imager
+|-
+| MARDI – Curiosity (rover)#Mars Descent Imager (MARDI)|Mars Descent Imager
+|-
+| MastCam – Curiosity (rover)#Mast Camera (MastCam)|Mast Camera
+|-
+| MEDLI – Mars Science Laboratory#Specifications|MSL EDL Instrument
+|-
+| Navcam – Navcam|Navigation Camera
+|-
+| RAD – Radiation assessment detector
+|-
+| REMS – Rover Environmental Monitoring Station
+|-
+| SAM – Sample Analysis at Mars
+|-
+|}
+main|Curiosity (rover)#Instruments
+File:673885main PIA15986-full full.jpg|thumb|left|The shadow of ''Curiosity'' and Aeolis Mons|Aeolis Mons ("Mount Sharp")
+The general analysis strategy begins with high resolution cameras to look for features of interest. If a particular surface is of interest, ''Curiosity'' can vaporize a small portion of it with an infrared laser and examine the resulting spectra signature to query the rock's elemental composition. If that signature intrigues, the rover will use its long arm to swing over a microscope and an X-ray spectroscopy|X-ray spectrometer to take a closer look. If the specimen warrants further analysis, ''Curiosity'' can drill into the boulder and deliver a powdered sample to either the Sample Analysis at Mars|SAM or the CheMin analytical laboratories inside the rover.<ref name="Gale Crater: Geological 'sweet shop' awaits Mars rover"/><ref name="MSLSAM"/><ref name="nasa5"/>
+* Alpha Particle X-ray Spectrometer (APXS): This device can irradiate samples with alpha particles and map the spectra of X-rays that are re-emitted for determining the elemental composition of samples.
+* CheMin: CheMin is short for 'Chemistry and Mineralogy', and it is an X-ray diffraction and X-ray fluorescence analyzer.<ref name='SciCorner'>cite web |url=http://msl-scicorner.jpl.nasa.gov/Instruments/CheMin/ |title=MSL Science Corner – Chemistry & Mineralogy (CheMin) |accessdate=August 24, 2012 |first=David Blake |author=NASA Ames Research Center |year=2011</ref><ref name='SciPackage'>cite web |url=http://earthweb.ess.washington.edu/ess-306/MSL-PIP.pdf |title=Mars Science Laboratory Participating Scientists Program – Proposal Information Package. |accessdate=August 24, 2012 |author=The MSL Project Science Office |date=December 14, 2010 |format=PDF |work=JPL – NASA |publisher=Washington University</ref><ref name='Field deployment'>cite journal |title=Field Deployment of A Portable XRD/XRF Iinstrument On Mars Analog Terrain |journal=Advances in X-ray Analysis |author=Sarrazin P. |author2=Blake D. |author3=Feldman S. |author4=Chipera S. |author5=Vaniman D. |author6=Bish D. |volume=48 |url=http://www.icdd.com/resources/axa/vol48/V48_27.pdf |format=PDF |accessdate=August 24, 2012 |quote=International Centre for Diffraction Data 2005</ref> It will identify and quantify the minerals present in rocks and soil and thereby assess the involvement of Water on Mars|water in their formation, deposition, or alteration.<ref name='SciPackage'/> In addition, CheMin data will be useful in the search for potential mineral biosignatures, energy sources for life or indicators for past habitable environments.<ref name='SciCorner'/><ref name='SciPackage'/>
+* Sample Analysis at Mars (SAM): The SAM instrument suite will analyze Organic compound|organics and gases from both atmospheric and solid samples.<ref name="MSLSAM"/><ref name="nasa5"/> This include oxygen and carbon isotope ratios in carbon dioxide (CO<sub>2</sub>) and Atmosphere of Mars#Methane|methane (CH<sub>4</sub>) in the atmosphere of Mars in order to distinguish between their Geochemistry|geochemical or biology|biological origin.<ref name="MSLSAM"/><ref name="SAM">cite web |url=http://ael.gsfc.nasa.gov/marsSAM.shtml |title=Sample Analysis at Mars (SAM) Instrument Suite |accessdate=October 9, 2008 |date=October 2008 |publisher=NASA |deadurl=yes |archiveurl=https://web.archive.org/web/20070222092231/http://ael.gsfc.nasa.gov/marsSAM.shtml |archivedate=February 22, 2007 |df=</ref><ref>cite web |url=http://www.astrobio.net/news/modules.php?op=modload&name=News&file=article&sid=2765&mode=thread&order=0&thold=0 |title=Making Sense of Mars Methane |accessdate=October 8, 2008 |last=Tenenbaum |first=D. |date=June 9, 2008 |work=NASA|Astrobiology Magazine</ref><ref>
+cite journal |last1=Tarsitano |first1=C. G. |last2=Webster |first2=C. R. |year=2007 |title=Multilaser Herriott cell for planetary tunable laser spectrometers |journal=Applied Optics |volume=46 |issue=28 |pages=6923–6935 |bibcode=2007ApOpt..46.6923T |doi=10.1364/AO.46.006923 |pmid=17906720</ref><ref name="Mah2012">
+cite journal |last1=Mahaffy |first1=Paul R. |year=2012 |title=The Sample Analysis at Mars Investigation and Instrument Suite |journal=Space Science Reviews |volume=170 |issue=1–4 |pages=401–478 |bibcode=2012SSRv..170..401M |doi=10.1007/s11214-012-9879-z |display-authors=etal</ref>
+File:PIA17601-Comparisons-RadiationExposure-MarsTrip-20131209.png|thumb|left|Comparison of Radiation Doses – includes the amount detected on the trip from Earth to Mars by the Radiation assessment detector|RAD on the MSL (2011–2013).<ref name="SCI-20130531a" /><ref name="SCI-20130531b" /><ref name="NYT-20130530" />
+* Radiation assessment detector|Radiation Assessment Detector (RAD): This instrument was the first of ten MSL instruments to be turned on. Both en route and on the planet's surface, it will characterize the broad spectrum of Cosmic ray|radiation encountered in the Martian environment. Turned on after launch, it recorded several radiation spikes caused by the Sun.<ref name="rad"/> On May 31, 2013, NASA scientists reported that a possible manned mission to Mars may involve a great radiation|radiation risk based on the amount of radiation|energetic particle radiation detected by the Radiation assessment detector#Radiation assessment detector (RAD)|RAD on the Mars Science Laboratory while traveling from the Earth to Mars in 2011–2012.<ref name="SCI-20130531a">cite journal |last=Kerr |first=Richard |title=Radiation Will Make Astronauts' Trip to Mars Even Riskier |url=http://www.sciencemag.org/content/340/6136/1031.summary |date=May 31, 2013 |journal=Science (journal)|Science |volume=340 |number=6136 |page=1031 |doi=10.1126/science.340.6136.1031 |accessdate=May 31, 2013 |pmid=23723213</ref><ref name="SCI-20130531b">cite journal |authors=Zeitlin, C. |title=Measurements of Energetic Particle Radiation in Transit to Mars on the Mars Science Laboratory |url=http://www.sciencemag.org/content/340/6136/1080.abstract |journal=Science (journal)|Science |date=May 31, 2013 |volume=340 |number=6136 |pages=1080–1084 |doi=10.1126/science.1235989 |pmid=23723233 |accessdate=May 31, 2013 |display-authors=etal |bibcode=2013Sci...340.1080Z</ref><ref name="NYT-20130530">cite news |last=Chang |first=Kenneth |title=Data Point to Radiation Risk for Travelers to Mars |url=https://www.nytimes.com/2013/05/31/science/space/data-show-higher-cancer-risk-for-mars-astronauts.html |date=May 30, 2013 |work=The New York Times |accessdate=May 31, 2013</ref>
+File:PIA13580 crop.jpg|thumb|right|150px|<center>The Radiation assessment detector|RAD on Curiosity (rover)|''Curiosity''.</center>
+* Dynamic Albedo of Neutrons (DAN): A pulsed neutron source and detector for measuring hydrogen or ice and water at or near the Martian surface.<ref name="The Dynamic Albedo of Neutrons (DAN) Experiment for NASA's 2009 Mars Science Laboratory">cite journal |doi=10.1089/ast.2007.0157 |title=The Dynamic Albedo of Neutrons (DAN) Experiment for NASA's 2009 Mars Science Laboratory |year=2008 |last1=Litvak |first1=M.L. |last2=Mitrofanov |first2=I.G. |last3=Barmakov |first3=Yu.N. |last4=Behar |first4=A. |last5=Bitulev |first5=A. |last6=Bobrovnitsky |first6=Yu. |last7=Bogolubov |first7=E.P. |last8=Boynton |first8=W.V. |last9=Bragin |first9=S.I. |displayauthors=8 |journal=Astrobiology |volume=8 |issue=3 |pages=605–12 |pmid=18598140 |bibcode=2008AsBio...8..605L</ref><ref name="MSLDAN">cite web |url=http://msl-scicorner.jpl.nasa.gov/Instruments/DAN/ |title=MSL Science Corner: Dynamic Albedo of Neutrons (DAN) |publisher=NASA/JPL |accessdate=September 9, 2009</ref> On August 18, 2012 (sol age in sols|2012|8|6|2012|08|18) the Russian science instrument, DAN, was turned on,<ref name=cbs>cite web |url=http://www.cbsnews.com/8301-205_162-57495920/curiositys-mars-travel-plans-tentatively-mapped/ |title=Curiosity's Mars travel plans tentatively mapped |publisher=</ref> marking the success of a Russian-American collaboration on the surface of Mars and the first working Russian science instrument on the Martian surface since Mars 3 stopped transmitting over forty years ago.<ref>cite web |url=http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1971-049A |title=NASA - NSSDCA - Spacecraft - Details |publisher=</ref> The instrument is designed to detect subsurface water.<ref name=cbs/>
+* Rover Environmental Monitoring Station (REMS): Meteorological package and an ultraviolet sensor provided by Ministry of Education (Spain)|Spain and Finland.<ref name="Rover Environmental Monitoring Station for MSL mission"/> It measures humidity, pressure, temperatures, wind speeds, and ultraviolet radiation.<ref name="Rover Environmental Monitoring Station for MSL mission">cite web |publisher=Pierre und Marie Curie University |url=http://www-mars.lmd.jussieu.fr/paris2011/abstracts/gomez-elvira_paris2011.pdf |title=Rover Environmental Monitoring Station for MSL mission |work=4th International workshop on the Mars Atmosphere: modelling and observations |date=February 2011 |accessdate=August 6, 2012</ref>
+* Cameras: ''Curiosity'' has seventeen cameras overall.<ref name="nasa6"/> 12 engineering cameras (Hazcams and Navcams) and five science cameras. MAHLI, MARDI, and MastCam cameras were developed by Malin Space Science Systems and they all share common design components, such as on-board electronic image processing|imaging processing boxes, 1600×1200 Charge-coupled device|CCDs, and a Bayer filter|RGB Bayer pattern filter.<ref name="LPSCMast"/><ref name="MastCam"/><ref name="MAHLI"/><ref name="MARDI"/><ref name="MastCamDescription"/><ref name="NovEmail"/>
+** MastCam: This system provides multiple spectra and true-color imaging with two cameras.
+** Mars Hand Lens Imager (MAHLI): This system consists of a camera mounted to a robotic arm on the rover, used to acquire microscopic images of rock and soil. It has white and ultraviolet LEDs for illumination.
+* ChemCam: ChemCam is a suite of remote sensing instruments, including the first laser-induced breakdown spectroscopy (LIBS) system to be used for planetary science, and ''Curiosity'''s fifth science camera, the remote micro-imager (RMI). The RMI provides black-and-white images at 1024×1024 resolution in a 0.02 radian (1.1-degree) field of view.<ref>cite web |url=http://www.msl-chemcam.com/index.php?menu=inc&page_consult=textes&rubrique=64&sousrubrique=224&soussousrubrique=0&titre_url=ChemCam%20-%20How%20does%20ChemCam%20work? |title=ChemCam - ChemCam - How does ChemCam work? |publisher=</ref>  This is approximately equivalent to a 1500&nbsp;mm lens on a 35 mm camera.
+File:Gravel-covered martian surface.jpg|thumb|right|MARDI views the surface
+* Mars Descent Imager (MARDI): During part of the descent to the Martian surface, MARDI acquired 4 color images per second, at 1600×1200 pixels, with a 0.9-millisecond exposure time. Images were taken 4 times per second, starting shortly before heatshield separation at 3.7&nbsp;km altitude, until a few seconds after touchdown. This provided engineering information about both the motion of the rover during the descent process, and science information about the terrain immediately surrounding the rover. NASA descoped MARDI in 2007, but Malin Space Science Systems contributed it with its own resources.<ref>cite web |url=http://msl-scicorner.jpl.nasa.gov/Instruments/MARDI/ |title=MSL Science Corner: Mars Descent Imager (MARDI) |first= |last=[NULL] |publisher=</ref> After landing it could take convert|1.5|mm|in|abbr=on per pixel views of the surface,<ref>cite web |url=http://www.exploremars.org/msl-picture-of-the-day-t-27-days-instruments-mardi |archive-url=https://web.archive.org/web/20130119035203/http://www.exploremars.org/msl-picture-of-the-day-t-27-days-instruments-mardi |dead-url=yes |archive-date=January 19, 2013 |title=MSL Picture of the Day: T-27 Days: instruments: MARDI |publisher=</ref> the first of these post-landing photos were taken by August 27, 2012 (sol age in sols|2012|8|6|2012|08|27).<ref>cite web |url=http://mars.jpl.nasa.gov/msl/multimedia/raw/?s=21&camera=MARDI |title=Raw Images - Mars Science Laboratory |first=JPL, |last=NASA |publisher=</ref>
+* Engineering cameras: There are 12 additional cameras that support mobility:
+** Hazard avoidance cameras (Hazcams): The rover has a pair of black and white navigation cameras (Hazcams) located on each of its four corners.<ref name="wired">Cite journal |url=https://www.wired.com/wiredscience/2012/08/curiosity-mars-rover-cameras/ |title=The Photo-Geek's Guide to Curiosity Rover's 17 Cameras |date=August 7, 2012 |first=Adam |last=Mann |journal=Wired Science |accessdate=August 15, 2012</ref>  These provide closed-up views of potential obstacles about to go under the wheels.
+** Navigation cameras (Navcams): The rover uses two pairs of black and white navigation cameras mounted on the mast to support ground navigation.<ref name="wired"/>  These provide a longer-distance view of the terrain ahead.
+
+ History 
+File:MSL-Cruise Stage Test.jpg|thumb|MSL's cruise stage on Earth
+The Mars Science Laboratory was recommended by United States National Research Council Decadal Survey committee as the top priority middle-class Mars mission in 2003.<ref>Cite book|url=https://www.nap.edu/catalog/10432/new-frontiers-in-the-solar-system-an-integrated-exploration-strategy|title=New Frontiers in the Solar System: An Integrated Exploration Strategy|last=Council|first=National Research|date=2002-07-11|language=en</ref> NASA called for proposals for the rover's scientific instruments in April 2004,<ref name="Stathopoulos"/> and eight proposals were selected on December 14 of that year.<ref name=Stathopoulos/> Testing and design of components also began in late 2004, including Aerojet's designing of a monopropellant engine with the ability to throttle from 15–100 percent thrust with a fixed propellant inlet pressure.<ref name=Stathopoulos/>
+
+= Cost overruns, delays, and launch =
+By November 2008 most hardware and software development was complete, and testing continued.<ref name="usra"/> At this point, cost overruns were approximately $400 million. In the attempts to meet the launch date, several instruments and a cache for samples were removed and other instruments and cameras were simplified to simplify testing and integration of the rover.<ref name=Air&Space/><ref name="universetoday"/> The next month, NASA delayed the launch to late 2011 because of inadequate testing time.<ref name="Next NASA Mars Mission Rescheduled For 2011"/><ref name="Mars Science Laboratory: the budgetary reasons behind its delay"/><ref name="thespacereview"/> Eventually the costs for developing the rover reached $2.47 billion, that for a rover that initially had been classified as a medium-cost mission with a maximum budget of $650 million, yet NASA still had to ask for an additional $82 million to meet the planned November launch. As of 2012, the project suffered an 84 percent overrun.<ref>Cite web|url=https://spacepolicyonline.com/news/gao-slams-jwst-msl-cost-overruns/|title=GAO Slams JWST, MSL Cost Overruns|language=en-US|access-date=2018-12-30</ref>
+
+MSL launched on an Atlas V rocket from Cape Canaveral Air Force Station|Cape Canaveral on November 26, 2011.<ref name="nasa3"/> On January 11, 2012, the spacecraft successfully refined its trajectory with a three-hour series of thruster-engine firings, advancing the rover's landing time by about 14 hours. When MSL was launched, the program's director was Doug McCuistion of NASA's Planetary Science Division.<ref name="Doug McCuistion"/>
+
+''Curiosity'' successfully landed in the Gale (crater)|Gale Crater at 05:17:57.3 UTC on August 6, 2012,<ref name="NASA-1"/><ref name ="Space-20120806" /><ref name=Sol3/><ref name="SF1012012-07-06"/> and transmitted Hazcam images confirming orientation.<ref name="SF1012012-07-06"/> Due to the Mars-Earth distance at the time of landing and the speed of light|limited speed of radio signals, the landing was not registered on Earth for another 14 minutes.<ref name="SF1012012-07-06" /> The ''Mars Reconnaissance Orbiter'' sent a photograph of ''Curiosity'' descending under its parachute, taken by its HiRISE camera, during the landing procedure.
+
+Six senior members of the ''Curiosity'' team presented a news conference a few hours after landing, they were: John M. Grunsfeld|John Grunsfeld, NASA associate administrator; Charles Elachi, director, JPL; Peter Theisinger, MSL project manager; Richard Cook, MSL deputy project manager; Adam Steltzner, MSL entry, descent and landing (EDL) lead; and John P. Grotzinger|John Grotzinger, MSL project scientist.<ref>cite web |url=https://www.youtube.com/watch?v=FVzfDZlEwaU |title=Curiosity Rover Begins Mars Mission |author=NASA Television |publisher=YouTube |date=August 6, 2012 |accessdate=August 14, 2012</ref>
+
+= Naming =
+Between March 23–29, 2009, the general public ranked nine finalist rover names (Adventure, Amelia, Journey, Perception, Pursuit, Sunrise, Vision, Wonder, and Curiosity)<ref>[http://marsrovername.jpl.nasa.gov/SubmitVoteForm/index.cfm?CFID=1772436&CFTOKEN=96037829 The Finalists] (in alphabetical order).</ref> through a public poll on the NASA website.<ref name="MSLNameWebsite"/> On May 27, 2009, the winning name was announced to be ''Curiosity''. The name had been submitted in an essay contest by Clara Ma, a then sixth-grader from Kansas.<ref name="MSLNameWebsite"/><ref name="MSLNamePressRelease"/><ref name="nasa2"/>
+
+quote|Curiosity is the passion that drives us through our everyday lives. We have become explorers and scientists with our need to ask questions and to wonder.|author=Clara Ma|source=NASA/JPL Name the Rover contest
+
+= Landing site selection =
+File:Curiosity Cradled by Gale Crater.jpg|thumb|Aeolis Mons rises from the middle of Gale (crater)|Gale Crater – <span style="color:green;">Green dot</span> marks the Curiosity (rover)|''Curiosity'' rover landing site in Aeolis Palus<ref name="Gale Crater3"/><ref name=ellipse/> – North is down
+Over 60 landing sites were evaluated, and by July 2011 Gale crater was chosen. A primary goal when selecting the landing site was to identify a particular geologic environment, or set of environments, that would support microbial life. Planners looked for a site that could contribute to a wide variety of possible science objectives. They preferred a landing site with both morphologic and mineralogical evidence for past water. Furthermore, a site with spectra indicating multiple Mineral hydration|hydrated minerals was preferred; clay minerals and sulfate salts would constitute a rich site. Hematite, other iron oxides, sulfate minerals, silicate minerals, Silicon dioxide|silica, and possibly chloride minerals were suggested as possible substrates for Fossil#Types of preservation|fossil preservation. Indeed, all are known to facilitate the preservation of fossil morphologies and molecules on Earth.<ref name="MSL&nbsp;— Landing Sites Workshop"/> Difficult terrain was favored for finding evidence of livable conditions, but the rover must be able to safely reach the site and drive within it.<ref name="Survivor: Mars&nbsp;— Seven Possible MSL Landing Sites"/>
+
+Engineering constraints called for a landing site less than 45° from the Martian equator, and less than 1&nbsp;km above the reference geodetic datum|datum.<ref name="nasa9"/>  At the first MSL Landing Site workshop, 33 potential landing sites were identified.<ref name="MSL Workshop Summary"/> By the end of the second workshop in late 2007, the list was reduced to six;<ref name="Second MSL Landing Site Workshop"/><ref name="Reconnaissance of MSL Sites"/> in November 2008, project leaders at a third workshop reduced the list to these four landing sites:<ref name="Site List Narrows For NASA's Next Mars Landing"/><ref name="Current MSL Landing Sites"/><ref name="Looking at Landing Sites for the Mars Science Laboratory"/><ref name="ISStD"/>
+
+{| class="wikitable"
+|-
+! Name
+! Location
+! Elevation
+! Notes
+|-
+| Eberswalde (crater)|Eberswalde Crater Delta || Coord|23.86|S|326.73|E|globe:mars || convert|-1450|m|ft|abbr=on || Ancient river delta.<ref name="nasa10"/>
+|-
+| Holden (Martian crater)|Holden Crater Fan || Coord|26.37|S|325.10|E|globe:mars || convert|-1940|m|ft|abbr=on || Dry lake bed.<ref name="nasa11"/>
+|- style="background:#cfc;"
+| Gale (crater)|Gale Crater || Coord|4.49|S|137.42|E|globe:mars || convert|-4451|m|ft|abbr=on|| Features convert|5|km|mi|abbr=on tall mountain <br/> of layered material near center.<ref name="nasa12"/> Selected.<ref name="Gale Crater3"/>
+|-
+| Mawrth Vallis Site 2 || Coord|24.01|N|341.03|E|globe:mars || convert|-2246|m|ft|abbr=on || Channel carved by catastrophic floods.<ref name="nasa13"/>
+|}
+
+A fourth landing site workshop was held in late September 2010,<ref name="nasa14"/> and the fifth and final workshop May 16–18, 2011.<ref name="marstoday"/> On July 22, 2011, it was announced that Gale (crater)|Gale Crater had been selected as the landing site of the Mars Science Laboratory mission.
+
+ Launch 
+File:Atlas V 541 into the flight.png|thumb|right|The MSL launched from Cape Canaveral.
+
+= Launch vehicle =
+The Atlas V launch vehicle is capable of launching up to convert|8290|kg|lb|abbr=on to geostationary transfer orbit.<ref>Cite web |url=https://www.ulalaunch.com/rockets/atlas-v |title=Atlas V |publisher=United Launch Alliance |access-date=May 1, 2018</ref> The Atlas V was also used to launch the ''Mars Reconnaissance Orbiter'' and the ''New Horizons'' probe.<ref name="oig report"/><ref name="LaunchVehicle"/>
+
+The first and second stages, along with the solid rocket motors, were stacked on October 9, 2011 near the launch pad.<ref name="universetoday7"/> The fairing containing MSL was transported to the launch pad on November 3, 2011.<ref name="NASA's new Mars rover reaches Florida launch pad"/>
+
+= Launch event =
+MSL was launched from Cape Canaveral Air Force Station Space Launch Complex 41 on November 26, 2011, at 15:02&nbsp;UTC via the Atlas V#Variants|Atlas V 541 provided by United Launch Alliance. This two stage rocket includes a convert|3.8|m|abbr=on Common Core Booster (CCB) powered by one RD-180 engine, four solid rocket boosters (SRB), and one Centaur (rocket stage)|Centaur second stage with a convert|5|m|abbr=on diameter payload fairing.<ref name=ula20120819>cite web |title=United Launch Alliance Atlas V Rocket Successfully Launches NASA's Mars Science Lab on Journey to Red Planet |url=http://www.ulalaunch.com/site/pages/News.shtml#/89/ |work=ULA Launch Information |date=November 26, 2011 |publisher=United Launch Alliance |accessdate=August 19, 2012</ref> The NASA Launch Services Program coordinated the launch via the NASA Launch Services (NLS) I Contract.<ref>Cite web |url=https://www.nasa.gov/centers/kennedy/news/releases/2006/release-20060602d.html |title=NASA Announces Mars Science Lab Mission Launch Contract |publisher=NASA |first1=Bruce |last1=Buckingham |first2=Katherine |last2=Trinidad |date=June 2, 2006 |access-date=May 1, 2018</ref>
+
+ Cruise 
+File:Animation of Mars Science Laboratory trajectory.gif|thumb|right|Animation of Mars Science Laboratory's  trajectory<br>legend2| RoyalBlue| Earth·legend2| Lime| Mars·legend2|Magenta|Mars Science Laboratory
+= Cruise stage =
+The cruise stage carried the MSL spacecraft through the void of space and delivered it to Mars. The interplanetary trip covered the distance of 352 million miles in 253 days.<ref>cite web |url=https://www.nytimes.com/2012/08/23/science/space/nasas-curiosity-rover-gets-moving-on-mars.html?_r=0 |title=After Trip of 352 Million Miles, Cheers for 23 Feet on Mars |accessdate=October 18, 2012 |first=Kenneth |last=Chang |date=August 22, 2012 |work=The New York Times</ref> The cruise stage has its own miniature propulsion system, consisting of eight thrusters using hydrazine fuel in two titanium tanks.<ref name=cruise/> It also has its own electric power system, consisting of a solar array and battery for providing continuous power. Upon reaching Mars, the spacecraft stopped spinning and a cable cutter separated the cruise stage from the aeroshell.<ref name=cruise/> Then the cruise stage was diverted into a separate trajectory into the atmosphere.<ref>cite web |url=http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=4526539&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D4526539 |title=Design and Fabrication of the Cruise Stage Spacecraft for MSL |accessdate=August 23, 2012 |first=N. |last=Dahya |date=March 1–8, 2008 |work=Aerospace Conference, 2008 IEEE |publisher=IEEE Explore</ref><ref>cite web |url=http://mars.jpl.nasa.gov/msl/multimedia/interactives/edlcuriosity/ |title=Follow Curiosity's descent to Mars |accessdate=August 23, 2012 |year=2012 |work=NASA |quote=Animation |deadurl=yes |archiveurl=https://web.archive.org/web/20120821024425/http://mars.jpl.nasa.gov/msl/multimedia/interactives/edlcuriosity/ |archivedate=August 21, 2012 |df=mdy-all</ref> In December 2012, the debris field from the cruise stage was located by the ''Mars Reconnaissance Orbiter''. Since the initial size, velocity, density and impact angle of the hardware are known, it will provide information on impact processes on the Mars surface and atmospheric properties.<ref>cite web |url=http://www.jpl.nasa.gov/news/news.php?release=2012-386 |title=Orbiter Spies Where Rover's Cruise Stage Hit Mars |publisher=</ref>
+
+= Mars transfer orbit =
+The MSL spacecraft departed low Earth orbit|Earth orbit and was inserted into a Heliocentric orbit|heliocentric Mars transfer orbit on November 26, 2011, shortly after launch, by the Centaur (rocket stage)|Centaur upper stage of the Atlas V launch vehicle.<ref name=ula20120819/>  Prior to Centaur separation, the spacecraft was spin-stabilized at 2 rpm for attitude control during the convert|36210|kph|mph|abbr=on cruise to Mars.<ref>cite news |first=William |last=Harwood |title=Mars Science Laboratory begins cruise to red planet |date=November 26, 2011 |url=http://spaceflightnow.com/atlas/av028/ |work=Spaceflight Now |accessdate=August 21, 2012 |deadurl=yes |archiveurl=https://web.archive.org/web/20140427010412/http://spaceflightnow.com/atlas/av028/ |archivedate=April 27, 2014 |df=</ref>
+
+During cruise, eight thrusters arranged in two clusters were used as actuators to control spin rate and perform axial or lateral trajectory correction maneuvers.<ref name="DESCANSO"/>  By spinning about its central axis, it maintained a stable attitude.<ref name="DESCANSO"/><ref>Cite journal |authors=Way, David W. |title=Mars Science Laboratory: Entry, Descent, and Landing System Performance – System and Technology Challenges for Landing on the Earth, Moon, and Mars |url=https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20070016022_2007014175.pdf |format=PDF |display-authors=etal</ref><ref>cite web |url=http://www.dsi.unifi.it/DRIIA/RaccoltaTesi/Bacconi.pdf |title=Spacecraft Attitude Dynamics and Control |accessdate=August 11, 2012 |last=Bacconi |first=Fabio |year=2006 |format=PDF |deadurl=yes |archiveurl=https://web.archive.org/web/20130512135912/http://www.dsi.unifi.it/DRIIA/RaccoltaTesi/Bacconi.pdf |archivedate=May 12, 2013 |df=mdy-all</ref>  Along the way, the cruise stage performed four trajectory correction maneuvers to adjust the spacecraft's path toward its landing site.<ref name='TrajecoryCorrectons'>cite web |url=http://mars.jpl.nasa.gov/msl/news/whatsnew/index.cfm?FuseAction=ShowNews&NewsID=1292 |title=Status Report – Curiosity's Daily Update |accessdate=August 13, 2012 |date=August 6, 2012 |publisher=NASA</ref> Information was sent to mission controllers via two X-band antenna (radio)|antennas.<ref name="cruise"/> A key task of the cruise stage was to control the temperature of all spacecraft systems and dissipate the heat generated by power sources, such as solar cells and motors, into space. In some systems, Multi-layer insulation|insulating blankets kept sensitive science instruments warmer than the near-absolute zero temperature of space. Thermostats monitored temperatures and switched heating and cooling systems on or off as needed.<ref name=cruise/>
+
+ anchor|Landing anchor|Entry, Descent and Landing (EDL) Entry, descent and landing (EDL) 
+
+= EDL spacecraft system =
+see also|Timeline of Mars Science Laboratory
+Landing a large mass on Mars is particularly challenging as the Atmosphere of Mars|atmosphere is too thin for parachutes and aerobraking alone to be effective,<ref name="landing-approach"/> while remaining thick enough to create stability and impingement problems when decelerating with retrorockets.<ref name="landing-approach"/> Although some previous missions have used Airbag#Aerospace and military applications|airbags to cushion the shock of landing, ''Curiosity'' rover is too heavy for this to be an option. Instead, ''Curiosity'' was set down on the Martian surface using a new high-accuracy entry, descent, and landing (EDL) system that was part of the MSL spacecraft descent stage. The mass of this EDM system, including parachute, sky crane, fuel and aeroshell, is convert|2401|kg|abbr=on.<ref>cite web |url=https://mars.nasa.gov/msl/mission/spacecraft/ |title=Mission: Spacecraft |publisher=NASA |accessdate=June 12, 2018</ref> The novel EDL system placed ''Curiosity'' within a convert|20|by|7|km|abbr=on landing ellipse,<ref name="ellipse"/> in contrast to the convert|150|by|20|km|abbr=on landing ellipse of the landing systems used by the Mars Exploration Rovers.<ref name="Mission Timeline: Entry, Descent, and Landing"/>
+
+The entry-descent-landing (EDL) system differs from those used for other missions in that it does not require an interactive, ground-generated mission plan. During the entire landing phase, the vehicle acts autonomously, based on pre-loaded software and parameters.<ref name="DESCANSO"/> The EDL system was based on a Viking program|Viking-derived aeroshell structure and propulsion system for a precision guided entry and soft landing, in contrasts with the airbag landings that were used in the mid-1990s by the Mars Pathfinder and Mars Exploration Rover missions. The spacecraft employed several systems in a precise order, with the entry, descent and landing sequence broken down into four parts<ref name="Mission Timeline: Entry, Descent, and Landing"/><ref name="Mars Science Laboratory Entry, Descent, and Landing Triggers"/>—described below as the spaceflight events unfolded on August 6, 2012.
+
+= EDL event–August 6, 2012 =
+File:20090428MSLEntry1.jpg|thumb|Martian atmosphere entry events from cruise stage separation to parachute deployment
+Despite its late hour, particularly on the east coast of the United States where it was 1:31&nbsp;a.m.,<ref name ="Space-20120806" /> the landing generated significant public interest. 3.2 million watched the landing live with most watching online instead of on television via NASA TV or cable news networks covering the event live.<ref>cite news |last=Kerr |first=Dara |title=Viewers opted for the Web over TV to watch Curiosity's landing |url=http://news.cnet.com/8301-1023_3-57489660-93/viewers-opted-for-the-web-over-tv-to-watch-curiositys-landing/ |accessdate=August 9, 2012 |newspaper=CNET |date=August 9, 2012</ref> The final landing place for the rover was less than convert|2.4|km|abbr=on  from its target after a convert|563270400|km|abbr=on journey.<ref name="cnn.com"/> In addition to streaming and traditional video viewing, JPL made Eyes on the Solar System, a three-dimensional real time simulation of entry, descent and landing based on real data. ''Curiosity'''s touchdown time as represented in the software, based on JPL predictions, was less than 1 second different than reality.<ref>cite news |last=Ellison |first=Doug |title=MSL Sol 4 briefing |url=https://www.youtube.com/watch?v=y_FH6PByZeY |newspaper=YouTube</ref>
+
+The EDL phase of the MSL spaceflight mission to Mars took only seven minutes and unfolded automatically, as programmed by JPL engineers in advance, in a precise order, with the entry, descent and landing sequence occurring in four distinct event phases:<ref name="Mission Timeline: Entry, Descent, and Landing"/><ref name="Mars Science Laboratory Entry, Descent, and Landing Triggers"/>
+
+ Guided entry 
+File:593419main pia14834-full full Mars Science Laboratory Guided Entry at Mars.jpg|thumb|left|The guided entry is the phase that allowed the spacecraft to steer with accuracy to its planned landing site
+Precision guided entry made use of onboard computing ability to steer itself toward the pre-determined landing site, improving landing accuracy from a range of hundreds of kilometers to convert|20|km|mi|sp=us. This capability helped remove some of the uncertainties of landing hazards that might be present in larger landing ellipses.<ref>cite web |url=http://mars.jpl.nasa.gov/msl/mission/technology/insituexploration/edl/guidedentry/ |title=MSL – Guided Entry |accessdate=August 8, 2012 |year=2011 |work=JPL |publisher=NASA</ref> Steering was achieved by the combined use of thrusters and ejectable balance masses.<ref name='Guided entry'>cite journal |title=The RCS Attitude Controller for the Exo-Atmospheric And Guided Entry Phases of the Mars Science Laboratory |journal=Planetary Probe |first=Paul B. |last=Brugarolas |first2=A. Miguel |last2=San Martin |first3=Edward C. |last3=Wong |id= |url=http://www.planetaryprobe.eu/IPPW7/proceedings/IPPW7%20Proceedings/Papers/Session5/p453.pdf |format=PDF |accessdate=August 8, 2012</ref> The ejectable balance masses shift the capsule center of mass enabling generation of a Lift (force)|lift vector during the atmospheric phase. A navigation computer integrated the measurements to estimate the position and Attitude control (spacecraft)|attitude of the capsule that generated automated torque commands. This was the first planetary mission to use precision landing techniques.
+
+The rover was folded up within an aeroshell that protected it during the travel through space and during the atmospheric entry at Mars. Ten minutes before atmospheric entry the aeroshell separated from the cruise stage that provided power, communications and propulsion during the long flight to Mars. One minute after separation from the cruise stage thrusters on the aeroshell fired to cancel out the spacecraft's 2-rpm rotation and achieved an orientation with the heat shield facing Mars in preparation for Atmospheric entry.<ref name="spaceflightnow.com_1"/> The heat shield is made of phenolic impregnated carbon ablator (PICA). The convert|4.5|m|abbr=on diameter heat shield, which is the largest heat shield ever flown in space,<ref name="nasa8"/> reduced the velocity of the spacecraft by Atmospheric entry#Ablative|ablation against the Martian atmosphere, from the atmospheric interface velocity of approximately convert|5.8|km/s|abbr=on down to approximately convert|470|m/s|abbr=on, where parachute deployment was possible about four minutes later. One minute and 15 seconds after entry the heat shield experienced peak temperatures of up to convert|2090|C|F|abbr=on as atmospheric pressure converted kinetic energy into heat. Ten seconds after peak heating, that deceleration peaked out at 15 g-force|g.<ref name="spaceflightnow.com_1"/>
+
+Much of the reduction of the landing precision error was accomplished by an entry guidance algorithm, derived from the algorithm used for guidance of the Apollo Command Modules returning to Earth in the Apollo program.<ref name="spaceflightnow.com_1"/> This guidance uses the lifting force experienced by the aeroshell to "fly out" any detected error in range and thereby arrive at the targeted landing site. In order for the aeroshell to have lift, its center of mass is offset from the axial centerline that results in an off-center trim angle in atmospheric flight. This is accomplished by a series of ejectable ballast masses consisting of two convert|75|kg|lbs|abbr=on tungsten weights that were jettisoned minutes before atmospheric entry.<ref name="spaceflightnow.com_1"/> The lift vector was controlled by four sets of two reaction control system (RCS) thrusters that produced approximately convert|500|N|lbf|abbr=on of thrust per pair. This ability to change the pointing of the direction of lift allowed the spacecraft to react to the ambient environment, and steer toward the landing zone. Prior to parachute deployment the entry vehicle ejected more ballast mass consisting of six convert|25|kg|lbs|abbr=on tungsten weights such that the center of gravity offset was removed.<ref name="spaceflightnow.com_1"/>
+
+ Parachute descent 
+File:MSL parachute.jpg|thumb|left|MSL's parachute is convert|16|m|ft|abbr=on in diameter.
+File:MRO sees Curiosity landing.jpg|thumb|NASA's ''Curiosity'' rover and its parachute were spotted by NASA's ''Mars Reconnaissance Orbiter'' as the probe descended to the surface. August 6, 2012.
+When the entry phase was complete and the capsule slowed to about convert|470|m/s|abbr=on at about convert|10|km|mi|abbr=on altitude, the supersonic parachute deployed,<ref name="EntryDescentLanding"/> as was done by previous landers such as Viking program|Viking, Mars Pathfinder and the Mars Exploration Rovers. The parachute has 80 suspension lines, is over convert|50|m|ft|abbr=on long, and is about convert|16|m|ft|abbr=on in diameter.<ref name="ParaTest"/> Capable of being deployed at Mach 2.2, the parachute can generate up to convert|289|kN|lbf|abbr=on of drag (physics)|drag force in the Martian atmosphere.<ref name="ParaTest"/> After the parachute was deployed, the heat shield separated and fell away. A camera beneath the rover acquired about 5 frames per second (with resolution of 1600×1200 pixels) below convert|3.7|km|mi|abbr=on during a period of about 2 minutes until the rover sensors confirmed successful landing.<ref name="Mars Descent Imager (MARDI)"/> The ''Mars Reconnaissance Orbiter'' team were able to acquire an image of the MSL descending under the parachute.<ref name="planetary"/>
+
+ Powered descent 
+File:593472main pia14838 full Curiosity and Descent Stage, Artist's Concept.jpg|thumb|The powered descent stage
+Following the parachute braking, at about convert|1.8|km|mi|abbr=on altitude, still travelling at about convert|100|m/s|mph|abbr=on, the rover and descent stage dropped out of the aeroshell.<ref name="EntryDescentLanding"/> The descent stage is a platform above the rover with eight variable thrust monopropellant hydrazine rocket thrusters on arms extending around this platform to slow the descent. Each rocket thruster, called a Mars Lander Engine (MLE),<ref name="Mars Science Laboratory: Entry, Descent, and Landing System Performance"/> produces convert|400|to|3100|N|lbf|abbr=on of thrust and were derived from those used on the Viking landers.<ref name="aerojetMSLengines"/> A radar altimeter measured altitude and velocity, feeding data to the rover's flight computer. Meanwhile, the rover transformed from its stowed flight configuration to a landing configuration while being lowered beneath the descent stage by the "sky crane" system.
+
+ anchor|Sky crane landing Sky crane 
+<!-- This Anchor tag serves to provide a permanent target for incoming section links. Please do not move it out of the section heading, even though it disrupts edit summary generation (you can manually fix the edit summary before saving your changes). Please do not modify it, even if you modify the section title. See Template:Anchor for details. (This text: Template:Anchor comment) -->
+
+File:20090428MSLEntry2.jpg|thumb|left|Entry events from parachute deployment through powered descent ending at sky crane flyaway
+File:593484main pia14839 full Curiosity's Sky Crane Maneuver, Artist's Concept.jpg|thumb|Artist's conceptIon of ''Curiosity'' being lowered from the rocket-powered descent stage.
+
+For several reasons, a different landing system was chosen for MSL compared to previous Mars landers and rovers. ''Curiosity'' was considered too heavy to use the airbag landing system as used on the Mars Pathfinder and Mars Exploration Rovers. A legged lander approach would have caused several design problems.<ref name="spaceflightnow.com_1"/> It would have needed to have engines high enough above the ground when landing not to form a dust cloud that could damage the rover's instruments. This would have required long landing legs that would need to have significant width to keep the center of gravity low. A legged lander would have also required ramps so the rover could drive down to the surface, which would have incurred extra risk to the mission on the chance rocks or tilt would prevent ''Curiosity'' from being able to drive off the lander successfully. Faced with these challenges, the MSL engineers came up with a novel alternative solution: the sky crane.<ref name="spaceflightnow.com_1"/> The sky crane system lowered the rover with a convert|7.6|m|foot|abbr=on<ref name="spaceflightnow.com_1"/> tether to a soft landing—wheels down—on the surface of Mars.<ref name="EntryDescentLanding"/><ref name="scientificamerican"/><ref name="Mars rover lands on Xbox Live"/> This system consists of a bridle lowering the rover on three nylon tethers and an electrical cable carrying information and power between the descent stage and rover. As the support and data cables unreeled, the rover's six motorized wheels snapped into position. At roughly convert|7.5|m|abbr=on below the descent stage the sky crane system slowed to a halt and the rover touched down. After the rover touched down, it waited two seconds to confirm that it was on solid ground by detecting the weight on the wheels and fired several pyrotechnic fastener|pyros (small explosive devices) activating cable cutters on the bridle and umbilical cords to free itself from the descent stage. The descent stage then flew away to a crash landing  convert|650|m|foot|abbr=on away.<ref>cite web |url=http://www.nasa.gov/mission_pages/msl/news/msl20120807.html |title=Orbiter Images NASA's Martian Landscape Additions |accessdate=August 9, 2012 |date=August 8, 2012 |work=NASA</ref> The sky crane concept had never been used in missions before.<ref name="youtube"/>
+
+= anchor|Landing site Landing site =
+main|Bradbury Landing|Gale (crater)
+Gale (crater)|Gale Crater is the MSL landing site.<ref name="Gale Crater3"/><ref name="Gale Crater"/><ref name="Gale Crater2"/> Within Gale Crater is a mountain, named Aeolis Mons ("Mount Sharp"),<ref name="NASA-20120328" /><ref name="Space-20120329" /><ref name="NASA-20120327">cite web |author=NASA Staff |title='Mount Sharp' on Mars Compared to Three Big Mountains on Earth |url=http://www.nasa.gov/mission_pages/msl/multimedia/pia15292-Fig2.html |date=March 27, 2012 |publisher=NASA |accessdate=March 31, 2012</ref> of layered rocks, rising about convert|5.5|km|ft|abbr=on above the crater floor, that ''Curiosity'' will investigate. The landing site is a smooth region in "Yellowknife" ''Quad 51''<ref name="NASA-20120810">cite web |author=NASA|NASA Staff |title=Curiosity's Quad – IMAGE |url=http://mars.jpl.nasa.gov/msl/multimedia/images/?ImageID=4408 |date=August 10, 2012 |publisher=NASA |accessdate=August 11, 2012</ref><ref name="NASA-20120809">cite web |last1=Agle |first1=DC |last2=Webster |first2=Guy |last3=Brown |first3=Dwayne |title=NASA's Curiosity Beams Back a Color 360 of Gale Crate |url=http://www.nasa.gov/mission_pages/msl/news/msl20120809.html |date=August 9, 2012 |publisher=NASA |accessdate=August 11, 2012</ref><ref name="BBC-20120809">cite news |last=Amos |first=Jonathan |title=Mars rover makes first colour panorama |url=https://www.bbc.co.uk/news/science-environment-19201742 |date=August 9, 2012 |newspaper=BBC News |accessdate=August 9, 2012</ref><ref name="USA-20120809">cite news |last=Halvorson |first=Todd |title=Quad 51: Name of Mars base evokes rich parallels on Earth |url=https://www.usatoday.com/tech/science/space/story/2012-08-09/mars-panorama-curiosity-quad-51/56922978/1 |date=August 9, 2012 |newspaper=USA Today |accessdate=August 12, 2012</ref> of Aeolis Palus inside the crater in front of the mountain. The target landing site location was an elliptical area convert|20|by|7|km|abbr=on.<ref name=ellipse/> Gale Crater's diameter is convert|154|km|abbr=on.
+
+The landing location for the rover was less than convert|2.4|km|abbr=on from the center of the planned landing ellipse, after a convert|350000000|mi|abbr=on|sigfig=3|order=flip journey.<ref name=cnn20120810>cite news |title='Impressive' Curiosity landing only 1.5 miles off, NASA says |url=http://www.cnn.com/2012/08/10/us/mars-curiosity/index.html?eref=mrss_igoogle_cnn |date=August 14, 2012 |accessdate=August 20, 2012</ref>  NASA named the rover landing site Bradbury Landing on sol age in sols|2012|8|6|2012|08|22, August 22, 2012.<ref name="NASA-20120822">cite web |last1=Brown |first1=Dwayne |last2=Cole |first2=Steve |last3=Webster |first3=Guy |last4=Agle |first4=D.C. |title=NASA Mars Rover Begins Driving at Bradbury Landing |url=http://www.nasa.gov/home/hqnews/2012/aug/HQ_12-292_Mars_Bradbury_Landing.html |date=August 22, 2012 |publisher=NASA |accessdate=August 22, 2012</ref> According to NASA, an estimated 20,000 to 40,000 heat-resistant bacterial spores were on ''Curiosity'' at launch, and as much as 1,000 times that number may not have been counted.<ref name="NYT-20151005-kc">cite news |last=Chang |first=Kenneth |title=Mars Is Pretty Clean. Her Job at NASA Is to Keep It That Way. |url=https://www.nytimes.com/2015/10/06/science/mars-catharine-conley-nasa-planetary-protection-officer.html |date=October 5, 2015 |work=The New York Times |accessdate=October 6, 2015</ref>
+
+ Media 
+
+= Videos =
+multiple image
+| align     = center
+| direction = horizontal
+| image1    = MSL Launches to the Red Planet.ogg
+| width1    = 200
+| alt1      =
+| caption1  = ''MSL'' launches from Cape Canaveral.
+| image2    = Curiosity's Seven Minutes of Terror.ogv
+| width2    = 200
+| alt2      =
+| caption2  = ''MSL's'' ''Seven Minutes of Terror'', a NASA video describing the landing.
+| image3    = Curiosity's descent in high-definition.ogv
+| width3    = 200
+| alt3      =
+| caption3  = ''MSL's'' descent to the surface of Gale (crater)|Gale Crater.
+| image4    = Curiosity heat-shield landing on Mars - MRO.ogv
+| width4    = 200
+| alt4      =
+| caption4  = ''MSL's'' heat shield hitting Martian ground and raising a cloud of dust.
+
+
+= Images =
+Gallery
+| align = center
+| title  =
+| lines  = 4
+| width  = 180
+| height = 140
+|Image:Mars Science Laboratory landing ellipse reduced.jpg|''Curiosity's'' landing site is on Aeolis Palus near Aeolis Mons|"Mount Sharp" in Gale Crater – north is down.
+|Image:NASA-MSL-Curiosity -Heat-shield.674789main pia16021-full full.jpg|Ejected Heat Shield as the rover descended to the Martian surface (August 6, 2012 05:17 UTC).
+|Image:HiRISE image of MSL during EDL (refined).png|''Curiosity'' descending under its parachute, as viewed by HiRISE (Mars Reconnaissance Orbiter|MRO) (August 6, 2012).
+|Image:PIA15696-HiRISE-MSL-Sol11 2 -br2.jpg|''MSL's'' Space debris|debris field on August 17, 2012 (3-D versions: [http://mars.jpl.nasa.gov/msl/images/Rover3D-pia16208-br2.jpg rover] & [http://mars.jpl.nasa.gov/msl/images/Parachute3D-pia16209-br2.jpg parachute]).
+|Image:Curiosity Rover (Exaggerated Color) - HiRISE - 20120814.jpg|''Curiosity's'' landing site ("Bradbury Landing") viewed by HiRISE (Mars Reconnaissance Orbiter|MRO) (August 14, 2012).
+|Image:First picture sent by the Mars Curiosity rover.jpg|''Curiosity's'' first image after landing – The rover's wheel can be seen (August 6, 2012).
+|Image:First colored image from Curiosity.jpg|''Curiosity's'' first color image of the Martian landscape (August 6, 2012).
+|Image:PIA16094-Mars Curiosity Rover-First Drive Tracks.jpg|''Curiosity's'' first test drive ("Bradbury Landing") (August 22, 2012).<ref name="NASA-20120822" />
+
+wide image|PIA16072-MarsCuriosityRover-20120809.jpg|800px|align-cap=center|Curiosity (rover)|''Curiosity'' rover – near Bradbury Landing (August 9, 2012).
+wide image |PIA16768-MarsCuriosityRover-AeolisMons-20120920.jpg|800px|align-cap=center|''Curiosity (rover)|Curiosity'''s view of "Aeolis Mons|Mount Sharp" (September 20, 2012; Color balance|white balanced) ([http://photojournal.jpl.nasa.gov/jpeg/PIA16769.jpg raw color]).
+
+wide image |PIA16453-MarsCuriosityRover-RocknestPanorama-20121126.jpg|800px|align-cap=center|''Curiosity (rover)|Curiosity'''s view from the "Rocknest (Mars)|Rocknest" looking eastward toward "Point Lake" (center) on the way to "Glenelg, Mars|Glenelg Intrigue" (November 26, 2012; Color balance|white balanced) (:File:PIA16453-MarsCuriosityRover-RocknestPanorama-Raw-20121126.jpg|raw color).
+wide image|PIA19912-MarsCuriosityRover-MountSharp-20151002.jpg|800px|align-cap=center|''Curiosity (rover)|Curiosity'''s view of "Mount Sharp" (September 9, 2015).
+wide image|Martian-Sunset-O-de-Goursac-Curiosity-2013.jpg|800px|align-cap=center|''Curiosity (rover)|Curiosity'''s view of Extraterrestrial skies#Mars|Mars sky at Sunset#Planets|sunset (February 2013; Sun simulated by artist).
+Clear
+
+ See also 
+Portal|Spaceflight
+Wikipedia books|Mars Science Laboratory
+div col|colwidth=20em
+* Aeolis quadrangle
+* Astrobiology
+* ExoMars|ExoMars rover
+* InSight|Insight lander
+* List of missions to Mars
+* List of rocks on Mars
+* Mars 2020|Mars 2020 rover
+* MAVEN
+* Robotic spacecraft
+* Scientific information from the Mars Exploration Rover mission
+* U.S. space exploration history on U.S. stamps
+div col end
+
+ References 
+reflist|30em|refs=
+<ref name=Air&Space>cite news |first=Bob |last=Craddock |title=Suggestion: Stop Improving – Why does every Mars mission have to be better than the last? |date=November 1, 2007 |url=http://www.airspacemag.com/space-exploration/WORLDS-MSL.html |work=Air & Space/Smithsonian |accessdate=November 10, 2007</ref>
+
+<ref name="CuriosityVxWorks">cite web |url=http://www.windriver.com/news/press/pr.html?ID=10901 |title=Wind River's VxWorks Powers Mars Science Laboratory Rover, Curiosity |accessdate=August 6, 2012</ref>
+
+<ref name="BrainTransplant">cite web |url=http://www.nasa.gov/home/hqnews/2012/aug/HQ_12-276_Curiosity_Rover_Software_Update.html |title=NASA Curiosity Mars Rover Installing Smarts for Driving |accessdate=August 10, 2012</ref>
+
+<ref name="DESCANSO">Cite journal |authors=Makovsky, Andre; Ilott, Peter; Taylor, Jim |title=Mars Science Laboratory Telecommunications System Design- Article 14 – DESCANSO Design and Performance Summary Series |publisher=Jet Propulsion Laboratory – NASA |place=Pasadena, California |date=November 2009 |url=http://descanso.jpl.nasa.gov/DPSummary/Descanso14_MSL_Telecom.pdf</ref>
+
+<ref name="landing-approach">cite web |url=http://www.universetoday.com/2007/07/17/the-mars-landing-approach-getting-large-payloads-to-the-surface-of-the-red-planet/ |title=The Mars Landing Approach: Getting Large Payloads to the Surface of the Red Planet |accessdate=October 21, 2008 |work=Universe Today</ref>
+
+<ref name="aarlmorse">cite web |title=New Mars Rover to Feature Morse Code |url=http://www.arrl.org/news/new-mars-rover-to-feature-morse-code |publisher=American Radio Relay League</ref>
+
+<ref name="aerojetMSLengines">cite web |url=http://aerojet.com/news2.php?action=fullnews&id=135 |title=Aerojet Ships Propulsion for Mars Science Laboratory |publisher=Aerojet |accessdate=December 18, 2010</ref>
+
+<ref name="BAE Systems Computers to Manage Data Processing and Command For Upcoming Satellite Missions">cite press release |url=http://www.baesystems.com/Newsroom/NewsReleases/autoGen_108517143749.html |title=BAE Systems Computers to Manage Data Processing and Command For Upcoming Satellite Missions |date=June 17, 2008 |accessdate=November 17, 2008 |publisher=BAE Systems |deadurl=yes |archiveurl=https://web.archive.org/web/20080906233128/http://www.baesystems.com/Newsroom/NewsReleases/autoGen_108517143749.html |archivedate=September 6, 2008 |df=</ref>
+
+<ref name="Brains">cite web |url=http://marsprogram.jpl.nasa.gov/msl/mission/rover/brains/ |title=Mars Science Laboratory: Mission: Rover: Brains |accessdate=March 27, 2009 |publisher=NASA/JPL</ref>
+
+<ref name="cpuspeed">cite web |url=http://mars.jpl.nasa.gov/msl/multimedia/interactives/learncuriosity/ |title=Learn About Me: Curiosity Rover |accessdate=August 8, 2012 |publisher=NASA/JPL |deadurl=yes |archiveurl=https://web.archive.org/web/20120807002724/http://mars.jpl.nasa.gov/msl/multimedia/interactives/learncuriosity/ |archivedate=August 7, 2012 |df=mdy-all</ref>
+
+<ref name="cruise">cite web |url=http://mars.jpl.nasa.gov/msl/mission/spacecraft/cruiseconfig/ |title=MSL – Cruise Configuration |accessdate=August 8, 2012 |author=NASA |work=JPL</ref>
+
+<ref name="Curiosity's data communication with Earth">cite web |url=http://mars.jpl.nasa.gov/msl/mission/communicationwithearth/data/ |title=Curiosity's data communication with Earth |publisher=NASA |accessdate=August 7, 2012</ref>
+
+<ref name="Current MSL Landing Sites">cite web |url=http://webgis.wr.usgs.gov/msl/ |title=Current MSL Landing Sites |accessdate=January 4, 2010 |publisher=NASA</ref>
+
+<ref name="double">[http://www.nasa.gov/mission_pages/sunearth/news/curiosity-stuntdouble.html NASA – ''Curiosity, The Stunt Double'' (2012)]</ref>
+
+<ref name="Doug McCuistion">cite web |url=http://sse.jpl.nasa.gov/people/profile.cfm?Code=McCuistionD |title=Doug McCuistion |publisher=NASA |accessdate=December 16, 2011 |deadurl=yes |archiveurl=https://web.archive.org/web/20120121000152/http://sse.jpl.nasa.gov/people/profile.cfm?Code=McCuistionD |archivedate=January 21, 2012 |df=mdy-all</ref>
+
+<ref name="E&ISNow&nbsp;— Media gets closer look at Manassas">cite web |url=http://www.baesystems.com/BAEProd/groups/public/documents/bae_publication/bae_pdf_eis_2008-08-1.pdf |title=E&ISNow&nbsp;— Media gets closer look at Manassas |date=August 1, 2008 |accessdate=November 17, 2008 |publisher=BAE Systems |deadurl=yes |archiveurl=https://web.archive.org/web/20080918035844/http://www.baesystems.com///BAEProd/groups/public/documents/bae_publication/bae_pdf_eis_2008-08-1.pdf |archivedate=September 18, 2008</ref>
+
+<ref name="ellipse">cite news |first=Jonathan |last=Amos |title=Nasa's Curiosity rover targets smaller landing zone |date=June 12, 2012 |url=https://www.bbc.co.uk/news/science-environment-18401248 |work=BBC News |accessdate=June 12, 2012</ref>
+
+<ref name="EntryDescentLanding">cite web |url=http://www.nasa.gov/mission_pages/msl/multimedia/gallery/pia13282.html |title=Final Minutes of Curiosity's Arrival at Mars |publisher=NASA/JPL |accessdate=April 8, 2011</ref>
+
+<ref name="Gale Crater: Geological 'sweet shop' awaits Mars rover">cite news |first=Jonathan |last=Amos |title=Gale Crater: Geological 'sweet shop' awaits Mars rover |date=August 3, 2012 |url=https://www.bbc.co.uk/news/science-environment-19112800 |work=BBC News |accessdate=August 6, 2012</ref>
+
+<ref name="Gale Crater">cite web |last1=Webster |first1=Guy |last2=Brown |first2=Dwayne |title=NASA's Next Mars Rover To Land At Gale Crater |date=July 22, 2011 |publisher=NASA JPL |url=http://www.jpl.nasa.gov/news/news.cfm?release=2011-222#1 |accessdate=July 22, 2011</ref>
+
+<ref name="Gale Crater2">cite web |last1=Chow |first1=Dennis |title=NASA's Next Mars Rover to Land at Huge Gale Crater |url=http://www.space.com/12394-nasa-mars-rover-landing-site-unveiled.html |date=July 22, 2011 |publisher=Space.com |accessdate=July 22, 2011</ref>
+
+<ref name="Gale Crater3">cite news |last1=Amos |first1=Jonathan |title=Mars rover aims for deep crater |date=July 22, 2011 |url=https://www.bbc.co.uk/news/science-environment-14249524 |work=BBC News |accessdate=July 22, 2011</ref>
+
+<ref name="ieeecomputer">cite journal |last=Bajracharya |first=Max |author2=Mark W. Maimone |author3=Daniel Helmick |title=Autonomy for Mars rovers: past, present, and future |journal=Computer |volume=41 |issue=12 |page=45 |doi=10.1109/MC.2008.9 |date=December 2008 |issn=0018-9162</ref>
+
+<ref name="ISStD">cite web |url=http://marsoweb.nas.nasa.gov/landingsites/index.html |title=Final 7 Prospective Landing Sites |accessdate=February 9, 2009 |publisher=NASA |date=February 19, 2009</ref>
+
+<ref name="launch date announcement">cite web |author=Guy Webster |title=Geometry Drives Selection Date for 2011 Mars Launch |url=http://www.jpl.nasa.gov/news/news.cfm?release=2010-171 |publisher=NASA/JPL-Caltech |accessdate=September 22, 2011</ref>
+
+<ref name="LaunchVehicle">cite web |url=http://marsprogram.jpl.nasa.gov/msl/mission/launchvehicle/ |title=Mars Science Laboratory: Mission: Launch Vehicle |publisher=NASA/JPL |accessdate=April 1, 2009</ref>
+
+<ref name="leone">cite web |last=Leone |first=Dan |title=Mars Science Lab Needs $44M More To Fly, NASA Audit Finds |url=http://spacenews.com/mars-science-lab-needs-44m-more-fly-nasa-audit-finds/ |date=July 8, 2011 |work=Space News International |accessdate=November 26, 2011</ref>
+
+<ref name="Looking at Landing Sites for the Mars Science Laboratory">cite web |url=https://www.youtube.com/watch?v=sfYK8r6tlrg |title=Looking at Landing Sites for the Mars Science Laboratory |date=May 27, 2009 |accessdate=May 28, 2009 |work=YouTube |publisher=NASA/JPL</ref>
+
+<ref name="LPSCMast">cite journal |url=http://www.lpi.usra.edu/meetings/lpsc2005/pdf/1214.pdf |bibcode=2005LPI....36.1214M |title=The Mast Cameras and Mars Descent Imager (MARDI) for the 2009 Mars Science Laboratory |author1=Malin |first1=M. C. |last2=Bell |first2=J. F. |last3=Cameron |first3=J. |last4=Dietrich |first4=W. E. |last5=Edgett |first5=K. S. |last6=Hallet |first6=B. |last7=Herkenhoff |first7=K. E. |last8=Lemmon |first8=M. T. |last9=Parker |first9=T. J. |displayauthors=8 |volume=36 |year=2005 |page=1214 |journal=36th Annual Lunar and Planetary Science Conference</ref>
+
+<ref name="MAHLI">cite web |url=http://msl-scicorner.jpl.nasa.gov/Instruments/MAHLI/ |title=Mars Hand Lens Imager (MAHLI) |publisher=NASA/JPL |accessdate=March 23, 2009</ref>
+
+<ref name="MARDI">cite web |url=http://msl-scicorner.jpl.nasa.gov/Instruments/MARDI/ |title=Mars Descent Imager (MARDI) |publisher=NASA/JPL |accessdate=April 3, 2009</ref>
+
+<ref name="Mars Descent Imager (MARDI)">cite web |url=http://msl-scicorner.jpl.nasa.gov/Instruments/MARDI/ |title=Mars Descent Imager (MARDI) |publisher=NASA/JPL |accessdate=December 2, 2009</ref>
+
+<ref name="Mars rover lands on Xbox Live">cite news |last=Snider |first=MikeH |title=Mars rover lands on Xbox Live |date=July 17, 2012 |url=https://www.usatoday.com/tech/science/space/story/2012-07-16/nasa-mars-rover-game/56253212/1 |work=USA Today |accessdate=July 27, 2012</ref>
+
+<ref name="Mars Science Laboratory Entry, Descent, and Landing Triggers">cite web |url=http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=04161341 |title=Mars Science Laboratory Entry, Descent, and Landing Triggers |accessdate=October 21, 2008 |authors=Kipp D., San Martin M., Essmiller J., Way D. |publisher=IEEE</ref>
+
+<ref name="Mars Science Laboratory Landing Press Kit">cite web |title=Mars Science Laboratory Landing Press Kit |url=http://solarsystem.nasa.gov/docs/MSL_Landing_20120724.pdf |publisher=NASA |date=July 2012 |page=6</ref>
+
+<ref name="Mars Science Laboratory: Entry, Descent, and Landing System Performance">cite web |title=Mars Science Laboratory: Entry, Descent, and Landing System Performance |url=https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20090007730_2009006430.pdf |publisher=NASA |date=March 2006 |page=7</ref>
+
+<ref name="Mars Science Laboratory: the budgetary reasons behind its delay">cite web |url=http://www.thespacereview.com/article/1318/1 |title=Mars Science Laboratory: the budgetary reasons behind its delay |work=The Space Review |date=March 2, 2009 |accessdate=January 26, 2010</ref>
+
+<ref name="WA-20120806">cite web |author=Staff |url=http://www.wolframalpha.com/input/?i=mars+earth+distance+august+5+2012 |title=Mars-Earth distance in light minutes |publisher=Wolfram Alpha |accessdate=August 6, 2012</ref>
+
+<ref name="MarsExplorationMMRTG">cite web |url=http://www.jpl.nasa.gov/news/fact_sheets/mars-power-heating.pdf |title=Mars Exploration: Radioisotope Power and Heating for Mars Surface Exploration |publisher=NASA/JPL |date=April 18, 2006 |accessdate=September 7, 2009</ref>
+
+<ref name="marstoday">[http://www.marstoday.com/news/viewsr.rss.html?pid=36353 Second Announcement for the Final MSL Landing Site Workshop and Call for Papers] webarchive|url=https://archive.is/20120908020952/http://www.marstoday.com/news/viewsr.rss.html?pid=36353 |date=September 8, 2012  March 2011</ref>
+
+<ref name="MastCam">cite web |url=http://msl-scicorner.jpl.nasa.gov/Instruments/Mastcam/ |title=Mast Camera (Mastcam) |publisher=NASA/JPL |accessdate=March 18, 2009</ref>
+
+<ref name="MastCamDescription">cite web |url=http://www.msss.com/msl/mastcam/MastCam_description.html |title=Mars Science Laboratory (MSL): Mast Camera (Mastcam): Instrument Description |publisher=Malin Space Science Systems |accessdate=April 19, 2009</ref>
+
+<ref name="Mission Timeline: Entry, Descent, and Landing">cite web |url=http://marsprogram.jpl.nasa.gov/msl/mission/tl_edl.html |title=Mission Timeline: Entry, Descent, and Landing |accessdate=October 7, 2008 |publisher=NASA and JPL |archiveurl=https://web.archive.org/web/20080619055613/http://marsprogram.jpl.nasa.gov/msl/mission/tl_edl.html |archivedate=June 19, 2008</ref>
+
+<ref name="MSL Workshop Summary">cite web |url=http://marsoweb.nas.nasa.gov/landingsites/msl/workshops/1st_workshop/docs/MSL_workshop_summary.pdf |title=MSL Workshop Summary |accessdate=May 29, 2007 |date=April 27, 2007 |format=PDF</ref>
+
+<ref name="MSL-main_page">cite web |title=Mars Science Laboratory: Mission |url=http://marsprogram.jpl.nasa.gov/msl/mission/ |publisher=NASA/JPL |accessdate=March 12, 2010</ref>
+
+<ref name="MSL&nbsp;— Landing Sites Workshop">Cite conference |url=http://marsoweb.nas.nasa.gov/landingsites/msl2009/memoranda/sites_jul08/Discussion%20Points-Science%20Criteria.doc |title=Landing – Discussion Points and Science Criteria |conference=MSL – Landing Sites Workshop |format=Microsoft Word |date=July 15, 2008</ref>
+
+<ref name="MSLMEDLIProject">cite web |url=http://www.mrc.uidaho.edu/~atkinson/SeniorDesign/ThermEx/MEDLI/MEDLI_SDR_Project_Overview.pdf |title=Science Overview System Design Review (SDR) |first=Michael |last=Wright |publisher=NASA/JPL |date=May 1, 2007 |accessdate=September 9, 2009 |deadurl=yes |archiveurl=https://web.archive.org/web/20091001023152/http://www.mrc.uidaho.edu/~atkinson/SeniorDesign/ThermEx/MEDLI/MEDLI_SDR_Project_Overview.pdf |archivedate=October 1, 2009 |df=mdy-all</ref>
+
+<ref name="MSLNamePressRelease">cite web |title=NASA Selects Student's Entry as New Mars Rover Name |url=http://www.nasa.gov/mission_pages/msl/msl-20090527.html |publisher=NASA/JPL |date=May 27, 2009 |accessdate=May 27, 2009</ref>
+
+<ref name="MSLSAM">cite web |url=http://msl-scicorner.jpl.nasa.gov/Instruments/SAM/ |title=MSL Science Corner: Sample Analysis at Mars (SAM) |publisher=NASA/JPL |accessdate=September 9, 2009</ref>
+
+<ref name="MSLUSAToday">cite news |title=Troubles parallel ambitions in NASA Mars project |work=USA Today |url=https://www.usatoday.com/tech/science/space/2008-04-13-mars_N.htm |date=April 14, 2008 |accessdate=May 27, 2009 |first=Traci |last=Watson</ref>
+
+<ref name="NASA-1">cite web |url=http://www.nasa.gov/mission_pages/msl/index.html |title=Mars Science Laboratory - Curiosity |first=Tony |last=Greicius |date=January 20, 2015 |publisher=</ref>
+
+<ref name="NASA-2">cite web |url=http://mars.jpl.nasa.gov/news/whatsnew/index.cfm?FuseAction=ShowNews&NewsID=1185 |title=NASA's Mars Science Laboratory Launch Rescheduled for November 26 |first=Allard |last=Beutel |date=November 19, 2011 |publisher=NASA |accessdate=November 21, 2011</ref>
+
+<ref name="NASA-20120328">cite web |last=Agle |first=D. C. |title='Mount Sharp' On Mars Links Geology's Past and Future |url=http://www.nasa.gov/mission_pages/msl/news/msl20120328.html |date=March 28, 2012 |publisher=NASA |accessdate=March 31, 2012</ref>
+
+<ref name="NASA's new Mars rover reaches Florida launch pad">cite news |url=https://www.reuters.com/article/2011/11/03/us-space-mars-idUSTRE7A26VA20111103 |work=Reuters |first=Jane |last=Sutton |title=NASA's new Mars rover reaches Florida launch pad |date=November 3, 2011</ref>
+
+<ref name="nasa">cite web |url=http://www.giss.nasa.gov/tools/mars24/ |title=NASA GISS: Mars24 Sunclock — Time on Mars |publisher=</ref>
+
+<ref name="nasa10">cite web |url=http://mars.jpl.nasa.gov/msl/mission/timeline/prelaunch/landingsiteselection/eberswalde2/ |title=Possible MSL Landing Site: Eberswalde Crater - Mars Science Laboratory |first=JPL, |last=NASA |publisher=</ref>
+
+<ref name="nasa11">cite web |url=http://mars.jpl.nasa.gov/msl/mission/timeline/prelaunch/landingsiteselection/holdencrater2/ |title=Possible MSL Landing Site: Holden Crater - Mars Science Laboratory |first=JPL, |last=NASA |publisher=</ref>
+
+<ref name="nasa12">cite web |url=http://mars.jpl.nasa.gov/msl/mission/timeline/prelaunch/landingsiteselection/galecrater2/ |title=Gale Crater - Mars Science Laboratory |first=JPL, |last=NASA |publisher=</ref>
+
+<ref name="nasa13">cite web |url=http://mars.jpl.nasa.gov/msl/mission/timeline/prelaunch/landingsiteselection/mawrthvallis2/ |title=Possible MSL Landing Site: Mawrth Vallis - Mars Science Laboratory |first=JPL, |last=NASA |publisher=</ref>
+
+<ref name="nasa14">[http://marsoweb.nas.nasa.gov/landingsites/msl/workshops/4th_workshop/program.html Presentations for the Fourth MSL Landing Site Workshop]  September 2010</ref>
+
+<ref name="nasa2">cite web |url=http://www.nasa.gov/mission_pages/msl/essay-20090527.html |title=NASA - Curiosity |publisher=</ref>
+
+<ref name="nasa3">cite web |url=http://marsprogram.jpl.nasa.gov/msl/mission/spacecraft/cruiseconfig/ |title=Cruise Configuration - Mars Science Laboratory |first=JPL, |last=NASA |publisher=</ref>
+
+<ref name="nasa5">cite web |url=http://ael.gsfc.nasa.gov/marsSAM.shtml |title=Home Page - Planetary Environments Laboratory  - 699 |publisher= |deadurl=yes |archiveurl=https://web.archive.org/web/20070222092231/http://ael.gsfc.nasa.gov/marsSAM.shtml |archivedate=February 22, 2007 |df=</ref>
+
+<ref name="nasa6">cite web |url=http://www.nasa.gov/mission_pages/msl/multimedia/malin-4.html |title=Seventeen Cameras on Curiosity |first=NASA |last=Administrator |date=June 6, 2013 |publisher=</ref>
+
+<ref name="nasa8">NASA, [http://www.nasa.gov/mission_pages/msl/msl-20090710.html Large Heat Shield for Mars Science Laboratory], July 10, 2009 (Retrieved March 26, 2010)</ref>
+
+<ref name="nasa9">cite web |url=http://marsoweb.nas.nasa.gov/landingsites/msl/memoranda/MSL_Eng_User_Guide_v3.pdf |title=MSL Landing Site Selection User's Guide to Engineering Constraints |accessdate=May 29, 2007 |date=June 12, 2006 |format=PDF</ref>
+
+<ref name="new wheels">cite web |title=Next Mars Rover Sports a Set of New Wheels |url=http://www.nasa.gov/mission_pages/msl/msl20100701.html |publisher=NASA/JPL</ref>
+
+<ref name="Next NASA Mars Mission Rescheduled For 2011">cite web |url=http://marsprogram.jpl.nasa.gov/msl/newsroom/pressreleases/20081204a.html |title=Next NASA Mars Mission Rescheduled For 2011 |publisher=NASA/JPL |date=December 4, 2008 |accessdate=December 4, 2008</ref>
+
+<ref name="NovEmail">cite web |url=http://www.marstoday.com/news/viewsr.html?pid=25991 |archive-url=https://archive.is/20120916132710/http://www.marstoday.com/news/viewsr.html?pid=25991 |dead-url=yes |archive-date=September 16, 2012 |title=Mars Science Laboratory Instrumentation Announcement from Alan Stern and Jim Green, NASA Headquarters |work=SpaceRef Interactive</ref>
+
+<ref name="oig report">cite web |last=Martin |first=Paul K. |title=NASA'S Management of the Mars Science Laboratory Project (IG-11-019) |url=http://oig.nasa.gov/audits/reports/FY11/IG-11-019.pdf |publisher=NASA Office of the Inspector General</ref>
+
+<ref name="overview">cite web |url=http://mars.jpl.nasa.gov/msl/mission/overview/ |title=Overview |accessdate=November 27, 2011 |work=JPL |publisher=NASA</ref>
+
+<ref name="ParaTest">cite web |url=http://marsprogram.jpl.nasa.gov/msl/news/index.cfm?FuseAction=ShowNews&NewsID=90 |title=Mars Science Laboratory Parachute Qualification Testing |publisher=NASA/JPL |accessdate=April 15, 2009</ref>
+
+<ref name="planetary">cite news |last=Lakdawalla |first=Emily |title=Mars Reconnaissance Orbiter HiRISE has done it again!! |date=August 6, 2012 |publisher=Planetary Society |url=http://www.planetary.org/blogs/emily-lakdawalla/2012/08060824-hirise-curiosity-parachute.html |work=NASA |accessdate=August 6, 2012</ref>
+
+<ref name="rad">cite web |url=http://mars.jpl.nasa.gov/msl/multimedia/images/?ImageID=4074 |title=Radiation Levels on the Way to Mars - Mars Science Laboratory |first= |last=mars.nasa.gov |publisher=</ref>
+
+<ref name="RAD6000brochure">cite news |title=RAD6000 Space Computers |publisher=BAE Systems |url=http://www.baesystems.com/BAEProd/groups/public/documents/bae_publication/bae_pdf_eis_sfrwre.pdf |format=PDF |date=June 23, 2008 |accessdate=September 7, 2009 |deadurl=yes |archiveurl=https://web.archive.org/web/20091004130528/http://www.baesystems.com/BAEProd/groups/public/documents/bae_publication/bae_pdf_eis_sfrwre.pdf |archivedate=October 4, 2009 |df=</ref>
+
+<ref name="RAD750brochure">cite news |title=RAD750 radiation-hardened PowerPC microprocessor |publisher=BAE Systems |url=http://www.baesystems.com/BAEProd/groups/public/@businesses/@eandis/documents/bae_publication/bae_pdf_eis_rad750_pwr_pc_mp.pdf |format=PDF |date=July 1, 2008 |accessdate=September 7, 2009</ref>
+
+<ref name="Reconnaissance of MSL Sites">cite web |url=http://hirise.lpl.arizona.edu/HiBlog/?p=131 |title=Reconnaissance of MSL Sites |accessdate=October 21, 2008 |date=January 4, 2008 |work=HiBlog |author=GuyMac</ref>
+
+<ref name="scientificamerican">[http://blogs.scientificamerican.com/guest-blog/2011/11/28/sky-crane-how-to-land-curiosity-on-the-surface-of-mars/ Sky Crane – how to land Curiosity on the surface of Mars] by Amal Shira Teitel.</ref>
+
+<ref name="Second MSL Landing Site Workshop">cite web |url=http://marsoweb.nas.nasa.gov/landingsites/msl2009/workshops/2nd_workshop/2nd_announcement.html |title=Second MSL Landing Site Workshop</ref>
+
+<ref name="SF1012012-07-06">cite news |url=http://www.spaceflight101.com/msl-mission-updates-3.html |title=MSL Mission Updates |newspaper=Spaceflight101.com |date=August 6, 2012 |deadurl=yes |archiveurl=https://web.archive.org/web/20120825095610/http://www.spaceflight101.com/msl-mission-updates-3.html |archivedate=August 25, 2012 |df=mdy-all</ref>
+
+<ref name="Site List Narrows For NASA's Next Mars Landing">cite news |url=http://www.marstoday.com/news/viewpr.rss.html?pid=26970 |archive-url=http://webarchive.loc.gov/all/20081127002707/http%3A//www.marstoday.com/news/viewpr.rss.html?pid%3D26970 |dead-url=yes |archive-date=November 27, 2008 |title=Site List Narrows For NASA's Next Mars Landing |date=November 19, 2008 |work=Mars Today |accessdate=April 21, 2009</ref>
+
+<ref name="Space-20120329">cite web |author=Staff writers |title=NASA's New Mars Rover Will Explore Towering 'Mount Sharp' |url=http://www.space.com/15097-mars-mountain-sharp-curiosity-rover.html |date=March 29, 2012 |work=Space.com |accessdate=March 30, 2012</ref>
+
+<ref name="spaceflightnow.com_1">cite news |title=Curiosity relies on untried 'sky crane' for Mars descent |date=July 31, 2012 |work=Spaceflight Now |url=http://spaceflightnow.com/mars/msl/120731skycrane/ |accessdate=August 1, 2012</ref>
+
+<ref name="spaceflightnow">cite news |author=William Harwood |title=Relay sats provide ringside seat for Mars rover landing |url=http://spaceflightnow.com/mars/msl/120731relay/ |work=Spaceflight Now |date=July 31, 2012 |accessdate=July 1, 2013</ref>
+
+<ref name="Stathopoulos">cite web |url=http://www.aerospaceguide.net/mars/science_laboratory.html |title=Mars Science Laboratory |accessdate=February 4, 2012 |last=Stathopoulos |first=Vic |date=October 2011 |work=Aerospace Guide</ref>
+
+<ref name="Survivor: Mars&nbsp;— Seven Possible MSL Landing Sites">cite news |title=Survivor: Mars&nbsp;— Seven Possible MSL Landing Sites |date=September 18, 2008 |publisher=NASA |url=http://mars.jpl.nasa.gov/msl/mission/timeline/prelaunch/landingsiteselection/sevencandidates/ |work=Jet Propulsion Laboratory |accessdate=October 21, 2008</ref>
+
+<ref name="thespacereview">Cite news |url=http://www.thespacereview.com/article/1318/1 |title=Mars Science Laboratory: the budgetary reasons behind its delay |work=The Space Review |first=Adrian |last=Brown |date=March 2, 2009 |accessdate=August 4, 2012 |quote=NASA first put a reliable figure of the cost of the MSL mission at the "Phase A/Phase B transition", after a preliminary design review (PDR) that approved instruments, design and engineering of the whole mission. That was in August 2006—and the Congress-approved figure was $1.63 billion. ... With this request, the MSL budget had reached $1.9 billion. ... NASA HQ requested JPL prepare an assessment of costs to complete the construction of MSL by the next launch opportunity (in October 2011). This figure came in around $300 million, and NASA HQ has estimated this will translate to at least $400 million (assuming reserves will be required), to launch MSL and operate it on the surface of Mars from 2012 through 2014.</ref>
+
+<ref name="universetoday">cite news |author=Nancy Atkinson |title=Mars Science Laboratory: Still Alive, For Now |url=http://www.universetoday.com/2008/10/10/mars-science-laboratory-still-alive-for-now |work=Universe Today |date=October 10, 2008 |accessdate=July 1, 2013</ref>
+
+<ref name="universetoday7">cite news |author=Ken Kremer |title=Assembling Curiosity's Rocket to Mars |url=http://www.universetoday.com/89346/assembling-curiosity%E2%80%99s-rocket-to-mars/ |work=Universe Today |date=October 9, 2011 |accessdate=July 9, 2013</ref>
+
+<ref name="Updated landing area">cite web |title=NASA Mars Rover Team Aims for Landing Closer to Prime Science Site |url=http://www.nasa.gov/mission_pages/msl/news/msl20120611.html |publisher=NASA/JPL |accessdate=May 15, 2012</ref>
+
+<ref name="Actual landing spot">cite web |url=https://www.bbc.co.uk/news/science-environment-19219782 |title=Curiosity rover made near-perfect landing |publisher=BBC |first=Jonathan |last=Amos |date=August 11, 2012 |accessdate=August 13, 2012</ref>
+
+<ref name="usra">[http://www.lpi.usra.edu/pss/jan92009/presentations/mslTechnicalCook.pdf MSL Technical and Replan Status]. Richard Cook. (January 9, 2009)</ref>
+
+<ref name="Wired-20120625">cite web |last=Mann |first=Adam |title=What NASA's Next Mars Rover Will Discover |url=https://www.wired.com/wiredscience/2012/06/msl-mars-new-discoveries/ |date=June 25, 2012 |publisher=Wired (magazine)|Wired Magazine |accessdate=June 26, 2012</ref>
+
+<ref name="youtube">cite web |url=https://www.youtube.com/watch?v=noy8o0lN1fE |title=Mars Science Laboratory (Full) |first= |last=BotJunkie |date=June 2, 2007 |publisher= |via=YouTube</ref>
+
+<ref name="MSLNameWebsite">cite web |title=Name NASA's Next Mars Rover |url=http://marsrovername.jpl.nasa.gov/ |publisher=NASA/JPL |date=May 27, 2009 |accessdate=May 27, 2009</ref>
+
+
+ Further reading 
+* cite journal |author=M. K. Lockwood |title=Introduction: Mars Science Laboratory: The Next Generation of Mars Landers And The Following 13 articles |journal=Journal of Spacecraft and Rockets|publisher=American Institute of Aeronautics and Astronautics |volume=43 |issue=2 |pages=257 |year=2006 |url=http://pdf.aiaa.org/jaPreview/JSR/2006/PVJA20678.pdf |format=PDF |doi=10.2514/1.20678 |bibcode=2006JSpRo..43..257L
+* Cite journal |last1=Grotzinger |first1=J. P. |last2=Crisp |first2=J. |author2-link=Joy Crisp |last3=Vasavada |first3=A. R. |last4=Anderson |first4=R. C. |last5=Baker |first5=C. J. |last6=Barry |first6=R. |last7=Blake |first7=D. F. |last8=Conrad |first8=P. |last9=Edgett |first9=K. S. | last10 = Ferdowski | first10 = B. |last11=Gellert |first11=R. |last12=Gilbert |first12=J. B. |last13=Golombek |first13=M. |last14=Gómez-Elvira |first14=J. |last15=Hassler |first15=D. M. |last16=Jandura |first16=L. |last17=Litvak |first17=M. |last18=Mahaffy |first18=P. |last19=Maki |first19=J. | last20 = Meyer | first20 = M. |last21=Malin |first21=M. C. |last22=Mitrofanov |first22=I. |last23=Simmonds |first23=J. J. |last24=Vaniman |first24=D. |last25=Welch |first25=R. V. |last26=Wiens |first26=R. C. |title=Mars Science Laboratory Mission and Science Investigation |doi=10.1007/s11214-012-9892-2 |journal=Space Science Reviews |volume=170 |issue=1–4 |pages=5–56 |year=2012 |pmid= |pmc= |bibcode=2012SSRv..170....5G—overview article about the MSL, landing site, and instrumentation
+
+ External links 
+Wiktionary|Mars Science Laboratory
+Commons category
+* [https://marsprogram.jpl.nasa.gov/msl/ MSL Home Page]
+* [https://mars.jpl.nasa.gov/files/mep/msl_sci_team_key_papers.pdf Scientific Publications by MSL Team Members] (PDF)
+* [https://mars.jpl.nasa.gov/msl/files/msl/MSL_Press_Kit.pdf MSL – Media Press Kit (November, 2011)] (PDF)
+* [https://www.nasa.gov/mission_pages/msl/multimedia/gallery-indexEvents.html Image Gallery]
+** [https://www.youtube.com/user/JPLnews MSL – NASA/JPL News Channel Videos]
+** [https://www.youtube.com/watch?v=E37Ss9Tm36c MSL – Entry, Descent & Landing (EDL) – Animated Video (02:00)]
+** [https://www.youtube.com/playlist?list=UULA_DiR1FfKNvjuUpBHmylQ MSL – NASA Updates – *REPLAY* Anytime (NASA-YouTube)]
+** [https://www.youtube.com/watch?v=zervvVw2dnU MSL – "''Curiosity'' Lands" (08/06/2012) – NASA/JPL – Video (03:40)]
+** Descent video [https://www.youtube.com/watch?v=GMsdobLq1-4 sim&real/narrated], [https://www.youtube.com/watch?v=fJgeoHBQpFQ MSL real time/25fps], [https://www.youtube.com/watch?v=VlKW1KG8ies all/4fp], [http://hirise.lpl.arizona.edu/releases/msl-descent.php HiRise]
+** [https://www.youtube.com/watch?v=Ki_Af_o9Q9s MSL – Landing ("7 Minutes of Terror")]
+** [https://www.youtube.com/watch?v=qrxvbRA2xCI MSL – Landing Site – Gale Crater – Animated/Narrated Video (02:37)]
+** [https://www.youtube.com/watch?v=P4boyXQuUIw MSL – Mission Summary – Animated/Extended Video (11:20)]
+** [https://www.youtube.com/watch?v=1QCNsKricls MSL – "''Curiosity'' Launch" (11/26/2011) – NASA/Kennedy – Video (04:00)]
+** [http://mars.jpl.nasa.gov/msl/multimedia/interactives/photosynth/ MSL – NASA/JPL Virtual Tour – Rover]
+* [https://spectrum.ieee.org/automaton/robotics/robotics-hardware/msl-what-to-expect-on-sunday-night MSL – Entry, Descent & Landing (EDL) – Timeline/ieee]
+* [https://web.archive.org/web/20050127234438/http://acquisition.jpl.nasa.gov/rfp/motion-simulator/MSL_EDL_Overview.pdf MSL – Entry, Descent & Landing (EDL) – Description.] (PDF)
+* [http://nasatech.net/ntCURIOSITY_PAGE.html MSL – Pre-Launch Preparations at KSC (Hi-Res Images & Spherical Panoramas)]
+* Twitter
+* [https://mars.jpl.nasa.gov/msl/multimedia/raw/ MSL – Raw Images], Listing by JPL (official)
+
+MSL
+Curiosity Rover Timeline|collapsible=collapsed
+Mars spacecraft
+NASA navbox|state=collapsed
+Solar System probes
+Astrobiology
+Jet Propulsion Laboratory
+Orbital launches in 2011
+Portal bar|Mars|Robotics|Spaceflight|Astrobiology
+Use American English|date=January 2014
+
+<!--Categories-->
+Category:Mars Science Laboratory| 
+Category:Space probes launched in 2011
+Category:2011 in Florida
+Category:NASA space probes
+Category:Missions to Mars
+Category:Mars rovers
+Category:Articles containing video clips
+Category:Soft landings on Mars
+Category:Astrobiology space missions

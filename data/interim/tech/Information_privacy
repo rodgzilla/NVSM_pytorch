@@ -1,0 +1,210 @@
+Information privacy, also known as data privacy or data protection, is the relationship between the collection and dissemination of data, technology, the public expectation of privacy, legal and political issues surrounding them.<ref>Cite book|url=https://www.worldcat.org/oclc/843857020|title=Uberveillance and the social implications of microchip implants : emerging technologies|others=Michael, M. G.,, Michael, Katina, 1976-|isbn=1466645822|location=Hershey, PA|oclc=843857020</ref>
+
+Privacy concerns exist wherever personally identifiable information or other Information sensitivity|sensitive information is collected, stored, used, and finally destroyed or deleted – in Digital data|digital form or otherwise. Improper or non-existent disclosure control can be the root cause for privacy issues. Data privacy issues may arise in response to information from a wide range of sources, such as:<ref>Cite book|url=https://www.worldcat.org/oclc/464584332|title=Programme Management Managing Multiple Projects Successfully.|date=2009|publisher=Global India Pubns|others=Mittal, Prashant.|isbn=9380228201|oclc=464584332</ref>
+* Healthcare records
+* Criminal justice investigations and proceedings
+* Financial institutions and transactions
+* Biological traits, such as genetic material
+* house|Residence and geographic records
+* Privacy breach
+* Location-based service and geolocation
+* Behavioral Targeting|Web surfing behavior or user preferences using persistent cookies
+* Academic research
+
+The challenge of data privacy is to use data while protecting an individual's privacy preferences and their personally identifiable information.<ref>Citation|last=Torra|first=Vicenç|title=Introduction|date=2017|url=https://doi-org.libproxy.berkeley.edu/10.1007/978-3-319-57358-8_1|work=Studies in Big Data|pages=1–21|publisher=Springer International Publishing|doi=10.1007/978-3-319-57358-8_1|isbn=9783319573564|access-date=2018-09-27</ref> The fields of computer security, data security, and information security design and use software, Computer hardware|hardware, and human resources to address this issue. Since the laws and regulations related to Privacy and Data Protection are constantly changing, it is important to keep abreast of any changes in the law and to continually reassess compliance with data privacy and security regulations.<ref>Robert Hasty, Dr Trevor W. Nagel and Mariam Subjally, ''Data Protection Law in the USA.'' (Advocates for International Development, August 2013.)cite web |url=http://a4id.org/sites/default/files/user/Data%20Protection%20Law%20in%20the%20USA_0.pdf |title=Archived copy |accessdate=2013-10-14 |deadurl=yes |archiveurl=https://web.archive.org/web/20150925093457/http://www.a4id.org/sites/default/files/user/Data%20Protection%20Law%20in%20the%20USA_0.pdf |archivedate=2015-09-25 |df= </ref> Within academia, Institutional review board|Institutional Review Boards function to assure that adequate measures are taken to ensure both the privacy and confidentiality of human subjects in research.<ref>Cite web|url=https://www.hhs.gov/ohrp/education-and-outreach/archived-materials/index.html|title=Institutional Review Board - Guidebook, CHAPTER IV - CONSIDERATIONS OF RESEARCH DESIGN|last=|first=|date=October 5, 2017|website=www.hhs.gov|access-date=October 5, 2017</ref>
+
+ Information types 
+Various types of personal information often come under privacy concerns.
+
+= Internet =
+Main|Internet privacy
+
+The ability to control the information one reveals about oneself over the internet, and who can access that information, has become a growing concern. These concerns include whether email can be stored or read by third parties without consent, or whether third parties can continue to track the websites that someone has visited. Another concern is if the websites that are visited can collect, store, and possibly share personally identifiable information about users.
+
+The advent of various Web search engine|search engines and the use of data mining created a capability for data about individuals to be collected and combined from a wide variety of sources very easily.<ref>cite news| url=https://www.usatoday.com/tech/news/surveillance/2006-06-18-data-mining-privacy_x.htm | work=USA Today | title=Research explores data mining, privacy | date=2006-06-18 | accessdate=2010-05-05 | first=Brian | last=Bergstein</ref><ref>cite news| url=http://www.seattlepi.com/business/154986_privacychallenge02.html | work=Seattle Post-Intelligencer | first=Brian | last=Bergstein | title=In this data-mining society, privacy advocates shudder | date=2004-01-01</ref><ref>cite news| url=http://connection.ebscohost.com/c/articles/21472572/u-s-demands-google-web-data | work=Information Management Journal | title=U.S. Demands Google Web Data | year=2006 | first=Nikki | last=Swartz  Vol. 40 Issue 3, p. 18</ref> The FTC has provided a set of guidelines that represent widely accepted concepts concerning fair information practices in an electronic marketplace called the Fair Information Practice Principles.
+
+In order not to give away too much personal information, emails should be encrypted. Browsing of web pages as well as other online activities should be done trace-less via "anonymizers", in case those are not trusted, by open-source distributed anonymizers, so called mix nets, such as I2P or Tor (anonymity network)|Tor – The Onion Router.
+
+Email isn't the only internet content with privacy concerns. In an age where increasing amounts of information are going online, social networking sites pose additional privacy challenges. People may be tagged in photos or have valuable information exposed about themselves either by choice or unexpectedly by others. Caution should be exercised with what information is being posted, as social networks vary in what they allow users to make private and what remains publicly accessible.<ref name="SchneiderTheInter08">cite book |url=https://books.google.com/books?id=E1fQdrzxAPoC&pg=PA17-IA137 |title=The Internet: Illustrated Series |author=Schneider, G.; Evans, J.; Pinard, K.T. |publisher=Cengage Learning |page=156 |year=2008 |isbn=9781423999386 |accessdate=9 May 2018</ref> Without strong security settings in place and careful attention to what remains public, a person can be profiled by searching for and collecting disparate pieces of information, worst case leading to cases of cyberstalking<ref name="BocijCyber04">cite book |title=Cyberstalking: Harassment in the Internet Age and How to Protect Your Family |author=Bocij, P. |publisher=Greenwood Publishing Group |pages=268 |year=2004 |isbn=9780275981181</ref> or reputational damage.<ref name="CannataciPrivacy16">cite book |url=https://books.google.com/books?id=tGC_DQAAQBAJ&pg=PA26 |title=Privacy, free expression and transparency: Redefining their new boundaries in the digital age |author=Cannataci, J.A.; Zhao, B.; Vives, G.T. et al. |publisher=UNESCO |page=26 |year=2016 |isbn=9789231001888 |accessdate=9 May 2018</ref>
+
+= Cable television =
+This describes the ability to control what information one reveals about oneself over cable television, and who can access that information. For example, third parties can track IP TV programs someone has watched at any given time. "The addition of any information in a broadcasting stream is not required for an audience rating survey, additional devices are not requested to be installed in the houses of viewers or listeners, and without the necessity of their cooperations, audience ratings can be automatically performed in real-time."<ref>cite news | url=http://www.freepatentsonline.com/y2010/0011389.html | work=FreePatentsOnline.com | title=System for Gathering TV Audience Rating in Real Time in Internet Protocol Television Network and Method Thereof| date=2010-01-14 | accessdate=2011-06-07</ref>
+
+= Medical =
+Main|Medical privacy
+
+People may not wish for their medical records to be revealed to others. This may be because they have concern that it might affect their insurance coverages or employment. Or, it may be because they would not wish for others to know about any medical or psychological conditions or treatments that would bring embarrassment upon themselves. Revealing medical data could also reveal other details about one's personal life.<ref>cite journal|url=http://aisel.aisnet.org/amcis2011_submissions/341/|title=The Economic Effect of Privacy Breach Announcements on Stocks: A Comprehensive Empirical Investigation|first1=Nicholas-Donald,|last1=Aurelia|first2=Matus, Jesus|last2=Francisco|first3=Ryu,|last3=SeungEui|first4=Mahmood, Adam|last4=M|date=1 June 2017|website=aisnet.org</ref>  There are three major categories of medical privacy: informational (the degree of control over personal information), physical (the degree of physical inaccessibility to others), and psychological (the extent to which the doctor respects patients’ cultural beliefs, inner thoughts, values, feelings, and religious practices and allows them to make personal decisions).<ref>cite journal|last=Serenko|first=Natalia|author2=Lida Fan|title=Patients’ Perceptions of Privacy and Their Outcomes in Healthcare|journal=International Journal of Behavioural and Healthcare Research |year=2013|url=http://aserenko.com/IJBHR_Serenko_Fan.pdf|volume = 4|issue=2|pages= 101–122 </ref>
+Physicians and psychiatrists in many cultures and countries have standards for doctor-patient relationships, which include maintaining confidentiality. In some cases, the physician-patient privilege is legally protected. These practices are in place to protect the dignity of patients, and to ensure that patients will feel free to reveal complete and accurate information required for them to receive the correct treatment.<ref>cite web|url=http://www.enotes.com/everyday-law-encyclopedia/doctor-patient-confidentiality|title=If a patient is below the age of 18-years does confidentiality still works or should doctor breach and inform the parents?15years girl went for... - eNotes|website=eNotes</ref>
+To view the United States' laws on governing privacy of private health information, see Health Insurance Portability and Accountability Act|HIPAA and the Health Information Technology for Economic and Clinical Health Act|HITECH Act.
+
+= Financial =
+Main|Financial privacy
+Information about a person's financial transactions, including the amount of assets, positions held in stocks or funds, outstanding debts, and purchases can be sensitive. If criminals gain access to information such as a person's accounts or credit card numbers, that person could become the victim of fraud or identity theft.  Information about a person's purchases can reveal a great deal about that person's history, such as places he/she has visited, whom he/she has contacted with, products he/she has used, his/her activities and habits, or medications he/she has used. In some cases, corporations may use this information to target individuals with marketing customized towards those individual's personal preferences, which that person may or may not approve.
+
+= Locational =
+As location tracking capabilities of mobile devices are advancing (location-based services), problems related to user privacy arise. Location data is among the most sensitive data currently being collected.<ref name="AtaeiEphem16">cite book |url=https://books.google.com/books?id=_BdADQAAQBAJ&pg=PA360 |title=Progress in Location-Based Services 2016 |chapter=Ephemerality Is the New Black: A Novel Perspective on Location Data Management and Location Privacy in LBS |author=Ataei, M.; Kray, C. |publisher=Springer |pages=357–374 |year=2016 |isbn=9783319472898 |accessdate=9 May 2018</ref> A list of potentially sensitive professional and personal information that could be inferred about an individual knowing only his mobility trace was published recently by the Electronic Frontier Foundation.<ref>cite web|last=Blumberg, A. Eckersley, P.|title=On locational privacy and how to avoid losing it forever.|url=https://www.eff.org/wp/locational-privacy|publisher=EFF</ref> These include the movements of a competitor sales force, attendance of a particular church or an individual's presence in a motel, or at an abortion clinic. A recent MIT study<ref>cite journal|last=de Montjoye|first=Yves-Alexandre|author2=César A. Hidalgo |author3=Michel Verleysen |author4=Vincent D. Blondel |title=Unique in the Crowd: The privacy bounds of human mobility|journal=Scientific Reports|date=March 25, 2013|doi=10.1038/srep01376|url=http://www.nature.com/srep/2013/130325/srep01376/full/srep01376.html|accessdate=12 April 2013</ref><ref>cite news|last=Palmer|first=Jason|title=Mobile location data 'present anonymity risk'|url=https://www.bbc.co.uk/news/science-environment-21923360|accessdate=12 April 2013|newspaper=BBC News|date=March 25, 2013</ref> by de Montjoye et al. showed that four spatio-temporal points, approximate places and times, are enough to uniquely identify 95% of 1.5&nbsp;million people in a mobility database. The study further shows that these constraints hold even when the resolution of the dataset is low. Therefore, even coarse or blurred datasets provide little anonymity.
+
+= Political =
+Main|Political privacy
+Political privacy has been a concern since voting systems emerged in ancient times. The secret ballot is the simplest and most widespread measure to ensure that political views are not known to anyone other than the voters themselves—it is nearly universal in modern democracy, and considered to be a basic right of citizenship. In fact, even where other rights of privacy do not exist, this type of privacy very often does.
+
+= Educational =
+In the United Kingdom in 2012, the Education Secretary Michael Gove described the National Pupil Database as a "rich dataset" whose value could be "maximised" by making it more openly accessible, including to private companies. Kelly Fiveash of ''The Register'' said that this could mean "a child's school life including exam results, attendance, teacher assessments and even characteristics" could be available, with third-party organizations being responsible for anonymizing any publications themselves, rather than the data being anonymized by the government before being handed over. An example of a data request that Gove indicated had been rejected in the past, but might be possible under an improved version of privacy regulations, was for "analysis on sexual exploitation".<ref>cite news|url=https://www.theregister.co.uk/2012/11/08/national_pupil_database_regulation_overhaul_in_private_sector_data_grab/|title=Psst: Heard the one about the National Pupil Database? Thought not|date=2012-11-08|accessdate=2012-12-12|work=The Register|last=Fiveash|first=Kelly</ref>
+
+ Legality 
+Main|Information privacy law
+
+The legal protection of the right to privacy in general – and of data privacy in particular – varies greatly around the world.<ref>Cite web|url=http://brooklynworks.brooklaw.edu/cgi/viewcontent.cgi?article=1082&context=bjil|title=Blurred Line: Zooming in on Google Street View and the Global Right to Privacy|last=Rakower|first=Lauren|date=2011|website=brooklynworks.brooklaw.edu|archive-url=https://web.archive.org/web/20171005101128/http://brooklynworks.brooklaw.edu/cgi/viewcontent.cgi?article=1082&context=bjil|archive-date=2017-10-05|dead-url=no|access-date=</ref>
+
+ Safe Harbor program and passenger name record issues 
+The United States Department of Commerce created the International Safe Harbor Privacy Principles certification program in response to the Directive 95/46/EC on the protection of personal data|1995 Directive on Data Protection (Directive 95/46/EC) of the European Commission.<ref>cite web|url=http://ec.europa.eu/justice_home/fsj/privacy/law/index_en.htm|title=Protection of personal data – European Commission|website=ec.europa.eu</ref> Directive 95/46/EC declares in Chapter IV Article 25 that personal data may only be transferred from the countries in the European Economic Area to countries which provide adequate privacy protection. Historically, establishing adequacy required the creation of national laws broadly equivalent to those implemented by Directive 95/46/EU. Although there are exceptions to this blanket prohibition – for example where the disclosure to a country outside the EEA is made with the consent of the relevant individual (Article 26(1)(a)) – they are limited in practical scope.  As a result, Article 25 created a legal risk to organisations which transfer personal data from Europe to the United States.
+
+The program regulates the exchange of passenger name record information between the EU and the US. According to the EU directive, personal data may only be transferred to third countries if that country provides an adequate level of protection. Some exceptions to this rule are provided, for instance when the controller himself can guarantee that the recipient will comply with the data protection rules.
+
+The European Commission has set up the "Working party on the Protection of Individuals with regard to the Processing of Personal Data," commonly known as the "Article 29 Working Party".  The Working Party gives advice about the level of protection in the European Union and third countries.
+
+The Working Party negotiated with U.S. representatives about the protection of personal data, the Safe Harbor Principles were the result. Notwithstanding that approval, the self-assessment approach of the Safe Harbor remains controversial with a number of European privacy regulators and commentators.<ref>cite web|url=http://ec.europa.eu/justice_home/fsj/privacy/docs/adequacy/sec-2004-1323_en.pdf|title=Protection of personal data – European Commission|website=ec.europa.eu</ref>
+
+The Safe Harbor program addresses this issue in the following way: rather than a blanket law imposed on all organisations in the United States, a voluntary program is enforced by the FTC. U.S. organisations which register with this program, having self-assessed their compliance with a number of standards, are "deemed adequate" for the purposes of Article 25. Personal information can be sent to such organisations from the EEA without the sender being in breach of Article 25 or its EU national equivalents.  The Safe Harbor was approved as providing adequate protection for personal data, for the purposes of Article 25(6), by the European Commission on 26 July 2000.<ref>cite web|url=http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32000D0520:EN:HTML|title=EUR-Lex – 32000D0520 – EN|website=eur-lex.europa.eu</ref>
+
+Under the Safe Harbor, adoptee organisations need to carefully consider their compliance with the ''onward transfer obligations'', where personal data originating in the EU is transferred to the US Safe Harbor, and then onward to a third country. The alternative compliance approach of "binding corporate rules", recommended by many EU privacy regulators, resolves this issue.  In addition, any dispute arising in relation to the transfer of HR data to the US Safe Harbor must be heard by a panel of EU privacy regulators.<ref>cite web|url=http://ec.europa.eu/justice_home/fsj/privacy/docs/adequacy/information_safe_harbour_en.pdf|title=Protection of personal data – European Commission|website=ec.europa.eu</ref>
+
+In July 2007, a new, controversial,<ref name=R89 /> Passenger Name Record agreement between the US and the EU was made.<ref>https://web.archive.org/web/20120112021643/http://www.libertysecurity.org/article1591.html</ref><!--NOTE: Archive-only. Domain usage has changed.--> A short time afterwards, the Presidency of George W. Bush|Bush administration gave exemption for the Department of Homeland Security, for the Arrival and Departure Information System (ADIS) and for the Automated Target System from the 1974 Privacy Act.<ref name=Exemption>Statewatch, [http://www.statewatch.org/news/2007/sep/04eu-usa-pnr-exemptions.htm  US changes the privacy rules to exemption access to personal data] September 2007</ref>
+
+In February 2008, Jonathan Faull, the head of the EU's Commission of Home Affairs, complained about the US bilateral policy concerning PNR.<ref name=Faull>[http://euobserver.com/9/25657 Brussels attacks new US security demands], European Observer. See also [http://www.statewatch.org/news/ Statewatch newsletter] February 2008</ref> The US had signed in February 2008 a memorandum of understanding (MOU) with the Czech Republic in exchange of a visa waiver scheme, without concerting before with Brussels.<ref name=R89>[http://www.rue89.com/2008/03/04/a-divided-europe-wants-to-protect-its-personal-data-wanted-by-the-us A divided Europe wants to protect its personal data wanted by the US], ''Rue 89'', 4 March 2008 en icon</ref> The tensions between Washington and Brussels are mainly caused by a lesser level of data protection in the US, especially since foreigners do not benefit from the US Privacy Act of 1974. Other countries approached for bilateral MOU included the United Kingdom, Estonia, Germany and Greece.<ref>Statewatch, March 2008</ref>
+
+ Protecting privacy in information systems 
+As heterogeneous information systems with differing privacy rules are interconnected and information is shared, policy appliances will be required to reconcile, enforce, and monitor an increasing amount of privacy policy rules (and laws). There are two categories of technology to address privacy protection in Commerce|commercial IT systems: communication and enforcement.
+
+;Policy communication
+* P3P – The Platform for Privacy Preferences.  P3P is a standard for communicating privacy practices and comparing them to the preferences of individuals.
+
+;Policy enforcement
+* XACML – The Extensible Access Control Markup Language together with its Privacy Profile is a standard for expressing privacy policies in a machine-readable language which a software system can use to enforce the policy in enterprise IT systems.
+* Enterprise Privacy Authorization Language|EPAL – The Enterprise Privacy Authorization Language is very similar to XACML, but is not yet a standard.
+* WS-Privacy - "Web Service Privacy" will be a specification for communicating privacy policy in web services.  For example, it may specify how privacy policy information can be embedded in the SOAP envelope of a web service message.
+
+;Protecting privacy on the internet
+On the internet many users give away a lot of information about themselves: unencrypted e-mails can be read by the administrators of an e-mail server, if the connection is not encrypted (no HTTPS), and also the internet service provider and other parties packet analyzer|sniffing the network traffic of that connection are able to know the contents.
+The same applies to any kind of traffic generated on the Internet, including web browsing, instant messenger|instant messaging, and others.
+In order not to give away too much personal information, e-mails can be encrypted and browsing of webpages as well as other online activities can be done traceless via anonymizers, or by open source distributed anonymizers, so-called mix networks.
+Well known open-source mix nets include  I2P|I2P – The Anonymous Network and Tor (anonymity network)|Tor.
+
+= Improving privacy through individualization =
+
+Computer privacy can be improved through forensic identification|individualization. Currently security messages are designed for the "average user", i.e. the same message for everyone.  Researchers have posited that individualized messages and security "nudges", crafted based on users' individual differences and personality traits, can be used for further improvements for each person's compliance with computer security and privacy.<ref>Cite web|url = https://blues.cs.berkeley.edu/blog/2015/08/26/the-myth-of-the-average-user-improving-privacy-and-security-systems-through-individualization-nspw-15/|title = The Myth of the Average User: Improving Privacy and Security Systems through Individualization (NSPW ’15) ! BLUES|website = blues.cs.berkeley.edu|access-date = 2016-03-11</ref>
+
+ Authorities 
+
+= Laws =
+columns-list|colwidth=30em|
+See also|Information privacy law
+* General Data Protection Regulation (European Union)
+* Data Protection Directive (EU)
+* Data Protection Act 1998 (UK)
+* Data Protection Act, 2012 (Ghana)
+* Data protection (privacy) laws in Russia
+* Personal Data Protection Act 2012 (Singapore)<ref>cite web|title=Legislation and Guidelines: Overview|url=https://www.pdpc.gov.sg/Legislation-and-Guidelines/Personal-Data-Protection-Act-Overview|website=Personal Data Protection Commission</ref>
+* Republic Act No. 10173: Data Privacy Act of 2012 (Philippines)<ref>cite web|title=Data Privacy Act of 2012|url=http://www.officialgazette.gov.ph/2012/08/15/republic-act-no-10173/|website=Official Gazette of the Republic of the Philippines</ref>
+* Privacy Act (Canada)
+
+
+= Authorities by country =
+columns-list|colwidth=30em|
+See also|Information commissioner|National data protection authority
+* National data protection authority|National data protection authorities in the European Union and the European Free Trade Association
+* Office of the Australian Information Commissioner (Australia)
+* ''Commission nationale de l'informatique et des libertés'' (France)
+* Federal Commissioner for Data Protection and Freedom of Information (Germany)
+* Data Protection Commissioner (Republic of Ireland|Ireland)
+* Office of the Data Protection Supervisor (Isle of Man)
+* Federal Data Protection and Information Commissioner (Switzerland)
+* Information Commissioner's Office (United Kingdom)
+* Office of the Privacy Commissioner for Personal Data (Hong Kong)
+* National Privacy Commission (Philippines)
+* Personal Data Protection Commission (Singapore)
+
+
+ See also 
+columns-list|colwidth=30em|
+* Privacy
+* Privacy law|Privacy Law
+* ePrivacy Regulation
+* Data sovereignty
+* Data localization
+* Digital inheritance
+* Genetic privacy
+* Privacy enhancing technologies
+* Privacy software
+* Web literacy (privacy)
+
+
+;Computer science specific
+columns-list|colwidth=30em|
+* Authentication
+* Data security
+* Data retention
+* Data loss prevention software
+* Differential privacy
+
+
+;Organisations
+columns-list|colwidth=30em|
+* Confederation of European Data Protection Organisations
+* Data Privacy Day (28 January)
+* Privacy International (headquartered in UK)
+* International Association of Privacy Professionals (headquartered in USA)
+
+
+;Scholars working in the field
+columns-list|colwidth=30em|
+* Khaled El Emam
+* Stefan Brands
+* Adam Back
+* Lance Cottrell
+* Cynthia Dwork
+* Ian Goldberg
+* Latanya Sweeney
+* Peter Gutmann (computer scientist)|Peter Gutmann
+
+
+ References 
+reflist|30em
+
+ Further reading 
+* cite book|author1=Philip E. Agre|author2=Marc Rotenberg|title=Technology and privacy: the new landscape|year=1998|publisher=MIT Press|isbn=978-0-262-51101-8
+
+ External links 
+;International
+* [http://www.echr.coe.int/NR/rdonlyres/4FCF8133-AD91-4F7B-86F0-A448429BC2CC/0/FICHES_Protection_des_données_EN.pdf Factsheet on ECtHR case law on data protection]
+* [https://icdppc.org/ International Conference of Data Protection and Privacy Commissioners]
+* [http://www.biometricsinstitute.org/pages/privacy-biometrics.html Biometrics Institute Privacy Charter]
+
+;Europe
+* [http://ec.europa.eu/justice_home/fsj/privacy/ EU data protection page]
+* [http://unescoprivacychair.urv.cat/ UNESCO Chair in Data Privacy]
+* [http://www.edps.europa.eu/EDPSWEB/ European Data Protection Supervisor]
+
+;Latin America
+* [http://www.rlpdp.com/ Latin American Data Protection Law Review]
+
+;North America
+* [http://www.pacc-ccap.ca/ Privacy and Access Council of Canada]
+* [http://privacy.cs.cmu.edu/ Laboratory for International Data Privacy] at Carnegie Mellon University.
+* [http://www.epic.org/privacy/consumer/states.html Privacy Laws by State]
+
+;Journals
+* [http://www.computer.org/security/ IEEE Security & Privacy magazine]
+* [http://www.tdp.cat/ Transactions on Data Privacy]
+
+data
+Privacy
+
+Authority control
+
+<!--  -->
+
+Category:Information privacy| 
+Category:Privacy
+Category:Data protection
+Category:Data laws

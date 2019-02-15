@@ -1,0 +1,81 @@
+A cypherpunk anonymous remailer is a Type I anonymous remailer that takes messages encrypted with Pretty Good Privacy|PGP or GNU Privacy Guard|GPG, or in some cases in plain text, and forwards them removing any identifying  information from the header.
+
+Sending a Cypherpunk Message
+
+Step 1:  Retrieving the remailer's Public Key.
+
+:Generally you can get a Cypherpunk remailer's public key by sending an email message with the subject "remailer-key" to the server you wish to use.
+
+Step 2:  Import remailer's public keys into Pretty Good Privacy|PGP or GNU Privacy Guard|GPG.
+
+Step 3:  Compose Message
+
+:Compose the message in your favorite text editor, using the following template:
+
+<pre>::
+Anon-To: <Recipient Email Address>
+
+##
+Subject: <Subject>
+
+<Message Text>
+</pre>
+
+Step 4: Encrypt Message
+
+:Use Pretty Good Privacy|PGP or GNU Privacy Guard|GPG to encrypt the message that you just composed using the remailer's public key.
+
+Step 5: Send Encrypted Message to Remailer
+
+:Prepare an email to send to the Cypherpunk remailer using the following template:
+
+<pre>
+::
+Encrypted: PGP
+
+-----BEGIN PGP MESSAGE-----
+<place encrypted output here>
+-----END PGP MESSAGE-----
+</pre>
+
+:Then send it.
+
+Notes
+
+* The extra headers are called 'pseudoheaders' because they do not appear in the RFC 822 headers specification for email.
+* Messages to Cypherpunk remailers may be layered so they route through several different Cypherpunk remailers to decrease the odds of anyone determining who the sender is.
+* Some Cypherpunk remailers are also Mixmaster anonymous remailers and can split long Cypherpunk messages into Mixmaster packets and send them to the next remailer, if it also understands Mixmaster.
+* Many Cypherpunk remailer users will repeat steps 1-4 to wrap their message in additional layers to route it through several remailers for additional privacy and security.
+
+See also
+
+Portal|Cryptography
+
+* Anonymity
+** Anonymous P2P
+** Anonymous remailer
+*** Mixmaster anonymous remailer (Type II)
+*** Mixminion (Type III)
+** Onion routing
+*** Tor (anonymity network)
+** Pseudonymous remailer (a.k.a. nym servers)
+*** Penet remailer
+* Data privacy
+* Traffic analysis
+
+
+= Howtos and Examples =
+*[http://email.about.com/library/weekly/aa042400a.htm About.com: Send Email Anonymously — Chaining Remailers with PGP]
+*[http://feraga.com/node/73 Feraga.com: Howto use a Type I Anonymous Remailer] (link not active 12 May 2010, see [https://web.archive.org/web/20070223110507/http://feraga.com/node/73 archive version])
+
+Further reading
+
+* ''Email Security'', Bruce Schneier (ISBN|0-471-05318-X)
+* ''Computer Privacy Handbook'', Andre Bacard (ISBN|1-56609-171-3)
+
+Category:Internet Protocol based network software
+Category:Anonymity networks
+
+
+network-software-stub
+Security-software-stub

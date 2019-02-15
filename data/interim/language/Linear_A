@@ -1,0 +1,838 @@
+Use British English|date=December 2012
+Use dmy dates|date=August 2017
+Infobox writing system
+|name        = Linear A
+|type        = Undeciphered
+|typedesc    = (presumed Syllabary|syllabic and ideographic)
+|languages   = 'Minoan language|Minoan' (unknown)
+|time        = Minoan chronology|MM IB to LM IIIA
+2500–1450&nbsp;BCsfn|Haarmann|2008|pp=12–46
+|status      = Extinct
+|sisters     = Cretan hieroglyphs
+|children    = Linear B, Cypro-Minoan syllabarysfn|Palaima|1997|pp=121–188
+|sample      = Linear A cup.png
+|imagesize   = 250px
+|unicode     = [https://www.unicode.org/charts/PDF/U10600.pdf U+10600–U+1077F]<br />
+[https://www.unicode.org/L2/L2010/10422-n3973-lineara.pdf Final&nbsp;Accepted&nbsp;Script&nbsp;Proposal]
+|iso15924    = Lina
+|note        = none
+
+ SpecialChars
+| compact    = 
+| special    = Linear A (Unicode block)|Linear A Unicode characters
+| fix        = Help:Multilingual_support#Linear A
+| characters = Linear A
+
+Linear A is a writing system used by the Minoans (Cretans) from 2500 to 1450 BC. Along with Cretan hieroglyphs|Cretan hieroglyphic, it is one of two undeciphered writing systems used by ancient Minoan and peripheral peoples. Linear A was the primary script used in palace and religious writings of the Minoan civilization. It was discovered by archaeologist Sir Arthur Evans. It is related to the Linear B script, which succeeded the Linear A and was used by the Mycenaean civilization.
+
+In the 1950s, Linear B was largely Linear B#Discovery and decipherment|deciphered and found to encode an early form of Greek. Although the two systems share many symbols, this did not lead to a subsequent decipherment of Linear A. Using the syllable|values associated with Linear B in Linear A mainly produces Intelligibility (communication)|unintelligible words. If Linear A uses the same or similar syllabic values as Linear B, then its associated language, dubbed "Minoan language|Minoan", appears unrelated to any known language.
+
+Many scholars who study Linear A believe it was used primarily for accounting purposes.cn|date=December 2018
+
+Script
+Linear A has hundreds of signs, believed to represent syllabic, ideographic, and semantic values in a manner similar to Linear B. While many of those assumed to be syllabic signs are similar to ones in Linear B, approximately 80% of Linear A's logograms are unique;<ref name="Younger-7B">cite web|last=Younger|first=John|title=Linear A Texts in Phonetic Transcription: 7b. The Script|year=2000|publisher=University of Kansas|url=http://www.people.ku.edu/~jyounger/LinearA/#7b</ref><ref name="Packard-MLA-C1">harvnb|Packard|1974|loc=Chapter 1: Introduction.</ref> the difference in sound values between Linear A and Linear B signs ranges from 9% to 13%.sfn|Owens|1999|pp=23–24 (David Packard, in 1974, calculated a sound-value difference of 10.80% ± 1.80%; Yves Duhoux, in 1989, calculated a sound-value difference of 14.34% ± 1.80% and Gareth Owens, in 1996, calculated a sound-value difference of 9–13%) It primarily appears in the left-to-right direction, but occasionally appears as a right-to-left or boustrophedon script.
+
+An interesting feature is that of how numbers are recorded in the script. The highest number that has been recorded is 3000, but there are special symbols to indicate fractions and weights.
+
+= Signary =
+{| class="wikitable" style="text-align: right;"
+|+ Linear A: signary and numbering according to E. Bennett. Reading of signs is based on Linear B analogs.
+
+|-
+
+! colspan="2" | *01-*20
+
+! colspan="2" | *21-*30
+
+! colspan="2" | *31-*53
+
+! colspan="2" | *54-*74
+
+! colspan="2" | *76-*122
+
+! colspan="2" | *123-*306
+
+|-
+
+| File:Linear A Sign A001.svg
+
+| ''DA''
+
+''*01''
+
+| File:Linear A Sign A021.svg
+
+| ''QI''
+
+''*21''
+
+| File:Linear A Sign A031.svg
+
+| ''SA''
+
+''*31''
+
+| File:Linear A Sign A054.svg
+
+| ''WA''
+
+''*54''
+
+| File:Linear A Sign A076.svg
+
+|
+
+''*76''
+
+| File:Linear A Sign A123.svg
+
+|
+
+''*123''
+
+|-
+
+| File:Linear A Sign A002.svg
+
+| ''RO''
+
+''*02''
+
+| File:Linear A Sign A021f.svg
+
+|
+
+''*21<sup>f</sup>''
+
+| File:Linear A Sign A034.svg
+
+|
+
+''*34''
+
+| File:Linear A Sign A055.svg
+
+|
+
+''*55''
+
+| File:Linear A Sign A077.svg
+
+| ''KA''
+
+''*77''
+
+| File:Linear A Sign A131a.svg
+
+|
+
+''*131a''
+
+|-
+
+| File:Linear A Sign A003.svg
+
+| ''PA''
+
+''*03''
+
+| File:Linear A Sign A021m.svg
+
+|
+
+''*21<sup>m</sup>''
+
+| File:Linear A Sign A037.svg
+
+| ''TI''
+
+''*37''
+
+| File:Linear A Sign A056.svg
+
+| ''PA<sub>3</sub>''
+
+''*56''
+
+| File:Linear A Sign A078.svg
+
+| ''QE''
+
+''*78''
+
+| File:Linear A Sign A131b.svg
+
+|
+
+''*131b''
+
+|-
+
+| File:Linear A Sign A004.svg
+
+| ''TE''
+
+''*04''
+
+| File:Linear A Sign A022.svg
+
+| ''MI?''
+
+''*22''
+
+| File:Linear A Sign A038.svg
+
+| ''E''
+
+''*38''
+
+| File:Linear A Sign A057.svg
+
+| ''JA''
+
+''*57''
+
+| File:Linear A Sign A079.svg
+
+| ''WO<sub>2</sub>''?
+
+''*79''
+
+| File:Linear A Sign A131c.svg
+
+|
+
+''*131c''
+
+|-
+
+| File:Linear A Sign A005.svg
+
+|
+
+''*05''
+
+| File:Linear A Sign A022f.svg
+
+|
+
+''*22<sup>f</sup>''
+
+| File:Linear A Sign A039.svg
+
+| ''PI''
+
+''*39''
+
+| File:Linear A Sign A058.svg
+
+| ''SU''
+
+''*58''
+
+| File:Linear A Sign A080.svg
+
+| ''MA''
+
+''*80''
+
+| File:Linear A Sign A164.svg
+
+|
+
+''*164''
+
+|-
+
+| File:Linear A Sign A006.svg
+
+| ''NA''
+
+''*06''
+
+| File:Linear A Sign A022m.svg
+
+|
+
+''*22<sup>m</sup>''
+
+| File:Linear A Sign A040.svg
+
+| ''WI''
+
+''*40''
+
+| File:Linear A Sign A059.svg
+
+| ''TA''
+
+''*59''
+
+| File:Linear A Sign A081.svg
+
+| ''KU''
+
+''*81''
+
+| File:Linear A Sign A171.svg
+
+|
+
+''*171''
+
+|-
+
+| File:Linear A Sign A007.svg
+
+| ''DI''
+
+''*07''
+
+| File:Linear A Sign A023.svg
+
+| ''MU''
+
+''*23''
+
+| File:Linear A Sign A041.svg
+
+| ''SI''
+
+''*41''
+
+| File:Linear A Sign A060.svg
+
+| ''RA''
+
+''*60''
+
+| File:Linear A Sign A082.svg
+
+|
+
+''*82''
+
+| File:Linear A Sign A180.svg
+
+|
+
+''*180''
+
+|-
+
+| File:Linear A Sign A008.svg
+
+| ''A''
+
+''*08''
+
+| File:Linear A Sign A023m.svg
+
+|
+
+''*23<sup>m</sup>''
+
+| File:Linear A Sign A044.svg
+
+| ''KE''
+
+''*44''
+
+| File:Linear A Sign A061.svg
+
+| ''O''
+
+''*61''
+
+| File:Linear A Sign A085.svg
+
+|
+
+''*85''
+
+| File:Linear A Sign A188.svg
+
+|
+
+''*188''
+
+|-
+
+| File:Linear A Sign A009.svg
+
+| ''S''
+
+''*09''
+
+| File:Linear A Sign A024.svg
+
+| ''NE''
+
+''*24''
+
+| File:Linear A Sign A045.svg
+
+|
+
+''*45''
+
+| File:Linear A Sign A065.svg
+
+| ''JU''
+
+''*65''
+
+| File:Linear A Sign A086.svg
+
+|
+
+''*86''
+
+| File:Linear A Sign A191.svg
+
+|
+
+''*191''
+
+|-
+
+| File:Linear A Sign A010.svg
+
+|
+
+''*10''
+
+| File:Linear A Sign A026.svg
+
+| ''RU''
+
+''*26''
+
+| File:Linear A Sign A046.svg
+
+|
+
+''*46''
+
+| File:Linear A Sign A066.svg
+
+| ''TA<sub>2</sub>''
+
+''*66''
+
+| File:Linear A Sign A087.svg
+
+| ''TWE''
+
+''*87''
+
+| File:Linear A Sign A301.svg
+
+|
+
+''*301''
+
+|-
+
+| File:Linear A Sign A011.svg
+
+|
+
+''*11''
+
+| File:Linear A Sign A027.svg
+
+| ''RE''
+
+''*27''
+
+| File:Linear A Sign A047.svg
+
+|
+
+''*47''
+
+| File:Linear A Sign A067.svg
+
+| ''KI''
+
+''*67''
+
+| File:Linear A Sign A100.svg
+
+|
+
+''*100/<br>*102''
+
+| File:Linear A Sign A302.svg
+
+|
+
+''*302''
+
+|-
+
+| File:Linear A Sign A013.svg
+
+| ''ME''
+
+''*13''
+
+| File:Linear A Sign A028.svg
+
+| ''I''
+
+''*28''
+
+| File:Linear A Sign A049.svg
+
+|
+
+''*49''
+
+| File:Linear A Sign A069.svg
+
+| ''TU''
+
+''*69''
+
+| File:Linear A Sign A118.svg
+
+|
+
+''*118''
+
+| File:Linear A Sign A303.svg
+
+|
+
+''*303''
+
+|-
+
+| File:Linear A Sign A016.svg
+
+| ''QA<sub>2</sub>''
+
+''*16''
+
+| File:Linear A Sign A028b.svg
+
+|
+
+''*28b''
+
+| File:Linear A Sign A050.svg
+
+| ''PU''
+
+''*50''
+
+| File:Linear A Sign A070.svg
+
+|
+
+''*70''
+
+| File:Linear A Sign A120.svg
+
+|
+
+''*120''
+
+| File:Linear A Sign A304.svg
+
+|
+
+''*304''
+
+|-
+
+| File:Linear A Sign A017.svg
+
+| ''ZA''
+
+''*17''
+
+| File:Linear A Sign A029.svg
+
+|
+
+''*29''
+
+| File:Linear A Sign A051.svg
+
+| ''DU''
+
+''*51''
+
+| File:Linear A Sign A073.svg
+
+| ''MI''
+
+''*73''
+
+| File:Linear A Sign A120b.svg
+
+|
+
+''*120b''
+
+| File:Linear A Sign A305.svg
+
+|
+
+''*305''
+
+|-
+
+| File:Linear A Sign A020.svg
+
+| ''ZO''
+
+''*20''
+
+| File:Linear A Sign A030.svg
+
+| ''NI''
+
+''*30''
+
+| File:Linear A Sign A053.svg
+
+|
+
+''*53''
+
+| File:Linear A Sign A074.svg
+
+| ''ZE''
+
+''*74''
+
+| File:Linear A Sign A122.svg
+
+|
+
+''*122''
+
+| File:Linear A Sign A306.svg
+
+|
+
+''*306''
+
+|}
+
+Corpus
+Image:Linear A tablets filt.jpg|thumb|right|Linear A incised on tablets found in Akrotiri (Santorini)|Akrotiri, Santorini.
+File:0726 La Canée musée linéaire A.JPG|thumb|Linear A tablet, Chania Archaeological Museum.
+File:Sitia Museum Linear A 02.jpg|thumb|Linear A tablet from the palace of Zakros, Archeological Museum of Sitia.
+
+Linear A has been unearthed chiefly on Crete, but also at other sites in Greece, as well as Turkey and Israel. The extant corpus, comprising some 1,427 specimens totalling 7,362 to 7,396 signs, if scaled to standard type, would fit easily on two sheets of paper.<ref>cite web|last=Younger|first=John|title=Linear A Texts in Phonetic Transcription: 5. Basic Statistics|year=2000|publisher=University of Kansas|url=http://www.people.ku.edu/~jyounger/LinearA/#5 Younger: "if there are 4002 characters (font Times, pitch 12, no spaces) on an 8 1/2 x 11 inch sheet of paper with 1 inch margins, all extant Linear A would take up 1.84 pages." (14.34 pages for Linear B).</ref>
+
+=Crete=
+According to Ilse Schoep, the main discoveries of Linear A tablets have been at three sites on Crete:sfn|Schoep|1999|pp=201–221
+
+quote|Haghia Triadha in the Mesara with 147 tablets; Zakro/Zakros, a port town in the far east of the island with 31 tablets; and Khania/Chania, a port town in the northwest of the island with 94 tablets.
+
+Discoveries have been made at the following locations on Crete:<ref name="Cacciafoco">cite journal|last1=Cacciafoco|first1=Francesco Perono|title=Linear A and Minoan. The Riddle of Unknown Origins|date=January 2014|pages=3–4|url=http://scholar.googleusercontent.com/scholar?q=cache:rLhsSHMbDBcJ:scholar.google.com/+%22Linear+A%22+Apoudoulou&hl=en&as_sdt=0,5|accessdate=9 July 2017</ref>
+div col|colwidth=18em
+*Apoudoulou
+*Archanes
+*Arkalochori
+*Armenoi
+*Chania
+*Gournia
+*Hagia Triada (largest cache)
+*Kardamoutsa
+*Kato Simi (also spelled Kato Syme)
+*Knossos
+*Kophinas
+*Larani
+*Malia (municipality)|Mallia
+*Mochlos (also spelled Mokhlos)
+*Mount Juktas (also spelled Iouktas)
+*Myrtos Pyrgos
+*Nerokourou
+*Palaikastro
+*Petras
+*Petsophas
+*Phaistos
+*Platanos
+*Poros, Heraklion
+*Prassa
+*Pseira
+*Psychro (also spelled Psykhro)
+*Pyrgos Tylissos
+*Sitia
+*Skhinias
+*Skotino cave
+*Traostalos
+*Troulos (or Trulos)
+*Vrysinas
+*Zakros
+div col end
+
+=Outside Crete=
+Until 1973, only one Linear A tablet was known to have been found outside Crete (on Kea (island)|Kea).<ref name="Finkelberg">harvnb|Finkelberg|1998|pp=265–272.</ref> Since then, other locations have yielded inscriptions.
+
+According to Margalit Finkelberg, most—if not all—inscriptions found outside Crete were made locally. This is indicated by such factors as the composition of the material on which the inscriptions were made.<ref name="Finkelberg"/> Also, close analysis of the inscriptions found outside Crete indicates the use of a script that is somewhere in between Linear A and Linear B, combining elements from both.
+
+Other Greek islands
+*Kea (island)|Kea<ref name="Cacciafoco" />
+*Kythera<ref name="Cacciafoco" />
+*Melos<ref name="Cacciafoco" />
+*Samothrace<ref name="Cacciafoco" />
+*Santorini|Thera<ref name="Cacciafoco" />
+
+Mainland Greece
+*Mycenae<ref name="Cacciafoco" />
+*Tiryns<ref name="Cacciafoco" />
+*Hagios Stephanos, Laconia<ref name="Cacciafoco" /><ref>[http://bmcr.brynmawr.edu/2009/2009-09-08.html Book review by Daniel J. Pullen (Bryn Mawr Classical Review 2009)] of W. D. Taylour, R. Janko, ''Ayios Stephanos: Excavations at a Bronze Age and Medieval Settlement in Southern Laconia''. British School at Athens, 2008. "Its location on the Laconian coast, easily accessible from Kythera, undoubtedly encouraged early contacts with Crete whether directly or indirectly (see the Linear A sign catalogued in chapter 11)."</ref>
+
+Chronology
+See also|Linear B#Chronology|l1=Chronology of Linear B
+Linear A became eminent during the Middle Minoan Period, specifically from 1625–1450 BC.  It was a contemporary and possible child of Cretan hieroglyphs and the ancestor of Linear B. The sequence and the geographical spread of Cretan hieroglyphs, Linear A and Linear B, the three overlapping, but distinct writing systems on Bronze Age Crete and the Greek mainland can be summarized as follows:<ref name="Olivier">harvnb|Olivier|1986|pp=377f.</ref>
+
+{| class="wikitable sortable"
+|-  style="text-align:left; vertical-align:top;" "
+! Writing system
+! Geographical area
+! Time spanefn|Beginning date refers to first attestations, the assumed origins of all scripts lie further back in the past.
+|-
+|Cretan hieroglyphs|Cretan Hieroglyphic
+|Crete
+|c. 2100 – 1700&nbsp;BC
+|-
+|Linear A
+|Aegean islands (Kea (island)|Kea, Kythera, Melos, Santorini|Thera), and Greek mainland (Laconia)
+|c. 2500 – 1450&nbsp;BC
+|-
+|Linear B
+|Crete (Knossos), and mainland (Pylos, Mycenae, Ancient Thebes (Boeotia)|Thebes, Tiryns)
+|c. 1450 – 1200&nbsp;BC
+|}
+
+Discovery
+See also|Linear B#Discovery and decipherment|l1=Discovery of Linear B
+Archaeologist Arthur Evans named the script "Linear" because its characters consisted simply of lines inscribed in clay, in contrast to the more pictographic characters in Cretan hieroglyphs that were used during the same period.sfn|Robinson|2009|p=54
+
+Several tablets inscribed in signs similar to Linear A were found in the Troad in northwestern Anatolia. While their status is disputed, they may be imports, as there is no evidence of Minoan presence in the Troad. Classification of these signs as a unique Trojan script (proposed by contemporary Russian linguist Nikolai Kazansky) is not accepted by other linguists.
+
+Theories regarding language
+Image:Linear A vase filt.jpg|thumb|right|Linear A incised on a vase, also found in Akrotiri.
+
+It is difficult to evaluate a given analysis of Linear A as there is little point of reference for reading its inscriptions. The simplest approach to decipherment may be to presume that the values of Linear A match more or less the values given to the deciphered Linear B script, used for Mycenaean Greek.<ref>cite web|last=Younger|first=John|title=Linear A Texts in Phonetic Transcription|year=2000|publisher=University of Kansas|url=http://www.people.ku.edu/~jyounger/LinearA See "1. List of Linked Files" for a comprehensive list of known texts written in Linear A.</ref>
+
+=Greek=
+In 1957, Bulgarian scholar Vladimir I. Georgiev published his ''Le déchiffrement des inscriptions crétoises en linéaire A'' ("The decipherment of Cretan inscriptions in Linear A") stating that Linear A contains Greek linguistic elements.<ref name="Nagy">harvnb|Nagy|1963|p=210 (Footnote #24).</ref> Georgiev then published another work in 1963, titled ''Les deux langues des inscriptions crétoises en linéaire A'' ("The two languages of Cretan inscriptions in Linear A"), suggesting that the language of the Hagia Triada tablets was Greek but that the rest of the Linear A corpus was in Hittite-Luwian.<ref name="Nagy"/>sfn|Georgiev|1963|pp=1–104 In December 1963, Gregory Nagy of Harvard University developed a list of Linear A and Linear B terms based on the assumption "that signs of identical or similar shape in the two scripts will represent similar or identical phonetic values"; Nagy concluded that the language of Linear A bears "Greek-like" and Indo-European elements.sfn|Nagy|1963|pp=181–211
+
+=Anatolian languages=
+Since the late 1950s, some scholars have suggested that the Linear A language could be an Anatolian language.sfn|Palmer|1958|pp=75–100
+Luwian
+Palmer (1958) put forward a theory, based on Linear B phonetic values, suggesting that Linear A language could be related closely to Luwian.sfn|Palmer|1958|pp=75–100 The theory, however, failed to gain universal support for the following reasons:
+*There is no remarkable resemblance between Minoan and Hitto-Luwian morphology.
+*None of the existing theories of the origin of Hitto-Luwian peoples and their migration to Anatolia (either from the Balkans or from the Caucasus) are related to Crete.
+*There was a lack of direct contact between Hitto-Luwians and Minoan Crete; the latter was never mentioned in Hitto-Luwian inscriptions. Small states located along the western coast of ancient Asia Minor were natural barriers between Hitto-Luwians and Minoan Crete.
+*Obvious anthropological differences between Hitto-Luwians and the Minoans may be considered as another indirect testimony against this hypothesis.
+
+There are recent works focused on the Luwian connection, not in terms of the Minoan language being Anatolian, but rather in terms of possible borrowings from Luwian, including the origin of the writing system itself.<ref name="marangozis">Marangozis, John (2006). ''An introduction to Minoan Linear A''. LINCOM Europa.</ref>
+
+Lycian
+In an article from 2001, Professor of Classics (Emerita) at Tel Aviv University, Margalit Finkelberg, demonstrated a "high degree of correspondence between the phonological and morphological system of Minoan and that of Lycian language|Lycian" and proposed that "the language of Linear A is either the direct ancestor of Lycian or a closely related idiom."<ref>Finkelberg, Margalit, "The Language of Linear A: Greek, Semitic, or Anatolian?", in: Drews, Robert (ed.), Greater Anatolia dnt eh Ind-Hittite Language Family, Journal of Indo-European Studies, Monograph 38, Washington, DC, 2001.</ref>
+
+=Phoenician=
+In 2001, the journal ''Ugarit-Forschungen'' published the article "The First Inscription in Punic — Vowel Differences in Linear A and B" by Jan Best, claiming to demonstrate how and why Linear A notates an archaic form of Phoenician languages|Phoenician.<ref>harvnb|Dietrich|Loretz|2001.</ref> This was a continuation of attempts by Cyrus Gordon in finding connections between Minoan and West Semitic languages.
+
+=Indo-Iranian=
+Another recent interpretation, based on the frequencies of the syllabic signs and on complete palaeography|palaeographic comparative studies, suggests that the Minoan Linear A language belongs to the Indo-Iranian languages|Indo-Iranian family of Indo-European languages. Studies by Hubert La Marle include a presentation of the morphology of the language, avoid the complete identification of phonetic values between Linear A and B, and also avoid comparing Linear A with Cretan Hieroglyphs.<ref name="Hubert">La Marle, Hubert. ''Linéaire A, la première écriture syllabique de Crète''. Paris: Geuthner, 4 Volumes, 1997–1999, 2006; ''Introduction au linéaire A''. Geuthner, Paris, 2002; ''L'aventure de l'alphabet: les écritures cursives et linéaires du Proche-Orient et de l'Europe du sud-est à l'Âge du Bronze''. Paris: Geuthner, 2002; ''Les racines du crétois ancien et leur morphologie: communication à l'Académie des Inscriptions et Belles Lettres'', 2007.</ref> La Marle uses the frequency counts to identify the type of syllables written in Linear A, and takes into account the problem of loanwords in the vocabulary.<ref name="Hubert"/> However, the La Marle interpretation of Linear A has been rejected by John Younger of Kansas University showing that La Marle has invented erroneous and arbitrary new transcriptions based on resemblances with many different script systems at will (as Phoenician, Hieroglyphic Egyptian, Hieroglyphic Hittite, Ethiopian, Cypro-Minoan, etc.), ignoring established evidence and internal analysis, while for some words he proposes religious meanings inventing names of gods and rites.<ref>cite web|last=Younger|first=John|title=Linear A: Critique of Decipherments by Hubert La Marle and Kjell Aartun|year=2009|publisher=University of Kansas|url=http://www.people.ku.edu/~jyounger/LinearA/LaMarleAartun.html According to Younger, La Marle "assigns phonetic values to Linear signs based on superficial resemblances to signs in other scripts (the choice of scripts being already prejudiced to include only those from the eastern Mediterranean and northeast Africa), as if 'C looks like O so it must be O.'"</ref> La Marle rebutted in "An answer to John G. Younger's remarks on Linear A" in 2010.<ref>cite web|last=La Marle|first=Hubert|title=An answer to John G. Younger's remarks on Linear A|year=September 2010|publisher=Academia.edu|url=https://www.academia.edu/315838/An_answer_to_John_G._Youngers_remarks_on_Linear_A</ref>
+
+=Tyrrhenian=
+Italian scholar Giulio M. Facchetti attempted to link Linear A to the Tyrsenian languages|Tyrrhenian language family comprising Etruscan language|Etruscan, Raetic language|Rhaetic, and Lemnian language|Lemnian. This family is reasoned to be a pre-Indo-European languages|pre-Indo-European Mediterranean substratum of the 2nd millennium BC, sometimes referred to as Pre-Greek. Facchetti proposed some possible similarities between the Etruscan language and ancient Lemnian, and other Aegean languages like Minoan.sfn|Facchetti|Negri|2003 Michael Ventris who, along with John Chadwick, successfully deciphered Linear B, also believed in a link between Minoan and Etruscan.sfn|Chadwick|1967|loc=p. 34: "The basic idea was to find a language which might not be related to Minoan. Ventris' candidate was Etruscan; not a bad guess, because the Etruscans, according to ancient tradition, came from the Aegean to Italy." The same perspective is supported by S. Yatsemirsky in Russia.sfn|Yatsemirsky|2011
+
+=A distinct, otherwise unknown branch of Indo-European =
+According to Gareth Alun Owens, Linear A represents the Minoan language, which Owens classifies as a distinct branch of Indo-European potentially related to Greek, Sanskrit, Hittite, Latin, etc.sfn|Owens|2007|pp=3–4: "Η έρευνα
+απέδειξε ότι η μινωική γλώσσα σχετίζεται με την ελληνική περισσότερο από κάθε άλλη ινδοευρωπαϊκή γλώσσα, χωρίς να αποτελεί μια άλλη ελληνική διάλεκτο αλλά ένα χωριστό παρακλάδι της ινδοευρωπαϊκής οικογένειας...υπάρχουν λέξεις που εντοπίζονται και στην ελληνική γλώσσα αλλά και σε άλλες, όπως τη σανσκριτική και τη χεττιτική, τη λατινική, της ίδιας οικογένειας."sfn|Owens|1999|pp=15–56 At "The Cretan Literature Centre", Owens stated:
+
+<blockquote>Beginning our research with inscriptions in Linear A carved on offering tables found in the many peak sanctuaries on the mountains of Crete, we recognise a clear relationship between Linear A and Sanskrit, the ancient language of India. There is also a connection to Hittite and Armenian. This relationship allows us to place the Minoan language among the so-called Indo-European languages, a vast family that includes modern Greek and the Latin of Ancient Rome. The Minoan and Greek languages are considered to be different branches of Indo-European. The Minoans probably moved from Anatolia to the island of Crete about 10,000 years ago. There were similar population movements to Greece. The relative isolation of the population which settled in Crete resulted in the development of its own language, Minoan, which is considered different to Mycenaean. In the Minoan language (Linear A), there are no purely Greek words, as is the case in Mycenaean Linear B; it contains only words also found in Greek, Sanskrit and Latin, i.e. sharing the same Indo-European origin.<ref>cite web|title=The Language of the Minoans|publisher=Crete Gazette|year=2006|url=http://www.cretegazette.com/2006-02/minoan-language.php</ref> </blockquote>
+
+=Hurrian=
+In 2016, Peter van Soesbergen published a two-part series ''Hurrians and Hurrian in Minoan Crete'' alleging that most of the Linear A inscriptions could be understood as a dialect of Hurrian.<ref name="Soesbergen">harvnb|van Soesbergen|2016</ref> Among the equations he makes are Linear A ''uminasi enasi'' with Hurrian ''umminnaši ennaši'' "of the lands of the gods"; Linear A ''ataijowaja'' with the absolutive of Hurrian ''attaiwwašuuš'' "our father"; Linear A ''potokuro,'' seeming to mean "total," with Hurrian ''puttukuru,'' "value again"; Linear A ''sukiriteia'' with a nickname for Hurrian ''Šukri-tešup'' "blessed Teshub"; ''api'' on an entrance to a tomb with Hurrian ''abi'' "pit (especially for communicating with the netherworld)"; ''turusa'' with Hurrian ''turu'' "man"; and ''dupure'' with ''tuppuleš'' "may (he) be strong."
+
+=Attempts at decipherment of single words=
+Some researchers suggest that a few words or word elements may be recognized, without (yet) enabling any conclusion about relationship with other languages. In general, they use analogy with Linear B in order to propose phonetic values of the syllabic sounds. John Younger, in particular, thinks that place names usually appear in certain positions in the texts, and notes that the proposed phonetic values often correspond to known place names as given in Linear B texts (and sometimes to modern Greek names). For example, he proposes that three syllables, read as ''KE-NI-SO'', might be the indigenous form of Knossos.<ref name="Younger-10C">cite web|last=Younger|first=John|title=Linear A Texts in Phonetic Transcription: 10c. Place Names|year=2000|url=http://www.people.ku.edu/~jyounger/LinearA/#10c|publisher=University of Kansas</ref> Likewise, in Linear A, ''MA+RU'' is suggested to mean ''wool'', and to correspond both to a Linear B pictogram with this meaning, and to the classical Greek word μαλλός with the same meaning (in that case a loan word from Minoan).<ref name="Younger-7B"/>
+
+Unicode
+Main article|Linear A (Unicode block)
+The Linear A alphabet (U+10600–U+1077F) was added to the Unicode Standard in June 2014 with the release of version 7.0.
+
+Unicode chart Linear A
+
+See also
+* Aegean numbers
+* Cypro-Minoan syllabary
+* Phaistos Disc|Phaistos&nbsp;Disc
+* Arkalochori Axe
+* Dispilio Tablet
+* Youra Potsherds
+
+References
+=Notes=
+notelist
+
+=Citations=
+reflist|30em
+
+=Sources=
+refbegin|2
+*cite book|last=Chadwick|first=John|title=The Decipherment of Linear B|year=1967|location=Cambridge|publisher=Cambridge University Press|isbn=0-521-39830-4|url=https://books.google.com/books?id=TD8YAlh_XHwC|ref=harv
+*cite book|last1=Dietrich|first1=Manfried|last2=Loretz|first2=Oswald|title=In Memoriam: Cyrus H. Gordon|year=2001|location=Münster|publisher=Ugarit-Verlag|isbn=3-934628-00-1|url=https://books.google.com/books?id=tlrvMQEACAAJ|ref=harv
+*cite book|last1=Facchetti|first1=Giulio M.|last2=Negri|first2=Mario|title=Creta Minoica: Sulle tracce delle più antiche scritture d'Europa|year=2003|language=Italian|location=Firenze|publisher=L.S. Olschki|isbn=88-222-5291-8|url=https://books.google.com/books?id=SgpZAAAAMAAJ|ref=harv
+*cite book|last=Finkelberg|first=Margalit|chapter=Bronze Age Writing: Contacts between East and West|editor=E. H. Cline and D. Harris-Cline|title=The Aegean and the Orient in the Second Millennium. Proceedings of the 50th Anniversary Symposium, Cincinnati, 18–20 April 1997. Liège 1998|journal=Aegeum|volume=18|year=1998|pages=265–272|url=http://www2.ulg.ac.be/archgrec/IMG/aegeum/aegaeum18(pdf)/31%20Finkelberg.pdf|ref=harv
+*cite journal|last=Georgiev|first=Vladimir I.|title=Les deux langues des inscriptions crétoises en linéaire A|journal=Linguistique Balkanique|volume=7|issue=1|year=1963|pages=1–104|language=French|ref=harv
+*cite journal|last=Haarmann|first=Harald|title=The Danube Script and Other Ancient Writing Systems: A Typology of Distinctive Features|journal=The Journal of Archaeomythology|volume=4|number=1|year=2008|pages=12–46|url=https://www.scribd.com/doc/138393335/The-Danube-Script-and-Other-Ancient-Writing-Systems-A-Typology-of-Distinctive-Features|ref=harv
+*cite journal|last=Nagy|first=Gregory|title=Greek-Like Elements in Linear A|journal=Greek, Roman, and Byzantine Studies|issue=4|publisher=Harvard University Press|year=1963|pages=181–211|url=http://grbs.library.duke.edu/article/download/11991/4031|ref=harv
+*cite journal|last=Olivier|first=J. P.|title=Cretan Writing in the Second Millennium B.C.|journal=World Archaeology|volume=17|issue=3|year=1986|pages=377–389|doi=10.1080/00438243.1986.9979977|ref=harv
+*cite journal|last=Owens|first=Gareth|title=The Structure of the Minoan Language|journal=Journal of Indo-European Studies|volume=27|number=1–2|year=1999|pages=15–56|url=http://www.teicrete.gr/daidalika/documents/minoan_language/jies27.pdf|ref=harv
+*cite news|last=Owens|first=Gareth Alun|title=Η Δομή της Μινωικής Γλώσσας ["The Structure of the Minoan Language"]|year=2007|location=Heraklion|publisher=TEI of Crete –Daidalika|language=Greek|url=http://www.teicrete.gr/daidalika/documents/minoan_language/minoan2007_gr.pdf|ref=harv
+*cite book|last=Packard|first=David W.|title=Minoan Linear A|year=1974|location=Berkeley and Los Angeles|publisher=University of California Press|isbn=0-520-02580-6|url=https://books.google.com/books?id=vax3kwoscWQC|ref=harv
+*cite book|last=Palaima|first=Thomas G.|authorlink=Thomas G. Palaima|chapter=Cypro-Minoan Scripts: Problems of Historical Context|editor1=Duhoux, Yves |editor2=Palaima, Thomas G. |editor3=Bennet, John |title=Problems in Decipherment|year=1997|origyear=1989|publisher=Peeters|location=Louvain-La-Neuve|pages=121–188|isbn=90-6831-177-8|url=https://books.google.com/books?id=TanjAHRuJt4C&pg=PA121&lpg=PA123|ref=harv
+*cite journal|last=Palmer|first=Leonard Robert|title=Luvian and Linear A|journal=Transactions of the Philological Society|volume=57|issue=1|year=1958|pages=75–100|doi=10.1111/j.1467-968X.1958.tb01273.x|ref=harv
+*cite book|last=Robinson|first=Andrew|title=Writing and Script: A Very Short Introduction|year=2009|location=Oxford|publisher=Oxford University Press|ISBN=978-9-40-215757-4|url=http://minoanscript.nl/volume-i-part-i/|ref=harv
+*cite journal |last=Schoep |first=Ilse |title=Tablets and Territories? Reconstructing Late Minoan IB Political Geography through Undeciphered Documents |journal=American Journal of Archaeology |volume=103 |number=2 |year=1999 |pages=201–21 |doi=10.2307/506745 |jstor=506745 |via=JSTOR |registration=y |ref=harv
+*cite book|last=van Soesbergen|first=Peter|title=Minoan Linear A. Volume I, Hurrians and Hurrian in Minoan Crete. Part 1, Text|year=2016|location=Amsterdam|publisher=Brave New Books|ISBN=978-0-19-956778-2|url=https://books.google.com/books?id=E299l2_XY0wC|ref=harv
+*cite book|last=Yatsemirsky|first=Sergei A.|title=Opyt sravnitel'nogo opisaniya minoyskogo, etrusskogo i rodstvennyh im yazykov [Tentative Comparative Description of Minoan, Etruscan and Related Languages]|year=2011|language=Russian|location=Moscow|publisher=Yazyki slavyanskoy kul'tury|isbn=978-5-9551-0479-9|url=https://books.google.com/books?id=J4e8twAACAAJ|ref=harv
+refend|2
+
+Further reading
+*cite book|last=Best|first=Jan G. P.|title=Some Preliminary Remarks on the Decipherment of Linear A|location=Amsterdam|publisher=Hakkert|year=1972
+* Marangozis, John (2007). ''An introduction to Minoan Linear A''. LINCOM Europa, ISBN|3-89586-386-6
+*cite journal|last=Montecchi|first=Barbara|title=A Classification Proposal of Linear A Tablets from Haghia Triada in Classes and Series|journal=Kadmos|volume=49|issue=1|year=January 2010|pages=11–38|doi=10.1515/KADMOS.2010.002
+*cite journal|last=Nagy|first=Gregory|title=Observations on the Sign-Grouping and Vocabulary of Linear A|journal=American Journal of Archaeology|volume=69|number=4|year=October 1965|pp=295–330|doi=10.2307/502181
+*cite journal|last=Palmer|first=Ruth|title=Linear A Commodities: A Comparison of Resources|journal=Aegeum|volume=12|year=1995|url=http://www2.ulg.ac.be/archgrec/IMG/aegeum/aegaeum12%28pdf%29/Palmer.pdf
+* Thomas, Helena. Understanding the transition from Linear A to Linear B script. Unpublished PhD dissertation. Supervisor: Professor John Bennet. Thesis (D. Phil.). University of Oxford, 2003. Includes bibliographical references (leaves 311–338).
+*cite book|last=Woodard|first=Roger D.|title=Greek Writing from Knossos to Homer|location=New York|publisher=Oxford University Press|year=1997|isbn=0-19-510520-6 ([http://omega.cohums.ohio-state.edu/mailing_lists/BMCR-L/Mirror/1998/98.4.04.html Review])
+
+External links
+Commons category|Linear A
+*[http://www.people.ku.edu/~jyounger/LinearA/ Linear A Texts in Phonetic Transcription] by John Younger (Last Update: 20 February 2010).
+*[https://web.archive.org/web/20131213174043/http://www.premiumorange.com/crete-minos-linear.a/index.html Linear A Research by Hubert La Marle]
+*[http://www.teicrete.gr/daidalika/ DAIDALIKA – Scripts and Languages of Minoan and Mycenaean Crete]
+*[http://www.omniglot.com/writing/lineara.htm Omniglot: Writing Systems & Languages of the World]
+*[http://lila.sns.it/mnamon/index.php?page=Risorse&id=19 Mnamon: Antiche Scritture del Mediterraneo (Antique Writings of the Mediterranean)]
+*[http://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1 GORILA Volume 1]
+*[https://tsu-ge.academia.edu/GiaKvashilava Interpretation of the Linear A Scripts] by Gia Kvashilava
+*[http://www.ugarit-verlag.de/uf.htm Ugarit-Forschungen, Band 32]
+
+Ancient Greece topics
+
+Authority control
+
+Category:Undeciphered writing systems
+Category:Syllabary writing systems
+Category:Obsolete writing systems
+Category:Bronze Age writing systems
+Category:Aegean languages in the Bronze Age
+Category:Eteocretan language
+Category:Scripts encoded in Unicode 7.0

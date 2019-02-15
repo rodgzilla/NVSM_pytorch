@@ -1,0 +1,38 @@
+torservers.net is an independent network of non-profit organisations that provide Node (networking)|nodes to the Tor (anonymity network)|Tor anonymity network.<ref name=":0">Cite web|url=https://blog.torproject.org/tor-heart-torserversnet|title=Tor at the Heart: torservers.net|last=Steele|first=Sharon|date=3 December 2016|website=blog.torproject.org|language=en|archive-url=|archive-date=|dead-url=|access-date=2018-06-17|quote=[..] covers legal costs for exit operators when needed</ref><ref name=":1">Cite web|url=https://torservers.net/about.html|title=About|last=|first=|date=|website=torservers.net|language=en|archive-url=|archive-date=|dead-url=|access-date=2018-06-17</ref><ref>Cite web|url=https://duck.co/blog/post/72/foss2014|title=2014 FOSS Donations|last=|first=|date=12 March 2014|website=DuckDuckGo|DuckDuckGo Blog|language=en|archive-url=|archive-date=|dead-url=|access-date=2018-06-17</ref> The network started in June 2010.<ref>Cite web|url=https://moblog.wiredwings.com/archives/20100705/torservers-net-why-its-so-important.html|title=Torservers.net: Why it’s so Important – moblog|last=Mo|first=|date=5 July 2010|website=moblog.wiredwings.com|language=en-US|archive-url=|archive-date=|dead-url=|access-date=2018-06-17</ref><ref>Cite web|url=https://blog.torservers.net/20100614/first-nodes-are-online-.html|title=First nodes are online|last=|first=|date=14 June 2010|website=blog.torservers.net|language=en|archive-url=|archive-date=|dead-url=|access-date=2018-06-17</ref>
+
+Torservers.net is known for operating Host (network)|servers with Bandwidth (computing)|high network bandwidth<ref name=":0" /> and running them as exit Node (networking)|nodes in the Tor network, which helps increase its speed and capacity.<ref name=":1" />
+
+ Funding 
+While Tor is free software that anyone can run, successful operation of Tor nodes may require technical expertise, access to high-bandwidth, and can involve legal complications in some jurisdictions.<ref name=":0" /> The Torservers.net network accepts financial donations as a way to sponsor additional nodes.<ref name=":0" /><ref>Cite web|url=https://torservers.net/services.html|title=Services|last=|first=|date=|website=torservers.net|language=en|archive-url=|archive-date=|dead-url=|access-date=2018-06-17</ref>
+
+ Bavarian Raid 
+
+On June 20, 2018, Bavarian police raided the home of the board members of the German non-profit Zwiebelfreunde, "Friends of the Onion,"<ref name="Friends of the Onion">Cite web |url=http://www.publicsphereproject.org/content/zwiebelfreunde |title=Zwiebelfreunde |last=n/a |first=n/a |date=2011-07-26 |website=Public Sphere Project |access-date=2018-09-05</ref> (part of torservers.net).<ref name="June 2018 Bavarian Raid">Cite web |url=https://www.zdnet.com/article/german-police-raid-homes-of-tor-linked-groups-board-members/ |title=German police raid homes of Tor-linked group's board members One board member described the police's justification for the raids as a "tenuous" link between the privacy group, a blog, and its email address. |last=Grauer |first=Yael |date=2018-07-04 |website=ZDNet |access-date=2018-07-06</ref> Zwiebelfreunde helps collect donations from Europe for various non-commercial providers such as Riseup.net.<ref>Cite news|url=https://nakedsecurity.sophos.com/2018/07/05/tor-linked-nonprofit-raided-by-police/|title=Tor-linked nonprofit raided by police|date=2018-07-05|work=Naked Security|access-date=2018-07-08|language=en-US</ref>
+
+The police claim the raid was prompted by a blog post from an unrelated activist that promised violence against an upcoming Alternative for Germany convention in Augsburg.<ref>Cite web|url=https://blog.torservers.net/20180704/coordinated-raids-of-zwiebelfreunde-at-various-locations-in-germany.html|title=Coordinated raids of Zwiebelfreunde at various locations in Germany - torservers.net blog|last=torservers.net|website=blog.torservers.net|language=en|access-date=2018-07-08</ref> The blog post was published on a website that used a Riseup.net e-mail address.<ref name="Police searches homes of „Zwiebelfreunde“ board members as well as „OpenLab“ in Augsburg">Cite web |url=https://www.ccc.de/en/updates/2018/hausdurchsuchungen-bei-vereinsvorstanden-der-zwiebelfreunde-und-im-openlab-augsburg |title=Police searches homes of "Zwiebelfreunde" board members as well as "OpenLab" in Augsburg |last=n/a |first=46halbe |date=2018-07-04 |website=Chaos Computer Club |access-date=2018-07-06</ref>  Riseup Collective is based in Seattle in the United States, and reported publicly that Zwiebelfreunde does not run its service.<ref>Cite web|url=https://riseup.net/en/about-us/press/zwiebelfreunde|title=Bavarian raids - riseup.net|website=riseup.net|language=en|access-date=2018-07-08</ref>
+
+On August 23 the German court at Landgericht München ruled that the raid and seizures was illegal. The hardware and documentation seized had been kept under seal, and purportedly were neither analyzed nor evaluated by the Bavarian police.<ref name="Seized Items Under Seal by Prosecutor; Raid Illegal">Cite web |url=https://blog.torservers.net/20180704/coordinated-raids-of-zwiebelfreunde-at-various-locations-in-germany.html |title=Coordinated raids of Zwiebelfreunde at various locations in Germany |first=moritz, juris, qbi |date=2018-08-23 |website=torservers.net |access-date=2018-08-26</ref>
+
+ Members 
+<ref name=":0" /><ref>Cite web|url=https://torservers.net/partners.html|title=Partner Organizations|last=|first=|date=|website=torservers.net|language=en|archive-url=|archive-date=|dead-url=|access-date=2018-06-17</ref>
+
+* Associated Whistleblowing Press (Belgium)
+* AccessNow.org|Access Now (USA)
+* Calyx Institute (USA)
+*Zwiebelfreunde e.V. (Germany)
+* Hart Voor Internetvrijheid (Netherlands)
+* Library Freedom Project (USA)
+*Noisebridge (USA)
+
+ External links 
+
+* [https://torservers.net/ Official website]
+
+ References 
+<references />
+
+Category:Tor (anonymity network)
+Category:Organizations established in 2010
+
+
+Org-stub

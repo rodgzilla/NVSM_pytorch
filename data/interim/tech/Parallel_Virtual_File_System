@@ -1,0 +1,107 @@
+Infobox software
+| name                   = Parallel Virtual File System
+| title                  = 
+| logo                   = <!-- File: -->
+| screenshot             = <!-- File: -->
+| caption                = 
+| collapsible            = 
+| author                 = Clemson University, Argonne National Laboratory, Ohio Supercomputer Center
+| developer              = Walt Ligon, Rob Ross, Phil Carns, Pete Wyckoff, Neil Miller, Rob Latham, Sam Lang, Brad Settlemyer
+| released               = 2003 <!-- Start date|YYYY|MM|DD -->
+| discontinued           = 
+| latest release version = 2.8.2
+| latest release date    = Start date and age|2010|01|01
+| latest preview version = 
+| latest preview date    = <!-- Start date and age|YYYY|MM|DD -->
+| frequently updated     = 
+| programming language   = C (programming language)|C
+| operating system       = Linux kernel
+| platform               = 
+| size                   = 
+| language               = 
+| genre                  = 
+| license                = GNU Lesser General Public License|LGPL
+| website                = URL|www.pvfs.org
+
+
+The Parallel Virtual File System (PVFS) is an open-source software|open-source parallel file system.  A parallel file system is a type of distributed file system that distributes file data across multiple servers and provides for concurrent access by multiple tasks of a parallel application.  PVFS was designed for use in large scale cluster computing.  PVFS focuses on high performance access to large data sets.  It consists of a server process and a client library, both of which are written entirely of user-level code.  A Linux kernel module and pvfs-client process allow the file system to be mounted and used with standard utilities.  The client library provides for high performance access via the message passing interface (MPI).  PVFS is being jointly developed between The Parallel Architecture Research Laboratory at Clemson University and the Mathematics and Computer Science Division at Argonne National Laboratory, and the Ohio Supercomputer Center.  PVFS development has been funded by NASA Goddard Space Flight Center, Argonne, NSF PACI and HECURA programs, and other government and private agencies. PVFS is now known as OrangeFS in its newest development branch.
+
+History
+PVFS was first developed in 1993 by Walt Ligon and Eric Blumer as a parallel file system for Parallel Virtual Machine (PVM) <ref>A. Blumer and W. B. Ligon, "The Parallel Virtual File System," 1994 PVM Users Group Meeting, 1994.
+</ref> as part of a NASA grant to study the I/O patterns of parallel programs.  PVFS version 0 was based on Vesta, a parallel file system developed at IBM T. J. Watson Research Center.<ref>Peter F. Corbett , Dror G. Feitelson, The Vesta parallel file system, ACM Transactions on Computer Systems (TOCS), v.14 n.3, p.225-264, Aug. 1996.</ref>  Starting in 1994 Rob Ross re-wrote PVFS to use TCP/IP and departed from many of the original Vesta design points.  PVFS version 1 was targeted to a cluster of Digital Equipment Corporation|DEC Alpha workstations networked using switched FDDI.  Like Vesta, PVFS striped data across multiple servers and allowed I/O requests based on a file view that described a strided access pattern.  Unlike Vesta, the striping and view were not dependent on a common record size.  Ross' research focused on scheduling of disk I/O when multiple clients were accessing the same file.<ref>W. B. Ligon, III, and R. B. Ross, "Implementation and Performance of a Parallel File System for High Performance Distributed Applications", 5th IEEE Symposium on High Performance Distributed Computing, August, 1996.</ref>  Previous results had shown that scheduling according to the best possible disk access pattern was preferable.  Ross showed that this depended on a number of factors including the relative speed of the network and the details of the file view.  In some cases a scheduling based on network traffic was preferable, thus a dynamically adaptable schedule provided the best overall performance.<ref>W. B. Ligon, III, and R. B. Ross, "Server-Side Scheduling in Cluster Parallel I/O Systems," Parallel I/O for Cluster Computing, Christophe Cèrin and Hai Jin editors, pages 157-177, Kogan Page Science, September, 2003.</ref>
+
+In late 1994 Ligon met with Thomas Sterling and John Dorband at Goddard Space Flight Center (GSFC) and discussed their plans to build the first Beowulf (computing)|Beowulf computer.<ref>W. B. Ligon III, R. B. Ross, D. Becker, P. Merkey, "Beowulf: Low-Cost Supercomputing Using Linux," IEEE Software magazine special issue on Linux, Volume 16, Number 1, page 79, January, 1999.</ref>  It was agreed that PVFS would be ported to Linux and be featured on the new machine.  Over the next several years Ligon and Ross worked with the GSFC group including Donald Becker, Dan Ridge, and Eric Hendricks.  In 1997 at a cluster meeting in Pasadena, CA Sterling asked that PVFS be released as an open source package.<ref>Walt Ligon and Rob Ross, "Parallel I/O and the Parallel Virtual File System," Beowulf Cluster Computing with Linux, 2nd Edition, William Gropp, Ewing Lusk, and Thomas Sterling, editors, pages 489-530, MIT Press, November, 2003.</ref>
+
+=PVFS2=
+In 1999 Ligon proposed the development of a new version of PVFS initially dubbed PVFS2000 and later PVFS2.  The design was initially developed by Ligon,  Ross, and Phil Carns.  Ross completed his PhD in 2000 and moved to Argonne National Laboratory and the design and implementation was carried out by Ligon, Carns, Dale Witchurch, and Harish Ramachandran at Clemson University, Ross, Neil Miller, and Rob Latham at Argonne National Laboratory, and Pete Wyckoff at Ohio Supercomputer Center.<ref>P. H. Carns, W. B. Ligon III, R. B. Ross, and R. Thakur, "PVFS: A Parallel File System For Linux Clusters," Extreme Linux Workshop, Atlanta, October , 2000.  Best paper of conference award.</ref>  The new file system was released in 2003.  The new design featured object servers, distributed metadata, views based on MPI, support for multiple network types, and a software architecture for easy experimentation and extensibility.
+
+PVFS version 1 was retired in 2005.  PVFS version 2 is still supported by Clemson and Argonne.  Carns completed his PhD in 2006 and joined Axicom, Inc. where PVFS was deployed on several thousand nodes for data mining.  In 2008 Carns moved to Argonne and continues to work on PVFS along with Ross, Latham, and Sam Lang.  Brad Settlemyer developed a mirroring subsystem at Clemson, and later a detailed simulation of PVFS used for researching new developments.  Settlemyer is now at Oak Ridge National Laboratory.  in 2007 Argonne began porting PVFS for use on an IBM Blue Gene/P.<ref>Samuel  Lang, Philip  Carns, Robert  Latham, Robert  Ross, Kevin  Harms, William  Allcock, "I/O Performance Challenges at Leadership Scale," Proceedings of Supercomputing, 2009</ref> In 2008 Clemson began developing extensions for supporting large directories of small files, security enhancements, and redundancy capabilities.  As many of these goals conflicted with development for Blue Gene, a second branch of the CVS source tree was created and dubbed "Orange" and the original branch was dubbed "Blue." PVFS and [http://orangefs.org OrangeFS] track each other very closely, but represent two different groups of user requirements.  Most patches and upgrades are applied to both branches.  As of 2011 OrangeFS is the main development line.
+
+Features
+In a cluster using PVFS nodes are designated as one or more of: client, data server, metadata server.  Data servers hold file data, metadata servers hold metadata include stat-info, attributes, and datafile-handles as well as directory-entries.  Clients run applications that utilize the file system by sending requests to the servers over the network.
+
+=Object-based design=
+PVFS has an object based design, which is to say all PVFS server requests involved objects called dataspaces. A dataspace can be used to hold file data, file metadata, directory metadata, directory entries, or symbolic links.  Every dataspace in a file system has a unique handle. Any client or server can look up which server holds the dataspace based on the handle. A dataspace has two components: a bytestream and a set of key/value pairs.  The bytestream is an ordered sequence of bytes, typically used to hold file data, and the key/value pairs are typically used to hold metadata. The object-based design has become typical of many distributed file systems including Lustre (file system)|Lustre, Panasas, and pNFS.
+
+=Separation of data and metadata=
+PVFS is designed so that a client can access a server for metadata once, and then can access the data servers without further interaction with the metadata servers. This removes a critical bottleneck from the system and allows much greater performance.
+
+=MPI-based requests=
+When a client program requests data from PVFS it can supply a description of the data that is based on MPI_Datatypes. This facility allows MPI file views to be directly implemented by the file system. MPI_Datatypes can describe complex non-contiguous patterns of data.  The PVFS server and data codes implement data flows that efficiently transfer data between multiple servers and clients.
+
+=Multiple network support=
+PVFS uses a networking layer named BMI which provides a non-blocking message interface designed specifically for file systems.  BMI has multiple implementation modules for a number of different networks used in high performance computing including TCP/IP, Myrinet, Infiniband, and Portals network programming api|Portals.<ref>Philip H. Carns, Walter B. III, Robert  Ross, Pete  Wyckoff, "BMI: a network abstraction layer for parallel I/O," Proceedings of IPDPS '05, 2005</ref>
+
+=Stateless (lockless) servers=
+PVFS servers are designed so that they do not share any state with each other or with clients.  If a server crashes another can easily be restarted in its place.  Updates are performed without using locks.
+
+=User-level implementation=
+PVFS clients and servers run at user level.  Kernel modifications are not needed.  There is an optional kernel module that allows a PVFS file system to be mounted like any other file system, or programs can link directly to a user interface such as MPI-IO or a Posix-like interface.  This features makes PVFS easy to install and less prone to causing system crashes.
+
+=System-level interface=
+The PVFS interface is designed to integrate at the system level.  It has similarities with the Linux Virtual file system|VFS, this making it easy to implement as a mountable file system, but is equally adaptable to user level interfaces such as MPI-IO or Posix-like interfaces.  It exposes many of the features of the underlying file system so that interfaces can take advantage of them if desired.<ref>M.  Vilayannur, S.  Lang, R.  Ross, R.  Klundt, L.  Ward, "Extending the POSIX I/O Interface: A Parallel File System Perspective," 
+Technical Memorandum ANL/MCS-TM-302, 2008.</ref><ref>Swapnil A. Patil, Garth A. Gibson, Gregory R. Ganger, Julio  Lopez, Milo  Polte, Wittawat  Tantisiroj, Lin  Xiao, "In Search of an API for Scalable File Systems: Under the table or above it?," USENIX HotCloud Workshop 2009.</ref>
+
+Architecture
+PVFS consists of 4 main components, and a number of utility programs.  The components are the PVFS2-server, the pvfslib, the PVFS-client-core, and the PVFS kernel module. Utilities include the karma management tool, utilities such as pvfs-ping, pvfs-ls, pvfs-cp, etc. that all operate directly on the file system without using the kernel module (primarily for maintenance and testing).  Another key design point is the PVFS protocol which describes the messages passed between client and server, though this is not strictly a component.
+
+=PVFS2-server=
+The PVFS server runs as a process on a node designated as an I/O node.  I/O nodes are often dedicated nodes but can be regular nodes that run application tasks as well.  The PVFS server usually runs as root, but can be run as a user if preferred.  Each server can manage multiple distinct file systems and is designated to run as a metadata server, data server, or both.  All configuration is controlled by a configuration file specified on the command line, and all servers managing a given file system use the same configuration file.  The server receives requests over the network, carries out the request which may involve disk I/O and responds back to the original requester.  Requests normally come from client nodes running application tasks but can come from other servers.  The server is composed of the request processor, the job layer, Trove, BMI, and flow layers.
+
+Request processor
+The request processor consists of the server process' main loop and a number of state machines.  State machines are based on a simple language developed for PVFS that manage concurrency within the server and client.  A state machine consists of a number of states, each of which either runs a C state action function or calls a nested (subroutine) state machine.  In either case return codes select which state to go to next.  State action functions typically submit a job via the job layer which performs some kind of I/O via Trove or BMI.  Jobs are non-blocking, so that once a job is issued the state machine's execution is deferred so that another state machine can run servicing another request.  When Jobs are completed the main loop restarts the associated state machine.  The request processor has state machines for each of the various request types defined in the PVFS request protocol plus a number of nested state machines used internally.  The state machine architecture makes it relatively easy to add new requests to the server in order to add features or optimize for specific situations.
+
+Job layer
+The Job layer provides a common interface for submitting Trove, BMI, and flow jobs and reporting their completion.  It also implements the request scheduler as a non-blocking job that records what kind of requests are in progress on which objects and prevents consistency errors due to simultaneously operating on the same file data.
+
+Trove
+Trove manages I/O to the objects stored on the local server.  Trove operates on collections of data spaces.  A collection has its own independent handle space and is used to implement distinct PVFS file systems,  A data space is a PVFS object and has its own unique (within the collection) handle and is stored on one server.  Handles are mapped to servers through a table in the configuration file.  A data space consists of two parts: a bytestream, and a set of key/value pairs.  A bytestream is sequence of bytes of indeterminate length and is used to store file data, typically in a file on the local file system.  Key/value pairs are used to store metadata, attributes, and directory entries.  Trove has a well defined interface and can be implemented in various ways.  To date the only implementation has been the Trove-dbfs implementation that stores bytestreams in files and key/value pairs in a Berkeley DB database.<ref>[http://www.rce-cast.com/Podcast/rce-35-pvfs-parallel-virtual-filesystem.html RCE 35: PVFS Parallel Virtual FileSystem]</ref> Trove operations are non-blocking, the API provides post functions to read or write the various components and functions to check or wait for completion.
+
+BMI
+
+Flows
+
+=pvfslib=
+
+=PVFS-client-core=
+
+=PVFS kernel module=
+
+See also
+Portal|Free and open-source software
+*List of file systems#Distributed parallel file systems|List of file systems, the distributed parallel file system section
+
+References
+Reflist|35em
+
+External links
+*Official website|www.pvfs.org
+*[http://www.orangefs.org/ Orange File System] - A branch of the Parallel Virtual File System
+*[https://events.linuxfoundation.org/images/stories/pdf/lfcs2012_wilson.pdf Architecture of a Next-Generation Parallel File System]
+*[http://video.linux.com/videos/architecture-of-a-next-gen-parallel-file-system Video archive]
+
+File systems
+
+Category:Distributed file systems
+Category:Distributed file systems supported by the Linux kernel
+Category:Network file systems

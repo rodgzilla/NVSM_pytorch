@@ -1,0 +1,39 @@
+Secure cookies are a type of HTTP cookie that have Secure attribute set, which limits the scope of the cookie to "secure" channels (where "secure" is defined by User agent|the user agent, typically web browser).<ref name=":0">Cite journal|last=Barth|first=A.|date=April 2011|title=RFC 6265 - HTTP State Management Mechanism|url=https://tools.ietf.org/html/rfc6265#section-4.1.2.5|journal=IETF RFC|volume=|pages=|via=</ref> When a cookie has the Secure attribute, the user agent will include the cookie in an HTTP request only if the request is transmitted over a secure channel (typically HTTPS).<ref name=":0" /> Although seemingly useful for protecting cookies from active network attackers, the Secure attribute protects only the cookie's confidentiality. An active network attacker can overwrite Secure cookies from an insecure channel, disrupting their integrity. This issue is officially referred to as Weak Integrity.<ref name=":0" /> However, some browsers, including Chrome 52 and higher and Firefox 52 and higher, forego this specification in favor of better security and forbid insecure sites (Hypertext Transfer Protocol|HTTP) from setting cookies with the <code>Secure</code> directive.<ref name=":1">Cite web|url=https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#Secure_and_HttpOnly_cookies|title=HTTP cookies|website=MDN Web Docs|language=en-US|access-date=2018-10-06</ref>
+
+Even with <code>Secure</code>, sensitive information should ''never'' be stored in cookies, as they are inherently insecure and this flag can't offer real protection.<ref name=":1" /> Secure attribute is not the only protection mechanism for cookies, there are also HttpOnly cookie|HttpOnly and SameSite cookie|SameSite attributes. The HttpOnly attribute restricts the cookie from being accessed by, for instance, JavaScript, while the SameSite cookie|SameSite attribute only allows the cookie to be sent to the application if the request originated from the same domain.
+
+ Background 
+An HTTP cookie is a small packet of data<ref name="Abortz"/> that is sent from a web server to a user's web browser. Since HTTP is a stateless protocol, it cannot relay information from one page to the other and so there was a need of a cookie. There are two types of cookies:
+
+* Persistent cookies - Cookies that store information in user's browser for a long time.
+* Non-persistent cookies - Cookies that generally expire once the browser is closed.
+
+The cookies could contain sensitive information such as passwords and credit card numbers. These are sent over an HTTP connection and are stored in web browsers as plain text, and so can be targeted and be used by attackers to steal the information stored in it. To prevent such information exposure cookies are secured with attributes.
+
+ Cookie theft and hijacking 
+Various cookie hijacking techniques exist.<ref name="Usenix"/> All the methods are not difficult to implement and can do significant damage to a user or an organization. Cookies that contain sensitive information such as usernames, passwords, and session identifiers can be captured using these tools once they are downloaded from a site to a web browser or accessed through a computer hard drive.<ref>Cite book|title=CompTIA Security+ Certification Study Guide: Exam SY0-201 3E|last=Dubrawsky|first=Ido|publisher=Syngress|year=2009|isbn=9781597494267|location=Burlington, MA|pages=105</ref>
+
+= Network threats =
+Cookies that are sent over unencrypted channels can be subject to eavesdropping, i.e. the contents of the cookie can be read by the attacker. This type of threats can be prevented by the use of Transport Layer Security|Secure Sockets Layer or SSL protocol in servers and Internet browsers although this works only if the cookies are on the network.<ref name=":3">Cite book|title=Research Advances in Database and Information Systems Security|last=Atluri|first=Vijay|last2=Hale|first2=John|publisher=Springer Science+Business Media, LLC|year=2013|isbn=9781475764116|location=Berlin|pages=52</ref> One might also use cookies with only the sensitive information encrypted instead of the entirety of a data payload exchanged.<ref>Cite book|title=Access Control Systems: Security, Identity Management and Trust Models|last=Benantar|first=Messaoud|publisher=Springer Science+Business Media|year=2006|isbn=9780387004457|location=Heidelberg|pages=127</ref> 
+
+= End system threats =
+Cookies can be stolen or copied from the user, which could either reveal the information in the cookies or allow the attacker to edit the contents of the cookies and impersonate the users. This happens when a cookie, which is in the browser's end system and stored in the local drive or memory in clear text, is altered or copied from one computer to another with or without the knowledge of the user.<ref name=":3" />  
+
+= Cookie harvesting =
+The attacker can try to impersonate a website by accepting cookies from the users. Once the attacker gets the cookies, he can use these harvested cookies for websites that accept third-party cookies. An example of this threat is the so-called Cross-Site Scripting attack, which involves the exploitation of the vulnerabilities of a website displaying data provided by the user that has underlying malicious intent.<ref name=":2">Cite book|title=Data and Applications Security XIX|last=Jajodia|first=Sushil|last2=Wijesekera|first2=Duminda|publisher=Springer Science & Business Media|year=2005|isbn=9783540281382|location=Berlin|pages=317</ref> An attacker, for instance, could embed a script in a URL he has posted in a Internet forum|discussion forum, message board, or email, which is then activated when the target opens the hyperlink.<ref name=":2" />
+
+See also
+*HTTP cookie|HTTP Cookie
+*Session (computer science)
+* Information security
+
+References
+Reflist|refs=
+<ref name="Abortz">Cite web |title=Origin Cookies: Session Integrity for Web Applications |author-first1=Andrew |author-last1=Bortz |author-first2=Adam |author-last2=Barth |author-first3=Alexei |author-last3=Czeskis |date= |website= |publisher= |url=https://www.abortz.net/papers/session-integrity.pdf |access-date=2018-05-13 |dead-url=no |archive-url=https://web.archive.org/web/20180513103923/https://www.abortz.net/papers/session-integrity.pdf |archive-date=2018-05-13</ref>
+<ref name="Usenix">Cite web |title=Cookies Lack Integrity: Real-World Implications |author-first1=Xiaofeng |author-last1=Zheng |author-first2=Jian |author-last2=Jiang |author-first3=Jinjin |author-last3=Liang |author-first4=Haixin |author-last4=Duan |author-first5=Shuo |author-last5=Chen |author-first6=Tao |author-last6=Wan |author-first7=Nicholas |author-last7=Weaver |publisher=Proceedings of the 24th USENIX Security Symposium |date=2016-08-12 |isbn=978-1-931971-232 |url=https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-zheng-updated.pdf<!-- https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/zheng --> |access-date=2018-05-13 |dead-url=no |archive-url=https://web.archive.org/web/20180513103928/https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-zheng-updated.pdf |archive-date=2018-05-13</ref>
+
+
+ External links 
+* Cite web |title=What is Secure Cookie? - Definition from Techopedia |url=https://www.techopedia.com/definition/25737/secure-cookie |access-date=2018-05-13 |dead-url=no |archive-url=https://web.archive.org/web/20180513103933/https://www.techopedia.com/definition/25737/secure-cookie |archive-date=2018-05-13
+
+Category:Internet privacy

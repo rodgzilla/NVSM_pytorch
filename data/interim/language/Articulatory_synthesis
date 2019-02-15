@@ -1,0 +1,99 @@
+File:Modeling-Consonant-Vowel-Coarticulation-for-Articulatory-Speech-Synthesis-pone.0060603.s008.ogv|thumb|310px|nowrap|3D vocal tract model for Articulatory <!-- speech --> synthesis
+
+Based on Consonant-Vowel Coarticulation modeling, German sentence "''Lea und Doreen mögen Bananen.''" was reproduced from a naturally spoken sentence in terms of the fundamental frequency and the phone durations.<ref>
+Cite journal
+ | last      = Birkholz | first = Peter 
+ | year      = 2013
+ | title     = Modeling Consonant-Vowel Coarticulation for Articulatory Speech Synthesis
+ | journal   = PLOS ONE
+ | doi       = 10.1371/journal.pone.0060603
+ | pmid      = 23613734
+ | pmc       = 3628899
+ | volume=8
+ | issue=4
+ | pages=e60603
+|bibcode = 2013PLoSO...860603B </ref>
+
+Articulatory synthesis refers to computational techniques for speech synthesis|synthesizing speech based on models of the human vocal tract and the articulation processes occurring there. The shape of the vocal tract can be controlled in a number of ways which usually involves modifying the position of the speech articulators, such as the tongue, jaw, and lips. Speech is created by digitally simulating the flow of air through the representation of the vocal tract.
+
+ Mechanical talking heads 
+
+There is a long history of attempts to build mechanical "talking heads."
+<ref>[http://www.haskins.yale.edu/featured/heads/heads.html Talking Heads]</ref> Speech synthesis#Mechanical devices|Mechanical devices.Pope Silvester II|Gerbert (d. 1003), Albertus Magnus (1198–1280) and Roger Bacon (1214–1294) are all said to have built speaking heads (Charles Wheatstone|Wheatstone 1837). However, historically confirmed speech synthesis begins with Wolfgang von Kempelen (1734–1804), who published an account of his research in 1791 (see also harvnb|Dudley|Tarnoczy|1950).
+
+ Electrical vocal tract analogs 
+
+The first electrical vocal tract analogs were static, like those of Dunn (1950), Kenneth N. Stevens|Ken Stevens and colleagues (1953), Gunnar Fant (1960). Rosen (1958) built a dynamic vocal tract (DAVO), which Dennis (1963) later attempted to control by computer. Dennis et al. (1964), Hiki et al. (1968) and Baxter and Strong (1969) have also described hardware vocal-tract analogs. Kelly and Lochbaum (1962) made the first computer simulation; later digital computer simulations have been made, e.g. by Nakata and Mitsuoka (1965), Matsui (1968) and Paul Mermelstein (1971). Honda et al. (1968) have made an analog computer simulation.
+
+ Haskins and Maeda models 
+
+The first software articulatory synthesizer regularly used for laboratory experiments was developed at Haskins Laboratories in the mid-1970s by Philip Rubin, Tom Baer, and Paul Mermelstein. This synthesizer, known as ASY,<ref>[http://www.haskins.yale.edu/facilities/asy.html ASY]</ref> was a computational model of speech production based on vocal tract models developed at Bell Laboratories in the 1960s and 1970s by Paul Mermelstein, Cecil Coker, and colleagues. Another popular model that has been frequently used is that of Shinji Maeda, which uses a factor-based approach to control tongue shape.
+
+ Modern models 
+Recent progress in speech production imaging, articulatory control modeling, and tongue biomechanics modeling has led to changes in the way articulatory synthesis is performed [http://shylock.uab.cat/icphs/plenariesandsymposia.htm]. Examples include the Haskins CASY model (Configurable Articulatory Synthesis),<ref>[http://www.haskins.yale.edu/facilities/casy.html CASY]</ref> designed by Philip Rubin, Mark Tiede [http://www.haskins.yale.edu/staff/tiede.html], and Louis Goldstein [http://dornsife.usc.edu/cf/faculty-and-staff/faculty.cfm?pid=1016450], which matches midsagittal vocal tracts to actual magnetic resonance imaging (MRI) data, and uses MRI data to construct a 3D model of the vocal tract. A full 3D articulatory synthesis model has been described by Olov Engwall. A geometrically based 3D articulatory speech synthesizer has been developed by Peter Birkholz (VocalTractLab<ref>[http://www.vocaltractlab.de VocalTractLab]</ref>). The Neurocomputational_speech_processing#DIVA_model|Directions Into Velocities of Articulators (DIVA) model, a feedforward control approach which takes the neural computations underlying speech production into consideration, was developed by Frank H. Guenther at Boston University. The ArtiSynth project,<ref>[http://www.artisynth.org Artisynth]</ref> headed by Sidney Fels [http://www.ece.ubc.ca/~ssfels/] at the University of British Columbia, is a 3D biomechanical modeling toolkit for the human vocal tract and upper airway. Biomechanical modeling of articulators such as the tongue has been pioneered by a number of scientists, including Reiner Wilhelms-Tricarico [http://www.haskins.yale.edu/staff/tricarico.html], Yohan Payan [http://www-timc.imag.fr/Yohan.Payan/] and Jean-Michel Gerard [http://www-timc.imag.fr/gmcao/en-fiches-projets/modele-langue.htm], Jianwu Dang and Kiyoshi Honda [http://iipl.jaist.ac.jp/dang-lab/en/].
+
+ Commercial models 
+One of the few commercial articulatory speech synthesis systems is the NeXT-based system originally developed and marketed by Trillium Sound Research, a spin-off company of the University of Calgary, where much of the original research was conducted. Following the demise of the various incarnations of NeXT (started by Steve Jobs in the late 1980s and merged with Apple Computer in 1997), the Trillium software was published under a GNU General Public Licence, with work continuing as gnuspeech. The system, first marketed in 1994, provides full articulatory-based text-to-speech conversion using a waveguide or transmission-line analog of the human oral and nasal tracts controlled by Rene Carré's "distinctive region model".<ref>[http://pages.cpsc.ucalgary.ca/~hill/papers/avios95/body.htm Real-time articulatory speech-synthesis-by-rules]</ref>
+
+ See also 
+* articulatory phonetics
+* articulatory phonology
+* neurocomputational speech processing
+* speech synthesis
+
+ Footnotes 
+Reflist
+
+ Bibliography 
+* Baxter, Brent, and William J. Strong. (1969).  WINDBAG—a vocal-tract analog speech synthesizer. ''Journal of the Acoustical Society of America'', 45, 309(A).
+* Birkholz P, Jackel D, Bernd J. Kröger|Kröger BJ (2007) Simulation of losses due to turbulence in the time-varying vocal system. ''IEEE Transactions on Audio, Speech, and Language Processing'' 15: 1218-1225
+* Birkholz P, Jackel D, Bernd J. Kröger|Kröger BJ (2006) Construction and control of a three-dimensional vocal tract model. ''Proceedings of the International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2006)'' (Toulouse, France) pp.&nbsp;873–876
+* Coker. C. H. (1968). Speech synthesis with a parametric articulatory model. ''Proc. Speech. Symp., Kyoto, Japan'', paper A-4.
+* Cite journal | doi = 10.1109/PROC.1976.10154 | last1 = Coker | first1 = C. H. | year = 1976 | title = A model for articulatory dynamics and control | url = | journal = Proceedings of the IEEE | volume = 64 | issue = 4| pages = 452–460 
+* Cite journal | last1 = Coker | first1 =  | last2 = Fujimura | first2 = O. | year = 1966 | title = Model for the specification of the vocal tract area function | url = | journal = Journal of the Acoustical Society of America | volume = 40 | issue = | page = 1271 |bibcode = 1966ASAJ...40.1271C |doi = 10.1121/1.2143456 
+* Dennis, Jack B. (1963).  Computer control of an analog vocal tract. ''Journal of the Acoustical Society of America'', 35, 1115(A).
+* Cite journal |ref=harv | doi = 10.1121/1.1906583 | last1 = Dudley | first1 = Homer | last2 = Tarnoczy | first2 = Thomas H. | year = 1950 | title = The speaking machine of Wolfgang von Kempelen | url = | journal = Journal of the Acoustical Society of America | volume = 22 | issue = 2| pages = 151–66 |bibcode = 1950ASAJ...22..151D 
+* Cite journal | doi = 10.1121/1.1906681 | last1 = Dunn | first1 = Hugh K. | year = 1950 | title = Calculation of vowel resonances, and an electrical vocal tract | url = | journal = Journal of the Acoustical Society of America | volume = 22 | issue = 6| pages = 740–53 |bibcode = 1950ASAJ...22..740D 
+* Engwall, O. (2003). Combining MRI, EMA & EPG measurements in a three-dimensional tongue model. Speech Communication, 41, 303-329.
+* Fant, C. Gunnar M. (1960). ''Acoustic theory of speech production''. The Hague, Mouton.
+* Cite journal | doi = 10.1051/jphystap:018790080027401 | last1 = Gariel | first1 =  M.| year = 1879 | title = Machine parlante de M. Faber | url = https://hal.archives-ouvertes.fr/jpa-00237531/document| journal = J. Physique Théorique et Appliquée | volume = 8 | issue = | pages = 274–5 
+* Cite journal | last1 = Gerard | first1 = J.M. | last2 = Wilhelms-Tricarico | first2 = R. | last3 = Perrier | first3 = P. | last4 = Payan | first4 = Y. | year = 2003 | title = A 3D dynamical biomechanical tongue model to study speech motor control | url = | journal = Recent Research Developments in Biomechanics | volume = 1 | issue = | pages = 49–64 
+* Henke, W. L. (1966). Dynamic Articulatory Model of Speech Production Using Computer Simulation. Unpublished doctoral dissertation, MIT, Cambridge, MA.
+* Honda, Takashi, Seiichi Inoue, and Yasuo Ogawa. (1968).  A hybrid control system of a human vocal tract simulator. ''Reports of the 6th International Congress on Acoustics'', ed. by Y. Kohasi, pp.&nbsp;175–8. Tokyo, International Council of Scientific Unions.
+* Kelly, John L., and Carol Lochbaum. (1962).  Speech synthesis. ''Proceedings of the Speech Communications Seminar'', paper F7. Stockholm, Speech Transmission Laboratory, Royal Institute of Technology.
+* Kempelen, Wolfgang R. Von. (1791).  ''Mechanismus der menschlichen Sprache nebst der Beschreibung seiner sprechenden Maschine''. Wien, J. B. Degen.
+* Maeda, S. (1988). Improved articulatory model. ''Journal of the Acoustical Society of America'', 84, Sup. 1, S146.
+* Maeda, S. (1990). Compensatory articulation during speech: evidence from the analysis and synthesis of vocal-tract shapes using an articulatory model. In W. J. Hardcastle and A. Marchal (Eds.), ''Speech Production and Speech Modelling'', Kluwer Academic, Dordrecht, 131-149.
+* Matsui, Eiichi. (1968).  Computer-simulated vocal organs. ''Reports of the 6th International Congress on Acoustics'', ed. by Y. Kohasi, pp.&nbsp;151–4. Tokyo, International Council of Scientific Unions.
+* Mermelstein, Paul.  (1969). Computer simulation of articulatory activity in speech production. ''Proceedings of the International Joint Conference on Artificial Intelligence'', Washington, D.C., 1969, ed. by D. E. Walker and L. M. Norton. New York, Gordon & Breach.
+* Cite journal | doi = 10.1121/1.1913427 | last1 = Mermelstein | first1 = P. | year = 1973 | title = Articulatory model for the study of speech production | url = | journal = Journal of the Acoustical Society of America | volume = 53 | issue = 4| pages = 1070–1082 | pmid = 4697807 |bibcode = 1973ASAJ...53.1070M 
+* Cite journal | last1 = Nakata | first1 = Kazuo | last2 = Mitsuoka | first2 = T. | year = 1965 | title = Phonemic transformation and control aspects of synthesis of connected speech | url = | journal = J. Radio Res. Labs. | volume = 12 | issue = | pages = 171–86 
+* Cite journal | doi = 10.1121/1.405559 | last1 = Rahim | first1 = M. | last2 = Goodyear | first2 = C. | last3 = Kleijn | first3 = W. | last4 = Schroeter | first4 = J. | last5 = Sondhi | first5 = M. | year = 1993 | title = On the use of neural networks in articulatory speech synthesis | url = | journal = Journal of the Acoustical Society of America | volume = 93 | issue = 2| pages = 1109–1121 |bibcode = 1993ASAJ...93.1109R 
+* Cite journal | doi = 10.1121/1.1909541 | last1 = Rosen | first1 = George | year = 1958 | title = Dynamic analog speech synthesizer | url = | journal = Journal of the Acoustical Society of America | volume = 30 | issue = 3| pages = 201–9 |bibcode = 1958ASAJ...30..201R 
+* Cite journal | doi = 10.1121/1.386780 | last1 = Rubin | first1 = P. E. | last2 = Baer | first2 = T. | last3 = Mermelstein | first3 = P. | year = 1981 | title = An articulatory synthesizer for perceptual research | url = | journal = Journal of the Acoustical Society of America | volume = 70 | issue = 2| pages = 321–328 |bibcode = 1981ASAJ...70..321R 
+* Rubin, P., Saltzman, E., Goldstein, L., McGowan, R., Tiede, M., & Browman, C. (1996). CASY and extensions to the task-dynamic model. ''Proceedings of the 1st ESCA Tutorial and Research Workshop on Speech Producing Modeling - 4th Speech Production Seminar'', 125-128.
+* Cite journal | doi = 10.1121/1.1907169 | last1 = Stevens | first1 = Kenneth N. | last2 = Kasowski | first2 = S. | last3 = Fant | first3 = C. Gunnar M. | year = 1953 | title = An electrical analog of the vocal tract | url = | journal = Journal of the Acoustical Society of America | volume = 25 | issue = 4| pages = 734–42 |bibcode = 1953ASAJ...25..734S 
+
+External links
+* cite web
+   | title     = From MRI and Acoustic Data to Articulatory Synthesis
+   | url       = http://www.icsl.ucla.edu/~spapl/projects/mri.html
+   | work      = <small>
+   | archiveurl= https://web.archive.org/web/20070814095736/http://www.ee.ucla.edu/~spapl/projects/mri.html
+   | archivedate = Date|2007-08-14
+  </small>
+* [http://www.praat.org Praat]
+* cite web
+   | title     = Smithsonian Speech Synthesis History Project (SSSHP) 1986-2002
+   | url       = http://www.mindspring.com/~ssshp/ssshp_cd/ss_home.htm
+   | work      = <small>
+   | archiveurl= https://web.archive.org/web/20131003104852/http://amhistory.si.edu/archives/speechsynthesis/ss_home.htm
+   | archivedate = Date|2013-10-03
+  </small>
+* [http://www.chocolatesparalucia.com/2010/09/articulatory-speech-synthesis/ Introduction to Articulatory Speech Synthesis]
+*[https://www.youtube.com/watch?v=CE6zy8aUwtQ Simulated singing with the singing robot Pavarobotti] or a description from the BBC on [https://www.youtube.com/watch?v=SNqNM6Ccck8 how the robot synthesized the singing].
+
+Speech synthesis
+
+Category:Speech synthesis
+Category:Articles containing video clips

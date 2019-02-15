@@ -1,0 +1,194 @@
+File:Insight landing-640x350.gif|thumb|350px|Animation of a Mars landing touchdown, the InSight lander in 2018
+
+Main|Exploration of Mars
+A Mars landing is a landing of a spacecraft on the surface of Mars. Of multiple attempted Mars landings by robotic spacecraft|robotic, unmanned spacecraft, eight have been successful. There have also been studies for a possible human mission to Mars, including a landing, but none have been attempted.
+The most recent landing took place on November 26th, 2018 by the NASA probe InSight.
+
+Methods of descent and landing
+As of October 2016, all methods of landing on Mars have required an aeroshell and parachute sequence for Mars atmospheric entry and descent, but after that three different methods have been used to date. A stationary lander can drop from the parachute back shell and ride retrorockets all the way down, but a Rover (space exploration)|rover cannot be burdened with rockets that serve no purpose after touchdown. 
+ 
+One method for lighter rovers is to enclose the rover in a tetrahedron|tetrahedral structure which in turn is enclosed in airbags. After the aeroshell drops off, the tetrahedron is lowered clear of the parachute back shell on a tether so that the airbags can inflate. Retrorockets on the back shell can slow descent. When it nears the ground, the tetrahedron is released to drop to the ground, using the airbags as shock absorbers. When it has come to rest, the tetrahedron opens to expose the rover.
+
+If a rover is too heavy to use airbags, the retrorockets can be mounted on a ''sky crane''. The sky crane drops from the parachute back shell and, as it nears the ground, the rover is lowered on a tether. When the rover touches ground, it cuts the tether so that the sky crane (with its rockets still firing) will crash well away from the rover.<ref>cite news| last =Reichhardt| first =Tony| title =Legs, bags or wheels?| newspaper =Air & Space| publisher =Smithsonian| date =August 2007| url =http://www.airspacemag.com/space/legs-bags-or-wheels-19349872/?no-ist| accessdate =17 January 2015 </ref>
+
+{|
+|File:PhoenixSolarPanelandRoboticArm.png|thumb|right|View from the Phoenix (spacecraft)|NASA ''Phoenix'' lander in 2008
+|File:593484main pia14839 full Curiosity's Sky Crane Maneuver, Artist's Concept.jpg|thumb|Artistic depiction of MSL Curiosity (rover)|''Curiosity'' rover being lowered from the ''Skycrane''
+|File:MSL DescentStage.jpg|thumb|The MSL Descent Stage under construction on Earth
+|}
+
+Descent of heavier payloads
+For landers that are even heavier than the Curiosity rover|''Curiosity'' rover (which required a 4.5 meter (15 feet) diameter aeroshell), engineers are developing a combination rigid-inflatable Low-Density Supersonic Decelerator that could be 8 meters (28 feet) in diameter. It would have to be accompanied by a proportionately larger parachute.<ref>cite web| title =Low-Density Supersonic Decelerator (LDSD)| work =Press kit| publisher =Jet Propulsion Laboratory| date =May 2014| url =http://www.jpl.nasa.gov/news/press_kits/ldsd.pdf| archivedate =26 March 2015 </ref>
+
+ Landing Challenges 
+Landing robotic spacecraft and humans on Mars has become one of the technological need for humans. In the sequence of transit to Mars one of the most challenging task for the lander is to perform successful soft-landing without any issue. For a favorable landing, the lander module has to come up with challenges like<ref name=":0">Braun, R. D., & Manning, R. M. (2007). [https://arc.aiaa.org/doi/abs/10.2514/1.25116 Mars exploration entry, descent, and landing challenges]. ''Journal of spacecraft and rockets'', ''44''(2), 310-323.</ref><ref>Wells, G. W., Lafleur, J. M., Verges, A., Manyapu, K., Christian III, J. A., Lewis, C., & Braun, R. D. (2006). [https://smartech.gatech.edu/handle/1853/14772 Entry descent and landing challenges of human Mars exploration.]</ref>
+
+* Thickness of the Mars atmosphere
+* Surface elevation (Mars Orbiter Laser Altimeter|MOLA range)
+* Inadequate technology for Ballistics|ballistic aerocapture
+* Inadequate technology for Retropropulsive landing|retropropulsive powered descent
+* Inadequate mission designs 
+* Shorter Entry, descent and landing|EDL time to perform entry, descent and landing
+* Technology limitation
+
+In recent years, NASA have successfully landed "InSight|InSight Mars Lander" on the surface of Mars harnessing Viking Lander|Viking era technology<ref>Cite web|url=https://mars.nasa.gov/insight/timeline/landing/entry-descent-landing|title=Entry, Descent, and Landing ! Landing|last=mars.nasa.gov|website=NASA's InSight Mars Lander|language=en|access-date=2019-01-15</ref>. But this technology cannot afford us to land large number of cargoes, habitats, ascent vehicles and humans in case of manned Mars missions in near future. In order to improve and accomplish this intent, we need to upgrade our technologies and Launch vehicle|launch vehicles. For a successive soft-landing using current technology, some of the considerable factors for a lander such as<ref>Cite journal|last=M|first=Malaya Kumar Biswal|last2=A|first2=Ramesh Naidu|date=2018-08-23|title=A Novel Entry, Descent and Landing Architecture for Mars Landers|url=https://arxiv.org/abs/1809.00062|journal=arXiv:1809.00062 [astro-ph, physics:physics]</ref><ref name=":0" />
+
+* Mass should be less than 0.6 ton
+* Ballistic coefficient should be less than 35 kg/m<sup>2</sup>
+* Diameter of the aeroshell should be less than 4.6m
+* Geometry of the aeroshell should be 70° spherical cone shell
+* Diameter of the parachute should be less than 30m
+* Need to sue supersonic VTVL|retropropulsive powered descent
+* Need to perform Aerocapture|orbital entry (i.e., entry from Mars orbit)
+
+Communicating with Earth
+Beginning with the Mars Exploration Rover|Mars Exploration Rovers, landers on the surface of Mars have used orbiting spacecraft as communications satellites for relaying their data to Earth. The landers use Ultra high frequency|UHF transmitters to send their data to the orbiters, which then relay the data to Earth using either X band or Ka band frequencies. These higher frequencies, along with more powerful transmitters and larger antennas, permit the orbiters to send the data much faster than the landers could manage transmitting directly to Earth, which conserves valuable time on the NASA Deep Space Network|receiving antennas.<ref>cite web| url =https://sandilands.info/sgordon/communications-with-mars-curiosity| title =Talking to Martians: Communications with Mars Curiosity Rover| website =Steven Gordon's Home Page| access-date =17 March 2017</ref>
+
+Landing site locations
+-
+Mars map indicating landers
+-
+
+Unmanned landings
+File:PIA22871 Full View of InSight's Deck and Two Science Instruments.jpg|thumb|Insight Mars lander view in December 2018
+In 1976 twin Viking lander's made it to the surface and provided several years of images and data, however it not be until 1997 when Mars Pathfinder until there was another Mars lander.<ReF>[https://www.space.com/13558-historic-mars-missions.html]</ref> In the 21st century there was several successful landings, but there have also been many crashes.<ReF>[https://www.space.com/13558-historic-mars-missions.html]</reF>
+=Mars probe program=
+
+The first probe intended to be a Mars impact (mechanics)|impact lander was the Soviet Mars 1962B unsuccessfully launched in 1962.<ref>cite web | url= http://nssdc.gsfc.nasa.gov/planetary/chronology_mars.html | title= NASA A Chronology of Mars Exploration | accessdate=2007-03-28</ref>
+
+In 1971 the Soviet Union successfully sent probes Mars 2 and Mars 3, as part of the Mars probe program M-71. The Mars 2 and 3 probes each carried a lander, both of which failed upon landing. They were the first human artifacts to touch down on Mars. Mars 2 lander impacted on Mars only, while Mars 3 was the first Martian soft lander and was able to transmit from the Martian surface during the first 20 seconds, the first data and a portion of the first picture. These space probes also contained the first mini-Mars rovers, although they were broken on landing.
+
+The Mars 2 and 3 orbiters sent back a large volume of data covering the period from December 1971 to March 1972, although transmissions continued through to August. By 22 August 1972, after sending back data and a total of 60 pictures, Mars 2 and 3 concluded their missions. The images and data enabled creation of surface relief maps, and gave information on the Martian gravity and magnetosphere.<ref>cite web | url= http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1971-049A | title= NASA (NSSDC) Master Catalog Display Mars 3 | accessdate=2007-03-28</ref>
+
+In 1973, the Soviet Union sent four more probes to Mars: the Mars 4 and Mars 5 orbiters and the Mars 6 and Mars 7 fly-by/lander combinations. All missions except Mars 7 sent back data, with Mars 5 being most successful. Mars 5 transmitted 60 images before a loss of pressurization in the transmitter housing ended the mission. The Mars 6 lander transmitted data during descent, but failed upon impact. Mars 4 flew by the planet at a range of 2200&nbsp;km, returning one swath of pictures and radio occultation data, which constituted the first detection of the nightside ionosphere on Mars.<ref>cite web | url= http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-047A | title= NASA (NSSDC) Master Catalog Display Mars 4 | accessdate=2007-03-28</ref> The Mars 7 probe separated prematurely from the carrying vehicle due to a problem in the operation of one of the onboard systems (attitude control or retro-rockets) and missed the planet by 1300&nbsp;km.
+
+Years earlier, in 1970 Soviet Union began the design of Mars 4NM and Mars 5NM missions with superheavy unmanned Martian spacecraft. First was Marsokhod with planned date of start in 1973 and second was Mars sample return mission planned for 1975. Both spacecraft were intended to be launched on the N1 rocket|N1 superrocket, but this rocket never flew successfully and the Mars 4NM and Mars 5NM projects were cancelled.<ref>[http://www.novosti-kosmonavtiki.ru/content/numbers/213/50.shtml Советский грунт с Марса] ru icon webarchive |url=https://web.archive.org/web/20080416155537/http://www.novosti-kosmonavtiki.ru/content/numbers/213/50.shtml |date=April 16, 2008 </ref>
+
+Later, double-launching Mars 5M|Mars 5M (Mars-79) sample return mission was planned for 1979, but cancelled due to complexity and technical problems.citation needed|date=July 2015
+
+=Viking program=
+Image:Mars Viking 11h016.png|thumb|right|''Viking 1'' landing site (click image for detailed description).
+
+In 1976 the two American Viking program|Viking probes entered orbit about Mars and each released a Lander (spacecraft)|lander module that made the first fully successful soft landing (rocketry)|soft landing on the planet's surface. The two missions returned the first color pictures and extensive scientific information. Measured temperatures at the landing sites ranged from 150 to 250 Kelvin|K (-125 to -25 °C), with a variation over a given day of 35° to 50°. Seasonal dust storms, pressure changes, and movement of atmospheric gases between the polar caps were observed. A Viking Biological Experiments|biology experiment produced possible evidence of life, but it was not corroborated by other on-board experiments.
+
+While searching for a suitable landing spot for ''Viking 2'''s lander, the ''Viking 1'' orbiter photographed the landform that constitutes the so-called "Face on Mars" on July 25, 1976.
+
+The Viking program was a descendant of the cancelled Voyager program (Mars)|Voyager program, whose name was later reused for a pair of outer solar system probes.
+
+=''Mars Pathfinder''=
+Image:PIA02405.jpg|thumb|left|"Ares Vallis" as photographed by ''Mars Pathfinder'' (click image for detailed description).
+
+NASA's ''Mars Pathfinder'' spacecraft, launched one month after Global Surveyor, landed on July 4, 1997. Its landing site was an ancient flood plain in Mars' northern hemisphere called Ares Vallis, which is among the rockiest parts of Mars. It carried a tiny remote-controlled rover called Sojourner, which was the first acting Mars rover that traveled a few meters around the landing site, exploring the conditions and sampling rocks around it. Newspapers around the world carried images of the lander dispatching the rover to explore the surface of Mars in a way never achieved before.
+
+Until the final data transmission on September 27, 1997, ''Mars Pathfinder'' returned 16,500 images from the lander and 550 images from the rover, as well as more than 15 chemical analyses of rocks and soil and extensive data on winds and other weather factors. Findings from the investigations carried out by scientific instruments on both the lander and the rover suggest that Mars was at one time in its past warm and wet, with water existing in its liquid state and a thicker atmosphere. The mission website was the most heavily trafficked up to that time.
+
+=Spate of failures=
+Image:mars polar lander.jpg|thumb|left|Conceptual drawing of the ''Mars Polar Lander'' on the surface of Mars.
+<div style="float:right; margin:2px;">
+{| class=wikitable style="text-align:center; font-size:11px"
+|+ Mars Spacecraft 1988–1999
+! Spacecraft !! Evaluation !! Had or was Lander
+|-
+| Phobos 1 || no || maybe|For Phobos
+|-
+| Phobos 2|| no || maybe|For Phobos
+|-
+| Mars Observer || no || no
+|-
+| Mars 96 || no || yes
+|-
+| ''Mars Pathfinder'' || yes || yes
+|-
+| Mars Global Surveyor || yes || no
+|-
+| Mars Climate Orbiter || no || no
+|-
+| Mars Polar Lander || no || yes
+|-
+| Deep Space 2 || no || yes
+|-
+| Nozomi || no || no
+|-
+|}</div>
+Mars 96, an orbiter launched on November 16, 1996 by Russia, failed when the planned second burn of the Block D-2 fourth stage did not occur. Following the success of Global Surveyor and Pathfinder, another spate of failures occurred in 1998 and 1999, with the Japanese Nozomi (spacecraft)|Nozomi orbiter and NASA's Mars Climate Orbiter, Mars Polar Lander, and Deep Space 2 penetrators all suffering various terminal errors. Mars Climate Orbiter is infamous for Lockheed Martin engineers mixing up the usage of U.S. customary units|English units with metric system|metric units, causing the orbiter to burn up while entering Mars' atmosphere. Out of 5–6 NASA missions in the 1990s, only 2 worked: ''Mars Pathfinder'' and Mars Global Surveyor, making ''Mars Pathfinder'' and its little rover the only successful Mars landing in the 1990s.
+
+=Mars Express and ''Beagle 2''=
+<!--File:PIA19107-Beagle2-Found-MRO-20140629.jpg|thumb|100px|''Beagle 2'', found in 2015 after being lost since it left Mars Express 11 years prior in December 2003-->
+On June 2, 2003, the European Space Agency's Mars Express set off from Baikonur Cosmodrome to Mars. The Mars Express craft consisted of the Mars Express Orbiter and the lander ''Beagle 2''. Although the landing probe was not designed to move, it carried a digging device and the smallest mass spectrometer created to date, as well as a range of other devices, on a robotic arm in order to accurately analyse soil beneath the dusty surface.
+
+The orbiter entered Mars orbit on December 25, 2003, and ''Beagle 2'' should have entered Mars' atmosphere the same day. However, attempts to contact the lander failed. Communications attempts continued throughout January, but ''Beagle 2'' was declared lost in mid-February, and a joint inquiry was launched by the UK and ESA that blamed principal investigator Colin Pillinger's poor project management. Nevertheless, Mars Express Orbiter confirmed the presence of water ice and carbon dioxide ice at the planet's south pole. NASA had previously confirmed their presence at the north pole of Mars.
+
+Signs of the ''Beagle 2'' lander were found in 2013 by the HiRISE camera on NASA’s Mars Reconnaissance Orbiter and the ''Beagle 2'''s presence confirmed in January 2015, several months after Pillinger's death. The lander appears to have successfully landed but not deployed all of its power and communications panels.
+
+=Mars Exploration Rovers=
+File:Rocket assisted descent.jpg|right|thumb|Descent is halted by retrorockets and lander is dropped convert|10|m|ft|abbr=on to the surface in this computer generated impression.
+<!--File:MER Spirit Lander Pan Sol16-A18R1 br2.jpg|thumb|right|''Spirit'' rover imaged its lander on the surface of Mars on January 18/19, 2004 (''Spirit'' Sol 16)<ref>[http://marsrover.nasa.gov/gallery/press/spirit/20040121a.html NASA.gov], MER-A 20040121a</ref>-->
+Shortly after the launch of Mars Express, NASA sent a pair of twin rovers toward the planet as part of the Mars Exploration Rover mission. On 10 June 2003, NASA's MER-A ''(Spirit)'' Mars Exploration Rover was launched. It successfully landed in Gusev (Mars crater)|Gusev Crater (believed once to have been a crater lake) on 3 January 2004. It examined rock and soil for evidence of the area's history of water. On July 7, 2003, a second rover, MER-B ''(Opportunity)'' was launched. It landed on 24 January 2004 in Meridiani Planum (where there are large deposits of hematite, indicating the presence of past water) to carry out similar geological work.
+
+Despite a temporary loss of communication with the ''Spirit'' Rover (caused by a file system anomaly [http://www.cs.princeton.edu/courses/archive/fall11/cos109/mars.rover.pdf]) delaying exploration for several days, both rovers eventually began exploring their landing sites. The rover ''Opportunity'' landed in a particularly interesting spot, a crater with bedrock outcroppings. In fast succession, mission team members announced on 2 March that data returned from the rover showed that these rocks were once "drenched in water", and on 23 March that it was concluded that they were laid down underwater in a salty sea. This represented the first strong direct evidence for liquid water on Mars at some time in the past.
+
+Towards the end of July 2005, it was reported by the ''The Sunday Times (UK)|Sunday Times'' that the rovers may have carried the bacteria ''Bacillus safensis'' to Mars. According to one NASA microbiologist, this bacteria could survive both the trip and conditions on Mars. A book containing this claim, ''Out of Eden (book)|Out of Eden'' by Alan Burdick, is due to be published in the United Kingdom. Despite efforts to sterilise both landers, neither could be assured to be completely sterile.<ref>cite news|url=http://www.timesonline.co.uk/article/0,,2089-1697332,00.html|accessdate=2006-06-17|title=It's one small step for a bug, a giant red face for NASA|publisher=The Sunday Times (UK) | location=London | date=July 17, 2005</ref>
+
+Having been designed for only three-month missions, both rovers lasted much longer than planned. ''Spirit'' lost contact with Earth in March 2010. ''Opportunity'', however, continued to carry out surveys of the planet, surpassing convert|45|km|mi|abbr=on|order= on its odometer by the time communication with it was lost in June 2018.<ref>cite web |author=Staff |title=Opportunity's Mission Manager Reports August 19, 2014 |url=http://www.nasa.gov/mission_pages/mer/opportunity-update.html |website=NASA |accessdate=February 14, 2015</ref><ref>Cite web|url=https://mars.nasa.gov/mer/mission/status_opportunityAll.html|title=Mars Exploration Rover Mission: All Opportunity Updates|website=mars.nasa.gov|access-date=2018-11-26</ref> These rovers have discovered many new things, including Heat Shield Rock, the first meteorite to be discovered on another planet.
+
+<!-- File:Spirit's West Valley Panorama (PIA10216).jpg|thumb|600px|left|View from the top of Home Plate (Mars)|Home Plate, taken by the ''Spirit'' rover in 2007.
+clear-->
+Wide image |Opportunity Heat Shield.jpg|800px|Here is some debris from a Mars landing, as viewed by a Rover. This shows the area around a heat shield and resulting shield impact crater. The heat shield was jettisoned during the descent impacting the surface on its own trajectory while the spacecraft went on to land the rover.
+
+=''Phoenix''=
+Image:Phoenix Lander seen from MRO during EDL2.jpg|thumb|left|110px|Camera on Mars Reconnaissance Orbiter|Mars orbiter snaps ''Phoenix'' suspended from its parachute during descent through Atmosphere of Mars|Mars' atmosphere.
+''Phoenix (spacecraft)|Phoenix'' launched on August 4, 2007, and touched down on the northern polar region of Mars on May 25, 2008. It is famous for having been successfully photographed while landing, since this was the first time one spacecraft captured the landing of another spacecraft onto a planetary body<ref>cite news|url=http://www.jpl.nasa.gov/news/phoenix/images.php?fileID=9227|accessdate=2008-05-27|title=Phoenix Makes a Grand Entrance|publisher=NASA</ref> (the Moon not being a planet, but a Natural satellite|satellite).
+
+''Phoenix'' was followed by the Mars Science Laboratory, a rover more capable than ''Spirit'' and ''Opportunity''. Originally the Mars Science Laboratory was intended for a launch during 2009 however, it was launched on November 26, 2011.
+
+Russia launched Fobos-Grunt, a sample return mission to Phobos (moon)|Phobos, along with the joint Chinese Yinghuo-1 Mars orbiter in November 2011, which went into Earth orbit successfully, but failed to launch to Mars.
+
+=Mars Science Laboratory=
+File:HiRISE image of MSL during EDL (refined).png|thumb|Mars Science Laboratory (and the Curiosity rover|''Curiosity'' rover) descending on Mars
+The Mars Science Laboratory|Mars Science Laboratory (MSL) (and Curiosity rover), launched in November 2011, landed on Aeolis Palus, between Peace Vallis and Aeolis Mons|Aeolis Mons ("Mount Sharp"), in Gale (crater)|Gale Crater on Mars on August 6, 2012, 05:17 UTC.<ref name ="Space-20120806">cite web |last=Wall |first=Mike |title=Touchdown! Huge NASA Rover Lands on Mars|url=http://www.space.com/16932-mars-rover-curiosity-landing-success.html |date=August 6, 2012|publisher=Space.com |accessdate=December 14, 2012 </ref><ref name="NASA-Curiosity">cite web |author=NASA|NASA Staff |title=Mars Science Laboratory - PARTICIPATE - Follow Your CURIOSITY |url=http://mars.jpl.nasa.gov/msl/participate/ |year=2012 |publisher=NASA |accessdate=2012-08-03 </ref> The landing site was in ''Quad 51'' ("Yellowknife")<ref name="NASA-20120810">cite web |author=NASA|NASA Staff |title=Curiosity's Quad - IMAGE | url=http://mars.jpl.nasa.gov/msl/multimedia/images/?ImageID=4408 | date=August 10, 2012 | publisher=NASA | accessdate=August 11, 2012 </ref><ref name="NASA-20120809">cite web |last1=Agle | first1=DC | last2=Webster | first2=Guy | last3=Brown | first3=Dwayne | title=NASA's Curiosity Beams Back a Color 360 of Gale Crate | url=http://www.nasa.gov/mission_pages/msl/news/msl20120809.html | date=August 9, 2012 | publisher=NASA | accessdate=August 11, 2012 </ref><ref name="BBC-20120809">cite news |last=Amos | first=Jonathan | title=Mars rover makes first colour panorama |url=https://www.bbc.co.uk/news/science-environment-19201742 | date=August 9, 2012 |newspaper=BBC News |accessdate=August 9, 2012 </ref><ref name="USA-20120809">cite news |last=Halvorson |first=Todd |title=Quad 51: Name of Mars base evokes rich parallels on Earth|url=https://www.usatoday.com/tech/science/space/story/2012-08-09/mars-panorama-curiosity-quad-51/56922978/1|date=August 9, 2012 |newspaper=USA Today |accessdate=August 12, 2012 </ref> of ''Aeolis Palus'' near the base of ''Aeolis Mons''. The landing site<ref name="NASA-20120822">cite web |last1=Brown |first1=Dwayne |last2=Cole |first2=Steve|last3=Webster |first3=Guy |last4=Agle |first4=D.C. |title=NASA Mars Rover Begins Driving at Bradbury Landing |url=http://www.nasa.gov/home/hqnews/2012/aug/HQ_12-292_Mars_Bradbury_Landing.html |date=August 22, 2012 |publisher=NASA |accessdate=August 22, 2012 </ref> was less than convert|2.4|km|abbr=on from the center of the rover's planned target site after a convert|350000000|mi|abbr=on|sigfig=3|order=flip journey.<ref name="autogenerated1">cite news|title=Impressive' Curiosity landing only 1.5 miles off, NASA says|url=http://www.cnn.com/2012/08/10/us/mars-curiosity/index.html?eref=mrss_igoogle_cnn|accessdate=10 August 2012</ref> NASA named the landing site "Bradbury Landing", in honor of author Ray Bradbury, on August 22, 2012.<ref name="NASA-20120822"/>
+
+=ExoMars ''Schiaparelli''=
+File:Schiaparelli Lander Model at ESOC.JPG|thumb|left|Model of ''Schiaparelli'' lander at ESOC 
+main|Schiaparelli EDM lander
+
+The Schiaparelli EDM lander|''Schiaparelli'' lander was intended to test technology for future soft landings on the surface of Mars as part of the ExoMars project. It was built in Italy by the European Space Agency (ESA) and Roscosmos. It was launched together with the ExoMars Trace Gas Orbiter (TGO) on 14 March 2016 and attempted a landing on 19 October 2016. Telemetry was lost about one minute before the scheduled landing time,<ref name="ESA-20161019">cite web |url=http://www.esa.int/Our_Activities/Space_Science/ExoMars/ExoMars_TGO_reaches_Mars_orbit_while_EDM_situation_under_assessment |title=ExoMars TGO reaches Mars orbit while EDM situation under assessment |publisher=European Space Agency |date=19 October 2016 |accessdate=19 October 2016</ref> but confirmed that most elements of the landing plan, including heat shield operation, parachute deployment, and rocket activation, had been successful.<ref name=SAR-2017>[http://exploration.esa.int/mars/59176-exomars-2016-schiaparelli-anomaly-inquiry/ EXOMARS 2016 – SCHIAPARELLI ANOMALY INQUIRY. May 2017]</ref> The Mars Reconnaissance Orbiter later captured imagery showing what appears to be Schiaparelli's crash site.<ref>Cite news|url=https://www.nytimes.com/2016/10/22/science/mars-crash-landing-site-explosion.html|title=Dark spot in Mars photo is probably wreckage of European spacecraft|last=Chang|first=Kenneth|date=2016-10-21|work=New York Times|access-date=2018-11-26|language=en</ref>
+
+=''InSight''=
+File:Phoenix landing.jpg|thumb|150px|''Phoenix'' landing art, similar to ''Insight''
+NASA's ''InSight'' lander'','' designed to study seismology and heat flow from the deep interior of Mars, was launched on May 5, 2018. It landed successfully in Mars's Elysium Planitia on November 26, 2018.<ref>Cite news|url=https://mars.nasa.gov/news/8392/nasa-insight-lander-arrives-on-martian-surface/|title=NASA InSight Lander Arrives on Martian Surface|last=|first=|date=|work=NASA’s Mars Exploration Program|access-date=2018-11-26|language=en</ref>
+
+=Future missions=
+;2020
+Additional future missions are the Mars 2020 rover, the Chinese Mars Global Remote Sensing Orbiter and Small Rover, and the Indian Mars Orbiter Mission 2 orbiter. The European Space Agency|ESA ExoMars rover, also planned for launch in 2020, should obtain soil samples from up to 2 meters depth and make an extensive search for biosignatures and biomolecules.
+
+There is a proposal for a Mars Sample Return Mission by ESA and NASA, but this has been delayed until at least 2024. This mission would be part of the European Aurora Programme.
+
+Landing site identification
+As a Mars lander approaches the surface, identifying a safe landing spot is a concern.<ref>[https://spaceflight.nasa.gov/gallery/images/exploration/marsexploration/html/s91_25383.html]</ref>
+
+File:S91 25383marslanding.jpg|thumb|900px|center|The inset frames show how the lander's descent imaging system is identifying hazards (NASA, 1990)
+
+clear
+
+See also
+colbegin
+* Colonization of Mars 
+* Exploration of Mars
+* Google Mars 
+* Human mission to Mars
+* Mars race
+* Mars rover 
+* Space weather
+* List of missions to Marscolend
+
+References
+Reflist|2
+
+External links
+*[http://nssdc.gsfc.nasa.gov/planetary/mars_mileage_guide.html Table of the distances between various landers and landmarks]
+
+Mars spacecraft
+Human missions to Mars
+portal bar|Mars
+
+Category:Exploration of Mars

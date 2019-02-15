@@ -1,0 +1,62 @@
+Refimprove|date=January 2008
+
+File:Geostationaryjava3Dsideview.gif|thumb|Satellites in geostationary orbit.
+A geosynchronous satellite is a satellite in geosynchronous orbit, with an orbital period the same as the Earth's rotation period. Such a satellite returns to the same position in the sky after each sidereal day, and over the course of a day traces out a path in the sky that is typically some form of analemma. A special case of geosynchronous satellite is the geostationary satellite, which has a geostationary orbit – a circular geosynchronous orbit directly above the Earth's equator. Another type of geosynchronous orbit used by satellites is the Tundra orbit|Tundra elliptical orbit.
+
+Geosynchronous satellites have the advantage of remaining permanently in the same area of the sky, as viewed from a particular location on Earth, and so permanently within view of a given ground station. Geostationary satellites have the special property of remaining permanently fixed in exactly the same position in the sky, as viewed from any location on Earth, meaning that ground-based antennas do not need to track them but can remain fixed in one direction. Such satellites are often used for communication purposes; a geosynchronous network is a communication network based on communication with or through geosynchronous satellites.
+
+Definition
+The term ''geosynchronous'' refers to the satellite's orbital period being exactly one sidereal day which enables it to be synchronized with the rotation of the Earth ("geo-"). Along with this orbital period requirement, to be ''geostationary'' as well, the satellite must be placed in an orbit that puts it in the vicinity over the equator. These two requirements make the satellite appear in an unchanging area of visibility when viewed from the Earth's surface, enabling continuous operation from one point on the ground. The special case of a geostationary orbit is the most common type of orbit for communications satellites. 
+
+If a geosynchronous satellite's orbit is not exactly aligned with the Earth's equator, the orbit is known as an inclined orbit.  It will appear (when viewed by someone on the ground) to oscillate daily around a fixed point. As the angle between the orbit and the equator decreases, the magnitude of this oscillation becomes smaller; when the orbit lies entirely over the equator in a circular orbit, the satellite remains stationary relative to the Earth's surface &ndash; it is said to be ''geostationary''.
+
+ Application 
+Further|List of satellites in geosynchronous orbit 
+As of|2018|October|df=|lc=|since=, there are approximately 446 active geosynchronous satellites, some of which are not operational.<ref>cite web|url=http://www.zarya.info/Diaries/Launches/geo-loc.php|title=Geosynchronous Satellites - By Location|last=Christy|first=Robert|archiveurl=https://web.archive.org/web/20131019171701/http://www.zarya.info/Diaries/Launches/geo-loc.php|archivedate=19 October 2013|deadurl=yes|accessdate=18 October 2013|df=</ref><ref>Cite web|url=http://www.satsig.net/sslist.htm|title=List of satellites in geostationary orbit|website=www.satsig.net|access-date=2018-12-10</ref><ref>Cite web|url=https://www.celestrak.com/NORAD/elements/|title=CelesTrak: Current NORAD Two-Line Element Sets|website=www.celestrak.com|access-date=2018-12-10</ref> For an interactive list of active inactive satellites geosynchronous and orbital at [https://www.celestrak.com/NORAD/elements/ NORAD Celestrack]  
+File:Geostationary.png|thumb|A geostationary satellite is in orbit around the Earth at an altitude where it orbits at the same rate as the Earth turns. An observer at any place where the satellite is visible will always see it in exactly the same spot in the sky, unlike stars and planets that move continuously.
+Geostationary satellites appear to be fixed over one spot above the equator. Receiving and transmitting Antenna (radio)|antennas on the earth do not need to track such a satellite. These antennas can be fixed in place and are much less expensive than tracking antennas. These satellites have revolutionized global Telecommunication|communications, television broadcasting and weather forecasting, and have a number of important military|defense and intelligence applications.
+
+One disadvantage of geostationary satellites is a result of their high altitude: radio wave|radio signals take approximately 0.25 of a second to reach and return from the satellite, resulting in a small but significant signal latency (engineering)|delay.  This delay increases the difficulty of telephone conversation and reduces the performance of common network protocols such as Internet protocol suite|TCP/IP, but does not present a problem with non-interactive systems such as satellite television broadcasts. There are a number of proprietary satellite data protocols that are designed to proxy TCP/IP connections over long-delay satellite links—these are marketed as being a partial solution to the poor performance of native TCP over satellite links. TCP presumes that all loss is due to congestion, not errors, and probes link capacity with its "slow-start" algorithm, which only sends packet (information technology)|packets once it is known that earlier packets have been received. Slow start is very slow over a path using a geostationary satellite.  RFC 2488, written in 1999, gives several suggestions on this issue.
+There are some advantages of geosynchronous satellite.
+Get high temporal resolution data.
+Tracking of the satelite by its earth stations is simplified.
+Satelite always in same position.
+
+Another disadvantage of geostationary satellites is the incomplete geographical coverage, since ground stations at higher than roughly 60 degrees latitude have difficulty reliably receiving signals at low elevations. Satellite dishes at such high latitudes would need to be pointed almost directly towards the horizon. The signals would have to pass through the largest amount of atmosphere, and could even be blocked by land topography, vegetation or buildings. In the Soviet Union|USSR, a practical solution was developed for this problem with the creation of special Molniya orbit|Molniya / Orbita (TV system)|Orbita inclined path 
+satellite networks with ellipse|elliptical orbits. Similar elliptical orbits are used for the Sirius Radio satellites.
+
+History
+The concept was first proposed by Herman Potočnik in 1928 and popularised by the science fiction author Arthur C. Clarke in a paper in ''Wireless World'' in 1945.<ref>cite web|publisher=Arthur C. Clark |url=http://www.clarkefoundation.org/docs/ClarkeWirelessWorldArticle.pdf |title=Extra-Terrestrial Relays — Can Rocket Stations Give Worldwide Radio Coverage? |date=October 1945 |accessdate=2009-03-04 |deadurl=yes |archiveurl=https://web.archive.org/web/20090318000548/http://www.clarkefoundation.org/docs/ClarkeWirelessWorldArticle.pdf |archivedate=2009-03-18 |df= </ref> Working prior to the advent of solid-state electronics, Clarke envisioned a trio of large, manned space stations arranged in a triangle around the planet. Modern satellites are numerous, unmanned, and often no larger than an automobile.
+
+Widely known as the "father of the geosynchronous satellite", Harold Rosen (electrical engineer)|Harold Rosen, an engineer at Hughes Aircraft Company, invented the first operational geosynchronous satellite, Syncom 2.<ref>cite web|title=Geosynchronous Satellite|publisher=Massachusetts Institute of Technology|url=http://web.mit.edu/invent/iow/rosen.html</ref> It was launched on a Delta rocket B booster from Cape Canaveral July 26, 1963.
+
+The first geostationary communication satellite was Syncom 3, launched on August 19, 1964 with a Delta D launch vehicle from Cape Canaveral. The satellite, in orbit approximately above the International Date Line, was used to telecast the 1964 Summer Olympics in Tokyo to the United States.
+
+Westar 1 was America's first domestic and commercially launched geostationary communications satellite, launched by Western Union and NASA on April 13, 1974.
+
+ See also 
+* Geosynchronous orbit
+* Geostationary orbit
+* Geostationary balloon satellite
+* Graveyard orbit
+* List of orbits
+* List of satellites in geosynchronous orbit
+* Molniya orbit
+* Tundra orbit
+* Polar mount - Mount useful for aiming a satellite dish at geosynchronous satellites
+* Satellite television
+
+References
+Reflist
+
+External links
+
+*[http://www.lyngsat.com/ Lyngsat list of communications satellites in geostationary orbit]
+
+Telecommunications
+
+DEFAULTSORT:Geosynchronous Satellite
+Category:Satellites by type
+Category:Satellite broadcasting
+Category:Telecommunications-related introductions in 1963
+Category:Artificial satellites in geosynchronous orbit| 

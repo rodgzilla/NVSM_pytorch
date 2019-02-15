@@ -1,0 +1,70 @@
+third-party|date=December 2017
+Infobox software
+| name=Java Anon Proxy
+| logo                   = 
+| screenshot             = Screenshot JonDo.jpg
+| screenshot size        = 220px
+| caption                = Screenshot JonDo
+| developer              = 
+| latest release version = 0.20.001<ref>cite web|url=http://anonymous-proxy-servers.net/wiki/index.php/JonDo_changelog|title=JonDo changelog - JonDonym Wiki|publisher=|accessdate=7 January 2017</ref>
+| latest release date    = Start date and age|2016|12|15
+| latest preview version = 0.20.002-beta<ref>cite web|url=http://anonymous-proxy-servers.net/wiki/index.php/JonDo_changelog_beta|title=JonDo changelog beta - JonDonym Wiki|publisher=|accessdate=7 January 2017</ref>
+| latest preview date    = Start date and age|2016|12|15
+| operating system       = Cross-platform
+| programming language   = Java (programming language)|Java
+| genre                  = Proxy server
+| license                = BSD licenses
+| website                = [https://anonymous-proxy-servers.net/ Jondos GmbH]
+
+Java Anon Proxy, also known as JAP or JonDonym, is a proxy server|proxy system designed to allow browsing the World Wide Web|Web  with revocable pseudonymity.<ref name="Privacy-friendly%252520law%252520enforcement">[http://anon.inf.tu-dresden.de/publications/index_en.html Privacy-friendly law enforcement] 2006</ref> It was originally developed as part of a project of the Technische Universität Dresden, the Universität Regensburg and Privacy Commissioner of Schleswig-Holstein. The client-software is written in the Java (programming language)|Java programming language.
+
+Cross-platform, free and Open-source software|open source, it sends requests through a Mix Cascade|cascade and mixes the data streams of multiple users in order to further obfuscate the data to outsiders.
+
+JonDonym is available for all platforms that support Java. Furthermore, ''ANONdroid'' is a JonDonym proxy client for Android (operating system)|Android.<ref>[https://anonymous-proxy-servers.net/blog/index.php?/archives/323-ANONdroid-Version-00.00.008.html&user_language=en ANONdroid v. 00.00.008] 2011-12-22</ref><ref>cite web|url=https://play.google.com/store/apps/details?id=anondroid.anondroid|title=ANONdroid - Android Apps on Google Play|publisher=|accessdate=7 January 2017</ref>
+
+ Design 
+The JonDonym client program allows the user to choose among several Mix Cascades (i.e. a group of anonymization proxies) offered by independent organisations. Users may choose by themselves whom of these operators they will trust, and whom they won't. This is different from peer-to-peer based anonymity networks like Tor (anonymity network)|Tor and I2P, whose anonymisation proxies are anonymous themselves, which means the users have to rely on unknown proxy operators. However, it means that all the relays used for JonDonym-mediated connections are known and identified, and therefore potentially targeted very easily by hackers, governmental agencies or lobbying groups. This has for example led to the issues mentioned below, where court orders essentially gave all control over the whole system to the German government. As discussed below, solutions like international distribution of the relays and the additional use of Tor can somewhat mitigate this loss of independence.
+
+The speed and availability of the service depends on the operators of the Mixes in the Mix Cascade|cascades, and therefore varies. More users on a cascade improve anonymity, but a large number of users might diminish the speed and bandwidth available for a single user.
+
+ Cost, name change and commercial service 
+Use of JonDonym has been (and still is) free, but since financial backing of the original research project ran out on 22 June 2007, a startup, Jondos GmbH, was founded by members of the original project team. Jondos GmbH has taken over development and continues to work on an improved blocking resistance function that would make it easier for users from restrictive countries to get a connection to the systemCitation needed|date=July 2009.
+
+As a consequence, the JAP client has been renamed to JonDo and the service itself from AN.ON to JonDonym.<ref>[https://www.jondos.de/en/press#launch JonDonym press release] 2007</ref> JonDonym mix cascades are mostly operated by SMEs in multiple countries and mix cascades always include three mix servers for advanced security. As contractors of Jondos GmbH must ensure sufficient throughput of their mixes, anonymous web browsing at standard DSL speeds is possibleCitation needed|date=July 2009. Cost free Cascades are still in operation, although they do not offer the low latency, multiple Mixes per Cascade or guaranteed bandwidth the commercial ones do.
+
+ Privacy 
+The online activities of the user can be revealed if all Mixes of a cascade work together by keeping log files and correlating their logs.<ref>cite web|url=https://anonymous-proxy-servers.net/en/abuse_resistence.html|title=JonDonym abuse resistence(sic) and law enforcement|publisher=|accessdate=7 January 2017</ref> However, all Mix operators have to sign a voluntary commitment not to keep such logs, and for any observer it is difficult to infiltrate all operators in a long cascade.
+
+In July 2003, the German Federal Criminal Police Office (Germany)|BKA<ref>[http://anon.inf.tu-dresden.de/strafverfolgung/bericht_en.pdf Report on the Legal Proceedings against the Project], AN.ON Project</ref><ref>[http://www.datenschutzzentrum.de/material/themen/presse/anonip_e.htm AN.ON still guarantees anonymity] 19. August 2003</ref> obtained a warrant to force the Dresden Mix operators to log access to a specific web address, which was hosting child pornography. AN.ON then decided to introduce a crime detection function in the server software in order to make this possible. The feature was made transparent by publishing the changed source code on August 18, 2003, and subsequently criticized by many users. For the Dresden Mix, the feature continues to be part of their software until today. Tracing activities back in the past is still technically not possible for the operators, but anonymity now extends only to the timepoint that a surveillance court order is issued.<ref>[http://anon.inf.tu-dresden.de/strafverfolgung/policy_en.pdf Project Declaration on the Future Relationship with Criminal Justice Authorities], AN.ON Project, 02. July 2013</ref> It was pointed out though that the new feature was covered by the AN.ON threat model and not a security leak by itself.
+
+As a reaction to the threat from local authorities, the system has spread internationally. If the Mixes of a cascade are spread over several countries, the law enforcement agencies of all these countries would have to work together to reveal someone's identity.<ref>[https://svn.torproject.org/svn/projects/design-paper/tor-design.pdf Tor: The Second-Generation Onion Router]</ref> AN.ON publishes every year the number of successful and unsuccessful surveillance court orders.<ref>[http://anonymous-proxy-servers.net/en/law_enforcement.html Law enforcement], AN.ON Project, 02. July 2013</ref> Further research is being done by AN.ON to make the crime detection functionality more privacy-friendly.<ref name="Privacy-friendly%252520law%252520enforcement"/>
+
+Since May 2006, JonDonym can also be used as a client for the Tor (anonymity network)|Tor network and since 2006 also for the Mixminion network.<ref>cite web|url=https://anonymous-proxy-servers.net/en/help/services.html|title=JonDo Help: Anonymity|publisher=|accessdate=7 January 2017</ref> These features are still in an early stage and only available in the beta version of the software.
+
+ See also 
+Portal|Computer networking
+<!-- Please keep entries in alphabetical order & add a short description WP:SEEALSO -->
+div col|small=yes|colwidth=20em
+*Anonymous P2P
+*Anonymous remailer
+*Internet privacy
+*Mixmaster anonymous remailer|Mixmaster
+div col end
+<!-- please keep entries in alphabetical order -->
+
+ References 
+Reflist|30em
+
+ External links 
+* [https://www.anonymous-proxy-servers.net/ JonDonym home page]
+* [https://web.archive.org/web/20050514075143/http://anon.inf.tu-dresden.de/index_en.html AN.ON Project home page]
+* [http://www.free-space.at/flenda/html/saw7m_en.html Guide On How To Set Up JAP easily and fast: "Surfing Anonymously within 7 Minutes"]
+
+Cryptographic software
+Internet censorship circumvention technologies
+
+Category:Anonymity networks
+Category:Cryptographic software
+Category:Free security software
+Category:Proxy servers
+Category:Software programmed in Java (programming language)

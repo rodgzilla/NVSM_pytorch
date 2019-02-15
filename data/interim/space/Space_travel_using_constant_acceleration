@@ -1,0 +1,94 @@
+multiple issues|
+Refimprove|date=November 2013
+tone|date=December 2011
+
+
+Constant acceleration is a proposed aspect of most future forms of space travel. It entails that the propulsion system of whatever kind operate continuously with a steady acceleration, rather than the brief impulsive thrusts used by chemical rockets—for the first half of the journey it constantly pushes the spacecraft towards its destination, and for the last half of the journey it constantly uses backthrust, so that the spaceship arrives at the destination at a standstill.<ref>See williamhaloupek.hubpages.com/hub/Calculations-for-science-fiction-writers-Space-travel-with-constant-acceleration-nonrelativistic for some example computations.</ref>
+
+Constant-acceleration drives
+Constant acceleration is notable for several reasons:
+
+*It is a fast form of travel. When ergonomics are considered, they are the fastest form of interplanetary and interstellar travel.
+*Constant acceleration creates its own artificial gravity to the benefit of passengers, who may thus be spared from having to deal with the effects of microgravity.
+
+However, constant acceleration is an inefficient use of fuel and energy, and is not used in existing spaceflight systems. source?|date=October 2018
+
+=Constant thrust versus constant acceleration=
+Constant-thrust and constant-acceleration trajectories involve the spacecraft firing its engine in a prolonged constant burn. In the limiting case where the vehicle acceleration is high compared to the local gravitational acceleration, the orbit approaches a straight line. The spacecraft points straight toward the target (accounting for target motion), and remains accelerating constantly under high thrust until it reaches its target. If it is required that the spacecraft rendezvous with the target, rather than performing a flyby, then the spacecraft must flip its orientation halfway through the journey, and decelerate the rest of the way.
+
+In the constant-thrust trajectory,<ref>W. E. Moeckel, [https://archive.org/details/nasa_techdoc_19980223074 Trajectories with Constant Tangential Thrust in Central Gravitational Fields], ''Technical Report R-63'', NASA Lewis Research Center, 1960 (accessed 26 March 2014)</ref> the vehicle's acceleration increases during thrusting period, since the fuel use means the vehicle mass decreases. If, instead of constant thrust, the vehicle has constant acceleration, the engine thrust must decrease during the trajectory.
+
+Interstellar travel
+
+File:Roundtriptimes.png|thumb|300px|right|This plot shows a ship capable of 1-gee (10&nbsp;m/s<sup>2</sup> or about 1.0&nbsp;ly/y<sup>2</sup>) "felt" or proper-acceleration<ref>Edwin F. Taylor & John Archibald Wheeler (1966 1st ed. only) ''Spacetime Physics'' (W.H. Freeman, San Francisco) ISBN|0-7167-0336-X, Chapter 1 Exercise 51 pp. 97–98: "Clock paradox III" ([http://www.eftaylor.com/pub/spacetime/STP1stEdExercP81to100.pdf pdf]).</ref> can go far, except for the problem of accelerating on-board propellant.
+
+Over interstellar distances a spaceship using significant constant acceleration will approach the speed of light, so special relativity effects (like the difference in time flow between ship time and planetary time) become important.<ref name="Lagoute1995">C. Lagoute and E. Davoust (1995) The interstellar traveler, ''Am. J. Phys.'' 63:221–227</ref>
+
+=Expressions for covered distance and elapsed time=
+Main|Hyperbolic motion (relativity)
+How far one travels, experiencing constant acceleration, from the point of view of Earth as a function of the traveler's time is expressed by the Coordinate system|coordinate distance ''x'' as a function of proper time ''&tau;'' at constant proper acceleration ''a''. It is given by:<ref>cite book |title=Explorations in Mathematical Physics: The Concepts Behind an Elegant Language |edition=illustrated |first1=Don |last1=Koks |publisher=Springer Science & Business Media |year=2006 |isbn=978-0-387-32793-8 |page=242 |url=https://books.google.com/books?id=ObMb7l9-9loC [https://books.google.com/books?id=ObMb7l9-9loC&pg=PA242 Extract of page 242 (where ''g''=''a'', ''c''=1 and x<sub>0</sub>=x(0))]</ref>
+:<math>x(\tau) = \frac{c^2}{a} \left(\cosh \frac{a \ \tau}{c} -1 \right) ,</math>
+where ''c'' is the speed of light.
+
+Under the same circumstances, the time elapsed on Earth (the coordinate time) as a function of the traveler's time is given by:
+:<math>t(\tau) = \frac{c}{a} \sinh \frac{a \ \tau}{c} .</math>
+
+=Feasibility=
+A major limiting factor for constant acceleration drives is having enough fuel. Imagine a horse strong enough to pull a wagon carrying enough hay to feed it on a journey from New York City to Los Angeles. Constant acceleration won't be feasible unless the specific impulse for fuel (the fuel's fuel efficiency) becomes much higher.
+
+There are two broad categories for ways to solve this problem: one is higher efficiency fuel (the motor ship approach) and the other is drawing propulsion energy from the environment as the ship passes through it (the sailing ship approach). Two possibilities for the motor ship approach are nuclear and matter–antimatter based fuels. One possibility for the sailing ship approach is discovering something equivalent to the parallelogram of force between wind and water which allows sails to propel a sailing ship.
+
+Picking up fuel along the way—the Bussard Ramjet|ramjet approach—will lose efficiency as the space craft's speed increases relative to the planetary reference. This happens because the fuel must be accelerated to the spaceship's velocity before its energy can be extracted and that will cut the fuel efficiency dramatically.
+
+A related issue is drag. If the near light-speed space craft is interacting with matter or energy that is moving slowly in the planetary reference frame—solar wind, magnetic fields, cosmic microwave background radiation—this will cause drag which will bleed off a portion of the engine's acceleration.
+
+A second big issue facing ships using constant acceleration for interstellar travel is colliding with matter and radiation while en route. In mid-journey any matter the ship strikes will be impacting at near light speed, so the impact will be dramatic.
+
+=Interstellar traveling speeds=
+If a space ship is using constant acceleration over interstellar distances, it will approach the speed of light for the middle part of its journey when viewed from the planetary frame of reference. This means that the interesting effects of relativity will become important. The most important effect is that time will appear to pass at different rates in the ship frame and the planetary frame, and this means that the ship's speed and journey time will appear different in the two frames.
+
+Planetary reference frame
+From the planetary frame of reference, the ship's speed will appear to be limited by the speed of light—it can approach the speed of light, but never reach it. If a ship is using 1&nbsp;''g'' constant acceleration, it will appear to get near the speed of light in about a year, and have traveled about half a light year in distance. For the middle of the journey the ship's speed will be roughly the speed of light, and it will slow down again to zero over a year at the end of the journey.
+
+As a rule of thumb, for a constant acceleration at one ''g'' (Earth gravity), the ship journey time will be the distance in light years to the destination, plus one year. This rule of thumb will give answers that are slightly shorter than the exact calculated answer, but reasonably accurate.
+
+Ship reference frame
+
+From the frame of reference of those on the ship the acceleration will not change as the journey goes on. Instead the planetary reference frame will look more and more relativistic. This means that for voyagers on the ship the journey will appear to be much shorter than what planetary observers see.
+
+File:Roundtrip10ly.png|thumb|500px|center|Plot of velocity parameters and times on the horizontal axis, versus position on the vertical axis, for an accelerated twin roundtrip to a destination with &Delta;x<sub>AB</sub>=10c<sup>2</sup>/&alpha; ~10 lightyears away if &alpha;~9.8 m/s<sup>2</sup>.
+
+At a constant acceleration of 1&nbsp;''g'', a rocket could travel the diameter of our galaxy in about 12 years ship time, and about 113,000 years planetary time. If the last half of the trip involves deceleration at 1&nbsp;''g'', the trip would take about 24 years. If the trip is merely to the nearest star, with deceleration the last half of the way, it would take 3.6 years.<ref>[http://math.ucr.edu/home/baez/physics/Relativity/SR/Rocket/rocket.html Baez, UCR, "The relativistic rocket"]</ref>
+
+=A half-myth: It gets harder to push a ship faster as it gets closer to the speed of light=
+This is a half-myth because it depends on the frame of reference. It is true for those watching from the planetary reference frame. For those experiencing the journey (in the ship's reference frame) it is not true. For both the planetary frame and the ship's reference frame, the ship will change speed in a Newtonian way—push it a little and it speeds up a little, push it a lot and it speeds up a lot. However, in the planetary frame the acceleration will reduce, due to the speed of light being the maximum speed of material objects.
+
+From the ship's frame, the acceleration would continue at the same rate. However, due to Length contraction|Lorentz contraction, the galaxy around the ship would appear to become squashed in the direction of travel, and a destination many light years away would appear to become much closer. Traveling to this destination at subluminal speeds would become practical for the onboard travellers. Ultimately, from the ship's frame, it would be possible to reach anywhere in the observable universe, without the ship ever accelerating to light speed.
+
+ In fiction 
+''Tau Zero'', a hard science fiction novel by Poul Anderson, has a spaceship using a constant acceleration drive.
+
+The spacecraft of George O. Smith|George O. Smith's Venus Equilateral stories are all constant acceleration ships. Normal acceleration is 1&nbsp;''g'', but in "The External Triangle" it is mentioned that accelerations of up to 5&nbsp;''g'' are possible if the crew is drugged with gravanol to counteract the effects of the ''g''-load.
+
+Spacecraft in Joe Haldeman's novel ''The Forever War'' make extensive use of constant acceleration; they require elaborate safety equipment to keep their occupants alive at high acceleration (up to 25&nbsp;''g''), and accelerate at 1&nbsp;''g'' even when "at rest" to provide humans with a comfortable level of gravity.
+
+In the "Known Space" Universe, constructed by Larry Niven, Earth uses constant acceleration drives in the form of Bussard ramjets to help colonize the nearest planetary systems. In the non-Known Space novel ''A World Out of Time'', Jerome Branch Corbell (for himself), 'takes' a ramjet to the Galactic Center and back in 150 years ships time (most of it in cold sleep), but 3 million years passes on Earth.
+
+In "The Sparrow (novel)|The Sparrow", by Mary Doria Russell, interstellar travel is achieved by converting a small asteroid into a constant acceleration spacecraft. Force is applied by ion engines fed with material mined from the asteroid itself.
+
+In the Revelation Space series by Alastair Reynolds, interstellar commerce depends upon "lighthugger" starships which can accelerate indefinitely at 1&nbsp;''g''. The effects of relativistic travel are an important plot point in several stories, informing the psychologies and politics of the lighthuggers' "ultranaut" crews for example.
+
+In the novel "2061: Odyssey Three" by Arthur C. Clarke, the spaceship ''Universe'', using a muon-catalyzed fusion rocket, is capable of constant acceleration at 0.2&nbsp;''g'' under full thrust.
+
+The UET and Hidden Worlds spaceships of F.M. Busby's Rissa Kerguelen Saga utilize a constant acceleration drive that can accelerate at 1&nbsp;''g'' or even a little more.
+
+Ships in the The Expanse (novel series)|Expanse series by James S. A. Corey make use of constant acceleration drives, which also provide artificial gravity for the occupants.
+
+References
+reflist
+
+DEFAULTSORT:Space Travel using Constant Acceleration
+Category:Interstellar travel
+Category:Space colonization
+Category:Special relativity
+Category:Acceleration

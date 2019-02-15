@@ -1,0 +1,73 @@
+About|Direct Anonymous Attestation technology|other uses of EPID, including Image-guided radiation therapy#Electronic portal imaging|Electronic Portal Imaging Device|EPID (disambiguation)
+
+Enhanced Privacy ID (EPID) is Intel Corporation’s recommended algorithm for Trusted computing|attestation of a trusted system while preserving privacy. It has been incorporated in several Intel chipsets since 2008 and Intel processors since 2011. At RSAC 2016 Intel disclosed that it has shipped over 2.4B EPID keys since 2008.<ref>"EPID for IOT Identity" Intel Corporation[https://img.en25.com/Web/McAfeeE10BuildProduction/%7Ba6dd7393-63f8-4c08-b3aa-89923182a7e5%7D_EPID_Overview_Public_2016-02-08.pdf?elqTrackId=48387d7899274c7985c6ac808d6ecbac&elqaid=7811&elqat=2]</ref>  EPID complies with international standards ISO/International Electrotechnical Commission|IEC 20008<ref>[http://www.iso.org/iso/catalogue_detail.htm?csnumber=57018 ISO/IEC 20008: Anonymous digital signatures]</ref>  / 20009,<ref>[http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=57079 ISO/IEC 20009: Anonymous entity authentication]</ref> and the Trusted Computing Group (TCG) Trusted Platform Module|TPM 2.0 for authentication.<ref>[http://www.trustedcomputinggroup.org/resources/tpm_library_specification TPM 2.0 Specification]</ref> Intel contributed EPID intellectual property to ISO/IEC under RAND-Z terms. Intel is recommending that EPID become the standard across the industry for use in authentication of devices in the Internet of Things (IoT) and in December 2014 announced that it was licensing the technology to third-party chip makers to broadly enable its use.<ref>[http://www.pcworld.com/article/2857912/intels-iot-vision-sees-far-more-than-chips.html "Intel's IoT Vision sees far more than chips" PC World]</ref>
+
+ EPID 
+EPID is an enhancement of the Direct Anonymous Attestation (DAA) algorithm. DAA is a digital signature algorithm supporting anonymity. Unlike traditional digital signature algorithms, in which each entity has a unique public verification key and a unique private signature key, DAA provides a common group public verification key associated with many (typically millions) of unique private signature keys. DAA was created so that a device could prove to an external party what kind of device it is (and optionally what software is running on the device) without needing to provide device identity, i.e., to prove you are an authentic member of a group without revealing ''which'' member. EPID enhances DAA by providing an additional utility of being able to revoke a private key given a signature created by that key, even if the key itself is still unknown.
+
+ Background 
+In 1999 the Pentium III added a Processor Serial Number (PSN) as a way to create identity for security of endpoints on the internet. However, privacy advocates were especially concerned and Intel chose to remove the feature in later versions.<ref>[http://www.zdnet.com/article/intel-disables-chip-id-tracking/ "Intel Disables Chip ID Tracking" ZDNet]</ref>  Building on improving asymmetric cryptography of the time and group keys, Intel Labs researched and then standardized a way to get to the benefits of PSN while preserving privacy.
+
+ Roles 
+There are three roles when using EPID: Issuer, Member and Verifier. The issuer is the entity that issues unique EPID private keys for each member of a group. The member is the entity that is trying to prove its membership in a group. The verifier is the entity who is checking an EPID signature to establish whether it was signed by an entity or device which is an authentic member of the group. Current usage by Intel has the Intel Key Generation Facility as the Issuer, an Intel-based PC with embedded EPID key as a member, and a server (possibly running in the cloud) as the verifier (on behalf of some party that wishes to know that it is communicating with some trusted component in a device).
+
+ Key issuing options 
+The issuing of an EPID key can be done directly by the issuer creating an EPID key and delivering securely to the member, or blinded so that the issuer does not know the EPID private key.  Having EPID keys embedded in devices before they ship is an advantage for some usages so that EPID is available inherently in the devices as they arrive in the field.  Having the EPID key issued using the blinded protocol is an advantage for some usages, since there is never a question about whether the issuer knew the EPID key in the device.  It is an option to have one EPID key in the device at time of shipment, and use that key to prove to another issuer that it is a valid device and then get issued a different EPID key using the blinded issuing protocol.
+
+ Uses 
+Refimprove
+|section| date = June 2017
+<!-- There is just one source that doesn't really support any of the claimed usages -->
+
+In recent years EPID has been used for attestation of applications in the platforms used for protected content streaming and financial transactions. It is also used for attestation in Software Guard Extensions (SGX), released by Intel in 2015. It is anticipated that EPID will become prevalent in IoT, where inherent key distribution with the processor chip, and optional privacy benefits will be especially valued.
+
+= Proof that a part is genuine =
+An example usage for EPID is to prove that a device is a genuine device. A verifier wishing to know that a part was genuine would ask the part to sign a cryptographic nonce with its EPID key. The part would sign the nonce and also provide a proof that the EPID key was not revoked. The verifier after checking the validity of the signature and proof would know that the part was genuine.  With EPID, this proof is anonymous and unlinkable.
+
+= Content protection =
+EPID can be used to attest that a platform can securely stream digital rights management (DRM)-protected content because it has a minimum level of hardware security. The Intel Insider program uses EPID for platform attestation to the rights-holder.
+
+= Securing financial transactions =
+Data Protection Technology (DPT) for Transactions is a product for doing a 2-way authentication of a point of sale (POS) terminal to a backend server based on EPID keys. Using hardware roots of trust based on EPID authentication, the initial activation and provisioning of a POS terminal can securely be performed with a remote server. In general, EPID can be used as the basis to securely provision any cryptographic key material over the air or down the wire with this method.
+
+= Internet of things attestation =
+For securing the IoT, EPID can be used to provide authentication while also preserving privacy. EPID keys placed in devices during manufacturing are ideal for provisioning other keys for other services in a device. EPID keys can be used in devices for services while not allowing users to be tracked by their IoT devices using these services. Yet if required, a known transaction can be used for when an application and user choose (or require) the transaction to be unambiguously known (e.g., a financial transaction). EPID can be used for both persistent identity and anonymity. Whereas alternative approaches exist for persistent identity, it is difficult to convert persistent identity to anonymous identity. EPID can serve both requirements and can enable anonymous identity in a mode of operation that enables persistence, as well. Thus, EPID is ideal for the broad range of anticipated IoT uses.
+
+Security and privacy are foundational to the IoT. Since IoT security and privacy extend beyond Intel processors to other chipmaker's processors in sensors, Intel announced on December 9, 2014 their intent to license EPID broadly to other chip manufacturers for Internet of things applications.  On August 18, 2015, Intel jointly announced the licensing of EPID to Microchip and Atmel, and showed it running on a Microchip microcontroller at the Intel Developers Forum.<ref>[http://download.intel.com/newsroom/kits/idf/2015_fall/pdfs/Intel_EPID_Fact_Sheet.pdf "EPID Fact Sheet" Intel]</ref>
+
+= Internet of things complexity hiding =
+Internet of things has been described as a "network of networks"<ref>Cite web|url=https://dx.doi.org/10.6028/NIST.SP.800-183|title=NIST Special Publication 800-183 Networks of 'Things'|last=Voas|first=Jeffrey|date=|website=|publisher=NIST|archive-url=|archive-date=|dead-url=|access-date=</ref> where internal workings of one network may not be appropriate to disclose to a peer or foreign network. For example, a use case involving redundant or spare IoT devices facilitates availability and serviceability objectives, but network operations that load balances or replaces different devices need not be reflected to peer or foreign networks that "share" a device across network contexts. The peer expects a particular type of service or data structure but likely doesn't need to know about device failover, replacement or repair. EPID can be used to share a common public key or certificate that describes and attests the group of similar devices used for redundancy and availability, but doesn't allow tracking of specific device movements. In many cases, peer networks do not want to track such movements as it would require, potentially, maintaining context involving multiple certificates and device lifecycles. Where privacy is also a consideration, the details of device maintenance, failover, load balancing and replacement cannot be inferred by tracking authentication events.
+
+= Internet of things secure device onboard =
+Because of EPID's privacy preserving properties, it is ideal for IoT Device identity to allow a device to securely and automatically onboard itself into an IoT Service immediately at the first power on of the device. Essentially the device performs a secure boot, and then before anything else, reaches out across the internet to find the IoT Service that the new owner has chosen for managing the device. An EPID attestation is integral to this initial communication. As a consequence of the EPID attestation, a secure channel is created between the device and IoT Service. Because of the EPID attestation, the IoT Service knows it is talking to the real IoT Device. (Using the secure channel created, there is reciprocal attestation so the IoT Device knows it is talking to the IoT Service the new owner selected to manage it.)  Unlike PKI, where the key is unchanging transaction to transaction, an adversary lurking on the network cannot see and correlate traffic by the key used when EPID is employed. Thus privacy of onboarding is preserved and adversaries can no longer collect data to create attack maps for later use when future IoT Device vulnerabilities are discovered. Moreover, additional keys can be securely provisioned over the air or down the wire, the latest version of software, perhaps specific to the IoT Service, can be downloaded and default logins disabled to secure the IoT Device without operator intervention.
+
+On October 3rd, 2017, Intel announced Intel® Secure Device Onboard<ref>Cite web|url=https://newsroom.intel.com/news/intel-offers-innovative-approach-iot-scaling-security/|title=Intel Offers Innovative Approach to IoT Scaling and Security|date=|website=|publisher=Intel|archive-url=|archive-date=|dead-url=|access-date=</ref>, a software solution to help IoT Device Manufacturers and IoT Cloud Services privately, securely and quickly onboard IoT Devices into IoT Services. The objective is to onboard "Any Device to Any IoT Platform"<ref>Cite web|url=https://www.intel.com/content/www/us/en/internet-of-things/secure-device-onboard.html|title=Intel® Secure Device Onboard Scales Devices to IoT Platforms|date=|website=|publisher=Intel|archive-url=|archive-date=|dead-url=|access-date=</ref> for a "superior Onboarding experience and ecosystem enablement ROI"
+
+See also
+* Direct Anonymous Attestation
+* Public-key cryptography
+* Privacy enhancing technologies
+* Trusted Computing Group
+* Trusted platform module
+* Trusted computing#Loss of anonymity|Loss of Internet anonymity
+* Elliptical curve cryptography
+* Elliptic Curve Digital Signature Algorithm
+* Proof of knowledge
+
+References
+<references/>
+
+External links
+* Puri, Deepak, "IoT security: Intel EPID simplifies authentication of IoT devices," NetworkWorld [http://www.networkworld.com/article/3121981/internet-of-things/iot-security-intel-epid-simplifies-authentication-of-iot-devices.html?es_p=2664802], retrieved October 10, 2016.
+* Xiaoyu Ruan: “Chapter 5 – Privacy at the Next Level: Intel’s Enhanced Privacy Identification (EPID) Technology”, Platform Embedded Security Technology Revealed. Apress Media, LLC, 2014. ([http://www.apress.com/9781430265719])
+* E. Brickell and Jiangtao Li: “Enhanced Privacy ID from Bilinear Pairing for Hardware Authentication and Attestation”. IEEE International Conference on Social Computing / IEEE International Converence on Privacy, Security, Risk and Trust. 2010. ([http://xanadu.cs.sjsu.edu/~tylin/classes/cs286/s2012/data/4211a768.pdf])
+* Data Protection Technology for Transactions [http://www.intel.com/content/www/us/en/embedded/technology/security/secure-payment-transactions/technology-brief.html]
+* Intel & Microsoft Class Video on EPID and "0 Touch" IoT Device Onboarding at IDF'16 [https://vimeo.com/180796514]
+
+Cryptography navbox|public-key
+
+Category:Elliptic curve cryptography
+Category:Cryptography
+Category:Digital signature schemes
+Category:Trusted computing
+Category:Internet privacy software

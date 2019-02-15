@@ -1,0 +1,45 @@
+more footnotes|date=December 2011
+fsb
+A friend-to-friend (or F2F) computer network is a type of peer-to-peer network in which users only make direct connections with people they know. Passwords or digital signatures can be used for authentication.
+
+Unlike other kinds of private P2P, users in a friend-to-friend network cannot find out who else is participating beyond their own circle of friends, so F2F networks can grow in size without compromising their users' anonymity. Retroshare, WASTE, GNUnet, Freenet and OneSwarm are examples of software that can be used to build F2F networks, though RetroShare is the only one of these configured for friend-to-friend operation by default.
+
+Many F2F networks support indirect Anonymity|anonymous or pseudonymous communication between users who do not know or trust one another. For example, a node (networking)|node in a friend-to-friend overlay network|overlay can automatically forward a file (or a request for a file) anonymously between two friends, without telling either of them the other's name or IP address. These friends can in turn automatically forward the same file (or request) to their own friends, and so on.
+
+Dan Bricklin coined the term "friend-to-friend network" in 2000.<ref>D. Bricklin. [http://www.bricklin.com/f2f.htm Friend-to-Friend Networks.] August 11, 2000.</ref>
+
+ Potential applications of F2F 
+*The Bouillon project uses a friend-to-friend network to assign trust ratings to messages.<ref>V. Grischchenko. [http://www.springerlink.com/content/4252t14311684n07/ Bouillon: A wiki-wiki social web.] In 2nd International Symposium on Computer Science in Russia (CSR 2007), Ekaterinburg, Russia, September 2007.</ref>
+*The Ripple monetary system is a friend-to-friend network system for electronic money.
+
+ See also 
+* Darknet
+* LAN messenger
+* Private P2P
+* Web of trust
+
+ References 
+*B.C. Popescu, B. Crispo, and Andrew Tanenbaum|A.S. Tanenbaum. [http://turtle-p2p.sourceforge.net/turtleinitial.pdf "Safe and Private Data Sharing with Turtle: Friends Team-Up and Beat the System."] In 12th International Workshop on Security Protocols, Cambridge, UK, April 2004.
+*T. Chothia and K. Chatzikokolakis. [http://www.lix.polytechnique.fr/~tomc/P2P/Papers/AnonP2PSurvey.pdf "A Survey of Anonymous Peer-to-Peer File-Sharing."] In Proceedings of the IFIP International Symposium on Network-Centric Ubiquitous Systems (NCUS 2005), Nagasaki, Japan, volume 3823 of Lecture Notes in Computer Science, pages 744-755. Springer, 2005.
+*J. Li and F. Dabek. [http://pdos.csail.mit.edu/~jinyang/pub/iptps-f2f.pdf "F2F: Reliable Storage in Open Networks."] In 5th International Workshop on Peer-to-Peer Systems (IPTPS '06), Santa Barbara, CA, USA, February 2006.
+*M. Rogers and S. Bhatti. [http://www0.cs.ucl.ac.uk/research/researchnotes/documents/RN_07_13.pdf "How to Disappear Completely: A Survey of Private Peer-to-Peer Networks."] In 1st International Workshop on Sustaining Privacy in Collaborative Environments (SPACE 2007), Moncton, NB, Canada, July 2007.
+*Numbered references:
+Reflist
+
+ External links 
+Wiktionary
+*[http://wiki.Friend2Friend.net Friend2Friend.net], An XML scripting language for writing F2F software
+*[http://zgp.org/pipermail/p2p-hackers/2005-December/003272.html Discussion about F2F] involving Ian Clarke (computer scientist)|Ian Clarke of Freenet
+*[http://www.altruists.org/projects/ge/ff/ F2F page at altruists.org]
+*[http://www.masternewmedia.org/news/2005/06/27/p2p_can_cut_banks_out.htm Ripple: P2P money for trusted social networks]
+*webarchive |url=https://web.archive.org/web/20100716172504/http://bouillon.math.usu.ru/ |date=July 16, 2010 |title=Bouillon project website 
+
+DEFAULTSORT:Friend-To-Friend
+Category:Applications of cryptography
+Category:E-commerce
+Category:Internet privacy
+Category:Anonymity networks|*
+Category:Peer-to-peer
+Category:File sharing networks|*
+Category:Authentication
+Category:Words coined in the 2000s

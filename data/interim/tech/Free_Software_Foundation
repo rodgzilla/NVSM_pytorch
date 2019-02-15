@@ -1,0 +1,216 @@
+Infobox organization
+| image = Free Software Foundation logo and wordmark.svg
+| image_border = 
+| size = 250px
+| caption = 
+| map = 
+| msize = 
+| mcaption = 
+| abbreviation = FSF 
+| motto = Free Software, Free Society
+| formation = start date and age|1985|10|04<ref>cite web |url = http://corp.sec.state.ma.us/CorpWeb/CorpSearch/CorpSummary.aspx?FEIN=042888848&SEARCH_TYPE=1 |publisher = Secretary of Commonwealth of Massachusetts| title = Corporations Division Entity Summary for ID Number: 042888848 |accessdate = 2014-10-04</ref>
+| extinction = 
+| type = 501(c)#501(c)(3)|501(c)(3) non-profit organization
+| status = 501(c)(3)
+| purpose = Educational
+| headquarters = Boston, Massachusetts, US
+| location = 
+| region_served = Worldwide
+| membership = Individuals
+| language = 
+| leader_title = President
+| leader_name = Richard Stallman
+| main_organ = 
+| parent_organization = 
+| affiliations = 
+| num_staff = 11<ref>cite web |url = https://www.fsf.org/about/staff/ |title = Staff of the Free Software Foundation |accessdate = 2018-08-17</ref>
+| num_volunteers = 
+| budget = $1,373,645 in FY 2017<ref name="IRS Form 990" />
+| remarks = 
+| website = Url|https://www.fsf.org
+
+
+The Free Software Foundation (FSF) is a 501(c)#501(c)(3)|501(c)(3) non-profit organization founded by Richard Stallman on 4 October 1985 to support the free software movement, which promotes the universal freedom to study, distribute, create, and modify computer software,<ref>cite web|url=https://www.fsf.org/about/ |title=Free software is a matter of liberty, not price|publisher=Free Software Foundation| accessdate=2012-07-22</ref> with the organization's preference for software being distributed under copyleft ("share alike") terms,<ref>cite web|url=https://www.gnu.org/licenses/gpl-faq.html |publisher=Free Software Foundation |title=Frequently Asked Questions about the GNU Licenses |accessdate=2012-07-22</ref> such as with its own GNU General Public License.<ref>cite web|title=What Is Copyleft? |url=https://www.gnu.org/copyleft/copyleft.html |publisher=Free Software Foundation |accessdate=2012-07-22</ref> The FSF was incorporated in Massachusetts, United States|US, where it is also based.<ref name="FSF MACorpRegistry">cite web|url=http://corp.sec.state.ma.us/corp/corpsearch/CorpSearchSummary.asp?ReadFromDB=True&UpdateAllowed=&FEIN=042888848|title=FREE SOFTWARE FOUNDATION, INC. Summary Screen|publisher=The Commonwealth of Massachusetts, Secretary of the Commonwealth, Corporations Division|accessdate=2009-04-06|deadurl=yes|archiveurl=https://web.archive.org/web/20130525155859/http://corp.sec.state.ma.us/corp/corpsearch/CorpSearchSummary.asp?ReadFromDB=True&UpdateAllowed=&FEIN=042888848|archivedate=2013-05-25|df=</ref>
+
+From its founding until the mid-1990s, FSF's funds were mostly used to employ software developers to write free software for the GNU Project. Since the mid-1990s, the FSF's employees and volunteers have mostly worked on legal and structural issues for the free software movement and the free software community.
+
+Consistent with its goals, the FSF aims to use only free software on its own computers.<ref>cite web |url = https://www.gnu.org/philosophy/linux-gnu-freedom.html |title = Linux, GNU, and freedom |accessdate = 2006-12-10 |author = Stallman, Richard M. |authorlink = Richard Stallman |year = 2002 |work = Philosophy of the GNU Project |publisher = GNU Project </ref>
+
+History
+cleanup|reason=the timeline of the narrative|date=May 2014
+The Free Software Foundation was founded in 1985 as a non-profit corporation supporting free software development. It continued existing GNU projects such as the sale of manuals and Magnetic tape data storage|tapes, and employed developers of the free software system.<ref>cite web |url=https://www.gnu.org/gnu/thegnuproject.html |title=The GNU Project |publisher=Free Software Foundation |accessdate=June 24, 2012</ref> Since then, it has continued these activities, as well as advocating for the free software movement. The FSF is also the steward of several free software licenses, meaning it publishes them and has the ability to make revisions as needed.<ref>cite web |url=https://www.gnu.org/licenses/licenses.html |title=Licenses |publisher=Free Software Foundation |accessdate=June 24, 2012</ref>
+
+The FSF holds the copyrights on many pieces of the GNU system, such as GNU Compiler Collection. As holder of these copyrights, it has the authority to enforce the copyleft requirements of the GNU General Public License (GPL) when copyright infringement occurs on that software.
+
+From 1991 until 2001, GPL enforcement was done informally,  usually by Stallman himself, often with assistance from FSF's lawyer, Eben Moglen.Citation needed|date=September 2009 Typically, GPL violations during this time were cleared up by short email exchanges between Stallman and the violator.Citation needed|date=September 2009 In the interest of promoting copyleft assertiveness by software companies to the level that the FSF was already doing, in 2004 Harald Welte launched gpl-violations.org.
+
+In late 2001, Bradley M. Kuhn (then executive director), with the assistance of Moglen, David Turner, and Peter T. Brown, formalized these efforts into FSF's GPL Compliance Labs. From 2002-2004, high-profile GPL enforcement cases, such as those against Linksys and OpenTV, became frequent.<ref>cite web |last = Meeker |first = Heather |title = The Legend of Linksys |date= 2005-06-28 |url = http://linuxinsider.com/story/qECCd2x743n32T/The-Legend-of-Linksys.xhtml |accessdate = 2007-08-11 |archiveurl = https://web.archive.org/web/20090419230853/http://linuxinsider.com/story/qECCd2x743n32T/The-Legend-of-Linksys.xhtml |archivedate = 2009-04-19 Hosted on the Wayback machine.</ref><ref>cite web |last = Gillmor |first = Dan |title = GPL Legal Battle Coming? |publisher = SiliconValley.com (a division of the San Jose Mercury News) |date= 2003-05-21 |url = http://weblog.siliconvalley.com/column/dangillmor/archives/001029.shtml |accessdate = 2007-08-11 |archiveurl = https://web.archive.org/web/20030524174013/http://weblog.siliconvalley.com/column/dangillmor/archives/001029.shtml |archivedate = 2003-05-24</ref><ref>cite web |last = Turner |first = David |author2=Bradley M. Kuhn |title = Linksys/Cisco GPL Violations |date= 2003-09-29 |publisher = LWN.net |url = https://lwn.net/Articles/51570/ |accessdate = 2007-08-11</ref>
+
+GPL enforcement and educational campaigns on GPL compliance was a major focus of the FSF's efforts during this period.<ref>cite web |last = Kennedy |first = Dennis |date= 2004-01-11 |title = A Great Learning Opportunity for Software Lawyers&nbsp;— Upcoming GPL Seminar |url = http://www.denniskennedy.com/blog/2004/01/a_great_learning_opportunity_f.html |accessdate = 2007-08-11 |archiveurl = https://web.archive.org/web/20070928125310/http://www.denniskennedy.com/blog/2004/01/a_great_learning_opportunity_f.html <!-- Bot retrieved archive --> |archivedate = 2007-09-28</ref><ref>cite web |url= http://yro.slashdot.org/article.pl?sid=03/07/18/1835252 |publisher= Slashdot |last = Lord |first = Timothy |date= 2003-07-18 |accessdate = 2007-08-11 |title = Seminar On Details Of The GPL And Related Licenses</ref>
+
+In March 2003, SCO v. IBM|SCO filed suit against IBM alleging that IBM's contributions to various free software, including FSF's GNU, violated SCO's rights. While FSF was never a party to the lawsuit, FSF was subpoenaed on November 5, 2003.<ref>cite web |last = Heise |first = Mark |title = SCO Subpoena of FSF |publisher = Free Software Foundation |date= 2003-11-05 |url = https://www.fsf.org/licensing/sco/sco-subpoena.pdf |format = PDF |accessdate = 2007-08-11</ref> During 2003 and 2004, FSF put substantial advocacy effort into responding to the lawsuit and quelling its negative impact on the adoption and promotion of free software.<ref>cite web |last = Kuhn |first = Bradley |authorlink = Bradley M. Kuhn |title = The SCO Subpoena of FSF |publisher = Free Software Foundation |date= 2004-05-18 |url = https://www.fsf.org/licensing/sco/subpoena.html |accessdate = 2007-08-11</ref><ref name="autogenerated2004"/>
+
+From 2003 to 2005, FSF held legal seminars to explain the GPL and the surrounding law.<ref>cite web |title = Seminar On Details Of The GPL And Related Licenses |url = http://yro.slashdot.org/article.pl?sid=03/07/18/1835252 |accessdate = 2008-07-04 |date = 2003-07-18</ref> Usually taught by Bradley M. Kuhn and Daniel Ravicher, these seminars offered Continuing Legal Education|CLE credit and were the first effort to give formal legal education on the GPL.<ref name="autogenerated2004">cite web|url=https://www.gnu.org/press/2004-01-02-nyc-seminars.html |title=FSF To Host Free Software Licensing Seminars and Discussions on SCO v. IBM in New York |publisher=Gnu.org |accessdate=2011-08-30</ref><ref>FSF Bulletin 3 notes that a seminar led by Kuhn and Ravicher occurred on 2003-08-08cite web |author = Free Software Foundation |title = FSF Bulletin&nbsp;— Issue No.2 - June 2003 |publisher = Free Software Foundation |date= June 2003 |url = https://www.gnu.org/bulletins/bulletin-002.html |accessdate = 2008-07-04</ref><ref>cite web |author = John Sullivan |authorlink = William John Sullivan |title = FSF Seminar in NYC on September 28 |publisher = Free Software Foundation |date= 2005-08-25 |url = http://lists.gnu.org/archive/html/info-fsf/2005-08/msg00001.html |accessdate = 2008-07-04</ref>
+
+In 2007, the FSF published the third version of the GNU General Public License after significant outside input.<ref>cite web |title=GNU General Public License |url=https://www.gnu.org/licenses/gpl.html |accessdate=15 June 2012</ref><ref>cite web |url=http://gplv3.fsf.org/comments/gplv3-draft-4.html |title=gplv3.fsf.org comments for discussion draft 4</ref>
+
+In December 2008, FSF filed a lawsuit against Cisco for using GPL-licensed components shipped with Linksys products. Cisco was notified of the licensing issue in 2003 but Cisco repeatedly disregarded its obligations under the GPL.<ref>cite web |last = Paul |first = Ryan |title = Free Software Foundation lawsuit against Cisco a first |date = 2007-12-13 |publisher = Arstechnica.com |url = https://arstechnica.com/news.ars/post/20081211-free-software-foundation-lawsuit-against-cisco-a-first.html |accessdate = 2008-12-11</ref> In May 2009, FSF dropped the lawsuit when Cisco agreed to make a monetary donation to the FSF and appoint a Free Software Director to conduct continuous reviews of the company's license compliance practices.<ref>cite web |last = Paul |first = Ryan |title = Cisco settles FSF GPL lawsuit, appoints compliance officer |date = 2009-05-21 |publisher = Arstechnica.com |url = https://arstechnica.com/open-source/news/2009/05/cisco-settles-fsf-gpl-lawsuit-appoints-compliance-officer.ars |accessdate = 2009-10-06</ref>
+
+Current and ongoing activities
+;The GNU Project: The original purpose of the FSF was to promote the ideals of free software. The organization developed the GNU operating system as an example of this.
+;GNU licenses: The GNU General Public License (GPL) is a widely used license for free software projects. The current version (version 3) was released in June 2007. The FSF has also published the GNU Lesser General Public License (LGPL), the GNU Free Documentation License (GFDL), and the GNU Affero General Public License (AGPL).
+;GNU Press: The FSF's publishing department, responsible for "publishing affordable books on computer science using freely distributable licenses."<ref>cite web
+|url = http://www.gnupress.org/
+|title = GNU Press -- Published Documentation
+|publisher = Free Software Foundation, Inc.
+|archiveurl = https://web.archive.org/web/20051125024241/http://www.gnupress.org/
+|archivedate = 2005-11-25
+</ref><ref>[http://shop.fsf.org/category/books/ List of books published] in GNU Press home site</ref>
+;The Free Software Directory: This is a listing of software packages that have been verified as free software. Each package entry contains 47 pieces of information such as the project's homepage, developers, programming language, etc. The goals are to provide a search engine for free software, and to provide a cross-reference for users to check if a package has been verified as being free software. FSF has received a small amount of funding from UNESCO for this project. It is hopedBy whom|date=May 2010 that the directory can be translated into many languages in the future.
+;Maintaining the Free Software Definition: FSF maintains many of the documents that define the free software movement.
+;Project hosting: FSF hosts software development projects on its GNU Savannah|Savannah website.
+;h-node: An abbreviation for "Hardware-Node", the ''h-node'' website lists computer hardware|hardware and device drivers that have been verified as compatible with free software. It is user-edited and volunteer supported with hardware entries tested by users before publication.<ref>[http://sdtimes.com/fsf-debian-join-forces-help-free-software-users-find-hardware-need/ FSF and Debian join forces to help free software users find the hardware they need]</ref><ref>[http://sourceforge.jp/magazine/14/09/11/062900 FSFとDebianがGNU/Linuxハードウェア情報サイトh-node.orgを共同支援]</ref><ref>[https://www.h-node.org/ Hardware-Node Database]</ref>
+;Advocacy: FSF sponsors a number of campaigns against what it perceives as dangers to software freedom, including software patents, digital rights management (which the FSF and others<ref name="Stross NYTimes">cite web|last=STROSS|first=RANDALL|title=Want an iPhone? Beware the iHandcuffs|url=https://www.nytimes.com/2007/01/14/business/yourmoney/14digi.html|publisher=The New York Times|accessdate=26 May 2014|date=January 14, 2007</ref> have re-termed "digital restrictions management", as part of its effort to highlight technologies that are "designed to take away and limit your rights,"<ref>cite web |url=https://www.fsf.org/campaigns/drm.html |title=Digital Restrictions Management and Treacherous Computing |date=September 18, 2006 |accessdate=2007-12-17 |publisher=Free Software Foundation </ref>) and user interface copyright. Defective by Design is an FSF-initiated campaign against DRM. It also has a campaign to promote Ogg+Vorbis, a free alternative to proprietary formats like MP3 and Advanced Audio Coding|AAC. FSF also sponsors free software projects it deems "high-priority".
+;Annual awards: "Award for the Advancement of Free Software" and "Free Software Award for Projects of Social Benefit"
+;LibrePlanet wiki:The LibrePlanet wiki organizes FSF members into regional groups in order to promote free software activism against Digital Rights Management|Digital Restrictions Management and other issues promoted by the FSF.
+
+High priority projects
+File:Gnewsensescreenshot.png|thumb|300px|gNewSense is a distribution officially supported by the ''FSF''
+
+The FSF maintains a list of "high priority projects" to which the Foundation claims that "''there is a vital need to draw the free software community's attention''".<ref name="highpriority">cite web|url=https://www.fsf.org/campaigns/priority-projects/ |title=High Priority Free Software Projects |publisher=Free Software Foundation |authorlink=Free Software Foundation |accessdate=2017-01-07</ref> The FSF considers these projects "''important because computer users are continually being seduced into using non-free software, because there is no adequate free replacement.''"<ref name="highpriority" />
+
+Current high priority tasks include reverse engineering proprietary firmware; reversible debugging in GNU Debugger; developing Transcription (service)|automatic transcription and video editing software|video editing software, Coreboot, drivers for network routers and creating replacements for Skype, Google Earth, OpenDWG libraries, BitTorrent Sync and Oracle Forms.<ref name="highpriority" />
+
+Previous projects highlighted as needing work included the Free Java implementations, GNU Classpath, and GNU Compiler for Java, which ensure compatibility for the Java part of OpenOffice.org, and the GNOME desktop environment (see Java (Sun)#Licensing|Java: Licensing).<ref>https://www.fsf.org/campaigns/priority-projects/changelog</ref>
+
+The effort has been criticized by Michael Larabel for either not instigating active development or for being slow at the work being done, even after certain projects were added to the list.<ref>cite web|url=https://www.phoronix.com/scan.php?page=news_item&px=MTAwMTY |title=The Sad State Of FSF's High Priority Projects |date=2011-10-15 |accessdate=2014-12-29 |quote=''Long story short, being on the Free Software Foundation's high priority list really doesn't mean much with some of these "important" projects not even being actively developed or even discussed.''|first=Michael |last=Larabel |authorlink=Michael Larabel |publisher=Phoronix</ref><ref>cite web|url=https://www.phoronix.com/scan.php?page=news_item&px=MTA5MDk |title=Many FSF Priority Projects Still Not Progressing|date=2012-04-22|accessdate=2014-12-29|quote=''Most of the projects are basically not going anywhere. Many of them at the time were not really advancing in their goals, haven't had releases in a while, or coding hasn't even started. It's been more than a half-year and still there's no significant work towards clearing many of projects from the FSF list. ''|first=Michael |last=Larabel |authorlink=Michael Larabel |publisher=Phoronix</ref>
+
+Hardware endorsements (RYF)
+See also|Coreboot|Libreboot
+The FSF maintains a "Respects Your Freedom" (RYF) hardware certification program. To be granted certification, a product must use 100% Free Software, allow user installation of modified software, be free of Backdoor (computing)|back doors and conform with several other requirements.<ref>cite web |url=https://www.fsf.org/resources/hw/endorsement/criteria |title=Respects Your Freedom hardware certification requirements |publisher=Free Software Foundation |date=Jan 27, 2012 |accessdate=4 February 2014 |author=Josh Gay</ref>
+
+Currently, a total of 27 products have been granted the certification, including three laptops, a 3D printer, a wireless router, and three USB interface wireless adapters.<ref>cite web |url=https://www.fsf.org/resources/hw/endorsement/respects-your-freedom|title=Respects Your Freedom hardware product certification |publisher=Free Software Foundation |date=October 9, 2012 |accessdate=30 October 2015 |author=Gay, Joshua</ref>
+
+Among the 27 certified products are:
+* The Libreboot X200 laptop
+* The Libreboot X60 laptop (formerly known as the Gluglug X60)
+* Aleph Objects, Inc. LulzBot 3D printers
+* The ThinkPenguin TPE-NWIFIROUTER Wireless-N Broadband Router
+* The ThinkPenguin TPE-N150USB Wireless N USB
+* The ThinkPenguin TPE-N150USBL Wireless USB adapter
+* The Tehnoetic wireless USB adapter for GNU/Linux-libre (TET-N150)
+* The Taurinus X200 laptop by Libiquity
+
+Structure
+=Board=
+update section|date=May 2014
+
+The FSF's board of governors includes amongst themselves professors at leading universities, senior engineers, and founders. A few high-profile activists, and software businessmen are admitted as well. Currently on the board there is one high-profile activist, and one world-class, software-campaign strategist (Windows 95, ''et al.''). There was once a majorly contributing programmer (Mono and Gnome) and businessman who lost favor badly. Founders are also major software developers of the free software in the GNU Project.
+
+William John Sullivan|John Sullivan is the current FSF executive director. Previous members that occupied the position were Peter T. Brown (2005–2010) and Bradley M. Kuhn (2001–2005).
+
+Current board members:
+
+* Geoffrey Knauth, senior software engineer at SFA, Inc. (served since October 23, 1997)
+* Henry Poole (technologist)|Henry Poole, founder of CivicActions, a government digital services firm (served since December 12, 2002)
+* Richard Stallman, founding president, launched the GNU project, author of the GNU General Public License (served as president since inception)
+* Gerald Jay Sussman, professor of computer science at the Massachusetts Institute of Technology (served since inception)
+* Benjamin Mako Hill, assistant professor at the University of Washington (served since July 25, 2007)
+* Bradley Kuhn, executive director of the Software Freedom Conservancy and FSF's former executive director (served since March 25, 2010)<ref>cite web |title = Bradley Kuhn Joins the FSF Board |date= 2010-03-25 |url = https://www.fsf.org/blogs/bradley-kuhn-joins-the-fsf-board |accessdate = 2010-03-26 </ref>
+* Kat Walsh, copyright and technology attorney, free culture and free software advocate, and former chair of the Wikimedia Foundation<ref>cite web|title=Kat Walsh joins FSF board of directors|url=https://www.fsf.org/news/kat-walsh-joins-fsf-board-of-directors|website=fsf.org|publisher=Free Software Foundation, Inc.|accessdate=22 March 2015|date=21 March 2015</ref>
+
+Previous board members include:
+
+* Hal Abelson, founding member,<ref name="founders">The first GNU's Bulletin (cite web|url=https://www.gnu.org/bulletins/bull1.txt|title=GNU'S Bulletin, Volume 1, No.1|date=February 1986|publisher=Free Software Foundation|accessdate=2007-08-11), indicates this list of people as ''round[ing] out FSF's board of directors''.</ref> professor of computer science at the Massachusetts Institute of Technology (served from inception until March 5, 1998, and rejoined circa 2005)
+* Robert J. Chassell, founding treasurer,<ref name="founders" /> as well as a founding director (served from inception until June 3, 1997)
+* Miguel de Icaza (served from August 1999<ref>The FSF annual filings with the Commonwealth of Massachusetts for 1998 and
+1999 show that De Icaza was not on the board on 1998-11-01 and was as of 1999-11-01, so he clearly joined sometime between those dates. Those documents further indicate that the 1999 annual meeting occurred in August; usually, new directors are elected at annual meetings.</ref> until February 25, 2002<ref>The FSF annual filings with the Commonwealth of Massachusetts for 2002 (cite web|url=https://corp.sec.state.ma.us/corp/corpsearch/display_pdf.asp?CORP_DRIVE1/2002/1217/000000000/9152/200228079130_1.pdf|title=2002 Annual Report for Free Software Foundation, Inc.|authorlink=https://www.sec.state.ma.us/cor/coridx.htm|date=2002-12-17|publisher=The Commonwealth of Massachusetts|format=PDF|accessdate=2007-08-11) show that De Icaza has left the board. Changes to board composition are usually made at the annual meeting; which occurred on February 25, 2002.</ref>)
+* Matthew Garrett, software developer (served since October 16, 2014)<ref>cite web|url=https://www.fsf.org/news/matthew-garrett-joins-free-software-foundation-board-of-directors|title=Matthew Garrett joins Free Software Foundation board of directors|date=16 October 2014|publisher=Free Software Foundation|accessdate=22 January 2015</ref>
+*Lawrence Lessig, professor of law at Stanford University (served from March 28, 2004 until 2008)
+*Eben Moglen (served from July 28, 2000<ref>The FSF annual filings with the Commonwealth of Massachusetts for 1999 and
+2000 show that Moglen was not on the board on November 1, 1999, and was as of November 1, 2000, so he clearly joined sometime between those dates. Those documents further indicate that the 2000 annual meeting occurred on July 28, 2000; usually, new directors are elected at annual meetings.</ref> until 2007<ref>Moglen announced his intention to resign in his blog (cite web|url=http://moglen.law.columbia.edu/blog/organizations/SFLC/Transition.html|title=And Now ... Life After GPLv3|last=Moglen|first=Eben|authorlink=Eben Moglen|date=2007-04-23|accessdate=2007-08-11). The resignation likely occurred at the 2007 annual meeting of the directors; the exact date of that meeting is unknown.</ref>)<!--I know he announced on April 23, but when did his term actually end? Bkuhn responds: There are no third-party sources for that yet, but I've added a link to what we know. -->
+*Leonard H. Tower Jr.|Len Tower Jr., founding member,<ref name="founders" /> (served until September 2, 1997)
+
+=Voting=
+The FSF Articles of Organization state that the board of directors are elected.<ref>quote|Article II, Sec. 1 - Number, Election and Qualification: The present members of the corporation shall constitute the voting members. Thereafter the voting members annually at its annual meeting shall fix the number of voting members and shall elect the number of voting members so fixed. At any special or regular meeting, the voting members then in office may increase the number of voting members and elect new voting members to complete the number so fixed; or they may decrease the number of voting members, but only to eliminate vacancies caused by the death, resignation, removal or disqualification of one or more voting members.|Amended By-laws, Nov. 25, 2002|Free Software Foundation, Inc.</ref>
+
+The bylaws say who can vote for them.<ref>quote|In addition to the right to elect Directors as provided in the bylaws and such other powers and rights as may be vested in them by law, these Articles of Organization or the bylaws, the Voting Members shall have such other powers and rights as the Directors may designate.|Amended By-laws, Nov. 25, 2002|Free Software Foundation, Inc.</ref>
+
+The board can grant powers to the Voting Membership.<ref name="maaa"/>
+
+=Employment=
+At any given time, there are usually around a dozen employees.<ref>cite web |url = https://www.fsf.org/about/staff-and-board |title = Meet the staff of the Free Software Foundation </ref> Most, but not all, work at the FSF headquarters in Boston, Massachusetts.<ref>cite web |authorlink = https://www.sec.state.ma.us/cor/coridx.htm |title = Certificate of Change of Principal Office |publisher = The Commonwealth of Massachusetts |date= 2005-05-26 |url = http://corp.sec.state.ma.us/corp/corpsearch/display_pdf.asp?CORP_DRIVE1/2005/0526/000000000/4122/200516698270_1.pdf |format = PDF |accessdate = 2008-07-04 </ref>
+
+=Membership=
+On November 25, 2002, the FSF launched the FSF Associate Membership program for individuals.<ref>The site member.fsf.org first appears in the Internet Archive in December 2002, and that site lists the date of the launch as 25 November 2002. cite web |title = FSF Membership Page, as of 2002-12-20 |publisher = The Internet Archive |date= 2002-12-20 |url = http://member.fsf.org/ |accessdate = 2007-08-11 |archiveurl = https://web.archive.org/web/20021220112452/http://member.fsf.org/ |archivedate = 2002-12-20</ref> Bradley M. Kuhn (FSF executive director, 2001–2005) launched the program and also signed up as the first Associate Member<ref>Kuhn has an FSF-generated member link that identifies him as the first member on his web page. cite web |title = Homepage of Bradley M. Kuhn |publisher = Bradley M. Kuhn |date= 2008-01-05 |url = http://www.ebb.org/bkuhn |accessdate = 2008-01-05 </ref>
+
+Associate members hold a purely honorary and funding support role to the FSF.<ref name="maaa">cite web | url=http://static.fsf.org/nosvn/fsf-amended-bylaws-current.pdf | title=Amended Bylaws | publisher=Free Software Foundation | accessdate=24 January 2015</ref>
+
+=Legal=
+Eben Moglen and Dan Ravicher previously served individually as pro bono legal counsel to the FSF. After forming the Software Freedom Law Center, Eben Moglen continued to serve as the FSF's general counsel until 2016.<ref>Cite web|url=http://www.fsf.org/news/fsf-announces-change-in-general-counsel|title=FSF announces change in general counsel — Free Software Foundation — working together for free software|website=www.fsf.org|language=en|access-date=2017-05-18</ref>
+
+=Financial=
+Most of the FSF funding comes from patrons and members.<ref>cite web|url=https://www.gnu.org/gnu/thegnuproject.html|title=About the GNU Project|last=Stallman|first=Richard|work=Gnu Project|publisher=FSF|accessdate=18 May 2014</ref> Revenue streams also come from free-software-related compliance labs, job postings, published works, and a web store. FSF offers speakers and seminars for pay, and all FSF projects accept donations.
+
+Revenues fund free-software programs and campaigns, while cash is invested conservatively in socially responsible investing. The financial strategy is designed to maintain the Foundation's long-term future through economic stability.
+
+The FSF is a tax-exempt organization and posts annual IRS Form 990 filings online.<ref name="IRS Form 990">cite web|title=2014 Free Software Foundation IRS Form 990|url=http://static.fsf.org/nosvn/Form990_FY2014.pdf|accessdate=24 November 2015</ref>
+
+Criticism
+Linus Torvalds has criticized FSF for using GPLv3 as a weapon in the fight against Digital rights management|DRM. Torvalds argues that the issue of DRM and that of a software license should be treated as two separate issues.<ref>cite web|author=à 21:00 |url=http://linuxfr.org/nodes/85904/comments/1230981 |title=Original version |publisher=LinuxFr.org |accessdate=2011-08-29</ref>
+
+On June 16, 2010, Joe Brockmeier, a journalist at ''Linux Magazine'', criticized the Defective by Design campaign by the FSF as "negative" and "juvenile" and not being adequate for providing users with "credible alternatives" to proprietary software.<ref>cite web| title = The Party of Gno.| accessdate = 2010-06-22 |url = http://www.linux-mag.com/cache/7806/1.html</ref> FSF responded to this criticism by saying "that there is a fundamental difference between speaking out against policies or actions and smear campaigns", and "that if one is taking an ethical position, it is justified, and often necessary, to not only speak about the benefits of freedom but against acts of dispossession and disenfranchisement."<ref>[https://www.fsf.org/bulletin/2011/fall/in-defense-of-negativity In defense of negativity — Free Software Foundation — working together for free software]. https://www.fsf.org. Retrieved on 2013-07-17.</ref>
+
+Recognition
+expand section|date=May 2014
+The free software movement has become recognized as a global cultural movement, and the Free Software Foundation has become recognized as an industry player in software, publishing, economics, jurisprudence, politics, and other cultural realms.
+
+Key players and industries that have made honorific mention and awards include:
+
+* 2001: GNU Project received the USENIX Lifetime Achievement Award for "the ubiquity, breadth, and quality of its freely available redistributable and modifiable software, which has enabled a generation of research and commercial development".<ref>cite web|url=https://www.usenix.org/directory/flame.html |title=USENIX Lifetime Achievement Award ("The Flame") |publisher=USENIX |accessdate=2007-12-05</ref>
+* 2005: Prix Ars Electronica Award of Distinction in the category of "Digital Communities"<!-- <ref>cite web |url = http://www.aec.at/en/archives/prix_archive/prix_projekt.asp?iProjectID=13406 |title = Digital Communities, Distinction, Free Software Foundation |accessdate = 2006-12-10 |author = Ars Electronica Center |authorlink = Ars Electronica Center |year = 2005 |work = Prix Ars Electronica |format= HTML |publisher = Ars Electronica Center </ref>--><ref>cite web |url = https://www.fsf.org/news/digital-communities.html |title = FSF honored with Prix Ars Electronica award |accessdate = 2006-12-10 |author = Free Software Foundation |year = 2005 |work = News Releases |publisher = Free Software Foundation </ref>
+
+See also
+Portal|Free and open-source software
+<!-- Please keep entries in alphabetical order & add a short description WP:SEEALSO -->
+div col|small=yes|colwidth=20em
+* Defective by Design
+* Digital rights
+* Electronic Frontier Foundation
+* Free software movement
+* Free Software Foundation Europe
+* Free Software Foundation of India
+* Hardware restrictions
+* League for Programming Freedom
+* LibrePlanet
+div col end
+<!-- please keep entries in alphabetical order -->
+
+References
+<references />
+
+External links
+Commons category|Free Software Foundation
+* Official website
+* [http://libreplanet.org/wiki/Main_Page LibrePlanet]
+
+Free Software Foundation
+GNU
+FOSS
+Intellectual property activism
+Open navbox
+Authority control
+
+Category:Digital rights organizations
+Category:Free and open-source software organizations
+Category:Free Software Foundation
+Category:Free software movement
+Category:Intellectual property activism
+Category:Science and technology think tanks
+Category:Non-profit technology
+Category:Organizations based in Boston
+Category:Non-profit organizations based in Boston
+Category:Educational charities based in the United States
+Category:Charities based in Massachusetts
+Category:1985 establishments in Massachusetts
+Category:Organizations established in 1985

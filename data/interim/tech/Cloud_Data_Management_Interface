@@ -1,0 +1,85 @@
+Infobox standardref
+| title             = Cloud Data Management Interface
+| status            = Published
+| year_started      = 2009
+| version           = 1.1.1
+| organization      = Storage Networking Industry Association
+| base_standards    = Hypertext Transfer Protocol
+| related_standards = Network File System
+| abbreviation      = CDMI
+| domain            = Cloud computing
+| license           = 
+| website           = [http://www.snia.org/cloud www.snia.org/cloud]
+
+
+The Cloud Data Management Interface (CDMI) is a [http://www.snia.org SNIA] standard that specifies a protocol for self-provisioning, administering and accessing cloud storage.<ref>cite web|title=Cloud Data Management Interface|url=http://www.snia.org/cdmi|publisher=SNIA|accessdate=26 June 2011</ref>
+
+CDMI defines RESTful HTTP operations for assessing the capabilities of the cloud storage system, allocating and accessing containers and objects, managing users and groups, implementing access control, attaching metadata, making arbitrary queries, using persistent queues, specifying retention intervals and holds for compliance purposes, using a logging facility, billing, moving data between cloud systems, and exporting data via other protocols such as iSCSI and Network File System (protocol)|NFS. Transport security is obtained via Transport Layer Security|TLS.
+
+Capabilities
+Compliant implementations must provide access to a set of configuration parameters known as ''capabilities''.
+These are either boolean values that represent whether or not a system supports things such as queues, export via other protocols, path-based storage and so on, or numeric values expressing system limits, such as how much metadata may be placed on an object.  As a minimal compliant implementation can be quite small, with few features, clients need to check the cloud storage system for a capability before attempting to use the functionality it represents.
+
+Containers
+A CDMI client may access objects, including containers, by either name or object id (OID), assuming the CDMI server supports both methods.  When storing objects by name, it is natural to use nested named containers; the resulting structure corresponds exactly to a traditional filesystem directory structure.
+
+Objects
+Objects are similar to files in a traditional file system, but are enhanced with an increased amount of and capacity for metadata.  As with containers, they may be accessed by either name or OID.  When accessed by name, clients use Uniform Resource Locator|URLs that contain the full pathname of objects to create, read, update and delete them. When accessed by OID, the URL specifies an OID string in the cdmi-objectid container; this container presents a flat name space conformant with standard object storage system semantics.
+
+Subject to system limits, objects may be of any size or type and have arbitrary user-supplied metadata attached to them. Systems that support query allow arbitrary queries to be run against the metadata.
+
+Domains, Users and Groups
+CDMI supports the concept of a ''domain'', similar in concept to a domain in the Windows Active Directory model. Users and groups created in a domain share a common administrative database and are known to each other on a "first name" basis, i.e. without reference to any other domain or system.
+
+Domains also function as containers for usage and billing summary data.
+
+Access Control
+CDMI exactly follows the Access Control List|ACL and Access Control Entry|ACE model used for file authorization operations by NFSv4#NFSv4|NFSv4. This makes it also compatible with Microsoft Windows systems.
+
+Metadata
+CDMI draws much of its metadata model from the XAM specification. Objects and containers have "storage system metadata", "data system metadata" and arbitrary user specified metadata, in addition to the metadata maintained by an ordinary filesystem (atime etc.).
+
+Queries
+CDMI specifies a way for systems to support arbitrary queries against CDMI containers, with a rich set of comparison operators, including support for regular expressions.
+
+Queues
+CDMI supports the concept of persistent FIFO (computing and electronics)|FIFO (first-in, first-out) queues. These are useful for job scheduling,  order processing and other tasks in which lists of things must be processed in order.
+
+Compliance
+Both retention intervals and retention holds are supported by CDMI.  A retention interval consists of a start time and a retention period.  During this time interval, objects are preserved as immutable and may not be deleted. A retention hold is usually placed on an object because of judicial action and has the same effect: objects may not be changed nor deleted until all holds placed on them are removed.
+
+Logging
+CDMI clients can sign up for logging of system, security and object access events on servers that support it.  This feature allows clients to see events locally as the server logs them.
+
+Billing
+Summary information suitable for billing clients for on-demand services can be obtained by authorized users from systems that support it.
+
+Serialization
+Serialization of objects and containers allows export of all data and metadata on a system and importation of that data into another cloud system.
+
+Foreign Protocols
+CDMI supports export of containers as NFS or CIFS shares.  Clients that mount these shares see the container hierarchy as an ordinary filesystem directory hierarchy, and the objects in the containers as normal files. Metadata outside of ordinary filesystem metadata may or may not be exposed.
+
+Provisioning of iSCSI LUNs is also supported.
+
+ Client SDKs 
+* [http://www.snia.org/forums/csi/programs/CDMIportal CDMI Reference Implementation]
+* [https://github.com/scality/Droplet Droplet]
+* [https://github.com/livenson/libcdmi-java libcdmi-java]
+* [https://github.com/livenson/libcdmi-python libcdmi-python]
+* [https://github.com/projectpvg1/.net-SDK .NET SDK]
+
+ See also 
+Comparison of CDMI server implementations
+
+ References 
+reflist
+
+ External links 
+* [https://www.iso.org/standard/40874.html ISO-8601]  International Organization for Standardization, "Data elements and interchange formats -- Information interchange -- Representation of dates and times”, ISO 8601:2004
+* [http://www.itu.int/ITU-T/publications/recs.html ITU-T509]  International Telecommunications Union Telecommunication Standardization Sector (ITU-T), Recommendation X.509: Information technology - Open Systems Interconnection - The Directory: Public-key and attribute certificate frameworks, May 2000. Specification and technical corrigenda -
+* [http://www.unix.org/version3/ieee_std.html POSIX ERE] The Open Group, Base Specifications Issue 6, IEEE Std 1003.1, 2004 Edition
+* [http://www.cloudplugfest.org/ Cloud Interoperability Plugfest project]
+
+Category:Cloud storage
+Category:Data management

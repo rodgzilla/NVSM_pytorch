@@ -1,0 +1,52 @@
+Infobox person
+| name        = Friedrich Kasiski
+| image       = 
+| alt         = 
+| caption     = 
+| birth_name  = 
+| birth_date  = birth date|1805|11|29|mf=y
+| birth_place = Człuchów|Schlochau, Kingdom of Prussia
+| death_date  = death date and age|1881|05|22|1805|11|29|mf=y
+| death_place = Szczecinek|Neustettin, German Empire
+| nationality = German
+| other_names = 
+| known_for   = First accounted procedure for cryptanalysis|attacking polyalphabetic substitution ciphers.
+| occupation  = 
+
+
+Major Friedrich Wilhelm Kasiski (29 November 1805 – 22 May 1881) was a German infantry Officer (armed forces)|officer, cryptographer and archeologist. Kasiski was born in Schlochau, Kingdom of Prussia (now Człuchów, Poland).
+
+Military service
+Kasiski enlisted in East Prussia's 33rd Infantry Regiment on 20 March 1823 at the age of 17. In May 1824, he was promoted to the military rank|rank of Master Sergeant, and eight months later was Commissioned officer|commissioned as a Second Lieutenant in February 1825. It took fourteen years to earn his next promotion (rank)|promotion when, in May 1839, he advanced to the rank of First Lieutenant. His next advancement was quicker, promoted to Captain (land)|Captain in November 1842. Kasiski finally retired from active service with the rank of Major on 17 February 1852.
+
+Between 1860 and 1868 he was the commander of a National Guard (Prussia)|National Guard battalion.
+
+Cryptography
+In 1863, Kasiski published a 95-page book on cryptography, ''Die Geheimschriften und die Dechiffrir-Kunst'' (German, "Secret writing and the Art of Deciphering"). This was the first published account of a procedure for cryptanalysis|attacking polyalphabetic substitution ciphers, especially the Vigenère cipher (although it is possible Charles Babbage was already aware of a similar method but had not published it). The method relied on the analysis of gaps between repeated fragments in the ciphertext; such analysis can give hints as to the length of the key (cryptography)|key used. This technique is known as Kasiski examination.
+
+The significance of Kasiski's cryptanalytic work was not widely realised at the time, and he turned his mind to archaeology instead. The later years of his life were spent at Neustettin (Szczecinek); Encyclopædia Britannica Eleventh Edition|the 11th edition of Encyclopædia Britannica cited a scholarly article by Kasiski in its entry on the town. Historian David Kahn (writer)|David Kahn notes, "Kasiski died on May 22, 1881, almost certainly without realizing that he had wrought a revolution in cryptology" (''The Codebreakers'').
+
+ Publication 
+* F. W. Kasiski, [https://books.google.com/books?id=fB5dAAAAcAAJ&pg=PP7#v=onepage&q&f=false ''Die Geheimschriften und die Dechiffrir-Kunst''] (Berlin, (Germany): E. S. Mittler und Sohn, 1863).
+
+References
+* David Kahn (writer)|David Kahn, ''The Codebreakers – The Story of Secret Writing'', revised ed, Scribner, 1996. pp.&nbsp;207–209.
+* M. W. Bowers (pseudonym ''Zembie''), "Major F. W. Kasiski – Cryptologist", ''The Cryptogram'', Vol. XXXI(3) (January–February 1964) pp.&nbsp;53,58–59.
+
+See also
+*List of cryptographers
+*Topics in cryptography
+*Kasiski examination
+
+Authority control
+
+DEFAULTSORT:Kasiski, Friedrich
+Category:1805 births
+Category:1881 deaths
+Category:People from Człuchów
+Category:German archaeologists
+Category:German cryptographers
+Category:Prussian Army personnel
+Category:Pre-computer cryptographers
+Category:People from West Prussia
+Category:People from Szczecinek

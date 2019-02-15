@@ -1,0 +1,50 @@
+no footnotes|date=September 2018
+An optimal decision is a decision that leads to at least as good a known or expected outcome as all other available decision options. It is an important concept in decision theory. In order to compare the different decision outcomes, one commonly assigns a utility value to each of them. If there is uncertainty as to what the outcome will be, then under the von Neumann–Morgenstern axioms the optimal decision maximizes the Expected utility hypothesis|expected utility (a probability–weighted average of utility over all possible outcomes of a decision).
+
+Sometimes, the equivalent problem of minimizing the expected value of Loss function|loss is considered, where loss is (–1) times utility.
+
+"Utility" is only an arbitrary term for quantifying the desirability of a particular decision outcome and not necessarily related to "usefulness." For example, it may well be the optimal decision for someone to buy a sports car rather than a station wagon, if the outcome in terms of another criterion (e.g., effect on personal image) is more desirable, even given the higher cost and lack of versatility of the sports car.
+
+The problem of finding the optimal decision is a mathematical optimization problem. In practice, few people verify that their decisions are optimal, but instead use heuristics to make decisions that are "good enough"&mdash;that is, they engage in satisficing. 
+
+A more formal approach may be used when the decision is important enough to motivate the time it takes to analyze it, or when it is too complex to solve with more simple intuitive approaches, such as with a large number of available decision options and a complex decision&ndash;outcome relationship.
+
+ Formal mathematical description 
+
+Each decision <math>d</math> in a set <math>D</math> of available decision options will lead to an outcome <math>o=f(d)</math>. All possible outcomes form the set <math>O</math>. 
+Assigning a utility <math>U_O(o)</math> to every outcome, we can define the utility of a particular decision <math>d</math> as
+:<math>U_D(d) \ = \  U_O(f(d)) .\,</math>
+
+We can then define an optimal decision <math>d_\mathrm{opt}</math> as one that maximizes <math>U_D(d)</math> :
+:<math>d_\mathrm{opt} = \arg\max \limits_{d \in D} U_D(d). \,</math>
+
+Solving the problem can thus be divided into three steps:
+# predicting the outcome <math>o</math> for every decision <math>d;</math>
+# assigning a utility <math>U_O(o)</math> to every outcome <math>o;</math>
+# finding the decision <math>d</math> that maximizes <math>U_D(d).</math>
+
+ Under uncertainty in outcome 
+
+In case it is not possible to predict with certainty what will be the outcome of a particular decision, a probabilistic approach is necessary. In its most general form, it can be expressed as follows:
+
+Given a decision <math>d</math>, we know the probability distribution for the possible outcomes described by the Conditional probability distribution|conditional probability density <math>p(o|d)</math>. Considering <math>U_D(d)</math> as a random variable (conditional on <math>d</math>), we can calculate the expected utility of decision <math>d</math> as
+:<math>\text{E}U_D(d)=\int{p(o|d)U(o)do}\,</math>  ,
+where the integral is taken over the whole set <math>O</math> (DeGroot, pp 121).
+
+An optimal decision <math>d_\mathrm{opt}</math> is then one that maximizes <math>\text{E}U_D(d)</math>, just as above:
+:<math>d_\mathrm{opt} = \arg\max \limits_{d \in D} \text{E}U_D(d). \,</math>
+
+An example is the Monty Hall problem.
+
+See also
+*Decision-making
+*Decision-making software
+*Two-alternative forced choice
+
+References
+* Morris DeGroot ''Optimal Statistical Decisions''.  McGraw-Hill. New York. 1970. isbn|0-07-016242-5.
+* James O. Berger ''Statistical Decision Theory and Bayesian Analysis''. Second Edition. 1980. Springer Series in Statistics. isbn|0-387-96098-8.
+
+Statistics|inference|collapsed
+
+Category:Optimal decisions| 

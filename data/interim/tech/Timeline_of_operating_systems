@@ -1,0 +1,992 @@
+Use mdy dates|date=January 2012
+This article presents a Chronology|timeline of events in the history of computer operating systems from 1951 to the current day. For a narrative explaining the overall developments, see the History of operating systems.
+
+1950's
+* 1951
+** LEO (computer)|LEO I 'Lyons Electronic Office'<ref>cite web|url=http://www.bbc.co.uk/dna/h2g2/A1000729|title=h2g2 - Early Electronic Computers - Edited Entry|author=Not Panicking Ltd|date=January 7, 2012|publisher=|accessdate=March 15, 2015</ref> was the commercial development of Electronic delay storage automatic calculator|EDSAC computing platform, supported by British firm J. Lyons and Co.
+* 1953
+** DYSEAC<ref>Robert D. Elbourn; Richard P. Witt, "Dynamic Circuit Techniques Used in SEAC and DYSEAC", Proceedings of the IRE, Year: 1953, Volume: 41, Issue: 10, pp. 1380 - 1387</ref> – an early machine capable of distributing computing
+* 1955
+** Massachusetts Institute of Technology|MIT's Tape Director operating system made for UNIVAC 1103|WHIRLWIND I<ref>cite web|url=http://www.csail.mit.edu/timeline/timeline.php/timeline.php?query=event&id=3|title=LCS/AI Lab Timeline|publisher=|accessdate=March 15, 2015</ref><ref>Douglas Ross. 1986. A personal view of the personal work station: some firsts in the Fifties. In Proceedings of the ACM Conference on The history of personal workstations (HPW '86), John R White and Kathi Anderson (Eds.). ACM, New York, NY, USA, 19–48. Digital object identifier|DOI=[https://dx.doi.org/10.1145/12178.12180 10.1145/12178.12180] http://doi.acm.org/10.1145/12178.12180</ref>
+* 1955
+** General Motors Operating System made for IBM 701<ref>cite web|url=http://www.csee.wvu.edu/~jdm/classes/cs258/OScat/early.html|title=Early Operating Systems|publisher=|accessdate=March 15, 2015|deadurl=yes|archiveurl=https://web.archive.org/web/20150410053229/http://www.csee.wvu.edu/~jdm/classes/cs258/OScat/early.html|archivedate=April 10, 2015|df=mdy-all</ref>
+* 1956
+** GM-NAA I/O for IBM 704, based on General Motors Operating System
+* 1957
+** Atlas Supervisor (University of Manchester|Manchester University)  (''Atlas computer project start'')
+** BESYS (Bell Labs), for IBM 704, later IBM 7090 and IBM 7094
+* 1958
+** University of Michigan Executive System (UMES), for IBM 704, IBM 709|709, and IBM 7090|7090
+* 1959
+** SHARE Operating System (SOS), based on GM-NAA I/O
+
+1960s
+* 1960
+** IBM 7090/94 IBSYS|IBSYS (IBM for its IBM 7090|7090 and IBM 7094|7094)
+* 1961
+** Compatible Time-Sharing System|CTSS (Massachusetts Institute of Technology|MIT's Compatible Time-Sharing System for the IBM 7094)
+** Burroughs MCP|MCP (Burroughs Corporation|Burroughs Master Control Program)
+* 1962
+** Atlas Supervisor (University of Manchester|Manchester University)  (''Atlas computer commissioned'')
+** General Comprehensive Operating System|GCOS (General Electric|GE's General Comprehensive Operating System, originally GECOS, General Electric Comprehensive Operating Supervisor)
+* 1963
+** AN/FSQ-32, another early time-sharing system begun
+** Titan (1963 computer)|Titan Supervisor, early time-sharing system begun
+* 1964
+** English Electric KDF9|KDF9 Timesharing Director (English Electric) – an early, fully hardware secured, fully pre-emptive process switching, multi-programming operating system for KDF9 (originally announced in 1960)
+** Berkeley Timesharing System (for Scientific Data Systems' SDS 940)
+** Dartmouth Time Sharing System (Dartmouth College's DTSS for GE computers)
+** OS/360 and successors|OS/360 (IBM's primary OS for its S/360 series) (''announced'')
+** CDC SCOPE|SCOPE (CDC 3000 series)
+** TOPS-10 (Digital Equipment Corporation|DEC, the name TOPS-10 wasn't adopted until 1970)
+** EXEC 8 (UNIVAC)
+* 1965
+** THE multiprogramming system (Eindhoven University of Technology|Technische Hogeschool Eindhoven)
+** Multics (MIT, GE, Bell Labs for the GE-600 series|GE-645) (''announced'')
+** BOS/360 (IBM's Basic Operating System)
+** IBM TOS/360|TOS/360 (IBM's Tape Operating System)
+** Time Sharing Operating System|TSOS (later VMOS) (RCA)
+** Pick operating system
+* 1966
+** OS/360 and successors|OS/360 (IBM's primary OS for its S/360 series) PCP and MFT (''shipped'')
+** DOS/360 (IBM's Disk Operating System)
+** MS/8 (Richard F. Lary's DEC PDP-8 system)
+** GEORGE (operating system)#GEORGE 1 & 2|GEORGE 1 & 2 For International Computers and Tabulators|ICT ICT 1900 series|1900 series
+* 1967
+** IBM CP-40|CP-40, predecessor to CP-67 on modified IBM System/360 Model 40
+** CP-67 (IBM, also known as CP/CMS)
+** Michigan Terminal System (MTS)<ref>cite web|url=http://www.clock.org/~jss/work/mts/timeline.html |title=Michigan Terminal System: Time Line |publisher=Clock.org |date= |accessdate=2012-10-19</ref> (time-sharing system for the IBM S/360-67 and successors)
+** Incompatible Timesharing System|ITS (MIT's Incompatible Timesharing System for the DEC PDP-6 and PDP-10)
+** ORVYL and WYLBUR|ORVYL (Stanford University's time-sharing system for the IBM S/360)
+** TSS (operating system)|TSS/360 (IBM's Time-sharing System for the S/360-67, never officially released, canceled in 1969 and again in 1971)
+** OS/360 OS/MVT|MVT
+** WAITS (Stanford Artificial Intelligence Laboratory|SAIL, Stanford Artificial Intelligence Laboratory, time-sharing system for DEC PDP-6 and PDP-10, later TOPS-10)
+* 1968
+** IBM Airline Control Program|Airline Control Program (ACP) (IBM)
+** THE multiprogramming system (Eindhoven University of Technology)
+** TSS-8 (DEC for the PDP-8)
+* 1969
+** TOPS-20|TENEX (BBN Technologies|Bolt, Beranek and Newman for DEC systems, later TOPS-20)
+** Unix|Unics (later Unix) (AT&T Corporation|AT&T, initially on DEC computers)
+** RC 4000 Multiprogramming System (Regnecentralen|RC)
+** Multics (MIT, GE, Bell Labs for the GE-600 series|GE-645 and later the Honeywell 6000 series|Honeywell 6180) (''opened for paying customers in October''<ref>cite web|url=http://www.multicians.org/history.html|title=Multics History|publisher=|accessdate=March 15, 2015</ref>)
+** GEORGE (operating system)#GEORGE 3 & 4|GEORGE 3 For International Computers Limited|ICL ICT 1900 series|1900 series
+
+1970s
+* 1970
+** DEC BATCH-11/DOS-11|DOS-11 (PDP-11)
+* 1971
+** RSTS/E|RSTS-11 2A-19 (''First released version; PDP-11'')
+** OS/8
+* 1972
+** Data General RDOS
+** Edos
+** OS/VS1|Operating System/Virtual Storage 1 (OS/VS1)
+** OS/VS2 (SVS)|Operating System/Virtual Storage 2 R1 (OS/VS2 SVS)
+** VM (operating system)|Virtual Machine Facility/370 (VM/370), sometimes known as VM/CMS
+** Virtual Machine/Basic Extended Product (BSEPP)
+** Virtual Machine/Extended Product (SEPP)
+** MUSIC/SP
+** PRIMOS (written in FORTRAN IV, that didn't have Pointer (computer programming)|pointers, while later versions, around version 18, written in a version of PL/1, called PL/P)
+* 1973
+** Эльбрус-1 (Elbrus (computer)|Elbrus-1) – Soviet computer – created using high-level language uЭль-76 (ALGOL 68|AL-76/ALGOL 68)
+** ICL VME|VME – implementation language S3 (programming language)|S3 (ALGOL 68)
+** RSX-11D
+** RT-11
+** Xerox Alto|Alto OS
+* 1974
+** DEC BATCH-11/DOS-11|DOS-11 V09-20C (''Last stable release, June 1974'')
+** Sintran III
+** MONECS
+** HP Multi-Programming Executive|Multi-Programming Executive (MPE) – Hewlett-Packard
+** Hydra<ref>[https://www.cs.virginia.edu/people/faculty/pdfs/p337-wulf.pdf ]dead link|date=January 2019</ref> – capability-based, multiprocessing OS kernel
+** MVS|Operating System/Virtual Storage 2 R2 (MVS)
+* 1975
+** CP/M
+** BS2000 V2.0 (''First released version'')
+** Version 6 Unix
+* 1976
+** CAP computer|Cambridge CAP computer<ref>http://research.microsoft.com/pubs/72418/cap.pdf</ref> – all operating system procedures written in ALGOL 68C, with some closely associated protected procedures in BCPL
+** Cray Operating System
+** FLEX (operating system)|FLEX<ref>cite web|url=http://www.flexusergroup.com/flexusergroup/fug3.htm|title=FLEX User Group - History|author=Ian P. Blythe|publisher=|accessdate=March 15, 2015</ref>
+** TOPS-20
+** Tandem Computers|Tandem Nonstop OS v1
+* 1977
+** Berkeley Software Distribution|1BSD
+** KERNAL
+** OASIS operating system
+** TRSDOS
+** OpenVMS|Virtual Memory System (VMS) V1.0 (''Initial commercial release, October 25'')
+* 1978
+** Berkeley Software Distribution|2BSD
+** Apple DOS
+** HDOS
+** TRIPOS
+** UCSD Pascal|UCSD p-System (''First released version'')
+** Lisp machine (CADR)
+** KVM/370<ref>[http://www.cs.washington.edu/research/projects/poirot3/Oakland/sp/PAPERS/00044538.PDF ]dead link|date=January 2019</ref> – security retro-fit of IBM VM/370
+** KSOS<ref>http://csrc.nist.gov/publications/history/ford78.pdf</ref> – secure OS design from Ford Aerospace
+** MVS/System Extensions (MVS/SE)
+* 1979
+** Atari DOS
+** PERQ|POS
+** NLTSS
+** UNIX/32V
+** Version 7 Unix
+** UCLA Secure UNIX<ref>http://www.computer.org/csdl/proceedings/afips/1979/5087/00/50870355.pdf</ref> – an early secure UNIX OS based on security kernel
+** MVS/System Extensions R2 (MVS/SE2)
+
+1980s
+* 1980
+** 86-DOS
+** Convergent Technologies Operating System|CTOS<ref>[http://www.byte.com/art/9412/sec13/art2.htm] webarchive|url=https://web.archive.org/web/20080828190425/http://www.byte.com/art/9412/sec13/art2.htm|date=August 28, 2008</ref>
+** NewDos/80
+** OS-9
+** Apple SOS|SOS
+** MVS/System Product (MVS/SP) V1
+** VM (operating system)|Virtual Machine/System Product (VM/SP)
+** Xenix
+* 1981
+** Acorn MOS
+** Xinu first release
+** Business Operating System (software)|Business Operating System
+** Domain/OS|Aegis SR1 (''First Apollo/DOMAIN systems shipped on March 27''<ref>cite web|url=http://www.zepa.net/apollo/|title=Apollo/DOMAIN Computers|publisher=|accessdate=March 15, 2015</ref>)
+** IBM PC DOS|PC DOS
+** Pilot (operating system)|Pilot (''Xerox Star operating system'')
+** MS-DOS
+** Amdahl UTS|UTS
+** Intel iAPX 432|iMAX – OS for Intel's iAPX 432 capability machine
+* 1982
+** Commodore DOS
+** Logical Disk Operating System|LDOS (By Logical Systems, Inc. – for the Radio Shack TRS-80 Models I, II & III)
+** QNX
+** Sun UNIX (later SunOS) 0.7
+** Ultrix
+** Stratus VOS<ref>ftp://ftp.stratus.com/vos/doc/reference/machine_history.txt</ref>
+** Unix System III
+* 1983
+** Apple Lisa|Lisa Office System 7/7
+** Coherent (operating system)|Coherent
+** GNU (''project start'')
+** NetWare|Novell NetWare (Novell S-Net|S-Net)
+** ProDOS
+** SunOS 1.0
+** STOP<ref>http://www.dtic.mil/dtic/tr/fulltext/u2/a229523.pdf</ref> – Trusted Computer System Evaluation Criteria|TCSEC A1-class, secure OS for SCOMP hardware
+** LOCUS<ref>[http://pages.cs.wisc.edu/~cs739-1/papers/locus.pdf ]dead link|date=January 2019</ref> – UNIX compatible, high reliability, distributed OS
+** DNIX
+** MVS/Extended Architecture (MVS/XA)
+* 1984
+** Classic Mac OS|Mac OS (''System 1.0'')
+** MSX-DOS
+** PC/IX
+** Sinclair QDOS
+** QNX
+** UNICOS
+** Venix 2.0
+** VM (operating system)|Virtual Machine/Extended Architecture Migration Assistance (VM/XA MA)
+* 1985
+** Windows 1.0
+** AmigaOS
+** Atari TOS
+** DG/UX
+** MIPS RISC/os
+** Oberon (operating system)|Oberon – written in Oberon (programming language)|Oberon
+** SunOS 2.0
+** Version 8 Unix
+** Windows 1.01 <!-- following comment is not reflected in "Windows 1.0" article: ('Windows' [1.0] is Not an Operating System (OS), but a shell)-->
+** Xenix 2.0
+** VM (operating system)|Virtual Machine/Extended Architecture System Facility (VM/XA SF)
+** Graphics Environment Manager
+* 1986
+** IBM AIX|AIX 1.0
+** Apple IIGS|GS-OS
+** Genera (operating system)|Genera 7.0
+** HP-UX
+** SunOS 3.0
+** GEOS (8-bit operating system)|GEOS
+** Version 9 Unix
+** GEMSOS<ref>http://www.aesec.com/eval/NCSC-FER-94-008.pdf</ref> – Trusted Computer System Evaluation Criteria|TCSEC A1-class, secure kernel for BLACKER VPN & GTNP
+** Cronus distributed OS<ref>Vinter, S. T. and Schantz, R. E. 1986. The Cronus distributed operating system. In Proceedings of the 2nd Workshop on Making Distributed Systems Work (Amsterdam, Netherlands, September 8–10, 1986). EW 2. ACM, New York, NY, 1-3.</ref>
+* 1987
+** Topaz<ref>ftp://ftp.hpl.external.hp.com/pub/dec/SRC/research-reports/SRC-023.pdf</ref> – semi-distributed OS for DEC Firefly workstation written in Modula-2+ and garbage collected
+** RISC OS|Arthur
+** IRIX (''3.0 is first SGI version'')
+** MINIX 1.0
+** BS2000 V9.0
+** OS/2 (1.0)
+** PC-MOS/386
+** Windows 2.0 <!-- following comment is not reflected in "Windows 2.0" article: ('Windows' [2.0] is Not an Operating System (OS), but a shell) -->
+* 1988
+** A/UX (Apple Computer)
+** RISC iX
+** KeyKOS – capability-based microkernel for IBM mainframes with automated persistence of app data
+** LynxOS
+** CP/M rebranded as DR-DOS
+** Classic Mac OS|Mac OS (''System 6'')
+** MVS/Enterprise Systems Architecture (MVS/ESA)
+** OS/2 (1.1)
+** IBM i|OS/400
+** SpartaDOS X
+** SunOS 4.0
+** TOPS-10 7.04 (''Last stable release, July 1988'')
+** HeliOS 1.0
+** VAX VMM<ref>[http://www.cs.dartmouth.edu/~ccpalmer/classes/cs55/Content/resources/vax_vmm.pdf ]dead link|date=January 2019</ref> – Trusted Computer System Evaluation Criteria|TCSEC A1-class, Virtual Machine Manager|VMM for VAX computers (limited use before cancellation)
+** Flex machine – tagged, capability machine with OS and other software written in ALGOL 68RS
+** VM (operating system)|Virtual Machine/Extended Architecture System Product (VM/XA SP)
+* 1989
+** EPOC (operating system)|EPOC
+** NeXTSTEP (1.0)
+** OS/2 (1.2)
+** RISC OS (''First release was to be called Arthur 2, but was renamed to RISC OS 2, and was first sold as RISC OS 2.00 in April 1989'')
+** SCO OpenServer|SCO UNIX (''Release 3'')
+** TSX-32
+** Version 10 Unix
+** Xenix 2.3.4 (''Last stable release'')
+** ASOS<ref>[http://www.cs.washington.edu/research/projects/poirot3/Oakland/sp/PAPERS/00044288.PDF ]dead link|date=January 2019</ref> – Trusted Computer System Evaluation Criteria|TCSEC A1-class secure, real-time OS for Ada (programming language)|Ada applications
+
+1990s
+* 1990
+** AmigaOS 2.0
+** BeOS (v1)
+** Genera (operating system)|Genera 8.0
+** OS/2 1.3
+** Tru64 UNIX|OSF/1
+** IBM AIX|AIX 3.0
+** Windows 3.0 <!-- 'Windows' [3.0] is not an operating system (OS), but a graphical environment/shell -->
+** LOCK<ref>cite web|url=http://www.cyberdefenseagency.com/publications/LOCK-An_Historical_Perspective.pdf |title=LOCK-An Historical Perspective |publisher=Cyberdefenseagency.com |date= |accessdate=2019-01-28</ref> – Trusted Computer System Evaluation Criteria|TCSEC A1-class secure system with kernel & hardware support for Type enforcement
+** VM (operating system)|Virtual Machine/Enterprise Systems Architecture (VM/XA ESA)
+** GEOS (16-bit operating system)|PC/GEOS
+* 1991
+** Linux kernel|Linux 0.01-0.1
+** Classic Mac OS|Mac OS (''System 7'')
+** MINIX 1.5
+** PenPoint OS
+** RISC OS 3<ref>citation
+|url        = http://www.wrocc.org.uk/riscos/history.shtml
+|title      = A Brief History of RISC OS
+|work       = Wakefield RISC OS Computer Club
+|accessdate = 2011-11-19
+</ref>
+** Trusted Xenix<ref>cite web|url=http://webapp1.dlib.indiana.edu/virtual_disk_library/index.cgi/1347159/FID1806/epl/entries/csc-epl-92-001.html|title=EPL Entry CSC-EPL-92/001|publisher=|accessdate=March 15, 2015</ref> – rewritten & security enhanced Xenix evaluated at Trusted Computer System Evaluation Criteria|TCSEC B2-class
+** Amoeba (operating system)|Amoeba – microkernel-based, POSIX-compliant, distributed OS
+* 1992
+** 386BSD 0.1
+** BSD/OS|BSD/386, by Berkeley Software Design|BSDi and later known as BSD/OS.
+** AmigaOS 3.0
+** Amiga Unix 2.01 (''Latest stable release'')
+** RSTS/E 10.1 (''Last stable release, September 1992'')
+** Softlanding Linux System|SLS
+** Solaris (operating system)|Solaris 2.0 (''Successor to SunOS 4.x; based on SVR4 instead of BSD'')
+** OpenVMS V1.0 (''First OpenVMS AXP (Alpha) specific version, November 1992'')
+** OS/2 2.0 (First i386 32-bit based version)
+** Plan 9 from Bell Labs|Plan 9 First Edition (''First public release was made available to universities'')
+** Windows 3.1x|Windows 3.1 <!-- following comment is not reflected in "Windows 3.1" article: ('Windows' [3.1] is Not an Operating System (OS), but a shell) -->
+** Yggdrasil Linux/GNU/X|LGX
+* 1993
+** FreeBSD
+** NetBSD
+** Newton OS
+** Windows NT 3.1 (''First Windows NT kernel public release'')
+** Genera (operating system)|Open Genera 1.0
+** 4690 Operating System|IBM 4690 Operating System
+** NetWare|Novell NetWare 4
+** OS/2 2.1
+** Slackware 1.0
+** Spring (operating system)|Spring
+* 1994
+** IBM AIX|AIX 4.0, 4.1
+** OS/2 3.0
+** RISC OS 3.5
+** NetBSD 1.0 (''First multi-platform release, October 1994'')
+** SPIN (operating system)|SPIN – extensible OS written in Modula-3
+** Red Hat Linux|Red Hat
+* 1995
+** Tru64 UNIX|Digital UNIX (''aka'' Tru64 UNIX)
+** OpenBSD
+** OS/390
+** Plan 9 from Bell Labs|Plan 9 Second Edition (''Commercial second release version was made available to the general public.'')
+** Ultrix 4.5 (''Last major release'')
+** Windows 95
+* 1996
+** Classic Mac OS|Mac OS 7.6 (''First officially-named Mac OS'')
+** Windows NT 4.0
+** Windows Embedded Compact|Windows CE 1.0
+** RISC OS 3.6
+** IBM AIX|AIX 4.2
+** OS/2 4.0
+** Palm OS
+** Debian 1.1
+** JN<ref>cite web |url=http://embedded.soe.ucsc.edu/pubs/tr96-29/html/tr96-29.html |title=Archived copy |accessdate=2014-04-25 |deadurl=yes |archiveurl=https://web.archive.org/web/20120824010637/http://embedded.soe.ucsc.edu/pubs/tr96-29/html/tr96-29.html |archivedate=August 24, 2012 |df=mdy-all </ref> – microkernel OS for embedded, Java apps
+* 1997
+** Inferno (operating system)|Inferno
+** Mac OS 8
+** Windows Embedded Compact|Windows CE 2.0
+** SkyOS
+** MINIX 2.0
+** RISC OS 3.7
+** IBM AIX|AIX 4.3
+** DR-WebSpyder 1.0
+** Nemesis (operating system)|Nemesis<ref>various 1997 publications listed on [http://www.cl.cam.ac.uk/research/srg/netos/old-projects/nemesis/documentation.html the Nemesis website], retrieved 2013-08-13</ref>
+* 1998
+** Solaris (operating system)|Solaris 7 (''first 64-bit computing|64-bit Solaris release – names from this point drop "2.", otherwise would've been Solaris 2.7'')
+** Windows 98
+** RT-11 5.7 (''Last stable release, October 1998'')
+** Novell NetWare 5
+** Junos
+** DR-WebSpyder 2.0
+* 1999
+** AROS Research Operating System|AROS (''Boot for the first time in Stand Alone version'')
+** RISC OS 4
+** Mac OS 9
+** OS/2 4.5
+** Windows 98 Second Edition|Windows 98 (2nd edition)
+** Inferno (operating system)|Inferno Second Edition (''Last distribution (Release 2.3, circa|July 1999) from Lucent's Inferno Business Unit'')<ref>citation
+|url        = http://www.vitanuova.com/inferno/downloads.html
+|title      = Inferno Downloads
+|work       = Vita Nuova Holdings
+|accessdate = 2011-11-19
+</ref>
+
+2000s
+{| class="wikitable sortable"
+|-
+! Year–month || Microsoft Windows|Windows || Apple Inc.|Apple || Berkeley Software Distribution|BSD || Linux || Others
+|-
+| 2000–? || || || || || z/OS
+|-
+| 2000–? || || || || || z/VM
+|-
+| 2000–01 || || || || ||
+
+|-
+| 2000–02 || Windows 2000<ref>citation
+|url        = http://www.microsoft.com/presspass/press/1999/Dec99/W2KrtmPR.mspx
+|title      = Microsoft Releases Windows 2000 to Manufacturing
+|work       = Microsoft News Center
+|date       = 1999-12-15
+|accessdate = 2011-11-19
+</ref> || || || || Solaris (operating system)|Solaris 8
+|-
+| 2000–03 || || || FreeBSD 4.0 || Red Hat Linux 6.2E || AtheOS<br />BeOS R5
+|-
+| 2000–04 || Pocket PC 2000 || || || ||
+|-
+| 2000–05 || || || || ||
+|-
+| 2000–06 || Windows Embedded Compact|Windows CE 3.0 || || OpenBSD 2.7 || || Plan 9 from Bell Labs|Plan 9 Third Edition<ref>citation
+|url        = http://plan9.bell-labs.com/plan9/about.html
+|title      = Plan 9 from Bell Labs Overview
+|work       = Bell Labs
+|accessdate = 2011-11-19
+</ref>
+|-
+| 2000–07 || Windows 2000 Service Pack 1 ||  || || ||
+|-
+| 2000–08 || || || || Debian 2.2 || MorphOS 0.1<ref>citation
+|url        = http://obligement.free.fr/articles/morphos01.php
+|title      = Test de MorphOS 0.1
+|language   = French
+|first      = Alexandre
+|last       = Balaban
+|year       = 2000
+|accessdate = 2011-11-19
+</ref>
+|-
+| 2000–09 || Windows ME|Windows Millennium Edition<ref>citation
+|url        = http://www.microsoft.com/Presspass/press/2000/sept00/availabilitypr.mspx
+|title      = Microsoft Announces Immediate Availability Of Windows Millennium Edition (Windows Me)
+|work       = Microsoft News Center
+|date       = 2000-09-14
+|accessdate = 2011-11-19
+</ref> || Mac OS X Public Beta || ||SUSE Linux 7.0 ||
+|-
+| 2000–10 || || || || || z/OS<br />MorphOS 0.2
+|-
+| 2000–11 || || || || ||
+|-
+| 2000–12 || || || NetBSD 1.5<br />OpenBSD 2.8 || || AmigaOS 3.9<ref>citation
+|url        = http://www.amigahistory.co.uk/amigaos39.html
+|title      = AmigaOS 3.9 release
+|date       = 2000-12-04
+|work       = Amiga History (UK)
+|accessdate = 2012-07-22
+</ref><br />HP-UX 11i
+|-
+| 2001–01 || || || || ||  
+|-
+| 2001–02 || || || || || MorphOS 0.4<ref>citation
+|url        = http://amiga.czex.com/history/2_01e.html
+|title      = New MorphOS 0.4 Release
+|date       = 2001-02-15
+|first      = Ralph
+|last       = Schmidt
+|accessdate = 2011-11-19
+</ref>
+|-
+| 2001–03 || || Mac OS X 10.0|Mac OS X Cheetah (v10.0) || || ||
+|-
+| 2001–04 || || || || ||
+|-
+| 2001–05 || Windows 2000 Service Pack 2 || || || || IBM AIX|AIX 5L 5.1
+|-
+| 2001–06 || || || OpenBSD 2.9 || ||
+|-
+| 2001–07 || || || || || eComStation 1.0
+|-
+| 2001–08 || || || || || Haiku (operating system)|Haiku<ref>citation
+|url        = http://haiku-os.org/about/history
+|title      = Project History
+|accessdate = 2011-11-19
+</ref>
+|-
+| 2001–09 || || Mac OS X 10.1|Mac OS X Puma (v10.1) || || ||
+|-
+| 2001–10 || Pocket PC 2002<br/ >Windows XP<ref>citation
+|url        = http://www.microsoft.com/presspass/press/2001/aug01/08-24WinXPRTMPR.mspx
+|title      = Windows XP to Take the PC to New Heights
+|work       = Microsoft News Center
+|date       = 2001-08-24
+|accessdate = 2011-11-19
+</ref><br />Windows XP 64-bit Edition|Windows XP 64-bit Edition 2002<ref>cite web
+|url=http://www.microsoft.com/presspass/press/2001/may01/05-2364bitpr.mspx 
+|title=Microsoft Unveils Plans for 64-Bit Windows Platform</ref> || || || || Novell NetWare 6.0
+|-
+| 2001–11 || || || || ||
+|-
+| 2001–12 || || || OpenBSD 3.0 || || OS/2 4.52
+|-
+| 2002–01 || Windows Embedded Compact|Windows CE 4.x || || || || JX (operating system)|JX microkernel for Java<br/> Sanos microkernel<ref>cite web|url=http://www.jbox.dk/sanos/ |title=Sanos |publisher=Jbox.dk |date= |accessdate=2019-01-28</ref> for net appliances <br/>K42|K42 microkernel for NUMA machines
+|-
+| 2002–02 || || || || ||
+|-
+| 2002–03 || || || || Red Hat Enterprise Linux 2.1 AS ||
+|-
+| 2002–04 || || || || SUSE Linux 8.0 || Plan 9 from Bell Labs|Plan 9 Fourth Edition<ref>citation
+|url        = http://plan9.bell-labs.com/sys/doc/release4.html
+|title      = Plan 9 From Bell Labs Fourth Release Notes
+|date=April 2002
+|work       = Bell Labs
+|accessdate = 2011-11-19
+</ref>
+|-
+| 2002–05 || || || OpenBSD 3.1 || || Solaris (operating system)|Solaris 9 (SPARC)
+|-
+| 2002–06 || || || || ||
+|-
+| 2002–07 || || || || Debian 3.0 || Syllable Desktop|Syllable 0.4.0<ref>citation
+ |url         = http://web.syllable.org/documentation/FAQ.html
+ |title       = Frequently Asked Questions
+ |chapter     = What is the history of Syllable?
+ |chapter-url = http://web.syllable.org/documentation/FAQ.html#1_2
+ |accessdate  = 2011-11-19
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20110107003333/http://web.syllable.org/documentation/FAQ.html
+ |archivedate = January 7, 2011
+ |df          = mdy-all
+</ref>
+|-
+| 2002–08 || Windows 2000 Service Pack 3 || Mac OS X 10.2|Mac OS X Jaguar<ref>citation
+ |url         = https://www.apple.com/pr/library/2002/aug/23jaguar.html
+ |title       = Jaguar "Unleashed" at 10:20 p.m. Tonight
+ |work        = Apple Inc.
+ |date        = 2002-08-23
+ |accessdate  = 2011-11-19
+ |deadurl     = yes
+ |archiveurl  = https://web.archive.org/web/20031008122040/http://www.apple.com/macosx/
+ |archivedate = October 8, 2003
+ |df          = mdy-all
+</ref> (v10.2) || || ||
+|-
+| 2002–09 || Windows XP Service Pack 1 || || NetBSD 1.6 || ||
+|-
+| 2002–10 || || || || || IBM AIX|AIX 5.2
+|-
+| 2002–11 || || || OpenBSD 3.2 || || MorphOS 1.0
+|-
+| 2002–12 || || || || || MorphOS 1.1
+|-
+| 2003–01 || || || FreeBSD 5.0 || || Solaris (operating system)|Solaris 9 (x86) <br/>JNode<ref>http://2010.rmll.info/IMG/pdf/LSM2010-OS-JNode-2.pdf</ref> – JavaOS successor
+|-
+| 2003–02 || || || || || MorphOS 1.2<br />ReactOS 0.1.0
+|-
+| 2003–03 || Windows XP 64-bit Edition|Windows XP 64-bit Edition 2003<ref>citation
+|url        = http://www.microsoft.com/presspass/press/2003/mar03/03-28WinXP64BitPR.mspx
+|title      = Windows XP 64-bit Edition for Itanium systems, Version 2003 Press release
+|work       = Microsoft News Center
+|date       = 2003-03-28
+|accessdate = 2011-11-19
+</ref> || || || || MorphOS 1.3
+|-
+| 2003–04 || Windows Server 2003 || || || ||
+|-
+| 2003–05 || || || OpenBSD 3.3 || Red Hat Enterprise Linux 2.1 ES ||
+|-
+| 2003–06 || Windows 2000 Service Pack 4<br/ >Windows Mobile 2003 || || || || OpenVMS 8.0
+|-
+| 2003–07 || || || || ||
+|-
+| 2003–08 || || || || || Novell NetWare 6.5<br />MorphOS 1.4
+|-
+| 2003–09 || || || || || HP-UX 11i v2
+|-
+| 2003–10 || || Mac OS X Panther (v10.3) || || Red Hat Enterprise Linux 3<br />SUSE Linux 9.0 ||
+|-
+| 2003–11 || || || OpenBSD 3.4 || Fedora (operating system)|Fedora Core 1 ||
+|-
+| 2003–12 || || || || Linux kernel|Linux 2.6.0<ref>citation
+|url        = https://www.kernel.org/pub/linux/kernel/v2.6/
+|title      = Kernel.org archive
+|accessdate = 2011-11-19
+</ref> ||
+|-
+| 2004–01 || || || || Linux kernel|Linux 2.6.1 || ReactOS 0.2.0
+|-
+| 2004–02 || || || || Linux kernel|Linux 2.6.2, 2.6.3 ||
+|-
+| 2004–03 || || || || Linux kernel|Linux 2.6.4 || ReactOS 0.2.1
+|-
+| 2004–04 || || || || Linux kernel|Linux 2.6.5 || ReactOS 0.2.2
+|-
+| 2004–05 || || || OpenBSD 3.5 || Linux kernel|Linux 2.6.6<br />Fedora (operating system)|Fedora Core 2 ||
+|-
+| 2004–06 || || || || || ReactOS 0.2.3
+|-
+| 2004–07 || || || DragonFly BSD 1.0 || ||
+|-
+| 2004–08 || Windows Embedded Compact|Windows CE 5.x<br/ >Windows XP Service Pack 2 || || || Linux kernel|Linux 2.6.8 || IBM AIX|AIX 5.3
+|-
+| 2004–09 || || || || || ReactOS 0.2.4
+|-
+| 2004–10 || || || || Linux kernel|Linux 2.6.9<br />Ubuntu 4.10 ||
+|-
+| 2004–11 || || || OpenBSD 3.6 || Fedora (operating system)|Fedora Core 3 ||
+|-
+| 2004–12 || || || NetBSD 2.0 || Linux kernel|Linux 2.6.10 ||
+|-
+| 2005–01 || || || || || Solaris (operating system)|Solaris 10 <br />ReactOS 0.2.5
+|-
+| 2005–02 || || || || Red Hat Enterprise Linux 4 || OpenVMS 8.2
+|-
+| 2005–03 || Windows Server 2003 Service Pack 1<br />Windows XP Professional x64 Edition || || || Linux kernel|Linux 2.6.11<br />Novell Open Enterprise Server  ||  MorphOS 1.4.4
+|-
+| 2005–04 || || Mac OS X Tiger (v10.4) || DragonFly BSD 1.2 || Ubuntu 5.04 || ReactOS 0.2.6<br />MorphOS 1.4.5
+|-
+| 2005–05 || Windows Mobile 5.0 || || OpenBSD 3.7 || ||
+|-
+| 2005–06 || || || || Linux kernel|Linux 2.6.12<br />Fedora (operating system)|Fedora Core 4<br />Debian 3.1 ||
+|-
+| 2005–07 || || || || ||
+|-
+| 2005–08 || || || || Linux kernel|Linux 2.6.13 || ReactOS 0.2.7<br />MorphOS 1.4.5 Classic
+|-
+| 2005–09 || || || || ||
+|-
+| 2005–10 || || || || Linux kernel|Linux 2.6.14<br />Ubuntu 5.10<br />SUSE Linux 10.0 || ReactOS 0.2.8
+|-
+| 2005–11 || || || FreeBSD 6.0<br />OpenBSD 3.8 || ||
+|-
+| 2005–12 || || || NetBSD 3.0 || || ReactOS 0.2.9
+|-
+| 2006–01 || || || DragonFly BSD 1.4 || Linux kernel|Linux 2.6.15 || Solaris (operating system)|Solaris 10 1/06
+|-
+| 2006–02 || || || || ||
+|-
+| 2006–03 || Windows Server 2003 R2 || || || Linux kernel|Linux 2.6.16<br />Fedora (operating system)|Fedora Core 5 ||
+|-
+| 2006–04 || || || || ||
+|-
+| 2006–05 || || || OpenBSD 3.9 || || SymbOS<br />MINIX 3.1.2
+|-
+| 2006–06 || || || || Linux kernel|Linux 2.6.17<br />Ubuntu 6.06 (LTS) || Solaris (operating system)|Solaris 10 6/06
+|-
+| 2006–07 || || || DragonFly BSD 1.6 || ||
+|-
+| 2006–08 || || || || || BS2000|BS2000/OSD v7.0<ref>citation
+|url        = http://www.hoise.com/primeur/06/articles/contentsmonthly200608.html
+|title      = News digest August 2006
+|date=August 2006
+|accessdate = 2011-11-19
+</ref><br />ReactOS 0.3.0
+|-
+| 2006–09 || Windows Embedded Compact|Windows CE 6.0 || || || Linux kernel|Linux 2.6.18 || FreeDOS 1.0<br />OpenVMS8.3
+|-
+| 2006–10 || || || || Fedora (operating system)|Fedora Core 6<br />Ubuntu 6.10<br />Slackware 11.0 ||
+|-
+| 2006–11 || Windows Vista || || OpenBSD 4.0 || Linux kernel|Linux 2.6.19 || AmigaOS 4|AmigaOS 4.0<br />Solaris (operating system)|Solaris 10 11/06
+|-
+| 2006–12 || || || || ||
+|-
+| 2007–01 || || || DragonFly BSD 1.8 || Bharat Operating System Solutions ||
+|-
+| 2007–02 || Windows Mobile 6.0 || || || Linux kernel|Linux 2.6.20 || Inferno (operating system)|Inferno Fourth Edition
+|-
+| 2007–03 || Windows Server 2003 Service Pack 2 || || || Red Hat Enterprise Linux 5 || ReactOS 0.3.1
+|-
+| 2007–04 || || || || Linux kernel|Linux 2.6.21<br />Ubuntu 7.04<br />Debian 4.0 ||
+|-
+| 2007–05 || || iPhone OS 1
+|| OpenBSD 4.1 || Fedora (operating system)|Fedora 7 ||
+|-
+| 2007–06 || || || || ||
+|-
+| 2007–07 || || || || Linux kernel|Linux 2.6.22<br />Slackware 12.0 ||
+|-
+| 2007–08 || || || DragonFly BSD 1.10 || || Solaris (operating system)|Solaris 10 8/07
+|-
+| 2007–09 || || iPhone OS 1.1 || || || HP-UX 11i v3 <br />ReactOS 0.3.3
+|-
+| 2007–10 || || Mac OS X Leopard (v10.5) || || Linux kernel|Linux 2.6.23<br />Ubuntu 7.10 || OpenVMS 8.3-1H1
+|-
+| 2007–11 || Windows Home Server || || OpenBSD 4.2 || Fedora (operating system)|Fedora 8<br />gOS (operating system)|gOS || IBM AIX|AIX 6.1, 
+|-
+| 2007–12 || || || NetBSD 4.0 || ||
+|-
+| 2008–01 || || || || Linux kernel|Linux 2.6.24 || ReactOS 0.3.4
+|-
+| 2008–02 || Windows Vista Service Pack 1<br />Windows Server 2008 || || DragonFly BSD 1.12<br />FreeBSD 7.0 || ||
+|-
+| 2008–03 || || || || || Singularity (operating system)|Singularity 1.1
+|-
+| 2008–04 || Windows Mobile 6.1<br/>Windows XP Service Pack 3 || || || Linux kernel|Linux 2.6.25<br />Ubuntu 8.04 (LTS) ||
+|-
+| 2008–05 || || || OpenBSD 4.3 || Fedora (operating system)|Fedora 9<br />Slackware 12.1 || Solaris (operating system)|Solaris 10 5/08<br />OpenSolaris 2008.05<br />BS2000|BS2000/OSD v8.0A
+|-
+| 2008–06 || || || || SUSE Linux 11.0 || MorphOS 2.0<br/> ReactOS 0.3.5
+|-
+| 2008–07 || || iPhone OS 2 || DragonFly BSD 2.0 || Linux kernel|Linux 2.6.26 ||
+|-
+| 2008–08 || || || || || XTS-400|STOP 6.5<br />ReactOS 0.3.6
+|-
+| 2008–09 || || iPhone OS 2.1 || || || AmigaOS 4.1<br />z/OS V1R10<br />MorphOS 2.1
+|-
+| 2008–10 || || || || Linux kernel|Linux 2.6.27<br />Ubuntu 8.10<br />Android (operating system)|Android 1.0 || Solaris (operating system)|Solaris 10 10/08<br /> Open Kernel Labs|OKL4 3.0
+|-
+| 2008–11 || || iPhone OS 2.2 || OpenBSD 4.4 || Fedora (operating system)|Fedora 10 || Singularity (operating system)|Singularity 2.0<br />ReactOS 0.3.7<br />Genode 8.11<ref>cite web|url=https://genode.org/documentation/release-notes/8.11|title=Release notes for the Genode OS Framework 8.11</ref>
+|-
+| 2008–12 || || || || Linux kernel|Linux 2.6.28<br />Slackware 12.2 || MorphOS 2.2<br />OpenSolaris 2008.11
+|-
+| 2009–01 || || || || ||
+|-
+| 2009–02 || || || DragonFly BSD 2.2 || Debian 5.0<br />Android (operating system)|Android 1.1 || ReactOS 0.3.8
+|-
+| 2009–03 || || || || Linux kernel|Linux 2.6.29 ||
+|-
+| 2009–04 || || || NetBSD 5.0 || Ubuntu 9.04<br />Android (operating system)|Android 1.5 || ReactOS 0.3.9
+|-
+| 2009–05 || Windows Mobile 6.5<br/ >Windows Vista Service Pack 2 || || OpenBSD 4.5 || || Solaris (operating system)|Solaris 10 5/09
+|-
+| 2009–06 || || iPhone OS 3
+|| || Linux kernel|Linux 2.6.30<br />Fedora (operating system)|Fedora 11 <br />webOS|Palm webOS 1 || AmigaOS 4.1<br />OpenSolaris 2009.06
+|-
+| 2009–07 || || || || ||ReactOS 0.3.10
+|-
+| 2009–08 || || Mac OS X Snow Leopard (v10.6) || || Slackware 13.0 || MorphOS 2.3
+|-
+| 2009–09 || || iPhone OS 3.1 || DragonFly BSD 2.4 || Linux kernel|Linux 2.6.31<br />Android (operating system)|Android 1.6 || 
+|-
+| 2009–10 || Windows 7<br />Windows Server 2008 R2 || || OpenBSD 4.6 || Ubuntu 9.10<br />Android (operating system)|Android 2.0 || Solaris (operating system)|Solaris 10 10/09<br />MorphOS 2.4
+|-
+| 2009–11 || || || FreeBSD 8.0 || Fedora (operating system)|Fedora 12<br />openSUSE 11.2 ||
+|-
+| 2009–12 || || || || Linux kernel|Linux 2.6.32 || ReactOS 0.3.11
+|}
+
+2010s
+{| class="wikitable sortable"
+|-
+! Year–month || Microsoft Windows|Windows || Apple Inc.|Apple || Berkeley Software Distribution|BSD || Linux || Others
+|-
+| 2010–01 || || || ||Android (operating system)|Android 2.1 || AmigaOS 4|AmigaOS 4.1 Upd. 1
+|-
+| 2010–02 || || || || Linux kernel|Linux 2.6.33 ||
+|-
+| 2010–03 || || || || ||
+|-
+| 2010–04 || || iPhone OS 3.2 || DragonFly BSD 2.6 || Ubuntu 10.04 (LTS) || AmigaOS 4#AmigaOS 4.1 Update 2|AmigaOS 4.1 Upd. 2
+|-
+| 2010–05 || || || OpenBSD 4.7 || Linux kernel|Linux 2.6.34<br />Fedora (operating system)|Fedora 13<br />Android (operating system)|Android 2.2 || 
+|-
+| 2010–06 || || iOS 4 || || || MorphOS 2.5<br />OpenVMS 8.4
+|-
+| 2010–07 || || || || openSUSE 11.3 ||
+|-
+| 2010–08 || || || || Linux kernel|Linux 2.6.35 ||
+|-
+| 2010–09 || || iOS 4.1 || || ||Solaris (operating system)|Solaris 10 9/10<br /> AIX 7.1
+|-
+| 2010–10 ||Windows Phone 7|| || DragonFly BSD 2.8 || Linux kernel|Linux 2.6.36<br />Fedora (operating system)|Fedora 14<br />Ubuntu 10.10 || MorphOS 2.6<br />ReactOS 0.3.12
+|-
+| 2010–11 || || iOS 4.2 || NetBSD 5.1<br />OpenBSD 4.8 || Red Hat Enterprise Linux 6 || 
+|-
+| 2010–12 || || || || Android (operating system)|Android 2.3 ||MorphOS 2.7
+|-
+| 2011–01 || || || || Linux kernel|Linux 2.6.37 ||
+|-
+| 2011–02 || Windows 7 Service Pack 1 || || || Debian 6.0<br /> Android (operating system)|Android 3.0 ||
+|-
+| 2011–03 || Windows Embedded Compact|Windows CE 7.0 || iOS 4.3 || || Linux kernel|Linux 2.6.38<br />openSUSE 11.4 || ReactOS 0.3.13
+|-
+| 2011–04 || Windows Home Server 2011 || || DragonFly BSD 2.10 || Ubuntu 11.04 <br /> Slackware 13.37|| 
+|-
+| 2011–05 || || || OpenBSD 4.9 || Linux kernel|Linux 2.6.39<br />Fedora (operating system)|Fedora 15<br />Android (operating system)|Android 3.1 || AmigaOS 4|AmigaOS 4.1 Upd. 1 (for Classic)
+|-
+| 2011–06 || || iOS 5 || || Google Chrome OS (first shipped) || 9front
+|-
+| 2011–07 || || Mac OS X v10.7|Mac OS X Lion (v10.7) || || Linux kernel|Linux 3.0<br /> Android (operating system)|Android 3.2 <br />webOS|HP webOS 3 || AmigaOS 4|AmigaOS 4.1 Upd. 3
+|-
+| 2011–08 || || || || ||
+|-
+| 2011–09 ||Windows Phone 7.5|| || || ||
+|-
+| 2011–10 || || || || Linux kernel|Linux 3.1<br />Ubuntu 11.10<br />Android (operating system)|Android 4.0 || 
+|-
+| 2011–11 || || || OpenBSD 5.0 || Fedora (operating system)|Fedora 16<br />openSUSE 12.1 || BS2000|BS2000/OSD 9.0 <br />Solaris (operating system)|Solaris 11 11/11
+|-
+| 2011–12 || || || || ||AmigaOS 4|AmigaOS 4.1 Upd. 4
+|-
+| 2012–01 || || || FreeBSD 9.0 || Linux kernel|Linux 3.2 || FreeDOS 1.1
+|-
+| 2012–02 || || || DragonFly BSD 3.0 || || ReactOS 0.3.14<br />Minix 3.2
+|-
+| 2012–03 || || iOS 5.1 || || Linux kernel|Linux 3.3<br /> Android (operating system)|Android 4.0.4|| 
+|-
+| 2012–04 || || || || Ubuntu (operating system)|Ubuntu 12.04 (LTS) ||
+|-
+| 2012–05 || || || OpenBSD 5.1 || Linux kernel|Linux 3.4<br /> Fedora (operating system)|Fedora 17 || DexOS
+|-
+| 2012–06 || || || || || MorphOS 3.0
+|-
+| 2012–07 || || OS X Mountain Lion (v10.8) || || Linux kernel|Linux 3.5<br />Android (operating system)|Android 4.1<br /> openSUSE 12.2 || MorphOS 3.1<br />AmigaOS 4|AmigaOS 4.1 Upd. 5
+|-
+| 2012–08 || || || || ||
+|-
+| 2012–09 || Windows Server 2012 || iOS 6 || || Linux kernel|Linux 3.6<br /> Slackware 14.0<br/> QubesOS|| 
+|-
+| 2012–10 || Windows 8<br />Windows Phone 8 || || NetBSD 6.0<br />OpenBSD 5.2 || Ubuntu (operating system)|Ubuntu 12.10 || Solaris (operating system)|Solaris 11.1
+|-
+| 2012–11 || || || DragonFly BSD 3.2 || Android (operating system)|Android 4.2 || Haiku (operating system)|Haiku R1 Alpha 4
+|-
+| 2012–12 || || || FreeBSD 9.1 || || 
+|-
+| 2013-01 || || iOS 6.1 || || Fedora (operating system)|Fedora 18 || BlackBerry 10<br />Solaris (operating system)|Solaris 10 1/13
+|-
+| 2013-02 || Windows Phone 7.8 || || || || 
+|-
+| 2013-03 || || || || openSUSE 12.3 ||
+|-
+| 2013-04 || || || DragonFly BSD 3.4 || Linux kernel|Linux 3.9<br />Ubuntu (operating system)|Ubuntu 13.04 ||
+|-
+| 2013-05 || || || NetBSD 6.1<br />OpenBSD 5.3 || Debian 7.0 || ReactOS 0.3.15<br />MorphOS 3.2
+|-
+| 2013-06 || Windows Embedded Compact|Windows CE 8.0 (2013) || || || Linux kernel|Linux 3.10 ||
+|-
+| 2013-07 || || || || Fedora (operating system)|Fedora 19<br />Android (operating system)|Android 4.3 ||
+|-
+| 2013-08 || || || || ||
+|-
+| 2013-09 || || iOS 7 || FreeBSD 9.2 || Linux kernel|Linux 3.11 || MorphOS 3.3<br />z/OS Version 2.1
+|-
+| 2013-10 || Windows 8.1<br />Windows Server 2012 R2 || OS X Mavericks (v10.9) || || Ubuntu (operating system)|Ubuntu 13.10 ||
+|-
+| 2013-11 || || || DragonFly BSD 3.6<br />OpenBSD 5.4 || Fedora (operating system)|Fedora 19<br />Slackware 14.1<br />openSUSE 13.1 <br />Android (operating system)|Android 4.4<br />Linux kernel|Linux 3.12 ||
+|-
+| 2013-12 || || || || Fedora (operating system)|Fedora 20 || MorphOS 3.4 <br/> Muen<ref>cite web|author=Muen SK |url=https://muen.codelabs.ch/ |title=Muen &#124; SK for x86/64 |publisher=Muen.codelabs.ch |date= |accessdate=2019-01-28</ref> separation kernel
+|-
+| 2014-01 || || || FreeBSD 10.0 || Linux kernel|Linux 3.13 ||
+|-
+| 2014-02 || || || || || ReactOS 0.3.16<br />MorphOS 3.5
+|-
+| 2014-03 || || iOS 7.1 || || Linux kernel|Linux 3.14 ||
+|-
+| 2014-04 ||Windows Phone 8.1|| || || Ubuntu (operating system)|Ubuntu 14.04 (LTS) || Solaris (operating system)|Solaris 11.2
+|-
+| 2014-05 || || || OpenBSD 5.5 || ||
+|-
+| 2014-06 || || || DragonFly BSD 3.8 || Linux kernel|Linux 3.15 <br />Red Hat Enterprise Linux#RHEL 7|Red Hat Enterprise Linux 7|| MorphOS 3.6
+|-
+| 2014-07 || || || || ||
+|-
+| 2014-08 || || || || Linux kernel|Linux 3.16 || MorphOS 3.7
+|-
+| 2014-09 || || iOS 8 || || || Minix 3.3
+|-
+| 2014-10 || || OS X Yosemite (v10.10)<br />iOS 8.1 || ||Ubuntu (operating system)|Ubuntu 14.10 <br/>Linux kernel|Linux 3.17 ||
+|-
+| 2014-11 || || || OpenBSD 5.6<br />FreeBSD 10.1<br />DragonFly BSD 4.0 || openSUSE 13.2 <br />Android (operating system)|Android 5.0 ||ReactOS 0.3.17
+|-
+| 2014-12 || || || || Linux kernel|Linux 3.18 ||
+|-
+| 2015-01 || || || || ||
+|-
+| 2015-02 || || || || Linux kernel|Linux 3.19 ||
+|-
+| 2015-03 || || iOS 8.2 || || ||
+|-
+| 2015-04 || || iOS 8.3<br />WatchOS 1|watchOS 1 || || Linux kernel|Linux 4.0<br />Debian 8.0<br />Ubuntu (operating system)|Ubuntu 15.04|| Redox (operating system)|Redox OS
+|-
+|| 2015-05 || || || || ||
+|-
+|| 2015-06 || || iOS 8.4 || || Linux kernel|Linux 4.1 || MorphOS 3.9
+|-
+| 2015-07 || Windows 10 (1507) || || || ||
+|-
+| 2015-08 || || || |FreeBSD 10.2 || Linux kernel|Linux 4.2 ||
+|-
+| 2015-09 || || OS X El Capitan (v10.11)<br />iOS 9<br />WatchOS#watchOS 2.x|watchOS 2 ||NetBSD 7.0
+|  || z/OS Version 2.2 <ref>cite web|url=http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ca&infotype=an&supplier=897&letternum=ENUS215-267#availx |title=IBM z/OS Version 2 Release 2 Announcement Letter | date=28 July 2015 | accessdate=2015-08-23</ref>
+|-
+|| 2015-10 || || iOS 9.1<br/ >tvOS9 || || Android (operating system)|Android 6.0<br/>Ubuntu (operating system)|Ubuntu 15.10 ||AIX 7.2 <ref>cite web|url=http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS215-393&appname=USN |title=IBM AIX 7.2 delivers the reliability, availability, performance, and security needed to be successful in the new global economy |publisher=01.ibm.com |date= |accessdate=2019-01-28</ref> <br> Solaris 11.3 <ref>cite web|url=https://docs.oracle.com/cd/E53394_01/html/E54847/index.html |title=What's New in Oracle® Solaris 11.3 |publisher=Docs.oracle.com |date=2017-10-03 |accessdate=2019-01-28</ref>
+|-
+|| 2015-11 ||Windows 10 November Update (1511)<br />Windows 10 Mobile (1511)|| tvOS9.1 || || Linux kernel|Linux 4.3<br />openSUSE Leap 42.1 ||
+|-
+|| 2015-12 || || iOS 9.2<br />WatchOS#watchOS 2.x|watchOS 2.1<br/ >tvOS9.2 || || ||
+|-
+|| 2016-01 || || || || Linux kernel|Linux 4.4 ||Minix 3.4
+|-
+|| 2016-02 || || || || ||ReactOS 0.4
+|-
+|| 2016-03 || || iOS 9.3<br />WatchOS#watchOS 2.x|watchOS 2.2<br/ >tvOS9.3 || OpenBSD 5.9<br />FreeBSD 10.3 || Linux kernel|Linux 4.5 ||
+|-
+|| 2016-04 || || || || Ubuntu (operating system)|Ubuntu 16.04 ||ReactOS 0.4.1
+|-
+|| 2016-05 || || || ||Linux kernel|Linux 4.6||
+|-
+|| 2016-06 || || || || Slackware 14.2<br />Fedora (operating system)|Fedora 24<br />Linux Mint 18 || 
+|-
+|| 2016-07 || || || || Linux kernel|Linux 4.7 ||
+|-
+|| 2016-08 || Windows 10 Anniversary Update (1607)<br />Windows 10 Mobile Anniversary Update (1607) || || DragonFly BSD 4.6 || Android (operating system)|Android 7.0<br/> || ReactOS 0.4.2
+|-
+|| 2016-09 || Windows Server 2016 (1607) || macOS Sierra (v10.12)<br />iOS 10<br />WatchOS#watchOS 3.x|watchOS 3<br/ >tvOS10 || OpenBSD 6.0 || Linux kernel|Linux 4.8||
+|-
+|| 2016-10 || || iOS 10.1<br />WatchOS#watchOS 3.x|watchOS 3.1 ||NetBSD 7.0.2<br />FreeBSD 11.0 ||Android (operating system)|Android 7.1<br />Ubuntu (operating system)|Ubuntu 16.10 ||
+|-
+|| 2016-11 || || || || Oracle Linux 7.3<br />Fedora (operating system)|Fedora 25<br />openSUSE Leap 42.2 || ReactOS 0.4.3
+|-
+|| 2016-12 || || iOS 10.2<br/ >tvOS10.1 || || Linux kernel|Linux 4.9<br />Linux Mint 18.1 || FreeDOS 1.2
+|-
+|| 2017-01 || || || || ||
+|-
+|| 2017-02 || || || || Linux kernel|Linux 4.10 || ReactOS 0.4.4
+|-
+|| 2017-03 || || iOS 10.3<br />WatchOS#watchOS 3.x|watchOS 3.2<br/ >tvOS10.2 || DragonFly BSD 4.8<br />NetBSD 7.1 || ||
+|-
+|| 2017-04 || Windows 10 Creators Update (1703)<br />Windows 10 Mobile Creators Update (1703) || || OpenBSD 6.1 || Linux kernel|Linux 4.11<br />Ubuntu (operating system)|Ubuntu 17.04 ||
+|-
+|| 2017-05 || || || || || ReactOS 0.4.5
+|-
+|| 2017-06 || || || ||Fedora (operating system)|Fedora 26
+|
+|-
+|| 2017-07 || || || || Linux kernel|Linux 4.12<br />openSUSE Leap 42.3 ||
+|-
+|| 2017-08 || || || || Android (operating system)|Android 8.0 ||
+|-
+|| 2017-09 || || macOS High Sierra (v10.13)<br/ >iOS 11<br />WatchOS#watchOS 4.x|watchOS 4<br/ >tvOS11 || || Linux kernel|Linux 4.13 ||
+|-
+|| 2017-10 || Windows 10 Fall Creators Update (1709)<br />Windows 10 Mobile Fall Creators Update (1709)<br/ >Windows Server 2016 Fall Creators Update (1709)
+| iOS 11.1<br />WatchOS#watchOS 4.x|watchOS 4.1<br/ >tvOS11.1 || OpenBSD 6.2
+DragonFly BSD 5.0
+| Ubuntu (operating system)|Ubuntu 17.10 ||
+|-
+|| 2017-11 || || || || Linux kernel|Linux 4.14
+Fedora (operating system)|Fedora 27
+|
+|-
+|| 2017-12 || || iOS 11.2<br />WatchOS#watchOS 4.x|watchOS 4.2<br/ >tvOS11.2 || || Android (operating system)|Android 8.1 ||
+|-
+|| 2018-01 || || || || Linux kernel|Linux 4.15
+|
+|-
+|| 2018-02 || || || || ||
+|-
+|| 2018-03 || || iOS 11.3<br />WatchOS#watchOS 4.x|watchOS 4.3<br/ >tvOS11.3 ||NetBSD 7.1.2
+|  || Genode Sculpt EA
+|-
+|| 2018-04 || Windows 10 April 2018 Update (1803) || || OpenBSD 6.3
+
+DragonFly BSD 5.2
+| Linux kernel|Linux 4.16<br />Ubuntu (operating system)|Ubuntu 18.04 (LTS)
+|
+|-
+|| 2018-05 || || iOS 11.4<br />tvOS11.4 || ||Fedora (operating system)|Fedora 28
+|
+|-
+|| 2018-06 || || || || Linux kernel|Linux 4.17 || Genode Sculpt TC
+|-
+|2018-07
+|
+|
+|NetBSD 8.0
+|
+|
+|-
+|2018-08
+|
+|
+|NetBSD 7.2
+|Linux kernel|Linux 4.18<br />Android (operating system)|Android 9.0
+|
+|-
+|2018-09
+|
+|macOS Mojave (v10.14)<br/ >iOS 12<br />WatchOS#watchOS 5.x|watchOS 5<br/ >tvOS12
+|
+|
+|Genode Sculpt VC<ref>cite web|url=https://genode.org/news/sculpt-with-visual-composition|title=Sculpt with Visual Composition</ref>
+|-
+|2018-10
+|Windows 10 October 2018 Update (1809)<br />Windows Server 2019 (1809)
+|iOS 12.1<br />WatchOS#watchOS 5.x|watchOS 5.1<br/ >tvOS12.1
+|OpenBSD 6.4
+|Linux kernel|Linux 4.19<br />Ubuntu (operating system)|Ubuntu 18.10
+Fedora (operating system)|Fedora 29
+|
+|-
+|2018-11
+|
+|
+|
+|
+|
+|-
+|2018-12
+|
+|
+|DragonFly BSD 5.4
+FreeBSD 12.0
+|Linux kernel|Linux 4.20
+|
+|-
+|2019-1
+|
+|
+|
+|
+|
+|}
+
+See also
+* Comparison of operating systems
+* List of operating systems
+* Comparison of real-time operating systems
+* Timeline of DOS operating systems
+* :File:Gldt1009.svg|Timeline of Linux distributions (Diagram 1992–2010)
+
+=Category links=
+* :Category:Operating systems|Operating systems
+* :Category:Real-time operating systems|Real-time operating systems
+* :Category:Embedded operating systems|Embedded operating systems
+
+References
+Reflist|2
+
+External links
+* http://www.levenez.com/unix/ – a timeline of Unix|UNIX 1969 and its descendants at present
+* [http://bravotech.us/info/msos-timeline.htm Concise Microsoft O.S. Timeline] – a color-coded concise timeline for various Microsoft operating systems (1981–present)
+* [http://www.bitsavers.org/ Bitsavers] – an effort to capture, salvage, and archive historical computer software and manuals from minicomputers and mainframes of the 1950s, 1960s, 1970s, and 1980s
+* [http://www.cs.uiowa.edu/~jones/opsys/notes/03.shtml A brief history of operating systems]
+* [http://www.guidebookgallery.org/timelines/windows Microsoft operating system time-line]
+
+Category:Operating systems|*Timeline of operating systems
+Category:Computing timelines|Operating systems

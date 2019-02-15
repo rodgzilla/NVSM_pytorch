@@ -1,0 +1,107 @@
+Other uses|Dominance (disambiguation)!Dominance
+Stochastic dominance is a Partially ordered set|partial order between random variables.<ref name="HadarRussell1969">cite journal |last=Hadar |first=J. |last2=Russell |first2=W. |title=Rules for Ordering Uncertain Prospects |journal=American Economic Review |volume=59 |issue=1 |year=1969 |pages=25–34 |jstor=1811090 </ref><ref>cite journal |last=Bawa |first=Vijay S. |title=Optimal Rules for Ordering Uncertain Prospects |journal=Journal of Financial Economics |volume=2 |issue=1 |year=1975 |pages=95–121 |doi=10.1016/0304-405X(75)90025-2 </ref> It is a form of stochastic ordering. The concept arises in decision theory and decision analysis in situations where one gamble (a probability distribution over possible outcomes, also known as prospects) can be ranked as superior to another gamble for a broad class of decision-makers. It is based on shared preference (economics)|preferences regarding sets of possible outcomes and their associated probabilities. Only limited knowledge of preferences is required for determining dominance.  Risk aversion is a factor only in second order stochastic dominance.
+
+Stochastic dominance does not give a total order, but rather only a partial order: for some pairs of gambles, neither one stochastically dominates the other, since different members of the broad class of decision-makers will differ regarding which gamble is preferable without them generally being considered to be equally attractive.
+
+Statewise dominance
+
+The simplest case  of stochastic dominance is statewise dominance (also known as state-by-state dominance), defined as follows:
+
+: Gamble A is statewise dominant over gamble B if A gives at least as good a result in every state (every possible set of outcomes), and a strictly better result in at least one state.
+
+For example, if a dollar is added to one or more prizes in a lottery, the new lottery statewise dominates the old one because it yields a better payout regardless of the specific numbers realized by the lottery. Similarly, if a risk insurance policy has a lower premium and a better coverage than another policy, then with or without damage, the outcome is better. Anyone who prefers more to less (in the standard terminology, anyone who has monotonically increasing preferences) will always prefer a statewise dominant gamble.
+
+First-order
+
+Statewise dominance is a special case of the canonical  first-order stochastic dominance (FSD).<ref>cite journal | last1 = Quirk | first1 = J. P. | last2 = Saposnik | first2 = R. | year = 1962 | title = Admissibility and Measurable Utility Functions | url = | journal = Review of Economic Studies | volume = 29 | issue = 2 | pages = 140–146 | doi=10.2307/2295819</ref> FSD is defined as follows:
+
+: Gamble A has first-order stochastic dominance over gamble B if for any outcome ''x'', A gives at least as high a probability of receiving at least ''x'' as does B, and for some ''x'', A gives a higher probability of receiving at least ''x''. In notation form, <math>P [A \ge x]\ge P [B \ge x]</math> for all ''x'', and for some ''x'', <math>P[A \ge x]>P[B \ge x]</math>.
+
+In terms of the cumulative distribution functions of the two gambles, A dominating B means that <math>F_A(x) \le F_B(x)</math> for all ''x'', with strict inequality at some&nbsp;''x''.
+
+Gamble A first-order stochastically dominates gamble B if and only if every expected utility hypothesis|expected utility maximizer with an increasing utility|utility function prefers gamble A over gamble B.
+
+First-order stochastic dominance can also be expressed as follows: If and only if A first-order stochastically dominates B, there exists some gamble <math>y</math> such that <math>x_B \overset {d}{=} (x_A+y)</math> where <math>y\le 0</math> in all possible states (and strictly negative in at least one state); here <math>\overset{d}{=}</math> means "Random variable#Equality in distribution|is equal in distribution to" (that is, "has the same distribution as").  Thus, we can go from the graphed density function of A to that of B by, roughly speaking, pushing some of the probability mass to the left.
+
+For example, consider a single toss of a fair die with the six possible outcomes (states) summarized in this table along with the amount won in each state by each of three alternative gambles:
+
+: <math>
+\begin{array}{rcccccc}
+\text{State (die result)} & 1 & 2 & 3 & 4 & 5 & 6 \\
+\hline
+\text{Gamble A wins }\$ & 1 & 1 & 2 & 2 & 2 & 2 \\
+\text{Gamble B wins }\$ & 1 & 1 & 1 & 2 & 2 & 2 \\
+\text{Gamble C wins }\$ & 3 & 3 & 3 & 1 & 1 & 1 \\
+\hline
+\end{array}
+</math>
+
+Here gamble A statewise dominates gamble B because A gives at least as good a yield in all possible states (outcomes of the die roll) and gives a strictly better yield in one of them (state 3). Since A statewise dominates B, it also first-order dominates B. Gamble C does not statewise dominate B because B gives a better yield in states 4 through 6, but C first-order stochastically dominates B because Pr(B ≥ 1) = Pr(C ≥ 1) = 1, Pr(B ≥ 2) = Pr(C ≥ 2) = 3/6, and Pr(B ≥ 3) = 0 while Pr(C ≥ 3) = 3/6 > Pr(B ≥ 3). Gambles A and C cannot be ordered relative to each other on the basis of first-order stochastic dominance because Pr(A ≥ 2) = 4/6 > Pr(C ≥ 2) = 3/6 while on the other hand Pr(C ≥ 3) = 3/6 > Pr(A ≥ 3) = 0.
+
+In general, although when one gamble first-order stochastically dominates a second gamble, the expected value of the payoff under the first will be greater than the expected value of the payoff under the second, the converse is not true: one cannot order lotteries with regard to stochastic dominance simply by comparing the means of their probability distributions. For instance, in the above example C has a higher mean (2) than does A (5/3), yet C does not first-order dominate A.
+
+Second-order
+
+The other commonly used type of stochastic dominance is second-order stochastic dominance.<ref name="HadarRussell1969" /><ref>cite journal | last1 = Hanoch | first1 = G. | last2 = Levy | first2 = H. | year = 1969 | title = The Efficiency Analysis of Choices Involving Risk | url = | journal = Review of Economic Studies | volume = 36 | issue = | pages = 335–346 | doi=10.2307/2296431</ref><ref>cite journal | last1 = Rothschild | first1 = M. |authorlink=Michael Rothschild | last2 = Stiglitz | first2 = J. E. |authorlink2=Joseph Stiglitz | year = 1970 | title = Increasing Risk: I. A Definition | journal = Journal of Economic Theory | volume = 2 | issue = 3 | pages = 225–243 |doi=10.1016/0022-0531(70)90038-4 </ref> Roughly speaking, for two gambles A and B, gamble A has second-order stochastic dominance over gamble B if the former is more predictable (i.e. involves less risk) and has at least as high a mean.  All risk aversion|risk-averse Expected utility hypothesis|expected-utility maximizers (that is, those with increasing and concave utility functions) prefer a second-order stochastically dominant gamble to a dominated one. Second-order dominance describes the shared preferences of a smaller class of decision-makers (those for whom more is better ''and'' who are averse to risk, rather than ''all'' those for whom more is better) than does first-order dominance.
+
+In terms of cumulative distribution functions <math>F_A</math> and <math>F_B</math>, A is second-order stochastically dominant over B if and only if the area under <math>F_A</math> from minus infinity to <math>x</math> is less than or equal to that under <math>F_B</math> from minus infinity to <math>x</math> for all real numbers <math>x</math>, with strict inequality at some <math>x</math>; that is, <math>\int_{-\infty}^x [F_B(t) - F_A(t)] \, dt \geq 0</math> for all <math>x</math>, with strict inequality at some <math>x</math>. Equivalently, <math>A</math> dominates <math>B</math> in the second order if and only if <math>\operatorname{E}[u(A)] \geq \operatorname{E}[u(B)]</math> for all nondecreasing and concave function|concave utility functions <math>u(x)</math>.
+
+Second-order stochastic dominance can also be expressed as follows: Gamble A second-order stochastically dominates B if and only if there exist some gambles <math>y</math> and <math>z</math> such that  <math>x_B \overset {d}{=} (x_A + y + z)</math>, with <math>y</math> always less than or equal to zero, and with <math>\operatorname{E}(z\mid x_A+y)=0</math> for all values of <math>x_A+y</math>. Here the introduction of random variable <math>y</math> makes B first-order stochastically dominated by A (making B disliked by those with an increasing utility function), and the introduction of random variable <math>z</math> introduces a mean-preserving spread in B which is disliked by those with concave utility. Note that if A and B have the same mean (so that the random variable <math>y</math> degenerates to the fixed number 0), then B is a mean-preserving spread of A.
+
+=Sufficient conditions for second-order stochastic dominance=
+
+* First-order stochastic dominance of ''A'' over ''B'' is a sufficient condition  for second-order dominance of ''A'' over ''B''.
+* If ''B'' is a mean-preserving spread of ''A'', then ''A'' second-order stochastically dominates ''B''.
+
+=Necessary conditions for second-order stochastic dominance=
+
+* <math>\operatorname{E}_A(x) \geq \operatorname{E}_B(x)</math> is a necessary condition for ''A'' to second-order stochastically dominate ''B''.
+* <math>\min_A(x)\geq \min_B(x)</math> is a necessary condition for ''A'' to second-order dominate ''B''. The condition implies that the left tail of <math>F_B</math> must be thicker than the left tail of <math>F_A</math>.
+
+Third-order
+Let <math>F_A</math> and <math>F_B</math> be the cumulative distribution functions of two distinct investments <math>A</math> and <math>B</math>. <math>A</math> dominates <math>B</math> in the third order if and only if
+
+* <math>\int_{-\infty}^x \int_{-\infty}^z [F_B(t) - F_A(t)] \, dt \, dz \geq 0 \text{ for all } x,</math>
+* <math>\operatorname{E}_A(x) \geq \operatorname{E}_B(x), \, </math>
+
+and there is at least one strict inequality. Equivalently, <math>A</math> dominates <math>B</math> in the third order if and only if <math>\operatorname{E}_AU(x) \geq \operatorname{E}_BU(x)</math> for all nondecreasing, concave utility functions <math>U</math> that are positively skewed (that is, have a positive third derivative throughout).
+
+=Sufficient condition=
+
+* Second-order stochastic dominance is a sufficient condition.
+
+=Necessary conditions=
+
+* <math>\operatorname{E}_A(\log(x))\geq \operatorname{E}_B(\log(x))</math> is a necessary condition. The condition implies that the geometric mean of <math>A</math> must be greater than or equal to the geometric mean of <math>B</math>.
+* <math>\min_A(x)\geq\min_B(x)</math> is a necessary condition. The condition implies that the left tail of <math>F_B</math> must be thicker than the left tail of <math>F_A</math>.
+
+Higher-order
+
+Higher orders of stochastic dominance have also been analyzed, as have generalizations of the dual relationship between stochastic dominance orderings and classes of preference functions.<ref>cite journal |last1=Ekern |first1=Steinar |title=Increasing ''N''th Degree Risk |journal=Economics Letters |date=1980 |volume=6 |issue=4 |pages=329–333 |doi=10.1016/0165-1765(80)90005-1</ref>
+Arguably the most powerful dominance criterion relies on the accepted economic assumption of Risk aversion#Absolute risk aversion|Decreasing Absolute Risk Aversion (DARA); see
+<ref>cite journal | last1 = Vickson | first1 = R.G. | year = 1975 | title = Stochastic Dominance Tests for Decreasing Absolute Risk Aversion. I. Discrete Random Variables | url = | journal = Management Science | volume = 21 | issue = | pages = 1438–1446 | doi=10.1287/mnsc.21.12.1438</ref>
+<ref>cite journal | last1 = Vickson | first1 = R.G. | year = 1977 | title = Stochastic Dominance Tests for Decreasing Absolute Risk Aversion. II. General random Variables | url = | journal = Management Science | volume = 23 | issue = | pages = 478–489 | doi=10.1287/mnsc.23.5.478</ref>
+The DARA SD criterion involves several analytical challenges and a research effort is on its way to address those; see, e.g.,
+<ref>cite journal | last1 = Post | first1 = Th. | last2 = Fang | first2 = Y. | last3 = Kopa | first3 = M. | year = 2015 | title = Linear Tests for DARA Stochastic Dominance | url = | journal = Management Science | volume = 61 | issue = | pages = 1615–1629 | doi=10.1287/mnsc.2014.1960</ref>
+
+Constraints
+
+Stochastic dominance relations may be used as constraints in problems of mathematical optimization, in particular stochastic programming.<ref>cite journal |authorlink=Darinka Dentcheva |last=Dentcheva |first=D. |authorlink2=Andrzej Piotr Ruszczyński |last2=Ruszczyński |first2=A. |title=Optimization with Stochastic Dominance Constraints |journal=SIAM Journal on Optimization |volume=14 |issue=2 |year=2003 |pages=548–566 |doi=10.1137/S1052623402420528 |citeseerx=10.1.1.201.7815 </ref><ref>cite journal | last1 = Kuosmanen | first1 = T | year = 2004 | title = Efficient diversification according to stochastic dominance criteria | url = | journal = Management Science | volume = 50 | issue = | pages = 1390–1406 | doi=10.1287/mnsc.1040.0284</ref><ref>cite journal |authorlink=Darinka Dentcheva |last=Dentcheva |first=D. |authorlink2=Andrzej Piotr Ruszczyński |last2=Ruszczyński |first2=A. |title=Semi-Infinite Probabilistic Optimization: First Order Stochastic Dominance Constraints |journal=Optimization |volume=53 |issue=5–6 |year=2004 |pages=583–601 |doi=10.1080/02331930412331327148 </ref>In a problem of maximizing a real functional <math> f(X)</math> over random variables <math> X </math> in a set <math> X_0 </math> we may additionally require that <math> X </math> stochastically dominates a fixed random ''benchmark'' <math> B </math>. In these problems, utility functions play the role of Lagrange multipliers associated with 
+stochastic dominance constraints. Under appropriate conditions, the solution of the problem is also a (possibly local) solution of the problem to maximize
+<math> f(X) + \operatorname{E}[u(X) - u(B)] </math> over <math> X </math> in <math> X_0 </math>, where <math> u(x) </math> is a certain utility function. If the
+first order stochastic dominance constraint is employed, the utility function <math> u(x) </math> is monotonic function|nondecreasing; 
+if the second order stochastic dominance constraint is used, <math> u(x) </math> is monotonic function|nondecreasing and concave function|concave. A system of linear equations can test whether a given solution if efficient for any such utility function.<ref>cite journal | last1 = Post | first1 = Th | year = 2003 | title = Empirical tests for stochastic dominance efficiency | url = | journal = Journal of Finance | volume = 58 | issue = | pages = 1905–1932 | doi=10.1111/1540-6261.00592</ref>
+Third-order stochastic dominance constraints can be dealt with using convex quadratically constrained programming (QCP).<ref>cite journal |last=Post |first=Thierry |last2=Kopa |first2=Milos |title=Portfolio Choice Based on Third-Degree Stochastic Dominance |year=2016 |journal=Management Science (journal)|Management Science |volume=63 |issue=10 |pages=3381–3392 |doi=10.1287/mnsc.2016.2506 |ssrn=2687104 </ref>
+
+See also
+
+*Modern portfolio theory
+*Marginal conditional stochastic dominance
+*Responsive set extension - equivalent to stochastic dominance in the context of preference relations.
+*Quantum catalyst
+
+References
+Reflist|30em
+
+DEFAULTSORT:Stochastic Dominance
+Category:Stochastic processes

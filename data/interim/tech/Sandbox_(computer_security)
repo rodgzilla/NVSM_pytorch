@@ -1,0 +1,47 @@
+<!--Please, do NOT edit this article for testing purposes as this is not Wikipedia's testing sandbox; that is located at "Wikipedia:Sandbox", without the quotes. Thank you.
+-->
+About|the computer security mechanism|the software testing environment|Sandbox (software development)
+
+In computer security, a "sandbox" is a security mechanism for separating running programs, usually in an effort to mitigate system failures or software vulnerabilities  from spreading. It is often used to execute untested or untrusted programs or code, possibly from unverified or untrusted third parties, suppliers, users or websites, without risking harm to the host machine or operating system.<ref>cite web |url=http://www.usenix.org/publications/library/proceedings/sec96/full_papers/goldberg/goldberg.pdf |title=A Secure Environment for Untrusted Helper Applications (Confining the Wily Hacker)|author1=Ian Goldberg |author2=David Wagner |author3=Randi Thomas |author4=Eric Brewer  |last-author-amp=yes |work=Proceedings of the Sixth USENIX UNIX Security Symposium|year=1996|accessdate=25 October 2011</ref>  A sandbox typically provides a tightly controlled set of resources for guest programs to run in, such as scratch space on disk and memory. Network access, the ability to inspect the host system or read from input devices are usually disallowed or heavily restricted.
+
+In the sense of providing a highly controlled environment, sandboxes may be seen as a specific example of virtualization.  Sandboxing is frequently used to test unverified programs that may contain a computer virus|virus or other Malware|malicious code, without allowing the software to harm the host device.<ref>cite web|last=Geier |first=Eric |url=http://www.techhive.com/article/247416/how_to_keep_your_pc_safe_with_sandboxing.html |title=How to Keep Your PC Safe With Sandboxing |publisher=TechHive |date=2012-01-16 |accessdate=2014-07-03</ref>
+
+ Implementations 
+A sandbox is implemented by executing the software in a restricted operating system environment, thus controlling the resources (for example, file descriptors, memory, file system space, etc.) that a process may use.<ref>cite web |url=http://www.dmst.aueb.gr/dds/pubs/conf/2001-Freenix-Sandbox/html/sandbox32final.pdf |title=Sandboxing Applications|year=2001|accessdate=7 May 2013</ref>
+
+Examples of sandbox implementations include the following:
+
+* A Operating-system-level virtualization|jail: network-access restrictions, and a restricted filesystem namespace. Jails are most commonly used in virtual hosting.<ref>cite web |url=https://enterprise.comodo.com/security-solutions/endpoint-protection/auto-sandboxing.php |title=Auto-Sandboxing secure system |accessdate=2015-01-30</ref>
+* Rule-based execution gives users full control over what processes are started, spawned (by other applications), or allowed to inject code into other applications and have access to the net, by having the system assign access levels for users or programs according to a set of determined rules.<ref>cite web | url=http://oreilly.com/catalog/csb/chapter/ch03.html | title=Computer System Security and Access Controls | year=1991 | accessdate=17 May 2013 | deadurl=yes | archiveurl=https://web.archive.org/web/20130528005443/http://oreilly.com/catalog/csb/chapter/ch03.html | archivedate=28 May 2013 | df= </ref> It also can control file/registry security (what programs can read and write to the file system/registry). In such an environment, viruses and trojans have fewer opportunities of infecting a computer.  The SELinux and Apparmor security frameworks are two such implementations for Linux kernel|Linux.
+* Virtual machines emulator|emulate a complete host computer, on which a conventional operating system may boot and run as on actual hardware.  The guest operating system runs sandboxed in the sense that it does not function natively on the host and can only access host resources through the emulator.  
+* Sandboxing on native hosts: Security researchers rely heavily on sandboxing technologies to analyse malware behaviour. By creating an environment that mimics or replicates the targeted desktops, researchers can evaluate how malware infects and compromises a target host. Numerous malware analysis services are based on the sandboxing technology.<ref>cite web |url=http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/34913.pdf |title=Native Client Sandbox –  Untrusted x86 Native Code |accessdate=2015-01-03</ref>
+* Capability-based security|Capability systems can be thought of as a fine-grained sandboxing mechanism, in which programs are given opaque tokens when spawned and have the ability to do specific things based on what tokens they hold.  Capability-based implementations can work at various levels, from kernel to user-space.  An example of capability-based user-level sandboxing involves HTML rendering in a Web browser.
+* seccomp|Secure Computing Mode (seccomp) is a sandbox built in the Linux kernel. When activated in strict mode, seccomp only allows the <code>write()</code>, <code>read()</code>, <code>exit()</code>, and <code>sigreturn()</code> system calls.
+* HTML5 has a "sandbox" attribute for use with iframes.<ref>cite web |author1=Internet Explorer Team Blog |title=Defense in Depth:  Locking Down Mash-Ups with HTML5 Sandbox |url=https://blogs.msdn.microsoft.com/ie/2011/07/14/defense-in-depth-locking-down-mash-ups-with-html5-sandbox/ |website=IEBlog</ref>
+* Java virtual machines include a sandbox to restrict the actions of untrusted code, such as a Java applet.
+* The .NET Common Language Runtime provides Code Access Security to enforce restrictions on untrusted code.
+* Software Fault Isolation (SFI),<ref>Cite web|url=https://courses.cs.washington.edu/courses/cse551/15sp/papers/sfi-sosp93.pdf|title=Efficient Software-Based Fault Isolation|last=Wahbe|first=Robert|date=1993|website=|access-date=</ref> allows running untrusted native code by sandboxing all store, read and jump assembly instructions to isolated segments of memory. 
+* Windows Vista and later editions include a "low" mode process running, known as User Account Control| "User Account Control" (UAC),  which only allows writing in a specific directory and registry keys.
+Some of the use cases for sandboxes include the following:
+* Online judge systems to test programs in programming contests.
+* New-generation pastebins allowing users to execute pasted code snippets on the pastebin's server.
+
+ See also 
+Portal|Computer security
+* Sandboxie
+* Shade sandbox
+* Tor (anonymity network)
+
+ References 
+Reflist|30em
+
+ External links 
+* [https://www.cr0.org/paper/jt-ce-sid_linux.pdf Security In-Depth for Linux Software: Preventing and Mitigating Security Bugs]
+* [https://www.chromium.org/developers/design-documents/sandbox Sandboxsnd The Chromium Projects]
+* [https://www.freebsd.org/cgi/man.cgi?query=capsicum&sektion=4 FreeBSD capsicum(4) man page]snd a lightweight OS capability and sandbox framework
+* [https://man.openbsd.org/pledge.2 OpenBSD pledge(2) man page]snd a way to restrict system operations
+
+
+DEFAULTSORT:Sandbox (Computer Security)
+Category:Operating system security
+Category:Virtualization software

@@ -1,0 +1,50 @@
+Infobox software
+|name = FLAIM
+|logo = Image:FlaimLogo1.jpg|200px|Logo
+|developer = The LAIM Working Group - National Center for Supercomputing Applications|NCSA
+|latest_release_version = 0.7.0
+|latest_release_date = February 29, 2008
+|operating_system = Linux, FreeBSD, NetBSD, OpenBSD, Mac OS X
+|genre = Computer security|Security / Privacy
+|license = BSD license
+|website = http://flaim.ncsa.uiuc.edu/
+
+Portal|Free and open-source software
+FLAIM (Framework for Log Anonymization and Information Management) is a modular tool designed to allow computer and network log sharing through application of complex data sanitization policies.<ref name=slagell06>Slagell, A., Lakkaraju, K., and Luo, K., "FLAIM: A Multi-level Anonymization Framework for Computer and Network Logs," 20th USENIX Large Installation System Administration Conference (LISA '06), Washington, D.C., Dec., 2006.</ref>
+
+FLAIM is aimed at 3 different user communities. First, FLAIM can be used by the security engineer who is investigating a broad incident spanning multiple organizations. Because of the sensitivity inherent in security relevant logs, many organizations are reluctant to share them. However, this reluctance inhibits the sharing necessary to investigate intrusions that commonly span organizational boundaries. Second, anyone designing log analysis or computer forensics tools needs data with which they can test their tools.<ref>cite web |url=http://www.simson.net/ref/2007/Forensic_Corpora.pdf |title=Forensic Corpora: A Challenge for Forensic Research |author=Garfinkel, S. |accessdate=2007-12-04</ref> The larger and more diverse the data set, the more robust they can make their tools. For many, this means they must gather many logs from outside sources, not just what they can generate in-house. Again, this requires log sharing. Third, researchers in many computer science disciplines (e.g., network traffic measurement|network measurements, computer security, etc.) need large and diverse data sets to study. Having data sanitization tools available makes organizations more willing to share with these researchers their own logs.
+
+FLAIM is available under the Open Source Initiative approved [http://www.opensource.org/licenses/UoI-NCSA.php University of Illinois/NCSA Open Source License]. This is BSD license|BSD-style license.<ref>cite web|url=http://flaim.ncsa.uiuc.edu/license.html |title=FLAIM License |accessdate=2007-12-04 |deadurl=yes |archiveurl=https://web.archive.org/web/20070628050147/http://flaim.ncsa.uiuc.edu/license.html |archivedate=2007-06-28 |df= </ref> It runs on Unix and Unix-like systems, including Linux, FreeBSD, NetBSD, OpenBSD and Mac OS X.
+
+While FLAIM is not the only ''log anonymizer'', it is unique in its flexibility to create complex XML policies and its support for multiple log types.<ref name=slagell06/> More specifically, it is the only such tool to meet the following 4 goals. (1) FLAIM provides a diverse set of anonymization primitives. (2) FLAIM supports multiple log type, including linux process accounting logs, netfilter alerts, tcpdump traces and [http://nfdump.sourceforge.net/ NFDUMP] NetFlow|NetFlows.<ref>cite web |url=http://flaim.ncsa.uiuc.edu/ |title=FLAIM (Framework for Log Anonymization and Information Management) |accessdate=2007-12-04 |deadurl=yes |archiveurl=https://web.archive.org/web/20070827184956/http://flaim.ncsa.uiuc.edu/ |archivedate=2007-08-27 |df= </ref> (3) With a flexible anonymization policy language, complex policies that make trade-offs between information loss  and security can be made. (4) FLAIM is modular and easily extensible to new types of logs and data. The anonymization engine is agnostic to the syntax of the actual log.
+
+ History
+Work on ''log anonymization'' began in 2004 at the National Center for Supercomputing Applications|NCSA. At first this was for anonymizing logs in-house to share with the [https://web.archive.org/web/20070802215759/http://www.ncassr.org/project/index.php?id=11 SIFT] group. Soon there was a need for more powerful anonymization and anonymization of different types of logs.<ref>Slagell, A., Li, Y., and Luo, K., "Sharing Network Logs for Computer Forensics: A New Tool for the Anonymization of NetFlow Records," Computer Network Forensics Research (CNFR) Workshop, Athens, Greece, Sep., 2005.</ref> [http://security.ncsa.uiuc.edu/distribution/CanineDownLoad.html CANINE] was created to anonymize and convert between multiple formats of NetFlow|NetFlows.<ref>Luo, K., Li, Y., Slagell, A., and Yurcik, W., "CANINE: A NetFlow Converter/Anonymizer Tool for Format Interoperability and Secure Sharing," FLOCON — Network Flow Analysis Workshop, Pittsburgh, PA, Sep., 2005.</ref><ref>Li, Y., Slagell, A., Luo, K., and Yurcik, W., "CANINE: A Combined Conversion and Anonymization Tool for Processing NetFlows for Security," 10th International Conference on Telecommunication Systems, Modeling and Analysis, Dallas, TX, Nov., 2005.</ref> This was a Java GUI-based tool. Later, [http://security.ncsa.uiuc.edu/distribution/Scrub-PADownLoad.html Scrub-PA] was created to anonymize [http://www.linuxjournal.com/article/6144 Process Accounting] logs.<ref>Luo, K., Li, Y., Ermopoulos, C., Yurcik, W., and Slagell, A., "Scrub-PA: A Multi-level, Multi-Dimensional Anonymization Tool for Process Accounting," ACM Computing Research Repository (CoRR), Technical Report cs.CR/0601079, Jan., 2006.</ref> [http://security.ncsa.uiuc.edu/distribution/Scrub-PADownLoad.html Scrub-PA] was based on the Java code used for [http://security.ncsa.uiuc.edu/distribution/CanineDownLoad.html CANINE]. The development of both of these tools were funded under the Office of Naval Research [http://www.ncassr.org/ NCASSR] research center through the SLAGEL project.<ref>cite web|url=http://www.slagell.name/Adam_Slagells_Research_Home/Old_Projects.html |title=SLAGEL (System Log Anonymization for Greater Exchange of Logs) |accessdate=2007-12-04 dead link|date=December 2016 |bot=InternetArchiveBot |fix-attempted=yes </ref>
+
+It was quickly realized that building one-off tools for each new log format was not the way to go. Also, the earlier tools were limited in that they could not be scripted from the command line. It was decided that a new, modular command line-based UNIX tool was needed. Because speed was also a concern, this tool need to be written in C++. With the successful acquisition of a [https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=13451 Cyber Trust] grant from the National Science Foundation, the LAIM Working Group|LAIM Working Group was formed at the  National Center for Supercomputing Applications|NCSA.<ref name=laimhome>cite web |url=http://laim.ncsa.uiuc.edu/ |title=Log Anonymization and Information Management (LAIM) Working Group |accessdate=2007-12-04 |deadurl=yes |archiveurl=https://web.archive.org/web/20070818215507/http://laim.ncsa.uiuc.edu/ |archivedate=2007-08-18 |df= </ref> From this project headed by the PI, Adam Slagell, FLAIM was developed to overcome these limitations of [http://security.ncsa.uiuc.edu/distribution/CanineDownLoad.html CANINE] and [http://security.ncsa.uiuc.edu/distribution/Scrub-PADownLoad.html Scrub-PA]. The first public version of FLAIM, 0.4., was released on July 23, 2006.<ref>cite web |url=http://www.ncsa.uiuc.edu/News/datalink/2006Archive.html |title=NCSA news archive 2006  |accessdate=2007-12-04</ref>
+
+ Features 
+* Flexible XML policy language
+* Modular to support simple plugins for new log types
+* Support for major UNIX-like Operating Systems
+* Built-in support for several anonymization primitives
+* Plugin for [http://nfdump.sourceforge.net/ NFDUMP] format NetFlow|NetFlows
+* Plugin for netfilter firewall logs
+* Plugin for pcap traces form tcpdump
+* Plugin for linux process accounting logs
+
+References
+<references/>
+Luo, K., Li, Y., Slagell, A., and Yurcik, W., "[http://www.cert.org/flocon/2005/presentations/luo.pdf CANINE: A NetFlow Converter/Anonymizer Tool for Format Interoperability and Secure Sharing]," FLOCON — Network Flow Analysis Conference, Pittsburgh, PA, Sep., 2005.
+
+External links
+*[https://web.archive.org/web/20070827184956/http://flaim.ncsa.uiuc.edu/ Official FLAIM Home Page]
+*[https://web.archive.org/web/20070818215507/http://laim.ncsa.uiuc.edu/ LAIM Working Group Official Home]
+*[https://web.archive.org/web/20070226094723/http://laim.ncsa.uiuc.edu/downloads/slagell06.pdf USENIX LISA paper on FLAIM]
+*[https://web.archive.org/web/20070326153711/http://crawdad.cs.dartmouth.edu/meta.php?name=tools%2Fsanitize%2Fgeneric%2FFLAIM CRAWDAD entry on FLAIM at Dartmouth]
+*[http://www.cert.org/flocon/2005/presentations/luo.pdf Below you will find proceedings that were given at FloCon 2005 in Pittsburgh, Pennsylvania.]
+
+DEFAULTSORT:Flaim
+Category:Anonymity
+Category:Internet privacy software
+Category:Free security software

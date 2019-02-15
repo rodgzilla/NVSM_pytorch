@@ -1,0 +1,204 @@
+Refimprove|date=December 2006
+
+The term irregularities or exceptions in Interlingua refers to deviations from the logical rules in a few grammatical constructions in the international auxiliary language Interlingua. These oddities are a part of the standard grammar. These special cases have crept into the language as a result of the effort to keep it naturalistic. Most of these irregularities also exist in Interlingua's source languages; English language|English, French language|French, Italian language|Italian, Spanish language|Spanish, Portuguese language|Portuguese, and to a lesser extent German language|German and Russian language|Russian. This feature of the language makes Interlingua more familiar to the speakers of source languages. And at the same time, it makes the language more difficult for others.
+
+The speakers of the source languages don't perceive all deviations as irregular. For instance, Interlingua has three different words for English "am" (''so''), "is" (''es'') and "are" (''son''). While most English speakers will not find any thing abnormal about it, speakers of a few other languages may find the use of three words to express the concept of 'simple present' as unnecessary.
+
+Interlingua is notable in the sense that unlike most auxiliary languages, that seek to minimise or eliminate any irregular aspects, Interlingua takes a flexible approach. It is mandatory to use certain exceptions in Interlingua while others have been kept optional.
+
+Mandatory exceptions
+
+=Pronunciation=
+Interlingua doesn't have a 'one letter one sound' orthography. As in English, several letters can be pronounced in different ways; depending on where they are in a word. For instance, the letter C can be pronounced as either /k/ (''canto'') or /ts/ (''cento''). Here is a list of other mandatory exceptions in pronunciation:
+
+{| class="wikitable"
+|-
+! Letter / Digraph 
+! Possible Pronunciations<ref>cite web|url=http://members.optus.net/~ado_hall/interlingua/gi/spelling/spelling_&_pronunciation.html|archive-url=https://web.archive.org/web/20040724184617/http://members.optus.net/~ado_hall/interlingua/gi/spelling/spelling_&_pronunciation.html|dead-url=yes|archive-date=2004-07-24|author=Alexander Gode & Hugh Blair|publisher=|title=Grammar of Interlingua (Second Edition)|date=2011-10-23</ref>
+! Rules
+! Examples
+|-
+| c
+| /k/ <br> /ts/ (or /s/)
+| /k/ when ''c'' is followed by ''a'', ''o'', ''u'' or any consonant'<br> /ts/ (or /s/) when ''e'', ''i'' or ''y'' come after ''c''
+| ''camera'', ''crear'' <br> ''acido'', ''Cinderella'' 
+|-
+| ch
+| /k/ <br> /tʃ/ <br> /ʃ/
+| like /k/ in words of Greek origin <br> /tʃ/ only in a few words (very rare) <br> /ʃ/ in several words that come from the French
+| ''cholera'', ''chrome'', ''Chile'' <br>, ''cochi'' <br> ''machine'', ''chef''
+|-
+| h
+| /h/ <br> silent
+| silent after ''r'' and ''t''
+| ''horologio'' <br> ''rhetoria''
+|-
+| rh
+| /r/
+| pronounced as the "r" in Spanish ''caro''
+| rhetorica, rheumatic
+|-
+| sh
+| /ʃ/
+| pronounced as "sh" in English
+| Shakespeare
+|-
+| th
+| /t/
+| always pronounced like /t/
+| ''theatro''
+|-
+| ph
+| /f/
+| always pronounced like /f/
+| ''photographia'', ''photosynthese''
+|-
+| t
+| /t/<br>/ts/
+| pronounced as /t/ except when followed by an ''i'' and a second vowel in an unstressed syllable, in which case it is realized as /ts/
+| ''tourista''<br>''creation''
+|-
+| u
+| /u/<br>/w/
+| /u/ except when unstressed before a vowel, in which case it can be realized as /w/
+| ''luna'', ''plural'' <br> ''persuader'', ''superflue''
+|-
+| y
+| /j/<br>/i/
+| /j/ when unstressed before vowels<br> other like /i/
+| ''Yugoslavia'', ''yoga''<br>''tyranno'', ''typo''
+|}
+
+Besides, there are also unassimilated loan words that retain their original pronunciation and spelling. Diacritics are however when they don't influence the pronunciation of the word borrowed into Interlingua. Common examples of such words are ''radios Röntgen'' (X rays) and ''kümmel''.
+
+=Contractions=
+
+Just like in English, where ''I am'' is usually contracted to ''I'm'' and ''he is'' to ''he's'', such contractions are also found in Interlingua and these two are compulsory to observe:
+
+{| class="wikitable"
+|-
+! Words
+! Contraction
+! Example
+|-
+| ''de'' (of) + ''le'' (the) 
+| ''del''
+| ''del matre'' (of the mother)
+|-
+| ''a'' (to) + ''le'' (the)
+| ''al''
+| ''al luna'' (to the moon)
+|}
+
+=Plurals=
+
+Plurals can be formed in three different ways depending on the ending of a noun.
+
+{| class="wikitable"
+|-
+! Ending
+! Add
+! Example
+|-
+| ends in a consonant other than ''c''
+| ''-es''
+| ''conversation'' - ''conversationes'' <br> ''pais'' - ''paises''
+|-
+| ends in ''c''
+| ''-hes''
+| ''roc'' - ''roches'' <br> ''choc'' - ''choches''
+|-
+| ends in a vowel
+| ''-s''
+| ''radio'' - ''radios'' <br> ''academia'' - ''academias''
+|}
+
+There are also irregular plurals that occur in loan words. The common ones are ''tests'' (from 'test'), ''addenda'' (from 'addendum') and ''lieder'' (from 'lied').
+
+=Numbers=
+
+{|class="wikitable"
+|-
+! Numbers
+! Logical Name
+! Name used
+|-
+| 10
+| ''unanta''
+| ''dece''
+|-
+| 20 
+| ''duoanta''
+| ''vinti''
+|-
+| 30
+| ''tresanta''
+| ''trenta''
+|-
+| 40
+| ''quatranta''
+| ''quaranta''
+|-
+| 13
+| ''tresdece''
+| ''tredece''
+|-
+| 14
+| ''quatrodece''
+| ''quattuordece''
+|-
+| 15
+| ''cinquedece''
+| ''quindece''
+|-
+| 16
+| ''sexdece''
+| ''sedece''
+|}
+
+=Parts of speech=
+
+* Not all adverbs are derived from adjectives.
+* If an adjective ends with -c, an adverb derived from it takes ''-amente'' (instead of ''-mente'').
+* ''Sia'' is the imperative form of ''esser'' ('to be'): ''Sia contente!'' 'Be content!'
+
+Optional
+
+=Pronunciation=
+*if ''s'' is between vowels, it can be pronounced IPA|[z], like in "these" (instead of the IPA|[s] of "stay")
+*if ''x'' is between vowels, it can be spoken like the IPA|[ɡz] in "exact" (instead of like the IPA|[ks] in "fox")
+
+=Verbs=
+
+Optional short forms
+*ha for ''habe'', 'has', 'have'
+*va for ''vade'', 'goes', 'go'
+*es for ''esse'', 'is', 'am', 'are'
+
+Alternative forms of ''esser''
+:''Note. These forms are rarely used.''
+*so for ''(io) es''
+*son for ''(nos/vos/illes/-as/-os) es''
+*era for ''esseva''
+*sera for ''essera''
+*serea for ''esserea''
+
+=Comparative and superlative adjectives=
+*''(le)'' minor instead of ''(le) plus parve''
+*''(le)'' major instead of ''(le) plus magne''
+*''(le)'' melior instead of ''(le) plus bon''
+*''(le)'' pejor instead of ''(le) plus mal''
+*minime instead of ''le plus parve'' or ''le minor''
+*maxime instead of "le plus magne" or "le major"
+*optime instead of ''le plus bon'' or ''le melior''
+*pessime instead of ''le plus mal'' or ''le pejor''
+
+References
+<references/>
+
+External links
+*[http://members.optus.net/~ado_hall/interlingua/gi/home/entry_page.html "a grammar of interlingua"] by Alexander Gode & Hugh Blair
+*''[http://www.interlingua.com/grammatica Grammatica de interlingua]''
+
+DEFAULTSORT:Irregularities And Exceptions In Interlingua
+Category:Interlingua

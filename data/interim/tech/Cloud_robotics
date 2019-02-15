@@ -1,0 +1,140 @@
+Cloud robotics is a field of robotics that attempts to invoke cloud technologies such as cloud computing, cloud storage, and other Internet technologies centred on the benefits of converged infrastructure and shared services for robotics. When connected to the cloud, robots can benefit from the powerful computation, storage, and communication resources of modern data center in the cloud, which can process and share information from various robots or agent (other machines, smart objects, humans, etc.). Humans can also delegate tasks to robots remotely through network (computing)|networks. Cloud computing technologies enable robot systems to be endowed with powerful capability whilst reducing costs through cloud technologies. Thus, it is possible to build lightweight, low cost, smarter robots have intelligent "brain" in the cloud. The "brain" consists of data center, knowledge base, task planners, deep learning, information processing, environment models, communication support, etc.<ref name=RASrobot>cite web|title=Cloud Robotics and Automation A special issue of the IEEE Transactions on Automation Science and Engineering.|url=http://www.ieee-ras.org/publications/t-ase/special-issues/special-issue-on-cloud-robotics-and-automation|publisher=IEEE|accessdate=7 December 2014</ref><ref>cite web|title=RoboEarth|url=http://roboearth.org/cloud_robotics/</ref><ref name=kengoldberg>cite web|last1=Goldberg|first1=Ken|title=Cloud Robotics and Automation|url=http://goldberg.berkeley.edu/cloud-robotics</ref><ref name="sites.google.com">cite web|last1=Li|first1=R|title=Cloud Robotics-Enable cloud computing for robots|url=https://sites.google.com/site/ruijiaoli/blogs/page|accessdate=7 December 2014</ref>
+
+Components
+A cloud for robots potentially has at least six significant components:<ref name=cloudsurvey>cite journal|last1=Kehoe|first1=Ben|last2=Patil|first2=Sachin|last3=Pieter Abbeel|Abbeel|first3=Pieter|last4=Goldberg|first4=Ken|title=A Survey of Research on Cloud Robotics and Automation|journal=IEEE Transactions on Automation Science and Engineering|date=13 September 2014|url=http://goldberg.berkeley.edu/pubs/2015-T-ASE-Cloud-Robotics-Survey.pdf</ref>
+
+* Offering a global library of images, maps, and object data, often with geometry and mechanical properties, expert system, knowledge base (i.e. semantic web, data centres)；
+* Massively-parallel computation on demand for sample-based statistical modelling and motion planning, task planning, multi-robot collaboration, scheduling and coordination of system；
+* Robot sharing of outcomes, trajectories, and dynamic control policies and robot learning support；
+* Human sharing of "open-source" code, data, and designs for programming, experimentation, and hardware construction；
+* On-demand human guidance and assistance for evaluation, learning, and error recovery;
+* Augmented human–robot interaction through various way (Semantics knowledge base, Apple SIRI like service etc.).
+
+ Applications 
+;Autonomous mobile robots: Google driverless car|Google's self-driving cars are cloud robots. The cars use the network to access Google's enormous database of maps and satellite and environment model (like Streetview) and combines it with streaming data from GPS, cameras, and 3D sensors to monitor its own position within centimetres, and with past and current traffic patterns to avoid collisions. Each car can learn something about environments, roads, or driving, or conditions, and it sends the information to the Google cloud, where it can be used to improve the performance of other cars.
+;Cloud medical robots: a medical cloud (also called a healthcare cluster) consists of various services such as a disease archive, electronic medical records, a patient health management system, practice services, analytics services, clinic solutions, expert systems, etc. A robot can connect to the cloud to provide clinical service to patients, as well as deliver assistance to doctors (e.g. a co-surgery robot). Moreover, it also provides a collaboration service by sharing information between doctors and care givers about clinical treatment.<ref>cite web|title=Impact of Cloud Computing on Healthcare|url=http://www.cloudstandardscustomercouncil.org/cscchealthcare110512.pdf</ref>
+;Assistive robots: A domestic robot can be employed for healthcare and life monitoring for elderly people. The system collects the health status of users and exchange information with cloud expert system or doctors to facilitate elderly peoples life, especially for those with chronic diseases. For example, the robots are able to provide support to prevent the elderly from falling down, emergency healthy support such as heart disease, blooding disease. Care givers of elderly people can also get notification when in emergency from the robot through network.<ref name=smc>cite book|last1=Li|first1=Ruijiao|last2=Hu|first2=Huosheng|title=Towards ROS Based Multi-robot Architecture for Ambient Assisted Living|journal=Systems, Man, and Cybernetics (SMC), 2013 IEEE International Conference on|date=16 October 2013|pages=3458–3463|doi=10.1109/SMC.2013.590|isbn=978-1-4799-0652-9|citeseerx=10.1.1.648.3228<!--|accessdate=7 December 2014--></ref>
+;Industrial robots: As highlighted by the German government's Industry 4.0 Plan, "Industry is on the threshold of the fourth industrial revolution. Driven by the Internet, the real and virtual worlds are growing closer and closer together to form the Internet of Things. Industrial production of the future will be characterised by the strong individualisation of products under the conditions of highly flexible (large series) production, the extensive integration of customers and business partners in business and value-added processes, and the linking of production and high-quality services leading to so-called hybrid products." <ref name=ind4.0>cite web|title=Project of the Future: Industry 4.0|url=http://www.bmbf.de/en/19955.php|accessdate=9 December 2014</ref> In manufacturing, such cloud based robot systems could learn to handle tasks such as threading wires or cables, or aligning gaskets from a professional knowledge base. A group of robots can share information for some collaborative tasks. Even more, a consumer is able to place customised product orders to manufacturing robots directly with online ordering systems.<ref name=rcrush>cite web|last1=LaSelle|first1=Rush|title=Automation in the Cloud|url=http://www.robotics.org/content-detail.cfm/Industrial-Robotics-Industry-Insights/Automation-in-the-Cloud/content_id/2826|publisher=Robotic Industries Association|accessdate=9 December 2014</ref> Another potential paradigm is shopping-delivery robot systems. Once an order is placed, a warehouse robot dispatches the item to an autonomous car or autonomous drone to delivery it to its recipient (see Figure :|Cloud Self-driving Car).
+
+ Research  
+visible anchor|RoboEarth <ref name=roboearth>cite web|title=roboearth|url=http://roboearth.org|website=|accessdate=7 December 2014</ref> was funded by the European Union's Seventh Framework Programme for research, technological development projects, specifically to explore the field of cloud robotics. The goal of RoboEarth is to allow robotic systems to benefit from the experience of other robots, paving the way for rapid advances in machine cognition and behaviour, and ultimately, for more subtle and sophisticated human-machine interaction.  RoboEarth offers a Cloud Robotics infrastructure. RoboEarth’s World-Wide-Web style database stores knowledge generated by humans – and robots – in a machine-readable format. Data stored in the RoboEarth knowledge base include software components, maps for navigation (e.g., object locations, world models), task knowledge (e.g., action recipes, manipulation strategies), and object recognition models (e.g., images, object models).  The RoboEarth Cloud Engine includes support for mobile robots, autonomous vehicles, and drones, which require lots of computation for navigation.<ref name=robieee>cite journal|last1=Waibel|first1=M|last2=Tenorth|first2=M|last3=D'Andrea|first3=R|title=RoboEarth|journal=IEEE Robotics & Automation Magazine|volume=18|issue=2|pages=69–82|url=http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5876227&tag=1|doi=10.1109/MRA.2011.941632|date=June 2011</ref>
+
+Rapyuta <ref name=rapyuta>cite web|title=Rapyuta|url=http://rapyuta.org/welcome|accessdate=7 December 2014</ref> is an open source cloud robotics framework based on RoboEarth Engine developed by the robotics researcher at ETHZ. Within the framework, each robot connected to Rapyuta can have a secured computing environment (rectangular boxes) giving them the ability to move their heavy computation into the cloud. In addition, the computing environments are tightly interconnected with each other and have a high bandwidth connection to the RoboEarth knowledge repository.<ref>cite book|last1=Hunziker|first1=D|last2=D'Andrea|first2=R|last3=Gajamohan|first3=M|last4=Waibel|first4=M|title=Rapyuta: The RoboEarth Cloud Engine|journal=Robotics and Automation (ICRA), 2013 IEEE International Conference on|date=May 2013|pages=438–444|doi=10.1109/ICRA.2013.6630612|url=http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6630612|isbn=978-1-4673-5643-5|citeseerx=10.1.1.800.2033</ref>
+
+visible anchor|KnowRob <ref name=knowrob>cite web|title=KnowRob|url=http://ias.in.tum.de/research/knowledge|accessdate=8 December 2014</ref> is an extensional project of RoboEarth. It is a knowledge processing system that combines knowledge representation and reasoning methods with techniques for acquiring knowledge and for grounding the knowledge in a physical system and can serve as a common semantic framework for integrating information from different sources.
+
+visible anchor|RoboBrain <ref name=robobrain>cite web|title=RoboBrain Project|url=http://robobrain.me|website=|accessdate=7 December 2014</ref>  is a large-scale computational system that learns from publicly available Internet resources, computer simulations, and real-life robot trials. It accumulates everything robotics into a comprehensive and interconnected knowledge base. Applications include prototyping for robotics research, household robots, and self-driving cars. The goal is as direct as the project's name—to create a centralised, always-online brain for robots to tap into. The project is dominated by Stanford University and Cornel University. And the project is supported by the National Science Foundation, the Office of Naval Research, the Army Research Office, Google, Microsoft, Qualcomm, the Alfred P. Sloan Foundation and the National Robotics Initiative, whose goal is to advance robotics to help make the United States more competitive in the world economy.<ref name=robocornel>cite web|title=Robo Brain' mines the Internet to teach robots|url=http://www.news.cornell.edu/stories/2014/08/robo-brain-mines-internet-teach-robots</ref>
+
+MyRobots is a service for connecting robots and intelligent devices to the Internet.<ref name=myrob>cite web|title=MyRobots|url=http://www.myrobots.com/wiki/About|accessdate=9 December 2014</ref> It can be regarded as a social network for robots and smart objects (i.e. Facebook for robots). With socialising, collaborating and sharing, robots can benefit from those interactions too by sharing their sensor information giving insight on their perspective of their current state.
+
+visible anchor|COALAS <ref name=coalas>cite web|last1=Hu|first1=Huosheng|last2=McDonald-Maier|first2=Klaus D|last3=Gu|first3=Dongbing|last4=Li|first4=Ruijiao|title=COLAS|url=http://coalas-project.eu/indexen.php?p=team|accessdate=7 December 2014</ref> is funded by the INTERREG IVA France (Channel) – England European cross-border co-operation programme. The project aims to develop new technologies for handicapped people through social and technological innovation and through the users' social and psychological integrity. Objectives is to produce a cognitive ambient assistive living system with Healthcare cluster in cloud with domestic service robots like humanoid, intelligent wheelchair which connect with the cloud.<ref name="smc"/>
+
+Robot Operating System|ROS (Robot Operating System) provides an eco-system to support cloud robotics. ROS is a flexible and distributed framework for robot software development. It is a collection of tools, libraries, and conventions that aim to simplify the task of creating complex and robust robot behaviour across a wide variety of robotic platforms. A library for ROS that is a pure Java implementation, called rosjava, allows Android applications to be developed for robots. Since Android has a booming market and billion users, it would be significant in the field of Cloud Robotics.<ref name=rosjava>cite web|title=ROSjava-Cloud Robotics|url=http://docs.rosjava.googlecode.com/hg/rosjava_core/html/index.html|accessdate=9 December 2014</ref>
+
+[http://www.c2ro.com C2RO] (C2RO Cloud Robotics) is a platform that processes real-time applications such as collision avoidance and object recognition in the cloud. Previously, high latency times prevented these applications from being processed in the cloud thus requiring on-system computational hardware (e.g. Graphics Processing Unit or GPU). C2RO published a peer-reviewed paper at IEEE PIMRC17 showing its platform could make autonomous navigation and other AI services available on robots- even those with limited computational hardware (e.g. a Raspberry Pi)- from the cloud.<ref>Cite journal|last=C2RO Cloud Robotics|date=2017-10-18|title=Real-Time Cloud Robotics in Practical Smart City Applications|url=https://www.slideshare.net/c2ro/realtime-cloud-robotics-in-practical-smart-city-applications</ref> C2RO eventually claimed to be the first platform to demonstrate cloud-based Simultaneous localization and mapping|SLAM (simultaneous localization and mapping) at RoboBusiness in September 2017.
+
+[https://noos.cloud Noos] is a cloud robotics service, providing centralised intelligence to robots that are connected to it. The service went live in December 2017. By using the Noos-API, developers could access services for computer vision, deep learning, and SLAM. Noos was developed and maintained by [http://robotics.ortelio.co.uk Ortelio Ltd].
+
+ Limitations of cloud robotics 
+Though robots can benefit from various advantages of cloud computing, cloud is not the solution to all of robotics.<ref name=roadmap>cite web|last1=Robotics-vo|title=A Roadmap for U.S. Robotics From Internet to Robotics 2013 Edition|url=https://robotics-vo.us/sites/default/files/2013%20Robotics%20Roadmap-rs.pdf|website=|accessdate=8 December 2014</ref>
+
+* Controlling a robot’s motion which relies heavily on (real-time computing|real-time) sensors and feedback of controller may not benefit much from the cloud.
+* Tasks that involve real-time execution require on-board processing.
+* Cloud-based applications can get slow or unavailable due to high-latency responses or network hitch. If a robot relies too much on the cloud, a fault in the network could leave it “brainless.”
+
+ Challenges 
+The research and development of cloud robotics has following potential issues and challenges:<ref name="roadmap"/>
+
+*scalability|Scalable parallelisation-grid-computing, parallelisation schemes scale with the size of automation infrastructure.
+*Effective load balancing (computing)|load balancing: Balancing operations between local and cloud computation.
+*Knowledge bases and knowledge representation|representations
+*Collective learning for automation in cloud
+*Infrastructure/Platform or Software as a Service
+*Internet of Things for robotics
+*Integrated and collaborative fault-tolerant control
+*Big Data: Data, collected and/or disseminated over large, accessible networks can enable decisions for classification problems or reveal patterns.
+*Wireless communication, Connectivity to the cloud
+*System architectures of robot cloud
+*Open-source, open-access infrastructures
+* Load balancing (computing)|Workload-sharing
+* Standards and Protocols
+
+ Risks 
+Environmental security - The concentration of computing resources and users in a cloud computing environment also represents a concentration of security threats. Because of their size and significance,<ref> cite web | url=https://artificial-future.com/cloud-robotics/| title=Linking of cloud robotics to server </ref> cloud environments are often targeted by virtual machines and bot malware, brute force attacks, and other attacks.
+
+Information privacy|Data privacy and security - Hosting confidential data with cloud service providers involves the transfer of a considerable amount of an organisation's control over data security to the provider. For example, every cloud contains a huge information from the clients include personal data. If a household robot is hacked, users could have risk of their personal privacy and security, like house layout, life snapshot, home-view, etc. It may be accessed and leaked to the world around by criminals. Another problems is once a robot is hacked and controlled by someone else, which may put the user in danger.
+
+Ethical problems - Some ethics of robotics, especially for cloud based robotics must be considered. Since a robot is connected via networks, it has risk to be accessed by other people. If a robot is out of control and carries out illegal activities, who should be responsible for it.
+
+ History 
+The term "Cloud Robotics" first appeared in the public lexicon as part of a talk given by James Kuffner in 2010 at the IEEE/RAS International Conference on Humanoid Robotics entitled "Cloud-enabled Robots".
+<ref name=Kuffner2010>cite web|last1=Kuffner|first1=James|title=Cloud-Enabled Robots|url=https://www.scribd.com/doc/47486324/Cloud-Enabled-Robots|publisher=IEEE-RAS International Conference on Humanoid Robotics |date=2010</ref>
+Since then, "Cloud Robotics" has become a general term encompassing the concepts of information sharing, distributed intelligence, and fleet learning that is possible via networked robots and modern cloud computing.
+
+From the early days of robot development, it was common to have computation done on a computer that was separated from the actual robot mechanism, but connected by wires for power and control.  As wireless communication technology developed, new forms of experimental "remote brain" robots were developed controlled by small, onboard compute resources for robot control and safety, that were wirelessly connected to a more powerful remote computer for heavy processing.
+<ref name=inaba1997remote>cite conference |last1=Inaba |first1=Masayuki |title=Remote-brained robots |book-title=Proceedings of the Fifteenth International Joint Conference on Artifical Intelligence-Volume 2 |pages=1593–1606 |date=1997 |publisher=Morgan Kaufmann Publishers Inc. </ref>
+
+The term "cloud computing" was popularized with the launch of Amazon Elastic Compute Cloud|Amazon EC2 in 2006.  It marked the availability of high-capacity networks, low-cost computers and storage devices as well as the widespread adoption of hardware virtualization and service-oriented architecture.<ref>Cite news |url= http://www.economist.com/displaystory.cfm?story_id=14637206 |title= Cloud Computing: Clash of the clouds |date= 2009-10-15 | work = The Economist |accessdate= 2009-11-03</ref>
+In an correspondence with Popular Science in July 2006, Kuffner wrote that after a robot was programmed or successfully learned to perform a task it could share its model and relevant data with all other cloud-connected robots:
+<ref name=popsci2006>
+cite magazine |date=September 2006 |pages=55–71 |title=The Future of Robots |magazine=Popular Science 
+</ref>
+
+Quote
+|text="...the robot could then 'publish' its refined model to some website or universal repository of knowledge that all future robots could download and utilize.  My vision is to have a 'robot knowledge database' that will over time improve the capabilities of all future robotic systems.  It would serve as a warehouse of information and statistics about the physical world that robots can access and use to improve their reasoning about the consequences of possible actions and make better action plans in terms of accuracy, safety, and robustness.  It could also serve as a kind of 'skill library'.  For example, if I successfully programmed my butler robot how to cook a perfect omelette, I could 'upload' the software for omelette cooking to a server that all robots could then download whenever they were asked to cook an omelette.  There could be a whole community of robot users uploading skill programs, much like the current 'shareware' and 'freeware' software models that are popular for PC users."
+|author=James Kuffner, (July 2006)
+
+
+Some publications and events related to Cloud Robotics (in chronological order):
+
+* The IEEE RAS Technical Committee on Internet and Online Robots was founded by Ken Goldberg and Roland Siegwart et al. in May 2001. The committee then expanded to IEEE Society of Robotics and Automation's Technical Committee on Networked Robots in 2004.<ref name=nrc>cite web|title=Networked Robots Committee|url=http://www-users.cs.umn.edu/~isler/tc/|accessdate=8 December 2014</ref>
+
+* James J. Kuffner, a former CMU robotics professor, and research scientist at Google, now CTO of Toyota Research Institute, spoke on cloud robotics in IEEE/RAS International Conference on Humanoid Robotics 2010. It describes "a new approach to robotics that takes advantage of the Internet as a resource for massively parallel computation and sharing of vast data resources."<ref name=Kuffner2010 />
+
+* Ryan Hickman, a Google Product Manager, led an internal volunteer effort in 2010 to connect robots with the Google's cloud services.This work was later expanded to include open source ROS support and was demonstrated on stage by Ryan Hickman, Damon Kohler, Brian Gerkey, and Ken Conley at Google I/O 2011.<ref>cite web|title=Google I/O 2011: Cloud Robotics, ROS for Java and Android|url=http://www.ros.org/news/2011/05/google-io-2011-cloud-robotics-ros-for-java-and-android.html|accessdate=9 December 2014</ref>
+
+* National Robotics Initiative of US  announced in 2011 aimed to explore how robots can enhance the work of humans rather than replacing them. It claims that next generation of robots are more aware than oblivious, more social than solitary.<ref name=nfs>cite web|title=Big NSF grant funds research into training robots to work with humans|url=https://newscenter.berkeley.edu/2012/12/17/ken-goldbergs-latest-big-adventure-cloud-robotics/</ref>
+
+* NRI Workshop on Cloud Robotics: Challenges and Opportunities- February 2013.<ref name=nri>cite web|title=cloud-robotics.cs.umn.edu/|url=http://cloud-robotics.cs.umn.edu/|accessdate=7 December 2014</ref>
+
+* A Roadmap for U.S. Robotics From Internet to Robotics 2013 Edition- by Georgia Institute of Technology, Carnegie Mellon University Robotics Technology Consortium, University of Pennsylvania, University of Southern California, Stanford University, University of California–Berkeley, University of Washington, Massachusetts Institute of TechnologyUS and Robotics OA US. The Roadmap highlighted “Cloud” Robotics and Automation for Manufacturing in the future years.<ref name="roadmap"/>
+
+* Cloud-Based Robot Grasping with the Google Object Recognition Engine.<ref>cite book|last1=Goldberg|first1=Ken|title=Cloud-based robot grasping with the google object recognition engine|journal=Robotics and Automation (ICRA), 2013 IEEE International Conference on|pages=4263–4270|doi=10.1109/ICRA.2013.6631180|year=2013|isbn=978-1-4673-5643-5|citeseerx=10.1.1.299.3857</ref>
+
+* 2013 IEEE IROS Workshop on Cloud Robotics. Tokyo. November 2013.<ref>cite web|title=2013 IEEE IROS Workshop on Cloud Robotics. Tokyo. November 2013|url=http://roboearth.org/iros2013/</ref>
+
+* Cloud Robotics-Enable cloud computing for robots. The author proposed some paradigms of using cloud computing in robotics. Some potential field and challenges were coined. R. Li 2014.<ref name="sites.google.com"/>
+
+* Special Issue on Cloud Robotics and Automation- A special issue of the IEEE Transactions on Automation Science and Engineering, April 2015.<ref name="RASrobot"/>
+
+* Robot APP Store Robot Applications in Cloud, provide applications for robot just like computer/phone app.<ref name=robotapp>cite web|title=RobotApp|url=http://www.robotappstore.com|accessdate=7 December 2014</ref>
+
+* DARPA Cloud Robotics.<ref>cite web|title=DARPA-Cloud-Robotics|url=http://robohub.org/darpas-gill-pratt-on-googles-robotics-investments/|accessdate=7 December 2014</ref>
+
+* The first industrial cloud robotics platform, Tend, was founded by Mark Silliman, James Gentes and Robert Kieffer in February 2017.   Tend allows robots to be remotely controlled and monitored via websockets and NodeJs.<ref>cite web|title=When Robotics Meets the Cloud, Customers  Win|url=https://blog.universal-robots.com/when-robotics-meets-the-cloud-customers-win|accessdate=18 April 2017</ref><ref>cite web|title=Robot Control From the Cloud|url=https://www.automationworld.com/all/robot-control-cloud|accessdate=17 April 2017</ref>
+
+See also
+* Fog computing
+* Internet of things
+* Multi agent system
+* Outline of robotics
+* Ubiquitous robot
+
+ References 
+Reflist
+
+External links
+*[http://www.myrobots.com/ MyRobots]
+*[http://www.roboticsbusinessreview.com/articles/view/the-age-of-cloud-robotics/ The age of cloud robotics - Robotics business review.]
+*[http://spectrum.ieee.org/automaton/robotics/robotics-software/cloud-robotics Cloud Robotics - IEEE Spectrum]
+*[http://robohub.org/tag/cloud-robotics/ Cloud robotics on RoboHub]
+*[https://link.springer.com/article/10.1007/s13174-010-0007-6 Cloud computing: state-of-the-art and research challenges]
+*[http://www.expo21xx.com/automation21xx/university.htm Automation EXPO21XX]
+*[https://www.youtube.com/watch?v=ODF3W_14fgM Cloud Robotics with Ken Goldberg (Video)]
+*[http://roboticshackathon.com/ Cloud Robotics Hackathon]
+
+Category:Robotics
+Category:Cloud computing
+Category:Assistive technology
+Category:Artificial intelligence
+Category:Cloud robotics| 

@@ -1,0 +1,66 @@
+Graph operations produce new Graph (discrete mathematics)|graphs from initial ones. They may be separated into the following major categories.  
+
+Unary operations
+Unary operations create a new graph from one initial one.
+
+=Elementary operations=
+Elementary operations or editing operations create a new graph from one initial one by a simple local change, such as addition or deletion of a vertex or of an edge, merging and splitting of vertices, edge contraction, etc.
+The graph edit distance between a pair of graphs is the minimum number of elementary operations required to transform one graph into the other.
+
+=Advanced operations=
+Advanced operations create a new graph from one initial one by a complex changes, such as:
+* transpose graph;
+* complement graph;
+* line graph;
+* graph minor;
+* graph rewriting;
+* power of graph;
+* dual graph;
+* medial graph;
+* quotient graph;
+* Y-Δ transform;
+* Mycielskian.
+
+Binary operations
+Binary operations create a new graph from two initial ones nobreak|1=''G''<sub>1</sub> = (''V''<sub>1</sub>, ''E''<sub>1</sub>) and nobreak|1=''G''<sub>2</sub> = (''V''<sub>2</sub>, ''E''<sub>2</sub>), such as:
+* graph union: nobreak|1=''G''<sub>1</sub> ∪ ''G''<sub>2</sub>.  There are two definitions.  In the most common one, the disjoint union of graphs, the union is assumed to be disjoint.  Less commonly (though more consistent with the general definition of union (set theory)|union in mathematics) the union of two graphs is defined as the graph nobreak|(''V''<sub>1</sub> ∪ ''V''<sub>2</sub>, ''E''<sub>1</sub> ∪ ''E''<sub>2</sub>).
+
+* graph intersection: nobreak|1=''G''<sub>1</sub> ∩ ''G''<sub>2</sub> = (''V''<sub>1</sub> ∩ ''V''<sub>2</sub>, ''E''<sub>1</sub> ∩ ''E''<sub>2</sub>);<ref name=bondy_murty>cite book
+ | last1 = Bondy | first1 = J. A.
+ | last2 = Murty | first2 = U. S. R.
+ | title = Graph Theory
+ | publisher = Springer
+ | series = Graduate Texts in Mathematics
+ | date = 2008
+ | pages = 29
+ | isbn = 978-1-84628-969-9</ref>
+* graph join: graph with all the edges that connect the vertices of the first graph with the vertices of the second graph. It is a commutative operation (for unlabelled graphs);<ref name=harary/>
+* graph products based on the cartesian product of the vertex sets:
+** Cartesian product of graphs|cartesian graph product: it is a commutative and associative operation (for unlabelled graphs),<ref name=harary>Frank Harary|Harary, F. ''Graph Theory''. Reading, MA: Addison-Wesley, 1994.</ref>
+** Lexicographic product of graphs|lexicographic graph product (or graph composition): it is an associative (for unlabelled graphs) and non-commutative operation,<ref name=harary/>
+** Strong product of graphs|strong graph product: it is a commutative and associative operation (for unlabelled graphs),
+** Tensor product of graphs|tensor graph product (or direct graph product, categorical graph product, cardinal graph product, Kronecker graph product): it is a commutative and associative operation (for unlabelled graphs),
+** Zig-zag product of graphs|zig-zag graph product;<ref>cite journal
+ |author1=Reingold, O. |author2=Vadhan, S. |author3=Wigderson, A. | title = Entropy waves, the zig-zag graph product, and new constant-degree expanders
+ | journal = Annals of Mathematics
+ | volume = 155
+ | issue = 1
+ | year = 2002
+ | pages = 157–187
+ |mr=1888797
+ | doi = 10.2307/3062153
+ | jstor = 3062153|arxiv=math/0406038</ref>
+* graph product based on other products:
+** Rooted product of graphs|rooted graph product: it is an associative operation (for unlabelled but rooted graphs),
+** Corona product of graphs|corona graph product: it is a non-commutative operation;<ref>cite journal | last1 = Frucht | first1 = Robert | authorlink = Robert Frucht | authorlink2 = Frank Harary | last2 = Harary | first2 = Frank | year = 1970 | title = On the corona of two graphs | url = | journal = Aequationes Mathematicae | volume = 4 | issue = | pages = 322–324 | doi=10.1007/bf01844162</ref>
+* Series-parallel graph|series-parallel graph composition:
+** parallel graph composition: it is a commutative operation (for unlabelled graphs),
+** series graph composition: it is a non-commutative operation,
+** source graph composition: it is a commutative operation (for unlabelled graphs);
+* Hajós construction.
+
+Notes
+<references/>
+
+DEFAULTSORT:Graph Operations
+Category:Graph operations|*

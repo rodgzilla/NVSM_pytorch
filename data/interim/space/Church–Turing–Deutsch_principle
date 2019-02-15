@@ -1,0 +1,33 @@
+In computer science and quantum physics, the Church–Turing–Deutsch principle (CTD principle)<ref>cite web|last=Nielsen|first=Michael|title=Interesting problems: The Church–Turing–Deutsch Principle|url=http://michaelnielsen.org/blog/interesting-problems-the-church-turing-deutsch-principle|accessdate=10 May 2014</ref> is a stronger, physical form of the Church&ndash;Turing thesis formulated by David Deutsch in 1985.
+
+Statement
+The principle states that a Turing completeness|universal computer|computing device can simulation|simulate every physical process.
+
+History
+The principle was stated by Deutsch in 1985 with respect to finitary machines and processes.<!-- so who (re)interpreted it in the form stated here? --> He observed that classical physics, which makes use of the concept of real numbers, cannot be simulated by a Turing machine, which can only represent computable reals. Deutsch proposed that quantum computers may actually obey the CTD principle, assuming that the laws of quantum physics can completely describe every physical process.
+
+An earlier version of this thesis for classical computers was stated by Alan Turing's friend and student Robin Gandy in 1980.<ref>Gandy, R. (1980). Church’s thesis and principles for mechanisms. ''Studies in Logic and the Foundations of Mathematics'' (101), 123–148</ref><ref>cite web|last=Kaznatcheev|first=Artem|title=Falsifiability and Gandy’s variant of the Church-Turing thesis|url=https://egtheory.wordpress.com/2014/09/01/falsifiability-and-gandys-variant-of-the-church-turing-thesis/|accessdate=23 July 2018</ref>
+
+See also
+* Quantum complexity theory
+* Digital physics
+* Holographic principle and Bekenstein bound, which prohibit unlimited precision real numbers in the physical universe <!-- see http://arxiv.org/abs/quant-ph/0502072, p. 12 -->
+
+Notes
+Reflist
+
+References
+*cite journal|last=Deutsch|first=D.|year=1985|title=Quantum theory, the Church&ndash;Turing principle and the universal quantum computer|journal=Proceedings of the Royal Society|location=London|volume=400|pages=97&ndash;117|url=http://www.cs.berkeley.edu/~christos/classics/Deutsch_quantum_theory.pdf|doi=10.1098/rspa.1985.0070
+
+Further reading
+*cite book|last=Deutsch|first=D.|title=The Fabric of Reality|publisher=Allan Lane|location=New York|year=1997|chapter=6: Universality and the Limits of Computation|isbn=0-14-027541-X
+* Christopher G. Timpson ''Quantum Computers: the Church-Turing Hypothesis Versus the Turing Principle'' in Christof Teuscher, Douglas Hofstadter (eds.) ''Alan Turing: life and legacy of a great thinker'', Springer, 2004, ISBN|3-540-20020-7, pp.&nbsp;213–240
+
+External links
+*cite web|url=http://michaelnielsen.org/blog/?p=71|title=Interesting problems: The Church–Turing–Deutsch Principle|last=Nielsen|first=Michael|date=2004-04-16|authorlink=Michael Nielsen
+
+DEFAULTSORT:Church-Turing-Deutsch principle
+Category:Alan Turing
+Category:Principles
+Category:Computability theory
+Category:Theory of computation

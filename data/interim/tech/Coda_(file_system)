@@ -1,0 +1,67 @@
+update|date=September 2013
+Infobox filesystem
+| name                    = Coda
+| developer               = Carnegie Mellon University
+| full_name               = 
+| introduction_date       = 1987
+| introduction_os         = 
+| partition_id            = 
+| directory_struct        = 
+| file_struct             = 
+| bad_blocks_struct       = 
+| max_file_size           = 
+| max_files_no            = 
+| max_filename_size       = 
+| max_volume_size         = 
+| dates_recorded          = 
+| date_range              = 
+| date_resolution         = 
+| forks_streams           = 
+| attributes              = 
+| file_system_permissions = 
+| compression             = 
+| encryption              = 
+| data_deduplication      = 
+| copy_on_write           = 
+| OS                      = Linux kernel, NetBSD FreeBSD|
+
+Coda is a distributed file system developed as a research project at Carnegie Mellon University since 1987 under the direction of Mahadev Satyanarayanan. It descended directly from an older version of Andrew File System (AFS-2) and offers many similar features. The InterMezzo (file system)|InterMezzo file system was inspired by Coda.
+
+Features
+Coda has many features that are desirable for network file systems, and several features not found elsewhere.
+
+# Disconnected operation for mobile computing.
+# Is freely available under the GPL<ref>cite web |url=http://www.coda.cs.cmu.edu/maillists/coda-announce/0040.html |title=New release: 5.0.pre1 |date=1999-01-06 |accessdate=2015-09-11 </ref>
+# High performance through client side persistent caching
+# Server replication
+# Security model for authentication, encryption and access control
+# Continued operation during partial network failures in server network
+# Network bandwidth adaptation
+# Good scalability
+# Well defined semantics of sharing, even in the presence of network failure
+
+Coda uses a local cache to provide access to server data when the network connection is lost. During normal operation, a user reads and writes to the file system normally, while the client fetches, or "hoards", all of the data the user has listed as important in the event of network disconnection. If the network connection is lost, the Coda client's local cache serves data from this cache and logs all updates. This operating state is called disconnected operation. Upon network reconnection, the client moves to reintegration state; it sends logged updates to the servers. Then it transitions back to normal connected-mode operation.
+
+Also different from AFS is Coda's data replication method. AFS uses a pessimistic replication strategy with its files, only allowing one read/write server to receive updates and all other servers acting as read-only replicas. Coda allows all servers to receive updates, allowing for a greater availability of server data in the event of network partitions, a case which AFS cannot handle.
+
+These unique features introduce the possibility of semantically diverging copies of the same files or directories, known as "conflicts". Disconnected operation's local updates can potentially clash with other connected users' updates on the same objects, preventing reintegration. Optimistic replication can potentially cause concurrent updates to different servers on the same object, preventing replication. The former case is called a "local/global" conflict, and the latter case a "server/server" conflict. Coda has extensive repair tools, both manual and automated, to handle and repair both types of conflicts.
+
+ Supported platforms 
+
+Coda has been developed on Linux. Support for it appeared in the 2.1 Linux kernel series.<ref>cite web |url=https://lkml.org/lkml/1998/1/6/55 |title=Linux Kernel mailing list, [PATCH] Coda |date=1998-01-06 </ref> It has also  been ported to FreeBSD.  Subsequently obsoleted there, efforts is under way to bring it back.<ref>https://github.com/trasz/freebsd/tree/coda</ref> Efforts have been made to port Coda to Microsoft Windows, from the Windows 95/Windows 98 era, Windows NT<ref name="acm_coda_ms_port">cite journal|url=http://portal.acm.org/citation.cfm?id=1268738|title=Porting the coda file system to windows|journal=Proc. USENIX Annual Technical Conference|year=1999|page=30|author=Braam, P. J.|publisher=USENIX Association|accessdate=2009-04-15|display-authors=etal</ref> to Windows XP,<ref name="cmu_msxp_support">cite web|url=http://www.coda.cs.cmu.edu/windowsnt.html|title=Coda Support for Windows XP| accessdate=2009-04-15</ref> by means of open source projects like the DJGCC|DJGCC DOS C Compiler and Cygwin.<ref name="acm_coda_ms_port"/>
+
+ References 
+reflist
+
+ External links 
+*[http://www.coda.cs.cmu.edu/ Coda website at Carnegie Mellon University]
+*Coda: a highly available file system for a distributed workstation network, Mahadev Satyanarayanan James J. Kistler, Puneet Kumar, IEEE Transactions on Computers, Vol. 39, No. 4, April 1990
+*[http://linuxplanet.com/linuxplanet/tutorials/4481/1/ The Coda Distributed Filesystem for Linux], Bill von Hagen, October 7, 2002.
+*[http://www.coda.cs.cmu.edu/ljpaper/lj.html The Coda Distributed File System with Picture representation], Peter J. Braam, School of Computer Science,
+Filesystem
+
+DEFAULTSORT:Coda (File System)
+Category:Network file systems
+Category:Distributed file systems
+Category:Distributed file systems supported by the Linux kernel
+Category:Carnegie Mellon University software

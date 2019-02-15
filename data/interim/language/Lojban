@@ -1,0 +1,497 @@
+Infobox language
+|name=lang|jbo|Lojban
+|nativename=lang|jbo|la .lojban.
+|pronunciation=IPA-art|laʔˈloʒbanʔ|
+|image=Lojban flag public domain.svg
+|imagesize=200px
+|creator=Logical Language Group
+|created=1987
+|setting=a logically engineered language for various usages
+|fam1=Constructed languages
+|fam2=engineered languages
+|fam3=engineered language#Logical languages|logical languages
+|script=Latin script|Latin and others
+|posteriori=Loglan, Láadan
+|iso2=jbo
+|iso3=jbo
+|notice=IPA
+|glotto=none
+
+
+Lojban (pronounced IPA-art|ˈloʒban||jbo-lojban.ogg) is a constructed language|constructed, Syntactic ambiguity|syntactically unambiguous human language<!-- based on predicate logic-->, succeeding the Loglan project.
+
+The Logical Language Group (LLG) began developing Lojban in 1987. The LLG sought to realize Loglan's purposes, and further improve the language by making it more usable and freely available (as indicated by its official full English title, "Lojban: A Realization of Loglan"). After a long initial period of debating and testing, the baseline was completed in 1997, and published as ''The Complete Lojban Language''. In an interview in 2010 with ''The New York Times'', Arika Okrent, the author of ''In the Land of Invented Languages'', stated: "The constructed language with the most complete grammar is probably Lojban—a language created to reflect the principles of logic."<ref>cite news |date=March 10, 2010 |url=http://schott.blogs.nytimes.com/2010/03/10/questions-answered-invented-languages/ |title=Questions Answered: Invented Languages |publisher=The New York Times Schott's Vocab blog</ref>
+
+Lojban is proposed as a speakable language for communication between people of different language backgrounds, as a potential means of machine translation and to explore the intersection of human language and software.
+
+Etymology
+The name "lang|jbo|Lojban" is a compound (linguistics)|compound formed from lang|jbo|loj and lang|jbo|ban, which are short forms of lang|jbo|logji (logic) and lang|jbo|bangu (language).
+
+ History 
+Lojban's predecessor, Loglan, a language invented by James Cooke Brown in 1955 and later developed by The Loglan Institute, Loglan was originally conceived as a means to examine the influence of language on the speaker's thought (an assumption known as the Linguistic relativity|Sapir–Whorf hypothesis).
+
+As Brown started to claim his copyright<ref>cite web|url=http://arj.nvg.org/lojban/why-i-like.html|title=Why I like Lojban|work=nvg.org</ref><ref>cite web|url=http://www.ainewsletter.com/newsletters/aix_0503.htm#loglan|title=AI Newsletter|work=ainewsletter.com</ref> on the language's components, bans were put on the community's activity to stop them changing aspects of the language. In order to circumvent such control, a group of people decided to initiate a separate project, departing from the lexical basis of Loglan and reinventing the whole vocabulary, which led to the current lexicon of Lojban. In effect they established in 1987 The Logical Language Group, based in Washington, D.C. They also won a trial over whether they could call their version of the language "Loglan".<ref>Johansen, Arnt Richard. [http://arj.nvg.org/lojban/why-i-like.html ''Why I like Lojban''] (accessed August 2007)</ref>
+<!--Lojban was developed to be a worldlang.  -->
+
+The phonetic form of Lojban lang|jbo|gismu (root words) was created algorithmically by searching for sound patterns in words with similar meanings in world languages and by multiplying those sound patterns by the number of speakers of those languages. The list of source languages used for the algorithm was limited to the six List of languages by number of native speakers|most widely spoken languages as of 1987—Mandarin Chinese|Mandarin, English language|English, Hindi, Spanish language|Spanish, Russian language|Russian, and Arabic. This resulted in root words being in their phonetic form a relatively equal mixture of English and Mandarin, with lesser influences from the other four.<ref>cite web|url=https://lojban.github.io/cll/4/14/|title=The Shape Of Words To Come: Lojban Morphology - The Lojban Reference Grammar|website=lojban.github.io</ref><ref>cite web|url=https://mw.lojban.org/papri/me_lu_ju'i_lobypli_li'u_13_moi|title=me lu ju'i lobypli li'u 13 moi - La Lojban|website=mw.lojban.org</ref><ref>cite web|url=https://mw.lojban.org/papri/me_lu_ju'i_lobypli_li'u_14_moi|title=me lu ju'i lobypli li'u 14 moi - La Lojban|website=mw.lojban.org</ref>
+
+Lojban has also taken the set of evidential indicators from the constructed language Láadan.<ref>Cowan, John. [https://lojban.github.io/cll/13/11/ The Complete Lojban Language 13.11]</ref>
+
+Following the publication of ''The Complete Lojban Language'', it was expected that "the documented lexicon would be baselined, and the combination of lexicon and reference grammar would be frozen for a minimum of 5 years while language usage grew."<ref>[https://mw.lojban.org/papri/Official_Baseline_Statement_(2002/2003) ''Official Baseline Statement'']. lojban.org</ref> As scheduled, this period, which has officially been called the "freeze", expired in 2002. The speakers of Lojban are now free to construct new words and idioms, and decide where the language is heading.
+
+Applications
+While the initial aim of the Loglan project was to investigate linguistic relativity, the active Lojban community recognizes additional applications for the language, including but not limited to:
+* Improved human–human communication, due to the logical and unambiguous structure and greater means of expression (use as a speakable language)
+** Eliminating ambiguity in language
+* Use as an education|educational tool
+* Research in artificial intelligence|artificial intelligence and machine understanding
+** Improved human–computer communication, ontology (information science)|storage ontologies, and machine translation|computer translation of natural language text
+* Research in linguistics
+* Use as an academic language, such as in science or philosophy
+<!--* Official language of The United People of Earth (UPE)--><!--Note that these goals are not crucial to the Lojban community, most of whom simply want to enjoy communicating with each other in Lojban.citation needed|date=August 2012-->
+
+=Lojban as a speakable language=
+Lojban is practiced by its speakers in text<ref>cite web|url=http://www.lojban.org/resources/irclog/|title=Index of /resources/irclog|website=www.lojban.org</ref> and voice<ref>cite web|url=https://mw.lojban.org/papri/Recordings_of_live_Lojban_discussions|title=Recordings of live Lojban discussions - La Lojban|website=mw.lojban.org</ref> chats.
+
+ Learning aids 
+Apart from the actual practice of the language, some members of the community and LLG have been endeavoring to create various aids for the learners. ''The Complete Lojban Language'' (''CLL'', also known as ''The Red Book'' because of its color, and ''The Codex Woldemar'', after its author), the definitive word on all aspects of Lojban, is one of them, finalized in 1997. Some of the projects in varying stages of completeness are:
+* Different textbooks, presentations to help learning Lojban<ref>cite web|url=https://mw.lojban.org/papri/Learning/en|title=Welcome!/en - La Lojban|website=mw.lojban.org</ref>
+* la muplis, an application listing Lojban sentences from Tatoeba database with their translation to other languages<ref>cite web|url=https://mw.lojban.org/extensions/ilmentufa/i/muplis/index.html#sisku/gleki|title=Page Redirection|website=mw.lojban.org</ref>
+<!--* Phrasebook: Lojbanic Phrasebook Project, CVS/Wiki Lojban Phrasebook, Pocket Dictionary-->
+* Parser: lang|jbo|la ilmentufa<ref>cite web|url=https://mw.lojban.org/extensions/ilmentufa/camxes-exp.html|title=Page Redirection|website=mw.lojban.org</ref> (also includes experimental grammar), lang|jbo|la camxes<ref>cite web|url=http://camxes.lojban.org|title=coi pilno mi'e camxes -- visual camxes|website=camxes.lojban.org</ref> (by Robin Lee Powell and Jorge Llambías), lang|jbo|la jbofi'e<ref>cite web|url=http://www.lojban.org/jboski|title=Lojbanic Translator|website=www.lojban.org</ref> (by Richard Curnow)
+* Database: lang|jbo|[http://jbovlaste.lojban.org/ la jbovlaste] (initial version by Jay Kominek)<!--, Reference Database (by Matt Arnold on DabbleDB)-->
+<!--* Others: Lojban/Logic book and webpage (by John Clifford), TLI Loglan Interface (by Steven Belknap and Bob LeChevalier)
+
+:(''see also – External link: Learning Courses/Resources'')-->
+Currently, Lojban's learning resources available on the internet are available mainly to speakers of English, French, Spanish, Russian, Hebrew, and Esperanto, to varying degrees.<ref>[https://mw.lojban.org/papri/Learning Lojban materials in other languages] (accessed September 2015)</ref>
+
+= Lojban as a literary and cultural language=
+Like most languages with few speakers, Lojban lacks much of an associated body of literature and its creative extensions have not been fully realized (the true potential of its attitudinal system, for example, is considered unlikely to be drawn out "until and unless we have children raised entirely in a multi-cultural Lojban-speaking environment"<ref>Cowan, John. [https://lojban.github.io/cll/ The Complete Lojban Language 13.16]</ref>). Also such collective or encyclopedic sources of knowledge like the :jbo:|Lojban Wikipedia, which may help expand the language's lexical horizon, are not very well developed.
+
+Presently accessible Lojbanic writings are principally concentrated on Lojban.org,<ref>cite web|url=https://mw.lojban.org/papri/te_gerna_la_lojban|title=te gerna la lojban - La Lojban|website=mw.lojban.org</ref> though there exist independent Lojbanic blog/journal sites as well. The Lojban IRC<ref>cite web|url=https://mw.lojban.org/extensions/ilmentufa/irci/|title=Page Redirection|website=mw.lojban.org</ref> (or its archive<ref>cite web|url=http://www.lojban.org/resources/irclog/|title=Index of /resources/irclog|website=www.lojban.org</ref>) has a gathering of Lojbanic expressions too, but its grammatical correctness is not always guaranteed. These available materials on the internet include both original works and translations of classic pieces in the field of natural languages, ranging from poetry, short story, novel, and essay|academic writing. <!-- This has been paralleled with a chrestomathy project aiming to produce a collection of translated writings in order to show wide samplings of various language, hopefully longer than formatnum:10000 words and with a variety of genres and styles<ref>Lojban.org [https://mw.lojban.org/papri/official_LLG_Projects Official LLG Projects: Chrestomathy] (accessed August 2007)</ref> (''see also – External link: Literature''). --> Examples of works that are already available include:
+* ''Alice's Adventures in Wonderland''<ref>cite web|url=https://mw.lojban.org/papri/lo_selfri_be_la_.alis._bei_bu%27u_la_selmacygu%27e|title=lo selfri be la .alis. bei bu'u la selmacygu'e|website=alis.lojban.org</ref>
+* ''The Wonderful Wizard of Oz''<ref>cite web|url=https://mw.lojban.org/papri/lo_se_manci_te_makfa_pe_la_.oz.|title=lo se manci te makfa pe la .oz. - La Lojban|website=mw.lojban.org</ref>
+* ''The Little Prince''<ref>cite web|url=https://mw.lojban.org/papri/le_cmalu_noltru|title=le cmalu noltru - La Lojban|website=mw.lojban.org</ref>
+* ''The Metamorphosis''<ref>cite web|url=https://mw.lojban.org/papri/lo_nu_binxo|title=lo nu binxo - La Lojban|website=mw.lojban.org</ref>
+* ''In a Grove''<ref>cite web|url=https://mw.lojban.org/papri/lo_nenri_be_lo_spati_denmi|title=lo nenri be lo spati denmi - La Lojban|website=mw.lojban.org</ref>
+* ''The Book of Esther''<ref>cite web|url=https://mw.lojban.org/papri/Esther|title=Esther - La Lojban|website=mw.lojban.org</ref>
+
+Lojban has also been used in other media. For example, the videogame ''Minecraft'' has been partially translated into Lojban.<ref>cite web|url=https://mw.lojban.org/papri/Lojbanic_Software|title=Lojbanic Software - La Lojban|website=mw.lojban.org</ref><ref>cite web|url=https://crowdin.com/project/minecraft|title=Minecraft — Translation Project on Crowdin|website=Crowdin</ref>
+
+=Lojban as a means of creativity=
+Lojban is seen by some as an intellectual device for creative writing or as having many potential aspects yet to be discovered or explored.<!--citation needed|date=May 2015-->
+
+Dan Parmenter:
+
+quotation|The removal of grammatical ambiguity from modification [...] seems to heighten creative exploration of word combination. [...] Other areas of possible benefit are (surprisingly in a 'logical' language) emotional expression. Lojban has a fully developed set of metalinguistic and emotional attitude indicators that supplant much of the baggage of aspect and mood found in natural languages, but most clearly separate indicative statements from the emotional communication associated with those statements. This might lead to freer expression and consideration of ideas, since stating an idea can be distinguished from supporting that idea. The set of possible indicators is also large enough to provide specificity and clarity of emotions that is difficult in natural languages.
+
+John W. Cowan|John Cowan:
+
+quotation|There is a marker for "figurative speech" which would be used on "back stabber" and would signal "There is a culturally dependent construction here!" The intent is not that everything is instantly and perfectly comprehensible to someone who knows only the root words, but rather that non-root words are built up creatively from the roots. Thus "heart pain" would refer to the literal heart and literal pain;
+what would be ambiguous would be the exact connection between these two. Is the
+pain in the heart, because of the heart, or what? But "heart pain" would not be
+a valid tanru for "emotional pain", absent the figurative speech marker.<ref>[http://www.lojban.org/files/why-lojban/swh.txt ''Computer Network Discussions on Loglan/Lojban and Linguistics: Lojban as seen by the linguistics and cognitive science community'' 20, 23]</ref>
+
+quotation|The language was built to attempt to remove some limits on human thought; these limits are not understood, so that the tendency is to try to remove restrictions whenever we find the language structure gets in our way. You definitely can talk nonsense in Lojban.
+
+Bob LeChevalier:
+
+quotation|In Lojban, a little grammar makes for a lot of semantic fun, since the grammar doesn't interfere with the semantic quibble you love. [...] In addition to its grammar, Lojban is definitely a priori in its words[...] We presume that everything can be covered as compounds of the classification scheme implied by the lang|jbo|gismu ''[root words]''. [...] We haven't, though, tried to impose a system on the universe like most a priori languages have. Instead, we have tried to broaden lang|jbo|gismu flexibility so that multiple approaches to classifying the universe are possible. Our rule is that any word have one meaning, not that any meaning have one word. There is no 'proper' classification scheme in Lojban. [...] Lojban offers a new world of thought.<ref>[http://www.lojban.org/files/why-lojban/whylojb.txt ''Why Lojban?'']</ref>
+
+=Lojban as a potential Interlingual machine translation|machine interlingua=
+There have been proposals<ref>cite web|url=http://wiki.opencog.org/w/Category:Lojban|title=Category:Lojban - OpenCog|website=wiki.opencog.org</ref><ref>cite web|url=https://groups.google.com/d/topic/opencog/_bp40fVZya0/discussion|title=Google Groups|website=groups.google.com</ref><ref>cite web|url=https://groups.google.com/d/topic/opencog/7mwTsU6E3iA/discussion|title=Google Groups|website=groups.google.com</ref><ref>Ben Goertzel|Goertzel, Ben: [http://www.goertzel.org/new_research/lojban_AI.pdf Potential Computational Linguistics Resources for Lojban.] Self-published, March 6, 2005.</ref><ref>Hintz, Gerold: [https://www.lt.informatik.tu-darmstadt.de/fileadmin/user_upload/Group_LangTech/student_theses/Semantic_parsing_using_Lojban_-_On_the_middle_ground_between_semantic_ontology_and_language.pdf Semantic parsing using Lojban - On the middle ground between semantic ontology and language.] Technische Universität Darmstadt, August, 2014.</ref><ref>Speer, Rob; Havasi, Catherine: [http://web.mit.edu/rspeer/Public/jimpe.pdf Meeting the Computer Halfway: Language Processing in the Artificial Language Lojban.] Massachusetts Institute of Technology, 2004.</ref> to use Lojban as an intermediate language in machine translation and Knowledge representation and reasoning|knowledge representation.
+
+=Lojban as a programming language=
+Constructs in programming languages have been shown<ref>cite web|url=https://mw.lojban.org/papri/Writing_algorithms_in_Lojban|title=Writing algorithms in Lojban - La Lojban|website=mw.lojban.org</ref><ref>cite web|url=https://mw.lojban.org/papri/User:Ramcinfo/lojbo_staile_liste#Inspired_by_programming_languages|title=User:Ramcinfo/lojbo staile liste - La Lojban|website=mw.lojban.org</ref> to be translated to Lojban.
+
+Like with some programming languages Lojban grammar can be parsed using parsing expression grammars.<ref>cite web|url=https://mw.lojban.org/papri/PEG|title=PEG - La Lojban|website=mw.lojban.org</ref><ref>cite web|url=http://users.digitalkingdom.org/~rlpowell/hobbies/lojban/grammar/|title=Issues With The Lojban Formal Grammar|website=users.digitalkingdom.org</ref>
+
+=Lojban as a speakable logic=
+Lojban has been shown<ref>cite web|url=https://gitlab.com/zugz/tersmu|title=zugz / tersmu|website=GitLab</ref> to be translated in some of its parts into predicate logic. There are also analogies<ref>cite web|url=https://wiki.haskell.org/Lojban#Analogies_of_combinatory_logic_combinators|title=Lojban - HaskellWiki|website=wiki.haskell.org</ref> between Lojban and combinatory logic.
+
+Linguistic properties
+Lojban:
+* <!-- has a grammar that is based on predicate logic, -->is designed to express complex logical constructs precisely.
+* has no irregularities or ambiguities in spelling and grammar (although word derivation relies on arbitrary variant forms). This gives rise to high intelligibility for parsing|computer parsing.
+* is designed to be as culturally neutral as possible.
+* allows highly second-language acquisition|systematic learning and use, compared to most natural languages.
+* possesses an intricate system of indicators which effectively communicate contextual attitude (psychology)|attitude or emotions.<!--* It does not have simplicity as a design criterion.-->
+
+= Grammar =
+Main article| Lojban grammar
+
+= Phonology and orthography =
+
+File:Lojban Lords Prayer.ogg|thumb|The Lord's Prayer in Lojban
+
+Lojban has 6 vowels and 17 consonants. Some of them have, apart from the preferred/standard sounds, permitted variants intended to cover dissimilitude in pronunciation by speakers of different linguistic backgrounds.
+
+Stress normally falls on the penultimate syllable.
+
+There are 16 diphthongs (and no triphthongs). A distinction between diphthongs and monophthongs can be written by inserting a comma in the Latin alphabet. Vowel hiatus is also prevented by inserting an apostrophe, which usually indicates IPA|[h], though there are other valid realizations. For those who have trouble pronouncing certain consonant clusters, there is the option of adding vowels between them (epenthesis), as long as they differ sufficiently from the phonological vowels and are pronounced as short as possible. The resulting additional syllables are not factored in the grammar, including for the purposes of stress determination.
+
+Lojban is written almost entirely with lower-case letters; upper-case letters are used to mark stress in words that do not fit the normal rules of stress assignment, or when whitespace is omitted.
+
+The letters in Lojban and their respective pronunciations are shown in the table below. The International Phonetic Alphabet|IPA symbols in parentheses indicate alternative pronunciations; preferred pronunciations have no parentheses.
+
+{| class="wikitable" style="text-align: center;"
+|+ Lojban consonant phonemes
+|-
+! colspan="2" |
+! Labial consonant|Labial
+! Alveolar consonant|Alveolar
+! Postalveolar consonant|Postalveolar
+! Velar consonant|Velar
+! Glottal consonant|Glottal
+|-
+! colspan="2" | Nasal stop|Nasal
+| IPAslink|mr|footnote1|group=decimal || IPAslink|nr|footnote1|group=decimal ||  ||  || 
+|-
+! rowspan="2" | Plosive consonant|Plosive
+! style="font-size: 80%;" | Voiceless consonant|voiceless
+| IPAslink|p || IPAslink|t ||  || IPAslink|k || rowspan="2" | IPAslink|ʔ
+|-
+! style="font-size: 80%;" | Voiced consonant|voiced
+| IPAslink|b || IPAslink|d ||  || IPAslink|ɡ
+|-
+! rowspan="2" | Fricative consonant|Fricative
+! style="font-size: 80%;" | Voiceless consonant|voiceless
+| IPAslink|f (IPAblink|ɸ) || IPAslink|s || IPAslink|ʃ (IPAblink|ʂ) || IPAslink|x || rowspan="2" | IPAslink|h (IPAblink|θ)
+|-
+! style="font-size: 80%;" | Voiced consonant|voiced
+| IPAslink|v (IPAblink|β) || IPAslink|z || IPAslink|ʒ (IPAblink|ʐ) || 
+|-
+! colspan="2" | Approximant consonant|Approximant
+|  || IPAslink|lr|footnote1|group=decimal ||  ||  || 
+|-
+! colspan="2" | Rhotic consonant|Rhotic
+|  || colspan="3" | IPAslink|rr|footnote1|group=decimalr|footnote2|group=decimal || 
+|}
+
+{| class="wikitable" style="text-align: center;"
+|+ Lojban vowel phonemes
+|-
+! 
+! Front vowel|Front
+! Central vowel|Central
+! Back vowel|Back
+|-
+! Close vowel|Close
+| IPAslink|i ||  || IPAslink|u
+|-
+! Mid vowel|Mid
+| IPAslink|ɛ (IPAblink|e) || IPAslink|ə || IPAslink|o (IPAblink|ɔ)
+|-
+! Open vowel|Open
+| colspan="3" | IPAslink|a (IPAblink|ɑ)
+|}
+
+{| class="wikitable" border="1"
+!
+! colspan="23" | Letters
+! colspan="3" | Auxiliary characters
+|- align=center
+! International Phonetic Alphabet|IPA
+| IPAblink|a<br />(IPAblink|ɑ)
+| IPAblink|b
+| IPAblink|ʃ<br />(IPAblink|ʂ)
+| IPAblink|d
+| IPAblink|ɛ<br />(IPAblink|e)
+| IPAblink|f<br />(IPAblink|ɸ)
+| IPAblink|ɡ
+| IPAblink|i
+| IPAblink|ʒ<br />(IPAblink|ʐ)
+| IPAblink|k
+| IPAblink|lr|footnote1|group=decimal
+| IPAblink|mr|footnote1|group=decimal
+| IPAblink|nr|footnote1|group=decimal
+| IPAblink|o<br />(IPAblink|ɔ)
+| IPAblink|p
+| IPAblink|rr|footnote1|group=decimalr|footnote2|group=decimal
+| IPAblink|s
+| IPAblink|t
+| IPAblink|u
+| IPAblink|v<br />(IPAblink|β)
+| IPAblink|x
+| IPAblink|ə
+| IPAblink|z
+| IPAblink|h<br />(IPAblink|θ)
+| IPAblink|ʔ
+| .
+|- align=center
+! Latin alphabet|Latin
+| a
+| b
+| c
+| d
+| e
+| f
+| g
+| i
+| j
+| k
+| l
+| m
+| n
+| o
+| p
+| r
+| s
+| t
+| u
+| v
+| x
+| y
+| z
+| '
+| .
+| , 
+|}
+
+reflist |group=decimal |refs=
+<ref name=footnote1>Sonorants IPA|/m n l r/ may be syllabic consonant|syllabic.</ref>
+<ref name=footnote2>There is no preferred sound for IPA|/r/; any rhotic consonant|rhotic sound is equally acceptable.</ref>
+
+
+In principle, Lojban may be written in any orthographic system as long as it satisfies the required regularities and unambiguities. Some of the reasons for such elasticity would be as follows:
+# Lojban is defined by the phonemes rather than graphemes; as long as they are correctly rendered so as to maintain the Lojbanic audio-visual isomorphism, a representational system can be said to be an appropriate orthography of the language;
+# Lojban is meant to be as culturally neutral as possible, so it is never crucial or fundamental to claim that some particular orthography of some particular languages (e.g. the Latin alphabet) should be the dominant mode.
+
+Some Lojbanists extend this principle to claim that even an original orthography of the language is to be sought.<ref>Kena. [http://vodka-pomme.net/projects/tengwar-for-lojban/write#lojban ''Vodka-Pomme: Considerations on writing: The case of lojban''] (accessed August 2007)</ref>
+
+This article uses the common Latin alphabet mode.
+
+= Morphology =
+Lojban has three parts of speech|word-classes: predicate words (lang|jbo|brivla), structure words (lang|jbo|cmavo), and name words (lang|jbo|cmevla). Each of them has uniquely identifying properties, so that one can unambiguously recognize which word is of which part of speech in a string of the language. They may be further divided in sub-classes. There also exists a special fragmental form assigned to some predicate words and structure words, from which compound words (lang|jbo|lujvo) may be created.<ref>Cowan, John Woldemar. [https://mw.lojban.org/papri/the_Lojban_Reference_Grammar  ''The Complete Lojban Language: 4.1]'' (accessed August 2007)</ref><ref>Nicholas, Nick, and John Cowan. [http://lojban.org/publications/level0/brochure/morphol.html  ''What is Lojban?: 2.2''] (accessed August 2007)</ref>
+
+= Syntax and semantics =
+The language's grammatical structures are "defined by a set of rules that have been tested to be unambiguous using computers", which is in effect called the "machine grammar".<ref>Nicholas, Nick. John Cowan. [http://lojban.org/publications/level0/brochure/grammar.html ''What Is Lojban? II.3'']</ref> Hence the characteristics of the standard syntactic (not semantic) constructs in Lojban:
+* each word has exactly one grammatical interpretation;
+* the words relate grammatically to each other in exactly one way.
+
+Such standards, however, are to be attained with certain carefulness:
+
+quotation
+|It is important to note that new Lojbanists will not be able to speak 'perfectly' when first learning Lojban. In fact, you may never speak perfectly in 'natural' Lojban conversation, even though you achieve fluency in the language. No English speaker always speaks textbook English in natural conversation; Lojban speakers will also make grammatical errors when talking quickly. Lojbanists will, however, be able to speak or write unambiguously if they are careful, which is difficult if not impossible with a natural language.<br /><br />Nick Nicholas and John Cowan. '[http://lojban.org/publications/level0/brochure/grammar.html ''What Is Lojban? II.3'']
+
+The computer-tested, unambiguous rules also include grammar for 'incomplete' sentences e.g. for narrative, quotational, or mathematical phrases.
+
+Its Linguistic typology|typology can be said to be basically subject–verb–object and subject–object–verb. However, it can practically be anything:
+* lang|jbo|mi prami do (SVO) (I love you)
+* lang|jbo|mi do prami (SOV) (By me, you are loved)
+* lang|jbo|do se prami mi (OVS) (You are loved by me)
+* lang|jbo|do mi se prami (OSV) (You, I love)
+* lang|jbo|prami fa mi do (VSO) (Loved by me, you are)
+* lang|jbo|prami do fa mi, lang|jbo|se prami fa do mi (VOS) (Love you, I do)
+
+Such flexibility has to do with the language's intended capability to translate as many expressions of natural languages as possible, based on a unique positional case system. The meaning of the sentence lang|jbo|mi prami do is determined by lang|jbo|prami realizing, with its own predefined "place structure", a specific semantic relation between lang|jbo|mi and lang|jbo|do; when the positional relation between lang|jbo|mi and lang|jbo|do changes, the meaning of the sentence changes too. As shown above, Lojban has particular devices to preserve such semantic structure of words while altering their order.
+
+As befits a logical language, there is a large assortment of logical connectives. Such conjunction words take different forms depending on what they connect, another reason why the (standard) Lojbanic expressions are typically precise and clear.
+
+Multiple predicate words may be linked up together so as to narrow the semantic scope of the phrase. In lang|jbo|sutra dansu "to quickly dance", the modifying word lang|jbo|sutra narrows the sense of the modified word lang|jbo|dansu to form a more specific concept (in which case the modifier may resemble English adverbs or adjectives).
+<!--
+* English: ''Several small fires were burning in the house''.
+* Lojban: lang|jbo|so'i cmalu fagri puca'o jelca ne'i le zdani
+* Gloss (annotation)|Gloss: ''many small fire past-continuing burn inside the house'' (Translation after English)
+-->
+One could go still further, adding a quite extreme example of its syntactic flexibility.
+
+Lojban can easily "imitate" even one-word sentences from polysynthetic languages, for example:
+
+* Nuu-chah-nulth language: ''inkiwihl'minik'isit''
+* Gloss (annotation)|Gloss: ''inkiw (fire/burn) -ihl (in-the-house) -'minik (plural) -'is (diminutive) -'it (past-tense)''
+
+which can be expressed in Lojban the same way:
+
+* Lojban: lang|jbo|fagykemyzdanerso'icmapru
+* Gloss: ''fire-type-house-inside-many-small-past-event''
+
+=Lexicon=
+Compound words (lang|jbo|lujvo) and borrowed words (lang|jbo|fu'ivla) are continually increasing as the speakers find demands. The number of root words (lang|jbo|gismu) and structure words (lang|jbo|cmavo) are basically unchanging, but new inventions are to be accepted as experimental components. In fact, it has been noticed that particular inclination or disproportion exists in the available vocabulary. Cortesi<ref>Cortesi, David. [http://nuzban.wiw.org/archive/9110/msg00109.html Lack of Geometry]</ref> has pointed out the lack of certain terms for mathematics and geometry (although this demand may now be disputed as the current set of Lojban vocabulary does actually allow speakers to express such notions as steradian (lang|jbo|stero), trigonometric tangent (lang|jbo|tanjo), multiplicative inverse (lang|jbo|fa'i), matrix transpose (lang|jbo|re'a) among a number of other kinds of operators or metric units). Other instances which require speakers to construct noncanonical words:
+* There are few entries of African country names on the official list of root words while other country names (especially those with large populations of speakers of the six source languages) are covered to a remarkable extent.
+* Such distinction as between lang|jbo|palne (tray) and lang|jbo|palta (plate) exist while no distinction between "illustration" and "photography" is made by the available set of lang|jbo|gismu (that is, no exclusive root word for "photography" exists except the generic lang|jbo|pixra (picture) (''see also – Grammar: Morphology: lang|jbo|brivla: lang|jbo|gismu'').
+
+ Samples 
+
+= Common phrases =
+{| class="wikitable"
+|- 
+! align=left | Lojban
+! align=left | literal meaning
+! align=left | English
+|- valign=top
+|-
+| lang|jbo|coi/lang|jbo|co'o Audio|jbo-coi,co'o.ogg|coi/co'o || hello/goodbye || hello!/good-bye!
+|-
+| lang|jbo|pe'u Audio|jbo-pe'u.ogg|pe'u  || please || please!
+|-
+| lang|jbo|ki'e Audio|jbo-ki'e.ogg|ki'e || thanks || thanks!
+|-
+| lang|jbo|.u'u Audio|jbo-u'u.ogg|u'u || (repentance) || I'm sorry!
+|-
+| lang|jbo|xu do se glibau/lang|jbo|jbobau Audio|jbo-xu do se glibau,jbobau.ogg|xu do se glibau/jbobau || is-it-true-that you is-a-speaker-of-English-language / is-a-speaker-of-Lojban-language || Do you speak English / Lojban?
+|-
+| lang|jbo|ti/lang|jbo|ta/lang|jbo|tu Audio|jbo-ti,ta,tu.ogg|ti/ta/tu || this/that/that-over-there || this one/that one/that yonder
+|-
+| lang|jbo|mi na jimpe Audio|jbo-mi na jimpe.ogg|mi na jimpe || I not-true-that understand || I don't understand
+|-
+| lang|jbo|go'i Audio|jbo-go'i.ogg|go'i || (the last clause) || yes, that's true
+|-
+| lang|jbo|na go'i Audio|jbo-na go'i.ogg|na go'i || not-true-that (the last clause) || no, that's false
+|-
+| lang|jbo|la'u ma Audio|jbo-la'u ma.ogg|la'u ma || being-a-quantity-of what? || How much, how many?
+|-
+| lang|jbo|ma jdima Audio|jbo-ma jdima.ogg|ma jdima || what is-the-price || What's the cost?
+|-
+| lang|jbo|lo vimku'a cu se stuzi ma <!--Audio|jbo-lo vimku'a ma zvati.ogg|lo vimku'a ma zvati --> || toilet (tail of the clause follows) is-located-at what? || Where's the toilet?
+|}
+
+= Some unique Lojbanic expressions =
+{|class=wikitable
+|-
+| Lojban: || lang|jbo|.oi || lang|jbo|ro'o || lang|jbo|bu'o nai || lang|jbo|pei
+|-
+| Gloss: || lang|en|attitudinal: pain! || lang|en|in physical sense || lang|en|attitude ends || lang|en|what's your attitude?
+|-
+| Translation: || colspan=4 | lang|en|Are you no longer in pain?
+|}
+
+{|class=wikitable
+|-
+| Lojban: || lang|jbo|mi || lang|jbo|nelci || lang|jbo|ko
+|-
+| Gloss: || lang|en|I || lang|en|like || lang|en|imperative "you"
+|-
+| Translation: || colspan=3 | Make it so that I like you!
+|}
+{|class=wikitable
+|-
+| Lojban: || lang|jbo|lo || lang|jbo|cukta || lang|jbo|ku || lang|jbo|be'u || lang|jbo|zvati || lang|jbo|ma
+|-
+| Gloss: || lang|en|that which || lang|en|is book(s) || lang|en|end of noun phrase || lang|en|attitudinal: need! || lang|en|is located at || lang|en|what? 
+|-
+| Translation: || colspan=6 | I need the book! Where is it?
+|}
+{|class=wikitable
+|-
+| Lojban: || lang|jbo|ko || lang|jbo|ga'i nai || lang|jbo|klama || lang|jbo|lo || lang|jbo|nenri || lang|jbo|be || lang|jbo|lo || lang|jbo|mi || lang|jbo|zdani
+|-
+| Gloss: || lang|en|imperative "you" || lang|en|attitudinal: meekness! || lang|en|come to || lang|en|that which || lang|en|is inside of || lang|en|[attach arguments of noun]|| lang|en|that which || lang|en|my || lang|en|is home 
+|-
+| Translation: || colspan=9 | I would be honored if you would enter my residence.
+|}
+{|class=wikitable
+|-
+| Lojban: || lang|jbo|le || lang|jbo|pa || lang|jbo|nanmu || lang|jbo|cu || lang|jbo|ninmu
+|-
+| Gloss: || lang|en|the one in question which || lang|en|one || lang|en|is man || lang|en|tail of the clause follows || lang|en|is woman
+|-
+| Translation: || colspan=5 | The man is a woman.
+|}
+{|class=wikitable
+|-
+| Lojban: || lang|jbo|se ri'a || lang|jbo|gi || lang|jbo|mi || lang|jbo|jgari || lang|jbo|lo || lang|jbo|djacu || lang|jbo|gi || lang|jbo|mi || lang|jbo|jgari || lang|jbo|lo || lang|jbo|kabri
+|-
+| Gloss: || lang|en|with physical effect || lang|en|of ( || lang|en|I || lang|en|grasp || lang|en|that which || lang|en|is some water || lang|en|) || lang|en|I || lang|en|grasp || lang|en|that which || lang|en|is cup
+|-
+| Translation: || colspan=11 | I grasp water, since I grasp a cup.
+|}
+
+= ''The North Wind and the Sun'' =
+A translation of ''The North Wind and the Sun''<!--, used in comparative International Phonetic Alphabet|IPA realizations-->.<ref>cite web|url=https://mw.lojban.org/extensions/ilmentufa/o/index.html|title='The North Wind and the Sun' in Lojban|website=mw.lojban.org</ref>
+quotation|lang|jbo|la berti brife jo'u la solri<br /><br />ni'o la berti brife jo'u la solri pu troci lo ka cuxna lo poi me vo'a vau traji be lo ka vlipa i ca'o bo lo pa litru noi dasni lo glare kosta cu klama
+
+.i le re mei pu simxu lo ka tugni fi lo nu lo traji be lo ka clira fa lo nu ce'u snada lo ka gasnu lo nu le litru co'u dasni le kosta cu traji lo ka vlipa
+
+.i ba bo la berti brife co'a traji cupra lo brife i ku'i lo nu by by zenba lo ka cupra lo xo kau brife cu rinka lo nu le litru zu'e ri zenba lo ka se tagji le kosta i ba bo la berti brife co'u troci i ba bo la solri co'a glare dirce i ba zi bo le litru co'u dasni le kosta
+
+.i se ki'u bo la berti brife cu bilga lo ka tugni fi lo nu la solri cu traji lo ka vlipa
+
+= A Lojbanic poem (audio) =
+* ''lang|jbo|Audio|xekri je blanu nicte.ogg|xekri je blanu nicte''
+
+ Community 
+<!--Expand section|date=August 2007-->
+
+= The Internet =
+The activities of Lojban speakers are mostly via the Internet:
+* [https://www.lojban.org/ Lojban.org]: A user-maintained multilingual site, attempting to reflect a cross section of the Lojban community outside of the LLG.
+* [https://mw.lojban.org/papri/Lojban_Live_Chat Lojban chat]: Based on Telegram (messaging service)|Telegram, Slack (software)|Slack messengers and the Freenode IRC network.
+* [https://groups.google.com/forum/#!forum/lojban Lojban Mailing List]: A beginner-oriented means to talk/learn about the language.
+* [https://reddit.com/r/lojban/ Lojban subreddit]: the main Lojban group in Reddit
+<!--* samxarmuj/The Lojban Moo: A multi-user virtual environment, similar to the old text adventure games. A guide is given [http://www.lojban.org/tiki/tiki-index.php?page=The+Lojban+MOO&bl here].
+* [http://community.livejournal.com/lojban le jbopre pe lj's Journal]: A communal Lojban blog.
+* [http://tech.groups.yahoo.com/group/lojban-valsi/ lojban-valsi]: A-word-a-day mailing list on the Yahoo! Groups.-->
+* [https://jbotcan.org jbotcan.org]: A community in which people may practice their Lojban, ask questions, propose Lojban-related ideas, etc.
+* :jbo:Main Page|uikipedias: The Lojban Wikipedia, where discussions may be conversed in English.
+
+= The Logfest =
+Gatherings of Lojbanists have been organized in the USA annually since as early as 1990, called Logfest. It is mostly informal, taking place on a weekend, with the only scheduled activity being the annual meeting of the LLG. Those who cannot be present may still be involved via IRC. Activities may be whatever the attendees want to do: Lojban conversation, lessons, technical discussions, or socializing.
+
+= Population =
+<!--Disproportion in the community population is still noticeable. It is hoped among Lojbanists that more people from different cultural/linguistic backgrounds join the community in order to maintain and further complement the intended neutrality of the language.Citation needed|date = August 2015-->
+
+The total number of Lojban speakers is unknown.
+
+According to mw.lojban.org,<ref>cite web|url=https://mw.lojban.org/papri/Lojban_around_the_world|title=Lojban around the world|work=lojban.org</ref> places known to have concentration of Lojbanists are:
+* Canada, Sweden, Russia, United States
+
+As of|2007|8, Frappr.com shows<ref>cite web|url=http://www.frappr.com/lojban|title=Frap Pr|work=frappr.com</ref> that some people from the following countries are interested in or enthusiasts of the language:
+* Argentina, Canada, China, Estonia, France, Germany, Ireland, Mexico, The Netherlands, New Zealand, Norway, Russia, Thailand, Ukraine, United Kingdom, Venezuela.
+
+Below are some of the notable personalities who have contributed to the development of Lojban:
+* Bob LeChevalier (also known as lang|jbo|la lojbab): the founder and the President of the LLG.<ref name="LLG Members">cite web|url=https://mw.lojban.org/papri/LLG_members|title=LLG Members|work=lojban.org</ref>
+* Robin Lee Powell (also known as lang|jbo|la camgusmis): the author of a novel-sized story, lang|jbo|la nicte cadzu (''Night Walkers'').
+* Jorge Llambías (also known as lang|jbo|la xorxes): one of the most active Lojbanists, having done several translations. He is also a prominent figure on the mailing list, helping beginners with the language.
+* John W. Cowan<!-- (aka ''jcowan'')-->: the author of ''The Complete Lojban Language''.
+* Miles Forster (also known as lang|jbo|la selpa'i): a German Lojbanist who wrote the song ''ca pa djedi''<ref name="ca pa djedi">cite web|url=https://www.youtube.com/watch?v=FZomVOBE5-0|title=Ca Pa Djedi (Original Song in Lojban by selpa'i)|work=YouTube</ref> and made several large translations into Lojban.
+* Robin Turner: a British philosopher and linguist living in Turkey. He is the coauthor of ''Lojban For Beginners''.
+* Nick Nicholas (also known as ''la nitcion''): an Australian linguist. He is the coauthor of ''Lojban For Beginners''.<!--* Matt Arnold (aka ''la epkat''): has been contributing to the translation project and software development.-->
+
+ Comparison with other logical languages 
+
+= Loglan =
+Main article| Comparison between Lojban and Loglan
+The principal difference between Lojban and Loglan is one of lexicon. The words for Lojban were made by the same principles as those for Loglan; that is, candidate forms were chosen according to how many sounds they had in common with their equivalent in some of the most commonly spoken languages on Earth, which was then multiplied by the number of speakers of the languages with which the words had letters in common. The difference with the Lojban remake of the root words was that the weighting was updated to reflect the actual numbers of speakers for the languages. This resulted in word forms that had fewer sounds taken from English, and more sounds taken from Chinese. For instance, the Loglan word ''norma'' is equivalent to the Lojban word lang|jbo|cnano (cf. Chinese language|Chinese 常, pinyin ''cháng''), both meaning "normal".
+
+Loglan and Lojban still have essentially the same grammars, and most of what is said in the #Grammar|Grammar section above holds true for Loglan as well. Most simple, declarative sentences could be translated word by
+word between the two languages.
+
+In the new phonology for Lojban, the consonant ''q'' and the vowel ''w'' were removed, and the consonant ''h'' was replaced by ''x''. The consonant ' (apostrophe) was added with the value of [h] in the International Phonetic Alphabet, but its distribution is such that it can appear only intervocally, and in discussions of the morphology and phonotactics, it is described not as a proper consonant, but a "voiceless glide". (This phoneme is realized as [θ] by some speakers.)
+
+= gua\spi =
+lang|mis|gua\spi is a descendent of Loglan but is tonal language|tonal, developed by Jim Carter. Instead of structure words there are in lang|mis|Gua\spi six different tones. Predicates have only one syllable instead of two. Some of its characteristics, including tones, phonotactics, expressions for masses vs sets, non-existence of metalinguistic negation, etc., received criticism.<ref>cite web|url=https://mw.lojban.org/papri/critique_of_gua%5Cspi|title=critique of gua\spi|work=lojban.org</ref>
+
+ See also 
+* Case grammar
+* FrameNet
+* Simplified Technical English
+* Ithkuil
+
+ References 
+reflist|30em
+
+ External links 
+InterWiki|code=jbo
+sisterlinks|d=Q36350|n=no|v=no|voy=no|wikt=Lojban|mw=no|m=no|species=no|commons=Category:Lojban|q=no|s=no
+* Official website|https://www.lojban.org/
+* [https://mw.lojban.org/papri/Lojban_Live_Chat Lojban chats]
+* [https://lojban.github.com/cll/ Reference grammar]
+* [https://la-lojban.github.io/sutysisku/en/ a searchable dictionary]
+** [https://la-lojban.github.io/sutysisku/ Also available in other languages]
+* [https://mw.lojban.org/papri/Learning/en Learning materials]
+** [https://mw.lojban.org/papri/la_karda la karda: a distilled overview of the Lojban language]
+** [https://mw.lojban.org/papri/Lojban_Wave_Lessons Wave Lessons, another popular textbook]
+** [http://www.memrise.com/courses/english/lojban/ Lojban courses for English speakers]
+** [http://www.lojban.org/publications/cll/cll_v1.1_2016-08-26.pdf Complete Lojban language]
+<!--*DMOZ|Science/Social_Sciences/Linguistics/Languages/Constructed/Logical/Lojban/-->
+Constructed languages
+
+Authority control
+
+Category:Lojban| 
+Category:Constructed languages introduced in the 1980s
+Category:1987 introductions
+Category:Analytic languages
+Category:Engineered languages
+Category:Isolating languages

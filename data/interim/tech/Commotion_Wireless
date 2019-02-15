@@ -1,0 +1,117 @@
+Other uses|Internet in a Box (disambiguation)
+Infobox software
+| title                  = 
+| logo                   = <!-- Image name is enough -->
+| logo caption           = 
+| logo size              = 
+| logo alt               = 
+| screenshot             = <!-- Image name is enough -->
+| caption                = 
+| screenshot size        = 
+| screenshot alt         = 
+| collapsible            = 
+| author                 = 
+| developer              = 
+| released               = <!-- Start date and age|YYYY|MM|DD|df=yes/no -->
+| discontinued           = 
+| latest release version = 
+| latest release date    = Start date and age|2014|10|15|df=yes/no
+| latest preview version = 
+| latest preview date    = <!-- Start date and age|YYYY|MM|DD|df=yes/no -->
+| status                 = 
+| programming language   = 
+| operating system       = 
+| platform               = 	
+| size                   = 
+| language               = 
+| language count         = <!-- Number only -->
+| language footnote      = 
+| genre                  = 
+| license                = GNU GPL
+| alexa                  = 
+| website                = URL|https://www.commotionwireless.net/
+| standard               = 
+
+
+Commotion Wireless is an open-source software|open-source wireless mesh network for electronic communication.<ref name=gigaom>cite web
+ |url        =http://gigaom.com/2012/12/18/detroit-is-the-testing-ground-for-a-new-open-source-wireless-network-technology/
+ |title      =Detroit is the testing ground for a new open source wireless network technology
+ |last       =Higginbotham
+ |first      =Stacey
+ |date       = 18 December 2012
+ |work       = GigaOM
+ |publisher  =
+ |accessdate =
+</ref><ref name=fierce>cite web
+ |url        =http://www.fiercebroadbandwireless.com/story/first-detroit-then-world-commotion-mesh-networking/2012-12-19
+ |title      =First Detroit, then the world for Commotion mesh networking
+ |last       = Parker
+ |first      = Tammy
+ |date       = 19 December 2012
+ |work       = Fierce Broadband Wireless
+ |publisher  =
+ |accessdate =7 March 2013
+</ref> The project was developed by the Open Technology Institute, and development included a $2 million grant from the United States Department of State in 2011 for use as a mobile ad hoc network (MANET), concomitant with the Arab Spring.<ref name=spectrum>cite web
+ |url        =http://spectrum.ieee.org/telecom/internet/building-a-subversive-grassroots-network
+ |title      =Building a Subversive Grassroots Network
+ |author       =Ritchie S. King
+ |date       = July 2011
+ |work       = Spectrum
+ |publisher  = Institute of Electrical and Electronics Engineers
+ |accessdate = 7 March 2013
+</ref>Third-party-inline|date=March 2013 It was preliminarily deployed in Detroit in late 2012,<ref name=gigaom /><ref name=fierce /> and launched generally in March 2013.<ref name=demonow>cite web
+ |url        =http://www.democracynow.org/2013/3/5/sharing_the_internet_new_commotion_wireless
+ |title      =Sharing the Internet: "Commotion Wireless" Technology Lets Communities Create Free Webs of Access
+ |last       = Goodman
+ |first      = Amy
+ |date       = 5 March 2013
+ |work       = Democracy Now
+ |publisher  =
+ |accessdate = 7 March 2013
+</ref> The project has been called an "Internet in a Suitcase".<ref name=nytimes>cite web
+ |url        =https://www.nytimes.com/2011/06/12/world/12internet.html?_r=1
+ |title      =U.S. Underwrites Internet Detour Around Censors
+ |author     =James Glanz and John Markoff
+ |date       = 12 June 2011
+ |publisher  = New York Times
+ |accessdate = 23 April 2013
+</ref><ref name=yahoo>cite web
+ |url        = https://news.yahoo.com/iran-says-block-internet-suitcase-180900065.html
+ |title      = Iran says it can block 'Internet in a suitcase'
+ |author     = Associated Press
+ |date       = 15 July 2011
+ |publisher  = Yahoo News
+ |accessdate = 23 April 2013
+</ref>
+
+Commotion 1.0, the first non-Software release life cycle#Beta|beta release, was launched on December 30, 2013.<ref>cite web |url=http://www.newamerica.org/node/99668 |title=Archived copy |accessdate=2014-01-01 |deadurl=yes |archiveurl=https://web.archive.org/web/20140102200713/http://www.newamerica.org/node/99668 |archivedate=2014-01-02 |df= </ref>
+
+Commotion relies on several open source projects: Optimized Link State Routing Protocol|OLSR, OpenWrt, OpenBTS, and Serval project.<ref>http://www.commotionwireless.net/about/faq</ref>
+
+Supported hardware
+Ubiquiti:
+* PicoStation M2, Release 1 & 1.1, DR2
+* Bullet M2/M5,	Release 1 & 1.1, DR2
+* NanoStation M2/M5, Release 1 & 1.1, DR2
+* Rocket M2/M5, Release 1 & 1.1, DR2
+* UniFi AP, Release 1 & 1.1
+* UniFi Outdoor, Release 1 & 1.1
+
+TP-Link:
+* TL-WDR3600, Release 1.1
+* TL-WDR4300, Release 1.1
+
+Mikrotik:
+* RB411AH, Release 1.1
+
+References
+Reflist|30em
+
+External links
+* Official website|https://www.commotionwireless.net/
+
+Category:Mesh networking
+Category:Wireless networking
+
+
+Technology-stub

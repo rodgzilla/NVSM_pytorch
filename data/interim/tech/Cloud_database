@@ -1,0 +1,103 @@
+A cloud database is a database that typically runs on a cloud computing platform, and access to the database is provided as-a-service. <!-- covered below why it is here: There are two common deployment models: users can run databases on the cloud independently, using a virtual machine image, or they can purchase access to a database service, maintained by a cloud database provider. Of the databases available on the cloud, some are SQL-based and some use a NoSQL data model. -->
+
+Database services take care of scalability and high availability of the database. Database services make the underlying software-stack transparent to the user.citation needed|date=July 2016
+
+ Deployment models 
+Third-party|section|date=April 2016
+There are two primary methods to run a database in a cloud:
+
+; Virtual machine image: Cloud platforms allow users to purchase virtual-machine instances for a limited time, and one can run a database on such virtual machines. Users can either upload their own machine image with a database installed on it, or use ready-made machine images that already include an optimized installation of a database.
+; Database-as-a-service (DBaaS): With a database as a service model, application owners do not have to install and maintain the database themselves. Instead, the database service provider takes responsibility for installing and maintaining the database, and application owners are charged according to their usage of the service.
+
+= Architecture and common characteristics =
+* Most database services offer web-based consoles, which the end user can use to provision and configure database instances.
+* Database services consist of a database-manager component, which controls the underlying database instances using a service API. The service API is exposed to the end user, and permits users to perform maintenance and scaling operations on their database instances.
+* Underlying software-stack stack typically includes the operating system, the database and third-party software used to manage the database. The service provider is responsible for installing, patching and updating the underlying software stack and ensuring the overall health and performance of the database.
+* Scalability features differ between vendorssndsome offer auto-scaling, others enable the user to scale up using an API, but do not scale automatically. 
+* There is typically a commitment for a certain level of high availability (e.g. 99.9% or 99.99%). This is achieved by replicating data and failing instances over to other database instances.
+
+ Data model 
+The design and development of typical systems utilize data management and relational databases as their key building blocks.  Advanced queries expressed in SQL work well with the strict relationships that are imposed on information by relational databases.  However, relational database technology was not initially designed or developed for use over distributed systems.  This issue has been addressed with the addition of clustering enhancements to the relational databases, although some basic tasks require complex and expensive protocols, such as with data synchronization.<ref>A. Anjomshoaa and A. Tjoa, [http://dl.acm.org/citation.cfm?id=2095539&CFID=676853031&CFTOKEN=59417535 "How the cloud computing paradigm could shape the future of enterprise information processing"], Proceedings of the 13th International Conference on Information Integration and Web-based Applications and Services - iiWAS'11, pp. 7-10, 2011.</ref>
+
+Modern relational databases have shown poor performance on data-intensive systems, therefore, the idea of NoSQL has been utilized within database management systems for cloud based systems.<ref>S. Cass, "Designing for the Cloud", MIT Technology Review, 2009. [Online]. Available: https://www.technologyreview.com/s/414090/designing-for-the-cloud/. Retrieved 2016-10-04.</ref>  Within NoSQL implemented storage, there are no requirements for fixed table schemas, and the use of join operations is avoided.  "The  NoSQL  databases  have  proven  to  provide  efficient  horizontal  scalability,  good  performance, and ease of assembly into cloud applications."<ref>"NoSQL", Wikipedia, 2016. Retrieved 2016-10-04.</ref>
+
+It is also important to differentiate between cloud databases which are relational as opposed to non-relational or NoSQL:citation needed|date=July 2015
+
+; SQL databases: are one type of database which can run in the cloud, either in a virtual machine or as a service, depending on the vendor. While SQL databases are easily vertically scalable, horizontal scalability poses a challenge, that cloud database services based on SQL have started to address.<ref name="cnet">Dave Rosenberg, [http://news.cnet.com/8301-13846_3-20022794-62.html Are databases in the cloud really all that different?], ''CNET'', Retrieved 2011-11-6</ref>qn|date=July 2015
+; NoSQL databases: are another type of database which can run in the cloud. NoSQL databases are built to service heavy read/write loads and can scale up and down easily,<ref name="Agrawal2008">cite journal|author = Agrawal, Rakesh |title = The Claremont report on database research |journal = SIGMOD Record |volume = 37 |number = 3 |year = 2008 |issn = 0163-5808 |pages = 9–19 |doi = 10.1145/1462571.1462573 |publisher = Association for Computing Machinery|ACM
+|url= http://db.cs.berkeley.edu/claremont/claremontreport08.pdf
+|display-authors=etal</ref> and therefore they are more natively suited to running in the cloud.: However, most contemporary applications are built around an SQL data model, so working with NoSQL databases often requires a complete rewrite of application code.<ref>Ken North, "[http://drdobbs.com/blogs/database/228701075 SQL, NoSQL or SomeSQL?]", Dr. Dobb's, Retrieved 2011-11-9.</ref>
+: Some SQL databases have developed NoSQL capabilities including JSON, binary JSON (e.g. BSON or similar variants), and key-value store data types.
+: A multi-model database with relational and non-relational capabilities provides a standard SQL interface to users and applications and thus facilitates the usage of such databases for contemporary applications built around an SQL data model. Native multi-model databases support multiple data models with one core and a unified query language to access all data models.
+
+ Vendors 
+The following table lists notable database vendors with a cloud database offering, classified by their deployment model – machine image vs. database as a service – and data model, SQL vs. NoSQL.
+
+<!-- Note: Please only add vendors with articles. Entries for vendors without sourced article will be removed. -->
+{| class="wikitable" style="text-align: center; width: 75%; height: 200px;"
+|+ Cloud database vendors by deployment and data model
+|-
+! scope="col" |
+! scope="col" | Virtual Machine Deployment
+! scope="col" | Database as a Service
+|-
+! scope="row" | SQL Data Model
+|
+* EnterpriseDB|EDB Postgres Advanced Server
+* IBM DB2<ref>[http://www.ibm.com/developerworks/data/tutorials/dm-1001db2amazonec2/index.html Deploy your database applications and projects on the cloud], IBM.com, Retrieved 2011-9-1
+</ref>
+* Ingres (database)<ref>Chris Kanaracus, "[http://www.infoworld.com/d/data-center/ingres-rolls-out-cloud-database-offerings-965 Ingres rolls out cloud database offerings]", ''Infoworld.com'', Retrieved 2011-8-28.</ref>
+* MariaDB<ref>"[http://phx.corporate-ir.net/phoenix.zhtml?c=176060&p=irol-newsArticle&ID=2095051 Amazon Web Services Announces Two New Database Services – AWS Database Migration Service and Amazon RDS for MariaDB], Amazon Press Releases, retrieved 2015-11-17</ref><ref>"[https://azure.microsoft.com/en-us/marketplace/partners/mariadb/cluster-maxscale/ MariaDB Enterprise Cluster + MariaDB MaxScale], Microsoft Azure, retrieved 2015-11-17</ref>
+* MySQL<ref>"[http://aws.amazon.com/articles/1663 Running MySQL on Amazon EC2 with EBS (Elastic Block Store)], Amazon Web Services, retrieved 2011-11-20</ref>
+* NuoDB<ref>Swoyer, Stephen. [http://tdwi.org/articles/2012/11/13/nuodb-cloud-database.aspx "NuoDB: A Database for the Cloud."] TDWI. Nov. 13, 2012. Retrieved Nov. 26, 2012</ref>
+* Oracle Database<ref name="oracle-aws">[http://aws.amazon.com/amis/Oracle/3647 Amazon Machine Images - Oracle Database 11g Release 2 (11.2.0.1) Enterprise Edition - 64 Bit], Amazon Web Services, Retrieved 2011-11-9.</ref><ref>"[http://www.oracle.com/technetwork/topics/cloud/database-cloud-openworld08-168208.pdf Oracle Database in the Cloud]", Oracle.com, Retrieved 2011-11-9.</ref>
+* PostgreSQL<ref>Chris Kanaracus, "[https://www.pcworld.com/article/238775/enterprisedb_adding_new_cloud_option_for_postgresql_database.html EnterpriseDB Adding New Cloud Option for PostgreSQL Database]", ''PCWorld'', retrieved 2011-8-28</ref>
+* SAP HANA<ref>Cite web|url=https://aws.amazon.com/sap/solutions/saphana/|title=AWS ! SAP HANA|website=Amazon Web Services, Inc.|access-date=2016-07-07</ref><ref>Cite web|url=https://azure.microsoft.com/en-us/campaigns/sap/|title=SAP Solutions ! Microsoft Azure|website=azure.microsoft.com|access-date=2016-07-07</ref><ref>Cite web|url=https://hana.sap.com/implementation/deployment/cloud/hana-enterprise-cloud.html|title=SAP HANA Enterprise Cloud|website=hana.sap.com|access-date=2016-07-07</ref>
+|
+* Amazon Relational Database Service
+* Amazon Aurora, MySQL based service
+* Clustrix Database as a Service<ref>https://finance.yahoo.com/news/clustrix-enters-rackspace-partner-program-120500944.html</ref>
+* EnterpriseDB Postgres Plus Cloud Database<ref name=":0">EnterpriseDB#cite note-10</ref>
+* Google Cloud Platform|Google Cloud SQL<ref>Cite web|url=https://cloud.google.com/sql/|title=Cloud SQL - MySQL Relational Database Service|access-date=2016-11-28</ref>
+* Heroku PostgreSQL as a Service (shared and dedicated database options)<ref>"[http://blog.heroku.com/archives/2010/11/4/heroku_postgresql/ Announcing Heroku PostgreSQL Database Add-on]", Heroku Blog, Retrieved 2011-11-9.</ref>
+* Oracle Cloud#Platform as a Service .28PaaS.29|Oracle Database Cloud Service<ref>Cite book|url=https://books.google.co.in/books?id=m95GAwAAQBAJ&pg=PA223&dq=Oracle+Cloud+Database&hl=en&sa=X&ved=0ahUKEwin6ODzrOPXAhWBEpQKHQUlCzo4ChDoAQhBMAU#v=onepage&q=Oracle%20Cloud%20Database&f=false|title=Handbook of Research on Cloud Infrastructures for Big Data Analytics|last=Pethuru|first=Raj|date=2014-03-31|publisher=IGI Global|isbn=9781466658653|language=en</ref>
+* SQL Azure|Microsoft Azure SQL Database (MS SQL)<ref>Noel Yuhanna, ''[http://www.microsoft.com/presspass/itanalyst/docs/11-02-10SQLAzure.PDF SQL Azure Raises The Bar On Cloud Databases]'', Forrester, Retrieved 2011-11-9.</ref>
+* Xeround Cloud Database*sndMySQL front-end (*service no longer available)<ref name="readwriteweb">Klint Finley, [http://www.readwriteweb.com/cloud/2011/01/7-cloud-based-database-service.php "7 Cloud-Based Database Services"], ''ReadWriteWeb'', Retrieved 2011-11-9.</ref>
+|-
+! scope="row" | NoSQL Data&nbsp;Model
+|
+* Apache Cassandra on Amazon EC2<ref>"[http://wiki.apache.org/cassandra/CloudConfig Setting up Cassandra in the Cloud]", Cassandra Wiki, Retrieved 2011-11-10.</ref> or Google Compute Engine<ref>Cite web|url=https://cloudplatform.googleblog.com/2014/07/click-to-deploy-apache-cassandra-on-google-compute-engine.html|title=Google Cloud Platform Blog: Click to Deploy Apache Cassandra on Google Compute Engine|access-date=2016-11-28</ref>
+*ArangoDB on Amazon EC2, Google Compute or Microsoft Azure <ref>"[https://docs.arangodb.com/3.2/Manual/Deployment/Mesos.html</ref>
+*Clusterpoint|Clusterpoint Database Virtual Box VM<ref>"[http://docs.clusterpoint.com/wiki/Clusterpoint_installation_using_Virtual_Box Clusterpoint Database Virtual Box VM Installation Guide] webarchive|url=https://archive.is/20150310161740/http://docs.clusterpoint.com/wiki/Clusterpoint_installation_using_Virtual_Box |date=2015-03-10 ", Clusterpoint, Retrieved 2015-03-08.</ref>
+* CouchDB on Amazon EC2<ref>"[http://aws.amazon.com/amis/Community/2861 Amazon Machine Images, CouchDB 0.10.x 32 bit Ubuntu]", Amazon Web Services, Retrieved 2011-11-10.</ref> or Google Cloud Platform<ref>Cite web|url=https://bitnami.com/stack/couchdb/cloud/google|title=CouchDB Cloud Hosting on Google Cloud Platform|access-date=2016-11-28</ref>
+* EnterpriseDB|EDB Postgres Advanced Server 
+* Hadoop on Amazon EC2,<ref>"[http://aws.amazon.com/amis/Community/647 Amazon Machine Image, Hadoop AMI]", Amazon Web Services, Retrieved 2011-11-10.</ref> Google Cloud Platform,<ref>Cite web|url=https://cloud.google.com/dataproc/|title=Cloud Dataproc - Managed Spark & Managed Hadoop Service|access-date=2016-11-28</ref> or Rackspace<ref>"[http://www.rackspace.com/blog/cloud-big-data-platform-limited-availability/ Hadoop at Rackspace]", Rackspace Big Data Platforms, Retrieved 2014-02-24.</ref> 
+* MarkLogic on Amazon EC2<ref>Cite web|url=https://aws.amazon.com/marketplace/pp/B00U36DS6Y/ref=wikipedia_cloud_db|title=MarkLogic Developer 8 (HVM) on AWS Marketplace|website=aws.amazon.com|access-date=2016-03-31</ref> or Google Cloud Platform<ref>Cite web|url=http://www.marklogic.com/wp-content/uploads/2016/09/Flexible-Deployment-Datasheet.pdf|title=Flexible Deployment|host=marklogic.com|access-date=2016-11-28</ref>
+* MongoDB on Amazon EC2,<ref>"[http://www.mongodb.org/display/DOCS/Amazon+EC2 MongoDB on Amazon EC2], MongoDB.org, Retrieved 2011-11-10.</ref> Google Compute Engine,<ref>Cite web|url=https://cloud.google.com/solutions/deploy-mongodb/|title=Deploying MongoDB on Google Compute Engine|access-date=2016-11-28</ref> Microsoft Azure,<ref>"[http://www.mongodb.org/display/DOCS/MongoDB+on+Azure MongoDB on Azure], MongoDB.org, Retrieved 2011-11-10.</ref> or Rackspace<ref>"[http://www.rackspace.com/blog/stress-free-scaling-of-mongodb-with-objectrocket/ Easily Scale MongoDB at Rackspace]", Managed MongoDB ObjectRocket by Rackspace, Retrieved 2014-02-24.</ref>
+* Neo4J on Amazon EC2<ref>"[http://wiki.neo4j.org/content/Neo4j_in_the_Cloud Neo4J in the Cloud] webarchive|url=https://web.archive.org/web/20110925234234/http://wiki.neo4j.org/content/Neo4j_in_the_Cloud |date=2011-09-25 ", Neo4J Wiki, Retrieved 2011-11-10.</ref> or Microsoft Azure<ref>"[http://neo4j.com/blog/announcing-neo4j-on-windows-azure/ Announcing Neo4J on Windows Azure]", Neo4J Blog, Retrieved 2011-11-10.</ref>
+|
+* Amazon DynamoDB
+* Amazon SimpleDBcitation needed|date=April 2015
+* Azure Cosmos DB
+* Cloudant| Cloudant Data Layer<ref>Andrew Brust, "[http://www.zdnet.com/blog/big-data/cloudant-makes-nosql-as-a-service-bigger/468 Cloudant Makes NoSQL as a Service Bigger]", ZDNet, Retrieved 2012-5-22.</ref> (CouchDB)
+* EnterpriseDB Postgres Plus Cloud Database<ref name=":0" />
+* Google Cloud Platform|Google Cloud Bigtable<ref>Cite web|url=https://cloud.google.com/bigtable/|title=Bigtable - Scalable NoSQL Database Service|access-date=2016-11-28</ref>
+* Google Cloud Datastore<ref>Cite web|url=https://cloud.google.com/datastore/|title=Datastore - NoSQL Schemaless Database|access-date=2016-11-28</ref>
+* MongoDB Database as a Service (several options)<ref>Cite web|url=http://www.mongodb.com/cloud|title=MongoDB Atlas - Hosted MongoDB as a Service|access-date=2016-08-30</ref>
+* Oracle Cloud#Platform as a Service .28PaaS.29|Oracle NoSQL Database Cloud Service<ref>Cite web|url=https://cloud.oracle.com/en_US/nosql|title=NoSQL Database Cloud Service ! Oracle Cloud|website=cloud.oracle.com|language=en|access-date=2017-11-29</ref>
+* Amazon DocumentDB
+|}
+
+ See also 
+* Cloud computing
+* Cloud storage
+* Relational database
+
+ References 
+reflist|30em
+
+Cloud computing
+
+Category:Cloud computing
+Category:Types of databases
+Category:Cloud databases| 

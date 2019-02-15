@@ -1,0 +1,58 @@
+Decision quality (DQ) is the quality of a decision at the moment the decision is made, regardless of its outcome.  Decision quality concepts permit the assurance of both effectiveness and efficiency in analyzing decision problems.<ref>Ronald A. Howard, [http://web.stanford.edu/class/cee115/wiki/uploads/Main/Schedule/DAPracticeAndPromise.pdf "Decision Analysis: Practice and Promise"], ''Management Science, Vol. 34, No.6'', June 1988</ref>  In that sense, decision quality can be seen as an extension to decision analysis.  Decision quality also describes the process that leads to a high-quality decision.  Properly implemented, the DQ process enables capturing maximum value in uncertain and complex scenarios.<ref>Larry Neal and Carl Spetzler, [https://hbr.org/2015/05/an-organization-wide-approach-to-good-decision-making "An Organization-Wide Approach to Good Decision Making"], ''Harvard Business Review'', May 27, 2015</ref>
+
+ Decision and outcome 
+Fundamental to all decision quality concepts is the distinction between the decision and its outcome.<ref>cite book|title=Decision Quality: Value Creation from Better Business Decisions|last=|first=|last2=Winter|first2=Hannah|last3=Meyer|first3=Jennifer|date=2016|publisher=Wiley|year=|isbn=|location=|pages=|via=|last1=Spetzler|first1=Carl|authorlink1=Carl Spetzler|authorlink2=|authorlink3=</ref> They are different because of the uncertainties when making a choice—a high quality decision can still result in a poor outcome, and vice versa. In the face of uncertainty, the decision maker only has control over the decision, but no control over the outcome of external circumstances. Consequently, the outcome of a decision does not allow an assessment about its quality. A decision has quality at the time it is made, which is not changed by hindsight. Concepts of decision quality focus on measuring and improving the quality of the decision at the time it is being made.
+
+ Elements 
+The confidence a decision maker has in its choice, and related to it the commitment a decision maker has to act upon that choice, depends on the quality of the decision at the time of making the decision. A high-quality decision is characterized by the following elements:
+* A useful frame
+* Feasible and diverse alternatives
+* Meaningful and reliable information
+* Clear values, preferences, and trade-offs
+* Logically sound reasoning
+* Commitment to action
+
+Quality in decision making requires quality in each of the elements listed above, and the overall quality of the decision is limited by the weakest element. Decision quality is achieved when for each element the cost to obtain additional information or insight to improve its quality exceeds the added value.
+
+A variety of specific tools and processes exist to improve the quality of each element.
+
+= Framing =
+The first element to achieve decision quality is framing. Having the appropriate frame ensures the right decision problem is addressed. Quality in framing is achieved when the Decision making|decision makers have alignment on purpose, perspective, and scope of the decision problem to be solved. It means the right people will work the right problem the right way.
+
+= Options =
+A decision cannot be better than the best available alternative (or option if there is more than one). A wide variety of approaches, tools, and methods exist to generate high quality options, ranging from systematic search approaches to identify options to approaches that aim to creatively synthesize options.citation needed|date=May 2016 Quality in options is achieved by applying a suitable options generation process, where the process itself leads to a variety of feasible and diverse options, which are hybrid solutions of originally considered options that combine their best features, and where for each options an understanding of its implementation exists.
+
+= Information =
+The quality of a decision depends on the quality of the information to inform the decision. Quality in information is achieved when the information is meaningful and reliable, is based on appropriate data and judgment, reflects properly all uncertainty|uncertainties, biases, intangibles, and Interdependence|interdependencies, and the limits to the information are known. A wide variety of tools exist to improve the quality of the information used in the decision problem.
+
+= Values and trade-offs =
+Quality in this element requires the identification of the right decision criteria and the definition of trade-off rules among them. This necessitates at first the identification of all key Stakeholder (corporate)|stakeholders, and what each of them values. Quality in this element of decision quality is characterized by transparent value metrics, a clear line of sight of the primary metric, and explicit trade-off rules between key metrics.
+
+= Sound reasoning =
+This element is the domain of decision analysis, which aims to produce insight. Decision analysis provides the logic and analytic tools to find the best choice in a complex situation, and should serve as a guide to facilitate the conversation about the decision. A wide variety of tools, ranging from decisions trees, over hierarchies to complex network models is available to match the decision problem. Quality in this element is achieved when the value and uncertainty of each alternative is understood, and the best choice is clear.
+
+= Commitment to action =
+The quality of a decision also depends on the commitment to act upon the choice that is made. Quality in this element is achieved by involving all key decision makers and stakeholders in an effective and efficient decision making process. At the end of the process, quality is characterized by buy-in across all stakeholders and an organization that is ready to take action and commit resources.
+
+ History and industry implementation 
+Decision quality concepts were first developed in 1964, building on developments in statistical decision theory and game theory by Professor Howard Raiffa of Harvard University, and dynamic probabilistic systems by Professor Ronald A. Howard of Stanford University.  First implementation of DA/DQ concepts in a professional application is documented in Prof. Howard's paper "Decision Analysis: Applied Decision Theory." published in 1966.<ref>Decision Analysis: Applied Decision Theory, Ronald A. Howard., The Proceedings of the Fourth International Conference on Operational Research, ed. D. B. Hertz and J. Melese. New York: John Wiley & Sons, Inc., 1966.</ref> Since then, decision analysis tools and decision quality concepts have been adopted by many corporations to guide and improve their decisions.<ref>Strategic Decision Group, [http://www.sdg.com/case-studies/embedding-decision-quality-in-chevrons-culture-helps-them-outperform-the-competition/ "Embedding Decision Quality in Chevron’s Culture Helps Them Outperform the Competition"], date missing</ref>  Starting in 2014, the Society of Decision Professionals is recognizing organizations that made DQ a core competency across the entire organization with the Raiffa-Howard Award, presented annually.<ref>Society of Decision Professionals, [http://www.decisionprofessionals.com/assets/storage/docs/SDP-RH-Award-v9.pdf "The Raiffa-Howard Award for Organizational Decision Quality"], 2014</ref>  Beyond organization-wide implementation, decision quality concepts can also be applied on multi-company projects.<ref>SPE Technical Report, [http://www.spe.org/publications/techreports/ "Guidance for Decision Quality for Multi-Company Upstream Projects"], SPE-181246-TR, March 2016</ref>
+
+See also
+*Decision analysis
+*Decision engineering
+*Decision model
+*Decision theory
+*Decision tree
+*Decision support
+*Influence diagram
+
+References
+reflist
+
+External links
+* [http://www.decisionprofessionals.com/ Society of Decision Professionals], the professional society supporting decision professionals as the advisors of choice when facing important, complex decisions.
+* [http://da.pubs.informs.org/ Decision Analysis], a journal of the Institute for Operations Research and the Management Sciences
+* [http://www.daag.net/ Decision Analysis Affinity Group], DAAG, has merged with and become the annual conference of the Society of Decision Professionals. Formed as an informal group of DA practitioners, DAAG was started in 1995 by Tom Spradlin, John Palmer, and David Skinner.
+
+DEFAULTSORT:Decision Quality
+Category:Decision analysis

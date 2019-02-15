@@ -1,0 +1,173 @@
+short description|Method of sharing a computing resource among multiple users
+About|the computing term|the type of property ownership|Timeshare
+for|time sharing of communications media|Time-division multiple access
+History of computing
+In computing, time-sharing is the sharing of a computing resource among many users by means of multiprogramming and computer multitasking|multi-tasking at the same time.<ref name=DECpro1>DEC TIMESHARING (1965), by Peter Clark, The DEC Professional, VOLUME 1, Number 1</ref>
+
+Its introduction in the 1960s and emergence as the prominent model of computing in the 1970s represented a major technological shift in the history of computing.
+
+By allowing a large number of users to interact concurrent computing|concurrently with a single computer, time-sharing dramatically lowered the cost of providing computing capability, made it possible for individuals and organizations to use a computer without owning one,<ref>IBM advertised, early 1960s, with a headline: "This man is sharing a $2 million computer"</ref> and promoted the interactive use of computers and the development of new interactive application software|applications.
+
+History
+
+=Batch processing=
+Main article|Batch processing
+
+The earliest computers were extremely expensive devices, and very slow in comparison to later models. Machines were typically dedicated to a particular set of tasks and operated by control panels, the operator manually entering small programs via switches in order to load and run a series of programs. These programs might take hours, or even weeks, to run. As computers grew in speed, run times dropped, and soon the time taken to start up the next program became a concern. Batch processing methodologies evolved to decrease these "dead periods" by queuing up programs so that as soon as one program completed, the next would start.
+
+To support a batch processing operation, a number of comparatively inexpensive card punch or paper tape writers were used by programmers to write their programs "offline". When typing (or punching) was complete, the programs were submitted to the operations team, which scheduled them to be run. Important programs were started quickly; how long before less important programs were started was unpredictableCitation needed|reason=It's unclear under which circumstances this was true|date=December 2016. When the program run was finally completed, the output (generally printed) was returned to the programmer. The complete process might take days, during which time the programmer might never see the computer.
+
+The alternative of allowing the user to operate the computer directly was generally far too expensive to consider. This was because users might have long periods of entering code while the computer remained idle. This situation limited interactive development to those organizations that could afford to waste computing cycles: large universities for the most part. Programmers at the universities decried the behaviors that batch processing imposed, to the point that Stanford students made a short film humorously critiquing it.<ref>Eisenson, Arthur; and Yager, Heather (1967). Ellis D. Kropotchev Silent Film. Stanford University, 1967. This student-produced film from Stanford University is a humorous spoof of the trials and tribulations of a college hacker condemned to use batch processing. Originally created by Arthur Eisenson and Gary Feldman, the film gives the viewer a feel for the process of computer programming in the 1960s. Original music by Heather Yager. Computer History Museum, Object ID 102695643. Retrieved on 2013-11-29 from http://www.computerhistory.org/revolution/punched-cards/2/211/2253.</ref> They experimented with new ways to interact directly with the computer, a field today known as human–computer interaction.
+
+=Time-sharing=
+File:Unix Timesharing UW-Madison 1978.jpeg|thumb|Unix time-sharing at the University of Wisconsin, 1978.
+Time-sharing was developed out of the realization that while any single user would make inefficient use of a computer, a large group of users together would not. This was due to the pattern of interaction: Typically an individual user entered bursts of information followed by long pauses but a group of users working at the ''same time'' would mean that the pauses of one user would be filled by the activity of the others. Given an optimal group size, the overall process could be very efficient.  Similarly, small slices of time spent waiting for disk, tape, or network input could be granted to other users.
+
+The concept is claimed to have been first described by John Backus in the 1954 summer session at MIT,<ref name="jbackus">Backus, John, ''[http://bitsavers.org/pdf/mit/summer_session_1954/Digital_Computers_Advanced_Coding_Techniques_Summer_1954.pdf Computer Advanced Coding Techniques]'', MIT 1954, page 16-2. The first known description of computer time-sharing.</ref> and later by Bob Bemer in his 1957 article "How to consider a computer" in ''Automatic Control Magazine''.<ref>cite web
+|last1=Bemer
+|first1=Bob
+|title=Origins of Timesharing
+|url=http://www.bobbemer.com/TIMESHAR.HTM
+|website=bobbemer.com
+|date=March 1957
+|accessdate=June 24, 2016
+|deadurl = yes
+|archiveurl = https://web.archive.org/web/20170702215126/http://www.bobbemer.com/TIMESHAR.HTM
+|archive-date = 2017-07-02</ref><ref>cite arXiv|last1=Middleburg|first1=C.A.|title=Searching Publications on Operating Systems|eprint=1003.5525|class=cs.OS|year=2010</ref> In a paper published in December 1958 by W. F. Bauer,<ref name="wfbauer">Bauer, W. F., ''[https://www.computer.org/web/csdl/index/-/csdl/proceedings/afips/1958/5053/00/50530046.pdf Computer design from the programmer's viewpoint]'' (Eastern Joint Computer Conference, December 1958) One of the first descriptions of computer time-sharing.</ref> he wrote that "The computers would handle a number of problems concurrently. Organizations would have input-output equipment installed on their own premises and would buy time on the computer much the same way that the average household buys power and water from utility companies."
+
+Implementing a system able to take advantage of this was initially difficult.<ref name=DECpro1/><ref>"There were no command files supported." - the commands to compile and then 'link' a program had to be typed in each time.  	As the article adds: "No CCL (Concise Command Language)" referring to the DEC world's equivalent of Clist and Rexx.</ref><ref name=JM>cite web|last1=McCarthy|first1=John|title=REMINISCENCES ON THE HISTORY OF TIME SHARING|url=http://www-formal.stanford.edu/jmc/history/timesharing/timesharing.html|website=stanford.edu|publisher=stanford.edu|accessdate=12 March 2017|deadurl=yes|archiveurl=https://web.archive.org/web/20071020032705/http://www-formal.stanford.edu/jmc/history/timesharing/timesharing.html|archivedate=20 October 2007|df=</ref>  Batch processing was effectively a methodological development on top of the earliest systems. Since computers still ran single programs for single users at any time, the primary change with batch processing was the time delay between one program and the next. Developing a system that supported multiple users at the same time was a completely different concept. The "state" of each user and their programs would have to be kept in the machine, and then switched between quickly. This would take up computer cycles, and on the slow machines of the era this was a concern. However, as computers rapidly improved in speed, and especially in size of Magnetic-core memory|core memory in which users' states were retained, the Overhead (computing)|overhead of time-sharing continually decreased, relatively speaking.
+
+<!-- Timesharing, per IBM's ad re the man sharing a $2 million machine (CALL/OS,360/50) doesn't fit this definition ....
+The TX-2 system at MIT, first reported in February 1957, provided general multitasking facilities for sharing the processor between a user program and device drivers.<ref>Forgie, James W. (1 April 1957) "The Lincoln TX-2 input-output system." In internal report, ''[http://www.bitsavers.org/pdf/mit/tx-2/TX-2_Papers_WJCC_57.pdf The Lincoln TX-2 Computer]''</ref> 
+TEXT RETAINED in case need to provide more citations re above ad &/or definition ********** -->
+The first project to implement time-sharing of user programs was initiated by John McCarthy (computer scientist)|John McCarthy at MIT in 1959, initially planned on a modified IBM 704, and later on an additionally modified IBM 709 (one of the first computers powerful enough for time-sharing).<ref name=JM/> One of the deliverables of the project, known as the ''Compatible Time-Sharing System'' or CTSS, was demonstrated in November 1961. CTSS has a good claim to be the first time-sharing system and remained in use until 1973. Another contender for the first demonstrated time-sharing system was PLATO (computer system)|PLATO II, created by Donald Bitzer at a public demonstration at Robert Allerton Park near the University of Illinois in early 1961. But this was a special purpose system. Bitzer has long said that the PLATO project would have gotten the patent on time-sharing if only the University of Illinois had not lost the patent for 2 years.<ref>Brian Dear, Chapter 4 -- The Diagram, [https://books.google.com/books?id=D5ZBDwAAQBAJ&pg=PA71 The Friendly Orange Glow], Pantheon Books, New York, 2017; pages 71-72 discuss the development of time-sharing and the University of Illinois loss of the patent.</ref> JOSS began time-sharing service in January 1964.<ref>cite book | chapter=JOSS: a designer's view of an experimental on-line computing system | author = J. C. Shaw | title=Proceeding AFIPS '64 (Fall, part I) Proceedings of the October 27-29, 1964, fall joint computer conference, part I | year=1964 | pages=455–464 | url=http://dl.acm.org/citation.cfm?id=1464093</ref>
+
+The first commercially successful time-sharing system was the Dartmouth Time Sharing System.<ref>dtss.dartmouth.edu/history.php</ref>
+
+=Development=
+Throughout the late 1960s and the 1970s, computer terminals were multiplexed onto large institutional mainframe computers (centralized computing systems), which in many implementations sequentially polled the terminals to see whether any additional data was available or action was requested by the computer user. Later technology in interconnections were interrupt driven, and some of these used parallel data transfer technologies such as the IEEE 488 standard. Generally, computer terminals were utilized on college properties in much the same places as ''desktop computers'' or ''personal computers'' are found today. In the earliest days of personal computers, many were in fact used as particularly smart terminals for time-sharing systems.
+
+The Dartmouth Time Sharing System's creators wrote in 1968 that "any response time which averages more than 10 seconds destroys the illusion of having one's own computer".<ref name="dtss196810">cite journal | url=http://dtss.dartmouth.edu/sciencearticle/index.html | title=Dartmouth Time-Sharing |author1=Kemeny, John G. |author2=Kurtz, Thomas E. | journal=Science | date=11 October 1968 | volume=162 | pages=223–228</ref> Conversely, timesharing users thought that their terminal was the computer.<ref name="ncc1974">Cite web |url=http://dtss.dartmouth.edu/transcript.php |title=TRANSCRIPTS OF 1974 National Computer Conference Pioneer Day Session |website=Dartmouth Time Sharing System |publisher=Dartmouth College |orig-year=1974</ref>
+
+With the rise of microcomputing in the early 1980s, time-sharing became less significant, because individual microprocessors were sufficiently inexpensive that a single person could have all the CPU time dedicated solely to their needs, even when idle.
+
+However, the Internet brought the general concept of time-sharing back into popularity. Expensive corporate server farms costing millions can host thousands of customers all sharing the same common resources. As with the early serial terminals, web sites operate primarily in bursts of activity followed by periods of idle time. This bursting nature permits the service to be used by many customers at once, usually with no perceptible communication delays, unless the servers start to get very busy.
+
+=Time-sharing business=
+Genesis
+
+In the 1960s, several companies started providing time-sharing services as service bureaus. Early systems used Teletype Model 33 KSR or ASR or Teletype Model 35 KSR or ASR machines in ASCII environments, and IBM Selectric typewriter-based terminals (especially the IBM 2741) with two different seven-bit codes.<ref>cite book
+ |title=IBM 2741 Communication Terminal
+ |publisher=IBM
+ | page=12
+ | url=http://www.textfiles.com/bitsavers/pdf/ibm/27xx/GA24-3415-3_2741_Data_Terminal_Aug72.pdf
+</ref> They would connect to the Centralized computing|central computer by dial-up Bell 103A modem or acoustic coupler|acoustically coupled modems operating at 10&ndash;15 characters per second. Later terminals and modems supported 30&ndash;120 characters per second. The time-sharing system would provide a complete operating environment, including a variety of programming language processors, various software packages, file storage, bulk printing, and off-line storage. Users were charged rent for the terminal, a charge for hours of connect time, a charge for seconds of CPU time, and a charge for kilobyte-months of disk storage.
+
+Common systems used for time-sharing included the SDS 940, the PDP-10, and the IBM 360. Companies providing this service included GE's GEISCO, IBM subsidiary The Service Bureau Corporation, Tymnet|Tymshare (founded in 1966), National CSS (founded in 1967 and bought by Dun & Bradstreet in 1979), Dial Data (bought by Tymshare in 1968), Bolt, Beranek, and Newman (BBN) and Time Sharing Ltd. in the United Kingdom|U.K.. By 1968, there were 32 such service bureaus serving the US National Institutes of Health (NIH) alone.<ref>"Information Technology Corporate Histories Collection". Computer History Museum. Retrieved on 2013-11-29 from http://www.computerhistory.org/corphist/view.php?s=stories&id=136.</ref> The ''Auerbach Guide to Timesharing'' (1973) lists 125 different timesharing services using equipment from Burroughs Corporation|Burroughs, Control Data Corporation|CDC, Digital Equipment Corporation|DEC, Hewlett-Packard|HP, Honeywell, IBM, RCA, Univac, and Scientific Data Systems|XDS.<ref name=Auerbach>cite book|title=Auerbach Guide to Time Sharing|year=1973|publisher=Auerbach Publishers, Inc.|url=http://bitsavers.trailing-edge.com/pdf/auerbach/GuideToTimesharing_Jan73.pdf|accessdate=2013-11-29</ref>
+
+Rise and fall
+In 1975, it was said about one of the major super-mini computer manufacturers<ref>Computerworld, June 11, 1975, p. 35</ref> that "The biggest end-user market currently is time-sharing." For DEC, for a while the second largest computer company (after IBM), this was also true: Their PDP-10 and IBM's IBM System/360 Model 67|360/67<ref>One Two-page IBM print ad was headlined "100 or more people can use IBM's new time-sharing computer at the same time." Originals were/are? on e-Bay</ref>  were widely used<ref>p.1425, Encyclopedia of Computer Science, Litton Educational Publishing, Inc.</ref> by commercial timesharing services such as CompuServe, On-Line Systems (OLS), Rapidata and Time Sharing Ltd.
+
+=Rapidata as an example=
+Although many time-sharing services simply closed, Rapidata<ref>https://groups.google.com/forum/#!topic/alt.folklore.computers/aE4TwORruB8 - "I worked for RapiData Timesharing for about a year circa 1969..."</ref><ref>someone else: "I worked there for almost 2 years 1977 to 1979." alt.folklore.computers/aE4TwORruB8/EdpKfFAlBncJ</ref> held on, and became part of National Data Corporation.<ref>NDC started in 1967, and paralleled Rapidata; see Bloomberg's https://www.bloomberg.com/research/stocks/private/snapshot.asp?privcapId=290092</ref> It was still of sufficient interest in 1982 to be the focus of "A User's Guide to Statistics Programs: The Rapidata Timesharing System".<ref>Bruce Bosworth, ISBN|978-089529-1-677</ref>   Even as revenue fell by 66%<ref>Computerworld, Oct. 6, 1986, p.179, "Rapidata revenue was $11 million ... in 1986, down from ... ($31 million in 1982)."</ref> and National Data subsequently developed its own problems, attempts were made to keep this timesharing business going.<ref>Computerworld, Aug.25,1986, p.5,
+"National Data Corp. said it is close to reaching an agreement with a buyer of its Rapidata timesharing division. In May, National Data said it would close down ..."</ref><ref>National Data Corp became NDC-Health Corp in 
+2001 (bizjournals.com/atlanta/stories/2001/10/29/daily25.html)</ref><ref>As for a place in history, 
+Rapidata is listed in 'The AUERBACH Guide to Time Sharing (1973)' http://bitsavers.informatik.uni-stuttgart.de/pdf/auerbach/GuideToTimesharing_Jan73.pdf</ref>
+
+=UK=
+* Time Sharing Limited (TSL, 1969-1974) - launched using DEC systems. PERT was one of its popular offerings. TSL was acquired by Automatic Data Processing|ADP in 1974.
+* OLS Computer Services (UK) Limited (1975-1980) - using HP & DEC systems.
+
+=The computer utility=
+Beginning in 1964, the Multics operating system was designed as a computing utility, modeled on the electrical or telephone utilities. In the 1970s, Ted Nelson's original "Project Xanadu|Xanadu" hypertext repository was envisioned as such a service. It seemed as the computer industry grew that no such consolidation of computing resources would occur as timesharing systems. In the 1990s the concept was, however, revived in somewhat modified form under the banner of cloud computing.
+
+=Security=
+Time-sharing was the first time that multiple processes, owned by different users, were running on a single machine, and these processes could interfere with one another.<ref name=Silberschatz2010>cite book|last1=Silberschatz |first1=Abraham| last2=Galvin |first2=Peter|last3=Gagne |first3=Greg|title=Operating system concepts|year=2010|publisher= Wiley & Sons | location = Hoboken, N.J. | isbn = 978-0-470-23399-3 | edition = 8th | page = 591</ref> For example, one process might alter shared resources which another process relied on, such as a variable stored in memory. When only one user was using the system, this would result in possibly wrong output - but with multiple users, this might mean that other users got to see information they were not meant to see.
+
+To prevent this from happening, an operating system needed to enforce a set of policies that determined which privileges each process had. For example, the operating system might deny access to a certain variable by a certain process.
+
+The first international conference on computer security in London in 1971 was primarily driven by the time-sharing industry and its customers.cn|date=December 2017
+
+Notable time-sharing systems
+see also|Time-sharing system evolution
+
+Significant early timesharing systems:<ref name=Auerbach/>
+* Allen-Babcock RUSH (Remote Users of Shared Hardware) Time-sharing System on IBM S/360 hardware (1966)<ref>[http://web.mit.edu/smadnick/www/MITtheses/23846284.pdf "A Brief Description of Privacy Measures in the RUSH Time-Sharing System"], J.D. Babcock, AFIPS Conference Proceedings, Spring Joint Computer Conference, Vol. 30, 1967, pp. 301-302.</ref> → Tymshare 
+* AT&T Corporation|AT&T Bell Labs Unix (1971) → University of California, Berkeley|UC Berkeley Berkeley Software Distribution|BSD Unix (1977)
+* BBN Technologies|BBN PDP-1 Time-sharing System → Massachusetts General Hospital PDP-1D → MUMPS
+* BBN Technologies|BBN TENEX → Digital Equipment Corporation|DEC TOPS-20, Foonly FOONEX, MAXC OS at PARC (company)|PARC, Stanford University|Stanford Low Overhead TimeSharing (LOTS), which ran TOPS-20
+* Berkeley Timesharing System at University of California, Berkeley|UC Berkeley Project Genie → Scientific Data Systems SDS 940 (Tymshare, BBN Technologies|BBN, Stanford Research Institute|SRI, Community Memory) → BCC 500 → MAXC at PARC
+* Burroughs Corporation|Burroughs Time-sharing Master Control Program|MCP → HP 3000 MPE
+* Cambridge Multiple Access System was developed for the Titan (1963 computer)|Titan, the prototype Atlas (computer)|Atlas 2 computer built by Ferranti for the University of Cambridge.<ref>Citation | last = Hartley | first = D. F. | author-link = David Hartley (computer scientist) | title = The Cambridge multiple-access system: user's reference manual | place = Cambridge  | publisher = Cambridge Univ. Press | year = 1968 | isbn = 978-0901224002 </ref> This was the first time-sharing system developed outside the United States, and which influenced the later development of UNIX.
+* Compower Ltd., a wholly owned subsidiary of the National Coal Board (later British Coal Corporation) in the UK. Originally National Coal Board (NCB) Computer Services, it became Compower in 1973 providing computing and time-share services to internal NCB users and as a commercial service to external users. Sold to Philips C&P (Communications and Processing) in August 1994.
+* CompuServe, also branded as Compu-Serv, CIS.
+* Compu-Time, Inc.,<ref name=Auerbach/> on  Honeywell 400/4000, started in 1968 in Ft Lauderdale, Florida, moved to Daytona Beach in 1970.
+* Control Data Corporation|CDC MACE, APEX → CDC Kronos|Kronos → NOS (software)|NOS → NOS/VE
+* Dartmouth Time Sharing System (DTSS) → GE Time-sharing → GEnie
+* Digital Equipment Corporation|DEC PDP-6 Time-sharing Monitor → TOPS-10 → BBN Technologies|BBN TENEX → Digital Equipment Corporation|DEC TOPS-20
+* Digital Equipment Corporation|DEC TSS-8 → RSTS/E|RSTS-11, RSX-11 → VAX/VMS
+* Hewlett-Packard|HP HP Time-Shared BASIC|2000 Time-Shared BASIC
+* Hewlett-Packard|HP HP 3000|3000 series
+* IBM List of IBM products#Services|CALL/360, CALL/OS - using IBM System/360 Model 50 
+* IBM CP-40 → CP-67 → CP-370 → CP/CMS → VM/CMS
+* IBM Time Sharing Option|TSO for OS/MVT → for OS/VS2 (SVS)|OS/VS2 → for MVS → for z/OS
+* IBM TSS/360 → TSS/370
+* International Timesharing Corporation on dual CDC 3000|CDC 3300 systems.<ref name=Auerbach/>
+* Massachusetts Institute of Technology|MIT Compatible Time-Sharing System|CTSS → MULTICS (MIT / General Electric|GE / Bell Labs) → Unix 
+* Massachusetts Institute of Technology|MIT Time-sharing System for the Digital Equipment Corporation|DEC PDP-1 → Incompatible Timesharing System|ITS
+* McGill University MUSIC → IBM MUSIC/SP 
+* Michigan Terminal System, on the IBM System/360 Model 67|IBM S/360-67, S/370, and successors. 
+* Michigan State University CDC SCOPE (software)|CDC SCOPE/HUSTLER System
+* National CSS VP/CSS, on IBM 360 series; originally based on IBM's CP/CMS.
+* Oregon State University OS-3, on CDC 3000 series.
+* Prime Computer PRIMOS
+* RAND JOSS → JOSS-2 → JOSS-3
+* RCA Time Sharing Operating System|TSOS → UNIVAC|Univac / Unisys VMOS → VS/9
+* Service in Informatics and Analysis|Service in Informatics and Analysis (SIA), on CDC 6600 CDC Kronos|Kronos.
+* System Development Corporation Time-sharing System, on the AN/FSQ-32.
+* Stanford University|Stanford ORVYL and WYLBUR, on IBM System/360 Model 67|IBM S/360-67.
+* Stanford University|Stanford PDP-1 Time-sharing System → Stanford Artificial Intelligence Laboratory|SAIL → WAITS
+* Time Sharing Ltd. (TSL)<ref>[http://www.jamesmiller.com/timesharing001.html "Time Sharing"], James Miller. Retrieved 30 November 2013.</ref> on Digital Equipment Corporation|DEC PDP-10 systems → Automatic Data Processing (ADP), first commercial time-sharing system in Europe and first dual (fault tolerant) time-sharing system.
+* OS/VS1#TONE for VS1|Tone (TSO-like, for OS/VS1|VS1), a non-IBM Time-sharing product, marketed by Tone Software Co; TSO required VS2.
+* Tymshare SDS-940 → Tymcom X → Tymcom XX
+* Unisys/UNIVAC UNIVAC 1108|1108 EXEC 8 → OS 1100 →  OS 2200
+* University of California, Berkeley|UC Berkeley CAL-TSS, on CDC 6000 series|CDC 6400.
+* Scientific Data Systems|XDS Universal Time-Sharing System|UTS → CP-V operating system|CP-V → Honeywell CP-6
+
+See also
+* Cloud computing
+* Computer Networks: The Heralds of Resource Sharing|The Heralds of Resource Sharing, a 1972 film.
+* History of CP/CMS, IBM's virtual machine operating system (CP) that supported time-sharing (CMS).
+* IBM M44/44X, an experimental computer system based on an IBM 7044 used to simulate multiple virtual machines.
+* IBM System/360 Model 67, the only IBM S/360|IBM S/360 series mainframe to support virtual memory.
+* Multiseat configuration, multiple users on a single personal computer.
+* Project MAC, a DARPA funded project at MIT famous for groundbreaking research in operating systems, artificial intelligence, and the theory of computation.
+* TELCOMP, an interactive, conversational programming language based on JOSS, developed by BBN Technologies|BBN in 1964.
+* Timeline of operating systems
+* VAX (Virtual Address eXtension), a computer architecture and VAX-11|family of computers developed by Digital Equipment Corporation|DEC.
+* Utility computing
+* Virtual memory
+* Time-sharing system evolution
+
+References
+reflist
+
+Further reading
+* Ted Nelson|Nelson, Theodor (1974). ''Computer Lib: You Can and Must Understand Computers Now''; Computer Lib / Dream Machines|''Dream Machines'': "New Freedoms Through Computer Screens&mdash; A Minority Report". Self-published. ISBN|0-89347-002-3. pp.&nbsp;56–57.
+*cite journal|first=Edward|last=Fredkin|title=THE TIME SHARING OF COMPUTERS|journal=Computers and Automation|date=Nov 1963|volume=XII|issue=11|pages=12-13, 16-20|url=http://bitsavers.trailing-edge.com/pdf/computersAndAutomation/|others=[http://bitsavers.trailing-edge.com/pdf/computersAndAutomation/196311.pdf 196311.pdf] Years 1954-1963: <cite>"The author relates a short history of time-sharing, the initial time-sharing experiments, the modifications of existing computers and those designed specifically for time-sharing, project MAC, significant features of the system, services, languages, programs, scope displays and light pens, and intercommunication."</cite><ref>cite book |last1=Allen |first1=Ruth |last2=(U.S.) |first2=National Library of Medicine |title=An Annotated Bibliography of Biomedical Computer Applications |date=1969 |publisher=National Library of Medicine |location=70 |url=https://books.google.com/books?id=AKhPv9YWTeQC&q=%22TIME+SHARING+OF+COMPUTERS%22+fredkin&dq=%22TIME+SHARING+OF+COMPUTERS%22+fredkin&hl=en&sa=X&ved=0ahUKEwjAs5jFx-_dAhWJWywKHcghCFIQ6AEIZjAJ |language=en</ref>
+
+ External links 
+* [http://archive.michigan-terminal-system.org/documentation/documents/timeSharingSupervisorPrograms-1971.pdf "Time Sharing Supervisor Programs"], notes comparing the supervisor programs of CP-67, TSS/360, the Michigan Terminal System (MTS), and Multics by Michael T. Alexander, ''Advanced Topics in Systems Programming'' (1970, revised 1971), University of Michigan Engineering Summer Conference.
+* [http://www.frankston.com/public/?name=TR128 "The Computer Utility As A Marketplace For Computer Services"], Bob Frankston|Robert Frankston's MIT Master's Thesis, 1973.
+* [http://jmc.stanford.edu/computing-science/timesharing.html Reminiscences on the Theory of Time-Sharing] by John McCarthy (computer scientist)|John McCarthy, 1983.
+* [https://web.archive.org/web/20140702214839/http://www.bobbemer.com/TIMESHAR.HTM Origins of timesharing] by Bob Bemer.
+* [http://www.cio.com.au/article/325323/cio_blast_from_past_40_years_multics_1969-2009 "40 years of Multics, 1969-2009"], an interview with Professor Fernando J. Corbató on the history of Multics and origins of time-sharing, 2009.
+* [http://www.computerhistory.org/revolution/mainframe-computers/7/178 "Mainframe Computers: The Virtues of Sharing"], Revolution: The First 2000 Years of Computing, Computer History Museum Exhibition, January 2011.
+* [http://www.computerhistory.org/revolution/mainframe-computers/7/181 "Mainframe Computers: Timesharing as a Business"], Revolution: The First 2000 Years of Computing, Computer History Museum Exhibition, January 2011.
+
+Operating system
+FamilyTree CP/CMS
+
+Category:Operating system technology
+Category:Computer systems
+Category:Time-sharing| 

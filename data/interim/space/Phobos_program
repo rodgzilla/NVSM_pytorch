@@ -1,0 +1,113 @@
+Distinguish|Fobos-Grunt
+more footnotes|date=February 2015
+File:Автоматическая межпланетная станция Фобос (14988562882).jpg|thumb|Phobos probe
+The Phobos  (lang-ru|Фобос, Fobos, lang-el|Φόβος) program was an unmanned space mission consisting of two spacecraft|probes launched by the Soviet Union to study Mars and its natural satellite|moons Phobos (moon)|Phobos and Deimos (moon)|Deimos. ''Phobos 1'' was launched on 7 July 1988, and ''Phobos 2'' on 12 July 1988, each aboard a Proton rocket|Proton-K rocket.
+
+''Phobos 1'' suffered a terminal failure en route to Mars. ''Phobos 2'' attained Mars orbit, but contact was lost before the final phase, prior to deployment of a planned Phobos lander. ''Phobos 1'' and ''2'' were of a new spacecraft design, succeeding the type used in the ''Venera'' planetary missions of 1975–1985, last used during the ''Vega 1'' and ''Vega 2'' missions to Comet Halley. They each had a mass of 2600 kilogram|kg (6220&nbsp;kg with orbital insertion hardware attached).
+
+The program featured cooperation from 14 other nations, including Sweden, Switzerland, Austria, France, West Germany, and the United States (which contributed the use of its NASA Deep Space Network for tracking the twin spacecraft).
+
+Objectives
+The objectives of the Phobos missions were to:
+
+* conduct studies of the interplanetary environment;
+* perform observations of the Sun;
+* characterize the Plasma (physics)|plasma environment in the Martian vicinity;
+* conduct surface and Celestial body atmosphere|atmospheric studies of Mars; and,
+* study the surface composition of the Martian satellite Phobos.
+
+Spacecraft design
+The main section of the spacecraft consisted of a pressurized toroidal electronics section, surrounding a modular cylindrical experiment section. Below these were mounted four spherical tanks (the Fregat stage) containing hydrazine for attitude control and, after the main propulsion module was to be jettisoned, orbit adjustment. A total of 28 Rocket engine|thrusters (twenty-four 50 Newton (units)|N thrusters and four 10 N thrusters) were mounted on the spherical tanks, with additional thrusters mounted on the spacecraft body and Photovoltaic module|solar panels. Attitude was maintained through the use of a three-axis control system, with pointing maintained with Sun and star sensors.
+
+Phobos 1
+Main article|Phobos 1
+
+''Phobos 1'' operated nominally until an expected communications session on September 2, 1988 failed to occur. The failure of controllers to regain contact with the spacecraft was traced to an error in the software uploaded on August 29/August 30, which had deactivated the attitude thrusters. By losing its lock on the Sun, the spacecraft could no longer properly orient its solar arrays, thus depleting its batteries.
+
+Software instructions to turn off the probe's attitude control, normally a fatal operation, were part of a routine used when testing the spacecraft on the ground.  Normally this routine would be removed before launch.  However, the software was coded in Programmable read-only memory|PROMs, and so removing the test code would have required removing and replacing the entire computer.  Because of time pressure from the impending launch, engineers decided to leave the command sequence in, though it should never be used.  However, a single-character error in constructing an upload sequence resulted in the command executing, with subsequent loss of the spacecraft.<ref name=ScienceMag>[http://catless.ncl.ac.uk/Risks/9.24.html#subj3 ''Risks digest'' summary of the malfunctions, from SCIENCE magazine, Vol 245, 8 September 1989]</ref>
+
+Phobos 2
+main|Phobos 2
+
+File:3 channels VSK image Phobos mission.gif|thumbnail|Sample image taken by the Phobos 2 probe. Enhanced image released by the IKI. Taken 430 km away with a resolution of 80/420 m.
+''Phobos 2'' was launched atop a Proton-K with a Blok D upper stage from Baikonur cosmodrome on July 12, 1988, and entered orbit on January 29, 1989. ''Phobos 2'' operated nominally throughout its cruise and Mars orbital insertion phases on January 29, 1989, gathering data on the Sun, the interplanetary medium, Mars, and Phobos. Phobos 2 investigated Mars's surface and atmosphere and returned 37 images of Phobos<ref name=ScienceMag-2>[http://www.nature.com/nature/journal/v341/n6243/abs/341585a0.html Nature Publishing Group, Television observations of Phobos]</ref> with a resolution of up to 40 meters.
+
+Systems and sensors
+Phobos probes carried several instruments:  solar x-ray and ultraviolet telescopes, a neutron spectrometer and the Grunt radar experiment designed to study the surface relief of Phobos.
+The lander had an APXS|x-ray/alpha spectrometer to provide information on the chemical element composition of the surface of Phobos, a seismometer to determine the internal structure of Phobos, and the "Razrez" penetrator with temperature sensors and an accelerometer for testing the physical and mechanical properties of the surface.
+
+The Phobos 2 Thermal infrared spectroscopy|infrared spectrometer (ISM) obtained 45000 spectra in the near infrared (from 0.75 to 3.2&nbsp;µm) in the equatorial areas of Mars, with a spatial resolution ranging from 7 to 25&nbsp;km, and 400 spectra of Phobos at 700 m resolution. These observations made it possible to retrieve the first mineralogical maps of the planet and its satellite, and to study the atmosphere of Mars. ISM was developed at Institut aéronautique et spatial|IAS and DESPA (Paris Observatory) with support from CNES.
+
+List of instruments:
+* "VSK" TV imaging system
+* PROP-F "hopping" lander. Only carried by Phobos 2.
+**ARS-FP automatic X-ray fluorescence spectrometer
+**ferroprobe magnetometer
+**Kappameter magnetic permeability / susceptibility sensor
+**gravimeter
+**temperature sensors
+**BISIN conductometer / tiltmeter
+**mechanical sensors (penetrometer, UIU accelerometer, sensors on hopping mechanism)
+*"DAS" (long-lived autonomous station) lander
+**TV camera
+**ALPHA-X Alpha-Proton-X-Ray Spectrometer
+**LIBRATION sun sensor (also known as STENOPEE)
+**Seismometer
+**RAZREZ anchor penetrometer
+**Celestial mechanics experiment
+* "ISM" thermal infrared spectrometer/radiometer - 1–2&nbsp;km resolution
+* near-infrared imaging spectrometer
+* thermal imaging camera; magnetometers
+* gamma-ray spectrometers
+* X-ray telescope
+* radiation detectors
+* radar and laser altimeters
+* Lima-D laser experiment - designed to vaporise material from the Phobos surface for chemical analysis by a mass spectrometer
+* Automatic Space Plasma Experiment with Rotating Analyzer (ASPERA), an electron spectrometer and ion mass analyser from the Swedish Institute of Space Physics.
+* "Grunt" imaging radar - Only carried by Phobos 1
+
+See also
+* Exploration of Mars
+* List of missions to Mars
+* Space exploration
+
+References
+Reflist
+*cite journal
+| author = R. Z. Sagdeev
+| author2 = A. V. Zakharov
+| last-author-amp = yes
+| title = Brief history of the Phobos mission
+| journal = Nature
+| date = 1989
+| volume = 341
+| issue =6243
+| pages = 581–585
+| doi = 10.1038/341581a0|bibcode = 1989Natur.341..581S 
+* Articles in Nature 341 (1989) pages 581 - 619
+*[http://nssdc.gsfc.nasa.gov/planetary/phobos.html Phobos Project Information (NASA NSSDC)]
+*[https://web.archive.org/web/20111010222505/http://astronautix.com/craft/fobos1f.htm Fobos 1F]
+*[http://www.ias.u-psud.fr/ism/DRV_DATA/HTML/ISM/WELCOME.HTM ISM - Phobos-2 archive]
+*[http://mars-news.de/mr9/4209-75.html The Airport Terminal - also known as ''Mariner 9'' #4209-75]
+*[http://www.planetary.org/explore/resource-library/data/phobos-2-vsk-data.html The Complete Phobos 2 VSK Image Data Set]
+
+External links
+* [https://web.archive.org/web/20150717180620/http://www.strykfoto.org/phobos2.htm High quality processed images from the Phobos 2 mission]
+* [http://www.iki.rssi.ru/IPL/phobos.html Phobos mission images from the Space Research Institute (IKI)]
+* [http://www.ias.u-psud.fr/ism/ Raw image data from the Phobos 2 ISM infrared instrument]
+* [http://www.federalspace.ru/Doc1Show.asp?DocID=16 What we are searching for on Phobos] - an article on the Phobos program at the Web site of the Russian Space Agency ru icon
+* [https://web.archive.org/web/20060316104137/http://www.astrosurf.com/nunes/explor/explor_ph2.htm Another site with processed images from the Soviet Phobos 2 mission]
+URSS space probes
+Mars spacecraft
+portal bar|Mars
+
+Use American English|date=January 2014
+
+DEFAULTSORT:Phobos Program
+Category:Missions to Mars
+Category:1988 in the Soviet Union
+Category:1988 in spaceflight
+Category:Soviet Mars missions
+Category:Derelict space probes
+Category:Phobos (moon)
+Category:Non Earth orbiting satellites of the Soviet Union

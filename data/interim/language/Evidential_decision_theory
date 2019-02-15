@@ -1,0 +1,60 @@
+Evidential decision theory is a school of thought within decision theory according to which the best action is the one which, conditional on one's having chosen it, gives one the best expectations for the outcome. It contrasts with causal decision theory, which requires a causal connection between one's actions and the desirable outcome.
+
+Description
+
+In a 1981 article, Allan Gibbard and William Harper characterized evidential decision theory as maximization of the expected utility <math>V</math> of an action <math>A</math> "calculated from conditional probabilities":<ref name="GibbardHarper">Citation
+ | title = Counterfactuals and two kinds of expected utility
+ | year = 1981
+ | journal = Ifs: Conditionals, Beliefs, Decision, Chance, and Time
+ | pages = 153–190
+ | last1 = Gibbard       | first1 =  A.
+ | last2 =  Harper       | first2 =  W.L.
+ | accessdate = 2009-05-27      </ref>
+:<math>
+V(A)=\sum\limits_{j} P(O_j | A) D(O_j),
+</math>
+where <math>D(O_j)</math> is the desirability of outcome <math>O_j</math> and <math>P(O_j | A)</math> is the conditional probability of <math>O_j</math> given <math>A</math>.
+
+Criticism
+
+David Kellogg Lewis|David Lewis has characterized evidential decision theory as promoting "an irrational 
+policy of managing the news".<ref name=Lewis1981>Citation
+ | doi = 10.1080/00048408112340011
+ | title = Causal decision theory
+ | url = http://www.informaworld.com/index/739194078.pdf
+ | year = 1981
+ | author = Lewis, D.
+ | journal = Australasian Journal of Philosophy
+ | pages = 5–30
+ | volume = 59
+ | issue = 1
+ | accessdate = 2009-05-29
+</ref> James M. Joyce asserted, "Rational agents choose acts on the basis of their ''causal efficacy'', not their auspiciousness; they act to ''bring about'' good results even when doing so might betoken bad news."<ref name=Joyce1999>Citation
+ | title =  The foundations of causal decision theory
+ | year = 1999
+ | author = Joyce, J.M.
+, p. 146</ref>
+
+See also
+div col|colwidth=25em
+* Causal decision theory
+* Decision making
+* Expected utility hypothesis
+* Game theory
+* Newcomb's paradox
+* Superrationality
+div col end
+
+References
+* cite book|url = https://www.cambridge.org/core/books/evidence-decision-and-causality/7077949D2CD42E99C08D4FBFE5321148 |title = Evidence, Decision and Causality|last = Ahmed|first = Arif|publisher = Cambridge University Press|year = 2014|isbn = 9781139107990 
+
+Footnotes
+reflist
+
+External links
+*[http://plato.stanford.edu/entries/decision-causal/ Causal Decision Theory] at the Stanford Encyclopedia of Philosophy
+
+Category:Decision theory| 
+
+
+statistics-stub

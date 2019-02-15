@@ -1,0 +1,41 @@
+Infobox organization
+|name = guifi.net
+|image = Logo guifi.svg
+|website = URL|guifi.net/en
+
+Infobox NSP
+| asn = [https://www.peeringdb.com/view.php?asn=49835 49835]
+| peeringpolicy = [https://noc.guifi.net/peering Open]
+
+File:Guifi.net supernode installation 2.jpg|thumb|right|250px|Installation of a "supernode" of guifi.net's network in Tarragona
+
+Guifi.net is a free, open and neutral, mostly wireless telecommunications community network, with over 35,000 active nodes and about 63,000&nbsp;km of wireless links (as of July 2018).<ref>Cite web|url=https://guifi.net/en/what_is_guifinet|title=What is guifi.net?|last=|first=|date=|website=|access-date=</ref> The majority of these nodes are located in Catalonia and the Valencian Community, in Spain.  but the network is growing in other parts of the world. The network is self-organized and operated by the users using unlicensed wireless links and open optical fibre links.
+
+The nodes of the Telecommunications network|network are contributed by individuals, companies and administrations that freely connect to an open network of telecommunications and extend the network wherever the infrastructure and content might not otherwise be accessible. Nodes join the network following the self-provision model since the whole structure is explicitly open to facilitate understanding how it is structured, so that everyone can create new sections as required. That results in a network infrastructure commons that provides abundant connectivity.<ref>Cite journal|last=Baig|first=Roger|last2=Roca|first2=Ramon|last3=Freitag|first3=Felix|last4=Navarro|first4=Leandro|date=2015-10-29|title=guifi.net, a crowdsourced network infrastructure held in common|url=http://people.ac.upc.edu/leandro/pubs/crowds-guifi-en.pdf|journal=Computer Networks|series=Crowdsourcing|volume=90|pages=150–165|doi=10.1016/j.comnet.2015.07.009</ref>
+
+File:Guifinet crecimiento 15marzo2011.png|thumb|250px|Growth curve of nodes in the guifi.net network by year. March 15th, 2011
+Guifi.net is supported by the Guifi.net Foundation, which has been registered as an operator with the Spanish Telecommunications Market Commission (CMT) since April 2009. In August 2009, the first deployment of optical fiber was started, known as the Fiber From The Farms (FFTF) Broadband Initiative,<ref>cite web|url=http://www.cmt.es/comunicaciones-electronicas?p_p_id=formulario_operador&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_pos=1&p_p_col_count=2&_formulario_operador_struts_action=%2fformulario_operador%2foperador&_formulario_operador_categoria=comunicaciones_electronicas&_formulario_operador_operador=&_formulario_operador_servicio=&_formulario_operador_nif=G-64918212&_formulario_operador_nomComercial=&_formulario_operador_idDetalle=G-64918212&_formulario_operador_pagina=1|title=Comunicaciones Electrónicas - CNMC - Comisión Nacional de los Mercados y la Competencia|publisher=|accessdate=26 November 2015|archive-url=https://web.archive.org/web/20150923205003/http://www.cmt.es/comunicaciones-electronicas?p_p_id=formulario_operador&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_pos=1&p_p_col_count=2&_formulario_operador_struts_action=%2fformulario_operador%2foperador&_formulario_operador_categoria=comunicaciones_electronicas&_formulario_operador_operador=&_formulario_operador_servicio=&_formulario_operador_nif=G-64918212&_formulario_operador_nomComercial=&_formulario_operador_idDetalle=G-64918212&_formulario_operador_pagina=1#|archive-date=2015-09-23|dead-url=yes|df=</ref><ref>cite web|url=http://ec.europa.eu/information_society/events/cf/dae1009/item-display.cfm?id=5490|title=My big idea for the Digital Agenda|publisher=|accessdate=26 November 2015</ref> covering about 2&nbsp;km and linking dozens of farms and farmhouses in the town of Gurb.
+
+Since early 2011, guifi.net is connected to the Catalonia Neutral Internet Exchange Point (CATNIX),<ref>cite web|url=http://www.ris.ripe.net/mt/asdashboard.html?as=49835|title=RIS Tools and Web Interfaces|publisher=|accessdate=26 November 2015</ref><ref>cite web|url=http://www.catnix.net/en/noticia/guifinet_es_connecta_al_catnix/26/|title=guifi.net connects to CATNIX|publisher=|accessdate=26 November 2015</ref> which exchanges data with other international telecommunications operators such as Cogent Communications and Hurricane Electric. This Internet connection is used by several associations that offer their members Internet access to low-cost at high speeds,<ref>[http://pili.la/guifinetexo guifi.net + EXO]dead link|date=October 2017 |bot=InternetArchiveBot |fix-attempted=yes </ref> which other Internet service providers currently do not offer. The model is oriented to cost sharing, the compensation mechanism.<ref>Cite journal|last=Baig|first=Roger|last2=Dalmau|first2=Lluís|last3=Roca|first3=Ramon|last4=Navarro|first4=Leandro|last5=Freitag|first5=Felix|last6=Sathiaseelan|first6=Arjuna|date=2016-01-01|title=Making Community Networks Economically Sustainable, the Guifi.Net Experience|url=http://dsg.ac.upc.edu/sites/default/files/dsg/acm-sigcomm-gaia-guifi-econ.pdf|journal=Proceedings of the 2016 Workshop on Global Access to the Internet for All|series=GAIA '16|location=New York, NY, USA|publisher=ACM|volume=|pages=31–36|isbn=9781450344234</ref>
+
+The basic principle of operation is based on the Wireless Commons License.<ref>http://guifi.net/en/WCL_EN
+ - The Wireless Commons License</ref><ref>Cite journal|last=Oliver|first=M.|last2=Zuidweg|first2=J.|last3=Batikas|first3=M.|date=2010-06-01|title=Wireless Commons against the digital divide|url=http://ieeexplore.ieee.org/document/5514608/|journal=2010 IEEE International Symposium on Technology and Society|pages=457–465|doi=10.1109/ISTAS.2010.5514608</ref>
+
+ References 
+Reflist
+
+ External links 
+* [https://translate.google.com/translate?hl=en&sl=es&tl=en&u=https%3A%2F%2Fguifi.net%2Fes%2Fque_es_2&sandbox=1 What is guifi.net?]
+* [https://guifi.net/en/node/3671/view/services Services on guifi.net]
+* [http://www.ris.ripe.net/mt/asdashboard.html?as=49835 guifi.net Autonomous System Number]
+* [https://translate.google.com/translate?hl=en&sl=es&tl=en&u=https%3A%2F%2Fweb.archive.org%2Fweb%2F20130828022258%2Fhttp%3A%2F%2Fdabax.net%2Fexo_guifi_internet&sandbox=1 guifi.net + EXO]
+* [https://github.com/guifi Official repository of guifi.net on Github]
+* [https://translate.google.com/translate?hl=en&sl=es&tl=en&u=http%3A%2F%2Fes.wiki.guifi.net%2Fwiki%2FMain_Page&sandbox=1 guifi.net documentation wiki]
+* ca icon [http://media.fib.upc.edu/fibtv/streamingmedia/view/2/251 Guifi.net presentation]
+
+Category:Guifi.net
+Category:Internet service providers
+Category:Community networks
+Category:Internet companies of Spain
+Category:Telecommunications companies of Spain
+Category:Wireless network organizations

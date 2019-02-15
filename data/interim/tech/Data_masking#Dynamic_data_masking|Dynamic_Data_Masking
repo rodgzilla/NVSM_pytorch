@@ -1,0 +1,138 @@
+Data masking<ref>cite web|url=http://www.iri.com/blog/data-protection/data-masking-and-data-encryption-are-not-the-same-things/|title=Data Masking vs. Data Encryption|website=www.iri.com|publisher=Innovative Routines International|accessdate=24 August 2017</ref> or data obfuscation<ref>cite web|url=http://mask-me.net/datamaskingwiki/wiki/26/data-masking-definition|title=Data Masking Definition|accessdate=24 August 2017</ref> is the process of hiding original data with modified content (characters or other data.)
+
+The main reason for applying masking to a data field is to protect data that is classified as Personally identifiable information|personal identifiable data, personal sensitive data or commercially sensitive data, however the data must remain usable for the purposes of undertaking valid test cycles. It must also look real and appear consistent. It is more common to have masking applied to data that is represented outside of a corporate production system. In other words, where data is needed for the purpose of application software|application development, building program extensions and conducting various software testing|test cycles. It is common practice in enterprise computing to take data from the production systems to fill the data component, required for these non-production environments. However the practice is not always restricted to non-production environments. In some organizations, data that appears on terminal screens to call centre operators may have masking dynamically applied based on user security permissions. (e.g.: Preventing call centre operators from viewing Credit Card Numbers in billing systems)
+
+The primary concern from a corporate governance perspective<ref>cite web|title=Information Management Specialists|url=http://www.grtcorp.com/|publisher=GBT|accessdate=24 August 2017</ref> is that personnel conducting work in these non-production environments are not always security cleared to operate with the information contained in the production data. This practice represents a security hole where data can be copied by unauthorised personnel and security measures associated with standard production level controls can be easily bypassed. This represents an access point for a Data breach|data security breach.
+
+The overall practice of Data Masking at an organisational level should be tightly coupled with the Test Management Practice<ref>cite web|url=http://mask-me.net/datamaskingwiki/wiki/42/webinar-lifecycle-and-data-masking|title=Data Lifecycle and Test Management Methodology|publisher=Data Kitchen|accessdate=24 August 2017</ref><ref>cite web|url=https://www.iri.com/blog/test-data/tdm-primer/|title=Test Data Management: A Primer|last=|first=|date=|website=|publisher=IRI|archive-url=|archive-date=|dead-url=|accessdate=24 August 2017</ref> and underlying Methodology and should incorporate processes for the distribution of masked test data subsets.<ref>cite web|url=http://mask-me.net/datamaskingwiki/wiki/37/sub-setting|title=Sub Setting|publisher=Data Kitchen|accessdate=24 August 2017</ref><ref>cite web|url=http://www.iri.com/solutions/test-data/db-subsetting|title=Database Subsetting|last=|first=|date=|website=|publisher=IRI|archive-url=|archive-date=|dead-url=|accessdate=24 August 2017</ref>
+
+Background
+Data involved in any data-masking or obfuscation must remain meaningful at several levels:
+
+# The data must remain meaningful for the application logic. For example, if elements of addresses are to be obfuscated and city and suburbs are replaced with substitute cities or suburbs, then, if within the application there is a feature that validates postcode or post code lookup, that function must still be allowed to operate without error and operate as expected. The same is also true for Luhn algorithm|credit-card algorithm validation checks and Social Security Number validations.  
+# The data must undergo enough changes so that it is not obvious that the masked data is from a source of production data. For example, it may be common knowledge in an organisation that there are 10 senior managers all earning in excess of $300K. If a test environment of the organisation's HR System also includes 10 identities in the same earning-bracket, then other information could be pieced together to reverse-engineer a real-life identity. Theoretically, if the data is obviously masked or obfuscated, then it would be reasonable for someone intending a data breach to assume that they could reverse engineer identity-data if they had some degree of knowledge of the identities in the production data-set. Accordingly, data obfuscation or masking of a data-set applies in such a manner as to ensure that identity and sensitive data records are protected - not just the individual data elements in discrete fields and tables.
+#The masked values may be required to be consistent across multiple databases within an organization when the databases each contain the specific data element being masked.  Applications may initially access one database and later access another one to retrieve related information where the foreign key has been masked (e.g. a call center application first brings up data from a customer master database and, depending on the situation, subsequently accesses one of several other databases with very different financial products.)  This requires that the masking applied is repeatable (the same input value to the masking algorithm always yields the same output value) but not able to be reverse engineered to get back to the original value.  Additional constraints as mentioned in (1) above may also apply depending on the data element(s) involved.  Where different character sets are used across the databases that need to connect in this scenario, a scheme of converting the original values to a common representation will need to be applied, either by the masking algorithm itself or prior to invoking said algorithm.
+
+Techniques
+
+=Substitution=
+Substitution is one of the most effective methods of applying data masking and being able to preserve the authentic look and feel of the data records.
+
+It allows the masking to be performed in such a manner that another authentic looking value can be substituted for the existing value. There are several data field types where this approach provides optimal benefit in disguising the overall data sub set as to whether or not it is a masked data set. For example, if dealing with source data which contains customer records, real life surname or first name can be randomly substituted from a supplied or customised look up file. If the first pass of the substitution allows for applying a male first name to all first names, then the second pass would need to allow for applying a female first name to all first names where gender equals "F". Using this approach we could easily maintain the gender mix within the data structure, apply anonymity to the data records but also maintain a realistic looking database which could not easily be identified as a database consisting of masked data.
+
+This substitution method needs to be applied for many of the fields that are in DB structures across the world, such as Telephone number|telephone numbers, ZIP Code|zip codes and postcodes, as well as Payment card number|credit card numbers and other card type numbers like Social Security number|Social Security numbers and Medicare (United States)|Medicare numbers where these numbers actually need to conform to a checksum test of the Luhn algorithm.
+
+In most cases, the substitution files will need to be fairly extensive so having large substitution datasets as well the ability to apply customized data substitution sets should be a key element of the evaluation criteria for any data masking solution.
+
+=Shuffling=
+The shuffling method is a very common form of data obfuscation. It is similar to the substitution method but it derives the substitution set from the same column of data that is being masked. In very simple terms, the data is randomly shuffled within the column. However, if used in isolation, anyone with any knowledge of the original data can then apply a "What If" scenario to the data set and then piece back together a real identity. The shuffling method is also open to being reversed if the shuffling algorithm can be deciphered.
+
+Shuffling, however, has some real strengths in certain areas. If for instance, the end of year figures for financial information in a test data base, one can mask the names of the suppliers and then shuffle the value of the accounts throughout the masked database. It is highly unlikely that anyone, even someone with intimate knowledge of the original data could derive a true data record back to its original values.
+
+=Number and date variance=
+The numeric variance method is very useful for applying to financial and date driven information fields. Effectively, a method utilising this manner of masking can still leave a meaningful range in a financial data set such as payroll. If the variance applied is around +/- 10% then it is still a very meaningful data set in terms of the ranges of salaries that are paid to the recipients.
+
+The same also applies to the date information. If the overall data set needs to retain demographic and actuarial data integrity then applying a random numeric variance of +/- 120 days to date fields would preserve the date distribution but still prevent traceability back to a known entity based on their known actual date or birth or a known date value of whatever record is being masked...
+
+=Encryption=
+Encryption is often the most complex approach to solving the data masking problem. The encryption algorithm often requires that a "key" be applied to view the data based on user rights. This often sounds like the best solution but in practice the key may then be given out to personnel without the proper rights to view the data and this then defeats the purpose of the masking exercise. Old databases may then be copied with the original credentials of the supplied key and the same uncontrolled problem lives on.
+
+Recently, the problem of encrypting data while preserving the properties of the entities got a recognition and newly acquired interest among the vendors and academia. New challenge gave birth to algorithms called Format Preserving Encryption|FPE (format preserving encryption). They are based on the accepted AES algorithmic mode that makes them being recognized by [http://www.nist.gov NIST].
+<ref>cite web|url=http://www.freepatentsonline.com/7864952.html|title=Data processing systems with format-preserving encryption and decryption engines|accessdate=24 August 2017</ref>
+
+=Nulling out or deletion=
+Sometimes a very simplistic approach to masking is adopted through applying a null value to a particular field. The null value approach is really only useful to prevent visibility of the data element.
+
+In almost all cases it lessens the degree of data integrity that is maintained in the masked data set. It is not a realistic value and will then fail any application logic validation that may have been applied in the front end software that is in the system under test. It also highlights to anyone that wishes to reverse engineer any of the identity data that data masking has been applied to some degree on the data set.
+
+=Masking out=
+Character scrambling or masking out of certain fields is also another simplistic yet very effective method of preventing sensitive information to be viewed. It is really an extension of the previous method of nulling out but there is greater emphasis on keeping the data real and not fully masked all together.
+
+This is commonly applied to credit card data in production systems. For instance, an operator in a Call Centre might bill an item to a customer's credit card. They then quote a billing reference to the card with the last 4 digits of XXXX XXXX xxxx 6789. As an operator they can only see the last 4 digits of the card number, but once the billing system passes the customer's details for charging, the full number is revealed to the payment gateway systems.
+
+This system is not very effective for test systems but is very useful for the billing scenario detailed above. It is also commonly known as a dynamic data masking method.<ref>cite web|title=IRI Dynamic Data Masking solutions|url=http://www.iri.com/solutions/data-masking/dynamic-data-masking/|accessdate=24 August 2017</ref><ref>cite web|title=Dynamic Data Masking with IBM Optim|url=http://www-01.ibm.com/software/data/optim/core/data-privacy-solution/|accessdate=24 August 2017</ref>
+
+=Additional complex rules=
+Additional rules can also be factored into any masking solution regardless of how the masking methods are constructed. Product agnostic White Papers<ref>cite web|url=http://www.datamasker.com/DataMasking_WhatYouNeedToKnow.pdf|title=Data Masking: What You Need to Know|publisher=Net2000 Ltd|accessdate=24 August 2017</ref> are a good source of information for exploring some of the more common complex requirements for enterprise masking solutions which include Row Internal Synchronisation Rules, Table Internal Synchronisation Rules and Table<ref>cite web|title=Syncronisation and Complex Data Masking Rules Explained|url=http://www.datamasker.com/DMO/HelpFiles/dmo_RowInternalSync.htm|accessdate=24 August 2017</ref> to Table Synchronisation Rules.
+
+Different types
+Data masking is tightly coupled with building test data. Two major types of data masking are static and on-the-fly data masking.
+<ref>
+cite web
+ | last = DataSunrise
+ | title = Dynamic and Static data masking
+ | date = 2017
+ | url = https://www.datasunrise.com/data-masking-made-simple/
+</ref>
+
+=Static data masking=
+Static Data Masking is usually performed on the golden copy of the database, but can also be applied to values in other sources, including files. In DB environments, production DBAs will typically load table backups to a separate environment, reduce the dataset to a subset that holds the data necessary for a particular round of testing (a technique called "subsetting"), apply data masking rules while data is in stasis, apply necessary code changes from source control, and/or and push data to desired environment.<ref>cite web|url=https://www.iri.com/solutions/data-masking/static-data-masking|title=Static data masking functions|last=|first=|date=|website=|publisher=IRI|archive-url=|archive-date=|dead-url=|accessdate=24 August 2017</ref>
+
+=Statistical data obfuscation=
+There are also alternatives to the static data masking that rely on stochastic perturbations of the data that preserve some of the statistical properties of the original data. Examples of statistical data obfuscation methods include differential privacy
+<ref>cite patent
+|country=US
+|number=7698250
+|title=Differential data privacy
+|pubdate = 2010-04-13
+|pridate = 2005-12-16
+|invent1 = Cynthia Dwork
+|invent2 = Frank McSherry
+|assign1= Microsoft Corp (original)
+|assign2=Microsoft Technology Licensing LLC (current)
+</ref>
+and the ''DataSifter'' method
+<ref>
+cite journal 
+|last1= Marino | first1= Simeone
+|last2= Zhou |first2= Nina 
+|last3= Zhao|first3= Yi
+|last4= Zhou |first4= Nina 
+|last5= Wu |first5= Qiucheng 
+|last6= Dinov |first6= Ivo
+|date= 2018
+|title= DataSifter: Statistical Obfuscation of Electronic Health Records and Other Sensitive Datasets
+|url= https://www.tandfonline.com/doi/full/10.1080/00949655.2018.1545228
+|journal= Journal of Statistical Computation and Simulation
+|volume= 89
+|issue= 2
+|pages= 249-271
+|doi= 10.1080/00949655.2018.1545228
+</ref>.
+
+=On-the-fly data masking=
+On-the-Fly Data Masking<ref>cite web|title=Eliminating Compliance Risks - Data Masking in the Cloud|url=http://mask-me.net/Downloads/Data%20Masking%20Addressing%20Risks%20in%20the%20Cloud-new.pptx|accessdate=24 August 2017</ref> happens in the process of transferring data from environment to environment without data touching the disk on its way. The same technique is applied to "Dynamic Data Masking" but one record at a time. This type of data masking is most useful for environments that do continuous deployments as well as for heavily integrated applications. Organizations that employ continuous deployment or continuous delivery practices do not have the time necessary to create a backup and load it to the golden copy of the database. Thus, continuously sending smaller subsets (deltas) of masked testing data from production is important. In heavily integrated applications, developers get feeds from other production systems at the very onset of development and masking of these feeds is either overlooked and not budgeted until later, making organizations non-compliant. Having on-the-fly data masking in place becomes essential.
+
+=Dynamic data masking=
+Dynamic Data Masking is similar to On-the-Fly Data Masking but it differs in the sense that On-the-Fly Data Masking is about copying data from one source to another source so that the latter can be shared. Dynamic data masking happens at runtime, dynamically, and on-demand so that there doesn't need to be a second data source where to store the masked data dynamically.
+
+Dynamic data masking enables several scenarios, many of which revolve around strict privacy regulations e.g. the Singapore Monetary Authority or the Privacy regulations in Europe.
+
+Dynamic data masking is Attribute-Based Access Control|attribute-based and policy-driven. Policies include:
+* Doctors can view the medical records of patients they are assigned to (data filtering)
+* Doctors cannot view the SSN field inside a medical record (data masking).
+
+Dynamic data masking can also be used to encrypt or decrypt values on the fly especially when using format-preserving encryption.
+
+Several standards have emerged in recent years to implement dynamic data filtering and masking. For instance, XACML policies can be used to mask data inside databases.
+
+There are five possible technologies to apply Dynamic data masking:
+# In the Database: Database receives the SQL and applies rewrite to returned masked result set. Applicable for developers & DBAs but not for applications (because connection pools, application caching and data-bus hide the application user identity from the database and can also cause application data corruption).
+# Network Proxy between the application and the database: Captures the SQL and applies rewrite on the select request. Applicable for developers & DBAs with simple 'select'requests but not for stored procedures (which the proxy only identifies the exec.) and applications (because connection pools, application caching and data-bus hide the application user identity from the database and can also cause application data corruption).
+# Network Proxy between the end-user and the application: identifying text strings and replacing them. This method is not applicable for complex applications as it will easily cause corruption when the real-time string replacement is unintentionally applied.
+# Code changes in the applications & XACML: code changes are hard to perform, impossible to maintain and not applicable for packaged applications.
+# Within the application run-time: By instrumenting the application run-time, policies are defined to rewrite the result set returned from the data sources, while having full visibility to the application user. This method is the only applicable way to dynamically mask complex applications as it enables control to the data request, data result and user result.
+
+=Data masking and the cloud=
+In latest years, organizations develop their new applications in the cloud more and more often, regardless of whether final applications will be hosted in the cloud or on- premises. The cloud solutions as of now allow organizations to use Infrastructure as a Service or IaaS, Platform as a Service or PaaS, and Software as a Service or SaaS. There are various modes of creating test data and moving it from on-premises databases to the cloud, or between different environments within the cloud. Data masking invariably becomes the part of these processes in SDLC as the development environments' SLAs are usually not as stringent as the production environments' SLAs regardless of whether application is hosted in the cloud or on-premises.
+
+See also
+*Masking and unmasking by intelligence agencies
+
+References
+Reflist
+
+DEFAULTSORT:Data Masking
+Category:Database management systems
+Category:Databases
+Category:Data protection

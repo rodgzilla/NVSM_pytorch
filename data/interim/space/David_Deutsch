@@ -1,0 +1,136 @@
+for|the American advertising executive|David Deutsch (ad executive)
+Use dmy dates|date=July 2012
+Infobox scientist
+| name              = David Deutsch
+| image             = David Deutsch.jpg
+| honorific_suffix = post-nominals|country=GBR|FRS
+| image_size        = 
+| caption           = David Deutsch in 2015
+| birth_date        = birth date and age|df=yes|1953|05|18<ref name=whoswho>Who's Who | surname = Deutsch| othernames = Prof. David Elieser | id = U247346 | volume = 2014 | edition = April 2014 online | accessed = 26 July 2014 </ref>
+| birth_place       = Haifa, Israel
+| birth_name = David Elieser Deutsch
+| death_date        =
+| death_place       =
+| residence         =
+| citizenship       =
+| nationality       =
+| fields            = Theoretical physics<br/>Quantum information science
+| workplaces        = University of Oxford<br />Clarendon Laboratory
+| education = William Ellis School
+| alma_mater        = Clare College, Cambridge (BA)<br/>Wolfson College, Oxford (PhD)
+| thesis_url = http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.453518
+| thesis_title = Boundary effects in quantum field theory
+| thesis_year = 1978
+| doctoral_advisor  = Plainlist|
+* Dennis Sciama<ref name=mathgene>MathGenealogy|id=105748</ref>
+* Philip Candelas<ref name=dphd/>
+| academic_advisors =
+| doctoral_students = Artur Ekert<ref name=mathgene/>
+| notable_students  =
+| known_for         = Plainlist|
+* Quantum computing
+* Quantum Turing machine
+* Church–Turing–Deutsch principle
+* Deutsch–Jozsa algorithm
+* Quantum logic gate
+* Quantum circuit
+* Quantum error correction
+* Qubit field theory
+* Constructor theory
+* ''The Fabric of Reality''
+* ''The Beginning of Infinity''
+| influences        = Plainlist|
+* Karl Popper<ref name="beg-of-infinity">cite book |last1=Deutsch |first1=David |title=The beginning of infinity : explanations that transform the world |publisher=Allen Lane |isbn=9780713992748 </ref>
+* Jacob Bronowski<ref name="beg-of-infinity"/>
+* William Godwin<ref name=peach>Cite web|url=https://philosophynow.org/issues/30/David_Deutsch|title=David Deutsch|last=Peach|first=Filiz|series=Interview|year=2000|website=Philosophy Now|accessdate=7 December 2016</ref>
+| influenced        =
+| awards            = Plainlist|
+* Dirac Prize small|(1998)
+* Dirac Medal small|(2017)
+| website = URL|daviddeutsch.org.uk
+| signature         = <!--(filename only)-->
+| footnotes         =
+
+
+David Elieser Deutsch post-nominals|country=GBR|FRS<ref name=frs/> (IPAc-en|d|ɔɪ|tʃ; born 18 May 1953)<ref name=whoswho/> is an Israeli-born British physicist at the University of Oxford. He is a Visiting Professor in the Department of Atomic and Laser Physics at the Centre for Quantum Computation (CQC) in the Clarendon Laboratory of the University of Oxford. He pioneered the field of quantum computation by formulating a description for a quantum Turing machine, as well as specifying an algorithm designed to run on a quantum computer.<ref name=Deutsch1985>
+cite journal
+|last=Deutsch
+|first=David
+|date= 1985
+|title=Quantum theory, the Church-Turing principle and the universal quantum computer
+|journal=Proceedings of the Royal Society A
+|volume=400
+|issue=1818
+|pages=97–117
+ |doi=10.1098/rspa.1985.0070 |bibcode = 1985RSPSA.400...97D </ref> He is a proponent of the many-worlds interpretation of quantum mechanics.<ref name=scopus>Scopus id</ref>
+
+Deutsch has expounded a new criterion for scientific explanation, which is to formulate invariants: 'State an explanation [publicly, so that it can be dated and verified by others later] that  remains invariant [in the face of apparent change, new information, or unexpected conditions]'.<ref name=TED>[https://www.ted.com/talks/david_deutsch_a_new_way_to_explain_explanation David Deutsch (October 2009) "A new way to explain explanation" ''TED talk'']
+*[https://www.youtube.com/watch?v=folTvNDL08A David Deutsch (October 2009) "A new way to explain explanation" ''TED talk''] youTube clip</ref>
+quote|A bad explanation is easy to vary. —David Deutsch<ref name=TED />rp| minute 11:22 
+quote|The search for hard to vary explanations is the origin of all progress. —David Deutsch<ref name=TED />rp| minute 15:05 
+quote|That  "''the truth consists of hard to vary assertions about reality''"  is the most important fact about the physical world. —David Deutsch<ref name=TED />rp| minute 16:15 
+Early life and education
+Deutsch was born in Haifa in Israel on 18 May 1953, the son of Oskar and Tikva Deutsch. He attended William Ellis School in Highgate, north London (then a voluntary aided school|voluntary aided grammar school) before reading Natural Sciences (Cambridge)|Natural Sciences at Clare College, Cambridge and taking Part III of the Mathematical Tripos. He went on to Wolfson College, Oxford for his doctorate in theoretical physics<ref name=dphd>cite thesis|first=David Elieser|last=Deutsch|url=http://solo.bodleian.ox.ac.uk/OXVU1:LSCOP_OX:oxfaleph020621138|website=bodleian.ox.ac.uk|publisher=University of Oxford|year=1978|title=Boundary effects in quantum field theory|degree=DPhil|id=EThOS|uk.bl.ethos.453518</ref> and wrote his thesis on quantum field theory in curved space-time<ref name=whoswho/><ref name=peach/> supervised by Dennis Sciama<ref name=mathgene/> and Philip Candelas.<ref name=dphd/><ref>Cite journal|last1=Deutsch|first1=David|last2=Candelas|first2=Philip|year=1979|title=Boundary effects in quantum field theory|journal=Physical Review D|volume=20|issue=12|pages=3063–3080|doi=10.1103/physrevd.20.3063|via=|bibcode=1979PhRvD..20.3063D</ref>
+
+Career and research
+His work on quantum algorithms began with a ground-breaking 1985 paper,<ref name=Deutsch1985/> later expanded in 1992 along with Richard Jozsa to produce the Deutsch–Jozsa algorithm, one of the first examples of a quantum algorithm that is exponentially faster than any possible deterministic classical algorithm.
+
+Together with Chiara Marletto, he published a paper in December 2014 entitled ''Constructor theory of information'',<ref name=DeutschMarletto2014>cite journal|last1=Deutsch|first1=D.|last2=Marletto|first2=C.|title=Constructor theory of information|journal=Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences|volume=471|issue=2174|year=2014|pages=20140540–20140540|issn=1364-5021|doi=10.1098/rspa.2014.0540|pmid=25663803|pmc=4309123 |arxiv=1405.5563|bibcode=2014RSPSA.47140540D open access</ref> that conjectures that information can be expressed solely in terms of which transformations of physical systems are possible and which are impossible. He is currently (since 2012)<ref name="Heaven-06112012">cite web |url=https://www.newscientist.com/article/dn22469-theory-of-everything-says-universe-is-a-transformer.html |last=Heaven |first=Douglas |title=Theory of everything says universe is a transformer |publisher=Reed Business Information |website=New Scientist |date=6 November 2012 |accessdate=11 January 2016</ref><ref name="Merali-26052014">cite web|last1=Merali|first1=Zeeya|title=A Meta-Law to Rule Them All: Physicists Devise a "Theory of Everything"|url=http://www.scientificamerican.com/article/a-meta-law-to-rule-them-all-physicists-devise-a-theory-of-everything/|website=Scientific American|publisher=Nature Publishing Group|date=26 May 2014|accessdate=11 January 2016</ref> working on constructor theory,<ref name=DeutschMarletto2014/> an attempt at generalizing the quantum theory of computation to cover not just computation but all physical processes.<ref>cite web|url=http://edge.org/conversation/constructor-theory|title= Constructor Theory: A Conversation with David Deutsch|author=Anon|year=2012|website=edge.org</ref><ref>Deutsch, D. and Marletto, C.; "Why we need to reconstruct the universe", ''New Scientist'', 24 May 2014, Pages 30-31.</ref> His nomination for election as a Fellow of the Royal Society (FRS) in 2008, his contributions were described as having... :<ref name=frs/>
+
+<blockquote>... laid the foundations of the quantum theory of computation, and has subsequently made or participated in many of the most important advances in the field, including the discovery of the first quantum algorithms, the theory of quantum logic gates and quantum computational networks, the first quantum error-correction scheme, and several fundamental quantum universality results. He has set the agenda for worldwide research efforts in this new, interdisciplinary field, made progress in understanding its philosophical implications (via a variant of the many-universes interpretation) and made it comprehensible to the general public, notably in his book The Fabric of Reality.</blockquote>
+
+In 1996 he appeared in the BBC ''Horizon (UK TV series)|Horizon'' programme.<ref name=imdb>IMDb name|id=2396284</ref>
+
+=''The Fabric of Reality''=
+Main article|The Fabric of Reality
+
+In his 1997 book ''The Fabric of Reality'', Deutsch details his "Theory of Everything." It aims not at the reduction of everything to particle physics, but rather mutual support among multiversal, computational, epistemological, and evolutionary principles. His theory of everything is somewhat emergence|emergentist rather than reductionism|reductive. There are four strands to his theory:
+
+# Hugh Everett's many-worlds interpretation of quantum mechanics|quantum physics, "the first and most important of the four strands."
+# Karl Popper's epistemology, especially its anti-inductivism and requiring a scientific realism|realist (non-instrumental) interpretation of scientific theories, as well as its emphasis on taking seriously those bold conjectures that resist falsification.
+# Alan Turing's theory of computation, especially as developed in Deutsch's Turing principle, in which the Universal Turing machine is replaced by Deutsch's universal quantum computer. ("''The'' theory of computation is now the quantum theory of computation.")
+# Richard Dawkins's refinement of Darwinism|Darwinian evolutionary theory and the Extended evolutionary synthesis|modern evolutionary synthesis, especially the ideas of replicator and meme as they integrate with Popperian problem-solving (the epistemological strand).
+
+=''The Beginning of Infinity''=
+Main article|The Beginning of Infinity 
+
+Deutsch's second book, ''The Beginning of Infinity: Explanations that Transform the World'', was published on 31 March 2011. In this book Deutsch views the Age of Enlightenment|Enlightenment of the 18th century as near the beginning of a potentially  unending sequence of purposeful knowledge creation. He examines the nature of memes and how and why creativity evolved in humans.<ref>TED speaker</ref>
+
+=Awards and honours=
+Deutsch was awarded the Dirac Prize of the Institute of Physics in 1998,<ref name=":0">Cite web|url=http://www.daviddeutsch.org.uk/about-me/|title=About Me|last=Deutsch|year=2016|first=David|website=daviddeutsch.org.uk|access-date=7 December 2016</ref> and the Edge of Computation Science Prize in 2005.<ref name=":0" /><ref>[http://www.physics.ox.ac.uk/al/prizes.htm Edge of Computation Science Prize] webarchive |url=https://web.archive.org/web/20061209230404/http://www.physics.ox.ac.uk/al/prizes.htm |date=9 December 2006 </ref> ''The Fabric of Reality'' was shortlisted for the Royal Society Prizes for Science Books|Rhone-Poulenc science book award in 1998.<ref>Cite web|url=http://www.daviddeutsch.org.uk/books/the-fabric-of-reality/|title=The Fabric of Reality|last=Deutsch|first=David|website=daviddeutsch.org.uk|access-date=7 December 2016</ref> In 2017 he received the Dirac Medal of the International Centre for Theoretical Physics|International Centre for Theoretical Physics (ICTP).<ref>cite web|url=https://www.ictp.it/about-ictp/prizes-awards/the-dirac-medal/the-medallists/dirac-medallists-2017.aspx|title=Dirac Medal of ICTP 2017|website=www.ictp.it</ref> He was elected a List of Fellows of the Royal Society elected in 2008|Fellow of the Royal Society (FRS) in 2008.<ref name=frs>cite web|url=https://royalsociety.org/people/david-deutsch-11329/|website=royalsociety.org|publisher=Royal Society|location=London|author=Anon|year=2008|title=Professor David Deutsch FRS One or more of the preceding sentences incorporates text from the royalsociety.org website where: quote|“All text published under the heading 'Biography' on Fellow profile pages is available under Creative Commons license|Creative Commons Attribution 4.0 International License.” --cite web |url=https://royalsociety.org/about-us/terms-conditions-policies/ |title=Royal Society Terms, conditions and policies |accessdate=2016-03-09 |deadurl=bot: unknown |archiveurl=https://web.archive.org/web/20161111170346/https://royalsociety.org/about-us/terms-conditions-policies/ |archivedate=11 November 2016 |df=dmy-all </ref>
+
+Personal life
+Deutsch is an atheist.<ref>[http://www.celebatheists.com/wiki/David_Deutsch David Deutsch entry], Celeb atheists website, 30 March 2005. Accessed Jan 2015</ref> He is also a founding member of the parenting and educational method known as Taking Children Seriously.<ref>Cite web|url=http://www.utne.com/mind-and-body/taking-children-seriously-tcs.aspx#axzz36G0RK12u|title=Taking Children Seriously: A new child-rearing movement believes parents should never coerce their kids|last=Friedman|first=Dawn|year=2003|website=UTNE Reader|publisher=Ogden Publications, Inc.|accessdate=7 December 2016</ref>
+
+References
+wikiquote
+Reflist
+* CC-notice|cc=by4|url= https://royalsociety.org/people/david-deutsch-11329/
+
+FRS 2008
+Authority control
+
+DEFAULTSORT:Deutsch, David
+Category:People from Haifa
+Category:Israeli Jews
+Category:Israeli physicists
+Category:Israeli writers
+Category:Israeli computer scientists
+Category:Quantum computing
+Category:British Jews
+Category:British libertarians
+Category:British physicists
+Category:British atheists
+Category:1953 births
+Category:Jewish atheists
+Category:Jewish physicists
+Category:Living people
+Category:Fellows of the British Computer Society
+Category:Fellows of the Royal Society
+Category:Theoretical physicists
+Category:People educated at William Ellis School
+Category:Alumni of Clare College, Cambridge
+Category:Alumni of Wolfson College, Oxford
+Category:Academics of the University of Oxford
+Category:Quantum physicists
+Category:Quantum information scientists

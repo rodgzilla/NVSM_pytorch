@@ -1,0 +1,77 @@
+cleanup|date=May 2011
+File:Patras Wireless Network 5.jpg|thumb|Setting up a Wi-Fi connection
+Wireless community networks (WCNs) or wireless community projects are the organizations that attempt to take a grassroots approach to providing a viable alternative to municipal wireless networks for consumers.<ref>cite conference|title=A Survey on Centralised and Distributed Clustering Routing Algorithms for WSNs|date=May 2015|publisher=|pages=1–6|doi=10.1109/VTCSpring.2015.7145650|url=https://www.researchgate.net/profile/Morteza_Mohammadi_Zanjireh/publication/274638337_A_Survey_on_Centralised_and_Distributed_Clustering_Routing_Algorithms_for_WSNs/links/552444b80cf2b123c5173968/A-Survey-on-Centralised-and-Distributed-Clustering-Routing-Algorithms-for-WSNs.pdf|author=Morteza M. Zanjireh|author2=Hadi Larijani|conference=Conference: IEEE 81st Vehicular Technology Conference: VTC2015-Spring|location=Glasgow, Scotland</ref>
+
+Because of evolving technology and locales, there are at least four different types of solution:
+* Cluster: Advocacy groups which simply encourage sharing of unmetered internet bandwidth via Wi-Fi, may also index nodes, suggest uniform SSID#Service set identifier .28SSID.29|SSID (for low-quality roaming), supply equipment, Domain Name System|DNS services, etc.
+* Wireless mesh network|Mesh: Technology groups which coordinate building a mesh network to provide Wi-Fi access to the internet
+* Wireless Internet service provider|WISP: A mesh that forwards all traffic back to consolidated link aggregation point(s) that have centralized access to the internet
+* Wireless user group|WUG: A wireless user group run by wireless enthusiasts. An open network not used for the reselling of internet. Running a combination of various off the shelf WIFI hardware running in the license free ISM bands 2.4&nbsp;GHz/5.8&nbsp;GHz
+
+Certain countries regulate the selling of internet access, requiring a license to sell internet access over a wireless network. In South Africa it is regulated by the Independent Communications Authority of South Africa (ICASA).<ref>cite book|title=OECD Economic Surveys: South Africa 2008: South Africa - Economic Assessment|author=OECD Organisation for Economic Co-operation and Develop|date=July 24, 2008|url=https://books.google.com/books?id=LXUw79-aEVkC&pg=PA103&lpg=PA103&dq=Independent+Communications+Authority+of+South+Africa+wireless+access&source=bl&ots=aLjMsQBbZ9&sig=hIYAq4QkUlpy2yW6VKs4u23srmc&hl=en&sa=X&ei=SIETT7qmBsfKiALH47iuDQ&ved=0CD0Q6AEwBDgK#v=onepage&q=Independent%20Communications%20Authority%20of%20South%20Africa%20wireless%20access&f=false|page=103|publisher=OECD Publishing|isbn=978-92-64-04692-4</ref> They require that WISP's apply for a VANS or ECNS/ECS license before being allowed to resell internet access over a wireless link.
+
+The cluster and mesh approaches are more common but rely primarily on the sharing of unmetered residential and business DSL and cable Internet. This sort of usage might be non-compliant with the Terms of Service (ToS) of the typical local providers that deliver their service via the consumer phone and cable duopoly. Wireless community network sometimes advocate complete freedom from censorship, and this position may be at odds with the Acceptable use policy|Acceptable Use Policies of some commercial services used. Some ISPs do allow sharing or reselling of bandwidth.<ref>[https://www.eff.org/Infrastructure/Wireless_cellular_radio/wireless_friendly_isp_list.html Wireless-Friendly ISPSs] Electronic Frontier Foundation accessed 4 May 2011</ref>
+
+History
+These projects are in many senses an evolution of amateur radio, and more specifically packet radio, as well as an outgrowth of the free software community (which in itself substantially overlaps with amateur radio)citation needed|date=December 2010. The key to using standard wireless networking devices designed for short-range use for multi-kilometre Long Range Wi-Fi linkups is the use of high-gain directional antennas. Rather than purchasing commercially available units, such groups sometimes advocate homebuilt antenna construction. Examples include the cantenna, which is typically constructed from a Pringles potato chip can, and RONJA, an optical link that can be made from a smoke flue and LEDs, with circuitry and instructions released under the GFDL. As with other wireless mesh networks, three distinct generations of mesh networks are used in wireless community networks.<ref>[http://wireless-straight-talk.blogspot.com/2006/11/talkin-bout-my-generation.html Talkin' 'bout my generation] November 16, 2006</ref><ref>[http://perspektive89.com/2006/10/18/free_culture_free_software_free_infrastructures_openness_and_freedom_in_every_layer_of_the_network_flo_fleissig_episo  Free Culture, Free Software, Free Infrastructures!], Interviews with Klohjschi, Jürgen Neumann (Freifunk Germany), Kurt Jansson (Wikimedia Germany), Rishab Aiyer Ghosh (United Nations University), Lawrence Lessig (Creative Commons), Allison, Benoit (Montréal Wireless Community) October 18, 2006</ref> In particular, in the 2004 timeframe, some mesh projects suffered poor performance when scaled up.<ref>[http://www.muniwireless.com/article/articleview/4537/1/2/Performance Analysis of Mesh Architectures] December 8, 2004</ref><ref>[http://www.dailywireless.org/2004/06/28/ugly-truth-about-mesh-networks/ Ugly truth about mesh networks] June 28, 2004</ref>
+
+Organization
+Organizationally, a wireless community network requires either a set of affordable commercial technical solutions or a critical mass of hobbyists willing to tinker to maintain operations. Mesh networks require that a high level of community participation and commitment be maintained for the network to be viable. The mesh approach currently requires uniform equipment. One market-driven aspect of the mesh approach is that users who receive a weak mesh signal can often convert it to a strong signal by obtaining and operating a repeater node, thus extending the mesh network.
+
+Such volunteer organizations focusing in technology that is rapidly advancing sometimes have schisms and mergers.cn|date=May 2014 The Wi-Fi service provided by such groups is usually free and without the stigma of piggybacking (internet access)|piggybacking. An alternative to the voluntary model is to use a co-operatives|co-operative structure.<ref>[http://www.economist.com/science/displaystory.cfm?story_id=9244199 Easier said than done: Second thoughts about municipal Wi-Fi] May 25th 2007</ref>
+
+People's Open Network
+People's Open Network is a community wireless network|community wireless mesh network being built by a local volunteer group, Sudo Mesh, based in Oakland, California.<ref>Cite web|url=https://peoplesopen.net/|title=Welcome to the People's Open Network|website=peoplesopen.net|language=en|access-date=2018-02-19</ref> It is a project of the Sudo Room hackerspace.<ref>Cite web|url=https://localwiki.org/oakland/Mesh_Network|title=Mesh Network - Oakland - LocalWiki|website=localwiki.org|language=en|access-date=2018-02-18</ref><ref>cite news |last=Peters |first=Adele |date=2017-12-19 |title=Want To Guarantee Net Neutrality? Join Peer-To-Peer, Community-Run Internet |url=https://www.fastcompany.com/40509146/want-to-guarantee-net-neutrality-join-peer-to-peer-community-run-internet |work=Fast Company |access-date=2018-02-11 </ref><ref>cite news |last=Kalish |first=Jon |date=2017-05-09 |title=How a Retired Nurse Provides Her Small Vt. Town With Internet |url=https://www.pcmag.com/article/353523/how-a-retired-nurse-provides-her-small-vt-town-with-interne |work=PC Mag |location= |access-date=2018-02-11 </ref> As of 2017, there were more than 50 network nodes functioning across Oakland.<ref>Cite news|url=https://www.pcmag.com/article/353523/how-a-retired-nurse-provides-her-small-vt-town-with-interne|title=How a Retired Nurse Provides Her Small Vt. Town With Internet|work=PCMAG|access-date=2018-02-18|language=en</ref> Founders of the People's Open Network want to give more people access to better and cheaper communication tools while creating platforms for locally relevant and decentralized web applications.<ref>Cite news|url=https://thepollinationproject.org/grants-awarded/marc-juul-peoples-open-network/|title=Marc Juul, People’s Open Network ! The Pollination Project|date=2014-02-21|work=The Pollination Project|access-date=2018-02-18|language=en-US</ref>
+
+Community members can join the network by purchasing an internet router and installing open-source firmware on the device. Once plugged in, the router can connect to the active mesh network and double as a hotspot that automatically connects with others in range. The group even runs educational workshops to spread awareness and help the public learn to create their own mesh networking solutions.<ref>Cite news|url=https://mobiwm.com/technology/mesh-networking-net-neutrality/|title=Mesh Networking - Is This the Beginning of a New Kind of Net Neutrality?|date=2018-01-05|work=MOBI|access-date=2018-02-19|language=en-US</ref>
+
+Matt Senate, one of the founders of Sudo Room, told Tech President in 2014 that Sudo Mesh is “building and growing a network run by and for the community." Senate explained that Occupy Oakland offered a new style of governance and that the People’s Open Network was building that community ethos into the telecommunications infrastructure. 
+
+Jenny Ryan, a cyberanthropologist, free culture advocate, and one of the original members of the Sudo Mesh team, noted the East Bay has long nourished a particularly radical streak, largely at odds with authority. She told Tech President that Oakland “building a community-owned telecommunications infrastructure is one piece to the larger picture of building autonomy and people power.” <ref>Cite web|url=http://techpresident.com/news/25200/oakland-sudo-mesh-counter-censorship-digital-divide-mesh-net|title=Oakland's Sudo Mesh Looks to Counter Censorship and Digital Divide With a Mesh Network|website=TechPresident|access-date=2018-02-18</ref>
+
+See also
+commons category|Wireless network communities
+* AWMN
+* Community Broadband Network
+* Community network
+* Computer network
+* Commotion Wireless
+* DD-WRT
+* DIY Networking
+* Freifunk, a mesh networking community based in Germany
+* Guifi.net, a community network in Spain and probably the world's largest
+* List of wireless community networks by region
+* MetaMesh.org a community mesh network operating in several United States' cities
+* Multiple-input multiple-output communications (MIMO)
+* Meraki, a Google-funded startup to provide affordable equipment
+* Neighborhood Internet Service Provider
+* Netsukuku
+* Ninux, a mesh networking community based in Italy
+* OpenWireless.org, a project by the Electronic Frontier Foundation (EFF)
+* OpenWrt, a free Linux-based operating system for home routers which supports standard and experimental networking protocols
+* Optimized Link State Routing Protocol
+* Wireless LAN Security
+* Wireless Nodes Database, an open-source WiND project
+* Wirelesspt.net, Portugal's national opensource community mesh network
+* Wlan ljubljana#nodewatcher|nodewatcher, an open-source node database project
+* WLAN.org.uk - Original community wireless internet promoting site
+* Wireless België, a community-based free access internet network in Belgium
+
+References
+reflist|2
+
+Further reading
+* cite book |title= Building wireless community networks |author= Rob Flickenger |edition= 2nd |publisher= O'Reilly Media |year= 2003  |isbn= 978-0-596-00502-3 |url= https://books.google.com/books?id=kaqfs82Wk6MC 
+
+External links
+*[http://www.funkfeuer.at/ FunkFeuer]
+*[http://freenetworks.org/ FreeNetworks]
+*[http://meshcities.com/ Mesh Cities]
+*[http://global.freifunk.net Free Global Wireless: syndicating the free wireless communities and blogs of the world]
+*[http://www.wug.za.net Wireless user groups (WUG's) of South Africa]
+*[http://www.wlan.org.uk  WLAN.org.uk: Original community wireless internet promoting site]
+*[http://rhizomatica.org Rhizomatica, a community built, owned, and operated telecommunications network in Mexico]
+
+DEFAULTSORT:Wireless Community Network
+Category:Wireless community networks| 
+Category:Wireless Internet service providers

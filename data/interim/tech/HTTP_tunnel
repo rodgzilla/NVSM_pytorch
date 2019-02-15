@@ -1,0 +1,50 @@
+HTTP tunneling is used to create a network link between two computers in conditions of restricted network connectivity including Firewall (computing)|firewalls, Network address translation|NATs and Access control list#Networking_ACLs|ACLs, among other restrictions. The tunnel is created by an intermediary called a Proxy server|proxy server which is usually located in a DMZ (computing)|DMZ.
+
+Tunneling can also allow communication using a Protocol (computing)|protocol that normally wouldn’t be supported on the restricted network.
+
+ HTTP CONNECT method 
+The most common form of HTTP tunneling is the standardized Hypertext_Transfer_Protocol#Request_methods|HTTP CONNECT method.<ref>cite IETF|title= Hypertext Transfer Protocol -- HTTP/1.1 |rfc= 2616 |sectionname= Method Definitions, CONNECT |section= 9.9 |page= 56 |last= Fielding |first= R. |year= 1999 |month= June |publisher= Internet Engineering Task Force|IETF |accessdate= 2010-07-09 </ref><ref>cite web|title= Upgrading to TLS Within HTTP/1.1 (RFC 2817) |rfc= 2817 |accessdate= 3 July 2011 </ref>  In this mechanism, the client asks an HTTP proxy server to forward the Transmission Control Protocol|TCP connection to the desired destination. The server then proceeds to make the connection on behalf of the client. Once the connection has been established by the server, the proxy server continues to proxy the TCP stream to and from the client. Only the initial connection request is HTTP - after that, the server simply proxies the established TCP connection.
+
+This mechanism is how a client behind an HTTP proxy can access websites using Secure Sockets Layer|SSL or TLS (i.e. HTTPS). Proxy servers may also limit connections by only allowing connections to the default HTTPS port 443, Whitelist|whitelisting hosts, or blocking traffic which doesn't appear to be SSL.
+
+=Example negotiation=
+The client connects to the proxy server and requests tunneling by specifying the port and the host computer it would like to connect to. The port is used to indicate the protocol being requested.<ref name="rfc7231.4.3.6">cite IETF |title=HTTP/1.1 Semantics and Content |rfc=7231 |sectionname=CONNECT |section=4.3.6 |page=30 |year=2014 |month=June |publisher=Internet Engineering Task Force|IETF |accessdate=4 November 2017 </ref>
+
+<source lang="http">
+CONNECT example.host.com:22 HTTP/1.1
+Proxy-Authorization: Basic encoded-credentials
+</source>
+
+If the connection was allowed and the proxy has connected to the specified host then the proxy will return a 2XX success response.<ref name="rfc7231.4.3.6">cite IETF |title=HTTP/1.1 Semantics and Content |rfc=7231 |sectionname=CONNECT |section=4.3.6 |page=30 |year=2014 |month=June |publisher=Internet Engineering Task Force|IETF |accessdate=4 November 2017 </ref>
+
+<source lang="http">
+HTTP/1.1 200 OK
+</source>
+ 
+The client is now being proxied to the remote host. Any data sent to the proxy server is now forwarded, unmodified, to the remote host<ref name="rfc7231.4.3.6">cite IETF |title=HTTP/1.1 Semantics and Content |rfc=7231 |sectionname=CONNECT |section=4.3.6 |page=30 |year=2014 |month=June |publisher=Internet Engineering Task Force|IETF |accessdate=4 November 2017 </ref> and the client can communicate using any protocol accepted by the remote host.
+In the example below, the client is starting SSH communications as hinted to, by the port number, in the initial CONNECT request.
+
+ SSH-2.0-OpenSSH_4.3\r\n
+ ...
+
+ HTTP tunneling without using CONNECT 
+A HTTP tunnel can also be implemented using only the usual HTTP methods as POST, GET, PUT and DELETE. This is similar to the approach used in Bidirectional-streams Over Synchronous HTTP (BOSH (protocol)|BOSH).
+
+In this Citation/make link|https://github.com/luizluca/bridge|proof-of-concept program , a special HTTP server runs outside the protected network and a client program is run on a computer inside the protected network. Whenever any network traffic is passed from the client, the client repackages the traffic data as a HTTP request and relays the data to the outside server, which extracts and executes the original network request for the client. The response to the request, sent to the server, is then repackaged as an HTTP response and relayed back to the client. Since all traffic is encapsulated inside normal GET and POST requests and responses, this approach works through most proxies and firewalls.
+
+ See also 
+* ICMP tunnel
+* Pseudo-wire
+* Tunnel broker
+* Virtual private network (VPN)
+* Virtual Extensible LAN|Virtual extensible LAN
+* Network Virtualization using Generic Routing Encapsulation|Network virtualization using generic routing encapsulation
+
+References
+Reflist
+
+DEFAULTSORT:Http Tunnel
+Category:Hypertext Transfer Protocol
+Category:Tunneling protocols| 
+Category:Network protocols
+Category:Computer security

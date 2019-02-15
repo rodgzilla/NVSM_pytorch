@@ -1,0 +1,3516 @@
+About||a list of active probes only|List of active Solar System probes|a list of landers only|Landings on other planets
+
+This is a list of space probes that have left Earth orbit (or were launched with that intention but failed), organized by their planned destination.  It includes planetary probes, solar probes, and probes to asteroids and comets, but excludes lunar missions, which are listed separately at List of lunar probes and List of Apollo missions. Flybys (such as Gravitational slingshot|gravity assists) that were incidental to the main purpose of the mission are also included. Flybys of Earth are listed separately at List of Earth flybys. Confirmed future probes are included, but missions that are still at the concept stage, or which never progressed beyond the concept stage, are not.
+
+Key
+Colour key:
+{|
+|-
+|Color box|#EFE7B8;|border=darkgray &ndash; Mission or flyby completed successfully (or partially successfully)
+|&nbsp;&nbsp;&nbsp;
+|Color box|#F2F2F2;|border=darkgray &ndash; Failed or cancelled mission
+|-
+|Color box|#CCFFD9;|border=darkgray &ndash; Mission en route or in progress (including mission extensions)
+|
+|Color box|#FFFFFF;|border=darkgray &ndash; Planned mission
+|
+|}
+
+* <sup>†</sup> means "tentatively identified", as classified by NASA.<ref name=tentative>cite web|url=http://nssdc.gsfc.nasa.gov/planetary/tent_launch.html |title=Tentatively Identified Missions and Launch Failures |author=NSSDC |publisher=NASA |date= |accessdate=2016-08-27</ref> These are Cold War-era Soviet missions, mostly failures, about which few or no details have been officially released. The information given may be speculative.
+* Date is the date of:
+:* closest encounter (flybys)
+:* impact (impactors)
+:* orbital insertion to end of mission, whether planned or premature (orbiters)
+:* landing to end of mission, whether planned or premature (landers)
+:* launch (missions that never got underway due to failure at or soon after launch)
+: In cases which do not fit any of the above, the event to which the date refers is stated. Note that as a result of this scheme missions are not always listed in order of launch.
+
+* Some of the terms used under Type:
+:* Flyby: The probe flies by an astronomical body, but does not orbit it
+:* Orbiter: Part of a probe that orbits an astronomical body
+:* Lander (spacecraft)|Lander: Part of a probe that descend to the surface of an astronomical body
+:* Rover (space exploration)|Rover: Part of a probe that acts as a vehicle to move on the solid-surface of an astronomical body
+:* Penetrator: Part of a probe that impacts an astronomical body
+:* Atmospheric probe or balloon: Part of a probe that descend through or floats in the atmosphere of an astronomical body
+:* Sample return mission|Sample return: Parts of the probe return back to Earth with physical samples
+
+* Under Status, in the case of flybys (such as gravity assists) that are incidental to the main mission, "success" indicates the successful completion of the flyby, not necessarily that of the main mission.
+
+ Solar probes 
+main|Heliophysics|Sun#Solar space missions
+While the Sun is not physically explorable with current technology, the following Sun|solar observation probes have been designed and launched to operate in heliocentric orbit or at one of the Earth–Sun Lagrangian points – additional solar observatories were placed in Earth orbit and are not included in this list:
+
+= 1960–1969 =
+
+{| class="wikitable" style="width:100%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Pioneer 5''
+| flagicon|USA NASA/<br />File:No image.svg|24px United States Department of Defense|DOD
+| March–April 1960
+| orbiter
+| success
+| measured magnetic field phenomena, solar flare particles, and ionization in the interplanetary region
+| File:Pioneer-5.jpg|50px
+| COSPAR|1960-001A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Pioneer 6, 7, 8, and 9|Pioneer 6(A)''
+| flagicon|USA NASA
+| December 1965 – still contactable in 2000
+| orbiter
+| success
+| rowspan="4" | network of solar-orbiting "space weather" monitors, observing solar wind, cosmic rays, and magnetic fields
+| rowspan="4" | File:Pioneer-6-9.jpg|50px
+| COSPAR|1965-105A
+|- style="background:#EFE7B8"
+| colspan="2" | ''Pioneer 6, 7, 8, and 9|Pioneer 7(B)''
+| flagicon|USA NASA
+| August 1966 – still contactable in 1995
+| orbiter
+| success
+| COSPAR|1966-075A
+|- style="background:#EFE7B8"
+| colspan="2" | ''Pioneer 6, 7, 8, and 9|Pioneer 8(C)''
+| flagicon|USA NASA
+| December 1967 – still contactable in 2001
+| orbiter
+| success
+| COSPAR|1967-123A
+|- style="background:#EFE7B8"
+| colspan="2" | ''Pioneer 6, 7, 8, and 9|Pioneer 9(D)''
+| flagicon|USA NASA
+| November 1968 – May 1983
+| orbiter
+| success
+| COSPAR|1968-100A
+
+|- style="background:#T6438"
+| colspan="2" | ''Pioneer 6, 7, 8, and 9|Pioneer-E''
+| flagicon|USA NASA
+| 27 August 1969
+| orbiter
+| failure
+| intended as part of the Pioneer nowrap|6–9 network; failed to reach orbit
+| File:Pioneer-6-9.jpg|50px
+| COSPAR|PIONE
+
+|}
+
+= 1974–1997 =
+
+{| class="wikitable" style="width:100%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Helios probes|Helios A''
+| flagicon|USA NASA/<br />flagicon|FRG DFVLR
+| November 1974 – 1982
+| orbiter
+| success
+| rowspan="2" | observations of solar wind, magnetic and electric fields, cosmic rays and cosmic dust between Earth and Sun
+| rowspan="2" | File:Helios spacecraft.jpg|50px
+| COSPAR|1974-097A
+|- style="background:#EFE7B8"
+| colspan="2" | ''Helios B''
+| flagicon|USA NASA/<br /> flagicon|FRG DFVLR
+| January 1976 – 1985?
+| orbiter
+| success
+| COSPAR|1976-003A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''ISEE-3''
+| flagicon|USA NASA
+| 1978–1982
+| orbiter
+| success
+| observed solar phenomena in conjunction with earth-orbiting ISEE-1 and ISEE-2; later renamed ''International Cometary Explorer'' (''ICE'') and directed to Comet Giacobini-Zinner
+| File:ISEE3-ICE.jpg|50px
+| COSPAR|1976-003A
+
+|- style="background:#EFE7B8"
+| colspan="2" rowspan="2" | ''Ulysses probe|Ulysses''<br />(first pass)
+| rowspan="2" | flagicon|EUR European Space Agency|ESA/<br />flagicon|USA NASA
+| 1994
+| rowspan="2" | orbiter
+| rowspan="2" | success
+| south polar observations
+| rowspan="2" | File:Ulysses spacecraft.jpg|50px
+| rowspan="2" | COSPAR|1990-090B
+|- style="background:#EFE7B8"
+| 1995
+| north polar observations
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''WIND (spacecraft)|WIND''
+| flagicon|USA NASA
+| November 1994 – still active as of December 2017<ref>cite web |url=http://pwg.gsfc.nasa.gov/windnrt/ |title=WIND Near Real-Time Data |publisher=NASA |date=December 3, 2017 |access-date=December 14, 2017</ref>
+| orbiter
+| success
+| solar wind measurements
+| File:Wind probe.jpg|50px
+| COSPAR|1994-071A
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''Solar and Heliospheric Observatory|SOHO''
+| flagicon|EUR European Space Agency|ESA/<br />flagicon|USA NASA
+| May 1996 – extended to December 2018<ref>[http://sci.esa.int/director-desk/58589-two-year-extensions-confirmed-for-esa-s-science-missions/ Two-year extensions confirmed for ESA's science missions], ESA, 22 November 2016</ref>
+| orbiter
+| success
+| investigation of Sun's core, corona, and solar wind; comet discoveries
+| File:NASA SOHO spacecraft.png|50px
+| COSPAR|1995-065A
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''Advanced Composition Explorer|ACE''
+| flagicon|USA NASA
+| August 1997 – projected until 2024<ref name = "ACE Home Page">cite web |url=http://www.srl.caltech.edu/ACE/ace_mission.html |title=Advanced Composition Explorer (ACE) Mission Overview |publisher=California Institute of Technology |date=February 10, 2017 |first1=Eric R. |last1=Christian |first2=Andrew J. |last2=Davis ||access-date=December 14, 2017</ref>
+| orbiter
+| success
+| solar wind observations
+| File:Advanced Composition Explorer.jpg|50px
+| COSPAR|1997-045A
+
+|}
+
+= 2000–present =
+
+{| class="wikitable" style="width:100%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#EFE7B8"
+| colspan="2" rowspan="2" | ''Ulysses probe|Ulysses''<br />(second pass)
+| rowspan="2" |flagicon|EUR European Space Agency|ESA/<br />flagicon|USA NASA
+| 2000
+| rowspan="2" | orbiter
+| rowspan="2" | success
+| south polar observations
+| rowspan="2" | File:Ulysses spacecraft.jpg|50px
+| rowspan="2" | COSPAR|1990-090B
+|- style="background:#EFE7B8"
+| 2001
+| north polar observations
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Genesis (spacecraft)|Genesis''
+| flagicon|USA NASA
+| 2001–2004
+| orbiter/<br />sample return
+| success
+| solar wind sample return; crash landed on return to Earth, much data salvaged
+| File:Genesis in collection mode.jpg|50px
+| COSPAR|2001-034A
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''STEREO|STEREO A''
+| flagicon|USA NASA
+| December 2006 – <br/>still active as of September 2016<ref name="stereo-status">cite web |url=http://stereo.gsfc.nasa.gov/status.shtml |title=STEREO Status |publisher=NASA Stereo Science Center |date=2016-08-22 |access-date=2016-09-26</ref><ref name="stereo-where">cite web |url=http://stereo.gsfc.nasa.gov/where.shtml |title=Positions of STEREO A and B for 26-Sep-2016 13:00 UT |publisher=NASA Stereo Science Center |date=2016-09-26 |access-date=2016-09-26</ref>
+| orbiter
+| success
+| rowspan="2" | stereoscopic imaging of coronal mass ejections and other solar phenomena
+| rowspan="2" | File:STEREO spacecraft.gif|50px
+| COSPAR|2006-047A
+|- style="background:#CCFFD9"
+| colspan="2" | ''STEREO|STEREO B''
+| flagicon|USA NASA
+| December 2006 – October 2014 <br/> August 2016 – <br/> (communication lost between October 1, 2014 and August 21, 2016)<ref name="stereo-where" /><ref name=stereo-behind>cite web |url=http://stereo.gsfc.nasa.gov/behind_status.shtml |title=Important notice about STEREO Behind |publisher=NASA Stereo Science Center |date=2016-09-15 |access-date=2016-09-26 dead link|date=January 2018 |bot=InternetArchiveBot |fix-attempted=yes </ref>
+| orbiter
+| success
+| COSPAR|2006-047B
+
+|- style="background:#EFE7B8"
+| colspan="2" rowspan="2" | ''Ulysses probe|Ulysses''<br />(third pass)
+| rowspan="2" | flagicon|EUR European Space Agency|ESA/<br />flagicon|USA NASA
+| 2007
+| rowspan="2" | orbiter
+| success
+| south polar observations
+| rowspan="2" | File:Ulysses spacecraft.jpg|50px
+| rowspan="2" | COSPAR|1990-090B
+|- style="background:#EFE7B8"
+| 2008
+| partial success
+| north polar observations; some data returned despite failing power and reduced transmission capacity
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''Deep Space Climate Observatory|DSCOVR''
+| flagicon|USA NOAA
+| February 2015 – 
+| orbiter
+| success
+| solar wind and coronal mass ejection monitoring, as well as Earth climate monitoring
+| File:DSCOVR_rendering_(transparent_bg).png|50px
+| COSPAR|2015-007A <ref>http://www.nasa.gov/feature/goddard/nation-s-first-operational-satellite-in-deep-space-reaches-final-orbit</ref>
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''Parker Solar Probe''
+| flagicon|USA NASA
+| | November 2018 &ndash; December 2025
+| orbiter/flyby<br />(approach 26 times)
+| ''en route''
+| close-range solar coronal study
+|
+| COSPAR|2018-065A <ref name="Solar probe">cite web |url=http://solarprobe.gsfc.nasa.gov/SolarProbePlus_pre.pdf |title=Solar Probe Plus |author=Science and Technology Definition Team |publisher=NASA |date=2008 |accessdate=2008-07-01</ref>
+
+|}
+
+= Proposed =
+{| class="wikitable" style="width:100%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|-
+| colspan="2" | ''Solar Orbiter''
+| flagicon|EUR ESA
+| 2020 
+| orbiter
+| Scheduled
+| solar and heliospheric physics
+|
+| <ref name="ESA Solar Orbiter">cite web |url=http://sci.esa.int/solar-orbiter/ |title=Solar orbiter |access-date=2016-03-17 |publisher=European Space Agency</ref>
+
+|-
+| colspan="2" | '' Aditya-L1''
+| flagicon|IND ISRO
+| 2019–2020<ref name=tniex22d13>cite news|last=Sharma|first=Richa|title=After Mars, India to Secure Place on Sun|url=http://www.newindianexpress.com/nation/After-Mars-India-to-Secure-Place-on-Sun/2013/12/22/article1958133.ece|accessdate=24 December 2013|newspaper=The New Indian Express|date=22 December 2013</ref>
+| orbiter
+| planned
+| to study solar corona
+|
+|
+
+|-
+| colspan="2" | ''Intergelio-Zond''
+| flagicon|RUS Russian Federal Space Agency|RKA
+| 2026
+| orbiter
+| planned 
+| close-range solar observations <!--Approaching Sun as close as 60-70 of its radii--> 
+|
+| <ref>cite web|title=Intergelio-Zond project – Russia to send spacecraft into vicinity of the Sun|url=http://www.russianspaceweb.com/igz.html|publisher=RussianSpaceWeb.com|accessdate=30 November 2012</ref>
+
+|}
+
+ Mercury (planet)|Mercury probes 
+Main|Exploration of Mercury
+
+{| class="wikitable sortable" style="width:100%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#EFE7B8"
+| colspan="2" rowspan="3" | ''Mariner 10''
+| rowspan="3" | flagicon|USA NASA
+| 29 March 1974
+| rowspan="3" | flyby
+| rowspan="3" | success
+| minimum distance 704&nbsp;km
+| rowspan="3" | File:Mariner 10.jpg|50px
+| rowspan="3" | COSPAR|1973-085A
+|- style="background:#EFE7B8"
+| nowrap|21 September 1974
+| 48,069&nbsp;km
+|- style="background:#EFE7B8"
+| 16 March 1975
+| 327&nbsp;km
+
+|- style="background:#EFE7B8"
+| colspan="2" rowspan="4" | ''MESSENGER''
+| rowspan="4" | flagicon|USA NASA
+| style="background:#EFE7B8" | 14 January 2008
+| rowspan="3" style="background:#EFE7B8" | flyby
+| rowspan="3" style="background:#EFE7B8" | success
+| style="background:#EFE7B8" | minimum distance 200&nbsp;km
+| rowspan="4" | File:Messenger.jpg|50px
+| rowspan="4" | COSPAR|2004-030A
+|- style="background:#EFE7B8"
+| style="background:#EFE7B8" | 6 October 2008
+| style="background:#EFE7B8" | minimum distance 200&nbsp;km
+|- style="background:#EFE7B8"
+| 29 September 2009
+| minimum distance 228&nbsp;km
+|- style="background:#EFE7B8"
+| 18 March 2011&nbsp;–<br/>30 April 2015
+| orbiter
+| success
+| first spacecraft to orbit Mercury; unavoidable impact on the surface at end of mission
+
+|- style="background:#CCFFD9"
+| colspan="2" rowspan="6" | ''BepiColombo''
+| rowspan="6" | flagicon|EUR European Space Agency|ESA/<br />flagicon|JPN Japan Aerospace Exploration Agency|JAXA
+| October 2021
+| rowspan="6" | flyby
+| ''en route''
+|
+| rowspan="8" |
+| rowspan="8" | COSPAR|BEPICLMBO
+|- style="background:#CCFFD9"
+| June 2022
+| rowspan="5" | ''en route''
+|
+|- style="background:#CCFFD9"
+| June 2023
+|
+|- style="background:#CCFFD9"
+| September 2024
+|
+|- style="background:#CCFFD9"
+| December 2024
+|
+|- style="background:#CCFFD9"
+| January 2025
+|
+|- style="background:#CCFFD9"
+| rowspan="2" |&nbsp;&nbsp;
+| ''Mercury Planetary Orbiter|Mercury<br />Planetary Orbiter''
+| flagicon|EUR European Space Agency|ESA
+| 18 December 2024 (orbital insertion) <br/> 27 March 2025 (final MPO orbit) 
+| orbiter
+| ''en route''
+|
+|- style="background:#CCFFD9"
+| ''BepiColombo#Mio (Mercury Magnetospheric Orbiter)|Mio<br />(Mercury<br />Magnetospheric Orbiter)''
+| flagicon|JPN Japan Aerospace Exploration Agency|JAXA
+| 18 December 2024 (orbital insertion)
+| orbiter
+| ''en route''
+|
+|}
+
+ Venus probes 
+Main|Exploration of Venus
+
+= 1961–1969 =
+
+{| class="wikitable sortable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+|+Venus Probes (List) [1961-1965]
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Tyazhely Sputnik ''
+| flagicon|USSR (Soviet Union|USSR)
+| 4 February 1961
+| lander
+| failure
+| failed to escape from Earth orbit
+|
+| COSPAR|1961-002A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Venera 1''
+| flagicon|USSR (Soviet Union|USSR)
+| 19 May 1961&nbsp;–<br />20 May 1961
+| flyby
+| failure
+| contact lost 7 days after launch; first spacecraft to fly by another planet
+|
+| COSPAR|1961-003A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Mariner 1''
+| flagicon|USA NASA
+| 22 July 1962
+| flyby
+| failure
+| guidance failure shortly after launch
+|
+| COSPAR|MARIN1
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Sputnik 19''
+| flagicon|USSR (Soviet Union|USSR)
+| 25 August 1962
+| lander
+| failure
+| failed to escape Earth orbit
+|
+| COSPAR|1962-040A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Sputnik 20''
+| flagicon|USSR (Soviet Union|USSR)
+| 1 September 1962
+| lander
+| failure
+| failed to escape Earth orbit
+|
+| COSPAR|1962-043A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Sputnik 21''
+| flagicon|USSR (Soviet Union|USSR)
+| 12 September 1962
+| flyby
+| failure
+| third stage exploded
+|
+| COSPAR|1962-045A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Mariner 2''
+| flagicon|USA NASA
+| 14 December 1962
+| flyby
+| success
+| first successful Venus flyby; minimum distance 34,773&nbsp;km
+| File:Mariner 2 in space.jpg|50px
+| COSPAR|1962-041A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Cosmos 21''<sup>†</sup>
+| flagicon|USSR (Soviet Union|USSR)
+| 11 November 1963
+| flyby?
+| failure
+| failed to escape Earth orbit
+|
+| COSPAR|1963-044A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Venera 1964A''<sup>†</sup>
+| flagicon|USSR (USSR)
+| 19 February 1964
+| flyby
+| failure
+| failed to reach Earth orbit
+|
+| <ref name=tentative />
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Venera 1964B''<sup>†</sup>
+| flagicon|USSR (USSR)
+| 1 March 1964
+| flyby
+| failure
+| failed to reach Earth orbit
+|
+| <ref name=tentative />
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Cosmos 27''
+| flagicon|USSR (Soviet Union|USSR)
+| 27 March 1964
+| flyby
+| failure
+| failed to escape Earth orbit
+|
+| COSPAR|1964-014A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Zond 1''
+| flagicon|USSR (USSR)
+| 1964
+| flyby and possible lander
+| failure
+| contact lost en route
+|
+| COSPAR|1964-016D
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Cosmos 96''
+| flagicon|USSR (USSR)
+| 23 November 1965
+| lander
+| failure
+| exploded?
+|
+| COSPAR|1965-094A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Venera 1965A''<sup>†</sup>
+| flagicon|USSR (USSR)
+| 26 November 1965
+| flyby
+| failure
+| launch vehicle failure?
+|
+| <ref name=tentative />
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Venera 2''
+| flagicon|USSR (USSR)
+| 27 February 1966
+| flyby
+| failure
+| ceased to operate en route
+|
+| COSPAR|1965-091A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Venera 3''
+| flagicon|USSR (USSR)
+| 1 March 1966
+| lander
+| failure
+| contact lost before arrival; first spacecraft to impact on the surface of another planet
+|
+| COSPAR|1965-092A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Kosmos 167''
+| flagicon|USSR (USSR)
+| 17 June 1967
+| lander
+| failure
+| failed to escape Earth orbit
+|
+| COSPAR|1967-063A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Venera 4''
+| flagicon|USSR (USSR)
+| 18 October 1967
+| atmospheric probe
+| success
+| continued to transmit to an altitude of 25&nbsp;km
+|
+| COSPAR|1967-058A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Mariner 5''
+| flagicon|USA NASA
+| 19 October 1967
+| flyby
+| success
+| minimum distance 5,000&nbsp;km
+| File:Mariner 5.jpg|50px
+| COSPAR|1967-060A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Venera 5''
+| flagicon|USSR (USSR)
+| 16 May 1969
+| atmospheric probe
+| success
+| transmitted atmospheric data for 53 minutes, to an altitude of about 26&nbsp;km
+|
+| COSPAR|1969-001A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Venera 6''
+| flagicon|USSR (USSR)
+| 17 May 1969
+| atmospheric probe
+| success
+| transmitted atmospheric data for 51 minutes, to an altitude of perhaps 10–12&nbsp;km
+|
+| COSPAR|1969-002A
+
+|}
+
+= 1970–1978 =
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Cosmos 359''
+| flagicon|USSR (USSR)
+| 22 August 1970
+| lander?
+| failure
+| failed to escape Earth orbit
+|
+| COSPAR|1970-065A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Venera 7''
+| flagicon|USSR (USSR)
+| 15 December 1970
+| lander
+| success
+| first successful landing on another planet; signals returned from surface for 23 minutes
+| 
+| COSPAR|1970-060A
+|- style="background:#F2F2F2"
+| colspan="2" | ''Cosmos 482''
+| flagicon|USSR (USSR)
+| 31 March 1972
+| lander?
+| failure
+| failed to escape Earth orbit
+|
+| COSPAR|1972-023A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Venera 8''
+| flagicon|USSR (USSR)
+| 22 July 1972
+| lander
+| success
+| signals returned from surface for 50 minutes
+| 
+| COSPAR|1972-021A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Mariner 10''
+| flagicon|USA NASA
+| 5 February 1974
+| flyby
+| success
+| minimum distance 5768&nbsp;km, en route to Mercury; first use of gravitational slingshot|gravity assist by an interplanetary spacecraft
+| File:Mariner 10.jpg|50px
+| COSPAR|1973-085A
+
+|- style="background:#EFE7B8"
+| colspan="2" rowspan="2" | ''Venera 9''
+| rowspan="2" | flagicon|USSR (USSR)
+| 1975
+| orbiter
+| success
+| first spacecraft to orbit Venus; communications relay for lander; atmospheric and magnetic studies
+| File:%22%D0%92%D0%B5%D0%BD%D0%B5%D1%80%D0%B0-10%22.jpg|50px
+| COSPAR|1975-050A
+
+|- style="background:#EFE7B8"
+| 22 October 1975
+| lander
+| success
+| first images from the surface; operated on surface for 53 minutes
+| 
+| COSPAR|1975-050D
+
+|- style="background:#EFE7B8"
+| colspan="2" rowspan="2" | ''Venera 10''
+| rowspan="2" | flagicon|USSR (USSR)
+| 1975
+| orbiter
+| success
+| communications relay for lander; atmospheric and magnetic studies
+| File:%22%D0%92%D0%B5%D0%BD%D0%B5%D1%80%D0%B0-10%22.jpg|50px
+| COSPAR|1975-054A
+
+|- style="background:#EFE7B8"
+| 23 October 1975
+| lander
+| success
+| transmitted from surface for 65 minutes
+|
+| COSPAR|1975-054D
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Pioneer Venus project|Pioneer Venus Orbiter''
+| flagicon|USA NASA
+| nowrap|4 December 1978&nbsp;–<br/>1992
+| orbiter
+| success
+| atmospheric and magnetic studies
+| File:Pioneer Venus orbiter.jpg|50px
+| COSPAR|1978-051A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Pioneer Venus project|Pioneer Venus Multiprobe''
+| flagicon|USA NASA
+| 9 December 1978
+|
+|
+|
+| File:Pioneer Venus 2 inspection.jpg|50px
+|
+|- style="background:#EFE7B8"
+| rowspan="5" |
+| bus
+|
+|
+| probe transporter
+| success
+| deployed four atmospheric probes, then burnt up in Venusian atmosphere, continuing to transmit to 110&nbsp;km altitude
+|
+| COSPAR|1978-078A
+
+|- style="background:#EFE7B8"
+| large probe
+|
+|
+| atmospheric probe
+| success
+|
+| 
+| COSPAR|1978-078D
+
+|- style="background:#EFE7B8"
+| north probe
+|
+|
+| atmospheric probe
+| success
+|
+| rowspan="3" | 
+| COSPAR|1978-078E
+
+|- style="background:#EFE7B8"
+| day probe
+|
+|
+| atmospheric probe
+| success
+| survived impact and continued to transmit from surface for over an hour
+| COSPAR|1978-078G
+
+|- style="background:#EFE7B8"
+| night probe
+|
+|
+| atmospheric probe
+| success
+|
+| COSPAR|1978-078F
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Venera 12''
+| flagicon|USSR Russian Academy of Sciences|SAS
+|
+|
+|
+|
+|
+|
+|- style="background:#EFE7B8"
+| rowspan="2" |
+| flight platform
+| rowspan="2" |
+| 21 December 1978
+| flyby
+| success
+| minimum distance 34,000&nbsp;km; deployed lander and then acted as communications relay
+|
+| COSPAR|1978-086A
+
+|- style="background:#EFE7B8"
+| descent craft
+| 21 December 1978
+| lander
+| partial success
+| soft landing; transmissions returned for 110 minutes; failure of some instruments
+| 
+| COSPAR|1978-086C
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Venera 11''
+| flagicon|USSR Russian Academy of Sciences|SAS
+|
+|
+|
+|identical to Venera 12
+|
+|
+|- style="background:#EFE7B8"
+| rowspan="2" | &nbsp;&nbsp;
+| flight platform
+| rowspan="2" |
+| nowrap|25 December 1978
+| flyby
+| success
+| minimum distance 34,000&nbsp;km; deployed lander and then acted as communications relay
+|
+| COSPAR|1978-084A
+
+|- style="background:#EFE7B8"
+| descent craft
+| 25 December 1978
+| lander
+| partial success
+| soft landing; transmissions returned for 95 minutes; failure of some instruments
+| 
+| COSPAR|1978-084D
+
+|}
+
+= 1982–1999 =
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Venera 13''
+| flagicon|USSR Russian Academy of Sciences|SAS
+|
+|
+|
+|
+|
+|
+|- style="background:#EFE7B8"
+| rowspan="2" |&nbsp;&nbsp;
+| bus
+|
+| 1 March 1982
+| flyby
+| success
+| deployed lander and then acted as communications relay
+| rowspan=2 | File:1982_CPA_5278.jpg|50px
+| COSPAR|1981-106A
+
+|- style="background:#EFE7B8"
+| descent craft
+|
+| 1 March 1982
+| lander
+| success
+| survived on surface for 127 minutes
+| COSPAR|1981-106D
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Venera 14''
+| flagicon|USSR Russian Academy of Sciences|SAS
+|
+|
+|
+|identical to Venera 13
+|
+|
+|- style="background:#EFE7B8"
+| rowspan="2" |
+| bus
+|
+| 5 March 1982
+| flyby
+| success
+| deployed lander and then acted as communications relay
+| rowspan=2 | File:1982_CPA_5278.jpg|50px
+| COSPAR|1981-110A
+
+|- style="background:#EFE7B8"
+| descent craft
+|
+| 5 March 1982
+| lander
+| success
+| survived on surface for 57 minutes
+| COSPAR|1981-110D
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Venera 15''
+| flagicon|USSR Russian Academy of Sciences|SAS
+| 1983–1984
+| orbiter
+| success
+| radar mapping
+| 
+| COSPAR|1983-053A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Venera 16''
+| flagicon|USSR Russian Academy of Sciences|SAS
+| 1983–1984
+| orbiter
+| success
+| radar mapping; identical to Venera 15
+| 
+| COSPAR|1983-054A
+
+|- style="background:#EFE7B8"
+| colspan="2" rowspan="3" | ''Vega 1''
+| rowspan="3" | flagicon|USSR Russian Academy of Sciences|SAS
+| rowspan="3" |  11 June 1985
+| flyby
+| success
+| went on to fly by Halley's comet
+| rowspan=2 | File:Vega_model_-_Udvar-Hazy_Center.JPG|50px
+| COSPAR|1984-125A
+
+|- style="background:#F2F2F2"
+| lander
+| failure
+| instruments deployed prematurely
+| COSPAR|1984-125E
+
+|- style="background:#EFE7B8"
+| atmospheric balloon
+| success
+| floated at an altitude of about 54&nbsp;km and transmitted for around 46 hours
+| File:Russian_%22Vega%22_balloon_mission_to_Venus_on_display_at_the_Udvar-Hazy_museum.jpg|50px
+| COSPAR|1984-125F
+
+|- style="background:#EFE7B8"
+| colspan="2" rowspan="3" | ''Vega 2''
+| rowspan="3" | flagicon|USSR Russian Academy of Sciences|SAS
+| rowspan="3" | 15 June 1985
+| flyby
+| success
+| went on to fly by Halley's comet
+| rowspan=2 | File:Vega_model_-_Udvar-Hazy_Center.JPG|50px
+| COSPAR|1984-128A
+
+|- style="background:#EFE7B8"
+| lander
+| success
+| transmitted from surface for 56 minutes
+| COSPAR|1984-128E
+
+|- style="background:#EFE7B8"
+| atmospheric balloon
+| success
+| floated at an altitude of about 54&nbsp;km and transmitted for around 46 hours
+| File:Russian_%22Vega%22_balloon_mission_to_Venus_on_display_at_the_Udvar-Hazy_museum.jpg|50px
+| COSPAR|1984-128F
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Galileo (spacecraft)|Galileo''
+| flagicon|USA NASA
+| 10 February 1990
+| flyby
+| success
+| gravity assist en route to Jupiter; minimum distance 16,000&nbsp;km
+| File:Galileo Preparations - GPN-2000-000672.jpg|50px
+| <ref name="galileo-legacy">cite web |url=http://www2.jpl.nasa.gov/galileo/mission/journey-cruise.html |title=Solar System Exploration: : Galileo Legacy Site |author=Jet Propulsion Laboratory |publisher=NASA |date= |access-date=2012-11-30</ref>
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Magellan probe|Magellan''
+| flagicon|USA NASA
+| 10 August 1990 &ndash;<br/>12 October 1994
+| orbiter
+| success
+| global radar mapping
+| File:Magellan at Kennedy Space Center.jpg|50px
+| COSPAR|1989-033B <ref>cite web |url=http://nssdc.gsfc.nasa.gov/planetary/magellan.html |title=Magellan Mission to Venus |author=NSSDC |publisher=NASA |date= |accessdate=2012-11-30</ref>
+
+|- style="background:#EFE7B8"
+| colspan="2" rowspan="2" | ''Cassini–Huygens|Cassini''
+| rowspan="2" | flagicon|USA NASA/<br /> flagicon|EUR European Space Agency|ESA/<br />flagicon|ITA Italian Space Agency|ASI
+| 26 April 1998
+| rowspan="2" | flyby
+| rowspan="2" | success
+| rowspan="2" | gravity assist en route to Saturn
+| rowspan="2" | File:Cassini assembly.jpg|50px
+| rowspan="2" | COSPAR|1997-061A <ref>[http://nssdc.gsfc.nasa.gov/nmc/spacecraftOrbit.do?id=1997-061A]</ref>
+|- style="background:#EFE7B8"
+| 24 June 1999
+
+|}
+
+= 2006–present =
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Venus Express''
+| flagicon|EUR European Space Agency|ESA
+| 11 April 2006 &ndash; 18 January 2015
+| orbiter
+| success
+| atmospheric studies; planetary imaging; magnetic observations
+| File:Venus Express in orbit.jpg|50px
+| COSPAR|2005-045A
+
+|- style="background:#EFE7B8"
+| colspan="2" rowspan="2" | ''MESSENGER''
+| rowspan="2" | flagicon|USA NASA
+| 24 October 2006
+| rowspan="2" | flyby
+| success
+| gravity assist only; minimum distance 2990&nbsp;km
+| rowspan="2" | File:Messenger.jpg|50px
+| rowspan="2" | COSPAR|2004-030A
+|- style="background:#EFE7B8"
+| 6 June 2007
+| success
+| minimum distance 300&nbsp;km; en route to Mercury
+
+|- style="background:#CCFFD9"
+| colspan="2" rowspan="2" | ''Akatsuki (probe)|Akatsuki<br>(PLANET-C)''
+| rowspan="2" | flagicon|JPN Japan Aerospace Exploration Agency|JAXA
+| style="background:#F2F2F2" | 6 December 2010 (Venus flyby)
+| style="background:#F2F2F2" | orbiter
+| style="background:#F2F2F2" | failure
+| rowspan="2" | failed orbital insertion in 2010; success in 2015<br/>science mission ongoing since May 2016
+| rowspan="2" | File:Akatsuki.png|50px
+| rowspan="2" | COSPAR|2010-020D
+|- style="background:#CCFFD9"
+| 7 December 2015 (orbital insertion) – 
+| orbiter
+| success
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''IKAROS''
+| flagicon|JPN Japan Aerospace Exploration Agency|JAXA
+| 8 December 2010
+| flyby<ref>cite web|url=http://www.spaceflightnow.com/news/n1006/11ikaros/ |title=Breaking News &#124; Japanese mission unleashes solar sail in deep space |publisher=Spaceflight Now |date= |accessdate=2012-08-20</ref>
+| success
+| solar sail technology development / interplanetary space exploration
+| File:IKAROS solar sail.jpg|50px
+| COSPAR|2010-020E <ref name="jaxa-ikaros">cite web|url=http://www.jspec.jaxa.jp/e/activity/ikaros.html |title=Solar Power Sail Demonstrator "IKAROS"｜JAXA Space Exploration Center |publisher=Jspec.jaxa.jp |date=2010-05-21 |accessdate=2012-11-30 |deadurl=yes |archiveurl=https://web.archive.org/web/20080922170700/http://www.jspec.jaxa.jp/e/activity/ikaros.html |archivedate=2008-09-22 |df= </ref>
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Shin'en (spacecraft)|Shin'en<br>(UNITEC-1)''
+| flagicon|JPN UNISEC
+| December 2010?
+| flyby<ref>[http://amateurradio.com.au/node/1166 ] webarchive |url=https://web.archive.org/web/20110225224643/http://amateurradio.com.au/node/1166 |date=February 25, 2011 </ref>
+| failure
+| contact lost shortly after launch 
+|
+| COSPAR|2010-020F <ref name="unisec1">cite web|url=http://www.unisec.jp/unitec-1/en/top.html |title=UNITEC-1 |publisher=Unisec.jp |date= |accessdate=2012-11-30</ref><ref name="newscientist.com">cite web|url=https://www.newscientist.com/article/dn18982-first-studentbuilt-interplanetary-mission-goes-silent.html |title=First student-built interplanetary mission goes silent - space - 29 May 2010 |publisher=New Scientist |date= |accessdate=2012-08-20</ref>
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''Parker Solar Probe''
+| flagicon|USA NASA
+| | October 2018 &ndash; November 2024
+| flyby (approach 7 times)
+| ''en route''
+| gravity assist en route to solar corona
+|
+| COSPAR|2018-065A <ref name="Solar probe" />
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''BepiColombo''<br />(first pass)
+| flagicon|EUR European Space Agency|ESA/<br />flagicon|JPN Japan Aerospace Exploration Agency|JAXA
+| October 2020
+| flyby
+| ''en route''
+| gravity assist en route to Mercury
+|
+| COSPAR|BEPICLMBO
+
+|}
+
+=Proposed=
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|-
+| colspan="2" | Solar Orbiter
+| flagicon|EUR European Space Agency|ESA
+| 2020
+| flyby
+| planned
+| gravity assist en route to inclined heliocentric orbit for solar polar observations
+|
+| <ref name="ESA Solar Orbiter"/>
+
+|-
+| colspan="2" | ''BepiColombo''<br />(second pass)
+| flagicon|EUR European Space Agency|ESA/<br />flagicon|JPN Japan Aerospace Exploration Agency|JAXA
+| August 2021
+| flyby
+| planned
+| gravity assist en route to Mercury
+|
+| COSPAR|BEPICLMBO
+
+|-
+| colspan="2" | ''Jupiter Icy Moon Explorer|JUICE''
+| flagicon|EUR European Space Agency|ESA
+| 2022
+| flyby
+| planned
+| gravity assist en route to Jupiter
+| File:JUICE_spacecraft_concept.jpg|50px
+| <ref name="JUICE ESA">cite web |url=http://sci.esa.int/juice/ |title=JUICE - JUpiter ICy moons Explorer |publisher=European Space Agency |access-date=2016-08-27</ref>
+
+|-
+| colspan="2" | ''Shukrayaan-1|ISRO Venus orbiter mission''
+| flagicon|IND ISRO
+| 2023
+| orbiter + balloons
+| proposed
+|
+|
+| <ref name="Asianage">cite web| url= http://www.aerojournalindia.com/enews/?p=1641| title=After Mars, Isro aims for Venus probe in 2-3 years| date= 9 June 2015</ref><ref name="Tomasz">cite news |last=Nowakowski |first=Tomasz |url=http://www.spaceflightinsider.com/organizations/isro/india-eyes-possible-mission-to-venus/ |title=India eyes possible mission to Venus |work=Spaceflight Insider |date= July 2015 |accessdate=2015-10-13 </ref>
+
+|-
+| colspan="2" | ''Venus In Situ Explorer''
+| flagicon|USA NASA
+| 2024
+| lander or airplane
+| proposed
+|
+| File:Venus In-Situ Explorer.png|50px
+| <ref>cite web |url=http://solarsystem.nasa.gov/missions/profile.cfm?MCode=VISE |title=Solar System Exploration: Missions: By Target: Mars: Present |publisher=Solarsystem.nasa.gov |date=2012-08-28 |accessdate=2012-11-30 |deadurl=yes |archiveurl=https://web.archive.org/web/20151201201715/http://solarsystem.nasa.gov/missions/profile.cfm?MCode=VISE |archivedate=2015-12-01 |df= </ref>
+
+|-
+| colspan="2" | ''Venera-D''
+| flagicon|RUS Russian Federal Space Agency|RKA
+| 2025
+| orbiter
+| proposed
+|
+| <!-- WP:NFCC violation: File:Venera-D.jpg|50px -->
+| <ref>cite web|url=http://www.esa.int/SPECIALS/ESA_Permanent_Mission_in_Russia/SEM0LFW4QWD_0.html |title=ESA Permanent Mission in Russia - Venera-D |publisher=European Space Agency |date=2004-10-25 |accessdate=2012-11-30</ref><ref>cite web|url=http://ria.ru/science/20120407/620510655.html |title=RIA - Change date launch of Venera-D |publisher=RIA News |date=2012-04-07 |accessdate=2013-04-14</ref>
+
+|}
+
+Earth flybys
+:''See List of Earth flybys''
+
+In addition, several planetary probes have sent back observations of the Earth-Moon system shortly after launch, most notably Mariner 10, Pioneers Pioneer 10|10 and Pioneer 11|11 and both Voyager probes.
+
+ Moon|Lunar probes 
+:''See List of lunar probes''
+
+ Mars probes 
+Main|Exploration of Mars|List of missions to Mars
+
+= 1960–1969 =
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Mars 1M No.1''
+| flagicon|USSR USSR
+| 10 October 1960
+| flyby
+| failure
+| failed to reach Earth orbit
+|
+| COSPAR|MARSNK1
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Mars 1M No.2''
+| flagicon|USSR USSR
+| 14 October 1960
+| flyby
+| failure
+| failed to reach Earth orbit
+|
+| COSPAR|MARSNK2
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Mars 1962A''
+| flagicon|USSR USSR
+| 24 October 1962
+| flyby
+| failure
+| exploded in or en route to Earth orbit
+|
+| COSPAR|1962-057A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Mars 1962B''
+| flagicon|USSR USSR
+| 11 November 1962 (launch)
+| lander
+| failure
+| broke up during transfer to Mars trajectory
+|
+| COSPAR|1962-062A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Mars 1''
+| flagicon|USSR USSR
+| 19 June 1963
+| flyby
+| failure
+| contact lost en route; flew within approximately 193,000&nbsp;km of Mars
+| 
+| COSPAR|1962-061A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Mariner 3''
+| flagicon|USA NASA
+| 5 November 1964
+| flyby
+| failure
+| protective shield failed to eject, preventing craft from attaining correct trajectory
+| File:Mariner 3 and 4.jpg|50px
+| COSPAR|1964-073A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Mariner 4''
+| flagicon|USA NASA
+| 15 July 1965
+| flyby
+| success
+| first close-up images of Mars
+| File:Mariner 3 and 4.jpg|50px
+| COSPAR|1964-077A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Zond 2''
+| flagicon|USSR USSR
+| 6 August 1965
+| flyby
+| failure
+| contact lost en route; flew within 1,500&nbsp;km of Mars
+|
+| COSPAR|1964-078C
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Mariner 6 and 7|Mariner 6''
+| flagicon|USA NASA
+| 31 July 1969
+| flyby
+| success
+|
+| File:Mariner 6and7.gif|50px
+| COSPAR|1969-014A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Mariner 6 and 7|Mariner 7''
+| flagicon|USA NASA
+| 5 August 1969
+| flyby
+| success
+|
+| File:Mariner 6and7.gif|50px
+| COSPAR|1969-030A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Mars 1969A''
+| flagicon|USSR USSR
+| 27 March 1969 (launch)
+| orbiter
+| failure
+| launch failure
+|
+| COSPAR|MARS69A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Mars 1969B''
+| flagicon|USSR USSR
+| 2 April 1969 (launch)
+| orbiter
+| failure
+| launch failure
+|
+| COSPAR|MARS69B
+
+|}
+
+= 1971–1976 =
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Mariner 8''
+| flagicon|USA NASA
+| 9 May 1971 (launch)
+| orbiter
+| failure
+| launch vehicle failure
+| File:Mariner09.jpg|50px
+| COSPAR|MARINH
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Kosmos 419''
+| flagicon|USSR USSR
+| 10 May 1971 (launch)
+| orbiter
+| failure
+| failed to escape Earth orbit
+|
+| COSPAR|1971-042A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Mariner 9''
+| flagicon|USA NASA
+| 14 November 1971 &ndash;<br />27 October 1972
+| orbiter
+| success
+| first spacecraft to orbit another planet
+| File:Mariner09.jpg|50px
+| COSPAR|1971-051A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Mars 2''
+| flagicon|USSR USSR
+| 27 November 1971 &ndash;<br />22 August 1972
+| orbiter
+| success
+| first Russian spacecraft to orbit another planet
+|
+| COSPAR|1971-045A
+
+|- style="background:#F2F2F2"
+| &nbsp;&nbsp;
+| ''Mars 2|Mars 2 Lander''
+| flagicon|USSR USSR
+| 27 November 1971
+| lander and short range rover
+| failure
+| crashed; first manmade object to reach surface of Mars
+|
+| COSPAR|1971-045D
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Mars 3''
+| flagicon|USSR USSR
+| 2 December 1971 &ndash;<br />22 August 1972
+| orbiter
+| partial success
+| attained a different orbit than intended due to insufficient fuel
+|
+| COSPAR|1971-049A
+
+|- style="background:#EFE7B8"
+|
+| ''Mars 3|Mars 3 Lander''
+| flagicon|USSR USSR
+| 2 December 1971
+| lander and short range rover
+| partial success
+| first soft landing on Mars; contact lost 110 sec<!--90 sec timer + 20 sec of TV transmission--> after soft landing, first picture from surface
+|
+| COSPAR|1971-049F
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Mars 4''
+| flagicon|USSR USSR
+| 10 February 1974
+| orbiter
+| failure
+| orbit insertion failed, became flyby
+|
+| COSPAR|1973-047A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Mars 5''
+| flagicon|USSR USSR
+| 12 February 1974 &ndash;<br />28 February 1974
+| orbiter
+| success
+|
+|
+| COSPAR|1973-049A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Mars 6''
+| flagicon|USSR USSR
+| 12 March 1974
+| flyby
+| success
+|
+|
+| rowspan="2" | COSPAR|1973-052A
+
+|- style="background:#F2F2F2"
+|
+| ''Mars 6|Mars 6 Lander''
+| flagicon|USSR USSR
+| 12 March 1974
+| lander
+| failure
+| contact lost 148 sec after parachute deployment (returned 224 seconds of atmospheric data)
+|
+|- style="background:#EFE7B8"
+| colspan="2" | ''Mars 7''
+| flagicon|USSR USSR
+| 9 March 1974
+| flyby
+| success
+|
+|
+| rowspan="2" | COSPAR|1973-053A
+
+|- style="background:#F2F2F2"
+|
+| ''Mars 7|Mars 7 Lander''
+| flagicon|USSR USSR
+| 9 March 1974
+| lander
+| failure
+| missed Mars
+|
+|- style="background:#EFE7B8"
+| colspan="2" | ''Viking 1|Viking 1 Orbiter''
+| flagicon|USA NASA
+| 19 June 1976 &ndash;<br />17 August 1980
+| orbiter
+| success
+|
+|
+| COSPAR|1975-075A
+
+|- style="background:#EFE7B8"
+|
+| ''Viking 1|Viking 1 Lander''
+| flagicon|USA NASA
+| 20 July 1976 &ndash;<br />13 November 1982
+| lander
+| success
+| 
+| File:Viking lander model.jpg|50px
+| COSPAR|1975-075C
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Viking 2|Viking 2 Orbiter''
+| flagicon|USA NASA
+| 7 August 1976 &ndash;<br />25 July 1978
+| orbiter
+| success
+|
+|
+| COSPAR|1975-083A
+
+|- style="background:#EFE7B8"
+|
+| ''Viking 2|Viking 2 Lander''
+| flagicon|USA NASA
+| nowrap|3 September 1976 &ndash;<br />11 April 1980
+| lander
+| success
+|
+| File:Viking lander model.jpg|50px
+| COSPAR|1975-083C
+
+|}
+
+= 1988–1999 =
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Phobos 1''
+| flagicon|USSR USSR
+| 7 July 1988 (launch)
+| orbiter
+| failure
+| contact lost en route to Mars
+| File:Phobos Marte.jpg|50px
+| COSPAR|1988-058A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Phobos 2''
+| flagicon|USSR USSR
+| 29 January 1989 &ndash;<br />27 March 1989
+| orbiter
+| partial success
+| Mars orbit acquired, but contact lost shortly before Phobos approach phase and deployment of Phobos landers
+| File:Phobos Marte.jpg|50px
+| COSPAR|1988-059A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Mars Observer''
+| flagicon|USA NASA
+| 25 September 1992 (launch)
+| orbiter
+| failure
+| contact lost shortly before Mars orbit insertion
+|
+| COSPAR|1992-063A
+
+|- style="background:#F2F2F2"
+| colspan="2" rowspan="5" | ''Mars 96''
+| rowspan="5" | flagicon|RUS Russian Federal Space Agency|RKA
+| rowspan="5" | 16 November 1996 (launch)
+| orbiter
+| rowspan="5" | failure
+| rowspan="5" | failed to escape Earth orbit
+|
+| COSPAR|1996-064A
+
+|- style="background:#F2F2F2"
+| lander
+| rowspan="2" | File:Mars96 surface station.jpg|50px
+| COSPAR|MARS96B
+
+|- style="background:#F2F2F2"
+| lander
+| COSPAR|MARS96C
+
+|- style="background:#F2F2F2"
+| penetrator
+| rowspan="2" | File:Mars96 penetrator.gif|50px
+| COSPAR|MARS96D
+
+|- style="background:#F2F2F2"
+| penetrator
+| COSPAR|MARS96E
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Mars Pathfinder''
+| flagicon|USA NASA
+| 4 July 1997 &ndash;<br />27 September 1997
+| lander
+| success
+|
+|
+| COSPAR|1996-068A
+
+|- style="background:#EFE7B8"
+| &nbsp;&nbsp;&nbsp;
+| ''Sojourner (rover)|Sojourner''
+| flagicon|USA NASA
+| 6 July 1997 &ndash;<br />27 September 1997
+| rover
+| success
+| first Mars rover
+| File:Sojourner on Mars PIA01122.jpg|50px
+| COSPAR|MESURPR
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Mars Global Surveyor''
+| flagicon|USA NASA
+| nowrap|12 September 1997 &ndash;<br />2 November 2006
+| orbiter
+| success
+|
+| File:Mars global surveyor.jpg|50px
+| COSPAR|1996-062A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Mars Climate Orbiter''
+| flagicon|USA NASA
+| 23 September 1999
+| orbiter
+| failure
+| Mars orbit insertion failed due to navigation error
+| File:Mars Climate Orbiter during tests.jpg|50px
+| COSPAR|1998-073A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Mars Polar Lander''
+| flagicon|USA NASA
+| 3 December 1999
+| lander
+| rowspan="3" | failure
+| rowspan="3" | contact lost just prior to entering Martian atmosphere
+| File:Mars polar lander.jpg|50px
+| COSPAR|1999-001A
+
+|- style="background:#F2F2F2"
+|
+| ''Deep Space 2'' "Amundsen"
+| flagicon|USA NASA
+| 3 December 1999
+| penetrator
+| rowspan="2" | File:DS-2 Components.jpg|50px
+| rowspan="2" | COSPAR|DEEPSP2
+
+|- style="background:#F2F2F2"
+|
+| ''Deep Space 2'' "Scott"
+| flagicon|USA NASA
+| 3 December 1999
+| penetrator
+
+|}
+
+= 2001–2009 =
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''2001 Mars Odyssey''
+| flagicon|USA NASA
+| 24 October 2001 –
+| orbiter
+| success
+| studying climate and geology; communications relay for Spirit and Opportunity rovers <br/> longest surviving spacecraft in orbit around a planet other than Earth
+| File:Mars-odyssey-sm.jpg|50px
+| COSPAR|2001-014A
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Nozomi (probe)|Nozomi''
+| flagicon|JPN Institute of Space and Astronautical Science|ISAS
+| 14 December 2003
+| orbiter
+| failure
+| failed to attain Mars orbit, became flyby
+| 
+| COSPAR|1998-041A
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''Mars Express''
+| flagicon|EUR European Space Agency|ESA
+| 25 December 2003 &ndash;
+| orbiter
+| success
+| surface imaging and mapping; first European probe in Martian orbit
+| File:Mars-express-volcanoes-sm.jpg|50px
+| COSPAR|2003-022A
+
+|- style="background:#F2F2F2"
+| &nbsp;&nbsp;
+| ''Beagle 2'' 
+| flagicon|UK  British space programme|UK
+| 25 December 2003
+| lander
+| failure
+| Deployed by the ''Mars Express''; lost for 11 years and imaged by NASA's Mars Reconnaissance Orbiter|MRO in 2015<ref>cite web|title=mars beagle lander found|url=http://edition.cnn.com/2015/01/16/world/mars-beagle-lander-found/|accessdate=17 January 2015</ref>
+| File:Beagle 2 replica.jpg|50px
+| COSPAR|2003-022C
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''MER-A'' "''Spirit rover|Spirit''"
+| flagicon|USA NASA
+| 4 January 2004 – 22 March 2010
+| rover
+| success
+| became stuck in May 2009; then operating as a static science station until contact lost in March 2010
+| File:NASA Mars Rover.jpg|50px
+| COSPAR|2003-027A
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''MER-B'' "''Opportunity rover|Opportunity''"
+| flagicon|USA NASA
+| 25 January 2004 –
+| rover
+| success
+|
+| File:NASA Mars Rover.jpg|50px
+| COSPAR|2003-032A
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''Mars Reconnaissance Orbiter''
+| flagicon|USA NASA
+| 10 March 2006 –
+| orbiter
+| success
+| surface imaging and surveying
+| File:Mars Reconnaissance Orbiter.jpg|50px
+| COSPAR|2005-029A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Rosetta (spacecraft)|Rosetta''
+| flagicon|EUR European Space Agency|ESA
+| 25 February 2007
+| flyby
+| success
+| gravity assist en route to asteroid and comet encounters
+| File:Rosetta.jpg|50px
+| COSPAR|2004-006A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Phoenix (spacecraft)|Phoenix''
+| flagicon|USA NASA
+| 25 May 2008 –<br />10 November 2008
+| lander
+| success
+| collection of soil samples near the northern pole to search for water and investigate Mars' geological history and biological potential
+| File:Phoenix Lander small.jpg|50px
+| COSPAR|2007-034A <ref>cite web|url=http://www.nasa.gov/mission_pages/phoenix/main/index.html |title=NASA - Phoenix |publisher=Nasa.gov |date= |accessdate=2012-11-30</ref>
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Dawn Mission|Dawn''
+| flagicon|USA NASA
+| 17 February 2009
+| flyby
+| success
+| gravity assist en route to Vesta and Ceres
+| File:Dawn Flight Configuration 2.jpg|50px
+| COSPAR|2007-043A
+
+|}
+
+= 2011–present =
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Yinghuo-1''
+| flagicon|CHN China National Space Administration|CNSA
+| 8 November 2011 (launch)
+| orbiter
+| failure
+| failed to escape Earth orbit; launched with Fobos-Grunt Phobos lander
+|
+| COSPAR|YINGHUO-1
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''Mars Science Laboratory|MSL Curiosity''
+| flagicon|USA NASA
+| 6 August 2012 –
+| rover
+| success
+| investigation of past and present habitability, climate and geology 
+| File:MSL concept February 2007 - PIA09201.jpg|50px
+| COSPAR|2011-070A <ref>cite web |url=http://mars.jpl.nasa.gov/msl/ |title=Mars Science Laboratory |author=Jet Propulsion Laboratory |publisher=NASA |date= |access-date=2012-11-30</ref>
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''Mangalyaan'' / ''Mars Orbiter Mission''
+| flagicon|IND ISRO
+| 24 September 2014 –
+| orbiter
+| success
+| technology development; studying Martian atmosphere; mineralogical mapping.
+| File:Mars Orbiter Mission - India - ArtistsConcept.jpg|50px
+| COSPAR|2013-060A <ref>cite web |url=http://www.isro.org/mars/home.aspx |title=Archived copy |accessdate=2013-11-24 |deadurl=yes |archiveurl=https://web.archive.org/web/20131120035430/http://www.isro.org/mars/home.aspx |archivedate=2013-11-20 |df= </ref><ref>http://www.isro.gov.in</ref>
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''MAVEN''
+| flagicon|USA NASA
+| 25 September 2014 –
+| orbiter
+| success
+| studying Martian atmosphere
+| File:Maven spacecraft full.jpg|50px
+| COSPAR|2013-063A <ref>cite web |url=http://www.jpl.nasa.gov/news/news.cfm?release=2010-323 |title=Thumbs Up Given for 2013 NASA Mars Orbiter - NASA Jet Propulsion Laboratory |author=Jet Propulsion Laboratory |publisher=NASA |date=2010-10-05 |access-date=2012-11-30</ref>
+
+|-style="background:#CCFFD9"
+| colspan="2" | ''ExoMars Trace Gas Orbiter'' (ExoMars Programme|ExoMars 2016)
+| flagicon|EUR European Space Agency|ESA/<br /> flagicon|RUS Russian Federal Space Agency|RKA
+| 19 October 2016 –
+| orbiter
+| in orbit
+| atmospheric gas analysis; communication relay for surface probes
+| File:ExoMars Trace Gas Orbiter.jpg|50px
+| rowspan="2" | COSPAR|2016-017A <ref>cite web |url=http://exploration.esa.int/science-e/www/object/index.cfm?fobjectid=46124 |title=Robotic Exploration of Mars: ExoMars Orbiter and EDM Mission (2016) |publisher=European Space Agency |date=2012-09-04 |access-date=2012-11-30</ref>
+
+|- style="background:#F2F2F2"
+| &nbsp;&nbsp;&nbsp;
+| Schiaparelli EDM lander
+| flagicon|EUR European Space Agency|ESA
+| 19 October 2016
+| lander
+| crashed upon landing<ref>cite news |last=Amos |first=Jonathan |url=https://www.bbc.com/news/science-environment-37715202 |title=Schiaparelli Mars probe's parachute 'jettisoned too early' |work=BBC News |location=Germany |date=21 October 2016 |accessdate=2016-10-21 </ref>
+| landing test, meteorological observation
+| File:Maquette EDM salon du Bourget 2013 DSC 0192.JPG|50px
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''InSight''
+| flagicon|USA NASA
+| 26 November 2018 - 
+| lander
+| ''landed''
+| full deployment will take 3 months after landing<ref>cite|url=https://www.jpl.nasa.gov/news/news.php?feature=7290 |title=NASA InSight Team on Course for Mars Touchdown |author=Jet Propulsion Laboratory |publisher=NASA</ref>
+| File:Artist's Concept of the InSight Lander.jpg|50px
+| rowspan="3" | COSPAR|INSIGHT <ref>cite web |url=http://insight.jpl.nasa.gov/newsdisplay.cfm?Subsite_News_ID=31164&SiteID=8 |title=New NASA Mission to take First Look Deep Inside Mars |author=Jet Propulsion Laboratory |publisher=NASA |date=2012-08-20 |access-date=2012-12-06</ref>
+
+|- style="background:#EFE7B8"
+|
+| ''Mars Cube One|MarCO A'' "WALL-E"
+| flagicon|USA NASA
+| 26 November 2018
+| flyby
+| success
+| rowspan="2" | relaying data from InSight during its entry, descent, and landing
+| rowspan="2" |
+
+|- style="background:#EFE7B8"
+|
+| ''Mars Cube One|MarCO B'' "Eva"
+| flagicon|USA NASA
+| 26 November 2018
+| flyby
+| success
+
+|}
+
+= Proposed =
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|-
+| colspan="2" | ''ExoMars|ExoMars rover''
+| flagicon|EUR European Space Agency|ESA /<br /> flagicon|RUS Russian Federal Space Agency|RKA 
+| 2020
+| rover
+| planned
+|
+| File:Exomars.jpg|50px
+| <ref>cite web |url=http://exploration.esa.int/science-e/www/object/index.cfm?fobjectid=45084 |title=Robotic Exploration of Mars: ExoMars Rover |publisher=European Space Agency |date=2012-10-22 |access-date=2012-11-30</ref>
+
+|-
+| colspan="2" | ''Mars 2020''
+| flagicon|USA NASA
+| 2020
+| rover
+| planned
+|
+|
+| rowspan="2" | <ref name="NASA-Mars2020">cite web |url=http://mars.jpl.nasa.gov/mars2020/mission/overview/ |title=Mars 2020 Rover – Mission Overview |author=Jet Propulsion Laboratory |publisher=NASA |access-date=7 March 2015</ref>
+
+|-
+| &nbsp;&nbsp;&nbsp;
+| NASA Mars Helicopter Scout|Mars Helicopter Scout
+| flagicon|USA NASA 
+| 2020
+| robotic helicopter
+| planned
+| providing guidance for the Mars 2020 rover
+| File:MarsRoverHelicopter-20150122.png|50px
+
+|-
+| colspan="2" | Mars Global Remote Sensing Orbiter and Small Rover
+| flagicon|PRC CNSA
+| 2020
+| rover
+| planned
+| Studying Martian environment
+| 
+| <ref>cite web |title= Beijing eyes 'robotic and human settlement' on Mars with ambitious 2020 mission |url= https://www.telegraph.co.uk/news/2017/09/21/plans-2020-chinese-mars-probe-explore-possibility-human-settlement/</ref>
+
+|-
+| colspan="2" | Mars Orbiter Mission 2
+| flagicon|IND ISRO
+| 2022-23
+| orbiter
+| planned
+| Studying Martian atmosphere
+| 
+| <ref>cite web |title= India eyes a return to Mars and a first run at Venus |url= https://www.sciencemag.org/news/2017/02/india-eyes-return-mars-and-first-run-venus</ref>
+
+|-
+| colspan="2" | ''Psyche (spacecraft)|Psyche''
+| flagicon|USA NASA
+| 2022 (launch) <br/> 2023 (flyby)
+| flyby
+| planned
+| gravity assist en route to Psyche
+| 
+| <ref name="Discovery 2017">cite news |last=Northon |first=Karen |url=https://www.nasa.gov/press-release/nasa-selects-two-missions-to-explore-the-early-solar-system |title=NASA Selects Two Missions to Explore the Early Solar System  |work=NASA |date=4 January 2017 |accessdate=2017-01-05</ref>
+
+|-
+| colspan="2" | Martian Moons Exploration (MMX)
+| flagicon|JPN JAXA
+| 2024 (launch) <br/> Mid-2025 (arrival)
+| orbiter
+| planned
+| monitoring Martian climate
+| 
+| <ref name="MMX climate">cite web |url=http://www.astrobio.k.u-tokyo.ac.jp/imamura/wp-content/uploads/2016/06/mars_20161221.pdf#page=24 |title=Mars’ climate and exploration |format=PDF |publisher=University of Tokyo |date=21 December 2016 |access-date=2018-05-07</ref>
+
+|-
+| colspan="2" | ''Jupiter Icy Moon Explorer|JUICE''
+| flagicon|EUR European Space Agency|ESA
+| 2022 (launch) <br/> 2025 (flyby)
+| flyby
+| planned
+| gravity assist en route to Jupiter
+| File:JUICE_spacecraft_concept.jpg|50px
+| <ref name="JUICE ESA"/>
+
+|-
+| colspan="2" | Mars Sample Return Mission
+| flagicon|USA NASA /<br /> flagicon|EUR European Space Agency|ESA
+| 2026
+| orbiter, lander, rover, and sample return
+| under study
+|
+| File:MSR-Artist Concept.jpg|50px
+| <ref>cite web |url=http://mars.jpl.nasa.gov/missions/future/futureMissions.html |title=Missions to Mars – Beyond 2009 |author=Jet Propulsion Laboratory |publisher=NASA |archive-date=2008-05-18 |archive-url=https://web.archive.org/web/20080518010223/http://mars.jpl.nasa.gov/missions/future/futureMissions.html</ref><ref>cite web |url=http://www.esa.int/SPECIALS/Aurora/SEM1PM808BE_0.html |title=Aurora Programme - Mars Sample Return |publisher=European Space Agency |date=2008-07-22 |access-date=2012-08-20 |archive-date=2012-12-03 |archive-url=https://web.archive.org/web/20121203013939/http://www.esa.int/SPECIALS/Aurora/SEM1PM808BE_0.html </ref>
+
+|-
+| colspan="2" | Next Mars Orbiter (NeMO)
+| flagicon|USA NASA
+| Late 2020s<ref>cite news |url=https://spaceflightnow.com/2018/04/09/nasa-is-counting-on-long-lived-mars-orbiter-lasting-another-decade/ |title=NASA is counting on long-lived Mars orbiter lasting another decade |work=Spaceflight Now |first=Stephen |last=Clark |date=April 9, 2018 |accessdate=April 22, 2018</ref>
+| orbiter
+| under study
+| Laser communications relay, high-resolution mapping
+| File:Mars_2022_orbiter.png|50px
+| <ref name="Leone">cite news |url=http://spacenews.com/nasa-eyes-new-mars-orbiter-for-2022/ |title=NASA Eyes New Mars Orbiter for 2022 |work=Space News |last=Leone |first=Dan |date=February 24, 2015 |accessdate=March 8, 2015</ref>
+
+|}
+
+= Phobos (moon)|Phobos probes =
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Phobos 1''
+| flagicon|USSR USSR
+| 7 July 1988 (launch)
+| flyby
+| failure
+| contact lost en route to Mars
+| File:Phobos Marte.jpg|50px
+| COSPAR|1988-058A
+
+|- style="background:#F2F2F2"
+| &nbsp;&nbsp;
+| ''DAS''
+| flagicon|USSR USSR
+| 2 September 1988
+| fixed lander
+| failure
+| never deployed
+|
+|
+|- style="background:#F2F2F2"
+| colspan="2" | ''Phobos 2''
+| flagicon|USSR USSR
+| 27 March 1989 (contact lost)
+| flyby
+| failure
+| attained Mars orbit; contact lost prior to deployment of lander
+| File:Phobos Marte.jpg|50px
+| COSPAR|1988-059A
+
+|- style="background:#F2F2F2"
+| &nbsp;&nbsp;
+| ''DAS''
+| flagicon|USSR USSR
+| 27 March 1989
+| fixed lander
+| failure
+| never deployed
+|
+|
+|- style="background:#F2F2F2"
+| &nbsp;&nbsp;
+| "Frog"
+| flagicon|USSR USSR
+| 27 March 1989
+| mobile lander
+| failure
+| never deployed
+|
+|
+|- style="background:#F2F2F2"
+| colspan="2" | ''Fobos-Grunt''
+| flagicon|RUS Russian Federal Space Agency|RKA
+| 8 November 2011 (launch)
+| sample return
+| failure
+| failed to escape Earth orbit; launched with Yinghuo-1 Mars orbiter
+|
+| COSPAR|2011-065A
+
+|-
+| colspan="2" | ''Martian Moons Exploration|MMX''
+| flagicon|JPN JAXA
+| 2024 (launch) <br/> 2025 (arrival)
+| sample return
+| planned
+| orbital insertion in 2025
+| 
+| rowspan="2" | <ref name="Japan Times MMX">cite news |date=June 10, 2015 |title=JAXA plans probe to bring back samples from moons of Mars |url=http://www.japantimes.co.jp/news/2015/06/10/national/science-health/jaxa-plans-probe-bring-back-samples-martian-moons/ |newspaper=The Japan Times |accessdate=2017-12-15</ref><ref name="MMXroverJAXAPR">cite press release |last1=Yamakawa |first1=Hiroshi |last2=Le Gall |first2=Jean-Yves |last3=Ehrenfreund |first3=Pascale |last4=Dittus |first4=Hansjörg |date=October 3, 2018 |title=Joint Statement with Centre National d'Etudes Spatiales (CNES) and German Aerospace Center (DLR) regarding Martian Moons eXploration |url=http://global.jaxa.jp/press/2018/10/files/Joint_Statement_MMX.pdf |publisher=JAXA |access-date=October 30, 2018</ref>
+
+|-
+| &nbsp;&nbsp;&nbsp;
+| Martian Moons Exploration|MMX rover
+| flagicon|FRA CNES/<br />flagicon|GER German Aerospace Center|DLR
+| 2025
+| rover
+| planned
+|
+|
+
+|}
+
+ Ceres (dwarf planet)|Ceres probes 
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Dawn (spacecraft)|Dawn''
+| flagicon|USA NASA
+| March 6, 2015 – November 1, 2018
+| orbiter
+| success
+| first spacecraft to orbit two different celestial bodies; previously visited 4 Vesta|Vesta
+| File:Dawn Flight Configuration 2.jpg|50px
+| COSPAR|2007-043A
+
+|}
+
+ Asteroid probes 
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! style="text-align:left" | Target
+! colspan="2" style="text-align:left" | Spacecraft
+! style="text-align:left" | Organization
+! style="text-align:left" | Date
+! style="text-align:left" | Type
+! style="text-align:left" | Status
+! style="text-align:left" | Notes
+!  style="width:50px; text-align:left;"| Image
+!  style="width:50px; text-align:left;"| Ref
+
+|- style="background:#EFE7B8"
+| 951 Gaspra
+| colspan="2" | ''Galileo (spacecraft)|Galileo''
+| flagicon|USA NASA
+| 29 October 1991
+| flyby
+| success
+| en route to Jupiter; minimum distance 1900&nbsp;km
+| File:Galileo Preparations - GPN-2000-000672.jpg|50px
+| <ref name="galileo-legacy"/>
+
+|- style="background:#EFE7B8"
+| 243 Ida
+| colspan="2" | ''Galileo (spacecraft)|Galileo''
+| flagicon|USA NASA
+| 28 August 1993
+| flyby
+| success
+| en route to Jupiter; minimum distance 2400&nbsp;km; discovery of the first binary asteroid|asteroid satellite Dactyl (moon)|Dactyl
+| File:Galileo Preparations - GPN-2000-000672.jpg|50px
+| <ref name="galileo-legacy"/>
+
+|- style="background:#F2F2F2"
+| 1620 Geographos
+| colspan="2" | ''Clementine mission|Clementine''
+| flagicon|USA Ballistic Missile Defense Organization|BMDO/<br />File:No image.svg|22px NASA
+| 1994
+| flyby
+| failure
+| flyby cancelled due to equipment malfunction
+| File:Clementine Deployed.png|50px
+| COSPAR|1994-004A
+
+|- style="background:#EFE7B8"
+| 253 Mathilde
+| colspan="2" | ''NEAR Shoemaker|NEAR<br />Shoemaker''
+| flagicon|USA NASA
+| 27 June 1997
+| flyby
+| success
+| flew within 1200&nbsp;km of 253 Mathilde en route to 433 Eros
+| File:NEARCraft.jpg|50px
+| COSPAR|1996-008A
+
+|- style="background:#F2F2F2"
+| 433 Eros
+| colspan="2" | ''NEAR Shoemaker|NEAR<br />Shoemaker''
+| flagicon|USA NASA
+| January 1999
+| orbiter
+| failure
+| became flyby due to software and communications problems (later attempt at orbit insertion succeeded; see below)
+| File:NEARCraft.jpg|50px
+| COSPAR|1996-008A
+
+|- style="background:#EFE7B8"
+| 9969 Braille
+| colspan="2" | ''Deep Space 1''
+| flagicon|USA NASA
+| 29 July 1999
+| flyby
+| partial success
+| no close-up images due to camera pointing error; went on to visit comet 19P/Borrelly
+| File:Deep Space 1 using its ion engine.jpg|50px
+| COSPAR|1998-061A
+
+|- style="background:#EFE7B8"
+| 2685 Masursky
+| colspan="2" | ''Cassini–Huygens|Cassini''
+| flagicon|USA NASA/<br />flagicon|EUR European Space Agency|ESA/<br />flagicon|ITA Italian Space Agency|ASI
+| 23 January 2000
+| distant flyby
+| success
+| en route to Saturn
+| File:Cassini assembly.jpg|50px
+| COSPAR|1997-061A
+
+|- style="background:#EFE7B8"
+| 433 Eros
+| colspan="2" | ''NEAR Shoemaker|NEAR<br />Shoemaker''
+| flagicon|USA NASA
+| nowrap|February 2000 &ndash;<br />February 2001
+| orbiter, became lander
+| success
+| improvised landing by orbiter at end of mission
+| File:NEARCraft.jpg|50px
+| COSPAR|1996-008A
+
+|- style="background:#EFE7B8"
+| 5535 Annefrank
+| colspan="2" | ''Stardust (spacecraft)|Stardust''
+| flagicon|USA NASA
+| November 2, 2002
+| distant flyby
+| success
+| went on to visit comet 81P/Wild
+| File:Stardust - Concepcao artistica.jpg|50px
+| COSPAR|1999-003A
+
+|- style="background:#EFE7B8"
+| rowspan="2" | 25143 Itokawa
+| colspan="2" | ''Hayabusa''
+| flagicon|JPN Institute of Space and Astronautical Science|ISAS
+| 2005–07
+| sample return
+| success
+| landed on Itokawa in 2005, initially failed as sampling device failed to operate, but second landing resulted in a success. It returned to Earth in 2010
+| File:Hayabusa(Muses-C) sampling.jpg|50px
+| rowspan="2" | COSPAR|2003-019A
+
+|- style="background:#F2F2F2"
+| &nbsp;&nbsp;&nbsp;
+| ''Hayabusa#Minerva mini-lander|MINERVA''
+| flagicon|JPN Institute of Space and Astronautical Science|ISAS
+| nowrap|12 November 2005
+| hopper
+| failure
+| missed target
+|
+|- style="background:#EFE7B8"
+| 132524 APL
+| colspan="2" | ''New Horizons''
+| flagicon|USA NASA
+| June 2006
+| distant flyby
+| success
+| flew past Pluto successfully
+| 
+| COSPAR|2006-001A
+
+|- style="background:#EFE7B8"
+| 2867 Šteins
+| colspan="2" | ''Rosetta (spacecraft)|Rosetta''
+| flagicon|EUR European Space Agency|ESA
+| 5 September 2008
+| flyby
+| success
+| en route to comet 67P/Churyumov–Gerasimenko
+| File:Rosetta.jpg|50px
+| COSPAR|2004-006A
+
+|- style="background:#EFE7B8"
+| 21 Lutetia
+| colspan="2" | ''Rosetta (spacecraft)|Rosetta''
+| flagicon|EUR European Space Agency|ESA
+| 11 July 2010
+| flyby
+| success
+| en route to comet 67P/Churyumov–Gerasimenko
+| File:Rosetta.jpg|50px
+| COSPAR|2004-006A
+
+|- style="background:#EFE7B8"
+| 4 Vesta
+| colspan="2" | ''Dawn Mission|Dawn''
+| flagicon|USA NASA
+| 16 July 2011 – 5 September 2012
+| orbiter
+| success
+| first spacecraft to orbit two different celestial bodies; now orbiting Ceres (dwarf planet)|Ceres
+| File:Dawn Flight Configuration 2.jpg|50px
+| COSPAR|2007-043A
+
+|- style="background:#EFE7B8"
+| 4179 Toutatis
+| colspan="2" | ''Chang'e 2''
+| flagicon|China CNSA
+| 13 December 2012
+| flyby
+| success
+| 
+|
+| COSPAR|2010-050A
+
+|- style="background:#F2F2F2"
+| (185851) 2000 DP107|2000 DP107
+| colspan="2" | ''PROCYON''
+| flagicon|JPN University of Tokyo / Japan Aerospace Exploration Agency|JAXA
+| 12 May 2016<ref name="PROCYON">cite web |url=http://space.skyrocket.de/doc_sdat/procyon.htm |title=PROCYON |publisher=Gunter's Space Page |date= |access-date=2015-09-23</ref>
+| flyby
+| failure
+| launched with Hayabusa2 in 2014; mission abandoned after ion thruster failure<ref name="Lakdawalla">cite web |url=http://www.planetary.org/blogs/emily-lakdawalla/2015/05081421-procyon-failure.html?referrer=https://www.google.co.jp/ |title=Due to ion engine failure, PROCYON will not fly by an asteroid |last=Lakdawalla |first=Emily |date=May 8, 2015 |access-date=2015-09-23</ref>
+|
+| COSPAR|2014-076D
+
+|- style="background:#CCFFD9"
+| rowspan="7" | 162173 Ryugu
+| colspan="2" | ''Hayabusa2''
+| flagicon|JPN Japan Aerospace Exploration Agency|JAXA
+| July 2018
+| sample return
+| ''in orbit''
+| orbital insertion in June 2018, sample capture in 2019, return to Earth in 2020
+| <!-- WP:NFCC violation: File:Hayabusa2_rendezvous.jpg|50px -->
+| rowspan="7" | COSPAR|2014-076A
+
+|- style="background:#CCFFD9"
+| &nbsp;&nbsp;&nbsp;
+| ''MINERVA-II|Minerva II-1A''
+| flagicon|JPN Japan Aerospace Exploration Agency|JAXA
+| 21 September 2018
+| hopper
+| success
+|
+|
+|- style="background:#CCFFD9"
+| &nbsp;&nbsp;&nbsp;
+| ''MINERVA-II|Minerva II-1B''
+| flagicon|JPN Japan Aerospace Exploration Agency|JAXA
+| 21 September 2018
+| hopper
+| success
+|
+|
+|- style="background:#EFE7B8"
+| &nbsp;&nbsp;&nbsp;
+| ''Hayabusa 2#Instruments|MASCOT''
+| flagicon|GER German Aerospace Center|DLR/<br />flagicon|FRA CNES
+| 3 October 2018
+| mobile lander
+| success
+|
+|
+|- style="background:#CCFFD9"
+| &nbsp;&nbsp;&nbsp;
+| ''Minerva-II|Minerva II-2''
+| flagicon|JPN Japan Aerospace Exploration Agency|JAXA
+| 2019
+| hopper
+| ''en route''
+|
+|
+|- style="background:#CCFFD9"
+| &nbsp;&nbsp;&nbsp;
+| ''Hayabusa 2#Instruments|SCI''
+| flagicon|JPN Japan Aerospace Exploration Agency|JAXA
+| 2019
+| impactor
+| ''en route''
+|
+|
+|- style="background:#CCFFD9"
+| &nbsp;&nbsp;&nbsp;
+| ''Hayabusa 2#Instruments|DCAM-3''
+| flagicon|JPN Japan Aerospace Exploration Agency|JAXA
+| 2019
+| orbiter
+| ''en route''
+| observing SCI's impact, and the ejecta created by the impact
+|
+
+|- style="background:#CCFFD9"
+| 101955 Bennu
+| colspan="2" | ''OSIRIS-REx''
+| flagicon|USA NASA
+| August 2018
+| sample return
+| ''in orbit''
+| orbital insertion in 2018, sample capture in 2020, return to Earth in 2023
+| File:OSIRIS-REx_spacecraft.png|50px
+| COSPAR|2016-055A
+
+|- style="background:#F2F2F2"
+| (163249) 2002 GT|2002 GT
+| colspan="2" | ''Deep Impact (spacecraft)|Deep Impact''
+| flagicon|USA NASA
+| January 2020<ref name="2002GT">[http://spaceflightnow.com/news/n1112/17deepimpact/ Deep Impact sets path for asteroid encounter in 2020] – spaceflightnow.com – Stephen Clark – December 17, 2011</ref>
+| flyby
+| failure
+| contact lost; previously visited comet 103P/Hartley
+| File:Deep Impact.jpg|50px
+| COSPAR|2005-001A
+
+|-
+| ?
+| colspan="2" | ''Near-Earth Asteroid Scout''
+| flagicon|USA NASA
+| 2020 (launch)
+| flyby
+| planned
+| Small spacecraft asteroid flyby technology demonstration 
+| 
+| <ref name='NEA-Scout'>cite web |url=http://space.skyrocket.de/doc_sdat/nea-scout.htm |title=NEA-Scout |last=Krebs |first=Gunter Dirk |date=13 April 2015 |accessdate=2015-05-13 </ref>
+
+|-
+| rowspan="2" | 65803 Didymos
+| colspan="2" | Double Asteroid Redirection Test|DART
+| flagicon|USA NASA
+| 2021 (launch) <br/> October 2022 (impact)
+| impactor
+| planned
+|
+| 
+| rowspan="2" | <ref name="DARTblog1">cite web |url=http://dart.jhuapl.edu/News-and-Resources/blog.php?id=20180927 |title=Asteroids have been hitting the Earth for billions of years. In 2022, we hit back. |last=Rivkin |first=Andy |publisher=Applied Physics Laboratory |date=27 September 2018 |access-date=2018-10-31</ref>
+
+|-
+| &nbsp;&nbsp;&nbsp;
+| LICIA
+| flagicon|ITA Italian Space Agency|ASI
+| 2022
+| orbiter
+| planned
+| observe DART's impact
+|
+
+|-
+| 52246 Donaldjohanson
+| colspan="2" | ''Lucy (spacecraft)|Lucy''
+| flagicon|USA NASA
+| 2021 (launch) <br/> April 2025 (flyby)
+| flyby
+| planned
+|Selected for mission #13 of NASA's Discovery Program, main-belt asteroid flyby en route to Jupiter Trojans
+| 
+| <ref name="Discovery 2017"/>
+
+|-
+| 16 Psyche
+| colspan="2" | ''Psyche (spacecraft)|Psyche''
+| flagicon|USA NASA
+| 2022 (launch) <br/> 2026 (arrival)
+| orbiter
+| planned
+| Selected for mission #14 of NASA's Discovery Program
+| 
+| <ref name="Discovery 2017">cite news |last=Northon |first=Karen |url=https://www.nasa.gov/press-release/nasa-selects-two-missions-to-explore-the-early-solar-system |title=NASA Selects Two Missions to Explore the Early Solar System  |work=NASA |date=4 January 2017 |accessdate=2017-01-05</ref>
+
+|-
+| 3200 Phaethon
+| colspan="2" | ''DESTINY+|DESTINY<sup>+</sup>''
+| flagicon|JPN JAXA
+| 2022 (launch) <br/> 2026 (arrival)
+| flyby
+| planned
+|First flyby of a rock comet
+|
+| <ref name="DESTINYPLUS">cite news |last=Shuzo |first=Yui |date=September 20, 2017 |title=日独で小惑星探査機打ち上げへ　生命の起源探る |url=https://mainichi.jp/articles/20170921/k00/00m/040/104000c |language=Japanese |newspaper=Mainichi Shimbun|The Mainichi Newspapers |accessdate=2018-05-02</ref>
+
+|-
+| 3548 Eurybates
+| colspan="2" | ''Lucy (spacecraft)|Lucy''
+| flagicon|USA NASA
+| August 2027
+| flyby
+| planned
+|First flyby of a Jupiter trojan
+| 
+| <ref name="Discovery 2017"/>
+|-
+| 15094 Polymele
+| colspan="2" | ''Lucy (spacecraft)|Lucy''
+| flagicon|USA NASA
+| September 2027
+| flyby
+| planned
+|
+| 
+| <ref name="Discovery 2017"/>
+|-
+| 11351 Leucus
+| colspan="2" | ''Lucy (spacecraft)|Lucy''
+| flagicon|USA NASA
+| April 2028
+| flyby
+| planned
+|
+| 
+| <ref name="Discovery 2017"/>
+|-
+| 21900 Orus
+| colspan="2" | ''Lucy (spacecraft)|Lucy''
+| flagicon|USA NASA
+| November 2028
+| flyby
+| planned
+|
+| 
+| <ref name="Discovery 2017"/>
+|-
+| 617 Patroclus|Patroclus and Menoetius
+| colspan="2" | ''Lucy (spacecraft)|Lucy''
+| flagicon|USA NASA
+| March 2033
+| flyby
+| planned
+|First flyby of a List of Jupiter trojans (Trojan camp)|Trojan Camp Jupiter Trojan
+| 
+| <ref name="Discovery 2017"/>
+
+|}
+
+ Jupiter probes 
+Main|Exploration of Jupiter
+{| class="wikitable sortable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Pioneer 10''
+| flagicon|USA NASA
+| 3 December 1973
+| flyby
+| success
+| first probe to cross the asteroid belt; first Jupiter probe; first man-made object on an interstellar trajectory; now in the outer regions of the Solar System but no longer contactable
+| File:Pioneer 10 at Jupiter.gif|50px
+| COSPAR|1972-012A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Pioneer 11''
+| flagicon|USA NASA
+| 4 December 1974
+| flyby
+| success
+| went on to visit Saturn
+| File:Pioneer 11 at Saturn.gif|50px
+| COSPAR|1973-019A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Voyager 1''
+| flagicon|USA NASA
+| 5 March 1979
+| flyby
+| success
+| went on to visit Saturn
+| File:Voyager.jpg|50px
+| COSPAR|1977-084A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Voyager 2''
+| flagicon|USA NASA
+| 9 July 1979
+| flyby
+| success
+| went on to visit Saturn, Uranus and Neptune
+| File:Voyager.jpg|50px
+| COSPAR|1977-076A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Ulysses probe|Ulysses''<br />(first pass)
+| flagicon|EUR European Space Agency|ESA/<br />flagicon|USA NASA
+| February 1992
+| flyby
+| success
+| gravity assist en route to inclined heliocentric orbit for solar polar observations
+| File:Ulysses spacecraft.jpg|50px
+| COSPAR|1990-090B
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Galileo (spacecraft)|Galileo Orbiter''
+| flagicon|USA NASA/<br />flagicon|GER Germany#Science and technology|West Germany
+| 7 December 1995&nbsp;–<br/>21 September 2003
+| orbiter
+| success
+| also flew by various of Jupiter's moons; intentionally flown into Jupiter at end of mission; first spacecraft to orbit Jupiter; first spacecraft to flyby an asteroid
+| File:Galileo Preparations - GPN-2000-000672.jpg|50px
+| COSPAR|1989-084B
+
+|- style="background:#EFE7B8"
+| &nbsp;&nbsp;
+| ''Galileo (spacecraft)#Galileo's atmospheric entry probe|Galileo Probe''
+| flagicon|USA NASA
+| 7 December 1995
+| atmospheric probe
+| success
+| first probe to enter Jupiter's atmosphere
+| File:Galileo Probe.jpeg|50px
+| COSPAR|1989-084E
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Cassini–Huygens|Cassini''
+| flagicon|USA NASA/<br />flagicon|EUR European Space Agency|ESA/<br />flagicon|ITA Italian Space Agency|ASI
+| December 2000
+| flyby
+| success
+| gravity assist ''en route'' to Saturn
+| File:Cassini assembly.jpg|50px
+| COSPAR|1997-061A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Ulysses probe|Ulysses''<br />(second pass)
+| flagicon|EUR European Space Agency|ESA/<br />flagicon|USA NASA
+| 2003–04
+| distant flyby
+| success
+|
+| File:Ulysses spacecraft.jpg|50px
+| COSPAR|1990-090B
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''New Horizons''
+| flagicon|USA NASA
+| 28 February 2007
+| flyby
+| success
+| gravity assist ''en route'' to Pluto
+| 
+| COSPAR|2006-001A
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''Juno (spacecraft)|Juno''
+| flagicon|USA NASA
+| 5 July 2016 – July 2018, with spacecraft disposal planned for July 2021<ref>https://pds.jpl.nasa.gov/ds-view/pds/viewMissionProfile.jsp?MISSION_NAME=JUNO</ref>
+| orbiter
+| success
+| First solar-powered Jupiter orbiter, first mission to achieve a polar orbit of Jupiter.
+| File:Juno in front of Jupiter.jpg|50px
+| COSPAR|2011-040A
+
+|-
+| colspan="2" | ''Jupiter Icy Moon Explorer|JUICE''
+| flagicon|EUR European Space Agency|ESA
+| 2022 (launch)
+| orbiter
+| planned
+| mission to study Jupiter's three icy moons Callisto (moon)|Callisto, Europa (moon)|Europa and Ganymede (moon)|Ganymede, eventually orbiting Ganymede as the first spacecraft to orbit a satellite of another planet
+| File:JUICE_spacecraft_concept.jpg|50px
+| <ref name="JUICE ESA"/>
+
+|-
+| colspan="2" | ''Europa Clipper''
+| flagicon|USA NASA
+| 2020s
+| orbiter
+| under study
+| planned to orbit Jupiter and fly by Europa multiple times
+| File:Europa_Mission_Spacecraft_-_Artist%27s_Rendering.jpg|50px
+| <ref>cite web |url=http://www.nasa.gov/europa |title=Mission to Europa |publisher=NASA |access-date=2016-08-27</ref>
+
+|}
+
+ Saturn probes 
+Main|Exploration of Saturn
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Pioneer 11''
+| flagicon|USA NASA
+| 1 September 1979
+| flyby
+| success
+| previously visited Jupiter
+| File:Pioneer 11 at Saturn.gif|50px
+| COSPAR|1973-019A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Voyager 1''
+| flagicon|USA NASA
+| 12 November 1980
+| flyby
+| success
+| previously visited Jupiter
+| File:Voyager.jpg|50px
+| COSPAR|1977-084A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Voyager 2''
+| flagicon|USA NASA
+| 5 August 1981
+| flyby
+| success
+| previously visited Jupiter, went on to visit Uranus and Neptune
+| File:Voyager.jpg|50px
+| COSPAR|1977-076A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Cassini–Huygens|Cassini''
+| flagicon|USA NASA/<br />flagicon|EUR European Space Agency|ESA/<br />flagicon|ITA Italian Space Agency|ASI
+| 1 July 2004 – 15 September 2017
+| orbiter
+| success
+| also performed flybys of a number of Saturn's moons, and deployed the ''Huygens'' Titan lander; first spacecraft to orbit Saturn
+| File:Cassini assembly.jpg|50px
+| COSPAR|1997-061A
+
+|}
+
+= Titan (moon)|Titan probes =
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Huygens (spacecraft)|Huygens''
+| flagicon|EUR European Space Agency|ESA
+| 14 January 2005
+| atmospheric probe, lander
+| success
+| deployed by ''Cassini''; first probe to land on a satellite of another planet
+| <!--  Commented out because image was deleted: File:Huygensprobe.jpg|50px -->
+| COSPAR|1997-061C
+|-
+| colspan="2" | Dragonfly (spacecraft)|Dragonfly
+| flagicon|USA NASA
+| 2025
+| rotorcraft lander
+| under study
+| finalist for New Frontiers 4 competition
+| File:Cropped-NASA Dragonfly mission to Titan.jpg|50px
+|  <ref>http://dragonfly.jhuapl.edu/docs/DragonflyTechDigestAPL.pdf</ref> <ref>https://www.nasa.gov/press-release/nasa-invests-in-concept-development-for-missions-to-comet-saturn-moon-titan</ref>
+|}
+
+ Uranus probes 
+Main|Exploration of Uranus
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Voyager 2''
+| flagicon|USA NASA
+| 24 January 1986
+| flyby
+| success
+| previously visited Jupiter and Saturn; went on to visit Neptune
+| File:Voyager.jpg|50px
+| COSPAR|1977-076A
+
+|}
+
+ Neptune probes 
+Main|Exploration of Neptune
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Voyager 2''
+| flagicon|USA NASA
+| 25 August 1989
+| flyby
+| success
+| previously visited Jupiter, Saturn and Uranus
+| File:Voyager.jpg|50px
+| COSPAR|1977-076A
+
+|}
+
+ Pluto probes 
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:11%;"| Organization
+!  style="text-align:left; width:17%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:24%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''New Horizons''
+| flagicon|USA NASA
+| 14 July 2015 
+| flyby
+| success
+| later flew by Kuiper belt object nobr|2014 MU69 when it was 43.4 AU from the Sun.
+| File:New Horizons Transparent.png|50px
+| COSPAR|2006-001A
+
+|}
+
+ Comet probes 
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! style="text-align:left" | Target
+! colspan="2" style="text-align:left" | Spacecraft
+! style="text-align:left" | Organization
+! style="text-align:left" | Date
+! style="text-align:left" | Type
+! style="text-align:left" | Status
+! style="text-align:left" | Notes
+!  style="width:50px; text-align:left;"| Image
+!  style="width:50px; text-align:left;"| Ref
+
+|- style="background:#EFE7B8"
+| 21P/Giacobini-Zinner
+| colspan="2" | ''International Cometary Explorer|ICE (formerly ISEE3)''
+| nowrap|flagicon|USA NASA
+| 11 September 1985
+| flyby
+| success
+| previously solar monitor ISEE3; went on to observe Halley's Comet
+| File:ISEE3-ICE.jpg|50px
+| COSPAR|1978-079A
+
+|- style="background:#EFE7B8"
+| 1P/Halley
+| colspan="2" | ''Vega 1''
+| flagicon|USSR Russian Academy of Sciences|SAS
+| 6 March 1986
+| flyby
+| success
+| minimum distance 8,890&nbsp;km; previously visited Venus
+| File:Vega_model_-_Udvar-Hazy_Center.JPG|50px
+| COSPAR|1984-125A
+
+|- style="background:#EFE7B8"
+| 1P/Halley
+| colspan="2" | ''Suisei (spacecraft)|Suisei''
+| flagicon|JPN Institute of Space and Astronautical Science|ISAS
+| 8 March 1986
+| flyby
+| success
+| 151,000&nbsp;km
+| File:Suisei.gif|50px
+| COSPAR|1985-073A
+
+|- style="background:#EFE7B8"
+| 1P/Halley
+| colspan="2" | ''Vega 2''
+| flagicon|USSR Russian Academy of Sciences|SAS
+| 9 March 1986
+| flyby
+| success
+| minimum distance 8,890&nbsp;km; previously visited Venus
+| File:Vega_model_-_Udvar-Hazy_Center.JPG|50px
+| COSPAR|1984-128A
+
+|- style="background:#EFE7B8"
+| 1P/Halley
+| colspan="2" | ''Sakigake''
+| flagicon|JPN Institute of Space and Astronautical Science|ISAS
+| March 1986
+| distant flyby
+| partial success
+| minimum distance 6.99 million km
+| File:Sakigake.gif|50px
+| COSPAR|1985-001A
+
+|- style="background:#EFE7B8"
+| 1P/Halley
+| colspan="2" | ''Giotto mission|Giotto''
+| flagicon|EUR European Space Agency|ESA
+| 14 March 1986
+| flyby
+| success
+| minimum distance 596&nbsp;km; went on to visit comet 26P/Grigg-Skjellerup
+| File:Giotto spacecraft.jpg|50px
+| COSPAR|1985-056A
+
+|- style="background:#EFE7B8"
+| 1P/Halley
+| colspan="2" | ''International Cometary Explorer|ICE  (formerly ISEE3)''
+| flagicon|USA NASA
+| 28 March 1986
+| distant obser-<br />vations
+| success
+| minimum distance 32 million km; previously visited comet 21P/Giacobini-Zinner
+| File:ISEE3-ICE.jpg|50px
+| COSPAR|1978-079A
+
+|- style="background:#EFE7B8"
+| 26P/Grigg-Skjellerup
+| colspan="2" | ''Giotto mission|Giotto''
+| flagicon|EUR European Space Agency|ESA
+| 10 July 1992
+| flyby
+| success
+| previously visited Halley's Comet
+| File:Giotto spacecraft.jpg|50px
+| COSPAR|1985-056A
+
+|- style="background:#F2F2F2"
+| 45P/Honda-Mrkos-Pajdusakova|45P/<br />Honda-Mrkos-Pajdusakova
+| colspan="2" | ''Sakigake''
+| flagicon|JPN Institute of Space and Astronautical Science|ISAS
+| 1996
+| flyby
+| failure
+| rowspan="2" | contact lost; previously visited Halley's Comet
+| rowspan="2" | File:Sakigake.gif|50px
+| rowspan="2" | COSPAR|1985-001A
+
+|- style="background:#F2F2F2"
+| 21P/Giacobini-Zinner
+| colspan="2" | ''Sakigake''
+| flagicon|JPN Institute of Space and Astronautical Science|ISAS
+| 1998
+| flyby
+| failure
+
+|- style="background:#F2F2F2"
+| 55P/Tempel-Tuttle
+| colspan="2" | ''Suisei (spacecraft)|Suisei''
+| flagicon|JPN Institute of Space and Astronautical Science|ISAS
+| 1998
+| flyby
+| failure
+| rowspan="2" | abandoned due to lack of fuel; previously visited Halley's Comet
+| rowspan="2" | File:Suisei.gif|50px
+| rowspan="2" | COSPAR|1985-073A
+
+|- style="background:#F2F2F2"
+| 21P/Giacobini-Zinner
+| colspan="2" | ''Suisei (spacecraft)|Suisei''
+| flagicon|JPN Institute of Space and Astronautical Science|ISAS
+| 1998
+| flyby
+| failure
+
+|- style="background:#EFE7B8"
+| 19P/Borrelly
+| colspan="2" | nowrap|''Deep Space 1''
+| flagicon|USA NASA
+| nowrap|22 September 2001
+| flyby
+| success
+| previously visited asteroid 9969 Braille
+| File:Deep Space 1 using its ion engine.jpg|50px
+| COSPAR|1998-061A
+
+|- style="background:#F2F2F2"
+| 2P/Encke
+| colspan="2" | ''CONTOUR''
+| flagicon|USA NASA
+| 2003
+| flyby
+| failure
+| contact lost shortly after launch
+| File:CONTOUR pre-launch.jpg|50px
+| COSPAR|2002-034A
+
+|- style="background:#EFE7B8"
+| 81P/Wild
+| colspan="2" | ''Stardust (spacecraft)|Stardust''
+| flagicon|USA NASA
+| 2 January 2004
+| flyby, sample return
+| success
+| sample returned January 2006; also visited asteroid 5535 Annefrank
+| File:Stardust - Concepcao artistica.jpg|50px
+| COSPAR|1999-003A
+
+|- style="background:#EFE7B8"
+| rowspan="2" | 9P/Tempel
+| colspan="2" | ''Deep Impact (spacecraft)|Deep Impact''
+| flagicon|USA NASA
+| July 2005
+| flyby
+| success
+|
+| File:Deep Impact.jpg|50px
+| rowspan="2" | COSPAR|2005-001A
+
+|- style="background:#EFE7B8"
+| &nbsp;&nbsp;&nbsp;
+| ''Deep Impact (spacecraft)|Impactor''
+| flagicon|USA NASA
+| 4 July 2005
+| impactor
+| success
+|
+|
+|- style="background:#F2F2F2"
+| 73P/Schwassmann-Wachmann|73P/<br />Schwassmann-Wachmann
+| colspan="2" | ''CONTOUR''
+| flagicon|USA NASA
+| 2006
+| flyby
+| failure
+| contact lost shortly after launch
+| File:CONTOUR pre-launch.jpg|50px
+| COSPAR|2002-034A
+
+|- style="background:#F2F2F2"
+| 6P/d'Arrest
+| colspan="2" | ''CONTOUR''
+| flagicon|USA NASA
+| 2008
+| flyby
+| failure
+| contact lost shortly after launch
+| File:CONTOUR pre-launch.jpg|50px
+| COSPAR|2002-034A
+
+|- style="background:#EFE7B8"
+| 103P/Hartley
+| colspan="2" | ''Deep Impact (spacecraft)|Deep Impact'' (''redesignated EPOXI'')
+| flagicon|USA NASA
+| 4 November 2010
+| flyby
+| success
+| mission extension (target changed from comet Boethin)
+| File:Deep Impact.jpg|50px
+| COSPAR|2005-001A
+
+|- style="background:#EFE7B8"
+| 9P/Tempel
+| colspan="2" | ''Stardust (spacecraft)|Stardust'' (''redesignated Stardust (spacecraft)#New Exploration of Tempel 1 (NExT)|NExT'')
+| flagicon|USA NASA
+| 14 February 2011
+| flyby
+| success
+| mission extension
+| File:Stardust - Concepcao artistica.jpg|50px
+| COSPAR|1999-003A
+
+|- style="background:#EFE7B8"
+| rowspan="2" | 67P/Churyumov–Gerasimenko|67P/Churyumov–<br>Gerasimenko
+| colspan="2" | ''Rosetta (spacecraft)|Rosetta''
+| flagicon|EUR European Space Agency|ESA
+| 6 August 2014 – 30 September 2016 
+| orbiter
+| success 
+| flybys of asteroids 2867 Šteins and 21 Lutetia completed; intentionally impacted at end of mission
+| File:Rosetta.jpg|50px
+| COSPAR|2004-006A
+
+|- style="background:#EFE7B8"
+| &nbsp;&nbsp;&nbsp;
+| ''Philae (spacecraft)|Philae''
+| flagicon|EUR European Space Agency|ESA
+| 12 November 2014 – 9 July 2015
+| lander
+| success
+|
+| File:Philae_lander_(transparent_bg).png|50px
+| COSPAR|2004-006C
+
+|-
+| rowspan="2" | 67P/Churyumov–Gerasimenko|67P/Churyumov–<br>Gerasimenko
+| colspan="2" | CAESAR (spacecraft)|CAESAR
+| flagicon|USA NASA/<br />flagicon|JPN Japan Aerospace Exploration Agency|JAXA
+| 2024 August
+| sample return
+| under study
+| finalist for New Frontiers 4 competition
+| File:Caesar-sample_return_concept_2018.png|50px
+|  <ref>http://caesar.cornell.edu/</ref><ref>https://www.nasa.gov/press-release/nasa-invests-in-concept-development-for-missions-to-comet-saturn-moon-titan</ref>
+
+|}
+
+ Kuiper Belt probes 
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! style="text-align:left" | Target
+! colspan="2" style="text-align:left" | Spacecraft
+! style="text-align:left" | Organization
+! style="text-align:left" | Date
+! style="text-align:left" | Type
+! style="text-align:left" | Status
+! style="text-align:left" | Notes
+!  style="width:50px; text-align:left;"| Image
+!  style="width:50px; text-align:left;"| Ref
+
+|- style="background:#CCFFD9"
+| nobr|2014 MU69
+| colspan="2" | ''New Horizons''
+| flagicon|USA NASA
+| 1 January 2019 
+| flyby
+| success
+| extended mission after Pluto encounter, currently sending back data from flyby; may flyby other Kuiper Belt object in 2020s.<ref name="Foust20181231">cite news |last=Foust |first=Jeff |date=December 31, 2018 |title=New Horizons team looking ahead to another flyby |url=https://spacenews.com/new-horizons-team-looking-ahead-to-another-flyby/ |newspaper=SpaceNews |accessdate=2019-01-07</ref>
+| File:New Horizons Transparent.png|50px
+| COSPAR|2006-001A
+
+|}
+
+Probes leaving the Solar System
+see also|List of artificial objects leaving the Solar System
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! style="text-align:left" | Spacecraft
+! style="text-align:left" | Organization
+! style="text-align:left" | Notes
+! style="text-align:left" | Image
+! style="text-align:left" | Ref
+
+|- style="background:#EFE7B8"
+| style="width:15%;"| ''Pioneer 10''
+| style="width:10%;"| flagicon|USA NASA
+| Left Jupiter in December 1973. Mission ended March 1997. Last contact January 23, 2003. Craft now presumed dead; no further contact attempts planned.
+| style="width:50px;"| File:Pioneer 10 at Jupiter.gif|50px
+| style="width:50px;"| COSPAR|1972-012A
+
+|- style="background:#EFE7B8"
+| ''Pioneer 11''
+| flagicon|USA NASA
+| Left Saturn in September 1979. Last contact September 1995. The craft's antenna cannot be maneuvered to point to Earth, and it is not known if it is still transmitting. No further contact attempts are planned.
+| File:Pioneer 11 at Saturn.gif|50px
+| COSPAR|1973-019A
+
+|- style="background:#CCFFD9"
+| ''Voyager 1''
+| flagicon|USA NASA
+| Left Saturn in November 1980. Still in regular contact and transmitting scientific data. Contact hoped to be maintained until at least 2020.
+| File:Voyager.jpg|50px
+| COSPAR|1977-084A
+
+|- style="background:#CCFFD9"
+| ''Voyager 2''
+| flagicon|USA NASA
+| Left Neptune in August 1989. Still in regular contact and transmitting scientific data. Contact hoped to be maintained until at least 2020.
+| File:Voyager.jpg|50px
+| COSPAR|1977-076A
+
+|- style="background:#CCFFD9"
+| ''New Horizons''
+| flagicon|USA NASA
+| Left Pluto July 14, 2015; will flyby Kuiper belt object nobr|2014 MU69 on January 1, 2019 when it is 43.4 AU from the Sun.
+| File:New Horizons Transparent.png|50px
+| COSPAR|2006-001A
+
+|}
+
+Other probes to leave Earth orbit
+For completeness, this section lists probes that have left (or will leave) Earth orbit, but are not primarily targeted at any of the above bodies.
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+! colspan="2" style="text-align:left" | Spacecraft
+! style="text-align:left" | Organization
+! style="text-align:left" | Date
+! style="text-align:left" | Location
+! style="text-align:left" | Status
+! style="text-align:left" | Notes
+! style="text-align:left" | Image
+! style="text-align:left" | Ref
+
+|- style="background:#EFE7B8"
+| style="width:15%;" colspan="2"| ''WMAP''
+| style="width:10%;"| flagicon|USA NASA
+| style="width:16%;"| 30 June 2001 (launch) – to October 2010 (end)<ref name="graveyard"/>
+| style="width:15%;"| Sun-Earth Lagrangian point|L2 point
+| style="width:10%;"| success
+| cosmic background radiation observations; sent to graveyard orbit after 9 years of use.<ref name="graveyard">cite web|title=MISSION COMPLETE! WMAP FIRES ITS THRUSTERS FOR THE LAST TIME|url=http://news.discovery.com/space/mission-complete-wmap-fires-its-thrusters-for-the-last-time.html</ref> <!--still active (as of April 2008<ref>[http://cerncourier.com/cws/article/cern/33800 "WMAP 5-year results reveal neutrinos and tighten inflation"], CERN Courier, April 16, 2008</ref>)-->
+| style="width:50px;"| File:WMAP2.jpg|50px
+| style="width:50px;"| COSPAR|2001-027A
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''Spitzer Space Telescope''
+| flagicon|USA NASA
+| 25 August 2003 (launch) – still active (as of September, 2017)
+| Earth-trailing heliocentric orbit
+| success
+| infrared astronomy
+| 
+| COSPAR|2003-038A
+
+|- style="background:#EFE7B8"
+|  colspan="2" | ''Chang'e 2''
+| flagicon|China CNSA
+| 25 August 2011(arrive) to 15 April 2012(end)
+| Sun-Earth Lagrangian point|L2 point
+| success
+| Left the point on 15 April 2012, then flew by asteroid 4179 Toutatis
+| 
+| COSPAR|2010-050A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Kepler Mission|Kepler''
+| flagicon|USA NASA
+| 6 March 2009 (launch)
+| Earth-trailing heliocentric orbit
+| completed (2009-2018)
+| search for extrasolar planets
+| File:Kepler Space Telescope.png|50px
+| COSPAR|2009-011A <ref>cite web |url=http://kepler.nasa.gov/ |title=Kepler – A Search for Habitable Planets |author=Ames Research Center |publisher=NASA |access-date=2016-08-27</ref>
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Herschel Space Observatory''
+| flagicon|EUR European Space Agency|ESA
+| 14 May 2009 (launch)
+| Lissajous orbit around Sun-Earth Lagrangian point|L2 point
+| completed
+| study of formation and evolution of galaxies and stars
+| File:Herschel Space Observatory.jpg|50px
+| COSPAR|2009-026A
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''Planck (spacecraft)|Planck''
+| flagicon|EUR European Space Agency|ESA
+| 14 May 2009 (launch)
+| Lissajous orbit around Sun-Earth Lagrangian point|L2 point
+| completed (2009-2013)
+| cosmic microwave background observations
+| 
+| COSPAR|2009-026B
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''IKAROS''
+| flagicon|JPN Japan Aerospace Exploration Agency|JAXA
+| rowspan="2" | 20 May 2010 (launch)
+| rowspan="2" | Earth-Venus transfer heliocentric orbit
+| operational
+| solar sail technology development / interplanetary space exploration
+| File:IKAROS solar sail.jpg|50px
+| COSPAR|2010-020E <ref name="jaxa-ikaros"/>
+
+|- style="background:#F2F2F2"
+| colspan="2" | ''Shin'en (spacecraft)|Shin'en<br>(UNITEC-1)''
+| flagicon|JPN UNISEC
+| failure
+| technology development; contact lost shortly after launch<ref name="newscientist.com"/>
+| 
+| COSPAR|2010-020F <ref name="unisec1"/>
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''Gaia (spacecraft)|Gaia''
+| flagicon|EUR European Space Agency|ESA
+| 19 December 2013 (launch)
+| Lissajous orbit around Sun-Earth Lagrangian point|L2 point
+| success
+| astrometry mission to measure the position and motion of 1 billion stars
+| 
+| COSPAR|2013-074A <ref>cite web |url=http://sci.esa.int/science-e/www/area/index.cfm?fareaid=26 |title=ESA Science & Technology: Gaia |publisher=European Space Agency |date= |access-date=2012-11-30</ref>
+
+|- style="background:#CCFFD9"
+| colspan="2" | ''Shin'en 2''
+| flagicon|JPN Kyushu Institute of Technology
+| rowspan="2" | 3 December 2014 (launch)
+| rowspan="2" | heliocentric orbit
+| success
+| amateur radio satellite / material demonstration
+| 
+| COSPAR|2014-076B<ref>cite web |url=http://www.tobata.kyutech.ac.jp/node/1798 |title=世界初!「しんえん２」が地球から２３０万㎞離れた深宇宙との通信に成功!! |publisher=Kyushu Institute of Technology|Kyutech |access-date=2017-06-13 |language=Japanese</ref>
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''DESPATCH (spacecraft)|ARTSAT2:DESPATCH''
+| flagicon|JPN Tama Art University
+| success
+| deep space artwork / amateur radio satellite
+| 
+| COSPAR|2014-076C<ref name="DESPATCH">cite web |url=http://space.skyrocket.de/doc_sdat/despatch.htm |title=DESPATCH (ARTSAT 2, FO 81, Fuji-OSCAR 81) |publisher=Gunter's Space Page |date= |access-date=2017-06-13</ref>
+
+|- style="background:#EFE7B8"
+| colspan="2" | ''LISA Pathfinder''
+| flagicon|EUR European Space Agency|ESA
+| 3 December 2015 (launch)<ref>cite web |url=http://sci.esa.int/science-e/www/area/index.cfm?fareaid=40 |title=ESA Science & Technology: LISA Pathfinder |publisher=European Space Agency |date= |access-date=2012-08-20</ref> – 30 June 2017
+| Halo orbit around Sun-Earth Lagrangian point|L1 point
+| success
+| test mission for proposed Laser Interferometer Space Antenna|LISA gravitational wave observatory
+| File:LISA_Pathfinder_(14257775333).jpg|50px
+| COSPAR|2015-070A <ref>cite web |url=http://www.esa.int/esaSC/120397_index_0_m.html |title=Space Science - LISA Pathfinder overview |publisher=European Space Agency |date=2012-06-11 |access-date=2012-11-30</ref> 
+
+|-
+| colspan="2" | ''James Webb Space Telescope''
+| flagicon|USA NASA <br />flagicon|EUR European Space Agency|ESA<br />flagicon|Canada Canadian Space Agency|CSA
+| March 2021 (launch)
+| Sun-Earth Lagrangian point|L2 point
+| planned
+| infrared astronomy
+| File:James Webb Space Telescope.jpg|50px
+| <ref>cite web|url=http://www.esa.int/esaCP/SEMA3T7OY2F_index_0.html |title=ESA Portal - ESA and NASA sign agreement on James Webb Space Telescope and LISA Pathfinder |publisher=European Space Agency |date=2007-06-18 |accessdate=2012-11-30</ref>
+
+|-
+| colspan="2" | ''Euclid (spacecraft)|Euclid''
+| flagicon|EUR European Space Agency|ESA
+| Q4, 2020 (launch)<ref>cite web |url=http://sci.esa.int/euclid/45403-mission-status/ |title=Mission Status |first1= |last1= |date= |publisher=European Space Agency |access-date=November 23, 2015 </ref>
+| Halo orbit around Sun-Earth Lagrangian point|L2 point
+| planned
+| measure the rate of expansion of the Universe through time to better understand dark energy and dark matter
+| File:Euclid ESA376594.jpg|50px
+| <ref>cite web |url=http://sci.esa.int/science-e/www/area/index.cfm?fareaid=102 |title=ESA Science & Technology: Euclid |publisher=European Space Agency |date= |access-date=2012-11-30</ref>
+
+|}
+
+Cancelled probes and missions
+{| class="wikitable" style="margin: 1em auto 1em auto; width:90%; font-size:95%;"
+!  style="text-align:left; width:12%;"| Target
+! colspan="2"  style="text-align:left; width:15%;"| Spacecraft
+!  style="text-align:left; width:10%;"| Organization
+!  style="text-align:left; width:8%;"| Date
+!  style="text-align:left; width:10%;"| Type
+!  style="text-align:left; width:10%;"| Status
+!  style="text-align:left; width:22%;"| Notes
+!  style="text-align:left; width:7%;"| Image
+!  style="text-align:left; width:6%;"| Ref
+
+|-
+| Mercury
+| colspan="2" | ''BepiColombo#Mercury Surface Element|BepiColombo Mercury Surface Element''
+| flagicon|EUR European Space Agency|ESA
+|
+| lander
+| cancelled
+| 
+|
+|
+|-
+| Moon
+| colspan="2" | ''LUNAR-A''
+| flagicon|JPN JAXA
+|
+| orbiter, penetrators
+| cancelled
+| originally scheduled for 1995, cancelled 2007
+|
+| COSPAR|LUNAR-A
+
+|-
+| Mars
+| colspan="2" | ''Mars Surveyor 2001 Lander''
+| flagicon|USA NASA
+| 2001
+| lander
+| cancelled
+| spacecraft bus repurposed for Phoenix (spacecraft)|Phoenix lander
+| File:Slander med.jpg|50px
+| COSPAR|MS2001L
+
+|-
+| Mars 
+| colspan="2" | ''Beagle 2: Evolution'' 
+| 
+| 2004
+| lander 
+| cancelled
+| 
+|
+|
+|-
+| Mars
+| colspan="2" | ''NetLander''
+| flagicon|FRA CNES/<br /> flagicon|EUR European Space Agency|ESA
+|
+| lander
+| cancelled
+|
+|
+| <ref>cite web |url=http://smsc.cnes.fr/NETLANDER/ |title=Netlander |publisher=Smsc.cnes.fr |date=2005-06-23 |accessdate=2012-11-30 |archive-url=https://web.archive.org/web/20130115001408/http://smsc.cnes.fr/NETLANDER/ |archive-date=2013-01-15 |dead-url=yes |df= </ref>
+
+|-
+| Mars
+| colspan="2" | ''Mars Telecommunications Orbiter''
+| flagicon|USA NASA
+| 2010
+| orbiter
+| cancelled
+| Mission could be fulfilled by the proposed Mars 2022 orbiter
+| File:PIA07500.jpg|50px
+| <ref>[http://aerospacescholars.jsc.nasa.gov/HAS/cirr/em/8/12.cfm ] webarchive |url=https://web.archive.org/web/20070419131622/http://aerospacescholars.jsc.nasa.gov/HAS/cirr/em/8/12.cfm |date=April 19, 2007 </ref>
+
+|-
+| Phobos, Deimos (moon)|Deimos
+| colspan="2" | ''Aladdin''
+| flagicon|USA NASA
+|
+| sample return
+| not selected
+|
+|
+| <ref>cite web|url=http://stardust.jpl.nasa.gov/news/news38.html |title=Stardust &#124; JPL &#124; NASA |publisher=Stardust.jpl.nasa.gov |date= |accessdate=2012-11-30</ref>
+
+|-
+| Europa
+| colspan="2" | ''Europa Orbiter''
+| flagicon|USA NASA
+|
+| orbiter
+| cancelled
+|
+| <!--  Commented out: File:JEO at Europa.jpg|50px|deletable image-caption|Friday, 11 February 2011 -->
+| <ref>cite web |url=http://sse.jpl.nasa.gov/scitech/display.cfm?ST_ID=286 |title=Solar System Exploration: Science & Technology: Science Features: Europa and Titan: Oceans in the Outer Solar System? |publisher=Sse.jpl.nasa.gov |date=2011-02-21 |accessdate=2012-11-30 |deadurl=yes |archiveurl=https://web.archive.org/web/20120211142414/http://sse.jpl.nasa.gov/scitech/display.cfm?ST_ID=286 |archivedate=2012-02-11 |df= </ref>
+
+|-
+| Europa (moon)|Europa, Ganymede (moon)|Ganymede, Callisto (moon)|Callisto
+| colspan="2" | ''Jupiter Icy Moons Orbiter''
+| flagicon|USA NASA
+| 2021
+| orbiter
+| cancelled
+|
+| File:Jupiter Icy Moons Orbiter 2.jpg|50px
+| <ref name=prometheus>cite web|url=http://trs-new.jpl.nasa.gov/dspace/bitstream/2014/38185/1/05-3441.pdf |title=Prometheus Project – Final Report |publisher=NASA |author=Jet Propulsion Laboratory |date=2005-10-01 |access-date=2016-08-27 |deadurl=yes |archiveurl=https://web.archive.org/web/20160304221142/http://trs-new.jpl.nasa.gov/dspace/bitstream/2014/38185/1/05-3441.pdf |archivedate=2016-03-04 |df= </ref>
+
+|-
+| Pluto
+| colspan="2" | ''Pluto Fast Flyby''
+| flagicon|USA NASA
+| 2010
+| flyby
+| cancelled
+| Re-proposed as Pluto Kuiper Express
+|
+|
+|-
+| Pluto
+| colspan="2" | ''Pluto Kuiper Express|Pluto Kuiper<br />Express''
+| flagicon|USA NASA
+| 2012
+| flyby
+| cancelled
+| Replaced by New Horizons
+| File:Pluto express.jpg|50px
+| COSPAR|PLUTOKE
+
+|-
+| 4660 Nereus
+| colspan="2" | ''Hayabusa''
+| flagicon|JPN Institute of Space and Astronautical Science|ISAS
+|
+| sample return
+| cancelled
+| rerouted to 25143 Itokawa
+| File:Hayabusa(Muses-C) sampling.jpg|50px
+| COSPAR|2003-019A
+
+|-
+| 3840 Mimistrobell|3840&nbsp;Mimistrobell
+| colspan="2" | ''Rosetta (spacecraft)|Rosetta''
+| flagicon|EUR European Space Agency|ESA
+| 2006
+| flyby
+| cancelled
+| rerouted
+| File:Rosetta.jpg|50px
+| COSPAR|2004-006A
+
+|-
+| 4979 Otawara
+| colspan="2" | ''Rosetta (spacecraft)|Rosetta''
+| flagicon|EUR European Space Agency|ESA
+| 2006
+| flyby
+| cancelled
+| rerouted
+| File:Rosetta.jpg|50px
+| COSPAR|2004-006A
+
+|-
+| 4660 Nereus
+| colspan="2" | ''Near Earth Asteroid Prospector''
+| SpaceDev
+|
+| sample return
+| cancelled
+| 
+| 
+| <ref>[http://www.spacedev.com/newsite/templates/subpage3.php?pid=191&subNav=11&subSel=3 ] webarchive |url=https://web.archive.org/web/20070206110258/http://www.spacedev.com/newsite/templates/subpage3.php?pid=191&subNav=11&subSel=3 |date=February 6, 2007 </ref>
+
+|-
+| 46P/Wirtanen
+| colspan="2" | ''Rosetta (spacecraft)|Rosetta''
+| flagicon|EUR European Space Agency|ESA
+| 2011
+| orbiter
+| cancelled
+| rerouted to 67P/Churyumov–Gerasimenko
+| File:Rosetta.jpg|50px
+| COSPAR|2004-006A
+
+|}
+
+See also
+Portal|Spaceflight|Solar system
+*Discovery and exploration of the Solar System
+*Robotic spacecraft
+*Satellites
+*Sample return mission
+*Timeline of Solar System exploration
+
+References
+Reflist|30em
+
+External links
+*[https://web.archive.org/web/20090425172653/http://planetary.org/explore/topics/cassini_huygens/tour.html Planetary Society: Cassini’s Tour of the Saturn System]
+
+Planetary exploration
+Solar System probes
+Space exploration lists and timelines
+Solar System
+
+DEFAULTSORT:Solar System Probes
+Category:Lists of spacecraft
+Category:Discovery and exploration of the Solar System|*
+Category:Spaceflight timelines
+Category:Lists of space missions

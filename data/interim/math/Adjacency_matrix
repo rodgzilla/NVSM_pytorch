@@ -1,0 +1,137 @@
+In graph theory and computer science, an adjacency matrix is a square matrix used to represent a finite Graph (discrete mathematics)|graph. The elements of the matrix indicate whether pairs of vertices are adjacent or not in the graph.
+
+In the special case of a finite simple graph, the adjacency matrix is a (0,1)-matrix with zeros on its diagonal. If the graph is undirected, the adjacency matrix is symmetric matrix|symmetric. 
+The relationship between a graph and the eigenvalues and eigenvectors of its adjacency matrix is studied in spectral graph theory.
+
+The adjacency matrix should be distinguished from the incidence matrix for a graph, a different matrix representation whose elements indicate whether vertex–edge pairs are incident or not, and degree matrix which contains information about the degree (graph theory)|degree of each vertex (graph theory)|vertex.
+
+Definition
+For a simple graph with vertex set ''V'', the adjacency matrix is a square abs|''V''&nbsp;×&nbsp;abs|''V'' matrix ''A'' such that its element ''A''<sub>''ij''</sub> is one when there is an edge from vertex ''i'' to vertex ''j'', and zero when there is no edge.<ref>citation|title=Algebraic Graph Theory|edition=2nd|first=Norman|last=Biggs|series=Cambridge Mathematical Library|publisher=Cambridge University Press|year=1993|at=Definition 2.1, p.&nbsp;7.</ref> The diagonal elements of the matrix are all zero, since edges from a vertex to itself (Loop (graph theory)|loops) are not allowed in simple graphs. It is also sometimes useful in algebraic graph theory to replace the nonzero elements with algebraic variables.<ref>citation
+ | last = Harary | first = Frank | authorlink = Frank Harary
+ | journal = SIAM Review
+ | mr = 0144330
+ | pages = 202–210
+ | title = The determinant of the adjacency matrix of a graph
+ | volume = 4
+ | issue = 3 | year = 1962
+ | doi=10.1137/1004057| bibcode = 1962SIAMR...4..202H .</ref>
+
+The same concept can be extended to multigraphs and graphs with loops by storing the number of edges between each two vertices in the corresponding matrix element, and by allowing nonzero diagonal elements. Loops may be counted either once (as a single edge) or twice (as two vertex-edge incidences), as long as a consistent convention is followed. Undirected graphs often use the latter convention of counting loops twice, whereas directed graphs typically use the former convention.
+
+=Of a bipartite graph=
+<!-- Adjacency matrix of a bipartite graph & Biadjacency matrix redirect here -->
+The adjacency matrix ''A'' of a bipartite graph whose two parts have ''r'' and ''s'' vertices can be written in the form 
+: <math>A = \begin{pmatrix} 0_{r,r} & B \\ B^T & 0_{s,s} \end{pmatrix},</math>
+where ''B'' is an nowrap|''r'' × ''s'' matrix, and 0<sub>''r'',''r''</sub> and 0<sub>''s'',''s''</sub> represent the nowrap|''r'' × ''r'' and nowrap|''s'' × ''s'' zero matrices. In this case, the smaller matrix ''B'' uniquely represents the graph, and the remaining parts of ''A'' can be discarded as redundant. ''B'' is sometimes called the biadjacency matrix.
+
+Formally, let nowrap|1=''G'' = (''U'', ''V'', ''E'') be a bipartite graph with parts nowrap|1=''U'' = {''u''<sub>1</sub>, …, ''u''<sub>''r''</sub>} and nowrap|1=''V'' = {''v''<sub>1</sub>, …, ''v''<sub>''s''</sub>}. The ''biadjacency matrix'' is the nowrap|''r'' × ''s'' 0–1 matrix ''B'' in which nowrap|1=''b''<sub>''i'',''j''</sub> = 1 if and only if nowrap|(''u''<sub>''i''</sub>, ''v''<sub>''j''</sub>) ∈ ''E''. 
+
+If ''G'' is a bipartite multigraph or weighted graph then the elements ''b''<sub>''i'',''j''</sub> are taken to be the number of edges between the vertices or the weight of the edge nowrap|(''u''<sub>''i''</sub>, ''v''<sub>''j''</sub>), respectively.
+
+=Variations=
+An nowrap|(''a'', ''b'', ''c'')-''adjacency matrix'' ''A'' of a simple graph has ''A''<sub>''i'',''j''</sub> = ''a'' if (''i'', ''j'') is an edge, ''b'' if it is not, and ''c'' on the diagonal. The Seidel adjacency matrix is a nowrap|(−1, 1, 0)-''adjacency matrix''. This matrix is used in studying strongly regular graphs and two-graphs.<ref>cite journal |last=Seidel |first=J. J. |title=Strongly Regular Graphs with (−1, 1, 0) Adjacency Matrix Having Eigenvalue 3 |journal=Linear Algebra and its Applications|Lin. Alg. Appl. |volume=1 |issue=2 |pages=281–298 |year=1968 |doi=10.1016/0024-3795(68)90008-6 </ref>
+
+The distance matrix has in position (''i'', ''j'') the distance between vertices ''v''<sub>''i''</sub> and ''v''<sub>''j''</sub>. The distance is the length of a shortest path connecting the vertices. Unless lengths of edges are explicitly provided, the length of a path is the number of edges in it. The distance matrix resembles a high power of the adjacency matrix, but instead of telling only whether or not two vertices are connected (i.e., the connection matrix, which contains boolean values), it gives the exact distance between them.
+
+Examples
+=Undirected graphs=
+The convention followed here (for undirected graphs) is that each edge adds 1 to the appropriate cell in the matrix, and each loop adds 2.<ref>cite conference |url=https://books.google.com/books?id=wp7XsCAm_9EC&pg=PA63 |title=Expander graphs and codes |last1=Shum |first1=Kenneth |last2=Blake |first2=Ian |date=2003-12-18 |publisher=American Mathematical Society |book-title=Volume 68 of DIMACS series in discrete mathematics and theoretical computer science |pages=63 |conference=Algebraic Coding Theory and Information Theory: DIMACS Workshop, Algebraic Coding Theory and Information Theory |id= </ref> This allows the degree of a vertex to be easily found by taking the sum of the values in either its respective row or column in the adjacency matrix.
+
+{|class="wikitable" style="text-align: center; width: 700px; height: 650px;"
+!Labeled graph
+!Adjacency matrix
+|-
+|Image:6n-graph2.svg|200px
+|<math>\begin{pmatrix}
+2 & 1 & 0 & 0 & 1 & 0\\
+1 & 0 & 1 & 0 & 1 & 0\\
+0 & 1 & 0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0 & 1 & 1\\
+1 & 1 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 1 & 0 & 0
+\end{pmatrix}</math>
+<br>Coordinates are 1–6.
+|-
+|File:Symmetric group 4; Cayley graph 1,5,21 (Nauru Petersen); numbers.svg|250px
+<br>Nauru graph
+|File:Symmetric group 4; Cayley graph 1,5,21 (adjacency matrix).svg|250px
+<br>Coordinates are 0–23.
+<br>White fields are zeros, colored fields are ones.
+|}
+
+=Directed graphs=
+In directed graphs, the Directed graph#Indegree and outdegree|in-degree of a vertex can be computed by summing the entries of the corresponding column, and the out-degree can be computed by summing the entries of the corresponding row.
+{|class="wikitable" style="text-align: center; width: 700px; height: 400px;"
+!Labeled graph
+!Adjacency matrix
+|-
+|File:Symmetric group 4; Cayley graph 4,9; numbers.svg|250px
+<br>Directed graph|Directed Cayley graph of Symmetric group|S<sub>4</sub>
+|File:Symmetric group 4; Cayley graph 4,9 (adjacency matrix).svg|250px
+<br>Coordinates are 0–23.
+<br>As the graph is directed, the matrix is not Symmetric matrix|symmetric.
+|}
+
+=Trivial graphs=
+The adjacency matrix of a complete graph contains all ones except along the diagonal where there are only zeros. The adjacency matrix of an empty graph is a zero matrix.
+
+Properties
+=Spectrum=
+The adjacency matrix of an undirected simple graph is symmetric matrix|symmetric, and therefore has a complete set of real number|real eigenvalues and an orthogonal eigenvector basis. The set of eigenvalues of a graph is the spectrum of the graph.<ref>harvtxt|Biggs|1993, Chapter 2 ("The spectrum of a graph"), pp.&nbsp;7–13.</ref> It is common to denote the eigenvalues by <math>\lambda_1\geq \lambda_2\geq \cdots \geq \lambda_n.</math>
+
+The greatest eigenvalue <math>\lambda_1</math> is bounded above by the maximum degree. This can be seen as result of the Perron–Frobenius theorem, but it can be proved easily. Let ''v'' be one eigenvector associated to <math>\lambda_1</math> and ''x'' the component in which ''v'' has maximum absolute value. Without loss of generality assume ''v''<sub>''x''</sub> is positive since otherwise you simply take the eigenvector <math>-v</math>, also associated to <math>\lambda_1</math>. Then
+
+: <math>\lambda v_x=(A v)_x=\sum_{y=1}^n A_{x,y}v_y\leq \sum_{y=1}^n A_{x,y} v_x = v_x \deg(x).</math>
+
+For ''d''-regular graphs, ''d'' is the first eigenvalue of ''A'' for the vector nowrap|1=''v'' = (1, …, 1) (it is easy to check that it is an eigenvalue and it is the maximum because of the above bound). The multiplicity of this eigenvalue is the number of connected components of ''G'', in particular <math>\lambda_1>\lambda_2</math> for connected graphs. It can be shown that for each eigenvalue <math>\lambda_i</math>, its opposite <math>-\lambda_i=\lambda_{n+1-i}</math> is also an eigenvalue of ''A'' if ''G'' is a bipartite graph.cn|date=March 2015 In particular −''d'' is an eigenvalue of bipartite graphs.
+
+The difference <math>\lambda_1-\lambda_2</math> is called the spectral gap and it is related to the Expander graph|expansion of ''G''. It is also useful to introduce the spectral radius of <math>A</math> denoted by <math>\lambda(G) = \max_{|\lambda_i| < d} |\lambda_i|</math>. This number is bounded by <math>\lambda(G)\geq 2\sqrt{d-1}-o(1)</math>. This bound is tight in the Ramanujan graphs, which have applications in many areas.
+
+=Isomorphism and invariants=
+Suppose two directed or undirected graphs ''G''<sub>1</sub> and ''G''<sub>2</sub> with adjacency matrices ''A''<sub>1</sub> and ''A''<sub>2</sub> are given. ''G''<sub>1</sub> and ''G''<sub>2</sub> are graph isomorphism|isomorphic if and only if there exists a permutation matrix ''P'' such that
+: <math>P A_1 P^{-1} = A_2.</math> 
+In particular, ''A''<sub>1</sub> and ''A''<sub>2</sub> are Similar (linear algebra)|similar and therefore have the same Minimal polynomial (linear algebra)|minimal polynomial, characteristic polynomial, eigenvalues, determinant and Trace (matrix)|trace. These can therefore serve as isomorphism invariants of graphs. However, two graphs may possess the same set of eigenvalues but not be isomorphic.<ref>Chris Godsil|Godsil, Chris; Gordon Royle|Royle, Gordon ''Algebraic Graph Theory'', Springer (2001), ISBN|0-387-95241-1, p.164</ref> Such linear operators are said to be isospectral.
+
+=Matrix powers=
+If ''A'' is the adjacency matrix of the directed or undirected graph ''G'', then the matrix ''A''<sup>''n''</sup> (i.e., the matrix multiplication|matrix product of ''n'' copies of ''A'') has an interesting interpretation: the element nowrap|(''i'', ''j'') gives the number of (directed or undirected) Path (graph theory)|walks of length ''n'' from vertex ''i'' to vertex ''j''. If ''n'' is the smallest nonnegative integer, such that for some ''i'', ''j'', the element nowrap|(''i'', ''j'') of ''A''<sup>''n''</sup> is positive, then ''n'' is the distance between vertex ''i'' and vertex ''j''. This implies, for example, that the number of triangles in an undirected graph ''G'' is exactly the Trace (linear algebra)|trace of ''A''<sup>3</sup> divided by 6. Note that the adjacency matrix can be used to determine whether or not the graph is Connectivity (graph theory)|connected.
+
+Data structures
+The adjacency matrix may be used as a data structure for the Graph (abstract data type)|representation of graphs in computer programs for manipulating graphs. The main alternative data structure, also in use for this application, is the adjacency list.<ref>harvtxt|Goodrich|Tamassia|2015, p.&nbsp;361: "There are two data structures that people often use to represent graphs, the adjacency list and the adjacency matrix."</ref><ref name="clrs">citation |authorlink=Thomas H. Cormen |first=Thomas H. |last=Cormen |authorlink2=Charles E. Leiserson |first2=Charles E. |last2=Leiserson |authorlink3=Ronald L. Rivest |first3=Ronald L. |last3=Rivest |authorlink4=Clifford Stein |first4=Clifford |last4=Stein |year=2001 |title=Introduction to Algorithms |edition=Second |publisher=MIT Press and McGraw-Hill |isbn=0-262-03293-7 |chapter=Section 22.1: Representations of graphs |pages=527–531 .</ref>
+
+Because each entry in the adjacency matrix requires only one bit, it can be represented in a very compact way, occupying only abs|''V'' <sup>2</sup>/8 bytes to represent a directed graph, or (by using a packed triangular format and only storing the lower triangular part of the matrix) approximately abs|''V'' <sup>2</sup>/16 bytes to represent an undirected graph. Although slightly more succinct representations are possible, this method gets close to the information-theoretic lower bound for the minimum number of bits needed to represent all mvar|n-vertex graphs.<ref>citation
+ | last = Turán | first = György
+ | doi = 10.1016/0166-218X(84)90126-4
+ | issue = 3
+ | journal = Discrete Applied Mathematics
+ | mr = 749658
+ | pages = 289–294
+ | title = On the succinct representation of graphs
+ | volume = 8
+ | year = 1984.</ref> For storing graphs in text files, fewer bits per byte can be used to ensure that all bytes are text characters, for instance by using a Base64 representation.<ref>citation|first1=Brendan | last1=McKay | authorlink = Brendan McKay |title=Description of graph6 and sparse6 encodings|url=http://cs.anu.edu.au/~bdm/data/formats.txt.</ref>
+Besides avoiding wasted space, this compactness encourages locality of reference.
+However, for a large sparse graph, adjacency lists require less storage space, because they do not waste any space to represent edges that are ''not'' present.<ref name="clrs"/><ref name="gt"/>
+
+An alternative form of adjacency matrix (which, however, requires a larger amount of space) replaces the numbers in each element of the matrix with pointers to edge objects (when edges are present) or null pointers (when there is no edge).<ref name="gt"/>
+It is also possible to store weighted graph|edge weights directly in the elements of an adjacency matrix.<ref name="clrs"/>
+
+Besides the space tradeoff, the different data structures also facilitate different operations. Finding all vertices adjacent to a given vertex in an adjacency list is as simple as reading the list, and takes time proportional to the number of neighbors. With an adjacency matrix, an entire row must instead be scanned, which takes a larger amount of time, proportional to the number of vertices in the whole graph. On the other hand, testing whether there is an edge between two given vertices can be determined at once with an adjacency matrix, while requiring time proportional to the minimum degree of the two vertices with the adjacency list.<ref name="clrs"/><ref name="gt">citation|title=Algorithm Design and Applications|first1=Michael T.|last1=Goodrich|author1-link=Michael T. Goodrich|first2=Roberto|last2=Tamassia|author2-link=Roberto Tamassia|publisher=Wiley|year=2015|page=363.</ref>
+
+See also
+* Laplacian matrix
+* Self-similarity matrix
+
+References
+reflist
+
+External links
+Commons category|Adjacency matrices of graphs
+* MathWorld|AdjacencyMatrix|Adjacency matrix
+* [http://www.x2d.org/java/projects/fluffschack.jnlp Fluffschack] &mdash; an educational Java web start game demonstrating the relationship between adjacency matrices and graphs.
+* [http://opendatastructures.org/versions/edition-0.1e/ods-java/12_1_AdjacencyMatrix_Repres.html Open Data Structures - Section 12.1 - AdjacencyMatrix: Representing a Graph by a Matrix]
+* [http://www.cafemath.fr/mathblog/article.php?page=GoodWillHunting.php Café math : Adjacency Matrices of Graphs] : Application of the adjacency matrices to the computation generating series of walks.
+
+Graph representations
+DEFAULTSORT:Adjacency Matrix
+Category:Algebraic graph theory
+Category:Matrices
+Category:Graph data structures

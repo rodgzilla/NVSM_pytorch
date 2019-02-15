@@ -1,0 +1,137 @@
+Live electronic music  (also known as live electronics) is a form of music that can include traditional electronic sound-generating devices, modified electric musical instruments, hacked sound generating technologies, and computers. Initially the practice developed in reaction to sound-based composition for fixed media such as musique concrète, electronic music and early computer music. Musical improvisation often plays a large role in the performance of this music. The timbres of various sounds may be transformed extensively using devices such as amplifiers, Electronic filter|filters, ring modulation|ring modulators and other forms of electronic circuit|circuitry harv|Sutherland|1994|loc=157. Real-time computing|Real-time generation and manipulation of audio using live coding is now commonplace.
+
+History
+
+=1800s–1940s=
+
+Early electronic instruments
+File:Telharmonium-01 cropped.png|260 px|thumbnail|left|This Telharmonium console (likely pictured in the late 1890s) is an early electronic organ by Thaddeus Cahill, and one of the first electronic instruments used for live performance.
+Early electronic instruments intended for live performance, such as Thaddeus Cahill's Telharmonium (1897) and instruments developed between the two world wars, such as the Theremin (1919), Spharophon (1924), ondes Martenot (1928), and the Trautonium (1929), may be cited as antecedents harv|Manning|2013|loc=157, but were intended simply as new means of sound production, and did nothing to change the nature of musical composition or performance harv|Collins|2007|loc=39.
+
+Many early compositions included these electronic instruments, though the instruments were typically used as fill-ins for standard classical instruments. An example includes composer Joseph Schillinger, who in 1929 composed ''First Airphonic Suite for Theremin and Orchestra'', which premièred with the Cleveland Orchestra with Leon Theremin as soloist.citation needed|date=March 2015 Percy Grainger, used ensembles of four or six theremins (in preference to a string quartet) for his two earliest experimental ''Free Music'' compositions (1935–37) because of the instrument's complete 'gliding' freedom of pitch (harvnb|Gillies and Pear|n.d.; harvnb|Lewis|1991|loc=chapter 4: "Program Notes"). The ondes Martenot was also used as a featured instrument in the 1930s, and composer Olivier Messiaen used it in the ''Fête des Belles Eaux'' for six ondes, written for the 1937 Exposition Internationale des Arts et Techniques dans la Vie Moderne (1937)|International World's Fair in Paris harv|Hill and Simeone|2005|loc=74–75.
+
+Cage’s ''Imaginary Landscape No. 1'' (1939) was among the earliest compositions to include an innovative use of live electronic material; it featured two variable-speed phonograph turntables and sine-tone recordings harv|Collins|2007|loc=38–39. Cage's interest in live electronics continued through the 1940s and 1950s, providing inspiration for the formation of a number of live-electronic groups in America who came to regard themselves as the pioneers of a new art form harv|Manning|2013|loc=157.
+
+=1950s–1960s=
+File:Shiraz 39.jpg|thumb|left|Stockhausen (2 September 1972 at the Shiraz Arts Festival, at the sound controls for the live-electronic work ''Mantra (Stockhausen)|Mantra''), who wrote a number of notable electronic compositions in the 1960s and 1970s in which amplification, filtering, Delay (audio effect)|tape delay, and Spatial music|spatialization was added to live instrumental performance
+In Europe, Pierre Schaeffer had attempted live generation of the final stages of his works at the first public concert of ''musique concrète'' in 1951 with limited success. However, it was in Europe at the end of the 1950s and early 1960s that the most coherent transition from studio electronic techniques to live synthesis occurred. Mauricio Kagel's ''Transición II'' (1959) combined two tape recorders for live manipulation of the sounds of piano and percussion, and beginning in 1964 Karlheinz Stockhausen entered on a period of intensive  work with live electronics with three works, ''Mikrophonie (Stockhausen)#''Mikrophonie I''|Mikrophonie I'' and ''Mixtur'' (both 1964), and ''Mikrophonie (Stockhausen)#''Mikrophonie II''|Mikrophonie II'' harv|Manning|2013|loc=157–58. While earlier live-electronic compositions, such as Cage's ''Cartridge Music'' (1960), had mainly employed amplification, Stockhausen's innovation was to add electronic transformation through filtering, which erased the distinction between instrumental and electronic music harv|Toop|2002|loc=495.
+
+During the 1960s, a number of composers believed studio-based composition, such as musique concrète, lacked elements that were central to the creation of live music, such as: spontaneity, dialogue, discovery and group interaction. Many composers viewed the development of live electronics as a reaction against "the largely technocratic and rationalistic ethos of studio processed tape music" which was devoid of the visual and theatrical component of live performance harv|Sutherland|1994|loc=157. By the 1970s, live electronics had become the primary area of innovation in electronic music harv|Simms|1986|loc=395.
+
+=1970s–1980s=
+The 1970s and 1980s were notable for contributions by electronic musician Jean Michel Jarre. The success of Oxygène|Oxygene and his large scale concerts which he performed attracted millions of people, breaking his own record for largest audience four times (harvnb|Cacciottolo|2008; harvnb|Anon.|n.d.(d).<ref>Cite web|title = Jean-Michel Jarre|url = https://www.imdb.com/name/nm0418882/bio|website = IMDb|accessdate = 2015-10-07</ref><ref>Cite web|title = Jean Michel Jarre – Composer Biography, Facts and Music Compositions|url = http://www.famouscomposers.net/jean-michel-jarre|accessdate = 2015-10-07</ref> In fact Jarre continued to break his own records up to the end of the century, with 3.5 million people attending 1998's Oxygene in Moscow harv|Everitt|2015.
+
+=1990s=
+
+Laptronica
+See also|Laptop Battle|Livetronica
+File:Farmers Manual 2002.jpg|thumb|250px|Farmers Manual 2002, performing laptronica
+
+Laptronica is a form of live electronic music or computer music in which laptops are used as musical instruments. The term is a portmanteau of "laptop computer" and electronica|"electronica". The term gained a certain degree of currency in the 1990s and is of significance due to the use of highly powerful computation being made available to musicians in highly portable form, and therefore in Concert|live performance. Many sophisticated forms of sound production, manipulation and organization (which had hitherto only been available in studios or academic institutions) became available to use in live performance, largely by younger musicians influenced by and interested in developing experimental popular music forms (harvnb|Emmerson|2007, Page needed|date=May 2013). A combination of many laptops can be used to form a laptop orchestra.
+
+Live coding
+Main|Live coding
+See also|Algorave
+File:Study in keith.ogv|thumb|right|200px|alt=Example live coding performance|Live coding example using Impromptu (programming environment)|Impromptu
+Live coding harv|Collins, McLean, Rohrhuber, and Ward|2003 (sometimes referred to  as 'on-the-fly programming' (harvnb|Wang and Cook|2004, Page needed|date=June 2013), 'just in time programming') is a programming practice centred upon the use of improvisation|improvised interactive programming. Live coding is often used to create sound and image based digital media, and is particularly prevalent in computer music, combining algorithmic composition with improvisation (harvnb|Collins|2003, Page needed|date=June 2013). Typically, the process of writing is made visible by projecting the computer screen in the audience space, with ways of visualising the code an area of active research (harvnb|McLean, Griffiths, Collins, and Wiggins|2010, Page needed|date=June 2013). There are also approaches to human live coding in improvised dance harv|Anon.|2009. Live coding techniques are also employed outside of performance, such as in producing sound for film harv|Rohrhuber|2008|loc=60–70 or audio/visual work for interactive art installations harv|Anon.|n.d.(b).
+
+Live coding is also an increasingly popular technique in programming-related lectures and conference presentations, and has been described as a "best practice" for computer science lectures by Mark Guzdial|Mark harvtxt|Guzdial|2011.
+
+Electroacoustic improvisation
+Image:Rowe Solo.jpg|thumb|right|220px|Keith Rowe (pictured in 2008) improvising with prepared guitar at a music festival in Tokyo.
+Electroacoustic improvisation (EAI) is a form of free improvisation that was originally referred to as live electronics. It has been part of the sound art world since the 1930s with the early works of John Cage (harvnb|Schrader|1991, Page needed|date=May 2013; harvnb|Cage|1960). ''Source: Music of the Avant Garde|Source'' magazine published articles by a number of leading electronic and avant-garde composers in the 1960s harv|Anon.|n.d.(a).
+
+It was further influenced by electronic and electroacoustic music and the music of American experimental music|experimental composers such as John Cage, Morton Feldman and David Tudor. British free improvisation group AMM (group)|AMM, particularly their guitarist Keith Rowe, have also played a contributing role in bringing attention to the practice.
+
+Notable works 1930s–1960s
+See also|:Category:Electronic musicians
+The following is an incomplete list, in chronological order, of early notable electronic compositions:
+*John Cage – ''Imaginary Landscape'' (1939–1952)
+* John Cage – ''Cartridge Music'' (1960)
+* Robert Ashley – ''Wolfman'' (1964), ''Lecture Series'' (1965), ''Purposeful Lady Slow Afternoon'' (1968)
+* Karlheinz Stockhausen – ''Mikrophonie (Stockhausen)|Mikrophonie I & II'' (1964 and 1965); ''Mixtur'' (1964); ''Solo (Stockhausen)|Solo'' (1966); ''Prozession'' (1967); ''Kurzwellen'' (1968); ''Spiral (Stockhausen)|Spiral'' (1968)
+* Alvin Lucier – ''Music for Solo Performer'' (1965), ''North American Time Capsule'' (1967), ''Vespers'' (1968)
+* Johannes Fritsch – ''Partita'' (1965–66) for viola, contact microphones, tape recorder, filters, and potentiometers (4 players); ''Modulation 2'' (1967), for 13 instruments and live electronics; ''Akroasis'' (1966–68) for large orchestra with jazz band, two singers, live electronics, hurdy-gurdy, music box, and newsreader
+* David Behrman – ''Wave Train'' (1967)
+* Gordon Mumma – ''Hornpipe'' (1967)
+* Steve Reich – ''Pendulum Music'' (1968)
+* Max Neuhaus – ''Drive-in Music'' (1968)
+* Larry Austin – ''Accidents'' (1968)
+* Richard Teitelbaum – ''In Tune'' (1968)
+* Louis Andriessen, ''Hoe het is'' (1969) for 52 strings and live electronics
+* Louis Andriessen, Reinbert de Leeuw, Misha Mengelberg, Peter Schat, Jan van Vlijmen – ''Reconstructie'' (1969), Morality opera for soloists, 3 mixed choirs, orchestra, and live electronics
+* George Brown – ''Splurge'' (1969)
+* Takehisa Kosugi – ''712-9374'' (1969)
+* Roger Smalley – ''Transformation I'' (1969)
+
+See also
+Commons category|Electronic music festivals
+Commons category|Live electronic music
+*List of electronic music festivals
+* Livetronica
+*New Interfaces for Musical Expression
+* PLOrk: Princeton Laptop Orchestra
+* List of music software
+
+Sources
+* wikicite|ref=harvid|Altena|2006|reference=Altena, Arie (2006). "[http://www.dnk-amsterdam.com/index.cgi?dept=2005AGENDA&article=213 Jeff Carey / Jozef van Wissem, Tetuzi Akiyama / Martin Siewert: Three Sets of Strings & Electronics in Different Combinations]". DNK Amsterdam: Concert Series for New Live Electronic and Acoustic Music in Amsterdam (press release, 27 November; Accessed 2 May 2013).
+* wikicite|ref=harvid|Anon.|2012–2015|reference=Anon. 2012–2015. "[http://djrankings.org/?about_rankings How Are the DJ Rankings Calculated?]". Osaka: DJRankings.org (accessed 5 March 2015)
+* wikicite|ref=harvid|Anon.|n.d.(a)|reference=Anon. (n.d.(a)). "[http://www.ubu.com/sound/source.html ''Source: Music of the Avant-Garde''] (list of issues with Notes "from Deep Listening's website"). UbuWeb: Sound (Accessed 2 May 2013).
+* wikicite|ref=harvid|Anon.|n.b.(b)|reference=Anon. (n.d.(b)). cite web|title=Communion by Universal Everything and Field.io: interview|url=http://www.creativeapplications.net/scripts/communion-cinder-scripts-events-special/|accessdate=5 February 2013
+* wikicite|ref=harvid|Anon.|n.d.(c)|reference=Anon. (n.d.(c)). "[http://www.livepa.org/faq/#what_is_a_Live_P.A. What Is a 'Live P.A.'?]" Livepa.org (accessed 5 March 2015).
+* wikicite|ref=harvid|Anon.|n.d.(d)|reference=Anon. (n.d.(d)). "[http://www.noiseaddicts.com/2009/08/concerts-with-record-attendance/ Concerts with Record Attendance]". Noise Addicts blog (accessed 2 March 2018).
+* wikicite|ref=harvid|Anon.|2009|reference=Anon. (2009). cite news|url=http://news.bbc.co.uk/1/hi/technology/8221235.stm|title= Tech Know: Programming, Meet Music |publisher=BBC News|accessdate=2010-03-25 | date=2009-08-28
+* wikicite|ref=harvid|Cacciottolo|2008|reference=Cacciottolo, Mario (2008). "[http://news.bbc.co.uk/2/hi/entertainment/7314713.stm Jarre Breathes Again with Oxygene]". BBC News (accessed 6 October 2015).
+* wikicite|ref=harvid|Cage|1960|reference=Cage, John (1960).''Imaginary Landscape No. 1: for Records of Constant and Variable Frequency, Large Chinese Cymbal and String Piano''. S.l.: Henmar Press; New York: Sole Selling Agents, C. F. Peters.
+* wikicite|ref=harvid|Collins|2003|reference=Collins, Nick (2003) "[https://web.archive.org/web/20140514102233/https://wiki.brown.edu/confluence/download/attachments/74258672/Collins,+Generative+Music.pdf Generative Music and Laptop Performance]", ''Contemporary Music Review'' 22, no. 4:67–79.
+* wikicite|ref=harvid|Collins|2007|reference=Collins, Nick (2007). "Live Electronic Music." In ''The Cambridge Companion to Electronic Music'', edited by Nick Collins and Julio d’Escriván, pp.&nbsp;38–54. Cambridge Companions to Music. Cambridge: Cambridge University Press. ISBN|978-0-521-68865-9; ISBN|978-0-521-86861-7.
+* wikicite|ref=harvid|Collins, MvLean, Rohrgruber, and Ward|2003|reference=Collins, Nick, A. McLean, J. Rohrhuber, and A. Ward (2003), "[http://akustik.hfbk.net/publications/LiveCodingInLaptopPerformance.pdf Live Coding in Laptop Performance]", ''Organised Sound'' 8, no. 3: 321–30. doi|10.1017/S135577180300030X.
+* wikicite|ref=harvid|Emmerson|2007|reference=Emmerson, Simon (2007). ''Living Electronic Music''. Aldershot, Hants.: Ashgate.
+*Eyles, John (2006). "[http://www.allaboutjazz.com/php/article.php?id=22196 Extended Analysis: 4g: ''Cloud'']". AllAboutJazz.com (21 June) (Accessed 2 May 2013).
+* wikicite|ref=harvid|Everitt|2015|reference=Everitt, Matt (2015). "[http://www.bbc.co.uk/programmes/b06dwdx2 The First Time with … Jean Michel Jarre]". BBC Radio 6 (Sunday 4 October; accessed 2 March 2018).
+*wikicite|ref=harvid|Gillies and Pear|n.d.|reference=Gillies, Malcolm, and David Pear. (n.d.). "[http://www.oxfordmusiconline.com/subscriber/article/grove/music/11596 Grainger, Percy]". In ''Grove Music Online''. Oxford Music Online. Retrieved 2011-09-21.subscription.
+*cite web|ref=harv|last=Guzdial|first=Mark|year=2011|title=What Students Get Wrong When Building Computational Physics Models in Python: Cabellero Thesis Part 2|url=http://computinged.wordpress.com/2011/08/01/what-students-get-wrong-when-building-computational-physics-models-in-python-cabellero-thesis-part-2/|accessdate=5 February 2013
+* wikicite|ref=harvid|Hill and Simeaone|2005|reference=Hill, Peter, and Nigel Simeone (2005). ''Messiaen''. New Haven and London: Yale University Press. ISBN|978-0-300-10907-8.
+*wikicite|ref=harvid|Lewis|1991|reference=Lewis, Thomas P. (1991). ''[http://www.percygrainger.org/prognot4.htm A Source Guide to the Music of Percy Grainger]''. White Plains: Pro-Am Music Resources. ISBN|978-0-912483-56-6. Retrieved 2011-09-21.
+* wikicite|ref=harvid|McLean, Griffiths, Collins, and Wiggins|2010|reference=McLean, Alex, Dave Griffiths, Nick Collins, and Geraint Wiggins (2010). "[http://yaxu.org/visualisation-of-live-code/ Visualisation of Live Code]". In ''Electronic Visualisation and the Arts London 2010'', edited byFull citation needed|date=May 2014<!--Editor, inclusive page numbers, place, and publisher needed.-->. [http://yaxu.org/writing/visualisation-of-live-code.pdf PDF version] (Accessed 8 May 2014).
+* wikicite|ref=harvid|Manning|2013|reference=Manning, Peter (2013). ''Electronic and Computer Music'', fourth edition. Oxford and New York: Oxford University Press. ISBN|978-0-19-974639-2.
+* wikicite|ref=harvid|Oxford|2015|reference=Oxford University Press (2015). "[http://www.oxforddictionaries.com/definition/english/disc Disc]". ''Oxford English Dictionary Online''(retrieved 30 August 2014).
+*cite book|ref=harv|last=Rohrhuber|first=Julian|title=Artificial, Natural, Historical in Transdisciplinary Digital Art. Sound, Vision and the New Screen|year=2008|publisher=Springer Berlin Heidelberg|url=http://akustik.hfbk.net/publications/rohrhuber_artificial_natural_historical.pdf
+*wikicite|ref=harvid|Schrader|1991|reference=Schrader, Barry (1991). "Live/Electro-Acoustic Music: A Perspective from History and California," in ''Live Electronics'', edited by Peter Nelson, Stephen Montague, and Gary Montague,Page needed|date=May 2013. CRC Press. ISBN|3-7186-5116-5.
+* wikicite|ref=harvid|Siegel|2006|reference=Siegel, Jeff (2006). [https://web.archive.org/web/20120919112809/http://www.stylusmagazine.com/reviews/keith-rowe-and-toshimaru-nakamura/between.htm review of ''Keith Rowe and Toshimaru Nakamura: Between'']. ''Stylus Magazine'' (22 June) Full citation needed|date=May 2013<!--Volume, issue, and page numbers needed.-->
+* wikicite|ref=harvid|Simms|1986|reference=Simms, Brian R. (1986). ''Music of the Twentieth Century: Style and Structure''. New York: Schirmer Books; London: Collier Macmillan Publishers. ISBN|0-02-872580-8.
+* wikicite|ref=harvid|Sutherland|1994|reference=Sutherland, Roger (1994). ''New Perspectives in Music''. London: Sun Tavern Fields. ISBN|0-9517012-6-6.
+* wikicite|ref=harvid|Toop|2002|reference=Toop, Richard. 2002. "Karlheinz Stockhausen". In ''Music of the Twentieth-Century Avant-Garde: A Biocritical Sourcebook'', edited by Larry Sitsky, 493–99. Westport, Conn.: Greenwood Press. ISBN|0-313-29689-8.
+* wikicite|ref=harvid|Wang and Cook|2006|reference=Wang, G., and P. Cook (2004) "[http://soundlab.cs.princeton.edu/publications/on-the-fly_nime2004.pdf On-the-fly Programming: Using Code as an Expressive Musical Instrument]". In ''Proceedings of the 2004 International Conference on New Interfaces for Musical Expression (NIME)''Full citation needed|date=June 2013<!--Editor(s) and the inclusive page numbers of this paper needed.--> New York: NIME.
+
+Further reading
+* wikicite|ref=harvid|Andraschke|2001|reference=Andraschke, Peter (2001). "Dichtung in Musik: Stockhausen, Trakl, Holliger." In ''Stimme und Wort in der Musik des 20. Jahrhunderts,'' edited by Hartmut Krones, 341–55. Vienna: Böhlau. ISBN|978-3-205-99387-2.
+* wikicite|ref=harvid|Bernal and Pais|2008|reference=Bernal, Alberto, and João Miguel Pais (2008). "[http://cec.sonus.ca/econtact/10_4/bernal_pais_endphase.html Endphase: Origin and Analysis of an Ongoing Project]." ''eContact! 10.4—Temps réel, improvisation et interactivité en électroacoustique / Live-electronics — Improvisation — Interactivity in Electroacoustics'' (October). Montréal: Canadian Electroacoustic Community|CEC.
+* wikicite|ref=harvid|Burns|2002|reference=Burns, Christopher (2002). "Realizing Lucier and Stockhausen: Case Studies in the Performance Practice of Electronic Music." ''Journal of New Music Research'' 31, no. 1 (March): 59–68.
+* wikicite|ref=harvid|Cox|2002|reference=Cox, Christoph (2002). "The Jerrybuilt Future: The Sonic Arts Union, Once Group and MEV’s Live Electronics." In ''Undercurrents: The Hidden Wiring of Modern Music'', edited by Rob Young, pp.&nbsp;35–44. London: Continuum. ISBN|978-0-8264-6450-7.
+* wikicite|ref=harvid|Davies|2001|reference=Davies, Hugh (2001). "Gentle Fire: An Early Approach to Live Electronic Music." ''Leonardo Music Journal'' 11 ("Not Necessarily ‘English Music’: Britain’s Second Golden Age"): 53–60.
+* wikicite|ref=harvid|Giomi, Meacci, and Schoon|2003|reference=Giomi, Francesco, Damiano Meacci, and Kilian Schwoon (2003). "Live Electronics in Luciano Berio’s Music." ''Computer Music Journal'' 27, no. 2 (Summer): 30–46.
+*cite book | editor1-last = Jensenius | editor1-first = Alexander Refsum | editor2=Michael Lyons | title = A NIME Reader: Fifteen Years of New Interfaces for Musical Expression | url = https://www.springer.com/gp/book/9783319472133 | year = 2017 | publisher = Springer Science+Business Media|Springer | ISBN = 978-3-319-47214-0
+* wikicite|ref=harvid|Lindborg|2008|reference=Lindborg, PerMagnus (2008). "[http://cec.sonus.ca/econtact/10_4/lindborg_interactivity.html Reflections on Aspects of Music Interactivity in Performance Situations]." ''eContact! 10.4 —Temps réel, improvisation et interactivité en électroacoustique / Live-electronics — Improvisation — Interactivity in Electroacoustics'' (October). Montréal:Canadian Electroacoustic Community|CEC.
+* wikicite|ref=harvid|Mailman|2013|reference=Mailman, Joshua B. (2013). "[http://www.leoalmanac.org/wp-content/uploads/2013/07/LEAVol19No3-Mailman.pdf Improvising Synesthesia: Comprovisation of Generative Graphics and Music]". ''Leonardo Electronic Almanac'' 19, no.3 ("Live Visuals"): 352–84.
+* wikicite|ref=harvid|Marley and Wastell|2006|reference=Marley, Brian, and Mark Wastell (eds.) (2006). ''Blocks of Consciousness and the Unbroken Continuum'' [Book + DVD]. London: Sound 323. ISBN|978-0-9551541-0-2.
+* wikicite|ref=harvid|Neal|2009|reference=Neal, Adam Scott (2009). "[http://cec.sonus.ca/econtact/11_4/neal_laptop.html A Continuum of Indeterminacy in Laptop Music]." ''eContact! 11.4 — Toronto Electroacoustic Symposium 2009 (TES) / Symposium Électroacoustique 2009 de Toronto'' (December). Montréal: Canadian Electroacoustic Community|CEC.
+* wikicite|ref=harvid|Nowitz|2008|reference=Nowitz, Alex (2008). "[http://cec.sonus.ca/econtact/10_4/nowitz_voicelive.html Voice and Live-Electronics using Remotes as Gestural Controllers]." ''eContact! 10.4 — Temps réel, improvisation et interactivité en électroacoustique / Live-electronics — Improvisation — Interactivity in Electroacoustics'' (October). Montréal: Canadian Electroacoustic Community|CEC.
+* wikicite|ref=harvid|Stroppa|1999|reference=Stroppa, Marco (1999). "Live Electronics or … Live Music? Towards a Critique of Interaction." ''Contemporary Music Review'' 18, no. 3 ("Aesthetics of Live Electronic Music"): 41–77.
+
+References
+reflist
+Electronic music festival
+Music festivals
+Electronic rock
+
+DEFAULTSORT:Live Electronic Music
+Category:Free improvisation
+Category:Electroacoustic improvisation
+Category:Electronic music genres
+Category:Electronic music
+Category:Experimental music
+Category:Contemporary classical music
+Category:20th-century classical music
+Category:Music performance
+Category:Articles containing video clips

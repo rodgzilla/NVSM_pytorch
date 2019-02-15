@@ -1,0 +1,616 @@
+Redirect|NACLO|the oxidizing chemical in bleach, NaClO|Sodium hypochlorite
+third-party|date=August 2014
+The North American Computational Linguistics Olympiad (NACLO) is a computational linguistics competition for high school students in the United States and Canada that has been held since 2007. Over 1500 students participate annually.<ref>cite web |url=http://www.nacloweb.org/NACLOPRESSRELEASE-2017Invitational.pdf |title=NACLO 2017 Press Release |accessdate=12 November 2017 |date=May 2017</ref> Since 2008 the contest has consisted of two rounds, the second being administered to the top scorers in the first round. The top-scoring students on the second round qualify for the International Linguistics Olympiad (IOL), one of the international science olympiads.
+
+History
+
+Since the mid-1960s, problem-solving competitions in linguistics for secondary school students have been taking place at various locations around the world. In Russia, the Moscow and St Petersburg Linguistic Olympiads are credited with inspiring hundreds of young talented scholars to choose linguistics as an academic major and profession. Presently there are national contests in Europe, Asia, South America, Australia and Africa, as well as North America. NACLO is part of a consortium that shares resources with other English-speaking contests such as the United Kingdom Linguistics Olympiad, OzCLO (Australia) and the All-Ireland Linguistics Olympiad. There is also an International Linguistic Olympiad in which students from many countries compete, as well as dozens of local competitions held in individual towns and schools across Europe and the USA.
+
+In 1998 the first US Linguistics Olympiad was held at the University of Oregon in Eugene, Oregon, in 1998. 18 students participated the first year, 88 participated the second year, and 67 participated the third year of this local pilot program. From 2001 to 2006, the program existed as an informal, web-based educational activity known as the [http://webscript.princeton.edu/~ahesterb/puzzles.php Linguistics Challenge].
+
+The two US teams in each year won several awards at the IOL in 2007 and 2008. Each year, one of the two US teams won a gold medal (or first diploma) in the team contest. In addition, several team members won individual medals.<ref>cite web |url=http://ilolympiad.spb.ru/results.html |title=The Fifth International Linguistics Olympiad: Results |accessdate=18 November 2008 |date=August 2007</ref><ref>cite web |url=http://iol6.linguistics-bg.com/results.php |title=6th International Olympiad in Linguistics |accessdate=18 November 2008 |date=August 2008</ref>
+
+Format
+
+The format of the contest changed significantly between 2007 and 2008. The 2007 contest consisted of eight problems given in a single round open to all participants. The 2008 competition consisted of two rounds. The first round was open to all contestants and consisted of a three-hour, five-problem written examination. The top scorers on the open round advanced to the invitational round, which was a five-hour, seven-problem written examination divided into two parts; the first part lasted 3 and a half hours and contained five problems, while the second part lasted one and a half hour and contained two problems.<ref>cite web |url=http://www.cs.cmu.edu/~eugene/Naclo/rules.html |title=NACLO Rules (2008) |accessdate=18 November 2008 |publisher=Carnegie Mellon University</ref> The top eight scorers from the invitational round were selected to participate in the International Linguistics Olympiad|IOL. The booklets with problems and solutions are available on the main NACLO website.<ref>cite web|url=http://www.naclo.cs.cmu.edu/practice.php |title=NACLO 2009—Practice Problems |accessdate=18 November 2008 |publisher=Carnegie Mellon University |date=October 2009 |deadurl=yes |archiveurl=https://web.archive.org/web/20080513070610/http://www.naclo.cs.cmu.edu/practice.php |archivedate=May 13, 2008 </ref>
+
+IOL qualifiers
+From 2007 to 2010 the USA sent two teams annually to the IOL.
+
+{|
+|
+{| class="wikitable" 
+|+2007 - St. Petersburg, Russia<ref>[http://www.ioling.org/participants/2007/ IOL 2007 Participants]</ref><ref>[http://www.ioling.org/results/2007/ IOL 2007 Results]</ref>
+|-
+! Team !! Name !! Award !! Team award !! Team leader
+|-
+! rowspan=4 valign="middle" | 1
+| Adam Hesterberg || gold medal
+| rowspan=4 valign="middle" | 
+| rowspan="8" valign="middle" | Dragomir Radev,<br />Lori Levin
+|-
+| Jeffrey Lim || best solution to problem 2
+|-
+| Ryan Musa ||
+|-
+| Rachel Zax ||
+|-
+! rowspan=4 valign="middle" | 2
+| Josh Falk ||
+| rowspan=4 valign="middle" | gold medal
+|-
+| Rebecca Jacobs ||
+|-
+| Michael Gottlieb ||
+|-
+| Anna Tchetchetkine ||
+|}
+|
+{| class="wikitable" 
+|+2008 - Slantchev Bryag, Bulgaria<ref>[http://www.ioling.org/participants/2008/ IOL 2008 Participants]</ref><ref>[http://www.ioling.org/results/2008/ IOL 2008 Results]</ref>
+|-
+! Team !! Name !! Award !! Team award !! Team leader
+|-
+! rowspan=4 valign="middle" | 1
+| Josh Falk || 
+| rowspan=4 valign="middle" | silver trophy,<br />cup for highest average score<br />on the individual contest
+| rowspan="8" valign="middle" | Dragomir Radev,<br />Lori Levin
+|-
+| Jeffrey Lim || bronze medal
+|-
+| Anand Natarajan || silver medal
+|-
+| Guy Tabachnick || bronze medal
+|-
+! rowspan=4 valign="middle" | 2
+| Morris Alper || silver medal
+| rowspan=4 valign="middle" | gold trophy
+|-
+| Rebecca Jacobs || bronze medal
+|-
+| Jae-kyu Lee || best solution to problem 4
+|-
+| Hanzhi Zhu || gold medal,<br />best solution to problem 1
+|}
+|-
+|
+{| class="wikitable" 
+|+2009 - Wrocław, Poland<ref>[http://www.ioling.org/participants/2009/ IOL 2009 Participants]</ref><ref>[http://www.ioling.org/results/2009/ IOL 2009 Results]</ref>
+|-
+! Team !! Name !! Award !! Team award !! Team leader
+|-
+! rowspan=4 valign="middle" | "Red"
+| Morris Alper || honorable mention
+| rowspan=4 valign="middle" | gold trophy
+| rowspan="8" valign="middle" | Dragomir Radev,<br />Lori Levin
+|-
+| Alan Huang || bronze medal,<br />best solution to problem 1
+|-
+| Rebecca Jacobs || silver medal
+|-
+| Anand Natarajan || honorable mention
+|-
+! rowspan=4 valign="middle" | "Blue"
+| John Berman || bronze medal,<br />best solution to problem 5
+| rowspan=4 valign="middle" | 
+|-
+| Sergei Bernstein || bronze medal
+|-
+| Daryl Hansen || honorable mention
+|-
+| Vivaek Shivakumar || honorable mention
+|}
+|
+{| class="wikitable"
+|+ 2010 - Stockholm, Sweden<ref>[http://www.naclo.cs.cmu.edu/press-release2010.html Press Release 2010]</ref><ref>[http://www.ioling.org/participants/2010/ IOL 2010 Participants]</ref><ref>[http://www.ioling.org/results/2010/ IOL 2010 Results]</ref>
+! Team !! Name !! Award !! Team award !! Team leader
+|-
+! rowspan=4 valign="middle" | "Red"
+| Ben Sklaroff
+| gold medal,<br />best solution to problem 4
+| rowspan=4 valign="middle" | 3rd highest combined individual scores
+| rowspan="8" valign="middle" | Dragomir Radev,<br />Lori Levin
+|-
+| Allen Yuan
+| silver medal
+|-
+| In-Sung Na
+| honorable mention
+|-
+| Brian Kong
+| honorable mention
+|-
+! rowspan=4 valign="middle" | "Blue"
+| Martin Camacho
+| silver medal,<br />best solution to problem 2
+| rowspan=4 valign="middle" | highest combined individual scores
+|-
+| Tian-Yi Damien Jiang
+| silver medal,<br />best solution to problem 1
+|-
+| Alexander Iriza
+| bronze medal
+|-
+| Alan Chang
+| bronze medal
+|}
+|}
+
+In 2011 the USA sent three teams, and Canada also sent a team.
+
+{| class="wikitable"
+|+2011 - Pittsburgh, USA<ref>[http://www.naclo.cs.cmu.edu/NACLO-2011-press-release-may-29.html Press Release 2011]</ref><ref>[http://www.ioling.org/participants/2011/ IOL 2011 Participants]</ref><ref>[http://www.ioling.org/results/2011/ IOL 2011 Results]</ref>
+|-
+! Country !! Team !! Name !! Award !! Team award !! Team leader
+|-
+! rowspan=12 valign="middle" | USA
+! rowspan=4 valign="middle" | "Red"
+| Aaron Klein
+| bronze medal
+| rowspan=4 valign="middle" | gold trophy,<br />highest combined individual scores
+| rowspan="12" | Dragomir Radev
+|-
+| Wesley Jones
+| silver medal
+|-
+| Duligur Ibeling
+| silver medal
+|-
+| Morris Alper
+| gold medal,<br />best solution to problem 2
+|-
+! rowspan=4 valign="middle" | "White"
+| Erik Andersen
+| honorable mention
+| rowspan=4 valign="middle" |
+|-
+| Allen Yuan
+| silver medal
+|-
+| Chelsea Voss
+| honorable mention
+|-
+| Arjun Srinivasan
+| honorable mention
+|-
+! rowspan=4 valign="middle" | "Blue"
+| Alexander Wade
+| silver medal,<br />best solution to problem 4
+| rowspan=4 valign="middle" |
+|-
+| Ophir Lifshitz
+| honorable mention
+|-
+| Caroline Ellison
+| honorable mention,<br />best solution to problem 3
+|-
+| Rachel McEnroe
+|-
+! rowspan="4" colspan="2" valign="middle"| Canada
+| Keunjae Go
+|
+| rowspan=4 valign="middle" |
+| rowspan=4 valign="middle" | Patrick Littell
+|-
+| Jordan Ho
+|-
+| Daniel Mitropolsky
+| bronze medal
+|-
+| William Zhang
+| honorable mention
+|}
+
+From 2012 to 2016, the USA sent two teams annually, and Canada sent one team annually.
+
+{| class="wikitable"
+|+2012 - Ljubljana, Slovenia<ref>[http://www.ioling.org/results/2012/ IOL 2012 Results]</ref><ref>[http://www.prlog.org/11945667-usa-and-canada-triumph-at-2012-international-linguistics-olympiad.html Press Release 2012]</ref>
+|-
+! Country !! Team !! Name !! Award !! Team Award !! Team leader
+|-
+! rowspan=8 valign="middle" | USA
+! rowspan=4 valign="middle" | "Red"
+| Darryl Wu
+| silver medal,<br />best solution to problem 1
+| rowspan="4" | 2nd highest combined individual scores
+| rowspan="8" | Dragomir Radev,<br />Lori Levin
+|-
+| Anderson Wang
+| gold medal,<br />best solution to problem 4
+|-
+| Samuel Zbarsky
+| honorable mention
+|-
+| Allan Sadun
+| silver medal
+|-
+! rowspan=4 valign="middle" | "Blue"
+| Alexander Wade
+| gold medal,<br />best solution to problem 3,<br />best solution to problem 5
+| rowspan=4 valign="middle" | gold trophy,<br />3rd highest combined individual scores
+|-
+| Aaron Klein
+| silver medal
+|-
+| Aidan Kaplan
+|-
+| Erik Andersen
+| bronze medal
+|-
+! rowspan="4" colspan="2" valign="middle"| Canada
+| Simon Huang
+|
+| rowspan=4 valign="middle" |
+| rowspan=4 valign="middle" | Patrick Littell
+|-
+| Keunjae Go
+| honorable mention
+|-
+| David Penco
+|
+|-
+| Qin Long
+|
+|}
+
+{| class="wikitable"
+|+2013 - Manchester, UK<ref>[http://www.ioling.org/results/2013/ IOL 2013 Results]</ref>
+|-
+! Country !! Team !! Name !! Award !! Team Award !! Team leader
+|-
+! rowspan=8 valign="middle" | USA
+! rowspan=4 valign="middle" | Red
+| Aaron Klein
+| silver medal
+| rowspan="4" | gold trophy,<br />highest combined individual scores
+| rowspan="8" | Dragomir Radev,<br />Lori Levin
+|-
+| Max Schindler
+| bronze medal
+|-
+| Alexander Wade
+| gold medal
+|-
+| Tom McCoy
+| bronze medal
+|-
+! rowspan=4 valign="middle" | Blue
+| Rebecca Burks
+| honorable mention
+| rowspan=4 valign="middle" | 
+|-
+| Jeffrey Ling
+| silver medal
+|-
+| Erik Andersen
+| honorable mention
+|-
+| Simone Stoyen
+| 
+|-
+! rowspan="4" colspan="2" valign="middle"| Canada
+| Jordan Ho
+|
+| rowspan=4 valign="middle" |
+| rowspan=4 valign="middle" | Patrick Littell
+|-
+| Janis Chang
+| 
+|-
+| Daniel Lovsted
+| bronze medal
+|-
+| Stella Lau
+| honorable mention
+|}
+
+{| class="wikitable"
+|+2014 - Beijing, China<ref>[http://www.ioling.org/results/2014/ IOL 2014 Results]</ref>
+|-
+! Country !! Team !! Name !! Award !! Team Award !! Team leader
+|-
+! rowspan=8 valign="middle" | USA
+! rowspan=4 valign="middle" | "Red"
+| Darryl Wu
+| gold medal,<br />2nd place individual,<br />best solution to problem 2
+| rowspan="4" | gold trophy,<br />highest combined individual scores
+| rowspan="8" | Dragomir Radev,<br />Lori Levin
+|-
+| Jackie Bredenberg
+| honorable mention
+|-
+| Alexander Babiak
+| silver medal
+|-
+| Deven Lahoti
+| silver medal
+|-
+! rowspan=4 valign="middle" | "Blue"
+| David Sokratov
+| honorable mention
+| rowspan=4 valign="middle" |
+|-
+| James Bloxham
+| bronze medal
+|-
+| Kevin Li
+| bronze medal
+|-
+| Catherine Wu 
+| silver medal,<br />best solution to problem 4
+|-
+! rowspan="4" colspan="2" valign="middle"| Canada
+| Daniel Lovsted
+| gold medal,<br />3rd place individual
+| rowspan=4 valign="middle" | 2nd highest combined individual scores
+| rowspan=4 valign="middle" | Heather Newell
+|-
+| Yan Huang
+| silver medal
+|-
+| Simon Huang
+| bronze medal
+|-
+| Minh-Tam Nguyen
+| honorable mention
+|}
+
+{| class="wikitable"
+|+2015 - Blagoevgrad, Bulgaria<ref>[http://www.ioling.org/results/2015/ IOL 2015 Results]</ref>
+|-
+! Country !! Team !! Name !! Award !! Team Award !! Team leader
+|-
+! rowspan=8 valign="middle" | USA
+! rowspan=4 valign="middle" | "Red"
+| James Bloxham
+| gold medal,<br />3rd place individual,<br />best solution to problem 3
+| rowspan="4" | silver trophy,<br />highest combined individual scores
+| rowspan="8" | Dragomir Radev,<br />Lori Levin
+|-
+| Conor Stuart-Roe
+| silver medal
+|-
+| James Wedgwood
+| gold medal,<br />1st place individual,<br />best solution to problem 5
+|-
+| Kevin Yang
+| gold medal
+|-
+! rowspan=4 valign="middle" | "Blue"
+| Julian Gau
+| silver medal
+| rowspan=4 valign="middle" | 3rd highest combined individual scores
+|-
+| Kevin Q Li
+| honorable mention
+|-
+| Kevin M Li
+| silver medal
+|-
+| Nilai Sarda
+| bronze medal
+|-
+! rowspan="4" colspan="2" valign="middle"| Canada
+| Ben Zhang
+| honorable mention
+| rowspan=4 valign="middle" | 
+| rowspan=4 valign="middle" | Pat Littell
+|-
+| Ella Bei
+| 
+|-
+| Emma McLean
+| bronze medal
+|-
+| James Hyett
+| honorable mention
+|}
+
+{| class="wikitable"
+|+2016 - Mysore, India<ref>[http://iol14.plo-in.org/iol_results IOL 2016 Results]</ref><ref>[http://www.nacloweb.org/NACLO-PRESSRELEASE-JULY2016.pdf NACLO 2016 Press Release]</ref>
+|-
+! Country !! Team !! Name !! Award !! Team Award !! Team leader
+|-
+! rowspan=8 valign="middle" | USA
+! rowspan=4 valign="middle" | "Red"
+| Laurestine Irene Bradford
+| honorable mention
+| rowspan="4" | highest combined individual scores
+| rowspan="8" | Dragomir Radev,<br />Aleka Blackwell
+|-
+| James Wedgwood
+| gold medal,<br />2nd place individual
+|-
+| Erik Metz
+| silver medal
+|-
+| Shuheng "Nelson" Niu
+| silver medal
+|-
+! rowspan=4 valign="middle" | "Blue"
+| Margarita Misirpashayeva
+| silver medal
+|-
+| Wyatt R. Reeves
+| bronze medal
+|-
+| Jack LaFleur
+| honorable mention
+|-
+| Siye "Annie" Zhu
+| bronze medal
+|-
+! rowspan="4" colspan="2" valign="middle"| Canada
+| Kevin Sun
+| honorable mention,<br />best solution to problem 1
+| rowspan=4 valign="middle" | 
+| rowspan=4 valign="middle" | Heather Newell
+|-
+| Minh-Tam Nguyen
+| honorable mention
+|-
+| Lawrence Pang
+|
+|-
+| James Hogan
+| honorable mention
+|}
+In 2017, the USA sent two teams and Canada sent two teams, one francophone and one anglophone.
+{| class="wikitable"
+|+2017 - Dublin, Ireland<ref>Cite web|url=http://www.ioling.org/results/2017/|title=International Linguistics Olympiad - 2017 Results|website=www.ioling.org|language=en|access-date=2018-05-14</ref><ref>Cite web|url=http://www.ioling.org/results/USA/|title=International Linguistics Olympiad - Team USA Results|website=www.ioling.org|language=en|access-date=2018-05-14</ref><ref>Cite web|url=http://www.cs.yale.edu/homes/radev/naclo/NACLO-PRESSRELEASE-2017-IOL1.pdf|title=Four Teams from USA and Canada to Compete in the 15th International Linguistics Olympiad in Dublin, Ireland|last=NACLO|first=|date=July 7, 2017|website=nacloweb|archive-url=|archive-date=|dead-url=|access-date=</ref>
+!Country
+!Team
+!Name
+!Award
+!Team Award
+!Team Leader
+|-
+! rowspan="8" |USA
+! rowspan="4" |"Red"
+|Brian Xiao
+|gold medal,<br />best solution to problem 3
+| rowspan="4" |
+| rowspan="8" |Aleka Blackwell, Lori Levin, Dragomir Radev
+|-
+|Andrew Tockman
+|silver medal
+|-
+|Ziyan Lei
+|silver medal
+|-
+|Siye Zhu
+|bronze medal
+|-
+! rowspan="4" |"Blue"
+|Joseph Feffer
+|silver medal
+| rowspan="4" |
+|-
+|Sonia Reilly
+|bronze medal
+|-
+|Vanessa Hu
+|
+|-
+|Wesley Zhang
+|
+|-
+! rowspan="8" |Canada
+! rowspan="4" |"Castors" (French)
+|Antonin Benoit
+|
+| rowspan="8" |
+| rowspan="8" |Heather Newell, Daniel Lovsted
+|-
+|Corinne Soucy
+|
+|-
+|Georges Awaad
+|
+|-
+|Samuel Ouvrard
+|
+|-
+! rowspan="4" |"Moose" (English)
+|Gabriel Kammer
+|
+|-
+|James Hogan
+|
+|-
+|Jane Li
+|
+|-
+|Kevin Liang
+|
+|}
+In 2018, the USA sent two teams and Canada sent two teams, one francophone and one anglophone. The competition was held in Prague, Czech Republic.<ref>Cite web|url=http://iol.ff.cuni.cz/|title=International Linguistics Olympiad|website=iol.ff.cuni.cz|language=cs|access-date=2018-05-14</ref>
+
+{| class="wikitable"
+|+2018 - Prague, Czech Republic<ref>Cite web|url=http://www.ioling.org/results/2018/|title=International Linguistics Olympiad - 2018 Results|website=www.ioling.org|language=en|access-date=2018-08-07</ref><ref>Cite web|url=http://www.ioling.org/results/USA/|title=International Linguistics Olympiad - Team USA Results|website=www.ioling.org|language=en|access-date=2018-08-07</ref>
+!Country
+!Team
+!Name
+!Award
+!Team Award
+!Team Leader
+|-
+! rowspan="8" |USA
+! rowspan="4" |"Red"
+|Ethan A. Chi
+|silver medal
+| rowspan="4" |silver trophy
+| rowspan="8" |Aleka Blackwell, Lori Levin, Dragomir Radev
+|-
+|Swapnil Garg
+|gold medal,<br />best solution to problem 5
+|-
+|Andrew Tockman
+|gold medal,<br />best solution to problem 1
+|-
+|Brian Xiao
+|bronze medal
+|-
+! rowspan="4" |"Blue"
+|Russell Emerine
+|silver medal
+| rowspan="4" |gold trophy,<br />highest combined individual scores
+|-
+|Pranav Krishna
+|gold medal
+|-
+|Benjamin LaFond
+|gold medal
+|-
+|Mihir Singhal
+|silver medal
+|-
+! rowspan="8" |Canada
+! rowspan="4" |"Castors" (French)
+|Georges Awaad
+|
+| rowspan="8" |
+| rowspan="8" |Daniel Lovsted, Andrés Pablo Salanova, Gustavo Beritognolo
+|-
+|Yeryomin George
+|
+|-
+|Samson Nathan
+|
+|-
+|Corinne Soucy
+|
+|-
+! rowspan="4" |"Moose" (English)
+|Ken Jiang
+|bronze medal
+|-
+|Shuli Jones
+|honorable mention
+|-
+|Nathan Kim
+|
+|-
+|Kevin Liang
+|bronze medal
+|}
+
+References
+reflist
+refbegin
+* cite web |url=http://www.naclo.cs.cmu.edu |title=NACLO 2009 |accessdate=16 November 2008 |publisher=Carnegie Mellon University
+* cite web |url=https://www.nsf.gov/news/news_summ.jsp?org=OISE&cntn_id=112073&preview=false |title=Team USA Brings Home the (Linguistics) Gold |accessdate=16 November 2008 |work=National Science Foundation Office of International Science and Engineering News |publisher=National Science Foundation |date=August 15, 2008
+* cite web |url=https://www.nsf.gov/news/news_summ.jsp?org=OISE&cntn_id=109891&preview=false |title=Team USA Takes the Prize at the International Linguistics Olympiad in St. Petersburg, Russia |accessdate=16 November 2008 |work=National Science Foundation Office of International Science and Engineering News |publisher=National Science Foundation |date=August 17, 2007
+refend
+
+See also
+*International Linguistics Olympiad
+*United States of America Computing Olympiad
+*USA Biology Olympiad
+*United States National Chemistry Olympiad
+*United States of America Mathematical Olympiad
+*Physics Olympiad
+*United Kingdom Linguistics Olympiad
+
+Category:Linguistics olympiads
+Category:Linguistics, Language, and the Public Award recipients

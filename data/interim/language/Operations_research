@@ -1,0 +1,311 @@
+For|the academic journal|Operations Research (journal)!Operations Research
+Use dmy dates|date=November 2011
+Operations research, or operational research in British usage,  is a discipline that deals with the application of advanced analytical methods to help make better decisions.<ref>cite web|url=http://www.informs.org/About-INFORMS/About-Operations-Research |title=About Operations Research |publisher=INFORMS.org |accessdate=7 January 2012</ref> Further, the term 'operational analysis' is used in the British (and some British Commonwealth) military as an intrinsic part of capability development, management and assurance.  In particular, operational analysis forms part of the Combined Operational Effectiveness and Investment Appraisals , which support British defense capability acquisition decision-making.
+
+It is often considered to be a sub-field of applied mathematics.<ref>cite web|url=http://www.mathontheweb.org/mathweb/mi-mathbyclass.html |title=Mathematics Subject Classification |publisher=American Mathematical Society |date= 23 May 2011 |accessdate=7 January 2012</ref>  The terms management science and decision science are sometimes used as synonyms.<ref>citation|title=Systems analysis for computer-based information systems|series=West series in data processing and information systems|first=James C.|last=Wetherbe|publisher=West Pub. Co.|year=1979|isbn=9780829902280|quotation=A systems analyst who contributes in the area of DSS must be skilled in such areas as management science (synonymous with decision science and operation research), modeling, simulation, and advanced statistics.</ref>
+
+Employing techniques from other mathematical sciences, such as mathematical modeling, statistics|statistical analysis, and mathematical optimization, operations research arrives at optimal or near-optimal solutions to complex decision-making problems. Because of its emphasis on human-technology interaction and because of its focus on practical applications, operations research has overlap with other disciplines, notably industrial engineering and operations management, and draws on psychology and Organizational studies|organization science. Operations research is often concerned with determining the Maxima and minima|maximum (of profit, performance, or yield) or minimum (of loss, risk, or cost) of some real-world objective. Originating in military efforts before World War II, its techniques have grown to concern problems in a variety of industries.<ref name="hsor.org">cite web|url=http://www.hsor.org/what_is_or.cfm |title=What is OR |publisher=HSOR.org |accessdate=13 November 2011</ref>
+<!--File:Operation research study 01.svg|thumb|480px|Model of Operation research study, based on Stafford Beer (1959).<ref>Stafford Beer (1959). ''Cybernetic and Management''. English Universities Press.</ref> -->
+
+Overview
+Operational research (OR) encompasses a wide range of problem-solving techniques and methods applied in the pursuit of improved decision-making and efficiency, such as simulation, mathematical optimization, queueing theory and other Stochastic process|stochastic-process models, Markov Decision Process|Markov decision processes, Econometrics|econometric methods, data envelopment analysis, neural networks, Expert System|expert systems, decision analysis, and the analytic hierarchy process.<ref>cite web|url=http://www.bls.gov/oco/ocos044.htm |title=Operations Research Analysts |publisher=Bls.gov |accessdate=27 January 2012</ref> Nearly all of these techniques involve the construction of mathematical models that attempt to describe the system. Because of the computational and statistical nature of most of these fields, OR also has strong ties to computer science and analytics. Operational researchers faced with a new problem must determine which of these techniques are most appropriate given the nature of the system, the goals for improvement, and constraints on time and computing power.
+
+The major sub-disciplines in modern operational research, as identified by the journal ''Operations Research'',<ref>cite web|url=http://www3.informs.org/site/OperationsResearch/index.php?c=10&kat=Forthcoming+Papers |title=OR / Pubs / IOL Home |publisher=INFORMS.org |date=2 January 2009 |accessdate=13 November 2011 |deadurl=yes |archiveurl=https://web.archive.org/web/20090527093022/http://www.informs.org/site/OperationsResearch/index.php?c=10&kat=Forthcoming+Papers |archivedate=27 May 2009 </ref> are:
+* Computing and information technologies
+* Financial engineering
+* Manufacturing, service sciences, and supply chain management
+* Policy modeling and public sector work
+* Revenue management
+* Simulation
+* Stochastics|Stochastic models
+* Transportation
+
+History
+In the decades after the two world wars, the tools of operations research were more widely applied to problems in business, industry and society. Since that time, operational research has expanded into a field widely used in industries ranging from petrochemicals to airlines, finance, logistics, and government, moving to a focus on the development of mathematical models that can be used to analyse and optimize complex systems, and has become an area of active academic and industrial research.<ref name="hsor.org"/>
+
+=Historical origins=
+In the 17th century, mathematicians like Christiaan Huygens and Blaise Pascal (problem of points) tried to solve problems involving complex decisions with probability. Others in the 18th and 19th centuries solved these types of problems with combinatorics. Charles Babbage's research into the cost of transportation and sorting of mail led to England's Uniform Penny Post|universal "Penny Post" in 1840, and studies into the dynamical behaviour of railway vehicles in defence of the Great Western Railway|GWR's broad gauge.<ref>M.S. Sodhi, "What about the 'O' in O.R.?" OR/MS Today, December, 2007, p. 12, http://www.lionhrtpub.com/orms/orms-12-07/frqed.html</ref> Beginning in the 20th century, study of inventory management could be considered the origin of modern operations research with Economic order quantity|economic order quantity developed by Ford W. Harris in 1913. Operational research may have originated in the efforts of military planners during World War I (convoy theory and Lanchester's laws). Percy Bridgman brought operational research to bear on problems in physics in the 1920s and would later attempt to extend these to the social sciences.<ref>P. W. Bridgman, The Logic of Modern Physics, The MacMillan Company, New York, 1927</ref> 
+
+Modern operational research originated at the Telecommunications Research Establishment|Bawdsey Research Station in the UK in 1937 and was the result of an initiative of the station's superintendent, Albert Percival Rowe|A. P. Rowe. Rowe conceived the idea as a means to analyse and improve the working of the UK's early warning radar system, Chain Home (CH). Initially, he analysed the operating of the radar equipment and its communication networks, expanding later to include the operating personnel's behaviour. This revealed unappreciated limitations of the CH network and allowed remedial action to be taken.<ref>cite web|url=http://www.britannica.com/EBchecked/topic/682073/operations-research/68171/History#ref22348 |title=operations research (industrial engineering) :: History – Britannica Online Encyclopedia |publisher=Britannica.com |accessdate=13 November 2011</ref>
+
+Scientists in the United Kingdom including Patrick Maynard Stuart Blackett|Patrick Blackett (later Lord Blackett OM PRS), Cecil Gordon (scientist)|Cecil Gordon, Solly Zuckerman, Baron Zuckerman|Solly Zuckerman, (later Baron Zuckerman OM, KCB, FRS), Conrad Hal Waddington|C. H. Waddington, Owen Wansbrough-Jones, Frank Yates, Jacob Bronowski and Freeman Dyson, and in the United States with George Dantzig looked for ways to make better decisions in such areas as logistics and training schedules
+
+=Second World War=
+
+The modern field of operational research arose during World War II. In the World War II era, operational research was defined as "a scientific method of providing executive departments with a quantitative basis for decisions regarding the operations under their control".<ref name=C67-3-4-48-para-1>"Operational Research in the British Army 1939–1945, October 1947, Report C67/3/4/48, UK National Archives file WO291/1301<br />Quoted on the dust-jacket of: Morse, Philip M, and Kimball, George E, ''Methods of Operation Research'', 1st edition revised, MIT Press & J Wiley, 5th printing, 1954.</ref> Other names for it included operational analysis (UK Ministry of Defence from 1962)<ref name=PROCATWO291>[http://www.nationalarchives.gov.uk/catalogue/displaycataloguedetails.asp?CATID=109&CATLN=2&Highlight=&FullDetails=True UK National Archives Catalogue for WO291] lists a War Office organisation called Army Operational Research Group (AORG) that existed from 1946 to 1962. "In January 1962 the name was changed to Army Operational Research Establishment (AORE). Following the creation of a unified Ministry of Defence, a tri-service operational research organisation was established: the Defence Operational Research Establishment (DOAE) which was formed in 1965, and it the Army Operational Research Establishment based at West Byfleet."</ref> and quantitative management.<ref>http://brochure.unisa.ac.za/myunisa/data/subjects/Quantitative%20Management.pdf</ref>
+
+During the World War II|Second World War close to 1,000 men and women in Britain were engaged in operational research. About 200 operational research scientists worked for the British Army.<ref>Kirby, [https://books.google.com/books?id=DWITTpkFPEAC&lpg=PA141&pg=PA117 p. 117] webarchive |url=https://web.archive.org/web/20130827004623/https://books.google.com/books?id=DWITTpkFPEAC&lpg=PA141&pg=PA117 |date=27 August 2013 </ref>
+
+Patrick Blackett worked for several different organizations during the war. Early in the war while working for the Royal Aircraft Establishment (RAE) he set up a team known as the "Circus" which helped to reduce the number of anti-aircraft artillery rounds needed to shoot down an enemy aircraft from an average of over 20,000 at the start of the Battle of Britain to 4,000 in 1941.<ref>Kirby, [https://books.google.com/books?id=DWITTpkFPEAC&lpg=PA141&pg=PA94 pp. 91–94] webarchive |url=https://web.archive.org/web/20130827041022/https://books.google.com/books?id=DWITTpkFPEAC&lpg=PA141&pg=PA94 |date=27 August 2013 </ref>
+
+File:B 24 in raf service 23 03 05.jpg|thumb|A Consolidated B-24 Liberator|Liberator in standard RAF green/dark earth/black night bomber finish as originally used by Coastal Command
+In 1941, Blackett moved from the RAE to the Navy, after first working with RAF Coastal Command, in 1941 and then early in 1942 to the Admiralty.<ref>Kirby, [https://books.google.com/books?id=DWITTpkFPEAC&lpg=PA141&pg=PA109 p. 96,109] webarchive |url=https://web.archive.org/web/20131002032938/https://books.google.com/books?id=DWITTpkFPEAC&lpg=PA141&pg=PA109 |date=2 October 2013 </ref> Blackett's team at Coastal Command's Operational Research Section (CC-ORS) included two future Nobel prize winners and many other people who went on to be pre-eminent in their fields.<ref>Kirby, [https://books.google.com/books?id=DWITTpkFPEAC&lpg=PA141&pg=PA96 p. 96] webarchive |url=https://web.archive.org/web/20140327234509/https://books.google.com/books?id=DWITTpkFPEAC&lpg=PA141&pg=PA96 |date=27 March 2014 </ref> They undertook a number of crucial analyses that aided the war effort. Britain introduced the convoy system to reduce shipping losses, but while the principle of using warships to accompany merchant ships was generally accepted, it was unclear whether it was better for convoys to be small or large. Convoys travel at the speed of the slowest member, so small convoys can travel faster. It was also argued that small convoys would be harder for German U-boats to detect. On the other hand, large convoys could deploy more warships against an attacker. Blackett's staff showed that the losses suffered by convoys depended largely on the number of escort vessels present, rather than the size of the convoy. Their conclusion was that a few large convoys are more defensible than many small ones.<ref>cite web|url=http://www.familyheritage.ca/Articles/victory1943.html |title="Numbers are Essential": Victory in the North Atlantic Reconsidered, March–May 1943 |publisher=Familyheritage.ca |date=24 May 1943 |accessdate=13 November 2011</ref>
+
+<!-- WP:NFCC violation: File:Vickers Warwick B ASR Mk1 - BV285.jpg|thumb|A Vickers Warwick|Warwick in the revised RAF Coastal Command green/dark grey/white finish -->
+anchor|RAF Coastal Command's Operational Research Section
+While performing an analysis of the methods used by RAF Coastal Command to hunt and destroy submarines, one of the analysts asked what colour the aircraft were. As most of them were from Bomber Command they were painted black for night-time operations. At the suggestion of CC-ORS a test was run to see if that was the best colour to camouflage the aircraft for daytime operations in the grey North Atlantic skies. Tests showed that aircraft painted white were on average not spotted until they were 20% closer than those painted black. This change indicated that 30% more submarines would be attacked and sunk for the same number of sightings.<ref>Kirby, [https://books.google.com/books?id=DWITTpkFPEAC&lpg=PA141&pg=PA101 p. 101]</ref> As a result of these findings Coastal Command changed their aircraft to using white undersurfaces.
+
+Other work by the CC-ORS indicated that on average if the trigger depth of aerial-delivered depth charges (DCs) were changed from 100 feet to 25 feet, the kill ratios would go up. The reason was that if a U-boat saw an aircraft only shortly before it arrived over the target then at 100 feet the charges would do no damage (because the U-boat wouldn't have had time to descend as far as 100 feet), and if it saw the aircraft a long way from the target it had time to alter course under water so the chances of it being within the 20-foot kill zone of the charges was small. It was more efficient to attack those submarines close to the surface when the targets' locations were better known than to attempt their destruction at greater depths when their positions could only be guessed. Before the change of settings from 100 feet to 25 feet, 1% of submerged U-boats were sunk and 14% damaged. After the change, 7% were sunk and 11% damaged. (If submarines were caught on the surface, even if attacked shortly after submerging, the numbers rose to 11% sunk and 15% damaged). Blackett observed "there can be few cases where such a great operational gain had been obtained by such a small and simple change of tactics".<ref>(Kirby, [https://books.google.com/books?id=DWITTpkFPEAC&lpg=PA141&pg=PA103 pp. 102,103])</ref>
+
+File:Kammhuber Line Map - Agent Tegal.png|thumb|upright|left|Map of ''Kammhuber Line''
+anchor|RAF Bomber Command's Operational Research Section
+Bomber Command's Operational Research Section (BC-ORS), analyzed a report of a survey carried out by RAF Bomber Command.Citation needed|date=February 2007 For the survey, Bomber Command inspected all bombers returning from bombing raids over Germany over a particular period. All damage inflicted by German Anti-aircraft warfare|air defences was noted and the recommendation was given that armour be added in the most heavily damaged areas. This recommendation was not adopted because the fact that the aircraft returned with these areas damaged indicated these areas were not vital, and adding armour to non-vital areas where damage is acceptable negatively affects aircraft performance. Their suggestion to remove some of the crew so that an aircraft loss would result in fewer personnel losses, was also rejected by RAF command. Blackett's team made the logical recommendation that the armour be placed in the areas which were completely untouched by damage in the bombers which returned. They reasoned that the survey was biased, since it only included aircraft that returned to Britain. The untouched areas of returning aircraft were probably vital areas, which, if hit, would result in the loss of the aircraft.<ref>cite book | title=Dirty Little Secrets of the Twentieth Century | publisher=Harper Paperbacks | author=James F. Dunnigan | year=1999 | pages=215–217</ref> This story has been disputed,<ref>http://lesswrong.com/lw/bbv/examine_your_assumptions/</ref> with a similar damage assessment study completed in the US by the Statistical Research Group at Columbia University<ref>Cite journal|doi = 10.1080/01621459.1980.10477469|title = The Statistical Research Group, 1942–1945|journal = Journal of the American Statistical Association|volume = 75|issue = 370|pages = 320–330|year = 1980|last1 = Wallis|first1 = W. Allen</ref> and was the result of work done by Abraham Wald<ref>Cite journal|jstor = 2288257|title = Abraham Wald's Work on Aircraft Survivability|journal = Journal of the American Statistical Association|volume = 79|issue = 386|pages = 259|last1 = Mangel|first1 = Marc|last2 = Samaniego|first2 = Francisco J|doi = 10.2307/2288257|year = 1984</ref>.
+
+When Germany organized its air defences into the Kammhuber Line, it was realized by the British that if the RAF bombers were to fly in a bomber stream they could overwhelm the night fighters who flew in individual cells directed to their targets by ground controllers. It was then a matter of calculating the statistical loss from collisions against the statistical loss from night fighters to calculate how close the bombers should fly to minimize RAF losses.<ref>cite web|url=http://www.raf.mod.uk/bombercommand/thousands.html |title=RAF History – Bomber Command 60th Anniversary |publisher=Raf.mod.uk |accessdate=13 November 2011</ref>
+
+The "exchange rate" ratio of output to input was a characteristic feature of operational research. By comparing the number of flying hours put in by Allied aircraft to the number of U-boat sightings in a given area, it was possible to redistribute aircraft to more productive patrol areas. Comparison of exchange rates established "effectiveness ratios" useful in planning. The ratio of 60 Mine (naval)|mines laid per ship sunk was common to several campaigns: German mines in British ports, British mines on German routes, and United States mines in Japanese routes.<ref name="Proceedings">cite journal|author=Milkman, Raymond H. |title=Operation Research in World War II |publisher=United States Naval Institute Proceedings |date=May 1968</ref>
+
+Operational research doubled the on-target bomb rate of B-29s bombing Japan from the Marianas Islands by increasing the training ratio from 4 to 10 percent of flying hours; revealed that wolf-packs of three United States submarines were the most effective number to enable all members of the pack to engage targets discovered on their individual patrol stations; revealed that glossy enamel paint was more effective camouflage for night fighters than traditional dull camouflage paint finish, and the smooth paint finish increased airspeed by reducing skin friction.<ref name="Proceedings"/>
+
+On land, the operational research sections of the Army Operational Research Group (AORG) of the Ministry of Supply (MoS) were landed in Operation Overlord|Normandy in 1944, and they followed British forces in the advance across Europe. They analyzed, among other topics, the effectiveness of artillery, aerial bombing and anti-tank shooting.
+
+=After World War II=
+Expand section|date=March 2010
+With expanded techniques and growing awareness of the field at the close of the war, operational research was no longer limited to only operational, but was extended to encompass equipment procurement, training, logistics and infrastructure. Operations Research also grew in many areas other than the military once scientists learned to apply its principles to the civilian sector. With the development of the simplex algorithm for linear programming in 1947<ref name="pitt.edu">cite book|title=PRINCIPLES AND APPLICATIONS OF OPERATIONS RESEARCH |contribution=1.2 A HISTORICAL PERSPECTIVE|url=http://www.pitt.edu/~jrclass/or/or-intro.html#history</ref> and the development of computers over the next three decades, Operations Research can now "solve problems with hundreds of thousands of variables and constraints. Moreover, the large volumes of data required for such problems can be stored and manipulated very efficiently."<ref name="pitt.edu"/>
+
+Problems addressed
+* Critical path analysis or project planning: identifying those processes in a complex project which affect the overall duration of the project
+* Floorplanning: designing the layout of equipment in a factory or components on a computer chip to reduce manufacturing time (therefore reducing cost)
+* Telecommunications network|Network optimization: for instance, setup of telecommunications or power system networks to maintain quality of service during outages
+* Allocation problems
+* Facility location (optimization problem)|Facility location
+* Assignment Problems:
+** Assignment problem
+** Generalized assignment problem
+** Quadratic assignment problem
+** Weapon target assignment problem
+* Bayesian search theory: looking for a target
+* Search theory|Optimal search
+* Routing, such as determining the routes of buses so that as few buses are needed as possible
+* Supply chain management: managing the flow of raw materials and products based on uncertain demand for the finished products
+* Project production activities: managing the flow of work activities in a capital project in response to system variability through operations research tools for variability reduction and buffer allocation using a combination of allocation of capacity, inventory and time<ref>“Factory Physics for Managers”, E. S. Pound, J. H. Bell, and M. L. Spearman, McGraw-Hill, 2014, p 47</ref><ref>“New Era of Project Delivery – Project as Production System”, R. G. Shenoy and T. R. Zabelle, Journal of Project Production Management, Vol 1,  pp Nov 2016, pp 13-24
+
+<nowiki>https://www.researchgate.net/publication/312602707_New_Era_of_Project_Delivery_-_Project_as_Production_System</nowiki>
+</ref>
+* Efficient messaging and customer response tactics
+* Automation: automating or integrating robotic systems in human-driven operations processes
+* Globalization: globalizing operations processes in order to take advantage of cheaper materials, labor, land or other productivity inputs
+* Transportation: managing freight transportation and delivery systems (Examples: Less than truckload shipping|LTL shipping, intermodal freight transport, travelling salesman problem)
+* Scheduling (computing)|Scheduling:
+** Nurse scheduling problem|Personnel staffing
+** Manufacturing steps
+** Project management|Project tasks
+** Network data traffic: these are known as queueing models or queueing systems.
+** Sports events and their television coverage
+* Blending of raw materials in oil refineries
+* Determining optimal prices, in many retail and B2B settings, within the disciplines of pricing science
+* Cutting stock problem: Cutting small items out of bigger ones.
+
+Operational research is also used extensively in government where evidence-based policy is used.
+
+Management science
+main|Management science
+In 1967 Stafford Beer characterized the field of management science as "the business use of operations research".<ref>Stafford Beer (1967) ''Management Science: The Business Use of Operations Research''</ref> However, in modern times the term management science may also be used to refer to the separate fields of organizational studies or corporate strategy.Citation needed|date=December 2010 Like operational research itself, management science (MS) is an interdisciplinary branch of applied mathematics devoted to optimal decision planning, with strong links with economics, business, engineering, and other sciences. It uses various science|scientific research-based principles, Strategy|strategies, and analytical methods including mathematical modeling, statistics and numerical algorithms to improve an organization's ability to enact rational and meaningful management decisions by arriving at optimal or near optimal solutions to complex decision problems. Management scientists help businesses to achieve their goals using the scientific methods of operational research.
+
+The management scientist's mandate is to use rational, systematic, science-based techniques to inform and improve decisions of all kinds. Of course, the techniques of management science are not restricted to business applications but may be applied to military, medical, public administration, charitable groups, political groups or community groups.
+
+Management science is concerned with developing and applying scientific modeling|models and concepts that may prove useful in helping to illuminate management issues and solve managerial problems, as well as designing and developing new and better models of organizational excellence.<ref name="LS">[http://www.lums.lancs.ac.uk/departments/ManSci/DeptProfile/WhatisManSci/ What is Management Science?] webarchive|url=https://web.archive.org/web/20080914101120/http://www.lums.lancs.ac.uk/departments/ManSci/DeptProfile/WhatisManSci/ |date=14 September 2008  Lancaster University, 2008. Retrieved 5 June 2008.</ref>
+
+The application of these models within the corporate sector became known as management science.<ref name="UTK">[http://bus.utk.edu/soms/information/whatis_msci.html What is Management Science?] The University of Tennessee, 2006. Retrieved 5 June 2008.</ref>
+
+=Related fields=
+Some of the fields that have considerable overlap with Operations Research and Management Science include<ref>Cite journal |last1=Merigó |first1=José M |last2=Yang |first2=Jian-Bo |date=2017|title=A bibliometric analysis of operations research and management science |url=https://www.sciencedirect.com/science/article/pii/S0305048316309379 |journal=Omega - International Journal of Management Science | volume=73 | pages=37–48 |doi=10.1016/j.omega.2016.12.004 |issn=0305-0483</ref>:
+div col|colwidth=20em
+* Business analytics
+* Data mining/Data science/Big data
+* Decision analysis
+* Decision intelligence
+* Engineering
+* Financial engineering
+* Forecasting
+* Game theory
+* Geography/Geographic information science
+* Graph theory
+* Industrial engineering
+* Logistics
+* Mathematical modeling
+* Mathematical optimization
+* Probability and statistics
+* Project management
+* Policy analysis
+* Simulation
+* Social network/Transportation forecasting models
+* Stochastic processes
+* Supply chain management
+div col end
+
+=Applications=
+Applications are abundant such as in airlines, manufacturing companies, service organizations, military branches, and government. The range of problems and issues to which it has contributed insights and solutions is vast. It includes:<ref name="LS"/>
+* Scheduling (of airlines, trains, buses etc.)
+* Assignment (assigning crew to flights, trains or buses; employees to projects; commitment and dispatch of power generation facilities)
+* Facility location (deciding most appropriate location for new facilities such as warehouse; factory or fire station)
+* Hydraulics & Piping Engineering (managing flow of water from reservoirs)
+* Health Services (information and supply chain management)
+* Game Theory (identifying, understanding; developing strategies adopted by companies)
+* Urban Design
+* Computer Network Engineering (packet routing; timing; analysis)
+* Telecom & Data Communication Engineering (packet routing; timing; analysis)
+<ref>http://nak-architecture.com/index.php/en/services/blog/55-urban-operations-research-uor</ref>
+
+Management is also concerned with so-called 'soft-operational analysis' which concerns methods for strategic planning, strategic decision support, problem structuring methods. 
+In dealing with these sorts of challenges, mathematical modeling and simulation may not be appropriate or may not suffice. Therefore, during the past 30 yearsvague|date=November 2017, a number of non-quantified modeling methods have been developed. These include:Citation needed|date=June 2016
+* stakeholder based approaches including metagame analysis and drama theory
+* Morphological analysis (problem-solving)|morphological analysis and various forms of influence diagrams
+* cognitive mapping
+* strategic choice 
+* robustness analysis
+
+Societies and journals
+;Societies
+The International Federation of Operational Research Societies (IFORS)<ref>cite web|url=http://www.ifors.org/ |title=IFORS |publisher=IFORS |accessdate=13 November 2011</ref> is an umbrella organization for operational research societies worldwide, representing approximately 50 national societies including those in the US,<ref>cite web|last=Leszczynski |first=Mary |url=http://www.informs.org/ |title=Informs |publisher=Informs |date=8 November 2011 |accessdate=13 November 2011</ref> Operational Research Society|UK,<ref>cite web |url=http://www.orsoc.org.uk |title=The OR Society |publisher=Orsoc.org.uk |accessdate=13 November 2011 |deadurl=yes |archiveurl=http://webarchive.loc.gov/all/20060424161729/http://www.orsoc.org.uk/ |archivedate=24 April 2006 |df=dmy-all </ref> France,<ref>cite web|url=http://www.roadef.org/content/index.htm |title=Société française de Recherche Opérationnelle et d'Aide à la Décision |publisher=ROADEF |accessdate=13 November 2011</ref> Germany, Italian Operations Research Society|Italy,<ref>cite web|author=www.airo.org |url=http://www.airo.org |title=AIRO |publisher=airo.org |accessdate=31 March 2018</ref> Canada,<ref>cite web|author=www.cors.ca |url=http://www.cors.ca |title=CORS |publisher=Cors.ca |accessdate=13 November 2011</ref> Australia,<ref>cite web|url=http://www.asor.org.au |title=ASOR |publisher=ASOR |date=1 January 1972 |accessdate=13 November 2011</ref> New Zealand,<ref>cite web|url=http://www.orsnz.org.nz/ |title=ORSNZ |publisher=ORSNZ |accessdate=13 November 2011</ref> Philippines,<ref>cite web|url=http://www.orsp.org.ph/ |title=ORSP |publisher=ORSP |accessdate=13 November 2011</ref> India,<ref>cite web|url=http://www.orsi.in/ |title=ORSI |publisher=Orsi.in |accessdate=13 November 2011</ref> Japan and South Africa.<ref>cite web|url=http://www.orssa.org.za/ |title=ORSSA |publisher=ORSSA |date=23 September 2011 |accessdate=13 November 2011</ref> The constituent members of IFORS form regional groups, such as that in Association of European Operational Research Societies|Europe.<ref>cite web|url=http://www.euro-online.org/ |title=EURO (EURO) |publisher=Euro-online.org |accessdate=13 November 2011</ref> Other important operational research organizations are Simulation Interoperability Standards Organization (SISO)<ref>cite web|url=http://www.sisostds.org/ |title=SISO |publisher=Sisostds.org |accessdate=13 November 2011</ref> and Interservice/Industry Training, Simulation and Education Conference (I/ITSEC)<ref>cite web|url=http://www.iitsec.org/ |title=I/Itsec |publisher=I/Itsec |accessdate=13 November 2011</ref>
+
+In 2004 the US-based organization INFORMS began an initiative to market the OR profession better, including a website entitled ''The Science of Better''<ref>cite web|url=http://www.scienceofbetter.org/ |title=The Science of Better |publisher=The Science of Better |accessdate=13 November 2011</ref> which provides an introduction to OR and examples of successful applications of OR to industrial problems. This initiative has been adopted by the Operational Research Society in the UK, including a website entitled ''Learn about OR''.<ref>cite web|url=http://www.learnaboutor.co.uk/ |title=Learn about OR |publisher=Learn about OR |accessdate=13 November 2011</ref>
+
+;Journals
+The Institute for Operations Research and the Management Sciences (INFORMS) publishes thirteen scholarly journals about operations research, including the top two journals in their class, according to 2005 Journal Citation Reports.<ref>cite web|url=http://www.informs.org/index.php?c=31&kat=-+INFORMS+Journals |title=INFORMS Journals |publisher=Informs.org |accessdate=13 November 2011</ref> They are:
+* ''Decision Analysis''<ref>cite web |url=http://pubsonline.informs.org/journal/deca |title=Decision Analysis |publisher=Informs.org |accessdate=19 March 2015</ref>
+* ''Information Systems Research''<ref>cite web |url=http://pubsonline.informs.org/journal/isre |title=Information Systems Research |publisher=Informs.org |accessdate=19 March 2015</ref>
+* ''INFORMS Journal on Computing''<ref>cite web |url=http://pubsonline.informs.org/journal/ijoc |title=INFORMS Journal on Computing |publisher=Informs.org |accessdate=19 March 2015</ref>
+* ''INFORMS Transactions on Education''<ref>cite web |url=http://pubsonline.informs.org/journal/ited |title=INFORMS Transactions on Education |publisher=Informs.org |accessdate=19 March 2015</ref> (an open access journal)
+* ''Interfaces''<ref>cite web |url=http://pubsonline.informs.org/journal/inte |title=Interfaces |publisher=Informs.org |accessdate=19 March 2015</ref>
+* ''Management Science: A Journal of the Institute for Operations Research and the Management Sciences''
+* ''Manufacturing & Service Operations Management''
+* ''Marketing Science''
+* ''Mathematics of Operations Research''
+* ''Operations Research: A Journal of the Institute for Operations Research and the Management Sciences''
+* ''Organization Science''<ref>cite web |url=http://pubsonline.informs.org/journal/orsc |title=Organization Science |publisher=Informs.org |accessdate=19 March 2015</ref>
+* ''Service Science''<ref>cite web |url=http://pubsonline.informs.org/journal/serv |title=Service Science |publisher=Informs.org |accessdate=19 March 2015</ref>
+* ''Transportation Science''
+
+;Other journals
+* ''4OR-A Quarterly Journal of Operations Research'': jointly published the Belgian, French and Italian Operations Research Societies (Springer);
+* ''Decision Sciences'' published by Wiley-Blackwell on behalf of the Decision Sciences Institute
+* ''European Journal of Operational Research (EJOR)'': Founded in 1975 and is presently by far the largest operational research journal in the world, with its around 9,000 pages of published papers per year. In 2004, its total number of citations was the second largest amongst Operational Research and Management Science journals;
+* ''INFOR Journal'': published and sponsored by the Canadian Operational Research Society;
+* ''International Journal of Operations Research and Information Systems'' (IJORIS):  an official publication of the Information Resources Management Association, published quarterly by IGI Global;<ref>cite web|url=http://www.igi-global.com/Bookstore/TitleDetails.aspx?TitleId=1141 |title=International Journal of Operations Research and Information Systems (IJORIS) (1947–9328)(1947–9336): John Wang: Journals |publisher=IGI Global |accessdate=13 November 2011</ref>
+* ''Journal of Defense Modeling and Simulation (JDMS): Applications, Methodology, Technology'': a quarterly journal devoted to advancing the science of modeling and simulation as it relates to the military and defense.<ref>cite web|author=The Society for Modeling & Simulation International |url=http://www.scs.org/pubs/jdms/jdms.html |title=JDMS |publisher=Scs.org |accessdate=13 November 2011</ref>
+* ''Journal of the Operational Research Society (JORS)'': an official journal of The OR Society; this is the oldest continuously published journal of OR in the world, published by Taylor & Francis;
+* ''Military Operations Research (MOR)'': published by the Military Operations Research Society;
+* ''Omega - The International Journal of Management Science'';
+* ''Operations Research Letters'';
+* ''Opsearch'': official journal of the Operational Research Society of India;
+* ''OR Insight'': a quarterly journal of The OR Society, published by Palgrave;<ref name="The OR Society">[http://www.orsoc.org.uk The OR Society] webarchive|url=http://webarchive.loc.gov/all/20060424161729/http://www.orsoc.org.uk/ |date=24 April 2006 ;</ref>
+* ''Production and Operations Management'', the official journal of the Production and Operations Management Society
+* ''TOP'': the official journal of the Spanish Society of Statistics and Operations Research.<ref>cite web|url=https://www.springer.com/east/home/business/operations+research?SGWID=5-40521-70-173677307-detailsPage=journal%7Cdescription |title=TOP |publisher=Springer.com |accessdate=13 November 2011</ref>
+
+See also
+Col-begin
+Col-break
+;Operations research topics
+* Black box|Black box analysis
+* Dynamic programming
+* Inventory theory
+* Optimal maintenance
+* Real options valuation
+Col-break
+;Operations researchers
+* :Category:Operations researchers|Operations researchers (category)
+* George Dantzig
+* Leonid Kantorovich
+* Tjalling Koopmans
+* Russell L. Ackoff
+* Stafford Beer
+* Alfred Blumstein
+* C. West Churchman
+Col-break
+* William W. Cooper
+* Robert Dorfman
+* Richard M. Karp
+* Ramayya Krishnan
+* Frederick W. Lanchester
+* Thomas L. Magnanti
+* Alvin E. Roth
+* Peter Whittle (mathematician)|Peter Whittle
+Col-break
+;Related fields
+* Behavioral operations research
+* Big data
+* Business engineering
+* Business process management
+* Database normalization
+* Engineering management
+* Geographic information systems
+* Industrial engineering
+* Industrial organization
+Col-break
+* Managerial economics
+* Military simulation
+* Power system simulation
+* Project Production Management
+* Reliability engineering
+* Scientific management
+* Search-based software engineering
+* Simulation modeling
+* System safety
+* Wargaming
+col-end
+
+References
+Reflist
+
+Further reading
+
+=Classic books and articles=
+* R. E. Bellman, ''Dynamic Programming'', Princeton University Press, Princeton, 1957
+* Abraham Charnes, William W. Cooper, ''Management Models and Industrial Applications of Linear Programming'', Volumes I and II, New York, John Wiley & Sons, 1961
+* Abraham Charnes, William W. Cooper, A. Henderson, ''An Introduction to Linear Programming'', New York, John Wiley & Sons, 1953
+* C. West Churchman, Russell L. Ackoff & E. L. Arnoff, ''Introduction to Operations Research'', New York: J. Wiley and Sons, 1957
+* George B. Dantzig, ''Linear Programming and Extensions'', Princeton, Princeton University Press, 1963
+* Lester K. Ford, Jr., D. Ray Fulkerson, ''Flows in Networks'', Princeton, Princeton University Press, 1962
+* Jay W. Forrester, ''Industrial Dynamics'', Cambridge, MIT Press, 1961
+* L. V. Kantorovich, "Mathematical Methods of Organizing and Planning Production" ''Management Science'', 4, 1960, 266–422
+* Ralph Keeney, Howard Raiffa, ''Decisions with Multiple Objectives: Preferences and Value Tradeoffs'', New York, John Wiley & Sons, 1976
+* H. W. Kuhn, "The Hungarian Method for the Assignment Problem," ''Naval Research Logistics Quarterly'', 1–2, 1955, 83–97
+* H. W. Kuhn, A. W. Tucker, "Nonlinear Programming," pp.&nbsp;481–492 in ''Proceedings of the Second Berkeley Symposium on Mathematical Statistics and Probability''
+* B. O. Koopman, ''Search and Screening: General Principles and Historical Applications'', New York, Pergamon Press, 1980
+* Tjalling C. Koopmans, editor, ''Activity Analysis of Production and Allocation'', New York, John Wiley & Sons, 1951
+* Charles C. Holt, Franco Modigliani, John F. Muth, Herbert A. Simon, ''Planning Production, Inventories, and Work Force'', Englewood Cliffs, NJ, Prentice-Hall, 1960
+* Philip M. Morse, George E. Kimball, ''Methods of Operations Research'', New York, MIT Press and John Wiley & Sons, 1951
+* Robert O. Schlaifer, Howard Raiffa, ''Applied Statistical Decision Theory'', Cambridge, Division of Research, Harvard Business School, 1961
+
+=Classic textbooks=
+* Frederick S. Hillier & Gerald J. Lieberman, ''Introduction to Operations Research'', McGraw-Hill: Boston MA; 10th Edition, 2014
+* Taha, Hamdy A., "Operations Research: An Introduction", Pearson, 10th Edition, 2016
+* Robert J. Thierauf & Richard A. Grosse, "Decision Making Through Operations Research", John Wiley & Sons, INC, 1970
+* Harvey M. Wagner, ''Principles of Operations Research'', Englewood Cliffs, Prentice-Hall, 1969
+
+=History=
+* Saul I. Gass,  Arjang A. Assad, ''An Annotated Timeline of Operations Research:  An Informal History''. New York, Kluwer Academic Publishers, 2005.
+* Saul I. Gass (Editor), Arjang A. Assad (Editor), ''Profiles in Operations Research: Pioneers and Innovators''. Springer, 2011
+* Maurice W. Kirby (Operational Research Society (Great Britain)). Operational Research in War and Peace: The British Experience from the 1930s to 1970, Imperial College Press, 2003. isbn|1-86094-366-7, isbn|978-1-86094-366-9
+* J. K. Lenstra, A. H. G. Rinnooy Kan, A. Schrijver (editors) ''History of Mathematical Programming: A Collection of Personal Reminiscences'', North-Holland, 1991
+* Charles W. McArthur, ''Operations Analysis in the U.S. Army Eighth Air Force in World War II'', History of Mathematics, Vol. 4, Providence, American Mathematical Society, 1990
+* C. H. Waddington, ''O. R. in World War 2: Operational Research Against the U-boat'', London, Elek Science, 1973.
+
+External links
+Commons category|Operations research
+Wikiquote
+* [https://www.informs.org/Build-Your-Career/Consider-an-Analytics-OR-Career What is Operations Research?]
+* [http://www.ifors.org/ International Federation of Operational Research Societies]
+* [http://www.informs.org/ The Institute for Operations Research and the Management Sciences (INFORMS)]
+* [https://web.archive.org/web/20080509183835/http://stats.bls.gov/oco/ocos044.htm Occupational Outlook Handbook, U.S. Department of Labor Bureau of Labor Statistics]
+<!-- (NoMoreLinks) -->
+<!-- DO NOT ADD MORE LINKS TO THIS ARTICLE. WIKIPEDIA IS NOT A COLLECTION OF LINKS -->
+<!-- If you think that your link might be useful, instead of placing it here, put -->
+<!-- it on this article's discussion page first. Links that have not been verified -->
+<!-- WILL BE DELETED -->
+<!-- = -->
+
+Systems
+Areas of mathematics |collapsed
+Microeconomics
+Authority control
+
+Category:Operations research| 
+Category:Industrial engineering
+Category:Mathematical optimization in business
+Category:Management science
+Category:Applied statistics
+Category:Engineering disciplines
+Category:Mathematical and quantitative methods (economics)
+Category:Mathematical economics

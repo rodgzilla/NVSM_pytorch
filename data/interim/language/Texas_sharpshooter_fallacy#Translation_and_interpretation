@@ -1,0 +1,44 @@
+The Texas sharpshooter fallacy is an informal fallacy which is committed when differences in data are ignored, but similarities are stressed. From this reasoning, a false conclusion is inferred.<ref>citation |entry=Texas sharpshooter fallacy |last=Bennett |first=Bo |title=Logically Fallacious |accessdate=21 October 2014 |ref=harv |url=http://www.logicallyfallacious.com/index.php/logical-fallacies/176-texas-sharpshooter-fallacy| quote = description: ignoring the difference while focusing on the similarities, thus coming to an inaccurate conclusion</ref> This fallacy is the philosophical or rhetorical application of the multiple comparisons problem (in statistics) and apophenia (in cognitive psychology). It is related to the clustering illusion, which is the tendency in human cognition to interpret patterns where none actually exist.
+
+The name comes from a joke about a Texas|Texan who fires some gunshots at the side of a barn, then paints a target centered on the tightest cluster of hits and claims to be a sharpshooter.<ref>cite web|url=http://www.barrypopik.com/index.php/texas/entry/texas_sharpshooter_fallacy/|title=Texas Sharpshooter Fallacy|author=Barry Popik|publisher=barrypopik.com|date=2013-03-09|accessdate=2015-11-10</ref><ref>cite web|url=http://www.crab.rutgers.edu/~mbravo/cluster.pdf|title=The cancer-cluster myth|author=Atul Gawande|publisher=The New Yorker|date=1999-08-02|accessdate=2009-10-10</ref><ref>cite book | last1 = Carroll | first1 = Robert Todd | authorlink1 = Robert Todd Carroll | title = The Skeptic's Dictionary: a collection of strange beliefs, amusing deceptions, and dangerous delusions | publisher = John Wiley & Sons | year = 2003 | page = 375 | url = https://books.google.com/books?id=6FPqDFx40vYC&lpg=PA375&vq=texas%20sharpshooter&dq=%22texas%20sharpshooter%20fallacy%22%20logical%20fallacies&pg=PA375#v=snippet&q=texas%20sharpshooter&f=false | accessdate = 2012-03-25 | isbn = 0-471-27242-6 | quote = The term refers to the story of the Texan who shoots holes in the side of a barn and then draws a bull's-eye around the bullet holes</ref>
+
+ Structure 
+File:Texas Sharpshooter Fallacy illustration.png|thumb|A set of 100 randomly generated coordinates displayed on a scatter graph. Examining the points it is easy to identify apparent patterns. In particular, random data points do not spread out but cluster, giving the impression of "hot spots" created by some underlying cause.
+The Texas sharpshooter fallacy often arises when a person has a large amount of data at his or her disposal, but only focuses on a small subset of that data. Some factor other than the one attributed may give all the elements in that subset some kind of common property (or pair of common properties, when arguing for correlation). If the person attempts to account for the likelihood of finding ''some'' subset in the large data with ''some'' common property by a factor other than its actual cause, then that person is likely committing a Texas sharpshooter fallacy.
+
+The fallacy is characterized by a lack of a specific hypothesis prior to the gathering of data, or the formulation of a hypothesis only after data have already been gathered and examined.<ref>cite journal | title = Painting the target around the matching profile: the Texas sharpshooter fallacy in forensic DNA interpretation | journal = Law, Probability, & Risk | date = July 18, 2009 | first = William C. | last = Thompson | volume = 8 | issue = 3 | pages = 257–258| url = http://lpr.oxfordjournals.org/content/8/3/257.full.pdf+html | accessdate = 2012-03-25 | quote = Texas sharpshooter fallacy...this article demonstrates how post hoc target shifting occurs and how it can distort the frequency and likelihood ratio statistics used to characterize DNA matches, making matches appear more probative than they actually are. | doi=10.1093/lpr/mgp013</ref> Thus, it typically does not apply if one had an ''ex ante'', or prior, expectation of the particular relationship in question before examining the data. For example one might, prior to examining the information, have in mind a specific physical mechanism implying the particular relationship. One could then use the information to give support or cast doubt on the presence of that mechanism. Alternatively, if additional information can be generated using the same process as the original information, one can use the original information to construct a hypothesis, and then test the hypothesis on the new data. (See hypothesis testing.) What one ''cannot'' do is use ''the same'' information to construct ''and'' test the same hypothesis (see hypotheses suggested by the data)—to do so would be to commit the Texas sharpshooter fallacy.
+
+ Examples 
+* A Swedish study in 1992 tried to determine whether Electromagnetic radiation and health|power lines caused some kind of poor health effects. The researchers surveyed everyone living within 300 meters of high-voltage power lines over a 25-year period and looked for statistically significant increases in rates of over 800 ailments. The study found that the incidence of childhood leukemia was four times higher among those who lived closest to the power lines, and it spurred calls to action by the Swedish government.<ref>https://www.newscientist.com/article/mg13618450-300-swedish-studies-pinpoint-power-line-cancer-link/</ref> The problem with the conclusion, however, was that the number of potential ailments, i.e. over 800, was so large that it created a high probability that at least one ailment would exhibit the appearance of a statistically significant difference by chance alone; i.e. the multiple comparisons problem. Subsequent studies failed to show any association between power lines and childhood leukemia.<ref>cite web|url=https://www.pbs.org/wgbh/pages/frontline/programs/transcripts/1319.html |title=Frontline: previous reports: transcripts: currents of fear |publisher=PBS |date=1995-06-13 |accessdate=2012-07-03|archiveurl=https://web.archive.org/web/20160203040412/http://www.pbs.org/wgbh/pages/frontline/programs/transcripts/1319.html|archivedate=2016-02-03</ref>
+
+=Translation and interpretation=
+* This fallacy is often found in modern-day interpretations of the quatrains of Nostradamus. Nostradamus's quatrains are often liberally translated from the original (archaic) French, stripped of their historical context, and then applied to support the conclusion that Nostradamus predicted a given modern-day event, after the event actually occurred.<ref>cite web|url=http://www.snopes.com/rumors/nostradamus.asp |title=Nostradamus Predicted 9/11? |publisher=snopes.com |date= |accessdate=2012-07-03</ref>
+
+ See also 
+div col|colwidth=22em
+* Anthropic principle
+* Availability heuristic
+* Clustering illusion
+* Confirmation bias
+* Look-elsewhere effect
+* Overfitting
+* Postdiction
+* Ramsey theory
+* Scan statistic
+div col end
+
+= Related fallacies =
+* Cum hoc ergo propter hoc
+* Correlative-based fallacies
+* Post hoc ergo propter hoc
+
+ References 
+Reflist
+
+ External links 
+* [http://www.fallacyfiles.org/texsharp.html Fallacy files entry]
+
+Informal Fallacy
+
+Category:Causal fallacies
+Category:Metaphors referring to war and violence

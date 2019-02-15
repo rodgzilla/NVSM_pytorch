@@ -1,0 +1,38 @@
+A Maximal arc in a finite projective plane is a largest possible (''k'',''d'')-Arc (projective geometry)|arc in that projective plane. If the finite projective plane has order ''q'' (there are ''q''+1 points on any line), then for a maximal arc, ''k'', the number of points of the arc, is the maximum possible (= ''qd'' + ''d'' - ''q'') with the property that no ''d''+1 points of the arc lie on the same line.
+ 
+Definition
+Let <math>\pi</math> be a finite projective plane of order ''q'' (not necessarily Desargues' theorem|desarguesian).  Maximal arcs of ''degree'' ''d'' ( 2 ≤ ''d'' ≤ ''q''- 1) are (''k'',''d'')-Arc (projective geometry)|arcs in <math>\pi</math>, where ''k'' is maximal with respect to the parameter ''d'', in other words, ''k''  = ''qd'' + ''d'' - ''q''.
+
+Equivalently, one can define maximal arcs of degree ''d'' in <math>\pi</math> as non-empty sets of points ''K'' such that every line intersects the set either in 0 or ''d'' points.
+
+Some authors permit the degree of a maximal arc to be 1, ''q'' or even ''q''+ 1.<ref>harvnb|Hirschfeld|1979|loc=pp. 325</ref> Letting ''K'' be a maximal (''k'', ''d'')-arc in a projective plane of order ''q'', if 
+* ''d'' = 1, ''K'' is a point of the plane,
+* ''d'' = ''q'', ''K'' is the complement of a line (an projective plane#Affine planes|affine plane of order ''q''), and
+* ''d'' = ''q'' + 1, ''K'' is the entire projective plane.
+All of these cases are considered to be ''trivial'' examples of maximal arcs, existing in any type of projective plane for any value of ''q''. When 2 ≤ ''d'' ≤ ''q''- 1, the maximal arc is called ''non-trivial'', and the definition given above and the properties listed below all refer to non-trivial maximal arcs.
+
+Properties
+* The number of lines through a fixed point ''p'', not on a maximal arc ''K'', intersecting ''K'' in ''d'' points, equals <math>(q+1)-\frac{q}{d}</math>.  Thus, ''d'' divides ''q''.
+* In the special case of ''d'' = 2, maximal arcs are known as Oval (projective plane)|hyperovals which can only exist if ''q'' is even.
+* An arc ''K'' having one fewer point than a maximal arc can always be uniquely extended to a maximal arc by adding to ''K'' the point at which all the lines meeting ''K'' in ''d'' - 1 points meet.<ref>harvnb|Hirschfeld|1979|loc=pg. 328</ref>
+* In PG(2,''q'') with ''q'' odd, no non-trivial maximal arcs exist.<ref>harvnb|Ball|Blokhuis|Mazzocca|1997</ref>
+* In PG(2,2<sup>''h''</sup>), maximal arcs for every degree 2<sup>''t''</sup>, 1 ≤ ''t'' ≤ ''h'' exist.<ref>harvnb|Denniston|1969</ref>
+
+Partial geometries
+One can construct partial geometry|partial geometries, derived from maximal arcs:<ref>harvnb|Thas|1974</ref>
+
+* Let ''K'' be a maximal arc with degree ''d''. Consider the incidence structure <math>S(K)=(P,B,I)</math>, where P contains all points of the projective plane not on ''K'', B contains all line of the projective plane intersecting ''K'' in ''d'' points, and the incidence ''I'' is the natural inclusion.  This is a partial geometry : <math>pg(q-d,q-\frac{q}{d},q-\frac{q}{d}-d+1)</math>.
+* Consider the space <math>PG(3,2^h) (h\geq 1)</math> and let ''K'' a maximal arc of degree <math>d=2^s (1\leq s\leq m)</math> in a two-dimensional subspace <math>\pi</math>.  Consider an incidence structure <math>T_2^{*}(K)=(P,B,I)</math> where ''P'' contains all the points not in <math>\pi</math>, ''B'' contains all lines not in <math>\pi</math> and intersecting <math>\pi</math> in a point in ''K'', and ''I'' is again the natural inclusion.  <math>T_2^{*}(K)</math> is again a partial geometry : <math>pg(2^h-1,(2^h+1)(2^m-1),2^m-1)\,</math>.
+
+Notes
+reflist
+
+References
+* citation|last1=Ball|first1=S.|last2=Blokhuis|first2=A.|last3=Mazzocca|first3=F.|title=Maximal arcs in Desarguesian planes of odd order do not exist|journal=Combinatorica|volume=17|year=1997|pages=31–41|mr=1466573|zbl=0880.51003|doi=10.1007/bf01196129
+* citation|last=Denniston|first=R.H.F.|title=Some maximal arcs in finite projective planes|journal=J. Comb. Theory|volume=6|year=1969|pages=317–319|mr=239991|zbl=0167.49106|doi=10.1016/s0021-9800(69)80095-5
+* citation|last=Hirschfeld|first=J.W.P.|title=Projective Geometries over Finite Fields|year=1979|publisher=Oxford University Press|location=New York|isbn=0-19-853526-0
+* citation|last=Mathon|first=R.|title=New maximal arcs in Desarguesian planes|journal=J. Comb. Theory A|volume=97|year=2002|pages=353–368|mr=1883870|zbl=1010.51009|doi=10.1006/jcta.2001.3218
+* citation|last=Thas|first=J.A.|title=Construction of maximal arcs and partial geometries|journal=Geom. Dedicata|volume= 3|year=1974|pages=61–64|mr=349437|zbl=0285.50018|doi=10.1007/bf00181361
+
+DEFAULTSORT:Maximal Arc
+Category:Projective geometry

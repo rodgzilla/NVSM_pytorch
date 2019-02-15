@@ -1,0 +1,212 @@
+Multiple issues|
+COI|date=August 2016
+primary sources|date=November 2017
+
+
+Urban informatics refers to the study of people creating, applying and using information and communication technology and data in the context of cities and urban environments. Various definitions are available, some provided in the #Definitions|Definitions section. Urban informatics is a trans-disciplinary field of research and practice that draws on three broad domains: people, place and technology.<ref name="FothChoi2011" />
+
+* People can refer to city residents, citizens, community groups, from various socio-cultural backgrounds, as well as the social dimensions of non-profit organisations and businesses. The social research domains that urban informatics draws from include urban sociology, media studies, communication studies, cultural studies, city planning and others.
+* Place can refer to distinct urban sites, Locale (geographic)|locales and habitats, as well as to larger scale geographic entities such as neighbourhoods, public space, suburbs, regions, or peri-urban areas. The place or spatial research domains entail urban studies, architecture, urban design, urban planning, geography, and others.
+* Technology can refer to various types of information and communication technology and ubiquitous computing / urban computing technology such as mobile phones, wearable devices, urban screens, media façades, sensors, and other Internet of Things devices. The technology research domains span informatics, computer science, software engineering, human-computer interaction, and others.
+
+In addition to geographic data / spatial data, most common sources of data relevant to urban informatics can be divided into three broad categories: government data (census data, open data, etc.); personal data (social media, quantified self data, etc.), and; sensor data (transport, surveillance, CCTV, Internet of Things devices, etc.).<ref name="kitchin2011" /><ref name="Street Computing 2012">cite journal|last1=Robinson|first1=Ricky|last2=Rittenbruch|first2=Markus|last3=Foth|first3=Marcus|last4=Filonik|first4=Daniel|last5=Viller|first5=Stephen|title=Street Computing: Towards an Integrated Open Data Application Programming Interface (API) for Cities|journal=Journal of Urban Technology|date=April 2012|volume=19|issue=2|pages=1–23|doi=10.1080/10630732.2012.698064</ref>
+
+Although first mentions of the term date back as early as 1987, urban informatics did not emerge as a notable field of research and practice until 2006 (see #History|History section). Since then, the emergence and growing popularity of ubiquitous computing, open data and big data analytics, as well as smart cities contributed to a surge in interest in urban informatics, not just from academics but also from industry and city governments seeking to explore and apply the possibilities and opportunities of urban informatics.
+
+ Definitions 
+
+Many definitions of urban informatics have been published and can be found online. The descriptions provided by Townsend in his foreword and by Foth in his preface to the "Handbook of Research on Urban Informatics"<ref name="foth2009">cite book|last1=Foth|first1=Marcus|title=Handbook of Research on Urban Informatics: The Practice and Promise of the Real-Time City|date=2009|publisher=Information Science Reference|location=Hershey, PA|isbn=978-1-60566-152-0|url=http://eprints.qut.edu.au/13308/</ref> emphasize two key aspects: (1) the new possibilities (including real-time data) for both citizens and city administrations afforded by ubiquitous computing, and (2) the convergence of physical and digital aspects of the city.
+
+Quotation|"Urban informatics is the study, design, and practice of urban experiences across different urban contexts that are created by new opportunities of real-time, ubiquitous technology and the augmentation that mediates the physical and digital layers of people networks and urban infrastructures."|Foth, Choi, Satchell, 2011|Urban Informatics<ref name="FothChoi2011">cite conference|first1=Marcus|last1=Foth|first2=Jaz Hee-jeong|last2=Choi|first3=Christine|last3=Satchell|title=Urban Informatics|conference=Conference on Computer Supported Cooperative Work (CSCW)|pages=1–8|date=2011|location=Hangzhou, China|doi=10.1145/1958824.1958826</ref>
+
+Although closely related, Foth differentiates urban informatics from the field of urban computing by suggesting that the former focusses more on the social and human implications of technology in cities (similar to the community and social emphases of how community informatics and social informatics are defined), and the latter focusses more on technology and computing.<ref name="foth2009" /> Urban informatics emphasises the relationship between urbanity, as expressed through the many dimensions of urban life, and technology.
+
+Later, with the increasing popularity of commercial opportunities under the label of smart city and big data, subsequent definitions became narrow and limited in defining urban informatics mainly as big data analytics for efficiency and productivity gains in city contexts – unless the arts and social sciences are added to the interdisciplinary mix.<ref name="thrift">cite journal|last1=Thrift|first1=Nigel|title=The Promise of Urban Informatics: Some Speculations|journal=Environment and Planning A|date=2014|volume=46|issue=6|pages=1263–1266|doi=10.1068/a472c</ref> This specialisation within urban informatics is sometimes referred to as 'data-driven, Urbanism#Network-based theories|networked urbanism'<ref>cite journal|last1=Kitchin|first1=Rob|title=Data-Driven, Networked Urbanism|journal=SSRN Electronic Journal|date=2015|doi=10.2139/ssrn.2641802|ssrn=2641802</ref> or urban science.<ref name="batty">cite book|last1=Batty|first1=Michael|title=The New Science of Cities|date=2013|publisher=MIT Press|location=Cambridge|isbn=9780262019521|url=https://mitpress.mit.edu/books/new-science-cities</ref>
+
+ History 
+
+One of the first occurrences of the term can be found in Mark E. Hepworth's 1987 article "The Information City",<ref>cite journal|last1=Hepworth|first1=Mark E.|title=The Information City|journal=Cities|date=August 1987|volume=4|issue=3|pages=253–262|doi=10.1016/0264-2751(87)90033-3</ref> which mentions the term "urban informatics" on page 261, however, Hepworth's overall discussion is more concerned with the broader notion of "informatics planning." Considering the article pre-dates the advent of ubiquitous computing and urban computing, it does contain some visionary thoughts about major changes on the horizon brought about by information and communication technology and the impact on cities.
+
+The Urban Informatics Research Lab was founded at Queensland University of Technology in 2006, the first research group explicitly named to reflect its dedication to the study of urban informatics.citation needed|date=August 2016 The first edited book on the topic, the "Handbook of Research on Urban Informatics", published in 2009.citation needed|date=August 2016, brought together researchers and scholars from three broad domains: people, place, and technology, or; the social, the spatial, and the technical.
+
+There were many precursors to this transdisciplinarity of "people, place, and technology."<ref name="FothChoi2011" /> From an architecture, planning and design background, there is the work of the late William J. Mitchell, Dean of the MIT School of Architecture and Planning, and author of the 1995 book "City of Bits: Space, Place, and the Infobahn."<ref>cite book|last1=Mitchell|first1=William J.|title=City of Bits: Space, Place, and the Infobahn|date=1995|publisher=MIT Press|location=Cambridge, Massachusetts|isbn=978-0-262-13309-8|url=https://mitpress.mit.edu/books/city-bits</ref> Mitchell was influential in suggesting a profound relationship between place and technology at a time when mainstream interest was focused on the promise of the Information Superhighway and what Frances Cairncross called the "Death of Distance."<ref>cite book|last1=Cairncross|first1=Frances|title=The Death of Distance: How the Communications Revolution will Change our Lives|date=1997|publisher=Harvard Business School Press|location=Boston, Mass.|isbn=978-0-87584-806-8</ref> Rather than a decline in the significance of place through services such as telecommuting, distance education, e-commerce, the physical / tangible layers of the city started to mix with the digital layers of the internet and online communications. Aspects of this trend have been studied under the terms community informatics<ref>cite book|last1=Gurstein|first1=Michael|title=Community Informatics: Enabling Communities with Information and Communications Technologies|date=2000|publisher=Idea Group Publishing|location=Hershey, PA|isbn=978-1-878289-69-8</ref> and community network.<ref>cite book|last1=Schuler|first1=Douglas|title=Community Networks: New Community Networks: Wired for Change|date=1996|publisher=Addison-Wesley|location=Reading, Mass.|isbn=978-0-201-59553-6</ref>
+
+One of the first texts that systematically examined the impact of information technologies on the spatial and social evolution of cities is Telecommunications and the City: Electronic Spaces, Urban Places,<ref>cite book|last1=Graham|first1=Stephen|last2=Marvin|first2=Simon|title=Telecommunications and the City: Electronic Spaces, Urban Places.|date=1995|publisher=Routledge|location=London</ref> by Stephen Graham and Simon Marvin. The relationship between cities and the internet was further expanded upon in a volume edited by Stephen Graham entitled "Cybercities Reader"<ref>cite book|last1=Graham|first1=Stephen|title=The Cybercities Reader|date=2004|publisher=Routledge|location=London|isbn=978-0-415-27956-7</ref> and by various authors in the 2006 book "Networked Neighbourhoods: The Connected Community in Context"<ref>cite book|last1=Purcell|first1=Patrick|title=Networked Neighbourhoods: The Connected Community in Context|date=2006|publisher=Springer|location=London|isbn=978-1-84628-267-6|url=https://www.springer.com/gp/book/9781846282676</ref> edited by Patrick Purcell. Additionally, contributions from architecture, design and planning scholars are contained in the 2007 journal special issue on "Space, Sociality, and Pervasive Computing"<ref>cite journal|last1=Dave|first1=Bharat|title=Space, Sociality, and Pervasive Computing|journal=Environment and Planning B: Planning and Design|date=2007|volume=34|issue=3|pages=381–382|doi=10.1068/b3403ed</ref> published in the journal Environment and Planning B: Planning and Design, 34(3), guest edited by the late Bharat Dave, as well as in the 2008 book "Augmented Urban Spaces: Articulating the Physical and Electronic City"<ref name="aurigi2008">cite book|last1=Aurigi|first1=Alessandro|last2=De Cindio|first2=Fiorella|title=Augmented Urban Spaces: Articulating the Physical and Electronic City|date=2008|publisher=Ashgate|location=Aldershot, UK|isbn=978-0-7546-7149-7</ref> edited by Alessandro Aurigi and Fiorella De Cindio, based on contributions to the Digital Cities 4 workshop held in conjunction with the Communities and Technologies (C&T) conference 2005 in Milan, Italy.
+
+The first prominent and explicit use of the term urban informatics in the sociology and media studies literature appears in the 2007 special issue "Urban Informatics: Software, Cities and the New Cartographies of Knowing Capitalism"<ref>cite journal|last1=Ellison|first1=Nick|last2=Burrows|first2=Roger|last3=Parker|first3=Simon|title=Urban Informatics: Software, Cities and the New Cartographies of Knowing Capitalism|journal=Information, Communication & Society|date=December 2007|volume=10|issue=6|pages=785–788|doi=10.1080/13691180701750975</ref> published in the journal Information, Communication & Society, 10(6), guest edited by Ellison, Burrows, & Parker. Later on, in 2013, Burrows and Beer argued that the socio-technical transformations described by research studies conducted in the field of urban informatics give reason for sociologists more broadly to not only question epistemological and methodological norms and practices but also to rethink spatial assumptions.<ref>cite book|last1=Burrows|first1=Roger|last2=Beer|first2=David|editor1-last=Orton-Johnson|editor1-first=Kate|editor2-last=Prior|editor2-first=Nick|title=Digital Sociology: Critical Perspectives|chapter=Rethinking Space: Urban Informatics and the Sociological Imagination|date=2013| pages=61–78|publisher=Palgrave Macmillan|location=London, UK|isbn=978-0-230-22283-0|doi=10.1057/9781137297792_5</ref>
+
+In computer science, the sub-domains of human-computer interaction, ubiquitous computing, and urban computing, provided early contributions that influenced the emerging field of urban informatics. Examples include the Digital Cities workshop series (see below), Greenfield’s 2006 book "Everyware: The Dawning Age of Ubiquitous Computing"<ref>Cite book|title=Everyware: The Dawning Age of Ubiquitous Computing|last=Greenfield|first=Adam|publisher=New Riders|year=2006|isbn=0321384016|location=San Francisco, US|pages=|via=</ref> as well as the 2006 special issue "Urban Computing: Navigating Space and Context"<ref>cite journal|last1=Shklovski|first1=Irina|last2=Chang|first2=M. F.|title=Urban Computing: Navigating Space and Context|journal=Computer|date=September 2006|volume=39|issue=9|pages=36–37|doi=10.1109/MC.2006.308</ref> published in the IEEE journal Computer, 39(9), guest edited by Shklovski & Chang, and the 2007 special issue "Urban Computing"<ref>cite journal|last1=Kindberg|first1=Tim|last2=Chalmers|first2=Matthew|last3=Paulos|first3=Eric|title=Urban Computing|journal=IEEE Pervasive Computing|date=July 2007|volume=6|issue=3|pages=18–20|doi=10.1109/MPRV.2007.57</ref> published in the IEEE journal Pervasive Computing, 6(3), guest edited by Kindberg, Chalmers, & Paulos.
+
+ Digital Cities Workshop Series 
+
+The Digital Cities Workshop Series started in 1999<ref name="dc1" /> and is the longest running academic workshop series that has focused on, and profoundly influenced the field of urban informatics.<ref name="foth2015" /> The first two workshops in 1999 and 2001 were both held in Kyoto, Japan, with subsequent workshops since 2003 held in conjunction with the biennial International Conference on Communities and Technologies (C&T).
+
+Each Digital Cities workshop proceedings have become the basis for key anthologies listed below, which in turn have also been formative to a diverse set of emerging fields, including urban informatics, urban computing, smart cities, pervasive computing, internet of things, media architecture, urban interaction design, and urban science.
+
+{| class="wikitable"
+|-
+! Workshop !! Location !! Resulting Anthology
+|-
+| Digital Cities 1 || Kyoto, Japan, 1999 || Ishida, T., & Isbister, K. (Eds.). (2000). Digital Cities: Technologies, Experiences, and Future Perspectives (Lecture Notes in Computer Science No. 1765). Heidelberg, Germany: Springer.<ref name="dc1">cite book|last1=Ishida|first1=Toru|last2=Isbister|first2=Katherine|title=Digital Cities Technologies, Experiences, and Future Perspectives|volume=1765|date=2000|publisher=Springer|location=Berlin|isbn=978-3-540-67265-4|doi=10.1007/3-540-46422-0|series=Lecture Notes in Computer Science</ref>
+|-
+| Digital Cities 2 || Kyoto, Japan, 2001 || Tanabe, M., van den Besselaar, P., & Ishida, T. (Eds.) (2002). Digital Cities 2: Computational and Sociological Approaches (Lecture Notes in Computer Science No. 2362). Heidelberg, Germany: Springer.<ref>cite book|last1=Tanabe|first1=Makoto|last2=van den Besselaar|first2=Peter|last3=Ishida|first3=Toru|title=Digital Cities II: Computational and Sociological Approaches Second Kyoto Workshop on Digital Cities Kyoto, Japan, October 18–20, 2001 Revised Papers|volume=2362|date=2002|publisher=Springer|location=New York|isbn=978-3-540-43963-9|doi=10.1007/3-540-45636-8|series=Lecture Notes in Computer Science</ref>
+|-
+| Digital Cities 3 || C&T 2003, Amsterdam, NL || Van den Besselaar, P., & Koizumi, S. (Eds.) (2005). Digital Cities 3: Information Technologies for Social Capital (Lecture Notes in Computer Science No. 3081). Heidelberg, Germany: Springer.<ref>cite book|last1=van den Besselaar|first1=Peter|last2=Koizumi|first2=Satoshi|title=Digital Cities III. Information Technologies for Social Capital: Cross-cultural Perspectives: Third International Digital Cities Workshop, Amsterdam, The Netherlands, September 18-19, 2003, Revised Selected Papers|volume=3081|date=2005|publisher=Springer|location=Berlin|isbn=978-3-540-25971-8|doi=10.1007/b107136|series=Lecture Notes in Computer Science</ref>
+|-
+| Digital Cities 4 || C&T 2005, Milan, Italy || Aurigi, A., & De Cindio, F. (Eds.) (2008). Augmented Urban Spaces: Articulating the Physical and Electronic City. Aldershot, UK: Ashgate.<ref name="aurigi2008" />
+|-
+| Digital Cities 5 || C&T 2007, Michigan, U.S. || Foth, M. (Ed.) (2009). Handbook of Research on Urban Informatics: The Practice and Promise of the Real-Time City. Hershey, PA: Information Science Reference, IGI Global.<ref name="foth2009" />
+|-
+| Digital Cities 6 || C&T 2009, PennState, U.S. || Foth, M., Forlano, L., Satchell, C., & Gibbs, M. (Eds.) (2011). From Social Butterfly to Engaged Citizen: Urban Informatics, Social Media, Ubiquitous Computing, and Mobile Technology to Support Citizen Engagement. Cambridge, Massachusetts: MIT Press.<ref name="foth2011" />
+|-
+| Digital Cities 7 || C&T 2011, Brisbane, Australia || Foth, M., Brynskov, M., & Ojala, T. (Eds.) (2015). Citizen's Right to the Digital City: Urban Interfaces, Activism, and Placemaking. Singapore: Springer.<ref name="foth2015" />
+|-
+| Digital Cities 8 || C&T 2013, Munich, Germany || Foth, M., Brynskov, M., & Ojala, T. (Eds.) (2015). Citizen's Right to the Digital City: Urban Interfaces, Activism, and Placemaking. Singapore: Springer.<ref name="foth2015" />
+|-
+| Digital Cities 9 || C&T 2015, Limerick, Ireland || de Lange, M., & de Waal, M. (Eds.) (2019). [https://www.springer.com/gp/book/9789811326936 The Hackable City: Digital Media & Collaborative City-making in the Network Society]. London: Springer. <ref>de Lange, Michiel, and Martijn de Waal, eds. 2019. The Hackable City: Digital Media and Collaborative City-making in the Network Society. London: Springer. ISBN|978-981-13-2694-3. https://doi.org/10.1007/978-981-13-2694-3</ref>
+|-
+| Digital Cities 10 || C&T 2017, Troyes, France || TBC
+|}
+
+ Research centres 
+
+{| class="wikitable"
+|-
+! Year !! Research Centres
+|-
+| 1995 || UCL Centre for Advanced Spatial Analysis, University College London
+|-
+| 2003 || Smart Cities Program, MIT Media Lab, Massachusetts Institute of Technology
+|-
+| 2004 || MIT Senseable City Lab, Massachusetts Institute of Technology
+|-
+| 2005 || Urban Scaling Working Group, Santa Fee Institute
+|-
+| 2006 || Urban Informatics Research Lab, Queensland University of Technology
+|-
+| 2007 || [http://themobilecity.nl The Mobile City], The Netherlands
+|-
+| 2009 || Media Architecture Institute, Vienna. From 2011 also in Sydney, for 2015 in Beijing, and 2016 in Toronto.
+|-
+| 2010 || Future Cities Laboratory, ETH Zürich
+|-
+| 2011 || Boston Area Research Initiative, Radcliffe Institute for Advanced Study, Harvard University
+|-
+| 2012 || Center for Urban Science and Progress, New York University
+|-
+| 2012 || Intel Collaborative Research Institute for Sustainable and Connected Cities (ICRI Cities), Imperial College and University College London
+|-
+| 2012 || Urban Center for Computation and Data, University of Chicago and Argonne National Laboratory
+|-
+|2013
+|:es:Medialab-Prado|MediaLab-Prado, Madrid
+|-
+| 2013 || Programmable City Project, Maynooth University
+|-
+| 2013 || Amsterdam Institute for Advanced Metropolitan Solutions, TU Delft
+|-
+| 2014 || Warwick Institute for the Science of Cities, University of Warwick
+|-
+| 2014 || Urban Big Data Centre, University of Glasgow
+|-
+| 2014 || City Sciences, Universidad Politécnica de Madrid
+|-
+| 2014 || Metro21, Carnegie Mellon University
+|-
+| 2015 || Urban Informatics Program, Northeastern University
+|-
+| 2017 || Urban Informatics Major, Shenzhen University
+|}
+
+ Methods 
+
+The diverse range of people, groups and organisations involved in urban informatics is reflective of the diversity of methods being used in its pursuit and practice. As a result, urban informatics borrows from a wide range of methodologies across the social sciences, humanities, arts, design, architecture, planning (including geographic information systems), and technology (in particular computer science, pervasive computing, and ubiquitous computing), and applies those to the urban domain. Examples include:
+
+* action research and participatory action research<ref>cite book|last1=Hearn|first1=Greg|last2=Tacchi|first2=Jo|last3=Foth|first3=Marcus|last4=Lennie|first4=June|title=Action Research and New Media: Concepts, Methods, and Cases|date=2009|publisher=Hampton Press|location=Cresskill, NJ|isbn=978-1-57273-866-9</ref><ref>cite book|last1=Foth|first1=Marcus|last2=Brynskov|first2=Martin|editor1-last=Gordon|editor1-first=Eric|editor2-last=Mihailidis|editor2-first=Paul|title=Civic Media: Technology, Design, Practice|chapter=Participatory Action Research for Civic Engagement|date=2016|publisher=MIT Press|location=Cambridge, Massachusetts|isbn=978-0-262-03427-2|pages=563–580</ref>
+* big data analytics and urban science<ref name="batty" />
+* critical theory<ref>cite journal|last1=Satchell|first1=Christine|title=Cultural Theory and Design: Identifying Trends by Looking at the Action in the Periphery|journal=ACM interactions|date=1 November 2008|volume=15|issue=6|pages=23|doi=10.1145/1409040.1409046</ref>
+* cultural mapping
+* grounded theory
+* interaction design
+* participatory design
+* spatial analysis including urban modelling, complex urban systems analysis, geographic information systems, space syntax analysis
+* user-centred design
+
+ Further reading 
+
+Since Foth's 2009 "Handbook of Research on Urban Informatics",<ref name="foth2009" /> a number of books and special issues of academic journals have been published on the topic, which further demonstrate the increasing significance and notability of the field of urban informatics. Key works include:
+
+{| class="wikitable"
+|-
+! Year !! Publication
+|-
+| 2011 || Shepard, M. (Ed.) (2011). Sentient City: Ubiquitous Computing, Architecture, and the Future of Urban Space. Cambridge, Massachusetts: MIT Press.<ref>cite book|last1=Shepard|first1=Mark|title=Sentient City: Ubiquitous Computing, Architecture, and the Future of Urban Space|date=2011|publisher=MIT Press|location=Cambridge, Massachusetts|isbn=978-0-262-51586-3</ref>
+|-
+| 2011 || Foth, M., Forlano, L., Satchell, C., & Gibbs, M. (Eds.) (2011). From Social Butterfly to Engaged Citizen: Urban Informatics, Social Media, Ubiquitous Computing, and Mobile Technology to Support Citizen Engagement. Cambridge, Massachusetts: MIT Press.<ref name="foth2011">cite book|last1=Foth|first1=Marcus|last2=Forlano|first2=Laura|last3=Satchell|first3=Christine|last4=Gibbs|first4=Martin|title=From Social Butterfly to Engaged Citizen: Urban Informatics, Social Media, Ubiquitous Computing, and Mobile Technology to Support Citizen Engagement|date=2011|publisher=MIT Press|location=Cambridge, Massachusetts|isbn=978-0-262-01651-3</ref>
+|-
+| 2011 || Kitchin, R., & Dodge, M. (2011). Code/Space: Software and Everyday Life. Cambridge, Massachusetts: MIT Press.<ref name="kitchin2011">cite book|last1=Kitchin|first1=Rob|last2=Dodge|first2=Martin|title=Code/Space: Software and Everyday Life|date=2011|publisher=MIT Press|location=Cambridge, Massachusetts|isbn=9780262042482</ref>
+|-
+| 2011 || Gordon, E., & de Souza e Silva, A. (2011). Net Locality: Why Location Matters in a Networked World. Chichester, UK: Wiley-Blackwell.<ref>cite book|last1=Gordon|first1=Eric|last2=Silva|first2=Adriana de Souza e|title=Net Locality: Why Location Matters in a Networked World|date=2011|publisher=Wiley-Blackwell|location=Chichester, West Sussex, UK|isbn=978-1-4051-8060-3</ref>
+|-
+| 2011 || Hearn, G., Foth, M., & Stevenson, T. (Eds.). (2011). Community Engagement for Sustainable Urban Futures. Special issue of Futures, 43(4).<ref>cite journal|last1=Hearn|first1=Greg|last2=Foth|first2=Marcus|last3=Stevenson|first3=Tony|title=Community Engagement for Sustainable Urban Futures|journal=Futures|date=May 2011|volume=43|issue=4|pages=357–360|doi=10.1016/j.futures.2011.01.002</ref>
+|-
+| 2012 || Foth, M., Rittenbruch, M., Robinson, R., & Viller, S. (Eds.) (2012). Street Computing. Special issue of the Journal of Urban Technology, 19(2).<ref name="Street Computing 2012"/>
+|-
+| 2013 || Townsend, A. (2013). Smart Cities: Big Data, Civic Hackers, and the Quest for a New Utopia. New York, NY: W. W. Norton.<ref>cite book|last1=Townsend|first1=Anthony M.|title=Smart Cities: Big Data, Civic Hackers, and the Quest for a New Utopia|date=2013|publisher=W. W. Norton & Company, Inc.|location=New York, NY|isbn=978-0-393-08287-6</ref>
+|-
+| 2013 || McCullough, M. (2013). Ambient Commons: Attention in the Age of Embodied Information. Cambridge, Massachusetts: MIT Press.<ref>cite book|last1=McCullough|first1=Malcolm|title=Ambient Commons: Attention in the Age of Embodied Information|date=2013|publisher=The MIT Press|location=Cambridge, Massachusetts|isbn=978-0-262-01880-7</ref>
+|-
+| 2013 || Greenfield, A. (2013). Against the Smart City. New York, NY: Do Projects.<ref>cite book|last1=Greenfield|first1=Adam|title=Against the Smart City|date=2013|publisher=Do Projects|location=New York, NY|isbn=978-0-9824383-1-2</ref>
+|-
+| 2014 || Foth, M., Rittenbruch, M., Robinson, R., & Viller, S. (Eds.) (2014). Street Computing: Urban Informatics and City Interfaces. Abingdon, UK: Routledge.<ref>cite book|last1=Foth|first1=Marcus|last2=Rittenbruch|first2=Markus|last3=Robinson|first3=Ricky|last4=Viller|first4=Stephen|title=Street Computing: Urban Informatics and City Interfaces|date=2013|publisher=Routledge|location=Abingdon, UK|isbn=978-0-415-84336-2</ref>
+|-
+| 2014 || de Waal, M. (2014). The City as Interface: How New Media are Changing the City. Rotterdam, NL: NAi010 Publisher.<ref>cite book|last1=de Waal|first1=Martijn|title=The City as Interface: How New Media Are Changing the City|date=2014|publisher=NAi010 Publisher|location=Rotterdam, NL|isbn=9789462080508</ref>
+|-
+| 2014 || Unsworth, K., Forte, A., & Dilworth, R. (Eds.) (2014). Urban Informatics: The Role of Citizen Participation in Policy Making. Special issue of the Journal of Urban Technology, 21(4).<ref>cite journal|last1=Unsworth|first1=Kristene|last2=Forte|first2=Andrea|last3=Dilworth|first3=Richardson|title=Urban Informatics: The Role of Citizen Participation in Policy Making|journal=Journal of Urban Technology|date=22 December 2014|volume=21|issue=4|pages=1–5|doi=10.1080/10630732.2014.971527</ref>
+|-
+| 2015 || Houghton, K., & Choi, J. H.-j. (Eds.) (2015). Urban Acupuncture. Special issue of the Journal of Urban Technology, 22(3).<ref>cite journal|last1=Houghton|first1=Kirralie|last2=Choi|first2=Jaz Hee-jeong|last3=Lugmayr|first3=Artur|title=Urban Acupuncture|journal=Journal of Urban Technology|date=2 October 2015|volume=22|issue=3|pages=1–2|doi=10.1080/10630732.2015.1087684</ref>
+|-
+| 2015 || Kukka, H., Foth, M., & Dey, A. K. (Eds.) (2015). Transdisciplinary Approaches to Urban Computing. Special issue of the International Journal of Human-Computer Studies, 81.<ref>cite journal|last1=Kukka|first1=Hannu|last2=Foth|first2=Marcus|last3=Dey|first3=Anind K.|title=Transdisciplinary Approaches to Urban Computing|journal=International Journal of Human-Computer Studies|date=September 2015|volume=81|pages=1–3|doi=10.1016/j.ijhcs.2015.05.003</ref>
+|-
+| 2015 || Foth, M., Brynskov, M., & Ojala, T. (Eds.) (2015). Citizen's Right to the Digital City: Urban Interfaces, Activism, and Placemaking. Singapore: Springer.<ref name="foth2015">cite book|last1=Foth|first1=Marcus|last2=Brynskov|first2=Martin|last3=Ojala|first3=Timo|title=Citizen's Right to the Digital City: Urban Interfaces, Activism, and Placemaking|date=2015|publisher=Springer|location=Singapore|isbn=9789812879172</ref>
+|-
+| 2015 || Willis, K. S. (2015). Netspaces: Space and Place in a Networked World. London, UK: Routledge.<ref>cite book|last1=Willis|first1=Katharine S.|title=Netspaces: Space and Place in a Networked World|date=2015|publisher=Routledge|location=London|isbn=9781472438621</ref>
+|-
+| 2015 || Salim, F., & Haque, U. (2015). Urban computing in the wild: A survey on large scale participation and citizen engagement with ubiquitous computing, cyber physical Systems, and internet of Things. International Journal of Human-Computer Studies, 81(Transdisciplinary Approaches to Urban Computing), 31–48.<ref>cite journal| last1=Salim|first1=Salim|last2=Haque|first2=Usman|title=Urban computing in the wild: A survey on large scale participation and citizen engagement with ubiquitous computing, cyber physical Systems, and internet of Things|journal= International Journal of Human-Computer Studies|date=2015|issue=81(Transdisciplinary Approaches to Urban Computing)|pages=31–48|doi=10.1016/j.ijhcs.2015.03.003</ref>
+|-
+| 2016 || Katz, V. S., & Hampton, K. N. (Eds.) (2016). Communication in City and Community: From the Chicago School to Digital Technology. Special issue of the American Behavioral Scientist, 60(1).<ref>cite journal|last1=Katz|first1=Vikki S.|last2=Hampton|first2=Keith N.|title=Communication in City and Community: From the Chicago School to Digital Technology|journal=American Behavioral Scientist|date=January 2016|volume=60|issue=1|pages=3–7|doi=10.1177/0002764215601708</ref>
+|-
+| 2016 || Ratti, C., & Claudel, M. (2016). The City of Tomorrow: Sensors, Networks, Hackers, and the Future of Urban Life. New Haven, CT: Yale University Press.<ref>cite book|last1=Ratti|first1=Carlo|last2=Claudel|first2=Matthew|title=The City of Tomorrow: Sensors, Networks, Hackers, and the Future of Urban Life|date=2016|publisher=Yale University Press|location=New Haven, CT|isbn=978-0-300-20480-3</ref>
+|-
+| 2017 || Thakuriah, P., Tilahun, N., & Zellner, M. (Eds.) (2017, in press). Seeing Cities Through Big Data: Research, Methods and Applications in Urban Informatics. London, UK: Springer.<ref>cite book|last1=Thakuriah|first1=Piyushimita|last2=Tilahun|first2=Nebiyou|last3=Zellner|first3=Moira|title=Seeing Cities Through Big Data: Research, Methods and Applications in Urban Informatics|date=2017|publisher=Springer|isbn=978-3-319-40900-9</ref>
+|}
+
+Current calls for special issues of academic journals include:
+* [http://www.mdpi.com/journal/ijgi/special_issues/big_data Big Data for Urban Informatics and Earth Observation], ISPRS International Journal of Geo-Information
+* [http://www.journals.elsevier.com/climate-risk-management/call-for-papers/call-for-papers-the-use-of-urban-informatics-in-climate-risk The Use of Urban Informatics in Climate Risk Management], [http://www.journals.elsevier.com/climate-risk-management/ Climate Risk Management]
+
+ Relation to other research fields 
+* Community informatics
+* Geoinformatics
+* Human-computer Interaction
+* Interaction design
+* Ubiquitous computing
+* Urban computing
+
+ See also 
+*Communicative ecology – one of the theoretical frameworks used in some urban informatics research studies
+*E-government
+*Location-based service
+*Locative media
+*Placemaking
+
+ References 
+Reflist|30em
+
+Category:Community networks
+Category:Computing and society
+Category:Human–computer interaction
+Category:Information society
+Category:Interdisciplinary subfields of sociology
+Category:Urban design
+Category:Urban planning

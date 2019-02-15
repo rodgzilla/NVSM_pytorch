@@ -1,0 +1,53 @@
+use dmy dates|date=January 2012
+Infobox software
+| name = Tor2web
+| logo = Tor2web.svg
+| logo_size = 120px
+| screenshot =
+| caption =
+| author = Aaron Swartz, Virgil Griffith
+| developer = [https://www.hermescenter.org/ Hermes Center for Transparency and Digital Human Rights]
+| released = start date|2008|10|24|df=yes<ref name=indefense>cite web|last=Aaron|first=Swartz|title=In Defense of Anonymity|url=http://www.aaronsw.com/weblog/tor2web|accessdate=4 February 2014|date=24 October 2008|website=Raw Thought</ref>
+| latest release version = 3.1.20
+| latest release date    = Start date and age|df=yes|2014|07|29
+| programming language   = Python (programming language)|Python
+| operating system       = Linux, Tails OS
+| genre =
+| license = Affero General Public License
+| website = URL|https://www.tor2web.org
+
+
+Tor2web ( pronounced "Tor to Web" ) is a software project to allow List of Tor hidden services|Tor hidden services to be accessed from a standard web browser|browser without being connected to the Tor (anonymity network)|Tor network. It was created by Aaron Swartz and Virgil Griffith.<ref name=wired>cite web|first=Kim|last=Zetter|title=New Service Makes Tor Anonymized Content Available to All|url=https://www.wired.com/threatlevel/2008/12/tor-anonymized/|publisher=wired.com|accessdate=22 February 2014|date=12 December 2008</ref>
+
+History
+Tor is a network which enables people to use the Internet anonymously (though with known Tor (anonymity network)#Weaknesses|weaknesses) and to publish content on "hidden services", which exist only within the Tor network for security reasons and thus are typically only accessible to the relatively small number of people using a Tor-connected web browser. Aaron Swartz and Virgil Griffith developed Tor2web in 2008 as a way to support whistleblowing and other forms of anonymity|anonymous web publishing|publishing through Tor, allowing materials to remain anonymous while making them accessible to a broader audience.<ref name=indefense/><ref name=ars>cite web|title=tor2web brings anonymous Tor sites to the "regular" web|url=https://arstechnica.com/uncategorized/2008/12/tor2web-brings-anonymous-tor-sites-to-the-regular-web/|publisher=arstechnica.com|accessdate=22 February 2014|date=15 December 2008|last=Cheng|first=Jacqui</ref> In an interview with ''Wired (magazine)|Wired'' Swartz explained that Tor is great for anonymous publishing, but because its focus is not user-friendliness and thus not many people would install it, he wanted to "produce this hybrid where people could publish stuff using Tor and make it so that anyone on the internet could view it".<ref name=wired/>
+
+The software developed by Swartz and Griffith is today considered version 1.0. Since then, it has been maintained and developed by Giovanni Pellerano from the Hermes Center for Transparency and Digital Human Rights as part of the GlobaLeaks|GlobaLeaks Project, with financial support from the Open Technology Fund. Version 2.0 was released in August 2011, and version 3.0 is in beta as of|2014|12|lc=y.<ref name=version2>cite web|url=http://seclists.org/fulldisclosure/2011/Aug/184|title=Tor2web 2.0 is live!|first=Arturo|last=Filastò|website=Seclists</ref>
+
+Operation and security
+Rather than typical top-level domains like <code>.com</code>, <code>.org</code>, or <code>.net</code>, hidden service URLs end with <code>.onion</code> and are only accessible when connected to Tor. Tor2web acts as a specialized HTTP proxy|proxy or intermediary|middleman between hidden services and users, making them visible to people who are not connected to Tor. To do so, a user takes the URL of a hidden service and replaces <code>.onion</code> with <code>.tor2web.io</code>.
+
+Like Tor, Tor2web operates using servers run voluntarily by an open community of individuals and organizations.
+
+Tor2web preserves the anonymity of content publishers but is not itself an anonymity tool and does not offer any protection to users beyond relaying data using HTTP Secure (HTTPS). Since version 2.0, a privacy and security warning is added to the header of each web page it fetches, encouraging readers to use the Tor Browser Bundle to obtain anonymity.
+
+See also
+Portal|Computer networking
+<!-- Please keep entries in alphabetical order & add a short description WP:SEEALSO -->
+* Dark web
+<!-- please keep entries in alphabetical order -->
+
+References
+Reflist|30em
+
+External links
+* Official website
+
+
+Tor (anonymity network)
+Tor hidden services
+
+Category:Dark web
+Category:Tor (anonymity network)
+Category:Free software
+Category:Software using the GNU AGPL license

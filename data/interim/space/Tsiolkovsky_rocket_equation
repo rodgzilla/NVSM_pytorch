@@ -1,0 +1,235 @@
+File:Tsiolkovsky rocket equation.svg|thumb|right|A chart that shows a rocket's mass ratios plotted against its final velocity calculated using Tsiolkovsky's rocket equation.
+Astrodynamics |Equations
+
+The Tsiolkovsky rocket equation, classical rocket equation, or ideal rocket equation (also known mistakenly as delta-v) is a mathematical equation that describes the motion of vehicles that follow the basic principle of a rocket: a device that can apply acceleration to itself using thrust by expelling part of its mass with high velocity and thereby move due to the conservation of momentum.
+
+The equation relates the delta-v (the maximum change of velocity of the rocket if no other external forces act) with the Specific impulse|effective exhaust velocity and the initial and final mass of a rocket, or other reaction engine.
+
+For any such maneuver (or journey involving a sequence of such maneuvers):
+
+:<math>\Delta v = v_\text{e} \ln \frac {m_0} {m_f}</math>
+
+where:
+:<math>\Delta v\ </math> is delta-v – the maximum change of velocity of the vehicle (with no external forces acting).
+:<math>m_0</math> is the initial total mass, including propellant, also known as wet mass.
+:<math>m_f</math> is the final total mass without propellant, also known as dry mass.
+:<math>v_\text{e}</math> is the effective exhaust velocity.
+:<math>\ln</math> is the natural logarithm function.
+
+(The equation can also be written using the specific impulse instead of the effective exhaust velocity by applying the formula <math>v_\text{e} = I_\text{sp} \cdot g_0</math> where <math>I_\text{sp}</math> is the specific impulse expressed as a time period and <math>g_0</math> is standard gravity = 9.80665&nbsp;m/s<sup>2</sup>.)
+
+ History 
+The equation is named after Russian Empire|Russian scientist Konstantin Tsiolkovsky who independently derived it and published it in his 1903 work.<ref>К. Ціолковскій, Изслѣдованіе мировыхъ пространствъ реактивными приборами, 1903 (available online [http://epizodsspace.airbase.ru/bibl/dorev-knigi/ciolkovskiy/sm.rar here] webarchive|url=https://web.archive.org/web/20110815183920/http://epizodsspace.airbase.ru/bibl/dorev-knigi/ciolkovskiy/sm.rar |date=2011-08-15  in a RAR (file format)|RARed PDF)</ref> The equation had been derived earlier by the United Kingdom|British mathematician William Moore (British mathematician)|William Moore in 1813.<ref name=moore>Cite book |authorlink=William Moore (British mathematician) |last=Moore |first=William |author2= of the Military Academy at Woolwich |title=A Treatise on the Motion of Rockets. To which is added, An Essay on Naval Gunnery |location=London |date=1813 |publisher=G. and S. Robinson <!-- in 8 volumes, price 10s --></ref> The minister William Leitch (scientist)|William Leitch who was a capable scientist also independently derived the fundamentals of rocketry in 1861.
+
+While the derivation of the rocket equation is a straightforward calculus exercise, Tsiolkovsky is honored as being the first to apply it to the question of whether rockets could achieve speeds necessary for Spaceflight|space travel.
+
+Derivation
+=Most popular derivation=
+Consider the following system:
+Image:Var mass system.svg
+
+In the following derivation, "the rocket" is taken to mean "the rocket and all of its unburned propellant".
+
+Newton's second law of motion relates external forces (<math>F_i\,</math>) to the change in linear momentum of the whole system (including rocket and exhaust) as follows:
+
+:<math>\sum F_i  = \lim_{\Delta t \to 0} \frac{P_2-P_1}{\Delta t}</math>
+
+where <math>P_1\,</math> is the momentum of the rocket at time <math>t=0</math>:
+
+:<math> P_1  = \left( {m + \Delta m} \right)V</math>
+
+and <math>P_2\,</math> is the momentum of the rocket and exhausted mass at time <math>t=\Delta t\,</math>:
+
+:<math>P_2  = m\left(V  + \Delta V \right) + \Delta m V_e</math>
+
+and where, with respect to the observer:
+
+:{|
+| <math>V\,</math> is the velocity of the rocket at time <math>t=0</math>
+|-
+| <math>V+\Delta V\,</math> is the velocity of the rocket at time <math>t=\Delta t\,</math>
+|-
+| <math>V_e\,</math> is the velocity of the mass added to the exhaust (and lost by the rocket) during time <math>\Delta t\,</math>
+|-
+| <math>m+\Delta m\,</math> is the mass of the rocket at time <math>t=0</math>
+|-
+| <math>m\,</math> is the mass of the rocket at time <math>t=\Delta t\,</math>
+|}
+
+The velocity of the exhaust <math>V_e</math> in the observer frame is related to the velocity of the exhaust in the rocket frame <math>v_e</math> by (since exhaust velocity is in the negative direction)
+
+:<math>V_e=V-v_e</math>
+
+Solving yields:
+
+:<math>P_2-P_1=m\Delta V-v_e\Delta m\,</math>
+
+and, using <math>dm=-\Delta m</math>, since ejecting a positive <math>\Delta m</math> results in a decrease in mass,
+
+:<math>\sum F_i=m\frac{dV}{dt}+v_e\frac{dm}{dt}</math>
+
+If there are no external forces then <math>\sum F_i=0</math> (Momentum#Conservation|conservation of linear momentum) and
+
+:<math>m\frac{dV}{dt}=-v_e\frac{dm}{dt}</math>
+
+Assuming <math>v_e\,</math> is constant, this may be integrated to yield:
+
+:<math>\Delta V\ = v_e \ln \frac {m_0} {m_1}</math>
+
+or equivalently
+
+:<math>m_1=m_0 e^{-\Delta V\ / v_e}</math> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <math>m_0=m_1 e^{\Delta V\ / v_e}</math> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <math>m_0 - m_1=m_1 (e^{\Delta V\ / v_e} - 1)</math>
+
+where <math>m_0</math> is the initial total mass including propellant, <math>m_1</math>  the final total mass, and <math>v_e</math> the velocity of the rocket exhaust with respect to the rocket (the specific impulse, or, if measured in time, that multiplied by gravity-on-Earth acceleration).
+
+The value <math>m_0 - m_1</math> is the total mass of propellant expended, and hence:
+
+:<math>M_f = 1-\frac {m_1} {m_0}=1-e^{-\Delta V\ / v_\text{e</math>
+
+where <math>M_f</math> is the propellant mass fraction (the part of the initial total mass that is spent as working mass).
+
+<math>\Delta V\ </math> (delta v) is the integration over time of the magnitude of the acceleration produced by using the rocket engine (what would be the actual acceleration if external forces were absent). In free space, for the case of acceleration in the direction of the velocity, this is the increase of the speed. In the case of an acceleration in opposite direction (deceleration) it is the decrease of the speed. Of course gravity and drag also accelerate the vehicle, and they can add or subtract to the change in velocity experienced by the vehicle. Hence delta-v is not usually the actual change in speed or velocity of the vehicle.
+
+=Special relativity=
+
+If special relativity is taken into account, the following equation can be derived for a relativistic rocket,<ref>Forward, Robert L. [http://www.relativitycalculator.com/images/rocket_equations/AIAA.pdf "A Transparent Derivation of the Relativistic Rocket Equation"] (see the right side of equation 15 on the last page, with R as the ratio of initial to final mass and w as the exhaust velocity, corresponding to v<sub>e</sub> in the notation of this article)</ref> with <math>\Delta v</math> again standing for the rocket's final velocity (after expelling all its reaction mass and being reduced to a rest mass of <math>m_1</math>) in the inertial frame of reference where the rocket started at rest (with the rest mass including fuel being <math>m_0</math> initially), and <math>c</math> standing for the speed of light in a vacuum:
+
+:<math>\frac{m_0}{m_1} = \left[\frac{1 + {\frac{\Delta v}{c}{1 - {\frac{\Delta v}{c}\right]^{\frac{c}{2v_e</math>
+
+Writing <math>\frac{m_0}{m_1}</math> as <math>R</math>, a little algebra allows this equation to be rearranged as
+
+:<math>\frac{\Delta v}{c} = \frac{R^{\frac{2v_e}{c - 1}{R^{\frac{2v_e}{c + 1}</math>
+
+Then, using the Identity (mathematics)|identity <math>R^{\frac{2v_e}{c = \exp \left[ \frac{2v_e}{c} \ln R \right]</math> (here "exp" denotes the exponential function; ''see also'' Natural logarithm as well as the "power" identity at Logarithm#Product, quotient, power and root|Logarithmic identities) and the identity <math>\tanh x = \frac{e^{2x} - 1} {e^{2x} + 1}</math> (''see'' Hyperbolic function), this is equivalent to
+
+:<math>\Delta v = c \cdot \tanh \left(\frac {v_e}{c} \ln \frac{m_0}{m_1} \right)</math>
+
+=Other derivations=
+
+Impulse-based
+The equation can also be derived from the basic integral of acceleration in the form of force (thrust) over mass.
+By representing the delta-v equation as the following:
+:<math>\Delta v = \int^{t1}_{t0} \frac{|T|}m_0}-{t} \Delta{m ~ dt</math>
+
+where T is thrust, <math>m_0</math> is the initial (wet) mass and <math>\Delta m</math> is the initial mass minus the final (dry) mass,
+
+and realising that the integral of a resultant force over time is total impulse, assuming thrust is the only force involved,
+:<math>\int^{t1}_{t0} F ~ dt = J</math>
+
+The integral is found to be:
+:<math>J ~ \frac{\ln({m_0}) - \ln({m_1})}{\Delta m}</math>
+
+Realising that impulse over the change in mass is equivalent to force over propellant mass flow rate (p), which is itself equivalent to exhaust velocity,
+:<math> \frac{J}{\Delta m} = \frac{F}{p} = V_{\rm exh}</math>
+
+the integral can be equated to
+:<math>\Delta v = V_{\rm exh} ~ \ln\left({\frac{m_0}{m_1\right)</math>
+
+Acceleration-based
+
+Imagine a rocket at rest in space with no forces exerted on it (Newton's laws of motion|Newton's First Law of Motion). From the moment its engine is started (clock set to 0) the rocket expels gas mass at a ''constant mass flow rate p'' (kg/s) and at ''exhaust velocity relative to the rocket v<sub>e</sub>'' (m/s). This creates a constant force propelling the rocket that is equal to ''p × v<sub>e</sub>''. The mass of fuel the rocket initially has on board is equal to ''m<sub>0</sub> – m<sub>f</sub>''. The mass flow rate is defined as the total wet mass of the rocket over the combustion time of the rocket, so it will therefore take a time that is equal to ''(m<sub>0</sub> – m<sub>f</sub>)/p'' to burn all this fuel. Now, the rocket is subject to a constant force (M × v<sub>e</sub>), but at the same time its total weight is decreasing steadily because it's expelling gas. According to Newton's laws of motion|Newton's Second Law of Motion, this can have only one consequence; its acceleration is increasing steadily. To obtain the acceleration, the propelling force has to be divided by the rocket's total mass. So, the level of acceleration at any moment (''t'') after ignition and until the fuel runs out is given by;
+
+:<math> ~ \frac{p  v_e}{m_0 - (p  t)}.</math>
+
+Since change in velocity is the definite integral of acceleration, integrating the above equation across the time period the rocket fires yields its change in velocity;
+
+:<math> ~ \int^{t_{final_{0} \frac{p  v_e}{m_0 - (p  t)} ~ dt = ~ - v_e  \ln(m_o-(m_o-m_f)) + v_e  \ln(m_0-0) =  ~ v_e  \ln(m_0)- v_e  \ln(m_f) ~ = ~ v_e  \ln\left(\frac{m_0}{m_f}\right).</math>
+
+Terms of the equation
+
+=Delta-''v''=
+main article|Delta-v
+Delta-''v'' (literally "Delta (letter)#Upper case|change in velocity"), symbolised as Δ''v'' and pronounced ''delta-vee'', as used in flight dynamics (spacecraft)|spacecraft flight dynamics, is a measure of the impulse (physics)|impulse that is needed to perform a maneuver such as launching from, or landing on a planet or moon, or an in-space orbital maneuver. It is a scalar (mathematics)|scalar that has the units of speed. As used in this context, it is ''not'' the same as the delta-v (physics)|physical change in velocity of the vehicle.
+
+Delta-''v'' is produced by reaction engines, such as rocket engines and is proportional to the thrust per unit mass, and burn time, and is used to determine the mass  of rocket propellant|propellant required for the given manoeuvre through the rocket equation.
+
+For multiple manoeuvres, delta-''v'' sums linearly.
+
+For interplanetary missions delta-''v'' is often plotted on a porkchop plot which displays the required mission delta-''v'' as a function of launch date.
+
+=Mass fraction=
+main article|Propellant mass fraction
+In aerospace engineering, the propellant mass fraction is the portion of a vehicle's mass which does not reach the destination, usually used as a measure of the vehicle's performance. In other words, the propellant mass fraction is the ratio between the propellant mass and the initial mass of the vehicle. In a spacecraft, the destination is usually an orbit, while for aircraft it is their landing location. A higher mass fraction represents less weight in a design.  Another related measure is the payload fraction, which is the fraction of initial weight that is payload.
+
+=Effective exhaust velocity=
+main article|Effective exhaust velocity
+The effective exhaust velocity is often specified as a specific impulse and they are related to each other by:
+
+:<math>v_\text{e} = g_0 I_\text{sp},</math>
+
+where
+
+:<math>I_\text{sp}</math> is the specific impulse in seconds,
+
+:<math>v_\text{e}</math> is the specific impulse measured in metre per second|m/s, which is the same as the effective exhaust velocity measured in m/s (or ft/s if g is in ft/s<sup>2</sup>),
+
+:<math>g_0</math> is the standard gravity, 9.80665 m/s<sup>2</sup> (in Imperial units 32.174 ft/s<sup>2</sup>).
+
+Applicability
+The rocket equation captures the essentials of rocket flight physics in a single short equation. It also holds true for rocket-like reaction vehicles whenever the effective exhaust velocity is constant, and can be summed or integrated when the effective exhaust velocity varies. The rocket equation only accounts for the reaction force from the rocket engine; it does not include other forces that may act on a rocket, such as aerodynamic force|aerodynamic or gravitational forces. As such, when using it to calculate the propellant requirement for launch from (or powered descent to) a planet with an atmosphere, the effects of these forces must be included in the delta-V requirement (see Examples below). In what has been called "the tyranny of the rocket equation", there is a limit to the amount of Payload fraction|payload that the rocket can carry, as higher amounts of propellant increment the overall weight, and thus also increase the fuel consumption.<ref>Cite web|url=http://www.nasa.gov/mission_pages/station/expeditions/expedition30/tryanny.html|title=NASA – The Tyranny of the Rocket Equation|website=www.nasa.gov|language=en|access-date=2016-04-18</ref> The equation does not apply to Non-rocket spacelaunch|non-rocket systems such as aerobraking, Space gun|gun launches, space elevators, launch loops, or tether propulsion.
+
+The rocket equation can be applied to orbital maneuvers in order to determine how much propellant is needed to change to a particular new orbit, or to find the new orbit as the result of a particular propellant burn. When applying to orbital maneuvers, one assumes an Orbital maneuver|impulsive maneuver, in which the propellant is discharged and delta-v applied instantaneously. This assumption is relatively accurate for short-duration burns such as for mid-course corrections and orbital insertion maneuvers. As the burn duration increases, the result is less accurate due to the effect of gravity on the vehicle over the duration of the maneuver. For low-thrust, long duration propulsion, such as Electrically powered spacecraft propulsion|electric propulsion, more complicated analysis based on the propagation of the spacecraft's state vector and the integration of thrust are used to predict orbital motion.
+
+Examples
+Assume an exhaust velocity of convert|4500|m/s|ft/s|sp=us and a <math>\Delta v</math> of convert|9700|m/s|ft/s|sp=us (Earth to low Earth orbit|LEO, including <math>\Delta v</math> to overcome gravity and aerodynamic drag).
+
+*Single-stage-to-orbit rocket: <math>1-e^{-9.7/4.5}</math> = 0.884, therefore 88.4% of the initial total mass has to be propellant. The remaining 11.6% is for the engines, the tank, and the payload.
+*Two-stage-to-orbit: suppose that the first stage should provide a <math>\Delta v</math> of convert|5000|m/s|ft/s|sp=us; <math>1-e^{-5.0/4.5}</math> = 0.671, therefore 67.1% of the initial total mass has to be propellant to the first stage. The remaining mass is 32.9%. After disposing of the first stage, a mass remains equal to this 32.9%, minus the mass of the tank and engines of the first stage. Assume that this is 8% of the initial total mass, then 24.9% remains. The second stage should provide a <math>\Delta v</math> of convert|4700|m/s|ft/s|sp=us; <math>1-e^{-4.7/4.5}</math> = 0.648, therefore 64.8% of the remaining mass has to be propellant, which is 16.2% of the original total mass, and 8.7% remains for the tank and engines of the second stage, the payload, and in the case of a space shuttle, also the orbiter. Thus together 16.7% of the original launch mass is available for ''all'' engines, the tanks, and payload.
+
+Stages
+In the case of sequentially thrusting Staging (rocketry)|rocket stages, the equation applies for each stage, where for each stage the initial mass in the equation is the total mass of the rocket after discarding the previous stage, and the final mass in the equation is the total mass of the rocket just before discarding the stage concerned. For each stage the specific impulse may be different.
+
+For example, if 80% of the mass of a rocket is the fuel of the first stage, and 10% is the dry mass of the first stage, and 10% is the remaining rocket, then
+
+:<math>
+\begin{align}
+\Delta v \ & = v_\text{e} \ln { 100 \over 100 - 80 }\\
+           & = v_\text{e} \ln 5 \\
+           & = 1.61 v_\text{e}. \\
+\end{align}
+</math>
+
+With three similar, subsequently smaller stages with the same <math>v_e</math> for each stage, we have
+
+:<math>\Delta v \ = 3 v_\text{e} \ln 5 \ = 4.83 v_\text{e} </math>
+
+and the payload is 10%*10%*10% = 0.1% of the initial mass.
+
+A comparable Single-stage-to-orbit|SSTO rocket, also with a 0.1% payload, could have a mass of 11.1% for fuel tanks and engines, and 88.8% for fuel. This would give
+
+:<math>\Delta v \ = v_\text{e} \ln(100/11.2) \ = 2.19 v_\text{e}. </math>
+
+If the motor of a new stage is ignited before the previous stage has been discarded and the simultaneously working motors have a different specific impulse (as is often the case with solid rocket boosters and a liquid-fuel stage), the situation is more complicated.
+
+Common misconceptions
+
+When viewed as a variable-mass system, a rocket cannot be directly analyzed with Newton's second law of motion because the law is valid for constant-mass systems only.<ref name="plastino">cite journal|last=Plastino|first=Angel R. |author2=Muzzio, Juan C. |date=1992|title=On the use and abuse of Newton's second law for variable mass problems|journal=Celestial Mechanics and Dynamical Astronomy|publisher=Kluwer Academic Publishers|location=Netherlands|volume= 53|issue= 3|pages=227–232|issn=0923-2958|bibcode=1992CeMDA..53..227P|doi=10.1007/BF00052611 "We may conclude emphasizing that Newton's second law is valid for constant mass only. When the mass varies due to accretion or ablation, [an alternate equation explicitly accounting for the changing mass] should be used."</ref><ref name=Halliday>cite book|last1=Halliday|last2=Resnick |title=Physics|volume=1|pages=199|quote=It is important to note that we ''cannot'' derive a general expression for Newton's second law for variable mass systems by treating the mass in F = ''d''P/''dt'' = ''d''(''M''v) as a ''variable''. [...] We ''can'' use F = ''d''P/''dt'' to analyze variable mass systems ''only'' if we apply it to an ''entire system of constant mass'' having parts among which there is an interchange of mass.|isbn=0-471-03710-9 [Emphasis as in the original]</ref><ref name=Kleppner>
+cite book|last=Kleppner|first=Daniel|author2=Robert Kolenkow |title=An Introduction to Mechanics|publisher=McGraw-Hill|date=1973|pages=133–134|isbn=0-07-035048-5|quote=Recall that F = ''d''P/''dt''  was established for a system composed of a certain set of particles[. ... I]t is essential to deal with the same set of particles throughout the time interval[. ...] Consequently, the mass of the system can not change during the time of interest.</ref>  It can cause confusion that the Tsiolkovsky rocket equation looks similar to the Relativistic_mechanics#Force|relativistic force equation <math>F = dp/dt = m \; dv/dt + v \; dm/dt</math>.  Using this formula with <math>m(t)</math> as the varying mass of the rocket seems to derive Tsiolkovsky rocket equation, but this derivation is not correct. Notice that the effective exhaust velocity <math>v_e</math> does not even appear in this formula.
+
+See also
+Portal| Spaceflight 
+* Delta-v budget
+* Mass ratio
+* Oberth effect applying delta-v in a gravity well increases the final velocity
+* Relativistic rocket
+* Reversibility of orbits
+* Spacecraft propulsion
+* Variable-mass systems
+* Working mass
+
+References
+Reflist
+
+External links
+*[http://ed-thelen.org/rocket-eq.html How to derive the rocket equation]
+*[http://www.relativitycalculator.com/rocket_equations.shtml Relativity Calculator – Learn Tsiolkovsky's rocket equations]
+*[http://www.wolframalpha.com/input/?i=Tsiolkovsky+rocket+equation Tsiolkovsky's rocket equations plot and calculator in WolframAlpha]
+
+Orbits
+
+DEFAULTSORT:Tsiolkovsky Rocket Equation
+Category:Astrodynamics
+Category:Equations
+Category:Konstantin Tsiolkovsky|Rocket Equation
+Category:Single-stage-to-orbit
+Category:Rocket propulsion

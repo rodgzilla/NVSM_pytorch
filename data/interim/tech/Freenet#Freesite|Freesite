@@ -1,0 +1,235 @@
+distinguish|Free-Net
+Other uses
+use dmy dates|date=January 2012
+Multiple issues|more citations needed|date=July 2013More footnotes|article|date=August 2013
+Infobox software
+| title                  = 
+| name                   = Freenet
+| logo                   = Freenet logo.svg
+| logo caption           = 
+| screenshot             = Freenetscreenshot.png
+| caption                = FProxy index page (Freenet 0.7)
+| collapsible            = 
+| author                 = 
+| developer              = The Freenet Project<ref name="People">cite web| title = People| url = https://freenetproject.org/people.html| date = 22 September 2008| publisher = ''Freenet: The Free Network official website''| accessdate = 31 May 2014| deadurl = yes| archiveurl = https://web.archive.org/web/20130921053414/https://freenetproject.org/people.html| archivedate = 21 September 2013| df = dmy-all</ref>
+| released               = start date and age|2000|3 <!-- Start date|2000|03|DD|df=yes/no -->
+| discontinued           = 
+| latest release version = Latest stable software release/Freenet
+| latest preview version = 0.7.5 (Build 1479-pre5)
+| latest preview date    = Start date and age|2017|10|14|df=yes/no<ref>https://github.com/freenet/fred/releases/tag/testing-build-1479-pre5</ref>
+| status                 = Active
+| programming language   = Java (programming language)|Java
+| operating system       = Cross-platform
+| platform               = Java (Sun)|Java
+| size                   = 
+| language               = English, French, Italian, German, Dutch, Spanish, Portuguese, Swedish, Norwegian, Chinese<ref>[https://github.com/freenet/fred/tree/master/src/freenet/l10n Language specific versions of Freenet], ''GitHub: Freenet''.</ref>
+| language count         = <!-- DO NOT include this parameter unless you know what it does -->
+| language footnote      = 
+| genre                  = Anonymity, peer-to-peer, friend-to-friend, overlay network
+| license                = GNU General Public License
+| alexa                  = 
+| website                = URL|https://freenetproject.org
+| standard               = 
+| AsOf                   = 
+| logo_alt               = Logo of Freenet
+| screenshot_alt         = Screenshot of Freenet 0.7
+
+File sharing sidebar
+Freenet is a peer-to-peer platform for censorship-resistant communication. It uses a decentralized distributed data store to keep and deliver information, and has a suite of free software for publishing and communicating on the Web without fear of censorship.<ref name="What is Freenet?">[https://freenetproject.org/whatis.html What is Freenet?] webarchive|url=https://web.archive.org/web/20110916012340/https://freenetproject.org/whatis.html |date=16 September 2011 , ''Freenet: The Free network official website''.</ref><ref name="Peers in a Client/Server World, 2005">Taylor, Ian J. ''From P2P to Web Services and Grids: Peers in a Client/Server World''. London: Springer, 2005.</ref>rp|151 Both Freenet and some of its associated tools were originally designed by Ian Clarke (computer scientist)|Ian Clarke, who defined Freenet's goal as providing freedom of speech on the Internet with strong anonymity protection.<ref name="Time Magazine">cite news|url=http://www.time.com/time/magazine/article/0,9171,997286,00.html|title=The Infoanarchist|last=Cohen|first=Adam|date=26 June 2000|work=Time (magazine)|''TIME'' Magazine|accessdate=18 December 2011</ref><ref name="The Guardian">cite news|url=https://www.theguardian.com/technology/2009/nov/26/dark-side-internet-freenet |title=The dark side of the internet |last=Beckett |first=Andy |date=26 November 2009 |work=The Guardian |accessdate=26 November 2009 |deadurl=bot: unknown |archiveurl=https://web.archive.org/web/20130908073158/http://www.theguardian.com/technology/2009/nov/26/dark-side-internet-freenet |archivedate=8 September 2013 |df=dmy   [http://blog.locut.us/2009/11/26/the-guardian-writes-about-freenet/ The Guardian writes about Freenet (Ian Clarke's response)] [https://www.webcitation.org/6PzlbqMVu?url=http://blog.locut.us/2009/11/26/the-guardian-writes-about-freenet/ Archived at WebCite]</ref>
+
+The distributed data store of Freenet is used by many third-party programs and plugins to provide microblogging and media sharing,<ref name="sone">cite web |url = http://draketo.de/licht/freie-software/freenet/sone-pseudonymes-microblogging|title = Sone: Pseudonymes Microblogging über Freenet, german article, 2010</ref> anonymous and decentralised version tracking,<ref name="infocalypse">cite web | url=http://mercurial.selenic.com/wiki/Infocalypse | title=Infoclypse: A Mercurial plugin for decentral, anonymous version tracking and code-sharing over freenet | deadurl=yes | archiveurl=https://web.archive.org/web/20111120194346/http://mercurial.selenic.com/wiki/Infocalypse | archivedate=20 November 2011 | df=dmy-all </ref> blogging,<ref name="floghelper">cite web | url=https://github.com/freenet/plugin-FlogHelper-staging|title=Flog Helper: Easy Blogging over Freenet</ref> a generic web of trust for decentralized Anti-spam techniques|spam resistance,<ref name="weboftrust">cite web|url=http://wiki.freenetproject.org/WoT|title=Web Of Trust: A freenet plugin for pseudonymous, decentral spam resistance</ref> Shoeshop for using Freenet over Sneakernet,<ref name="shoeshop">cite web| title=Freenet over Sneakernet. Freenet Key: USK@MYLAnId-ZEyXhDGGbYOa1gOtkZZrFNTXjFl1dibLj9E,Xpu27DoAKKc8b0718E-ZteFrGqCYROe7XBBJI57pB4M,AQACAAE/Shoeshop/2/ </ref> and many more.
+
+History
+The origin of Freenet can be traced to Ian Clarke's student project at the University of Edinburgh, which he completed as a graduation requirement in the summer of 1999.<ref>cite news| url=https://www.nytimes.com/2000/05/10/business/cyberspace-programmers-confront-copyright-laws.html | title = Cyberspace Programmers Confront Copyright Laws| author = John Markoff| work=The New York Times | date = 10 May 2000</ref><ref>cite news| url=http://news.bbc.co.uk/2/hi/science/nature/1216486.stm | work=BBC News | title=Coders prepare son of Napster | date=12 March 2001</ref><ref>cite news| url=http://www.cnn.com/2005/TECH/12/19/internet.freedom/index.html?iref=allsearch | work=CNN | title= Fighting for free speech on the Net | date = 19 December 2005</ref> Ian Clarke's resulting unpublished report "A distributed decentralized information storage and retrieval system" (1999) provided foundation for the seminal paper written in collaboration with other researchers, "Freenet: A Distributed Anonymous Information Storage and Retrieval System" (2001).<ref>Ian Clarke. [https://freenetproject.org/papers/ddisrs.pdf A distributed decentralised information storage and retrieval system]. Unpublished report, Division of Informatics, University of Edinburgh, 1999.</ref><ref name="Freenet: A Distributed Anonymous Information Storage and Retrieval System">Ian Clarke, Oskar Sandberg, Brandon Wiley, and Theodore W. Hong. [https://www.cs.cornell.edu/People/egs/615/freenet.pdf Freenet: A Distributed Anonymous Information Storage and Retrieval System]. In: Proceedings of the International Workshop on Designing Privacy Enhancing Technologies: Design Issues in Anonymity and Unobservability. New York, NY: Springer-Verlag, 2001, p. 46-66.</ref> According to CiteSeer, it became one of the most frequently cited computer science articles in 2002.<ref>[http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.10.4919 CiteSeer: Freenet: A Distributed Anonymous Information Storage and Retrieval System (2001) ]</ref>
+
+Researchers suggested that Freenet can provide anonymity on the Internet by storing small encrypted snippets of content distributed on the computers of its users and connecting only through intermediate computers which pass on requests for content and sending them back without knowing the contents of the full file, similar to how Router (computing)|routers on the Internet route Network packet|packets without knowing anything about files—except Freenet has caching, a layer of strong encryption, and no reliance on Centralized computing|centralized structures.<ref name="Freenet: A Distributed Anonymous Information Storage and Retrieval System" /> This allows users to publish anonymously or retrieve various kinds of information.<ref name="Peers in a Client/Server World, 2005" />rp|152
+
+File:freenet darknet.png|thumb|The Freenet 0.7 darknet peers list.
+Freenet has been under continuous development since 2000.
+
+Freenet 0.7, released on 8 May 2008, is a major re-write incorporating a number of fundamental changes. The most fundamental change is support for darknet operation. Version 0.7 offered two modes of operation: a  mode in which it connects only to friends, and an opennet-mode in which it connects to any other Freenet user. Both modes can be run simultaneously. When a user switches to pure darknet operation, Freenet becomes very difficult to detect from the outside. The transport layer created for the darknet mode allows communication over restricted routes as commonly found in mesh networking|mesh networks, as long as these connections follow a Small-world network|small-world structure.<ref>Singh, Munindar P. The Practical Handbook of Internet Computing. Boca Raton, Fl.: Chapman & Hall, 2005.</ref>rp|815–816 Other modifications include switching from Transmission Control Protocol|TCP to User Datagram Protocol|UDP, which allows UDP hole punching along with faster transmission of messages between peers in the network.<ref>cite news|last1=Ihlenfeld|first1=Jens|title=Freenet 0.7 soll globales Darknet schaffen|url=http://www.golem.de/0604/44448.html|accessdate=17 September 2015|publisher=Golem|date=2006-04-04</ref>
+
+Freenet 0.7.5, released on 12 June 2009, offers a variety of improvements over 0.7.  These include reduced memory usage, faster insert and retrieval of content, significant improvements to the FProxy web interface used for browsing freesites, and a large number of smaller bugfixes, performance enhancements, and usability improvements.  Version 0.7.5 also shipped with a new version of the Windows installer.<ref>[https://freenetproject.org/news.html#freenet-0-7-5-released release information for Freenet 0.7.5], last accessed 2015-09-17</ref>
+
+As of build 1226, released on 30 July 2009, features that have been written include significant security improvements against both attackers acting on the network and physical seizure of the computer running the node.<ref>[https://freenetproject.org/news.html#build1226 release information for Freenet build 1226], last accessed 2015-09-17</ref>
+
+As of build 1468, released on 11 July 2015, the Freenet core stopped using the db4o database and laid the foundation for an efficient interface to the Web of Trust plugin which provides spam resistance.<ref>[https://freenetproject.org/news.html#20150711-1468-release Freenet 1468 release notes] 2015</ref>
+
+Freenet has always been free software, but until 2011 it required users to install Java (software platform)|Java. This problem was solved by making Freenet compatible with OpenJDK, a free and open source implementation of the Java Platform.
+
+On 11 February 2015, Freenet received the SUMA-Award for "protection against total surveillance."<ref name=suma_award>[http://suma-awards.de/en/index.html SUMA Award], 11 February 2015.</ref><ref name=suma_award_recording>[https://www.youtube.com/watch?v=dZpsBSPsHDI recording of the SUMA Award Ceremony 2015], published on 14 April 2015.</ref><ref name=suma_award_heise>[http://www.heise.de/newsticker/meldung/SUMA-Award-fuer-das-Freenet-Project-2548577.html SUMA Award für das Freenet Projekt] Jo Bager in Heise online, 2015</ref>
+
+Features and user interface of Freenet
+Freenet is different from most other peer-to-peer applications, both in how users interact with it and in the security it offers.dubious|date=October 2018 It separates the underlying network structure and protocol from how users interact with the network; as a result, there are a variety of ways to access content on the Freenet network. The simplest is via FProxy, which is integrated with the node software and provides a web interface to content on the network. Using FProxy, a user can browse freesites (websites that use normal HTML and related tools, but whose content is stored within Freenet rather than on a traditional web server). The web interface is also used for most configuration and node management tasks. Through the use of separate applications or plugins loaded into the node software, users can interact with the network in other ways, such as forums similar to web forums or Usenet or interfaces more similar to traditional P2P "filesharing" interfaces.
+
+While Freenet provides an HTTP interface for browsing freesites, it is not a Proxy server|proxy for the World Wide Web; Freenet can be used to access only the content that has been previously inserted into the Freenet network. In this way, it is more similar to Tor (anonymity network)#Hidden services|Tor's hidden services than to anonymous proxy software like Tor (anonymity network)|Tor's proxy.
+
+Freenet's focus lies on Freedom of speech|free speech and anonymity. Because of that, Freenet acts differently at certain points that are (directly or indirectly) related to the anonymity part. Freenet attempts to protect the anonymity of both people inserting data into the network (uploading) and those retrieving data from the network (downloading). Unlike file sharing systems, there is no need for the uploader to remain on the network after uploading a file or group of files. Instead, during the upload process, the files are broken into chunks and stored on a variety of other computers on the network. When downloading, those chunks are found and reassembled. Every node on the Freenet network contributes storage space to hold files and bandwidth that it uses to route requests from its peers.
+
+As a direct result of the anonymity requirements, the node requesting content does not normally connect directly to the node that has it; instead, the request is routed across several intermediaries, none of which know which node made the request or which one had it. As a result, the total bandwidth required by the network to transfer a file is higher than in other systems, which can result in slower transfers, especially for infrequently accessed content.
+
+Since version 0.7, Freenet offers two different levels of security: Opennet and Darknet. With Opennet, users connect to arbitrary other users. With Darknet, users connect only to "friends" with whom they previously exchanged Public-key cryptography|public keys, named node-references. Both modes can be used together.
+
+Content
+Freenet's founders argue that true freedom of speech comes only with true anonymity and that the beneficial uses of Freenet outweigh its negative uses.<ref name="philosophy">[https://freenetproject.org/philosophy.html The Philosophy behind Freenet]</ref> Their view is that free speech, in itself, is not in contradiction with any other consideration—the information is not the crime. Freenet attempts to remove the possibility of any group imposing its beliefs or values on any data. Although many states censor communications to different extents, they all share one commonality in that a body must decide what information to censor and what information to allow. What may be acceptable to one group of people may be considered offensive or even dangerous to another. In essence, the purpose of Freenet is to ensure that no one is allowed to decide what is acceptable.
+
+Reports of Freenet's use in authoritarian nations is difficult to track due to the very nature of Freenet's goals. One group, ''Freenet China'', used to introduce the Freenet software to China|Chinese users starting from 2001 and distribute it within China through e-mails and on disks after the group's website was blocked by the Chinese authorities on the mainland. It was reported that in 2002 ''Freenet China'' had several thousand dedicated users.<ref>Damm, Jens, and Simona Thomas. ''Chinese Cyberspaces Technological Changes and Political Effects''. London: Routledge, 2006.</ref>rp|70–71 However, Freenet traffic is blocked in China around the 2010s.Citation needed|reason=This sounds plausible but would benefit from a source|date=November 2017
+
+Technical design
+See also|Cryptography
+
+The Freenet file sharing network stores documents and allows them to be retrieved later by an associated key, as is now possible with protocols such as HyperText Transfer Protocol|HTTP. The network is designed to be highly survivable. The system has no central servers and is not subject to the control of any one individual or organization, including the designers of Freenet. Information stored on Freenet is distributed around the network and stored on several different nodes. Encryption of data and relaying of requests makes it difficult to determine who inserted content into Freenet, who requested that content, or where the content was stored.  This protects the anonymity of participants, and also makes it very difficult to censor specific content.  Content is stored encrypted, making it difficult for even the operator of a node to determine what is stored on that node.  This provides plausible deniability, and in combination with the request relaying means that Safe harbor (law)|safe harbor laws that protect service providers may also protect Freenet node operators. When asked about the topic, Freenet developers defer to the EFF discussion which says that not being able to filter anything is a safe choice.<ref>cite web|url=https://web.archive.org/web/20160303232303/https://emu.freenetproject.org/pipermail/chat/2009-February/001872.html|last=Toseland|first=Matthew |title=Does Freenet qualify for DMCA Safe Harbor? |accessdate=27 January 2013</ref><ref>cite web|url=https://www.eff.org/wp/iaal-what-peer-peer-developers-need-know-about-copyright-law|title=
+IAAL*: What Peer-to-Peer Developers Need to Know about Copyright Law
+ |accessdate=15 September 2015</ref>
+
+=Distributed storage and caching of data=
+Unlike other P2P networks, Freenet not only transmits data between nodes but actually stores them, working as a huge distributed cache. To achieve this, each node allocates some amount of disk space to store data; this is configurable by the node operator, but is typically several GB (or more).
+
+Files on Freenet are typically split into multiple small blocks, with duplicate blocks created to provide Forward error correction|redundancy.  Each block is handled independently, meaning that a single file may have parts stored on many different nodes.
+
+Information flow in Freenet is different from networks like eMule or BitTorrent (protocol)|BitTorrent; in Freenet:
+
+# A user wishing to share a file or update a freesite "inserts" the file "to the network"
+# After "insertion" is finished, the publishing node is free to shut down, because the file is stored in the network. It will remain available for other users whether or not the original publishing node is online. No single node is responsible for the content; instead, it is replicated to many different nodes.
+
+Two advantages of this design are high reliability and anonymity. Information remains available even if the publisher node goes offline, and is anonymously spread over many hosting nodes as encrypted blocks, not entire files.
+
+The key disadvantage of the storage method is that no one node is responsible for any chunk of data. If a piece of data is not retrieved for some time and a node keeps getting new data, it will drop the old data sometime when its allocated disk space is fully used. In this way Freenet tends to 'forget' data which is not retrieved regularly (see also Freenet#Effect|Effect).
+
+While users can insert data into the network, there is no way to delete data. Due to Freenet's anonymous nature the original publishing node or owner of any piece of data is unknown. The only way data can be removed is if users don't request it.
+
+=Network=
+Typically, a host computer on the network runs the software that acts as a node, and it connects to other hosts running that same software to form a large distributed, variable-size network of peer nodes. Some nodes are end user nodes, from which documents are requested and presented to human users. Other nodes serve only to route data. All nodes communicate with each other identically – there are no dedicated "clients" or "servers". It is not possible for a node to rate another node except by its capacity to insert and fetch data associated with a key. This is unlike most other P2P networks where node administrators can employ a ratio system, where users have to share a certain amount of content before they can download.
+
+Freenet may also be considered a small world network.
+
+The Freenet protocol is intended to be used on a network of complex topology, such as the Internet (Internet Protocol). Each node knows only about some number of other nodes that it can reach directly (its conceptual "neighbors"), but any node can be a neighbor to any other; no hierarchy or other structure is intended. Each message is routed through the network by passing from neighbor to neighbor until it reaches its destination. As each node passes a message to a neighbor, it does not know whether the neighbor will forward the message to another node, or is the final destination or original source of the message. This is intended to protect the anonymity of users and publishers.
+
+Each node maintains a data store containing documents associated with keys, and a routing table associating nodes with records of their performance in retrieving different keys.
+
+=Protocol=
+File:Freenet Request Sequence ZP.svg|thumb|A typical request sequence. The request moves through the network from node to node, backing out of a dead-end (step 3) and a loop (step 7) before locating the desired file.
+
+The Freenet protocol uses a key-based routing protocol, similar to distributed hash tables. The routing algorithm changed significantly in version 0.7. Prior to version 0.7, Freenet used a heuristic routing algorithm where each node had no fixed location, and routing was based on which node had served a key closest to the key being fetched (in version 0.3) or which is estimated to serve it faster (in version 0.5).  In either case, new connections were sometimes added to downstream nodes (i.e. the node that answered the request) when requests succeeded, and old nodes were discarded in least recently used order (or something close to it). Oskar Sandberg's research (during the development of version 0.7) shows that this "path folding" is critical, and that a very simple routing algorithm will suffice provided there is path folding.
+
+The disadvantage of this is that it is very easy for an attacker to find Freenet nodes, and connect to them, because every node is continually attempting to find new connections. In version 0.7, Freenet supports both 'Opennet' (similar to the old algorithms, but simpler), and "Darknet" (all node connections are set up manually, so only your friends know your node's IP address). Darknet is less convenient, but much more secure against a distant attacker.
+
+This change required major changes in the routing algorithm. Every node has a location, which is a number between 0 and 1. When a key is requested, first the node checks the local data store. If it's not found, the key's hash is turned into another number in the same range, and the request is routed to the node whose location is closest to the key. This goes on until some number of hops is exceeded, there are no more nodes to search, or the data is found. If the data is found, it is cached on each node along the path. So there is no one source node for a key, and attempting to find where it is currently stored will result in it being cached more widely. Essentially the same process is used to insert a document into the network: the data is routed according to the key until it runs out of hops, and if no existing document is found with the same key, it is stored on each node. If older data is found, the older data is propagated and returned to the originator, and the insert "collides".
+
+But this works only if the locations are clustered in the right way. Freenet assumes that the Darknet (a subset of the global social network) is a small-world network, and nodes constantly attempt to swap locations (using the Metropolis–Hastings algorithm) in order to minimize their distance to their neighbors. If the network actually is a small-world network, Freenet should find data reasonably quickly; ideally on the order of Big O notation|<math>O\left(\left[log\left(n\right)\right]^2\right)</math> hops. However, it does not guarantee that data will be found at all.<ref name=Clarke2010>cite book|last1=Clarke|first1=Ian|title=Private Communication Through a Network of Trusted Connections: The Dark Freenet|date=2010|url=https://freenetproject.org/papers/freenet-0.7.5-paper.pdf|accessdate=2015-09-15|ref=Clarke2010</ref>
+
+Eventually, either the document is found or the hop limit is exceeded. The terminal node sends a reply that makes its way back to the originator along the route specified by the intermediate nodes' records of pending requests. The intermediate nodes may choose to cache the document along the way. Besides saving bandwidth, this also makes documents harder to censor as there is no one "source node."
+
+=Effect=
+File:Freenet datastore specialisation.ani.gif|thumb|450px|right|The effect of the node specialising on the particular location.
+Initially, the locations in Darknet are distributed randomly. This means that routing of requests is essentially random. In Opennet connections are established by a join request which provides an optimized network structure if the existing network is already optimized.<ref name=Roos2014>cite book|last1=Roos|first1=Stefanie|title=Measuring Freenet in the Wild: Censorship-Resilience under Observation|date=2014|publisher=Springer International Publishing|isbn=978-3-319-08505-0|pages=263–282|url=https://freenetproject.org/papers/roos-pets2014.pdf|accessdate=2015-09-15|ref=Roos2014</ref> So the data in a newly started Freenet will be distributed somewhat randomly.citation needed|date=July 2013
+
+As location swapping (on Darknet) and path folding (on Opennet) progress, nodes which are close to one another will increasingly have close locations, and nodes which are far away will have distant locations. Data with similar keys will be stored on the same node.<ref name=Roos2014 />
+
+The result is that the network will self-organize into a distributed, clustered structure where nodes tend to hold data items that are close together in key space. There will probably be multiple such clusters throughout the network, any given document being replicated numerous times, depending on how much it is used. This is a kind of "spontaneous symmetry breaking", in which an initially symmetric state (all nodes being the same, with random initial keys for each other) leads to a highly asymmetric situation, with nodes coming to specialize in data that has closely related keys.citation needed|date=July 2013
+
+There are forces which tend to cause clustering (shared closeness data spreads throughout the network), and forces that tend to break up clusters (local caching of commonly used data). These forces will be different depending on how often data is used, so that seldom-used data will tend to be on just a few nodes which specialize in providing that data, and frequently used items will be spread widely throughout the network. This automatic mirroring counteracts the times when web traffic becomes overloaded, and due to a mature network's intelligent routing, a network of size ''n'' should require only log(''n'') time to retrieve a document on average.<ref>Cite web|url=https://www.networxsecurity.org/members-area/glossary/f/freenet.html|title=FreeNet|website=networxsecurity.org|access-date=2019-01-25</ref>
+
+=Keys=
+Keys are hash function|hashes: there is no notion of semantic closeness when speaking of key closeness. Therefore, there will be no correlation between key closeness and similar popularity of data as there might be if keys did exhibit some semantic meaning, thus avoiding bottlenecks caused by popular subjects.
+
+There are two main varieties of keys in use on Freenet, the Content Hash Key (CHK) and the Signed Subspace Key (SSK). A subtype of SSKs is the Updatable Subspace Key (USK) which adds versioning to allow secure updating of content.
+
+A CHK is a SHA-256 hash of a document (after encryption, which itself depends on the hash of the plaintext) and thus a node can check that the document returned is correct by hashing it and checking the digest against the key. This key contains the meat of the data on Freenet. It carries all the binary data building blocks for the content to be delivered to the client for reassembly and decryption. The CHK is unique by nature and provides tamperproof content. A hostile node altering the data under a CHK will immediately be detected by the next node or the client. CHKs also reduce the redundancy of data since the same data will have the same CHK and when multiple sites reference the same large files, they can reference to the same CHK.<ref>cite web|title=freesitemgr, code for inserting files as CHK, fixed revision|url=https://github.com/freenet/lib-pyFreenet/blob/b78aea05222c4afe5145d8b529d2a54d4b93887a/fcp/sitemgr.py#L976|accessdate=2017-11-29</ref>
+
+SSKs are based on public-key cryptography. Currently Freenet uses the Digital Signature Algorithm|DSA algorithm. Documents inserted under SSKs are signed by the inserter, and this signature can be verified by every node to ensure that the data is not tampered with. SSKs can be used to establish a verifiable pseudonymity|pseudonymous identity on Freenet, and allow for multiple documents to be inserted securely by a single person. Files inserted with an SSK are effectively Immutable object|immutable, since inserting a second file with the same name can cause collisions. USKs resolve this by adding a version number to the keys which is also used for providing update notification for keys registered as bookmarks in the web interface.<ref>cite web|last1=Babenhauserheide|first1=Arne|title=USK and Date-Hints: Finding the newest version of a site in Freenet's immutable datastore|url=http://draketo.de/light/english/freenet/usk-and-date-hints|website=http://draketo.de|accessdate=2017-11-29</ref> Another subtype of the SSK is the Keyword Signed Key, or KSK, in which the key pair is generated in a standard way from a simple human-readable string. Inserting a document using a KSK allows the document to be retrieved and decrypted if and only if the requester knows the human-readable string; this allows for more convenient (but less secure) Uniform Resource Identifier|URIs for users to refer to.<ref>cite web|last1=Babenhauserheide|first1=Arne|title=Effortless password protected sharing of files via Freenet|url=http://draketo.de/light/english/freenet/effortless-password-protected-sharing-files|website=http://draketo.de|accessdate=2017-11-29</ref>
+
+Scalability
+A Computer networking|network is said to be scalable if its performance does not deteriorate even if the network is very large. The scalability of Freenet is being evaluated, but similar architectures have been shown to scale logarithmically.<ref>cite book |doi=10.1145/335305.335325 |chapter=The Small-World Phenomenon: An Algorithmic Perspective |title=Proceedings of the thirty-second annual ACM symposium on Theory of computing |year=2000 |last1=Kleinberg |first1=Jon |isbn=978-1-58113-184-0 |pages=163–70 |chapterurl=http://www.cs.cornell.edu/home/kleinber/swn.pdf</ref> This work indicates that Freenet can find data in <math>O(\log^2 n)</math> hops on a small-world network (which includes both opennet and darknet style Freenet networks), when ignoring the caching which could improve the scalability for popular content. However, this scalability is difficult to test without a very large network. Furthermore, the security features inherent to Freenet make detailed performance analysis (including things as simple as determining the size of the network) difficult to do accurately. As of now, the scalability of Freenet has yet to be tested.
+
+Darknet versus Opennet
+As of version 0.7, Freenet supports both "darknet" and "opennet" connections.  Opennet connections are made automatically by nodes with opennet enabled, while darknet connections are manually established between users that know and trust each other.  Freenet developers describe the trust needed as “will not crack their Freenet node”.<ref>cite web|url=https://d6.gnutella2.info/freenet/USK@sUm3oJISSEU4pl2Is9qa1eRoCLyz6r2LPkEqlXc3~oc,yBEbf-IJrcB8Pe~gAd53DEEHgbugUkFSHtzzLqnYlbs,AQACAAE/random_babcom/135/#Requiredtrustforformingadarknetconnection|title=Required trust for forming a darknet connection|last=|first=|date=2017-11-29|website=random_babcom|accessdate=2017-11-29</ref>  Opennet connections are easy to use, but darknet connections are more secure against attackers on the network, and can make it difficult for an attacker (such as an oppressive government) to even determine that a user is running Freenet in the first place.<ref>cite news|url=http://www.golem.de/0805/59592.html|title=Darknet-Fähigkeiten sollen Softwarenutzung verbergen|date=2008-05-09|work=|accessdate=2017-11-29|publisher=Golem</ref>
+
+The core innovation in Freenet 0.7 is to allow a globally scalable darknet, capable (at least in theory) of supporting millions of users.  Previous darknets, such as WASTE, have been limited to relatively small disconnected networks.  The scalability of Freenet is made possible by the fact that human relationships tend to form small-world networks, a property that can be exploited to find short paths between any two people. The work is based on a speech given at DEF CON (convention)|DEF CON 13 by Ian Clarke (computer scientist)|Ian Clarke and Swedish mathematician Oskar Sandberg.  Furthermore, the routing algorithm is capable of routing over a mixture of opennet and darknet connections, allowing people who have only a few friends using the network to get the performance from having sufficient connections while still receiving some of the security benefits of darknet connections.  This also means that small darknets where some users also have opennet connections are fully integrated into the whole Freenet network, allowing all users access to all content, whether they run opennet, darknet, or a hybrid of the two, except for darknet pockets connected only by a single hybrid node.<ref name=Roos2014 />
+
+ Tools and applications 
+File:frost screenshot.png|thumb|Screenshot of Frost running on Microsoft Windows
+
+Unlike many other P2P applications Freenet does not provide comprehensive functionality itself. Freenet is modular and features an Application programming interface|API called Freenet Client Protocol (FCP) for other programs to use to implement services such as message boards, file sharing, or online chat.<ref>[http://freesocial.draketo.de/ Freenet Social Networking guide] Justus Ranvier, 2013</ref>
+
+=Communication=
+; Freenet Messaging System (FMS): FMS was designed to address problems with Frost such as Denial-of-Service attack|denial of service attacks and spam. Users publish trust lists, and each user downloads messages only from identities they trust and identities trusted by identities they trust. FMS is developed anonymously and can be downloaded from ''the FMS freesite'' within Freenet. It does not have an official site on the normal Internet. It features random post delay, support for many identities, and a distinction between trusting a user's posts and trusting their trust list. It is written in C++ and is a separate application from Freenet which uses the Freenet Client Protocol (FCP) to interface with Freenet.
+
+; Frost: Frost includes support for convenient file sharing, but its design is inherently vulnerable to spam and Denial-of-Service attack|denial of service attacks.<ref>[https://www.mail-archive.com/devl@freenetproject.org/msg17363.html Developer discussion about fixing Frost shortcomings] Matthew Toseland, 2007</ref> Frost can be downloaded from the Frost home page on Sourceforge, or from ''the Frost freesite'' within Freenet. It is not endorsed by the Freenet developers. Frost is written in Java and is a separate application from Freenet.
+
+; Sone: Sone provides a simpler interface inspired by Facebook<ref>[https://flattr.com/thing/81996/Sone-The-Freenet-Social-Network-Plugin description of Sone by its developer], "it’s a Facebook clone on top of Freenet", retrieved 2015-09-15</ref> with public anonymous discussions and image galleries. It provides an API for control from other programs<ref>[https://wiki.freenetproject.org/Sone Sone in Freenet Wiki], with the description of the FCP API, retrieved 2015-09-14</ref> is also used to implement a comment system for static websites in the regular internet.<ref>[http://draketo.de/proj/freecom/ babcom description], “it submits a search request on your local Sone instance by creating an iframe with the right URL”, 2014.</ref><ref>[https://d6.gnutella2.info/freenet/USK@nwa8lHa271k2QvJ8aa0Ov7IHAV-DFOCFgmDt3X6BpCI,DuQSUZiI~agF8c-6tjsFFGuZ8eICrzWCILB60nT8KKo,AQACAAE/sone/71/]</ref>
+
+=Utilities=
+; jSite: jSite is a tool to upload websites. It handles keys and manages uploading files.
+
+; Infocalypse: Infocalypse is an extension for the distributed revision control system Mercurial. It uses an optimized structure to minimize the number of requests to retrieve new data, and allows supporting a repository by securely reuploading most parts of the data without requiring the owner's private keys.<ref name="infocalypse-info">cite web | url=http://draketo.de/light/english/freenet/infocalypse-mercurial-survive-the-information-apocalypse#advocacy | title=Information about infocalypse. A mirror of the included documentation</ref>
+
+=Libraries=
+; FCPLib: FCPLib (Freenet Client Protocol Library) aims to be a cross-platform natively Compiler|compiled set of C++-based functions for storing and retrieving information to and from Freenet. FCPLib supports Windows NT/2K/XP, Debian, BSD, Solaris (operating system)|Solaris, and macOS.
+
+; lib-pyFreenet: lib-pyFreenet exposes Freenet functionality to Python (programming language)|Python programs. Infocalypse uses it.
+
+Vulnerabilities
+Law enforcement agencies have claimed to have successfully infiltrated freenet opennet in order to deanonymize users<ref>[http://www.thedickinsonpress.com/news/north-dakota/3885239-predators-police-online-struggle Predators, police in online struggle]</ref> but no technical details have been given to support these allegations. One report stated that, "A child-porn investigation focused on... [the suspect] when the authorities were monitoring the online network, Freenet."<ref>Cite news|url=https://arstechnica.com/tech-policy/2017/03/man-jailed-indefinitely-for-refusing-to-decrypt-hard-drives-loses-appeal/|title=Man jailed indefinitely for refusing to decrypt hard drives loses appeal|last=|first=|date=March 20, 2017|work=Ars Technica|access-date=2017-03-21|language=en-us</ref> A different report indicated arrests may have been based on the BlackICE project leaks, that are debunked for using bad math.<ref>Cite web|url=https://freenetproject.org/police-departments-tracking-efforts-based-on-false-statistics.html|title=Police department's tracking efforts based on false statistics|website=freenetproject.org|access-date=2017-09-23</ref>
+
+A recent court case in the Peel Region of Ontario, Canada  R. v. Owen, 2017 ONCJ 729 (CanLII), illustrated that Law Enforcement do in fact have a presence, after Peel Regional Police, located who had been downloading illegal material on the Freenet network.<ref>Cite web|url=https://www.canlii.org/en/on/oncj/doc/2017/2017oncj729/2017oncj729.html|title=https://www.canlii.org/en/on/oncj/doc/2017/2017oncj729/2017oncj729.html|last=|first=|date=|website=|access-date=</ref> The court decision, indicates, Law Enforcement agencies operates several nodes running modified Freenet software that can be used to monitor and track user download activity.
+
+Notability
+Freenet has had significant publicity in the mainstream press, including articles in ''The New York Times'', and coverage on CNN, 60 Minutes II, the BBC, The Guardian,<ref>[https://www.theguardian.com/technology/2009/nov/26/dark-side-internet-freenet The dark side of the internet] Andy Beckett in the Guardian 2009</ref> and elsewhere.
+
+Freenet received the SUMA-Award 2014 for "protection against total surveillance."<ref name=suma_award /><ref name=suma_award_recording /><ref name=suma_award_heise />
+
+Freesite
+A "freesite" is a site hosted on the Freenet network. Because it contains only static content, it cannot contain any active content like server side scripts or databases. Freesites are coded in HTML and support as many features as the browser viewing the page allows; however, there are some exceptions where the Freenet software will remove parts of the code that may be used to reveal the identity of the person viewing the page (making a page access something on the internet, for example).
+
+Due to the much slower latency and bandwidth of the Freenet network, complex web technologies such as PHP and MySQL are impossible to use, making Freesites appear very simplistic, they are described by the community as being "90s-style"Citation needed|date=October 2016.
+
+See also
+Portal|Free and open-source software|Computer Science|Cryptography
+* Peer-to-peer web hosting
+* Rendezvous protocol
+* Anonymous P2P
+* Crypto-anarchism
+* Cypherpunk
+* Distributed file system
+* Freedom of information
+* Friend-to-friend
+
+=Comparable software=
+* GNUnet
+* I2P
+* Osiris (Serverless Portal System)|Osiris
+* Java Anon Proxy (also known as JonDonym)
+* Perfect Dark (P2P)|Perfect Dark – employs many of Freenet's principles; the successor to Share (P2P)|Share, which itself is the successor of Winny.
+* Tahoe-LAFS
+* Entropy (anonymous data store) (Discontinued)
+* ZeroNet
+
+References
+reflist|25em
+
+Further reading
+*cite journal |doi=10.1109/4236.978368 |title=Protecting free expression online with Freenet |year=2002 |last1=Clarke |first1=I. |last2=Miller |first2=S.G. |last3=Hong |first3=T.W. |last4=Sandberg |first4=O. |last5=Wiley |first5=B. |journal=IEEE Internet Computing |volume=6 |issue=1 |pages=40–9|url=http://www.doc.ic.ac.uk/~twh1/longitude/papers/ieee-final.pdf 
+*cite journal |doi=10.1016/S0048-7333(03)00050-7 |title=Community, joining, and specialization in open source software innovation: A case study |year=2003 |last1=Von Krogh |first1=Georg |last2=Spaeth |first2=Sebastian |last3=Lakhani |first3=Karim R |journal=Research Policy |volume=32 |issue=7 |pages=1217–41
+*cite book |doi=10.1007/3-540-44702-4_5 |chapter=The Free Haven Project: Distributed Anonymous Storage Service |title=Designing Privacy Enhancing Technologies |series=Lecture Notes in Computer Science |year=2001 |last1=Dingledine |first1=Roger |last2=Freedman |first2=Michael J. |last3=Molnar |first3=David |isbn=978-3-540-41724-8 |pages=67–95
+*cite book |doi=10.1007/3-540-44702-4_4 |chapter=Freenet: A Distributed Anonymous Information Storage and Retrieval System |title=Designing Privacy Enhancing Technologies |series=Lecture Notes in Computer Science |year=2001 |last1=Clarke |first1=Ian |last2=Sandberg |first2=Oskar |last3=Wiley |first3=Brandon |last4=Hong |first4=Theodore W. |isbn=978-3-540-41724-8 |pages=46–66
+*cite journal |first1=Damien A. |last1=Riehl |year=2000 |title=Peer-to-Peer Distribution Systems: Will Napster, Gnutella, and Freenet Create a Copyright Nirvana or Gehenna? |journal=The William Mitchell Law Review |volume=27 |issue=3 |pages=1761
+*cite journal |first1=Ryan |last1=Roemer |date=Fall 2002 |title=The Digital Evolution: Freenet and the Future of Copyright on the Internet |journal=UCLA Journal of Law and Technology |volume=5 |url=http://www.lawtechjournal.com/articles/2002/05_021229_roemer.php
+*cite journal |last1=Sun |first1=Xiaoqing |last2=Liu |first2=Baoxu |last3=Feng |first3=Dengguo |year=2005 |title=Analysis of Next Generation Routing of Freenet |journal=Computer Engineering |issue=17 |pages=126–8
+*cite book |doi=10.1109/INFCOM.2002.1019373 |chapter=Using the small-world model to improve Freenet performance |title=INFOCOM 2002: Twenty-First Annual Joint Conference of the IEEE Computer and Communications Societies |year=2002 |last1=Hui Zhang |last2=Goel |first2=Ashish |last3=Govindan |first3=Ramesh |isbn=978-0-7803-7476-8 |volume=3 |pages=1228–37
+
+External links
+* [https://freenetproject.org/ The Freenet Project]
+
+File sharing
+Internet censorship circumvention technologies
+
+Category:Free file transfer software
+Category:Free file sharing software
+Category:Distributed file systems
+Category:Anonymous file sharing networks
+Category:Anonymity networks
+Category:Distributed data storage systems
+Category:Free software programmed in Java (programming language)
+Category:Cross-platform software
+Category:Beta software

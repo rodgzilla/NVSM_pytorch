@@ -1,0 +1,216 @@
+about|the NASA Mars probes|the Swedish spacecraft|Viking (satellite)
+Use American English|date=January 2014
+Use mdy dates|date=September 2012
+Infobox spacecraft class
+| image        = Viking Orbiter releasing the lander.jpg
+| caption      = Artist impression of a Viking orbiter releasing a lander descent capsule
+
+| name         = Viking
+| manufacturer = Jet Propulsion Laboratory /  Martin Marietta 
+| country      = United States
+| applications = Mars orbiter/lander
+| orbits       = Areocentric orbit|Areocentric
+| operator     = NASA / JPL
+| lifetime     = Orbiters: 4&nbsp;years at Mars<br/>Landers: 4–6&nbsp;years at Mars
+
+| status       = Retired
+| built        = 2
+| launched     = 2
+| first        = ''Viking 1''<br/>August 20, 1975<ref name="NASA-20061218" /><ref name="NASA-Viking1">cite web |last=Nelson|first=Jon |title=''Viking 1'' |url=http://www.jpl.nasa.gov/missions/viking-1/ |work=NASA |accessdate=February 2, 2014</ref> 
+| last         = ''Viking 2''<br/>September 9, 1975<ref name="NASA-20061218" /><ref name="NASA-Viking2">cite web |last=Nelson |first=Jon |title=''Viking 2'' |url=http://www.jpl.nasa.gov/missions/viking-2/ |work=NASA |accessdate=February 2, 2014 </ref>
+| retired      = ''Viking 1'' orbiter<br/>August 17, 1980<ref name="NASA-20061218" /><br/>''Viking 1'' lander<br/>July 20, 1976<ref name="NASA-20061218" /> (landing) to November 13, 1982<ref name="NASA-20061218" /><br/><br>''Viking 2'' orbiter<br/>July 25, 1978<ref name="NASA-20061218" /><br/>''Viking 2'' lander<br/>September 3, 1976<ref name="NASA-20061218" /> (landing) to April 11, 1980<ref name="NASA-20061218" />
+
+|autoconvert = off
+| mass         = convert|3527|kg|lb
+| power        = Orbiters: 620&nbsp;watts (solar array)<br/>Lander: 70&nbsp;watts (two radioisotope thermoelectric generator|RTG units)
+| batteries    = 
+| equipment    =
+
+| dimensions   = 
+| x_axis       = 
+| y_axis       = 
+| z_axis       = 
+
+
+The Viking program consisted of a pair of American space probes sent to Mars, ''Viking 1'' and ''Viking 2''.<ref name="NASA-20061218">cite web |last=Williams |first=David R. Dr. |title=Viking Mission to Mars |url=http://nssdc.gsfc.nasa.gov/planetary/viking.html |date=December 18, 2006 |work=NASA |accessdate=February 2, 2014 </ref> Each spacecraft was composed of two main parts: an orbiter designed to photograph the surface of Mars from orbit, and a Lander (spacecraft)|lander designed to study the planet from the surface. The orbiters also served as communication relays for the landers once they touched down.
+
+The Viking program grew from NASA's earlier, even more ambitious, Voyager program (Mars)|Voyager Mars program, which was not related to the successful Voyager program|Voyager deep space probes of the late 1970s. ''Viking 1'' was launched on August 20, 1975, and the second craft, ''Viking 2'', was launched on September 9, 1975, both riding atop Titan IIIE rockets with Centaur (rocket stage)|Centaur upper stages. ''Viking 1'' entered Mars orbit on June 19, 1976, with ''Viking 2'' following suit on August 7.
+
+After orbiting Mars for more than a month and returning images used for landing site selection, the orbiters and landers detached; the landers then entered the Martian atmosphere and Soft landing (rocketry)|soft-landed at the sites that had been chosen. The ''Viking 1'' lander touched down on the surface of Mars on July 20, 1976, and was joined by the ''Viking 2'' lander on September 3. The orbiters continued imaging and performing other scientific operations from orbit while the landers deployed Measuring instrument|instruments on the surface.
+
+The project cost roughly US$1 billion in 1970s dollars,<ref name="nssdc.gsfc.nasa.gov">Cite web|url=http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1975-075A|title=NASA – NSSDCA – Spacecraft – Details – Viking 1 Orbiter|last=|first=|date=|website=nssdc.gsfc.nasa.gov|publisher=|access-date=2016-12-13</ref><ref name="space.com">Cite news|url=http://www.space.com/18234-viking-1.html|title=Viking 1: First U.S. Lander on Mars|newspaper=Space.com|access-date=2016-12-13</ref> equivalent to about Inflation|US-GDP|1|1970|r=0 billion USD in Inflation-year|US-GDP dollars.Inflation-fn|US-GDP The mission was considered successful and is credited with helping to form most of the body of knowledge about Mars through the late 1990s and early 2000s.<ref>cite web| url=http://planetary-science.org/mars-research/mars-landings/the-viking-program/| publisher=The Center for Planetary Science| title=The Viking Program| access-date=April 13, 2018</ref><ref>cite web| url=https://californiasciencecenter.org/exhibits/air-space/mission-to-the-planets/viking-lander | publisher=California Science Center| title=Viking Lander| access-date=April 13, 2018</ref>
+
+Science objectives
+*Obtain high-resolution images of the Martian surface
+*Characterize the structure and composition of the atmosphere and surface
+*Search for evidence of life on Mars (planet)|life on Mars
+
+Viking orbiters
+The primary objectives of the two Viking orbiters were to transport the landers to Mars, perform reconnaissance to locate and certify landing sites, act as communications relays for the landers, and to perform their own scientific investigations. Each orbiter, based on the earlier Mariner 9 spacecraft, was an octagon approximately 2.5 m across. The fully fueled orbiter-lander pair had a mass of 3527&nbsp;kg. After separation and landing, the lander had a mass of about Nowrap|600 kg and the orbiter Nowrap|900 kg. The total launch mass was Nowrap|2328 kg, of which Nowrap|1445 kg were propellant and attitude control gas. The eight faces of the ring-like structure were 0.4572 m high and were alternately 1.397 and 0.508 m wide. The overall height was 3.29 m from the lander attachment points on the bottom to the launch vehicle attachment points on top. There were 16 modular compartments, 3 on each of the 4 long faces and one on each short face. Four solar panel wings extended from the Coordinate axis|axis of the orbiter, the distance from tip to tip of two oppositely extended solar panels was 9.75 m.
+
+=Propulsion=
+The main Spacecraft propulsion|propulsion unit was mounted above the satellite bus|orbiter bus. Propulsion was furnished by a bipropellant (monomethylhydrazine and nitrogen tetroxide) liquid-fueled rocket engine which could be gimballed up to 9 degree (angle)|degrees. The engine was capable of convert|1323|N|lbf|abbr=on|lk=on thrust, translating to a delta-V|change in velocity of 1480 metres per second|m/s. Attitude control was achieved by 12 small compressed-nitrogen jets.
+
+=Navigation and communication=
+An acquisition Sun sensor, a cruise Sun sensor, a Canopus star tracker and an inertial reference unit consisting of six gyroscopes allowed three-axis stabilization. Two accelerometers were also on board. Communications were accomplished through a Nowrap|20 W S-band (2.3 gigahertz|GHz) transmitter and two Nowrap|20 W TWTAs. An X-band|X band Nowrap|(8.4&nbsp;GHz) downlink was also added specifically for Doppler effect|radio science and to conduct communications experiments. Uplink was via S band Nowrap|(2.1&nbsp;GHz). A two-axis steerable Directional antenna|parabolic dish antenna with a diameter of approximately 1.5 m was attached at one edge of the orbiter base, and a fixed low-gain antenna extended from the top of the bus. Two tape recorders were each capable of storing 1280 megabits. A 381-MHz relay radio was also available.
+
+=Power=
+The power to the two orbiter craft was provided by eight 1.57 × 1.23 m solar panels, two on each wing. The solar panels comprised a total of 34,800 solar cells and produced 620 W of power at Mars. Power was also stored in two nickel-cadmium 30-Ampere-hour|A·h battery (electricity)|batteries.
+
+The combined area of the four panels was convert|15|m2|ft2|abbr=off|sp=us, and they provided both regulated and unregulated direct current power; unregulated power was provided to the radio transmitter and the lander.
+
+Two 30-amp-hour, nickel-cadmium, rechargeable batteries provided power when the spacecraft was not facing the Sun, and during launch, correction maneuvers and Mars occultation.<ref>cite web|url=http://www.jpl.nasa.gov/news/fact_sheets/viking.pdfx|title=Sitemap – NASA Jet Propulsion Laboratory|accessdate=March 27, 2012|archive-url=https://web.archive.org/web/20120304104054/http://www.jpl.nasa.gov/news/fact_sheets/viking.pdfx|archive-date=March 4, 2012|dead-url=yes|df=mdy-all</ref>
+
+=Main findings=
+File:Mars Valles Marineris.jpeg|thumb|Mars image mosaic from the ''Viking 1'' orbiter
+By discovering many geological forms that are typically formed from large amounts of water, the images from the orbiters caused a revolution in our ideas about water on Mars. Huge river valleys were found in many areas. They showed that floods of water broke through dams, carved deep valleys, eroded grooves into bedrock, and travelled thousands of kilometers. Large areas in the southern hemisphere contained branched stream networks, suggesting that rain once fell. The flanks of some volcanoes are believed to have been exposed to rainfall because they resemble those caused on Hawaiian volcanoes. Many craters look as if the impactor fell into mud. When they were formed, ice in the soil may have melted, turned the ground into mud, then flowed across the surface. Normally, material from an impact goes up, then down. It does not flow across the surface, going around obstacles, as it does on some Martian craters.<ref name="Kieffer1992">cite book|author=Hugh H. Kieffer|title=Mars|url=https://books.google.com/books?id=NoDvAAAAMAAJ|accessdate=March 7, 2011|date=1992|publisher=University of Arizona Press|isbn=978-0-8165-1257-7</ref><ref>Raeburn, P. 1998. Uncovering the Secrets of the Red Planet Mars. National Geographic Society. Washington D.C.</ref><ref>Moore, P. et al. 1990. The Atlas of the Solar System. Mitchell Beazley Publishers NY, NY.</ref> Regions, called "Martian chaos terrain|Chaotic Terrain," seemed to have quickly lost great volumes of water, causing large channels to be formed. The amount of water involved was estimated to ten thousand times the flow of the Mississippi River.<ref>Morton, O. 2002. Mapping Mars. Picador, NY, NY</ref> Underground volcanism may have melted frozen ice; the water then flowed away and the ground collapsed to leave chaotic terrain.
+
+Clear
+Gallery
+|align=center
+|title = Viking mosaics
+|width=160
+|lines=4
+|File:Streamlined_Islands_in_Maja_Valles.jpg|alt1=Streamlined islands show that large floods occurred on Mars. (location: Lunae Palus quadrangle). |<small>Streamlined islands show that large floods occurred on Mars. <br>(''Lunae Palus quadrangle'')</small>
+|File:Chryse Planitia Scour Patterns.jpg|alt2=Scour patterns were produced by flowing water. Dromore (crater)|Dromore crater is at bottom. <br>(''Lunae Palus quadrangle'') |<small>Scour patterns were produced by flowing water. Dromore (crater)|Dromore crater is at bottom. <br>(''Lunae Palus quadrangle'')</small>
+|File:Detail of Maja Valles Flow.jpg|alt3=Large floods of water likely eroded the channels around the crater. (''Lunae Palus quadrangle'') |<small>Large floods of water likely eroded the channels around Dromore (crater)|Dromore crater. <br>(''Lunae Palus quadrangle'')</small>
+|File:Viking Teardrop Islands.jpg|alt4=Tear-drop shaped islands carved by flood waters from Ares Vallis. (''Oxia Palus quadrangle'') |<small>Tear-drop shaped islands carved by flood waters from Ares Vallis. <br>(''Oxia Palus quadrangle'')</small>
+|File:Vedra,_Maumee,_and_Maja_valles.jpg|alt5=Image of three valleys: Vedra Valles, Maumee Valles, and Maja Valles. (''Lunae Palus quadrangle'') |<small>Image of three valleys: Vedra Valles, Maumee Valles, and Maja Valles. <br>(''Lunae Palus quadrangle'')</small>
+|File:Flow from Arandas Crater.jpg|alt6=Arandas (crater)|Arandas crater may be on top of large quantities of water ice, which melted when the impact occurred leaving a mud-like ejecta. (''Mare Acidalium quadrangle'') |<small>Arandas (crater)|Arandas crater may be on top of large quantities of water ice, which melted when the impact occurred, producing a mud-like ejecta. <br>(''Mare Acidalium quadrangle'')</small>
+|File:Alba Patera Channels.jpg|alt7=Channels running through Alba Mons. (''Arcadia quadrangle'') |<small>Channels running through Alba Mons. <br>(''Arcadia quadrangle'')</small>
+|File:Branched Channels from Viking.jpg|alt8=Branched channels in Thaumasia quadrangle, possible evidence of past rain on Mars. |small|Branched channels in Thaumasia quadrangle provide possible evidence of past rain on Mars.
+|File:Dissected Channels, as seen by Viking.jpg|alt9=These branched channels provide possible evidence of past rain on Mars. (''Margaritifer Sinus quadrangle'') |small|These branched channels provide possible evidence of past rain on Mars. (''Margaritifer Sinus quadrangle'')
+|File:Ravi Vallis.jpg|alt10=Ravi Vallis was possibly formed from extreme flooding. <br>(''Margaritifer Sinus quadrangle'') |<small>Ravi Vallis was possibly formed from extreme flooding. <br>(''Margaritifer Sinus quadrangle'')</small>
+
+
+Viking landers
+File:Sagan Viking.jpg|thumb|Carl Sagan with a model of a Viking lander.
+File:Viking Lander Model.jpg|thumb|left|Artist's concept depicting a Viking lander on the surface of Mars.  
+Each lander comprised a six-sided aluminium base with alternate convert|1.09|and|0.56|m|abbr=on long sides, supported on three extended legs attached to the shorter sides. The leg footpads formed the vertices of an equilateral triangle with convert|2.21|m|abbr=on sides when viewed from above, with the long sides of the base forming a straight line with the two adjoining footpads. Instrumentation was attached inside and on top of the base, elevated above the surface by the extended legs.<ref>cite magazine|magazine=Popular Mechanics|author=Hearst Magazines|title=Amazing Search for Life On Mars|url=https://books.google.com/books?id=aOIDAAAAMBAJ&pg=PA66|date=June 1976|publisher=Hearst Magazines|pages=61–63</ref>
+
+Each lander was enclosed in an aeroshell heat shield designed to slow the lander down during the entry phase. To prevent contamination of Mars by Earth organisms, each lander, upon assembly and enclosure within the aeroshell, was enclosed in a pressurized "bioshield" and then Sterilization (microbiology)|sterilized at a temperature of convert|111|°C|sp=us for 40 hours. For thermal reasons, the cap of the bioshield was jettisoned after the Centaur upper stage powered the Viking orbiter/lander combination out of Earth orbit.<ref>Soffen, G. A., and C. W. Snyder, First Viking mission to Mars, ''Science'', 193, 759–766, August 1976.</ref>
+    
+=Descent and landing=
+Each lander arrived at Mars attached to the orbiter. The assembly orbited Mars many times before the lander was released and separated from the orbiter for descent to the surface. Descent comprised four distinct phases, starting with a Deorbit#Deorbit and re-entry|deorbit burn. The lander then experienced atmospheric entry with peak heating occurring a few seconds after the start of frictional heating with the Martian atmosphere. At an altitude of about convert|6|km|mi|abbr=off|sp=us and traveling at a velocity of 900 kilometers per hour (600&nbsp;mph), the parachute deployed, the aeroshell released and the lander's legs unfolded. At an altitude of about 1.5 kilometers (5,000 feet), the lander activated its three retro-engines and was released from the parachute. The lander then immediately used retrorockets to slow and control its descent, with a soft landing (rocketry)|soft landing on the surface of Mars.<ref>[http://astro.if.ufrgs.br/solar/viking.htm Viking]</ref>
+Wide image|Mars_Viking_12a001.png|800px|First "clear" image ever transmitted from the surface of Mars – shows List of rocks on Mars#Viking|rocks near the ''Viking 1'' lander (July 20, 1976).
+
+=Propulsion=
+
+Propulsion for deorbit was provided by the monopropellant hydrazine (N<sub>2</sub>H<sub>4</sub>), through a rocket with 12 Rocket engine nozzles|nozzles arranged in four clusters of three that provided convert|32|N|lk=in|sp=us thrust, translating to a delta-V|change in velocity of convert|180|m/s|abbr=on. These nozzles also acted as the control Spacecraft propulsion|thrusters for translation (geometry)|translation and rotation of the lander.
+
+Terminal descent (aircraft)|descent (after use of a parachute) and landing utilized three (one affixed on each long side of the base, separated by 120 degrees) monopropellant hydrazine engines. The engines had 18 nozzles to disperse the exhaust and minimize effects on the ground, and were throttleable from convert|276|to|2667|N|lk=in|sp=us. The hydrazine was purified in order to prevent contamination of the Martian surface with Earth microbes. The lander carried convert|85|kg|abbr=on of propellant at launch, contained in two spherical titanium tanks mounted on opposite sides of the lander beneath the RTG windscreens, giving a total launch mass of convert|657|kg|abbr=on. Control was achieved through the use of an inertial reference unit, four gyroscope|gyros, a radar altimeter, a terminal descent and landing radar, and the control thrusters.
+
+=Power=
+Power was provided by two radioisotope thermoelectric generator (RTG) units containing plutonium|plutonium-238 affixed to opposite sides of the lander base and covered by wind screens. Each generator was convert|28|cm|abbr=on tall, convert|58|cm|abbr=on in diameter, had a mass of convert|13.6|kg|abbr=on and provided 30 watts continuous power at 4.4 volts. Four wet cell sealed nickel-cadmium 8 ampere-hours (28,800 coulombs), 28 volts rechargeable battery|rechargeable batteries were also on board to handle peak power loads.
+
+=Payload=
+File:Viking2lander1.jpg|thumb|right|Image from Mars taken by the ''Viking 2'' lander 
+Communications were accomplished through a 20-watt S-band transmitter using two traveling-wave tubes. A two-axis steerable high-gain parabolic antenna was mounted on a boom near one edge of the lander base. An omnidirectional antenna|omnidirectional low-gain S-band antenna also extended from the base. Both these antennae allowed for communication directly with the Earth, permitting Viking 1 to continue to work long after both orbiters had failed. A UHF Nowrap|(381 MHz) antenna provided a one-way relay to the orbiter using a 30 watt relay radio. Data storage was on a 40-Mbit tape recorder, and the lander computer had a 6000-Word (data type)|word memory for command instructions.
+
+The lander carried instruments to achieve the primary scientific objectives of the lander mission: to study the biology, chemical composition (organic compound|organic and inorganic), meteorology, seismology, magnetism|magnetic properties, appearance, and physical properties of the Martian surface and atmosphere. Two 360-degree cylindrical scan cameras were mounted near one long side of the base. From the center of this side extended the sampler arm, with a collector head, Sensor#Thermal|temperature sensor, and magnet on the end. A Climate of Mars|meteorology boom, holding temperature, wind direction, and wind velocity sensors extended out and up from the top of one of the lander legs. A seismometer, magnet and camera test targets, and magnifying mirror are mounted opposite the cameras, near the high-gain antenna. An interior environmentally controlled compartment held the biology experiment and the gas chromatography|gas chromatograph mass spectrometer. The X-ray fluorescence spectrometer was also mounted within the structure. A pressure sensor was attached under the lander body. The scientific Payload (air and space craft)|payload had a total mass of approximately convert|91|kg|abbr=on.
+
+=Biological experiments=
+Main|Viking biological experiments
+The Viking landers conducted Viking biological experiments|biological experiments designed to detect life on Mars (planet)|life in the Martian soil (if it existed) with experiments designed by three separate teams, under the direction of chief scientist Gerald Soffen of NASA. One experiment turned positive for the detection of metabolism (current life), but based on the results of the other two experiments that failed to reveal any Organic matter|organic molecules in the soil, most scientists became convinced that the positive results were likely caused by non-biological chemical reactions from highly oxidizing soil conditions.<ref name=Beegle >Cite journal|title=A Concept for NASA's Mars 2016 Astrobiology Field Laboratory|journal=Astrobiology|date=August 2007|first=LUTHER W.|last=BEEGLE|display-authors=etal |volume=7 | issue = 4|pmid=17723090 |pages=545–577|doi=10.1089/ast.2007.0153|bibcode=2007AsBio...7..545B</ref>
+Multiple image|direction=vertical|align=left|image1=Mars Viking 11a097.png|image2=Mars Viking 11d128.png|width=220|caption1=Dust dunes and a large boulder taken by the ''Viking 1'' lander.|caption2=Trenches dug by the soil sampler of the  ''Viking 1'' lander. 
+Although there is consensus that the Viking lander results demonstrated a lack of biosignatures in soils at the two landing sites, the test results and their limitations are still under assessment. The validity of the positive 'Labeled Release' (LR) results hinged entirely on the absence of an oxidative agent in the Martian soil, but one was later discovered by the Phoenix lander in the form of perchlorate salts.<ref>Cite web|url=http://www.latimes.com/news/printedition/asection/la-sci-phoenix6-2008aug06,0,4986721.story|title=Perchlorate found in Martian soil|date=August 6, 2008|work=Los Angeles Times|last=Johnson|first=John</ref><ref>Cite web|url=https://www.sciencedaily.com/releases/2008/08/080805192122.htm|publisher=Science Daily|date=August 6, 2008|title=Martian Life Or Not? NASA's ''Phoenix'' Team Analyzes Results</ref> It has been proposed that organic compounds could have been present in the soil analyzed by both ''Viking 1'' and ''Viking 2'', but remained unnoticed due to the presence of perchlorate, as detected by Phoenix in 2008.<ref>Cite news|url=http://www.agu.org/pubs/crossref/2010/2010JE003599.shtml |title=Reanalysis of the Viking results suggests perchlorate and organics at midlatitudes on Mars |journal=Journal of Geophysical Research: Planets |volume=115 |issue=E12010 |date=December 15, 2010 |accessdate=January 7, 2011 |first=Rafael |last=Navarro–Gonzáles |author2=Edgar Vargas |author3=José de la Rosa |author4=Alejandro C. Raga |author5=Christopher P. McKay </ref>  Researchers found that perchlorate will destroy organics when heated and will produce chloromethane and dichloromethane, the identical chlorine compounds discovered by both Viking landers when they performed the same tests on Mars.<ref>cite web| url=https://news.nationalgeographic.com/news/2012/04/120413-nasa-viking-program-mars-life-space-science/| publisher=National Geographic| title=Life on Mars Found by NASA's Viking Mission| first=Ker| last=Than| date=April 15, 2012| access-date=April 13, 2018</ref>
+
+The question of microbial life on Mars remains unresolved. Nonetheless, on April 12, 2012, an international team of scientists reported studies, based on mathematical speculation through complexity analysis of the Viking biological experiments#Labeled Release|Labeled Release experiments of the 1976 Viking Mission, that may suggest the detection of "extant microbial life on Mars."<ref name="Bianciardi-2012">cite journal |last1=Bianciardi |first1=Giorgio |last2=Miller |first2=Joseph D. |last3=Straat |first3=Patricia Ann |last4=Levin |first4=Gilbert V. |title=Complexity Analysis of the Viking Labeled Release Experiments |url=http://ijass.org/PublishedPaper/year_abstract.asp?idx=132 |journal=IJASS |date=March 2012 |volume=13 |issue=1 |pages=14–26 |accessdate=April 15, 2012 |doi=10.5139/IJASS.2012.13.1.14 |bibcode=2012IJASS..13...14B |deadurl=yes |archiveurl=https://web.archive.org/web/20120415162537/http://ijass.org/PublishedPaper/year_abstract.asp?idx=132 |archivedate=April 15, 2012 |df=mdy-all </ref><ref name="Discovery-20120412">cite web |last=Klotz |first=Irene |title=Mars Viking Robots 'Found Life' |url=http://news.discovery.com/space/mars-life-viking-landers-discovery-120412.html |date=April 12, 2012 |publisher=Discovery Channel|DiscoveryNews |accessdate=April 16, 2012 </ref>
+
+=Camera/imaging system=
+The leader of the imaging team was Thomas Mutch, a geologist at Brown University in Providence, Rhode Island. The camera uses a movable mirror to illumate 12 photo diodes. Each of the 12 silicon diodes are designed to be sensitive to different frequences of light. Several diodes are placed to focus accurately at distances between six and 43 feet away from the lander.
+
+The cameras scanned at a rate of five vertical scan lines per second, each composed of 512 pixels. The 300 degree panorama images were composed of 9150 lines. The cameras scan was slow enough that in a crew shot several members show up several times in the shot as they moved themselves as the camera scanned.<ref>cite book|chapter-url=https://history.nasa.gov/SP-425/ch8.htm|title=The Martian Landscape|author=The Viking Lander Imaging Team|publisher=NASA|date=1978|chapter=Chapter 8: Cameras Without Pictures|page=22</ref><ref>cite news|url=https://www.nytimes.com/1976/07/21/archives/viking-cameras-light-in-weight-use-little-power-work-slowly.html|title=Viking Cameras Light in Weight, Use Little Power, Work Slowly|last=McElheny|first=Victor K.|publisher=The New York Times|date=July 21, 1976|accessdate=September 28, 2013</ref>
+
+Control systems
+The Viking landers used a Guidance, Control and Sequencing Computer (GCSC) consisting of two Honeywell HDC 402 24-bit computers with 18K of Plated wire memory|plated-wire memory, while the Viking orbiters used a Command Computer Subsystem (CCS) using two custom-designed 18-bit serial processors.<ref>Cite web|last=Tomayko|first=James|publisher=NASA|date=April 1987|url=https://history.nasa.gov/computers/Ch5-6.html|accessdate=February 6, 2010|title=Computers in Spaceflight: The NASA Experience</ref><ref>Cite web|last=Holmberg|first=Neil A.|author2=Robert P. Faust |author3=H. Milton Holt |url=https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19810001592_1981001592.pdf| accessdate=February 6, 2010|title=NASA Reference Publication 1027: Viking '75 spacecraft design and test summary. Volume 1 – Lander design|publisher=NASA|date=November 1980</ref><ref>Cite web|last=Holmberg|first=Neil A.|author2=Robert P. Faust |author3=H. Milton Holt |url=https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19810001593_1981001593.pdf|accessdate=February 6, 2010|title=NASA Reference Publication 1027: Viking '75 spacecraft design and test summary. Volume 2 – Orbiter design|publisher=NASA|date=November 1980</ref>
+
+Financial cost of the Viking program
+The two orbiters cost US$217 million (at the time), which is about Inflation|r=0|US-GDP|.217|1970 billion USD in Inflation-year|US-GDP year-dollars.<ref name="marsmoney">Cite book|url=https://books.google.com/books?id=5Dy6z6DQDNoC&pg=PA68|title=Faster, Better, Cheaper: Low-Cost Innovation in the U.S. Space Program|last=McCurdy|first=Howard E.|date=2001|publisher=JHU Press|isbn=978-0-8018-6720-0|page=68</ref><ref name=":0" /> The most expensive single part of the program was the lander's life-detection unit, which cost about 60 million then or Inflation|r=-2|US-GDP|60|1970 million USD in Inflation-year|US-GDP year-dollars.<ref name=marsmoney/><ref name=":0" /> Development of the Viking lander design cost US$357 million.<ref name=marsmoney/> This was decades before "faster, better, cheaper", Viking needed to pioneer never before imagined technologies under the pressure of national prestige pulled by the Global Cold War conflict and a Space race, not to mention a possibility they might discover extraterrestrial life for the first time (it would only be after the mission, with results created by Viking that such an idea rang less plausible).<ref name=marsmoney/> The experiments had to adhere to a special 1971 directive that mandated that no single failure shall stop the return of more than one experimentmdasha difficult and expensive task for a device with over 40,000 parts.<ref name=marsmoney/>
+
+The Viking camera system cost US$27.3 million to develop, or about Inflation|r=-2|US-GDP|27.3|1970 million in Inflation-year|US-GDP year-dollars.<ref name=marsmoney/><ref name=":0" /> When the Imaging system design was completed, it was difficult to find anyone who could manufacture it so advanced.<ref name=marsmoney/> The program managers were later praised for fending off pressure to go with a simpler, less advanced imaging system, especially when the views rolled in.<ref name=marsmoney/> The program did save some money by cutting out a third lander and reducing the number of experiments on the lander.<ref name=marsmoney/>
+
+Overall NASA says that US$1 billion in 1970s dollars was spent on the program,<ref name="nssdc.gsfc.nasa.gov"/><ref name="space.com"/> which when inflation-adjusted to Inflation-year|US-GDP dollars is about Inflation|r=0|US-GDP|1|1970 billion USD.<ref name=":0">As the Viking program was a government expense, the inflation index of the United States Nominal GDP|Nominal Gross Domestic Product per capita is used for the inflation-adjusting calculation.</ref>
+
+Mission end
+The craft eventually failed, one by one, as follows:<ref name="NASA-20061218" />
+{| class="wikitable"
+! Craft || Arrival date || Shut-off date || Operational lifetime || Cause of failure
+|-
+| ''Viking 2'' orbiter || August 7, 1976 || July 25, 1978 || 1 year, 11 months, 18 days || Shut down after fuel leak in propulsion system.
+|-
+| ''Viking 2'' lander || September 3, 1976 || April 11, 1980 || 3 years, 7 months, 8 days || Shut down after battery failure.
+|-
+| ''Viking 1'' orbiter || June 19, 1976 || August 17, 1980 || 4 years, 1-month, 19 days || Shut down after depletion of attitude control fuel.
+|-
+| ''Viking 1'' lander || July 20, 1976 || November 13, 1982 || 6 years, 3 months, 22 days || Shut down after human error during software update caused the lander's antenna to go down, terminating power and communication.
+|}
+The Viking program ended on May 21, 1983. To prevent an imminent impact with Mars the orbit of ''Viking 1'' orbiter was raised on August 7, 1980 before it was shut down 10 days later. Impact and potential contamination on the planet's surface is possible from 2019 onwards.<ref name="v1osd">Cite news |url=http://nssdc.gsfc.nasa.gov/nmc/masterCatalog.do?sc=1975-075A |title=Viking 1 Orbiter spacecraft details |accessdate=July 23, 2012 |date=May 14, 2012 |work=National Space Science Date Center |publisher=NASA </ref> It's unknown if the ''Viking 2'' orbiter's orbit was also raised to prevent an impact.<ref>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1975-083A</ref>
+
+The ''Viking 1'' lander was found to be about 6 kilometers from its planned landing site by the Mars Reconnaissance Orbiter in December 2006.
+<ref>cite web| url=https://www.newscientist.com/article/dn10727-probes-powerful-camera-spots-vikings-on-mars.html#.UlIB7FDrwbN| title=Probe's powerful camera spots Vikings on Mars| last=Chandler| first=David| publisher=New Scientist| date=December 5, 2006| accessdate=October 8, 2013</ref>
+
+ Viking lander locations 
+Clear
+Mars map indicating landers
+Clear
+
+See also
+Commons category|Viking mission
+Div col|colwidth=30em
+* Composition of Mars 
+* Curiosity rover|''Curiosity'' rover 
+* ExoMars 
+* Exploration of Mars
+* Life on Mars (planet)|Life on Mars
+* List of missions to Mars 
+* List of rocks on Mars
+* Mariner 9 (important orbiter that preceded Viking)
+* Mars Science Laboratory
+* Mars Pathfinder
+* Norman L. Crabill
+* Opportunity rover|''Opportunity'' rover
+* Space exploration
+* Spirit rover|''Spirit'' rover
+* Unmanned space mission 
+* U.S. Space Exploration History on U.S. Stamps
+div col end
+Clear
+
+References
+Reflist|30em
+
+Further reading
+Col-begin
+Col-break
+* [http://www.hq.nasa.gov/office/pao/History/SP-4212/on-mars.html On Mars: Exploration of the Red Planet]
+* [https://history.nasa.gov/SP-441/cover.htm Viking Orbiter Views of Mars]
+* [https://history.nasa.gov/SP-425/cover.htm The Martian Landscape SP-425]
+* [http://pubs.acs.org/subscribe/journals/ancham/79/i19/pdf/1007feature_viking.pdf ''Analytical Chemistry'' feature article about the Viking spacecraft's scientific mission]
+Col-break
+* [https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19810001592_1981001592.pdf Viking '75 spacecraft design and test summary. Volume 1 Lander design – NASA Report]
+* [https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19810001593_1981001593.pdf Viking '75 spacecraft design and test summary. Volume 2 Orbiter design – NASA Report]
+* [https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19810002594_1981002594.pdf Viking '75 spacecraft design and test summary. Volume 3 Engineering test summary – NASA Report]
+Col-end
+
+External links
+* [http://www.nasa.gov/mission_pages/viking/ NASA Mars Viking Mission]
+* [https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19740026174_1974026174.pdf Viking Mission to Mars (NASA SP-334)]
+* [http://www.solarviews.com/span/vikingfs.htm Solar Views Project Viking Fact Sheet]
+* [http://www.maniacworld.com/Viking-Mission-to-Mars.htm Viking Mission to Mars] Video
+* [http://www.flightglobal.com/airspace/photos/missilespacesystemscutaways/nasa-viking-cutaway-10304.aspx A diagram of the Viking and its flight profile]
+* [https://web.archive.org/web/20150117191711/http://airandspace.si.edu/exhibitions/exploring-the-planets/online/mars/viking_lab.html Article at Smithsonian Air and Space Website]
+
+Jet Propulsion Laboratory
+NASA navbox|state=collapsed
+NASA planetary exploration programs
+Mars spacecraft 
+portal bar|Astrobiology|Mars
+
+DEFAULTSORT:Viking Program
+Category:1974 in spaceflight
+Category:Missions to Mars
+Category:NASA programs
+Category:Viking program|*
+Category:Astrobiology
+Category:Derelict landers (spacecraft)

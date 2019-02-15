@@ -1,0 +1,35 @@
+more citations needed|date=January 2017
+Transcription software assists in the conversion of human speech into a text transcript. The primary meaning of the term "transcription software" has changed over time, with the introduction of new technologies such as natural language speech recognition. References also depend on the purpose for the transcript. The term "transcription software" can refer to a completely automated solution, or to software which helps a human transcriber manually convert spoken audio into text transcripts. In the latter case, the term ''digital dictation'' is sometimes used.
+
+Transcription software, as with transcription (service)|transcription services, is often provided for business, legal, or medical transcription|medical purposes. Compared with audio content, a text transcript is searchable, takes up less computer memory, and can be used as an alternate method of communication, such as for Closed captioning|closed captions.
+
+The definition of transcription "software", as compared with transcription "service", is that the former is sufficiently automated that a user can run the entire system without engaging outside personnel. However, the advent of SaaS|software-as-a-service and cloud computing models blur this distinction.
+
+Products and vendors
+A number of Transcription (linguistics)|transcription software tools are available for research and/or for commercial use:
+
+= Automatic (Natural Language Recognition) tools =
+* [https://temi.com/ Temi] – Speech to text transcription in 5 minutes. Advanced speech recognition software developed by Rev.com, the leading provider of human transcription. 
+* [https://trint.com/ Trint] – A speech recognition tool using Artificial Intelligence to transcribe audio and video files developed by a Canadian war correspondent
+* CMU Sphinx – An Open Source speech recognition system developed at Carnegie Mellon University
+* HTML5 – HTML5 Audio#Web Speech API|Web Speech API<ref>cite web|title=Web Speech API Specification|url=https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html|publisher=World Wide Web Consortium|accessdate=20 June 2016|date=19 October 2012</ref>
+* Interact-AS - Software that automatically transcribes speech, and does so for multiple languages.<ref>Cite web|url=http://www.auditorysciences.com|title=Automated transcription software|last=|first=|date=|website=|access-date=</ref>
+*[https://www.govivace.com/solutions/captionai/ captionAI] real-time transcription software based on Speech to Text<ref>cite web |title=Speech to Text(Audio Transcription) |url=https://www.govivace.com/products/speech-to-text-transcription/ |publisher=GoVivace Inc. |accessdate=14 September 2017</ref> by [https://www.govivace.com/ GoVivace Inc.]
+*[https://www.happyscribe.co Happy Scribe] - Cloud based transcription software.
+* Nuance Communications|Nuance – Dictaphone, Dragon NaturallySpeaking, eScription, MacSpeech Scribe, PowerScribe
+* Yap (company)|Yap Speech Cloud – Speech-to-text platform acquired by Amazon.com
+
+= Manual tools (digital dictation, transcription assistants) =
+* MAXQDA – Qualitative analysis software with a fully developed transcription tool.
+* Transana
+
+See also
+* Digital dictation
+* Optical character recognition
+* Speech synthesis
+
+References
+Reflist
+
+DEFAULTSORT:Transcription
+Category:Speech recognition

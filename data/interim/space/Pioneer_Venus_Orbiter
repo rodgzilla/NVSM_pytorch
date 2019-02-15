@@ -1,0 +1,229 @@
+Infobox spaceflight
+| name                  = Pioneer Venus Orbiter
+| image                 = Pioneer Venus orbiter.jpg
+| image_caption         = Pioneer Venus Orbiter
+
+| mission_type          = Venus orbiter
+| operator              = NASA\Ames Research Center|ARC
+| website               = [http://nssdc.gsfc.nasa.gov/planetary/pioneer_venus.html Pioneer Venus at NASA]
+| COSPAR_ID             = 1978-051A 
+| SATCAT                = 10911
+| mission_duration      = 14&nbsp;years, 4&nbsp;months, 18&nbsp;days <small>(from&nbsp;launch)</small><br/>13&nbsp;years, 10&nbsp;months, 4&nbsp;days <small>(at&nbsp;Venus)</small>
+
+| spacecraft_bus        = HS-507
+| manufacturer          = Hughes Aircraft Company|Hughes
+| dimensions            = convert|2.5|xx|1.2|m|ft|abbr=on
+| dry_mass              = convert|517|kg|lb|abbr=on
+| launch_mass           = convert|582|kg|lb|abbr=on 
+| power                 = 312&nbsp;watts
+
+| launch_date           = start-date|May 20, 1978, 13:13:00|timezone=yes&nbsp;UTC 
+| launch_rocket         = Atlas-Centaur|Atlas SLV-3D Centaur-D1AR
+| launch_site           = Cape Canaveral Air Force Station|Cape Canaveral Cape Canaveral Air Force Station Space Launch Complex 36|LC-36A
+
+| last_contact          = end-date|October 8, 1992, 19:22|timezone=yes&nbsp;UTC
+| decay_date            = October 22, 1992<ref name="SC">cite web | url=http://planet4589.org/space/log/satcat.txt | title=Satellite Catalog | first=Jonathan| last=McDowell | work=Jonathan's Space Page | deadurl=no | archivedate=2003-10-11 | archiveurl=https://web.archive.org/web/20031011062901/http://planet4589.org/space/log/satcat.txt </ref>
+
+| orbit_epoch           = 22 November 1979, 11:53:20&nbsp;UTC<ref>Cite web|url=https://nssdc.gsfc.nasa.gov/nmc/spacecraftOrbit.do?id=1978-051A|title=NASA - NSSDCA - Spacecraft - Trajectory Details|website=nssdc.gsfc.nasa.gov|access-date=2018-05-02</ref>
+| orbit_reference       = cytherocentric orbit|Cytherocentric
+| orbit_semimajor       = convert|33405.8|km|mi
+| orbit_periapsis       = convert|181.6|km|mi|sp=us 
+| orbit_apoapsis        = convert|66630|km|mi|sp=us  
+| orbit_inclination     = 105&nbsp;degrees
+| orbit_period          = 24&nbsp;hours 
+| orbit_eccentricity    = 0.842
+| apsis                 = cytherion
+
+|interplanetary         = 
+ Infobox spaceflight/IP
+   |type                = orbiter
+   |object              = Venus
+   |orbits              = 
+   |arrival_date        = December 4, 1978
+ 
+
+| programme             = ''Pioneer program|Pioneer'' (Pioneer Venus project|Pioneer Venus)
+| previous_mission      = Pioneer 11
+| next_mission          = Pioneer Venus Multiprobe|Pioneer 13
+
+The Pioneer Venus Orbiter, also known as Pioneer Venus 1 or Pioneer 12, was a mission to Venus conducted by the United States as part of the Pioneer Venus project. Launched in May 1978 atop an Atlas-Centaur rocket, the spacecraft was inserted into an elliptical orbit around Venus on December 4, 1978. It returned data on Venus until October 1992.<ref name="SC" /><ref name="pv1" />
+
+Launch and arrival at Venus
+File:Pioneer Venus 1 orbit attitude.gif|thumb|left|Orbit attitude of Pioneer Venus 1 between 1978–1980 and 1992
+The Pioneer Venus Orbiter was launched by an Atlas-Centaur|Atlas SLV-3D Centaur-D1AR rocket, which flew from Cape Canaveral Air Force Station Space Launch Complex 36|Launch Complex 36A at the Cape Canaveral Air Force Station. The launch occurred at 13:13:00 on May 20, 1978, and deployed the Orbiter into heliocentric orbit for its coast to Venus. Venus orbit insertion occurred on December 4, 1978.
+
+Spacecraft
+File:Pioneer Venus 1 at KSC.jpg|thumb|left|upright|Pioneer Venus 1 at Kennedy Space Center|KSC.
+Manufactured by Hughes Aircraft Company, the Pioneer Venus Orbiter was based on the HS-507 spacecraft bus|bus.<ref name="GSP">cite web | url=http://space.skyrocket.de/doc_sdat/pioneer-12.htm | title=Pioneer 12 (Pioneer Venus Orbiter, PVO) | first=Gunter | last=Krebs | work=Gunter's Space Page | deadurl=no | archivedate=2005-01-12 | archiveurl=https://web.archive.org/web/20050112064044/http://space.skyrocket.de/doc_sdat/pioneer-12.htm </ref> The spacecraft was a flat cylinder, convert|2.5|m|ft|sp=us in diameter and convert|1.2|m|ft|sp=us long. All instruments and spacecraft subsystems were mounted on the forward end of the cylinder, except the magnetometer, which was at the end of a convert|4.7|m|ft|sp=us boom. A Photovoltaic module|solar array extended around the circumference of the cylinder. A convert|1.09|m despun dish antenna (electronics)|antenna provided S band|S and X band communication with Earth. A Star-24 solid rocket motor was integrated into the spacecraft to provide the thrust to enter orbit around Venus.<ref name="GSP" />
+
+From Venus orbit insertion to July 1980, periapsis was held between convert|142|and|253|km|mi (at 17 degrees north latitude) to facilitate radar and ionospheric measurements. The spacecraft was in a 24-hour orbit with an apoapsis of convert|66900|km|mi|sp=us. Thereafter, the periapsis was allowed to rise to a maximum of convert|2290|km and then fall, to conserve fuel.
+
+In 1991, the Radar Mapper was reactivated to investigate previously inaccessible southern portions of the planet, in conjunction with the recently arrived Magellan (spacecraft)|Magellan spacecraft. In May 1992, Pioneer Venus began the final phase of its mission, in which the periapsis was held between convert|150|and|250|km|mi, until the spacecraft's propellant was exhausted, after which the orbit orbital decay|decayed naturally. The spacecraft continued to return data until 8 October 1992, with the last signals being received at 19:22 UTC.<ref name="pv1">cite web | url=http://solarsystem.nasa.gov/missions/profile.cfm?Sort=Target&Target=Venus&MCode=Pioneer_Venus_01&Display=ReadMore | title=Pioneer Venus 1 | publisher=NASA | work=Solar System Exploration | deadurl=no | archivedate=2006-10-04 | archiveurl=https://web.archive.org/web/20061004114707/http://solarsystem.nasa.gov/missions/profile.cfm?Sort=Target&Target=Venus&MCode=Pioneer_Venus_01&Display=ReadMore </ref> The Pioneer Venus Orbiter disintegrated upon atmospheric entry|entering the atmosphere of Venus on October 22, 1992.<ref name="SC" />
+
+Experiments
+File:Venus map with labels.jpg|thumb|right|190px|A map of Venus produced from Pioneer data
+The Pioneer Venus Orbiter carried 17 experiments with a total mass of convert|45|kg|lb:<ref name="Intro">cite web |url=https://nssdc.gsfc.nasa.gov/planetary/pioneer_venus.html |title=Pioneer Venus Project Information |work=NASA Goddard Space Flight Center |accessdate=2016-08-17 </ref>
+File:Venus clouds seen by Pioneer Venus Orbiter.jpg|alt=|thumb|203x203px|An image of Venus in ultraviolet light by the Pioneer Venus Orbiter
+
+*a cloud photo-polarimeter (OCPP) to measure the vertical distribution of the clouds, similar to Pioneer 10 and Pioneer 11 imaging photo-polarimeter (IPP)
+*a surface radar mapper (ORAD) to determine topography and surface characteristics. Observations could only be conducted when the probe was closer than 4700&nbsp;km over the planet. A 20 Watt S-band signal (1.757 gigahertz) was sent to the surface that reflected it, with the probe analyzing the echo. Resolution at periapsis was 23 x 7&nbsp;km.
+*an infrared radiometer (OIR) to measure infrared|IR emissions from Venus' atmosphere
+*an airglow ultraviolet spectrometer (OUVS) to measure scattered and emitted UV light
+*a neutral mass spectrometer (ONMS) to determine the composition of the upper atmosphere
+*a solar wind Plasma (physics)|plasma analyzer (OPA) to measure properties of the solar wind
+*a magnetometer (OMAG) to characterize the magnetic field at Venus
+*an electric field detector (OEFD) to study the solar wind and its interactions
+*an electron temperature  (OETP) to study the thermal properties of the ionosphere
+*an ion mass spectrometer (OIMS) to characterize the ionospheric ion population
+*a charged particle retarding potential analyzer (ORPA) to study ionospheric particles
+*two radio science experiments to determine the gravity field of Venus
+*a radio occultation experiment to characterize the atmosphere
+*an atmospheric drag experiment to study the upper atmosphere
+*a radio science atmospheric and solar wind turbulence experiment
+*a gamma ray burst (OGBD) detector to record gamma ray burst events
+File:Pioneer-Venus-Orbiter-orbit.png|thumb|right|190px|Orbit of the spacecraft Pioneer Venus Orbiter.
+File:Atlas Centaur with Pioneer Venus Orbiter.jpg|thumb|right|190px|Launch of Pioneer Venus Orbiter with Atlas-Centaur rocket.
+File:Pioneer-Venus-Trajectories.png|thumb|right|190px|Trajectory of Pioneer Venus Orbiter.
+{| class="wikitable alternance"  
+|+Synthesis of the instruments
+|-
+! scope=col | Name
+! scope=col | Complete designation
+! scope=col | Type
+! scope=col | Manufacturer
+! scope=col | Responsible scientist
+! scope=col | Mass
+! scope=col | Electrical consumption
+|-
+|OCPP|| Orbiter Cloud Photopolarimeter  || Photo polarimeter ||  GISS || J. Hansen  || align="center"| convert|5|kg|lb|abbr=on  ||    align="center"| 5.4 W 
+|-
+|ORAD||   Orbiter Radar Mapper Instrument || Radar   ||  MIT ||   G. Pettengill || align="center"| convert|9|kg|lb|abbr=on  ||    align="center"| 18 W 
+|-
+|OIR||  Orbiter Infrared Radiometer  || Infrared radiometer || JPL   || F. Taylor  || align="center"| convert|5.9|kg|lb|abbr=on  ||    align="center"| 5.2 W 
+|-
+|OUVS||  Orbiter Ultraviolet Spectrometer  || Ultraviolet spectrometer   || LASP ||   A. Stewart|| align="center"| convert|3.1|kg|lb|abbr=on  ||    align="center"| 1.7 W 
+|-
+|ONMS||  Orbiter Neutral Mass Spectrometer  || Neutral mass spectrometer ||  GSFC  ||  H. Neimann || align="center"| convert|3.8|kg|lb|abbr=on  ||    align="center"| 12 W 
+|-
+|OPA||  Orbiter Plasma Analyzer  || Analzer plasma ||  ARC  || J. Wolfe  || align="center"| convert|3.9|kg|lb|abbr=on  ||    align="center"| 5 W 
+|-
+|OMAG || Orbiter Magnetometer  || Magnetometer ||  UCLA || C. Russell || align="center"| convert|2|kg|lb|abbr=on ||    align="center"| 2.2 W 
+|-
+|OEFD||  Orbiter Electric Field Detector   || Measure the electric fields of Venus ||   TRW  ||  F. Scarf  || align="center"| convert|0.8|kg|lb|abbr=on  ||    align="center"| 0.7 W 
+|-
+|OETP|| Orbiter Electron Temperature Probe   || Electron temperature gauge || GSFC   ||  L. Brace || align="center"| convert|2.2|kg|lb|abbr=on  ||    align="center"|4.8 W 
+|-
+|OIMS|| Orbiter Ion Mass Spectrometer     || Ion mass spectrometer || GSFC   || H. Taylor  || align="center"| convert|3|kg|lb|abbr=on  ||    align="center"|1.5 W 
+|-
+|ORPA||   Orbiter Retarding Potential Analyzer || Ion charge meter ||  LPARL  || W. Knudsen  || align="center"| convert|2.8|kg|lb|abbr=on  ||    align="center"|2.4 W 
+|-
+|OGBD||  Orbiter Gamma-Ray Burst Detector  || Gamma-ray burst detector ||  LASL   ||  W. Evans || align="center"| convert|2.8|kg|lb|abbr=on  ||    align="center"|1.3 W 
+|-
+|align="center" rowspan="6"|-|| S and X-Band Radio Occultation Studies of the Atmosphere and Ionosphere o| Venus (ORO)     || rowspan="6"|Radio science ||  align="center"|-   || A. Kliore (JPL) || align="center" rowspan="6"| –  ||    align="center" rowspan="6"|-  
+|-
+|  Orbiter Dual-Frequency Experiments (OGPE)    ||   align="center"|-   || T. Croft (SRI)
+|-
+|  Atmospheric and Solar Wind Turbulence Experiment (OTUR) ||     align="center"|-   || T. Croft (JPL)
+|-
+|  Orbiter Atmospheric Drag Expe "nment (OAD)     ||   align="center"|-   || G. Keating   (LRC)
+|-
+|  Orbiter Internal Density Distribution Experiment (OIDD)    ||    align="center"|-  || R. Phillips   (JPL)
+|-
+|  Orbiter Celestial Mechanics Experiment (OCM)    ||    align="center"|-  || I. Shapiro   (MIT)
+|-
+|colspan="7"| <small>LASP: Laboratory for Atmospheric and Space Physics (University of Colorado Boulder|University of Boulder, Colorado); UCLA: University of California in Los Angeles; JPL: Jet Propulsion Laboratory; MIT: Massachusetts Institute of Technology; GSFC: Goddard Space Flight Center  GISS: Goddard Institute for Space Studies; LRC:  Langley Research Center; ARC: Ames Research Center; LASL: Los Alamos National Laboratory; SRI: Stanford Research Institute</small>
+|}
+
+The spacecraft conducted radar altimetry observations allowing the first global topographic map of the Venusian surface to be constructed.
+
+ Observations of Halley's Comet 
+From its orbit of Venus, the Pioneer Venus Orbiter was able to observe Halley's Comet when it was unobservable from Earth due to its proximity to the sun during February 1986. UV spectrometer observations monitored the loss of water from the comet's nucleus at perihelion on February 9.<ref>cite web | url=http://www-ssc.igpp.ucla.edu/personnel/russell/papers/pioneerVenus_conjunct.pdf | format=PDF | title=Pioneer Venus Observations during Comet Halley's Inferior Conjunction | first=C.T. | last=Russell | first2=J.G. | last2=Luhmann | first3=F.L. | last3=Scarf | publisher=University of California, Los Angeles | date=1985 | deadurl=no | archivedate=2009-02-27 | archiveurl=https://web.archive.org/web/20090227202025/http://www-ssc.igpp.ucla.edu/personnel/russell/papers/pioneerVenus_conjunct.pdf </ref>
+
+See also
+Portal|Spaceflight
+* Pioneer Venus Multiprobe
+* List of missions to Venus
+* Timeline of artificial satellites and space probes
+
+References
+Reflist|30em
+
+ External links 
+Commons category|Pioneer Venus project
+*[http://nssdc.gsfc.nasa.gov/planetary/pioneer_venus.html NASA: Pioneer Venus Project Information]
+*[http://solarsystem.nasa.gov/missions/profile.cfm?MCode=Pioneer_Venus Pioneer Venus Program Page] by [http://solarsystem.nasa.gov NASA's Solar System Exploration]
+*[https://archive.org/details/nasa_techdoc_19900013957 Kasprzak, W. T – The Pioneer Venus Orbiter: 11 years of data. (May 1, 1990) – NASA]
+
+ Science Magazine in year 1979 issue 4401 
+* cite journal|jstor=1748508|title=Pioneer Venus Results: An Overview|first=T. M.|last=Donahue|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=41–44|bibcode=1979Sci...205...41D|doi=10.1126/science.205.4401.41
+* cite journal|jstor=1748509|title=Encounter with Venus: An Update|first=Lawrence|last=Colin|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=44–46|bibcode=1979Sci...205...44C|doi=10.1126/science.205.4401.44
+* cite journal|jstor=1748510|title=Thermal Contrast in the Atmosphere of Venus: Initial Appraisal from Pioneer Venus Probe Data|first1=Alvin|last1=Seiff|first2=Donn B.|last2=Kirk|first3=Richard E.|last3=Young|first4=Simon C.|last4=Sommer|first5=Robert C.|last5=Blanchard|first6=John T.|last6=Findlay|first7=G. M.|last7=Kelly|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=46–49|bibcode=1979Sci...205...46S|doi=10.1126/science.205.4401.46
+* cite journal|jstor=1748511|title=Composition and Structure of the Venus Atmosphere: Results from Pioneer Venus|first1=J. H.|last1=Hoffman|first2=R. R.|last2=Hodges|first3=M. B.|last3=McElroy|first4=T. M.|last4=Donahue|first5=M.|last5=Kolpin|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=49–52|pmid=17778898|bibcode=1979Sci...205...49H|doi=10.1126/science.205.4401.49
+* cite journal|jstor=1748512|title=Laboratory Corroboration of the Pioneer Venus Gas Chromatograph Analyses|first1=V. I.|last1=Oyama|first2=G. C.|last2=Carle|first3=F.|last3=Woeller|first4=J. B.|last4=Pollack|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=52–54|bibcode=1979Sci...205...52O|doi=10.1126/science.205.4401.52
+* cite journal|jstor=1748513|title=Venus Upper Atmosphere Neutral Gas Composition: First Observations of the Diurnal Variations|first1=H. B.|last1=Niemann|first2=R. E.|last2=Hartle|first3=A. E.|last3=Hedin|first4=W. T.|last4=Kasprzak|first5=N. W.|last5=Spencer|first6=D. M.|last6=Hunten|first7=G. R.|last7=Carignan|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=54–56|bibcode=1979Sci...205...54N|doi=10.1126/science.205.4401.54
+* cite journal|jstor=1748514|title=Implications of the Gas Compositional Measurements of Pioneer Venus for the Origin of Planetary Atmospheres|first1=James B.|last1=Pollack|first2=David C.|last2=Black|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=56–59|bibcode=1979Sci...205...56P|doi=10.1126/science.205.4401.56
+* cite journal|jstor=1748515|title=Ultraviolet Night Airglow of Venus|first1=A. Ian|last1=Stewart|first2=Charles A.|last2=Barth|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=59–62|pmid=17778902|bibcode=1979Sci...205...59S|doi=10.1126/science.205.4401.59
+* cite journal|jstor=1748516|title=Short-Term Cyclic Variations and Diurnal Variations of the Venus Upper Atmosphere|first1=G. M.|last1=Keating|first2=F. W.|last2=Taylor|first3=J. Y.|last3=Nicholson|first4=E. W.|last4=Hinson|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=62–64|bibcode=1979Sci...205...62K|doi=10.1126/science.205.4401.62
+* cite journal|jstor=1748517|title=Temperature, Cloud Structure, and Dynamics of Venus Middle Atmosphere by Infrared Remote Sensing from Pioneer Orbiter|first1=F. W.|last1=Taylor|first2=D. J.|last2=Diner|first3=L. S.|last3=Elson|first4=D. J.|last4=McCleese|first5=J. V.|last5=Martonchik|first6=J.|last6=Delderfield|first7=S. P.|last7=Bradley|first8=J. T.|last8=Schofield|first9=J. C.|last9=Gille|first10=M. T.|last10=Coffey|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=65–67|bibcode=1979Sci...205...65T|doi=10.1126/science.205.4401.65
+* cite journal|jstor=1748518|title=Further Results of the Pioneer Venus Nephelometer Experiment|first1=Jacques|last1=Blamont|first2=Boris|last2=Ragent|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=67–70|pmid=17778905|bibcode=1979Sci...205...67B|doi=10.1126/science.205.4401.67
+* cite journal|jstor=1748519|title=Clouds of Venus: A Preliminary Assessment of Microstructure|first1=Robert G.|last1=Knollenberg|first2=D. M.|last2=Hunten|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=70–74|bibcode=1979Sci...205...70K|doi=10.1126/science.205.4401.70
+* cite journal|jstor=1748520|title=Cloud Images from the Pioneer Venus Orbiter|first1=L. D.|last1=Travis|first2=D. L.|last2=Coffeen|first3=A. D.|last3=Del Genio|first4=J. E.|last4=Hansen|first5=K.|last5=Kawabata|first6=A. A.|last6=Lacis|first7=W. A.|last7=Lane|first8=S. S.|last8=Limaye|first9=W. B.|last9=Rossow|first10=P. H.|last10=Stone|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=74–76|bibcode=1979Sci...205...74T|doi=10.1126/science.205.4401.74
+* cite journal|jstor=1748521|title=Nature of the Ultraviolet Absorber in the Venus Clouds: Inferences Based on Pioneer Venus Data|first1=James B.|last1=Pollack|first2=Boris|last2=Ragent|first3=Robert|last3=Boese|first4=Martin G.|last4=Tomasko|first5=Jacques|last5=Blamont|first6=Robert G.|last6=Knollenberg|first7=Larry W.|last7=Esposito|first8=A. Ian|last8=Stewart|first9=Lawrence|last9=Travis|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=76–79|bibcode=1979Sci...205...76P|doi=10.1126/science.205.4401.76
+* cite journal|jstor=1748522|title=Absorption of Sunlight in the Atmosphere of Venus|first1=Martin G.|last1=Tomasko|first2=Lyn R.|last2=Doose|first3=Peter H.|last3=Smith|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=80–82|bibcode=1979Sci...205...80T|doi=10.1126/science.205.4401.80
+* cite journal|jstor=1748523|title=Preliminary Results of the Pioneer Venus Small Probe Net Flux Radiometer Experiment|first1=V. E.|last1=Suomi|first2=L. A.|last2=Sromovsky|first3=H. E.|last3=Revercomb|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=82–85|bibcode=1979Sci...205...82S|doi=10.1126/science.205.4401.82
+* cite journal|jstor=1748524|title=Venus Winds Are Zonal and Retrograde Below the Clouds|first1=C. C.|last1=Counselman|first2=S. A.|last2=Gourevitch|first3=R. W.|last3=King|first4=G. B.|last4=Loriot|first5=R. G.|last5=Prinn|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=85–87|bibcode=1979Sci...205...85C|doi=10.1126/science.205.4401.85
+* cite journal|jstor=1748525|title=Measurements of Turbulence in the Venus Atmosphere Deduced from Pioneer Venus Multiprobe Radio Scintillations|first1=Richard|last1=Woo|first2=J. W.|last2=Armstrong|first3=William B.|last3=Kendall|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=87–89|bibcode=1979Sci...205...87W|doi=10.1126/science.205.4401.87
+* cite journal|jstor=1748526|title=Venus: Preliminary Topographic and Surface Imaging Results from the Pioneer Orbiter|first1=Gordon H.|last1=Pettengill|first2=Peter G.|last2=Ford|first3=Walter E.|last3=Brown|first4=William M.|last4=Kaula|first5=Harold|last5=Masursky|first6=Eric|last6=Eliason|first7=George E.|last7=McGill|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=90–93|bibcode=1979Sci...205...90P|doi=10.1126/science.205.4401.90
+* cite journal|jstor=1748527|title=Gravity Field of Venus: A Preliminary Analysis|first1=Roger J.|last1=Phillips|first2=William L.|last2=Sjogren|first3=Elsa A.|last3=Abbott|first4=John C.|last4=Smith|first5=Ray N.|last5=Wimberly|first6=Cari A.|last6=Wagner|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=93–96|bibcode=1979Sci...205...93P|doi=10.1126/science.205.4401.93
+* cite journal|jstor=1748528|title=Ionosphere of Venus: First Observations of Day-Night Variations of the Ion Composition|first1=Harry A.|last1=Taylor|first2=Henry C.|last2=Brinton|first3=Siegfried J.|last3=Bauer|first4=Richard E.|last4=Hartle|first5=Paul A.|last5=Cloutier|first6=Robert E.|last6=Daniell|first7=Thomas M.|last7=Donahue|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=96–99|bibcode=1979Sci...205...96T|doi=10.1126/science.205.4401.96
+* cite journal|jstor=1748529|title=Initial Observations of the Nightside Ionosphere of Venus from Pioneer Venus Orbiter Radio Occultations|first1=A. J.|last1=Kliore|first2=I. R.|last2=Patel|first3=A. F.|last3=Nagy|first4=T. E.|last4=Cravens|first5=T. I.|last5=Gombosi|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=99–102|pmid=17778916|bibcode=1979Sci...205...99K|doi=10.1126/science.205.4401.99
+* cite journal|jstor=1748530|title=Empirical Models of the Electron Temperature and Density in the Nightside Venus Ionosphere|first1=L. H.|last1=Brace|first2=R. F.|last2=Theis|first3=H. B.|last3=Niemann|first4=H. G.|last4=Mayr|first5=W. R.|last5=Hoegy|first6=A. F.|last6=Nagy|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=102–105|bibcode=1979Sci...205..102B|doi=10.1126/science.205.4401.102
+* cite journal|jstor=1748531|title=Thermal Structure and Energy Influx to the Day- and Nightside Venus Ionosphere|first1=W. C.|last1=Knudsen|first2=K.|last2=Spenner|first3=R. C.|last3=Whitten|first4=J. R.|last4=Spreiter|first5=K. L.|last5=Miller|first6=V.|last6=Novak|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=105–107|bibcode=1979Sci...205..105K|doi=10.1126/science.205.4401.105
+* cite journal|jstor=1748532|title=Comparison of Calculated and Measured Ion Densities on the Dayside of Venus|first1=A. F.|last1=Nagy|first2=T. E.|last2=Cravens|first3=R. H.|last3=Chen|first4=H. A.|last4=Taylor|first5=L. H.|last5=Brace|first6=H. C.|last6=Brinton|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=107–109|bibcode=1979Sci...205..107N|doi=10.1126/science.205.4401.107
+* cite journal|jstor=1748533|title=Venus Ionosphere: Photochemical and Thermal Diffusion Control of Ion Composition|first1=Siegfried J.|last1=Bauer|first2=Thomas M.|last2=Donahue|first3=Richard E.|last3=Hartle|first4=Harry A.|last4=Taylor|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=109–112|bibcode=1979Sci...205..109B|doi=10.1126/science.205.4401.109
+* cite journal|jstor=1748534|title=Absorption of Whistler Mode Waves in the Ionosphere of Venus|first1=W. W. L.|last1=Taylor|first2=F. L.|last2=Scarf|first3=C. T.|last3=Russell|first4=L. H.|last4=Brace|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=112–114|bibcode=1979Sci...205..112T|doi=10.1126/science.205.4401.112
+* cite journal|jstor=1748535|title=Initial Pioneer Venus Magnetic Field Results: Nightside Observations|first1=C. T.|last1=Russell|first2=R. C.|last2=Elphic|first3=J. A.|last3=Slavin|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=114–116|bibcode=1979Sci...205..114R|doi=10.1126/science.205.4401.114
+* cite journal|jstor=1748536|title=Electron Observations and Ion Flows from the Pioneer Venus Orbiter Plasma Analyzer Experiment|first1=D. S.|last1=Intriligator|first2=H. R.|last2=Collard|first3=J. D.|last3=Mihalov|first4=R. C.|last4=Whitten|first5=J. H.|last5=Wolfe|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=116–119|bibcode=1979Sci...205..116I|doi=10.1126/science.205.4401.116
+* cite journal|jstor=1748537|title=Gamma-Ray Burst Observations by Pioneer Venus Orbiter|first1=W. D.|last1=Evans|first2=J. P.|last2=Glore|first3=R. W.|last3=Klebesadel|first4=J. G.|last4=Laros|first5=E. R.|last5=Tech|first6=R. E.|last6=Spalding|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=119–121|bibcode=1979Sci...205..119E|doi=10.1126/science.205.4401.119
+* cite journal|jstor=1748508|title=Pioneer Venus Results: An Overview|first=T. M.|last=Donahue|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=41–44|bibcode=1979Sci...205...41D|doi=10.1126/science.205.4401.41
+* cite journal|jstor=1748509|title=Encounter with Venus: An Update|first=Lawrence|last=Colin|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=44–46|bibcode=1979Sci...205...44C|doi=10.1126/science.205.4401.44
+* cite journal|jstor=1748510|title=Thermal Contrast in the Atmosphere of Venus: Initial Appraisal from Pioneer Venus Probe Data|first1=Alvin|last1=Seiff|first2=Donn B.|last2=Kirk|first3=Richard E.|last3=Young|first4=Simon C.|last4=Sommer|first5=Robert C.|last5=Blanchard|first6=John T.|last6=Findlay|first7=G. M.|last7=Kelly|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=46–49|bibcode=1979Sci...205...46S|doi=10.1126/science.205.4401.46
+* cite journal|jstor=1748511|title=Composition and Structure of the Venus Atmosphere: Results from Pioneer Venus|first1=J. H.|last1=Hoffman|first2=R. R.|last2=Hodges|first3=M. B.|last3=McElroy|first4=T. M.|last4=Donahue|first5=M.|last5=Kolpin|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=49–52|pmid=17778898|bibcode=1979Sci...205...49H|doi=10.1126/science.205.4401.49
+* cite journal|jstor=1748512|title=Laboratory Corroboration of the Pioneer Venus Gas Chromatograph Analyses|first1=V. I.|last1=Oyama|first2=G. C.|last2=Carle|first3=F.|last3=Woeller|first4=J. B.|last4=Pollack|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=52–54|bibcode=1979Sci...205...52O|doi=10.1126/science.205.4401.52
+* cite journal|jstor=1748513|title=Venus Upper Atmosphere Neutral Gas Composition: First Observations of the Diurnal Variations|first1=H. B.|last1=Niemann|first2=R. E.|last2=Hartle|first3=A. E.|last3=Hedin|first4=W. T.|last4=Kasprzak|first5=N. W.|last5=Spencer|first6=D. M.|last6=Hunten|first7=G. R.|last7=Carignan|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=54–56|bibcode=1979Sci...205...54N|doi=10.1126/science.205.4401.54
+* cite journal|jstor=1748514|title=Implications of the Gas Compositional Measurements of Pioneer Venus for the Origin of Planetary Atmospheres|first1=James B.|last1=Pollack|first2=David C.|last2=Black|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=56–59|bibcode=1979Sci...205...56P|doi=10.1126/science.205.4401.56
+* cite journal|jstor=1748515|title=Ultraviolet Night Airglow of Venus|first1=A. Ian|last1=Stewart|first2=Charles A.|last2=Barth|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=59–62|pmid=17778902|bibcode=1979Sci...205...59S|doi=10.1126/science.205.4401.59
+* cite journal|jstor=1748516|title=Short-Term Cyclic Variations and Diurnal Variations of the Venus Upper Atmosphere|first1=G. M.|last1=Keating|first2=F. W.|last2=Taylor|first3=J. Y.|last3=Nicholson|first4=E. W.|last4=Hinson|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=62–64|bibcode=1979Sci...205...62K|doi=10.1126/science.205.4401.62
+* cite journal|jstor=1748517|title=Temperature, Cloud Structure, and Dynamics of Venus Middle Atmosphere by Infrared Remote Sensing from Pioneer Orbiter|first1=F. W.|last1=Taylor|first2=D. J.|last2=Diner|first3=L. S.|last3=Elson|first4=D. J.|last4=McCleese|first5=J. V.|last5=Martonchik|first6=J.|last6=Delderfield|first7=S. P.|last7=Bradley|first8=J. T.|last8=Schofield|first9=J. C.|last9=Gille|first10=M. T.|last10=Coffey|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=65–67|bibcode=1979Sci...205...65T|doi=10.1126/science.205.4401.65
+* cite journal|jstor=1748518|title=Further Results of the Pioneer Venus Nephelometer Experiment|first1=Jacques|last1=Blamont|first2=Boris|last2=Ragent|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=67–70|pmid=17778905|bibcode=1979Sci...205...67B|doi=10.1126/science.205.4401.67
+* cite journal|jstor=1748519|title=Clouds of Venus: A Preliminary Assessment of Microstructure|first1=Robert G.|last1=Knollenberg|first2=D. M.|last2=Hunten|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=70–74|bibcode=1979Sci...205...70K|doi=10.1126/science.205.4401.70
+* cite journal|jstor=1748520|title=Cloud Images from the Pioneer Venus Orbiter|first1=L. D.|last1=Travis|first2=D. L.|last2=Coffeen|first3=A. D.|last3=Del Genio|first4=J. E.|last4=Hansen|first5=K.|last5=Kawabata|first6=A. A.|last6=Lacis|first7=W. A.|last7=Lane|first8=S. S.|last8=Limaye|first9=W. B.|last9=Rossow|first10=P. H.|last10=Stone|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=74–76|bibcode=1979Sci...205...74T|doi=10.1126/science.205.4401.74
+* cite journal|jstor=1748521|title=Nature of the Ultraviolet Absorber in the Venus Clouds: Inferences Based on Pioneer Venus Data|first1=James B.|last1=Pollack|first2=Boris|last2=Ragent|first3=Robert|last3=Boese|first4=Martin G.|last4=Tomasko|first5=Jacques|last5=Blamont|first6=Robert G.|last6=Knollenberg|first7=Larry W.|last7=Esposito|first8=A. Ian|last8=Stewart|first9=Lawrence|last9=Travis|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=76–79|bibcode=1979Sci...205...76P|doi=10.1126/science.205.4401.76
+* cite journal|jstor=1748522|title=Absorption of Sunlight in the Atmosphere of Venus|first1=Martin G.|last1=Tomasko|first2=Lyn R.|last2=Doose|first3=Peter H.|last3=Smith|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=80–82|bibcode=1979Sci...205...80T|doi=10.1126/science.205.4401.80
+* cite journal|jstor=1748523|title=Preliminary Results of the Pioneer Venus Small Probe Net Flux Radiometer Experiment|first1=V. E.|last1=Suomi|first2=L. A.|last2=Sromovsky|first3=H. E.|last3=Revercomb|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=82–85|bibcode=1979Sci...205...82S|doi=10.1126/science.205.4401.82
+* cite journal|jstor=1748524|title=Venus Winds Are Zonal and Retrograde Below the Clouds|first1=C. C.|last1=Counselman|first2=S. A.|last2=Gourevitch|first3=R. W.|last3=King|first4=G. B.|last4=Loriot|first5=R. G.|last5=Prinn|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=85–87|bibcode=1979Sci...205...85C|doi=10.1126/science.205.4401.85
+* cite journal|jstor=1748525|title=Measurements of Turbulence in the Venus Atmosphere Deduced from Pioneer Venus Multiprobe Radio Scintillations|first1=Richard|last1=Woo|first2=J. W.|last2=Armstrong|first3=William B.|last3=Kendall|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=87–89|bibcode=1979Sci...205...87W|doi=10.1126/science.205.4401.87
+* cite journal|jstor=1748526|title=Venus: Preliminary Topographic and Surface Imaging Results from the Pioneer Orbiter|first1=Gordon H.|last1=Pettengill|first2=Peter G.|last2=Ford|first3=Walter E.|last3=Brown|first4=William M.|last4=Kaula|first5=Harold|last5=Masursky|first6=Eric|last6=Eliason|first7=George E.|last7=McGill|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=90–93|bibcode=1979Sci...205...90P|doi=10.1126/science.205.4401.90
+* cite journal|jstor=1748527|title=Gravity Field of Venus: A Preliminary Analysis|first1=Roger J.|last1=Phillips|first2=William L.|last2=Sjogren|first3=Elsa A.|last3=Abbott|first4=John C.|last4=Smith|first5=Ray N.|last5=Wimberly|first6=Cari A.|last6=Wagner|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=93–96|bibcode=1979Sci...205...93P|doi=10.1126/science.205.4401.93
+* cite journal|jstor=1748528|title=Ionosphere of Venus: First Observations of Day-Night Variations of the Ion Composition|first1=Harry A.|last1=Taylor|first2=Henry C.|last2=Brinton|first3=Siegfried J.|last3=Bauer|first4=Richard E.|last4=Hartle|first5=Paul A.|last5=Cloutier|first6=Robert E.|last6=Daniell|first7=Thomas M.|last7=Donahue|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=96–99|bibcode=1979Sci...205...96T|doi=10.1126/science.205.4401.96
+* cite journal|jstor=1748529|title=Initial Observations of the Nightside Ionosphere of Venus from Pioneer Venus Orbiter Radio Occultations|first1=A. J.|last1=Kliore|first2=I. R.|last2=Patel|first3=A. F.|last3=Nagy|first4=T. E.|last4=Cravens|first5=T. I.|last5=Gombosi|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=99–102|pmid=17778916|bibcode=1979Sci...205...99K|doi=10.1126/science.205.4401.99
+* cite journal|jstor=1748530|title=Empirical Models of the Electron Temperature and Density in the Nightside Venus Ionosphere|first1=L. H.|last1=Brace|first2=R. F.|last2=Theis|first3=H. B.|last3=Niemann|first4=H. G.|last4=Mayr|first5=W. R.|last5=Hoegy|first6=A. F.|last6=Nagy|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=102–105|bibcode=1979Sci...205..102B|doi=10.1126/science.205.4401.102
+* cite journal|jstor=1748531|title=Thermal Structure and Energy Influx to the Day- and Nightside Venus Ionosphere|first1=W. C.|last1=Knudsen|first2=K.|last2=Spenner|first3=R. C.|last3=Whitten|first4=J. R.|last4=Spreiter|first5=K. L.|last5=Miller|first6=V.|last6=Novak|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=105–107|bibcode=1979Sci...205..105K|doi=10.1126/science.205.4401.105
+* cite journal|jstor=1748532|title=Comparison of Calculated and Measured Ion Densities on the Dayside of Venus|first1=A. F.|last1=Nagy|first2=T. E.|last2=Cravens|first3=R. H.|last3=Chen|first4=H. A.|last4=Taylor|first5=L. H.|last5=Brace|first6=H. C.|last6=Brinton|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=107–109|bibcode=1979Sci...205..107N|doi=10.1126/science.205.4401.107
+* cite journal|jstor=1748533|title=Venus Ionosphere: Photochemical and Thermal Diffusion Control of Ion Composition|first1=Siegfried J.|last1=Bauer|first2=Thomas M.|last2=Donahue|first3=Richard E.|last3=Hartle|first4=Harry A.|last4=Taylor|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=109–112|bibcode=1979Sci...205..109B|doi=10.1126/science.205.4401.109
+* cite journal|jstor=1748534|title=Absorption of Whistler Mode Waves in the Ionosphere of Venus|first1=W. W. L.|last1=Taylor|first2=F. L.|last2=Scarf|first3=C. T.|last3=Russell|first4=L. H.|last4=Brace|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=112–114|bibcode=1979Sci...205..112T|doi=10.1126/science.205.4401.112
+* cite journal|jstor=1748535|title=Initial Pioneer Venus Magnetic Field Results: Nightside Observations|first1=C. T.|last1=Russell|first2=R. C.|last2=Elphic|first3=J. A.|last3=Slavin|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=114–116|bibcode=1979Sci...205..114R|doi=10.1126/science.205.4401.114
+* cite journal|jstor=1748536|title=Electron Observations and Ion Flows from the Pioneer Venus Orbiter Plasma Analyzer Experiment|first1=D. S.|last1=Intriligator|first2=H. R.|last2=Collard|first3=J. D.|last3=Mihalov|first4=R. C.|last4=Whitten|first5=J. H.|last5=Wolfe|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=116–119|bibcode=1979Sci...205..116I|doi=10.1126/science.205.4401.116
+* cite journal|jstor=1748537|title=Gamma-Ray Burst Observations by Pioneer Venus Orbiter|first1=W. D.|last1=Evans|first2=J. P.|last2=Glore|first3=R. W.|last3=Klebesadel|first4=J. G.|last4=Laros|first5=E. R.|last5=Tech|first6=R. E.|last6=Spalding|date=6 July 1979|journal=Science|volume=205|issue=4401|pages=119–121|bibcode=1979Sci...205..119E|doi=10.1126/science.205.4401.119
+
+Pioneer program
+Venus spacecraft
+NASA space program
+Orbital launches in 1978
+
+Category:1978 in spaceflight
+Category:Missions to Venus
+Category:Pioneer program
+Category:Spacecraft launched by Atlas-Centaur rockets
+Category:Destroyed space probes
+Category:Spacecraft launched in 1978

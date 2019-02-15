@@ -1,0 +1,120 @@
+Image:Lunar orbiter 1 (large).jpg|largethumb|Lunar orbiter spacecraft (NASA)
+The Lunar Orbiter program was a series of five unmanned space mission|unmanned Moon|lunar orbiter missions launched by the United States from 1966 through 1967. Intended to help select Apollo program|Apollo landing sites by mapping the Moon's surface,<ref >Bowker, David E. and J. Kenrick Hughes, Lunar Orbiter Photographic Atlas of the Moon [http://www.lpi.usra.edu/resources/lunar_orbiter/book/lopam.pdf], NASA SP-206 (1971).</ref> they provided the first photographs from lunar orbit and photographed both the Moon and Earth.
+
+All five missions were successful, and 99 percent of surface of the Moon was mapped from photographs taken with a resolution of convert|60|m|sp=us or better. The first three missions were dedicated to imaging 20 potential manned lunar landing sites, selected based on Earth-based observations. These were flown at low-inclination orbits. The fourth and fifth missions were devoted to broader scientific objectives and were flown in high-altitude polar orbits. Lunar Orbiter 4 photographed the entire nearside and nine percent of the far side, and Lunar Orbiter 5 completed the far side coverage and acquired medium (convert|20|m|abbr=on) and high (convert|2|m|abbr=on) resolution images of 36 preselected areas. All of the Lunar Orbiter spacecraft were launched by  Atlas-Agena-D launch vehicles.
+
+The Lunar Orbiters had an ingenious imaging system, which consisted of a dual-lens camera, a film processing unit, a readout scanner, and a film handling apparatus. Both lenses, a convert|610|mm|abbr=on narrow angle high resolution (HR) lens and an convert|80|mm|abbr=on wide angle medium resolution (MR) lens, placed their frame exposures on a single roll of 70 mm film. The axes of the two cameras were coincident so the area imaged in the HR frames were centered within the MR frame areas. The film was moved during exposure to compensate for the delta-v|spacecraft velocity, which was estimated by an electro-optical sensor. The film was then processed, scanned, and the images transmitted back to Earth.
+
+During the Lunar Orbiter missions, the first pictures of Earth as a whole were taken, beginning with Earth-rise over the lunar surface by Lunar Orbiter 1 in August, 1966. The first full picture of the whole Earth was taken by Lunar Orbiter 5 on 8 August 1967.<ref>cite web|url=https://history.nasa.gov/SP-4308/ch10.htm#352 |title=Whole Earth |work=Lunar Orbiter V |publisher=NASA |date=August 8, 1967 |page=352 |quote=Clearly visible on the left side of the globe is the eastern half of Africa and the entire Arabian peninsula. |accessdate=2008-12-24</ref> A second photo of the whole Earth was taken by Lunar Orbiter 5 on 10 November 1967.
+
+Spacecraft and subsystems
+Image:Lunar Orbiter diagram.png|thumb|Lunar Orbiter diagram (NASA)
+The Boeing-Eastman Kodak proposal was announced by NASA on 20 December 1963. The main bus of the Lunar Orbiter had the general shape of a truncated cone, convert|1.65|m|abbr=on tall and convert|1.5|m|abbr=on in diameter at the base. The spacecraft was composed of three decks supported by trusses and an arch. The equipment deck at the base of the craft held the battery, transponder, flight programmer, inertial navigation system|inertial reference unit (IRU), Canopus star tracker, command decoder, multiplex encoder, traveling-wave tube amplifier (TWTA), and the photographic system. Four solar panels were mounted to extend out from this deck with a total span across of convert|3.72|m|abbr=on. Also extending out from the base of the spacecraft were a high gain antenna on a convert|1.32|m|abbr=on boom and a low-gain antenna on a convert|2.08|m|abbr=on boom. Above the equipment deck, the middle deck held the velocity control engine, propellant, oxidizer, and pressurization tanks, Sun sensors, and micrometeoroid detectors. The third deck consisted of a heat shield to protect the spacecraft from the firing of the velocity control engine. The nozzle of the engine protruded through the center of the shield. Mounted on the perimeter of the top deck were four Attitude control system|attitude control thrusters.
+
+Power of 375 W was provided by the four solar arrays containing 10,856 n/p solar cells which would directly run the spacecraft and also charge the 12 A·h nickel-cadmium battery. The batteries were used during the brief periods of occultation when no solar power was available. Propulsion for major maneuvers was provided by the gimballed velocity control engine, a hypergolic 100 pound-force (445 N) thrust Marquardt Corporation|Marquardt Corp. rocket motor. Three axis stabilization and attitude control were provided by four one lb-force (four newton) nitrogen gas jets. Navigational knowledge was provided by five sun sensors, the Canopus star sensor, and the inertial navigation system. Communications were via a 10&nbsp;W transmitter and the directional one meter diameter high-gain antenna for transmission of photographs, and a 0.5&nbsp;W transmitter and omnidirectional low-gain antenna for other communications. Both transmitters operated in the S band at about 2295&nbsp;MHz. Thermal control was maintained by a multilayer aluminized Mylar and Dacron thermal blanket which enshrouded the main bus, special paint, insulation, and small heaters.
+
+The photographic system was provided by Eastman Kodak and it was derived from a system, provided by the National Reconnaissance Office (NRO), designed for the Lockheed U-2|U-2 and Lockheed SR-71 Blackbird|SR-71 reconnaissance planes.<ref name=day20101129>cite web|url=http://www.thespacereview.com/article/1734/1|title=Black Apollo|publisher=www.thespacereview.com|first=Dwayne A.|last=Day|accessdate=2010-12-17|date=2010-11-29</ref> 
+
+The camera used two lenses to simultaneously expose a wide-angle and a high-resolution image on the same film. The wide-angle, medium resolution mode used an 80&nbsp;mm F 2.8 Schneider Kreuznach#Xenotar|Xenotar lens manufactured by Schneider Kreuznach of West Germany. The high-resolution mode used a 610&nbsp;mm F 5.6 Panoramic lens manufactured by the Pacific Optical Company.<ref>cite web|url=http://www.hq.nasa.gov/office/pao/History/TM-3487/top.htm|title=DESTINATION MOON: A History of the Lunar Orbiter Program|publisher=NASA|first=Bruce K.|last=Byers|accessdate=2010-12-18|date=April 1977</ref>
+
+The photographic film was developed in-orbit with a semidry process, and then it was scanned by a photomultiplier for transmission to Earth. This system was adapted under permission of the NRO from the Samos (satellite)|SAMOS E-1 reconnaissance camera, built by Kodak for a short-lived USAF near-realtime satellite imaging project.<ref>http://www.nro.gov/history/csnr/programs/docs/prog-hist-01.pdf</ref>
+
+Originally, the Air Force had offered NASA several spare cameras from the KH-7 GAMBIT program, but then authorities became concerned over security surrounding the classified cameras, including the possibility of images of the Moon giving away their resolution. Some proposals were made that NASA not publish the orbital parameters of the Lunar Orbiter probes so that the resolution of the images could not be calculated through their altitude. In the end, NASA's existing camera systems, while lower resolution, proved to be adequate for the needs of the mission.
+
+=Potential backup=
+As a backup for Lunar Orbiter program, NASA and the NRO cooperated on the Lunar Mapping and Survey System (LM&SS), based on the KH-7 reconnaissance satellite. Replacing the Lunar Module in the Saturn V, Apollo astronauts would operate LM&SS remotely in lunar orbit. NASA canceled the project in the summer of 1967 after the complete success of the Lunar Orbiters.r|day20101129
+
+Results
+The Lunar Orbiter program consisted of five spacecraft which returned photography of 99 percent of the surface of the Moon (near and Far side (Moon)|far side) with resolution down to convert|1|m|sp=us. Altogether the Orbiters returned 2180 high resolution and 882 medium resolution frames.  The micrometeoroid experiments recorded 22 impacts showing the average micrometeoroid flux near the Moon was about two orders of magnitude greater than in interplanetary space, but slightly less than in the near-Earth environment. The radiation experiments confirmed that the design of Apollo hardware would protect the astronauts from average and greater than average short term exposure to solar particle events. 
+
+The use of Lunar Orbiters for tracking to evaluate the Manned Space Flight Network tracking stations and Apollo Orbit Determination Program was successful, with three of the Lunar Orbiters (2, 3, and 5) being tracked simultaneously from August through October 1967. The Lunar Orbiters were all eventually commanded to crash on the Moon before their attitude control fuel ran out so they would not present navigational or communications hazards to later Apollo flights.  The Lunar Orbiter program was managed by NASA Langley Research Center at a total cost of roughly $200 million.
+
+Doppler tracking of the five orbiters allowed mapping of the gravitational field of the moon and discovery of mass concentration (astronomy)|mass concentrations (mascons), or gravitational highs, which were located in the centers of some (but not all) of the lunar maria.<ref>cite journal | doi = 10.1126/science.161.3842.680 | title = Mascons: Lunar Mass Concentrations | year = 1968 | author = P. M. Muller, W. L. Sjogren | journal = Science | volume =  161 | issue = 3842  | pages = 680–684 | pmid=17801458| bibcode = 1968Sci...161..680M </ref>
+
+Image:Lunar Orbiter camera (large).jpg|thumb|Lunar Orbiter camera (NASA)
+Below is the flight log information of the five Lunar Orbiter photographic missions:<ref>Hansen, T.P. (1970). Guide to Lunar Orbiter Photographs. Washington DC: NASA.</ref>
+*Lunar Orbiter 1
+**Launched August 10, 1966
+**Imaged Moon: August 18 to 29, 1966
+**Impact with Moon: October 29, 1966
+**Apollo landing site survey mission
+*Lunar Orbiter 2
+**Launched November 6, 1966
+**Imaged Moon: November 18 to 25, 1966
+**Impact with Moon: October 11, 1967
+**Apollo landing site survey mission
+*Lunar Orbiter 3
+**Launched February 5, 1967
+**Imaged Moon: February 15 to 23, 1967
+**Impact with Moon: October 9, 1967
+**Apollo landing site survey mission
+*Lunar Orbiter 4
+**Launched May 4, 1967
+**Imaged Moon: May 11 to 26, 1967
+**Impact with Moon: Approximately October 31, 1967
+**Lunar mapping mission
+*Lunar Orbiter 5
+**Launched August 1, 1967
+**Imaged Moon: August 6 to 18, 1967
+**Impact with Moon: January 31, 1968
+**Lunar mapping and hi-res survey mission
+
+=Data availability=
+The Lunar Orbiter orbital photographs were transmitted to Earth as analog data after onboard scanning of the original film into a series of strips. The data were written to magnetic tape and also to film. The film data were used to create hand-made mosaics of Lunar Orbiter frames.  Each LO exposure resulted in two photographs: medium-resolution frames recorded by the 80-mm focal-length lens and high-resolution frames recorded by the 610-mm focal length lens.  Due to their large size, HR frames were divided into three sections, or sub-frames. Large-format prints (convert|16|x|20|in) from the mosaics were created and several copies were distributed across the U.S. to NASA image and data libraries known as [http://www.lpi.usra.edu/library/RPIF/ Regional Planetary Information Facilities].  The resulting outstanding views were of generally very high spatial resolution and covered a substantial portion of the lunar surface, but they suffered from a "venetian blind" striping, missing or duplicated data, and frequent saturation effects that hampered their use.  For many years these images have been the basis of much of lunar scientific research.  Because they were obtained at low to moderate Sun angles, the Lunar Orbiter photographic mosaics are particularly useful for studying the morphology of lunar topographic features.
+
+Several atlases and books featuring Lunar Orbiter photographs have been published. Perhaps the most definitive was that of [http://www.lpi.usra.edu/resources/lunar_orbiter/book/lopam.pdf Bowker and Hughes] (1971); it contained 675 photographic plates with approximately global coverage of the Moon. In part because of high interest in the data and in part because that atlas is out of print, the task was undertaken at the [http://www.lpi.usra.edu/ Lunar and Planetary Institute] to scan the large-format prints of Lunar Orbiter data.<ref>Jeffrey J. Gillis, Paul D. Spudis, Mary Ann Hager, Mary Noel, Debra Rueb, and James Cohen, [http://www.lpi.usra.edu/meetings/LPSC99/pdf/1770.pdf Digitized Lunar Orbiter IV Images:  A Preliminary Step to Recording the Global Set of Lunar Oribter Images in Bowker & Hughes], Lunar and Planetary Science XXX, Abstract #1770(1999)</ref>  These were made available online as the [http://www.lpi.usra.edu/resources/lunar_orbiter/ Digital Lunar Orbiter Photographic Atlas of the Moon].<ref>Jeffrey J. Gillis, Debra Rueb, James Cohen, and Mary Ann Hager, [http://www.lpi.usra.edu/meetings/LPSC2000/pdf/1815.pdf The Lunar Orbiter Photographic Atlas Digital Archive], Lunar and Planetary Science XXXI, Abstract #1815 (2000)</ref>
+
+=Data recovery and digitization=
+Image:Comparison between original and LOIRP result.jpg|thumb|A detail of an original image at the top, compared to a reprocessed version at the bottom created by LOIRP.
+In 2000, the Astrogeology Research Program of the US Geological Survey in Flagstaff, Arizona was funded by NASA (as part of the [https://astrogeology.usgs.gov/Projects/LunarOrbiterDigitization/ Lunar Orbiter Digitization Project]) to scan at 25 micrometer resolution archival LO positive film strips that were produced from the original data.<ref>L.R. Gaddis, T. Sucharski, T. Becker, and A. Gitlin, [http://www.lpi.usra.edu/meetings/lpsc2001/pdf/1892.pdf Cartographic Processing of Digital Lunar Orbiter Data], Lunar and Planetary Science XXXII (2001).</ref>  The goal was to produce a [http://www.mapaplanet.org/explorer-bin/explorer.cgi?map=Moon&layers=moon_lo&west=-180&south=-90&east=180&north=90&center=0&defaultcenter=on&grid=none&stretch=auto&projection=SIMP&advoption=NO&info=NO&resolution=2 global mosaic] of the Moon using the best available Lunar Orbiter frames (largely the same coverage as that of Bowker and Hughes, 1971).  The frames were constructed from scanned film strips; they were digitally constructed, geometrically controlled, and map-projected without the stripes that had been noticeable in the original photographic frames.  Because of its emphasis on construction of a global mosaic, this project only scanned about 15% of the available Lunar Orbiter photographic frames.  Data from Lunar Orbiter missions Lunar Orbiter 3|III, Lunar Orbiter 4|IV and Lunar Orbiter 5|V were included in the global mosaic.<ref>T. Becker, L. Weller, L. Gaddis, D. Cook, B. Archinal, M. Rosiek, C. Isbell, T. Hare, R. Kirk, [http://www.lpi.usra.edu/meetings/lpsc2008/pdf/2357.pdf Lunar Orbiter Mosaic of the Moon], Lunar and Planetary Science XXXIX (2008).</ref>
+
+In addition, the USGS digitization project created frames from very high resolution Lunar Orbiter images for several 'sites of scientific interest.'  These sites had been identified in the 1960s when the Apollo landing sites were being selected.  Frames for sites such as the Apollo 12 landing site, the Marius (crater)|Marius Hills, and the Sulpicius Gallus rille have been released.<ref>L. Weller, T. Becker, B. Archinal, A. Bennett, D. Cook, L. Gaddis, D. Galuszka, R. Kirk, B. Redding, D. Soltesz, [http://www.lpi.usra.edu/meetings/lpsc2007/pdf/2092.pdf USGS Lunar Orbiter Digitization Project: Updates and Status], Lunar and Planetary Science XXXVIII (2007).</ref>
+
+In 2007, the Lunar Orbiter Image Recovery Project (LOIRP) began a process to convert the Lunar Orbiter Images directly from the original Ampex FR-900 analog video recordings of the spacecraft data to digital image format, a change which provided vastly improved resolution over the original images released in the 1960s.  The first of these restored images were released in late 2008.<ref>cite news|url=http://www.collectspace.com/news/news-111408a.html |title=Repaired data drives restoring the Moon |publisher=collectSPACE.com |date=November 14, 2008 |accessdate=2008-12-24</ref> Almost all of the Lunar Orbiter images have been successfully recovered as of February 2014 and are undergoing digital processing before being submitted to NASA's Planetary Data System.<ref>[http://www.moonviews.com/2014/02/ LOIRP Moon Views], February 2014</ref>
+
+double image|center|First View of Earth from Moon.jpg|400|First View of Earth from Moon - reprocessed.png|75|The first image of Earth taken from the Moon. On the left the original and on the right a digitally restored version created by LOIRP.
+
+See also
+*Astrogeology Research Program
+*Lunar Orbiter Image Recovery Project
+*Lunar Reconnaissance Orbiter
+*Ranger program
+*Surveyor program
+*Apollo program
+*Luna programme
+*Exploration of the Moon
+*Robert J. Helberg
+*Norman L. Crabill
+Commons category|Lunar Orbiter program
+
+References
+Reflist
+
+External links
+*[https://web.archive.org/web/20110824052709/http://pdsimage.wr.usgs.gov/data/lunar_orbiter/pds/LO3_0001/extras/document/Byers_1977_DestinationMoon_NASATM_X-3487.pdf B.K. Byers, 1977, DESTINATION MOON: A history of the Lunar Orbiter Program (PDF), NASA TM X-3487 ]
+*[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19770016195_1977016195.pdf DESTINATION MOON: A history of the Lunar Orbiter Program (PDF) 1977, NASA TM X-3487]
+*[http://www.hq.nasa.gov/office/pao/History/TM-3487/top.htm DESTINATION MOON: A history of the Lunar Orbiter Program (HTML)]
+The above links lead to a whole book on the Lunar Orbiter program. For the HTML one, scroll down to see the table of contents link.
+
+*T.P. Hansen, 1970 [https://astrogeology.usgs.gov/Projects/HistoricalDocuments/Books/NASASP242_GuideToLunarOrbiterPhotographs.pdf Guide to Lunar Orbiter Photographs (PDF), NASA SP-242]
+*[https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19710026703_1971026703.pdf Guide to Lunar Orbiter Photographs (PDF) 1970, NASA SP-242]
+*[http://nssdc.gsfc.nasa.gov/planetary/lunar/lunarorb.html Lunar Orbiter to the Moon] National Space Science Data Center (NSSDC)
+*[http://www.astronautix.com/craft/lunbiter.htm Astronautix on Lunar Orbiter]
+*[http://www.lpi.usra.edu/expmoon/orbiter/orbiter.html Exploring the Moon: Lunar Orbiter Program] Lunar and Planetary Institute
+*[http://www.lpi.usra.edu/resources/lunar_orbiter/ Digital Lunar Orbiter Photographic Atlas of the Moon] Lunar and Planetary Institute
+*[http://www.lpi.usra.edu/resources/lunarorbiter/ Lunar Orbiter Photo Gallery] Over 2,600 high- and moderate-resolution photographs
+*[https://astrogeology.usgs.gov/Projects/LunarOrbiterDigitization/ Lunar Orbiter Digitization Project] USGS Astrogeology Science Center
+*[http://pdsmaps.wr.usgs.gov/PDS/public/lunar_orbiter/LO_Archive.html Lunar Orbiter Digitized Film Project] USGS Astrogeology Science Center, NASA Planetary Data System Archive
+*[https://www.webcitation.org/5xN1DjLG4?url=http://www.nasa.gov/topics/moonmars/features/LOIRP/ Lunar Orbiter Image Recovery Project (LOIRP) Overview]
+*YouTube| Gg-eWp-auoU | ''Close Up of the Moon: A Look at Lunar Orbiter'' NASA Documentary from 1967.
+
+Lunar Orbiter program|before=Ranger program|Ranger|after=''None, see contemporaneous program Surveyor program|Surveyor''
+Moon spacecraft
+NASA planetary exploration programs
+NASA navbox
+
+Use American English|date=January 2014
+
+DEFAULTSORT:Lunar Orbiter Program
+Category:Lunar Orbiter program|*
+Category:Missions to the Moon

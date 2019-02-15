@@ -1,0 +1,74 @@
+Multiple issues|more footnotes|date=February 2009
+context|date=October 2009
+needs expert|distributed computing|date=September 2018
+Technical|date=September 2018
+Advert|date=May 2017
+
+Edge computing is a distributed computing paradigm in which computation is largely or completely performed on distributed device node (computer science)|nodes known as smart devices or edge devices as opposed to primarily taking place in a centralized cloud computing|cloud environment. The eponymous "edge" refers to the geographic distribution of computing nodes in the network as Internet of Things devices, which are at the "edge" of an Enterprise network|enterprise, Metropolitan area network|metropolitan or other Computer network|network. The motivation is to provide Server (computing)|server resources, data analysis and artificial intelligence ("ambient intelligence") locality of reference|closer to data collection sources and cyber-physical systems such as smart sensors and actuators.<ref>Cite news|url=https://www.microsoft.com/en-us/research/project/edge-computing/|title=Edge Computing - Microsoft Research|last=|first=|date=2008-10-29|work=Microsoft Research|access-date=2018-09-24|language=en-US</ref> Edge computing is seen as important in the realization of physical computing, Smart city|smart cities, ubiquitous computing, multimedia applications such as augmented reality and cloud gaming, and the Internet of Things.
+
+Edge computing is related to the concepts of wireless sensor networks, Intelligent computer network|intelligent and Context-aware network|context-aware networks and smart objects in the context of human–computer interaction. The Internet of Things and edge computing are variously classified as sub-disciplines of the other, but edge computing is more concerned with computation performed at the edge of networks and systems whereas the Internet of Things label implies a stronger focus on data collection and communication over networks. Both disciplines are instrumental to the nascent Fourth Industrial Revolution and industry 4.0, which are predicted to improve product design and industrial feedback by providing manufacturers with telemetry and usage information, helping to drive predictive analytics and user behavior analytics, in turn allowing future products and product updates to be based on customer insights. Edge computing and related Fog computing have been proposed as environmentally friendlier alternatives to the prevalence of cloud computing in data centers by reducing network electricity consumption and computer cooling|cooling costs.<ref>Cuadrado-Cordero, Ismael, [http://www.theses.fr/2017REN1S003 “Microclouds: an approach for a network-aware energy-efficient decentralised cloud,”] Webarchive|url=https://web.archive.org/web/20180628233846/http://www.theses.fr/2017REN1S003 |date=June 28, 2018  PhD thesis, 2017.</ref>
+
+Overview
+
+Edge computing pushes applications, data and computing power (Service (systems architecture)|services) away from centralized points to the logical extremes of a network. Edge computing takes advantage of microservices architectures to allow some portion of applications to be moved to the edge of the network.  While content delivery networks have moved fragments of information across distributed networks of servers and data stores, which may spread over a vast area, edge computing moves fragments of application logic out to the edge. As a technological paradigm, edge computing may be architecturally organized as peer-to-peer computing, Autonomic computing|autonomic (self-healing) computing, grid computing, and by other names implying non-centralized availability.
+
+To ensure acceptable performance of widely dispersed distributed services, large organizations typically implement edge computing by deploying server farms with computer clustering|clustering and large scale storage networks.Citation needed|date=September 2018 Previously available only to very large corporate and government organizations, edge computing has disseminatedWhen|date=September 2018 technology advances and cost reductions from large-scale implementations and made the technology available to Small and medium-sized enterprises|small and medium-sized businesses.<ref>cite web|last1=Felde|first1=Christian|title=On edge architecture|url=http://blog.cfelde.com/2017/12/on-edge-architecture/</ref> Small, low-cost cluster hardware and freely-available cluster management softwareExample needed|date=September 2018 have increased accessibility.
+
+The target of edge computing is any application or general functionality needing to be closer to the source of the action where distributed systems technology Cyber-physical system|interacts with the physical world. Edge computing does not need contact with any centralized cloud, although it may interact with one. Edge computing uses a similar or the same Distributed architecture|distributed systems architecture as centralized Cloud computing|clouds but closer to or directly at the edge.
+
+Edge computing imposes certain limitations on the choices of technology platforms, applications or services, all of which need to be specifically developed or configured for edge computing.<ref>cite journal|last=Gai|first=Keke|author2=Meikang Qiu |author3=Hui Zhao|author4=Lixin Tao|author5=Ziliang Zong |title=Mobile cloud computing: Dynamic energy-aware cloudlet-based mobile cloud computing model for green computing |year=2016|volume=59|pages=46–54|url= http://www.sciencedirect.com/science/article/pii/S108480451500123X |doi= 10.1016/j.jnca.2015.05.016 [http://webpage.pace.edu/kg71231w/docs/jnca1.pdf PDF]</ref>Why|date=September 2018
+
+=Advantages=
+Possible advantages of edge computing are:
+
+# Edge application services significantly decrease the Throughput|volumes of data that must be moved, the consequent traffic, and the distance the data must travel, thereby reducing transmission costs, shrinking Latency (engineering)|latency, and improving quality of service (QoS). Computation offloading| Computation offloading for real-time applications particularly benefits from shortening the distance between the user and the server.
+# Edge computing eliminates, or at least de-emphasizes, the core computing environment, limiting or removing a major Internet bottleneck|bottleneck and a potential single point of failure.
+# Ability to ride the same cost curvesClarify|reason=What is a cost curve?|date=September 2018 and improvements by exploiting of the same architecture and fundamental underlying computing technologies as Public Cloud|public and Private Cloud|private clouds. Cost accounting models based upon how shared resources are billed in fee-for-service clouds (time sharing) often expressed by the phrase "As a service|as a Service" should not be confused with the common architectural basis of centralized Clouds, Edge Clouds, and increasingly Edge nodes as well. Ultimately all Information technology|IT systems, distributed or not, must provide Uptime|viable services regardless of how or where they are implemented. Different cloud computing paradigms share common distributed systems architectures and technologies forming three modes defined by distance from the edge: Centralized Clouds, Edge Clouds, and Edge nodes. Taken collectively, these paradigms are known as fog computing, a term defined by Cisco Systems.
+
+ISO/IEC 20248 provides a method whereby the data of objects identified by edge computing using Automated Identification Data Carriers [AIDC], a barcode and/or RFID tag, can be read, interpreted, verified and made available into the "Fog" and on the "Edge" even when the AIDC tag has moved on.
+
+=Challenges=
+
+# Edge computing must be designed to work in the face of sporadic availability/connectivity of edge compute nodes, since edge nodes may only have power available sporadically.
+# Edge computing requires applications to be built for horizontal scalability.  Generally the recommendationBy whom|date=September 2018 is to build applications that follow the Twelve-Factor App methodology|12-factor application guidelines.
+# Edge computing requires operations to be able to deploy to a distributed set of edge nodes, coordinate cross-node state and storage, or Resilience (network)|handle inconsistent state gracefully.
+
+=Grid computing=
+
+Edge computing and grid computing are related. Whereas grid computing overlies network structure to serve a primary function, such as a particular application, edge computing involves that part of the Internet Physical layer|most directly in touch with Sensor|sensing or Actuator|altering the adjacent physical world. Edge and grid computing both link closely related systems and storage, but edge computing Cyber-physical system|connects with the physical world as a point of emphasis, while grid computing interconnects strictly on a functional basis.citation needed|date=June 2017
+
+ Applications 
+Edge computing is a method of optimizing applications or cloud computing systems by taking some portion of an application, its data, or services away from one or more central nodes (the "core") to the other logical extreme (the "edge") of the Internet which makes contact with the physical world or end users.<ref>Cite journal|last=Garcia Lopez|first=Pedro|last2=Montresor|first2=Alberto|last3=Epema|first3=Dick|last4=Datta|first4=Anwitaman|last5=Higashino|first5=Teruo|last6=Iamnitchi|first6=Adriana|last7=Barcellos|first7=Marinho|last8=Felber|first8=Pascal|last9=Riviere|first9=Etienne|date=2015-09-30|title=Edge-centric Computing: Vision and Challenges|url=http://dl.acm.org/citation.cfm?id=2831347.2831354|journal=ACM SIGCOMM Computer Communication Review|volume=45|issue=5|pages=37–42|doi=10.1145/2831347.2831354|issn=0146-4833</ref> In one vision of this architecture, specifically for Internet of things (IoT) devices, data comes in from the physical world via various sensors, and actions are taken to change physical state via various forms of output and actuators; by performing analytics and knowledge generation at the ''edge'', communications Bandwidth (computing)|bandwidth between systems under control and the central data center is reduced. Edge computing takes advantage of proximity to the physical items of interest and also exploits the relationships those items may have to each other.  Another, more broader way to define "edge computing" is to put any type of computer program that needs low latency Locality of reference|nearer to the requests.
+
+In some cases edge computing requires leveraging resources that may not be continuously connected to a network such as Vehicular automation|autonomous vehicles, implanted medical devices, fields of highly Distributed sensor network|distributed sensors, and mobile devices.<ref>cite book|title=Pocket Data Mining - Big Data on Small Devices|last1=Gaber|first1=Mohamed Medhat|last2=Stahl|first2=Frederic|last3=Gomes|first3=Joao Bártolo|date=2014|publisher=Springer International Publishing|isbn=978-3-319-02710-4|edition=1</ref> Edge computing includes a wide range of technologies including wireless sensor networks, mobile data acquisition, mobile signature analysis, cooperative distributed peer-to-peer ad hoc networking and processing also classifiable as local cloud/fog computing and grid computing, dew computing,<ref>Cite journal|last=Skala|first=Karolj|last2=Davidović|first2=Davor|last3=Afgan|first3=Enis|last4=Sović|first4=Ivan|last5=Šojat|first5=Zorislav|date=2015|title=Scalable Distributed Computing Hierarchy: Cloud, Fog and Dew Computing|url=https://www.ronpub.com/publications/ojcc/OJCC_2015v2i1n03_Skala.html|journal=Open Journal of Cloud Computing|publisher=RonPub|volume=2|issue=1|pages=16–24|issn=2199-1987|access-date=1 March 2016</ref> mobile edge computing,<ref name="Mobile-Edge-Computing">cite web|url=https://portal.etsi.org/Portals/0/TBpages/MEC/Docs/Mobile-edge_Computing_-_Introductory_Technical_White_Paper_V1%2018-09-14.pdf|title=Mobile-Edge-Computing White Paper|publisher=ETSI</ref><ref>Cite book|url=https://www.researchgate.net/publication/285765997_A_Survey_on_Mobile_Edge_Computing|title=A Survey on Mobile Edge Computing|last=Ahmed|first=Arif|last2=Ahmed|first2=Ejaz|publisher=10th IEEE International Conference on Intelligent Systems and Control(ISCO’16), India|year=|isbn=|location=India|pages=</ref> cloudlet, Distributed data store|distributed data storage and retrieval, autonomic Self-healing ring|self-healing networks, remote cloud services, augmented reality, the Internet of Things and more.<ref>[http://vis.pnnl.gov/pdf/fliers/EdgeComputing.pdf Edge Computing - Pacific Northwest National Laboratory]</ref> Edge computing can involve edge nodes Smart transducer|directly attached to physical inputs and output or edge cloudsDefinition needed|date=September 2018 that may have such contact but at least exist outside of centralized clouds closer to the edge.
+
+Other Time-Sensitive Networking|time-sensitive applications that can benefit from edge-compute include authentication, log-filtering, data aggregation, image re-sizing, e-commerce personalization, Augmented Reality | augmented reality, Cloud gaming | cloud gaming and Transport Layer Security|TLS (HTTPS) Session (computer science)|session setup.
+
+See also
+*Cloudlet
+*Content delivery network
+*Edge device
+*Fat client
+*Mobile edge computing
+*Utility computing
+*Fog computing
+*Serverless architecture
+*Ubiquitous computing
+*Heterogeneous computing
+*Amorphous computing
+*Green computing
+*Intelligent transportation system
+
+ References 
+reflist
+
+Embedded systems
+Ambient intelligence
+
+Category:Post-cloud computing architecture
+Category:Distributed computing architecture
+Category:Load balancing
+Category:Network performance
+Category:Networking hardware
+Category:Internet of things
+Category:Ambient intelligence

@@ -1,0 +1,54 @@
+multiple issues|
+Notability|Products|date=August 2011
+primary sources|date=August 2011
+
+
+Infobox software
+| name                   = Entropy
+| logo                   =
+| screenshot             =
+| caption                =
+| collapsible            =
+| author                 = 
+| developer              = Pullmoll
+| released               = 2003
+| latest release version = 0.9.1-439
+| latest release date    = 2005-10-06
+| latest preview version = 
+| latest preview date    =
+| programming language   = C
+| operating system       = Windows, Unix
+| platform               =
+| size                   =
+| language               = English, German
+| status                 = Discontinued
+| genre                  = Anonymity, peer-to-peer
+| license                =
+
+<!-- Deleted image removed: Image:entropy 2.png|thumb|250px|Entropy 0.8.2 using Konqueror -->
+Entropy was a decentralized, peer-to-peer communication network designed to be resistant to censorship, much like Freenet.  Entropy was an anonymous data store written in the C (programming language)|C programming language.  It pooled the contributed Bandwidth (computing)|bandwidth and storage space of member computers to allow users to anonymity|anonymously publish or retrieve information of all kinds.  The name ''Entropy'' was a backronym for "Emerging Network To Reduce George Orwell|Orwellian Potency Yield", referring to George Orwell's novel ''Nineteen Eighty-Four'' and its totalitarian thought police enslaving people by controlling their information.
+
+Entropy was designed to be compatible with the similar Freenet system. As such, any Freenet client could be configured to run on the Entropy network.  However, Entropy and Freenet data stores are not compatible with each other and therefore do not share data.
+
+Entropy featured a news interface, for reading and posting on the latest frost message boards from within the client.
+
+ Status 
+On July 9, 2004, the creator of Entropy announced that he had stopped work on the project<ref>[http://slashdot.org/story/04/07/10/1458202/entropy-project-closes-up-shop Entropy Project Closes Up Shop]. Slashdot July 10, 2004</ref> amid uncertainty about the security of the included algorithms, namely the McEliece cryptosystem.
+
+McEliece has been proven resistant to attack by Quantum Fourier Transform|Quantum Fourier Sampling as used by Shor's algorithm.<ref>[https://arxiv.org/abs/1008.2390 The McEliece Cryptosystem Resists Quantum Fourier Sampling Attacks]</ref>
+
+See also
+* Anonymous P2P
+
+References
+Reflist
+
+External links
+*[https://web.archive.org/web/20030602194339/http://entropy.stop1984.com/en/home.html homepage], (archived link, June 2, 2003)
+
+DEFAULTSORT:Entropy (Anonymous Data Store)
+Category:Anonymous file sharing networks
+Category:Distributed data storage systems
+Filesharing
+
+free-software-stub

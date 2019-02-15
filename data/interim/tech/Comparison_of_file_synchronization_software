@@ -1,0 +1,392 @@
+update|date=August 2017
+This is a list of file synchronization software. File synchronization is a process of ensuring that files in two or more locations are updated via certain rules.
+
+Definitions
+The following definitions clarify the purpose of columns used in the tables that follow.
+
+glossary
+term|term=Name
+defn|defn=It may contain a product name, or product name plus edition name, depending on what is discussed.
+term|term=Operating system
+term|term=Platform|multi=y
+defn|defn=An Operating system (OS) manages the other programs on a computer;<ref>Cite web|url=http://pages.cs.wisc.edu/~remzi/OSTEP/#book-chapters|title=Operating Systems: Three Easy Pieces|website=pages.cs.wisc.edu|access-date=2018-08-27</ref> most personal computers have an OS installed. The operating system column lists the name of the operating systems on which the corresponding synchronization software runs. Platform (computing)|Platform is a broader term; it is used as the column name because some of the software in the table were OS-independent but required a certain software platform like Java SE or .NET Framework.
+term|term=Programming language
+defn|defn=Programming language was used to write the software, if known.  For closed-source software this information may not be known.
+term|term=License
+defn|defn=Indicates the licensing model under which the software is published.  For open source systems this may be the Comparison of free software licenses|specific license (i.e. GPL, LGPL, MIT, etc.), for closed source/proprietary/commercial software this may be the model (subscription per user, perpetual per device, etc.)
+term|term=Portable
+defn|defn=If yes, the program is designed to run without needing to modify the configuration of the computer it is run on.  The name 'portable' comes from the fact that these applications are intended to be able to be carried with the user on a portable drive and run on any computer it was designed to run on, even if the user does not have administrative privileges on the computer.  See Portable application|Portable Applications.
+term|term=Detect conflict
+defn|defn=Indicates whether the software will detect if the requested operation may result in data loss.  See File synchronization|File Synchronization
+term|term=Renames/moves
+defn|defn=When a file/directory in given side of the synchronization is renamed/moved, the program repeats renaming/moving the file/directory to the other side of the synchronization. This feature saves bandwidth when operating on remote systems but increases the analysis duration. Programs that support this feature commonly do so by calculating and storing hash values of each file so they can detect if two files with different names, modification dates, etc., are identical in terms of their content. Programs which do not support this feature, will behave as if the originally-named file/directory has been deleted and the newly named file/directory is brand new and transmit the "new" file over to the other side again.
+term|term=Prior file versions, revision control
+defn|defn=Indicates whether the software allows one to revert to an earlier version of a particular file/directory.
+term|term=Scheduling or service
+defn|defn=Indicates whether the software will run automatically either via a scheduler, or by running as a system service.  If no, a user must invoke the software manually each time a synchronization is needed.
+term|term=Online storage
+defn|defn=Is there an online file storage option?  If so, what type?
+term|term=Other Information
+defn|defn=Notes that help clarify features already covered in other columns, or additional information that differentiates this software from the competition.
+term|term=NAS share mobilisation
+defn|defn=Indicates whether the software allows mobile devices pass-through access to NAS shares.
+glossary end
+
+Open-source
+This is a comparison of the free and open-source file synchronization software.
+
+<!-- In tables, link 1st instance of terms, remove later WP:REPEATLINK(s). -->
+{| class="wikitable sortable" style="font-size:95%;"
+|-
+! Name !! Programming language 
+! Platform !! License !! Stable version !!  Portable !! Detect conflict !! Renames or moves !! Propagate deletes !! Revision control !! Scheduling or service !! Other information 
+|-
+| Conduit (software)|Conduit || Python (programming language)|Python
+| Linux, FreeBSD || GNU General Public License|GPL ||0.3.17 (2010-01-21) || No ||  ||  ||  ||  ||  Yes || Synchronizes files, website, network apps
+|-
+| DirSync Pro || Java (programming language)|Java
+| Java SE || GPLv3 || 1.53 (2018-03-07) || Yes || Yes || No || || Yes (creates backup files) || Yes (native + via OS) || DirSync Pro#See also|sym-links, filter, metadata, contents, auto-sync
+|-
+| FreeFileSync || C++
+| Windows, OS X, Linux || GPL ||10.3 (2018-08-07) || Yes (Donation Edition)<ref name="freefilesync-portable-edition">cite web |url=https://www.stugon.com/free-file-sync-software/ |title=Free File Sync Software |work=Portable Edition |deadurl=no |accessdate=11 January 2018 </ref> || Yes<ref name="freefilesync-features">cite web |url=https://www.freefilesync.org/faq.php#features |title=Frequently Asked Questions - FreeFileSync |work=Features |deadurl=no |archiveurl=https://web.archive.org/web/20170928133716/https://www.freefilesync.org/faq.php#features |archivedate=28 September 2017 |accessdate=28 September 2017 </ref> || Yes<ref name="freefilesync-features"/> || Yes<ref name="freefilesync-features"/> || Yes (versioning + recycler)<ref name="freefilesync-features"/> || Yes || Older version had OpenCandy Adware/malware, but now funded by donations.<ref name=backup_review>citation |date=June 2014 |title=FreeFileSync comes bundled with the OpenCandy malware. |last= Akerlund |first= Geoff |publisher=Backup Review |url=http://www.backupreview.com/freefilesync-review/ |accessdate= 2 February 2018</ref> <ref name=FFS-FAQ>citation | title=FFS FAQ | url=https://freefilesync.org/faq.php#advertisement | accessdate= 27 June 2018</ref>
+|-
+| iFolder || C#, Mono (software)|Mono
+| Windows, OS X, Linux, Solaris || GPL ||3.8.0.3 (2010-07-19) || No || Yes (centralized database)|| Yes (files, not folders)|| || || ||
+|-
+|InterPlanetary File System|InterPlanetaryFileSystem
+|Go
+|Windows, OS X, Linux
+|GPL
+|0.4.15 / 12 May 2018
+| || Yes 
+|
+|
+|
+|
+|
+|-
+| luckyBackup || C++ 
+| Windows, OS X, Linux, FreeBSD || GPLv3 ||0.4.9 (2017-10-17) || Yes || || || || || Yes || Uses rsync backend
+|-
+| Nextcloud || PHP, C++, JavaScript<ref>cite web|title=Nextcloud|url=https://github.com/nextcloud|website=GitHub|accessdate=18 January 2017</ref>
+| Server: Linux<br/>Clients: Windows, OS X, Linux, Android, iOS || AGPLv3 || 15.0.0 (2018-12-10) || yes || yes || yes || No<ref name="nextcloud-propagate-deletes/android">cite web|title=Issue 19|url=https://github.com/nextcloud/android/issues/19 </ref> || yes || yes || Fork of ownCloud and actively maintained
+Windows Phone App
+|-
+| OneSync || C# 
+| Windows || GPL ||4.0 (2012-02-19) || No || Yes || Yes || || || No ||
+|-
+| ownCloud || PHP, C++, JavaScript<ref name=":0">Cite web|title = ownCloud|url = https://github.com/owncloud|website = GitHub|accessdate = 2015-07-13</ref>
+| Server: Linux, FreeBSD<br/>Clients: Windows, OS X, Linux, FreeBSD, Android, iOS  || AGPLv3 (Server Edition) / proprietary (Enterprise Edition) || Latest stable software release/ownCloud || yes || yes || yes || Yes<ref name="owncloud-propagate-deletes">cite web|title=The synchronization process|url=https://doc.owncloud.org/desktop/latest/architecture.html#the-synchronization-process </ref> || yes || yes || iOS, Android, Blackberry, Win, Mac, Linux Client; external storage support; encryption app; app framework 
+|-
+|Mutagen
+|Go
+|Linux
+|MIT License
+|?? || yes || yes || yes || yes || no || yes || used to synchronize source code (working well, but no ready for production)
+|-
+|Pydio
+|Server: PHP, Python, C++ <br/> Clients: JS, C#, Swift, Java
+|Windows, OS X, Linux, Android, iOS
+|AGPLv3
+|8.0.2 (2017-12-13) || yes || yes || yes || || yes || yes ||
+|-
+| rsync || C (programming language)|C in a Unix-Linux shell 
+| Windows, OS X,<ref>cite web|title=rsync Backups on a Mac|url=http://www.rsync.net/resources/howto/mac_rsync.html|accessdate=24 January 2016</ref> Linux,<ref>cite web|title=Arch Linux packages|url=https://www.archlinux.org/packages/|website=archlinux|accessdate=16 September 2015</ref><ref>cite web|title=Software packages in "vivid"|url=http://packages.ubuntu.com/vivid/allpackages|website=ubuntu|accessdate=16 September 2015</ref> BSD || GPL v3 ||Latest stable software release/rsync || Yes || No || No || || No || Yes (via OS) || client & server operation.  Multiple comparison criteria (date, check-sum).
+|-
+| Seafile community edition || C99, Python<ref>Cite web|title = haiwen/seafile|url = https://github.com/haiwen/seafile|website = GitHub|accessdate = 2015-07-13</ref> 
+| Server: Linux, Raspbian, Windows<br/>Clients: Linux, OS X, Windows<ref>Cite web|title = Seafile clients|url=https://www.seafile.com/en/download/|website = Seafile|accessdate = 2016-11-09</ref> || GNU Affero General Public License|AGPLv3 (Server) + Apache License#Version 2.0|Apache License 2.0 (Client) || Latest stable software release/Seafile || no || yes || yes || yes || yes || yes (via Seafile Client) || Android and iOS mobile clients
+|-
+| SparkleShare || C# 
+| Windows, OS X, Linux, Android (operating system)|Android, iOS || GPL v3 and LGPL || 2.0.1 (2017-12-22) || Yes || Yes || No || || Yes || || Uses Git (software)|Git
+|-
+| SymmetricDS || Java
+| Java SE || GPL || 3.9.4 (2018-02-16) || Yes || Yes || Yes || || No || Yes || plug-in APIs for customization
+|-
+| Synchronizer (krusader) || 
+| Windows, OS X, Linux || GPL v2 || 2.6.0 (2017-04-12) || No || Yes || No || || No || No || Synchronizer no longer in active development
+|-
+| Syncthing || Go (programming language)|Go 
+| Windows, OS X, Linux, Android (operating system)|Android, BSD, Solaris (operating system)|Solaris || Mozilla Public License|MPL v2 || 1.0.0 (2019-01-01) || Yes || Yes || Yes || Yes || Yes || Yes || Distributed peer-to-peer sync
+|-
+| Synkron || C++ 
+| Windows, OS X, Linux || GPL v2 || 1.6.2 (2011-01-25){<ref>https://sites.google.com/site/synkrondocumentation/news/synkron162</ref>} || Yes || Yes || No ||Yes  || Yes || Yes || no longer in active development
+|-
+|[http://www.cis.upenn.edu/~bcpierce/unison/ Unison]
+|OCaml
+|Windows, OS X, Linux, BSD, Solaris, [https://play.google.com/store/apps/details?id=net.danielroggen.unison Android]
+|GPL v3
+|[https://github.com/bcpierce00/unison/releases 2.51.2 (2018-01-27)]|| Yes || Yes || No || Yes || Yes ([http://www.cis.upenn.edu/~bcpierce/unison/download/releases/stable/unison-manual.html#backups creates backup files]) || Yes 
+|
+|-
+! Name !! Programming language 
+! Platform !! License !! Stable version !!  Portable !! Detect conflict !! Renames or moves !! Propagate deletes !! Revision control !! Scheduling or service !! Other information
+|}
+
+Freeware
+This is a comparison of the freeware (proprietary software release free of charge) file synchronization software.
+
+{| class="wikitable sortable"
+|-
+! Name !! Operating system || Vendor || Online file storage|Online storage || Remote desktop || Prior file versions, revision control !! Comments || Portable || Detect rename || Detect move || Scheduling || Full duplex transfer
+|-
+| ActiveSync|Microsoft ActiveSync || Windows || Microsoft || no || no || ? || Syncs mobile devices || || || || ||
+|-
+| Resilio Sync || Windows, OS X, Linux, FreeBSD, Android, iOS || Resilio, Inc. || no || no || yes (previous versions moved to archive folder) || Distributed peer-to-peer sync || No || Yes || Yes ||  Partial|Pro only<ref>cite web|url=https://help.getsync.com/hc/en-us/articles/206216855-Sync-2-x-change-log|title=Sync 2.x change log|publisher=</ref>  || Yes
+|-
+| Briefcase (Microsoft Windows)|Briefcase (part of Windows) || Windows || Microsoft || no || no || ? || || || || || ||
+|-
+| Cobian Backup || Windows || CobianSoft || no || no || yes, trash folder || Backup software with folder synchronization feature; remote management; Shadow Copy || no || no || no || yes ||
+|-
+| Windows Mobile Device Center || Windows || Microsoft || no || no || ? || Syncs mobile devices; successor to Microsoft ActiveSync || || || || ||
+|-
+| Microsoft Sync Framework || Windows || Microsoft || ? || no || ? || Syncs files, data, services; a framework, not a tool || || Yes || Yes || - ||
+|-
+| SyncToy|Microsoft SyncToy || Windows || Microsoft || no || no || no, recycle bin only || Sync local folders || No || Yes || Yes || via OS || No
+|-
+| Live Mesh|Windows Live Mesh (discontinued 13 February 2013) || Windows (Vista and greater), Windows Mobile, OSX || Microsoft || yes || yes || no, recycle bin only || Sync folders, online file storage|online storage || no || yes || ? || no, syncs whenever it is online || yes
+|-
+| OmniGroup OmniPresence || OSX, OmniGroup software for iOS, open source framework available || OmniGroup || no || no || no, via local Time Machine backup only || Sync local folders via OmniSync or WebDAV server but not to the server itself || no || ? || ? || no, syncs whenever it's online and not paused || yes
+|-
+| Windows Live Sync (discontinued 31 March 2011) || Windows, OSX || Microsoft || no, browsing only || no || no, recycle bin only || Sync folders, browse devices from website, remote access; was Microsoft FolderShare, 20,000 file limit || no || yes || yes || no, syncs whenever it's online || ?
+|}
+
+Commercial
+This is a comparison of commercial software in field of file synchronization. These programs only provide full functionality with a payment. As indicated, some are trialware and provide functionality during a trial period; some are freemium, meaning that they have freeware editions.
+
+{| class="wikitable sortable plainrowheaders" style="font-size:80%; width:100%;"
+|-
+! scope=col | Name 
+! scope=col | Operating system
+! scope=col | Freeware version
+! scope=col | Portable
+! scope=col | Encrypts files
+! scope=col | Detect conflict
+! scope=col | File lock
+! scope=col | Open file support 
+! scope=col | Revision control
+! scope=col | Detect rename
+! scope=col | Detect move 
+! scope=col | Full duplex transfer
+! scope=col | Propagate deletes
+! scope=col | Case sensitive
+! scope=col | Delta copying|Delta copying (block level transfer)
+! scope=col | LAN Sync
+! scope=col | Event Driven
+! scope=col | Vault
+! scope=col | Virtual Disk
+|-
+! scope=row | @MAX SyncUp 
+|Windows || Partial|Limited || no || || yes ||yes ||yes || || No || No || || yes || ||yes ||yes
+|-
+! scope=row | Allway Sync 
+|Windows || Partial|Limited || yes || yes || yes || || yes || yes || No || No || yes || yes || || || yes
+|-
+! scope=row | AIMstor 
+(discontinued) 
+|Windows || Partial|Limited || yes || || yes || yes || yes || yes through VSS|| Yes || Yes || Yes || yes || Partial|Case<br/>preserving<br/>only || ||
+|-
+! scope=row | Argentum Backup 
+|Windows || no || yes || || || || no || yes || || || || || yes || ||
+|-
+! scope=row | BackupAssist 
+|Windows || no || || || no || || yes || || || || || || || ||
+|-
+! scope=row | Backup4all 
+|Windows || yes || yes || yes || no || || yes || yes || || || || yes || || yes ||
+|-
+! scope=row | BatchSync 
+|Windows || no || no || || yes || no || no ||  || || yes|| yes || yes || || ||
+|-
+! scope=row | Box.net|Box Sync 
+|Windows,<ref name="Box Sync browser and OS support">cite web|url=https://support.box.com/hc/en-us/articles/200519838|title=What Is the Box Policy for Browser and OS Support? – Box Help|publisher=Box|accessdate=2014-08-28</ref> OS X,<ref name="Box Sync browser and OS support" /> Android, BlackBerry, iOS<ref name="Box Sync browser and OS support" /> || Partial|Limited || || || yes || ? || ?    || yes || ? || ? || ? || yes || ? || || No
+|-
+! scope=row | Carbon Copy Cloner 
+|OS X || no || no || yes || yes || yes || yes (only with APFS) || yes || no<ref name="Bombich 1">cite web|accessdate=2019-01-02|title=Why is CCC recopying every file during each backup? |url=https://bombich.com/kb/ccc5/why-ccc-recopying-every-file-during-each-backup|website=Bombich Software, Inc.</ref> || no<ref name="Bombich 1" /> || yes || yes || yes || no || yes
+|-
+! scope=row | ChronoSync 
+|OS X || no || no || yes || yes || yes || yes (only with APFS) || yes || no || no || yes || yes || yes || no || yes
+|-
+! scope=row | Cloudike 
+|Windows, OS X, iPhone, Android || yes || no || || yes || no|| yes || yes || yes || yes || yes || yes || yes|| ||
+|-
+! scope=row | CloudMe 
+|Windows, OS X, Linux, iPhone, Android, Google TV, Samsung TV || yes || no || || yes || ? || ? || no || yes || no || ? || ? || yes || ? || no
+|-
+! scope=row | Logmein|Cubby - Free 
+(discontinued) 
+|Windows, OS X || no || no || ||  yes|Renames older and keeps both || no ||  || yes  || yes || yes || ? || yes ||  || no || no
+|-
+! scope=row | Logmein|Cubby - Pro 
+(discontinued) 
+|Windows, OS X || no || no || ||  yes|Renames older and keeps both || no ||  || yes  || yes || yes || ? || yes ||  || Partial|LAN Sync only || yes
+|-
+! scope=row | Distributed Storage 
+|Windows, Linux || no || || || yes || yes || yes || || || || || || || ||
+|-
+! scope=row | Dmailer|Dmailer Sync (discontinued) 
+|Windows || yes || || || || || || || || || || || || ||
+|-
+! scope=row | Dropbox (service)|Dropbox 
+|Windows, OS X, Linux, Android, iPhone, BlackBerry || yes || no || || yes || ? || ? || yes || yes || yes || yes || yes || yes || yes || yes
+|-
+! scope=row | Easy2Sync for Files 
+|Windows || yes || || || yes || || || yes || yes, for folders || || || || || ||
+|-
+! scope=row | Egnyte 
+|Windows, OS X, Linux, Android, iPad, iPhone || no || no || || yes || yes || yes || yes || yes || yes || yes || yes || Partial|Case<br/>preserving<br/>only  || yes||yes
+|-
+! scope=row | Gladinet 
+|Windows, OS X, Android, iPad, iPhone, Windows RT, Blackberry || yes || Yes || Yes || yes || yes || yes || yes || yes || yes || yes || yes || yes || yes ||yes
+|-
+! scope=row | Linoma Software#GoDrive by GoAnywhere|GoDrive 
+|Windows, Mac OS X, Linux, Android, iOS || Partial|Limited  || yes || yes || yes || yes || yes || yes || yes || yes || ? || yes || yes || ? ||yes
+|-
+! scope=row | GoodSync 
+|Windows, OS X, Android, iPad, iPhone, USB flash drive || yes || Yes || yes, beta || yes || yes || yes || yes || yes || yes || yes || yes || yes || yes ||yes
+|-
+! scope=row | GS RichCopy 360 
+|Windows || Partial|Limited || no || no || yes || yes || yes || no || yes || yes || yes || yes || yes || Partial|Enterprise<br/>version<br/>only || yes
+|-
+! scope=row | IBM Connections 
+|Windows, OS X, Android, iOS || no || yes || yes || yes || yes || yes || yes || yes || yes || yes || yes || yes || yes || no
+|-
+! scope=row | Kenesto 
+|Windows, Android, iOS || no || yes || yes || yes || yes || yes || yes || yes || yes || yes || yes || yes || no || no || yes || optional || yes
+|-
+! scope=row | MediaFire 
+|Windows, OS X, Android, iOS || yes ||  || yes || yes || yes || yes || yes || yes || yes || yes || yes || yes || yes || no
+|-
+! scope=col | Name 
+! scope=col | Operating system
+! scope=col | Freeware version
+! scope=col | Portable
+! scope=col | Encrypts files
+! scope=col | Detect conflict
+! scope=col | File lock
+! scope=col | Open file support 
+! scope=col | Revision control
+! scope=col | Detect rename
+! scope=col | Detect move 
+! scope=col | Full duplex transfer
+! scope=col | Propagate deletes
+! scope=col | Case sensitive
+! scope=col | Delta copying|Delta copying (block level transfer)
+! scope=col | LAN Sync
+|-
+! scope=row | Mega (service)|Mega 
+|Windows, OS X, Linux, Android, iPhone, BlackBerry || yes || || yes || yes ||  ||  || yes || yes || yes || yes || yes || yes ||  || yes
+|-
+! scope=row | RepliWeb 
+|Windows, Linux || no || || || Partial || || || yes || yes || yes || yes || yes || yes || ||
+|-
+! scope=row | Resilio Sync|Resilio Sync (ex. BitTorrent Sync) 
+|Windows, OS X, Linux, Android, iOS, Windows Phone, Amazon Kindle Fire, FreeBSD || Partial|Limited|| no || yes, optional || no || no || no || yes || yes || yes || yes || yes || || yes || yes
+|-
+! scope=row | Robocopy 
+|Windows || yes || no || || no ||  || || || || || || || || ||
+|-
+! scope=row | SecureSafe 
+|Windows, OS X, Android, iOS || yes || || || yes || no || || no || no || no || no || yes || yes || no || no
+|-
+! scope=row | SpiderOak 
+|Windows, OS X, Debian, Fedora, Slackware, Android, iOS || no || || || no || || || yes<ref>cite web
+ | url = http://www.maclife.com/article/reviews/online_storage_battle_which_cloud_backup_service_reigns_supreme?page=0%2C1
+ | title =  Online Storage Battle: Which Cloud Back-Up Service Reigns Supreme?
+ | publisher = MacLife
+ | author = Susie Ochs
+ | date = 2009-06-11
+ | accessdate = 2009-11-04
+</ref> || no || || no || || || yes<ref>cite web|title=Does SpiderOak backup the whole file every time it changes?|url=https://spideroak.com/faq/questions/7/does_spideroak_backup_the_whole_file_every_time_it_changes/|publisher = SpiderOak|accessdate=24 February 2013</ref>  || Yes
+|-
+! scope=row | ShareFile 
+|Windows, OS X, Android, iPhone || yes || || yes ||  || || || yes<ref>cite web
+ | url = http://support.citrixonline.com/en_US/ShareFile/help_files/SF030020?Title=File+Versioning
+ | title =  File Versioning
+ | publisher = Citrix ShareFile
+ | author = Citrix ShareFile
+</ref> || Yes || || Yes || || Yes ||  || Yes
+|-
+! scope=row | Sharpcast|SugarSync 
+|Windows, OS X, Android, BlackBerry, iPhone, Windows Mobile || no || no || || yes || || || yes<ref>cite web
+ | url = https://www.sugarsync.com/sync_comparison.html
+ | title = See How SugarSync Stacks up to the Competition
+ | publisher = SugarSync (formerly called SharpCast)
+ | accessdate = 2010-01-13
+</ref> || yes || yes || || yes || || ||
+|-
+! scope=row | SyncBack 
+|Windows || yes || yes || yes || yes || yes || yes || yes || yes || yes || || || yes || ||
+|-
+! scope=row | Syncdocs 
+|Windows, web app || Partial|Beta<br/>versions<br/>only || yes || || yes || no || yes || yes || yes || yes || Partial|Microsoft Word only<ref>cite web|title=Syncdocs feature list|url=http://www.syncdocs.com/google-sync-features-and-details|publisher=Syncdocs Web|accessdate=14 April 2011</ref> || yes || || ||
+|-
+! scope=row | Synchronize It! 
+|Windows || no || || || no || || || || || || || || || ||
+|-
+! scope=row | Syncplicity 
+|Windows, OS X, Android, iPhone, Windows Mobile || yes || || || yes || || || yes || || || yes || yes || || No<ref>cite web|url=https://www.syncplicity.com/blog/why-delta-sync-doesn-t-matter |title=Why Delta Sync Doesn't Matter|accessdate=2014-05-21 |date=2009-07-20</ref> || No
+|-
+! scope=row | Tonido 
+|Windows, OS X, Linux, Android, BlackBerry, iPhone, Windows Phone || yes || yes || || yes || no || yes || no || yes || yes || yes || yes || || ||
+|-
+! scope=row | Tresorit 
+|Windows, OS X, Linux, Android, BlackBerry, iOS, Windows Phone || Partial|Limited || yes || yes || yes || || yes, for Windows || yes || || || || yes || yes || no || 
+|-
+! scope=row | Ubuntu One (discontinued 2 April 2014) 
+|Windows, OS X, Ubuntu, iOS, Android<ref>cite web|title=Ubuntu One:Downloads|url=https://one.ubuntu.com/downloads/|publisher=Ubuntu One|accessdate=14 April 2013|deadurl=yes|archiveurl=https://web.archive.org/web/20110809233713/https://one.ubuntu.com/downloads/|archivedate=9 August 2011|df=</ref> || yes || || || ||  || || || || || || || || ||
+|-
+! scope=row | Wuala (discontinued) 
+|Windows, OS X, Debian, Ubuntu, Android, iOS || yes || || yes ||  || || || || || || || || || ||
+|-
+! scope=row |ZumoDrive (discontinued)
+|Windows, OS X, Linux, Android, iPhone, Palm webOS || yes || || || yes || || || yes || || || || || || ||
+|-
+! scope=row | Zetta.net 
+|Windows, OS X, Linux || No ||  || || Yes  || || Yes || Yes || Yes || Yes || || Yes || Yes, Preserve file name case & file metadata|| yes || Yes
+|- class="sortbottom"
+! scope=col | Name 
+! scope=col | Operating system
+! scope=col | Freeware version
+! scope=col | Portable
+! scope=col | Encrypts files
+! scope=col | Detect conflict
+! scope=col | File lock
+! scope=col | Open file support 
+! scope=col | Revision control
+! scope=col | Detect rename
+! scope=col | Detect move 
+! scope=col | Full duplex transfer
+! scope=col | Propagate deletes
+! scope=col | Case sensitive
+! scope=col | Delta copying|Delta copying (block level transfer)
+! scope=col | LAN Sync
+|}
+
+See also
+Portal|Computing
+
+columns-list|colwidth=20em|
+*Backup software
+**List of backup software
+**Comparison of online backup services
+*Comparison of browser synchronizers
+*Disk cloning
+**List of disk cloning software
+**Comparison of disk cloning software
+*Comparison of file comparison tools
+*Comparison of file hosting services
+*Comparison of file transfer protocols
+*Comparison of revision control software
+
+
+References
+Reflist
+
+Further reading
+* cite web|url=http://www.tomsguide.com/us/file-sync-backup,review-1060.html |title=Get In Sync with File Syncing Software |accessdate=2009-07-01 |last=Kerner |first=Sean |date=2008-02-13 |work=Tom's Guide
+* cite web|url=http://www.tomsguide.com/us/file-syncing-software,review-1074.html |title=Syncing Software Redux: More Options |accessdate=2009-07-01 |last=Kerner |first=Sean |date=2008-02-27 |work=Tom's Guide
+
+DEFAULTSORT:File synchronization
+Category:Data synchronization| 
+Category:Storage software
+Category:Software comparisons|File synchronization software

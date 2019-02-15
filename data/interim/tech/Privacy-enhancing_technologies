@@ -1,0 +1,83 @@
+Privacy-Enhancing Technologies (PET) are the methods of Data Protection|protecting data in accordance with the law. PET allow User (computing)|online users to protect the data privacy|privacy of their personally identifiable information (PII) provided to and handled by services or applications. PET uses techniques to minimize possession of personal data without losing the functionality of an information system.<ref>Harv|van Blarkom|Borking|Olk|2003</ref>
+
+Goals of PETs
+The objective of PETs is to protect personal data and ensure the users of technology that their information is confidential and management of data protection is a priority to the organizations who withhold responsibility for any Personally identifiable information|PII - allowing users to take one or more of the following actions related to their personal data sent to and used by, online service providers, merchants or other users.
+
+The goal of privacy-enhancing technologies include increasing control over personal data sent to, and used by, online service providers and merchants (or other online users)(Informational self-determination|self-determination). PETs aim to minimize personal data collected and used by service providers and merchants, use Pseudonym|pseudonyms or anonymous data credentials to provide anonymity, and strive to achieve informed consent about giving personal data to online service providers and merchants.<ref>The EU PRIME research project's [https://www.prime-project.eu/about/vision/ Vision on privacy enhanced identity management] webarchive|url=https://web.archive.org/web/20071011000720/https://www.prime-project.eu/about/vision |date=2007-10-11 </ref> In Privacy Negotiations, consumers and service providers establish, maintain, and refine privacy policies as individualized agreements through the ongoing choice among service alternatives, therefore providing the possibility to negotiate the terms and conditions of giving personal data to online service providers and merchants (data handling/privacy policy negotiation). Within private negotiations, the transaction partners may additionally bundle the personal information collection and processing schemes with monetary or non-monetary rewards.<ref>[http://privacy-negotiations.de Key Facts on Privacy Negotiations]</ref>
+
+PETs provide the possibility to remotely audit the enforcement of these terms and conditions at the online service providers and merchants (assurance), allow users to log, archive and look up past transfers of their personal data, including what data has been transferred, when, to whom and under what conditions, and facilitate the use of their legal rights of data inspection, correction and deletion.
+
+Existing PETs
+Examples of existing privacy enhancing technologies are:
+* Anonymizer|Communication anonymizers hiding the real online identity (email address, IP address, etc.) and replacing it with a non-traceable identity (disposable / one-time email address, random IP address of hosts participating in an anonymising network, pseudonym, etc.). They can be applied to email, Web browsing, Peer-to-peer|P2P networking, Voice over IP|VoIP, Chat, instant messaging, etc.
+* Shared bogus online accounts. One person creates an account for MSN, providing bogus data for Name, address, phone number, preferences, life situation etc. They then publish their user-IDs and passwords on the Internet. Everybody can now use this account comfortably. Thereby the user is sure that there is no personal data about him or her in the account profile. (Moreover, he is freed from the hassle of having to register at the site himself.)
+*  Obfuscation refers to the many practices of adding distracting or misleading data to a log or profile, which may be especially useful for frustrating precision analytics after data has already been lost or disclosed. Its effectiveness against humans is questioned, but it has greater promise against shallow algorithms.<ref>https://mitpress.mit.edu/books/obfuscation</ref><ref>https://cs.nyu.edu/trackmenot/</ref><ref>https://arxiv.org/abs/1211.0320</ref><ref>http://ieeexplore.ieee.org/abstract/document/8328401/</ref>
+* Access to personal data: The service provider's infrastructure allows users to inspect, correct or delete all their data stored at the service provider.
+*Enhanced privacy ID (EPID) is a Digital Signature Algorithm|digital signature algorithm supporting anonymity. Unlike traditional digital signature algorithms (e.g., Public key infrastructure|PKI), in which each entity has a unique public verification key and a unique private signature key, EPID provides a common group public verification key associated with many of unique private signature keys.<ref>Cite web|url=http://csrc.nist.gov/groups/ST/PEC2011/presentations2011/brickell.pdf|title=Enhanced Privacy Id|last=|first=|date=December 2011|website=|publisher=|access-date=5 November 2016</ref> EPID was created so that a device could prove to an external party what kind of device it is (and optionally what software is running on the device) without needing to also reveal exact identity, i.e., to prove you are an authentic member of a group without revealing ''which'' member. It has been in use since 2008.
+
+Future PETs
+Examples of privacy enhancing technologies that are being researched or developed include<ref>The EU PRIME research project's [https://www.prime-project.eu/prime_products/whitepaper/PRIME-Whitepaper-V2.pdf White Paper] webarchive|url=https://web.archive.org/web/20070817132944/https://www.prime-project.eu/prime_products/whitepaper/PRIME-Whitepaper-V2.pdf |date=2007-08-17  (Version 2)</ref> limited disclosure technology, anonymous credentials such as online car rental, negotiation and enforcement of data handling conditions, and data transaction log. Limited disclosure technology provides a way of protecting individuals' privacy by allowing them to share only enough personal information with service providers to complete an interaction or transaction. This technology is also designed to limit tracking and correlation of users’ interactions with these third parties. Limited disclosure uses Cryptography|cryptographic techniques and allows users to retrieve data that is vetted by a provider, to transmit that data to a relying party, and have these relying parties trust the authenticity and integrity of the data.<ref>[http://www.gartner.com/it-glossary/limited-disclosure-technology Gartner IT Glossary]</ref> Anonymous credentials are asserted properties or rights of the credential holder that don't reveal the true identity of the holder; the only information revealed is what the holder of the credential is willing to disclose. The assertion can be issued by the user himself/herself, by the provider of the online service or by a third party (another service provider, a government agency, etc.). For example:
+
+Online car rental. The car rental agency doesn't need to know the true identity of the customer. It only needs to make sure that the customer is over 23 (as an example), that the customer has a drivers license, health insurance (i.e. for accidents, etc.), and that the customer is paying. Thus there is no real need to know the customers name nor their address or any other personal information. Anonymous credentials allow both parties to be comfortable: they allow the customer to only reveal so much data which the car rental agency needs for providing its service (data minimization), and they allow the car rental agency to verify their requirements and get their money. When ordering a car online, the user, instead of providing the classical name, address and credit card number, provides the following credentials, all issued to pseudonyms (i.e. not to the real name of the customer):
+* An assertion of minimal age, issued by the state, proving that the holder is older than 23 (note: the actual age is not provided)
+* A driving licence, i.e. an assertion, issued by the motor vehicle control agency, that the holder is entitled to drive cars
+* A proof of insurance, issued by the health insurance
+* Digital cash
+Negotiation and enforcement of data handling conditions. Before ordering a product or service online, the user and the online service provider or merchant negotiate the type of personal data that is to be transferred to the service provider. This includes the conditions that shall apply to the handling of the personal data, such as whether or not it may be sent to third parties (profile selling) and under what conditions (e.g. only while informing the user), or at what time in the future it shall be deleted (if at all). After the transfer of personal data took place, the agreed upon data handling conditions are technically enforced by the infrastructure of the service provider, which is capable of managing and processing and data handling obligations. Moreover, this enforcement can be remotely audited by the user, for example by verifying chains of certification based on Trusted computing modules or by verifying privacy seals/labels that were issued by third party auditing organisations (e.g. data protection agencies). Thus instead of the user having to rely on the mere promises of service providers not to abuse personal data, users will be more confident about the service provider adhering to the negotiated data handling conditions <ref>Cite web|url=http://spdp.di.unimi.it/papers/samarati-ifip06.pdf|title=Enhancing User Privacy Through Data Handling Policies|last=|first=|date=2006|website=|publisher=|access-date=5 November 2016</ref> Lastly, the data transaction log allows users the ability to log the personal data they send to service provider(s), the time in which they do it, and under what conditions. These logs are stored and allow users to determine what data they have sent to whom, or they can establish the type of data that is in possession by a specific service provider. This leads to more transparency (behavior)|transparency, which is a pre-requisite of being in control.
+
+See also
+*Crypto-shredding
+*Cypherpunk
+*Digital credentials
+*Enhanced privacy ID (EPID)
+*I2P|I2P - The Anonymous Network
+*Identity management
+*Information privacy
+*Information processing
+*Information security
+*Privacy
+*Privacy by design
+*Privacy Engineering
+*Privacy-enhanced Electronic Mail
+*Privacy software
+*Privacy policy
+
+References
+
+* cite book | ref=harv
+ | last=van Blarkom | first=G.W.
+ | last2=Borking | first2=J.J.
+ | last3=Olk | first3=J.G.E.
+ | year=2003
+ | chapter=PET
+ | title=Handbook of Privacy and Privacy-Enhancing Technologies. (The Case of Intelligent Software Agents)
+ | isbn=90-74087-33-7
+ | url=http://www.andrewpatrick.ca/pisa/handbook/handbook.html
+
+* cite journal |last1=Cánovas Sanchez |first1=Jose Luis |last2=Bernal Bernabe |first2=Jorge |last3=Skarmeta |first3=Antonio |title=Integration of Anonymous Credential Systems in IoT Constrained Environments |journal=IEEE Access |date=2018 |volume=6 |page=4767-4778 |doi=10.1109/ACCESS.2017.2788464 |url=http://ieeexplore.ieee.org/document/8242656/
+=Notes=
+reflist
+
+External links
+PETs in general:
+*[http://cyberlaw.stanford.edu/wiki/index.php/PET Stanford CIS wiki database of PETs]
+*[http://www.prime-project.eu The EU PRIME research project] (2004 to 2008) aiming at studying and developing novel PETs
+*[https://web.archive.org/web/20071213002648/http://www.cdt.org/privacy/pet/ About PETs from the Center for Democracy and Technology]
+*[https://petsymposium.org/ Annual symposium on PETs]
+*[http://www.itst.dk/image.asp?page=image&objno=198999309 Report about PETs from the META Group, published by the Danish ministry of science]
+*[http://ec.europa.eu/information_society/activities/privtech/index_en.htm Activities of the EU Commission in the area of PETs] broken link
+Anonymous credentials:
+*IBM Zürich Research Lab's [http://www.zurich.ibm.com/security/idemix/ idemix]
+*Stefan Brands' U-Prove Digital credential [http://www.credentica.com/ 'credentica']
+*which is now owned by Microsoft [http://www.microsoft.com/u-prove/ U-Prove]
+Privacy policy negotiation:
+*The W3C|W3C's P3P
+*IBM's Epal|EPAL
+*Sören Preibusch: [http://ideas.repec.org/p/diw/diwwpp/dp526.html Implementing Privacy Negotiations in E-Commerce], ''Discussion Papers of DIW Berlin'' 526, 2005
+
+Privacy
+
+DEFAULTSORT:Privacy Enhancing Technologies
+Category:Privacy
+Category:Identity management
+Category:Data protection

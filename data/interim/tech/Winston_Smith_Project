@@ -1,0 +1,152 @@
+The Winston Smith Project (lang-it|Progetto Winston Smith, or PWS) is an informational and operational project for the defence of human rights on the Internet and in the digital era. It was started in 1999 as an anonymous association and it is characterised by the absence of a physical reference identity.
+
+It is named after the main character in George Orwell's novel "Nineteen Eighty-Four". The reference to Orwell's dystopia is embodied in the motto of PWS: "Unplug the Big Brother (Nineteen Eighty-Four)|Big Brother" which is aligned with its more generalist motto "Paranoia is a virtue".
+
+PWS aims to make users aware of the risks of violation of privacy on the Internet and threats to freedom of speech. PWS is engaged in spreading the informational tools and counter-censorship technologies that allow users to maintain confidentiality in their communications, anonymity in the network and freedom of expression.
+
+PWS has generated and maintains the ''e-privacy'', ''Big Brother Awards Italy'', ''Privacy Box'' and ''Project 95%'' initiatives.
+
+Objectives
+PWS upholds the thesis that the Big Brother described in George Orwell's novel is gradually gaining form, passively and with silent acceptance by the people. It is gradually inserted into our lives through the false statement: "it is right to sacrifice one's privacy in exchange for greater security".
+
+According to security experts such as Bruce Schneier, following events such as the SISMI-Telecom scandal, official bodies which monitor telecommunications are acquiring a de facto totalitarian power, whatever the official political situation. If the target is really to increase public security, the mere presence of monitoring agencies constitutes an element of insecurity.Citation needed|date=August 2010
+
+Because of the ignorance of citizens regarding security, official agencies push for an ever increasing situation which damages human rights.Vague|date=August 2010 PWS is engaged in spreading tools to protect users from such risk. Fortunately, those tools exist because the Internet is based upon Open Source Initiative|open technologies.
+
+Individual security can be achieved only by using preventive protection tools on private computers. It cannot be delegated to others such as Internet service providers.
+
+PWS aims to increase the use of technologies such as data encryption and Anonymity on the Internet#Anonymity on the Internet|anonymity. This can be achieved by using programs written according to the guidelines of secure software, such as:
+
+* the software in use (including the operating system) must be an open system (computing)|open system, allowing the user, if so inclined and capable, to verify its effective behaviour.
+* the cryptography|cryptographic algorithms employed must be ''public''. Only thus can the community perform a mathematical analysis (cryptanalysis) and a study of potential attacks, in order to achieve a continuous improvement.
+
+If either of these conditions is missing, the software cannot be considered secure, as it is then based upon the concept of security through obscurity, which has never been proved a valid security paradigm. Events such as Java Anon Proxy|JAP,<ref>cite web
+|url=http://www.securityfocus.com/news/6779
+|title=Net anonymity service back-doored
+|accessdate=6 August 2010
+|last=Greene |first=Thomas C.
+|publisher=SecurityFocus.com
+|work=The Register
+|date=21 August 2008
+</ref> Pretty Good Privacy|PGP 5.x and 6.x<ref>cite web
+|url=http://www.rossde.com/PGP/pgp_backdoor.html
+|title=PGP: Backdoors and Key Escrow
+|last=Ross |first=David
+|date=18 November 2003
+|work=rossde.com
+|accessdate=6 August 2010
+</ref> have shown the unreliability of this model.
+
+To be consistent with the proposed technologies, the PWS website is not available on the Internet, but through Freenet, with the following key:
+
+<pre>USK@RU-C2q5kN7K62WO3seMMjSTUY8izF2vCFyVFOnLf~Q0,wxvGO2QMT6IN9c7dNUhHeHnXVVwhq8YLbQL~DlMA7YE,AQACAAE/pws/3</pre>
+
+A mirror website|mirror is also available on the Internet to increase accessibility.
+<ref>cite web
+|url=https://www.winstonsmith.info
+|work=winstonsmith.info
+|title=Il Progetto Winston Smith / The Winston Smith Project
+|language=Italian, English
+|accessdate=6 August 2010
+<!-- Bot generated title -->]</ref>
+
+To contact members of PWS conventional e-mail addresses are not used, but rather the nym server|nym alias ''ws@nym.panta-rhei.eu.org'', whose Pretty Good Privacy|PGP key is published on a key server (cryptographic)|keyserver.<ref>cite web
+|url=http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x1FB41E19
+|publisher=Massachusetts Institute of Technology
+|title=Public Key Server - Get ``0x1FB41E19'
+|accessdate=6 August 2010
+</ref>
+
+=Project resources=
+Anonymity in the network is guaranteed by the Mix-net technology, first studied by David Chaum in 1981. This technology requires that user resources be employed and shared in collaboration. The reciprocal sharing of resources through secure algorithms ensures that an attacker able to monitor the network passively (reading all traffic in all segments) or actively (generating arbitrary traffic) would be unable to discover the identities of individuals.
+
+Software such as anonymous remailer, Tor (anonymity network)|Tor and Freenet are based on these advanced concepts, and have evolved through the years.
+
+The architecture of these networks is based on collaboration and availability of shared resources. As a start, groups of volunteers like PWS are making eight servers available, dedicated to the support of this network.<ref>cite web
+|url=https://www.winstonsmith.info/statistiche_server_PWS.html
+|title=Statistiche delle risorse del Progetto Winston Smith
+|accessdate=6 August 2010
+|work=winstonsmith.info
+|language=Italian
+</ref>
+
+=Law proposal=
+At the 2005 annual convention organized by Bileta,<ref>[http://www.bileta.ac.uk Bileta]</ref> an association active since 1986 for the study of laws concerning the use of technology in Britain and Ireland, PWS presented a study concerning data retention.<ref>citation
+|url=http://www.winstonsmith.info/presentation-final.pdf
+|work=winstonsmith.info
+|accessdate=6 August 2010
+|title=Today is the tomorrow we should have worried about yesterday
+|first1=Gianni|last1=Bianchini
+|first2=Marco A.|last2=Calamari
+|first3=Andrea|last3=Glorioso
+|place=BILETA 2005, Queens University Belfast
+|date=6–7 April 2005
+</ref>
+
+Data retention is the automatic collection of network data in support of investigative bodies and law enforcement. Before several reforms concerning security, it was necessary in some jurisdictions to possess a mandate by a judicial authority before collecting data to be used in investigations. With the decentralization of technologies due to the spread of Internet, many private bodies have been invested with the responsibility for data collection.
+
+Such automatic data collection of Internet traffic is possible using freely available software, such as Wireshark or tcpdump, originally conceived to aid network technicians in debugging and maintenance.
+
+Collection of personal data is forbidden in the European Union according to the principle of freedom of secrecy of correspondence. For this reason a law proposal has been investigated to regulate the collection of log and backup data, which would define which data are to be considered sensitive, and allowing technicians to perform maintenance operations, but at the same time preventing the unauthorized access to personal data by external parties. This law proposal was presented to the Italian Parliament by deputy Maurizio Turco in 2006. This law proposal was not accepted. Instead, the validity of the current Italian Law Decree 144/2005, due to expire on 31 December 2007, has been extended in time, to continue allowing the collection of personal data with a view to combating international terrorism.
+
+=E-Privacy conference=
+PWS organizes the annual E-Privacy conference, which is the first such Italian conference concerning aspects of privacy in the network. Contributions are given by both technical and law experts. This conference has been held in the Palazzo Vecchio in Florence, with the exception of the 2002 edition, which was hosted at the University of Florence.
+
+Each edition has had a main theme:
+* 2002: ''E-privacy, confidentiality and individual rights in the network, opposing Big Brother in the third millennium'' Topics covered: Italian Law 675/1996, political trends to pass laws reducing freedom in the net, Freenet, Pretty Good Privacy|PGP/GNU Privacy Guard|GPG, anonymous remailer and steganography.
+* 2003: ''Defending identity and freedom of expression against requests for more security'' Topics treated included: data retention, TCPA, analysing threat models to define a minimum personal security standard, digital signatures, cryptography as a basic user defence tool.
+* 2004: ''Data retention and the right to oblivion'' Topics included: data retention, RFID, the right to delete sensitive data, surveillance as an answer to terrorism, anonymous peer-to-peer (P2P) networking, abuses of video surveillance, decentralized technologies.
+* 2005: ''Data retention and privacy in the network'': darknet was considered, as well as presenting the P-Box project, then Free software, civil responsibilities and privacy violations, the OpenPGP standard, a law proposal to regulate automatic data collection, Biometry.
+* 2006: The main theme was not set. Topics discussed were: spyware, trusted computing, Digital rights management|DRM, possible misuses of electronic voting, dangers to privacy caused by search engines.
+* 2007: ''Social control and technocontrol''. Topics included: VOIP, personal identity and digital identity, accessibility, the Tanga articles and IT incidents.
+
+The 2008 conference was hypothesized to be held on the 9th and 10th of May in the Palazzo Vecchio located in Florence.
+
+"e-privacy" is also the name of a mailing list. Its e-mail address is e-privacy@firenze.linux.it, subscription is free and archives are publicly available online.<ref>cite web
+|url=http://lists.firenze.linux.it/pipermail/e-privacy
+|title=Archivi mailing list e-privacy
+|accessdate=6 August 2010
+|language=Italian
+|work=Italian Linux Society
+</ref>
+
+=P-Box project=
+Anonymity technologies are based on collaborative groups of users who reciprocally choose to share their resources. These anonymous networks can be accessed even from devices with low computing power and low communications bandwidth. To help diffuse these technologies PWS has introduced P-Boxes<ref>cite web
+|url=http://www.winstonsmith.info/pbox/index-e.html
+|title=Privacy BOX - "we want boxes, not programs"|language=English, Italian
+|accessdate=6 August 2010
+|work=winstonsmith.info
+</ref> (Privacy Boxes), which are small and simple devices to help protect privacy.
+
+Three models have been developed:
+* P-Box Model I: a modified Xbox (console)|Xbox, with the GNU/Linux operating system, running standard services and the Mixminion remailer.
+* P-Box Model II: a PC Soekris 4501, with the GNU/Linux operating system, running Mixminion, TOR, Mixmaster anonymous remailer|Mixmaster and the Postfix (software)|Postfix mail server.
+* P-Box Model III: based on a Soekris 4801, it includes the same applications as model II. It can also be used as access point and includes the e-mail server protocols IMAP and POP3.
+
+=Big Brother Awards (Italian section)=
+Big Brother Awards (BBA) is an initiative of Privacy International with the motto "watching the watchman worldwide". PWS manages the polling and award assignation to the Italian bodies with the worst performance in the field of human rights. Several categories exist, according to the rights violation achieved:
+* Lifelong threat: the body or agency which has caused most damage to privacy throughout its  existence.
+* Worst public agency: given to the public agency (government institution, public body, authority, etc.) which caused most damage to privacy in the current year.
+* Worst private enterprise: awarded to private or corporate institutions with the worst privacy record in the current year.
+* Most invasive technology: the technology with the worst impact on privacy.
+* Boot mouth: the "best" (most terrifying, ridiculous, erroneous, falsely tranquillizing) statement said or printed about privacy in the current year.
+* People's lament: who received most votes, also in different categories.
+
+=Project 95%=
+Essay|section|date=August 2010
+Project 95% (Ninety Five Percent &ndash; No False Privacy) is a project advocating awareness in Internet issues. The Internet was born as a free and decentralized network, but its most common use relies on a few centralized services. A blatant example is the number of users who are increasingly more dependent on webmail services such as Gmail, Hotmail and Yahoo! Mail. Even though there is an understandable tendency favouring ease of use, as the customers can access their services from disparate locations, the downside is the vast usage of profiling instruments on the part of free service providers, with the view of providing more targeted web marketing.
+
+It is not PWS's intention to tag any specific commercial service as a danger to privacy, but to point out that a greater confidentiality can be achieved using individual mail servers, private webmail programs, privately owned domains.
+
+This is perfectly achievable using freely available software and their configuration can be automated even for non technically competent users.
+
+95% is the percentage of reliability of a home based server, connected to the Internet through a flat ADSL line, to demonstrate that it is not necessary to employ the offerings of centralized enterprises to obtain good services. Hence the NFP project, which informs on the technical possibilities that a modern computer can offer, to connect to the Internet fully and without undue effort on the part of the user.
+
+The P-Box is an example of a technological answer to these necessities.
+
+References
+Reflist
+
+Category:Digital rights organizations
+Category:Privacy organizations
+Category:Organizations established in 1999

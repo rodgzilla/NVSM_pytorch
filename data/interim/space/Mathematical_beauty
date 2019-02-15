@@ -1,0 +1,180 @@
+pp-move-indef
+File:Pythagorean proof (1).svg|300px|right|thumb|An example of "beauty in method"—a simple and elegant proof of the Pythagorean theorem.
+
+Mathematical beauty describes the notion that some mathematicians may derive aesthetics|aesthetic pleasure from their work, and from mathematics in general. They express this pleasure by describing mathematics (or, at least, some aspect of mathematics) as ''beautiful''. Mathematicians describe mathematics as an art form or, at a minimum, as a creativity|creative activity. Comparisons are often made with music and poetry.
+
+Bertrand Russell expressed his sense of mathematical beauty in these words:
+<blockquote>
+Mathematics, rightly viewed, possesses not only truth, but supreme beauty—a beauty cold and austere, like that of sculpture, without appeal to any part of our weaker nature, without the gorgeous trappings of painting or music, yet sublimely pure, and capable of a stern perfection such as only the greatest art can show. The true spirit of delight, the exaltation, the sense of being more than Man, which is the touchstone of the highest excellence, is to be found in mathematics as surely as poetry.<ref>cite book|last=Russell|first=Bertrand|authorlink=Bertrand Russell|title=Mysticism and Logic: And Other Essays|publisher=Longman|year=1919|page=60|chapter=The Study of Mathematics|url=https://books.google.com/?id=zwMQAAAAYAAJ&pg=PA60&dq=Mathematics+rightly+viewed+possesses+not+only+truth+but+supreme+beauty+a+beauty+cold+and+austere+like+that+of+sculpture+without+appeal+to+any+part+of+our+weaker+nature+without+the+gorgeous+trappings+inauthor:Russell|accessdate=2008-08-22</ref>
+</blockquote>
+
+Paul Erdős expressed his views on the ineffability of mathematics when he said, "Why are numbers beautiful? It's like asking why is Symphony No. 9 (Beethoven)|Beethoven's Ninth Symphony beautiful. If you don't see why, someone can't tell you. I ''know'' numbers are beautiful. If they aren't beautiful, nothing is".<ref>cite book|last=Devlin|first=Keith|title=The Math Gene: How Mathematical Thinking Evolved And Why Numbers Are Like Gossip|publisher=Basic Books|year=2000|page=140|chapter=Do Mathematicians Have Different Brains?|url=https://books.google.com/books?id=AJdmfYEaLG4C|accessdate=2008-08-22|isbn=978-0-465-01619-8</ref>
+
+Beauty in method
+Mathematicians describe an especially pleasing method of Mathematical proof|proof as ''Elegance|elegant''. Depending on context, this may mean:
+
+* A proof that uses a minimum of additional assumptions or previous results.
+* A proof that is unusually succinct.
+* A proof that derives a result in a surprising way (e.g., from an apparently unrelated theorem or collection of theorems).
+* A proof that is based on new and original insights.
+* A method of proof that can be easily generalized to solve a family of similar problems.
+
+In the search for an elegant proof, mathematicians often look for different independent ways to prove a result—the first proof that is found may not be the best. The theorem for which the greatest number of different proofs have been discovered is possibly the Pythagorean theorem, with hundreds of proofs having been published.<ref>Elisha Scott Loomis published over 360 proofs in his book Pythagorean Proposition (isbn|0-873-53036-5).</ref> Another theorem that has been proved in many different ways is the theorem of quadratic reciprocity—Carl Friedrich Gauss alone published eight different proofs of this theorem.
+
+Conversely, results that are logically correct but involve laborious calculations, over-elaborate methods, very conventional approaches, or that rely on a large number of particularly powerful axioms or previous results are not usually considered to be elegant, and may be called ''ugly'' or ''clumsy''.
+
+Beauty in results<!-- This section is linked from Fermat's last theorem -->
+File:EulerIdentity2.svg|thumb|right|Starting at ''e''<sup>0</sup> = 1, travelling at the velocity ''i'' relative to one's position for the length of time π, and adding 1, one arrives at 0. (The diagram is an Argand diagram)
+Some mathematicianssfnp|Rota|1997|p=173 see beauty in mathematical results that establish connections between two areas of mathematics that at first sight appear to be unrelated. These results are often described as ''deep''.
+
+While it is difficult to find universal agreement on whether a result is deep, some examples are often cited. One is Euler's identity:<ref name=Gallagher2014>cite news|last=Gallagher|first=James|title=Mathematics: Why the brain sees maths as beauty|url=https://www.bbc.co.uk/news/science-environment-26151062|accessdate=13 February 2014|newspaper=BBC News online|date=13 February 2014</ref>
+
+<math display=block>\displaystyle e^{i \pi} +1 = 0\, .</math>
+
+This is a special case of Euler's formula, which the physicist Richard Feynman called "our jewel" and "the most remarkable formula in mathematics".<ref>cite book|first=Richard P.|last= Feynman|title=The Feynman Lectures on Physics |volume=I|publisher=Addison-Wesley|year=1977|isbn=0-201-02010-6|pages=22–10</ref> Modern examples include the modularity theorem, which establishes an important connection between elliptic curves and modular forms (work on which led to the awarding of the Wolf Prize to Andrew Wiles and Robert Langlands), and "monstrous moonshine", which connects the Monster group to modular functions via string theory for which Richard Borcherds was awarded the Fields Medal.
+
+Other examples of deep results include unexpected insights into mathematical structures. For example, Gauss's Theorema Egregium is a deep theorem which relates a local phenomenon (curvature) to a global phenomenon (area) in a surprising way. In particular, the area of a triangle on a curved surface is proportional to the excess of the triangle and the proportionality is curvature. Another example is the fundamental theorem of calculus (and its vector versions including Green's theorem and Stokes' theorem).
+
+The opposite of ''deep'' is ''trivial''. A trivial theorem may be a result that can be derived in an obvious and straightforward way from other known results, or which applies only to a specific set of particular objects such as the empty set. Sometimes, however, a statement of a theorem can be original enough to be considered deep, even though its proof is fairly obvious.
+
+In his ''A Mathematician's Apology'', G. H. Hardy|Hardy suggests that a beautiful proof or result possesses "inevitability", "unexpectedness", and "economy".<ref>cite book | title=A Mathematician's Apology|author=Hardy, G.H. | chapter = 18</ref>
+
+Gian-Carlo Rota|Rota, however, disagrees with unexpectedness as a sufficient condition for beauty and proposes a counterexample:
+quote|A great many theorems of mathematics, when first published, appear to be surprising; thus for example some twenty years ago [from 1977] the proof of the existence of Exotic sphere|non-equivalent differentiable structures on spheres of high dimension was thought to be surprising, but it did not occur to anyone to call such a fact beautiful, then or now.sfnp|Rota|1997|p=172 
+Perhaps ironically, Monastyrsky writes:
+quote|It is very difficult to find an analogous invention in the past to Milnor's beautiful construction of the different differential structures on the seven-dimensional sphere... The original proof of Milnor was not very constructive, but later E. Briscorn showed that these differential structures can be described in an extremely explicit and beautiful form.<ref>citation|last = Monastyrsky|title=Some Trends in Modern Mathematics and the Fields Medal|year = 2001</ref>
+This disagreement illustrates both the subjective nature of mathematical beauty and its connection with mathematical results: in this case, not only the existence of exotic spheres, but also a particular realization of them.
+
+Beauty in experience
+File:Compound of five cubes.png|thumb|222px|A "cold and austere beauty" has been attributed to the compound of five cubes
+tone|section|date=March 2013
+Interest in pure mathematics separate from Empirical research|empirical study has been part of the experience History of mathematics|of various civilizations, including that of the Greek mathematics|ancient Greeks, who "did mathematics for the beauty of it".<ref>Lang, p. 3</ref> The aesthetic pleasure that mathematical physicists tend to experience in Einstein's theory of general relativity has been attributed (by Paul Dirac, among others) to its "great mathematical beauty".<ref>Chandrasekhar, p. 148</ref> The beauty of mathematics is experienced when the reality|physical reality of objects are represented by mathematical models. Group theory, developed in the early 1800s for the sole purpose of solving polynomial equations, became a fruitful way of categorizing elementary particles—the building blocks of matter. Similarly, the study of knot theory|knots provides important insights into string theory and loop quantum gravity.
+
+Some believe that in order to appreciate mathematics, one must engage in doing mathematics.<ref>cite book|last=Phillips|first=George|title=Mathematics Is Not a Spectator Sport|publisher=Springer Science+Business Media|year=2005|chapter=Preface|isbn=0-387-25528-1|url=https://books.google.com/?id=psFwdN6V6icC&pg=PR7&lpg=PR7&dq=there+is+nothing+in+the+world+of+mathematics+that+corresponds+to+an+audience+in+a+concert+hall,+where+the+passive+listen+to+the+active.+Happily,+mathematicians+are+all+doers,+not+spectators.|accessdate=2008-08-22|quote="...there is nothing in the world of mathematics that corresponds to an audience in a concert hall, where the passive listen to the active. Happily, mathematicians are all ''doers'', not spectators.</ref>
+There are some teachers that encourage student engagement by teaching mathematics in a kinesthetic way (see kinesthetic learning). For example, Math Circle is an afterschool enrichment program where students do mathematics through games and activities; in a general Math Circle lesson, students use pattern finding, observation, and exploration to make their own mathematical discoveries. For example, mathematical beauty arises in a Math Circle activity on symmetry designed for 2nd and 3rd graders. In this activity, students create their own snowflakes by folding a square piece of paper and cutting out designs of their choice along the edges of the folded paper. When the paper is unfolded, a symmetrical design reveals itself. In a day to day elementary school mathematics class, symmetry can be presented as such in an artistic manner where students see aesthetically pleasing results in mathematics.
+
+Some teachers prefer to use mathematical manipulatives to present mathematics in an aesthetically pleasing way. Examples of a manipulative include algebra tiles, cuisenaire rods, and pattern blocks. For example, one can teach the method of completing the square by using algebra tiles. Cuisenaire rods can be used to teach fractions, and pattern blocks can be used to teach geometry. Using mathematical manipulatives helps students gain a conceptual understanding that might not be seen immediately in written mathematical formulas.<ref>Sowell, E. (1989). Effects of Manipulative Materials in Mathematics Instruction. Journal for Research in Mathematics Education, 20, 498–505.</ref> 
+
+Another example involves origami. Origami, the art of paper folding, has aesthetic qualities and many mathematical connections. One can study the mathematics of paper folding by observing the crease pattern on unfolded origami pieces.<ref>Hull, Thomas. "Project Origami: Activities for Exploring Mathematics". Taylor & Francis, 2006.</ref>
+
+Combinatorics (the study of counting) has artistic representations that some find mathematically beautiful.<ref>Brualdi, Richard. "Introductory Combinatorics." Pearson, 2009.</ref> There are many visual examples that illustrate combinatorial concepts. Here are some topics and objects seen in combinatorics courses with visual representations:
+* Four color theorem
+* Young tableau
+* Permutohedron
+* Graph theory
+* Partition of a set
+
+Beauty and philosophy
+Some mathematicians are of the opinion that the doing of mathematics is closer to discovery than invention, for example:
+quote|There is no scientific discoverer, no poet, no painter, no musician, who will not tell you that he found ready made his discovery or poem or picture – that it came to him from outside, and that he did not consciously create it from within.
+|William Kingdon Clifford, from a lecture to the Royal Institution titled "Some of the conditions of mental development"
+These mathematicians believe that the detailed and precise results of mathematics may be reasonably taken to be true without any dependence on the universe in which we live. For example, they would argue that the theory of the natural numbers is fundamentally valid, in a way that does not require any specific context. Some mathematicians have extrapolated this viewpoint that mathematical beauty is truth further, in some cases becoming mysticism.
+
+In Plato's philosophy there were two worlds, the physical one in which we live and another abstract world which contained unchanging truth, including mathematics. He believed that the physical world was a mere reflection of the more perfect abstract world.
+
+Hungary|Hungarian mathematician Paul Erdős<ref>cite book | author=Schechter, Bruce | title=My brain is open: The mathematical journeys of Paul Erdős | publisher=Simon & Schuster | location=New York | year=2000 | pages=70–71 | isbn = 0-684-85980-7</ref> spoke of an imaginary book, in which God has written down all the most beautiful mathematical proofs. When Erdős wanted to express particular appreciation of a proof, he would exclaim "This one's from The Book!"
+
+Twentieth-century French philosopher Alain Badiou claims that ontology is mathematics. Badiou also believes in deep connections between mathematics, poetry and philosophy.
+
+In some cases, natural philosophers and other scientists who have made extensive use of mathematics have made leaps of inference between beauty and physical truth in ways that turned out to be erroneous. For example, at one stage in his life, Johannes Kepler believed that the proportions of the orbits of the then-known planets in the Solar System have been arranged by God to correspond to a concentric arrangement of the five Platonic solids, each orbit lying on the Circumscribed sphere|circumsphere of one polyhedron and the Inscribed sphere|insphere of another. As there are exactly five Platonic solids, Kepler's hypothesis could only accommodate six planetary orbits and was disproved by the subsequent discovery of Uranus.
+
+Beauty and mathematical information theory
+In the 1970s, Abraham Moles and Frieder Nake analyzed links between beauty, information processing, and information theory.<ref>A. Moles: ''Théorie de l'information et perception esthétique'', Paris, Denoël, 1973 (Information Theory and aesthetical perception)</ref><ref>F Nake (1974). Ästhetik als Informationsverarbeitung. (Aesthetics as information processing). Grundlagen und Anwendungen der Informatik im Bereich ästhetischer Produktion und Kritik. Springer, 1974, isbn|3-211-81216-4, isbn|978-3-211-81216-7</ref> In the 1990s, Jürgen Schmidhuber formulated a mathematical theory of observer-dependent subjective beauty based on algorithmic information theory: the most beautiful objects among subjectively comparable objects have short algorithmic information theory|algorithmic descriptions (i.e., Kolmogorov complexity) relative to what the observer already knows.<ref>J. Schmidhuber. Low-complexity art. Leonardo (journal)|Leonardo, Journal of the International Society for the Arts, Sciences, and Technology (Leonardo, The International Society of the Arts, Sciences and Technology|Leonardo/ISAST), 30(2):97–103, 1997. doi|10.2307/1576418. JSTOR|1576418.</ref><ref>J. Schmidhuber. Papers on the theory of beauty and low-complexity art since 1994: http://www.idsia.ch/~juergen/beauty.html</ref><ref>J. Schmidhuber. Simple Algorithmic Principles of Discovery, Subjective Beauty, Selective Attention, Curiosity & Creativity. Proc. 10th Intl. Conf. on Discovery Science (DS 2007) pp. 26–38, LNAI 4755, Springer, 2007. Also in Proc. 18th Intl. Conf. on Algorithmic Learning Theory (ALT 2007) p. 32, LNAI 4754, Springer, 2007. Joint invited lecture for DS 2007 and ALT 2007, Sendai, Japan, 2007. arXiv|0709.0674.</ref> Schmidhuber explicitly distinguishes between beautiful and interesting. The latter corresponds to the first derivative of subjectively perceived beauty:
+the observer continually tries to improve the predictability and Data compression|compressibility of the observations by discovering regularities such as repetitions and symmetries and fractal self-similarity. Whenever the observer's learning process (possibly a predictive artificial neural network) leads to improved data compression such that the observation sequence can be described by fewer bits than before, the temporary interestingness of the data corresponds to the compression progress, and is proportional to the observer's internal curiosity reward.<ref>.J. Schmidhuber. Curious model-building control systems. International Joint Conference on Neural Networks, Singapore, vol 2, 1458–1463. IEEE press, 1991</ref><ref>Schmidhuber's theory of beauty and curiosity in a German TV show: http://www.br-online.de/bayerisches-fernsehen/faszination-wissen/schoenheit--aesthetik-wahrnehmung-ID1212005092828.xml  webarchive |url=https://web.archive.org/web/20080603221058/http://www.br-online.de/bayerisches-fernsehen/faszination-wissen/schoenheit--aesthetik-wahrnehmung-ID1212005092828.xml |date=June 3, 2008 </ref>
+
+Mathematics and the arts
+ Main|Mathematics and art|Mathematics and music|Mathematics and architecture
+
+=Music=
+Examples of the use of mathematics in music include the stochastic music of Iannis Xenakis, Fibonacci number|Fibonacci in Tool (band)|Tool's Lateralus (song)|Lateralus, counterpoint of Johann Sebastian Bach, polyrhythmic structures (as in Igor Stravinsky's ''The Rite of Spring''), the Metric modulation of Elliott Carter, permutation theory in serialism beginning with Arnold Schoenberg, and application of Shepard tones in Karlheinz Stockhausen's ''Hymnen''.
+
+=Visual arts=
+File:Della Pittura Alberti perspective pillars on grid.jpg|thumb|Diagram from Leon Battista Alberti's 1435 ''Della Pittura'', with pillars in Perspective (graphical)|perspective on a grid
+
+Examples of the use of mathematics in the visual arts include applications of chaos theory and fractal geometry to digital art|computer-generated art, symmetry studies of Leonardo da Vinci, projective geometry|projective geometries in development of the Perspective (graphical)|perspective theory of Renaissance art, grid (page layout)|grids in Op art, optical geometry in the camera obscura of Giambattista della Porta, and multiple perspective in analytic cubism and futurism.
+
+The Dutch graphic designer M. C. Escher created mathematically inspired woodcuts, lithographs, and mezzotints. These feature impossible constructions, explorations of infinity, architecture, visual paradoxes and tessellations. British constructionist artist John Ernest created reliefs and paintings inspired by group theory.<ref>John Ernest's use of mathematics and especially group theory in his art works is analysed in ''John Ernest, A Mathematical Artist'' by Paul Ernest in ''Philosophy of Mathematics Education Journal'', No. 24 Dec. 2009 (Special Issue on Mathematics and Art): http://people.exeter.ac.uk/PErnest/pome24/index.htm</ref> A number of other British artists of the constructionist and systems schools also draw on mathematics models and structures as a source of inspiration, including Anthony Hill (artist)|Anthony Hill and Peter Lowe (artist)|Peter Lowe. Computer-generated art is based on mathematical algorithms.
+
+See also
+div col|colwidth=20em
+* Argument from beauty
+* Cellular automaton
+* Descriptive science
+* Fluency heuristic
+* Golden ratio
+* Mathematics and architecture
+* Neuroesthetics
+* Normative science
+* Philosophy of mathematics
+* Processing fluency theory of aesthetic pleasure
+* Pythagoreanism
+* Theory of everything
+div col end
+
+Notes
+reflist|2
+
+References
+refbegin
+* Martin Aigner|Aigner, Martin, and Günter M. Ziegler|Ziegler, Gunter M. (2003), ''Proofs from THE BOOK,'' 3rd edition, Springer-Verlag.
+* Subrahmanyan Chandrasekhar|Chandrasekhar, Subrahmanyan (1987), ''Truth and Beauty: Aesthetics and Motivations in Science,'' University of Chicago Press, Chicago, IL.
+* Jacques Hadamard|Hadamard, Jacques (1949), ''The Psychology of Invention in the Mathematical Field,'' 1st edition, Princeton University Press, Princeton, NJ. 2nd edition, 1949. Reprinted, Dover Publications, New York, NY, 1954.
+* G. H. Hardy|Hardy, G.H. (1940), ''A Mathematician's Apology'', 1st published, 1940. Reprinted, C. P. Snow (foreword), 1967. Reprinted, Cambridge University Press, Cambridge, UK, 1992.
+* Paul Hoffman (science writer)|Hoffman, Paul (1992), ''The Man Who Loved Only Numbers'', Hyperion.
+* Huntley, H.E. (1970), ''The Divine Proportion: A Study in Mathematical Beauty'', Dover Publications, New York, NY.
+* Elisha Scott Loomis|Loomis, Elisha Scott (1968), ''The Pythagorean Proposition'', The National Council of Teachers of Mathematics. Contains 365 proofs of the Pythagorean Theorem.
+* Serge Lang|Lang, Serge (1985). [https://books.google.com/books?id=U_HITkWziLwC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false ''The Beauty of Doing Mathematics: Three Public Dialogues'']. New York: Springer-Verlag. isbn|0-387-96149-6.
+* Peitgen, H.-O., and Richter, P.H. (1986), ''The Beauty of Fractals'', Springer-Verlag.
+* Rolf Reber|Reber, R., Brun, M., & Mitterndorfer, K. (2008). The use of heuristics in intuitive mathematical judgment. ''Psychonomic Bulletin & Review'', ''15'', 1174–1178. doi|10.3758/PBR.15.6.1174.
+* Strohmeier, John, and Westbrook, Peter (1999), ''Divine Harmony, The Life and Teachings of Pythagoras'', Berkeley Hills Books, Berkeley, CA.
+* Cite journal
+| last = Rota
+| first = Gian-Carlo
+| author-link = Gian-Carlo Rota
+| title = The phenomenology of mathematical beauty
+| year = 1997
+| journal = Synthese
+| volume = 111
+| issue = 2
+| pages = 171–182
+| doi = 10.1023/A:1004930722234
+| jstor = 20117626 
+| ref = harv
+| postscript = <!--None-->
+
+*Cite journal
+| last1 = Monastyrsky
+| first1 = Michael
+| title = Some Trends in Modern Mathematics and the Fields Medal
+| journal = Can. Math. Soc. Notes
+| year = 2001
+| volume = 33
+| issue = 2 and 3
+| url = http://www.fields.utoronto.ca/aboutus/FieldsMedal_Monastyrsky.pdf
+| ref = harv
+| postscript = <!--None-->
+
+refend
+
+Further reading
+*Citation | last=Cellucci | first= Carlo | title= Mathematical beauty, understanding, and discovery | journal= Foundations of Science | volume= 20 | pages= 339-355 | year= 2015 | doi= 10.1007/s10699-014-9378-7
+*Citation | last1= Zeki | first1= S. | last2=  Romaya | first2=  J. P. | last3= Benincasa | first3= D. M. T. | last4=  Atiyah | first4= M. F. | authorlink1= Semir Zeki | authorlink4=  Michael Atiyah | title= The experience of mathematical beauty and its neural correlates | journal= Frontiers in Human Neuroscience | volume= 8 | year= 2014 | doi= 10.3389/fnhum.2014.00068
+
+External links
+*[https://web.archive.org/web/20151209130947/http://raharoni.net.technion.ac.il/mathematics-poetry-and-beauty/ Mathematics, Poetry and Beauty]
+*[http://www.cut-the-knot.org/manifesto/beauty.shtml Is Mathematics Beautiful?]
+*[http://www.justinmullins.com/ Justin Mullins]
+*[http://www.the-athenaeum.org/poetry/detail.php?id=80 Edna St. Vincent Millay (poet): ''Euclid alone has looked on beauty bare'']
+*Terence Tao, [https://arxiv.org/pdf/math/0702396v1 ''What is good mathematics?'']
+*[http://mathbeauty.wordpress.com/ Mathbeauty Blog]
+*Internet Archive collection|id=aestheticappeal|name=Aesthetic Appeal
+*[http://www.nybooks.com/articles/archives/2013/dec/05/mathematical-romance/ ''A Mathematical Romance''] Jim Holt (philosopher)|Jim Holt December 5, 2013 issue of The New York Review of Books review of ''Love and Math: The Heart of Hidden Reality'' by Edward Frenkel
+
+aesthetics
+mathematical art
+
+Category:Aesthetic beauty
+Category:Elementary mathematics
+Category:Philosophy of mathematics
+Category:Mathematical terminology
+Category:Mathematics and art

@@ -1,0 +1,68 @@
+__NOTOC__
+In physics, the Bekenstein bound is an upper limit on the entropy ''S'', or information ''I'', that can be contained within a given finite region of space which has a finite amount of energy—or conversely, the maximum amount of information required to perfectly describe a given physical system down to the quantum level.<ref name="Bekenstein1981-1">Jacob D. Bekenstein, [http://www.phys.huji.ac.il/~bekenste/PRD23-287-1981.pdf "Universal upper bound on the entropy-to-energy ratio for bounded systems"], ''Physical Review|Physical Review D'', Vol. 23, No. 2, (January 15, 1981), pp. 287-298, doi|10.1103/PhysRevD.23.287, bibcode|1981PhRvD..23..287B. [https://www.webcitation.org/5pvt5c96N?url=http://www.phys.huji.ac.il/%7Ebekenste/PRD23-287-1981.pdf Mirror link].</ref> It implies that the information of a physical system, or the information necessary to perfectly describe that system, must be finite if the region of space and the energy is finite. In computer science, this implies that there is a maximum information-processing rate (Bremermann's limit) for a physical system that has a finite size and energy, and that a Turing machine with finite physical dimensions and unbounded memory is not physically possible.
+
+Upon exceeding the Bekenstein bound a storage medium would collapse into a black hole.<ref>http://www.pbs.org/wgbh/nova/blogs/physics/2014/04/is-information-fundamental/</ref>
+
+Equations
+The universal form of the bound was originally found by Jacob Bekenstein as the inequality (mathematics)|inequality<ref name="Bekenstein1981-1"/><ref name="Bekenstein2005"/><ref name="Bekenstein2008"/>
+
+:<math>S \leq \frac{2 \pi k R E}{\hbar c}</math>
+
+where ''S'' is the entropy, ''k'' is Boltzmann's constant, ''R'' is the radius of a sphere that can enclose the given system, ''E'' is the total mass–energy equivalence|mass–energy including any invariant mass|rest masses, ''ħ'' is the Planck constant#Reduced Planck constant|reduced Planck constant, and ''c'' is the speed of light. Note that while gravity plays a significant role in its enforcement, the expression for the bound does not contain the gravitational constant&nbsp;''G''.
+
+In informational terms, the bound is given by
+
+:<math>I \leq \frac{2 \pi R E}{\hbar c \ln 2}</math>
+
+where ''I'' is the information expressed in number of bits contained in the quantum states in the sphere. The Natural logarithm|ln 2 factor comes from defining the information as the logarithm to the radix|base Binary numeral system|2 of the number of quantum states.<ref name="Tipler2005b">Frank J. Tipler, [http://math.tulane.edu/~tipler/theoryofeverything.pdf "The structure of the world from pure numbers"], ''Reports on Progress in Physics'', Vol. 68, No. 4 (April 2005), pp. 897-964, doi|10.1088/0034-4885/68/4/R04, bibcode|2005RPPh...68..897T, p. 902. [https://www.webcitation.org/5nx3CxKm0?url=http://math.tulane.edu/%7Etipler/theoryofeverything.pdf Mirror link]. Also released as [https://arxiv.org/abs/0704.3276 "Feynman-Weinberg Quantum Gravity and the Extended Standard Model as a Theory of Everything"], arxiv|0704.3276, April 24, 2007, p. 8.</ref> Using mass energy equivalence, the informational limit may be reformulated as
+
+:<math>I \leq \frac{2 \pi c R m}{\hbar \ln 2} \approx 2.5769082\times 10^{43} m R</math>
+
+where <math>m</math> is the mass of the system in kilograms, and the radius <math>R</math> is expressed in meters.
+
+Origins
+Bekenstein derived the bound from heuristic arguments involving black holes. If a system exists that violates the bound, i.e., by having too much entropy, Bekenstein argued that it would be possible to violate the second law of thermodynamics by lowering it into a black hole. In 1995, Theodore Jacobson|Ted Jacobson demonstrated that the Einstein field equations (i.e., general relativity) can be derived by assuming that the Bekenstein bound and the laws of thermodynamics are true.<ref name="Jacobson1995">Theodore Jacobson|Ted Jacobson, "Thermodynamics of Spacetime: The Einstein Equation of State", ''Physical Review Letters'', Vol. 75, Issue 7 (August 14, 1995), pp. 1260-1263, doi|10.1103/PhysRevLett.75.1260, bibcode|1995PhRvL..75.1260J. Also at arxiv|gr-qc/9504004, April 4, 1995. Also available [http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.54.6675 here] and [http://www.math.ohio-state.edu/~gerlach/jacobson/jacobson.ps here]. Additionally available as [http://www.gravityresearchfoundation.org/pdf/awarded/1995/jacobson.pdf an entry] in the Gravity Research Foundation's 1995 essay competition. [https://www.webcitation.org/5pw2xrwBb?url=http://www.gravityresearchfoundation.org/pdf/awarded/1995/jacobson.pdf Mirror link].</ref><ref name="Smolin2002">Lee Smolin, ''Three Roads to Quantum Gravity'' (New York, N.Y.: Basic Books, 2002), pp. 173 and 175, ISBN|0-465-07836-2, LCCN|2007310371.</ref> However, while a number of arguments have been devised which show that some form of the bound must exist in order for the laws of thermodynamics and general relativity to be mutually consistent, the precise formulation of the bound has been a matter of debate.<ref name="Bekenstein2005">Jacob D. Bekenstein, "How Does the Entropy/Information Bound Work?", ''Foundations of Physics'', Vol. 35, No. 11 (November 2005), pp. 1805-1823, doi|10.1007/s10701-005-7350-7, bibcode|2005FoPh...35.1805B. Also at arxiv|quant-ph/0404042, April 7, 2004.</ref><ref name="Bekenstein2008">Jacob D. Bekenstein, [http://www.scholarpedia.org/wiki/index.php?title=Bekenstein_bound&oldid=50791 "Bekenstein bound"], ''Scholarpedia'', Vol. 3, No. 10 (October 31, 2008), p. 7374, doi|10.4249/scholarpedia.7374.</ref><ref name="Bousso1999-6">Raphael Bousso, "Holography in general space-times", ''Journal of High Energy Physics'', Vol. 1999, Issue 6 (June 1999), Art. No. 28, 24 pages, doi|10.1088/1126-6708/1999/06/028, bibcode|1999JHEP...06..028B. [https://www.webcitation.org/5pyuEsv6m?url=http://iopscience.iop.org/1126-6708/1999/06/028/pdf/1126-6708_1999_06_028.pdf Mirror link]. Also at arxiv|hep-th/9906022, June 3, 1999.</ref><ref name="Bousso1999-7">Raphael Bousso, "A covariant entropy conjecture", ''Journal of High Energy Physics'', Vol. 1999, Issue 7 (July 1999), Art. No. 4, 34 pages, doi|10.1088/1126-6708/1999/07/004, bibcode|1999JHEP...07..004B. [https://www.webcitation.org/5pyuO4nVn?url=http://iopscience.iop.org/1126-6708/1999/07/004/pdf/1126-6708_1999_07_004.pdf Mirror link]. Also at arxiv|hep-th/9905177, May 24, 1999.</ref><ref name="Bousso2000">Raphael Bousso, "The holographic principle for general backgrounds", ''Classical and Quantum Gravity'', Vol. 17, No. 5 (March 7, 2000), pp. 997-1005, doi|10.1088/0264-9381/17/5/309, bibcode|2000CQGra..17..997B. Also at arxiv|hep-th/9911002, November 2, 1999.</ref><ref name="Bekenstein2000">Jacob D. Bekenstein, "Holographic bound from second law of thermodynamics", ''Physics Letters|Physics Letters B'', Vol. 481, Issues 2-4 (May 25, 2000), pp. 339-345, doi|10.1016/S0370-2693(00)00450-0, bibcode|2000PhLB..481..339B. Also at arxiv|hep-th/0003058, March 8, 2000.</ref><ref name="Bousso2002">Raphael Bousso, [http://bib.tiera.ru/DVD-005/Bousso_R._The_holographic_principle_(2002)(en)(50s).pdf "The holographic principle"], ''Reviews of Modern Physics'', Vol. 74, No. 3 (July 2002), pp. 825-874, doi|10.1103/RevModPhys.74.825, bibcode|2002RvMP...74..825B. [https://www.webcitation.org/5pw1VZbGO?url=http://bib.tiera.ru/DVD-005/Bousso_R._The_holographic_principle_%282002%29%28en%29%2850s%29.pdf Mirror link]. Also at arxiv|hep-th/0203101, March 12, 2002.</ref><ref name="Bekenstein2003">Jacob D. Bekenstein, [http://www.phys.huji.ac.il/~bekenste/Holographic_Univ.pdf "Information in the Holographic Universe: Theoretical results about black holes suggest that the universe could be like a gigantic hologram"], ''Scientific American'', Vol. 289, No. 2 (August 2003), pp. 58-65. [https://www.webcitation.org/5pvxM7hws?url=http://www.phys.huji.ac.il/%7Ebekenste/Holographic_Univ.pdf Mirror link].</ref><ref name="BoussoEtAl2003">Raphael Bousso, Éanna É. Flanagan and Donald Marolf, "Simple sufficient conditions for the generalized covariant entropy bound", Physical Review D, Vol. 68, Issue 6 (September 15, 2003), Art. No. 064001, 7 pages, doi|10.1103/PhysRevD.68.064001, bibcode|2003PhRvD..68f4001B. Also at arxiv|hep-th/0305149, May 19, 2003.</ref><ref name="Bekenstein2004">Jacob D. Bekenstein, "Black holes and information theory", ''Contemporary Physics'', Vol. 45, Issue 1 (January 2004), pp. 31-43, doi|10.1080/00107510310001632523, bibcode|2003ConPh..45...31B. Also at arxiv|quant-ph/0311049, November 9, 2003. Also at arxiv|quant-ph/0311049, November 9, 2003.</ref><ref name="Tipler2005">Frank J. Tipler, [http://math.tulane.edu/~tipler/theoryofeverything.pdf "The structure of the world from pure numbers"], ''Reports on Progress in Physics'', Vol. 68, No. 4 (April 2005), pp. 897-964, doi|10.1088/0034-4885/68/4/R04, bibcode|2005RPPh...68..897T. [https://www.webcitation.org/5nx3CxKm0?url=http://math.tulane.edu/%7Etipler/theoryofeverything.pdf Mirror link]. Also released as [https://arxiv.org/abs/0704.3276 "Feynman-Weinberg Quantum Gravity and the Extended Standard Model as a Theory of Everything"], arxiv|0704.3276, April 24, 2007. Tipler gives a number of arguments for maintaining that Bekenstein's original formulation of the bound is the correct form. See in particular the paragraph beginning with "A few points ..." on p. 903 of the ''Rep. Prog. Phys.'' paper (or p. 9 of the ''arXiv'' version), and the discussions on the Bekenstein bound that follow throughout the paper.</ref>
+
+Examples
+=Black holes=
+It happens that the Black_hole_thermodynamics#Black_hole_entropy|Bekenstein-Hawking Boundary Entropy of three-dimensional black holes exactly saturates the bound
+
+:<math>r_s = \frac{2 G M}{c^2}</math>
+:<math>A = 4 \pi r_s^2 = \frac{16 \pi G^2 M^2}{c^4}</math>
+:<math>l_P^2 = \hbar G/c^3</math>
+:<math>S =\frac{kA}{4 l_P^2} = \frac{4 \pi k G M^2}{\hbar c}</math>
+
+where <math>k</math> is Boltzmann's constant, ''A'' is the two-dimensional area of the black hole's event horizon in units of the Planck area, <math>l_P^2 = \hbar G/c^3</math>.
+
+The bound is closely associated with black hole thermodynamics, the holographic principle and the covariant entropy bound of quantum gravity, and can be derived from a conjectured strong form of the latter.
+
+=Human brain=
+An average human brain has a mass of 1.5&nbsp;kg and a volume of 1260&nbsp;cmsup|3. If the brain is approximated by a sphere, then Sphere#Volume_of_a_sphere|the radius will be 6.7 cm.
+
+The informational Bekenstein bound will be <math>\approx 2.6 \times 10^{42}</math> bits and represents the maximum information needed to perfectly recreate an average human brain down to the quantum level. This means that the number <math>O=2^I</math> of quantum state|states of the human brain must be less than <math>\approx 10^{7.8 \times 10^{41</math>.
+
+See also
+Div col|colwidth=25em
+* Margolus–Levitin theorem
+* Landauer's principle
+* Kolmogorov complexity
+* Black hole thermodynamics#Beyond black holes|Beyond black holes
+* Boltzmann brain
+* Digital physics
+* Limits to computation
+* Chandrasekhar limit
+Div col end
+
+References
+reflist
+
+External links
+* Jacob D. Bekenstein, [http://www.scholarpedia.org/article/Bekenstein_bound "Bekenstein bound"], ''Scholarpedia'', Vol. 3, No. 10 (2008), p.&nbsp;7374, doi|10.4249/scholarpedia.7374.
+* Jacob D. Bekenstein, [http://www.scholarpedia.org/article/Bekenstein-Hawking_entropy "Bekenstein-Hawking entropy"], ''Scholarpedia'', Vol. 3, No. 10 (2008), p.&nbsp;7375, doi|10.4249/scholarpedia.7375.
+* [http://www.phys.huji.ac.il/~bekenste/ Jacob D. Bekenstein's website] at the Racah Institute of Physics, Hebrew University of Jerusalem, which contains a number of articles on the Bekenstein bound.
+
+DEFAULTSORT:Bekenstein Bound
+
+Category:Limits of computation
+Category:Thermodynamic entropy
+Category:Quantum information science

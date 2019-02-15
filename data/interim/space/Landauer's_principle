@@ -1,0 +1,71 @@
+Use mdy dates|date=November 2014<!-- Landauer born in Germany, can go with DMY-->
+Distinguish|Landau principle
+Landauer's principle is a Principle#Principle as scientific law|physical principle pertaining to the lower Theoretical physics|theoretical limit of Energy conservation|energy consumption of computation. It holds that "any logically irreversible manipulation of Information#As a property in physics|information, such as the erasure of a bit or the merging of two computation paths, must be accompanied by a corresponding entropy increase in non-information-bearing Degrees of freedom (physics and chemistry)|degrees of freedom of the information-processing apparatus or its environment".<ref name = bennett>Citation |arxiv=physics/0210005 |title=Notes on Landauer's principle, Reversible Computation and Maxwell's Demon |authorlink=Charles H. Bennett (computer scientist) |author=Charles H. Bennett |journal=Studies in History and Philosophy of Modern Physics |volume=34 |issue=3 |pages=501–510 |year=2003 |url=http://www.cs.princeton.edu/courses/archive/fall06/cos576/papers/bennett03.pdf |accessdate=2015-02-18 |doi=10.1016/S1355-2198(03)00039-X|bibcode=2003SHPMP..34..501B </ref>
+
+Another way of phrasing Landauer's principle is that if an observer loses information about a physical system, the observer loses the ability to extract work from that system.
+
+A so-called logically-reversible computation, in which no information is erased, may in principle be carried out without releasing any heat.  This has led to considerable interest in the study of reversible computing. Indeed, without reversible computing, increases in the number of computations-per-joule-of-energy-dissipated must come to a halt by about 2050: because the limit implied by Landauer's principle will be reached by then, according to Koomey's law. 
+
+At 20&nbsp;°C (room temperature, or 293.15&nbsp;K), the Landauer limit represents an energy of approximately 0.0172&nbsp;electron volt|eV, or 2.75&nbsp;zeptojoule|zJ. Theoretically, roomnbhyphtemperature computer memory operating at the Landauer limit could be changed at a rate of one billion bits per second with energy being converted to heat in the memory media at the rate of only 2.85 trillionths of a watt (that is, at a rate of only 2.85 pJ/s).  Modern computers use millions of times as much energy per second.<ref>cite web|url=http://tikalon.com/blog/blog.php?article=2011/Landauer |title=Tikalon Blog by Dev Gualtieri |publisher=Tikalon.com |date= |accessdate=May 5, 2013</ref><ref>cite web|url=http://www.bloomweb.com/nanomagnet-memories-approach-low-power-limit/ |title=Nanomagnet memories approach low-power limit &#124; bloomfield knoble |publisher=Bloomweb.com |date= |accessdate=May 5, 2013</ref><ref>cite web|url=http://spectrum.ieee.org/computing/hardware/landauer-limit-demonstrated |title=Landauer Limit Demonstrated - IEEE Spectrum |publisher=Spectrum.ieee.org |date= |accessdate=May 5, 2013</ref>
+
+History
+Rolf Landauer first proposed the principle in 1961 while working at IBM.<ref name="landauer">Citation |author=Rolf Landauer |url=http://worrydream.com/refs/Landauer%20-%20Irreversibility%20and%20Heat%20Generation%20in%20the%20Computing%20Process.pdf |title=Irreversibility and heat generation in the computing process |journal=IBM Journal of Research and Development |volume=5 |issue=3 |pages=183–191 |year=1961 |accessdate=2015-02-18 |doi=10.1147/rd.53.0183 </ref> He rigorously justified and stated important limits to an earlier conjecture by John von Neumann. For this reason, it is sometimes referred to as being simply the Landauer bound or Landauer limit.
+
+In 2011, the principle was generalized to show that while information erasure requires an increase in entropy, that increase could theoretically occur at no energy cost<ref name="vaccaro">Citation |author1=Joan Vaccaro |author2=Stephen Barnett |title=Information Erasure Without an Energy Cost |journal=Proc. R. Soc. A |date=June 8, 2011 |volume=467 |issue=2130 |pages=1770–1778 |doi=10.1098/rspa.2010.0577 |url=http://rspa.royalsocietypublishing.org/content/royprsa/early/2011/01/07/rspa.2010.0577.full.pdf |arxiv=1004.5330|bibcode = 2011RSPSA.467.1770V </ref>. Instead, the cost can be taken in another Conservation law (physics)|conserved quantity, such as  angular momentum.
+
+In a 2012 article published in Nature (journal)|''Nature'', a team of physicists from the École normale supérieure de Lyon, University of Augsburg and the University of Kaiserslautern described that for the first time they have measured the tiny amount of heat released when an individual bit of data is erased.<ref name="berut">Citation |author1=Antoine Bérut |author2=Artak Arakelyan |author3=Artyom Petrosyan |author4=Sergio Ciliberto |author5=Raoul Dillenschneider |author6=Eric Lutz |doi=10.1038/nature10872 |title=Experimental verification of Landauer’s principle linking information and thermodynamics |journal=Nature |volume=483 |issue=7388 |pages=187–190 |date=8 March 2012 |url=http://www.physik.uni-kl.de/eggert/papers/raoul.pdf|bibcode = 2012Natur.483..187B |pmid=22398556|arxiv=1503.06537 </ref>
+
+In 2014, physical experiments tested Landauer's principle and confirmed its predictions.<ref name="jun">Citation |author1=Yonggun Jun |author2=Momčilo Gavrilov |author3=John Bechhoefer |url=http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.190601 |title=High-Precision Test of Landauer's Principle in a Feedback Trap |journal=Phys. Rev. Lett.|Physical Review Letters |volume=113 |issue=19 |page=190601 |date=4 November 2014 |doi=10.1103/PhysRevLett.113.190601 |arxiv=1408.5089 |bibcode = 2014PhRvL.113s0601J </ref>
+
+In 2016, researchers used a laser probe to measure the amount of energy dissipation that resulted when a nanomagnetic bit flipped from off to on. Flipping the bit required 15 millielectron volts (3 zeptojoules).<ref>Cite journal|last = Hong|first = Jeongmin|last2 = Lambson|first2 = Brian|last3 = Dhuey|first3 = Scott|last4 = Bokor|first4 = Jeffrey|date = 2016-03-01|title = Experimental test of Landauer’s principle in single-bit operations on nanomagnetic memory bits|url = http://advances.sciencemag.org/content/2/3/e1501492|journal = Science Advances|language = en|volume = 2|issue = 3|pages = e1501492|doi = 10.1126/sciadv.1501492|issn = 2375-2548|pmc = 4795654|bibcode = 2016SciA....2E1492H|pmid=26998519</ref>
+
+A 2018 article published in Nature Physics (journal)|''Nature Physics'' features a Landauer erasure performed at cryogenic temperatures (T = 1K) on an array of high-spin (S = 10) quantum molecular magnets. The array is made to act as a spin register where each nanomagnet encodes a single bit of information.<ref name="Gaudenzi"></ref> The experiment has laid the foundations for the extension of the validity of the Landauer principle to the quantum realm. Owing to the fast dynamics and low "inertia" of the single spins used in the experiment, the researchers also showed how an erasure operation can be carried out at the lowest possible thermodynamic cost — that imposed by the Landauer principle — and at a high speed.<ref name="Gaudenzi">Citation |author1=Rocco Gaudenzi |author2=Enrique Burzuri |author3=Satoru Maegawa |author4=Herre van der Zant |author5=Fernando Luis |doi=10.1038/s41567-018-0070-7 |title=Quantum Landauer erasure with a molecular nanomagnet |journal= Nature Physics |volume=14 |pages= 565–568 |date=19 March 2018 |url=https://doi.org/10.1038/s41567-018-0070-7</ref>     
+
+Rationale
+Landauer's principle can be understood to be a simple logical consequence of the second law of thermodynamics—which states that the entropy of an isolated system cannot decrease—together with the definition of thermodynamic temperature. For, if the number of possible logical states of a computation were to decrease as the computation proceeded forward (logical irreversibility), this would constitute a forbidden decrease of entropy, unless the number of possible physical states corresponding to each logical state were to simultaneously increase by at least a compensating amount, so that the total number of possible physical states was no smaller than it was originally (i.e. total entropy has not decreased).
+
+Yet, an increase in the number of physical states corresponding to each logical state means that, for an observer who is keeping track of the logical state of the system but not the physical state (for example an "observer" consisting of the computer itself), the number of possible physical states has increased; in other words, entropy has increased from the point of view of this observer.
+
+The maximum entropy of a bounded physical system is finite. (If the holographic principle is correct, then physical systems with finite surface area have a finite maximum entropy; but regardless of the truth of the holographic principle, quantum field theory dictates that the entropy of systems with finite radius and energy is finite due to the Bekenstein bound.) To avoid reaching this maximum over the course of an extended computation, entropy must eventually be expelled to an outside environment.
+
+Equation
+Landauer's principle asserts that there is a minimum possible amount of energy required to erase one bit of information, known as the ''Landauer limit'':
+
+:math|''kT'' ln&#8239;2,
+where ''k'' is the Boltzmann constant (approximately 1.38×10<sup>−23</sup> J/K), ''T'' is the temperature of the heat sink in kelvins, and ln&#8239;2 is the natural logarithm of 2 (approximately 0.69315).
+
+For an environment at temperature ''T'', energy ''E'' = ''ST'' must be emitted into that environment if the amount of added entropy is ''S''. For a computational operation in which 1 bit of logical information is lost, the amount of entropy generated is at least ''k'' ln&#8239;2, and so, the energy that must eventually be emitted to the environment is ''E'' ≥ ''kT'' ln&#8239;2.
+
+Challenges
+The principle is widely accepted as physical law, but in recent years it has been challenged for using circular reasoning and faulty assumptions, notably in Earman and Norton (1998), and subsequently in Shenker (2000)<ref name="shenker">[http://philsci-archive.pitt.edu/archive/00000115/ Logic and Entropy] Critique by Orly Shenker (2000)</ref> and Norton (2004,<ref name="norton">[http://philsci-archive.pitt.edu/archive/00001729/ Eaters of the Lotus] Critique by John Norton (2004)</ref> 2011<ref name="norton2">[http://www.pitt.edu/~jdnorton/papers/Waiting_SHPMP.pdf Waiting for Landauer] Response by Norton (2011)</ref>), and defended by Bennett (2003)<ref name="bennett" /> and Ladyman et al. (2007).<ref name="short">[http://philsci-archive.pitt.edu/archive/00002689/ The Connection between Logical and Thermodynamic Irreversibility] Defense by Ladyman et al. (2007)</ref>
+
+See also
+* Margolus–Levitin theorem
+* Bremermann's limit
+* Bekenstein bound
+* Kolmogorov complexity
+* Entropy in thermodynamics and information theory
+* Information theory
+* Jarzynski equality
+* Limits to computation
+* Extended mind thesis
+
+References
+reflist
+
+Further reading
+*citation| author1-first= Mikhail | author1-last= Prokopenko | author2-first=Joseph T. | author2-last= Lizier | title= Transfer entropy and transient limits of computation | journal= Scientific Reports | date= 2014 | volume=4  | doi= 10.1038/srep05394| bibcode= 2014NatSR...4E5394P 
+
+External links
+* [http://www.ece.tamu.edu/~noise/HotPI_2013/HotPI_2013.html Public debate on the validity of Landauer's principle (conference Hot Topics in Physical Informatics, November 12, 2013)]
+* [http://strangepaths.com/reversible-computation/2008/01/20/en/ Introductory article on Landauer's principle and reversible computing]
+* Maroney, O.J.E. "[http://plato.stanford.edu/entries/information-entropy/  Information Processing and Thermodynamic Entropy]" The Stanford Encyclopedia of Philosophy.
+* Eurekalert.org: [http://www.eurekalert.org/pub_releases/2011-07/uoc--mma063011.php "Magnetic memory and logic could achieve ultimate energy efficiency"], July 1, 2011
+
+Authority control
+
+Category:Thermodynamic entropy
+Category:Entropy and information
+Category:Philosophy of thermal and statistical physics
+Category:Principles
+Category:Limits of computation

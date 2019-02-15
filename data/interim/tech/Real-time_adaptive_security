@@ -1,0 +1,19 @@
+Use dmy dates|date=August 2013
+Real-time Adaptive Security is the network security model necessary to accommodate the emergence of multiple perimeters and moving parts on the network, and increasingly advanced threats targeting enterprises. Adaptive security can watch a network for malicious traffic and behavioral anomalies, ferret out end point vulnerabilities, identify real-time changes to systems, automatically enforce end point protections and access rules, block malicious traffic, follow a compliance dashboard while providing audit data, and more. <ref>cite web|url=https://www.sans.org/webcasts/show.php?webcastid=91853 |title=Special Webcast: Real-Time Adaptive Security: Proactively Mitigating Risks |accessdate=6 January 2009</ref>
+
+Among the key features of an adaptive security infrastructure are security platforms that share and correlate information rather than point solutions, so the heuristics system could communicate its suspicions to the firewall. Other features include finer-grained controls, automation (in addition to human intervention), on-demand security services, security as a service, and integration of security and management data. Rather than adding security to custom applications after they go operational, security models would be created at the design phase of an app.
+
+A major change with this model of real-time adaptive security is shifting authorization management and policy to an on-demand service that contains details and policy enforcement that matches compliance and can adapt to the user’s situation when he or she is trying to access an application, for instance.<ref>cite web|url=http://www.darkreading.com/security/perimeter/showArticle.jhtml?articleID=211201107|title=Gartner Details Real-Time 'Adaptive' Security Infrastructure|accessdate=6 January 2009</ref>
+
+See also
+*Intrusion-detection system
+*Network intrusion detection system
+*Sourcefire
+*IBM Internet Security Systems
+
+References
+reflist
+
+External links
+Category:Computer network security
+Category:System administration

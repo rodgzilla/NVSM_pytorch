@@ -1,0 +1,86 @@
+More footnotes|date=February 2008
+
+Information assurance (IA) is the practice of assuring information and managing risks related to the use, processing, storage, and transmission of information or data and the systems and processes used for those purposes. Information assurance includes protection of the integrity, availability, authenticity, non-repudiation and confidentiality of user data.<ref>Cite journal|last=Sosin|first=Artur|date=2018|title=HOW TO INCREASE THE INFORMATION ASSURANCE IN THE INFORMATION AGE|url=http://www.jodrm.eu/issues/volume9_issue1/05_Sosin.pdf|journal=Journal of Defense Resources Management|volume=9|pages=45-57|via=</ref> It uses physical, technical, and administrative controls to accomplish these tasks. While focused predominantly on information in digital form, the full range of IA encompasses not only digital, but also analog or physical form. These protections apply to data in transit, both physical and electronic forms, as well as data at rest in various types of physical and electronic storage facilities. 
+Information assurance as a field has grown from the practice of information security.
+
+Overview
+
+Information assurance (IA) is the process of getting the right information to the right people at the right time. IA benefits business through the use of information risk management, trust management, resilience, appropriate architecture, system safety, and security, which increases the utility of information to authorized users and reduces the utility of information to those unauthorized.<ref name="Bridging the air gap">cite web|last1=Richardson|first1=Christopher|title=Bridging the air gap: an information assurance perspective|url=http://eprints.soton.ac.uk/355926/1/Richardson.pdf|website=ePrints Soton|publisher=University of Southampton|accessdate=3 November 2015|ref=bridging_air_gap</ref> It is strongly related to the field of information security, and also with business continuity. IA relates more to the business level and strategy|strategic risk management of information and related systems, rather than the creation and application of security controls. Therefore, in addition to defending against malicious Hacker (computer security)|hackers and code (e.g., viruses), IA practitioners consider corporate governance issues such as privacy, regulatory and standards Regulatory compliance|compliance, audits|auditing, Business continuity planning|business continuity, and disaster recovery as they relate to information systems. Further, while information security draws primarily from computer science, IA is an interdisciplinary field requiring expertise in business, accounting, user experience, fraud examination, forensic science, management science, systems engineering, security engineering, and criminology, in addition to computer science. Therefore, IA is best thought of as a superset of information security (i.e. umbrella term), and as the business outcome of Information Risk Management.
+
+Information assurance is also the term used by governments, including the government of the United Kingdom, for the provision of holistic security to information systems.  In this use of the term, the interdisciplinary approach set out above is somewhat lessened in that, while security/ systems engineering, business continuity/ enterprise resilience, forensic investigation and threat analysis is considered, management science, accounting and criminology is not considered in developing mitigation to the risks developed in the risk assessments conducted.  HMG Information Assurance Standard 1&2, which has replaced HMG Information Security Standard 2, sets out the principles and requirements of risk management in accordance with the above principles and is one of the Information Assurance Standards currently used within the UK public sector.
+
+Process
+
+The information assurance process typically begins with the enumeration and classification of the information asset (computing)|assets to be protected. Next, the IA practitioner will perform a risk assessment for those assets. Vulnerabilities in the information assets are determined in order to enumerate the threats capable of exploiting the assets. The assessment then considers both the probability and impact of a threat exploiting a vulnerability in an asset, with impact usually measured in terms of cost to the asset's stakeholders. The sum of the products of the threats' impact and the probability of their occurring is the total risk to the information asset.
+
+With the risk assessment complete, the IA practitioner then develops a Risk Management Plan|risk management plan. This plan proposes countermeasures that involve mitigating, eliminating, accepting, or transferring the risks, and considers prevention, detection, and response to threats. A framework published by a standards organization, such as Risk IT, CobiT, PCI DSS or ISO/IEC 27002, may guide development. Countermeasure (computer)|Countermeasures may include technical tools such as Firewall (computing)|firewalls and anti-virus software, policies and procedures requiring such controls as regular backups and configuration hardening, employee training in security awareness, or organizing personnel into dedicated computer emergency response team (CERT) or computer security incident response team (CSIRT).  The cost and benefit of each countermeasure is carefully considered. Thus, the IA practitioner does not seek to eliminate all risks, were that possible, but to manage them in the most cost-effective way.
+
+After the risk management plan is implemented, it is tested and evaluated, often by means of formal audits. The IA process is an iterative one, in that the risk assessment and risk management plan are meant to be periodically revised and improved based on data gathered about their completeness and effectiveness.
+
+ Standards organizations and standards 
+main article|IT risk#Standards Organizations and Standards
+There are a number of international and national bodies that issue standards on information assurance practices, policies, and procedures. In the UK, these include the Information Assurance Advisory Council and the Information Assurance Collaboration Group.
+
+ See also 
+Portal|Computer Security|Business_and_economics
+refbegin|4
+* Asset (computing)
+* Countermeasure (computer)
+* Factor Analysis of Information Risk
+* Fair information practice
+* Information Assurance Vulnerability Alert
+* Information security
+* ISO/IEC 27001
+* ISO 9001
+* ISO 17799
+* IT risk
+* McCumber cube
+* Mission assurance
+* Risk
+* Risk IT
+* Risk Management Framework
+* Security controls
+* Threat (computer)|Threat
+* Vulnerability (computing)|Vulnerability
+refend
+
+References
+
+;Notes
+Reflist
+
+;Bibliography
+refbegin
+* Data Encryption; Scientists at Chang Gung University Target Data Encryption. (2011, May). Information Technology Newsweekly,149.  Retrieved October 30, 2011, from ProQuest Computing. (Document ID: 2350804731).
+* cite journal | last1 = Stephenson | first1 =  | year = 2010 | title = Authentication: A pillar of information assurance | url = | journal = SC Magazine | volume = 21 | issue = 1| page = 55 
+* cite journal | last1 = Cummings | first1 = Roger | year = 2002 | title = The Evolution of Information Assurance | url = http://www-csag.ucsd.edu/projects/Optiputer/papers/IEEE200212_Information%20assurance.pdf | format = PDF | journal = Computer | volume = 35 | issue = 12| pages = 65–72 | doi = 10.1109/MC.2002.1106181 
+
+ External links 
+
+= Documentation=
+*[http://www.cabinetoffice.gov.uk/csia/ia_review UK Government]
+**[http://www.cpni.gov.uk/documents/publications/2005/2005003-risk_management.pdf HMG INFOSEC STANDARD NO. 2] Risk management and accreditation of information systems (2005)
+*[http://www.albany.edu/acc/courses/ia/classics IA References]
+*[http://www.ism3.com/index.php?option=com_docman&task=doc_download&gid=5&Itemid=9 Information Assurance XML Schema Markup Language]
+* [http://www.dtic.mil/whs/directives/corres/pdf/850001_2014.pdf DoD Directive 8500.01] Information Assurance
+* [http://iac.dtic.mil/iatac/ia_policychart.html DoD IA Policy Chart] DoD IA Policy Chart
+* [http://iaarchive.fi Archive of Information Assurance] Archive of Information Assurance
+
+Information assurance has also evolved due to social media
+
+<!--
+ COMPUSEC 
+*AFMAN 33-223, Identification and Authentication (Soon to be AFSSI 8520)
+*AFI 33-202, Vol 6, Identity Management (Soon to be AFSSI 8520)
+*(Biometrics) (Soon to be AFSSI 8521)
+*AFI 33-202, Vol 1, Chapter 5, Access to Information Systems (Soon to be AFSSI 8522)
+*AFI 33-202, Vol 1, Para 3.11, Cross-Domain Solutions (CDS) (Soon to be AFSSI 8540)
+*AFI 33-202, Vol 1, Para 4.2, Network Security (Soon to be AFSSI 8550)
+*AFI 33-137, Ports, Protocols, and Services (PPS) Management (Soon to be AFSSI 8551)
+*AFI 33-230, Information Assurance Assessment and Assistance Program (Soon to be AFSSI 8560)
+*AFI 33-219, Section C, Notice and Consent Procedures (Soon to be AFSSI 8561)
+*AFSSI 8580, Remanence Security
+-->
+
+Category:Computer security
+Category:IT risk management
