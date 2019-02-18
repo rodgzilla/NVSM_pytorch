@@ -41,9 +41,15 @@ def main():
     )
     print('N-grams number', len(n_grams))
     k_values              = [1, 3, 5]
-    train_data, eval_data = create_pytorch_datasets(n_grams, document_ids)
+    (train_data,
+     eval_data,
+     eval_train_data)     = create_pytorch_datasets(n_grams, document_ids)
+    print('Train dataset size', len(train_data))
+    print('Eval dataset size', len(eval_data))
+    print('Eval (training) dataset size', len(eval_train_data))
     train_loader          = DataLoader(train_data, batch_size = 51200, shuffle = True)
     eval_loader           = DataLoader(eval_data, batch_size = 51200, shuffle = False)
+    eval_train_loader     = DataLoader(eval_train_data, batch_size = 51200, shuffle = False)
     device                = torch.device('cuda')
     lamb                  = 1e-3 # regularization weight in the loss
     nvsm                  = NVSM(
@@ -51,7 +57,7 @@ def main():
         n_tok             = len(stoi),
         dim_doc_emb       = 5,
         dim_tok_emb       = 10,
-        neg_sampling_rate = 4,
+        neg_sampling_rate = 10,
         pad_token_id      = stoi['<PAD>']
     ).to(device)
     optimizer             = optim.Adam(nvsm.parameters(), lr = 1e-3)
@@ -60,9 +66,9 @@ def main():
         nvsm          = nvsm,
         device        = device,
         optimizer     = optimizer,
-        epochs        = 5,
+        epochs        = 20,
         train_loader  = train_loader,
-        eval_loader   = eval_loader,
+        eval_loader   = eval_train_loader,
         k_values      = k_values,
         loss_function = loss_function,
         lamb          = lamb,
