@@ -55,6 +55,8 @@ def main():
     nvsm                  = NVSM(
         n_doc             = len(doc_names),
         n_tok             = len(stoi),
+        # dim_doc_emb       = 20,
+        # dim_tok_emb       = 30,
         dim_doc_emb       = 5,
         dim_tok_emb       = 10,
         neg_sampling_rate = 10,

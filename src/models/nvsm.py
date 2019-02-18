@@ -1,3 +1,5 @@
+import pdb
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -117,6 +119,7 @@ class NVSM(nn.Module):
         constrastive examples. This method corresponds to the 'P^~' function in the
         article.
         '''
+        # pdb.set_trace()
         # Positive term, this should be maximized as it indicates how similar the
         # correct document is to the query
         pos_repr = self.representation_similarity(query, document)
@@ -135,7 +138,8 @@ class NVSM(nn.Module):
 
         # Probability computation
         positive_term = torch.log(pos_repr)
-        negative_term = torch.log(1 - neg_repr).sum(dim = 1)
+        # -inf comes from this line as neg_repr has 0 values.
+        negative_term = torch.log(1 - neg_repr + 1e-40).sum(dim = 1)
         proba         = ((z + 1) / (2 * z)) * (z * positive_term + negative_term)
 
         return proba
@@ -147,5 +151,6 @@ def loss_function(nvsm, pred, lamb):
                   sum_square(nvsm.doc_emb) + \
                   sum_square(nvsm.tok_to_doc)
     loss        = -output_term + (lamb / (2 * pred.shape[0])) * reg_term
+    loss        = -output_term
 
     return loss
