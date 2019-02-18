@@ -13,7 +13,7 @@ def tokenize(text):
     Takes a string as input and returns a list of tokens. This function
     utilizes the tokenizer algorithm from the english spacy package.
     '''
-    return [tok.text for tok in spacy_en.tokenizer(text)]
+    return [tok.text for tok in spacy_en.tokenizer(text) if not tok.is_stop]
 
 def load_docs(filepaths):
     '''
