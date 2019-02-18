@@ -1,53 +1,13 @@
-import spacy
-
-from tqdm import tqdm
+import os
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../features')))
 
 import torch
 from torch.utils.data import TensorDataset
 from torch.utils.data import random_split
 from torch.utils.data import DataLoader
 
-spacy_en = spacy.load('en')
-
-def tokenize(text):
-    '''
-    Takes a string as input and returns a list of tokens. This function
-    utilizes the tokenizer algorithm from the english spacy package.
-    '''
-    return [tok.text for tok in spacy_en.tokenizer(text)]
-
-def load_docs(filepaths):
-    '''
-    Opens and load the content of a list of files.
-    '''
-    documents = []
-    for filepath in tqdm(filepaths, desc = 'Loading doc content'):
-        with open(filepath) as file:
-            documents.append(file.read().strip().lower())
-
-    return documents
-
-def tokenize_docs(documents):
-    '''
-    Tokenises a list of documents.
-    '''
-    tokenized_documents = [tokenize(doc) for doc in tqdm(documents, desc = 'Tokenizing documents')]
-
-    return tokenized_documents
-
-def create_vocabulary(tokenized_documents):
-    '''
-    Creates the set of words presents in the document and the
-    two dictionaries stoi (token to voc index) and itos (voc index to
-    token).
-    '''
-    vocabulary    = {token for doc in tokenized_documents for token in doc}
-    stoi          = {token : i + 2 for i, token in enumerate(vocabulary)}
-    stoi['<PAD>'] = 0
-    stoi['<UNK>'] = 1
-    itos          = {i : token for token, i in stoi.items()}
-
-    return vocabulary, stoi, itos
+from tokenize_documents import tokenize
 
 def create_dataset(tok_docs, stoi, n):
     '''
@@ -56,8 +16,9 @@ def create_dataset(tok_docs, stoi, n):
     '''
     n_grams      = []
     document_ids = []
+    unk_tok_id   = stoi['<UNK>']
     for i, doc in enumerate(tok_docs):
-        doc_tok_ids = [stoi[tok] for tok in doc]
+        doc_tok_ids = [stoi.get(tok, unk_tok_id) for tok in doc]
         for n_gram in [doc_tok_ids[i : i + n] for i in range(len(doc) - n)]:
             n_grams.append(n_gram)
             document_ids.append(i)

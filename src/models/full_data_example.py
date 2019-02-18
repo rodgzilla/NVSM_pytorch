@@ -1,43 +1,60 @@
+import pdb
+
+from pathlib import Path
+import pickle
+
 import torch
 from torch.utils.data import DataLoader
 import torch.optim as optim
 
-from utils import tokenize, load_docs, tokenize_docs, create_vocabulary, \
-                  create_dataset, create_pytorch_datasets, create_query_dataset, \
+from utils import create_dataset, create_pytorch_datasets, create_query_dataset, \
                   evaluate_queries
 from train_model import train
 
 from nvsm import NVSM, loss_function
 
-from glob import glob
-from pathlib import Path
+def load_data(model_folder, data_folder):
+    with open(model_folder / 'vocabulary.pkl', 'rb') as voc_file:
+        voc = pickle.load(voc_file)
+    with open(model_folder / 'stoi.pkl', 'rb') as stoi_file:
+        stoi = pickle.load(stoi_file)
+    with open(model_folder / 'itos.pkl', 'rb') as itos_file:
+        itos = pickle.load(itos_file)
+    with open(data_folder / 'tokenized_docs.pkl', 'rb') as tok_docs_file:
+        docs = pickle.load(tok_docs_file)
+
+    return voc, stoi, itos, docs
 
 def main():
-    # filepaths             = map(Path, glob('../../data/raw/**', recursive = True)[:20])
-    filepaths             = map(Path, glob('../../data/interim/**', recursive = True))
-    filepaths             = list(filter(lambda fn: fn.is_file(), filepaths))
-    documents             = load_docs(filepaths)
-    tokenized_documents   = tokenize_docs(documents)
-    voc, stoi, itos       = create_vocabulary(tokenized_documents)
+    voc, stoi, itos, docs = load_data(
+        Path('../../models'),
+        Path('../../data/processed')
+    )
+    docs                  = docs[:50]
+    doc_names             = [doc['name'] for doc in docs]
     print('Vocabulary size', len(voc))
-    n_grams, document_ids = create_dataset(tokenized_documents, stoi, 10)
+    n_grams, document_ids = create_dataset(
+        tok_docs = [doc['tokens'] for doc in docs],
+        stoi     = stoi,
+        n        = 10
+    )
     print('dataset size', len(n_grams))
+    # pdb.set_trace()
     train_data, val_data  = create_pytorch_datasets(n_grams, document_ids)
-    train_loader          = DataLoader(train_data, batch_size = 1000, shuffle = True)
+    train_loader          = DataLoader(train_data, batch_size = 51200, shuffle = True)
     device                = torch.device('cuda')
     lamb                  = 1e-3 # regularization weight in the loss
     nvsm                  = NVSM(
-        n_doc             = len(tokenized_documents),
+        n_doc             = len(doc_names),
         n_tok             = len(stoi),
-        dim_doc_emb       = 20,
-        dim_tok_emb       = 30,
+        dim_doc_emb       = 5,
+        dim_tok_emb       = 10,
         neg_sampling_rate = 4,
         pad_token_id      = stoi['<PAD>']
     ).to(device)
     optimizer             = optim.Adam(nvsm.parameters(), lr = 1e-3)
     # train(nvsm, device, optimizer, 50, train_loader, loss_function, lamb, 3)
-    train(nvsm, device, optimizer, 1, train_loader, loss_function, lamb, 3)
-    doc_names             = [path.name for path in filepaths]
+    train(nvsm, device, optimizer, 10, train_loader, loss_function, lamb, 3)
     queries_text          = [
         'violence king louis decapitated',
         'domain language translate',

@@ -4,6 +4,7 @@ import spacy
 from pathlib import Path
 from tqdm import tqdm
 from glob import glob
+from collections import Counter
 
 spacy_en = spacy.load('en')
 
@@ -33,34 +34,21 @@ def tokenize_docs(documents):
 
     return tokenized_documents
 
-def create_vocabulary(tokenized_documents):
+def create_vocabulary(tokenized_documents, max_voc_size = 60000):
     '''
     Creates the set of words presents in the document and the
     two dictionaries stoi (token to voc index) and itos (voc index to
     token).
     '''
-    vocabulary    = {token for doc in tokenized_documents for token in doc}
+    word_counter  = Counter(token for doc in tokenized_documents for token in doc)
+    vocabulary    = {token for token, _ in word_counter.most_common()[:max_voc_size]}
+    # vocabulary    = {token for doc in tokenized_documents for token in doc}
     stoi          = {token : i + 2 for i, token in enumerate(vocabulary)}
     stoi['<PAD>'] = 0
     stoi['<UNK>'] = 1
     itos          = {i : token for token, i in stoi.items()}
 
     return vocabulary, stoi, itos
-
-def create_features_2(source_folder, model_folder, dest_data_folder):
-    filepaths           = map(Path, glob(source_folder, recursive = True)[:5])
-    filepaths           = list(filter(lambda fn: fn.is_file(), filepaths))
-    documents           = load_docs(filepaths)
-    tokenized_documents = tokenize_docs(documents)
-    voc, stoi, itos     = create_vocabulary(tokenized_documents)
-    with open(model_folder / 'vocabulary.pkl', 'wb') as voc_file:
-        pickle.dump(voc, voc_file)
-    with open(model_folder / 'stoi.pkl', 'wb') as stoi_file:
-        pickle.dump(stoi, stoi_file)
-    with open(model_folder / 'itos.pkl', 'wb') as itos_file:
-        pickle.dump(itos, itos_file)
-    # with open('../../data/processed/', 'wb') as itos_file:
-    #     pickle.dump(itos, itos_file)
 
 def create_features(source_folder, model_folder, dest_data_folder):
     '''
