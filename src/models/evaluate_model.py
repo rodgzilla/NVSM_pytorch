@@ -6,7 +6,11 @@ import numpy as np
 def _extract_numpy_doc_embs(nvsm):
     return nvsm.doc_emb.weight.detach().cpu().numpy()
 
-def evaluate(nvsm, device, eval_loader, recalls, loss_function, lamb):
+def print_eval(k_values, recall_at_ks):
+    s = [f'@{k}: {recall_at_k * 100:5.2f}%' for k, recall_at_k in zip(k_values, recall_at_ks)]
+    print('recall', ', '.join(s))
+
+def evaluate(nvsm, device, eval_loader, recalls, loss_function):
     doc_embs = _extract_numpy_doc_embs(nvsm)
     nn_docs  = NearestNeighbors(n_neighbors = max(recalls), metric = 'cosine')
     nn_docs.fit(doc_embs)

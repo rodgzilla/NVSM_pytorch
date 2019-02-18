@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader
 from utils          import create_dataset, create_pytorch_datasets, create_query_dataset, \
                            evaluate_queries
 from train_model    import train
-from evaluate_model import evaluate
+from evaluate_model import evaluate, print_eval
 
 from nvsm import NVSM, loss_function
 
@@ -26,10 +26,6 @@ def load_data(model_folder, data_folder):
 
     return voc, stoi, itos, docs
 
-def print_eval(k_values, recall_at_ks):
-    s = [f'@{k}: {recall_at_k * 100:5.2f}%' for k, recall_at_k in zip(k_values, recall_at_ks)]
-    print('recall', ', '.join(s))
-
 def main():
     voc, stoi, itos, docs = load_data(
         Path('../../models'),
@@ -44,7 +40,7 @@ def main():
         n        = 10
     )
     print('dataset size', len(n_grams))
-    # pdb.set_trace()
+    k_values              = [1, 3, 5]
     train_data, eval_data = create_pytorch_datasets(n_grams, document_ids)
     train_loader          = DataLoader(train_data, batch_size = 51200, shuffle = True)
     eval_loader           = DataLoader(eval_data, batch_size = 51200, shuffle = False)
@@ -60,7 +56,18 @@ def main():
     ).to(device)
     optimizer             = optim.Adam(nvsm.parameters(), lr = 1e-3)
     # train(nvsm, device, optimizer, 50, train_loader, loss_function, lamb, 3)
-    train(nvsm, device, optimizer, 1, train_loader, loss_function, lamb, 3)
+    train(
+        nvsm          = nvsm,
+        device        = device,
+        optimizer     = optimizer,
+        epochs        = 1,
+        train_loader  = train_loader,
+        eval_loader   = eval_loader,
+        k_values      = k_values,
+        loss_function = loss_function,
+        lamb          = lamb,
+        print_every   = 3
+    )
     queries_text          = [
         'violence king louis decapitated',
         'domain language translate',
@@ -79,14 +86,12 @@ def main():
         'graph, dimension and components',
         'inner product vertex'
     ]
-    k_values     = [1, 3, 5]
     recall_at_ks = evaluate(
         nvsm          = nvsm,
         device        = device,
         eval_loader   = eval_loader,
         recalls       = k_values,
         loss_function = loss_function,
-        lamb          = lamb
     )
     print_eval(k_values, recall_at_ks)
     # for k, recall_at_k in zip(k_values, recall_at_ks):
