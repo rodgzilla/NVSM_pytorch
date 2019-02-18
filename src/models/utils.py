@@ -3,9 +3,7 @@ import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../features')))
 
 import torch
-from torch.utils.data import TensorDataset
-from torch.utils.data import random_split
-from torch.utils.data import DataLoader
+from torch.utils.data import TensorDataset, random_split, DataLoader, Subset
 
 from tokenize_documents import tokenize
 
@@ -25,19 +23,24 @@ def create_dataset(tok_docs, stoi, n):
 
     return n_grams, document_ids
 
-def create_pytorch_datasets(n_grams, doc_ids, val_prop = 0.2):
+def create_pytorch_datasets(n_grams, doc_ids, val_prop = 0.2, val_prop_train = 0.02):
     '''
     Creates and splits the pytorch dataset corresponding to the n_grams and
-    doc_ids.
+    doc_ids. This function creates 3 pytorch Datasets: a training dataset, a
+    validation dataset and a small subset of the validation dataset used to
+    quickly print metrics during training.
     '''
-    n_grams_tensor = torch.tensor(n_grams)
-    doc_ids_tensor = torch.tensor(doc_ids)
-    full_dataset   = TensorDataset(n_grams_tensor, doc_ids_tensor)
-    total_size     = len(full_dataset)
-    val_size       = round(total_size * val_prop)
-    train, val     = random_split(full_dataset, [total_size - val_size, val_size])
+    n_grams_tensor    = torch.tensor(n_grams)
+    doc_ids_tensor    = torch.tensor(doc_ids)
+    full_dataset      = TensorDataset(n_grams_tensor, doc_ids_tensor)
+    total_size        = len(full_dataset)
+    val_size          = round(total_size * val_prop)
+    train, val        = random_split(full_dataset, [total_size - val_size, val_size])
+    val_train_size    = round(val_size * val_prop_train)
+    val_train_indices = torch.randperm(val_size)[:val_train_size]
+    val_train         = Subset(val, val_train_indices)
 
-    return train, val
+    return train, val, val_train
 
 def create_query_dataset(queries, stoi):
     '''
