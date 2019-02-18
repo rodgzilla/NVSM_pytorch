@@ -31,7 +31,7 @@ def main():
         Path('../../models'),
         Path('../../data/processed')
     )
-    docs                  = docs[:50]
+    # docs                  = docs[:50]
     doc_names             = [doc['name'] for doc in docs]
     print('Vocabulary size', len(voc))
     n_grams, document_ids = create_dataset(
@@ -39,7 +39,7 @@ def main():
         stoi     = stoi,
         n        = 10
     )
-    print('dataset size', len(n_grams))
+    print('N-grams number', len(n_grams))
     k_values              = [1, 3, 5]
     train_data, eval_data = create_pytorch_datasets(n_grams, document_ids)
     train_loader          = DataLoader(train_data, batch_size = 51200, shuffle = True)
@@ -60,13 +60,13 @@ def main():
         nvsm          = nvsm,
         device        = device,
         optimizer     = optimizer,
-        epochs        = 1,
+        epochs        = 5,
         train_loader  = train_loader,
         eval_loader   = eval_loader,
         k_values      = k_values,
         loss_function = loss_function,
         lamb          = lamb,
-        print_every   = 3
+        print_every   = 50
     )
     queries_text          = [
         'violence king louis decapitated',
