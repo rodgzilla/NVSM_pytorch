@@ -138,8 +138,10 @@ class NVSM(nn.Module):
 
         # Probability computation
         positive_term = torch.log(pos_repr)
-        # -inf comes from this line as neg_repr has 0 values.
+        # -inf used to come from this line as neg_repr has 0 values. Adding
+        # a an epsilon prevent torch.log to be applied on 0 input.
         negative_term = torch.log(1 - neg_repr + 1e-40).sum(dim = 1)
+        # negative_term = torch.log(1 - neg_repr).sum(dim = 1)
         proba         = ((z + 1) / (2 * z)) * (z * positive_term + negative_term)
 
         return proba
