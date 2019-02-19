@@ -31,7 +31,7 @@ def main():
         Path('../../models'),
         Path('../../data/processed')
     )
-    # docs                  = docs[:50]
+    # docs                  = docs[:100]
     doc_names             = [doc['name'] for doc in docs]
     print('Vocabulary size', len(voc))
     n_grams, document_ids = create_dataset(
@@ -40,7 +40,7 @@ def main():
         n        = 10
     )
     print('N-grams number', len(n_grams))
-    k_values              = [1, 3, 5]
+    k_values              = [1, 3, 5, 10]
     (train_data,
      eval_data,
      eval_train_data)     = create_pytorch_datasets(n_grams, document_ids)
@@ -55,20 +55,17 @@ def main():
     nvsm                  = NVSM(
         n_doc             = len(doc_names),
         n_tok             = len(stoi),
-        # dim_doc_emb       = 20,
-        # dim_tok_emb       = 30,
-        dim_doc_emb       = 5,
-        dim_tok_emb       = 10,
+        dim_doc_emb       = 20,
+        dim_tok_emb       = 30,
         neg_sampling_rate = 10,
         pad_token_id      = stoi['<PAD>']
     ).to(device)
     optimizer             = optim.Adam(nvsm.parameters(), lr = 1e-3)
-    # train(nvsm, device, optimizer, 50, train_loader, loss_function, lamb, 3)
     train(
         nvsm          = nvsm,
         device        = device,
         optimizer     = optimizer,
-        epochs        = 20,
+        epochs        = 50,
         train_loader  = train_loader,
         eval_loader   = eval_train_loader,
         k_values      = k_values,
@@ -102,9 +99,6 @@ def main():
         loss_function = loss_function,
     )
     print_eval(k_values, recall_at_ks)
-    # for k, recall_at_k in zip(k_values, recall_at_ks):
-    #     print(f'{k}: {recall_at_k * 100:5.2f}%')
-    # batch_size            = 32
     # evaluation_results    = evaluate_queries(
     #     nvsm,
     #     queries_text,
