@@ -18,6 +18,8 @@ def create_dataset(tok_docs, stoi, n):
     for i, doc in enumerate(tok_docs):
         doc_tok_ids = [stoi.get(tok, unk_tok_id) for tok in doc]
         for n_gram in [doc_tok_ids[i : i + n] for i in range(len(doc) - n)]:
+            if all(tok == unk_tok_id for tok in n_gram):
+                continue
             n_grams.append(n_gram)
             document_ids.append(i)
 
