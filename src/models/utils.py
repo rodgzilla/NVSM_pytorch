@@ -1,3 +1,6 @@
+import pdb
+
+import pickle
 import os
 import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../features')))
@@ -63,6 +66,7 @@ def evaluate_queries(nvsm, queries_text, doc_names, stoi, batch_size, device):
     '''
     Run a list of queries on the model.
     '''
+    # pdb.set_trace()
     query_dataset    = create_query_dataset(queries_text, stoi)
     test_loader      = DataLoader(query_dataset, batch_size = batch_size)
     results          = []
@@ -74,3 +78,15 @@ def evaluate_queries(nvsm, queries_text, doc_names, stoi, batch_size, device):
         results.extend(list(result.argmax(dim = 1).cpu().numpy()))
 
     return results
+
+def load_data(model_folder, data_folder):
+    with open(model_folder / 'vocabulary.pkl', 'rb') as voc_file:
+        voc = pickle.load(voc_file)
+    with open(model_folder / 'stoi.pkl', 'rb') as stoi_file:
+        stoi = pickle.load(stoi_file)
+    with open(model_folder / 'itos.pkl', 'rb') as itos_file:
+        itos = pickle.load(itos_file)
+    with open(data_folder / 'tokenized_docs.pkl', 'rb') as tok_docs_file:
+        docs = pickle.load(tok_docs_file)
+
+    return voc, stoi, itos, docs
