@@ -6,9 +6,11 @@ import numpy as np
 def _extract_numpy_doc_embs(nvsm):
     return nvsm.doc_emb.weight.detach().cpu().numpy()
 
-def print_eval(k_values, recall_at_ks):
+def generate_eval(k_values, recall_at_ks):
     s = [f'@{k}: {recall_at_k * 100:5.2f}%' for k, recall_at_k in zip(k_values, recall_at_ks)]
-    print('recall', ', '.join(s))
+    recall_values = ' '.join(s)
+
+    return f'R {recall_values}'
 
 def evaluate(nvsm, device, eval_loader, recalls, loss_function):
     doc_embs = _extract_numpy_doc_embs(nvsm)
