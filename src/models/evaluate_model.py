@@ -4,15 +4,28 @@ from sklearn.neighbors import NearestNeighbors
 import numpy as np
 
 def _extract_numpy_doc_embs(nvsm):
+    '''
+    Extract the document embedding from the PyTorch module in order
+    to feed them to sklearn.neighbors.NearestNeighbors.
+    '''
     return nvsm.doc_emb.weight.detach().cpu().numpy()
 
 def generate_eval(k_values, recall_at_ks):
+    '''
+    Generates a string summarizing the various recall@k metrics. It is
+    used as a logging function during the training of the model.
+    '''
     s = [f'@{k}: {recall_at_k * 100:5.2f}%' for k, recall_at_k in zip(k_values, recall_at_ks)]
     recall_values = ' '.join(s)
 
     return f'R {recall_values}'
 
 def evaluate(nvsm, device, eval_loader, recalls, loss_function):
+    '''
+    Evaluates the model by computing various recall@k on the validation set.
+    The nearest neighbor search is done by a sklearn model and is computed
+    using cosine distance.
+    '''
     doc_embs = _extract_numpy_doc_embs(nvsm)
     nn_docs  = NearestNeighbors(n_neighbors = max(recalls), metric = 'cosine')
     nn_docs.fit(doc_embs)
