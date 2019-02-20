@@ -12,6 +12,7 @@ class NVSM(nn.Module):
         self.tok_emb           = nn.Embedding(n_tok, embedding_dim = dim_tok_emb)
         self.tok_to_doc        = nn.Linear(dim_tok_emb, dim_doc_emb)
         self.bias              = nn.Parameter(torch.Tensor(dim_doc_emb))
+        self.batchnorm         = nn.BatchNorm1d(dim_doc_emb)
         self.neg_sampling_rate = neg_sampling_rate
         self.pad_token_id      = pad_token_id
 
@@ -70,15 +71,15 @@ class NVSM(nn.Module):
 
         return projection
 
-    def _custom_batchnorm(self, batch):
-        '''
-        Computes the variant of the batch normalization formula used in this article.
-        It only uses a bias and no weights.
-        '''
-        batch_feat_norm = (batch - batch.mean(dim = 0)) / batch.std(dim = 0)
-        batch_feat_norm = batch_feat_norm + self.bias
+    # def _custom_batchnorm(self, batch):
+    #     '''
+    #     Computes the variant of the batch normalization formula used in this article.
+    #     It only uses a bias and no weights.
+    #     '''
+    #     batch_feat_norm = (batch - batch.mean(dim = 0)) / batch.std(dim = 0)
+    #     batch_feat_norm = batch_feat_norm + self.bias
 
-        return batch_feat_norm
+    #     return batch_feat_norm
 
     def stand_projection(self, batch):
         '''
@@ -87,7 +88,8 @@ class NVSM(nn.Module):
         article.
         '''
         non_stand_proj = self.non_stand_projection(batch)
-        bn             = self._custom_batchnorm(non_stand_proj)
+        bn             = self.batchnorm(non_stand_proj)
+        # bn             = self._custom_batchnorm(non_stand_proj)
         activation     = F.hardtanh(bn)
 
         return activation
