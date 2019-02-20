@@ -34,4 +34,4 @@ def train(nvsm, device, optimizer, epochs, train_loader, eval_loader,
                 )
                 nvsm.train()
                 model_eval = generate_eval(k_values, recall_at_ks)
-                print(f'  [{epoch}, {i:5d}]: {loss:5.4f} || {model_eval}')
+                print(f'  [{epoch:3}, {i:5d}]: {loss:5.4f} || {model_eval}')
