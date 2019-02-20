@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader
 from utils          import create_dataset, create_pytorch_datasets, create_query_dataset, \
                            evaluate_queries, load_data
 from train_model    import train
-from evaluate_model import evaluate, print_eval
+from evaluate_model import evaluate, generate_eval
 
 from nvsm import NVSM, loss_function
 
@@ -17,13 +17,12 @@ def main():
     model_folder          = Path('../../models')
     data_folder           = Path('../../data/processed')
     model_path            = model_folder / 'nvsm_30_20_10.pt'
-    # batch_size            = 51200
     batch_size            = 1000
     voc, stoi, itos, docs = load_data(
         model_folder,
         data_folder
     )
-    # docs                  = docs[:23] # temp
+    docs                  = docs[:30] # temp
     doc_names             = [doc['name'] for doc in docs]
     print('Vocabulary size', len(voc))
     n_grams, document_ids = create_dataset(
@@ -49,6 +48,8 @@ def main():
         n_tok             = len(stoi),
         dim_doc_emb       = 20,
         dim_tok_emb       = 30,
+        # dim_doc_emb       = 200,
+        # dim_tok_emb       = 300,
         neg_sampling_rate = 10,
         pad_token_id      = stoi['<PAD>']
     ).to(device)
@@ -64,7 +65,7 @@ def main():
         k_values      = k_values,
         loss_function = loss_function,
         lamb          = lamb,
-        print_every   = 50
+        print_every   = 500
     )
     torch.save(nvsm.state_dict(), model_path)
     nvsm.eval()
@@ -75,7 +76,8 @@ def main():
         recalls       = k_values,
         loss_function = loss_function,
     )
-    print_eval(k_values, recall_at_ks)
+    print(generate_eval(k_values, recall_at_ks))
+    # print_eval(k_values, recall_at_ks)
     queries_text          = [
         'violence king louis decapitated',
         'domain language translate',

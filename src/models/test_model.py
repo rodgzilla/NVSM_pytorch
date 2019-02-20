@@ -19,7 +19,7 @@ def load_model_and_data(model_path,
         model_folder,
         data_folder
     )
-    # docs = docs[:23] # temp
+    docs = docs[:30] # temp
     doc_names             = [doc['name'] for doc in docs]
     nvsm = NVSM(
         n_doc             = len(doc_names),
