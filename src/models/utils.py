@@ -64,7 +64,7 @@ def create_query_dataset(queries, stoi):
 
 def evaluate_queries(nvsm, queries_text, doc_names, stoi, batch_size, device):
     '''
-    Run a list of queries on the model.
+    Runs a list of queries on the model.
     '''
     # pdb.set_trace()
     query_dataset    = create_query_dataset(queries_text, stoi)
@@ -80,6 +80,10 @@ def evaluate_queries(nvsm, queries_text, doc_names, stoi, batch_size, device):
     return results
 
 def load_data(model_folder, data_folder):
+    '''
+    Loads the vocabulary, both vocabulary/token matchings and the
+    tokenized document list.
+    '''
     with open(model_folder / 'vocabulary.pkl', 'rb') as voc_file:
         voc = pickle.load(voc_file)
     with open(model_folder / 'stoi.pkl', 'rb') as stoi_file:

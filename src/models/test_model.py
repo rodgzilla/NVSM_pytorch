@@ -15,6 +15,10 @@ def load_model_and_data(model_path,
                         device,
                         model_folder = Path('../../models'),
                         data_folder = Path('../../data/processed')):
+    '''
+    Loads model, token to vocabulary index dictionary and list of
+    document names.
+    '''
     voc, stoi, itos, docs = load_data(
         model_folder,
         data_folder
@@ -34,6 +38,11 @@ def load_model_and_data(model_path,
     return stoi, doc_names, nvsm
 
 def query_loop(nvsm, stoi, device, doc_names, n):
+    '''
+    Infinitely prompts the user for a query, finds the n documents of
+    the dataset whose embeddings are the closest and prints their
+    names.
+    '''
     document_indices = torch.arange(len(doc_names)).view(1, -1)
     document_indices = document_indices.to(device)
     unk_tok_idx      = stoi['<UNK>']

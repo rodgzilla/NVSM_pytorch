@@ -1,5 +1,3 @@
-import pdb
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -71,16 +69,6 @@ class NVSM(nn.Module):
 
         return projection
 
-    # def _custom_batchnorm(self, batch):
-    #     '''
-    #     Computes the variant of the batch normalization formula used in this article.
-    #     It only uses a bias and no weights.
-    #     '''
-    #     batch_feat_norm = (batch - batch.mean(dim = 0)) / batch.std(dim = 0)
-    #     batch_feat_norm = batch_feat_norm + self.bias
-
-    #     return batch_feat_norm
-
     def stand_projection(self, batch):
         '''
         Computes the standard projection of a n-gram into document vector space with
@@ -89,7 +77,6 @@ class NVSM(nn.Module):
         '''
         non_stand_proj = self.non_stand_projection(batch)
         bn             = self.batchnorm(non_stand_proj)
-        # bn             = self._custom_batchnorm(non_stand_proj)
         activation     = F.hardtanh(bn)
 
         return activation
@@ -121,7 +108,6 @@ class NVSM(nn.Module):
         constrastive examples. This method corresponds to the 'P^~' function in the
         article.
         '''
-        # pdb.set_trace()
         # Positive term, this should be maximized as it indicates how similar the
         # correct document is to the query
         pos_repr = self.representation_similarity(query, document)
@@ -149,6 +135,9 @@ class NVSM(nn.Module):
         return proba
 
 def loss_function(nvsm, pred, lamb):
+    '''
+    Computes the loss according to the formula (8) in the article.
+    '''
     output_term = pred.mean()
     sum_square  = lambda m: (m.weight * m.weight).sum()
     reg_term    = sum_square(nvsm.tok_emb) + \
