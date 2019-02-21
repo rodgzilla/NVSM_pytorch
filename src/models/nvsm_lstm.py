@@ -1,35 +1,83 @@
+import pdb
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-class NVSM(nn.Module):
+class QueryEncoder(nn.Module):
+    def __init__(self, n_layer, n_token, dim_tok_emb, n_hidden, dim_doc_emb, dropout):
+        super(QueryEncoder, self).__init__()
+        self.drop          = nn.Dropout(dropout)
+        self.emb_layer     = nn.Embedding(n_token, dim_tok_emb)
+        self.lstm          = nn.LSTM(dim_tok_emb, n_hidden, n_layer)
+        self.hidden_to_doc = nn.Linear(n_hidden, dim_doc_emb)
+        self.n_layer       = n_layer
+        self.n_hidden      = n_hidden
+
+    def init_hidden(self, batch_size):
+        return (
+            self.hidden_to_doc.weight.new_zeros(
+                self.n_layer,
+                batch_size,
+                self.n_hidden
+            ),
+            self.hidden_to_doc.weight.new_zeros(
+                self.n_layer,
+                batch_size,
+                self.n_hidden
+            )
+        )
+
+    def forward(self, query, hidden):
+        emb              = self.emb_layer(query)
+        emb              = self.drop(emb)
+        emb              = torch.transpose(emb, 0, 1)
+        # pdb.set_trace()
+        out_lstm, hidden = self.lstm(emb, hidden)
+        out_lstm         = out_lstm[-1] # only consider the encoding of the final token
+        out_lstm         = self.drop(out_lstm)
+        query_emb        = self.hidden_to_doc(out_lstm)
+
+        return query_emb
+
+class LstmNvsm(nn.Module):
     def __init__(self, n_doc, n_tok, dim_doc_emb, dim_tok_emb, neg_sampling_rate,
-                 pad_token_id):
-        super(NVSM, self).__init__()
+                 pad_token_id, n_layer, n_hidden, dropout):
+        super(LstmNvsm, self).__init__()
         self.doc_emb           = nn.Embedding(n_doc, embedding_dim = dim_doc_emb)
-        self.tok_emb           = nn.Embedding(n_tok, embedding_dim = dim_tok_emb)
-        self.tok_to_doc        = nn.Linear(dim_tok_emb, dim_doc_emb) # to replace by a LSTM
-        self.bias              = nn.Parameter(torch.Tensor(dim_doc_emb))
+        self.query_encoder     = QueryEncoder(
+            n_layer     = n_layer,
+            n_token     = n_tok,
+            dim_tok_emb = dim_tok_emb,
+            n_hidden    = n_hidden,
+            dim_doc_emb = dim_doc_emb,
+            dropout     = dropout
+        )
         self.batchnorm         = nn.BatchNorm1d(dim_doc_emb)
         self.neg_sampling_rate = neg_sampling_rate
         self.pad_token_id      = pad_token_id
 
-    def query_to_tensor(self, query):
-        '''
-        Computes the average of the word embeddings of the query. This method
-        corresponds to the function 'g' in the article.
-        '''
-        # Create a mask to ignore padding embeddings
-        query_mask    = (query != self.pad_token_id).float()
-        # Compute the number of tokens in each query to properly compute the
-        # average
-        tok_by_input  = query_mask.sum(dim = 1)
-        query_tok_emb = self.tok_emb(query)
-        query_tok_emb = query_tok_emb * query_mask.unsqueeze(-1)
-        # Compute the average of the embeddings
-        query_emb     = query_tok_emb.sum(dim = 1) / tok_by_input.unsqueeze(-1)
+    # def query_to_tensor(self, query):
+    #     '''
+    #     Computes the average of the word embeddings of the query. This method
+    #     corresponds to the function 'g' in the article.
+    #     '''
+    #     # Create a mask to ignore padding embeddings
+    #     query_mask    = (query != self.pad_token_id).float()
+    #     # Compute the number of tokens in each query to properly compute the
+    #     # average
+    #     tok_by_input  = query_mask.sum(dim = 1)
+    #     query_tok_emb = self.tok_emb(query)
+    #     query_tok_emb = query_tok_emb * query_mask.unsqueeze(-1)
+    #     # Compute the average of the embeddings
+    #     query_emb     = query_tok_emb.sum(dim = 1) / tok_by_input.unsqueeze(-1)
 
-        return query_emb
+    #     return query_emb
+
+    def query_to_tensor(self, query):
+        hidden = self.query_encoder.init_hidden(query.shape[0])
+
+        return self.query_encoder(query, hidden)
 
     def normalize_query_tensor(self, query_tensor):
         '''
@@ -68,6 +116,15 @@ class NVSM(nn.Module):
         projection         = self.query_to_doc_space(norm_n_gram_tensor)
 
         return projection
+
+    def non_stand_projection(self, n_gram):
+        '''
+        Computes the non-standard projection of a n-gram into the document vector
+        space. This method corresponds to the function 'T^~' in the article.
+        '''
+        n_gram_tensor      = self.query_to_tensor(n_gram)
+
+        return n_gram_tensor
 
     def stand_projection(self, batch):
         '''
@@ -140,10 +197,10 @@ def loss_function(nvsm, pred, lamb):
     '''
     output_term = pred.mean()
     sum_square  = lambda m: (m.weight * m.weight).sum()
-    reg_term    = sum_square(nvsm.tok_emb) + \
-                  sum_square(nvsm.doc_emb) + \
-                  sum_square(nvsm.tok_to_doc)
-    loss        = -output_term + (lamb / (2 * pred.shape[0])) * reg_term
+    # reg_term    = sum_square(nvsm.tok_emb) + \
+    #               sum_square(nvsm.doc_emb) + \
+    #               sum_square(nvsm.tok_to_doc)
+    # loss        = -output_term + (lamb / (2 * pred.shape[0])) * reg_term
     loss        = -output_term
 
     return loss

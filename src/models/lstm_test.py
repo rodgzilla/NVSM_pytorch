@@ -16,12 +16,12 @@ inputs = torch.randn(
 )
 target = torch.randint(7, (50,))
 hn = torch.randn(
-    1, # lstm layers (3) * num directions (1)
+    1, # lstm layers (1) * num directions (1)
     50, # batch size
     7  # output dim
 )
 cn = torch.randn(
-    1, # lstm layers (3) * num directions (1)
+    1, # lstm layers (1) * num directions (1)
     50, # batch size
     7  # output dim
 )
