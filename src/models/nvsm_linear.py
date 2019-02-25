@@ -81,6 +81,5 @@ def loss_function(nvsm, pred, lamb):
                   sum_square(nvsm.doc_emb) + \
                   sum_square(nvsm.tok_to_doc)
     loss        = -output_term + (lamb / (2 * pred.shape[0])) * reg_term
-    loss        = -output_term
 
     return loss
