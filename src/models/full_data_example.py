@@ -1,5 +1,3 @@
-import pdb
-
 from pathlib import Path
 
 import torch
@@ -47,8 +45,6 @@ def main():
         n_tok             = len(stoi),
         dim_doc_emb       = 20,
         dim_tok_emb       = 30,
-        # dim_doc_emb       = 200,
-        # dim_tok_emb       = 300,
         neg_sampling_rate = 10,
         pad_token_id      = stoi['<PAD>']
     ).to(device)
@@ -57,8 +53,7 @@ def main():
         nvsm          = nvsm,
         device        = device,
         optimizer     = optimizer,
-        # epochs        = 50,
-        epochs        = 80,
+        epochs        = 120,
         train_loader  = train_loader,
         eval_loader   = eval_train_loader,
         k_values      = k_values,
@@ -76,7 +71,6 @@ def main():
         loss_function = loss_function,
     )
     print(generate_eval(k_values, recall_at_ks))
-    # print_eval(k_values, recall_at_ks)
     queries_text          = [
         'violence king louis decapitated',
         'domain language translate',

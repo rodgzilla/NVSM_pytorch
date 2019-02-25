@@ -41,7 +41,7 @@ class QueryEncoder(nn.Module):
 
 class NVSMLSTM(NVSM):
     def __init__(self, n_doc, n_tok, dim_doc_emb, dim_tok_emb, neg_sampling_rate,
-                 pad_token_id, n_layer, n_hidden, dropout):
+                 n_layer, n_hidden, dropout):
         super(NVSMLSTM, self).__init__(n_doc, dim_doc_emb, neg_sampling_rate)
         self.query_encoder     = QueryEncoder(
             n_layer     = n_layer,
