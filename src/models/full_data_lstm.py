@@ -1,5 +1,3 @@
-import pdb
-
 from pathlib import Path
 
 import torch
@@ -11,7 +9,7 @@ from utils          import create_dataset, create_pytorch_datasets, create_query
 from train_model    import train
 from evaluate_model import evaluate, generate_eval
 
-from nvsm_lstm import LstmNvsm, loss_function
+from nvsm_lstm import NVSMLSTM, loss_function
 
 def main():
     model_folder          = Path('../../models')
@@ -42,7 +40,7 @@ def main():
     eval_train_loader     = DataLoader(eval_train_data, batch_size = batch_size, shuffle = False)
     device                = torch.device('cuda')
     lamb                  = 1e-3 # regularization weight in the loss
-    nvsm                  = LstmNvsm(
+    nvsm                  = NVSMLSTM(
         n_doc             = len(doc_names),
         n_tok             = len(stoi),
         dim_doc_emb       = 20,
