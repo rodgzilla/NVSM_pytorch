@@ -1,5 +1,3 @@
-import pdb
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -32,7 +30,6 @@ class QueryEncoder(nn.Module):
         emb              = self.emb_layer(query)
         emb              = self.drop(emb)
         emb              = torch.transpose(emb, 0, 1)
-        # pdb.set_trace()
         out_lstm, hidden = self.lstm(emb, hidden)
         out_lstm         = out_lstm[-1] # only consider the encoding of the final token
         out_lstm         = self.drop(out_lstm)

@@ -16,7 +16,7 @@ from nvsm_lstm import LstmNvsm, loss_function
 def main():
     model_folder          = Path('../../models')
     data_folder           = Path('../../data/processed')
-    model_path            = model_folder / 'nvsm_30_20_10.pt'
+    model_path            = model_folder / 'nvsm_lstm.pt'
     batch_size            = 1000
     voc, stoi, itos, docs = load_data(
         model_folder,
@@ -49,9 +49,9 @@ def main():
         dim_tok_emb       = 30,
         neg_sampling_rate = 10,
         pad_token_id      = stoi['<PAD>'],
-        n_layer           = 1,
-        n_hidden          = 64,
-        dropout           = 0.1
+        n_layer           = 3,
+        n_hidden          = 128,
+        dropout           = 0.15
     ).to(device)
     optimizer             = optim.Adam(nvsm.parameters(), lr = 1e-3)
     train(
@@ -59,7 +59,7 @@ def main():
         device        = device,
         optimizer     = optimizer,
         # epochs        = 50,
-        epochs        = 80,
+        epochs        = 120,
         train_loader  = train_loader,
         eval_loader   = eval_train_loader,
         k_values      = k_values,
