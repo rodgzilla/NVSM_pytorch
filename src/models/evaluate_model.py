@@ -34,7 +34,7 @@ def evaluate(nvsm, device, eval_loader, recalls, loss_function):
     for i, (n_grams, doc_ids) in enumerate(eval_loader):
         total_query += n_grams.shape[0]
         n_grams      = n_grams.to(device)
-        n_gram_embs  = nvsm.stand_projection(n_grams)
+        n_gram_embs  = nvsm.query_embedding(n_grams)
         n_gram_embs  = n_gram_embs.detach().cpu().numpy()
         neighbors    = nn_docs.kneighbors(n_gram_embs, return_distance = False)
         doc_ids      = doc_ids.numpy().reshape(-1, 1)
