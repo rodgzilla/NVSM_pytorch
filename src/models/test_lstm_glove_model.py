@@ -24,7 +24,6 @@ def load_model_and_data(model_path,
         model_folder,
         data_folder
     )
-    docs = docs[:20]
 
     doc_names             = [doc['name'] for doc in docs]
     nvsm                  = NVSMLSTM(

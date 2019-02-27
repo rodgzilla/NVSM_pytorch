@@ -21,7 +21,6 @@ def main():
         model_folder,
         data_folder
     )
-    docs = docs[:20]
     doc_names             = [doc['name'] for doc in docs]
     print('Vocabulary size', len(voc))
     n_grams, document_ids = create_dataset(
@@ -57,8 +56,7 @@ def main():
         nvsm          = nvsm,
         device        = device,
         optimizer     = optimizer,
-        epochs = 1,
-        # epochs        = 120,
+        epochs        = 120,
         train_loader  = train_loader,
         eval_loader   = eval_train_loader,
         k_values      = k_values,
