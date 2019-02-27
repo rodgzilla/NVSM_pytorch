@@ -5,7 +5,7 @@ import numpy as np
 
 from utils import load_data
 
-def _load_glove_data(glove_path):
+def load_glove_data(glove_path):
     '''
     Load the word vectors that have been extracted from the glove
     files.
