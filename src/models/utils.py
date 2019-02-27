@@ -1,5 +1,3 @@
-import pdb
-
 import pickle
 import os
 import sys
@@ -66,7 +64,6 @@ def evaluate_queries(nvsm, queries_text, doc_names, stoi, batch_size, device):
     '''
     Runs a list of queries on the model.
     '''
-    # pdb.set_trace()
     query_dataset    = create_query_dataset(queries_text, stoi)
     test_loader      = DataLoader(query_dataset, batch_size = batch_size)
     results          = []
