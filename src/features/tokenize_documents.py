@@ -41,8 +41,8 @@ def create_vocabulary(tokenized_documents, max_voc_size = 60000):
     token).
     '''
     word_counter  = Counter(token for doc in tokenized_documents for token in doc)
+    # vocabulary truncation to the 'max_voc_size' most common tokens
     vocabulary    = {token for token, _ in word_counter.most_common()[:max_voc_size]}
-    # vocabulary    = {token for doc in tokenized_documents for token in doc}
     stoi          = {token : i + 2 for i, token in enumerate(vocabulary)}
     stoi['<PAD>'] = 0
     stoi['<UNK>'] = 1
