@@ -1,3 +1,5 @@
+import pdb
+
 import torch
 import torch.nn as nn
 
@@ -13,9 +15,14 @@ class QueryEncoder(nn.Module):
         self.hidden_to_doc = nn.Linear(hidden_size, dim_doc_emb)
 
     def forward(self, query):
-        segments_ids = torch.zeros_like(query)
-        bert_hidden  = self.bert(query, segments_id, output_all_encoded_layers = False)
-        query_emb    = self.hidden_to_doc(bert_hidden)
+        segments_ids             = torch.zeros_like(query)
+        enc_layer, pooled_output = self.bert(
+            query,
+            segments_ids,
+            output_all_encoded_layers = False
+        )
+        query_emb                = self.hidden_to_doc(pooled_output)
+        # pdb.set_trace()
 
         return query_emb
 
