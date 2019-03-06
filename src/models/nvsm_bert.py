@@ -14,7 +14,7 @@ class QueryEncoder(nn.Module):
         hidden_size        = self.bert.config.hidden_size
         self.hidden_to_doc = nn.Linear(hidden_size, dim_doc_emb)
 
-    def forward(self, query, attention_mask = None):
+    def forward(self, query, attention_mask):
         if attention_mask is None:
             attention_mask = torch.ones_like(query)
         segments_ids             = torch.zeros_like(query)
@@ -38,7 +38,7 @@ class NVSMBERT(NVSM):
         )
         self.batchnorm         = nn.BatchNorm1d(dim_doc_emb)
 
-    def query_embedding(self, query, attention_mask):
+    def query_embedding(self, query, attention_mask = None):
         return self.query_encoder(query, attention_mask)
 
 def loss_function(nvsm, pred, lamb):
