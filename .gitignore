@@ -1,2 +1,3 @@
 glove/
 /data/processed/tokenized_docs_bert.pkl
+/models/nvsm_bert.pt
