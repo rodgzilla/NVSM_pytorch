@@ -1,5 +1,3 @@
-import pdb
-
 import pickle
 from pathlib import Path
 
@@ -15,6 +13,7 @@ from evaluate_model import evaluate, generate_eval
 from nvsm_bert import NVSMBERT, loss_function
 
 from pytorch_pretrained_bert import BertTokenizer
+from pytorch_pretrained_bert.optimization import BertAdam, warmup_linear
 
 def load_data(data_folder, pretrained_model):
     tokenizer = BertTokenizer.from_pretrained(pretrained_model)
@@ -50,6 +49,7 @@ def main():
     data_folder           = Path('../../data/processed')
     model_path            = model_folder / 'nvsm_bert.pt'
     batch_size            = 120 # for 150, 8053 / 8113MB GPU memory, to tweak
+    epochs                = 3
     docs, tokenizer       = load_data(
         data_folder,
         pretrained_model
@@ -73,35 +73,47 @@ def main():
     eval_loader           = DataLoader(eval_data, batch_size = batch_size, shuffle = False)
     eval_train_loader     = DataLoader(eval_train_data, batch_size = batch_size, shuffle = False)
     device                = torch.device('cuda')
-    lamb                  = 1e-3 # regularization weight in the loss
+    lamb                  = 1e-3
     nvsm                  = NVSMBERT(
         pretrained_model  = pretrained_model,
         n_doc             = len(doc_names),
         dim_doc_emb       = 20,
         neg_sampling_rate = 10,
     ).to(device)
-    optimizer             = optim.Adam(nvsm.parameters(), lr = 1e-3)
-    train(
-        nvsm          = nvsm,
-        device        = device,
-        optimizer     = optimizer,
-        epochs        = 120,
-        train_loader  = train_loader,
-        eval_loader   = eval_train_loader,
-        k_values      = k_values,
-        loss_function = loss_function,
-        lamb          = lamb,
-        print_every   = 500
+    # BERT custom optimizer
+    param_optimizer = list(nvsm.named_parameters())
+    no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
+    optimizer_grouped_parameters = [
+        {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)], 'weight_decay': 0.01},
+        {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)], 'weight_decay': 0.0}
+    ]
+    optimizer = BertAdam(
+        params = optimizer_grouped_parameters,
+        lr = 5e-5,
+        warmup = 0.1,
+        t_total = len(train_loader) * epochs
     )
+    # train(
+    #     nvsm          = nvsm,
+    #     device        = device,
+    #     optimizer     = optimizer,
+    #     epochs        = epochs,
+    #     train_loader  = train_loader,
+    #     eval_loader   = eval_train_loader,
+    #     k_values      = k_values,
+    #     loss_function = loss_function,
+    #     lamb          = lamb,
+    #     print_every   = 500
+    # )
     torch.save(nvsm.state_dict(), model_path)
     nvsm.eval()
-    recall_at_ks = evaluate(
-        nvsm          = nvsm,
-        device        = device,
-        eval_loader   = eval_loader,
-        recalls       = k_values,
-        loss_function = loss_function,
-    )
+    # recall_at_ks = evaluate(
+    #     nvsm          = nvsm,
+    #     device        = device,
+    #     eval_loader   = eval_loader,
+    #     recalls       = k_values,
+    #     loss_function = loss_function,
+    # )
     print(generate_eval(k_values, recall_at_ks))
     queries_text          = [
         'violence king louis decapitated',
