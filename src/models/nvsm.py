@@ -12,7 +12,7 @@ class NVSM(ABC, nn.Module):
         self.neg_sampling_rate = neg_sampling_rate
 
     @abstractmethod
-    def query_embedding(self, query):
+    def query_embedding(self, query, **kwargs):
         pass
 
     def score(self, query, document):
@@ -26,12 +26,12 @@ class NVSM(ABC, nn.Module):
 
         return num / denum
 
-    def representation_similarity(self, query, document):
+    def representation_similarity(self, query, document, **query_kwargs):
         '''
         Computes the similarity between a query and a document. This method corresponds
         to the function 'P' in the article.
         '''
-        query_proj   = self.query_embedding(query)
+        query_proj   = self.query_embedding(query, **query_kwargs)
         document_emb = self.doc_emb(document)
         # If we have a single document to match against each query, we have
         # to reshape the tensor to compute a simple dot product.
