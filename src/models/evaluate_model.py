@@ -1,5 +1,4 @@
-import pdb
-
+from tqdm import tqdm
 from sklearn.neighbors import NearestNeighbors
 import numpy as np
 
@@ -31,7 +30,14 @@ def evaluate(nvsm, device, eval_loader, recalls, loss_function):
     nn_docs.fit(doc_embs)
     total_query  = 0
     doc_hit_at_k = [0] * len(recalls)
-    for i, (n_grams, doc_ids) in enumerate(eval_loader):
+    tqdm_eval_loader = tqdm(
+        enumerate(eval_loader),
+        desc  = 'Eval batch',
+        total = len(eval_loader),
+        ncols = 70,
+        leave = False
+    )
+    for i, (n_grams, doc_ids) in tqdm_eval_loader:
         total_query += n_grams.shape[0]
         n_grams      = n_grams.to(device)
         n_gram_embs  = nvsm.query_embedding(n_grams)
