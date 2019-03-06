@@ -49,13 +49,13 @@ def main():
     model_folder          = Path('../../models')
     data_folder           = Path('../../data/processed')
     model_path            = model_folder / 'nvsm_bert.pt'
-    batch_size            = 120 # for 150, 8053 / 8113MB GPU memory, to tweak
+    batch_size            = 140 # for 150, 8053 / 8113MB GPU memory, to tweak
     epochs                = 3
     docs, tokenizer       = load_data(
         data_folder,
         pretrained_model
     )
-    docs = docs[:20]
+    # docs = docs[:20]
     doc_names             = [doc['name'] for doc in docs]
     n_grams, document_ids = create_dataset(
         tok_docs  = [doc['tokens'] for doc in docs],
@@ -94,28 +94,28 @@ def main():
         warmup = 0.1,
         t_total = len(train_loader) * epochs
     )
-    # train(
-    #     nvsm          = nvsm,
-    #     device        = device,
-    #     optimizer     = optimizer,
-    #     epochs        = epochs,
-    #     train_loader  = train_loader,
-    #     eval_loader   = eval_train_loader,
-    #     k_values      = k_values,
-    #     loss_function = loss_function,
-    #     lamb          = lamb,
-    #     print_every   = 500
-    # )
+    train(
+        nvsm          = nvsm,
+        device        = device,
+        optimizer     = optimizer,
+        epochs        = epochs,
+        train_loader  = train_loader,
+        eval_loader   = eval_train_loader,
+        k_values      = k_values,
+        loss_function = loss_function,
+        lamb          = lamb,
+        print_every   = 500
+    )
     torch.save(nvsm.state_dict(), model_path)
     nvsm.eval()
-    # recall_at_ks = evaluate(
-    #     nvsm          = nvsm,
-    #     device        = device,
-    #     eval_loader   = eval_loader,
-    #     recalls       = k_values,
-    #     loss_function = loss_function,
-    # )
-    # print(generate_eval(k_values, recall_at_ks))
+    recall_at_ks = evaluate(
+        nvsm          = nvsm,
+        device        = device,
+        eval_loader   = eval_loader,
+        recalls       = k_values,
+        loss_function = loss_function,
+    )
+    print(generate_eval(k_values, recall_at_ks))
     queries_text          = [
         'violence king louis decapitated',
         'domain language translate',
