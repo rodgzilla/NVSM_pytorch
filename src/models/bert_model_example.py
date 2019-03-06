@@ -31,12 +31,14 @@ def create_dataset(tok_docs, tokenizer, n):
     n_grams      = []
     document_ids = []
     unk_tok_id   = tokenizer.vocab['[UNK]']
+    cls_tok_id   = tokenizer.vocab['[CLS]']
+    sep_tok_id   = tokenizer.vocab['[SEP]']
     for i, doc in enumerate(tok_docs):
         doc_tok_ids = [tokenizer.vocab[tok] for tok in doc]
         for n_gram in [doc_tok_ids[i : i + n] for i in range(len(doc) - n)]:
             if all(tok == unk_tok_id for tok in n_gram):
                 continue
-            n_grams.append(n_gram)
+            n_grams.append([cls_tok_id] + n_gram + [sep_tok_id])
             document_ids.append(i)
 
     return n_grams, document_ids
@@ -47,12 +49,12 @@ def main():
     model_folder          = Path('../../models')
     data_folder           = Path('../../data/processed')
     model_path            = model_folder / 'nvsm_bert.pt'
-    batch_size            = 150 # 8053 / 8113MB GPU memory, to tweak
+    batch_size            = 120 # for 150, 8053 / 8113MB GPU memory, to tweak
     docs, tokenizer       = load_data(
         data_folder,
         pretrained_model
     )
-    # docs = docs[:10]
+    docs = docs[:20]
     doc_names             = [doc['name'] for doc in docs]
     n_grams, document_ids = create_dataset(
         tok_docs  = [doc['tokens'] for doc in docs],
