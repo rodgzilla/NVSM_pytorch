@@ -9,6 +9,7 @@ from utils          import create_dataset, create_pytorch_datasets, create_query
                            evaluate_queries
 from train_model    import train
 from evaluate_model import evaluate, generate_eval
+from evaluate_bert  import evaluate_queries_bert
 
 from nvsm_bert import NVSMBERT, loss_function
 
@@ -114,7 +115,7 @@ def main():
     #     recalls       = k_values,
     #     loss_function = loss_function,
     # )
-    print(generate_eval(k_values, recall_at_ks))
+    # print(generate_eval(k_values, recall_at_ks))
     queries_text          = [
         'violence king louis decapitated',
         'domain language translate',
@@ -133,11 +134,11 @@ def main():
         'graph, dimension and components',
         'inner product vertex'
     ]
-    evaluation_results    = evaluate_queries(
+    evaluation_results = evaluate_queries_bert(
         nvsm,
         queries_text,
         doc_names,
-        stoi,
+        tokenizer,
         batch_size,
         device
     )
